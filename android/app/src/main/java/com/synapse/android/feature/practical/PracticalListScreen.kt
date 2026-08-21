@@ -143,7 +143,7 @@ private fun StationRow(station: Practical, bestPct: Int?, attempts: Int?, onClic
                 }
             }
             Text(
-                "${station.minutes ?: 8} min · ${station.marks ?: 0} marks · ${station.difficulty}",
+                "${station.minutes ?: 8} min · ${station.marks} marks · ${station.difficulty}",
                 style = MaterialTheme.typography.bodySmall,
             )
             Text(

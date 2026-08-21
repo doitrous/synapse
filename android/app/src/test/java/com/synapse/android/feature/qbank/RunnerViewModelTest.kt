@@ -257,7 +257,16 @@ class RunnerViewModelTest {
             }
         }
 
-        withTimeout(10_000) { ticker.done.await() }
+        // A hang detector, not a performance assertion. Three thousand ticks
+        // is three thousand real persist() round-trips through Room while a
+        // second thread hammers goTo(), and how long that takes is a fact
+        // about the machine, not about the code under test -- on a loaded CI
+        // box it can be several times what it is on a developer's laptop.
+        // Ten seconds was close enough to the real figure to fail there and
+        // pass here, which is the one outcome a test like this must not have.
+        // The tick count stays where it is: the value of this test is that
+        // the I/O is real and there is enough of it to lose a tick in.
+        withTimeout(120_000) { ticker.done.await() }
         mutatorJob.cancelAndJoin()
 
         assertFalse("elapsed must never be observed going backwards while ticking", everDecreased)

@@ -26,7 +26,12 @@ data class Practical(
     val type: String,
     val difficulty: String,
     val minutes: Int?,
-    val marks: Int?,
+    /**
+     * What the station is out of. Never null: an unmarked station is worth
+     * [DEFAULT_STATION_MARKS], which is what the web gives it -- see
+     * [Practical.project].
+     */
+    val marks: Int,
     val learningObjective: String?,
     /** What the candidate is told before they start. */
     val candidateInstructions: String?,
@@ -134,6 +139,12 @@ data class Practical(
     }
 }
 
+/**
+ * What a station is out of when nobody said: `|| 20` in
+ * `src/lib/useLivePracticals.ts:80`.
+ */
+const val DEFAULT_STATION_MARKS = 20
+
 /** Builds a sittable practical from a ledger item. */
 object PracticalProjection {
 
@@ -151,7 +162,17 @@ object PracticalProjection {
             type = fields?.get("Type")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() } ?: "Practical",
             difficulty = fields?.get("Difficulty")?.stringOrNull()?.trim() ?: "Moderate",
             minutes = fields?.get("Duration")?.stringOrNull()?.trim()?.toIntOrNull(),
-            marks = fields?.get("Marks")?.stringOrNull()?.trim()?.toIntOrNull(),
+            // `marks: Number(i.fields.Marks) || 20` in
+            // `src/lib/useLivePracticals.ts:80`. This read `?: 0` and left
+            // the fallback to the one screen that showed it, so a station an
+            // author had not given a mark total to read as "0 marks" here
+            // and "20 marks" on the site -- and anything else that came to
+            // use this field would have inherited the zero.
+            //
+            // `||` in TypeScript is falsy, not nullish: an authored "0" is
+            // 20 there too, hence the takeIf rather than a plain elvis.
+            marks = fields?.get("Marks")?.stringOrNull()?.trim()?.toIntOrNull()?.takeIf { it != 0 }
+                ?: DEFAULT_STATION_MARKS,
             learningObjective = data?.get("learningObjective")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() },
             candidateInstructions = data?.get("candidateInstructions")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() }
                 ?: fields?.get("Candidate instructions")?.stringOrNull()?.trim()?.takeIf { it.isNotEmpty() },

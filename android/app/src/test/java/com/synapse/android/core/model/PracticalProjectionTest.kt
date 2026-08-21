@@ -29,6 +29,21 @@ class PracticalProjectionTest {
     }
 
     @Test
+    fun `a station nobody gave a mark total is worth twenty, not nothing`() {
+        // `Number(i.fields.Marks) || 20` in src/lib/useLivePracticals.ts:80.
+        // Falsy, not nullish -- so an authored zero takes the fallback too,
+        // on the site and here.
+        val unmarked = osce.replace(""""Marks":"20",""", "")
+        assertEquals(DEFAULT_STATION_MARKS, PracticalProjection.project(item(unmarked))!!.marks)
+
+        val zero = osce.replace(""""Marks":"20"""", """"Marks":"0"""")
+        assertEquals(DEFAULT_STATION_MARKS, PracticalProjection.project(item(zero))!!.marks)
+
+        val nonsense = osce.replace(""""Marks":"20"""", """"Marks":"lots"""")
+        assertEquals(DEFAULT_STATION_MARKS, PracticalProjection.project(item(nonsense))!!.marks)
+    }
+
+    @Test
     fun `type falls back to Practical rather than to an empty label`() {
         val raw = osce.replace(""""Type":"OSCE station",""", "")
         assertEquals("Practical", PracticalProjection.project(item(raw))!!.type)
