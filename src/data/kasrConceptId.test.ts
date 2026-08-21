@@ -5,7 +5,7 @@ import { conceptHash, mintConceptId, subjectCollisions } from '../../scripts/kas
 /**
  * The property the whole Kasr concept scheme rests on, and the one hole in it.
  *
- * A concept ID is minted from the canonical key alone, so two sessions
+ * A concept ID is minted from the module and the canonical key, so two sessions
  * authoring the same material converge on one ID instead of forking. That is
  * what lets two lanes work one module without a shared lock.
  *
@@ -13,31 +13,37 @@ import { conceptHash, mintConceptId, subjectCollisions } from '../../scripts/kas
  * key filed under two subjects therefore mints two IDs that differ in three
  * characters, nothing at import time notices, and a student's mastery of one
  * idea splits across both.
+ *
+ * The module *is* hashed, and deliberately: two modules teaching the same idea
+ * are two concepts, and §4 of the authoring manual is how that duplicate gets
+ * found rather than the hash. Every call below names it, because the parameter
+ * has no safe default at a call site that does not care which one it means.
  */
+const MODULE = '101 ISK'
 
 describe('A concept id is a function of its canonical key', () => {
   test('the same key mints the same id every time', () => {
-    assert.equal(mintConceptId('haem', 'decidua-definition-parts-fates'),
-      mintConceptId('haem', 'decidua-definition-parts-fates'))
+    assert.equal(mintConceptId(MODULE, 'haem', 'decidua-definition-parts-fates'),
+      mintConceptId(MODULE, 'haem', 'decidua-definition-parts-fates'))
   })
 
   test('different keys mint different ids', () => {
-    assert.notEqual(mintConceptId('haem', 'platelet-granule-types-and-contents'),
-      mintConceptId('haem', 'platelet-count-and-thrombocytopenia'))
+    assert.notEqual(mintConceptId(MODULE, 'haem', 'platelet-granule-types-and-contents'),
+      mintConceptId(MODULE, 'haem', 'platelet-count-and-thrombocytopenia'))
   })
 
   test('two sessions authoring the same key converge without talking to each other', () => {
     // Why the scheme exists. Nothing coordinates these two calls.
-    const oneLane = mintConceptId('msk', 'elbow-joint-type-bones-ligaments')
-    const otherLane = mintConceptId('msk', 'elbow-joint-type-bones-ligaments')
+    const oneLane = mintConceptId(MODULE, 'msk', 'elbow-joint-type-bones-ligaments')
+    const otherLane = mintConceptId(MODULE, 'msk', 'elbow-joint-type-bones-ligaments')
     assert.equal(oneLane, otherLane)
   })
 
   test('the subject changes only the prefix, which is the hole this file exists for', () => {
-    const dev = mintConceptId('dev', 'decidua-definition-parts-fates')
-    const msk = mintConceptId('msk', 'decidua-definition-parts-fates')
+    const dev = mintConceptId(MODULE, 'dev', 'decidua-definition-parts-fates')
+    const msk = mintConceptId(MODULE, 'msk', 'decidua-definition-parts-fates')
     assert.notEqual(dev, msk, 'two ids')
-    assert.equal(conceptHash('decidua-definition-parts-fates'), dev.slice('CON-DEV-'.length))
+    assert.equal(conceptHash(MODULE, 'decidua-definition-parts-fates'), dev.slice('CON-DEV-'.length))
     assert.equal(dev.slice('CON-DEV-'.length), msk.slice('CON-MSK-'.length),
       'and they share a hash body, which is what makes them one concept minted twice')
   })
