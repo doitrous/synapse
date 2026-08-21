@@ -2865,3 +2865,57 @@ on the module's own OWED ledger instead.
 
 **Separate the halves of a red before fixing it.** One half was a real absence to own; the other
 was nine missing keys to supply. Fixing them the same way would have been wrong twice.
+
+### The orphan sweep, fixed — and verified in both directions
+
+`removeOrphans` read the whole `written/` directory and deleted anything the current run had not
+just written, **so every other module's file looked exactly like output whose paper had been
+unregistered.** From a bare directory read there was nothing to say, which is why the commit
+said nothing.
+
+**The fix is "cannot reach", not "knows better":** the sweep is scoped to the prefix that
+`slug()` itself builds filenames from — **the same constant, not a second literal beside it.**
+
+> The failure was never the literal being wrong. It was **a sweep whose idea of "mine" could
+> drift from the generator's** — and two copies of `'101-ISK-'` can drift where one cannot.
+
+**Verified in both directions, because a sweep that stopped deleting genuine orphans would be
+this bug wearing the fix as a disguise:**
+
+```
+planted 104-CPS-PROBE-written.md        -> survives a full regeneration untouched
+planted 101-ISK-STALE-2019-written.md   -> still removed, and named in the output
+```
+
+`104-CPS-EOY-2025-written.md` is **restored on `main`**; `medical:batches-present` clears on its
+own.
+
+### Read the shape of your diff, not only its content
+
+The lane's own account of what it missed, and it is the most portable sentence in this section:
+
+> **I read the *content* of my diff and not its *shape*.**
+
+`git diff --stat` showing four-figure deletions in a directory the commit had no business
+touching was available before the push. Content review answers *"is this change right?"*. Shape
+review answers *"is this the change I meant to make?"* — and only the second catches a sweep.
+
+## With `main` moving every two minutes, every report about it is stale by default
+
+**Three consecutive stale reports, from three different lanes, in one stretch:**
+
+- I reported 17 `published_sections` errors and nine missing `canonical_key` — **all already
+  fixed.**
+- The reporting lane relayed the same to two others as live — **it had read the same stale tree.**
+- That lane then reported `medical:citations` red for `src_d98abbe78377e7262afc` on nine concepts
+  — **verified just now: 0 occurrences, 0 `resource_ids` blocks. Already removed.**
+
+Nobody was careless. `main` moves roughly every two minutes, so **a red observed and a red
+reported are different facts**, and the gap between them is where all three landed.
+
+> **Fetch at the moment of reporting, not at the moment of observing — and say when you
+> checked.** A finding about `main` without a timestamp is a claim about a tree that no longer
+> exists.
+
+That the source ID genuinely appears in no manifest row is confirmed — so it was a real error
+while it existed, and reporting it was right. Only its tense was wrong.
