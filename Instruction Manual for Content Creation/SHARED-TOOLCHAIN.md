@@ -411,3 +411,31 @@ cache before trusting it.
 
 The manifest's `textLayer` was correct for all 69 sources in one lane and all 51 in another;
 the two known errors are concentrated in a third lane's set, not corpus-wide.
+
+### The `haem` convention — settled, so nobody re-decides it
+
+Set by the 101 lane as the first to mint non-legacy concepts into `CON-HEM-*`:
+
+> **The `CON-` code is a taxonomy-namespace label. The subject is a separate field.**
+
+So `CON-HEM-*` holding both legacy `subjectId: 'medical'` records and new `subjectId:
+'haem'` ones is **correct and not a collision**. What would be wrong is **inferring subject
+from code** — which is the same error `systemFor` now refuses for `pharm`. Conform to this
+rather than re-deciding it.
+
+### What the label search actually catches
+
+Running it across all 1,718 live records for 60 Year-1 concepts found no duplicates — but
+it found a **contradiction**, which is the failure mode a subject search can never reach:
+
+- new: `megakaryocyte-and-bone-marrow-identification` — "…the megakaryocyte, the largest
+  cell with a single multilobed nucleus"
+- live: `CON-HEM-7EBD069E615270` — "Fat cells are the largest cells in bone marrow"
+
+The new concept's *definition* is right (fat cells largest of the **stroma**; megakaryocyte
+50–70 µm) but its **label alone reads as contradicting a record already in the graph**.
+Resolved with a `conflicts` line naming the record. A subject-scoped search returns nothing
+for `haem`; the label search found it in one pass.
+
+**So the search is not only a duplicate check.** Two records that disagree are worse than
+two that overlap: a student meets both and neither is marked as contested.
