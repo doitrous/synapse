@@ -697,7 +697,7 @@ five papers and the department's own model answer ask for them where an EM-only 
 omitted them. So an MCQ about heterolysosomes or multivesicular bodies belongs to **that**
 concept rather than a new one.
 
-### Three format bugs in shared code — two landed, one outstanding
+### Three format bugs in shared code — one landed, two outstanding
 
 All three are the same bug in different files: a format-aware check that only ever learned
 about one family of formats.
@@ -708,11 +708,21 @@ failed to match and the part vanished**, and the question came back "no written_
 nothing saying a mark scheme had been dropped on the floor. Now `(\d+(?:\.\d+)?)`. Found
 independently by two lanes, which suggests more of it in the corpus than either saw.
 
-**`bulkImport.ts:806` — `matching` was missing from the `correct_answer` exemption. Landed.**
-A matching batch was refused with "Correct answer is required" for a column matching
-questions do not have. Now expressed as *what needs the column* — `isChoiceFormat(format) &&
-format !== 'mcq_multi'` — rather than a list, so it cannot go stale when a thirteenth format
-arrives.
+**`bulkImport.ts:797-798` — `matching` is missing from the `correct_answer` exemption. NOT
+landed.** A matching batch is refused with "Correct answer is required" for a column matching
+questions do not have. `main` still reads:
+
+```js
+.filter((field) => !((written || format === 'mcq_multi' || format === 'labeling'
+  || format === 'completion') && field.key === 'correct_answer'))
+```
+
+**Do not confuse this with `:806`**, four lines below, which is the A–F **range** check and has
+used `isChoiceFormat` for a while. Both mention `isChoiceFormat`, both sit in the same
+function, and grepping for it finds the wrong one — the bug is in the `.filter()`, not the
+range check. The fix expresses the exemption as *what needs the column* —
+`isChoiceFormat(format) && format !== 'mcq_multi'` — rather than a list, so it cannot go
+stale when a thirteenth format arrives.
 
 **`validate-content-batch.mjs:216` — `matching`, `completion` and `labeling` fall through to
 the lettered-options branch. NOT yet landed.** They come back "0 options — the contract is 4
@@ -762,3 +772,46 @@ promising **pages**: *"1554 pages, 33 of them by OCR"*, where the truth was **75
 across 32 files**. A reader takes 33/1554 as "OCR was negligible here" when OCR was **half
 that corpus**, which inverts the reliability judgement they should make about every figure
 below it. A wrong unit in a summary line is worse than a missing one.
+
+### Proving a validator fix: use a probe batch, not a grep
+
+The `bulkImport.ts` error above was mine — I grepped for a phrase, found it four lines from
+the bug, and reported the fix as landed when it was not. **Check the file, not the symptom**,
+and prove a format fix end to end with a minimal batch built to earn exactly two known
+errors:
+
+```
+main_concept CON-FND-0000000000000 is not a concept that exists
+library_ids ART-FND-PROBE is not an article that exists
+```
+
+Deliberately fake IDs, so anything *else* the validator says is the bug under test. Before the
+fixes the same file also returned "Correct answer is required", "0 options — the contract is 4
+to 5" and "correct answer A is not one of the filled options". A matching question could not
+be validated at all.
+
+### A diagram question must not be rewritten into prose
+
+§6 says never invent a URL and never describe an image as though it were there. There is a
+third move to refuse, and it is the tempting one: **rewriting the question so the missing
+figure stops mattering.**
+
+"Name the enzyme that converts arachidonic acid to PGH2" is answerable without the diagram —
+and it hands the student the pathway position the original made them read off the figure. The
+question is no longer the question. **Leave it unchanged and let it wait for the asset.**
+
+How much of a numbered diagram is recoverable differs per figure, and the request should say
+which. One paper's Diagram (2) has its numbering fully determined by its own sub-questions;
+Diagram (3)'s third blank is fixed by its mark value, but blanks 1 and 2 carry identical
+sub-questions and **cannot** be told apart from the text — so that ordering is recorded as
+unverified rather than asserted.
+
+### A concept must not point at a claim the evidence pass could not support
+
+Compute `articleIds` / `resourceIds` / `atomicClaimIds` from a per-chapter plan, not by hand
+in the seed — a seed should say what the paper asked and nothing about who teaches it.
+
+Carry an `unsupportedClaims` list alongside: **a claim with no verbatim span found is never
+written, and the concept must not reference it.** Otherwise the audit fails with `references
+unknown claim` — and worse, the concept would *look* supported. Not hypothetical: some
+concepts come off exam questions the department book never states.
