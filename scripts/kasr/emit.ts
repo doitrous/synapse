@@ -96,7 +96,7 @@ direct_statement
 ## conflicts
 ${(seed.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${seed.uncertainty ?? '' || '[clear]'}
+${seed.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
 ${conceptTail()}`
@@ -380,7 +380,7 @@ direct_statement
 ## conflicts
 ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ## uncertainty
-${concept.uncertainty ?? '' || '[clear]'}
+${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
 ${conceptTail()}
