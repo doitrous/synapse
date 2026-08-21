@@ -2274,3 +2274,60 @@ and the honest output is the ambiguity itself.
 
 Two agents on the same brief also diverged: identical intent stored as `None` in one subject
 and `[]` in another. **A convention held in a brief is not held; only a check holds it.**
+
+### Grep for `"[clear]"` **with the quotes**
+
+Correcting the instruction I circulated. `grep '\[clear\]'` over the emitted JSON **also matches
+legitimate list values** in some shapes, so it is noisy and a lane may dismiss a real hit as one
+of them.
+
+```bash
+npm run medical:simulate -- --emit
+grep '"\[clear\]"' /tmp/sim-<SCOPE>.json     # a JSON string value
+```
+
+**A quoted string value is the form only a text column can produce.** A list column storing the
+sentinel correctly becomes `[]` and cannot match it.
+
+### A generator that cannot emit the bug beats a rule that says not to
+
+The right end state for this whole class. `batchFile()` — **the single function every generated
+batch passes through** — now **refuses** to write a batch putting `[clear]` on a text column,
+naming the offending columns and what to do instead.
+
+Controls, because a guard that cannot fail proves nothing:
+
+```
+list column with [clear]    -> allowed   (correct)
+text column with [clear]    -> refused   (correct)
+exclusion_reason [clear]    -> refused   (correct)
+text column, empty block    -> allowed   (correct)
+```
+
+**The text-column list is derived from the probe, not read off the source**, and the comment
+says so — otherwise the guard inherits exactly the staleness the probe exists to prevent.
+
+This is the answer to *"re-copy the file"* not being a fix that survives the next stale copy.
+The generator's fix lived in `scalar()` inside `conceptPresence` in `emit.ts`, verified by
+deleting the batch and regenerating from scratch rather than by inspection:
+
+```
+rm concept/102-INT-concepts.md && build-batches.ts "102 INT"   -> 38 concepts
+grep '"\[clear\]"' /tmp/sim-102-INT.json                       -> 0
+```
+
+**Answer by test, not by inspection** — the lane doubted its own clean result on the grounds
+that it might be clean *downstream* rather than *at source*, which was the right thing to
+doubt.
+
+### Why `exclusionReason` is different in kind
+
+The other three sentinel-poisoned columns are **a missing value dressed as a present one**.
+`exclusionReason` is not:
+
+> A non-null value **means the concept was excluded.** So thirty-nine records were not merely
+> wrong — each was asserting **"do not use me — reason: [clear]"**, through validation,
+> simulation and the field audit, all green, invisible in the source.
+
+**A field that is empty tells you nothing. A field that is confidently wrong tells you something
+false — and every gate agreed with it.**
