@@ -262,6 +262,7 @@ Every statement rests on one source, the department book. No independent verific
 The book ends the relative refractory period when the membrane potential "returns to its resting level", which by its own account happens twice — once at the end of repolarisation and again after hyperpolarisation. Which return it means is unresolved and is not asserted here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 

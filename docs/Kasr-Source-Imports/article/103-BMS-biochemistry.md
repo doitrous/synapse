@@ -202,6 +202,7 @@ ART-103-BIO-HMP-PATHWAY-AND-G6PD: supplies the NADPH the glutathione arm of pero
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: vitamins C and E are the scavenger antioxidants named here, and the matching question tests which is water-soluble and which lipid-soluble
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -277,6 +278,7 @@ Every statement rests on one source, the department book. No independent verific
 The book asserts that bilirubin and uric acid "function as antioxidants" without giving the reactions, the conditions, or any measure of how much of total antioxidant capacity they account for. The claim is taught as the book states it and is not extended.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -442,6 +444,7 @@ ART-103-BIO-JAUNDICE-AND-BILIRUBIN: where the haemolysis of favism ends up, as u
 ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT: the other half of red cell carbohydrate metabolism, and the half that does make ATP
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -516,6 +519,7 @@ The book calls G6PD deficiency "the most common human enzymopathy" and gives no 
 The book states that the only treatment is avoidance and transfusion during a crisis. Whether that is still the department's teaching, and what it means for a patient already haemolysing, is treatment content and is not extended here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -671,6 +675,7 @@ ART-103-BIO-KETOSIS: what happens to acetyl-CoA when oxaloacetate is drawn away 
 ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT: the pathway that feeds the cycle, and the cell that has no cycle at all
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -729,6 +734,7 @@ Every statement rests on one source, the department book. No independent verific
 The book's regulation diagram marks ADP and calcium as activators of citrate synthase while its prose gives the ATP/ADP ratio rather than ADP alone. The two are not reconciled in the source and are not reconciled here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -892,6 +898,7 @@ ART-103-BIO-HMP-PATHWAY-AND-G6PD: the other branch of red cell glucose metabolis
 ART-103-BIO-TCA-KEY-ENZYMES: the pathway the red cell does not have, and the reason its yield stops at two ATP
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -970,6 +977,7 @@ The book gives no figure for what proportion of glycolytic flux takes the shunt,
 The physiological consequences of 2,3-BPG — the position of the oxygen dissociation curve, the rise in anaemia and at altitude, the fall in stored blood — are not stated in any 103 BMS source and are not asserted here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1141,6 +1149,7 @@ ART-GIT-TOP-E391F29EBF: the live fatty liver article, which covers the other rou
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: oxidation of LDL is the step that turns a delivered particle into a plaque
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1229,6 +1238,7 @@ No treatment for either disorder is stated, because the book's lipoprotein chapt
 The generalisation "low plasma VLDL causes fatty liver" is assembled from the book's account of VLDL function and its account of abetalipoproteinaemia; the book never writes the general sentence. The citation should quote both.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1377,6 +1387,7 @@ ART-103-BIO-TCA-KEY-ENZYMES: the cycle that stops for want of oxaloacetate, whic
 ART-103-BIO-NITROGEN-BALANCE: starvation appears in both, as a cause of ketosis and as a cause of negative nitrogen balance
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1446,6 +1457,7 @@ The book gives no threshold at which ketonaemia becomes ketoacidosis, and no def
 No treatment is stated. Management of diabetic ketoacidosis is emergency content, is not in any 103 BMS source, and is not written here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1602,6 +1614,7 @@ ART-103-BIO-KETOSIS: starvation appears in both, and the ketone bodies are what 
 ART-103-BIO-PHENYLKETONURIA: the case where restricting one amino acid is the treatment rather than the disease
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1671,6 +1684,7 @@ The book gives no figure for an adequate protein intake and no Egyptian referenc
 The book lists lactation under loss of protein while listing pregnancy under positive balance, without reconciling the two. That is left as the book has it.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1856,6 +1870,7 @@ ART-103-BIO-NITROGEN-BALANCE: why removing one essential amino acid from a diet 
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: tetrahydrobiopterin is a coenzyme like the vitamin-derived ones, and the same distinction between missing enzyme and missing coenzyme applies
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2119,6 +2134,7 @@ ART-REN-TOP-AD3B2EA126: the live purine and pyrimidine metabolism article, which
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: uric acid is an antioxidant as well as a crystal, which is the same molecule seen from the other end
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2400,6 +2416,7 @@ ART-HEM-TOP-B697DE3AAD: the live anaemia classification article, where the haemo
 ART-103-BIO-HMP-PATHWAY-AND-G6PD: G6PD deficiency is one of the book's own causes of haemolytic jaundice, and the point at which the two articles meet
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2680,6 +2697,7 @@ ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: where vitamins C and E appear as scavenger 
 ART-103-BIO-PHENYLKETONURIA: tetrahydrobiopterin is a coenzyme like these, and the same distinction between a missing enzyme and a missing coenzyme decides the treatment
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2779,6 +2797,7 @@ No Egyptian prevalence data exists in the corpus for any vitamin deficiency, and
 The book names the bacterial enzyme sulfonamides inhibit only as "the enzyme needed to incorporate PABA to form folic acid", so no enzyme name is given. No dose is stated for either drug and none is written.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 

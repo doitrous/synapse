@@ -332,7 +332,7 @@ Kasr Al Ainy Physiology department book for module 103 BMS, "Nerve and Muscle", 
 Every statement rests on the Kasr Al Ainy Physiology department book alone. No independent verification against an international physiology reference has been attached, and no claim here has been through faculty review.
 
 ## conflicts
-
+[clear]
 
 ## last_reviewed
 
@@ -591,7 +591,7 @@ Kasr Al Ainy Physiology department book for module 103 BMS, "Nerve and Muscle", 
 Every statement rests on the Kasr Al Ainy Physiology department book alone. No independent verification against an international physiology reference has been attached, and no claim here has been through faculty review. The article names drugs because the book names them; it states what they do and never a dose, and it lands as a draft that must not auto-publish.
 
 ## conflicts
-
+[clear]
 
 ## last_reviewed
 

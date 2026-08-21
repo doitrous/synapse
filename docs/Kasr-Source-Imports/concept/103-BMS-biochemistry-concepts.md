@@ -800,6 +800,9 @@ relationships: Walked the 25 concepts under DIS-BIO-T03 and the two live G6PD re
 ## id
 CON-HEM-A1EF4D20C85878
 
+## canonical_key
+teaching.g6pd.pathway
+
 ## label
 G6PD catalyzes an initial glucose-oxidation pathway step that generates NADPH
 
@@ -875,6 +878,7 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p2 | 103 BMS
 "NADPH is a feedback inhibitor of glucose 6-phosphate dehydrogenase."
 
 ## field_notes
+canonicalKey: Copied verbatim from the live record this updates, not minted. It is a discriminating column, so an update carries it unchanged — and `mint-concept-id.mjs` would not reproduce this ID from it, so it must never be re-derived.
 relationships: Updated rather than duplicated after "G6PD", "NADPH" and "pentose" each returned this record. Walked its two SYS-HEM-T02 siblings and the 25 concepts under DIS-BIO-T03; CON-HEM-4F64967BBFBB6F is the only typed neighbour and the causes edge from a deficiency of this enzyme to that haemolysis is owed to a relations file this batch does not author.
 
 ---
@@ -887,6 +891,9 @@ relationships: Updated rather than duplicated after "G6PD", "NADPH" and "pentose
 
 ## id
 CON-HEM-4F64967BBFBB6F
+
+## canonical_key
+teaching.g6pd.hemolysis
 
 ## label
 G6PD deficiency increases RBC susceptibility to oxidant-induced hemolysis
@@ -968,6 +975,7 @@ The book says G6PD deficiency is "the most common human enzymopathy" but gives n
 "The red cell capacity to protect itself from oxidative damage is markedly decreased due to decreased concentration of NADPH which is required by glutathione reductase for the regeneration of reduced glutathione (GSH) for removal of H2O2 (by glutathione peroxidase)."
 
 ## field_notes
+canonicalKey: Copied verbatim from the live record this updates, not minted. It is a discriminating column, so an update carries it unchanged — and `mint-concept-id.mjs` would not reproduce this ID from it, so it must never be re-derived.
 relationships: Updated rather than duplicated after "G6PD", "hemolysis" and "favism" searches; "favism" returns nothing, but "G6PD" returns this record, which is why the short query mattered. Walked the SYS-HEM-T02 siblings — CON-HEM-F2B664C215C912, CON-HEM-CDF561308A4D25 and CON-HEM-2F0FB0B040A268 are all haemolysis records and are loose neighbours. The is_a edge to haemolytic anaemia and the causes edge from this to jaundice are owed to a relations file this batch does not author.
 
 ---
@@ -3471,6 +3479,9 @@ relationships: Walked the 13 records returned for "hemolysis" and the DIS-BIO-T0
 ## id
 CON-HEM-F2B664C215C912
 
+## canonical_key
+teaching.hemolytic-anemia.definition
+
 ## label
 Hemolytic anemia is excessive RBC hemolysis and often has jaundice
 
@@ -3548,6 +3559,7 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
 "Since unconjugated bilirubin is bound to the plasma albumin, it cannot be excreted in the urine, and hence the name 'acholuric jaundice'."
 
 ## field_notes
+canonicalKey: Copied verbatim from the live record this updates, not minted. It is a discriminating column, so an update carries it unchanged — and `mint-concept-id.mjs` would not reproduce this ID from it, so it must never be re-derived.
 relationships: Updated rather than duplicated after "jaundice", "hemolysis" and "haemolytic" all returned this record. The Biochemistry book's own list of causes of haemolytic jaundice includes G6PD deficiency, which is CON-HEM-4F64967BBFBB6F in this same batch, so the causes edge between them is now writable and is owed to a relations file this batch does not author.
 
 ---
@@ -3917,6 +3929,9 @@ relationships: Walked the 16 gout records. Three of them are allopurinol, which 
 ## id
 CON-REN-31708150F8B722
 
+## canonical_key
+teaching.bio2.tophaceous-gout
+
 ## label
 Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones
 
@@ -3995,6 +4010,7 @@ The exam stem says the tophi crystals were found "in urine", while the book desc
 "Gout is a painful inflammation in one or more joints. It is characterized by deposition of nodular masses of uric acid crystals (tophi) in different soft-tissue areas of the body."
 
 ## field_notes
+canonicalKey: Copied verbatim from the live record this updates, not minted. It is a discriminating column, so an update carries it unchanged — and `mint-concept-id.mjs` would not reproduce this ID from it, so it must never be re-derived.
 relationships: Updated rather than duplicated after "gout", "urate" and "tophi" each returned this record. Walked all 16 gout records under DIS-BIO-T06. Four loose neighbours are in related_concept_ids, two of them new in this batch. The caused_by edge to CON-REN-0460ED67059E66 and the treated_by edges to the two drug concepts are owed to a relations file this batch does not author.
 
 ---
@@ -4009,6 +4025,9 @@ relationships: Updated rather than duplicated after "gout", "urate" and "tophi" 
 
 ## id
 CON-REN-E5BAEF03791C8F
+
+## canonical_key
+teaching.bio2.allopurinol.gout
 
 ## label
 Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function
@@ -4092,6 +4111,7 @@ Treatment content; must not auto-publish, and CLM-REN-ALLOPURINOL-MECHANISM-01 i
 "Allopurinol is the drug of choice: It has a structural similarity to hypoxanthine. Allopurinol is oxidized by xanthine oxidase to oxypurinol. The latter binds tightly to xanthine oxidase, inhibiting its ability to oxidize hypoxanthine and xanthine and decreases uric acid formation."
 
 ## field_notes
+canonicalKey: Copied verbatim from the live record this updates, not minted. It is a discriminating column, so an update carries it unchanged — and `mint-concept-id.mjs` would not reproduce this ID from it, so it must never be re-derived.
 relationships: Updated rather than duplicated after "allopurinol", "gout" and "uric" each returned this record. Live state already carries the two halves of the mechanism as separate concepts — CON-REN-B3AEE6F22A046A for the structural similarity and CON-REN-42ED4D5025FB7B for the PRPP effect — so this record is the one that ties them together and they are its loose neighbours. No typed edges are written — this batch authors no relations file, and the mechanism_step_before edge from CON-REN-B3AEE6F22A046A to this concept is owed.
 
 ---
