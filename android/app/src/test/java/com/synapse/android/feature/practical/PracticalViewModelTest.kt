@@ -221,6 +221,63 @@ class PracticalViewModelTest {
         assertEquals(setOf("sec1:0"), second.ticks.value)
     }
 
+    /**
+     * The rotation that used to cost a student their run.
+     *
+     * A configuration change destroys and rebuilds the composition, so the
+     * reader's `LaunchedEffect(station.id)` calls [PracticalViewModel.openStation]
+     * a second time for a station still being sat. What survives the rotation
+     * is the ViewModel itself -- it is held by the navigation entry's
+     * retained `ViewModelStore` -- so the ticks and the clock come through
+     * intact and it was this second call that threw them away: reseeding
+     * [PracticalViewModel.ticks] from the last *banked* run's `checkedItems`,
+     * and putting the clock back to full.
+     */
+    @Test
+    fun `reopening a station already being sat keeps its ticks and its clock`() = runBlocking {
+        seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1","m2"]}]"""))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("sec1:0", true)
+        // A second of the countdown has gone, so a reset clock is visible in
+        // the assertion rather than being hidden by starting at full.
+        withTimeout(5_000) { viewModel.remaining.first { it < 8 * 60 } }
+        val midRun = viewModel.remaining.value
+
+        // Exactly what the recreated composition does.
+        viewModel.openStation("os-1", minutes = 8)
+
+        assertEquals("the ticks of a run in progress must survive a rotation", setOf("sec1:0"), viewModel.ticks.value)
+        assertTrue("and so must the clock", viewModel.remaining.value <= midRun)
+    }
+
+    @Test
+    fun `abandoning a station lets the next open seed from disk again`() = runBlocking {
+        seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1","m2"]}]"""))
+        val viewModel = PracticalViewModel(store, sync)
+        withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+
+        // Bank a run, so there is something on disk to seed from.
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("sec1:0", true)
+        viewModel.finishStation("os-1", marks = 1, outOf = 2)
+        awaitDocument(PRACTICAL_PROGRESS_KEY)
+
+        // Now start a second run, tick something else, and walk out of it.
+        viewModel.openStation("os-1", minutes = 8)
+        viewModel.tick("sec1:1", true)
+        viewModel.abandonStation()
+        assertTrue(viewModel.ticks.value.isEmpty())
+
+        // Reopening is a genuinely new run: it seeds from the banked one, and
+        // the abandoned ticks are nowhere.
+        viewModel.openStation("os-1", minutes = 8)
+
+        assertEquals(setOf("sec1:0"), viewModel.ticks.value)
+    }
+
     @Test
     fun `finishing a self-ticked station writes an attempt with a null mark`() = runBlocking {
         seed(practicalJson("os-1", "OSCE station", markSections = """[{"id":"sec1","title":"Section","items":["m1"]}]"""))
@@ -374,6 +431,12 @@ class PracticalViewModelTest {
 
         viewModel.openStation("os-1", minutes = 8)
 
+        // The fall-back read logs its decode failure on the background scope,
+        // as the sibling test above describes. Wait for it here rather than
+        // ending the test with it still in flight: an exception that lands
+        // after its own test has finished is reported against whichever test
+        // runs next, which makes an unrelated test look broken.
+        delay(300)
         assertTrue(viewModel.ticks.value.isEmpty())
         assertEquals(8 * 60, viewModel.remaining.value)
     }

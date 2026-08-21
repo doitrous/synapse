@@ -14,6 +14,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -280,39 +281,52 @@ private fun QuestionBankRoute(graph: AppGraph) {
 }
 
 /**
- * Where the practical tab is, right now.
+ * Where the practical tab is, right now: the id of the item being read, or
+ * null for the list.
  *
  * A plain local step, not a nested `NavHost` -- the same reasoning as
  * [QuestionBankRoute]: the whole list-then-reader flow lives inside one
  * destination on the outer [NavHost] ([RootScreen.ROUTE_PRACTICAL]), so
  * there is no nested back stack to leave a finished sitting on.
  *
- * Unlike [QuestionBankRoute] there is no on-disk "still running" session to
- * resume into: a station's countdown and a case's or lab's reveal state are
- * transient, held only in [PracticalViewModel] for as long as the reader is
- * open, so this always starts on [PracticalStep.List].
+ * Held in `rememberSaveable`, and as an *id* rather than the [Practical]
+ * itself, which is what makes that possible without making the model
+ * `Parcelable`. A configuration change destroys the composition, so a plain
+ * `remember` here dropped a student out of the station they were sitting and
+ * back to the list -- and reopening it re-seeded the run from disk. The
+ * ViewModel is not what was lost: it belongs to the navigation entry's
+ * retained `ViewModelStore` and carries the ticks and the clock through a
+ * rotation untouched.
+ *
+ * Unlike [QuestionBankRoute] there is still no on-disk "still running"
+ * session to resume into -- a station's countdown and a case's or lab's
+ * reveal state live only in [PracticalViewModel] -- so process death does
+ * start over on the list, which is the honest outcome: the run really is
+ * gone by then.
  */
-private sealed interface PracticalStep {
-    data object List : PracticalStep
-    data class Reader(val practical: Practical) : PracticalStep
-}
-
 @Composable
 private fun PracticalRoute(graph: AppGraph) {
     val viewModel: PracticalViewModel = viewModel(factory = PracticalViewModel.factory(graph.store, graph.sync))
-    var step by remember { mutableStateOf<PracticalStep>(PracticalStep.List) }
+    var openId by rememberSaveable { mutableStateOf<String?>(null) }
+    val items by viewModel.items.collectAsState()
+    val open = openId?.let { id -> items.firstOrNull { it.id == id } }
 
-    when (val current = step) {
-        PracticalStep.List -> PracticalListScreen(
+    when {
+        openId == null -> PracticalListScreen(
             viewModel = viewModel,
-            onOpenPractical = { practical -> step = PracticalStep.Reader(practical) },
+            onOpenPractical = { practical -> openId = practical.id },
         )
 
-        is PracticalStep.Reader -> PracticalReaderScreen(
-            practical = current.practical,
+        open != null -> PracticalReaderScreen(
+            practical = open,
             viewModel = viewModel,
-            onExit = { step = PracticalStep.List },
+            onExit = { openId = null },
         )
+
+        // Restored into a reader before the ledger has come back off disk.
+        // Nothing to draw for the moment it takes; after a rotation there is
+        // no such moment, because the ViewModel never let go of its items.
+        else -> Unit
     }
 }
 

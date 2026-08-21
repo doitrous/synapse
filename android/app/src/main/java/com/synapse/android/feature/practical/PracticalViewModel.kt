@@ -134,6 +134,7 @@ class PracticalViewModel(
     val revealed: StateFlow<Set<String>> = _revealed.asStateFlow()
 
     private var tickerJob: Job? = null
+    private var openStationId: String? = null
     private var openStationMinutes: Int = DEFAULT_STATION_MINUTES
     private var finishedStation: String? = null
     private var caseSessionId: String? = null
@@ -147,7 +148,23 @@ class PracticalViewModel(
      * once-a-second countdown.
      */
     suspend fun openStation(stationId: String, minutes: Int? = null) {
+        // Reopening the run that is already open is not a new run.
+        //
+        // A configuration change destroys and rebuilds the composition, so
+        // the reader's `LaunchedEffect(station.id)` calls this again for a
+        // station the student is still sitting. This ViewModel itself
+        // survives that -- it is held by the navigation entry's retained
+        // ViewModelStore, so [ticks] and [remaining] come through a rotation
+        // intact -- and re-seeding here is what used to throw them away:
+        // every tick since the last banked run replaced by that run's stored
+        // `checkedItems`, and the clock reset to full. An active ticker is
+        // exactly the "a run is in progress" signal, and both ways out of a
+        // run ([finishStation] and [abandonStation]) cancel it, so a genuine
+        // reopen still seeds normally.
+        if (stationId == openStationId && tickerJob?.isActive == true) return
+
         tickerJob?.cancel()
+        openStationId = stationId
         finishedStation = null
         openStationMinutes = minutes ?: DEFAULT_STATION_MINUTES
 
@@ -220,6 +237,7 @@ class PracticalViewModel(
     fun abandonStation() {
         tickerJob?.cancel()
         tickerJob = null
+        openStationId = null
         finishedStation = null
         _ticks.value = emptySet()
         _remaining.value = 0

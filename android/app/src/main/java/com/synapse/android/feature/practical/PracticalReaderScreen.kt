@@ -1,5 +1,6 @@
 package com.synapse.android.feature.practical
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -26,7 +27,7 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -48,7 +49,10 @@ import com.synapse.android.core.model.Practical
  * Every screen below also has a way out that banks nothing. The only forward
  * path out of a station is "Finish station", which writes a real attempt and
  * a station-run fold; a student who opened the wrong item must not have to
- * fake a sitting to leave it.
+ * fake a sitting to leave it. Each reader binds the system back gesture to
+ * that same way out, so backing out of a station stops its clock and drops
+ * its run exactly as the "Back" button does -- without one, back skipped the
+ * reader entirely and left the ticker running for the life of the process.
  */
 @Composable
 fun PracticalReaderScreen(practical: Practical, viewModel: PracticalViewModel, onExit: () -> Unit) {
@@ -56,9 +60,12 @@ fun PracticalReaderScreen(practical: Practical, viewModel: PracticalViewModel, o
         PracticalTab.OSCE -> StationReader(practical, viewModel, onExit)
         PracticalTab.CASES -> CaseReader(practical, viewModel, onExit)
         PracticalTab.LAB -> LabReader(practical, viewModel, onExit)
-        null -> Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
-            Text("This item has no reader.")
-            TextButton(onClick = onExit) { Text("Back") }
+        null -> {
+            BackHandler(onBack = onExit)
+            Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+                Text("This item has no reader.")
+                TextButton(onClick = onExit) { Text("Back") }
+            }
         }
     }
 }
@@ -72,8 +79,9 @@ private fun clock(seconds: Int): String {
  * The in-screen way out, on the same row as the title.
  *
  * Task 15's convention (`PreviousSittingsScreen`): a plain "Back" the
- * student can always see, rather than relying on the system gesture, which
- * on these screens would leave the app rather than the reader.
+ * student can always see, rather than relying on the system gesture alone.
+ * The gesture is bound to the same lambda by each reader's own
+ * [BackHandler], so the two exits are one exit.
  */
 @Composable
 private fun ReaderHeader(title: String, trailing: String? = null, onBack: () -> Unit) {
@@ -92,9 +100,15 @@ private fun ReaderHeader(title: String, trailing: String? = null, onBack: () -> 
 private fun StationReader(station: Practical, viewModel: PracticalViewModel, onExit: () -> Unit) {
     val ticks by viewModel.ticks.collectAsState()
     val remaining by viewModel.remaining.collectAsState()
-    var tab by remember { mutableStateOf(0) }
-    var finished by remember { mutableStateOf(false) }
+    // Saveable, not remembered: a configuration change rebuilds the
+    // composition, and a station that came back on the wrong tab -- or, far
+    // worse, back in the run it had just been finished out of -- is the same
+    // loss the route's own position had.
+    var tab by rememberSaveable { mutableIntStateOf(0) }
+    var finished by rememberSaveable { mutableStateOf(false) }
 
+    // Re-runs after a configuration change. openStation refuses to re-seed a
+    // run it already has open, which is what keeps the ticks and the clock.
     LaunchedEffect(station.id) { viewModel.openStation(station.id, station.minutes) }
 
     val totalItems = station.markSections.sumOf { it.items.size }
@@ -112,6 +126,8 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
             )
             Button(onClick = onExit) { Text("Done") }
         }
+        // The run is already banked; there is nothing left to abandon.
+        BackHandler(onBack = onExit)
         return
     }
 
@@ -120,6 +136,7 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
         viewModel.abandonStation()
         onExit()
     }
+    BackHandler(onBack = leave)
 
     Column(modifier = Modifier.fillMaxSize()) {
         ReaderHeader(station.title, trailing = clock(remaining), onBack = leave)
@@ -187,10 +204,16 @@ private fun StationReader(station: Practical, viewModel: PracticalViewModel, onE
 @Composable
 private fun CaseReader(case: Practical, viewModel: PracticalViewModel, onExit: () -> Unit) {
     val revealed by viewModel.revealed.collectAsState()
-    var index by remember { mutableIntStateOf(0) }
-    var debrief by remember { mutableStateOf(false) }
+    // Saveable for the same reason as the station's tab: a rotation must not
+    // send a student back to decision one of a case they are part-way through.
+    var index by rememberSaveable { mutableIntStateOf(0) }
+    var debrief by rememberSaveable { mutableStateOf(false) }
 
     LaunchedEffect(case.id) { viewModel.openCase(case.id) }
+
+    // A case banks each decision as it is revealed, so backing out of one
+    // loses nothing that was not already saved.
+    BackHandler(onBack = onExit)
 
     if (debrief) {
         Column(
@@ -257,6 +280,9 @@ private fun LabReader(lab: Practical, viewModel: PracticalViewModel, onExit: () 
     val revealed by viewModel.revealed.collectAsState()
 
     LaunchedEffect(lab.id) { viewModel.openLab(lab.id) }
+
+    // As with a case: every revealed question is already banked.
+    BackHandler(onBack = onExit)
 
     val kindLabel = if (lab.type == "Imaging interpretation") "Imaging" else "Lab"
     // As in CaseReader: only the questions the author gave answers to, so
