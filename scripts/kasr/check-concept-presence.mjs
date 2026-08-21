@@ -57,6 +57,14 @@ const POPULATED = [
  * made it *more lenient than the audit it emulates*: it said green where the
  * real thing says red, which is the worst thing a check can do.
  */
+/**
+ * Columns read by `parseSections`, which is neither of the two shapes this
+ * check's probe can distinguish. Must match SECTION_COLUMNS in
+ * `scripts/validate-content-batch.mjs`; if the two drift, one gate demands what
+ * the other refuses.
+ */
+const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media', 'media_recommendations']
+
 const NOTE_EXCUSES = [
   'arabicLabel', 'aliases', 'pitfalls', 'moduleIds', 'microtopicId', 'nanotopicId',
   'approvedFileResourceIds', 'approvedVideoResourceIds', 'lastReviewed', 'reviewDue',
@@ -225,6 +233,22 @@ for (const file of process.argv.slice(2)) {
   const shape = {}
   for (const row of rows) {
     for (const [col, value] of Object.entries(row)) {
+      // A section column is neither text nor list, and the probe cannot tell:
+      // `parseSections` returns an array, so a list of *sections* looks exactly
+      // like a list of strings by return type. Classifying them as lists made
+      // this check demand `[clear]` on `published_sections` while
+      // `validate-content-batch.mjs` refuses it there — two gates with no state
+      // that satisfies both, and following either one breaks the other.
+      //
+      // Their empty is an empty body: `parseSections` returns [] for that, and
+      // stores a section whose body is the word "[clear]" for the sentinel.
+      // Kept in step with SECTION_COLUMNS in `scripts/validate-content-batch.mjs`.
+      if (SECTION_COLUMNS.includes(col)) {
+        if (value?.trim() === '[clear]') {
+          (shape[`${col} is read by parseSections() and holds the literal "[clear]" — that stores a section whose body is the sentinel, not an empty list. Leave the body empty`] ??= []).push(row.id)
+        }
+        continue
+      }
       if (shapeOf[col] === 'list' && value === '') {
         (shape[`${col} is a list column emitted empty — needs [clear], or it stores null where [] was meant`] ??= []).push(row.id)
       }
