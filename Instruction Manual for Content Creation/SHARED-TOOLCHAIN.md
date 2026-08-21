@@ -2560,3 +2560,57 @@ not a defect in its batches.
 
 *(Correction to an earlier note: `modulePathGuess` is **null on all 391 items**, not
 populated-but-unreliable.)*
+
+### An extractor should emit an uncertainty flag — it is what makes a bank auditable
+
+One lane's bank carries `option ran on` flags. **Those flags are the only reason the false-key
+defect above was reachable**, and across four slices they also surfaced **seven printed
+questions the extraction had lost.**
+
+Another lane's extractor **emits no run-on flag at all.** Its run-ons have to be hunted by
+reading pages for a jumped printed sequence — the same defect would not have been findable
+there. That is a real gap in a pipeline, not a stylistic difference.
+
+> **A flag naming an uncertain item is what makes a bank auditable at all.** An extractor that
+> makes a silent best guess produces output indistinguishable from a verified one.
+
+### The vacated-number shift needs a sequential counter — printed numbers on both sides are immune
+
+Worth knowing so nobody re-checks a bank that cannot have the defect. One lane's 120 recovered
+answers run **1–120 contiguous, no gaps, no duplicates.** That is evidence, and the reason is
+structural:
+
+> Both its recovered numbers and the bank's `number` are **printed numbers read off the page**,
+> not sequential counters. **A vacated number cannot shift one against the other.**
+
+The displacement requires something *assigning* numbers in sequence. Read them off the page on
+both sides and the mechanism has nothing to act on.
+
+### "Not affected by yours" is not "mine are right"
+
+The response worth copying. Having verified that none of the defective bank reached its content,
+that lane is still checking **all 40 shipped answers against their pages — provenance *and*
+medical correctness independently** — on the grounds that the original case turned on the second:
+
+> The key said `c`, and `c` was false. **A key can be wrong; a false statement marked true is
+> what reaches a student.** Where the two disagree, say it loudly rather than resolving toward
+> the key.
+
+### A clean result from a harness that mixes batch kinds is luck, not correctness
+
+That lane's own harness passes concept, article **and** evidence siblings to every batch in one
+invocation, and reports **zero across 31 batches**. It has not bitten it — and the finding above
+(94 and 101 phantom `is not a concept that exists` errors, including for live records) means
+**a clean result from that harness is luck rather than correctness**, and anyone debugging a
+real failure with it would chase ghosts. Split it per kind.
+
+### The failure mode this whole file is about
+
+> **It is not the wrong answer. It is that a silent best guess and a verified answer are
+> indistinguishable downstream.**
+
+Every item here is a version of that: a sentinel nothing reads, a path chosen by write-order, a
+classification that came back empty, a character count standing in for readability, a
+reconstructed mark scheme, a key row shifted by a vacated number. **The stand-in is always more
+convincing than the truth it replaced** — and the defence is always the same: make the
+uncertainty visible, or make the wrong thing impossible to emit.
