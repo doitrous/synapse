@@ -11,6 +11,7 @@ import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.config.AppConfig
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.design.ThemePreference
 import okhttp3.OkHttpClient
 
 /**
@@ -36,6 +37,13 @@ import okhttp3.OkHttpClient
  */
 class AppGraph(context: Context, val config: AppConfig) {
     private val http = OkHttpClient()
+
+    // Plain SharedPreferences, not lazy: unlike sessionStore below, this
+    // never reaches into the Keystore and is never affected by whether the
+    // build is configured, so it is built eagerly like database is -- see
+    // ThemePreference's own class doc for why it is never encrypted or
+    // synced.
+    val themePreference = ThemePreference(context.applicationContext)
 
     private val sessionStore: SessionStore by lazy { EncryptedSessionStore(context.applicationContext) }
 

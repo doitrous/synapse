@@ -173,7 +173,7 @@ private fun SignedInNavHost(graph: AppGraph) {
             composable(ROUTE_PRACTICAL) { PracticalRoute(graph) }
             composable(ROUTE_ACCOUNT) {
                 val viewModel: AccountViewModel = viewModel(
-                    factory = AccountViewModel.factory(graph.auth, graph.sync, graph.store),
+                    factory = AccountViewModel.factory(graph.auth, graph.sync, graph.store, graph.themePreference),
                 )
                 AccountScreen(viewModel = viewModel)
             }

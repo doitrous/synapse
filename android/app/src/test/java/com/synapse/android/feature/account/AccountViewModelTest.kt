@@ -10,6 +10,8 @@ import com.synapse.android.core.cache.CortexDatabase
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.config.AppConfig
 import com.synapse.android.core.sync.SyncEngine
+import com.synapse.android.design.CortexThemeChoice
+import com.synapse.android.design.ThemePreference
 import java.time.Instant
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
@@ -41,6 +43,7 @@ class AccountViewModelTest {
     private lateinit var backend: FakeAuthBackend
     private lateinit var auth: AuthModel
     private lateinit var sync: SyncEngine
+    private lateinit var themePreference: ThemePreference
 
     @Before
     fun setUp() {
@@ -48,6 +51,7 @@ class AccountViewModelTest {
         val context = ApplicationProvider.getApplicationContext<Context>()
         database = Room.inMemoryDatabaseBuilder(context, CortexDatabase::class.java).build()
         store = LocalStore(database)
+        themePreference = ThemePreference(context)
         backend = FakeAuthBackend()
         api = SynapseApi(
             baseUrl = server.url("/").toString().trimEnd('/'),
@@ -69,7 +73,7 @@ class AccountViewModelTest {
         server.shutdown()
     }
 
-    private fun viewModel() = AccountViewModel(auth, sync, store)
+    private fun viewModel() = AccountViewModel(auth, sync, store, themePreference)
 
     private fun sessionBody(id: String, email: String) =
         """{"user":{"id":"$id","email":"$email","role":"student","aal":"aal1","mfaRequired":false}}"""
@@ -114,6 +118,19 @@ class AccountViewModelTest {
 
         val signedOut = withTimeout(5_000) { model.ui.first { it.email == null } }
         assertNull(signedOut.email)
+    }
+
+    @Test
+    fun `setTheme changes ui-themeChoice without touching the outbox`() = runBlocking {
+        val model = viewModel()
+        val before = withTimeout(5_000) { model.ui.first() }
+        assertEquals(CortexThemeChoice.LIGHT, before.themeChoice)
+
+        model.setTheme(CortexThemeChoice.DARK)
+
+        val after = withTimeout(5_000) { model.ui.first { it.themeChoice == CortexThemeChoice.DARK } }
+        assertEquals(CortexThemeChoice.DARK, after.themeChoice)
+        assertEquals(0, after.pendingWrites)
     }
 
     private class FakeAuthBackend : AuthBackend {

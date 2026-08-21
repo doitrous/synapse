@@ -1,6 +1,5 @@
 package com.synapse.android.design
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.ColorScheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
@@ -48,6 +47,25 @@ val LightCortexColors = CortexColors(
     success = Color(0xFF1A6E56), successTint = Color(0xFFE3F2EC), onSuccess = Color(0xFFF4FBF8),
     warning = Color(0xFF8A5A0A), warningTint = Color(0xFFFBF0D9), onWarning = Color(0xFFFFFAF0),
     danger = Color(0xFFA8121E), dangerTint = Color(0xFFFCE7E9), onDanger = Color(0xFFFFF7F7),
+)
+
+/**
+ * Warm restates the grounds, inks, rules and tints and inherits everything
+ * else from light -- the fills and the `on-*` pairs are deliberately shared.
+ * A `copy` keeps that true: a token added to light arrives in warm as well,
+ * which is what the CSS cascade does. Ported field-for-field from the
+ * partial override at `:root[data-theme='warm']` (`src/index.css:153-187`).
+ */
+val WarmCortexColors = LightCortexColors.copy(
+    paper = Color(0xFFF7F2EA), surface = Color(0xFFFFFDF9),
+    surface2 = Color(0xFFF1EBE1), inset = Color(0xFFE9E1D4),
+    ink = Color(0xFF1F1B16), ink2 = Color(0xFF675E51), ink3 = Color(0xFF9B9284),
+    line = Color(0xFFE9E0D2), line2 = Color(0xFFD7CCB9),
+    primaryTint = Color(0xFFFDEFEF), primaryLine = Color(0xFFF0C8D1),
+    accentTint = Color(0xFFEEF1F8), accentLine = Color(0xFFCBD8EE),
+    successTint = Color(0xFFE8EFDF),
+    warningTint = Color(0xFFF7EDD7),
+    dangerTint = Color(0xFFF9E6E3),
 )
 
 val DarkCortexColors = CortexColors(
@@ -202,12 +220,23 @@ fun CortexColors.toMaterialScheme(dark: Boolean): ColorScheme {
     }
 }
 
+/**
+ * Renders [content] under the reader's chosen [CortexThemeChoice]. Warm maps
+ * to the light Material scheme -- [WarmCortexColors] restates only the
+ * grounds, inks, rules and tints, so it needs the same `on-*` mapping as
+ * light, never dark's.
+ */
 @Composable
-fun CortexTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable () -> Unit) {
-    val colors = if (darkTheme) DarkCortexColors else LightCortexColors
+fun CortexTheme(choice: CortexThemeChoice, content: @Composable () -> Unit) {
+    val colors = when (choice) {
+        CortexThemeChoice.LIGHT -> LightCortexColors
+        CortexThemeChoice.WARM -> WarmCortexColors
+        CortexThemeChoice.DARK -> DarkCortexColors
+    }
+    val dark = choice == CortexThemeChoice.DARK
     CompositionLocalProvider(LocalCortex provides colors) {
         MaterialTheme(
-            colorScheme = colors.toMaterialScheme(darkTheme),
+            colorScheme = colors.toMaterialScheme(dark),
             typography = CortexTypography,
             content = content,
         )
