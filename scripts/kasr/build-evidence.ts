@@ -70,6 +70,36 @@ function pagesFor(modulePath: string): PageSpans[] {
   return spanDoc.pageSpans.filter((page) => page.page >= from && page.page <= to)
 }
 
+/**
+ * The practical book's plates, as spans a slide-identification concept can cite.
+ *
+ * The department book is written for a written paper: it teaches the blood film
+ * as a chapter, not as a thing to recognise down a microscope. So the concepts
+ * minted from the practical — "reticulocyte supravital identification",
+ * "collagen versus elastic fibre identification" — find little in it, and only
+ * 12% of their claims were evidenced against 30% elsewhere. The book is not
+ * failing them; it is the wrong book.
+ *
+ * The right one is the department's own practical book, whose answer pages say
+ * exactly what a student must see and name. Those are quoted here.
+ *
+ * They are an OCR transcription rather than the page — the practical book has no
+ * text layer — and every citation drawn from them says so, because a span a
+ * reviewer cannot find on the page as written is a span they cannot check.
+ */
+interface Slide {
+  sourceId: string, page: number, title?: string, stain?: string,
+  identifyingFeatures?: string[], askedAs?: string[], subjectPath?: string,
+}
+const slides: Slide[] = (() => {
+  try { return (read('scripts/kasr/extract/practical.json').slides ?? []) as Slide[] }
+  catch { return [] }
+})()
+
+/** The plates filed under a curriculum path. */
+const slidesFor = (modulePath: string) =>
+  slides.filter((slide) => slide.subjectPath === modulePath)
+
 /** `## label` out of a block. `[ \t]*` so a blank value does not eat the next heading. */
 const field = (block: string, label: string) =>
   block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |$)`, 'm'))?.[1].trim() ?? ''
@@ -175,7 +205,25 @@ for (const file of ['101-ISK-concepts.md', '101-ISK-mcq-concepts.md', '101-ISK-p
         }
       }
 
-      const supported = best !== null && best.score >= SUPPORTS
+      let plate: { slide: Slide, span: string, score: number } | null = null
+      if (!best || best.score < SUPPORTS) {
+        for (const slide of slidesFor(modulePath)) {
+          // What the answer page says the student must see, and what it asks.
+          const lines = [slide.title, slide.stain && `stained with ${slide.stain}`,
+            ...(slide.identifyingFeatures ?? []), ...(slide.askedAs ?? [])].filter(Boolean) as string[]
+          for (let start = 0; start < lines.length; start += 1) {
+            for (let length = 1; length <= 4 && start + length <= lines.length; length += 1) {
+              const window = lines.slice(start, start + length).join('; ')
+              if (window.length > 400) break
+              const score = overlap(want, window)
+              if (!plate || score > plate.score) plate = { slide, span: window, score }
+            }
+          }
+        }
+      }
+
+      const supported = (best !== null && best.score >= SUPPORTS)
+        || (plate !== null && plate.score >= SUPPORTS)
       if (claims.has(claimId)) return
       if (supported) evidenced += 1; else unevidenced += 1
       byConcept.set(id, [...new Set([...(byConcept.get(id) ?? []), claimId])])
@@ -209,7 +257,34 @@ no
 concept: ${subjectLabel}
 curriculum: ${modulePath}`)
 
-      if (supported && best) {
+      // Prefer the department book where it reaches; fall back to the plate.
+      if (supported && plate && plate.score >= SUPPORTS && (!best || best.score < SUPPORTS)) {
+        citations.set(claimId, `# Item
+## id
+${stable(`${claimId}:${plate.slide.sourceId}:${plate.slide.page}`, 'CIT')}
+## claim_id
+${claimId}
+## resource_id
+${plate.slide.sourceId}
+## evidence_role
+local_curriculum
+## support_span
+${plate.span}
+## locator_type
+page
+## locator_page
+${plate.slide.page}
+## locator_section
+${modulePath}
+## locator_detail
+Plate on page ${plate.slide.page}${plate.slide.title ? `, "${plate.slide.title}"` : ''}
+## context_note
+From the department's practical book, which is where this faculty says what a student must see and name down the microscope — the department textbook teaches the same tissue as a chapter rather than as a thing to recognise. The book has no text layer, so this span is an OCR transcription of the answer page rather than the page as printed, and a reviewer checking it should expect the wording to differ in small ways.
+## confidence
+${(0.5 + Math.min(0.25, plate.score - SUPPORTS)).toFixed(2)}
+## counts_as_claim_evidence
+yes`)
+      } else if (supported && best) {
         citations.set(claimId, `# Item
 ## id
 ${stable(`${claimId}:${spanDoc.sourceId}:${best.page.page}`, 'CIT')}

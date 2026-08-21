@@ -29,7 +29,7 @@ looks exactly like a file with nothing in it.
 | `concept/108-INT-concepts-pathology.md` | 49 |
 | `concept/108-INT-concepts-pharmacology-updates.md` | 9 |
 | `concept/108-INT-concepts-pharmacology.md` | 40 |
-| `question/101-ISK-mcq.md` | 1659 |
+| `question/101-ISK-mcq.md` | 1654 |
 | `question/104-CPS-mcq.md` | 40 |
 | `question/108-INT-EOY-mcq.md` | 47 |
 | `article/101-ISK-anatomy-2.md` | 11 |
@@ -52,7 +52,7 @@ looks exactly like a file with nothing in it.
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 | `written/101-ISK-FORMATIVE-2025-written.md` | 10 |
 | `evidence/101-ISK-citations.md` | 332 |
-| `evidence/101-ISK-claims.md` | 1134 |
+| `evidence/101-ISK-claims.md` | 1144 |
 | `evidence/101-ISK-resources.md` | 75 |
 | `evidence/104-CPS-citations.md` | 62 |
 | `evidence/104-CPS-claims.md` | 52 |

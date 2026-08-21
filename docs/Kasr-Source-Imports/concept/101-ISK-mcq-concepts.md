@@ -55,7 +55,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  549 questions were excluded and 0 held back for having no
+  554 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -7553,7 +7553,6 @@ src_bb081b0479f7a33666cd | question_book | | p3 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p21 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p10 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
-src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -10460,14 +10459,13 @@ src_6846577508f49244d715 | question_book | | p21 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p22 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
-src_a54bbf7a625ba2b172fc | question_book | | p2 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+0.87
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=0.87
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -12002,7 +12000,6 @@ src_6846577508f49244d715 | question_book | | p11 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p13 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p27 | 101 ISK
-src_a54bbf7a625ba2b172fc | question_book | | p2 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p16 | 101 ISK
 src_6846577508f49244d715 | question_book | | p5 | 101 ISK
@@ -20308,14 +20305,13 @@ src_34c967631e388497dc35 | question_book | | p9 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p13 | 101 ISK
-src_ce4292e31edea7517e7b | question_book | | p4 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.71
+0.63
 ## exam_weight_by_year
-KAU_Y1=0.71
+KAU_Y1=0.63
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -20630,7 +20626,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-ABAB059427EF | CLM-C0BBE882DB2D | CLM-B47CE2FFF4D1 | CLM-4C4EA49F63CE | CLM-0913FFA8D9C8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -21023,7 +21019,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-771AE73BE8C2 | CLM-CB030BD22758 | CLM-BFFBCDD5236F | CLM-7E42C0CB9723 | CLM-074105A41EBF
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -24516,14 +24512,13 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.31
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.31
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
