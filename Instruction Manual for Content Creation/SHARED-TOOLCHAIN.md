@@ -2614,3 +2614,65 @@ classification that came back empty, a character count standing in for readabili
 reconstructed mark scheme, a key row shifted by a vacated number. **The stand-in is always more
 convincing than the truth it replaced** — and the defence is always the same: make the
 uncertainty visible, or make the wrong thing impossible to emit.
+
+---
+
+## The evidence-branch `--with` fix is now pinned by tests
+
+`src/data/validateContentBatch.test.ts` — four tests pinning the resolution scope of the
+evidence branch. **Two lanes fixed that bug independently and neither left a test; now there
+is one.**
+
+**Do not delete `scripts/validate-content-batch.mjs:580`:**
+
+```js
+    ...alongside,
+```
+
+in the `const siblings = [...]` array. Removing it fails two of the four tests with exactly the
+`Concept … does not exist` / `Article … does not exist` errors that one lane's whole claim batch
+hit. **Anyone merging a stale toolchain branch should check that line survives** — it is the
+kind of thing a merge drops silently.
+
+### The temp-directory workaround is obsolete
+
+**Lanes no longer need to copy concept and article batches into the evidence directory to get a
+clean run.** Name them with `--with` at their real paths. If a harness still copies, it is doing
+unnecessary work and creating files that can drift from their originals.
+
+The two traps the tests also pin:
+
+1. **`--with` is not a suppression flag.** A concept named nowhere is still reported missing, and
+   naming an *article* batch does not make a *concept* exist — folding is **by detected kind**.
+2. **Run under bash, not zsh.** The script now **throws a named error** on a sibling list the
+   shell joined into one argument, rather than silently validating against an empty sibling set.
+   If you are scripting it, build an array:
+
+```bash
+args=(); for f in docs/.../concept/*.md; do args+=(--with "$f"); done
+```
+
+Baseline suite is now **1321 pass / 0 fail**, `tsc -b` clean.
+
+### Re-fetch immediately before you push, not before you start verifying
+
+`origin/main` moved **three times during one lane's test run** — roughly every two minutes, from
+lanes in merge-regenerate-push loops.
+
+> **Do not wait for a quiet gap; it may not come.** Run the whole gate, then fetch, confirm zero
+> behind, and push in the same breath. If the fetch shows you behind, **re-merge and re-run the
+> gate** rather than pushing anyway — a gate is only meaningful against the base you actually
+> land on.
+
+This matters most for a long gate: merge, regenerate, byte-compare another lane's batches, id
+stability, full suite. Main **will** move during it.
+
+### Guard against going backwards, not just against changing
+
+A lane about to merge a 152-commit-behind toolchain planned to gate on *"the other lane's
+batches come out byte-identical"*. Its base was stale, and on `main` those batches had already
+moved from **35 columns to 54**.
+
+**Byte-identity against a stale base passes while shipping a regression.** The gate has to name
+the property, not the comparison: *the concept batch must still emit 54 columns*. Same shape as
+a stale registry that deletes what it no longer knows about.
