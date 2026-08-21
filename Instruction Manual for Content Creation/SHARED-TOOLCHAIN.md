@@ -1581,3 +1581,44 @@ row, picked the `… (2) copy.pdf` of a duplicate pair, and got:
 src_078450096f7b08eb1284 is "y1/104 CPS/EOY/EOY Final 104, 199 (2).pdf" in the corpus,
 not "y1/104 CPS/EOY/EOY Final 104, 199 (2) copy.pdf"
 ```
+
+### The coverage check was reading half the evidence — 247 errors to 14
+
+Two bugs in one function, and both are the kind that report a content problem where there
+is none.
+
+**1. Only one direction of the link was counted.** The check built concept→article from an
+article's `related_concepts` and **ignored the concept's own `article_ids`** — even though
+`conceptImport.ts:166` reads that column straight into `articleIds`. Both directions are links
+the importer makes; one was counted. **247 → 14.**
+
+This is the same both-directions point from the other side: earlier the risk was a lane
+*writing* only one direction. Here the tooling was *reading* only one.
+
+**2. Sibling concepts were overwritten rather than merged.** When a concept is authored in two
+batches, **whichever file was listed last decided what taught it.** So the fix for a batch's
+errors could be to reorder its `--with` arguments, which is not a fix at all. Closed the last
+14.
+
+**A batch's error count is evidence about the batch only once the checker is known good.** Both
+of these presented as "your questions have no article", which is exactly what a genuine content
+gap looks like.
+
+### `build-article-links.ts` — the mapping, derived rather than typed
+
+On `main`, with `scripts/kasr/seeds/article-links.json` beside it. Derives the concept↔article
+map from the articles and concepts themselves, **in both directions**.
+
+Measured against the hand-written `ARTICLE_FOR_CONCEPT`:
+
+- **reproduces it exactly — 17 of 17**, no misses, no disagreements
+- **finds 133 further links it lacks** — that is the gap emitting written questions with no
+  `library_ids`
+- **names 47 concepts that no article teaches** — the other half of the problem, and nobody had
+  a list of it before
+
+Reproducing the hand-written map exactly before adding to it is what makes the 133 credible: a
+generator that disagreed with the 17 would be proposing a rewrite, not an extension.
+
+`articles.ts` is **deliberately not rewritten** — wiring it is a one-line change and the file
+belongs to another lane. The generator and its JSON stand alone until ownership is agreed.
