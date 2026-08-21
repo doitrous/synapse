@@ -86,6 +86,56 @@ if (!VALIDATED_KINDS.includes(kind)) {
   process.exit(1)
 }
 
+/**
+ * Fold `--with` siblings in as though already imported.
+ *
+ * Both the question branch and the practical branch resolve concepts against
+ * live state, deliberately — an item pointing at a concept nobody authored is
+ * the failure those checks exist to catch. But a programme authoring concepts,
+ * articles, questions and practicals in one pass has none of them imported yet.
+ *
+ * This started life inside the question branch only, which meant a practical
+ * batch could not be checked against its own sibling concepts at all: 91 errors
+ * on a file whose concepts were sitting in the next directory. One function,
+ * called by both.
+ */
+async function foldInSiblings(concepts, articles, resources) {
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    const kind = detectKind(rows[0] ?? {})
+    for (const row of rows) {
+      const id = row.id?.trim()
+      if (!id) continue
+      if (kind === 'concept') {
+        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
+      }
+      if (kind === 'article' && articles) {
+        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
+      }
+      if (kind === 'resource' && resources) resources.add(id)
+    }
+    notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
+  }
+
+  // An article's `related_concepts` is what puts its ID on the concept record
+  // at import. A concept and an article both waiting to be imported would
+  // otherwise look, to the coverage check, like a concept nothing teaches — so
+  // the same link is made here, from the article side, exactly as the importer
+  // makes it.
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    if (detectKind(rows[0] ?? {}) !== 'article') continue
+    for (const row of rows) {
+      const articleId = row.id?.trim()
+      if (!articleId) continue
+      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean)) {
+        const concept = concepts.get(conceptId)
+        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
+      }
+    }
+  }
+}
+
 if (kind === 'relation') {
   const dir = dirname(file)
   const concepts = []
@@ -141,44 +191,8 @@ if (kind === 'question') {
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
-  // Siblings named with `--with`, folded in as though already imported. Each is
-  // parsed with the same parser and classified by the same detector, so a file
-  // that is not what it claims to be contributes nothing and the question that
-  // depended on it still fails.
-  for (const sibling of alongside) {
-    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
-    const siblingKind = detectKind(siblingRows[0] ?? {})
-    for (const row of siblingRows) {
-      const id = row.id?.trim()
-      if (!id) continue
-      if (siblingKind === 'concept') {
-        concepts.set(id, { id, publicationStatus: row.publication_status?.trim(), articleIds: [], pending: sibling })
-      }
-      if (siblingKind === 'article') {
-        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
-      }
-      if (siblingKind === 'resource') resources.add(id)
-    }
-    notes.push(`${sibling}: ${siblingRows.length} ${siblingKind} rows treated as pending import`)
-  }
+  await foldInSiblings(concepts, articles, resources)
 
-  // An article's `related_concepts` is what puts its ID on the concept record
-  // at import. A concept and an article both waiting to be imported would
-  // otherwise look, to the coverage check, like a concept nothing teaches — so
-  // the same link is made here, from the article side, exactly as the importer
-  // makes it.
-  for (const sibling of alongside) {
-    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
-    if (detectKind(siblingRows[0] ?? {}) !== 'article') continue
-    for (const row of siblingRows) {
-      const articleId = row.id?.trim()
-      if (!articleId) continue
-      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((id) => id.trim()).filter(Boolean)) {
-        const concept = concepts.get(conceptId)
-        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
-      }
-    }
-  }
 
 
   const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
@@ -309,6 +323,7 @@ if (kind === 'practical') {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
   const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  await foldInSiblings(concepts)
 
   const known = new Set(IMPORT_SCHEMAS.practical.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
@@ -485,8 +500,22 @@ if (kind !== 'concept') {
   // every batch in the directory and validate against the set. Guessing was
   // tried and broke the moment a span batch and its claims lived in files with
   // different stems.
+  //
+  // Reading the directory finds the claim a citation names, because both live in
+  // `evidence/`. It does not find the *concept* a claim names, because concepts
+  // live one directory over in `concept/` — so every claim in a batch authored
+  // before its concepts are imported failed with `Concept CON-… does not exist`
+  // for a concept sitting in the same batch, correctly written. `--with` is the
+  // documented answer to exactly that ("it widens what counts as existing; it
+  // never suppresses an error"), and it was wired into the question branch only.
+  // Naming a file here folds it in on the same terms: parsed with the same
+  // parser, classified by the same detector, so a file that is not what it
+  // claims to be still contributes nothing.
   const dir = dirname(file)
-  const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  const siblings = [
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))

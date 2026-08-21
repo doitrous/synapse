@@ -4,18 +4,18 @@
  *   node --experimental-strip-types scripts/kasr/build-coverage.ts
  *   node --experimental-strip-types scripts/kasr/build-coverage.ts --module "103 BMS"
  *
- * A content programme's real failure mode is not a bad item; it is a file
- * nobody opened and nobody noticed nobody opened. The only honest way to say a
- * module is finished is to say what happened to each of its files — including
- * the ones that yielded nothing, and why.
- *
- * Generated rather than written, so it cannot quietly go stale: rerun it and
- * the numbers are today's.
- *
  * `--module` defaults to `101 ISK`, so the command that worked before this
  * argument existed still produces exactly what it did. Six module lanes share
  * this checkout; results are read from `extract/<module-slug>/` and fall back
  * to the unprefixed paths, which are 101's until that lane moves them.
+ *
+ * A content programme's real failure mode is not a bad item; it is a file
+ * nobody opened and nobody noticed nobody opened. Seventy-six files went into
+ * this module and the only honest way to say it is finished is to say what
+ * happened to each one — including the ones that yielded nothing, and why.
+ *
+ * Generated rather than written, so it cannot quietly go stale: rerun it and
+ * the numbers are today's.
  */
 import { existsSync, readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -46,37 +46,68 @@ const COMMAND = 'scripts/kasr/build-coverage.ts'
  * Where this module's extractor results live.
  *
  * `extract/<slug>/mcq.json` first; the bare `extract/mcq.json` second, because
- * that is where 101's results still sit. Reading the bare path for a module
- * that has its own directory would silently attribute 101's 3,464 MCQs to
- * somebody else's module, so the fallback is only ever a fallback.
+ * that is where 101's results still sit — and **only** for 101. Reading the
+ * bare path for another module silently attributes 101's thousands of
+ * questions to somebody else's corpus, which reads as a plausible report
+ * rather than an error. `103 BMS` opened with "0 of 51 sources read. They
+ * yielded 1008 written questions" before this guard existed.
  */
 const scoped = (name: string) => {
   const own = `scripts/kasr/extract/${SLUG}/${name}`
   if (existsSync(join(REPO, own))) return own
-  // The bare paths are 101's results, from before any of this was namespaced.
-  // Falling back to them for another module would read one module's extraction
-  // as another's, so only the module that owns them may.
   return MODULE === '101 ISK' ? `scripts/kasr/extract/${name}` : own
 }
 
 const manifest = read('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json')
-const sources: ManifestSource[] = manifest.sources.filter(
+const rows_: ManifestSource[] = manifest.sources.filter(
   (s: ManifestSource) => s.moduleId === MODULE || s.secondaryModule === MODULE)
 
 /**
- * What each extractor found, indexed by the manifest ID it recorded.
+ * One row per FILE, not per manifest row.
  *
+ * Source IDs are content-addressed, so the same bytes filed under two names get
+ * one ID and two rows. 101 has one such pair — the 2025 anatomy case paper,
+ * saved once as `EOY Anatomy cases…` and once as `101 ANATOMY ASSESSMENT
+ * cases…` — and counting rows made this ledger claim 76 files when there are
+ * 75, listing the same 44 questions twice.
+ *
+ * The yields were never wrong: the tally is keyed by source ID, so nothing was
+ * ever double-counted. It was the file count and the duplicated table row. But
+ * this document exists to be auditable, and a count that is off by one in the
+ * artefact whose whole job is counting is worth more than a rounding error.
+ *
+ * The duplication is reported rather than hidden — a file indexed twice is a
+ * fact about the corpus, and quietly collapsing it would lose it.
+ */
+const seen = new Set<string>()
+const sources: ManifestSource[] = rows_.filter((source) => {
+  if (seen.has(source.sourceId)) return false
+  seen.add(source.sourceId)
+  return true
+})
+const duplicatedRows = rows_.length - sources.length
+const alsoFiledAs = new Map<string, string[]>()
+for (const source of rows_) {
+  const names = alsoFiledAs.get(source.sourceId) ?? []
+  if (!names.includes(source.fileName)) names.push(source.fileName)
+  alsoFiledAs.set(source.sourceId, names)
+}
+
+/** What each extractor found, indexed by the manifest ID it recorded. */
+type Yield = 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics' | 'answers' | 'sittings'
+const tally = new Map<string, Record<Yield, number> & { capped?: string }>()
+/**
  * A result file may hold rows for sources outside this module — the shared
  * question dump does, and so does anything a lane ran before namespacing. A row
  * whose source is not this module's is dropped rather than counted, because the
  * headline totals are read as this module's yield and once said they are very
  * hard to unsay.
  */
-const mine = new Set(sources.map((s) => s.sourceId))
-const tally = new Map<string, { written: number; mcq: number; slides: number; radiology: number; chapters: number; topics: number; capped?: string }>()
-const bump = (id: string, field: 'written' | 'mcq' | 'slides' | 'radiology' | 'chapters' | 'topics', by = 1) => {
+const mine = new Set(rows_.map((s) => s.sourceId))
+const bump = (id: string, field: Yield, by = 1) => {
   if (!mine.has(id)) return
-  const row = tally.get(id) ?? { written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0 }
+  const row = tally.get(id) ?? {
+    written: 0, mcq: 0, slides: 0, radiology: 0, chapters: 0, topics: 0, answers: 0, sittings: 0 }
   row[field] += by
   tally.set(id, row)
 }
@@ -87,6 +118,18 @@ for (const q of questions?.questions ?? []) bump(q.sourceId, 'written')
 const mcq = maybe(scoped('mcq.json'))
 for (const q of mcq?.questions ?? []) if (q.questionType !== 'no-options') bump(q.sourceId, 'mcq')
 
+// An answer key is read even though it yields no questions. Four of them were
+// joined onto their question books by question number, and counting only
+// questions listed all four as "not yet read" — which is exactly the claim this
+// ledger exists to be able to make truthfully.
+const byFileName = new Map<string, string>(
+  sources.map((source) => [source.fileName, source.sourceId]))
+for (const q of mcq?.questions ?? []) {
+  // The key names its file, not its manifest ID, so it is resolved by name.
+  const keyId = q.answerKeyFile ? byFileName.get(q.answerKeyFile) : undefined
+  if (keyId) bump(keyId, 'answers')
+}
+
 const practical = maybe(scoped('practical.json'))
 for (const slide of practical?.slides ?? []) bump(slide.sourceId, 'slides')
 for (const item of practical?.writtenItems ?? []) bump(item.sourceId, 'written')
@@ -95,7 +138,20 @@ for (const view of practical?.radiology ?? []) bump(view.sourceId ?? '', 'radiol
 const deptbook = maybe(scoped('deptbook.json'))
 for (const chapter of deptbook?.chapters ?? []) if (chapter.found) bump(deptbook.sourceId, 'chapters')
 
+// The one-page orientation sheet is the module's authoritative statement of how
+// it is examined, and it yields no questions at all. Counting only questions
+// called the most important document in the corpus unread.
 const notes = maybe(scoped('notes.json'))
+if (notes?.orientation?.verbatim) {
+  const sheet = (notes.files ?? []).find((file: { file: string }) => /Orientation/i.test(file.file))
+  if (sheet?.sourceId) bump(sheet.sourceId, 'topics')
+}
+
+// Three sources are indices OF papers rather than papers: they name what was
+// asked in which sitting, without wording or marks.
+const sittings = maybe(scoped('sittings.json'))
+for (const sitting of sittings?.sittings ?? []) bump(sitting.sourceId, 'sittings', sitting.topics.length)
+for (const model of sittings?.modelAnswers ?? []) bump(model.sourceId, 'answers', model.questions.length)
 for (const topic of notes?.topics ?? []) bump(topic.sourceId, 'topics')
 for (const past of notes?.pastQuestions ?? []) bump(past.sourceId, 'written')
 
@@ -109,33 +165,32 @@ for (const file of [...(mcq?.files ?? []), ...(practical?.files ?? []), ...(note
 /**
  * Which sources have had their text pulled, and what came back.
  *
- * Extracting a file's text is not the same as reading it, and the difference
- * is the one this report exists to make visible. A source can be fully
- * extracted and still have yielded nothing, because nobody has authored from
- * it yet — that is scheduled work. A source that extracted to *nothing* is a
- * different problem: an OCR pass that returned blank pages is a file still
- * waiting to be read by eye, and it must not sit in the same bucket as a file
- * nobody has opened.
+ * Extracting a file's text is not the same as reading it, and the difference is
+ * the one this report exists to make visible. A source can be fully extracted
+ * and still have yielded nothing, because nobody has authored from it yet —
+ * that is scheduled work. A source that extracted to *nothing* is a different
+ * problem: an OCR pass returning blank pages is a file still waiting to be read
+ * by eye, and it must not sit in the same bucket as a file nobody has opened.
  *
- * The cache is gitignored, so a clean checkout reports no extraction rather
- * than pretending to some.
+ * The cache is gitignored and shared by every lane, so it is filtered to this
+ * module and a clean checkout reports no extraction rather than pretending to
+ * some.
  */
 function extracted() {
-  const rows = new Map<string, { pages: number; empty: number; mode: string }>()
+  const found = new Map<string, { pages: number; empty: number; mode: string }>()
   const dir = join(REPO, 'scripts/kasr/extract/pagetext')
-  if (!existsSync(dir)) return rows
+  if (!existsSync(dir)) return found
   for (const name of readdirSync(dir)) {
     if (!name.endsWith('.json')) continue
     const doc = read(`scripts/kasr/extract/pagetext/${name}`)
-    // One cache, every module. Another lane's extraction is not this module's.
     if (!mine.has(doc.sourceId)) continue
-    rows.set(doc.sourceId, {
+    found.set(doc.sourceId, {
       pages: doc.pages.length,
       empty: (doc.emptyPages ?? []).length,
       mode: doc.mode,
     })
   }
-  return rows
+  return found
 }
 const text = extracted()
 
@@ -180,23 +235,7 @@ const rank = (category: string) => {
 const unranked = [...new Set(sources.map((s) => s.sourceCategory))]
   .filter((category) => !CATEGORY_ORDER.includes(category)).sort()
 
-/**
- * One row per *file*, not per manifest row.
- *
- * Fourteen source IDs appear on more than one manifest row across the corpus —
- * 28 rows for 14 files, because the same bytes were filed under two names or
- * two modules. Counting rows over-reports the corpus, and it compounds: the
- * page total, the OCR total and the read/outstanding split all inherit the
- * error. `104 CPS` reported 47 sources and 1,554 pages for 46 files and 1,540.
- *
- * The manifest disagreeing with itself is worth saying out loud rather than
- * quietly collapsing, so the duplicate count is reported alongside the total.
- */
-const byFile = new Map<string, ManifestSource>()
-for (const source of sources) if (!byFile.has(source.sourceId)) byFile.set(source.sourceId, source)
-const duplicateRows = sources.length - byFile.size
-
-const rows = [...byFile.values()].sort((a, b) =>
+const rows = [...sources].sort((a, b) =>
   rank(a.sourceCategory) - rank(b.sourceCategory) || a.fileName.localeCompare(b.fileName))
 
 const line = (source: ManifestSource) => {
@@ -208,17 +247,21 @@ const line = (source: ManifestSource) => {
     t?.radiology && `${t.radiology} radiology`,
     t?.chapters && `${t.chapters} chapters`,
     t?.topics && `${t.topics} topics`,
+    t?.answers && `${t.answers} model answers`,
+    t?.sittings && `${t.sittings} sitting topics`,
   ].filter(Boolean).join(', ')
   const state = yields ? (t?.capped ? `read ${t.capped}` : 'read in full') : 'not yet read'
   const x = text.get(source.sourceId)
-  const extractedAs = x
-    ? (x.empty === 0 ? x.mode : `${x.mode}, ${x.empty}/${x.pages} blank`)
-    : '—'
-  // The column is omitted entirely where nothing has been extracted, rather
-  // than printed as a row of dashes: a module with no extraction has nothing
-  // to say here, and saying it in a column is not the same as saying nothing.
+  const extractedAs = x ? (x.empty === 0 ? x.mode : `${x.mode}, ${x.empty}/${x.pages} blank`) : '—'
+  // The column is omitted entirely where nothing has been extracted, rather than
+  // printed as a row of dashes: a module with no extraction has nothing to say
+  // here, and saying it in a column is not the same as saying nothing.
   const textCell = text.size ? ` ${extractedAs} |` : ''
-  return `| ${source.fileName.replace(/\|/g, '\\|')} | ${source.sourceCategory} | ${source.pageCount ?? '—'} |${textCell} ${yields || '—'} | ${state} |`
+  const names = alsoFiledAs.get(source.sourceId) ?? [source.fileName]
+  const label = names.length > 1
+    ? `${names[0]} <br>*also filed as ${names.slice(1).join(', ')}*`
+    : source.fileName
+  return `| ${label.replace(/\|/g, '\\|')} | ${source.sourceCategory} | ${source.pageCount ?? '—'} |${textCell} ${yields || '—'} | ${state} |`
 }
 
 const untouched = rows.filter((source) => !tally.get(source.sourceId))
@@ -226,7 +269,8 @@ const readCount = rows.length - untouched.length
 const totals = [...tally.values()].reduce((sum, t) => ({
   written: sum.written + t.written, mcq: sum.mcq + t.mcq, slides: sum.slides + t.slides,
   radiology: sum.radiology + t.radiology, topics: sum.topics + t.topics,
-}), { written: 0, mcq: 0, slides: 0, radiology: 0, topics: 0 })
+  sittings: sum.sittings + t.sittings,
+}), { written: 0, mcq: 0, slides: 0, radiology: 0, topics: 0, sittings: 0 })
 
 const batches = authored()
 const capped = rows.filter((source) => tally.get(source.sourceId)?.capped)
@@ -235,12 +279,18 @@ const report = `# ${MODULE} — source coverage
 
 Generated by \`${COMMAND}\`. Rerun it and the numbers are today's.
 
-${readCount} of ${rows.length} source files have been read${duplicateRows
-  ? ` (${sources.length} manifest rows: ${duplicateRows} file${duplicateRows === 1 ? ' is' : 's are'} indexed twice)`
+${readCount} of ${rows.length} source files have been read${duplicatedRows
+  ? ` (${rows_.length} manifest rows: ${duplicatedRows} file${duplicatedRows === 1 ? ' is' : 's are'} indexed twice under different names)`
   : ''}. They yielded
 **${totals.written} written questions**, **${totals.mcq} multiple-choice questions**,
-**${totals.slides} practical slides**, **${totals.radiology} radiology views**, and
-${totals.topics} note topics.
+**${totals.slides} practical slides**, **${totals.radiology} radiology views**,
+${totals.topics} note topics and ${totals.sittings} sitting topics.
+
+A file yields more than questions. An answer key, a one-page orientation sheet
+and a student's index of what came up in which sitting all yield something, and
+counting only questions listed every one of them as unread — including the
+orientation, which is the module's own statement of how it is examined and the
+most load-bearing document in the corpus.
 
 A file that yielded nothing is listed as such rather than omitted. A programme
 that reports only what it found cannot be audited, because a file nobody opened
@@ -261,19 +311,22 @@ ${capped.length
 ${text.size ? `## Text extracted
 
 ${(() => {
-      const mine = rows.filter((source) => text.has(source.sourceId))
-      const pages = mine.reduce((sum, s) => sum + text.get(s.sourceId)!.pages, 0)
-      const blank = mine.reduce((sum, s) => sum + text.get(s.sourceId)!.empty, 0)
-      const ocr = mine.filter((s) => text.get(s.sourceId)!.mode === 'ocr')
+      const have = rows.filter((source) => text.has(source.sourceId))
+      const pages = have.reduce((sum, s) => sum + text.get(s.sourceId)!.pages, 0)
+      const blank = have.reduce((sum, s) => sum + text.get(s.sourceId)!.empty, 0)
+      const ocr = have.filter((s) => text.get(s.sourceId)!.mode === 'ocr')
+      // Files and pages answer different questions. "33 of 1554 by OCR" reads as
+      // a rounding error when the true figure is 750 pages across 32 files, and
+      // that inverts the reliability judgement a reader makes about every number
+      // below it. Print both.
       const ocrPages = ocr.reduce((sum, s) => sum + text.get(s.sourceId)!.pages, 0)
-      const silent = mine.filter((s) => {
+      const silent = have.filter((s) => {
         const x = text.get(s.sourceId)!
-        return x.empty === x.pages && x.pages > 0
+        return x.pages > 0 && x.empty === x.pages
       })
-      return `Text has been pulled from ${mine.length} of ${rows.length} sources — ${pages} pages, `
-        + `${ocrPages} of those pages by OCR, across ${ocr.length} file${ocr.length === 1 ? '' : 's'} `
-        + `carrying no text layer. `
-        + `${blank} page${blank === 1 ? '' : 's'} came back empty.\n\n`
+      return `Text has been pulled from ${have.length} of ${rows.length} sources — ${pages} pages, `
+        + `${ocrPages} of those pages by OCR across ${ocr.length} file${ocr.length === 1 ? '' : 's'} `
+        + `carrying no text layer. ${blank} page${blank === 1 ? '' : 's'} came back empty.\n\n`
         + `Having text is not the same as having read it: a source below can be fully `
         + `extracted and still yield nothing, because authoring from it is scheduled `
         + `rather than done.\n`
@@ -291,9 +344,7 @@ ${untouched.length
 
 ## Every source
 
-${unranked.length
-  ? `${unranked.length} categor${unranked.length === 1 ? 'y is' : 'ies are'} not in this report's priority order and sort last: ${unranked.map((c) => `\`${c}\``).join(', ')}. Rank them in \`CATEGORY_ORDER\` to place them.\n\n`
-  : ''}| File | Category | Pages |${text.size ? ' Text |' : ''} Yielded | State |
+| File | Category | Pages |${text.size ? ' Text |' : ''} Yielded | State |
 | --- | --- | --- |${text.size ? ' --- |' : ''} --- | --- |
 ${rows.map(line).join('\n')}
 `

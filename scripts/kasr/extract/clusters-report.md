@@ -109,8 +109,8 @@ The Anatomy Department's orientation sheet (`notes.json` -> `orientation`, signe
 
 This is the most useful single fact here: material the department tells students to learn, and which no paper in the corpus has ever asked.
 
-- **Upper Limb: Joints -- acromioclavicular** -- no cluster corresponds. In `questions.json` the acromioclavicular joint is not mentioned in any of the 704 rows at all; the radio-ulnar joints appear only as wrong options inside questions about something else (gomphosis, the biaxial ellipsoid joint).
-- **Upper Limb: Joints -- superior & inferior radio-ulnar** -- no cluster corresponds.
+- **Upper Limb: Joints -- acromioclavicular** -- no cluster corresponds; the words "acromioclavicular" and "acromio-clavicular" do not occur in any of the 704 rows, in any spelling -- not as a question, not even as a wrong option.
+- **Upper Limb: Joints -- superior & inferior radio-ulnar** -- no cluster corresponds; the radio-ulnar joints occur in five rows, every one of them as a wrong option inside a question about something else (which joint is a gomphosis; which is the biaxial ellipsoid joint) -- never as the subject of a question.
 
 Both are declared twice over: the sheet says "All joints except joints of the hand", and the subject tree carries a `Joints of Upper Limb` leaf. Corroboration from the other two corpora shows this is a genuine examining habit and not an artefact of the 22 papers sampled: across the 2,704-MCQ bank the acromioclavicular joint heads five one-off stems and the radio-ulnar joints three, against x4-x5 repetition for the favoured topics; across the 153 past questions of 2016-2024 the acromioclavicular joint appears exactly once, as a 2024 *case*, and never as a short-answer question.
 
@@ -155,7 +155,7 @@ Anatomy clusters that no line of the orientation sheet covers. Either the syllab
 | A dendrite is multiple, short, tapering and contains Nissl bodies, while the axon is single, long and of const | 1 | 2021 | outside the module entirely -- Histology > Nerve Tissue |
 | The thenar and midpalmar spaces lie deep to the palmar aponeurosis, the thenar space containing the flexor ten | 1 | 2022 | not among the five declared spaces |
 
-The largest single block of undeclared material is the 2025 case bank, which examines **lower limb and thorax**: 11 objectives across 27 askings -- common peroneal nerve, femoral neck fracture, femoral hernia, knee meniscus, sciatic nerve, coronary arteries, pleural effusion, haemopericardium, the cardiac conducting system, inhaled foreign body and aortic aneurysm. None of this is on the orientation sheet and none of it exists anywhere in the 101 subject tree, whose only regional chapter is Upper Limb. A student revising module 101 from either document would not know these were coming.
+The largest single block of undeclared material is the 2025 case bank, which examines **lower limb and thorax**: 11 objectives across 24 askings -- common peroneal nerve, femoral neck fracture, femoral hernia, knee meniscus, sciatic nerve, coronary arteries, pleural effusion, haemopericardium, the cardiac conducting system, inhaled foreign body and aortic aneurysm. None of this is on the orientation sheet and none of it exists anywhere in the 101 subject tree, whose only regional chapter is Upper Limb. A student revising module 101 from either document would not know these were coming.
 
 Two smaller overruns are worth naming. The sheet excludes muscles of the hand and joints of the hand, yet thumb movements and the extensor expansion are both examined. And lymphatics appear nowhere on the sheet, yet the groups of axillary lymph nodes and the lymphatic drainage of the breast are asked repeatedly -- including as the mastectomy case, which is the single most repeated case in the corpus.
 
@@ -166,11 +166,11 @@ The sheet states a fixed shape: 8 SAQs -- 2 basis, 2 embryology, 4 upper limb --
 | Year | Paper | Basis | Embryology | Upper limb SAQ | Cases | Obeys? |
 |---|---|---|---|---|---|---|
 | 2025 | EOY (ISK - 101) 199 (1).pdf | 2 | 2 | 4 | 2 | **yes, exactly** |
-| 2024 | EOY (ISK - 101) 198 (1).pdf | 2 | 3 | 6 | 1 | no |
-| 2022 | EOY 195 first 2022 101 ISK final (1).pdf | 0 | 1 | 2 | 1 | no |
-| 2022 | EOY 195 first 2022  101 ISK  final modul | 0 | 0 | 1 | 0 | no |
+| 2024 | EOY (ISK - 101) 198 (1).pdf | 2 | 3 | 5 | 2 | no |
+| 2022 | EOY 195 first 2022 101 ISK final (1).pdf | 0 | 1 | 2 | 1 | partial extraction -- not comparable |
+| 2022 | EOY 195 first 2022  101 ISK  final modul | 0 | 0 | 1 | 0 | partial extraction -- not comparable |
 
-Only the 2025 paper obeys the declared structure, and it obeys it exactly: two basis questions (types of muscle attachment; primary against secondary cartilaginous joints), two embryology (decidua; folding), four upper limb (pectoralis major; radial nerve; deep palmar arch; elbow joint) and two cases. **2024** ran ten SAQs, not eight -- two basis, *three* embryology and *five* upper limb -- all at a flat 5 marks. **2022** is a different architecture again: a single combined Histology-and-Anatomy paper of fourteen short essays, twenty-nine MCQs and three extended-matching questions. This is not a paper drifting from its orientation: the sheet is headed "End of Year, 2025-2026", so it describes the format that 2025 introduced, and the earlier papers predate it.
+Only the 2025 paper obeys the declared structure, and it obeys it exactly: two basis questions (types of muscle attachment; primary against secondary cartilaginous joints), two embryology (decidua; folding), four upper limb (pectoralis major; radial nerve; deep palmar arch; elbow joint) and two cases. **2024** ran ten SAQs, not eight -- two basis, *three* embryology and *five* upper limb -- all at a flat 5 marks. **2022** is a different architecture again: a single combined Histology-and-Anatomy paper of fourteen short essays, twenty-nine MCQs and three extended-matching questions -- the two 2022 rows above are partial extractions, so the counts in them are not the paper's shape. This is not a paper drifting from its orientation: the sheet is headed "End of Year, 2025-2026", so it describes the format that 2025 introduced, and the earlier papers predate it.
 
 ### 2e. Coverage by subject-tree leaf
 

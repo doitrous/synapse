@@ -23,6 +23,20 @@ export interface SourceRef {
   tier: 'end_of_year' | 'end_of_module' | 'resit' | 'formative'
   /** Which section headings this paper uses, in the order it prints them. */
   sections: readonly string[]
+  /**
+   * What this copy of the paper does not reproduce.
+   *
+   * These are student-collected copies, and a collector who typed out the
+   * written questions may not have typed the multiple-choice ones. The paper
+   * says how many there were; we simply do not have them. Recording that is the
+   * difference between a paper with no MCQs and a paper whose MCQs we are
+   * missing, and only one of those is true of the 2025 sitting — which states
+   * `+26 MCQ {½ Mark each}` at the foot of its Histology section and prints not
+   * one of them, in the solved copy or the unsolved one. Seeding what is
+   * printed and calling the paper done records a 94-mark paper as an 81-mark
+   * one and loses 26 questions against a green validator.
+   */
+  incomplete?: string
 }
 
 /**
@@ -52,6 +66,14 @@ export interface Seed {
   secondary: string[]
   modulePath: string
   type: string
+  /** Alternate names a student or a paper may use. Never a second concept. */
+  aliases?: string[]
+  /** Where sources disagree. Recorded, never resolved silently. */
+  conflicts?: string[]
+  /** What is still unsupported by a source this faculty would accept. */
+  gaps?: string[]
+  /** What is genuinely unclear about the concept, as opposed to unsourced. */
+  uncertainty?: string
 }
 
 export type WrittenFormat =
@@ -113,8 +135,46 @@ const SYSTEM: Record<KasrSubject, string> = {
  * whose mastery is split four ways across them.
  */
 export function mintConceptId(subject: KasrSubject, key: string): string {
-  const hash = createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase()
-  return `CON-${SYSTEM[subject]}-${hash.slice(0, 14)}`
+  return `CON-${SYSTEM[subject]}-${conceptHash(key)}`
+}
+
+/**
+ * The part of a concept ID that identifies the idea, without the subject.
+ *
+ * The subject only selects the prefix, so the same key under two subjects gives
+ * one hash behind two prefixes — `CON-DEV-B84639…` and `CON-MSK-B84639…` are
+ * two IDs for one concept, and nothing at import time would notice. Exposing
+ * the hash lets `subjectCollisions` find that by looking, rather than leaving it
+ * to a convention two authors have to remember.
+ */
+export function conceptHash(key: string): string {
+  return createHash('sha256').update(`kau:101 ISK:${key}`).digest('hex').toUpperCase().slice(0, 14)
+}
+
+/**
+ * Canonical keys that have been given more than one subject.
+ *
+ * The one way this pipeline can still mint rival IDs for one idea. Two authors
+ * working the same key — one filing the decidua under `dev`, the other under
+ * `msk` — produce two concepts a student's mastery splits across, and the IDs
+ * differ only in a prefix nobody reads closely.
+ *
+ * Returns the offenders rather than throwing, so a caller can report every one
+ * of them at once instead of one per run.
+ */
+export function subjectCollisions(
+  entries: readonly { key: string; subject: KasrSubject; where: string }[],
+): { key: string; subjects: string[]; where: string[] }[] {
+  const byKey = new Map<string, { subjects: Set<string>; where: Set<string> }>()
+  for (const entry of entries) {
+    const found = byKey.get(entry.key) ?? { subjects: new Set(), where: new Set() }
+    found.subjects.add(entry.subject)
+    found.where.add(entry.where)
+    byKey.set(entry.key, found)
+  }
+  return [...byKey.entries()]
+    .filter(([, seen]) => seen.subjects.size > 1)
+    .map(([key, seen]) => ({ key, subjects: [...seen.subjects].sort(), where: [...seen.where].sort() }))
 }
 
 /**

@@ -4,6 +4,8 @@
   Kasr Al Ainy, module 101 ISK, end of year 2025.
   Manifest ID src_8cb257f4b6a6dcd730d0. 16 questions, 81 marks: 6 in Histology, 10 in Anatomy.
 
+  NOT the whole paper: 26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.
+
   Transcribed, not derived — `derived_from` is blank throughout. The rule that a
   written question may only be derived from another written question governs the
   practice variants that come later, not these.
@@ -260,9 +262,9 @@ Expects: A primary lysosome is small, uniformly electron-dense and membrane-boun
 Expects: Its acid hydrolases have not yet acted on a substrate
 Expects: A secondary lysosome is larger and heterogeneous, having fused with a phagosome or autophagosome
 Expects: A residual body is the end state, holding indigestible material
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## topic
 Histology
 ## subtopic
@@ -282,7 +284,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.
+Distinguish primary from secondary lysosomes on electron microscopy, and name the three secondary types by what the primary lysosome fused with.
 ## setting
 Academic
 ## academic_relevance
@@ -515,6 +517,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## owner
 Claude
 ## source_citation
@@ -587,6 +591,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS
 ## owner
 Claude
 ## source_citation
@@ -659,6 +665,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-DECIDUA
 ## owner
 Claude
 ## source_citation
@@ -731,6 +739,8 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
 ## owner
 Claude
 ## source_citation
@@ -804,6 +814,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
 ## owner
 Claude
 ## source_citation
@@ -877,6 +889,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
@@ -913,9 +927,9 @@ Expects: Formed mainly by the terminal part of the radial artery
 Expects: Completed medially by the deep branch of the ulnar artery
 Expects: Gives three palmar metacarpal arteries
 Expects: Gives perforating branches to the dorsal metacarpal arteries and recurrent branches to the carpal arch
-Concept: CON-MSK-0F4A85CDF62557
+Concept: CON-MSK-BC95DAE3531583
 ## main_concept
-CON-MSK-0F4A85CDF62557
+CON-MSK-BC95DAE3531583
 ## topic
 Anatomy
 ## subtopic
@@ -935,7 +949,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.
+Give the site, formation and branches of each palmar arch, and say how the two differ in level, in the artery that mainly forms them, and in what they supply.
 ## setting
 Academic
 ## academic_relevance
@@ -950,6 +964,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
@@ -1023,6 +1039,8 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-ELBOW-JOINT
 ## owner
 Claude
 ## source_citation
@@ -1107,6 +1125,8 @@ Medium
 3
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
@@ -1139,25 +1159,25 @@ What are the boundaries of the anatomical snuff box?
 Expects: Anteriorly, the tendons of abductor pollicis longus and extensor pollicis brevis together
 Expects: Posteriorly, the tendon of extensor pollicis longus
 Expects: Its base is the styloid process of the radius
-Concept: CON-MSK-0DC3FA5C012B3D
+Concept: CON-MSK-1424177E093253
 ### (b) 0.75 marks
 What are the contents of the anatomical snuff box?
 Expects: The radial artery, crossing the floor
 Expects: The beginning of the cephalic vein
-Concept: CON-MSK-0DC3FA5C012B3D
+Concept: CON-MSK-1424177E093253
 ### (c) 0.75 marks
 What makes the floor of the anatomical snuff box?
 Expects: The scaphoid and the trapezium
 Expects: With the styloid process of the radius and the base of the first metacarpal
 Expects: Which is why tenderness here after a fall on the outstretched hand means a scaphoid fracture
-Concept: CON-MSK-0DC3FA5C012B3D
+Concept: CON-MSK-1424177E093253
 ### (d) 0.75 marks
 What makes the roof of the anatomical snuff box?
 Expects: Skin and fascia
 Expects: Crossed by the cephalic vein and the superficial branch of the radial nerve
-Concept: CON-MSK-0DC3FA5C012B3D
+Concept: CON-MSK-1424177E093253
 ## main_concept
-CON-MSK-0DC3FA5C012B3D
+CON-MSK-1424177E093253
 ## topic
 Anatomy
 ## subtopic
@@ -1192,6 +1212,8 @@ Medium
 1
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation

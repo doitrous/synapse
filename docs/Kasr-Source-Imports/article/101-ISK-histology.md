@@ -60,7 +60,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 ## related_concepts
-CON-HEM-5724364F46CD5A
+CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The basophil and the mast cell share metachromatic granules and IgE receptors, and the department book compares them directly.
 ## aliases
@@ -240,6 +240,10 @@ DIS-HIS-T01
 SYS-HEM-T01-S01-M03
 ## related_concepts
 CON-HEM-CC292B4D6CC61E
+CON-HEM-A2BE134E34EB83
+CON-HEM-B000CE18F93F83
+CON-HEM-2AD9D05B2B6947
+CON-HEM-5E948BE9C94615
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The platelet's lambda granules are lysosomes, and its microtubules and actin microfilaments are the cytoskeletal elements described in the cytology chapter.
 ## aliases
@@ -255,6 +259,8 @@ Platelets, or thrombocytes, are small oval non-nucleated fragments of cytoplasm 
 On light microscopy each platelet shows two zones. The outer, pale, basophilic peripheral zone is the hyalomere. The central dark granular zone is the granulomere. The distinction is not cosmetic: the book assigns different contents and different jobs to each, and the whole of the platelet's behaviour follows from which zone a structure sits in.
 
 The cell membrane carries a thick cell coat, and that coat is what allows platelets to aggregate with one another into the platelet plug that stops bleeding.
+
+Platelets are not made; they are shed. Within the megakaryocyte, invaginations of the plasma membrane called demarcation channels extend through the cytoplasm and out into the pseudopodia the cell pushes into the marrow sinusoid, dividing that cytoplasm into platelet ribbons which then fragment into individual platelets. The channels are invaginations of one cell's own membrane, not junctions between two cells, and the question books test exactly that distinction.
 
 ### Mechanism
 The hyalomere holds two systems, a cytoskeleton and a set of membranous channels, and each performs one step of platelet function.
@@ -567,7 +573,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.
@@ -648,7 +654,7 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn, following the department book's page 15 figure, redrawn rather than reproduced
 Rights: newly drawn for this product, or CC-BY
-Notes: Serves concept CON-FND-42CCE864C55A08, lysosome types on electron microscopy.
+Notes: Serves concept CON-FND-9D325B98FC59A0, lysosome types on electron microscopy.
 ### histology · Transmission electron micrograph of a macrophage or a hepatocyte showing a homogeneous primary lysosome and a heterogeneous secondary lysosome in the same field
 Purpose: The whole examinable distinction is a difference in EM texture, homogeneous against heterogeneous. That is a judgement of appearance and cannot be learnt from a clean line drawing where every profile is deliberately tidy.
 Priority: required
@@ -684,7 +690,7 @@ Rights: newly drawn for this product
 ## conflicts
 [clear]
 ## evidence_gaps
-The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-42CCE864C55A08 is therefore unsupported by this source and is not stated in this article.
+The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-9D325B98FC59A0 is therefore unsupported by this source and is not stated in this article.
 The book gives no size in nanometres for a primary or a secondary lysosome, so the article describes them as small and larger rather than giving a figure.
 The book does not state the pH at which the lysosomal hydrolases work, nor name the proton pump that maintains it.
 The Golgi apparatus section of the book carries a "Functions" heading whose content sits entirely inside an unextractable figure, so the Golgi's functions are not available as text from this source and are not listed here.
@@ -698,7 +704,7 @@ questionIds: Questions for this article are authored in the question pass that f
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
-secondaryNodeIds: Concept CON-FND-42CCE864C55A08 carries no secondary placement, and none is invented here.
+secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
 The Key determinants section draws the neutrophil azurophil granule and the basophil specific granule into the density trap. Both are the same book's own statements, from the granular leucocyte chapter, and the cross-reference is deliberate: it is where students actually meet a dense granule that is and is not a lysosome.
