@@ -1226,7 +1226,7 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-0F4A85CDF62557 | CON-MSK-0DC3FA5C012B3D
+CON-MSK-BC95DAE3531583 | CON-MSK-1424177E093253
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: The superficial radial nerve crosses the roof of the snuff box on its way to the dorsum of the hand, beside the beginning of the cephalic vein.
 ART-101-ANA-ELBOW-JOINT: The radial and ulnar arteries begin as the terminal branches of the brachial artery in the cubital fossa, just below the elbow joint.
@@ -1347,7 +1347,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas - Gray's public-domain plates - or purpose-drawn following the department book Figs. 93 and 94
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-0F4A85CDF62557, exam question "Describe site, formation and branches of the Deep Palmer Arch", 7 marks.
+Notes: Serves concept CON-MSK-BC95DAE3531583, exam question "Describe site, formation and branches of the Deep Palmer Arch", 7 marks.
 ### diagram · Palm outline with both arch surface markings drawn on it, the superficial arch springing from the distal border of the root of the extended thumb and the 4 cm deep arch from the proximal border, with the hook of hamate marked
 Purpose: The two markings differ by one word, distal against proximal, and students transpose them. Drawing both on one palm makes the difference a visible gap rather than a word to remember.
 Priority: strongly helpful
@@ -1364,7 +1364,7 @@ Kind: anatomy plate
 Section: Structure
 Source direction: openly licensed anatomy atlas, or purpose-drawn following the department book Fig. 64
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
-Notes: Serves concept CON-MSK-0DC3FA5C012B3D, exam question "a) boundaries b) contents c) floor d) roof of the anatomical snuff box", 3 marks across four subparts.
+Notes: Serves concept CON-MSK-1424177E093253, exam question "a) boundaries b) contents c) floor d) roof of the anatomical snuff box", 3 marks across four subparts.
 ### diagram · The scaphoid drawn alone with its blood supply entering distally, and a waist fracture drawn across it so the proximal fragment is left without a vessel
 Purpose: The reason snuff-box tenderness matters is a vascular argument about one small bone, and the direction of supply is the whole of it. A single bone with one arrow makes it obvious; the sentence has to be re-derived every time.
 Priority: strongly helpful
@@ -1383,7 +1383,7 @@ Source direction: purpose-drawn, following the department book Fig. 95
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 The interval between the two palmar arches. The department book states it twice and does not agree with itself: describing the superficial arch it says the arch lies 1 cm distal to the deep arch, and describing the deep arch it says the deep arch lies half an inch proximal to the superficial one. Dr. Galal's revision and the VIP Upper Limb book both say half an inch, and half an inch is used here. Both figures are recorded because the department book prints both.
-Contents of the snuff box. Concept CON-MSK-0DC3FA5C012B3D names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
+Contents of the snuff box. Concept CON-MSK-1424177E093253 names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
 Where the snuff box's boundaries are said to lie. The concept describes an anterior and a posterior boundary with the radial styloid as a base. All three Kasr sources describe a lateral and a medial boundary, the radial styloid being part of the floor. The Kasr wording is used.
 ## evidence_gaps
 No Kasr source in this corpus describes the development of the arteries or arches of the hand, or of the carpal bones, so the Development section states nothing.

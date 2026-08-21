@@ -15,7 +15,7 @@
   the section, not what they must recite about it. Where a concept the slides
   assess already exists in `101-ISK-concepts.md` it is reused and does not
   reappear here. Six are reused that way: CON-HEM-5724364F46CD5A,
-  CON-HEM-CC292B4D6CC61E, CON-FND-EE10AFCE944705, CON-FND-42CCE864C55A08,
+  CON-HEM-CC292B4D6CC61E, CON-FND-EE10AFCE944705, CON-FND-9D325B98FC59A0,
   CON-FND-0FAE59E00B748E and CON-FND-89FBF21510F273.
 
   IDs are minted exactly as `scripts/kasr/seeds/types.ts` mints them:

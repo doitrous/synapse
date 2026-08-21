@@ -154,6 +154,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
@@ -914,6 +916,8 @@ Medium
 3
 ## estimated_seconds
 300
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
@@ -1059,6 +1063,8 @@ Medium
 1
 ## estimated_seconds
 300
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation

@@ -30,7 +30,11 @@ export interface SourceRef {
    * written questions may not have typed the multiple-choice ones. The paper
    * says how many there were; we simply do not have them. Recording that is the
    * difference between a paper with no MCQs and a paper whose MCQs we are
-   * missing, and only one of those is true of the 2025 sitting.
+   * missing, and only one of those is true of the 2025 sitting — which states
+   * `+26 MCQ {½ Mark each}` at the foot of its Histology section and prints not
+   * one of them, in the solved copy or the unsolved one. Seeding what is
+   * printed and calling the paper done records a 94-mark paper as an 81-mark
+   * one and loses 26 questions against a green validator.
    */
   incomplete?: string
 }

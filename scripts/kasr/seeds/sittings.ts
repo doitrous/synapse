@@ -33,7 +33,7 @@ export const SITTING_SIGNALS: Record<string, string[]> = {
   ],
   // The July 2023 model answer covers this objective, and it is the department's
   // own mark scheme rather than one authored from the book.
-  'lysosome-types-electron-microscopy': [
+  'lysosome-types-secondary-fates': [
     'src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK',
   ],
 }
