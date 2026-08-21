@@ -483,3 +483,63 @@ whether or not its subject search says so. Three of one module's four subjects a
 directly into them, with direct hits rather than near-misses — G6PD and favism already live
 as `CON-HEM-A1EF4D20C85878`, bone cells as `CON-MSK-967E873EEEACE0`, sarcomere banding on
 contraction as `CON-MSK-70448A9B07D24A`.
+
+### The mint is not stable across history — look an ID up, never re-derive it
+
+`tools/mint-concept-id.mjs` does **not** reproduce a live concept's ID from its canonical
+key, and it does not tell you so:
+
+```
+$ node "Instruction Manual for Content Creation/tools/mint-concept-id.mjs" FND teaching.pharma.loading.definition
+CON-FND-92FC0CBAED15B8
+ok — CON-FND- from canonical key "…", checked against 2353 existing IDs.
+```
+
+The live record whose `canonicalKey` is exactly that string is **`CON-FND-3CC86CC26BF549`**
+("Loading dose"). The tool reports **`ok`** because it checks *ID* collision, not
+*canonical-key* collision. It mints a second ID for a concept that already exists and
+affirmatively confirms it. There is no warning to miss — there is a green light to trust.
+
+**For an existing concept, look the ID up in the graph by canonical key or label. Never
+compute it.** A lane that assumes the mint is stable across history will silently fork every
+concept it touches, and the tool will confirm each fork.
+
+This lands hardest on the update-plus-mint workflow every lane has now adopted: an update
+row carrying a re-derived ID does not update anything — it creates a rival.
+
+Note this does **not** invalidate the `--module` retrofit's byte-identity checks. Hash
+stability *within* the current implementation is real and was verified. What is not stable
+is the relationship between a canonical key and an ID **minted at a different time**.
+
+### Reproducing `content.yml` locally: use bash, not zsh
+
+The workflow's loop is `npm run -s medical:batch -- "$file" $siblings`. This shell is
+**zsh**, which does not word-split unquoted expansions, so `$siblings` arrives as a single
+argument and every `--with` after the first is lost. The result is phantom
+`is not a concept that exists` errors on a batch that is fine — two lanes each lost time
+concluding a batch was broken when it wasn't. Run it under `bash -c`, or from a script.
+
+### Manifest defects found so far
+
+The manifest is generated, so a defect in it is systematic rather than a one-off. Three
+families, all from one lane's eleven sources, which suggests nobody else has looked:
+
+| Field | Defect |
+|---|---|
+| `textLayer` | `src_af30e4191cb4087f8d3f` and `src_a2ffe25e8362fe840ceb` claim `native`; neither has usable text. 2 of 11. Not corpus-wide — two other lanes' 69 and 51 sources were correct throughout. |
+| `subject` | All four `108 INT` EOY files carry a blanket `subject: "Pathology"`, but every one runs Pathology **and** Pharmacology, 35/40 on the distinct-question split. **Filtering sources by `subject` silently drops half a module.** |
+| `sourceCategory` | `src_9aecfa4812d20259fe5a` is categorised `Written Questions` but appears to be a revision handout, not a question set. |
+
+`--reprobe` turns the `textLayer` family into an auditable list for free. The `subject`
+family has no such check — treat that field as unreliable and route work by `moduleId`.
+
+### Two highlight mechanisms, and one of them reads as "no answers"
+
+- **Real `/Annot` `/Highlight` objects** — exact and cheap, read the quad geometry, no
+  rasterising. 31 recovered from one handout this way.
+- **Drawn or flattened overlays** — invisible to `qpdf`'s subtype listing; need rasterising
+  and colour detection.
+
+One lane's solved and unsolved 2025 papers are **byte-identical under `pdftotext` across all
+15 pages**, yet the solved one has every correct option highlighted in pink. **Any lane whose
+past-paper extraction reports zero answers should check the render before believing it.**
