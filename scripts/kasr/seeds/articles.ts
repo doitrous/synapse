@@ -160,4 +160,9 @@ export const ARTICLE_FOR_CONCEPT: Record<string, string> = {
   'CON-FND-E2DE55693981A7': 'ART-101-HIS-NUCLEUS',
   'CON-FND-C81FD3E574D3AA': 'ART-101-HIS-NUCLEUS',
   'CON-FND-BAABF179A898ED': 'ART-101-HIS-NUCLEUS',
+  // Red blood corpuscles. Both were taught in substance; what the article
+  // lacked was the shape of the spot question — the preparation and the stain
+  // are asked before any cell is, and they carry marks of their own.
+  'CON-HEM-1935D59A1D2839': 'ART-101-HIS-RED-BLOOD-CORPUSCLES',
+  'CON-HEM-4F5347CC3664E0': 'ART-101-HIS-RED-BLOOD-CORPUSCLES',
 }

@@ -60,7 +60,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 ## related_concepts
-CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB | CON-HEM-77B701F6105076 | CON-HEM-5559E34E79085D
+CON-HEM-5724364F46CD5A | CON-HEM-3899015C5024C0 | CON-HEM-CA78CC131E0236 | CON-HEM-607B783A16FBEB | CON-HEM-77B701F6105076 | CON-HEM-5559E34E79085D | CON-HEM-DD758E69648658 | CON-HEM-1F7D2D1717F91A
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The basophil and the mast cell share metachromatic granules and IgE receptors, and the department book compares them directly.
 ## aliases
@@ -95,6 +95,18 @@ The eosinophil is 1–4% of the white cells and 10–14 µm across. Its nucleus 
 
 The basophil is 0–1% of the white cells and 10–12 µm across. Its nucleus is irregular, segmented and S-shaped, and is usually obscured by the granules lying over it. The specific granules are coarse and basophilic, and stain metachromatically — purple where the dye is blue — with toluidine blue, because of the heparin they contain. On electron microscopy they are large, rounded and electron dense, and hold histamine, heparin, eosinophil chemotactic factor and leukotrienes.
 
+**The Barr body, and what it looks like.** In a proportion of female neutrophils one segment of the nucleus carries a small appendage shaped like a drumstick and joined to the segment by a thin chromatin thread. That appendage is the Barr body, also called the sex chromatin, and the department's own end-of-module paper asks it as the inactive X chromosome. It is present in 3 to 6 per cent of the neutrophils of a female, so it is a minority finding even in a female film and its absence from any one cell says nothing.
+
+The identification turns on size and attachment. A nuclear lobe is comparable in size to the other lobes and is joined to them the same way; the Barr body is much smaller than a lobe and hangs off one segment, and the department's plate marks the segmented nucleus with one arrow and the drumstick with another, as two separate answers. Counting the drumstick as an extra lobe is therefore two errors in one: it inflates the lobe count and it leaves the second arrow unanswered.
+
+**What the department's plates mark, and what the answer page accepts.** Every plate in this block is a Leishman-stained blood film and opens with the same stem — "This is a ..., stained with ..." — which is answered before any arrow is.
+
+The neutrophil is arrowed with the character "segmented" or "multilobed nucleus". On the female film the green arrow beside it is the Barr body, and a third arrow usually falls on a red corpuscle with central pallor and a fourth on platelets, so one plate carries four separate answers.
+
+The eosinophil is arrowed with two characters wanted together: eosinophilic granules and a bilobed nucleus.
+
+The basophil is arrowed with its granules described as basophilic and large, and the nucleus described as S-shaped and masked by the granules. Where the plate shows more than one basophil the stem asks only for the granules; where it shows one, it asks for the granules and the nucleus together, and "masked by the granules" is itself the accepted description of the nucleus. That is the one cell in the blood whose identification rests on a structure not being visible.
+
 The decision rule follows from this. A count settles the question first: at 60–70% against 1–4%, most granulocytes on a film are neutrophils. If the count is not available, the granules settle it — fine and pale against coarse and deeply eosinophilic — and the connecting thread helps, being thin in the neutrophil and thick in the eosinophil. The lobe count alone does not settle it.
 
 ### Normal values
@@ -117,6 +129,10 @@ Basophilia accompanies allergic disease, parasitic disease, viral infection such
 The basophil and the mast cell are not the same cell, although both have metachromatic granules — because both contain histamine and heparin — and both carry surface receptors for IgE. The book separates them on life span, size, nuclear shape and phagocytic ability: the basophil lives a few days and is 10–12 µm, the mast cell lives weeks to months and is 20–30 µm.
 
 The word azurophilic describes an affinity, not a colour that identifies a cell. All three granulocytes have azurophil granules; only the neutrophil's are large, few and dark enough to be a described feature, and in the eosinophil they are small and are lysosomes.
+
+The Barr body is not an extra nuclear lobe. A lobe is the size of the other lobes; the drumstick is much smaller and hangs from one of them, and the department arrows the two separately on the same neutrophil.
+
+A basophil found outside a blood film is a mast cell misnamed. Both carry coarse metachromatic granules, but the mast cell is a connective tissue cell with a pale, central, rounded nucleus and is never a cell of the film.
 ## hold_these
 Neutrophils are 60–70% of the differential count and eosinophils 1–4%, so most granulocytes on a normal film are neutrophils.
 The neutrophil nucleus has two to five lobes joined by thin chromatin threads; the eosinophil nucleus is bilobed and horse-shoe shaped with one thick thread.
@@ -126,6 +142,9 @@ Neutrophil azurophil granules are primary lysosomes containing myeloperoxidase; 
 In phagocytosis the specific granules discharge before the azurophil granules.
 Diapedesis is migration between the endothelial cells of a vessel, and it is what turns a circulating neutrophil into a tissue microphage.
 Eosinophilia above 5% points to allergy or to a parasite such as bilharziasis.
+The Barr body is a small drumstick-shaped appendage joined by a thin chromatin thread to one segment of the neutrophil nucleus, present in 3-6% of a female's neutrophils, and the department's paper names it the inactive X chromosome.
+Every practical blood plate opens "This is a ..., stained with ...", and the answer is a blood film stained with Leishman's stain.
+The answer page's characters are: neutrophil, segmented or multilobed nucleus; eosinophil, eosinophilic granules and a bilobed nucleus; basophil, large basophilic granules and an S-shaped nucleus masked by them.
 ## lose_the_mark
 Counting lobes alone. A young neutrophil may be bilobed, and the granules, not the nucleus, are what settle it.
 Giving the eosinophil count as 2–4%. The department book states 1–4%, and the book's figure is the one the paper marks against.
@@ -134,6 +153,9 @@ Calling a basophil a mast cell because both stain metachromatically. They differ
 Releasing the azurophil granules first in the account of phagocytosis. The order is specific granules, then azurophil.
 Attributing metachromasia to histamine. It is the heparin in the granule that produces it.
 Saying eosinophils cause allergy. They terminate it, by destroying histamine and heparin and clearing antigen–antibody complexes.
+Counting the Barr body as a nuclear lobe. It is much smaller than a lobe and hangs from one, and the plate marks the two separately.
+Naming the cell before naming the preparation. The stem asks for the blood film and Leishman's stain first, and both carry marks.
+Calling a basophil a mast cell on a blood film. The mast cell is a connective tissue cell and does not appear on a film.
 ## image_recommendations
 ### histology · Human peripheral blood film, Leishman or Giemsa, oil immersion, one neutrophil and one eosinophil in the same field, both nuclei and both granule populations in focus
 Purpose: The whole concept is a side-by-side discrimination made under the microscope. Two cells in one field at one magnification let the student compare granule size and staining directly, which two separate plates at two magnifications do not.

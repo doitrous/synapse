@@ -2,16 +2,24 @@
   Multiple-choice questions for 101 ISK, from the departmental question books.
 
     Arm — 63 questions, 13 concepts
+    Articular system — 13 questions, 4 concepts
     Axilla — 68 questions, 17 concepts
     Blood Platelets — 19 questions, 5 concepts
     Cytoplasm — 286 questions, 23 concepts
+    Embryonic Period — 9 questions, 2 concepts
+    Fetal Period — 6 questions, 3 concepts
+    First Week of Development — 24 questions, 6 concepts
+    Gametes — 31 questions, 4 concepts
     Glandular Epithelium — 68 questions, 6 concepts
     Granular leukocytes — 13 questions, 3 concepts
     Haemopoiesis — 6 questions, 4 concepts
     Hand — 68 questions, 13 concepts
     Joints of Upper Limb — 23 questions, 5 concepts
+    Microscopes — 7 questions, 2 concepts
     Muscles of the Back — 29 questions, 9 concepts
     Myo Epithelium — 1 questions, 1 concepts
+    Nerve Supply of Upper Limb & Nerve Injuries — 159 questions, 27 concepts
+    Nervous system — 16 questions, 4 concepts
     Neuro Epithelium — 3 questions, 1 concepts
     Non granular leukocytes — 14 questions, 5 concepts
     Nucleus — 70 questions, 7 concepts
@@ -33,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  185 questions were excluded and 0 held back for having no
+  257 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -4465,6 +4473,670 @@ Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1)
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the four-option printing of the same question; the tendon of the long head of biceps is the only structure that runs within the capsule of the shoulder joint while remaining outside the synovial cavity.
+
+
+---
+
+# Item
+## id
+QM-101-CAB019518960
+## title
+Regarding the elbow joint, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the elbow joint, choose the correct answer:
+## answer_a
+It is formed by articulation of the lower end of humerus and the upper ends
+## explanation_a
+Correct. Three bones meet here — the lower end of the humerus above, the upper ends of the ulna and radius below — which is what makes the elbow the department book's type example of a compound joint.
+## answer_b
+Its flexion is produced by corobrachialis
+## explanation_b
+Coracobrachialis crosses the shoulder, not the elbow: it runs from the coracoid process to the middle of the humeral shaft and so cannot flex the elbow. Picked because its name contains "brachii" territory and it is learnt beside biceps, which does flex the elbow.
+## answer_c
+Its capsule is attached to the head of radius
+## explanation_c
+The capsule is attached to the neck of the radius through the anular ligament, deliberately not to the head. Anything anchored to the head would stop it spinning and abolish pronation and supination.
+## answer_d
+It is a synovial joint of pivot
+## explanation_d
+The classic swap. The pivot in this region is the superior radio-ulnar joint, which shares the elbow's capsule but is a separate joint; the elbow itself is a uniaxial hinge, held to flexion and extension by strong collateral ligaments.
+## correct_answer
+A
+## main_concept
+CON-MSK-782A87EC05EF74
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Upper Limb
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the bones that form the elbow, classify it, and say what the capsule is and is not attached to.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p13 q72; Anatomy MCQ Book [2025] [first priority].pdf p31 q72. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-E3F16B75BB53
+## title
+An example of a secondary cartilaginous joint (DEP BOOK – 2016). Ac P Vi a- Intervertebral
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of a secondary cartilaginous joint (DEP BOOK – 2016). Ac P Vi a- Intervertebral
+## answer_a
+Intervertebral.
+## explanation_a
+Correct. Two vertebral bodies, each capped by thin hyaline cartilage, are united by a white fibrocartilaginous disc in the midline, permanently and with slight movement — every criterion of a secondary cartilaginous joint.
+## answer_b
+Skull sutures.
+## explanation_b
+A skull suture is fibrous, not cartilaginous: the bones are held by a thin sutural ligament, and it is immobile. Picked by students who remember only that sutures are not synovial.
+## answer_c
+Sacroiliac.
+## explanation_c
+The sacroiliac joint tempts because it is axial and barely mobile, so it feels like a symphysis. It is a synovial plane joint, and the pubic symphysis — not the sacroiliac — is the pelvic secondary cartilaginous joint.
+## answer_d
+Distal tibioﬁbular.
+## explanation_d
+The distal (inferior) tibio-fibular joint is the department book's example of a syndesmosis, a fibrous joint held by an interosseous ligament. Chosen when "held by tissue rather than a cavity" is read as cartilaginous.
+## correct_answer
+A
+## main_concept
+CON-MSK-8863ACD7E8D790
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Recognise a secondary cartilaginous joint by its midline position and fibrocartilaginous disc.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p12 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, the sacroiliac joint, which is wrong: the sacroiliac is a synovial plane joint anteriorly with a posterior syndesmosis, and carries no fibrocartilaginous disc. The intervertebral joint is the department book's own named example of a secondary cartilaginous joint, and the option-list bleed in the stem shows the list itself began "a- Intervertebral".
+
+
+---
+
+# Item
+## id
+QM-101-FD8936396F01
+## title
+In what joint is the root of the tooth attached to a periodontal ligament and held into…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In what joint is the root of the tooth attached to a periodontal ligament and held into a tooth socket (2024). y y
+## answer_a
+Gomphosis.
+## explanation_a
+Correct. A gomphosis is a peg-in-socket fibrous joint, and the peg is a tooth root: the periodontal ligament holding it in the alveolus of the maxilla or mandible is what names it.
+## answer_b
+Suture.
+## explanation_b
+A suture also uses a fibrous ligament, the sutural ligament, but it unites two flat skull bones edge to edge, not a peg in a hole. Picked by students who group all three fibrous joints under "skull".
+## answer_c
+Syndemosis.
+## explanation_c
+Syndesmosis is the third fibrous type and is held by an interosseous ligament, as between the lower ends of tibia and fibula. It is the printed key here and it is wrong: no tooth is involved.
+## answer_d
+Serrate suture.
+## explanation_d
+Not a separate class — a serrate suture is one shape of suture, and adding the shape does not make it a tooth joint. Chosen when the longer, more technical-sounding option is assumed to be the more precise one.
+## correct_answer
+A
+## main_concept
+CON-MSK-17E2267FB4758F
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Attach the periodontal ligament to gomphosis and to no other fibrous joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p12 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, syndesmosis. The stem gives the definition of a gomphosis word for word — a tooth root held in its socket by the periodontal ligament — and syndesmosis is the interosseous-ligament type at the inferior tibio-fibular joint. The same question elsewhere in this leaf is keyed A.
+
+
+---
+
+# Item
+## id
+QM-101-E24999994369
+## title
+One of the following is a character of the secondary cartilaginous joint. Ac P (DEP BOO…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a character of the secondary cartilaginous joint. Ac P (DEP BOOK – 2018). P Vi a- It is a temporary
+## answer_a
+It is a temporary.
+## explanation_a
+Temporary belongs to the primary cartilaginous joint, which ossifies with growth — the epiphyseal plate is gone by adulthood. A symphysis is permanent, and this is the single most common swap in the pair.
+## answer_b
+It is immobile.
+## explanation_b
+Immobile is again the primary joint. The secondary joint's fibrocartilaginous disc is elastic, and that elasticity is exactly what gives it its limited movement.
+## answer_c
+It is present in the midline.
+## explanation_c
+Correct. Secondary cartilaginous joints lie in the median plane — the intervertebral discs, the pubic symphysis, the manubriosternal joint — and position is what the department book gives as their defining character.
+## answer_d
+It has a potential cavity.
+## explanation_d
+The printed key, and the trap: a potential cavity is a synovial joint character. A cartilaginous joint has cartilage between the bones and therefore no cavity, potential or otherwise.
+## correct_answer
+C
+## main_concept
+CON-MSK-8863ACD7E8D790
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the characters of the secondary cartilaginous joint from those of the primary and of the synovial joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p10 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints D, a potential cavity, which belongs to the synovial joint and to no cartilaginous joint at all. Being midline is the department book's stated character of the secondary cartilaginous joint; temporary and immobile are the primary's.
+
+
+---
+
+# Item
+## id
+QM-101-26B31C2CDDB0
+## title
+Regarding characters of the synovial joint, one is wrong : (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding characters of the synovial joint, one is wrong : (2022)
+## answer_a
+It has a joint cavity.
+## explanation_a
+True, so not the wrong one. The joint cavity is one of the seven components, potential rather than open, and holding only a film of fluid.
+## answer_b
+It has a ﬁbrous capsule.
+## explanation_b
+True, so not the wrong one, and the printed key is wrong to name it. The fibrous capsule surrounds the joint, is lined by synovial membrane and is what the ligaments strengthen.
+## answer_c
+The articular surfaces of the bones are covered by yellow elastic cartilage.
+## explanation_c
+The wrong statement, and the answer. Articular cartilage is hyaline: smooth, avascular, without nerves, nourished from the synovial fluid. Yellow elastic cartilage is the pinna and epiglottis, and a surface that bends would not hold a joint.
+## answer_d
+It has supportive ligaments.
+## explanation_d
+True, so not the wrong one. Capsular, extracapsular and intracapsular ligaments are the sixth component and the chief factor in the joint's stability.
+## correct_answer
+C
+## main_concept
+CON-MSK-1E40050F141F4C
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State which cartilage covers an articular surface and why it is not elastic.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The book prints B, the fibrous capsule, which is the first of the seven components and plainly a true character. The false statement is C: articular cartilage is hyaline, not yellow elastic — elastic cartilage is found in the pinna and epiglottis and never on an articular surface.
+
+
+---
+
+# Item
+## id
+QM-101-D49473DB8251
+## title
+What is the type of joint that connects the roots of the teeth to their sockets? (DEP B…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What is the type of joint that connects the roots of the teeth to their sockets? (DEP BOOK). ad
+## answer_a
+Gomphosis
+## explanation_a
+Correct. Gomphosis is the fibrous peg-in-socket joint, and the tooth in its alveolus held by the periodontal ligament is its only example in the body.
+## answer_b
+Sutures. y
+## explanation_b
+A suture is fibrous too, and the maxilla the tooth sits in is a skull bone — which is what makes this tempting. A suture unites two bones edge to edge; a tooth is not a bone of the vault.
+## answer_c
+Sacroiliac joint
+## explanation_c
+The sacroiliac joint is synovial and pelvic, and appears here only as filler. Chosen when a student recognises none of the terms and picks the joint they can name.
+## answer_d
+Synovial. em Ac
+## explanation_d
+Synovial is the freely mobile class with a capsule and a cavity. A tooth that moved freely in its socket would be a tooth about to be lost, which is the point of the periodontal ligament being fibrous.
+## correct_answer
+A
+## main_concept
+CON-MSK-17E2267FB4758F
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name the joint between a tooth root and its socket.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-03D07CF14CEA
+## title
+Which of the following contains a joint cavity? (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following contains a joint cavity? (2021)
+## answer_a
+Knee joint.
+## explanation_a
+Correct. The knee is a synovial joint, and a synovial joint is the only class with a cavity: potential in health, becoming a real space when effusion, blood or pus collects.
+## answer_b
+intervertebral disc.
+## explanation_b
+The intervertebral joint is a secondary cartilaginous joint, whose fibrocartilaginous disc fills the space entirely. Picked by students who imagine the nucleus pulposus as fluid in a cavity — it is a gel within cartilage, with no synovial lining.
+## answer_c
+Suture.
+## explanation_c
+A suture is fibrous and the bones are held edge to edge by a sutural ligament, with no gap at all. In old age it does not open; it ossifies shut.
+## answer_d
+Inferior tibioﬁbular.
+## explanation_d
+The inferior tibio-fibular joint is a syndesmosis, held by an interosseous ligament. Chosen because a ligament between two bones suggests a gap, but the ligament fills it.
+## correct_answer
+A
+## main_concept
+CON-MSK-1E40050F141F4C
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Articular system
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise that a joint cavity is the property of a synovial joint alone.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p11 q18. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Of the four, only the knee is synovial, and a joint cavity — even a potential one — exists in no other class of joint.
+
+
+---
+
+# Item
+## id
+QM-101-6F889B4B4269
+## title
+Which of the following is true in respect to the elbow joint? (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true in respect to the elbow joint? (2022)
+## answer_a
+It is strengthened by the radial and ulnar collateral ligaments
+## explanation_a
+Correct. The radial collateral runs from the lateral epicondyle to the anular ligament and the ulnar collateral from the medial epicondyle in three bands to the coronoid process and olecranon; between them they confine the elbow to flexion and extension.
+## answer_b
+It is a plane type of synovial joint
+## explanation_b
+A plane joint has flat surfaces and gliding movement without an axis — the intercarpal and superior tibio-fibular joints. The elbow has a trochlea articulating with a trochlear notch, which is the definition of a hinge.
+## answer_c
+It is supplied by the cephalic and basilic arteries
+## explanation_c
+The cephalic and basilic are veins, not arteries, and they are superficial veins of the limb that supply nothing. The elbow is supplied by the anastomosis around it, from the brachial, profunda brachii, radial and ulnar arteries.
+## answer_d
+It is innervated by the median and axillary nerves
+## explanation_d
+The axillary nerve serves the shoulder, not the elbow; the elbow is supplied by branches of the musculocutaneous, radial, median and ulnar nerves — the nerves of the muscles that move it, which is Hilton's law. Picked by pairing the one elbow-crossing nerve in the list with a familiar name.
+## correct_answer
+A
+## main_concept
+CON-MSK-782A87EC05EF74
+## library_ids
+ART-101-ANA-SYNOVIAL-JOINTS
+## topic
+Upper Limb
+## subtopic
+Articular system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Articular system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the ligaments, the type, and the vessels and nerves of the elbow, and reject the ones borrowed from elsewhere.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p160 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This copy printed no key. The near-identical row `which-of-the-following-is-true-in-respect-to-the-elbow-joint-b4b873c4` is keyed A, and A is the only true statement of the four: the radial and ulnar collateral ligaments are the elbow's named ligaments.
 
 
 ---
@@ -31751,6 +32423,2666 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-101-0E8432546A64
+## title
+Segmentation of somites starts at
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Segmentation of somites starts at
+## answer_a
+Occipital region
+## explanation_a
+Correct. Segmentation begins at the occipital region and extends caudally from there.
+## answer_b
+Cervical region
+## explanation_b
+The cervical region is the first one most students think of, because the vertebral column is usually recited from the neck down. Segmentation has already passed through four occipital pairs by the time it reaches it.
+## answer_c
+Thoracic region
+## explanation_c
+The thoracic somites are the largest group, twelve pairs, which makes them memorable — but they are third in order, not first.
+## answer_d
+Lumbar region
+## explanation_d
+The lumbar region is nearly the end of the sequence. If segmentation began there the occipital and cervical somites would be the youngest, and the whole craniocaudal gradient of development would run backwards.
+## correct_answer
+A
+## main_concept
+CON-DEV-8F17D9869A6D15
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## topic
+Embryology
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Name where somite segmentation begins and infer the direction it runs.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p7 q41. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-8091A048D7A2
+## title
+At the occipital region, the embryo has ........... somites,
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+At the occipital region, the embryo has ........... somites,
+## answer_a
+Four
+## explanation_a
+Correct. Four pairs of occipital somites, the first of the six regional groups and the first to segment.
+## answer_b
+Six
+## explanation_b
+Six is not a count in the book's regional list at all. It is the number a student reaches for when they remember the occipital group as a middling one rather than the smallest of the six.
+## answer_c
+Three
+## explanation_c
+Three is the number of pairs added per day during the somite period, not the number in the occipital region. The two figures sit a line apart in the book and are easily transposed.
+## answer_d
+Five
+## explanation_d
+Five is the count for both the lumbar and the sacral regions, and a student who has learnt the list as a run of numbers rather than as region-to-number pairs will often land on it.
+## correct_answer
+A
+## main_concept
+CON-DEV-8F17D9869A6D15
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Normal values
+## learning_objective
+Give the number of occipital somite pairs from the regional list.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q43. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: Neither printing of this question in the books carries a key. The department book's regional list on page 88 gives 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8–10 coccygeal pairs, so the answer is four.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2576371561FD
+## title
+The age of an embryo with 16 pairs of somites is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The age of an embryo with 16 pairs of somites is
+## answer_a
+23 days. 1
+## explanation_a
+23 days is what comes out if the twenty-day starting point is kept but the three-pairs-a-day rate is applied to the wrong quantity — it corresponds to about ten somites, not sixteen.
+## answer_b
+24 days
+## explanation_b
+24 days is one day short, the answer of a student who divides sixteen by three and rounds down instead of subtracting the first pair before dividing. The "− 1" in the formula exists because the first pair marks day 20 itself.
+## answer_c
+25 days
+## explanation_c
+Correct. (16 − 1)/3 + 20 = 25 days.
+## answer_d
+26 days
+## explanation_d
+26 days is one day long, from dividing sixteen by three and rounding up. Both neighbours are printed deliberately: the question is testing the arithmetic, not the recall.
+## correct_answer
+C
+## main_concept
+CON-DEV-3AB7E19B99F387
+## library_ids
+ART-101-ANA-EMBRYONIC-PERIOD
+## topic
+Embryonic Period
+## subtopic
+Embryonic Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Calculation
+## learning_objective
+Apply the book's somite-age formula rather than estimating.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p93 q42. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: None of the three printings of this question in the books carries a key. The department book's formula on page 88 is age in days = (number of somites − 1)/3 + 20, which for 16 somites gives (16 − 1)/3 + 20 = 5 + 20 = 25 days.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2BAB71EC9F7F
+## title
+Fetal period starts at the beginning of
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fetal period starts at the beginning of
+## answer_a
+2"d month
+## explanation_a
+The 2nd month is weeks 5 to 8, which is the second half of the embryonic period — the organs are still being formed. Picked by students who count the eight embryonic weeks as one month.
+## answer_b
+3rd month
+## explanation_b
+Correct. The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.
+## answer_c
+4th month
+## explanation_c
+By the 4th month the fetus is already a month into the fetal period: lanugo hair is appearing and the external genitalia differentiated at the end of the previous month.
+## answer_d
+5th month
+## explanation_d
+The 5th month is when vernix caseosa appears and movements are first clearly felt — events within the fetal period, not its start.
+## correct_answer
+B
+## main_concept
+CON-DEV-E273F775E9CB77
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Convert the 9th week into the month the book counts it as.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q77. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-7A77BC14D32E
+## title
+At full term, the head of the fetus represent about
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+At full term, the head of the fetus represent about
+## answer_a
+1/5 of the CH length
+## explanation_a
+One fifth is not one of the book's three figures at all. It reads plausibly because it lies between the newborn's quarter and the adult's eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.
+## answer_b
+1/6 of the CH length
+## explanation_b
+One sixth would make the newborn head nearer adult proportions than it is; the disproportionately large head is the whole point of the newborn figure.
+## answer_c
+1/3 of the CH length
+## explanation_c
+One third is the true figure for the beginning of the 5th month, taken against crown-heel length. It is the most tempting distractor here because it is the adjacent stage on the same measurement, and a student who has memorised the fractions without their dates will reach for it.
+## answer_d
+1/4 Of the CH length
+## explanation_d
+Correct. At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.
+## correct_answer
+D
+## main_concept
+CON-DEV-869FD1A9D3AEB7
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Attach the right fraction to birth rather than to a mid-fetal stage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p13 q79. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-742FD8A20473
+## title
+The weight of fetus at full tern'l ranges between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The weight of fetus at full tern'l ranges between
+## answer_a
+900 - 1300 grams
+## explanation_a
+900–1300 g is the weight around 25–28 weeks — a fetus at the edge of viability, less than half of term weight.
+## answer_b
+1400- 2100 grams
+## explanation_b
+1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question in the books is keyed to it in error.
+## answer_c
+3000 - 3400 grams
+## explanation_c
+Correct. A full-term fetus weighs 3000–3400 g, the last row of the growth table.
+## answer_d
+4600 - 5300 grams
+## explanation_d
+4600–5300 g is well above any normal birth weight; a baby of that size is macrosomic and a recognised complication, not the norm.
+## correct_answer
+C
+## main_concept
+CON-DEV-B9581AAE767D2F
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## topic
+Embryology
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the full-term weight and recognise the preterm weights beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p12 q78. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-29B7FA174BFA
+## title
+The weight of fetus at full term ranges between
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+The weight of fetus at full term ranges between
+## answer_a
+900 - 1300 grams
+## explanation_a
+900–1300 g is the weight around 25–28 weeks. A term newborn of that weight would be severely growth-restricted.
+## answer_b
+1400 - 2100 grams
+## explanation_b
+1400–2100 g belongs to 28–32 weeks, a preterm fetus. It is the trap on this question, and it catches students because it is genuinely printed in the table they revised from — one row too high.
+## answer_c
+3000 - 3400 grams
+## explanation_c
+Correct. 3000–3400 g is the full-term weight.
+## answer_d
+4600 - 5300 grams
+## explanation_d
+4600–5300 g is macrosomia, seen with maternal diabetes; it is not the normal range.
+## correct_answer
+C
+## main_concept
+CON-DEV-B9581AAE767D2F
+## library_ids
+ART-101-ANA-FETAL-PERIOD
+## topic
+Fetal Period
+## subtopic
+Fetal Period
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Fetal Period
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the full-term weight and recognise the preterm weights beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p98 q78. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: This printing carries no key. The same question is printed elsewhere in the books keyed to C, 3000–3400 g, and that is the figure the growth table gives at term; the two annotated printings keyed to B are reading the 28–32 week row. Set to C.
+
+
+---
+
+# Item
+## id
+QM-101-EA8CED3A4A20
+## title
+Fertilization occurs in the
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fertilization occurs in the
+## answer_a
+Fallopian tube
+## explanation_a
+Correct. Fertilisation occurs in the uterine (Fallopian) tube — in its ampullary part, the lateral third.
+## answer_b
+Surface of ovary
+## explanation_b
+The surface of the ovary is where the oocyte is released, not where it is fertilised. Implantation there is ovarian ectopic pregnancy, an abnormality; one annotated printing of this very question in the books is keyed to this option in error.
+## answer_c
+Uterine cavity
+## explanation_c
+The uterine cavity is where the embryo arrives on the fourth day and implants at the end of the first week — four days after fertilisation, not at it.
+## answer_d
+Pelvic cavity
+## explanation_d
+The pelvic cavity is where an omental or abdominal ectopic pregnancy would implant. Nothing normal happens to the oocyte there.
+## correct_answer
+A
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental process
+## learning_objective
+Name the organ in which fertilisation takes place.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q7; Anatomy MCQ Book [2025] [first priority].pdf p88 q7. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-29E187AF9249
+## title
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Fertilization occurs in the following site of fallopian tube (2023 - 2022) y
+## answer_a
+Intramural part
+## explanation_a
+The intramural part is the short segment inside the uterine wall, the narrowest part of the tube. It is a site of ectopic implantation, and the most dangerous one, but the oocyte never gets that far unfertilised.
+## answer_b
+Isthmus
+## explanation_b
+The isthmus is the narrow medial third, between the intramural part and the ampulla. It is the answer printed in the books and it is wrong: it is a site of tubal ectopic pregnancy, not the site of fertilisation.
+## answer_c
+Lateral 1/3 P
+## explanation_c
+Correct. The lateral third of the tube is the ampulla, and the department book puts fertilisation there.
+## answer_d
+Infundibulum
+## explanation_d
+The infundibulum is the funnel with the fimbriae at the ovarian end. It collects the oocyte and passes it on; fertilisation happens just medial to it, in the ampulla.
+## correct_answer
+C
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Place fertilisation in the correct part of the uterine tube, not merely in the tube.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p114 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to the isthmus. The department book states that fertilisation occurs "in the ampullary part of the uterine tube (lateral third)", and the written batch's own concept for this, `fertilization-site-mechanism-results`, says the same. The lateral third is the ampulla, so the answer is C. The isthmus is a real place — it is one of the three tubal sites of ectopic implantation the book lists — which is what makes it a plausible key to print by mistake.
+
+
+---
+
+# Item
+## id
+QM-101-B9918CF719F2
+## title
+One of the following is a result of fertilization
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a result of fertilization
+## answer_a
+Determination of sex
+## explanation_a
+Correct. Determination of sex is one of the four results the book lists, and it follows from which sperm arrived: an X-bearing sperm gives XX and a Y-bearing sperm XY.
+## answer_b
+Cortical and zona reaction
+## explanation_b
+The cortical and zona reaction is a step within fertilisation, not a result of it — it is the block to polyspermy that happens the moment the membranes fuse.
+## answer_c
+Formation of male and female pronuclei
+## explanation_c
+Formation of the male and female pronuclei is likewise a step. The result is what their fusion produces: the zygote nucleus.
+## answer_d
+Zygote nucleus contains haploid number of chromosomes
+## explanation_d
+The reverse of the truth, and the answer one annotated printing of this question is keyed to. Each gamete nucleus is haploid; fertilisation restores the diploid number of forty-six, which is the third result on the book's list.
+## correct_answer
+A
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Separate the results of fertilisation from the steps that produce them.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q13. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-C7088975D4C9
+## title
+Phase III of fertilization is (DEP BOOK) y y
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Phase III of fertilization is (DEP BOOK) y y
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Dispersion of the corona radiata is Phase I, done by the hyaluronidase of the three to five hundred sperms that reach the ovum.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation comes before the phases are counted at all — it is the seven-hour removal of the glycoprotein coat from the sperm's acrosomal region in the female tract. A student who counts it as Phase I lands one number short on every phase that follows, which is exactly what this question is set to catch.
+## answer_c
+Penetration of cell membrane of ovum.
+## explanation_c
+Correct. Phase III is the opening of the cell membrane of the oocyte: the membranes of sperm head and oocyte fuse, and the sperm nucleus, mitochondrial sheath and axial filament pass into the cytoplasm.
+## answer_d
+Penetration of zona pellucida.
+## explanation_d
+Penetration of the zona pellucida is Phase II, the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through the zona.
+## correct_answer
+C
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Put the phases of fertilisation in the book's order and name the third by number.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p115 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-3F2643CA59FC
+## title
+Regarding morula
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding morula
+## answer_a
+It is formed in uterine tube within 3 days after formation of zygote
+## explanation_a
+Correct. The morula is the 16-cell stage, formed inside the uterine tube within three days of the zygote — it has not reached the uterus yet.
+## answer_b
+It is formed after degeneration of zona pellucida
+## explanation_b
+Backwards. The zona pellucida is still intact around the morula and only begins to degenerate at the end of the fifth day, after the morula has reached the uterine cavity.
+## answer_c
+It contains a cavity
+## explanation_c
+A cavity is what makes a blastocyst a blastocyst. The morula is a solid ball, which is what its name — mulberry — describes.
+## answer_d
+It is the stage that starts implantation
+## explanation_d
+Implantation is started by the blastocyst, at the end of the first week and by its embryonic pole. The morula is two to three days too early and has no trophoblast yet.
+## correct_answer
+A
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Date the morula and keep the blastocyst's features off it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q14. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F10BABD7977B
+## title
+Which structure bounds cells after fertilization as they compact to form the morula? (2…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Which structure bounds cells after fertilization as they compact to form the morula? (2024)
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. Cleavage happens inside the zona pellucida, which is why the blastomeres get smaller instead of the whole embryo getting bigger, and why they compact rather than scatter.
+## answer_b
+Corona radiate
+## explanation_b
+The corona radiata is the outer layer of follicular cells, and it is dispersed in Phase I of fertilisation — it is gone before the first cleavage division.
+## answer_c
+Pronucleus
+## explanation_c
+A pronucleus is one of the two haploid nuclei that fuse to make the zygote nucleus. It is inside a single cell and bounds nothing.
+## answer_d
+Inner cell maas
+## explanation_d
+The inner cell mass is a group of cells within the blastocyst, two stages later. It is bounded by the trophoblast rather than bounding anything itself.
+## correct_answer
+A
+## main_concept
+CON-DEV-F5A87FDF5D911C
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name what holds the blastomeres together during cleavage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-75A93F37D7D2
+## title
+One of the following.is true about blastocyst
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following.is true about blastocyst
+## answer_a
+It has no cavity
+## explanation_a
+The blastocyst is defined by its cavity, the blastocele. It is the morula that has none.
+## answer_b
+It starts implantation by its abembryonic pole
+## explanation_b
+It implants by its embryonic pole, the trophoblast lying over the inner cell mass. The abembryonic pole is the far side and goes in last — this is the commonest error in the whole chapter, and the books ask it both ways round.
+## answer_c
+It is formed 3 days after formation of the zygote
+## explanation_c
+Three days after the zygote gives the morula, not the blastocyst; the blastocyst is complete at the end of the sixth day.
+## answer_d
+Its inner cell mass is called embryoblast
+## explanation_d
+Correct. Embryoblast is the other name for the inner cell mass, as trophoblast is for the outer.
+## correct_answer
+D
+## main_concept
+CON-DEV-28CF4D241BE607
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the parts of the blastocyst and reject the morula's properties.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q15. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-664986E0250D
+## title
+Concerning the blastocyst, select the false answer: (2023) em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning the blastocyst, select the false answer: (2023) em em
+## answer_a
+Its cavity is called the blastocele
+## explanation_a
+True, so not the false one. Blastocele is the name of the blastocyst's cavity.
+## answer_b
+Its wall is formed by outer cell mass
+## explanation_b
+True, so not the false one. The wall is one cell thick and is the outer cell mass, the trophoblast.
+## answer_c
+Its inner cell mass is located at its ab-embryonic pole. Ac ad
+## explanation_c
+The false statement, and the answer. The inner cell mass lies at the embryonic pole — the pole is named after it, so the two cannot be on opposite sides. A student picks this as true by remembering that one pole is called abembryonic and pairing it with the wrong structure.
+## answer_d
+Normally implants in the posterior wall of the fundus of the uterus
+## explanation_d
+True, so not the false one. Normal implantation is into the posterior wall of the fundus of the uterus.
+## correct_answer
+C
+## main_concept
+CON-DEV-28CF4D241BE607
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place the inner cell mass at the embryonic pole and nowhere else.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p116 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-34B92D5D09F0
+## title
+Trophoblast is the outer wall of: (2016 – DEP BOOK) Ac ad Ac ad ad ad
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Trophoblast is the outer wall of: (2016 – DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Morula.
+## explanation_a
+The morula is a solid ball of blastomeres with no wall and no cavity, so it has no trophoblast to be the outer layer of. The trophoblast appears only when the blastocele opens up inside it.
+## answer_b
+Blastocyst.
+## explanation_b
+Correct. The trophoblast is the single-layered outer cell mass forming the wall of the blastocyst.
+## answer_c
+Chorionic vesicle.
+## explanation_c
+The chorionic vesicle is a later structure — the conceptus once the chorion has formed — and its wall is chorion, which is trophoblast plus extra-embryonic mesoderm, not trophoblast alone.
+## answer_d
+Placenta.
+## explanation_d
+The placenta is later still, and it is built from chorionic villi and decidua basalis together. Trophoblast contributes to it, but the placenta is not a vesicle with a trophoblast wall.
+## correct_answer
+B
+## main_concept
+CON-DEV-28CF4D241BE607
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach the trophoblast to the stage that actually has one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p117 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1A424422F5EB
+## title
+Placenta previa
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Placenta previa
+## answer_a
+Is the implantation of blastocyst in the lower segment of uterine cavity
+## explanation_a
+Correct. Placenta previa is implantation in the lower uterine segment, so that the placenta comes to lie over or near the internal os.
+## answer_b
+Is the implantation of blastocyst in the uterine tube
+## explanation_b
+Implantation in the uterine tube is tubal ectopic pregnancy — the commonest ectopic site, and the one that ruptures. It is chosen by students who read "abnormal site" as meaning "outside the uterus".
+## answer_c
+Is the implantation of blastocyst at the surface of ovary
+## explanation_c
+Implantation on the surface of the ovary is ovarian ectopic pregnancy, another site outside the uterine cavity.
+## answer_d
+Is the implantation of blastocyst in the pelvic cavity
+## explanation_d
+Implantation on the peritoneum is abdominal or omental ectopic pregnancy. Like B and C it is outside the uterus, whereas previa is inside it and merely too low.
+## correct_answer
+A
+## main_concept
+CON-DEV-89FC3BBB3C9BCE
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Embryology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Separate the one abnormal intrauterine site from the ectopic ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p3 q17. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-358F8851FF93
+## title
+Decidua basalis (DEP BOOK) em em em em em
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Decidua basalis (DEP BOOK) em em em em em
+## answer_a
+It is the post-Implantation endometrium at the lower segment of uterine cavity
+## explanation_a
+The lower uterine segment is where placenta previa implants. The decidua is named by its relation to the conceptus, not by which part of the uterus it is in.
+## answer_b
+It Is the covering of blastocyst after implantation
+## explanation_b
+The covering over the implanted conceptus is decidua capsularis. This is the classic swap, and it is the option that catches most students: basalis is beneath, capsularis is over.
+## answer_c
+It is the part of endometrium between the implanted blastocyst and myometrium
+## explanation_c
+Correct. Decidua basalis is the endometrium between the implanted blastocyst and the myometrium, and it becomes the maternal part of the placenta.
+## answer_d
+It is the endometrium that lines uterine cavity. Ac ad
+## explanation_d
+The endometrium lining the rest of the uterine cavity, away from the conceptus, is decidua parietalis. It fuses with the capsularis at about the fourth month.
+## correct_answer
+C
+## main_concept
+CON-DEV-B84639AB8FF5DE
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+First Week of Development
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Define decidua basalis by what lies on either side of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p118 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C3C53986C96E
+## title
+all functions of peroxisome except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+all functions of peroxisome except:
+## answer_a
+Beta oxidation of long chain fatty acids
+## explanation_a
+True, so not the exception. Beta-oxidation of long-chain fatty acids is what the peroxisomal oxidases do.
+## answer_b
+energy that comes out as heat and not stored as ATP
+## explanation_b
+True, so not the exception. Peroxisomal beta-oxidation releases its energy as heat instead of trapping it as ATP, which is what distinguishes it from the mitochondrial version.
+## answer_c
+2H2O2(toxic. + catalase →H2O + O2
+## explanation_c
+True, so not the exception. Catalase splits the hydrogen peroxide the oxidases generate into water and oxygen.
+## answer_d
+digest nutrients, fertilization
+## explanation_d
+The exception, and the answer. Digesting nutrients is the lysosome's work, and the acrosome — a specialised lysosome — is what acts in fertilisation. Both belong to the hydrolase-carrying organelle, not to the one that carries oxidases and catalase.
+## answer_e
+oxidases are important in liver cells for detoxification
+## explanation_e
+True, so not the exception. Peroxisomes are abundant in liver cells, where their oxidases detoxify — about half the ethanol a person drinks is dealt with here.
+## correct_answer
+D
+## main_concept
+CON-FND-195407DF67047D
+## library_ids
+ART-101-ANA-FERTILIZATION
+## topic
+Cytology
+## subtopic
+First Week of Development
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > First Week of Development
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Keep the lysosome's work out of the peroxisome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p9 q15. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2E31171A9A45
+## title
+Regarding formation of sperms
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding formation of sperms
+## answer_a
+Starts at birth and stopped at old age
+## explanation_a
+Starting at birth is the female pattern misapplied to the male, and even for the female it is a month too late — she starts in intrauterine life. Nothing about sperm begins at birth. This is the option one annotated printing of this question is keyed to in error.
+## answer_b
+Starts at birth and stopped at puberty
+## explanation_b
+Stopping at puberty is exactly backwards: puberty is when spermatogenesis begins, not when it ends.
+## answer_c
+Starts at puberty and continues till old. age
+## explanation_c
+Correct. Spermatogenesis starts at puberty and continues into old age, without the arrest that interrupts the female schedule.
+## answer_d
+Starts at old age and continues till death
+## explanation_d
+Starting at old age would leave a man infertile for most of his life. The option exists only to complete the four combinations of the two boundaries.
+## correct_answer
+C
+## main_concept
+CON-DEV-623698E111AA4B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Developmental timing
+## learning_objective
+Give the start and end of spermatogenesis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q1; Anatomy MCQ Book [2025] [first priority].pdf p87 q1. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-1F446CCD6005
+## title
+Regarding oogenesis
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding oogenesis
+## answer_a
+Starts at puberty and continues till age
+## explanation_a
+Starting at puberty is the male schedule. Picked by students who reason from menstruation backwards — but the oocytes were already there, arrested, long before the first period.
+## answer_b
+Starts at birth and continues till menopause
+## explanation_b
+The end is right and the beginning is wrong. Oogenesis does continue to the menopause, but it began in intrauterine life, not at birth — and that half-truth is what makes this the strongest distractor of the four.
+## answer_c
+Starts at birth and continues till puberty
+## explanation_c
+Ending at puberty would mean a woman had no oocytes left to ovulate. Puberty is where the arrested process resumes, not where it stops.
+## answer_d
+Starts in the intra-uterine life, then arrested to be continued at puberty
+## explanation_d
+Correct. Oogenesis begins in intrauterine life, is arrested, and resumes at puberty to continue through the ovarian cycles until the menopause.
+## correct_answer
+D
+## main_concept
+CON-DEV-623698E111AA4B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental timing
+## learning_objective
+Place the beginning of oogenesis before birth and name the arrest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q2; Anatomy MCQ Book [2025] [first priority].pdf p87 q2. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-AF1B108C2387
+## title
+Sperm capacitation is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Sperm capacitation is
+## answer_a
+Increase the amount of acrosomal enzymes
+## explanation_a
+Capacitation does not add acrosomal enzymes; the hyaluronidase and acrosin are already in the acrosomal cap when the sperm is made. What changes is access to them.
+## answer_b
+Increase movement of the tail
+## explanation_b
+The sperm does become more active after capacitation, which is why this option is tempting and why one annotated printing of this question is keyed to it. But increased motility is a consequence, not the definition — the definition names what is taken away.
+## answer_c
+Decease amount of the cytoplasm
+## explanation_c
+The sperm shed most of their cytoplasm during spermiogenesis, in the testis, long before they reach the female tract.
+## answer_d
+Removal of glycoprotein coat from the head of the sperm
+## explanation_d
+Correct. Capacitation is the removal, in the female genital tract, of the glycoprotein coat covering the acrosomal region of the sperm head, and it takes about seven hours.
+## correct_answer
+D
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Define capacitation by what is removed rather than by what improves.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q8; Anatomy MCQ Book [2025] [first priority].pdf p88 q8. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-FC9B251847BC
+## title
+Phase II of fertilization is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Phase II of fertilization is
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Dispersion of the corona radiata is Phase I. It is one place too early, and it is the answer of a student who has counted capacitation out of the sequence but not renumbered what follows.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation precedes the numbered phases entirely, and one annotated printing of this question is keyed to it in error. Counting it as Phase I shifts every subsequent phase by one, which is precisely the error this pair of questions is built to detect.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Opening the cell membrane of the oocyte is Phase III, the last of the three.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Correct. Phase II is penetration of the zona pellucida — the acrosomal reaction, in which acrosin and trypsin-like enzymes dissolve a path through it.
+## correct_answer
+D
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Number the phases of fertilisation from the corona radiata inwards.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q9; Anatomy MCQ Book [2025] [first priority].pdf p88 q9. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-37DCBFC76CA0
+## title
+Phase III of fertilization is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Phase III of fertilization is
+## answer_a
+Penetration of corona radiate
+## explanation_a
+Penetration of the corona radiata is Phase I, done by hyaluronidase from the several hundred sperms that reach the ovum.
+## answer_b
+Capacitation of sperms
+## explanation_b
+Capacitation is the preparation that precedes Phase I; it is not numbered among the three phases at all.
+## answer_c
+Penetration of cell membrane of ovum
+## explanation_c
+Correct. Phase III is the fusion and opening of the cell membranes of sperm and oocyte, letting the sperm nucleus, mitochondrial sheath and axial filament into the cytoplasm.
+## answer_d
+Penetration of zona pellucida
+## explanation_d
+Penetration of the zona pellucida is Phase II. The two questions on this page differ by one word — II against III — and offer the same four options, so a student who has learnt the phases as an unordered list will get one of the pair wrong whichever way they guess.
+## correct_answer
+C
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Name the third and last phase of fertilisation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q10; Anatomy MCQ Book [2025] [first priority].pdf p88 q10. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-37FA17936A49
+## title
+Cortical and :zona reactions occur
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Cortical and :zona reactions occur
+## answer_a
+After passage of sperms through corona radiate
+## explanation_a
+After the corona radiata is passed the sperm still has the zona pellucida ahead of it. Blocking other sperms at this point would be premature — the fertilising sperm has not yet arrived.
+## answer_b
+During sperm penetration of zona pellucida
+## explanation_b
+During zona penetration is one step too early for the same reason: several sperms may still be in the zona, and the block is not thrown until one of them is inside.
+## answer_c
+After entrance of the sperm to the cytoplasm of the ovum
+## explanation_c
+Correct. The cortical granules release their lysosomal enzymes once the sperm has entered the oocyte cytoplasm, and those enzymes alter the zona receptors and harden the zona and cell membrane against any further sperm.
+## answer_d
+After formation of the zygote
+## explanation_d
+The zygote forms only when the two pronuclei fuse, hours later. If the block waited that long, polyspermy would already have happened.
+## correct_answer
+C
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Developmental process
+## learning_objective
+Time the block to polyspermy against the sperm's entry.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q12; Anatomy MCQ Book [2025] [first priority].pdf p88 q12. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8311F67DF780
+## title
+Zona reaction
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Zona reaction
+## answer_a
+Is the sperm penetration of zona pellucida
+## explanation_a
+That is Phase II, the sperm's acrosomal reaction. The zona reaction is the ovum's answer to it, and the two are easily transposed because both name the zona.
+## answer_b
+Occurs by release of lysosomal enzymes from cortical granules of the ovum
+## explanation_b
+Correct. The zona reaction is the release of lysosomal enzymes from the cortical granules lying beneath the oocyte cell membrane; those enzymes change the sperm receptors of the zona so that no further sperm is attracted or admitted.
+## answer_c
+Occurs after capacitation of the sperms
+## explanation_c
+It does occur after capacitation, but so does everything else in fertilisation, so this says nothing that identifies it. It is the option one annotated printing of this question is keyed to, and a statement that is true but not defining is the hardest kind of distractor to reject.
+## answer_d
+Is the degeneration of zona pellucida
+## explanation_d
+Degeneration of the zona pellucida is a later and quite separate event — it happens at the end of the fifth day, in the uterine cavity, so the blastocyst can hatch and implant.
+## correct_answer
+B
+## main_concept
+CON-DEV-F33BB68138377B
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Developmental process
+## learning_objective
+Define the zona reaction as the ovum's act, not the sperm's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p2 q11; Anatomy MCQ Book [2025] [first priority].pdf p88 q11. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2AAF96BE1645
+## title
+Sperm receptors are present on
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Sperm receptors are present on
+## answer_a
+Zona pellucida
+## explanation_a
+Correct. The zona pellucida is the glycoprotein coat around the oocyte cell membrane, and it carries the sperm receptors.
+## answer_b
+Corona radiata
+## explanation_b
+The corona radiata is the outermost covering, of follicular cells, and the sperm passes it by dissolving the hyaluronic acid between its cells rather than by binding a receptor. One annotated printing of this question is keyed to it in error.
+## answer_c
+Cell membrane
+## explanation_c
+The oocyte cell membrane is the innermost of the three coverings and is where Phase III happens — fusion, not binding. Binding has already selected one sperm by then.
+## answer_d
+Nuclear membrane
+## explanation_d
+The nuclear membrane is inside the oocyte altogether. A sperm that reached it would have passed everything the receptors exist to regulate.
+## correct_answer
+A
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the sperm receptors on the correct covering of the ovum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q5; Anatomy MCQ Book [2025] [first priority].pdf p87 q5. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-19D9DAD4A420
+## title
+Movement of the sperm depends on
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Movement of the sperm depends on
+## answer_a
+Acrosomal cap and tail
+## explanation_a
+The acrosomal cap carries hyaluronidase and acrosin, which dissolve a path through the ovum's coverings. It contributes nothing to movement — it is chemistry, not propulsion.
+## answer_b
+Mitochondrial sheath and tail
+## explanation_b
+Correct. The mitochondrial sheath of the middle piece supplies the energy and the tail, an axial filament, does the beating; movement needs both.
+## answer_c
+Head and mitochondrial sheath
+## explanation_c
+The head carries the nucleus and the acrosome and is the passenger, not the engine. Half of this option is right, which is what makes it the most attractive wrong answer.
+## answer_d
+Head and acrosomal cap
+## explanation_d
+Neither the head nor the acrosomal cap has any motile apparatus. This pairs the two parts of the sperm that do the least moving.
+## correct_answer
+B
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pair the part that generates the energy with the part that uses it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q4. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F464FEAE3B4D
+## title
+One of the following parts of sperm is responsible for production of energy
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following parts of sperm is responsible for production of energy
+## answer_a
+Mitochondrial sheath
+## explanation_a
+Correct. The mitochondrial sheath wraps the proximal part of the axial filament in the middle piece and is the source of the energy for sperm motility.
+## answer_b
+Nucleus
+## explanation_b
+The nucleus carries the paternal chromosomes. It is condensed and transcriptionally quiet, and produces no energy at all.
+## answer_c
+Acrosomal cap
+## explanation_c
+The acrosomal cap is a specialised lysosome holding hyaluronidase and acrosin. It spends energy rather than producing it.
+## answer_d
+Tail
+## explanation_d
+The tail is what the energy is spent on, and it is the answer one annotated printing of this question is keyed to. The distinction the question is testing is exactly this one: the tail moves, the middle piece pays for it.
+## correct_answer
+A
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Separate the part that makes the energy from the part that spends it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p1 q3. Manifest src_12d639a625d8305c4454.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-45D6FC331772
+## title
+‏ممم‎ IS the outer cover of the mature ovum
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+‏ممم‎ IS the outer cover of the mature ovum
+## answer_a
+Zona pellucida
+## explanation_a
+The zona pellucida is the middle covering, between the cell membrane and the corona radiata. It is the one students name first because it is the one with the sperm receptors, and it is one layer short of the answer.
+## answer_b
+Cell membrane
+## explanation_b
+The cell membrane is the innermost of the three, in contact with the oocyte cytoplasm.
+## answer_c
+Corona radiata
+## explanation_c
+Correct. The corona radiata is the outermost covering, formed of follicular cells stuck to one another by hyaluronic acid — which is why the sperm's hyaluronidase is what disperses it.
+## answer_d
+Nuclear membrane. 7
+## explanation_d
+The nuclear membrane is inside the oocyte and is not one of its coverings at all.
+## correct_answer
+C
+## main_concept
+CON-DEV-0BA870DF2C2E13
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Embryology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Order the three coverings of the ovum from within outwards.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf p2 q6. Manifest src_f32859b80fb79d668010.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The books print no key for this row. The department book gives the ovum three coverings from inner to outer — cell membrane, zona pellucida, corona radiata — so the outer cover is the corona radiata.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-780B37F19307
+## title
+Cilia are present in all of the following EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cilia are present in all of the following EXCEPT:
+## answer_a
+trachea
+## explanation_a
+True, so not the exception. The trachea is lined by ciliated pseudostratified columnar epithelium.
+## answer_b
+bronchi
+## explanation_b
+True, so not the exception. The bronchi carry the same ciliated lining, part of the mucociliary escalator.
+## answer_c
+fallopian tube
+## explanation_c
+True, so not the exception. The cilia of the uterine tube help carry the ovum and then the embryo towards the uterus.
+## answer_d
+sperm
+## explanation_d
+The exception, and the answer. The sperm's tail is a flagellum, not a cilium. The two are built on the same 9+2 axoneme, which is what makes the option feel wrong to a student who has learnt the ultrastructure — they differ in that a cell has many short cilia and one long flagellum.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Cytology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Distinguish a flagellum from a cilium by number and length, not by internal structure.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q59. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B71836E8AC4A
+## title
+flagella are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+flagella are present in:
+## answer_a
+trachea
+## explanation_a
+The trachea has cilia — many short ones per cell — not a flagellum.
+## answer_b
+bronchi
+## explanation_b
+The bronchi likewise carry cilia. A flagellum would move the cell itself, which is not what a fixed epithelial cell needs.
+## answer_c
+fallopian tube
+## explanation_c
+The uterine tube is ciliated. Its cilia move the contents past a stationary cell, the opposite arrangement to the sperm's.
+## answer_d
+sperm
+## explanation_d
+Correct. The sperm is the only human cell with a flagellum, and its single long tail is what propels the cell itself.
+## correct_answer
+D
+## main_concept
+CON-FND-0FAE59E00B748E
+## library_ids
+ART-101-ANA-GAMETES
+## topic
+Cytology
+## subtopic
+Gametes
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Gametes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the one human cell with a flagellum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p8 q60. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
 QM-101-82DCF129E456
 ## title
 Simple branched tubular glands:
@@ -42956,6 +46288,255 @@ Answer changed from the source's: The bank carries A, but the sternoclavicular j
 
 # Item
 ## id
+QM-101-644A25B01A69
+## title
+All the statements concerned to the cell membrane are true EXCEPT:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All the statements concerned to the cell membrane are true EXCEPT:
+## answer_a
+It is known as plasma lemma
+## explanation_a
+True, so not the exception. Plasmalemma is simply the other name for the plasma membrane.
+## answer_b
+All membranes of the cell have the same appearance
+## explanation_b
+True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, and the department book applies it to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.
+## answer_c
+By E/M it is formed of bilayer
+## explanation_c
+The exception, and the answer. Bilayer describes how the phospholipid molecules are arranged, which is chemistry; what the electron microscope shows is three layers, because the osmium deposits in the two rows of hydrophilic heads and leaves the hydrophobic tails between them unstained. Answering with the molecular truth instead of the microscopic appearance is exactly the confusion the stem is set to catch.
+## answer_d
+Invisible by light microscope
+## explanation_d
+True, so not the exception. At 7.5–10 nm the membrane is far below the light microscope's 0.2 µm resolution, so it cannot be resolved and has to be shown indirectly with silver or PAS.
+## correct_answer
+C
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Cytology
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate what the membrane is built of from what the electron microscope shows of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q12. Manifest src_6846577508f49244d715.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The books key this to B, and B is what the department book itself teaches: it calls the two mitochondrial membranes and both layers of the nuclear envelope "unit membranes", which is the statement that all the cell's membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.
+
+
+---
+
+# Item
+## id
+QM-101-A447D737C56E
+## title
+Electron microscope OF Cell membrane
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Electron microscope OF Cell membrane
+## answer_a
+bilaminar
+## explanation_a
+Bilaminar is the commonest wrong answer, taken from the phospholipid bilayer. The bilayer is the arrangement of the molecules; the image has one more layer than that.
+## answer_b
+trilaminar
+## explanation_b
+Correct. Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.
+## answer_c
+tetralaminar
+## explanation_c
+Tetralaminar describes nothing in the cell. Four layers would need two membranes, which is what a nuclear envelope or a mitochondrion has, not a cell membrane.
+## answer_d
+unilaminar
+## explanation_d
+Unilaminar would be a single line, which is what the membrane looks like at low magnification before the three layers separate. It is not what the electron microscope resolves.
+## correct_answer
+B
+## main_concept
+CON-FND-F4B7458F8B8265
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Cytology
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Count the layers the electron microscope actually shows in the cell membrane.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p1 q10. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C7770987F487
+## title
+The resolution of TEM is about
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The resolution of TEM is about
+## answer_a
+0.2 nm
+## explanation_a
+Correct. The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope's 0.2 µm.
+## answer_b
+0.4 um
+## explanation_b
+0.4 µm is the wrong order of magnitude and the wrong figure: 0.2 µm is the light microscope, and no instrument in this chapter is quoted at 0.4.
+## answer_c
+0.2 mm
+## explanation_c
+0.2 mm is the resolution of the naked eye. Picked by students who remember the figure 0.2 and not which of the three it belongs to — all three resolutions are 0.2, and only the unit tells them apart.
+## answer_d
+0.4 mm
+## explanation_d
+0.4 mm is coarser than the naked eye, which would make an electron microscope worse than no microscope at all.
+## correct_answer
+A
+## main_concept
+CON-FND-DACB83532148D6
+## library_ids
+ART-101-HIS-MICROSCOPES
+## topic
+Cytology
+## subtopic
+Microscopes
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Introduction > Microscopes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Normal values
+## learning_objective
+Give the resolution of the electron microscope in the correct unit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology Mcq_87432.pdf p12 q71. Manifest src_620516ae7327c0f4fc2f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
 QM-101-854F82F2D4A8
 ## title
 Upward rotation of the scapula in raising the arm above head, due to contraction of; ma…
@@ -45042,6 +48623,12484 @@ Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
+
+---
+
+# Item
+## id
+QM-101-C0111BEE6D43
+## title
+Wrist drop deformity results from injury of which one of the following nerves?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Wrist drop deformity results from injury of which one of the following nerves?
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve gives a partial claw hand, not a wrist drop. It supplies no extensor at all, so the wrist cannot fall when it is cut; what falls is the fourth and fifth fingers into clawing.
+## answer_b
+Median nerve
+## explanation_b
+Picked by students who reason that the wrist "drops" into flexion and therefore blame the flexor nerve. The wrist drops because the extensors are dead, not because the flexors are strong, and the median nerve supplies flexors.
+## answer_c
+Radial nerve
+## explanation_c
+Correct. Every extensor of the wrist and fingers is radial, so a radial lesion above the elbow leaves nothing to hold the wrist up and the hand hangs.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve stops at deltoid and teres minor. It never reaches the forearm, so no lesion of it can affect the wrist.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach wrist drop to the radial nerve and to no other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+10.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q14; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q18; Upper MCQ Dr.jalal (1).pdf p55 q18; Anatomy Question [Upper Limb] (1).pdf p6 q33; Anatomy MCQ Book [2025] [first priority].pdf p24 q33. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 5 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F82DD852AC60
+## title
+Cutaneous innervation of the palm, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Cutaneous innervation of the palm, choose the correct answer:
+## answer_a
+Ulnar, median, radial and medial cutaneous nerves of forearm
+## explanation_a
+The trap is the medial cutaneous nerve of the forearm, which is genuinely a nerve of this region — but the option also names the radial nerve, and the radial nerve supplies the back of the hand only. One wrong name spoils the list.
+## answer_b
+Cutaneous branches from ulnar and median nerves
+## explanation_b
+True as far as it goes, and it is the answer a student gives who has learnt the two-thirds and one-third rule and stopped there. It is incomplete: the upper part of the ball of the thumb is supplied by the lateral cutaneous nerve of the forearm, which the option omits.
+## answer_c
+Median, ulnar and lateral cutaneous nerves of forearm
+## explanation_c
+Correct. Median for the lateral two-thirds, ulnar for the medial third, and the lateral cutaneous nerve of the forearm — the terminal part of the musculocutaneous — for the upper part of the thenar area.
+## answer_d
+Ulnar and radial nerve only
+## explanation_d
+This gets the palm exactly backwards. The radial nerve supplies no palmar skin, and the median nerve, which supplies most of it, is missing from the option altogether.
+## correct_answer
+C
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+List every nerve that reaches the skin of the palm, and exclude the one that does not.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p21 q18; Upper MCQ Dr.jalal (1).pdf p33 q18; Anatomy Question [Upper Limb] (1).pdf p20 q114; Anatomy MCQ Book [2025] [first priority].pdf p38 q114. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The only other copy of this question, `cutaneous-innervation-of-the-palm-choose-the-correct-answer-552283dd`, is keyed C, and C is right on the anatomy: the palm is median over its lateral two-thirds and ulnar over its medial third, with the lateral cutaneous nerve of the forearm reaching the ball of the thumb. Every option that names the radial nerve is wrong, because the radial nerve reaches no part of the palm.
+
+
+---
+
+# Item
+## id
+QM-101-B9942589A7AD
+## title
+Loss of finger's abduction and adduction results from lesion of which one of the follow…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of finger's abduction and adduction results from lesion of which one of the following nerves?
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. All four dorsal interossei, which abduct, and all three palmar interossei, which adduct, take the deep branch of the ulnar nerve.
+## answer_b
+Median nerve
+## explanation_b
+The median nerve supplies only the lateral two lumbricals in the hand, and lumbricals do not abduct or adduct — they flex the knuckles and extend the fingers.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve supplies no intrinsic muscle of the hand whatever. It stops at the wrist and finger extensors, which move the fingers as a set rather than spreading them.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve ends in deltoid and teres minor at the shoulder and has no representation in the hand.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace spreading and closing the fingers to the interossei and thence to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p14 q36; Upper MCQ Dr.jalal (1).pdf p18 q36; Anatomy Question [Upper Limb] (1).pdf p4 q23; Anatomy MCQ Book [2025] [first priority].pdf p22 q23. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-1110A5AD3972
+## title
+One of the following structures pass behind the medial epicondyle:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures pass behind the medial epicondyle:
+## answer_a
+Median nerve
+## explanation_a
+The median nerve passes in front of the elbow, in the cubital fossa, medial to the brachial artery. It is the nerve most often confused with the ulnar here because both are medial — but one is in front of the joint and one behind the bone.
+## answer_b
+Interosseous recurrent artery
+## explanation_b
+The interosseous recurrent artery does ascend behind the elbow, but to the back of the lateral epicondyle, where it joins the anastomosis with the middle collateral artery.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+The musculocutaneous nerve has already left the arm laterally, piercing the deep fascia at the lateral border of the biceps tendon to become the lateral cutaneous nerve of the forearm.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve grooves the back of the medial epicondyle, where it lies against bare bone and can be rolled under a finger — and where a fracture of that epicondyle catches it.
+## correct_answer
+D
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the ulnar nerve behind the medial epicondyle and everything else in front of the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p13 q31; Upper MCQ Dr.jalal (1).pdf p17 q31; Anatomy Question [Upper Limb] (1).pdf p15 q83; Anatomy MCQ Book [2025] [first priority].pdf p33 q83. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B74040694D42
+## title
+Palmaris brevis; one is correct:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Palmaris brevis; one is correct:
+## answer_a
+Arises from trapezium and capitate bone
+## explanation_a
+Trapezium and capitate are carpal bones that give origin to the thenar and adductor muscles. Palmaris brevis is a small subcutaneous sheet arising from the flexor retinaculum and the medial edge of the palmar aponeurosis, and it reaches no bone at all — it inserts into skin.
+## answer_b
+Is the only muscle innervated by superficial branch of ulnar nerve
+## explanation_b
+Correct. The deep branch of the ulnar nerve supplies every other ulnar muscle in the hand; the superficial branch supplies palmaris brevis alone and then continues as the palmar digital nerves.
+## answer_c
+Covers the ulnar artery and the superficial branch of median nerve
+## explanation_c
+The structure palmaris brevis covers is the ulnar artery and the superficial branch of the ulnar nerve, in the hypothenar region. Substituting "median" for "ulnar" is the whole error, and it is easy to miss on a fast reading.
+## answer_d
+Covers the palmar cutaneous branch of median nerve
+## explanation_d
+The palmar cutaneous branch of the median nerve crosses the lateral part of the wrist, superficial to the flexor retinaculum. Palmaris brevis is a hypothenar muscle on the opposite side of the palm.
+## correct_answer
+B
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Recognise palmaris brevis as the one muscle of the superficial branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p17 q50; Upper MCQ Dr.jalal (1).pdf p21 q50; Anatomy Question [Upper Limb] (1).pdf p23 q130; Anatomy MCQ Book [2025] [first priority].pdf p41 q130. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. B is the only true option: the superficial branch of the ulnar nerve supplies palmaris brevis and then becomes purely cutaneous, so palmaris brevis is its only muscle. A gives the muscle a bony origin it does not have, and C and D both name a median branch where the nerve is ulnar.
+
+
+---
+
+# Item
+## id
+QM-101-2326B991EFB0
+## title
+Which nerve arises from a cord of the brachial plexus cords?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which nerve arises from a cord of the brachial plexus cords?
+## answer_a
+Long thoracic nerve
+## explanation_a
+The long thoracic nerve comes off the roots themselves — C5, C6 and C7 — before any trunk is formed. That is why it lies on serratus anterior on the medial wall rather than travelling with the cords.
+## answer_b
+Nerve to subclavius
+## explanation_b
+The nerve to subclavius is a branch of the upper trunk, alongside the suprascapular nerve, and is given off above the clavicle.
+## answer_c
+Suprascapular nerve
+## explanation_c
+The suprascapular nerve is the other branch of the upper trunk. It is the most-offered distractor in this leaf precisely because it is a named nerve that sounds as though it should belong to the posterior cord.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+Correct. The thoracodorsal (nerve to latissimus dorsi) is a branch of the posterior cord, along with the radial, axillary and the two subscapular nerves.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the branches of the roots and trunks from the branches of the cords.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+9.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p6 q32; Upper MCQ Dr.jalal (1).pdf p6 q32; Anatomy Question [Upper Limb] (1).pdf p9 q52; Anatomy MCQ Book [2025] [first priority].pdf p27 q52. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 4 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-CB2DAEEBA916
+## title
+Pronator muscles of forearm are supplied by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Pronator muscles of forearm are supplied by:
+## answer_a
+Musculocutaneous nerve
+## explanation_a
+The musculocutaneous nerve ends in the arm: coracobrachialis, biceps and brachialis, and then skin. It supplies no forearm muscle, although biceps is a supinator and therefore the pronators’ antagonist.
+## answer_b
+Radial nerve
+## explanation_b
+The radial nerve supplies the extensor compartment, which contains supinator — the pronators’ opposite number. Choosing it means reasoning that the nerve of supination must also serve pronation, when the two movements belong to two compartments.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve has only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and neither pronates.
+## answer_d
+Median nerve
+## explanation_d
+Correct. Pronator teres and pronator quadratus are both anterior compartment muscles and both median, the latter through the anterior interosseous branch.
+## correct_answer
+D
+## main_concept
+CON-MSK-44131E0EDEACA2
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the pronators to the anterior compartment and thence to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p10 q10; Anatomy Question [Upper Limb] (1).pdf p14 q78; Anatomy MCQ Book [2025] [first priority].pdf p32 q78. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A541864EE55F
+## title
+Regarding the median nerve injury, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the median nerve injury, choose the correct answer:
+## answer_a
+It may be injured by fractures of the shaft of the humerus
+## explanation_a
+The nerve injured by a fracture of the shaft of the humerus is the radial, in the spiral groove. The median nerve is endangered by a supracondylar fracture at the lower end, which is a different fracture in a different place.
+## answer_b
+The resulting deformity of the hand is called claw hand
+## explanation_b
+Claw hand is ulnar. It is offered here because both nerves are flexor nerves of the front of the forearm, but the median deformity is the ape hand — the thenar eminence flattened — and clawing needs the interossei and lumbricals of the fourth and fifth fingers, which are ulnar.
+## answer_c
+There is loss of opposition of the thumb
+## explanation_c
+Correct. Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve, and it is the first thing tested after a median injury.
+## answer_d
+There is loss of sensation.over the lateral 2/3 of dorsum of hand
+## explanation_d
+The lateral two-thirds of the dorsum of the hand is superficial radial territory. Median sensation on the back of the hand is confined to the terminal phalanges of the lateral three and a half fingers.
+## correct_answer
+C
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Separate the median nerve’s deformity and territory from the ulnar nerve’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p12 q23; Anatomy Question [Upper Limb] (1).pdf p17 q95; Anatomy MCQ Book [2025] [first priority].pdf p35 q95. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-2D05651E6020
+## title
+Structures passing through the quadrangular space of the axilla; mark the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Structures passing through the quadrangular space of the axilla; mark the correct answer:
+## answer_a
+The axillary nerve and posterior circumflex humeral artery
+## explanation_a
+Correct. The axillary nerve and the posterior circumflex humeral vessels wind together round the surgical neck of the humerus through this space, which is why one injury takes both.
+## answer_b
+The axillary nerve and anterior circumflex humeral artery
+## explanation_b
+The anterior circumflex humeral artery is the smaller of the pair and runs in front of the surgical neck, outside any of the three spaces. Choosing it means remembering the artery’s name and not which side of the bone it passes.
+## answer_c
+The axillary nerve and circumflex scapular artery
+## explanation_c
+The circumflex scapular artery passes through the upper triangular space, on the other side of the long head of triceps. It is the neighbour, and the long head is the wall between them.
+## answer_d
+The axillary nerve and musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve leaves the axilla forwards, piercing coracobrachialis. It never approaches the back of the surgical neck.
+## correct_answer
+A
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give both contents of the quadrangular space and separate them from the neighbouring spaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p4 q22; Anatomy Question [Upper Limb] (1).pdf p24 q138; Anatomy MCQ Book [2025] [first priority].pdf p42 q138. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The quadrangular space transmits the axillary nerve with the posterior circumflex humeral vessels; the sibling copy `structures-passing-through-the-quadrangular-space-of-the-axi-b0c542eb` also prints none, and the two rows keyed on the closely worded "injury to quadrangular intermuscular space" question agree on the same pair.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-5E8422207EB2
+## title
+The following structure is a content of the cubital fossa:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure is a content of the cubital fossa:
+## answer_a
+Bracioradialis
+## explanation_a
+Brachioradialis forms the lateral boundary of the triangle. It is the commonest wrong answer here, and it comes from confusing what makes the walls of a space with what lies inside it.
+## answer_b
+Median nerve
+## explanation_b
+Correct. The median nerve is the most medial content, lying medial to the brachial artery on the floor formed by brachialis.
+## answer_c
+Musculocutaneous
+## explanation_c
+The musculocutaneous nerve has left the fossa before it begins: it pierces the deep fascia above the elbow at the lateral border of the biceps tendon and is then a cutaneous nerve in the superficial fascia of the roof.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve passes behind the medial epicondyle, outside the fossa altogether. That is exactly why an anterior wound of the elbow can spare it.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a content of the cubital fossa from a muscle that bounds it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p11 q18; Upper MCQ Dr.jalal (1).pdf p15 q18; Anatomy MCQ Book [2025] [first priority].pdf p22 q19. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the three copies of this question in the bank carry three different letters between them — A on `the-following-structure-is-a-content-of-the-cubital-fossa-de-17e185eb` and D on `the-followfng-structure-is-a-content-of-the-cubital-fossa-96e524e5`. The contents of the fossa are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; brachioradialis is the lateral boundary and the ulnar nerve is behind the medial epicondyle, so B is the only option that is a content.
+
+
+---
+
+# Item
+## id
+QM-101-549164448431
+## title
+The following structure passes deep to the flexor retinaculum:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure passes deep to the flexor retinaculum:
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve crosses superficial to the retinaculum, lateral to the pisiform, in the canal of Guyon. It is the single commonest error in this leaf, and it matters because it is why carpal tunnel syndrome never numbs the little finger.
+## answer_b
+Ulnar vessels
+## explanation_b
+The ulnar vessels accompany the ulnar nerve over the front of the retinaculum, not under it.
+## answer_c
+Tendon of palmaris longus
+## explanation_c
+Palmaris longus is inserted partly into the retinaculum and its tendon lies superficial to it — which is what makes it a surface landmark for the median nerve beneath.
+## answer_d
+Median nerve
+## explanation_d
+Correct. The median nerve passes deep to the retinaculum with the long flexor tendons, and compression there is carpal tunnel syndrome.
+## correct_answer
+D
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the one nerve inside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q41; Anatomy Question [Upper Limb] (1).pdf p2 q11; Anatomy MCQ Book [2025] [first priority].pdf p20 q11. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9543EC0713F4
+## title
+The nerve commonly injured following fracture of the shaft of humerus is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The nerve commonly injured following fracture of the shaft of humerus is:
+## answer_a
+Axillary nerve
+## explanation_a
+The axillary nerve is caught by a fracture of the surgical neck, at the upper end of the bone, not by a fracture of the shaft.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is against the humerus only at the medial epicondyle, at the lower end.
+## answer_c
+Radial nerve
+## explanation_c
+Correct. The radial nerve lies in the spiral groove directly on the back of the shaft, with the profunda brachii vessels, and a mid-shaft fracture is the classic cause of wrist drop.
+## answer_d
+Median nerve
+## explanation_d
+The median nerve runs in the soft tissue of the medial side of the arm and touches the bone nowhere along the shaft; it is endangered by a supracondylar fracture instead.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair a fracture site on the humerus with the nerve in contact with it there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p20 q13; Anatomy Question [Upper Limb] (1).pdf p10 q58; Anatomy MCQ Book [2025] [first priority].pdf p28 q58. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-9A9724DD5D1D
+## title
+The serratus anterior muscle:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The serratus anterior muscle:
+## answer_a
+Arises by eight digitations from the lower eight ribs
+## explanation_a
+The digitations are eight, which is the half of the statement that is true, but they come from the upper eight ribs. Reading "eight digitations" and stopping is what makes this option work.
+## answer_b
+Is inserted into the costal aspect of the medial border of scapula
+## explanation_b
+Correct. Serratus anterior is inserted along the whole costal aspect of the medial border of the scapula, which is precisely why its paralysis lets that border wing away from the chest wall.
+## answer_c
+Is innervated by thoracodorsal nerve
+## explanation_c
+The thoracodorsal nerve supplies latissimus dorsi. Both nerves come off in the axilla and both run down the chest wall, but the long thoracic nerve lies on serratus anterior itself.
+## answer_d
+Is a powerful extensor of the shoulder
+## explanation_d
+Serratus anterior draws the scapula forward and rotates it upward; the powerful extensor and adductor of the shoulder is latissimus dorsi, which is the muscle the thoracodorsal option belongs to.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachment and the nerve of serratus anterior, and say what it actually does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p1 q5; Anatomy Question [Upper Limb] (1).pdf p32 q183; Anatomy MCQ Book [2025] [first priority].pdf p52 q183. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the sibling `the-serratus-anterior-muscle-dep-book-em-em-ac011a37` is keyed B and B is correct. The muscle arises from the upper eight ribs, not the lower eight; it is supplied by the long thoracic nerve, not the thoracodorsal; and it protracts and rotates the scapula rather than extending the shoulder.
+
+
+---
+
+# Item
+## id
+QM-101-3B0A6B33EFEC
+## title
+Which one of the following nerves innervates a muscle that abducts shoulder from 15 to …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following nerves innervates a muscle that abducts shoulder from 15 to 90 degrees?
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve supplies no abductor of the shoulder. It is offered because it is the other posterior cord branch, and because students who remember "posterior cord" without remembering which branch reach for the larger nerve.
+## answer_b
+Ulnar
+## explanation_b
+The ulnar nerve has no branch above the elbow at all, let alone one to the shoulder.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The middle fibres of deltoid carry abduction from fifteen to ninety degrees, and deltoid is supplied by the axillary (circumflex) nerve.
+## answer_d
+Suprascapular nerve
+## explanation_d
+The suprascapular nerve supplies supraspinatus, which starts abduction and hands over at fifteen degrees. Choosing it means taking the muscle that begins the movement rather than the one that performs the stated range.
+## correct_answer
+C
+## main_concept
+CON-MSK-352E28DEA38DF7
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach each range of abduction to its muscle and thence to its nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p5 q20; Anatomy Question [Upper Limb] (1).pdf p7 q39; Anatomy MCQ Book [2025] [first priority].pdf p25 q39. Manifest src_0f68f0c75a8effe74782, src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-682E21C2D3C6
+## title
+Ape's-like hand deformity results from following injury of which one of the following n…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Ape's-like hand deformity results from following injury of which one of the following nerves?
+## answer_a
+Axillary nerve
+## explanation_a
+The axillary nerve gives a flat shoulder, from wasting of deltoid. Its territory ends far above the hand.
+## answer_b
+Median nerve
+## explanation_b
+Correct. The thenar eminence wastes when the median nerve is cut, the thumb falls back into the plane of the palm, and the flattened hand is called the ape or monkey hand.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve gives clawing of the fourth and fifth fingers and hollowing between the metacarpals — a wasted hand too, but wasted on the medial side and clawed rather than flattened.
+## answer_d
+Radial nerve
+## explanation_d
+The radial nerve gives wrist drop. Nothing about the thumb’s resting position changes, because the thenar muscles are median.
+## correct_answer
+B
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the ape hand to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q17; Anatomy Question [Upper Limb] (1).pdf p5 q25. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-A4F3848809F0
+## title
+Deep branch of the ulnar nerve ends by supplying:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Deep branch of the ulnar nerve ends by supplying:
+## answer_a
+Abductor digiti minimi.
+## explanation_a
+Abductor digiti minimi is supplied at the very beginning of the deep branch’s course, as it passes between the hypothenar muscles. It is where the nerve starts, not where it ends.
+## answer_b
+Flexor digiti minimi.
+## explanation_b
+Flexor digiti minimi is supplied in the same first group. The option is true of what the nerve supplies and false about when.
+## answer_c
+Opponens digiti minimi.
+## explanation_c
+Opponens digiti minimi completes the hypothenar trio and is also supplied at the outset.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Correct. The deep branch crosses the palm deep to the long flexor tendons and terminates in adductor pollicis, which is why a deep branch lesion abolishes thumb adduction and produces Froment’s sign.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Follow the deep branch of the ulnar nerve across the palm to the muscle it ends in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p18 q34; Anatomy MCQ Book [2025] [first priority].pdf p24 q32. Manifest src_0f68f0c75a8effe74782, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. The deep branch enters the hand at the hypothenar eminence, supplies the hypothenar muscles first, then the interossei and the medial two lumbricals, and ends by supplying adductor pollicis at the far lateral side of the palm — so the muscle it ends in is the last one it reaches, not the first.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-8858350294D1
+## title
+Following nerves are related directly to surgical neck of humerus:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Following nerves are related directly to surgical neck of humerus:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve is related directly to the humerus, but in the spiral groove on the back of the shaft, a hand’s breadth lower. Choosing it means remembering that a nerve touches this bone and not which part.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve touches the humerus only at the back of the medial epicondyle, at the far end of the bone.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The axillary nerve passes backwards through the quadrangular space and then circles the surgical neck against bone, which is why a fracture there or a dislocation tests deltoid.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve leaves the axilla by piercing coracobrachialis and never lies against the humerus.
+## correct_answer
+C
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve in contact with the surgical neck of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p7 q37; Upper MCQ Dr.jalal (1).pdf p7 q37. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The axillary nerve winds round the surgical neck through the quadrangular space, and the keyed copies of the same question — `the-following-nerves-are-related-directly-to-the-surgic-al-n-27297884` and `the-nerve-commonly-injured-after-fracture-of-the-surgical-ne-358df674` — both give the axillary nerve.
+
+
+---
+
+# Item
+## id
+QM-101-C05271B16902
+## title
+Inability to abduct arm from 15 to 90 degrees is due to injury of:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Inability to abduct arm from 15 to 90 degrees is due to injury of:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve is the other branch of the posterior cord and supplies no muscle that abducts the shoulder.
+## answer_b
+Long thoracic nerve (nerve to serratus anterior)
+## explanation_b
+The long thoracic nerve, through serratus anterior, rotates the scapula and so governs abduction above ninety degrees. Choosing it means taking the next range up.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+The musculocutaneous nerve flexes the elbow. Coracobrachialis, its only shoulder muscle, flexes and adducts the arm rather than abducting it.
+## answer_d
+Axillary nerve
+## explanation_d
+Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees and deltoid is axillary.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Match the fifteen-to-ninety range of abduction to the nerve of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p7 q41; Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p33 q19. Manifest src_0f1171705349e98b44e6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `inability-to-abduct-the-arm-from-15-to-90-degrees-is-due-to-748bd61f` is keyed D, and D is correct — the range named belongs to the middle fibres of deltoid, supplied by the axillary nerve.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B0A2AAC28A5E
+## title
+Inability to abduct the arm from 15 to 90 degrees is due to injury of:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Inability to abduct the arm from 15 to 90 degrees is due to injury of:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve supplies triceps and the extensors of the forearm; nothing it supplies abducts the shoulder.
+## answer_b
+Long thoracic nerve (nerve to serratus anterior)
+## explanation_b
+Serratus anterior, through the long thoracic nerve, rotates the scapula for abduction beyond ninety degrees. Its loss wings the scapula and stops the arm going above the shoulder, not the middle range.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+The musculocutaneous nerve is the nerve of elbow flexion.
+## answer_d
+Axillary nerve
+## explanation_d
+Correct. Deltoid, supplied by the axillary nerve, is the muscle of the fifteen-to-ninety range, and the first fifteen degrees are supraspinatus.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Match the fifteen-to-ninety range of abduction to the nerve of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p13 q76; Anatomy MCQ Book [2025] [first priority].pdf p31 q76. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-A0545B4C6F4A
+## title
+Lower (lateral) triangular space of axilla, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lower (lateral) triangular space of axilla, choose correct answer:
+## answer_a
+Upper border by teres minor
+## explanation_a
+Teres minor bounds the quadrangular space above, not this one. The two spaces share a name and a neighbourhood, and swapping teres minor for teres major is the swap this option is built on.
+## answer_b
+Medial border by lateral head of triceps
+## explanation_b
+The medial boundary is the long head of triceps; the lateral head lies laterally, along with the shaft of the humerus.
+## answer_c
+Transmits radial nerve and profound brachii artery
+## explanation_c
+Correct. The radial nerve and the profunda brachii vessels leave the axilla through this space to reach the spiral groove — which is why a wound here and a mid-shaft fracture produce the same wrist drop.
+## answer_d
+Transmits median nerve and radial recurrent artery
+## explanation_d
+The median nerve descends in front, on the medial side of the arm, and the radial recurrent artery is a branch of the radial artery at the elbow, a long way distal.
+## correct_answer
+C
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the lower triangular space without confusing them with the quadrangular one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p5 q24; Upper MCQ Dr.jalal (1).pdf p5 q24. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy or on its two siblings. Only C is true: the lower triangular space, lateral to the long head of triceps, transmits the radial nerve and the profunda brachii vessels. Its upper boundary is teres major, not teres minor, and its medial boundary is the long head of triceps, not the lateral head.
+
+
+---
+
+# Item
+## id
+QM-101-1319DDB27600
+## title
+Lower (lateral) triangular space of the axilla, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lower (lateral) triangular space of the axilla, choose the correct answer:
+## answer_a
+Upper border by teres minor
+## explanation_a
+Teres minor is the upper boundary of the quadrangular space; teres major is what bounds this one above.
+## answer_b
+Medial border by lateral head of triceps
+## explanation_b
+The long head of triceps is the medial boundary here. Reaching for the lateral head is what a student does who remembers a head of triceps was involved without remembering which.
+## answer_c
+Transmits radial nerve and profound brachii artery
+## explanation_c
+Correct. The lower triangular space, or triangular interval, transmits the radial nerve and the profunda brachii vessels to the back of the arm.
+## answer_d
+Transmits median nerve and radial recurrent artery
+## explanation_d
+Neither structure is in the space: the median nerve never enters the posterior compartment, and the radial recurrent artery arises at the elbow.
+## correct_answer
+C
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Give the boundaries and contents of the lower triangular space without confusing them with the quadrangular one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p27 q155; Anatomy MCQ Book [2025] [first priority].pdf p47 q155. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The same reasoning as on the identically worded `lower-lateral-triangular-space-of-axilla-choose-correct-answ-e2b9a2ec`: only the statement about the radial nerve and profunda brachii vessels is true.
+
+
+---
+
+# Item
+## id
+QM-101-1C1DB64E3307
+## title
+Nerve commonly injured after fracture of humerus surgical neck is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Nerve commonly injured after fracture of humerus surgical neck is:
+## answer_a
+Axillary nerve
+## explanation_a
+Correct. The axillary nerve circles the surgical neck in the quadrangular space, so a fracture there is tested by asking the patient to abduct and by testing the skin over the lower deltoid.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is at the opposite end of the bone, behind the medial epicondyle.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve belongs to the shaft, in the spiral groove. Choosing it means answering the commoner question — which nerve does a humeral fracture injure — without noticing that this stem names the neck.
+## answer_d
+Median nerve
+## explanation_d
+The median nerve is not applied to the humerus at any level, and the fracture that endangers it is the supracondylar one.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair the surgical neck of the humerus with the axillary nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p7 q38; Upper MCQ Dr.jalal (1).pdf p7 q38. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The clean keyed copy `the-nerve-commonly-injured-after-fracture-of-the-surgical-ne-358df674` gives A, and the anatomy agrees: the axillary nerve is the one structure wound round the surgical neck.
+
+
+---
+
+# Item
+## id
+QM-101-5DACC5D6E7F0
+## title
+Opposition of the thumb is dependent upon the functional integrity of this nerve: (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Opposition of the thumb is dependent upon the functional integrity of this nerve: (2024)
+## answer_a
+Axillary nerve
+## explanation_a
+The axillary nerve ends at the shoulder and has nothing to do with the thumb.
+## answer_b
+Median nerve
+## explanation_b
+Correct. Opponens pollicis is one of the three thenar muscles taking the recurrent branch of the median nerve, and opposition is the movement lost first in carpal tunnel syndrome.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve extends and abducts the thumb through extensor pollicis longus and brevis and abductor pollicis longus, but it cannot rotate the thumb across the palm.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve supplies adductor pollicis, which pulls the thumb towards the palm in one plane. Adduction is not opposition, and the two are confused because both bring the thumb inwards.
+## correct_answer
+B
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach opposition of the thumb to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p65 q21; galal Upper .pdf p80 q2. Manifest src_08bc782553366518791e, src_b7301bfcd7d002317e40.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-2630E46F1D40
+## title
+Partial claw hand deformity results from injury of which one of the following nerves?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Partial claw hand deformity results from injury of which one of the following nerves?
+## answer_a
+Axillary nerve
+## explanation_a
+The axillary nerve produces a flat shoulder; it reaches nothing distal to the arm.
+## answer_b
+Median nerve
+## explanation_b
+The median nerve gives the ape hand. Together with the ulnar it gives a complete claw, which is what makes this option tempting — but on its own it spares the interossei that clawing depends on.
+## answer_c
+Ulnar nerve
+## explanation_c
+Correct. An ulnar lesion paralyses the interossei and the medial two lumbricals, so the fourth and fifth fingers claw while the second and third, whose lumbricals are median, are largely spared. That sparing is what makes the claw partial.
+## answer_d
+Radial nerve
+## explanation_d
+The radial nerve gives wrist drop. It supplies no intrinsic muscle of the hand and cannot claw it.
+## correct_answer
+C
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the partial claw hand to the ulnar nerve and say why it is only partial.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p14 q35; Anatomy Question [Upper Limb] (1).pdf p5 q26. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-B32D3C0BA09D
+## title
+Posterior cord of brachial plexus gives, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Posterior cord of brachial plexus gives, choose correct answer:
+## answer_a
+Suprascapular nerve
+## explanation_a
+The suprascapular nerve is a branch of the upper trunk. It is the standing distractor for this question because supraspinatus and infraspinatus lie on the back of the scapula and feel as though they should be posterior cord territory.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve comes off the roots, C5, C6 and C7, before the trunks form.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The axillary nerve is a terminal branch of the posterior cord, the other being the radial.
+## answer_d
+Median nerve
+## explanation_d
+The median nerve is formed from the lateral and medial cords by two roots and has no posterior cord contribution.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the branches of the posterior cord and reject the branches of the other stages.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p6 q34; Upper MCQ Dr.jalal (1).pdf p7 q34. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The posterior cord gives the radial, axillary, upper and lower subscapular and thoracodorsal nerves; of the four options only the axillary is among them.
+
+
+---
+
+# Item
+## id
+QM-101-44C3E39EBE88
+## title
+Regarding nerve injuries in upper limb, choose correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding nerve injuries in upper limb, choose correct answer:
+## answer_a
+Injury to the median produces wrist drop
+## explanation_a
+Wrist drop is radial. The median nerve supplies flexors, and cutting it cannot let the wrist fall.
+## answer_b
+Injury to the ulnar nerve produces ape hand
+## explanation_b
+Ape hand is median, from wasting of the thenar eminence. The ulnar deformity is the partial claw.
+## answer_c
+Ulnar nerve is injured by compression in the carpal tunnel
+## explanation_c
+The carpal tunnel carries the median nerve; the ulnar nerve passes superficial to the retinaculum and is untouched by it. This is the option that catches the most students, because both nerves reach the hand at the wrist.
+## answer_d
+Injury to the axillary nerve leads to loss of abduction of the shoulder
+## explanation_d
+Correct — with the qualification the examiner intends: the axillary nerve supplies deltoid, so its injury loses abduction through the fifteen-to-ninety degree range.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Match four deformities to four nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p15 q38; Upper MCQ Dr.jalal (1).pdf p18 q38. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `regarding-nerve-injuries-in-upper-limb-choose-the-correct-an-c05cac37` is keyed D and D is correct. Wrist drop is radial, ape hand is median, the nerve compressed in the carpal tunnel is the median — leaving the axillary statement as the only true one.
+
+
+---
+
+# Item
+## id
+QM-101-182F81711B20
+## title
+Regarding nerve injuries in upper limb, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding nerve injuries in upper limb, choose the correct answer:
+## answer_a
+Injury to the median produces wrist drop
+## explanation_a
+Wrist drop belongs to the radial nerve, whose extensors hold the wrist up.
+## answer_b
+Injury to the ulnar nerve produces ape hand
+## explanation_b
+Ape hand belongs to the median nerve. Swapping the two flexor nerves’ deformities is the single commonest confusion in this leaf.
+## answer_c
+Ulnar nerve is injured by compression in the carpal tunnel
+## explanation_c
+The nerve compressed in the carpal tunnel is the median. The ulnar nerve crosses over the flexor retinaculum, not under it.
+## answer_d
+Injury to the axillary nerve leads to loss of abduction of the shoulder
+## explanation_d
+Correct. Deltoid is axillary, so an axillary lesion abolishes abduction of the shoulder through the range deltoid provides.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Match four deformities to four nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p10 q54; Anatomy MCQ Book [2025] [first priority].pdf p28 q54. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-15C4AB91F569
+## title
+Regarding radial nerve injury, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding radial nerve injury, choose the correct answer:
+## answer_a
+It may be injured if the shaft of the humerus is fractured
+## explanation_a
+Correct. The nerve lies in the spiral groove against the back of the shaft, and a fracture there is the classic cause of wrist drop.
+## answer_b
+Injury of the posterior interosseous nerve causes wrist drop
+## explanation_b
+A posterior interosseous lesion gives finger drop without wrist drop, because extensor carpi radialis longus is supplied above the division and still extends the wrist. Choosing this option means treating the deep branch as though it were the whole nerve.
+## answer_c
+Injury of its superficial branch produces finger drop
+## explanation_c
+The superficial branch is purely sensory. Cutting it numbs the back of the hand and drops nothing.
+## answer_d
+Injury of the posterior interosseous nerve is accompanied by loss of
+## explanation_d
+The posterior interosseous nerve is purely motor, so its injury is accompanied by no sensory loss at all. This copy has cut the option short at "loss of"; the intact copy `regarding-radial-nerve-injury-choose-the-correct-answer-dep-349327b2` reads "loss of sensations", which is what makes it false.
+## correct_answer
+A
+## main_concept
+CON-MSK-1FC89E36FFD98E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Separate a lesion of the radial nerve trunk from a lesion of either terminal branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p1 q3; Anatomy MCQ Book [2025] [first priority].pdf p19 q3. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6D5F226F04A3
+## title
+Regarding the effect of median nerve injury above the elbow, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the effect of median nerve injury above the elbow, choose the correct answer:
+## answer_a
+Loss of opposition of the little finger
+## explanation_a
+The little finger is opposed by opponens digiti minimi, a hypothenar muscle supplied by the deep branch of the ulnar nerve. It is the thumb whose opposition the median nerve governs.
+## answer_b
+Loss of supination of the forearm
+## explanation_b
+Supination survives entirely: it is performed by supinator, from the radial nerve, and by biceps, from the musculocutaneous. What the median lesion abolishes is pronation, the opposite movement.
+## answer_c
+Loss of sensations over the lateral 2/3 of the palm
+## explanation_c
+Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve together cover the lateral two-thirds of the palm.
+## answer_d
+Weak flexion of the wrist with radial deviation
+## explanation_d
+The deviation is towards the ulnar side, not the radial. The only wrist flexor left after a median lesion is flexor carpi ulnaris, and the hand goes the way the surviving muscle pulls.
+## correct_answer
+C
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Predict the sensory territory and the direction of wrist deviation after a high median lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p12 q25; Anatomy Question [Upper Limb] (1).pdf p9 q49. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-05C033AF46A6
+## title
+The following nerve doesn't innervate the elbow joint:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerve doesn't innervate the elbow joint:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve crosses the elbow to the extensors and gives it articular twigs, so it does innervate the joint.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve passes behind the medial epicondyle, in contact with the capsule, and supplies the joint.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve crosses the front of the joint in the cubital fossa on its way to the forearm flexors and supplies it.
+## answer_d
+Axillary nerve
+## explanation_d
+Correct, and the exception. The axillary nerve ends in deltoid and teres minor and never reaches below the shoulder; by Hilton’s law a joint takes the nerves of the muscles that move it, and no muscle the axillary nerve supplies moves the elbow.
+## correct_answer
+D
+## main_concept
+CON-MSK-CBB4C433F2F81E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Apply Hilton’s law to decide which nerves can supply the elbow joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p25 q44; Anatomy Question [Upper Limb] (1).pdf p19 q109. Manifest src_0f1171705349e98b44e6, src_69103a53ec28a93958d5.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-3E4EE83D6777
+## title
+The posterior cord (of brachial plexus) gives, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The posterior cord (of brachial plexus) gives, choose the correct answer:
+## answer_a
+Suprascapular nerve
+## explanation_a
+The suprascapular nerve leaves the upper trunk above the clavicle, and it is the option most often chosen because it supplies two muscles on the back of the scapula.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve arises from the roots C5, C6 and C7 and descends on serratus anterior.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The posterior cord ends in the radial and axillary nerves and gives the two subscapular nerves and the thoracodorsal on the way.
+## answer_d
+Median nerve
+## explanation_d
+The median nerve is formed by a lateral root and a medial root in front of the axillary artery; no fibre of it comes from the posterior cord.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the branches of the posterior cord and reject the branches of the other stages.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p33 q192; Anatomy MCQ Book [2025] [first priority].pdf p53 q192. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Of the four options only the axillary nerve is a posterior cord branch; the suprascapular is from the upper trunk, the long thoracic from the roots, and the median from the lateral and medial cords together.
+
+
+---
+
+# Item
+## id
+QM-101-81669357BE2F
+## title
+The radial nerve consists of the following roots; choose the correct answers:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial nerve consists of the following roots; choose the correct answers:
+## answer_a
+Nerve roots C6, 7 & 8
+## explanation_a
+C6, C7 and C8 drops C5 at one end and T1 at the other. It is the option most students take, because the radial nerve is thought of as a mid-plexus nerve.
+## answer_b
+Nerve root C6, 7 & 8
+## explanation_b
+The same root value as A, printed a second time with "root" in the singular. Two identical options cannot both be right, and neither is.
+## answer_c
+Nerve roots C5, 6, 7, 8c and T1
+## explanation_c
+Correct. The radial nerve is the largest branch of the posterior cord and carries C5, C6, C7, C8 and T1. The "8c" in this copy is the OCR of "8 and".
+## answer_d
+Nerve roots C5, 6, 7 and 8
+## explanation_d
+C5 to C8 is the near miss: it has the top of the plexus right and stops one root short. Dropping T1 changes which lesions are predicted to affect the nerve, which is exactly why the examiner offers it.
+## correct_answer
+C
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the full root value of the radial nerve, T1 included.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p8 q43; Anatomy MCQ Book [2025] [first priority].pdf p36 q102. Manifest src_0f1171705349e98b44e6, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed copy `the-radial-nerve-consists-of-the-following-roots-choose-the-c5101ca8` gives A, which is wrong: C6, C7 and C8 omits both ends of the nerve. The radial nerve is the continuation of the posterior cord and carries every root of the plexus, C5 to T1. Note also that options A and B print the same root value twice, which is a fault of the item rather than of the extraction; C remains the only correct option and the item is answerable.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-6B4F8DE14EEF
+## title
+Which one is a branch of the lateral cord of the brachial plexus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one is a branch of the lateral cord of the brachial plexus?
+## answer_a
+Upper subscapular nerve
+## explanation_a
+The upper subscapular nerve is a posterior cord branch, to subscapularis.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve comes off the roots.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+Correct. The musculocutaneous nerve is the lateral cord’s own terminal branch, and it is the nerve of the anterior compartment of the arm.
+## answer_d
+Suprascapular nerve
+## explanation_d
+The suprascapular nerve is from the upper trunk. It is offered on almost every plexus question in this leaf and is right on none of them.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List the three branches of the lateral cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy by Dr.Alaa [Upper Limb][MCQ].pdf p6 q35; Upper MCQ Dr.jalal (1).pdf p7 q35. Manifest src_0f1171705349e98b44e6, src_0f68f0c75a8effe74782.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The lateral cord gives the musculocutaneous nerve, the lateral root of the median and the lateral pectoral nerve; the keyed copy `which-one-of-the-following-nerves-is-a-branch-of-the-lateral-6d6cb710` also gives C.
+
+
+---
+
+# Item
+## id
+QM-101-19FA3D76EB6D
+## title
+Which one of the following nerves is a branch of the lateral cord of the brachial plexus?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following nerves is a branch of the lateral cord of the brachial plexus?
+## answer_a
+Upper subscapular nerve
+## explanation_a
+Upper subscapular is posterior cord, and it belongs to the group that supplies the extensor side and the muscles on the back of the scapula.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve is a root branch and travels alone down the medial wall of the axilla.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+Correct. Musculocutaneous, the lateral root of the median and the lateral pectoral nerve are the three branches of the lateral cord.
+## answer_d
+Suprascapular nerve
+## explanation_d
+The suprascapular nerve leaves the upper trunk before any cord is formed.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List the three branches of the lateral cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p10 q55; Anatomy MCQ Book [2025] [first priority].pdf p28 q55. Manifest src_69103a53ec28a93958d5, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-56D858EE9152
+## title
+A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged? (2024)
+## answer_a
+Axillary nerve
+## explanation_a
+An axillary nerve lesion flattens the shoulder and weakens abduction to ninety degrees; it does not wing the scapula, because deltoid does not hold the scapula to the chest.
+## answer_b
+Long thoracic nerve
+## explanation_b
+Correct. The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.
+## answer_c
+Dorsal scapular nerve
+## explanation_c
+The dorsal scapular nerve supplies the rhomboids and levator scapulae. Rhomboid palsy gives a much subtler winging and it is not brought out by pushing forwards.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+The thoracodorsal nerve supplies latissimus dorsi, whose paralysis weakens adduction and extension of the arm and wings nothing.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Read winging of the scapula on pushing against a wall as a long thoracic nerve lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Winging brought out by pushing against a wall is the classic test of serratus anterior, whose nerve — the long thoracic — lies exposed on the muscle on the lateral chest wall, exactly where the stab is described.
+
+
+---
+
+# Item
+## id
+QM-101-26A5AA3856ED
+## title
+A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve is only against bone at the medial epicondyle.
+## answer_b
+Median nerve. ViP Ac
+## explanation_b
+The median nerve is endangered by a supracondylar fracture at the lower end. This copy has the OCR watermark "ViP Ac" trailing the option text; the option itself reads "Median nerve".
+## answer_c
+Radial nerve
+## explanation_c
+Correct. The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve belongs to the surgical neck, at the top of the bone. It is the printed key here and it is wrong — a student who learns it will localise every humeral fracture to the wrong end.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair the mid-shaft of the humerus with the radial nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, the axillary nerve, which is wrong: the axillary nerve is at the surgical neck, not the mid-shaft. The radial nerve lies in the spiral groove directly against the mid-shaft, and the two other copies of this question in the bank both give the radial nerve.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-FCD973656E7C
+## title
+A man is unable to hold a paper between his index and middle ﬁngers. Which of the Vi y …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A man is unable to hold a paper between his index and middle ﬁngers. Which of the Vi y following nerves was likely injured? (2019 – 2nd - 2021 - IPKA) ad Ac a- Radial nerve
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve extends the fingers as a set. It supplies no muscle that moves one finger towards another.
+## answer_b
+Median nerve.
+## explanation_b
+The median nerve’s only intrinsic muscles are the three thenar muscles and the lateral two lumbricals, none of which adducts a finger.
+## answer_c
+Ulnar nerve.
+## explanation_c
+Correct. The palmar interossei adduct the fingers towards the middle finger, and they are ulnar — the same test as Froment’s sign one digit over.
+## answer_d
+Musculocutaneous nerve.
+## explanation_d
+The musculocutaneous nerve ends in the arm and the skin of the lateral forearm.
+## correct_answer
+C
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Read failure to grip paper between the fingers as loss of the interossei.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Holding paper between two fingers is adduction, produced by the palmar interossei, and every interosseous muscle takes the deep branch of the ulnar nerve.
+
+
+---
+
+# Item
+## id
+QM-101-03A4C6FC0F09
+## title
+A man was injured at the wrist and several weeks after the injury there is loss of Ac a…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A man was injured at the wrist and several weeks after the injury there is loss of Ac ad Ac ad ad ad thumb adduction. Which nerve is most likely to have been injured? (IPKA - 2021)
+## answer_a
+Superﬁcial branch of ulnar nerve.
+## explanation_a
+The superficial branch supplies palmaris brevis and then the skin of the medial one and a half fingers. Cutting it would numb rather than weaken.
+## answer_b
+Deep branch of ulnar nerve.
+## explanation_b
+Correct. The deep branch is the motor branch, and adductor pollicis is the last muscle it supplies.
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve abducts and opposes the thumb; adduction is the one thumb movement it does not control, and this is the swap the option is built on.
+## answer_d
+Radial nerve.
+## explanation_d
+The radial nerve extends the thumb. It supplies no intrinsic muscle of the hand.
+## correct_answer
+B
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Localise loss of thumb adduction after a wrist wound to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q32. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Thumb adduction is adductor pollicis, the muscle in which the deep branch of the ulnar nerve terminates; a wound at the wrist that spares sensation and takes only this movement is a deep branch lesion.
+
+
+---
+
+# Item
+## id
+QM-101-61882A9C9094
+## title
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This may…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This may be due to injury of the following nerve: (IPKA – 2022 - 2019)
+## answer_a
+Median nerve
+## explanation_a
+The median nerve covers the lateral two-thirds of the palm — the same fraction on the other surface. Reading "2/3" and answering before reading "dorsum" is the entire trap, and it is the answer the books themselves print.
+## answer_b
+Superficial radial nerve
+## explanation_b
+Correct. The superficial terminal branch of the radial nerve supplies the lateral two-thirds of the back of the hand and the backs of the lateral three and a half fingers to the level of the nail beds.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve, through its dorsal branch, takes the medial third of the dorsum — the other fraction.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve, as the lateral cutaneous nerve of the forearm, stops at the wrist.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach the lateral two-thirds of the dorsum of the hand to the superficial radial nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the two keyed copies both give A, the median nerve, which is wrong: A is the answer for the lateral two-thirds of the palm, not the dorsum. The back of the hand is radial laterally and ulnar medially, and the median nerve reaches the dorsum only over the terminal phalanges.
+
+
+---
+
+# Item
+## id
+QM-101-47A560ED48B1
+## title
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This y y…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This y y P Vi may be due to injury of the following nerve: (IPKA – 2021 - 2019)
+## answer_a
+Median nerve. Vi P
+## explanation_a
+The palm, not the dorsum. This is the printed key and it is the mistake the question is designed to catch — the same fraction on the wrong surface.
+## answer_b
+Superﬁcial radial nerve
+## explanation_b
+Correct. The superficial branch of the radial nerve winds round the lateral side of the wrist to supply the lateral two-thirds of the back of the hand.
+## answer_c
+Ulnar nerve. Ac
+## explanation_c
+The ulnar nerve supplies the medial third of the dorsum through its dorsal cutaneous branch.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve, through the lateral cutaneous nerve of the forearm, ends at the wrist and reaches only the upper part of the ball of the thumb.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach the lateral two-thirds of the dorsum of the hand to the superficial radial nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve, and it is wrong. The median nerve supplies the lateral two-thirds of the palm; the corresponding area on the dorsum is superficial radial. The error repeats on all three copies of this question, which is what makes it worth correcting rather than absorbing.
+
+
+---
+
+# Item
+## id
+QM-101-C556C77A207D
+## title
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A patient with loss of sensation on the lateral 2/3 of the dorsum of the hand. This Ac ad Ac ad ad ad may be due to injury of the following nerve: (IPKA – 2021 - 2019)
+## answer_a
+Median nerve.
+## explanation_a
+The lateral two-thirds of the palm is median. Choosing it here means matching the fraction and ignoring the surface, which is exactly what the item tests.
+## answer_b
+Superﬁcial radial nerve.
+## explanation_b
+Correct. The superficial radial nerve is purely sensory and supplies the lateral two-thirds of the dorsum of the hand.
+## answer_c
+Ulnar nerve.
+## explanation_c
+The ulnar nerve takes the medial third of the dorsum.
+## answer_d
+Musculocutaneous nerve.
+## explanation_d
+The musculocutaneous nerve does not reach the hand.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach the lateral two-thirds of the dorsum of the hand to the superficial radial nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve, and it is wrong for the same reason as on the two sibling copies: the median nerve owns the lateral two-thirds of the palm, and the lateral two-thirds of the dorsum is superficial radial territory.
+
+
+---
+
+# Item
+## id
+QM-101-DA29CDC00CAE
+## title
+A woman injured her wrist in trying to commit suicide. On examination, all the metacarp…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+A woman injured her wrist in trying to commit suicide. On examination, all the metacarpophalangeal joints of her ﬁngers were extended and the interphalangeal P joints were ﬂexed. The most probable Injury was to the: (2024) Vi
+## answer_a
+Palmar branches of median and ulnar nerves.
+## explanation_a
+The palmar branches are cutaneous. Cutting them numbs the palm and moves nothing.
+## answer_b
+Ulnar nerve.
+## explanation_b
+The ulnar nerve alone gives a partial claw — the fourth and fifth fingers only — because the lumbricals of the index and middle fingers are median and still hold their knuckles flexed. The stem says all the fingers, which is what rules this out.
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve alone gives the ape hand and weakness of the index and middle fingers, not a claw: the interossei, which are what claw the hand, are ulnar.
+## answer_d
+Both median and ulnar nerves.
+## explanation_d
+Correct. A wrist laceration deep enough to take both nerves paralyses all four lumbricals and all seven interossei, and the unopposed long extensors and long flexors produce the complete claw.
+## correct_answer
+D
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Read clawing of all four fingers as loss of both the median and the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p65 q23. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. All the metacarpophalangeal joints extended and all the interphalangeal joints flexed is a complete claw hand, which requires every lumbrical and every interosseous to be dead; the lateral two lumbricals are median and the rest are ulnar, so both nerves must be cut. An ulnar lesion alone claws only the fourth and fifth fingers.
+
+
+---
+
+# Item
+## id
+QM-101-D812001C2D5E
+## title
+After drinking heavily on a Saturday night, a man fell asleep with his arm over the Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+After drinking heavily on a Saturday night, a man fell asleep with his arm over the Ac ad Ac ad ad ad back of a chair. When he woke up in the morning, he had ﬂexion at the elbow with inability to extend his hand. The most probable nerve injury is to the: (2024)
+## answer_a
+Radial nerve above the elbow.
+## explanation_a
+A lesion above the elbow but below the axilla would spare the branches to triceps given in the axilla, but the classic site for a chair-back compression is higher, where the nerve lies in the axilla against the humerus. The stem gives no weakness of elbow extension either way, so the localising sign is the mechanism.
+## answer_b
+Innervation of the triceps muscle.
+## explanation_b
+This names a branch rather than a site of injury, and triceps paralysis would abolish elbow extension — which the stem does not describe.
+## answer_c
+Radial nerve in the axilla.
+## explanation_c
+Correct. The arm hung over the back of a chair compresses the radial nerve in the axilla, the classical Saturday night palsy: the wrist and fingers cannot be extended while elbow flexion, which is musculocutaneous, is unaffected.
+## answer_d
+Posterior cord.
+## explanation_d
+A posterior cord lesion would take the axillary nerve as well and so abolish abduction of the shoulder. The stem describes an intact shoulder, which is what excludes it.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Localise a radial lesion from whether elbow flexion and elbow extension are spared.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-5C9B876FD7EA
+## title
+After drinking heavily on a Saturday night, a man fell asleep with his arm over the bac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the: (2024)
+## answer_a
+Radial nerve above the elbow
+## explanation_a
+A site below the axilla is possible on the anatomy but is not the named syndrome. The pressure of a chair back falls in the armpit.
+## answer_b
+Innervation of the triceps muscle
+## explanation_b
+Triceps is a muscle, not a site, and the stem describes no loss of elbow extension.
+## answer_c
+Radial nerve in the axilla
+## explanation_c
+Correct. Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.
+## answer_d
+Posterior cord
+## explanation_d
+A posterior cord lesion would add loss of shoulder abduction through the axillary nerve, which the stem does not describe.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Localise a radial lesion from whether elbow flexion and elbow extension are spared.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p122 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `after-drinking-heavily-on-a-saturday-night-a-man-fell-asleep-09f4ce28` is keyed C. The chair back compresses the radial nerve in the axilla, which is the named mechanism of Saturday night palsy.
+
+
+---
+
+# Item
+## id
+QM-101-94C300321D55
+## title
+All the following structures lie anterior to the elbow joint except: (2019) Ac ad Ac ad…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+All the following structures lie anterior to the elbow joint except: (2019) Ac ad Ac ad ad ad
+## answer_a
+Radial nerve.
+## explanation_a
+True, so not the exception. The radial nerve lies at the lateral edge of the cubital fossa, having pierced the lateral intermuscular septum to reach the front.
+## answer_b
+Median nerve.
+## explanation_b
+True, so not the exception. The median nerve is the most medial content of the fossa.
+## answer_c
+Ulnar nerve.
+## explanation_c
+The exception, and the answer. The ulnar nerve pierces the medial intermuscular septum in the arm to reach the back and passes behind the medial epicondyle, which is why it can be spared by an anterior wound and taken by a fracture of that epicondyle.
+## answer_d
+Brachial artery.
+## explanation_d
+True, so not the exception. The brachial artery ends in the fossa by dividing into the radial and ulnar arteries.
+## correct_answer
+C
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Sort the nerves at the elbow into those in front of the joint and the one behind it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p75 q86. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median nerve, the brachial artery and the radial nerve are all in or on the cubital fossa in front of the joint; the ulnar nerve is the one structure that passes behind, in the groove on the back of the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-B4748951E551
+## title
+Ape's-like hand deformity results from following injury of which one of the P following…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Ape's-like hand deformity results from following injury of which one of the P following nerves? (DEP BOOK)
+## answer_a
+Axillary nerve.
+## explanation_a
+The axillary nerve deformity is the flat shoulder.
+## answer_b
+Median nerve.
+## explanation_b
+Correct. Wasting of the three thenar muscles flattens the ball of the thumb and lets it fall back into the plane of the palm.
+## answer_c
+Ulnar nerve.
+## explanation_c
+The ulnar nerve gives the partial claw hand and hollowing between the metacarpals.
+## answer_d
+Radial nerve.
+## explanation_d
+The radial nerve gives wrist drop, which is a posture of the wrist rather than of the thumb.
+## correct_answer
+B
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the ape hand to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p69 q48. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the sibling `ape-s-like-hand-deformity-results-from-following-injury-of-w-88625876`, asked twice, is keyed B. The ape hand is wasting of the thenar eminence with the thumb adducted and laterally rotated, and every thenar muscle is median.
+
+
+---
+
+# Item
+## id
+QM-101-BD653CDBE539
+## title
+Complete claw hand deformity is due to injury of: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Complete claw hand deformity is due to injury of: (2019)
+## answer_a
+Median and ulnar nerves.
+## explanation_a
+Correct. Median and ulnar together account for all four lumbricals and all seven interossei, and only then do all four fingers hyperextend at the knuckles and flex at the interphalangeal joints.
+## answer_b
+Radial and ulnar nerve.
+## explanation_b
+The radial nerve supplies no intrinsic muscle of the hand and contributes nothing to clawing; adding it to the ulnar changes nothing.
+## answer_c
+Ulnar nerve.
+## explanation_c
+The ulnar nerve alone claws the fourth and fifth fingers — the partial claw. Choosing it is the commonest answer here, because the ulnar nerve is the nerve of clawing; the word "complete" is what rules it out.
+## answer_d
+Median nerve.
+## explanation_d
+The median nerve alone gives the ape hand. It supplies too few of the small muscles to claw anything.
+## correct_answer
+A
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Say what has to be lost before all four fingers claw.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q84. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. A complete claw needs every lumbrical and every interosseous paralysed; the lateral two lumbricals are median and the remainder ulnar, so both nerves must be cut. The ulnar nerve alone gives a partial claw.
+
+
+---
+
+# Item
+## id
+QM-101-26F48F8EE7ED
+## title
+Deep branch of the ulnar nerve ends by supplying: (DEP BOOK) Ac P Vi a- Abductor digiti…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Deep branch of the ulnar nerve ends by supplying: (DEP BOOK) Ac P Vi a- Abductor digiti minimi
+## answer_a
+Abductor digiti minimi.
+## explanation_a
+Abductor digiti minimi is supplied where the deep branch begins, between the hypothenar muscles. This option is echoed into the stem of this copy by the extraction, which makes it look authoritative and is not.
+## answer_b
+Flexor digiti minimi.
+## explanation_b
+Flexor digiti minimi belongs to the same first group of three.
+## answer_c
+Opponens digiti minimi.
+## explanation_c
+Opponens digiti minimi likewise.
+## answer_d
+Adductor pollicis.
+## explanation_d
+Correct. The deep branch crosses the whole palm and terminates in adductor pollicis, whose loss gives Froment’s sign.
+## correct_answer
+D
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Follow the deep branch of the ulnar nerve across the palm to the muscle it ends in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q55. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; the stem of this copy carries a stray echo of option A, which is the extraction artefact rather than an answer. The deep branch supplies the hypothenar muscles first and adductor pollicis last, so the muscle it ends by supplying is adductor pollicis.
+
+
+---
+
+# Item
+## id
+QM-101-FCDA687A25B3
+## title
+Dorsal interossei are supplied by: (2017) ad Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Dorsal interossei are supplied by: (2017) ad Vi
+## answer_a
+Superﬁcial branch of the ulnar nerve.
+## explanation_a
+The superficial branch supplies palmaris brevis and the skin of the medial one and a half fingers. It is the printed key on both copies of this question and it is wrong; a student who takes it will expect numbness rather than weakness from an interosseous palsy.
+## answer_b
+Deep branch of the ulnar nerve.
+## explanation_b
+Correct. The deep branch is the motor branch of the ulnar nerve in the hand and supplies all four dorsal and all three palmar interossei.
+## answer_c
+lateral terminal division of the median nerve.
+## explanation_c
+The lateral terminal division of the median nerve supplies the thumb and the lateral lumbricals; it reaches no interosseous muscle.
+## answer_d
+Medial terminal division of the median nerve.
+## explanation_d
+The medial terminal division of the median nerve is cutaneous to the middle and ring fingers.
+## correct_answer
+B
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the interossei to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p57 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the superficial branch, and it is wrong. The superficial branch of the ulnar nerve supplies one muscle only — palmaris brevis — and is otherwise cutaneous; every interosseous muscle takes the deep branch. The same wrong key is printed on the sibling copy.
+
+
+---
+
+# Item
+## id
+QM-101-037D86032CA5
+## title
+Dorsal interossei are supplied by: (2017) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Dorsal interossei are supplied by: (2017) em em em em em
+## answer_a
+Superﬁcial branch of the ulnar nerve
+## explanation_a
+The superficial branch is almost entirely cutaneous. It is the printed key and it is wrong.
+## answer_b
+Deep branch of the ulnar nerve
+## explanation_b
+Correct. All seven interossei are supplied by the deep branch of the ulnar nerve, which is what makes finger abduction and adduction the bedside test of that nerve.
+## answer_c
+lateral terminal division of the median nerve
+## explanation_c
+The median nerve’s lateral terminal division serves the thumb and the first two lumbricals.
+## answer_d
+Medial terminal division of the median nerve. Ac ad
+## explanation_d
+The medial terminal division of the median nerve is a sensory division to the adjoining sides of the middle and ring fingers.
+## correct_answer
+B
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the interossei to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p64 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the superficial branch, and it is wrong for the same reason as on the sibling copy: the superficial branch supplies only palmaris brevis, and the interossei are supplied by the deep branch.
+
+
+---
+
+# Item
+## id
+QM-101-840BB3C930E6
+## title
+During an industrial accident, a sheet metal worker lacerates the anterior surface of h…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+During an industrial accident, a sheet metal worker lacerates the anterior surface of his wrist at the junction of bis wrist and hand. Examination reveals no loss of hand ad ad ViP Vi function, but the skin on the lateral side of his palm is numb. Which nerve (s) must be severed? (2016) P em em em
+## answer_a
+Lateral cutaneous nerve of the forearm
+## explanation_a
+The lateral cutaneous nerve of the forearm reaches only the upper part of the ball of the thumb, well proximal to the area described, and it is a forearm nerve rather than a wrist one.
+## answer_b
+Palmar cutaneous branch of median nerve
+## explanation_b
+Correct. The palmar cutaneous branch of the median nerve is purely sensory to the lateral palm and lies superficial to the retinaculum, so a transverse laceration at the wrist can take it alone.
+## answer_c
+Palmar digital branches of median nerve
+## explanation_c
+The palmar digital branches supply the fingers, not the palm. They also arise beyond the carpal tunnel from a nerve that carries the motor branch to the thenar muscles, so a lesion severe enough to reach them would usually cost hand function — which the stem excludes.
+## answer_d
+Radial nerve. ViP Ac
+## explanation_d
+The radial nerve supplies no palmar skin at all.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Use preserved motor function to place a wrist laceration outside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the palmar digital branches, which is wrong: those branches supply the fingers, and the stem says the numbness is on the palm. The palmar cutaneous branch of the median nerve arises in the forearm and crosses superficial to the flexor retinaculum to supply the skin of the lateral palm, so cutting it numbs exactly the described area and leaves every muscle working, because it carries no motor fibres.
+
+
+---
+
+# Item
+## id
+QM-101-0DD065CFA5FB
+## title
+During an industrial accident, a sheet metal worker lacerates the anterior surface of h…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+During an industrial accident, a sheet metal worker lacerates the anterior surface of his wrist at the junction of bis wrist and hand. Examination reveals no loss of hand function, but the skin on the lateral side of his palm is numb. Which nerve (s) must be severed? (2016)
+## answer_a
+Lateral cutaneous nerve of the forearm
+## explanation_a
+The lateral cutaneous nerve of the forearm ends over the thenar area proximally and is a branch of the musculocutaneous, injured in the forearm rather than at the wrist.
+## answer_b
+Palmar cutaneous branch of median nerve
+## explanation_b
+Correct. A purely sensory branch, superficial to the retinaculum, supplying the skin of the lateral palm — which is precisely the deficit described.
+## answer_c
+Palmar digital branches of median nerve
+## explanation_c
+The palmar digital branches are the nerves of the fingers. The stem locates the numbness on the palm.
+## answer_d
+Radial nerve
+## explanation_d
+The radial nerve has no palmar territory.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Use preserved motor function to place a wrist laceration outside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p130 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives C, which is wrong for the reason set out there. Numbness confined to the lateral palm with no motor loss is a lesion of the palmar cutaneous branch of the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-9CDCB9C357EA
+## title
+Fracture of the medial epicondyle might injure the following nerve: (2019) Ac P a- Medi…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Fracture of the medial epicondyle might injure the following nerve: (2019) Ac P a- Median nerve. P Vi b- Radial nerve
+## answer_a
+Median nerve.
+## explanation_a
+The median nerve passes in front of the elbow and is endangered by a supracondylar fracture rather than by an isolated epicondylar one. The stem of this copy has an echo of this option leaking into it, which is an artefact and not a key.
+## answer_b
+Radial nerve.
+## explanation_b
+The radial nerve is at the lateral side, having pierced the lateral intermuscular septum, and lies nowhere near the medial epicondyle.
+## answer_c
+Ulnar nerve.
+## explanation_c
+Correct. The ulnar nerve is in direct contact with the back of the medial epicondyle and is torn or stretched when that epicondyle is avulsed.
+## answer_d
+Posterior interosseous nerve.
+## explanation_d
+The posterior interosseous nerve arises at the level of the lateral epicondyle and pierces supinator on the lateral side.
+## correct_answer
+C
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair the medial epicondyle with the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q85. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key; this copy carries only the extraction’s stray echo of options a and b in the stem. The ulnar nerve grooves the back of the medial epicondyle against bare bone, which is what makes a fracture there the classic cause of an ulnar lesion at the elbow.
+
+
+---
+
+# Item
+## id
+QM-101-080B1F9E6D36
+## title
+In Erb's paralysis the deformity is called: (2022 – 2021 - 2019) em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In Erb's paralysis the deformity is called: (2022 – 2021 - 2019) em
+## answer_a
+Claw hand
+## explanation_a
+Claw hand is the lower trunk, C8 and T1 — Klumpke’s paralysis, the opposite end of the plexus. It is the printed key here and it is wrong; learning it would invert the two plexus injuries a student is most often asked to tell apart.
+## answer_b
+Ape hand. P
+## explanation_b
+Ape hand is a median nerve deformity, from wasting of the thenar eminence, and has nothing to do with a trunk lesion.
+## answer_c
+Wrist drop
+## explanation_c
+Wrist drop is radial, and the radial nerve carries C5 to T1 — so a C5 and C6 lesion cannot drop the wrist.
+## answer_d
+Policeman’s tip position
+## explanation_d
+Correct. The shoulder adducted and medially rotated, the elbow extended and the forearm pronated makes the hand face backwards behind the hip, the position in which a policeman or porter takes a tip.
+## correct_answer
+D
+## main_concept
+CON-MSK-FD238B6D305E22
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the posture of Erb’s palsy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q5. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, claw hand, and it is wrong twice over: claw hand is the deformity of Klumpke’s paralysis and of ulnar injury, and Erb’s palsy spares the hand altogether because C8 and T1 are intact. The posture of Erb’s palsy is the policeman’s or porter’s tip position.
+
+
+---
+
+# Item
+## id
+QM-101-9414BD510778
+## title
+In patient with Erb-Duchenne palsy, a nerve arising from the superior trunk of the brac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In patient with Erb-Duchenne palsy, a nerve arising from the superior trunk of the brachial plexus is nonfunctional. This nerve is: (2024)
+## answer_a
+Lateral pectoral
+## explanation_a
+The lateral pectoral nerve is a branch of the lateral cord, distal to the trunks.
+## answer_b
+Suprascapular
+## explanation_b
+Correct. The suprascapular nerve leaves the upper trunk and supplies supraspinatus and infraspinatus, which is why an Erb’s lesion costs both the initiation of abduction and lateral rotation.
+## answer_c
+Dorsal scapular
+## explanation_c
+The dorsal scapular nerve arises from the C5 root itself, before the upper trunk is formed, and so may survive a trunk lesion. It is the printed key on the sibling copy and it is wrong.
+## answer_d
+Long thoracic
+## explanation_d
+The long thoracic nerve also arises from the roots, C5, C6 and C7, and is likewise not a trunk branch.
+## correct_answer
+B
+## main_concept
+CON-MSK-FD238B6D305E22
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branch of the upper trunk that an Erb’s lesion takes with it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p126 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives C, the dorsal scapular nerve, which is wrong: the dorsal scapular nerve comes off the C5 root, above the trunk. The upper trunk has two branches, the suprascapular nerve and the nerve to subclavius, and only the suprascapular is offered.
+
+
+---
+
+# Item
+## id
+QM-101-84DE1552DD8D
+## title
+In patient with Erb-Duchenne palsy, a nerve arising from the superior trunk of the Vi b…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+In patient with Erb-Duchenne palsy, a nerve arising from the superior trunk of the Vi brachial plexus is nonfunctional. This nerve is: (2024) P Ac
+## answer_a
+Lateral pectoral.
+## explanation_a
+The lateral pectoral nerve is a lateral cord branch.
+## answer_b
+Suprascapular.
+## explanation_b
+Correct. The suprascapular nerve is the upper trunk’s named branch and the reason supraspinatus and infraspinatus fail in Erb’s palsy.
+## answer_c
+Dorsal scapular.
+## explanation_c
+A root branch, not a trunk branch. It is the printed key and it is wrong — and the distinction between root, trunk and cord branches is exactly what this item exists to test.
+## answer_d
+Long thoracic.
+## explanation_d
+The long thoracic nerve is also a root branch, from C5, C6 and C7.
+## correct_answer
+B
+## main_concept
+CON-MSK-FD238B6D305E22
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the branch of the upper trunk that an Erb’s lesion takes with it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p90 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the dorsal scapular nerve, and it is wrong: that nerve arises from the C5 root, not from the trunk. The only branches of the upper trunk are the suprascapular nerve and the nerve to subclavius.
+
+
+---
+
+# Item
+## id
+QM-101-BFA775624D24
+## title
+Inability to abduct arm from 15 to 90 degrees is due to injury of: (DEP BOOK) Ac ad Ac …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Inability to abduct arm from 15 to 90 degrees is due to injury of: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve is the other posterior cord branch and supplies triceps and the extensors of the forearm. It is the printed key here and it is wrong; a student who takes it will test elbow extension for a shoulder problem.
+## answer_b
+Long thoracic nerve (nerve to serratus anterior).
+## explanation_b
+Serratus anterior rotates the scapula and governs abduction above ninety degrees, not below it.
+## answer_c
+Musculocutaneous nerve.
+## explanation_c
+The musculocutaneous nerve flexes the elbow.
+## answer_d
+Axillary nerve.
+## explanation_d
+Correct. Deltoid’s middle fibres carry the arm from fifteen to ninety degrees, and deltoid is axillary.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Match the fifteen-to-ninety range of abduction to the nerve of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the radial nerve, and it is wrong: the radial nerve supplies no abductor of the shoulder. The stated range belongs to the middle fibres of deltoid, which take the axillary nerve, and the clean copy of this question is keyed D.
+
+
+---
+
+# Item
+## id
+QM-101-AE1ECC6B0C3C
+## title
+Inability to abduct arm from 15 to 90 degrees is due to injury of: 7 a- Radial nerve
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Inability to abduct arm from 15 to 90 degrees is due to injury of: 7 a- Radial nerve
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve abducts nothing at the shoulder. Its echo in the stem of this copy is the extractor picking up a line from the page, not the examiner’s key.
+## answer_b
+Long thoracic nerve (nerve to serratus anterior).
+## explanation_b
+The long thoracic nerve governs the range above ninety degrees, through scapular rotation.
+## answer_c
+Musculocutaneous nerve.
+## explanation_c
+The musculocutaneous nerve is the nerve of the anterior compartment of the arm.
+## answer_d
+Axillary nerve.
+## explanation_d
+Correct. Loss of the fifteen-to-ninety range with a flattened shoulder contour is the axillary nerve.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Match the fifteen-to-ninety range of abduction to the nerve of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p8 q41. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of option a in the stem, which is an extraction artefact. The range named is deltoid’s, and deltoid is supplied by the axillary nerve.
+
+
+---
+
+# Item
+## id
+QM-101-81B34E7A0726
+## title
+Injury to quadrangular intermuscular space of axillary region may endanger:(DEP BOOK) Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Injury to quadrangular intermuscular space of axillary region may endanger:(DEP BOOK) Ac
+## answer_a
+Posterior circumﬂex humeral artery & radial nerve
+## explanation_a
+The artery is right and the nerve is wrong. This pairing is the printed key on the sibling copy, and it is the trap the item is built around — the two spaces lie side by side and each carries an artery and a nerve.
+## answer_b
+Posterior circumﬂex humeral artery & axillary nerve
+## explanation_b
+Correct. The axillary nerve and the posterior circumflex humeral vessels pass together through the quadrangular space to reach the deep surface of deltoid.
+## answer_c
+Radial nerve & profunda brachii artery
+## explanation_c
+The radial nerve and the profunda brachii artery are the contents of the lower triangular space, on the other side of the long head of triceps.
+## answer_d
+Profunda brachii artery & axillary nerve
+## explanation_d
+This pairs the artery of one space with the nerve of the other, and neither belongs to the quadrangular space as a pair.
+## correct_answer
+B
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name both structures endangered in the quadrangular space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p29 q31. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives A, which pairs the right artery with the wrong nerve. The quadrangular space transmits the posterior circumflex humeral vessels and the axillary nerve; the radial nerve and the profunda brachii vessels go through the lower triangular space.
+
+
+---
+
+# Item
+## id
+QM-101-40A0152C9E2B
+## title
+Injury to quadrangular intermuscular space of axillary region may endanger: (DEP BOOK -…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Injury to quadrangular intermuscular space of axillary region may endanger: (DEP BOOK - 2021)
+## answer_a
+Posterior circumﬂex humeral artery & radial nerve.
+## explanation_a
+Right artery, wrong nerve. It is the printed key and it is wrong, and it is wrong in the way that matters clinically — the test for this space is deltoid and the badge patch of skin, not the wrist extensors.
+## answer_b
+Posterior circumﬂex humeral artery & axillary nerve.
+## explanation_b
+Correct. Axillary nerve and posterior circumflex humeral vessels together.
+## answer_c
+Radial nerve & profunda brachii artery.
+## explanation_c
+That pair belongs to the lower triangular space.
+## answer_d
+Profunda brachii artery & axillary nerve.
+## explanation_d
+Neither structure named is a quadrangular space content as a pair; the profunda brachii belongs to the triangular interval.
+## correct_answer
+B
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name both structures endangered in the quadrangular space.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, which names the posterior circumflex humeral artery with the radial nerve. The artery is correct and the nerve is not: the nerve in the quadrangular space is the axillary. The radial nerve leaves the axilla through the lower triangular space with the profunda brachii vessels.
+
+
+---
+
+# Item
+## id
+QM-101-E33DC5A2C5F5
+## title
+Knife wound near medial border of cubital fossa that completely transects y pronator te…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Knife wound near medial border of cubital fossa that completely transects y pronator teres muscle origin will probably also; (DEP BOOK) Vi em
+## answer_a
+Injure median nerve
+## explanation_a
+Correct. The median nerve leaves the fossa by passing between the two heads of pronator teres, so the muscle and the nerve cannot be separated at this site.
+## answer_b
+Injure musculocutaneous nerve
+## explanation_b
+The musculocutaneous nerve has already become cutaneous at the lateral border of the biceps tendon, on the opposite side of the fossa.
+## answer_c
+Impair patient's ability to supinate hand
+## explanation_c
+Supination is supinator and biceps, neither of which is touched. Pronator teres is a pronator, so the movement at risk is pronation — the option names the opposite movement, which is what makes it plausible at speed.
+## answer_d
+Tear radial nerve. Vi Acad
+## explanation_d
+The radial nerve lies at the lateral border of the fossa, as far from pronator teres as anything in the region.
+## correct_answer
+A
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Predict what a wound at the medial edge of the cubital fossa takes with pronator teres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p71 q64. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Pronator teres forms the medial boundary of the cubital fossa and the median nerve passes between its humeral and ulnar heads; a wound that transects the muscle’s origin at that border must cross the nerve.
+
+
+---
+
+# Item
+## id
+QM-101-4D9C4ACB17D9
+## title
+Lesion or injury of axillary nerve causes: (DEP BOOK - 2021) em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Lesion or injury of axillary nerve causes: (DEP BOOK - 2021) em
+## answer_a
+Winging of scapula
+## explanation_a
+Winging of the scapula is serratus anterior, from the long thoracic nerve. It is the printed key here and it is wrong; both nerves affect abduction, which is what makes the swap easy, but they affect different ranges and different contours.
+## answer_b
+Wrist drop
+## explanation_b
+Wrist drop is radial.
+## answer_c
+Claw hand
+## explanation_c
+Claw hand is ulnar, or median and ulnar together.
+## answer_d
+Flat shoulder. y
+## explanation_d
+Correct. Deltoid wastes, the rounded contour of the shoulder is lost, and the acromion stands out under the skin — the flat shoulder.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the deformity of an axillary nerve lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, winging of the scapula, which belongs to the long thoracic nerve. The axillary nerve supplies deltoid, and deltoid is what gives the shoulder its rounded contour — so its wasting flattens the shoulder.
+
+
+---
+
+# Item
+## id
+QM-101-3877D365C86F
+## title
+Loss of finger's abduction and adduction results from lesion of which one of the follow…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of finger's abduction and adduction results from lesion of which one of the following nerves? (2019 – 2nd)
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. Every interosseous muscle is ulnar, which is why spreading the fingers is the bedside test of that nerve.
+## answer_b
+Median nerve
+## explanation_b
+The median nerve’s intrinsic muscles are the thenar three and the lateral two lumbricals, none of which spreads a finger.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve supplies no intrinsic hand muscle.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve ends at the shoulder.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace spreading and closing the fingers to the interossei and thence to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p90 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the copy asked four times, `loss-of-finger-s-abduction-and-adduction-results-from-lesion-d11780b8`, is keyed A. Abduction and adduction of the fingers are the dorsal and palmar interossei, all supplied by the deep branch of the ulnar nerve.
+
+
+---
+
+# Item
+## id
+QM-101-337058341D00
+## title
+Loss of ﬁnger's abduction and adduction results from lesion of which one of the Vi foll…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of ﬁnger's abduction and adduction results from lesion of which one of the Vi following nerves? (2019 – 2nd)
+## answer_a
+Ulnar nerve. P Ac ad
+## explanation_a
+Correct. The deep branch of the ulnar nerve supplies all four dorsal and all three palmar interossei.
+## answer_b
+Median nerve
+## explanation_b
+The median nerve does not move one finger relative to another.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve extends the fingers together and abducts none of them.
+## answer_d
+Axillary nerve
+## explanation_d
+The axillary nerve stops at the shoulder. It is the printed key here and it is impossible, which is a useful sign of how the keys on these garbled copies were produced.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace spreading and closing the fingers to the interossei and thence to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, the axillary nerve, which cannot be right: the axillary nerve ends in deltoid and teres minor and has no representation below the shoulder. Abduction and adduction of the fingers are interosseous movements, and the interossei are ulnar.
+
+
+---
+
+# Item
+## id
+QM-101-722284337A2F
+## title
+Loss of ﬁnger's abduction and adduction results from lesion of which one of the y follo…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of ﬁnger's abduction and adduction results from lesion of which one of the y following nerves? (DEP BOOK) Vi em
+## answer_a
+Ulnar nerve.
+## explanation_a
+Correct. Finger abduction and adduction are the interossei, and every interosseous is ulnar.
+## answer_b
+Median nerve.
+## explanation_b
+The median nerve’s hand muscles are the thenar three and the lateral two lumbricals.
+## answer_c
+Radial nerve.
+## explanation_c
+The radial nerve supplies no small muscle of the hand.
+## answer_d
+Axillary nerve. Acad 54 | a g e iP iP
+## explanation_d
+The axillary nerve does not reach beyond the shoulder.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace spreading and closing the fingers to the interossei and thence to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q57. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. The interossei abduct and adduct the fingers and are supplied by the deep branch of the ulnar nerve, which is the answer keyed on the most-asked copy of this question.
+
+
+---
+
+# Item
+## id
+QM-101-3B3B4652FB4E
+## title
+Loss of ﬁnger’s adduction results from lesion of which of the following nerves? (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of ﬁnger’s adduction results from lesion of which of the following nerves? (DEP BOOK)
+## answer_a
+Ulnar nerve.
+## explanation_a
+Correct. The palmar interossei draw the fingers towards the middle finger and are ulnar, which is why a sheet of paper held between two fingers is an ulnar nerve test.
+## answer_b
+Median nerve.
+## explanation_b
+The median nerve supplies the thenar muscles and the lateral two lumbricals; the lumbricals flex the knuckles rather than closing the fingers.
+## answer_c
+Radial nerve.
+## explanation_c
+The radial nerve extends the fingers, spreading them slightly as a by-product, but it supplies no muscle inside the hand. It is the printed key and it is wrong.
+## answer_d
+Musculocutaneous nerve.
+## explanation_d
+The musculocutaneous nerve ends in the arm and the skin of the lateral forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Trace adduction of the fingers to the palmar interossei and thence to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p60 q25. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the radial nerve, which supplies no intrinsic muscle of the hand and cannot adduct a finger. Adduction of the fingers is the three palmar interossei, all supplied by the deep branch of the ulnar nerve.
+
+
+---
+
+# Item
+## id
+QM-101-5079226F99C4
+## title
+Loss of sensation from the tip of the index ﬁnger is indicative of injury to which nerv…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of sensation from the tip of the index ﬁnger is indicative of injury to which nerve? (2024)
+## answer_a
+Radial
+## explanation_a
+The superficial radial nerve stops short of the finger tips: on the dorsum its territory ends at about the level of the proximal interphalangeal joints, and the distal phalanges are median. It is the printed key and it is wrong.
+## answer_b
+Median
+## explanation_b
+Correct. The palmar digital branch of the median nerve supplies the pulp of the index finger and wraps round to its nail bed, which is the surface that does the feeling in a pinch grip.
+## answer_c
+Ulnar. P
+## explanation_c
+The ulnar nerve supplies the little finger and the medial half of the ring finger, not the index.
+## answer_d
+Musculocutaneous
+## explanation_d
+The musculocutaneous nerve does not reach the hand.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach the pulp of the index finger to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q28. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the radial nerve, and it is wrong. The radial nerve supplies the back of the hand and the proximal part of the backs of the lateral fingers; the tip of the index finger — pulp and nail bed — is median through its palmar digital branch. That is precisely why carpal tunnel syndrome disables fine manipulation.
+
+
+---
+
+# Item
+## id
+QM-101-9090369BE935
+## title
+Loss of thumb opposition is associated with lesion of which nerve: (DEP BOOK - 2021) Vi ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Loss of thumb opposition is associated with lesion of which nerve: (DEP BOOK - 2021) Vi ad
+## answer_a
+Radial.
+## explanation_a
+The radial nerve extends and abducts the thumb but cannot roll it across the palm; the thenar muscles are not its.
+## answer_b
+Ulnar.
+## explanation_b
+The ulnar nerve supplies adductor pollicis, which brings the thumb towards the palm in one plane. Adduction is not opposition.
+## answer_c
+Musculocutaneous.
+## explanation_c
+The musculocutaneous nerve ends in the arm.
+## answer_d
+Median.
+## explanation_d
+Correct. Opponens pollicis is median, and losing opposition is the deficit that costs the hand its grip in carpal tunnel syndrome.
+## correct_answer
+D
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach opposition of the thumb to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p71 q63. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Opposition is produced by opponens pollicis, one of the three thenar muscles supplied by the recurrent branch of the median nerve; the keyed copies of the same question elsewhere in the bank agree.
+
+
+---
+
+# Item
+## id
+QM-101-1D2FCCF9778E
+## title
+Medial cord of brachial plexus gives ….. choose the correct answer: (DEP BOOK) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial cord of brachial plexus gives ….. choose the correct answer: (DEP BOOK) y
+## answer_a
+Lateral cutaneous nerve of the forearm
+## explanation_a
+The word "cutaneous nerve of the forearm" is what makes this work: the medial cutaneous nerve of the forearm is a medial cord branch, and the lateral one is not. It is the printed key and it is wrong.
+## answer_b
+Musculocutaneous nerve
+## explanation_b
+The musculocutaneous nerve is the lateral cord’s own terminal branch.
+## answer_c
+Lateral pectoral nerve. P
+## explanation_c
+The lateral pectoral nerve is likewise lateral cord; the medial pectoral nerve is the medial cord’s.
+## answer_d
+Ulnar nerve Vi Acad
+## explanation_d
+Correct. The ulnar nerve is the largest branch of the medial cord, C8 and T1.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+List the branches of the medial cord and separate them from the lateral cord’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p35 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the lateral cutaneous nerve of the forearm, which is the terminal part of the musculocutaneous nerve and therefore a lateral cord derivative. The medial cord gives the ulnar nerve, the medial root of the median, the medial pectoral nerve and the medial cutaneous nerves of the arm and forearm — so of the four options only the ulnar nerve is right.
+
+
+---
+
+# Item
+## id
+QM-101-2086E866DADB
+## title
+Medial epicondyle of the humerus, choose the correct answer: (DEP BOOK) Vi
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial epicondyle of the humerus, choose the correct answer: (DEP BOOK) Vi
+## answer_a
+Smaller than the lateral epicondyle
+## explanation_a
+The medial epicondyle is the larger and more prominent of the two epicondyles, which is why it is palpable and why it is the one that gets avulsed in children.
+## answer_b
+The musculocutaneous crosses in front of It. Ac ad
+## explanation_b
+The musculocutaneous nerve crosses in front of the elbow well laterally, at the border of the biceps tendon, and is nowhere near the medial epicondyle.
+## answer_c
+The ulnar nerve passes behind it
+## explanation_c
+Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, against bone, which is what makes it palpable and vulnerable there.
+## answer_d
+Gives attachment to the common extensor origin
+## explanation_d
+The medial epicondyle gives the common flexor origin; it is the lateral epicondyle that gives the common extensor origin. Swapping the two is the standard error of this question.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the relations and attachments of the medial epicondyle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p71 q59. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy or its sibling. The medial epicondyle is the larger of the two, gives the common flexor origin, and has the ulnar nerve grooving its back — so C is the only true statement among the four.
+
+
+---
+
+# Item
+## id
+QM-101-527CAEC88EF4
+## title
+Medial epicondyle of the humerus, choose the correct answer:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial epicondyle of the humerus, choose the correct answer:
+## answer_a
+Smaller than the lateral epicondyle
+## explanation_a
+The medial epicondyle is the larger of the two.
+## answer_b
+The musculocutaneous crosses in front of it
+## explanation_b
+The musculocutaneous nerve becomes cutaneous at the lateral side of the biceps tendon; nothing takes it medially.
+## answer_c
+The ulnar nerve passes behind it
+## explanation_c
+Correct. The ulnar nerve grooves the back of the medial epicondyle.
+## answer_d
+Gives attachment to the common extensor origin. 1
+## explanation_d
+Common flexor origin, not common extensor. The extensor origin is on the lateral epicondyle, which is the mirror-image fact the option trades on.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the relations and attachments of the medial epicondyle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p36 q39. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only the statement about the ulnar nerve is true: the medial epicondyle is larger than the lateral, gives the common flexor origin rather than the extensor one, and is unrelated to the musculocutaneous nerve.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-81B2F4563075
+## title
+Medial intermuscular septum is pierced by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial intermuscular septum is pierced by:
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. The ulnar nerve pierces the medial septum about the middle of the arm to pass from the flexor compartment to the extensor one, and it is accompanied by the superior ulnar collateral artery.
+## answer_b
+Radial nerve
+## explanation_b
+The radial nerve pierces the lateral intermuscular septum, going the other way — from the extensor compartment to the flexor side of the elbow. This is the swap the item exists to catch.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve stays in the anterior compartment throughout and pierces neither septum.
+## answer_d
+Profunda brachii artery
+## explanation_d
+The profunda brachii accompanies the radial nerve, so it is a lateral septum structure — and it does not itself pierce the septum; its radial collateral branch does.
+## answer_e
+All of the above
+## explanation_e
+"All of the above" fails on the median nerve alone, quite apart from the radial and profunda brachii belonging to the other septum.
+## correct_answer
+A
+## main_concept
+CON-MSK-BAB2A859A2575C
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pair each intermuscular septum of the arm with the nerve that pierces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Quiz (Arm) (4).pdf p1 q4. Manifest src_a38c7a9672971718ccdb.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The medial intermuscular septum is pierced by the ulnar nerve and the superior ulnar collateral artery; the radial nerve and the profunda brachii pierce the lateral septum, so option E cannot be right either.
+
+
+---
+
+# Item
+## id
+QM-101-FA3B754E61F2
+## title
+Medial intermuscular septum is pierced by: (IPKA) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Medial intermuscular septum is pierced by: (IPKA) y y
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. The ulnar nerve leaves the front of the arm through the medial septum to reach the back of the medial epicondyle.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve descends the whole arm in the anterior compartment and pierces nothing.
+## answer_d
+Profunda brachii artery
+## explanation_d
+The profunda brachii belongs to the posterior compartment with the radial nerve, on the lateral side.
+## answer_e
+All of the above
+## explanation_e
+"All of the above" cannot stand while the median nerve is in the list.
+## correct_answer
+A
+## main_concept
+CON-MSK-BAB2A859A2575C
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pair each intermuscular septum of the arm with the nerve that pierces it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q34. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This copy has lost option B, but four options survive and the correct one is among them: the ulnar nerve pierces the medial intermuscular septum, accompanied by the superior ulnar collateral artery.
+
+
+---
+
+# Item
+## id
+QM-101-991319BACE23
+## title
+Median nerve supplies all of the following muscles acting on thumb except: (DEP BOOK) Ac
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median nerve supplies all of the following muscles acting on thumb except: (DEP BOOK) Ac
+## answer_a
+Opponens pollicis.
+## explanation_a
+True, so not the exception. Opponens pollicis is one of the three thenar muscles, all median.
+## answer_b
+Flexor pollicis brevis.
+## explanation_b
+True, so not the exception. Flexor pollicis brevis is thenar and median — its deep head is often ulnar, but the muscle is counted with the thenar group.
+## answer_c
+Abductor pollicis longus.
+## explanation_c
+The exception, and the answer. Abductor pollicis longus is not a hand muscle at all: it is one of the deep extensor group in the back of the forearm, supplied by the posterior interosseous branch of the radial nerve. The word "longus" is the give-away — the short thumb muscles are in the hand and median, the long ones are in the forearm.
+## answer_d
+Abductor pollicis brevis.
+## explanation_d
+True, so not the exception. Abductor pollicis brevis is thenar and median, and it is the muscle whose wasting flattens the eminence.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the long thumb muscles of the forearm from the short ones of the hand.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p60 q27. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C49ECD2E5685
+## title
+Median nerve supplies all of the following muscles acting on thumb except: (DEP BOOK - …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Median nerve supplies all of the following muscles acting on thumb except: (DEP BOOK - 2021)
+## answer_a
+Opponens pollicis.
+## explanation_a
+True, so not the exception. Opponens pollicis is median.
+## answer_b
+Flexor pollicis brevis.
+## explanation_b
+True, so not the exception. Flexor pollicis brevis is median.
+## answer_c
+Abductor pollicis longus.
+## explanation_c
+The exception, and the answer. Abductor pollicis longus lies in the extensor compartment of the forearm and is radial; every short thumb muscle in the hand is median.
+## answer_d
+Abductor pollicis brevis.
+## explanation_d
+True, so not the exception. Abductor pollicis brevis is median.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the long thumb muscles of the forearm from the short ones of the hand.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q70. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the sibling `median-nerve-supplies-all-of-the-following-muscles-acting-on-0fee0b66` is keyed C. Abductor pollicis longus is a deep extensor of the forearm supplied by the posterior interosseous nerve, and it is the only option that is not a thenar muscle.
+
+
+---
+
+# Item
+## id
+QM-101-2D854B2C595C
+## title
+Muscles of hypothenar eminence are innervated by;(DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Muscles of hypothenar eminence are innervated by;(DEP BOOK)
+## answer_a
+Median nerve.
+## explanation_a
+The median nerve supplies the thenar eminence — the other side of the palm. Mirroring the two eminences onto the same nerve is exactly the mistake this option catches.
+## answer_b
+Ulnar nerve.
+## explanation_b
+Correct. Abductor, flexor and opponens digiti minimi are all supplied by the deep branch of the ulnar nerve.
+## answer_c
+Median & radial nerves.
+## explanation_c
+The radial nerve supplies no intrinsic muscle of the hand.
+## answer_d
+Median & ulnar nerves.
+## explanation_d
+The hypothenar group has one nerve, not two. It is the thumb side of the hand that is shared, where the deep head of flexor pollicis brevis and adductor pollicis are ulnar.
+## correct_answer
+B
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the hypothenar muscles to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p60 q26. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-402986E20E73
+## title
+Nerve responsible for ﬁne movements of the hand is: (2018) Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Nerve responsible for ﬁne movements of the hand is: (2018) Ac em
+## answer_a
+Median Nerve
+## explanation_a
+Correct. The median nerve carries opposition of the thumb and sensation from the pulps of the lateral three and a half fingers, and fine manipulation needs both — which is why it is sometimes called the labourer’s eye.
+## answer_b
+Radial nerve
+## explanation_b
+The radial nerve positions the hand by extending the wrist. It is a nerve of posture rather than of precision, and it supplies nothing inside the hand.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve supplies most of the intrinsic muscles and governs power grip and the spread of the fingers, but a pinch between thumb and index — the fine movement — is median.
+## answer_d
+Posterior interosseous nerve. y
+## explanation_d
+The posterior interosseous nerve is purely motor to the deep extensors and carries no sensation at all.
+## correct_answer
+A
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Say which nerve fine manipulation depends on and why.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p62 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F2C3637AF0D1
+## title
+Numbness to the skin on the medial part of the palm of the hand may be caused by a lesi…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Numbness to the skin on the medial part of the palm of the hand may be caused by a lesion to: (2021)
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. The palmar cutaneous branch and the palmar digital branches of the ulnar nerve cover the medial third of the palm and the medial one and a half fingers.
+## answer_b
+Radial nerve
+## explanation_b
+The radial nerve supplies no palmar skin whatever.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve supplies the lateral two-thirds — the other side of the same palm.
+## answer_d
+Superficial radial nerve
+## explanation_d
+The superficial radial nerve is a nerve of the dorsum, and of its lateral part at that.
+## correct_answer
+A
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the medial third of the palm to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p130 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. The palm is divided between the median nerve laterally over two-thirds and the ulnar nerve medially over one-third, so numbness of the medial palm is an ulnar lesion.
+
+
+---
+
+# Item
+## id
+QM-101-7F85B4DCC36A
+## title
+Numbness to the skin on the medial part of the palm of the hand may be caused by em em …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Numbness to the skin on the medial part of the palm of the hand may be caused by em em em em em a lesion to: (2021)
+## answer_a
+Ulnar nerve
+## explanation_a
+Correct. The medial third of the palm is supplied by the ulnar nerve.
+## answer_b
+Radial nerve
+## explanation_b
+The radial nerve does not reach the palm.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve takes the lateral two-thirds.
+## answer_d
+Superﬁcial radial nerve
+## explanation_d
+The superficial radial nerve serves the lateral two-thirds of the dorsum, not the palm.
+## correct_answer
+A
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the medial third of the palm to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p75 q87. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The medial third of the palm is ulnar territory, which is the same conclusion reached on the sibling copy of this question.
+
+
+---
+
+# Item
+## id
+QM-101-8FCF3FADEC8E
+## title
+One of the following structures lies deep to the bicipital aponeurosis: (2018) Ac ad Ac…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures lies deep to the bicipital aponeurosis: (2018) Ac ad Ac ad ad ad
+## answer_a
+Ulnar nerve.
+## explanation_a
+The ulnar nerve is outside the fossa altogether, behind the medial epicondyle. It is the printed key and it is wrong.
+## answer_b
+Radial nerve.
+## explanation_b
+The radial nerve lies at the lateral border of the fossa, beyond the lateral edge of the aponeurosis.
+## answer_c
+Median cubital vein.
+## explanation_c
+The median cubital vein lies superficial to the aponeurosis, which is the whole clinical point: the sheet is what keeps a needle in the vein out of the artery beneath.
+## answer_d
+Median nerve.
+## explanation_d
+Correct. The median nerve and the brachial artery run deep to the bicipital aponeurosis, protected by it.
+## correct_answer
+D
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the bicipital aponeurosis protects, and what lies on top of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p63 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which lies behind the medial epicondyle and never enters the cubital fossa. The bicipital aponeurosis roofs the medial part of the fossa, separating the median cubital vein above from the brachial artery and the median nerve below — so the structure lying deep to it is the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-0173D680CF71
+## title
+One of the following structures passes behind the medial epicondyle: (DEP BOOK) em em e…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures passes behind the medial epicondyle: (DEP BOOK) em em em em em
+## answer_a
+Median nerve
+## explanation_a
+The median nerve is in front, in the cubital fossa.
+## answer_b
+Interosseous recurrent artery
+## explanation_b
+The interosseous recurrent artery ascends behind the lateral epicondyle, on the other side.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+The musculocutaneous nerve has become cutaneous laterally, above the elbow.
+## answer_d
+Ulnar nerve
+## explanation_d
+Correct. The ulnar nerve grooves the back of the medial epicondyle against bone.
+## correct_answer
+D
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the ulnar nerve behind the medial epicondyle and everything else in front of the elbow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q52. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the copy asked four times, `one-of-the-following-structures-pass-behind-the-medial-epico-4228c9a8`, is keyed D. The ulnar nerve is the one structure that passes behind the medial epicondyle.
+
+
+---
+
+# Item
+## id
+QM-101-FD7D05CA167E
+## title
+One of the following structures passes deep to the ﬂexor retinaculum: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures passes deep to the ﬂexor retinaculum: (2018)
+## answer_a
+Tendon of palmaris longus
+## explanation_a
+Palmaris longus is partly inserted into the retinaculum and its tendon crosses superficial to it. That is what makes it a landmark for the median nerve rather than a companion of it.
+## answer_b
+Tendon of ﬂexor pollicis longus
+## explanation_b
+Correct. Flexor pollicis longus passes through the carpal tunnel deep to the retinaculum, in a synovial sheath of its own separate from the common sheath of the other eight flexor tendons.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve crosses over the retinaculum lateral to the pisiform. It is the printed key here and it contradicts the same books’ answer on their other flexor retinaculum questions.
+## answer_d
+Superﬁcial radial nerve
+## explanation_d
+The superficial radial nerve is on the back of the wrist entirely.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort four structures at the wrist into those inside the carpal tunnel and those outside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, the ulnar nerve, which passes superficial to the retinaculum in the canal of Guyon — the books themselves say so on their own "structures passing superficial to the flexor retinaculum" items. What passes deep to it here is the tendon of flexor pollicis longus, in its own synovial sheath within the carpal tunnel.
+
+
+---
+
+# Item
+## id
+QM-101-F521ACCF5412
+## title
+One of the following structures passes deep to the flexor retinaculum: (2018)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures passes deep to the flexor retinaculum: (2018)
+## answer_a
+Tendon of palmaris longus
+## explanation_a
+Palmaris longus lies superficial to the retinaculum and is attached to it.
+## answer_b
+Tendon of flexor pollicis longus
+## explanation_b
+Correct. Flexor pollicis longus runs in the carpal tunnel in its own synovial sheath.
+## answer_c
+Ulnar nerve
+## explanation_c
+The ulnar nerve passes over the retinaculum with the ulnar vessels.
+## answer_d
+Superficial radial nerve
+## explanation_d
+The superficial radial nerve is dorsal.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort four structures at the wrist into those inside the carpal tunnel and those outside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q1. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives the ulnar nerve, which the same books elsewhere place superficial to the retinaculum. The tendon of flexor pollicis longus is the one option that genuinely passes through the carpal tunnel.
+
+
+---
+
+# Item
+## id
+QM-101-890ED50A45D1
+## title
+One of the following structures passes in the roof of the cubital fossa: (2019) ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following structures passes in the roof of the cubital fossa: (2019) ad
+## answer_a
+Cephalic vein
+## explanation_a
+Correct. The roof is skin and superficial fascia carrying the cephalic and basilic veins with the median cubital vein between them, plus deep fascia reinforced by the bicipital aponeurosis.
+## answer_b
+Radial nerve. y
+## explanation_b
+The radial nerve is a content, at the lateral border of the fossa, deep to the roof.
+## answer_c
+Medial two lumbricals
+## explanation_c
+The lumbricals are in the palm. The option is nowhere near the region and is the kind of distractor that is easy to eliminate and worth eliminating deliberately.
+## answer_d
+Median nerve. em Ac
+## explanation_d
+The median nerve is a content, the most medial one, lying under the bicipital aponeurosis rather than in it.
+## correct_answer
+A
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the roof of the cubital fossa from its contents.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p56 q15. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-6D3E8D98DF0B
+## title
+Opposition of the thumb is dependent upon the functional integrity of this nerve: (2024…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Opposition of the thumb is dependent upon the functional integrity of this nerve: (2024) Ac ad Ac ad ad ad
+## answer_a
+Axillary nerve.
+## explanation_a
+The axillary nerve stops at the shoulder. It is the printed key here and it is impossible.
+## answer_b
+Median nerve.
+## explanation_b
+Correct. Opponens pollicis takes the recurrent branch of the median nerve.
+## answer_c
+Radial nerve.
+## explanation_c
+The radial nerve extends and abducts the thumb but cannot oppose it.
+## answer_d
+Ulnar nerve.
+## explanation_d
+The ulnar nerve adducts the thumb through adductor pollicis; adduction and opposition are different movements.
+## correct_answer
+B
+## main_concept
+CON-MSK-9B52018C4649BD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach opposition of the thumb to the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p58 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the axillary nerve, which ends in deltoid and teres minor at the shoulder and has no representation in the hand. The clean copy of this question is keyed B: opposition is opponens pollicis, a thenar muscle on the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-3E3BEF6F2083
+## title
+Paralysis of the deltoid muscle causes: (2017) em Ac P a- Flat shoulder. P Vi b- Wingin…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the deltoid muscle causes: (2017) em Ac P a- Flat shoulder. P Vi b- Winging of the scapula
+## answer_a
+Flat shoulder.
+## explanation_a
+Correct. With deltoid wasted the acromion becomes prominent and the rounded curve of the shoulder is lost.
+## answer_b
+Winging of the scapula.
+## explanation_b
+Winging of the scapula follows paralysis of serratus anterior, from the long thoracic nerve.
+## answer_c
+Claw hand.
+## explanation_c
+Claw hand is ulnar, or median and ulnar together.
+## answer_d
+Wrist drop.
+## explanation_d
+Wrist drop is radial. It is the printed key here and it is wrong; deltoid has no action below the shoulder.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the deformity that follows wasting of deltoid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p25 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, wrist drop, which belongs to the radial nerve and is impossible from a deltoid palsy. Deltoid gives the shoulder its rounded contour, so its paralysis flattens the shoulder — and the stem of this copy carries an echo of option a, "Flat shoulder", which is the answer the page actually printed.
+
+
+---
+
+# Item
+## id
+QM-101-EA8FC0D6936C
+## title
+Paralysis of the serratus anterior muscle causes:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the serratus anterior muscle causes:
+## answer_a
+Winging of the scapula
+## explanation_a
+Correct. The medial border of the scapula lifts away from the chest wall, most obviously when the patient pushes forwards against a wall.
+## answer_b
+Claw hand
+## explanation_b
+Claw hand is a hand deformity from loss of the intrinsic muscles.
+## answer_c
+Ape hand
+## explanation_c
+Ape hand is median, from wasting of the thenar eminence.
+## answer_d
+Wrist drop
+## explanation_d
+Wrist drop is radial.
+## answer_e
+Policeman’s tip position
+## explanation_e
+The policeman’s tip position is Erb’s palsy, a lesion of the whole upper trunk rather than of one root branch. It is the most tempting wrong answer because both involve the shoulder girdle.
+## correct_answer
+A
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the deformity that follows paralysis of serratus anterior.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q9. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the sibling `paralysis-of-the-serratus-anterior-muscle-causes-ipka-ac-ad-8337abb4` is keyed A. Serratus anterior holds the medial border of the scapula against the chest wall, so its paralysis lets that border stand off.
+
+
+---
+
+# Item
+## id
+QM-101-F3611E132D58
+## title
+Paralysis of the serratus anterior muscle causes: (IPKA) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Paralysis of the serratus anterior muscle causes: (IPKA) Ac ad Ac ad ad ad
+## answer_a
+Winging of the scapula
+## explanation_a
+Correct. Serratus anterior holds the scapula to the chest wall and rotates it upwards; without it the medial border wings.
+## answer_b
+Claw hand
+## explanation_b
+Claw hand belongs to the small muscles of the hand.
+## answer_c
+Ape hand
+## explanation_c
+Ape hand is median.
+## answer_e
+Policeman's tip position
+## explanation_e
+The policeman’s tip position belongs to Erb’s palsy, which is a lesion of the upper trunk rather than of the long thoracic nerve alone.
+## correct_answer
+A
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Name the deformity that follows paralysis of serratus anterior.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p21 q20. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-B245C8E2F98B
+## title
+Partial claw hand deformity results from injury of which one of the following ad nerves…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Partial claw hand deformity results from injury of which one of the following ad nerves? (DEP BOOK - 2022) Vi P ad
+## answer_a
+Axillary nerve.
+## explanation_a
+The axillary nerve gives a flat shoulder.
+## answer_b
+Median nerve.
+## explanation_b
+The median nerve gives the ape hand; with the ulnar it gives a complete claw, but alone it claws nothing.
+## answer_c
+Ulnar nerve.
+## explanation_c
+Correct. The interossei and the medial two lumbricals are ulnar, so the medial two fingers claw while the lateral two are held by their median lumbricals.
+## answer_d
+Radial nerve.
+## explanation_d
+The radial nerve gives wrist drop.
+## correct_answer
+C
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach the partial claw hand to the ulnar nerve and say why it is only partial.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q56. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the sibling asked twice is keyed C. Clawing of the fourth and fifth fingers with the index and middle largely spared is the signature of an ulnar lesion, the sparing coming from the median supply of the lateral two lumbricals.
+
+
+---
+
+# Item
+## id
+QM-101-4DC66DE804A4
+## title
+Regarding nerve injuries in upper limb, choose correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding nerve injuries in upper limb, choose correct answer: (DEP BOOK)
+## answer_a
+Injury to the median produces wrist drop.
+## explanation_a
+Wrist drop is radial. It is the printed key here and it is wrong; a student who learns it will look for a flexor lesion in a patient whose extensors are dead.
+## answer_b
+Injury to the ulnar nerve produces ape hand.
+## explanation_b
+Ape hand is median. The ulnar deformity is the partial claw.
+## answer_c
+Ulnar nerve is injured by compression in the carpal tunnel.
+## explanation_c
+The carpal tunnel carries the median nerve; the ulnar nerve passes over the retinaculum.
+## answer_d
+Injury to the axillary nerve leads to loss of abduction of the shoulder.
+## explanation_d
+Correct. Deltoid is axillary, so an axillary lesion abolishes abduction through deltoid’s range.
+## correct_answer
+D
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Match four deformities to four nerves in one pass.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p39 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, "injury to the median produces wrist drop", which is false twice over — wrist drop is radial, and the median nerve supplies no extensor. The clean copy of this question is keyed D, and D is the only true statement in the set.
+
+
+---
+
+# Item
+## id
+QM-101-511FECDC2A8C
+## title
+Regarding radial nerve injury, choose the correct answer: (DEP BOOK) y ad Ac a- It may …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding radial nerve injury, choose the correct answer: (DEP BOOK) y ad Ac a- It may be Injured if the shaft of the humerus Is fractured
+## answer_a
+It may be Injured if the shaft of the humerus Is fractured.
+## explanation_a
+Correct. A fracture of the shaft of the humerus is the classic cause of a radial nerve lesion, because the nerve is applied directly to the bone in the spiral groove.
+## answer_b
+Injury of the posterior interosseous nerve causes wrist drop.
+## explanation_b
+A posterior interosseous lesion gives finger drop without wrist drop: extensor carpi radialis longus is supplied above the division and keeps the wrist up.
+## answer_c
+Injury of its superﬁcial branch produces ﬁnger drop.
+## explanation_c
+The superficial branch is purely sensory and drops nothing.
+## answer_d
+Injury of posterior interosseous nerve is accompanied by loss of sensations.
+## explanation_d
+The posterior interosseous nerve carries no sensory fibres, so its injury is accompanied by no sensory loss.
+## correct_answer
+A
+## main_concept
+CON-MSK-1FC89E36FFD98E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Separate a lesion of the radial nerve trunk from a lesion of either terminal branch.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of option a in the stem, which is an extraction artefact. The keyed sibling `regarding-radial-nerve-injury-choose-the-correct-answer-117bd810` gives A, and A is correct: the nerve lies in the spiral groove against the shaft of the humerus.
+
+
+---
+
+# Item
+## id
+QM-101-CF10DB5DCE64
+## title
+Regarding the course of the ulnar nerve; mark the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the course of the ulnar nerve; mark the correct answer: (DEP BOOK)
+## answer_a
+Passes behind the lateral epicondyle of the humerus.
+## explanation_a
+Behind the lateral epicondyle is the wrong side of the elbow entirely; that is where the interosseous recurrent artery ascends.
+## answer_b
+Passes between humeral and ulnar attachment of ﬂexor carpi ulnaris.
+## explanation_b
+Correct. The two heads of flexor carpi ulnaris, from the medial epicondyle and the olecranon, form the arch the nerve enters the forearm through.
+## answer_c
+Passes between ﬂexor digitorum profundus and Palmaris longus.
+## explanation_c
+Palmaris longus is a superficial muscle in the middle of the front of the forearm; the ulnar nerve lies deep and medial to it, on the profundus.
+## answer_d
+Passes between ﬂexor digitorum superﬁcialis & ﬂexor digitorum profundus.
+## explanation_d
+The plane between flexor digitorum superficialis and profundus carries the median nerve, and confusing the two nerves’ planes is the point of this option.
+## correct_answer
+B
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace the ulnar nerve from behind the medial epicondyle into the forearm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p70 q53. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The ulnar nerve enters the forearm by passing between the humeral and ulnar heads of flexor carpi ulnaris, then descends on flexor digitorum profundus deep to that muscle. It passes behind the medial, not the lateral, epicondyle, and it never lies between the superficialis and profundus — that plane belongs to the median nerve.
+
+
+---
+
+# Item
+## id
+QM-101-9797A673F9B8
+## title
+Regarding the cutaneous supply of the upper limb, choose the correct answer: (DEP BOOK)…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the cutaneous supply of the upper limb, choose the correct answer: (DEP BOOK) ad y y
+## answer_a
+The skin of the medial side of the forearm is supplied by a branch of the posterior cord of
+## explanation_a
+The medial cutaneous nerve of the forearm is a branch of the medial cord, not the posterior cord. The posterior cord supplies the back of the arm and forearm through the radial nerve. This copy has cut the option short at "of", but the error is in the cord it names.
+## answer_b
+The skin of the lateral side of the arm is supplied by branches of the lateral cord of the
+## explanation_b
+The skin of the lateral side of the arm is supplied by the axillary and radial nerves, both posterior cord branches, and above them by the supraclavicular nerves from the cervical plexus. The lateral cord supplies skin only through the musculocutaneous nerve, and that is over the forearm.
+## answer_c
+The skin of the dorsum of the hand is supplied by branches of radial and ulnar nerves
+## explanation_c
+Correct. The dorsum of the hand is divided between the superficial branch of the radial nerve laterally and the dorsal branch of the ulnar nerve medially.
+## answer_d
+The skin of the medial 1 ½ ﬁngers is supplied by branches of the median nerve
+## explanation_d
+The medial one and a half fingers are ulnar. It is the lateral three and a half that are median, and swapping the two fractions is the standard error of this leaf.
+## correct_answer
+C
+## main_concept
+CON-MSK-F4FC0C323C654E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Trace each strip of skin on the limb back to the cord or nerve that supplies it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p91 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-F2C0ABDC144E
+## title
+Regarding the effect of median nerve Injury above the elbow, choose the correct em em e…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the effect of median nerve Injury above the elbow, choose the correct em em em answer: (DEP BOOK) em em
+## answer_a
+Loss of opposition of the little ﬁnger
+## explanation_a
+Opposition of the little finger belongs to opponens digiti minimi, a hypothenar muscle supplied by the ulnar nerve.
+## answer_b
+Loss of supination of the forearm
+## explanation_b
+Supination is supinator, from the radial nerve, and biceps, from the musculocutaneous. The median nerve is the nerve of pronation.
+## answer_c
+Loss of sensations over the lateral 2/3 of the palm. Ac ad
+## explanation_c
+Correct. The palmar cutaneous branch and the palmar digital branches of the median nerve cover the lateral two-thirds of the palm.
+## answer_d
+Weak ﬂexion of the wrist with radial deviation
+## explanation_d
+The wrist deviates towards the ulnar side, because flexor carpi ulnaris is the only wrist flexor left.
+## correct_answer
+C
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Predict the sensory territory and the direction of wrist deviation after a high median lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p69 q46. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed copy asked twice, `regarding-the-effect-of-median-nerve-injury-above-the-elbow-4b32bf8e`, gives C. The lateral two-thirds of the palm is median territory, and each of the other three options attributes to the median nerve something belonging to the ulnar, radial or musculocutaneous.
+
+
+---
+
+# Item
+## id
+QM-101-110427F612A4
+## title
+Regarding the effect of median nerve injury above the elbow, choose the correct answer:…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the effect of median nerve injury above the elbow, choose the correct answer: ‘a- Loss of opposition of the little finger
+## answer_a
+Loss of opposition of the little finger.
+## explanation_a
+The little finger is opposed by a hypothenar muscle, which is ulnar.
+## answer_b
+Loss of supination of the forearm.
+## explanation_b
+Supination survives a median lesion entirely.
+## answer_c
+Loss of sensations over the lateral 2/3 of the palm.
+## explanation_c
+Correct. Sensation over the lateral two-thirds of the palm is median.
+## answer_d
+Weak flexion of the wrist with radial deviation.
+## explanation_d
+The deviation is ulnar, not radial: flexor carpi ulnaris is what is left to pull.
+## correct_answer
+C
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Predict the sensory territory and the direction of wrist deviation after a high median lesion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p27 q49. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of option a in the stem. The keyed copy of the same question gives C, and C is correct on the anatomy.
+
+
+---
+
+# Item
+## id
+QM-101-AB39E7BCD6C1
+## title
+Regarding the median nerve injury, choose the correct answer: (DEP BOOK) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the median nerve injury, choose the correct answer: (DEP BOOK) y
+## answer_a
+It may be Injured by fractures of the shaft of the humerus
+## explanation_a
+A fracture of the shaft of the humerus injures the radial nerve. The median nerve is endangered at the elbow, by a supracondylar fracture.
+## answer_b
+The resulting deformity of the hand is called claw hand
+## explanation_b
+Claw hand is ulnar; the median deformity is the ape hand.
+## answer_c
+There is loss of opposition of the thumb
+## explanation_c
+Correct. Opponens pollicis is median, and losing opposition is what disables the pinch grip.
+## answer_d
+There is loss of sensation over the lateral 2/3 of dorsum of hand
+## explanation_d
+The lateral two-thirds of the dorsum of the hand is superficial radial territory. Median sensation on the back of the hand covers only the terminal phalanges of the lateral fingers.
+## correct_answer
+C
+## main_concept
+CON-MSK-B119CC808D3E81
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Separate the median nerve’s deformity and territory from the ulnar nerve’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p68 q44. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the copy asked three times, `regarding-the-median-nerve-injury-choose-the-correct-answer-e0bf4117`, is keyed C. Loss of opposition of the thumb is the median deficit, and the other three options give the median nerve a radial fracture site, an ulnar deformity and a radial sensory territory.
+
+
+---
+
+# Item
+## id
+QM-101-EC8097535940
+## title
+Regarding the ulnar nerve injury, choose the correct answer: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar nerve injury, choose the correct answer: (DEP BOOK)
+## answer_a
+The patient can grip a piece of paper placed between the thumb and index.
+## explanation_a
+Gripping a piece of paper between thumb and index is exactly what an ulnar lesion prevents, because adductor pollicis is dead — the failure to do it, with the thumb flexing instead, is Froment’s sign.
+## answer_b
+There is loss of sensation over the lateral 1/3 of the hand.
+## explanation_b
+The lateral third of the hand is median. The ulnar nerve takes the medial third.
+## answer_c
+There is loss of sensation over the lateral 3½ ﬁngers.
+## explanation_c
+The lateral three and a half fingers are median territory. The ulnar nerve takes the medial one and a half.
+## answer_d
+If injured above the elbow, the clawing of the hand becomes less apparent than when it is injured above the wrist.
+## explanation_d
+Correct, and counter-intuitive, which is why it is called the ulnar paradox: a higher lesion also kills the medial half of flexor digitorum profundus, and without that muscle pulling there is less force to flex the interphalangeal joints into a claw.
+## correct_answer
+D
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+State the ulnar paradox and the sensory territory that goes with it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p71 q58. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. D is the ulnar paradox and is true; the other three are each a specific error. Gripping paper between thumb and index is adductor pollicis, which an ulnar lesion abolishes; the sensory loss is over the medial third of the hand, not the lateral third; and the lateral three and a half fingers are median.
+
+
+---
+
+# Item
+## id
+QM-101-571347A6F1B0
+## title
+Regarding the ulnar nerve, select the false answer: (2022 - 2021) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding the ulnar nerve, select the false answer: (2022 - 2021) em em em em em
+## answer_a
+Has no branches in the arm
+## explanation_a
+True, so not the false answer. The ulnar nerve gives no branch at all in the arm, which is why an arm wound can cut it without any motor loss above the wrist.
+## answer_b
+Carries ﬁbers from C6, C7 and C8
+## explanation_b
+The false answer, and therefore the one to choose. The ulnar nerve is the largest branch of the medial cord, which is the anterior division of the lower trunk, C8 and T1. C6 is upper trunk and would make it a nerve of the shoulder.
+## answer_c
+It enters the hand superﬁcial to the ﬂexor retinaculum
+## explanation_c
+True, so not the false answer. The ulnar nerve crosses over the retinaculum in the canal of Guyon, which is why carpal tunnel syndrome spares the little finger.
+## answer_d
+Injury of the nerve causes partial claw hand. Ac ad
+## explanation_d
+True, so not the false answer. Clawing of the fourth and fifth fingers with the lateral two spared is the partial claw hand.
+## correct_answer
+B
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the root value of the ulnar nerve and separate it from the median nerve’s.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q73. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Three of the four statements are true of the ulnar nerve — it gives no branch in the arm, it enters the hand superficial to the flexor retinaculum, and its injury claws the hand partially — leaving the root value as the false one. The ulnar nerve is C8 and T1, from the medial cord; C6 belongs to the upper part of the plexus and never reaches it.
+
+
+---
+
+# Item
+## id
+QM-101-DBD8305CAC0D
+## title
+Regarding ulnar nerve injury: (2024) y y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding ulnar nerve injury: (2024) y y
+## answer_a
+Often occurs where the nerve passes posterior to medial epicondyle of the humerus
+## explanation_a
+Correct. Behind the medial epicondyle the nerve lies against bare bone in a groove, held only by skin and fascia, which is why fracture, dislocation and simple pressure all reach it there.
+## answer_b
+The patient experiences numbness and tingling sensation on lateral part of the palm
+## explanation_b
+The numbness of an ulnar lesion is on the medial part of the palm and the medial one and a half fingers. The lateral part of the palm is median.
+## answer_c
+The patient exhibit "'waiter's tip” hand
+## explanation_c
+The waiter’s or porter’s tip hand belongs to Erb’s palsy, an upper trunk lesion. The ulnar deformity is the partial claw.
+## answer_d
+Power of abduction is impaired. Ac
+## explanation_d
+Abduction of the shoulder is deltoid, from the axillary nerve. It is abduction of the fingers, not of the arm, that an ulnar lesion impairs — and the option trades on that single word.
+## correct_answer
+A
+## main_concept
+CON-MSK-B640E3E982A149
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Give the commonest site of ulnar injury and the deficits that follow it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p65 q22. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0029C932D809
+## title
+Structure crossing superﬁcial to the ﬂexor retinaculum: (2022) em em em em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Structure crossing superﬁcial to the ﬂexor retinaculum: (2022) em em em em em
+## answer_a
+Median nerve
+## explanation_a
+The median nerve passes deep to the retinaculum, inside the carpal tunnel. It is the printed key here and it is the exact opposite of the truth.
+## answer_b
+Ulnar nerve
+## explanation_b
+Correct. The ulnar nerve and vessels cross over the retinaculum lateral to the pisiform, which is why an ulnar lesion at the wrist is not carpal tunnel syndrome and is not relieved by dividing the retinaculum.
+## answer_c
+Flexer digitorum superﬁcialis
+## explanation_c
+The tendons of flexor digitorum superficialis run in the carpal tunnel in the common synovial sheath.
+## answer_d
+Flexer pollicis longus
+## explanation_d
+Flexor pollicis longus also runs in the tunnel, in a sheath of its own.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what crosses over the flexor retinaculum rather than under it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the median nerve, which is the one structure that certainly passes deep to the retinaculum — the whole basis of carpal tunnel syndrome. What crosses superficial to it is the ulnar nerve, with the ulnar vessels, in the canal of Guyon.
+
+
+---
+
+# Item
+## id
+QM-101-A99219158436
+## title
+Structure crossing superficial to the flexor retinaculum: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Structure crossing superficial to the flexor retinaculum: (2022)
+## answer_a
+Median nerve
+## explanation_a
+The median nerve is inside the carpal tunnel, deep to the retinaculum.
+## answer_b
+Ulnar nerve
+## explanation_b
+Correct. The ulnar nerve crosses over the retinaculum with the ulnar artery.
+## answer_c
+Flexer digitorum superficialis
+## explanation_c
+The superficialis tendons are in the tunnel.
+## answer_d
+Flexer pollicis longus
+## explanation_d
+Flexor pollicis longus is in the tunnel in its own sheath.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what crosses over the flexor retinaculum rather than under it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q2. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives the median nerve, which passes deep to the retinaculum rather than over it. The ulnar nerve is the structure that crosses superficial to it.
+
+
+---
+
+# Item
+## id
+QM-101-A8F93AE3927D
+## title
+Structures passing through the quadrangular space of the axilla; mark the correct em em…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Structures passing through the quadrangular space of the axilla; mark the correct em em em em em answer: (DEP BOOK - 2019)
+## answer_a
+The axillary nerve and posterior circumﬂex humeral artery
+## explanation_a
+Correct. Nerve and artery wind round the surgical neck together through this space.
+## answer_b
+The axillary nerve and anterior circumﬂex humeral artery
+## explanation_b
+The anterior circumflex humeral artery passes in front of the surgical neck, outside the space.
+## answer_c
+The axillary nerve and circumﬂex scapular artery. Ac ad
+## explanation_c
+The circumflex scapular artery goes through the upper triangular space, on the medial side of the long head of triceps.
+## answer_d
+The axillary nerve and musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve leaves the axilla forwards through coracobrachialis.
+## correct_answer
+A
+## main_concept
+CON-MSK-8533FCB18D819B
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give both contents of the quadrangular space and separate them from the neighbouring spaces.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p31 q46. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy or on its sibling. The quadrangular space transmits the axillary nerve with the posterior circumflex humeral vessels, which is also what the keyed copies of the closely worded "injury to quadrangular intermuscular space" item establish.
+
+
+---
+
+# Item
+## id
+QM-101-873518327F55
+## title
+The back of the medial epicondyle is related to the: (2016)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The back of the medial epicondyle is related to the: (2016)
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve is on the lateral side, having pierced the lateral intermuscular septum above the elbow.
+## answer_b
+Ulnar nerve.
+## explanation_b
+Correct. The ulnar nerve lies in a groove on the back of the medial epicondyle, which is where it can be rolled under a finger and where a blow gives the pins and needles of the "funny bone".
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve is in front of the joint, in the cubital fossa.
+## answer_d
+Axillary nerve.
+## explanation_d
+The axillary nerve ends at the shoulder.
+## correct_answer
+B
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the structure in contact with the back of the medial epicondyle.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p64 q16. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C322B4306518
+## title
+The followfng structure is a content of the cubital fossa:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The followfng structure is a content of the cubital fossa:
+## answer_a
+Bracioradialis
+## explanation_a
+Brachioradialis is the lateral boundary of the triangle rather than a content. This copy spells it "Bracioradialis", which is an OCR slip and not a different word.
+## answer_b
+Median nerve
+## explanation_b
+Correct. The median nerve is the most medial content of the fossa.
+## answer_c
+Musculocutaneous
+## explanation_c
+The musculocutaneous nerve has already pierced the deep fascia above the elbow and lies in the roof as a cutaneous nerve.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve is behind the medial epicondyle, outside the fossa. It is the printed key here and it is wrong.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a content of the cubital fossa from a muscle that bounds it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p4 q19. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is D, the ulnar nerve, which passes behind the medial epicondyle and is outside the fossa altogether. The contents are the median nerve, the brachial artery with the origins of the radial and ulnar arteries, the biceps tendon and the radial nerve; of the four options only the median nerve is one of them.
+
+
+---
+
+# Item
+## id
+QM-101-B46F7AB211EB
+## title
+The following muscle is NOT supplied by the deep branch of the ulnar nerve: (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following muscle is NOT supplied by the deep branch of the ulnar nerve: (2022)
+## answer_a
+Abductor digiti minimi
+## explanation_a
+Supplied by the deep branch, so not the answer. Abductor digiti minimi is one of the first muscles it reaches.
+## answer_b
+Flexor digiti minimi. P
+## explanation_b
+Supplied by the deep branch, so not the answer.
+## answer_c
+Flexer carpi ulnaris
+## explanation_c
+The answer. Flexor carpi ulnaris is ulnar but not deep-branch: it is supplied in the forearm, which is why an ulnar lesion at the wrist leaves wrist flexion intact while a lesion at the elbow does not.
+## answer_d
+Adductor pollicis
+## explanation_d
+Supplied by the deep branch, so not the answer — it is the muscle the branch ends in.
+## correct_answer
+C
+## main_concept
+CON-MSK-F0F2BDF778A2DD
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the ulnar nerve’s forearm muscles from the muscles of its deep branch in the hand.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p73 q75. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The deep branch is a branch in the hand and supplies the hypothenar muscles, the interossei, the medial two lumbricals and adductor pollicis. Flexor carpi ulnaris is a forearm muscle, supplied by the ulnar nerve trunk in the upper forearm long before the deep branch exists.
+
+
+---
+
+# Item
+## id
+QM-101-5271735E6932
+## title
+The following nerve doesn't innervate the elbow joint: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerve doesn't innervate the elbow joint: (DEP BOOK)
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve supplies the elbow joint. It is the printed key here and it is wrong; a student taking it would conclude that the nerve of the extensor compartment skips the joint the extensors cross.
+## answer_b
+Ulnar nerve.
+## explanation_b
+The ulnar nerve is in contact with the capsule behind the medial epicondyle and supplies the joint.
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve crosses the front of the joint and supplies it.
+## answer_d
+Axillary nerve.
+## explanation_d
+Correct. The axillary nerve ends in deltoid and teres minor; by Hilton’s law it can supply the shoulder and nothing below it.
+## correct_answer
+D
+## main_concept
+CON-MSK-CBB4C433F2F81E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Apply Hilton’s law to decide which nerves can supply the elbow joint.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p100 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the radial nerve, which certainly does supply the elbow — it crosses the joint to triceps, anconeus and the extensors. The keyed sibling `the-following-nerve-doesn-t-innervate-the-elbow-joint-2ad0bc21`, asked twice, gives D, and the axillary nerve is the only one of the four that does not reach the elbow at all.
+
+
+---
+
+# Item
+## id
+QM-101-42988D19D929
+## title
+The following nerve is related directly to surgical neck of humerus: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerve is related directly to surgical neck of humerus: (DEP BOOK)
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve is against the shaft, in the spiral groove.
+## answer_b
+Ulnar nerve.
+## explanation_b
+The ulnar nerve touches the humerus only at the medial epicondyle.
+## answer_c
+Axillary nerve.
+## explanation_c
+Correct. The axillary nerve circles the surgical neck with the posterior circumflex humeral vessels.
+## answer_d
+Musculocutaneous nerve.
+## explanation_d
+The musculocutaneous nerve pierces coracobrachialis and lies nowhere against the bone.
+## correct_answer
+C
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve in contact with the surgical neck of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The axillary nerve winds round the surgical neck through the quadrangular space; the keyed copies of the same question in the bank agree.
+
+
+---
+
+# Item
+## id
+QM-101-E857BF6584EA
+## title
+The following nerve is related directly to the humerus: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerve is related directly to the humerus: (2019)
+## answer_a
+Radial nerve.
+## explanation_a
+Correct. The spiral groove is a shallow trough on the back of the shaft, and the radial nerve lies in it with the profunda brachii vessels — which is why a mid-shaft fracture is the classic cause of wrist drop.
+## answer_b
+Musculocutaneous nerve.
+## explanation_b
+The musculocutaneous nerve pierces coracobrachialis and runs between biceps and brachialis, in muscle rather than on bone.
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve descends the medial side of the arm in the neurovascular bundle, separated from the bone by brachialis.
+## answer_d
+Anterior interosseous nerve.
+## explanation_d
+The anterior interosseous nerve runs on the interosseous membrane of the forearm, and the question is about the humerus.
+## correct_answer
+A
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve applied directly to the shaft of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p48 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Of the four options only the radial nerve lies against the humerus, in the spiral groove on the back of the shaft; the other three run in soft tissue throughout.
+
+
+---
+
+# Item
+## id
+QM-101-8A5CA9817B0E
+## title
+The following nerves are related directly to the surgic.al neck of humerus:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerves are related directly to the surgic.al neck of humerus:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve is related to the shaft, not the neck. It is the commonest wrong answer because it is the nerve most students associate with the humerus.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is at the medial epicondyle, the other end of the bone.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The axillary nerve winds round the surgical neck, which is why deltoid must be tested after a fracture there.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve does not touch the humerus.
+## correct_answer
+C
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve in contact with the surgical neck of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p1 q4. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-9DE03F0AFB69
+## title
+The following nerves are related directly to the surgical neck of humerus:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following nerves are related directly to the surgical neck of humerus:
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve belongs to the spiral groove on the shaft.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is related to the medial epicondyle.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. The axillary nerve passes through the quadrangular space and round the surgical neck.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve has no bony relation in the arm.
+## correct_answer
+C
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the nerve in contact with the surgical neck of the humerus.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy MCQ Book [2025] [first priority].pdf p19 q4. Manifest src_764a2521809818b8abdc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the identically worded `the-following-nerves-are-related-directly-to-the-surgic-al-n-27297884` is keyed C. The axillary nerve is the structure applied to the surgical neck.
+
+
+---
+
+# Item
+## id
+QM-101-D7E689B82915
+## title
+The following structure is a content of the cubital fossa: (DEP BOOK) Ac em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure is a content of the cubital fossa: (DEP BOOK) Ac em
+## answer_a
+Brachioradialis
+## explanation_a
+Brachioradialis makes the lateral wall of the triangle. It is the printed key here and it is a boundary, not a content — and the distinction between what encloses a space and what lies in it is exactly what the question tests.
+## answer_b
+Median nerve
+## explanation_b
+Correct. The median nerve lies medially in the fossa, on the brachialis part of its floor.
+## answer_c
+Musculocutaneous
+## explanation_c
+The musculocutaneous nerve pierces the deep fascia above the elbow and lies in the roof.
+## answer_d
+Ulnar nerve. y
+## explanation_d
+The ulnar nerve is behind the medial epicondyle, outside the fossa.
+## correct_answer
+B
+## main_concept
+CON-MSK-74BFAB9385B955
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Distinguish a content of the cubital fossa from a muscle that bounds it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p55 q8. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, brachioradialis, which is the lateral boundary of the fossa rather than a content. The contents are the median nerve, the brachial artery with the origins of its two terminal branches, the biceps tendon and the radial nerve; the median nerve is the only one of the four options among them. The three copies of this question in the bank carry three different keys between them, which is itself a reason to settle it from the anatomy.
+
+
+---
+
+# Item
+## id
+QM-101-83606B2F7C7B
+## title
+The following structure passes deep to the ﬂexor retinaculum: (2019 – DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structure passes deep to the ﬂexor retinaculum: (2019 – DEP BOOK)
+## answer_a
+Ulnar nerve.
+## explanation_a
+The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon.
+## answer_c
+Median nerve.
+## explanation_c
+Correct. The median nerve is the one nerve inside the carpal tunnel, and compressing it there is carpal tunnel syndrome.
+## answer_d
+Palmar cutaneous branch of median nerve.
+## explanation_d
+The palmar cutaneous branch of the median nerve arises in the forearm and crosses over the retinaculum, which is why it is spared in carpal tunnel syndrome and the palm is not numb.
+## answer_e
+Palmaris longus tendon.
+## explanation_e
+Palmaris longus is inserted into the retinaculum and its tendon lies superficial to it.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the one nerve inside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy. Option B has been lost in extraction but four options survive, and the median nerve is among them — it is the only structure in the list that passes deep to the retinaculum.
+
+
+---
+
+# Item
+## id
+QM-101-F36F72B72B92
+## title
+The following structures pass superﬁcial to the ﬂexor retinaculum except: (2019) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structures pass superﬁcial to the ﬂexor retinaculum except: (2019) y
+## answer_a
+Ulnar nerve
+## explanation_a
+True, so not the exception. The ulnar nerve crosses over the retinaculum with the ulnar vessels.
+## answer_b
+Tendon of palmaris longus
+## explanation_b
+True, so not the exception. Palmaris longus lies on the retinaculum and is partly inserted into it.
+## answer_c
+Median nerve. P
+## explanation_c
+The exception, and the answer. The median nerve passes deep to the retinaculum, in the carpal tunnel — which is what makes it the nerve of carpal tunnel syndrome.
+## answer_d
+Palmar cutaneous branch of median nerve
+## explanation_d
+True, so not the exception. The palmar cutaneous branch leaves the median nerve above the wrist and crosses superficial to the retinaculum, which is why the palm keeps its sensation in carpal tunnel syndrome even when the fingers do not.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort the structures at the front of the wrist by their relation to the retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p61 q2. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-73EF095A65B6
+## title
+The following structures pass superﬁcial to the ﬂexor retinaculum except: (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The following structures pass superﬁcial to the ﬂexor retinaculum except: (2019)
+## answer_a
+Ulnar nerve
+## explanation_a
+True, so not the exception. The ulnar nerve is superficial to the retinaculum.
+## answer_c
+Median nerve. Vi P
+## explanation_c
+The exception, and the answer. The median nerve is the one structure in this list inside the carpal tunnel.
+## answer_d
+Palmar cutaneous branch of median nerve
+## explanation_d
+True, so not the exception. The palmar cutaneous branch of the median nerve crosses over the retinaculum.
+## answer_e
+Ulnar vessels
+## explanation_e
+True, so not the exception. The ulnar vessels accompany the ulnar nerve over the retinaculum in the canal of Guyon.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Sort the structures at the front of the wrist by their relation to the retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p80 q1. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-ABD4ED62721F
+## title
+The Interosseous muscles of the hand are supplied by: (DEP BOOK) P Vi a- Deep branch of…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The Interosseous muscles of the hand are supplied by: (DEP BOOK) P Vi a- Deep branch of ulnar nerve. Vi P
+## answer_a
+Deep branch of ulnar nerve.
+## explanation_a
+Correct. All four dorsal and all three palmar interossei take the deep branch of the ulnar nerve.
+## answer_b
+Superﬁcial branch of ulnar nerve.
+## explanation_b
+The superficial branch supplies one muscle, palmaris brevis, and is otherwise cutaneous. Choosing it means knowing the nerve and not the branch.
+## answer_c
+Median nerve.
+## explanation_c
+The median nerve’s intrinsic muscles are the thenar three and the lateral two lumbricals.
+## answer_d
+Posterior Interosseous nerve.
+## explanation_d
+The posterior interosseous nerve is in the forearm and shares only a name with the interossei of the hand — which is precisely why it is offered here.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the interossei to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p71 q60. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy — only a stray echo of option a in the stem. The deep branch of the ulnar nerve supplies all seven interossei; the superficial branch supplies palmaris brevis alone.
+
+
+---
+
+# Item
+## id
+QM-101-7899125D786A
+## title
+The Interosseous muscles of the hand are supplied by: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The Interosseous muscles of the hand are supplied by: (DEP BOOK)
+## answer_a
+Deep branch of ulnar nerve
+## explanation_a
+Correct. The deep branch is the motor branch of the ulnar nerve in the hand.
+## answer_b
+Superﬁcial branch of ulnar nerve. P
+## explanation_b
+The superficial branch is almost entirely cutaneous. It is the printed key here and it is wrong.
+## answer_c
+Median nerve
+## explanation_c
+The median nerve supplies no interosseous muscle.
+## answer_d
+Posterior Interosseous nerve
+## explanation_d
+The posterior interosseous nerve is a forearm nerve to the deep extensors; the name is the only connection.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the interossei to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p60 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the superficial branch, and it is wrong: the superficial branch of the ulnar nerve supplies palmaris brevis and skin. Every interosseous muscle takes the deep branch.
+
+
+---
+
+# Item
+## id
+QM-101-0E4918FB91FE
+## title
+The Interosseous muscles of the hand are supplied by:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The Interosseous muscles of the hand are supplied by:
+## answer_a
+Deep branch of ulnar nerve
+## explanation_a
+Correct. The deep branch supplies all seven interossei on its way across the palm.
+## answer_b
+Superficial branch of ulnar nerve
+## explanation_b
+The superficial branch supplies palmaris brevis alone.
+## answer_c
+Median nerve . 1 :
+## explanation_c
+The median nerve has no interosseous muscle.
+## answer_d
+Posterior Interosseous nerve
+## explanation_d
+The posterior interosseous nerve supplies the deep extensors of the forearm.
+## correct_answer
+A
+## main_concept
+CON-MSK-24A0858459A59D
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Assign the interossei to the deep branch of the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper MCQ Dr.jalal (1).pdf p54 q14. Manifest src_0f68f0c75a8effe74782.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the one keyed copy of the question gives the superficial branch, which is wrong. The interossei are supplied by the deep branch of the ulnar nerve.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-F24E96AF49C0
+## title
+The lateral cutaneous nerve of the forearm is derived from the: (DEP BOOK) Ac ad Ac ad …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The lateral cutaneous nerve of the forearm is derived from the: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Radial nerve.
+## explanation_a
+The radial nerve gives the posterior cutaneous nerve of the forearm, and the lower lateral cutaneous nerve of the arm. It is the nerve of the back of the limb, not of the lateral forearm.
+## answer_b
+Axillary nerve.
+## explanation_b
+The axillary nerve gives the upper lateral cutaneous nerve of the arm and stops at the shoulder. The similarity of the names is the trap.
+## answer_c
+Musculocutaneous nerve.
+## explanation_c
+Correct. The lateral cutaneous nerve of the forearm is the terminal, purely sensory continuation of the musculocutaneous nerve.
+## answer_d
+Median nerve.
+## explanation_d
+The median nerve gives a palmar cutaneous branch at the wrist and digital branches in the hand; it supplies no skin on the forearm.
+## correct_answer
+C
+## main_concept
+CON-MSK-F125616F7ED37A
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Trace the lateral cutaneous nerve of the forearm back to the musculocutaneous nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p46 q4. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The musculocutaneous nerve pierces the deep fascia about an inch above the elbow at the lateral border of the biceps tendon and continues as the lateral cutaneous nerve of the forearm — the two are the same nerve under two names.
+
+
+---
+
+# Item
+## id
+QM-101-7B43D51D190D
+## title
+The nerve commonly injured after fracture of the surgical neck of the humerus is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The nerve commonly injured after fracture of the surgical neck of the humerus is:
+## answer_a
+Axillary nerve
+## explanation_a
+Correct. The axillary nerve is wrapped round the surgical neck and is torn or stretched when it breaks.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is at the medial epicondyle.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve is at the shaft. It is the answer to the commoner version of this question and the wrong answer to this one.
+## answer_d
+Median nerve
+## explanation_d
+The median nerve is endangered at the elbow, by a supracondylar fracture.
+## correct_answer
+A
+## main_concept
+CON-MSK-EE022A2043C10F
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair the surgical neck of the humerus with the axillary nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Upper Limb] (1).pdf p7 q35. Manifest src_69103a53ec28a93958d5.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-43B9DFC12C21
+## title
+The nerve commonly injured following fracture of the middle of the shaft of y humerus i…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The nerve commonly injured following fracture of the middle of the shaft of y humerus is: (DEP BOOK - 2019) Vi em
+## answer_a
+Axillary nerve
+## explanation_a
+The axillary nerve is at the surgical neck, at the upper end.
+## answer_b
+Ulnar nerve
+## explanation_b
+The ulnar nerve is at the medial epicondyle, at the lower end.
+## answer_c
+Radial nerve. P
+## explanation_c
+Correct. The spiral groove crosses the back of the middle of the shaft and carries the radial nerve against the bone.
+## answer_d
+Median nerve. Vi Acad
+## explanation_d
+The median nerve is not applied to the shaft at any point.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Pair the middle of the shaft of the humerus with the radial nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q12. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-0807E6CD6FEB
+## title
+The nerve that give sensory supply to medial 1/3 of the dorsum of the hand is: (IPKA - …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The nerve that give sensory supply to medial 1/3 of the dorsum of the hand is: (IPKA - 2021)
+## answer_a
+Median nerve
+## explanation_a
+The median nerve reaches the dorsum only over the terminal phalanges of the lateral three and a half fingers.
+## answer_b
+Ulnar nerve
+## explanation_b
+Correct. The dorsal cutaneous branch of the ulnar nerve leaves the nerve above the wrist, passes behind the ulna and supplies the medial third of the back of the hand and the backs of the medial one and a half fingers.
+## answer_c
+Radial nerve
+## explanation_c
+The radial nerve takes the lateral two-thirds — the larger share, and the other one.
+## answer_d
+Musculocutaneous nerve
+## explanation_d
+The musculocutaneous nerve stops at the wrist.
+## correct_answer
+B
+## main_concept
+CON-MSK-37D3C3219F9806
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach the medial third of the dorsum of the hand to the ulnar nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p67 q33. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The dorsum of the hand is divided between the superficial branch of the radial nerve over the lateral two-thirds and the dorsal branch of the ulnar nerve over the medial third.
+
+
+---
+
+# Item
+## id
+QM-101-C2485704D25F
+## title
+The palmaris longus tendon is a useful guide to which nerve at the wrist? (2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmaris longus tendon is a useful guide to which nerve at the wrist? (2022)
+## answer_a
+Median nerve
+## explanation_a
+Correct. The median nerve is directly under the palmaris longus tendon at the wrist, which is why the tendon is used to site a median nerve block and why a wrist laceration in that line cuts the nerve.
+## answer_b
+Anterior interosseous nerve
+## explanation_b
+The anterior interosseous nerve is deep in the forearm on the interosseous membrane and does not reach the wrist superficially.
+## answer_c
+Posterior interosseous nerve
+## explanation_c
+The posterior interosseous nerve is on the back of the forearm.
+## answer_d
+Ulnar nerve
+## explanation_d
+The ulnar nerve is guided by the flexor carpi ulnaris tendon and the pisiform, on the other side of the wrist. Confusing the two tendon landmarks is the point of this option.
+## correct_answer
+A
+## main_concept
+CON-MSK-D81C4A38D695CF
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Use palmaris longus as the surface landmark for the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p66 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the keyed sibling gives the anterior interosseous nerve, which lies deep on the interosseous membrane and is not palpable or visible at the wrist. The median nerve lies immediately deep and slightly lateral to the palmaris longus tendon at the wrist, which is what makes that tendon the landmark for it.
+
+
+---
+
+# Item
+## id
+QM-101-E7AD573B7B43
+## title
+The palmaris longus tendon is a useful guide to which nerve at the wrist? (2021) y
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmaris longus tendon is a useful guide to which nerve at the wrist? (2021) y
+## answer_a
+Median nerve
+## explanation_a
+Correct. The median nerve lies deep to the palmaris longus tendon at the wrist.
+## answer_b
+Anterior interosseous nerve
+## explanation_b
+The anterior interosseous nerve is a deep branch of the median nerve in the forearm and has no surface landmark. It is the printed key here and it is wrong.
+## answer_c
+Posterior interosseous nerve
+## explanation_c
+The posterior interosseous nerve is in the extensor compartment.
+## answer_d
+Ulnar nerve. P
+## explanation_d
+The ulnar nerve is found beside the flexor carpi ulnaris tendon, medially.
+## correct_answer
+A
+## main_concept
+CON-MSK-D81C4A38D695CF
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Use palmaris longus as the surface landmark for the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p53 q24. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the anterior interosseous nerve, and it is wrong: that nerve runs deep on the interosseous membrane with the anterior interosseous artery and is nowhere near a superficial tendon. The nerve palmaris longus points to is the median.
+
+
+---
+
+# Item
+## id
+QM-101-A46EB718CD9C
+## title
+The palmaris longus tendon is a useful guide to which nerve at the wrist?
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The palmaris longus tendon is a useful guide to which nerve at the wrist?
+## answer_a
+anterior interosseous nerve
+## explanation_a
+The anterior interosseous nerve runs deep on the interosseous membrane.
+## answer_b
+posterior interosseous nerve
+## explanation_b
+The posterior interosseous nerve is in the back of the forearm.
+## answer_c
+median nerve
+## explanation_c
+Correct. The median nerve is immediately deep to the palmaris longus tendon, which is why that tendon is the landmark for it.
+## answer_d
+ulnar nerve
+## explanation_d
+The ulnar nerve is guided by the flexor carpi ulnaris tendon and the pisiform.
+## answer_e
+radial nerve
+## explanation_e
+The radial nerve at the wrist is represented only by its superficial branch, on the back of the wrist in the floor of the anatomical snuff box.
+## correct_answer
+C
+## main_concept
+CON-MSK-D81C4A38D695CF
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Use palmaris longus as the surface landmark for the median nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Forearm Quiz (3).pdf p1 q7. Manifest src_6c62090ee8d9969a8c5b.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. This copy prints the options in a different order from its two siblings, so the median nerve is option C here rather than A. The median nerve lies directly deep to the palmaris longus tendon at the wrist.
+
+
+---
+
+# Item
+## id
+QM-101-48CB8D633706
+## title
+The radial nerve consists of the following roots; choose the correct answers:(DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The radial nerve consists of the following roots; choose the correct answers:(DEP BOOK)
+## answer_a
+Nerve roots C6, 7 & 8.
+## explanation_a
+C6 to C8 is neither end of the nerve. It is the printed key and it is wrong.
+## answer_b
+Nerve root C6, 7 & 8.
+## explanation_b
+The same root value as A with "root" in the singular — two printings of one distractor.
+## answer_c
+Nerve roots C5, 6, 7, 8 and T1.
+## explanation_c
+Correct. The radial nerve carries C5, C6, C7, C8 and T1.
+## answer_d
+Nerve roots C5, 6, 7 and 8.
+## explanation_d
+C5 to C8 stops one root short. Dropping T1 is the near miss the examiner is testing for, because it changes which lesions are predicted to affect the nerve.
+## correct_answer
+C
+## main_concept
+CON-MSK-A49B57B03A3610
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State the full root value of the radial nerve, T1 included.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p49 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, "C6, 7 and 8", which drops C5 at one end and T1 at the other. The radial nerve is the continuation of the posterior cord and carries the whole root value of the plexus, C5 to T1. Options A and B print the same root value twice, which is a fault of the item; C remains the only correct option and the item is answerable.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-34AE55B0A0DF
+## title
+The root value of the long thoracic nerve is:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The root value of the long thoracic nerve is:
+## answer_a
+C5
+## explanation_a
+C5 alone is the root value of the dorsal scapular nerve, which is the neighbouring root branch.
+## answer_b
+C6
+## explanation_b
+C6 alone belongs to no named nerve of the plexus.
+## answer_c
+C7
+## explanation_c
+C7 alone is the whole of the middle trunk, not of this nerve.
+## answer_d
+C5, 6 & 7
+## explanation_d
+Correct. C5, C6 and C7 — three roots, which is why the nerve is called long and why it comes off before the trunks form.
+## answer_e
+C5, 6, 7 & 8
+## explanation_e
+C5 to C8 overshoots by a root; the lower trunk contributes nothing to serratus anterior.
+## correct_answer
+D
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State the root value of the long thoracic nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q11. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the one keyed copy of the question gives C6 alone, which is wrong. The long thoracic nerve arises by three roots, from C5, C6 and C7, which is also why it is a root branch rather than a trunk or cord branch.
+
+
+---
+
+# Item
+## id
+QM-101-579E2F665060
+## title
+The root value of the long thoracic nerve is: (IPKA - 2022)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The root value of the long thoracic nerve is: (IPKA - 2022)
+## answer_a
+C5
+## explanation_a
+C5 alone belongs to the dorsal scapular nerve.
+## answer_b
+C6
+## explanation_b
+C6 alone is not the root value of any named branch.
+## answer_c
+C7
+## explanation_c
+C7 alone is the middle trunk.
+## answer_d
+C5,6& 7
+## explanation_d
+Correct. C5, C6 and C7, taken from the roots before the trunks are formed.
+## answer_e
+C5, 6, 7 & 8
+## explanation_e
+C5 to C8 adds a root the nerve does not carry.
+## correct_answer
+D
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State the root value of the long thoracic nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p22 q4. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The long thoracic nerve arises from the roots C5, C6 and C7 of the brachial plexus.
+
+
+---
+
+# Item
+## id
+QM-101-B342163AEBF7
+## title
+The serratus anterior muscle: (DEP BOOK) em em
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The serratus anterior muscle: (DEP BOOK) em em
+## answer_a
+Arises by eight digitations from the lower eight ribs
+## explanation_a
+The digitations are eight but they arise from the upper eight ribs. Getting the number right and the level wrong is what makes this the most-chosen distractor.
+## answer_b
+Is Inserted into the costal aspect of the medial border of scapula
+## explanation_b
+Correct. The insertion runs along the whole costal aspect of the medial border of the scapula, which is why the border wings when the muscle fails.
+## answer_c
+Is Innervated by thoracodorsal nerve. Ac ad
+## explanation_c
+The thoracodorsal nerve is for latissimus dorsi. Serratus anterior takes the long thoracic nerve, which lies on its own outer surface.
+## answer_d
+Is powerful extensor of the shoulder
+## explanation_d
+Serratus anterior protracts and upwardly rotates the scapula; the powerful extensor of the shoulder is latissimus dorsi.
+## correct_answer
+B
+## main_concept
+CON-MSK-24E318F2E3F18E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Give the attachment and the nerve of serratus anterior, and say what it actually does.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p21 q21. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-4F298FF81C48
+## title
+The trapezius muscle is supplied by the:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The trapezius muscle is supplied by the:
+## answer_a
+Cranial accessory nerve
+## explanation_a
+The cranial root of the accessory nerve joins the vagus and is distributed to the muscles of the palate, pharynx and larynx. Naming the right nerve and the wrong root is the whole of this distractor, and the two roots are offered side by side for that reason.
+## answer_b
+Spinal accessory nerve
+## explanation_b
+Correct. The spinal root of the accessory nerve descends into the neck and supplies sternocleidomastoid and then trapezius, which is why a lymph node biopsy in the posterior triangle can drop the shoulder.
+## answer_c
+Long thoracic nerve
+## explanation_c
+The long thoracic nerve supplies serratus anterior.
+## answer_d
+Dorsal scapular nerve
+## explanation_d
+The dorsal scapular nerve supplies the rhomboids and levator scapulae, which lie deep to trapezius and are the muscles most easily confused with it.
+## answer_e
+Thoracodorsal nerve
+## explanation_e
+The thoracodorsal nerve supplies latissimus dorsi.
+## correct_answer
+B
+## main_concept
+CON-MSK-C89FCDA03E8C99
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the nerve of trapezius and say which root of it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Upper Limb Formative Assessment.pdf p2 q12. Manifest src_3bc051c300a8e15045d8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Trapezius is the one muscle acting on the shoulder girdle that is not supplied from the brachial plexus: its motor supply is the spinal root of the accessory nerve, with C3 and C4 carrying sensation.
+
+
+---
+
+# Item
+## id
+QM-101-5C6164657BFF
+## title
+The true statement about posterior compartment of arm is: (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The true statement about posterior compartment of arm is: (DEP BOOK)
+## answer_a
+It receives motor supply from median nerve
+## explanation_a
+The median nerve supplies no muscle in the arm at all, in either compartment.
+## answer_b
+It receives motor supply from radial nerve
+## explanation_b
+Correct. Every head of triceps and anconeus is supplied by the radial nerve, which is the general rule that the posterior cord and its branches serve the extensor side.
+## answer_c
+It contains the musculocutaneous nerve
+## explanation_c
+The musculocutaneous nerve is in the anterior compartment throughout. It is the printed key here and it is wrong — the nerve that traverses the posterior compartment is the radial.
+## answer_d
+It contains the coracobrachialis muscle
+## explanation_d
+Coracobrachialis is an anterior compartment muscle, supplied by the musculocutaneous nerve which pierces it.
+## correct_answer
+B
+## main_concept
+CON-MSK-44131E0EDEACA2
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Say what the posterior compartment of the arm contains and which nerve supplies it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p48 q3. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is C, that the posterior compartment contains the musculocutaneous nerve, which is false: the musculocutaneous nerve pierces coracobrachialis and runs between biceps and brachialis, entirely within the anterior compartment. The posterior compartment contains triceps and anconeus with the radial nerve, and its motor supply is radial.
+
+
+---
+
+# Item
+## id
+QM-101-D4509EA09D8B
+## title
+Thumb action that is totally affected by radial nerve trauma is: (DEP BOOK) Ac ad Ac ad…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Thumb action that is totally affected by radial nerve trauma is: (DEP BOOK) Ac ad Ac ad ad ad
+## answer_a
+Abduction.
+## explanation_a
+Abduction has two muscles from two nerves — abductor pollicis longus from the radial nerve and abductor pollicis brevis from the median — so a radial lesion weakens it without abolishing it. It is the printed key and it is the near miss the word "totally" exists to exclude.
+## answer_b
+Adduction.
+## explanation_b
+Adduction is adductor pollicis, supplied by the deep branch of the ulnar nerve, and survives a radial lesion untouched.
+## answer_c
+Extension.
+## explanation_c
+Correct. Extensor pollicis longus and brevis are the only extensors of the thumb and both are radial, so extension is lost completely — the thumb cannot be lifted out of the palm.
+## answer_d
+Opposition.
+## explanation_d
+Opposition is opponens pollicis, a median muscle, and is unaffected.
+## correct_answer
+C
+## main_concept
+CON-MSK-1FC89E36FFD98E
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Clinical application
+## learning_objective
+Identify the one thumb movement that has no non-radial muscle behind it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p89 q10. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, abduction, which is only partly radial: abductor pollicis longus is radial but abductor pollicis brevis is median, so abduction is weakened rather than abolished. Extension is the movement performed by extensor pollicis longus and extensor pollicis brevis alone, both supplied by the posterior interosseous branch of the radial nerve, so it is the one thumb action a radial lesion takes away totally.
+
+
+---
+
+# Item
+## id
+QM-101-36CFC7922FBD
+## title
+What structure pierces the ﬂexor retinaculum? (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What structure pierces the ﬂexor retinaculum? (2019)
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve crosses superficial to the retinaculum in the canal of Guyon. It is the printed key here, and it contradicts the answer these same books key on their other flexor retinaculum questions.
+## answer_b
+Flexor carpi radialis tendon. P
+## explanation_b
+Correct. The lateral attachment of the retinaculum splits into two layers to enclose the flexor carpi radialis tendon in its own compartment as it runs to the base of the second metacarpal.
+## answer_c
+Palmar cutaneous branch of median nerve
+## explanation_c
+The palmar cutaneous branch of the median nerve passes superficial to the retinaculum, which is why the skin of the palm keeps its sensation in carpal tunnel syndrome.
+## answer_d
+Flexor pollicis longus tendon
+## explanation_d
+Flexor pollicis longus passes deep to the retinaculum in the carpal tunnel, in its own synovial sheath.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the one structure that runs within the substance of the flexor retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q9. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which the same books place superficial to the retinaculum on their own "structures passing superficial to the flexor retinaculum" items — a nerve cannot both cross over the band and pierce it. The structure that runs within the retinaculum is the tendon of flexor carpi radialis, which occupies a compartment formed by a split in its lateral attachment.
+
+
+---
+
+# Item
+## id
+QM-101-CA5DA1746F50
+## title
+What structure pierces the flexor retinaculum? (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+What structure pierces the flexor retinaculum? (2019)
+## answer_a
+Ulnar nerve
+## explanation_a
+The ulnar nerve is superficial to the retinaculum.
+## answer_b
+Flexor carpi radialis tendon
+## explanation_b
+Correct. A split in the lateral attachment of the retinaculum makes a tunnel for the flexor carpi radialis tendon alone.
+## answer_c
+Palmar cutaneous branch of median nerve
+## explanation_c
+The palmar cutaneous branch of the median nerve crosses superficial to it.
+## answer_d
+Flexor pollicis longus tendon
+## explanation_d
+Flexor pollicis longus is inside the carpal tunnel, deep to the retinaculum.
+## correct_answer
+B
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the one structure that runs within the substance of the flexor retinaculum.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p106 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy, and the keyed sibling gives the ulnar nerve, which passes over the retinaculum rather than through it. The tendon of flexor carpi radialis is the structure that runs in a compartment within the retinaculum’s lateral attachment.
+
+
+---
+
+# Item
+## id
+QM-101-A5BDE6CDF916
+## title
+Which nerve arises from a cord of the brachial plexus cords? (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which nerve arises from a cord of the brachial plexus cords? (DEP BOOK)
+## answer_a
+Long thoracic nerve
+## explanation_a
+The long thoracic nerve arises from the roots C5, C6 and C7.
+## answer_b
+Nerve to subclavius
+## explanation_b
+The nerve to subclavius is an upper trunk branch.
+## answer_c
+Suprascapular nerve
+## explanation_c
+The suprascapular nerve is the other upper trunk branch.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+Correct. The thoracodorsal (nerve to latissimus dorsi) comes off the posterior cord.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Upper Limb
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the branches of the roots and trunks from the branches of the cords.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. galal Upper .pdf p40 q3. Manifest src_b7301bfcd7d002317e40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on this copy; the copy asked four times, `which-nerve-arises-from-a-cord-of-the-brachial-plexus-cords-54829706`, is keyed D. The thoracodorsal nerve is a posterior cord branch, while the long thoracic comes from the roots and the nerve to subclavius and the suprascapular nerve from the upper trunk.
+
+
+---
+
+# Item
+## id
+QM-101-9193600C3E57
+## title
+Which nerve arises from one of the brachial plexus cords? (2019)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which nerve arises from one of the brachial plexus cords? (2019)
+## answer_a
+Dorsal scapular nerve
+## explanation_a
+The dorsal scapular nerve comes off the C5 root.
+## answer_b
+Long thoracic nerve. P
+## explanation_b
+The long thoracic nerve is a root branch, which is why it lies on the chest wall rather than travelling with the vessels. It is the printed key here and it is wrong.
+## answer_c
+Suprascapular nerve
+## explanation_c
+The suprascapular nerve is an upper trunk branch.
+## answer_d
+Thoracodorsal nerve
+## explanation_d
+Correct. The thoracodorsal nerve arises from the posterior cord and runs down the posterior wall of the axilla to latissimus dorsi.
+## correct_answer
+D
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Separate the branches of the roots and trunks from the branches of the cords.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p37 q19. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is B, the long thoracic nerve, which arises from the roots C5, C6 and C7 before any trunk exists — it cannot be a cord branch. The thoracodorsal nerve is the only cord branch among the four options, from the posterior cord.
+
+
+---
+
+# Item
+## id
+QM-101-D91F59E51BFF
+## title
+Which of the following muscles is innervated by the ulnar nerve? (2021)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles is innervated by the ulnar nerve? (2021)
+## answer_a
+Flexor pollicis longus
+## explanation_a
+Flexor pollicis longus is a deep flexor of the forearm, supplied by the anterior interosseous branch of the median nerve.
+## answer_b
+Abductor pollicis brevis. P
+## explanation_b
+Abductor pollicis brevis is one of the three thenar muscles, all median.
+## answer_c
+Adductor pollicis
+## explanation_c
+Correct. Adductor pollicis lies in the adductor compartment deep in the palm and is the muscle in which the deep branch of the ulnar nerve terminates. Its loss gives Froment’s sign.
+## answer_d
+Opponens pollicis
+## explanation_d
+Opponens pollicis is thenar and median. The similarity of "adductor" and "abductor" and of the thenar muscles to each other is what this item is testing.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one thumb muscle that is ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q82. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key on either copy. Of the four thumb muscles offered, adductor pollicis is the one supplied by the deep branch of the ulnar nerve; flexor pollicis longus is median through its anterior interosseous branch, and abductor pollicis brevis and opponens pollicis are thenar and median.
+
+
+---
+
+# Item
+## id
+QM-101-D9CB1329B6BE
+## title
+Which of the following muscles is innervated by ulnar nerve:(DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following muscles is innervated by ulnar nerve:(DEP BOOK)
+## answer_a
+Flexor pollicis longus.
+## explanation_a
+Flexor pollicis longus is median, through the anterior interosseous nerve.
+## answer_b
+Abductor pollicis brevis.
+## explanation_b
+Abductor pollicis brevis is thenar and median.
+## answer_c
+Adductor pollicis.
+## explanation_c
+Correct. Adductor pollicis takes the deep branch of the ulnar nerve.
+## answer_d
+Opponens pollicis.
+## explanation_d
+Opponens pollicis is thenar and median.
+## correct_answer
+C
+## main_concept
+CON-MSK-8FB16415EFF905
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Pick the one thumb muscle that is ulnar.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p72 q67. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Adductor pollicis is the one thumb muscle supplied by the ulnar nerve; the other three options are median.
+
+
+---
+
+# Item
+## id
+QM-101-5BBF587D23BA
+## title
+Which of the following nerves supply NO branches to the arm? (2021) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following nerves supply NO branches to the arm? (2021) Ac ad Ac ad ad ad
+## answer_a
+Musculocutaneous and median.
+## explanation_a
+The musculocutaneous nerve supplies three muscles in the arm, so the pair fails on its first member even though the median is right.
+## answer_b
+Radial and ulnar.
+## explanation_b
+The radial nerve supplies triceps in the arm, so this pair fails on its first member.
+## answer_c
+Median and ulnar.
+## explanation_c
+Correct. Median and ulnar are the two through-travellers: both are destined for the forearm and hand and neither gives a branch above the elbow.
+## answer_d
+Median and radial.
+## explanation_d
+The radial nerve supplies triceps, so this pair fails.
+## correct_answer
+C
+## main_concept
+CON-MSK-44131E0EDEACA2
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Name the two nerves that traverse the arm without supplying anything in it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p74 q79. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The median and ulnar nerves both cross the whole arm without giving a single branch — the median gives its first branches in the cubital fossa and the ulnar in the forearm — while the musculocutaneous supplies coracobrachialis, biceps and brachialis and the radial supplies triceps and anconeus.
+
+
+---
+
+# Item
+## id
+QM-101-DEE27C87E82E
+## title
+Which one is a branch of the lateral cord of the brachial plexus? (DEP BOOK)
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one is a branch of the lateral cord of the brachial plexus? (DEP BOOK)
+## answer_a
+Upper subscapular nerve. P Ac ad
+## explanation_a
+The upper subscapular nerve comes from the posterior cord. It is the printed key here and it is wrong, and it inverts the plexus rule that the posterior cord serves the extensor side and the lateral cord the flexor side.
+## answer_b
+Long thoracic nerve
+## explanation_b
+The long thoracic nerve is a root branch.
+## answer_c
+Musculocutaneous nerve
+## explanation_c
+Correct. The musculocutaneous nerve is the lateral cord’s terminal branch and the nerve of the flexor compartment of the arm.
+## answer_d
+Suprascapular nerve
+## explanation_d
+The suprascapular nerve is an upper trunk branch.
+## correct_answer
+C
+## main_concept
+CON-MSK-CF723B5FB24D70
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+List the three branches of the lateral cord.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p36 q11. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the upper subscapular nerve, which is a posterior cord branch to subscapularis. The lateral cord gives the musculocutaneous nerve, the lateral root of the median and the lateral pectoral nerve, and the identically worded keyed copy `which-one-of-the-following-nerves-is-a-branch-of-the-lateral-6d6cb710` gives C.
+
+
+---
+
+# Item
+## id
+QM-101-D23D40272CA3
+## title
+Which one of the following nerves innervates a muscle that abducts shoulder from em em …
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which one of the following nerves innervates a muscle that abducts shoulder from em em em em em 15 to 90 degrees? (DEP BOOK)
+## answer_a
+Radial nerve
+## explanation_a
+The radial nerve supplies triceps and the forearm extensors and abducts nothing. It is the printed key here and it is wrong.
+## answer_b
+Ulnar
+## explanation_b
+The ulnar nerve gives no branch above the elbow.
+## answer_c
+Axillary nerve
+## explanation_c
+Correct. Deltoid carries abduction from fifteen to ninety degrees and is supplied by the axillary nerve.
+## answer_d
+Suprascapular nerve
+## explanation_d
+The suprascapular nerve supplies supraspinatus, which covers the first fifteen degrees — the range immediately below the one the stem names.
+## correct_answer
+C
+## main_concept
+CON-MSK-352E28DEA38DF7
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical application
+## learning_objective
+Attach each range of abduction to its muscle and thence to its nerve.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p33 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the radial nerve, which supplies no muscle that abducts the shoulder. The range from fifteen to ninety degrees belongs to the middle fibres of deltoid, and deltoid is supplied by the axillary nerve; the identically worded copy asked three times is keyed C.
+
+
+---
+
+# Item
+## id
+QM-101-E9BDB3541B96
+## title
+Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad
+## answer_a
+Ulnar nerve.
+## explanation_a
+The ulnar nerve passes over the retinaculum, not under it. It is the printed key here and it is wrong — and it is the error that would make a student expect carpal tunnel syndrome to numb the little finger.
+## answer_b
+Radial artery.
+## explanation_b
+The radial artery crosses the floor of the anatomical snuff box, on the back of the wrist.
+## answer_c
+Median nerve.
+## explanation_c
+Correct. The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.
+## answer_d
+Brachial artery.
+## explanation_d
+The brachial artery ends in the cubital fossa, at the elbow.
+## correct_answer
+C
+## main_concept
+CON-MSK-10423E16E36186
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name what is inside the carpal tunnel.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, which is the one nerve at the wrist that does not enter the tunnel: it crosses superficial to the flexor retinaculum in the canal of Guyon. The structure in the tunnel is the median nerve, with the long flexor tendons.
+
+
+---
+
+# Item
+## id
+QM-101-97E76DA77F91
+## title
+Wrist drop deformity results from injury of which one of the following nerves? (DEP BOO…
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+Wrist drop deformity results from injury of which one of the following nerves? (DEP BOOK – 2022 - 2019)
+## answer_a
+Ulnar nerve. y Vi
+## explanation_a
+The ulnar nerve gives the partial claw hand. It is the printed key here and it is wrong; the ulnar nerve cannot drop a wrist because it holds none of it up.
+## answer_b
+Median nerve
+## explanation_b
+The median nerve is a flexor nerve; cutting it weakens wrist flexion, not extension.
+## answer_c
+Radial nerve
+## explanation_c
+Correct. Extensor carpi radialis longus and brevis and extensor carpi ulnaris are all radial, so a radial lesion above the elbow leaves the wrist hanging.
+## answer_d
+Axillary nerve. P
+## explanation_d
+The axillary nerve ends at the shoulder.
+## answer_e
+Musculocutaneous nerve. Vi
+## explanation_e
+The musculocutaneous nerve flexes the elbow and supplies nothing below it but skin.
+## correct_answer
+C
+## main_concept
+CON-MSK-712EBE5936F7E4
+## library_ids
+ART-101-ANA-RADIAL-NERVE
+## topic
+Nerve Supply of Upper Limb & Nerve Injuries
+## subtopic
+Nerve Supply of Upper Limb & Nerve Injuries
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Upper Limb > Nerve Supply of Upper Limb & Nerve Injuries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+Attach wrist drop to the radial nerve and to no other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p88 q7. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key is A, the ulnar nerve, and it is wrong: the ulnar nerve supplies no extensor of the wrist or fingers. The copy asked five times, `wrist-drop-deformity-results-from-injury-of-which-one-of-the-37f02343`, is keyed C, and the radial nerve is the nerve of every wrist extensor.
+
+
+---
+
+# Item
+## id
+QM-101-329B5CBFE849
+## title
+Desmin intermediate filaments are present:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Desmin intermediate filaments are present:
+## answer_a
+In hair
+## explanation_a
+Hair is keratin. Picked because both are tough structural proteins, but keratin is the epithelial filament and desmin is not found in hair at all.
+## answer_b
+In muscle to join the myofibrils
+## explanation_b
+Correct. Desmin is the intermediate filament of muscle, and it ties neighbouring myofibrils to each other at the Z line so the whole cell shortens as one.
+## answer_c
+In neurons
+## explanation_c
+Neurons carry neurofilaments. The four options here are the four tissue-specific filaments, and each question in this set moves the same list on by one.
+## answer_d
+In glial tissue
+## explanation_d
+Glial cells carry glial fibrillary acidic protein, which is the filament a pathologist stains to prove a brain tumour is glial.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Histology-general
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach desmin to muscle and say what it holds together there.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q40; Cytology | Module 101 questions.pdf.pdf p28 q40. Manifest src_bb081b0479f7a33666cd, src_d1414701d8fcb55932b6.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-426A18CA196E
+## title
+Neural tube gives rise to
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Neural tube gives rise to
+## answer_a
+Peripheral nerves
+## explanation_a
+Peripheral nerves grow from cells of the neural crest and from motor cells whose axons leave the cord; the tube itself does not become them. Picked because nerve and cord look continuous in a dissection.
+## answer_b
+Sensory, sympathetic and parasympathetic ganglia
+## explanation_b
+All three ganglia are neural crest derivatives, which is the single most examined fact in this pair. The crest separates from the folds as they fuse and migrates away; the tube stays behind.
+## answer_c
+Suprarenal medulla
+## explanation_c
+The suprarenal medulla is also neural crest — its chromaffin cells are modified postganglionic sympathetic neurons, which is why it secretes adrenaline on sympathetic command.
+## answer_d
+Central nervous system
+## explanation_d
+Correct. The neural tube becomes the brain and the spinal cord, and therefore the central nervous system entire.
+## correct_answer
+D
+## main_concept
+CON-DEV-785CE84F7C03DB
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Embryology
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Give the neural tube its one derivative and hand the rest to the neural crest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p6 q38; Anatomy MCQ Book [2025] [first priority].pdf p92 q38. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-C8A5E8E1320D
+## title
+One of the following is a derivative of intra-embryonic mesoderm
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a derivative of intra-embryonic mesoderm
+## answer_a
+Lining epithelium of intestine
+## explanation_a
+The lining epithelium of the intestine is endoderm. Its muscle and connective tissue coats are splanchnopleuric mesoderm, and the question asks about the lining, which is the distinction being tested.
+## answer_b
+Urogenital system
+## explanation_b
+Correct. The intermediate mesoderm, the middle of the three divisions, forms the urogenital system — kidney, ureter and gonad.
+## answer_c
+Central nervous system
+## explanation_c
+The central nervous system is ectoderm, by way of the neural tube. Chosen because the notochord that induces it is mesodermal, but the induced tissue keeps its own layer.
+## answer_d
+Connecting stalk
+## explanation_d
+The connecting stalk is extra-embryonic mesoderm, outside the embryo proper and destined for the umbilical cord. The stem says intra-embryonic, and that word is the whole question.
+## correct_answer
+B
+## main_concept
+CON-DEV-2E3E3098D90C0C
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Embryology
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Assign each offered structure to its germ layer and pick the mesodermal one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Embryo] (1).pdf p8 q50; Anatomy MCQ Book [2025] [first priority].pdf p94 q50. Manifest src_12d639a625d8305c4454, src_764a2521809818b8abdc.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Only the urogenital system is mesodermal — it comes from the intermediate mesoderm. The intestinal lining is endodermal, the central nervous system ectodermal, and the connecting stalk extra-embryonic rather than intra-embryonic mesoderm.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-5B1AB42137EF
+## title
+Keratin filaments are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Keratin filaments are present in:
+## answer_a
+Epithelial cells and form hair
+## explanation_a
+Correct. Cytokeratin is the intermediate filament of epithelial cells, and hair and nail are the keratinised products of epidermal epithelium.
+## answer_b
+Connective tissue
+## explanation_b
+Connective tissue carries vimentin. The two are the pair a pathologist uses to tell a carcinoma from a sarcoma, so swapping them reverses the diagnosis.
+## answer_c
+Neurons
+## explanation_c
+Neurons carry neurofilaments, not keratin.
+## answer_d
+Glial tissue
+## explanation_d
+Glial cells carry glial fibrillary acidic protein, not keratin.
+## correct_answer
+A
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Cytology
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach cytokeratin to epithelium and to the keratinised structures epithelium makes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p28 q38. Manifest src_d1414701d8fcb55932b6.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-206603A87BD2
+## title
+Neurofilaments are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Neurofilaments are present in:
+## answer_a
+Epidermis & hair.
+## explanation_a
+Epidermis and hair carry cytokeratin. Chosen when the four options of this recurring set are answered in the wrong order.
+## answer_b
+C.T.
+## explanation_b
+Connective tissue carries vimentin.
+## answer_c
+Neurons.
+## explanation_c
+Correct. Neurofilaments are the intermediate filament of the neuron, running the length of the axon and supporting it.
+## answer_d
+Glial tissue.
+## explanation_d
+The nearest miss, and the one worth knowing: glial tissue has its own intermediate filament, glial fibrillary acidic protein, distinct from the neurofilaments of the neuron it supports. That distinctness is what makes the stain diagnostic.
+## correct_answer
+C
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Histology-general
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach neurofilaments to the neuron and not to the glia beside it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p5 q39. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. The name is the answer: neurofilaments are the intermediate filament of neurons, and the other three options carry keratin, vimentin and glial fibrillary acidic protein respectively.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-101-745A910FD0DD
+## title
+Sensory, sympathetic and parasympathetic ganglia are developed from (DEP BOOK)
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Sensory, sympathetic and parasympathetic ganglia are developed from (DEP BOOK)
+## answer_a
+Neural crest
+## explanation_a
+Correct. Cells at the crest of the fusing neural folds separate and migrate to form the sensory, sympathetic and parasympathetic ganglia, along with the Schwann cells, the melanocytes and the suprarenal medulla.
+## answer_b
+Neural tube. P
+## explanation_b
+The neural tube gives the central nervous system only. Picked because the ganglia lie so close to the cord and because tube and crest arise in one movement.
+## answer_c
+Surface ectoderm
+## explanation_c
+Surface ectoderm forms the epidermis, and the printed key names it here — evidently carried over from the "epidermis of skin is derived from" question that follows it in these books.
+## answer_d
+Intraembryonic mesoderm
+## explanation_d
+Intra-embryonic mesoderm forms bone, muscle and the urogenital system, no nervous tissue at all. Nervous tissue is ectodermal throughout.
+## correct_answer
+A
+## main_concept
+CON-DEV-785CE84F7C03DB
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Nervous system
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Give the peripheral ganglia to the neural crest.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p123 q13. Manifest src_08bc782553366518791e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The book prints C, surface ectoderm, which is what forms the epidermis and is the key belonging to the neighbouring question on that page. All three ganglia are neural crest derivatives, and the book's own list of ectodermal derivatives puts them under "derivatives of the neural crest".
+
+
+---
+
+# Item
+## id
+QM-101-8A2BABF9F8F5
+## title
+The segments of the spinal cord are:
+## subject
+msk
+## status
+Draft
+## format
+single_best_answer
+## question
+The segments of the spinal cord are:
+## answer_a
+8 cervical, 10 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_a
+Ten thoracic segments, when there are twelve. Picked by students who half-remember the count and correct the wrong number: it is the cervical eight that is the odd one, not the thoracic twelve.
+## answer_b
+10 cervical, 12 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_b
+Ten cervical segments, when there are eight. Chosen by rounding the odd number to a tidier one.
+## answer_c
+8 cervical, 12 thoracic, 5 lumbar, one sacral and one coccygeal
+## explanation_c
+One sacral segment, when there are five. The sacral segments matter: the parasympathetic nuclei of the lateral horn sit in the second, third and fourth of them.
+## answer_d
+8 cervical, 12 thoracic, 5 lumbar, 5 sacral and one coccygeal
+## explanation_d
+Correct. Eight cervical, twelve thoracic, five lumbar, five sacral and one coccygeal — thirty-one segments and therefore thirty-one pairs of spinal nerves.
+## correct_answer
+D
+## main_concept
+CON-MSK-59F41C4BAF6181
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Basis
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall
+## learning_objective
+Give the number of spinal cord segments in each region.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Anatomy Question [Basis] (1).pdf p9 q51. Manifest src_51fef9b6234c5d381f59.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-101-E54615D0A4F5
+## title
+Vimentin intermediate filaments are present in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Vimentin intermediate filaments are present in:
+## answer_a
+Hair
+## explanation_a
+Hair is keratin, the epithelial filament.
+## answer_b
+C.T. & muscle
+## explanation_b
+Correct. Vimentin is the intermediate filament of mesenchymal tissue — connective tissue and muscle — which is why a vimentin-positive tumour is a sarcoma rather than a carcinoma.
+## answer_c
+Neurons
+## explanation_c
+Neurons carry neurofilaments.
+## answer_d
+Glial tissue
+## explanation_d
+Glial tissue carries glial fibrillary acidic protein. Muscle appears in both the vimentin and the desmin answers of this set, and that is not an error: muscle carries vimentin as a mesenchymal tissue and desmin as its own specialised filament.
+## correct_answer
+B
+## main_concept
+CON-FND-6268E97A4A9F26
+## library_ids
+ART-101-ANA-NERVOUS-SYSTEM
+## topic
+Histology-general
+## subtopic
+Nervous system
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > Basis of Anatomy > Nervous system
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attach vimentin to connective tissue and muscle, and say why muscle appears in two answers of this set.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p4 q37. Manifest src_bb081b0479f7a33666cd.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The source printed no key. Vimentin is the intermediate filament of connective tissue and of muscle, which is exactly what B states; the other three options name the tissues of keratin, neurofilaments and glial fibrillary acidic protein.
+3 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
 

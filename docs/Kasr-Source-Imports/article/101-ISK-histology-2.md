@@ -81,6 +81,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M02
+## related_concepts
+CON-HEM-1935D59A1D2839 | CON-HEM-4F5347CC3664E0
 ## related_articles
 ART-101-HIS-HAEMOPOIESIS: The reticulocyte that replaces a lost red corpuscle, and the marrow that makes it, are described there.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The cell coat and the cytoskeleton this article relies on are set out in the cytology chapter, and the red corpuscle is the book's own worked example of both.
@@ -235,13 +237,16 @@ The book names spherocytes as an abnormal shape and actin and spectrin as the cy
 No numerical value is given for the erythrocyte sedimentation rate, nor for the osmotic fragility test, although both are named.
 The book gives no figure for the newborn red corpuscle count, saying only that the count is highest in the newborn and falls gradually.
 The book does not say how much of the 120-day life span is spent where, nor at what rate corpuscles are replaced.
+The department book does not describe what a blood film looks like as a field — a monolayer dominated by red corpuscles with occasional leucocytes and platelets between them. It describes the preparation, and it describes each cell. The field description in Key determinants is assembled from the practical book's own plates, on every one of which a red corpuscle, a leucocyte and a platelet are arrowed in the same picture, rather than quoted from a sentence in either source.
 No independent citation has been attached to any figure in this article. Every number is traceable to the department book only, which is a single source.
 ## evidence_basis
 Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Faculty of Medicine, Cairo University, Part I Histology, chapter III "Blood", section on Red Blood Corpuscles, printed pages 26-28, including the page 28 table "Adaptation of RBCs To Perform Their Functions". Extracted to scripts/kasr/extract/deptbook.json.
+The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a6584b4b), catalogued in scripts/kasr/extract/practical.json — the marked plate and facing answer page for the Leishman blood film carrying a neutrophil, a platelet, a red corpuscle with central pallor and a crenated corpuscle (p. 90), and the further Leishman films on pages 92 to 106, every one of which opens with the same two-part stem and arrows a red corpuscle with central pallor.
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf yet. None is invented here, and none of the existing concepts is claimed as taught by this article when it is not.
+relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf. The two now listed are the identification concepts from ../concept/101-ISK-practical-concepts.md whose module subject path is this leaf, and both are taught above — the blood film and Leishman's stain in Definition and Key determinants, and the corpuscle's non-nucleated acidophilic disc with its central pallor, against the crenated corpuscle, in Definition, Key determinants and Common misconceptions.
+practicalIdentification: The description of the blood film as a field is assembled from the practical plates rather than quoted from either source, and it is recorded in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
 microtopic: No microtopic level exists beneath this node.
@@ -249,6 +254,8 @@ nanotopic: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The question books ask for the molecular cause of hereditary spherocytosis (a spectrin gene defect) and for an acid–base buffering function. Neither is in this chapter, and neither is taught here. Both are recorded as evidence gaps for a faculty reviewer to rule on.
 ## notes
+Extended to close the practical gap on this leaf: two identification concepts sat here with no article claiming them, and the article already taught the substance of both — the Leishman preparation with its two dyes and its fixative, the corpuscle's acidophilia, its non-nucleated state, the pale central third, and crenation in a hypertonic medium. What it did not carry was the shape of the question. The department asks the preparation and the stain before it asks about any cell, and it arrows a normal and a crenated corpuscle on the same field, so the plate convention is written down here rather than left for a student to meet cold at the bench.
+
 The book teaches this chapter as a table of factor against adaptation, and the question books test the pairing rather than the list, so the Mechanism section is organised as three factors with two adaptations each rather than as prose about function.
 
 ---
