@@ -37,12 +37,37 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BANK = os.path.join(HERE, "mcq-bank.json")
 PAGETEXT = os.path.join(HERE, "pagetext")
 
-# The watermark. It is "ViP Academy" set rotated across the page, and pdftotext
-# lays its glyphs down wherever they fall — so it arrives not as one token but
-# as fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`, sometimes split across two
-# lines mid-word. Matched only as whole tokens, so a real word ending in "ad"
-# survives.
-WATERMARK = re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])")
+# Watermarks are a property of a PUBLISHER, not of the format.
+#
+# 101's question books are watermarked "ViP Academy", set rotated across the
+# page, and `pdftotext` lays its glyphs down wherever they fall — so it arrives
+# not as one token but as fragments: `Vi`, `P`, `Ac`, `ad`, `y`, `em`,
+# sometimes split across two lines mid-word. Stripping those recovers 505
+# options here.
+#
+# Applied to a corpus that is NOT watermarked, the same list is destructive and
+# silent:
+#
+#   "It is initiated by the P wave of the ECG"  ->  "the  wave of the ECG"
+#   "The normal P50 for human is 27 mmHg"       ->  "The normal 50 for human"
+#   "The y descent follows the v wave"          ->  "The  descent follows"
+#
+# Each still parses, still reads as English, and is now wrong — and the damage
+# is indistinguishable from a source that never said it. A parallel module
+# measured 146 fragment matches across 46 sources and not one real watermark
+# token: `P` was the P wave, P50 and PaO2; `y` was the y descent.
+#
+# So it is a per-corpus table, and `None` is a real value meaning "this corpus
+# has no watermark; pass every line through untouched". A corpus not listed
+# here gets `None`, because assuming a watermark that is not there deletes
+# content while assuming none that is there merely fails to recover it. The
+# first is silent and the second is visible in the option counts.
+WATERMARKS: dict[str, "re.Pattern[str] | None"] = {
+    # Kasr Al Ainy 101 ISK: ViP Academy, rotated overlay.
+    "101 ISK": re.compile(r"(?<![A-Za-z])(?:ViP|VIP|Vi|Ac|AC|ad|AD|em|[Py])(?![A-Za-z])"),
+}
+
+DEFAULT_MODULE = "101 ISK"
 
 # `a- text`, `a. text`, `a) text`, with any indent.
 #
@@ -105,13 +130,19 @@ def resolve(found):
     return out
 
 
-def clean(line):
-    """A line with the watermark taken out, or None if that is all it was."""
-    stripped = WATERMARK.sub(" ", line)
+def clean(line, watermark=None):
+    """A line with the watermark taken out, or None if that is all it was.
+
+    With no watermark for this corpus the line is returned untouched, which is
+    the whole point of the table above: the default must be to change nothing.
+    """
+    if watermark is None:
+        return line if line.strip() else None
+    stripped = watermark.sub(" ", line)
     return stripped if stripped.strip() else None
 
 
-def options_after(lines, start, stop_number):
+def options_after(lines, start, stop_number, watermark=None):
     """Read the options following a stem, tolerating watermark gaps.
 
     Stops at the next question number rather than at the first blank line, which
@@ -121,7 +152,7 @@ def options_after(lines, start, stop_number):
     found = []
     for raw in lines[start:]:
         for piece in split_inline(raw).split("\n"):
-            line = clean(piece)
+            line = clean(piece, watermark)
             if line is None:
                 continue
 
@@ -185,6 +216,30 @@ def self_test():
     print(f"{'PASS' if ok else 'FAIL'}  a repeated letter does not overwrite the first")
     failed += 0 if ok else 1
 
+    # A corpus with no watermark profile must come through untouched. This is
+    # the destructive case: `P` and `y` are the P wave and the y descent, and
+    # stripping them leaves a sentence that still parses, still reads as
+    # English, and is now wrong — with nothing to distinguish the damage from a
+    # source that never said it.
+    medical = [
+        "It is initiated by the P wave of the ECG",
+        "d- The normal P50 for human is 27 mmHg",
+        "The y descent follows the v wave",
+        "a- P-wave.",
+        "PaO2 and PaCO2 are measured on the same sample",
+    ]
+    for line in medical:
+        got = clean(line, WATERMARKS.get("no-such-module"))
+        ok = got == line
+        print(f"{'PASS' if ok else 'FAIL'}  untouched with no profile: {line[:44]!r}")
+        failed += 0 if ok else 1
+
+    # And with 101's profile it still does its job on 101's own text.
+    got = clean("Vi    a- Subclavian vein.", WATERMARKS["101 ISK"])
+    ok = got is not None and got.strip().startswith("a- Subclavian")
+    print(f"{'PASS' if ok else 'FAIL'}  101's profile still strips its own watermark")
+    failed += 0 if ok else 1
+
     return failed
 
 
@@ -192,6 +247,12 @@ def main():
     if "--self-test" in sys.argv:
         sys.exit(1 if self_test() else 0)
     dry = "--dry-run" in sys.argv
+    module = DEFAULT_MODULE
+    if "--module" in sys.argv:
+        module = sys.argv[sys.argv.index("--module") + 1]
+    if module not in WATERMARKS:
+        print(f"no watermark profile for {module!r}; lines pass through untouched", file=sys.stderr)
+    watermark = WATERMARKS.get(module)
     bank = json.load(open(BANK))
     cache = {}
 
@@ -225,12 +286,12 @@ def main():
 
             # Find this question's number on the page, then read past it.
             for position, raw in enumerate(lines):
-                line = clean(raw)
+                line = clean(raw, watermark)
                 if not line:
                     continue
                 number = NUMBER.match(line)
                 if number and int(number.group(1)) == where["number"]:
-                    found = options_after(lines, position + 1, where["number"] + 1)
+                    found = options_after(lines, position + 1, where["number"] + 1, watermark)
                     if len([v for v in found.values() if v.strip()]) > len([v for v in best.values() if v and v.strip()]):
                         best = found
                     break

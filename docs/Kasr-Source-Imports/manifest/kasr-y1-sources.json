@@ -4,7 +4,7 @@
  "universityId": "kau",
  "yearId": "KAU_Y1",
  "corpusRoot": "/Users/doitrous/Desktop/Kasr Alainy",
- "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.\n\nThree 101 ISK rows were corrected by reading the paper rather than the filename: two exam years (src_ce4292e31edea7517e7b 2023->2022, src_9487fd713153c573087f 2021->2020) and one solved flag (src_9e6aad6c6af097e473d6). Each carries a `correction` field saying what was read and where. A regeneration that derives the year from the filename will silently undo these, so it must preserve any row carrying `correction`.",
+ "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.\n\nThree 101 ISK rows were corrected by reading the paper rather than the filename: two exam years (src_ce4292e31edea7517e7b 2023->2022, src_9487fd713153c573087f 2021->2020) and one solved flag (src_9e6aad6c6af097e473d6); one mis-categorised row (src_415d10984252678d4a7a, all-MCQ filed as Written Questions); two rows carrying a subject this module does not teach; and one row whose printed module code and content disagree (src_9487fd713153c573087f), recorded as `moduleConflict` rather than resolved. Each carries a `correction` field saying what was read and where. A regeneration that derives the year from the filename will silently undo these, so it must preserve any row carrying `correction`.",
  "moduleSubjectDeclarations": [
   {
    "moduleId": "101 ISK",
@@ -1219,7 +1219,7 @@
    "sourceCategory": "EOM",
    "instructor": null,
    "crossModulePractical": false,
-   "subject": "Biochemistry",
+   "subject": null,
    "examType": "EOM",
    "bookKind": null,
    "sourceTier": 2,
@@ -1240,7 +1240,7 @@
    "textLayer": "none",
    "processingStatus": "ocr_required",
    "extractionDisposition": null,
-   "correction": "Filename says \"Answers\" and the manifest recorded it solved; the paper carries no answers. It is the unsolved copy of the same 18/12/2021 sitting as src_17bf088a37f1ab6540a3, which is the solved one. Answer keys on these papers are pink highlights and hand-circles, never text, so a text-layer test cannot see them either way."
+   "correction": "Filename says \"Answers\" and the manifest recorded it solved; the paper carries no answers. It is the unsolved copy of the same 18/12/2021 sitting as src_17bf088a37f1ab6540a3, which is the solved one. Answer keys on these papers are pink highlights and hand-circles, never text, so a text-layer test cannot see them either way. Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed."
   },
   {
    "sourceId": "src_16f747e1171423933757",
@@ -1331,7 +1331,7 @@
    "sourceCategory": "EOM",
    "instructor": null,
    "crossModulePractical": false,
-   "subject": "Biochemistry",
+   "subject": null,
    "examType": "EOM",
    "bookKind": null,
    "sourceTier": 2,
@@ -1351,7 +1351,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed."
   },
   {
    "sourceId": "src_9487fd713153c573087f",
@@ -1373,7 +1374,7 @@
    "bookKind": null,
    "sourceTier": 2,
    "folderPriorityLabel": null,
-   "examSitting": "second",
+   "examSitting": null,
    "rawYearCode": null,
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": 2021,
@@ -1389,7 +1390,8 @@
    "textLayer": "none",
    "processingStatus": "ocr_required",
    "extractionDisposition": null,
-   "correction": "The filename says 2021 and the cover says 24/12/2020, Module INT-101, Total Marks 24, 48 MCQs. Read from the rendered cover — the file has no text layer."
+   "correction": "The filename says 2021 and the cover says 24/12/2020, Module INT-101, Total Marks 24, 48 MCQs. Read from the rendered cover — the file has no text layer.",
+   "moduleConflict": "The cover reads \"END Module: INT-101\" where every 101 ISK end-of-module paper reads \"Module Code: ISK-101\", and its shape — 48 MCQs, 24 marks, 6 pages — is nothing like the 120-MCQ, 72-mark, 11-page shape of the 101 ISK papers. But its questions are histology and cytology (iron haematoxylin, mitochondria, centrioles), which is 101 ISK material and not 102 INT material. Code and content disagree, so the row is left under 101 ISK with the disagreement recorded rather than moved on one of the two. A faculty reader should settle it. It also carried examSitting \"second\" while the filename says \"first\"."
   },
   {
    "sourceId": "src_e2593cfba37af83a33ad",
@@ -3018,7 +3020,7 @@
    "moduleId": "101 ISK",
    "secondaryModule": null,
    "moduleSubjectPath": null,
-   "sourceCategory": "Written Questions",
+   "sourceCategory": "Instructor material",
    "instructor": null,
    "crossModulePractical": false,
    "subject": "Anatomy",
@@ -3026,7 +3028,7 @@
    "bookKind": null,
    "sourceTier": 5,
    "folderPriorityLabel": null,
-   "examSitting": "second",
+   "examSitting": null,
    "rawYearCode": null,
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": null,
@@ -3041,7 +3043,8 @@
    "pageCount": 10,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Was sourceCategory \"Written Questions\" on a file that is entirely multiple choice — 10 scanned pages, answers circled by hand. Also carried examSitting \"second\" on a formative that has no sitting. Its first 15 questions are the same items as src_3bc051c300a8e15045d8, which is the clean 2-page digital original; take the stems from that and the answers from this."
   },
   {
    "sourceId": "src_3bd5aa772ae6988961e2",
