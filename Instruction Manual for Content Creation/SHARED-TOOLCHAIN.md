@@ -2498,3 +2498,65 @@ own harness."*
 
 **Verify the harness before you believe the result it reports** — a green from a broken harness
 and a green from a clean run are the same three characters.
+
+---
+
+## A run-on can vacate a printed number and shift a key lookup by one row
+
+**A verified false statement marked correct**, in a shared bank of 1,102 items that three
+modules draw on:
+
+```
+MCQ-102-2093c80b-p39-q26   "After release from the neuromuscular junction, acetylcholine:"
+  bank says   correct: "c"   correctSource: "printed key (p44 of 2093c80b)"
+  option c    "Enters the sarcoplasmic reticulum"     <- false
+  option b    "Causes postsynaptic depolarization"    <- correct
+```
+
+**The cause generalises.** The item is printed question **27**. Printed **26** was swallowed
+into option d of the previous item — one of the bank's own `option ran on` flags. With 26
+vacated, the extractor labelled the next question 26, looked up key row 26, and got `c`. The
+visible symptom is the printed sequence jumping **26 → 28**.
+
+> **A run-on does not only damage the item it lands in. It can vacate a printed number** — and
+> anything assigning numbers sequentially rather than reading them off the page will then
+> silently shift a key lookup by one row.
+
+**Eleven items across the bank carry that flag.** Only this one is confirmed — numbering
+resumes correctly at 28, so it is not systematic — but the other ten sit in two lanes' slices
+and nobody has checked them.
+
+**Actionable: verify the item immediately after each run-on against the printed key, not
+against the bank's `printedNumber`.**
+
+### A swallowed key table is worth more than a swallowed question
+
+How it became provable rather than suspected: one run-on swallowed not a question but the
+chapter's **entire printed answer-key table**. Read as a key, it gave a **second independent
+reading of all 56 answers** — agreeing on every other row and disagreeing on this one.
+
+**Two independent readings of the same key is what turns a suspicion into a finding.** Look for
+a swallowed key table before treating a run-on as pure damage.
+
+### A flag naming an uncertain item beats a silent best guess
+
+Worth recording as vindication of a practice, not just a defect. The bank's `suspect` flags are
+what made all of this findable: across four slices they yielded **seven printed questions the
+extraction had lost**, plus the key defect above. It is why one lane authored **398 items
+against a 391-item bank with zero unauthored and zero duplicate keys.**
+
+And the extraction holds up: **353 keys present, 38 null, all 38 recovered from printed key
+pages with zero disagreements** against the keys it did report. **One defect in 1,102 is a good
+result and should be said alongside the finding.**
+
+### Do not mix batch kinds in one `--with` invocation
+
+**It collapses the resolution universe.** Adding evidence files to a question run produced **94
+and 101 phantom `is not a concept that exists` errors — including for live records.** Per-kind
+invocation returns zero.
+
+Any lane debugging a whole-module simulate should know that some of what it reports is **that**,
+not a defect in its batches.
+
+*(Correction to an earlier note: `modulePathGuess` is **null on all 391 items**, not
+populated-but-unreliable.)*
