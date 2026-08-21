@@ -554,3 +554,42 @@ family has no such check — treat that field as unreliable and route work by `m
 One lane's solved and unsolved 2025 papers are **byte-identical under `pdftotext` across all
 15 pages**, yet the solved one has every correct option highlighted in pink. **Any lane whose
 past-paper extraction reports zero answers should check the render before believing it.**
+
+### Two different mints — do not confuse them
+
+The warning above is about **`tools/mint-concept-id.mjs`** and about **records already in the
+live graph**. It does **not** apply to concepts this pipeline generates.
+
+`scripts/kasr/seeds/types.ts:mintConceptId` is `sha256("kau:<module>:" + canonical_key)`,
+first 14 hex, behind `CON-<SYS>-`. It is a **pure function of the canonical key**, so two
+sessions minting a concept for the same material produce the **same ID by construction**.
+Measured across the 101 concept batches on `main`: **0 keys with more than one ID, 0 IDs
+shared by more than one key.**
+
+Two keys deliberately appear in two batch files — `platelet-hyalomere-structure-function`
+and `elbow-joint-type-bones-ligaments`. Same key, same ID, so importing the second is an
+**update** to the first rather than a duplicate. That is the designed reuse path.
+
+| | applies to | risk |
+|---|---|---|
+| `tools/mint-concept-id.mjs` | a record already in the live graph | mints a rival and prints `ok` |
+| `seeds/types.ts:mintConceptId` | concepts this pipeline generates | none — deterministic on the key |
+
+One narrow exception: the hash ignores `subject`, which only selects the `CON-<SYS>-`
+prefix. So the *same key under two different subjects* yields the same hash behind two
+prefixes. Two lanes that disagree about a concept's subject still diverge — **agree the
+subject, and the key takes care of itself.**
+
+### Generated files are the wrong thing to conflict over
+
+When two lanes conflict on a generated batch, **discard both sides and regenerate from the
+union of the seeds.** The seeds are the source; the batch is output. Resolving the batch
+by hand picks a winner and loses the other side's work.
+
+Done once already on the 101 MCQ batches: the regenerated result validated at 0 errors, and
+four concepts came back carrying occurrences from **more than one sitting** — which is the
+occurrence dedup working, and is only visible *because* both lanes' seeds were present.
+Hand-resolving would have hidden it.
+
+Corollary: **never hand-edit a generated batch.** The edit is lost on the next build, and
+silently.
