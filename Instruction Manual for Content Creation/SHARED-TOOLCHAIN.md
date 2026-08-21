@@ -1544,3 +1544,40 @@ incomplete, and the validator is reporting that accurately.
 **Deleting real content to make a check green is worse than the red check** — and where the
 batch is generated, the seeds regenerate it anyway. Finish the articles; do not withdraw the
 questions.
+
+### Authoring the articles is necessary and not sufficient
+
+Closing `no library_ids` / `main concept … not covered` takes **three** steps, and only the
+first is obvious. Every lane authoring questions needs all three.
+
+**1. Write the articles.** Necessary. Not enough on its own.
+
+**2. Get the mapping to the generator.** `writtenBlock` **omits `library_ids` entirely** when
+the article lookup returns undefined — so articles can exist and the generated batch still
+carries zero of them. The route is `loadLinks(module)` →
+`scripts/kasr/extract/<slug>/article-plan.json`, and **that file does not exist for any module
+yet.**
+
+Generate it **from the article batch itself**, from each article's own `related_concepts`,
+rather than typing the mapping twice — then the plan and the articles cannot drift. One lane's
+is 13 entries and 22 concept links, derived that way.
+
+**3. Create resource records for the papers being cited.** A question citing the paper it came
+from needs that paper to exist as a **resource record**, not only as a manifest row. Otherwise:
+`resource_ids src_… is not a resource that exists`. Eight records closed the last 15 errors in
+one lane. **No claim row anywhere mentions this step.**
+
+### `source_relative_path` comes from the corpus index, not the manifest row
+
+Stated as the rule rather than the workaround, because the reason generalises:
+
+> **The corpus index holds one path per content-addressed ID by construction, so it agrees with
+> the validator automatically. The manifest holds one row per *path* and cannot.**
+
+The predicted failure fired exactly as expected — a generator took the path from the manifest
+row, picked the `… (2) copy.pdf` of a duplicate pair, and got:
+
+```
+src_078450096f7b08eb1284 is "y1/104 CPS/EOY/EOY Final 104, 199 (2).pdf" in the corpus,
+not "y1/104 CPS/EOY/EOY Final 104, 199 (2) copy.pdf"
+```
