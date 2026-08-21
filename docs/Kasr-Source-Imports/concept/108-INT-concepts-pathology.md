@@ -126,7 +126,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-1712C0F57AAD45
 CON-FND-0BE3CE88A36BB5
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -149,7 +149,7 @@ KAU_Y1=0.1
 ## exam_signal
 src_e294bafc730fe7111b06 | department_book | 2026 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-PATH-SCOPE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -194,10 +194,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The book's front matter has one level-2 heading only, "General classification of diseases", which is a separate concept; there is no third level to name here.
 nanotopicId: As above — the module subject tree has no node below this one.
-resourceIds: The Kasr manifest sources are checksummed and real, but corpus-source-index.json holds only corpus/01-explicitly-taught/ sources, so naming src_e294bafc730fe7111b06 here would fail the corpus check. The citation is on exam_signal and in the article's source_citation instead.
 approvedFileResourceIds: No file resource has been rights-cleared for this module; the department book carries no licence statement.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT — the manifest holds only PDFs.
-atomicClaimIds: No evidence pass has been run for 108 INT, so no claim exists that asserts this. Searched the live claim store for "pathology", "general pathology" and "systemic pathology" and found nothing that makes this assertion. Left blank under LD-14 (MASTER-PLAN.md:117) rather than attaching a near-miss claim to clear the validator.
 resourceOccurrenceIds: Hand-authored from the department book; this concept has no corpus extraction record.
 sourceCandidateIds: Searched the corpus concept index for "pathology" and "disease process" — the index is not present beside this batch and no candidate record exists for this module.
 mergeIds: Nothing has been merged into this concept.
@@ -271,7 +269,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-E9DDE81591D0A7
 CON-FND-0BE3CE88A36BB5
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -294,7 +292,7 @@ KAU_Y1=0.12
 ## exam_signal
 src_e294bafc730fe7111b06 | department_book | 2026 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-PATH-DISEASE-HEADINGS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -339,10 +337,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The book's front matter carries no heading below this list; the six headings are the content of the concept, not a tree level.
 nanotopicId: As above — nothing exists below.
-resourceIds: As on CON-FND-E9DDE81591D0A7 — the Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "etiology", "pathogenesis" and "prognosis" — nothing asserts this six-part scheme. Left blank under LD-14 rather than attaching a near-miss.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "pathogenesis" and "etiology" — the index is absent beside this batch and no candidate exists.
 mergeIds: Nothing has been merged into this concept.
@@ -414,7 +410,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-E9DDE81591D0A7
 CON-FND-1712C0F57AAD45
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -437,7 +433,7 @@ KAU_Y1=0.12
 ## exam_signal
 src_e294bafc730fe7111b06 | department_book | 2026 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-PATH-DISEASE-CLASSIFICATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -481,10 +477,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "General classification of diseases", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Introduction to Pathology > General classification of diseases) carries the curriculum position instead.
 nanotopicId: "General classification of diseases" is the deepest node the module subject tree carries here; there is nothing below it.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "congenital" and "classification of disease" — nothing asserts this scheme. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "congenital" and "acquired disease" — no candidate record exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -559,7 +553,7 @@ CON-FND-DF726F864C8BC3
 CON-FND-2DDF56DA42A0A8
 CON-FND-8989A49BEBCF14
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -584,7 +578,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p3 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CELL-STRESS-OUTCOMES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -629,10 +623,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Effects of cell injury stimuli", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Effects of cell injury stimuli) carries the curriculum position instead.
 nanotopicId: "Effects of cell injury stimuli" is the deepest node the module subject tree carries under this chapter heading.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check. exam_signal carries the provenance.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "cell injury", "adaptation" and "homeostasis" — the nearest, CLM-IMM-* on apoptosis, asserts something else. Left blank under LD-14 rather than attaching a near-miss to clear the validator.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "cell injury" and "reversible injury" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -708,7 +700,7 @@ ART-108-PAT-PATHOLOGICAL-PIGMENTS
 CON-FND-D53E254A82F334
 CON-FND-063F60318B4D20
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -732,7 +724,7 @@ KAU_Y1=0.2
 src_e294bafc730fe7111b06 | department_book | 2026 | p3 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CELL-ADAPTATION-FORMS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -774,10 +766,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Effects of cell injury stimuli", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Effects of cell injury stimuli) carries the curriculum position instead.
 nanotopicId: The module subject tree stops at "Effects of cell injury stimuli"; the four adaptations are the content of this record, not tree nodes.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "hypertrophy", "hyperplasia", "atrophy" and "metaplasia" — the only atrophy claim is CLM-DER on age-related elastic-fibre loss, which is a dermatology observation and not this classification. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "adaptation" and "metaplasia" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -852,7 +842,7 @@ CON-FND-D53E254A82F334
 CON-FND-375B9454502DE8
 CON-FND-5285A9707E61CA
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -877,7 +867,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p4 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p8 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HYPOXIA-CAUSES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -921,10 +911,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Causes of cell injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Causes of cell injury) carries the curriculum position instead.
 nanotopicId: "Causes of cell injury" is the deepest node the module subject tree carries; the seven causes are the content of this record.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "hypoxia", "ischemia" and "cell injury" — the hypoxia claims are respiratory-physiology statements about anaemic and stagnant hypoxia, not about cell injury. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "hypoxia" and "causes of cell injury" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -998,7 +986,7 @@ CON-FND-8989A49BEBCF14
 CON-FND-2126819970522D
 CON-FND-2DDF56DA42A0A8
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1022,7 +1010,7 @@ KAU_Y1=0.4
 src_e294bafc730fe7111b06 | department_book | 2026 | p4 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-ATP-DEPLETION-EFFECTS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1067,10 +1055,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Mechanisms of cell injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Mechanisms of cell injury) carries the curriculum position instead.
 nanotopicId: "Mechanisms of cell injury" is the deepest node the module subject tree carries; the three mechanisms are the content of this and the two records beside it.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "ATP", "sodium pump" and "oxidative phosphorylation" — the ATP hits are muscle-fatigue claims, which assert something else. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "ATP depletion" and "sodium pump" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1145,7 +1131,7 @@ CON-FND-2126819970522D
 CON-FND-375B9454502DE8
 CON-FND-2A370D3EF3EDCF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1170,7 +1156,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p4 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-OXIDATIVE-STRESS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1214,10 +1200,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Mechanisms of cell injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Mechanisms of cell injury) carries the curriculum position instead.
 nanotopicId: "Mechanisms of cell injury" is the deepest node the module subject tree carries here.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "free radical", "reactive oxygen" and "oxidative" — the one hit, on chronic granulomatous disease, asserts an immune killing defect. Left blank under LD-14 rather than attaching it.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "free radical" and "oxidative stress" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1291,7 +1275,7 @@ CON-FND-7B96FFE8FC4285
 CON-FND-375B9454502DE8
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1316,7 +1300,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p5 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-REPERFUSION-FREE-RADICALS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1361,10 +1345,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Mechanisms of cell injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Mechanisms of cell injury) carries the curriculum position instead.
 nanotopicId: "Mechanisms of cell injury" is the deepest node the module subject tree carries here.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "reperfusion", "lysosom" and "phospholipase" — the one lysosome claim describes phagolysosome formation, an immune process. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "reperfusion" and "membrane disruption" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1440,7 +1422,7 @@ CON-FND-375B9454502DE8
 CON-FND-D53E254A82F334
 CON-FND-3B89025E2FB4E0
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1465,7 +1447,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p5 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-REVERSIBLE-INJURY-MORPHOLOGY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1511,10 +1493,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Morphologic Alternations in Cell Injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Morphologic Alternations in Cell Injury > Reversible Injury (degeneration)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Reversible Injury (degeneration)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Morphologic Alternations in Cell Injury > Reversible Injury (degeneration)) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "cloudy swelling", "hydropic" and "reversible injury" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "cloudy swelling" and "hydropic degeneration" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1589,7 +1569,7 @@ CON-FND-8DA30AD870AC1E
 CON-FND-2CDE9A5C884133
 CON-FND-33466CEBFC4EBA
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1615,7 +1595,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p7 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-NECROSIS-DEFINITION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1660,10 +1640,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis) carries the curriculum position instead.
 nanotopicId: "Necrosis" is the level the module subject tree carries here; its only child, "Types of necrosis", is the parent of the five type records rather than a node for this definition.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "necrosis" and "cell death" — the four hits are systemic observations (tumour necrosis in an endocrine mass, tubular necrosis in malaria, epithelial necrosis in respiratory infection). None defines necrosis. Left blank under LD-14 rather than attaching a near-miss.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "necrosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1740,7 +1718,7 @@ CON-FND-4CD77608FB35DF
 CON-FND-5285A9707E61CA
 CON-FND-46B3AD5A2D8294
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1765,7 +1743,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p6 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-NECROSIS-MORPHOLOGY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1811,10 +1789,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis) carries the curriculum position instead.
 nanotopicId: The module subject tree stops at "Necrosis" for the general morphology; the nuclear changes are the content of this record.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "karyolysis", "pyknosis" and "karyorrhexis" — zero hits; the "karyo" matches in live state are all megakaryocyte and eukaryotic claims. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "pyknosis" and "karyorrhexis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -1890,7 +1866,7 @@ CON-FND-88508ABAB84A67
 CON-FND-8DA30AD870AC1E
 CON-FND-8989A49BEBCF14
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -1916,7 +1892,7 @@ src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p7 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-COAGULATIVE-NECROSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1960,10 +1936,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Types of necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Coagulative necrosis (ischemic necrosis)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Coagulative necrosis (ischemic necrosis)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Coagulative necrosis (ischemic necrosis)) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's renal-infarct plate is requested as media on the necrosis article instead.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "coagulative", "infarct" and "ischemic necrosis" — the one infarct claim, CLM-CVS on coronary occlusion, asserts a cause of myocardial infarction rather than the morphology of coagulative necrosis. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "coagulative necrosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2037,7 +2011,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-5285A9707E61CA
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2062,7 +2036,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p7 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-LIQUEFACTIVE-NECROSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2105,10 +2079,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Types of necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Liquefactive or colliquative necrosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Liquefactive or colliquative necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Liquefactive or colliquative necrosis) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "liquefactive", "colliquative" and "abscess" — the abscess hits are lung and breast conditions in systemic pathology. Left blank under LD-14 rather than attaching one.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "liquefactive necrosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2182,7 +2154,7 @@ CON-FND-5285A9707E61CA
 CON-FND-33466CEBFC4EBA
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2207,7 +2179,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p7 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CASEATION-NECROSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2252,10 +2224,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Types of necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Caseation necrosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Caseation necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Caseation necrosis) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "caseation", "caseous" and "tuberculosis" — the seven tuberculosis claims describe the disease and its spread, not the type of necrosis by definition. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "caseation" and "caseous necrosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2332,7 +2302,7 @@ CON-FND-3B89025E2FB4E0
 CON-FND-33466CEBFC4EBA
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2358,7 +2328,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p7 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-FAT-NECROSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2403,10 +2373,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Types of necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Fat necrosis) carries the curriculum position instead.
 nanotopicId: The module subject tree prints this leaf as "Fat necrosis"; the department book's own heading is "4. Fat necrosis is of two types", which is what the microtopic-level extraction recorded.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The book's own Figure (1.1) of mesenteric fat necrosis is inside a copyrighted PDF and is requested as media on the article instead.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "fat necrosis", "lipase" and "pancreatitis" — the two pancreatitis claims are about enzyme autodigestion and plasma amylase, neither of which asserts the morphology of fat necrosis. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "fat necrosis" and "calcium soaps" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2479,7 +2447,7 @@ ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 CON-FND-5CB8B822A9A6AF
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2504,7 +2472,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p7 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-FIBRINOID-NECROSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2549,10 +2517,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Types of necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Fibrinoid necrosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Fibrinoid necrosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Fibrinoid necrosis) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "fibrinoid", "rheumatoid" and "polyarteritis" — zero hits for fibrinoid, and the rheumatoid hits are immunology claims about autoantibodies. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "fibrinoid necrosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2626,7 +2592,7 @@ CON-FND-2CDE9A5C884133
 CON-FND-46B3AD5A2D8294
 CON-FND-C6661CBD045436
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2652,7 +2618,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-APOPTOSIS-DEFINITION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2697,10 +2663,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis) carries the curriculum position instead.
 nanotopicId: "Apoptosis" is the level the module subject tree carries for the definition; its three children are causes, morphology and control, each its own record.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The book's Figure 1.2, "Morphology of apoptosis", sits in a copyrighted PDF and is requested as media on the article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Two live claims mention apoptosis (CLM-IMM-7EC2CFBC19A9E9 and CLM-IMM-8BBDB99CE5FD3C); both are immunology assertions about cytotoxic T-cell killing, and neither asserts that apoptosis is energy dependent or that it provokes no inflammation. Left blank under LD-14 rather than attaching a near-miss to clear the validator.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "apoptosis" and "programmed cell death" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2774,7 +2738,7 @@ ART-108-PAT-NECROSIS
 CON-FND-11D3CBC654E7F3
 CON-FND-46B3AD5A2D8294
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2800,7 +2764,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p3 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-APOPTOSIS-CONTROL-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2845,10 +2809,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Control of apoptosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Control of apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Control of apoptosis) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "caspase", "bcl2" and "bcl-2" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "caspase" and "apoptosis control" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -2921,7 +2883,7 @@ ART-108-PAT-AMYLOIDOSIS
 CON-FND-11D3CBC654E7F3
 CON-FND-D955408D228002
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -2946,7 +2908,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p8 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p3 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-APOPTOSIS-CAUSES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2989,10 +2951,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Causes of apoptosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Causes of apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Causes of apoptosis) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "apoptosis", "embryogenesis" and "involution" — the two apoptosis claims are cytotoxic-T-cell mechanism statements and assert nothing about physiological causes. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "causes of apoptosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3067,7 +3027,7 @@ CON-FND-8DA30AD870AC1E
 CON-FND-2CDE9A5C884133
 CON-FND-C6661CBD045436
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3092,7 +3052,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p8 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-APOPTOSIS-MORPHOLOGY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3136,10 +3096,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Apoptosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Morphological changes) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Morphological changes", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Apoptosis > Morphological changes) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-IMM-7EC2CFBC19A9E9 asserts cellular shrinkage, which is one of the four features here, but it asserts it as part of a cytotoxic-killing claim and says nothing about blebs, apoptotic bodies or their removal. Attaching it would be borrowing a claim that supports a quarter of the record. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "apoptotic bodies" and "membrane blebs" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3213,7 +3171,7 @@ CON-FND-11D3CBC654E7F3
 CON-FND-46B3AD5A2D8294
 CON-FND-8DA30AD870AC1E
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3239,7 +3197,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_3f8527b376185eb3c2eb | department_questions | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-NECROSIS-VS-APOPTOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3284,10 +3242,8 @@ drafted_not_reviewed
 ## field_notes
 microtopicId: The microtopic column carries "Morphologic Alternations in Cell Injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Morphologic Alternations in Cell Injury > Irreversible Injury) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Irreversible Injury", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Cellular Response to Injury > Morphologic Alternations in Cell Injury > Irreversible Injury) carries the curriculum position instead.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. A comparison table is requested as media on the apoptosis article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT, and this record is assembled from two separate passages of the book rather than one, so even a claim on either half would not support it. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "necrosis versus apoptosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3360,7 +3316,7 @@ CON-FND-3B89025E2FB4E0
 CON-FND-2D8B89A2F75643
 CON-FND-57B12823E95B52
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3384,7 +3340,7 @@ KAU_Y1=0.45
 src_e294bafc730fe7111b06 | department_book | 2026 | p10 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-INTRACELLULAR-ACCUMULATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3430,10 +3386,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Intracellular Accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for intracellular accumulations or extracellular deposits — `accumul`, `deposit`, `calcif`, `amyloid`, `hyalin`, `xanthom` and `glycogen` all return zero across all 1,883 nodes in all four views, and SYS-FND-T03 holds only Cell injury and adaptation, Inflammation and repair, and Neoplasia. This concept is the general classification of intracellular accumulations, the opening of the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node because these are reversible cellular changes; it is not where this belongs, and no node ID was invented to fix that.
 nanotopicId: "Intracellular Accumulations" is the level the module subject tree carries for the general classification; its children are the individual substances, each its own record.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "accumulation", "storage disease" and "antitrypsin" — the four accumulation hits are hepatic-lipid and breast-adipose claims, none of which is this classification. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "intracellular accumulation" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3508,7 +3462,7 @@ CON-FND-A0BC07E35554B1
 CON-FND-70554B38361679
 CON-FND-2DDF56DA42A0A8
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3533,7 +3487,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p11 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p6 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-STEATOSIS-DEFINITION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3579,10 +3533,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Lipids intracellular accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Steatosis (Fatty Change)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits; this concept is the definition and causes of steatosis, from the book's chapter 2. SYS-FND-T03-S01-M01 "Reversible injury" is the nearest defensible existing node, and it is defensible here because the book itself lists fatty change among the morphologies of reversible injury in chapter 1 and states that steatosis is typically reversible. It is still not a node for accumulations. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-GIT-2D2709CD4D9A17 asserts that fatty liver is abnormal extensive hepatic lipid accumulation — close, but it is a biochemistry claim about the liver only, where this record is the general-pathology definition across parenchymal cells and carries the reversibility and the causes. Attaching it would be the near-miss trade the manual warns against. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "steatosis" and "fatty change" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3653,7 +3605,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-3B89025E2FB4E0
 CON-FND-70554B38361679
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3677,7 +3629,7 @@ KAU_Y1=0.5
 src_e294bafc730fe7111b06 | department_book | 2026 | p11 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HEPATIC-STEATOSIS-PATHOGENESIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3722,10 +3674,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Lipids intracellular accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Steatosis (Fatty Change)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits; this concept is the pathogenesis of hepatic steatosis, from the book's chapter 2. SYS-FND-T03-S01-M01 "Reversible injury" is the nearest defensible existing node because the lesion is reversible. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-GIT-5E17AE710409A4 and CLM-GIT-ADAE9B3037FA58 each assert one route to fatty liver, but neither asserts the four-route scheme this record is tested on, and neither names hypoxia or corticosteroids. Left blank under LD-14 rather than attaching a claim that covers a quarter of the record.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "pathogenesis of fatty liver" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3800,7 +3750,7 @@ CON-FND-3B89025E2FB4E0
 CON-FND-4354823564BAB3
 CON-FND-A0BC07E35554B1
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3826,7 +3776,7 @@ src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p1 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p6 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-FATTY-LIVER-MORPHOLOGY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3872,10 +3822,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Lipids intracellular accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Steatosis (Fatty Change)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits; this concept is the gross and microscopic morphology of hepatic steatosis, from the book's chapter 2 and the practical book's slide 9 and specimen D105-2. SYS-FND-T03-S01-M01 "Reversible injury" is the nearest defensible existing node. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check. The practical book, src_a2ffe25e8362fe840ceb, carries the slide and the museum specimen and is named on exam_signal twice, once for each.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. A liver-steatosis micrograph and a gross slice are requested as media on the accumulations article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "signet ring", "fatty liver" and "steatosis" — the hepatic claims are metabolic and none describes the morphology. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book and the practical book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "signet ring" and "fatty liver morphology" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -3949,7 +3897,7 @@ CON-FND-3B89025E2FB4E0
 CON-FND-70554B38361679
 CON-FND-063F60318B4D20
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -3974,7 +3922,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p5 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p10 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-MYOCARDIAL-FATTY-CHANGE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4019,10 +3967,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Lipids intracellular accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Steatosis (Fatty Change)", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits; this concept is myocardial fatty change and the tabby cat specimen, from the book's chapters 1 and 2 and the practical book. SYS-FND-T03-S01-M01 "Reversible injury" is the nearest defensible existing node. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The tabby cat gross specimen is requested as media on the accumulations article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "tabby cat", "fatty heart" and "myocardial fatty" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "tabby cat" and "fatty change of the heart" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4097,7 +4043,7 @@ CON-FND-0A32C902A825AA
 CON-FND-3B89025E2FB4E0
 CON-FND-33466CEBFC4EBA
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4122,7 +4068,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p11 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p3 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CHOLESTEROL-ACCUMULATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4169,10 +4115,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Lipids intracellular accumulations", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Cholesterol & Cholesterol Esters) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Cholesterol & Cholesterol Esters", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Cholesterol & Cholesterol Esters) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits; this concept is cholesterol accumulation in atheroma and xanthoma, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "cholesterol", "xanthoma" and "foam cell" — zero xanthoma hits, and the two cholesterol hits are a lipid-profile composition claim and a corpus-luteum colour claim. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "xanthoma" and "cholesterol clefts" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4250,7 +4194,7 @@ CON-FND-BA0739479AD0FC
 CON-FND-D955408D228002
 CON-FND-0A32C902A825AA
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4276,7 +4220,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p3 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p6 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HYALINE-CHANGE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4322,10 +4266,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Hyaline Change", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Hyaline Change) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits — `hyalin` returns zero across all 1,883 canonical nodes. This concept is hyaline change, from the book's chapter 2. SYS-FND-T03-S01-M01 "Reversible injury" is the nearest defensible existing node, and the book itself calls hyaline change a descriptive term rather than a marker of injury, so even that placement overstates it. No node ID was invented.
 nanotopicId: "Hyaline Change" is the deepest node the module subject tree carries; the six examples are the content of this record.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's splenic hyalinosis slide is requested as media on the accumulations article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "hyaline", "Russell body" and "Mallory" — the one hyaline hit is a meningioma psammoma-body claim. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "hyaline change" and "Russell bodies" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4398,7 +4340,7 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION
 CON-FND-0A32C902A825AA
 CON-FND-3B89025E2FB4E0
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4422,7 +4364,7 @@ KAU_Y1=0.3
 src_e294bafc730fe7111b06 | department_book | 2026 | p12 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p1 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-GLYCOGEN-ACCUMULATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4465,10 +4407,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Glycogen", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Glycogen) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits — `glycogen` returns zero across all 1,883 canonical nodes. This concept is pathological glycogen accumulation, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node. No node ID was invented.
 nanotopicId: "Glycogen" is the deepest node the module subject tree carries here.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "glycogen" — the seven hits are muscle and hepatic metabolic claims about glycogenolysis and storage in health, none about pathological accumulation. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "glycogen storage disease" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4543,7 +4483,7 @@ CON-FND-0A32C902A825AA
 CON-FND-2A370D3EF3EDCF
 CON-FND-AA9A76DBB4EE6B
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4567,7 +4507,7 @@ KAU_Y1=0.55
 src_e294bafc730fe7111b06 | department_book | 2026 | p12 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-ANTHRACOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4612,10 +4552,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Exogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Exogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Exogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits — `pigment`, `accumul` and `deposit` all return zero across all 1,883 canonical nodes. This concept is exogenous carbon pigment and anthracosis, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node; the pigment is not an injury at all until the fibroblastic reaction starts, so even that placement is a stretch. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "anthracosis", "carbon" and "pneumoconiosis" — zero anthracosis hits; every "carbon" hit is carbon dioxide carriage or carbon monoxide poisoning, a different molecule. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "anthracosis" and "carbon pigment" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4689,7 +4627,7 @@ CON-FND-063F60318B4D20
 CON-FND-7B96FFE8FC4285
 CON-FND-5DBC795B58DC74
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4713,7 +4651,7 @@ KAU_Y1=0.55
 src_e294bafc730fe7111b06 | department_book | 2026 | p12 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-LIPOFUSCIN-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4758,10 +4696,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations and deposits. This concept is lipofuscin, an endogenous pigment, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node, and it is a poor fit precisely because the book insists lipofuscin is not injurious. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "lipofuscin", "lipochrome" and "wear and tear" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "lipofuscin" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4836,7 +4772,7 @@ CON-FND-2A370D3EF3EDCF
 CON-FND-DF726F864C8BC3
 CON-FND-4354823564BAB3
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -4861,7 +4797,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p13 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p10 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-BROWN-ATROPHY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4907,10 +4843,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest, but the least stretched of the chapter 2 records. Atrophy is genuinely one of the four adaptations the canonical node SYS-FND-T03-S01-M04 covers, and this lesion is an atrophy — so the placement is defensible for half the concept. The other half, the excess lipofuscin that makes it brown and gives it its name, is a pigment accumulation, and the canonical tree has no node for pigments or accumulations anywhere in its 1,883 nodes. Flagged with the other chapter 2 records so a reviewer walking the mis-homed set sees this one too. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's specimen C18-1 is requested as media on the pigments article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "brown atrophy", "senile atrophy" and "atrophy" — the one atrophy claim, CLM-DER-3076014D01EA15, is about skin elastic fibres. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "brown atrophy" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -4987,7 +4921,7 @@ CON-FND-57B12823E95B52
 CON-FND-2A370D3EF3EDCF
 CON-FND-B9A3C8B28B1443
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5011,7 +4945,7 @@ KAU_Y1=0.6
 src_e294bafc730fe7111b06 | department_book | 2026 | p13 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-MELANIN-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5059,10 +4993,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations or pigments. This concept is melanin and the causes of hyperpigmentation, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node; increased melanin is not a cell injury at all, so the fit is poor. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-DER-6665EA8EA687C3 asserts that albinism is absent melanin from a tyrosinase defect — the same enzyme, the opposite direction, and it makes no claim about the causes of hyperpigmentation. Left blank under LD-14 rather than attaching it.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "melanin" and "hyperpigmentation" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5139,7 +5071,7 @@ CON-FND-B9A3C8B28B1443
 CON-FND-C96C66BC1A17DF
 CON-FND-2A370D3EF3EDCF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5165,7 +5097,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p8 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p8 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HEMOSIDERIN-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5211,10 +5143,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations or pigments. This concept is haemosiderin and haemosiderosis, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node; the book says the deposit usually does no harm, so calling it a cell injury overstates it. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's Prussian blue plate is requested as media on the pigments article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "hemosiderin", "haemosiderin", "ferritin" and "Prussian blue" — zero hits for any of them. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "hemosiderin" and "iron overload" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5289,7 +5219,7 @@ ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 CON-FND-5DBC795B58DC74
 CON-FND-AA9A76DBB4EE6B
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5314,7 +5244,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p14 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p8 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HAEMOCHROMATOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5360,10 +5290,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations or pigments, and `hemochromat` returns zero across all 1,883 canonical nodes. This concept is primary haemochromatosis and bronze diabetes, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node; a genetic iron-overload disease is not a reversible cell injury and the fit is poor. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's Prussian blue hepatic haemochromatosis plate is requested as media on the pigments article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "hemochromatosis", "bronze diabetes" and "iron overload" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "hemochromatosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5435,7 +5363,7 @@ ART-108-PAT-INTRACELLULAR-ACCUMULATIONS
 CON-FND-5DBC795B58DC74
 CON-FND-57B12823E95B52
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5459,7 +5387,7 @@ KAU_Y1=0.5
 src_e294bafc730fe7111b06 | department_book | 2026 | p15 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HEMOZOIN-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5503,10 +5431,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Endogenous Pigments", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical tree has no node for cellular accumulations or pigments. This concept is hemozoin, an endogenous pigment, from the book's chapter 2. SYS-FND-T03-S01-M01 is the nearest defensible existing node; a parasite's waste product taken up by macrophages is not a cell injury. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-INF-76B90F4D91B733 asserts that growing malaria trophozoites produce hemozoin pigment — a genuine overlap on the origin of the pigment, but it asserts nothing about the Prussian blue reaction, bilharziasis or the macrophage uptake this record is tested on. Left blank under LD-14 rather than attaching a partial support.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "hemozoin" and "malaria pigment" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5581,7 +5507,7 @@ CON-FND-87392C49DB246C
 CON-FND-718662116D90C4
 CON-FND-4CD77608FB35DF
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5607,7 +5533,7 @@ src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p8 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-DYSTROPHIC-CALCIFICATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5654,10 +5580,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological Calcification", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Dystrophic calcification) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Dystrophic calcification", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Dystrophic calcification) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for pathological calcification anywhere — `calcif` returns zero across all 1,883 nodes in all four views. This concept is dystrophic calcification, the book's chapter 2 heading PATHOLOGICAL CALCIFICATION. It is placed at the section node SYS-FND-T03-S01 "Cell injury and adaptation" rather than a microtopic beneath it, because calcification in damaged tissue is neither reversible injury nor necrosis nor apoptosis nor an adaptation, and forcing it into one of the four would be a worse claim than the section itself. No node ID was invented; SYS-FND-T03-S04 does not exist and is not written here.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The practical book's dystrophic calcification slide and its calcified fibroma specimen are requested as media on the calcification article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "calcification", "dystrophic" and "calcium salts" — the one calcification claim is an ultrasound acoustic-shadowing statement. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "dystrophic calcification" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5730,7 +5654,7 @@ ART-108-PAT-AMYLOIDOSIS
 CON-FND-33466CEBFC4EBA
 CON-FND-718662116D90C4
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5755,7 +5679,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p16 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-METASTATIC-CALCIFICATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5803,10 +5727,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological Calcification", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Metastatic calcification) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Metastatic calcification", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Metastatic calcification) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for pathological calcification — `calcif` returns zero across all 1,883 nodes. This concept is metastatic calcification, from the book's chapter 2. It is placed at the section node SYS-FND-T03-S01 because the tissue receiving the calcium is viable, so none of the four microtopics beneath — reversible injury, necrosis, apoptosis, adaptation — describes it at all. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-END-D6A4BA9B54463D asserts that hypercalcaemia is the biochemical hallmark of primary hyperparathyroidism — one cause of one item on this list, and an endocrinology claim about diagnosis rather than about calcium deposition. Left blank under LD-14 rather than attaching it.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "metastatic calcification" and "nephrocalcinosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -5879,7 +5801,7 @@ ART-108-PAT-NECROSIS
 CON-FND-33466CEBFC4EBA
 CON-FND-87392C49DB246C
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -5904,7 +5826,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p16 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 src_a2ffe25e8362fe840ceb | department_book | 2026 | p8 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CALCIFICATION-MORPHOLOGY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5950,10 +5872,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological Calcification", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for pathological calcification — `calcif` returns zero across all 1,883 nodes. This concept is the comparison of dystrophic and metastatic calcification, from the book's chapter 2. Placed at SYS-FND-T03-S01, the section node, for the same reason as the two records it compares. No node ID was invented.
 nanotopicId: The comparison spans both of the module subject tree's children under Pathological Calcification, so it sits at their parent rather than under either.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "calcification" and "basophilic" — nothing asserts the morphological identity of the two forms. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department and practical books; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "calcification morphology" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6028,7 +5948,7 @@ CON-FND-8151AE03EA25C5
 CON-FND-4867DD3814D088
 CON-FND-A40D59DAB245EA
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6053,7 +5973,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p16 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-AMYLOID-DEFINITION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6098,10 +6018,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathogenesis of amyloidosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Pathogenesis of amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathogenesis of amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis or for extracellular deposits — `amyloid` and `deposit` both return zero across all 1,883 nodes in all four views, and SYS-FND-T03 holds only cell injury, inflammation and neoplasia. This concept is the definition and pathogenesis of amyloid, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 because amyloid is an extracellular deposit and none of that section's four microtopics — reversible injury, necrosis, apoptosis, adaptation — describes it. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-NEU-7AE49F0DB2D418 "Amyloid is AB protein" is the only live amyloid claim; it asserts the protein of cerebral amyloid, not the configuration or the deposition sites this record defines, and taken as general it would be wrong. Left blank under LD-14 rather than attaching it.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "amyloid" and "beta pleated" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6178,7 +6096,7 @@ CON-FND-D955408D228002
 CON-FND-E3F496F6DDD7C3
 CON-FND-42A1BD1A1DAAE6
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6202,7 +6120,7 @@ KAU_Y1=0.75
 src_e294bafc730fe7111b06 | department_book | 2026 | p17 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-AMYLOID-PROTEIN-TYPES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6247,10 +6165,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Types of amyloid protein) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Types of amyloid protein", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Types of amyloid protein) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis anywhere — `amyloid` returns zero across all 1,883 nodes. This concept is the classification of amyloid fibril proteins, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 for the same reason as the other amyloid records: it is an extracellular deposit and no microtopic beneath that section describes one. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "AL amyloid", "AA protein" and "serum amyloid" — the only amyloid claim names AB protein, a third form this record does not classify. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "amyloid light chain" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6327,7 +6243,7 @@ CON-FND-8151AE03EA25C5
 CON-FND-42A1BD1A1DAAE6
 CON-FND-699152CE450385
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6352,7 +6268,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p17 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p2 | 108 INT
 src_3deab75f7f81cc5f5260 | end_of_year | 2024 | p5 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-SYSTEMIC-AMYLOIDOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6399,10 +6315,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Systemic amyloidosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Systemic amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Systemic amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes. This concept is the aetiological classification of systemic amyloidosis, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01; none of its four microtopics describes an extracellular protein deposit. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "amyloidosis", "myeloma" and "bronchiectasis" — the myeloma hits are haematology claims about the tumour, none about amyloid. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "systemic amyloidosis" and "reactive amyloidosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6478,7 +6392,7 @@ CON-FND-E3F496F6DDD7C3
 CON-FND-8151AE03EA25C5
 CON-FND-D955408D228002
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6502,7 +6416,7 @@ KAU_Y1=0.7
 src_e294bafc730fe7111b06 | department_book | 2026 | p18 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p8 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-LOCALIZED-AMYLOIDOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6547,10 +6461,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Localized amyloidosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Localized amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Localized amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes. This concept is localised amyloidosis and its examples, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. CLM-NEU-7AE49F0DB2D418 "Amyloid is AB protein" does support the cerebral clause of this record, and it is the closest a live claim comes to supporting anything in this batch. It is still a claim scoped to Alzheimer disease, supporting one of four examples, and attaching it would misrepresent the record as evidenced. Left blank under LD-14, and the concept it belongs to is cross-linked instead.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "localized amyloidosis" and "cerebral amyloid" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6626,7 +6538,7 @@ CON-FND-D955408D228002
 CON-FND-A69F39242D6698
 CON-FND-699152CE450385
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6650,7 +6562,7 @@ KAU_Y1=0.7
 src_e294bafc730fe7111b06 | department_book | 2026 | p18 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p3 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CONGO-RED-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6696,10 +6608,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Staining characteristics of amyloid) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Staining characteristics of amyloid", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Staining characteristics of amyloid) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis or for staining technique in general pathology — `amyloid` returns zero across all 1,883 nodes. This concept is the staining characteristics of amyloid, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. A Congo red polarised-light plate is requested as media on the amyloidosis article; the book's own Figure (2.2) shows one and sits in a copyrighted PDF.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "Congo red", "birefringence" and "metachromatic" — zero hits for the first two, and the metachromasia hits are haematology claims about basophil granules and toluidine blue. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "Congo red" and "apple green birefringence" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6774,7 +6684,7 @@ CON-FND-E3F496F6DDD7C3
 CON-FND-4867DD3814D088
 CON-FND-A69F39242D6698
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6798,7 +6708,7 @@ KAU_Y1=0.65
 src_e294bafc730fe7111b06 | department_book | 2026 | p19 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-RENAL-AMYLOIDOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6844,10 +6754,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological changes in different organs in amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathological changes in different organs in amyloidosis > Kidney amyloidosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Kidney amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathological changes in different organs in amyloidosis > Kidney amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes, and the systems view's renal topic covers renal disease rather than a deposit that reaches the kidney from a systemic process. This concept is renal amyloidosis, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 with the other amyloid records so the set stays together. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The book's Figure (2.2), amyloid in glomeruli with a Congo red polarised-light panel, is requested as media on the amyloidosis article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "amyloid kidney", "proteinuria" and "glomerular basement membrane" — nothing asserts amyloid deposition in the glomerulus. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "renal amyloidosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -6923,7 +6831,7 @@ CON-FND-E3F496F6DDD7C3
 CON-FND-70554B38361679
 CON-FND-13BFC600597FD6
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -6948,7 +6856,7 @@ src_e294bafc730fe7111b06 | department_book | 2026 | p18 | 108 INT
 src_e294bafc730fe7111b06 | department_book | 2026 | p20 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-HEPATIC-SPLENIC-AMYLOIDOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -6994,10 +6902,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological changes in different organs in amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathological changes in different organs in amyloidosis > Liver amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes. This concept is hepatic and splenic amyloidosis, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 with the other amyloid records. No node ID was invented.
 nanotopicId: The module subject tree gives liver and spleen separate leaves under the same parent; this record covers both, so it carries the first and names the second in module_subject's parent path rather than splitting one comparison across two records.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module. The book's Figures (2.1) and (2.3) show hepatic and splenic amyloid and are requested as media on the amyloidosis article.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "sago spleen", "lardaceous" and "liver amyloid" — zero hits of any kind. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "sago spleen" and "hepatic amyloidosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -7073,7 +6979,7 @@ CON-FND-E3F496F6DDD7C3
 CON-FND-00024C3C0A7C4F
 CON-FND-063F60318B4D20
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -7097,7 +7003,7 @@ KAU_Y1=0.55
 src_e294bafc730fe7111b06 | department_book | 2026 | p20 | 108 INT
 src_bd1595e59d116b78436a | end_of_year | 2025 | p11 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-CARDIAC-GI-AMYLOIDOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -7143,10 +7049,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Pathological changes in different organs in amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Pathological changes in different organs in amyloidosis > Amyloidosis of the heart) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes. This concept is cardiac and gastrointestinal amyloidosis, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 with the other amyloid records rather than split across the cardiovascular and gastrointestinal systems views, which would separate one systemic disease into two homes. No node ID was invented.
 nanotopicId: The module subject tree gives the heart and the gastrointestinal tract separate leaves under the same parent; this record covers both and carries the heart leaf, because the effects the book names for the two are the same kind of claim.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "cardiac amyloid", "macroglossia" and "malabsorption" — zero hits that assert amyloid deposition. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "cardiac amyloidosis" and "macroglossia" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.
@@ -7220,7 +7124,7 @@ CON-FND-4867DD3814D088
 CON-FND-699152CE450385
 CON-FND-E3F496F6DDD7C3
 ## resource_ids
-[clear]
+src_e294bafc730fe7111b06
 
 ## approved_file_resource_ids
 [clear]
@@ -7243,7 +7147,7 @@ KAU_Y1=0.45
 ## exam_signal
 src_e294bafc730fe7111b06 | department_book | 2026 | p21 | 108 INT
 ## atomic_claim_ids
-[clear]
+CLM-FND-AMYLOIDOSIS-DIAGNOSIS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -7287,10 +7191,8 @@ drafted_not_reviewed
 microtopicId: The microtopic column carries "Amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no MIC_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved microtopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Diagnosis of amyloidosis) carries the curriculum position instead.
 nanotopicId: The nanotopic column carries "Diagnosis of amyloidosis", which is the department book's own heading as reproduced in the module subject tree. The curriculum overlay holds no NAN_ node for 108 INT pathology — searched the catalogue for one to resolve the title against and found none — so the resolved nanotopicId is empty and module_subject (108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Amyloidosis > Diagnosis of amyloidosis) carries the curriculum position instead.
 primaryNodeId: Placed under protest. The canonical taxonomy has no node for amyloidosis — `amyloid` returns zero across all 1,883 nodes. This concept is the diagnosis of amyloidosis, from the book's chapter 2. Placed at the section node SYS-FND-T03-S01 with the other amyloid records. No node ID was invented.
-resourceIds: The Kasr sources are absent from corpus-source-index.json, so a resource citation naming one would fail the corpus check.
 approvedFileResourceIds: No file resource has been rights-cleared for this module.
 approvedVideoResourceIds: This faculty distributes no video for 108 INT.
-atomicClaimIds: No evidence pass exists for 108 INT. Searched live claims for "biopsy", "rectal biopsy" and "amyloid diagnosis" — nothing asserts a biopsy site for amyloidosis. Left blank under LD-14.
 resourceOccurrenceIds: Hand-authored from the department book; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "diagnosis of amyloidosis" — no candidate exists and the index is absent beside this batch.
 mergeIds: Nothing has been merged into this concept.

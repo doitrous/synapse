@@ -78,27 +78,40 @@ def items_in(path):
 
 
 def check(ledger_path):
+    """`(losses, notes)` — only a loss should stop a merge.
+
+    The distinction matters because this runs in CI and an over-eager failure
+    blocks every lane. A batch that has grown past what its ledger records is a
+    stale ledger, not a missing batch, and a module whose ledger keeps its
+    inventory in a shape this cannot read has no protection but has lost
+    nothing. Both are worth saying and neither is worth blocking on.
+    """
     module = os.path.basename(ledger_path).replace("-coverage.md", "")
     expected = expectations(ledger_path)
     if expected is None:
-        return ["%s: ledger has no 'Authored so far' table — nothing to check "
-                "against, which is not the same as nothing being wrong" % module]
+        return [], ["%s: ledger has no 'Authored so far' table, so this module has "
+                    "no absence check — which is not the same as nothing being wrong"
+                    % module]
     if not expected:
-        return ["%s: ledger's authored table is empty; if this module has "
-                "batches, the ledger is stale" % module]
+        return [], ["%s: ledger's authored table is empty; if this module has "
+                    "batches, the ledger is stale" % module]
 
-    problems = []
+    losses, notes = [], []
     for relative, count in expected:
         path = os.path.join(IMPORTS, relative)
         if not os.path.exists(path):
-            problems.append("%s: %s is in the ledger and MISSING from the tree "
-                            "(%d items)" % (module, relative, count))
+            losses.append("%s: %s is in the ledger and MISSING from the tree "
+                          "(%d items)" % (module, relative, count))
             continue
         found = items_in(path)
-        if found != count:
-            problems.append("%s: %s holds %d items, ledger says %d"
-                            % (module, relative, found, count))
-    return problems
+        if found < count:
+            losses.append("%s: %s holds %d items, ledger says %d — %d short"
+                          % (module, relative, found, count, count - found))
+        elif found > count:
+            notes.append("%s: %s holds %d items, ledger says %d — the batch grew "
+                         "and the ledger was not regenerated"
+                         % (module, relative, found, count))
+    return losses, notes
 
 
 SELF_TEST_LEDGER = """# X — source coverage
@@ -120,13 +133,13 @@ def self_test():
         path = os.path.join(tmp, "SELFTEST-coverage.md")
         with open(path, "w", encoding="utf-8") as fh:
             fh.write(SELF_TEST_LEDGER)
-        problems = check(path)
-    if len(problems) == 1 and "MISSING from the tree" in problems[0]:
+        losses, notes = check(path)
+    if len(losses) == 1 and "MISSING from the tree" in losses[0] and not notes:
         print("PASS  probe ledger names a batch that does not exist and the "
-              "check reports it")
+              "check reports it as a loss")
         return 0
-    print("FAIL  expected 1 missing-batch problem, got %d: %s"
-          % (len(problems), problems))
+    print("FAIL  expected 1 loss and 0 notes, got %d and %d: %s"
+          % (len(losses), len(notes), losses + notes))
     return 1
 
 
@@ -150,14 +163,22 @@ def main(argv):
               % (wanted or "anything"))
         return 2
 
-    problems = []
+    losses, notes = [], []
     for ledger in ledgers:
-        problems += check(ledger)
+        found, noted = check(ledger)
+        losses += found
+        notes += noted
 
-    for problem in problems:
-        print("  %s" % problem)
-    print("%d ledger(s) checked, %d problem(s)" % (len(ledgers), len(problems)))
-    return 1 if problems else 0
+    for loss in losses:
+        print("  LOSS  %s" % loss)
+    for note in notes:
+        print("  note  %s" % note)
+    print("%d ledger(s) checked, %d loss(es), %d note(s)"
+          % (len(ledgers), len(losses), len(notes)))
+    # Only a loss fails. A stale ledger and an unreadable inventory are both
+    # worth printing and neither is a batch going missing, which is the one
+    # thing this exists to stop.
+    return 1 if losses else 0
 
 
 if __name__ == "__main__":

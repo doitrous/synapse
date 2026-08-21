@@ -391,6 +391,17 @@ export function writtenBlock(
 
   // What this question is worth out of the paper, on the field's 0–10 scale,
   // taken from the marks the examiner gave it rather than from an opinion.
+  //
+  // `exam_weight_by_year` is the same figure on the 0–1 scale the blueprint
+  // reads, keyed to the one year this module is sat in. Derived from the same
+  // number rather than typed beside it, so the two cannot disagree.
+  //
+  // `concept_ids` and `contextual_concept_ids` are `[clear]` on purpose, which
+  // is a claim rather than an omission. A question grouped from several seeds
+  // already names every concept it tests on `main_concept`, so there is nothing
+  // left for the secondary list; and nothing in this corpus records which
+  // concepts a stem merely *needs* without assessing. `[clear]` says both were
+  // considered — an empty column would say only that nobody looked.
   const relevance = Math.min(10, (seed.marks / total) * 10 * paper.seeds.length).toFixed(1)
   const clinical = seeds.some((one) => one.type === 'clinical_correlation')
   const articles = [...new Set([...byKey.values()].map(articleFor).filter(Boolean))]
@@ -470,6 +481,12 @@ Academic
 ${clinical ? '0.8' : '0.3'}
 ## exam_relevance
 ${relevance}
+## exam_weight_by_year
+KAU_Y1=${(Number(relevance) / 10).toFixed(2)}
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ${banded}## cognitive_effort
 ${seed.difficulty === 'Challenging' || seed.difficulty === 'Hard' ? 'High'
     : seed.difficulty === 'Easy' ? 'Low'
@@ -725,6 +742,12 @@ Academic
 0.3
 ## exam_relevance
 ${Math.min(10, 3 + row.timesAsked * 1.5).toFixed(1)}
+## exam_weight_by_year
+KAU_Y1=${(Math.min(10, 3 + row.timesAsked * 1.5) / 10).toFixed(2)}
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 ${authored.difficulty === 'Easy' ? 'Low' : authored.difficulty === 'Moderate' ? 'Medium' : 'High'}
 ## reasoning_level

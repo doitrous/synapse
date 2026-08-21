@@ -89,6 +89,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 High
 ## reasoning_level
@@ -166,6 +172,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -247,6 +259,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -325,6 +343,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -402,6 +426,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -480,6 +510,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -558,6 +594,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -634,6 +676,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -710,6 +758,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -784,6 +838,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -862,6 +922,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -940,6 +1006,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -1015,6 +1087,12 @@ Academic
 0.8
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
 ## reasoning_level
@@ -1135,6 +1213,12 @@ Academic
 0.8
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 High
 ## reasoning_level
