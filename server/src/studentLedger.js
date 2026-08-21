@@ -78,7 +78,7 @@ export const PUBLIC_FIELDS = new Set([
   'essayData', 'histologyData',
   // Question
   'answers', 'correctAnswer', 'tags', 'libraryIds', 'resourceIds',
-  'attachedImage', 'attachments', 'learningObjective', 'estimatedSeconds',
+  'attachedImage', 'attachments', 'media', 'learningObjective', 'estimatedSeconds',
   'randomiseAnswers',
   // Article
   'arabicTitle', 'aliases', 'templateId', 'archetype', 'language',

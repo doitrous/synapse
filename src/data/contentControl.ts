@@ -1,6 +1,7 @@
 import type { Status } from './admin.ts'
 import type { ConceptAnnotation } from './conceptGraph.ts'
 import type { Difficulty } from './qbank.ts'
+import type { MediaPlacement } from './mediaLibrary.ts'
 import type { ArticleSection } from './userLibrary.ts'
 import type { DeckAuthoringData } from './decks.ts'
 import type { EssayAuthoringData } from './essay.ts'
@@ -218,6 +219,19 @@ export interface QuestionTags {
 
 export interface QuestionAuthoringData {
   attachments: MediaAttachment[]
+  /**
+   * Images placed in this question, by slot.
+   *
+   * Separate from `attachedImage` and `attachments`, which predate the media
+   * library and still render — live content is not broken to tidy a data model.
+   *
+   * Questions alone carry placements. An article already has
+   * `ArticleMediaRecord[]`, with anchors tying an image to the exact words it
+   * illustrates; a second list beside it would be two ways to put a picture in
+   * one article, free to disagree about which renders. Slots were only ever
+   * missing here, where an option can itself be a picture.
+   */
+  media?: MediaPlacement[]
   correctAnswer: AnswerLabel
   answers: QuestionAnswerDraft[]
   attachedImage: string
