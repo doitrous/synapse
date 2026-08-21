@@ -7503,3 +7503,222 @@ sections.Clinical significance: The section is short because the corpus gives th
 sections.Common misconceptions: Each misconception is drawn from a distractor that a question book actually prints on this leaf, not from a general list of student errors.
 ## notes
 Written as one article for the whole Gametes leaf rather than split into a sperm article and an ovum article, because the department chapter is two pages, the exam asks the two side by side, and the two schedules of gametogenesis belong to neither gamete alone. The chapter is the shortest in the Anatomy part after the Fetal Period, and the article is longer than the chapter because the chapter is a list of names and the marks are lost in the order and the pairing of those names rather than in their recall.
+
+---
+
+# Item
+## id
+ART-101-ANA-EMBRYONIC-PERIOD
+## title
+The embryonic period and the somites
+## subject
+dev
+## status
+Draft
+## owner
+Claude
+## topic
+General embryology
+## language
+en
+## learner_stage
+Year 1 foundation
+## template_id
+TPL-CONCEPT
+## archetype
+concept
+## high_yield
+Core
+## time_sensitive
+stable
+## publication_gate
+needs_evidence
+## universities
+kau
+## years
+Year 1
+## module
+101 ISK
+## module_subject
+101 ISK > Anatomy > General Embryology > Embryonic Period
+## primary_node_id
+DIS-EMB-T01
+## related_concepts
+CON-DEV-8F17D9869A6D15 | CON-DEV-3AB7E19B99F387
+## related_articles
+ART-101-ANA-PARAXIAL-MESODERM: What one somite becomes — sclerotome, dermatome and myotome — is taught there; this article is about when somites appear and how many of them there are.
+ART-101-ANA-EMBRYONIC-FOLDING: Folding is the other half of this chapter, and it runs from the end of the third week to the end of the fourth, overlapping the somite period almost exactly.
+ART-101-ANA-NOTOCHORD: The paraxial mesoderm that segments into somites lies on both sides of the notochord, and the sclerotome then migrates medially to surround it.
+ART-101-ANA-FETAL-PERIOD: The period that follows, from the beginning of the 9th week — growth and maturation where this one is organ formation.
+## aliases
+Embryonic period | Period of organogenesis | Somites | Somite period | Somitomeres | Age of the embryo | Germ layer derivatives
+## reading_time
+10
+## summary
+The embryonic period is the 4th to the 8th gestational weeks and it is the period of organogenesis — the organs are laid down here and only grow afterwards. Two things in it are asked as numbers. Somites segment from the occipital region downwards, in six regional groups whose counts are a closed list of six figures, and the first pair appears on the 20th day with three pairs added each day, which lets the book date an embryo from its somite count by a formula it prints: age in days = (number of somites − 1) / 3 + 20. Sixteen somites is 25 days, and the distractors sit one day either side.
+## sections
+### Definition
+The embryonic period is the period of organogenesis. It runs from the 4th to the 8th gestational weeks.
+
+That one sentence carries the contrast the examiner works with. Before it, the disc is being assembled and has no organs. After it — from the beginning of the 9th week — the fetal period does no organ formation at all, only maturation of what is already there and rapid growth of the body. Organs are built once, in five weeks, and the rest of pregnancy enlarges them.
+
+Two lists of derivatives belong to the definition because the department book states them as the chapter's second intended learning outcome: the structures and organs derived from each germ layer.
+
+**Ectoderm** gives the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which form the internal ear and the lens of the eye; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and end of the digestive tract.
+
+**Endoderm** gives two kinds of thing, and the book separates them. As **mucous lining epithelium**: the digestive system except its beginning and its end, the respiratory tract, most of the urinary bladder and urethra, and the tympanic cavity with the Eustachian tube. As **glandular epithelium**: the parenchyma of the liver, pancreas, thyroid, thymus, tonsils — palatine and nasopharyngeal — and parathyroid glands.
+
+The two lists interlock at one point and it is worth seeing why. The beginning and the end of the digestive tract are ectodermal, and the endodermal list excludes exactly those two ends. They are the stomodeum and the proctodeum, ectodermal depressions that meet the endodermal gut at the bucco-pharyngeal and cloacal membranes — the two places on the disc where ectoderm and endoderm are fused with no mesoderm between them.
+
+**Mesoderm** is not given as a matching list. The department book treats mesodermal derivatives through the intra-embryonic mesoderm section instead, following each of the three columns to what it forms, and that is the shape the next section takes.
+
+### Mechanism
+On the 17th gestational day the intra-embryonic mesoderm divides into three parts, named by their position relative to the midline and traceable back to the part of the primitive streak they came from.
+
+**Paraxial mesoderm** lies on both sides of the notochord and the neural tube, and comes from the cranial part of the primitive streak. **Intermediate mesoderm** lies between the paraxial and the lateral plate, and comes from the middle part of the streak. **Lateral plate mesoderm** lies lateral to the intermediate, and comes from the caudal part. The order is the same read either way — cranial streak to medial column, caudal streak to lateral column.
+
+What each becomes, in one line apiece. Paraxial mesoderm segments into the somites. Intermediate mesoderm forms the urogenital system. Lateral plate mesoderm is split by the intra-embryonic coelom into a somatopleuric layer against the ectoderm and a splanchnopleuric layer against the endoderm, and its cranial part is the septum transversum, which forms the central tendon of the diaphragm.
+
+**Segmentation.** The paraxial mesoderm divides transversely into segments called somites. Segmentation **begins at the occipital region and extends caudally** to the coccygeal region, so the occipital somites are the oldest and the coccygeal the youngest. Cephalic to the first occipital somite the paraxial mesoderm is not segmented in the same way; it forms smaller segments called **somitomeres**.
+
+That direction is the answer to a question asked on its own. Segmentation starts at the occipital region — not the cervical, which is where the vertebral column is usually recited from.
+
+**The timetable.** The first pair of occipital somites separates on the **20th gestational day**. From then, **three pairs separate each day** until the 30th day. That stretch of regular segmentation is the **somite period**, which the book dates from day 21 till day 30. Segmentation then continues at a slower and irregular rate until the 35th or 40th day, by which time **42 to 44 pairs** are present.
+
+**The formula.** Because the rate is fixed while segmentation is regular, the number of somites dates the embryo, and the department book prints the arithmetic:
+
+Age in days = (number of somites − 1) / 3 + 20
+
+The "− 1" is there because the first pair marks day 20 itself rather than a day's worth of segmentation. Put one somite in and the formula returns day 20, which is the day the book says the first pair separates. Put sixteen in and it returns (16 − 1) / 3 + 20 = 5 + 20 = **25 days**.
+
+The examiners set the distractors at 23, 24 and 26 days. Twenty-four is what a student gets by dividing sixteen by three and rounding down without subtracting the first pair; twenty-six is the same division rounded up. Only the formula separates them, which is why this is the one calculation in the chapter.
+
+### Key determinants
+**The period.** Embryonic period = 4th to 8th gestational weeks = organogenesis. Fetal period = beginning of the 9th week to birth = maturation and growth.
+
+**The three parts of the intra-embryonic mesoderm, in order from the midline outwards, divided on day 17.** Paraxial, from the cranial part of the primitive streak. Intermediate, from the middle part. Lateral plate, from the caudal part.
+
+**The regional classification of the somites, cranial to caudal — six groups and the list is closed.**
+
+4 occipital pairs.
+8 cervical pairs.
+12 thoracic pairs.
+5 lumbar pairs.
+5 sacral pairs.
+8 to 10 coccygeal pairs.
+
+Add them and the total is 42 to 44 pairs, which is the figure the book gives for day 40. A student who has written five groups and reached a total in the thirties has dropped one, and the occipital group is the one usually dropped because it is the only group that does not go on to make a vertebra.
+
+**The dates.** Day 17, the intra-embryonic mesoderm divides into three. Day 20, the first pair of occipital somites separates. Three pairs a day thereafter. Day 21 to day 30, the somite period, segmentation regular. Day 30 to day 35 or 40, slower and irregular. Day 40, 42 to 44 pairs present.
+
+**The formula.** Age in days = (number of somites − 1) / 3 + 20. Sixteen somites is 25 days.
+
+**Direction.** Segmentation begins at the occipital region and runs caudally. Somitomeres lie cephalic to the first occipital somite.
+
+### Clinical significance
+The department book gives this chapter no clinical note and no anomaly, and its applied material is the chapter's intended learning outcomes only: determine the embryonic period and its significance, and list the structures and organs derived from each of the three germ layers. That silence is recorded in `evidence_gaps` rather than filled from elsewhere.
+
+Two consequences follow from what the book does state, and both are consequences of the definition rather than clinical additions.
+
+The first is why the embryonic period is the significant one. Organs are formed in these five weeks and in no others, so this is the window in which the formation of an organ can go wrong. What the fetal period can do to an organ is grow it badly; what the embryonic period can do is fail to build it.
+
+The second is why the somite count is used at all. Between day 20 and day 30 the embryo has a feature that changes at a known rate and can be counted from the outside, which no later stage of development offers in the same form — the fetal period is dated by length and weight instead, from a growth table. Counting somites is dating by a process rather than by a size.
+
+### Common misconceptions
+Segmentation does not start at the cervical region. It starts at the occipital region and runs caudally. The cervical answer is the one a student reaches for because the vertebral column is recited from the neck down, and by then four occipital pairs have already formed.
+
+There are four occipital pairs, not three and not six. Three is the number of pairs added per day, and the two figures sit a line apart in the book.
+
+The age of a sixteen-somite embryo is not sixteen days and not thirty-six days. It is (16 − 1) / 3 + 20 = 25 days, and the question is testing the arithmetic rather than the recall.
+
+Somitomeres are not somites that have not separated yet. They are the smaller segments of paraxial mesoderm lying cephalic to the first occipital somite, and they are not counted in the 42 to 44 pairs.
+
+The mesoderm has no single list of derivatives in this book. Ectoderm and endoderm are given as lists; mesoderm is followed column by column through paraxial, intermediate and lateral plate. A student who answers a "derivatives of the three germ layers" question with two lists and a blank has answered two-thirds of it.
+
+The beginning and the end of the digestive tract are ectodermal, not endodermal. The endodermal list says "except its beginning and end" for that reason, and the two exceptions are the same two places where the disc has no mesoderm.
+
+The intermediate mesoderm forms the urogenital system, not the gut. The gut's connective tissue and smooth muscle come from splanchnopleuric mesoderm, which is a subdivision of the lateral plate.
+## hold_these
+The embryonic period is the 4th to the 8th gestational weeks and it is the period of organogenesis.
+On the 17th gestational day the intra-embryonic mesoderm divides into paraxial, intermediate and lateral plate, from the cranial, middle and caudal parts of the primitive streak respectively.
+Paraxial mesoderm lies on both sides of the notochord and neural tube and divides transversely into somites.
+Segmentation begins at the occipital region and extends caudally to the coccygeal region.
+Somitomeres are the smaller segments of paraxial mesoderm lying cephalic to the first occipital somite.
+The first pair of occipital somites separates on the 20th gestational day, and three pairs separate each day until the 30th day.
+The somite period, when segmentation is regular, runs from day 21 till day 30; it then continues at a slower irregular rate till the 35th or 40th day.
+42 to 44 pairs of somites are present by the 40th day.
+The regional counts are 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral and 8 to 10 coccygeal pairs.
+Age in days = (number of somites − 1) / 3 + 20; sixteen somites gives 25 days.
+Intermediate mesoderm forms the urogenital system.
+Ectodermal derivatives include the central nervous system, neural crest derivatives, otic and lens placodes, peripheral nerves and sensory epithelia, epidermis, pituitary, and the beginning and end of the digestive tract.
+Endodermal derivatives are the mucous lining epithelium of the digestive system except its two ends, the respiratory tract, most of the bladder and urethra, the tympanic cavity and Eustachian tube; and the glandular parenchyma of liver, pancreas, thyroid, thymus, tonsils and parathyroids.
+## lose_the_mark
+Saying segmentation starts at the cervical region. It starts at the occipital region and runs caudally.
+Giving three occipital pairs. There are four; three is the number of pairs added per day.
+Dating a sixteen-somite embryo by estimate. Use the book's formula: (16 − 1) / 3 + 20 = 25 days, and the wrong answers are printed at 24 and 26.
+Dropping a region from the somite list. Six groups are marked, and the occipital group is the one usually missing because it makes no vertebra.
+Counting the somitomeres among the 42 to 44 pairs. They lie cephalic to the first occipital somite and are not somites.
+Answering a germ-layer derivatives question with ectoderm and endoderm only. The mesodermal contribution is asked through the three columns of intra-embryonic mesoderm.
+Putting the beginning and end of the digestive tract in the endodermal list. They are ectodermal, and the endodermal list excludes them by name.
+Confusing the period with its neighbour. Organogenesis is the 4th to 8th weeks; from the 9th week onwards nothing new is formed.
+## image_recommendations
+### diagram · A single dated timeline of the embryonic period from day 17 to the end of week 8, marking the division of intra-embryonic mesoderm on day 17, the first somite pair on day 20, the somite period as a shaded band from day 21 to day 30 labelled "3 pairs per day", the slower irregular phase to day 35-40 ending at 42-44 pairs, and folding as a second band from the end of week 3 to the end of week 4
+Purpose: Six dates are examined and every one of them is a distractor for the others. A single axis puts them in fixed relative positions, and it also shows the two things a sentence cannot — that the somite period and folding overlap, and that the chapter's own first events fall before the 4th week its title claims.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Mechanism
+Source direction: purpose-drawn for this product from the department book's dated statements on Anatomy pages 87-91; the book prints no timeline of its own
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-3AB7E19B99F387.
+### diagram · Dorsal view of the embryo with the somite pairs drawn as a ladder either side of the neural tube, colour-banded into the six regional groups and captioned with their counts — 4 occipital, 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 8-10 coccygeal — with the somitomeres marked cephalic to the first occipital pair and an arrow showing segmentation running cranial to caudal
+Purpose: The regional list is a closed set of six numbers whose marks are lost by dropping a group, and the occipital group is dropped because it is at the end a student does not look at. Drawn as bands on one embryo, the count is visible as a length and the missing group is visible as a gap.
+Priority: required
+Status: needed
+Kind: diagram
+Section: Key determinants
+Source direction: purpose-drawn, following the department book's Figures 5.2 and 5.3 on Anatomy page 88, redrawn rather than reproduced
+Rights: newly drawn for this product, or CC-BY
+Notes: Serves concept CON-DEV-8F17D9869A6D15. An unlabelled variant would also carry a labelling question on this leaf.
+### comparison table · A three-column table of germ layer derivatives — ectoderm, mesoderm, endoderm — with the ectodermal list and the two endodermal groups filled from the book, and the mesodermal column carrying the three intra-embryonic columns and what each forms, with the beginning and end of the digestive tract highlighted in the ectodermal column against the endodermal exclusion
+Purpose: The two lists are examined against each other, and the one place they touch is the pair of exceptions at the two ends of the gut. Side by side that exchange is a single visual fact; in prose it is a sentence in one list and a qualifying clause in another.
+Priority: strongly helpful
+Status: needed
+Kind: comparison table
+Section: Definition
+Source direction: purpose-drawn for this product from the department book's derivative lists on Anatomy page 87 and its intra-embryonic mesoderm section on pages 87-90; the book prints the lists as prose, not as a table
+Rights: newly drawn for this product, or CC-BY
+## conflicts
+Whether the events at the start of this chapter belong to the embryonic period at all. The department book defines the embryonic period as the 4th to the 8th gestational weeks, then opens the chapter with the division of the intra-embryonic mesoderm on day 17, the first somite pair on day 20 and folding beginning at the end of the third week — all of which fall in the third week, not the fourth. The book does not reconcile the two. This article follows the book's stated span for the definition and the book's stated days for the events, and says both. The repository files the two neighbouring articles, ART-101-ANA-PARAXIAL-MESODERM and ART-101-ANA-EMBRYONIC-FOLDING, under the Third Week of Development leaf for the same reason.
+Whether the somite period starts on day 20 or day 21. The department book says the first pair of occipital somites separates on the 20th gestational day, and separately dates the somite period from day 21 till day 30. Its own formula, age in days = (number of somites − 1) / 3 + 20, is anchored on day 20: one somite returns day 20. This article gives both statements as the book gives them and uses day 20 in the arithmetic, because that is the day the formula is built on and the formula is what the calculation question requires.
+## evidence_gaps
+The department book gives this chapter no clinical note, no anomaly and no Egyptian applied material. Its applied content is the chapter's intended learning outcomes only.
+No Kasr source states what the four occipital somites go on to form. This article says only that they make no vertebra, which follows from the book's own statement that the sclerotomes form the vertebrae and from the absence of occipital vertebrae; the book does not say it.
+No Kasr source states how many somitomeres there are, or what they become.
+No Kasr source explains the mechanism of segmentation — what makes the paraxial mesoderm divide, or what fixes the rate at three pairs a day.
+No Kasr source gives a list of mesodermal derivatives in the form it gives for ectoderm and endoderm. That absence is stated in the article rather than filled from a general textbook.
+No Kasr source states when in the chapter's five weeks each individual organ is formed, nor which weeks are most sensitive to a teratogen. The window argument in Clinical significance rests only on the book's definition of the period as organogenesis.
+No independent citation has been attached to any statement in this article.
+## evidence_basis
+Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the definition of the period as organogenesis and its span in weeks, the ectodermal and endodermal derivative lists, the division of the intra-embryonic mesoderm into three parts on day 17 with each part's origin in the primitive streak and what it forms, the transverse segmentation of paraxial mesoderm into somites, the occipital-to-caudal direction of segmentation, the somitomeres, the dates of the somite period, the regional counts, the total of 42-44 pairs and the age formula, with Figures 5.1 to 5.3. Extracted to scripts/kasr/extract/deptbook.json.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the bucco-pharyngeal and cloacal membranes as the two regions where ectoderm and endoderm are fused with no intervening mesoderm, cited here only for the interlock between the ectodermal and endodermal lists at the two ends of the gut.
+Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 7 "Fetal Period", PDF pages 106-107 — the beginning of the 9th week and the character of the period that follows, cited only for the contrast drawn in Definition.
+Anatomy MCQ Book 2025, Anatomy Department (src_764a2521809818b8abdc) — the question book carrying the somite-segmentation, occipital-count and somite-age questions filed on this leaf. Recorded as exam signal on concepts CON-DEV-8F17D9869A6D15 and CON-DEV-3AB7E19B99F387.
+Anatomy Question [Embryo], Anatomy Department (src_12d639a625d8305c4454) — a second printing of the somite-segmentation question, recorded as exam signal on CON-DEV-8F17D9869A6D15.
+Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+## field_notes
+arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
+media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
+questionIds: The three questions filed on this leaf are authored in scripts/kasr/seeds/mcq/embryonic-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
+subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
+microtopic: No microtopic level exists beneath this node.
+nanotopic: No nanotopic level exists beneath this node.
+secondaryNodeIds: Neither CON-DEV-8F17D9869A6D15 nor CON-DEV-3AB7E19B99F387 carries a secondary placement, and none is invented here.
+reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+relatedConcepts: Two concepts are declared and both are taught above — the craniocaudal direction of segmentation and the six regional counts in Mechanism and Key determinants, the somite-period dates and the age formula worked through in Mechanism and Key determinants. Concept CON-DEV-5E63C211DEEE00, on what a single somite differentiates into, and CON-DEV-72D21476F03993 and CON-DEV-44A219B862FFD5, on folding, also belong to this chapter of the book but are declared on ART-101-ANA-PARAXIAL-MESODERM and ART-101-ANA-EMBRYONIC-FOLDING, which teach them in full. They are cross-referenced here rather than claimed, so a coverage check does not read as taught what this article only mentions.
+sections.Key determinants: The observation that the six regional counts sum to 42-44 is arithmetic on the book's own two statements — the regional list and the day-40 total — and is offered as a check rather than as a separate fact. The book states both figures and does not connect them.
+sections.Mechanism: The reading of why the formula subtracts one — that the first pair marks day 20 itself — is this article's own explanation of the book's arithmetic. The formula is the book's, printed on Anatomy page 88.
+sections.Definition: The identification of the digestive tract's two ectodermal ends as the stomodeum and the proctodeum, and their location at the bucco-pharyngeal and cloacal membranes, joins this chapter's derivative lists to the previous chapter's statement about where the disc has no mesoderm. Both statements are the book's; the connection between them is this article's.
+sections.Clinical significance: The argument that the embryonic period is the window in which an organ can fail to form is this article's own reasoning from the book's definition of the period as organogenesis. No Kasr source names a teratogen, a sensitive week or a malformation, and none is named here.
+## notes
+Written as the leaf's own article rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the two teach different objectives from the same chapter: that article is what one somite becomes, this one is when somites appear, in what direction, and how many. A student can hold either without the other, and the question books ask them separately. The overlap is named in both directions in related_articles so that neither article reads as complete on the other's subject. The chapter's third subject, folding, has its own article already and is only dated here.
