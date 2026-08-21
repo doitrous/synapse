@@ -233,7 +233,9 @@ export function MediaRequests() {
             <Icon icon={TriangleAlert} size={16} className="mt-0.5 shrink-0 text-warning" />
             <div className="min-w-0">
               <p className="text-[13px] font-semibold text-ink">
-                {stranded.length} question{stranded.length === 1 ? '' : 's'} hold an image that only exists in one browser
+                {stranded.length === 1
+                  ? '1 question holds an image that only exists in one browser'
+                  : `${stranded.length} questions hold an image that only exists in one browser`}
               </p>
               <p className="mt-0.5 text-[12px] leading-relaxed text-ink-2">
                 These were attached before images were stored on the server. They render for whoever uploaded them and for
