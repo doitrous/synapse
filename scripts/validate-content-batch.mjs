@@ -223,9 +223,25 @@ if (kind === 'relation') {
   const concepts = []
   const claims = []
   const citations = []
-  for (const name of await readdir(dir)) {
-    if (!name.endsWith('.md')) continue
-    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+  // The same hole the evidence branch had, and wider. A relation names two
+  // concepts *and* a claim *and* a citation, and a batch keeps each kind in its
+  // own folder — `concept/`, `evidence/`, `relations/` — so reading only this
+  // directory resolves none of the four. `relationErrors` additionally refuses
+  // an edge with no evidence chain, so a correctly ordered relation batch could
+  // not reach zero errors by any route except performing the import it was
+  // validating.
+  //
+  // Deduplicated by resolved path for the same reason the evidence branch is: a
+  // `--with` file may already be a sibling here, and these are arrays. Harmless
+  // for the existence checks below, which only ask whether an ID is present —
+  // but leaving the identical double-read in the branch next door to the one it
+  // was just removed from is how it comes back.
+  const nearby = [...new Set([
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ].map((path) => resolve(path)))]
+  for (const name of nearby) {
+    for (const row of parseMarkdown(await readFile(name, 'utf8'))) {
       const k = detectKind(row)
       if (k === 'concept') concepts.push({ id: row.id?.trim() })
       if (k === 'claim') claims.push({ id: row.id?.trim() })
