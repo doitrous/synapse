@@ -3,6 +3,7 @@ package com.synapse.android.feature.practical
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Practical
@@ -35,7 +36,6 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.updateAndGet
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import kotlinx.serialization.json.Json
 
 /** Which of the list's three live tabs an authored [Practical.type] belongs on. A port of the routing in `useLivePracticals.ts:74-86`. */
 enum class PracticalTab { OSCE, CASES, LAB }
@@ -107,9 +107,7 @@ class PracticalViewModel(
     private val store: LocalStore,
     private val sync: SyncEngine,
 ) : ViewModel() {
-
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
-    private val json = Json { ignoreUnknownKeys = true }
 
     /** Serialises the whole read-fold-write path -- see the class doc. */
     private val mutation = Mutex()
@@ -120,7 +118,7 @@ class PracticalViewModel(
 
     /** Display only -- see the class doc. */
     val progress: StateFlow<PracticalProgress> = store.documentFlow(PRACTICAL_PROGRESS_KEY)
-        .map { doc -> doc?.json?.let { runCatching { json.decodeFromString(PracticalProgress.serializer(), it) }.getOrNull() } ?: PracticalProgress() }
+        .map { doc -> doc?.json?.let { runCatching { CortexJson.decodeFromString(PracticalProgress.serializer(), it) }.getOrNull() } ?: PracticalProgress() }
         .stateIn(backgroundScope, SharingStarted.Eagerly, PracticalProgress())
 
     /** The mark-scheme items ticked in the station run currently open, seeded from the stored `checkedItems` by [openStation]. */
@@ -335,7 +333,7 @@ class PracticalViewModel(
      */
     private suspend fun loadProgress(): PracticalProgress =
         store.document(PRACTICAL_PROGRESS_KEY)?.json
-            ?.let { json.decodeFromString(PracticalProgress.serializer(), it) }
+            ?.let { CortexJson.decodeFromString(PracticalProgress.serializer(), it) }
             ?: PracticalProgress()
 
     /**
@@ -349,7 +347,7 @@ class PracticalViewModel(
      */
     private suspend fun mutateProgress(transform: (PracticalProgress) -> PracticalProgress): PracticalProgress {
         val updated = transform(loadProgress())
-        sync.write(PRACTICAL_PROGRESS_KEY, json.encodeToString(PracticalProgress.serializer(), updated))
+        sync.write(PRACTICAL_PROGRESS_KEY, CortexJson.encodeToString(PracticalProgress.serializer(), updated))
         return updated
     }
 

@@ -3,6 +3,7 @@ package com.synapse.android.feature.qbank
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.progress.AttemptLedger
 import com.synapse.android.core.progress.AttemptStats
@@ -19,7 +20,6 @@ import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
-import kotlinx.serialization.json.Json
 
 /** One row on [PreviousSittingsScreen]. */
 data class PreviousSitting(
@@ -43,9 +43,7 @@ data class PreviousSitting(
  * [AttemptStats.bySession] groups on exactly that.
  */
 class PreviousSittingsViewModel(store: LocalStore) : ViewModel() {
-
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
-    private val json = Json { ignoreUnknownKeys = true }
 
     private val _sittings = MutableStateFlow<List<PreviousSitting>>(emptyList())
     val sittings: StateFlow<List<PreviousSitting>> = _sittings.asStateFlow()
@@ -54,7 +52,7 @@ class PreviousSittingsViewModel(store: LocalStore) : ViewModel() {
         backgroundScope.launch {
             val records = AttemptLedger.records(store)
             val names = store.document(LiveSession.SESSION_NAMES_KEY)?.json
-                ?.let { json.decodeFromString(MapSerializer(String.serializer(), String.serializer()), it) }
+                ?.let { CortexJson.decodeFromString(MapSerializer(String.serializer(), String.serializer()), it) }
                 .orEmpty()
 
             _sittings.value = AttemptStats.bySession(records)

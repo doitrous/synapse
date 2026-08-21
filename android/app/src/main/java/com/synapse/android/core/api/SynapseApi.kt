@@ -1,5 +1,6 @@
 package com.synapse.android.core.api
 
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.sync.StateOwnership
 import java.io.IOException
 import java.time.Instant
@@ -7,7 +8,6 @@ import java.time.format.DateTimeParseException
 import kotlin.coroutines.resume
 import kotlin.coroutines.resumeWithException
 import kotlinx.coroutines.suspendCancellableCoroutine
-import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonElement
 import kotlinx.serialization.json.JsonNull
 import kotlinx.serialization.json.JsonObject
@@ -75,8 +75,6 @@ class SynapseApi(
     private val client: OkHttpClient,
     private val tokenProvider: suspend () -> String?,
 ) {
-    private val json = Json { ignoreUnknownKeys = true }
-
     /**
      * `GET /api/session` never returns 401 — an anonymous caller gets a 200
      * with a null user. A null result here is that normal, signed-out
@@ -209,7 +207,7 @@ class SynapseApi(
     private suspend fun requestObject(method: String, path: String, body: String? = null): JsonObject {
         val raw = request(method, path, body)
         val element = try {
-            json.parseToJsonElement(raw)
+            CortexJson.parseToJsonElement(raw)
         } catch (e: Exception) {
             throw ApiError.Malformed("response was not valid JSON")
         }

@@ -341,6 +341,11 @@ class SupabaseAuthBackend(
  * on this device.
  */
 private class SessionStoreSessionManager(private val store: SessionStore) : SessionManager {
+    // Deliberately not `com.synapse.android.core.CortexJson`. A session is
+    // written to this device's encrypted store and read back by this app
+    // alone; it is never a shared document, so no other client can be broken
+    // by its shape. CortexJson's settings are a cross-client contract and
+    // belong only to documents that have one.
     private val json = Json { ignoreUnknownKeys = true }
 
     override suspend fun saveSession(session: UserSession) {

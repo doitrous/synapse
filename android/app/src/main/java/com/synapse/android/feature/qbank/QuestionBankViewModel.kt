@@ -3,6 +3,7 @@ package com.synapse.android.feature.qbank
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Question
@@ -34,7 +35,6 @@ import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 import kotlinx.serialization.builtins.MapSerializer
 import kotlinx.serialization.builtins.serializer
-import kotlinx.serialization.json.Json
 
 /** One subject's standing in [QBankStats.bySubject], most-accurate first. */
 data class SubjectAccuracy(val subjectId: String, val marked: Int, val correct: Int)
@@ -134,9 +134,7 @@ class QuestionBankViewModel(
     private val sync: SyncEngine,
     private val random: Random = Random.Default,
 ) : ViewModel() {
-
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
-    private val json = Json { ignoreUnknownKeys = true }
 
     private val pool: StateFlow<List<Question>> = store.ledgerItems(ContentKind.QUESTION)
         .map { items -> items.filter { it.isStudentVisible }.mapNotNull(QuestionProjection::project) }
@@ -232,7 +230,7 @@ class QuestionBankViewModel(
 
         if (name.isNotBlank()) {
             val updatedNames = storedNames + (sessionId to name)
-            sync.write(LiveSession.SESSION_NAMES_KEY, json.encodeToString(NAMES_SERIALIZER, updatedNames))
+            sync.write(LiveSession.SESSION_NAMES_KEY, CortexJson.encodeToString(NAMES_SERIALIZER, updatedNames))
         }
 
         return LiveSession(
@@ -253,7 +251,7 @@ class QuestionBankViewModel(
 
     private suspend fun readNames(): Map<String, String> =
         store.document(LiveSession.SESSION_NAMES_KEY)?.json
-            ?.let { json.decodeFromString(NAMES_SERIALIZER, it) }
+            ?.let { CortexJson.decodeFromString(NAMES_SERIALIZER, it) }
             .orEmpty()
 
     override fun onCleared() {

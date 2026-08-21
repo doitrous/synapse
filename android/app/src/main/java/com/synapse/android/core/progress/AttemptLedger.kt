@@ -1,7 +1,7 @@
 package com.synapse.android.core.progress
 
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
-import kotlinx.serialization.json.Json
 
 /**
  * Reads the attempt ledger back out of [LocalStore].
@@ -17,19 +17,17 @@ import kotlinx.serialization.json.Json
  * shard reads. Never enumerates shards by guessing keys.
  */
 object AttemptLedger {
-
     private const val MAX_MONTHS = 12
-    private val json = Json { ignoreUnknownKeys = true }
 
     suspend fun records(store: LocalStore): List<AttemptRecord> {
         val index = store.document(AttemptStore.INDEX_KEY)?.json
-            ?.let { json.decodeFromString(AttemptIndex.serializer(), it) }
+            ?.let { CortexJson.decodeFromString(AttemptIndex.serializer(), it) }
             ?: AttemptIndex()
 
         val months = index.months.sortedDescending().take(MAX_MONTHS)
         return months.flatMap { month ->
             store.document(AttemptStore.monthKey(month))?.json
-                ?.let { json.decodeFromString(AttemptMonth.serializer(), it).records }
+                ?.let { CortexJson.decodeFromString(AttemptMonth.serializer(), it).records }
                 .orEmpty()
         }
     }

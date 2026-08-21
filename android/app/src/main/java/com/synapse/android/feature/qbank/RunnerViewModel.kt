@@ -4,6 +4,7 @@ import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.Question
 import com.synapse.android.core.progress.AttemptRecord
@@ -28,7 +29,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.flow.updateAndGet
-import kotlinx.serialization.json.Json
 
 /**
  * Where [RunnerViewModel] gets its once-a-second signal to advance
@@ -76,7 +76,6 @@ class RunnerViewModel(
     private val sync: SyncEngine,
     private val ticker: Ticker = RealTicker,
 ) : ViewModel() {
-
     private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
 
     /**
@@ -86,7 +85,6 @@ class RunnerViewModel(
      * same month shard and the later write would drop the earlier record.
      */
     private val banking = Mutex()
-    private val json = Json { ignoreUnknownKeys = true }
     private val questionsById: Map<String, Question> = questions.associateBy { it.id }
 
     /**
@@ -275,7 +273,7 @@ class RunnerViewModel(
      */
     private fun persist(transform: (LiveSession) -> LiveSession): LiveSession {
         val updated = _session.updateAndGet(transform)
-        backgroundScope.launch { sync.write(LiveSession.KEY, json.encodeToString(LiveSession.serializer(), updated)) }
+        backgroundScope.launch { sync.write(LiveSession.KEY, CortexJson.encodeToString(LiveSession.serializer(), updated)) }
         return updated
     }
 

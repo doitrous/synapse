@@ -1,5 +1,6 @@
 package com.synapse.android.core.sync
 
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.api.ApiError
 import com.synapse.android.core.api.RemoteState
 import com.synapse.android.core.api.SynapseApi
@@ -15,7 +16,6 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.serialization.SerializationException
-import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonNull
 
 /**
@@ -56,8 +56,6 @@ class SyncEngine(
     // OkHttp's own dispatcher thread, not necessarily the caller's — so this
     // needs an actual mutual-exclusion primitive, not just a checked field.
     private val refreshMutex = Mutex()
-
-    private val jsonFormat = Json { ignoreUnknownKeys = true }
 
     /**
      * Ask the server what changed, pull it down, and reconcile it against
@@ -123,7 +121,7 @@ class SyncEngine(
     suspend fun drain() {
         for (entry in store.outbox()) {
             try {
-                val value = jsonFormat.parseToJsonElement(entry.json)
+                val value = CortexJson.parseToJsonElement(entry.json)
                 api.writeState(entry.key, value)
                 store.clearOutbox(entry.id)
             } catch (e: CancellationException) {
@@ -204,7 +202,6 @@ class SyncEngine(
     }
 
     companion object {
-
         /**
          * The shared catalogue: every key `STUDENT_READABLE_STATE` lists on
          * the server (`server/src/index.js`), in the same order. Enumerated,

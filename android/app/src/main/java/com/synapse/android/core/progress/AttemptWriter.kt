@@ -1,9 +1,9 @@
 package com.synapse.android.core.progress
 
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
-import kotlinx.serialization.json.Json
 
 /**
  * The one place an attempt is banked.
@@ -41,16 +41,14 @@ import kotlinx.serialization.json.Json
 suspend fun writeAttempt(store: LocalStore, sync: SyncEngine, record: AttemptRecord) {
     val monthName = AttemptStore.month(Instant.parse(record.at))
     val monthKey = AttemptStore.monthKey(monthName)
-    val month = store.document(monthKey)?.json?.let { attemptJson.decodeFromString(AttemptMonth.serializer(), it) }
+    val month = store.document(monthKey)?.json?.let { CortexJson.decodeFromString(AttemptMonth.serializer(), it) }
         ?: AttemptMonth(month = monthName)
     val updatedMonth = AttemptStore.addAttempt(month, record)
     if (updatedMonth === month) return
-    sync.write(monthKey, attemptJson.encodeToString(AttemptMonth.serializer(), updatedMonth))
+    sync.write(monthKey, CortexJson.encodeToString(AttemptMonth.serializer(), updatedMonth))
 
     val index = store.document(AttemptStore.INDEX_KEY)?.json
-        ?.let { attemptJson.decodeFromString(AttemptIndex.serializer(), it) }
+        ?.let { CortexJson.decodeFromString(AttemptIndex.serializer(), it) }
         ?: AttemptIndex()
-    sync.write(AttemptStore.INDEX_KEY, attemptJson.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
+    sync.write(AttemptStore.INDEX_KEY, CortexJson.encodeToString(AttemptIndex.serializer(), AttemptStore.index(index, record)))
 }
-
-private val attemptJson = Json { ignoreUnknownKeys = true }

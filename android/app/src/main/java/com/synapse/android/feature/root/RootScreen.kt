@@ -25,6 +25,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.synapse.android.AppGraph
+import com.synapse.android.core.CortexJson
 import com.synapse.android.core.auth.AuthState
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
@@ -48,7 +49,6 @@ import com.synapse.android.feature.qbank.RunnerViewModel
 import com.synapse.android.feature.qbank.SessionBuilderScreen
 import com.synapse.android.feature.qbank.TopicChooserScreen
 import kotlinx.coroutines.flow.first
-import kotlinx.serialization.json.Json
 
 private const val ROUTE_QBANK = "qbank"
 private const val ROUTE_PRACTICAL = "practical"
@@ -208,8 +208,6 @@ private sealed interface QbankStep {
     data object Previous : QbankStep
 }
 
-private val liveSessionJson = Json { ignoreUnknownKeys = true }
-
 /**
  * `TopicChooserScreen -> SessionBuilderScreen -> QuestionRunnerScreen ->
  * ResultsScreen`, with `PreviousSittingsScreen` reachable from the chooser.
@@ -226,7 +224,7 @@ private fun QuestionBankRoute(graph: AppGraph) {
 
     LaunchedEffect(Unit) {
         val stored = graph.store.document(LiveSession.KEY)?.json
-            ?.let { runCatching { liveSessionJson.decodeFromString(LiveSession.serializer(), it) }.getOrNull() }
+            ?.let { runCatching { CortexJson.decodeFromString(LiveSession.serializer(), it) }.getOrNull() }
         step = if (stored != null && stored.phase == PHASE_RUNNING) {
             QbankStep.Running(stored, resolveQuestions(graph.store, stored.questionIds))
         } else {

@@ -32,6 +32,11 @@ class Converters {
     @TypeConverter
     fun toInstantOrNull(value: Long?): Instant? = value?.let(Instant::ofEpochMilli)
 
+    // Deliberately not `com.synapse.android.core.CortexJson`. These bytes are a
+    // Room column: written by this process, read by this process, never
+    // uploaded. There is no second client whose expectations could be broken
+    // by their shape, so they carry no cross-client contract and must not be
+    // bound to one -- CortexJson's settings exist to serve documents that do.
     @TypeConverter
     fun fromStringList(value: List<String>): String = Json.encodeToString(value)
 
