@@ -81,6 +81,13 @@ export interface Concept {
   relatedConceptIds?: string[]
   /** Article IDs that discuss this concept. */
   relatedArticleIds?: string[]
+  /**
+   * Images shown with this concept, from the shared media library.
+   *
+   * Ids rather than URLs, so the plate on a question and the plate on the
+   * concept are one record: fixing it once fixes it in both.
+   */
+  mediaIds?: string[]
   /** Resource IDs approved for this concept — auto-maintained as resources are tagged. */
   resourceIds?: string[]
   approvedFileResourceIds?: string[]
