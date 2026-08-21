@@ -1,7 +1,7 @@
 /**
  * `101 ISK > Histology > Cytology > The cell` — the question books' MCQs.
  *
- * Fifty rows carry this leaf in the bank. Forty-six are authored here; four are
+ * Fifty rows carry this leaf in the bank. Forty-one are authored here; nine are
  * authored in `cytoplasm.ts` instead, and the reason is worth stating because it
  * recurs. `cis-face-of-golgi`, `transfer-vesicles`, `well-developed-rer` and
  * `finger-like-projection-covered-by-cell-membrane` are Golgi, rER and cilium
@@ -13,6 +13,13 @@
  * Rather than mint rival Golgi and cilium concepts for four questions, the four
  * questions moved to where their teaching lives, which also gives them the one
  * article in this module that actually exists.
+ *
+ * The other five are the endocytosis questions — `clathrin`, `coated-vesicles`,
+ * the two pinocytosis rows and the phagocytosis row. Endocytosis is one concept,
+ * and `Cytoplasm` asks it fourteen more times than this leaf does, so the
+ * concept is declared there and these five went with it rather than the fourteen
+ * coming here. The department book teaches endocytosis in its cytoplasm chapter
+ * too, which is the same judgement made independently.
  *
  * What is left is one coherent chapter: the plasma membrane. The books examine
  * it four ways and they examine it very hard — thickness alone is asked five
@@ -27,7 +34,8 @@
  * have to move these three questions here into that file, or move this concept
  * there, because the same duplicate-id rule applies.
  *
- * Six answers are overridden. Two of them — `which-molecule-of-the-cell-membrane-has-a-stabilizing-effect`
+ * Five answers are overridden here and a sixth, `clathrin`, in `cytoplasm.ts`.
+ * Two of them — `which-molecule-of-the-cell-membrane-has-a-stabilizing-effect`
  * and `one-of-the-followings-is-not-a-function-of-the-cell-membrane` — are keyed
  * wrong in the books by one letter, and in both cases the same book keys the
  * matching question correctly, which is what makes the misprint visible.
@@ -90,22 +98,6 @@ export const LEAF: McqLeafSeed = {
       gaps: [
         'Two rows filed under this leaf name the immunoglobulin the basophil and the mast cell have membrane receptors for. The cell-specific facts belong to `basophil-granule-contents-and-anaphylaxis` and `mast-cell-identification`, both already minted in other batches; they are taught in the option explanations here rather than duplicated as a concept, because a concept already declared by a sibling leaf of this batch cannot be declared again without emitting a duplicate id.',
       ],
-    },
-    {
-      key: 'endocytosis-three-types-and-exocytosis',
-      label: 'The membrane takes material in by phagocytosis, pinocytosis or receptor-mediated endocytosis, and puts it out by exocytosis',
-      definition:
-        'Endocytosis is the bulk movement of material into the cell by forming vesicles from the plasma membrane, and it is of three kinds. Phagocytosis, cell eating, surrounds a solid particle with pseudopodia — a white blood cell engulfing a bacterium. Pinocytosis, cell drinking, takes in extracellular fluid and what is dissolved in it through small invaginations, as the thyroid follicular cell takes up colloid. Receptor-mediated endocytosis begins when a ligand binds its receptors; the receptors aggregate over a patch of membrane that clathrin coats on its cytoplasmic side, forming a coated pit which pinches off as a coated vesicle — this is how growth hormone is taken up. Exocytosis is the reverse: a cytoplasmic vesicle fuses with the plasma membrane and discharges its contents outside without breaking the continuity of the membrane.',
-      objective:
-        'Distinguish the three types of endocytosis by what is taken in and by how the membrane does it, and contrast all three with exocytosis.',
-      pitfall:
-        'Deciding by the size of the word rather than by what is engulfed. Phagocytosis takes solids, pinocytosis takes fluid, and receptor-mediated endocytosis takes whatever its receptor binds however little of it there is.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Cytology > The cell',
-      type: 'mechanism',
-      aliases: ['Phagocytosis', 'Pinocytosis', 'Receptor mediated endocytosis', 'Coated pit', 'Clathrin'],
     },
     {
       key: 'cell-junction-types-and-what-each-does',
@@ -266,33 +258,6 @@ export const LEAF: McqLeafSeed = {
         'Only three options survived extraction — cholesterol, intrinsic proteins and cell coat — and the contract is four to five. The question itself is sound and its answer is the cell coat; the fourth option is worth recovering when the page is rescanned, because the same three-option shape appears in several rows from this book and a rescan would fix them together.',
     },
     {
-      key: 'clathrin-4c5e768b',
-      conceptKey: 'endocytosis-three-types-and-exocytosis',
-      difficulty: 'Hard', questionType: 'Structure and function',
-      learningObjective: 'Place clathrin on the cytoplasmic side of the coated pit.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The book keys B, and B is wrong. Clathrin assembles as a basket on the cytoplasmic surface of the membrane, pulling the pit inwards; it cannot be on the outer surface, because the outer surface is where the ligand binds and a coat there would block the very receptors the process depends on. A and B are the same sentence with the side swapped, which is the signature of a one-letter key slip. Recorded rather than silently followed.',
-      explanations: {
-        A: 'Correct. Clathrin coats the cytoplasmic surface of the membrane over the aggregated receptors, and the basket it forms is what invaginates the patch into a coated pit and then pinches it off as a coated vesicle.',
-        B: 'The outer surface is where the ligand and the cell coat are. A protein cage there would sit between the receptor and the molecule it has to bind. This is the option the book keys, and it is the side-swap the question is really testing.',
-        C: 'Clathrin is structural, not a receptor. The receptors are separate transmembrane molecules that clathrin gathers up from the inside.',
-        D: 'The enzymes that digest the endosome\'s contents come from lysosomes. Clathrin never enters that part of the story — it is shed from the vesicle soon after it forms.',
-      },
-    },
-    {
-      key: 'coated-vesicles-1d233b7a',
-      conceptKey: 'endocytosis-three-types-and-exocytosis',
-      difficulty: 'Moderate', questionType: 'Structure and function',
-      learningObjective: 'State where a coated vesicle comes from and which side its coat is on.',
-      explanations: {
-        A: 'Correct. A coated vesicle is a piece of the cell membrane that has invaginated as a coated pit and pinched off, so it is derived from the cell membrane itself.',
-        B: 'The clathrin coat is on the cytoplasmic side, not the outside. Swapping the side is the commonest error on this organelle, and it is why "all of the above" cannot be taken.',
-        C: 'Receptor-mediated endocytosis really does take up hormones — the book gives growth hormone as its example — but a vesicle that carries a hormone is described by its cargo, and the option that says what a coated vesicle *is* is A.',
-        D: 'Not all of the above, because B has the coat on the wrong surface. This is the option chosen by students who recognise that C is defensible and assume the set is cumulative.',
-      },
-    },
-    {
       key: 'concerning-highly-selective-lipoproteins-of-plasmalemma-whic-9671041b',
       conceptKey: 'plasma-membrane-molecular-components-and-fluid-mosaic',
       difficulty: 'Moderate', questionType: 'Structure and function',
@@ -449,18 +414,6 @@ export const LEAF: McqLeafSeed = {
         'Only three options survived extraction and the contract is four to five. The row has a second problem worth flagging to whoever rescans it: the book keys B, "hydrophobic heads directed inwards", but the head of a phospholipid is hydrophilic by definition and it is the tails that point inwards. The correct surviving option is A. Both the missing option and the key need the page.',
     },
     {
-      key: 'pinocytosis-is-the-process-by-which-the-cell-membrane-can-en-352b7949',
-      conceptKey: 'endocytosis-three-types-and-exocytosis',
-      difficulty: 'Easy', questionType: 'Mechanism',
-      learningObjective: 'Say what pinocytosis takes in.',
-      explanations: {
-        A: 'Correct. Pinocytosis is cell drinking: small invaginations of the membrane surround extracellular fluid and whatever is dissolved in it.',
-        B: 'Solid particles are taken by phagocytosis, using pseudopodia. The two words differ only in the Greek for eating and drinking, and that is the whole distinction being tested.',
-        C: 'A bacterium is a solid particle and is the department book\'s own example of phagocytosis by a white blood cell.',
-        D: 'A foreign body is again solid, and again phagocytosis. Three of the four options are the same wrong answer stated three ways, which tells you where the examiner expects the mistake.',
-      },
-    },
-    {
       key: 'protein-components-of-the-cell-membrane-is-9c02ac05',
       conceptKey: 'plasma-membrane-molecular-components-and-fluid-mosaic',
       difficulty: 'Moderate', questionType: 'Structure and function',
@@ -607,18 +560,6 @@ export const LEAF: McqLeafSeed = {
       },
     },
     {
-      key: 'the-process-by-which-the-cell-membrane-engulfs-a-solid-parti-bab70411',
-      conceptKey: 'endocytosis-three-types-and-exocytosis',
-      difficulty: 'Easy', questionType: 'Mechanism',
-      learningObjective: 'Name the process that takes in a solid particle.',
-      explanations: {
-        A: 'Microcytosis is not a process of the cell membrane. The word is invented from "micro-" by analogy and is in the set to catch a guess made on word shape.',
-        B: 'Exocytosis moves material out of the cell, not in.',
-        C: 'Correct. Phagocytosis, cell eating: pseudopodia surround the solid particle and enclose it in a phagosome.',
-        D: 'Pinocytosis takes in fluid. It is the paired term and the intended trap; the two differ only in what is engulfed.',
-      },
-    },
-    {
       key: 'the-thickness-of-the-cell-membraneis-18ee7e88',
       conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
       difficulty: 'Easy', questionType: 'Normal values',
@@ -640,18 +581,6 @@ export const LEAF: McqLeafSeed = {
         B: 'The same figure in micrometres, a thousandfold too thick.',
         C: '75–100 nm is ten times the true thickness and is closer to the diameter of a small vesicle.',
         D: '75–100 µm is larger than most whole cells.',
-      },
-    },
-    {
-      key: 'uptake-of-extracellular-fluid-by-the-cell-membrane-is-called-d4513860',
-      conceptKey: 'endocytosis-three-types-and-exocytosis',
-      difficulty: 'Easy', questionType: 'Mechanism',
-      learningObjective: 'Name the process that takes in extracellular fluid.',
-      explanations: {
-        A: 'Phagocytosis takes in solid particles. It is the paired term and the intended trap.',
-        B: 'Exocytosis discharges material from the cell; it is the opposite direction.',
-        C: 'Correct. Pinocytosis, cell drinking — small invaginations of the membrane surrounding extracellular fluid.',
-        D: 'Autophagy is the digestion of the cell\'s own worn organelles by a lysosome. It is internal and involves no uptake from outside at all.',
       },
     },
     {
