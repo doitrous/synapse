@@ -28,10 +28,11 @@
   The matching blocks keep their spare options. A block's distractors are half of
   what it tests — they are the near neighbours a student has to rule out — and
   flattening a block into single-best-answer questions hands the student a fresh
-  set of distractors each time and stops testing the discrimination. The pairings
-  are authored: every matching block in this corpus prints its key as a grid on
-  the answers page, and every one of those grids came back from OCR as broken
-  table rules.
+  set of distractors each time and stops testing the discrimination. Three of the four
+  pairings are the paper's own, read off the answers page at 200 dpi: those
+  grids are legible to the eye and came back from OCR as broken table rules, so
+  "the scan lost the key" was a statement about the extraction and not about the
+  page. The fourth is authored, because that paper prints no key at all.
 
   What was banked and NOT authored, and why
   ----------------------------------------
@@ -39,9 +40,16 @@
   left in the bank. A question dropped without a reason is one nobody can
   reconsider, so the reasons are counted here rather than implied:
 
-    915  no answer anywhere in the corpus. The books print their keys as grids
-         on a back page and OCR reduced most of those grids to table rules. An
-         MCQ with no answer and no covering concept is not authorable yet.
+    915  no answer the extraction recovered — which is not the same as no
+         answer in the corpus, and the difference was found by checking. The
+         books print their keys as grids on a back page; OCR reduced those
+         grids to table rules, but they are plain when the page is rendered at
+         200 dpi. At least 173 of these 915, across the seven department
+         histology papers, have a legible printed answer sitting on a page the
+         extraction reported as answerless. They are recoverable by rendering,
+         the way this module's 120 handwritten answers were. An MCQ with no
+         answer and no covering concept is not authorable yet; most of these
+         are waiting on a rendering pass rather than on the source.
     287  answered and legible, but no concept among the 22 covers them. This is
          the real bound on the batch, not the extraction: the 22 concepts came
          from one end-of-year paper, and the MCQ corpus is much wider than they
