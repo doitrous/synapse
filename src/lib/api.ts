@@ -34,7 +34,15 @@ export async function apiGet<T>(path: string): Promise<T> {
 }
 
 export async function apiSend<T>(path: string, method: string, body?: unknown, keepalive = false): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, { method, headers: await headers(true), body: body == null ? undefined : JSON.stringify(body), keepalive })
+  // A file is sent as itself. Stringifying a Blob yields "{}", which is how an
+  // upload silently becomes two bytes of nothing.
+  const isBinary = typeof Blob !== 'undefined' && body instanceof Blob
+  const res = await fetch(`${BASE}${path}`, {
+    method,
+    headers: await headers(!isBinary),
+    body: body == null ? undefined : isBinary ? body : JSON.stringify(body),
+    keepalive,
+  })
   if (!res.ok) {
     // The refusal body is where the server says which item was refused and why.
     // Reading it costs one parse on a path that has already failed, and it is
