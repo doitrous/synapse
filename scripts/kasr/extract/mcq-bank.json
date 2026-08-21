@@ -11831,12 +11831,12 @@
   },
   {
    "key": "a-45-year-old-man-arrived-at-the-emergency-department-with-i-8be91555",
-   "stem": "A 45-year-old man arrived at the emergency department with injuries to his left Ac ad Ac ad ad ad elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examination show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed? (2024) ad ad ViP a- Flexor digitorum superﬁcialis. ViP",
+   "stem": "A 45-year-old man arrived at the emergency department with injuries to his left elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examinations show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed?",
    "options": {
-    "A": "Flexor digitorum superﬁcialis.",
-    "B": "Biceps brachii.",
-    "C": "Brachioradialis.",
-    "D": "Flexor carpi ulnaris."
+    "a": "flexor digitorum superficialis",
+    "b": "biceps brachii",
+    "c": "brachioradialis",
+    "d": "flexor carpi ulnaris"
    },
    "answer": "B",
    "answerConfidence": "same-file",
@@ -11858,7 +11858,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -11871,16 +11871,19 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "A 45-year-old man arrived at the emergency department with injuries to his left Ac ad Ac ad ad ad elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examination show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed? (2024) ad ad ViP a- Flexor digitorum superﬁcialis. ViP",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "a-45-year-old-man-is-stabbed-in-the-lateral-chest-wall-he-no-6ffe593e",
-   "stem": "A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged? (2024)",
+   "stem": "A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged?",
    "options": {
-    "A": "Axillary nerve",
-    "B": "Long thoracic nerve",
-    "C": "Dorsal scapular nerve",
-    "D": "Thoracodorsal nerve"
+    "a": "axillary nerve",
+    "b": "long thoracic nerve.",
+    "c": "dorsal scapular nerve",
+    "d": "thoracodorsal nerve."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -11909,7 +11912,10 @@
    "leaf": "Nerve Supply of Upper Limb & Nerve Injuries",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "a-46-year-old-woman-was-suffering-from-repeated-bleeding-gum-60da1a74",
@@ -12394,12 +12400,12 @@
   },
   {
    "key": "a-fracture-of-the-midshaft-of-the-humerus-is-most-likely-to-1dc5d3f5",
-   "stem": "A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)",
+   "stem": "A fracture of the midshaft of the humerus is most likely to injure which nerve?",
    "options": {
-    "A": "Ulnar nerve",
-    "B": "Median nerve. ViP Ac",
-    "C": "Radial nerve",
-    "D": "Axillary nerve"
+    "a": "ulnar nerve",
+    "b": "median nerve",
+    "c": "radial nerve",
+    "d": "axillary nerve"
    },
    "answer": "D",
    "answerConfidence": "same-file",
@@ -12430,16 +12436,19 @@
    "leaf": "Nerve Supply of Upper Limb & Nerve Injuries",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "a-fracture-of-the-surgical-neck-of-the-humerus-which-artery-b44c2450",
-   "stem": "A fracture of the surgical neck of the humerus, which artery may be Injured? (2024)",
+   "stem": "Clavicular part of deltoid is associated with:",
    "options": {
-    "A": "Subscapular",
-    "B": "Posterior humeral circumﬂex",
-    "C": "Radial recurrent",
-    "D": "Deep brachial"
+    "a": "lateral rotation",
+    "b": "medial rotation",
+    "c": "abduction",
+    "d": "adduction"
    },
    "answer": "C",
    "answerConfidence": "same-file",
@@ -12470,7 +12479,10 @@
    "leaf": "Cardiovascular system",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "A fracture of the surgical neck of the humerus, which artery may be Injured? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "a-lysosome-measures-0-4-pm-in-diameter-what-is-the-diameter-c3402333",
@@ -12642,12 +12654,12 @@
   },
   {
    "key": "a-man-came-with-fracture-of-the-surgical-neck-of-the-humerus-aa1d70b0",
-   "stem": "A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the shoulder joint that you would test to conﬁrm the nerve injury is (2024) y y P a- Flexion. P",
+   "stem": "A man came with fracture of the surgical neck of the humerus, the first movement of the shoulder joint that you would test to confirm the nerve injury is:",
    "options": {
-    "A": "Flexion.",
-    "B": "Extension.",
-    "C": "Rotation.",
-    "D": "Abduction."
+    "a": "Flexion",
+    "b": "Extension",
+    "c": "Rotation",
+    "d": "Abduction"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -12669,7 +12681,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "low",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -12681,7 +12693,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the shoulder joint that you would test to conﬁrm the nerve injury is (2024) y y P a- Flexion. P",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "a-man-is-unable-to-hold-a-paper-between-his-index-and-middle-086e6f2c",
@@ -14444,12 +14459,12 @@
   },
   {
    "key": "after-drinking-heavily-on-a-saturday-night-a-man-fell-asleep-edf35aba",
-   "stem": "After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the: (2024)",
+   "stem": "After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the:",
    "options": {
-    "A": "Radial nerve above the elbow",
-    "B": "Innervation of the triceps muscle",
-    "C": "Radial nerve in the axilla",
-    "D": "Posterior cord"
+    "a": "radial nerve above the elbow",
+    "b": "innervation of the triceps muscle.",
+    "c": "radial nerve in the axilla",
+    "d": "posterior cord"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -14478,7 +14493,10 @@
    "leaf": "Nerve Supply of Upper Limb & Nerve Injuries",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the: (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "after-folding-the-most-caudal-structure-at-tail-fold-is-4363fc0d",
@@ -16705,11 +16723,12 @@
   },
   {
    "key": "an-example-of-a-secondary-cartilaginous-joint-is-2024-863c03c7",
-   "stem": "An example of a secondary cartilaginous joint is: (2024)",
+   "stem": "An example of a secondary cartilaginous joint is:",
    "options": {
-    "A": "Shoulder joint. P",
-    "B": "Intervertebral disc",
-    "C": "Inferior tibioﬁbular joint"
+    "a": "shoulder joint",
+    "b": "intervertebral disc",
+    "c": "inferior tibiofibular joint",
+    "d": "lambdoid suture (head)."
    },
    "answer": "A",
    "answerConfidence": "same-file",
@@ -16731,14 +16750,17 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
    "leaf": "Articular system",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "An example of a secondary cartilaginous joint is: (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "an-example-of-ball-and-socket-joint-is-dep-book-2018-2019-803005bc",
@@ -24040,12 +24062,12 @@
   },
   {
    "key": "considering-the-nerve-supply-of-pectoralis-major-it-is-inner-b5b0d5da",
-   "stem": "Considering the nerve supply of pectoralis major; It is innervated by (2024)",
+   "stem": "Considering the nerve supply of pectoralis major; it is innervated by:",
    "options": {
-    "A": "Lateral pectoral nerve",
-    "B": "Medial pectoral nerve",
-    "C": "Both medial and lateral pectoral nerves",
-    "D": "Nerve to pectoralis major"
+    "a": "lateral pectoral nerve.",
+    "b": "medial pectoral nerve",
+    "c": "both medial and pectoral nerves.",
+    "d": "nerve to pectoralis major."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -24076,7 +24098,10 @@
    "leaf": "Pectoral Region",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Considering the nerve supply of pectoralis major; It is innervated by (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "considering-the-vessels-of-the-upper-limb-2024-em-p-vi-ad-p-4bc9b04f",
@@ -34968,12 +34993,12 @@
   },
   {
    "key": "longitudinal-growth-in-a-growing-bone-passes-through-which-o-678b8773",
-   "stem": "Longitudinal growth in a growing bone passes through which of the following? (2024)",
+   "stem": "Longitudinal growth in a growing bone passes through which of the following?",
    "options": {
-    "A": "Metaphysis.",
-    "B": "Diaphysis.",
-    "C": "Epiphyseal plate.",
-    "D": "Epiphyseal line."
+    "a": "metaphysic",
+    "b": "diaphysis",
+    "c": "epiphyseal plate",
+    "d": "epiphyseal line"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -34995,7 +35020,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
@@ -35008,7 +35033,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Longitudinal growth in a growing bone passes through which of the following? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "loose-areolar-c-t-is-abundant-in-all-of-the-following-except-20f03d69",
@@ -46423,11 +46451,12 @@
   },
   {
    "key": "pseudostratified-columnar-ciliated-epithelium-is-characteriz-09770e3a",
-   "stem": "Pseudostratified columnar ciliated epithelium is characterized by:",
+   "stem": "Pseudostratified columnar ciliated epithelium with stereocilia lines:",
    "options": {
-    "A": "Presence of several layers of cells",
-    "B": "The nuclei of cells are lying at the same height",
-    "C": "All cells are lying on the basement membrane"
+    "a": "Fallopian tube",
+    "b": "Esophagus",
+    "c": "Ureter",
+    "d": "Epididymis"
    },
    "answer": "C",
    "answerConfidence": "same-file",
@@ -46449,14 +46478,17 @@
    ],
    "timesAsked": 2,
    "topic": "Epithelium",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Histology",
    "chapter": "Epithelial Tissues",
    "leaf": "Polarity and Membranous Specializations",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Pseudostratified columnar ciliated epithelium is characterized by:",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "pseudostratified-columnar-epithelium-is-4df683a1",
@@ -48039,9 +48071,10 @@
    "key": "regarding-monozygotic-twin-352aa255",
    "stem": "Regarding monozygotic twin",
    "options": {
-    "A": "Is the. commonest type",
-    "B": "Twins are always of same sex",
-    "C": "Are non-identical in shape"
+    "a": "Is the commonest type",
+    "b": "Twins are always of same sex",
+    "c": "Are non-identical in shape",
+    "d": "Are developed by fertilization of two ova"
    },
    "answer": "B",
    "answerConfidence": "same-file",
@@ -48063,14 +48096,17 @@
    ],
    "timesAsked": 2,
    "topic": "Embryology",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "General Embryology",
    "leaf": "Fetal Membranes",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Regarding monozygotic twin",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "regarding-monozygotic-twin-a-is-the-commonest-type-94e46145",
@@ -51140,13 +51176,12 @@
   },
   {
    "key": "regarding-the-palmar-arterial-arches-2024-ac-ad-ac-ad-ad-ad-a9a036b4",
-   "stem": "Regarding the palmar arterial arches: (2024) Ac ad Ac ad ad ad",
+   "stem": "Regarding the palmar arterial arches:",
    "options": {
-    "A": "The superﬁcial palmar arch is formed by union of ulnar artery with the superﬁcial palmar branch of radial artery.",
-    "B": "Five digital arteries arise from the convexity of the superﬁcial palmar arch.",
-    "C": "The deep palmar arch is at a level of distal border of extended thumb.",
-    "D": "the deep palmar arch lies superﬁcial to the long ﬂexor tendons of the ﬁngers.",
-    "E": "Ulnar vessels."
+    "a": "The superficial palmar arch is formed by union of the ulnar artery with the superficial palmar branch of radial artery.",
+    "b": "Five digital arteries arise from the convexity of the superficial palmar arch.",
+    "c": "The deep palmar arch is at a level of distal border of extended thumb.",
+    "d": "The deep palmar arch lies superficial to the long flexor tendons of the fingers"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -51168,7 +51203,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
@@ -51181,7 +51216,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Regarding the palmar arterial arches: (2024) Ac ad Ac ad ad ad",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "regarding-the-pectoralis-major-muscle-2019-ac-ad-ac-ad-ad-ad-ff951b6a",
@@ -54670,12 +54708,12 @@
   },
   {
    "key": "select-the-correct-statement-the-musculocutaneous-nerve-2024-58216e24",
-   "stem": "Select the correct statement; the musculocutaneous nerve: (2024)",
+   "stem": "Select the correct statement; the musculocutaneous nerve:",
    "options": {
-    "A": "It is anterior to the biceps brachii muscle but deep to the brachialis",
-    "B": "Arises from the medial cord of the brachial plexus",
-    "C": "Becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon",
-    "D": "Supplies the brachioradialis muscle"
+    "a": "it is anterior to the biceps brachii muscle but deep to the brachialis",
+    "b": "arises from the medial cord of the brachial plexus.",
+    "c": "becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon.",
+    "d": "supplies the brachioradialis muscle."
    },
    "answer": null,
    "answerConfidence": "none",
@@ -54706,7 +54744,10 @@
    "leaf": "Arm",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Select the correct statement; the musculocutaneous nerve: (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "sensory-sympathetic-and-parasympathetic-ganglia-are-develope-03698d82",
@@ -58071,12 +58112,12 @@
   },
   {
    "key": "the-biceps-brachii-muscle-is-primarily-involved-in-2024-ad-a-92aab1a2",
-   "stem": "The biceps brachii muscle Is primarily involved in: (2024) ad Ac a- Extension of the forearm. y Ac",
+   "stem": "The biceps brachii muscle is primarily involved in:",
    "options": {
-    "A": "Extension of the forearm.",
-    "B": "Flexion and supination of the forearm.",
-    "C": "Pronation of the forearm.",
-    "D": "Flexion of the wrist."
+    "a": "extension of the forearm",
+    "b": "flexion and supination of the forearm",
+    "c": "pronation of the forearm",
+    "d": "flexion of the wrist"
    },
    "answer": "C",
    "answerConfidence": "same-file",
@@ -58098,7 +58139,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "low",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -58110,7 +58151,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "The biceps brachii muscle Is primarily involved in: (2024) ad Ac a- Extension of the forearm. y Ac",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "the-bicipital-groove-of-the-humerus-lodges-contains-the-2017-0763b2a0",
@@ -59090,12 +59134,12 @@
   },
   {
    "key": "the-cephalic-vein-is-located-on-which-aspect-of-the-upper-li-56130f62",
-   "stem": "The cephalic vein is located on which aspect of the upper limb? (2024)",
+   "stem": "The cephalic vein is located on which aspect of the upper limb?",
    "options": {
-    "A": "Lateral.",
-    "B": "Medial.",
-    "C": "Anterior.",
-    "D": "Posterior."
+    "a": "lateral",
+    "b": "medial",
+    "c": "anterior",
+    "d": "posterior"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -59117,7 +59161,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -59130,7 +59174,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "The cephalic vein is located on which aspect of the upper limb? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "the-cervico-axillary-canal-choose-the-correct-answer-dep-boo-0e1c55c5",
@@ -64891,12 +64938,12 @@
   },
   {
    "key": "the-mid-palmar-space-central-compartment-of-the-palm-contain-5700c619",
-   "stem": "The mid-palmar space (central compartment) of the palm contains the: (2024) em em em",
+   "stem": "The mid-palmar space (central compartment) of the palm contains the:",
    "options": {
-    "A": "Terminal branches of musculocutaneous nerve",
-    "B": "Ulnar synovial bursa",
-    "C": "Lumbrical muscles",
-    "D": "Tendon of ﬂexor carpi ulnaris muscle. Ac ad"
+    "a": "Terminal branches of musculocutaneous nerve",
+    "b": "Ulnar synovial bursa",
+    "c": "Lumbrical muscles",
+    "d": "Tendon of flexor carpi ulnaris muscle"
    },
    "answer": "A",
    "answerConfidence": "same-file",
@@ -64925,7 +64972,10 @@
    "leaf": "Muscular system",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "The mid-palmar space (central compartment) of the palm contains the: (2024) em em em",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "the-mid-palmar-space-choose-the-correct-answer-dep-book-p-a-172a1582",
@@ -65503,12 +65553,12 @@
   },
   {
    "key": "the-muscles-supplied-by-posterior-interosseous-nerve-in-fore-580b9f46",
-   "stem": "The muscles supplied by posterior interosseous nerve in forearm include: (2016)",
+   "stem": "The muscles supplied by posterior interosseous nerve in forearm include:",
    "options": {
-    "A": "Anconeus",
-    "B": "Extensor carpi radialis longus",
-    "C": "Extensor indicis",
-    "D": "Brachialis"
+    "a": "Anconeus",
+    "b": "Extensor carpi radialis longus",
+    "c": "Extensor indicis",
+    "d": "Brachialis"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -65537,7 +65587,10 @@
    "leaf": "Forearm",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "The muscles supplied by posterior interosseous nerve in forearm include: (2016)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "the-musculocutaneous-nerve-passes-through-which-muscle-291c11b6",
@@ -68618,10 +68671,10 @@
    "key": "the-secretory-vesicles-in-a-cell-arise-from-9b80db74",
    "stem": "The secretory vesicles in a cell arise from:",
    "options": {
-    "A": "Tubules of sER",
-    "B": "Tubules of rER",
-    "C": "Golgi apparatus",
-    "D": "Mitochondria"
+    "a": "SER",
+    "b": "rER",
+    "c": "Golgi apparatus",
+    "d": "Mitochondria"
    },
    "answer": "B",
    "answerConfidence": "same-file",
@@ -68650,7 +68703,10 @@
    "leaf": "Cytoplasm",
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "The secretory vesicles in a cell arise from:",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "the-segments-of-the-spinal-cord-are-9d471d6f",
@@ -73930,12 +73986,12 @@
   },
   {
    "key": "what-does-the-term-superior-indicate-in-this-description-202-599c143c",
-   "stem": "What does the term “superior” indicate in this description? (2024)",
+   "stem": "What does the term \"superior\" indicate in this description?",
    "options": {
-    "A": "Closer to the midline.",
-    "B": "Farther from the body surface.",
-    "C": "Closer to the head.",
-    "D": "Formation of interosseous membranes."
+    "a": "closer to the midline",
+    "b": "farther from the body surface",
+    "c": "closer to the head",
+    "d": "farther from the point of origin."
    },
    "answer": "C",
    "answerConfidence": "same-file",
@@ -73957,7 +74013,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": null,
    "chapter": null,
@@ -73970,7 +74026,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "What does the term “superior” indicate in this description? (2024)",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "what-feature-is-true-for-the-central-region-of-human-platele-c6a0bc3b",
@@ -74869,12 +74928,12 @@
   },
   {
    "key": "when-the-deep-branch-of-the-ulnar-nerve-has-been-destroyed-b-4e1d4f5d",
-   "stem": "When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with: (2024) P Ac ad y y",
+   "stem": "When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with:",
    "options": {
-    "A": "Paralysis of abductor pollicis brevis.",
-    "B": "An ape-like deformity of the hand.",
-    "C": "Paralysis of adductor pollicis.",
-    "D": "Loss of sensation over palmar surface of little ﬁnger."
+    "a": "paralysis of abductor pollicis brevis",
+    "b": "an ape-like deformity of the hand",
+    "c": "paralysis of adductor pollicis",
+    "d": "loss of sensation over palmar surface of little finger"
    },
    "answer": "C",
    "answerConfidence": "same-file",
@@ -74896,7 +74955,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -74909,7 +74968,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with: (2024) P Ac ad y y",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "where-are-ribosomal-subunits-constructed-e6cc8588",
@@ -75102,12 +75164,12 @@
   },
   {
    "key": "which-chamber-of-the-heart-pumps-deoxygenated-blood-to-the-l-c9700c1d",
-   "stem": "Which chamber of the heart pumps deoxygenated blood to the lungs? (2024). Ac ad Ac ad ad ad",
+   "stem": "Which chamber of the heart pumps deoxygenated blood to the lungs?",
    "options": {
-    "A": "Right atrium.",
-    "B": "Left atrium.",
-    "C": "Right ventricle.",
-    "D": "Absent in brain, spinal cord, bone marrow and avascular structures."
+    "a": "right atrium",
+    "b": "left atrium",
+    "c": "right ventricle",
+    "d": "Left ventricle"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -75129,7 +75191,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Basis of Anatomy",
@@ -75142,7 +75204,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Which chamber of the heart pumps deoxygenated blood to the lungs? (2024). Ac ad Ac ad ad ad",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "which-connective-tissue-cell-is-derived-from-b-lymphocytes-27372f6f",
@@ -79712,12 +79777,12 @@
   },
   {
    "key": "which-structure-passes-through-the-carpal-tunnel-2024-ac-ad-ecbfbef3",
-   "stem": "Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad",
+   "stem": "Which structure passes through the carpal tunnel?",
    "options": {
-    "A": "Ulnar nerve.",
-    "B": "Radial artery.",
-    "C": "Median nerve.",
-    "D": "Brachial artery."
+    "a": "ulnar nerve",
+    "b": "radial artery",
+    "c": "median nerve",
+    "d": "brachial artery"
    },
    "answer": "A",
    "answerConfidence": "same-file",
@@ -79739,7 +79804,7 @@
    ],
    "timesAsked": 2,
    "topic": "unknown",
-   "confidence": "medium",
+   "confidence": "high",
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Upper Limb",
@@ -79752,7 +79817,10 @@
    ],
    "satOn": [
     "2024-12-05"
-   ]
+   ],
+   "ocrStem": "Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad",
+   "questionType": "mcq",
+   "readBy": "image"
   },
   {
    "key": "which-structures-consist-of-actin-912b4943",
@@ -84846,8 +84914,13 @@
   },
   {
    "key": "the-following-is-a-non-membranous-organelle-d-io-cell-membra-07829deb",
-   "stem": "The following is a non-membranous organelle: d io Cell membrane v4 Mitochondria - Golgi apparatus A Ribosomes <}—4. Regarding the peroxisomes (microbodies): SU _ A Budd from smooth endoplasmic reticulum (SER) 6. Divide by simple division _A- Numerous in cardiac muscle dé produce energy stored as ATP",
-   "options": {},
+   "stem": "The following is a non-membranous organelle:",
+   "options": {
+    "a": "Cell membrane",
+    "b": "Mitochondria",
+    "c": "Golgi apparatus",
+    "d": "Ribosomes"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -84865,16 +84938,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The following is a non-membranous organelle: d io Cell membrane v4 Mitochondria - Golgi apparatus A Ribosomes <}—4. Regarding the peroxisomes (microbodies): SU _ A Budd from smooth endoplasmic reticulum (SER) 6. Divide by simple division _A- Numerous in cardiac muscle dé produce energy stored as ATP",
+   "readBy": "image"
   },
   {
    "key": "heterolysosome-is-formed-of-primary-lysosome-ana-2-22-2-2-ne-fb2ad5ce",
-   "stem": "Heterolysosome is formed of primary lysosome ANA 2.22.2 2.--neee % Pinocytic vesicle. Destroyed organelle _e” Residual body FA Phagosome",
-   "options": {},
+   "stem": "Heterolysosome is formed of primary lysosome and ..............:",
+   "options": {
+    "a": "Pinocytic vesicle",
+    "b": "Destroyed organelle",
+    "c": "Residual body",
+    "d": "Phagosome"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -84892,16 +84971,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Heterolysosome is formed of primary lysosome ANA 2.22.2 2.--neee % Pinocytic vesicle. Destroyed organelle _e” Residual body FA Phagosome",
+   "readBy": "image"
   },
   {
    "key": "the-nucleus-of-active-protein-forming-cell-appears-a-condens-aa1cff9b",
-   "stem": "The nucleus of active protein forming cell appears: a Condensed xX Vesicular J heterochromatic a Electron dense by E.M",
-   "options": {},
+   "stem": "The nucleus of active protein forming cell appears:",
+   "options": {
+    "a": "Condensed",
+    "b": "Vesicular",
+    "c": "heterochromatic",
+    "d": "Electron dense by E.M"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -84919,16 +85004,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The nucleus of active protein forming cell appears: a Condensed xX Vesicular J heterochromatic a Electron dense by E.M",
+   "readBy": "image"
   },
   {
    "key": "the-cytoplasmic-organelle-concerned-with-detoxification-of-d-80094f06",
-   "stem": "The cytoplasmic organelle concerned with detoxification of drugs is: a@@ sER e: rER oA Golgi apparatus ila Lysosomes a 8. The intermediate filament found in cells of connective tissue is: & Desmin AS Vimentin je Cytokeratin f. Glial fibrillar acidic protein",
-   "options": {},
+   "stem": "The cytoplasmic organelle concerned with detoxification of drugs is:",
+   "options": {
+    "a": "sER",
+    "b": "rER",
+    "c": "Golgi apparatus",
+    "d": "Lysosomes"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -84946,17 +85037,21 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The cytoplasmic organelle concerned with detoxification of drugs is: a@@ sER e: rER oA Golgi apparatus ila Lysosomes a 8. The intermediate filament found in cells of connective tissue is: & Desmin AS Vimentin je Cytokeratin f. Glial fibrillar acidic protein",
+   "readBy": "image"
   },
   {
    "key": "the-shaft-of-cilia-is-composed-of-microtubules-a-627-v8-a0-0-257af8a1",
-   "stem": "The shaft of cilia is composed of .............. microtubules: a 627 v8 a0 < 0. Regarding the microfilaments:",
+   "stem": "The shaft of cilia is composed of .............. microtubules:",
    "options": {
-    "a": "Formed of tubulin A% Form microvilli” Diameter 8-10nm At Include lamins"
+    "a": "9",
+    "b": "27",
+    "c": "18",
+    "d": "20"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -84975,9 +85070,8 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [
     {
      "file": "EOM ISK EOM exam 2024.pdf",
@@ -84985,12 +85079,19 @@
      "options": {}
     }
    ],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The shaft of cilia is composed of .............. microtubules: a 627 v8 a0 < 0. Regarding the microfilaments:",
+   "readBy": "image"
   },
   {
    "key": "glycogen-in-the-liver-can-be-stained-by-3-i-i-6-it-btpas-je-3d38a0d9",
-   "stem": "Glycogen in the liver can be stained by........++-+3 . i : i 6} it _BTPAS Je Siver Iron hematoxylin d. Sudan",
-   "options": {},
+   "stem": "Glycogen in the liver can be stained by..............:",
+   "options": {
+    "a": "PAS",
+    "b": "Silver",
+    "c": "Iron hematoxylin",
+    "d": "Sudan III"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85008,16 +85109,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Glycogen in the liver can be stained by........++-+3 . i : i 6} it _BTPAS Je Siver Iron hematoxylin d. Sudan",
+   "readBy": "image"
   },
   {
    "key": "formation-of-mitotic-spindle-in-mitosis-is-related-to-at-act-3f18d899",
-   "stem": "Formation of mitotic spindle in mitosis is related to: ‘ at Actin 2% Microvilli fe. Centriole _d. Lysosome",
-   "options": {},
+   "stem": "Formation of mitotic spindle in mitosis is related to:",
+   "options": {
+    "a": "Actin",
+    "b": "Microvilli",
+    "c": "Centriole",
+    "d": "Lysosome"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85035,16 +85142,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Formation of mitotic spindle in mitosis is related to: ‘ at Actin 2% Microvilli fe. Centriole _d. Lysosome",
+   "readBy": "image"
   },
   {
    "key": "the-following-cell-can-give-rise-to-endothelial-cell-of-fibr-982990c2",
-   "stem": "The following cell can give rise to endothelial cell: of Fibroblast an Mast cell ps Histiocyte v4 Pericyte",
-   "options": {},
+   "stem": "The following cell can give rise to endothelial cell:",
+   "options": {
+    "a": "Fibroblast",
+    "b": "Mast cell",
+    "c": "Histiocyte",
+    "d": "Pericyte"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85062,16 +85175,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The following cell can give rise to endothelial cell: of Fibroblast an Mast cell ps Histiocyte v4 Pericyte",
+   "readBy": "image"
   },
   {
    "key": "monocytes-are-the-origin-of-cells-7-plasma-je-mast-oa-macrop-7511b5be",
-   "stem": "Monocytes are the origin of .......... cells: 7 Plasma Je Mast oA Macrophages AA Fibroblasts",
-   "options": {},
+   "stem": "Monocytes are the origin of .......... cells:",
+   "options": {
+    "a": "Plasma",
+    "b": "Mast",
+    "c": "Macrophages",
+    "d": "Fibroblasts"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85089,16 +85208,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Monocytes are the origin of .......... cells: 7 Plasma Je Mast oA Macrophages AA Fibroblasts",
+   "readBy": "image"
   },
   {
    "key": "reticular-fibers-can-be-specially-stained-with-mee-van-gieso-5439519b",
-   "stem": "Reticular fibers can be specially stained with: \\ Mee - Van Gieson fe PAS 9 Oreein",
-   "options": {},
+   "stem": "Reticular fibers can be specially stained with:",
+   "options": {
+    "a": "H&E",
+    "b": "Van Gieson",
+    "c": "PAS",
+    "d": "Orcein"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85116,16 +85241,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Reticular fibers can be specially stained with: \\ Mee - Van Gieson fe PAS 9 Oreein",
+   "readBy": "image"
   },
   {
    "key": "endocrine-secretion-of-leptin-is-a-function-of-fibroblast-un-474f4e7e",
-   "stem": "Endocrine secretion of leptin is a function of: - Fibroblast - Unilocular fat cell f- Reticulocyte st’ Pericytes",
-   "options": {},
+   "stem": "Endocrine secretion of leptin is a function of:",
+   "options": {
+    "a": "Fibroblast",
+    "b": "Unilocular fat cell",
+    "c": "Reticulocyte",
+    "d": "Pericytes"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85143,16 +85274,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Endocrine secretion of leptin is a function of: - Fibroblast - Unilocular fat cell f- Reticulocyte st’ Pericytes",
+   "readBy": "image"
   },
   {
    "key": "the-antigen-presenting-c-t-cell-is-histiocyte-plasma-cell-yf-a7a84400",
-   "stem": "The antigen presenting C.T. cell is: # Histiocyte -» Plasma cell yf Mast cell At Fibroblast 2a",
-   "options": {},
+   "stem": "The antigen presenting C.T. cell is:",
+   "options": {
+    "a": "Histiocyte",
+    "b": "Plasma cell",
+    "c": "Mast cell",
+    "d": "Fibroblast"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85170,16 +85307,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The antigen presenting C.T. cell is: # Histiocyte -» Plasma cell yf Mast cell At Fibroblast 2a",
+   "readBy": "image"
   },
   {
    "key": "mast-cell-show-deep-acidophilic-cytoplasm-b-clock-face-nucle-3526a54c",
-   "stem": "Mast cell show: é Deep acidophilic cytoplasm _b¢ Clock face nucleus: 7»: Clock f4 m. y Surface receptor for IGE. A. Non granular cytoplas nce: sii The ............ synthesize C.T. fibers ang ground substa ciproblast » Macrophage & Mast cell 0¢Plasma cell E",
-   "options": {},
+   "stem": "Mast cell show:",
+   "options": {
+    "a": "Deep acidophilic cytoplasm",
+    "b": "Clock face nucleus",
+    "c": "Surface receptor for IgE",
+    "d": "Non granular cytoplasm"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85197,16 +85340,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Mast cell show: é Deep acidophilic cytoplasm _b¢ Clock face nucleus: 7»: Clock f4 m. y Surface receptor for IGE. A. Non granular cytoplas nce: sii The ............ synthesize C.T. fibers ang ground substa ciproblast » Macrophage & Mast cell 0¢Plasma cell E",
+   "readBy": "image"
   },
   {
    "key": "regarding-the-holocrine-mode-of-dine-tion-lar-secre-2z-no-ch-83b7c46d",
-   "stem": "Regarding the holocrine mode of dine tion: lar secre ‘ : 2Z No change in secretory cells b. Apex of cell come out with secretion ‘The whole cell is lost with secretion y d< The most common type",
-   "options": {},
+   "stem": "Regarding the holocrine mode of glandular secretion:",
+   "options": {
+    "a": "No change in secretory cells",
+    "b": "Apex of cell come out with secretion",
+    "c": "The whole cell is lost with secretion",
+    "d": "The most common type"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85224,18 +85373,21 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Regarding the holocrine mode of dine tion: lar secre ‘ : 2Z No change in secretory cells b. Apex of cell come out with secretion ‘The whole cell is lost with secretion y d< The most common type",
+   "readBy": "image"
   },
   {
    "key": "simple-cubical-epithelium-is-found-in-the-following-site-bui-8edff262",
-   "stem": "Simple cubical epithelium is found in the following site: Buidne 2* Bowman's capsule of kidney ow Convoluted tubules of kianey & Endothelium of blood vessels a Epidermis of the skin 4 29. Lung bronchioles are lined with: a",
+   "stem": "Simple cubical epithelium is found in the following site:",
    "options": {
-    "a": "Simple squamous epithelium",
-    "b": "Simple columnar epithelium"
+    "a": "Bowman's capsule of kidney",
+    "b": "Convoluted tubules of kidney",
+    "c": "Endothelium of blood vessels",
+    "d": "Epidermis of the skin"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -85254,16 +85406,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "medium",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Simple cubical epithelium is found in the following site: Buidne 2* Bowman's capsule of kidney ow Convoluted tubules of kianey & Endothelium of blood vessels a Epidermis of the skin 4 29. Lung bronchioles are lined with: a",
+   "readBy": "image"
   },
   {
    "key": "basement-membrane-shows-the-following-types-of-collagen-zf-i-aad62df4",
-   "stem": "Basement membrane shows the following types of collagen: ZF iit avi ABA AMLRIV ZN. Vail AGA, ML & IV",
-   "options": {},
+   "stem": "Basement membrane shows the following types of collagen:",
+   "options": {
+    "a": "III, IV & VII",
+    "b": "I, III & IV",
+    "c": "IV, V & VII",
+    "d": "II, III & IV"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85281,16 +85439,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Basement membrane shows the following types of collagen: ZF iit avi ABA AMLRIV ZN. Vail AGA, ML & IV",
+   "readBy": "image"
   },
   {
    "key": "lung-alveoli-are-lined-by-a-simple-squamous-epithelium-b-str-139f1357",
-   "stem": "Lung alveoli are lined by: A Simple squamous epithelium b. Stratified columnar epithelium = Respiratory epithelium A. Transitional epithelium",
-   "options": {},
+   "stem": "Lung alveoli are lined by:",
+   "options": {
+    "a": "Simple squamous epithelium",
+    "b": "Stratified columnar epithelium",
+    "c": "Respiratory epithelium",
+    "d": "Transitional epithelium"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85308,16 +85472,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Lung alveoli are lined by: A Simple squamous epithelium b. Stratified columnar epithelium = Respiratory epithelium A. Transitional epithelium",
+   "readBy": "image"
   },
   {
    "key": "passage-of-impulses-between-muscle-cells-is-helped-by-p-zonu-c2a002b5",
-   "stem": "Passage of impulses between muscle cells is helped by: P Zonula adherens -b/Nexus _€. Maculaadherens _d. Occluding junction \\- 35. Regarding the RBCs:|>) , Vv Ae Basophilic by L.M. 4b. Show crenation in hypotonic solution ° ! 4 Contain carbonic anhydrase enzyme AX. single nucleus 4—36. Lysosomes in blood platelets are present in:",
-   "options": {},
+   "stem": "Passage of impulses between muscle cells is helped by:",
+   "options": {
+    "a": "Zonula adherens",
+    "b": "Nexus",
+    "c": "Macula adherens",
+    "d": "Occluding junction"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85335,9 +85505,8 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [
     {
      "file": "EOM ISK EOM exam 2024.pdf",
@@ -85345,12 +85514,19 @@
      "options": {}
     }
    ],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Passage of impulses between muscle cells is helped by: P Zonula adherens -b/Nexus _€. Maculaadherens _d. Occluding junction \\- 35. Regarding the RBCs:|>) , Vv Ae Basophilic by L.M. 4b. Show crenation in hypotonic solution ° ! 4 Contain carbonic anhydrase enzyme AX. single nucleus 4—36. Lysosomes in blood platelets are present in:",
+   "readBy": "image"
   },
   {
    "key": "the-cell-of-origin-of-platelets-is-characterized-by-x-multin-43755b3d",
-   "stem": "The cell of origin of platelets is characterized by: x & Multinucleated A. Acidophilic —o Seen in blood film = d/Size 50-70 um 3/it 4",
-   "options": {},
+   "stem": "The cell of origin of platelets is characterized by:",
+   "options": {
+    "a": "Multinucleated",
+    "b": "Acidophilic",
+    "c": "Seen in blood film",
+    "d": "Size 50-70 um"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85368,16 +85544,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The cell of origin of platelets is characterized by: x & Multinucleated A. Acidophilic —o Seen in blood film = d/Size 50-70 um 3/it 4",
+   "readBy": "image"
   },
   {
    "key": "the-blood-cells-with-receptor-for-ise-are-i-basophits-pe-rbc-1882ece4",
-   "stem": "The blood cells with receptor for ISE are; i ~*: Basophits Pe RBCs “Lymphocytes &. Eosinophils s, “eH Oval specific granules with electron dense core is seen in: _# Neutrophil _JeMonoerte 8 Basophil _/B. Eosinophil “40. Neutrophils: + . } A. Decrease in parasitic disease 2. Terminate allergic reaction",
-   "options": {},
+   "stem": "The blood cells with receptor for IgE are:",
+   "options": {
+    "a": "Basophils",
+    "b": "RBCs",
+    "c": "Lymphocytes",
+    "d": "Eosinophils"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85395,16 +85577,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The blood cells with receptor for ISE are; i ~*: Basophits Pe RBCs “Lymphocytes &. Eosinophils s, “eH Oval specific granules with electron dense core is seen in: _# Neutrophil _JeMonoerte 8 Basophil _/B. Eosinophil “40. Neutrophils: + . } A. Decrease in parasitic disease 2. Terminate allergic reaction",
+   "readBy": "image"
   },
   {
    "key": "the-posterior-wall-of-axilla-is-formed-by-j-see-minor-as-ter-605969da",
-   "stem": "The posterior wall of axilla is formed by: J See minor AS Teres major ye Supraspinatus AG Serratus anterior afin cfr 49. Regarding the triceps brachii muscle: } BEM has a lateral, a medial and a short head ula be Long head takes origin from supraglenoid tubercle Of or olecranon Process of yin, #:\\tis supplied by ulnar.nerve _%Itis inserted into ;",
-   "options": {},
+   "stem": "The posterior wall of axilla is formed by:",
+   "options": {
+    "a": "Pectoralis minor",
+    "b": "Teres major",
+    "c": "Supraspinatus",
+    "d": "Serratus anterior"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85422,9 +85610,8 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [
     {
      "file": "EOM ISK EOM exam 2024.pdf",
@@ -85432,12 +85619,19 @@
      "options": {}
     }
    ],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The posterior wall of axilla is formed by: J See minor AS Teres major ye Supraspinatus AG Serratus anterior afin cfr 49. Regarding the triceps brachii muscle: } BEM has a lateral, a medial and a short head ula be Long head takes origin from supraglenoid tubercle Of or olecranon Process of yin, #:\\tis supplied by ulnar.nerve _%Itis inserted into ;",
+   "readBy": "image"
   },
   {
    "key": "the-muscles-supplied-by-deep-branch-of-uinar-nerve-se-vis-7-e2bb7487",
-   "stem": "The muscles supplied by deep branch of uinar nerve se vis 7+ Abductor pollicis brevis 1b; Flexor pollicis Pre Ff: Lateral two lumbricals” dé Al interossel 2 ¥ following m +r ar If the median nerve was injured above the elbow, which of tte Simusclie would retain function? 7 ss rca ’ YY Pronators b< Ppponens pollicis o/ Palmaris longus gf Flexor Carpi ulnaris",
-   "options": {},
+   "stem": "The muscles supplied by deep branch of ulnar nerve in hand include:",
+   "options": {
+    "a": "Abductor pollicis brevis",
+    "b": "Flexor pollicis brevis",
+    "c": "Lateral two lumbricals",
+    "d": "All interossei"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85455,16 +85649,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The muscles supplied by deep branch of uinar nerve se vis 7+ Abductor pollicis brevis 1b; Flexor pollicis Pre Ff: Lateral two lumbricals” dé Al interossel 2 ¥ following m +r ar If the median nerve was injured above the elbow, which of tte Simusclie would retain function? 7 ss rca ’ YY Pronators b< Ppponens pollicis o/ Palmaris longus gf Flexor Carpi ulnaris",
+   "readBy": "image"
   },
   {
    "key": "opposition-of-thumb-is-dependent-upon-the-functional-integri-3874744d",
-   "stem": "Opposition of thumb is dependent upon the functional integrity it. ie Axillary nerve _b/Median nerve ofRadial nerve 74. erve",
-   "options": {},
+   "stem": "Opposition of thumb is dependent upon the functional integrity of this nerve:",
+   "options": {
+    "a": "Axillary nerve",
+    "b": "Median nerve",
+    "c": "Radial nerve",
+    "d": "Ulnar nerve"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85482,16 +85682,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Opposition of thumb is dependent upon the functional integrity it. ie Axillary nerve _b/Median nerve ofRadial nerve 74. erve",
+   "readBy": "image"
   },
   {
    "key": "regarding-ulnar-nerve-injury-as-often-occurs-where-the-nerve-5a34b85a",
-   "stem": "Regarding ulnar nerve injury: as often occurs where the nerve passes posterior to medial epicondyle of the humerus _b: The’patient experiences numbness and tingling sensation on lateral part of the palm os The patient exhibit \"waiter's tip\" hand d. Power of abduction is impaired Gi 56. Concerning the muscles of the rotator cuff:",
-   "options": {},
+   "stem": "Regarding ulnar nerve injury:",
+   "options": {
+    "a": "often occurs where the nerve passes posterior to medial epicondyle of the humerus",
+    "b": "The patient experiences numbness and tingling sensation on lateral part of the palm",
+    "c": "The patient exhibit \"waiter's tip\" hand",
+    "d": "Power of abduction is impaired"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85509,16 +85715,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Regarding ulnar nerve injury: as often occurs where the nerve passes posterior to medial epicondyle of the humerus _b: The’patient experiences numbness and tingling sensation on lateral part of the palm os The patient exhibit \"waiter's tip\" hand d. Power of abduction is impaired Gi 56. Concerning the muscles of the rotator cuff:",
+   "readBy": "image"
   },
   {
    "key": "javic-ath-a-dislocation-of-en-seg-joint-several-structures-c-6f3f5352",
-   "stem": "javic ath a dislocation of en Seg joint, several structures could be torn, 7 Ncluding the one that gives the JOIt its Greatest strength and stability, namely: = @cromiociavicular ligament: 45, coracoacromial ligament + COracoclavicular ligament. aa supraspinatus tendon t",
-   "options": {},
+   "stem": "After a dislocation of acromioclavicular joint, several structures could be torn, including the one that gives the joint its greatest strength and stability, namely:",
+   "options": {
+    "a": "acromioclavicular ligament.",
+    "b": "coracoacromial ligament",
+    "c": "coracoclavicular ligament.",
+    "d": "supraspinatus tendon"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85536,16 +85748,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "javic ath a dislocation of en Seg joint, several structures could be torn, 7 Ncluding the one that gives the JOIt its Greatest strength and stability, namely: = @cromiociavicular ligament: 45, coracoacromial ligament + COracoclavicular ligament. aa supraspinatus tendon t",
+   "readBy": "image"
   },
   {
    "key": "the-median-nerve-supplies-flexor-carpi-ulnaris-and-half-of-f-df4c8d81",
-   "stem": "The median nerve: _ supplies flexor carpi ulnaris and half of flexor digitorum profundus. “B. gives rise to most of its branches in the upper arm. 4 may be compressed between the two heads of pronator teres. J enters cubital fossa lateral to the brachial artery.",
-   "options": {},
+   "stem": "The median nerve:",
+   "options": {
+    "a": "supplies flexor carpi ulnaris and half of flexor digitorum profundus.",
+    "b": "gives rise to most of its branches in the upper arm.",
+    "c": "may be compressed between the two heads of pronator teres.",
+    "d": "enters cubital fossa lateral to the brachial artery"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85563,16 +85781,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The median nerve: _ supplies flexor carpi ulnaris and half of flexor digitorum profundus. “B. gives rise to most of its branches in the upper arm. 4 may be compressed between the two heads of pronator teres. J enters cubital fossa lateral to the brachial artery.",
+   "readBy": "image"
   },
   {
    "key": "the-glenohumeral-joint-is-classified-as-cd-hinge-joint-js-pi-eaa75f5b",
-   "stem": "The glenohumeral joint is classified as @: cd hinge joint —_Js- pivot joint oA ‘pall-and-socket joint a saddle joint 6/1l superior tru rom the Nk of",
-   "options": {},
+   "stem": "The glenohumeral joint is classified as a:",
+   "options": {
+    "a": "hinge joint",
+    "b": "pivot joint",
+    "c": "ball-and-socket joint",
+    "d": "saddle joint"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85590,16 +85814,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The glenohumeral joint is classified as @: cd hinge joint —_Js- pivot joint oA ‘pall-and-socket joint a saddle joint 6/1l superior tru rom the Nk of",
+   "readBy": "image"
   },
   {
    "key": "ina-patient-with-erb-duchenne-palsy-a-neta-arising-the-brach-fbd22134",
-   "stem": "Ina Patient with Erb-Duchenne Palsy, a neta arising the brachial plexus is nonfunctional], This nerve |S ae AAs lateral Pectoral A suprascapular As-dorsal scapular e. long thoracl 2 ?",
-   "options": {},
+   "stem": "In a patient with Erb-Duchenne palsy, a nerve arising from the superior trunk of the brachial plexus is nonfunctional. This nerve is the:",
+   "options": {
+    "a": "suprascapular",
+    "b": "dorsal scapular",
+    "c": "long thoracic",
+    "d": "lateral pectoral"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85617,16 +85847,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Ina Patient with Erb-Duchenne Palsy, a neta arising the brachial plexus is nonfunctional], This nerve |S ae AAs lateral Pectoral A suprascapular As-dorsal scapular e. long thoracl 2 ?",
+   "readBy": "image"
   },
   {
    "key": "which-muscle-is-the-strongest-medial-rotator-of-the-arm-aa-s-62539bc3",
-   "stem": "Which muscle is the strongest Medial rotator of the arm AA, SUPF@SPinatus A teres minor as Disease f oe subscapularis repair th 7 the © Surgeo",
-   "options": {},
+   "stem": "Which muscle is the strongest medial rotator of the arm?",
+   "options": {
+    "a": "teres minor",
+    "b": "infraspinatus",
+    "c": "subscapularis",
+    "d": "supraspinatus"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85644,16 +85880,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Which muscle is the strongest Medial rotator of the arm AA, SUPF@SPinatus A teres minor as Disease f oe subscapularis repair th 7 the © Surgeo",
+   "readBy": "image"
   },
   {
    "key": "a-person-has-a-fracture-of-the-upper-end-of-humerus-eee-spac-4e4e9ee0",
-   "stem": "A person has a fracture of the upper end of humerus: eee space to sto, the ties off the artery traveling through the quadrangU fe hemorrhage. Which artery did he ligate? : flex humeral 2 dorsal scapular Js. posterior circum #- scapular circumflex Ad. subscapular <|— 72. The following facts is true of the serratus anterior musclel° &;",
-   "options": {},
+   "stem": "A person has a fracture of the upper end of humerus. During the repair the surgeon ties off the artery traveling through the quadrangular space to stop the hemorrhage. Which artery did he ligate?",
+   "options": {
+    "a": "dorsal scapular",
+    "b": "posterior circumflex humeral",
+    "c": "scapular circumflex",
+    "d": "subscapular"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85671,16 +85913,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "A person has a fracture of the upper end of humerus: eee space to sto, the ties off the artery traveling through the quadrangU fe hemorrhage. Which artery did he ligate? : flex humeral 2 dorsal scapular Js. posterior circum #- scapular circumflex Ad. subscapular <|— 72. The following facts is true of the serratus anterior musclel° &;",
+   "readBy": "image"
   },
   {
    "key": "the-superficial-muscles-of-front-of-forearm-include-7-pronat-9ad6a19e",
-   "stem": "The superficial muscles of front of forearm include 7 #- pronator quadratus _®( flexor carpi radialis _oflexor pollicis longus _d: supinator < 75. The contents of cubital fossa include: 2 brachial artery . musculocutaneous nerve & ulnar nerve ac tendon of brachialis",
-   "options": {},
+   "stem": "The superficial muscles of front of forearm include:",
+   "options": {
+    "a": "pronator quadratus",
+    "b": "flexor carpi radialis",
+    "c": "flexor pollicis longus",
+    "d": "supinator"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85698,17 +85946,21 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The superficial muscles of front of forearm include 7 #- pronator quadratus _®( flexor carpi radialis _oflexor pollicis longus _d: supinator < 75. The contents of cubital fossa include: 2 brachial artery . musculocutaneous nerve & ulnar nerve ac tendon of brachialis",
+   "readBy": "image"
   },
   {
    "key": "the-muscles-supplied-by-anterior-interosseous-nerve-in-forea-d6b699fc",
-   "stem": "The muscles supplied by anterior interosseous nerve in forearm include: 4G flexor pollicis longus +». pronator teres ¥ Bi palmaris longus we Ppa of flexor digitorum profundus",
+   "stem": "The muscles supplied by anterior interosseous nerve in forearm include:",
    "options": {
-    "a": "Na)"
+    "a": "flexor pollicis longus",
+    "b": "pronator teres",
+    "c": "palmaris longus",
+    "d": "lateral half of flexor digitorum profundus"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -85727,16 +85979,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The muscles supplied by anterior interosseous nerve in forearm include: 4G flexor pollicis longus +». pronator teres ¥ Bi palmaris longus we Ppa of flexor digitorum profundus",
+   "readBy": "image"
   },
   {
    "key": "the-deep-muscles-of-back-of-forearm-include-4-extensor-carpi-42b96e94",
-   "stem": "The deep muscles of back of forearm include: * 4 extensor carpi radialis longus J extensor carpi radialis brevis. . 4 supinator. fi extensor Carpi ulnaris.",
-   "options": {},
+   "stem": "The deep muscles of back of forearm include:",
+   "options": {
+    "a": "extensor carpi radialis longus",
+    "b": "extensor carpi radialis brevis",
+    "c": "supinator.",
+    "d": "extensor carpi ulnaris."
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85754,16 +86012,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The deep muscles of back of forearm include: * 4 extensor carpi radialis longus J extensor carpi radialis brevis. . 4 supinator. fi extensor Carpi ulnaris.",
+   "readBy": "image"
   },
   {
    "key": "the-structures-passing-deep-to-flexor-retinaculum-include-te-9e74c52b",
-   "stem": "The structures passing deep to flexor retinaculum include: #. tendon of flexor digitorum profundus _p ulnar artery £- fadial artery _ddulnar nerve",
-   "options": {},
+   "stem": "The structures passing deep to flexor retinaculum include:",
+   "options": {
+    "a": "tendon of flexor digitorum profundus",
+    "b": "ulnar artery",
+    "c": "radial artery",
+    "d": "ulnar nerve"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85781,16 +86045,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The structures passing deep to flexor retinaculum include: #. tendon of flexor digitorum profundus _p ulnar artery £- fadial artery _ddulnar nerve",
+   "readBy": "image"
   },
   {
    "key": "concerning-the-anatomical-snuff-box-z-the-ulnar-gba-pe-floor-86258ecf",
-   "stem": "Concerning the anatomical snuff box: Z the ulnar gba... pe floor of snuff box A be the scaphoid forms the floor Ps it is visible w lumb is fully flexed. Ait contains the ulnar artery. 7/11 < ‘ocia y Clavicutar part of deltoid is we tati ned With: @- lateral rotati 7 medial rotation i ; ion _s¢ abduction A adduction",
-   "options": {},
+   "stem": "Concerning the anatomical snuff box:",
+   "options": {
+    "a": "the ulnar artery lies in the floor of snuff box",
+    "b": "the scaphoid forms the floor",
+    "c": "it is visible when the thumb is fully flexed.",
+    "d": "it contains the ulnar artery."
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85808,16 +86078,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Concerning the anatomical snuff box: Z the ulnar gba... pe floor of snuff box A be the scaphoid forms the floor Ps it is visible w lumb is fully flexed. Ait contains the ulnar artery. 7/11 < ‘ocia y Clavicutar part of deltoid is we tati ned With: @- lateral rotati 7 medial rotation i ; ion _s¢ abduction A adduction",
+   "readBy": "image"
   },
   {
    "key": "the-elbow-joint-is-classified-as-a-ball-and-socket-joint-p-r-c0991752",
-   "stem": "The elbow joint is classified as a: _®© ball and socket joint P&ringe joint ©. pivot joint d? saddle joint",
-   "options": {},
+   "stem": "The elbow joint is classified as a:",
+   "options": {
+    "a": "ball and socket joint",
+    "b": "hinge joint",
+    "c": "pivot joint",
+    "d": "saddle joint"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85835,16 +86111,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The elbow joint is classified as a: _®© ball and socket joint P&ringe joint ©. pivot joint d? saddle joint",
+   "readBy": "image"
   },
   {
    "key": "the-trapezius-muscle-is-supplied-by-the-sceccvssseeereees-me-34b771b0",
-   "stem": "The trapezius muscle is supplied by the .........sceccvssseeereees MEFVE: al cranialaccessory _b* spinal accessory - long thoracic _d. dorsal scapular",
-   "options": {},
+   "stem": "The trapezius muscle is supplied by the ......................... nerve:",
+   "options": {
+    "a": "cranial accessory",
+    "b": "spinal accessory",
+    "c": "long thoracic",
+    "d": "dorsal scapular"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85862,16 +86144,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The trapezius muscle is supplied by the .........sceccvssseeereees MEFVE: al cranialaccessory _b* spinal accessory - long thoracic _d. dorsal scapular",
+   "readBy": "image"
   },
   {
    "key": "loss-of-sensation-from-the-tip-of-the-index-finger-is-indica-40ab0117",
-   "stem": "Loss of sensation from the tip of the index finger is indicative of injury to which nerve? am radial Af. median A. ulnar _-d, musculocutaneous",
-   "options": {},
+   "stem": "Loss of sensation from the tip of the index finger is indicative of injury to which nerve?",
+   "options": {
+    "a": "radial",
+    "b": "median",
+    "c": "ulnar",
+    "d": "musculocutaneous"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85889,17 +86177,21 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Loss of sensation from the tip of the index finger is indicative of injury to which nerve? am radial Af. median A. ulnar _-d, musculocutaneous",
+   "readBy": "image"
   },
   {
    "key": "what-is-the-innervation-of-the-jumbrical-muscles-joa-ulnarn-43d6c02a",
-   "stem": "What is the innervation of the jumbrical muscles? Joa ulnarn. 4. all radial n, gall mediann, half median & half ulnar nerves 8/1 ar P : 90. The ulnar nerve",
+   "stem": "What is the innervation of the lumbrical muscles?",
    "options": {
-    "a": "it is a terminal branch of the lateral cord of the prachial plexus"
+    "a": "all ulnar n.",
+    "b": "all radial n.",
+    "c": "all median n.",
+    "d": "half median & half ulnar nerves"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -85918,16 +86210,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "What is the innervation of the jumbrical muscles? Joa ulnarn. 4. all radial n, gall mediann, half median & half ulnar nerves 8/1 ar P : 90. The ulnar nerve",
+   "readBy": "image"
   },
   {
    "key": "as-it-emerges-from-the-axilla-the-median-nerve-lies-where-wi-26277239",
-   "stem": "As it emerges from the axilla, the median nerve lies where wit brachial artery? AL: posterior AGiateral ey anterior ¢ medial 7 ; e humerus",
-   "options": {},
+   "stem": "As it emerges from the axilla, the median nerve lies where with regards to the brachial artery?",
+   "options": {
+    "a": "lateral",
+    "b": "anterior",
+    "c": "medial",
+    "d": "posterior"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85945,16 +86243,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "As it emerges from the axilla, the median nerve lies where wit brachial artery? AL: posterior AGiateral ey anterior ¢ medial 7 ; e humerus",
+   "readBy": "image"
   },
   {
    "key": "the-rotator-cuff-muscles-attached-to-the-greater-tuberosity-e8e650f5",
-   "stem": "The rotator cuff muscles attached to the greater tuberosity of th include the following except < , bscapularis a” supraspinatus Bw. infraspinatus teres minor ac sul P",
-   "options": {},
+   "stem": "The rotator cuff muscles attached to the greater tuberosity of the humerus include the following except",
+   "options": {
+    "a": "supraspinatus",
+    "b": "infraspinatus",
+    "c": "teres minor",
+    "d": "subscapularis"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85972,16 +86276,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The rotator cuff muscles attached to the greater tuberosity of th include the following except < , bscapularis a” supraspinatus Bw. infraspinatus teres minor ac sul P",
+   "readBy": "image"
   },
   {
    "key": "considering-the-vessels-of-the-upper-limb-the-h-the-cephalic-6905d835",
-   "stem": "Considering the vessels of the upper limb: the h »® the cephalic vein is the medial continuation of the dorsal oun i i ia: ax \\o4 A the basilic vein unites with the venae commitantes of brachial artery to for bital f a ee the brachial artery divides into radial and ulnar arteries at the apex of the cubital fossa.",
-   "options": {},
+   "stem": "Considering the vessels of the upper limb:",
+   "options": {
+    "a": "the cephalic vein is the medial continuation of the dorsal venous plexus of the hand.",
+    "b": "the basilic vein unites with the venae commitantes of brachial artery to form basilic vein.",
+    "c": "the brachial artery divides into radial and ulnar arteries at the apex of the cubital fossa.",
+    "d": "the ulnar artery is the smaller division of the brachial artery."
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -85999,16 +86309,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Considering the vessels of the upper limb: the h »® the cephalic vein is the medial continuation of the dorsal oun i i ia: ax \\o4 A the basilic vein unites with the venae commitantes of brachial artery to for bital f a ee the brachial artery divides into radial and ulnar arteries at the apex of the cubital fossa.",
+   "readBy": "image"
   },
   {
    "key": "which-of-the-following-bones-is-a-sesamoid-bone-om-pisiform-4736bf4c",
-   "stem": "Which of the following bones is a sesamoid bone? om pisiform -» scaphoid o? triquetral _d- hamate dq 97. In what joint is the root of the tooth attached to a peridontal ligament and held into a tooth socket? 2 gomphosis As. suture S» syndesmosis AG. serrate suture",
-   "options": {},
+   "stem": "Which of the following bones is a sesamoid bone?",
+   "options": {
+    "a": "pisiform",
+    "b": "scaphoid",
+    "c": "triquetral",
+    "d": "hamate"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86026,16 +86342,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Which of the following bones is a sesamoid bone? om pisiform -» scaphoid o? triquetral _d- hamate dq 97. In what joint is the root of the tooth attached to a peridontal ligament and held into a tooth socket? 2 gomphosis As. suture S» syndesmosis AG. serrate suture",
+   "readBy": "image"
   },
   {
    "key": "which-is-an-example-of-hyaline-cartilage-ke-intervertebral-d-f913d2aa",
-   "stem": "Which is an example of hyaline cartilage? Ke intervertebral discs & symphysis pubis —_¢- epiphyses a auricle of the ear",
-   "options": {},
+   "stem": "Which is an example of hyaline cartilage?",
+   "options": {
+    "a": "intervertebral discs",
+    "b": "symphysis pubis",
+    "c": "epiphyses",
+    "d": "auricle of the ear"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86053,16 +86375,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Which is an example of hyaline cartilage? Ke intervertebral discs & symphysis pubis —_¢- epiphyses a auricle of the ear",
+   "readBy": "image"
   },
   {
    "key": "regarding-the-deep-fascia-puis-ae-ee-ps-i-forms-the-retinacu-4ca6d512",
-   "stem": "Regarding the deep fascia puis ae ee ps i‘ forms the retinaculae fi ins els itis y it contai and nerves ot loosely attached to the skin 9/it L “F101. wn; s descr; Which of the following term bes a Muscle that assists the prime mover } n Performing its action? he < Agoni jon ; * agonist PD antag’ _8¢synergist AM fixator",
-   "options": {},
+   "stem": "Regarding the deep fascia",
+   "options": {
+    "a": "it is present in the face",
+    "b": "it forms the retinaculae",
+    "c": "it contains blood vessels and nerves",
+    "d": "it is loosely attached to the skin"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86080,16 +86408,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Regarding the deep fascia puis ae ee ps i‘ forms the retinaculae fi ins els itis y it contai and nerves ot loosely attached to the skin 9/it L “F101. wn; s descr; Which of the following term bes a Muscle that assists the prime mover } n Performing its action? he < Agoni jon ; * agonist PD antag’ _8¢synergist AM fixator",
+   "readBy": "image"
   },
   {
    "key": "which-of-the-following-bones-fo-ms-bart-of-the-axial-skeleto-a2e4a76e",
-   "stem": "Which of the following bones fO'MS bart of the axial skeleton? <}-104. A plane which separates the oad into an anterior and posterior part is called a: . Median plane is sagittal plane ghorizontal plane ~—_-4- coronal plane",
-   "options": {},
+   "stem": "Which of the following bones forms part of the axial skeleton?",
+   "options": {
+    "a": "clavicle",
+    "b": "ulna",
+    "c": "sternum",
+    "d": "scapula"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86107,17 +86441,19 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Which of the following bones fO'MS bart of the axial skeleton? <}-104. A plane which separates the oad into an anterior and posterior part is called a: . Median plane is sagittal plane ghorizontal plane ~—_-4- coronal plane",
+   "readBy": "image"
   },
   {
    "key": "which-of-the-following-does-not-take-place-during-fertilizat-ef214424",
    "stem": "Which of the following does NOT take place during fertilization?",
    "options": {
-    "a": "Cleavage initiated Je. Endometrial implantation occurs.",
+    "a": "Cleavage initiated",
+    "b": "Endometrial implantation occurs.",
     "c": "Restoration of a diploid genome",
     "d": "Determination of genetic sex of the embryo"
    },
@@ -86138,17 +86474,21 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "medium",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Which of the following does NOT take place during fertilization?",
+   "readBy": "image"
   },
   {
    "key": "placenta-previa-v9-os-the-implantation-of-blastocyst-in-the-77ca5fe1",
-   "stem": "Placenta previa v9 Os the implantation of blastocyst in the lower segment of uterine cavity 4S. \\s the implantation of blastocyst in the utering tube? /. \\s the implantation of blastocyst at the surface of ovary? AX: \\s the implantation of blastocyst in the pelvic cavity? ¢|—114. Regarding sclerotome of somite:",
+   "stem": "Placenta previa",
    "options": {
-    "a": "Buccopharyngeal membrane b! Cloacal membrane"
+    "a": "Is the implantation of blastocyst in the lower segment of uterine cavity?",
+    "b": "Is the implantation of blastocyst in the uterine tube?",
+    "c": "Is the implantation of blastocyst at the surface of ovary?",
+    "d": "Is the implantation of blastocyst in the pelvic cavity?"
    },
    "answer": null,
    "answerConfidence": "none",
@@ -86167,16 +86507,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
+   "confidence": "high",
    "questionType": "mcq",
-   "optionsInStem": false,
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Placenta previa v9 Os the implantation of blastocyst in the lower segment of uterine cavity 4S. \\s the implantation of blastocyst in the utering tube? /. \\s the implantation of blastocyst at the surface of ovary? AX: \\s the implantation of blastocyst in the pelvic cavity? ¢|—114. Regarding sclerotome of somite:",
+   "readBy": "image"
   },
   {
    "key": "the-finger-like-projections-of-cytotrophoblast-into-syncytio-e1d795a7",
-   "stem": "The finger-like projections of cytotrophoblast into syncytiotrophoblast are called: aéSomatic villi b. Splanchnic villi _& Primary chorionic vill d. Secondary chorionic vill",
-   "options": {},
+   "stem": "The finger-like projections of cytotrophoblast into syncytiotrophoblast are called:",
+   "options": {
+    "a": "Somatic villi",
+    "b": "Splanchnic villi",
+    "c": "Primary chorionic villi",
+    "d": "Secondary chorionic villi"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86194,16 +86540,22 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "The finger-like projections of cytotrophoblast into syncytiotrophoblast are called: aéSomatic villi b. Splanchnic villi _& Primary chorionic vill d. Secondary chorionic vill",
+   "readBy": "image"
   },
   {
    "key": "abnormally-long-umbilical-cord-may-lead-to-6-formation-of-fa-ccd8e6fc",
-   "stem": "Abnormally long umbilical cord may lead to 6 Formation of false,knots. - Early separation of placenta during delivery -& Strangulation of the baby during delivery. ; go. Adhesion between fetus with wall of uterus",
-   "options": {},
+   "stem": "Abnormally long umbilical cord may lead to",
+   "options": {
+    "a": "Formation of false knots.",
+    "b": "Early separation of placenta during delivery.",
+    "c": "Strangulation of the baby during delivery.",
+    "d": "Adhesion between fetus with wall of uterus"
+   },
    "answer": null,
    "answerConfidence": "none",
    "occurrences": [
@@ -86221,11 +86573,12 @@
     "2024-12-05"
    ],
    "topic": null,
-   "confidence": "low",
-   "questionType": "no-options",
-   "optionsInStem": true,
+   "confidence": "high",
+   "questionType": "mcq",
    "variants": [],
-   "fromSitting": true
+   "fromSitting": true,
+   "ocrStem": "Abnormally long umbilical cord may lead to 6 Formation of false,knots. - Early separation of placenta during delivery -& Strangulation of the baby during delivery. ; go. Adhesion between fetus with wall of uterus",
+   "readBy": "image"
   },
   {
    "key": "yolk-sac-shares-in-the-formation-of-a-forebrain-midbrain-and-c18f545a",
@@ -86253,6 +86606,1542 @@
    "optionsInStem": true,
    "variants": [],
    "fromSitting": true
+  },
+  {
+   "key": "metachromatic-stain-is-ed782512",
+   "stem": "Metachromatic stain is........:",
+   "options": {
+    "a": "Toluidine blue",
+    "b": "Trypan blue",
+    "c": "Indian ink",
+    "d": "Sudan III"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 1,
+     "number": 1,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "reticulocytes-are-stained-by-stain-fe54fbad",
+   "stem": "Reticulocytes are stained by ............ stain:",
+   "options": {
+    "a": "Silver",
+    "b": "Brilliant cresyl blue",
+    "c": "Leishman",
+    "d": "Janus green"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 1,
+     "number": 2,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-the-peroxisomes-microbodies-d937f27f",
+   "stem": "Regarding the peroxisomes (microbodies):",
+   "options": {
+    "a": "Budd from smooth endoplasmic reticulum (sER)",
+    "b": "Divide by simple division",
+    "c": "Numerous in cardiac muscle",
+    "d": "produce energy stored as ATP"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 1,
+     "number": 4,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-intermediate-filament-found-in-cells-of-connective-tissu-6bc8fb3a",
+   "stem": "The intermediate filament found in cells of connective tissue is:",
+   "options": {
+    "a": "Desmin",
+    "b": "Vimentin",
+    "c": "Cytokeratin",
+    "d": "Glial fibrillar acidic protein"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 1,
+     "number": 8,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-the-microfilaments-2581cddb",
+   "stem": "Regarding the microfilaments:",
+   "options": {
+    "a": "Formed of tubulin",
+    "b": "Form microvilli",
+    "c": "Diameter 8-10nm",
+    "d": "Include lamins"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 1,
+     "number": 10,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-statement-applies-to-the-ribosomes-b4e071d2",
+   "stem": "Which statement applies to the ribosomes:",
+   "options": {
+    "a": "Arise from Golgi apparatus",
+    "b": "Cause cytoplasmic acidophilia",
+    "c": "Bind to rER at ribophorins",
+    "d": "Form the steroid hormones"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 11,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-statement-is-correct-about-the-mitochondria-99174c59",
+   "stem": "Which statement is correct about the mitochondria?",
+   "options": {
+    "a": "Responsible for cell digestion",
+    "b": "Inner membrane form cristae",
+    "c": "Form intracellular pathway",
+    "d": "Stain orange with silver"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 13,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "pars-amorpha-of-nucleolus-is-ad39b146",
+   "stem": "Pars amorpha of nucleolus is ..........:",
+   "options": {
+    "a": "Light area",
+    "b": "Filaments of rRNA",
+    "c": "Strands of DNA",
+    "d": "Granules of rRNA"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 14,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-the-golgi-apparatus-it-is-42d33e75",
+   "stem": "Regarding the Golgi apparatus, it is:",
+   "options": {
+    "a": "Formed of saccules covered by ribosomes",
+    "b": "The power house of the cell",
+    "c": "Stained by silver",
+    "d": "A non-membranous organelle"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 15,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-c-t-cell-with-mitochondria-rich-in-cytochrome-oxidase-is-2cab3a09",
+   "stem": "The C.T. cell with mitochondria rich in cytochrome oxidase is .......... cell:",
+   "options": {
+    "a": "Reticular",
+    "b": "Multilocular fat",
+    "c": "Unilocular fat",
+    "d": "Plasma"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 18,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "type-of-connective-tissue-proper-forming-stroma-of-organs-is-4702c31f",
+   "stem": "Type of connective tissue proper forming stroma of organs is .......... C.T.:",
+   "options": {
+    "a": "Reticular",
+    "b": "white fibrous",
+    "c": "Loose areolar",
+    "d": "Brown adipose"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 2,
+     "number": 19,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-synthesize-c-t-fibers-and-ground-substance-8004b2a5",
+   "stem": "The ............ synthesize C.T. fibers and ground substance:",
+   "options": {
+    "a": "Macrophage",
+    "b": "Mast cell",
+    "c": "Plasma cell",
+    "d": "Fibroblast"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 3,
+     "number": 26,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "lung-bronchioles-are-lined-with-104f7cb3",
+   "stem": "Lung bronchioles are lined with:",
+   "options": {
+    "a": "Simple squamous epithelium",
+    "b": "Simple columnar epithelium",
+    "c": "Simple columnar ciliated epithelium",
+    "d": "Stratified squamous epithelium"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 3,
+     "number": 29,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-strongest-type-of-junctions-is-e1df05df",
+   "stem": "The strongest type of junctions is ......... :",
+   "options": {
+    "a": "Adherent junction",
+    "b": "Desmosome",
+    "c": "Gap junction",
+    "d": "Tight junction"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 3,
+     "number": 31,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-the-rbcs-35b4d526",
+   "stem": "Regarding the RBCs:",
+   "options": {
+    "a": "Basophilic by L.M.",
+    "b": "Show crenation in hypotonic solution",
+    "c": "Contain carbonic anhydrase enzyme",
+    "d": "single nucleus"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 3,
+     "number": 35,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "lysosomes-in-blood-platelets-are-present-in-f6d1de18",
+   "stem": "Lysosomes in blood platelets are present in:",
+   "options": {
+    "a": "Lambda granule",
+    "b": "Alpha granule",
+    "c": "Delta granule",
+    "d": "canalicular system"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 3,
+     "number": 36,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "oval-specific-granules-with-electron-dense-core-is-seen-in-a3520eb6",
+   "stem": "Oval specific granules with electron dense core is seen in:",
+   "options": {
+    "a": "Neutrophil",
+    "b": "Monocyte",
+    "c": "Basophil",
+    "d": "Eosinophil"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 39,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "neutrophils-b9d0c613",
+   "stem": "Neutrophils:",
+   "options": {
+    "a": "Decrease in parasitic disease",
+    "b": "Terminate allergic reaction",
+    "c": "Increase in pyogenic infections",
+    "d": "Responsible for cell mediated immunity"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 40,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-ratio-between-immature-wbcs-to-immature-rbcs-in-bone-mar-cf9d2b5c",
+   "stem": "The ratio between immature WBCs to immature RBCs in bone marrow is:",
+   "options": {
+    "a": "5:1",
+    "b": "1:5",
+    "c": "3:1",
+    "d": "1:10"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 41,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-perforins-are-secreted-from-the-following-type-of-t-lymp-99197bb5",
+   "stem": "The perforins are secreted from the following type of T-lymphocyte:",
+   "options": {
+    "a": "Regulatory cell",
+    "b": "CD8+ T-cell",
+    "c": "Memory cell",
+    "d": "CD4+ T-cell"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 42,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "natural-killer-cells-are-characterized-by-5e2746a5",
+   "stem": "Natural killer cells are characterized by:",
+   "options": {
+    "a": "Mature in thymus",
+    "b": "CD16+ cell",
+    "c": "Humoral immunity",
+    "d": "Memory cell"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 43,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "a-condition-with-decreased-number-of-wbcs-below-4000-mm3-is-72e951e4",
+   "stem": "A condition with decreased number of WBCs below 4000 /mm3 is called:",
+   "options": {
+    "a": "Leukemia",
+    "b": "Leukopenia",
+    "c": "Anemia",
+    "d": "Pancytopenia"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 44,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "considering-the-movement-of-the-radio-ulnar-joint-12ae1b91",
+   "stem": "Considering the movement of the radio-ulnar joint:",
+   "options": {
+    "a": "In supination, the axis of supination-pronation is oblique to the axis of the forearm.",
+    "b": "In pronation, the bones of the forearm are parallel",
+    "c": "Pronation is the stronger movement.",
+    "d": "Supination with the elbow in extension is done by biceps."
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 4,
+     "number": 45,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-the-triceps-brachii-muscle-2fc70360",
+   "stem": "Regarding the triceps brachii muscle:",
+   "options": {
+    "a": "It has a lateral, a medial and a short head",
+    "b": "Long head takes origin from supraglenoid tubercle of scapula",
+    "c": "It is supplied by ulnar nerve",
+    "d": "It is inserted into the olecranon process of ulna"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 5,
+     "number": 49,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "if-the-median-nerve-was-injured-above-the-elbow-which-of-the-cc8fb858",
+   "stem": "If the median nerve was injured above the elbow, which of the following muscles would retain function?",
+   "options": {
+    "a": "Pronators",
+    "b": "Ppponens pollicis",
+    "c": "Palmaris longus",
+    "d": "Flexor carpi ulnaris"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 5,
+     "number": 52,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "concerning-the-muscles-of-the-rotator-cuff-32f44577",
+   "stem": "Concerning the muscles of the rotator cuff:",
+   "options": {
+    "a": "Infraspinatus acts as a medial rotator at the shoulder",
+    "b": "The subscapularis is intimately related to the subacromial bursa",
+    "c": "The supraspinatus is supplied by a branch of the posterior cord of the brachial plexus",
+    "d": "They are the main factor in stabilizing the shoulder joint"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 5,
+     "number": 56,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "a-woman-injured-her-wrist-in-trying-to-commit-suicide-on-exa-c50b20d2",
+   "stem": "A woman injured her wrist in trying to commit suicide. On examination, all the metacarpophalangeal joints of her fingers were extended and the interphalangeal joints were flexed. The most probable injury was to the:",
+   "options": {
+    "a": "Palmar branches of median and ulnar nerves",
+    "b": "Median nerve",
+    "c": "Ulnar nerve",
+    "d": "Both median and ulnar nerves"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 5,
+     "number": 58,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "a-fracture-of-the-surgical-neck-of-the-humerus-which-artery-9a14118d",
+   "stem": "A fracture of the surgical neck of the humerus, which artery may be injured?",
+   "options": {
+    "a": "Subscapular",
+    "b": "Posterior humeral circumflex",
+    "c": "Radial recurrent",
+    "d": "Deep brachial"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 6,
+     "number": 60,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "patient-was-unable-to-retract-his-scapula-because-of-paralys-2147a306",
+   "stem": "Patient was unable to retract his scapula because of paralysis of trapezius and:",
+   "options": {
+    "a": "Infraspinatus",
+    "b": "Levator scapulae",
+    "c": "Rhomboids",
+    "d": "Serratus posterior superior"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 6,
+     "number": 61,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "lymphatics-that-accompany-the-cephalic-vein-drain-into-the-6efe4a93",
+   "stem": "Lymphatics that accompany the cephalic vein drain into the:",
+   "options": {
+    "a": "Pectoral group of axillary lymph nodes",
+    "b": "Subscapular group of axillary lymph nodes",
+    "c": "Central group of axillary lymph nodes.",
+    "d": "Apical group of axillary lymph nodes"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 6,
+     "number": 62,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "lymphatics-from-the-nipple-and-areola-drain-into-the-22f51db5",
+   "stem": "Lymphatics from the nipple and areola drain into the:",
+   "options": {
+    "a": "pectoral group of axillary lymph nodes",
+    "b": "subscapular group of axillary lymph nodes",
+    "c": "central group of axillary lymph nodes",
+    "d": "apical group of axillary lymph nodes"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 6,
+     "number": 65,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-following-facts-is-true-of-the-serratus-anterior-muscle-4241b1c8",
+   "stem": "The following facts is true of the serratus anterior muscle:",
+   "options": {
+    "a": "it arises as digitations from the lower eight ribs",
+    "b": "the upper four digitations insert into the lateral border of the costal surface of scapula",
+    "c": "the lower digitations rotate the scapula upward during abduction",
+    "d": "it is innervated by intercostal nerves"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 7,
+     "number": 72,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-contents-of-cubital-fossa-include-02cbf6dd",
+   "stem": "The contents of cubital fossa include:",
+   "options": {
+    "a": "brachial artery",
+    "b": "musculocutaneous nerve",
+    "c": "ulnar nerve",
+    "d": "tendon of brachialis"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 7,
+     "number": 75,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "what-muscles-are-necessary-to-raise-the-arm-above-the-should-f779bd05",
+   "stem": "What muscles are necessary to raise the arm above the shoulder?",
+   "options": {
+    "a": "first the deltoid, next the supraspinatus, and then the serratus anterior.",
+    "b": "first the supraspinatus, next the deltoid, and then the serratus anterior.",
+    "c": "first the supraspinatus, next the serratus anterior, and then the deltoid.",
+    "d": "first the serratus anterior, next the deltoid, and then the supraspinatus"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 8,
+     "number": 81,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "the-ulnar-nerve-b4435364",
+   "stem": "The ulnar nerve",
+   "options": {
+    "a": "it is a terminal branch of the lateral cord of the brachial plexus",
+    "b": "it lies behind the medial epicondyle of the humerus",
+    "c": "it descends with the long head of the triceps",
+    "d": "it innervates the triceps muscle"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 9,
+     "number": 90,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "in-what-joint-is-the-root-of-the-tooth-attached-to-a-peridon-21d3d600",
+   "stem": "In what joint is the root of the tooth attached to a peridontal ligament and held into a tooth socket?",
+   "options": {
+    "a": "gomphosis",
+    "b": "suture",
+    "c": "syndesmosis",
+    "d": "serrate suture"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 9,
+     "number": 97,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-of-the-following-terms-describes-a-muscle-that-assists-5bd57e9a",
+   "stem": "Which of the following terms describes a muscle that assists the prime mover in performing its action?",
+   "options": {
+    "a": "agonist",
+    "b": "antagonist",
+    "c": "synergist",
+    "d": "fixator"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 101,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-of-the-following-bones-is-classified-as-a-flat-bone-468f1b0f",
+   "stem": "Which of the following bones is classified as a flat bone?",
+   "options": {
+    "a": "scapula",
+    "b": "femur",
+    "c": "carpals",
+    "d": "patella"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 102,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "a-plane-which-separates-the-body-into-an-anterior-and-poster-23f7813d",
+   "stem": "A plane which separates the body into an anterior and posterior part is called a:",
+   "options": {
+    "a": "median plane",
+    "b": "sagittal plane",
+    "c": "horizontal plane",
+    "d": "coronal plane"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 104,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-of-the-following-vessels-is-part-of-the-systemic-circu-a88bc5e0",
+   "stem": "Which of the following vessels is part of the systemic circulation?",
+   "options": {
+    "a": "Pulmonary veins",
+    "b": "Pulmonary artery",
+    "c": "Aorta",
+    "d": "Coronary arteries"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 106,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-structure-bounds-cells-after-fertilization-as-they-com-3e9db1c3",
+   "stem": "Which structure bounds cells after fertilization as they compact to form the morula?",
+   "options": {
+    "a": "Zona pellucida",
+    "b": "Corona radiate",
+    "c": "Pronucleus",
+    "d": "Inner cell mass"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 109,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "cells-of-the-embryoblast-form-the-hypoblast-and-epiblast-whi-ecc32c0b",
+   "stem": "cells of the embryoblast form the hypoblast and epiblast, which begin to form:",
+   "options": {
+    "a": "Chorionic cavity",
+    "b": "Antrum",
+    "c": "Blasoceole",
+    "d": "Amniotic cavity"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 110,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "on-day-nine-trophoblastic-lacunae-and-maternal-sinusoids-beg-cdfc768f",
+   "stem": "On day nine, trophoblastic lacunae and maternal sinusoids begin to form around what cells:",
+   "options": {
+    "a": "Syncytiotrophoblast",
+    "b": "Extraembryonic coelom",
+    "c": "Extraembryonic splanchnopleuric",
+    "d": "Exocoelomic"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 111,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "notochord-is-developed-from-9b0c5625",
+   "stem": "Notochord is developed from",
+   "options": {
+    "a": "The epiblast cells at the primitive streak",
+    "b": "The hypoblast cells",
+    "c": "Intraembryonic mesoderm",
+    "d": "Epiblast cells at the wall of primitive pit"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 10,
+     "number": 112,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "regarding-sclerotome-of-somite-2215b8ca",
+   "stem": "Regarding sclerotome of somite:",
+   "options": {
+    "a": "It is dorsolateral part of the somite",
+    "b": "It forms vertebral column",
+    "c": "It forms skeletal muscles behind vertebral column",
+    "d": "It forms three meninges around spinal cord"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 11,
+     "number": 114,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "after-folding-the-most-cranial-structure-in-the-head-fold-is-6303ef5d",
+   "stem": "After folding, the most cranial structure in the head fold is",
+   "options": {
+    "a": "Buccopharyngeal membrane",
+    "b": "Cloacal membrane",
+    "c": "Septum transversum",
+    "d": "Pericardium"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 11,
+     "number": 115,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "which-of-the-following-is-responsible-for-bladder-developmen-583bca65",
+   "stem": "Which of the following is responsible for bladder development?",
+   "options": {
+    "a": "Allantois",
+    "b": "Yolk sac",
+    "c": "Amniotic fluid",
+    "d": "Primordial gut"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 11,
+     "number": 117,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
+  },
+  {
+   "key": "yolk-sac-shares-in-the-formation-of-6b4bd590",
+   "stem": "Yolk sac shares in the formation of",
+   "options": {
+    "a": "Forebrain, midbrain and hind brain",
+    "b": "Kidneys",
+    "c": "Foregut, midgut and hindgut",
+    "d": "Spleen"
+   },
+   "answer": null,
+   "answerConfidence": "none",
+   "occurrences": [
+    {
+     "sourceId": "src_16f747e1171423933757",
+     "file": "EOM ISK EOM exam 2024.pdf",
+     "page": 11,
+     "number": 119,
+     "satOn": "2024-12-05",
+     "sitting": true
+    }
+   ],
+   "timesAsked": 1,
+   "satOn": [
+    "2024-12-05"
+   ],
+   "topic": null,
+   "confidence": "high",
+   "questionType": "mcq",
+   "variants": [],
+   "fromSitting": true,
+   "readBy": "image"
   }
  ],
  "optionRepair": {

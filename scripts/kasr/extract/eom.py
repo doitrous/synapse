@@ -119,24 +119,23 @@ SITTINGS = {
     "2024-12-05": {
         "files": ["EOM ISK EOM exam 2024.pdf"],
         "moduleCode": "ISK-101", "totalMarks": 72, "timeAllowed": 120, "statedQuestions": 120,
-        # This one is a candidate's own script and the pen is all over it. The
-        # rings land on the option letters, so the markers this parser needs are
-        # the characters the ink destroyed, and the damage does not stop there:
-        # at 400 dpi, and under every page-segmentation mode tesseract has,
-        # "ribosomes" comes back "Posomes" and "Golgi apparatus" comes back "Sai
-        # apparatus". The stems are mostly legible; the options are not.
+        # A candidate's own script, with the pen all over it. The rings land on
+        # the option letters, so the markers this parser needs are the very
+        # characters the ink destroyed — and at 400 dpi, under every
+        # page-segmentation mode tesseract has, "ribosomes" still comes back
+        # "Posomes". Its rows come out of here with stems and no options.
         #
-        # So its rows carry clean-ish stems, no options, and `optionsInStem`.
-        # Thirty of them were excluded at authoring for exactly this, and that
-        # was the right call — a seed can add judgement but takes stem and
-        # options verbatim from the bank, so nothing at the seed layer can
-        # separate what OCR never split.
+        # That is a limit of OCR and not of the paper. The pages render
+        # perfectly legibly; `eom-2024-read.py` holds all 120 questions with all
+        # four options, read off the images by eye, and `merge-eom-2024.py` puts
+        # them into the bank over these rows.
         #
-        # Recovering this paper needs a reader or a vision model on the page
-        # images, not another OCR pass. Recorded here so the next person does
-        # not spend an afternoon rediscovering it.
-        "readability": "candidate's ringed script; option letters destroyed by ink, "
-                       "options unrecoverable by OCR at any resolution or psm",
+        # Left running rather than deleted, because it is the honest record of
+        # what the automated path recovers, and the next scanned paper will go
+        # through it before anyone thinks to read one by hand.
+        "readability": "candidate's ringed script; option letters destroyed by ink. "
+                       "Unrecoverable by OCR at any resolution or psm — read by eye "
+                       "instead, see eom-2024-read.py",
     },
 }
 
