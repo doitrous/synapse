@@ -1500,3 +1500,47 @@ content.**
    front-matter marker) to `medical:simulate` instead of `medical:batch`; or
 2. `medical:batch` grows a `--update` flag that relaxes the new-record required-field set and
    resolves IDs against live state.
+
+### Too narrow gives you less; too broad gives you the wrong kind — and that is worse
+
+> **A filter that is too narrow gives a smaller bank. One that is too broad gives evidence of
+> the wrong kind — and the second is worse, because it looks like more.**
+
+Both were found in one day, in opposite directions.
+
+**Too narrow.** A per-module category list gave the MCQ extractor two categories where the
+papers sat across three, so a **120-question MCQ exam paper was invisible** while the *written*
+extractor pulled 36 rows out of the same file. Symptom: a smaller bank. Nothing errored.
+
+**Too broad.** The end-of-module papers are **100% MCQ**, the *written* extractor matched their
+numbered stems, and the clustering was built on the result. **344 of 673 clustered occurrences
+— 51% — come from all-MCQ papers, and 61 of 177 objectives rest on multiple-choice evidence
+alone.**
+
+Nothing was wrong with the objectives; they are real. What was wrong was the implied claim that
+they are examined **in writing**. The orientation says the written paper is eight SAQs and two
+cases — so an objective only ever asked as an MCQ **will never be an SAQ**, and weighting the
+two alike overstates it for exactly the student the blueprint is for.
+
+**The fix is not to delete, it is to label.** Every occurrence now carries `askedAs`, every
+objective `askedAsWritten` and `askedAsMcq`. Evidence of the wrong kind is still evidence — it
+just must not be counted as the other kind.
+
+`scripts/kasr/verify-years.py` opens every paper whose year came from a filename and reports
+agree / no-date / disagree. For one module: **6 agree, 22 print no date at all, 0 disagree.**
+Reusable with `--module`.
+
+### A red check is not automatically a batch to withdraw
+
+An **unfinished** batch — a header with no items — must not sit in the import root: it cannot
+be classified, it fails, and it takes every lane's PR down. That is not the same as a batch
+that is **complete and honestly red**.
+
+Five written batches hold **99 correctly transcribed questions from six sittings** and fail
+only on `no library_ids` / `main concept … is not covered by any article` — 30 concepts across
+14 leaves whose articles are not yet written. The questions are right; the **library** is
+incomplete, and the validator is reporting that accurately.
+
+**Deleting real content to make a check green is worse than the red check** — and where the
+batch is generated, the seeds regenerate it anyway. Finish the articles; do not withdraw the
+questions.
