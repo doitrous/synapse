@@ -99,7 +99,19 @@ ${(seed.conflicts ?? []).join('\n')}
 ${seed.uncertainty ?? ''}
 ## evidence_gaps
 ${(seed.gaps ?? []).join('\n') || '[clear]'}
-## owner
+${conceptTail()}`
+}
+
+/**
+ * The columns every concept carries regardless of where it came from.
+ *
+ * Shared so a concept minted from a question book cannot end up describing
+ * itself in fewer fields than one minted from a paper — the audit's complaint
+ * is a blank *without a reason*, and a reason that exists for one kind of
+ * concept and not another is an authoring accident, not a decision.
+ */
+function conceptTail(): string {
+  return `## owner
 Claude
 ## publication_status
 needs_evidence
@@ -246,7 +258,11 @@ export const batchFile = (header: string, blocks: string[]) =>
  * five times across three books is saying something about the blueprint that no
  * single paper says.
  */
-export function mcqConceptBlock(concept: McqConcept, signals: string[]): string {
+export function mcqConceptBlock(concept: McqConcept, signals: string[], articleId?: string): string {
+  // Weight from how often the books ask it. A question book asking a thing five
+  // times across three books is blueprint evidence no single paper can give.
+  const weight = Math.min(1, 0.15 + 0.08 * signals.length).toFixed(2)
+  const path = concept.modulePath.split(' > ')
   return `# Item
 ## label
 ${concept.label}
@@ -282,16 +298,31 @@ kau
 ${signals.join('\n')}
 ## weight_confidence
 ${signals.length > 2 ? '0.8' : '0.6'}
-## support_mode
+## blueprint_weight
+${weight}
+## exam_weight_by_year
+KAU_Y1=${weight}
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+${signals.length > 2 ? '0.85' : '0.7'}
+## topic
+${path[1] ?? ''}
+## subtopic
+${path[2] ?? path.at(-1) ?? ''}
+## aliases
+${(concept.aliases ?? []).join(' | ')}
+${articleId ? `## article_ids\n${articleId}\n` : ''}## support_mode
 direct_statement
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology for this concept has not been researched yet; it is filled during the evidence pass rather than guessed.
+## conflicts
+${(concept.conflicts ?? []).join('\n')}
+## uncertainty
+${concept.uncertainty ?? ''}
+## evidence_gaps
+${(concept.gaps ?? []).join('\n') || '[clear]'}
+${conceptTail()}
 originalWording: These questions come from departmental question books rather than a sat paper, so there is no single examiner's wording to preserve.`
 }
 

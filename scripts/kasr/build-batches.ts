@@ -11,11 +11,12 @@ import { mintConceptId, partsKey, type Paper, type Seed } from './seeds/types.ts
 import { batchFile, conceptBlock, mcqBlock, mcqConceptBlock, writtenBlock } from './emit.ts'
 import type { BankRow, McqLeafSeed } from './seeds/mcq.ts'
 import { PAPER as EOY_2025 } from './seeds/101-eoy-2025.ts'
+import { PAPER as BAQOON_2024 } from './seeds/101-baqoon-2024.ts'
 import { ARTICLE_FOR_CONCEPT } from './seeds/articles.ts'
 import { SITTING_SIGNALS } from './seeds/sittings.ts'
 
 /** Every paper that has been read. Order is priority order, highest first. */
-const PAPERS: Paper[] = [EOY_2025]
+const PAPERS: Paper[] = [EOY_2025, BAQOON_2024]
 
 const OUT = 'docs/Kasr-Source-Imports'
 const slug = (paper: Paper) =>
@@ -179,7 +180,7 @@ async function mcq() {
         .filter((one) => one.conceptKey === concept.key)
         .flatMap((one) => bank.get(one.key)?.occurrences ?? [])
         .map((where) => `${where.sourceId} | question_book | | p${where.page} | 101 ISK`)
-      conceptBlocks.push(mcqConceptBlock(concept, [...new Set(signals)]))
+      conceptBlocks.push(mcqConceptBlock(concept, [...new Set(signals)], leaf.articleId))
     }
 
     for (const authored of live) {

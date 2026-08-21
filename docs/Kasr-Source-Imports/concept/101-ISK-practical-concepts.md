@@ -2481,7 +2481,7 @@ exam_signal: the practical book and the revision deck print no year, so the year
 
 # Item
 ## label
-Bone marrow is identified by its fat cells and by the megakaryocyte, the largest cell with a single multilobed nucleus
+Bone marrow is identified by its fat cells and by the megakaryocyte, recognised by its size and its single multilobed nucleus
 ## id
 CON-HEM-CF325DABA0EA62
 ## canonical_key
@@ -2541,7 +2541,7 @@ direct_statement
 [DPT Practical Histo 101 p.108, answer p.109] Identify the tissue / The red arrows point to ... — fat cells / adipocytes
 [DPT 1 Final Revision p.65, answer p.66] fat cells / adipocytes (red arrows); megakaryocyte (blue arrow)
 ## conflicts
-
+CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the largest cells in bone marrow. This concept does not dispute it: fat cells are the largest cells of the marrow stroma, and the megakaryocyte is named here by its 50-70 micrometre diameter and its single multilobed nucleus rather than as the largest cell in the marrow. Prof. Dalia El Marakby's Blood handout (src_450c71dc6273b2e64ca3) p.13 is the source of the fat-cell statement and p.15 of the megakaryocyte measurement.
 ## uncertainty
 
 ## evidence_gaps
@@ -2567,7 +2567,6 @@ sourceCandidateIds: The source is known exactly, not a candidate — it is named
 relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
 mergeIds: Nothing has been merged into this concept.
 rejectedMergeCandidateIds: No merge has been proposed or rejected.
-conflicts: The practical book, the revision deck and the departmental handout agree on this slide; nothing was found to record.
 uncertainty: Nothing about this identification is unclear in the source.
 exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
 reviewer: No faculty reviewer has seen this yet.

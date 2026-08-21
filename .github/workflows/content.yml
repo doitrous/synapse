@@ -45,9 +45,11 @@ jobs:
       - name: Manifest citations
         run: npm run medical:citations
 
-      # Concepts first: a question resolves its concept against what exists, so
-      # the concept batch has to be a sibling the question batch can be told
-      # about with `--with`.
+      # Every batch is checked against every concept and article batch as a
+      # sibling. A question and a practical both resolve their concepts against
+      # live state, deliberately — an item pointing at a concept nobody authored
+      # is the failure that check exists to catch — but a programme authoring
+      # all four kinds in one pass has none of them imported yet.
       - name: Validate every batch
         run: |
           set -e
