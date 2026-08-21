@@ -3566,6 +3566,1338 @@
     "Figure 7.1 is used twice on consecutive pages - once for relative head size and once captioned 'Normal growth in fetal period'.",
     "This is the shortest Anatomy chapter: two pages, largely a table and a figure."
    ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Introduction",
+   "bookTitle": "Introduction (Chapter 1)",
+   "startPage": 109,
+   "endPage": 111,
+   "found": true,
+   "keyPoints": [
+    "The anatomical erect position is used as the reference for describing the anatomy of the body: standing erect, eyes looking forwards, upper limbs hanging by the sides, palms facing forwards and thumbs directed laterally.",
+    "Supine position: the body lies on its back. Prone position: the body lies on its face.",
+    "Lithotomy position: the body lies on its back with flexion of hip and knee and abduction of the hip joints.",
+    "Lateral decubitus position: the body lies on its side, right or left.",
+    "The median (sagittal) plane is the vertical plane passing in the midline of the body dividing it into equal right and left halves.",
+    "The paramedian plane is parallel to and near the median plane.",
+    "The coronal (frontal) plane cuts the body vertically into an anterior part towards the front and a posterior part towards the back.",
+    "The horizontal (transverse) plane runs horizontally cutting the body into upper (superior) and lower (inferior) parts.",
+    "Terms of position are tabulated: anterior/ventral (nearer the front), posterior/dorsal/retro- (nearer the back), superior/upper/cranial, inferior/lower/caudal, external/outer (near or on the surface), internal/inner (inside), median (exactly in the midline), medial (nearer the median plane), lateral (away from it), proximal (nearer the root of the limb), distal (away from it), superficial (towards the skin), deep (away from the skin), and peri- (around).",
+    "Terms of number: uni-/mono- one, bi-/di- two, tri- three, quadri- four, multi-/poly- many, oligo- little."
+   ],
+   "definitions": [
+    {
+     "term": "Anatomical erect position",
+     "text": "Reference position: body standing erect, eyes forwards, upper limbs hanging by the sides, palms facing forwards, thumbs directed laterally."
+    },
+    {
+     "term": "Median (sagittal) plane",
+     "text": "Vertical plane passing in the midline dividing the body into equal right and left halves."
+    },
+    {
+     "term": "Paramedian plane",
+     "text": "A plane parallel to and nearby the median plane."
+    },
+    {
+     "term": "Coronal (frontal) plane",
+     "text": "Plane cutting the body vertically into anterior and posterior parts."
+    },
+    {
+     "term": "Horizontal plane",
+     "text": "Transverse plane cutting the body into superior and inferior parts."
+    },
+    {
+     "term": "Proximal",
+     "text": "Nearer to the root of the limb."
+    },
+    {
+     "term": "Distal",
+     "text": "Away from the root of the limb."
+    }
+   ],
+   "numbers": [
+    "5 anatomical positions",
+    "4 anatomical planes",
+    "14 terms of position tabulated",
+    "6 terms of number"
+   ],
+   "classifications": [
+    {
+     "of": "Anatomical positions",
+     "items": [
+      "Anatomical erect position",
+      "Supine position",
+      "Prone position",
+      "Lithotomy position",
+      "Lateral decubitus position"
+     ]
+    },
+    {
+     "of": "Anatomical planes",
+     "items": [
+      "Median (sagittal)",
+      "Paramedian",
+      "Coronal (frontal)",
+      "Horizontal (transverse)"
+     ]
+    },
+    {
+     "of": "Terms of numbers",
+     "items": [
+      "Uni-/Mono- = one",
+      "Bi-/Di- = two",
+      "Tri- = three",
+      "Quadri- = four",
+      "Multi-/Poly- = many",
+      "Oligo- = little"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 109,
+     "caption": "Unlabelled figure of the anatomical erect position beside the text",
+     "kind": "diagram"
+    },
+    {
+     "page": 110,
+     "caption": "Lithotomy position",
+     "kind": "diagram"
+    },
+    {
+     "page": 110,
+     "caption": "Unlabelled diagrams of the anatomical planes beside their descriptions",
+     "kind": "diagram"
+    },
+    {
+     "page": 111,
+     "caption": "TERMS OF POSITION - two-column table of anatomical term and meaning",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter ILOs: describe the meaning of each of the common anatomical positions of the human body; apply the anatomical planes on a model (e.g. an apple, plaster).",
+    "The Anatomy part restarts chapter numbering at Chapter 1 for Basis of Anatomy, having already used Chapters 1-7 for General Embryology; chapter numbers alone do not identify a section."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Fascia",
+   "bookTitle": "FASCIA (Chapter 2)",
+   "startPage": 112,
+   "endPage": 114,
+   "found": true,
+   "keyPoints": [
+    "Fascia is a collection of connective tissue under the skin covering the body wall and limbs; it includes superficial, deep and internal fasciae.",
+    "Superficial fascia is a layer of loose connective tissue just deep to the skin allowing the skin to move more or less freely over underlying structures.",
+    "It contains a variable quantity of fat, more in females: abundant in the gluteal region, anterior abdominal wall and breast; less in the limbs; absent in the eyelid, penis and scrotum.",
+    "Functions of superficial fascia: prevents heat loss acting as a thermal insulator; softens and smoothens the body surface; facilitates movement of the skin over underlying structures; acts as the medium conducting nerves, vessels and lymphatics to the skin; contains skin muscles as in the face (muscles of expression); and contains special glands such as the mammary glands.",
+    "Deep fascia is a non-elastic membrane of compact regular collagen fibres, well defined in the limbs, very strong and thick in palm and sole, and absent in the face and in the anterior wall of the abdomen.",
+    "Deep fascia forms broad sheets around groups of body muscles to give muscle attachment, fix underlying structures in position and help venous return.",
+    "Deep fascia forms intermuscular septa and interosseous membranes separating muscle groups of different action and nerve supply, and increasing surface area for muscle attachment.",
+    "Deep fascia forms retinacula - localised transverse thickened bands around wrist and ankle joints keeping the tendons in position.",
+    "Deep fascia forms the palmar aponeurosis in the palm and the plantar aponeurosis in the sole, very thick strong layers protecting the underlying vessels, nerves and tendons.",
+    "Deep fascia forms fibrous sheaths around big vessels, e.g. the carotid sheath in the neck around the common carotid artery, internal jugular vein and vagus."
+   ],
+   "definitions": [
+    {
+     "term": "Fascia",
+     "text": "A collection of connective tissue under the skin covering the body wall and limbs; superficial, deep and internal."
+    },
+    {
+     "term": "Superficial fascia",
+     "text": "Layer of loose connective tissue just deep to the skin allowing the skin to move over underlying structures."
+    },
+    {
+     "term": "Deep fascia",
+     "text": "Non-elastic membrane formed of compact and regular collagen fibres."
+    },
+    {
+     "term": "Retinacula",
+     "text": "Localised transverse thickened bands of deep fascia around wrist and ankle joints keeping the tendons in position."
+    }
+   ],
+   "numbers": [
+    "3 kinds of fascia (superficial, deep, internal)",
+    "6 functions of superficial fascia",
+    "5 parts/functions of deep fascia"
+   ],
+   "classifications": [
+    {
+     "of": "Fascia",
+     "items": [
+      "Superficial fascia",
+      "Deep fascia",
+      "Internal fascia"
+     ]
+    },
+    {
+     "of": "Parts and functions of deep fascia",
+     "items": [
+      "Broad sheets around muscle groups",
+      "Intermuscular septa and interosseous membranes",
+      "Retinacula",
+      "Palmar and plantar aponeuroses",
+      "Fibrous sheaths around big vessels (e.g. carotid sheath)"
+     ]
+    },
+    {
+     "of": "Distribution of fat in superficial fascia",
+     "items": [
+      "Abundant: gluteal region, anterior abdominal wall, breast",
+      "Less: limbs",
+      "Absent: eyelid, penis, scrotum"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 112,
+     "caption": "Unlabelled diagram of superficial fascia beneath the skin",
+     "kind": "diagram"
+    },
+    {
+     "page": 113,
+     "caption": "Unlabelled figures accompanying the functions of superficial fascia and parts of deep fascia",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: knowledge of the arrangement of the deep fascia often helps explain the path taken by infection when it spreads from its primary site - in the neck, infection can spread from the floor of the mouth to the larynx.",
+    "Book states: accumulation of fluid in the superficial fascia leads to oedema.",
+    "Book states: good mobilisation of the skin after skin incision occurs at the plane of superficial fascia, and a surgical incision along the skin crease heals with minimal scar.",
+    "The chapter names internal fascia as a third kind but does not describe it."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Skeletal system",
+   "bookTitle": "Skeletal System - BONES and CARTILAGE (Chapter 3)",
+   "startPage": 115,
+   "endPage": 121,
+   "found": true,
+   "keyPoints": [
+    "Bone is a hard type of connective tissue which forms the skeleton.",
+    "Functions of the skeleton: gives the specific shape to the body; provides the central axis and the skeleton of both limbs; protects vital organs (skull protects the brain, thoracic cage the heart and lungs); provides surface area for muscular attachment; transmits and supports body weight; forms the joints as part of the locomotor system; forms the blood elements in the bone marrow; and stores calcium salts.",
+    "By position, the skeleton is axial (skull, mandible, hyoid, sternum, ribs and vertebral column) or appendicular/peripheral (in the upper and lower limbs).",
+    "By ossification, bones form by intra-membranous ossification (e.g. clavicle and skull cap - bone develops directly from CT membrane/mesenchyme beginning at one or more centres) or intra-cartilaginous ossification (e.g. long bones, vertebrae, ribs and base of skull - mesenchyme first becomes a cartilage model which is then changed into bone).",
+    "By shape there are six classes: long, short, flat, pneumatic, irregular and sesamoid bones.",
+    "A long bone has two ends (epiphyses) and a shaft (diaphysis); the epiphysis is the expanded end used for articulation and covered with hyaline cartilage.",
+    "The diaphysis is a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow, covered by a fibrous sheath, the periosteum; in growing long bones the epiphysis and diaphysis are separated by a disc of hyaline cartilage, the epiphyseal cartilage.",
+    "The metaphysis lies just beneath the epiphyseal cartilage and is the most active part of the long bone.",
+    "Short bones (carpal and tarsal bones) consist of spongy bone covered with a thin layer of compact bone.",
+    "Flat bones (skull cap, scapula, ribs) consist of two thin plates of compact bone with a middle layer of spongy bone; in skull bones the compact plates are the outer and inner tables and the intervening spongy layer is the diploe.",
+    "Pneumatic bones contain air, mainly skull bones surrounding the nose (maxillary, frontal), so the air cavities are called paranasal sinuses; a bone may contain one air cavity (maxillary sinus) or multiple small air cells (mastoid air cells). They decrease the weight of the skull, give resonance of voice and have highly vascular mucosa to warm inspired air.",
+    "Irregular bones have irregular shape with projecting processes, e.g. vertebrae, and are similar in structure to short bones.",
+    "Sesamoid bones are small nodules of bone embedded in some muscle tendons, e.g. the patella - the largest sesamoid bone, embedded in the tendon of quadriceps femoris in front of the knee joint - and they diminish friction between tendons and underlying bones.",
+    "Long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells; the epiphyseal plate at one end ossifies earlier than the other, and the later-ossifying end is called the growing end. Fusion of epiphysis and diaphysis is under hormonal control and occurs earlier in females.",
+    "Long bones increase in width from the osteoblasts present in the inner layer of the periosteum.",
+    "Arterial supply of bone: the nutrient artery enters the middle of the shaft through an oblique nutrient foramen and runs away from the growing end, supplying the inner two-thirds of the shaft; metaphyseal arteries enter through minute foramina to supply the metaphyses; epiphyseal arteries supply the epiphysis and anastomose with metaphyseal arteries after ossification of the epiphyseal plate; periosteal arteries supply the outer third of the shaft.",
+    "Terms of bony elevation are defined: process (elongated projection with a blunt end), spine (elongated with a pointed tip), tubercle/tuberosity/trochanter (localised roughly rounded elevations, smallest to biggest), epicondyle (small elevation above a condyle or articular surface), hamulus (slender curved hook-like process), cornu (slender curved horn-like process), crest (elongated ridge on top of a bone), ridge (linear elevation), line (slightly elevated or rough linear landmark) and condyle (knuckle-shaped structure).",
+    "Terms of bony depression are defined: fossa (depression on a surface; a fovea is a small fossa), notch (limited depression with two limiting edges), incisura (cut or notch-like depression on a border), groove or sulcus (elongated depression), fissure (long cleft between flat bones), hiatus (gap or cleft), foramen (hole through a bone), aperture (large hole), canal (track of some length with open ends), meatus (bony canal with one closed end) and impression (slight indentation).",
+    "Sex differences in bones: male bones are heavy and thick while female bones are light and thin; tubercles, tuberosities and ridges are more prominent in male bones; and the cavity of the pelvis is wider and shorter in the female to adapt to pregnancy and delivery.",
+    "Cartilage is a rubbery type of connective tissue, tough and resilient, with no blood vessels, nerves or lymphatics; it gets nutrition by diffusion from the blood vessels of the perichondrium, consists of mature cartilage cells (chondrocytes), fibres and matrix, resists compression forces and friction, and has great capacity of growth by multiplication of chondroblasts.",
+    "Hyaline cartilage (glass-like) is the most widespread in the human body, with translucent matrix and numerous small rounded cartilage cells; it is found in developing bones in the fetus, epiphyseal plates of long bones, articular cartilage in joints, costal cartilage and xiphoid process, and the larynx (except the epiglottis) and tracheal rings. It ossifies in old age in certain sites such as the larynx and epiphyseal cartilages.",
+    "White fibrocartilage has an opaque matrix rich in collagen bundles and few cartilage cells; it is found in the intervertebral discs and does not ossify in old age.",
+    "Yellow elastic fibrocartilage has a yellow matrix rich in yellow elastic fibres and abundant cartilage cells; it is found in the tip of the nose, auricle of the ear and epiglottis of the larynx, and does not ossify in old age."
+   ],
+   "definitions": [
+    {
+     "term": "Bone",
+     "text": "A hard type of connective tissue which forms the skeleton."
+    },
+    {
+     "term": "Epiphysis",
+     "text": "The expanded upper and lower ends of the long bone, used for articulation and covered with hyaline cartilage."
+    },
+    {
+     "term": "Diaphysis",
+     "text": "The shaft of a long bone; a tube of compact bone with a central medullary cavity lined with endosteum and filled with bone marrow."
+    },
+    {
+     "term": "Metaphysis",
+     "text": "The part of the long bone just beneath the epiphyseal cartilage; the most active part of the long bone."
+    },
+    {
+     "term": "Diploe",
+     "text": "The layer of spongy bone between the outer and inner tables of skull bones."
+    },
+    {
+     "term": "Growing end",
+     "text": "The end of a long bone whose epiphyseal plate ossifies later."
+    },
+    {
+     "term": "Sesamoid bone",
+     "text": "Small nodule of bone embedded in a muscle tendon, diminishing friction between tendon and underlying bone."
+    },
+    {
+     "term": "Cartilage",
+     "text": "A rubbery, tough and resilient type of connective tissue with no blood vessels, nerves or lymphatics."
+    }
+   ],
+   "numbers": [
+    "8 functions of the skeleton",
+    "6 shapes of bone",
+    "2 processes of ossification",
+    "Nutrient artery supplies the inner 2/3 of the shaft",
+    "Periosteal arteries supply the outer 1/3 of the shaft",
+    "Epiphyseal fusion occurs in females earlier than males by about 2 years",
+    "10 terms of bony elevation",
+    "11 terms of bony depression/groove/canal",
+    "3 types of cartilage"
+   ],
+   "classifications": [
+    {
+     "of": "Skeleton by position",
+     "items": [
+      "Axial skeleton: skull, mandible, hyoid, sternum, ribs, vertebral column",
+      "Appendicular (peripheral) skeleton: upper and lower limbs"
+     ]
+    },
+    {
+     "of": "Bones by process of ossification",
+     "items": [
+      "Intra-membranous ossification (clavicle, skull cap)",
+      "Intra-cartilaginous ossification (long bones, vertebrae, ribs, base of skull)"
+     ]
+    },
+    {
+     "of": "Bones by shape",
+     "items": [
+      "Long bones",
+      "Short bones",
+      "Flat bones",
+      "Pneumatic bones",
+      "Irregular bones",
+      "Sesamoid bones"
+     ]
+    },
+    {
+     "of": "Arterial supply of bones",
+     "items": [
+      "Nutrient artery",
+      "Metaphyseal arteries",
+      "Epiphyseal arteries",
+      "Periosteal arteries"
+     ]
+    },
+    {
+     "of": "Bony elevations",
+     "items": [
+      "Process",
+      "Spine",
+      "Tubercle, tuberosity, trochanter",
+      "Epicondyle",
+      "Hamulus",
+      "Cornu",
+      "Crest",
+      "Ridge",
+      "Line",
+      "Condyle"
+     ]
+    },
+    {
+     "of": "Bony depressions, grooves and canals",
+     "items": [
+      "Fossa (fovea)",
+      "Notch",
+      "Incisura",
+      "Groove or sulcus",
+      "Fissure",
+      "Hiatus",
+      "Foramen",
+      "Aperture",
+      "Canal",
+      "Meatus",
+      "Impression"
+     ]
+    },
+    {
+     "of": "Sex differences in bones",
+     "items": [
+      "Characters of bones",
+      "Muscle attachment",
+      "The bony pelvis"
+     ]
+    },
+    {
+     "of": "Types of cartilage",
+     "items": [
+      "Hyaline cartilage",
+      "White fibrocartilage",
+      "Yellow elastic fibrocartilage"
+     ]
+    },
+    {
+     "of": "Sites of hyaline cartilage",
+     "items": [
+      "Developing bones in the fetus",
+      "Epiphyseal plates of long bones",
+      "Articular cartilage in joints",
+      "Costal cartilage and xiphoid process",
+      "Larynx (except epiglottis) and tracheal rings"
+     ]
+    },
+    {
+     "of": "Sites of yellow elastic fibrocartilage",
+     "items": [
+      "Tip of the nose",
+      "Auricle of the ear",
+      "Epiglottis of the larynx"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 116,
+     "caption": "Unlabelled diagram of the axial and appendicular skeleton",
+     "kind": "diagram"
+    },
+    {
+     "page": 116,
+     "caption": "Unlabelled diagram of a long bone showing epiphysis, diaphysis and epiphyseal cartilage",
+     "kind": "diagram"
+    },
+    {
+     "page": 117,
+     "caption": "Unlabelled diagrams of pneumatic bones (paranasal sinuses) and irregular bones (vertebra)",
+     "kind": "diagram"
+    },
+    {
+     "page": 118,
+     "caption": "Unlabelled diagram of the arterial supply of a long bone (nutrient, metaphyseal, epiphyseal and periosteal arteries)",
+     "kind": "diagram"
+    },
+    {
+     "page": 120,
+     "caption": "Unlabelled micrograph/diagram of hyaline cartilage",
+     "kind": "micrograph"
+    },
+    {
+     "page": 121,
+     "caption": "Fibrocartilage - labelled chondrocyte in a lacuna and collagen fibers",
+     "kind": "micrograph"
+    },
+    {
+     "page": 121,
+     "caption": "Unlabelled image of yellow elastic fibrocartilage",
+     "kind": "micrograph"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter ILOs: recognise the functions of bones in man; classify bones by developmental origin, type of ossification, structure and shape with examples; define the general features of bones; determine generally the sex of bones; point out the properties of cartilage; describe the three types of cartilage and their sites.",
+    "Book states epiphyseal fusion is under hormonal control and occurs in females about 2 years earlier than males.",
+    "Book states the nutrient artery runs away from the growing end of the bone."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Articular system",
+   "bookTitle": "Articular System (JOINTS) (Chapter 4)",
+   "startPage": 122,
+   "endPage": 131,
+   "found": true,
+   "keyPoints": [
+    "A joint is the contact between two bones or more.",
+    "Joints are classified into fibrous, cartilaginous and synovial.",
+    "Fibrous joints are fixed or immobile, the bone surfaces being connected by fibrous tissue; there are three types - syndesmosis, gomphosis and sutures.",
+    "Syndesmosis is present in the inferior tibio-fibular joint where the lower ends of tibia and fibula are connected by fibrous tissue called the interosseous ligament.",
+    "Gomphosis is present in the teeth, where the roots are connected to their sockets in the mandible and maxilla by fibrous tissue called the periodontal ligament.",
+    "Sutures are present in the skull, where the bones are connected by a thin layer of fibrous tissue called the sutural ligament; they are obliterated in old age.",
+    "Primary cartilaginous joints are temporary and disappear by ossification; they lie at the ends of long bones, are immobile, and are a plate of hyaline cartilage between epiphysis and diaphysis in developing long bones in children.",
+    "Secondary cartilaginous joints are permanent, present in the midline (e.g. intervertebral discs), with limited mobility facilitated by the elasticity of the fibrocartilaginous disc; the articulating bone is covered by a thin layer of hyaline cartilage and separated by a white fibrocartilaginous disc, strengthened by fibrous ligaments which do not form a complete capsule.",
+    "A synovial joint is freely mobile, present mostly in the limbs, and is formed of fibrous capsule, articular cartilage, joint cavity, synovial membrane, synovial fluid, ligaments and intra-articular structures.",
+    "The fibrous capsule surrounds the joint, is lined by synovial membrane and is supported and strengthened by strong ligaments.",
+    "Articular cartilage is hyaline cartilage covering the articular surfaces; it is smooth and lubricated by synovial fluid, has no blood vessels or nerves, is nourished from synovial fluid, and in old age shows irregularities and undulations due to erosions which do not repair.",
+    "The joint cavity is a potential cavity containing a very thin film of synovial fluid; it becomes manifest if fluid, blood or pus collects in it.",
+    "The synovial membrane is a thin, moist, glistening membrane covering all structures inside the joint except the articular surfaces; it lines the fibrous capsule and secretes and absorbs the synovial fluid.",
+    "Synovial fluid is a pale yellow viscous fluid similar to egg albumin containing free cells (synovial cells, macrophages and lymphocytes); it lubricates the articular cartilage and reduces its erosion and helps its nutrition.",
+    "Ligaments support and strengthen the joint and include capsular, extracapsular and intracapsular ligaments.",
+    "Intra-articular structures include an articular fibrocartilaginous disc dividing the cavity into upper and lower compartments (temporomandibular joint), menisci or semilunar cartilages (knee joint), ligaments (cruciate ligament of the knee) and tendons (tendon of the long head of biceps in the shoulder joint).",
+    "Factors affecting the stability of the joint: shape and fitting of articulating surfaces, thickness and elasticity of the capsule, position and strength of ligaments, and strength of the muscles surrounding the joint.",
+    "Factors affecting the range of movement: tension of ligaments surrounding the joint, contraction of the antagonistic muscles, and approximation and contact of the soft tissues around the joint.",
+    "The sensory nerves supplying a joint are called articular nerves; they end in the fibrous capsule and related ligaments and are sensitive to pain, position and movement of the joint.",
+    "Hilton's Law: the nerve supply to a muscle acting on a specific joint gives a branch to supply this joint and another branch to supply the skin covering the same joint.",
+    "Joint movements defined: flexion (approximation of two ventral aspects), extension (straightening), abduction (movement away from the midline - in fingers away from the middle finger, in toes away from the second toe), adduction (movement towards the midline), circumduction (combination of all the above), rotation (medial or lateral rotation of the limb around a vertical axis), gliding (non-axial movement), supination (lateral rotation of the forearm), pronation (medial rotation of the forearm), inversion (sole directed inwards), eversion (sole directed outwards) and opposition (thumb coming into contact with the other four fingers).",
+    "By number of articulating bones synovial joints are simple (two bones, e.g. shoulder), compound (more than two bones, e.g. elbow) or complex (containing intra-articular structures, e.g. knee).",
+    "Uni-axial joints move around a single axis: a hinge joint has a trochlea-like convex articular surface and one transverse axis, allowing only flexion and extension because of strong collateral ligaments (elbow); a pivot joint has a central bony pivot surrounded by a fibro-osseous ring and allows rotation around a longitudinal axis (superior radio-ulnar joint).",
+    "Bi-axial joints move around two perpendicular axes and are condylar (two convex condyles articulating with two concave surfaces - knee, bicondylar; or one condyle with one concave surface - temporomandibular joint, unicondylar), ellipsoid (an oval convex surface of the carpal bones with the elliptical concave inferior surface of radius and the articular disc of ulna - wrist joint) or saddle (concavo-convex articulating surfaces - carpometacarpal joint of the thumb).",
+    "Multi-axial joints move around three axes; a globular rounded bone articulates with a concave socket, making them the most freely mobile joints in the body - the ball and socket joints of shoulder and hip.",
+    "Non-axial (plane) joints have flat articular surfaces and gliding movement without any axis, e.g. intercarpal joints, superior tibio-fibular joint and intervertebral joints."
+   ],
+   "definitions": [
+    {
+     "term": "Joint",
+     "text": "The contact between two bones or more."
+    },
+    {
+     "term": "Syndesmosis",
+     "text": "Fibrous joint in which bones are connected by an interosseous ligament, e.g. the inferior tibio-fibular joint."
+    },
+    {
+     "term": "Gomphosis",
+     "text": "Fibrous joint connecting the roots of teeth to their sockets by the periodontal ligament."
+    },
+    {
+     "term": "Suture",
+     "text": "Fibrous joint in the skull where bones are connected by a thin sutural ligament."
+    },
+    {
+     "term": "Synovial joint",
+     "text": "A freely mobile joint, present mostly in the limbs."
+    },
+    {
+     "term": "Synovial fluid",
+     "text": "Pale yellow viscous fluid similar to egg albumin containing synovial cells, macrophages and lymphocytes."
+    },
+    {
+     "term": "Hilton's Law",
+     "text": "The nerve supply to a muscle acting on a specific joint gives a branch to supply this joint and another branch to supply the skin covering the same joint."
+    },
+    {
+     "term": "Dislocation",
+     "text": "Separation of the articular surfaces of the bones forming a joint."
+    },
+    {
+     "term": "Hinge joint",
+     "text": "Uni-axial joint with a trochlea-like convex articular surface and one transverse axis allowing flexion and extension only."
+    },
+    {
+     "term": "Pivot joint",
+     "text": "Uni-axial joint whose articulating surface consists of a central bony pivot surrounded by a fibro-osseous ring, allowing rotation around a longitudinal axis."
+    },
+    {
+     "term": "Ellipsoid joint",
+     "text": "Bi-axial joint formed by an oval convex surface articulating with an elliptical concave surface."
+    },
+    {
+     "term": "Saddle joint",
+     "text": "Bi-axial joint whose articulating surfaces are concavo-convex."
+    },
+    {
+     "term": "Non-axial (plane) joint",
+     "text": "Joint with flat articular surfaces whose movement is gliding without any axis."
+    }
+   ],
+   "numbers": [
+    "3 classes of joints",
+    "3 types of fibrous joint",
+    "2 types of cartilaginous joint",
+    "7 components of the synovial joint (A-G)",
+    "4 kinds of intra-articular structure",
+    "4 factors affecting joint stability",
+    "3 factors affecting the range of movement",
+    "12 joint movements defined",
+    "3 classes by number of articulating bones",
+    "4 classes by axis of movement",
+    "2 uni-axial, 3 bi-axial shapes"
+   ],
+   "classifications": [
+    {
+     "of": "Classification of joints",
+     "items": [
+      "Fibrous joints",
+      "Cartilaginous joints",
+      "Synovial joints"
+     ]
+    },
+    {
+     "of": "Fibrous joints",
+     "items": [
+      "Syndesmosis",
+      "Gomphosis",
+      "Sutures"
+     ]
+    },
+    {
+     "of": "Cartilaginous joints",
+     "items": [
+      "Primary cartilaginous joint",
+      "Secondary cartilaginous joint"
+     ]
+    },
+    {
+     "of": "Components of the synovial joint",
+     "items": [
+      "Fibrous capsule",
+      "Articular cartilage",
+      "Joint cavity",
+      "Synovial membrane",
+      "Synovial fluid",
+      "Ligaments",
+      "Intra-articular structures"
+     ]
+    },
+    {
+     "of": "Intra-articular structures",
+     "items": [
+      "Articular fibrocartilaginous disc",
+      "Menisci (semilunar cartilage)",
+      "Ligament",
+      "Tendon"
+     ]
+    },
+    {
+     "of": "Factors affecting stability of the joint",
+     "items": [
+      "Shape and fitting of articulating surfaces",
+      "Thickness and elasticity of the capsule",
+      "Position and strength of ligaments",
+      "Strength of muscles surrounding the joint"
+     ]
+    },
+    {
+     "of": "Factors affecting the range of movement",
+     "items": [
+      "Tension of ligaments surrounding the joint",
+      "Contraction of the antagonistic muscles",
+      "Approximation and contact of soft tissues around the joint"
+     ]
+    },
+    {
+     "of": "Movements of the joints",
+     "items": [
+      "Flexion",
+      "Extension",
+      "Abduction",
+      "Adduction",
+      "Circumduction",
+      "Rotation",
+      "Gliding",
+      "Supination",
+      "Pronation",
+      "Inversion",
+      "Eversion",
+      "Opposition"
+     ]
+    },
+    {
+     "of": "Synovial joints by number of articulating bones",
+     "items": [
+      "Simple (shoulder)",
+      "Compound (elbow)",
+      "Complex (knee)"
+     ]
+    },
+    {
+     "of": "Synovial joints by axis and shape",
+     "items": [
+      "Uni-axial: hinge (elbow), pivot (superior radio-ulnar)",
+      "Bi-axial: condylar (knee, TMJ), ellipsoid (wrist), saddle (carpometacarpal of thumb)",
+      "Multi-axial: ball and socket (shoulder, hip)",
+      "Non-axial: plane (superior tibio-fibular, intercarpal, intervertebral)"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 122,
+     "caption": "Fibrous joints - three-column table of syndesmosis, gomphosis and sutures with illustrations",
+     "kind": "table"
+    },
+    {
+     "page": 123,
+     "caption": "Primary versus secondary cartilaginous joint - comparative table",
+     "kind": "table"
+    },
+    {
+     "page": 124,
+     "caption": "Unlabelled diagram of the structure of a synovial joint",
+     "kind": "diagram"
+    },
+    {
+     "page": 127,
+     "caption": "Movements of joints - composite figure",
+     "kind": "diagram"
+    },
+    {
+     "page": 128,
+     "caption": "Uni-axial Joints - illustrations of hinge and pivot joints",
+     "kind": "diagram"
+    },
+    {
+     "page": 129,
+     "caption": "Unlabelled diagrams of condylar, ellipsoid and saddle joints",
+     "kind": "diagram"
+    },
+    {
+     "page": 130,
+     "caption": "Multi-axial Joints - illustrations of ball and socket joints",
+     "kind": "diagram"
+    },
+    {
+     "page": 130,
+     "caption": "Non-axial (Plane) Joints - illustration",
+     "kind": "diagram"
+    },
+    {
+     "page": 131,
+     "caption": "Types of the synovial joints - summary table of axis of movement against shape of articular surface with examples",
+     "kind": "table"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: the joint cavity becomes swollen due to collection of fluid, pus or blood according to the disease affecting the joint.",
+    "Book states: the articular surface becomes eroded and rough due to osteoarthritis or overweight and is very painful.",
+    "Book states: separation of the articular surfaces of the bones forming a joint is called dislocation.",
+    "The ILO list for this chapter repeats items - 'Define Hilton's Law' and 'Describe Hilton's law' both appear, as do two near-identical items on factors limiting/supporting joints.",
+    "The articular cartilage nutrition list is printed with only item '1- From synovial fluid' under a 'c- Nutrition:' heading, so a second source appears to be missing from the text."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Muscular system",
+   "bookTitle": "Muscular System (Chapter 5)",
+   "startPage": 132,
+   "endPage": 136,
+   "found": true,
+   "keyPoints": [
+    "Muscle tissue is characterised by the property of contraction - the ability of the muscle fibres to become short.",
+    "By structure and function there are three types of muscle: skeletal, smooth and cardiac.",
+    "Skeletal muscle is attached to the skeleton, contracts voluntarily, is striated and is supplied by somatic nerves.",
+    "Smooth muscle is in the wall of blood vessels and viscera, contracts involuntarily, has no striations and is supplied by autonomic nerves.",
+    "Cardiac muscle is in the myocardium of the heart, contracts involuntarily, is striated but less than skeletal muscle, and is supplied by autonomic nerves.",
+    "Each skeletal muscle has two attachments: the origin is the most fixed attachment and the insertion the most mobile; sometimes the insertion is the fixed point and the origin mobile, and a muscle may have more than one origin or insertion.",
+    "In the limbs the origins are usually proximal to the insertions, and during contraction the insertion moves towards the origin, producing movement in the related joints.",
+    "Types of muscle attachment: to bone (commonest, either directly by fleshy fibres or by a tendon); to a fibrous raphe (a band or septum of fibrous tissue through which two muscles fuse, e.g. mylohyoid); to skin (inserted into the dermis so contraction moves the skin, e.g. facial muscles); and to cartilage (e.g. cricothyroid muscle of the larynx).",
+    "Skeletal muscles vary in shape and fibre arrangement to produce a specific force and range of contraction; the form depends on the arrangement of fibres relative to the line of pull, the line extending between origin and insertion.",
+    "Muscles with fibres parallel to the line of pull: strap-like (sartorius), strap-like with tendinous intersections (rectus abdominis), quadrilateral (thyrohyoid) and fusiform (lumbrical).",
+    "Pennate (feather-like) muscles have fibres oblique to the tendons and are unipennate (fibres on one side of the tendon, flexor pollicis longus), bipennate (fibres on both sides, rectus femoris), multipennate (a series of bipennate units side by side, deltoid) and circumpennate (cylindrical with a central tendon and bipennate units converging from the periphery, tibialis anterior).",
+    "Non-pennate oblique muscles are triangular (temporalis), spiral (supinator), cruciate (masseter) and circular (orbicularis oris).",
+    "Muscles may have more than one fleshy belly or head: two heads (biceps), three heads (triceps) or four heads (quadriceps).",
+    "A purposeful movement is not done by one muscle but by a group acting together; by role there are four types of muscle action.",
+    "Prime mover (agonist) initiates and maintains a movement; antagonist opposes the action of the prime mover; fixator (stabiliser) fixes the origin of the prime mover or stabilises the joint on which it acts; synergist contracts to eliminate unwanted movements at joints the prime mover crosses so that its action on the desired joint becomes maximal."
+   ],
+   "definitions": [
+    {
+     "term": "Origin",
+     "text": "The most fixed attachment of a muscle."
+    },
+    {
+     "term": "Insertion",
+     "text": "The most mobile attachment of a muscle."
+    },
+    {
+     "term": "Line of pull",
+     "text": "The line extending between the origin and insertion of a muscle."
+    },
+    {
+     "term": "Fibrous raphe",
+     "text": "A band or septum of fibrous tissue through which two muscles fuse together."
+    },
+    {
+     "term": "Prime mover (agonist)",
+     "text": "The muscle which initiates and maintains a movement."
+    },
+    {
+     "term": "Antagonist",
+     "text": "The muscle which opposes the action of the prime mover."
+    },
+    {
+     "term": "Fixator (stabilizer)",
+     "text": "Muscle which fixes the origin of the prime mover or stabilises the joint upon which the muscle acts."
+    },
+    {
+     "term": "Synergist",
+     "text": "Muscle which contracts to eliminate unwanted movements at joints crossed by the prime mover."
+    }
+   ],
+   "numbers": [
+    "3 types of muscle",
+    "4 types of muscle attachment",
+    "4 parallel-fibre muscle forms",
+    "4 types of pennate muscle",
+    "4 non-pennate forms",
+    "4 types of muscle action",
+    "5 causes of muscle atrophy listed"
+   ],
+   "classifications": [
+    {
+     "of": "Muscles by structure and function",
+     "items": [
+      "Skeletal",
+      "Smooth",
+      "Cardiac"
+     ]
+    },
+    {
+     "of": "Types of muscle attachment",
+     "items": [
+      "Attachment to bone",
+      "Attachment to a fibrous raphe",
+      "Attachment to skin",
+      "Attachment to cartilage"
+     ]
+    },
+    {
+     "of": "Muscles with fibres parallel to the line of pull",
+     "items": [
+      "Strap-like (sartorius)",
+      "Strap-like with tendinous intersections (rectus abdominis)",
+      "Quadrilateral (thyrohyoid)",
+      "Fusiform (lumbrical)"
+     ]
+    },
+    {
+     "of": "Pennate muscles",
+     "items": [
+      "Unipennate (flexor pollicis longus)",
+      "Bipennate (rectus femoris)",
+      "Multipennate (deltoid)",
+      "Circumpennate (tibialis anterior)"
+     ]
+    },
+    {
+     "of": "Non-pennate oblique muscles",
+     "items": [
+      "Triangular (temporalis)",
+      "Spiral (supinator)",
+      "Cruciate (masseter)",
+      "Circular (orbicularis oris)"
+     ]
+    },
+    {
+     "of": "Muscles with more than one head",
+     "items": [
+      "Two heads (biceps)",
+      "Three heads (triceps)",
+      "Four heads (quadriceps)"
+     ]
+    },
+    {
+     "of": "Types of muscle action",
+     "items": [
+      "Prime mover (agonist)",
+      "Antagonist",
+      "Fixator (stabilizer)",
+      "Synergist"
+     ]
+    },
+    {
+     "of": "Causes of muscle atrophy",
+     "items": [
+      "Immobilization after fracture",
+      "Disease of the muscle itself",
+      "Injury of the motor nerve of the muscle",
+      "Injury of spinal cord",
+      "Affection of higher centres (brain), e.g. hemiplegia"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 132,
+     "caption": "Classification of the muscles - table of site, contraction, striations and nerve supply for skeletal, smooth and cardiac muscle",
+     "kind": "table"
+    },
+    {
+     "page": 132,
+     "caption": "Skeletal M. / Smooth M. / Cardiac M. - three micrographs",
+     "kind": "micrograph"
+    },
+    {
+     "page": 133,
+     "caption": "Unlabelled diagrams of muscle origin and insertion and of types of muscle attachment",
+     "kind": "diagram"
+    },
+    {
+     "page": 134,
+     "caption": "Unlabelled diagrams of parallel-fibre muscle forms and of unipennate and bipennate muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 135,
+     "caption": "Diagrams of multipennate and circumpennate muscles and of triangular (temporalis) and cruciate (masseter) muscles",
+     "kind": "diagram"
+    },
+    {
+     "page": 136,
+     "caption": "Unlabelled diagrams of biceps, triceps and quadriceps",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states muscle atrophy occurs in immobilisation after fracture, disease of the muscle itself, injury of the motor nerve, injury of the spinal cord and affection of higher centres such as hemiplegia.",
+    "The chapter ILO asks the student to 'Define tendon, aponeurosis and synovial sheathes', but no definitions of these three terms appear in the chapter text - only tendon is mentioned in passing as a mode of attachment."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Nervous system",
+   "bookTitle": "Nervous System (Chapter 6)",
+   "startPage": 137,
+   "endPage": 139,
+   "found": true,
+   "keyPoints": [
+    "The nervous system is classified into central (brain inside the skull, and spinal cord) and peripheral (nerves - spinal and cranial - and the autonomic nervous system, sympathetic and parasympathetic).",
+    "Parts of the brain: two cerebral hemispheres (cerebrum) formed of four main lobes - frontal, parietal, occipital and temporal; the cerebellum; the brain stem formed of midbrain, pons and medulla oblongata; and the diencephalon divided into thalamus, subthalamus, hypothalamus, epithalamus and metathalamus.",
+    "The spinal cord is a tube present inside the vertebral column, with two enlargements, one cervical and one lumbar, where the nerve plexuses arise, and a tapering end called the conus medullaris.",
+    "The spinal cord has outer white matter of nerve fibres containing the nervous tracts, inner H-shaped grey matter of nerve cells, and a central canal.",
+    "The grey matter forms two dorsal horns containing sensory nuclei, two ventral horns containing motor nuclei, and two lateral horns containing sympathetic nuclei in the thoracic and upper two lumbar segments and parasympathetic nuclei in the 2nd, 3rd and 4th sacral segments.",
+    "Each spinal nerve arises from the spinal cord by two roots: an anterior (ventral) root containing motor fibres and a posterior (dorsal) root containing sensory fibres.",
+    "The two roots unite to form the nerve trunk containing mixed fibres, which divides into anterior (ventral) and posterior (dorsal) primary rami, both containing mixed fibres.",
+    "The cranial nerves arise from the brain and leave the skull through foramina; they are named in order: olfactory, optic, oculomotor, trochlear, trigeminal, abducent, facial, auditory, glossopharyngeal, vagus, accessory and hypoglossal.",
+    "The meninges are the coverings of the central nervous system, arranged from inside out as pia mater, arachnoid mater and dura mater.",
+    "The autonomic nervous system is concerned with involuntary activities and is divided into sympathetic and parasympathetic parts."
+   ],
+   "definitions": [
+    {
+     "term": "Meninges",
+     "text": "The coverings of the central nervous system."
+    },
+    {
+     "term": "Conus medullaris",
+     "text": "The tapering end of the spinal cord."
+    },
+    {
+     "term": "Autonomic nervous system",
+     "text": "The part of the nervous system concerned with involuntary activities."
+    }
+   ],
+   "numbers": [
+    "Spinal cord is a 45 cm tube",
+    "31 spinal cord segments: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal",
+    "31 pairs of spinal nerves",
+    "12 pairs of cranial nerves",
+    "4 main lobes of the cerebrum",
+    "Sympathetic nuclei in the thoracic and upper 2 lumbar segments",
+    "Parasympathetic nuclei in the 2nd, 3rd and 4th sacral segments",
+    "2 spinal cord enlargements",
+    "3 meningeal layers"
+   ],
+   "classifications": [
+    {
+     "of": "Nervous system",
+     "items": [
+      "Central nervous system: brain and spinal cord",
+      "Peripheral nervous system: spinal and cranial nerves; autonomic nervous system"
+     ]
+    },
+    {
+     "of": "Parts of the brain",
+     "items": [
+      "Cerebral hemispheres (cerebrum) - frontal, parietal, occipital and temporal lobes",
+      "Cerebellum",
+      "Brain stem - midbrain, pons, medulla oblongata",
+      "Diencephalon - thalamus, subthalamus, hypothalamus, epithalamus, metathalamus"
+     ]
+    },
+    {
+     "of": "Structure of the spinal cord",
+     "items": [
+      "Outer white matter (nervous tracts)",
+      "Inner H-shaped grey matter (dorsal, ventral and lateral horns)",
+      "Central canal"
+     ]
+    },
+    {
+     "of": "Roots and rami of a spinal nerve",
+     "items": [
+      "Anterior (ventral) root - motor fibres",
+      "Posterior (dorsal) root - sensory fibres",
+      "Nerve trunk - mixed",
+      "Anterior (ventral) primary ramus",
+      "Posterior (dorsal) primary ramus"
+     ]
+    },
+    {
+     "of": "Cranial nerves",
+     "items": [
+      "I Olfactory",
+      "II Optic",
+      "III Oculomotor",
+      "IV Trochlear",
+      "V Trigeminal",
+      "VI Abducent",
+      "VII Facial",
+      "VIII Auditory",
+      "IX Glossopharyngeal",
+      "X Vagus",
+      "XI Accessory",
+      "XII Hypoglossal"
+     ]
+    },
+    {
+     "of": "Meninges (inside out)",
+     "items": [
+      "Pia mater",
+      "Arachnoid mater",
+      "Dura mater"
+     ]
+    },
+    {
+     "of": "Autonomic nervous system",
+     "items": [
+      "Sympathetic",
+      "Parasympathetic"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 137,
+     "caption": "Unlabelled diagram of the classification of the nervous system / brain",
+     "kind": "diagram"
+    },
+    {
+     "page": 138,
+     "caption": "Main lobes of cerebrum",
+     "kind": "diagram"
+    },
+    {
+     "page": 138,
+     "caption": "Unlabelled diagram of the spinal cord in cross-section showing white and grey matter and the horns",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Chapter ILOs repeat items - both 'Identify the different parts of the brain' and 'Determine the parts of the brain' appear, and 'Mention the components of the autonomic nervous system' is echoed by 'Discuss the two parts of the autonomic nervous system'.",
+    "The ILO 'Compare the spinal and cranial nerves' is not answered by a comparison table in the text; the two are described separately.",
+    "The autonomic nervous system section is a two-line stub naming sympathetic and parasympathetic without describing either."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system",
+   "bookTitle": "Cardiovascular System (Chapter 7)",
+   "startPage": 140,
+   "endPage": 147,
+   "found": true,
+   "keyPoints": [
+    "The cardiovascular system consists of the heart and blood vessels.",
+    "The heart lies behind the sternum and costal cartilages; about two-thirds lies to the left and one-third to the right of the median plane.",
+    "The heart has four chambers: two atria and two ventricles.",
+    "The right atrium receives deoxygenated blood from all parts of the body by the superior and inferior venae cavae and sends it to the right ventricle through the tricuspid valve.",
+    "The right ventricle sends deoxygenated blood through the pulmonary valve to the pulmonary trunk which divides into right and left pulmonary arteries, one for each lung where oxygenation occurs.",
+    "The left atrium receives oxygenated blood from both lungs through four pulmonary veins and pumps it to the left ventricle via the mitral valve.",
+    "The left ventricle pumps oxygenated blood to all parts of the body through the aortic valve into the aorta and its branches.",
+    "The right half of the heart contains deoxygenated (venous) blood and the left half oxygenated (arterial) blood; the heart is covered by two types of pericardial sac, fibrous and serous pericardium.",
+    "Systemic circulation: oxygenated blood from the left ventricle passes through the aorta and its branches to all tissues where exchange of gases and materials occurs; deoxygenated blood is collected by small then large veins and finally the venae cavae into the right atrium and then the right ventricle.",
+    "Pulmonary circulation: deoxygenated blood from the right ventricle passes through the pulmonary artery and its two branches to both lungs where gas exchange occurs; oxygenated blood returns to the left atrium via the four pulmonary veins and then to the left ventricle.",
+    "Portal circulation: venous blood from stomach, spleen, pancreas and intestine is collected into the portal vein which enters the liver through the porta hepatis and divides into branches ending in liver sinusoids; blood leaves by the hepatic veins into the inferior vena cava. It transmits venous blood from the GIT to the liver to metabolise undigested nutrients and detoxify the blood.",
+    "Arteries carry blood from the heart to other regions of the body; they carry oxygenated blood except the pulmonary and umbilical arteries which carry deoxygenated blood, and are classified by size and structure into large, medium-sized and small arteries.",
+    "Arterial anastomosis is the connection between arteries, present mainly around the joints; it increases blood supply to some organs, equalises pressure in the communicating arteries, and maintains blood flow to a part if its main artery is obstructed.",
+    "End to end anastomosis connects the two ends of two arteries forming an arch, e.g. in the hand and foot, between gastric arteries, between arteries of the gut and between anterior and posterior intercostal arteries.",
+    "Anastomosis by terminal arterioles lies around the joints between branches of the main artery above and below the joint; in gradual obstruction it opens to maintain blood supply below the obstruction, e.g. around the elbow joint.",
+    "Anastomosis by conversion occurs when two arteries converge to unite together, e.g. between the two vertebral arteries.",
+    "End arteries do not anastomose with adjacent arteries, so their obstruction leads to death (necrosis) of the tissues they supply: central retinal artery, renal artery, splenic artery, central branches of cerebral arteries and pulmonary arteries.",
+    "Venous return from the upper part of the body is drained mainly by gravity.",
+    "Venous return from the lower limb is helped by venous valves, arterial pulsations, muscular contractions (muscle pump), the deep fascia surrounding the muscle groups, and negative intrathoracic pressure drawing blood from abdomen, head and neck into the thorax; from abdomen, pelvis and thorax venous return is by the suction mechanism of negative intrathoracic pressure.",
+    "Arteries and veins are connected by capillaries (narrow uniform diameter), sinusoids (wide irregular diameter with dilatations and constrictions) or arteriovenous shunts (between small arteries and accompanying veins).",
+    "Arteriovenous shunts are found in the external ear, nail bed and palmar aspects of digits, tongue, thyroid gland, penis and alimentary tract; they are straight or coiled, surrounded by a thick muscular coat and supplied by sympathetic fibres controlling their opening and closure.",
+    "Arteriovenous shunts regulate body temperature and local heat (when open, blood passes from artery to vein decreasing local heat), regulate food absorption and play a role in erection."
+   ],
+   "definitions": [
+    {
+     "term": "Arteries",
+     "text": "Vessels which carry the blood from the heart to other regions of the body."
+    },
+    {
+     "term": "Arterial anastomosis",
+     "text": "The connection between the arteries, present mainly around the joints."
+    },
+    {
+     "term": "End arteries",
+     "text": "Arteries which do not anastomose with adjacent arteries, so their obstruction leads to necrosis of the tissues they supply."
+    },
+    {
+     "term": "Sinusoids",
+     "text": "Arterio-venous connections with wide irregular diameter showing dilatations and constrictions."
+    },
+    {
+     "term": "Arteriovenous shunt (anastomosis)",
+     "text": "Connection between small arteries and accompanying veins, surrounded by a thick muscular coat and controlled by sympathetic fibres."
+    },
+    {
+     "term": "Varicose vein",
+     "text": "A vein that has a larger diameter than normal and is elongated and tortuous."
+    }
+   ],
+   "numbers": [
+    "Heart extends from the 2nd to the 6th costal cartilages",
+    "About 2/3 of the heart lies to the left and 1/3 to the right of the median plane",
+    "4 chambers: 2 atria and 2 ventricles",
+    "4 pulmonary veins",
+    "2 pericardial sacs (fibrous and serous)",
+    "3 types of blood circulation",
+    "3 types of arterial anastomosis",
+    "5 end arteries named",
+    "3 types of arterio-venous connection",
+    "5 sites of arteriovenous shunt listed"
+   ],
+   "classifications": [
+    {
+     "of": "Types of blood circulation",
+     "items": [
+      "Systemic circulation",
+      "Pulmonary circulation",
+      "Portal circulation"
+     ]
+    },
+    {
+     "of": "Chambers of the heart",
+     "items": [
+      "Right atrium",
+      "Right ventricle",
+      "Left atrium",
+      "Left ventricle"
+     ]
+    },
+    {
+     "of": "Functions of arterial anastomosis",
+     "items": [
+      "Increases blood supply to some organs",
+      "Equalizes pressure in the communicating arteries",
+      "Maintains blood flow if the main artery is obstructed"
+     ]
+    },
+    {
+     "of": "Types of arterial anastomoses",
+     "items": [
+      "End to end anastomosis",
+      "Anastomosis by terminal arterioles",
+      "Anastomosis by conversion"
+     ]
+    },
+    {
+     "of": "End arteries",
+     "items": [
+      "Central retinal artery",
+      "Renal artery",
+      "Splenic artery",
+      "Central branches of cerebral arteries",
+      "Pulmonary arteries"
+     ]
+    },
+    {
+     "of": "Factors helping venous return from the lower limb",
+     "items": [
+      "Venous valves",
+      "Arterial pulsations",
+      "Muscular contractions (muscle pump)",
+      "Deep fascia surrounding the muscle groups",
+      "Negative intrathoracic pressure"
+     ]
+    },
+    {
+     "of": "Arterio-venous connections",
+     "items": [
+      "Capillaries",
+      "Sinusoids",
+      "Arteriovenous shunt"
+     ]
+    },
+    {
+     "of": "Sites of arteriovenous shunt",
+     "items": [
+      "External ear, nail bed and palmar aspects of digits",
+      "Tongue",
+      "Thyroid gland",
+      "Penis",
+      "Alimentary tract"
+     ]
+    },
+    {
+     "of": "Functions of arteriovenous shunt",
+     "items": [
+      "Regulation of body temperature and local heat",
+      "Regulation of food absorption",
+      "Role in erection"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 141,
+     "caption": "Heart and Major Blood Vessels",
+     "kind": "diagram"
+    },
+    {
+     "page": 142,
+     "caption": "Diagram of systemic, pulmonary and portal circulation (labelled 'Portal CIRCULATION')",
+     "kind": "diagram"
+    },
+    {
+     "page": 143,
+     "caption": "Unlabelled diagram of portal circulation through the liver",
+     "kind": "diagram"
+    },
+    {
+     "page": 144,
+     "caption": "Unlabelled diagrams of end-to-end anastomosis and anastomosis by terminal arterioles",
+     "kind": "diagram"
+    },
+    {
+     "page": 145,
+     "caption": "Unlabelled diagram of factors helping venous return from the lower limb",
+     "kind": "diagram"
+    },
+    {
+     "page": 146,
+     "caption": "Unlabelled diagram of an arteriovenous shunt",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: all large arteries crossing a joint are liable to be kinked during joint movements, but distal blood flow is not interrupted because of adequate anastomosis between branches arising proximal and distal to the joint.",
+    "Book states: sudden closure of the main artery proximal to the anastomosis, such as in faulty ligation, leads to death of the part of the limb distal to the artery, because anastomosis does not open in sudden closure.",
+    "Book states: varicose veins have causes including hereditary weakness of vein walls, incompetent valves and elevated intra-abdominal pressure from multiple pregnancies or abdominal tumours; high pressure drives venous blood from deep to superficial veins producing varicosity, commonly in the lower limb.",
+    "Book states: stagnation of blood in varicose veins may cause thrombosis, e.g. deep venous thrombosis in the calf muscles.",
+    "The chapter ILO asks the student to 'Determine the underlying significance of tortuous arteries; giving examples', but tortuous arteries as such are not covered in the chapter text."
+   ]
+  },
+  {
+   "subjectPath": "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system",
+   "bookTitle": "Lymphatic system (Chapter 8)",
+   "startPage": 148,
+   "endPage": 151,
+   "found": true,
+   "keyPoints": [
+    "The lymphatic system is responsible for the circulation of the lymph - a clear colourless fluid rich in protein - from the tissue spaces (intercellular spaces) to the blood stream.",
+    "It consists of three parts: lymph vessels; lymphoid tissues such as lymph nodes, spleen, tonsils and thymus; and free cells (lymphocytes), including B and T lymphocytes.",
+    "Lymph vessels are fine vessels in the tissue spaces uniting into larger vessels which join the lymph nodes; they are of two types.",
+    "Afferent lymph vessels open into the periphery of the lymph nodes at their convex borders and carry lymph to them; efferent lymph vessels emerge from the hilum and carry lymph away.",
+    "All lymph vessels are collected into two large lymph ducts in the root of the neck which open into two large veins there.",
+    "The thoracic duct drains the left side of head and neck, the left upper limb, the left half of the thorax and the whole body below the diaphragm; the right lymphatic duct drains the right side of head and neck, the right half of the thorax and the right upper limb.",
+    "Characters of lymph vessels: they begin blindly in the tissue spaces; their walls contain wide pores allowing the passage of fat and proteins; they have many valves making lymph flow in one direction; and they are absent in brain and spinal cord, bone marrow and avascular structures such as cartilage, cornea and hair.",
+    "Factors helping the flow and movement of lymph: arterial pulsations, muscular contractions, intrathoracic negative pressure and peristaltic movement of the intestine.",
+    "Lymph nodes are oval or kidney-shaped small bodies lying along the course of lymph vessels in groups at fixed sites: at the limb roots (axillary for the upper limb, inguinal for the lower limb), in the neck on both sides and at its junction with the head, in the chest close to trachea and bronchi and in the chest wall, close to the abdominal and pelvic organs near the big vessels, and around the abdominal aorta and the blood vessels of the pelvis.",
+    "Functions of lymph nodes: filtration of lymph from bacteria and foreign bodies, formation and production of lymphocytes, and defence - they are the sites of interaction between microorganisms (antigens) and phagocytes and lymphocytes.",
+    "The thymus is a lymphatic organ with an endocrine function, secreting thymosin hormone; it is formed of two lobes and lies in the thorax just behind the sternum. It continues to increase in size until puberty and then decreases with advancing age.",
+    "The spleen is a haemolymphatic organ in the upper left part of the abdominal cavity beneath the left dome of the diaphragm, behind the stomach and protected by ribs.",
+    "The spleen is not palpable unless enlarged at least three times.",
+    "Spleen functions: in the fetus it has a role in formation of blood cells; in the adult it stores and concentrates blood cells and, in case of haemorrhage, pours concentrated blood into the circulation; it destroys old expired red cells; and it filters the blood from organisms or harmful substances.",
+    "The book emphasises the contrast: the lymph nodes filter the lymph but the spleen filters the blood."
+   ],
+   "definitions": [
+    {
+     "term": "Lymph",
+     "text": "Clear colourless fluid, rich in protein, circulated from the tissue spaces to the blood stream."
+    },
+    {
+     "term": "Afferent lymph vessels",
+     "text": "Vessels opening into the periphery of the lymph nodes at their convex borders, carrying lymph to them."
+    },
+    {
+     "term": "Efferent lymph vessels",
+     "text": "Vessels emerging from the hilum of the lymph nodes and carrying lymph away from them."
+    },
+    {
+     "term": "Thymus gland",
+     "text": "A lymphatic organ with an endocrine function, secreting thymosine hormone."
+    },
+    {
+     "term": "Spleen",
+     "text": "A haemolymphatic organ in the upper left part of the abdominal cavity."
+    }
+   ],
+   "numbers": [
+    "3 parts of the lymphatic system",
+    "2 types of lymph vessels",
+    "2 large lymph ducts in the root of the neck",
+    "Spleen protected by the 9th, 10th and 11th ribs",
+    "Spleen not palpable unless enlarged at least three times",
+    "Thymus formed of two lobes",
+    "4 factors helping lymph flow",
+    "3 functions of lymph nodes",
+    "4 functions of the spleen"
+   ],
+   "classifications": [
+    {
+     "of": "Parts of the lymphatic system",
+     "items": [
+      "Lymph vessels",
+      "Lymphoid tissues: lymph nodes, spleen, tonsils, thymus",
+      "Free cells (B and T lymphocytes)"
+     ]
+    },
+    {
+     "of": "Types of lymph vessels",
+     "items": [
+      "Afferent lymph vessels",
+      "Efferent lymph vessels"
+     ]
+    },
+    {
+     "of": "Large lymph ducts",
+     "items": [
+      "Thoracic duct - left side of head and neck, left upper limb, left half of thorax, whole body below diaphragm",
+      "Right lymphatic duct - right side of head and neck, right half of thorax, right upper limb"
+     ]
+    },
+    {
+     "of": "Sites where lymph vessels are absent",
+     "items": [
+      "Brain and spinal cord (CNS)",
+      "Bone marrow",
+      "Avascular structures: cartilage, cornea, hair"
+     ]
+    },
+    {
+     "of": "Factors helping lymph flow",
+     "items": [
+      "Arterial pulsations",
+      "Muscular contractions",
+      "Intrathoracic negative pressure",
+      "Peristaltic movement of the intestine"
+     ]
+    },
+    {
+     "of": "Sites of lymph node groups",
+     "items": [
+      "Limb roots: axillary and inguinal",
+      "Neck, both sides and at its junction with the head",
+      "Chest: close to trachea and bronchi and in the chest wall",
+      "Close to abdominal and pelvic organs near the big vessels",
+      "Around abdominal aorta and pelvic blood vessels"
+     ]
+    },
+    {
+     "of": "Functions of lymph nodes",
+     "items": [
+      "Filtration of lymph from bacteria and foreign bodies",
+      "Formation and production of lymphocytes",
+      "Defence - interaction between antigens, phagocytes and lymphocytes"
+     ]
+    },
+    {
+     "of": "Functions of the spleen",
+     "items": [
+      "Formation of blood cells in the fetus",
+      "Storage and concentration of blood cells in the adult",
+      "Destruction of old expired red cells",
+      "Filtration of blood from organisms and harmful substances"
+     ]
+    }
+   ],
+   "figures": [
+    {
+     "page": 148,
+     "caption": "Unlabelled diagram of the lymph vessels and ducts",
+     "kind": "diagram"
+    },
+    {
+     "page": 149,
+     "caption": "Unlabelled diagram of the thoracic and right lymphatic ducts and their drainage territories",
+     "kind": "diagram"
+    },
+    {
+     "page": 149,
+     "caption": "Unlabelled diagram of lymph node groups and their sites",
+     "kind": "diagram"
+    },
+    {
+     "page": 150,
+     "caption": "Unlabelled diagram of a lymph node and of the thymus gland",
+     "kind": "diagram"
+    },
+    {
+     "page": 150,
+     "caption": "Unlabelled diagram of the site of the spleen",
+     "kind": "diagram"
+    }
+   ],
+   "appliedNotes": [
+    "Book states: lymph nodes may swell as a result of inflammation, metastases or primary tumour, so the lymphatic drainage of all major organs including the skin should be known.",
+    "Book states: in case of an enlarged lymph node the area drained should be examined, and when there is a lesion anywhere the draining lymph nodes should be examined.",
+    "Book states: extensive destruction of lymph vessels in surgery, or obstruction in filariasis, leads to oedema of the drained part.",
+    "The ILO list is partly duplicated ('Identify the characters of the lymphatic vessels' and 'Describe the types and characters of lymph vessels'; 'Recognize the site of the lymph nodes' and 'Discuss the shape, structure, sites and functions of lymph nodes').",
+    "The ILO asks for the structure of the lymph node, but no histological structure of the node is given in this chapter."
+   ]
   }
  ]
 }

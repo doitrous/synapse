@@ -1,3 +1,5 @@
+import { MEDIA_STATE_KEY, isMediaReleased } from './mediaLibrary.js'
+
 /**
  * What a student is allowed to receive of the admin content ledger.
  *
@@ -162,7 +164,49 @@ export function redactLedgerForStudent(ledger) {
   return ledger.map(redactItem).filter((item) => item !== null)
 }
 
+/**
+ * What a student is allowed to receive of the media library.
+ *
+ * The whole document was student-readable, on the reasoning that a student
+ * needs alt text and dimensions for every image they may be shown. True of the
+ * images they may be shown; the document also holds every image they may not.
+ * A student received the title of every asset in the library — including a
+ * scan of a faculty exam paper uploaded for authoring, which names the paper in
+ * the one field the picker shows — plus `storageKey`, `sha256`, `uploadedBy`
+ * and the rights negotiation on assets attached to nothing at all.
+ *
+ * Two rules, matching the ledger's:
+ *
+ *   1. Only released records leave. `isMediaReleased` is the gate the product
+ *      already applies before an image reaches a student, so nothing renders
+ *      that did not render before; it was simply never applied on the way out.
+ *
+ *   2. Only the fields a student renders. This one IS an allow-list, unlike the
+ *      ledger's deny-list, because a media record is one flat shape read by one
+ *      component — `PlacedImage` uses `id`, `mimeType`, `altText` and `title`,
+ *      and layout uses the dimensions. There is no spread of projections here to
+ *      make an allow-list guesswork.
+ */
+export const MEDIA_STUDENT_FIELDS = ['id', 'mimeType', 'width', 'height', 'altText', 'title']
+
+/** Withheld: internal storage identity, provenance, and the rights negotiation. */
+export const MEDIA_PRIVATE_FIELDS = ['storageKey', 'sha256', 'sizeBytes', 'rights', 'tags', 'uploadedBy', 'uploadedAt']
+
+export function redactMediaForStudent(document) {
+  const records = Array.isArray(document?.records) ? document.records : []
+  return {
+    records: records.filter(isMediaReleased).map((record) => {
+      const out = {}
+      for (const field of MEDIA_STUDENT_FIELDS) {
+        if (record[field] !== undefined) out[field] = record[field]
+      }
+      return out
+    }),
+  }
+}
+
 /** The keys that need redacting on the way out, by key name. */
 export const REDACTED_STATE_KEYS = new Map([
   ['synapse-admin-content-ledger-v4', redactLedgerForStudent],
+  [MEDIA_STATE_KEY, redactMediaForStudent],
 ])

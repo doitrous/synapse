@@ -1,7 +1,14 @@
 import { test, describe } from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  PRIVATE_FIELDS, PUBLIC_FIELDS, redactItem, redactLedgerForStudent,
+  PRIVATE_FIELDS,
+  PUBLIC_FIELDS,
+  redactItem,
+  redactLedgerForStudent,
+  redactMediaForStudent,
+  MEDIA_PRIVATE_FIELDS,
+  MEDIA_STUDENT_FIELDS,
+  REDACTED_STATE_KEYS,
 } from './studentLedger.js'
 
 /** A published question carrying everything an author would put on one. */
@@ -179,5 +186,77 @@ describe('Field classification cannot drift', () => {
   test('nothing is classified both ways', () => {
     const both = [...PRIVATE_FIELDS].filter((field) => PUBLIC_FIELDS.has(field))
     assert.deepEqual(both, [], `classified as both public and private: ${both.join(', ')}`)
+  })
+})
+
+describe('The media library a student receives', () => {
+  const released = {
+    id: 'med-1', storageKey: 'media/ab/cd/hash.png', sha256: 'hash', sizeBytes: 4096,
+    mimeType: 'image/png', width: 800, height: 600,
+    title: 'Simple columnar epithelium, H&E', altText: 'A micrograph of simple columnar epithelium',
+    rights: 'Licensed from the department, 2025', tags: { moduleIds: ['101 ISK'], conceptIds: ['CON-FND-1'] },
+    uploadedBy: 'omar@example.com', uploadedAt: '2026-01-01T00:00:00.000Z',
+  }
+  const unreleased = {
+    id: 'med-2', storageKey: 'media/ef/01/scan.png', sha256: 'scan', sizeBytes: 900_000,
+    mimeType: 'image/png', width: 1200, height: 1600,
+    title: 'EOY (ISK - 101) 199 page 3 — source scan', altText: '', rights: '',
+    tags: {}, uploadedBy: 'omar@example.com', uploadedAt: '2026-01-01T00:00:00.000Z',
+  }
+
+  test('an unreleased record does not leave at all', () => {
+    const out = redactMediaForStudent({ records: [released, unreleased] })
+    assert.deepEqual(out.records.map((record) => record.id), ['med-1'])
+  })
+
+  test('the exam paper a source scan names never reaches a student', () => {
+    // The disclosure this exists to stop. `title` is the one field the picker
+    // shows, so an authoring upload names its paper there — and the whole
+    // document used to be served to students verbatim.
+    const serialised = JSON.stringify(redactMediaForStudent({ records: [unreleased] }))
+    assert.ok(!serialised.includes('199'), serialised)
+    assert.ok(!serialised.includes('EOY'), serialised)
+  })
+
+  test('a released record keeps only what renders it', () => {
+    const [record] = redactMediaForStudent({ records: [released] }).records
+    assert.deepEqual(Object.keys(record).sort(), ['altText', 'height', 'id', 'mimeType', 'title', 'width'])
+  })
+
+  test('storage identity, provenance and rights are withheld', () => {
+    const [record] = redactMediaForStudent({ records: [released] }).records
+    for (const field of MEDIA_PRIVATE_FIELDS) {
+      assert.equal(record[field], undefined, `${field} must not reach a student`)
+    }
+  })
+
+  test('a malformed document yields an empty library rather than a thrown request', () => {
+    for (const bad of [null, undefined, {}, { records: 'nope' }, []]) {
+      assert.deepEqual(redactMediaForStudent(bad), { records: [] })
+    }
+  })
+
+  test('the media key is redacted on the way out', () => {
+    assert.equal(REDACTED_STATE_KEYS.get('synapse-media-library-v1'), redactMediaForStudent)
+  })
+
+  test('every field of MediaRecord is classified, so a new one cannot leak by being forgotten', async () => {
+    // The same drift guard the ledger has. A field added to `MediaRecord` and
+    // classified nowhere would otherwise reach students the moment it exists.
+    const { readFile } = await import('node:fs/promises')
+    const { fileURLToPath } = await import('node:url')
+    const { dirname, join } = await import('node:path')
+    const here = dirname(fileURLToPath(import.meta.url))
+    const source = await readFile(join(here, '..', '..', 'src', 'data', 'mediaLibrary.ts'), 'utf8')
+    const body = source.match(/export interface MediaRecord \{([\s\S]*?)\n\}/)?.[1]
+    assert.ok(body, 'interface MediaRecord not found in mediaLibrary.ts — rename or remove it here too')
+
+    const declared = [...body.matchAll(/^\s{2}([a-zA-Z][a-zA-Z0-9]*)\??:/gm)].map((match) => match[1])
+    assert.ok(declared.length >= 10, `only found ${declared.length} fields — the parser needs updating`)
+
+    const classified = new Set([...MEDIA_STUDENT_FIELDS, ...MEDIA_PRIVATE_FIELDS])
+    const unclassified = declared.filter((field) => !classified.has(field))
+    assert.deepEqual(unclassified, [],
+      `unclassified MediaRecord fields — add each to MEDIA_STUDENT_FIELDS or MEDIA_PRIVATE_FIELDS: ${unclassified.join(', ')}`)
   })
 })

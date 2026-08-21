@@ -1,4 +1,5 @@
-# The web app: lint, types, tests, and the production build.
+# The web app: lint, types, tests, and the production build — and the server's
+# own tests, which nothing ran before.
 #
 # The build is here deliberately. Coolify builds `main` to deploy it, so a
 # commit that type-checks and tests but fails `vite build` would land green and
@@ -45,6 +46,18 @@ jobs:
 
       - name: Tests
         run: npm test
+
+      # The server has its own 234 tests and no job was running them. Among
+      # them are the guards that keep a student from receiving unpublished
+      # drafts, author notes, and the provenance of the papers questions were
+      # taken from — so the one suite that enforces a confidentiality boundary
+      # was the one suite that could break unnoticed.
+      #
+      # `npm ci` in `server/` because its dependencies are its own; the root
+      # install does not reach them.
+      - name: Server tests
+        run: npm ci && npm test
+        working-directory: server
 
       # `npm run build` is `tsc -b && vite build`; the types step above already
       # ran, so a failure here is the bundle itself.

@@ -63,6 +63,10 @@ ANSWER_PAIRS = {
 }
 KEY_FILES = set(ANSWER_PAIRS.values())
 
+# Scans so degraded that OCR interleaves options between neighbouring questions.
+# Everything from these is forced to low confidence and flagged for manual work.
+POOR_OCR = {"Basis MCQ by Dr.Jalal (1).pdf"}
+
 TOPIC_RULES = [
     ("Embryology", ("embryo",)),
     ("Connective Tissue", ("connective tissue", "ct mcq")),
@@ -484,6 +488,8 @@ def finalise(info, questions, key, key_from):
         else:
             conf = "high"
         qtype = "mcq" if len(opts) >= 2 else "no-options"
+        if info["file"] in POOR_OCR:
+            conf = "low"
         row = {
             "sourceId": info["sourceId"], "file": info["file"], "page": q["page"],
             "number": q["number"], "questionType": qtype,
@@ -491,6 +497,8 @@ def finalise(info, questions, key, key_from):
             "answer": answer, "answerSource": asrc, "topic": topic,
             "confidence": conf, "ocrNoise": bool(ocr_noise),
         }
+        if info["file"] in POOR_OCR:
+            row["needsManualTranscription"] = True
         if asrc == "answer-key":
             row["answerKeyFile"] = key_from
         rows.append(row)
