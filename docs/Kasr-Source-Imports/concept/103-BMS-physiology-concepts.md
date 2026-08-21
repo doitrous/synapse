@@ -111,8 +111,10 @@ CON-NEU-157E05FAF3B100 | CON-NEU-2235199E9F4373 | CON-NEU-F119674A8DFD8D | CON-N
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -145,18 +147,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p15 | 103 BMS
 CLM-NEU-AP-DEPOLARIZATION-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q1, 5 marks] Describe ionic bases of depolarization phase of action potential.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-CVS-77AA16A0BD5F70
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The department book gives the firing level as −65 mV and the overshoot as +35 mV without stating the spread around either figure, and other undergraduate texts quote a firing level anywhere between −70 and −50 mV. Which figure a marker expects is a local convention, not a settled number.
@@ -281,8 +287,10 @@ CON-NEU-7A30FECF042995 | CON-NEU-2235199E9F4373 | CON-NEU-F119674A8DFD8D | CON-F
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -315,18 +323,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p15 | 103 BMS
 CLM-NEU-NA-CHANNEL-GATES-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q1, 5 marks] Describe ionic bases of depolarization phase of action potential.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-FND-CB479ED34E555F | CON-FND-2EDA697071E588
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book names the three states in a figure legend ("The three conformation states of the Na+ voltage-gated channel") but never lists them in prose, so the exact wording a marker expects for the third state — resting, closed, or recovered — is not fixed by the source.
@@ -450,8 +462,10 @@ CON-NEU-F119674A8DFD8D | CON-NEU-7A30FECF042995 | CON-NEU-157E05FAF3B100
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -484,18 +498,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p16 | 103 BMS
 CLM-NEU-REFRACTORY-ABSOLUTE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q2, 6 marks] Compare between absolute and relative refractory periods.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-CVS-1AD44A19DA47AD
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book ends the absolute refractory period at "the early part of repolarization" without giving a millivolt value or a duration, so where exactly it hands over to the relative period is left unstated.
@@ -619,8 +637,10 @@ CON-NEU-2235199E9F4373 | CON-NEU-7A30FECF042995 | CON-NEU-157E05FAF3B100
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -653,18 +673,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p16 | 103 BMS
 CLM-NEU-REFRACTORY-RELATIVE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q2, 6 marks] Compare between absolute and relative refractory periods.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-NEU-372B07D041D0AD
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book ends the relative refractory period when the membrane potential "returns to its resting level", which by its own account of hyperpolarisation happens twice — once at the end of repolarisation and again after the 35–40 ms hyperpolarising phase. Which return it means is not stated.
@@ -789,8 +813,10 @@ CON-MSK-AC42FE7AB41DF2 | CON-MSK-762A229FC8FE5F | CON-MSK-70448A9B07D24A | CON-M
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -823,18 +849,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p17 | 103 BMS
 CLM-MSK-TENSION-CROSS-BRIDGE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q3, 4 marks] Explain steps of generation of tension during skeletal muscle contraction.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-762A229FC8FE5F | CON-MSK-70448A9B07D24A | CON-MSK-CABCD15AA2B0F2
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book says binding of actin and myosin "occurs spontaneously" once the active site is uncovered, without saying what supplies the energy for the bend that follows the binding rather than the binding itself. Standard accounts place the ATP hydrolysis before the power stroke; the book places it at the bend. The order is not resolvable from this source.
@@ -959,8 +989,10 @@ CON-MSK-B2B106C1D81C30 | CON-MSK-762A229FC8FE5F | CON-MSK-1AA4B301236114
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -993,18 +1025,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p17 | 103 BMS
 CLM-MSK-CROSS-BRIDGE-ATP-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q3, 4 marks] Explain steps of generation of tension during skeletal muscle contraction.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-1AA4B301236114
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book uses "contracture" for the ATP-depleted state in the muscle chapter and "contracture" again for rigor mortis, without saying whether it treats them as the same phenomenon at different time scales. It states the mechanism identically in both places, which suggests it does, but does not say so.
@@ -1128,8 +1164,10 @@ CON-MSK-D97EA196E6719C | CON-MSK-B2B106C1D81C30
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1162,15 +1200,19 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p18 | 103 BMS
 CLM-MSK-SMOOTH-FACTORS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q4, 4 marks] Summarize factors affecting smooth muscle contraction.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
 Cold: the department book states plainly that "Cold: increases the contraction of smooth muscles". Several standard physiology texts describe cooling as reducing visceral smooth muscle contractility while producing cutaneous vasoconstriction, which is a different mechanism. The book's position is what this module examines and is recorded here without being silently corrected.
@@ -1298,8 +1340,10 @@ CON-MSK-A22F7D478A747E | CON-CVS-C9E53B5A691D19
 src_59643edb9d371bcefa2c
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1332,18 +1376,22 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p18 | 103 BMS
 CLM-MSK-SMOOTH-SPONTANEOUS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Physiology Q4, 4 marks] Summarize factors affecting smooth muscle contraction.
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-CVS-C9E53B5A691D19
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book says stimulatory factors "can initiate contractions via eliciting action potentials or even without action potential" but does not say which factors act by which route, so the mechanism behind the second case is not recoverable from this source.

@@ -178,8 +178,10 @@ CON-DER-A4BD56E5027310
 src_2bf25a6864c9f6ce3283
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -212,8 +214,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p19 | 103 BMS
 CLM-DER-DERMIS-LAYERS-01 | CLM-DER-DERMIS-LAYERS-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Histology Q1, 3 Marks] Compare between Reticular layer and Papillary layer.
@@ -221,11 +225,13 @@ CLM-DER-DERMIS-LAYERS-01 | CLM-DER-DERMIS-LAYERS-02
 "Deeo Connective tissue under epidermis."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-DER-A4BD56E5027310
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book lists adipocytes among the cells of both layers without saying where in the dermis they actually lie; adipose tissue proper belongs to the hypodermis, which the same book excludes from the skin. The two statements are not reconciled in the text.
@@ -351,8 +357,10 @@ CON-MSK-76CE11C6DCDC37 | CON-MSK-967E873EEEACE0
 src_2bf25a6864c9f6ce3283
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -385,8 +393,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p20 | 103 BMS
 CLM-MSK-OSTEOBLAST-01 | CLM-MSK-OSTEOBLAST-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Histology Q2, 6 Marks] Compare between Osteoblast and Osteoclast regarding (origin, site, LM and EM)
@@ -394,11 +404,13 @@ CLM-MSK-OSTEOBLAST-01 | CLM-MSK-OSTEOBLAST-02
 "Characters of protein forming cells. They are rich in rER, mitochondria & a well-developed Golgi apparatus."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-967E873EEEACE0 | CON-MSK-73194853F85AEC
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives no size for the osteoblast, saying only that "size of the cell depends on its activity", so no dimension can be quoted for it as one can for the osteoclast's nuclear count.
@@ -524,8 +536,10 @@ CON-MSK-D137ADEEC56243 | CON-MSK-967E873EEEACE0
 src_2bf25a6864c9f6ce3283
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -558,8 +572,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p20 | 103 BMS
 CLM-MSK-OSTEOCLAST-01 | CLM-MSK-OSTEOCLAST-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Histology Q2, 6 Marks] Compare between Osteoblast and Osteoclast regarding (origin, site, LM and EM)
@@ -567,11 +583,13 @@ CLM-MSK-OSTEOCLAST-01 | CLM-MSK-OSTEOCLAST-02
 "Osteoclast has a ruffled surface which shows microvilli"
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-967E873EEEACE0 | CON-END-113A6621B654E8 | CON-MSK-73194853F85AEC
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book calls the same structure a "brush border" in its L.M. row and a "ruffled surface which shows microvilli" in its E.M. row without saying they are one structure seen at two magnifications. That reading is the obvious one but the book does not state it.
@@ -697,8 +715,10 @@ CON-MSK-888DFA3AA4E974 | CON-MSK-E36936D62038BF
 src_2bf25a6864c9f6ce3283
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -731,8 +751,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p21 | 103 BMS
 CLM-MSK-INTERCALATED-DISC-01 | CLM-MSK-INTERCALATED-DISC-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Histology Q3, 3 Marks] Mention LM and EM picture of Intercalated disc.
@@ -740,10 +762,13 @@ CLM-MSK-INTERCALATED-DISC-01 | CLM-MSK-INTERCALATED-DISC-02
 "Their position in the lateral parts of the disc protect them from the contraction forces"
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book writes both "adherent junctions" and "fascia adherens" for the same structure in one sentence and does not say whether the fascia adherens is a kind of adherent junction or a synonym for it. The standard reading is that they are the same thing, but the text does not settle it.
@@ -869,8 +894,10 @@ CON-MSK-0DEAF126DF8F2E | CON-MSK-E36936D62038BF
 src_2bf25a6864c9f6ce3283
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -903,8 +930,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p21 | 103 BMS
 CLM-MSK-SMOOTH-MUSCLE-EM-01 | CLM-MSK-SMOOTH-MUSCLE-EM-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Histology Q4, 3 Marks] Mention EM picture of Smooth muscles
@@ -912,11 +941,13 @@ CLM-MSK-SMOOTH-MUSCLE-EM-01 | CLM-MSK-SMOOTH-MUSCLE-EM-02
 "No troponin , instead there is calmodulin protein."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-E36936D62038BF
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The department book prints no E.M. heading for smooth muscle at all. Everything the examiner marks as the "EM picture" is printed under one heading, "Histological structure", mixed with features visible by light microscopy — size, shape and nuclear position among them. Which of those items the examiner counts as electron-microscopic is not stated anywhere in the book.

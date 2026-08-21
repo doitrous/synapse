@@ -159,8 +159,10 @@ CON-FND-D8A41B5C23B148 | CON-FND-B928DE79E08882 | CON-HEM-4F64967BBFBB6F | CON-R
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -193,19 +195,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
 CLM-FND-ROS-ANTIOXIDANT-DEFENCE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry I-1, 2 marks] Substance that can protect against ROS (one enzyme & one metabolic end product).
 "Metabolic end-products: bilirubin and uric acid function as antioxidants. They are oxidized into biliverdin and allantoin respectively."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-RES-6F7E169B8BE108
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book lists catalase, peroxidases and glutathione peroxidase under "prevention of generation" and superoxide dismutase under "scavengers", which is a division by mechanism rather than by chemistry, and it does not say which side of the line a marker expects. Either answer names an enzyme the book prints, so both should score.
@@ -331,8 +337,10 @@ CON-FND-5F0DC4407DEC51 | CON-FND-B928DE79E08882 | CON-HEM-A1EF4D20C85878 | CON-H
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -365,18 +373,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p2 | 103 BMS
 CLM-FND-H2O2-DISPOSAL-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (1) {Fate of H₂O₂}, labels 1 and 2, 0.5 marks each]
 "Hydrogen peroxide is metabolized in more physiological fashion by catalase and peroxidases e.g. glutathione peroxidase."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book prints the same diagram twice, on page 12 under bioenergetics and again on page 36 under the HMP pathway, and the two copies differ: the page 12 version shows the catalase branch and the page 36 version does not. Which version a marker has in mind for the two label marks is a local convention rather than a settled question, and the department's diagram list cites both pages.
@@ -502,8 +515,10 @@ CON-MSK-75C26AA26AB152 | CON-END-CC450A236ABF50 | CON-FND-B928DE79E08882
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -536,19 +551,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
 CLM-FND-KREBS-KEY-ENZYMES-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry I-2, 2 marks] Key enzymes for Krebs Cycle.
 "In the Krebs' cycle there are three irreversible steps. They are catalyzed by citrate synthase, isocitrate dehydrogenase and α-ketoglutarate dehydrogenase, which are the rate-controlling key enzymes of the cycle."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-75C26AA26AB152
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book's own regulation diagram marks ADP and calcium as activators of citrate synthase, while its prose gives the ATP/ADP ratio rather than ADP alone. Whether a marker wants "low ATP/ADP" or "ADP" as the activator is not settled by the text.
@@ -674,8 +693,10 @@ CON-HEM-A1EF4D20C85878 | CON-HEM-4F64967BBFBB6F | CON-FND-D8A41B5C23B148 | CON-H
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -708,18 +729,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p2 | 103 BMS
 CLM-FND-HMP-NADPH-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (1) a, 1 mark] Mention the main source of NADPH+H⁺.
 "It is the main source of NADPH, which is required for the reaction of many reductases and hydroxylases catalyzing several important biochemical reactions"
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book calls the pathway "another route for glucose oxidation" and gives no figure for the fraction of glucose that takes it, or for how much of total body NADPH it supplies, so "main source" is a qualitative claim in this source and is not quantified here.
@@ -1027,8 +1053,10 @@ CON-HEM-7FBB4829A4A4EC | CON-HEM-6B557A065A8D90 | CON-HEM-864915F7ADB3AE | CON-M
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1061,19 +1089,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p3 | 103 BMS
 CLM-HEM-RBC-GLYCOLYSIS-ATP-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (2) b, 1 mark] Mention importance of glycolysis for RBCs.
 "As RBCs lack mitochondria, glycolysis is the only source of ATP through substrate level phosphorylation."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-HEM-864915F7ADB3AE
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book does not say how much of the red cell's glucose goes down glycolysis rather than into the HMP pathway or the BPG shunt, so the three cannot be weighted against each other from this source.
@@ -1198,8 +1230,10 @@ CON-HEM-095C9C97B56CCA | CON-HEM-6B557A065A8D90
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1232,18 +1266,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p3 | 103 BMS
 CLM-HEM-BPG-SHUNT-NO-ATP-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (2) a, 2 marks] Using the diagram, explain why RBCs don't produce any net ATP from this shunt.
 "2,3-bisphosphoglycerate mutase catalyzes the conversion of 1,3-bisphosphoglycerate into 2,3-bisphosphoglycerate (2,3-BPG) bypassing the reaction catalyzed by phosphoglycerate kinase (site of ATP yield)."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book's diagram shows the shunt without saying what proportion of glycolytic flux takes it, so the size of the ATP the red cell forgoes cannot be stated from this source.
@@ -1368,8 +1407,10 @@ CON-HEM-7FBB4829A4A4EC | CON-HEM-095C9C97B56CCA | CON-OBS-A94183DB543092
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1402,19 +1443,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p3 | 103 BMS
 CLM-HEM-BPG-OXYGEN-AFFINITY-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (2) c, 1 mark] Mention the importance of the product produced.
 "2,3-BPG binds to hemoglobin and decreases its affinity to oxygen, favoring delivery of oxygen to tissues."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-OBS-A94183DB543092
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The Biochemistry book states the effect without giving the mechanism of binding or the conditions that raise 2,3-BPG, and this module's Physiology book does not cover the oxygen dissociation curve, so neither the binding site nor the size of the shift can be sourced here.
@@ -1539,8 +1584,10 @@ CON-GIT-8C5125A491B189 | CON-GIT-38CC5CC7716DB7 | CON-GIT-5F1EF15328CC86 | CON-F
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1573,8 +1620,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p4 | 103 BMS
 CLM-GIT-CHYLOMICRON-VLDL-FUNCTION-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (3) a, 2 marks] Mention the Function of VLDL and Chylomicrons.
@@ -1582,11 +1631,13 @@ CLM-GIT-CHYLOMICRON-VLDL-FUNCTION-01
 "Chylomicrons transport absorbed dietary lipids to lymphatics then to systemic circulation."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-FND-6C2C52E862B410
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives the percentage of triacylglycerol hydrolysed by lipoprotein lipase for chylomicrons and for VLDL but does not say over what time or in which vascular beds, so those figures are quoted as the book gives them and not interpreted.
@@ -1711,8 +1762,10 @@ CON-GIT-33EAF87333AAD5 | CON-GIT-38CC5CC7716DB7 | CON-FND-6C2C52E862B410
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1745,19 +1798,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p4 | 103 BMS
 CLM-GIT-LDL-RECEPTOR-DEFECT-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (3) b, 0.5 marks] Mention the Disease resulting from defect in LDL uptake.
 "Familial Hypercholesterolemia: It is due to defect in LDL receptors in liver and other tissues, which produces marked increase in LDL in blood."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-GIT-5F1EF15328CC86
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book does not state the inheritance pattern, the prevalence, or whether the receptor defect is in number or in function, so none of that is asserted here. It also gives no Egyptian prevalence figure, and no foreign figure is substituted.
@@ -1882,8 +1939,10 @@ CON-GIT-5F1EF15328CC86 | CON-GIT-2D2709CD4D9A17 | CON-GIT-5E17AE710409A4 | CON-G
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1916,19 +1975,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p4 | 103 BMS
 CLM-GIT-LOW-VLDL-FATTY-LIVER-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry II, Diagram (3) c, 1.5 marks] What is the effect of low VLDL in plasma.
 "Abetalipoproteinemia: It is due to failure of synthesis of apo-B, defective formation of chylomicrons (leads to fatty diarrhea), defective formation of VLDL (leads to fatty liver) and LDL."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-GIT-5E17AE710409A4 | CON-GIT-2D2709CD4D9A17
 
 ## conflicts
+[clear]
 
 ## uncertainty
 `support_mode` is `inferred` rather than `direct_statement` because the book states the link inside one worked example — abetalipoproteinaemia — and never writes the general sentence "low plasma VLDL causes fatty liver". The generalisation is sound from its own account of what VLDL is for, but it is assembled from two places rather than quoted from one.
@@ -2053,8 +2116,10 @@ CON-FND-037BF052DDFC0D | CON-END-3EA6071BAE8130 | CON-END-3DCCBF7739DD59
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2087,19 +2152,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
 CLM-END-KETOSIS-CAUSES-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry I-5, 2 marks] Causes for Ketosis.
 "Ketosis occurs in conditions where the rate of ketogenesis exceeds the rate of ketolysis"
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-END-3EA6071BAE8130
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives "prolonged and severe muscular exercise" as a cause without saying how long or how severe, and it gives no threshold blood level at which ketonaemia becomes ketoacidosis. Neither is inferred here.
@@ -2224,8 +2293,10 @@ CON-END-CC450A236ABF50 | CON-GIT-BAD3B42A1B0EFF | CON-FND-46B9F239340ED9
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2258,18 +2329,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
 CLM-FND-NEGATIVE-NITROGEN-BALANCE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry I-3, 2 marks] Reasons for negative protein balance.
 "It exists when output exceeds intake. This may be due to one of the following causes: a) Inadequate protein intake. b) Loss of protein. c) Increased protein catabolism."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book lists lactation under loss of protein and also under positive nitrogen balance's opposite, convalescence, without reconciling the two, and it gives no figure for what counts as an adequate intake. Neither point is resolved here.
@@ -2395,8 +2471,10 @@ CON-FND-587B0A39D3C0BD | CON-FND-1DF6B985CB77A1 | CON-FND-81A4F3A9C51B7B | CON-D
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2429,8 +2507,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
 CLM-FND-PKU-ENZYME-DEFECT-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (1) a, 1 mark] Diagnosis:
@@ -2439,11 +2519,13 @@ CLM-FND-PKU-ENZYME-DEFECT-01
 "Most of the cases of PKU are due to the deficiency of the enzyme phenylalanine hydroxylase (PAH)."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-DER-6665EA8EA687C3
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The exam stem names phenylacetate among the raised metabolites while the book's list of what phenylalanine is diverted into is phenylpyruvate and phenyl-lactate, with phenylacetate shown only on the pathway diagram. The two agree in substance; the difference is which metabolites each chooses to name in prose.
@@ -2569,8 +2651,10 @@ CON-FND-D7BB8C3AFB54CC | CON-FND-1DF6B985CB77A1 | CON-FND-81A4F3A9C51B7B
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2603,18 +2687,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
 CLM-FND-PKU-NEUROLOGICAL-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (1) b (second occurrence of the letter b), 1 mark] Causes for neurological manifestation:
 "The elevated phenylalanine and its metabolites will interfere with the transport of tyrosine and tryptophan to the brain leading to their deficiency. Also decreased tyrosine leads to impaired neurotransmitters synthesis in the brain; and this may explain why untreated patient shows mental retardation that manifest by the age of one year."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book itself hedges — "this may explain why untreated patient shows mental retardation" — so the mechanism is offered as an explanation rather than as an established one, and it is written here with the same hedge. What tryptophan deficiency contributes, as against tyrosine deficiency, is not separated in the source.
@@ -2740,8 +2829,10 @@ CON-FND-D7BB8C3AFB54CC | CON-FND-587B0A39D3C0BD | CON-DER-6665EA8EA687C3
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2774,19 +2865,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
 CLM-FND-PKU-HYPOPIGMENTATION-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (1) c, 1 mark] Causes for hypopigmentation:
 "Hypopigmentation of hair, skin, and iris of the eye due to deficiency of tyrosine. High levels of phenylalanine also competitively inhibit tyrosinase enzyme."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-DER-6665EA8EA687C3
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book does not say which of the two mechanisms contributes more, and it gives no account of how far pigmentation recovers on treatment.
@@ -2911,8 +3006,10 @@ CON-FND-D7BB8C3AFB54CC | CON-FND-587B0A39D3C0BD | CON-FND-1DF6B985CB77A1
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -2945,18 +3042,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p5 | 103 BMS
 CLM-FND-PKU-DIETARY-TREATMENT-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (1) d, 1 mark] Treatment:
 "The treatment of classic PKU consists of dietary restriction of phenylalanine (phenylalanine-free milk formula) with tyrosine supplementation."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives no target blood phenylalanine, no age at which the diet may be relaxed, and no statement about diet in pregnancy. None of that is supplied here, and none should be added from a foreign source without a local review.
@@ -3082,8 +3184,10 @@ CON-GIT-4A2A86832F1FF2 | CON-HEM-F2B664C215C912 | CON-HEM-881E8EA781D8E2
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -3116,8 +3220,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
 CLM-GIT-OBSTRUCTIVE-JAUNDICE-STOOL-URINE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (3) a, 1 mark] Diagnosis:
@@ -3125,11 +3231,13 @@ CLM-GIT-OBSTRUCTIVE-JAUNDICE-STOOL-URINE-01
 "Stercobilin disappears from the feces leading to clay colored stool. Conjugated bilirubin becomes excreted in the urine, which becomes dark brown in color."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-HEM-881E8EA781D8E2
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book defines jaundice as visible yellowing above a serum bilirubin of 2 mg/dL but does not say how quickly stool colour changes after an obstruction, or whether a partial obstruction pales the stool at all.
@@ -3256,8 +3364,10 @@ CON-GIT-A265DD7A7CC8EF | CON-HEM-F2B664C215C912 | CON-HEM-4F64967BBFBB6F | CON-H
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -3290,8 +3400,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p7 | 103 BMS
 CLM-GIT-JAUNDICE-CLASSIFICATION-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (3) c, 3 marks] Complete the table: rows "Hemolytic jaundice", "Obstructive juandice", "Hepatocelluler juandice"; columns "Type of bilirubin elevated", "Enzymatic changes in blood".
@@ -3299,6 +3411,7 @@ CLM-GIT-JAUNDICE-CLASSIFICATION-01
 "Due to liver cell damage, the serum levels of the enzymes ALT and AST are elevated."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-HEM-CDF561308A4D25
@@ -3520,8 +3633,10 @@ CON-REN-31708150F8B722 | CON-REN-7A52C1FD960B35 | CON-REN-B9E0531973510E | CON-R
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -3554,8 +3669,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
 CLM-REN-ALCOHOL-LACTATE-URATE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (2) b, 1 mark] Explain how does alcohol intake affect hyperuriciemia:
@@ -3563,11 +3680,13 @@ CLM-REN-ALCOHOL-LACTATE-URATE-01
 "The elevation of blood lactate decreases the excretion of uric acid from the kidneys, as both lactic acid and uric acid occupy the same transporter in renal tubules."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-REN-B9E0531973510E
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book names the shared renal transporter only as "the same transporter in renal tubules" and does not identify it, so no transporter name is given here. It also gives no threshold intake of alcohol.
@@ -3692,8 +3811,10 @@ CON-REN-E5BAEF03791C8F | CON-REN-B3AEE6F22A046A | CON-REN-42ED4D5025FB7B | CON-R
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -3726,19 +3847,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p6 | 103 BMS
 CLM-REN-URICOSURIC-DRUGS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry III, Case (2) d, 1.5 marks] What drugs are used to decrease uric acid levels in blood, and explain their mechanisms:
 "Drugs increasing the excretion of uric acid (Uricosuric drugs): These medications should be taken with plenty of fluid accompanied by alkalization of urine to prevent the formation of renal stones."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-REN-691A0268DB4342
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book prints "Drugs increasing the excretion of uric acid (Uricosuric drugs)" as a bare heading and names no member of the class, and the examiner's own model answer, read off the solved copy's render, copies that heading and adds no member either. What a marker expects under this heading beyond the mechanism is therefore genuinely unrecorded, and is not reconstructed here.
@@ -4053,8 +4178,10 @@ CON-FND-C9E5128193029E | CON-FND-5F0DC4407DEC51 | CON-HEM-121DCA556B6311 | CON-E
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -4087,19 +4214,23 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p8 | 103 BMS
 CLM-FND-FAT-SOLUBLE-VITAMINS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry IV, Match, 1 mark each] Vitamin A · Increased dark adaptation time; Vitamin K · Carboxylation of glutamate (Formation of γ-carboxy-glutamate); Vitamin D · Active form produced by 1-hydroxylase; Vitamin E · Lipid soluble antioxidant.
 "Calcitriol is the active form of vitamin D3."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-END-1DE2C490ABBA64 | CON-HEM-121DCA556B6311
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book's summary table gives an RDA for each vitamin without saying whose recommendation it is or for what age and sex, so the figures are not reproduced as authoritative here. Vitamin A's deficiency is listed as night blindness in the vitamin chapter and as "increased dark adaptation time" in the same section; the exam uses the second wording.
@@ -4225,8 +4356,10 @@ CON-FND-46B9F239340ED9 | CON-FND-1A4A49607783A9 | CON-HEM-A92555744C9B35 | CON-G
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -4259,8 +4392,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p8 | 103 BMS
 CLM-FND-WATER-SOLUBLE-VITAMINS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry IV, Match, 1 mark each] Vitamin B12 · Subacute degeneration of spinal cord; Thiamine · Needed in oxidative decarboxylation of α-keto acids; Biotin · Needed in CO₂ fixation reactions; Pantothenic acid · Synthesis of CoA-SH; Folic acid · Neural tube defects; Niacin · Pallagra. Two options are distractors: "Water soluble antioxidant" and "Muscle glycogen phosphorylase".
@@ -4268,11 +4403,13 @@ CLM-FND-WATER-SOLUBLE-VITAMINS-01
 "It is a highly efficient water-soluble antioxidant."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-HEM-A92555744C9B35 | CON-GIT-BDC3EA18923D6C
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The exam's option list contains two functions belonging to vitamins that are not among its ten stems — the water-soluble antioxidant, which is vitamin C, and muscle glycogen phosphorylase, which is pyridoxine. Both are correct statements from the book and neither is answerable from the ten stems given. The solved copy settles it: read visually, its matching table carries a number against every other row and leaves exactly those two blank. They are distractors, and that is now observed rather than inferred.
@@ -4398,8 +4535,10 @@ CON-FND-C9E5128193029E | CON-IMM-8444491F42C168 | CON-REN-E6070C296322CB | CON-G
 src_300847a5fa64809d6c07
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -4432,8 +4571,10 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p1 | 103 BMS
 CLM-FND-FOLATE-ANTAGONISTS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 [Biochemistry I-4, 2 marks] Folate antagonists.
@@ -4441,11 +4582,13 @@ CLM-FND-FOLATE-ANTAGONISTS-01
 "Methotrexate is an anti-cancer drug. It acts as a competitive inhibitor of dihydrofolate reductase."
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-IMM-8444491F42C168
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book does not name the bacterial enzyme sulfonamides inhibit — it calls it "the enzyme needed to incorporate PABA to form folic acid" — so no enzyme name is supplied here. It also gives no dose for either drug and none is written.

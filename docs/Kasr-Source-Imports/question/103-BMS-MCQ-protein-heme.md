@@ -1,0 +1,5064 @@
+# Item
+
+## id
+QM-103-DF664F1A4027
+
+## title
+Body proteins after eighteen years:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A first-year student is asked what happens to the body's protein once growth in height has stopped and the adult is in nitrogen equilibrium — intake matching output, weight steady, no illness.
+
+## question
+Body proteins after eighteen years:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 1. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Remain unchanged
+
+## explanation_a
+Incorrect, and this is the misconception the item exists to catch. Nitrogen equilibrium looks like "nothing is happening" on the balance sheet, so a student reads a steady total as a static one. The total is steady because degradation and synthesis are equal, not because either has stopped.
+
+## answer_b
+Are degraded only slightly at intervals of one month
+
+## explanation_b
+Incorrect. Protein degradation is continuous, not episodic, and half-lives are measured in minutes to days for regulatory proteins rather than in months. A student who pictures turnover as an occasional clear-out has the mechanism the wrong way round.
+
+## answer_c
+Are in a dynamic state
+
+## explanation_c
+Correct. There is a continuous degradation and synthesis of cellular proteins throughout adult life. About 75 per cent of the amino acids released by that degradation are reutilised for new protein synthesis, and the remainder are rapidly degraded — their nitrogen leaving as urea and their carbon skeletons entering the glucogenic or ketogenic routes. The point to hold is that a steady body protein content is a *steady state*, maintained by two large opposing fluxes, not a store that is left alone. This is why an adult still has a daily protein requirement despite having stopped growing, and why any illness that raises catabolism produces negative nitrogen balance within days.
+
+## answer_d
+Are used only to supply the body's energy requirement
+
+## explanation_d
+Incorrect. This picks the student who has learned that amino acids can be oxidised and has generalised it into the only fate. Energy production is one catabolic fate among several, and it is suppressed while carbohydrate and fat are adequate.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-1F052A080A1CB9
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.4
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+80
+
+## exam_relevance
+5
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+State that body protein is maintained in a dynamic steady state of continuous synthesis and degradation, and explain why a constant total does not mean a static one.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The amino acid pool drawn as a single compartment fed by dietary protein and by breakdown of body protein, and drained by protein synthesis, nitrogenous derivatives and the carbon-skeleton route
+Purpose: The whole point of the item is that two large fluxes can hold a total constant. Prose can assert it; only a flux diagram lets a student see that the arrows in and out are both large.
+Priority: strongly helpful
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 1. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 81, "Protein Turnover".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q1. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-850A18AB00D4
+
+## title
+Proteins can be used as a source of energy:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The department book gives the caloric value of protein as 4 kcal/g, nearly equal to carbohydrate and less than half that of fat, and notes that carbohydrate and fat in the diet spare protein from oxidation.
+
+## question
+Proteins can be used as a source of energy:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 2. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+After a high protein high carbohydrate meal
+
+## explanation_a
+Incorrect, and it is the trap. Amino acids in excess of anabolic need are indeed deaminated after a large protein meal — but the carbohydrate in that same meal is the protein-sparing fuel. With glucose abundant, the body burns glucose and directs amino acids towards synthesis, so this is the condition under which protein is *least* used for energy.
+
+## answer_b
+During starvation
+
+## explanation_b
+Correct. Protein is a reluctant fuel: it is structural and functional, and burning it costs the body enzymes and muscle. The presence of carbohydrate and fat in the diet spares protein from oxidation, so protein is drawn on for energy only once those fuels run short — in starvation, and in the other states of negative nitrogen balance the book lists beside it, such as diabetes mellitus, Cushing's syndrome, hyperthyroidism and infectious fevers. The mechanism is that the amino acid is first stripped of its nitrogen, which leaves as urea, and the carbon skeleton then enters gluconeogenesis or is oxidised. The thing to remember is the direction of the logic: it is the *absence* of the other two fuels, not the abundance of protein, that puts protein into the furnace.
+
+## answer_c
+That gives higher Kcal/gm than lipids
+
+## explanation_c
+Incorrect, and the numbers are the wrong way round. Protein yields about 4 kcal/g and fat about 9 kcal/g, so protein gives less than half what fat gives. A student who picks this has remembered that protein is an energy source and assumed energy density follows.
+
+## answer_d
+That gives higher Kcal/gm than carbohydrates
+
+## explanation_d
+Incorrect. Protein and carbohydrate are both about 4 kcal/g — nearly equal, not higher. This is the near-miss version of option C and catches the same reasoning with a smaller error.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-1F052A080A1CB9
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-B320D24EC35D30
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+Explain protein sparing: that amino acids are oxidised for energy only when carbohydrate and fat are inadequate, and state the caloric value of protein relative to the other two macronutrients.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: The three macronutrients side by side with caloric value per gram and the conditions under which each is the preferred fuel
+Purpose: Two of the four distractors are pure number confusions between 4 and 9 kcal/g. A table fixes the numbers in a form a student can recall under exam pressure, which prose does not.
+Priority: strongly helpful
+Status: needed
+Source direction: openly licensed nutrition or biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 2. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 81, "The Caloric Value of Proteins".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q2. correctSource verbatim: "printed key (p126)". KEY CORRECTION: the bank records the key as "a". The printed key on PDF page 126 was read visually with the Read tool and row 2 reads "2. b"; every other row on that page matches the bank exactly, so this is a single OCR slip in the bank and not a disagreement about the medicine. "b" is also the answer the department book supports — carbohydrate in the meal spares protein, so option a is the condition under which protein is least oxidised. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-475A7EB47C22
+
+## title
+After a meal that contains all macronutrients, the expected value of blood nitrogen:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Blood is drawn from a healthy volunteer two hours after a mixed meal containing protein, carbohydrate and fat, and total blood nitrogen is compared with a fasting sample taken that morning.
+
+## question
+After a meal that contains all macronutrients, the expected value of blood nitrogen:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 3. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Remains as it was pre-meal
+
+## explanation_a
+Incorrect. It confuses the tight regulation of blood *ammonia*, which is held below about 0.05 mg/dL, with blood nitrogen as a whole. Amino acid nitrogen and urea nitrogen both move freely after a meal; only free ammonia is defended at a fixed low level.
+
+## answer_b
+Decreases due to protein synthesis post-meal
+
+## explanation_b
+Incorrect, and it is the most attractive wrong answer. Protein synthesis does rise after a meal, and it does consume amino acids — but it consumes them from a pool that the meal has just filled far faster than synthesis can empty it. The student who picks this is reasoning about one arrow and ignoring the larger one pointing the other way.
+
+## answer_c
+Increases due to protein oxidation for energy production post-meal
+
+## explanation_c
+Incorrect for the reason it gives, not for its direction. Blood nitrogen does increase, but not because protein is being oxidised for energy — the carbohydrate in a mixed meal spares protein from oxidation. This option is right about the outcome and wrong about the mechanism, which is exactly the kind of half-correct answer a single-best-answer item is built to separate.
+
+## answer_d
+Increases due to protein absorption and degradation
+
+## explanation_d
+Correct. Dietary protein is digested to L-amino acids, which are absorbed rapidly from the small intestine by active transport and join the common amino acid pool. That pool is drawn on for anabolism, but a substantial fraction of the incoming amino acids is also deaminated, and the ammonia released is converted to urea in the liver. So both the amino acid nitrogen and the urea nitrogen of blood rise after a protein-containing meal, which is why urea synthesis increases after a protein-rich meal and why the liver's urea cycle enzymes are induced by a high-protein diet. Hold the two-part reason: absorption puts nitrogen in, and degradation of the excess converts it to a form that also circulates.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-EB9951F01C7251
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.4
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+5
+
+## contextual_concept_ids
+CON-FND-1F052A080A1CB9
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+Predict the direction blood nitrogen moves after a mixed meal, and give the correct reason — absorption plus degradation of the excess, not oxidation for energy.
+
+## media_recommendations
+### flowchart · Question stem
+Brief: Dietary protein through digestion and absorption into the common amino acid pool, with the anabolic and catabolic branches labelled and urea shown as the nitrogen exit
+Purpose: The item turns on holding two simultaneous fluxes, one filling the pool and one emptying it. A flowchart makes the competition visible where a sentence makes it sequential.
+Priority: strongly helpful
+Status: needed
+Section: Question stem
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 3. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 82, "Fate of Absorbed Amino Acids".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q3. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-D6F769AE8953
+
+## title
+Positive nitrogen balance is seen in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Nitrogen forms about 16 per cent of protein, so the difference between nitrogen intake and nitrogen output measures the balance between protein anabolism and catabolism. Three states are possible.
+
+## question
+Positive nitrogen balance is seen in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 4. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Starvation
+
+## explanation_a
+Incorrect. Starvation is the book's first example of *inadequate protein intake*, one of the three causes of negative nitrogen balance. A student who picks it has the sign of the balance inverted.
+
+## answer_b
+Wasting diseases
+
+## explanation_b
+Incorrect. Wasting is increased protein catabolism — the third cause of negative balance, alongside diabetes mellitus, Cushing's syndrome, hyperthyroidism and infectious fevers. Output exceeds intake here, which is the definition of the opposite state.
+
+## answer_c
+Growing age
+
+## explanation_c
+Correct. Positive nitrogen balance exists when intake exceeds output, and it occurs whenever new tissue is being built. The book's examples are growth, pregnancy, muscular training, and convalescence from a state of negative nitrogen balance. Growing age is the clearest case: a child is laying down new muscle, bone matrix and enzyme protein continuously, so more nitrogen is retained than excreted. The general rule worth carrying is that the sign of the balance follows whether the body is *net building* or *net breaking down* tissue — not whether protein intake is high, because a healthy adult on a large protein intake is still in equilibrium and simply excretes the excess as urea.
+
+## answer_d
+Intestinal malabsorption
+
+## explanation_d
+Incorrect. Gastrointestinal disease sits under inadequate protein intake in the book's list of negative-balance causes: the protein is eaten but not absorbed, so effective intake falls below output.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-B7FA7F593BAAB9
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-B320D24EC35D30
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+82
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+Classify a clinical state as positive, equilibrium or negative nitrogen balance, and justify the classification by whether tissue is being built or broken down.
+
+## media_recommendations
+### comparison table · Question stem
+Brief: The three states of nitrogen balance in three columns — equilibrium, positive, negative — each with its definition in terms of intake versus output and the book's own examples underneath
+Purpose: All four options are examples that must be sorted into two bins, and students lose the mark by memorising examples without the heading they belong under. The table is the sorting rule made visible.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry or nutrition text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 4. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 81–82, "Nitrogen Balance".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q4. correctSource verbatim: "printed key (p126)". No OCR repair was needed. Related concept CON-FND-B320D24EC35D30 already exists and states the three causes of negative nitrogen balance; three of the four distractors here are drawn from it, which is why it earns mastery evidence as a related concept. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-67E1DB3A4038
+
+## title
+A positive nitrogen balance occurs:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Four people have a 24-hour urine collection and a dietary nitrogen intake measured on the same day, and the balance between the two is calculated for each.
+
+## question
+A positive nitrogen balance occurs:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 5. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+In a healthy pregnant female
+
+## explanation_a
+Correct. Pregnancy is one of the four states the book names for positive nitrogen balance, alongside growth, muscular training and convalescence. New tissue is being built on a large scale — the fetus, the placenta, the expanding uterus and the maternal blood volume — so nitrogen is retained rather than excreted and intake exceeds output. This is the state that explains why protein requirement rises in pregnancy even though the mother is a fully grown adult: the requirement tracks net tissue synthesis, not body size.
+
+## answer_b
+In a healthy adult
+
+## explanation_b
+Incorrect, and it is the commonest error on this item. A healthy adult on an adequate diet is in nitrogen *equilibrium* — output equals intake — because synthesis and degradation are matched. Students conflate "healthy and well fed" with "positive", but positive balance requires net tissue gain, which the adult does not have.
+
+## answer_c
+In advanced cancer
+
+## explanation_c
+Incorrect. Advanced malignancy raises protein catabolism and often reduces intake at the same time, giving a strongly negative balance — the cachexia of advanced disease. It belongs with the wasting states, not with the building states.
+
+## answer_d
+In kwashiorkor
+
+## explanation_d
+Incorrect. Kwashiorkor is the protein-deficiency form of severe malnutrition, and inadequate protein intake is the book's first cause of negative nitrogen balance. The oedema that makes a kwashiorkor child look filled out is hypoalbuminaemic, not new tissue.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-B7FA7F593BAAB9
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-B320D24EC35D30
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+65
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+Distinguish positive nitrogen balance from nitrogen equilibrium, and explain why a healthy adult on an adequate diet is in equilibrium rather than positive balance.
+
+## media_recommendations
+### comparison table · Explanation for answer B
+Brief: Nitrogen equilibrium and positive nitrogen balance set against each other, with "who is in it" and "what the body is doing" on separate rows
+Purpose: Option B is picked by students who read "healthy and well nourished" as positive balance. The distinction is between matched fluxes and net gain, and a two-column table shows it where a sentence buries it.
+Priority: required
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 5. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 81–82, "Nitrogen Balance".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q5. correctSource verbatim: "printed key (p126)". OCR REPAIR: the bank carries option a as "Inahealthy pregnant female" and option b as "ina healthy adult" — lost word spacing in the scan. Both were repaired to "In a healthy pregnant female" and "In a healthy adult"; no word was added or changed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-2E72F242A2E4
+
+## title
+Which of the following is considered an anabolic fate of absorbed amino acids?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Absorbed amino acids mix with those released from body protein and those synthesised in the body to form one common amino acid pool, which is drawn on for both anabolism and catabolism.
+
+## question
+Which of the following is considered an anabolic fate of absorbed amino acids?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 6. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Urea synthesis
+
+## explanation_a
+Incorrect. Urea is the end product of the catabolic branch: it is how the nitrogen stripped from amino acids leaves the body. Making a molecule is not the same as anabolism — what matters is whether the amino acid is being built into something the body keeps or dismantled for disposal.
+
+## answer_b
+Ammonia synthesis
+
+## explanation_b
+Incorrect, and it catches the same reasoning one step earlier. Ammonia is released by deamination, the first step of catabolism, and is immediately handled as a toxic waste — converted to urea or to glutamine. Nothing about it is anabolic.
+
+## answer_c
+Thyroxine synthesis
+
+## explanation_c
+Correct. The anabolic fate of the amino acid pool has two arms: synthesis of proteins — tissue proteins, plasma proteins, enzymes and hormones — and synthesis of other nitrogenous substances. The book's list of the second arm is glutathione, adrenaline, thyroxine, melanin, niacin, purines, pyrimidines, amino sugars and the nitrogenous bases of phospholipids. Thyroxine is built from the tyrosine residues of thyroglobulin, which are iodinated to MIT and DIT and then coupled, so an amino acid is being incorporated into a molecule the body retains and uses. The test to apply is simple: is the nitrogen being kept in a useful molecule, or is it being routed to excretion?
+
+## answer_d
+Glucose synthesis
+
+## explanation_d
+Incorrect. Gluconeogenesis from a glucogenic amino acid is the fate of the *carbon skeleton* after the nitrogen has already been removed — the second half of the catabolic branch. The amino acid has been taken apart, not built up.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+General protein Metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-EB9951F01C7251
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-FA4D15805B9D02
+
+## library_ids
+ART-103-BIO-PROTEIN-TURNOVER-AND-NITROGEN-BALANCE
+
+## resource_ids
+
+## learning_objective
+Sort a named fate of the amino acid pool into the anabolic or the catabolic branch, and give the rule that decides it.
+
+## media_recommendations
+### flowchart · Question stem
+Brief: The common amino acid pool splitting into the anabolic branch (proteins; and the nitrogenous derivatives — glutathione, adrenaline, thyroxine, melanin, niacin, purines, pyrimidines, amino sugars) and the catabolic branch (ammonia to urea; carbon skeleton to glucose or ketone bodies)
+Purpose: All four options are real fates, and the item is entirely about which branch each sits on. The branching diagram is the answer; a list of eight derivatives in prose is what students fail to sort under pressure.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 121 (printed 114), question 6. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 82, "Fate of Absorbed Amino Acids", and printed page 101 for thyroid hormone synthesis from tyrosine.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p121-q6. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CON-FND-FA4D15805B9D02 (tyrosine derivatives) is contextual, not assessed: the item needs thyroxine to be amino-acid-derived but never tests how it is made. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-C9ABA7FF5E59
+
+## title
+Removal of amino acids nitrogen in human body goes through the following Steps:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Most catabolic pathways of an amino acid begin by removing the amino group from the carbon skeleton, leaving the corresponding α-keto acid. In humans the nitrogen removed ends up in urea.
+
+## question
+Removal of amino acids nitrogen in human body goes through the following Steps:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 7. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Transamination with α-ketoglutarate to form glutamate — oxidative deamination of glutamate — synthesis of urea and its excretion
+
+## explanation_a
+Correct. This is transdeamination, and the order matters because neither half works alone. Transamination moves the amino group from any α-amino acid onto α-ketoglutarate, making glutamate — but it releases no free ammonia, so nothing has yet been prepared for excretion. Oxidative deamination by L-glutamate dehydrogenase then strips that nitrogen off as free ammonia and regenerates α-ketoglutarate, which goes back to collect the next amino group. Glutamate is therefore the collector of nitrogen from all amino acids, and the reason the pathway needs two steps is that oxidative deamination works efficiently only on glutamate. The ammonia released is then condensed with CO2 in the liver and carried round the urea cycle for excretion.
+
+## answer_b
+Transamination with α-ketoglutarate to form glutamine — oxidative deamination of glutamine — synthesis of urea and its excretion
+
+## explanation_b
+Incorrect, and it swaps glutamate for glutamine. Transamination onto α-ketoglutarate gives glutamate; glutamine is made later and separately, by glutamine synthetase adding a second nitrogen as an amide to glutamate. Glutamine is a transport form of ammonia, not the product of transamination, and it is hydrolysed by glutaminase rather than oxidatively deaminated.
+
+## answer_c
+Transamination with glutamate to form α-ketoglutarate — oxidative deamination of α-ketoglutarate — synthesis of urea and its excretion
+
+## explanation_c
+Incorrect. This reverses the roles of the pair. α-Ketoglutarate is the amino group *acceptor* and glutamate the product; run it the other way and you have α-ketoglutarate, a keto acid with no amino group left to deaminate.
+
+## answer_d
+Oxidative deamination of glutamate — Transamination with α-ketoglutarate — synthesis of urea and its excretion
+
+## explanation_d
+Incorrect because the first two steps are in the wrong order. Deaminating glutamate before anything has transaminated onto it means there is no glutamate to deaminate. This distractor catches the student who has memorised the three names without the logic that makes them a sequence.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-B4CECDDC9A8BEE
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.55
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-861450E9BAAA11 | CON-FND-45DCF7CE171F0B
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+State the three steps by which amino acid nitrogen is removed in humans, in order, and explain why transamination and oxidative deamination each fail on their own.
+
+## media_recommendations
+### flowchart · Question stem
+Brief: The transdeamination cycle — any α-amino acid transaminating onto α-ketoglutarate to give glutamate, glutamate oxidatively deaminated by glutamate dehydrogenase releasing NH3 and regenerating α-ketoglutarate, and NH3 entering urea synthesis
+Purpose: Three of the four options are the same three names in a different order, so the item tests the cycle's shape rather than its vocabulary. A student who has seen α-ketoglutarate regenerate cannot put the steps in the wrong order; one who has only read a list can.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 7. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 83, "Removal of Amino Acid Nitrogen", and printed page 86, "Transdeamination".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q7. correctSource verbatim: "printed key (p126)". OCR REPAIR: the bank renders alpha as a bare "a" throughout ("a-ketoglutarate") and option d ends "Transamination with a-ketoglutarate > synthesis of urea", using ">" where the book prints an em dash. Both were repaired to the book's own typography; no word was changed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+80
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-BAE363ED0BA1
+
+## title
+An important reaction for the synthesis of amino acid from carbohydrate intermediates is transamination. It requires the cofactor:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A patient on long-term isoniazid, which antagonises one B vitamin, is found to have disturbed amino acid handling. The student is asked which cofactor every aminotransferase depends on.
+
+## question
+An important reaction for the synthesis of amino acid from carbohydrate intermediates is transamination. It requires the cofactor:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 8. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Thiamin
+
+## explanation_a
+Incorrect. Thiamin gives thiamine pyrophosphate, the cofactor of oxidative *decarboxylation* — pyruvate dehydrogenase, α-ketoglutarate dehydrogenase and branched-chain α-keto acid dehydrogenase. It handles keto acids, which is close enough to transamination's product to tempt a student who is pattern-matching on "α-keto acid".
+
+## answer_b
+Riboflavin
+
+## explanation_b
+Incorrect. Riboflavin gives FMN and FAD. FMN is the prosthetic group of L-amino acid oxidase, which is a deamination enzyme, not a transaminase — so this option catches the student who has merged the two nitrogen-removal reactions into one.
+
+## answer_c
+Niacin
+
+## explanation_c
+Incorrect. Niacin gives NAD+ and NADP+, which L-glutamate dehydrogenase uses for the oxidative deamination step. Again this is the *next* step in transdeamination, not transamination itself. Transamination is a group transfer with no oxidation, so it needs no nicotinamide coenzyme at all.
+
+## answer_d
+Pyridoxal phosphate
+
+## explanation_d
+Correct. Pyridoxal phosphate, the active form of vitamin B6, is the intermediate carrier of the amino group in every transamination. It accepts the amino group from the α-amino acid to become pyridoxamine phosphate, then hands it on to the incoming α-keto acid, returning to pyridoxal phosphate. That shuttling is why transamination involves neither the uptake nor the release of free ammonia, and why the reaction is freely reversible and therefore serves both deamination and the biosynthesis of the non-essential amino acids from carbohydrate intermediates. The clinical hook: any drug or deficiency that depletes B6 disturbs transamination broadly, because ALT, AST and every other aminotransferase share this one cofactor.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-861450E9BAAA11
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+78
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-C9E5128193029E
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+Name pyridoxal phosphate as the cofactor of transamination and explain the amino-group shuttle that makes the reaction release no free ammonia.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 8. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 84, "Transamination".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q8. correctSource verbatim: "printed key (p126)". No OCR repair was needed. The vignette's isoniazid framing is authored context, not the book's; it names no dose and no management, and the drug is not what is tested — CON-FND-C9E5128193029E (water-soluble vitamins as coenzymes) is therefore contextual rather than assessed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-453C1A5BC633
+
+## title
+The main sites for oxidative deamination by L-amino acid oxidase are:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Two enzymes carry out oxidative deamination of amino acids. One is widespread and highly active; the other is a low-activity flavoprotein confined to two organs.
+
+## question
+The main sites for oxidative deamination by L-amino acid oxidase are:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 9. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Liver and kidney
+
+## explanation_a
+Correct. L-amino acid oxidase is an FMN-containing flavoprotein of low activity that works only in the liver and kidneys. It acts on L-amino acids to give the corresponding α-keto acid, ammonia and hydrogen peroxide, and the peroxide is disposed of by catalase. What matters more than the two organ names is why the enzyme is a footnote: its low activity and narrow distribution mean it cannot account for the deamination of most amino acids, which is exactly why transdeamination — transamination onto α-ketoglutarate followed by L-glutamate dehydrogenase — is the route that actually carries the load. Learn the pair together: the oxidase is restricted and weak, the dehydrogenase is widespread and strong.
+
+## answer_b
+Skin and pancreas
+
+## explanation_b
+Incorrect. Neither organ has a role in amino acid nitrogen disposal. This distractor is a plausible-sounding pair with no basis, and picking it usually means the enzyme was not recognised at all.
+
+## answer_c
+Intestine and mammary gland
+
+## explanation_c
+Incorrect. The intestine does contribute ammonia to the portal blood, but by bacterial putrefaction rather than by L-amino acid oxidase; the mammary gland has no part in this. A student who half-remembers "the gut makes ammonia" can be pulled here.
+
+## answer_d
+Lung and spleen
+
+## explanation_d
+Incorrect. The spleen is a site of *heme* catabolism as part of the reticuloendothelial system, and confusing the organ lists of two different catabolic pathways is the specific error this option catches.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-45DCF7CE171F0B
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.35
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+62
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+Contrast L-amino acid oxidase with L-glutamate dehydrogenase on cofactor, activity, distribution and importance, and name the two organs the oxidase is confined to.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 9. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 85, "L-Amino Acid oxidase".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q9. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-F2A4733F1A1A
+
+## title
+Most of the ammonia released from L-amino acids reflects the coupled action of transaminase and:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Transamination liberates no free ammonia, and the enzyme that does liberate it works efficiently on only one substrate. The two are therefore coupled.
+
+## question
+Most of the ammonia released from L-amino acids reflects the coupled action of transaminase and:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 10. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+L-glutamate dehydrogenase
+
+## explanation_a
+Correct, and this coupling is the whole of transdeamination. L-glutamate dehydrogenase is a mitochondrial NAD(P)+-dependent enzyme of high activity and widespread distribution that converts L-glutamate to α-ketoglutarate, releasing free ammonia. It is efficient on glutamate and essentially only on glutamate — which would make it useless if transaminases did not first funnel the amino groups of every other amino acid onto α-ketoglutarate to make glutamate. Neither enzyme alone explains ammonia release: transamination liberates none, and the dehydrogenase has almost nothing else to act on. Because the reaction is reversible, the same enzyme also runs backwards to resynthesise glutamate from free ammonia and NAD(P)H, which is one of the anabolic fates of ammonia.
+
+## answer_b
+L-amino acid oxidase
+
+## explanation_b
+Incorrect, and it is the best distractor here. L-amino acid oxidase does release ammonia directly from a wide range of L-amino acids, so it looks like the better candidate — but it is a low-activity flavoprotein confined to liver and kidney, so it accounts for only a small fraction. "Can do it" and "does most of it" are different claims, and the stem asks for the second.
+
+## answer_c
+Histidase
+
+## explanation_c
+Incorrect. Histidase acts on one amino acid, histidine, converting it towards N-formimino-glutamate. A single-substrate enzyme cannot account for most of the ammonia released from amino acids in general.
+
+## answer_d
+Serine dehydratase
+
+## explanation_d
+Incorrect for the same reason as histidase. Serine dehydratase deaminates serine to pyruvate, and it is also the step by which glycine, converted to serine, becomes glucogenic — but it is one pathway, not the general route.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-B4CECDDC9A8BEE
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-45DCF7CE171F0B
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+Identify L-glutamate dehydrogenase as the enzyme coupled to transamination in transdeamination, and justify why L-amino acid oxidase is not the main route despite acting on many substrates.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 10. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 85–86, "L-Glutamate dehydrogenase (GDH)" and "Transdeamination".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q10. correctSource verbatim: "printed key (p126)". OCR REPAIR: the bank stem reads "released from L-aamino acids" — a doubled letter in the scan — repaired to "L-amino acids". resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-5F7DE78875EB
+
+## title
+Pyruvic acid can be obtained by transamination of alanine with:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Alanine aminotransferase (ALT) is one of the two most active aminotransferases in the body, and its reaction is the muscle end of the glucose–alanine cycle.
+
+## question
+Pyruvic acid can be obtained by transamination of alanine with:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 11. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+α-keto glutaric acid
+
+## explanation_a
+Correct. α-Ketoglutarate acts as the amino group acceptor in all transamination reactions, so it is the partner in this one too: alanine plus α-ketoglutarate gives pyruvate plus glutamate, catalysed by alanine aminotransferase with pyridoxal phosphate. The rule to hold is that transamination is not a free-for-all between any two pairs — one half of every pair is the α-ketoglutarate/glutamate couple, which is what makes glutamate the collector of nitrogen from all amino acids and funnels everything into a single deaminating enzyme. Recognising the fixed partner is worth more than memorising the individual reactions, because it also tells you what aspartate transaminates with, and what oxaloacetate is aminated by.
+
+## answer_b
+Acetoacetic acid
+
+## explanation_b
+Incorrect. Acetoacetate is a ketone body, not an amino group acceptor; it has no corresponding amino acid. This option catches a student who is matching on "keto" in the name without asking whether the molecule has an amino counterpart.
+
+## answer_c
+β-OH butyric acid
+
+## explanation_c
+Incorrect, and it is not even a keto acid — β-hydroxybutyrate is the reduced ketone body. Nothing about it can accept an amino group.
+
+## answer_d
+Phosphoenol pyruvic acid
+
+## explanation_d
+Incorrect. Phosphoenolpyruvate is a glycolytic and gluconeogenic intermediate, and it is downstream of pyruvate, not the acceptor that produces it. The distractor works because "pyruvic" appears in the name, which is precisely the surface cue the question is testing against.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-861450E9BAAA11
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+72
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-880D165894A5EC
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+State that α-ketoglutarate is the amino group acceptor in every transamination, and write the ALT reaction with its four participants.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 11. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 84, the ALT and AST reaction diagrams.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q11. correctSource verbatim: "printed key (p126)". OCR REPAIR: the bank renders the Greek letters as bare Latin ("a- keto glutaric acid", "B-OH butyric acid"); both were restored to α and β to match the book's own printing. No word was changed. The glucose–alanine cycle concept is contextual here: the vignette mentions it, the item does not test it. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-BA0F06DF64C9
+
+## title
+Transamination is a/an:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The same enzymic reaction is used by the body both to dispose of amino acid nitrogen and to make the non-essential amino acids from carbohydrate intermediates.
+
+## question
+Transamination is a/an:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 12. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Irreversible process
+
+## explanation_a
+Incorrect. Irreversibility is the mark of the committed, regulated steps of a pathway — carbamoyl phosphate synthetase I in the urea cycle, or the three key enzymes of the Krebs cycle. Transamination is none of those; it is a near-equilibrium group transfer with no large free-energy drop, so it runs either way depending on concentrations.
+
+## answer_b
+Reversible process
+
+## explanation_b
+Correct, and the reversibility is not a technicality — it is what lets one reaction serve two opposite purposes. Read left to right, transamination strips the amino group off an amino acid and is the first step of nitrogen disposal. Read right to left, it puts an amino group onto a carbon skeleton drawn from glycolysis or the citric acid cycle, and is how the body makes the non-essential amino acids: pyruvate becomes alanine, oxaloacetate becomes aspartate, α-ketoglutarate becomes glutamate. The energetic reason is that an amino group is simply being swapped between two carriers with pyridoxal phosphate as the go-between, so nothing is oxidised, nothing is decarboxylated and no free ammonia appears. That last point also explains why transamination cannot excrete nitrogen on its own and must be coupled to glutamate dehydrogenase.
+
+## answer_c
+process that involves conversion of an α amino acid into an α keto acid but not the reverse
+
+## explanation_c
+Incorrect. This is option A restated as a direction, and it catches the student who has only ever met transamination inside the catabolic story. If it were true, the body could not synthesise a single non-essential amino acid by transamination — which is exactly what the stem of question 8 says it does.
+
+## answer_d
+process that involves conversion of an α keto acid into an α amino acid but not the reverse
+
+## explanation_d
+Incorrect, and it is the mirror-image error: right about biosynthesis, wrong to deny catabolism. A student who picks it has met transamination only in the anabolic story. Both C and D are half-truths, and holding both halves at once is the answer.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-861450E9BAAA11
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+75
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+State that transamination is reversible and explain the two opposite jobs — nitrogen disposal and non-essential amino acid synthesis — that its reversibility allows.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 122 (printed 115), question 12. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 84, "The reaction is reversible, so it is important in deamination and in the biosynthesis of the nonessential amino acids."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p122-q12. correctSource verbatim: "printed key (p126)". OCR REPAIR: options c and d read "into and a keto acid" and "into and a amino acid" in the bank — "and" for "an" — and render alpha as a bare "a". Repaired to "into an α keto acid" and "into an α amino acid". resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-69F78B13ED84
+
+## title
+Free ammonia is released during:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Blood ammonia is normally held below about 0.05 mg/dL, yet ammonia is produced continuously in the tissues from more than one source.
+
+## question
+Free ammonia is released during:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 13. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Oxidative deamination of glutamate
+
+## explanation_a
+True but incomplete, which is why it is not the best answer. This is the major source — L-glutamate dehydrogenase releasing ammonia from the glutamate that transamination has collected it into. A student who stops here has the biggest source and has missed that the stem asks what releases free ammonia, not what releases most of it.
+
+## answer_b
+Catabolism of purines
+
+## explanation_b
+True but incomplete. Purine catabolism releases ammonia at two points — adenosine deaminase converting adenosine to inosine, and guanase converting guanine to xanthine. The book lists deamination of purines among the minor sources of blood ammonia.
+
+## answer_c
+Catabolism of pyrimidines
+
+## explanation_c
+True but incomplete. The end products of pyrimidine catabolism are CO2, ammonia and β-alanine or β-aminoisobutyrate, so ammonia is released here too. Like B, it is a real minor source.
+
+## answer_d
+All of these
+
+## explanation_d
+Correct. The book gives deamination of amino acids as the major source of ammonia and the deamination of purines and pyrimidines as minor sources, and adds a third that is not among the options — bacterial putrefaction in the intestine, which becomes clinically important in liver cirrhosis and hepatic coma. The reason all three routes matter is that they are all continuous, and yet blood ammonia stays below 0.05 mg/dL: the liver's urea cycle, glutamine synthesis in brain and liver, and renal glutaminase between them clear ammonia as fast as it appears. The failure of that clearance is what produces hyperammonaemia, so knowing the inputs is what makes the disposal routes worth learning.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-B4CECDDC9A8BEE
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-880D165894A5EC
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+76
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+Enumerate the sources of blood ammonia, distinguishing the major source from the minor ones.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 13. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 86, "Sources of Ammonia", and printed page 129 for pyrimidine end products.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q13. correctSource verbatim: "printed key (p126)". No OCR repair was needed. NOTE FOR REVIEW: the correct option here is "All of these", which 05-questions.md warns against authoring fresh because randomise_answers shuffles the options. It is kept because this is a transcription of a printed departmental item, not an authored one, and rewriting it would change what the faculty asked. randomise_answers has been set to "no" on this item so the shuffle cannot strand the aggregate option away from the three it aggregates. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QM-103-63D820F9504A
+
+## title
+Oxaloacetate is converted to aspartic acid by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Aspartate is a non-essential amino acid. The body must therefore be able to build it from a carbon skeleton it already has — in this case a citric acid cycle intermediate.
+
+## question
+Oxaloacetate is converted to aspartic acid by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 14. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Reductase
+
+## explanation_a
+Incorrect. Turning a keto group into an amino group looks like a reduction on paper, and that surface resemblance is what makes this the most tempting wrong answer. But no reducing equivalents are consumed: an intact amino group is transferred from glutamate, not built from ammonia and NADH.
+
+## answer_b
+Oxidase
+
+## explanation_b
+Incorrect, and the direction is wrong. An oxidase would take an amino acid apart — as L-amino acid oxidase does — not assemble one. A student picking this has the arrow of the pathway reversed.
+
+## answer_c
+Transaminase
+
+## explanation_c
+Correct. Aspartate aminotransferase (AST) transfers the amino group of glutamate onto oxaloacetate, giving aspartate and α-ketoglutarate, with pyridoxal phosphate as the carrier. This is transamination run in the biosynthetic direction, and it is the clearest illustration of why the reversibility of transamination matters: the same enzyme that reports liver and myocardial damage when it leaks into plasma is, inside the cell, how a non-essential amino acid gets made from a citric acid cycle intermediate. It is also the reaction that supplies the aspartate the urea cycle needs for urea's second nitrogen atom, which is how the two cycles are joined.
+
+## answer_d
+Catalase
+
+## explanation_d
+Incorrect. Catalase disposes of hydrogen peroxide — including the peroxide generated by L-amino acid oxidase — and has nothing to do with amino group transfer. It appears in the same paragraph of the textbook as deamination, which is the association this distractor exploits.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Removal of Amino Acid Nitrogen
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-861450E9BAAA11
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Removal of Amino Acid Nitrogen
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+74
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+CON-FND-3806EF570B0A1C
+
+## library_ids
+ART-103-BIO-REMOVAL-OF-AMINO-ACID-NITROGEN
+
+## resource_ids
+
+## learning_objective
+Identify AST as the enzyme that aminates oxaloacetate to aspartate, and explain why this is transamination rather than reduction.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 14. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 84 (AST reaction) and printed page 95, "Aspartate is a nonessential amino acid, being synthesized from oxaloacetate by transamination using glutamate and AST (PLP-dependent) as enzyme."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q14. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CANCELLATION NOTE: the department orientation cancels the Aspartic Acid item on printed page 95. This question is not filed under that item — it sits in the General Aspects chapter and tests transamination, which is not cancelled — so it is weighted normally. The book passage on printed page 95 is cited only as a second confirmation of the same reaction that printed page 84 already gives. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-CCE8F196AAE7
+
+## title
+The two nitrogen atoms in urea are contributed by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The overall reaction of the urea cycle is: aspartate + NH3 + CO2 + 3 ATP → urea + fumarate + 2 ADP + 2 Pi + AMP + PPi.
+
+## question
+The two nitrogen atoms in urea are contributed by:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 15. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Ammonia and glutamate
+
+## explanation_a
+Incorrect, and it is the strongest distractor. Glutamate is genuinely central to nitrogen handling — it collects amino groups from every amino acid and hands them to glutamate dehydrogenase — so a student reasons that it must also be the direct donor. It is not: glutamate's nitrogen enters as free ammonia after deamination, or is passed to oxaloacetate to make aspartate. Glutamate is upstream of both donors, not one of them.
+
+## answer_b
+Glutamine and glutamate
+
+## explanation_b
+Incorrect. Glutamine is a *transport* form of ammonia — made in brain and muscle, hydrolysed by glutaminase in liver and kidney. In the liver its nitrogen is released as ammonia before entering the cycle, so glutamine feeds the first nitrogen indirectly and contributes nothing directly.
+
+## answer_c
+Ammonia and aspartate
+
+## explanation_c
+Correct, and this is the fact the whole urea cycle is built around. The first nitrogen enters as free ammonia, condensed with bicarbonate by carbamoyl phosphate synthetase I in the mitochondrial matrix to make carbamoyl phosphate. The second enters as the amino group of aspartate, when argininosuccinate synthetase joins aspartate to citrulline in the cytosol. Aspartate's carbon skeleton then leaves as fumarate when argininosuccinate lyase cleaves the product — so aspartate donates a nitrogen and takes its carbon back out again. Two donors, two compartments, two different chemistries: that asymmetry is what examiners test, and it is also why aspartate, not glutamate, is the amino acid named in the overall equation.
+
+## answer_d
+Ammonia and alanine
+
+## explanation_d
+Incorrect. Alanine carries nitrogen from muscle to liver through the glucose–alanine cycle, but on arrival it is transaminated to pyruvate and its nitrogen joins the general pool. It never enters the urea cycle as alanine.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-6A2CCA2892E78C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+58
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+CON-FND-880D165894A5EC
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name the two direct nitrogen donors of urea and state where in the cycle each one enters.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The urea cycle with the two nitrogen atoms of urea colour-coded back to their donors — one traced from free ammonia through carbamoyl phosphate, the other from aspartate through argininosuccinate — and fumarate shown leaving
+Purpose: Three of the four options name a nitrogen carrier that is real but indirect. Only a diagram that follows each atom from donor to product separates "supplies nitrogen to the pathway" from "donates a nitrogen atom of urea", which is the entire distinction being tested.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 15. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 87–89, "UREA CYCLE".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q15. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-7B0FC234CF02
+
+## title
+In urea synthesis, the amino acid functioning solely as an enzyme activator:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Some molecules in a pathway are consumed, some are regenerated, and one in the urea cycle is neither — it only switches an enzyme on.
+
+## question
+In urea synthesis, the amino acid functioning solely as an enzyme activator:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 16. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+N-acetyl glutamate
+
+## explanation_a
+Correct. N-acetylglutamate is an obligatory allosteric activator of carbamoyl phosphate synthetase I, the rate-limiting enzyme of the urea cycle: without it, CPS I has essentially no activity. It is not a substrate, not an intermediate and not a product — no part of it ends up in urea. What makes it an elegant piece of regulation is where it comes from: N-acetylglutamate synthase builds it from acetyl-CoA and glutamate, and arginine activates that synthase. A protein-rich meal delivers both glutamate and arginine, so intrahepatic N-acetylglutamate rises, CPS I is switched on, and urea synthesis increases exactly when there is more nitrogen to dispose of. The molecule is a signal that says "protein has arrived", not a building block.
+
+## answer_b
+Ornithine
+
+## explanation_b
+Incorrect, and this is the option that catches the careful student. Ornithine really does behave unusually — it is regenerated at the end of every turn and re-enters the mitochondrion to start the next one, so it is never used up. But "not consumed" is not the same as "not participating": ornithine is a genuine substrate, covalently carrying the carbamoyl group as citrulline. The stem's word is *solely* an activator, and ornithine is a carrier.
+
+## answer_c
+Citrulline
+
+## explanation_c
+Incorrect. Citrulline is a true intermediate — made in the mitochondrion by ornithine transcarbamoylase, exported to the cytosol in exchange for ornithine, and consumed by argininosuccinate synthetase. It is on the main line of the pathway, not off to one side.
+
+## answer_d
+Alanine
+
+## explanation_d
+Incorrect. Alanine has no role inside the urea cycle at all. Its contribution is upstream, delivering nitrogen from muscle to liver through the glucose–alanine cycle, where it is transaminated before any of this begins.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-6A2CCA2892E78C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Distinguish an allosteric activator from a substrate, an intermediate and a regenerated carrier, using the urea cycle's own molecules, and explain how N-acetylglutamate couples urea synthesis to protein intake.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 16. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 89, "Regulation of Urea Cycle".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q16. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-F415C166CF2D
+
+## title
+An organ which is extremely sensitive to ammonia toxicity is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Ammonia is produced in every tissue, yet the clinical picture of hyperammonaemia is dominated by one organ's failure.
+
+## question
+An organ which is extremely sensitive to ammonia toxicity is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 17. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Liver
+
+## explanation_a
+Incorrect, and it inverts the relationship. The liver is where ammonia is *disposed of*, by the urea cycle. It is the organ whose failure causes hyperammonaemia, not the organ damaged by it — which is why hepatic coma is a brain syndrome caused by a liver problem.
+
+## answer_b
+Brain
+
+## explanation_b
+Correct, and the book gives three mechanisms worth holding separately. First, high ammonia drives glutamate dehydrogenase backwards, pulling α-ketoglutarate into glutamate; α-ketoglutarate is an essential citric acid cycle intermediate, so depleting it cuts cellular oxidation and ATP production, which can end in coma and death. Second, convulsions may result from deficiency of GABA, the inhibitory neurotransmitter formed from glutamate by decarboxylation. Third, brain oedema follows the osmotic load of high ammonia and glutamine inside astrocytes. Notice that all three trace back to the same chemistry — the brain's only way of detoxifying ammonia is to fix it onto glutamate and then onto glutamine — so the organ that is best at mopping ammonia up is the one most damaged by having to.
+
+## answer_c
+Kidney
+
+## explanation_c
+Incorrect. The kidney handles ammonia rather than suffering from it: glutaminase splits glutamine in the renal tubules and the ammonia is excreted in urine, which is one of the body's disposal routes, and one that increases in acidosis and hyperammonaemia.
+
+## answer_d
+Heart
+
+## explanation_d
+Incorrect. The heart has no special vulnerability to ammonia. It appears here because AST is raised in myocardial infarction, and a student who has linked "AST" to "nitrogen metabolism" and then to "heart" can be pulled along that chain.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Both
+
+## reasoning_level
+1
+
+## inferred_difficulty
+85
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Name the brain as the organ sensitive to ammonia toxicity and give the three mechanisms by which ammonia injures it.
+
+## media_recommendations
+### flowchart · Explanation for answer B
+Brief: Rising ammonia in the astrocyte driving glutamate dehydrogenase backwards, with three consequences branching off — α-ketoglutarate depletion and falling ATP, GABA deficiency and convulsions, and osmotic brain oedema from accumulated glutamine
+Purpose: The three mechanisms share one starting point, and students who learn them as an unconnected list forget two of the three. The branching structure is what makes them recallable.
+Priority: strongly helpful
+Status: needed
+Section: Explanation B
+Source direction: openly licensed biochemistry or neuroscience text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 17. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 90, "Ammonia Toxicity (Ammonia encephalopathy)".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q17. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CANCELLATION NOTE: the source passage sits on printed page 90 of the department book, the same page as the hyperammonaemia types table that the orientation cancels except for type 1. "Ammonia Toxicity (Ammonia encephalopathy)" is a separate item on that page and is not cancelled, so this question is weighted normally — the cancellation is of an item, not of a page. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-D9E8F8F4CBE9
+
+## title
+Ammonia is transported from muscles to liver mainly in the form of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Muscle has no urea cycle, so the nitrogen released when muscle protein is catabolised during exercise or fasting must reach the liver in a form that is not toxic in transit.
+
+## question
+Ammonia is transported from muscles to liver mainly in the form of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 18. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Free ammonia
+
+## explanation_a
+Incorrect, and it is the answer that ignores the whole problem. Free ammonia is neurotoxic and is held below about 0.05 mg/dL in blood; shipping muscle nitrogen as free ammonia would poison the brain on the way. Every transport form exists precisely to avoid this.
+
+## answer_b
+Glutamine
+
+## explanation_b
+Incorrect for *muscle*, and this is the distractor that separates a good answer from the best one. Glutamine is a genuine and important carrier of ammonia — it is the major mechanism for removing ammonia in the **brain**, made by glutamine synthetase from glutamate and ammonia, and it travels to liver and kidney to be split by glutaminase. The item asks specifically about muscle, where the book names alanine. Learn the pair by organ: brain sends glutamine, muscle sends alanine.
+
+## answer_c
+Asparagine
+
+## explanation_c
+Incorrect. Asparagine is made from aspartate by asparagine synthetase using the amide nitrogen of glutamine, and its role is in protein glycosylation sites, not in interorgan nitrogen transport. It is the amide amino acid that does *not* do this job, which is what makes it a fair distractor beside glutamine.
+
+## answer_d
+Alanine
+
+## explanation_d
+Correct. A good part of the amino acid nitrogen in muscle is transferred onto pyruvate by alanine aminotransferase, and the alanine produced travels to the liver — the glucose–alanine cycle. In the liver, transdeamination removes the nitrogen for urea synthesis and the pyruvate skeleton is available for gluconeogenesis, so the glucose made can return to muscle. The cycle therefore solves two problems at once: it moves nitrogen safely and it recycles a carbon skeleton the muscle cannot use for glucose itself, because muscle lacks glucose-6-phosphatase. Contrast it with the brain's route: brain fixes ammonia onto glutamate as glutamine, and the ammonia is released again by glutaminase in liver and kidney.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-861450E9BAAA11
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Name alanine as the muscle-to-liver nitrogen carrier and glutamine as the brain's, and explain what the glucose–alanine cycle achieves beyond nitrogen transport.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The glucose–alanine cycle drawn between muscle and liver, with alanine travelling one way and glucose the other, ALT labelled at both ends, and urea leaving the liver
+Purpose: The item's whole content is a two-organ loop, and students who meet it as a sentence remember the direction of only one arrow. Set beside it, a second small panel showing the brain's glutamine route makes the by-organ contrast that distractor B exists to test.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 18. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, "4) Muscle: A good part of the amino acid nitrogen in muscles is converted to alanine by ALT, then it is transported to the liver (glucose-alanine cycle)."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q18. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CANCELLATION NOTE: the orientation cancels the Alanine item on printed page 92 of the department book, in the Individual Amino Acid Metabolism chapter. This question is not filed there — the glucose–alanine cycle is taught on printed page 87 under Metabolism of Ammonia, which is not cancelled — so it is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-BA53D30A51AF
+
+## title
+The major site of urea synthesis is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+One enzyme of the urea cycle is found in only one organ, and that restriction decides where urea can be made at all.
+
+## question
+The major site of urea synthesis is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 19. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Brain
+
+## explanation_a
+Incorrect. The brain disposes of ammonia by fixing it onto glutamate to make glutamine, not by making urea. It has no arginase, so the cycle cannot close there — which is exactly why brain glutamine rises in hyperammonaemia and contributes to the osmotic oedema.
+
+## answer_b
+Kidneys
+
+## explanation_b
+Incorrect, and this is the commonest confusion on the topic. The kidney *excretes* urea and also excretes ammonia directly, 60 per cent of urinary ammonia coming from the action of glutaminase and the rest from renal deamination. Making and excreting are different jobs, and the exam repeatedly tests whether a student has kept them apart — it is the same distinction that separates uraemia from hyperammonaemia.
+
+## answer_c
+Liver
+
+## explanation_c
+Correct. Urea formation occurs only in the liver, because arginase — the enzyme that finally cleaves arginine into urea and ornithine — is present only there. Urea then travels in the blood, at a plasma level of 10 to 50 mg/dL, to the kidneys where it passes into the urine. Two clinical consequences fall directly out of this one anatomical fact. In hepatic failure the cycle cannot run, so ammonia accumulates and plasma urea falls — hyperammonaemia with a low urea. In renal failure the cycle runs normally but the product cannot be excreted, so plasma urea rises — uraemia. Same molecule, opposite abnormalities, and the site of synthesis is what tells them apart.
+
+## answer_d
+Muscles
+
+## explanation_d
+Incorrect. Muscle exports its nitrogen as alanine precisely because it cannot make urea. If it could, there would be no glucose–alanine cycle.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.2
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Both
+
+## reasoning_level
+1
+
+## inferred_difficulty
+88
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-744E6E6F75BEFA
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+State that urea is synthesised only in the liver, give arginase as the reason, and derive from it why hepatic failure and renal failure move plasma urea in opposite directions.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 19. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, "Urea formation occurs only in the liver as arginase is present only in the liver."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q19. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+35
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-365229EC3585
+
+## title
+Carbamoyl phosphate required for urea synthesis is synthesized in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The urea cycle straddles two compartments of the hepatocyte, and a carrier in the inner mitochondrial membrane moves one intermediate out in exchange for another going in.
+
+## question
+Carbamoyl phosphate required for urea synthesis is synthesized in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 20. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Cytosol
+
+## explanation_a
+Incorrect for urea synthesis — but the student who picks it may be remembering something real. Carbamoyl phosphate synthetase **II**, which starts *pyrimidine* synthesis, is cytosolic and uses glutamine as its nitrogen donor. CPS **I**, which starts urea synthesis, is mitochondrial and uses free ammonia. Two enzymes, two compartments, two nitrogen donors, one product name — this is the most examinable confusion in the whole chapter.
+
+## answer_b
+Mitochondria
+
+## explanation_b
+Correct. Free ammonium ion and bicarbonate are condensed at the expense of 2 ATP to form carbamoyl phosphate, catalysed by carbamoyl phosphate synthetase I in the mitochondrial matrix and absolutely dependent on N-acetylglutamate for activity. The next step, ornithine transcarbamoylase making citrulline, is also mitochondrial; citrulline is then exported to the cytosol in exchange for ornithine, and the remaining three reactions — argininosuccinate synthetase, argininosuccinate lyase and arginase — all run in the cytosol. So the rule is: the first two reactions are mitochondrial, all subsequent reactions are cytosolic. It is worth knowing that ammonia is generated inside the mitochondrion by glutamate dehydrogenase, which is also mitochondrial, so the cycle begins where its substrate is made.
+
+## answer_c
+Ribosome
+
+## explanation_c
+Incorrect. Ribosomes translate mRNA into protein; they carry out no small-molecule metabolism. This option is picked when the enzyme has not been placed at all.
+
+## answer_d
+Cell membranes
+
+## explanation_d
+Incorrect. No step of the urea cycle occurs at the plasma membrane. The only membrane that matters here is the inner mitochondrial membrane, and its role is transport — the ornithine–citrulline antiporter — not catalysis.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+68
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Place each urea cycle enzyme in its compartment, and distinguish carbamoyl phosphate synthetase I from CPS II by compartment, nitrogen donor and pathway.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The urea cycle drawn across the inner mitochondrial membrane, with CPS I and ornithine transcarbamoylase inside, argininosuccinate synthetase, argininosuccinate lyase and arginase outside, and the ornithine–citrulline antiporter in the membrane between them
+Purpose: Compartmentation is spatial and this item tests only compartmentation. A student can recite five enzyme names from prose and still put the membrane in the wrong place; with the membrane drawn, the answer is unmistakable.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 123 (printed 116), question 20. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 87–89, "Site" and "The different steps include".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p123-q20. correctSource verbatim: "printed key (p126)". OCR REPAIR: the bank stem reads "Carbamoyl] phosphate" — a stray bracket from the scan — repaired to "Carbamoyl phosphate". resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-CD0F121C11EF
+
+## title
+The following enzyme of urea cycle is present in cytosol:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Of the five enzymes of the urea cycle, two are mitochondrial and the rest are not.
+
+## question
+The following enzyme of urea cycle is present in cytosol:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 21. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Argininosuccinic acid synthetase
+
+## explanation_a
+True but incomplete. Argininosuccinate synthetase is cytosolic — it joins citrulline to aspartate at the cost of ATP hydrolysed to AMP and PPi. A student who stops here has read the first plausible option instead of checking the remaining three.
+
+## answer_b
+Argininosuccinase
+
+## explanation_b
+True but incomplete. Argininosuccinase, also called argininosuccinate lyase, is cytosolic and cleaves argininosuccinate into arginine and fumarate.
+
+## answer_c
+Arginase
+
+## explanation_c
+True but incomplete. Arginase is cytosolic and is the enzyme confined to the liver, cleaving arginine into urea and ornithine.
+
+## answer_d
+All of these
+
+## explanation_d
+Correct. The first two reactions of the urea cycle occur in the mitochondria — carbamoyl phosphate synthetase I and ornithine transcarbamoylase — and all subsequent reactions occur in the cytosol. Those subsequent reactions are exactly the three listed: argininosuccinate synthetase, argininosuccinase and arginase. Citrulline crosses to the cytosol in exchange for ornithine on an antiporter, and ornithine crosses back in to begin the next turn, so the cycle physically loops across the inner mitochondrial membrane twice per turn. The clean way to hold it is by count: two in, three out, and the two that are in are the two that handle free ammonia and build citrulline.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+List the three cytosolic enzymes of the urea cycle and the two mitochondrial ones, in the order the pathway runs.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 21. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, "The first 2 reactions occur in the mitochondria and all subsequent reactions occur in the cytosol."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q21. correctSource verbatim: "printed key (p126)". No OCR repair was needed. NOTE FOR REVIEW: the key is the aggregate option "All of these". As with question 13, this is a transcription of a printed departmental item rather than an authored one, so the option is kept and randomise_answers is set to "no" so the shuffle cannot separate the aggregate from what it aggregates. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QM-103-F73B76498F48
+
+## title
+ATP is required in following reactions of urea cycle:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The overall equation of the cycle consumes 3 ATP but produces 2 ADP + 2 Pi and 1 AMP + PPi, which is a clue to where in the cycle the energy is spent and how.
+
+## question
+ATP is required in following reactions of urea cycle:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 22. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Synthesis of carbamoyl phosphate and citrulline
+
+## explanation_a
+Incorrect. Carbamoyl phosphate synthesis does cost 2 ATP, but citrulline formation does not consume any: ornithine transcarbamoylase simply transfers the carbamoyl group from carbamoyl phosphate to ornithine, releasing Pi. The energy for that step was already paid one reaction earlier, which is what the high-energy carbamoyl phosphate bond is for.
+
+## answer_b
+Synthesis of citrulline and argininosuccinate
+
+## explanation_b
+Incorrect for the citrulline half, correct for the other. It catches the student who has spotted the argininosuccinate cost and then guessed at a partner.
+
+## answer_c
+Synthesis of argininosuccinate and arginine
+
+## explanation_c
+Incorrect. Argininosuccinate synthesis costs ATP, but arginine is produced by argininosuccinase cleaving argininosuccinate — a lyase reaction that consumes no nucleotide at all and releases fumarate as its other product.
+
+## answer_d
+Synthesis of carbamoyl phosphate and argininosuccinate
+
+## explanation_d
+Correct, and the two costs are charged differently. Carbamoyl phosphate synthetase I spends 2 ATP, both hydrolysed to ADP + Pi. Argininosuccinate synthetase spends 1 ATP but hydrolyses it all the way to AMP + PPi, which is the equivalent of two high-energy phosphate bonds. That is why the book's overall equation reads "3 ATP" on the left while the right side shows 2 ADP + 2 Pi + AMP + PPi, and why the total cost is often quoted as four high-energy bonds. Reading the equation carefully answers the arithmetic question that follows it, so the two are worth learning together rather than as separate facts.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-6A2CCA2892E78C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Identify the two ATP-consuming steps of the urea cycle and explain why the total cost is 3 ATP but 4 high-energy phosphate bonds.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The urea cycle with the ATP cost marked at each step — 2 ATP to ADP + Pi at CPS I, 1 ATP to AMP + PPi at argininosuccinate synthetase, and no cost at the other three
+Purpose: The item is arithmetic over a pathway, and the arithmetic only works if the two different hydrolysis products are visible at their own steps. Prose that says "3 ATP, 4 bonds" without showing where is what makes students memorise a number they cannot reconstruct.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 22. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 87 and 89 — the overall equation and steps 1 and 3.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q22. correctSource verbatim: "printed key (p126)". OCR REPAIR: options a and d read "carbamoyl! phosphate" in the bank — an exclamation mark for the letter l — repaired to "carbamoyl phosphate". resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+90
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-E7F3A9284812
+
+## title
+In brain, the major metabolism for removal of ammonia is the formation of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The brain has no urea cycle. It must still deal with ammonia, and the way it does so is also part of why hyperammonaemia damages it.
+
+## question
+In brain, the major metabolism for removal of ammonia is the formation of:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 23. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+α-keto glutarate
+
+## explanation_a
+Incorrect, and it is the reverse of what happens. α-Ketoglutarate is *consumed*, not formed: glutamate dehydrogenase runs backwards under a high ammonia load, pulling α-ketoglutarate plus ammonia into glutamate. That depletion of a citric acid cycle intermediate is one of the three mechanisms of ammonia encephalopathy.
+
+## answer_b
+Aspartate
+
+## explanation_b
+Incorrect. Aspartate is made by transamination from oxaloacetate and is the second nitrogen donor of urea — a liver story, not a brain one. Nothing about aspartate formation removes free ammonia; transamination handles no free ammonia at all.
+
+## answer_c
+Asparagine
+
+## explanation_c
+Incorrect, and it is a well-built distractor because asparagine really is an amide amino acid made from an amide donor. But asparagine synthetase takes its nitrogen from the amide group of *glutamine*, not from free ammonia, so glutamine has to be made first. Asparagine is one step too far downstream to be the removal mechanism.
+
+## answer_d
+Glutamine
+
+## explanation_d
+Correct. Glutamine synthetase condenses free ammonia with glutamate to form glutamine, and this is the major mechanism for the removal of ammonia in the brain. Glutamine is non-toxic and freely transportable, so it carries the nitrogen to liver and kidney, where glutaminase hydrolyses it back to glutamate and ammonia — for urea synthesis in the liver, and for urinary excretion in the kidney, where glutaminase accounts for 60 per cent of urinary ammonia. The sting is that this protective reaction is itself part of the pathology: glutamine accumulating in astrocytes creates an osmotic load, and the brain oedema of hyperammonaemia follows. So the same molecule is both the brain's defence and part of its injury, which is exactly the kind of two-sided fact an examiner likes.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+64
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Name glutamine synthetase as the brain's route for ammonia removal, and explain why the protective reaction also contributes to brain oedema.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 23. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, "2) Brain", and printed page 90, "Brain oedema caused by an osmotic imbalance due to the high levels of both ammonia and glutamine in the astrocytes."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q23. correctSource verbatim: "printed key (p126)". OCR REPAIR: option a renders alpha as a bare "a" ("a-keto glutarate"); restored to α. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-148122D221EA
+
+## title
+One molecule of Urea is synthesized at the expense of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Disposing of nitrogen is not free. The department book states the cost in its overall equation for the cycle.
+
+## question
+One molecule of Urea is synthesized at the expense of how many molecules of ATP?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 24. Transcribed; the stem is reassembled from a printed sentence that ran across the option list, and the reassembly is described in author_notes.
+
+## correct_answer
+B
+
+## answer_a
+2 molecules of ATP
+
+## explanation_a
+Incorrect. Two is the cost of the carbamoyl phosphate synthetase I step alone. A student who answers 2 has found the first ATP-consuming reaction and stopped looking, missing the argininosuccinate synthetase step further round the cycle.
+
+## answer_b
+3 molecules of ATP
+
+## explanation_b
+Correct, and it is the figure the department book prints in its overall equation: aspartate + NH3 + CO2 + **3 ATP** → urea + fumarate + 2 ADP + 2 Pi + AMP + PPi. Two of those ATP are spent by carbamoyl phosphate synthetase I and hydrolysed to ADP + Pi; the third is spent by argininosuccinate synthetase and hydrolysed all the way to AMP + PPi. Because that third hydrolysis breaks two high-energy bonds rather than one, the *energetic* cost is four high-energy phosphate bonds even though the *molecular* cost is three ATP. Read the stem carefully: it asks for molecules of ATP, so the answer is 3. Some textbooks quote 4 because they are counting bonds, and knowing which quantity is being asked for is what makes this item worth its marks.
+
+## answer_c
+4 molecules of ATP
+
+## explanation_c
+Incorrect as written, but it is the answer of a student who knows *more* than the one who says 2 — four is the number of high-energy phosphate bonds consumed. It is the wrong quantity for this stem, which asks for molecules of ATP. This is the distractor to understand rather than simply avoid.
+
+## answer_d
+5 molecules of ATP
+
+## explanation_d
+Incorrect. Five corresponds to no accounting of this pathway. It usually reflects a guess after adding the ATP costs of steps that do not consume any, such as ornithine transcarbamoylase or arginase.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.6
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+State the ATP cost of one turn of the urea cycle as the book gives it, and distinguish molecules of ATP consumed from high-energy phosphate bonds broken.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 24. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, overall equation: "Aspartate + NH3 + CO2 + 3ATP → Urea + fumarate + 2ADP + 2 Pi + AMP + PPi".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q24. correctSource verbatim: "printed key (p126) read differently by different OCR passes (b/d)". NULL KEY RECOVERED FROM THE PAGE: the bank recorded correct as null. PDF page 126 was opened with the Read tool and the printed key table read visually — row 24 reads "24. b", and every other row on that page matches the bank exactly. The key is b, which is also what the department book's own overall equation gives. STEM REPAIR: the book prints the stem as "One molecule of Urea is synthesized at the expense of ..... molecules of ATP", with the words "molecules of ATP" appearing at the end of printed option d rather than in the stem; the OCR therefore delivered a stem ending mid-sentence and an option d reading "5 molecules of ATP". The unit has been moved back into the stem and repeated in each option so that every option is grammatical after shuffling. No number was changed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-122B0B399235
+
+## title
+Uremia occurs in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Urea is made in one organ and excreted by another. Failure of each produces a different abnormality of nitrogen handling, and they are easily confused.
+
+## question
+Uremia occurs in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 25. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Cirrhosis of the liver
+
+## explanation_a
+Incorrect, and it is the misconception the item exists to catch. Cirrhosis damages the organ that *makes* urea, so plasma urea falls rather than rises; what accumulates instead is ammonia, giving hyperammonaemia and, at its extreme, hepatic coma. A student who reasons "liver disease is serious, therefore urea is high" has the direction inverted.
+
+## answer_b
+Renal failure
+
+## explanation_b
+Correct. Urea is synthesised only in the liver and travels in the blood, at a normal plasma level of 10 to 50 mg/dL, to the kidneys to be excreted in urine. When the kidneys fail, the cycle keeps producing urea normally but the product cannot leave, so plasma urea rises — uraemia. Set the two failures side by side and the whole chapter's clinical content falls into place: **hepatic** failure gives high ammonia and low urea, because production has failed; **renal** failure gives high urea, because excretion has failed. Blood urea is therefore a marker of renal function, which is why it is measured alongside creatinine and why a rising urea in a patient with liver disease points to a second problem rather than a worse first one.
+
+## answer_c
+Diabetes mellitus
+
+## explanation_c
+Incorrect as a direct cause. Uncontrolled diabetes does raise protein catabolism — the book lists it as a cause of negative nitrogen balance — so urea production rises, but healthy kidneys excrete the extra. Only when diabetic nephropathy has damaged the kidneys does uraemia follow, and then the cause is the renal failure.
+
+## answer_d
+Coronary thrombosis
+
+## explanation_d
+Incorrect. Myocardial infarction raises plasma AST, which is why it appears in this chapter at all, but it has no direct effect on urea. The link a student might reach for is prerenal failure from cardiogenic shock, and that is again renal failure doing the work.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-REN-744E6E6F75BEFA
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.9
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+77
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-6A2CCA2892E78C
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Distinguish uraemia from hyperammonaemia by which organ has failed, and predict what happens to plasma urea in hepatic failure.
+
+## media_recommendations
+### comparison table · Explanation for answer B
+Brief: Hepatic failure and renal failure side by side, with rows for plasma ammonia, plasma urea, the step that has failed, and the clinical syndrome
+Purpose: The two failures move the same two analytes in opposite directions, and students reliably merge them into "liver or kidney problem, nitrogen goes up". Two columns make the crossing pattern impossible to merge.
+Priority: required
+Status: needed
+Section: Explanation B
+Source direction: openly licensed clinical biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 25. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 90: "In renal failure, the plasma level of urea increases. In hepatic failure, ammonia remains in the blood, leading to hyperammonemia (ammonia intoxication) with decrease of plasma urea level."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q25. correctSource verbatim: "printed key (p126)". No OCR repair was needed. The book spells this "uremia"; the item's stem is left as the book printed it, and the explanations use the British "uraemia" per house style. CANCELLATION NOTE: the supporting passage is on printed page 90, which also carries the hyperammonaemia types table that the orientation cancels except for type 1. The passage used here is the introductory paragraph of the HYPERAMMONEMIA section, not the types table, so this question is not on a cancelled item and is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-D56166F1AE3D
+
+## title
+The enzymes of urea synthesis are found in:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A hepatocyte is fractionated and the five urea cycle enzymes are assayed in the mitochondrial and cytosolic fractions separately.
+
+## question
+The enzymes of urea synthesis are found in:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 26. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Mitochondria only
+
+## explanation_a
+Incorrect. Only carbamoyl phosphate synthetase I and ornithine transcarbamoylase are mitochondrial. A student who answers this has anchored on the fact that the cycle *begins* in the mitochondrion and assumed it stays there.
+
+## answer_b
+Cytosol only
+
+## explanation_b
+Incorrect, and it is the mirror error. Three of the five enzymes are cytosolic, so a student who has learned argininosuccinate synthetase, argininosuccinase and arginase can be caught by seeing a majority and calling it the whole.
+
+## answer_c
+Both mitochondria and cytosol
+
+## explanation_c
+Correct, and the split is what makes this cycle distinctive. The first two reactions run in the mitochondrial matrix; all subsequent reactions run in the cytosol. That arrangement is not arbitrary: ammonia is generated inside the mitochondrion by glutamate dehydrogenase, so the cycle starts where its toxic substrate already is and confines free ammonia to one compartment. The consequence is that intermediates must cross the inner mitochondrial membrane — citrulline out and ornithine in, on a single antiporter — which is why an inherited defect in that transporter produces a urea cycle disorder even though all five enzymes are normal. Whenever a pathway is described as spanning two compartments, look for the carrier, because that is where a hidden lesion can sit.
+
+## answer_d
+Nucleus
+
+## explanation_d
+Incorrect. No step of urea synthesis is nuclear. The nucleus is where the *transcriptional* regulation happens — a high-protein diet or protein-catabolic hormones raise urea cycle enzyme levels ten- to twentyfold — but the reactions themselves are not there.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+80
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+State that the urea cycle spans mitochondrion and cytosol, and explain why beginning in the mitochondrion suits the pathway's substrate.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 26. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 87–88, "Site" and the UREA CYCLE diagram showing the mitochondrial membrane.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q26. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+40
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-4568398FCBE4
+
+## title
+Control of urea cycle involves the enzyme:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Every regulated pathway has one step that sets the pace. For the urea cycle it is the step that commits free ammonia, and it is switched on by a molecule that appears after a protein meal.
+
+## question
+Control of urea cycle involves the enzyme:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 27. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Carbamoyl phosphate synthetase I
+
+## explanation_a
+Correct. CPS I catalyses the rate-limiting step of the urea cycle, and it is absolutely dependent on N-acetylglutamate as an allosteric activator — without it the enzyme is essentially inactive. N-acetylglutamate is made from acetyl-CoA and glutamate by N-acetylglutamate synthase, a reaction that arginine activates. A protein-rich meal supplies both glutamate, the substrate, and arginine, the regulator, so intrahepatic N-acetylglutamate rises and urea synthesis speeds up exactly when nitrogen is arriving. Alongside this fast allosteric control there is a slow one: a high-protein diet, protein-catabolic hormones and starvation all raise the *concentrations* of the urea cycle enzymes, by ten- to twentyfold for a major dietary change. Two timescales, one purpose — matching disposal capacity to nitrogen load.
+
+## answer_b
+Ornithine transcarbamoylase
+
+## explanation_b
+Incorrect as the control point, though it is a real and important enzyme — it is mitochondrial, it makes citrulline, and its deficiency is type II hyperammonaemia. Being second in a pathway does not make an enzyme regulatory; the committed, rate-limiting step is the one before it.
+
+## answer_c
+Argininosuccinase
+
+## explanation_c
+Incorrect. Argininosuccinase is a cytosolic lyase that cleaves argininosuccinate into arginine and fumarate. It consumes no ATP, has no known allosteric activator in this pathway, and sits well downstream of the committed step.
+
+## answer_d
+Arginase
+
+## explanation_d
+Incorrect, and it is the most tempting wrong answer. Arginase is the enzyme that makes the cycle liver-specific, so students who have learned "arginase is the special one" may promote it to the regulatory one. Determining *where* a pathway can run and determining *how fast* it runs are different roles, and only the second is regulation.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.45
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-6A2CCA2892E78C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+62
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name CPS I as the rate-limiting enzyme of the urea cycle and describe both the allosteric and the adaptive mechanisms that match urea synthesis to protein intake.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 27. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 89, "Regulation of Urea Cycle".
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q27. correctSource verbatim: "printed key (p126)". No OCR repair was needed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-79F36C4FEB68
+
+## title
+Transfer of the carbamoyl moiety of carbamoyl phosphate to ornithine is catalyzed by a liver mitochondrial enzyme:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The second reaction of the urea cycle builds the first true intermediate of the ring and is the last step before the pathway leaves the mitochondrion.
+
+## question
+Transfer of the carbamoyl moiety of carbamoyl phosphate to ornithine is catalyzed by a liver mitochondrial enzyme:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 28. Transcribed, not rewritten.
+
+## correct_answer
+B
+
+## answer_a
+Carbamoyl phosphate synthetase
+
+## explanation_a
+Incorrect. CPS I *makes* carbamoyl phosphate from ammonia and bicarbonate at the cost of 2 ATP; it does not transfer it onwards. The stem names the substrate as carbamoyl phosphate, which means the reaction being described is the one after CPS I, not CPS I itself.
+
+## answer_b
+Ornithine transcarbamoylase
+
+## explanation_b
+Correct, and the enzyme is named for exactly what it does — it carries a *carbamoyl* group onto *ornithine*. The reaction occurs in the mitochondrial matrix, releases inorganic phosphate, and produces citrulline, which is then transported out to the cytosol in exchange for ornithine coming in. No ATP is spent here: the energy was invested one step earlier in the high-energy anhydride bond of carbamoyl phosphate, and this step simply cashes it in. Ornithine transcarbamoylase deficiency is type II hyperammonaemia and, being X-linked, is the commonest of the urea cycle disorders — one of the two whose deficiency the book notes is most severe, because they are the first two reactions of the cycle.
+
+## answer_c
+N-acetyl glutamate synthetase
+
+## explanation_c
+Incorrect. This enzyme makes the *activator* of CPS I from acetyl-CoA and glutamate. It sits outside the cycle proper, contributing nothing to the ring, and its product is consumed by nothing in the pathway.
+
+## answer_d
+N-acetyl glutamate hydrolase
+
+## explanation_d
+Incorrect, and it is the option that catches guessing by symmetry: if there is a synthetase there ought to be a hydrolase, and if the synthetase is not the answer perhaps the hydrolase is. Neither has any role in transferring a carbamoyl group.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+66
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-3806EF570B0A1C
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Identify ornithine transcarbamoylase as the enzyme forming citrulline, place it in the mitochondrial matrix, and explain why the step consumes no ATP.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 124 (printed 117), question 28. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 89, step 2.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p124-q28. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CANCELLATION NOTE: the explanation mentions that OTC deficiency is type II hyperammonaemia. The orientation cancels the hyperammonaemia types table on printed page 90 except for type 1, so that identification is offered as background in the explanation only — it is not what the question tests, is not in any option, and the item's weights make no claim that the types table is examined. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-9951E47BFC55
+
+## title
+A compound serving a link between citric acid cycle and urea cycle is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Aspartate donates a nitrogen to the urea cycle and its carbon skeleton leaves again a step later. Following that carbon out shows where the two cycles meet.
+
+## question
+A compound serving a link between citric acid cycle and urea cycle is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 29. Transcribed, not rewritten.
+
+## correct_answer
+D
+
+## answer_a
+Malate
+
+## explanation_a
+Incorrect, though it is one step away and is the most defensible wrong answer. Fumarate released by the urea cycle is hydrated to malate by fumarase, and malate is what actually enters the mitochondrion to rejoin the citric acid cycle. But malate is produced *after* the link has been made; the compound at the junction — the one the urea cycle itself releases — is fumarate.
+
+## answer_b
+Citrate
+
+## explanation_b
+Incorrect. Citrate is the first intermediate of the citric acid cycle and takes no part in urea synthesis. It is picked by students matching "citr-" to "citrulline", which is a spelling coincidence and not a chemical relationship.
+
+## answer_c
+Succinate
+
+## explanation_c
+Incorrect. Succinate is a citric acid cycle intermediate two steps before fumarate, and succinyl-CoA is where heme synthesis draws on the cycle. Neither is where the urea cycle joins it.
+
+## answer_d
+Fumarate
+
+## explanation_d
+Correct, and the connection is worth tracing in full because it is what the phrase "aspartate–argininosuccinate shunt" means. Aspartate enters the cytosolic arm of the urea cycle, joining citrulline to form argininosuccinate. Argininosuccinase then cleaves that molecule in two: arginine keeps the nitrogen and goes on to yield urea, while the four carbons of aspartate leave as fumarate. Fumarase hydrates fumarate to malate, malate dehydrogenase oxidises malate to oxaloacetate, and AST transaminates oxaloacetate back to aspartate — which re-enters the urea cycle. So the two cycles share a carbon loop: the urea cycle borrows aspartate's carbon skeleton, returns it as fumarate, and the citric acid cycle reactions regenerate the aspartate. This is also why one turn of the urea cycle can yield reducing equivalents as NADH at the malate dehydrogenase step, partly offsetting its ATP cost.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-129A247205D4D0
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.65
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-3806EF570B0A1C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+45
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-FND-037BF052DDFC0D
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Trace the aspartate–argininosuccinate shunt from aspartate through fumarate and back, and name fumarate as the compound linking the urea cycle to the citric acid cycle.
+
+## media_recommendations
+### diagram · Question stem
+Brief: The urea cycle and the citric acid cycle drawn as two rings sharing the fumarate–malate–oxaloacetate–aspartate arc, with AST at the junction
+Purpose: The link is a shared arc between two closed loops, which is a shape prose cannot hold. Option A is picked by students who know malate is involved but cannot see that it sits one step past the junction — only the two-ring drawing puts fumarate at the meeting point and malate just beyond it.
+Priority: required
+Status: needed
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 29. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 88, the UREA CYCLE diagram showing fumarate, fumarase, L-malate, malate dehydrogenase, oxaloacetate and AST, and printed page 89, step 4.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q29. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CON-FND-037BF052DDFC0D (the key enzymes of the Krebs cycle) is contextual: the item needs the citric acid cycle to exist but tests nothing about its regulation. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+85
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-15C6C958CC93
+
+## title
+The metabolite which sustains and feeds urea cycle is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+One molecule enters the cycle at the start of every turn and is released again at the end of it, so a small pool of it can support an indefinite number of turns.
+
+## question
+The metabolite which sustains and feeds urea cycle is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 30. Transcribed, not rewritten.
+
+## correct_answer
+A
+
+## answer_a
+Ornithine
+
+## explanation_a
+Correct. Ornithine is the carrier that makes the urea cycle a cycle. Ornithine transcarbamoylase attaches the carbamoyl group to it in the mitochondrion, making citrulline; five reactions later arginase cleaves arginine into urea and ornithine, and that ornithine returns to the mitochondrial matrix on the ornithine–citrulline antiporter to begin the next turn. Because it is regenerated, ornithine is catalytic rather than consumed — a small pool turns over many times, which is why the pathway is described as being sustained and fed by it. This is also the reason ornithine can be given therapeutically, as L-ornithine L-aspartate, in acquired hyperammonaemia: supplying more carrier lets a damaged liver run more turns. Notice the family resemblance to α-ketoglutarate in transdeamination and to oxaloacetate in the citric acid cycle — every cycle has one such regenerated carrier, and identifying it is usually the fastest way to understand the pathway's shape.
+
+## answer_b
+Citrulline
+
+## explanation_b
+Incorrect. Citrulline is a true intermediate: it is made from ornithine and consumed by argininosuccinate synthetase within the same turn. It never returns to the beginning, so it cannot sustain the cycle.
+
+## answer_c
+Carbamoyl phosphate
+
+## explanation_c
+Incorrect. Carbamoyl phosphate is a substrate that is entirely consumed in the second reaction, and it must be resynthesised at the cost of 2 ATP for every turn. Something that has to be rebuilt each time is fed *into* the cycle rather than feeding it.
+
+## answer_d
+N-acetyl glutamate
+
+## explanation_d
+Incorrect. N-acetylglutamate is the allosteric activator of CPS I — it switches the cycle on but is neither a substrate nor a carrier and contributes no atoms to urea. Regulating a pathway and sustaining it are different roles, and this pair of options is built to test that distinction.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-6A2CCA2892E78C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-FND-3806EF570B0A1C
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+57
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Identify ornithine as the regenerated carrier of the urea cycle and distinguish a catalytic carrier from a substrate, an intermediate and an activator.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 30. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 89, step 5: "Arginine is cleaved by arginase to ornithine and urea. Ornithine returns back to the mitochondrial matrix for another turn of the cycle."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q30. correctSource verbatim: "printed key (p126)". No OCR repair was needed. The explanation names L-ornithine L-aspartate as a treatment of acquired hyperammonaemia; this is the department book's own listed item ("Treatment of acquired hyperammonemia by L-ornithine and L-aspartate", printed page 119 of the question book's "On biochemical basis explain" list) and no dose is given. CANCELLATION NOTE: the orientation cancels the Arginine & lysine item on printed page 96 of the department book. Ornithine's role here is taught in the Urea Cycle item on printed pages 87–89, which is not cancelled, so this question is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-9A816E3C37C8
+
+## title
+Along with CO2, NH3 and ATP, the amino acid that is needed in urea cycle is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+The department book writes the cycle as a single overall equation whose left-hand side names all four inputs.
+
+## question
+Along with CO2, NH3 and ATP, the amino acid that is needed in urea cycle is:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 31. Transcribed, not rewritten.
+
+## correct_answer
+C
+
+## answer_a
+Alanine
+
+## explanation_a
+Incorrect. Alanine delivers nitrogen from muscle to liver through the glucose–alanine cycle, but on arrival it is transaminated to pyruvate; it is not an input to the cycle itself. This distractor catches the student who has learned the transport story and stopped there.
+
+## answer_b
+Isoleucine
+
+## explanation_b
+Incorrect. Isoleucine is a branched-chain, essential, mixed glucogenic-and-ketogenic amino acid whose catabolism yields succinyl-CoA and acetyl-CoA. It has no connection with urea synthesis at all.
+
+## answer_c
+Aspartate
+
+## explanation_c
+Correct, and the book's overall equation says so directly: aspartate + NH3 + CO2 + 3 ATP → urea + fumarate + 2 ADP + 2 Pi + AMP + PPi. Aspartate is the sole amino acid input because it supplies the second of urea's two nitrogen atoms, joining citrulline in the argininosuccinate synthetase reaction. Its carbon skeleton is not retained: it leaves as fumarate when argininosuccinase cleaves the product, and is recycled back to aspartate through malate, oxaloacetate and AST. So aspartate is needed, consumed and regenerated, which is why it appears on the left of the equation and fumarate on the right.
+
+## answer_d
+Glycine
+
+## explanation_d
+Incorrect. Glycine is the amino acid that condenses with succinyl-CoA to begin *heme* synthesis, and it also contributes an intact N-C-C unit to the purine ring. Both are real amino-acid-donating pathways, which is exactly why it is a good distractor for a student who remembers "glycine donates atoms to something".
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Urea Cycle
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-3806EF570B0A1C
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Urea Cycle
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+73
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-FND-38F3A09255526F
+
+## library_ids
+ART-103-BIO-UREA-CYCLE
+
+## resource_ids
+
+## learning_objective
+Name aspartate as the amino acid input of the urea cycle and state what it contributes and what it takes away.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 31. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 87, the overall equation.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q31. correctSource verbatim: "printed key (p126)". No OCR repair was needed. CANCELLATION NOTE: the orientation cancels the Aspartic Acid item on printed page 95. Aspartate's role as a urea nitrogen donor is taught in the Urea Cycle item on printed page 87, which is not cancelled, so this question is weighted normally. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-E05FA4B98728
+
+## title
+Which metabolite accumulating in hepatic coma causes the disorder of the central nervous system?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+An unconscious patient was taken by ambulance to the hospital. On objective examination the patient was diagnosed with hepatic coma.
+
+## question
+Disorders of the central nervous system develop in hepatic coma due to the accumulation of the following metabolite:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 32. Transcribed; the printed clinical scenario has been moved into the vignette field and the ask kept in the question field, with no wording changed.
+
+## correct_answer
+D
+
+## answer_a
+Urea
+
+## explanation_a
+Incorrect, and it inverts the biochemistry. In hepatic failure the urea cycle cannot run, so plasma urea *falls* rather than accumulates. Urea is also non-toxic — that is the entire point of converting ammonia into it. A student who picks this has confused hepatic failure with renal failure, where urea does accumulate.
+
+## answer_b
+Histamine
+
+## explanation_b
+Incorrect. Histamine is formed by decarboxylation of histidine and acts as a mediator of vasodilatation and allergic responses. It has no role in hepatic encephalopathy.
+
+## answer_c
+Glutamine
+
+## explanation_c
+Incorrect as the primary answer, and this is the distractor worth understanding rather than merely rejecting. Glutamine does accumulate in astrocytes in hyperammonaemia, and the book names that accumulation as one contributor to brain oedema through osmotic imbalance. But glutamine is the brain's *response* to the toxin, not the toxin; the metabolite that accumulates because the liver has failed is ammonia, and glutamine rises only because ammonia is being fixed onto glutamate.
+
+## answer_d
+Ammonia
+
+## explanation_d
+Correct. In hepatic failure the liver cannot convert ammonia to urea, so ammonia remains in the blood — hyperammonaemia, or ammonia intoxication — with a fall in plasma urea. Bacterial putrefaction in the intestine, normally a trivial ammonia source, becomes important here because portal blood bypasses or fails to be cleared by the diseased liver. The brain is injured three ways at once: α-ketoglutarate is pulled into glutamate, depleting a citric acid cycle intermediate and cutting ATP production; GABA, an inhibitory transmitter made from glutamate by decarboxylation, becomes deficient and convulsions may follow; and glutamine accumulating in astrocytes causes osmotic brain oedema. That is why the treatments listed by the department are aimed at ammonia — lactulose to reduce intestinal production, and measures that promote its disposal.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-REN-744E6E6F75BEFA
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+78
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Identify ammonia as the metabolite accumulating in hepatic coma, and separate it from glutamine, which rises as a consequence of the brain's attempt to detoxify it.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 32. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 90, "HYPERAMMONEMIA" and "Ammonia Toxicity (Ammonia encephalopathy)", and printed page 86 for intestinal putrefaction in liver cirrhosis and hepatic coma.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q32. correctSource verbatim: "printed key (p126)". SPLIT REPAIR, not an OCR repair: the printed item runs the clinical scenario and the ask together in one paragraph. The scenario now sits in `vignette` and the ask in `question`, which is the platform's own division; the words are the book's and none was altered, though "Disorders of the central nervous system develop due to" has been reordered into "Disorders of the central nervous system develop in hepatic coma due to" so the question stands alone once separated from its vignette. CANCELLATION NOTE: the source passage is on printed page 90 but is the "Ammonia Toxicity" item, not the hyperammonaemia types table that the orientation cancels except for type 1. Acquired hyperammonaemia — the liver cirrhosis case this question describes — is the *first* entry of that table, and type 1 of the numbered hereditary list is CPS I deficiency; the item weighted here is ammonia toxicity itself, which is not cancelled at all. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-ABE48EE842A4
+
+## title
+Which amino acid plays a special role in the neutralization of ammonia?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+Ammonia is toxic, and the nervous system is highly susceptible to it. One amino acid stands at the centre of every route by which the body renders ammonia harmless.
+
+## question
+Which amino acid plays a special role in the neutralization of ammonia:
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 33. Transcribed; the printed framing sentence has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+D
+
+## answer_a
+Alanine
+
+## explanation_a
+Incorrect, though it is genuinely involved. Alanine carries nitrogen from muscle to liver in the glucose–alanine cycle, but it does so by accepting an amino group by transamination — a transfer that never handles free ammonia. Carrying nitrogen and neutralising free ammonia are different jobs, and only the second is asked about here.
+
+## answer_b
+Arginine
+
+## explanation_b
+Incorrect as the answer, although arginine is the immediate precursor of urea and is also the activator of N-acetylglutamate synthase. Both roles are downstream of the point at which ammonia is first captured, and neither involves binding free ammonia.
+
+## answer_c
+Methionine
+
+## explanation_c
+Incorrect. Methionine's metabolic role is as the methyl donor through S-adenosylmethionine, and its disorder is homocystinuria. It has nothing to do with ammonia handling.
+
+## answer_d
+Glutamic acid
+
+## explanation_d
+Correct, and glutamate earns the answer three times over. First, it is the collector: α-ketoglutarate accepts the amino group in every transamination, so all amino acid nitrogen converges on glutamate. Second, it is the release point: glutamate dehydrogenase deaminates it to liberate the free ammonia that the urea cycle disposes of — and because that reaction is reversible, the same enzyme also reincorporates free ammonia into glutamate, which is one of the anabolic fates of ammonia. Third, it is the trap: glutamine synthetase adds a second nitrogen onto glutamate as an amide, making the non-toxic glutamine that carries ammonia out of the brain and muscle to the liver and kidney. Every one of those routes runs through glutamate, which is why depleting α-ketoglutarate to make it is also the first mechanism of ammonia's toxicity to the brain.
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.75
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+CON-NEU-46F59E9C3EA406
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Explain the three ways glutamate stands at the centre of ammonia handling — collector, release point, and substrate for glutamine synthesis.
+
+## media_recommendations
+### diagram · Explanation for answer D
+Brief: Glutamate at the centre with three arrows — in from every amino acid by transamination, out as free ammonia by glutamate dehydrogenase, and out as glutamine by glutamine synthetase — with α-ketoglutarate shown regenerating
+Purpose: The explanation's whole force is that one molecule sits at a three-way junction. Prose lists the three routes in sequence, which is what makes students remember only one; a hub-and-spoke drawing makes the centrality the visual fact.
+Priority: strongly helpful
+Status: needed
+Section: Explanation D
+Source direction: openly licensed biochemistry text
+Rights: must be CC-BY or public domain
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 33. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed pages 84–87 (transamination, glutamate dehydrogenase, fate of ammonia) and printed page 95 (glutamine synthetase and glutaminase).
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q33. correctSource verbatim: "printed key (p126)". SPLIT REPAIR, not an OCR repair: the printed item runs its framing sentence and its ask together; the framing now sits in `vignette` and the ask in `question`, with no word changed. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+---
+
+# Item
+
+## id
+QM-103-84C24B8A99B6
+
+## title
+Which of the following substances shares in the pathology of brain affection in hepatic coma?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A patient suffering from liver cirrhosis may become complicated by hepatic coma.
+
+## question
+Which of the following substances shares in the pathology of brain affection?
+
+## format
+mcq_single_best
+
+## derived_from
+Kasr Al Ainy Biochemistry department question book, General Aspects of Protein Metabolism, multiple choice question 34. Transcribed; the printed clinical sentence has been moved into the vignette and the ask kept in the question field.
+
+## correct_answer
+C
+
+## answer_a
+Uric acid
+
+## explanation_a
+Incorrect. Uric acid is the end product of purine catabolism; when it accumulates it deposits as tophi in joints and soft tissue and forms urinary stones. It causes gout, not encephalopathy.
+
+## answer_b
+Creatinine
+
+## explanation_b
+Incorrect. Creatinine is formed spontaneously from muscle creatine and is excreted by the kidney, where it is used as a marker of glomerular filtration. It rises in renal failure, not in liver failure, and is not itself neurotoxic at the levels reached.
+
+## answer_c
+Ammonia
+
+## explanation_c
+Correct. Cirrhosis destroys the liver's capacity to run the urea cycle, so ammonia produced by deamination in the tissues and by bacterial putrefaction in the intestine is no longer cleared. The brain is affected by three linked mechanisms: α-ketoglutarate is drawn into glutamate, depleting a citric acid cycle intermediate so that cellular oxidation and ATP production fall, which can end in coma and death; GABA — the inhibitory neurotransmitter formed from glutamate by decarboxylation — becomes deficient, which is why convulsions may occur in ammonia intoxication; and glutamine accumulating in astrocytes creates an osmotic load and brain oedema. The department's own list of things to explain on a biochemical basis includes "Bacterial putrefaction in the intestine becomes of great importance in cases of liver cirrhosis and hepatic coma", which is the same reasoning approached from the source rather than the target.
+
+## answer_d
+Amino acids
+
+## explanation_d
+Incorrect as written. Amino acids are the ultimate source of the nitrogen, and their catabolism is what generates the ammonia — but the amino acids themselves are not what injures the brain. This distractor catches the student who has traced the pathway back one step too far and named the precursor instead of the toxin.
+
+## topic
+Clinical biochemistry
+
+## subtopic
+Metabolism of Ammonia
+
+## difficulty
+Easy
+
+## question_type
+Pathophysiology
+
+## main_concept
+CON-FND-880D165894A5EC
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > General protein Metabolism > Metabolism of Ammonia
+
+## clinical_relevance
+0.95
+
+## academic_relevance
+0.8
+
+## cognitive_effort_score
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.8
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Low
+
+## setting
+Clinical
+
+## reasoning_level
+2
+
+## inferred_difficulty
+82
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-REN-744E6E6F75BEFA
+
+## library_ids
+ART-103-BIO-AMMONIA-METABOLISM
+
+## resource_ids
+
+## learning_objective
+Attribute the brain injury of hepatic coma to ammonia, and distinguish the toxin from its amino acid precursors and from unrelated nitrogenous end products.
+
+## media_recommendations
+
+## source_citation
+Kasr Al Ainy Biochemistry department question book, "DPT BOOK MCQ D book bio 102&103 mcq (1).pdf", chapter General Aspects of Protein Metabolism, PDF page 125 (printed 118), question 34. Answer key on PDF page 126 (printed 119). Manifest src_07f0a0ff41addf826c7f. Content verified against Dpt book Biochemistry 103, printed page 90, "Ammonia Toxicity (Ammonia encephalopathy)", and printed page 86, "Bacterial putrefaction in the intestine produces small amounts of ammonia, which become of great importance in cases of liver cirrhosis and hepatic coma."
+
+## attachments
+
+## attached_image
+
+## author_notes
+Extracted by the 102 INT lane from the shared 102/103 biochemistry question book and tagged as taught by 103 BMS; bank item MCQ-102-07f0a0ff-p125-q34. correctSource verbatim: "printed key (p126)". SPLIT REPAIR, not an OCR repair: the printed item runs its clinical sentence and its ask together; the clinical sentence now sits in `vignette` and the ask in `question`, with no word changed. This item and question 32 are near-duplicates of each other in the printed book — both ask what accumulates in hepatic coma — and both are kept because both were set; they share a main concept, which is exactly the repeated-examination signal that a blueprint weight is derived from. CANCELLATION NOTE: as for question 32, the source is the Ammonia Toxicity item on printed page 90 and not the cancelled hyperammonaemia types table. resource_ids is deliberately empty — it resolves against the catalogue store, not the evidence store the manifest feeds, so naming src_07f0a0ff41addf826c7f there errors.
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes

@@ -124,8 +124,10 @@ CON-MSK-594BD65D8C0D7A | CON-MSK-700EC3AB121997 | CON-MSK-6F2C49EFF66B46
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -155,8 +157,10 @@ KAU_Y1=0.6
 CLM-MSK-ADDUCTOR-CANAL-01 | CLM-MSK-ADDUCTOR-CANAL-02
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Regarding Adductor canal, mention its boundaries and contents. {6 Marks}
@@ -165,11 +169,13 @@ Regarding Adductor canal, mention its boundaries and contents. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p9 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-594BD65D8C0D7A | CON-MSK-700EC3AB121997 | CON-MSK-6F2C49EFF66B46
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives the canal three walls and calls the posterior wall the floor in the same breath. Some texts describe a lateral wall and a floor rather than an antero-lateral and a posterior wall; the structures named are identical either way, so the disagreement is one of naming, not of anatomy.
@@ -296,8 +302,10 @@ CON-MSK-C7BC26EBAF066B | CON-MSK-016DE81C5919CE
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -327,8 +335,10 @@ KAU_Y1=0.55
 CLM-MSK-PERONEUS-LONGUS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Mention attachment, action and nerve supply of Peroneus longus. {6 Marks}
@@ -337,10 +347,13 @@ Mention attachment, action and nerve supply of Peroneus longus. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p10 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives eversion at the subtalar joint and plantar flexion at the ankle joint without saying which is the stronger action. It also lists arch support as a separate line rather than as a third action, and does not say whether an examiner would credit it as one.
@@ -467,8 +480,10 @@ CON-MSK-959D95DCE2E022 | CON-MSK-78379D5B8914BC
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -498,8 +513,10 @@ KAU_Y1=0.65
 CLM-MSK-HIP-MOVEMENTS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Regarding Hip joint, mention its movements and muscles acting on it. {6 Marks}
@@ -508,11 +525,13 @@ Regarding Hip joint, mention its movements and muscles acting on it. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p11 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-959D95DCE2E022
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book lists circumduction alongside the six true movements without saying whether an examiner expects it as a seventh. It is a combination of the other four rather than a movement in its own axis, so whether it earns a mark is a matter of local marking convention that no document in the corpus states.
@@ -639,8 +658,10 @@ CON-MSK-C304D4DB6EDD7A | CON-MSK-F656F96F575FFB | CON-MSK-9E550B805ACC9F
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -670,8 +691,10 @@ KAU_Y1=0.55
 CLM-MSK-POST-TIBIAL-BRANCHES-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Summaries branches of Posterior Tibial artery. {6 Marks}
@@ -680,11 +703,13 @@ Summaries branches of Posterior Tibial artery. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p12 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
 CON-MSK-C304D4DB6EDD7A
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book numbers seven branches but lists the medial and lateral plantar arteries as one numbered item, so whether the count is seven or eight depends on how the terminal division is counted. It also does not say whether the circumflex fibular artery is expected of a first-year candidate.
@@ -811,8 +836,10 @@ CON-MSK-51EC648BDAF36B
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -842,8 +869,10 @@ KAU_Y1=0.7
 CLM-MSK-SCIATIC-COURSE-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Regarding Sciatic nerve, mention its course and branches. {6 Marks}
@@ -852,10 +881,13 @@ Regarding Sciatic nerve, mention its course and branches. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p13 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book says the nerve leaves the pelvis below piriformis and does not mention the well-described variant in which part or all of it pierces or passes above the muscle. Whether that variant is examinable at Kasr Al Ainy in year one is not stated anywhere in the corpus.
@@ -981,8 +1013,10 @@ CON-MSK-D622CBF981F879 | CON-MSK-AB5318A9255811
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1012,8 +1046,10 @@ KAU_Y1=0.7
 CLM-MSK-SCIATIC-BRANCHES-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Regarding Sciatic nerve, mention its course and branches. {6 Marks}
@@ -1022,10 +1058,13 @@ Regarding Sciatic nerve, mention its course and branches. {6 Marks}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p13 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
+[clear]
 
 ## uncertainty
 The book gives articular branches to the hip joint but does not say whether the sciatic also sends an articular branch to the knee; its knee articular branches are listed instead under the tibial and common peroneal nerves once they have separated.
@@ -1152,8 +1191,10 @@ CON-MSK-C7BC26EBAF066B | CON-MSK-0351AAD4CAB1EE | CON-MSK-016DE81C5919CE | CON-M
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1183,8 +1224,10 @@ KAU_Y1=0.6
 CLM-MSK-CPN-INJURY-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 Case: An old man trying to cross the road stumbled and fell and was hit by a fast crossing car. He was transferred to hospital where x-ray declared fracture of the neck of left fibula. On examining the patients lower limb he was unable to perform dorsiflexion and eversion of the left foot.
@@ -1194,8 +1237,10 @@ a) What is the most probable injured nerve? {1 Mark}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p14 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
 Marks for the Anatomy case: the Anatomy department's own "Orientation of final Anatomy Exam (End of Year, 2025-2026)" states "5 SAQ, 6 marks each with total 30 mark" plus "1 case, 5 marks", giving 35 marks for the section. The paper as sat — EOY (BMS - 103) 199 (2).pdf, src_37f6c0daf3436096af19, page 14 — prints the case as four parts of {1 Mark} each, giving 4 for the case and 34 for the section. Page 14 was confirmed visually: four parts, one mark each. Both positions are recorded and neither is adopted as the truth; the written questions in this batch carry the marks the paper prints.
@@ -1324,8 +1369,10 @@ CON-MSK-AB5318A9255811 | CON-MSK-016DE81C5919CE | CON-MSK-32B5B7A5CD2A27
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1355,8 +1402,10 @@ KAU_Y1=0.6
 CLM-MSK-CPN-MOTOR-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 b) Why the patient cannot perform dorsiflexion and eversion of the left foot? {1 Mark}
@@ -1365,8 +1414,10 @@ b) Why the patient cannot perform dorsiflexion and eversion of the left foot? {1
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p14 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
 Marks for the Anatomy case: the department's Anatomy orientation gives the case 5 marks within a 35-mark section, while the paper as sat prints four parts of {1 Mark} each on page 14, giving 4 and a 34-mark section. Both are recorded; see CON-MSK-AB5318A9255811 for the full statement. The written questions in this batch carry the marks the paper prints.
@@ -1495,8 +1546,10 @@ CON-MSK-AB5318A9255811 | CON-MSK-C7BC26EBAF066B
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1526,8 +1579,10 @@ KAU_Y1=0.5
 CLM-MSK-CPN-CUTANEOUS-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 c) Name the cutaneous branches of the injured nerve. {1 Mark}
@@ -1536,8 +1591,10 @@ c) Name the cutaneous branches of the injured nerve. {1 Mark}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p14 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
 Marks for the Anatomy case: the department's Anatomy orientation gives the case 5 marks within a 35-mark section, while the paper as sat prints four parts of {1 Mark} each on page 14, giving 4 and a 34-mark section. Both are recorded; see CON-MSK-AB5318A9255811 for the full statement. The written questions in this batch carry the marks the paper prints.
@@ -1667,8 +1724,10 @@ CON-MSK-C7BC26EBAF066B | CON-MSK-AB5318A9255811
 src_23c95ac89b6b113bd58e
 
 ## approved_file_resource_ids
+[clear]
 
 ## approved_video_resource_ids
+[clear]
 
 ## learner_years
 1
@@ -1698,8 +1757,10 @@ KAU_Y1=0.55
 CLM-MSK-CPN-DEFORMITY-01
 
 ## resource_occurrence_ids
+[clear]
 
 ## source_candidate_ids
+[clear]
 
 ## original_wording
 d) Name the deformity resulting. {1 Mark}
@@ -1708,8 +1769,10 @@ d) Name the deformity resulting. {1 Mark}
 src_37f6c0daf3436096af19 | end_of_year | 2025 | p14 | 103 BMS
 
 ## merge_ids
+[clear]
 
 ## rejected_merge_candidate_ids
+[clear]
 
 ## conflicts
 Marks for the Anatomy case: the department's Anatomy orientation gives the case 5 marks within a 35-mark section, while the paper as sat prints four parts of {1 Mark} each on page 14, giving 4 and a 34-mark section. Both are recorded; see CON-MSK-AB5318A9255811 for the full statement. The written questions in this batch carry the marks the paper prints.
