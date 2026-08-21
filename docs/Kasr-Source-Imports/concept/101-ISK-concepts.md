@@ -447,13 +447,14 @@ kau
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p3 | 101 ISK
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p1 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p6 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.12
+0.15
 ## exam_weight_by_year
-KAU_Y1=0.12
+KAU_Y1=0.15
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1492,13 +1493,16 @@ kau
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p12 | 101 ISK
 src_1641d3629225bb111726 | baqoon | 2022 | p5 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.17
+0.30
 ## exam_weight_by_year
-KAU_Y1=0.17
+KAU_Y1=0.30
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1756,13 +1760,16 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p14 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
+src_ef2104d4eaede4fa1356 | end_of_year | 2023 | p1 | 101 ISK
 src_bd5efc3c8bfaac0c23d9 | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.13
+0.26
 ## exam_weight_by_year
-KAU_Y1=0.13
+KAU_Y1=0.26
 ## clinical_relevance
 0.3
 ## academic_relevance

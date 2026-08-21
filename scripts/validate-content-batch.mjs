@@ -223,9 +223,25 @@ if (kind === 'relation') {
   const concepts = []
   const claims = []
   const citations = []
-  for (const name of await readdir(dir)) {
-    if (!name.endsWith('.md')) continue
-    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+  // The same hole the evidence branch had, and wider. A relation names two
+  // concepts *and* a claim *and* a citation, and a batch keeps each kind in its
+  // own folder — `concept/`, `evidence/`, `relations/` — so reading only this
+  // directory resolves none of the four. `relationErrors` additionally refuses
+  // an edge with no evidence chain, so a correctly ordered relation batch could
+  // not reach zero errors by any route except performing the import it was
+  // validating.
+  //
+  // Deduplicated by resolved path for the same reason the evidence branch is: a
+  // `--with` file may already be a sibling here, and these are arrays. Harmless
+  // for the existence checks below, which only ask whether an ID is present —
+  // but leaving the identical double-read in the branch next door to the one it
+  // was just removed from is how it comes back.
+  const nearby = [...new Set([
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ].map((path) => resolve(path)))]
+  for (const name of nearby) {
+    for (const row of parseMarkdown(await readFile(name, 'utf8'))) {
       const k = detectKind(row)
       if (k === 'concept') concepts.push({ id: row.id?.trim() })
       if (k === 'claim') claims.push({ id: row.id?.trim() })
@@ -689,8 +705,20 @@ if (kind !== 'concept') {
       else {
         const record = corpusSources[id]
         if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
-          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+        else if (values.source_relative_path?.trim()) {
+          // A content-addressed ID can be filed under more than one name — fourteen in
+          // this corpus are. The index reports *every* path it holds for an ID, and any
+          // of them is a truthful answer, so the check accepts the set.
+          //
+          // It used to compare against a single `sourceRelativePath`. For an ambiguous
+          // ID that field is null, so both real paths were refused with `is "null" in
+          // the corpus` — worse than the arbitrary pick it replaced, because an
+          // arbitrary pick is right half the time and this was wrong every time.
+          const given = values.source_relative_path.trim()
+          const known = record.sourceRelativePaths ?? (record.sourceRelativePath ? [record.sourceRelativePath] : [])
+          if (known.length && !known.includes(given)) {
+            errors.push(`${where}: ${id} is ${known.map((path) => `"${path}"`).join(' or ')} in the corpus, not "${given}"`)
+          }
         }
       }
     }
