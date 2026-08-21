@@ -4,15 +4,13 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.progress.AttemptLedger
 import com.synapse.android.core.progress.AttemptStats
 import com.synapse.android.core.qbank.LiveSession
 import java.time.Instant
 import java.time.ZoneId
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
@@ -43,7 +41,7 @@ data class PreviousSitting(
  * [AttemptStats.bySession] groups on exactly that.
  */
 class PreviousSittingsViewModel(store: LocalStore) : ViewModel() {
-    private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val backgroundScope = backgroundWorkScope("PreviousSittingsViewModel")
 
     private val _sittings = MutableStateFlow<List<PreviousSitting>>(emptyList())
     val sittings: StateFlow<List<PreviousSitting>> = _sittings.asStateFlow()

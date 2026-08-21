@@ -1,6 +1,8 @@
 package com.synapse.android.feature.practical
 
 import androidx.activity.compose.BackHandler
+import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -11,6 +13,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.Button
 import androidx.compose.material3.Card
@@ -33,6 +36,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.synapse.android.core.model.Practical
+import com.synapse.android.design.CortexRadius
+import com.synapse.android.design.LocalCortex
 
 /**
  * Reads one sat practical: an OSCE station or skills checklist, a clinical
@@ -56,17 +61,65 @@ import com.synapse.android.core.model.Practical
  */
 @Composable
 fun PracticalReaderScreen(practical: Practical, viewModel: PracticalViewModel, onExit: () -> Unit) {
-    when (practicalTab(practical.type)) {
-        PracticalTab.OSCE -> StationReader(practical, viewModel, onExit)
-        PracticalTab.CASES -> CaseReader(practical, viewModel, onExit)
-        PracticalTab.LAB -> LabReader(practical, viewModel, onExit)
-        null -> {
-            BackHandler(onBack = onExit)
-            Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
-                Text("This item has no reader.")
-                TextButton(onClick = onExit) { Text("Back") }
+    Column(modifier = Modifier.fillMaxSize()) {
+        // Above all three readers rather than inside one of them: the write
+        // that can fail is made from every one of them, and a station banked
+        // over an unreadable document is exactly the case where the student
+        // is about to walk away believing it was recorded.
+        SaveFailedNotice(viewModel)
+
+        when (practicalTab(practical.type)) {
+            PracticalTab.OSCE -> StationReader(practical, viewModel, onExit)
+            PracticalTab.CASES -> CaseReader(practical, viewModel, onExit)
+            PracticalTab.LAB -> LabReader(practical, viewModel, onExit)
+            null -> {
+                BackHandler(onBack = onExit)
+                Column(modifier = Modifier.fillMaxSize().padding(24.dp)) {
+                    Text("This item has no reader.")
+                    TextButton(onClick = onExit) { Text("Back") }
+                }
             }
         }
+    }
+}
+
+/**
+ * Says that a change did not save, in the site's own problem tone -- the
+ * `border-danger/30 bg-danger-tint text-danger` panel `AuthNoticePanel`
+ * ports from `src/pages/auth/Login.tsx:93`.
+ *
+ * The wording has one job: separate what was lost from what was not.
+ * [PracticalViewModel.saveFailed] is raised by a stored document this build
+ * cannot decode, and the reason the write was refused is precisely that the
+ * work already in that document is real -- so "everything you had is still
+ * there, this one change is not" is the literal truth, and the sentence a
+ * student needs before they decide whether to sit the station again.
+ */
+@Composable
+private fun SaveFailedNotice(viewModel: PracticalViewModel) {
+    val saveFailed by viewModel.saveFailed.collectAsState()
+    if (!saveFailed) return
+
+    val cortex = LocalCortex.current
+    val shape = RoundedCornerShape(CortexRadius.lg)
+    Row(
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(16.dp)
+            .border(1.dp, cortex.danger.copy(alpha = 0.30f), shape)
+            .background(cortex.dangerTint, shape)
+            .padding(start = 14.dp, top = 4.dp, end = 4.dp, bottom = 4.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(8.dp),
+    ) {
+        Text(
+            "Couldn't save that on this device. Everything you had already done is still there, " +
+                "but this change was not recorded.",
+            color = cortex.danger,
+            style = MaterialTheme.typography.bodySmall,
+            modifier = Modifier.weight(1f),
+        )
+        TextButton(onClick = viewModel::acknowledgeSaveFailure) { Text("Dismiss") }
     }
 }
 

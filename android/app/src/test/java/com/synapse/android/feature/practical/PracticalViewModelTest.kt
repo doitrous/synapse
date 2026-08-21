@@ -15,6 +15,7 @@ import com.synapse.android.core.progress.AttemptStore
 import com.synapse.android.core.practical.PracticalProgress
 import com.synapse.android.core.sync.SyncEngine
 import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.CopyOnWriteArrayList
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
@@ -453,11 +454,57 @@ class PracticalViewModelTest {
         // completed case and a signed-off skill -- on every client.
         viewModel.finishStation("os-1", marks = 1, outOf = 2)
 
-        // Long enough for a wrong write to have landed. It logs an uncaught
-        // decode failure on the background scope, which is the point.
-        delay(300)
+        // The refusal is reported rather than merely logged -- waiting on it
+        // is also what proves the write path has finished, without a sleep
+        // long enough to be slow and short enough to be flaky.
+        withTimeout(5_000) { viewModel.saveFailed.first { it } }
         assertEquals(fromAnotherClient, store.document(PRACTICAL_PROGRESS_KEY)?.json)
         assertTrue(store.outbox().none { it.key == PRACTICAL_PROGRESS_KEY })
+    }
+
+    /**
+     * The same refusal, seen from the process's point of view.
+     *
+     * [PracticalViewModel.loadProgress] throws on purpose and must keep
+     * doing so -- the sibling test above is why. But the throw happens
+     * inside a `launch` on a scope that had no [kotlinx.coroutines.CoroutineExceptionHandler],
+     * and an exception that escapes a `launch` goes to the thread's default
+     * uncaught handler, which on a real device is Android's
+     * `KillApplicationHandler`. One document written by a client that knows
+     * a station shape this build does not, and finishing a station killed
+     * the app.
+     *
+     * Robolectric runs in this process, so the default handler is reachable
+     * from here: installing one and finding it never called is the same
+     * assertion the device would make by staying alive.
+     */
+    @Test
+    fun `an unreadable progress document does not take the process down with it`() = runBlocking {
+        val uncaught = CopyOnWriteArrayList<Throwable>()
+        val previous = Thread.getDefaultUncaughtExceptionHandler()
+        Thread.setDefaultUncaughtExceptionHandler { _, error -> uncaught += error }
+        try {
+            store.putDocument(PRACTICAL_PROGRESS_KEY, fromAnotherClient, null)
+            seed(practicalJson("os-1", "OSCE station", markSections = STATION_SECTION))
+            val viewModel = PracticalViewModel(store, sync)
+            withTimeout(5_000) { viewModel.items.first { it.size == 1 } }
+            viewModel.openStation("os-1", minutes = 8)
+
+            viewModel.finishStation("os-1", marks = 1, outOf = 2)
+            withTimeout(5_000) { viewModel.saveFailed.first { it } }
+
+            assertEquals("nothing reached the uncaught handler", emptyList<Throwable>(), uncaught.toList())
+
+            // Still usable afterwards. A handler that merely swallowed the
+            // exception would satisfy the assertion above while leaving a
+            // ViewModel whose next tap does nothing.
+            viewModel.acknowledgeSaveFailure()
+            assertFalse(viewModel.saveFailed.value)
+            viewModel.openStation("os-1", minutes = 8)
+            assertEquals(8 * 60, viewModel.remaining.value)
+        } finally {
+            Thread.setDefaultUncaughtExceptionHandler(previous)
+        }
     }
 
     @Test
@@ -471,12 +518,8 @@ class PracticalViewModelTest {
 
         viewModel.openStation("os-1", minutes = 8)
 
-        // The fall-back read logs its decode failure on the background scope,
-        // as the sibling test above describes. Wait for it here rather than
-        // ending the test with it still in flight: an exception that lands
-        // after its own test has finished is reported against whichever test
-        // runs next, which makes an unrelated test look broken.
-        delay(300)
+        // The fall-back read swallows its own decode failure (runCatching),
+        // so unlike the write path there is nothing to wait on here.
         assertTrue(viewModel.ticks.value.isEmpty())
         assertEquals(8 * 60, viewModel.remaining.value)
     }

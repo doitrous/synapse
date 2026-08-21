@@ -1,9 +1,12 @@
 package com.synapse.android.feature.practical
 
+import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.synapse.android.core.BACKGROUND_WORK_TAG
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Practical
@@ -19,10 +22,8 @@ import com.synapse.android.core.progress.AttemptStore
 import com.synapse.android.core.progress.writeAttempt
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -86,7 +87,7 @@ fun practicalTab(type: String): PracticalTab? = when (type) {
  * already exists, and that identity check gates both the month shard write
  * and the index write, not just one of them.
  *
- * **Every mutation runs inside [mutation].** The three methods above are
+ * **Every mutation runs through [mutate], and so inside [mutation].** The three methods above are
  * driven by *independent* user taps -- a lab set shows every question's
  * Reveal button at once -- so two of them a few hundred milliseconds apart
  * used to start two coroutines that each read the progress document, each
@@ -107,7 +108,7 @@ class PracticalViewModel(
     private val store: LocalStore,
     private val sync: SyncEngine,
 ) : ViewModel() {
-    private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val backgroundScope = backgroundWorkScope("PracticalViewModel")
 
     /** Serialises the whole read-fold-write path -- see the class doc. */
     private val mutation = Mutex()
@@ -128,6 +129,25 @@ class PracticalViewModel(
     /** Seconds left on the open station's clock, counting down from [openStationMinutes] `* 60`. */
     private val _remaining = MutableStateFlow(0)
     val remaining: StateFlow<Int> = _remaining.asStateFlow()
+
+    /**
+     * Set when a write the student made did not reach the disk.
+     *
+     * Every path in here that writes goes through [mutate], and the one
+     * failure [mutate] is really guarding against is [loadProgress] refusing
+     * to decode a stored document written by a client that knows a shape
+     * this build does not. Refusing is right -- see [loadProgress] -- but it
+     * leaves the student's tap having done nothing, and a silent nothing is
+     * the worst of the three outcomes available: worse than the crash it
+     * replaces, because a student who watches a station bank cleanly and
+     * finds it missing a week later has no idea when it went.
+     *
+     * A boolean rather than a message: there is one thing that goes wrong
+     * here, and the words for it belong on the screen that says them, not
+     * in a ViewModel.
+     */
+    private val _saveFailed = MutableStateFlow(false)
+    val saveFailed: StateFlow<Boolean> = _saveFailed.asStateFlow()
 
     /** Decision ids, lab-question ids, or oral-question ids revealed in whichever one of those screens is currently open. */
     private val _revealed = MutableStateFlow<Set<String>>(emptySet())
@@ -211,19 +231,17 @@ class PracticalViewModel(
         val item = items.value.firstOrNull { it.id == stationId }
         val sessionId = "station-$stationId-${millisBase36()}"
 
-        backgroundScope.launch {
-            mutation.withLock {
-                mutateProgress { recordStationRun(it, stationId, marks, outOf, checkedItems, nowIso()) }
-                recordAttempt(
-                    surface = SURFACE_STATION,
-                    itemId = stationId,
-                    subjectId = item?.subjectId.orEmpty(),
-                    topic = item?.title ?: stationId,
-                    correct = null,
-                    seconds = elapsedSeconds,
-                    sessionId = sessionId,
-                )
-            }
+        mutate {
+            mutateProgress { recordStationRun(it, stationId, marks, outOf, checkedItems, nowIso()) }
+            recordAttempt(
+                surface = SURFACE_STATION,
+                itemId = stationId,
+                subjectId = item?.subjectId.orEmpty(),
+                topic = item?.title ?: stationId,
+                correct = null,
+                seconds = elapsedSeconds,
+                sessionId = sessionId,
+            )
         }
     }
 
@@ -266,21 +284,19 @@ class PracticalViewModel(
 
         val item = items.value.firstOrNull { it.id == caseId }
         val sessionId = caseSessionId ?: "case-$caseId-${millisBase36()}"
-        backgroundScope.launch {
-            mutation.withLock {
-                mutateProgress {
-                    recordCaseStep(it, caseId, lastStep = index + 1, steps = totalSteps, completed = index + 1 >= totalSteps, at = nowIso())
-                }
-                recordAttempt(
-                    surface = SURFACE_CASE,
-                    itemId = "$caseId:$index",
-                    subjectId = item?.subjectId.orEmpty(),
-                    topic = item?.title ?: caseId,
-                    correct = null,
-                    seconds = null,
-                    sessionId = sessionId,
-                )
+        mutate {
+            mutateProgress {
+                recordCaseStep(it, caseId, lastStep = index + 1, steps = totalSteps, completed = index + 1 >= totalSteps, at = nowIso())
             }
+            recordAttempt(
+                surface = SURFACE_CASE,
+                itemId = "$caseId:$index",
+                subjectId = item?.subjectId.orEmpty(),
+                topic = item?.title ?: caseId,
+                correct = null,
+                seconds = null,
+                sessionId = sessionId,
+            )
         }
     }
 
@@ -309,32 +325,70 @@ class PracticalViewModel(
 
         val item = items.value.firstOrNull { it.id == labId }
         val sessionId = labSessionId ?: "lab-$labId-${millisBase36()}"
-        backgroundScope.launch {
-            mutation.withLock {
-                mutateProgress { recordLabAnswered(it, labId, done = done, items = totalItems, at = nowIso()) }
-                recordAttempt(
-                    surface = SURFACE_LAB,
-                    itemId = "$labId:$index",
-                    subjectId = item?.subjectId.orEmpty(),
-                    topic = item?.title ?: labId,
-                    correct = null,
-                    seconds = null,
-                    sessionId = sessionId,
-                )
-            }
+        mutate {
+            mutateProgress { recordLabAnswered(it, labId, done = done, items = totalItems, at = nowIso()) }
+            recordAttempt(
+                surface = SURFACE_LAB,
+                itemId = "$labId:$index",
+                subjectId = item?.subjectId.orEmpty(),
+                topic = item?.title ?: labId,
+                correct = null,
+                seconds = null,
+                sessionId = sessionId,
+            )
         }
     }
 
     /** Cycles a bundled skill's status. Writes [PracticalProgress.skills] only -- never an attempt; there is nothing to attempt here. */
     fun markSkill(skillId: String, status: String) {
-        backgroundScope.launch {
-            mutation.withLock { mutateProgress { setSkillStatus(it, skillId, status, nowIso()) } }
-        }
+        mutate { mutateProgress { setSkillStatus(it, skillId, status, nowIso()) } }
     }
 
     /** Reveals an oral question's model answer. Purely local -- no progress write, no attempt, matching `OralTab`'s own reveal toggle. */
     fun revealOral(questionId: String) {
         _revealed.update { it + questionId }
+    }
+
+    /**
+     * Runs one student-made change: on [backgroundScope], inside [mutation],
+     * and without taking the app down if it fails.
+     *
+     * The three things it guarantees are each load-bearing, and are here
+     * rather than at the four call sites because getting one of them wrong
+     * at one call site is invisible.
+     *
+     * [mutation] is why the whole read-fold-write path is serialised -- see
+     * the class doc. [backgroundScope] is why this is not `viewModelScope`
+     * -- see [backgroundWorkScope]. And the catch is why a stored document
+     * this build cannot read costs the student one save instead of the
+     * process: [loadProgress] throws on purpose, and an exception thrown out
+     * of a `launch` reaches Android's uncaught handler, which kills the app.
+     * [backgroundWorkScope] already stops that; this is what turns the
+     * survivable failure into one the student is actually told about.
+     *
+     * [CancellationException] is rethrown untouched. A cancelled scope is
+     * the ViewModel being cleared, not a save that failed, and reporting it
+     * as one would put a "couldn't save" notice on the way out of a screen
+     * that saved perfectly well.
+     */
+    private fun mutate(work: suspend () -> Unit) {
+        backgroundScope.launch {
+            mutation.withLock {
+                try {
+                    work()
+                } catch (e: CancellationException) {
+                    throw e
+                } catch (e: Exception) {
+                    Log.e(BACKGROUND_WORK_TAG, "PracticalViewModel: a student's change was not saved", e)
+                    _saveFailed.value = true
+                }
+            }
+        }
+    }
+
+    /** Dismisses the [saveFailed] notice. The failure itself is not retried -- nothing about it would go differently. */
+    fun acknowledgeSaveFailure() {
+        _saveFailed.value = false
     }
 
     /**

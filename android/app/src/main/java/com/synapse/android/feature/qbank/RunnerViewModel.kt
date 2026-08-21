@@ -5,6 +5,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.Question
 import com.synapse.android.core.progress.AttemptRecord
@@ -15,10 +16,8 @@ import com.synapse.android.core.qbank.QuestionState
 import com.synapse.android.core.qbank.SittingMode
 import com.synapse.android.core.sync.SyncEngine
 import java.time.Instant
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
@@ -76,7 +75,7 @@ class RunnerViewModel(
     private val sync: SyncEngine,
     private val ticker: Ticker = RealTicker,
 ) : ViewModel() {
-    private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val backgroundScope = backgroundWorkScope("RunnerViewModel")
 
     /**
      * Serialises the attempt read-modify-write. Tutor mode banks an

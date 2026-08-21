@@ -4,6 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.synapse.android.core.CortexJson
+import com.synapse.android.core.backgroundWorkScope
 import com.synapse.android.core.cache.LocalStore
 import com.synapse.android.core.model.ContentKind
 import com.synapse.android.core.model.Question
@@ -21,9 +22,7 @@ import java.time.Instant
 import java.time.LocalDate
 import java.util.UUID
 import kotlin.random.Random
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -142,7 +141,7 @@ class QuestionBankViewModel(
     private val sync: SyncEngine,
     private val random: Random = Random.Default,
 ) : ViewModel() {
-    private val backgroundScope = CoroutineScope(SupervisorJob() + Dispatchers.Default)
+    private val backgroundScope = backgroundWorkScope("QuestionBankViewModel")
 
     private val pool: StateFlow<List<Question>> = store.ledgerItems(ContentKind.QUESTION)
         .map { items -> items.filter { it.isStudentVisible }.mapNotNull(QuestionProjection::project) }
