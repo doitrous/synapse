@@ -9,7 +9,7 @@
  * import.
  */
 import { readFile, readdir } from 'node:fs/promises'
-import { dirname, join } from 'node:path'
+import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
@@ -114,6 +114,40 @@ if (!VALIDATED_KINDS.includes(kind)) {
 }
 
 /**
+ * Columns read by `parseSections`, and the third way to spell "deliberately
+ * empty" — which until now nothing checked.
+ *
+ * There are two documented empties: an empty body for a `text()` column, and
+ * `[clear]` for an `optionalList()` one. Each is silently wrong in the other's
+ * column, and `scripts/kasr/extract/108-INT/check-empties.py` exists to catch
+ * exactly that. It classifies every column as one or the other — and these are
+ * neither, so they fell through the gap between the two buckets and it reported
+ * "0 sentinel-in-text" on files full of them.
+ *
+ * `parseSections('[clear]')` does not return `[]`. It returns one section with
+ * an empty heading whose body is the literal string `[clear]`, because there is
+ * no `###` heading to split on. On `published_sections` — the evidence-gated
+ * student projection — that is a section a student can read, containing the
+ * word "[clear]". Thirty articles across three batches in two lanes were
+ * carrying it, and all three files passed `medical:batch` with zero errors.
+ *
+ * The correct empty here is an empty body: `parseSections` returns `[]` for
+ * both `''` and `undefined`.
+ */
+const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media', 'media_recommendations']
+rows.forEach((values, index) => {
+  for (const column of SECTION_COLUMNS) {
+    if (values[column]?.trim() !== '[clear]') continue
+    errors.push(
+      `Item ${index + 1} (${values.id ?? values.title ?? values.label ?? 'untitled'}): `
+      + `${column} holds the literal "[clear]". That sentinel is read by optionalList() columns, and this one is `
+      + 'parsed by parseSections(), which has no heading to split on and stores a section whose body is the word '
+      + '"[clear]" — visible content, not an empty list. Leave the body empty instead; parseSections returns [] for that.',
+    )
+  }
+})
+
+/**
  * Fold `--with` siblings in as though already imported.
  *
  * Both the question branch and the practical branch resolve concepts against
@@ -189,13 +223,13 @@ if (kind === 'relation') {
   const concepts = []
   const claims = []
   const citations = []
-  // Same hole the evidence branch had, and wider. A relation names two concepts
-  // *and* a claim *and* a citation, and a batch keeps each kind in its own
-  // folder — `concept/`, `evidence/`, `relations/` — so reading only this
-  // directory finds none of them. `--with` is the documented way to say "these
-  // are being imported alongside", and it was wired into the question branch
-  // only, so a correctly ordered batch could not be validated without first
-  // performing the import it was validating.
+  // The same hole the evidence branch had, and wider. A relation names two
+  // concepts *and* a claim *and* a citation, and a batch keeps each kind in its
+  // own folder — `concept/`, `evidence/`, `relations/` — so reading only this
+  // directory resolves none of the four. `relationErrors` additionally refuses
+  // an edge with no evidence chain, so a correctly ordered relation batch could
+  // not reach zero errors by any route except performing the import it was
+  // validating.
   const nearby = [
     ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
     ...alongside,
@@ -585,16 +619,38 @@ if (kind !== 'concept') {
   // concept, and concepts are authored in `concept/` because that is what they
   // are. Without this every claim in a 1,253-claim batch failed with "Concept …
   // does not exist" while the concept sat validated one directory away.
-  const siblings = [
-    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
-    ...alongside,
-  ]
+  //
+  // Deduplicated by resolved path, because a `--with` file may already be a
+  // sibling in this directory — naming the resources batch beside a claim batch
+  // is the documented way to run this, and it put that file in both lists. The
+  // ID sets are Sets and did not care, but `everything.citation` is an array and
+  // every citation in it counted twice. Nothing reads `evidenceCountByClaim`
+  // today, so this was latent rather than wrong; the day something does read it,
+  // one citation satisfying the two-source rule for `treatment_or_action` is the
+  // exact failure LD-08 exists to prevent.
+  const fromDirectory = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  // Resolved path back to the path the author typed, so the note names the file
+  // the way the command did rather than as an absolute path nobody wrote.
+  const named = new Map(alongside.map((path) => [resolve(path), path]))
+  const siblings = [...new Set([...fromDirectory, ...alongside].map((path) => resolve(path)))]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))
+    if (!parsed.length) continue
+    const parsedKind = detectKind(parsed[0])
     // `??=` rather than a fixed set of buckets: a new record kind should make
     // the validator report something useful, not throw while collecting context.
-    if (parsed.length) (everything[detectKind(parsed[0])] ??= []).push(...parsed)
+    ;(everything[parsedKind] ??= []).push(...parsed)
+    // Say out loud that a named sibling was read, and what it contributed.
+    //
+    // An error count of zero cannot distinguish a batch whose references all
+    // resolved from one whose siblings never loaded at all — the shell handed
+    // the list over as one argument, the flags never arrived, or the checkout
+    // predates the fold-in. Those look identical from the outside, and the
+    // difference is the whole question. The question and practical branches
+    // have always said this; this branch resolved its siblings in silence, so
+    // "0 errors" was the only signal and it meant two different things.
+    if (named.has(path)) notes.push(`${named.get(path)}: ${parsed.length} ${parsedKind} rows treated as pending import`)
   }
 
   const countingCitations = everything.citation.map(citationFromRow).filter((citation) => citation.countsAsClaimEvidence)
@@ -643,15 +699,8 @@ if (kind !== 'concept') {
       else {
         const record = corpusSources[id]
         if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-        // Fourteen IDs are on more than one manifest row — the same bytes filed
-        // under two names or two modules — so both paths are true and the index
-        // reports no single one. Accept any path the corpus actually holds for
-        // this ID, and keep refusing one it does not: the ID resolves the file,
-        // which is what content addressing is for.
-        else if (values.source_relative_path?.trim()
-          && !(record.sourceRelativePaths ?? [record.sourceRelativePath]).includes(values.source_relative_path.trim())) {
-          const known = (record.sourceRelativePaths ?? [record.sourceRelativePath]).filter(Boolean)
-          errors.push(`${where}: ${id} is ${known.map((p) => `"${p}"`).join(' or ')} in the corpus, not "${values.source_relative_path.trim()}"`)
+        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
+          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
         }
       }
     }
