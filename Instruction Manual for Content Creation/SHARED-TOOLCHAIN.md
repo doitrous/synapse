@@ -2796,3 +2796,72 @@ down.
 
 **It needs an owner.** It is a 108 file; nine missing `canonical_key` values is a small fix
 against a large blast radius.
+
+---
+
+## A regeneration deleted two other modules' written batches, in a commit about neither
+
+The orphan sweep, realised. `3248210` — *"Place forty-nine sitting signals the matcher would not
+guess at"*:
+
+```
+ concept/101-ISK-concepts.md                  144 +-
+ written/104-CPS-EOY-2025-written.md         1399 -------
+ written/108-INT-EOY-written.md              3815 --------------------
+ scripts/kasr/seeds/sittings.ts               104 +
+ 4 files changed, 193 insertions(+), 5269 deletions(-)
+```
+
+**5,269 lines of two other modules' committed written batches, removed by a commit whose subject
+names neither and whose stated purpose is adding sitting signals.** One of them belonged to a
+module that had merged through a PR with green checks hours earlier.
+
+**The mechanism is the stale registry.** A generator regenerating `written/` sweeps files it
+does not recognise, and its registry only knows the papers its own lane registered. **A registry
+listing fewer papers does not error — it deletes what it no longer knows about.** This is the
+third instance of that class and the first that reached `main`.
+
+> **Before committing a regeneration, read the deletions in your own diff.** A `git diff --stat`
+> showing four-figure deletions in a directory you did not mean to touch is the whole signal,
+> and it is available before the push rather than after.
+
+### `medical:batches-present` is correctly red, and should stay red
+
+One lane wired that check **after its own written batch was deleted twice in an hour** by
+commits about a different module — the second time its rebase pulled the deletion onto its disk
+and **every other check stayed green.**
+
+It currently fails naming `written/104-CPS-EOY-2025-written.md`, absent while its ledger expects
+15 items. **That is the check working.** The restore is in an open PR; that PR passes, and only
+PRs without it fail.
+
+> **A check that went quiet about a genuinely missing batch to keep the pipeline green would be
+> worth nothing.** A red that names a real absence is the most valuable state a gate can be in.
+
+### Satisfying one unscoped gate can break another
+
+Both were the same lane's to fix, and the sequence is instructive. Fixing `medical:presence` on
+nine update rows meant restating eighteen fields from live state — including `resourceIds`,
+**whose live value points at a source outside the Kasr corpus.** Nine rows then cited a source ID
+naming no manifest row, and **`medical:citations` went red for every lane** until it was removed.
+
+The reasoning that settled it is worth keeping:
+
+> Those nine concepts were sourced by somebody else. **This module's claim on them is a module
+> attachment, not a provenance claim.** Restating a true value from another corpus was an
+> assertion the module had no standing to make.
+
+**Omitting the column leaves the live value untouched** — verified `resourceIds` identical to
+live afterwards, `created 0 / updated 9`, 0 fields emptied. *A true value can still be a claim
+you are not entitled to make.*
+
+### When a checker is right and the answer is "yes, that is missing"
+
+The `resourceIds` / `atomicClaimIds` half of that red was **not** a checker misreading sanctioned
+gaps. **89 concepts genuinely have no evidence chain**, because the module has none. They carry
+stated `field_notes` reasons, but both fields sit on the must-populate list with **no
+reason-escape** — so the checker is correct and the lane declined to silence it, putting it first
+on the module's own OWED ledger instead.
+
+**Separate the halves of a red before fixing it.** One half was a real absence to own; the other
+was nine missing keys to supply. Fixing them the same way would have been wrong twice.
