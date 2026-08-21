@@ -1808,8 +1808,9 @@ reasons for nineteen fields and emitted none of them.
 ends up *absent* rather than present-and-empty. **`[clear]` is what says "present and
 deliberately empty".**
 
-So the shape is: **emit the key, with a real value where the module has one and `[clear]` where
-it does not, with the reason still standing behind it.** Nineteen keys, and the concept batches
+So the shape is: **emit the key, with a real value where the module has one and — on a LIST
+column only — `[clear]` where it does not**, with the reason still standing behind it. See the
+warning below: `[clear]` on a **text** column stores the literal characters. Nineteen keys, and the concept batches
 went **35 → 54 fields, 0 errors**.
 
 **How the wrong conclusion was reached from a correct measurement** — worth more than the fix.
@@ -1882,3 +1883,53 @@ make room for names that no longer matched. Restored within the minute.
 
 > **Assume an exhaustive map is not.** Throw on the unknown key rather than letting it produce
 > a value — the symptom otherwise is a **plausible filename**, not an error.
+
+---
+
+## URGENT: `[clear]` works on list columns only. On a text column it stores the literal characters.
+
+**My error — I circulated "emit the key with `[clear]` where the module has no value" as the
+widening advice, and on a text column that writes a value of `[clear]`.** Anyone who took it
+has this bug.
+
+Verified in `conceptImport.ts`:
+
+```js
+const text = (value?: string) => value?.trim() || undefined     // :89 — no [clear] handling
+optionalList('[clear]')  ->  []                                  // lists only
+```
+
+Every implementation and every test of the sentinel is list handling. `text()` never looks for
+it.
+
+```
+reviewer            "[clear]"   <- text column, poisoned
+relatedArticleIds   []          <- list column, correct
+```
+
+One lane found **every concept in its module had a reviewer named `[clear]`**, across six
+columns: `reviewer`, `final_publisher`, `arabic_label`, `exclusion_reason`, `last_reviewed`,
+`review_due`.
+
+**And it satisfied the audit by accident**, which is why nothing caught it. **A field holding a
+sentinel that nothing reads as a sentinel is worse than an empty one — empty at least looks
+unfinished.**
+
+**Four of those six need nothing written at all.** `materialiseNewConcept` fills `arabicLabel`,
+`lastReviewed`, `reviewDue` and `exclusionReason` as null whether the column is present or not,
+so presence is satisfied by **saying nothing**. For `reviewer` and `final_publisher`, write the
+settled named absence.
+
+### A check more lenient than the audit it emulates is worse than no check
+
+Same lane, and the more instructive half. `check-concept-presence.mjs` let a `field_notes`
+reason excuse **any** `conceptPopulated` field. The audit's `requirePaths` runs bare `hasValue`
+and takes no note of reasons — only a separate, shorter intentional-blanks list does.
+
+So the local check was **green where the real audit says red**, and it was trusted precisely
+because it was there. Tightened, it named three genuine gaps the lane had been hiding from
+itself: `resourceIds`, `atomicClaimIds` and `relatedArticleIds` empty on **all 261 concepts**,
+because the resource records and the evidence chain do not exist yet.
+
+> **A check that errs toward green is worse than no check at all.** No check leaves you
+> uncertain; a lenient one leaves you confident and wrong.
