@@ -44,12 +44,12 @@
   the other three subjects' articles invented their citation IDs and every one
   had to be repointed afterwards; here the articles were right first.
 
-  ONE SPAN CARRIES NO CITATION. SPN-BIO-HMP-NADPH-01 names
-  CLM-FND-HMP-NADPH-01, for which no citation exists in this batch — the
-  articles' `callout_evidence` blocks name none, and no citation ID is minted
-  here. The claim is quotable from the book, on file page 38, and the hand-off
-  report says so. The `citation_ids` key is omitted on that record rather than
-  left blank, because an empty block parses as absent anyway.
+  EVERY SPAN CARRIES A CITATION. Three claims were briefly uncited, because the
+  articles' `callout_evidence` blocks named 25 citation IDs for 28 claims and
+  this file was told to mint none. All three were quotable, so the three
+  citations were written afterwards — CIT-KA-BIO103-HMP-NADPH-01,
+  -URICOSURIC-CLASS-01 and -GOUT-TOPHI-01 — and SPN-BIO-HMP-NADPH-01 points at
+  the first of them.
 
   Import: Admin › Evidence › Import. Spans land last — the order the simulator
   applies is resource → article → concept → claim → citation → span.
@@ -115,6 +115,9 @@ The pentose phosphate pathway is another route for glucose oxidation, with two m
 
 ## claim_ids
 CLM-FND-HMP-NADPH-01
+
+## citation_ids
+CIT-KA-BIO103-HMP-NADPH-01
 
 ---
 

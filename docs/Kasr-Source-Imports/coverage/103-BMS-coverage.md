@@ -25,13 +25,18 @@ looks exactly like a file with nothing in it.
 | `concept/103-BMS-biochemistry-concepts.md` | 28 |
 | `concept/103-BMS-histology-concepts.md` | 8 |
 | `concept/103-BMS-physiology-concepts.md` | 8 |
+| `question/103-BMS-EOY-2025-biochemistry-matching.md` | 1 |
 | `article/103-BMS-anatomy.md` | 6 |
-| `article/103-BMS-biochemistry.md` | 5 |
+| `article/103-BMS-biochemistry.md` | 11 |
 | `article/103-BMS-histology.md` | 4 |
 | `article/103-BMS-physiology.md` | 3 |
 | `written/103-BMS-EOY-2025-anatomy-written.md` | 6 |
+| `written/103-BMS-EOY-2025-biochemistry-written.md` | 7 |
 | `written/103-BMS-EOY-2025-histology-written.md` | 4 |
 | `written/103-BMS-EOY-2025-physiology-written.md` | 4 |
+| `evidence/103-BMS-biochemistry-citations.md` | 28 |
+| `evidence/103-BMS-biochemistry-claims.md` | 28 |
+| `evidence/103-BMS-biochemistry-spans.md` | 19 |
 | `evidence/103-BMS-citations.md` | 29 |
 | `evidence/103-BMS-claims.md` | 29 |
 | `evidence/103-BMS-sources.md` | 6 |
@@ -106,8 +111,8 @@ Having text is not the same as having read it: a source below can be fully extra
 | PHYSIOLOGY 102, 103 ORIENTATION EOM AND EOY physiology (2) (1).pdf | Orientation | 2 | ocr | — | not yet read |
 | EOY (BMS - 103) 198 (1).pdf | EOY | 14 | native | — | not yet read |
 | EOY (BMS - 103) 198 Solved (1).pdf | EOY | 14 | native | — | not yet read |
-| EOY (BMS - 103) 199 (2).pdf | EOY | 21 | native | 71 authored records | read in full |
-| EOY (BMS - 103) 199 [Solved] (3).pdf | EOY | 21 | native | 16 authored records | read in full |
+| EOY (BMS - 103) 199 (2).pdf | EOY | 21 | native | 79 authored records | read in full |
+| EOY (BMS - 103) 199 [Solved] (3).pdf | EOY | 21 | native | 24 authored records | read in full |
 | EOY ANATOMY El- Laymonah ANSWERED  (1).pdf | EOY | 16 | native | — | not yet read |
 | EOY ANATOMY El- Laymonah modified  pdf (1) (1).pdf | EOY | 4 | native | — | not yet read |
 | EOY BIO Final 103 exam - 2021 with Bio. Answers (1).pdf | EOY | 18 | ocr | — | not yet read |
@@ -127,7 +132,7 @@ Having text is not the same as having read it: a source below can be fully extra
 | physiology muscle final  (1).pdf | Written Questions | 8 | native | — | not yet read |
 | UII1G11_01_2026_08_59_08_260111_132417 (2).pdf | Written Questions | 8 | ocr, 1/8 blank | — | not yet read |
 | Dpt book Anatomy Lower Limb 103.pdf | Department Book | 119 | native | 29 authored records | read in full |
-| Dpt book Biochemistry 103.pdf | Department Book | 160 | native | 34 authored records | read in full |
+| Dpt book Biochemistry 103.pdf | Department Book | 160 | native | 77 authored records | read in full |
 | Dpt book Final Book of Histology (BMS 103) 2026 1st Year.pdf | Department Book | 48 | native | 22 authored records | read in full |
 | Dpt Book Physiology 103.pdf | Department Book | 51 | native | 22 authored records | read in full |
 | IMPORTANT SUMMARY 103_202512231753_45284 (2).pdf | Important & Summaries | 18 | ocr | — | not yet read |

@@ -1077,3 +1077,123 @@ The book does not name the bacterial enzyme sulfonamides inhibit; it describes i
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-KA-BIO103-HMP-NADPH-01
+
+## claim_id
+CLM-FND-HMP-NADPH-01
+
+## resource_id
+src_300847a5fa64809d6c07
+
+## evidence_role
+local_curriculum
+
+## support_span
+"2) It is the main source of NADPH, which is required for the reaction of many reductases and hydroxylases catalyzing several important biochemical reactions"
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+Carbohydrate Metabolism · Hexose Monophosphate Pathway · Importance of HMP pathway
+
+## locator_detail
+Numbered entry 2 in the list of the pathway's importance. Printed folio "36"; this book's folio runs two behind the file page.
+
+## context_note
+The 2025 paper's Diagram (1)(a) asks for the main source of NADPH+H+, which is what this entry states. The book gives the pathway as the main source without quantifying its share against the other routes, and nothing beyond its words is claimed.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-KA-BIO103-URICOSURIC-CLASS-01
+
+## claim_id
+CLM-REN-URICOSURIC-DRUGS-01
+
+## resource_id
+src_300847a5fa64809d6c07
+
+## evidence_role
+local_curriculum
+
+## support_span
+"3) Drugs increasing the excretion of uric acid (Uricosuric drugs): These medications should be taken with plenty of fluid accompanied by alkalization of urine to prevent the formation of renal stones."
+
+## locator_type
+page
+
+## locator_page
+131
+
+## locator_section
+Metabolism of purines and pyrimidines · Disorders of Purine Metabolism · Treatment of gout
+
+## locator_detail
+Numbered entry 3 under treatment, the whole of what the book prints for this class. Printed folio "129"; this book's folio runs two behind the file page.
+
+## context_note
+This is the entire uricosuric entry: the book names the class and its precaution and **names no member of it**, and pages 130-131 were read visually to confirm no drug appears elsewhere. The examiner's own model answer on the solved 2025 paper reproduces the same bare heading. So the claim asserts the class and its action only. A reviewer adding a drug name here must cite a source that actually names one; this one does not.
+
+## confidence
+0.9
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-KA-BIO103-GOUT-TOPHI-01
+
+## claim_id
+CLM-REN-GOUT-TOPHI-DIAGNOSIS-01
+
+## resource_id
+src_300847a5fa64809d6c07
+
+## evidence_role
+local_curriculum
+
+## support_span
+"Gout is a painful inflammation in one or more joints. It is characterized by deposition of nodular masses of uric acid crystals (tophi) in different soft-tissue areas of the body"
+
+## locator_type
+page
+
+## locator_page
+130
+
+## locator_section
+Metabolism of purines and pyrimidines · Disorders of Purine Metabolism · Gout
+
+## locator_detail
+Opening two sentences of the section. Printed folio "128"; this book's folio runs two behind the file page.
+
+## context_note
+The book puts tophi in soft tissue; the 2025 paper's Case (2) says “a topi-crystals in urine”, which is the paper's own wording and a different site. The disagreement is recorded on the claim rather than resolved here — the book is the medical authority and the paper is evidence of what was asked.
+
+## confidence
+0.95
+
+## counts_as_claim_evidence
+yes
