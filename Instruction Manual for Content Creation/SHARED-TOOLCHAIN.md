@@ -696,3 +696,69 @@ The lysosome concept also **broadened** — it carries the three secondary subty
 five papers and the department's own model answer ask for them where an EM-only reading
 omitted them. So an MCQ about heterolysosomes or multivesicular bodies belongs to **that**
 concept rather than a new one.
+
+### Three format bugs in shared code — two landed, one outstanding
+
+All three are the same bug in different files: a format-aware check that only ever learned
+about one family of formats.
+
+**`questionFormat.ts:232` — `PART_HEADING` matched integer marks only. Landed.** A paper
+printing `{0.5 Mark}` or `{1.5 Marks}` did not fail to *score* the part — **the whole heading
+failed to match and the part vanished**, and the question came back "no written_parts" with
+nothing saying a mark scheme had been dropped on the floor. Now `(\d+(?:\.\d+)?)`. Found
+independently by two lanes, which suggests more of it in the corpus than either saw.
+
+**`bulkImport.ts:806` — `matching` was missing from the `correct_answer` exemption. Landed.**
+A matching batch was refused with "Correct answer is required" for a column matching
+questions do not have. Now expressed as *what needs the column* — `isChoiceFormat(format) &&
+format !== 'mcq_multi'` — rather than a list, so it cannot go stale when a thirteenth format
+arrives.
+
+**`validate-content-batch.mjs:216` — `matching`, `completion` and `labeling` fall through to
+the lettered-options branch. NOT yet landed.** They come back "0 options — the contract is 4
+to 5" and "correct answer A is not one of the filled options", for questions that are
+entirely well formed. **Before this is fixed a matching question cannot be validated at
+all.** The fix branches three ways — written → parts, choice → options, everything else →
+neither — since `matchingErrors` / `completionErrors` / `labelingErrors` already check those
+contracts through `validateImportRow`.
+
+`questionFormat.ts`'s own header notes one EPE paper is **twenty matching items out of
+thirty-two**, so any lane holding EPE material hits all three.
+
+### `build-batches.ts` now refuses a bare run
+
+```
+$ node --experimental-strip-types scripts/kasr/build-batches.ts
+Error: name the module to build — one of "101 ISK", "102 INT". There is no
+build-everything mode: five lanes share this script, and a bare run rewrote
+every module's batches including ones another lane had already finished.
+```
+
+`PAPERS` is `{ module, load: () => Paper }[]` and the module filter runs **before** anything
+loads, so a scoped build no longer dies on a neighbour's missing JSON. Registration also
+**throws if a paper's registered module disagrees with its `source.module`** — closing a
+failure mode lazy filtering introduces that the eager version could not have: a mis-registered
+paper skipped by the module that owns it and built by one that does not, silently.
+
+### Manifest `textLayer` patch list
+
+Sources declared `native` that carry no usable text. All caught by the extractor's fallback
+except where noted — this is the list the manifest should be corrected against:
+
+| sourceId | file | pages |
+|---|---|--:|
+| `src_af30e4191cb4087f8d3f` | `Dpt book general pharma 108-2026.pdf` | 34 |
+| `src_a2ffe25e8362fe840ceb` | `DPT BOOK Pathology Practical [INT-108].pdf` | 12 |
+| `src_f484fc791ec45d8dc7c5` | `PHYSIO MCQ ELSHERIF … Dr. Elsherif` | 73 |
+| `src_b20e110f83747d655396` | `VASC important_compressed (1).pdf` | 26 |
+
+`src_a2ffe25e8362fe840ceb` is the one the fallback **missed** — 6,075 glyphs all `U+0001`,
+which is why the guard needed the control-character test rather than a length check.
+
+### A ledger must name its units
+
+`build-coverage.ts:249-255` prints `ocr.length` — a count of **files** — into a sentence
+promising **pages**: *"1554 pages, 33 of them by OCR"*, where the truth was **750 pages
+across 32 files**. A reader takes 33/1554 as "OCR was negligible here" when OCR was **half
+that corpus**, which inverts the reliability judgement they should make about every figure
+below it. A wrong unit in a summary line is worse than a missing one.
