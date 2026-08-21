@@ -19,8 +19,28 @@ pair, and never the same output file.
 |---|---|---|---|---|
 | — | — | — | — | — |
 | 2026-08-21 | 103-bms | `103 BMS` · academic structure | docs/Kasr-Source-Imports/academic/103-BMS-structure.md | — |
-| 2026-08-21 | 103-bms | `103 BMS` · EOY 2025 · concepts | docs/Kasr-Source-Imports/concept/103-BMS-concepts.md | — |
-| 2026-08-21 | 103-bms | `103 BMS` · EOY 2025 · written questions | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-written.md | CON-* from the concepts row above |
+| 2026-08-21 | 103-bms | `103 BMS` · evidence sources | docs/Kasr-Source-Imports/evidence/103-BMS-sources.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · Anatomy · concepts | docs/Kasr-Source-Imports/concept/103-BMS-anatomy-concepts.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · Anatomy · articles | docs/Kasr-Source-Imports/article/103-BMS-anatomy.md | CON-* from the row above |
+| 2026-08-21 | 103-bms | `103 BMS` · Anatomy · claims | docs/Kasr-Source-Imports/evidence/103-BMS-anatomy-claims.md | CON-* from the concepts row |
+| 2026-08-21 | 103-bms | `103 BMS` · Anatomy · citations | docs/Kasr-Source-Imports/evidence/103-BMS-anatomy-citations.md | CLM-* above, src_23c95ac89b6b113bd58e |
+| 2026-08-21 | 103-bms | `103 BMS` · Anatomy · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-anatomy-written.md | CON-* and ART-* above |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · concepts | docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · articles | docs/Kasr-Source-Imports/article/103-BMS-biochemistry.md | CON-* from the row above |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · claims | docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md | CON-* from the concepts row |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · citations | docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-citations.md | CLM-* above, src_300847a5fa64809d6c07 |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-biochemistry-written.md | CON-* and ART-* above |
+| 2026-08-21 | 103-bms | `103 BMS` · Biochemistry · EOY 2025 matching | docs/Kasr-Source-Imports/question/103-BMS-EOY-2025-biochemistry-matching.md | CON-* and ART-* above |
+| 2026-08-21 | 103-bms | `103 BMS` · Histology · concepts | docs/Kasr-Source-Imports/concept/103-BMS-histology-concepts.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · Histology · articles | docs/Kasr-Source-Imports/article/103-BMS-histology.md | CON-* from the row above |
+| 2026-08-21 | 103-bms | `103 BMS` · Histology · claims | docs/Kasr-Source-Imports/evidence/103-BMS-histology-claims.md | CON-* from the concepts row |
+| 2026-08-21 | 103-bms | `103 BMS` · Histology · citations | docs/Kasr-Source-Imports/evidence/103-BMS-histology-citations.md | CLM-* above, src_2bf25a6864c9f6ce3283 |
+| 2026-08-21 | 103-bms | `103 BMS` · Histology · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-histology-written.md | CON-* and ART-* above |
+| 2026-08-21 | 103-bms | `103 BMS` · Physiology · concepts | docs/Kasr-Source-Imports/concept/103-BMS-physiology-concepts.md | — |
+| 2026-08-21 | 103-bms | `103 BMS` · Physiology · articles | docs/Kasr-Source-Imports/article/103-BMS-physiology.md | CON-* from the row above |
+| 2026-08-21 | 103-bms | `103 BMS` · Physiology · claims | docs/Kasr-Source-Imports/evidence/103-BMS-physiology-claims.md | CON-* from the concepts row |
+| 2026-08-21 | 103-bms | `103 BMS` · Physiology · citations | docs/Kasr-Source-Imports/evidence/103-BMS-physiology-citations.md | CLM-* above, src_59643edb9d371bcefa2c |
+| 2026-08-21 | 103-bms | `103 BMS` · Physiology · EOY 2025 written | docs/Kasr-Source-Imports/written/103-BMS-EOY-2025-physiology-written.md | CON-* and ART-* above |
 | 2026-08-21 | 103-bms | `103 BMS` · source coverage ledger | docs/Kasr-Source-Imports/coverage/103-BMS-coverage.md | — |
 
 ---
