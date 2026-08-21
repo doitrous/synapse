@@ -195,6 +195,44 @@ function extracted() {
 const text = extracted()
 
 /** Items authored into batches, counted from the batch files themselves. */
+/**
+ * Sources an authored batch actually cites, and how many records cite each.
+ *
+ * A module can be worked two ways. An extractor run leaves a result file, and
+ * the tally above reads it. But a module authored by hand — reading a paper and
+ * writing concepts from it — leaves no result file at all, so every one of its
+ * sources reads as "not yet read" however much was written from it. `103 BMS`
+ * reported 0 of 51 read while carrying 46 concepts and 29 citations drawn from
+ * six of them.
+ *
+ * A manifest ID appearing in a batch is evidence that somebody opened that
+ * file, which is exactly what this column claims to report. Counted separately
+ * from the extractor tally, because "a person read this and wrote 12 records"
+ * and "a script pulled 718 questions out of it" are different facts and
+ * collapsing them would overstate both.
+ */
+function citedByBatches() {
+  const counts = new Map<string, number>()
+  const root = 'docs/Kasr-Source-Imports'
+  for (const kind of ['concept', 'question', 'article', 'practical', 'written', 'evidence', 'resource']) {
+    const dir = join(REPO, root, kind)
+    if (!existsSync(dir)) continue
+    for (const name of readdirSync(dir)) {
+      if (!name.endsWith('.md') || !name.startsWith(SLUG)) continue
+      for (const record of readFileSync(join(dir, name), 'utf8').split(/^\s*---\s*$/m)) {
+        if (!record.includes('# Item')) continue
+        // One record may name a source several times — in a citation's
+        // resource_id and again in prose. It is one record either way.
+        for (const id of new Set(record.match(/src_[0-9a-f]{20}/g) ?? [])) {
+          if (mine.has(id)) counts.set(id, (counts.get(id) ?? 0) + 1)
+        }
+      }
+    }
+  }
+  return counts
+}
+const cited = citedByBatches()
+
 function authored() {
   const counts = new Map<string, number>()
   const root = 'docs/Kasr-Source-Imports'
@@ -240,6 +278,7 @@ const rows = [...sources].sort((a, b) =>
 
 const line = (source: ManifestSource) => {
   const t = tally.get(source.sourceId)
+  const citing = cited.get(source.sourceId) ?? 0
   const yields = [
     t?.written && `${t.written} written`,
     t?.mcq && `${t.mcq} MCQ`,
@@ -249,8 +288,11 @@ const line = (source: ManifestSource) => {
     t?.topics && `${t.topics} topics`,
     t?.answers && `${t.answers} model answers`,
     t?.sittings && `${t.sittings} sitting topics`,
+    citing && `${citing} authored record${citing === 1 ? '' : 's'}`,
   ].filter(Boolean).join(', ')
-  const state = yields ? (t?.capped ? `read ${t.capped}` : 'read in full') : 'not yet read'
+  const state = yields
+    ? (t?.capped ? `read ${t.capped}` : 'read in full')
+    : (citing ? 'read and authored from' : 'not yet read')
   const x = text.get(source.sourceId)
   const extractedAs = x ? (x.empty === 0 ? x.mode : `${x.mode}, ${x.empty}/${x.pages} blank`) : '—'
   // The column is omitted entirely where nothing has been extracted, rather than
@@ -264,7 +306,7 @@ const line = (source: ManifestSource) => {
   return `| ${label.replace(/\|/g, '\\|')} | ${source.sourceCategory} | ${source.pageCount ?? '—'} |${textCell} ${yields || '—'} | ${state} |`
 }
 
-const untouched = rows.filter((source) => !tally.get(source.sourceId))
+const untouched = rows.filter((source) => !tally.get(source.sourceId) && !cited.get(source.sourceId))
 const readCount = rows.length - untouched.length
 const totals = [...tally.values()].reduce((sum, t) => ({
   written: sum.written + t.written, mcq: sum.mcq + t.mcq, slides: sum.slides + t.slides,
