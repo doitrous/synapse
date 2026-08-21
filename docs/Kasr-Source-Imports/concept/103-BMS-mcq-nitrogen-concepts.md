@@ -219,6 +219,7 @@ drafted_needs_evidence_chain
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopicId: "Urea Cycle" is the academic tree's own child node and is carried by module_subject; nothing sits below it in this branch.
 nanotopicId: No nanotopic level exists below this node.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
@@ -406,6 +407,7 @@ drafted_needs_evidence_chain
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopicId: "Urea Cycle" is the academic tree's own child node and is carried by module_subject; nothing sits below it in this branch.
 nanotopicId: No nanotopic level exists below this node.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
@@ -594,6 +596,7 @@ drafted_needs_evidence_chain
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 microtopicId: "Metabolism of Ammonia" is the academic tree's own child node and is carried by module_subject; nothing sits below it in this branch.
 nanotopicId: No nanotopic level exists below this node.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.

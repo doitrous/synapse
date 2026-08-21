@@ -229,6 +229,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 id: Not minted here. The ID is copied verbatim from the `main_concept` of the finished question "In de novo synthesis of purine nucleotides, the donors of nitrogen atoms are:" in ../question/103-BMS-MCQ-protein-heme.md, which was authored first. mint-concept-id.mjs would produce a different hash from the canonical key above, and changing the ID would orphan the question.
 microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06, which is where every live purine concept sits.
 nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
@@ -603,6 +604,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 id: Not minted here. The ID is copied verbatim from the `main_concept` of the finished questions "One of the following does not produce feedback inhibition of PRPP synthetase:" and "An allosteric inhibitor of adenylosuccinate synthetase is:" in ../question/103-BMS-MCQ-protein-heme.md.
 microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06.
 nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
@@ -790,6 +792,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 id: Not minted here. The ID is copied verbatim from the `main_concept` of the finished question "Plasma uric acid level in males is ………, whereas its level in females is …….." in ../question/103-BMS-MCQ-protein-heme.md.
 microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06.
 nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
@@ -1164,6 +1167,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 id: Not minted here. The ID is copied verbatim from the `main_concept` of the finished question "Hypouricemia can occur in:" in ../question/103-BMS-MCQ-protein-heme.md.
 microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06.
 nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
@@ -1350,6 +1354,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
 id: Not minted here. The ID is copied verbatim from the `main_concept` of the finished question "Immune dysfunctions are associated with a defective of:" in ../question/103-BMS-MCQ-protein-heme.md. The IMM system code on a biochemistry concept is not an error — the concept's claim is an immunodeficiency, and the question's own options turn on separating it from the neurological and articular purine defects.
 microtopicId: The book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T06.
 nanotopicId: No nanotopic exists below the microtopic level for purine metabolism.
