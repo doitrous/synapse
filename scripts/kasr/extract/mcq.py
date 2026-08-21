@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
-"""Extract MCQs from Kasr Al Ainy module 101 ISK instructor question books.
+"""Extract MCQs from a Kasr Al Ainy module's question books.
+
+    python3 scripts/kasr/extract/mcq.py [--module "104 CPS"] [--category NAME ...]
+
+Defaults to module 101 ISK, whose results are committed at the unprefixed
+paths; any other module writes into extract/<module-slug>/, caches included.
+
+Which manifest categories hold a module's question books is per-module data
+(MODULE_CATEGORIES), because it differs: 101 files them all as
+`Instructor material`, 104 keeps ten under `Department Questions` and files its
+exam papers under `EOM` and `EOY`. `--category` overrides the table for one run.
+
+Answers that exist only as pen marks on a scan are read off the page images by
+eye into <module-slug>/handwritten-answers.json and attached here; they carry
+`answerSource: handwritten-recovered` so a reviewer can always tell them from an
+answer the paper printed.
 
 Transcription only: text is copied out of the PDFs, never authored or completed.
 Resumable -- each file's result is written to parts/<sourceId>.json and mcq.json
@@ -8,16 +23,43 @@ is re-merged after every file, so a kill loses at most one file of work.
 import json, os, re, subprocess, sys, tempfile, unicodedata
 from concurrent.futures import ThreadPoolExecutor
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-MANIFEST = os.path.join(REPO, "docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json")
-PARTS = os.path.join(HERE, "parts")
-TEXTCACHE = os.path.join(HERE, "pagetext")
-OUT = os.path.join(HERE, "mcq.json")
+from kasr_module import DEFAULT_MODULE, module_sources, out_dir, out_path, \
+    parse_module, report_textlayer_fallback
+
 OCR_PAGE_CAP = 40
 DPI = 120
 
-TARGETS = [
+# Set from --module in main(). The page cache is this script's own, not the
+# shared pagetext/ written by pagetext.py: the two record different shapes, and
+# a run that read the other's records would mislabel every page it loaded.
+MODULE = DEFAULT_MODULE
+PARTS = out_path(MODULE, "parts")
+TEXTCACHE = out_path(MODULE, "pagetext")
+OUT = out_path(MODULE, "mcq.json")
+
+# Which manifest categories hold a module's question books.
+#
+# 101 keeps them all under `Instructor material`, and that is the default, so
+# nothing about 101's committed source set moves. 104 does not: ten of its
+# seventeen question books are filed under `Department Questions`, and selecting
+# only `Instructor material` would drop them without saying so.
+MODULE_CATEGORIES = {
+    "101 ISK": ["Instructor material"],
+    # 104's exam papers are filed by sitting, not as instructor material, so
+    # `Instructor material` + `Department Questions` -- right for the department
+    # question books -- silently excluded every EOM and EOY paper the module
+    # has. `EOM 196 104 - 2023 (1).pdf` alone is a 120-question MCQ paper, and
+    # the written extractor took 36 rows from it because it is not a written
+    # paper. Exam questions outrank department-book questions for blueprint
+    # weight, so they belong in the bank.
+    "104 CPS": ["Instructor material", "Department Questions", "EOM", "EOY"],
+}
+DEFAULT_CATEGORIES = ["Instructor material"]
+CATEGORIES = DEFAULT_CATEGORIES
+
+# The 101 pass named its question books one by one. A module without such a
+# list takes every PDF the manifest gives it in the categories above.
+TARGETS_101 = [
     "101 mcq all after edit(3)-نسخ.pdf",
     "Anatomy MCQ Book [2025] [first priority].pdf",
     "Anatomy MCQ by Dr.Jalal [Embryology] (1).pdf",
@@ -54,20 +96,95 @@ TARGETS = [
     "Forearm Quiz (3).pdf",
 ]
 
-# question book -> separate answer-key file
-ANSWER_PAIRS = {
+MODULE_TARGETS = {"101 ISK": TARGETS_101}
+
+# question book -> separate answer-key file.
+#
+# 104 has none, and that is a reading of the files rather than of their names.
+# `EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf` and the
+# `DPT HISTO MCQ [X] 2023.pdf` files look like halves of a pair, but every one
+# of them opens on numbered questions with lettered options: they are second
+# editions of the same books, not keys to them. Listing one as a key would send
+# a whole book of questions through parse_answer_key and drop them. Their
+# answers are printed as grids in their own back pages, which find_key_blocks
+# already picks up, and their duplicate questions are what bank.py collapses.
+ANSWER_PAIRS_101 = {
     "Blood MCQ pdf_87895.pdf": "Blood MCQ answer.pdf_87896.pdf",
     "CT MCQ 2024 JPG.pdf": "CT MCQ answer JPG.pdf",
     "Cytology Mcq_87432.pdf": "Cytology MCQ answers_87421.pdf",
     "Eithelium mcq 2025  JPG.pdf": "Epithelium MCQ 2025 answers.pdf",
 }
+MODULE_ANSWER_PAIRS = {"101 ISK": ANSWER_PAIRS_101, "104 CPS": {}}
+ANSWER_PAIRS = ANSWER_PAIRS_101
 KEY_FILES = set(ANSWER_PAIRS.values())
 
 # Scans so degraded that OCR interleaves options between neighbouring questions.
 # Everything from these is forced to low confidence and flagged for manual work.
-POOR_OCR = {"Basis MCQ by Dr.Jalal (1).pdf"}
+# Answers that exist only as pen marks on a scan, recovered by reading the
+# rendered page images by eye. They are not in any text layer -- a solved copy
+# and its unsolved twin differ by 5% of characters -- so no parser will ever
+# find them, and without this table the paper banks 120 questions with no
+# answer. Recorded per module as <module-slug>/handwritten-answers.json and
+# attached in finalise() by (sourceId, question number).
+HANDWRITTEN_FILE = "handwritten-answers.json"
+HANDWRITTEN = {}
 
-TOPIC_RULES = [
+
+def load_handwritten(module):
+    """(sourceId, question number) -> recovered answer record, or {}.
+
+    Absent file is not an error: only 104 has a pen-marked paper so far.
+    """
+    path = os.path.join(out_dir(module), HANDWRITTEN_FILE)
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        doc = json.load(fh)
+    table = {}
+    for paper in doc.get("papers", []):
+        # A pen-marked paper often has an unmarked twin in the corpus, and the
+        # answers belong to both: the ring destroys the OCR of the very option
+        # it marks, so the marked copy is the worse transcription of the two.
+        # A twin is only listed once its numbering has been checked against the
+        # marked copy page by page; the check is recorded beside it.
+        sids = [paper["sourceId"]] + [t["sourceId"] for t in paper.get("alsoAppliesTo", [])]
+        for a in paper.get("answers", []):
+            # Option keys are upper case everywhere in mcq.json; the recovered
+            # letters are written lower case. Compared as read, no recovered
+            # answer would ever match an option and all 120 would be discarded
+            # as naming an option the question does not have.
+            letter = (a.get("answer") or "").strip().upper()
+            if not letter:
+                continue
+            rec = {
+                "answer": letter,
+                "confidence": a.get("confidence") or "medium",
+                "page": a.get("page"),
+                # The mark convention differs by stem: X-strikes cross out the
+                # wrong options on most pages, but on "select the false" stems
+                # the examiner ticks the true distractors and rings the odd one
+                # out. The ring is the answer either way; which form was used is
+                # kept so a reviewer can check the page.
+                "markForm": "tick-the-true" if a.get("ticked") else (
+                    "strike-the-wrong" if a.get("struckThrough") else "ring-only"),
+                "marginalia": a.get("marginalia"),
+                "fromSourceId": paper["sourceId"],
+            }
+            for sid in sids:
+                table[(sid, int(a["q"]))] = rec
+    return table
+
+
+MODULE_POOR_OCR = {
+    "101 ISK": {"Basis MCQ by Dr.Jalal (1).pdf"},
+    # 104's scan lost the option labels of the "Without Answers" Thorax book
+    # outright -- 1,697 lines of text and one recognisable option marker in the
+    # whole file -- so what it does yield cannot be trusted as transcribed.
+    "104 CPS": {"EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf"},
+}
+POOR_OCR = MODULE_POOR_OCR["101 ISK"]
+
+TOPIC_RULES_101 = [
     ("Embryology", ("embryo",)),
     ("Connective Tissue", ("connective tissue", "ct mcq")),
     ("Upper Limb", ("upper limb", "upper", "arm", "forearm")),
@@ -77,6 +194,71 @@ TOPIC_RULES = [
     ("Basis", ("basis",)),
     ("Histology-general", ("histo",)),
 ]
+
+# 104's books are named by system, not by tissue. Matched in order, so
+# `DPT HISTO MCQ [Cardiovascular].pdf` is Cardiovascular and not Histology.
+TOPIC_RULES_104 = [
+    ("Anatomy", ("thorax", "anatomy", "cardiopulmonary system")),
+    ("Cytogenetics", ("cytogenetics",)),
+    ("Lymphatic", ("lymphatic",)),
+    ("Respiratory", ("respiratory", "respir")),
+    ("Cardiovascular", ("cardiovascular", "vascular", "cardio")),
+    ("Physiology", ("physio",)),
+    ("Histology-general", ("histo",)),
+]
+
+MODULE_TOPIC_RULES = {"101 ISK": TOPIC_RULES_101, "104 CPS": TOPIC_RULES_104}
+TOPIC_RULES = TOPIC_RULES_101
+
+# Files the manifest files as question books that are not question books.
+#
+# These are read, not assumed: each one was opened and its whole text searched
+# for a question-paper heading, and none of the three has one. What the parser
+# pulls out of them is numbered prose -- `1. A segment of respiratory tissue:`
+# with `a- Autonomic innervation:` beneath it -- which has the shape of an MCQ
+# and none of the substance. Every row from all three was inspected; not one is
+# a question. They stay in mcq.json, flagged, because a file that was opened and
+# yielded nothing must not look like a file nobody opened. bank.py drops them.
+MODULE_PROSE_SOURCES = {
+    "101 ISK": {},
+    "104 CPS": {
+        # 152 pages of thorax lecture notes. No question-paper heading anywhere;
+        # its 36 "MCQs" are the a-/b-/c- sub-lists of anatomical descriptions.
+        "Cardiopulmonary system Dr.Mahmoud alaa (1).pdf": "anatomy lecture notes",
+        # Titled "THE MOST IMPORTANT WRITTEN QUESTIONS" on its own first page --
+        # a short-answer revision book, and the written lane's material.
+        "HISTO WRITTEN BY DR ZAHRA.pdf": "written/SAQ revision, not MCQ",
+        # A practical slide deck: "Identify the organ", "Black arrow points to
+        # ......". Labelling questions off a slide image, which is practical.py's
+        # material and not recoverable as MCQ from the text layer alone.
+        "DPT 3- CPS 104 - Final revision (1).pdf": "practical slide deck (labelling)",
+    },
+}
+PROSE_SOURCES = {}
+
+# Why a file that was opened yielded next to nothing. Not a filter -- these files
+# are extracted like any other -- but a low row count with no explanation beside
+# it reads exactly like a file nobody opened, and the two need to be tellable
+# apart. Carried onto the file's row and printed in bank.py's per-file table.
+MODULE_YIELD_NOTES = {
+    "101 ISK": {},
+    "104 CPS": {
+        "EOY Anatomy MCQ by Dr.Jalal [Thorax] Without Answers.pdf":
+            "Scanned so poorly that the option labels are gone: 1,697 lines of text "
+            "and one recognisable option marker in 44 pages. The stems are there and "
+            "the options are not, so nothing here can be trusted as transcribed. Its "
+            "questions are the same book as `EOY Anatomy MCQ by Dr.Jalal [Thorax].pdf`, "
+            "which is legible and yielded 104.",
+        "PHYSIO MCQ ELSHERIFTips & Tricks 104 - Dr. Elsherif 🐉🔥 (3).pdf":
+            "Not a question book but a companion to one: 176 items headed `Idea N "
+            "[DEP BOOK]` or `[Pervious Exam]`, each a stem, a `Correct Answer: B. ...` "
+            "and an Arabic explanation. 73 pages carry eight option-shaped lines in "
+            "total, so there are no distractors to transcribe. Its 145 stem-and-answer "
+            "pairs are an answer source for the DPT BOOK Physio papers, which is a "
+            "separate job -- 30 of them already match a bank stem exactly.",
+    },
+}
+YIELD_NOTES = {}
 
 
 def log(msg):
@@ -402,13 +584,203 @@ def parse_answer_key(pages):
     return key
 
 
+# ---------------------------------------------------------------- matching blocks
+#
+# Eight of 104's department histology papers end on a section headed
+# `(C) Match Column (A) with Column (B)`, set as two-column tables: five numbered
+# prompts on the left, seven lettered options on the right. Two of the seven
+# match nothing, and those two are the question -- a student who can name the
+# structure still has to notice which of two plausible descriptions is the one
+# the examiner means.
+#
+# parse_questions cannot see that. It reads `1. Post capillary venules` as a
+# stem and `a. Are fenestrated elongated endothelial cells.` as that stem's
+# option A, which flattens a five-against-seven discrimination into five
+# one-option fragments and throws the distractors away. So the block is found
+# first, its lines are handed to parse_questions as `skip`, and it comes out as
+# `questionType: "matching"` with matchingPrompts and matchingOptions intact --
+# the shape seeds/types.ts already carries.
+MATCH_START = re.compile(r"(?i)\bmatch\s+column\s*\(?\s*a")
+# `Table I`, `Table Il`, `Table lll`, `Table <0 006` -- the roman numeral is the
+# part OCR is worst at, so the label is taken as printed and only the word
+# `Table` at the start of a line is trusted to mean a new table began.
+MATCH_TABLE = re.compile(r"(?i)^\W{0,4}table\b\s*(.{0,8}?)\s*\W*$")
+# The answers page ends the section. It arrives with the page furniture the
+# scan leaves in front of it -- `| 1 Answers`, `Answers of Lymphatic` -- so a
+# few leading digits and rules are allowed before the word.
+MATCH_END = re.compile(r"(?i)^[\W\d]{0,8}(?:answers?\b|\(\s*[A-E]\s*\)\s*(?:multiple|problem|true|complete))")
+MATCH_COLUMN_HEAD = re.compile(r"(?i)^\W*column\s*[\(\{]?\s*[ab]")
+MATCH_PROMPT = re.compile(r"^\s*(\d{1,2})\s*[.,)]\s*(\S.*)$")
+# `a.`, `b)`, `c._`, `d -` and the Arabic letters and digits the scan puts in
+# their place. The label is only a signal that a row starts; which letter it is
+# comes from position -- the same rule, and for the same reason, as
+# repair-options.py's `resolve`: filing an option under the wrong letter is
+# worse than losing it.
+MATCH_OPTION = re.compile(r"^\s*([A-Za-zء-ي0-9¢©®€@]{1,2})\s*[.,)_\-]+\s*(\S.*)$")
+# A prompt or an option starting part-way along a line. The table rule between
+# the columns survives as `|` only sometimes; where it did not, the two columns
+# arrive as one line and the row has to be cut at its second label.
+MATCH_INLINE = re.compile(r"(?<=\s)(?=(?:\d{1,2}|[a-h])\s*[.,)_\-]+\s+\S)")
+MATCH_LETTERS = "abcdefgh"
+
+
+def _letters_by_position(found):
+    """[(printed_label, text)] -> {letter: text}, letters taken from position.
+
+    Same rule as repair-options.py's `resolve`, which is where it is tested: a
+    label the scan recognised keeps its letter, one it did not takes the letter
+    after it. Nothing is inferred from a mangled glyph's shape.
+    """
+    out, expected = {}, 0
+    for label, text in found:
+        low = (label or "").lower()
+        if len(low) == 1 and low in MATCH_LETTERS:
+            index = MATCH_LETTERS.index(low)
+            if index < expected - 1:
+                continue
+            expected = index + 1
+        else:
+            if expected >= len(MATCH_LETTERS):
+                continue
+            index = expected
+            expected += 1
+        out.setdefault(MATCH_LETTERS[index], text)
+    return out
+
+
+def find_matching_blocks(lines):
+    """Locate `Match Column (A) with Column (B)` sections.
+
+    Returns (set_of_line_indices, [block]) where a block is
+    {"page", "table", "prompts": [(n, text)], "options": [(label, text)]}.
+    """
+    n = len(lines)
+    consumed, blocks = set(), []
+    i = 0
+    while i < n:
+        if not MATCH_START.search(lines[i][1]):
+            i += 1
+            continue
+        start = i
+        j = i + 1
+        cur = None
+        section = []
+        while j < n:
+            text = lines[j][1]
+            if MATCH_END.match(text) or MATCH_START.search(text):
+                break
+            mt = MATCH_TABLE.match(text)
+            if mt:
+                if cur:
+                    section.append(cur)
+                # The numeral is named by its place in the section, not by what
+                # the scan made of the glyphs: `Table Il`, `Table <0 006` and
+                # `Table oe` are all the second table on the page, and reading
+                # them as printed produced three tables with unusable names. The
+                # printed form is kept beside it so the page stays findable.
+                printed = re.sub(r"\s+", " ", mt.group(1)).strip()
+                cur = {"page": lines[j][0], "table": len(section) + 1,
+                       "printedTable": printed, "prompts": [], "options": []}
+                j += 1
+                continue
+            if cur is None:
+                cur = {"page": lines[j][0], "table": None, "prompts": [], "options": []}
+            _read_matching_row(text, cur)
+            j += 1
+        if cur:
+            section.append(cur)
+        section = [b for b in section if len(b["prompts"]) >= 2 and len(b["options"]) >= 2]
+        if section:
+            consumed.update(range(start, j))
+            blocks.extend(section)
+            i = j
+        else:
+            i = start + 1
+    return consumed, blocks
+
+
+def _read_matching_row(text, block):
+    """Read one printed line of a matching table into `block`.
+
+    The two columns arrive separated by the table rule, which OCR renders as
+    `|`; a line may hold a prompt, an option, both, or the wrapped tail of
+    either. A cell that parses as neither continues whichever the same cell
+    last held, so `d. Isolation of developing thymocytes from contact` and its
+    orphaned `with antigens` stay one option.
+    """
+    if MATCH_COLUMN_HEAD.match(text):
+        return
+    for cell in re.split(r"[|│┃]", text):
+        for piece in MATCH_INLINE.split(cell):
+            piece = clean(piece)
+            if not piece or len(piece) < 2:
+                continue
+            mp = MATCH_PROMPT.match(piece)
+            if mp and len(mp.group(2)) > 3 and 1 <= int(mp.group(1)) <= 12:
+                block["prompts"].append([int(mp.group(1)), clean(mp.group(2))])
+                block["_last"] = ("prompts", len(block["prompts"]) - 1)
+                continue
+            mo = MATCH_OPTION.match(piece)
+            if mo and len(mo.group(2)) > 3:
+                block["options"].append([mo.group(1), clean(mo.group(2))])
+                block["_last"] = ("options", len(block["options"]) - 1)
+                continue
+            last = block.get("_last")
+            if last and 3 < len(piece) < 90:
+                which, index = last
+                block[which][index][1] = clean(block[which][index][1] + " " + piece)
+
+
+def matching_rows(info, blocks):
+    """Turn located blocks into mcq.json rows."""
+    rows = []
+    topic = topic_for(info["file"])
+    for b in blocks:
+        options = _letters_by_position(b["options"])
+        prompts = [{"number": num, "text": text} for num, text in b["prompts"]]
+        if len(prompts) < 2 or len(options) < 2:
+            continue
+        label = f"Table {b['table']}" if b["table"] else "Match Column (A) with Column (B)"
+        printed = b.get("printedTable")
+        rows.append({
+            "sourceId": info["sourceId"], "file": info["file"], "page": b["page"],
+            "number": b["prompts"][0][0], "questionType": "matching",
+            "stem": f"Match Column (A) with Column (B) — {label}",
+            "options": {},
+            "matchingPrompts": prompts,
+            "matchingOptions": options,
+            "distractorOptions": max(0, len(options) - len(prompts)),
+            "printedTableLabel": printed or None,
+            "answer": None, "answerSource": "none", "topic": topic,
+            # The pairing is printed as a grid on the answers page, and in every
+            # one of these eight files OCR reduced that grid to broken table
+            # rules. Recorded as unanswered rather than guessed.
+            "confidence": "medium" if info["method"] != "ocr" else "low",
+            "ocrNoise": info["method"] == "ocr",
+        })
+    return rows
+
+
 # ---------------------------------------------------------------- per file
-def load_manifest():
-    with open(MANIFEST, encoding="utf-8") as fh:
-        data = json.load(fh)
-    by_name = {}
-    for s in data["sources"]:
-        if s.get("moduleId") == "101 ISK" and s.get("sourceCategory") == "Instructor material":
+def load_manifest(module, categories):
+    """Manifest rows for a module's question books, one per *source*.
+
+    Deduplicated by sourceId, not by file name, because the manifest carries the
+    same PDF under two names: 104's `EOY Final 104, 199 (2) copy.pdf` and
+    `EOY Final 104, 199 (2).pdf` are one sha256 and one sourceId, which is why
+    the module has 47 rows and 46 sources. Keyed by name alone they are two
+    files, and the resumable `parts/` path -- which is the sourceId -- would
+    silently make the second a no-op that still printed as a file.
+    """
+    by_name, seen = {}, {}
+    for category in categories:
+        for s in module_sources(module, category=category):
+            first = seen.get(s["sourceId"])
+            if first is not None:
+                log("DUPLICATE-SOURCE %s: %r is %r again, skipped"
+                    % (s["sourceId"], s["fileName"], first))
+                continue
+            seen[s["sourceId"]] = s["fileName"]
             by_name[s["fileName"]] = s
     return by_name
 
@@ -441,6 +813,7 @@ def get_pages(entry, info):
                 info["capped"] = True
                 info["pagesRemaining"] = npages - len(pages)
         info["pagesRead"] = len(pages)
+        report_textlayer_fallback(entry, "ocr" if info["method"] == "ocr" else "native")
 
     with open(cache, "w", encoding="utf-8") as fh:
         json.dump({"pages": pages, "method": info["method"],
@@ -459,25 +832,30 @@ def extract_file(entry):
 
     pages = get_pages(entry, info)
     if not pages:
-        return info, [], {}
+        return info, [], {}, []
 
     if name in KEY_FILES:
         key = parse_answer_key(pages)
         info["role"] = "answer-key"
         info["keyEntries"] = len(key)
-        return info, [], key
+        return info, [], key, []
 
     lines = flatten(pages)
     skip, blocks = find_key_blocks(lines)
+    # Matching tables are taken out before the MCQ walk, not after: their rows
+    # read as one-option questions, and once flattened the option bank is gone.
+    match_skip, match_blocks = find_matching_blocks(lines)
+    skip = skip | match_skip
     questions = parse_questions(lines, skip)
     matched = apply_inline_keys(questions, blocks)
     info["inFileAnswerGrids"] = len(blocks)
     info["answersFromInFileGrid"] = matched
-    return info, questions, {}
+    info["matchingBlocks"] = len(match_blocks)
+    return info, questions, {}, match_blocks
 
 
-def finalise(info, questions, key, key_from):
-    rows = []
+def finalise(info, questions, key, key_from, match_blocks=()):
+    rows = list(matching_rows(info, match_blocks))
     method = info["method"]
     topic = topic_for(info["file"])
     for q in questions:
@@ -491,6 +869,17 @@ def finalise(info, questions, key, key_from):
             if k:
                 answer = k
                 asrc = "answer-key"
+        # A pen ring on the scan is an answer nothing in the text can supply, so
+        # it is taken when the text has none -- but it is never allowed to
+        # overwrite a printed one, and a disagreement is recorded, not resolved.
+        recovered = HANDWRITTEN.get((info["sourceId"], q["number"]))
+        disagrees = None
+        if recovered:
+            if not answer:
+                answer = recovered["answer"]
+                asrc = "handwritten-recovered"
+            elif answer != recovered["answer"]:
+                disagrees = recovered["answer"]
         stem = q["stem"]
         nr = max(noise_ratio(stem), noise_ratio(" ".join(opts.values())))
         ocr_noise = method == "ocr" and nr > 0.05
@@ -517,15 +906,54 @@ def finalise(info, questions, key, key_from):
         }
         if unresolved:
             row["unresolvedAnswerLetter"] = unresolved
+        if recovered:
+            # Provenance a reviewer can act on: this letter was read off a scan
+            # by eye, not printed by the paper. `handwrittenConfidence` is the
+            # reader's own confidence in the mark and is carried even when the
+            # mark lost to a printed answer -- one question in the 2023 EOM has
+            # a bold ring on one option and a fainter mark near another, and it
+            # must not enter the bank looking as certain as the other 119.
+            row["handwrittenAnswer"] = recovered["answer"]
+            row["handwrittenConfidence"] = recovered["confidence"]
+            row["handwrittenMarkForm"] = recovered["markForm"]
+            if recovered["fromSourceId"] != info["sourceId"]:
+                row["handwrittenReadFromSourceId"] = recovered["fromSourceId"]
+            if recovered.get("marginalia"):
+                row["handwrittenMarginalia"] = recovered["marginalia"]
+            if disagrees:
+                row["handwrittenDisagreesWithText"] = disagrees
+            if asrc == "handwritten-recovered" and recovered["confidence"] != "high":
+                # A medium-confidence ring is not a high-confidence question,
+                # whatever the option text and OCR quality say about the stem.
+                conf = "low" if recovered["confidence"] == "low" else "medium"
+                row["confidence"] = conf
         if info["file"] in POOR_OCR:
             row["needsManualTranscription"] = True
         if asrc == "answer-key":
             row["answerKeyFile"] = key_from
         rows.append(row)
+    note = YIELD_NOTES.get(info["file"])
+    if note:
+        info["yieldNote"] = note
+    prose = PROSE_SOURCES.get(info["file"])
+    if prose:
+        info["notAQuestionBook"] = prose
+        for row in rows:
+            row["notAQuestionBook"] = prose
     info["extracted"] = len(rows)
     info["mcqRows"] = sum(1 for r in rows if r["questionType"] == "mcq")
+    info["matchingRows"] = sum(1 for r in rows if r["questionType"] == "matching")
     info["noOptionRows"] = sum(1 for r in rows if r["questionType"] == "no-options")
     info["withAnswer"] = sum(1 for r in rows if r["answer"])
+    recovered_rows = [r for r in rows if r["answerSource"] == "handwritten-recovered"]
+    if recovered_rows or any(r.get("handwrittenAnswer") for r in rows):
+        info["handwrittenAnswersAttached"] = len(recovered_rows)
+        info["handwrittenAnswersAvailable"] = sum(
+            1 for k in HANDWRITTEN if k[0] == info["sourceId"])
+        info["handwrittenNotHigh"] = sorted(
+            r["number"] for r in recovered_rows if r["handwrittenConfidence"] != "high")
+        info["handwrittenDisagreements"] = sorted(
+            r["number"] for r in rows if r.get("handwrittenDisagreesWithText"))
     return rows
 
 
@@ -539,11 +967,15 @@ def merge_and_write():
         files.append(part["info"])
         questions.extend(part["questions"])
     doc = {
-        "generatedFrom": "Kasr Al Ainy corpus, module 101 ISK, sourceCategory 'Instructor material' "
-                         "(paths resolved via docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json)",
+        "generatedFrom": "Kasr Al Ainy corpus, module " + MODULE +
+                         ", sourceCategory " +
+                         " + ".join(repr(c) for c in CATEGORIES) +
+                         " (paths resolved via docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json)",
+        "sourceCategories": list(CATEGORIES),
         "ocrPageCap": OCR_PAGE_CAP,
         "totalQuestions": len(questions),
         "totalMcq": sum(1 for q in questions if q["questionType"] == "mcq"),
+        "totalMatching": sum(1 for q in questions if q["questionType"] == "matching"),
         "totalWithAnswer": sum(1 for q in questions if q["answer"]),
         "files": files,
         "questions": questions,
@@ -555,16 +987,66 @@ def merge_and_write():
     return len(questions)
 
 
-def main():
+USAGE = __doc__
+
+
+def parse_categories(argv):
+    """Pull repeated `--category X` out of argv; empty means 'use the default'."""
+    picked, rest, i = [], [], 0
+    while i < len(argv):
+        arg = argv[i]
+        if arg == "--category":
+            if i + 1 >= len(argv):
+                raise SystemExit('--category needs a name, e.g. --category "Department Questions"')
+            picked.append(argv[i + 1])
+            i += 2
+            continue
+        if arg.startswith("--category="):
+            picked.append(arg.split("=", 1)[1])
+            i += 1
+            continue
+        rest.append(arg)
+        i += 1
+    return picked, rest
+
+
+def main(argv):
+    global MODULE, PARTS, TEXTCACHE, OUT, CATEGORIES, ANSWER_PAIRS, KEY_FILES, \
+        POOR_OCR, TOPIC_RULES, PROSE_SOURCES, YIELD_NOTES, HANDWRITTEN
+    if "--help" in argv or "-h" in argv:
+        print(USAGE)
+        return
+    MODULE, argv = parse_module(argv)
+    picked, argv = parse_categories(argv)
+    if argv:
+        raise SystemExit("unexpected arguments: %s\n%s" % (" ".join(argv), USAGE))
+    CATEGORIES = picked or MODULE_CATEGORIES.get(MODULE, DEFAULT_CATEGORIES)
+    ANSWER_PAIRS = MODULE_ANSWER_PAIRS.get(MODULE, {})
+    KEY_FILES = set(ANSWER_PAIRS.values())
+    POOR_OCR = MODULE_POOR_OCR.get(MODULE, set())
+    PROSE_SOURCES = MODULE_PROSE_SOURCES.get(MODULE, {})
+    YIELD_NOTES = MODULE_YIELD_NOTES.get(MODULE, {})
+    TOPIC_RULES = MODULE_TOPIC_RULES.get(MODULE, TOPIC_RULES_101)
+    HANDWRITTEN = load_handwritten(MODULE)
+    if HANDWRITTEN:
+        log("handwritten answers: %d recovered marks across %d paper(s)"
+            % (len(HANDWRITTEN), len({k[0] for k in HANDWRITTEN})))
+    PARTS = out_path(MODULE, "parts")
+    TEXTCACHE = out_path(MODULE, "pagetext")
+    OUT = out_path(MODULE, "mcq.json")
+
     os.makedirs(PARTS, exist_ok=True)
     os.makedirs(TEXTCACHE, exist_ok=True)
-    by_name = load_manifest()
-    missing = [t for t in TARGETS if t not in by_name]
+    by_name = load_manifest(MODULE, CATEGORIES)
+    log("module %s | categories %s -> %s"
+        % (MODULE, ", ".join(CATEGORIES), os.path.relpath(OUT, os.getcwd())))
+    targets = MODULE_TARGETS.get(MODULE) or sorted(by_name)
+    missing = [t for t in targets if t not in by_name]
     for t in missing:
         log(f"MANIFEST-MISS {t}")
 
     # answer keys first so pairing has them available
-    order = [t for t in TARGETS if t in KEY_FILES] + [t for t in TARGETS if t not in KEY_FILES]
+    order = [t for t in targets if t in KEY_FILES] + [t for t in targets if t not in KEY_FILES]
     keys_by_file = {}
 
     for name in order:
@@ -580,12 +1062,12 @@ def main():
             log(f"SKIP  {name} (already done, {cached['info'].get('extracted', 0)} q)")
             continue
         try:
-            info, questions, key = extract_file(entry)
+            info, questions, key, match_blocks = extract_file(entry)
         except Exception as exc:
             info = {"file": name, "sourceId": entry["sourceId"],
                     "pages": entry.get("pageCount"), "pagesRead": 0, "capped": False,
                     "extracted": 0, "method": "none", "error": f"{type(exc).__name__}: {exc}"}
-            questions, key = [], {}
+            questions, key, match_blocks = [], {}, []
 
         key_from = ANSWER_PAIRS.get(name)
         pair_key = {}
@@ -594,7 +1076,7 @@ def main():
             pair_key = {int(k): v for k, v in raw.items()}
             info["answerKeyFile"] = key_from
             info["answerKeyEntries"] = len(pair_key)
-        rows = finalise(info, questions, pair_key, key_from)
+        rows = finalise(info, questions, pair_key, key_from, match_blocks)
 
         with open(part_path, "w", encoding="utf-8") as fh:
             json.dump({"info": info, "questions": rows,
@@ -602,7 +1084,8 @@ def main():
         if key:
             keys_by_file[name] = {str(k): v for k, v in key.items()}
         log(f"DONE  {name} | method={info['method']} pages={info['pagesRead']}/{info.get('pages')} "
-            f"capped={info['capped']} q={info['extracted']} "
+            f"capped={info['capped']} q={info['extracted']} mcq={info.get('mcqRows', 0)} "
+            f"match={info.get('matchingRows', 0)} "
             f"key={len(key) if key else ''} err={info.get('error','')}")
         total = merge_and_write()
         log(f"      merged -> {total} questions total")
@@ -612,4 +1095,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

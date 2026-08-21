@@ -15,7 +15,7 @@ import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '..
 import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
 import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
-import { isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
+import { isChoiceFormat, isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
@@ -37,8 +37,35 @@ if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with
  * `--with` names those siblings explicitly. It widens what counts as existing;
  * it never suppresses an error, and a file not named here still has to be real.
  */
-const alongside = process.argv.slice(3).reduce((files, arg, index, argv) => {
-  if (arg === '--with' && argv[index + 1]) files.push(argv[index + 1])
+const rest = process.argv.slice(3)
+
+// A `--with` list built in a shell variable arrives as ONE argument, not many:
+// zsh does not word-split an unquoted expansion, and `npm run … -- $vars` has
+// the same effect. The old parser matched `arg === '--with'`, found nothing,
+// and validated against an empty sibling set — reporting hundreds of errors on
+// a batch that is clean, or none on one that is not, with nothing said either
+// way. It has now cost three sessions a wrong measurement, including mine.
+//
+// So this errors on anything it cannot read rather than skipping it. A parser
+// that silently ignores what it does not recognise loses the thing it was given.
+for (const arg of rest) {
+  if (arg === '--with' || rest[rest.indexOf(arg) - 1] === '--with') continue
+  if (arg.includes('--with')) {
+    throw new Error(
+      `Sibling list arrived as one argument:\n  ${arg.slice(0, 120)}${arg.length > 120 ? '…' : ''}\n\n`
+      + 'The shell did not split it. In zsh an unquoted `$vars` is a single word — build an array instead:\n'
+      + '  args=(); for f in docs/.../concept/*.md; do args+=(--with "$f"); done\n'
+      + '  node --experimental-strip-types scripts/validate-content-batch.mjs <batch> "${args[@]}"\n'
+      + 'and check the output says "N rows treated as pending import" before trusting an error count.')
+  }
+  throw new Error(`Unrecognised argument "${arg}". Only --with <file> is accepted after the batch path.`)
+}
+
+const alongside = rest.reduce((files, arg, index, argv) => {
+  if (arg === '--with') {
+    if (!argv[index + 1]) throw new Error('--with was given with no file after it')
+    files.push(argv[index + 1])
+  }
   return files
 }, [])
 
@@ -84,6 +111,77 @@ if (!VALIDATED_KINDS.includes(kind)) {
   )
   console.log(JSON.stringify({ file, kind, items: rows.length, notes, errors }, null, 1))
   process.exit(1)
+}
+
+/**
+ * Fold `--with` siblings in as though already imported.
+ *
+ * Both the question branch and the practical branch resolve concepts against
+ * live state, deliberately — an item pointing at a concept nobody authored is
+ * the failure those checks exist to catch. But a programme authoring concepts,
+ * articles, questions and practicals in one pass has none of them imported yet.
+ *
+ * This started life inside the question branch only, which meant a practical
+ * batch could not be checked against its own sibling concepts at all: 91 errors
+ * on a file whose concepts were sitting in the next directory. One function,
+ * called by both.
+ */
+async function foldInSiblings(concepts, articles, resources) {
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    const kind = detectKind(rows[0] ?? {})
+    for (const row of rows) {
+      const id = row.id?.trim()
+      if (!id) continue
+      if (kind === 'concept') {
+        // `article_ids` on the concept row is not decoration: `conceptImport.ts`
+        // reads it straight into `articleIds`, so a concept authored with it
+        // arrives at import already knowing what teaches it. Dropping it here
+        // made the coverage check one-directional, and reported 247 questions
+        // as untaught whose concepts named their article perfectly well.
+        // Merged, not overwritten. A concept may be authored in two batches —
+        // once from the papers and once from the question books — and the two
+        // name the articles they each know about. Replacing on the second file
+        // meant whichever batch happened to be listed last decided what taught
+        // the concept, and a concept whose paper batch omitted the column lost
+        // the article its question-book batch had named.
+        const already = concepts.get(id)
+        concepts.set(id, {
+          id,
+          publicationStatus: row.publication_status?.trim() ?? already?.publicationStatus,
+          articleIds: [...new Set([
+            ...(already?.articleIds ?? []),
+            ...(row.article_ids ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean),
+          ])],
+          pending: sibling,
+        })
+      }
+      if (kind === 'article' && articles) {
+        articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
+      }
+      if (kind === 'resource' && resources) resources.add(id)
+    }
+    notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
+  }
+
+  // The other direction. An article's `related_concepts` also puts its ID on the
+  // concept record at import, so coverage is the union of the two — a link
+  // authored from either side is a link the importer will make. A concept and an article both waiting to be imported would
+  // otherwise look, to the coverage check, like a concept nothing teaches — so
+  // the same link is made here, from the article side, exactly as the importer
+  // makes it.
+  for (const sibling of alongside) {
+    const rows = parseMarkdown(await readFile(sibling, 'utf8'))
+    if (detectKind(rows[0] ?? {}) !== 'article') continue
+    for (const row of rows) {
+      const articleId = row.id?.trim()
+      if (!articleId) continue
+      for (const conceptId of (row.related_concepts ?? '').split(/[|;\n]/).map((one) => one.trim()).filter(Boolean)) {
+        const concept = concepts.get(conceptId)
+        if (concept) concept.articleIds = [...new Set([...(concept.articleIds ?? []), articleId])]
+      }
+    }
+  }
 }
 
 if (kind === 'relation') {
@@ -141,21 +239,9 @@ if (kind === 'question') {
   const articles = new Map(ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item]))
   const resources = new Set(ledger.filter((item) => item.kind === 'resource').map((item) => item.id))
 
-  // Siblings named with `--with`, folded in as though already imported. Each is
-  // parsed with the same parser and classified by the same detector, so a file
-  // that is not what it claims to be contributes nothing and the question that
-  // depended on it still fails.
-  for (const sibling of alongside) {
-    const siblingRows = parseMarkdown(await readFile(sibling, 'utf8'))
-    const siblingKind = detectKind(siblingRows[0] ?? {})
-    for (const row of siblingRows) {
-      if (!row.id?.trim()) continue
-      if (siblingKind === 'concept') concepts.set(row.id.trim(), { id: row.id.trim(), publicationStatus: row.publication_status?.trim(), pending: sibling })
-      if (siblingKind === 'article') articles.set(row.id.trim(), { id: row.id.trim(), status: row.status ?? 'Draft', pending: sibling })
-      if (siblingKind === 'resource') resources.add(row.id.trim())
-    }
-    notes.push(`${sibling}: ${siblingRows.length} ${siblingKind} rows treated as pending import`)
-  }
+  await foldInSiblings(concepts, articles, resources)
+
+
 
   const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
@@ -175,13 +261,33 @@ if (kind === 'question') {
     // What a well-formed item looks like depends on its format. A written
     // question has no lettered options at all, and checking it for four of them
     // reported an entire end-of-year paper as sixteen broken questions.
-    if (isWrittenFormat(parseQuestionFormat(values.format))) {
+    //
+    // That fix was half a fix. `matching`, `completion` and `labeling` are not
+    // written formats either, and they have no lettered options and no single
+    // correct letter — so they fell through to the `else` and came back as
+    // "0 options — the contract is 4 to 5" for questions that were entirely
+    // well formed. Fixing one half of a format-aware check and not auditing the
+    // others is how this recurs.
+    //
+    // Their contracts are real and are already checked, by `matchingErrors`,
+    // `completionErrors` and `labelingErrors` through `validateImportRow`
+    // above. What is needed here is only that the option checks do not run.
+    const format = parseQuestionFormat(values.format) ?? 'mcq_single_best'
+    if (isWrittenFormat(format)) {
       // The mark scheme is to a written question what the options are to a
       // single-best-answer one: without it there is nothing to practise
       // against, and `markWritten` scores a part with no points as zero.
       const parts = data.writtenParts ?? []
       if (!parts.length) {
-        errors.push(`${where}: no written_parts — a written question with no parts cannot be marked`)
+        // Distinguish an empty column from one whose headings did not parse.
+        // Both leave a question unmarkable, but only one is an authoring
+        // omission — the other is a heading shape the parser does not know,
+        // and saying "no written_parts" about a column full of them sends the
+        // author looking in the wrong place.
+        const headings = (values.written_parts ?? '').split('\n').filter((line) => line.trim().startsWith('###')).length
+        errors.push(headings
+          ? `${where}: written_parts has ${headings} "###" heading${headings === 1 ? '' : 's'} and none of them parsed — check the label and marks format`
+          : `${where}: no written_parts — a written question with no parts cannot be marked`)
       }
       for (const part of parts) {
         if (!part.expectedPoints.length) {
@@ -190,7 +296,7 @@ if (kind === 'question') {
         if (!part.prompt.trim()) errors.push(`${where}: part (${part.label}) has no prompt`)
         if (!(part.marks > 0)) errors.push(`${where}: part (${part.label}) is worth no marks`)
       }
-    } else {
+    } else if (isChoiceFormat(format)) {
       // Options and their explanations. An option without an explanation teaches
       // nothing, which is the one thing this content type exists to do.
       const answered = data.answers.filter((answer) => answer.text.trim())
@@ -285,6 +391,7 @@ if (kind === 'practical') {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
   const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
+  await foldInSiblings(concepts)
 
   const known = new Set(IMPORT_SCHEMAS.practical.fields.map((field) => field.key))
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
@@ -462,7 +569,16 @@ if (kind !== 'concept') {
   // tried and broke the moment a span batch and its claims lived in files with
   // different stems.
   const dir = dirname(file)
-  const siblings = (await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name))
+  // Siblings in this directory, plus anything named with `--with`. The
+  // directory rule is right for evidence batches that reference each other, and
+  // wrong for the one reference that crosses out of it: a claim names a
+  // concept, and concepts are authored in `concept/` because that is what they
+  // are. Without this every claim in a 1,253-claim batch failed with "Concept …
+  // does not exist" while the concept sat validated one directory away.
+  const siblings = [
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ]
   const everything = { concept: [], article: [], resource: [], claim: [], citation: [], span: [], relation: [] }
   for (const path of siblings) {
     const parsed = parseMarkdown(await readFile(path, 'utf8'))

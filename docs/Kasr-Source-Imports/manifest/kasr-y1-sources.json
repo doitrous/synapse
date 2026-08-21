@@ -4,7 +4,7 @@
  "universityId": "kau",
  "yearId": "KAU_Y1",
  "corpusRoot": "/Users/doitrous/Desktop/Kasr Alainy",
- "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.",
+ "note": "Batch code and calendar year are both recorded and never merged. See yearConflict, and the open question in docs/medical-library-program/KASR-SOURCE-EXTRACTION-PLAN.md §8.\n\nThree 101 ISK rows were corrected by reading the paper rather than the filename: two exam years (src_ce4292e31edea7517e7b 2023->2022, src_9487fd713153c573087f 2021->2020) and one solved flag (src_9e6aad6c6af097e473d6); one mis-categorised row (src_415d10984252678d4a7a, all-MCQ filed as Written Questions); two rows carrying a subject this module does not teach; and one row whose printed module code and content disagree (src_9487fd713153c573087f), recorded as `moduleConflict` rather than resolved. Each carries a `correction` field saying what was read and where. A regeneration that derives the year from the filename will silently undo these, so it must preserve any row carrying `correction`.",
  "moduleSubjectDeclarations": [
   {
    "moduleId": "101 ISK",
@@ -306,7 +306,8 @@
    "pageCount": 108,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_51fef9b6234c5d381f59",
@@ -974,7 +975,8 @@
    "pageCount": 1,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_530685004e73e670a4ed",
@@ -1016,7 +1018,8 @@
    "pageCount": 8,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d2867e081b0590fcee47",
@@ -1053,7 +1056,8 @@
    "pageCount": 8,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_f3d7ac13bbc97156212f",
@@ -1090,7 +1094,8 @@
    "pageCount": 16,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_b1e6dc481eaf337268d0",
@@ -1164,7 +1169,8 @@
    "pageCount": 42,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_ce4292e31edea7517e7b",
@@ -1191,8 +1197,8 @@
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": 2023,
    "yearConflict": null,
-   "examSittingYear": 2023,
-   "examSittingYearSource": "calendar label on the file",
+   "examSittingYear": 2022,
+   "examSittingYearSource": "printed on the paper: \"Date: 10/12/2022\"",
    "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
@@ -1201,7 +1207,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "The filename says 2023 and the cover says 10/12/2022. The year was taken from the calendar label on the file, which is the collector's name for it, not the examiner's date. Read from the rendered cover — the file has no text layer."
   },
   {
    "sourceId": "src_9e6aad6c6af097e473d6",
@@ -1218,7 +1225,7 @@
    "sourceCategory": "EOM",
    "instructor": null,
    "crossModulePractical": false,
-   "subject": "Biochemistry",
+   "subject": null,
    "examType": "EOM",
    "bookKind": null,
    "sourceTier": 2,
@@ -1230,7 +1237,7 @@
    "yearConflict": null,
    "examSittingYear": 2021,
    "examSittingYearSource": "derived from batch code",
-   "solvedStatus": "solved",
+   "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
    "appliedNoteInstructions": [],
@@ -1238,7 +1245,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Filename says \"Answers\" and the manifest recorded it solved; the paper carries no answers. It is the unsolved copy of the same 18/12/2021 sitting as src_17bf088a37f1ab6540a3, which is the solved one. Answer keys on these papers are pink highlights and hand-circles, never text, so a text-layer test cannot see them either way. Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed."
   },
   {
    "sourceId": "src_16f747e1171423933757",
@@ -1275,7 +1283,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_a54bbf7a625ba2b172fc",
@@ -1329,7 +1338,7 @@
    "sourceCategory": "EOM",
    "instructor": null,
    "crossModulePractical": false,
-   "subject": "Biochemistry",
+   "subject": null,
    "examType": "EOM",
    "bookKind": null,
    "sourceTier": 2,
@@ -1349,7 +1358,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Subject was \"Biochemistry\"; 101 ISK's own NOTE declares only Anatomy and Histology, and the sibling rows for this module say Histology. The value came from the sha-keyed intake plan rather than from the folder, so it is cleared rather than guessed."
   },
   {
    "sourceId": "src_9487fd713153c573087f",
@@ -1371,13 +1381,13 @@
    "bookKind": null,
    "sourceTier": 2,
    "folderPriorityLabel": null,
-   "examSitting": "second",
+   "examSitting": null,
    "rawYearCode": null,
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": 2021,
    "yearConflict": null,
-   "examSittingYear": 2021,
-   "examSittingYearSource": "calendar label on the file",
+   "examSittingYear": 2020,
+   "examSittingYearSource": "printed on the paper: \"Date: 24/12/2020\"",
    "solvedStatus": null,
    "oldSystemExcluded": false,
    "exclusionReason": null,
@@ -1386,7 +1396,9 @@
    "pageCount": 6,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "The filename says 2021 and the cover says 24/12/2020, Module INT-101, Total Marks 24, 48 MCQs. Read from the rendered cover — the file has no text layer.",
+   "moduleConflict": "The cover reads \"END Module: INT-101\" where every 101 ISK end-of-module paper reads \"Module Code: ISK-101\", and its shape — 48 MCQs, 24 marks, 6 pages — is nothing like the 120-MCQ, 72-mark, 11-page shape of the 101 ISK papers. But its questions are histology and cytology (iron haematoxylin, mitochondria, centrioles), which is 101 ISK material and not 102 INT material. Code and content disagree, so the row is left under 101 ISK with the disagreement recorded rather than moved on one of the two. A faculty reader should settle it. It also carried examSitting \"second\" while the filename says \"first\"."
   },
   {
    "sourceId": "src_e2593cfba37af83a33ad",
@@ -1423,7 +1435,8 @@
    "pageCount": 10,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_f6963dc2526125ed37ca",
@@ -1460,7 +1473,8 @@
    "pageCount": 10,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_8cb257f4b6a6dcd730d0",
@@ -1497,7 +1511,8 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d5ad8bf946386b0e8502",
@@ -1534,7 +1549,8 @@
    "pageCount": 15,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_c58336a4f2f0a172b4fe",
@@ -1734,7 +1750,8 @@
    "pageCount": 3,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_aebc782c66775704ed21",
@@ -1771,7 +1788,8 @@
    "pageCount": 1,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_3c0f852bd6e451c4de1b",
@@ -1808,7 +1826,8 @@
    "pageCount": 2,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_204de291b4763ebc9304",
@@ -2255,7 +2274,8 @@
    "pageCount": 11,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_2c5f9feaf14543e6434a",
@@ -2403,7 +2423,8 @@
    "pageCount": 13,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_16a1d5798d00e596a388",
@@ -2440,7 +2461,8 @@
    "pageCount": 2,
    "textLayer": "native",
    "processingStatus": "pending",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_450c71dc6273b2e64ca3",
@@ -2477,7 +2499,8 @@
    "pageCount": 15,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_d56198df979fc164f6c6",
@@ -2514,7 +2537,8 @@
    "pageCount": 12,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_0abbf6bc25c43a087d36",
@@ -2551,7 +2575,8 @@
    "pageCount": 18,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_79ef34f0f9d8de85acae",
@@ -2588,7 +2613,8 @@
    "pageCount": 10,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_34c967631e388497dc35",
@@ -3001,7 +3027,8 @@
    "extractionDisposition": null,
    "duplicateOf": [
     "y1/101 ISK/EOY/EOY Anatomy cases 1st year 2025-1 (2).pdf"
-   ]
+   ],
+   "examSittingYearChecked": "the paper prints no date at all; the filename is the only evidence there is"
   },
   {
    "sourceId": "src_415d10984252678d4a7a",
@@ -3015,7 +3042,7 @@
    "moduleId": "101 ISK",
    "secondaryModule": null,
    "moduleSubjectPath": null,
-   "sourceCategory": "Written Questions",
+   "sourceCategory": "Instructor material",
    "instructor": null,
    "crossModulePractical": false,
    "subject": "Anatomy",
@@ -3023,7 +3050,7 @@
    "bookKind": null,
    "sourceTier": 5,
    "folderPriorityLabel": null,
-   "examSitting": "second",
+   "examSitting": null,
    "rawYearCode": null,
    "batchImpliesCalendarYear": null,
    "calendarYearLabel": null,
@@ -3038,7 +3065,8 @@
    "pageCount": 10,
    "textLayer": "none",
    "processingStatus": "ocr_required",
-   "extractionDisposition": null
+   "extractionDisposition": null,
+   "correction": "Was sourceCategory \"Written Questions\" on a file that is entirely multiple choice — 10 scanned pages, answers circled by hand. Also carried examSitting \"second\" on a formative that has no sitting. Its first 15 questions are the same items as src_3bc051c300a8e15045d8, which is the clean 2-page digital original; take the stems from that and the answers from this."
   },
   {
    "sourceId": "src_3bd5aa772ae6988961e2",

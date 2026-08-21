@@ -1,20 +1,30 @@
 /**
  * The 2025 end-of-year paper for 101 ISK, as data.
  *
- * `EOY (ISK - 101) 199` — sixteen questions, eighty-one marks: six in Histology
- * and ten in Anatomy, of which the last two are cases. Written questions
- * throughout; not one multiple-choice item on it, which is what the module's
- * orientation says the paper is.
+ * `EOY (ISK - 101) 199` — sixteen written questions, eighty-one marks: six in
+ * Histology and ten in Anatomy, of which the last two are cases.
+ *
+ * It is NOT the whole paper. At the foot of the Histology section it prints
+ * `+26 MCQ {½ Mark each}` and then not a single one of them, in this copy or
+ * the solved one. So the real paper is 94 marks and this corpus holds 81 of
+ * them; the other thirteen are twenty-six questions nobody here has seen.
+ *
+ * I originally recorded this paper as having no multiple-choice items at all,
+ * in three commit messages and two batch headers, on the strength of the
+ * printed questions all being written ones. The line saying otherwise is one
+ * line, in the middle of a table, five pages in. It was a parallel session
+ * reading the same PDF that caught it.
  */
 import type { Paper, Scheme, Seed, SourceRef } from './types.ts'
 
 /** The manifest row this paper is. */
 export const SOURCE: SourceRef = {
-  id: 'src_kau_y1_101_eoy_199',
+  id: 'src_8cb257f4b6a6dcd730d0',
   file: 'EOY (ISK - 101) 199 (1).pdf',
   sittingYear: 2025,
   tier: 'end_of_year',
   sections: ['Histology', 'Anatomy'],
+  incomplete: '26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.',
 }
 
 
@@ -24,7 +34,7 @@ export const SEEDS: Seed[] = [
     asked: 'Compare between Eosinophils & Neutrophils regarding (Differential count, Shape of nucleus and LM cytoplasmic granules).',
     label: 'Eosinophils and neutrophils are told apart by count, nuclear lobes and granule staining',
     key: 'eosinophil-versus-neutrophil-light-microscopy',
-    definition: 'Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 2–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.',
+    definition: 'Neutrophils are the commonest leukocyte at 60–70% of the differential count, with a nucleus of two to five lobes and fine granules that take neither dye strongly. Eosinophils are 1–4%, with a characteristically bilobed nucleus and coarse granules that stain deeply with eosin.',
     objective: 'Distinguish eosinophils from neutrophils on a stained film by differential count, nuclear shape and granule staining.',
     pitfall: 'Counting lobes alone. A young neutrophil may be bilobed; the granules, not the nucleus, are what settle it.',
     subject: 'haem', primary: 'DIS-HIS-T02', secondary: ['SYS-HEM-T01-S01-M02'],
@@ -59,10 +69,14 @@ export const SEEDS: Seed[] = [
     q: 4, section: 'Histology', page: 3, marks: 4,
     asked: 'Mention EM of types of Lysosomes.',
     label: 'Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate',
-    key: 'lysosome-types-electron-microscopy',
-    definition: 'A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.',
-    objective: 'Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.',
-    pitfall: 'Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.',
+    // The cluster key. This paper asks the electron-microscopic picture; five
+    // other papers ask the three secondary subtypes by what the primary
+    // lysosome fused with, and the department's own July 2023 model answer
+    // marks exactly that. One objective, asked from either end.
+    key: 'lysosome-types-secondary-fates',
+    definition: 'A primary lysosome is a newly released homogeneous, moderately electron-dense vesicle budded from the Golgi, whose acid hydrolases have not yet acted. Secondary lysosomes are heterogeneous and of three types, named by what the primary lysosome fused with: the heterolysosome, from a phagosome, digesting solid particles, viruses and bacteria; the multivesicular body, from a pinocytic vesicle, with fluid content; and the autolysosome, from an autophagic vesicle, holding a destroyed endogenous substance or a damaged organelle. A residual body is the end state, holding indigestible material.',
+    objective: 'Distinguish primary from secondary lysosomes on electron microscopy, and name the three secondary types by what the primary lysosome fused with.',
+    pitfall: 'Naming the three secondary types and stopping. The department’s own model answer gives half a mark for the name and half for the mechanism of formation, so a list of three names scores half of what it could.',
     subject: 'fnd', primary: 'DIS-HIS-T01', secondary: [],
     modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
     type: 'structural_description',
@@ -143,7 +157,7 @@ export const SEEDS: Seed[] = [
     q: 5, section: 'Anatomy', page: 11, marks: 7,
     asked: 'Mention attachment, action and nerve supply of Pectoralis Major.',
     label: 'Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves',
-    key: 'pectoralis-major-attachment-action-nerve',
+    key: 'pectoralis-major-attachment-nerve-action',
     definition: 'Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.',
     objective: 'Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.',
     pitfall: 'Giving one action for the whole muscle. The two heads oppose each other in flexion and extension, which is why the question asks for both.',
@@ -155,7 +169,7 @@ export const SEEDS: Seed[] = [
     q: 6, section: 'Anatomy', page: 12, marks: 7,
     asked: 'Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm.',
     label: 'The radial nerve arises from the posterior cord, C5–T1, and branches in axilla and arm',
-    key: 'radial-nerve-origin-roots-branches',
+    key: 'radial-nerve-origin-root-branches',
     definition: 'The radial nerve is the largest branch of the posterior cord of the brachial plexus, root value C5 to T1. In the axilla it gives muscular branches to the long and medial heads of triceps and the posterior cutaneous nerve of the arm. In the arm it gives branches to the lateral and medial heads of triceps and anconeus, the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm, before dividing into superficial and deep terminal branches.',
     objective: 'State the origin and root value of the radial nerve and list its branches in the axilla and the arm.',
     pitfall: 'Giving the root value as C5–C8. The radial nerve carries T1, and dropping it changes which lesions are predicted to affect it.',
@@ -167,10 +181,14 @@ export const SEEDS: Seed[] = [
     q: 7, section: 'Anatomy', page: 13, marks: 7,
     asked: 'Describe site, formation and branches of the Deep Palmer Arch.',
     label: 'The deep palmar arch is the radial artery’s termination, lying a finger’s breadth proximal to the superficial arch',
-    key: 'deep-palmar-arch-site-formation-branches',
-    definition: 'The deep palmar arch lies on the bases of the metacarpals deep to the long flexor tendons, about a finger’s breadth proximal to the superficial arch, at the level of the proximal border of the extended thumb. It is formed mainly by the terminal part of the radial artery, completed medially by the deep branch of the ulnar artery. It gives three palmar metacarpal arteries, perforating branches to the dorsal metacarpal arteries, and recurrent branches to the carpal arch.',
-    objective: 'Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.',
-    pitfall: 'Swapping the two arches. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal.',
+    // The cluster key, not a deep-arch-only one: this paper asks the deep arch,
+    // but the 2024 end-of-module and two other papers ask the two arches
+    // together and one asks them as a comparison. A student who knows the deep
+    // arch alone fails those, so it is one objective with two halves.
+    key: 'palmar-arterial-arches-site-formation-branches',
+    definition: 'The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries. The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.',
+    objective: 'Give the site, formation and branches of each palmar arch, and say how the two differ in level, in the artery that mainly forms them, and in what they supply.',
+    pitfall: 'Swapping the two. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal. The faculty asks them as a comparison as often as singly, so knowing one is half an answer.',
     subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-CVS-T01-S01'],
     modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
     type: 'structural_description',
@@ -189,9 +207,9 @@ export const SEEDS: Seed[] = [
   },
   {
     q: 9, section: 'Anatomy', page: 15, marks: 3,
-    asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.',
+    asked: 'Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
     label: 'Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla',
-    key: 'breast-lymphatic-drainage-axillary',
+    key: 'breast-lymphatic-drainage',
     definition: 'About three quarters of the lymph of the breast drains laterally to the axillary nodes, chiefly the anterior (pectoral) group, then to central and apical nodes. The medial quadrants drain to the internal thoracic (parasternal) nodes, and some drains to the opposite breast and to the abdomen. This is why carcinoma spreads first to the axilla and why the axillary nodes are sampled or cleared at operation.',
     objective: 'Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes.',
     pitfall: 'Forgetting the medial route. A medial-quadrant tumour can reach parasternal nodes with a clear axilla, so a negative axilla is not a clear chest.',
@@ -201,14 +219,32 @@ export const SEEDS: Seed[] = [
   },
   {
     q: 10, section: 'Anatomy', page: 15, marks: 3,
-    asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.',
-    label: 'Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise',
-    key: 'scaphoid-fracture-snuff-box-tenderness',
-    definition: 'The floor of the anatomical snuff box is the scaphoid, so tenderness there after a fall on the outstretched hand indicates scaphoid fracture. The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally, so a fracture across the waist may deprive the proximal fragment of its supply and cause avascular necrosis.',
-    objective: 'Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.',
-    pitfall: 'Excluding it on a normal first radiograph. A scaphoid fracture is often invisible for ten to fourteen days, and a normal early film does not clear it.',
+    asked: 'Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?',
+    label: 'The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery',
+    // The cluster key. The 2024 paper asks "site and boundaries" and this one
+    // asks boundaries, contents, floor and roof; nine askings, one objective.
+    key: 'anatomical-snuff-box-site-boundaries-contents',
+    definition: 'The anatomical snuff box is a triangular hollow on the lateral wrist. Its anterior boundary is the tendons of abductor pollicis longus and extensor pollicis brevis; its posterior boundary is the tendon of extensor pollicis longus; its base is the styloid process of the radius. Its floor is the scaphoid and trapezium with the base of the first metacarpal and the styloid process of the radius, and its roof is skin and fascia crossed by the cephalic vein and the superficial branch of the radial nerve. Its contents are the radial artery and the beginning of the cephalic vein.',
+    objective: 'Give the boundaries, contents, floor and roof of the anatomical snuff box.',
+    pitfall: 'Giving abductor pollicis longus and extensor pollicis brevis as two separate boundaries. They form the anterior boundary together, and the posterior boundary is extensor pollicis longus alone.',
     subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
     modulePath: '101 ISK > Anatomy > Upper Limb > Hand',
+    type: 'structural_description',
+  },
+  {
+    // The same question number as the seed above. Case 1 asks four lettered
+    // things and the last two are a different idea entirely — a student can
+    // know where the breast drains and still not know why she cannot lift her
+    // arm afterwards. Two concepts, one question, co-primary on both.
+    q: 9, section: 'Anatomy', page: 15, marks: 0,
+    asked: 'Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?',
+    label: 'Injury to the long thoracic nerve at mastectomy paralyses serratus anterior, winging the scapula',
+    key: 'long-thoracic-nerve-serratus-anterior-winging',
+    definition: 'The long thoracic nerve (C5, C6, C7) runs on the surface of serratus anterior on the medial wall of the axilla, where it is exposed during axillary clearance. Serratus anterior rotates the scapula upward and holds its medial border against the chest wall, so its paralysis prevents abduction of the arm above the shoulder and lets the medial border stand off — a winged scapula.',
+    objective: 'Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.',
+    pitfall: 'Blaming the axillary nerve. That would weaken abduction to ninety degrees and numb the regimental badge area; it is loss of scapular rotation above the shoulder, with winging, that names the long thoracic nerve.',
+    subject: 'msk', primary: 'DIS-ANA-T02', secondary: ['SYS-MSK-T01-S01-M03'],
+    modulePath: '101 ISK > Anatomy > Upper Limb > Axilla',
     type: 'clinical_correlation',
   },
 ]
@@ -219,7 +255,7 @@ export const SCHEMES: Record<string, Scheme> = {
     prompt: 'Compare eosinophils and neutrophils by differential count, shape of the nucleus, and the appearance of the cytoplasmic granules on light microscopy.',
     expects: [
       'Neutrophils are 60–70% of the differential count',
-      'Eosinophils are 2–4% of the differential count',
+      'Eosinophils are 1–4% of the differential count',
       'The neutrophil nucleus has two to five lobes',
       'The eosinophil nucleus is characteristically bilobed',
       'Neutrophil granules are fine and take neither dye strongly',
@@ -377,23 +413,86 @@ export const SCHEMES: Record<string, Scheme> = {
     ],
   },
   A9: {
-    format: 'structured_written',
-    prompt: 'A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.',
-    expects: [
-      'About three quarters of the lymph of the breast drains to the axillary nodes',
-      'Chiefly the anterior (pectoral) group, then the central and apical nodes',
-      'The medial quadrants drain to the internal thoracic (parasternal) nodes',
-      'Carcinoma therefore spreads first to the axilla, which is why the axilla is sampled or cleared at operation',
+    format: 'multipart_written',
+    prompt: 'A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed.',
+    expects: [],
+    parts: [
+      {
+        letter: 'a',
+        prompt: 'What lymph nodes should be removed during the mastectomy operation?',
+        expects: [
+          'The axillary nodes, which receive about three quarters of the lymph of the breast',
+          'Chiefly the anterior (pectoral) group, then the central and apical nodes',
+        ],
+      },
+      {
+        letter: 'b',
+        prompt: 'Should the physician examine the other breast? Why?',
+        expects: [
+          'Yes',
+          'Lymphatics cross the midline, so carcinoma can reach the opposite breast',
+          'The medial quadrants also drain to the internal thoracic (parasternal) nodes, so a clear axilla is not a clear chest',
+        ],
+      },
+      {
+        letter: 'c',
+        prompt: 'After the operation the patient was unable to abduct her arm above the shoulder. Account for this.',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
+        expects: [
+          'The long thoracic nerve (C5, C6, C7) was injured during axillary clearance',
+          'It lies on the surface of serratus anterior on the medial wall of the axilla',
+          'Serratus anterior rotates the scapula upward, which abduction above the shoulder requires',
+        ],
+      },
+      {
+        letter: 'd',
+        prompt: 'What other deformity can be noticed?',
+        conceptKey: 'long-thoracic-nerve-serratus-anterior-winging',
+        expects: [
+          'Winging of the scapula — its medial border stands off the chest wall',
+        ],
+      },
     ],
   },
   A10: {
-    format: 'structured_written',
-    prompt: 'A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.',
-    expects: [
-      'The floor of the anatomical snuff box is the scaphoid',
-      'Tenderness there after a fall on the outstretched hand indicates a scaphoid fracture',
-      'The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally',
-      'A fracture across the waist may cut off the proximal fragment’s supply and cause avascular necrosis',
+    format: 'multipart_written',
+    prompt: 'A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box.',
+    expects: [],
+    parts: [
+      {
+        letter: 'a',
+        prompt: 'What are the boundaries of the anatomical snuff box?',
+        expects: [
+          'Anteriorly, the tendons of abductor pollicis longus and extensor pollicis brevis together',
+          'Posteriorly, the tendon of extensor pollicis longus',
+          'Its base is the styloid process of the radius',
+        ],
+      },
+      {
+        letter: 'b',
+        prompt: 'What are the contents of the anatomical snuff box?',
+        expects: [
+          'The radial artery, crossing the floor',
+          'The beginning of the cephalic vein',
+        ],
+      },
+      {
+        letter: 'c',
+        prompt: 'What makes the floor of the anatomical snuff box?',
+        expects: [
+          'The scaphoid and the trapezium',
+          'With the styloid process of the radius and the base of the first metacarpal',
+          'Which is why tenderness here after a fall on the outstretched hand means a scaphoid fracture',
+        ],
+      },
+      {
+        letter: 'd',
+        prompt: 'What makes the roof of the anatomical snuff box?',
+        expects: [
+          'Skin and fascia',
+          'Crossed by the cephalic vein and the superficial branch of the radial nerve',
+        ],
+      },
     ],
   },
 }

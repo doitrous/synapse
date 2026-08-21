@@ -2,7 +2,9 @@
   EOY (ISK - 101) 199 (1).pdf as sittable written questions.
 
   Kasr Al Ainy, module 101 ISK, end of year 2025.
-  Manifest ID src_kau_y1_101_eoy_199. 16 questions, 81 marks: 6 in Histology, 10 in Anatomy.
+  Manifest ID src_8cb257f4b6a6dcd730d0. 16 questions, 81 marks: 6 in Histology, 10 in Anatomy.
+
+  NOT the whole paper: 26 multiple-choice questions at ½ mark each, 13 marks, stated at the foot of the Histology section and printed in neither the solved nor the unsolved copy. The paper is 94 marks; 81 are here.
 
   Transcribed, not derived — `derived_from` is blank throughout. The rule that a
   written question may only be derived from another written question governs the
@@ -24,7 +26,7 @@
 
 # Item
 ## id
-QW-101-ECCBAE75D717
+QW-101-4CC448F237E0
 ## title
 Eosinophils and neutrophils are told apart by count, nuclear lobes and granule staining
 ## subject
@@ -39,7 +41,7 @@ Compare eosinophils and neutrophils by differential count, shape of the nucleus,
 ### (a) 3 marks
 Compare eosinophils and neutrophils by differential count, shape of the nucleus, and the appearance of the cytoplasmic granules on light microscopy.
 Expects: Neutrophils are 60–70% of the differential count
-Expects: Eosinophils are 2–4% of the differential count
+Expects: Eosinophils are 1–4% of the differential count
 Expects: The neutrophil nucleus has two to five lobes
 Expects: The eosinophil nucleus is characteristically bilobed
 Expects: Neutrophil granules are fine and take neither dye strongly
@@ -74,17 +76,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 180
+## library_ids
+ART-101-HIS-GRANULAR-LEUKOCYTES
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q1, p1. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q1, p1. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Compare between Eosinophils & Neutrophils regarding (Differential count, Shape of nucleus and LM cytoplasmic granules).”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -96,7 +100,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-5EFDE616B00D
+QW-101-BF09F3519099
 ## title
 The hyalomere’s microtubules and canalicular system carry out the platelet’s shape change and release
 ## subject
@@ -144,17 +148,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-BLOOD-PLATELETS
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q2, p2. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q2, p2. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Explain how the structure (EM) of Hyalomere of Platelets correlate to its function.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -166,7 +172,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-0850AA9AF916
+QW-101-2803FEE5AE02
 ## title
 Mast cells are identified by metachromatic granules on light microscopy and by their granule ultrastructure
 ## subject
@@ -214,17 +220,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CONNECTIVE-TISSUE-CELLS
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q3, p2. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q3, p2. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Discuss LM, EM, and Special staining regarding Mast cells.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -236,7 +244,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-41ADFBC97D3A
+QW-101-995A7E9CEE9E
 ## title
 Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate
 ## subject
@@ -254,9 +262,9 @@ Expects: A primary lysosome is small, uniformly electron-dense and membrane-boun
 Expects: Its acid hydrolases have not yet acted on a substrate
 Expects: A secondary lysosome is larger and heterogeneous, having fused with a phagosome or autophagosome
 Expects: A residual body is the end state, holding indigestible material
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## topic
 Histology
 ## subtopic
@@ -276,7 +284,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.
+Distinguish primary from secondary lysosomes on electron microscopy, and name the three secondary types by what the primary lysosome fused with.
 ## setting
 Academic
 ## academic_relevance
@@ -284,17 +292,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q4, p3. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q4, p3. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mention EM of types of Lysosomes.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -306,7 +316,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-76ECF97AAC61
+QW-101-8DD865AE7EA2
 ## title
 A cilium arises from a basal body and is built on a 9+2 axoneme
 ## subject
@@ -354,17 +364,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-MEMBRANOUS-SPECIALISATIONS
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q5, p4. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q5, p4. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Describe origin and EM picture of Cilia.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -376,7 +388,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-2CC3C64BED93
+QW-101-D9A0B7A0E292
 ## title
 Oesophagus and urinary bladder are lined by different stratified epithelia suited to different stresses
 ## subject
@@ -424,17 +436,19 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-7.9
+8.4
 ## cognitive_effort
 Medium
 ## reasoning_level
 1
 ## estimated_seconds
 240
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q6, p5. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Histology Q6, p5. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Compare between Esophagus and Urinary bladder according to the following table.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -446,7 +460,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-9268600B09F0
+QW-101-92DF4C659001
 ## title
 A muscle attaches either directly to bone or through a tendon or an aponeurosis
 ## subject
@@ -503,10 +517,12 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-MUSCLE-ATTACHMENTS
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q1, p7. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q1, p7. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mention types of Muscle attachment.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -518,7 +534,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-85D2A908AE80
+QW-101-1D88047D5CAB
 ## title
 Primary cartilaginous joints are hyaline and temporary; secondary ones are fibrocartilaginous and midline
 ## subject
@@ -575,10 +591,12 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-CARTILAGINOUS-JOINTS
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q2, p8. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q2, p8. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Compare between primary and secondary Cartilaginous joints.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -590,7 +608,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-5CE9B88CAB68
+QW-101-355550AB7491
 ## title
 The decidua is the pregnant endometrium, in three parts named by their relation to the conceptus
 ## subject
@@ -647,10 +665,12 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-DECIDUA
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q3, p9. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q3, p9. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Describe Decidua regarding definition, parts and fates.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -662,7 +682,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-63D5DA8AD73F
+QW-101-532583DB5A84
 ## title
 Embryonic folding is longitudinal and transverse, driven by unequal growth
 ## subject
@@ -719,10 +739,12 @@ High
 1
 ## estimated_seconds
 360
+## library_ids
+ART-101-ANA-EMBRYONIC-FOLDING
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q4, p10. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q4, p10. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Summarize types and causes of Folding.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -734,7 +756,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-9ED0CBD65284
+QW-101-5A2A0A96AF81
 ## title
 Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
 ## subject
@@ -755,9 +777,9 @@ Expects: Adducts and medially rotates the arm
 Expects: The clavicular head flexes the arm
 Expects: The sternocostal head extends it from flexion
 Expects: Supplied by the lateral and medial pectoral nerves
-Concept: CON-MSK-097C0BDED777AB
+Concept: CON-MSK-2B9F47FC205689
 ## main_concept
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 ## topic
 Anatomy
 ## subtopic
@@ -792,10 +814,12 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-PECTORALIS-MAJOR
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q5, p11. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q5, p11. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Mention attachment, action and nerve supply of Pectoralis Major.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -807,7 +831,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-2E8DB35DBAE4
+QW-101-E3A74FCFF687
 ## title
 The radial nerve arises from the posterior cord, C5–T1, and branches in axilla and arm
 ## subject
@@ -828,9 +852,9 @@ Expects: In the axilla: the posterior cutaneous nerve of the arm
 Expects: In the arm: branches to the lateral and medial heads of triceps and to anconeus
 Expects: In the arm: the lower lateral cutaneous nerve of the arm and the posterior cutaneous nerve of the forearm
 Expects: It ends by dividing into superficial and deep terminal branches
-Concept: CON-MSK-59B3B8AB2A2CFA
+Concept: CON-MSK-A49B57B03A3610
 ## main_concept
-CON-MSK-59B3B8AB2A2CFA
+CON-MSK-A49B57B03A3610
 ## topic
 Anatomy
 ## subtopic
@@ -865,10 +889,12 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-RADIAL-NERVE
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q6, p12. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q6, p12. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Regarding Radial nerve, mention its origin, root value and branches in axilla and upper arm.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -880,7 +906,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-E54F69F60CBE
+QW-101-3BA17F039B96
 ## title
 The deep palmar arch is the radial artery’s termination, lying a finger’s breadth proximal to the superficial arch
 ## subject
@@ -901,9 +927,9 @@ Expects: Formed mainly by the terminal part of the radial artery
 Expects: Completed medially by the deep branch of the ulnar artery
 Expects: Gives three palmar metacarpal arteries
 Expects: Gives perforating branches to the dorsal metacarpal arteries and recurrent branches to the carpal arch
-Concept: CON-MSK-0F4A85CDF62557
+Concept: CON-MSK-BC95DAE3531583
 ## main_concept
-CON-MSK-0F4A85CDF62557
+CON-MSK-BC95DAE3531583
 ## topic
 Anatomy
 ## subtopic
@@ -923,7 +949,7 @@ Hard
 ## question_type
 Structure and function
 ## learning_objective
-Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.
+Give the site, formation and branches of each palmar arch, and say how the two differ in level, in the artery that mainly forms them, and in what they supply.
 ## setting
 Academic
 ## academic_relevance
@@ -938,10 +964,12 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q7, p13. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q7, p13. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Describe site, formation and branches of the Deep Palmer Arch.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -953,7 +981,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-22DB8CE249ED
+QW-101-AD90E7365910
 ## title
 The elbow is a synovial hinge between humerus, ulna and radius, held by collateral ligaments
 ## subject
@@ -1011,10 +1039,12 @@ High
 1
 ## estimated_seconds
 420
+## library_ids
+ART-101-ANA-ELBOW-JOINT
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q8, p14. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q8, p14. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
 Transcribed from the paper, not derived. The examiner's wording was: “Regarding Elbow joint, Mention its type, bony parts and describe its ligaments.”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
@@ -1026,7 +1056,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 
 # Item
 ## id
-QW-101-45217F9640DE
+QW-101-6018880806F0
 ## title
 Breast lymph drains mainly to the axillary nodes, which is why mastectomy clears the axilla
 ## subject
@@ -1034,19 +1064,33 @@ msk
 ## status
 Draft
 ## format
-structured_written
+multipart_written
 ## question
-A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.
+A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed.
 ## written_parts
-### (a) 3 marks
-A 45-year-old woman noticed a hard painless lump in her breast. Carcinoma of the breast was diagnosed and a mastectomy performed. Account for the lymphatic drainage of the breast and its bearing on the operation.
-Expects: About three quarters of the lymph of the breast drains to the axillary nodes
+### (a) 0.75 marks
+What lymph nodes should be removed during the mastectomy operation?
+Expects: The axillary nodes, which receive about three quarters of the lymph of the breast
 Expects: Chiefly the anterior (pectoral) group, then the central and apical nodes
-Expects: The medial quadrants drain to the internal thoracic (parasternal) nodes
-Expects: Carcinoma therefore spreads first to the axilla, which is why the axilla is sampled or cleared at operation
-Concept: CON-MSK-C8C7E857552F4C
+Concept: CON-MSK-1B2BD8EC2B44B8
+### (b) 0.75 marks
+Should the physician examine the other breast? Why?
+Expects: Yes
+Expects: Lymphatics cross the midline, so carcinoma can reach the opposite breast
+Expects: The medial quadrants also drain to the internal thoracic (parasternal) nodes, so a clear axilla is not a clear chest
+Concept: CON-MSK-1B2BD8EC2B44B8
+### (c) 0.75 marks
+After the operation the patient was unable to abduct her arm above the shoulder. Account for this.
+Expects: The long thoracic nerve (C5, C6, C7) was injured during axillary clearance
+Expects: It lies on the surface of serratus anterior on the medial wall of the axilla
+Expects: Serratus anterior rotates the scapula upward, which abduction above the shoulder requires
+Concept: CON-MSK-24E318F2E3F18E
+### (d) 0.75 marks
+What other deformity can be noticed?
+Expects: Winging of the scapula — its medial border stands off the chest wall
+Concept: CON-MSK-24E318F2E3F18E
 ## main_concept
-CON-MSK-C8C7E857552F4C
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E
 ## topic
 Anatomy
 ## subtopic
@@ -1066,7 +1110,7 @@ Moderate
 ## question_type
 Clinical application
 ## learning_objective
-Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes.
+Explain the lymphatic drainage of the breast and why it determines where carcinoma spreads and what surgery removes. Explain why a mastectomy patient cannot abduct above the shoulder, and name the deformity that accompanies it.
 ## setting
 Academic
 ## academic_relevance
@@ -1074,49 +1118,66 @@ Academic
 ## clinical_relevance
 0.8
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
 3
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-AXILLA-BREAST
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q9, p15. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q9, p15. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
-Transcribed from the paper, not derived. The examiner's wording was: “Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed.”
+Transcribed from the paper, not derived. The examiner's wording was: “Case (1): A 45 years old woman noticed a hard painless lump in her breast. The case was diagnosed as carcinoma of the breast and an operation of mastectomy was performed. a) What lymph nodes should be removed during mastectomy operation? b) Should the physician examine the other breast? Why? c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed? Case (1) c) After the operation, the patient was unable to abduct her arm above the shoulder. d) What other deformity can be noticed?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
-Per-element marks are not the examiner's — the paper gave 3 for the whole question and named the elements. The scheme apportions.
-No vignette: this paper states its cases inside the question itself, so there is no separate stem.
+The paper printed 4 lettered subparts and one total of 3 marks, so the letters divide it evenly. The per-letter figure is not the examiner's.
+This question is co-primary on 2 concepts: its subparts test things a student can know separately.
 No derived_from: transcribed rather than derived, so there is nothing to name.
 
 ---
 
 # Item
 ## id
-QW-101-7BDE0B8ECD05
+QW-101-E4CC79B21E30
 ## title
-Tenderness in the anatomical snuff box after a fall on the outstretched hand means a scaphoid fracture until proven otherwise
+The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery
 ## subject
 msk
 ## status
 Draft
 ## format
-structured_written
+multipart_written
 ## question
-A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.
+A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box.
 ## written_parts
-### (a) 3 marks
-A 30-year-old woman fell on her outstretched hand and has severe pain in the lateral part of the wrist, particularly at the base of the anatomical snuff box. Account for the findings and the risk that follows.
-Expects: The floor of the anatomical snuff box is the scaphoid
-Expects: Tenderness there after a fall on the outstretched hand indicates a scaphoid fracture
-Expects: The scaphoid is supplied largely by a retrograde branch of the radial artery entering distally
-Expects: A fracture across the waist may cut off the proximal fragment’s supply and cause avascular necrosis
-Concept: CON-MSK-53D952D6FB4265
+### (a) 0.75 marks
+What are the boundaries of the anatomical snuff box?
+Expects: Anteriorly, the tendons of abductor pollicis longus and extensor pollicis brevis together
+Expects: Posteriorly, the tendon of extensor pollicis longus
+Expects: Its base is the styloid process of the radius
+Concept: CON-MSK-1424177E093253
+### (b) 0.75 marks
+What are the contents of the anatomical snuff box?
+Expects: The radial artery, crossing the floor
+Expects: The beginning of the cephalic vein
+Concept: CON-MSK-1424177E093253
+### (c) 0.75 marks
+What makes the floor of the anatomical snuff box?
+Expects: The scaphoid and the trapezium
+Expects: With the styloid process of the radius and the base of the first metacarpal
+Expects: Which is why tenderness here after a fall on the outstretched hand means a scaphoid fracture
+Concept: CON-MSK-1424177E093253
+### (d) 0.75 marks
+What makes the roof of the anatomical snuff box?
+Expects: Skin and fascia
+Expects: Crossed by the cephalic vein and the superficial branch of the radial nerve
+Concept: CON-MSK-1424177E093253
 ## main_concept
-CON-MSK-53D952D6FB4265
+CON-MSK-1424177E093253
 ## topic
 Anatomy
 ## subtopic
@@ -1134,30 +1195,32 @@ KAU_Y1
 ## difficulty
 Moderate
 ## question_type
-Clinical application
+Structure and function
 ## learning_objective
-Explain why snuff-box tenderness indicates scaphoid fracture and why the blood supply makes the proximal fragment vulnerable.
+Give the boundaries, contents, floor and roof of the anatomical snuff box.
 ## setting
 Academic
 ## academic_relevance
 0.9
 ## clinical_relevance
-0.8
+0.3
 ## exam_relevance
-5.9
+6.3
 ## cognitive_effort
 Medium
 ## reasoning_level
-3
+1
 ## estimated_seconds
 180
+## library_ids
+ART-101-ANA-HAND-ARTERIES
 ## owner
 Claude
 ## source_citation
-EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q10, p15. Manifest src_kau_y1_101_eoy_199.
+EOY (ISK - 101) 199 (1).pdf — Kasr Al Ainy end of year 2025, Anatomy Q10, p15. Manifest src_8cb257f4b6a6dcd730d0.
 ## author_notes
-Transcribed from the paper, not derived. The examiner's wording was: “Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box.”
+Transcribed from the paper, not derived. The examiner's wording was: “Case (2): A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a) What are the boundaries of the anatomical snuff box? b) What are the contents of the anatomical snuff box? c) What makes the floor of the anatomical snuff box? d) What makes the roof of the anatomical snuff box?”
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
-Per-element marks are not the examiner's — the paper gave 3 for the whole question and named the elements. The scheme apportions.
+The paper printed 4 lettered subparts and one total of 3 marks, so the letters divide it evenly. The per-letter figure is not the examiner's.
 No vignette: this paper states its cases inside the question itself, so there is no separate stem.
 No derived_from: transcribed rather than derived, so there is nothing to name.

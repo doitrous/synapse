@@ -8,3 +8,20 @@ parts/
 raw/
 __pycache__/
 status-*.json
+
+# Rendered pages. The answer-key recovery rasterises every page of every
+# end-of-module paper to find highlights that exist only as pixels; the images
+# are a cache, regenerable from the PDFs, and megabytes of them.
+*.png
+*.ppm
+*.jpg
+
+# The end-of-module answer-key recovery caches two kinds of intermediate under
+# `eom-renders/`: page rasters, already covered by the image rules above, and
+# the per-page tesseract TSV that supplies the option boxes. Both regenerate
+# from the PDFs — the rasters in about a second a page, the OCR in about two —
+# and together they run to gigabytes. `eom-answers.json` is the result and is
+# tracked; these are not.
+eom-renders/
+pagetext-eom/
+pagetext-eom/
