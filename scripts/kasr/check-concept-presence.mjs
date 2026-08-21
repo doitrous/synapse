@@ -137,6 +137,44 @@ const isEmpty = (value) => value === undefined || value === null || value === ''
   || (typeof value === 'object' && !Array.isArray(value) && !Object.keys(value).length)
 
 /**
+ * A classification that came back empty means the probe reached nothing.
+ *
+ * Stronger than the control below, and it catches a different thing: a control
+ * proves the checker can fail on a case somebody thought of; this proves it is
+ * looking at anything at all. A parallel lane's sentinel check passed its own
+ * self-test and reported zero across eight batches while classifying **no text
+ * columns outside concepts** — vacuously clean for seventeen articles and every
+ * question, and it only surfaced because the classification was printed beside
+ * the result.
+ *
+ * The cause there is worth knowing, because it is a shape rather than a typo:
+ * `conceptImport.ts` writes `text(values.subtopic)` while `bulkImport.ts`
+ * writes `text('subtopic')` closing over `values`. Two call shapes, one
+ * pattern, and a probe written against one sees nothing of the other.
+ *
+ * So the counts are printed every run and an empty side is a hard stop.
+ */
+const summarise = (map) => {
+  const list = Object.values(map).filter((kind) => kind === 'list').length
+  const text = Object.values(map).filter((kind) => kind === 'text').length
+  return { list, text }
+}
+{
+  const concepts = summarise(SHAPE)
+  const articles = summarise(ARTICLE_SHAPE)
+  console.log(`classified from the parsers: ${concepts.list} list / ${concepts.text} text for concepts, `
+    + `${articles.list} / ${articles.text} for articles`)
+  for (const [what, counts] of [['concept', concepts], ['article', articles]]) {
+    if (!counts.list || !counts.text) {
+      console.error(`the probe classified ${counts.list} list and ${counts.text} text ${what} columns — `
+        + 'it is reaching nothing, so a zero from this run would mean the probe broke rather than that the '
+        + 'batches are right. A check that cannot fail must say so rather than pass.')
+      process.exit(2)
+    }
+  }
+}
+
+/**
  * A checker that cannot fail proves nothing.
  *
  * Both mistakes are fed through deliberately before any real file is read, and

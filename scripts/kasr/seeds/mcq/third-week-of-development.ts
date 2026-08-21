@@ -2,64 +2,76 @@
  * `101 ISK > Anatomy > General Embryology > Third Week of Development` — the
  * question books' MCQs.
  *
- * Thirty-three rows and fifteen questions, and the leaf is wider than its
- * name. Gastrulation, the notochord and the intra-embryonic mesoderm are the
- * third week proper and are the bulk of it. But the extraction also files here
- * everything the books ask about the folding of the embryonic disc and about
- * the derivatives of the germ layers — fourth-week and Embryonic Period
- * material in the department book's own chapters — because the wording matches
- * this cluster. Those questions are authored here against the concepts the sat
- * papers already minted for them, with the module paths the book gives, rather
- * than being re-minted under a third-week name.
+ * Thirty-three rows, sixteen live. Four of the thirty-three are not embryology
+ * at all: `by-em-the-cell-membrane-appears-as`,
+ * `cell-membrane-appears-as-trilaminar-structure-because`,
+ * `trilaminar-membrane` and `all-the-statements-concerned-to-the-trilaminar-appearance-of`
+ * are cell-membrane questions the topic clustering dropped into this leaf. They
+ * keep `plasma-membrane-unit-membrane-em-and-thickness`, repeated verbatim from
+ * `the-cell.ts` with that leaf's modulePath intact, rather than being given a
+ * rival key here.
  *
- * Four rows are not embryology at all: the trilaminar appearance of the *cell
- * membrane* on electron microscopy. "Trilaminar" is the word they share with
- * the trilaminar embryonic disc, and it is the only thing they share. They are
- * excluded to the Cytology leaves that own them.
+ * Two concepts are reused from the written papers —
+ * `embryonic-disc-folding-types-causes-results` and `notochord-formation-fate` —
+ * and three are minted. The folding one has a rival already: the written batch
+ * carries both `embryonic-folding-types-and-causes`, from the 2025 paper, and
+ * `embryonic-disc-folding-types-causes-results`, from another sitting, and the
+ * two are one idea under two keys. I have reused the second, because only it
+ * states the reversal of position that three of this leaf's questions turn on,
+ * and I have not touched the first. Someone should merge them on the paper side;
+ * adding a third key here would have made it worse.
  *
- * Seven answers are supplied or overridden. Four are rows the books left
- * unkeyed, where the answer comes from a sentence of the department book named
- * in the override; three are department-book rows whose pencilled mark
- * contradicts the book on the same page. The worst of those is "the primitive
- * streak first appears at the beginning of the ___ week", marked *first* — the
- * primitive streak is the event that opens the third week, and the book says
- * so in the first line of the chapter this leaf is named after.
+ * A gap in the department book, recorded on `neural-plate-and-the-ectodermal-origin-of-the-nervous-system`
+ * rather than papered over. Four rows of this leaf ask about neurulation — the
+ * neural plate as thickened ectoderm, the neural groove, induction by the
+ * notochord, and which end of the neural tube closes first — and the extraction
+ * of the department book contains none of it. The book names the central nervous
+ * system in its list of ectodermal derivatives on page 87 and says nothing about
+ * how the tube forms. The explanations here are written to what the faculty
+ * would accept and the gap is declared on the concept; a reviewer should check
+ * them against whatever the students are actually lectured from.
  *
- * Only one concept is minted here, and four are reused verbatim, because this
- * leaf sits where three other lanes have already been working.
- * `notochord-formation-fate` and `embryonic-disc-folding-types-causes-results`
- * come from the sat papers; `intra-embryonic-mesoderm-divisions-and-derivatives`
- * and `neural-tube-and-neural-crest-derivatives` come from `nervous-system.ts`,
- * which reached the same third-week material from the Basis of Anatomy side.
- * Their label, definition, objective, pitfall, node and module path are copied
- * unchanged, so re-emitting them adds these occurrences to their exam signal
- * and changes nothing else. Two of those reuses cost this leaf a distinction it
- * would otherwise have drawn — where intra-embryonic mesoderm is *absent*, and
- * the neural plate as against the neural crest — and the option explanations
- * carry that teaching instead. Splitting a student's mastery of the mesoderm
- * across two keys to keep a tidier definition would be the worse trade.
+ * Four answers are overridden. Two are supplied where none was printed
+ * (`neural-plate-is-a-thickened-median-region-of`,
+ * `regarding-formation-of-central-nervous-system`,
+ * `parenchyma-of-the-liver-is-developed-from`), and one is set against a printed
+ * key: `the-primitive-streak-first-appears-at-the-beginning-of-the-week` is keyed
+ * to the first week, where the book puts gastrulation and the streak in the
+ * third — the week the chapter is named for. A fourth,
+ * `after-folding-the-most-caudal-structure-at-tail-fold-is`, is keyed to the
+ * connecting stalk, which is the answer to the *other* question on the same
+ * page: before folding it is the connecting stalk, after folding it is the
+ * cloacal membrane, and the two questions are printed together precisely so that
+ * a student has to hold the reversal in mind.
  *
- * The two minted concepts are `gastrulation-trilaminar-disc-from-epiblast`,
- * which no existing key covers, and `germ-layer-derivatives-ectoderm-and-endoderm`,
- * which is the list `intra-embryonic-mesoderm-divisions-and-derivatives`
- * explicitly leaves out — that concept ends by saying the gut lining is
- * endodermal and the central nervous system ectodermal and that neither is
- * mesodermal, so the ectoderm and endoderm lists are a separate objective
- * rather than a rival reading of the same one.
- *
- * `ART-101-ANA-NOTOCHORD` covers the leaf's largest concept. The folding
- * questions have `ART-101-ANA-EMBRYONIC-FOLDING` and the germ-layer questions
- * have nothing yet; both sets are taught under a concept whose own article
- * lives elsewhere, which the coverage merge in `build-batches.ts` handles.
+ * One exclusion is a reviewer's problem rather than a scanner's:
+ * `all-the-statements-concerned-to-the-trilaminar-appearance-of` prints two false
+ * statements and asks for one exception. That is not fixable by rescanning.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Third Week of Development',
   modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
-  articleId: 'ART-101-ANA-NOTOCHORD',
+  articleId: 'ART-101-ANA-EMBRYONIC-FOLDING',
 
   concepts: [
+    {
+      key: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      label: 'Gastrulation makes the trilaminar disc in the third week, and all three of its layers come from the epiblast',
+      definition:
+        'Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and with the chorionic villi it is the characteristic event of the third gestational week. It begins with the primitive streak, a median narrow groove with bulging sides in the caudal part of the epiblast, formed at the beginning of the third week by proliferation and migration of epiblast cells; at its cranial end is the primitive node, a rounded bulge with the primitive pit in its middle. Epiblast cells invaginate through the primitive groove and form the endoderm, replacing the hypoblast, then the intra-embryonic mesoderm as a middle layer, and the notochord in the median plane; what is left of the epiblast is the ectoderm. All three layers therefore come from the epiblast alone. The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and neural tube, and is absent in three places: at the bucco-pharyngeal membrane and at the cloacal membrane, where ectoderm and endoderm are fused, and in the median region between the primitive node and the bucco-pharyngeal membrane, which the notochord and neural tube occupy.',
+      objective:
+        'Define gastrulation, date the primitive streak, name the layer all three germ layers arise from, and say where intra-embryonic mesoderm is present and where it is absent.',
+      pitfall:
+        'Deriving the endoderm from the hypoblast. The hypoblast is displaced, not converted — every layer of the trilaminar disc comes from the epiblast, and the book states it as a point in its own right.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T01',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
+      type: 'developmental_process',
+      aliases: ['Primitive streak', 'Primitive node', 'Trilaminar embryonic disc', 'Intra-embryonic mesoderm'],
+    },
     {
       key: 'notochord-formation-fate',
       label: 'The notochord forms in four steps, guides the embryo, and ends as the nucleus pulposus',
@@ -75,40 +87,39 @@ export const LEAF: McqLeafSeed = {
       aliases: ['Notochordal plate', 'Nucleus pulposus'],
     },
     {
-      key: 'gastrulation-trilaminar-disc-from-epiblast',
-      label: 'Gastrulation turns the bilaminar disc into a trilaminar one, and all three of its layers come from the epiblast',
+      key: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      label: 'The neural plate is thickened median ectoderm induced by the notochord beneath it, and it folds into the neural tube',
       definition:
-        'Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar disc, and it is the characteristic event of the third gestational week. It begins with the primitive streak — a median narrow groove with bulging sides in the midline of the caudal part of the epiblast, formed by proliferation and migration of epiblast cells — and the primitive node, a rounded bulge at the cranial end of the streak with the primitive pit in its middle. Epiblast cells then invaginate through the primitive groove: some displace the hypoblast to become the endodermal layer, some spread as a middle layer of intra-embryonic mesoderm, and some form the notochord in the median region. What is left of the epiblast is the ectoderm. The whole trilaminar disc is therefore derived from the epiblast — the hypoblast contributes no layer to the embryo — and the disc changes shape from oval to pear-shaped with a broader cranial part while this happens.',
+        'The central nervous system is a derivative of ectoderm. In the median plane of the ectoderm overlying the notochord, and induced by it, the cells thicken into the neural plate. The plate\'s median part sinks to form the neural groove, with a neural fold rising on either side; the folds meet and fuse, converting the groove into the neural tube. Fusion begins in the middle of the embryo and travels both cranially and caudally, so the ends are the last to shut — the cranial neuropore closes before the caudal one. Cells at the crest of each fold separate as they fuse and become the neural crest, whose derivatives include the sensory ganglia and much of the peripheral nervous system, and which is the source of the "derivatives of the neural crest" the department book lists beside the central nervous system among the ectodermal derivatives.',
       objective:
-        'Define gastrulation, name the week and the structure it starts from, and state which of the two layers of the bilaminar disc gives rise to all three germ layers.',
+        'Name the germ layer the neural plate is a thickening of, say what induces it, and give the order in which the neural tube closes.',
       pitfall:
-        'Giving the endoderm to the hypoblast because the hypoblast is the lower of the two layers. The invaginating epiblast cells *replace* the hypoblast, and the department book says explicitly that all three layers come from the epiblast.',
+        'Reading the neural groove as a depression of the neural crest. The groove is a depression of the neural plate; the crest is what the raised edges of that groove leave behind, so the crest is a product of the process rather than the thing being depressed.',
       subject: 'dev',
       primary: 'DIS-EMB-T01',
       secondary: [],
       modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
       type: 'developmental_process',
-      aliases: ['Gastrulation', 'Primitive streak', 'Primitive node', 'Primitive pit', 'Epiblast'],
+      aliases: ['Neurulation', 'Neural tube', 'Neural crest', 'Neural groove'],
+      gaps: [
+        'The extraction of the department book carries no account of neurulation at all: no neural plate, no neural groove, no neural tube closure and no neuropores. The book names the central nervous system and the neural crest derivatives in its list of ectodermal derivatives on page 87 and stops there. Four rows of this leaf examine the process anyway, so the explanations are written to standard teaching rather than to a departmental source, and a reviewer should check them against the lecture material.',
+      ],
     },
     {
-      key: 'intra-embryonic-mesoderm-divisions-and-derivatives',
-      label: 'Intra-embryonic mesoderm divides into paraxial, intermediate and lateral plate, and each division has its own derivatives',
-      definition: 'The intra-embryonic mesoderm arises from the primitive streak and divides into three on each side of the midline: paraxial mesoderm beside the notochord and neural tube, from the cranial part of the streak, which segments into somites and so into the vertebrae, the dermis and the skeletal muscles; intermediate mesoderm, from the middle of the streak, which forms the urogenital system; and lateral plate mesoderm, from the caudal part, which the coelom splits into somatopleuric mesoderm forming the trunk wall connective tissue and the parietal serous layers and splanchnopleuric mesoderm forming the connective tissue and smooth muscle of gut and respiratory tract, cardiac muscle and the visceral serous layers. The lining epithelium of the gut is endodermal and the central nervous system ectodermal, so neither is a mesodermal derivative.',
-      objective: 'Name the three divisions of intra-embryonic mesoderm and give what each forms, and reject the endodermal and ectodermal structures offered beside them.',
-      pitfall: 'Reading "urogenital system" as endodermal because the bladder is. The kidney and gonad come from intermediate mesoderm; only the lining epithelium of the bladder and urethra is endodermal.',
-      subject: 'dev', primary: 'DIS-EMB-T01', secondary: [],
+      key: 'germ-layer-derivatives-ectoderm-and-endoderm',
+      label: 'Ectoderm makes the nervous system and the epidermis; endoderm makes the linings and the glandular parenchymas',
+      definition:
+        'The department book lists the derivatives of two germ layers directly. From ectoderm come the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which form the internal ear and the lens; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and end of the digestive tract. From endoderm come two kinds of epithelium: the mucous lining of the digestive system apart from its beginning and end, of the respiratory tract, of most of the urinary bladder and urethra, and of the tympanic cavity and Eustachian tube; and the glandular epithelium that is the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid glands. Mesoderm is not given as a matching list but through the three divisions of the intra-embryonic mesoderm.',
+      objective:
+        'Assign an organ or a tissue to the germ layer it comes from, and separate the endodermal parenchymas from the mesodermal stroma that supports them.',
+      pitfall:
+        'Giving the liver to mesoderm because it is a solid abdominal organ. Its parenchyma — the hepatocytes that do the work — is endodermal; only its connective tissue and vessels are mesodermal, and the same split applies to the pancreas, thyroid and thymus.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T01',
+      secondary: [],
       modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
       type: 'classification',
-    },
-    {
-      key: 'neural-tube-and-neural-crest-derivatives',
-      label: 'The neural tube becomes the central nervous system; the neural crest beside it becomes almost everything peripheral',
-      definition: 'The neural plate of ectoderm, induced by the underlying notochord, sinks as a neural groove whose lips are the neural folds. The folds meet and fuse, beginning in the cervical region and closing towards both ends, to give the neural tube; the tube becomes the brain and the spinal cord — that is, the whole central nervous system, grey matter and white matter alike. As the folds fuse, cells at their crests separate as the neural crest and migrate. The neural crest gives the sensory, sympathetic and parasympathetic ganglia, the Schwann cells, the melanocytes and the suprarenal medulla. Both are ectodermal in origin, and neither gives rise to any mesodermal structure.',
-      objective: 'Separate the derivatives of the neural tube from those of the neural crest, and name the germ layer both come from.',
-      pitfall: 'Giving the peripheral nerves to the neural tube because the central nervous system is its derivative and nerves look like an extension of it. The tube gives only the central nervous system; the peripheral ganglia and Schwann cells come from the crest.',
-      subject: 'dev', primary: 'DIS-EMB-T01', secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Third Week of Development',
-      type: 'developmental_process',
+      aliases: ['Ectodermal derivatives', 'Endodermal derivatives', 'Germ layers'],
     },
     {
       key: 'embryonic-disc-folding-types-causes-results',
@@ -125,437 +136,400 @@ export const LEAF: McqLeafSeed = {
       aliases: ['Cephalo-caudal folding', 'Lateral folding', 'Primitive umbilical ring'],
     },
     {
-      key: 'germ-layer-derivatives-ectoderm-and-endoderm',
-      label: 'Ectoderm makes what covers and what senses; endoderm makes the linings of the gut and airway and the glands that bud off them',
+      key: 'plasma-membrane-unit-membrane-em-and-thickness',
+      label: 'The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS',
       definition:
-        'The department book lists the derivatives of the outer and the inner germ layer and asks them against each other. Ectoderm gives the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which become the internal ear and the lens of the eye; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and the end of the digestive tract, which are ectodermal depressions rather than gut. Endoderm gives two kinds of epithelium: the mucous lining epithelium of the digestive system apart from its beginning and end, of the respiratory tract, of most of the urinary bladder and urethra and of the tympanic cavity and Eustachian tube; and the glandular epithelium that is the parenchyma of the liver, pancreas, thyroid, thymus, palatine and nasopharyngeal tonsils and parathyroid glands. What is left over — dermis, muscle, bone, connective tissue and the serous membranes — is mesoderm.',
+        'The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.',
       objective:
-        'Assign a named structure to the germ layer it comes from, and separate the epithelium of an organ from the connective tissue around it.',
+        'Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.',
       pitfall:
-        'Giving the whole skin to the ectoderm. Only the epidermis is ectodermal; the dermis under it comes from the dermatome of the somite, and the books ask "epidermis" precisely so that the distinction has to be made.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T01',
+        'Reading 7.5–10 in the wrong unit. Nanometres is the only order of magnitude that fits: micrometres would make the membrane thicker than most organelles, and angstroms would make it thinner than one lipid molecule.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T01',
       secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Embryonic Period',
-      type: 'classification',
-      aliases: ['Ectodermal derivatives', 'Endodermal derivatives', 'Germ layer derivatives'],
+      modulePath: '101 ISK > Histology > Cytology > The cell',
+      type: 'structural_description',
+      aliases: ['Plasmalemma', 'Unit membrane', 'Trilaminar membrane'],
     },
   ],
 
   questions: [
     {
-      key: 'notochord-is-developed-from-f09634da',
-      conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Name the cells the notochord develops from and where they lie.',
-      explanations: {
-        A: 'The near-miss the question is built on. Epiblast cells at the primitive *streak* become endoderm and intra-embryonic mesoderm; it is the cells at the primitive *pit*, in the node at the streak\'s cranial end, that make the notochord.',
-        B: 'The hypoblast contributes no layer to the embryo. It is displaced by invaginating epiblast and ends up in the wall of the yolk sac.',
-        C: 'The notochord is not a derivative of the mesoderm but a separate product of the same invagination — the two form side by side, the mesoderm lateral and the notochord median.',
-        D: 'Correct. The prenotochordal process is a solid cord of epiblast cells derived from the primitive pit, which invaginates and grows cranially in the midline as far as the bucco-pharyngeal membrane.',
-      },
-    },
-    {
-      key: 'neurenteric-canal-is-formed-due-to-degeneration-of-520e8ef1',
-      conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Say exactly what degenerates to open the neurenteric canal.',
-      explanations: {
-        A: 'Correct. The floor of the notochordal canal is fused with the endoderm beneath it, and when both degenerate together the amniotic cavity above and the yolk sac below are briefly continuous.',
-        B: 'The roof is what survives. Roof and sides persist as the notochordal plate, which then folds on itself to give the definitive notochord — so a question keyed to the roof has the structure degenerating that goes on to become the notochord itself.',
-        C: 'Two errors in one option: the roof again, and the ectoderm. The roof lies against ectoderm but is not fused with it; the fusion is at the floor, with endoderm.',
-        D: 'The bucco-pharyngeal membrane also degenerates, but months of development and a whole chapter away — it opens the stomodeum into the foregut, not the amniotic cavity into the yolk sac.',
-      },
-    },
-    {
-      key: 'one-of-the-following-is-true-regarding-the-notochord-2017-de-003a5fd4',
-      conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Give the extent, origin, position and fate of the notochord.',
-      explanations: {
-        A: 'Wrong end. The notochord runs from the primitive pit *cranially* to the bucco-pharyngeal membrane; the cloacal membrane is caudal to the primitive streak, in the opposite direction.',
-        B: 'Correct. Most of the notochord degenerates, and the part inside the intervertebral disc persists as the nucleus pulposus — the only piece of it a living adult still carries.',
-        C: 'Cells migrating from the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from the primitive pit, in the node.',
-        D: 'Upside down. The notochord lies ventral to the neural tube — it is the floor the tube is built above, and the vertebral bodies form around it in front of the vertebral canal.',
-      },
-    },
-    {
-      key: 'gastrulation-is-9d787378',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Easy',
-      questionType: 'Developmental process',
-      learningObjective: 'Define gastrulation.',
-      explanations: {
-        A: 'Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one, and it is the characteristic event of the third week along with the chorionic villi.',
-        B: 'The bilaminar disc is what gastrulation starts *from*, and it formed on the eighth day when the amniotic cavity separated epiblast from hypoblast. This option names the state before the process.',
-        C: 'The chorion and its villi form in parallel, on the other side of the chorionic cavity, but they are trophoblast derivatives and are no part of the embryonic disc.',
-        D: 'Folding begins at the end of the third week, when gastrulation is finished — the disc has to have three layers before it can fold into a body with three layers in it.',
-      },
-    },
-    {
-      key: 'the-primitive-streak-rst-appears-at-the-beginning-of-the-wee-b87b6467',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Moderate',
-      questionType: 'Developmental timing',
-      learningObjective: 'Give the week in which the primitive streak appears.',
-      answerOverride: 'C',
-      answerOverrideReason:
-        'The department question book marks A, the first week. The department book opens its Third Week chapter by naming gastrulation as one of the two characteristic events of the third gestational week, and gastrulation begins with the formation of the primitive streak and node in the epiblast — so the streak appears at the beginning of the third week. In the first week the embryo is still a cleaving ball of blastomeres with no epiblast to form a streak in.',
-      explanations: {
-        A: 'The mark this reprint carries, and impossible: in the first week the embryo is cleaving in the uterine tube and has no epiblast layer for a streak to appear in.',
-        B: 'The second week makes the bilaminar disc, which is what the streak later appears in. This is the closest wrong answer and the one a student picks who dates the streak from the disc rather than from the invagination.',
-        C: 'Correct. The primitive streak appears at the beginning of the third week and is the opening event of gastrulation.',
-        D: 'By the fourth week the streak has done its work and is regressing; folding has begun, and the streak survives mainly as the structure that limits the tail fold.',
-      },
-    },
-    {
-      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c38b93d9',
-      conceptKey: 'intra-embryonic-mesoderm-divisions-and-derivatives',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Say where intra-embryonic mesoderm lies and where it does not.',
-      explanations: {
-        A: 'One of the three places mesoderm is absent. At the bucco-pharyngeal membrane the ectoderm and endoderm are fused to one another, leaving no space for a middle layer.',
-        B: 'The other fused membrane, at the caudal end of the disc, and absent for the same reason. The two membranes are why the disc has holes in its middle layer at both ends.',
-        C: 'Correct. The intra-embryonic mesoderm spreads on both sides of the notochord and the neural tube, which is exactly where it later divides into paraxial, intermediate and lateral plate.',
-        D: 'The third mesoderm-free region. Between the primitive node and the bucco-pharyngeal membrane the midline is occupied by the notochord and the neural tube themselves.',
-      },
-    },
-    {
-      key: 'one-of-the-followings-is-not-a-part-of-intraembryonic-mesode-29a6885b',
-      conceptKey: 'intra-embryonic-mesoderm-divisions-and-derivatives',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Name the three subdivisions of the intra-embryonic mesoderm and reject what is not one of them.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'This reprint of the 2022 sitting marks C, the lateral plate mesoderm, which the department book names as one of the three parts the intra-embryonic mesoderm divides into on the seventeenth day. The one option that is not a part of it is D: amnioblasts are second-week cells lining the roof of the amniotic cavity, and they are not mesoderm of any kind.',
-      explanations: {
-        A: 'Intermediate mesoderm is the middle of the three, derived from the middle part of the primitive streak, and it goes on to form the urogenital system.',
-        B: 'Paraxial mesoderm is the most medial of the three, on both sides of the notochord and neural tube, and it is the one that segments into somites.',
-        C: 'Lateral plate mesoderm is the most lateral of the three, and the coelom splits it into somatopleuric and splanchnopleuric layers. It is the option this reprint marks, and it is a part of the intra-embryonic mesoderm rather than the exception.',
-        D: 'Correct. Amnioblasts are the cells that separate from the embryoblast on the eighth day to line the roof of the amniotic cavity. They belong to the second week and to no part of the mesoderm.',
-      },
-    },
-    {
-      key: 'neural-plate-is-a-thickened-median-region-of-0bbbcaae',
-      conceptKey: 'neural-tube-and-neural-crest-derivatives',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Name the germ layer the neural plate is a thickening of.',
-      answerOverride: 'C',
-      answerOverrideReason:
-        'No copy of this question in the bank carries a key; the one copy that was keyed had lost option A into its stem and is excluded. The department book lists the central nervous system first among the derivatives of the ectoderm, and the neural plate is its first appearance, so the answer is C.',
-      explanations: {
-        A: 'The endoderm is the innermost layer and gives the linings of the gut and airway. Nothing nervous comes from it.',
-        B: 'Mesoderm surrounds the neural tube and forms the vertebrae that protect it, but it forms no part of it. A student picks this because the somites lie either side of the plate in every diagram.',
-        C: 'Correct. The neural plate is a thickened median region of the ectoderm, induced by the notochord under it, and it is where the whole central nervous system starts.',
-        D: 'The notochord induces the neural plate and lies beneath it, but the plate is not made of it. The notochord ends as the nucleus pulposus, not as the brain.',
-      },
-    },
-    {
-      key: 'regarding-formation-of-central-nervous-system-mark-the-corre-c072edfa',
-      conceptKey: 'neural-tube-and-neural-crest-derivatives',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Identify the one true statement about how the central nervous system forms.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The row carries no key. The department book lists the central nervous system as the first derivative of the ectoderm, which is option A; the other three are each false as written — the notochord does induce the plate, the neural groove is a depression of the plate rather than of the crest, and the caudal neuropore is the last part of the tube to close rather than the first.',
-      explanations: {
-        A: 'Correct. The central nervous system heads the department book\'s list of ectodermal derivatives, and it begins as the neural plate, a thickening of the ectoderm.',
-        B: 'A double negative hiding a real fact. The notochord does induce the overlying ectoderm to form the neural plate, so "not induced" is false — and the induction is one of the notochord\'s three listed importances.',
-        C: 'Swaps plate for crest. The neural groove is a depression in the midline of the neural *plate*; the neural crest separates from the crests of the folds on either side of that groove and becomes ganglia, melanocytes and much else.',
-        D: 'The wrong end and the wrong order. Fusion of the neural folds begins in the middle and spreads both ways, so the neuropores close last, and the cranial one closes before the caudal.',
-      },
-    },
-    {
       key: 'before-folding-the-most-caudal-structure-in-the-tail-fold-is-6811bd9c',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Name the most caudal structure of the disc before folding.',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Place the caudal structures of the disc before the tail fold turns them over.',
       explanations: {
-        A: 'The cloacal membrane is the most caudal structure *after* folding, not before. The reversal of position is the whole point of the pair of questions the books ask here.',
-        B: 'The primitive streak lies caudal in the disc and is what limits the tail fold, but the connecting stalk is caudal to it — which is why the streak is the limit of the fold rather than its end.',
-        C: 'The primitive node sits at the *cranial* end of the primitive streak. Of the four options this is the most cranial structure, not the most caudal.',
-        D: 'Correct. Before folding the connecting stalk is the most caudal structure of the disc; folding swings it cranially and ventrally, and the cloacal membrane takes its place at the caudal end.',
+        A: 'The cloacal membrane is the most caudal structure after folding, not before it. The whole point of the reversal is that these two swap places, and this is the answer to the neighbouring question rather than to this one.',
+        B: 'The primitive streak lies in the caudal part of the epiblast, but the connecting stalk is attached beyond it — the streak is caudal within the disc, and the stalk is caudal to the disc.',
+        C: 'The primitive node is at the cranial end of the primitive streak, so it is the more cranial of the two, not the more caudal.',
+        D: 'Correct. Before folding the connecting stalk, carrying the allantois, is the most caudal structure; the tail fold then swings it cranially and ventrally, leaving the cloacal membrane the most caudal.',
       },
     },
     {
       key: 'after-folding-the-most-caudal-structure-at-tail-fold-is-dep-34984edf',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Name the most caudal structure after folding.',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Apply the reversal of position produced by the tail fold.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The department-book copy marks C, the connecting stalk, which is the answer to the *other* half of the pair — the connecting stalk is most caudal before folding. The department book states the reversal explicitly: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal structure.',
+        'The books key this to the connecting stalk, which is the answer to the paired question about the position *before* folding — the two questions are printed together and their keys appear to have been carried across. The department book states the reversal explicitly: in the tail fold the connecting stalk with the allantois becomes more cranial and ventral, and the cloacal membrane becomes the most caudal. After folding the answer is therefore the cloacal membrane, option B.',
       explanations: {
-        A: 'The primitive streak is regressing by the time folding is complete, and it was never the most caudal structure — the connecting stalk lay caudal to it even before the fold.',
-        B: 'Correct. Folding swings the connecting stalk cranially and ventrally, and that leaves the cloacal membrane as the most caudal structure of the embryo.',
-        C: 'The answer before folding, and the mark this copy carries. Reading it here is missing the reversal of position that the question exists to test.',
-        D: 'The bucco-pharyngeal membrane is at the opposite end: after folding it becomes the most *cranial* structure, replacing the septum transversum that started there.',
+        A: 'The primitive streak is regressing by this stage and is in any case never the most caudal structure — the connecting stalk was attached beyond it before the fold.',
+        B: 'Correct. The tail fold carries the connecting stalk cranially and ventrally, and the cloacal membrane is left as the most caudal structure of the folded embryo.',
+        C: 'The connecting stalk is the answer to the same question asked about the position before folding, and it is the option the books key this one to as well. After the fold it has moved cranially and ventrally to lie in the ventral body wall at the umbilical ring, which is the opposite end of the reversal.',
+        D: 'The bucco-pharyngeal membrane is at the head end throughout. After folding it becomes the most cranial structure, which makes it the exact mirror of the answer here.',
       },
     },
     {
       key: 'tail-fold-of-the-embryo-is-limited-by-dep-book-ac-ad-ac-ad-a-c1b63c26',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Moderate',
-      questionType: 'Developmental process',
-      learningObjective: 'Name the structure whose firmness limits the tail fold.',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Name the firm structure that limits each of the two longitudinal folds.',
       explanations: {
-        A: 'The notochord limits the *head* fold. The department book pairs the two — notochord cranially, primitive streak caudally — and the books ask both with the other as the distractor.',
-        B: 'Correct. The tail fold is limited by the relatively firm primitive streak, in the same way that the head fold is limited by the relatively firm notochord.',
-        C: 'The yolk sac is what folding compresses into the vitelline duct. Far from limiting the fold, it is one of the things the fold acts on.',
-        D: 'Expansion of the amniotic cavity is a *cause* of folding, not a limit to it. The option is here to catch a student who has learnt the causes and not the limits.',
+        A: 'The notochord limits the head fold, not the tail fold. The book pairs the two limits deliberately, and swapping them is the error the question is set to find.',
+        B: 'Correct. The relatively firm primitive streak limits the tail fold, as the notochord limits the head fold.',
+        C: 'The yolk sac is carried by folding rather than limiting it — the lateral folds pinch it into the vitelline duct.',
+        D: 'The amniotic cavity is what causes folding by expanding; something that drives a fold cannot be what stops it.',
       },
     },
     {
-      key: 'concerning-the-folding-of-the-embryonic-disc-select-the-corr-695627d7',
-      conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Give the cause, the types, the timing and the limits of folding.',
-      answerOverride: 'D',
-      answerOverrideReason:
-        'The reprint of the 2023 and 2022 sittings marks B — that folding is of two types only, head and tail. The department book gives two types of folding of which the cephalo-caudal type is only one: the transverse or lateral folding, with right and left lateral folds, is the other, and the primitive umbilical ring exists precisely because the lateral folds fail to fuse. B is therefore false. The book states that the firmness of the notochord limits the head fold, which makes D the only option that stands.',
+      key: 'notochord-is-developed-from-f09634da',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Trace the notochord to the exact part of the epiblast it comes from.',
       explanations: {
-        A: 'The wrong cavity. Folding is caused by expansion of the *amniotic* cavity, together with growth of the neural tube and somites; the yolk sac is compressed by folding rather than driving it.',
-        B: 'The mark this reprint carries, and false. The head and tail folds are the cephalo-caudal pair; the right and left lateral folds are a second type, and without them the disc could never close into a cylinder.',
-        C: 'Folding begins at the end of the third week and is complete at the end of the fourth. Early in the second week the disc is not yet trilaminar and has nothing to fold.',
-        D: 'Correct. The department book gives the firmness of the notochord as what limits the head fold, in the same sentence that gives the primitive streak as what limits the tail fold.',
+        A: 'Epiblast cells at the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from a more precise place — the pit at the cranial end, not the length of the streak.',
+        B: 'The hypoblast is displaced by the invading epiblast and contributes nothing to the notochord. Half the wrong answers in this chapter come from giving the hypoblast work the epiblast does.',
+        C: 'The notochord is not formed from mesoderm; it arises alongside it, from the same epiblast, and lies in the median plane where mesoderm is absent.',
+        D: 'Correct. The prenotochordal process is a solid cord of epiblast cells from the wall of the primitive pit, which invaginates and grows cranially in the midline.',
+      },
+    },
+    {
+      key: 'neurenteric-canal-is-formed-due-to-degeneration-of-520e8ef1',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Name the wall whose loss opens the neurenteric canal, and say what it connects.',
+      explanations: {
+        A: 'Correct. The floor of the notochordal canal, fused with the endoderm beneath it, degenerates — which opens the amniotic cavity into the yolk sac through the canal.',
+        B: 'The roof of the notochordal canal lies against ectoderm and persists; with the sides it becomes the notochordal plate. Losing the roof would open the canal upwards into nothing.',
+        C: 'The same error as B with the wrong layer named as well. The ectoderm is above the roof and the endoderm below the floor, and only the lower pair degenerates.',
+        D: 'The bucco-pharyngeal membrane is at the cranial end of the disc and breaks down much later, opening the mouth into the foregut. It has nothing to do with the neurenteric canal.',
+      },
+    },
+    {
+      key: 'one-of-the-following-is-true-regarding-the-notochord-2017-de-003a5fd4',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Give the fate of the notochord and its position relative to the neural tube.',
+      explanations: {
+        A: 'The notochord extends from the primitive pit cranially as far as the bucco-pharyngeal membrane. The cloacal membrane is at the other end of the disc, caudal to the streak.',
+        B: 'Correct. Most of the notochord degenerates; the part inside the intervertebral disc persists as the nucleus pulposus, which is the only piece of it a person keeps.',
+        C: 'Cells migrating through the primitive streak give the endoderm and the intra-embryonic mesoderm. The notochord comes from the primitive pit at the cranial end of the streak — a distinction of a few cell-widths that the books examine repeatedly.',
+        D: 'The notochord is ventral to the neural tube: it lies under the ectoderm it induces to become the neural plate. A student who pictures the vertebral column, with the cord behind the bodies, has the relation the right way round and has only to remember that the notochord ends up inside the bodies.',
+      },
+    },
+    {
+      key: 'gastrulation-is-9d787378',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Define gastrulation by which disc it produces.',
+      explanations: {
+        A: 'Correct. Gastrulation is the transformation of the bilaminar embryonic disc into a trilaminar one.',
+        B: 'The bilaminar disc is what gastrulation starts from, and it was made in the second week from the embryoblast. Chosen by students who have the two discs the right way round but the arrow reversed.',
+        C: 'The chorion and the chorionic villi form in the same third week, which is why they are offered here, but they are extra-embryonic and are formed from the trophoblast, not from the disc.',
+        D: 'Folding begins at the end of the third week, after gastrulation has provided it with three layers to fold. The order matters: there is nothing to fold into a gut until the endoderm exists.',
+      },
+    },
+    {
+      key: 'the-primitive-streak-rst-appears-at-the-beginning-of-the-wee-b87b6467',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Moderate', questionType: 'Developmental timing',
+      learningObjective: 'Date the primitive streak to the week gastrulation happens in.',
+      answerOverride: 'C',
+      answerOverrideReason:
+        'The books key this to the first week. The department book makes gastrulation, beginning with the formation of the primitive streak in the epiblast, one of the two characteristic events of the third gestational week — and the epiblast the streak forms in does not exist until the eighth day. The first week is fertilisation, cleavage and blastocyst formation. Set to C.',
+      explanations: {
+        A: 'The first week is fertilisation, cleavage and the blastocyst. There is no epiblast yet, so there is nothing for a primitive streak to form in. This is the option the books key the question to, and it is a week and a half too early.',
+        B: 'The second week is implantation and the bilaminar disc, which does create the epiblast. It is the strongest wrong answer here, and it stops one step short: the epiblast is made in the second week and the streak appears in it at the start of the third.',
+        C: 'Correct. The primitive streak appears at the beginning of the third week, and its appearance is the beginning of gastrulation.',
+        D: 'By the fourth week gastrulation is over and folding is under way. The streak is already regressing.',
+      },
+    },
+    {
+      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c38b93d9',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Say where intra-embryonic mesoderm lies by knowing the three places it does not.',
+      explanations: {
+        A: 'At the bucco-pharyngeal membrane the ectoderm and endoderm are fused to one another, so there is no space between them for mesoderm. That fusion is what makes it a membrane.',
+        B: 'The cloacal membrane is the same arrangement at the caudal end — ectoderm fused to endoderm, and no mesoderm between.',
+        C: 'Correct. The intra-embryonic mesoderm lies between ectoderm and endoderm on both sides of the notochord and the neural tube.',
+        D: 'The median region between the primitive node and the bucco-pharyngeal membrane is occupied by the notochord and the neural tube, so mesoderm is absent there too. All three wrong options name one of the book\'s three exceptions, which is why this question is harder than it looks: a student who has learnt only the exceptions still has to notice that none of them is the answer.',
+      },
+    },
+    {
+      key: 'neural-plate-is-a-thickened-median-region-of-0bbbcaae',
+      conceptKey: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Name the germ layer the neural plate is a thickening of.',
+      answerOverride: 'C',
+      answerOverrideReason:
+        'None of the three printings of this question carries a key. The neural plate is a median thickening of the ectoderm, and the department book puts the central nervous system among the ectodermal derivatives on page 87. Set to C.',
+      explanations: {
+        A: 'The endoderm is the lowest layer and lines the gut. Nothing nervous comes from it.',
+        B: 'The mesoderm lies between the other two and is where the notochord that *induces* the plate sits. Confusing the inducer with the induced is the commonest way to reach this option.',
+        C: 'Correct. The neural plate is a thickening of the ectoderm in the median plane, overlying the notochord.',
+        D: 'The notochord is beneath the plate and induces it, but it is a separate structure and does not thicken into it. If the plate were notochord the nervous system would be mesodermal.',
+      },
+    },
+    {
+      key: 'regarding-formation-of-central-nervous-system-mark-the-corre-c072edfa',
+      conceptKey: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Hold the order of neural tube closure and the identity of the inducer together.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'The books print no key. Only A is true: the central nervous system is a derivative of ectoderm, which is the one statement of the four the department book itself makes, in its list of ectodermal derivatives on page 87. B, C and D are each false, and the reasons are given in their explanations.',
+      explanations: {
+        A: 'Correct. The central nervous system develops from ectoderm, by way of the neural plate and the neural tube.',
+        B: 'A double negative hiding a false statement. The notochord does induce the overlying ectoderm to become the neural plate; that induction is the reason the plate lies exactly where the notochord does.',
+        C: 'The neural groove is a depression of the neural plate. The neural crest is what is left over at the lips of the groove once the folds fuse, so it is a product of the depression and cannot be the thing depressed.',
+        D: 'Closure begins in the middle of the embryo and runs both ways, so the two ends shut last — and of them the cranial neuropore closes before the caudal. Naming the caudal end as first is wrong twice: it is neither first nor an area where closure begins.',
       },
     },
     {
       key: 'epidermis-of-skin-is-derived-from-a1791b98',
       conceptKey: 'germ-layer-derivatives-ectoderm-and-endoderm',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Assign the epidermis to its germ layer and separate it from the dermis.',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Separate surface ectoderm from the neural ectoderm beside it.',
       explanations: {
-        A: 'The neural crest gives the melanocytes that live in the epidermis, along with peripheral ganglia and much of the head\'s connective tissue — but it does not make the epidermis itself.',
-        B: 'The neural tube is the ectoderm that sank inwards to become the central nervous system. The epidermis is the ectoderm that stayed on the surface, which is exactly the distinction the option pair tests.',
-        C: 'Correct. The epidermis of the skin is a surface ectodermal derivative, and it is on the department book\'s list of ectodermal derivatives in those words.',
-        D: 'Mesoderm makes the *dermis*, from the dermatome of the somite. A student who answers "skin" rather than "epidermis" picks this, which is why the books ask for the epidermis by name.',
+        A: 'The neural crest gives the melanocytes that live in the epidermis, and sensory ganglia, and much else — but not the keratinocytes that are the epidermis itself. This is the most interesting wrong answer in the leaf, because a crest derivative really does end up in the layer.',
+        B: 'The neural tube becomes the brain and spinal cord. It began as the same ectoderm, which is what makes the distinction between surface and neural ectoderm worth drawing.',
+        C: 'Correct. The epidermis comes from the surface ectoderm, the part of the layer that is left once the neural plate has sunk away from it.',
+        D: 'The intra-embryonic mesoderm gives the dermis beneath the epidermis, and the two are commonly answered for each other. Dermis is mesodermal, epidermis ectodermal.',
       },
     },
     {
       key: 'parenchyma-of-the-liver-is-developed-from-d5de0bdd',
       conceptKey: 'germ-layer-derivatives-ectoderm-and-endoderm',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Assign the parenchyma of a gut-derived gland to its germ layer.',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Assign the working cells of a gut-derived gland to endoderm.',
       answerOverride: 'A',
       answerOverrideReason:
-        'No copy of this question in the bank carries a key. The department book lists the glandular epithelium derived from endoderm as "parenchyma of liver, pancreas, thyroid, thymus, tonsils and parathyroid glands" — the liver by name, first in the list.',
+        'None of the three printings of this question carries a key. The department book lists the parenchyma of the liver, pancreas, thyroid, thymus, tonsils and parathyroid among the derivatives of endoderm, as glandular epithelium. Set to A.',
       explanations: {
-        A: 'Correct. The liver buds from the endoderm of the foregut, and its parenchyma — the hepatocytes and the bile ducts — is endodermal glandular epithelium, like the pancreas, thyroid, thymus and parathyroids beside it in the book\'s list.',
-        B: 'Ectoderm gives the beginning and the end of the digestive tract but nothing between them. A liver from ectoderm would have had to arise from the stomodeum.',
-        C: 'The neural crest contributes to the ganglia of the gut wall, not to the glandular epithelium that buds off it.',
-        D: 'The intra-embryonic mesoderm gives the connective tissue capsule, the stroma and the blood vessels of the liver — everything except the parenchyma, which is the word the question turns on.',
+        A: 'Correct. The liver parenchyma is endodermal — it grows as a diverticulum from the foregut, whose lining is endoderm.',
+        B: 'Ectoderm gives the epidermis, the nervous system and the two ends of the digestive tract. The liver arises from the foregut, well inside the endodermal stretch.',
+        C: 'Neural crest cells migrate very widely, but they do not build glandular parenchyma. The question says parenchyma deliberately.',
+        D: 'The commonest wrong answer, and it is half right: the liver\'s connective tissue, its capsule and its blood vessels are mesodermal. The parenchyma — the hepatocytes — is not, and the word "parenchyma" in the stem is what separates the two.',
       },
     },
     {
-      key: 'after-folding-the-most-caudal-structure-at-tail-fold-is-4363fc0d',
-      conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A duplicate of `after-folding-the-most-caudal-structure-at-tail-fold-is-dep-34984edf` that lost option C, the connecting stalk, and carries no key. The complete copy is imported with an override.',
+      key: 'by-em-the-cell-membrane-appears-as-0094c4a1',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Report what the electron microscope shows rather than what the chemistry is.',
+      explanations: {
+        A: 'The lipid bilayer is the molecular arrangement. The electron microscope shows one more layer than that, because it stains the two rows of heads and leaves the tails between them unstained.',
+        B: 'Correct. Trilaminar — two electron-dense layers with an electron-lucent layer between them — the unit membrane.',
+        C: 'Unilaminar is what the membrane looks like below the magnification at which the three layers separate. It is an appearance of poor resolution, not of the membrane.',
+        D: 'Pentalaminar would need two membranes with something between them, which is what a nuclear envelope shows, not a cell membrane.',
+      },
+    },
+    {
+      key: 'cell-membrane-appears-as-trilaminar-structure-because-0345e60f',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Hard', questionType: 'Mechanism',
+      learningObjective: 'Give the reason for the three-layered image rather than a true fact about the membrane.',
+      explanations: {
+        A: 'True of phospholipids and not an explanation. Having a head and a tail is why they form a bilayer; it is not why the picture has three layers.',
+        B: 'Also true, and also not the reason. A bilayer by itself would be expected to look like two layers; the third comes from what the stain does, not from what the lipid does.',
+        C: 'Correct. Osmium and other heavy metals deposit in the hydrophilic heads at both surfaces and not in the hydrophobic tails between them, so two dense lines appear with a pale line between.',
+        D: '"All of the above" is tempting because A and B are both true statements. The stem asks why the appearance is trilaminar, and only C answers that question — the other two explain the bilayer, which is the thing being imaged rather than the reason for the image.',
+      },
+    },
+    {
+      key: 'trilaminar-membrane-f184b506',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Count the dark and light lines of the unit membrane in the right order.',
+      explanations: {
+        A: 'Reversed. One dark line between two light ones would mean the stain sat in the tails and avoided the heads, which is the opposite of what osmium does.',
+        B: 'Correct. Two dark, electron-dense lines — the stained hydrophilic heads at the two surfaces — with one light, electron-lucent line between them.',
+        C: 'Two and two makes four layers, not three, and the word trilaminar in the stem rules it out before any biology is needed.',
+        D: 'One and one makes two, which is the lipid bilayer counted rather than the image described.',
+      },
     },
     {
       key: 'all-the-statements-concerned-to-the-trilaminar-appearance-of-520cbee7',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
+      conceptKey: 'plasma-membrane-unit-membrane-em-and-thickness',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as printed.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'Not an embryology question. It is about the trilaminar appearance of the *cell membrane* on electron microscopy — heavy metal in the phospholipid heads, two electron-dense layers with an electron-lucent one between. The extractor filed it here on the word "trilaminar", which it shares with the trilaminar embryonic disc and nothing else. It belongs to the Cytology leaves.',
+        'Two of the four statements are false and the stem asks for one exception. The books key it to C, "middle layer represents unstained hydrophilic tails", which is indeed false — the tails are hydrophobic, and it is the heads that are hydrophilic and stained. But A, "it is easy to see by light microscope", is false too: at 7.5–10 nm the membrane is far below the light microscope\'s 0.2 µm resolution, which is the point of a neighbouring question in the Microscopes leaf. This is a reviewer\'s problem and not a scanner\'s — the page is legible and both options are printed as intended, so rescanning will not change anything. It needs a faculty decision about which statement was meant to be the false one, and the likeliest reading is that A was meant to say "not easy to see".',
     },
     {
       key: 'before-folding-the-most-caudal-structure-in-the-tail-fold-is-a72d0bdd',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `before-folding-the-most-caudal-structure-in-the-tail-fold-is-6811bd9c`, marked C — the primitive node, which is the most *cranial* of the four options. The correctly keyed copy was asked twice and is the one imported.',
+        'An annotated re-printing keyed to the primitive node, which is at the *cranial* end of the primitive streak and cannot be the most caudal structure of anything. The clean printing at `before-folding-the-most-caudal-structure-in-the-tail-fold-is-6811bd9c`, asked twice as often, is keyed to the connecting stalk and is live in this file.',
     },
     {
       key: 'before-folding-the-most-caudal-structure-in-the-tail-fold-is-f4912515',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A third copy reduced to two options, the primitive streak and the connecting stalk, with option A read into the stem and option C lost. Unkeyed.',
+        'The stem has swallowed option A and only two options survive. Clean and keyed at `before-folding-the-most-caudal-structure-in-the-tail-fold-is-6811bd9c`.',
     },
     {
-      key: 'by-em-the-cell-membrane-appears-as-0094c4a1',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A cytology question — the appearance of the cell membrane by electron microscopy — filed here on the word "trilaminar". It belongs to the Cytology leaves of Histology.',
-    },
-    {
-      key: 'cell-membrane-appears-as-trilaminar-structure-because-0345e60f',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The same cytology question one step further on — why the cell membrane looks trilaminar, namely osmium deposited in the hydrophilic heads. Filed here on a shared word; it belongs to the Cytology leaves.',
-    },
-    {
-      key: 'gastrulation-is-dep-book-2ecc8237',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Easy',
-      questionType: 'Developmental process',
+      key: 'after-folding-the-most-caudal-structure-at-tail-fold-is-4363fc0d',
+      conceptKey: 'embryonic-disc-folding-types-causes-results',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A clean but unkeyed department-book copy of `gastrulation-is-9d787378`, with the same four options. One copy of a question is imported and the keyed one is it.',
+        'Option C, the connecting stalk, was lost, leaving three. The other printing of this question — `after-folding-the-most-caudal-structure-at-tail-fold-is-dep-34984edf` — has the full four options and is live with its answer overridden, so nothing is lost; a rescan would only confirm the missing option.',
     },
     {
-      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-9c02d2ba',
-      conceptKey: 'intra-embryonic-mesoderm-divisions-and-derivatives',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      key: 'concerning-the-folding-of-the-embryonic-disc-select-the-corr-695627d7',
+      conceptKey: 'embryonic-disc-folding-types-causes-results',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c38b93d9`, with the same four options and the same answer C. Kept as a recorded duplicate so a rescan of page 123 does not author it a second time.',
-    },
-    {
-      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c529e945',
-      conceptKey: 'intra-embryonic-mesoderm-divisions-and-derivatives',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A third copy reduced to three options — the stem swallowed option A and option D was lost — and unkeyed. Since D, the median region between primitive pit and bucco-pharyngeal membrane, is one of the three regions the answer depends on distinguishing, what was lost matters.',
-    },
-    {
-      key: 'neural-plate-is-a-thickened-median-region-of-a-endoderm-4732175e',
-      conceptKey: 'neural-tube-and-neural-crest-derivatives',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The only keyed copy of the neural plate question, and its stem swallowed option A: it ends "a thickened median region of a .. Endoderm", leaving three options. The complete four-option copy `neural-plate-is-a-thickened-median-region-of-0bbbcaae` is imported instead, with its answer overridden to the C that this row keys — so the key is not lost, only the broken option set.',
-    },
-    {
-      key: 'neural-plate-is-a-thickened-median-region-of-dep-book-9f1a467a',
-      conceptKey: 'neural-tube-and-neural-crest-derivatives',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A third, unkeyed copy of the same question with the same four options. One copy is imported.',
+        'Damaged twice, once by the scanner and once by the examiner. The stem has swallowed option A — "(2023 - 2022) ad Ac a- It is caused by expansion of the yolk sac cavity" — and the printed key, B, says folding "is of two types only head and tail folds", which the department book contradicts: folding is cephalo-caudal *and* transverse, giving head, tail and two lateral folds. The only defensible option left is D, that folding is limited by the notochord, and that is true of the head fold rather than of folding as a whole. A rescan repairs the stem; deciding what the question should be keyed to needs a reviewer.',
     },
     {
       key: 'neurenteric-canal-is-formed-due-to-degeneration-of-dep-book-7afe36a7',
       conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `neurenteric-canal-is-formed-due-to-degeneration-of-520e8ef1`, marked B — the roof of the notochordal canal — where the book says it is the floor, together with the endoderm fused to it, that degenerates. The correctly keyed copy was asked twice and is the one imported.',
+        'An annotated re-printing keyed to the roof of the notochordal canal. The book is explicit that it is the floor, together with the endoderm fused to it, whose degeneration opens the canal — the roof survives as part of the notochordal plate. The clean printing at `neurenteric-canal-is-formed-due-to-degeneration-of-520e8ef1`, asked twice as often, is keyed correctly and is live.',
     },
     {
       key: 'notochord-is-developed-from-dep-book-2024-em-em-em-em-em-d1ea0b43',
       conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `notochord-is-developed-from-f09634da`, with the same four options and the same answer D. A recorded duplicate rather than a second question.',
+        'An annotated duplicate — "(DEP BOOK - 2024) em em em em em" in the stem and pencil marks in two options. Its key agrees with the clean printing at `notochord-is-developed-from-f09634da`, which is asked twice as often and is live.',
+    },
+    {
+      key: 'gastrulation-is-dep-book-2ecc8237',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'A "(DEP BOOK)"-annotated duplicate with no key of its own. The clean printing at `gastrulation-is-9d787378` carries the same four options and is live.',
+    },
+    {
+      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-9c02d2ba',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'An annotated duplicate — "(DEP BOOK) em em em" in the stem, pencil marks in option D. Its key agrees with the cleaner printing at `intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c38b93d9`, which is live.',
+    },
+    {
+      key: 'intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c529e945',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A and only two options survive, one of which is the answer. Live and keyed at `intraembryonic-mesoderm-is-formed-between-ectoderm-and-endod-c38b93d9`.',
+    },
+    {
+      key: 'neural-plate-is-a-thickened-median-region-of-a-endoderm-4732175e',
+      conceptKey: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A and only three options survive. Its key, C for ectoderm, is right and is the reason the override on the clean printing at `neural-plate-is-a-thickened-median-region-of-0bbbcaae` can be made with confidence.',
+    },
+    {
+      key: 'neural-plate-is-a-thickened-median-region-of-dep-book-9f1a467a',
+      conceptKey: 'neural-plate-and-the-ectodermal-origin-of-the-nervous-system',
+      difficulty: 'Easy', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'A "(DEP BOOK)"-annotated duplicate with no key. The clean printing at `neural-plate-is-a-thickened-median-region-of-0bbbcaae` is live with a supplied answer.',
+    },
+    {
+      key: 'one-of-the-followings-is-not-a-part-of-intraembryonic-mesode-29a6885b',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed two of its own options — "(2022) Ac P a- Intermediate mesoderm. P Vi b- Paraxial mesoderm. y" — and the printed key is wrong besides. It is keyed to the lateral plate mesoderm, which is one of the three parts of the intra-embryonic mesoderm; the one that is not is the amnioblast, which lines the amniotic cavity and is not mesoderm at all. This is the only printing of a good question, and a rescan of the stem alone recovers it with D as the answer.',
     },
     {
       key: 'parenchyma-of-the-liver-is-developed-from-a-endoderm-d934e750',
       conceptKey: 'germ-layer-derivatives-ectoderm-and-endoderm',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A duplicate of `parenchyma-of-the-liver-is-developed-from-d5de0bdd` whose stem swallowed option A and whose options carry line-break debris. Unkeyed, like every copy of this question.',
+        'The stem has swallowed option A, which is the answer, so the question gives itself away. The clean printing at `parenchyma-of-the-liver-is-developed-from-d5de0bdd` is live.',
     },
     {
       key: 'parenchyma-of-the-liver-is-developed-from-dep-book-ac-p-a-en-25be9c9e',
       conceptKey: 'germ-layer-derivatives-ectoderm-and-endoderm',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of the same question, with options A and B read into the stem along with the page margin, and no key. The clean copy is imported with an override taken from the book\'s own list of endodermal derivatives.',
+        'A third printing whose stem has swallowed both option A and option B along with the "(DEP BOOK)" annotation. Live at `parenchyma-of-the-liver-is-developed-from-d5de0bdd`.',
     },
     {
       key: 'tail-fold-of-the-embryo-is-limited-by-a3244e1a',
       conceptKey: 'embryonic-disc-folding-types-causes-results',
-      difficulty: 'Moderate',
-      questionType: 'Developmental process',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A duplicate of `tail-fold-of-the-embryo-is-limited-by-dep-book-ac-ad-ac-ad-a-c1b63c26` that lost option C, the yolk sac, and carries no key. The complete keyed copy is imported.',
+        'Option C, the yolk sac, was lost, leaving three, and there is no key. The other printing, `tail-fold-of-the-embryo-is-limited-by-dep-book-ac-ad-ac-ad-a-c1b63c26`, has the full option set and a correct key and is live.',
     },
     {
       key: 'the-de-nitive-yolk-sac-develops-during-dep-book-ac-ad-ac-ad-aa472d7d',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Developmental timing',
+      conceptKey: 'gastrulation-primitive-streak-and-the-three-layers-from-epiblast',
+      difficulty: 'Moderate', questionType: 'Developmental timing',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'None of the four options can be right. The row offers first, third, fourth and fifth week, and the department book states that the primary yolk sac forms on the ninth gestational day and the secondary — definitive — yolk sac on the thirteenth, both of which are the second week. The row carries no key either. Excluded because a question whose correct answer is not among its options cannot be repaired by choosing the least wrong one; the disagreement is recorded on `yolk-sac-development-and-functions` in `fetal-membranes.ts`, which is the concept it would have tested.',
-    },
-    {
-      key: 'trilaminar-membrane-f184b506',
-      conceptKey: 'gastrulation-trilaminar-disc-from-epiblast',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The third cytology row filed here on the word "trilaminar": two dark lines and one light one in the electron-microscopic cell membrane. It belongs to the Cytology leaves of Histology.',
+        'No correct option is present. The department book puts the transformation of the primary into the secondary — definitive — yolk sac on the thirteenth day, in the second week, and the four options offered are the first, third, fourth and fifth weeks. Either an option was lost and replaced or the question was printed without its answer; the row cannot be sat either way. A rescan of the page is needed to say which, and this is the one row in this leaf whose defect is not a duplicate, a swallowed option or a mis-set key.',
     },
   ],
 }

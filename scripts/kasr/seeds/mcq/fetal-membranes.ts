@@ -2,65 +2,49 @@
  * `101 ISK > Anatomy > General Embryology > Fetal Membranes` — the question
  * books' MCQs.
  *
- * Sixty-nine rows, the largest leaf in general embryology, and twenty-four
- * questions. The department's chapter is the longest in the book — twelve
- * pages carrying thirteen ILOs, more than any other — and the books ask across
- * all of it: the two plates of the placenta and the septa between them, the
- * barrier, the functions and hormones, the six families of placental anomaly,
- * the amnion and its expansion, the cord from primitive ring to definitive
- * cord, the yolk sac and its five functions, and the twins. What the leaf turns
- * out to be is a chapter examined evenly rather than a chapter with one famous
- * question in it.
+ * Sixty-nine rows, twenty-eight live. The worst-scanned leaf of the eleven:
+ * forty-one rows are lost, and of those, four are collisions in which two
+ * questions have run into one row — the biaxial-joint row carries a joints
+ * question, a trophoblast question and a notochord option all at once — while
+ * most of the rest are annotated re-printings whose stems have swallowed one of
+ * their own options.
  *
- * Six rows are not embryology. They are connective-tissue questions — collagen
- * types, mucoid connective tissue, reticular and yellow elastic tissue — that
- * name the umbilical cord or the placenta in one of their options, and the
- * extractor filed them here on that word. Two more are upper-limb joint
- * questions whose text has merged with an embryology question below it on the
- * page. All eight are excluded to the leaves that own them.
+ * Twelve answers are overridden, the most of any leaf here, and six of those are
+ * against a printed key. The pattern is the one the whole batch shows: a
+ * "(DEP BOOK)" printing keyed one option away from the truth, with the clean
+ * printing either keyed correctly or carrying no key at all. Where the annotated
+ * printing is the only complete option set it is kept and corrected —
+ * `placental-barrier-is-the-separation-between-dep-book-em-em-e`,
+ * `one-of-the-following-is-correct-regarding-the-functions-of-p` and
+ * `abnormally-long-umbilical-cord-may-lead-to-dep-book-2024-ac` are the three
+ * live rows in that position.
  *
- * The three rules that pick between copies are the same as in the other
- * embryology leaves. One copy per distinct question, with the rest kept and
- * named against it. The copy with the complete option set wins, even when its
- * stem carries a reader's pencil — `em`, `Ac`, `ad`, `Vi`, `P` and the
- * occasional option written into the stem are marginalia from the department
- * book's own pages and appear on a hundred rows this corpus already imports; a
- * row that lost an option, gained one from its neighbour or printed one twice
- * cannot be repaired and does not win. And the source's answer stands unless
- * the department book contradicts it, in which case an override names the
- * sentence it stands on.
+ * Nine concepts are reused verbatim. Four come from the written papers —
+ * `placenta-anomalies`, `umbilical-cord-anomalies`, `amniotic-fluid-functions`
+ * and `decidua-definition-parts-fates`; one, `notochord-formation-fate`, carries
+ * the three neurenteric-canal printings; `chorionic-villi-types-development`
+ * carries the chorionic plate; `mucoid-ct-is-jelly-rich-in-hyaluronic-acid`
+ * carries the two mucoid-tissue strays that reached this leaf through Wharton's
+ * jelly; and two are repeated from my own `second-week-of-development.ts`,
+ * `second-week-day-by-day-timetable` and `placental-barrier-early-and-late`,
+ * with that file's text unchanged so the merge is a no-op.
  *
- * Ten answers are supplied or overridden — five where no copy of the question
- * was ever keyed and the answer comes from a sentence of the department book
- * named in the override, five against a pencilled mark the book contradicts.
- * Two of the second kind would teach a student something dangerous: the placental
- * barrier marked as the separation between the cytotrophoblastic shell and the
- * intervillous spaces rather than between fetal and maternal blood, and the
- * functions of the placenta marked "it prevents the passage of all viruses" —
- * where the department book names five viruses that cross it, HIV among them.
+ * `connective-tissue-fibres-collagen-reticular-and-elastic` is minted here under
+ * the modulePath of `Connective Tissue > Connective Tissue Fibres`, which has no
+ * seed file yet, for four stray questions about collagen types and fibre
+ * distribution that landed in this leaf because one of their options is the
+ * umbilical cord. Like `collagen-synthesis-requires-vitamin-c` in
+ * `red-blood-corpuscles.ts`, it should be reused rather than re-minted when that
+ * leaf is written.
  *
- * One conflict is recorded rather than resolved. The 2024 sitting asks what is
- * responsible for the development of the bladder, and the department book's
- * sentence in this chapter gives the apex of the bladder to the proximal part
- * of the allantois while its Embryonic Period chapter gives most of the
- * bladder's lining epithelium to endoderm. Both are the same faculty's words.
- * The allantois is the answer the question is drawn from and the conflict sits
- * on `yolk-sac-development-and-functions`.
- *
- * One exclusion is worth naming because it is not a scan fault. The only keyed
- * copy of the monozygotic twin question lost an option and carries three, below
- * the four-to-five the question contract requires, so the four-option
- * department-book copy is imported instead and the excluded row\'s key is
- * carried across to it as a recorded override. The answer is still the
- * source\'s; only the page it was marked on has changed.
- *
- * Nine of the fourteen concepts are reused verbatim from lanes that reached
- * this material first — `decidua-definition-parts-fates`, `placenta-anomalies`,
- * `umbilical-cord-anomalies`, `chorionic-villi-types-development` and
- * `notochord-formation-fate` from the sat papers, and
- * `second-week-day-by-day-events-of-implantation`, `chorion-three-layers-and-the-chorionic-vesicle`
- * and `placental-barrier-early-and-late-layers` shared with
- * `second-week-of-development.ts`, where the book teaches them.
+ * On whether the books ask timing the department book never states: here, once.
+ * `polyhydramnios-is-the-increase-of-the-volume-of-amniotic-flu` asks for the
+ * volume in litres above which amniotic fluid is called excessive. The
+ * department book defines polyhydramnios as "increased amniotic fluid at full
+ * term" and gives no figure anywhere, so the number the question wants is not in
+ * the source this faculty teaches from. The row is excluded on other grounds as
+ * well — the option it wants was lost — but the gap would remain after a
+ * rescan.
  */
 import type { McqLeafSeed } from '../mcq.ts'
 
@@ -72,51 +56,145 @@ export const LEAF: McqLeafSeed = {
   concepts: [
     {
       key: 'placenta-structure-plates-septa-and-cotyledons',
-      label: 'The placenta is a fetal chorionic plate and a maternal decidual plate with the intervillous spaces between them, divided into cotyledons by septa that never reach across',
+      label: 'The placenta is a chorionic plate of fetal tissue facing a decidual plate of maternal tissue, with intervillous spaces between them divided into cotyledons by septa from the maternal side',
       definition:
-        'The placenta is formed by the union of two plates. The fetal part is the chorionic plate — the chorion frondosum — made from outside inwards of amnion, somatopleuric extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast, and carrying the umbilical vessels that enter and leave the villi. The maternal part is the decidual plate — the decidua basalis — made from outside inwards of decidua basalis containing maternal arterioles, venules and uterine glands, then the cytotrophoblastic shell, then the syncytiotrophoblast that lines the intervillous spaces. Between the two plates hang the tertiary villi, bathed in maternal blood in the intercommunicating intervillous spaces. Placental (decidual) septa are incomplete partitions running from the decidual plate into those spaces, each a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast; because they are incomplete they do not reach the chorionic plate, and opposite each of them a groove on the maternal surface marks off one of the fifteen to twenty cotyledons.',
+        'The placenta is a temporary disc-shaped organ lying mostly in the upper part of the posterior wall of the uterus near the fundus, formed by the union of a maternal part — the decidual plate, which is decidua basalis — and a fetal part, the chorionic plate, which is chorion frondosum. Its fetal surface is smooth and covered by transparent amnion, with the umbilical cord attached near its centre and the umbilical vessels running over it; its maternal surface is rough and shows cotyledons separated by grooves, covered by a thin layer of decidua basalis. The chorionic plate is, from the outside inwards, amnion, somatopleuric extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast; the decidual plate is decidua basalis with its maternal arterioles, venules and uterine glands, then the cytotrophoblastic shell, then syncytiotrophoblast lining the intervillous spaces. The placental, or decidual, septa are incomplete septa extending from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast; they carry no maternal vessels, they are not fixed to the chorionic plate, and opposite each of them is a groove on the maternal surface separating one cotyledon from the next.',
       objective:
-        'Name the two plates of the placenta and their layers, say what the septa are made of and where they run, and explain what a cotyledon is.',
+        'Name the two plates of the placenta and what each is made of, and say where the septa arise, what they contain and what they divide.',
       pitfall:
-        'Calling the septa fetal because they hang into the intervillous spaces where the villi are. They grow up from the decidual plate and their core is maternal decidua; a fetal septum would have to be chorion frondosum, and chorion frondosum is the plate they run away from.',
+        'Attaching the septa to the chorionic plate. They grow from the decidual — maternal — side and stop short, which is why they are called incomplete and why the intervillous spaces still communicate with one another; a septum reaching the chorionic plate would divide the maternal blood into separate compartments.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
       type: 'structural_description',
-      aliases: ['Chorionic plate', 'Decidual plate', 'Cotyledons', 'Placental septa', 'Intervillous spaces'],
-    },
-    {
-      key: 'placental-barrier-early-and-late-layers',
-      label: 'The placental barrier is four layers in early pregnancy and two from the fourth month, losing the cytotrophoblast and the mesoderm as the fetus grows',
-      definition:
-        'The placental barrier, or placental membrane, is what separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi. In early pregnancy it has four layers, from the maternal side inwards: syncytiotrophoblast, cytotrophoblast, somatic mesoderm and the endothelium of the fetal blood vessels. From the fourth month it thins to two — syncytiotrophoblast and fetal vessel endothelium — because a larger fetus needs faster exchange and a thinner membrane gives it. The barrier separates the two circulations, permits exchange of nutrients, gases and waste, prevents the passage of bacteria and of most but not all viruses, and mostly excludes toxic material and maternal hormones.',
-      objective:
-        'Name the layers of the placental barrier in early pregnancy and after the fourth month, and explain why it becomes thinner rather than thicker.',
-      pitfall:
-        'Expecting a barrier to be reinforced as pregnancy advances. It does the opposite: two of its four layers are lost, because its job is exchange rather than defence and the fetus\'s demand rises faster than its resistance to infection matters.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'structure_function_relationship',
-      aliases: ['Placental membrane', 'Placental barrier'],
+      aliases: ['Chorionic plate', 'Decidual plate', 'Cotyledon', 'Decidual septa', 'Intervillous space'],
     },
     {
       key: 'placental-functions-and-hormones',
-      label: 'The placenta exchanges, excretes, transmits maternal antibodies and secretes four hormones — and the immunity it passes on is the function students most often deny it',
+      label: 'The placenta exchanges, excretes, passes maternal antibodies and secretes four hormones — and it stops bacteria and most but not all viruses',
       definition:
-        'The department book gives the placenta six functions: exchange of metabolic products, exchange of gases, transmission of maternal antibodies to the fetal blood from the fourteenth week so that the fetus gains passive immunity, an endocrine function, a protective role, and an excretory function removing fetal urea and creatinine. Its four hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum to the fourth month and is what a pregnancy test detects; and somatomammotropin, which gives the fetus priority over maternal blood glucose and promotes breast development. The protective role is real but partial: the barrier stops bacteria and most viruses, and the book names five that cross it anyway — HIV, poliomyelitis, rubella, cytomegalovirus and measles.',
+        'The placenta exchanges metabolic products and the respiratory gases between mother and fetus, excretes fetal urea and creatinine, transmits maternal antibodies to the fetal blood so that the newborn has passive immunity, protects the fetus, and acts as an endocrine gland. Its hormones are progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum and is the hormone a pregnancy test detects; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. The barrier keeps bacteria and most viruses out, but only most: the department book records named exceptions, so no statement that the placenta stops all viruses is true.',
       objective:
-        'Enumerate the functions of the placenta and its four hormones, and state the limits of its protective role.',
+        'List the functions of the placenta, name its four hormones and what each does, and state the limits of its protective role.',
       pitfall:
-        'Reading "protective" as absolute. The book lists the viruses that cross, and rubella and cytomegalovirus crossing is the whole reason congenital infection exists as a subject.',
+        'Reading the protective function as absolute. The word the book uses is "most" — some viruses cross, which is why rubella and similar infections in pregnancy matter, and a question offering "prevents the passage of all viruses" is offering an overstatement rather than a fact.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
       type: 'structure_function_relationship',
-      aliases: ['HCG', 'Somatomammotropin', 'Placental hormones', 'Passive immunity'],
+      aliases: ['HCG', 'Somatomammotropin', 'Placental hormones'],
+    },
+    {
+      key: 'umbilical-cord-development-and-contents',
+      label: 'The cord runs primitive umbilical ring to primitive cord to definitive cord, and the physiological hernia lives in the primitive cord',
+      definition:
+        'The primitive umbilical ring forms in the fourth week, as the expanding amniotic cavity folds the disc and shifts the amnio-ectodermal junction ventrally; through it pass the allantois and the umbilical vessels within the connecting stalk, and the vitelline duct with its vessels. When the amnion sheathes those structures the primitive umbilical cord is formed, containing the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and later the herniated intestinal loops — the physiological umbilical hernia, which is therefore a feature of the primitive cord and not of the definitive one. The definitive cord forms when the intestine returns to the abdomen, one umbilical vein and the extra-embryonic vitelline vessels obliterate, and the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate; Wharton\'s jelly forms from the mesoderm of the connecting stalk. The definitive cord therefore holds two umbilical arteries and one umbilical vein in Wharton\'s jelly, sheathed by amnion. It is tortuous because the umbilical arteries take a wavy course, and a wider curve of an artery makes a false knot, which causes the fetus no stress.',
+      objective:
+        'Name the contents of the primitive umbilical ring, of the primitive cord and of the definitive cord, and place the physiological hernia in the right one.',
+      pitfall:
+        'Putting the intestinal loops in the ring or in the definitive cord. The ring is the defect they pass through before the hernia exists; the definitive cord is what is left after they have gone back — the herniated loops belong to the primitive cord, between the two.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'developmental_process',
+      aliases: ['Primitive umbilical ring', 'Physiological umbilical hernia', 'Wharton\'s jelly'],
+    },
+    {
+      key: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      label: 'Heuser\'s membrane lines the primary yolk sac, the allantois buds from the secondary one, and the vitelline duct is what connects the definitive sac to the midgut',
+      definition:
+        'The primary yolk sac is made when flat cells from the hypoblast form Heuser\'s membrane lining the blastocele, on the ninth day. The secondary — definitive — yolk sac follows when new hypoblast-derived cells line Heuser\'s membrane, a large part of the sac is pinched off as the chorionic cavity grows, and a diverticulum extends from its caudal wall into the connecting stalk as the allantois. After folding, the sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then gradually degenerate. The yolk sac is not merely a vestige: it shares with the endoderm in forming the gut, its allantois forms the apex of the urinary bladder, the primordial germ cells arise in the wall of its caudal part from migrated epiblast, the blood vessels of the gut develop in the mesoderm around the vitelline duct, and blood cells are first formed in its splanchnic extra-embryonic mesoderm.',
+      objective:
+        'Distinguish primary from secondary yolk sac by what lines each, name the structure that connects the sac to the midgut, and give the functions of the yolk sac.',
+      pitfall:
+        'Attaching Heuser\'s membrane to the definitive yolk sac. It lines the primary one; the definitive sac is lined by a second wave of hypoblast cells laid down over it, and every printing of this question offers the definitive sac as its first option.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'developmental_process',
+      aliases: ['Heuser\'s membrane', 'Allantois', 'Vitelline duct', 'Secondary yolk sac'],
+    },
+    {
+      key: 'amnion-expansion-and-the-amniochorionic-membrane',
+      label: 'The amniotic cavity keeps expanding, and each thing it touches it obliterates — the chorionic cavity first, then the uterine cavity',
+      definition:
+        'The amnion is the wall of the amniotic cavity. As the cavity expands it does five things in turn: it folds the embryonic disc and produces the primitive umbilical ring; it wraps the umbilical cord in a sheath of amnion; it covers the fetal surface of the placenta; it brings the amnion against the chorion, forming the amniochorionic membrane and obliterating the chorionic cavity between them; and finally it presses that membrane, with the decidua capsularis, against the decidua parietalis, obliterating the uterine cavity itself at about the fourth month.',
+      objective:
+        'Give the consequences of expansion of the amniotic cavity in order, and name the membrane it forms with the chorion.',
+      pitfall:
+        'Crediting the expanding amnion with things it only surrounds. It does not form the secondary yolk sac, the connecting stalk or the neural tube — those arise from hypoblast, extra-embryonic mesoderm and ectoderm respectively; what the amnion does is enclose, sheathe and obliterate.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'developmental_process',
+      aliases: ['Amniochorionic membrane', 'Amnio-ectodermal junction', 'Amnion'],
+    },
+    {
+      key: 'twins-monozygotic-and-dizygotic',
+      label: 'Monozygotic twins come from one zygote and are always of the same sex; dizygotic twins come from two ova and need not be',
+      definition:
+        'Dizygotic twins arise when two ova are released and each is fertilised by its own sperm. They are the commoner kind, are genetically no more alike than any two siblings, may be of either sex, and each has its own amnion, its own chorion and usually its own placenta. Monozygotic twins arise when a single fertilised ovum splits, so the two share one genotype: they are identical, and being identical they are necessarily of the same sex. What they share of the membranes depends on when the split occurred — the earlier it happens the more separate the sacs, and a late split leaves one chorion and one amnion between them.',
+      objective:
+        'Say which kind of twinning is commoner, which is always same-sex, and how the membranes differ between the two.',
+      pitfall:
+        'Answering "commonest" for monozygotic because identical twins are the more remarkable. Dizygotic twinning is the commoner by a wide margin, and both questions in these books offer "is the commonest type" as the first option of the monozygotic stem.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'comparison',
+      aliases: ['Identical twins', 'Fraternal twins', 'Monozygotic', 'Dizygotic'],
+    },
+    {
+      key: 'connective-tissue-fibres-collagen-reticular-and-elastic',
+      label: 'Collagen type I builds the strong dense tissues, type III is the reticular fibre of organ stromas, and elastic fibres are what ligamentum nuchae is made of',
+      definition:
+        'Connective tissue has three kinds of fibre. Collagen is the commonest, and its types differ by where they are: type I in dense connective tissue — tendon, ligament, capsule of organs, dermis and bone — type II in cartilage, type III as the reticular fibre, and type IV in the basement membrane. Reticular fibres are fine, branching type III collagen, stained black by silver, and they form the supporting stroma of parenchymatous organs such as liver, spleen, lymph node and bone marrow. Elastic fibres are made of elastin with a fibrillin microfibril scaffold, stain brown with orcein, and give yellow elastic connective tissue — ligamentum nuchae, ligamenta flava and the vocal ligaments — its ability to recoil.',
+      objective:
+        'Match each fibre type to the tissue it builds, and name a site where each predominates.',
+      pitfall:
+        'Reading "reticular" as a separate protein. A reticular fibre is collagen — type III — and the two questions in these books that name type III and reticular tissue have the same answer, the stroma of parenchymatous organs, phrased two ways.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T02',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Connective Tissue Fibres',
+      type: 'classification',
+      aliases: ['Collagen types', 'Reticular fibres', 'Elastic fibres', 'Ligamentum nuchae'],
+    },
+    {
+      key: 'chorionic-villi-types-development',
+      label: 'Chorionic villi run primary to secondary to tertiary, and the chorion that carries them splits into frondosum and laeve',
+      definition:
+        'Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third. A primary villus is a core of proliferating cytotrophoblast pushing the syncytiotrophoblast; it becomes a secondary villus when somatic extra-embryonic mesoderm enters the core, and a tertiary villus when fetal blood vessels appear in that mesoderm, the villi then separated by intervillous spaces full of maternal blood. A tertiary villus has a stem (anchoring) part running between chorion and decidua basalis and free (floating) side branches where exchange happens. The chorion carrying well-developed villi is the chorion frondosum, which persists as the fetal part of the placenta; the rest is chorion laeve, whose villi degenerate.',
+      objective: 'Name the three types of chorionic villus and what changes between them, and give the fate of chorion frondosum and chorion laeve.',
+      pitfall: 'Calling a villus tertiary as soon as it has a mesodermal core. Mesoderm alone makes it secondary; it is tertiary only once vessels have formed in that mesoderm.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'developmental_process',
+      aliases: ['Chorion frondosum and chorion laeve'],
+    },
+    {
+      key: 'placental-barrier-early-and-late',
+      label: 'The early placental barrier has four layers and the late one has two, because the cytotrophoblast and the villus mesoderm thin away',
+      definition:
+        'The placental barrier is what maternal blood in the intervillous space must cross to reach fetal blood in the villus. Early it has four layers: syncytiotrophoblast, cytotrophoblast, the connective tissue of the villus core, and the endothelium of the fetal capillary. As pregnancy advances the cytotrophoblast disappears from most of the villus and the core connective tissue is reduced, and the capillaries move to lie against the surface, so that late in pregnancy the barrier is two layers — syncytiotrophoblast and the endothelium of the fetal blood vessels. The thinning is what lets exchange keep pace with a fetus whose demands are rising fastest at the end.',
+      objective:
+        'Name the layers of the placental barrier early and late in pregnancy, and say which layers are lost and why that matters.',
+      pitfall:
+        'Keeping the cytotrophoblast in the late barrier. It is the layer that goes, and a barrier described as syncytiotrophoblast plus cytotrophoblast is the early one with two layers already dropped rather than the late one.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T02',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
+      type: 'structure_function_relationship',
+      aliases: ['Placental membrane', 'Materno-fetal barrier'],
     },
     {
       key: 'placenta-anomalies',
@@ -131,9 +209,6 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
       type: 'clinical_correlation',
       aliases: ['Velamentous placenta', 'Battledore placenta', 'Placenta membranacea', 'Placenta accreta'],
-      gaps: [
-        'The department book prints "placenta accreta: placenta infiltrates till the myometrium" and "placenta increta: placenta infiltrates the myometrium". As printed the two definitions are all but identical and the accreta/increta distinction is not drawn. Recorded as the book states it; a faculty reviewer is needed rather than a rescan.',
-      ],
     },
     {
       key: 'umbilical-cord-anomalies',
@@ -148,59 +223,20 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
       type: 'clinical_correlation',
       aliases: ['Omphalocele', 'Single umbilical artery'],
-      uncertainty: 'The paper prints its mark marker twice on this question — "{5 Marks}. {5 Marks}". It is one five-mark question; the duplication is a typesetting slip in the paper and appears in both the solved and the unsolved copy.',
     },
     {
-      key: 'umbilical-cord-development-ring-to-definitive-cord',
-      label: 'The cord is built in three stages — a ring in the belly wall, a primitive cord that carries a herniated intestine, and a definitive cord of two arteries and one vein in Wharton\'s jelly',
+      key: 'amniotic-fluid-functions',
+      label: 'Amniotic fluid does different work early, late and during delivery',
       definition:
-        'The primitive umbilical ring forms in the fourth week as the expanding amniotic cavity folds the disc and drives the amnio-ectodermal junction ventrally; it is the defect in the ventral abdominal wall, and what passes through it is the allantois and the umbilical vessels inside the connecting stalk, together with the vitelline duct and the vitelline vessels. The primitive umbilical cord forms when the amnion ensheathes those structures, and its contents are the secondary yolk sac, the vitelline duct and vessels, the connecting stalk with the remnant of the allantois and the umbilical vessels, and — from the sixth week — the loops of intestine that herniate into it, the physiological umbilical hernia, because the abdominal cavity is too small to hold the growing gut. The definitive umbilical cord forms when the intestine returns by the third month, one umbilical vein and the extra-embryonic vitelline vessels obliterate, the vitelline duct, secondary yolk sac and extra-embryonic allantois degenerate, and Wharton\'s jelly forms from the mesoderm of the connecting stalk. The finished cord is 50 to 60 cm long and 2 cm across, and carries two umbilical arteries and one umbilical vein.',
-      objective:
-        'Give the contents of the primitive umbilical ring, of the primitive cord and of the definitive cord, and say what physiological umbilical hernia is and when it resolves.',
-      pitfall:
-        'Putting the herniated intestine in the primitive umbilical *ring*. The ring is the defect; the loops lie in the primitive umbilical cord that the amnion has wrapped around the structures passing through it, and a loop that is still there at term is an omphalocele.',
+        'Amniotic fluid is a clear watery fluid of water, electrolytes, protein, carbohydrate, lipid, phospholipid and urea, produced first by the amnioblast cells, then derived from maternal blood by osmosis, with fetal urine added from the fifth month. In early pregnancy it is a shock absorber protecting the fetus from external trauma, a thermal insulator keeping the fetal temperature constant, and the thing that prevents adhesion of the fetus to the uterine wall and of fetal parts to each other. In late pregnancy it provides space for the fetal movements that develop the fetal muscles, space for fetal urine, and a medium the fetus swallows to learn to suckle. During delivery it protects the fetus against uterine contractions, its fore bag helps the cervical canal dilate gradually, its rupture signals the start of labour, and being sterile it washes the vagina just before the fetus passes.',
+      objective: 'Enumerate the functions of amniotic fluid in early pregnancy, in late pregnancy and during delivery.',
+      pitfall: 'Giving cushioning alone. The book groups the functions by stage, and the delivery group — gradual cervical dilatation, the sign of labour, washing the birth canal — is a third of the answer.',
       subject: 'dev',
       primary: 'DIS-EMB-T02',
       secondary: [],
       modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'developmental_process',
-      aliases: ['Primitive umbilical ring', 'Primitive umbilical cord', 'Wharton\'s jelly', 'Physiological umbilical hernia'],
-    },
-    {
-      key: 'yolk-sac-development-and-functions',
-      label: 'The yolk sac runs primary to secondary to vitelline duct, and does five jobs on the way out',
-      definition:
-        'Heuser\'s membrane — flat cells derived from the hypoblast — lines the blastocele on the ninth gestational day and converts it into the primary yolk sac. On the thirteenth day new hypoblast-derived cells line Heuser\'s membrane, a large part of the sac is pinched off as the chorionic cavity grows, and what is left, much reduced, is the secondary or definitive yolk sac; the allantois is a diverticulum from its caudal wall that extends into the connecting stalk. After folding the secondary yolk sac is compressed into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac outside the folded disc, and duct and sac then dwindle and degenerate. The department book gives it five functions before it goes: it shares with the endoderm in forming the gut; the proximal part of its allantois forms the apex of the urinary bladder; the primordial germ cells develop in the wall of its caudal part from migrating epiblast; the blood vessels of the gut develop in the mesoderm around the vitelline duct, the intra-embryonic part surviving as the gut\'s blood supply while the extra-embryonic part disappears; and blood cells develop in its splanchnic extra-embryonic mesoderm in early pregnancy.',
-      objective:
-        'Trace the yolk sac from Heuser\'s membrane to the vitelline duct, and enumerate its five functions.',
-      pitfall:
-        'Reading the yolk sac as a nutritional store, as its name and its role in other animals suggest. In the human it feeds nothing; it is a source of germ cells, blood cells, gut and gut vessels, and it disappears once each of those has been handed on.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'developmental_process',
-      aliases: ['Primary yolk sac', 'Secondary yolk sac', 'Definitive yolk sac', 'Vitelline duct', 'Heuser\'s membrane', 'Allantois'],
-      conflicts: [
-        'The department book\'s Fetal Membranes chapter gives "formation of the apex of the urinary bladder from the proximal part of the allantois" as one of the five functions of the yolk sac, while its Embryonic Period chapter lists most of the urinary bladder and urethra among the mucous lining epithelia derived from endoderm. The 2024 question "which of the following is responsible for bladder development" is drawn from the first of those sentences and is authored with the allantois as its answer; the second sentence is equally the faculty\'s and is recorded here rather than argued away.',
-        'The department book states that the definitive (secondary) yolk sac forms on the thirteenth gestational day — the second week. A department-book row, `the-de-nitive-yolk-sac-develops-during-dep-book-ac-ad-ac-ad-aa472d7d` in the Third Week leaf, offers first, third, fourth and fifth week and no second week at all, so none of its options can be right. That row is excluded in `third-week-of-development.ts` and the disagreement recorded here.',
-      ],
-    },
-    {
-      key: 'amnion-expansion-and-its-results',
-      label: 'The amniotic cavity does its work by expanding: it folds the disc, sheathes the cord, and obliterates first the chorionic cavity and then the uterine cavity',
-      definition:
-        'The amnion is the wall of the amniotic cavity, and almost everything it does follows from that cavity growing. Its expansion causes folding of the embryonic disc and, with it, the formation of the primitive umbilical ring; it wraps a sheath of amnion around the umbilical cord; it covers the fetal surface of the placenta, which is why that surface is smooth and transparent; it brings the amnion into contact with the chorion at the beginning of the third month, forming the amniochorionic membrane and obliterating the chorionic cavity; and it finally presses that membrane, with the decidua capsularis on it, against the decidua parietalis, obliterating the uterine cavity by the end of the third month. It is the amniochorionic membrane whose premature rupture the book gives as the commonest cause of preterm labour.',
-      objective:
-        'List the results of expansion of the amniotic cavity in order, and name the two cavities it obliterates and when.',
-      pitfall:
-        'Attributing the folding of the embryonic disc to the yolk sac because the yolk sac is what folding acts on. It is the amniotic cavity that expands; the yolk sac is compressed into the vitelline duct by that expansion, not the cause of it.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'developmental_process',
-      aliases: ['Amnion', 'Amniochorionic membrane', 'Amnio-ectodermal junction'],
+      type: 'structure_function_relationship',
+      aliases: ['Liquor amnii'],
     },
     {
       key: 'decidua-definition-parts-fates',
@@ -216,74 +252,6 @@ export const LEAF: McqLeafSeed = {
       type: 'structural_description',
     },
     {
-      key: 'monozygotic-and-dizygotic-twins',
-      label: 'Monozygotic twins come from one zygote and are identical and of the same sex; dizygotic twins come from two ova, are the commoner kind, and are no more alike than siblings',
-      definition:
-        'Twins are of two kinds and almost everything about them follows from how many zygotes there were. Monozygotic twins arise from a single fertilised ovum that splits, so the two share one genome: they are identical in appearance and are necessarily of the same sex, and depending on when the split happened they may share a chorion and even an amnion. Dizygotic twins arise from two ova fertilised by two sperms in the same cycle; they are the commoner of the two kinds, they are non-identical — no more alike than any two siblings — they may be of different sexes, and each has its own amnion and its own chorion.',
-      objective:
-        'Separate monozygotic from dizygotic twins by their origin, their frequency, their likeness, their sex and their membranes.',
-      pitfall:
-        'Assuming the identical kind must be the commoner kind because it is the one people notice. Dizygotic twinning is commoner, and the books ask both halves of this pair with the same four options so that reversing them costs two marks rather than one.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'comparison',
-      aliases: ['Monozygotic twins', 'Dizygotic twins', 'Identical twins', 'Fraternal twins'],
-      gaps: [
-        'The department book\'s extracted text mentions twin placenta only under the anomalies of the placenta by number, and carries no account of monozygotic and dizygotic twinning itself. The definition here is assembled from the question books\' own options, which the department reprints and keys, rather than from a passage of the chapter.',
-      ],
-    },
-    {
-      key: 'second-week-day-by-day-events-of-implantation',
-      label: 'Implantation runs on a calendar: trophoblast splits on day seven, the amniotic cavity appears on day eight, the primary yolk sac and the lacunae on day nine, and the chorionic cavity on day thirteen',
-      definition:
-        'The department book writes the second week as a diary and examines it that way. On the seventh day the blastocyst begins implantation and the trophoblast differentiates, at the embryonic pole first, into an inner cytotrophoblast and an outer syncytiotrophoblast — a layer whose cells have no cell membranes and which makes the proteolytic enzyme that erodes the endometrium into an implantation cavity. On the eighth day the blastocyst is partly embedded, the hypoblast forms from the embryoblast cells facing the blastocele, and the amniotic cavity appears in the rest of the inner cell mass. On the ninth and tenth days the blastocyst is completely embedded, the breach in the endometrial epithelium is plugged by a fibrin clot, Heuser\'s membrane converts the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast — the lacunar stage. On the eleventh and twelfth days the endometrial epithelium grows over the clot to complete implantation, maternal blood fills the lacunae to start the utero-placental circulation, and extra-embryonic mesoderm appears. On the thirteenth day its spaces run together into one chorionic cavity.',
-      objective:
-        'Give the events of the seventh, eighth, ninth, eleventh and thirteenth gestational days in order, and say which of them completes implantation.',
-      pitfall:
-        'Dating implantation from the ninth day, because that is when the blastocyst is completely embedded. It *begins* on the seventh and is completed on the eleventh, when the endometrial epithelium closes over the fibrin clot — three different days for three different sentences, and the books ask all three.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T01',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Second Week of Development',
-      type: 'developmental_process',
-      aliases: ['Syncytiotrophoblast', 'Cytotrophoblast', 'Lacunar stage', 'Primary yolk sac', 'Heuser\'s membrane'],
-    },
-    {
-      key: 'chorion-three-layers-and-the-chorionic-vesicle',
-      label: 'The chorion is three layers — somatic mesoderm, cytotrophoblast and syncytiotrophoblast from inside out — and the vesicle it walls appears on the thirteenth day',
-      definition:
-        'The chorion is the wall of the chorionic vesicle, and the department book gives its three layers from inside outwards as somatic extra-embryonic mesoderm, cytotrophoblast and syncytiotrophoblast — so the cytotrophoblast is the middle layer, with mesoderm inside it and syncytiotrophoblast outside. The chorionic vesicle itself exists once the scattered spaces of the extra-embryonic coelom fuse into a single chorionic cavity on the thirteenth gestational day. Chorionic villi grow from this wall, and the chorion later divides into the chorion frondosum, which keeps its villi and becomes the fetal part of the placenta, and the smooth chorion leave, whose villi degenerate.',
-      objective:
-        'Give the three layers of the chorion in order from inside outwards, and the day the chorionic vesicle is formed.',
-      pitfall:
-        'Reading the layers from the outside because the trophoblast is the part that came first. The book lists them inside out, and the middle layer is the cytotrophoblast either way — but the inner and outer swap, and the "middle layer" question is the one that survives that error while the others do not.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Second Week of Development',
-      type: 'structural_description',
-      aliases: ['Chorion', 'Chorionic vesicle', 'Chorionic cavity'],
-    },
-    {
-      key: 'chorionic-villi-types-development',
-      label: 'Chorionic villi run primary to secondary to tertiary, and the chorion that carries them splits into frondosum and laeve',
-      definition:
-        'Chorionic villi are projections of the chorion that begin at the end of the second week and develop through the third. A primary villus is a core of proliferating cytotrophoblast pushing the syncytiotrophoblast; it becomes a secondary villus when somatic extra-embryonic mesoderm enters the core, and a tertiary villus when fetal blood vessels appear in that mesoderm, the villi then separated by intervillous spaces full of maternal blood. A tertiary villus has a stem (anchoring) part running between chorion and decidua basalis and free (floating) side branches where exchange happens. The chorion carrying well-developed villi is the chorion frondosum, which persists as the fetal part of the placenta; the rest is chorion laeve, whose villi degenerate.',
-      objective: 'Name the three types of chorionic villus and what changes between them, and give the fate of chorion frondosum and chorion laeve.',
-      pitfall: 'Calling a villus tertiary as soon as it has a mesodermal core. Mesoderm alone makes it secondary; it is tertiary only once vessels have formed in that mesoderm.',
-      subject: 'dev',
-      primary: 'DIS-EMB-T02',
-      secondary: [],
-      modulePath: '101 ISK > Anatomy > General Embryology > Fetal Membranes',
-      type: 'developmental_process',
-      aliases: ['Chorion frondosum and chorion laeve'],
-      conflicts: [
-        'The department book states that the cytotrophoblastic shell originates from the cytotrophoblastic layer of the *tertiary* villi, without saying whether it is the stem or the floating tertiary villi that supply it. The only key in the question bank for "cytotrophoblastic shell is formed from cytotrophoblast of" marks the *secondary* villi, which the book contradicts outright. Both rows of that question are excluded rather than imported with an override, because the book does not settle which of the two tertiary options is meant and an author choosing between them would be inventing the answer.',
-      ],
-    },
-    {
       key: 'notochord-formation-fate',
       label: 'The notochord forms in four steps, guides the embryo, and ends as the nucleus pulposus',
       definition:
@@ -297,845 +265,819 @@ export const LEAF: McqLeafSeed = {
       type: 'developmental_process',
       aliases: ['Notochordal plate', 'Nucleus pulposus'],
     },
+    {
+      key: 'second-week-day-by-day-timetable',
+      label: 'The second week runs to a timetable: day 7 implantation and two trophoblasts, day 8 the amniotic cavity, day 9 the primary yolk sac and lacunae, day 11–12 extra-embryonic mesoderm, day 13 the chorionic cavity',
+      definition:
+        'The department book gives the second week day by day. On the seventh day the blastocyst begins implantation and the trophoblast differentiates into inner cytotrophoblast and outer syncytiotrophoblast, beginning at the embryonic pole. On the eighth day the blastocyst is partly embedded, the hypoblast forms, and the amniotic cavity appears within the rest of the inner cell mass, separating amnioblast from epiblast and completing the bilaminar disc. On the ninth and tenth the blastocyst is completely embedded, the breach is plugged by a fibrin clot, Heuser\'s membrane forms from the hypoblast and turns the blastocele into the primary yolk sac, and lacunar spaces appear in the syncytiotrophoblast. On the eleventh and twelfth the endometrial epithelium covers the clot and completes implantation, the lacunae fill with maternal blood as the utero-placental circulation, and extra-embryonic mesoderm appears from the yolk sac wall. On the thirteenth the spaces in that mesoderm run together into one chorionic cavity, the mesoderm divides into somatic and splanchnic, the secondary yolk sac replaces the primary, the allantois buds from it into the connecting stalk, and the primary chorionic villi begin.',
+      objective:
+        'Place each event of the second week on the day the book gives it, and say what the week does not yet produce.',
+      pitfall:
+        'Letting a third-week event into the second. The disc is bilaminar at the end of this week and does not become trilaminar until gastrulation, and the somites do not begin until the twentieth day — both are offered as second-week events in these books, and both are a week early.',
+      subject: 'dev',
+      primary: 'DIS-EMB-T01',
+      secondary: [],
+      modulePath: '101 ISK > Anatomy > General Embryology > Second Week of Development',
+      type: 'developmental_process',
+      aliases: ['Week of twos', 'Heuser\'s membrane', 'Primary yolk sac'],
+    },
+    {
+      key: 'mucoid-ct-is-jelly-rich-in-hyaluronic-acid',
+      label: 'Mucoid connective tissue is a soft jelly rich in hyaluronic acid, found in the umbilical cord, the vitreous and the dental pulp',
+      definition:
+        'Mucoid connective tissue contains mainly fibroblasts with fine collagen and reticular fibres in a large amount of soft jelly-like ground substance rich in mucus and hyaluronic acid. It is found in the umbilical cord, where it is called Wharton\'s jelly, in the vitreous humour of the eye and in the pulp of the teeth. Its role is supportive.',
+      objective: 'Recognise mucoid connective tissue by its ground substance and name its three sites.',
+      pitfall: 'Reaching for loose areolar connective tissue because it too has abundant ground substance. What marks mucoid tissue out is that the matrix is jelly and the cells are almost only fibroblasts.',
+      subject: 'fnd',
+      primary: 'DIS-HIS-T02',
+      secondary: [],
+      modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
+      type: 'structural_description',
+    },
   ],
 
   questions: [
     {
-      key: 'regarding-the-placental-decidual-septa-10b5239b',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Say what the placental septa are made of, where they run from, and how far they reach.',
+      key: 'chorionic-plate-aa0b703c',
+      conceptKey: 'chorionic-villi-types-development',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Identify the chorionic plate as the fetal half of the placenta.',
+      answerOverride: 'B',
+      answerOverrideReason:
+        'This printing carries no key, and the "(DEP BOOK)" printing of the same question is keyed to the decidua basalis, which is the *decidual* plate. The department book states that the placenta is formed by union of a maternal part, the decidual plate or decidua basalis, and a fetal part, the chorionic plate or chorion frondosum. Set to B, which is also what the third printing of this question is keyed to.',
       explanations: {
-        A: 'Chorion frondosum is the fetal plate the septa run *towards*. A septum made of it would be growing down from the fetal side, which reverses the direction the book gives.',
-        B: 'Correct. The decidual septa are incomplete extensions from the decidual plate into the intervillous spaces, each with a core of decidua basalis covered by cytotrophoblast and syncytiotrophoblast.',
-        C: 'The word the answer turns on is "incomplete". The septa stop short of the chorionic plate, which is why the intervillous spaces intercommunicate and why a cotyledon is a compartment rather than a sealed chamber.',
-        D: 'The department book describes the septum as a core of decidua basalis with a trophoblast covering and gives the maternal arterioles, venules and uterine glands to the decidual plate, not to the septa that rise from it. This is the hardest distractor here because the core really is maternal tissue.',
+        A: 'Chorion laeve is the smooth part of the chorion, whose villi degenerate; it forms no part of the placenta and is covered by the decidua capsularis.',
+        B: 'Correct. The chorionic plate is chorion frondosum, the part carrying well-developed tertiary villi, and it is the fetal part of the placenta.',
+        C: 'Decidua basalis is the *decidual* plate — the maternal half. The two plates face each other across the intervillous spaces, and one printing of this question is keyed to this option in error.',
+        D: 'Decidua capsularis covers the conceptus on the side away from the placenta and is stretched away as the sac grows. It contributes to no plate.',
       },
     },
     {
-      key: 'one-of-the-following-is-not-true-regarding-the-placenta-2023-8f9f62d3',
+      key: 'regarding-the-placental-decidual-septa-10b5239b',
       conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Identify the false statement about the placenta among three true ones.',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Say where the placental septa come from and what they do not contain.',
       explanations: {
-        A: 'True, so not the answer. The fetal part of the placenta is the chorionic plate, which is the chorion frondosum — the part of the chorion whose tertiary villi were never allowed to degenerate.',
-        B: 'Correct, in that this is the untrue statement. The maternal part is the decidua *basalis*, the decidual plate lying between the conceptus and the myometrium; the decidua capsularis is the covering that is stretched over the sac and lost.',
-        C: 'True, so not the answer. The placental barrier separates fetal blood in the tertiary villi from maternal blood in the intervillous spaces, and the two never mix.',
-        D: 'True, so not the answer. The placenta makes progesterone, oestrogen, human chorionic gonadotropin and somatomammotropin, and its endocrine function is one of the six the book lists.',
+        A: 'Chorion frondosum is the fetal plate. The septa grow from the opposite side, and their core is maternal decidua.',
+        B: 'Correct. Placental (decidual) septa are incomplete extensions from the decidual plate into the intervillous spaces.',
+        C: 'They are incomplete and do not reach the chorionic plate — if they did, the intervillous spaces would be sealed off from one another instead of intercommunicating.',
+        D: 'The maternal vessels are in the decidua basalis of the plate itself, not in the septa. A septum with vessels in it would bleed into the intervillous space at every groove.',
       },
     },
     {
       key: 'placental-barrier-is-the-separation-between-dep-book-em-em-e-64936622',
-      conceptKey: 'placental-barrier-early-and-late-layers',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Define the placental barrier by the two things it keeps apart.',
+      conceptKey: 'placental-barrier-early-and-late',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Define the placental barrier by the two bloods it keeps apart.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The department-book copy marks C — the separation between the cytotrophoblastic shell and the intervillous spaces. The department book defines the placental barrier as the membrane "separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi", which is option D. The cytotrophoblastic shell is on the maternal side of the barrier and is no part of the definition.',
+        'The books key this to C, the cytotrophoblastic shell and the intervillous spaces. The department book defines the placental barrier as the membrane separating maternal blood in the intervillous spaces from fetal blood in the tertiary villi — option D. The shell is a structure the barrier passes near, not what it separates.',
       explanations: {
-        A: 'Surfaces, not bloods. The fetal and maternal surfaces of the placenta are the two faces of the organ, several millimetres and a whole villous tree apart; the barrier is a membrane a few cells thick.',
-        B: 'The chorionic and decidual plates are the two structural halves of the placenta and the intervillous spaces lie between them. Again this names the anatomy of the organ rather than the membrane inside it.',
-        C: 'The mark this copy carries. The cytotrophoblastic shell lines the decidual plate on the maternal side and is not part of the barrier at all; the barrier is what wraps each villus.',
-        D: 'Correct. The placental barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi — and that the two never mix is the single most important fact about the placenta.',
+        A: 'The fetal and maternal surfaces are the two faces of the whole organ, centimetres apart. A barrier is a membrane of a few micrometres.',
+        B: 'The chorionic and decidual plates are again the two sides of the organ. Between them lie the intervillous spaces, which is where the barrier actually works — at the villus wall, not at the plates.',
+        C: 'The cytotrophoblastic shell lies against the decidual plate and anchors the villi. It borders the intervillous spaces but separates no two circulations, and it is the option the books key this question to.',
+        D: 'Correct. The barrier separates maternal blood in the intervillous spaces from fetal blood inside the tertiary villi.',
       },
     },
     {
       key: 'one-of-the-following-is-correct-regarding-the-functions-of-p-78fcdecb',
       conceptKey: 'placental-functions-and-hormones',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Identify the true statement about the functions of the placenta.',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'State the limits of the placenta\'s protective function.',
       answerOverride: 'A',
       answerOverrideReason:
-        'The department-book copy marks D — that the placenta prevents the passage of all viruses. The department book says the opposite in the same chapter: the barrier prevents bacteria and most viruses "except HIV, poliomyelitis, rubella, cytomegalovirus and measles". Option A, the transmission of maternal antibodies, is on the book\'s own list of six placental functions, with the note that it begins at the fourteenth week and gives the fetus passive immunity.',
+        'The books key this to D, that the placenta prevents the passage of all viruses. The department book says it prevents bacteria and *most* viruses, with named exceptions, so D is an overstatement. A is the book\'s own statement: transmission of maternal antibodies to fetal blood, giving the fetus immunity. Set to A.',
       explanations: {
-        A: 'Correct. Transmission of maternal antibodies to the fetal blood, from the fourteenth week, is one of the six functions the book lists, and it is why a newborn is protected for months against infections it has never met.',
-        B: 'The reverse of a placental function. Exchange of gases is second on the book\'s list; a placenta that prevented it would asphyxiate the fetus.',
-        C: 'Progesterone is the first of the four placental hormones, and it is what maintains the endometrium of pregnancy after the corpus luteum stops.',
-        D: 'The mark this copy carries, and the dangerous one to learn. The barrier stops most viruses; the book names five that cross — HIV, poliomyelitis, rubella, cytomegalovirus and measles — and congenital infection is the whole subject built on that exception.',
+        A: 'Correct. Maternal antibodies cross the placenta, which is why a newborn has passive immunity for its first months.',
+        B: 'Gas exchange is one of the placenta\'s principal functions — it is the fetal lung. Preventing the passage of gases would be fatal within minutes.',
+        C: 'The placenta does produce progesterone, which maintains the endometrium of pregnancy, along with oestrogen, HCG and somatomammotropin.',
+        D: 'The word is "most", not "all". Some viruses cross, which is the whole clinical point of rubella in pregnancy — and this is the option the books key the question to.',
       },
     },
     {
       key: 'one-of-the-following-is-not-among-the-anomalies-of-placenta-0dc99158',
       conceptKey: 'placenta-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Reject the one option that is not a congenital anomaly of the placenta.',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Separate an anomaly of the placenta from an anomaly of the amniotic fluid.',
       answerOverride: 'D',
       answerOverrideReason:
-        'The reprint marks B, placenta accreta, which is on the department book\'s own list of placental anomalies under infiltration, alongside increta and percreta. The option that is not a placental anomaly is D: polyhydramnios is an excess of amniotic fluid at full term, listed in the chapter under the amniotic fluid with its own causes — maternal diabetes, oesophageal atresia, anencephaly — and not among the six groups of placental anomaly.',
+        'The books key this to placenta accreta, which is one of the department book\'s own six groups — the infiltration group, with increta and percreta. The one option that is not a placental anomaly at all is polyhydramnios, an excess of amniotic fluid. Set to D.',
       explanations: {
-        A: 'A placental anomaly, under attachment of the umbilical cord: velamentous placenta is a cord attached to the placenta through the amniotic membrane.',
-        B: 'The mark this reprint carries, and a placental anomaly all the same — accreta is the first of the three infiltration anomalies, with increta and percreta.',
-        C: 'A placental anomaly, under shape. Bipartite and tripartite — bilobed and trilobed — placentas are on the book\'s list.',
-        D: 'Correct. Polyhydramnios is more than two litres of amniotic fluid at full term. It is an abnormality of the fluid, not of the placenta, and it is what a student picks last if they have learnt the six anomaly groups by their headings.',
+        A: 'An anomaly, so not the answer. Velamentous placenta is the cord-attachment group: the cord attached through the amniotic membrane.',
+        B: 'An anomaly, so not the answer, and the option the books key this question to. Placenta accreta is the infiltration group, in which the villi invade the myometrium.',
+        C: 'An anomaly, so not the answer. A bipartite placenta is the shape group, with the bilobed and trilobed forms.',
+        D: 'Correct — not a placental anomaly. Polyhydramnios is an excess of amniotic fluid at full term, from maternal diabetes, oesophageal atresia or a central nervous system malformation. The placenta may be entirely normal.',
       },
     },
     {
-      key: 'thin-and-wide-placenta-is-known-as-dep-book-a198717a',
+      key: 'thin-and-wide-placenta-is-known-as-b2864ad3',
       conceptKey: 'placenta-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
+      difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Name the anomaly of placental diameter.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'This printing carries no key. The department book groups placenta membranacea under anomalies of diameter, describing it as thinner and wider, which is the stem word for word; the third printing of this question is keyed to the same option.',
       explanations: {
-        A: 'Correct. Placenta membranacea is the anomaly of diameter — a placenta thinner and wider than normal, spread over more of the uterine wall.',
-        B: 'Placenta increta is an anomaly of infiltration, not of diameter: the placenta grows into the myometrium. Its shape is unremarkable; what is wrong is how deeply it is rooted.',
-        C: 'Velamentous placenta is an anomaly of cord attachment, where the cord joins through the amniotic membrane rather than into the placental substance.',
-        D: 'An accessory placenta is an anomaly of number — a separate extra lobe. It makes the placenta come in two pieces rather than one thin wide one.',
+        A: 'Correct. Placenta membranacea is the diameter anomaly — a placenta spread thin and wide over the membranes.',
+        B: 'Placenta increta is an infiltration anomaly: villi growing into the myometrium. Thickness of invasion, not of the disc.',
+        C: 'Velamentous placenta is a cord-attachment anomaly, the cord inserting through the amniotic membrane.',
+        D: 'An accessory placenta is a number anomaly — a second, smaller lobe beside the main one, each of normal thickness.',
       },
     },
     {
       key: 'marginal-attachment-of-umbilical-cord-to-the-placenta-is-kno-09cd8da4',
-      conceptKey: 'umbilical-cord-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Name the anomaly in which the cord attaches at the placental margin.',
+      conceptKey: 'placenta-anomalies',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Name the marginal cord attachment and separate it from the membranous one.',
       explanations: {
-        A: 'Correct. Battledore placenta is attachment of the umbilical cord to the margin of the placenta rather than near its centre — named for the bat-and-shuttlecock game the shape resembles.',
-        B: 'Velamentous placenta is the other cord-attachment anomaly, and the more dangerous: the cord ends outside the placenta and its vessels run through the amniotic membrane to reach it, unprotected by Wharton\'s jelly.',
-        C: 'Placenta previa is an anomaly of position — implantation in the lower uterine segment — and has nothing to do with where the cord joins.',
-        D: 'Placenta accreta is an anomaly of infiltration, in which the placenta grows too deeply into the uterine wall and cannot separate at delivery.',
+        A: 'Correct. Battledore placenta is the cord attached at the margin of the disc — named for the bat of the old game, a handle at the edge of a paddle.',
+        B: 'Velamentous placenta is the other cord-attachment anomaly, and the one it is confused with: there the cord inserts into the membranes and the vessels run through them, which is dangerous because they are unprotected. One printing of this question is keyed to it.',
+        C: 'Placenta previa is a position anomaly — implantation in the lower uterine segment. Nothing to do with the cord.',
+        D: 'Placenta accreta is an infiltration anomaly, the villi invading the myometrium. Also nothing to do with the cord.',
       },
     },
     {
       key: 'abnormally-long-umbilical-cord-may-lead-to-dep-book-2024-ac-59be1fce',
       conceptKey: 'umbilical-cord-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Give the consequence of an abnormally long umbilical cord.',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Give the consequence of a long cord and separate it from that of a short one.',
       answerOverride: 'C',
       answerOverrideReason:
-        'Neither copy of this question in the bank carries a key. The department book states that a long cord "may encircle the fetal neck or form a true knot" and calls both serious life-threatening conditions — which is option C. Options B and D are the book\'s consequences of a *short* cord, and option A is the false knot it explicitly says causes no fetal stress.',
+        'Neither printing of this question carries a key. The department book gives the long cord two consequences — encircling the fetal neck, and a true knot — and gives premature separation of the placenta to the *short* cord. Encircling the neck is strangulation during delivery, option C.',
       explanations: {
-        A: 'A false knot is a wider curve of an umbilical artery within the cord, and the department book says plainly that it causes no fetal stress. It is not a consequence of length and not a danger.',
-        B: 'Premature separation of the placenta during delivery is what a *short* cord causes: it is pulled taut as the fetus descends and drags the placenta with it.',
-        C: 'Correct. A long cord may encircle the fetal neck or tie itself in a true knot, and the book calls both serious and life-threatening.',
-        D: 'Adhesion of the fetus to the uterine wall is prevented by the amniotic fluid, not by the cord, and is a consequence of too little fluid rather than of too much cord.',
+        A: 'A false knot is a wider curve of an umbilical artery, and the book states that it causes the fetus no stress. It is a feature of the cord\'s tortuosity, not of its length, and it is the option students pick because "knot" appears in the long-cord description — the knot that matters there is a true one.',
+        B: 'Early separation of the placenta belongs to the short cord, which is pulled taut as the fetus descends. This is the paired question with the answers exchanged.',
+        C: 'Correct. A long cord may encircle the fetal neck and strangle the baby during delivery.',
+        D: 'Adhesion of the fetus to the uterine wall is prevented by amniotic fluid, and its failure is a fluid problem — oligohydramnios — not a cord problem.',
       },
     },
     {
       key: 'physiological-hernia-occurs-when-a-loop-of-intestine-is-pres-95afdc5e',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Say where the intestinal loop lies in physiological umbilical hernia.',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Place the physiological hernia in the primitive cord rather than the ring or the definitive cord.',
       explanations: {
-        A: 'The abdominal cavity is where the intestine is supposed to be, and where it returns to by the third month. A loop there is not herniated at all.',
-        B: 'The ring is the defect in the abdominal wall the loop passes *through*, not the space it comes to lie in. This is the closest wrong answer and the one the books pair with the ring question.',
-        C: 'Correct. Physiological umbilical hernia is the intestinal loop lying in the primitive umbilical cord, from the sixth week, because the abdominal cavity is too small for the growing gut.',
-        D: 'The definitive umbilical cord is what forms *after* the intestine has returned. A loop still in the cord at that stage is an omphalocele — a congenital umbilical hernia, and an anomaly rather than a normal stage.',
+        A: 'An intestinal loop in the abdominal cavity is where it belongs and is not a hernia at all — that is the state before the herniation and again after the loop returns.',
+        B: 'The primitive umbilical ring is the defect in the ventral abdominal wall that the loops pass through. It is the doorway, not the room, and it forms in the fourth week before the intestine grows out.',
+        C: 'Correct. The herniated intestinal loops lie in the primitive umbilical cord, along with the secondary yolk sac, the vitelline duct and the connecting stalk.',
+        D: 'The definitive cord is what remains after the intestine has gone back into the abdomen and the yolk sac, vitelline duct and allantois have degenerated. An intestinal loop there is an omphalocele — a real anomaly, and one printing of this question is keyed to it.',
       },
     },
     {
       key: 'regarding-the-primitive-umbilical-ring-7dc961fb',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Give the contents of the primitive umbilical ring.',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'List the contents of the primitive umbilical ring.',
       explanations: {
-        A: 'The amniochorionic membrane is formed later, at the beginning of the third month, when the expanding amnion meets the chorion. What surrounds the ring in the fourth week is amnion, at the amnio-ectodermal junction.',
-        B: 'The definitive — secondary — yolk sac lies in the primitive umbilical *cord*, once the amnion has ensheathed the structures passing through the ring. The ring itself transmits the duct, not the sac.',
-        C: 'Correct. The contents of the primitive umbilical ring are the allantois and umbilical vessels inside the connecting stalk, together with the vitelline duct and its vessels.',
-        D: 'The intestinal loops herniate at the sixth week, and into the primitive umbilical cord rather than the ring. Reading the ring and the cord as one structure is what this set of questions exists to catch.',
+        A: 'The amniochorionic membrane forms later, when the expanding amniotic cavity presses the amnion against the chorion. The ring is surrounded by the ventral body wall.',
+        B: 'The definitive yolk sac lies in the primitive umbilical *cord*, once the amnion has sheathed the structures passing through the ring — one step further on. It is the strongest distractor here, and one printing of this question is keyed to it.',
+        C: 'Correct. The vitelline duct with its vessels passes through the ring, along with the allantois and the umbilical vessels inside the connecting stalk.',
+        D: 'The intestinal loops herniate later still, into the primitive cord. In the fourth week, when the ring forms, the midgut is still inside the abdomen.',
       },
     },
     {
       key: 'definitive-yolk-sac-is-connected-with-midgut-through-ce358c9f',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Name the structure connecting the definitive yolk sac to the midgut.',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Name the duct that joins yolk sac to midgut.',
       explanations: {
-        A: 'The connecting stalk joins the chorion to the caudal end of the embryonic disc and carries the allantois and the umbilical vessels. It reaches the disc, not the gut.',
-        B: 'Correct. Folding compresses the secondary yolk sac into the vitelline (vitello-intestinal) duct, which connects the midgut to the part of the sac left outside the folded embryo.',
-        C: 'The allantois is a diverticulum from the caudal wall of the same yolk sac, running into the connecting stalk — a second outgrowth of the sac rather than its connection to the gut.',
-        D: 'The hindgut lies in the tail fold and has no connection to the yolk sac. It is the midgut, between the lateral folds, that keeps one.',
+        A: 'The connecting stalk joins the caudal end of the disc to the chorion and carries the allantois and the umbilical vessels. It reaches the placenta, not the gut.',
+        B: 'Correct. Folding compresses the secondary yolk sac into the vitelline, or vitello-intestinal, duct, which connects it to the midgut.',
+        C: 'The allantois is a diverticulum from the caudal wall of the yolk sac into the connecting stalk, and its proximal part becomes the apex of the bladder. It runs the other way. One printing of this question is keyed to it.',
+        D: 'The hindgut is a division of the gut itself, formed in the tail fold. A duct cannot connect the yolk sac to the midgut by way of a different part of the gut.',
       },
     },
     {
       key: 'allantois-is-a-dorsal-extension-from-11d3fece',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Name the structure the allantois arises from.',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Give the origin of the allantois.',
       explanations: {
-        A: 'Correct. The allantois is a diverticulum from the secondary yolk sac — the department book says from its caudal wall, where this question says dorsal — extending into the connecting stalk.',
-        B: 'The amniotic cavity lies on the other side of the embryonic disc entirely, and nothing buds from it: it is a space that expands rather than a wall that grows out.',
-        C: 'The chorionic cavity is what the connecting stalk crosses. The allantois runs inside that stalk, but it comes from the yolk sac at one end rather than from the cavity around it.',
-        D: 'The primary yolk sac is gone by the thirteenth day, replaced by the secondary one, and the allantois forms after that replacement. One stage too early.',
+        A: 'Correct. The allantois is a diverticulum from the caudal wall of the secondary yolk sac, extending into the connecting stalk.',
+        B: 'The amniotic cavity is on the other side of the embryonic disc and gives off no diverticulum at all.',
+        C: 'The chorionic cavity is the extra-embryonic coelom, a space rather than a lined sac that could bud.',
+        D: 'The primary yolk sac has already been replaced by the secondary one by the time the allantois appears, on the thirteenth day. One stage too early.',
+      },
+    },
+    {
+      key: 'heuser-s-membrane-lines-the-d3bb317b',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Attach Heuser\'s membrane to the primary yolk sac.',
+      answerOverride: 'B',
+      answerOverrideReason:
+        'Two of the four printings of this question carry no key and the third has its stem damaged; that third is keyed to B. The department book states that the primary yolk sac forms when flat hypoblast-derived cells form Heuser\'s membrane lining the blastocele, so B is right.',
+      explanations: {
+        A: 'Definitive is another word for secondary, and the secondary sac is lined by a second wave of hypoblast cells laid down over Heuser\'s membrane. Offered first in every printing, and one stage too late.',
+        B: 'Correct. Heuser\'s membrane lines the blastocele on the ninth day and so converts it into the primary yolk sac.',
+        C: 'The secondary yolk sac is the same structure as the definitive one under its other name — which is why the two appear as separate options and neither can be right.',
+        D: 'The vitelline duct is what is left of the sac after folding compresses it. It is a remnant, formed weeks later, and is not lined by Heuser\'s membrane.',
       },
     },
     {
       key: 'which-of-the-following-is-responsible-for-bladder-developmen-a309b8ba',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Name the structure the department book makes responsible for the bladder.',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Trace the apex of the bladder to the allantois.',
       answerOverride: 'A',
       answerOverrideReason:
-        'The 2024 row carries no key. The department book\'s Fetal Membranes chapter lists among the functions of the yolk sac "formation of the apex of the urinary bladder from the proximal part of the allantois", which is option A and is the sentence this question is drawn from. Its Embryonic Period chapter separately gives most of the bladder\'s lining epithelium to endoderm, and that tension is recorded on `yolk-sac-development-and-functions` rather than resolved here.',
+        'The books print no key. The department book lists among the functions of the yolk sac that the proximal part of the allantois forms the apex of the urinary bladder, so the allantois is the structure the question wants.',
       explanations: {
-        A: 'Correct. The department book gives the apex of the urinary bladder to the proximal part of the allantois, and the allantois is a diverticulum of the secondary yolk sac — which is why bladder development appears in a chapter about fetal membranes at all.',
-        B: 'The yolk sac is the allantois\'s parent and does five other jobs, but the book names the allantois specifically for the bladder. Choosing the sac over its diverticulum is one step too general.',
-        C: 'Amniotic fluid accumulates fetal urine from the fifth month once the bladder works. It is downstream of bladder development, not a cause of it.',
-        D: 'The strongest distractor, and not empty: the department book elsewhere gives most of the urinary bladder and urethra to endoderm, through the primordial gut. The sentence this question is written from names the allantois, and the tension between the book\'s two chapters is recorded on the concept.',
-      },
-    },
-    {
-      key: 'heuser-s-membrane-lines-the-a-definitive-yolk-sac-35f78a4b',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Say which yolk sac Heuser\'s membrane lines.',
-      explanations: {
-        A: 'The definitive yolk sac is the secondary one, lined by the new hypoblast-derived cells that grow over Heuser\'s membrane on the thirteenth day. Heuser\'s membrane is under that lining, not it.',
-        B: 'Correct. Heuser\'s membrane is flat cells derived from the hypoblast which line the blastocele on the ninth day, converting it into the primary yolk sac.',
-        C: 'One stage late. The secondary yolk sac is formed when fresh endodermal cells re-line Heuser\'s membrane and a large part of the sac is pinched off.',
-        D: 'The vitelline duct is what is left of the secondary yolk sac after folding compresses it — several stages downstream, and a duct rather than a membrane.',
+        A: 'Correct. The proximal part of the allantois forms the apex of the urinary bladder; what remains of it in the adult is the urachus, or median umbilical ligament.',
+        B: 'The yolk sac is the allantois\'s parent and shares in forming the gut, but the bladder comes specifically from the diverticulum it sends into the connecting stalk. The question is asking for the more precise structure.',
+        C: 'Amniotic fluid accumulates fetal urine once the bladder works. It is downstream of the organ, not its origin.',
+        D: 'The primitive gut gives the hindgut and cloaca, which the bladder is partitioned from — but the apex itself is allantoic, and that is the fact the book states.',
       },
     },
     {
       key: 'expansion-of-amniotic-cavity-will-lead-to-f19f597a',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Moderate',
-      questionType: 'Developmental process',
-      learningObjective: 'Name a result of expansion of the amniotic cavity.',
+      conceptKey: 'amnion-expansion-and-the-amniochorionic-membrane',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Name what the expanding amniotic cavity forms when it meets the chorion.',
       explanations: {
-        A: 'The secondary yolk sac is made by new hypoblast-derived cells lining Heuser\'s membrane on the thirteenth day, before the amniotic cavity has expanded appreciably at all.',
-        B: 'The connecting stalk is the part of the extra-embryonic mesoderm that the chorionic cavity does not split. Expansion of the amnion moves it — sweeping it cranially and ventrally during folding — but does not make it.',
-        C: 'Correct. The expanding amnion meets the chorion at the beginning of the third month, forming the amniochorionic membrane and obliterating the chorionic cavity between them.',
-        D: 'The neural tube is formed by fusion of the neural folds in the third and fourth weeks, driven by the notochord\'s induction of the ectoderm, and owes nothing to the amniotic cavity.',
+        A: 'The secondary yolk sac is formed by hypoblast cells re-lining the primary sac and by pinching off, on the thirteenth day. The amnion is not involved.',
+        B: 'The connecting stalk is the surviving bridge of extra-embryonic mesoderm across the chorionic cavity. Expansion of the amnion narrows that cavity rather than creating the stalk.',
+        C: 'Correct. Expansion brings the amnion into contact with the chorion, and the two together are the amniochorionic membrane — the membrane that ruptures at the start of labour.',
+        D: 'The neural tube forms from ectoderm induced by the notochord, inside the embryo. Expansion of the surrounding cavity has nothing to do with it.',
       },
     },
     {
       key: 'regarding-the-decidua-basalis-one-of-the-following-statement-be62401c',
       conceptKey: 'decidua-definition-parts-fates',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Give the fate of the decidua basalis.',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Give the fate of decidua basalis and separate it from the other two parts.',
       answerOverride: 'B',
       answerOverrideReason:
-        'The 2018 reprint carries no key. The department book states that "the decidua basalis (decidual plate) persists to form the maternal part of the placenta", which is option B, and gives the other three statements to the capsularis and the parietalis.',
+        'The books print no key. The department book states that decidua basalis, the decidual plate, persists to form the maternal part of the placenta; the fusing, the covering and the final degeneration belong to capsularis and parietalis. Set to B.',
       explanations: {
-        A: 'It is the decidua *capsularis* that fuses with the parietalis and obliterates the uterine cavity. The basalis is deep to the conceptus and never meets either of them.',
-        B: 'Correct. The decidua basalis is the decidual plate, and it persists as the maternal part of the placenta — the only one of the three parts with a future.',
-        C: 'Covering the embryo, and separating it from the uterine cavity, is the decidua capsularis. Basalis is beneath the conceptus, between it and the myometrium.',
-        D: 'Degenerating last is the decidua parietalis, which lines the rest of the cavity and is expelled after delivery. The books ask that fact as its own question on the facing page.',
+        A: 'Fusing and obliterating the uterine cavity is what capsularis and parietalis do to each other at about the fourth month. Basalis is on the other side of the conceptus altogether.',
+        B: 'Correct. Decidua basalis lies between the conceptus and the myometrium and becomes the maternal part of the placenta.',
+        C: 'Covering the embryo and separating it from the uterine cavity is decidua capsularis — the classic swap, since basalis is beneath and capsularis above.',
+        D: 'Degenerating at last is the fate of capsularis and parietalis. Basalis is the one part of the decidua that persists as an organ.',
       },
     },
     {
       key: 'regarding-the-decidua-parietalis-choose-the-correct-statemen-61eab5d0',
       conceptKey: 'decidua-definition-parts-fates',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Give the position and fate of the decidua parietalis.',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Give the fate of decidua parietalis.',
       explanations: {
-        A: 'Between the implanted embryo and the myometrium is the decidua basalis, which becomes the maternal part of the placenta.',
-        B: 'Covering the embryo and separating it from the uterine cavity is the decidua capsularis, which the growing sac stretches until it fuses with the parietalis.',
-        C: 'Persisting as the maternal part of the placenta is again the basalis. Two of the four options are the basalis, which is what makes this question harder than it looks.',
-        D: 'Correct. The decidua parietalis lines the rest of the uterine cavity, fuses with the capsularis to obliterate that cavity, and is expelled with the membranes after delivery — so of the three parts it is the one that degenerates last.',
-      },
-    },
-    {
-      key: 'regarding-monozygotic-twin-dep-book-2024-75c8fa43',
-      conceptKey: 'monozygotic-and-dizygotic-twins',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Give what follows from monozygotic twins sharing one zygote.',
-      answerOverride: 'B',
-      answerOverrideReason:
-        'This department-book copy carries no key. The 2025 question book\'s copy of the same question, `regarding-monozygotic-twin-352aa255`, is keyed to B — twins are always of the same sex — and that copy is excluded here only because it lost its fourth option and falls below the four-option contract. The answer is therefore the source\'s and not an author\'s: monozygotic twins arise from one fertilised ovum and share one genome, so they cannot differ in sex.',
-      explanations: {
-        A: 'Dizygotic twinning is the commoner kind. Monozygotic twins are the ones people notice, which is why this option catches so many.',
-        B: 'Correct. Monozygotic twins come from one fertilised ovum, so they carry one genome and are necessarily of the same sex.',
-        C: 'Non-identical is the dizygotic answer. Monozygotic twins are identical in appearance — that is what having one genome between two people means.',
-        D: 'Development from two ova fertilised by two sperms is the definition of *dizygotic* twinning. Monozygotic means one zygote, and the prefix is the whole answer.',
-      },
-    },
-    {
-      key: 'regarding-the-dizygotic-twin-90dcf9d2',
-      conceptKey: 'monozygotic-and-dizygotic-twins',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Give what follows from dizygotic twins arising from two ova.',
-      answerOverride: 'A',
-      answerOverrideReason:
-        'The row carries no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically no more alike than any two siblings — option A. The remaining three options are all consequences of a shared genome or a shared conceptus and belong to the monozygotic side of the same pair of questions; the department book prints and keys the monozygotic copy to "twins are always of same sex", which is the mirror of A.',
-      explanations: {
-        A: 'Correct. Dizygotic twins come from two ova and two sperms, so they are non-identical — ordinary siblings who happen to share a pregnancy.',
-        B: 'Always of the same sex is the monozygotic answer, and it is the option the department book keys on the monozygotic version of this question. Dizygotic twins may be of either sex in any combination.',
-        C: 'Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in monozygotic twinning, and only when the split comes late.',
-        D: 'A shared chorion likewise belongs to monozygotic twinning. Two separate implantations give two chorions, though two placentas lying side by side may fuse and look like one.',
+        A: 'Lying between the implanted embryo and the myometrium is decidua basalis, which becomes the placenta. Parietalis is the lining of the rest of the cavity.',
+        B: 'Covering the embryo is decidua capsularis. Parietalis is what capsularis eventually fuses with, not the covering itself.',
+        C: 'Persisting as the maternal part of the placenta is again basalis. This question and the decidua basalis question are printed with the same four statements and differ only in which part is named.',
+        D: 'Correct. Decidua parietalis fuses with the capsularis, obliterating the uterine cavity, and is shed at delivery — it degenerates at last.',
       },
     },
     {
       key: 'neurenteric-canal-is-the-communication-between-eb87f229',
       conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Name the two cavities the neurenteric canal joins.',
       explanations: {
-        A: 'The chorionic cavity is outside the embryonic disc altogether, on the far side of the extra-embryonic mesoderm. Nothing inside the disc opens into it.',
-        B: 'Correct. Degeneration of the floor of the notochordal canal, with the endoderm fused to it, briefly joins the amniotic cavity above the disc to the yolk sac below it.',
-        C: 'The uterine cavity is maternal, and by this stage it is separated from the conceptus by the whole thickness of the decidua capsularis. Nothing embryonic communicates with it.',
-        D: 'Both of these lie below or outside the disc, so a canal between them would not have to pass through it at all — and the point of the neurenteric canal is that it passes right through, which is why it is temporary.',
+        A: 'The chorionic cavity is outside the embryonic disc entirely; the neurenteric canal is a passage through the disc, which is why it joins the two cavities on either side of it.',
+        B: 'Correct. Degeneration of the floor of the notochordal canal and the endoderm fused to it opens a temporary communication between the amniotic cavity above and the yolk sac below.',
+        C: 'The uterine cavity is maternal and separated from everything embryonic by the decidua. No canal within the embryo could reach it.',
+        D: 'The yolk sac is one of the two correct cavities and the chorionic cavity is not the other. Half right, which makes it the best of the three wrong answers.',
       },
     },
     {
       key: 'one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Assign an event of the second week to the eighth day.',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Assign four second-week events to their days and pick the eighth.',
       explanations: {
-        A: 'Correct. On the eighth day the embryoblast cells facing the blastocele become cuboidal and form the hypoblast, and the amniotic cavity appears in the rest of the inner cell mass.',
-        B: 'The primary yolk sac forms on the ninth day, when Heuser\'s membrane lines the blastocele. It is the answer to the neighbouring question, printed with the same four options.',
-        C: 'Extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it cannot come before the yolk sac that produces it.',
-        D: 'The primary chorionic villi begin at the end of the second week, after the chorionic vesicle exists on the thirteenth day. They are the last event in the diary.',
-      },
-    },
-    {
-      key: 'chorionic-plate-a-is-the-chorion-leave-04836a61',
-      conceptKey: 'chorionic-villi-types-development',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Say which part of the chorion the chorionic plate is.',
-      explanations: {
-        A: 'Chorion leave is the smooth part, whose tertiary villi degenerate and which fuses with the deciduae capsularis and parietalis. It is what the chorionic plate is *not*.',
-        B: 'Correct. The chorionic plate is the chorion frondosum — the part carrying well-developed tertiary villi, in contact with the decidua basalis, which persists as the fetal part of the placenta.',
-        C: 'Decidua basalis is the maternal plate, on the other side of the intervillous spaces. The two plates face each other and the question turns on knowing which is which.',
-        D: 'Decidua capsularis covers the conceptus on the side facing the uterine cavity — the side the chorion leave lies against, and the opposite pole of the placenta from the chorionic plate.',
+        A: 'Correct. The hypoblast forms on the eighth day, when the embryoblast cells facing the blastocele become cuboidal — the same day the amniotic cavity opens.',
+        B: 'The primary yolk sac forms on the ninth day, when Heuser\'s membrane lines the blastocele. One day late, and it is the answer to the companion question on the same page.',
+        C: 'The extra-embryonic mesoderm appears on the eleventh and twelfth days, from the wall of the yolk sac — so it needs the yolk sac of option B to exist first.',
+        D: 'The primary chorionic villi begin after the thirteenth day, at the very end of the second week.',
       },
     },
     {
       key: 'chorionic-vesicle-is-formed-at-the-dep-book-c67d2aab',
-      conceptKey: 'chorion-three-layers-and-the-chorionic-vesicle',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Give the day the chorionic vesicle is formed.',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Date the chorionic vesicle from the day its cavity closes.',
       answerOverride: 'D',
       answerOverrideReason:
-        'Neither copy of this question in the bank carries a key. The department book\'s account of the thirteenth gestational day states that "spaces of the extra-embryonic coelom communicate to form a single chorionic cavity", which is when the chorionic vesicle exists — option D.',
+        'Neither printing of this question carries a key. The chorionic vesicle exists once the separate spaces in the extra-embryonic mesoderm have run together into a single chorionic cavity with a chorion around it, and the department book places that on the thirteenth day. Set to D.',
       explanations: {
-        A: 'On the tenth day the blastocyst has only just been completely embedded and the syncytiotrophoblast is in its lacunar stage. There is no extra-embryonic mesoderm yet, let alone a cavity in it.',
-        B: 'The eleventh day completes implantation and fills the lacunae with maternal blood, and the extra-embryonic mesoderm first appears. Its spaces are still multiple and separate.',
-        C: 'The eighth day belongs to the hypoblast and the amniotic cavity, inside the inner cell mass. The chorion does not exist in any form.',
-        D: 'Correct. On the thirteenth day the separate spaces of the extra-embryonic coelom run together into one chorionic cavity, and the chorionic vesicle — with its three-layered wall — is what results.',
+        A: 'On the tenth day the blastocyst has only just been completely embedded; there is no extra-embryonic mesoderm yet and so no cavity to enclose.',
+        B: 'The eleventh and twelfth days bring the extra-embryonic mesoderm and the first scattered spaces in it. Closer, but the spaces are still separate.',
+        C: 'The eighth day is the amniotic cavity and the bilaminar disc — five days too early, and the earliest option offered.',
+        D: 'Correct. On the thirteenth day the spaces fuse into a single chorionic cavity and the wall around it — somatic mesoderm, cytotrophoblast, syncytiotrophoblast — is the chorion.',
       },
     },
     {
-      key: 'chorionic-villi-are-considered-as-secondary-chorionic-villi-2cea4d11',
-      conceptKey: 'chorionic-villi-types-development',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Give the change that promotes a primary villus to a secondary one.',
-      answerOverride: 'C',
+      key: 'regarding-monozygotic-twin-dep-book-2024-75c8fa43',
+      conceptKey: 'twins-monozygotic-and-dizygotic',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'State what follows from two twins sharing one zygote.',
+      answerOverride: 'B',
       answerOverrideReason:
-        'This reprint of the 2023 and 2022 sittings marks B, that the villi are covered by syncytiotrophoblast — which is true of a primary villus as well and so cannot be what makes one secondary. The department book states that secondary villi form "when somatic mesoderm is incorporated into the core", which is option C.',
+        'This printing carries no key; the other printing of the same question, which lost an option, is keyed to B. Monozygotic twins come from one fertilised ovum and therefore share one genotype, so they must be of the same sex — the only true statement of the four.',
       explanations: {
-        A: 'Contact with the decidua basalis is what distinguishes the stem or anchoring branch of a *tertiary* villus from its free branches. It says nothing about which of the three stages a villus has reached.',
-        B: 'The mark this reprint carries, and true of every chorionic villus from the primary stage onwards — the syncytiotrophoblast is the outer covering throughout. An option true of all three stages cannot define one of them.',
-        C: 'Correct. A primary villus becomes secondary when somatic extra-embryonic mesoderm grows into its cytotrophoblast core, at the middle of the third week.',
-        D: 'Branch — free or floating — villi arise from the stem villi of the *tertiary* stage, once vessels have formed. That is one stage further on.',
+        A: 'Dizygotic twinning is the commoner kind by a wide margin. Identical twins are the more memorable, which is why this option is offered first.',
+        B: 'Correct. One zygote means one set of chromosomes, so the two are necessarily of the same sex.',
+        C: 'Monozygotic twins are identical — that is what the word means. Non-identical describes the dizygotic pair.',
+        D: 'Development from two ova is the definition of dizygotic twinning, and it is the direct contradiction of "monozygotic" in the stem.',
       },
     },
     {
-      key: 'abnormally-long-umbilical-cord-may-lead-to-889819f2',
-      conceptKey: 'umbilical-cord-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A duplicate of `abnormally-long-umbilical-cord-may-lead-to-dep-book-2024-ac-59be1fce` whose option D was truncated to "Adhesion between the fetus with t\' > wall of uterus". Unkeyed, like both copies. The intact copy is imported with an override taken from the department book.',
+      key: 'regarding-the-dizygotic-twin-90dcf9d2',
+      conceptKey: 'twins-monozygotic-and-dizygotic',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'State what follows from two twins arising from two zygotes.',
+      answerOverride: 'A',
+      answerOverrideReason:
+        'The books print no key. Dizygotic twins arise from two ova fertilised by two sperms, so they are genetically ordinary siblings — non-identical, of either sex, and each with its own amnion and chorion. Only A is true.',
+      explanations: {
+        A: 'Correct. Two zygotes means two genotypes, so the twins are no more alike than any brother and sister.',
+        B: 'Always of the same sex is the monozygotic rule. Dizygotic twins may be a boy and a girl, which is in fact the only certain way to tell the two kinds apart at birth.',
+        C: 'Each dizygotic twin implants separately and has its own amnion. A shared amnion happens only in a monozygotic pair that split late.',
+        D: 'A common chorion likewise requires one conceptus. Two separate implantations give two chorions, and usually two placentae.',
+      },
     },
     {
-      key: 'allantois-is-a-dorsal-extension-from-1-df5dcbdb',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed copy of `allantois-is-a-dorsal-extension-from-11d3fece`, with the same four options and page furniture in the stem. The keyed copy is imported.',
+      key: 'concerning-to-the-mucous-ct-the-followings-are-true-except-3c6fa9a0',
+      conceptKey: 'mucoid-ct-is-jelly-rich-in-hyaluronic-acid',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Recognise that mucoid tissue is defined by its ground substance and not by its fibres.',
+      explanations: {
+        A: 'True, so not the exception. The matrix is a soft jelly, which is where the name comes from.',
+        B: 'True, so not the exception. Hyaluronic acid is what makes the ground substance so abundant and so hydrated.',
+        C: 'The exception, and the answer. Mucoid tissue has only *fine* collagen and reticular fibres; abundant type I collagen belongs to dense white fibrous tissue, which is the opposite kind of connective tissue — strong rather than soft.',
+        D: 'True, so not the exception. Wharton\'s jelly, the main component of the umbilical cord, is mucoid connective tissue.',
+      },
     },
     {
-      key: 'allantois-is-a-dorsal-extension-from-dep-book-3d403c21',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The department-book copy of the same question, also unkeyed. Three copies of one question, of which the keyed one is imported and these two are recorded as duplicates.',
+      key: 'mucoid-connective-tissue-is-present-in-all-of-the-following-8f3ee0bf',
+      conceptKey: 'mucoid-ct-is-jelly-rich-in-hyaluronic-acid',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Name the three sites of mucoid tissue and reject the one that only sounds like a fourth.',
+      explanations: {
+        A: 'The exception, and the answer. A mucous membrane is an epithelium with its underlying lamina propria — loose areolar tissue, not mucoid tissue. The two share a syllable and nothing else, which is exactly why the option works.',
+        B: 'True, so not the exception. The pulp of the teeth is one of the book\'s three sites.',
+        C: 'True, so not the exception. In the umbilical cord it is called Wharton\'s jelly.',
+        D: 'True, so not the exception. The vitreous humour of the eye is the third site.',
+      },
     },
     {
-      key: 'chorionic-plate-a-is-the-chorion-leave-i-ac2e4530',
-      conceptKey: 'chorionic-villi-types-development',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Options B and C were run together into one line — "Is the chorion frondosum. 0 G Is the decidua basalis." — so the row carries three options where the book printed four, and one of them holds two answers. Unkeyed. The complete copy is `chorionic-plate-a-is-the-chorion-leave-04836a61`.',
+      key: 'collagen-type-1-is-present-in-d30b3868',
+      conceptKey: 'connective-tissue-fibres-collagen-reticular-and-elastic',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Place type I collagen in the dense tissues.',
+      explanations: {
+        A: 'Correct. The capsule of an organ is dense irregular connective tissue, and its strength is type I collagen.',
+        B: 'Fetal connective tissue is mesenchyme, cellular and with very fine fibres. It has not yet laid down the dense bundles type I forms.',
+        C: 'Vascular — mucoid — connective tissue holds only fine collagen and reticular fibres in a jelly matrix; its whole character is the absence of dense collagen.',
+        D: 'The placenta\'s connective tissue is the loose mesodermal core of the villi and Wharton\'s jelly in the cord, neither of which is dense.',
+      },
     },
     {
-      key: 'chorionic-plate-aa0b703c',
-      conceptKey: 'chorionic-villi-types-development',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed copy of the chorionic plate question, with the same four options. The keyed copy is imported; this one would be the same question a second time with an answer supplied by an author rather than a source.',
+      key: 'collagen-type-iii-forms-f73a03ca',
+      conceptKey: 'connective-tissue-fibres-collagen-reticular-and-elastic',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Identify type III collagen as the reticular fibre.',
+      explanations: {
+        A: 'White fibrous connective tissue — tendon, ligament, aponeurosis — is type I. It is the option a student picks who has learnt "collagen means strong" without the numbering.',
+        B: 'Correct. Type III collagen is the reticular fibre, and reticular fibres form the supporting stroma of parenchymatous organs such as liver, spleen and lymph node.',
+        C: 'The basement membrane is type IV collagen, a network rather than a fibre.',
+        D: 'Placental connective tissue is the loose core of the villus, and is not defined by a collagen type at all.',
+      },
+    },
+    {
+      key: 'reticular-connective-tissue-is-present-in-7407c983',
+      conceptKey: 'connective-tissue-fibres-collagen-reticular-and-elastic',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the site of reticular connective tissue.',
+      explanations: {
+        A: 'The capsule of an organ is dense irregular tissue of type I collagen. The reticular tissue is inside the capsule, holding the parenchyma.',
+        B: 'Ligamentum nuchae is yellow elastic connective tissue — it has to stretch and recoil as the head nods.',
+        C: 'The umbilical cord is mucoid connective tissue, Wharton\'s jelly.',
+        D: 'Correct. Reticular tissue forms the stroma of the parenchymatous organs — liver, spleen, lymph node and bone marrow — where a fine branching network can support cells without stiffening the organ.',
+      },
+    },
+    {
+      key: 'yellow-elastic-connective-tissue-is-present-in-94267e94',
+      conceptKey: 'connective-tissue-fibres-collagen-reticular-and-elastic',
+      difficulty: 'Easy', questionType: 'Classification',
+      learningObjective: 'Name the site of yellow elastic connective tissue.',
+      explanations: {
+        A: 'The capsule of an organ resists stretch rather than performing it; it is dense collagen.',
+        B: 'Correct. Ligamentum nuchae is the type example of yellow elastic connective tissue, along with the ligamenta flava and the vocal ligaments.',
+        C: 'The umbilical cord is mucoid tissue. This question and the reticular-tissue question are printed with the same four options, so the four sites have to be held apart as a set.',
+        D: 'The stroma of organs is reticular tissue, type III collagen.',
+      },
     },
     {
       key: 'chorionic-plate-dep-book-em-em-em-em-em-a8dcf7a0',
       conceptKey: 'chorionic-villi-types-development',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy, marked C — the decidua basalis — where the department book defines the chorionic plate as the chorion frondosum, the *fetal* part of the placenta. Excluded as a duplicate carrying a wrong margin mark rather than imported with an override, since a correctly keyed copy of the same question exists.',
+        'An annotated re-printing keyed to the decidua basalis, which is the maternal plate. The chorionic plate is chorion frondosum. The clean printing at `chorionic-plate-aa0b703c` is live with the answer supplied.',
     },
     {
-      key: 'chorionic-vesicle-is-formed-at-the-e1495d12',
-      conceptKey: 'chorion-three-layers-and-the-chorionic-vesicle',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
+      key: 'chorionic-plate-a-is-the-chorion-leave-04836a61',
+      conceptKey: 'chorionic-villi-types-development',
+      difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'An unkeyed duplicate of `chorionic-vesicle-is-formed-at-the-dep-book-c67d2aab` in which the ordinal suffixes were read as inch marks — "10\" day", "11\" day", "8\" day" — leaving the numbers legible but the row no better than its twin. The department-book copy is imported with an override.',
+        'The stem has swallowed option A. Its key, B for chorion frondosum, is right and is what the override on `chorionic-plate-aa0b703c` rests on.',
     },
     {
-      key: 'collagen-type-1-is-present-in-d30b3868',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A histology question about collagen types, filed here because "Placenta" is one of its four options. It belongs to the Connective Tissue Fibres leaf of Histology.',
-    },
-    {
-      key: 'collagen-type-iii-forms-f73a03ca',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The companion collagen question, filed here on the option "Placental connective tissue". It belongs to the Connective Tissue Fibres leaf.',
-    },
-    {
-      key: 'concerning-to-the-mucous-ct-the-followings-are-true-except-3c6fa9a0',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A histology question about mucous connective tissue, filed here because Wharton\'s jelly of the umbilical cord is its type example. It belongs to the Types of Connective Tissue Proper leaf, which is where the jelly is taught as a tissue rather than as a cord component.',
-    },
-    {
-      key: 'de-nitive-yolk-sac-is-connected-with-midgut-through-dep-book-472797e2',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      key: 'chorionic-plate-a-is-the-chorion-leave-i-ac2e4530',
+      conceptKey: 'chorionic-villi-types-development',
+      difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `definitive-yolk-sac-is-connected-with-midgut-through-ce358c9f`, marked C — the allantois — where the book gives the vitelline duct. The allantois is the other outgrowth of the same yolk sac and runs to the connecting stalk, not to the gut. The correctly keyed copy was asked twice and is imported.',
+        'The worst of four printings: the stem has swallowed option A and option B has swallowed option C, so two of the four choices are printed under one letter. Live and clean at `chorionic-plate-aa0b703c`.',
     },
     {
-      key: 'definitive-yolk-sac-is-connected-with-midgut-through-wi-a-co-e324de0a',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      key: 'chorionic-villi-are-considered-as-secondary-chorionic-villi-2cea4d11',
+      conceptKey: 'chorionic-villi-types-development',
+      difficulty: 'Hard', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A third copy reduced to two options — the vitelline duct and the hindgut — with option A read into the stem and option C lost. Unkeyed.',
-    },
-    {
-      key: 'expansion-of-amniotic-cavity-will-lead-to-dep-book-ac-ad-ac-0ca89b33',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Moderate',
-      questionType: 'Developmental process',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The department-book copy of `expansion-of-amniotic-cavity-will-lead-to-f19f597a`, which lost option B and carries no key. The keyed copy has all four options and is imported.',
-    },
-    {
-      key: 'fetal-movements-are-normally-perceived-by-the-mother-startin-c1773dfb',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Easy',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The option set has broken apart: two of its four options — "Always of same sex" and "Has a common chorion" — belong to the twin question further down the same page, and the real options for the months are gone. What survives is "Third month", "Seventh month" and two twin statements. The department book gives the fifth month, which is not among them. Recoverable only by rescanning page 131.',
-    },
-    {
-      key: 'heuser-s-membrane-lines-the-d3bb317b',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed copy of `heuser-s-membrane-lines-the-a-definitive-yolk-sac-35f78a4b`, with the same four options. The keyed copy is imported.',
-    },
-    {
-      key: 'heuser-s-membrane-lines-the-definitive-yolk-sac-1-0aec68c9',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A third copy which lost option C, the secondary yolk sac, and had option A read into its stem. Unkeyed.',
-    },
-    {
-      key: 'heuser-s-membrane-lines-the-dep-book-em-em-em-em-em-114cec21',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The fourth copy of the Heuser\'s membrane question, department-book, with all four options and no key. One copy of a question is imported and the keyed one is it.',
-    },
-    {
-      key: 'marginal-attachment-of-umbilical-cord-to-the-placenta-is-kno-d1364623',
-      conceptKey: 'umbilical-cord-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The department-book copy of `marginal-attachment-of-umbilical-cord-to-the-placenta-is-kno-09cd8da4`, marked C — placenta previa, which is an anomaly of position and has nothing to do with cord attachment. The correctly keyed copy was asked twice and is imported.',
-    },
-    {
-      key: 'mucoid-connective-tissue-is-present-in-all-of-the-following-8f3ee0bf',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A histology question about the sites of mucoid connective tissue, filed here because the umbilical cord is one of its options. It belongs to the Types of Connective Tissue Proper leaf.',
-    },
-    {
-      key: 'neurenteric-canal-is-the-communication-between-2017-2nd-dep-452a3c4a',
-      conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The option set has been rebuilt out of two questions: it offers "Amniotic sac and chorionic cavity", "Yolk sac and chorionic cavity", "Notochordal canal and amniotic cavity" and "Amniotic and uterine cavities", and the correct pairing — amniotic and yolk sac cavities — is not among them. Its mark, A, points at an option the book contradicts. The intact copy `neurenteric-canal-is-the-communication-between-eb87f229` was asked twice and is imported.',
-    },
-    {
-      key: 'neurenteric-canal-is-the-communication-between-amniotic-and-fc78e051',
-      conceptKey: 'notochord-formation-fate',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A third copy reduced to three options by option A being read into the stem, and unkeyed. The complete copy is imported.',
-    },
-    {
-      key: 'one-of-the-following-is-an-event-of-day-of-pregnancy-1c27a38c',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The stem lost the day number: it reads "One of the following is an event of day of pregnancy", with no ordinal. Since every option is an event of a different day of the second week, the missing number is the whole question. Its key, B, is consistent with the ninth day, but the row cannot be sat without knowing which day was asked.',
-    },
-    {
-      key: 'one-of-the-following-is-an-event-of-the-8-day-of-pregnancy-1-ed81d1bd',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A copy of the eighth-day question that lost option C, the extra-embryonic mesoderm, and carries no key. The complete keyed copy `one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2` is imported.',
-    },
-    {
-      key: 'one-of-the-following-is-an-event-of-the-8-day-of-pregnancy-a017ed9f',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed third copy of the eighth-day question, with the same four options. The keyed copy is imported.',
-    },
-    {
-      key: 'one-of-the-following-is-an-event-of-the-9-day-of-pregnancy-32dcf5e1',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed copy of the ninth-day question, which is authored in `second-week-of-development.ts` where the extractor filed its department-book twin. Kept here so a rescan does not author one question in two leaves.',
-    },
-    {
-      key: 'one-of-the-following-is-an-event-of-the-gth-day-of-pregnancy-b2cb39c0',
-      conceptKey: 'second-week-day-by-day-events-of-implantation',
-      difficulty: 'Hard',
-      questionType: 'Developmental timing',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The only keyed copy of the ninth-day question, and its key is one question out: it marks A, formation of the hypoblast, which the department book gives as an *eighth*-day event and which is the keyed answer to the question printed immediately above it with the same four options. The ninth-day question is authored in `second-week-of-development.ts` with the answer the book supports, and this row is recorded here as the source of that key rather than imported with it.',
-    },
-    {
-      key: 'one-of-the-following-is-an-extraembryonic-fetal-membrane-201-30c68d66',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Option D has been replaced by "Short cord may lead to premature separation of the placenta", carried in from the cord question below it, and the row is marked B — the bucco-pharyngeal membrane, which is a fusion of ectoderm and endoderm inside the embryonic disc and not an extra-embryonic membrane at all. Neither the option set nor the key can be repaired from what survives.',
-    },
-    {
-      key: 'one-of-the-following-is-an-extraembryonic-fetal-membranes-am-67cee721',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Moderate',
-      questionType: 'Classification',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Unkeyed, and the answer cannot be established: it offers the amniochorionic membrane, the bucco-pharyngeal membrane, the cloacal membrane and the allantois, and *two* of those are extra-embryonic. The amniochorionic membrane is amnion fused to chorion, and the allantois is a diverticulum of the yolk sac running into the connecting stalk. The department book\'s own list of the fetal membranes — chorion and villi, placenta, amnion, cord, yolk sac — names neither by these words, so nothing decides between them. A faculty reviewer could; an author cannot.',
-    },
-    {
-      key: 'one-of-the-following-is-biaxial-joint-a-shoulder-hip-i-elbow-c3a84493',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Easy',
-      questionType: 'Classification',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Two questions merged into one row. The stem is an upper-limb joint question — "one of the following is biaxial joint" — with its four options and the next question\'s stem all read into it, and the options that survive belong to the trophoblast question that followed. Neither question can be recovered; the joints one belongs to the Joints of Upper Limb leaf in any case.',
-    },
-    {
-      key: 'one-of-the-following-is-correct-regarding-the-functions-of-p-cc32867b',
-      conceptKey: 'placental-functions-and-hormones',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A clean but unkeyed copy of `one-of-the-following-is-correct-regarding-the-functions-of-p-78fcdecb`, with the same four options. The department-book copy is imported with its wrong mark overridden and the override written down.',
-    },
-    {
-      key: 'one-of-the-following-joints-is-synovial-uniaxial-a-shoulder-843d1c93',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Easy',
-      questionType: 'Classification',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The second merged joints row: a uniaxial-joint stem whose surviving options are "Lining epithelium of duodenum", "Connecting stalk" and "yolk sac (secondary)" from an embryology question on the same page. Neither question survives, and the joints one belongs to the Joints of Upper Limb leaf.',
-    },
-    {
-      key: 'physiological-hernia-occurs-when-a-loop-of-intestine-is-pres-c41b6bde',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Hard',
-      questionType: 'Developmental process',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The department-book copy, whose option C has been replaced by "Vitelline duct" from a neighbouring question — so the correct option, the primitive umbilical cord, is gone — and which is marked D, the definitive umbilical cord, which is where a loop of intestine is an omphalocele rather than a physiological hernia. The intact copy `physiological-hernia-occurs-when-a-loop-of-intestine-is-pres-95afdc5e` is imported.',
-    },
-    {
-      key: 'placental-barrier-is-the-separation-between-a-fetal-and-mate-578ad71c',
-      conceptKey: 'placental-barrier-early-and-late-layers',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Options A and B were both read into the stem, leaving two, and the surviving text is damaged throughout ("a+ Fetal and materhal surfaces", "b= Chorionic and decidua! plates"). Unkeyed.',
-    },
-    {
-      key: 'placental-barrier-is-the-separation-between-f03f08bd',
-      conceptKey: 'placental-barrier-early-and-late-layers',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The one copy with a clean stem, and the one whose correct option is destroyed: option D reads "Fetal and maternal blood inside ‏ام‎ ~nta". Since D is the answer, what this row lost is the answer itself. The department-book copy has all four options intact and is imported with its mark overridden.',
-    },
-    {
-      key: 'polyhydramnios-is-the-increase-of-the-volume-of-amniotic-flu-fda7ba4e',
-      conceptKey: 'amnion-expansion-and-its-results',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'Option B was lost, and option B is the answer: the department book defines polyhydramnios as more than *two* litres at full term, and what survives is one, three and four. A question that has lost its correct option cannot be repaired by choosing among the rest. Recoverable by rescanning page 11 of the question book.',
-    },
-    {
-      key: 'regarding-monozygotic-twin-352aa255',
-      conceptKey: 'monozygotic-and-dizygotic-twins',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
-      learningObjective: 'Not sittable as extracted.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'The only keyed copy of the monozygotic twin question, and it lost option D — "are developed by fertilization of two ova" — leaving three. Three options is below the four-to-five the question contract requires, so the row cannot be imported however good its key is. The department-book copy `regarding-monozygotic-twin-dep-book-2024-75c8fa43` has all four and is imported with this row\'s answer carried across as a recorded override, so nothing is lost but the mark on the page.',
+        'Damaged twice. The stem has swallowed option A — "(2023 - 2022) ad Ac a- Contact the decidua basalis y Ac" — and the printed key, B, says a villus is secondary when it is covered by syncytiotrophoblast, which is true of a primary villus as well and so cannot be what makes it secondary. The answer is C, the mesenchymal core. A rescan repairs the stem; the key is a reviewer\'s matter, and this is the only printing.',
     },
     {
       key: 'regarding-the-placental-decidual-septa-dep-book-ac-ad-ac-ad-307df933',
       conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
+      difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `regarding-the-placental-decidual-septa-10b5239b`, marked C — that the septa are fixed to the chorionic plate — where the department book calls them incomplete septa extending from the decidual plate into the intervillous spaces. If they reached the chorionic plate the intervillous spaces would not intercommunicate. The correctly keyed copy is imported.',
+        'An annotated re-printing keyed to C, that the septa are fixed to the chorionic plate. The book calls them incomplete, which is precisely the statement that they are not. The clean printing at `regarding-the-placental-decidual-septa-10b5239b` is keyed to the decidual plate and is live.',
     },
     {
       key: 'regarding-the-placental-decidual-septa-they-are-composed-of-ee8d832f',
       conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
+      difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A third copy reduced to two options by option A being read into the stem and option C being lost. Unkeyed.',
+        'The stem has swallowed option A and option C was lost, leaving three. Live at `regarding-the-placental-decidual-septa-10b5239b`.',
     },
     {
-      key: 'regarding-the-primitive-umbilical-ring-dep-book-ac-p-vi-a-it-dd89f1a3',
-      conceptKey: 'umbilical-cord-development-ring-to-definitive-cord',
-      difficulty: 'Hard',
-      questionType: 'Structure and function',
+      key: 'placental-barrier-is-the-separation-between-f03f08bd',
+      conceptKey: 'placental-barrier-early-and-late',
+      difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The department-book copy of `regarding-the-primitive-umbilical-ring-7dc961fb`, marked B — that the ring contains the definitive yolk sac, which the book places in the primitive umbilical *cord*, once the amnion has ensheathed what passes through the ring. The correctly keyed copy is imported.',
+        'The correct option is the one the scanner destroyed: D reads "Fetal and maternal blood inside ام ~nta". A student cannot pick an answer they cannot read. The complete printing at `placental-barrier-is-the-separation-between-dep-book-em-em-e-64936622` is live with its key overridden.',
     },
     {
-      key: 'reticular-connective-tissue-is-present-in-7407c983',
+      key: 'placental-barrier-is-the-separation-between-a-fetal-and-mate-578ad71c',
+      conceptKey: 'placental-barrier-early-and-late',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed options A and B, leaving two. Live at `placental-barrier-is-the-separation-between-dep-book-em-em-e-64936622`.',
+    },
+    {
+      key: 'one-of-the-following-is-correct-regarding-the-functions-of-p-cc32867b',
+      conceptKey: 'placental-functions-and-hormones',
+      difficulty: 'Hard', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option D has lost a word and reads "It prevents the passage cf all viruses", and the row carries no key. The other printing, `one-of-the-following-is-correct-regarding-the-functions-of-p-78fcdecb`, has the option intact and is live with its key overridden.',
+    },
+    {
+      key: 'one-of-the-following-is-not-true-regarding-the-placenta-2023-8f9f62d3',
       conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
-      explanations: {},
-      exclude: true,
-      excludeReason:
-        'A histology question about the sites of reticular connective tissue, filed here because the umbilical cord is one of its four options. It belongs to the Types of Connective Tissue Proper leaf.',
-    },
-    {
-      key: 'scaphoid-19-regarding-the-decidua-parictalis-choose-the-corr-c8853425',
-      conceptKey: 'decidua-definition-parts-fates',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The extractor caught the seam between three questions. The stem is the tail of an upper-limb question ("Scaphoid") followed by the numbered stem of the decidua parietalis question, and the options are fragments of two other questions entirely, one of them "Scaphoid" again. The decidua parietalis question survives whole as `regarding-the-decidua-parietalis-choose-the-correct-statemen-61eab5d0` and is imported from there.',
+        'The stem has swallowed option A — "a- Its fetal part develops from chorion frondosum" — and so states one of its own answers before asking. The key, B, is right: the maternal part develops from decidua basalis, not capsularis. It is the only printing, and a rescan of the stem alone recovers it.',
+    },
+    {
+      key: 'marginal-attachment-of-umbilical-cord-to-the-placenta-is-kno-d1364623',
+      conceptKey: 'placenta-anomalies',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'An annotated re-printing keyed to placenta previa, which is an anomaly of position and has nothing to do with the cord. The clean printing at `marginal-attachment-of-umbilical-cord-to-the-placenta-is-kno-09cd8da4`, asked twice as often, is keyed to battledore placenta and is live.',
+    },
+    {
+      key: 'thin-and-wide-placenta-is-known-as-dep-book-a198717a',
+      conceptKey: 'placenta-anomalies',
+      difficulty: 'Easy', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'An annotated duplicate whose answer option is misspelt as "Placenta membrancacea". Its key agrees with the override on the clean printing at `thin-and-wide-placenta-is-known-as-b2864ad3`, which is live.',
     },
     {
       key: 'thin-and-wide-placenta-is-known-as-0-02725316',
       conceptKey: 'placenta-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
+      difficulty: 'Easy', questionType: 'Clinical application',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A copy of the placenta membranacea question that lost option C, velamentous placenta, and carries no key. The complete keyed copy is imported.',
+        'Option C was lost, leaving three, and there is no key. Live at `thin-and-wide-placenta-is-known-as-b2864ad3`.',
     },
     {
-      key: 'thin-and-wide-placenta-is-known-as-b2864ad3',
-      conceptKey: 'placenta-anomalies',
-      difficulty: 'Moderate',
-      questionType: 'Clinical application',
+      key: 'abnormally-long-umbilical-cord-may-lead-to-889819f2',
+      conceptKey: 'umbilical-cord-anomalies',
+      difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A clean but unkeyed third copy, spelling option A correctly where the imported copy prints "Placenta membrancacea". The keyed copy is still the one imported, because its answer comes from the source rather than from an author; the misspelling is a scan artefact and belongs to the same rescan as the rest of the page.',
+        'Option D breaks up mid-phrase — "Adhesion between the fetus with t\' > wall of uterus". The complete printing at `abnormally-long-umbilical-cord-may-lead-to-dep-book-2024-ac-59be1fce` is live with the answer supplied.',
     },
     {
-      key: 'yellow-elastic-connective-tissue-is-present-in-94267e94',
-      conceptKey: 'placenta-structure-plates-septa-and-cotyledons',
-      difficulty: 'Easy',
-      questionType: 'Structure and function',
-      learningObjective: 'Not part of this leaf.',
+      key: 'physiological-hernia-occurs-when-a-loop-of-intestine-is-pres-c41b6bde',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'A histology question about yellow elastic connective tissue — the answer is ligamentum nuchae — filed here because the umbilical cord is one of its options. It belongs to the Types of Connective Tissue Proper leaf.',
+        'Damaged twice: option C has been replaced by "Vitelline duct" where the other printing has "Primitive umbilical cord" — which is the answer — and the row is then keyed to D, the definitive cord, where an intestinal loop would be an omphalocele rather than a physiological hernia. The clean printing at `physiological-hernia-occurs-when-a-loop-of-intestine-is-pres-95afdc5e` is live.',
+    },
+    {
+      key: 'regarding-the-primitive-umbilical-ring-dep-book-ac-p-vi-a-it-dd89f1a3',
+      conceptKey: 'umbilical-cord-development-and-contents',
+      difficulty: 'Hard', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A, and the row is keyed to B, that the ring contains the definitive yolk sac — which belongs to the primitive umbilical *cord*, one stage later. The clean printing at `regarding-the-primitive-umbilical-ring-7dc961fb` is keyed to the vitelline duct and is live.',
+    },
+    {
+      key: 'de-nitive-yolk-sac-is-connected-with-midgut-through-dep-book-472797e2',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'An annotated re-printing keyed to the allantois, which runs from the yolk sac into the connecting stalk and reaches the bladder, not the gut. The clean printing at `definitive-yolk-sac-is-connected-with-midgut-through-ce358c9f`, asked twice as often, is keyed to the vitelline duct and is live.',
+    },
+    {
+      key: 'definitive-yolk-sac-is-connected-with-midgut-through-wi-a-co-e324de0a',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Easy', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A and option C was lost, leaving two. Live at `definitive-yolk-sac-is-connected-with-midgut-through-ce358c9f`.',
+    },
+    {
+      key: 'chorionic-vesicle-is-formed-at-the-e1495d12',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Every option has lost its ordinal to the scanner — "10\" day", "11\" day", "8\" day", "13 day" — so a question that is nothing but four dates has no readable dates in it, and there is no key. The other printing, `chorionic-vesicle-is-formed-at-the-dep-book-c67d2aab`, has the ordinals intact and is live with the answer supplied.',
+    },
+    {
+      key: 'allantois-is-a-dorsal-extension-from-1-df5dcbdb',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'A duplicate with scan debris run into the stem and no key. Clean and keyed at `allantois-is-a-dorsal-extension-from-11d3fece`.',
+    },
+    {
+      key: 'allantois-is-a-dorsal-extension-from-dep-book-3d403c21',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'A "(DEP BOOK)"-annotated duplicate with no key. Clean and keyed at `allantois-is-a-dorsal-extension-from-11d3fece`.',
+    },
+    {
+      key: 'heuser-s-membrane-lines-the-a-definitive-yolk-sac-35f78a4b',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A. Its key, B for the primary yolk sac, is right and is what the override on `heuser-s-membrane-lines-the-d3bb317b` rests on.',
+    },
+    {
+      key: 'heuser-s-membrane-lines-the-definitive-yolk-sac-1-0aec68c9',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A and option C was lost, leaving two. Live at `heuser-s-membrane-lines-the-d3bb317b`.',
+    },
+    {
+      key: 'heuser-s-membrane-lines-the-dep-book-em-em-em-em-em-114cec21',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The fourth printing, "(DEP BOOK)"-annotated and with no key. Live at `heuser-s-membrane-lines-the-d3bb317b`.',
     },
     {
       key: 'yolk-sac-shares-in-the-formation-of-49e90126',
-      conceptKey: 'yolk-sac-development-and-functions',
-      difficulty: 'Moderate',
-      questionType: 'Structure and function',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Developmental process',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
       excludeReason:
-        'The option set has been rebuilt out of two questions: it offers "Foregut, midgut and hindgut", "Forebrain, midbrain and hind brain", "3 month" and "5\" month" — two anatomical lists and two months, the months carried in from the fetal-movements question below. The correct answer survives as option A, but a row in which half the options belong to a different question cannot be sat. Recoverable only by rescanning page 12 of the question book.',
+        'Two of the four options are not answers to this stem: B reads "3 month" and D "5\'\' month", both bled in from a fetal-period question on the same page. The answer, that the yolk sac shares in forming the foregut, midgut and hindgut, survives as option A, but a two-option question cannot be sat. The page needs rescanning.',
+    },
+    {
+      key: 'expansion-of-amniotic-cavity-will-lead-to-dep-book-ac-ad-ac-0ca89b33',
+      conceptKey: 'amnion-expansion-and-the-amniochorionic-membrane',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option B was lost, leaving three, and there is no key. Clean and keyed at `expansion-of-amniotic-cavity-will-lead-to-f19f597a`.',
+    },
+    {
+      key: 'polyhydramnios-is-the-increase-of-the-volume-of-amniotic-flu-fda7ba4e',
+      conceptKey: 'amniotic-fluid-functions',
+      difficulty: 'Moderate', questionType: 'Normal values',
+      learningObjective: 'Not sittable as printed.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option B was lost, leaving three — one, three and four litres — and the conventional threshold, two litres, is the missing one. It is also the one row in this leaf that asks for a figure the department book never gives: the book defines polyhydramnios as "increased amniotic fluid at full term" and states no volume anywhere. A rescan restores the option; establishing what the faculty expects as the number is a question for the department, not for the scanner.',
+    },
+    {
+      key: 'fetal-movements-are-normally-perceived-by-the-mother-startin-c1773dfb',
+      conceptKey: 'amniotic-fluid-functions',
+      difficulty: 'Moderate', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Two of the four options have bled in from the twinning question on the same page — B reads "Always of same sex" and D "Has a common chorion" — and the correct answer, the fifth month, is not among the two that remain. The row is keyed to one of the imported options. The page needs rescanning.',
+    },
+    {
+      key: 'one-of-the-following-is-an-event-of-day-of-pregnancy-1c27a38c',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has lost the number it turns on and reads "One of the following is an event of day of pregnancy". The four options are four different days\' events, so without the day the question has no answer — and the key, B, would make it the ninth day while three other printings of the same stem name the eighth. A rescan is needed to say which day was asked.',
+    },
+    {
+      key: 'one-of-the-following-is-an-event-of-the-8-day-of-pregnancy-a017ed9f',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem\'s ordinal has been read as a quotation mark — "the 8\'\' day" — and there is no key. The printing at `one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2` has the ordinal intact and a correct key, and is live.',
+    },
+    {
+      key: 'one-of-the-following-is-an-event-of-the-8-day-of-pregnancy-1-ed81d1bd',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option C was lost, leaving three, and the ordinal in the stem is damaged in the same way. Live at `one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2`.',
+    },
+    {
+      key: 'one-of-the-following-is-an-event-of-the-9-day-of-pregnancy-32dcf5e1',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The same question as `one-of-the-following-is-an-event-of-the-9th-day-of-pregnancy-35412c8d`, which is live in the Second Week of Development leaf with its answer supplied. This printing has the same four options, no key, and a damaged ordinal in the stem, so it is excluded as the redundant copy rather than published as a second identical item.',
+    },
+    {
+      key: 'one-of-the-following-is-an-event-of-the-gth-day-of-pregnancy-b2cb39c0',
+      conceptKey: 'second-week-day-by-day-timetable',
+      difficulty: 'Hard', questionType: 'Developmental timing',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Damaged twice. The stem\'s day has been read as "the gth day", which could be the ninth or the eighth, and the row is keyed to A, the formation of the hypoblast — an eighth-day event. If the stem is the ninth day the key is wrong; if it is the eighth then this duplicates the row already live at `one-of-the-following-is-an-event-of-the-8th-day-of-pregnancy-36b190f2`. Either way it cannot be published as it stands.',
+    },
+    {
+      key: 'neurenteric-canal-is-the-communication-between-2017-2nd-dep-452a3c4a',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The correct option is not present. The four options offered are the amniotic sac with the chorionic cavity, the yolk sac with the chorionic cavity, the notochordal canal with the amniotic cavity, and the amniotic with the uterine cavity — and the answer, the amniotic cavity with the yolk sac, is missing, having apparently been replaced when option C was lost. The row is keyed to the first of them. The page needs rescanning; the question is intact at `neurenteric-canal-is-the-communication-between-eb87f229`.',
+    },
+    {
+      key: 'neurenteric-canal-is-the-communication-between-amniotic-and-fc78e051',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Moderate', questionType: 'Developmental process',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The stem has swallowed option A and option C was lost, leaving two. Live at `neurenteric-canal-is-the-communication-between-eb87f229`.',
+    },
+    {
+      key: 'one-of-the-following-is-an-extraembryonic-fetal-membrane-201-30c68d66',
+      conceptKey: 'amnion-expansion-and-the-amniochorionic-membrane',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option D has been replaced by a whole sentence from another question — "Short cord may lead to premature separation of the placenta" — and the row is keyed to B, the bucco-pharyngeal membrane, which is a fusion of ectoderm and endoderm within the embryonic disc and not an extra-embryonic membrane at all. The answer is A, the amniochorionic membrane. Both defects need the page rescanned.',
+    },
+    {
+      key: 'one-of-the-following-is-an-extraembryonic-fetal-membranes-am-67cee721',
+      conceptKey: 'amnion-expansion-and-the-amniochorionic-membrane',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The other printing of the same question, and no better: the stem has swallowed option A, which is the answer, and option B is misspelt to "meriibrané". Both copies of this question are damaged, so a rescan is the only route to it.',
+    },
+    {
+      key: 'regarding-monozygotic-twin-352aa255',
+      conceptKey: 'twins-monozygotic-and-dizygotic',
+      difficulty: 'Moderate', questionType: 'Clinical application',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Option D was lost, leaving three. Its key, B, is right and is what the override on `regarding-monozygotic-twin-dep-book-2024-75c8fa43` rests on; that printing has the full option set and is live.',
+    },
+    {
+      key: 'one-of-the-following-is-biaxial-joint-a-shoulder-hip-i-elbow-c3a84493',
+      conceptKey: 'notochord-formation-fate',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Three questions have collided into one row. The stem is a joints question — "One of the following is biaxial joint" — whose four options have all run into option A along with the stem of a fourth question about the trophoblast, while options B, C and D come from two different embryology questions, one of them the neurenteric canal and one the notochord. Nothing here is answerable; the page will yield three or four separate questions when rescanned.',
+    },
+    {
+      key: 'one-of-the-following-joints-is-synovial-uniaxial-a-shoulder-843d1c93',
+      conceptKey: 'yolk-sac-allantois-heuser-and-the-vitelline-duct',
+      difficulty: 'Moderate', questionType: 'Classification',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'Another collision. The stem asks for a uniaxial synovial joint and has swallowed its own first option, while the four options listed are the duodenal epithelium, the wrist, the connecting stalk and the secondary yolk sac — three of which belong to two different embryology questions. Only the wrist could answer the stem, and a one-answer option list with three imported distractors is not a question. Needs rescanning.',
+    },
+    {
+      key: 'scaphoid-19-regarding-the-decidua-parictalis-choose-the-corr-c8853425',
+      conceptKey: 'decidua-definition-parts-fates',
+      difficulty: 'Moderate', questionType: 'Structure and function',
+      learningObjective: 'Not sittable as extracted.',
+      explanations: {},
+      exclude: true,
+      excludeReason:
+        'The row has no stem of its own. What was captured is the tail of a hand question — "Scaphoid" — followed by the numbered heading of the next question, "19- Regarding the decidua parictalis, choose the correct statement:", and then four options from three different questions, one of which is "Scaphoid" again. The decidua parietalis question itself survives intact at `regarding-the-decidua-parietalis-choose-the-correct-statemen-61eab5d0`, which is live; this row is the wreckage of the page break.',
     },
   ],
 }
