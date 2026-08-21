@@ -85,7 +85,10 @@ Agreed with each lane directly. Do not re-take a claimed item; rebase onto it.
 |---|---|---|
 | `scripts/kasr/extract/pagetext.py` | `102-int` | Authored it; existed byte-identical and untracked in three lanes. 104 and 108 rebase and delete their copies. |
 | `--module` retrofit, TypeScript | `102-int` | `seeds/types.ts`, `emit.ts`, `build-batches.ts` |
-| `--module` retrofit, Python | `104-cps` | `mcq.py`, `deptbook.py`, `practical.py`, `build_notes.py`, `build_practical.py`, `build-coverage.ts` |
+| `--module` retrofit, Python | `104-cps` | `mcq.py`, `deptbook.py`, `practical.py`, `build_notes.py`, `build_practical.py` |
+| `build-coverage.ts` | `103-bms` | Reassigned from 104 — 103 had it retrofitted and tested first. |
+| `build-source-index.ts` | `103-bms` | New. Emits all 401 manifest sources; identical bytes per lane, so it cannot conflict. |
+| Subject union in `seeds/types.ts` | `102-int` | Widening to the runtime's 20. 103 and 108 file Wanted rows rather than editing. |
 | Unprefixed `scripts/kasr/extract/*.json` | `101-isk` | Stay put until 101 moves them to `101-ISK/` as its last commit. Nobody else assumes those paths. |
 
 Both retrofit halves default to `101 ISK`. `mintConceptId` hashes `kau:<module>:<key>`, so
@@ -143,3 +146,75 @@ By category: 54 instructor material, 42 practical, 22 exams, 21 notes, 7 questio
 
 No lane should absorb these unilaterally — the five module lanes cover the other 259 rows.
 Awaiting Omar's call.
+
+---
+
+## Findings every lane needs
+
+Each of these was found by one lane and costs another lane real work to rediscover.
+
+### OCR corrupts MCQ option labels, and it is not random
+
+`d.` reads as `0.`; `c.` reads as `¢.` or `6.`. A parser keyed on a clean `[a-d]\.`
+silently drops roughly the **last option of many questions** and never errors. Because it
+is specifically *d* that goes, the answer-key distribution **skews** rather than visibly
+breaking. Found in 104's run; it applies to any OCR'd bank, including 101's 2,704 MCQs and
+102's two shared department banks. Normalisation belongs in `mcq.py` — one shared parser,
+not five local fixes.
+
+### The manifest's `textLayer` is wrong at least once
+
+`src_af30e4191cb4087f8d3f` (`Dpt book general pharma 108-2026.pdf`) is declared `native`
+and is not. `pagetext.py`'s fallback — a row claiming `native` whose page 1 returns under
+20 characters gets OCR'd anyway — is therefore load-bearing, not defensive. **Log which
+sources take the fallback.** Across the lanes that set is a manifest patch list, and the
+manifest should be corrected rather than worked around.
+
+### Kasr sources are missing from the corpus source index
+
+`corpus-source-index.json` holds 267 sources from `corpus/01-explicitly-taught/` and
+**zero** from `y1/`. So a citation naming a Kasr `src_…` fails as *"not a source the corpus
+contains"* — for a file that is real and checksummed. That blocks the whole
+`resource → claim → citation → concept` chain, and `atomic_claim_ids` is must-carry-a-value
+with no `field_notes` escape. Fixed by `scripts/kasr/build-source-index.ts`.
+
+### `pdftotext` output can look complete while subparts sit below the fold
+
+A case question printed with four lettered subparts under one total can extract as a
+single clean-looking prompt. 101 flattened two cases this way and recorded one concept
+that was simply wrong — a case asking for the boundaries, contents, floor and roof of the
+anatomical snuff box was logged as being about scaphoid fracture. A plausible clinical
+inference; not the question. **If a paper has cases, read past the answer rules.** Keeping
+`original_wording` and a page number on every item is the only reason it was catchable.
+
+### Check the orientation sheet's arithmetic
+
+101's declares Module 101 at 60 marks and describes 8 SAQ at 6 and 7 marks "total 54";
+four sixes and four sevens are 52, and the paper's printed marks total 58. Recorded, not
+resolved — which figure is wrong is the department's call. Any lane holding an orientation
+sheet should check its arithmetic rather than trusting the declared total.
+
+### Author to the manual's floor, not to 101's shape
+
+`101-ISK-concepts.md` scores `fieldsUsed: 23` against the concepts manual's floor of **50
+of 52** — it passes `medical:batch` and would fail `medical:audit`. Five lanes copying it
+verbatim would put five modules under the audit bar at once.
+
+Copy the **field semantics** from `emit.ts` + `seeds/types.ts` — a field's meaning fixed
+exactly once, so `exam_relevance` means the same thing in every module. Do **not** copy
+101's current field coverage. Those are separable and only the first should propagate.
+
+### Pathology is a topic, not a subject
+
+`curriculumCatalog.ts` carries **20** subjects, not the manuals' eight. `pharm` is among
+them; pathology is not, and that is deliberate — pathology is modelled as a topic *within*
+each body system (`Cardiovascular pathology`, `Respiratory pathology`, `Renal pathology`,
+and so on already ship). A pathology concept files under the body system it affects. The
+body-system code list has no `PAT` either. **Do not mint a subject or a system code for
+it** — that would move the tree every lane places into.
+
+### Filter on university, not just module
+
+`108 II` and `108 III` are `PAT 108 I/II/III` from **MTI University**, sitting elsewhere in
+the corpus tree — they are not `kau` modules. Filter on `moduleId` **and**
+`universityId == "kau"`.
