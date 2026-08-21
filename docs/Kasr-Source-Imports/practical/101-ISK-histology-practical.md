@@ -719,10 +719,10 @@ Identify a primary lysosome on an electron micrograph and say what makes it prim
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## lab_questions
 ### Primary or secondary
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Moderate
 Q: A membrane-bound body of uniform, moderate electron density lies near the Golgi. Is it a primary or a secondary lysosome, and why?
 *= Primary — its contents are homogeneous, so it has not yet fused with anything
@@ -735,7 +735,7 @@ Why: Why: size is a tendency, not the criterion; a small heterogeneous body is s
 Why: Why: chosen by students who half-remember that secondary lysosomes are vesicles; every lysosome is membrane-bound.
 Explanation: Homogeneous contents means nothing has been taken in yet.
 ### Where it came from
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Easy
 Q: Where in the cell is this body formed?
 *= Its enzymes are made in the rough ER and released from the Golgi apparatus as a vesicle
@@ -777,10 +777,10 @@ Identify a multivesicular body as a secondary lysosome and name what it has fuse
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## lab_questions
 ### The body containing small vesicles
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Hard
 Q: A membrane-bound body contains a cluster of small vesicles. Name it and say what it has fused with.
 *= A multivesicular body — a secondary lysosome that has fused with pinocytic vesicles
@@ -822,10 +822,10 @@ Identify a heterolysosome and say what distinguishes it from the cell's other se
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## lab_questions
 ### Contents of the arrowed body
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Hard
 Q: A large membrane-bound body holds material of mixed density that came from outside the cell. What is it?
 *= A heterolysosome — a phagolysosome, a secondary lysosome holding phagocytosed material
@@ -867,12 +867,12 @@ Identify an autolysosome by recognising a degenerating organelle inside it, and 
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
 ## main_concept
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## concept_ids
 CON-FND-E0B130AC5EC939
 ## lab_questions
 ### What is inside it
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Moderate
 Q: A membrane-bound body encloses a recognisable but degenerating mitochondrion. Name the body.
 *= An autolysosome
@@ -885,7 +885,7 @@ Why: Why: chosen because both hold internal membrane; a multivesicular body hold
 Why: Why: an honest reading of the picture by a student who has not met autophagy; the extra membrane belongs to the lysosome, not to the mitochondrion.
 Explanation: An organelle of the cell's own inside a lysosome is autophagy.
 ### What is left afterwards
-Concept: CON-FND-42CCE864C55A08
+Concept: CON-FND-9D325B98FC59A0
 Difficulty: Moderate
 Q: Digestion inside such a body is often incomplete. What is the undigested remnant called, and what happens to it in a long-lived cell?
 *= A residual body; in nerve and cardiac muscle cells it accumulates over years as lipofuscin
@@ -1609,3 +1609,663 @@ Notes: Fulfils the existing request "### image · Euchromatic nucleus (EM)" in d
 DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 29; question plate p. 67 with model answer p. 68.
 DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 24, model answer p. 25.
 Slide catalogue: scripts/kasr/extract/practical.json.
+
+---
+# Item
+## title
+Blood film: survey of the elements
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Easy
+## learning_objective
+State that a slide is a blood film and name Leishman's as the stain before identifying any cell in it.
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+101 ISK > Histology > Blood > Granular leukocytes
+101 ISK > Histology > Blood > Blood Platelets
+## main_concept
+CON-HEM-1935D59A1D2839
+## concept_ids
+CON-HEM-4F5347CC3664E0
+## lab_questions
+### The preparation and its stain
+Concept: CON-HEM-1935D59A1D2839
+Difficulty: Easy
+Q: Every question in this block opens the same way. What is this preparation and what stained it?
+*= A blood film, stained with Leishman's stain
+Why: Why: the department's own stem is "This is a ..., stained with ...", and Leishman's is the neutral stain it names.
+* A blood film, stained with H&E
+Why: Why: the default answer for any slide; H&E is a tissue stain and gives none of the granule colours the differential count depends on.
+* A bone marrow smear, stained with Leishman's stain
+Why: Why: the right stain on the wrong preparation; marrow is crowded with developing cells and fat cells, while a film is a monolayer dominated by red cells.
+* A blood film, stained with cresyl blue
+Why: Why: the reticulocyte plate later in the block, where the stain is supravital and shows a reticulum; here the film is fixed and dried.
+Explanation: The preparation and the stain carry marks of their own before any cell is named.
+### What makes up the background
+Concept: CON-HEM-1935D59A1D2839
+Difficulty: Easy
+Q: Which element makes up nearly all of the field?
+*= Erythrocytes — non-nucleated acidophilic discs with a central pallor
+Why: Why: red cells outnumber every other element by orders of magnitude, which is why leucocytes are described as occasional.
+* Platelets
+Why: Why: chosen because platelets are numerous too; they are fragments a fraction of the size and are scattered, not confluent.
+* Neutrophils
+Why: Why: picked because the neutrophil is the commonest leucocyte at 60-70 per cent; that percentage is of white cells only.
+* Plasma proteins
+Why: Why: an honest answer about blood as a tissue; plasma is washed away in making the film and leaves no structure.
+Explanation: Reading the background as red cells is what makes the occasional leucocyte findable.
+## media_needed
+### image · Blood film - survey field of all elements
+Brief: Leishman-stained blood film at a magnification showing erythrocytes, at least two leucocyte types and platelets in one field.
+Purpose: The item asks the student to read a whole field before naming a cell; that is only possible with the field.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Blood film - survey field of all elements" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 83; question plate p. 90 with model answer p. 91.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 57, model answer p. 58.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 2 and 3.
+---
+# Item
+## title
+Neutrophil on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+Identify a neutrophil in a blood film and give the nuclear and granule characters that separate it from the other granulocytes.
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## main_concept
+CON-HEM-5724364F46CD5A
+## lab_questions
+### The cell at the red arrow
+Concept: CON-HEM-5724364F46CD5A
+Difficulty: Moderate
+Q: The red arrow marks a leucocyte with a dark nucleus of four segments joined by thin chromatin threads and fine granules that take neither dye strongly. Name it and give its character.
+*= A neutrophil — a segmented nucleus of two to five lobes and fine pale granules
+Why: Why: the department's answer page gives the segmented multilobed nucleus as the character, and the handout adds that the granules take neither dye.
+* An eosinophil — a bilobed nucleus and coarse acidophilic granules
+Why: Why: the commonest confusion in this block; a young neutrophil can look bilobed, so the granules and not the lobe count are what settle it.
+* A basophil — an S-shaped nucleus masked by large granules
+Why: Why: chosen when the granules are read as prominent; in a basophil the granules obscure the nucleus, and here the nucleus is the clearest thing in the cell.
+* A monocyte — a kidney-shaped nucleus
+Why: Why: picked because both nuclei are indented; a monocyte's nucleus is one large pale kidney, not several dark segments on threads.
+Explanation: Lobes on threads plus granules that stain weakly: the polymorphonuclear leucocyte.
+### Its share of the differential count
+Concept: CON-HEM-5724364F46CD5A
+Difficulty: Moderate
+Q: What proportion of the leucocytes on a normal film is this cell?
+*= 60 to 70 per cent — the commonest leucocyte
+Why: Why: the handout's figure, and the reason a student who finds a leucocyte at random should think of this one first.
+* 20 to 30 per cent
+Why: Why: the lymphocyte's share, and the second commonest; students who remember two numbers often attach them to the wrong cells.
+* 1 to 4 per cent
+Why: Why: the eosinophil's share, offered by students who have learned the rare cells' numbers better than the common one's.
+* 0 to 1 per cent
+Why: Why: the basophil's share — the rarest leucocyte, which is the opposite end of the same list.
+Explanation: The differential count is part of the identification for this faculty, not a separate fact.
+## media_needed
+### image · Neutrophil
+Brief: Leishman-stained blood film with a neutrophil showing a segmented multilobed nucleus and fine pale cytoplasmic granules, red cells for scale.
+Purpose: The nuclear form and the granule staining are both visual judgements the item depends on.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Neutrophil" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 77 (labels recovered at 400 dpi); question plate p. 90 with model answer p. 91.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 57, model answer p. 58.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) p. 7.
+---
+# Item
+## title
+Barr body on a neutrophil
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Hard
+## learning_objective
+Identify a Barr body on a marked neutrophil and say what it represents and in whom it is found.
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## main_concept
+CON-HEM-DD758E69648658
+## concept_ids
+CON-HEM-5724364F46CD5A
+## lab_questions
+### The appendage at the green arrow
+Concept: CON-HEM-DD758E69648658
+Difficulty: Hard
+Q: The green arrow marks a small drumstick hanging from one segment of a neutrophil's nucleus by a thin thread. What is it?
+*= A Barr body — the condensed inactive X chromosome, in 3 to 6 per cent of a female's neutrophils
+Why: Why: the handout gives the drumstick appendage, the percentage and the sex, and the plate marks it separately from the lobes.
+* An extra nuclear lobe
+Why: Why: the commonest error, and the reason the plate arrows the ordinary lobes as well; a lobe is the size of the others, a drumstick is far smaller.
+* A nucleolus
+Why: Why: chosen by students carrying nucleoli over from the cytology plates; a mature neutrophil's nucleus is condensed and shows none.
+* A phagocytosed bacterium
+Why: Why: picked because neutrophils phagocytose; ingested material lies in the cytoplasm, not attached to the nucleus by a chromatin thread.
+Explanation: Size and attachment separate the drumstick from a lobe.
+### The other structure on the plate
+Concept: CON-HEM-9A7C4752AA21E3
+Difficulty: Easy
+Q: The yellow arrow on the same plate marks small non-nucleated fragments between the red cells. What are they?
+*= Platelets
+Why: Why: small non-nucleated cytoplasmic fragments of 2 to 4 micrometres, often in small clumps, are platelets.
+* Fragmented red cells
+Why: Why: a reasonable reading of any small fragment; red cell fragments are acidophilic and lack the granulomere platelets show.
+* Bacteria
+Why: Why: chosen by students who expect infection wherever neutrophils are; bacteria are not a normal finding on a teaching film.
+* Stain precipitate
+Why: Why: an honest artefact answer; precipitate is irregular and lies over cells as well as between them, while platelets have a consistent size and structure.
+Explanation: The department marks several structures per plate, and each carries its own mark.
+## media_needed
+### image · Barr body on a neutrophil
+Brief: Leishman-stained blood film with a Barr body drumstick attached to a neutrophil's segmented nucleus, platelets in the same field.
+Purpose: The Barr body is identified by its size and attachment relative to the nuclear lobes; only the image gives that comparison.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Barr body on a neutrophil" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 78; question plate p. 92 with model answer p. 93.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) p. 7.
+---
+# Item
+## title
+Eosinophil on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+Identify an eosinophil in a blood film by its granules and its nuclear shape, and separate it from a neutrophil.
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## main_concept
+CON-HEM-5724364F46CD5A
+## lab_questions
+### The cell at the blue arrow
+Concept: CON-HEM-5724364F46CD5A
+Difficulty: Moderate
+Q: The blue arrow marks a leucocyte packed with large refractile granules that stain deeply with eosin, above a nucleus of two lobes joined by a thick band. Name it and give both characters.
+*= An eosinophil — coarse acidophilic granules and a bilobed, horse-shoe nucleus
+Why: Why: the answer page asks for the granule character and the nuclear shape together, and these are the words it uses.
+* A neutrophil — fine pale granules and a nucleus of two to five lobes
+Why: Why: the pair this plate exists to separate; the lobe count overlaps at two, so the granules decide it.
+* A basophil — large granules that mask the nucleus
+Why: Why: chosen because both have coarse granules; the basophil's are basophilic and hide the nucleus, while these are acidophilic and the nucleus stays visible.
+* A monocyte — abundant frosted-glass cytoplasm
+Why: Why: picked when the granularity is read as texture rather than as discrete granules; a monocyte has no specific granules at all.
+Explanation: Granules first, nucleus second — the department asks for both on this plate.
+### The cell's share and its work
+Concept: CON-HEM-5724364F46CD5A
+Difficulty: Moderate
+Q: What is this cell's share of the differential count?
+*= 1 to 4 per cent
+Why: Why: the handout's figure, with eosinophilia defined above 5 per cent in allergy and parasitic disease.
+* 0 to 1 per cent
+Why: Why: the basophil's share; the two rare granulocytes are the ones students most often swap.
+* 60 to 70 per cent
+Why: Why: the neutrophil's share, given by students who attach the biggest number to whichever granulocyte is in front of them.
+* 20 to 30 per cent
+Why: Why: the lymphocyte's share, which belongs to the non-granular block.
+Explanation: Count, nuclear shape and granule staining are the three variables this faculty compares granulocytes on.
+## media_needed
+### image · Eosinophil
+Brief: Leishman-stained blood film with an eosinophil showing coarse refractile acidophilic granules and a bilobed nucleus.
+Purpose: Granule size and colour and the nuclear outline are all judged from the slide.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Eosinophil" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 79 (labels recovered at 300 dpi); question plate p. 94 with model answer p. 95.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 59, model answer p. 60.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 7 and 9.
+---
+# Item
+## title
+Basophil on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Hard
+## learning_objective
+Identify a basophil in a blood film, give the character of its granules, and separate it from a mast cell.
+## module_subject
+101 ISK > Histology > Blood > Granular leukocytes
+## main_concept
+CON-HEM-1F7D2D1717F91A
+## concept_ids
+CON-FND-EE10AFCE944705
+## lab_questions
+### The cell at the red arrow
+Concept: CON-HEM-1F7D2D1717F91A
+Difficulty: Moderate
+Q: The red arrow marks a leucocyte whose cytoplasm is crowded with large basophilic granules; the nucleus can barely be made out beneath them. Name the cell and describe its nucleus.
+*= A basophil — an irregular segmented S-shaped nucleus, masked by the granules
+Why: Why: the answer page gives both the granule character and the masking, and the handout adds the S shape.
+* A neutrophil — a clearly segmented nucleus
+Why: Why: chosen when the granules are discounted; the whole point of this plate is that in a basophil the granules win and the nucleus is hard to read.
+* A monocyte — a pale kidney-shaped nucleus
+Why: Why: picked because the nucleus is indistinct in both; a monocyte's nucleus is pale but perfectly visible, and it has no coarse granules.
+* A lymphocyte with azurophilic granules
+Why: Why: a knowledgeable answer, since small lymphocytes do carry a few azurophilic granules; those are sparse and never obscure the nucleus.
+Explanation: Granules that hide the nucleus are the identification, and the S shape is what is hidden.
+### Basophil or mast cell
+Concept: CON-HEM-1F7D2D1717F91A
+Also: CON-FND-EE10AFCE944705
+Difficulty: Hard
+Q: Both this cell and the mast cell carry coarse metachromatic granules. What settles which one you are looking at?
+*= Where it is: the basophil is a cell of the blood film, the mast cell a cell of connective tissue
+Why: Why: the two share their granule chemistry — heparin and histamine — so the preparation, not the granules, decides.
+* The colour of the granules with toluidine blue
+Why: Why: the tempting answer, because metachromasia is so distinctive; both are metachromatic purple, which is exactly why it cannot separate them.
+* Whether the cell has a nucleus
+Why: Why: chosen by students reaching for any binary; both are true cells with nuclei.
+* The size of the cell
+Why: Why: mast cells are generally larger, so this feels usable; size overlaps and is not what the department asks for.
+Explanation: A basophil found outside a blood film is a mast cell misnamed.
+## media_needed
+### image · Basophil
+Brief: Leishman-stained blood film with a basophil whose large basophilic granules obscure the segmented nucleus.
+Purpose: The identification is that the granules hide the nucleus — a relationship only the image shows.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Basophil" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 80 (heading recovered at 400 dpi); question plates pp. 96, 98 and 106 with model answers pp. 97, 99 and 107.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 63, model answer p. 64.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) p. 7 and Connective tissue handout (src_d56198df979fc164f6c6) p. 6.
+---
+# Item
+## title
+Lymphocyte on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+Identify a lymphocyte in a blood film by its nucleus and the amount of cytoplasm around it.
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## main_concept
+CON-HEM-29CA381FD3707B
+## lab_questions
+### The cell at the red arrow
+Concept: CON-HEM-29CA381FD3707B
+Difficulty: Moderate
+Q: The red arrow marks a small leucocyte whose dark nucleus almost fills it, leaving a thin rim of pale basophilic cytoplasm. Name it and give both characters.
+*= A small lymphocyte — a dark heterochromatic nucleus filling the cell, with a thin rim of cytoplasm
+Why: Why: these are the answer page's two characters, and the handout adds that the nucleus is heterochromatic because the cell is inactive.
+* A monocyte — a pale kidney-shaped nucleus and abundant frosted-glass cytoplasm
+Why: Why: the pair the department prints together on the monocyte plate; both are non-granular, so the nucleus and the amount of cytoplasm decide.
+* A neutrophil whose lobes overlap in this plane
+Why: Why: a careful answer about sectioning, but a film is a monolayer of whole cells, and a neutrophil's chromatin threads remain visible.
+* A nucleated red cell
+Why: Why: chosen by students who read a dark round nucleus in a red-cell background; nucleated red cells are not a normal finding on a film.
+Explanation: Nucleus filling the cell plus a rim of cytoplasm: the small lymphocyte.
+### Large lymphocyte or monocyte
+Concept: CON-HEM-29CA381FD3707B
+Difficulty: Hard
+Q: A larger cell nearby has a pale indented nucleus and plenty of cytoplasm. What tells a large lymphocyte from a monocyte?
+*= The cytoplasm: deeply basophilic in the large lymphocyte, frosted-glass in the monocyte
+Why: Why: the handout describes the large lymphocyte's cytoplasm as abundant and deeply basophilic, and the monocyte's as pale with a frosted-glass texture from its azurophilic granules.
+* The presence of an indented nucleus
+Why: Why: the feature that makes the two hard to separate — both have one, which is why the cytoplasm has to decide.
+* The size of the cell
+Why: Why: monocytes are the largest leucocytes at 13 to 20 micrometres, so this nearly works; large lymphocytes overlap the bottom of that range.
+* Whether the cell has granules
+Why: Why: chosen because both are called non-granular; a large lymphocyte carries small azurophilic granules too, so absence is not the discriminator.
+Explanation: The department's own contrast is the cytoplasm, not the nucleus.
+## media_needed
+### image · Lymphocyte
+Brief: Leishman-stained blood film with a small lymphocyte showing a dark nucleus filling the cell and a narrow rim of cytoplasm.
+Purpose: The ratio of nucleus to cytoplasm is the answer and is only judged by eye.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Lymphocyte" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 81; question plates pp. 100 and 102 with model answers pp. 101 and 103.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 10 and 11.
+
+---
+# Item
+## title
+Monocyte on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+Identify a monocyte in a blood film by its kidney-shaped nucleus and its frosted-glass cytoplasm.
+## module_subject
+101 ISK > Histology > Blood > Non granular leukocytes
+## main_concept
+CON-HEM-29CA381FD3707B
+## lab_questions
+### The cell at the blue arrow
+Concept: CON-HEM-29CA381FD3707B
+Difficulty: Easy
+Q: The blue arrow marks the largest leucocyte in the field. Its nucleus is large, pale and indented, and its cytoplasm has a frosted-glass look. Name it and give both characters.
+*= A monocyte — a kidney-shaped nucleus and frosted-glass cytoplasm
+Why: Why: the stem asks for the nuclear shape and the cytoplasmic appearance, and these are the answer page's words for them.
+* A lymphocyte — a dark nucleus filling the cell
+Why: Why: the cell the same plate marks with the red arrow; the two are the block's non-granular pair.
+* A neutrophil — a segmented nucleus
+Why: Why: chosen because both nuclei are indented; a neutrophil's is dark and cut into separate lobes joined by threads.
+* A megakaryocyte — a very large multilobed nucleus
+Why: Why: picked because size is mentioned; a megakaryocyte is 50 to 70 micrometres and belongs to marrow, not to a film.
+Explanation: Largest leucocyte, pale kidney nucleus, frosted glass — the three together.
+### What it becomes
+Concept: CON-HEM-29CA381FD3707B
+Difficulty: Moderate
+Q: This cell spends about three days in the blood. What does it become when it leaves?
+*= A macrophage in the connective tissue
+Why: Why: the handout traces the monocyte into the tissues where it becomes the macrophage, and names Kupffer cells, dust cells, osteoclasts and microglia as its forms.
+* A plasma cell
+Why: Why: chosen because plasma cells are also tissue cells that arise from blood; they come from B lymphocytes, not monocytes.
+* A mast cell
+Why: Why: picked because mast cells sit in connective tissue too; they are not derived from a circulating monocyte.
+* A fibroblast
+Why: Why: the commonest connective-tissue cell, and so a natural guess; fibroblasts arise from mesenchyme, not from blood.
+Explanation: Monocyte in blood, macrophage in tissue, and the two names on the two plates are the same lineage.
+## media_needed
+### image · Monocyte
+Brief: Leishman-stained blood film with a monocyte showing a large pale eccentric kidney-shaped nucleus and abundant frosted-glass cytoplasm, a lymphocyte nearby for contrast.
+Purpose: Both characters are visual and the item turns on comparing this cell with the lymphocyte in the same field.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Monocyte" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 82; question plate p. 104 with model answer p. 105.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 61, model answer p. 62.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) p. 10.
+---
+# Item
+## title
+Platelets on a blood film
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Easy
+## learning_objective
+Identify platelets in a blood film and give the character that separates them from a small leucocyte.
+## module_subject
+101 ISK > Histology > Blood > Blood Platelets
+## main_concept
+CON-HEM-9A7C4752AA21E3
+## contextual_concept_ids
+CON-HEM-CC292B4D6CC61E
+## lab_questions
+### The fragments the arrow marks
+Concept: CON-HEM-9A7C4752AA21E3
+Difficulty: Easy
+Q: In field A the arrow marks a small clump of bodies far smaller than any red cell, with no nucleus. What are they?
+*= Platelets
+Why: Why: small oval non-nucleated fragments of 2 to 4 micrometres, often clumped, are platelets; the handout is explicit that they are fragments and not true cells.
+* Small lymphocytes
+Why: Why: the cell in the boxed area of field B on the very same plate; a lymphocyte is a whole cell with a nucleus and is larger than a red cell's central pallor.
+* Crenated red cells
+Why: Why: chosen because both are irregular; a crenated red cell is a whole red cell with notches, the same size as its neighbours.
+* Reticulocytes
+Why: Why: picked by students who expect an immature form; a reticulocyte is red-cell sized and is only visible as such in a supravital preparation.
+Explanation: The absence of a nucleus is the point: a platelet is a fragment of megakaryocyte cytoplasm.
+### Its two zones
+Concept: CON-HEM-9A7C4752AA21E3
+Difficulty: Moderate
+Q: At higher power the department divides each of these fragments into two zones. Name them.
+*= A peripheral pale hyalomere and a central granular granulomere
+Why: Why: the handout names exactly these two, and it is the division the platelet article is built on.
+* A pale cortex and a dense medulla
+Why: Why: organ vocabulary applied to a cell fragment; the department uses hyalomere and granulomere and marks for those words.
+* A nucleus and a cytoplasm
+Why: Why: chosen by students who cannot accept a cell without a nucleus; the platelet has none, which is the previous question's answer.
+* A hyalomere containing the granules and a clear granulomere
+Why: Why: the two names swapped, which is the mistake the granule-bearing half's name is designed to prevent.
+Explanation: Granules in the granulomere; the machinery that acts on them is in the hyalomere.
+## media_needed
+### image · Platelets
+Brief: Leishman-stained blood film with a clump of platelets between the red cells, at magnification enough to suggest the hyalomere and granulomere.
+Purpose: Size relative to the red cells and the absence of a nucleus are both judged from the field.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Platelets" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plate p. 84; question plate p. 102 with model answer p. 103.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 57, model answer p. 58.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 5 and 6.
+---
+# Item
+## title
+Erythrocytes (LM and EM)
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Easy
+## learning_objective
+Identify an erythrocyte by its central pallor and absence of a nucleus, and tell a normal cell from a crenated one.
+## module_subject
+101 ISK > Histology > Blood > Red Blood Corpuscles
+## main_concept
+CON-HEM-4F5347CC3664E0
+## lab_questions
+### The cell at the green arrow
+Concept: CON-HEM-4F5347CC3664E0
+Difficulty: Easy
+Q: The green arrow marks a rounded acidophilic cell about 7.5 micrometres across with a pale centre. Name it and give the character the stem asks for.
+*= An erythrocyte — non-nucleated, with a central pallor about a third of its diameter
+Why: Why: the answer page names the central pallor, and the handout gives the fraction and the reason: biconcavity.
+* An erythrocyte with a vacuole in its centre
+Why: Why: an honest reading of a pale circle as a hole; the pallor is thinning of a biconcave disc, not a defect.
+* A reticulocyte, its reticulum showing as the pale centre
+Why: Why: chosen by students who know a young red cell exists; the reticulum needs a supravital stain and appears as a network, not a round pale zone.
+* A lymphocyte, its nucleus unstained in this plane
+Why: Why: picked when the pallor is read as a nucleus; a red cell has no nucleus at all, which is the character being asked for.
+Explanation: No nucleus, acidophilic, central pallor: the three the department accepts.
+### The cell at the blue arrow
+Concept: CON-HEM-4F5347CC3664E0
+Difficulty: Moderate
+Q: The blue arrow marks a red cell of the same size whose edge is notched and shrunken. What is it, and what produced it?
+*= A crenated red cell — shrunken in a hypertonic medium
+Why: Why: the handout describes shrinkage with notches in hypertonic solution, and the plate marks it beside a normal cell for the contrast.
+* A ghost cell, left after haemolysis
+Why: Why: a real thing from the same paragraph, but a ghost is the empty membrane left after a cell has burst in a hypotonic medium — the opposite process.
+* A sickle cell
+Why: Why: chosen because both are abnormal shapes; a sickle cell is crescentic from rigid HbS and is a disease, not a preparation effect.
+* A microcyte
+Why: Why: picked by students recalling the size abnormalities; a microcyte is under 6 micrometres and keeps a smooth outline.
+Explanation: Crenation is what the medium did to the cell, which is why the plate shows both.
+## media_needed
+### image · Erythrocytes - LM and EM
+Brief: Paired light micrograph and electron micrograph of erythrocytes, the light image showing the central pallor and at least one crenated cell.
+Purpose: The comparison between a normal and a crenated cell in one field is the whole of the second question.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Erythrocytes - LM and EM" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plates pp. 75 and 76; question plate p. 90 with model answer p. 91.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 57, model answer p. 58.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 3 and 4.
+---
+# Item
+## title
+Reticulocyte (supravital preparation)
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+State that a slide is a supravital preparation, name cresyl blue and say that it is supravital, and identify the marked reticulocyte.
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## main_concept
+CON-HEM-C020FBF779203C
+## lab_questions
+### The preparation, the stain and its kind
+Concept: CON-HEM-C020FBF779203C
+Difficulty: Moderate
+Q: The department's stem reads: this is a ... stained with ... which is a ... stain. Complete all three.
+*= A blood film, stained with cresyl blue, which is a supravital stain
+Why: Why: all three blanks are marked, and the answer page names cresyl blue and the word supravital.
+* A blood film, stained with Leishman's, which is a neutral stain
+Why: Why: correct for every other plate in the block, which is why students answer it here from habit; Leishman's shows no reticulum.
+* A bone marrow smear, stained with cresyl blue, which is a vital stain
+Why: Why: the stain is right and the words nearly are; vital staining is of living cells in the body, supravital of living cells removed from it, and the preparation is a film.
+* A blood film, stained with silver, which is a special stain
+Why: Why: silver belongs to the Golgi and reticular-fibre plates; the word reticular is what draws students to it here.
+Explanation: Three blanks, three marks, and the word supravital is the one this plate exists to teach.
+### What the network is
+Concept: CON-HEM-C020FBF779203C
+Difficulty: Moderate
+Q: What has the stain precipitated into the visible network inside the marked cell?
+*= Remnants of ribosomes and polysomes left in the young red cell
+Why: Why: the handout states that the reticulocyte is acidophilic but retains ribosomal remnants which the supravital stain reveals.
+* Reticular fibres of type III collagen
+Why: Why: the name pulls students to the connective-tissue block; those fibres are extracellular and could not lie inside a red cell.
+* Precipitated haemoglobin
+Why: Why: a reasonable guess, since haemoglobin is what the cell is full of; haemoglobin is what makes the cell acidophilic and is not what the network is made of.
+* The remains of the extruded nucleus
+Why: Why: chosen because the cell has recently lost its nucleus; what remains is cytoplasmic RNA, not nuclear material.
+Explanation: Ribosomal remnants, visible only while the cell is alive — which is why the stain must be supravital.
+## media_needed
+### image · Reticulocyte (supravital preparation)
+Brief: Supravital cresyl blue preparation of a blood film with at least one reticulocyte showing its blue reticulum among ordinary red cells.
+Purpose: The reticulum is the identification and it exists only in this preparation.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Reticulocyte (supravital preparation)" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), question plate p. 114 with model answer p. 115.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 67, model answer p. 68.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) p. 15.
+---
+# Item
+## title
+Bone marrow: megakaryocytes and fat cells
+## subject
+haem
+## type
+Lab interpretation
+## lab_subtype
+Lab
+## difficulty
+Moderate
+## learning_objective
+Identify a section as bone marrow and name the megakaryocyte and the fat cells when each is arrowed.
+## module_subject
+101 ISK > Histology > Blood > Haemopoiesis
+## main_concept
+CON-HEM-CF325DABA0EA62
+## lab_questions
+### Identify the tissue
+Concept: CON-HEM-CF325DABA0EA62
+Difficulty: Easy
+Q: The stem asks first: identify the tissue. The field is crowded with developing blood cells among large empty-looking cells, with wide irregular sinusoids running through it.
+*= Bone marrow
+Why: Why: developing blood cells, fat cells and blood sinusoids together are the marrow, and the department asks for the tissue before any cell in it.
+* Loose areolar connective tissue
+Why: Why: chosen because both are loose and cellular; areolar tissue is built around collagen and elastic fibres, which the marrow field does not show.
+* Adipose tissue
+Why: Why: a fair reading of the large empty cells; in adipose tissue the fat cells predominate, while here they are scattered among haemopoietic cells.
+* A blood film
+Why: Why: picked because the cells are blood cells; a film is a monolayer of mature cells with no stroma and no sinusoids.
+Explanation: The tissue first, then the cells — the stem is in that order for every marrow plate.
+### Blue arrow and red arrows
+Concept: CON-HEM-CF325DABA0EA62
+Difficulty: Moderate
+Q: The blue arrow marks a very large cell with one big multilobed dark nucleus; the red arrows mark large cells whose contents have dissolved. Name each.
+*= A megakaryocyte (blue) and fat cells (red)
+Why: Why: these are the two the department marks on its marrow plates, and the megakaryocyte's single multilobed nucleus is what names it.
+* An osteoclast (blue) and fat cells (red)
+Why: Why: a knowledgeable answer, since osteoclasts are also very large; an osteoclast is multinucleated with separate nuclei, while the megakaryocyte has one nucleus in lobes.
+* A multinucleated giant cell (blue) and vacuolated macrophages (red)
+Why: Why: chosen by students reading every large cell as a fusion product; giant cells are a reaction to foreign material, not a normal marrow constituent.
+* A megakaryocyte (blue) and blood sinusoids (red)
+Why: Why: sinusoids are genuinely present and also look empty, which makes this the most defensible of the wrong answers; the red arrows are on cells with a rim of cytoplasm, not on vessel lumina.
+Explanation: One nucleus in lobes is the megakaryocyte. Separate nuclei would make it something else.
+## media_needed
+### image · Bone marrow - megakaryocytes and fat cells
+Brief: Section of bone marrow with at least one megakaryocyte and several fat cells among the developing blood cells, sinusoids visible.
+Purpose: Identifying the tissue and then two cells within it is entirely a matter of reading the field.
+Priority: required
+Status: needed
+Kind: histology
+Section: station
+Notes: Fulfils the existing request "### image · Bone marrow - megakaryocytes and fat cells" in docs/Kasr-Source-Imports/media-requests/practical-media-requests.md. No image exists in the repository.
+## references
+DPT Practical Histo 101 (src_b4cb8bf9f0c7a6584b4b), teaching plates pp. 86 and 87; question plates pp. 108, 110 and 112 with model answers pp. 109, 111 and 113.
+DPT 1- ISK 101 - Final Revision (src_05a0b0c29acc94017b8f) p. 65, model answer p. 66.
+Slide catalogue: scripts/kasr/extract/practical.json.
+Terminology: Prof. Dalia El Marakby, Blood handout (src_450c71dc6273b2e64ca3) pp. 13 and 15.

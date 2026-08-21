@@ -102,7 +102,7 @@ function written(paper: Paper) {
 Kasr Al Ainy, module 101 ISK, ${paper.source.tier.replace(/_/g, ' ')} ${paper.source.sittingYear}.
 Manifest ID ${paper.source.id}. ${byNumber.size} questions, ${total} marks: ${bySection}.
 
-Transcribed, not derived — \`derived_from\` is blank throughout. The rule that a
+${paper.source.notCaptured ? `NOT the whole paper: ${paper.source.notCaptured}\n\n` : ''}Transcribed, not derived — \`derived_from\` is blank throughout. The rule that a
 written question may only be derived from another written question governs the
 practice variants that come later, not these.
 

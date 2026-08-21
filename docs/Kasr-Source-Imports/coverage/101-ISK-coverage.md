@@ -21,13 +21,14 @@ looks exactly like a file with nothing in it.
 
 | Batch | Items |
 | --- | --- |
-| `concept/101-ISK-concepts.md` | 17 |
+| `concept/101-ISK-concepts.md` | 30 |
 | `concept/101-ISK-mcq-concepts.md` | 3 |
 | `concept/101-ISK-practical-concepts.md` | 43 |
 | `question/101-ISK-mcq.md` | 11 |
 | `article/101-ISK-anatomy.md` | 9 |
 | `article/101-ISK-histology.md` | 6 |
-| `practical/101-ISK-histology-practical.md` | 27 |
+| `practical/101-ISK-histology-practical.md` | 38 |
+| `written/101-ISK-EOM-2024-written.md` | 16 |
 | `written/101-ISK-EOY-2025-written.md` | 16 |
 
 ## Read short

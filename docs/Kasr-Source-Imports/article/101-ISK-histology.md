@@ -567,7 +567,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.
@@ -648,7 +648,7 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn, following the department book's page 15 figure, redrawn rather than reproduced
 Rights: newly drawn for this product, or CC-BY
-Notes: Serves concept CON-FND-42CCE864C55A08, lysosome types on electron microscopy.
+Notes: Serves concept CON-FND-9D325B98FC59A0, lysosome types on electron microscopy.
 ### histology · Transmission electron micrograph of a macrophage or a hepatocyte showing a homogeneous primary lysosome and a heterogeneous secondary lysosome in the same field
 Purpose: The whole examinable distinction is a difference in EM texture, homogeneous against heterogeneous. That is a judgement of appearance and cannot be learnt from a clean line drawing where every profile is deliberately tidy.
 Priority: required
@@ -684,7 +684,7 @@ Rights: newly drawn for this product
 ## conflicts
 [clear]
 ## evidence_gaps
-The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-42CCE864C55A08 is therefore unsupported by this source and is not stated in this article.
+The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-9D325B98FC59A0 is therefore unsupported by this source and is not stated in this article.
 The book gives no size in nanometres for a primary or a secondary lysosome, so the article describes them as small and larger rather than giving a figure.
 The book does not state the pH at which the lysosomal hydrolases work, nor name the proton pump that maintains it.
 The Golgi apparatus section of the book carries a "Functions" heading whose content sits entirely inside an unextractable figure, so the Golgi's functions are not available as text from this source and are not listed here.
@@ -698,7 +698,7 @@ questionIds: Questions for this article are authored in the question pass that f
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
 microtopic: No microtopic level exists beneath this node.
 nanotopic: No nanotopic level exists beneath this node.
-secondaryNodeIds: Concept CON-FND-42CCE864C55A08 carries no secondary placement, and none is invented here.
+secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 ## notes
 The Key determinants section draws the neutrophil azurophil granule and the basophil specific granule into the density trap. Both are the same book's own statements, from the granular leucocyte chapter, and the cross-reference is deliberate: it is where students actually meet a dense granule that is and is not a lysosome.

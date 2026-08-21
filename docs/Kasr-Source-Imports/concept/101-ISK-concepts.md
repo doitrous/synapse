@@ -4,8 +4,8 @@
     EOY (ISK - 101) 199 (1).pdf — end of year 2025, 17 questions
     EOY BAQOON 197 101 FINAL - BAKOON 2024 الدور الثالث  (1).pdf — resit 2024, 16 questions
 
-  33 concepts from 33 questions.
-  4 of them were asked on more than one paper, and carry an exam_signal
+  30 concepts from 33 questions.
+  6 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -297,15 +297,15 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate
 ## id
-CON-FND-42CCE864C55A08
+CON-FND-9D325B98FC59A0
 ## canonical_key
-lysosome-types-electron-microscopy
+lysosome-types-secondary-fates
 ## definition
-A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.
+A primary lysosome is a newly released homogeneous, moderately electron-dense vesicle budded from the Golgi, whose acid hydrolases have not yet acted. Secondary lysosomes are heterogeneous and of three types, named by what the primary lysosome fused with: the heterolysosome, from a phagosome, digesting solid particles, viruses and bacteria; the multivesicular body, from a pinocytic vesicle, with fluid content; and the autolysosome, from an autophagic vesicle, holding a destroyed endogenous substance or a damaged organelle. A residual body is the end state, holding indigestible material.
 ## explicit_objective
-Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.
+Distinguish primary from secondary lysosomes on electron microscopy, and name the three secondary types by what the primary lysosome fused with.
 ## pitfalls
-Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.
+Naming the three secondary types and stopping. The department’s own model answer gives half a mark for the name and half for the mechanism of formation, so a list of three names scores half of what it could.
 ## concept_type
 structural_description
 ## status
@@ -326,13 +326,14 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p3 | 101 ISK
+src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
 src_cd60acf6ffe62830b01d | end_of_year | 2023 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.07
+0.10
 ## exam_weight_by_year
-KAU_Y1=0.07
+KAU_Y1=0.10
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -1129,15 +1130,15 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 The deep palmar arch is the radial artery’s termination, lying a finger’s breadth proximal to the superficial arch
 ## id
-CON-MSK-0F4A85CDF62557
+CON-MSK-BC95DAE3531583
 ## canonical_key
-deep-palmar-arch-site-formation-branches
+palmar-arterial-arches-site-formation-branches
 ## definition
-The deep palmar arch lies on the bases of the metacarpals deep to the long flexor tendons, about a finger’s breadth proximal to the superficial arch, at the level of the proximal border of the extended thumb. It is formed mainly by the terminal part of the radial artery, completed medially by the deep branch of the ulnar artery. It gives three palmar metacarpal arteries, perforating branches to the dorsal metacarpal arteries, and recurrent branches to the carpal arch.
+The superficial palmar arch lies immediately deep to the palmar aponeurosis but superficial to the flexor tendons, crossing the palm at the level of the midshaft of the metacarpals; it is mainly the ulnar artery, completed by the superficial palmar branch of the radial, and gives four palmar digital arteries. The deep palmar arch lies deep to the flexor tendons, immediately distal to the bases of the metacarpals and so proximal to the superficial arch; it is formed mainly by the radial artery, completed by the deep branch of the ulnar, and gives three palmar metacarpal arteries, three perforating branches passing dorsally, and recurrent branches to the anterior carpal arch.
 ## explicit_objective
-Give the site, formation and branches of the deep palmar arch, and say how its level differs from the superficial arch.
+Give the site, formation and branches of each palmar arch, and say how the two differ in level, in the artery that mainly forms them, and in what they supply.
 ## pitfalls
-Swapping the two arches. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal.
+Swapping the two. The superficial arch is mainly ulnar and lies distal; the deep arch is mainly radial and lies proximal. The faculty asks them as a comparison as often as singly, so knowing one is half an answer.
 ## concept_type
 structural_description
 ## status
@@ -1158,18 +1159,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p13 | 101 ISK
+src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.09
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.09
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1406,9 +1408,9 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ## label
 The anatomical snuff box is bounded by three tendons, floored by the scaphoid, and crossed by the radial artery
 ## id
-CON-MSK-0DC3FA5C012B3D
+CON-MSK-1424177E093253
 ## canonical_key
-anatomical-snuff-box-boundaries-contents-floor-roof
+anatomical-snuff-box-site-boundaries-contents
 ## definition
 The anatomical snuff box is a triangular hollow on the lateral wrist. Its anterior boundary is the tendons of abductor pollicis longus and extensor pollicis brevis; its posterior boundary is the tendon of extensor pollicis longus; its base is the styloid process of the radius. Its floor is the scaphoid and trapezium with the base of the first metacarpal and the styloid process of the radius, and its roof is skin and fascia crossed by the cephalic vein and the superficial branch of the radial nerve. Its contents are the radial artery and the beginning of the cephalic vein.
 ## explicit_objective
@@ -1435,18 +1437,19 @@ kau
 1
 ## exam_signal
 src_8cb257f4b6a6dcd730d0 | end_of_year | 2025 | p15 | 101 ISK
+src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.04
+0.06
 ## exam_weight_by_year
-KAU_Y1=0.04
+KAU_Y1=0.06
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic
@@ -1643,96 +1646,6 @@ direct_statement
 [Anatomy Q1, 5 marks] Boundaries and contents of intermuscular spaces
 ## conflicts
 
-## uncertainty
-
-## evidence_gaps
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
----
-
-# Item
-## label
-The superficial palmar arch is mainly ulnar and distal; the deep arch is mainly radial and proximal
-## id
-CON-MSK-BC95DAE3531583
-## canonical_key
-palmar-arterial-arches-site-formation-branches
-## definition
-The superficial palmar arch lies between the palmar aponeurosis and the flexor tendons, crossing at the midshaft of the metacarpals; it is formed mainly by the ulnar artery and completed by the superficial palmar branch of the radial artery, and gives three common palmar digital arteries and a palmar digital artery to the medial side of the little finger. The deep palmar arch lies deep to the flexor tendons, just distal to the bases of the metacarpals and about half an inch proximal to the superficial arch; it is formed mainly by the radial artery and completed by the deep palmar branch of the ulnar artery, and gives three palmar metacarpal arteries, three perforating branches to the dorsal metacarpal arteries, and recurrent branches to the anterior carpal arch.
-## explicit_objective
-Compare the superficial and deep palmar arches by site, formation and branches.
-## pitfalls
-Swapping which artery mainly forms which. The superficial arch is the ulnar artery completed by the radial; the deep arch is the radial completed by the ulnar — and the superficial one is the distal of the two.
-## concept_type
-structural_description
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-CVS-T01-S01
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Hand
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p1 | 101 ISK
-## weight_confidence
-0.7
-## blueprint_weight
-0.06
-## exam_weight_by_year
-KAU_Y1=0.06
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.75
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-Arterial arches of the hand
-## support_mode
-direct_statement
-## original_wording
-[Anatomy Q2, 5 marks] Superficial palmar arch and deep palmar arch compare (site, formation, branches)
-## conflicts
-This paper’s answer places the superficial arch half an inch distal to the deep arch; the department book (Hand) states one centimetre. Both are recorded; neither is corrected.
 ## uncertainty
 
 ## evidence_gaps
@@ -2578,96 +2491,6 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-The snuff box is floored by the scaphoid, so tenderness in it after a fall means a scaphoid fracture
-## id
-CON-MSK-1424177E093253
-## canonical_key
-anatomical-snuff-box-site-boundaries-contents
-## definition
-The anatomical snuff box is a triangular hollow at the lateral part of the back of the wrist, seen when the thumb is extended. It is bounded medially by the tendon of extensor pollicis longus and laterally by the tendons of abductor pollicis longus and extensor pollicis brevis. Its floor is the styloid process of the radius with the scaphoid proximally and the trapezium distally, crossed by the tendons of extensor carpi radialis longus and brevis. Its roof is skin and superficial fascia carrying the beginning of the cephalic vein and branches of the superficial radial nerve. It contains the radial artery, whose pulsation is felt there — and because the scaphoid floors it, tenderness in the box after a fall on the outstretched hand means a fractured scaphoid.
-## explicit_objective
-Give the diagnosis suggested by tenderness in the anatomical snuff box after a fall, and the boundaries, contents, floor and roof of the box.
-## pitfalls
-Reading a normal radiograph as excluding the fracture. The scaphoid is what floors the box and the fracture is often invisible at first; the tenderness is the finding that matters.
-## concept_type
-clinical_correlation
-## status
-under review
-## subject
-msk
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-## modules
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Hand
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p5 | 101 ISK
-## weight_confidence
-0.7
-## blueprint_weight
-0.06
-## exam_weight_by_year
-KAU_Y1=0.06
-## clinical_relevance
-0.8
-## academic_relevance
-0.9
-## confidence
-0.75
-## topic
-Anatomy
-## subtopic
-Upper Limb
-## aliases
-Anatomical snuffbox | Scaphoid fracture
-## support_mode
-direct_statement
-## original_wording
-[Cases Q10, 5 marks] 10) A 30 years old woman fell on her outstretched hand. She suffered from severe pain in the lateral part of the wrist particularly at the base of the anatomical snuff box. a. What is the expected diagnosis? b. What are the boundaries of the anatomical snuff box? c. What are the contents of the anatomical snuff box? d. What makes the floor of the anatomical snuff box? e. What makes the roof of the anatomical snuff box?
-## conflicts
-This paper’s answer gives the contents as the radial artery with the tendons of extensor carpi radialis longus and brevis. The department book (Forearm) counts those two tendons as crossing the floor rather than as contents, and adds the beginning of the cephalic vein in the roof. Recorded as both state it.
-## uncertainty
-
-## evidence_gaps
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
----
-
-# Item
-## label
 Smooth endoplasmic reticulum is invisible in itself and known by the acidophilia it causes and its ribosome-free tubules
 ## id
 CON-FND-0B3CC0A79F9150
@@ -2721,96 +2544,6 @@ Agranular endoplasmic reticulum
 direct_statement
 ## original_wording
 [Histology Q1, 5 marks] Outline LM and EM of sER
-## conflicts
-
-## uncertainty
-
-## evidence_gaps
-[clear]
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopic: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopic: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The evidence chain cannot be built until the Kasr manifest sources are in the corpus source index; they are absent from it today, so any claim would cite a source the index says does not exist.
-resourceIds: No resource records have been created for the Kasr corpus yet; the manifest is the interim record.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
----
-
-# Item
-## label
-A secondary lysosome is named by what the primary lysosome fused with, and all end as residual bodies
-## id
-CON-FND-9D325B98FC59A0
-## canonical_key
-lysosome-types-secondary-fates
-## definition
-Secondary lysosomes are heterogeneous membranous vesicles that have entered digestive events. A heterolysosome is a primary lysosome fused with a phagosome, digesting solid particles; a multivesicular body is a primary lysosome fused with a pinocytic vesicle, digesting fluid; an autolysosome is a primary lysosome fused with old organelles. What is left undigested becomes a residual body, which is either discharged from the cell by exocytosis or stays in it as lipofuscin, the pigment that accumulates with age particularly in non-dividing cells such as cardiac muscle and nerve cells.
-## explicit_objective
-Name the three types of secondary lysosome by what the primary lysosome fused with, and give the fate of the residual body.
-## pitfalls
-Treating the residual body as a fourth type of secondary lysosome. It is the end state of all three, not a parallel kind.
-## concept_type
-classification
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-
-## modules
-101 ISK
-## module_subject
-101 ISK > Histology > Cytology > Cytoplasm
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_530685004e73e670a4ed | resit | 2024 | p6 | 101 ISK
-## weight_confidence
-0.7
-## blueprint_weight
-0.06
-## exam_weight_by_year
-KAU_Y1=0.06
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.75
-## topic
-Histology
-## subtopic
-Cytology
-## aliases
-Heterolysosome | Autolysosome | Multivesicular body | Residual body
-## support_mode
-direct_statement
-## original_wording
-[Histology Q2, 5 marks] Types of 2ndry lysosome and their fates
 ## conflicts
 
 ## uncertainty

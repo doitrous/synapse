@@ -23,6 +23,17 @@ export interface SourceRef {
   tier: 'end_of_year' | 'end_of_module' | 'resit' | 'formative'
   /** Which section headings this paper uses, in the order it prints them. */
   sections: readonly string[]
+  /**
+   * What the paper says it contains and this copy does not print.
+   *
+   * A paper is not the same thing as the copy of it that reached this corpus.
+   * The 2025 end-of-year paper states `+26 MCQ {½ Mark each}` at the foot of
+   * its Histology section and prints not one of them — in either the solved or
+   * the unsolved copy. Seeding what is printed and calling the paper done would
+   * record a 94-mark paper as an 81-mark one and lose 26 questions with nothing
+   * saying so.
+   */
+  notCaptured?: string
 }
 
 /**

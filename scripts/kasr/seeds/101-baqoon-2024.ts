@@ -117,6 +117,7 @@ export const SEEDS: Seed[] = [
     aliases: ['Arterial arches of the hand'],
     conflicts: [
       'This paper’s answer places the superficial arch half an inch distal to the deep arch; the department book (Hand) states one centimetre. Both are recorded; neither is corrected.',
+      'Key collision: clusters.json puts the 2025 end-of-year question “Describe site, formation and branches of the Deep Palmer Arch” in this same cluster, but 101-eoy-2025.ts keys it `deep-palmar-arch-site-formation-branches`. Until the two keys are reconciled the build mints two concepts for one objective and neither carries the other’s occurrence.',
     ],
   },
   {
@@ -252,6 +253,7 @@ export const SEEDS: Seed[] = [
     aliases: ['Anatomical snuffbox', 'Scaphoid fracture'],
     conflicts: [
       'This paper’s answer gives the contents as the radial artery with the tendons of extensor carpi radialis longus and brevis. The department book (Forearm) counts those two tendons as crossing the floor rather than as contents, and adds the beginning of the cephalic vein in the roof. Recorded as both state it.',
+      'Key collision: clusters.json puts the 2025 end-of-year Case (2) in this same cluster, but 101-eoy-2025.ts keys it `anatomical-snuff-box-boundaries-contents-floor-roof`. Until the two keys are reconciled the build mints two concepts for one objective.',
     ],
   },
   {
@@ -279,6 +281,9 @@ export const SEEDS: Seed[] = [
     modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
     type: 'classification',
     aliases: ['Heterolysosome', 'Autolysosome', 'Multivesicular body', 'Residual body'],
+    conflicts: [
+      'Key collision: clusters.json puts the 2025 end-of-year question “Mention EM of types of Lysosomes” in this same cluster, but 101-eoy-2025.ts keys it `lysosome-types-electron-microscopy` — which is also the key SITTING_SIGNALS uses to attach the July 2023 departmental model answer. Reconciling the keys must move that signal too, so it is flagged rather than changed here.',
+    ],
   },
   {
     q: 3, section: 'Histology', page: 7, marks: M,
