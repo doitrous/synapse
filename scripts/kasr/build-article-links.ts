@@ -159,7 +159,7 @@ a subject-tree leaf and the grouping is therefore the shape of the work.
 ${[...byPath.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([path, ids]) =>
   `## ${path}\n\n${ids.map((id) => `- \`${id}\` — ${label.get(id)?.key ?? ''} (${label.get(id)?.file ?? ''})`).join('\n')}`).join('\n\n')}
 `)
-console.log(`${untaught.length} concept(s) no article teaches -> ${LEDGER}`)
+console.error(`${untaught.length} concept(s) no article teaches -> ${LEDGER}`)
 
 /**
  * Disagreement with the hand-written table this replaced, reported not resolved.
@@ -176,7 +176,7 @@ if (diffAgainst > -1 && process.argv[diffAgainst + 1]) {
   const differ = entries.filter(([conceptId, articleId]) => links[conceptId] && !links[conceptId].includes(articleId))
   console.log(`\nAgainst ${process.argv[diffAgainst + 1]}: ${entries.length} entries, `
     + `${entries.length - missing.length - differ.length} agree, ${missing.length} unmatched, ${differ.length} contradicted`)
-  for (const [conceptId, articleId] of missing) console.log(`  no link derived: ${conceptId} -> ${articleId}`)
+  for (const [conceptId, articleId] of missing) console.error(`  no link derived: ${conceptId} -> ${articleId}`)
   for (const [conceptId, articleId] of differ) {
     console.log(`  contradicted: ${conceptId} had ${articleId}, derived ${links[conceptId].join(', ')}`)
   }
