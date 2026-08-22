@@ -58,7 +58,7 @@ HCO₃⁻ 12 mmol/L (22–26) · Base excess −13 mmol/L (−2 to +2) · Lactat
 | `type` | Practical format | **yes** | `Lab interpretation`. Exact string. |
 | `lab_subtype` | Lab / Imaging | **yes** in practice | `Lab`. |
 | `title` | Title | **yes** | What the set covers. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
@@ -67,12 +67,48 @@ HCO₃⁻ 12 mmol/L (22–26) · Base excess −13 mmol/L (−2 to +2) · Lactat
 | `difficulty` | Difficulty | no | Whole-item difficulty; each question may set its own. |
 | `lab_questions` | Interpretation questions | **yes** | The questions. Syntax below. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this set is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this set sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What the set as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |
 | `learning_objective` | Learning objective | — | What a student who completes the set has demonstrated. |
 | `references` | Read around it | — | **Prose list — newlines only.** |
 | `media_recommendations` | Media requests | — | See below. |
+
+---
+
+## Priority of sources
+
+Highest first (00 §A): this department's own practical atlas / lab-interpretation bank /
+station sheets, then other official files for the same module, then doctor/student/academy
+notes (tier ≤5, never sole source), then a standard textbook only where the corpus has none.
+**Another university's set never stands for this university's signal** — reference ranges and
+local reporting units differ.
+
+## Media (S6 of the pipeline)
+
+`Media:` inside a question is a real, working URL only. Anything you do not have yet is a
+`media_recommendations` request block, **marked as a request, never rewritten into prose**
+that describes the missing asset. This is stage S6
+([13-orchestration.md](13-orchestration.md) §4).
+
+## Scope: universities and module
+
+A practical set is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported set arrived unscoped. An
+empty `universities` list means EVERY university. Scope is separate from concept tagging and
+`module_subject`.
+
+## Stages and completeness
+
+Finished per [13-orchestration.md](13-orchestration.md) §4 once `questions` meets this type's
+floor, S6 requests are tracked, and `medical:audit` is clean — not at the first green
+`medical:batch`.
 
 ---
 

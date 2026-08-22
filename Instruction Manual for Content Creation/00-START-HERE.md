@@ -8,6 +8,108 @@ them, commit them, or push them. A human applies them by hand.
 
 ---
 
+## 0 · Why you are here
+
+**North star:** a student solves the question bank — MCQ, written, practical — and then
+excels in their university exam. Every ruling below exists to serve that, and nothing
+else.
+
+### The law of priority
+
+Source priority, highest first:
+
+1. **Actual exam papers** of that university / year / module (EOM, EOY, resit/Baqoon,
+   end-of-rotation), with their official keys or model answers.
+2. **Department files** — department books, department question banks / MCQ books,
+   practical atlases, official lecture files.
+3. **Doctor notes, student notes, academy material** — tier ≤5 only, and never as the
+   sole source of an answer.
+4. **Standard textbooks** — only where the corpus has no department text for the
+   point, and cited as such in `field_notes`.
+
+**Scope is examinable.** Write what the module can examine — its own papers plus its own
+department-book chapter — never wider. Inside a module, work in this order:
+
+1. The concepts and articles that banked questions actually need.
+2. The rest of the examinable chapter.
+3. Nothing the module never sits.
+
+**Sequence: articles before questions.** The validator refuses a question whose main
+concept has no covering article — write or claim the article first, in the same batch.
+
+**Answers come only from an official key or the department book**, page cited, never
+reconciled by hand. A questionable printed key is recorded as printed, not silently
+corrected. A garbled key is rendered by eye with the method recorded — or, failing that,
+the question is left unkeyed and unauthored. An item that depends on an image becomes a
+media request (§6), never a prose rewrite of what the image would have shown.
+
+**Worked example.** A Kasr renal paper has a garbled MCQ key next to a clean
+department-book chapter that never mentions the drug the question's stem names. You do
+not average the two. You record the printed key as printed — or unkeyed, if it truly
+cannot be read — and you write the article from the department book, not from the
+question stem: a past paper is a source of *what was asked*, never of medical fact.
+
+---
+
+## Roles and the chain of command
+
+- **Omar (owner).** The only human. Imports batches by hand via admin Bulk Import.
+  Decides product questions. Supplies tokens, Telegram channel links, reviewers.
+- **Chief of staff (one session).** The single channel every lane reports to — lanes
+  never message each other. Issues standing orders, rulings, the browser queue,
+  pause/resume. Audits lane self-reports with independent read-only subagents.
+  Escalates to Omar only what genuinely needs him. Keeps `docs/chief-of-staff/BOARD.md`.
+- **Orchestrator** (one session per university-year lane — Kasr Y1, Kasr Y2–5,
+  Alexandria, Ain Shams, Helwan). Plans its lane, dispatches Sonnet subagents with
+  explicit file ownership, holds a LANE-BRIEF, consolidates reports, runs the triage
+  checkpoint. Never authors content itself. Commits checkpoints on its own branch, never
+  pushes.
+- **Validator / shared-tooling lane.** Owns the gates and the importer, serves the
+  content lanes, lands on `main`, reports hashes to the chief of staff.
+- **Subagent / authoring lane** — you, most of the time. Reads this file plus one type
+  manual, writes batches, runs the gates, and reports in ≤20 lines: lane · produced ·
+  validation · traceable-to-question share · drift to rule on · blockers · next. Ends its
+  turn with a `BLOCKED` section when stuck, rather than guessing.
+
+**Report discipline.** ≤20 lines. Numbers come from scripts, never estimates. **A claim
+of green gates without pasted output is not green** — gate summary lines belong in the
+commit body, or in `coverage/<module>-GATES.md`.
+
+**The triage checkpoint.** Before any lane mints a single record, its orchestrator sends
+the chief of staff one table — questions triaged · distinct concepts tested ·
+live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before anyone writes.
+
+The full operating procedure — LANE-BRIEF format, the browser queue, escalation paths —
+is [13-orchestration.md](13-orchestration.md). This file covers what every lane needs;
+that one covers how lanes are run.
+
+---
+
+## Content moves in stages
+
+A record is **not finished** the moment `medical:batch` passes. It moves through nine
+stages, each with its own gate, and the coverage ledger in each import root's
+`coverage/` folder tracks where every record currently sits:
+
+| Stage | What is produced | Gate |
+|---|---|---|
+| **S0 Intake** | Source manifest: sha256, textLayer, name-twins, tier, sitting year, module | Manifest validates; twins resolved; tier ≤5 |
+| **S1 Triage** | Questions read, keys recovered, each assigned its tested concept; concept keys searched live + pending → live / pending / new | Triage checkpoint table; **TRIAGE APPROVED** |
+| **S2 Build** | Concepts → articles (covering every tested concept) → questions | `medical:batch`, `concept-ids`, `presence`; gate lines in commit body |
+| **S3 Tag & place** | Taxonomy placement, `universities` non-empty, years, weights, difficulty, `exam_weight_by_year` | Catalogue check; placement resolves; no blank required tags |
+| **S4 Relate** | Typed concept relations with evidence; article ↔ concept links both directions | Relations batch validates; every question's concept covered by an article |
+| **S5 Evidence** | Claims, citations, spans from the department book | `medical:citations`; `atomicClaimIds-missing = 0` |
+| **S6 Media** | `media_recommendations` on every record that needs one | Media ledger lists every open request |
+| **S7 Completeness** | `fieldsUsed` at floor; explanations ≥3 sentences; dup/label-twin scan clean | `medical:audit` delta zero; `duplicate-keys` zero; `INDEX.md` |
+| **S8 Hand-over** | Full-sequence simulate in Omar's import order; `INDEX.md`; `GATES.md` | Omar imports; a named reviewer flips status to Published |
+
+A lane may run S2 for a module before S3–S7 — that is normal, not a shortcut. But
+**nothing is done until S7**, and a self-report that only cites `medical:batch` is
+reporting S2, not completion. Full detail is
+[13-orchestration.md](13-orchestration.md).
+
+---
+
 ## The manuals
 
 | File | Write this when you are creating or editing… |
@@ -24,6 +126,7 @@ them, commit them, or push them. A human applies them by hand.
 | [10-imaging-interpretation.md](10-imaging-interpretation.md) | an imaging interpretation set |
 | [11-glossary-terms.md](11-glossary-terms.md) | a glossary term |
 | [12-resources.md](12-resources.md) | a source: a PDF, textbook, guideline or video |
+| [13-orchestration.md](13-orchestration.md) | how lanes are run: roles, stages, reports, queues |
 
 Read this file, then **one** manual — the one for what you were asked to produce. Each
 manual is complete for its own type; do not skim the others for background.
@@ -37,7 +140,27 @@ sent to author a *different content type*, in its own file — read 03 then, not
 
 ## 1 · Where work goes
 
-One folder per admin import page, so the filename always tells the human which page to open.
+Two kinds of root, and which one you write to depends on whether your batch is tied to
+one university's exam lane or not.
+
+### Per-university import roots
+
+One root per university, each mirroring one exam-paper lane:
+
+```
+docs/Kasr-Source-Imports/
+docs/Alexandria-Source-Imports/     (when present)
+docs/Ain-Shams-Source-Imports/      (when present)
+docs/Helwan-Source-Imports/         (when present)
+```
+
+Only `docs/Kasr-Source-Imports/` exists in this checkout today; the other three are
+created the day that university's lane starts — don't create one yourself on spec.
+Inside each, by content type and stage: `manifest/`, `coverage/`, `concept/`, `article/`,
+`written/`, `practical/`, `question/`, `evidence/`, `relations/`, `glossary/`, plus
+`pending-live/` for a sparse update targeting a concept id that isn't live yet (§3).
+
+### The Systems-view root
 
 ```
 docs/import-ready/
@@ -52,9 +175,20 @@ docs/import-ready/
   glossary/     → Admin › Glossary › Import
 ```
 
-Naming: `<CANONICAL-NODE>-<KIND>-<NNN>.md` — `SYS-RES-CONCEPT-004.md`,
+`docs/import-ready/` still exists, and is still where a batch goes when it is not tied
+to one university's exam lane — a cross-university Systems-view record, most often.
+
+Naming, in either root: `<CANONICAL-NODE>-<KIND>-<NNN>.md` — `SYS-RES-CONCEPT-004.md`,
 `SYS-CVS-PRACTICAL-012.md`. Keep each folder's `INDEX.md` current: counts, what to expect
 after importing, and anything the human must do in a particular order.
+
+### Toolchain
+
+`scripts/kasr/` is the shared toolchain — Kasr's own, and the template every other
+university's lane copies from. A new lane copies what it needs into `scripts/<uni>/` and
+edits its own copy from there. **Never edit another lane's files under `scripts/`** —
+Kasr's included — a shared script changes behaviour for every lane still relying on it,
+silently.
 
 **A file is finished when it validates clean.** Nothing here is imported until Omar does
 it. Never run `git commit`, `git push`, or an import.
@@ -133,6 +267,43 @@ a practical must always restate `type`.
 A `+` cell adds without re-typing the list, and re-importing the same row does not duplicate
 what it added, so a batch can be applied twice safely.
 
+**Both `+` forms are safe now** — `+A | +B` in one cell, and one `+item` per line — fixed
+at the parser in 312777b. Before the fix, only the first item in a `+`-prefixed cell lost
+its plus; every later item was stored with the literal `+` still on it, an ID no record
+ever has, silently — newline-separated cells had the same bug, so "one `+` per line" was
+never actually the safe form. What is still refused is **mixing** a plain item with a
+`+` one in the same cell (`X | +Y`) — ambiguous, so the validator asks rather than
+guessing whether you meant replace or append. `exam_weight_by_year` never takes a `+`;
+write keyed values instead — `AU_Y1=0.5`.
+
+**`+` only appends on a true ID-list column.** The append/replace/clear/untouched logic
+lives in one place (`listDirective`/`splitList` in `src/data/importSemantics.ts`), and only
+fields parsed through it see the leading `+` at all. `module_subject` is a list of *paths*,
+split on newlines by a separate parser that never strips a `+` — so `+101 ISK > Anatomy`
+imports with the literal plus still on the front, not appended to what was already there.
+Treat any field this manual doesn't explicitly call an ID list the same way: write it as a
+full replacement, never a `+` cell. Verified 2026-08-22 by the Ain Shams toolchain lane
+against the real validator; turning into a validator error.
+
+**An update row must still restate the kind's discriminator** — `## label` (or
+`canonical_key`) for a concept, the title/question/type field for every other kind. Kind is
+detected once per file from its first row's columns, and a row that drops the discriminator
+because "it's just an update" can make the whole file's kind resolve to `unknown`.
+`medical:simulate` keeps an unrecognised file in a separate `refused` list rather than
+`errors`, precisely so a batch of a kind it doesn't know about doesn't fail a run whose data
+is otherwise fine — which also means a genuinely sparse update that fell into `unknown` is
+never applied and never shows up as an error either. A row of `## id` + `+universities` and
+nothing else is exactly what gets lost this way. Verified 2026-08-22 by the Ain Shams
+toolchain lane against the real validator; turning into a validator error.
+
+**An update row against an id that is not live is refused, not silently created.** Before
+470fdde, a row carrying only an `id` plus a couple of changed columns — meant as an update
+— would mint a near-empty new record if that id didn't exist yet. The validator now names
+the id and refuses the row. If the id you're updating is authored earlier in the same
+import sequence but not live yet — another lane's unimported batch, or your own — write
+the update in `<import root>/pending-live/<slug>.md` instead, with an `INDEX.md` line
+saying "apply after `<that file>`."
+
 ---
 
 ## 3 · Never invent an ID
@@ -173,6 +344,15 @@ haem   imm    inf    obs    gyn    androl psy    derm   mul    pop
 
 Nothing else is valid in a `subject` field.
 
+**Placement for a subject with no obvious home:** Community medicine → `pop`; Psychology
+→ `psy`; Microbiology and Parasitology → `inf`. Forensic medicine, Toxicology, ENT and
+Ophthalmology place by the body system the mechanism or target organ belongs to —
+asphyxia → `resp`; otitis / conjunctivitis → `inf`; visual pathway, pupil, audiovestibular
+→ `neuro`; ocular embryology → `dev`; organophosphates → `mul`; an umbrella
+forensic/toxicology principle with no single organ also → `mul`. A pharmacology concept
+takes `FND` or `INF` as its `CON-` system code (below), never a subject of its own. `oph`
+and `ent` as subject ids are pending an Omar ruling — do not mint against them yet.
+
 This list said eight until 2026-08-22 — the eight that happen to have live
 concepts. The other twelve are equally valid and were being written from memory,
 which is how `ren` and `neu` reached a committed batch: both are placeholdered
@@ -193,6 +373,41 @@ refuses it without an explicit body-system code, because live state files all
 > Some older live records carry `subjectId: "medical"` — 736 of them, from the extraction
 > pipeline. That is legacy data, not a subject you may use.
 
+### Module ids
+
+A module id is a **global bare string** — one namespace, not one per university. Kasr
+predates the prefix rule and keeps its ids as-is, e.g. `101 ISK`. Every other
+university's module ids carry that university's prefix: `ASU-CVS`, `AU-MED-102`,
+`HU-GIT-301` — uppercase, spaces to hyphens. The validator refuses a non-Kasr module id
+without it.
+
+`## universities` must be **non-empty on every record**, always — empty does not mean
+"none of them," it means **every university**, so a blank field reaches students it was
+never written or checked for. Kasr-only content says `Kasr`, not blank.
+
+### The concept-id overlay rule
+
+One medical idea gets **one concept id, across every university** — `mint-concept-id.mjs`
+hashes `canonical_key` and never salts it, so the same key always mints the same id
+regardless of who writes it. `universities`, `learner_years` and `modules` are overlays on
+that one concept, not separate concepts.
+
+Always run `find-existing.mjs` first (§4) — it searches live state, every
+`docs/*-Source-Imports` root and `docs/import-ready`, including `canonical_key` inside
+pending batches.
+
+- **A hit in live state** → a **sparse update**: the id, the discriminating columns, and
+  only the overlay fields you're adding — `+ASU`, `+ASU_Y2`, `+<module>`. **Never a full
+  record** — it replaces every named field, which can silently evict a university or
+  un-publish a live record by omission.
+- **A hit only in another lane's unimported batch** → the same sparse update, written into
+  `<import root>/pending-live/<slug>.md` with an `INDEX.md` line naming what it applies
+  after (§1, §2).
+
+Kasr's own pipeline salts concept ids per module, so two minters currently exist in this
+repo with different behaviour on the same input — which one a new lane should use is an
+open product question, not yours to resolve by guessing.
+
 ---
 
 ## 4 · Search before you create
@@ -208,8 +423,12 @@ node "Instruction Manual for Content Creation/tools/find-existing.mjs" "<the lab
 ```
 
 It searches live concepts by label, alias, canonical key and definition; live articles,
-questions and practicals by title and alias; the live glossary in both languages; and every
-unimported batch in `docs/import-ready/` and `docs/questions-import-ready/`.
+questions and practicals by title and alias; the live glossary in both languages; and
+every unimported batch — `docs/import-ready/`, `docs/questions-import-ready/`, and now
+**every `docs/*-Source-Imports` root** it finds (b3cad82), not just Kasr's. Since that
+commit it also matches `## canonical_key` inside a pending batch, not only `## label`,
+`## title`, `## term` and `## aliases` — a mismatched label with a matching key is now a
+hit, not a false "safe to create."
 
 Real output:
 
@@ -352,6 +571,18 @@ keeps the label and the others carry a **cross-reference** — a link, never a s
 - **Where two subjects mean genuinely different things by the same words, disambiguate the
   label** rather than cross-referencing — "Cardiac excitation–contraction coupling" and
   "Skeletal muscle excitation–contraction coupling", not one shared node.
+
+### The tree-wide duplicate scan
+
+`find-existing.mjs` depends on picking the right query (§4 above). `npm run
+medical:duplicate-keys` (5c28167) is the backstop — it scans the whole tree for one idea
+wearing two concept ids, searched or not. Run it before handing off any batch that mints
+concepts, not only when you suspect a collision.
+
+**Label-twin rule.** The same idea under two different wordings is still a duplicate —
+"Autoregulation of renal blood flow" and "How the kidney keeps its own blood flow
+constant" are one concept, not two, even though no substring search catches both. Read a
+surprising phrasing before deciding it's unrelated.
 
 ---
 
@@ -542,9 +773,50 @@ broken link. Neither errors at import; both are found by `npm run medical:audit`
 
 ---
 
-## 8 · Validate before you hand off
+## 8 · Gates
 
-Run all of these. Zero errors at every step, or the batch is not finished.
+Run all of these. Zero errors at every step, or the batch is not finished — and per
+"Content moves in stages" above, S7/S8 need more of them than S2 alone. The commands
+below show `docs/import-ready/<kind>/` as the path — substitute your actual root
+(§1) when you are writing in a per-university import root instead.
+
+| npm script | What it catches |
+|---|---|
+| `medical:batch` | Per-file shape and column errors; directory-scoped only (below) |
+| `medical:simulate` | The real gate — applies your batch to a copy of live state |
+| `medical:audit` | Under-filled fields, blank-without-reason, broken cross-references |
+| `medical:presence` | Every Kasr concept/article batch actually covers what triage said it must |
+| `medical:citations` | Evidence: every claim traceable, `atomicClaimIds-missing = 0` |
+| `medical:concept-ids` | One key, one id, across every university's `*-Source-Imports/concept` |
+| `medical:id-stability` | An id does not drift between runs |
+| `medical:duplicate-keys` | One idea wearing two concept ids, tree-wide (§4) |
+| `medical:batches-present` | The manifest names batches that actually exist on disk |
+| `medical:validate:authoring` / `medical:validate:taxonomy` | Committed repo state — labels, placement — not your unimported batch |
+| `medical:snapshot-live` / `medical:snapshot-staleness` | Refresh, and measure the gap in, the live-state extract (below) |
+
+Verify these names against `package.json` before typing one from memory — the list above
+matches this checkout today, not a promise about tomorrow's.
+
+- **`--with` for sibling batches.** `medical:simulate` and the presence/citations/
+  concept-id checks resolve ids against live state plus whatever files you pass with
+  `--with`. A question batch validated without its own concept batch beside it errors on
+  the unresolved concept — a real error, not a silent skip — and since daf0d4d that error
+  now adds *"name its concept file with `--with`"*. Pass every sibling batch your ids
+  resolve against.
+- **The catalogue check runs inside `medical:batch`** (57ef0d4), not as a separate
+  script. It checks who a record is claimed for (`universities`, `module`) against
+  `src/data/universities.ts` — it is what refuses a non-Kasr module id without its
+  university prefix (§3), and an empty `universities` list.
+- **Simulate one directory at a time.** A combined run across two folders lets the
+  *last* file win on any id both define — a green result that silently dropped one
+  author's changes.
+- **"Live state" is not automatically today's production data.** It means
+  `server/data/medical-library-v1.json` — the extraction bundle's copy, **not**
+  production, unless Omar ran `npm run medical:snapshot-live` (99865d3) to pull it fresh;
+  `medical:snapshot-staleness` reports the gap.
+- **Paste the output, don't summarise it.** Gate lines go in the commit body, or in
+  `coverage/<module>-GATES.md` for a lane that isn't committing yet — a claim of green
+  gates without pasted output is not green.
 
 ```bash
 npm run medical:batch -- "docs/import-ready/<kind>/<your-file>.md"
@@ -661,6 +933,17 @@ resource → article → concept → claim → citation → span → relation �
 
 If you are producing a later kind, everything earlier that you reference must already be
 live or be sitting in the same batch folder.
+
+---
+
+## Telegram and other fetches
+
+Telegram runs through Omar's own logged-in Chrome, one lane at a time, with the chief of
+staff holding the queue. Only listed channel links and the in-app search box — never
+click **Join**, log "needs Omar to join" instead; never use **addlist**; no video or
+audio downloads. Dedupe by sha256, tier ≤5 like every other source, and another
+university's past papers are never this university's examinable signal. Full procedure:
+[13-orchestration.md](13-orchestration.md).
 
 ---
 

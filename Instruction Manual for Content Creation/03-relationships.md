@@ -24,6 +24,23 @@ fields out silently, and put anything worth saying in your hand-off report inste
 
 ---
 
+## When to write these
+
+Relations are stage **S4** in [13-orchestration.md](13-orchestration.md) §4 — written once a
+module's concept layer (S2) is settled, so an edge points at a `primary_node_id` and an
+`article_ids` list that are not about to change under it.
+
+Evidence for an edge comes from the department book first, the same source priority named in
+[00-START-HERE.md](00-START-HERE.md) — a standard textbook only where the corpus has no
+department text for that module, and cited as such.
+
+Batch one module's edges together as `relations/<module>-relations.md` in that university's
+import root, next to its `<module>-coverage.md`. Report the `verified` and `needsEvidence`
+counts `medical:batch` prints for the file (see the header box above), not a guess at how many
+edges "feel" reviewed.
+
+---
+
 ## Read this before anything else
 
 Two rules here will waste your afternoon if you learn them the hard way.

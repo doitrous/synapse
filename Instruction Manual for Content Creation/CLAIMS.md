@@ -26,6 +26,8 @@ pair, and never the same output file.
 | 2026-08-22 | W1-102-BIOC-A | `AU · AU-MED-102 · Biochemistry (sub-lane A) · articles` | `docs/Alexandria-Source-Imports/article/AU-MED-102-biochem-structural-articles.md` | own concepts above |
 | 2026-08-22 | W1-102-BIOC-A | `AU · AU-MED-102 · Biochemistry (sub-lane A) · questions` | `docs/Alexandria-Source-Imports/question/AU-MED-102-biochem-structural-mcq.md` | own concepts/articles above |
 | 2026-08-22 | W1-102-BIOC-A | `AU · AU-MED-102 · Biochemistry (sub-lane A) · evidence` | `docs/Alexandria-Source-Imports/evidence/AU-MED-102-biochem-structural-claims.md`, `-citations.md`, `-spans.md` | own resources file |
+| 2026-08-22 | chief of staff | `docs/chief-of-staff/**` — the board, the brief, standing orders | docs/chief-of-staff/BOARD.md | — |
+| 2026-08-22 | chief of staff | Manual revision — `Instruction Manual for Content Creation/00-13` (files 00–13), consistency pass | `Instruction Manual for Content Creation/*.md` | — |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` question-book MCQs — every subject-tree leaf **except `Granular leukocytes`**, which the 101 lane holds | `scripts/kasr/seeds/mcq/**`, and its two generated outputs `docs/Kasr-Source-Imports/question/101-ISK-mcq.md` and `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | The article for each leaf. A leaf is not done until one exists and names its concepts in `related_concepts` |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` histology articles for the twelve leaves the 101 lane did not write | `docs/Kasr-Source-Imports/article/101-ISK-histology-2.md` | — |
 

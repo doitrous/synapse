@@ -17,6 +17,27 @@ There are **53 columns**. This manual covers all of them.
 
 ---
 
+## Scope
+
+An article exists to cover a concept that is in scope by the same rule as 02-concepts.md §Scope
+— tested by a banked question, or taught by the department book chapter the module examines.
+Do not write an article for a concept the module never sits, and do not write prose covering
+more than the concepts it names in `related_concepts`.
+
+Coverage runs in **both directions**, and both must hold before the pair is finished: every
+concept an article teaches goes in that article's `related_concepts`, **and** that concept must
+list the article back in its own `article_ids`. At validate time the coverage check is the
+**union** of the two — a question's main concept counts as covered if it is in the concept's
+own `article_ids`, or if an article named alongside it on `--with` lists it in
+`related_concepts` (05-questions.md §Coverage, precisely). That union is a simulation of what
+importing both batches together would produce, not what importing already did: the article
+importer never backfills a concept's live `article_ids`, so an article that names the concept
+in `related_concepts` without the concept naming the article back will validate clean today —
+as long as both are named on the same `--with` — and still leave live coverage broken the next
+time someone checks without that article in the set. Write both directions for real.
+
+---
+
 ## The body is plain text in named sections
 
 Not markdown. Not HTML. Not blocks. An article is a list of `### Heading` sections, each
@@ -138,12 +159,12 @@ From `articlePopulated` in the field audit, plus the importer's own required set
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | Student-facing. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` — see [00-START-HERE §3](00-START-HERE.md) and [02-concepts.md](02-concepts.md) §Placement for the map where the source material doesn't name one outright. |
 | `topic` | **yes** | Parent topic in the library navigator. |
 | `summary` | **yes** | The opening summary. Also a discriminating column — always include it. |
 | `sections` | **yes** in practice | `### Heading` blocks. The audit requires a value; the importer accepts `body` instead, but do not use it — it is legacy. |
 | `id` | no | `ART-<SUBJECT>-<SLUG>`. Supply to update. |
-| `status` | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. |
+| `status` | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. `server/src/studentLedger.js` redacts every item a student can reach at the source, and its one rule is `item.status !== 'Published'` → withheld — nothing else exempts a record. Stays `Draft` until a named reviewer or publisher (`reviewer` / `final_publisher`, not "Admin team" left as the default) flips it by hand; no gate flips it for you. |
 | `owner` | no | Defaults to `Admin team`. Content owner. |
 | `primary_node_id` | — | Canonical placement, `SYS-CVS-T01`. Derived from the subject/topic crosswalk when omitted — write it anyway. |
 | `template_id` | — | From the table above. |
@@ -244,6 +265,26 @@ A blank here without a `field_notes` line fails the audit. `N/A` and `TODO` are 
 `arabic_title` and `aliases` deserve real effort rather than a note: aliases are what drive
 the automatic concept-linking in rendered prose, and an Arabic title can be researched and
 written directly without a separate verification step.
+
+---
+
+## The evidence layer
+
+Spans, claims and citations are stage **S5** — written from the department book, after the
+article's prose exists, against the same source that wrote it. In the Kasr toolchain, three
+tools carry this in order: `scripts/kasr/extract/deptbook-spans.py` locates candidate spans in
+the extracted book text, `scripts/kasr/build-evidence.ts` turns them into claim and citation
+batches, and `scripts/kasr/apply-article-evidence.ts` fills a finished article's `claim_ids`
+and `span_ids` from that evidence — a targeted rewrite of those two columns only, safe to run
+twice, that never touches the hand-authored prose around them.
+
+Landing S5 with `[clear]` in a prose-section column is a live failure, not a hypothetical one:
+`[clear]` is the sentinel for an empty **list** column, but `sections`, `published_sections`,
+`annotations`, `media` and `media_recommendations` are parsed by `parseSections`, which has no
+heading to split on and stores a section whose body is the literal word "[clear]" — visible to
+a student on `published_sections`. Thirty articles across three Kasr batches shipped it before
+the batch validator was taught to refuse it by name (`60c898a`). The correct empty for any of
+those five columns is an empty body, not `[clear]`.
 
 ---
 
@@ -348,8 +389,8 @@ Id: ann-cvs-preload-001
 
 ## Media
 
-Two different things, and mixing them up puts an unfinished asset one flag away from a
-student.
+Media is stage **S6**. Two different things, and mixing them up puts an unfinished asset one
+flag away from a student.
 
 ### Real media you have — `## media`
 
