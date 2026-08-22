@@ -63,7 +63,9 @@ fi
 
 echo "regenerating…"
 # `build-batches` takes the module now; the other two do not. A bare run of it
-# used to rewrite every module's batches, which is why it refuses one.
+# used to regenerate every registered module, so one lane regenerating its own
+# work silently rewrote a neighbour's committed batches — which is why it now
+# refuses to run without being told which module it is building.
 node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
 node --experimental-strip-types scripts/kasr/build-batches.ts "$MODULE" >/dev/null
 node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
