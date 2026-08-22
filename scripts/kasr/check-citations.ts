@@ -25,6 +25,32 @@ const MANIFEST = `${ROOT}/manifest/kasr-y1-sources.json`
 const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8'))
 const known = new Set<string>(manifest.sources.map((source: { sourceId: string }) => source.sourceId))
 
+/**
+ * The 47 sources that are live but not in this manifest.
+ *
+ * They came from an earlier pipeline run and `12-resources.md` documents them
+ * as a known false alarm: "a citation naming one of them trips the guard with
+ * 'is not a source the corpus contains' even though the source is perfectly
+ * real and live". A concept batch that *updates* a live record inherits its
+ * `resource_ids`, so it inherits those IDs too — correctly, and with no way to
+ * drop them without detaching the concept from a source that does exist.
+ *
+ * Read from live state rather than hard-coded, so the set cannot go stale: if
+ * a legacy source is retired, this stops accepting it the same day.
+ *
+ * Live-but-unindexed is fine. Neither live nor in the manifest is the failure
+ * this check exists for, and that still fails.
+ */
+const LIVE = 'server/data/medical-library-v1.json'
+let live = new Set<string>()
+try {
+  const state = JSON.parse(readFileSync(LIVE, 'utf8')).states['synapse-medical-evidence-v1']
+  live = new Set<string>((state?.resources ?? []).map((r: { id: string }) => r.id))
+} catch {
+  // No live state in this checkout — every ID is then judged against the
+  // manifest alone, which is stricter rather than looser.
+}
+
 /** Every file under a directory, following subdirectories. */
 function* walk(dir: string): Generator<string> {
   for (const name of readdirSync(dir)) {
@@ -51,7 +77,7 @@ for (const path of walk(ROOT)) {
   readFileSync(path, 'utf8').split('\n').forEach((text, index) => {
     for (const match of text.matchAll(CITATION)) {
       checked += 1
-      if (!known.has(match[0])) dangling.push({ file: path, id: match[0], line: index + 1 })
+      if (!known.has(match[0]) && !live.has(match[0])) dangling.push({ file: path, id: match[0], line: index + 1 })
     }
   })
 }

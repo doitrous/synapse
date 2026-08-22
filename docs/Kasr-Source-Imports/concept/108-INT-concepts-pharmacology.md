@@ -173,14 +173,15 @@ KAU_Y1=0.45
 [Orientation ILO 1, MCQ tick] To explain the difference between pharmacokinetics and pharmacodynamics
 [Department book, section heading p14] Pharmacodynamics (What the DRUG does to the BODY)
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
+src_b4f736e3bd809dbee187
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-PK-VS-PD-01
 
 ## resource_occurrence_ids
 [clear]
@@ -217,8 +218,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: SYS-FND-T04 has no microtopic that spans both kinetics and dynamics, which is exactly what this concept contrasts; the curriculum position is carried by module_subject instead.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT, so no claim record exists. The live pharmacology claims are bound to other concepts and none of them asserts this contrast; attaching a near-miss to clear the validator is the wrong trade (LD-14, MASTER-PLAN.md:117).
-resourceIds: The department book src_af30e4191cb4087f8d3f and the ILO sheet src_b4f736e3bd809dbee187 are real manifest sources but neither is in corpus-source-index.json, so citing either here fails the corpus check. They are cited in the file preamble and named on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's own section headings; this concept has no corpus extraction record.
 sourceCandidateIds: Searched the corpus concept index for "pharmacokinetics" and "pharmacodynamics" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT; the department book is not cleared for redistribution.
@@ -307,14 +306,14 @@ KAU_Y1=0.5
 ## original_wording
 [Orientation ILO 4, MCQ tick] To describe the different ways of passage of drugs across membranes
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-SIMPLE-DIFFUSION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -352,8 +351,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. The book gives "Passage of drugs across cell membranes" its own section before ADME, and the taxonomy has no microtopic for membrane transfer. SYS-FND-T04-S01-M01 (Absorption) is the nearest honest home, because absorption is the first thing this mechanism governs, but the concept also governs distribution and excretion.
 microtopicId: No MIC_ id covers drug transfer across membranes; module_subject carries the curriculum position instead.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117); no live claim asserts this and a near-miss must not be attached to clear a validator.
-resourceIds: The Kasr src_ sources are real manifest entries but are absent from corpus-source-index.json, so citing one fails the corpus check. They are cited in the file preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's section headings; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "simple diffusion" and "passive diffusion" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -447,14 +444,14 @@ KAU_Y1=0.6
 [EOY 2024 Section 1 Q13, correct option] It requires a carrier.
 [Orientation ILO 4, MCQ tick] To describe the different ways of passage of drugs across membranes
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-CARRIER-TRANSPORT-01
 
 ## resource_occurrence_ids
 [clear]
@@ -492,8 +489,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest, for the reason given on CON-FND-584FCF6897C35E — the book's "Passage of drugs across cell membranes" section has no microtopic, and Absorption is the nearest honest home.
 microtopicId: No MIC_ id covers carrier-mediated drug transfer.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json, so citing one fails the corpus check; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "active transport" and "carrier" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -586,14 +581,14 @@ KAU_Y1=0.6
 [EOY 2025 Section 1 Q13, correct option] In an acidic medium, the weak acid is mostly non-ionized and lipid- soluble
 [Orientation ILO 5, MCQ tick] To explain the importance of the medium's pH and drug's pKa in determine lipid solubility of drugs
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-PKA-PH-IONIZATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -631,8 +626,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest — the book's membrane-passage section has no microtopic; Absorption is the nearest honest home and is what the 2025 question tested.
 microtopicId: No MIC_ id covers drug ionisation.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "pKa" and "ionisation" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -722,14 +715,14 @@ KAU_Y1=0.5
 [Orientation ILO 22, MCQ tick] To explain the phenomenon of ion trapping
 [Orientation ILO 6, MCQ tick] To explain applications of changing medium pH of drugs' absorption and excretion
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ION-TRAPPING-01
 
 ## resource_occurrence_ids
 [clear]
@@ -766,8 +759,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M04 is Excretion, and the overlay microtopic matches the canonical placement.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "ion trapping" and "urinary alkalinisation" — no candidate record exists.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -860,14 +851,14 @@ KAU_Y1=0.6
 [EOY 2024 Section 1 Q14, correct option] The presence of food might compete with the absorption of some drugs.
 [Orientation ILO 7, MCQ tick] To describe different factors affecting the absorption and the oral absorption of drugs
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ORAL-ABSORPTION-FACTORS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -904,8 +895,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M01 is Absorption and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "oral absorption" and "gastric emptying" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1001,14 +990,14 @@ KAU_Y1=0.9
 [EOY 2024 Section 2 QIIIc, 1 mark] Bioavailability.
 [Orientation ILO 8, SAQ and MCQ ticks] To define bioavailability and first-pass effect
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-BIOAVAILABILITY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1045,8 +1034,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M01 is Absorption and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both exam papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "bioavailability" and "first pass" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1135,14 +1122,14 @@ KAU_Y1=0.5
 ## original_wording
 [Orientation ILO 9, MCQ tick] To describe the different patterns of drug distribution
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DISTRIBUTION-PATTERNS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1179,8 +1166,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M02 is Distribution and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "distribution pattern" and "body compartment" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1272,14 +1257,14 @@ KAU_Y1=0.85
 [Orientation ILO 10, SAQ and MCQ ticks] To mention factors affecting drug distribution
 [EOY 2024 Section 1 Q15, correct option] This drug probably has a high molecular weight or strong plasma protien binding
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DISTRIBUTION-FACTORS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1316,8 +1301,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M02 is Distribution and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the 2024 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "protein binding" and "drug distribution" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1409,14 +1392,14 @@ KAU_Y1=0.5
 ## original_wording
 [Orientation ILO 11, MCQ tick] To understand the clinical implications of drug passage across the blood brain barrier and the placental barrier and through breast milk
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-BARRIER-PASSAGE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1453,8 +1436,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M02 is Distribution and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "blood brain barrier" and "placental transfer" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1544,14 +1525,14 @@ KAU_Y1=0.45
 ## original_wording
 [Orientation ILO 14, MCQ tick] To enumerate the sites of metabolism of drugs
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-METABOLISM-SITES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1588,8 +1569,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's "Site of Metabolism (Organs)" heading; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "biotransformation" and "drug metabolism" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1681,14 +1660,14 @@ KAU_Y1=0.85
 [Orientation ILO 15, SAQ and MCQ ticks] To compare the phases of drug metabolism
 [EOY 2024 Section 2 QIIId, 1 mark] Phase 1 hepatic metabolism of drugs.
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-METABOLISM-PHASES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1725,8 +1704,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the 2024 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "phase I metabolism" and "conjugation" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1818,14 +1795,14 @@ KAU_Y1=0.9
 [EOY 2025 Section 1 Q16, correct option] Hepatic microsomal enzymes are inducible; non-microsomal enzymes are not
 [Orientation ILO 18, SAQ and MCQ ticks] To compare microsomal and non-microsomal drug-metabolizing enzymes regarding their site, organs involved, phases catalysed, and inducibility
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-MICROSOMAL-ENZYMES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -1862,8 +1839,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "microsomal" and "cytochrome P450" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -1959,14 +1934,14 @@ KAU_Y1=0.65
 [Orientation ILO 17, MCQ tick] To explain the consequences of microsomal enzyme induction and inhibition
 [Orientation ILO 16, MCQ tick] To mention factors affecting drug metabolism
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ENZYME-INDUCTION-INHIBITION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2003,8 +1978,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M03 is Metabolism and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "enzyme induction" and "enzyme inhibitor" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2098,14 +2071,14 @@ KAU_Y1=0.65
 [EOY 2024 Section 1 Q19, correct option] Drugs undergoing renal secretion need a carrier.
 [Orientation ILO 19, MCQ tick] To describe the processes involved in renal elimination of drugs
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-RENAL-EXCRETION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2142,8 +2115,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M04 is Excretion and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "renal excretion" and "tubular secretion" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2236,14 +2207,14 @@ KAU_Y1=0.45
 [Orientation ILO 23, MCQ tick] To mention non-renal routes of drug excretion: pulmonary, gastrointestinal secretions, and skin gland routes
 [Orientation ILO 20, MCQ tick] To mention the role of the biliary system in drug elimination
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-NON-RENAL-EXCRETION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2280,8 +2251,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S01-M04 is Excretion and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "pulmonary excretion" and "excretion in milk" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2373,14 +2342,14 @@ KAU_Y1=0.85
 [Orientation ILO 24, SAQ and MCQ ticks] To compare first-order and zero-order kinetics
 [EOY 2024 Section 1 Q17, correct option] The plasma half-life is fixed in drugs following first-order elimination.
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-FIRST-ZERO-ORDER-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2418,8 +2387,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. SYS-FND-T04-S01 (Pharmacokinetics) has microtopics for absorption, distribution, metabolism and excretion only; order of elimination belongs to none of the four and to all of them. The subtopic node is the nearest honest home and no node was invented to fit it.
 microtopicId: There is no microtopic for order of elimination; module_subject carries the curriculum position instead.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the 2024 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "first order kinetics" and "zero order" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2514,14 +2481,14 @@ KAU_Y1=0.9
 [EOY 2024 Section 1 Q17, 0.5 marks] Which of the following pharmacokinetic principles applies to plasma half-life:
 [Orientation ILO 25, SAQ and MCQ ticks] To define the t1/2
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-PLASMA-HALF-LIFE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2559,8 +2526,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. Half-life is a derived parameter of the whole ADME cycle and belongs to no one of the four kinetic microtopics; SYS-FND-T04-S01 is the nearest honest home. No node was invented.
 microtopicId: There is no microtopic for half-life; module_subject carries the curriculum position, which is the book's own "Fundamental Principles of Pharmacokinetics > Plasma Half Life".
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "half-life" and "half life" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2651,14 +2616,14 @@ KAU_Y1=0.8
 [Orientation ILO 26, SAQ and MCQ ticks] To explain the clinical applications of the t1/2
 [EOY 2024 Section 1 Q17, distractor marked wrong] It takes two half-lives for a drug to attain steady state concentration in plasma.
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-HALF-LIFE-APPLICATIONS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2696,8 +2661,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest, for the reason given on CON-FND-955AD7B6FE6F03 — no microtopic covers half-life.
 microtopicId: There is no microtopic for half-life or for time to steady state.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the 2024 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "steady state" and "dosing interval" — the two live "steady state" hits are the maintenance-dose record and a renal inulin record, neither of which is a corpus candidate for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2789,14 +2752,14 @@ KAU_Y1=0.85
 [EOY 2025 Section 1 Q15, correct option] Equal rates of drug administration and drug elimination
 [Orientation ILO 27, SAQ and MCQ ticks] To define steady-state plasma concentration (Css) and explain how it is achieved with repeated drug dosing
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-STEADY-STATE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2834,8 +2797,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. Steady state belongs to no single kinetic microtopic; SYS-FND-T04-S01 is the nearest honest home, and it is where the two live dose records already sit.
 microtopicId: There is no microtopic for steady state.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "steady state" and "Css" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -2926,14 +2887,14 @@ KAU_Y1=0.5
 [Orientation ILO 31, MCQ tick] To mention the possible mechanisms of drug action
 [Department book, chapter ILO 1] Explain the different possible mechanisms of action of drugs .
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DRUG-ACTION-MECHANISMS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -2971,8 +2932,6 @@ authored_needs_independent_evidence
 primaryNodeId: SYS-FND-T04-S02 is Pharmacodynamics, and this concept spans all three of its microtopics rather than sitting in one; the subtopic node is the honest placement, not a stretch.
 microtopicId: The concept covers receptor and non-receptor mechanisms together, so no single microtopic fits; module_subject carries the book's own position.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's chapter ILO block; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "mechanism of action" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3066,14 +3025,14 @@ KAU_Y1=0.85
 [EOY 2024 Section 1 Q21, correct option] Affinity.
 [Orientation ILO 32, SAQ and MCQ ticks] To define a receptor, affinity, efficacy and potency
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-RECEPTOR-AFFINITY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3110,8 +3069,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M01 is Receptors and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "receptor" and "affinity" — no pharmacology candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3207,14 +3164,14 @@ KAU_Y1=0.85
 [Orientation ILO 32, SAQ and MCQ ticks] To define a receptor, affinity, efficacy and potency
 [Orientation ILO 33, MCQ tick] To determine the type of drug-receptor relation for a dose-response or a concentration- response curve
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-POTENCY-VS-EFFICACY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3251,8 +3208,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M02 is Dose-response and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "potency", "efficacy" and "Emax" — no pharmacology candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3346,14 +3301,14 @@ KAU_Y1=0.8
 [Orientation ILO 34, SAQ and MCQ ticks] To explain the differences between various types of receptor ligands
 [EOY 2025 Section 1 Q20, distractor] Drug A is a full agonist and Drug B is a partial agonist
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-LIGAND-TYPES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3390,8 +3345,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M01 is Receptors and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the 2025 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "agonist", "partial agonist" and "ligand" — the only live matches are immunology and membrane-physiology records, and none is a corpus candidate for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3489,14 +3442,14 @@ KAU_Y1=0.9
 [EOY 2024 Section 1 Q20, correct option] It can be displaced by an excess of the agonist.
 [Orientation ILO 35, SAQ and MCQ ticks] To compare different types of drug antagonism
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-COMPETITIVE-ANTAGONISM-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3533,8 +3486,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M02 is Dose-response and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "competitive antagonist" and "antagonism" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3626,14 +3577,14 @@ KAU_Y1=0.8
 [EOY 2025 Section 1 Q21, correct option] It binds covalently, and its block ends only with new receptor synthesis
 [Orientation ILO 35, SAQ and MCQ ticks] To compare different types of drug antagonism
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-IRREVERSIBLE-ANTAGONISM-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3670,8 +3621,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M02 is Dose-response and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "irreversible antagonist" and "covalent" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3767,14 +3716,14 @@ KAU_Y1=0.95
 [EOY 2024 Section 2 QIV1, 4 marks] The 4 types of drug receptors and briefly describe how each type transduces signals.
 [Orientation ILO 36, SAQ and MCQ ticks] To describe different types of receptors and signal transduction mechanisms
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-RECEPTOR-TYPES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3811,8 +3760,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M01 is Receptors and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "signal transduction" and "G protein" — no pharmacology candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -3903,14 +3850,14 @@ KAU_Y1=0.75
 [Orientation ILO 38, SAQ and MCQ ticks] To define adverse drug reactions (define each type and subtype)
 [Orientation ILO 39, MCQ tick] To classify adverse drug reactions
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ADR-CLASSIFICATION-01
 
 ## resource_occurrence_ids
 [clear]
@@ -3947,8 +3894,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M01 is Adverse reactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's five Type headings; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "adverse drug reaction" and "ADR" — the three live "adverse" hits are drug-specific toxicity records in gi, renal and infection, not classifications, and none is a corpus candidate for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4040,14 +3985,14 @@ KAU_Y1=0.5
 [Orientation ILO 41, MCQ tick] To determine the type of an adverse drug reaction by knowing its clinical description and its circumstances
 [Orientation ILO 42, MCQ tick] To mention important precautions with different types of adverse drug reactions
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ADR-TYPE-A-B-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4084,8 +4029,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M01 is Adverse reactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "type A reaction" and "predictable adverse" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4185,14 +4128,14 @@ KAU_Y1=0.85
 [EOY 2024 Section 1 Q24, correct option] Idiosyncrasy
 [EOY 2025 Section 2 Q3c, 1 mark] Super-sensitivity
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ALLERGY-IDIOSYNCRASY-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4229,8 +4172,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M01 is Adverse reactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "idiosyncrasy" and "drug allergy" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4330,14 +4271,14 @@ KAU_Y1=0.7
 [EOY 2024 Section 1 Q24, distractors] Teratogenicity
 [Orientation ILO 40, MCQ tick] To define different types of adverse drug reactions
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ADR-TYPE-C-D-E-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4374,8 +4315,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M01 is Adverse reactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "teratogenicity" and "withdrawal" — the one live teratogen hit is an embryology record about cytomegalovirus and is not a corpus candidate for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4471,14 +4410,14 @@ KAU_Y1=0.65
 [Orientation ILO 43, MCQ tick] To describe the mechanisms underlying acquired drug tolerance (pharmacokinetic and pharmacodynamic mechanisms)
 [Orientation ILO 37, MCQ tick] To explain the effect of chronic use of agonists and antagonists on receptor number and sensitivity (down-regulation and up-regulation)
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ACQUIRED-TOLERANCE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4516,8 +4455,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. Tolerance has no microtopic anywhere in SYS-FND-T04; the mechanism the department actually examined in 2025 is receptor adaptation, so the Pharmacodynamics subtopic node is the nearest honest home and DIS-PHA-T01 is carried as a secondary for the kinetic half. No node was invented.
 microtopicId: There is no microtopic for tolerance; module_subject carries the book's own position, under Type C chronic effects.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2025 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "tolerance" and "down-regulation" — the three live "tolerance" hits are immunological graft tolerance and glucose tolerance, and none is a corpus candidate for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4610,14 +4547,14 @@ KAU_Y1=0.7
 ## original_wording
 [Orientation ILO 44, SAQ and MCQ ticks] To differentiate between the subtypes of drug dependence: habituation (psychic dependence), physical dependence, and addiction
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DRUG-DEPENDENCE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4655,8 +4592,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. Dependence has no microtopic in SYS-FND-T04; it is placed beside tolerance on the Pharmacodynamics subtopic node because the adaptation that produces it is a receptor adaptation, with DIS-PHA-T08 carried as the prescribing-and-pharmacovigilance secondary. No node was invented.
 microtopicId: There is no microtopic for drug dependence; module_subject carries the book's own position.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "dependence" and "addiction" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4752,14 +4687,14 @@ KAU_Y1=0.5
 [Orientation ILO 46, MCQ tick] To explain the consequences of some drug interactions by knowing their description
 [Department book, chapter ILO 10] Describe the various mechanisms of drug-drug interactions
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DRUG-INTERACTION-TYPES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4796,8 +4731,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M02 is Interactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet and the book's three interaction headings; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "drug interaction" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -4889,14 +4822,14 @@ KAU_Y1=0.5
 ## original_wording
 [Orientation ILO 47, MCQ tick] To explain the possible results of drug combinations: summation, synergism, potentiation, and reversal of action
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-DRUG-COMBINATION-RESULTS-01
 
 ## resource_occurrence_ids
 [clear]
@@ -4933,8 +4866,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M02 is Interactions and the overlay microtopic matches it.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "synergism" and "potentiation" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -5026,14 +4957,14 @@ KAU_Y1=0.7
 [EOY 2024 Section 2 QIIIa, 1 mark] Physiological antagonism.
 [Orientation ILO 48, SAQ tick] To describe chemical and physiological antagonism as forms of pharmacodynamic drug interaction
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-CHEMICAL-PHYSIOLOGICAL-ANTAGONISM-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5070,8 +5001,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S03-M02 is Interactions and the overlay microtopic matches it, which is where the ILO sheet files this as a pharmacodynamic drug interaction.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "physiological antagonism" and "chemical antagonism" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -5169,14 +5098,15 @@ KAU_Y1=0.55
 [Orientation ILO 50, no tick] To distinguish between the therapeutic index and the therapeutic window as measures of drug safety
 [Orientation ILO 49, no tick] Mention different dosing definitions in relation to therapy and toxicity
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
+src_b4f736e3bd809dbee187
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-THERAPEUTIC-INDEX-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5213,8 +5143,6 @@ authored_needs_independent_evidence
 ## field_notes
 microtopicId: Filled — SYS-FND-T04-S02-M03 is Therapeutic index and the overlay microtopic matches it exactly.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from the 2024 paper and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "therapeutic index", "LD50" and "ED50" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -5306,14 +5234,15 @@ KAU_Y1=0.7
 [Orientation ILO 54, MCQ tick] Mention the advantages and disadvantages of different routes of drug administration and dosage forms
 [EOY 2025 Section 3 Q1a, 0.5 marks] What's the route of administration? [0.5 marks]
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
+src_b4f736e3bd809dbee187
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ROUTES-ENUMERATED-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5351,8 +5280,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest. Route of administration is a kinetic determinant with no microtopic anywhere in SYS-FND-T04; SYS-FND-T04-S01-M01 (Absorption) is the nearest honest home, because the route is what decides whether absorption happens at all. No node was invented.
 microtopicId: There is no microtopic for routes of administration; module_subject carries the book's own section, which is its ninth and last.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "route of administration" and "parenteral" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -5449,14 +5376,14 @@ KAU_Y1=0.7
 [EOY 2024 Section 3 Q6b, 0.5 marks] Mention the disadvantages of this route of administration. [0.5 marks]
 [Orientation ILO 55, MCQ tick] Describe the route of administration of various dosage forms of drugs
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-ORAL-ROUTE-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5494,8 +5421,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest, for the reason given on CON-FND-6A60CE8D2E7C5C — routes of administration has no microtopic, and Absorption is the nearest honest home.
 microtopicId: There is no microtopic for the oral route.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers and the ILO sheet; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "oral route" and "sublingual" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.
@@ -5594,14 +5519,14 @@ KAU_Y1=0.7
 [EOY 2024 Section 3 Q3, 0.5 marks] Mention the precautions done for administration of irritant drugs by the intravenous route? [0.5 Mark]
 [EOY 2024 Section 3 Q5, 0.5 marks] Mention 2 possible applications for intra-arterial injection [0.5 Mark]
 ## resource_ids
-[clear]
+src_af30e4191cb4087f8d3f
 
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-[clear]
+CLM-FND-IV-TYPES-01
 
 ## resource_occurrence_ids
 [clear]
@@ -5639,8 +5564,6 @@ authored_needs_independent_evidence
 primaryNodeId: Placed under protest, for the reason given on CON-FND-6A60CE8D2E7C5C — routes has no microtopic and Absorption is the nearest honest home, even though an intravenous drug is by definition not absorbed. That is the sharpest stretch in this file and it is recorded as such rather than solved by inventing a node.
 microtopicId: There is no microtopic for parenteral administration.
 nanotopicId: No NAN_ ids exist for first-year general pharmacology in the catalogue.
-atomicClaimIds: No evidence pass has been run for 108 INT (LD-14, MASTER-PLAN.md:117).
-resourceIds: The Kasr src_ sources are absent from corpus-source-index.json; they are cited in the preamble and on exam_signal.
 resourceOccurrenceIds: Hand-authored from both papers; no corpus extraction record exists.
 sourceCandidateIds: Searched the corpus concept index for "intravenous" and "intrathecal" — no candidate record exists for this module.
 approvedFileResourceIds: No file resource has been rights-cleared for 108 INT.

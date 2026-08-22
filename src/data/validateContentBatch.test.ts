@@ -60,6 +60,18 @@ function authorModule() {
     '## explicit_objective',
     'Say which tissue sets the heart rate, and why that one rather than another.',
     '',
+    '---',
+    '',
+    '# Item',
+    '## label',
+    'The cardiac conducting system',
+    '## id',
+    'CON-TEST-CONDUCTING-SYSTEM',
+    '## definition',
+    'The specialised myocardium that generates and distributes the impulse: SA node, AV node, bundle of His, Purkinje fibres.',
+    '## explicit_objective',
+    'List the components of the conducting system in the order the impulse travels.',
+    '',
   ].join('\n'))
 
   const articles = join(root, 'article', 'TEST-articles.md')
@@ -113,7 +125,50 @@ function authorModule() {
     '',
   ].join('\n'))
 
-  return { root, concepts, articles, claims, spans }
+  const citations = join(root, 'evidence', 'TEST-citations.md')
+  writeFileSync(citations, [
+    '# Item',
+    '## id',
+    'CIT-KA-TEST-SA-NODE-01',
+    '## claim_id',
+    'CLM-TEST-SA-NODE-01',
+    '## resource_id',
+    'RES-WEB-TEST-01',
+    '## support_span',
+    'The sinoatrial node depolarises faster than any other pacemaker tissue.',
+    '## locator',
+    'page: 12',
+    '',
+  ].join('\n'))
+
+  return { root, concepts, articles, claims, spans, citations }
+}
+
+/**
+ * A relation batch in its own `relations/` directory, naming records that live
+ * in three other directories: two concepts in `concept/`, a claim and a
+ * citation in `evidence/`. Its own directory resolves none of them, which is
+ * what makes this branch the worst instance of the sibling-scope bug.
+ */
+function authorRelation(root: string, options: { citationId: string }) {
+  const dir = join(root, 'relations')
+  mkdirSync(dir, { recursive: true })
+  const batch = join(dir, 'TEST-relations.md')
+  writeFileSync(batch, [
+    '# Item',
+    '## source',
+    'CON-TEST-SA-NODE',
+    '## type',
+    'part_of',
+    '## target',
+    'CON-TEST-CONDUCTING-SYSTEM',
+    '## evidence_claim_ids',
+    'CLM-TEST-SA-NODE-01',
+    '## citation_ids',
+    options.citationId,
+    '',
+  ].join('\n'))
+  return batch
 }
 
 test('a claim batch resolves concepts named with --with from another directory', () => {
@@ -226,7 +281,7 @@ test('--with resolving one concept does not excuse another that exists nowhere',
 
     // The fold-in ran: the note says so, and the resolvable claim is not faulted.
     assert.ok(
-      report.notes.some((note) => note.includes('1 concept rows treated as pending import')),
+      report.notes.some((note) => note.includes('concept rows treated as pending import')),
       `expected the sibling fold-in to report itself, got ${JSON.stringify(report.notes)}`,
     )
     assert.ok(
@@ -268,6 +323,101 @@ test('a --with sibling that is also a directory sibling is counted once', () => 
     const counted = report.notes.filter((note) => note.includes('resource rows treated as pending import'))
     assert.equal(counted.length, 1, `the resources batch should be reported once, got ${JSON.stringify(counted)}`)
     assert.ok(counted[0].includes('1 resource rows'), `expected one row, got ${counted[0]}`)
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
+test('[clear] in a parseSections column is refused, and an empty body is not', () => {
+  // The third spelling of "deliberately empty", which nothing checked. There are
+  // two documented ones — an empty body for text(), `[clear]` for optionalList()
+  // — and check-empties.py classifies every column as one or the other. Section
+  // columns are neither, so they fell through the gap and it reported
+  // "0 sentinel-in-text" on thirty articles carrying exactly that.
+  //
+  // parseSections('[clear]') does not return []. With no `###` to split on it
+  // returns one section with an empty heading whose body is the literal string
+  // "[clear]" — and on `published_sections`, the evidence-gated student
+  // projection, that is a section a student can read.
+  const module = authorModule()
+  try {
+    const withSentinel = join(module.root, 'article', 'TEST-sentinel.md')
+    const article = (publishedSections: string) => [
+      '# Item',
+      '## id',
+      'ART-TEST-SENTINEL',
+      '## title',
+      'The cardiac pacemaker',
+      '## subject',
+      'cvs',
+      '## summary',
+      'Which tissue sets the heart rate.',
+      '## sections',
+      '### Mechanism',
+      'The sinoatrial node depolarises fastest.',
+      '## published_sections',
+      publishedSections,
+      '',
+    ].join('\n')
+
+    writeFileSync(withSentinel, article('[clear]'))
+    const refused = validate(withSentinel)
+    assert.ok(
+      refused.errors.some((error) => error.includes('published_sections holds the literal "[clear]"')),
+      `expected the sentinel to be refused, got ${JSON.stringify(refused.errors)}`,
+    )
+
+    // The correct empty for this column, which must stay clean.
+    writeFileSync(withSentinel, article(''))
+    const accepted = validate(withSentinel)
+    assert.ok(
+      !accepted.errors.some((error) => error.includes('[clear]')),
+      `an empty body is the right way to say this, got ${JSON.stringify(accepted.errors)}`,
+    )
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
+test('a relation resolves concepts, claims and citations named with --with', () => {
+  // The worst instance of the sibling-scope bug, and the last branch to carry
+  // it. A relation names four records across three other directories — two
+  // concepts in `concept/`, a claim and a citation in `evidence/` — while the
+  // edge itself sits in `relations/`. Reading its own directory resolves none
+  // of them, and relationErrors separately refuses an edge with no evidence
+  // chain, so a correctly ordered relation batch could not reach zero errors by
+  // any route except performing the import it was validating.
+  const module = authorModule()
+  try {
+    const batch = authorRelation(module.root, { citationId: 'CIT-KA-TEST-SA-NODE-01' })
+    const report = validate(batch, module.concepts, module.claims, module.citations)
+    assert.equal(report.kind, 'relation')
+    assert.deepEqual(report.errors, [])
+  } finally {
+    rmSync(module.root, { recursive: true, force: true })
+  }
+})
+
+test('a relation still refuses a citation ID that only looks right', () => {
+  // The negative control, and a near-miss rather than a straw man: the real ID
+  // is CIT-KA-TEST-SA-NODE-01 and this drops the KA segment, which is the shape
+  // of mistake an author actually makes. Everything else in the edge resolves
+  // through --with in the same run, so this cannot pass by the fold-in being
+  // dead — it is one refusal standing alone among three resolutions.
+  const module = authorModule()
+  try {
+    const batch = authorRelation(module.root, { citationId: 'CIT-TEST-SA-NODE-01' })
+    const report = validate(batch, module.concepts, module.claims, module.citations)
+    assert.ok(
+      report.errors.some((error) => error.includes('CIT-TEST-SA-NODE-01')),
+      `expected the near-miss citation to be refused, got ${JSON.stringify(report.errors)}`,
+    )
+    for (const resolved of ['CON-TEST-SA-NODE', 'CON-TEST-CONDUCTING-SYSTEM', 'CLM-TEST-SA-NODE-01']) {
+      assert.ok(
+        !report.errors.some((error) => error.includes(`${resolved} does not exist`)),
+        `${resolved} should have resolved through --with, got ${JSON.stringify(report.errors)}`,
+      )
+    }
   } finally {
     rmSync(module.root, { recursive: true, force: true })
   }

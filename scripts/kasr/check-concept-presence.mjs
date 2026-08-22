@@ -121,6 +121,30 @@ const ARTICLE_SHAPE = {}
   }
 }
 
+/**
+ * Columns read by `parseSections`, where BOTH sentinels are wrong.
+ *
+ * There is a third parser and a third convention, and this checker knew only
+ * two — so it classified `published_sections` as a list and told authors to put
+ * `[clear]` in it. That advice is worse than the gap it was reporting:
+ *
+ *   parseSections('[clear]') -> [{ heading: '', body: '[clear]' }]
+ *   parseSections('')        -> []
+ *
+ * The sentinel does not store an empty list. It stores one section, no heading,
+ * body the literal word — and `published_sections` is the evidence-gated
+ * student projection, so a student could read a section containing "[clear]".
+ * Thirty articles across three modules held exactly that, and the checker built
+ * for this class reported them clean because section columns fall in the gap
+ * between its two buckets.
+ *
+ * Which is the same lesson as the one this file already carries about probes
+ * that reach only one code path, one level up: a checker verified against the
+ * two parsers it knows is a claim about those two parsers. Kept in step with
+ * `validate-content-batch.mjs`, which refuses these by name.
+ */
+const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media', 'media_recommendations']
+
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
 /** The import wizard's parser, kept identical on purpose. */
@@ -225,6 +249,13 @@ for (const file of process.argv.slice(2)) {
   const shape = {}
   for (const row of rows) {
     for (const [col, value] of Object.entries(row)) {
+      if (SECTION_COLUMNS.includes(col)) {
+        // Neither sentinel belongs here; only an empty body means empty.
+        if (value === '[clear]') {
+          (shape[`${col} holds the literal "[clear]" — it is parsed by parseSections(), which stores that as a section whose body is the word itself. Leave the body empty`] ??= []).push(row.id)
+        }
+        continue
+      }
       if (shapeOf[col] === 'list' && value === '') {
         (shape[`${col} is a list column emitted empty — needs [clear], or it stores null where [] was meant`] ??= []).push(row.id)
       }

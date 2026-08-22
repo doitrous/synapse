@@ -114,6 +114,40 @@ if (!VALIDATED_KINDS.includes(kind)) {
 }
 
 /**
+ * Columns read by `parseSections`, and the third way to spell "deliberately
+ * empty" — which until now nothing checked.
+ *
+ * There are two documented empties: an empty body for a `text()` column, and
+ * `[clear]` for an `optionalList()` one. Each is silently wrong in the other's
+ * column, and `scripts/kasr/extract/108-INT/check-empties.py` exists to catch
+ * exactly that. It classifies every column as one or the other — and these are
+ * neither, so they fell through the gap between the two buckets and it reported
+ * "0 sentinel-in-text" on files full of them.
+ *
+ * `parseSections('[clear]')` does not return `[]`. It returns one section with
+ * an empty heading whose body is the literal string `[clear]`, because there is
+ * no `###` heading to split on. On `published_sections` — the evidence-gated
+ * student projection — that is a section a student can read, containing the
+ * word "[clear]". Thirty articles across three batches in two lanes were
+ * carrying it, and all three files passed `medical:batch` with zero errors.
+ *
+ * The correct empty here is an empty body: `parseSections` returns `[]` for
+ * both `''` and `undefined`.
+ */
+const SECTION_COLUMNS = ['sections', 'published_sections', 'annotations', 'media', 'media_recommendations']
+rows.forEach((values, index) => {
+  for (const column of SECTION_COLUMNS) {
+    if (values[column]?.trim() !== '[clear]') continue
+    errors.push(
+      `Item ${index + 1} (${values.id ?? values.title ?? values.label ?? 'untitled'}): `
+      + `${column} holds the literal "[clear]". That sentinel is read by optionalList() columns, and this one is `
+      + 'parsed by parseSections(), which has no heading to split on and stores a section whose body is the word '
+      + '"[clear]" — visible content, not an empty list. Leave the body empty instead; parseSections returns [] for that.',
+    )
+  }
+})
+
+/**
  * Fold `--with` siblings in as though already imported.
  *
  * Both the question branch and the practical branch resolve concepts against
@@ -189,9 +223,25 @@ if (kind === 'relation') {
   const concepts = []
   const claims = []
   const citations = []
-  for (const name of await readdir(dir)) {
-    if (!name.endsWith('.md')) continue
-    for (const row of parseMarkdown(await readFile(join(dir, name), 'utf8'))) {
+  // The same hole the evidence branch had, and wider. A relation names two
+  // concepts *and* a claim *and* a citation, and a batch keeps each kind in its
+  // own folder — `concept/`, `evidence/`, `relations/` — so reading only this
+  // directory resolves none of the four. `relationErrors` additionally refuses
+  // an edge with no evidence chain, so a correctly ordered relation batch could
+  // not reach zero errors by any route except performing the import it was
+  // validating.
+  //
+  // Deduplicated by resolved path for the same reason the evidence branch is: a
+  // `--with` file may already be a sibling here, and these are arrays. Harmless
+  // for the existence checks below, which only ask whether an ID is present —
+  // but leaving the identical double-read in the branch next door to the one it
+  // was just removed from is how it comes back.
+  const nearby = [...new Set([
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside,
+  ].map((path) => resolve(path)))]
+  for (const name of nearby) {
+    for (const row of parseMarkdown(await readFile(name, 'utf8'))) {
       const k = detectKind(row)
       if (k === 'concept') concepts.push({ id: row.id?.trim() })
       if (k === 'claim') claims.push({ id: row.id?.trim() })
@@ -655,8 +705,20 @@ if (kind !== 'concept') {
       else {
         const record = corpusSources[id]
         if (!record) errors.push(`${where}: ${id} is not a source the corpus contains — do not invent a source ID`)
-        else if (values.source_relative_path?.trim() && values.source_relative_path.trim() !== record.sourceRelativePath) {
-          errors.push(`${where}: ${id} is "${record.sourceRelativePath}" in the corpus, not "${values.source_relative_path.trim()}"`)
+        else if (values.source_relative_path?.trim()) {
+          // A content-addressed ID can be filed under more than one name — fourteen in
+          // this corpus are. The index reports *every* path it holds for an ID, and any
+          // of them is a truthful answer, so the check accepts the set.
+          //
+          // It used to compare against a single `sourceRelativePath`. For an ambiguous
+          // ID that field is null, so both real paths were refused with `is "null" in
+          // the corpus` — worse than the arbitrary pick it replaced, because an
+          // arbitrary pick is right half the time and this was wrong every time.
+          const given = values.source_relative_path.trim()
+          const known = record.sourceRelativePaths ?? (record.sourceRelativePath ? [record.sourceRelativePath] : [])
+          if (known.length && !known.includes(given)) {
+            errors.push(`${where}: ${id} is ${known.map((path) => `"${path}"`).join(' or ')} in the corpus, not "${given}"`)
+          }
         }
       }
     }

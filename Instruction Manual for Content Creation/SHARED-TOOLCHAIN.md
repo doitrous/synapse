@@ -2796,3 +2796,330 @@ down.
 
 **It needs an owner.** It is a 108 file; nine missing `canonical_key` values is a small fix
 against a large blast radius.
+
+---
+
+## A regeneration deleted two other modules' written batches, in a commit about neither
+
+The orphan sweep, realised. `3248210` — *"Place forty-nine sitting signals the matcher would not
+guess at"*:
+
+```
+ concept/101-ISK-concepts.md                  144 +-
+ written/104-CPS-EOY-2025-written.md         1399 -------
+ written/108-INT-EOY-written.md              3815 --------------------
+ scripts/kasr/seeds/sittings.ts               104 +
+ 4 files changed, 193 insertions(+), 5269 deletions(-)
+```
+
+**5,269 lines of two other modules' committed written batches, removed by a commit whose subject
+names neither and whose stated purpose is adding sitting signals.** One of them belonged to a
+module that had merged through a PR with green checks hours earlier.
+
+**The mechanism is the stale registry.** A generator regenerating `written/` sweeps files it
+does not recognise, and its registry only knows the papers its own lane registered. **A registry
+listing fewer papers does not error — it deletes what it no longer knows about.** This is the
+third instance of that class and the first that reached `main`.
+
+> **Before committing a regeneration, read the deletions in your own diff.** A `git diff --stat`
+> showing four-figure deletions in a directory you did not mean to touch is the whole signal,
+> and it is available before the push rather than after.
+
+### `medical:batches-present` is correctly red, and should stay red
+
+One lane wired that check **after its own written batch was deleted twice in an hour** by
+commits about a different module — the second time its rebase pulled the deletion onto its disk
+and **every other check stayed green.**
+
+It currently fails naming `written/104-CPS-EOY-2025-written.md`, absent while its ledger expects
+15 items. **That is the check working.** The restore is in an open PR; that PR passes, and only
+PRs without it fail.
+
+> **A check that went quiet about a genuinely missing batch to keep the pipeline green would be
+> worth nothing.** A red that names a real absence is the most valuable state a gate can be in.
+
+### Satisfying one unscoped gate can break another
+
+Both were the same lane's to fix, and the sequence is instructive. Fixing `medical:presence` on
+nine update rows meant restating eighteen fields from live state — including `resourceIds`,
+**whose live value points at a source outside the Kasr corpus.** Nine rows then cited a source ID
+naming no manifest row, and **`medical:citations` went red for every lane** until it was removed.
+
+The reasoning that settled it is worth keeping:
+
+> Those nine concepts were sourced by somebody else. **This module's claim on them is a module
+> attachment, not a provenance claim.** Restating a true value from another corpus was an
+> assertion the module had no standing to make.
+
+**Omitting the column leaves the live value untouched** — verified `resourceIds` identical to
+live afterwards, `created 0 / updated 9`, 0 fields emptied. *A true value can still be a claim
+you are not entitled to make.*
+
+### When a checker is right and the answer is "yes, that is missing"
+
+The `resourceIds` / `atomicClaimIds` half of that red was **not** a checker misreading sanctioned
+gaps. **89 concepts genuinely have no evidence chain**, because the module has none. They carry
+stated `field_notes` reasons, but both fields sit on the must-populate list with **no
+reason-escape** — so the checker is correct and the lane declined to silence it, putting it first
+on the module's own OWED ledger instead.
+
+**Separate the halves of a red before fixing it.** One half was a real absence to own; the other
+was nine missing keys to supply. Fixing them the same way would have been wrong twice.
+
+### The orphan sweep, fixed — and verified in both directions
+
+`removeOrphans` read the whole `written/` directory and deleted anything the current run had not
+just written, **so every other module's file looked exactly like output whose paper had been
+unregistered.** From a bare directory read there was nothing to say, which is why the commit
+said nothing.
+
+**The fix is "cannot reach", not "knows better":** the sweep is scoped to the prefix that
+`slug()` itself builds filenames from — **the same constant, not a second literal beside it.**
+
+> The failure was never the literal being wrong. It was **a sweep whose idea of "mine" could
+> drift from the generator's** — and two copies of `'101-ISK-'` can drift where one cannot.
+
+**Verified in both directions, because a sweep that stopped deleting genuine orphans would be
+this bug wearing the fix as a disguise:**
+
+```
+planted 104-CPS-PROBE-written.md        -> survives a full regeneration untouched
+planted 101-ISK-STALE-2019-written.md   -> still removed, and named in the output
+```
+
+`104-CPS-EOY-2025-written.md` is **restored on `main`**; `medical:batches-present` clears on its
+own.
+
+### Read the shape of your diff, not only its content
+
+The lane's own account of what it missed, and it is the most portable sentence in this section:
+
+> **I read the *content* of my diff and not its *shape*.**
+
+`git diff --stat` showing four-figure deletions in a directory the commit had no business
+touching was available before the push. Content review answers *"is this change right?"*. Shape
+review answers *"is this the change I meant to make?"* — and only the second catches a sweep.
+
+## With `main` moving every two minutes, every report about it is stale by default
+
+**Three consecutive stale reports, from three different lanes, in one stretch:**
+
+- I reported 17 `published_sections` errors and nine missing `canonical_key` — **all already
+  fixed.**
+- The reporting lane relayed the same to two others as live — **it had read the same stale tree.**
+- That lane then reported `medical:citations` red for `src_d98abbe78377e7262afc` on nine concepts
+  — **verified just now: 0 occurrences, 0 `resource_ids` blocks. Already removed.**
+
+Nobody was careless. `main` moves roughly every two minutes, so **a red observed and a red
+reported are different facts**, and the gap between them is where all three landed.
+
+> **Fetch at the moment of reporting, not at the moment of observing — and say when you
+> checked.** A finding about `main` without a timestamp is a claim about a tree that no longer
+> exists.
+
+That the source ID genuinely appears in no manifest row is confirmed — so it was a real error
+while it existed, and reporting it was right. Only its tense was wrong.
+
+---
+
+## The module retrofit is on `main` — and `tsc -b clean` never covered the toolchain
+
+`origin/main` carries `MODULES`, `moduleOf` and `systemFor`; the only remaining
+`kau:101 ISK` in `seeds/types.ts` is **in a comment explaining the history**. Verified.
+
+**Consequence: the reproducibility defect is closed.** The lane that was deliberately shipping
+content without the generator that produced it — because committing a stale copy would have
+regressed another module's papers — can now commit its generator.
+
+### `npx tsc -b` says nothing about anything under `scripts/`
+
+```
+tsconfig.json        references → tsconfig.app.json, tsconfig.node.json
+tsconfig.node.json   include    → ['vite.config.ts']
+```
+
+**No tsconfig program includes `scripts/`.** So every generator, emitter, extractor and checker
+in this programme is **outside the type checker**, and a lane reporting *"`tsc -b` exit 0"*
+alongside its gate results has reported nothing at all about the files it changed.
+
+That is not hypothetical — it is how the next item survived.
+
+### Three duplicated keys in `SITTING_SIGNALS`, silently discarding evidence
+
+`scripts/kasr/seeds/sittings.ts` — confirmed on `main`:
+
+```
+elbow-joint-type-bones-ligaments
+lysosome-types-secondary-fates
+radial-nerve-origin-root-branches
+```
+
+In an object literal **the later key silently wins**, so the earlier entry's sitting signals are
+**discarded**. Those three concepts under-report the papers they were examined on and therefore
+carry a **lower `blueprint_weight`** — which is the number the whole programme exists to get
+right.
+
+TypeScript has an error for exactly this (**TS1117**). It never fired, because `scripts/` is in
+no program. **A duplicate key is the one bug a type checker would have caught for free**, and
+the checker was not looking.
+
+> **Adding `scripts/` to a tsconfig program is a small change with a large return** — and until
+> it happens, treat `tsc -b` as evidence about `src/` only.
+
+### Two lanes solved the orphan sweep from opposite ends, and the merge kept both
+
+Main scoped the sweep with a constant `MODULE_PREFIX = '101-ISK'`, after another module's
+written batch was deleted twice. The retrofit makes the module a **parameter**, so the prefix
+**derives from the module being built** — nothing to forget to edit when a sixth module arrives.
+
+The merge kept main's reasoning verbatim in the file and replaced the constant with the derived
+value. **Same problem from both ends:** main's sweep could not *reach* another module's files;
+the retrofit's cannot *produce a filename it does not own.*
+
+### The gate that caught a regression twice
+
+Run on the base actually landed on, after a re-merge — the first fetch showed **28 commits
+behind** despite a clean pre-gate fetch:
+
+```
+check-id-stability      exit 0        101 regenerated        no file changed
+101 concept fieldsUsed  54, 0 errors  102                    38 concepts, 19 + 15 written
+scoped build            101 builds with 102's seeds absent; 102 fails loudly
+npm test                1324 pass     citations              7,146 resolving
+```
+
+**Byte-identity alone would have passed while taking a module from 54 columns back to 35.** The
+gate had to name the property. And the pre-gate fetch was worthless: *fetch immediately before
+the push, not before you start verifying.*
+
+---
+
+## `scripts/` is in a program now — and what it cost to have been outside one
+
+`tsconfig.scripts.json`, referenced from the root alongside the app and node projects,
+`include: ["scripts/**/*.ts", "scripts/**/*.mjs"]`. **Verified on `main`; `npx tsc -b` exits 0
+with `scripts/` actually in it.**
+
+**What the three duplicated keys had cost**, once merged rather than deduplicated — both entries
+were true, so the fix was a union, not a choice:
+
+```
+elbow-joint-type-bones-ligaments     2 signals -> 5    weight 0.13 -> 0.26
+radial-nerve-origin-root-branches    3 -> 6            weight 0.17 -> 0.30
+lysosome-types-secondary-fates       4 -> 5            weight 0.12 -> 0.15
+```
+
+**One concept's blueprint weight had been halved by a silent overwrite in an object literal** —
+in the field the whole programme exists to compute.
+
+### Two choices in that config worth knowing, because it is shared
+
+**It borrows the app's bundler resolution, `@/` alias and DOM lib**, because these files import
+`src/data/*`. Under Node resolution the first run reported the **app** as broken — missing
+`@/lib/api`, extensionless relative imports, `window` undefined — **none of which is a fact
+about `scripts/`.** A program configured wrongly does not report *nothing*; it reports
+confidently about the wrong thing.
+
+**It is deliberately loose** — `strict: false`, `noImplicitAny: false`. These run under
+`--experimental-strip-types`, which erases types without checking them, and they are full of
+`readFileSync` JSON handled as `any`.
+
+> **Turning that into hundreds of errors is how a program gets switched back off.** Duplicate
+> keys, arity, misspelled properties and unreachable code are what it is for.
+
+It earned its place on the first run, finding a real error in `check-column-parsers.ts` — a
+`Concept` cast straight to `Record<string, unknown>` where `Concept` has no index signature.
+**The checker built to catch this class was itself in it.**
+
+### A probe written to the wrong shape reads exactly like a column that does not exist
+
+New instance of the stand-in, and the sharpest one for anybody writing probes. Measuring
+`exam_weight_by_year` through the importer, a first probe reported it as an **invisible column**
+— because the probe used the `A | B` list form and that column does not take it.
+
+> **A probe written to the wrong shape reads exactly like a column that does not exist.**
+
+Same family as a probe batch that comes back `kind: "unknown"` — the branch never runs, and
+every case "passes". **Print what the probe was recognised as, beside the result.**
+
+### `[clear]` as a claim rather than an omission
+
+Worth recording as the positive use of the sentinel, now that most of this file is about getting
+it wrong. `concept_ids` and `contextual_concept_ids` are `[clear]` on a grouped written batch —
+**deliberately, and it asserts something true**: the question already names every concept it
+tests on `main_concept`, and nothing in this corpus records which concepts a stem merely *needs*
+without assessing.
+
+**An empty list stating "considered, and there are none" is a finding. An omission is silence.**
+
+### Hand a lane a change in its own files, do not bury it in your commit
+
+One lane derived three question columns and **held them back** rather than applying them,
+because filling them would have rewritten all seven of another lane's committed written batches.
+The other lane's reaction is the reason to keep doing it:
+
+> **Arriving as a diff I did not write, in files I own, is precisely how the sweep incident
+> started.**
+
+---
+
+## A note that reads as cosmetic can mean "this check does not run here"
+
+`medical:batches-present` prints, for one module:
+
+```
+note  102-INT: ledger has no 'Authored so far' table, so this module has no absence check
+```
+
+**It reads like housekeeping. It means the gate is off for that module** — proved behaviourally
+rather than by reading the checker:
+
+```
+hid 102-INT-EOY-2024-written.md   -> exit 0
+hid 102-INT-EOY-2025-written.md   -> exit 0
+```
+
+Both of a module's written batches deleted, gate green. The same test on the other four modules
+gives `1 loss(es)` and **exit 1**. Confirmed on `main`: `102-INT-coverage.md` has no
+*Authored so far* section; the other four ledgers do.
+
+> **A check reporting that it did not run is doing the right thing and saying it in the wrong
+> register.** An absence check that finds no expectations has nothing to compare against — that
+> is a *failure to be able to check*, not a note. Same shape as an empty classification passing,
+> and the fix is the same: **make it exit non-zero.**
+
+### Why it is not urgent, and exactly when it becomes so
+
+`removeOrphans` deletes any `<module>-*-written.md` the current run did not write — **the
+mechanism that destroyed committed work three times.** 102-INT is not exposed *today*, because
+`registry.ts:68-69` registers its two papers and the two files on disk match the generated
+filename shape, so a build **rewrites** them rather than sweeping them.
+
+**The hazard is the combination.** A **hand-authored** `102-INT-*-written.md` — the moment
+anyone adds one — would be **both reachable by the sweep and invisible to the detector.**
+
+> That pairing is exactly what cost another lane two batches: **deleted, unmentioned, every
+> other gate green.**
+
+**Fix:** give `102-INT-coverage.md` an *Authored so far* table, as the other four have —
+
+```
+## Authored so far
+
+| Batch | Items |
+| --- | --- |
+| `concept/103-BMS-anatomy-concepts.md` | 15 |
+```
+
+### A stale ledger miscalibrates the check that depends on it
+
+```
+103-BMS: evidence/103-BMS-sources.md holds 8 items, ledger says 6
+```
+
+The batch grew and the ledger was not regenerated, so that module's absence check is calibrated
+against a **stale number**. Less dangerous than no check at all — it still fires — but it fires
+against the wrong expectation, and a check whose baseline drifts is on its way to being ignored.
+
+**An absence check is only as good as the ledger it reads. Regenerate the ledger in the same
+commit as the batch.**
