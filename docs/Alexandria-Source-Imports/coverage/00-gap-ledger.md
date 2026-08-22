@@ -619,3 +619,17 @@ HAZARDS: 10 items in §(v) above — duplicate pairs not byte-identical; 92 "Upd
   containers with no module_id; inconsistent cohort/stream labelling in filenames.
 BLOCKED: none
 ```
+
+---
+
+## Wave-1 decisions (orchestrator, approved by the chief of staff 2026-08-22 evening)
+
+Recorded here so wave 2 does not re-derive them.
+
+| Module | Decision |
+|---|---|
+| AU-MED-102 | Physiology (1 file) is folded into the Histology lane's triage — authored only if a paper tests it. Pathology (Genetics), 0 files → fetch list, no lane. |
+| AU-MED-103 | Anatomy (0 files) and Medical Terminology (no folder) → fetch list, no lane. |
+| AU-MED-105 | **No-paper guard.** No EOM/EOY paper exists; the MCQ banks are the triage source; `exam_signal` tier is the *bank* tier, never a paper's; concepts and articles cover what the banks test and nothing more. When a paper arrives from the fetch list the lane re-triages before widening. Biochemistry, 0 files → fetch list. Communication (1 file) deferred — non-medical skills. |
+| AU-MED-106 | **No-paper guard**, as for 105. Anatomy and Anatomy-and-Embryology are one lane (sibling-folder split). Biochemistry (14) and Histology (11) deferred to wave 2 until an EOM paper or the bank triage shows they are examined. Clinical Skills (15) → a practical lane later. |
+| All | Wave 1 = 13 lanes, Year 1 only. Each lane stops after triage; the orchestrator consolidates a checkpoint table (questions triaged · distinct concepts tested · hit live / hit pending / new) for the chief of staff before any lane mints. |
