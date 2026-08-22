@@ -578,3 +578,57 @@ test('a live concept may restate the candidate ids it already carries', () => {
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+/* ---- completeness warnings ----------------------------------------------- */
+
+test('thin records are reported per record, and never as an error', () => {
+  // `fieldsUsed` in the summary is the union of every column any row uses, so
+  // one complete record makes a file of stubs report a full count. The floor
+  // the manual states is per record. Same name, different measurement.
+  const root = mkdtempSync(join(tmpdir(), 'completeness-'))
+  mkdirSync(join(root, 'question'))
+  const question = (id: string, extra: string[]) => ['# Item', '## id', id, '## title', 'T', '## subject', 'msk',
+    '## format', 'single best answer', '## question', 'Which?', '## correct_answer', 'a',
+    '## answer_a', 'This', '## answer_b', 'That', '## explanation_a', 'Because.', ...extra, ''].join('\n')
+  // One padded row and one bare row: the file-level union looks healthy, the
+  // per-record count does not.
+  const padding = Array.from({ length: 30 }, (_, index) => [`## spare_${index}`, 'x']).flat()
+  writeFileSync(join(root, 'question', 'q.md'), `${question('QM-T-1', padding)}\n---\n${question('QM-T-2', [])}`)
+  try {
+    const report = validate(join(root, 'question', 'q.md')) as { warnings?: string[], errors: string[] }
+    const warnings = report.warnings ?? []
+    assert.ok(warnings.some((line) => /below the question fieldsUsed floor/.test(line)),
+      `expected a floor warning, got ${JSON.stringify(warnings)}`)
+    // Thinness is not invalidity. A short record imports and can be answered;
+    // a gate that failed on it would block correct batches and be argued with.
+    assert.ok(!report.errors.some((error) => /fieldsUsed floor/.test(error)),
+      'completeness must never be an error')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('the explanation distribution measures the correct answer, and skips rows without one', () => {
+  const root = mkdtempSync(join(tmpdir(), 'explanations-'))
+  mkdirSync(join(root, 'question'))
+  const rows = [
+    // correct is b, so the long explanation_a must NOT be what is measured.
+    ['# Item', '## id', 'QM-T-1', '## title', 'T', '## subject', 'msk', '## format', 'single best answer',
+      '## question', 'Which?', '## correct_answer', 'b', '## answer_a', 'A', '## answer_b', 'B',
+      '## explanation_a', 'x'.repeat(900), '## explanation_b', 'Short one.'].join('\n'),
+    // No explanation for its correct answer at all.
+    ['# Item', '## id', 'QM-T-2', '## title', 'T', '## subject', 'msk', '## format', 'single best answer',
+      '## question', 'Which?', '## correct_answer', 'a', '## answer_a', 'A', '## answer_b', 'B'].join('\n'),
+  ]
+  writeFileSync(join(root, 'question', 'q.md'), rows.join('\n\n---\n\n'))
+  try {
+    const warnings = (validate(join(root, 'question', 'q.md')) as { warnings?: string[] }).warnings ?? []
+    const distribution = warnings.find((line) => line.startsWith('explanation of the correct answer'))
+    assert.ok(distribution, `expected a distribution line, got ${JSON.stringify(warnings)}`)
+    assert.match(distribution, /across 1 question/, 'only the row with a correct-answer explanation counts')
+    assert.match(distribution, /shortest 10 chars/, 'it must measure explanation_b, not the 900-char explanation_a')
+    assert.ok(warnings.some((line) => /1 question\(s\) have no explanation/.test(line)))
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})

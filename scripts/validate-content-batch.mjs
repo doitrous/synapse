@@ -279,6 +279,92 @@ function mixedAppendErrors(values) {
  */
 const WITH_HINT = ' — if it is authored in this batch set, name its concept file with --with'
 
+/* ---- completeness, reported and never enforced --------------------------- */
+
+/**
+ * The manual's per-record `fieldsUsed` floor, by kind.
+ *
+ * `fieldsUsed` in the summary below is the union of every column any row uses,
+ * which is a fact about the *file*: one complete record makes a file of thin
+ * ones report 52. The floor the manual states — "fieldsUsed >= 50, there is no
+ * excuse for 28" — is about a record. The two have the same name and measure
+ * different things, and only the file-level one was ever computed, so a batch
+ * of stubs with one good row read as fully populated.
+ *
+ * Updates are exempt by design: a sparse row carrying `id` and the columns it
+ * changes is correct, and the manual says the floor applies to new records
+ * only.
+ */
+const FIELD_FLOOR = { concept: 50, question: 46, article: 49 }
+
+/** Sentences, counted the way a reader would: terminal punctuation, not line breaks. */
+const sentenceCount = (text) => (text.match(/[.!?](\s|$)/g) ?? []).length || (text.trim() ? 1 : 0)
+
+const median = (numbers) => {
+  if (!numbers.length) return 0
+  const sorted = [...numbers].sort((a, b) => a - b)
+  const middle = Math.floor(sorted.length / 2)
+  return sorted.length % 2 ? sorted[middle] : Math.round((sorted[middle - 1] + sorted[middle]) / 2)
+}
+
+const share = (count, total) => (total ? `${Math.round((count / total) * 100)}%` : '0%')
+
+/**
+ * How complete this batch is, as warnings rather than failures.
+ *
+ * Thinness is not invalidity: a short explanation imports, renders and can be
+ * answered. It is also the difference between a question a student learns from
+ * and one they merely get right, and nothing measured it. Reported so a lane
+ * can paste the numbers into a commit body and see them move, and deliberately
+ * not an error — a gate that fails on prose length would be argued with rather
+ * than acted on, and would block a correct batch.
+ */
+function completenessWarnings(rowKind, rows) {
+  const out = []
+  const floor = FIELD_FLOOR[rowKind]
+  if (floor) {
+    // Per record, and only for records that are new.
+    //
+    // Two ways a row is not new, and both matter. It may be sparse — `id` plus
+    // the columns it changes. Or it may be substantial and still an update: the
+    // nine 108 INT pharmacology rows carry a label and forty populated columns
+    // and patch concepts that already exist. Judging by shape alone told them
+    // they were thin new records, which is the opposite of true.
+    const authored = rows.filter((row) => !isUpdateShaped(rowKind, row) && !liveIds.has(row.id?.trim()))
+    const thin = authored.filter((row) => Object.keys(row).length < floor)
+    if (thin.length) {
+      const counts = thin.map((row) => Object.keys(row).length).sort((a, b) => a - b)
+      out.push(`${thin.length} of ${authored.length} new records are below the ${rowKind} fieldsUsed floor of ${floor} `
+        + `(thinnest ${counts[0]}, median ${median(counts)}). The fieldsUsed in this report is the union across the file, `
+        + 'so it cannot show this — one complete record hides a batch of thin ones.')
+    }
+  }
+
+  if (rowKind === 'question') {
+    // The explanation for the answer that is correct. A distractor's
+    // explanation matters less: a student who picked it reads the correct one.
+    const lengths = []
+    for (const row of rows) {
+      const correct = (row.correct_answer ?? '').trim().toLowerCase()
+      if (!correct) continue
+      const text = (row[`explanation_${correct}`] ?? '').trim()
+      if (text) lengths.push(text)
+    }
+    if (lengths.length) {
+      const sizes = lengths.map((text) => text.length)
+      const short = lengths.filter((text) => text.length < 200).length
+      const terse = lengths.filter((text) => sentenceCount(text) < 3).length
+      out.push(`explanation of the correct answer, across ${lengths.length} question(s): `
+        + `shortest ${Math.min(...sizes)} chars, median ${median(sizes)}; `
+        + `${share(short, lengths.length)} under 200 chars, ${share(terse, lengths.length)} under 3 sentences.`)
+      const missing = rows.length - lengths.length
+      if (missing > 0) out.push(`${missing} question(s) have no explanation for their correct answer, or no correct_answer to have one for.`)
+    }
+  }
+
+  return out
+}
+
 /* ---- update rows that would land as stubs -------------------------------- */
 
 const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
@@ -671,6 +757,8 @@ if (kind === 'question') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('question', rows),
     difficulty: difficultyCounts,
     conceptsTested: [...new Set(built.flatMap((item) => item.questionData.tags.mainConceptIds ?? []))].length,
     mediaFlagged,
@@ -854,6 +942,8 @@ if (kind === 'article') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('article', rows),
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
     mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
@@ -1060,6 +1150,8 @@ console.log(JSON.stringify({
   kind,
   items: rows.length,
   fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+  // Per-record completeness, which the file-level fieldsUsed above cannot show.
+  warnings: completenessWarnings('concept', rows),
   placements: records.map((record) => record.primaryNodeId),
   // `notes` was missing from this branch's report, so anything it had to say
   // about a check it could not run had nowhere to appear.
