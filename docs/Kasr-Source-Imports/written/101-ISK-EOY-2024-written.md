@@ -2,9 +2,9 @@
   EOY (ISK - 101) 198 (1).pdf as sittable written questions.
 
   Kasr Al Ainy, module 101 ISK, end of year 2024.
-  Manifest ID src_e2593cfba37af83a33ad. 16 questions, 76 marks: 12 in Anatomy, 4 in Histology.
+  Manifest ID src_e2593cfba37af83a33ad. 17 questions, 77 marks: 12 in Anatomy, 4 in Histology, 1 in Matching.
 
-  NOT the whole paper: Written questions only. The paper also prints ten multiple-choice questions at one mark each (Section 2 part II, p8–p9) and two extended-matching tables at one mark each (Section 2 part III, p10). Both are reproduced in full in this copy and in the solved copy; they are not seeded here because the multiple-choice bank is authored separately under seeds/mcq/. The paper is 96 marks; this file carries 76.
+  NOT the whole paper: The paper is 96 marks; this file carries 77. Missing: the ten multiple-choice questions at one mark each (Section 2 part II, p9), which are transcribed in scripts/kasr/extract/eoy-mcq-read.json and belong to the multiple-choice bank rather than here; and Table 2 of the extended-matching section (p10, 1 mark). Table 1 of that section IS seeded, as the matching question M1. Table 2 is not, and deliberately. It asks five blood and marrow items against seven options, and two of the seven are a second true statement about an item that already has one: the basophil answers both "Have S-shaped nucleus" and "Release histamine and leukotrienes", and the monocyte answers both "Have horse-shoe shaped nucleus" and "Have cytoplasm with frosted glass appearance" — this module's own monocyte concept states the kidney-shaped nucleus and the frosted-glass cytoplasm together. The department book deepens the problem rather than settling it: it gives "bilobed (horse-shoe shaped)" to the EOSINOPHIL, which is not in column A at all, and gives the monocyte a "kidney-shaped" nucleus. So the examiner's intended mapping cannot be recovered from a blank paper, and a matching question with an invented mark scheme is worse than none. It needs the answer key or a faculty reviewer.
 
   Transcribed, not derived — `derived_from` is blank throughout. The rule that a
   written question may only be derived from another written question governs the
@@ -1087,9 +1087,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-8.4
+10.0
 ## exam_weight_by_year
-KAU_Y1=0.84
+KAU_Y1=1.00
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -1169,9 +1169,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-8.4
+10.0
 ## exam_weight_by_year
-KAU_Y1=0.84
+KAU_Y1=1.00
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -1251,9 +1251,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-8.4
+10.0
 ## exam_weight_by_year
-KAU_Y1=0.84
+KAU_Y1=1.00
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -1332,9 +1332,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-8.4
+10.0
 ## exam_weight_by_year
-KAU_Y1=0.84
+KAU_Y1=1.00
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -1356,4 +1356,88 @@ Transcribed from the paper, not derived. The examiner's wording was: “Regardin
 The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
 Per-element marks are not the examiner's — the paper gave 4 for the whole question and named the elements. The scheme apportions.
 No vignette: this paper states its cases inside the question itself, so there is no separate stem.
+No derived_from: transcribed rather than derived, so there is nothing to name.
+
+---
+
+# Item
+## id
+QW-101-AA8B33729D17
+## title
+Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel
+## subject
+fnd
+## status
+Draft
+## format
+matching
+## question
+Match each epithelium in column A to the site in column B where it is found. Two options are not used.
+## matching_options
+a | Small intestine
+b | Thyroid follicles
+c | Blood vessels
+d | Skin
+e | Trachea
+f | Urinary bladder
+g | Esophagus
+## matching_prompts
+Simple squamous epithilium = c
+Keratinized stratified squamous epithilium = d
+Simple columnar epithilium = a
+Simple cubical epithlium = b
+Transitional epithilium = f
+## main_concept
+CON-FND-E51851DAB2DD13 | CON-FND-6887E3F110A894 | CON-FND-8FEBD5195DCED2 | CON-FND-6913B2CF5EFC7C
+## topic
+Matching
+## subtopic
+Surface Epithelium
+## module
+101 ISK
+## module_subject
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Match simple squamous epithelium to the blood vessel, where it is called endothelium. Match simple cubical epithelium to the thyroid follicle and simple columnar to the small intestine. Match keratinised stratified squamous epithelium to the skin. Match transitional epithelium to the urinary bladder.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+2.6
+## exam_weight_by_year
+KAU_Y1=0.26
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## library_ids
+ART-101-HIS-SURFACE-EPITHELIUM
+## owner
+Claude
+## source_citation
+EOY (ISK - 101) 198 (1).pdf — Kasr Al Ainy end of year 2024, Matching Q1, p10. Manifest src_e2593cfba37af83a33ad.
+## author_notes
+Transcribed from the paper, not derived. The examiner's wording was: “III) Extended matching questions: {1 Mark each} — Table 1. Column A: 1 Simple squamous epithilium, 2 Keratinized stratified squamous epithilium, 3 Simple columnar epithilium, 4 Simple cubical epithlium, 5 Transitional epithilium. Column B: Small intestine, Thyroid follicles, Blood vessels, Skin, Trachea, Urinary bladder, Esophagus. Table 1, prompts 3 and 4. Table 1, prompt 2. Table 1, prompt 5.”
+The prompt above rewrites that into a sittable question without changing what is asked; the original is kept here so a reviewer can check the rewrite.
+Per-element marks are not the examiner's — the paper gave 1 for the whole question and named the elements. The scheme apportions.
+This question is co-primary on 4 concepts: its subparts test things a student can know separately.
 No derived_from: transcribed rather than derived, so there is nothing to name.

@@ -10,6 +10,20 @@
  * something it no longer teaches.
  */
 export const ARTICLE_FOR_CONCEPT: Record<string, string> = {
+  // The four surface-epithelium concepts the 2024 paper's matching table tests.
+  //
+  // They were minted in the MCQ leaf, which carries its own `articleId`, so the
+  // multiple-choice route resolves them and the written route did not — this map
+  // is the written route's fallback and had never needed them. The generated
+  // `article-links.json` has had all four pointing at this article all along;
+  // two maps of "which article teaches which concept" is the drift this
+  // codebase keeps paying for, and the honest fix is one map rather than a
+  // fifth entry here. Recorded rather than done, because that map is shared
+  // tooling and this is a one-mark question.
+  'CON-FND-E51851DAB2DD13': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-6887E3F110A894': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-8FEBD5195DCED2': 'ART-101-HIS-SURFACE-EPITHELIUM',
+  'CON-FND-6913B2CF5EFC7C': 'ART-101-HIS-SURFACE-EPITHELIUM',
   // Histology — docs/Kasr-Source-Imports/article/101-ISK-histology.md
   'CON-HEM-5724364F46CD5A': 'ART-101-HIS-GRANULAR-LEUKOCYTES',
   'CON-HEM-CC292B4D6CC61E': 'ART-101-HIS-BLOOD-PLATELETS',

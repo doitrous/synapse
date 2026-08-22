@@ -1,7 +1,7 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1153 claims from 321 concepts.
+  1157 claims from 321 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
@@ -9,7 +9,7 @@
   the module teaches.
 
   332 carry a citation to the department book and stand at `verified`.
-  821 do not, and stand at `needs_evidence`. That split is the point of
+  825 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -2712,6 +2712,130 @@ no
 ## qualifiers
 concept: The monocyte is the kidney-shaped nucleus with frosted-glass cytoplasm that becomes a macrophage
 curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
+
+---
+
+# Item
+## id
+CLM-BFDB3DB16DA7
+## concept_id
+CON-FND-E51851DAB2DD13
+## subject
+See the concept of the same key
+## predicate
+states
+## object
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## display_text
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-72B0D44F278F
+## concept_id
+CON-FND-6887E3F110A894
+## subject
+See the concept of the same key
+## predicate
+states
+## object
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## display_text
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-673C7B2F27A7
+## concept_id
+CON-FND-8FEBD5195DCED2
+## subject
+See the concept of the same key
+## predicate
+states
+## object
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## display_text
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Stratified squamous epithelium is keratinised on the skin and non-keratinised where it must stay wet
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-792CFF73B089
+## concept_id
+CON-FND-6913B2CF5EFC7C
+## subject
+See the concept of the same key
+## predicate
+states
+## object
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## display_text
+See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Transitional epithelium has dome-shaped surface cells and a layer count that changes as the organ fills
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
 

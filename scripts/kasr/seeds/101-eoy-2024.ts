@@ -75,12 +75,22 @@ export const SOURCE: SourceRef = {
   file: 'EOY (ISK - 101) 198 (1).pdf',
   sittingYear: 2024,
   tier: 'end_of_year',
-  sections: ['Anatomy', 'Histology'],
+  sections: ['Anatomy', 'Histology', 'Matching'],
   incomplete:
-    'Written questions only. The paper also prints ten multiple-choice questions at one mark each '
-    + '(Section 2 part II, p8–p9) and two extended-matching tables at one mark each (Section 2 part III, p10). '
-    + 'Both are reproduced in full in this copy and in the solved copy; they are not seeded here because the '
-    + 'multiple-choice bank is authored separately under seeds/mcq/. The paper is 96 marks; this file carries 76.',
+    'The paper is 96 marks; this file carries 77. Missing: the ten multiple-choice questions at one mark '
+    + 'each (Section 2 part II, p9), which are transcribed in scripts/kasr/extract/eoy-mcq-read.json and '
+    + 'belong to the multiple-choice bank rather than here; and Table 2 of the extended-matching section '
+    + '(p10, 1 mark). '
+    + 'Table 1 of that section IS seeded, as the matching question M1. '
+    + 'Table 2 is not, and deliberately. It asks five blood and marrow items against seven options, and two '
+    + 'of the seven are a second true statement about an item that already has one: the basophil answers both '
+    + '"Have S-shaped nucleus" and "Release histamine and leukotrienes", and the monocyte answers both '
+    + '"Have horse-shoe shaped nucleus" and "Have cytoplasm with frosted glass appearance" — this module\'s '
+    + 'own monocyte concept states the kidney-shaped nucleus and the frosted-glass cytoplasm together. The '
+    + 'department book deepens the problem rather than settling it: it gives "bilobed (horse-shoe shaped)" to '
+    + 'the EOSINOPHIL, which is not in column A at all, and gives the monocyte a "kidney-shaped" nucleus. So '
+    + 'the examiner\'s intended mapping cannot be recovered from a blank paper, and a matching question with '
+    + 'an invented mark scheme is worse than none. It needs the answer key or a faculty reviewer.',
 }
 
 
@@ -316,9 +326,96 @@ export const SEEDS: Seed[] = [
     type: 'structural_description',
     aliases: ['Mononuclear phagocyte', 'Macrophage precursor'],
   },
+  {
+    // Table 1 of the paper's extended-matching section, read off the page image.
+    //
+    // Four seeds share this question number, so it emits co-primary on all four
+    // concepts. That is what a matching table is: five prompts, each a different
+    // epithelium, and a student can know three of them and miss two. Filing it
+    // under one concept would give the whole mark's mastery evidence to whichever
+    // was picked and none to the rest.
+    //
+    // Marks are on the first seed only. The paper says "1 Mark each" for its two
+    // tables, so this question is worth one, and giving each seed a mark would
+    // make the paper total four marks heavier than it is.
+    q: 1, section: 'Matching', page: 10, marks: 1,
+    asked: 'III) Extended matching questions: {1 Mark each} — Table 1. Column A: 1 Simple squamous epithilium, 2 Keratinized stratified squamous epithilium, 3 Simple columnar epithilium, 4 Simple cubical epithlium, 5 Transitional epithilium. Column B: Small intestine, Thyroid follicles, Blood vessels, Skin, Trachea, Urinary bladder, Esophagus.',
+    label: 'Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel',
+    key: 'simple-squamous-epithelium-sites-names-and-functions',
+    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
+    objective: 'Match simple squamous epithelium to the blood vessel, where it is called endothelium.',
+    pitfall: 'Reaching for the trachea, which is pseudostratified ciliated columnar and is one of this table\'s two unused options.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
+    type: 'structural_description',
+  },
+  {
+    q: 1, section: 'Matching', page: 10, marks: 0,
+    asked: 'Table 1, prompts 3 and 4.',
+    label: 'Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs',
+    key: 'simple-cubical-and-simple-columnar-epithelium-sites-and-functions',
+    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
+    objective: 'Match simple cubical epithelium to the thyroid follicle and simple columnar to the small intestine.',
+    pitfall: 'Swapping them. The follicle is a secreting sac lined by cubes; the intestine absorbs and needs the tall cell with a brush border.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
+    type: 'structural_description',
+  },
+  {
+    q: 1, section: 'Matching', page: 10, marks: 0,
+    asked: 'Table 1, prompt 2.',
+    label: 'Stratified squamous epithelium is keratinised on the skin and non-keratinised where it must stay wet',
+    key: 'stratified-squamous-epithelium-keratinised-and-non-keratinised',
+    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
+    objective: 'Match keratinised stratified squamous epithelium to the skin.',
+    pitfall: 'Choosing the oesophagus, which is stratified squamous and is the table\'s other unused option — but non-keratinised, because it stays wet.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
+    type: 'structural_description',
+  },
+  {
+    q: 1, section: 'Matching', page: 10, marks: 0,
+    asked: 'Table 1, prompt 5.',
+    label: 'Transitional epithelium has dome-shaped surface cells and a layer count that changes as the organ fills',
+    key: 'transitional-epithelium-dome-cells-and-a-changing-layer-count',
+    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
+    objective: 'Match transitional epithelium to the urinary bladder.',
+    pitfall: 'Calling it stratified squamous because its dome cells flatten when the bladder fills. The flattening is the point of the name.',
+    subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
+    modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
+    type: 'structural_description',
+  },
 ]
 
 export const SCHEMES: Record<string, Scheme> = {
+  M1: {
+    format: 'matching',
+    prompt: 'Match each epithelium in column A to the site in column B where it is found. Two options are not used.',
+    expects: [
+      'Simple squamous epithelium lines blood vessels, where it is called endothelium',
+      'Keratinized stratified squamous epithelium covers the skin',
+      'Simple columnar epithelium lines the small intestine',
+      'Simple cubical epithelium lines the thyroid follicles',
+      'Transitional epithelium lines the urinary bladder',
+      'Trachea and oesophagus are the two options left over',
+    ],
+    options: [
+      { letter: 'a', text: 'Small intestine' },
+      { letter: 'b', text: 'Thyroid follicles' },
+      { letter: 'c', text: 'Blood vessels' },
+      { letter: 'd', text: 'Skin' },
+      { letter: 'e', text: 'Trachea' },
+      { letter: 'f', text: 'Urinary bladder' },
+      { letter: 'g', text: 'Esophagus' },
+    ],
+    matches: [
+      { prompt: 'Simple squamous epithilium', letter: 'c' },
+      { prompt: 'Keratinized stratified squamous epithilium', letter: 'd' },
+      { prompt: 'Simple columnar epithilium', letter: 'a' },
+      { prompt: 'Simple cubical epithlium', letter: 'b' },
+      { prompt: 'Transitional epithilium', letter: 'f' },
+    ],
+  },
   A1: {
     format: 'structured_written',
     prompt: 'Explain the different parts of the deep fascia and the function of each.',
