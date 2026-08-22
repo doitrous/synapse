@@ -34,10 +34,11 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | 78f2205 | AU-MED-105 Anatomy Step 2: 27 concepts, 7 articles, 36 pending updates — questions (460) with fresh lane W1-105-ANAT-Q |
 | 6d32266 | AU-MED-105 Histology: 18 concepts, 8 articles, 33 + 14 questions — LANE DONE |
 | 06f320a | AU-MED-103 Histology: audit 0, 13 pending questions + 9 practical written — LANE DONE |
+| b5415d0 | AU-MED-102 Biochem D complete: 43 concepts, 3 articles, 38 + 5 questions — LANE DONE |
 
 ## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
 ## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
-DONE lanes: 102-HIST+PHYS, 102-TERM, 102-EMBR, 103-BIOC, 103-HIST, 105-HIST, 102-ANAT (pending-id questions limited by 17 Kasr concepts with no article — routed to Kasr Y1), BIOC-C, 103-BIOC (NEW/live scope; pending-id questions in progress).
+DONE lanes: 102-HIST+PHYS, 102-TERM, 102-EMBR, 102-BIOC-D, 103-BIOC, 103-HIST, 105-HIST, 102-ANAT (pending-id questions limited by 17 Kasr concepts with no article — routed to Kasr Y1), BIOC-C, 103-BIOC (NEW/live scope; pending-id questions in progress).
 Running Steps 2–4 (orders: `LANE-ORDERS-PHASE1.md` + lane rulings in `coverage/00-publish-plan-year1.md` § Corrections):
 102-ANAT (pending-live label fix + 126 questions) · 102-EMBR · 102-TERM (glossary-first; cut by a
 server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymology remain) ·
@@ -55,6 +56,11 @@ the same). Rule from the chief of staff: keep ≤4 concurrent, probe with one sm
 (BIOC-C: audit + CLAIMS row + report), resume the others only when it completes. Lane ids are
 in the orchestrator's roster; any lane whose transcript is gone restarts from its triage file.
 F1 fetch is DONE (browser free; 1 file landed for MED 106; channels for Omar in the fetch log).
+
+## Tag audit (Omar's order, brief §24)
+Lane T1 (`acceff98807d7552d` in the roster) is writing `scripts/alexandria/check-tags.mjs`, proving
+module_subject/exam_weight/university_notes semantics on shared records, and fixing gaps in
+files no other lane is writing. Its numbers go to the chief of staff; the check joins every GATES.
 
 ## Uncommitted lane output on disk
 `git status` shows concept/, article/, evidence/, question/, glossary/, pending-live/ files from
