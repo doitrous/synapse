@@ -50,6 +50,7 @@ import {
   listModels as assistantModels,
 } from './assistant.js'
 import { sendSilentNudge } from './push.js'
+import { deleteAccount } from './accountDeletion.js'
 import {
   createRoom, joinRoom, roomFor, startRoom, submitAnswer, finishRoom, myRooms,
 } from './studyRooms.js'
@@ -805,6 +806,21 @@ app.post('/api/facebook/deletion-callback', express.urlencoded({ extended: false
 }))
 
 /* ── State store (mirrors localStorage keys) ─────────────────────────────── */
+
+/* ── Deleting an account ─────────────────────────────────────────────────── */
+
+/**
+ * A student erasing their own account.
+ *
+ * Scoped to the caller and to nobody else: there is no id in the path, so the
+ * only account this route can delete is the one whose token was presented.
+ * App Store guideline 5.1.1(v) requires this to exist and to actually delete.
+ */
+app.delete('/api/account', requireAuthenticated, wrap(async (req, res) => {
+  const result = await deleteAccount(req.identity)
+  if (result.error) return res.status(result.status ?? 400).json(result)
+  return res.json(result)
+}))
 
 /* ── Push notification devices ───────────────────────────────────────────── */
 

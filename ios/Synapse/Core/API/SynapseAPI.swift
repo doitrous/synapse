@@ -224,6 +224,14 @@ struct SynapseAPI {
         _ = try await send(["vouchers", "redemption"], method: "DELETE", body: Optional<Int>.none)
     }
 
+    /// Erase this account and everything it owns.
+    ///
+    /// No id in the path: the only account this can delete is the one whose
+    /// token is being presented, which is what makes it safe to expose.
+    func deleteAccount() async throws {
+        _ = try await send(["account"], method: "DELETE", body: Optional<Int>.none)
+    }
+
     // MARK: - Study assistant
 
     /// Whether the assistant is usable, and how much of today's quota is left.

@@ -149,6 +149,7 @@ struct AccountView: View {
     @State private var university = ""
     @State private var year = ""
     @State private var prefs: AccountPrefsStore
+    @State private var deletingAccount = false
 
     init(user: SessionUser, auth: AuthModel, sync: SyncEngine, audienceStore: AudienceStore) {
         self.user = user
@@ -266,11 +267,27 @@ struct AccountView: View {
                     }
                 }
                 .listRowBackground(Theme.surface)
+
+                Section {
+                    // Required to exist in the app by App Store guideline
+                    // 5.1.1(v), and separated from signing out because the two
+                    // are one tap apart and only one of them is reversible.
+                    Button(role: .destructive) { deletingAccount = true } label: {
+                        Text(strings("Delete account"))
+                    }
+                } footer: {
+                    Text(strings("Removes your account and everything in it, on the app and the website. This cannot be undone."))
+                        .font(Theme.ui(12))
+                }
+                .listRowBackground(Theme.surface)
             }
             .listStyle(.insetGrouped)
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
             .navigationTitle("Account")
+            .sheet(isPresented: $deletingAccount) {
+                DeleteAccountView(auth: auth)
+            }
         }
         .task {
             await prefs.load()
