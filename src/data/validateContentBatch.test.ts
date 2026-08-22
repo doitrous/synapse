@@ -498,3 +498,39 @@ test('a fully authored question is never update-shaped, whatever its format', ()
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+test('a question whose concept is nowhere fails, and says to try --with', () => {
+  // Reported as a silent pass: "the coverage check does `if (!concept) continue`,
+  // so a question whose main concept is absent passes when the concept file was
+  // not given". It does not — the resolution check above the coverage check
+  // already errors, and the `continue` only avoids reporting the same id twice.
+  // What was missing was the hint: an author reading "is not a concept that
+  // exists" goes looking for a typo in the id, when the usual cause is a
+  // question batch validated without its own concept batch beside it.
+  const root = mkdtempSync(join(tmpdir(), 'coverage-'))
+  mkdirSync(join(root, 'question'))
+  mkdirSync(join(root, 'concept'))
+  const question = ['# Item', '## id', 'QM-TEST-000000000009', '## title', 'T', '## subject', 'msk',
+    '## format', 'single best answer', '## question', 'Which?', '## correct_answer', 'A',
+    '## answer_a', 'This', '## answer_b', 'That', '## main_concept', 'CON-FND-ABSENT00000X',
+    '## library_ids', 'ART-NOPE', ''].join('\n')
+  const concept = ['# Item', '## label', 'The absent concept, now authored', '## id', 'CON-FND-ABSENT00000X',
+    '## canonical_key', 'q6.concept', '## definition', 'd', '## explicit_objective', 'o',
+    '## arabic_label', 'x', '## publication_status', 'published', '## article_ids', 'ART-NOPE', ''].join('\n')
+  writeFileSync(join(root, 'question', 'q.md'), question)
+  writeFileSync(join(root, 'concept', 'c.md'), concept)
+  try {
+    const without = validate(join(root, 'question', 'q.md'))
+    const missing = without.errors.filter((error) => error.includes('CON-FND-ABSENT00000X is not a concept that exists'))
+    assert.equal(missing.length, 1, `expected the absent concept to be reported once, got ${JSON.stringify(without.errors)}`)
+    assert.match(missing[0], /--with/, 'the error should say how to resolve it')
+
+    const withIt = validate(join(root, 'question', 'q.md'), join(root, 'concept', 'c.md'))
+    assert.equal(
+      withIt.errors.filter((error) => error.includes('is not a concept that exists')).length, 0,
+      `naming the concept batch should resolve it: ${JSON.stringify(withIt.errors)}`,
+    )
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})

@@ -268,6 +268,17 @@ function mixedAppendErrors(values) {
   return problems
 }
 
+/**
+ * What to try when a concept ID resolves against nothing.
+ *
+ * These checks resolve against live state plus whatever `--with` named, and the
+ * commonest cause of a failure is neither a typo nor a missing concept: it is a
+ * question batch validated without its own concept batch alongside it. The
+ * message said only that the concept does not exist, which sends an author
+ * looking for a mistake in the ID.
+ */
+const WITH_HINT = ' — if it is authored in this batch set, name its concept file with --with'
+
 /* ---- update rows that would land as stubs -------------------------------- */
 
 const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
@@ -600,7 +611,7 @@ if (kind === 'question') {
     // required only one-or-more.
     if (main.length < 1) errors.push(`${where}: no main_concept — name what this question tests`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -695,7 +706,7 @@ if (kind === 'practical') {
     const { mainConceptIds: main, conceptIds: also, contextualConceptIds: contextual } = data.conceptTags
     if (!main.length) errors.push(`${where}: no main_concept — name what this item teaches`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -710,9 +721,9 @@ if (kind === 'practical') {
       questions += 1
       const label = `${where} question ${blockIndex + 1}`
       if (!block.conceptId) errors.push(`${label}: no "Concept:" line — name the one concept it teaches`)
-      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists`)
+      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists${WITH_HINT}`)
       for (const id of block.secondaryConceptIds ?? []) {
-        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists`)
+        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists${WITH_HINT}`)
       }
       if (!block.difficulty) errors.push(`${label}: no "Difficulty:" line`)
       else questionDifficulty[block.difficulty] = (questionDifficulty[block.difficulty] ?? 0) + 1
