@@ -59,7 +59,7 @@ number of steps you wrote.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `Skills checklist`. Exact string — a typo silently makes it an OSCE station. |
 | `title` | Title | **yes** | The procedure. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `status` | Workflow status | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. |
 | `owner` | Content owner | no | Author or team responsible for review. |
 | `duration` | Duration | no | Expected minutes. |
@@ -68,6 +68,9 @@ number of steps you wrote.
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `mark_scheme` | Mark scheme | **by contract** | The steps. One `Section (marks): step` per line. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this checklist is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this checklist sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What the checklist is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |
@@ -82,6 +85,39 @@ The five fields a checklist does not use: `candidate_instructions`, `actor_openi
 > A checklist is stored as an OSCE station with no actor brief — the two share the
 > mark-scheme shape. That is why the field table above looks like manual 06 with the actor
 > fields removed.
+
+---
+
+## Priority of sources
+
+Highest first (00 §A): this department's own practical atlas / skills-lab manual / station
+sheets, then other official files for the same module, then doctor/student/academy notes
+(tier ≤5, never sole source), then a standard textbook only where the corpus has none.
+**Another university's checklist never stands for this university's signal** — procedure
+order and mark weighting are department-specific.
+
+## Media (S6 of the pipeline)
+
+A step that depends on a photograph, diagram or recording to be checkable carries
+`media_recommendations` and is **marked as a request, never rewritten into prose**. This is
+stage S6 ([13-orchestration.md](13-orchestration.md) §4).
+
+## Scope: universities and module
+
+A practical checklist is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds`, but a checklist cannot be corrected in admin
+afterwards either (see above), so getting this right at import time matters more here than
+anywhere else. Until 2026-08-22 the importer had no column to read, so every imported
+checklist arrived unscoped. An empty `universities` list means EVERY university. Scope is
+separate from concept tagging and `module_subject`.
+
+## Stages and completeness
+
+Finished per [13-orchestration.md](13-orchestration.md) §4 once `markSchemeItems` meets this
+type's floor, S6 requests are tracked, and `medical:audit` is clean — not at the first green
+`medical:batch`.
 
 ---
 
