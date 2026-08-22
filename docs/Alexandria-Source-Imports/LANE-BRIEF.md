@@ -485,3 +485,12 @@ until the audit lane reports, do NOT write `module_subject` on an overlay row);
 have the column; concepts carry it in `field_notes` as `universityNotes: au: …`).
 `scripts/alexandria/check-tags.mjs` reports per module which of the six each record carries;
 its output is part of every lane's GATES.
+
+### §24 amendments (verified in `conceptImport.ts:194` by Kasr Y1)
+- **`module_subject` REPLACES** with exactly the paths given; no `+` append (a leading `+` is
+  stored in the path). An overlay row that adds an Alexandria path must restate the **full
+  union** — Kasr's path(s) from the Kasr batch or live state, plus ours — or the last import wins.
+  The validator's H2 (`+<path>` appends) will relax this; until then, union.
+- **`university_notes` exists on concepts and articles only.** Put the `au: <source, page>` line
+  there; for questions/practicals keep the intended line in
+  `coverage/00-university-notes-ledger.md` until the validator's H3 adds the column.
