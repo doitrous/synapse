@@ -668,3 +668,59 @@ test('a + on a non-list column is refused, and a + on a list column is not', () 
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+/* ---- practical completeness ---------------------------------------------- */
+
+test('practical completeness is per format, and only ever a warning', () => {
+  // The five practical manuals state this as "Columns you should use — 20 of
+  // the 25" and say outright that practicals do not report `fieldsUsed`. Same
+  // contract, different name, and different per format: an OSCE has candidate
+  // instructions and a mark scheme, a clinical case has decisions and neither.
+  const root = mkdtempSync(join(tmpdir(), 'practical-complete-'))
+  mkdirSync(join(root, 'practical'))
+  const station = (id: string, type: string, extra: string[]) => ['# Item', '## id', id, '## title', 'A station',
+    '## subject', 'msk', '## type', type, ...extra, ''].join('\n')
+
+  // A thin OSCE (floor 20), an unscored one, and a station wanting media.
+  writeFileSync(join(root, 'practical', 'p.md'), [
+    station('PRA-T-1', 'OSCE station', ['## candidate_instructions', 'Do the thing']),
+    station('PRA-T-2', 'Skills checklist', ['## media_needed', 'A photo of the trolley']),
+  ].join('\n\n---\n\n'))
+
+  try {
+    const report = validate(join(root, 'practical', 'p.md')) as { warnings?: string[], errors: string[] }
+    const warnings = report.warnings ?? []
+
+    const floor = warnings.find((line) => line.includes("their format's manual asks for"))
+    assert.ok(floor, `expected a per-format floor warning, got ${JSON.stringify(warnings)}`)
+    assert.match(floor, /OSCE station below 20/, 'the OSCE floor is 20')
+    assert.match(floor, /Skills checklist below 16/, 'the checklist floor is 16')
+
+    assert.ok(warnings.some((line) => /carry neither mark_scheme nor marks/.test(line)),
+      'a station nobody can be marked on should be reported')
+    assert.ok(warnings.some((line) => /set media_needed but no media_recommendations/.test(line)),
+      'an asset flagged as missing with nothing saying what to make should be reported')
+
+    // Never an error: these batches are incomplete, not invalid.
+    assert.ok(!report.errors.some((error) => /manual asks for|mark_scheme nor marks|media_recommendations/.test(error)),
+      'practical completeness must never be an error')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('a clinical case is not asked for a mark scheme it does not use', () => {
+  // A case and a lab set score through their decisions, so counting them as
+  // unscored would report every correctly-authored case in the repository.
+  const root = mkdtempSync(join(tmpdir(), 'practical-case-'))
+  mkdirSync(join(root, 'practical'))
+  writeFileSync(join(root, 'practical', 'p.md'), ['# Item', '## id', 'PRA-T-3', '## title', 'A case',
+    '## subject', 'msk', '## type', 'Clinical case', '## decisions', '### D1\nQ: What?\n* A\n* B', ''].join('\n'))
+  try {
+    const warnings = (validate(join(root, 'practical', 'p.md')) as { warnings?: string[] }).warnings ?? []
+    assert.ok(!warnings.some((line) => /mark_scheme nor marks/.test(line)),
+      'a clinical case scores through decisions and must not be counted as unscored')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
