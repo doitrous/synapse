@@ -29,7 +29,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Attribute the tunica media's elastic fibres to arterial distension, as distinct from the smooth muscle that regulates flow.",
       explanations: {
-        A: "Correct. The book states plainly that the elastic fibres of the tunica media allow distension of the arteries.",
+        A: "Correct. The book states plainly that the elastic fibres of the tunica media allow distension of the arteries. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
         B: "Smooth muscle regulates blood flow by contracting, and builds the media's own extracellular components — distension is the elastic fibre's job, not the muscle's.",
         C: "Reticular fibres lie between the smooth muscle cells as a supportive scaffold; the book credits them with support, not with allowing distension.",
         D: "Collagen fibres sit in the tunica adventitia and, being longitudinally arranged, resist overdistension rather than permit it — the opposite function.",
@@ -43,7 +43,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name the tunica intima as the vessel wall's innermost layer, in direct contact with blood.",
       explanations: {
         A: "Tunica media is the middle layer, separated from the blood by the intima — it is not in direct contact with it.",
-        B: "Correct. The book states plainly that the tunica intima is the innermost layer, in direct contact with the blood.",
+        B: "Correct. The book states plainly that the tunica intima is the innermost layer, in direct contact with the blood. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
         C: "Tunica adventitia is the outermost coat, connecting the vessel to the surrounding tissue, furthest from the blood.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
@@ -58,7 +58,7 @@ export const LEAF: McqLeafSeed = {
         A: "Elastic fibres, in the tunica media, allow distension — the opposite function to the one the stem describes.",
         B: "Smooth muscle fibres regulate flow by contracting and build the media's own extracellular components; preventing overdistension is not their stated role.",
         C: "Reticular fibres support the smooth muscle cells structurally within the media; the book does not credit them with resisting overdistension.",
-        D: "Correct. The book states that the longitudinally arranged collagen fibres of the tunica adventitia prevent vessel overdistension.",
+        D: "Correct. The book states that the longitudinally arranged collagen fibres of the tunica adventitia prevent vessel overdistension. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
       },
     },
     {
@@ -69,7 +69,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Attribute a smooth surface for blood flow to the tunica intima's endothelium.",
       explanations: {
         A: "Tunica media regulates flow by smooth-muscle contraction; the smooth surface for flow itself is the intima's endothelium, not the media.",
-        B: "Correct. The book states that the tunica intima's endothelium provides a smooth surface for easy blood flow, and forms a thin layer letting fluids, gases and metabolites pass.",
+        B: "Correct. The book states that the tunica intima's endothelium provides a smooth surface for easy blood flow, and forms a thin layer letting fluids, gases and metabolites pass. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
         C: "Tunica adventitia is the outer connective-tissue coat, with no contact with the flowing blood at all.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
@@ -82,7 +82,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Attribute both flow regulation and the tunica media's own extracellular components to its smooth muscle fibres.",
       explanations: {
         A: "Elastic fibres allow distension of the media, but the book does not credit them with regulating flow or manufacturing the media's other extracellular components.",
-        B: "Correct. The book states the tunica media's smooth muscle fibres regulate blood flow by their contraction, and also produce all the extracellular components of the tunica media.",
+        B: "Correct. The book states the tunica media's smooth muscle fibres regulate blood flow by their contraction, and also produce all the extracellular components of the tunica media. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
         C: "Reticular fibres lie between the smooth muscle cells as a structural scaffold — they are a product, not the producing cell, and play no role in flow regulation.",
         D: "Collagen fibres sit chiefly in the adventitia, resisting overdistension — they neither regulate flow nor manufacture the media's own components.",
       },
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "True of the tunica media, so not the exception — circularly arranged smooth muscle fibres are its main component.",
         B: "True, so not the exception. Elastic fibres in the media allow distension of the vessel.",
-        C: "The exception, and the answer. Nervi vasorum are the autonomic nerves of the tunica adventitia, controlling smooth-muscle contraction from outside the media — the book places them in the adventitia, not as a component of the media itself.",
+        C: "The exception, and the answer. Nervi vasorum are the autonomic nerves of the tunica adventitia, controlling smooth-muscle contraction from outside the media — the book places them in the adventitia, not as a component of the media itself. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.",
         D: "True, so not the exception. Reticular fibres and proteoglycans lie between the smooth muscle cells of the media.",
       },
     },

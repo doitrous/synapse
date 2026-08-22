@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Cytoplasmic microtubules run the length of the cell to drive its elongation; they are not the microtubules that attach at the kinetochore.",
         B: "Astral microtubules radiate star-like around the centrioles to establish the spindle's axis — they do not attach to kinetochores either.",
-        C: "Correct. The book describes chromosomal microtubules as attached to the kinetochores, arranging the chromosomes at the metaphase plate — a discontinuous set of fibres running only from pole to kinetochore.",
+        C: "Correct. The book describes chromosomal microtubules as attached to the kinetochores, arranging the chromosomes at the metaphase plate — a discontinuous set of fibres running only from pole to kinetochore. A common trap: describing the kinetochore as the centromere itself.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
     },
@@ -43,7 +43,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name astral microtubules as the star-shaped fibres around the centrioles that set the mitotic spindle's axis.",
       explanations: {
         A: "Cytoplasmic microtubules elongate the cell; they do not form the star-shaped pattern around the centrioles.",
-        B: "Correct. The book describes astral microtubules as arranged in a star-like fashion around the centrioles, establishing the axis of the spindle.",
+        B: "Correct. The book describes astral microtubules as arranged in a star-like fashion around the centrioles, establishing the axis of the spindle. A common trap: describing the kinetochore as the centromere itself.",
         C: "Chromosomal microtubules attach to the kinetochores to arrange chromosomes at the metaphase plate — a different, non-astral pattern.",
         D: "Not applicable — a correct answer is listed among the options.",
       },

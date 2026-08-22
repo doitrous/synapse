@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Stratified squamous epithelium is not the lining the book gives for a cardiac valve — valves are folds of endocardium, whose surface is simple, not stratified.",
         B: "Transitional epithelium is a urinary-tract lining, not one the book applies to the heart valves.",
-        C: "Correct. The book states that heart valves, folds of the endocardium, are covered by simple squamous epithelium continuous with the endothelium, over a dense fibrous core rich in collagen and elastic fibres.",
+        C: "Correct. The book states that heart valves, folds of the endocardium, are covered by simple squamous epithelium continuous with the endothelium, over a dense fibrous core rich in collagen and elastic fibres. A common trap: treating a valve as a separate structure from the endocardium rather than a fold of it — the valve's surface epithelium is literally the same endothelium that lines the rest of the chamber.",
         D: "Simple cuboidal epithelium is not the lining the book describes for the valve surface.",
       },
     },

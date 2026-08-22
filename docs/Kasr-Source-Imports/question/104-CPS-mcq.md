@@ -67,6 +67,9 @@ True of a muscular artery's media, so not the exception — a thin tunica media 
 has clear EEL
 ## explanation_c
 The exception, and the answer. The book describes a muscular artery's external elastic lamina as merely 'recognisable' in many muscular arteries, not as a sharply defined, 'clear' layer — that stronger description overstates what the book says. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_d
 thin T. adventitia
 ## explanation_d
@@ -152,6 +155,9 @@ True, so not the exception. Muscular arteries supply most muscular and organ art
 less smooth fiber, more elastic fiber than elastic arteries
 ## explanation_b
 The exception, and the answer. The book states medium arteries have more smooth muscle fibres and less elastic fibres in the tunica media than elastic arteries — this option reverses that relationship. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
 prominent TEL, recognized EEL
 ## explanation_c
@@ -241,6 +247,9 @@ True of a medium artery, so not the exception — a thick wall around a narrow, 
 Collapse, has blood after death
 ## explanation_b
 The exception, and the answer. The book's comparison table gives collapsing and holding blood after death as the vein's characteristics; the medium artery's are the opposite — it does not collapse and has no blood in it after death. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
 clear IEL, EEL with No valve
 ## explanation_c
@@ -330,6 +339,9 @@ Large elastic arteries are limited to the aorta and its large branches — the b
 medium sized arteries
 ## explanation_b
 Correct. The book describes medium-sized muscular arteries as the most common type of artery, delivering blood to organs. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
 small arteries
 ## explanation_c
@@ -419,6 +431,9 @@ Tunica intima is described as the thinnest layer of a large elastic artery such 
 T. media
 ## explanation_b
 Correct. The book describes the tunica media of a large elastic artery as the thickest layer, formed of 40 to 70 circularly arranged fenestrated elastic membranes. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
 T. adventitia
 ## explanation_c
@@ -516,6 +531,9 @@ True, so not the exception. The book states the fenestrae in these elastic layer
 this loose C.T with Prominent IEL
 ## explanation_d
 The exception, and the answer. This describes the tunica intima, not the tunica media — the intima is loose connective tissue and, in the aorta specifically, the book states its internal elastic lamina is not prominent, the opposite of the media's own thick, elastic-membrane-dominated structure. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## correct_answer
 D
 ## main_concept
@@ -601,6 +619,9 @@ Transitional epithelium is a urinary-tract lining, not one the book applies to t
 Simple squamous
 ## explanation_c
 Correct. The book states that heart valves, folds of the endocardium, are covered by simple squamous epithelium continuous with the endothelium, over a dense fibrous core rich in collagen and elastic fibres. A common trap: treating a valve as a separate structure from the endocardium rather than a fold of it — the valve's surface epithelium is literally the same endothelium that lines the rest of the chamber.
+
+Why this is right, from the department book:
+- The valves of the heart are folds of the endocardium.
 ## answer_d
 simple cubical
 ## explanation_d
@@ -682,6 +703,9 @@ allow distension of arteries
 Elastic fiber
 ## explanation_a
 Correct. The book states plainly that the elastic fibres of the tunica media allow distension of the arteries. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_b
 smooth muscle fiber
 ## explanation_b
@@ -775,6 +799,9 @@ Tunica media is the middle layer, separated from the blood by the intima — it 
 T. intima
 ## explanation_b
 Correct. The book states plainly that the tunica intima is the innermost layer, in direct contact with the blood. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_c
 T. adventitia
 ## explanation_c
@@ -872,6 +899,9 @@ Reticular fibres support the smooth muscle cells structurally within the media; 
 collagen fibers
 ## explanation_d
 Correct. The book states that the longitudinally arranged collagen fibres of the tunica adventitia prevent vessel overdistension. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## correct_answer
 D
 ## main_concept
@@ -953,6 +983,9 @@ Tunica media regulates flow by smooth-muscle contraction; the smooth surface for
 T. intima
 ## explanation_b
 Correct. The book states that the tunica intima's endothelium provides a smooth surface for easy blood flow, and forms a thin layer letting fluids, gases and metabolites pass. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_c
 T. adventitia
 ## explanation_c
@@ -1042,6 +1075,9 @@ Elastic fibres allow distension of the media, but the book does not credit them 
 smooth muscle fiber
 ## explanation_b
 Correct. The book states the tunica media's smooth muscle fibres regulate blood flow by their contraction, and also produce all the extracellular components of the tunica media. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_c
 reticular fibers
 ## explanation_c
@@ -1135,6 +1171,9 @@ True, so not the exception. Elastic fibres in the media allow distension of the 
 Nervi vasorum
 ## explanation_c
 The exception, and the answer. Nervi vasorum are the autonomic nerves of the tunica adventitia, controlling smooth-muscle contraction from outside the media — the book places them in the adventitia, not as a component of the media itself. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_d
 reticular fibers, proteoglycans
 ## explanation_d
@@ -1224,6 +1263,9 @@ Autoimmune disease is associated with non-disjunction in the book's list, not fr
 german measles
 ## explanation_c
 Correct. The book names viral infections, such as German measles, as the cause of chromosome fragmentation. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
+
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
 ## answer_d
 Colchicine
 ## explanation_d
@@ -1305,6 +1347,10 @@ when 2 homologous chromosome fail to separate, result in 4 abnormal daughter cel
 1ry non-disjunction
 ## explanation_a
 Correct. The book defines primary non-disjunction as the failure of two homologous (bivalent) chromosomes to separate at the first meiotic division, resulting in four abnormal daughter cells. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## answer_b
 2nd non-disjunction
 ## explanation_b
@@ -1402,6 +1448,9 @@ Anaphase requires spindle microtubules to pull chromatids apart — colchicine p
 Metaphase
 ## explanation_c
 Correct. The book states colchicine inhibits formation of the mitotic spindle; without a spindle, chromatids cannot be pulled apart into anaphase, so the cell arrests at metaphase — the basis of using colchicine to capture metaphase spreads for karyotyping. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
+
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
 ## answer_d
 Telophase
 ## explanation_d
@@ -1495,6 +1544,10 @@ A mosaic results from secondary non-disjunction in mitosis after many normal div
 simple less
 ## explanation_d
 Correct. The book states simple loss occurs due to failure of a chromosome to align during metaphase, or its lagging to move in anaphase. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## correct_answer
 D
 ## main_concept
@@ -1584,6 +1637,9 @@ German measles causes chromosome fragmentation, per the book, not spindle inhibi
 Colchicine
 ## explanation_d
 Correct. The book names colchicine, a cytotoxic drug, as inhibiting the formation of the mitotic spindle. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
+
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
 ## correct_answer
 D
 ## main_concept
@@ -1665,6 +1721,10 @@ Primary non-disjunction is a failure of homologous chromosomes at the first meio
 2nd non-disjunction
 ## explanation_b
 Correct. The book defines secondary non-disjunction as the failure of two chromatids to separate at the centromere, either during the second meiotic division or during mitosis. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## answer_c
 mosaic
 ## explanation_c
@@ -1758,6 +1818,10 @@ Secondary non-disjunction is the underlying event; the stem asks for what result
 mosaic
 ## explanation_c
 Correct. The book states that secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## answer_d
 simple less
 ## explanation_d
@@ -1843,6 +1907,10 @@ Primary non-disjunction produces four abnormal daughter cells, not a 2-normal/2-
 2nd non-disjunction
 ## explanation_b
 Correct. The book states secondary non-disjunction (chromatids failing to separate at the centromere) in meiosis produces two normal and two abnormal daughter cells — in mitosis, by contrast, both resulting cells are abnormal. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## answer_c
 mosaic
 ## explanation_c
@@ -1936,6 +2004,11 @@ Containing 46 double chromosomes (d-chromosomes) describes the state after S pha
 Cells grow in size acquire energy
 ## explanation_c
 Correct. The book lists cell growth and acquiring energy (ATP) among G1's own characteristics, alongside RNA/protein synthesis and cells becoming specialised. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_d
 duplication of DNA, centriole
 ## explanation_d
@@ -2025,6 +2098,11 @@ True, so not the exception. Mitosis is made of the four stages the book names, s
 Cannot be detected with microscope
 ## explanation_c
 The exception, and the answer. The book states mitosis's changes ARE visible with the microscope; it is interphase, the period between divisions, whose changes cannot be detected with the microscope. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_d
 last for short period (1 hour)
 ## explanation_d
@@ -2118,6 +2196,11 @@ Energy storage for mitosis is a separate G2 characteristic from tubulin synthesi
 tubulin
 ## explanation_d
 Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## correct_answer
 D
 ## main_concept
@@ -2199,6 +2282,11 @@ S phase is when DNA and the centriole duplicate, not when tubulin is synthesised
 G2 phase
 ## explanation_b
 Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 G1 phase
 ## explanation_c
@@ -2288,6 +2376,11 @@ G1 is when the cell grows and prepares for DNA duplication, before S phase's act
 S phase
 ## explanation_b
 Correct. The book states that S phase is characterised by duplication of DNA (so each cell contains 46 d-chromosomes) and duplication of centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 G2 phase
 ## explanation_c
@@ -2377,6 +2470,11 @@ Lasting about 4 hours is the book's stated duration for G2, not S phase (which t
 duplication of DNA, centriole
 ## explanation_b
 Correct. The book states S phase is characterised by duplication of DNA, giving each cell 46 d-chromosomes, and duplication of the centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 synthesis of RNA, ptn energy for mitosis
 ## explanation_c
@@ -2466,6 +2564,11 @@ The book pairs a longer G1 with a lower, not higher, rate of division for a more
 longer, less
 ## explanation_b
 Correct. The book states directly: 'The more specialized cell, the longer G1-phase & less rate of division.' The mechanism is that G1 is when a cell carries out its specialised working function rather than preparing to divide, so a cell doing more specialised work spends longer there before committing to another round of DNA synthesis. The thing worth remembering: G1's length is not fixed like S or G2's — it is the one phase whose duration tracks how differentiated the cell already is, from a highly dividing stem cell at one end to a non-renewing neuron effectively frozen in an extended G1 at the other.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 smaller, more
 ## explanation_c
@@ -2551,6 +2654,9 @@ blood cell, cells lining GIT are example for
 pluripotential stem cell
 ## explanation_a
 Correct. The book gives blood cells and the cells lining the gastrointestinal tract as its example of pluripotential (multipotential) stem cells — cells with the potential to give rise to more than one type of specialised cell. A common trap: assuming 'pluripotential' means unlimited potential.
+
+Why this is right, from the department book:
+- Stem cells are undifferentiated cells capable of self-renewal, of two types.
 ## answer_b
 unipotential stem cell
 ## explanation_b
@@ -2644,6 +2750,11 @@ S phase is when DNA duplicates, giving each cell 46 d-chromosomes, and centriole
 G1
 ## explanation_b
 Correct. The book lists 'the cells become specialised working cells' among G1's own characteristics, alongside cell growth, ATP acquisition and the RNA/protein synthesis needed to duplicate DNA. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 G2
 ## explanation_c
@@ -2733,6 +2844,11 @@ G1 is when the daughter cell grows, acquires energy and synthesises the RNA/prot
 G2
 ## explanation_b
 Correct. The book lists correcting any error in DNA replication among G2's own characteristics, alongside synthesising RNA and proteins for division, storing energy for mitosis, and forming tubulin. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 synthesis
 ## explanation_c
@@ -2830,6 +2946,11 @@ Synthesis (S) phase actively duplicates DNA — the opposite of a resting state.
 G0
 ## explanation_d
 Correct. The book names G0, the stable phase, as the resting stage a cell enters on leaving the active cell cycle. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## correct_answer
 D
 ## main_concept
@@ -2911,6 +3032,11 @@ The book gives G1 a duration of about 8 hours, not 4.
 G2
 ## explanation_b
 Correct. The book states G2 lasts about 4 hours. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
 synthesis
 ## explanation_c
@@ -3004,6 +3130,9 @@ True, so not the exception. Both necrotic and apoptotic cells are ultimately cle
 pathological or physiological gene
 ## explanation_c
 The exception, and the answer. The book defines necrosis as a pathological condition only, resulting from anoxia, mechanical injury or toxins; being 'physiological' is what distinguishes apoptosis, an active programmed death that occurs normally at the end of a cell's life span. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_d
 result from anoxia, injury or toxins
 ## explanation_d
@@ -3085,6 +3214,9 @@ nuclei become small, dark
 Pyknosis
 ## explanation_a
 Correct. The book defines pyknosis as the nucleus becoming small, darkly stained, with condensed chromatin. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_b
 karyorhexis
 ## explanation_b
@@ -3182,6 +3314,9 @@ Recombinase acts on DNA during genetic recombination, not on the necrotic nucleu
 endonuclease
 ## explanation_c
 Correct. The book states that in karyorrhexis, the nucleus and its chromatin are fragmented into pieces by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_d
 lipase
 ## explanation_d
@@ -3267,6 +3402,9 @@ Pyknosis is the nucleus becoming small and darkly stained, not fragmenting into 
 karyorhexis
 ## explanation_b
 Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_c
 Karyolysis
 ## explanation_c
@@ -3364,6 +3502,9 @@ Dissolution and disappearance of the nucleus is karyolysis, not karyorrhexis.
 The nuclei and chromatin are fragmented
 ## explanation_d
 Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## correct_answer
 D
 ## main_concept
@@ -3449,6 +3590,9 @@ A potentially renewable cell can itself return to the cycle to divide, unlike th
 continuously renewing cell
 ## explanation_c
 Correct. The book names sperms, with blood cells, as its example of continuously renewing cells — end cells that cannot divide but are replaced from stem cells. A common trap: reading 'continuously renewing' as continuously dividing.
+
+Why this is right, from the department book:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells. (department book p.39)
 ## answer_d
 None of the above
 ## explanation_d
@@ -3530,6 +3674,9 @@ barr body in 3-5% in
 neutrophil
 ## explanation_a
 Correct. The book gives the drumstick-shaped Barr body in 3-5% of female blood neutrophils, alongside the nuclear-envelope form in about 60% of buccal epithelial cells. A common trap: predicting Barr-body number from X-chromosome number by simple subtraction without the rule behind it — the number of Barr bodies is always one fewer than the number of X chromosomes present, because exactly one X per cell stays active and every other X is inactivated as a Barr body.
+
+Why this is right, from the department book:
+- Sex chromatin, the Barr body, first described by Murray Barr, is a darkly stained mass of chromatin representing the inactive, coiled, dark-staining X chromosome in the nucleus of a female cell, while the other X chromosome stays active, extended and inapparent.
 ## answer_b
 eosinophil
 ## explanation_b
@@ -3627,6 +3774,9 @@ Red blood cells are anucleate in their mature form and carry no chromosomes eith
 leucocyte
 ## explanation_c
 Correct. The book states leucocytes are the best cells to study chromosomes — they are allowed to divide by mitosis and stopped at metaphase for the spread. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
 ## answer_d
 All the above
 ## explanation_d
@@ -3720,6 +3870,9 @@ Telocentric chromosomes have no short arm at all and, the book notes, do not occ
 acrocentric
 ## explanation_d
 Correct. Chromosomes 21 and 14, the book's own centric-fusion example in Down syndrome, are acrocentric — centromere very close to one end. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## correct_answer
 D
 ## main_concept
@@ -3801,6 +3954,9 @@ Metacentric describes a centromere at the exact centre, with equal arms.
 submetacentric
 ## explanation_b
 Correct. The book places the submetacentric centromere midway between the centre and the upper end, giving a short and a long arm. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## answer_c
 acrocentric
 ## explanation_c
@@ -3894,6 +4050,9 @@ Submetacentric has the centromere midway between centre and end, closer to the m
 acrocentric
 ## explanation_c
 Correct. The book describes acrocentric chromosomes as having a centromere very close to the upper end, so the p arm is very short. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## answer_d
 telocentric
 ## explanation_d
@@ -3979,6 +4138,9 @@ Metacentric chromosomes are not where the book locates this anomaly.
 submetacentric
 ## explanation_b
 Correct. The book states isochromosomes occur mostly in submetacentric chromosomes, which divide transversely rather than longitudinally at the centromere during anaphase. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## answer_c
 telocentric
 ## explanation_c
@@ -4072,6 +4234,9 @@ A gene, not a kinetochore, is the DNA segment coding for a protein.
 2 disc of ptn located at centromere
 ## explanation_c
 Correct. The book defines kinetochores as two discs of protein located at the centromere, to which the spindle fibres attach during cell division. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
 ## answer_d
 region of repeated sequence to protect chromosome end
 ## explanation_d
@@ -4165,6 +4330,9 @@ Chromosome 14 is acrocentric and does carry a satellite, so this is not the exce
 chromosome Y
 ## explanation_d
 Correct. The book states that among the acrocentric chromosomes, all except the Y carry a satellite mass of chromatin on the short arm — the Y is the book's own named exception. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## correct_answer
 D
 ## main_concept
@@ -4250,6 +4418,9 @@ Submetacentric chromosomes are not the type the book describes as carrying satel
 acrocentric
 ## explanation_c
 Correct. The book states some acrocentric chromosomes (except the Y) carry a small satellite mass of chromatin attached to the short arm by a narrow stalk, containing rRNA genes. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## answer_d
 telocentric
 ## explanation_d
@@ -4343,6 +4514,9 @@ Two protein discs at the centromere describes the kinetochore, not the telomere.
 region of repeated sequence to protect chromosome end
 ## explanation_d
 Correct. The book defines telomeres as regions of repeated sequence at the chromosomal ends, protecting the end from destruction and preventing end-to-end fusion. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
 ## correct_answer
 D
 ## main_concept
@@ -4420,6 +4594,9 @@ when two arm are equal
 metacentric
 ## explanation_a
 Correct. The book defines metacentric as a centromere at the centre of the chromosome, so the two arms (p and q) are equal. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
 ## answer_b
 submetacentric
 ## explanation_b
@@ -4517,6 +4694,9 @@ Anaphase chromosomes are already separating toward opposite poles, past the poin
 Metaphase
 ## explanation_c
 Correct. The book's karyotyping technique allows cells to divide by mitosis and stops them at metaphase, when the spread is photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
 ## answer_d
 Interphase
 ## explanation_d
@@ -4602,6 +4782,9 @@ Prophase precedes the point the book's technique stops cells at.
 metaphase
 ## explanation_b
 Correct. The book states the karyotyping technique stops the dividing cell at metaphase for the spread to be photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
 ## answer_c
 telophase
 ## explanation_c
@@ -4691,6 +4874,9 @@ Anaphase is when the chromatids have already split apart at the centromere, past
 late prophase, metaphase
 ## explanation_b
 Correct. The book states that during late prophase and metaphase, each chromosome is formed of two chromatids connected at the centromere, dividing the d-chromosome into a short (p) and long (q) arm. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
 ## answer_c
 late metaphase, telophase
 ## explanation_c
@@ -4784,6 +4970,9 @@ True, so not the exception. Each new cell at telophase has 46 chromatids (s-chro
 chromosome visible as fine thread
 ## explanation_c
 The exception, and the answer. Chromosomes becoming visible as fine threads is a prophase event, as chromosomes first condense — at telophase they are doing the opposite, lengthening and uncoiling out of visibility. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_d
 chromosome lengthen, uncoil
 ## explanation_d
@@ -4869,6 +5058,9 @@ Exchange of genes is what crossing over in meiosis achieves; the book states mit
 Absence of crossing over
 ## explanation_b
 Correct. The book's comparison table states mitosis has 'No crossing over, No exchange of genes' — the opposite of meiosis, where pairing allows crossing over. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.
+
+Why this is right, from the department book:
+- The department book contrasts mitosis and meiosis across five features.
 ## answer_c
 Daughter cells contain n chromosomes
 ## explanation_c
@@ -4958,6 +5150,9 @@ True of meiosis, so not the exception. It occurs in the germ cells of the testes
 Produce 2 germ cells with haploid number of chromosome
 ## explanation_b
 The exception, and the answer. The book states meiosis produces four germ cells with the haploid number of chromosomes, not two. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.
+
+Why this is right, from the department book:
+- The department book contrasts mitosis and meiosis across five features.
 ## answer_c
 show genetic variation
 ## explanation_c
@@ -5051,6 +5246,9 @@ True, so not the exception. The bivalents become shorter and thicker as prophase
 23 bivalent d-chromosome aligned at equatorial plane
 ## explanation_c
 The exception, and the answer. The 23 bivalent d-chromosomes aligning at the equatorial plane is the book's own description of metaphase I, the stage that follows prophase I, not a prophase I event. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## answer_d
 Crossing over between non sister chromatid
 ## explanation_d
@@ -5136,6 +5334,9 @@ at metaphase II
 23-d-chromosome
 ## explanation_a
 Correct. The book states that at metaphase II, the 23 d-chromosomes are aligned at the equatorial plate. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## answer_b
 46-d-chromosome
 ## explanation_b
@@ -5229,6 +5430,9 @@ True of the second meiotic division, so not the exception. It is described as a 
 longer s-phase
 ## explanation_b
 The exception, and the answer. The book states the second meiotic division has a very short interphase, without an S-phase at all — not a longer S-phase. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## answer_c
 each cell has 23d-chremesene
 ## explanation_c
@@ -5322,6 +5526,9 @@ at telophase II
 23 S- chromosome
 ## explanation_c
 Correct. The book states that at telophase II, the two daughter cells separate, each with 23 s-chromosomes — the haploid number. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## answer_d
 all the above
 ## explanation_d
@@ -5407,6 +5614,9 @@ Metaphase is when chromosomes are already aligned at the equator, after the cent
 Prophase
 ## explanation_b
 Correct. The book states that during prophase, centrioles move to opposite cell poles by cytoplasmic microtubules radiating out from the microtubule-organising centre (MTOC) around them. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_c
 telophase
 ## explanation_c
@@ -5496,6 +5706,9 @@ Metaphase is when the already-condensed chromosomes align at the equator, past t
 Prophase
 ## explanation_b
 Correct. The book states that during prophase, chromosomes gradually become shorter, thicker, darker in staining, and visible as fine threads. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_c
 telophase
 ## explanation_c
@@ -5581,6 +5794,9 @@ chromosome migrate to equatorial Plane of cell in
 metaphase
 ## explanation_a
 Correct. The book states chromosomes migrate to the equatorial plane of the cell — the metaphase plate — during metaphase. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_b
 Prophase
 ## explanation_b
@@ -5682,6 +5898,9 @@ Spectrin is a cytoskeletal protein, not an enzyme involved in crossing over.
 recombinase
 ## explanation_d
 Correct. The book states crossing over occurs at the chiasmata with the help of the recombinase enzyme, exchanging segments between non-sister chromatids of homologous chromosomes. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## correct_answer
 D
 ## main_concept
@@ -5771,6 +5990,9 @@ Telophase is when the spindle's work is already done and the nuclear envelope is
 anaphase
 ## explanation_d
 Correct. The book states that in anaphase, migration of the separated chromatids to opposite poles of the cell happens by elongation of the cytoplasmic microtubules. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## correct_answer
 D
 ## main_concept
@@ -5852,6 +6074,9 @@ Metaphase uses the already-organised spindle to align the chromosomes, after pro
 Prophase
 ## explanation_b
 Correct. The book states that during prophase, microtubules are organised to form a spindle, after centrioles have moved to opposite poles. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_c
 telophase
 ## explanation_c
@@ -5945,6 +6170,9 @@ Prophase is when the nuclear envelope and nucleoli disappear, the opposite of th
 telophase
 ## explanation_c
 Correct. The book states that in telophase, nuclear envelopes develop and nucleoli reappear, as the two daughter cells separate. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_d
 anaphase
 ## explanation_d
@@ -6030,6 +6258,9 @@ prophase in male last for
 22 days
 ## explanation_b
 Correct. The book states prophase I lasts 22 days in spermatogenesis (male), against 12 to 45 years in oogenesis (female). A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
 ## answer_c
 12-45 Years
 ## explanation_c
@@ -6123,6 +6354,9 @@ Astral microtubules radiate star-like around the centrioles to establish the spi
 chromosomal MT
 ## explanation_c
 Correct. The book describes chromosomal microtubules as attached to the kinetochores, arranging the chromosomes at the metaphase plate — a discontinuous set of fibres running only from pole to kinetochore. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_d
 none of above
 ## explanation_d
@@ -6208,6 +6442,9 @@ Cytoplasmic microtubules elongate the cell; they do not form the star-shaped pat
 astral MT
 ## explanation_b
 Correct. The book describes astral microtubules as arranged in a star-like fashion around the centrioles, establishing the axis of the spindle. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
 ## answer_c
 chromosomal MT
 ## explanation_c
@@ -6305,6 +6542,9 @@ The opposite of the true mechanism. Turner syndrome is a monosomy of the sex chr
 Her karyotype is 45 XO
 ## explanation_d
 Correct. The book's own Turner syndrome description matches this vignette word for word: '45, XO... short female with mental retardation, edema of limbs... primary amenorrhoea' — a monosomy, karyotype 45,XO.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## correct_answer
 D
 ## main_concept
@@ -6382,6 +6622,9 @@ A Child with mental retardation, hypotonia and mongol - like features has perfor
 46, Robertsonian translocation (21 & 14)
 ## explanation_a
 Correct. The book states Down syndrome may be caused by 'Translocation (21 and 14)' — a Robertsonian/centric-fusion translocation — which keeps the total chromosome count at 46 (unlike trisomy 21's 47), matching this child's karyotype. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_b
 46, Philadelphia chromosome
 ## explanation_b
@@ -6475,6 +6718,9 @@ True of Klinefelter syndrome, so not the exception — 47 chromosomes with an XX
 two sex chromatin are present
 ## explanation_b
 The exception, and the answer. The book states a Klinefelter male has a positive Barr body — one, from the single extra X — not two; two Barr bodies is the book's own sign of triple-X syndrome instead. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## answer_c
 male having additional X-chromosone
 ## explanation_c
@@ -6564,6 +6810,9 @@ cells of a person with klinefilter syndrome contain :
 44 autosomes +X chromosome
 ## explanation_b
 Correct. The book's karyotype for Klinefelter syndrome is 47, XXY: the 44 autosomes (22 pairs) that every karyotype has, plus the extra sex chromosome giving XXY instead of the normal XY. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## answer_c
 44 autosomes+XXX chromosome
 ## explanation_c
@@ -6653,6 +6902,9 @@ mentally retarded female patient with short stature, primary amenorrhea and unde
 45, XO
 ## explanation_b
 Correct. The book's Turner syndrome description matches exactly: '45, XO... short female with mental retardation... underdeveloped ovaries & external genitalia with primary amenorrhea.'
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## answer_c
 47, XY trisomy 21
 ## explanation_c
@@ -6742,6 +6994,9 @@ Viral infection causes chromosome fragmentation in the book's general list, not 
 non disjunction of sex- chromosome
 ## explanation_b
 Correct. The book states these aberrations are due to non-disjunction of the sex chromosomes during the first meiotic division of the primary oocyte. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## answer_c
 Pregnancy in old age
 ## explanation_c
@@ -6839,6 +7094,9 @@ The book's stated event is a gain, not a loss — an extra X chromosome from non
 Non disjunction of the X chromosomes
 ## explanation_d
 Correct. The book states Klinefelter syndrome — mentally retarded tall males, small testis, large breast, widely separated nipples — is due to non-disjunction of the X chromosomes during the first meiotic division of the oocyte. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
 ## correct_answer
 D
 ## main_concept
@@ -6920,6 +7178,9 @@ Klinefelter syndrome's book features are tall stature, small testis, large breas
 Down syndrome
 ## explanation_b
 Correct. 'Mental retardation, small genital organs, cardiac abnormalities' is close to verbatim the book's own Down syndrome feature list, alongside the facial and limb features it also names. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_c
 Monosomy of chromosome 21
 ## explanation_c
@@ -7009,6 +7270,9 @@ True of Down syndrome, so not the exception — non-disjunction of chromosome 21
 translocation between chromosome 9, 22
 ## explanation_b
 The exception, and the answer. A translocation between chromosomes 9 and 22 is the book's Philadelphia chromosome, causing chronic myeloid leukaemia — Down syndrome's translocation cause is between 21 and 14. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_c
 ris factor in advanced maternal age
 ## explanation_c
@@ -7106,6 +7370,9 @@ Centric fusion occurs in ----- Cases of down Syndrome
 3-4%
 ## explanation_c
 Correct. The book states centric fusion between chromosomes 21 and 14 occurs in 3-4% of cases of Down syndrome. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_d
 20-30%
 ## explanation_d
@@ -7187,6 +7454,9 @@ Down syndrome:
 caused by centric fusion between 21 &14
 ## explanation_a
 Correct. The book states Down syndrome may be caused by centric fusion (translocation) between chromosomes 21 and 14, alongside non-disjunction (trisomy 21). A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_b
 May be due to multiple X syndrome
 ## explanation_b
@@ -7280,6 +7550,9 @@ Turner syndrome arises from non-disjunction of the sex chromosomes in the oocyte
 Down syndrome
 ## explanation_b
 Correct. The book names translocation between chromosomes 21 and 14 as one of its two stated causes of Down syndrome — an inherited translocation carrier's child is at risk of this outcome. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
 ## answer_c
 Klinefelter's syndrome
 ## explanation_c
@@ -7369,6 +7642,9 @@ A ring chromosome forms from two breaks with loss and reunion into a ring, not a
 pericentric
 ## explanation_b
 Correct. The book defines pericentric inversion as breaks on either side of the centromere, rejoined in an inverted form. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 paracentric
 ## explanation_c
@@ -7458,6 +7734,9 @@ Chromosomes 9 and 22 are the book's Philadelphia-chromosome pair (reciprocal tra
 fusion of chromosome 21, 14
 ## explanation_b
 Correct. The book's own centric-fusion example is the fusion of the long arms of chromosomes 21 and 14, forming 'chromosome t', seen in 3-4% of Down syndrome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 fusion of chromosome 21. 9
 ## explanation_c
@@ -7551,6 +7830,9 @@ Duplication adds an extra chromosome segment from unequal crossing over, not a t
 isochromosome
 ## explanation_c
 Correct. The book states isochromosome formation happens when the chromosome divides transversely, not longitudinally, at the centromere during anaphase of mitosis, giving one short and one long chromatid. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_d
 translocation
 ## explanation_d
@@ -7640,6 +7922,9 @@ Isochromosome formation is a transverse centromere division producing an unequal
 reciprocal translocation
 ## explanation_c
 Correct. The book defines reciprocal translocation as an exchange of chromosomal material between two chromosomes, usually balanced since no material is typically lost or added. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_d
 break
 ## explanation_d
@@ -7721,6 +8006,9 @@ is loss of fragments between 2 breaks
 interstitial deletion
 ## explanation_a
 Correct. The book defines interstitial deletion as the loss of fragments between two breaks in the same arm, with fusion at the break sites. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_b
 ring chromosome
 ## explanation_b
@@ -7818,6 +8106,9 @@ A ring chromosome needs two breaks and a ring-shaped reunion, not one single-bre
 terminal deletion
 ## explanation_c
 Correct. The book defines terminal deletion as the loss of a segment from one end of the chromosome by a single break. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_d
 inversion
 ## explanation_d
@@ -7899,6 +8190,9 @@ philadelphia Chromosome is
 reciprocal translocation between Chromosome 9, 22
 ## explanation_a
 Correct. The book states the Philadelphia chromosome arises by reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_b
 reciprocal translocation between Chromosome 14,21
 ## explanation_b
@@ -7996,6 +8290,9 @@ Translocation transfers material to a non-homologous chromosome, unrelated to pr
 isochromosome
 ## explanation_c
 Correct. The book describes isochromosome formation as a transverse (not longitudinal) centromere split producing two unequal chromatids, one short (both p arms) and one long (both q arms). A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_d
 inversion 74) Centric
 ## explanation_d
@@ -8081,6 +8378,9 @@ Inversion rearranges a segment in place; it does not add a second copy of the sa
 duplication
 ## explanation_b
 Correct. The book states duplication — addition of a fragmented segment as an extra piece, mostly from unequal crossing over of homologous chromosomes — results in two copies of the same genes on the same chromosome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 isochromosome
 ## explanation_c
@@ -8170,6 +8470,9 @@ Inversion arises from two breaks and a reversed rejoining, not from unequal cros
 duplication
 ## explanation_b
 Correct. The book states duplication occurs mostly due to unequal crossing over of homologous chromosomes, adding an extra copy of a segment. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 isochromosome
 ## explanation_c
@@ -8259,6 +8562,9 @@ Deletion is one specific type of structural aberration, not the general term for
 balanced
 ## explanation_b
 Correct. The book states that if a chromosome has its normal complement of genetic information, the aberration is balanced. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 unbalanced
 ## explanation_c
@@ -8344,6 +8650,9 @@ One of the following is a balanced aberration:
 Reciprocal translocation
 ## explanation_a
 Correct. The book states reciprocal translocation is usually balanced, since no chromosomal material is typically lost or added, only exchanged. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_b
 Ring chromosome
 ## explanation_b
@@ -8437,6 +8746,9 @@ Down syndrome is diagnosed by trisomy 21 or the 21;14 translocation, not the Phi
 myeloid leukemia
 ## explanation_b
 Correct. The book states the Philadelphia chromosome, from a reciprocal translocation between chromosomes 22 and 9, is used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
 ## answer_c
 turner
 ## explanation_c
@@ -8534,6 +8846,9 @@ Contains B-lymphocytes, so not the exception. The medullary cords are B-lymphocy
 Para Cortex
 ## explanation_d
 Correct — the exception, and the true answer. The paracortex is the thymus-dependent zone: unlike the follicles, sinuses and cords around it, it carries only T-lymphocytes, which have migrated in from the thymus through post-capillary venules. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
 ## correct_answer
 D
 ## main_concept
@@ -8615,6 +8930,9 @@ A primary follicle has no germinal centre at all — it is formed of aggregated 
 secondary follicle
 ## explanation_b
 Correct. The book describes the secondary follicle exactly this way: peripheral dark regions of small lymphocytes around a pale germinal centre containing large activated B-lymphocytes and plasma cells, with macrophages and a few T-lymphocytes. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
 ## answer_c
 Cortical sinus
 ## explanation_c
@@ -8712,6 +9030,9 @@ True of the subcapsular sinus as well — again correct but partial, since the b
 All the above
 ## explanation_d
 Correct. The book states the cortical lymph sinuses — both subcapsular and trabecular — are lined with endothelial cells and macrophages, and separately that the medullary sinuses are lined with endothelium and macrophages. All three named sinus types share this lining, so 'all the above' is the answer the book actually supports.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
 ## correct_answer
 D
 ## main_concept
@@ -8797,6 +9118,9 @@ Ectodermal is not either of the two origins the book states for the thymus.
 endodermal
 ## explanation_c
 Correct. The book states the thymus has a double origin — mesodermal giving rise to lymphocytes, and endodermal giving rise to epithelial reticular cells. A common trap: assuming the thymus's reticular framework is built the same way as the lymph node's or spleen's, by mesenchymal reticular cells and reticular fibres.
+
+Why this is right, from the department book:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
 ## answer_d
 none of above
 ## explanation_d
@@ -8882,6 +9206,9 @@ True, so not the exception. The book lists increased catecholamine secretion —
 Atrial natriuretic peptide.
 ## explanation_b
 The exception, and the answer. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume; hemorrhage decreases venous return and atrial filling, removing that stretch stimulus rather than providing it, so its secretion is not part of the rapid response the book lists. A common trap: assuming every hormone with a role in blood-pressure regulation rises together in hypovolaemia.
+
+Why this is right, from the department book:
+- Hemorrhage lowers arterial blood pressure and stimulates rapid neural and humoral compensatory mechanisms.
 ## answer_c
 Angiotensin il.
 ## explanation_c
@@ -8979,6 +9306,9 @@ A genuine non-chemical influence, not the exception. Coughing is the book's own 
 Hypercapnia CamScanner
 ## explanation_d
 The exception, and the answer. The book places a rise in arterial PCO2 (hypercapnia) under its chemical control of respiration, not under 'Non-Chemical (Nervous) Regulation' — PCO2 is stated as the major controller of ventilation acting through central and peripheral chemoreceptors, the one route on this list that is not a nervous reflex. A common trap: treating hypercapnia (a rise in arterial PCO2) as one item on the non-chemical list.
+
+Why this is right, from the department book:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
 ## correct_answer
 D
 ## main_concept
@@ -9064,6 +9394,9 @@ Histaminase is not one of the two enzymes the book credits with destroying alveo
 protease, elastase
 ## explanation_c
 Correct. The book states that emphysema results from destruction of the inter-alveolar septa by proteases and elastases secreted by dust cells, chiefly driven by cigarette smoking. A common trap: attributing emphysema's septal destruction to the dust particles themselves rather than to the phagocyte's own digestive enzymes.
+
+Why this is right, from the department book:
+- Emphysema is an abnormal, permanent enlargement of the alveoli.
 ## answer_d
 nuclease, lipase
 ## explanation_d
@@ -9149,6 +9482,9 @@ A gap junction couples cells electrically or metabolically; the book's own word 
 Junctional Complex
 ## explanation_b
 Correct. The book states directly that junctional complexes bind the supporting (sustentacular) cells to the olfactory cells. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
 ## answer_c
 tight junction
 ## explanation_c
@@ -9242,6 +9578,9 @@ Mucous goblet cells secrete mucus; the book describes no nerve ending or sensory
 Brush
 ## explanation_c
 Correct. The book states that brush cells have basal afferent nerve endings and act as sensory receptors. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_d
 basal
 ## explanation_d
@@ -9331,6 +9670,9 @@ Mucous goblet cells secrete mucus from apical mucin granules; they are not class
 small granule
 ## explanation_c
 Correct. The book classes small granule cells as neuroendocrine cells belonging to APUD, with numerous basal dense granules secreting hormones such as serotonin and catecholamines. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_d
 Basal
 ## explanation_d
@@ -9420,6 +9762,9 @@ Mucous goblet cells are filled apically with mucin granules, not microvilli.
 Brush
 ## explanation_c
 Correct. The book describes brush cells as columnar cells with abundant apical microvilli. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_d
 basal
 ## explanation_d
@@ -9501,6 +9846,9 @@ cell is most numerous cell with numerous mitochondria
 ciliated columnar
 ## explanation_a
 Correct. The book calls ciliated columnar cells the most abundant cells of the epithelium, with numerous apical mitochondria supplying the energy for ciliary beating. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_b
 mucous goblet
 ## explanation_b
@@ -9594,6 +9942,9 @@ Ciliated columnar cells are the most numerous cell, not the next most numerous, 
 mucous goblet
 ## explanation_b
 Correct. The book describes mucous goblet cells as the next most numerous cell type, secreting mucus that covers the epithelium and traps bacteria and dust particles. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_c
 Brush
 ## explanation_c
@@ -9691,6 +10042,9 @@ Brush cells reach the lumen with an apical microvillous surface — they are not
 basal
 ## explanation_d
 Correct. The book describes basal cells as small, rounded cells sitting on the basal lamina without reaching the lumen, which act as the stem cells that replace the other cell types. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## correct_answer
 D
 ## main_concept
@@ -9776,6 +10130,9 @@ Mucous goblet cells secrete mucus, not serotonin or catecholamines.
 small granule
 ## explanation_c
 Correct. The book states small granule cells secrete hormones such as serotonin and catecholamines, to help control airway and blood vessel diameter and regulate glandular secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_d
 Basal
 ## explanation_d
@@ -9865,6 +10222,9 @@ Keratinized stratified squamous epithelium is the vestibule's own anterior linin
 Non keratinized SSE
 ## explanation_c
 Correct. The book states that the vestibule is lined by hairy keratinized stratified squamous epithelium which, deeper in, changes to non-keratinized stratified squamous epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.
+
+Why this is right, from the department book:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
 ## answer_d
 peudostratified columnar ciliated
 ## explanation_d
@@ -9958,6 +10318,9 @@ Non-keratinized stratified squamous epithelium is the deeper vestibule's lining,
 peudostratified columnar ciliated
 ## explanation_d
 Correct. The book states the middle and inferior conchae are covered with respiratory epithelium — pseudostratified columnar ciliated with goblet cells — while only the superior concha carries olfactory epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.
+
+Why this is right, from the department book:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
 ## correct_answer
 D
 ## main_concept
@@ -10039,6 +10402,9 @@ True of olfactory neurons, so not the exception. The book describes them as bipo
 wide apex, narrow base with apical microvilli
 ## explanation_b
 The exception, and the answer. A wide cylindrical apex, narrow base and apical microvilli are the book's own description of the sustentacular (supporting) cell, not the olfactory neuron, whose dendrite ends in an olfactory vesicle rather than a broad microvillous apex. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
 ## answer_c
 dendrite and in olfactory vesicle
 ## explanation_c
@@ -10132,6 +10498,9 @@ A generic mucous gland is not the specific structure the book names for this flu
 Bowman's gland
 ## explanation_b
 Correct. The book states Bowman's glands secrete a serous fluid that acts as the medium around the olfactory cilia in which odorous substances dissolve. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
 ## answer_c
 muco-serous gland
 ## explanation_c
@@ -10217,6 +10586,9 @@ small granule cell
 Control diameter of airway
 ## explanation_a
 Correct. The book states small granule cells secrete hormones like serotonin and catecholamines that control the diameter of the airway and blood vessels and regulate mucous and serous secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
 ## answer_b
 stem cell that replace other cell
 ## explanation_b
@@ -10310,6 +10682,9 @@ Hyaline cartilage is what the book names for the larynx's large cartilages — t
 elastic
 ## explanation_b
 Correct. The book classes the epiglottis, cuneiform, corniculate and the tip of the arytenoid cartilages as the larynx's small cartilages, and states they are elastic cartilage. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.
+
+Why this is right, from the department book:
+- The larynx connects the pharynx with the trachea.
 ## answer_c
 white fibro
 ## explanation_c
@@ -10407,6 +10782,9 @@ Cartilage again belongs to the collapse-prevention pairing; collagen fibre alone
 elastic, smooth muscle fiber
 ## explanation_d
 Correct. The book pairs elastic fibres and smooth muscle with the airway's flexibility and extensibility during air conduction, as distinct from cartilage and collagen, which prevent collapse. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.
+
+Why this is right, from the department book:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
 ## correct_answer
 D
 ## main_concept
@@ -10492,6 +10870,9 @@ True, so not the exception. The book states the large laryngeal cartilages may c
 don't undergo calcification
 ## explanation_c
 The exception, and the answer. Not undergoing calcification is what the book states of the larynx's small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips), which are elastic — the opposite is true of the large hyaline ones this question asks about. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.
+
+Why this is right, from the department book:
+- The larynx connects the pharynx with the trachea.
 ## answer_d
 none of above
 ## explanation_d
@@ -10581,6 +10962,9 @@ Collagen fibre is correctly one component the book pairs with cartilage for this
 cartilage, Collagen fiber
 ## explanation_c
 Correct. The book pairs cartilage and collagen fibres as what prevent airway collapse and ensure a continuous supply of air. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.
+
+Why this is right, from the department book:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
 ## answer_d
 elastic, smooth muscle fiber
 ## explanation_d
@@ -10670,6 +11054,9 @@ A desmosome is an anchoring junction resisting mechanical stress, not the juncti
 tight junction
 ## explanation_c
 Correct. The book states type I pneumocytes have tight junctions with both type I and type II pneumocytes. A common trap: assuming the cell covering most of the alveolar surface must be the more metabolically active one.
+
+Why this is right, from the department book:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
 ## answer_d
 adherers Junction
 ## explanation_d

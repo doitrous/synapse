@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Mesodermal is the origin of the thymus's lymphocytes, not its epithelial reticular cells — the book gives the thymus a double origin, one for each component.",
         B: "Ectodermal is not either of the two origins the book states for the thymus.",
-        C: "Correct. The book states the thymus has a double origin — mesodermal giving rise to lymphocytes, and endodermal giving rise to epithelial reticular cells.",
+        C: "Correct. The book states the thymus has a double origin — mesodermal giving rise to lymphocytes, and endodermal giving rise to epithelial reticular cells. A common trap: assuming the thymus's reticular framework is built the same way as the lymph node's or spleen's, by mesenchymal reticular cells and reticular fibres.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
     },

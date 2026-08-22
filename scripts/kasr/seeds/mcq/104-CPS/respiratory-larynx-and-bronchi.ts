@@ -43,7 +43,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Classify the epiglottis, cuneiform and corniculate cartilages, and the tip of the arytenoids, as the larynx's small elastic cartilages, against the large hyaline ones.",
       explanations: {
         A: "Hyaline cartilage is what the book names for the larynx's large cartilages — thyroid, cricoid, and most of the arytenoids — not this list of small ones.",
-        B: "Correct. The book classes the epiglottis, cuneiform, corniculate and the tip of the arytenoid cartilages as the larynx's small cartilages, and states they are elastic cartilage.",
+        B: "Correct. The book classes the epiglottis, cuneiform, corniculate and the tip of the arytenoid cartilages as the larynx's small cartilages, and states they are elastic cartilage. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.",
         C: "White fibrocartilage is not a category the book applies to any of the laryngeal cartilages.",
         D: "Not applicable — a correct single answer is listed among the options.",
       },
@@ -58,7 +58,7 @@ export const LEAF: McqLeafSeed = {
         A: "Cartilage and collagen fibres are what the book credits with preventing collapse, not with flexibility and extensibility.",
         B: "Collagen fibres sit with cartilage in the book's 'prevent collapse' pairing, and elastic fibre alone is not the full pairing the book gives for flexibility.",
         C: "Cartilage again belongs to the collapse-prevention pairing; collagen fibre alone is not the book's stated pairing for flexibility and extensibility either.",
-        D: "Correct. The book pairs elastic fibres and smooth muscle with the airway's flexibility and extensibility during air conduction, as distinct from cartilage and collagen, which prevent collapse.",
+        D: "Correct. The book pairs elastic fibres and smooth muscle with the airway's flexibility and extensibility during air conduction, as distinct from cartilage and collagen, which prevent collapse. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.",
       },
     },
     {
@@ -70,7 +70,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "True of the large laryngeal cartilages (thyroid, cricoid, most of the arytenoids), so not the exception — the book classes them as hyaline cartilage.",
         B: "True, so not the exception. The book states the large laryngeal cartilages may calcify with age.",
-        C: "The exception, and the answer. Not undergoing calcification is what the book states of the larynx's small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips), which are elastic — the opposite is true of the large hyaline ones this question asks about.",
+        C: "The exception, and the answer. Not undergoing calcification is what the book states of the larynx's small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips), which are elastic — the opposite is true of the large hyaline ones this question asks about. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.",
         D: "Not applicable — the true exception is named among the other options.",
       },
     },
@@ -83,7 +83,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Cartilage is correctly half of this pairing, but elastic fibre belongs to the book's other pairing (flexibility and extensibility), not to preventing collapse.",
         B: "Collagen fibre is correctly one component the book pairs with cartilage for this function, but elastic fibre is not its partner here either.",
-        C: "Correct. The book pairs cartilage and collagen fibres as what prevent airway collapse and ensure a continuous supply of air.",
+        C: "Correct. The book pairs cartilage and collagen fibres as what prevent airway collapse and ensure a continuous supply of air. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.",
         D: "Elastic fibre and smooth muscle are the book's pairing for flexibility and extensibility, a separate function from preventing collapse.",
       },
     },

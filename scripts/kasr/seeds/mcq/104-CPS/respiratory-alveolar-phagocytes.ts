@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Sulfatase is not the pair of enzymes the book names for septal destruction in emphysema; it appears in this bank in a different context (chromatin fragmentation by endonuclease, not sulfatase, in karyorrhexis).",
         B: "Histaminase is not one of the two enzymes the book credits with destroying alveolar septa — elastase is correct here, but the book pairs it with protease, not histaminase.",
-        C: "Correct. The book states that emphysema results from destruction of the inter-alveolar septa by proteases and elastases secreted by dust cells, chiefly driven by cigarette smoking.",
+        C: "Correct. The book states that emphysema results from destruction of the inter-alveolar septa by proteases and elastases secreted by dust cells, chiefly driven by cigarette smoking. A common trap: attributing emphysema's septal destruction to the dust particles themselves rather than to the phagocyte's own digestive enzymes.",
         D: "Nuclease and lipase are not the enzyme pair the book names for this mechanism.",
       },
     },

@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "True of necrosis, so not the exception. Necrotic cells and their organelles swell and burst, releasing their contents into the extracellular space — the book's own light-microscope description.",
         B: "True, so not the exception. Both necrotic and apoptotic cells are ultimately cleared by phagocytosis by macrophages.",
-        C: "The exception, and the answer. The book defines necrosis as a pathological condition only, resulting from anoxia, mechanical injury or toxins; being 'physiological' is what distinguishes apoptosis, an active programmed death that occurs normally at the end of a cell's life span.",
+        C: "The exception, and the answer. The book defines necrosis as a pathological condition only, resulting from anoxia, mechanical injury or toxins; being 'physiological' is what distinguishes apoptosis, an active programmed death that occurs normally at the end of a cell's life span. A common trap: assuming both forms of death end differently.",
         D: "True, so not the exception. Anoxia, mechanical injury and toxin exposure are the book's own stated causes of necrosis.",
       },
     },
@@ -42,7 +42,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "Name pyknosis as the nuclear change of becoming small and darkly stained with condensed chromatin.",
       explanations: {
-        A: "Correct. The book defines pyknosis as the nucleus becoming small, darkly stained, with condensed chromatin.",
+        A: "Correct. The book defines pyknosis as the nucleus becoming small, darkly stained, with condensed chromatin. A common trap: assuming both forms of death end differently.",
         B: "Karyorrhexis is the chromatin fragmenting into pieces, not the nucleus becoming small and dark.",
         C: "Karyolysis is the nucleus dissolving and disappearing, the opposite of becoming small and darkly stained.",
         D: "Eukaryotic is a description of cell type, not a nuclear change of necrosis.",
@@ -57,7 +57,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Sulfatase is not the enzyme the book credits with chromatin fragmentation.",
         B: "Recombinase acts on DNA during genetic recombination, not on the necrotic nucleus's chromatin.",
-        C: "Correct. The book states that in karyorrhexis, the nucleus and its chromatin are fragmented into pieces by an endonuclease enzyme.",
+        C: "Correct. The book states that in karyorrhexis, the nucleus and its chromatin are fragmented into pieces by an endonuclease enzyme. A common trap: assuming both forms of death end differently.",
         D: "Lipase acts on lipids, not on chromatin, and plays no part in the book's description of karyorrhexis.",
       },
     },
@@ -69,7 +69,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name karyorrhexis as the term for chromatin fragmenting into pieces.",
       explanations: {
         A: "Pyknosis is the nucleus becoming small and darkly stained, not fragmenting into pieces.",
-        B: "Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme.",
+        B: "Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.",
         C: "Karyolysis is the nucleus dissolving and disappearing entirely, not breaking into visible fragments.",
         D: "Eukaryotic describes a cell type, not a nuclear change.",
       },
@@ -84,7 +84,7 @@ export const LEAF: McqLeafSeed = {
         A: "That description — small and darkly stained — is pyknosis, not karyorrhexis.",
         B: "The nuclei and chromatin swelling is not any of the three necrotic nuclear changes the book names; necrotic nuclei shrink and fragment or dissolve, they do not swell.",
         C: "Dissolution and disappearance of the nucleus is karyolysis, not karyorrhexis.",
-        D: "Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme.",
+        D: "Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.",
       },
     },
   ],

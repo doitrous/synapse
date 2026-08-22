@@ -31,7 +31,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "A junctional complex is a broader structure of several junction types together; the book names the specific junction between the two pneumocyte types as a tight junction alone.",
         B: "A desmosome is an anchoring junction resisting mechanical stress, not the junction the book states between the two pneumocyte types.",
-        C: "Correct. The book states type I pneumocytes have tight junctions with both type I and type II pneumocytes.",
+        C: "Correct. The book states type I pneumocytes have tight junctions with both type I and type II pneumocytes. A common trap: assuming the cell covering most of the alveolar surface must be the more metabolically active one.",
         D: "An adherens junction is a different junction type from the tight junction the book names here.",
       },
     },

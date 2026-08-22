@@ -32,7 +32,7 @@ export const LEAF: McqLeafSeed = {
         A: "Contains B-lymphocytes, so not the exception. A primary follicle is formed mainly of B-lymphocytes with a few T-lymphocytes.",
         B: "Contains B-lymphocytes, so not the exception. A secondary follicle's germinal centre carries large activated B-lymphocytes and plasma cells, alongside macrophages and a few T-lymphocytes.",
         C: "Contains B-lymphocytes, so not the exception. The medullary cords are B-lymphocytes, plasma cells and macrophages — no zone of the medulla is T-cell only.",
-        D: "Correct — the exception, and the true answer. The paracortex is the thymus-dependent zone: unlike the follicles, sinuses and cords around it, it carries only T-lymphocytes, which have migrated in from the thymus through post-capillary venules.",
+        D: "Correct — the exception, and the true answer. The paracortex is the thymus-dependent zone: unlike the follicles, sinuses and cords around it, it carries only T-lymphocytes, which have migrated in from the thymus through post-capillary venules. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.",
       },
       answerOverride: "D",
       answerOverrideReason: "The extracted key (C, medullary cords) contradicts the book. Histology department book p16-17: medullary cords are explicitly 'B-lymphocytes, plasma cells and macrophages' — a B-lymphocyte-carrying compartment, not the T-only exception the stem asks for. The paracortex (p16) is the book's own T-lymphocyte-only zone ('the thymus dependant zone... it contains T-lymphocytes which have migrated from thymus'), which is the structure the stem is actually describing.",
@@ -45,7 +45,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Recognise the secondary follicle by its peripheral dark small-lymphocyte region around a germinal centre of large B-lymphocytes, with few T-lymphocytes.",
       explanations: {
         A: "A primary follicle has no germinal centre at all — it is formed of aggregated cells, mainly B-lymphocytes, before antigen exposure produces the germinal centre the stem describes.",
-        B: "Correct. The book describes the secondary follicle exactly this way: peripheral dark regions of small lymphocytes around a pale germinal centre containing large activated B-lymphocytes and plasma cells, with macrophages and a few T-lymphocytes.",
+        B: "Correct. The book describes the secondary follicle exactly this way: peripheral dark regions of small lymphocytes around a pale germinal centre containing large activated B-lymphocytes and plasma cells, with macrophages and a few T-lymphocytes. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.",
         C: "A cortical sinus is a lymph-filled space lined by endothelium and macrophages, not a lymphocyte aggregation with a germinal centre.",
         D: "The paracortex has no germinal centre and no B-lymphocytes at all — it is the thymus-dependent zone of T-lymphocytes only, the opposite of the structure the stem describes.",
       },

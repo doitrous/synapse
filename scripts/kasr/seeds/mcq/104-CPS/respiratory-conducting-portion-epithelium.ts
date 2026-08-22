@@ -56,7 +56,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name the junctional complex as the structure binding sustentacular (supporting) cells to olfactory neurons.",
       explanations: {
         A: "A gap junction couples cells electrically or metabolically; the book's own word for what binds the supporting cell to the olfactory cell is a junctional complex, not a gap junction.",
-        B: "Correct. The book states directly that junctional complexes bind the supporting (sustentacular) cells to the olfactory cells.",
+        B: "Correct. The book states directly that junctional complexes bind the supporting (sustentacular) cells to the olfactory cells. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.",
         C: "A tight junction is one component of a junctional complex, but the book names the complex as a whole, not this one component alone, as what performs the binding.",
         D: "An adherens junction is likewise only one component of a junctional complex, not the term the book uses for this specific attachment.",
       },
@@ -70,7 +70,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Ciliated columnar cells beat their cilia to move mucus outward — the book gives them no sensory role or afferent nerve ending.",
         B: "Mucous goblet cells secrete mucus; the book describes no nerve ending or sensory function for them.",
-        C: "Correct. The book states that brush cells have basal afferent nerve endings and act as sensory receptors.",
+        C: "Correct. The book states that brush cells have basal afferent nerve endings and act as sensory receptors. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         D: "Basal cells are the epithelium's stem cells, replacing the other cell types — the book gives them no sensory or nerve-ending role.",
       },
     },
@@ -83,7 +83,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Brush cells are sensory receptors with apical microvilli and basal afferent nerve endings — the book gives them no APUD classification or basal granules.",
         B: "Mucous goblet cells secrete mucus from apical mucin granules; they are not classed as APUD cells.",
-        C: "Correct. The book classes small granule cells as neuroendocrine cells belonging to APUD, with numerous basal dense granules secreting hormones such as serotonin and catecholamines.",
+        C: "Correct. The book classes small granule cells as neuroendocrine cells belonging to APUD, with numerous basal dense granules secreting hormones such as serotonin and catecholamines. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         D: "Basal cells are stem cells for the other epithelial types — the book gives them no APUD role or basal secretory granules.",
       },
     },
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Ciliated columnar cells carry motile cilia on their apex, not the abundant microvilli the stem describes.",
         B: "Mucous goblet cells are filled apically with mucin granules, not microvilli.",
-        C: "Correct. The book describes brush cells as columnar cells with abundant apical microvilli.",
+        C: "Correct. The book describes brush cells as columnar cells with abundant apical microvilli. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         D: "Basal cells are small and rounded, resting on the basal lamina without reaching the lumen at all, so they carry no apical surface feature such as microvilli.",
       },
     },
@@ -107,7 +107,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Identify the ciliated columnar cell as the conducting portion's most abundant epithelial cell, mitochondria-rich to power ciliary beating.",
       explanations: {
-        A: "Correct. The book calls ciliated columnar cells the most abundant cells of the epithelium, with numerous apical mitochondria supplying the energy for ciliary beating.",
+        A: "Correct. The book calls ciliated columnar cells the most abundant cells of the epithelium, with numerous apical mitochondria supplying the energy for ciliary beating. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         B: "Mucous goblet cells are described as the next most numerous, not the most numerous, and their apical cytoplasm is filled with mucin granules rather than being mitochondria-rich.",
         C: "Brush cells are a minority sensory population, not the most numerous cell of the epithelium.",
         D: "Basal cells are the epithelium's stem-cell population, not described as mitochondria-rich or as the most numerous type.",
@@ -121,7 +121,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Identify the mucous goblet cell as the epithelium's next most numerous cell, trapping bacteria and dust in the mucus it secretes.",
       explanations: {
         A: "Ciliated columnar cells are the most numerous cell, not the next most numerous, and they move trapped material rather than trapping it themselves.",
-        B: "Correct. The book describes mucous goblet cells as the next most numerous cell type, secreting mucus that covers the epithelium and traps bacteria and dust particles.",
+        B: "Correct. The book describes mucous goblet cells as the next most numerous cell type, secreting mucus that covers the epithelium and traps bacteria and dust particles. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         C: "Brush cells are sensory receptors, not the mucus-secreting, trapping cell the stem describes.",
         D: "Basal cells are stem cells resting on the basal lamina, playing no part in trapping inhaled particles.",
       },
@@ -136,7 +136,7 @@ export const LEAF: McqLeafSeed = {
         A: "Ciliated columnar cells are tall and reach the lumen, carrying cilia at their apex — the opposite of the stem's description.",
         B: "Mucous goblet cells also reach the epithelial surface to release mucus, unlike the cell the stem describes.",
         C: "Brush cells reach the lumen with an apical microvillous surface — they are not the basal, lumen-absent stem cell being asked for.",
-        D: "Correct. The book describes basal cells as small, rounded cells sitting on the basal lamina without reaching the lumen, which act as the stem cells that replace the other cell types.",
+        D: "Correct. The book describes basal cells as small, rounded cells sitting on the basal lamina without reaching the lumen, which act as the stem cells that replace the other cell types. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
       },
     },
     {
@@ -148,7 +148,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Brush cells are sensory receptors with basal nerve endings, not secretory APUD cells.",
         B: "Mucous goblet cells secrete mucus, not serotonin or catecholamines.",
-        C: "Correct. The book states small granule cells secrete hormones such as serotonin and catecholamines, to help control airway and blood vessel diameter and regulate glandular secretion.",
+        C: "Correct. The book states small granule cells secrete hormones such as serotonin and catecholamines, to help control airway and blood vessel diameter and regulate glandular secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         D: "Basal cells are the epithelium's stem-cell population, with no secretory role of this kind.",
       },
     },
@@ -161,7 +161,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Stratified columnar epithelium is not a lining the book describes anywhere in the nasal vestibule.",
         B: "Keratinized stratified squamous epithelium is the vestibule's own anterior lining, at the nostril itself — the stem is asking what it changes into further in, not what it starts as.",
-        C: "Correct. The book states that the vestibule is lined by hairy keratinized stratified squamous epithelium which, deeper in, changes to non-keratinized stratified squamous epithelium.",
+        C: "Correct. The book states that the vestibule is lined by hairy keratinized stratified squamous epithelium which, deeper in, changes to non-keratinized stratified squamous epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.",
         D: "Pseudostratified columnar ciliated epithelium is the respiratory epithelium of the nasal fossae beyond the vestibule, not the epithelium the vestibule's own deeper part changes into.",
       },
     },
@@ -175,7 +175,7 @@ export const LEAF: McqLeafSeed = {
         A: "Stratified columnar epithelium is not the lining the book assigns to any part of the nasal fossae.",
         B: "Keratinized stratified squamous epithelium lines the anterior vestibule, not the middle and inferior conchae further inside the nasal fossae.",
         C: "Non-keratinized stratified squamous epithelium is the deeper vestibule's lining, not the conchae's.",
-        D: "Correct. The book states the middle and inferior conchae are covered with respiratory epithelium — pseudostratified columnar ciliated with goblet cells — while only the superior concha carries olfactory epithelium.",
+        D: "Correct. The book states the middle and inferior conchae are covered with respiratory epithelium — pseudostratified columnar ciliated with goblet cells — while only the superior concha carries olfactory epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.",
       },
     },
     {
@@ -186,7 +186,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Separate the olfactory neuron's own features (bipolar, regenerating, dendrite to olfactory vesicle, multiple basal bodies, axon to lamina propria) from the sustentacular cell's wide apex, narrow base and apical microvilli.",
       explanations: {
         A: "True of olfactory neurons, so not the exception. The book describes them as bipolar nerve cells with a high capacity to regenerate.",
-        B: "The exception, and the answer. A wide cylindrical apex, narrow base and apical microvilli are the book's own description of the sustentacular (supporting) cell, not the olfactory neuron, whose dendrite ends in an olfactory vesicle rather than a broad microvillous apex.",
+        B: "The exception, and the answer. A wide cylindrical apex, narrow base and apical microvilli are the book's own description of the sustentacular (supporting) cell, not the olfactory neuron, whose dendrite ends in an olfactory vesicle rather than a broad microvillous apex. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.",
         C: "True, so not the exception. The olfactory neuron's dendrite extends toward the surface and ends in the olfactory vesicle.",
         D: "True, so not the exception. Multiple basal bodies in the olfactory vesicle are what the long, non-motile olfactory cilia arise from.",
         E: "True, so not the exception. The book states the olfactory neuron's axon passes into the lamina propria to form the olfactory nerve fibres.",
@@ -200,7 +200,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name Bowman's glands as the source of the serous fluid odorous substances dissolve in around the olfactory cilia.",
       explanations: {
         A: "A generic mucous gland is not the specific structure the book names for this fluid — the olfactory mucosa's own glands are Bowman's glands.",
-        B: "Correct. The book states Bowman's glands secrete a serous fluid that acts as the medium around the olfactory cilia in which odorous substances dissolve.",
+        B: "Correct. The book states Bowman's glands secrete a serous fluid that acts as the medium around the olfactory cilia in which odorous substances dissolve. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.",
         C: "A muco-serous gland is not the term the book uses for the olfactory lamina propria's glands, which it names specifically as Bowman's glands.",
         D: "The parotid gland is a salivary gland with no role in the olfactory mucosa the book describes.",
       },
@@ -212,7 +212,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Attribute airway diameter control (via serotonin and catecholamine secretion) to the small granule cell.",
       explanations: {
-        A: "Correct. The book states small granule cells secrete hormones like serotonin and catecholamines that control the diameter of the airway and blood vessels and regulate mucous and serous secretion.",
+        A: "Correct. The book states small granule cells secrete hormones like serotonin and catecholamines that control the diameter of the airway and blood vessels and regulate mucous and serous secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.",
         B: "The stem cell that replaces the other epithelial types is the basal cell, not the small granule cell.",
         C: "Acting as a sensory receptor is the brush cell's role, with its basal afferent nerve endings, not the small granule cell's.",
         D: "Pushing mucus with trapped bacteria outward is the ciliated columnar cell's job, driven by ciliary beating, not the small granule cell's secretion.",
