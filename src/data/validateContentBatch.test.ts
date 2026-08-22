@@ -724,3 +724,51 @@ test('a clinical case is not asked for a mark scheme it does not use', () => {
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+/* ---- update rows are not asked for what a create needs -------------------- */
+
+test('a sparse update on a resolvable id is not asked for the authoring fields', () => {
+  // 90 lines of "no definition" against records whose live definitions were
+  // never in doubt. An update restates its discriminator and the columns it
+  // changes; asking it for a definition it is not touching is asking the wrong
+  // question, and the lanes started treating simulate as the gate instead.
+  const root = mkdtempSync(join(tmpdir(), 'update-semantics-'))
+  mkdirSync(join(root, 'concept'))
+  const full = ['# Item', '## label', 'A fully authored concept', '## id', 'CON-FND-UPD00000001',
+    '## canonical_key', 'upd.full', '## definition', 'd', '## explicit_objective', 'o',
+    '## arabic_label', 'x', ''].join('\n')
+  const sparse = (extra: string[] = []) => ['# Item', '## label', 'A fully authored concept',
+    '## id', 'CON-FND-UPD00000001', '## atomic_claim_ids', '+CLM-U-1', ...extra, ''].join('\n')
+  writeFileSync(join(root, 'concept', 'full.md'), full)
+  writeFileSync(join(root, 'concept', 'upd.md'), sparse())
+  try {
+    // Resolved through a --with sibling, which is what the rule allows.
+    const update = validate(join(root, 'concept', 'upd.md'), join(root, 'concept', 'full.md'))
+    assert.deepEqual(update.errors, [], `a resolvable sparse update should be clean: ${JSON.stringify(update.errors)}`)
+
+    // A create must never certify itself. A row whose id nothing else authors —
+    // not live state, not a sibling — is a create, and is still refused for
+    // what it lacks. The first version of this rule let such a row vouch for
+    // itself, because its own id counted as "authored here", so a brand-new
+    // concept was excused the definition it genuinely lacked.
+    const alone = mkdtempSync(join(tmpdir(), 'update-create-'))
+    mkdirSync(join(alone, 'concept'))
+    writeFileSync(join(alone, 'concept', 'new.md'), ['# Item', '## label', 'A brand new concept',
+      '## id', 'CON-FND-UPDNOTLIVE01', '## canonical_key', 'upd.notlive', ''].join('\n'))
+    try {
+      const create = validate(join(alone, 'concept', 'new.md'))
+      assert.ok(create.errors.some((error) => error.includes('no definition')),
+        `an id nothing authors is a create and still needs a definition: ${JSON.stringify(create.errors)}`)
+    } finally {
+      rmSync(alone, { recursive: true, force: true })
+    }
+
+    // Every check that reads a field the row does name still applies.
+    writeFileSync(join(root, 'concept', 'bad.md'), sparse(['## subject', 'cardio']))
+    const badSubject = validate(join(root, 'concept', 'bad.md'), join(root, 'concept', 'full.md'))
+    assert.ok(badSubject.errors.some((error) => error.includes('curriculum subjects')),
+      'an update naming a bad subject must still be refused')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
