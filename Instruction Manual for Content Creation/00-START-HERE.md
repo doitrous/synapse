@@ -197,7 +197,7 @@ it. Never run `git commit`, `git push`, or an import.
 
 ## 2 · The file format
 
-Every importer except the glossary reads the same markdown:
+Every importer, the glossary included, reads the same markdown:
 
 ```markdown
 # Item
@@ -226,7 +226,13 @@ value
   `## canonical_key` are the same key.
 - One file may hold many records of the same kind. Practicals may mix all five formats.
 
-The glossary is the exception: it uses a pipe table. See [11-glossary-terms.md](11-glossary-terms.md).
+Key order within a record does not matter to the importer; never write a script that assumes
+it.
+
+The glossary is not an exception to this format — it goes through the same generic import
+wizard and the same `# Item` / `## field` parser as everything else. Its field keys and the
+handful of headings that need spelling to auto-map correctly are in
+[11-glossary-terms.md](11-glossary-terms.md).
 
 ### Two list-splitting rules, and mixing them corrupts your prose
 

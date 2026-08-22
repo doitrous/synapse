@@ -11,7 +11,7 @@ they will hear on the ward.
 |---|---|
 | **Imports at** | Admin › Glossary › Import (`/admin/glossary/import`) |
 | **Goes in** | `docs/import-ready/glossary/` |
-| **Format** | **A pipe table** — not `# Item` blocks. See below. |
+| **Format** | Same as every other kind — `# Item` / `## field` blocks. See below. |
 | **Fields** | 7 |
 | **Live today** | The glossary is **empty**. Nothing has been imported. |
 
@@ -37,24 +37,20 @@ than flagging it — a wrong term teaches the wrong word.
 
 ---
 
-## Three ways this type is different from everything else
+## Two ways this type is different from everything else
 
-### 1 · It uses a pipe table, not `# Item` blocks
+The file format is **not** one of them, despite what an earlier draft of this manual and the
+admin import screen's own "Markdown alternative" preview both claimed. Verified directly
+against `src/components/admin/ImportWizard.tsx`: every `.md`/`.markdown` upload — glossary
+included — goes through the same `parseMarkdown()`, which reads `# Item` / `## field` blocks
+by regex-matching `##` headings. It does not parse pipe tables at all; a pipe table saved as
+`.md` yields zero detected headers and the wizard rejects it with "No header row and data
+rows were detected in this file." (`src/pages/admin/GlossaryImportPage.tsx:15-18` shows a pipe
+table as its example text, but that text is display-only and does not reflect what the parser
+accepts.) So: write the glossary exactly like every other kind, `# Item` / `## field` blocks.
+The wizard also accepts `.csv` and `.xlsx` if that is what you have.
 
-Every other importer in this folder reads `# Item` / `## field_key`. The glossary goes
-through the generic import wizard, which reads a **markdown pipe table** — the same shape as
-a spreadsheet, because a bilingual dictionary usually arrives as one.
-
-```markdown
-| term | ar | category | def | defAr | example |
-| --- | --- | --- | --- | --- | --- |
-| Tachycardia | تسرّع القلب | Signs & symptoms | A faster than normal heart rate. | تسارع ضربات القلب عن المعدل الطبيعي. | The patient was tachycardic at 120 beats per minute. |
-```
-
-Row 1 is the header. Row 2 is the `---` separator. Every row after that is one term. The
-wizard also accepts `.csv` and `.xlsx` if that is what you have.
-
-### 2 · None of the four validators cover it
+### 1 · None of the four validators cover it
 
 `medical:batch`, `medical:simulate`, `medical:audit` and `medical:validate:authoring` all
 have no branch for the glossary. `medical:batch` used to crash on a glossary file with a
@@ -63,7 +59,7 @@ handles a subjects file.
 
 Your check is the one in this manual, plus the wizard's own preview.
 
-### 3 · The glossary is currently empty
+### 2 · The glossary is currently empty
 
 There are **no live terms**. `starterGlossary()` can seed **54** terms from `GLOSSARY_SEED`,
 but it is only offered while the glossary is empty and it has never been run.
@@ -99,8 +95,9 @@ node --experimental-strip-types -e "
 import('./src/data/glossary.ts').then(({ GLOSSARY_SEED }) => {
   const fs = require('fs');
   const seed = new Set(GLOSSARY_SEED.map(t => t.term.toLowerCase()));
-  const rows = fs.readFileSync(process.argv[1],'utf8').split(/\r?\n/).filter(l => l.startsWith('|')).slice(2);
-  const hits = rows.map(r => r.split('|')[1].trim()).filter(t => seed.has(t.toLowerCase()));
+  const text = fs.readFileSync(process.argv[1],'utf8');
+  const terms = [...text.matchAll(/^##\s+term\s*\n(.+)$/gim)].map(m => m[1].trim());
+  const hits = terms.filter(t => seed.has(t.toLowerCase()));
   console.log('seed terms:', GLOSSARY_SEED.length);
   console.log('terms in your batch that are already in the seed:', hits.join(', ') || 'none');
 });" "docs/import-ready/glossary/<your-file>.md"
@@ -121,7 +118,7 @@ node "Instruction Manual for Content Creation/tools/find-existing.mjs" "<the ter
 
 The tool searches live glossary terms in both languages, and pending batches. Because the
 live glossary is empty, hits today will come from the seed or from another agent's pending
-file — both of which still mean **do not write a second row**.
+file — both of which still mean **do not write a second item for it**.
 
 An existing term is updated by giving its `id`. The ID is derived from the term when
 omitted: lowercased, non-alphanumerics to `-`, capped at 40 characters. So `Tachycardia`
@@ -132,18 +129,28 @@ duplicating it — which is the one piece of duplicate protection this format gi
 
 ## The seven fields
 
-| Column | Label | Required | Rule |
+Write each one as a `## heading` inside the item's block (see the worked example below).
+The **stored key** is what the code actually calls the field once it lands in `GlossaryDoc`
+(`src/data/glossary.ts:20`); the **`## ` heading to write** is the text the wizard's column
+mapper will auto-recognise for that key. Most of them are the same string. `defAr` is not —
+write `## definition_ar`, not `## defAr`: the mapper lowercases and underscores headings
+before matching, so a heading of `defAr` normalises to `defar`, which matches nothing, while
+`definition_ar` is a registered alias for the real key `defAr`
+(`src/pages/admin/GlossaryImportPage.tsx:82`). If you get the heading wrong the wizard still
+lets you fix it by hand on the column-mapping step — it just won't auto-guess it for you.
+
+| Stored key | `## ` heading to write | Required | Rule |
 |---|---|---|---|
-| `term` | Term (English) | **yes** | The English term. Singular, lowercase unless it is a proper noun. |
-| `ar` | Term (Arabic) | **yes** | The reviewed Arabic term students read. Research it and write it — no separate verification step is required. |
-| `category` | Category | **yes** | Exactly one of the seven below. Anything else rejects the row. |
-| `def` | Definition (English) | **yes** | One plain sentence. See the register note. |
-| `defAr` | Definition (Arabic) | no — **write it** | The same explanation in Arabic. A term with no Arabic definition shows an **Incomplete** badge in admin. |
-| `example` | Example | no — **write it** | How the term is used in a sentence. This is what makes a dictionary usable. |
-| `id` | ID | no | Supply to update an existing term. Derived from `term` when omitted. |
+| `term` | `## term` | **yes** | The English term. Singular, lowercase unless it is a proper noun. |
+| `ar` | `## ar` | **yes** | The reviewed Arabic term students read. Research it and write it — no separate verification step is required. |
+| `category` | `## category` | **yes** | Exactly one of the seven below. Anything else rejects the row. |
+| `def` | `## def` | **yes** | One plain sentence. See the register note. |
+| `defAr` | `## definition_ar` | no — **write it** | The same explanation in Arabic. A term with no Arabic definition shows an **Incomplete** badge in admin. |
+| `example` | `## example` | no — **write it** | How the term is used in a sentence. This is what makes a dictionary usable. |
+| `id` | `## id` | no | Supply to update an existing term. Derived from `term` when omitted. |
 
 The admin form flags a term as **Incomplete** when `term`, `ar` or `def` is missing. Aim
-past that bar: fill all six content fields on every row.
+past that bar: fill all six content fields on every item.
 
 ### The seven categories, verbatim
 
@@ -209,31 +216,446 @@ In practice a glossary term that needs a diagram is usually a concept in disguis
 `docs/import-ready/glossary/GLOSSARY-CVS-001.md`
 
 ```markdown
-| term | ar | category | def | defAr | example |
-| --- | --- | --- | --- | --- | --- |
-| Tachycardia | تسرّع القلب | Signs & symptoms | A faster than normal heart rate. | تسارع ضربات القلب عن المعدل الطبيعي. | The patient was tachycardic at 120 beats per minute. |
-| Bradycardia | بطء القلب | Signs & symptoms | A slower than normal heart rate. | تباطؤ ضربات القلب عن المعدل الطبيعي. | Bradycardia is expected in a trained athlete at rest. |
-| Murmur | لغط | Signs & symptoms | An extra sound made by turbulent blood flow in the heart. | صوت إضافي ناتج عن اضطراب تدفق الدم في القلب. | A systolic murmur was heard at the aortic area. |
-| Palpitations | خفقان | Signs & symptoms | An awareness of your own heartbeat. | الإحساس بضربات القلب. | She described palpitations lasting a few minutes at a time. |
-| Orthopnoea | ضيق التنفس الاضطجاعي | Signs & symptoms | Breathlessness that comes on when lying flat. | ضيق في التنفس يحدث عند الاستلقاء. | He now sleeps on three pillows because of orthopnoea. |
-| -megaly | -ضخامة | Word parts | Enlargement. Attached to the end of an organ name. | تضخم. تُضاف إلى نهاية اسم العضو. | Cardiomegaly is enlargement of the heart. |
-| -pnoea | -تنفس | Word parts | Breathing. Attached to the end of a word describing how. | تنفس. تُضاف إلى نهاية كلمة تصف كيفيته. | Tachypnoea means fast breathing. |
-| Peri- | حول- | Word parts | Around. Attached to the front of a structure's name. | حول. تُضاف إلى بداية اسم التركيب. | The pericardium is the sac around the heart. |
-| Endo- | داخل- | Word parts | Inside. Attached to the front of a structure's name. | داخل. تُضاف إلى بداية اسم التركيب. | The endocardium lines the inside of the heart chambers. |
-| Myo- | عضل- | Word parts | Muscle. Attached to the front of a word. | عضلة. تُضاف إلى بداية الكلمة. | The myocardium is the muscle of the heart. |
-| Apex beat | نبضة القمة | Examination | The lowest and most lateral point where the heartbeat can be felt on the chest. | أبعد نقطة وأدناها على الصدر يمكن الإحساس فيها بنبض القلب. | The apex beat was displaced to the anterior axillary line. |
-| Jugular venous pressure | ضغط الوريد الوداجي | Examination | The height of blood in the neck vein, used to estimate pressure in the right side of the heart. | ارتفاع عمود الدم في وريد الرقبة، ويُستخدم لتقدير الضغط في الجانب الأيمن من القلب. | The jugular venous pressure was raised 6 cm above the sternal angle. |
-| Capillary refill time | زمن امتلاء الشعيرات | Examination | The time colour takes to return after pressing on a fingertip. | الزمن الذي يستغرقه عودة اللون بعد الضغط على طرف الإصبع. | Capillary refill time was prolonged at four seconds. |
-| Echocardiogram | تخطيط صدى القلب | Investigations | An ultrasound scan of the heart. | فحص القلب بالموجات فوق الصوتية. | The echocardiogram showed a dilated left ventricle. |
-| Troponin | التروبونين | Investigations | A protein released into the blood when heart muscle is damaged. | بروتين يُطلق في الدم عند تلف عضلة القلب. | The troponin rose over six hours, confirming myocardial injury. |
-| Angiography | تصوير الأوعية | Investigations | Imaging of blood vessels after injecting a contrast dye. | تصوير الأوعية الدموية بعد حقن صبغة ظليلة. | Coronary angiography showed a blocked right coronary artery. |
-| Pericardium | التامور | Directional & anatomy | The sac of two layers that encloses the heart. | الكيس المكوّن من طبقتين الذي يحيط بالقلب. | The pericardium limits how much the heart can suddenly distend. |
-| Antiplatelet | مضاد للصفيحات | Pharmacology | A drug that makes platelets less likely to clump together. | دواء يقلل من تجمع الصفيحات الدموية. | Aspirin is the antiplatelet given first in suspected acute coronary syndrome. |
-| Anticoagulant | مضاد للتخثر | Pharmacology | A drug that slows the formation of blood clots. | دواء يبطئ تكوّن الجلطات الدموية. | She was started on an anticoagulant for atrial fibrillation. |
-| Heart failure | قصور القلب | Common conditions | A condition in which the heart cannot pump enough blood for the body's needs. | حالة لا يستطيع فيها القلب ضخ كمية كافية من الدم لتلبية احتياجات الجسم. | His breathlessness was caused by heart failure. |
+# Item
+
+## term
+Tachycardia
+
+## ar
+تسرّع القلب
+
+## category
+Signs & symptoms
+
+## def
+A faster than normal heart rate.
+
+## definition_ar
+تسارع ضربات القلب عن المعدل الطبيعي.
+
+## example
+The patient was tachycardic at 120 beats per minute.
+
+---
+
+# Item
+
+## term
+Bradycardia
+
+## ar
+بطء القلب
+
+## category
+Signs & symptoms
+
+## def
+A slower than normal heart rate.
+
+## definition_ar
+تباطؤ ضربات القلب عن المعدل الطبيعي.
+
+## example
+Bradycardia is expected in a trained athlete at rest.
+
+---
+
+# Item
+
+## term
+Murmur
+
+## ar
+لغط
+
+## category
+Signs & symptoms
+
+## def
+An extra sound made by turbulent blood flow in the heart.
+
+## definition_ar
+صوت إضافي ناتج عن اضطراب تدفق الدم في القلب.
+
+## example
+A systolic murmur was heard at the aortic area.
+
+---
+
+# Item
+
+## term
+Palpitations
+
+## ar
+خفقان
+
+## category
+Signs & symptoms
+
+## def
+An awareness of your own heartbeat.
+
+## definition_ar
+الإحساس بضربات القلب.
+
+## example
+She described palpitations lasting a few minutes at a time.
+
+---
+
+# Item
+
+## term
+Orthopnoea
+
+## ar
+ضيق التنفس الاضطجاعي
+
+## category
+Signs & symptoms
+
+## def
+Breathlessness that comes on when lying flat.
+
+## definition_ar
+ضيق في التنفس يحدث عند الاستلقاء.
+
+## example
+He now sleeps on three pillows because of orthopnoea.
+
+---
+
+# Item
+
+## term
+-megaly
+
+## ar
+-ضخامة
+
+## category
+Word parts
+
+## def
+Enlargement. Attached to the end of an organ name.
+
+## definition_ar
+تضخم. تُضاف إلى نهاية اسم العضو.
+
+## example
+Cardiomegaly is enlargement of the heart.
+
+---
+
+# Item
+
+## term
+-pnoea
+
+## ar
+-تنفس
+
+## category
+Word parts
+
+## def
+Breathing. Attached to the end of a word describing how.
+
+## definition_ar
+تنفس. تُضاف إلى نهاية كلمة تصف كيفيته.
+
+## example
+Tachypnoea means fast breathing.
+
+---
+
+# Item
+
+## term
+Peri-
+
+## ar
+حول-
+
+## category
+Word parts
+
+## def
+Around. Attached to the front of a structure's name.
+
+## definition_ar
+حول. تُضاف إلى بداية اسم التركيب.
+
+## example
+The pericardium is the sac around the heart.
+
+---
+
+# Item
+
+## term
+Endo-
+
+## ar
+داخل-
+
+## category
+Word parts
+
+## def
+Inside. Attached to the front of a structure's name.
+
+## definition_ar
+داخل. تُضاف إلى بداية اسم التركيب.
+
+## example
+The endocardium lines the inside of the heart chambers.
+
+---
+
+# Item
+
+## term
+Myo-
+
+## ar
+عضل-
+
+## category
+Word parts
+
+## def
+Muscle. Attached to the front of a word.
+
+## definition_ar
+عضلة. تُضاف إلى بداية الكلمة.
+
+## example
+The myocardium is the muscle of the heart.
+
+---
+
+# Item
+
+## term
+Apex beat
+
+## ar
+نبضة القمة
+
+## category
+Examination
+
+## def
+The lowest and most lateral point where the heartbeat can be felt on the chest.
+
+## definition_ar
+أبعد نقطة وأدناها على الصدر يمكن الإحساس فيها بنبض القلب.
+
+## example
+The apex beat was displaced to the anterior axillary line.
+
+---
+
+# Item
+
+## term
+Jugular venous pressure
+
+## ar
+ضغط الوريد الوداجي
+
+## category
+Examination
+
+## def
+The height of blood in the neck vein, used to estimate pressure in the right side of the heart.
+
+## definition_ar
+ارتفاع عمود الدم في وريد الرقبة، ويُستخدم لتقدير الضغط في الجانب الأيمن من القلب.
+
+## example
+The jugular venous pressure was raised 6 cm above the sternal angle.
+
+---
+
+# Item
+
+## term
+Capillary refill time
+
+## ar
+زمن امتلاء الشعيرات
+
+## category
+Examination
+
+## def
+The time colour takes to return after pressing on a fingertip.
+
+## definition_ar
+الزمن الذي يستغرقه عودة اللون بعد الضغط على طرف الإصبع.
+
+## example
+Capillary refill time was prolonged at four seconds.
+
+---
+
+# Item
+
+## term
+Echocardiogram
+
+## ar
+تخطيط صدى القلب
+
+## category
+Investigations
+
+## def
+An ultrasound scan of the heart.
+
+## definition_ar
+فحص القلب بالموجات فوق الصوتية.
+
+## example
+The echocardiogram showed a dilated left ventricle.
+
+---
+
+# Item
+
+## term
+Troponin
+
+## ar
+التروبونين
+
+## category
+Investigations
+
+## def
+A protein released into the blood when heart muscle is damaged.
+
+## definition_ar
+بروتين يُطلق في الدم عند تلف عضلة القلب.
+
+## example
+The troponin rose over six hours, confirming myocardial injury.
+
+---
+
+# Item
+
+## term
+Angiography
+
+## ar
+تصوير الأوعية
+
+## category
+Investigations
+
+## def
+Imaging of blood vessels after injecting a contrast dye.
+
+## definition_ar
+تصوير الأوعية الدموية بعد حقن صبغة ظليلة.
+
+## example
+Coronary angiography showed a blocked right coronary artery.
+
+---
+
+# Item
+
+## term
+Pericardium
+
+## ar
+التامور
+
+## category
+Directional & anatomy
+
+## def
+The sac of two layers that encloses the heart.
+
+## definition_ar
+الكيس المكوّن من طبقتين الذي يحيط بالقلب.
+
+## example
+The pericardium limits how much the heart can suddenly distend.
+
+---
+
+# Item
+
+## term
+Antiplatelet
+
+## ar
+مضاد للصفيحات
+
+## category
+Pharmacology
+
+## def
+A drug that makes platelets less likely to clump together.
+
+## definition_ar
+دواء يقلل من تجمع الصفيحات الدموية.
+
+## example
+Aspirin is the antiplatelet given first in suspected acute coronary syndrome.
+
+---
+
+# Item
+
+## term
+Anticoagulant
+
+## ar
+مضاد للتخثر
+
+## category
+Pharmacology
+
+## def
+A drug that slows the formation of blood clots.
+
+## definition_ar
+دواء يبطئ تكوّن الجلطات الدموية.
+
+## example
+She was started on an anticoagulant for atrial fibrillation.
+
+---
+
+# Item
+
+## term
+Heart failure
+
+## ar
+قصور القلب
+
+## category
+Common conditions
+
+## def
+A condition in which the heart cannot pump enough blood for the body's needs.
+
+## definition_ar
+حالة لا يستطيع فيها القلب ضخ كمية كافية من الدم لتلبية احتياجات الجسم.
+
+## example
+His breathlessness was caused by heart failure.
 ```
 
-Twenty terms across six of the seven categories, every field filled, definitions at a
+Twenty items across six of the seven categories, every field filled, definitions at a
 consistent one-sentence register, and four `Word parts` entries that unlock terms far beyond
 this batch.
 
@@ -249,27 +671,24 @@ import('./src/data/glossary.ts').then(({ MED_CATEGORIES }) => {
   const ok = new Set(MED_CATEGORIES.map(c => c.key));
   const fs = require('fs');
   const file = process.argv[1];
-  const rows = fs.readFileSync(file,'utf8').split(/\r?\n/).filter(l => l.trim().startsWith('|'));
-  const head = rows[0].split('|').map(s=>s.trim()).filter(Boolean);
+  const text = fs.readFileSync(file,'utf8');
+  const items = text.split(/^\s*---\s*$/m).map(s => s.trim()).filter(Boolean);
   let n = 0;
-  for (const row of rows.slice(2)) {
-    const cells = row.split('|').map(s=>s.trim()).slice(1,-1);
+  for (const item of items) {
     n++;
-    if (cells.length !== head.length) console.log('row',n,'has',cells.length,'cells, header has',head.length);
-    const cat = cells[head.indexOf('category')];
-    if (!ok.has(cat)) console.log('row',n,'bad category:',JSON.stringify(cat));
-    for (const req of ['term','ar','def']) if (!cells[head.indexOf(req)]) console.log('row',n,'missing',req);
+    const field = (key) => item.match(new RegExp('^##\\\\s+' + key + '\\\\s*\\\\n([\\\\s\\\\S]*?)(?=^##\\\\s+|$)', 'im'))?.[1]?.trim() ?? '';
+    const cat = field('category');
+    if (!ok.has(cat)) console.log('item',n,'bad category:',JSON.stringify(cat));
+    for (const req of ['term','ar','def']) if (!field(req)) console.log('item',n,'missing',req);
   }
-  console.log('checked', n, 'rows against', head.join(', '));
+  console.log('checked', n, 'items');
 });" "docs/import-ready/glossary/<your-file>.md"
 ```
 
-- [ ] The file is a **pipe table**, not `# Item` blocks
-- [ ] Header row, `---` separator row, then one row per term
-- [ ] Every row has the same number of cells as the header
+- [ ] The file is `# Item` / `## field` blocks, same as every other kind — not a pipe table
+- [ ] Every item has `## term`, `## ar`, `## category` and `## def`
 - [ ] Every `category` is one of the seven, spelled exactly, `&` not `and`
-- [ ] Every row has `term`, `ar` and `def`
-- [ ] Every row also has `defAr` and `example` — not required, but a term without them is half a term
+- [ ] Every item also has `## definition_ar` and `## example` — not required, but a term without them is half a term
 - [ ] No definition uses the term in itself
 - [ ] Definitions are one sentence, and the Arabic matches the English register
 - [ ] I checked `GLOSSARY_SEED` so my batch will not collide with the starter set
@@ -280,9 +699,9 @@ import('./src/data/glossary.ts').then(({ MED_CATEGORIES }) => {
 | Symptom | Cause |
 |---|---|
 | `Row N: "X" is not a glossary category` | Category not in the seven, or `and` written for `&` |
-| `Row N: term is required` | Empty `term` cell |
+| `Row N: term is required` | Empty `term` field |
 | `… matches no contract this validator knows` | You ran `medical:batch` on a glossary file. It has no branch for this kind. |
-| Cells land in the wrong columns | A `\|` inside a definition, or a row with the wrong cell count |
+| A field lands empty in the wizard preview | Heading spelled wrong, or missing the blank line before the next `## ` |
 | A term shows **Incomplete** in admin | Missing `term`, `ar` or `def` |
-| Two rows for one term | Different `term` spellings producing different derived IDs — check with `find-existing.mjs` first |
+| Two items for one term | Different `term` spellings producing different derived IDs — check with `find-existing.mjs` first |
 | Your batch collides with the starter set | You did not check `GLOSSARY_SEED` |

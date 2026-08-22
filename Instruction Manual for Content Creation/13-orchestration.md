@@ -150,6 +150,14 @@ Three cross-cutting rules apply at every stage, not just their nominal one:
   before S7 signs off. A batch that passes `medical:batch` and `medical:audit` can still
   carry a duplicate concept neither gate is built to catch — that is what the drift audit
   in §6 exists for.
+- **Two-sided coverage, not one.** S4's "article ↔ concept links both directions" and S7's
+  completeness sign-off both mean it literally: a tested concept is covered only when an
+  article names it in `related_concepts` **and** that article actually teaches it. A
+  concept's `article_ids` written by `scripts/kasr/build-article-links.ts`'s term-overlap
+  heuristic is not coverage by itself — it is a lead. The coverage-verification pass (script
+  the concept-side-only list per module, read each linked article, add the back-link or fix
+  the article) has to run before a module's `INDEX` at S8, not be assumed from a clean
+  `medical:batch`.
 
 ---
 
@@ -323,6 +331,8 @@ One line each, with the date it actually bit, so nobody re-discovers these the h
 | Update row missing its kind's discriminator | Kind is detected once per file from its first row's columns (`detectBatchKind`, `src/data/batchKind.ts`) — a concept file is *typed* as a concept on `## label` or `## canonical_key`, either alone, but the row-level required-field check in `validate-content-batch.mjs` keys on `## label` specifically; `canonical_key` does not substitute. Every other kind needs its own title/question/type field. `medical:batch` has always refused a label-less row outright (exit 1, `label is required`, alongside the `470fdde` stub-create error); it was `medical:simulate` that stayed silent — it listed such a file under `skipped` and exited 0, so a sparse `## id` + `+universities` row never applied and never showed as an error | Ain Shams toolchain lane, 2026-08-22, against the real validator. Fixed `d82dd36`: `medical:simulate` now errors on any file carrying `## id` rows it cannot type, naming the ids and the discriminator; a file with no ids at all still just shows a skip |
 | Concept update row with `## id` + `## canonical_key` but no `## label` | Refused as `label is required` (`d82dd36`) — `canonical_key` is enough to type the file as a concept batch, but not enough to satisfy the row's required-field check; 23 Alexandria pending-live rows hit it on 2026-08-22. Restate the Kasr label on every sparse row | Alexandria lane, 2026-08-22, against validator `d82dd36` |
 | Temporal-dead-zone traps in the validator/simulate scripts | A `const` referenced before its declaration inside a loop hoist; the fix is to declare shared accumulators above the file loop, not inside it | Hit three times, 2026-08-22 |
+| One-sided coverage from `build-article-links.ts` | `scripts/kasr/build-article-links.ts` writes heuristic `article_ids` onto generated concept rows by term overlap with article text; the validator's union rule then passes on the concept side alone, with no article actually naming the concept back or teaching it | Ruling 2026-08-23, verified in code 2026-08-22: 17 of 23 concepts checked had no article naming them and ≥2 links were wrong. Run the coverage-verification pass per module before its `INDEX` (§4) |
+| Field order inside a `# Item` record | A record's `## field` blocks can appear in any order — some Kasr concept files put `## label` before `## id` — but the importer reads by key, not by position. A lane script that parses by position shifts every id by one record | Caught by Alexandria 2026-08-23, before minting. Parse by key, never by position |
 
 ---
 

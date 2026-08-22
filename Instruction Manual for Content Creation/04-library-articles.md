@@ -36,6 +36,14 @@ in `related_concepts` without the concept naming the article back will validate 
 as long as both are named on the same `--with` — and still leave live coverage broken the next
 time someone checks without that article in the set. Write both directions for real.
 
+A concept's `article_ids` is not proof either: `scripts/kasr/build-article-links.ts` writes
+that field onto generated concept rows heuristically, by term overlap with article text, and
+the validator's union rule then passes on the concept side alone. A 2026-08-23 check of 23
+concepts found 17 with no article that actually named them and at least 2 links that were
+outright wrong. Treat a term-overlap `article_ids` entry as a lead to verify, never as coverage
+already achieved — run the coverage-verification pass before a module's INDEX (13-orchestration.md
+§4, §10).
+
 ---
 
 ## The body is plain text in named sections
