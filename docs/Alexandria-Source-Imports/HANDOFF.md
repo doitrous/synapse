@@ -35,6 +35,13 @@ server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymolog
 Done: 102-HIST+PHYS (194420e). F1 first sitting landed one MED 106 practical CVS bank; found the
 "ASM Minds" cohort channels (paid-content brands with occasional free gifts).
 
+## API outage 2026-08-23 ~01:00–01:40
+Every resumed authoring lane died with "stalled: no progress for 600s" twice over (Kasr Y1 saw
+the same). Rule from the chief of staff: keep ≤4 concurrent, probe with one small lane
+(BIOC-C: audit + CLAIMS row + report), resume the others only when it completes. Lane ids are
+in the orchestrator's roster; any lane whose transcript is gone restarts from its triage file.
+F1 fetch is DONE (browser free; 1 file landed for MED 106; channels for Omar in the fetch log).
+
 ## Uncommitted lane output on disk
 `git status` shows concept/, article/, evidence/, question/, glossary/, pending-live/ files from
 the lanes above. Commit per lane when its report lands, gates re-run first, gate lines in the body,
