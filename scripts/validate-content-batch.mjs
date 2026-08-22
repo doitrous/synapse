@@ -340,6 +340,20 @@ function completenessWarnings(rowKind, rows) {
     }
   }
 
+  if (rowKind === 'practical') {
+    // Practicals could not be scoped until the importer learned the columns, so
+    // every station authored before that carries none and is visible to every
+    // university's student — empty means unrestricted. Warned, not failed: the
+    // batches are not wrong, they were written against an importer that had
+    // nowhere to put the answer.
+    const unscoped = rows.filter((row) => !listOf(row.universities).length)
+    if (unscoped.length) {
+      out.push(`${unscoped.length} of ${rows.length} station(s) name no universities. An empty list means EVERY university, `
+        + 'so these are served to every student in every faculty. The practical importer now reads `universities`, `years` '
+        + 'and `module` — add them.')
+    }
+  }
+
   if (rowKind === 'question') {
     // The explanation for the answer that is correct. A distractor's
     // explanation matters less: a student who picked it reads the correct one.
@@ -870,6 +884,8 @@ if (kind === 'practical') {
 
   console.log(JSON.stringify({
     file, kind, items: rows.length,
+    // Scoping, which practicals could not carry until the importer learned it.
+    warnings: completenessWarnings('practical', rows),
     byType: rows.reduce((out, row) => ({ ...out, [row.type ?? '?']: (out[row.type ?? '?'] ?? 0) + 1 }), {}),
     questions,
     markSchemeItems,
