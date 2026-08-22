@@ -21,6 +21,32 @@
 
 /** `sourceId | tier | year | page | module`, the exam_signal column's grammar. */
 export const SITTING_SIGNALS: Record<string, string[]> = {
+  // A second pass, after the question-book lanes grew the concept pool from 71
+  // to 375. Four topics that had no concept to attach to when this file was
+  // first written now have one, and each is an exact vocabulary match:
+  // the brachial artery, the brachial plexus, the notochord and the eosinophil.
+  //
+  // Two still have none, and are worth naming because they are objectives this
+  // faculty examines and this module cannot yet teach: "Outline LM and EM of
+  // sER" — no smooth-endoplasmic-reticulum concept exists — and "Flexor
+  // digitorum Superficialis, Flexor digitorum Profundus (origin, insertion,
+  // nerve supply, action)", which no concept covers either. They stay in
+  // scripts/kasr/extract/sitting-matches.json until someone mints them.
+  'brachial-artery-origin-course-end-branches': [
+    'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
+    'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
+  ],
+  'brachial-plexus-formation-branches': [
+    'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
+    'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
+  ],
+  'eosinophil-features-granules-function': [
+    'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
+  ],
+  'notochord-formation-fate': [
+    'src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK',
+    'src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK',
+  ],
   // Placed by reading, from the three question compilations: `EOY 101 exams not
   // answerd`, `EOY ANATOMY Final anatomy 101 questions ( upper only )` and
   // `EOY 196 ISK 101 - WRITTEN 2023`. `scripts/kasr/match-sittings.ts` scores

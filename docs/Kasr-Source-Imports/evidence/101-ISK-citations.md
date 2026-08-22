@@ -807,6 +807,146 @@ yes
 
 # Item
 ## id
+CIT-DE61E204104D
+## claim_id
+CLM-08F05952183A
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+1- Simple Squamous Epithelium: • It is formed of ONE layer of flat cells with flat nuclei
+## locator_type
+printed_page
+## locator_page
+52
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## locator_detail
+PDF page 53, printed as 52
+## context_note
+Matched to the claim on 100% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.90
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-81CFA0C2BB65
+## claim_id
+CLM-17B4B26EBD25
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+b. Lines lung alveoli forming thin membrane for exchange of gases→ is called pneumocytes. c. Lines serous membranes e.g. pleura, pericardium & peritoneum, form smooth surface for easy movement of organs → is called mesothelium. d. Lines Bowman’s capsule of kidney (filtration of blood).
+## locator_type
+printed_page
+## locator_page
+52
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## locator_detail
+PDF page 53, printed as 52
+## context_note
+Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.63
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-B677640B671B
+## claim_id
+CLM-E85605A4B887
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+a. Lines blood vessels & heart forming smooth surface→ is called endothelium. b. Lines lung alveoli forming thin membrane for exchange of gases→ is called pneumocytes. c. Lines serous membranes e.g. pleura, pericardium & peritoneum, form smooth surface for easy movement of organs → is called mesothelium.
+## locator_type
+printed_page
+## locator_page
+52
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## locator_detail
+PDF page 53, printed as 52
+## context_note
+Matched to the claim on 72% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.72
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-D121DD284E6E
+## claim_id
+CLM-51D693CEF733
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+2- Simple Cubical Epithelium: • Formed of ONE layer of cube-shaped cells with central rounded nuclei. • Functions: Secretion and reabsorption. • Sites: 1- Secretory acini of glands. E.g. follicles
+## locator_type
+printed_page
+## locator_page
+52
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## locator_detail
+PDF page 53, printed as 52
+## context_note
+Matched to the claim on 65% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.65
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
+CIT-A1DE4ECE4F52
+## claim_id
+CLM-1B94B8929533
+## resource_id
+src_b1e6dc481eaf337268d0
+## evidence_role
+local_curriculum
+## support_span
+➢ Definition: Epithelium is formed of more than one layer. ➢ Function: The main function of stratified epithelium is protection. ➢ Classification: according to shape of the superficial cells into:- 1- Stratified squamous epithelium.
+## locator_type
+printed_page
+## locator_page
+53
+## locator_section
+101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+## locator_detail
+PDF page 54, printed as 53
+## context_note
+Matched to the claim on 88% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
+## confidence
+0.88
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+## id
 CIT-8A36823D843F
 ## claim_id
 CLM-1B8BCD311C51
@@ -8451,118 +8591,6 @@ yes
 
 # Item
 ## id
-CIT-DE61E204104D
-## claim_id
-CLM-08F05952183A
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-1- Simple Squamous Epithelium: • It is formed of ONE layer of flat cells with flat nuclei
-## locator_type
-printed_page
-## locator_page
-52
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-## locator_detail
-PDF page 53, printed as 52
-## context_note
-Matched to the claim on 100% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.90
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-81CFA0C2BB65
-## claim_id
-CLM-17B4B26EBD25
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-b. Lines lung alveoli forming thin membrane for exchange of gases→ is called pneumocytes. c. Lines serous membranes e.g. pleura, pericardium & peritoneum, form smooth surface for easy movement of organs → is called mesothelium. d. Lines Bowman’s capsule of kidney (filtration of blood).
-## locator_type
-printed_page
-## locator_page
-52
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-## locator_detail
-PDF page 53, printed as 52
-## context_note
-Matched to the claim on 63% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.63
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-B677640B671B
-## claim_id
-CLM-E85605A4B887
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-a. Lines blood vessels & heart forming smooth surface→ is called endothelium. b. Lines lung alveoli forming thin membrane for exchange of gases→ is called pneumocytes. c. Lines serous membranes e.g. pleura, pericardium & peritoneum, form smooth surface for easy movement of organs → is called mesothelium.
-## locator_type
-printed_page
-## locator_page
-52
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-## locator_detail
-PDF page 53, printed as 52
-## context_note
-Matched to the claim on 72% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.72
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-D121DD284E6E
-## claim_id
-CLM-51D693CEF733
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-2- Simple Cubical Epithelium: • Formed of ONE layer of cube-shaped cells with central rounded nuclei. • Functions: Secretion and reabsorption. • Sites: 1- Secretory acini of glands. E.g. follicles
-## locator_type
-printed_page
-## locator_page
-52
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-## locator_detail
-PDF page 53, printed as 52
-## context_note
-Matched to the claim on 65% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.65
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
 CIT-93AE6A645050
 ## claim_id
 CLM-2E524EF803C7
@@ -8668,34 +8696,6 @@ PDF page 54, printed as 53
 Matched to the claim on 89% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.89
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-A1DE4ECE4F52
-## claim_id
-CLM-1B94B8929533
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-➢ Definition: Epithelium is formed of more than one layer. ➢ Function: The main function of stratified epithelium is protection. ➢ Classification: according to shape of the superficial cells into:- 1- Stratified squamous epithelium.
-## locator_type
-printed_page
-## locator_page
-53
-## locator_section
-101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-## locator_detail
-PDF page 54, printed as 53
-## context_note
-Matched to the claim on 88% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.88
 ## counts_as_claim_evidence
 yes
 

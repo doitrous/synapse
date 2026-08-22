@@ -33318,7 +33318,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-BFDB3DB16DA7 | CLM-08F05952183A | CLM-17B4B26EBD25 | CLM-E85605A4B887
+CLM-08F05952183A | CLM-17B4B26EBD25 | CLM-E85605A4B887
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -33460,7 +33460,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-72B0D44F278F | CLM-51D693CEF733 | CLM-B0D55E19D4D1 | CLM-4D1E3B3F560A
+CLM-51D693CEF733 | CLM-B0D55E19D4D1 | CLM-4D1E3B3F560A
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -33747,7 +33747,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-673C7B2F27A7 | CLM-1B94B8929533 | CLM-FB1EA70D097C | CLM-C3A16D6D4D23 | CLM-DE11CB2D5776 | CLM-A0FED42062AE
+CLM-1B94B8929533 | CLM-FB1EA70D097C | CLM-C3A16D6D4D23 | CLM-DE11CB2D5776 | CLM-A0FED42062AE
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -33889,7 +33889,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-792CFF73B089 | CLM-AC13C10E9DA5 | CLM-0DAAE45598EE | CLM-A7FE69BD14BA | CLM-A713779AC5EE
+CLM-AC13C10E9DA5 | CLM-0DAAE45598EE | CLM-A7FE69BD14BA | CLM-A713779AC5EE
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
