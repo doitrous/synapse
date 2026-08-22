@@ -324,3 +324,17 @@ placeholders are no longer allowed in any file.
   `--book`, `--out-prefix`; reads the pagetext cache; `manifestPathFor(module)`).
 - `bec5510` — MCQ triage pipeline per module (`seeds/mcq/<module-slug>/`, `extract/<module-slug>/mcq-bank.json`).
 The tooling lane copies these into `scripts/alexandria/` with headers naming path + hash.
+
+## 17 · YEAR 1 ONLY (Omar, via the chief of staff, 2026-08-22 evening)
+
+"Pause all universities and years; finish Year 1 of Kasr and Year 1 of Alexandria first so I
+can publish them; then continue with the rest."
+- Wave 1 (AU-MED-102/103/105/106) runs to the checkpoint, then to completion after approval.
+- **Years 2–3: no lanes, no authoring, until the orchestrator says RESUME.** P0-E may pre-extract
+  Year 1 only.
+- **Publishable, per Year 1 module:** every triaged question's main concept is covered by an
+  article; `medical:batch`, `simulate`, `audit`, `concept-ids` all green; pending-live records
+  separated with their import-order line; each import folder's `INDEX.md` carries the exact
+  order and flags for Omar.
+- The Telegram fetch list is re-ordered Year 1 first (MED 101 first, then the Year 1 gaps in
+  `coverage/00-gap-ledger.md`); Year 2/3 rows wait.
