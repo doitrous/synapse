@@ -4664,3 +4664,2677 @@ reviewDue: Set when the first review completes.
 exclusionReason: Not excluded; no vitamin appears in the Biochemistry cancelled-items table.
 rejectedMergeCandidateIds: CON-IMM-8444491F42C168 states that azathioprine and methotrexate inhibit DNA production and lymphocyte proliferation. Not merged — it is an immunosuppression record whose objective is transplant and autoimmune therapy, and it names neither the enzyme nor the folate pathway; a question could test either without the other.
 relationships: Walked the 18 records returned for "vitamin", the four for "folate" and the two for "methotrexate". Nothing states the mechanism of a folate antagonist. Four loose neighbours are in related_concept_ids, including CON-REN-E6070C296322CB on 5-fluorouracil, which is the adjacent antimetabolite. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Alanine is made from pyruvate by transamination, is purely glucogenic, and its whole job in the book is the glucose-alanine cycle
+
+## id
+CON-FND-8723D6C2BB6B32
+
+## canonical_key
+amino-acids.alanine.synthesis-and-function
+
+## aliases
+Alanine synthesis
+Alanine transamination
+Glucose-alanine cycle amino acid
+ALT and alanine
+
+## arabic_label
+الألانين: التخليق والوظيفة
+
+## arabic_aliases
+تخليق الألانين
+حلقة الجلوكوز-ألانين
+
+## definition
+Alanine is a nonessential amino acid, synthesised by transamination of pyruvate with glutamate, using alanine aminotransferase (ALT); the book also notes it is released as a by-product of tryptophan catabolism. It is glucogenic only, because transamination converts it straight back to pyruvate. The book gives it a single function: ammonia released in muscle is carried to the liver as alanine, through the glucose-alanine cycle.
+
+## explicit_objective
+State how alanine is made, why it is glucogenic and not ketogenic, and name the one function the book gives it.
+
+## pitfalls
+Treating alanine as a minor amino acid with nothing to say about it. The book gives it exactly one function, and it is a heavily tested one: it is the nitrogen-carrying partner of the glucose-alanine cycle, the same role glutamine plays for the brain. A student who cannot name ALT as the enzyme, or pyruvate as the product, has not read this page.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T03
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Alanine
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Alanine
+
+## article_ids
+ART-103-BIO-ALANINE-SERINE-THREONINE
+
+## related_article_ids
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
+
+## related_concept_ids
+CON-FND-E7214B4A8D8835 | CON-FND-1B027502822320 | CON-FND-602DDE47BF8387
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+KAU_Y1=0.2
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-ALANINE-SYNTHESIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p92] "Alanine is a nonessential amino acid, synthesized by transamination of pyruvate with glutamate (by ALT). It is also released as a by-product of catabolism of tryptophan." "Alanine is glucogenic as it is converted to pyruvate by transamination." "Ammonia released in muscles is transferred to the liver through glucose-alanine cycle."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not say what fraction of muscle ammonia travels this way versus as glutamine, and does not compare the two nitrogen shuttles directly on this page; that comparison is not asserted here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 5 of that table reads "Alanine & Serine". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Alanine", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "alanine" — sixteen records mention it in passing (the glucose-alanine cycle, cystinuria, PKU) but none states alanine's own synthesis and classification; none is a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-ALANINE-SYNTHESIS-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the glucose-alanine cycle concept and the gluconeogenesis article, which already state the cycle from the liver's side; this concept states it from the muscle side. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Serine is made two ways, from glycine and from a glycolytic intermediate, and its hydroxyl group is what makes it a site for covalent modification
+
+## id
+CON-FND-602DDE47BF8387
+
+## canonical_key
+amino-acids.serine.synthesis-and-function
+
+## aliases
+Serine synthesis
+Phosphoserine pathway
+Serine hydroxymethyl transferase
+Covalent modification of proteins by serine
+
+## arabic_label
+السيرين: التخليق والوظيفة
+
+## arabic_aliases
+تخليق السيرين من الجلايسين
+مسار الفوسفوسيرين
+
+## definition
+Serine is nonessential and is made two ways: from glycine, by serine hydroxymethyl transferase (the same reaction run in reverse of glycine's own synthesis), and from 3-phosphoglycerate, which is oxidised to 3-phosphohydroxypyruvate, transaminated to phosphoserine, then dephosphorylated. It is glucogenic, deaminated by serine dehydratase to pyruvate. Its hydroxyl group lets it be phosphorylated and glycosylated, which is how some proteins are switched on and off; it also gives glycine and the carbon skeleton of cysteine, joins one-carbon metabolism, and is a major constituent of phospholipids.
+
+## explicit_objective
+Name both routes of serine synthesis, its catabolic fate, and the four things the book lists it as being needed for.
+
+## pitfalls
+Confusing serine's two synthetic routes with each other, or assuming there is only one. The 3-phosphoglycerate route is the one worth holding under exam pressure, because it is the fact that ties serine to glycolysis, not just to glycine.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T01
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Serine
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Serine
+
+## article_ids
+ART-103-BIO-ALANINE-SERINE-THREONINE
+
+## related_article_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## related_concept_ids
+CON-FND-38F3A09255526F | CON-FND-11F38A2B3E9B67 | CON-FND-8723D6C2BB6B32
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.35
+
+## exam_weight_by_year
+KAU_Y1=0.2
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-SERINE-SYNTHESIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p92] "It is a nonessential amino acid being synthesized from: 1) Glycine by hydroxymethyl transferase. 2) 3-phosphoglycerate (of glycolysis)..." "Serine is a glucogenic amino acid. It is deaminated by serine dehydratase, and pyruvate is formed." "The hydroxyl group of serine performs covalent modification of protein... Synthesis of glycine and provides the carbon skeleton of cysteine... involved in one-carbon unit metabolism... an important constituent of phospholipids."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not say which of the two synthetic routes predominates in which tissue; both are given as if equally available, and neither is stated to be preferred here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 5 of that table reads "Alanine & Serine". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Serine", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "serine" — one hit, the Glycine concept, which states serine as glycine's product but not serine's own second synthetic route or its covalent-modification role; not a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-SERINE-SYNTHESIS-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Glycine (mutual interconversion) and Cysteine (serine supplies its carbon skeleton). No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Threonine is essential, purely glucogenic, and the book gives it exactly one function: a regulatory hydroxyl group, like serine's
+
+## id
+CON-FND-83628BADCA3377
+
+## canonical_key
+amino-acids.threonine.synthesis-and-function
+
+## aliases
+Threonine essential amino acid
+Threonine hydroxyl group
+Hydroxyl containing aliphatic amino acids
+
+## arabic_label
+الثريونين
+
+## arabic_aliases
+حمض أميني أساسي
+
+## definition
+Threonine is one of the two hydroxyl-containing aliphatic amino acids the book pairs with serine. It is essential, so the book states no synthesis for it, and it is glucogenic. The one function given is that its hydroxyl group, like serine's, confers a regulatory role on some proteins through reversible phosphorylation and dephosphorylation.
+
+## explicit_objective
+State that threonine is essential and glucogenic, and name the one functional role the book gives its hydroxyl group.
+
+## pitfalls
+Assuming threonine must have a disorder or a named pathway because every other amino acid in this chapter does. The book gives it three sentences total; a question on threonine tests exactly those three facts and nothing invented beyond them.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T01
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Threonine
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Threonine
+
+## article_ids
+ART-103-BIO-ALANINE-SERINE-THREONINE
+
+## related_article_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## related_concept_ids
+CON-FND-602DDE47BF8387 | CON-FND-58FAD64EEA965B
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-THREONINE-SUMMARY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p93] "THREONINE. I- Synthesis: Threonine is an essential amino acid. II- Catabolic Fate: It is a glucogenic amino acid. III- Function: Its hydroxyl group, like in serine, confers a regulatory function of some proteins by reversible phosphorylated / dephosphorylated forms."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book names no specific protein or enzyme regulated by threonine phosphorylation, unlike some other amino acids in the chapter; none is supplied here.
+
+## evidence_gaps
+Supported by the department book only, and the book itself gives very little to verify independently: three sentences with no named pathway or disorder.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). A question record in this module (103-BMS-MCQ-lipid-diabetes.md) independently states that threonine is "one of the eight individual amino acids the department cancels from both exams", which is row 6 of the same table — the OCR of the department orientation drops that one line between "5. Alanine & Serine" and "7. Aspartic acid", and this record follows the question file's reading rather than leaving the row unaccounted for. This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Threonine", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "threonine" — no existing record matches; safe to create.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-THREONINE-SUMMARY-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Grouped with Serine, since the book itself pairs them under one heading, and with the branched-chain amino acid disorder concept as the chapter's next entry. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Aspartate is made from oxaloacetate by transamination, is purely glucogenic, and donates carbon or nitrogen to three different synthetic pathways
+
+## id
+CON-FND-F3A76A6F880190
+
+## canonical_key
+amino-acids.aspartic-acid.synthesis-and-function
+
+## aliases
+Aspartate synthesis
+Aspartate transamination
+Asparagine synthetase
+Aspartate as urea nitrogen donor
+
+## arabic_label
+حمض الأسبارتيك (الأسبارتات)
+
+## arabic_aliases
+تخليق الأسبارتات
+مصدر نيتروجين اليوريا
+
+## definition
+Aspartate is a nonessential amino acid, synthesised from oxaloacetate by transamination with glutamate, using AST (a PLP-dependent enzyme). It is glucogenic, since it regenerates oxaloacetate, a gluconeogenic substrate. The book gives it three functions: it is converted to asparagine by asparagine synthetase, with asparagine acting as the glycosylation site on many proteins; it supplies one of the two nitrogen atoms of urea; and it feeds into purine and pyrimidine synthesis.
+
+## explicit_objective
+State how aspartate is made and why it is glucogenic, and name the three synthetic pathways the book says it feeds.
+
+## pitfalls
+Naming only one of the three functions and stopping. A matching question on aspartate can point at asparagine, at urea, or at nucleotide synthesis, and the book gives equal weight to all three; the transamination step that makes it, using AST, is a separate fact from any of the three.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T06
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Aspartic Acid
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aspartic Acid
+
+## article_ids
+ART-103-BIO-ASPARTATE-ARGININE-LYSINE-PROLINE
+
+## related_article_ids
+ART-103-BIO-UREA-CYCLE
+
+## related_concept_ids
+CON-FND-6A2CCA2892E78C | CON-FND-3806EF570B0A1C | CON-FND-D2044E7265FB03 | CON-FND-265D369FD41B85
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-ASPARTATE-SYNTHESIS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p95] "Aspartate is a nonessential amino acid, being synthesized from oxaloacetate by transamination using glutamate and AST (PLP-dependent) as enzyme." "Aspartate is a glucogenic amino acid, as it gives oxaloacetate which is a gluconeogenic substrate." "1) Synthesis of asparagine... 2) Aspartate is the source of either of the two urea nitrogen atoms. 3) Purine and pyrimidine synthesis."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not state which of the two urea nitrogen atoms (the carbamoyl phosphate one or the argininosuccinate one) aspartate contributes on this page; that detail sits in the urea cycle section instead and is not repeated here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 7 of that table reads "Aspartic acid". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Aspartic Acid", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "aspartate" — four hits, all about the urea cycle's aspartate-argininosuccinate shunt or the purine ring's nitrogen sources; none states aspartate's own synthesis, so none is a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-ASPARTATE-SYNTHESIS-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the two urea cycle concepts that already state what aspartate does once it arrives, to the purine biosynthesis concept it feeds, and to the new pyrimidine concept in this same batch, which needs aspartate for the same reason. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Arginine is semi-essential, is split by arginase into urea and ornithine, and is also the substrate for nitric oxide
+
+## id
+CON-FND-D0FFF93FC15672
+
+## canonical_key
+amino-acids.arginine.synthesis-and-function
+
+## aliases
+Arginine urea cycle
+Arginase
+Nitric oxide synthase
+Arginine creatine synthesis
+
+## arabic_label
+الأرجينين
+
+## arabic_aliases
+إنزيم الأرجيناز
+تخليق أكسيد النيتريك
+
+## definition
+Arginine is semi-essential, synthesised from the carbon skeleton of ornithine. It is glucogenic: in the liver, arginase splits it into urea and ornithine, the last step of the urea cycle, and ornithine is then converted to glutamate. The book gives it two further functions outside the urea cycle: nitric oxide synthase converts it to nitric oxide, a neurotransmitter, vasodilator and smooth-muscle relaxant, and it shares in creatine synthesis.
+
+## explicit_objective
+State why arginine is semi-essential, name the enzyme and products of its urea-cycle step, and give its two non-urea functions.
+
+## pitfalls
+Describing arginine only as a urea cycle intermediate and missing that the book asks for it twice more, as the nitric oxide precursor and as a creatine precursor — both are separate marks from the urea cycle question.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-CVS-T01 | SYS-FND-T06
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Arginine
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Arginine
+
+## article_ids
+ART-103-BIO-ASPARTATE-ARGININE-LYSINE-PROLINE
+
+## related_article_ids
+ART-103-BIO-UREA-CYCLE
+
+## related_concept_ids
+CON-FND-6A2CCA2892E78C | CON-FND-129A247205D4D0 | CON-FND-8507EE95B795A8
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-ARGININE-FUNCTIONS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p96] "Arginine is a semi-essential amino acid. It is synthesized from the carbon skeleton of ornithine." "Arginine is a glucogenic amino acid. In the liver, arginase splits arginine into urea and ornithine... Ornithine is converted to glutamate." "1) It forms nitric oxide (NO) by nitric oxide synthase... 2) It shares in creatine synthesis."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book calls arginine semi-essential without stating the condition under which it becomes essential (rapid growth, or critical illness, in most general accounts); no such qualifier is supplied here because the book does not give one.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 8 of that table reads "Arginine & lysine". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Arginine", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "arginine" — two hits, both about cystinuria's dibasic amino acid transporter; neither states arginine's own synthesis, urea-cycle role or NO synthesis, so neither is a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-ARGININE-FUNCTIONS-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to both urea cycle concepts already in this file, and to the new Lysine concept in this same batch, since the book pairs them under one heading ("Basic Aliphatic Amino Acids"). No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Lysine is essential and purely ketogenic, and its two roles are structural — hydroxylysine in collagen — and regulatory — histone acetylation
+
+## id
+CON-FND-8507EE95B795A8
+
+## canonical_key
+amino-acids.lysine.synthesis-and-function
+
+## aliases
+Lysine ketogenic amino acid
+Hydroxylysine
+Lysyl hydroxylase
+Histone acetylation lysine
+
+## arabic_label
+الليسين
+
+## arabic_aliases
+الهيدروكسي ليسين
+أستلة الهستونات
+
+## definition
+Lysine is essential and ketogenic, forming acetoacetyl-CoA. In collagen and elastin, lysine is hydroxylated by lysyl hydroxylase to hydroxylysine, a reaction that requires vitamin C as cofactor; hydroxylysine contributes to the crosslinks that stabilise collagen's fibril structure. Separately, acetylation of the lysine residues of histones is a mechanism of chromatin remodelling that regulates gene expression.
+
+## explicit_objective
+State that lysine is essential and ketogenic, and give its two named roles: collagen crosslinking and histone acetylation.
+
+## pitfalls
+Missing that lysine's collagen role needs vitamin C as cofactor, which is the fact that links this amino acid page to the vitamin C page and to scurvy. The two roles the book gives — structural and regulatory — are unrelated to each other and both need to be held, not merged into one.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T01
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Lysine
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Lysine
+
+## article_ids
+ART-103-BIO-ASPARTATE-ARGININE-LYSINE-PROLINE
+
+## related_article_ids
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS
+
+## related_concept_ids
+CON-FND-D0FFF93FC15672 | CON-FND-5AB8B303F0D7B2 | CON-FND-C9E5128193029E
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-LYSINE-FUNCTIONS-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p96] "Lysine is an essential and a ketogenic amino acid, as it forms acetoacetyl-CoA." "Lysine, in collagen and elastin molecules, undergoes hydroxylation to form hydroxylysine by lysyl hydroxylase (requires vitamin C as cofactor)... Acetylation of lysine of histones... plays an important role in the process of chromatin remodeling."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book states lysine is ketogenic without walking through the enzymatic steps to acetoacetyl-CoA the way it does for the branched-chain amino acids; those intermediate steps are not supplied here because the book does not give them.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 8 of that table reads "Arginine & lysine". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Lysine", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "lysine" — one hit, the cystinuria transporter concept, which names lysine as one of four amino acids sharing a renal transporter but does not state lysine's own metabolism; not a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-LYSINE-FUNCTIONS-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Arginine (paired under one book heading), Proline (both feed collagen crosslinking), and the water-soluble vitamins concept, which is where vitamin C's own cofactor role is taught. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Proline is made from glutamate, is interconvertible with glutamate semialdehyde, and its one named job is collagen
+
+## id
+CON-FND-5AB8B303F0D7B2
+
+## canonical_key
+amino-acids.proline.synthesis-and-function
+
+## aliases
+Proline synthesis from glutamate
+Proline collagen structure
+Glutamate semialdehyde
+
+## arabic_label
+البرولين
+
+## arabic_aliases
+تخليق البرولين من الجلوتامات
+
+## definition
+Proline is a nonessential amino acid synthesised from glutamate. Being interconvertible with glutamate semialdehyde, it is glucogenic. The book gives it one function: proline is needed in protein synthesis, particularly collagen.
+
+## explicit_objective
+State that proline is made from glutamate, is glucogenic, and give the one protein the book names it as needed for.
+
+## pitfalls
+Inventing a metabolic disorder for proline. The book's proline entry is three lines with no named disease, unlike most of the amino acids around it in the chapter; a question here tests the synthesis-from-glutamate fact and the collagen fact, nothing more.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T01
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Proline
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Proline
+
+## article_ids
+ART-103-BIO-ASPARTATE-ARGININE-LYSINE-PROLINE
+
+## related_article_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN
+
+## related_concept_ids
+CON-NEU-46F59E9C3EA406 | CON-FND-8507EE95B795A8
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.25
+
+## exam_weight_by_year
+KAU_Y1=0.1
+
+## clinical_relevance
+0.25
+
+## academic_relevance
+0.6
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-PROLINE-SUMMARY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p105] "PROLINE. Proline is a nonessential amino acid synthesized from glutamate. Being inter-convertible with glutamate semi-aldehyde, it is a glucogenic amino acid. Proline is needed in protein synthesis, particularly collagen."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not name the enzyme that interconverts proline and glutamate semialdehyde on this page, unlike most of the other conversions in the chapter, which are given a named enzyme; none is supplied here.
+
+## evidence_gaps
+Supported by the department book only, and the book gives very little to verify independently: three sentences with no named enzyme or disorder.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 9 of that table reads "Histidine & proline". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Proline", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "proline" — the live hits are a 102 INT collagen-structure concept and its own written-batch twin, which state proline's position within the collagen triple helix but not this book's synthesis-from-glutamate fact; not merged, because that record teaches collagen's architecture and this one teaches where the amino acid itself comes from.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-PROLINE-SUMMARY-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Glutamic Acid, its precursor, and to Lysine, its collagen-crosslinking partner. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+The book closes the amino acid chapter with one table: which amino acids are glucogenic, ketogenic or both, and which are essential
+
+## id
+CON-FND-F91310521FC982
+
+## canonical_key
+amino-acids.summary-table.classification
+
+## aliases
+Glucogenic versus ketogenic amino acids
+Essential and non-essential amino acid table
+Amino acid classification summary
+Mixed glucogenic ketogenic amino acids
+
+## arabic_label
+جدول تصنيف الأحماض الأمينية
+
+## arabic_aliases
+الأحماض الأمينية السكرية والكيتونية
+
+## definition
+The book's own closing table sorts all sixteen amino acids of the chapter by two axes at once: glucogenic, ketogenic or mixed, and essential, non-essential or semi-essential. Purely ketogenic are leucine and lysine. Mixed (both glucogenic and ketogenic) are isoleucine, phenylalanine and tyrosine. Every other amino acid in the table — glycine, alanine, serine, threonine, valine, glutamic acid, aspartic acid, arginine, cysteine, methionine, tryptophan, histidine and proline — is glucogenic only. Essential are threonine, valine, leucine, isoleucine, lysine, methionine, phenylalanine, tryptophan and histidine; arginine is semi-essential; the rest are non-essential.
+
+## explicit_objective
+Given any one amino acid from the chapter, state from the table whether it is glucogenic, ketogenic or mixed, and whether it is essential, non-essential or semi-essential.
+
+## pitfalls
+Guessing an amino acid's classification from its structure instead of the book's own table. Lysine and leucine are the two amino acids to hold as purely ketogenic — everything else that is not explicitly mixed is glucogenic, which is a more common trap than the mixed group itself, because students expect more amino acids to be ketogenic than the book actually lists.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T01
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Summary of Amino Acid Metabolism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Summary of Amino Acid Metabolism
+
+## article_ids
+ART-103-BIO-AMINO-ACID-SUMMARY-AND-ACTIVE-ACETATE
+
+## related_article_ids
+ART-103-BIO-GLYCINE-GLUTAMATE-AND-BRANCHED-CHAIN | ART-103-BIO-SULFUR-AMINO-ACIDS
+
+## related_concept_ids
+CON-FND-8723D6C2BB6B32 | CON-FND-8507EE95B795A8 | CON-FND-58FAD64EEA965B | CON-FND-A6E502DCE4232F
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-AA-CLASSIFICATION-TABLE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p106-107, Summary of Amino Acid Metabolism table] "Glycine — Glucogenic — Non-essential" ... "Leucine — Ketogenic — Essential" ... "Isoleucine — Mixed — Essential" ... "Arginine — Glucogenic — Semi-essential" ... "Lysine — Ketogenic — Essential" ... "Phenylalanine — Mixed — Essential" ... "Tyrosine — Mixed — Non-essential".
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The table's own printed rows for the metabolic error column repeat what the individual amino acid sections already state (PKU, Hartnup, MSUD, homocystinuria, cystinuria, alkaptonuria, albinism); this concept states the classification columns and does not repeat the disorder column, since each disorder already has its own concept.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). This item is not named in that eleven-row table, so it is taken as examinable.
+
+## field_notes
+microtopicId: The book's own heading, "Summary of Amino Acid Metabolism", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Not searched by name — this is a compiled table, not a single term; each of its sixteen rows was checked individually while authoring the amino acid concepts above and none duplicates this compiled view.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-AA-CLASSIFICATION-TABLE-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the amino acids with the least intuitive classification (Alanine and Lysine as opposite poles, the branched-chain and aromatic amino acids as the mixed group). No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+Active acetate is the one hub where carbohydrate, fat and protein metabolism converge, and from it the body makes energy, fat, cholesterol, ketones or an acetyl group
+
+## id
+CON-FND-0C22ADD8295933
+
+## canonical_key
+amino-acids.active-acetate.summary-pathways
+
+## aliases
+Sources of acetyl-CoA
+Fates of acetyl-CoA
+Active acetate metabolic hub
+Acetylation reactions active acetate
+
+## arabic_label
+مسارات الأسيتات النشط (أسيتيل-CoA)
+
+## arabic_aliases
+مصادر الأسيتيل-CoA
+مصائر الأسيتيل-CoA
+
+## definition
+The book closes the amino acid chapter with a second summary, tracing active acetate (acetyl-CoA) as the point where all three foodstuffs meet. Its sources are four: carbohydrates, through glycolysis to pyruvate then pyruvate dehydrogenase; triacylglycerol, both its glycerol arm, through triose phosphate and glycolysis, and its fatty-acid arm, through beta-oxidation; amino acids, glucogenic ones through pyruvate and ketogenic ones directly; and ketone bodies, through ketolysis in extrahepatic tissue. Its fates are five: oxidation by the citric acid cycle for energy; fatty acid synthesis, in lipogenesis; cholesterol synthesis, through HMG-CoA; ketone body synthesis, in the liver mitochondria, when fatty acid oxidation is excessive; and acetylation reactions — acetylcholine, N-acetylserotonin in melatonin synthesis, N-acetylglutamate, and N-acetylamino sugars.
+
+## explicit_objective
+Name the four metabolic sources and the five metabolic fates the book gives for active acetate.
+
+## pitfalls
+Treating this as a repeat of the citric acid cycle page. The citric acid cycle is only one of the five fates listed here; a question testing this summary is testing whether a student can name the other four — lipogenesis, cholesterol synthesis, ketogenesis and acetylation — not whether they can redraw the cycle.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+DIS-BIO-T03 | DIS-BIO-T04
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Summary for the Metabolic Pathways of Active Acetate
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Summary for the Metabolic Pathways of Active Acetate
+
+## article_ids
+ART-103-BIO-AMINO-ACID-SUMMARY-AND-ACTIVE-ACETATE
+
+## related_article_ids
+ART-103-BIO-TCA-KEY-ENZYMES | ART-103-BIO-KETONE-BODY-METABOLISM
+
+## related_concept_ids
+CON-FND-BCCBDEC637795A | CON-FND-2F3A652B8E3104 | CON-GIT-3A348EEAF118BD | CON-END-2E748A37DA660A
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.4
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-ACTIVE-ACETATE-SUMMARY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VI, p108] "I- Metabolic Sources of Active Acetate Include: a) Carbohydrates... b) Triacylglycerol... c) Amino acids... d) Ketone bodies (Ketolysis)... II- Metabolic Fates of Active Acetate Include: a) Oxidation by TCA Cycle... b) Synthesis of fatty acids... c) Synthesis of cholesterol... d) Synthesis of ketone bodies (Ketogenesis)... e) Acetylation reactions."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book lists four acetylation examples without stating which is quantitatively largest or most clinically relevant; all four are given equal weight here because the book gives them equal weight.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). This item is not named in that eleven-row table, so it is taken as examinable.
+
+## field_notes
+microtopicId: The book's own heading, "Summary for the Metabolic Pathways of Active Acetate", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T05.
+nanotopicId: No nanotopic exists below the microtopic level for amino acid metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "active acetate" and "acetyl-CoA hub" — no existing record compiles the sources and fates as one list; the citric acid cycle, lipogenesis and ketogenesis concepts each state one fate alone, so none is a duplicate of this integrative view.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-ACTIVE-ACETATE-SUMMARY-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the citric acid cycle concept and to the lipogenesis, cholesterol and ketone body articles, each of which states one of the five fates in full; this concept is the map, not a replacement for any of them. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+In the well-fed state insulin rises and every tissue turns to storage: the liver and muscle build glycogen, adipose tissue builds fat, and glucose is the fuel everywhere
+
+## id
+CON-FND-61DA35C82C732F
+
+## canonical_key
+metabolic-integration.well-fed-state
+
+## aliases
+Well-fed state metabolism
+Absorptive state 0-4 hours
+Insulin dominant state
+Postprandial metabolism
+
+## arabic_label
+مرحلة الشبع في دورة التغذية-الصيام
+
+## arabic_aliases
+الحالة الامتصاصية بعد الوجبة
+
+## definition
+The well-fed state runs 0 to 4 hours after a meal. Food breaks down mainly to glucose, amino acids and fatty acids; water-soluble products are absorbed directly to blood, water-insoluble ones as chylomicrons through lymph. Insulin secretion rises and glucagon falls as blood glucose increases. Muscle and adipose tissue increase glucose uptake through GLUT-4, and increase glycolysis; muscle also increases glycogenesis and incorporates amino acids into protein; adipose tissue increases lipogenesis and decreases lipolysis. The liver increases glucose uptake, glycolysis, glycogenesis, lipogenesis and cholesterol synthesis. The brain increases glucose uptake and glycolysis. Glucose is the main fuel throughout, and insulin is the dominant hormone.
+
+## explicit_objective
+For each of the five tissues the book names, state whether glucose uptake, glycolysis, glycogenesis and lipogenesis rise or fall in the well-fed state, and name the dominant hormone.
+
+## pitfalls
+Forgetting that the well-fed state has five separate tissue panels in the book's own figure — brain, muscle, liver, pancreas and adipose tissue, plus intestine — and that each behaves differently. The brain's glucose uptake is not insulin-dependent the way muscle's and adipose tissue's are, which the book marks by giving the brain no GLUT-4 label while giving one to muscle and adipose tissue.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+SYS-END-T06 | DIS-BIO-T04
+
+## topic
+Metabolic integration
+
+## subtopic
+Metabolism in the Well-Fed State
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in the Well-Fed State
+
+## article_ids
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES
+
+## related_article_ids
+ART-103-BIO-FEED-STARVE-CYCLE
+
+## related_concept_ids
+CON-FND-85583A59349A47 | CON-FND-EFF5FB178CDDFA | CON-END-0B615572003514
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-WELL-FED-STATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VII, p110-111] "I- Well-Fed State (0-4 hours after meal)... Pancreas secretes insulin in response to increased blood glucose (↑insulin/glucagon ratio)." "Muscles: GLUT-4 - ↑ Uptake of glucose - ↑ Glycolysis - ↑ Glycogenesis - ↑ AAs incorporation into muscle protein... Liver: - Uptake of glucose - ↑ Glycolysis - ↑ Glycogenesis - ↑ Lipogenesis - ↑ cholesterol synthesis... In this phase the main fuel source is glucose supplied mainly by ingested carbohydrates, and the predominant hormone is insulin."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book's figure labels the liver's glucose uptake without the GLUT-4 tag it gives muscle and adipose tissue, consistent with GLUT-2 being the liver's transporter elsewhere in the same book; the figure itself does not repeat that transporter name on this page, so none is asserted here beyond what this page states.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 10 of that table reads "Metabolic integration", citing the department book's own pages 109-114 — exactly this chapter. This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Metabolism in the Well-Fed State", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T03.
+nanotopicId: No nanotopic exists below the microtopic level for metabolic integration.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "well-fed" — no existing record matches; the two live Metabolic Integrations concepts (feed-starve cycle overview, glucose-alanine cycle) are chapter-level and do not carry this stage's own tissue panel, so neither is a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-WELL-FED-STATE-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the chapter-level feed-starve cycle concept it specialises, to the Early Fasting State concept that follows it in this same batch, and to the insulin concept in the carbohydrate chapter. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+In early fasting, insulin falls and glucagon rises, and the whole point is to keep the brain fed by hepatic glycogenolysis while other tissues switch to fat
+
+## id
+CON-FND-EFF5FB178CDDFA
+
+## canonical_key
+metabolic-integration.early-fasting-state
+
+## aliases
+Early fasting state 4-18 hours
+Glucagon dominant state
+Hepatic glycogenolysis fasting
+
+## arabic_label
+مرحلة الصيام المبكر
+
+## arabic_aliases
+الصيام من 4 إلى 18 ساعة
+
+## definition
+Early fasting runs 4 to 18 hours after the last meal, marked by falling plasma glucose, falling insulin and rising glucagon. Every change aims to keep the brain supplied with glucose, first by glycogenolysis then by gluconeogenesis, and to release free fatty acids from adipose tissue for other tissues. The brain is unaffected by falling insulin and keeps using glucose by glycolysis. Muscle decreases glucose uptake, glycolysis and glycogenesis, and increases beta-oxidation. The liver decreases glucose uptake, glycolysis, glycogenesis and lipogenesis, and increases glycogenolysis, gluconeogenesis and beta-oxidation. Adipose tissue decreases glucose uptake, glycolysis and lipogenesis, and increases lipolysis. Muscle glycogenolysis does not itself supply plasma glucose and matters mainly during exercise, not fasting. The main fuel is glucose from hepatic glycogenolysis, and the predominant hormone is glucagon.
+
+## explicit_objective
+State which two hormones change direction at the start of early fasting, and explain why muscle glycogenolysis does not contribute to plasma glucose.
+
+## pitfalls
+Assuming muscle glycogen helps maintain blood glucose the way liver glycogen does. Muscle lacks glucose-6-phosphatase, so its glycogen can only fuel the muscle itself; the book states this exception explicitly, in a box, because it is the detail students otherwise import wrongly from the liver's behaviour.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+SYS-END-T06 | DIS-BIO-T04
+
+## topic
+Metabolic integration
+
+## subtopic
+Metabolism in Early Fasting State
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Early Fasting State
+
+## article_ids
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES
+
+## related_article_ids
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
+
+## related_concept_ids
+CON-FND-61DA35C82C732F | CON-FND-7F3A2AEFD5FF87 | CON-FND-3905E3B98C2EC4
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-EARLY-FASTING-STATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VII, p112] "II- Early Fasting State (4-18 hours fasting)... decreased secretion of insulin and increased secretion of glucagon...(first by glycogenolysis, then by gluconeogenesis)..." "Muscle glycogenolysis cannot contribute directly to plasma glucose and occurs mainly during exercise not fasting." "In this phase the main fuel source is glucose supplied mainly by hepatic glycogenolysis, and the predominant hormones is glucagon."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book gives no numeric plasma glucose value at the 4- to 18-hour mark, unlike the fasting hypoglycaemia figures given elsewhere in the carbohydrate chapter; none is imported here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 10 of that table reads "Metabolic integration", citing the department book's own pages 109-114 — exactly this chapter. This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Metabolism in Early Fasting State", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T03.
+nanotopicId: No nanotopic exists below the microtopic level for metabolic integration.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "early fasting" and "fasting state" — no existing record matches this stage specifically.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-EARLY-FASTING-STATE-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Well-Fed State (the stage before it) and Late Fasting State (the stage after it), forming the chain this batch authors, and to the glycogen breakdown concept it depends on. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+In late fasting the body switches from burning glucose to burning fat, and the glucose-alanine cycle carries muscle protein breakdown to the liver for gluconeogenesis
+
+## id
+CON-FND-7F3A2AEFD5FF87
+
+## canonical_key
+metabolic-integration.late-fasting-state
+
+## aliases
+Late fasting state 18-48 hours
+Glycogen depletion fasting
+Glucose to fat switch
+Muscle protein breakdown fasting
+
+## arabic_label
+مرحلة الصيام المتأخر
+
+## arabic_aliases
+الصيام من 18 إلى 48 ساعة
+
+## definition
+Late fasting runs 18 to 48 hours, once anti-insulin hormones (glucagon, catecholamines, cortisol and growth hormone) predominate and glycogen stores are significantly depleted. Blood glucose is now maintained by gluconeogenesis, and the body switches from glucose-burning to fat-burning: lipolysis, beta-oxidation, ketogenesis and ketolysis dominate. The brain still runs mainly on glucose but can also use some ketone bodies. Muscle increases beta-oxidation, transaminates pyruvate to alanine for the liver through the glucose-alanine cycle, and breaks down its own protein to supply that alanine. The liver increases gluconeogenesis, beta-oxidation and ketogenesis. Adipose tissue decreases lipogenesis and increases lipolysis. The main fuel is fatty acids from adipose lipolysis, and the predominant hormones are glucagon and catecholamines.
+
+## explicit_objective
+Explain why muscle protein must be broken down in late fasting, and name the cycle that carries the resulting nitrogen to the liver.
+
+## pitfalls
+Placing ketogenesis in late fasting and forgetting that the book restricts ketosis proper — the liver making large amounts of ketone bodies — to starvation, after two to five days; late fasting is where ketogenesis begins to rise, not where it peaks.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+DIS-BIO-T04 | SYS-END-T06
+
+## topic
+Metabolic integration
+
+## subtopic
+Metabolism in Late Fasting State
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Late Fasting State
+
+## article_ids
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES
+
+## related_article_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## related_concept_ids
+CON-FND-EFF5FB178CDDFA | CON-FND-0741CE71FB0569 | CON-FND-E7214B4A8D8835 | CON-FND-8723D6C2BB6B32
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-LATE-FASTING-STATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VII, p113] "III- Late Fasting State (18-48 hours fasting)... anti-insulin hormones predominate... glycogen stores are significantly depleted. Blood glucose is maintained by gluconeogenesis. The body is switching from glucose-burning into fat-burning mode..." "Muscles: GLUT-4 - ↑ β-oxidation of FAs - Pyruvate is transaminated to alanine → liver (glucose alanine cycle) - Breakdown of muscle proteins."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not give a quantitative split of how much of late-fasting gluconeogenic substrate is alanine versus glycerol versus lactate; none is invented here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 10 of that table reads "Metabolic integration", citing the department book's own pages 109-114 — exactly this chapter. This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Metabolism in Late Fasting State", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T03.
+nanotopicId: No nanotopic exists below the microtopic level for metabolic integration.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "late fasting" — no existing record matches this stage specifically; the live glucose-alanine cycle concept states the cycle's mechanics but not this stage's own hormonal and tissue context.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-LATE-FASTING-STATE-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Early Fasting State and Starvation State, the stages either side of it in this batch, to the glucose-alanine cycle concept it specialises, and to the new Alanine concept in this same batch. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+In starvation the kidney joins the liver making glucose, ketone bodies become the brain's main fuel, and once fat runs out only protein is left to burn
+
+## id
+CON-FND-0741CE71FB0569
+
+## canonical_key
+metabolic-integration.starvation-state
+
+## aliases
+Starvation state 48+ hours
+Ketosis of starvation
+Renal gluconeogenesis starvation
+Brain ketone body adaptation
+
+## arabic_label
+مرحلة المجاعة
+
+## arabic_aliases
+الصيام لأكثر من 48 ساعة
+الكيتوزية في المجاعة
+
+## definition
+Starvation begins after 48 hours of fasting. The first priority is glucose for the brain and other glucose-dependent tissues; the second is to preserve protein, using fatty acids and ketone bodies in its place. The kidney becomes an important site of gluconeogenesis, contributing up to half of blood glucose, which itself does not fall below 70 mg/dL. After two to five days the liver forms large amounts of ketone bodies (ketosis); gluconeogenesis from protein decreases, and the brain begins drawing about a third of its energy from ketone bodies. After several weeks, ketone bodies become the brain's major fuel, and survival time is set by the size of the triacylglycerol depot; once that is exhausted, protein is the only fuel left, its degradation accelerates, and death follows from loss of respiratory, cardiac, hepatic or renal function. Muscle increases beta-oxidation and ketolysis; the liver decreases gluconeogenesis initially while increasing beta-oxidation and ketogenesis; adipose tissue markedly increases lipolysis; insulin secretion is minimal and glucagon maximal.
+
+## explicit_objective
+State the two priorities of starvation metabolism in order, and trace how the brain's fuel source changes over the days and weeks that follow.
+
+## pitfalls
+Treating starvation as simply 'more of late fasting'. Two things are new here and not just more extreme versions of late fasting: the kidney becomes a second gluconeogenic organ alongside the liver, and the brain's fuel source itself changes composition over weeks, from mostly glucose to mostly ketone bodies — that second point is what finally spares protein.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+DIS-BIO-T04 | SYS-END-T06
+
+## topic
+Metabolic integration
+
+## subtopic
+Metabolism in Starvation State
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Starvation State
+
+## article_ids
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES
+
+## related_article_ids
+ART-103-BIO-KETONE-BODY-METABOLISM
+
+## related_concept_ids
+CON-FND-7F3A2AEFD5FF87 | CON-END-2E748A37DA660A | CON-END-CC450A236ABF50
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.3
+
+## exam_weight_by_year
+KAU_Y1=0.15
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.7
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-STARVATION-STATE-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry VII, p113-114] "The first priority of metabolism in starvation is to provide sufficient glucose for the brain... The second priority is to preserve protein..." "During starvation, the kidney becomes an important site of gluconeogenesis and may contribute as much as half of the blood glucose. Circulating glucose concentrations do not drop below 70 mg/dL." "After several weeks of starvation: Ketone bodies become the major fuel of the brain. A person's survival time is determined by the size of the triacylglycerol depot."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book gives 'about a third' for the brain's early ketone-body energy share and no figure at all for the later, major-fuel stage; only the figure the book actually states is repeated here.
+
+## evidence_gaps
+Supported by the department book only. No independent verification against an international biochemistry reference has been attached.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 10 of that table reads "Metabolic integration", citing the department book's own pages 109-114 — exactly this chapter. This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Metabolism in Starvation State", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T03.
+nanotopicId: No nanotopic exists below the microtopic level for metabolic integration.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "starvation" — six question records test this stage (brain fuel, glucogenic amino acid, fuel after weeks of starvation) but no concept or article record teaches it; this concept and the article it belongs to are what those questions were missing.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-STARVATION-STATE-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to Late Fasting State, the stage before it, and to the ketone body concepts already in this file, which this stage's biochemistry depends on entirely. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+The pyrimidine ring is built from only two sources — aspartate and the amide of glutamine — and its catabolism ends in small, water-soluble pieces the purine ring never produces
+
+## id
+CON-FND-D2044E7265FB03
+
+## canonical_key
+purine-pyrimidine.pyrimidine-metabolism.ring-atoms-and-catabolism
+
+## aliases
+Pyrimidine ring synthesis sources
+Pyrimidine catabolism end products
+Beta-alanine beta-aminoisobutyrate
+
+## arabic_label
+استقلاب البيريميدين
+
+## arabic_aliases
+مصادر ذرات حلقة البيريميدين
+نواتج تكسير البيريميدين
+
+## definition
+Where the book gives the purine ring five different sources across four different donor molecules, the pyrimidine ring is simpler: its six atoms come from only two sources, the amide group of glutamine and aspartate, with one carbon from CO2. Catabolism of the pyrimidine ring ends in small, freely water-soluble products that are easily excreted: carbon dioxide, ammonia, and either beta-alanine, from uracil and cytosine, or beta-aminoisobutyrate, from thymine. This is the fact that distinguishes pyrimidine catabolism from purine catabolism, which the book states ends in uric acid, a far less soluble end product responsible for gout.
+
+## explicit_objective
+Name the two sources of the pyrimidine ring's atoms, and give the three or four small end products of its catabolism.
+
+## pitfalls
+Assuming pyrimidine catabolism, like purine catabolism, ends in a poorly soluble product that can crystallise. The whole clinical contrast the book sets up between the two rings is that pyrimidine catabolism ends in freely soluble small molecules, so pyrimidine overproduction does not cause a gout-like disease the way purine overproduction does.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T06
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T05
+
+## topic
+Molecular biology
+
+## subtopic
+Pyrimidine Metabolism
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Pyrimidine Metabolism
+
+## article_ids
+ART-103-BIO-PYRIMIDINE-METABOLISM
+
+## related_article_ids
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE | ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS
+
+## related_concept_ids
+CON-FND-265D369FD41B85 | CON-FND-F3A76A6F880190 | CON-REN-4AAF042ABFB67E
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+KAU_Y1=0.3
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.75
+
+## weight_confidence
+0.3
+
+## confidence
+0.9
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-PYRIMIDINE-METABOLISM-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry IX, p129] "PYRIMIDINE METABOLISM. Sources of different atoms of pyrimidine ring [diagram: amide group of glutamine, aspartate, CO2]. The main end products of pyrimidine catabolism are CO2, NH3, β-alanine (uracil & cytosine) or β-aminoisobutyrate (thymine) which are highly water soluble and easily excreted."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+CON-GIT-CCF2867DDC9E9C | CON-GIT-762D834A649468 | CON-REN-C4606D65B74F2E
+
+## conflicts
+[clear]
+
+## uncertainty
+The book gives no enzyme names for pyrimidine ring assembly on this page, unlike the purine section a few pages earlier, which names PRPP synthetase and the salvage enzymes; the pyrimidine section as printed is a diagram and one paragraph, and no enzyme is invented here beyond what is shown.
+
+## evidence_gaps
+Supported by the department book only, and the book itself gives very little on pyrimidine synthesis specifically — one diagram and one sentence on catabolism — compared with the several pages given to purines; that asymmetry is the book's own, not an omission in this record.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). This item is not named in that eleven-row table, so it is taken as examinable.
+
+## field_notes
+microtopicId: The book's own heading, "Pyrimidine Metabolism", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T06.
+nanotopicId: No nanotopic exists below the microtopic level for molecular biology.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "pyrimidine" — three live records exist (dietary purine/pyrimidine absorption, PRPP-regulated CPS-II) plus one live article (ART-REN-TOP-AD3B2EA126, general renal topic on gout and 5-fluorouracil); none states this book's specific ring-atom-sources-and-catabolism-products fact, none is cited to this department book, and none carries a 103 BMS module_subject, so none is a duplicate — rejected as merge candidates in the field above.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-PYRIMIDINE-METABOLISM-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Linked to the purine biosynthesis concept, its structural counterpart, and to the new Aspartic Acid concept in this same batch, which is one of the two donors named here. No typed edges are written — this batch authors no relations file.
+
+---
+
+# Item
+
+## label
+The book gives the uronic acid pathway one line: it is the other minor pathway of glucose oxidation, and its purpose is making glucuronic acid, not energy
+
+## id
+CON-FND-B7423F19A99029
+
+## canonical_key
+carbohydrate-metabolism.uronic-acid-pathway
+
+## aliases
+Uronic acid pathway glucose oxidation
+Glucuronic acid synthesis pathway
+Minor pathways of glucose oxidation
+
+## arabic_label
+مسار حمض اليورونيك
+
+## arabic_aliases
+تخليق حمض الجلوكورونيك
+
+## definition
+The book names two minor pathways of glucose oxidation, alongside glycolysis, that exist to make other compounds rather than energy: the hexose monophosphate pathway, for pentoses and NADPH, and the uronic acid pathway, for the synthesis of glucuronic acid. The book gives the uronic acid pathway no further detail — no enzymes, no intermediates — beyond naming this one product and this one purpose.
+
+## explicit_objective
+State the one product the book names for the uronic acid pathway, and place it correctly as a minor, non-energy-yielding route of glucose oxidation alongside the hexose monophosphate pathway.
+
+## pitfalls
+Expecting a mechanism or a deficiency disease here the way the hexose monophosphate pathway has one (G6PD deficiency and favism). The book gives the uronic acid pathway a single clause; a question on it tests only whether a student can name glucuronic acid as its product, not a pathway diagram.
+
+## concept_type
+fact
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T07
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Uronic Acid Pathway
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Carbohydrate Metabolism > Uronic Acid Pathway
+
+## article_ids
+ART-103-BIO-HMP-PATHWAY-AND-G6PD
+
+## related_article_ids
+ART-103-BIO-JAUNDICE-AND-BILIRUBIN
+
+## related_concept_ids
+CON-FND-B928DE79E08882 | CON-HEM-7A26AE75471EF8
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.15
+
+## exam_weight_by_year
+KAU_Y1=0.05
+
+## clinical_relevance
+0.15
+
+## academic_relevance
+0.45
+
+## weight_confidence
+0.25
+
+## confidence
+0.85
+
+## exam_signal
+
+
+## atomic_claim_ids
+CLM-FND-URONIC-ACID-PATHWAY-01
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Biochemistry III, p22] "II- Other pathways for oxidation: They are mainly for synthesis of other glucose derivatives and not for energy production. 1- Hexose monophosphate pathway: For synthesis of pentoses and NADPH +H+. 2- Uronic acid pathway: For synthesis of glucuronic acid."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book does not state what glucuronic acid itself is subsequently used for on this page; its best-supported downstream use in the same book is bilirubin conjugation, taught in the heme chapter, and that connection is recorded in related_concept_ids rather than asserted as this page's own content.
+
+## evidence_gaps
+Supported by the department book only, and the book gives almost nothing to verify beyond the one clause quoted above — no enzyme, no intermediate, no regulation. This is the whole of what the book says.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+authored_needs_independent_evidence
+
+## exclusion_reason
+Checked against the Biochemistry department's "Cancelled items for end of module and final exams" (src_90b75d63a73cfc7649b9, page 1). Row 3 of that table reads "Uronic Acid Pathway". This item is cancelled from BOTH the end-of-module and the final exam. It is kept in the tree because a cancelled topic still appears in the department's own book and a student may still meet it in class, but exam_weight_by_year and blueprint_weight are written low and do not claim it is examined.
+
+## field_notes
+microtopicId: The book's own heading, "Uronic acid pathway", is the leaf module_subject carries; the canonical tree has no node finer than DIS-BIO-T03.
+nanotopicId: No nanotopic exists below the microtopic level for carbohydrate metabolism.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the department book is cited by locator only.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book to close a subheading gap; this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "uronic acid" and "glucuronic acid" — the two hits are hyaluronic acid in connective tissue and glucuronyl transferase in bilirubin conjugation; neither states the uronic acid pathway itself as a route of glucose oxidation, so neither is a duplicate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+atomicClaimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch. CLM-FND-URONIC-ACID-PATHWAY-01 is a forward reference, owed to whichever lane owns docs/Kasr-Source-Imports/evidence/103-BMS-biochemistry-claims.md.
+relationships: Filed under the live ART-103-BIO-HMP-PATHWAY-AND-G6PD article, which this batch updates rather than duplicates, since the book itself introduces both minor pathways in the same clause; linked to the bilirubin-conjugation concept as the pathway's best-supported downstream use. No typed edges are written — this batch authors no relations file.
+
