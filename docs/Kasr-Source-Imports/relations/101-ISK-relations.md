@@ -1,19 +1,14 @@
 <!--
   Concept relations for module 101 ISK, mined from the department book's own
-  claims (evidence/101-ISK-claims.md). Every edge names at least one
-  evidence_claim_ids entry that is a real claim about that specific link,
-  taken from the concept it was written for.
+  claims (evidence/101-ISK-claims.md) and citations (evidence/101-ISK-citations.md).
 
-  citation_ids are withheld and every row stands at needs_evidence, not
-  because the citations are missing but because they cannot resolve today:
-  all 332 rows of evidence/101-ISK-citations.md cite the single department
-  book resource src_b1e6dc481eaf337268d0, which is absent from live state's
-  47-resource set (server/data/medical-library-v1.json). Confirmed by
-  simulating citations.md alone -- 0 created, 332 rejected, every one
-  "Resource src_b1e6dc481eaf337268d0 does not exist". Naming a citation_id
-  here would hard-reject the relation that carries it. The lane report
-  carries the claim -> citation map for the rows that do have one, to
-  upgrade once that resource is registered.
+  Every edge names at least one evidence_claim_ids entry that is a real claim
+  about that specific link, taken from the concept it was written for.
+  verification_status is verified, with citation_ids and reviewed_at, only
+  where that claim also carries a citation to the department book resource
+  (src_b1e6dc481eaf337268d0, via evidence/101-ISK-resources.md); the rest
+  stand at needs_evidence because no citation exists yet for that claim --
+  not because the link is unsupported by the book.
 
   Authored by hand for this lane. Not generated.
 -->
@@ -32,8 +27,14 @@ CON-MSK-CF723B5FB24D70
 ## evidence_claim_ids
 CLM-A6DCAE9C5AD5
 
+## citation_ids
+CIT-A30D9A873C07
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -51,8 +52,14 @@ CON-MSK-9FF8A29E36480B
 ## evidence_claim_ids
 CLM-7FBAF39027EC
 
+## citation_ids
+CIT-7665EBDF7B0F
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -70,8 +77,14 @@ CON-MSK-C608D59631E713
 ## evidence_claim_ids
 CLM-8EFED9065CCC
 
+## citation_ids
+CIT-83064A010DAC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -127,8 +140,14 @@ CON-MSK-798DE81B6EE665
 ## evidence_claim_ids
 CLM-6718C4107954
 
+## citation_ids
+CIT-8DF383F30E82
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -146,8 +165,14 @@ CON-MSK-74BFAB9385B955
 ## evidence_claim_ids
 CLM-6718C4107954
 
+## citation_ids
+CIT-8DF383F30E82
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -222,8 +247,14 @@ CON-MSK-F4FC0C323C654E
 ## evidence_claim_ids
 CLM-49774183E306
 
+## citation_ids
+CIT-F82F4CCE7F83
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -241,8 +272,14 @@ CON-MSK-82C4250560D1A1
 ## evidence_claim_ids
 CLM-5429503F321C
 
+## citation_ids
+CIT-4D0C9DDF4EA3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -318,8 +355,15 @@ CON-MSK-A4A49A26BA10E7
 CLM-F96946E40133
 CLM-BB1B27CD52CD
 
+## citation_ids
+CIT-D52C45A6EBED
+CIT-183DD71C2A94
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -375,8 +419,14 @@ CON-MSK-875049D4420AA4
 ## evidence_claim_ids
 CLM-0FA3B2DF97D2
 
+## citation_ids
+CIT-9AB8CA80A8FC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -394,8 +444,14 @@ CON-MSK-2D2E4341DC5990
 ## evidence_claim_ids
 CLM-2C0AE84F5A80
 
+## citation_ids
+CIT-547ED9B3FE60
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -489,8 +545,14 @@ CON-MSK-CF723B5FB24D70
 ## evidence_claim_ids
 CLM-9E68206A545B
 
+## citation_ids
+CIT-3F03AE5CCD12
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -508,8 +570,14 @@ CON-DEV-134C8B5E98D759
 ## evidence_claim_ids
 CLM-EDB12D72B6A4
 
+## citation_ids
+CIT-A9BD191EC49D
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -527,8 +595,14 @@ CON-FND-6EC4DC6997F361
 ## evidence_claim_ids
 CLM-04449C0C574E
 
+## citation_ids
+CIT-1E247E77C5B9
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -546,8 +620,14 @@ CON-DEV-B87D52797068D2
 ## evidence_claim_ids
 CLM-11ECB17BFC6D
 
+## citation_ids
+CIT-9CBF1CD9568F
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -584,8 +664,14 @@ CON-MSK-46C40109E7D957
 ## evidence_claim_ids
 CLM-0DB49B2713CB
 
+## citation_ids
+CIT-E37575DF1604
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -641,8 +727,14 @@ CON-MSK-798DE81B6EE665
 ## evidence_claim_ids
 CLM-AB76E5ED6544
 
+## citation_ids
+CIT-920E1C162EF1
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -660,8 +752,14 @@ CON-MSK-74BFAB9385B955
 ## evidence_claim_ids
 CLM-AB76E5ED6544
 
+## citation_ids
+CIT-920E1C162EF1
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -698,8 +796,14 @@ CON-MSK-8FB16415EFF905
 ## evidence_claim_ids
 CLM-0537A06E12C4
 
+## citation_ids
+CIT-C105AEBA5C0B
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -736,8 +840,14 @@ CON-MSK-24A0858459A59D
 ## evidence_claim_ids
 CLM-ED143EFB62EA
 
+## citation_ids
+CIT-9CE72400E74A
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -812,8 +922,14 @@ CON-FND-0E38E21957DB05
 ## evidence_claim_ids
 CLM-E327FCE5D8D7
 
+## citation_ids
+CIT-60D605CFC4DB
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -850,8 +966,14 @@ CON-MSK-00B4A0D32A6420
 ## evidence_claim_ids
 CLM-44B80FB33702
 
+## citation_ids
+CIT-79EA7FCBCDF9
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -869,8 +991,14 @@ CON-DEV-215BD7E9E58872
 ## evidence_claim_ids
 CLM-8D9DDA865498
 
+## citation_ids
+CIT-045321F8C765
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -945,8 +1073,14 @@ CON-MSK-BF3670E27D6F12
 ## evidence_claim_ids
 CLM-82C7B0136152
 
+## citation_ids
+CIT-946471FB94FA
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -964,8 +1098,14 @@ CON-MSK-00B4A0D32A6420
 ## evidence_claim_ids
 CLM-D59846320512
 
+## citation_ids
+CIT-DCE48D57D6FB
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -983,8 +1123,14 @@ CON-MSK-C30E73A5353ABB
 ## evidence_claim_ids
 CLM-2495E2A6C89C
 
+## citation_ids
+CIT-A0AA1AEFFA33
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1002,8 +1148,14 @@ CON-MSK-40012FE18569EC
 ## evidence_claim_ids
 CLM-A3DF9210C6EF
 
+## citation_ids
+CIT-FC7DDC29BE92
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1041,8 +1193,14 @@ CON-MSK-2C78EFB16CA67F
 ## evidence_claim_ids
 CLM-D077702E75F3
 
+## citation_ids
+CIT-6E9A2439B886
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1060,8 +1218,14 @@ CON-MSK-A12FB50E90A64B
 ## evidence_claim_ids
 CLM-28515747F035
 
+## citation_ids
+CIT-3E68F297646C
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1250,8 +1414,14 @@ CON-FND-05D3B2832089AB
 ## evidence_claim_ids
 CLM-3ABD081313EC
 
+## citation_ids
+CIT-8BB44EC46FEC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1269,8 +1439,14 @@ CON-FND-DAF4EB4BC63077
 ## evidence_claim_ids
 CLM-3ABD081313EC
 
+## citation_ids
+CIT-8BB44EC46FEC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1288,8 +1464,14 @@ CON-FND-6268E97A4A9F26
 ## evidence_claim_ids
 CLM-3ABD081313EC
 
+## citation_ids
+CIT-8BB44EC46FEC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1440,8 +1622,14 @@ CON-FND-BC0AAA59F11F66
 ## evidence_claim_ids
 CLM-AB9E9BBF304F
 
+## citation_ids
+CIT-DC4E66367253
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1459,8 +1647,14 @@ CON-FND-BC0AAA59F11F66
 ## evidence_claim_ids
 CLM-AB9E9BBF304F
 
+## citation_ids
+CIT-DC4E66367253
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1478,8 +1672,14 @@ CON-FND-BC0AAA59F11F66
 ## evidence_claim_ids
 CLM-AB9E9BBF304F
 
+## citation_ids
+CIT-DC4E66367253
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1611,8 +1811,14 @@ CON-FND-2E2D5D5817E5F5
 ## evidence_claim_ids
 CLM-778DF53B44AF
 
+## citation_ids
+CIT-E54A1363A327
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -1915,8 +2121,14 @@ CON-HEM-A8DC563DBFFDF6
 ## evidence_claim_ids
 CLM-9F4C3CF86D8E
 
+## citation_ids
+CIT-7205B88991C3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2067,8 +2279,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2086,8 +2304,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2105,8 +2329,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2124,8 +2354,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2143,8 +2379,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2162,8 +2404,14 @@ CON-FND-28D12B544C3BA3
 ## evidence_claim_ids
 CLM-E70046785A96
 
+## citation_ids
+CIT-F593F58F62CE
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2200,8 +2448,14 @@ CON-FND-0A988681FF1ABF
 ## evidence_claim_ids
 CLM-A7CE3E30B771
 
+## citation_ids
+CIT-DB1569E88391
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2434,8 +2688,14 @@ CON-DEV-F5A87FDF5D911C
 ## evidence_claim_ids
 CLM-4CED1E3BB577
 
+## citation_ids
+CIT-53AB472D90DC
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2453,8 +2713,14 @@ CON-DEV-28CF4D241BE607
 ## evidence_claim_ids
 CLM-04C6E6006C7D
 
+## citation_ids
+CIT-F7C08AAF0074
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2472,8 +2738,14 @@ CON-DEV-E08715FEB6438D
 ## evidence_claim_ids
 CLM-7E15C6A57EBD
 
+## citation_ids
+CIT-9730F7E68A29
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2491,8 +2763,14 @@ CON-DEV-59DB99C028C33F
 ## evidence_claim_ids
 CLM-2453D2E170DC
 
+## citation_ids
+CIT-91CEE3234403
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2510,8 +2788,14 @@ CON-DEV-1BCF37C48AF307
 ## evidence_claim_ids
 CLM-8D9DDA865498
 
+## citation_ids
+CIT-045321F8C765
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2605,8 +2889,14 @@ CON-DEV-8F17D9869A6D15
 ## evidence_claim_ids
 CLM-88055399A567
 
+## citation_ids
+CIT-BC13FBD41129
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2662,8 +2952,14 @@ CON-DEV-44A219B862FFD5
 ## evidence_claim_ids
 CLM-15B86D316900
 
+## citation_ids
+CIT-407D0A988E31
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2681,8 +2977,14 @@ CON-DEV-44A219B862FFD5
 ## evidence_claim_ids
 CLM-0B6908A186BC
 
+## citation_ids
+CIT-611B77B923B3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2700,8 +3002,14 @@ CON-DEV-134C8B5E98D759
 ## evidence_claim_ids
 CLM-4281A528FCA8
 
+## citation_ids
+CIT-7C9A778D1F6D
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2719,8 +3027,14 @@ CON-DEV-1D10DF3B716A70
 ## evidence_claim_ids
 CLM-6BD7992F87AD
 
+## citation_ids
+CIT-CD4E5C5CDFE3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2738,8 +3052,14 @@ CON-DEV-3E918A4C74B56D
 ## evidence_claim_ids
 CLM-4A5710A0008E
 
+## citation_ids
+CIT-9E5AD51EE2BF
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2757,8 +3077,14 @@ CON-DEV-1D10DF3B716A70
 ## evidence_claim_ids
 CLM-57A44C619880
 
+## citation_ids
+CIT-1D63B61CE912
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2776,8 +3102,14 @@ CON-DEV-E099FAA01BEAEB
 ## evidence_claim_ids
 CLM-CD53F4276898
 
+## citation_ids
+CIT-71E00736098A
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -2890,8 +3222,14 @@ CON-DEV-89FC3BBB3C9BCE
 ## evidence_claim_ids
 CLM-CEF2DE16A651
 
+## citation_ids
+CIT-E48548117989
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3004,8 +3342,14 @@ CON-DEV-E273F775E9CB77
 ## evidence_claim_ids
 CLM-FF7A60441F79
 
+## citation_ids
+CIT-9E0BE91FDCF3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3023,8 +3367,14 @@ CON-DEV-E273F775E9CB77
 ## evidence_claim_ids
 CLM-FF7A60441F79
 
+## citation_ids
+CIT-9E0BE91FDCF3
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3061,8 +3411,14 @@ CON-DEV-C84AD85AB265CC
 ## evidence_claim_ids
 CLM-65CDFB024254
 
+## citation_ids
+CIT-7E8CA0170500
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3260,7 +3616,7 @@ needs_evidence
 # Item
 
 ## source
-CON-MSK-097C0BDED777AB
+CON-MSK-2B9F47FC205689
 
 ## type
 connects_to
@@ -3328,8 +3684,14 @@ CON-MSK-A49B57B03A3610
 ## evidence_claim_ids
 CLM-C7923C2BC6F2
 
+## citation_ids
+CIT-920A0C4B2433
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3347,8 +3709,14 @@ CON-MSK-A4A49A26BA10E7
 ## evidence_claim_ids
 CLM-C7923C2BC6F2
 
+## citation_ids
+CIT-920A0C4B2433
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3366,8 +3734,14 @@ CON-MSK-EE022A2043C10F
 ## evidence_claim_ids
 CLM-C90C6F71A8FF
 
+## citation_ids
+CIT-49C3BD968D3B
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3480,8 +3854,14 @@ CON-MSK-D81C4A38D695CF
 ## evidence_claim_ids
 CLM-F821F12677C4
 
+## citation_ids
+CIT-C8523CFD6BC8
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3499,8 +3879,14 @@ CON-MSK-10423E16E36186
 ## evidence_claim_ids
 CLM-F821F12677C4
 
+## citation_ids
+CIT-C8523CFD6BC8
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3575,8 +3961,14 @@ CON-MSK-B88F413E4536F9
 ## evidence_claim_ids
 CLM-9EE960AB7AA8
 
+## citation_ids
+CIT-DE7EC48CABD4
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3594,8 +3986,14 @@ CON-MSK-4D7492BC85C03D
 ## evidence_claim_ids
 CLM-1EC6F3015BA6
 
+## citation_ids
+CIT-1C6078E50FDA
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
@@ -3651,8 +4049,14 @@ CON-MSK-10423E16E36186
 ## evidence_claim_ids
 CLM-10CBFF1A3867
 
+## citation_ids
+CIT-00E7EED1C15F
+
 ## verification_status
-needs_evidence
+verified
+
+## reviewed_at
+2026-08-22
 
 ---
 
