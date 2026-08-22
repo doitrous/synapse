@@ -279,6 +279,56 @@ function mixedAppendErrors(values) {
  */
 const WITH_HINT = ' — if it is authored in this batch set, name its concept file with --with'
 
+/* ---- a + on a column that does not understand one ------------------------ */
+
+/**
+ * Whether a leading `+` in this column survives into the stored record.
+ *
+ * `+` means append, and only the list columns implement it. On anything else —
+ * `module_subject` was the case found, and prose and `key: value` columns are
+ * the same — the `+` is simply part of the value, so the record stores
+ * `"+ASU-CVS > Anatomy > …"`: a path no lookup matches, silently.
+ *
+ * Asked of the importer rather than answered from a list. The manual's
+ * splitting table ends "and every other list of identifiers", so any list I
+ * copied here would be a guess that drifts the first time a column is added.
+ * Instead the row is parsed twice, once with a sentinel and once with the same
+ * sentinel behind a `+`, and the column is judged by what comes back: if the
+ * stored value still carries the `+`, the column did not understand it.
+ *
+ * Cheap because it only runs for a row that actually uses `+` — 53 cells in the
+ * whole repository — and it cannot go stale, because it is measuring the
+ * importer's behaviour rather than describing it.
+ */
+const SENTINEL = 'ZZSENTINELZZ'
+
+function materialiseFor(rowKind, values) {
+  try {
+    if (rowKind === 'concept') return JSON.stringify(materialiseNewConcept(conceptFromRow(values)))
+    return JSON.stringify(importRowToContent(rowKind, values, 'probe'))
+  } catch {
+    return null
+  }
+}
+
+function plusOnNonListErrors(rowKind, values) {
+  const problems = []
+  for (const [column, raw] of Object.entries(values)) {
+    if (typeof raw !== 'string' || !raw.trim().startsWith('+')) continue
+    const plain = materialiseFor(rowKind, { ...values, [column]: SENTINEL })
+    const appended = materialiseFor(rowKind, { ...values, [column]: `+${SENTINEL}` })
+    // A column the probe cannot exercise (the row will not build either way)
+    // is left alone: the row has a bigger problem and will be reported for it.
+    if (!plain || !appended) continue
+    if (!plain.includes(SENTINEL)) continue
+    if (appended.includes(`+${SENTINEL}`)) {
+      problems.push(`${column} starts with "+", but this column does not take an append — the "+" is stored as part of the value, `
+        + 'so the record keeps a value nothing will ever match. Write this field as a full replacement.')
+    }
+  }
+  return problems
+}
+
 /* ---- completeness, reported and never enforced --------------------------- */
 
 /**
@@ -337,6 +387,20 @@ function completenessWarnings(rowKind, rows) {
       out.push(`${thin.length} of ${authored.length} new records are below the ${rowKind} fieldsUsed floor of ${floor} `
         + `(thinnest ${counts[0]}, median ${median(counts)}). The fieldsUsed in this report is the union across the file, `
         + 'so it cannot show this — one complete record hides a batch of thin ones.')
+    }
+  }
+
+  if (rowKind === 'practical') {
+    // Practicals could not be scoped until the importer learned the columns, so
+    // every station authored before that carries none and is visible to every
+    // university's student — empty means unrestricted. Warned, not failed: the
+    // batches are not wrong, they were written against an importer that had
+    // nowhere to put the answer.
+    const unscoped = rows.filter((row) => !listOf(row.universities).length)
+    if (unscoped.length) {
+      out.push(`${unscoped.length} of ${rows.length} station(s) name no universities. An empty list means EVERY university, `
+        + 'so these are served to every student in every faculty. The practical importer now reads `universities`, `years` '
+        + 'and `module` — add them.')
     }
   }
 
@@ -635,6 +699,7 @@ if (kind === 'question') {
     for (const error of catalogueErrors('question', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('question', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('question', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -796,6 +861,7 @@ if (kind === 'practical') {
     for (const error of catalogueErrors('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('practical', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -870,6 +936,8 @@ if (kind === 'practical') {
 
   console.log(JSON.stringify({
     file, kind, items: rows.length,
+    // Scoping, which practicals could not carry until the importer learned it.
+    warnings: completenessWarnings('practical', rows),
     byType: rows.reduce((out, row) => ({ ...out, [row.type ?? '?']: (out[row.type ?? '?'] ?? 0) + 1 }), {}),
     questions,
     markSchemeItems,
@@ -908,6 +976,7 @@ if (kind === 'article') {
     for (const error of catalogueErrors('article', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('article', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('article', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -1120,6 +1189,7 @@ rows.forEach((values, index) => {
     for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('concept', values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
