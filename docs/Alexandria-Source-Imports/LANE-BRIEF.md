@@ -383,3 +383,17 @@ Until the validator lane's fix lands, write every `+` addition on its own line:
 ## modules
 +AU-MED-102
 ```
+
+## 18 · TRIAGE APPROVED (chief of staff) — binding for Step 2 onward
+
+All seven corrections in `coverage/00-publish-plan-year1.md` § Corrections apply as written.
+Three additions:
+1. **Explanation bar.** `explanation_<correct>` is the whole worked explanation — at least three
+   sentences: why it is right, the mechanism, and the thing to remember. Each distractor gets one
+   sentence saying why it is wrong. A two-sentence explanation fails review.
+2. **Pending-live ordering.** Omar imports Kasr Year 1 before Alexandria. Sparse updates into
+   Kasr Y1 ids go in `pending-live/<slug>.md` per lane, and `pending-live/INDEX.md` carries one
+   line per file naming the Kasr file it follows. No per-record hand-off.
+3. **Commits.** Lanes still never run git. The orchestrator commits each lane's question-backed
+   records separately from everything else, with the gate lines in the commit body — so every
+   report must paste the exact `medical:batch` / `simulate` / `audit` / `concept-ids` output.
