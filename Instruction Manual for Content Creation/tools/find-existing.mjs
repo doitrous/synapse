@@ -95,7 +95,16 @@ for (const dir of BATCH_DIRS) {
     const path = join(dir, String(name))
     if (!path.endsWith('.md')) continue
     const text = readFileSync(path, 'utf8')
-    for (const match of text.matchAll(/^## (label|title|term|aliases)\r?\n([\s\S]*?)(?=\r?\n##|\r?\n---|$)/gm)) {
+    // `canonical_key` as well as the prose fields.
+    //
+    // The key is what the mint hashes and what `check-concept-ids` enforces one
+    // ID per, so it is the field a duplicate collides on — and it was the one
+    // field this tool did not read. An author searching the key they were about
+    // to mint was told "safe to create" by the very tool the manual sends them
+    // to, while a pending batch two directories away already held it. Keys are
+    // dotted and hyphenated rather than prose, so they rarely match a
+    // label-shaped search term; searching for one had to be done by hand.
+    for (const match of text.matchAll(/^## (label|title|term|aliases|canonical_key)\r?\n([\s\S]*?)(?=\r?\n##|\r?\n---|$)/gm)) {
       for (const line of match[2].split(/\r?\n|\||;/)) {
         if (hit(line.trim())) rows.push(['pending', path, line.trim(), `via ## ${match[1]}`])
       }
