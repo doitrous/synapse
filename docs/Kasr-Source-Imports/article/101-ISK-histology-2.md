@@ -82,7 +82,7 @@ DIS-HIS-T02
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M02
 ## related_concepts
-[clear]
+CON-HEM-0EBFB178160067 | CON-HEM-11ABCB9BFB7F06 | CON-HEM-2C81CE9CF9F3D8 | CON-HEM-77AC215885FD6B | CON-HEM-BF988AB4E39366 | CON-HEM-C2A2C9AC2F59D5 | CON-HEM-C79EA8644C0C9C
 ## related_articles
 ART-101-HIS-HAEMOPOIESIS: The reticulocyte that replaces a lost red corpuscle, and the marrow that makes it, are described there.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The cell coat and the cytoskeleton this article relies on are set out in the cytology chapter, and the red corpuscle is the book's own worked example of both.
@@ -312,6 +312,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 SYS-HEM-T01-S02-M01
+## related_concepts
+CON-HEM-667148E42AB738 | CON-HEM-681584C9DC1F94 | CON-HEM-719FA556594454 | CON-HEM-785718A47454E8 | CON-HEM-A8DC563DBFFDF6 | CON-HEM-FDAC2D5F64032E
 ## related_articles
 ART-101-HIS-GRANULAR-LEUKOCYTES: The differential count this article completes is stated there, and the total leukocytic count applies to both halves of it.
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The macrophage and the plasma cell, which are what the monocyte and the B lymphocyte become once they leave the blood, are described there.
@@ -524,6 +526,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M03
+## related_concepts
+CON-HEM-25C4304A1DB441 | CON-HEM-5E6C1744F798E1 | CON-HEM-AEB2E6C6E8A423 | CON-HEM-E27E5F8544640A
 ## related_articles
 ART-101-HIS-BLOOD-PLATELETS: The megakaryocyte described here is where the platelet comes from, and the demarcation channels are set out in full there.
 ART-101-HIS-RED-BLOOD-CORPUSCLES: The reticulocyte is the immature form of the corpuscle described there, and the 120-day life span is what the marrow is replacing.
@@ -713,6 +717,8 @@ Year 1
 DIS-HIS-T04
 ## secondary_node_ids
 DIS-HIS-T01
+## related_concepts
+CON-FND-DACB83532148D6
 ## related_articles
 ART-101-HIS-MICROTECHNIQUES: The instrument is useless without a section to put under it, and the three processing techniques and the stains are set out there.
 ART-101-HIS-THE-CELL: The cell membrane is the book's own worked example of a structure below the resolution of the light microscope and visible only by electron microscopy.
@@ -889,6 +895,8 @@ Year 1
 DIS-HIS-T04
 ## secondary_node_ids
 DIS-HIS-T02
+## related_concepts
+CON-FND-03C08D6EA7C7BE | CON-FND-05C930A781CE55 | CON-FND-22D6FA8D15AA45 | CON-FND-5F15B250FC19EC | CON-FND-9F0CCA2BFB5C7B | CON-FND-C75600D3D3B546
 ## related_articles
 ART-101-HIS-MICROSCOPES: The instrument these techniques feed, and the resolution limit that decides what a stained section can be asked to show.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Mallory, van Gieson, orcein and silver are all fibre stains, and the fibre article sets out which colour each gives which fibre.
@@ -1332,7 +1340,7 @@ DIS-HIS-T01
 ## secondary_node_ids
 SYS-FND-T01-S01-M03
 ## related_concepts
-CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
+CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED | CON-FND-69671A492023B8 | CON-FND-EB83F2B16C479F
 ## related_articles
 ART-101-HIS-THE-CELL: The cell's other basic component, and the plasma membrane whose trilaminar profile the nuclear envelope repeats twice over.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rough endoplasmic reticulum the outer nuclear membrane is continuous with, and the ribosomes whose subunits leave through the nuclear pores, are described there.
@@ -1633,6 +1641,8 @@ Year 1
 DIS-HIS-T02
 ## secondary_node_ids
 SYS-FND-T03-S02-M03
+## related_concepts
+CON-FND-46C9A4425362B0 | CON-FND-6CCD045AEF0536 | CON-FND-A635150A3F245D | CON-FND-CE178A6B5707B1 | CON-FND-E0C05B1FE6D280
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The fibroblast, the reticular cell and the chondroblast that make these fibres are described there, along with the ground substance the fibres lie in.
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE: Which fibre predominates is what names each type of connective tissue proper, and the six types are set out there.
@@ -1846,7 +1856,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 DIS-HIS-T03
 ## related_concepts
-CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-49D5829AC3DCA1
+CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-49D5829AC3DCA1 | CON-FND-1438DCA008F0DB
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: Every cell named here — the fibroblast, the fat cell, the reticular cell, the mast cell, the macrophage, the plasma cell — is described there, along with the ground substance.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Which fibre predominates is what names most of these types, and the three fibres and their stains are set out there.
