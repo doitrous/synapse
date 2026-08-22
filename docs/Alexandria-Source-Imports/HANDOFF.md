@@ -30,6 +30,7 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | b9cb23c | Terminology shelf (subjects/ node under Foundations) + 3 concepts re-placed — 102-TERM fully DONE |
 | 369ef39 | AU-MED-103 Biochemistry: 33 questions on Kasr ids — 103-BIOC DONE |
 | 432ee37 | AU-MED-102 Biochem A: lipid chemistry 23 concepts, 10 MCQs (protein + enzymology remain) |
+| (next) | AU-MED-102 Biochem B: bioenergetics + CHO metabolism — 8 concepts, 6 articles, 12 MCQs, 23 pending updates + 10 questions (lipid metabolism 55 ideas remain) |
 
 ## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
 ## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
