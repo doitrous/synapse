@@ -15,6 +15,20 @@
 # are NOT in that list and will stop this script if they conflict. They need a
 # person to read both sides.
 set -euo pipefail
+
+# The module this lane owns, named by the caller.
+#
+# Not a constant. Six lanes share this script, and a hardcoded "101 ISK" here is
+# the same shape as the hardcoded prefix that was just taken out of the orphan
+# sweep: it works for whoever wrote it and silently regenerates the wrong
+# module's batches for everyone else. `build-batches` refuses a bare run for
+# exactly this reason, so this refuses one too.
+MODULE="${1:-}"
+if [ -z "$MODULE" ]; then
+  echo "usage: scripts/kasr/sync.sh \"<module>\"   e.g. \"101 ISK\"" >&2
+  echo "  the module whose batches this run should regenerate before pushing" >&2
+  exit 2
+fi
 cd "$(dirname "$0")/../.."
 
 # Written by scripts/kasr/build-*.ts, and by nothing else.
@@ -48,9 +62,11 @@ else
 fi
 
 echo "regenerating…"
-for build in build-article-links build-batches build-coverage; do
-  node --experimental-strip-types "scripts/kasr/$build.ts" >/dev/null
-done
+# `build-batches` takes the module now; the other two do not. A bare run of it
+# used to rewrite every module's batches, which is why it refuses one.
+node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
+node --experimental-strip-types scripts/kasr/build-batches.ts "$MODULE" >/dev/null
+node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
 
 git add -- "${GENERATED[@]}" 2>/dev/null || true
 if ! git diff --cached --quiet; then
@@ -83,9 +99,9 @@ for attempt in 1 2 3; do
     fi
     git commit -q --no-edit
   fi
-  for build in build-article-links build-batches build-coverage; do
-    node --experimental-strip-types "scripts/kasr/$build.ts" >/dev/null
-  done
+  node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
+  node --experimental-strip-types scripts/kasr/build-batches.ts "$MODULE" >/dev/null
+  node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
   git add -- "${GENERATED[@]}" 2>/dev/null || true
   git diff --cached --quiet || git commit -q -m "Regenerate the 101 ISK batches after merging"
 done
