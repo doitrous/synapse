@@ -632,3 +632,39 @@ test('the explanation distribution measures the correct answer, and skips rows w
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+/* ---- a + on a column that does not take one ------------------------------ */
+
+test('a + on a non-list column is refused, and a + on a list column is not', () => {
+  // `+` means append, and only the list columns implement it. On anything else
+  // the `+` is just part of the value: `module_subject` stored
+  // "+ASU-CVS > Anatomy > …", a path no lookup matches, with no error anywhere.
+  //
+  // Which columns take one is asked of the importer rather than listed here —
+  // the manual's splitting table ends "and every other list of identifiers", so
+  // any list copied into the checker would drift the first time a column is
+  // added. The check parses the row twice, with and without the `+`, and judges
+  // the column by whether the `+` survives into storage.
+  const root = mkdtempSync(join(tmpdir(), 'plus-column-'))
+  mkdirSync(join(root, 'concept'))
+  const concept = (extra: string[]) => ['# Item', '## label', 'Fixture', '## id', 'CON-FND-PLUS0000001',
+    '## canonical_key', 'plus.fixture', '## definition', 'd', '## explicit_objective', 'o',
+    '## arabic_label', 'x', ...extra, ''].join('\n')
+  const errorsFor = (extra: string[], file: string) => {
+    writeFileSync(join(root, 'concept', file), concept(extra))
+    return validate(join(root, 'concept', file)).errors.filter((error) => error.includes('does not take an append'))
+  }
+
+  try {
+    const bad = errorsFor(['## module_subject', '+103 BMS > Anatomy > Hip'], 'bad.md')
+    assert.equal(bad.length, 1, `module_subject should refuse a +: ${JSON.stringify(bad)}`)
+    assert.match(bad[0], /full replacement/, 'the error should say what to write instead')
+
+    // The other half. `article_ids` and `aliases` are list columns and a `+` on
+    // them is the documented way to add to what a record already has.
+    assert.deepEqual(errorsFor(['## article_ids', '+ART-A | +ART-B', '## aliases', '+An alias'], 'good.md'), [],
+      'a + on a real list column is legitimate and must stay clean')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
