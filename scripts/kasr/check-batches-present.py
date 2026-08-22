@@ -89,12 +89,12 @@ def check(ledger_path):
     module = os.path.basename(ledger_path).replace("-coverage.md", "")
     expected = expectations(ledger_path)
     if expected is None:
-        return [], ["%s: ledger has no 'Authored so far' table, so this module has "
-                    "no absence check — which is not the same as nothing being wrong"
-                    % module]
+        return [], [], ["%s: no 'Authored so far' table in its ledger, so **every batch "
+                        "in this module can be deleted without this check noticing**. "
+                        "Add the table and its batches become protected." % module]
     if not expected:
-        return [], ["%s: ledger's authored table is empty; if this module has "
-                    "batches, the ledger is stale" % module]
+        return [], [], ["%s: its authored table is empty, so nothing in this module is "
+                        "protected. If it has batches, the ledger is stale." % module]
 
     losses, notes = [], []
     for relative, count in expected:
@@ -111,7 +111,7 @@ def check(ledger_path):
             notes.append("%s: %s holds %d items, ledger says %d — the batch grew "
                          "and the ledger was not regenerated"
                          % (module, relative, found, count))
-    return losses, notes
+    return losses, notes, []
 
 
 SELF_TEST_LEDGER = """# X — source coverage
@@ -133,13 +133,14 @@ def self_test():
         path = os.path.join(tmp, "SELFTEST-coverage.md")
         with open(path, "w", encoding="utf-8") as fh:
             fh.write(SELF_TEST_LEDGER)
-        losses, notes = check(path)
-    if len(losses) == 1 and "MISSING from the tree" in losses[0] and not notes:
+        losses, notes, unguarded = check(path)
+    if (len(losses) == 1 and "MISSING from the tree" in losses[0]
+            and not notes and not unguarded):
         print("PASS  probe ledger names a batch that does not exist and the "
               "check reports it as a loss")
         return 0
-    print("FAIL  expected 1 loss and 0 notes, got %d and %d: %s"
-          % (len(losses), len(notes), losses + notes))
+    print("FAIL  expected 1 loss, 0 notes, 0 unguarded; got %d/%d/%d: %s"
+          % (len(losses), len(notes), len(unguarded), losses + notes + unguarded))
     return 1
 
 
@@ -163,18 +164,27 @@ def main(argv):
               % (wanted or "anything"))
         return 2
 
-    losses, notes = [], []
+    losses, notes, unguarded = [], [], []
     for ledger in ledgers:
-        found, noted = check(ledger)
+        found, noted, bare = check(ledger)
         losses += found
         notes += noted
+        unguarded += bare
 
     for loss in losses:
-        print("  LOSS  %s" % loss)
+        print("  LOSS       %s" % loss)
+    # Its own severity because "note" read as cosmetic and it is not: a module
+    # with no table is one where every batch can be deleted and this check will
+    # say nothing. Verified by hiding two of 102 INT's written batches — both
+    # deletions passed. It still does not fail the build, because the module has
+    # lost nothing and blocking six lanes over a ledger's shape would be the
+    # over-eager failure this script was already corrected for once.
+    for bare in unguarded:
+        print("  UNGUARDED  %s" % bare)
     for note in notes:
-        print("  note  %s" % note)
-    print("%d ledger(s) checked, %d loss(es), %d note(s)"
-          % (len(ledgers), len(losses), len(notes)))
+        print("  note       %s" % note)
+    print("%d ledger(s) checked, %d loss(es), %d unguarded module(s), %d note(s)"
+          % (len(ledgers), len(losses), len(unguarded), len(notes)))
     # Only a loss fails. A stale ledger and an unreadable inventory are both
     # worth printing and neither is a batch going missing, which is the one
     # thing this exists to stop.

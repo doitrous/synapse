@@ -3060,3 +3060,66 @@ The other lane's reaction is the reason to keep doing it:
 
 > **Arriving as a diff I did not write, in files I own, is precisely how the sweep incident
 > started.**
+
+---
+
+## A note that reads as cosmetic can mean "this check does not run here"
+
+`medical:batches-present` prints, for one module:
+
+```
+note  102-INT: ledger has no 'Authored so far' table, so this module has no absence check
+```
+
+**It reads like housekeeping. It means the gate is off for that module** — proved behaviourally
+rather than by reading the checker:
+
+```
+hid 102-INT-EOY-2024-written.md   -> exit 0
+hid 102-INT-EOY-2025-written.md   -> exit 0
+```
+
+Both of a module's written batches deleted, gate green. The same test on the other four modules
+gives `1 loss(es)` and **exit 1**. Confirmed on `main`: `102-INT-coverage.md` has no
+*Authored so far* section; the other four ledgers do.
+
+> **A check reporting that it did not run is doing the right thing and saying it in the wrong
+> register.** An absence check that finds no expectations has nothing to compare against — that
+> is a *failure to be able to check*, not a note. Same shape as an empty classification passing,
+> and the fix is the same: **make it exit non-zero.**
+
+### Why it is not urgent, and exactly when it becomes so
+
+`removeOrphans` deletes any `<module>-*-written.md` the current run did not write — **the
+mechanism that destroyed committed work three times.** 102-INT is not exposed *today*, because
+`registry.ts:68-69` registers its two papers and the two files on disk match the generated
+filename shape, so a build **rewrites** them rather than sweeping them.
+
+**The hazard is the combination.** A **hand-authored** `102-INT-*-written.md` — the moment
+anyone adds one — would be **both reachable by the sweep and invisible to the detector.**
+
+> That pairing is exactly what cost another lane two batches: **deleted, unmentioned, every
+> other gate green.**
+
+**Fix:** give `102-INT-coverage.md` an *Authored so far* table, as the other four have —
+
+```
+## Authored so far
+
+| Batch | Items |
+| --- | --- |
+| `concept/103-BMS-anatomy-concepts.md` | 15 |
+```
+
+### A stale ledger miscalibrates the check that depends on it
+
+```
+103-BMS: evidence/103-BMS-sources.md holds 8 items, ledger says 6
+```
+
+The batch grew and the ledger was not regenerated, so that module's absence check is calibrated
+against a **stale number**. Less dangerous than no check at all — it still fires — but it fires
+against the wrong expectation, and a check whose baseline drifts is on its way to being ignored.
+
+**An absence check is only as good as the ledger it reads. Regenerate the ledger in the same
+commit as the batch.**
