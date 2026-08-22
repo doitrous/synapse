@@ -55,3 +55,8 @@ ios/Synapse.xcodeproj/xcuserdata/
 # It lives in the project so tooling has a stable path, and must never be
 # committed — it is source material, not source code.
 corpus/
+
+# scripts/alexandria/intake/'s pagetext cache: rendered pdf pages, OCR
+# temp images, and soffice-converted intermediates — regenerable, and not
+# small. Never committed.
+scripts/alexandria/pagetext/
