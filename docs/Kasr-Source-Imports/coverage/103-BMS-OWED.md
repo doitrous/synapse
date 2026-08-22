@@ -12,42 +12,53 @@ rows are fixed.
 
 ---
 
-## 1 · Thirteen concept rows are shells, and they fail three gates at once
+## 1 · Thirteen rows have no `canonical_key`, and they are three different jobs
 
-Thirteen items across three concept batches carry an `id` and almost nothing else —
-no `canonical_key`, and for the anatomy five, no `definition`, `subject`,
-`primary_node_id`, `concept_type` or `explicit_objective` either. They read like
-rows that failed to parse rather than concepts authored thin.
+Thirteen items across three concept batches carry no `canonical_key`. They share
+that one cause, and the work each needs is not the same — a third of the list is a
+one-field fix and a third is genuinely unfinished. Read the tiers before estimating
+the whole thing.
 
-| Batch | Items | Keyless |
-| --- | --- | --- |
-| `concept/103-BMS-anatomy-concepts.md` | 15 | 5 |
-| `concept/103-BMS-biochemistry-concepts.md` | 28 | 5 |
-| `concept/103-BMS-histology-concepts.md` | 8 | 3 |
+| Rows | Fields carried | `definition` | Article-linked | Owed |
+| --- | --- | --- | --- | --- |
+| biochemistry ×5 | 25–27 | yes | yes | `canonical_key` **only** |
+| anatomy ×3 | 9 | no | yes | key + `definition` |
+| anatomy ×2, histology ×3 | 7–9 | no | **no** | key + `definition` + an article |
 
 ```
-CON-MSK-594BD65D8C0D7A   CON-HEM-A1EF4D20C85878   CON-MSK-967E873EEEACE0 *
-CON-MSK-700EC3AB121997   CON-HEM-4F64967BBFBB6F   CON-MSK-E36936D62038BF *
-CON-MSK-6F2C49EFF66B46   CON-HEM-F2B664C215C912   CON-DER-A4BD56E5027310 *
-CON-MSK-959D95DCE2E022 * CON-REN-31708150F8B722
-CON-MSK-78379D5B8914BC * CON-REN-E5BAEF03791C8F
+biochemistry — complete but for the key
+  CON-HEM-A1EF4D20C85878   CON-HEM-4F64967BBFBB6F   CON-HEM-F2B664C215C912
+  CON-REN-31708150F8B722   CON-REN-E5BAEF03791C8F
+
+anatomy — no definition, but an article already teaches them
+  CON-MSK-594BD65D8C0D7A   CON-MSK-700EC3AB121997   CON-MSK-6F2C49EFF66B46
+
+the untaught five — no definition and nothing teaches them
+  CON-MSK-959D95DCE2E022   CON-MSK-78379D5B8914BC   CON-MSK-967E873EEEACE0
+  CON-MSK-E36936D62038BF   CON-DER-A4BD56E5027310
 ```
 
-**These thirteen rows are one root cause behind three separate red signals**, which
-is why the module can look like it has three problems:
+The biochemistry five are finished work one field short: `CON-REN-E5BAEF03791C8F`
+carries 27 populated fields. Adding five keys clears a third of the list and is
+worth doing on its own, because it shrinks what the gate reports without touching
+anything that needs judgement.
+
+**One cause, three red signals** — which is why the module can look like it has
+three problems:
 
 - `medical:concept-ids` — exits 1 on "an item with no canonical_key", 13 times.
 - `medical:presence` — the anatomy five report `unpopulated with no reason` on
-  eleven fields each.
-- `coverage/101-ISK-untaught-concepts.md` — "5 concept(s) no article teaches". The
-  five starred above. **Every one of them is in this same keyless set** — an empty
-  concept names no article and no article names it, so the gap is a symptom rather
-  than a separate authoring debt.
+  eleven fields each. This is the second tier and the third, not the first.
+- `coverage/101-ISK-untaught-concepts.md` — "5 concept(s) no article teaches",
+  the third tier. **All five are inside the keyless thirteen**, so the gap is a
+  symptom of those rows rather than separate authoring debt — but note it is
+  specific to the five, not a property of all thirteen. The other eight are
+  article-linked already.
 
-Fixing the thirteen rows should close all three. Confirmed by enumerating both sets
-and intersecting them, not by comparing the example IDs the gates print — the
-presence output names only the first two per field, and comparing against that
-sample makes the sets look disjoint when they are not.
+Confirmed by enumerating both sets and intersecting them, not by comparing the
+example IDs the gates print — `medical:presence` names only the first two per
+field, and neither of those two is in the untaught list, so reading the sample
+makes the sets look disjoint when one is a subset of the other.
 
 ## 2 · Why this blocks lanes other than 103
 
