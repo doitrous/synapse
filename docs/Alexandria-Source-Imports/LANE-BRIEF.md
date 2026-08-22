@@ -371,3 +371,15 @@ word positions are collapsed to a sliver (a prior CamScanner OCR with corrupted 
 to plain. A key from one of these files can be recorded only from a **render** read by eye,
 question by question, with the method written in the triage; otherwise the question stays
 unkeyed and is not authored. Never reorder letters by pattern.
+
+### `+` additions: one per line, never pipe-joined (importer bug, fix in progress)
+On an update row, `+ID-A | +ID-B` stores the second value as the literal string `+ID-B`.
+Until the validator lane's fix lands, write every `+` addition on its own line:
+
+```markdown
+## universities
++au
+
+## modules
++AU-MED-102
+```

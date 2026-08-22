@@ -53,7 +53,8 @@ do not write concept/article/question files. The orchestrator resumes you with
 
 ## Step 2 — concepts and articles (after TRIAGE APPROVED)
 HIT-LIVE → sparse update (`## id`, `## label`, `universities` `+au`, `years` `+AU_{{YEAR}}`,
-`modules` `+{{MODULE}}`, `university_notes` if Alexandria teaches it differently) in
+`modules` `+{{MODULE}}` — **every `+` value on its own line, never pipe-joined** (importer bug,
+brief), `university_notes` if Alexandria teaches it differently) in
 `concept/{{SLUG}}-concepts.md`. HIT-PENDING → the same sparse update in
 `pending-live/{{SLUG}}.md` plus an INDEX line naming the file it waits on. NEW → mint with
 `tools/mint-concept-id.mjs`, full concept to the 02 floor (≥50/52), canonical placement on the
