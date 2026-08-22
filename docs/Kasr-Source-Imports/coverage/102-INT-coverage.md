@@ -28,6 +28,26 @@ department book read cover to cover and cited by four batches has not "yielded
 four things" — it has 163 pages still available. Collapsing the two is how a
 corpus comes to look finished while most of it is untouched.
 
+## Authored so far
+
+This table is what `medical:batches-present` checks reality against. Without it that gate
+reports a note and passes — so both of this module's written batches could be deleted and
+every check would stay green. Hand-added after that was measured; `build-coverage.ts` emits
+this section itself, so a regeneration reproduces it.
+
+| Batch | Items |
+| --- | --- |
+| `article/102-INT-biochemistry.md` | 13 |
+| `article/102-INT-physiology.md` | 8 |
+| `concept/102-INT-concepts.md` | 38 |
+| `evidence/102-INT-citations.md` | 38 |
+| `evidence/102-INT-claims.md` | 38 |
+| `evidence/102-INT-sources.md` | 69 |
+| `evidence/102-INT-spans.md` | 37 |
+| `question/102-INT-MCQ-bank.md` | 22 |
+| `written/102-INT-EOY-2024-written.md` | 15 |
+| `written/102-INT-EOY-2025-written.md` | 19 |
+
 ## The manifest's text-layer field was right every time
 
 No file in this module needed the native-to-OCR fallback.
