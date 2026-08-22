@@ -579,7 +579,7 @@ ${GENERATED_BY}.`
  * is the neighbour-clobbering failure the required module argument exists to
  * stop, arriving by the back door.
  */
-function removeOrphans(module: string, written: Set<string>) {
+function removeOrphans(module: string, written: Set<string>, sweep: boolean) {
   const dir = `${OUT}/written`
   if (!existsSync(dir)) return []
   const prefix = `${fileSlug(module)}-`
@@ -627,6 +627,32 @@ function removeOrphans(module: string, written: Set<string>) {
       }
       return generated
     })
+  // Reporting is the default; deleting takes `--sweep`.
+  //
+  // The marker separates "never generated" from "no longer generated". It
+  // cannot see a third state, found by the lane that found the second: a file
+  // whose header truthfully claims this generator wrote it, for a registration
+  // that is no longer in `registry.ts`. `104-CPS-EOY-2025-written.md` is
+  // exactly that — a real generator header, and `build-batches.ts "104 CPS"`
+  // throws `no registered paper belongs to "104 CPS"`. The marker waves it
+  // through, and nothing can rebuild it afterwards.
+  //
+  // No predicate closes that, because the file's claim about its own origin is
+  // true and what changed is the generator's ability to honour it. What can be
+  // closed is the consequence. A stale batch is untidy and says so in its own
+  // header; a deleted one is gone, and this sweep has deleted three of other
+  // lanes' files in a day, each time inside a regeneration diff too large for
+  // the `D` line to be seen. Untidy is the cheaper failure and it is the one
+  // that leaves evidence.
+  if (!sweep) {
+    for (const name of orphans) {
+      console.log(`orphaned batch, left in place: written/${name}`)
+    }
+    if (orphans.length) {
+      console.log(`  ${orphans.length} orphan(s) — rerun with --sweep to delete them`)
+    }
+    return []
+  }
   for (const name of orphans) rmSync(`${dir}/${name}`)
   return orphans
 }
@@ -681,7 +707,7 @@ for (const paper of papers) {
   writtenFiles.add(w.file)
   console.log(`${w.count} written questions, ${w.marks} marks -> ${w.file}`)
 }
-for (const orphan of removeOrphans(only, writtenFiles)) {
+for (const orphan of removeOrphans(only, writtenFiles, process.argv.includes('--sweep'))) {
   console.log(`removed orphaned batch (no paper produces it any more): written/${orphan}`)
 }
 
