@@ -803,6 +803,9 @@ CON-HEM-A1EF4D20C85878
 ## label
 G6PD catalyzes an initial glucose-oxidation pathway step that generates NADPH
 
+## canonical_key
+hmp.g6pd.key-enzyme-nadph
+
 ## definition
 Glucose 6-phosphate dehydrogenase (G6PD) catalyses the first and rate-limiting step of the oxidative phase of the hexose monophosphate pathway, dehydrogenating glucose 6-phosphate to 6-phosphogluconolactone and generating the first NADPH+H⁺. It is the key enzyme of that pathway. NADPH is a feedback inhibitor of it, and insulin induces its synthesis.
 
@@ -890,6 +893,9 @@ CON-HEM-4F64967BBFBB6F
 
 ## label
 G6PD deficiency increases RBC susceptibility to oxidant-induced hemolysis
+
+## canonical_key
+g6pd.deficiency.oxidant-haemolysis
 
 ## definition
 Favism is a genetic deficiency of glucose 6-phosphate dehydrogenase and the commonest human enzymopathy. Red cells are already exposed to oxidative damage because they carry oxygen, and hydrogen peroxide peroxidises their membrane lipids and raises membrane fragility. Without G6PD there is too little NADPH for glutathione reductase to regenerate reduced glutathione, so glutathione peroxidase cannot clear the peroxide. Exposure to an oxidant — primaquine, aspirin, sulfonamides, or fava beans — then lyses the fragile cells, producing haemolytic anaemia and jaundice.
@@ -3474,6 +3480,9 @@ CON-HEM-F2B664C215C912
 ## label
 Hemolytic anemia is excessive RBC hemolysis and often has jaundice
 
+## canonical_key
+haemolytic-anaemia.definition.jaundice
+
 ## definition
 Haemolytic anaemia is anaemia from excessive destruction of red cells, and it is often accompanied by jaundice. The jaundice is unconjugated: haemolysis produces bilirubin faster than the liver can excrete it, so serum unconjugated bilirubin rises while the conjugated fraction stays normal. Because unconjugated bilirubin is bound to plasma albumin it cannot be excreted in urine, which is why the book calls this "acholuric jaundice". Stercobilin increases in the faeces, so the stool is dark brown rather than pale.
 
@@ -3920,6 +3929,9 @@ CON-REN-31708150F8B722
 ## label
 Chronic gout deposits urate tophi in soft tissues and joints and can cause urinary urate stones
 
+## canonical_key
+gout.chronic.tophi-and-urate-stones
+
 ## definition
 Gout is a painful inflammation of one or more joints, characterised by deposition of nodular masses of uric acid crystals — tophi — in soft tissue. In the joints they are found most often as hard nodules around the fingers, at the tips of the elbows, and around the big toe, where they cause arthritis. Precipitation of urates in the urinary tract may produce renal stones. Hyperuricaemia, the raised serum urate behind it, comes either from overproduction (metabolic) or from decreased excretion (renal); plasma urate is normally 4–7 mg/dL in men and 3–6 mg/dL in women.
 
@@ -4012,6 +4024,9 @@ CON-REN-E5BAEF03791C8F
 
 ## label
 Allopurinol lowers uric acid by blocking purine conversion to uric acid and is used cautiously with impaired kidney function
+
+## canonical_key
+gout.allopurinol.urate-lowering-and-renal-caution
 
 ## definition
 Allopurinol is the drug of choice for lowering uric acid production. It resembles hypoxanthine closely enough that xanthine oxidase oxidises it to oxypurinol, and oxypurinol then binds tightly to xanthine oxidase, so the enzyme can no longer oxidise hypoxanthine and xanthine and less uric acid is formed. Allopurinol also reacts with PRPP, which lowers the PRPP pool and reduces de-novo purine synthesis. It therefore works at two points: the last step of catabolism and the first step of synthesis.

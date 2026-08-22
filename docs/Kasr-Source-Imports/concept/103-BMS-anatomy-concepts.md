@@ -1829,6 +1829,9 @@ CON-MSK-594BD65D8C0D7A
 ## label
 Anterior relations in adductor canal
 
+## canonical_key
+femur.adductor-canal.anterior-relations
+
 ## modules
 103 BMS
 
@@ -1859,6 +1862,9 @@ CON-MSK-700EC3AB121997
 
 ## label
 Adductor longus behind femoral artery
+
+## canonical_key
+femur.adductor-canal.posterior-relation-adductor-longus
 
 ## modules
 103 BMS
@@ -1891,6 +1897,9 @@ CON-MSK-6F2C49EFF66B46
 ## label
 Adductor magnus behind femoral artery
 
+## canonical_key
+femur.adductor-canal.posterior-relation-adductor-magnus
+
 ## modules
 103 BMS
 
@@ -1922,6 +1931,9 @@ CON-MSK-959D95DCE2E022
 ## label
 Acetabular hip articular surface
 
+## canonical_key
+hip.acetabulum.articular-surface
+
 ## modules
 103 BMS
 
@@ -1946,6 +1958,9 @@ CON-MSK-78379D5B8914BC
 
 ## label
 Acetabular branch of medial circumflex
+
+## canonical_key
+hip.acetabulum.acetabular-branch-medial-circumflex
 
 ## modules
 103 BMS

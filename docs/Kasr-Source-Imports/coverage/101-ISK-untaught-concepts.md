@@ -18,17 +18,17 @@ a subject-tree leaf and the grouping is therefore the shape of the work.
 
 ## 103 BMS > Anatomy > Joints of the lower limb > The Hip joint
 
-- `CON-MSK-959D95DCE2E022` —  (103-BMS-anatomy-concepts.md)
-- `CON-MSK-78379D5B8914BC` —  (103-BMS-anatomy-concepts.md)
+- `CON-MSK-959D95DCE2E022` — hip.acetabulum.articular-surface (103-BMS-anatomy-concepts.md)
+- `CON-MSK-78379D5B8914BC` — hip.acetabulum.acetabular-branch-medial-circumflex (103-BMS-anatomy-concepts.md)
 
 ## 103 BMS > Histology > Bone > Bone Cells
 
-- `CON-MSK-967E873EEEACE0` —  (103-BMS-histology-concepts.md)
+- `CON-MSK-967E873EEEACE0` — bone.cells.four-types (103-BMS-histology-concepts.md)
 
 ## 103 BMS > Histology > Integumentary System > Skin Appendages
 
-- `CON-DER-A4BD56E5027310` —  (103-BMS-histology-concepts.md)
+- `CON-DER-A4BD56E5027310` — hair-follicle.arrector-pili.structure-attachment (103-BMS-histology-concepts.md)
 
 ## 103 BMS > Histology > Muscle Tissue > Skeletal Muscle
 
-- `CON-MSK-E36936D62038BF` —  (103-BMS-histology-concepts.md)
+- `CON-MSK-E36936D62038BF` — skeletal.myofibril.a-and-i-bands (103-BMS-histology-concepts.md)

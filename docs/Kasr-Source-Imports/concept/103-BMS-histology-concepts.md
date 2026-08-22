@@ -998,6 +998,9 @@ CON-MSK-967E873EEEACE0
 ## label
 Bone cells include osteogenic cells, osteoblasts, osteocytes, and osteoclasts
 
+## canonical_key
+bone.cells.four-types
+
 ## aliases
 Bone cells
 Osteogenic cell
@@ -1033,6 +1036,9 @@ CON-MSK-E36936D62038BF
 ## label
 Alternating anisotropic dark A bands and isotropic light I bands create striations
 
+## canonical_key
+skeletal.myofibril.a-and-i-bands
+
 ## aliases
 A band
 I band
@@ -1064,6 +1070,9 @@ CON-DER-A4BD56E5027310
 
 ## label
 Arrector pili is a smooth-muscle bundle extending from mid hair follicle to papillary dermis
+
+## canonical_key
+hair-follicle.arrector-pili.structure-attachment
 
 ## subject
 derm
