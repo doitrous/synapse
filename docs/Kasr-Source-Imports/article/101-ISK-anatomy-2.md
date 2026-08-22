@@ -380,10 +380,8 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M01
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-1CA86BE843A07C
-CON-MSK-DF8F395F3D471E
-CON-MSK-8533FCB18D819B
-CON-MSK-04D3ACA71DC025
+CON-MSK-1CA86BE843A07C | CON-MSK-DF8F395F3D471E | CON-MSK-8533FCB18D819B | CON-MSK-04D3ACA71DC025 | CON-MSK-171B2F8B24F6E7 | CON-MSK-352E28DEA38DF7 | CON-MSK-38A32E79B1412F | CON-MSK-B88F413E4536F9 | CON-MSK-DAF3D2128459B3 | CON-MSK-E68EAACB7596AF
+
 ## related_articles
 ART-101-ANA-MUSCLES-OF-THE-BACK: Trapezius, the rhomboids and levator scapulae are the other half of the shoulder girdle's muscle list, and the article that carries them also carries the retraction and downward-rotation columns.
 ART-101-ANA-AXILLA-BREAST: The axilla lies immediately below this region, and the long thoracic nerve that rotates the scapula runs on its medial wall.
@@ -667,8 +665,8 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M04
 SYS-MSK-T01-S01-M05
 ## related_concepts
-CON-MSK-E10403A4189B45
-CON-MSK-44234D1863CE8E
+CON-MSK-E10403A4189B45 | CON-MSK-44234D1863CE8E | CON-MSK-2AA14F317F45C3
+
 ## related_articles
 ART-101-ANA-ARM: The cubital fossa, where every structure in this article enters the forearm, is described there with its boundaries, roof and contents.
 ART-101-ANA-HAND-ARTERIES: The superficial and deep palmar arches that the ulnar and radial arteries become, and the snuff box seen from the hand's side.
@@ -1008,7 +1006,7 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T01
 ## related_concepts
-[clear]
+CON-MSK-A0C1F50FABDC0F | CON-MSK-D193498AB94D21 | CON-MSK-EE7CDEF8ACA587
 
 ## related_articles
 ART-101-ANA-FASCIA: The first structure described in these terms — superficial and deep, and everything the two words mean.
@@ -1431,7 +1429,7 @@ DIS-ANA-T01
 SYS-MSK-T05
 SYS-MSK-T01-S03-M01
 ## related_concepts
-[clear]
+CON-MSK-00B4A0D32A6420 | CON-MSK-2C78EFB16CA67F | CON-MSK-40012FE18569EC | CON-MSK-6DCABD3AE947F5 | CON-MSK-9A22BB8909AF29 | CON-MSK-AEB62E99182AEE | CON-MSK-C30E73A5353ABB | CON-MSK-EFD497A9922A4D
 
 ## related_articles
 ART-101-ANA-CARTILAGINOUS-JOINTS: The epiphyseal plate is a joint as well as a growth plate, and the classification of joints that follows from the cartilage types is set out there.
@@ -1708,7 +1706,7 @@ ART-101-ANA-ELBOW-JOINT: The anastomosis around the elbow is the department book
 ART-101-ANA-SHOULDER-REGION: The anastomosis around the scapula, the collateral route that keeps the limb alive when the axillary artery is blocked.
 ART-101-ANA-VEINS-OF-UPPER-LIMB: The superficial and deep veins of a limb, and the venae comitantes this chapter's principles describe in general.
 ## related_concepts
-[clear]
+CON-MSK-655D74FEE1515A | CON-MSK-A12FB50E90A64B
 
 ## aliases
 Cardiovascular system | Heart | Blood circulation | Systemic circulation | Pulmonary circulation | Portal circulation | Arterial anastomosis | End arteries | Venous return | Arteriovenous shunt
@@ -1951,7 +1949,7 @@ DIS-ANA-T01
 SYS-IMM-T01
 SYS-HEM-T01
 ## related_concepts
-[clear]
+CON-MSK-8EFC3649B7898F | CON-MSK-BF3670E27D6F12
 
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes and the lymphatic drainage of the breast — this chapter's principles in the region the papers ask them from.
@@ -2191,7 +2189,7 @@ DIS-ANA-T01
 SYS-NEU-T01-S01
 SYS-NEU-T01-S02
 ## related_concepts
-[clear]
+CON-MSK-59F41C4BAF6181
 
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: A peripheral nerve followed from its roots to its territory — this chapter's classification worked out in one nerve.

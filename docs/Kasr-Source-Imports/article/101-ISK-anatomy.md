@@ -71,7 +71,8 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-4018ED42ADDDB4
+CON-MSK-4018ED42ADDDB4 | CON-MSK-229AAD0C8626CF | CON-MSK-888467E7C45479 | CON-MSK-F598AF39FBE297
+
 ## related_articles
 ART-101-ANA-PECTORALIS-MAJOR: Pectoralis major is the worked example — two heads of origin, one bilaminar tendon of insertion, and an action that differs between the heads.
 ## aliases
@@ -82,6 +83,8 @@ Types of muscle attachment | Origin and insertion | Skeletal muscle attachment
 Every skeletal muscle has exactly two attachments, and this faculty names them by what the muscle attaches to, not by what it attaches with. Four types are taught and four are marked: bone, fibrous raphe, skin, cartilage. Bone is the commonest and subdivides into fleshy and tendinous, which is where students who learned a three-item list from another textbook lose the mark.
 ## sections
 ### Definition
+Muscle tissue is characterised by contraction — the ability of its fibres to shorten. By structure and function the department book gives three types, classified on four points at once: where the muscle is, whether it contracts voluntarily, whether it is striated, and which nerves supply it. Skeletal muscle is attached to the skeleton, contracts voluntarily, is striated, and is supplied by somatic nerves. Smooth muscle lies in the wall of blood vessels and of the viscera, contracts involuntarily, has no striations, and is supplied by autonomic nerves. Cardiac muscle is in the myocardium of the heart, contracts involuntarily, is striated but less markedly than skeletal muscle, and is supplied by autonomic nerves. Everything that follows in this article is about the first of the three, skeletal muscle, and in particular about how it attaches.
+
 Muscle tissue is defined by contraction, the ability of its fibres to shorten. A shortening fibre does work only if both of its ends are anchored, so every skeletal muscle has two attachments and they are named separately.
 
 Origin is the more fixed attachment. Insertion is the more mobile attachment. During contraction the insertion moves towards the origin, and the movement appears at the joint or joints the muscle crosses.
@@ -203,6 +206,7 @@ VIP Academy revision book "Module 101 - Basis of Human Anatomy" (src_8054875331d
 Kasr past-question summary (src_647a13d829db0d2a6584), page 26 — the model answer for "types of skeletal muscle attachment", which gives bone, fibrous raphe and cartilage and omits skin.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology, signed by the head of the department board: "Muscles" is one of four named basis topics, and the two basis short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
 ## field_notes
+sections.Definition: The opening paragraph classifying muscle into skeletal, smooth and cardiac by site, contraction, striation and nerve supply is added at the two-sided coverage pass (2026-08-23) to teach CON-MSK-229AAD0C8626CF, which the department book states on Anatomy page 66 under "Classification of the Muscles" — a table this article's own evidence_basis already cited but had not yet written up. No wording is invented; the table's four rows are the source.
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
@@ -832,7 +836,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T03-S02-M03
 ## related_concepts
-CON-MSK-2B9F47FC205689
+CON-MSK-2B9F47FC205689 | CON-MSK-2DE15157B5933B | CON-MSK-8DDA3D07A02813 | CON-MSK-C608D59631E713 | CON-MSK-CE160ABC8341C8 | CON-MSK-F602D13792F66F
+
 ## related_articles
 ART-101-ANA-MUSCLE-ATTACHMENTS: The general rules about origin, insertion and reversal are what make the two heads of this muscle produce opposite movements.
 ART-101-ANA-AXILLA-BREAST: Pectoralis major is the superficial layer of the anterior wall of the axilla, and the breast lies on the pectoral fascia that covers it.
@@ -1059,7 +1064,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-A49B57B03A3610
+CON-MSK-A49B57B03A3610 | CON-MSK-10423E16E36186 | CON-MSK-1FC89E36FFD98E | CON-MSK-24A0858459A59D | CON-MSK-37D3C3219F9806 | CON-MSK-44131E0EDEACA2 | CON-MSK-712EBE5936F7E4 | CON-MSK-8FB16415EFF905 | CON-MSK-B119CC808D3E81 | CON-MSK-CBB4C433F2F81E | CON-MSK-D81C4A38D695CF | CON-MSK-F0F2BDF778A2DD
+
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The radial nerve is a branch of the posterior cord, and the cords and their branches are contents of the axilla.
 ART-101-ANA-HAND-ARTERIES: The superficial radial nerve leaves the forearm through the roof of the anatomical snuff box, alongside the cephalic vein.
@@ -1298,7 +1304,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-CVS-T01-S01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-BC95DAE3531583 | CON-MSK-1424177E093253
+CON-MSK-BC95DAE3531583 | CON-MSK-1424177E093253 | CON-MSK-24A0858459A59D | CON-MSK-301EB5B9E1F00B | CON-MSK-58D5F74E9595C3 | CON-MSK-8FB16415EFF905 | CON-MSK-D81C4A38D695CF | CON-MSK-F0F2BDF778A2DD
+
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: The superficial radial nerve crosses the roof of the snuff box on its way to the dorsum of the hand, beside the beginning of the cephalic vein.
 ART-101-ANA-ELBOW-JOINT: The radial and ulnar arteries begin as the terminal branches of the brachial artery in the cubital fossa, just below the elbow joint.
@@ -1541,7 +1548,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-782A87EC05EF74
+CON-MSK-782A87EC05EF74 | CON-MSK-879B4239272078 | CON-MSK-B88F413E4536F9
+
 ## related_articles
 ART-101-ANA-CARTILAGINOUS-JOINTS: The elbow is the worked example of the third class of joint, and shows what a cavity, a complete capsule and a synovial membrane add to a union between bones.
 ART-101-ANA-RADIAL-NERVE: The radial nerve ends in front of the lateral epicondyle, in the lateral part of the cubital fossa that lies in front of this joint.
@@ -1778,7 +1786,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-GYN-T06-S01-M01 | SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E | CON-MSK-8AA227FAC19B41
+CON-MSK-1B2BD8EC2B44B8 | CON-MSK-24E318F2E3F18E | CON-MSK-8AA227FAC19B41 | CON-MSK-36F854FD651912 | CON-MSK-552299E3126E53 | CON-MSK-8DDA3D07A02813 | CON-MSK-C608D59631E713 | CON-MSK-F0F2BDF778A2DD | CON-MSK-F4D5605867D790 | CON-MSK-F602D13792F66F
+
 ## related_articles
 ART-101-ANA-PECTORALIS-MAJOR: Pectoralis major and minor are the anterior wall of the axilla, and pectoralis minor is what the surgical levels of the nodes are numbered against.
 ART-101-ANA-RADIAL-NERVE: The other nerve of the posterior cord, and the other lesion this faculty asks by its deformity.
@@ -2159,7 +2168,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-F33BB68138377B
+CON-DEV-F33BB68138377B | CON-DEV-28CF4D241BE607 | CON-DEV-F5A87FDF5D911C
+
 ## related_articles
 ART-101-ANA-EMBRYONIC-FOLDING: Folding is the event of the fourth week; fertilization is where the same embryo's first week starts, and the zygote formed here is what cleaves, migrates and implants.
 ART-101-ANA-DECIDUA: The endometrium the migrating embryo implants into becomes the decidua, and its three parts are named from the position of the conceptus this article ends with.
@@ -2345,7 +2355,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T02
 ## related_concepts
-CON-DEV-E099FAA01BEAEB | CON-DEV-723B31B1B9ED2E
+CON-DEV-E099FAA01BEAEB | CON-DEV-723B31B1B9ED2E | CON-DEV-2D15CFF44F825F | CON-DEV-AB990D329EBEC2 | CON-DEV-D870770450E17D
+
 ## related_articles
 ART-101-ANA-DECIDUA: The two parts of the chorion are named against the two parts of the decidua they face — frondosum against basalis, laeve against capsularis — so the two articles are two halves of the same section.
 ART-101-ANA-FERTILIZATION: The chorion carrying these villi is the wall of the vesicle the fertilised ovum has become by the end of the second week.
@@ -2405,6 +2416,11 @@ In infiltration. Placenta accreta, increta and percreta, in that order of depth,
 The department's own figures for the normal placenta, which are what the anomalies are departures from. The placenta weighs 500 to 600 grams, is 15 to 25 centimetres in diameter and 3 centimetres thick, and its maternal surface carries 15 to 20 cotyledons. The intervillous spaces hold 150 millilitres of blood, changed three to four times a minute, supplied by 80 to 100 decidual arterioles. Placental septa appear during the fourth and fifth gestational months. The placental barrier thins from four layers to two from the fourth month. Maternal antibodies cross from the fourteenth week, and human chorionic gonadotropin maintains the corpus luteum until the fourth month.
 
 For the villi: they form from the end of the second week to the end of the third, secondary villi appearing at the middle of the third week and tertiary by its end. Three types of villus, three layers in the tertiary villus, two parts of the chorion.
+
+### Functions of the placenta
+The department book lists six functions, and they are asked as a closed list rather than as a paragraph.
+
+It exchanges metabolic products, carrying nutritive substances from maternal to fetal blood and waste products the other way. It exchanges gases, transmitting oxygen to fetal blood and carbon dioxide from fetal blood to maternal blood. It transmits maternal antibodies to the fetal blood from the fourteenth week, giving the newborn passive immunity. It is an endocrine gland, producing four hormones: progesterone, which maintains the endometrium of pregnancy; oestrogen, which stimulates growth of the uterus and maturation of the mammary gland; human chorionic gonadotropin, which maintains the corpus luteum until the fourth month and is the basis of the pregnancy test; and somatomammotropin, which gives the fetus priority on maternal blood glucose and promotes breast development. It has a protective role, preventing the passage of bacteria and most viruses — the department book names HIV, poliomyelitis, rubella, cytomegalovirus and measles as the exceptions that do cross — and it mostly prevents the passage of toxic material and maternal hormones. And it has an excretory function, ridding the fetus of urea and creatinine.
 
 ### Clinical significance
 The two anomalies of cord attachment are the ones with a stated consequence, and the department book carries them twice — once under the placenta and once under the umbilical cord. In a velamentous placenta the umbilical vessels run through the amniotic membrane before they reach the placenta, so they are unprotected over that stretch; in a battledore placenta the cord reaches the placenta but joins it at the margin.
@@ -2509,6 +2525,7 @@ VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 20,
 Kasr past-question summary (src_647a13d829db0d2a6584), pages 19 and 21 — "Model answer: amniotic fluid, umbilical cord anomalies and placental abnormalities", which gives the six anomaly groups with the praevia grading recorded in conflicts, and "Model answer: fertilization and chorion", which gives the villi.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: fetal membranes are within the General Embryology scope, whose short-answer questions carry 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
 ## field_notes
+sections.Functions of the placenta: This section is added at the two-sided coverage pass (2026-08-23) to teach CON-DEV-AB990D329EBEC2, previously linked here only on the concept side. The six functions and the four hormones are quoted from Department Book Module 101, Fetal Membranes chapter, Anatomy page 98, which this article's evidence_basis already cited within the PDF pages 94-105 range but had not yet written up.
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
@@ -2978,7 +2995,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-89FC3BBB3C9BCE
+CON-DEV-89FC3BBB3C9BCE | CON-DEV-1D10DF3B716A70 | CON-DEV-22C6EB6EB88448 | CON-DEV-2D15CFF44F825F | CON-DEV-59DB99C028C33F | CON-DEV-B87D52797068D2 | CON-DEV-E08715FEB6438D
+
 ## related_articles
 ART-101-ANA-FERTILIZATION: Fertilization is where this embryo starts and its last result — cleavage and migration — is what delivers the blastocyst to the site this article is about.
 ART-101-ANA-DECIDUA: The endometrium the blastocyst embeds in becomes the decidua, and its three parts are named from where this conceptus ends up.
@@ -3016,6 +3034,18 @@ Abnormal intrauterine implantation. Placenta praevia is implantation in the lowe
 Ectopic pregnancy, implantation outside the uterine cavity. Tubal, in the ampulla, the isthmus or the intramural part of the uterine tube. Ovarian, on the surface of the ovary. Omental, on the surface of the peritoneum.
 
 The department's own timings and figures belong with them. Implantation starts on the seventh day and is completed on the eleventh. The blastocyst is fully embedded by the ninth day and the fibrin clot is covered by the eleventh. The amniotic cavity appears on the eighth day and the yolk sac on the ninth. In tubal ectopic pregnancy, rupture is expected at about the eighth week.
+
+**The second week, day by day.** The department book gives the week as a dated sequence, and the dates are examined as a sequence rather than as isolated facts.
+
+Seventh day: the blastocyst begins implantation, adhering by its embryonic pole. The trophoblast differentiates into an outer syncytiotrophoblast and an inner cytotrophoblast, starting at the embryonic pole and spreading over the whole blastocyst as implantation proceeds; the syncytiotrophoblast forms the proteolytic enzyme that erodes the endometrium to open the implantation cavity.
+
+Eighth day: the blastocyst is partly embedded. The embryoblast cells facing the blastocele become cuboidal and form the hypoblast. The amniotic cavity appears within the rest of the inner cell mass, separating amnioblast — flat cells against the cytotrophoblast, the roof of the cavity and the first source of amniotic fluid — from epiblast, tall columnar cells against the hypoblast that form the floor; epiblast and hypoblast together are the bilaminar embryonic disc.
+
+Ninth and tenth days: the blastocyst is completely embedded and the penetrated epithelium is closed by a fibrin clot. The blastocele is transformed into the primary yolk sac once Heuser's membrane forms — a layer of flat cells derived from the hypoblast that lines it. Almost the whole trophoblast wall is by now differentiated into syncytiotrophoblast and cytotrophoblast, and lacunar spaces open in the syncytiotrophoblast.
+
+Eleventh and twelfth days: the endometrial epithelium overgrows the fibrin clot, completing implantation, and the lacunar spaces fill with maternal blood to form the utero-placental circulation. Extra-embryonic mesoderm cells appear, derived from the wall of the yolk sac, forming a layer between the cytotrophoblast outside and the embryonic disc with its two cavities inside; large spaces open in this loose mesoderm.
+
+Thirteenth day: those spaces run together into the chorionic cavity — the extra-embryonic coelom — splitting the extra-embryonic mesoderm into a somatic (somatopleuric) layer lining the cytotrophoblast and covering the amniotic cavity, and a splanchnic (splanchnopleuric) layer covering the yolk sac. The chorion is formed as the wall of the chorionic vesicle, three layers from inside out: somatic mesoderm, cytotrophoblast and syncytiotrophoblast. The connecting stalk is the part of the extra-embryonic mesoderm joining the chorion to the caudal end of the disc. New hypoblast-derived cells line the primary yolk sac and transform it into the secondary yolk sac, pinching off and discarding most of its original size; a diverticulum from the caudal wall of the secondary yolk sac extends into the connecting stalk as the allantois. Primary chorionic villi begin forming from the chorion.
 
 ### Clinical significance
 The department book states one consequence directly and it is the one that kills: in tubal ectopic pregnancy, rupture of the tube with internal haemorrhage is expected. The tube is a thin-walled structure invaded by tissue whose job is to erode, and it has no capacity to enlarge.
@@ -3103,6 +3133,7 @@ VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 14,
 Kasr past-question summary (src_647a13d829db0d2a6584), "Model answer: abnormal sites of implantation" — the model answer to a past paper on this exact classification.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
 ## field_notes
+sections.Key determinants: The day-by-day paragraphs (seventh through thirteenth days, including Heuser's membrane, the primary and secondary yolk sac, the extra-embryonic mesoderm split and the chorionic cavity) are added at the two-sided coverage pass (2026-08-23) to teach CON-DEV-1D10DF3B716A70, CON-DEV-22C6EB6EB88448 and CON-DEV-B87D52797068D2, all previously linked here only on the concept side. Every day and every structure named is quoted from Department Book Module 101, Second Week of Development chapter, Anatomy pages 76-78, which this article's evidence_basis already cited in summary as "the day-by-day timetable" but had not yet written out.
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
@@ -3159,7 +3190,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T02
 ## related_concepts
-CON-DEV-3E918A4C74B56D
+CON-DEV-3E918A4C74B56D | CON-DEV-134C8B5E98D759
+
 ## related_articles
 ART-101-ANA-CHORIONIC-VILLI-PLACENTA: Two of the cord anomalies — battledore and velamentous — are also anomalies of the placenta, and the department book lists them under both.
 ART-101-ANA-EMBRYONIC-FOLDING: The primitive umbilical ring is made by the folding of the embryonic disc, and the cord is what the amnion wraps round its contents.
@@ -3557,7 +3589,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03
 ## related_concepts
-CON-MSK-D5589ECD8F3C27
+CON-MSK-D5589ECD8F3C27 | CON-MSK-5079195BC42B5E
+
 ## related_articles
 ART-101-ANA-ELBOW-JOINT: The other named synovial joint on this leaf, worked to the same specification — surfaces, type, capsule, ligaments, movements.
 ART-101-ANA-CLAVICLE: The medial end of the clavicle is one of this joint's two articular surfaces, and the costo-clavicular impression on its lower surface is where the joint's strongest ligament attaches.
@@ -4173,7 +4206,8 @@ DIS-ANA-T02
 ## secondary_node_ids
 SYS-MSK-T01-S01-M03 | SYS-MSK-T06-S01-M01
 ## related_concepts
-CON-MSK-44234D1863CE8E | CON-MSK-E10403A4189B45
+CON-MSK-44234D1863CE8E | CON-MSK-E10403A4189B45 | CON-MSK-10423E16E36186 | CON-MSK-132E72A335B25F | CON-MSK-1FC89E36FFD98E | CON-MSK-4CFF00B2741E50 | CON-MSK-4E0B2E1C8DBA77 | CON-MSK-44131E0EDEACA2 | CON-MSK-46C40109E7D957 | CON-MSK-58D5F74E9595C3 | CON-MSK-8FB16415EFF905 | CON-MSK-9FF8A29E36480B | CON-MSK-B119CC808D3E81 | CON-MSK-BA4B2D326C9F8A | CON-MSK-D81C4A38D695CF | CON-MSK-E04D8A31AEAC23 | CON-MSK-F0F2BDF778A2DD
+
 ## related_articles
 ART-101-ANA-DEEP-FASCIA: A retinaculum is deep fascia thickened locally into a transverse band, and this is the worked example of that item on the list.
 ART-101-ANA-HAND-ARTERIES: The first three compartments of the retinaculum supply the boundaries and contents of the anatomical snuff box, which the radial artery crosses.
@@ -5301,7 +5335,8 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T06-S01-M01
 ## related_concepts
-CON-MSK-1E40050F141F4C
+CON-MSK-1E40050F141F4C | CON-MSK-4D7492BC85C03D
+
 ## related_articles
 ART-101-ANA-FIBROUS-JOINTS: The first class, united by fibrous tissue and immobile, and the one this class is defined against.
 ART-101-ANA-CARTILAGINOUS-JOINTS: The second class, united by cartilage, whose secondary type has limited mobility without any of the seven components described here.
@@ -5508,7 +5543,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-5E63C211DEEE00
+CON-DEV-5E63C211DEEE00 | CON-DEV-215BD7E9E58872 | CON-DEV-2E3E3098D90C0C
+
 ## related_articles
 ART-101-ANA-EMBRYONIC-FOLDING: Growth of the neural tube and the somites is one of the two causes of folding, and the somite period and the folding period overlap almost exactly.
 ART-101-ANA-FERTILIZATION: The disc these three columns of mesoderm form in is the disc the zygote's descendants have become by the third week.
@@ -5710,7 +5746,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T02
 ## related_concepts
-CON-DEV-F356C3B8CFD31E
+CON-DEV-F356C3B8CFD31E | CON-DEV-AAC09F773BC45D
+
 ## related_articles
 ART-101-ANA-UMBILICAL-CORD: The amnion ensheathes the cord, and the expanding amniotic cavity is what wraps it round the cord's contents in the first place.
 ART-101-ANA-EMBRYONIC-FOLDING: Expansion of the amniotic cavity is one of the two causes of folding, and the same expansion is what brings amnion into contact with chorion.
@@ -7997,7 +8034,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-8F17D9869A6D15 | CON-DEV-3AB7E19B99F387
+CON-DEV-8F17D9869A6D15 | CON-DEV-3AB7E19B99F387 | CON-DEV-4BC4233153C3DC | CON-DEV-785CE84F7C03DB | CON-DEV-C84AD85AB265CC
+
 ## related_articles
 ART-101-ANA-PARAXIAL-MESODERM: What one somite becomes — sclerotome, dermatome and myotome — is taught there; this article is about when somites appear and how many of them there are.
 ART-101-ANA-EMBRYONIC-FOLDING: Folding is the other half of this chapter, and it runs from the end of the third week to the end of the fourth, overlapping the somite period almost exactly.
@@ -8018,6 +8056,8 @@ That one sentence carries the contrast the examiner works with. Before it, the d
 Two lists of derivatives belong to the definition because the department book states them as the chapter's second intended learning outcome: the structures and organs derived from each germ layer.
 
 **Ectoderm** gives the central nervous system; the derivatives of the neural crest; the otic and lens placodes, which form the internal ear and the lens of the eye; the peripheral nerves and the sensory epithelium of ear, nose and eye; the epidermis of the skin; the pituitary gland; and the beginning and end of the digestive tract.
+
+The first two items on that list — the central nervous system and the neural crest — are both products of one process, neurulation, which the department book names only by its results and does not itself describe. In the median plane of the ectoderm overlying the notochord, and induced by it, the cells thicken into the neural plate. The plate's median part sinks to form the neural groove, with a neural fold rising on either side; the folds meet and fuse in the midline, converting the groove into the neural tube, and fusion begins in the cervical region and spreads towards both ends. The neural tube becomes the central nervous system — the brain and the spinal cord, grey matter and white matter alike. As the folds fuse, a strip of cells at their crest separates from the tube on each side as the neural crest, which gives rise to almost everything peripheral: the sensory ganglia of the spinal and some cranial nerves, the postganglionic neurons of the autonomic nervous system, the Schwann cells that myelinate peripheral axons, the melanocytes of the skin, the adrenal medulla, and much of the connective tissue and skeleton of the face and skull.
 
 **Endoderm** gives two kinds of thing, and the book separates them. As **mucous lining epithelium**: the digestive system except its beginning and its end, the respiratory tract, most of the urinary bladder and urethra, and the tympanic cavity with the Eustachian tube. As **glandular epithelium**: the parenchyma of the liver, pancreas, thyroid, thymus, tonsils — palatine and nasopharyngeal — and parathyroid glands.
 
@@ -8161,6 +8201,7 @@ No Kasr source explains the mechanism of segmentation — what makes the paraxia
 No Kasr source gives a list of mesodermal derivatives in the form it gives for ectoderm and endoderm. That absence is stated in the article rather than filled from a general textbook.
 No Kasr source states when in the chapter's five weeks each individual organ is formed, nor which weeks are most sensitive to a teratogen. The window argument in Clinical significance rests only on the book's definition of the period as organogenesis.
 No independent citation has been attached to any statement in this article.
+The extraction of the department book carries no account of neurulation at all: no neural plate, no neural groove, no neural tube closure and no neuropores, and no list of what the neural crest becomes. The book names only the central nervous system and "the derivatives of the neural crest" as two items on the ectodermal list and stops there. The paragraph on neurulation added after that list at the two-sided coverage pass (2026-08-23) is written to standard embryology teaching rather than to a departmental source, exactly as concept CON-DEV-4BC4233153C3DC's own evidence_gaps already discloses, and it should be checked against the lecture material by a faculty reviewer before the publication gate advances.
 ## evidence_basis
 Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, General Embryology chapter 5 "Embryonic Period", PDF pages 87-93 — the definition of the period as organogenesis and its span in weeks, the ectodermal and endodermal derivative lists, the division of the intra-embryonic mesoderm into three parts on day 17 with each part's origin in the primitive streak and what it forms, the transverse segmentation of paraxial mesoderm into somites, the occipital-to-caudal direction of segmentation, the somitomeres, the dates of the somite period, the regional counts, the total of 42-44 pairs and the age formula, with Figures 5.1 to 5.3. Extracted to scripts/kasr/extract/deptbook.json.
 Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapter 4 "Third Week of Development", PDF pages 80-86 — the bucco-pharyngeal and cloacal membranes as the two regions where ectoderm and endoderm are fused with no intervening mesoderm, cited here only for the interlock between the ectodermal and endodermal lists at the two ends of the gut.
@@ -8169,6 +8210,7 @@ Anatomy MCQ Book 2025, Anatomy Department (src_764a2521809818b8abdc) — the que
 Anatomy Question [Embryo], Anatomy Department (src_12d639a625d8305c4454) — a second printing of the somite-segmentation question, recorded as exam signal on CON-DEV-8F17D9869A6D15.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
 ## field_notes
+sections.Definition: The paragraph on neurulation (neural plate, neural groove, neural fold, neural tube and neural crest) is added at the two-sided coverage pass (2026-08-23) to teach CON-DEV-4BC4233153C3DC and CON-DEV-785CE84F7C03DB, both previously linked to ART-101-ANA-NERVOUS-SYSTEM on the concept side only — an article confirmed to carry no embryology content at all. This paragraph is general embryology teaching rather than a department-book quotation; see `evidence_gaps` for the full disclosure, which mirrors the gap the concept record itself already names.
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: The three questions filed on this leaf are authored in scripts/kasr/seeds/mcq/embryonic-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
@@ -8228,7 +8270,8 @@ Year 1
 ## primary_node_id
 DIS-EMB-T01
 ## related_concepts
-CON-DEV-E273F775E9CB77 | CON-DEV-869FD1A9D3AEB7 | CON-DEV-B9581AAE767D2F
+CON-DEV-E273F775E9CB77 | CON-DEV-869FD1A9D3AEB7 | CON-DEV-B9581AAE767D2F | CON-DEV-698CF33638D4D7
+
 ## related_articles
 ART-101-ANA-EMBRYONIC-PERIOD: The period this one follows — organogenesis in the 4th to 8th weeks, where the fetal period does maturation and growth and forms nothing new.
 ART-101-ANA-AMNIOTIC-FLUID: The fluid the fetus of these months swallows and moves in, and whose volume is the clinical measure of the same period.
@@ -8299,6 +8342,21 @@ Just before birth: the testes descend to the scrotum.
 **The duration of pregnancy.** About 280 days, 40 weeks, from the first day of the last menstruation. About 266 days, 38 weeks, from fertilization, which is the more accurate.
 
 **Weight at full term.** About 3000 to 3400 grams. The figure comes from the last row of the department book's growth table, and the rows above it are preterm weights — roughly 900 to 1300 grams at 25 to 28 weeks and 1400 to 2100 grams at 28 to 32 weeks. The distinction matters more than the number: 1400 to 2100 grams is a real figure from the same table, one row too high, and it is the distractor that catches most students on this leaf. See `conflicts` for the state of the evidence behind it.
+
+### Twins
+Twins are filed on this leaf by the VIP Academy revision, which places the topic immediately after the fetal-period growth schedule, and they divide into two kinds by how many zygotes they start from.
+
+Dizygotic (fraternal) twins form from two zygotes, from the simultaneous ovulation of two oocytes each fertilised by its own sperm. They are the commoner kind, at 0.7 to 1.1 per cent of births; the two offspring are not identical in shape and may be of the same sex or different sexes; and because each is a separate conceptus, each implants separately and develops its own amnion, chorion and placenta.
+
+Monozygotic (identical) twins form from the splitting of a single fertilised ovum at a variable stage of development, at 0.3 to 0.4 per cent of births; the two offspring are identical in shape and are always of the same sex, because they carry one genotype. Which fetal membranes they end up sharing depends on how early the split happens.
+
+Splitting of the morula gives two separate morulae, each developing into its own blastocyst; each embryo then has its own amnion, its own chorion and its own placenta — a monozygotic pair that looks, in its membranes, like a dizygotic one.
+
+Splitting of the inner cell mass of the early blastocyst gives one blastocyst with two inner cell masses; each embryo has its own amnion, but the two share one chorion and one placenta.
+
+Splitting of the embryonic disc of the late blastocyst gives one blastocyst with two embryonic discs; the two embryos share a common amnion as well as a common chorion and placenta.
+
+An incomplete split of the embryonic disc gives conjoined (Siamese) twins, fused at the head (craniopagus), the thorax (thoracopagus) or the pelvis (pygopagus); whether surgical separation can succeed depends on the site of fusion and on which organs are shared. Twin pregnancies as a group carry an increased incidence of prematurity, low birth weight and mortality.
 
 ### Clinical significance
 The department book gives this chapter no clinical note. Its applied material is the chapter's two intended learning outcomes — identify the features of the fetal period, and describe how to measure the fetus at different stages of growth — and the silence is recorded in `evidence_gaps` rather than filled from an obstetric textbook.
@@ -8412,7 +8470,9 @@ Department Book Module 101 (src_b1e6dc481eaf337268d0), General Embryology chapte
 Anatomy Question [Embryo], Anatomy Department (src_12d639a625d8305c4454) — the question book carrying the fetal-period, head-proportion and birth-weight questions filed on this leaf. Recorded as exam signal on concepts CON-DEV-E273F775E9CB77, CON-DEV-869FD1A9D3AEB7 and CON-DEV-B9581AAE767D2F.
 Anatomy MCQ Book 2025, Anatomy Department (src_764a2521809818b8abdc) — a second printing of the birth-weight question, recorded as exam signal on CON-DEV-B9581AAE767D2F. It is one of the printings keyed to 1400 to 2100 grams, and the disagreement is recorded in `conflicts`.
 Orientation of the final Anatomy exam, End of Year 2025-2026, Department of Anatomy and Embryology: General Embryology carries its own short-answer questions at 6 marks each. Recorded verbatim in scripts/kasr/extract/notes.json under `orientation`.
+VIP Academy illustrated embryology revision (src_e84b7068de7e199d218f), page 52, topic "Twins", subject path 101 ISK > Anatomy > General Embryology > Fetal Period — dizygotic and monozygotic twinning, the incidence of each, the three stages at which a monozygotic split can occur with the fetal membranes each produces, and conjoined twins. Extracted to scripts/kasr/extract/notes.json.
 ## field_notes
+sections.Twins: This section is added at the two-sided coverage pass (2026-08-23) to teach CON-DEV-698CF33638D4D7, previously linked here only on the concept side. The department book's own Fetal Membranes chapter names a twin placenta only as an anomaly of number and gives no account of dizygotic or monozygotic origin; this section is written from the VIP Academy illustrated embryology revision, page 52, which files "Twins" under this same leaf's subject path, and no wording here is invented beyond that source.
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank. One of the four is a transcription request rather than an illustration request, because the missing asset is a table of numbers.
 questionIds: The four questions filed on this leaf are authored in scripts/kasr/seeds/mcq/fetal-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.

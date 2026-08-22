@@ -182,3 +182,185 @@ material outside the book's scope.
 | `medical:simulate`, chained (resources → 6 articles → 3 concepts → question/101-ISK-mcq.md + practical/101-ISK-histology-practical.md), `--emit /tmp/sim-101-twosided-histo.json` | `errors: []` at all 4 steps; articles step: 27 records across 6 files, all reported `created` (not `updated`) because none of the 101 ISK histology articles exist in the `server/data/medical-library-v1.json` 2026-08-12 snapshot yet — expected per HANDOFF's "live is a 10-day-old snapshot" hazard, not an error |
 | `medical:audit -- --source /tmp/sim-101-twosided-histo.json` | 412 errors total, all pre-existing "unknown claim"/"unknown span" evidence-wiring gaps (137 claim + 266 span + 9 field-completeness) unrelated to `related_concepts` — 0 errors mention `related_concepts` or any concept id this lane touched |
 | Audit delta vs before (same chain run against the pre-edit `git show HEAD` copies of both files) | before: 413 errors; after: 412 errors; the sole diff is `article.articleData.relatedConceptIds missing for ART-101-HIS-CONNECTIVE-TISSUE-FIBRES, ART-101-HIS-MICROTECHNIQUES, ART-101-HIS-MICROSCOPES, ART-101-HIS-HAEMOPOIESIS, ART-101-HIS-NON-GRANULAR-LEUKOCYTES, ART-101-HIS-RED-BLOOD-CORPUSCLES` present before and absent after — exactly the 6 previously-empty articles this lane populated, 0 new errors introduced |
+
+## Two-sided coverage — anatomy (2026-08-23)
+
+Lane: CON-MSK- (musculoskeletal/basis-of-anatomy/upper-limb) and CON-DEV-
+(general embryology) share of the 101 ISK two-sided coverage sweep per
+HANDOFF.md's rule (2026-08-23 01:30): a tested concept counts as covered
+only when the article names it in `related_concepts` AND a reader agrees
+the article teaches it, not when the link is concept-side only
+(`article_ids` written by `build-article-links.ts` term-overlap heuristics).
+Sibling lane (CON-FND-/CON-HEM-, histology) reports its own section above —
+not edited here.
+
+At sweep start, `check-two-sided-coverage.py "101 ISK" --list` showed 75
+concepts in this lane's share (CON-MSK-/CON-DEV- ids) with a concept-side-only
+link. Both concepts flagged on their face as wrongly linked turned out to be
+half right on inspection, not simply wrong: `CON-MSK-888467E7C45479`
+(skeletal-muscle fibre-arrangement classification) *is* taught by
+`ART-101-ANA-MUSCLE-ATTACHMENTS`'s own "Key determinants" section (the
+strap/pennate list, word-for-word from the department book's "Form of
+Skeletal Muscles", Anatomy page 68) — SHOULDER-REGION was the spurious half
+of that link, not MUSCLE-ATTACHMENTS, so this concept is verified rather than
+rewired. `CON-MSK-4D7492BC85C03D` (upper-limb joint classification) really was
+wrongly linked (HAND-ARTERIES, ELBOW-JOINT) and is rewired to
+`ART-101-ANA-SYNOVIAL-JOINTS`, whose "Key determinants" section carries the
+department book's own axis/shape table naming five of the concept's nine
+joints by the same terms (hinge = elbow, pivot = superior radio-ulnar,
+ellipsoid = wrist, saddle = carpometacarpal of thumb, ball-and-socket =
+shoulder).
+
+Six further concepts turned out to be genuinely mis-linked on inspection
+(word-overlap against the linked article's body text under 50% and no
+matching content found on a full read): `CON-DEV-134C8B5E98D759` (umbilical
+cord formation, wrongly on CHORIONIC-VILLI-PLACENTA, which never mentions
+the cord — rewired to the dedicated `ART-101-ANA-UMBILICAL-CORD`, an exact
+content match), `CON-DEV-C84AD85AB265CC` and `CON-DEV-2E3E3098D90C0C`
+(ectoderm/endoderm derivatives and intra-embryonic mesoderm classification,
+wrongly on EMBRYONIC-FOLDING/NERVOUS-SYSTEM — rewired to
+`ART-101-ANA-EMBRYONIC-PERIOD` and `ART-101-ANA-PARAXIAL-MESODERM`, both
+exact matches), `CON-DEV-215BD7E9E58872` (the MCQ stem is actually about
+intra-embryonic mesoderm, not gastrulation broadly, despite its expansive
+label — rewired to PARAXIAL-MESODERM), `CON-DEV-AAC09F773BC45D` (amniotic
+cavity's five consequences, wrongly on CHORIONIC-VILLI-PLACENTA — rewired to
+`ART-101-ANA-AMNIOTIC-FLUID`, which states the same five consequences in the
+same order), and `CON-MSK-5079195BC42B5E` (sternoclavicular joint, wrongly on
+ELBOW-JOINT — rewired to the dedicated `ART-101-ANA-STERNOCLAVICULAR-JOINT`)
+and `CON-MSK-2AA14F317F45C3` (the extensor expansion/hood, not present in
+FOREARM-RETINACULUM-ROTATION at all — rewired to `ART-101-ANA-FOREARM`,
+whose Structure section already writes up the extensor expansion almost
+verbatim from Anatomy page 214).
+
+Eight concepts had no article teaching them at all and needed the closest
+article extended with a page-cited section from Department Book Module 101
+(`src_b1e6dc481eaf337268d0`): `ART-101-ANA-IMPLANTATION` gained a
+"day by day" paragraph sequence (Heuser's membrane and the primary/secondary
+yolk sac, the extra-embryonic mesoderm split, the chorionic cavity — Anatomy
+pages 76-78) covering `CON-DEV-1D10DF3B716A70`, `CON-DEV-22C6EB6EB88448` and
+`CON-DEV-B87D52797068D2`; `ART-101-ANA-CHORIONIC-VILLI-PLACENTA` gained a
+"Functions of the placenta" section (page 98) for `CON-DEV-AB990D329EBEC2`;
+`ART-101-ANA-FETAL-PERIOD` gained a "Twins" section for
+`CON-DEV-698CF33638D4D7`, sourced from the VIP Academy revision (page 52,
+filed under this same leaf's subject path) because the department book gives
+only a twin *placenta* as an anomaly of number and no account of
+dizygotic/monozygotic origin; `ART-101-ANA-EMBRYONIC-PERIOD` gained a
+neurulation paragraph (neural plate → tube → crest) for
+`CON-DEV-4BC4233153C3DC` and `CON-DEV-785CE84F7C03DB`, honestly flagged in
+`field_notes`/`evidence_gaps` as general teaching beyond the department
+book's own text — the same gap the concept record's own `evidence_gaps`
+already discloses, since the extracted book names only "the derivatives of
+the neural crest" and stops there; and `ART-101-ANA-MUSCLE-ATTACHMENTS`
+gained the "Classification of the Muscles" table (skeletal/smooth/cardiac by
+site, contraction, striation, nerve supply — page 66/132) for
+`CON-MSK-229AAD0C8626CF`, a table the article's own `evidence_basis` already
+cited but had never written out.
+
+The remaining 59 concepts were verified: their heuristic `article_ids` link
+does teach the concept on a full read, so the concept id was simply added to
+that article's `related_concepts`, keeping every existing entry. No concept
+file was edited (rule: never edit concept files); the CON-MSK-/CON-DEV- ids
+whose heuristic `article_ids` point at a wrong or incomplete article are
+listed above for the next `build-article-links.ts` run rather than
+hand-fixed on the concept side.
+
+Files edited (both hand-authored, neither carries a `Generated by
+scripts/kasr/build-batches.ts` header): `article/101-ISK-anatomy.md` (24
+articles touched — `related_concepts` appended on all; new prose sections
+added to MUSCLE-ATTACHMENTS, IMPLANTATION, CHORIONIC-VILLI-PLACENTA,
+FETAL-PERIOD and EMBRYONIC-PERIOD as detailed above) and
+`article/101-ISK-anatomy-2.md` (1 article touched — FOREARM,
+`related_concepts` appended).
+
+Per-concept table (75 concepts = this lane's full CON-MSK-/CON-DEV- share):
+
+| Concept id | Label (truncated) | Old article_ids (heuristic) | Verdict | Article now naming it |
+|---|---|---|---|---|
+| `CON-DEV-134C8B5E98D759` | The cord runs primitive umbilical ring to primitive cord to defin | `CHORIONIC-VILLI-PLACENTA` | rewired (b) | `UMBILICAL-CORD` |
+| `CON-DEV-1D10DF3B716A70` | Heuser's membrane lines the primary yolk sac, the allantois buds  | `CHORIONIC-VILLI-PLACENTA` | extended (c) | `IMPLANTATION` |
+| `CON-DEV-215BD7E9E58872` | Gastrulation makes the trilaminar disc in the third week, and all | `EMBRYONIC-FOLDING` | rewired (b) | `PARAXIAL-MESODERM` |
+| `CON-DEV-22C6EB6EB88448` | The second week runs to a timetable: day 7 implantation and two t | `CHORIONIC-VILLI-PLACENTA + IMPLANTATION` | extended (c) | `IMPLANTATION` |
+| `CON-DEV-28CF4D241BE607` | The blastocyst is a trophoblast wall around a blastocele with the | `FERTILIZATION` | verified (a) | `FERTILIZATION` |
+| `CON-DEV-2D15CFF44F825F` | The early placental barrier has four layers and the late one has  | `CHORIONIC-VILLI-PLACENTA + IMPLANTATION` | verified (a) | `CHORIONIC-VILLI-PLACENTA + IMPLANTATION` |
+| `CON-DEV-2E3E3098D90C0C` | Intra-embryonic mesoderm divides into paraxial, intermediate and  | `NERVOUS-SYSTEM` | rewired (b) | `PARAXIAL-MESODERM` |
+| `CON-DEV-4BC4233153C3DC` | The neural plate is thickened median ectoderm induced by the noto | `EMBRYONIC-FOLDING` | extended (c) | `EMBRYONIC-PERIOD` |
+| `CON-DEV-59DB99C028C33F` | The embryoblast splits into epiblast and hypoblast, and the cavit | `IMPLANTATION` | verified (a) | `IMPLANTATION` |
+| `CON-DEV-698CF33638D4D7` | Monozygotic twins come from one zygote and are always of the same | `CHORIONIC-VILLI-PLACENTA` | extended (c) | `FETAL-PERIOD` |
+| `CON-DEV-785CE84F7C03DB` | The neural tube becomes the central nervous system; the neural cr | `NERVOUS-SYSTEM` | extended (c) | `EMBRYONIC-PERIOD` |
+| `CON-DEV-AAC09F773BC45D` | The amniotic cavity keeps expanding, and each thing it touches it | `CHORIONIC-VILLI-PLACENTA` | rewired (b) | `AMNIOTIC-FLUID` |
+| `CON-DEV-AB990D329EBEC2` | The placenta exchanges, excretes, passes maternal antibodies and  | `CHORIONIC-VILLI-PLACENTA` | extended (c) | `CHORIONIC-VILLI-PLACENTA` |
+| `CON-DEV-B87D52797068D2` | Extra-embryonic mesoderm splits into a somatic layer lining the c | `IMPLANTATION` | extended (c) | `IMPLANTATION` |
+| `CON-DEV-C84AD85AB265CC` | Ectoderm makes the nervous system and the epidermis; endoderm mak | `EMBRYONIC-FOLDING` | rewired (b) | `EMBRYONIC-PERIOD` |
+| `CON-DEV-D870770450E17D` | The placenta is a chorionic plate of fetal tissue facing a decidu | `CHORIONIC-VILLI-PLACENTA` | verified (a) | `CHORIONIC-VILLI-PLACENTA` |
+| `CON-DEV-E08715FEB6438D` | The blastocyst implants by its embryonic pole into the upper post | `IMPLANTATION` | verified (a) | `IMPLANTATION` |
+| `CON-DEV-F5A87FDF5D911C` | Cleavage divides the zygote inside the zona pellucida, giving a 1 | `FERTILIZATION` | verified (a) | `FERTILIZATION` |
+| `CON-MSK-00B4A0D32A6420` | Bones fall into six shape classes, and the department book names  | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-10423E16E36186` | The flexor retinaculum sorts the front of the wrist into three gr | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` |
+| `CON-MSK-132E72A335B25F` | Two synovial sheaths pass under the flexor retinaculum — a common | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-171B2F8B24F6E7` | Each movement of the shoulder joint has a principal muscle, and n | `ELBOW-JOINT + SHOULDER-REGION` | verified (a) | `SHOULDER-REGION` |
+| `CON-MSK-1FC89E36FFD98E` | The radial nerve ends as a deep motor branch and a superficial se | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` |
+| `CON-MSK-229AAD0C8626CF` | The three muscle types are told apart by four things at once: whe | `MUSCLE-ATTACHMENTS` | extended (c) | `MUSCLE-ATTACHMENTS` |
+| `CON-MSK-24A0858459A59D` | The lumbricals and interossei flex the metacarpophalangeal joints | `HAND-ARTERIES + RADIAL-NERVE` | verified (a) | `HAND-ARTERIES + RADIAL-NERVE` |
+| `CON-MSK-2AA14F317F45C3` | The extensor tendon spreads into a hood over each finger, and the | `FOREARM-RETINACULUM-ROTATION` | rewired (b) | `FOREARM` |
+| `CON-MSK-2C78EFB16CA67F` | A bone forms either directly in a connective tissue membrane or b | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-2DE15157B5933B` | Only two muscles laterally rotate the arm, and everything large a | `PECTORALIS-MAJOR` | verified (a) | `PECTORALIS-MAJOR` |
+| `CON-MSK-301EB5B9E1F00B` | Two septa from the palmar aponeurosis divide the palm into a then | `HAND-ARTERIES` | verified (a) | `HAND-ARTERIES` |
+| `CON-MSK-352E28DEA38DF7` | Supraspinatus starts abduction and deltoid carries it to ninety d | `RADIAL-NERVE + SHOULDER-REGION` | verified (a) | `SHOULDER-REGION` |
+| `CON-MSK-36F854FD651912` | The apex of the axilla is the cervico-axillary canal, bounded by  | `AXILLA-BREAST` | verified (a) | `AXILLA-BREAST` |
+| `CON-MSK-37D3C3219F9806` | The hand is divided front and back between median, ulnar and radi | `RADIAL-NERVE` | verified (a) | `RADIAL-NERVE` |
+| `CON-MSK-38A32E79B1412F` | The greater tuberosity takes three cuff muscles, the lesser takes | `SHOULDER-REGION` | verified (a) | `SHOULDER-REGION` |
+| `CON-MSK-40012FE18569EC` | A long bone takes four sets of arteries, and the shaft is divided | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-44131E0EDEACA2` | The radial nerve supplies every extensor of the limb and the medi | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` |
+| `CON-MSK-46C40109E7D957` | The front of the forearm is a superficial group of five from the  | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-4CFF00B2741E50` | The interosseous membrane joins the interosseous borders of radiu | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-4D7492BC85C03D` | Each joint of the upper limb is classified by the shape of its ar | `HAND-ARTERIES + ELBOW-JOINT` | rewired (b) | `SYNOVIAL-JOINTS` |
+| `CON-MSK-4E0B2E1C8DBA77` | Every movement at the wrist is two muscles pulling together, and  | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-5079195BC42B5E` | The sternoclavicular joint is a saddle joint with a complete fibr | `ELBOW-JOINT` | rewired (b) | `STERNOCLAVICULAR-JOINT` |
+| `CON-MSK-552299E3126E53` | The five groups of axillary nodes each lie on a named wall along  | `AXILLA-BREAST` | verified (a) | `AXILLA-BREAST` |
+| `CON-MSK-58D5F74E9595C3` | The radial artery reaches the palm round the back of the hand and | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES` | verified (a) | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES` |
+| `CON-MSK-59F41C4BAF6181` | The spinal cord is 31 segments — 8 cervical, 12 thoracic, 5 lumba | `NERVOUS-SYSTEM` | verified (a) | `NERVOUS-SYSTEM` |
+| `CON-MSK-655D74FEE1515A` | The right half of the heart carries deoxygenated blood and the le | `CARDIOVASCULAR-SYSTEM` | verified (a) | `CARDIOVASCULAR-SYSTEM` |
+| `CON-MSK-6DCABD3AE947F5` | The air cavities of a pneumatic bone lighten the skull, give the  | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-712EBE5936F7E4` | A fracture of the humeral shaft catches the radial nerve in the s | `RADIAL-NERVE` | verified (a) | `RADIAL-NERVE` |
+| `CON-MSK-879B4239272078` | The anular ligament rings the head of the radius but is attached  | `ELBOW-JOINT` | verified (a) | `ELBOW-JOINT` |
+| `CON-MSK-888467E7C45479` | Skeletal muscles are classified by the direction of their fibres, | `MUSCLE-ATTACHMENTS + SHOULDER-REGION` | verified (a) | `MUSCLE-ATTACHMENTS` |
+| `CON-MSK-8DDA3D07A02813` | The clavipectoral fascia with subclavius, pectoralis minor and th | `AXILLA-BREAST + PECTORALIS-MAJOR` | verified (a) | `AXILLA-BREAST + PECTORALIS-MAJOR` |
+| `CON-MSK-8EFC3649B7898F` | Lymph vessels begin blindly in the tissue spaces, have wide pores | `LYMPHATIC-SYSTEM` | verified (a) | `LYMPHATIC-SYSTEM` |
+| `CON-MSK-8FB16415EFF905` | The thenar eminence is three muscles on the median nerve, and eve | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` |
+| `CON-MSK-9A22BB8909AF29` | The axial skeleton is the skull, hyoid, sternum, ribs and vertebr | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-9FF8A29E36480B` | The radial artery runs down the lateral side of the front of the  | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-A0C1F50FABDC0F` | Medial and lateral are measured from the median plane; proximal a | `INTRODUCTION` | verified (a) | `INTRODUCTION` |
+| `CON-MSK-A12FB50E90A64B` | There are three circulations, and each is defined by where its bl | `CARDIOVASCULAR-SYSTEM` | verified (a) | `CARDIOVASCULAR-SYSTEM` |
+| `CON-MSK-AEB62E99182AEE` | The three cartilages are told apart by their matrix, and each has | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-B119CC808D3E81` | A median nerve cut above the elbow costs the forearm flexors as w | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + RADIAL-NERVE` |
+| `CON-MSK-B88F413E4536F9` | The movements possible at an upper limb joint follow from its typ | `ELBOW-JOINT + SHOULDER-REGION` | verified (a) | `ELBOW-JOINT + SHOULDER-REGION` |
+| `CON-MSK-BA4B2D326C9F8A` | The carrying angle comes from the trochlea projecting further dow | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-BF3670E27D6F12` | The right lymphatic duct drains one quadrant of the body and the  | `LYMPHATIC-SYSTEM` | verified (a) | `LYMPHATIC-SYSTEM` |
+| `CON-MSK-C30E73A5353ABB` | A long bone lengthens at its epiphyseal plates and widens from th | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-C608D59631E713` | Pectoralis minor divides the axillary artery into three parts, an | `AXILLA-BREAST + PECTORALIS-MAJOR` | verified (a) | `AXILLA-BREAST + PECTORALIS-MAJOR` |
+| `CON-MSK-CBB4C433F2F81E` | The elbow takes twigs from the four nerves that cross it, and the | `RADIAL-NERVE` | verified (a) | `RADIAL-NERVE` |
+| `CON-MSK-CE160ABC8341C8` | The breast lies from the second to the sixth rib on a bed of pect | `PECTORALIS-MAJOR` | verified (a) | `PECTORALIS-MAJOR` |
+| `CON-MSK-D193498AB94D21` | Every anatomical description assumes the erect position: standing | `INTRODUCTION` | verified (a) | `INTRODUCTION` |
+| `CON-MSK-D81C4A38D695CF` | The median nerve is formed from both cords, lies medial to the br | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` | verified (a) | `FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` |
+| `CON-MSK-DAF3D2128459B3` | The shoulder capsule is lax below, its subscapular bursa opens in | `RADIAL-NERVE + SHOULDER-REGION` | verified (a) | `SHOULDER-REGION` |
+| `CON-MSK-E04D8A31AEAC23` | The back of the forearm is a superficial group from the lateral e | `FOREARM-RETINACULUM-ROTATION` | verified (a) | `FOREARM-RETINACULUM-ROTATION` |
+| `CON-MSK-E68EAACB7596AF` | The rotator cuff is four muscles whose tendons blend with the cap | `SHOULDER-REGION` | verified (a) | `SHOULDER-REGION` |
+| `CON-MSK-EE7CDEF8ACA587` | The three anatomical planes are named by the two parts each one l | `INTRODUCTION` | verified (a) | `INTRODUCTION` |
+| `CON-MSK-EFD497A9922A4D` | A long bone is an epiphysis at each end, a diaphysis between them | `SKELETAL-SYSTEM` | verified (a) | `SKELETAL-SYSTEM` |
+| `CON-MSK-F0F2BDF778A2DD` | The ulnar nerve leaves the medial cord, gives nothing in the arm, | `AXILLA-BREAST + FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` | verified (a) | `AXILLA-BREAST + FOREARM-RETINACULUM-ROTATION + HAND-ARTERIES + RADIAL-NERVE` |
+| `CON-MSK-F4D5605867D790` | The axillary sheath comes down from the neck as prevertebral fasc | `AXILLA-BREAST` | verified (a) | `AXILLA-BREAST` |
+| `CON-MSK-F598AF39FBE297` | A purposeful movement needs four kinds of muscle, and each is nam | `MUSCLE-ATTACHMENTS` | verified (a) | `MUSCLE-ATTACHMENTS` |
+| `CON-MSK-F602D13792F66F` | The axilla has four walls, and the two folds a hand can grip are  | `AXILLA-BREAST + PECTORALIS-MAJOR` | verified (a) | `AXILLA-BREAST + PECTORALIS-MAJOR` |
+**GATES:**
+
+| Gate | Result |
+|---|---|
+| `check-two-sided-coverage.py "101 ISK" --list` before | concept-side-only 155 total; this lane's CON-MSK-/CON-DEV- share: 75 |
+| `check-two-sided-coverage.py "101 ISK" --list` after | concept-side-only 3 total, all CON-FND- (sibling lane's `BLOCKED` items); this lane's share: 0 remaining |
+| `medical:batch` on `article/101-ISK-anatomy.md` --with 3 concept files + 6 article files | `errors: []`; pre-existing warning "39 of 39 records below fieldsUsed floor of 49 (thinnest 33, median 36)" unchanged by this edit (no fields removed, only `related_concepts` appended and five `sections` values extended with new prose) |
+| `medical:batch` on `article/101-ISK-anatomy-2.md` --with 3 concept files + 6 article files | `errors: []`; same pre-existing floor warning (9 of 9 records, thinnest/median 36) |
+| `check-column-parsers.ts` on both edited files | `sentinelInTextColumn: 0, blankInListColumn: 0` on both |
+| literal `"[clear]"` grep on both edited files | 0 hits after edit |
+| `medical:simulate`, chained (4 evidence files → 6 articles → 3 concepts → question/101-ISK-mcq.md), `--emit /tmp/sim-101-twosided-anat.json` | `errors: []` at the top level; every batch reports `rejected: 0`; the 6 article batches (39+9+6+12+3+6=75 records) all report `created` not `updated`, because none of the 101 ISK anatomy/histology articles exist yet in the `server/data/medical-library-v1.json` 2026-08-12 snapshot — expected per HANDOFF's "live is a 10-day-old snapshot" hazard, not an error |
+| `medical:audit -- --source /tmp/sim-101-twosided-anat.json` | 9 grouped error strings (naming ~70-100 article ids apiece), all pre-existing Draft/`needs_evidence` field gaps (missing Reviewer, Publisher, resourceIds, claimIds, spanIds, finalPublisher) that exist across the whole unreviewed 101-ISK anatomy+histology batch — confirmed pre-existing by checking the same fields on `git show HEAD` copies of the edited files before this pass; 0 errors mention `related_concepts` or name only ids this lane touched |
+| Audit delta vs before (same chain simulated against the pre-edit `git show HEAD` copies of both edited files) | before: 10 grouped error strings; after: 9; the sole diff is `article.articleData.relatedConceptIds missing for ART-101-ANA-NERVOUS-SYSTEM, ART-101-ANA-LYMPHATIC-SYSTEM, ART-101-ANA-CARDIOVASCULAR-SYSTEM, ART-101-ANA-SKELETAL-SYSTEM, ART-101-ANA-INTRODUCTION` present before and absent after — exactly 5 of this pass's 24 touched articles that had an empty `related_concepts` field before (now populated for the first time) — 0 new errors introduced |
