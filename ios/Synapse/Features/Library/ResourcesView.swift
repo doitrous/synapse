@@ -2,6 +2,7 @@ import SwiftUI
 
 /// The resource catalogue: folders of books, decks, guidelines and video.
 struct ResourcesView: View {
+    @Environment(\.strings) private var strings
     @State private var model: ResourceModel
     let sync: SyncEngine
 
@@ -33,7 +34,7 @@ struct ResourcesView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Resources")
+            .navigationTitle(strings("Resources"))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     Button {
@@ -185,6 +186,7 @@ struct ResourcesView: View {
 }
 
 private struct ResourceRow: View {
+    @Environment(\.strings) private var strings
     let resource: LibraryResource
     let isSaved: Bool
     let isDownloaded: Bool
@@ -205,7 +207,7 @@ private struct ResourceRow: View {
                 HStack(spacing: 6) {
                     Text(resource.source)
                     if let year = resource.year {
-                        Text("·")
+                        Text(strings("·"))
                         Text(String(year)).font(Theme.numeric(12))
                     }
                 }
@@ -216,11 +218,11 @@ private struct ResourceRow: View {
                 // A resource can be catalogued before its file is uploaded.
                 // Saying so is better than a tap that opens nothing.
                 if !resource.isOpenable {
-                    Text("File not uploaded yet")
+                    Text(strings("File not uploaded yet"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                 } else if isDownloaded {
-                    Label("On this phone", systemImage: "checkmark.circle")
+                    Label(strings("On this phone"), systemImage: "checkmark.circle")
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.success)
                 } else if let pages = resource.file?.pageCount {
@@ -246,6 +248,7 @@ private struct ResourceRow: View {
 
 /// Shared empty state, so every surface explains itself the same way.
 struct EmptyStateView: View {
+    @Environment(\.strings) private var strings
     let symbol: String
     let title: LocalizedStringKey
     let detail: String

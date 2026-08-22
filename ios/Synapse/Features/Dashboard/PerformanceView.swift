@@ -6,6 +6,7 @@ import SwiftUI
 /// drawn from four answers is noise wearing the clothes of a measurement, and
 /// showing it would invite a student to revise their whole plan around it.
 struct PerformanceView: View {
+    @Environment(\.strings) private var strings
     @State private var model: PerformanceModel
     let sync: SyncEngine
 
@@ -31,7 +32,7 @@ struct PerformanceView: View {
                 }
             }
             .background(Theme.paper)
-            .navigationTitle("Performance")
+            .navigationTitle(strings("Performance"))
         }
         .task { await model.load() }
         .onChange(of: sync.status) { _, status in
@@ -78,7 +79,7 @@ struct PerformanceView: View {
             // yet be trusted.
             let remaining = PerformanceModel.minimumMarked - model.summary.marked
             VStack(alignment: .leading, spacing: 6) {
-                Text("Not enough answers yet")
+                Text(strings("Not enough answers yet"))
                     .font(Theme.display(18))
                     .foregroundStyle(Theme.ink)
                 Text("\(remaining) more marked answer\(remaining == 1 ? "" : "s") and accuracy becomes worth reading. Below that it moves too much to mean anything.")
@@ -98,7 +99,7 @@ struct PerformanceView: View {
     @ViewBuilder private var firstVsRepeat: some View {
         if let first = model.firstAttempt, first.marked > 0 {
             VStack(alignment: .leading, spacing: 10) {
-                Text("First time vs. again")
+                Text(strings("First time vs. again"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -109,7 +110,7 @@ struct PerformanceView: View {
                     }
                 }
 
-                Text("What you got right the first time is what you knew. Answering the same item again mostly measures whether you remember the answer.")
+                Text(strings("What you got right the first time is what you knew. Answering the same item again mostly measures whether you remember the answer."))
                     .font(Theme.ui(12))
                     .foregroundStyle(Theme.ink3)
             }
@@ -140,7 +141,7 @@ struct PerformanceView: View {
     @ViewBuilder private var bySurface: some View {
         if model.surfaces.count > 1 {
             VStack(alignment: .leading, spacing: 10) {
-                Text("Where the work went")
+                Text(strings("Where the work went"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -175,7 +176,7 @@ struct PerformanceView: View {
         if model.hours.contains(where: { $0 > 0 }) {
             let peak = model.hours.max() ?? 1
             VStack(alignment: .leading, spacing: 10) {
-                Text("When you work")
+                Text(strings("When you work"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -190,11 +191,11 @@ struct PerformanceView: View {
                 .frame(height: 54)
 
                 HStack {
-                    Text("00")
+                    Text(strings("00"))
                     Spacer()
-                    Text("12")
+                    Text(strings("12"))
                     Spacer()
-                    Text("23")
+                    Text(strings("23"))
                 }
                 .font(Theme.numeric(10))
                 .foregroundStyle(Theme.ink3)
@@ -209,7 +210,7 @@ struct PerformanceView: View {
 
     private var heatmap: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("When you study")
+            Text(strings("When you study"))
                 .font(Theme.panelTitle())
                 .foregroundStyle(Theme.ink2)
 
@@ -250,7 +251,7 @@ struct PerformanceView: View {
 
     private var byDifficulty: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("By difficulty")
+            Text(strings("By difficulty"))
                 .font(Theme.panelTitle())
                 .foregroundStyle(Theme.ink2)
 
@@ -268,7 +269,7 @@ struct PerformanceView: View {
     /// Weakest first — the order that answers "what should I study?".
     private var bySubject: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Weakest topics")
+            Text(strings("Weakest topics"))
                 .font(Theme.panelTitle())
                 .foregroundStyle(Theme.ink2)
 
@@ -289,6 +290,7 @@ struct PerformanceView: View {
 }
 
 private struct Bar: View {
+    @Environment(\.strings) private var strings
     let label: String
     let accuracy: Double
     let marked: Int

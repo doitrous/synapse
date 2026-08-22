@@ -162,7 +162,7 @@ struct AccountView: View {
     var body: some View {
         NavigationStack {
             List {
-                Section("Account") {
+                Section(strings("Account")) {
                     row("Email", user.email ?? "—")
                     row("Role", user.role)
                 }
@@ -234,7 +234,7 @@ struct AccountView: View {
                 .tint(Theme.primary)
                 .listRowBackground(Theme.surface)
 
-                Section("Sync") {
+                Section(strings("Sync")) {
                     row("Status", statusText)
                     // Whether a change made elsewhere reaches this phone at
                     // once or waits for the next refresh. Worth saying: the
@@ -246,7 +246,7 @@ struct AccountView: View {
                         // "saved on this phone only".
                         row("Waiting to upload", "\(sync.pendingUploads)")
                     }
-                    Button("Refresh now") {
+                    Button(strings("Refresh now")) {
                         Task { await sync.refresh() }
                     }
                     .tint(Theme.primary)
@@ -254,7 +254,7 @@ struct AccountView: View {
                 .listRowBackground(Theme.surface)
 
                 Section {
-                    Button("Sign out", role: .destructive) {
+                    Button(strings("Sign out"), role: .destructive) {
                         Task {
                             await sync.clearForSignOut()
                             // Before the session goes: the token that
@@ -284,9 +284,10 @@ struct AccountView: View {
             .listStyle(.insetGrouped)
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
-            .navigationTitle("Account")
+            .navigationTitle(strings("Account"))
             .sheet(isPresented: $deletingAccount) {
                 DeleteAccountView(auth: auth)
+            .localisedSheet()
             }
         }
         .task {
@@ -346,19 +347,19 @@ struct AccountView: View {
                 row("University", universityName)
                 row("Year", audienceStore.audience.year)
             } else if audienceStore.universities.isEmpty {
-                Text("The university list has not downloaded yet.")
+                Text(strings("The university list has not downloaded yet."))
                     .font(Theme.ui(13))
                     .foregroundStyle(Theme.ink3)
             } else {
                 Picker("University", selection: $university) {
-                    Text("Not set").tag("")
+                    Text(strings("Not set")).tag("")
                     ForEach(audienceStore.universities) { Text($0.name).tag($0.id) }
                 }
                 Picker("Year", selection: $year) {
-                    Text("Not set").tag("")
+                    Text(strings("Not set")).tag("")
                     ForEach(years, id: \.self) { Text($0).tag($0) }
                 }
-                Button("Save") {
+                Button(strings("Save")) {
                     Task {
                         await audienceStore.declare(
                             StudentAudience(universityId: university, year: year)
@@ -369,7 +370,7 @@ struct AccountView: View {
                 .disabled(university.isEmpty || year.isEmpty)
             }
         } header: {
-            Text("Your cohort")
+            Text(strings("Your cohort"))
         } footer: {
             Text(audienceStore.fromRoster
                  ? "Set by your university."

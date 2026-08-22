@@ -41,6 +41,7 @@ struct ConceptText: View {
             })
             .sheet(item: $opened) { concept in
                 ConceptSheet(concept: concept, index: index)
+                .localisedSheet()
             }
     }
 

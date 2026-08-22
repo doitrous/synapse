@@ -7,6 +7,7 @@ import SwiftUI
 /// and renders a 400-page textbook without loading all of it — none of which a
 /// `WKWebView` pointed at a file gives you.
 struct ResourceReaderView: View {
+    @Environment(\.strings) private var strings
     let resource: LibraryResource
     let files: ResourceFileStore
     let api: SynapseAPI
@@ -76,14 +77,14 @@ struct ResourceReaderView: View {
                         Image(systemName: "list.bullet.indent")
                     }
                     .tint(Theme.primary)
-                    .accessibilityLabel("Contents")
+                    .accessibilityLabel(strings("Contents"))
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Button { panel = .search } label: {
                         Image(systemName: "magnifyingglass")
                     }
                     .tint(Theme.primary)
-                    .accessibilityLabel("Search this document")
+                    .accessibilityLabel(strings("Search this document"))
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
@@ -98,7 +99,7 @@ struct ResourceReaderView: View {
                         Button(role: .destructive) {
                             files.delete(resource.id)
                         } label: {
-                            Label("Remove download", systemImage: "trash")
+                            Label(strings("Remove download"), systemImage: "trash")
                         }
                     } label: {
                         Image(systemName: "ellipsis.circle")
@@ -186,11 +187,13 @@ struct ResourceReaderView: View {
                 },
                 close: { panel = nil }
             )
+            .localisedSheet()
         }
         .sheet(item: $editing) { object in
             WidgetTextSheet(object: object) { text in
                 Task { await retype(object, text: text) }
             }
+            .localisedSheet()
         }
         .overlay {
             ReaderToolbar(
@@ -425,17 +428,17 @@ struct ResourceReaderView: View {
                 Button {
                     editing = only
                 } label: {
-                    Label("Edit", systemImage: "character.cursor.ibeam")
+                    Label(strings("Edit"), systemImage: "character.cursor.ibeam")
                 }
             }
 
             Button(role: .destructive) {
                 Task { await removeSelection() }
             } label: {
-                Label("Delete", systemImage: "trash")
+                Label(strings("Delete"), systemImage: "trash")
             }
 
-            Button("Done") { selection = [] }
+            Button(strings("Done")) { selection = [] }
         }
         .font(Theme.ui(13, weight: 600))
         .labelStyle(.titleOnly)
@@ -469,7 +472,7 @@ struct ResourceReaderView: View {
             Text(fraction > 0 ? "\(Int(fraction * 100))%" : "Starting…")
                 .font(Theme.numeric(13))
                 .foregroundStyle(Theme.ink2)
-            Button("Cancel") { files.cancel(resource.id) }
+            Button(strings("Cancel")) { files.cancel(resource.id) }
                 .font(Theme.ui(14))
                 .tint(Theme.primary)
         }
@@ -485,7 +488,7 @@ struct ResourceReaderView: View {
                 .font(Theme.display(20))
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
-            Text("Download it once and it stays on this phone, with or without a signal.")
+            Text(strings("Download it once and it stays on this phone, with or without a signal."))
                 .font(Theme.ui(14))
                 .foregroundStyle(Theme.ink2)
                 .multilineTextAlignment(.center)
@@ -493,7 +496,7 @@ struct ResourceReaderView: View {
             Button {
                 files.download(resource.id)
             } label: {
-                Text("Download")
+                Text(strings("Download"))
                     .font(Theme.ui(16, weight: 600))
                     .frame(maxWidth: 220)
                     .frame(height: 46)

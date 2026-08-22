@@ -6,6 +6,7 @@ import SwiftUI
 /// has always carried the id of the sitting that produced it, and until now
 /// nothing read it back — so a student had no way to see what they had done.
 struct PreviousTests: View {
+    @Environment(\.strings) private var strings
     let sessions: [SessionSummary]
     var store: QBankStore?
     let review: (SessionSummary) -> Void
@@ -30,7 +31,7 @@ struct PreviousTests: View {
                                     draftName = store?.name(of: session.sessionId) ?? ""
                                     renaming = session
                                 } label: {
-                                    Label("Rename", systemImage: "pencil")
+                                    Label(strings("Rename"), systemImage: "pencil")
                                 }
                                 .tint(Theme.primary)
                             }
@@ -42,12 +43,12 @@ struct PreviousTests: View {
             }
         }
         .background(Theme.paper)
-        .alert("Name this sitting", isPresented: Binding(
+        .alert(strings("Name this sitting"), isPresented: Binding(
             get: { renaming != nil }, set: { if !$0 { renaming = nil } }
         )) {
-            TextField("Name", text: $draftName)
-            Button("Cancel", role: .cancel) { renaming = nil }
-            Button("Save") {
+            TextField(strings("Name"), text: $draftName)
+            Button(strings("Cancel"), role: .cancel) { renaming = nil }
+            Button(strings("Save")) {
                 if let session = renaming {
                     Task { await store?.rename(session.sessionId, to: draftName) }
                 }
@@ -70,7 +71,7 @@ struct PreviousTests: View {
                         .font(Theme.numeric(14))
                         .foregroundStyle(accuracy >= 0.75 ? Theme.success : accuracy >= 0.6 ? Theme.primary : Theme.warning)
                 } else {
-                    Text("—")
+                    Text(strings("—"))
                         .font(Theme.numeric(14))
                         .foregroundStyle(Theme.ink3)
                 }

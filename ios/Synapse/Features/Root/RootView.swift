@@ -41,7 +41,9 @@ private struct UnconfiguredView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
-            Text("Not configured")
+            // Developer-facing, and deliberately not translated: it names a
+            // file to edit, and a student never reaches it.
+            Text(verbatim: "Not configured")
                 .font(Theme.display(24))
                 .foregroundStyle(Theme.ink)
             Text(problem.message)

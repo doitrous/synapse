@@ -7,6 +7,7 @@ import SwiftUI
 /// prose. Everything that is not the article — key points, traps, sources,
 /// related reading — sits after it rather than beside it.
 struct ArticleReaderView: View {
+    @Environment(\.strings) private var strings
     let article: Article
     var library: UserLibrary?
     /// Resolves a related article's id, so "read next" leads somewhere.
@@ -72,11 +73,12 @@ struct ArticleReaderView: View {
         .environment(\.evidence, evidence)
         .sheet(item: $showingEvidence) { span in
             EvidenceDrawer(span: span, evidence: evidence, openSource: openSource)
+            .localisedSheet()
         }
-        .alert("Add a tag", isPresented: $addingTag) {
-            TextField("Tag", text: $tagDraft)
-            Button("Cancel", role: .cancel) { tagDraft = "" }
-            Button("Add") {
+        .alert(strings("Add a tag"), isPresented: $addingTag) {
+            TextField(strings("Tag"), text: $tagDraft)
+            Button(strings("Cancel"), role: .cancel) { tagDraft = "" }
+            Button(strings("Add")) {
                 Task { await library?.add(tag: tagDraft, to: article.id) }
                 tagDraft = ""
             }
@@ -103,12 +105,12 @@ struct ArticleReaderView: View {
             }
 
             VStack(alignment: .leading, spacing: 10) {
-                Text("Your tags")
+                Text(strings("Your tags"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
                 if mine.isEmpty {
-                    Text("None yet. A tag is yours alone — nobody else sees it.")
+                    Text(strings("None yet. A tag is yours alone — nobody else sees it."))
                         .font(Theme.ui(13))
                         .foregroundStyle(Theme.ink3)
                 } else {
@@ -133,7 +135,7 @@ struct ArticleReaderView: View {
                 }
 
                 if !reusable.isEmpty {
-                    Text("Reuse")
+                    Text(strings("Reuse"))
                         .font(Theme.ui(11))
                         .foregroundStyle(Theme.ink3)
                     HStack(spacing: 6) {
@@ -156,7 +158,7 @@ struct ArticleReaderView: View {
                 Button {
                     addingTag = true
                 } label: {
-                    Label("Add a tag", systemImage: "plus")
+                    Label(strings("Add a tag"), systemImage: "plus")
                         .font(Theme.ui(13, weight: 600))
                         .foregroundStyle(Theme.primary)
                 }
@@ -249,7 +251,7 @@ struct ArticleReaderView: View {
 
         case .sourcesHeader(let count):
             HStack(spacing: 8) {
-                Text("Sources")
+                Text(strings("Sources"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
                 Text("\(count)")
@@ -271,7 +273,7 @@ struct ArticleReaderView: View {
 
             ForEach(items, id: \.self) { item in
                 HStack(alignment: .top, spacing: 8) {
-                    Text("·").foregroundStyle(Theme.ink3)
+                    Text(strings("·")).foregroundStyle(Theme.ink3)
                     Text(item)
                         .font(Theme.ui(15))
                         .foregroundStyle(Theme.ink)
@@ -289,7 +291,7 @@ struct ArticleReaderView: View {
 
     private var relatedReading: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Read next")
+            Text(strings("Read next"))
                 .font(Theme.panelTitle())
                 .foregroundStyle(Theme.ink2)
 

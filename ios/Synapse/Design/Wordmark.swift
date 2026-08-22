@@ -11,6 +11,7 @@ import SwiftUI
 /// than the system trait, because a student on `warm` in a dark room is still
 /// reading a light ground.
 struct CortexMark: View {
+    @Environment(\.strings) private var strings
     var size: CGFloat = 28
 
     @Environment(\.themeStore) private var theme
@@ -26,6 +27,7 @@ struct CortexMark: View {
 
 /// The full lockup, mark and letters together.
 struct Wordmark: View {
+    @Environment(\.strings) private var strings
     var height: CGFloat = 28
 
     @Environment(\.themeStore) private var theme
@@ -38,7 +40,7 @@ struct Wordmark: View {
             // The lockup is the product's name, so it is read out as one —
             // never as two words in two colours, which is what the artwork
             // would otherwise dictate.
-            .accessibilityLabel("Connect Cortex")
+            .accessibilityLabel(strings("Connect Cortex"))
     }
 }
 

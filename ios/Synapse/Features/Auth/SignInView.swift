@@ -5,6 +5,7 @@ import SwiftUI
 /// One screen rather than three, because the three differ by two fields and a
 /// verb. Switching between them keeps whatever has already been typed.
 struct SignInView: View {
+    @Environment(\.strings) private var strings
 
     enum Mode: String, CaseIterable, Identifiable {
         case signIn, signUp, reset
@@ -89,7 +90,7 @@ struct SignInView: View {
             // The artwork rather than the name set in a typeface: the O in
             // "Connect" is the mark, so the two cannot be separated.
             Wordmark(height: 34)
-            Text("Your library, question bank, and schedule in one place.")
+            Text(strings("Your library, question bank, and schedule in one place."))
                 .font(Theme.ui(15))
                 .foregroundStyle(Theme.ink2)
         }
@@ -133,7 +134,7 @@ struct SignInView: View {
                         .keyboardType(.phonePad)
                         .textContentType(.telephoneNumber)
                         .focused($focus, equals: .phone)
-                    Text("One account per number. Include the country code if you are outside Egypt.")
+                    Text(strings("One account per number. Include the country code if you are outside Egypt."))
                         .font(Theme.ui(12))
                         .foregroundStyle(Theme.ink3)
                 }

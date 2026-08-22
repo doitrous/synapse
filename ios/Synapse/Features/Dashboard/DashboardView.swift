@@ -7,6 +7,7 @@ import SwiftUI
 /// totals. Everything is computed from the local record, so it is right offline
 /// and right immediately after a sitting.
 struct DashboardView: View {
+    @Environment(\.strings) private var strings
     @State private var model: PerformanceModel
     @State private var mastery: MasteryModel
     let sync: SyncEngine
@@ -64,7 +65,7 @@ struct DashboardView: View {
                 .frame(maxWidth: .infinity)
             }
             .background(Theme.paper)
-            .navigationTitle("Today")
+            .navigationTitle(strings("Today"))
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     AssistantButton(surface: "Dashboard")
@@ -74,11 +75,12 @@ struct DashboardView: View {
                         Image(systemName: "person.crop.circle")
                     }
                     .tint(Theme.primary)
-                    .accessibilityLabel("Account")
+                    .accessibilityLabel(strings("Account"))
                 }
             }
             .sheet(isPresented: $showingAccount) {
                 AccountView(user: user, auth: auth, sync: sync, audienceStore: audienceStore)
+            .localisedSheet()
             }
         }
         .task {
@@ -151,7 +153,7 @@ struct DashboardView: View {
                 .prefix(2)
 
             VStack(alignment: .leading, spacing: 12) {
-                Text("Next on your schedule")
+                Text(strings("Next on your schedule"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -224,7 +226,7 @@ struct DashboardView: View {
     @ViewBuilder private var lastUsed: some View {
         if !recent.isEmpty {
             VStack(alignment: .leading, spacing: 12) {
-                Text("Last used resources")
+                Text(strings("Last used resources"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -286,10 +288,10 @@ struct DashboardView: View {
     /// Nothing answered yet. Say what to do, not how well it went.
     private var firstRun: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text("Start where you like")
+            Text(strings("Start where you like"))
                 .font(Theme.display(22))
                 .foregroundStyle(Theme.ink)
-            Text("Answer some questions and this becomes a record of what you know and what is slipping.")
+            Text(strings("Answer some questions and this becomes a record of what you know and what is slipping."))
                 .font(Theme.ui(14))
                 .foregroundStyle(Theme.ink2)
         }
@@ -338,7 +340,7 @@ struct DashboardView: View {
         let weak = Array(model.summary.bySubject.prefix(3))
         if !weak.isEmpty {
             VStack(alignment: .leading, spacing: 10) {
-                Text("Weakest topics")
+                Text(strings("Weakest topics"))
                     .font(Theme.panelTitle())
                     .foregroundStyle(Theme.ink2)
 
@@ -373,7 +375,7 @@ struct DashboardView: View {
         if !mastery.due.isEmpty {
             VStack(alignment: .leading, spacing: 12) {
                 HStack {
-                    Text("Due for review")
+                    Text(strings("Due for review"))
                         .font(Theme.panelTitle())
                         .foregroundStyle(Theme.ink2)
                     Spacer()
@@ -428,7 +430,7 @@ struct DashboardView: View {
                 Image(systemName: "checkmark.circle")
                     .foregroundStyle(Theme.success)
                 VStack(alignment: .leading, spacing: 2) {
-                    Text("Nothing due today")
+                    Text(strings("Nothing due today"))
                         .font(Theme.ui(14, weight: 600))
                         .foregroundStyle(Theme.ink)
                     if let next = mastery.upcoming.first {
@@ -473,6 +475,7 @@ struct DashboardView: View {
 }
 
 struct StatTile: View {
+    @Environment(\.strings) private var strings
     let label: LocalizedStringKey
     let value: String
     let detail: String

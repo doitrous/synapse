@@ -2,6 +2,7 @@ import SwiftUI
 
 /// Build a shared test, or join one with a code.
 struct StudyTogetherView: View {
+    @Environment(\.strings) private var strings
     let api: SynapseAPI
     let store: LocalStore
     let audience: StudentAudience
@@ -25,7 +26,7 @@ struct StudyTogetherView: View {
             }
         }
         .background(Theme.paper)
-        .navigationTitle("Study together")
+        .navigationTitle(strings("Study together"))
         .navigationBarTitleDisplayMode(.inline)
         .task {
             if model == nil {
@@ -49,30 +50,30 @@ struct StudyTogetherView: View {
 
             Section {
                 HStack(spacing: 10) {
-                    TextField("Room code", text: $code)
+                    TextField(strings("Room code"), text: $code)
                         .textInputAutocapitalization(.characters)
                         .autocorrectionDisabled()
                         .font(Theme.numeric(18, weight: 500))
-                    Button("Join") {
+                    Button(strings("Join")) {
                         Task { if await model.join(code: code) { code = "" } }
                     }
                     .tint(Theme.primary)
                     .disabled(code.trimmed.isEmpty)
                 }
             } header: {
-                Text("Join a test")
+                Text(strings("Join a test"))
             } footer: {
-                Text("Everyone answers the same set at their own pace. Results open once you finish.")
+                Text(strings("Everyone answers the same set at their own pace. Results open once you finish."))
                     .font(Theme.ui(12))
                     .foregroundStyle(Theme.ink3)
             }
             .listRowBackground(Theme.surface)
 
-            Section("Start one") {
+            Section(strings("Start one")) {
                 Button {
                     creating = true
                 } label: {
-                    Label("Build a shared test", systemImage: "plus.circle")
+                    Label(strings("Build a shared test"), systemImage: "plus.circle")
                         .font(Theme.ui(15))
                 }
                 .tint(Theme.primary)
@@ -80,7 +81,7 @@ struct StudyTogetherView: View {
             .listRowBackground(Theme.surface)
 
             if !model.rooms.isEmpty {
-                Section("Your rooms") {
+                Section(strings("Your rooms")) {
                     ForEach(model.rooms) { summary in
                         Button {
                             Task { await model.open(summary.id) }
@@ -113,6 +114,7 @@ struct StudyTogetherView: View {
             TestBuilder(store: store, audience: audience) { name, ids, timed in
                 Task { await model.create(name: name, questionIds: ids, timed: timed) }
             }
+            .localisedSheet()
         }
     }
 
@@ -127,6 +129,7 @@ struct StudyTogetherView: View {
 
 /// Choosing what goes into a shared test.
 private struct TestBuilder: View {
+    @Environment(\.strings) private var strings
     let store: LocalStore
     let audience: StudentAudience
     let create: (String, [String], Bool) -> Void
@@ -141,10 +144,10 @@ private struct TestBuilder: View {
     var body: some View {
         NavigationStack {
             Form {
-                Section("Test") {
-                    TextField("Name", text: $name)
+                Section(strings("Test")) {
+                    TextField(strings("Name"), text: $name)
                     Picker("Topic", selection: $topic) {
-                        Text("Everything").tag(String?.none)
+                        Text(strings("Everything")).tag(String?.none)
                         ForEach(topics, id: \.self) { Text($0).tag(String?.some($0)) }
                     }
                     Picker("Questions", selection: $count) {
@@ -162,12 +165,12 @@ private struct TestBuilder: View {
             }
             .scrollContentBackground(.hidden)
             .background(Theme.paper)
-            .navigationTitle("Build a test")
+            .navigationTitle(strings("Build a test"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .cancellationAction) { Button("Cancel") { dismiss() } }
+                ToolbarItem(placement: .cancellationAction) { Button(strings("Cancel")) { dismiss() } }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("Create") {
+                    Button(strings("Create")) {
                         create(name.trimmed, Array(matching.shuffled().prefix(count)).map(\.id), timed)
                         dismiss()
                     }
@@ -192,6 +195,7 @@ private struct TestBuilder: View {
 
 /// One room: the lobby, the sitting, then the results.
 private struct RoomView: View {
+    @Environment(\.strings) private var strings
     let model: StudyRoomModel
     let room: StudyRoom
 
@@ -212,7 +216,7 @@ private struct RoomView: View {
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
-                Button("Leave") { model.close() }.tint(Theme.primary)
+                Button(strings("Leave")) { model.close() }.tint(Theme.primary)
             }
         }
     }
@@ -223,7 +227,7 @@ private struct RoomView: View {
                 Text(room.name)
                     .font(Theme.display(24))
                     .foregroundStyle(Theme.ink)
-                Text("Share this code")
+                Text(strings("Share this code"))
                     .font(Theme.ui(13))
                     .foregroundStyle(Theme.ink2)
                 Text(room.code)
@@ -242,7 +246,7 @@ private struct RoomView: View {
                 Button {
                     Task { await model.start() }
                 } label: {
-                    Text("Start the test")
+                    Text(strings("Start the test"))
                         .font(Theme.ui(16, weight: 600))
                         .frame(maxWidth: .infinity)
                         .frame(height: 48)
@@ -251,7 +255,7 @@ private struct RoomView: View {
                         .clipShape(RoundedRectangle(cornerRadius: Theme.Radius.lg))
                 }
             } else {
-                Text("Waiting for the host to start.")
+                Text(strings("Waiting for the host to start."))
                     .font(Theme.ui(13))
                     .foregroundStyle(Theme.ink3)
             }
@@ -362,7 +366,7 @@ private struct RoomView: View {
                         reviewIndex = 0
                         reviewing = true
                     } label: {
-                        Label("Look back at your answers", systemImage: "eye")
+                        Label(strings("Look back at your answers"), systemImage: "eye")
                             .font(Theme.ui(16, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
@@ -372,7 +376,7 @@ private struct RoomView: View {
                     }
                 } else if !room.myAnswers.isEmpty {
                     // Honest about why, rather than a button that leads nowhere.
-                    Text("These questions are no longer published, so they cannot be reopened.")
+                    Text(strings("These questions are no longer published, so they cannot be reopened."))
                         .font(Theme.ui(13))
                         .foregroundStyle(Theme.ink3)
                         .multilineTextAlignment(.center)
@@ -401,7 +405,7 @@ private struct RoomView: View {
                             .foregroundStyle(Theme.ink3)
                         Spacer()
                         if !row.wasAnswered {
-                            Label("You did not answer this", systemImage: "minus.circle.fill")
+                            Label(strings("You did not answer this"), systemImage: "minus.circle.fill")
                                 .font(Theme.ui(12, weight: 600))
                                 .foregroundStyle(Theme.ink3)
                         } else {
@@ -461,7 +465,7 @@ private struct RoomView: View {
                     .opacity(position == 0 ? 0.4 : 1)
 
                     Button { reviewing = false } label: {
-                        Text("Back to your result")
+                        Text(strings("Back to your result"))
                             .font(Theme.ui(15, weight: 600))
                             .frame(maxWidth: .infinity)
                             .frame(height: 48)
@@ -518,7 +522,7 @@ private struct RoomView: View {
 
     private var members: some View {
         VStack(alignment: .leading, spacing: 10) {
-            Text("Who is in")
+            Text(strings("Who is in"))
                 .font(Theme.panelTitle())
                 .foregroundStyle(Theme.ink2)
 
