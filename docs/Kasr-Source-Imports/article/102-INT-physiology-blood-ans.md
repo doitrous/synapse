@@ -200,10 +200,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-0AE0E8314053 | CLM-2914BAED0589 | CLM-32ED630D3F0D | CLM-4C2B4D006766 | CLM-4FD7C67EF9D1 | CLM-82E2B30AC173 | CLM-94EF973346B8 | CLM-BB50D23DC59C | CLM-BF6D2FB6993F | CLM-CC59D069AF88 | CLM-CCD061D43FFE | CLM-D09197E26D45
 
 ## span_ids
-[clear]
+SPN-PHY-INTRODUCTION-BODY-FLUIDS-01 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-02 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-03 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-04 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-05 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-06 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-07 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-08 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-09 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-10 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-11 | SPN-PHY-INTRODUCTION-BODY-FLUIDS-12
 
 ## university_notes
 kau: Kasr Alainy's own exam orientation (src_701b6db49a7c01d79428) excludes INTRODUCTION, BODY FLUIDS and HOMEOSTASIS from the written theoretical paper, but the chapter is still taught and still examined practically — it opens the department book's Physiology half.
@@ -409,10 +409,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-08B41CC250BF | CLM-69065E8580AA
 
 ## span_ids
-[clear]
+SPN-PHY-BLOOD-COMPOSITION-AND-01 | SPN-PHY-BLOOD-COMPOSITION-AND-02
 
 ## university_notes
 kau: Not excluded from the written paper — this chapter, unlike Introduction, is examinable, and its 55:45 figure is the number every later haematocrit-adjacent question assumes.
@@ -637,10 +637,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-017EF59B3190 | CLM-17F28368D6EF | CLM-463FB8FF6085 | CLM-6DDF30856B30 | CLM-F0E278B173B1 | CLM-FFFFE25E4A3B
 
 ## span_ids
-[clear]
+SPN-PHY-RED-BLOOD-CELLS-01 | SPN-PHY-RED-BLOOD-CELLS-02 | SPN-PHY-RED-BLOOD-CELLS-03 | SPN-PHY-RED-BLOOD-CELLS-04 | SPN-PHY-RED-BLOOD-CELLS-05 | SPN-PHY-RED-BLOOD-CELLS-06
 
 ## university_notes
 kau: Examinable on the written paper; this is one of the two chapters (with Erythropoiesis and Iron) most likely to be tested against the vitamin B12/folic acid chapter that follows it, since all four feed the same 'what does the marrow need' theme.
@@ -859,10 +859,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-57917D58DF1B | CLM-706627AC14C6 | CLM-7C766293D971 | CLM-816892EEB5DF | CLM-CA81DB0ACF78 | CLM-F202C01B3CAE | CLM-FCDFAD62B26A
 
 ## span_ids
-[clear]
+SPN-PHY-ERYTHROPOIESIS-01 | SPN-PHY-ERYTHROPOIESIS-02 | SPN-PHY-ERYTHROPOIESIS-03 | SPN-PHY-ERYTHROPOIESIS-04 | SPN-PHY-ERYTHROPOIESIS-05
 
 ## university_notes
 kau: Fully examinable on the written paper; the erythropoietin renal/hepatic split is one of the module's classic short-answer questions across sittings not yet seeded into this corpus.
@@ -1080,10 +1080,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-406BB588F230 | CLM-9446CB452386 | CLM-948C8828937E | CLM-97737DAD6A37 | CLM-A6E19C6F39E7 | CLM-AFAEAB63A2F4 | CLM-FD9CDE9647A7
 
 ## span_ids
-[clear]
+SPN-PHY-IRON-METABOLISM-01 | SPN-PHY-IRON-METABOLISM-02 | SPN-PHY-IRON-METABOLISM-03 | SPN-PHY-IRON-METABOLISM-04 | SPN-PHY-IRON-METABOLISM-05 | SPN-PHY-IRON-METABOLISM-06 | SPN-PHY-IRON-METABOLISM-07
 
 ## university_notes
 kau: Fully examinable on the written paper; hepcidin is the newest mechanistic addition to this chapter across department book editions and is the likeliest single point to distinguish a strong answer from a merely correct one.
@@ -1738,10 +1738,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-081CCC9263ED | CLM-2EF7F05D1544 | CLM-352D926C0FBA | CLM-430E42887700 | CLM-67525DA69524 | CLM-8D81BB3373F1 | CLM-979D71A9E9ED | CLM-B929E1F41050 | CLM-BE41398A0E24 | CLM-BF534F3B98E7 | CLM-E21046ABB924 | CLM-EED43E077A19
 
 ## span_ids
-[clear]
+SPN-PHY-ABNORMALITIES-OF-01 | SPN-PHY-ABNORMALITIES-OF-02 | SPN-PHY-ABNORMALITIES-OF-03 | SPN-PHY-ABNORMALITIES-OF-04 | SPN-PHY-ABNORMALITIES-OF-05 | SPN-PHY-ABNORMALITIES-OF-06 | SPN-PHY-ABNORMALITIES-OF-07 | SPN-PHY-ABNORMALITIES-OF-08 | SPN-PHY-ABNORMALITIES-OF-09 | SPN-PHY-ABNORMALITIES-OF-10 | SPN-PHY-ABNORMALITIES-OF-11 | SPN-PHY-ABNORMALITIES-OF-12 | SPN-PHY-ABNORMALITIES-OF-13
 
 ## university_notes
 kau: Orientation src_701b6db49a7c01d79428 p1 excludes ABNORMALITIES OF HEMOSTASIS from the written theoretical paper — still taught and still examined practically, most plausibly at a lab-values interpretation station given the chapter's own screening-test ending.
@@ -1962,10 +1962,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-0391E9F3745D | CLM-11044C350551 | CLM-14DCC96A2740 | CLM-186884BE317E | CLM-19E3761F080D | CLM-3A6C61FFB299 | CLM-4A0B2429D915 | CLM-53615D4D963A | CLM-8460B6A09A75 | CLM-B7AF44BEF005 | CLM-BB1DEFF0B57B
 
 ## span_ids
-[clear]
+SPN-PHY-BLOOD-GROUPS-AND-01 | SPN-PHY-BLOOD-GROUPS-AND-02 | SPN-PHY-BLOOD-GROUPS-AND-03 | SPN-PHY-BLOOD-GROUPS-AND-04 | SPN-PHY-BLOOD-GROUPS-AND-05 | SPN-PHY-BLOOD-GROUPS-AND-06 | SPN-PHY-BLOOD-GROUPS-AND-07 | SPN-PHY-BLOOD-GROUPS-AND-08 | SPN-PHY-BLOOD-GROUPS-AND-09 | SPN-PHY-BLOOD-GROUPS-AND-10 | SPN-PHY-BLOOD-GROUPS-AND-11 | SPN-PHY-BLOOD-GROUPS-AND-12 | SPN-PHY-BLOOD-GROUPS-AND-13 | SPN-PHY-BLOOD-GROUPS-AND-14
 
 ## university_notes
 kau: Orientation src_701b6db49a7c01d79428 p1 excludes both BLOOD GROUPS and BLOOD TRANSFUSION from the written theoretical paper — still taught and still examined practically, and this is the module's most likely OSCE/practical-station chapter given how directly it maps onto a real transfusion-safety check.
@@ -2184,10 +2184,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-0416E6286684 | CLM-774D40BD3F91 | CLM-7AF4800E4F02 | CLM-B42D22AAFD4B | CLM-E734566D932C | CLM-ECAC7980BFA1
 
 ## span_ids
-[clear]
+SPN-PHY-THE-NERVOUS-SYSTEM-01 | SPN-PHY-THE-NERVOUS-SYSTEM-02 | SPN-PHY-THE-NERVOUS-SYSTEM-03 | SPN-PHY-THE-NERVOUS-SYSTEM-04 | SPN-PHY-THE-NERVOUS-SYSTEM-05 | SPN-PHY-THE-NERVOUS-SYSTEM-06
 
 ## university_notes
 kau: Fully examinable on the written paper; this chapter's vocabulary (afferent/efferent, reflex arc, synapse) is assumed without re-explanation by every later ANS chapter in the module.
@@ -2402,10 +2402,10 @@ src_a488633802ec053c6325
 src_a488633802ec053c6325
 
 ## claim_ids
-[clear]
+CLM-4243A3817610 | CLM-D2E245363338 | CLM-E2EC86C5B5E8 | CLM-ED07E87DD26A
 
 ## span_ids
-[clear]
+SPN-PHY-ORGANISATION-OF-THE-01 | SPN-PHY-ORGANISATION-OF-THE-02 | SPN-PHY-ORGANISATION-OF-THE-03 | SPN-PHY-ORGANISATION-OF-THE-04 | SPN-PHY-ORGANISATION-OF-THE-05 | SPN-PHY-ORGANISATION-OF-THE-06 | SPN-PHY-ORGANISATION-OF-THE-07 | SPN-PHY-ORGANISATION-OF-THE-08 | SPN-PHY-ORGANISATION-OF-THE-09
 
 ## university_notes
 kau: Fully examinable on the written paper; the two-neuron rule and the five-row somatic/autonomic comparison are the module's most reliably recurring short-answer format for this chapter, per the department's own past-paper pattern in adjacent sittings.
