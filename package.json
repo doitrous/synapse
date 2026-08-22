@@ -21,6 +21,7 @@
     "medical:citations": "node --experimental-strip-types scripts/kasr/check-citations.ts",
     "medical:concept-ids": "node --experimental-strip-types scripts/kasr/check-concept-ids.ts",
   "medical:id-stability": "node --experimental-strip-types scripts/kasr/check-id-stability.ts",
+  "medical:duplicate-keys": "node --experimental-strip-types scripts/report-duplicate-keys.ts",
     "medical:batches-present": "python3 scripts/kasr/check-batches-present.py",
     "medical:batch": "node --experimental-strip-types scripts/validate-content-batch.mjs",
     "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs"
