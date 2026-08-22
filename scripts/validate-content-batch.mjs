@@ -239,6 +239,35 @@ rows.forEach((values, index) => {
   }
 })
 
+/**
+ * A cell that mixes a plain item with a `+`-prefixed one.
+ *
+ * `+` marks the whole cell as an append, so `X | +Y` is an author writing a
+ * replace cell and an append item at once. The importer cannot honour both: it
+ * reads the cell as a replace, which discards whatever the list already held —
+ * the opposite of what the `+` asked for — and the loss is silent.
+ *
+ * Refused rather than guessed. Treating it as an append would let one stray
+ * character turn a deliberate replacement into an addition, and treating it as
+ * a replacement is what already happens and is what surprised the author. The
+ * fix is one character either way, and only they know which.
+ */
+function mixedAppendErrors(values) {
+  const problems = []
+  for (const [column, raw] of Object.entries(values)) {
+    if (typeof raw !== 'string') continue
+    const cell = raw.trim()
+    if (!cell || cell.startsWith('+')) continue
+    const parts = cell.split(/\r?\n|\||;/).map((one) => one.trim()).filter(Boolean)
+    if (parts.length > 1 && parts.some((one) => one.startsWith('+'))) {
+      problems.push(`${column} mixes a plain item with a "+" one (${parts.filter((one) => one.startsWith('+')).join(', ')}). `
+        + 'A "+" marks the whole cell as an append, so this asks to replace the list and add to it at once. '
+        + 'Put "+" at the front of the cell to append everything in it, or drop it to replace.')
+    }
+  }
+  return problems
+}
+
 /* ---- update rows that would land as stubs -------------------------------- */
 
 const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
@@ -493,6 +522,7 @@ if (kind === 'question') {
     for (const error of validateImportRow('question', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('question', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -651,6 +681,7 @@ if (kind === 'practical') {
     for (const error of validateImportRow('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -762,6 +793,7 @@ if (kind === 'article') {
     for (const error of validateImportRow('article', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('article', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -971,6 +1003,7 @@ rows.forEach((values, index) => {
   if (!values.label?.trim()) errors.push(`${where}: label is required`)
     for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
