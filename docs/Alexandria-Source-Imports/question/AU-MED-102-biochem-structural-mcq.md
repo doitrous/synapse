@@ -3183,3 +3183,1452 @@ yes
 
 
 ## media_recommendations
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-001
+
+## title
+One of the amino acids listed below is not basic:
+
+## question
+One of the amino acids listed below is not basic:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Arginine
+
+## explanation_a
+Incorrect selection — arginine IS basic, carrying a guanidino group.
+
+## answer_b
+Histidine
+
+## explanation_b
+Incorrect selection — histidine IS basic, carrying an imidazole ring.
+
+## answer_c
+Glutamine
+
+## explanation_c
+Correct. Glutamine is an amide of glutamic acid and is neutral; its amide group does not ionise to a positive charge the way arginine's or lysine's side chains do.
+
+## answer_d
+Lysine
+
+## explanation_d
+Incorrect selection — lysine IS basic, carrying an epsilon-amino group.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-E1A2B36C939E97
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Identify glutamine as not basic among arginine, histidine and lysine.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q1), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-002
+
+## title
+All the following are branched chain amino acids, EXCEPT:
+
+## question
+All the following are branched chain amino acids, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Valine
+
+## explanation_a
+Incorrect selection — valine IS a branched-chain amino acid.
+
+## answer_b
+Leucine
+
+## explanation_b
+Incorrect selection — leucine IS a branched-chain amino acid.
+
+## answer_c
+Isoleucine
+
+## explanation_c
+Incorrect selection — isoleucine IS a branched-chain amino acid.
+
+## answer_d
+Threonine
+
+## explanation_d
+Correct. Threonine, though its side chain is structurally branched, is classified by its hydroxyl group and is not counted among the named branched-chain amino acids (valine, leucine, isoleucine).
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-4F4C3943A3D7D6
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Exclude threonine from the branched-chain amino acid group.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q4), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-003
+
+## title
+Essential sulphur containing amino acid:
+
+## question
+Essential sulphur containing amino acid:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Lysine
+
+## explanation_a
+Incorrect — lysine is basic and does not contain sulfur.
+
+## answer_b
+Cysteine
+
+## explanation_b
+Incorrect — cysteine contains sulfur but is non-essential, synthesisable from methionine.
+
+## answer_c
+Cystine
+
+## explanation_c
+Incorrect — cystine (the oxidised dimer of cysteine) is likewise non-essential.
+
+## answer_d
+Methionine
+
+## explanation_d
+Correct. Methionine is the essential sulfur-containing amino acid; the body cannot synthesise it and must obtain it from the diet.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-B97BF0F6CCF322
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Identify methionine as the essential sulfur-containing amino acid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q37), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-004
+
+## title
+Amino acid responsible for linking tropocollagen molecules together in collagen
+
+## question
+Amino acid responsible for linking tropocollagen molecules together in collagen
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Hydroxy lysine
+
+## explanation_a
+Correct. Hydroxylysine forms the covalent crosslinks that link adjacent tropocollagen molecules together, giving collagen its tensile strength.
+
+## answer_b
+Hydroxy Proline
+
+## explanation_b
+Incorrect — hydroxyproline's role is forming hydrogen bonds between the three polypeptide chains within a single triple helix, not crosslinking separate tropocollagen molecules.
+
+## answer_c
+Glutamine
+
+## explanation_c
+Incorrect — glutamine has no structural role in collagen.
+
+## answer_d
+Glycine
+
+## explanation_d
+Incorrect — glycine's role is fitting at every third position of the triple helix (making up one-third of residues), not forming crosslinks.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-A104202E4874FA
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Identify hydroxylysine as the amino acid crosslinking tropocollagen molecules.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q11), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-005
+
+## title
+All the following are essential amino acids, EXCEPT:
+
+## question
+All the following are essential amino acids, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Tyrosine
+
+## explanation_a
+Correct. Tyrosine is non-essential: the body synthesises it directly from phenylalanine, despite its aromatic structure resembling the essential amino acids.
+
+## answer_b
+Lysine
+
+## explanation_b
+Incorrect selection — lysine IS an essential amino acid.
+
+## answer_c
+Valine
+
+## explanation_c
+Incorrect selection — valine IS an essential amino acid.
+
+## answer_d
+Phenyl alanine
+
+## explanation_d
+Incorrect selection — phenylalanine IS an essential amino acid, and is in fact tyrosine's precursor.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-71648230D1D4E2
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Identify tyrosine as non-essential among a list of essential amino acids.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q14), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-006
+
+## title
+The force maintaining the primary structure of a protein is:
+
+## question
+The force maintaining the primary structure of a protein is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+A
+
+## answer_a
+Peptide bonds
+
+## explanation_a
+Correct. Peptide bonds, covalent linkages between successive amino acids, are what hold a protein's linear amino-acid sequence — its primary structure — together.
+
+## answer_b
+Hydrophobic forces
+
+## explanation_b
+Incorrect — hydrophobic forces help stabilise tertiary structure, not the primary sequence.
+
+## answer_c
+Hydrogen bonds
+
+## explanation_c
+Incorrect — hydrogen bonds stabilise secondary structure (and contribute to tertiary/quaternary structure), not the primary sequence.
+
+## answer_d
+Electrostatic (ionic) bonds
+
+## explanation_d
+Incorrect — ionic bonds stabilise tertiary/quaternary structure, not the primary sequence.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-0223BF372BB1F1
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Name peptide bonds as the force maintaining primary protein structure.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q19), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-007
+
+## title
+The forces maintaining the secondary, tertiary and quaternary structures of a protein are the following EXCEPT:
+
+## question
+The forces maintaining the secondary, tertiary and quaternary structures of a protein are the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Electrostatic (ionic) bonds
+
+## explanation_a
+Incorrect selection — ionic bonds DO help maintain higher-order structure.
+
+## answer_b
+Hydrophobic forces
+
+## explanation_b
+Incorrect selection — hydrophobic forces DO help maintain higher-order structure.
+
+## answer_c
+Van der Waals forces (Hydrogen bonds)
+
+## explanation_c
+Incorrect selection — these DO help maintain higher-order structure.
+
+## answer_d
+Peptide bonds
+
+## explanation_d
+Correct. Peptide bonds hold the primary sequence together; they play no role in maintaining the non-covalent secondary, tertiary or quaternary levels of structure.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-B753603EB0E191
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Exclude peptide bonds from the forces maintaining higher-order protein structure.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q20), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-008
+
+## title
+Semi-essential amino acids include:
+
+## question
+Semi-essential amino acids include:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Valine and threonine
+
+## explanation_a
+Incorrect — both valine and threonine are simply essential, not semi-essential.
+
+## answer_b
+Arginine and Histidine
+
+## explanation_b
+Correct. Arginine and histidine are semi-essential: the body can synthesise them under normal conditions, but not fast enough to meet demand during rapid growth.
+
+## answer_c
+Cysteine and methionine
+
+## explanation_c
+Incorrect — cysteine is non-essential and methionine is fully essential; neither is semi-essential.
+
+## answer_d
+Phenylalanine and tyrosine
+
+## explanation_d
+Incorrect — phenylalanine is essential and tyrosine is non-essential (made from phenylalanine); neither is semi-essential.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-DABC4FFBD58B80
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Name arginine and histidine as the semi-essential amino acids.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q31), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-009
+
+## title
+At IEP, amino acids and proteins show:
+
+## question
+At IEP, amino acids and proteins show:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Maximum net charge
+
+## explanation_a
+Incorrect — net charge is at its minimum (zero) at the isoelectric point, not its maximum.
+
+## answer_b
+Maximum mobility in electric field
+
+## explanation_b
+Incorrect — mobility in an electric field is at its minimum (zero net charge means no net movement toward either electrode).
+
+## answer_c
+Maximum perceptibility
+
+## explanation_c
+Correct (as printed — 'perceptibility' reflecting 'precipitability' in the source). At the isoelectric point, a protein's solubility is lowest, so precipitation is maximal.
+
+## answer_d
+Maximum buffering action
+
+## explanation_d
+Incorrect — buffering capacity depends on the mix of ionisable groups present generally, not specifically on being at the isoelectric point.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-73F58D943BB03B
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+Identify maximum precipitability as the defining behaviour at a protein's isoelectric point.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q24), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-PROT-010
+
+## title
+Sickle Cell Disease is due to replacement of ..... with ....... At 6th position of beta chain:
+
+## question
+Sickle Cell Disease is due to replacement of ..... with ....... At 6th position of beta chain:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Valine, Glutamic Acid
+
+## explanation_a
+Incorrect — this reverses the direction; valine is the amino acid that REPLACES glutamic acid, not the other way round.
+
+## answer_b
+Glutamic Acid, Valine
+
+## explanation_b
+Correct. Glutamic acid at position 6 of the beta-globin chain is replaced by valine — a change from a charged, hydrophilic residue to a small, hydrophobic one that drives HbS polymerisation.
+
+## answer_c
+Valine, Aspartic Acid
+
+## explanation_c
+Incorrect — aspartic acid is not the amino acid involved in this substitution.
+
+## answer_d
+Aspartic Acid, Valine
+
+## explanation_d
+Incorrect — aspartic acid is not the amino acid involved in this substitution; the correct pair is glutamic acid and valine.
+
+## topic
+Protein chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-A5935CF609142E
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## resource_ids
+src_4852d425a88297af190e
+
+## learning_objective
+State the exact amino-acid substitution (glutamic acid to valine, position 6) responsible for sickle cell disease.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Protein MCQ bank (Protein MCQ, Q57), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Protein MCQ bank (src_4852d425a88297af190e); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations

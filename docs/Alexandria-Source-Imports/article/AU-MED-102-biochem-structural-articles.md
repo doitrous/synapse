@@ -517,3 +517,287 @@ module: No verified live AU-MED-102 module id has been confirmed in server data 
 moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.
 lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 reviewDue: Set when the first faculty review completes.
+
+---
+
+# Item
+
+## id
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## title
+Protein chemistry: amino acids to quaternary structure
+
+## arabic_title
+
+
+## aliases
+Amino acid classification|Protein structure levels|Collagen and keratin chemistry
+
+## subject
+fnd
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+16
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## universities
+au
+
+## years
+AU_Y1
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## summary
+Alexandria's Biochemistry department examines amino acids as a set of overlapping classification axes held at once — chemical group, charge, essentiality, ring type — and tests each axis with its own exception (glutamine among the basic amino acids, threonine among the branched-chain ones, tyrosine among the essential ones). The second half of the chapter moves from single amino acids to structure: which bonds hold which level of a protein together, what denaturation does and does not touch, and the specific amino-acid substitution behind sickle cell disease.
+
+## sections
+### Definition
+Amino acids are classified along several independent axes, and a question typically tests one axis with a single exception. By charge/chemical group: arginine, histidine and lysine are basic; aspartic and glutamic acid are acidic; the rest are neutral — glutamine, an amide, is neutral despite resembling a basic side chain. By side-chain feature: serine, threonine and tyrosine carry a hydroxyl group; valine, leucine and isoleucine are the branched-chain amino acids (threonine, though structurally branched, is not counted among them); cysteine, methionine and homocysteine contain sulfur, of which only methionine is essential; arginine's side chain ends in a guanidino group, tryptophan's in an indole ring, histidine's in an imidazole ring.
+
+By essentiality: an essential amino acid cannot be synthesised by the body and must come from the diet. Tyrosine is the standard trap — aromatic like the essential amino acids phenylalanine and tryptophan, but non-essential because the body makes it directly from phenylalanine. Arginine and histidine are semi-essential: made by the body normally, but not fast enough to meet demand during growth. By ring structure: histidine, tryptophan and proline are heterocyclic (a ring with a non-carbon atom); phenylalanine's ring is carbocyclic (aromatic, all-carbon) and is excluded. By polarity: valine, phenylalanine and tryptophan are non-polar; lysine carries a net positive charge at physiological pH.
+
+### Mechanism
+Collagen assigns three amino acids three separate jobs. Hydroxylysine forms the covalent crosslinks between adjacent tropocollagen molecules. Hydroxyproline's hydroxyl groups form the hydrogen bonds holding the three polypeptide chains of the triple helix together. Glycine, small enough to fit at every third position of the helix, makes up one-third of collagen's total residues. Keratin, by contrast, is defined by its sulfur content — high cysteine/cystine, giving the disulfide crosslinks that make hair and nail mechanically tough.
+
+Protein structure is a stack of levels held by different forces. Primary structure — the amino-acid sequence — is held by covalent peptide bonds alone. Secondary, tertiary and quaternary structure are held by non-covalent forces instead: electrostatic (ionic) bonds, hydrophobic interactions, and van der Waals forces including hydrogen bonds; peptide bonds play no part in maintaining these higher levels. Denaturation acts precisely on this distinction: it ruptures the non-covalent bonds holding secondary, tertiary and quaternary structure, leaving the protein insoluble, more digestible and biologically inactive — but the peptide-bonded primary sequence survives intact.
+
+Enzyme activity is regulated the same way cell signalling regulates other proteins: by phosphorylation of a serine residue (the hydroxyl group is the site), changing conformation and activity. Glutathione, the tripeptide glutamate-cysteine-glycine, is regulated through its cysteine sulfhydryl group, the site of its redox chemistry. Glycine itself is a structural outlier among the amino acids: its alpha carbon carries two hydrogens rather than four different substituents, so it is the one standard amino acid with no asymmetric carbon, and is therefore both optically inactive and the smallest amino acid.
+
+### Key determinants
+Nutritional quality follows from amino-acid completeness, not protein abundance. Casein and albumin, carrying a complete essential-amino-acid profile, are proteins of high biological value; zein, the maize storage protein, is low, largely because — like collagen and elastin — it is deficient in tryptophan; meat is not tryptophan-deficient, which is the exception the department's bank tests directly. Caseinogen, milk's casein precursor, is specifically a phosphoprotein, its phosphate groups esterified to serine residues.
+
+A protein's isoelectric point (pI) is the pH at which it carries zero net charge — the point of maximum precipitability and minimum electrophoretic mobility, not maximum charge or mobility as students sometimes expect. At its isoelectric point an amino acid is dipolar (zwitterionic). Protein buffering itself depends on the mixture of acidic and basic ionisable groups on its side chains, not on hydrogen bonds or hydrophobic interactions, which are structural forces rather than proton donors/acceptors.
+
+### Clinical significance
+The single most examined protein-chemistry fact with direct clinical weight is the sickle-cell substitution: glutamic acid at position 6 of the haemoglobin beta chain is replaced by valine, a change from a charged, hydrophilic residue to a small, hydrophobic one, which is what drives HbS polymerisation under low oxygen tension. Disulfide bonds (cysteine-cysteine, oxidised) are what stabilise insulin, immunoglobulins and glucagon structurally; histones, richly basic in composition, use that charge to bind and package the negatively charged DNA backbone rather than to form disulfide bonds.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Glutamine is not a basic amino acid, despite resembling one; arginine, histidine and lysine are the basic three.
+Threonine is a hydroxyl amino acid, not a branched-chain one, despite its branched side chain; valine, leucine and isoleucine are the branched-chain amino acids.
+Methionine is the essential sulfur-containing amino acid; cysteine, though sulfur-containing, is non-essential.
+Tyrosine is non-essential, made from phenylalanine, despite resembling the essential aromatic amino acids; arginine and histidine are semi-essential.
+In collagen, hydroxylysine crosslinks tropocollagen molecules, hydroxyproline hydrogen-bonds the three chains together, and glycine makes up one-third of all residues.
+Primary structure is held by peptide bonds alone; secondary, tertiary and quaternary structure are held by non-covalent forces (ionic, hydrophobic, van der Waals/hydrogen bonds) — never by peptide bonds.
+Denaturation destroys secondary/tertiary/quaternary structure but leaves the primary amino-acid sequence intact.
+At the isoelectric point, a protein shows maximum precipitability and minimum (zero) net charge and mobility — not maximum charge.
+Sickle cell disease is glutamic acid replaced by valine at position 6 of the haemoglobin beta chain.
+Glycine is the only standard amino acid with no asymmetric carbon, making it optically inactive and the smallest amino acid.
+
+## lose_the_mark
+Calling glutamine a basic amino acid because it is nitrogen-rich. Its amide group does not ionise to a positive charge the way arginine's guanidino or lysine's amino group does.
+Counting threonine among the branched-chain amino acids because its side chain literally branches. BCAA is a fixed named group (valine, leucine, isoleucine); threonine is classified by its hydroxyl group instead.
+Assuming tyrosine is essential because it is aromatic like phenylalanine and tryptophan. It is made directly from phenylalanine and is non-essential.
+Swapping hydroxylysine's role (crosslinking between tropocollagen molecules) with hydroxyproline's (hydrogen bonding within the triple helix).
+Naming hydrogen bonds or hydrophobic forces as holding a protein's primary structure. Only the covalent peptide bond does that; those forces hold the higher levels instead.
+Assuming denaturation breaks peptide bonds. It disrupts only the non-covalent forces of higher-order structure.
+Answering "maximum net charge" for what happens at the isoelectric point. Net charge and mobility are at their minimum (zero) there; precipitability is at its maximum.
+Reversing the sickle-cell substitution's direction, or naming the wrong position. It is specifically glutamic acid to valine at position 6 of the beta chain.
+
+## related_concepts
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+CON-FND-4F4C3943A3D7D6
+CON-FND-B97BF0F6CCF322
+CON-FND-C368B8F5E7824A
+CON-FND-D900D3965A118D
+CON-FND-6072F2C271BF96
+CON-FND-9651FA4F0BC56D
+CON-FND-68CA299502EB27
+CON-FND-A104202E4874FA
+CON-FND-71648230D1D4E2
+CON-FND-F94C59857B0FA1
+CON-FND-0223BF372BB1F1
+CON-FND-B753603EB0E191
+CON-FND-C8259EB591C8B4
+CON-FND-8CF5D9C1E7D8B7
+CON-FND-73F58D943BB03B
+CON-FND-6CD90ABA3F4F08
+CON-FND-C6FE5C2C193B52
+CON-FND-DABC4FFBD58B80
+CON-FND-FE7A28DF2E3F38
+CON-FND-493AC407478AA3
+CON-FND-8ED61C8CFF3381
+CON-FND-3FF9CA93465562
+CON-FND-E2CB20749CB547
+CON-FND-B265588CD72D5D
+CON-FND-9A3557C4D99E2A
+CON-FND-6AB7E628F09B9C
+CON-FND-36B2B97293DA96
+CON-FND-A5935CF609142E
+CON-FND-93B011BEEE72F4
+CON-FND-2414B3639FD4D3
+
+## related_articles
+ART-FND-AU-MED-102-CHO-CHEMISTRY: the sister structural-chemistry chapter.
+ART-FND-AU-MED-102-LIPID-CHEMISTRY: the sister structural-chemistry chapter; cholesterol and steroid-hormone content this article does not repeat.
+
+## question_ids
+
+
+## resource_ids
+src_4852d425a88297af190e
+src_01ab4268402d32d4d111
+
+## article_source_ids
+src_4852d425a88297af190e
+
+## claim_ids
+CLM-FND-PROT-E1A2B36C939E97-01
+CLM-FND-PROT-3C2D34E277A2DA-01
+CLM-FND-PROT-2E8F85E0C0BB80-01
+CLM-FND-PROT-4F4C3943A3D7D6-01
+CLM-FND-PROT-B97BF0F6CCF322-01
+CLM-FND-PROT-C368B8F5E7824A-01
+CLM-FND-PROT-D900D3965A118D-01
+CLM-FND-PROT-6072F2C271BF96-01
+CLM-FND-PROT-9651FA4F0BC56D-01
+CLM-FND-PROT-68CA299502EB27-01
+CLM-FND-PROT-A104202E4874FA-01
+CLM-FND-PROT-71648230D1D4E2-01
+CLM-FND-PROT-F94C59857B0FA1-01
+CLM-FND-PROT-0223BF372BB1F1-01
+CLM-FND-PROT-B753603EB0E191-01
+CLM-FND-PROT-C8259EB591C8B4-01
+CLM-FND-PROT-8CF5D9C1E7D8B7-01
+CLM-FND-PROT-73F58D943BB03B-01
+CLM-FND-PROT-6CD90ABA3F4F08-01
+CLM-FND-PROT-C6FE5C2C193B52-01
+CLM-FND-PROT-DABC4FFBD58B80-01
+CLM-FND-PROT-FE7A28DF2E3F38-01
+CLM-FND-PROT-493AC407478AA3-01
+CLM-FND-PROT-8ED61C8CFF3381-01
+CLM-FND-PROT-3FF9CA93465562-01
+CLM-FND-PROT-E2CB20749CB547-01
+CLM-FND-PROT-B265588CD72D5D-01
+CLM-FND-PROT-9A3557C4D99E2A-01
+CLM-FND-PROT-6AB7E628F09B9C-01
+CLM-FND-PROT-36B2B97293DA96-01
+CLM-FND-PROT-A5935CF609142E-01
+CLM-FND-PROT-93B011BEEE72F4-01
+
+## span_ids
+SPN-FND-PROT-COLLAGEN-01
+SPN-FND-PROT-STRUCTURE-LEVELS-01
+SPN-FND-PROT-DENATURATION-01
+SPN-FND-PROT-SICKLE-01
+
+## university_notes
+au: Every fact in this article is drawn from the Biochemistry department's own Protein MCQ bank and, where cross-cited, the AFM master bank; no department book or lecture text beyond these assessment sources teaches protein chemistry in this corpus. Several of this bank's items (biological value Q22/66/70, histones Q34, sulfhydryl-group Q38, disulfide-bonds Q58) print no key in the source's own answer list; those facts are taught here as standard, independently verifiable undergraduate biochemistry rather than as reliant on the unkeyed item, and no question is authored from them.
+
+## annotations
+### definition_of · CON-FND-A104202E4874FA
+Quote: Hydroxylysine forms the covalent crosslinks between adjacent tropocollagen molecules.
+Block: body
+### contrasts_with · CON-FND-0223BF372BB1F1
+Quote: Primary structure — the amino-acid sequence — is held by covalent peptide bonds alone.
+Block: body
+### definition_of · CON-FND-B3BDE76D83C34E
+Quote: Denaturation acts precisely on this distinction: it ruptures the non-covalent bonds holding secondary, tertiary and quaternary structure, leaving the protein insoluble, more digestible and biologically inactive — but the peptide-bonded primary sequence survives intact.
+Block: body
+### definition_of · CON-FND-A5935CF609142E
+Quote: glutamic acid at position 6 of the haemoglobin beta chain is replaced by valine, a change from a charged, hydrophilic residue to a small, hydrophobic one
+Block: body
+
+## media
+
+
+## media_recommendations
+### diagram · Protein structure levels and the bonds holding each
+Purpose: The examined distinction is which bond holds which level, and which level survives denaturation — a single labelled diagram (primary through quaternary, with the bond type against each arrow) makes the four-way distinction checkable in a way prose repetition cannot.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Alexandria University AU-MED-102 Biochemistry department sources: `MCQs - Protein MCQ.pdf` (src_4852d425a88297af190e, 74 questions, 57 keyed / 17 unkeyed), and the Protein Chemistry section of the staff-authored master bank (src_01ab4268402d32d4d111). See `coverage/AU-MED-102-biochemistry-triage.md` §3 topic C for the full per-question breakdown.
+
+## evidence_gaps
+No department book or lecture-slide text teaching protein chemistry was found beyond the MCQ banks. Every citation in the accompanying evidence batch is assessment-sourced (`is_assessment: true`).
+
+## conflicts
+The department's own bank (Q58) marks albumin as the protein lacking disulfide bonds among insulin/immunoglobulin/glucagon, which conflicts with standard biochemistry (albumin carries multiple intrachain disulfide bonds); recorded here as the bank's own printed position, not silently corrected, and the concept teaching it (`CON-FND-93B011BEEE72F4`) is a claim about what the bank tests, not an assertion this lane verified independently.
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Searched before creating: distinctive terms for most of this chapter (guanidino group, imidazole ring, isoelectric point, aliphatic amino acids, heterocyclic amino acids, sickle cell substitution, keratin, caseinogen) returned no live or pending match. One concept — denaturation's effect on structural levels — is genuinely the same idea as Kasr's pending `CON-FND-2414B3639FD4D3` (`102-INT-concepts.md`, key protein-denaturation-effects) and is handled as a sparse update in `pending-live/AU-MED-102-biochem-structural.md` plus a question in `pending-live/AU-MED-102-biochem-structural-questions.md`, not minted here, even though this article's Mechanism section still teaches the fact in prose (annotated against the Kasr id directly, per brief §22's two-sided coverage rule) so the article remains the teaching home for it. Kasr's `102-INT-concepts.md` amino-acid-classification framework concept (`CON-FND-D0EDFFF1477094`) and collagen-strength concept (`CON-FND-14647EC60106E1`) cover related ground at a coarser grain than AU's per-axis MCQs test; both are recorded as considered-but-rejected merges on the closest new concepts here (basic-amino-acids and collagen-specific-amino-acids respectively) rather than folded in.
+
+## field_notes
+arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
+subtopicId: No SUB_ identifier exists for this module in the curriculum overlay; module_subject carries the department's own chapter position instead.
+microtopicId: The canonical placement (DIS-BIO-T01) and module_subject are already as fine as the department's own materials distinguish.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than anything examined.
+questionIds: No question record has been authored against this article yet; the reciprocal link is written in the question-authoring pass that follows.
+media: No medical image exists in this repository. Every figure this article needs is filed as a media request rather than left unexplained.
+module: No verified live AU-MED-102 module id has been confirmed in server data yet; module_subject carries curriculum mapping instead.
+moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.
+lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+reviewDue: Set when the first faculty review completes.

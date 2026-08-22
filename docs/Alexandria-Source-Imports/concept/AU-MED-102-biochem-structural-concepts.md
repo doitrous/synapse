@@ -6376,3 +6376,5507 @@ reviewDue: Set when the first review completes.
 resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
 sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
 relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-E1A2B36C939E97
+
+## label
+Arginine, histidine and lysine are the basic amino acids; glutamine is not, despite its amide side chain
+
+## canonical_key
+protein.classification.basic-amino-acids
+
+## definition
+The three basic amino acids — arginine, histidine and lysine — carry a positively ionisable side chain. Glutamine, an amide of glutamic acid, is neutral and is the standard distractor placed among them.
+
+## explicit_objective
+Identify glutamine as not basic among a list otherwise composed of arginine, histidine and lysine.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Basic amino acids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any nitrogen-rich side chain makes an amino acid basic. Glutamine's amide group does not ionise to a positive charge the way arginine's guanidino or lysine's epsilon-amino group does.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+CON-FND-4F4C3943A3D7D6
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 1,28,36
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-E1A2B36C939E97-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Arginine, histidine and lysine are basic amino acids; glutamine is not.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-3C2D34E277A2DA
+
+## label
+Serine, threonine and tyrosine carry a hydroxyl group on their side chain
+
+## canonical_key
+protein.classification.hydroxyl-amino-acids
+
+## definition
+Serine (aliphatic -OH), threonine (aliphatic -OH) and tyrosine (phenolic -OH) are the three hydroxyl-bearing amino acids — the residues phosphorylated to regulate enzyme and protein activity.
+
+## explicit_objective
+Identify threonine (and serine, tyrosine) as hydroxyl-group amino acids.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hydroxyl amino acids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Missing tyrosine because its hydroxyl is phenolic rather than aliphatic like serine's and threonine's; all three still count as hydroxyl amino acids.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-2E8F85E0C0BB80
+CON-FND-4F4C3943A3D7D6
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 2,30
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-3C2D34E277A2DA-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Threonine has a hydroxyl group.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-2E8F85E0C0BB80
+
+## label
+Aspartic acid is acidic, not neutral — the exception among tyrosine, glycine and threonine
+
+## canonical_key
+protein.classification.neutral-amino-acid-exception-aspartic-acid
+
+## definition
+Aspartic acid's side chain carboxyl group ionises to a negative charge at physiological pH, making it an acidic amino acid, unlike tyrosine, glycine and threonine, which are neutral.
+
+## explicit_objective
+Identify aspartic acid as acidic rather than neutral.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Acidic amino acids|Neutral amino acid exception
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Grouping aspartic acid with the neutral amino acids by surface similarity to glycine/threonine; its side-chain carboxyl group is what makes it acidic.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-4F4C3943A3D7D6
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 3
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-2E8F85E0C0BB80-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Aspartic acid is not neutral; tyrosine, glycine and threonine are.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-4F4C3943A3D7D6
+
+## label
+Valine, leucine and isoleucine are the branched-chain amino acids; threonine is not
+
+## canonical_key
+protein.classification.branched-chain-amino-acids
+
+## definition
+Valine, leucine and isoleucine carry an aliphatic side chain with a branch point, defining the branched-chain amino acid (BCAA) group. Threonine, though it has a branched carbon, is classified by its hydroxyl group instead and is not counted among the BCAAs.
+
+## explicit_objective
+Identify threonine as excluded from the branched-chain amino acids (valine, leucine, isoleucine).
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+BCAAs|Branched chain amino acids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Including threonine among the BCAAs because its side chain also branches; classification into BCAA is a fixed, named group (Val/Leu/Ile) rather than a literal structural description.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 4
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-4F4C3943A3D7D6-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Valine, leucine and isoleucine are branched-chain amino acids; threonine is not.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-B97BF0F6CCF322
+
+## label
+Cysteine, methionine and homocysteine are sulfur-containing amino acids; of these, methionine alone is essential
+
+## canonical_key
+protein.classification.sulfur-amino-acids-essentiality
+
+## definition
+Cysteine, methionine and homocysteine all carry sulfur in their side chains (threonine does not). Of the sulfur-containing amino acids, methionine is dietary-essential; cysteine is non-essential (synthesisable from methionine via homocysteine).
+
+## explicit_objective
+List the sulfur-containing amino acids and identify methionine as the essential one among them.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Sulfur amino acids|Essential sulfur amino acid|Methionine
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming all sulfur-containing amino acids share the same essentiality. Methionine is essential; cysteine, though sulfur-containing, is not, because the body can make it from methionine.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 5,26,37
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-B97BF0F6CCF322-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Cysteine, methionine and homocysteine are sulfur-containing amino acids; threonine is not; methionine is the essential sulfur-containing amino acid.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-C368B8F5E7824A
+
+## label
+The guanidino group is arginine's distinguishing side-chain feature
+
+## canonical_key
+protein.identity.guanidino-group-arginine
+
+## definition
+Arginine's side chain terminates in a guanidino group, the most strongly basic of the standard amino-acid side chains — distinct from histidine's imidazole and tryptophan's indole rings.
+
+## explicit_objective
+Identify arginine from its guanidino side-chain group.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Arginine side chain|Guanidino group
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the guanidino group (arginine) with the imidazole ring (histidine) — both are nitrogen-rich basic groups but structurally and by name distinct.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 6
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-C368B8F5E7824A-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The guanidino group is present in arginine.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-D900D3965A118D
+
+## label
+The indole ring is tryptophan's distinguishing side-chain feature
+
+## canonical_key
+protein.identity.indole-ring-tryptophan
+
+## definition
+Tryptophan's side chain carries a bicyclic indole ring, the aromatic heterocycle that distinguishes it from arginine, histidine and proline.
+
+## explicit_objective
+Identify tryptophan from its indole side-chain ring.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Tryptophan side chain|Indole ring
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing tryptophan's indole ring with histidine's imidazole ring — both are heterocyclic aromatic rings but structurally distinct and specific to their respective amino acid.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 7
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-D900D3965A118D-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The indole ring is present in tryptophan.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-6072F2C271BF96
+
+## label
+The imidazole ring is histidine's distinguishing side-chain feature
+
+## canonical_key
+protein.identity.imidazole-ring-histidine
+
+## definition
+Histidine's side chain carries an imidazole ring, giving it a pKa near physiological pH that makes histidine residues useful acid-base catalysts in enzyme active sites.
+
+## explicit_objective
+Identify histidine from its imidazole side-chain ring.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Histidine side chain|Imidazole ring
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the imidazole ring (histidine) with the indole ring (tryptophan) or guanidino group (arginine) — all three are nitrogen-containing basic/aromatic side-chain features but distinct in structure and owner.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 9
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-6072F2C271BF96-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The imidazole ring is present in histidine.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-9651FA4F0BC56D
+
+## label
+Valine has a non-polar side chain; phenylalanine and tryptophan are also non-polar, unlike the charged basic amino acids
+
+## canonical_key
+protein.classification.nonpolar-hydrophobic-side-chains
+
+## definition
+Non-polar (hydrophobic) amino acid side chains include valine, phenylalanine and tryptophan, among others — contrasted against polar side chains (serine, asparagine, threonine) and charged/basic ones (lysine, arginine, histidine).
+
+## explicit_objective
+Identify valine, and separately phenylalanine and tryptophan, as amino acids with non-polar side chains.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Hydrophobic amino acids|Non-polar side chains
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing 'aromatic' with 'polar' — phenylalanine and tryptophan are aromatic but non-polar; it is tyrosine's phenolic hydroxyl that makes it more polar than the other two aromatics.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 10,29
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-9651FA4F0BC56D-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Valine has a non-polar side chain; phenylalanine and tryptophan are non-polar amino acids.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-68CA299502EB27
+
+## label
+Lysine carries a net positive charge at physiological pH
+
+## canonical_key
+protein.charge.net-positive-charge-lysine
+
+## definition
+Lysine's epsilon-amino side chain is protonated and positively charged at physiological pH (~7.4), unlike glutamic acid (negative), valine and leucine (uncharged, non-polar).
+
+## explicit_objective
+Identify lysine as carrying a net positive charge at physiological pH.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Lysine charge|Amino acid charge at pH 7.4
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any nitrogen-bearing side chain is positively charged at physiological pH — only the strongly basic side chains (lysine, arginine, and partially histidine) actually are.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 12,62
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-68CA299502EB27-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Lysine has a net positive charge at physiological pH.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-A104202E4874FA
+
+## label
+In collagen, hydroxylysine forms the crosslinks between tropocollagen molecules, hydroxyproline forms interchain hydrogen bonds, and glycine occupies one-third of all residues
+
+## canonical_key
+protein.structure.collagen-specific-amino-acids
+
+## definition
+Collagen's three modified/abundant amino acids each do a distinct structural job: hydroxylysine crosslinks adjacent tropocollagen molecules; hydroxyproline's hydroxyl groups hydrogen-bond between the three polypeptide chains; glycine, small enough to fit at every third position of the triple helix, makes up one-third of collagen's residues.
+
+## explicit_objective
+Assign hydroxylysine, hydroxyproline and glycine to their distinct structural roles in collagen.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Collagen amino acids|Hydroxyproline|Hydroxylysine
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Swapping hydroxylysine's role (crosslinking between molecules) with hydroxyproline's (hydrogen bonding within/between chains) — both are post-translationally hydroxylated but do different structural jobs.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 11,13,16
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-A104202E4874FA-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Hydroxylysine links tropocollagen molecules; hydroxyproline hydrogen-bonds polypeptide chains; glycine represents one-third of collagen's amino acids.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-71648230D1D4E2
+
+## label
+An essential amino acid cannot be synthesised by the body and must come from the diet; tyrosine is non-essential (made from phenylalanine) despite resembling the essential aromatics
+
+## canonical_key
+protein.classification.essential-vs-nonessential-amino-acids
+
+## definition
+Essential amino acids (including lysine, valine, phenylalanine) cannot be synthesised by the body and must be supplied by diet; non-essential amino acids can be synthesised in the body. Tyrosine, though structurally similar to the essential aromatic amino acids, is non-essential because it is made from phenylalanine.
+
+## explicit_objective
+Define non-essential amino acid status and identify tyrosine as the exception among a list of otherwise-essential amino acids.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Essential amino acids|Non-essential amino acids|Tyrosine essentiality
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming tyrosine is essential because it is aromatic like phenylalanine and tryptophan. Tyrosine is conditionally non-essential, synthesised directly from phenylalanine.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 14,15,66
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-71648230D1D4E2-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Tyrosine is not an essential amino acid; a non-essential amino acid is one that can be synthesised in the body.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-F94C59857B0FA1
+
+## label
+Enzymes are commonly activated (or inactivated) by phosphorylation of a serine residue
+
+## canonical_key
+protein.regulation.serine-phosphorylation-enzyme-activation
+
+## definition
+Covalent regulation of enzyme activity by phosphorylation typically targets the hydroxyl group of a serine residue (also threonine or tyrosine), adding a phosphate group that changes the enzyme's conformation and activity.
+
+## explicit_objective
+Name serine as the amino-acid residue phosphorylated to regulate enzyme activity.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Enzyme phosphorylation|Serine residue regulation
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming cysteine or lysine as the phosphorylation site. Phosphorylation targets a hydroxyl-bearing residue (serine, threonine, tyrosine), not a thiol or amino group.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 17
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-F94C59857B0FA1-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Enzymes are activated by phosphorylation of the serine residue.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-0223BF372BB1F1
+
+## label
+Peptide bonds are the force that maintains a protein's primary structure
+
+## canonical_key
+protein.structure.primary-structure-peptide-bonds
+
+## definition
+A protein's primary structure — its linear amino-acid sequence — is held together by covalent peptide bonds, distinct from the non-covalent forces (hydrogen bonds, ionic bonds, hydrophobic interactions, van der Waals forces) that maintain higher-order structure.
+
+## explicit_objective
+Name peptide bonds as the force maintaining primary structure.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Peptide bond|Primary structure force
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming hydrogen bonds or hydrophobic forces as maintaining primary structure — those maintain secondary/tertiary structure; only the covalent peptide bond holds the sequence itself together.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 19,61,69
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-0223BF372BB1F1-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The force maintaining the primary structure of a protein is peptide bonds.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-B753603EB0E191
+
+## label
+Secondary, tertiary and quaternary protein structure are held by ionic bonds, hydrophobic forces and van der Waals/hydrogen bonds — never by peptide bonds
+
+## canonical_key
+protein.structure.higher-order-structure-forces
+
+## definition
+Higher-order protein structure (secondary, tertiary, quaternary) is maintained by non-covalent forces: electrostatic (ionic) bonds, hydrophobic interactions, and van der Waals forces including hydrogen bonds. Peptide bonds, which hold the primary sequence, play no role in maintaining these higher levels.
+
+## explicit_objective
+List the non-covalent forces maintaining higher-order protein structure and exclude peptide bonds from that list.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Secondary and tertiary structure forces|Non-covalent protein bonds
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Including peptide bonds among the forces maintaining secondary/tertiary/quaternary structure. Peptide bonds are exclusively a primary-structure feature; higher-order structure is held by non-covalent interactions (plus disulfide bonds where present).
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 20,32
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-B753603EB0E191-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The forces maintaining secondary, tertiary and quaternary protein structure are ionic bonds, hydrophobic forces and van der Waals/hydrogen bonds; peptide bonds are not among them.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-C8259EB591C8B4
+
+## label
+Collagen, elastin and zein are all deficient in tryptophan; meat is not
+
+## canonical_key
+protein.nutrition.tryptophan-deficient-proteins
+
+## definition
+Three named proteins — collagen, elastin and zein (maize storage protein) — are characteristically low in tryptophan, contributing to their low biological value; meat, by contrast, is not tryptophan-deficient.
+
+## explicit_objective
+Identify meat as not tryptophan-deficient, among a list where collagen, elastin and zein all are.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Tryptophan-deficient proteins|Zein|Low biological value protein
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming 'all of the above' is always the safe answer when several named items share a property. Here the bank specifically tests that meat breaks the pattern the other three (collagen, elastin, zein) share.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 21
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-C8259EB591C8B4-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Collagen, elastin and zein are deficient in tryptophan; meat is not.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-8CF5D9C1E7D8B7
+
+## label
+Casein and albumin are proteins of high biological value; zein is low, largely because of its tryptophan deficiency
+
+## canonical_key
+protein.nutrition.biological-value-dietary-protein
+
+## definition
+Biological value ranks a dietary protein by how well its amino-acid profile matches human requirements. Casein and albumin, carrying a complete essential-amino-acid profile, are high-biological-value proteins; zein, deficient in tryptophan and lysine, is low.
+
+## explicit_objective
+Rank named dietary proteins (casein, albumin, zein) by biological value and connect zein's low value to its amino-acid deficiencies.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Protein biological value|Zein low biological value
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Judging biological value by protein abundance in a food rather than by amino-acid completeness. Zein is an abundant maize protein but is low-value because it lacks tryptophan and lysine.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 22,66,70
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-8CF5D9C1E7D8B7-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Casein and albumin are proteins of high biological value; zein is of low biological value.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-73F58D943BB03B
+
+## label
+At its isoelectric point, an amino acid or protein carries zero net charge, shows maximum precipitability and minimum electrophoretic mobility
+
+## canonical_key
+protein.charge.isoelectric-point-behaviour
+
+## definition
+The isoelectric point (pI) is the pH at which an amino acid or protein carries no net charge. At this pH, solubility is lowest (maximum precipitability) and mobility in an electric field is minimum — the opposite of what students sometimes expect ('maximum charge').
+
+## explicit_objective
+State that maximum precipitability (not maximum charge or mobility) characterises the isoelectric point.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Isoelectric point|pI behaviour
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Answering 'maximum net charge' or 'maximum mobility in an electric field' for what happens at the isoelectric point — both are the opposite of the true behaviour: net charge and mobility are at their minimum (zero) at pI.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 24,47,49,65
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-73F58D943BB03B-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+At the isoelectric point, amino acids and proteins show maximum precipitability; the isoelectric point of neutral amino acids is 7 and of basic amino acids is more than 7; the charge state at IEP is dipolar (zwitterionic).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-6CD90ABA3F4F08
+
+## label
+Alanine, valine, glycine, leucine, serine, threonine and glutamic acid are aliphatic amino acids; phenylalanine, tryptophan and histidine are aromatic/heterocyclic, not aliphatic
+
+## canonical_key
+protein.classification.aliphatic-amino-acids
+
+## definition
+Aliphatic amino acids have straight- or branched-chain (non-ring) side chains — alanine, valine, glycine, leucine, serine, threonine, glutamic acid. Phenylalanine, tryptophan and histidine carry ring structures and are excluded from this class.
+
+## explicit_objective
+Identify phenylalanine, tryptophan and histidine as the non-aliphatic exception among lists of otherwise-aliphatic amino acids.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Aliphatic amino acids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Grouping every 'simple-looking' amino acid as aliphatic. The presence of any ring structure (aromatic or heterocyclic) excludes an amino acid from the aliphatic class, regardless of chain length elsewhere in the molecule.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 25
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-6CD90ABA3F4F08-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Phenylalanine, tryptophan and histidine are not aliphatic amino acids.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-C6FE5C2C193B52
+
+## label
+Histidine, tryptophan and proline are heterocyclic amino acids; phenylalanine is not — its ring is carbocyclic (aromatic), not heterocyclic
+
+## canonical_key
+protein.classification.heterocyclic-amino-acids
+
+## definition
+A heterocyclic side chain contains a ring with at least one non-carbon atom. Histidine (imidazole), tryptophan (indole) and proline (pyrrolidine) qualify; phenylalanine's benzene ring is carbocyclic/aromatic, containing only carbon, and is excluded.
+
+## explicit_objective
+Identify phenylalanine as the non-heterocyclic exception among histidine, tryptophan and proline.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Heterocyclic amino acids|Proline ring
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming 'has a ring' is sufficient for 'heterocyclic'. Phenylalanine has a ring (benzene) but it is carbocyclic, not heterocyclic, because it contains no ring nitrogen or other heteroatom.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 27
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-C6FE5C2C193B52-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Histidine, tryptophan and proline are heterocyclic amino acids; phenylalanine is not.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-DABC4FFBD58B80
+
+## label
+Arginine and histidine are the semi-essential amino acids — synthesised by the body but not fast enough to meet demand during growth
+
+## canonical_key
+protein.classification.semi-essential-amino-acids
+
+## definition
+Arginine and histidine are classed as semi-essential (conditionally essential): the body can synthesise them, but not in sufficient quantity during periods of rapid growth (infancy, childhood), when dietary intake becomes necessary.
+
+## explicit_objective
+Name arginine and histidine as the semi-essential amino acids.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Semi-essential amino acids|Conditionally essential amino acids
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing 'semi-essential' with 'non-essential'. Semi-essential amino acids are made by the body under normal conditions but become conditionally essential during high-demand states such as growth.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 31
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-DABC4FFBD58B80-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Arginine and histidine are semi-essential amino acids.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-FE7A28DF2E3F38
+
+## label
+Collagen and elastin are fibrous proteins, not derived, phospho- or conjugated proteins
+
+## canonical_key
+protein.classification.fibrous-proteins
+
+## definition
+Fibrous proteins (collagen, elastin, keratin) are structural, elongated, insoluble proteins, distinct from derived proteins (denaturation/hydrolysis products), phosphoproteins (carrying phosphate groups, e.g. caseinogen) and conjugated proteins (bound to a non-protein prosthetic group).
+
+## explicit_objective
+Classify collagen and elastin as fibrous proteins.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Fibrous proteins|Collagen and elastin classification
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing the structural-protein classes. 'Fibrous' describes shape/function (structural, insoluble); it is a different axis from 'simple/derived/conjugated', which describes composition.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 33
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-FE7A28DF2E3F38-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Collagen and elastin are fibrous proteins.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-493AC407478AA3
+
+## label
+Histones are rich in basic amino acids, which lets them bind the negatively charged DNA backbone
+
+## canonical_key
+protein.structure.histones-basic-amino-acids
+
+## definition
+Histone proteins carry a high proportion of basic amino acids (lysine, arginine), giving them a net positive charge that neutralises and binds DNA's negatively charged phosphate backbone in the nucleosome.
+
+## explicit_objective
+State that histones are rich in basic amino acids, and connect this to their DNA-binding role.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Histone composition|Basic proteins
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming histones are rich in acidic or aromatic amino acids because of their role in gene regulation generally. The DNA-binding function specifically depends on their basic (positively charged) residue content.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 34
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-493AC407478AA3-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Histones are rich in basic amino acids (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-8ED61C8CFF3381
+
+## label
+Cysteine is the amino acid whose side chain carries a sulfhydryl (-SH) group
+
+## canonical_key
+protein.identity.sulfhydryl-group-cysteine
+
+## definition
+Cysteine's side chain terminates in a thiol/sulfhydryl (-SH) group — the residue whose oxidation forms the disulfide bonds that stabilise many extracellular and secreted proteins.
+
+## explicit_objective
+Identify cysteine as the sulfhydryl-group-bearing amino acid.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Cysteine|Thiol group|Sulfhydryl amino acid
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing cysteine (thiol/sulfhydryl group) with methionine (thioether, no free -SH) — both are sulfur-containing, but only cysteine's sulfur is free to form disulfide bonds.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 38
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-8ED61C8CFF3381-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Cysteine is the sulfhydryl-group-containing amino acid (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-3FF9CA93465562
+
+## label
+Glycine is the one amino acid with no asymmetric carbon, making it optically inactive and the shortest amino acid
+
+## canonical_key
+protein.structure.glycine-optical-inactivity
+
+## definition
+Glycine's side chain is a single hydrogen atom, so its alpha carbon is bonded to two identical groups (two hydrogens) and is not asymmetric — the only standard amino acid for which this is true. Glycine is therefore optically inactive and, with no side chain beyond H, the shortest amino acid.
+
+## explicit_objective
+State that glycine, uniquely among the standard amino acids, has no asymmetric carbon and is optically inactive.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Glycine|Optical inactivity|Asymmetric carbon
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any 'simple' amino acid like alanine is also optically inactive. Alanine's alpha carbon has four different substituents (including a methyl side chain) and is asymmetric; glycine, with two hydrogens on its alpha carbon, is the sole exception.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 39,52
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-3FF9CA93465562-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Glycine is non-optically active because it has no asymmetric carbon, and is the shortest amino acid.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-E2CB20749CB547
+
+## label
+Glutathione is the tripeptide glutamate-cysteine-glycine, and its active group is cysteine's sulfhydryl
+
+## canonical_key
+protein.structure.glutathione-composition
+
+## definition
+Glutathione (GSH) is a tripeptide of glutamic acid, cysteine and glycine. Its biologically active group — the one that gets oxidised in redox reactions — is the sulfhydryl (-SH) group contributed by its cysteine residue.
+
+## explicit_objective
+State glutathione's tripeptide composition and identify its active sulfhydryl group.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Glutathione|GSH|Tripeptide
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Naming glutathione's amino or carboxylic groups as 'the active group'. Its redox chemistry (and antioxidant function) specifically depends on the free sulfhydryl from cysteine.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 40
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-E2CB20749CB547-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The active group of glutathione is the sulfhydryl group.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-B265588CD72D5D
+
+## label
+A covalent bond is a true chemical bond, unlike the weaker hydrogen and non-covalent bonds that maintain secondary protein structure and are broken by denaturation
+
+## canonical_key
+protein.structure.covalent-vs-noncovalent-bonds
+
+## definition
+A covalent bond is a genuine chemical bond (electron sharing) and is strong and stable; hydrogen bonds and other non-covalent interactions are comparatively weak, are what secondary structure depends on, and are what denaturation disrupts.
+
+## explicit_objective
+Classify a covalent bond as a true chemical bond, distinct from the weaker non-covalent bonds broken by denaturation.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Covalent bond|Chemical bond strength
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Calling a covalent bond 'weak' or 'liable to be denatured' because it is being contrasted against non-covalent interactions in the same question. It is the non-covalent bonds that are weak and denaturation-sensitive; the covalent bond is the strong, true chemical bond.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 41
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-B265588CD72D5D-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+A covalent bond is a true chemical bond.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-9A3557C4D99E2A
+
+## label
+Keratin is rich in sulfur (via cysteine/cystine disulfide crosslinks) — this, not tendon location or water solubility, is its defining property
+
+## canonical_key
+protein.structure.keratin-properties
+
+## definition
+Keratin, the structural protein of hair, nails and the epidermis, is characteristically rich in sulfur, owing to its high cysteine/cystine content and the disulfide crosslinks that give it mechanical toughness. It is not the protein of tendons (that is collagen), not poor in cysteine, not conjugated, and not water-soluble.
+
+## explicit_objective
+Identify sulfur-richness as keratin's defining property among a set of plausible-sounding but incorrect alternatives.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Keratin|Sulfur-rich protein
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Confusing keratin (hair/nail/epidermis, sulfur-rich via disulfide bonds) with collagen (tendon, glycine/hydroxyproline-rich) — both are fibrous structural proteins but with different amino-acid signatures and locations.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 43
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-9A3557C4D99E2A-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Keratin is rich in sulfur.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-6AB7E628F09B9C
+
+## label
+Caseinogen (milk's casein precursor) is a phosphoprotein, not a simple, derived protein, or plasma protein
+
+## canonical_key
+protein.classification.caseinogen-phosphoprotein
+
+## definition
+Caseinogen carries covalently bound phosphate groups (esterified to serine residues), classifying it as a phosphoprotein — distinct from simple proteins (no conjugated group), derived proteins (denaturation/hydrolysis products), and from plasma proteins, since caseinogen is a milk protein, not found in plasma.
+
+## explicit_objective
+Classify caseinogen as a phosphoprotein.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Caseinogen|Phosphoprotein|Casein
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming any milk protein must be a simple protein. Caseinogen's phosphate-serine linkages specifically place it in the phosphoprotein class.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 44
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-6AB7E628F09B9C-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Caseinogen is a phosphoprotein.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-36B2B97293DA96
+
+## label
+Proteins buffer solutions because their side chains carry both acidic and basic ionisable groups
+
+## canonical_key
+protein.function.buffering-acidic-basic-groups
+
+## definition
+A protein's buffering capacity comes from the mixture of acidic (carboxyl) and basic (amino, guanidino, imidazole) ionisable groups on its constituent amino-acid side chains, which can accept or donate protons across a range of pH values — not from hydrogen bonds, an indole group, or hydrophobic bonds, which play no direct role in buffering.
+
+## explicit_objective
+State that the presence of acidic and basic groups explains a protein's buffering property.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Protein buffering|Acid-base groups on proteins
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Attributing protein buffering to hydrogen bonds or hydrophobic interactions, which are structural forces, not proton-donating/accepting chemical groups.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 51
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-36B2B97293DA96-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+The buffering property of proteins is due to the presence of acidic and basic groups.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-A5935CF609142E
+
+## label
+Sickle cell disease is caused by replacement of glutamic acid with valine at the sixth position of the haemoglobin beta chain
+
+## canonical_key
+protein.structure.sickle-cell-glu6val-substitution
+
+## definition
+The single amino-acid substitution responsible for HbS is glutamic acid (position 6 of the beta-globin chain) replaced by valine — a change from a charged, hydrophilic residue to a small, hydrophobic one that promotes haemoglobin polymerisation under low-oxygen conditions.
+
+## explicit_objective
+State the exact amino-acid substitution (glutamic acid to valine, beta-6) responsible for sickle cell disease.
+
+## concept_type
+mechanism
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Sickle cell disease|HbS|Glu6Val|Haemoglobin S
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Reversing the direction of substitution (valine replaced by glutamic acid) or naming the wrong position/residue. The tested direction is specifically Glu-to-Val at position 6.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 57
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-A5935CF609142E-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Sickle cell disease is due to replacement of glutamic acid with valine at the sixth position of the beta chain.
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.
+
+---
+
+# Item
+
+## id
+CON-FND-93B011BEEE72F4
+
+## label
+Insulin, immunoglobulin and glucagon all contain disulfide bonds; albumin, per this bank, is treated as the exception
+
+## canonical_key
+protein.structure.disulfide-bonds-membership
+
+## definition
+Disulfide bonds (cysteine-cysteine, oxidised) stabilise the structure of many secreted proteins, including insulin (interchain and intrachain), immunoglobulins (both interchain and intrachain) and glucagon. The department's own bank marks albumin as not carrying the disulfide bonds being tested here, despite albumin containing multiple intrachain disulfide bonds in reality — recorded as printed, not silently corrected.
+
+## explicit_objective
+Identify which named protein the department's bank excludes from a list of disulfide-bond-containing proteins.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+fnd
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## topic
+Biomolecules
+
+## subtopic
+Protein chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## modules
+
+
+## aliases
+Disulfide bonds|Insulin structure
+
+## arabic_label
+
+
+## arabic_aliases
+
+
+## pitfalls
+Assuming every plasma protein with cysteine residues is disulfide-bonded in the same way the question intends; the exact scope the bank tests (which named example is 'the exception') should be checked against the printed key rather than assumed from general knowledge.
+
+## article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_article_ids
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## related_concept_ids
+CON-FND-E1A2B36C939E97
+CON-FND-3C2D34E277A2DA
+CON-FND-2E8F85E0C0BB80
+
+## approved_file_resource_ids
+
+
+## approved_video_resource_ids
+
+
+## conflicts
+
+
+## uncertainty
+
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## merge_ids
+
+
+## rejected_merge_candidate_ids
+
+
+## last_reviewed
+
+
+## review_due
+
+
+## exclusion_reason
+
+
+## learner_years
+1
+
+## universities
+au
+
+## blueprint_weight
+0.4
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## module_subject
+AU-MED-102 > Biochemistry > Protein Chemistry
+
+## exam_signal
+src_4852d425a88297af190e | primary | none stated | 58
+
+## weight_confidence
+0.3
+
+## confidence
+0.7
+
+## atomic_claim_ids
+CLM-FND-PROT-93B011BEEE72F4-01
+
+## resource_ids
+src_4852d425a88297af190e
+
+## original_wording
+Insulin, immunoglobulin and glucagon contain disulfide bonds (item unkeyed in this bank's printed answer list — recorded as such, and the 'albumin as exception' framing is noted rather than asserted as verified, since albumin does in fact carry intrachain disulfide bonds in standard biochemistry).
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## field_notes
+microtopicId: No MIC_ identifier exists under DIS-BIO-T01 in the curriculum overlay; the canonical placement plus module_subject already carries the position.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than the department's own materials distinguish.
+moduleIds: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic batch is pending import); curriculum mapping is carried in module_subject instead.
+arabicLabel: No standard Arabic term for this specific classification is in undergraduate use separate from the English technical vocabulary; students at Alexandria are taught this in English.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept yet.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+resourceOccurrenceIds: Hand-authored from the AU-MED-102 Biochemistry department's own MCQ banks and EOM papers; this concept has no pipeline extraction record.
+sourceCandidateIds: Searched the corpus source index and docs/*-Source-Imports/concept/ for this canonical key and its distinctive terms before minting (see the department triage, coverage/AU-MED-102-biochemistry-triage.md §6-7); no closer corpus candidate exists than the sources already named in exam_signal.
+relationships: Walked the concepts minted alongside this one in the same batch under DIS-BIO-T01/T02-S01; loose same-topic proximity recorded in related_concept_ids. No typed edge met the bar of a specific, nameable, directed relationship distinct from plain topic adjacency, so none is written to a relations batch this pass.

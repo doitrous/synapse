@@ -171,3 +171,91 @@ CLM-FND-LIPID-D2618849B690F9-01
 
 ## citation_ids
 CIT-FND-LIPID-D2618849B690F9-01
+
+---
+
+# Item
+
+## id
+SPN-FND-PROT-COLLAGEN-01
+
+## article_id
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-protein-chemistry-mechanism
+
+## text
+Hydroxylysine forms the covalent crosslinks between adjacent tropocollagen molecules.
+
+## claim_ids
+CLM-FND-PROT-A104202E4874FA-01
+
+## citation_ids
+CIT-FND-PROT-A104202E4874FA-01
+
+---
+
+# Item
+
+## id
+SPN-FND-PROT-STRUCTURE-LEVELS-01
+
+## article_id
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-protein-chemistry-mechanism
+
+## text
+Primary structure — the amino-acid sequence — is held by covalent peptide bonds alone.
+
+## claim_ids
+CLM-FND-PROT-0223BF372BB1F1-01
+
+## citation_ids
+CIT-FND-PROT-0223BF372BB1F1-01
+
+---
+
+# Item
+
+## id
+SPN-FND-PROT-DENATURATION-01
+
+## article_id
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-protein-chemistry-mechanism
+
+## text
+Denaturation acts precisely on this distinction: it ruptures the non-covalent bonds holding secondary, tertiary and quaternary structure, leaving the protein insoluble, more digestible and biologically inactive — but the peptide-bonded primary sequence survives intact.
+
+## claim_ids
+
+
+## citation_ids
+
+
+---
+
+# Item
+
+## id
+SPN-FND-PROT-SICKLE-01
+
+## article_id
+ART-FND-AU-MED-102-PROTEIN-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-protein-chemistry-clinical-significance
+
+## text
+glutamic acid at position 6 of the haemoglobin beta chain is replaced by valine, a change from a charged, hydrophilic residue to a small, hydrophobic one
+
+## claim_ids
+CLM-FND-PROT-A5935CF609142E-01
+
+## citation_ids
+CIT-FND-PROT-A5935CF609142E-01

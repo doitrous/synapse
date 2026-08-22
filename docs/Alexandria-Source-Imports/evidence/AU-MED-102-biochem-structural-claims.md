@@ -1697,3 +1697,1475 @@ no
 
 ## qualifiers
 scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-E1A2B36C939E97-01
+
+## concept_id
+CON-FND-E1A2B36C939E97
+
+## subject
+Arginine, histidine and lysine
+
+## predicate
+are
+
+## object
+basic amino acids; glutamine is not
+
+## display_text
+Arginine, histidine and lysine are basic amino acids; glutamine is not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-3C2D34E277A2DA-01
+
+## concept_id
+CON-FND-3C2D34E277A2DA
+
+## subject
+Threonine has a hydroxyl group.
+
+## predicate
+states
+
+## object
+Threonine has a hydroxyl group.
+
+## display_text
+Threonine has a hydroxyl group.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-2E8F85E0C0BB80-01
+
+## concept_id
+CON-FND-2E8F85E0C0BB80
+
+## subject
+Aspartic acid
+
+## predicate
+is
+
+## object
+not neutral; tyrosine, glycine and threonine are
+
+## display_text
+Aspartic acid is not neutral; tyrosine, glycine and threonine are.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-4F4C3943A3D7D6-01
+
+## concept_id
+CON-FND-4F4C3943A3D7D6
+
+## subject
+Valine, leucine and isoleucine
+
+## predicate
+are
+
+## object
+branched-chain amino acids; threonine is not
+
+## display_text
+Valine, leucine and isoleucine are branched-chain amino acids; threonine is not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-B97BF0F6CCF322-01
+
+## concept_id
+CON-FND-B97BF0F6CCF322
+
+## subject
+Cysteine, methionine and homocysteine
+
+## predicate
+are
+
+## object
+sulfur-containing amino acids; threonine is not; methionine is the essential sulfur-containing amino acid
+
+## display_text
+Cysteine, methionine and homocysteine are sulfur-containing amino acids; threonine is not; methionine is the essential sulfur-containing amino acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-C368B8F5E7824A-01
+
+## concept_id
+CON-FND-C368B8F5E7824A
+
+## subject
+The guanidino group
+
+## predicate
+is
+
+## object
+present in arginine
+
+## display_text
+The guanidino group is present in arginine.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-D900D3965A118D-01
+
+## concept_id
+CON-FND-D900D3965A118D
+
+## subject
+The indole ring
+
+## predicate
+is
+
+## object
+present in tryptophan
+
+## display_text
+The indole ring is present in tryptophan.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-6072F2C271BF96-01
+
+## concept_id
+CON-FND-6072F2C271BF96
+
+## subject
+The imidazole ring
+
+## predicate
+is
+
+## object
+present in histidine
+
+## display_text
+The imidazole ring is present in histidine.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-9651FA4F0BC56D-01
+
+## concept_id
+CON-FND-9651FA4F0BC56D
+
+## subject
+Valine has a non-polar side chain; phenylalanine and tryptophan
+
+## predicate
+are
+
+## object
+non-polar amino acids
+
+## display_text
+Valine has a non-polar side chain; phenylalanine and tryptophan are non-polar amino acids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-68CA299502EB27-01
+
+## concept_id
+CON-FND-68CA299502EB27
+
+## subject
+Lysine has a net positive charge at physiological pH.
+
+## predicate
+states
+
+## object
+Lysine has a net positive charge at physiological pH.
+
+## display_text
+Lysine has a net positive charge at physiological pH.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-A104202E4874FA-01
+
+## concept_id
+CON-FND-A104202E4874FA
+
+## subject
+Hydroxylysine links tropocollagen molecules; hydroxyproline 
+
+## predicate
+states
+
+## object
+Hydroxylysine links tropocollagen molecules; hydroxyproline hydrogen-bonds polypeptide chains; glycine represents one-third of collagen's amino acids.
+
+## display_text
+Hydroxylysine links tropocollagen molecules; hydroxyproline hydrogen-bonds polypeptide chains; glycine represents one-third of collagen's amino acids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-71648230D1D4E2-01
+
+## concept_id
+CON-FND-71648230D1D4E2
+
+## subject
+Tyrosine
+
+## predicate
+is
+
+## object
+not an essential amino acid; a non-essential amino acid is one that can be synthesised in the body
+
+## display_text
+Tyrosine is not an essential amino acid; a non-essential amino acid is one that can be synthesised in the body.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-F94C59857B0FA1-01
+
+## concept_id
+CON-FND-F94C59857B0FA1
+
+## subject
+Enzymes
+
+## predicate
+are
+
+## object
+activated by phosphorylation of the serine residue
+
+## display_text
+Enzymes are activated by phosphorylation of the serine residue.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-0223BF372BB1F1-01
+
+## concept_id
+CON-FND-0223BF372BB1F1
+
+## subject
+The force maintaining the primary structure of a protein
+
+## predicate
+is
+
+## object
+peptide bonds
+
+## display_text
+The force maintaining the primary structure of a protein is peptide bonds.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-B753603EB0E191-01
+
+## concept_id
+CON-FND-B753603EB0E191
+
+## subject
+The forces maintaining secondary, tertiary and quaternary protein structure
+
+## predicate
+are
+
+## object
+ionic bonds, hydrophobic forces and van der Waals/hydrogen bonds; peptide bonds are not among them
+
+## display_text
+The forces maintaining secondary, tertiary and quaternary protein structure are ionic bonds, hydrophobic forces and van der Waals/hydrogen bonds; peptide bonds are not among them.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-C8259EB591C8B4-01
+
+## concept_id
+CON-FND-C8259EB591C8B4
+
+## subject
+Collagen, elastin and zein
+
+## predicate
+are
+
+## object
+deficient in tryptophan; meat is not
+
+## display_text
+Collagen, elastin and zein are deficient in tryptophan; meat is not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-8CF5D9C1E7D8B7-01
+
+## concept_id
+CON-FND-8CF5D9C1E7D8B7
+
+## subject
+Casein and albumin
+
+## predicate
+are
+
+## object
+proteins of high biological value; zein is of low biological value
+
+## display_text
+Casein and albumin are proteins of high biological value; zein is of low biological value.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-73F58D943BB03B-01
+
+## concept_id
+CON-FND-73F58D943BB03B
+
+## subject
+At the isoelectric point, amino acids and proteins show maximum precipitability; the isoelectric point of neutral amino acids
+
+## predicate
+is
+
+## object
+7 and of basic amino acids is more than 7; the charge state at IEP is dipolar (zwitterionic)
+
+## display_text
+At the isoelectric point, amino acids and proteins show maximum precipitability; the isoelectric point of neutral amino acids is 7 and of basic amino acids is more than 7; the charge state at IEP is dipolar (zwitterionic).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-6CD90ABA3F4F08-01
+
+## concept_id
+CON-FND-6CD90ABA3F4F08
+
+## subject
+Phenylalanine, tryptophan and histidine
+
+## predicate
+are
+
+## object
+not aliphatic amino acids
+
+## display_text
+Phenylalanine, tryptophan and histidine are not aliphatic amino acids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-C6FE5C2C193B52-01
+
+## concept_id
+CON-FND-C6FE5C2C193B52
+
+## subject
+Histidine, tryptophan and proline
+
+## predicate
+are
+
+## object
+heterocyclic amino acids; phenylalanine is not
+
+## display_text
+Histidine, tryptophan and proline are heterocyclic amino acids; phenylalanine is not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-DABC4FFBD58B80-01
+
+## concept_id
+CON-FND-DABC4FFBD58B80
+
+## subject
+Arginine and histidine
+
+## predicate
+are
+
+## object
+semi-essential amino acids
+
+## display_text
+Arginine and histidine are semi-essential amino acids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-FE7A28DF2E3F38-01
+
+## concept_id
+CON-FND-FE7A28DF2E3F38
+
+## subject
+Collagen and elastin
+
+## predicate
+are
+
+## object
+fibrous proteins
+
+## display_text
+Collagen and elastin are fibrous proteins.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-493AC407478AA3-01
+
+## concept_id
+CON-FND-493AC407478AA3
+
+## subject
+Histones
+
+## predicate
+are
+
+## object
+rich in basic amino acids (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key)
+
+## display_text
+Histones are rich in basic amino acids (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-8ED61C8CFF3381-01
+
+## concept_id
+CON-FND-8ED61C8CFF3381
+
+## subject
+Cysteine
+
+## predicate
+is
+
+## object
+the sulfhydryl-group-containing amino acid (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key)
+
+## display_text
+Cysteine is the sulfhydryl-group-containing amino acid (item unkeyed in this bank's printed answer list — recorded as such; the fact is standard undergraduate biochemistry, independent of this one item's key).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-3FF9CA93465562-01
+
+## concept_id
+CON-FND-3FF9CA93465562
+
+## subject
+Glycine
+
+## predicate
+is
+
+## object
+non-optically active because it has no asymmetric carbon, and is the shortest amino acid
+
+## display_text
+Glycine is non-optically active because it has no asymmetric carbon, and is the shortest amino acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-E2CB20749CB547-01
+
+## concept_id
+CON-FND-E2CB20749CB547
+
+## subject
+The active group of glutathione
+
+## predicate
+is
+
+## object
+the sulfhydryl group
+
+## display_text
+The active group of glutathione is the sulfhydryl group.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-B265588CD72D5D-01
+
+## concept_id
+CON-FND-B265588CD72D5D
+
+## subject
+A covalent bond
+
+## predicate
+is
+
+## object
+a true chemical bond
+
+## display_text
+A covalent bond is a true chemical bond.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-9A3557C4D99E2A-01
+
+## concept_id
+CON-FND-9A3557C4D99E2A
+
+## subject
+Keratin
+
+## predicate
+is
+
+## object
+rich in sulfur
+
+## display_text
+Keratin is rich in sulfur.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-6AB7E628F09B9C-01
+
+## concept_id
+CON-FND-6AB7E628F09B9C
+
+## subject
+Caseinogen
+
+## predicate
+is
+
+## object
+a phosphoprotein
+
+## display_text
+Caseinogen is a phosphoprotein.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-36B2B97293DA96-01
+
+## concept_id
+CON-FND-36B2B97293DA96
+
+## subject
+The buffering property of proteins
+
+## predicate
+is
+
+## object
+due to the presence of acidic and basic groups
+
+## display_text
+The buffering property of proteins is due to the presence of acidic and basic groups.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-A5935CF609142E-01
+
+## concept_id
+CON-FND-A5935CF609142E
+
+## subject
+Sickle cell disease
+
+## predicate
+is
+
+## object
+due to replacement of glutamic acid with valine at the sixth position of the beta chain
+
+## display_text
+Sickle cell disease is due to replacement of glutamic acid with valine at the sixth position of the beta chain.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-PROT-93B011BEEE72F4-01
+
+## concept_id
+CON-FND-93B011BEEE72F4
+
+## subject
+Insulin, immunoglobulin and glucagon contain disulfide bonds (item unkeyed in this bank's printed answer list — recorded as such, and the 'albumin as exception' framing
+
+## predicate
+is
+
+## object
+noted rather than asserted as verified, since albumin does in fact carry intrachain disulfide bonds in standard biochemistry)
+
+## display_text
+Insulin, immunoglobulin and glucagon contain disulfide bonds (item unkeyed in this bank's printed answer list — recorded as such, and the 'albumin as exception' framing is noted rather than asserted as verified, since albumin does in fact carry intrachain disulfide bonds in standard biochemistry).
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural

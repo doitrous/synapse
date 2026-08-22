@@ -1475,3 +1475,1283 @@ Alexandria University AU-MED-102 Biochemistry department question source; is_ass
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-E1A2B36C939E97-01
+
+## claim_id
+CLM-FND-PROT-E1A2B36C939E97-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+One of the amino acids listed below is not basic: a- Arginine b- Histidine c- Glutamine d- Lysine
+
+## locator_type
+page
+
+## locator_page
+1,28,36
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-3C2D34E277A2DA-01
+
+## claim_id
+CLM-FND-PROT-3C2D34E277A2DA-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following amino acid has a hydroxyl group a- Valine b- Threonine c- Leucine d- Histidine
+
+## locator_type
+page
+
+## locator_page
+2,30
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-2E8F85E0C0BB80-01
+
+## claim_id
+CLM-FND-PROT-2E8F85E0C0BB80-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following amino acids are neutral, EXCEPT: a- Aspartic acid b- Tyrosine c- Glycine d- Threonine
+
+## locator_type
+page
+
+## locator_page
+3
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-4F4C3943A3D7D6-01
+
+## claim_id
+CLM-FND-PROT-4F4C3943A3D7D6-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following are branched chain amino acids, EXCEPT: a- Valine b- Leucine c- Isoleucine d- Threonine
+
+## locator_type
+page
+
+## locator_page
+4
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-B97BF0F6CCF322-01
+
+## claim_id
+CLM-FND-PROT-B97BF0F6CCF322-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following are sulphur containing amino acids, except: a- Cysteine b- Methionine c- Homocysteine d- Threonine / Essential sulphur containing amino acid: a- Lysine b- Cysteine c- Cystine d- Methionine
+
+## locator_type
+page
+
+## locator_page
+5,26,37
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-C368B8F5E7824A-01
+
+## claim_id
+CLM-FND-PROT-C368B8F5E7824A-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Guanidine group is present in : a- Arginine b- Tryptophan c- Histidine d- Proline
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-D900D3965A118D-01
+
+## claim_id
+CLM-FND-PROT-D900D3965A118D-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Indole ring is present in : a- Arginine b- Tryptophan c- Histidine d- Proline
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-6072F2C271BF96-01
+
+## claim_id
+CLM-FND-PROT-6072F2C271BF96-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Imidazole ring is present in : a- Arginine b- Tryptophan c- Histidine d- Proline
+
+## locator_type
+page
+
+## locator_page
+9
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-9651FA4F0BC56D-01
+
+## claim_id
+CLM-FND-PROT-9651FA4F0BC56D-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following amino acids has a non-polar side chain? a- Serine b- Valine c- Asparagine d- Threonine / Non-polar amino acids include: ... b- Phenylalanine and tryptophan.
+
+## locator_type
+page
+
+## locator_page
+10,29
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-68CA299502EB27-01
+
+## claim_id
+CLM-FND-PROT-68CA299502EB27-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following amino acids has a net positive charge at physiological pH? a- Glutamic acid b- Lysine c- Valine d- Leucine
+
+## locator_type
+page
+
+## locator_page
+12,62
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-A104202E4874FA-01
+
+## claim_id
+CLM-FND-PROT-A104202E4874FA-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Amino acid responsible for linking tropocollagen molecules together in collagen a- Hydroxy lysine b- Hydroxy Proline c- Glutamine d- Glycine / In collagen structure, Glycine represents ... of the amino acids a- 1/3
+
+## locator_type
+page
+
+## locator_page
+11,13,16
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-71648230D1D4E2-01
+
+## claim_id
+CLM-FND-PROT-71648230D1D4E2-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following are essential amino acids, EXCEPT: a- Tyrosine b- Lysine c- Valine d- Phenyl alanine / Non-essential amino acid: a- Are not seen in tissue proteins b- Could be synthesized in the Body
+
+## locator_type
+page
+
+## locator_page
+14,15,66
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-F94C59857B0FA1-01
+
+## claim_id
+CLM-FND-PROT-F94C59857B0FA1-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Enzymes are activated by phosphorylation of which amino acid residue: a- Cysteine b- Serine c- Glutamic acid d- Lysine
+
+## locator_type
+page
+
+## locator_page
+17
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-0223BF372BB1F1-01
+
+## claim_id
+CLM-FND-PROT-0223BF372BB1F1-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+The force maintaining the primary structure of a protein is: a- Peptide bonds b- Hydrophobic forces c- Hydrogen bonds d- Electrostatic (ionic) bonds
+
+## locator_type
+page
+
+## locator_page
+19,61,69
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-B753603EB0E191-01
+
+## claim_id
+CLM-FND-PROT-B753603EB0E191-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+The forces maintaining the secondary, tertiary and quaternary structures of a protein are the following EXCEPT: a- Electrostatic (ionic) bonds b- Hydrophobic forces c- Van der Waals forces (Hydrogen bonds) d- Peptide bonds
+
+## locator_type
+page
+
+## locator_page
+20,32
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-C8259EB591C8B4-01
+
+## claim_id
+CLM-FND-PROT-C8259EB591C8B4-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following proteins are deficient in Tryptophan except a- Collagen b- Elastin c- Zein d- All of the above e- Meat
+
+## locator_type
+page
+
+## locator_page
+21
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-8CF5D9C1E7D8B7-01
+
+## claim_id
+CLM-FND-PROT-8CF5D9C1E7D8B7-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Protein of low biological value : a- Casein b-Zein c- Albumin d- Globulin (item unkeyed in this bank's printed answer list — recorded as such; the classification itself is standard undergraduate biochemistry, independent of this one item's key)
+
+## locator_type
+page
+
+## locator_page
+22,66,70
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-73F58D943BB03B-01
+
+## claim_id
+CLM-FND-PROT-73F58D943BB03B-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+At IEP, amino acids and proteins show: a- Maximum net charge. b- Maximum mobility in electric field. c- Maximum perceptibility. d- Maximum buffering action. / What is the charging state of Amino acid at its IEP? a- Dipolar.
+
+## locator_type
+page
+
+## locator_page
+24,47,49,65
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-6CD90ABA3F4F08-01
+
+## claim_id
+CLM-FND-PROT-6CD90ABA3F4F08-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+The following are aliphatic amino acids, EXCEPT: a- Alanine, Valine and glycine b- Glycine, Leucine and serine c- Threonine, serine and glutamic acid. d- Phenylalanine, tryptophan and Histidine.
+
+## locator_type
+page
+
+## locator_page
+25
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-C6FE5C2C193B52-01
+
+## claim_id
+CLM-FND-PROT-C6FE5C2C193B52-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+All the following are heterocyclic amino acids, EXCEPT: a- Histidine b- Phenylalanine. c- Tryptophan d- Proline
+
+## locator_type
+page
+
+## locator_page
+27
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-DABC4FFBD58B80-01
+
+## claim_id
+CLM-FND-PROT-DABC4FFBD58B80-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Semi-essential amino acids include : a- Valine and threonine. b- Arginine and Histidine. c- Cysteine and methionine. d- Phenylalanine and tyrosine.
+
+## locator_type
+page
+
+## locator_page
+31
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-FE7A28DF2E3F38-01
+
+## claim_id
+CLM-FND-PROT-FE7A28DF2E3F38-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Collagen and elastin are : a- Derived proteins. b- Fibrous proteins. c- Phosphoproteins. d- Conjugated proteins.
+
+## locator_type
+page
+
+## locator_page
+33
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-493AC407478AA3-01
+
+## claim_id
+CLM-FND-PROT-493AC407478AA3-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Histones are rich in: a- Neural amino acids. b- Basic amino acids. c- Acidic amino acids. d- Aromatic amino acids.
+
+## locator_type
+page
+
+## locator_page
+34
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-8ED61C8CFF3381-01
+
+## claim_id
+CLM-FND-PROT-8ED61C8CFF3381-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Sulfhydryl group containing amino acid : a- Lysine b- Cysteine c- Proline d- Methionine
+
+## locator_type
+page
+
+## locator_page
+38
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-3FF9CA93465562-01
+
+## claim_id
+CLM-FND-PROT-3FF9CA93465562-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Non-Optically active amino acid: a- Glycine b- Alanine c- Valine d- None of the above / Glycine is characterized by : a- Absence of asymmetric carbon b- Absence of optical activity c- The shortest amino acid d- All of the above
+
+## locator_type
+page
+
+## locator_page
+39,52
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-E2CB20749CB547-01
+
+## claim_id
+CLM-FND-PROT-E2CB20749CB547-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+The active group of Glutathione is : a- Amino group b- Sulfhydryl group c- Carboxylic group d- Imino group
+
+## locator_type
+page
+
+## locator_page
+40
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-B265588CD72D5D-01
+
+## claim_id
+CLM-FND-PROT-B265588CD72D5D-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Covalent bond : a- A weak bond b- True chemical bond c- Hydrogen bond d- Responsible for secondary structure of protein e- Liable to be denaturated
+
+## locator_type
+page
+
+## locator_page
+41
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-9A3557C4D99E2A-01
+
+## claim_id
+CLM-FND-PROT-9A3557C4D99E2A-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Keratin is: a- Protein of tendons b- Rich in sulfur c- Poor in cysteine d- Conjugated protein e- Soluble in water
+
+## locator_type
+page
+
+## locator_page
+43
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-6AB7E628F09B9C-01
+
+## claim_id
+CLM-FND-PROT-6AB7E628F09B9C-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Caseinogen is: a- Simple protein b- Derived protein c- Phospho protein d- Present in plasma
+
+## locator_type
+page
+
+## locator_page
+44
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-36B2B97293DA96-01
+
+## claim_id
+CLM-FND-PROT-36B2B97293DA96-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+The buffering property of proteins is due to the presence of: a- Acidic and basic groups b- Hydrogen bonds c- Indole group d- Hydrophobic bonds
+
+## locator_type
+page
+
+## locator_page
+51
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-A5935CF609142E-01
+
+## claim_id
+CLM-FND-PROT-A5935CF609142E-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Sickle Cell Disease is due to replacement of ..... with ....... At 6th position of beta chain : a- Valine , Glutamic Acid b- Glutamic Acid, Valine c- Valine, Aspartic Acid d- Aspartic Acid, Valine
+
+## locator_type
+page
+
+## locator_page
+57
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-PROT-93B011BEEE72F4-01
+
+## claim_id
+CLM-FND-PROT-93B011BEEE72F4-01
+
+## resource_id
+src_4852d425a88297af190e
+
+## evidence_role
+local_curriculum
+
+## support_span
+Disulfide bonds are present in all the following except: a- Insulin b- Immunoglobulin c- Albumin d- Glucagon
+
+## locator_type
+page
+
+## locator_page
+58
+
+## locator_section
+
+
+## locator_detail
+
+
+## context_note
+Alexandria University AU-MED-102 Biochemistry department question source; is_assessment=true (curriculum/exam signal, not independent medical authority).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
