@@ -425,6 +425,94 @@ Kasr's own pipeline salts concept ids per module, so two minters currently exist
 repo with different behaviour on the same input — which one a new lane should use is an
 open product question, not yours to resolve by guessing.
 
+### Per-university traceability on shared records
+
+One shared id, but **every university that uses the record carries its own complete tag
+set** — not a share of one combined set. A concept, article, question, resource or
+practical that three universities teach is one record with three universities' worth of
+tags sitting side by side on it, and every one of those universities' tags must be there
+in full, or that university's view of the record is broken without the record looking
+wrong to anyone checking a different university.
+
+The six tags, per kind (verified against the importers, `src/data/*.ts`):
+
+| Tag | Concept | Article | Question | Resource / Practical |
+|---|---|---|---|---|
+| `universities` | `universityIds` (`conceptImport.ts:184`) | `universityIds` (`bulkImport.ts:1233`) | `tags.universityIds` (`bulkImport.ts:1147`) | `universityIds` |
+| `years` | `learner_years` → `learnerYears`, plain numbers (`conceptImport.ts:183`) | `years` → `yearIds`, scoped ids like `OMS_Y2` (`bulkImport.ts:1233`) | `years` → `tags.years` (`bulkImport.ts:1146`) | `years` → `yearIds` |
+| `module` | `modules` → `moduleIds` (`conceptImport.ts:185`) | `module` → `moduleIds` | `module` → `tags.moduleIds` (`bulkImport.ts:1157`) | `module_ids` (resource) |
+| `module_subject` | one path per line, first segment names the module (`conceptImport.ts:194-196`, `moduleSubjectPath.ts`) | same | same (`bulkImport.ts:1158`) | same |
+| `exam_weight_by_year` | `YEAR_ID=weight` pairs (`conceptImport.ts:187`) | — (not a field on this kind) | `YEAR_ID=weight` pairs (`bulkImport.ts:1162`) | — |
+| `university_notes` | — **not a field on this kind today** — | `UNI: text` per line (`bulkImport.ts:117`, `:1183-1184`) | — **landing, not live yet** — | — **landing, not live yet** — |
+
+Every field marked "—" genuinely does not exist on that kind's import contract as of
+2026-08-23; do not invent a column for it. `university_notes` is currently **article-only**
+— a lane is adding it to the question and practical importers, but until that ships,
+university-specific callouts on a question or practical have nowhere to go except
+`author_notes` (internal, never shown to a student) or the article that covers it.
+
+**How each tag actually merges — this is where a second university's overlay gets lost:**
+
+- `universities`, `module` (as an id list) and `years`-as-ids are true ID-list columns:
+  `optionalList`/`listDirective` (`src/data/importSemantics.ts`) give you `+au`, `+AU_Y1`,
+  `+AU-MED-102` — append without retyping what is already there. This is the safe, ordinary
+  case.
+- `module_subject` is **not** an ID-list column — it is a list of paths, parsed by
+  `parseModuleSubjectPaths` (`moduleSubjectPath.ts:33-38`), which splits only on newlines and
+  never strips a leading `+`. **Today, writing it replaces the field wholesale**; a second
+  university's path must be added by restating every path already there plus your own, in
+  one cell, one path per line — `+101 ISK > Anatomy` stores the literal `+` in front of the
+  path, not an append (`02-concepts.md`, `04-library-articles.md`, `05-questions.md` all
+  carry this warning already). A lane is landing `+<path>` append support for this field
+  (in progress, 2026-08-23) — until it ships, treat every `module_subject` write as a full
+  replacement.
+- `exam_weight_by_year` is a nested object, not a list, so it merges **per key**
+  (`mergeAuthoringData`, `src/data/importMerge.ts:43-59`, recurses into plain objects rather
+  than replacing them). Writing only your own `YEAR_ID=weight` entries is safe — another
+  university's year keys already on the record survive untouched. The trap is the key
+  itself, not the merge: get the year id wrong and your entry sits beside the others,
+  contributing nothing to anyone.
+- `university_notes` (article only) is a flat prose list re-parsed whole on every write
+  (`bulkImport.ts:1183-1184`) — restate every university's note line, not only your own, the
+  same discipline as `module_subject`.
+
+**A record is traceable per university when filtering by that university alone reproduces
+that university's whole view of it** — which years, which modules, which exam weight, which
+source. That is exactly what the runtime does: `itemInScope`/`itemScope`
+(`src/data/contentControl.ts:651-666`) is the question/article/resource/practical filter a
+student's own university and year are run through, and `conceptInScope`
+(`src/data/adaptive/blueprint.ts:84-92`) is the concept one. Reproduce the filter by hand —
+pick one university id, check every tag above resolves to something that names it — and if
+any tag comes up silent, that university's traceability is broken even though every other
+university's is fine.
+
+**What breaks when one tag is missing, verified against the code that reads it:**
+
+- **Empty `universities`** does not mean "no university" — it means **every university**
+  (`itemScope`/`conceptInScope` both treat an empty list as unrestricted). A record you
+  meant to scope to one university, left blank, silently reaches all of them.
+- **A module tagged without its university** (i.e. the university you added is missing from
+  `universities` even though its module id is present) is invisible to that university's
+  own per-university filter — `itemUniversities` (`contentScope.ts:137-141`) and
+  `itemWritableBy` (`contentScope.ts:151-166`) derive "which university" partly from scoped
+  year ids like `AU_Y1`, so a module tag with no matching university or year id on the
+  record cannot be traced back to anyone.
+- **An `exam_weight_by_year` key on the wrong year id is lost**, and not merely unused —
+  `conceptInScope` (`blueprint.ts:88-90`) restricts a concept's blueprint visibility to
+  *exactly* the year ids present in `exam_weight_by_year` once that map has any entries at
+  all. A concept correctly tagged `universities: +au`, `learner_years: +1` but whose
+  `exam_weight_by_year` only ever got a Kasr key (`KAU_Y1`) is **excluded outright** from
+  Alexandria Year 1's blueprint — not under-weighted, absent — because the map names a year
+  Alexandria's filter never matches.
+
+The validator is being extended to enforce this consistency directly — `universities` ↔
+`years` ↔ `module` ↔ `exam_weight_by_year` keys all naming the same set of universities, one
+check rather than four separate fields an author has to cross-check by hand (in progress as
+of 2026-08-23; do not assume it is enforced yet). Until it lands, each module's `GATES.md`
+(13 §4, S8) reports the per-record completeness of these six tags — treat a record flagged
+incomplete there as not actually finished for that university, regardless of what its
+`fieldsUsed` count says.
+
 ---
 
 ## 4 · Search before you create

@@ -258,6 +258,19 @@ Write the way down, one path per line:
   reorganised as department books change, and a path that stops resolving can be
   reported and repaired, where a stale ID just points at nothing.
 
+**A question shared by several universities needs all four of `universities`, `years`,
+`module`, and `exam_weight_by_year` filled in for each one** — `universities`, `years` and
+`module` are true id lists (`+HU`, `+HU_Y3`, `+HU-GIT-301` append safely), but
+`module_subject` re-parses the whole cell on every write with no `+` form, so a second
+university's path means retyping every path already there plus the new one.
+`exam_weight_by_year` merges per `YEAR_ID=weight` key, so writing only your own year's entry
+is safe — but a key on the wrong year id contributes nothing to anyone's blueprint. See
+[00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records). Questions
+have no `university_notes` column today (it is landing); a university-specific aside goes in
+`author_notes` (internal only) or on the covering article's own `university_notes` until it
+ships.
+
 Build the tree first, with an indented outline in **Academic Setup › Import**.
 See `01-subjects-and-topics.md`.
 

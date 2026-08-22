@@ -63,6 +63,40 @@ the batch, and a candidate ID that is real on the live record but absent from th
 fails as though invented. An `id` that is not live is refused outright rather than quietly
 turned into a stub (`470fdde`).
 
+**A sparse overlay update must carry all six per-university tags for the university it is
+adding, not just `universities`** — see [00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records). A concept
+Alexandria overlays onto a Kasr record needs, in one sparse row: `+au`, `+AU_Y1`,
+`+AU-MED-102`, and (since `module_subject` fully replaces) a `module_subject` cell restating
+Kasr's existing path(s) plus Alexandria's own:
+
+```markdown
+## id
+CON-MED-...
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-102
+
+## module_subject
+101 ISK > Anatomy > Upper Limb
+AU-MED-102 > Anatomy > Upper Limb
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## field_notes
+university_notes: not a field on concepts — put the source note in field_notes or on the covering article
+```
+
+Concepts have no `university_notes` column; name your source (paper/bank/page) in
+`field_notes` instead, e.g. `au: MED 102 EOM 2024 p3`.
+
 ---
 
 ## Is a concept the right thing to write?
