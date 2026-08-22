@@ -59,7 +59,7 @@ finding already circled cannot be used to test whether the student can find it.
 | `type` | Practical format | **yes** | `Imaging interpretation`. Exact string. |
 | `lab_subtype` | Lab / Imaging | **yes** in practice | `Imaging`. |
 | `title` | Title | **yes** | What the set covers. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
@@ -68,6 +68,9 @@ finding already circled cannot be used to test whether the student can find it.
 | `difficulty` | Difficulty | no | Whole-item difficulty; each question may set its own. |
 | `lab_questions` | Interpretation questions | **yes** | The questions. Syntax below. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this set is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this set sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What the set as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | **No mastery.** |
@@ -78,6 +81,35 @@ finding already circled cannot be used to test whether the student can find it.
 Lab and imaging share one model — `LabAuthoringData` with a `subtype` flag. The only
 differences are the flag, the `type` string, and the fact that imaging genuinely needs the
 asset.
+
+---
+
+## Priority of sources
+
+Highest first (00 §A): this department's own imaging/practical atlas or bank, then other
+official files for the same module, then doctor/student/academy notes (tier ≤5, never sole
+source), then a standard textbook only where the corpus has none. **Another university's
+imaging bank never stands for this university's signal.**
+
+Every required-media request above is stage S6 of the pipeline
+([13-orchestration.md](13-orchestration.md) §4) — marked as a request, never rewritten into
+prose that describes the finding instead of showing it.
+
+## Scope: universities and module
+
+A practical set is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported set arrived unscoped. An
+empty `universities` list means EVERY university. Scope is separate from concept tagging and
+`module_subject`.
+
+## Stages and completeness
+
+Finished per [13-orchestration.md](13-orchestration.md) §4 once `questions` meets this type's
+floor, every S6 request is tracked, and `medical:audit` is clean — not at the first green
+`medical:batch`.
 
 ---
 

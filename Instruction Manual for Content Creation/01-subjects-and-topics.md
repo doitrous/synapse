@@ -45,14 +45,58 @@ where you already placed the item rather than typed twice.
 Five levels, each with a stable ID prefix:
 
 ```
-System      SYS_*    ← the eight subjects
+System      SYS_*    ← the twenty subjects
   Topic       TPC_*
     Subtopic    SUB_*
       Microtopic  MIC_*
         Nanotopic   NAN_*
 ```
 
-Subject IDs are exactly `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`.
+Subject IDs are exactly these twenty, from `src/data/curriculumCatalog.ts` (see 00 §3):
+
+```
+cvs    resp   renal  gi     neuro  endo   msk    pharm  fnd    dev
+haem   imm    inf    obs    gyn    androl psy    derm   mul    pop
+```
+
+Nothing else is valid in a `subject` field. Twelve of the twenty have no live concept yet;
+that is not a reason to avoid them.
+
+### Placement for a subject without an obvious home
+
+Some source material does not name one of the twenty directly. Placement (00 §3, ruled
+2026-08-22):
+
+| Source names | Goes to |
+|---|---|
+| Community medicine | `pop` |
+| Psychology | `psy` |
+| Microbiology or parasitology | `inf` |
+| Forensic medicine, toxicology, ENT, ophthalmology | the body system of the mechanism or target organ — asphyxia → `resp`; otitis / conjunctivitis → `inf`; visual pathway, pupil, audiovestibular → `neuro`; ocular embryology → `dev`; organophosphates → `mul` |
+| Umbrella forensic/toxicology principles with no single organ | `mul` |
+| Pharmacology concepts | take `FND` or `INF` as the `CON-` system code (`pharm` cannot pick its own prefix — see 00 §3) |
+
+`oph` and `ent` as subjects are pending Omar; do not mint them.
+
+---
+
+## Module IDs
+
+A module ID is a **global bare string**, not namespaced by university in the ID itself.
+Kasr keeps its existing bare form — `101 ISK`. A new university's module carries the
+university short as a prefix instead, uppercase, spaces to hyphens: `ASU-CVS`, `AU-MED-102`,
+`HU-GIT-301`. Every record's `universities` field must be non-empty regardless — an empty
+`universities` list is visible to every university, which is almost never what you want, and
+the catalogue check enforces it.
+
+Academic structure (year → term → module → subject) imports through **Admin › Academic
+Import**, which reads an outline (`# Year N` / `## Term N` / `- Module name [ID]`, subjects
+indented beneath), not the `# Item` blocks this manual otherwise uses. Today only
+`docs/import-ready/academic/kau-modules.md` exists — no other university has an academic
+batch yet. `withModules()` in `src/data/universities.ts` takes each module as a `[name,
+moduleId]` pair; it does **not** carry a term, whatever else you may have heard — every
+course it builds is hard-set to `Term 1`. If a module genuinely sits in a later term, say so
+in your report; do not invent a third tuple element.
 
 ---
 
@@ -126,9 +170,8 @@ systems: 20
 
 If the shelf exists under any name, rename it rather than adding a sibling.
 
-> The catalogue holds **20** systems, not eight. The eight subject IDs in §00 are the ones
-> valid in a `subject` field on content; the extra systems exist in the tree. Check before
-> assuming a system is missing.
+> The catalogue holds **20** systems, matching the 20 subject IDs valid in a `subject` field
+> (00 §3). Check the tree before assuming a system is missing.
 
 ---
 

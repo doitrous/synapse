@@ -17,6 +17,26 @@ they will hear on the ward.
 
 ---
 
+## Scope: this is reference content, not a project of its own
+
+The glossary must not grow ahead of the question bank. Write a term because a module you are
+actually authoring needs it — because its department book uses the word, or a question or
+article you wrote assumes the student knows it — not because it is a plausible medical term.
+Terms come from the department books of the modules being authored, in the order those
+modules are worked.
+
+## Arabic review
+
+`ar` and `defAr` are both required in practice — a term is not finished with an English side
+only. Research the Arabic yourself; you do not need to wait for a reviewer to write it. But
+any rendering you are not fully confident of goes in a running list at
+`<root>/glossary/ARABIC-REVIEW.md` (create it if it does not exist: one line per term, the
+term, your rendering, and what you are unsure of) so a native reviewer can confirm it before
+Omar treats it as final. Writing an Arabic term you doubt without flagging it there is worse
+than flagging it — a wrong term teaches the wrong word.
+
+---
+
 ## Three ways this type is different from everything else
 
 ### 1 · It uses a pipe table, not `# Item` blocks

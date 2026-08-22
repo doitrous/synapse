@@ -13,6 +13,47 @@ text.
 
 ---
 
+## Source tiers
+
+Neither resource schema has a `tier` field — **write the tier in prose**, in `qualification`
+(evidence source) or `description` (catalogue), and let `confidence` carry the weight.
+Highest first (00 §A):
+
+1. Actual exam papers, with an official key or model answer.
+2. Department files — department books, department question banks, practical atlases,
+   official lecture files.
+3. Doctor notes, student notes, academy material — tier ≤5 only, never the sole source of an
+   answer.
+4. Standard textbooks — only where the corpus has no department text, said so in
+   `qualification`.
+
+`is_assessment: yes` on an exam paper already keeps it out of the medical-authority pool;
+`qualification` is where you say which of the four tiers a source is and why.
+
+## The name-twin hazard
+
+A file named `"… Updated"` next to one without is not guaranteed to be byte-identical to it,
+and the "Updated" copy has often lost its text layer even when the original had one. Record
+which is which in the intake manifest as `nameTwinOf` (the pair) and `twinPreferred` (the copy
+with the native text layer, read first) — and **cite the copy you actually read**, not
+whichever one you assumed was newer.
+
+## Kasr sitting year by exam type
+
+A Kasr batch number does not map to one exam type the same way. EOM papers sat
+`batch + 1825 + year`; EOY and Baqoon (resit) papers sat `batch + 1826 + year` — one year
+later than the EOM formula for the same batch number. A printed date on the paper always
+wins over either formula.
+
+## Telegram fetch (Omar's Chrome, chief of staff holds the queue)
+
+- One lane fetches at a time; queue through the chief of staff, do not run two at once.
+- Listed channel links and the in-app search box only — never open-ended browsing.
+- Open a channel only to identify it; **never click Join**, log "needs Omar to join" instead.
+- Never click "add to folder" / addlist. No video or audio downloads.
+- Dedupe by sha256 as files land; tier ≤5, and another university's paper is never this
+  university's signal.
+
 ## One PDF, two records
 
 The word "resource" names two different things, kept in two different stores, imported on
@@ -117,7 +158,7 @@ What a student opens. Imports at **Bulk import → resource**.
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | The source as a student would recognise it. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `type` | **yes** | `Book` · `Video` · `Guideline` · `Deck` · `Article`. |
 | `source` | **yes** | Publisher, institution or author. |
 | `id` | no | Use the `src_…` ID if this PDF is in the corpus, so both records match. |
