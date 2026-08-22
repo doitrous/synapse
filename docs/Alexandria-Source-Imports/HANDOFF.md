@@ -35,6 +35,7 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | 6d32266 | AU-MED-105 Histology: 18 concepts, 8 articles, 33 + 14 questions — LANE DONE |
 | 06f320a | AU-MED-103 Histology: audit 0, 13 pending questions + 9 practical written — LANE DONE |
 | b5415d0 | AU-MED-102 Biochem D complete: 43 concepts, 3 articles, 38 + 5 questions — LANE DONE |
+| ae39518 | AU-MED-102 Biochem B: 37 Kasr overlays (lipid + CHO) + 21 pending questions (lipid questions + explanation bar owed) |
 | d4b0239 | AU-MED-102 Biochem A protein chemistry: 32 concepts, 10 MCQs (enzymology with fresh lane W1-102-BIOC-A2) |
 | 7b86515 | AU-MED-103 Physiology: 19 concepts + 17 updates, 7 articles, 49 MCQs — LANE DONE (resource file format fix in flight; 10 spot items owed) |
 
