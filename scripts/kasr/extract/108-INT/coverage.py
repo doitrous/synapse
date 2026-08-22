@@ -561,16 +561,8 @@ def section_owed():
         "",
         "| Owed | Scale | Why it is not done |",
         "| --- | --- | --- |",
-        "| Typed concept relations | %d concepts, **0 edges** | Relationship discovery ran on every "
-        "concept and its outcome is recorded per record, but a typed edge needs a claim and a "
-        "citation to support it and this module has neither. The edges are named as owed rather "
-        "than written unsupported. |" % authored_concept_count,
-        "| The evidence chain — claims, citations, article spans | %d concepts and %d articles "
-        "carry none | Two causes, both stated on every affected record. Kasr `src_…` IDs are real "
-        "and checksummed but absent from `corpus-source-index.json`, so a citation naming one "
-        "fails the corpus check; and no claim/citation pass has been run for this module "
-        "(LD-14). No near-miss live claim was attached to clear a validator. |"
-        % (authored_concept_count, authored_article_count),
+        "| Typed concept relations | %d concepts, **0 edges** | Relationship discovery ran on every concept and its outcome is recorded per record. A typed edge needs a claim and a citation to support it; both now exist, so this is authorable for the first time and simply has not been done. |" % authored_concept_count,
+        "| Article spans | %d articles carry no `resourceIds`, `claimIds` or `spanIds` | The concepts are done — all %d carry real claims and resources — but the articles were authored before the evidence pass and were not revisited. These are the audit's three remaining findings. |" % (authored_article_count, authored_concept_count),
         "| Glossary terms | 0 | No glossary batch was written. The module's Arabic labels are "
         "authored on the concepts themselves. |",
         "| Images | %d requests, none fulfilled | The repository holds no medical images. Every "
@@ -582,6 +574,7 @@ def section_owed():
         "| A pharmacogenomics concept and article | 1 question waiting | The department examines "
         "it (orientation ILOs 51 and 52) and its own book does not teach it. Authoring it from a "
         "foreign textbook would be inventing curriculum. |",
+        "| A guard on the written-batch sweep | 1 file at risk | **Do not register a `108 INT` paper in `scripts/kasr/seeds/` until this lands.** `removeOrphans` in `build-batches.ts` deletes any `108-INT-*-written.md` the run did not generate. Today the build throws at `:614` — no registered paper belongs to this module — so nothing runs. Register one paper and the run writes `108-INT-EOY-<year>-written.md` and sweeps the hand-authored `108-INT-EOY-written.md`, which is how that file was already lost twice. Nothing in a filename separates generated from hand-authored, so the guard is a design question for whoever owns the generator. `medical:batches-present` would catch the loss on the same push; it does not prevent it. |",
     ]
     return "\n".join(lines)
 
