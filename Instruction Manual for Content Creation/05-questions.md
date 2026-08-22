@@ -318,6 +318,13 @@ There is also a note, not an error, when the concept you are testing has not pas
 the evidence gate: *"main concept X has not passed the evidence gate — promote the
 concept and the question together"*. That is a sequencing reminder, not a defect.
 
+That union rule passes on the concept side alone, and the concept side is not always earned:
+`scripts/kasr/build-article-links.ts` writes `article_ids` onto generated concept rows by term
+overlap, not by anyone confirming the article teaches the concept, so a clean `medical:batch`
+run can still mean no article actually names the concept. For hand-over, treat coverage as
+real only after the coverage-verification pass — reading each linked article and confirming or
+fixing the back-link — has run for the module (13-orchestration.md §4, §10).
+
 ## Media
 
 A question is the **only** student-facing item that can carry all three media types

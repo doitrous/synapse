@@ -8,7 +8,7 @@ Every record any lane produces must trace to a question a student will sit, or t
 **Pause all universities and years except Kasr Year 1 and Alexandria Year 1. Finish those two to publishable state so Omar can publish them; then resume the rest.**
 - ACTIVE: Kasr Y1 (101–108), Alexandria Y1 (AU-MED-102/103/105/106 wave 1; 101 via Telegram), validator lane (serving those two).
 - PAUSED (checkpoint, hold for "RESUME"): Kasr Y2–5 (after its current fetch run), Ain Shams, Helwan (lanes stop at triage checkpoint).
-- Browser queue now: Alexandria (HOLDING, Year 1 list, MED 101 first) → Kasr Y1 (T3 104 solved books → T5 102 Baqoon 198/199 → T6 104 Baqoon 199 → T4 101 EOY 197 → T7 undated originals → T1 residual) → Kasr Y2–5 remainder → [paused: Helwan, Ain Shams]. Kasr Y1 items 1–2 closed: both gaps are real (atlas posted = 12-page corpus copy; cartilage MCQs never in the PDF).
+- Browser queue now: Kasr Y1 (T3 104 solved books → T5 → T6 → T4 → T7 → T1 residual; launches only after its stall probe passes) → Kasr Y2–5 remainder → [paused: Helwan, Ain Shams]. Alexandria's slot done: 1 file landed (MED 106 practical CVS bank, ASM Minds); MED 101 orientation exists only as chat text. Kasr Y1 items 1–2 closed: both gaps are real (atlas posted = 12-page corpus copy; cartilage MCQs never in the PDF).
 - Publishable = every banked/triaged question's main concept covered by an article; all gates green; INDEX per import folder with exact order + flags for Omar; pending-live separated; audit debt blocking visibility cleared.
 
 ## Standing orders (issued 2026-08-22)
@@ -36,7 +36,7 @@ Every record any lane produces must trace to a question a student will sit, or t
 
 | Module | Done | Remaining (owner) | ETA |
 |---|---|---|---|
-| 101 ISK | Structure verified; coverage 258/258 under the validator's union rule (concept.article_ids ∪ article.related_concepts); explanations brief (median 145 chars, 92% ≤2 sentences) → deterministic claim-append enrichment APPROVED, starts when 102/104 builds land (~1–2 h), then regenerate + regate | publishes with the rest of Year 1; Omar can say "publish 101 now" to skip enrichment |
+| 101 ISK | NOT YET two-sided: of 282 tested concepts, 127 both-sided, 155 concept-side-only (heuristic article_ids) → two reading lanes (anatomy ~105, histology ~50) add back-links / fix articles; explanation enrichment + 38-station practical repair also pending | publishes when the coverage pass, enrichment and practical repair are green |
 | 108 INT | AT THE PUBLISH LINE (b5f9e6d): ten-step chained simulate in click order, zero rejects; INDEX-108-INT.md (14 rows) + 108-INT-GATES.md; audit 3 editorial lines. Atlas gap is real (item 1 closed) | needs: practical scope columns on its 10 stations; Omar's reviewer names |
 | 102 INT | concepts, articles, evidence | MCQ triage 504 rows (B5a/b), 9 unseeded sittings (B6), relations (C9), INDEX | ≈2–3 h |
 | 103 BMS | concepts, articles | evidence (C7), every question on 22 papers (B7a/b/c), relations, INDEX | ≈3 h |
@@ -50,6 +50,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 ~3,188 questions across 13 lanes (AU-MED-102/103/105/106); ~877 concepts: 63 live / ~355 pending in Kasr Y1 / ~301 new. 100% question-traceable. ETA after approval: 103/106 ~3–4 h, 105 ~4–5 h, 102 ~6 h (BIOC split 4 ways). Plan: coverage/00-publish-plan-year1.md. Explanation bar (≥3 sentences) imposed from the first question.
 
 ## Rulings
+
+- TWO-SIDED COVERAGE (2026-08-23): for hand-over, every tested concept must be named in an article's related_concepts AND that article must actually teach it; a heuristic concept-side `article_ids` (build-article-links.ts term overlap) alone is not coverage. Verification pass per module before INDEX. (Manual 04/05/13 to carry this on next touch.)
 
 - TRIAGE CHECKPOINT (all universities): lanes stop after question-led triage; the orchestrator sends CoS one table (questions triaged · concepts tested · live-hit / pending-hit / new) and mints nothing until "TRIAGE APPROVED".
 
@@ -74,6 +76,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - IMPORTER BUG FIXED 312777b: every `+` item after the first was stored with its plus, in BOTH the pipe form and the one-per-line form (the one-per-line "workaround" never worked). Parser-level fix; blast radius 3 cells / 14 ids in 103-BMS-mcq-vitamins-nerve.md; no batch edits needed. `X | +Y` is refused as ambiguous.
 
 ## Escalations to Omar
+
+- ALEXANDRIA CHANNELS (for Omar to join/assess): @ASM_2025_2030 (ASM Minds 1st year, paid brand with free gifts), @AlexAid_31 (1st year 2031 class; orientation text, no files yet), @AlexandriaMedicine (chat). MED 101 has no PDF/DOCX sources in any channel.
 
 - STRAY FILES in the main checkout (written there by manifest.py's hardcoded REPO path; untracked; Ain Shams could not delete outside its worktree): `docs/Ain-Shams-Source-Imports/manifest/asu-y1/y2-sources.json` (and sibling) under /Users/doitrous/Documents/CodexGPT/Codex-Synapse continue on Claude/ClaudeSynapse — delete by hand.
 
@@ -159,3 +163,10 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - 2026-08-23 00:45 — Omar: CONTEXT DISCIPLINE order (compact or hand off; subagents one-shot; deltas only). Broadcast to all lanes; HANDOFF.md written for the chief of staff; Kasr Y2–5 handoff committed. Ain Shams session exited at the 00:30 limit (paused at 2271002; resume from branch). Alexandria first-file audit not relaunched (not worth tokens).
 - 2026-08-23 — Validator E dcc6929 (practical floors; 101 histology practical 38/38 below floor, media undescribed), F 2d3c6c6 (live-id sparse rows validate as updates; every concept batch on main clean), handoff 3f4ea7a; 103 OWED was never owed. G in progress, then validator holds for a fresh session.
 - 2026-08-23 — Validator G c255322; handoff 1d063a0; lane holding. Alexandria c4b3e55 (AU-MED-103 Biochem). Kasr Y1 7b93d83 merge, 101 practical repair lane, HANDOFF 86244b9.
+- 2026-08-23 — medical:presence (b885078): 3 mid-edit 103 anatomy rows; 102 evidence gaps owned by 102 lanes; check-concept-presence.mjs judges sparse rows as full → Kasr Y1 patching its own script with the 2d3c6c6 live-id rule. Presence must be green before INDEX-102/103.
+- 2026-08-23 ~01:20 — PLATFORM STALL: every Kasr Y1 subagent since ~00:40 died at the 600 s stream watchdog (10 lanes). Kasr Y1 paused dispatch 10 min, probing with one lane, max 4 concurrent after. Alexandria asked to confirm and cap. All partial work on disk; HANDOFFs committed.
+- 2026-08-23 ~01:30 — Alexandria browser free: 1 file landed; channels listed for Omar. Stall platform-wide; both orchestrators probing with one lane. Chrome reserved for Kasr Y1 T3 after its probe.
+- 2026-08-23 ~01:45 — API recovered (Alexandria probe passed; ≤4 lanes). Alexandria 654b24e (Biochem C). CROSS-LANE GAP: 17 concepts in 101-ISK-mcq-concepts.md have no teaching article → routed to Kasr Y1 to verify 101's coverage claim and write the missing articles before hand-over.
+- 2026-08-23 ~01:55 — Kasr Y1 confirmed: 17/23 Alexandria ids covered only by heuristic concept-side links, ≥2 wrong. Ruling: two-sided coverage is the publish gate; verification pass widened to every module.
+- 2026-08-23 ~02:05 — Two-sided coverage scan: 101 155/282 concept-side-only; 102 99/164 (+17 article-only ok); 103 2 (+14 none, in-flight); 104 8; 108 0. Reading lanes dispatched per module (probe permitting).
+- 2026-08-23 ~02:15 — Kasr Y1 probe proven (a3c77f6: 104 pipeline 120 MCQs/30 concepts; 160/335 bank rows authored, 172 untriaged); dispatch at 4: 101 two-sided ×2, 103 anatomy, 102 coverage; then 103 histology, enrichment, 103 biochem papers, 101 practical floor, 104 two-sided+INDEX, T3 fetch. check-two-sided-coverage.py 4ad6755. Alexandria 6fd9e4e (Biochem D); label-before-id parser hazard relayed.
