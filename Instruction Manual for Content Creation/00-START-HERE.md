@@ -235,6 +235,10 @@ The glossary is the exception: it uses a pipe table. See [11-glossary-terms.md](
 | **ID lists** | newline, `\|`, `;` | `concept_ids`, `resource_ids`, `universities`, `years`, `module`, `aliases`, `secondary_node_ids`, and every other list of identifiers |
 | **Prose lists** | **newline only** | `hold_these`, `lose_the_mark`, `actor_flags`, `references`, `field_notes`, `university_notes`, `related_articles` |
 
+A `+` only means append on a list column. On a prose, `key: value` or path column —
+`module_subject` among them — it is stored as part of the value, and `medical:batch` now
+refuses it (`d82dd36`). Write those fields as a full replacement.
+
 Prose lists split on newlines only because a semicolon inside a teaching point was cutting
 it into two half-sentences. Your manual's field table names the rule for every field. When
 in doubt, put one item per line — that is correct under both rules.
@@ -283,18 +287,25 @@ split on newlines by a separate parser that never strips a `+` — so `+101 ISK 
 imports with the literal plus still on the front, not appended to what was already there.
 Treat any field this manual doesn't explicitly call an ID list the same way: write it as a
 full replacement, never a `+` cell. Verified 2026-08-22 by the Ain Shams toolchain lane
-against the real validator; turning into a validator error.
+against the real validator; `medical:batch` now refuses it (`d82dd36`).
 
-**An update row must still restate the kind's discriminator** — `## label` (or
-`canonical_key`) for a concept, the title/question/type field for every other kind. Kind is
-detected once per file from its first row's columns, and a row that drops the discriminator
-because "it's just an update" can make the whole file's kind resolve to `unknown`.
-`medical:simulate` keeps an unrecognised file in a separate `refused` list rather than
-`errors`, precisely so a batch of a kind it doesn't know about doesn't fail a run whose data
-is otherwise fine — which also means a genuinely sparse update that fell into `unknown` is
-never applied and never shows up as an error either. A row of `## id` + `+universities` and
-nothing else is exactly what gets lost this way. Verified 2026-08-22 by the Ain Shams
-toolchain lane against the real validator; turning into a validator error.
+**An update row must still restate the kind's discriminator** — `## label` for a concept
+(restate the live record's label verbatim; `canonical_key` may accompany it but does not
+replace it — `detectBatchKind` will still classify a `label`-less, `canonical_key`-only row
+as a concept, but the required-field check in `validate-content-batch.mjs` demands `label`
+specifically and refuses the row without it), the title/question/type field for every other
+kind. Kind is detected once per file from its first row's columns, and a row that drops the
+discriminator because "it's just an update" can make the whole file's kind resolve to
+`unknown`. `medical:batch` has always refused a row like this outright — exit 1, `label is
+required`, alongside the `470fdde` stub-create error — so it was never the silent one. The
+silent one was `medical:simulate`: it used to list such a file under `skipped` and exit 0, so
+a genuinely sparse update — a row of `## id` + `+universities` and nothing else — was never
+applied and never flagged either. Since `d82dd36`, `medical:simulate` errors on any file
+carrying `## id` rows it cannot type, naming the ids and the missing discriminator; a file
+with no `## id` rows at all still just shows up as a skip. Verified 2026-08-22 by the Ain
+Shams toolchain lane against the real validator, and again by the Alexandria lane the same
+day: 23 pending-live rows carrying `## id` + `## canonical_key` but no `## label` all failed
+`label is required` against validator `d82dd36`.
 
 **An update row against an id that is not live is refused, not silently created.** Before
 470fdde, a row carrying only an `id` plus a couple of changed columns — meant as an update
@@ -529,10 +540,11 @@ is untouched. Note that `aliases` re-types the two existing values alongside the
 that is deliberate, for the `+append` reason given above.
 
 > **Keep the discriminating columns even in an update.** `## label` above is unchanged, and
-> it is there only so the file can be recognised as a concept batch. Strip it and the
-> validator cannot classify the record at all — it falls through to `unknown` and refuses
-> the file, naming the kinds it recognises. (It used to crash with a `TypeError` here, which
-> said the same thing far less usefully.)
+> it is required, not optional — `canonical_key` alone will still get the file classified as
+> a concept batch, but the row itself is refused with `label is required` unless `## label`
+> is restated too. Strip both and the validator cannot classify the record at all — it falls
+> through to `unknown` and refuses the file, naming the kinds it recognises. (It used to
+> crash with a `TypeError` here, which said the same thing far less usefully.)
 >
 > An update record carries `id` + the discriminating columns for its type + only the fields
 > you are changing. Your manual names the discriminating columns in its header box.

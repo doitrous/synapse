@@ -329,6 +329,36 @@ function plusOnNonListErrors(rowKind, values) {
   return problems
 }
 
+/**
+ * A row that edits a record that already exists, rather than authoring one.
+ *
+ * Two conditions, and both matter. The `id` must resolve — to live state, or to
+ * a full record in this batch folder or a `--with` sibling — so a typo'd id is
+ * still a create and is still refused for what it lacks. And the row must
+ * restate its discriminator, the column its kind is recognised by, so the
+ * detector types the file correctly and `medical:simulate` does not skip it.
+ *
+ * On such a row the authoring fields are not required. A sparse update carrying
+ * `id`, `label` and three columns is the documented way to add claim links to a
+ * concept that already has a definition, and demanding one back reported 90
+ * lines of "no definition" against records whose live definitions were never in
+ * doubt. Every check that reads a field the row *does* name still applies —
+ * catalogue, `+` semantics, candidate ids — because those are about what the
+ * row says, not about what it omits.
+ */
+function isRecognisedUpdate(rowKind, values) {
+  const id = values.id?.trim()
+  if (!id) return false
+  // Live state, or a `--with` sibling — deliberately NOT a full record in this
+  // same file. `authoredHere` includes the row being validated, so a brand-new
+  // concept vouched for itself: its own id was "authored here", so it read as
+  // an update and was excused the definition it genuinely lacked. A create must
+  // never be able to certify itself.
+  if (!liveIds.has(id) && !authoredAlongside.has(id)) return false
+  const substance = SUBSTANCE[rowKind]
+  return Boolean(substance && values[substance]?.trim())
+}
+
 /* ---- completeness, reported and never enforced --------------------------- */
 
 /**
@@ -346,6 +376,21 @@ function plusOnNonListErrors(rowKind, values) {
  * only.
  */
 const FIELD_FLOOR = { concept: 50, question: 46, article: 49 }
+
+/**
+ * The same contract for practicals, which state it per format.
+ *
+ * From each format's manual: "Columns you should use — N of the 25". They
+ * differ because the formats use different columns, so one number across all
+ * practicals would be wrong for four of the five.
+ */
+const PRACTICAL_FLOOR = {
+  'OSCE station': 20,
+  'Clinical case': 19,
+  'Skills checklist': 16,
+  'Lab interpretation': 17,
+  'Imaging interpretation': 17,
+}
 
 /** Sentences, counted the way a reader would: terminal punctuation, not line breaks. */
 const sentenceCount = (text) => (text.match(/[.!?](\s|$)/g) ?? []).length || (text.trim() ? 1 : 0)
@@ -391,6 +436,53 @@ function completenessWarnings(rowKind, rows) {
   }
 
   if (rowKind === 'practical') {
+    // Per station, by format. The five practical manuals state this as "Columns
+    // you should use — 20 of the 25" rather than as a `fieldsUsed floor` line,
+    // and say outright that practicals do not report `fieldsUsed` at all. They
+    // are the same contract under another name: a minimum column count for a
+    // finished record, differing by format because the formats use different
+    // columns. An OSCE has candidate instructions and a mark scheme; a clinical
+    // case has decisions and neither.
+    //
+    // The manuals count "of the 25", which predates the three scoping columns
+    // added to the importer today. A floor is a minimum, so the extra columns
+    // can only lift a station over it, never under.
+    const authored = rows.filter((row) => !liveIds.has(row.id?.trim()))
+    const belowFloor = []
+    for (const row of authored) {
+      const floor = PRACTICAL_FLOOR[(row.type ?? '').trim()]
+      if (floor && Object.keys(row).length < floor) belowFloor.push({ type: row.type.trim(), used: Object.keys(row).length, floor })
+    }
+    if (belowFloor.length) {
+      const byType = {}
+      for (const entry of belowFloor) {
+        byType[entry.type] ??= { count: 0, floor: entry.floor, thinnest: entry.used }
+        byType[entry.type].count += 1
+        byType[entry.type].thinnest = Math.min(byType[entry.type].thinnest, entry.used)
+      }
+      const detail = Object.entries(byType)
+        .map(([type, seen]) => `${seen.count} ${type} below ${seen.floor} (thinnest ${seen.thinnest})`)
+        .join('; ')
+      out.push(`${belowFloor.length} of ${authored.length} station(s) use fewer columns than their format's manual asks for: ${detail}.`)
+    }
+
+    // A station nobody can be marked on. `mark_scheme` is how an OSCE and a
+    // checklist are scored and `marks` is the total; a case or a lab set scores
+    // through its decisions instead, so those formats are not counted here.
+    const scored = authored.filter((row) => ['OSCE station', 'Skills checklist'].includes((row.type ?? '').trim()))
+    const unscored = scored.filter((row) => !row.mark_scheme?.trim() && !row.marks?.trim())
+    if (unscored.length) {
+      out.push(`${unscored.length} of ${scored.length} OSCE/checklist station(s) carry neither mark_scheme nor marks — there is nothing to score a candidate against.`)
+    }
+
+    // An asset a station needs and does not describe. `media_needed` flags that
+    // something is missing; `media_recommendations` is what to make. Flagged
+    // without described, nobody knows what to commission.
+    const wanting = rows.filter((row) => row.media_needed?.trim() && !row.media_recommendations?.trim())
+    if (wanting.length) {
+      out.push(`${wanting.length} station(s) set media_needed but no media_recommendations — the asset is flagged as missing with nothing saying what to make.`)
+    }
+
     // Practicals could not be scoped until the importer learned the columns, so
     // every station authored before that carries none and is visible to every
     // university's student — empty means unrestricted. Warned, not failed: the
@@ -475,6 +567,16 @@ try {
  * ID must not vouch for each other.
  */
 const authoredHere = new Set()
+
+/**
+ * The same, restricted to `--with` siblings.
+ *
+ * `authoredHere` answers "does anything author this id", including the file
+ * under validation, which is right for the stub-create check. It is wrong for
+ * deciding whether a row is an update: a row is in its own file, so it would
+ * vouch for itself.
+ */
+const authoredAlongside = new Set()
 {
   const dir = dirname(file)
   const paths = new Set([
@@ -488,7 +590,10 @@ const authoredHere = new Set()
     const theirKind = detectKind(parsed[0])
     for (const row of parsed) {
       const id = row.id?.trim()
-      if (id && !isUpdateShaped(theirKind, row)) authoredHere.add(id)
+      if (id && !isUpdateShaped(theirKind, row)) {
+        authoredHere.add(id)
+        if (path !== resolve(file)) authoredAlongside.add(id)
+      }
     }
   }
 }
@@ -1185,6 +1290,9 @@ rows.forEach((values, index) => {
   for (const key of Object.keys(values)) {
     if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
   }
+  // An update restates its discriminator and only the columns it changes, so
+  // the authoring fields below are asked of creates alone.
+  const isUpdate = isRecognisedUpdate('concept', values)
   if (!values.label?.trim()) errors.push(`${where}: label is required`)
     for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
     for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
@@ -1206,9 +1314,9 @@ rows.forEach((values, index) => {
       errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
     }
   }
-  if (!concept.definition) errors.push(`${where}: no definition`)
-  if (!concept.explicitObjective) errors.push(`${where}: no explicit objective — a concept without one cannot be assessed`)
-  if (!concept.arabicLabel && !concept.fieldNotes?.arabicLabel) errors.push(`${where}: no Arabic label and no field note saying why (LD-15)`)
+  if (!isUpdate && !concept.definition) errors.push(`${where}: no definition`)
+  if (!isUpdate && !concept.explicitObjective) errors.push(`${where}: no explicit objective — a concept without one cannot be assessed`)
+  if (!isUpdate && !concept.arabicLabel && !concept.fieldNotes?.arabicLabel) errors.push(`${where}: no Arabic label and no field note saying why (LD-15)`)
   records.push(concept)
 })
 

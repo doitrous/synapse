@@ -14,7 +14,7 @@ fail. Do not repeat that.
 |---|---|
 | **Imports at** | Admin › Concepts › Import (`/admin/concepts/import`) |
 | **Goes in** | `docs/import-ready/concept/` |
-| **Recognised by** | the presence of `label` or `canonical_key` — **always include `label`** |
+| **Recognised by** | the presence of `label` or `canonical_key` for *kind detection* — but the row itself is refused without `## label` regardless; **always include `label`, `canonical_key` does not substitute** |
 | **`fieldsUsed` floor** | **50** of 52 for a **new** concept — the worked example scores **52** |
 
 The floor applies to new records only. An **update** is deliberately sparse — `id` + the
@@ -22,14 +22,21 @@ discriminating columns + the fields you are changing — and will score far belo
 an update with `medical:simulate` and confirm `created: 0, updated: 1`; `medical:batch` and
 the floor do not apply. See [00-START-HERE §2](00-START-HERE.md).
 
-**An update row must still restate `label` (or `canonical_key`).** Kind is detected once per
-file, from its columns, and a concept is recognised by the presence of one of those two keys
-— drop both because the row is "just an update" and the file's kind can resolve to
-`unknown`. `medical:simulate` puts an unrecognised file in its `refused` list, which is kept
-separate from `errors` on purpose, so a run can print zero errors while that update never
-applied. A sparse row of `## id` + `+universities` alone is exactly the shape that gets lost
-this way. Verified 2026-08-22 by the Ain Shams toolchain lane against the real validator;
-turning into a validator error.
+**An update row must still restate `## label`.** `canonical_key` may accompany it but does
+not replace it: kind detection resolves a file to `concept` on the presence of either key,
+but the required-field check keys on `label` specifically — a row with `## id` +
+`## canonical_key` and no `## label` fails `label is required` even though the file is
+correctly typed as a concept batch. Drop both keys and the file's kind can resolve to
+`unknown` instead. `medical:batch` has always refused a label-less row outright — exit 1,
+`label is required`, alongside the `470fdde` stub-create error. It was `medical:simulate`
+that stayed quiet: it used to put such a file in its `skipped` list and exit 0, so a run
+could print zero errors while a sparse row of `## id` + `+universities` alone never applied.
+Since `d82dd36`, `medical:simulate` errors on any file carrying `## id` rows it cannot type,
+naming the ids and the missing discriminator; a file with no `## id` rows at all still just
+shows up as a skip. Verified 2026-08-22 by the Ain Shams toolchain lane against the real
+validator, and again the same day by the Alexandria lane: 23 pending-live rows with
+`## canonical_key` but no `## label` all failed `label is required` against `d82dd36`.
+Restate the Kasr label verbatim on every sparse update row.
 
 Append to a list field rather than retyping it, with a leading `+` on the cell — `+au`,
 `+AU_Y1`, `+AU-MED-102`. Both the pipe-joined and the one-item-per-line form are safe: a
@@ -44,8 +51,8 @@ different way never see it. `module_subject` is the case that bit: it is a list 
 of IDs, split on newlines by `parseModuleSubjectPaths`, which never strips a `+`, so
 `+101 ISK > Anatomy > Upper Limb` is stored with the literal `+` in front of it, not appended
 to what was already there. Write a non-ID-list field as a full replacement, every time.
-Verified 2026-08-22 by the Ain Shams toolchain lane against the real validator; turning into
-a validator error.
+Verified 2026-08-22 by the Ain Shams toolchain lane against the real validator;
+`medical:batch` now refuses it (`d82dd36`).
 
 Never write a **full record** over a hit: every field you name replaces what live state
 holds, so a full record that means to add `AU` to `universities` but retypes the field
