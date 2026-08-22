@@ -338,3 +338,14 @@ can publish them; then continue with the rest."
   order and flags for Omar.
 - The Telegram fetch list is re-ordered Year 1 first (MED 101 first, then the Year 1 gaps in
   `coverage/00-gap-ledger.md`); Year 2/3 rows wait.
+
+### What "live" means (validator lane, verified in code)
+`server/data/medical-library-v1.json` — what simulate and find-existing call live — is built
+from the extraction bundle, never from production. Omar's admin-UI imports are not in it and
+regeneration would not add them. So:
+- **HIT-LIVE** = the id is in the bundle.
+- A key found only in `docs/import-ready/` or any `docs/*-Source-Imports/` folder is
+  **HIT-PENDING** even if Omar may already have imported that batch — it goes to
+  `pending-live/` with the batch name in its import-order line, and Omar confirms at import.
+- Deterministic ids mean a re-mint of an already-applied key becomes an update, not a
+  duplicate. Nothing to fear there; the hazard is only the stub-creation case in §15.
