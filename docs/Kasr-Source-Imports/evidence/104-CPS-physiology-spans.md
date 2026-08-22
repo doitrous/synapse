@@ -217,7 +217,7 @@ SPN-104-PHY-NCC-01
 ## article_id
 ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## section_id
-art-104-phy-nervous-and-chemoreceptor-control-the-two-medullary-centres
+art-104-phy-nervous-and-chemoreceptor-control-mechanism
 ## text
 The cardiac inhibitory area — the nucleus ambiguus and the dorsal motor nucleus of the vagus — mediates vagal outflow to the heart; stimulating it lowers heart rate and cardiac output.
 ## claim_ids
@@ -233,7 +233,7 @@ SPN-104-PHY-NCC-02
 ## article_id
 ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## section_id
-art-104-phy-nervous-and-chemoreceptor-control-the-two-chemoreceptor-reflexes
+art-104-phy-nervous-and-chemoreceptor-control-mechanism
 ## text
 Peripheral chemoreceptors sit in the carotid and aortic bodies (carried by the carotid sinus/glossopharyngeal nerve and the vagus respectively) and are stimulated primarily by a fall in arterial PO2
 ## claim_ids
@@ -249,7 +249,7 @@ SPN-104-PHY-NCC-03
 ## article_id
 ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## section_id
-art-104-phy-nervous-and-chemoreceptor-control-the-two-chemoreceptor-reflexes
+art-104-phy-nervous-and-chemoreceptor-control-mechanism
 ## text
 hypercapnia (and, to a lesser degree, hypoxia) can also stimulate the vasomotor area directly
 ## claim_ids
@@ -265,7 +265,7 @@ SPN-104-PHY-NCC-04
 ## article_id
 ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## section_id
-art-104-phy-nervous-and-chemoreceptor-control-two-ischaemia-driven-reflexes
+art-104-phy-nervous-and-chemoreceptor-control-key-determinants
 ## text
 the single most powerful stimulator of the sympathetic nervous system the book describes
 ## claim_ids
@@ -281,7 +281,7 @@ SPN-104-PHY-NCC-05
 ## article_id
 ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
 ## section_id
-art-104-phy-nervous-and-chemoreceptor-control-two-ischaemia-driven-reflexes
+art-104-phy-nervous-and-chemoreceptor-control-key-determinants
 ## text
 the resulting local hypercapnia and hypoxia drive a pressor response — marked hypertension — with a secondary, baroreceptor-mediated bradycardia
 ## claim_ids
@@ -297,7 +297,7 @@ SPN-104-PHY-LOCAL-01
 ## article_id
 ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
 ## section_id
-art-104-phy-local-and-hormonal-control-local-regulation-of-blood-flow
+art-104-phy-local-and-hormonal-control-mechanism
 ## text
 myogenic (a pressure rise stretches the arteriolar wall, driving calcium entry and constriction; a fall does the opposite)
 ## claim_ids
@@ -313,7 +313,7 @@ SPN-104-PHY-LOCAL-02
 ## article_id
 ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
 ## section_id
-art-104-phy-local-and-hormonal-control-epinephrine-and-norepinephrine
+art-104-phy-local-and-hormonal-control-mechanism
 ## text
 Norepinephrine, by contrast, constricts vessels in almost all organs through α1 receptors and has no comparable vasodilator action
 ## claim_ids
@@ -329,7 +329,7 @@ SPN-104-PHY-LOCAL-03
 ## article_id
 ART-104-PHY-LOCAL-AND-HORMONAL-CONTROL
 ## section_id
-art-104-phy-local-and-hormonal-control-standing-up-gravity-venous-pooling-and-the-compensatory-reflex
+art-104-phy-local-and-hormonal-control-key-determinants
 ## text
 A fall of more than 20 mmHg is called postural (orthostatic) hypotension.
 ## claim_ids
@@ -345,7 +345,7 @@ SPN-104-PHY-SPECIAL-01
 ## article_id
 ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
 ## section_id
-art-104-phy-coronary-and-pulmonary-circulation-coronary-circulation
+art-104-phy-coronary-and-pulmonary-circulation-mechanism
 ## text
 ventricular contraction compresses the intramural vessels, driving flow to a minimum during systole (hardest on the subendocardium, the layer most vulnerable to ischaemia) before it peaks in early diastole
 ## claim_ids
@@ -361,7 +361,7 @@ SPN-104-PHY-SPECIAL-02
 ## article_id
 ART-104-PHY-CORONARY-AND-PULMONARY-CIRCULATION
 ## section_id
-art-104-phy-coronary-and-pulmonary-circulation-pulmonary-circulation
+art-104-phy-coronary-and-pulmonary-circulation-mechanism
 ## text
 Uniquely, pulmonary arterioles constrict — rather than dilate, as systemic vessels do — in response to local alveolar hypoxia and to high alveolar PCO2
 ## claim_ids
@@ -393,7 +393,7 @@ SPN-104-PHY-AIRWAY-02
 ## article_id
 ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
 ## section_id
-art-104-phy-airway-anatomy-and-dead-space-dead-space-and-alveolar-ventilation
+art-104-phy-airway-anatomy-and-dead-space-mechanism
 ## text
 alveolar ventilation = (tidal volume - dead space) x respiratory rate, which at rest gives (500 - 150) x 12 = 4200 ml/min against a minute (pulmonary) ventilation of 500 x 12 = 6000 ml/min
 ## claim_ids
@@ -409,7 +409,7 @@ SPN-104-PHY-AIRWAY-03
 ## article_id
 ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
 ## section_id
-art-104-phy-airway-anatomy-and-dead-space-transpulmonary-pressure-and-its-extremes
+art-104-phy-airway-anatomy-and-dead-space-key-determinants
 ## text
 A maximal forced inspiratory effort against a closed glottis (Muller's experiment) can drive it to -30 to -40 cmH2O
 ## claim_ids
@@ -457,7 +457,7 @@ SPN-104-PHY-GASEX-03
 ## article_id
 ART-104-PHY-GAS-EXCHANGE-AND-VQ-MATCHING
 ## section_id
-art-104-phy-gas-exchange-and-vq-matching-the-physiologic-shunt-and-pulmonary-fluid-balance
+art-104-phy-gas-exchange-and-vq-matching-key-determinants
 ## text
 this venous admixture, present even in a perfectly healthy lung, is the physiologic shunt
 ## claim_ids
@@ -522,7 +522,7 @@ SPN-104-PHY-PACEMAKER-HIERARCHY-01
 ## article_id
 ART-104-PHY-PACEMAKER-ELECTROPHYSIOLOGY
 ## section_id
-art-104-phy-pacemaker-electrophysiology-regulation
+art-104-phy-pacemaker-electrophysiology-key-determinants
 ## text
 Because the SA node is faster than the natural rhythm of every other pacemaker tissue, it suppresses them and acts as the normal pacemaker of the human heart — it, and not the others, controls heart rate under ordinary conditions.
 ## claim_ids
@@ -554,7 +554,7 @@ SPN-104-PHY-CONDUCTION-VELOCITY-01
 ## article_id
 ART-104-PHY-CARDIAC-CONDUCTION
 ## section_id
-art-104-phy-cardiac-conduction-regulation
+art-104-phy-cardiac-conduction-key-determinants
 ## text
 The AV node's slowness is doing real work, not merely marking time: it gives the atria enough time to finish contracting and empty their blood into the ventricles before ventricular contraction begins.
 ## claim_ids

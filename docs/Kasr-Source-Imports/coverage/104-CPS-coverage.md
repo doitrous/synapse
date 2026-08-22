@@ -21,13 +21,28 @@ looks exactly like a file with nothing in it.
 
 | Batch | Items |
 | --- | --- |
+| `concept/104-CPS-anatomy-concepts.md` | 66 |
 | `concept/104-CPS-concepts.md` | 22 |
+| `concept/104-CPS-histology-concepts.md` | 33 |
+| `concept/104-CPS-physiology-concepts.md` | 46 |
 | `concept/104-CPS-practical-concepts.md` | 17 |
 | `question/104-CPS-mcq.md` | 40 |
+| `article/104-CPS-anatomy.md` | 19 |
 | `article/104-CPS-articles.md` | 13 |
+| `article/104-CPS-histology.md` | 11 |
+| `article/104-CPS-physiology.md` | 14 |
 | `practical/104-CPS-practical.md` | 4 |
 | `written/104-CPS-EOY-2025-written.md` | 15 |
+| `evidence/104-CPS-citations.md` | 62 |
+| `evidence/104-CPS-claims.md` | 52 |
+| `evidence/104-CPS-generated-citations.md` | 60 |
+| `evidence/104-CPS-generated-claims.md` | 374 |
+| `evidence/104-CPS-generated-spans.md` | 135 |
+| `evidence/104-CPS-physiology-citations.md` | 47 |
+| `evidence/104-CPS-physiology-claims.md` | 47 |
+| `evidence/104-CPS-physiology-spans.md` | 47 |
 | `evidence/104-CPS-resources.md` | 8 |
+| `evidence/104-CPS-spans.md` | 58 |
 
 ## Read short
 
@@ -75,9 +90,9 @@ Having text is not the same as having read it: a source below can be fully extra
 | EOM 2022 CPS 104 (1).pdf | EOM | 15 | ocr | 99 written, 87 MCQ | read in full |
 | ١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf | Baqoon | 16 | native | — | not yet read |
 | اختبار 104 دفعة 199 الدور الثاني EOY BAQOON.pdf | Baqoon | 3 | ocr | 1 written | read in full |
-| Dpt book anatomy 2026 104.pdf | Department Book | 157 | native | 12 authored records | read in full |
-| Dpt Book Book of Histology (CPS 104) 2026 1st Year (2).pdf | Department Book | 53 | native | 33 authored records | read in full |
-| Dpt book CPS 104 physio 2025-2026 104.pdf | Department Book | 160 | native | 17 authored records | read in full |
+| Dpt book anatomy 2026 104.pdf | Department Book | 157 | native | 160 authored records | read in full |
+| Dpt Book Book of Histology (CPS 104) 2026 1st Year (2).pdf | Department Book | 53 | native | 120 authored records | read in full |
+| Dpt book CPS 104 physio 2025-2026 104.pdf | Department Book | 160 | native | 148 authored records | read in full |
 | DPT BOOK Physio MCQ [104][2022].pdf | Department Questions | 50 | ocr | 313 MCQ | read in full |
 | DPT BOOK Physio MCQ [104][2023].pdf | Department Questions | 26 | ocr, 1/26 blank | 92 MCQ | read in full |
 | DPT HISTO MCQ [Cardiovascular].pdf | Department Questions | 8 | ocr | 31 MCQ, 2 authored records | read in full |
