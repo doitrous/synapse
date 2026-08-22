@@ -340,11 +340,21 @@ export const SEEDS: Seed[] = [
     // make the paper total four marks heavier than it is.
     q: 1, section: 'Matching', page: 10, marks: 1,
     asked: 'III) Extended matching questions: {1 Mark each} — Table 1. Column A: 1 Simple squamous epithilium, 2 Keratinized stratified squamous epithilium, 3 Simple columnar epithilium, 4 Simple cubical epithlium, 5 Transitional epithilium. Column B: Small intestine, Thyroid follicles, Blood vessels, Skin, Trachea, Urinary bladder, Esophagus.',
-    label: 'Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel',
+    label:
+      'Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site',
     key: 'simple-squamous-epithelium-sites-names-and-functions',
-    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
-    objective: 'Match simple squamous epithelium to the blood vessel, where it is called endothelium.',
-    pitfall: 'Reaching for the trachea, which is pseudostratified ciliated columnar and is one of this table\'s two unused options.',
+    // Copied verbatim from `101-ISK-mcq-concepts.md`, where this concept was
+    // minted. Re-emitting it is an update that adds this sitting to its exam
+    // signal and changes nothing else. A placeholder here would overwrite the
+    // real definition on import — the silent field loss this importer exists
+    // to prevent, and which I reintroduced by writing 'see the concept of the
+    // same key' into a field the importer applies rather than reads.
+    definition:
+      'Simple squamous epithelium is one layer of flat cells with flat nuclei. Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman\'s capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another. It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.',
+    objective:
+      'Recognise simple squamous epithelium by its cells and nuclei, give its regional names, and connect its thinness and smoothness to what each site needs.',
+    pitfall:
+      'Swapping endothelium and mesothelium. Endo- is inside a vessel; meso- is the mesodermal lining of the serous sacs. Both are the same epithelium under two names, and half the questions on this material turn on which name goes where.',
     subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
     modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
     type: 'structural_description',
@@ -352,11 +362,21 @@ export const SEEDS: Seed[] = [
   {
     q: 1, section: 'Matching', page: 10, marks: 0,
     asked: 'Table 1, prompts 3 and 4.',
-    label: 'Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs',
+    label:
+      'Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction',
     key: 'simple-cubical-and-simple-columnar-epithelium-sites-and-functions',
-    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
-    objective: 'Match simple cubical epithelium to the thyroid follicle and simple columnar to the small intestine.',
-    pitfall: 'Swapping them. The follicle is a secreting sac lined by cubes; the intestine absorbs and needs the tall cell with a brush border.',
+    // Copied verbatim from `101-ISK-mcq-concepts.md`, where this concept was
+    // minted. Re-emitting it is an update that adds this sitting to its exam
+    // signal and changes nothing else. A placeholder here would overwrite the
+    // real definition on import — the silent field loss this importer exists
+    // to prevent, and which I reintroduced by writing 'see the concept of the
+    // same key' into a field the importer applies rather than reads.
+    definition:
+      'Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney. Simple columnar epithelium is one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border. Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.',
+    objective:
+      'Distinguish simple cubical from simple columnar epithelium by cell height, nuclear shape, site and function, and say what adding cilia changes.',
+    pitfall:
+      'Giving the kidney one answer. The convoluted tubules are simple cubical, but Bowman\'s capsule in the same nephron is simple squamous, because filtration needs thinness and reabsorption needs cytoplasm.',
     subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
     modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
     type: 'structural_description',
@@ -364,11 +384,21 @@ export const SEEDS: Seed[] = [
   {
     q: 1, section: 'Matching', page: 10, marks: 0,
     asked: 'Table 1, prompt 2.',
-    label: 'Stratified squamous epithelium is keratinised on the skin and non-keratinised where it must stay wet',
+    label:
+      'Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin',
     key: 'stratified-squamous-epithelium-keratinised-and-non-keratinised',
-    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
-    objective: 'Match keratinised stratified squamous epithelium to the skin.',
-    pitfall: 'Choosing the oesophagus, which is stratified squamous and is the table\'s other unused option — but non-keratinised, because it stays wet.',
+    // Copied verbatim from `101-ISK-mcq-concepts.md`, where this concept was
+    // minted. Re-emitting it is an update that adds this sitting to its exam
+    // signal and changes nothing else. A placeholder here would overwrite the
+    // real definition on import — the silent field loss this importer exists
+    // to prevent, and which I reintroduced by writing 'see the concept of the
+    // same key' into a field the importer applies rather than reads.
+    definition:
+      'Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells. Its basal layer is columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei. It is 5–30 layers thick and its function is protection against friction. The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina. The keratinised form, covered by a layer of keratin, is the epidermis of the skin.',
+    objective:
+      'Describe the layers of stratified squamous epithelium from base to surface, give its layer count, and separate the keratinised sites from the non-keratinised ones.',
+    pitfall:
+      'Writing that the oesophagus is keratinised. Keratin is for a dry surface exposed to air; every moist lining in the list is non-keratinised, and the skin is the only keratinised member.',
     subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
     modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
     type: 'structural_description',
@@ -376,11 +406,21 @@ export const SEEDS: Seed[] = [
   {
     q: 1, section: 'Matching', page: 10, marks: 0,
     asked: 'Table 1, prompt 5.',
-    label: 'Transitional epithelium has dome-shaped surface cells and a layer count that changes as the organ fills',
+    label:
+      'Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills',
     key: 'transitional-epithelium-dome-cells-and-a-changing-layer-count',
-    definition: 'See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.',
-    objective: 'Match transitional epithelium to the urinary bladder.',
-    pitfall: 'Calling it stratified squamous because its dome cells flatten when the bladder fills. The flattening is the point of the name.',
+    // Copied verbatim from `101-ISK-mcq-concepts.md`, where this concept was
+    // minted. Re-emitting it is an update that adds this sitting to its exam
+    // signal and changes nothing else. A placeholder here would overwrite the
+    // real definition on import — the silent field loss this importer exists
+    // to prevent, and which I reintroduced by writing 'see the concept of the
+    // same key' into a field the importer applies rather than reads.
+    definition:
+      'Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else. Its basal layer is cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier. It is 6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills. Its functions are distensibility and protection against the cytotoxic effect of urine.',
+    objective:
+      'Identify transitional epithelium by its dome-shaped superficial cells and changing layer count, give both counts, and state its two functions.',
+    pitfall:
+      'Calling it stratified squamous when it is distended. The superficial cells do flatten and the epithelium does thin to 3–4 layers, and it is still transitional — that it changes is exactly what defines it.',
     subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
     modulePath: '101 ISK > Histology > Epithelial Tissues > Surface Epithelium',
     type: 'structural_description',

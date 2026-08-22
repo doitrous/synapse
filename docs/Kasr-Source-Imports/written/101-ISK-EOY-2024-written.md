@@ -1364,7 +1364,7 @@ No derived_from: transcribed rather than derived, so there is nothing to name.
 ## id
 QW-101-AA8B33729D17
 ## title
-Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel
+Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
 ## subject
 fnd
 ## status
@@ -1408,7 +1408,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-Match simple squamous epithelium to the blood vessel, where it is called endothelium. Match simple cubical epithelium to the thyroid follicle and simple columnar to the small intestine. Match keratinised stratified squamous epithelium to the skin. Match transitional epithelium to the urinary bladder.
+Recognise simple squamous epithelium by its cells and nuclei, give its regional names, and connect its thinness and smoothness to what each site needs. Distinguish simple cubical from simple columnar epithelium by cell height, nuclear shape, site and function, and say what adding cilia changes. Describe the layers of stratified squamous epithelium from base to surface, give its layer count, and separate the keratinised sites from the non-keratinised ones. Identify transitional epithelium by its dome-shaped superficial cells and changing layer count, give both counts, and state its two functions.
 ## setting
 Academic
 ## academic_relevance

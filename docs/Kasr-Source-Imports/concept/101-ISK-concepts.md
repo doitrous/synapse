@@ -10,7 +10,7 @@
     EOY Anatomy cases 1st year 2025-1 (2).pdf — other 2025, 11 questions
 
   75 concepts from 113 questions.
-  41 of them were asked on more than one paper, and carry an exam_signal
+  42 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -3222,12 +3222,14 @@ kau
 ## exam_signal
 src_e2593cfba37af83a33ad | end_of_year | 2024 | p3 | 101 ISK
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p6 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.16
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.16
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4236,17 +4238,17 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel
+Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
 ## id
 CON-FND-E51851DAB2DD13
 ## canonical_key
 simple-squamous-epithelium-sites-names-and-functions
 ## definition
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Simple squamous epithelium is one layer of flat cells with flat nuclei. Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another. It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
 ## explicit_objective
-Match simple squamous epithelium to the blood vessel, where it is called endothelium.
+Recognise simple squamous epithelium by its cells and nuclei, give its regional names, and connect its thinness and smoothness to what each site needs.
 ## pitfalls
-Reaching for the trachea, which is pseudostratified ciliated columnar and is one of this table's two unused options.
+Swapping endothelium and mesothelium. Endo- is inside a vessel; meso- is the mesodermal lining of the serous sacs. Both are the same epithelium under two names, and half the questions on this material turn on which name goes where.
 ## concept_type
 structural_description
 ## status
@@ -4316,7 +4318,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-BFDB3DB16DA7 | CLM-08F05952183A | CLM-17B4B26EBD25 | CLM-E85605A4B887
+CLM-08F05952183A | CLM-17B4B26EBD25 | CLM-E85605A4B887
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4366,17 +4368,17 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs
+Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
 ## id
 CON-FND-6887E3F110A894
 ## canonical_key
 simple-cubical-and-simple-columnar-epithelium-sites-and-functions
 ## definition
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney. Simple columnar epithelium is one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border. Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
 ## explicit_objective
-Match simple cubical epithelium to the thyroid follicle and simple columnar to the small intestine.
+Distinguish simple cubical from simple columnar epithelium by cell height, nuclear shape, site and function, and say what adding cilia changes.
 ## pitfalls
-Swapping them. The follicle is a secreting sac lined by cubes; the intestine absorbs and needs the tall cell with a brush border.
+Giving the kidney one answer. The convoluted tubules are simple cubical, but Bowman's capsule in the same nephron is simple squamous, because filtration needs thinness and reabsorption needs cytoplasm.
 ## concept_type
 structural_description
 ## status
@@ -4446,7 +4448,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-72B0D44F278F | CLM-51D693CEF733 | CLM-B0D55E19D4D1 | CLM-4D1E3B3F560A
+CLM-51D693CEF733 | CLM-B0D55E19D4D1 | CLM-4D1E3B3F560A
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4496,17 +4498,17 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Stratified squamous epithelium is keratinised on the skin and non-keratinised where it must stay wet
+Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
 ## id
 CON-FND-8FEBD5195DCED2
 ## canonical_key
 stratified-squamous-epithelium-keratinised-and-non-keratinised
 ## definition
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells. Its basal layer is columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei. It is 5–30 layers thick and its function is protection against friction. The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina. The keratinised form, covered by a layer of keratin, is the epidermis of the skin.
 ## explicit_objective
-Match keratinised stratified squamous epithelium to the skin.
+Describe the layers of stratified squamous epithelium from base to surface, give its layer count, and separate the keratinised sites from the non-keratinised ones.
 ## pitfalls
-Choosing the oesophagus, which is stratified squamous and is the table's other unused option — but non-keratinised, because it stays wet.
+Writing that the oesophagus is keratinised. Keratin is for a dry surface exposed to air; every moist lining in the list is non-keratinised, and the skin is the only keratinised member.
 ## concept_type
 structural_description
 ## status
@@ -4576,7 +4578,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-673C7B2F27A7 | CLM-1B94B8929533 | CLM-FB1EA70D097C | CLM-C3A16D6D4D23 | CLM-DE11CB2D5776 | CLM-A0FED42062AE
+CLM-1B94B8929533 | CLM-FB1EA70D097C | CLM-C3A16D6D4D23 | CLM-DE11CB2D5776 | CLM-A0FED42062AE
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4626,17 +4628,17 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Transitional epithelium has dome-shaped surface cells and a layer count that changes as the organ fills
+Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
 ## id
 CON-FND-6913B2CF5EFC7C
 ## canonical_key
 transitional-epithelium-dome-cells-and-a-changing-layer-count
 ## definition
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else. Its basal layer is cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier. It is 6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills. Its functions are distensibility and protection against the cytotoxic effect of urine.
 ## explicit_objective
-Match transitional epithelium to the urinary bladder.
+Identify transitional epithelium by its dome-shaped superficial cells and changing layer count, give both counts, and state its two functions.
 ## pitfalls
-Calling it stratified squamous because its dome cells flatten when the bladder fills. The flattening is the point of the name.
+Calling it stratified squamous when it is distended. The superficial cells do flatten and the epithelium does thin to 3–4 layers, and it is still transitional — that it changes is exactly what defines it.
 ## concept_type
 structural_description
 ## status
@@ -4706,7 +4708,7 @@ src_b1e6dc481eaf337268d0
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-792CFF73B089 | CLM-AC13C10E9DA5 | CLM-0DAAE45598EE | CLM-A7FE69BD14BA | CLM-A713779AC5EE
+CLM-AC13C10E9DA5 | CLM-0DAAE45598EE | CLM-A7FE69BD14BA | CLM-A713779AC5EE
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -5180,12 +5182,13 @@ kau
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p3 | 101 ISK
 src_530685004e73e670a4ed | baqoon | 2024 | p8 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.08
+0.11
 ## exam_weight_by_year
-KAU_Y1=0.08
+KAU_Y1=0.11
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -5835,12 +5838,14 @@ kau
 ## exam_signal
 src_bafb8703f4396f06d125 | end_of_year | 2022 | p7 | 101 ISK
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p4 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.10
+0.17
 ## exam_weight_by_year
-KAU_Y1=0.10
+KAU_Y1=0.17
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8979,18 +8984,20 @@ kau
 1
 ## exam_signal
 src_f3d7ac13bbc97156212f | baqoon | 2023 | p11 | 101 ISK
+src_802a04dedd66193ae35b | end_of_year | 2025 | p1 | 101 ISK
+src_c58336a4f2f0a172b4fe | end_of_year | 2025 | p1 | 101 ISK
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.08
+0.15
 ## exam_weight_by_year
-KAU_Y1=0.08
+KAU_Y1=0.15
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Anatomy
 ## subtopic

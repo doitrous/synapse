@@ -1,7 +1,7 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1157 claims from 321 concepts.
+  1153 claims from 321 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
@@ -9,7 +9,7 @@
   the module teaches.
 
   332 carry a citation to the department book and stand at `verified`.
-  825 do not, and stand at `needs_evidence`. That split is the point of
+  821 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -2717,48 +2717,141 @@ curriculum: 101 ISK > Histology > Blood > Non granular leukocytes
 
 # Item
 ## id
-CLM-BFDB3DB16DA7
+CLM-08F05952183A
 ## concept_id
 CON-FND-E51851DAB2DD13
 ## subject
-See the concept of the same key
+Simple squamous epithelium
 ## predicate
-states
+is
 ## object
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+one layer of flat cells with flat nuclei
 ## display_text
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Simple squamous epithelium is one layer of flat cells with flat nuclei.
 ## risk_class
 foundational_stable
 ## verification_status
-needs_evidence
+verified
 ## conflict_status
 none
 ## confidence
-0.4
+0.90
 ## freshness
 stable_local_curriculum_fact
 ## time_sensitive
 no
 ## qualifiers
-concept: Simple squamous epithelium sites are named for where they lie, and endothelium is its name in a blood vessel
+concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
 curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
 
 # Item
 ## id
-CLM-72B0D44F278F
+CLM-17B4B26EBD25
+## concept_id
+CON-FND-E51851DAB2DD13
+## subject
+Being thin
+## predicate
+states
+## object
+Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+## display_text
+Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.63
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-E85605A4B887
+## concept_id
+CON-FND-E51851DAB2DD13
+## subject
+It takes a different name in each site: endothelium lining the blood vessels and the heart
+## predicate
+states
+## object
+It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## display_text
+It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.72
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-51D693CEF733
 ## concept_id
 CON-FND-6887E3F110A894
 ## subject
-See the concept of the same key
+Simple cubical epithelium
 ## predicate
-states
+is
 ## object
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney
 ## display_text
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
+## risk_class
+foundational_stable
+## verification_status
+verified
+## conflict_status
+none
+## confidence
+0.65
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-B0D55E19D4D1
+## concept_id
+CON-FND-6887E3F110A894
+## subject
+Simple columnar epithelium
+## predicate
+is
+## object
+one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border
+## display_text
+Simple columnar epithelium is one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border.
 ## risk_class
 foundational_stable
 ## verification_status
@@ -2772,55 +2865,86 @@ stable_local_curriculum_fact
 ## time_sensitive
 no
 ## qualifiers
-concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs
+concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
 curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
 
 # Item
 ## id
-CLM-673C7B2F27A7
+CLM-4D1E3B3F560A
+## concept_id
+CON-FND-6887E3F110A894
+## subject
+Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction 
+## predicate
+states
+## object
+Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
+## display_text
+Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-1B94B8929533
 ## concept_id
 CON-FND-8FEBD5195DCED2
 ## subject
-See the concept of the same key
+Stratified squamous epithelium
 ## predicate
-states
+is
 ## object
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+more than one layer and is named for the shape of its superficial cells
 ## display_text
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
 ## risk_class
 foundational_stable
 ## verification_status
-needs_evidence
+verified
 ## conflict_status
 none
 ## confidence
-0.4
+0.88
 ## freshness
 stable_local_curriculum_fact
 ## time_sensitive
 no
 ## qualifiers
-concept: Stratified squamous epithelium is keratinised on the skin and non-keratinised where it must stay wet
+concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
 curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
 
 # Item
 ## id
-CLM-792CFF73B089
+CLM-FB1EA70D097C
 ## concept_id
-CON-FND-6913B2CF5EFC7C
+CON-FND-8FEBD5195DCED2
 ## subject
-See the concept of the same key
+Its basal layer
 ## predicate
-states
+is
 ## object
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei
 ## display_text
-See the concept of the same key; this occurrence adds the 2024 sitting to its exam signal.
+Its basal layer is columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei.
 ## risk_class
 foundational_stable
 ## verification_status
@@ -2834,7 +2958,224 @@ stable_local_curriculum_fact
 ## time_sensitive
 no
 ## qualifiers
-concept: Transitional epithelium has dome-shaped surface cells and a layer count that changes as the organ fills
+concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-C3A16D6D4D23
+## concept_id
+CON-FND-8FEBD5195DCED2
+## subject
+It
+## predicate
+is
+## object
+5–30 layers thick and its function is protection against friction
+## display_text
+It is 5–30 layers thick and its function is protection against friction.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-DE11CB2D5776
+## concept_id
+CON-FND-8FEBD5195DCED2
+## subject
+The non-keratinised form lines the oesophagus
+## predicate
+states
+## object
+The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina.
+## display_text
+The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-A0FED42062AE
+## concept_id
+CON-FND-8FEBD5195DCED2
+## subject
+The keratinised form, covered by a layer of keratin,
+## predicate
+is
+## object
+the epidermis of the skin
+## display_text
+The keratinised form, covered by a layer of keratin, is the epidermis of the skin.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-AC13C10E9DA5
+## concept_id
+CON-FND-6913B2CF5EFC7C
+## subject
+Transitional epithelium
+## predicate
+states
+## object
+Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## display_text
+Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-0DAAE45598EE
+## concept_id
+CON-FND-6913B2CF5EFC7C
+## subject
+Its basal layer
+## predicate
+is
+## object
+cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier
+## display_text
+Its basal layer is cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-A7FE69BD14BA
+## concept_id
+CON-FND-6913B2CF5EFC7C
+## subject
+It
+## predicate
+is
+## object
+6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills
+## display_text
+It is 6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
+curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
+
+---
+
+# Item
+## id
+CLM-A713779AC5EE
+## concept_id
+CON-FND-6913B2CF5EFC7C
+## subject
+Its functions
+## predicate
+are
+## object
+distensibility and protection against the cytotoxic effect of urine
+## display_text
+Its functions are distensibility and protection against the cytotoxic effect of urine.
+## risk_class
+foundational_stable
+## verification_status
+needs_evidence
+## conflict_status
+none
+## confidence
+0.4
+## freshness
+stable_local_curriculum_fact
+## time_sensitive
+no
+## qualifiers
+concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
 curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
@@ -31299,192 +31640,6 @@ curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 # Item
 ## id
-CLM-08F05952183A
-## concept_id
-CON-FND-E51851DAB2DD13
-## subject
-Simple squamous epithelium
-## predicate
-is
-## object
-one layer of flat cells with flat nuclei
-## display_text
-Simple squamous epithelium is one layer of flat cells with flat nuclei.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.90
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-17B4B26EBD25
-## concept_id
-CON-FND-E51851DAB2DD13
-## subject
-Being thin
-## predicate
-states
-## object
-Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
-## display_text
-Being thin, it allows exchange of materials — gas exchange in the lung alveoli and filtration in Bowman's capsule of the kidney; being smooth, it allows the easy passage of fluids and the easy movement of organs against one another.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.63
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-E85605A4B887
-## concept_id
-CON-FND-E51851DAB2DD13
-## subject
-It takes a different name in each site: endothelium lining the blood vessels and the heart
-## predicate
-states
-## object
-It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
-## display_text
-It takes a different name in each site: endothelium lining the blood vessels and the heart, pneumocytes in the lung alveoli, and mesothelium on the serous membranes — the pleura, the pericardium and the peritoneum.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.72
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple squamous epithelium is one layer of flat cells with flat nuclei, thin enough for exchange and smooth enough for movement, and it takes a different name in each site
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-51D693CEF733
-## concept_id
-CON-FND-6887E3F110A894
-## subject
-Simple cubical epithelium
-## predicate
-is
-## object
-one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney
-## display_text
-Simple cubical epithelium is one layer of cube-shaped cells with central rounded nuclei; it secretes and reabsorbs, and it lines the secretory acini of glands, the thyroid follicles and the convoluted tubules of the kidney.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.65
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-B0D55E19D4D1
-## concept_id
-CON-FND-6887E3F110A894
-## subject
-Simple columnar epithelium
-## predicate
-is
-## object
-one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border
-## display_text
-Simple columnar epithelium is one layer of tall cells with basal oval nuclei; it secretes and absorbs along the digestive tract, from the stomach through the intestine, and its absorptive cells carry microvilli seen as a striated or brush border.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-4D1E3B3F560A
-## concept_id
-CON-FND-6887E3F110A894
-## subject
-Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction 
-## predicate
-states
-## object
-Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
-## display_text
-Simple columnar ciliated epithelium adds cilia and so transports fluid or particles across the surface in one direction — upwards in the bronchioles, and along the uterus and fallopian tube to move the ovum.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Simple cubical epithelium secretes and reabsorbs, simple columnar secretes and absorbs, and adding cilia makes the columnar cell transport fluid in one direction
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
 CLM-2E524EF803C7
 ## concept_id
 CON-FND-68DA70C4BBE2A1
@@ -31634,285 +31789,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: Pseudostratified columnar epithelium is simple — every cell reaches the basement membrane — and comes in three forms distinguished by what is on the apex
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-1B94B8929533
-## concept_id
-CON-FND-8FEBD5195DCED2
-## subject
-Stratified squamous epithelium
-## predicate
-is
-## object
-more than one layer and is named for the shape of its superficial cells
-## display_text
-Stratified squamous epithelium is more than one layer and is named for the shape of its superficial cells.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.88
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-FB1EA70D097C
-## concept_id
-CON-FND-8FEBD5195DCED2
-## subject
-Its basal layer
-## predicate
-is
-## object
-columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei
-## display_text
-Its basal layer is columnar cells with basal oval nuclei; its intermediate layers are polyhedral cells with central rounded nuclei, joined by desmosomes and becoming smaller towards the surface; its superficial layer is flat cells with flat nuclei.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-C3A16D6D4D23
-## concept_id
-CON-FND-8FEBD5195DCED2
-## subject
-It
-## predicate
-is
-## object
-5–30 layers thick and its function is protection against friction
-## display_text
-It is 5–30 layers thick and its function is protection against friction.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-DE11CB2D5776
-## concept_id
-CON-FND-8FEBD5195DCED2
-## subject
-The non-keratinised form lines the oesophagus
-## predicate
-states
-## object
-The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina.
-## display_text
-The non-keratinised form lines the oesophagus, oral cavity, cornea, anal canal, tip of the urethra and vagina.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-A0FED42062AE
-## concept_id
-CON-FND-8FEBD5195DCED2
-## subject
-The keratinised form, covered by a layer of keratin,
-## predicate
-is
-## object
-the epidermis of the skin
-## display_text
-The keratinised form, covered by a layer of keratin, is the epidermis of the skin.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Stratified squamous epithelium is 5–30 layers built from columnar basal cells up to flat surface cells, held by desmosomes, and it is keratinised only in the skin
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-AC13C10E9DA5
-## concept_id
-CON-FND-6913B2CF5EFC7C
-## subject
-Transitional epithelium
-## predicate
-states
-## object
-Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
-## display_text
-Transitional epithelium, also called urothelium, lines the whole urinary tract — the pelvis of the ureter, the ureter, the urinary bladder and the prostatic urethra — and nowhere else.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-0DAAE45598EE
-## concept_id
-CON-FND-6913B2CF5EFC7C
-## subject
-Its basal layer
-## predicate
-is
-## object
-cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier
-## display_text
-Its basal layer is cuboidal cells with central rounded nuclei; its intermediate cells are polyhedral, and in the full bladder they are pushed laterally so that the epithelium thins; its superficial cells are large and dome-shaped with an upper convex surface, sometimes binucleated, joined by junctional complexes, and their luminal surface is covered by rigid plaques that act as a barrier.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-A7FE69BD14BA
-## concept_id
-CON-FND-6913B2CF5EFC7C
-## subject
-It
-## predicate
-is
-## object
-6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills
-## display_text
-It is 6–8 layers in the empty bladder and 3–4 in the full one, and the superficial cells become flat when it fills.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
-curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
-
----
-
-# Item
-## id
-CLM-A713779AC5EE
-## concept_id
-CON-FND-6913B2CF5EFC7C
-## subject
-Its functions
-## predicate
-are
-## object
-distensibility and protection against the cytotoxic effect of urine
-## display_text
-Its functions are distensibility and protection against the cytotoxic effect of urine.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Transitional epithelium — urothelium — has dome-shaped superficial cells with rigid plaques, and it thins from 6–8 layers to 3–4 as the bladder fills
 curriculum: 101 ISK > Histology > Epithelial Tissues > Surface Epithelium
 
 ---
