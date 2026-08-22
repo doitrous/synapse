@@ -239,6 +239,102 @@ rows.forEach((values, index) => {
   }
 })
 
+/* ---- update rows that would land as stubs -------------------------------- */
+
+const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
+
+
+/**
+ * IDs that already exist, so an update row can be told from a create.
+ *
+ * Read once. Concepts live in the graph; articles and resources in the ledger.
+ * A failure to read is reported rather than swallowed, because "no live IDs"
+ * and "every ID is new" are the same thing to the check below, and one of them
+ * is a broken lookup.
+ */
+const liveIds = new Set()
+try {
+  const here = dirname(fileURLToPath(import.meta.url))
+  const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) if (concept?.id) liveIds.add(concept.id)
+  for (const item of live.states['synapse-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
+} catch (reason) {
+  notes.push(`live state could not be read (${reason.message}) — every ID looks new, so the stub-create check below cannot run`)
+}
+
+/**
+ * IDs given a *full* record somewhere in this batch directory or a `--with`
+ * sibling — as opposed to merely mentioned by another update row.
+ *
+ * "Full" is the kind's own required fields. Two update rows for the same absent
+ * ID must not vouch for each other.
+ */
+const authoredHere = new Set()
+{
+  const dir = dirname(file)
+  const paths = new Set([
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside.map((path) => resolve(path)),
+  ])
+  for (const path of paths) {
+    let parsed
+    try { parsed = parseMarkdown(await readFile(path, 'utf8')) } catch { continue }
+    if (!parsed.length) continue
+    const theirKind = detectKind(parsed[0])
+    for (const row of parsed) {
+      const id = row.id?.trim()
+      if (id && !isUpdateShaped(theirKind, row)) authoredHere.add(id)
+    }
+  }
+}
+
+/**
+ * A row that edits a record rather than authoring one.
+ *
+ * The batch format lets a row carry an `id` and only the columns it changes.
+ * That is the right way to add claim links to a concept that already exists —
+ * and if the ID does *not* exist, the importer has no record to edit, so it
+ * creates one from the handful of columns present. `medical:simulate` reports
+ * that as `created: 1, errors: []`: a near-empty concept, in the graph, with a
+ * plausible ID, that nothing will ever flag again.
+ *
+ * The required-field errors do fire on such a row, but they say "label is
+ * required", which reads as a forgotten field. An author who obliges adds a
+ * label and turns a silent stub into a confidently wrong new record — the ID
+ * was meant to point at something that already existed. So this names the ID
+ * and says what would happen to it.
+ */
+/**
+ * The one column that makes a row an authoring row rather than a patch.
+ *
+ * NOT the schema's `required` list, which was the first attempt and was wrong:
+ * `correct_answer` is required there, and only single-best-answer questions
+ * have one. Every matching, written, completion and labelling question in the
+ * repository looked like an update to a record that does not exist — five
+ * fully-authored questions flagged, one of them carrying 31 populated fields.
+ * The same trap `batchKind.ts` documents one layer down, arrived at
+ * independently.
+ *
+ * These are the columns the detector itself keys on, and none of them varies by
+ * format: a row with a `question` is authoring a question whatever kind of
+ * question it is.
+ */
+function isUpdateShaped(rowKind, values) {
+  const substance = SUBSTANCE[rowKind]
+  if (!substance) return false
+  return !values[substance]?.trim()
+}
+
+/** The error for a row that edits a record nothing has authored. */
+function stubCreateErrors(rowKind, values) {
+  const id = values.id?.trim()
+  if (!id || !isUpdateShaped(rowKind, values)) return []
+  if (liveIds.has(id) || authoredHere.has(id)) return []
+  return [`${id} is not a ${rowKind} that exists — not in live state, and no full record in this batch folder or a --with sibling authors it. `
+    + `This row only carries the columns it changes, so the importer has nothing to update and would CREATE it from those columns alone: `
+    + 'a near-empty record with a plausible ID that no later check would question. Author it in full, or correct the ID.']
+}
+
 /**
  * Fold `--with` siblings in as though already imported.
  *
@@ -396,6 +492,7 @@ if (kind === 'question') {
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('question', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('question', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -553,6 +650,7 @@ if (kind === 'practical') {
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('practical', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -663,6 +761,7 @@ if (kind === 'article') {
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('article', values)) errors.push(`${where}: ${error}`)
     for (const error of catalogueErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('article', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -871,6 +970,7 @@ rows.forEach((values, index) => {
   }
   if (!values.label?.trim()) errors.push(`${where}: label is required`)
     for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)

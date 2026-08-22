@@ -422,3 +422,79 @@ test('a relation still refuses a citation ID that only looks right', () => {
     rmSync(module.root, { recursive: true, force: true })
   }
 })
+
+/* ---- update rows that would land as stubs -------------------------------- */
+
+/** A concept batch directory holding exactly the rows given. */
+function authorConceptDir(rows: string[]) {
+  const root = mkdtempSync(join(tmpdir(), 'stub-create-'))
+  mkdirSync(join(root, 'concept'))
+  rows.forEach((body, index) => writeFileSync(join(root, 'concept', `batch-${index}.md`), body))
+  return root
+}
+
+const STUB_ROW = ['# Item', '## id', 'CON-FND-NOTLIVE000001', '## canonical_key', 'not.live.anywhere', '## atomic_claim_ids', '+CLM-X-1', ''].join('\n')
+
+test('an update row for an id nothing authors is refused, naming the id', () => {
+  // The importer has no record to update, so it creates one from the handful of
+  // columns present: `medical:simulate` reports `created: 1, errors: []` and a
+  // near-empty concept enters the graph with a plausible ID.
+  const root = authorConceptDir([STUB_ROW])
+  try {
+    const report = validate(join(root, 'concept', 'batch-0.md'))
+    const stub = report.errors.filter((error) => error.includes('only carries the columns it changes'))
+    assert.equal(stub.length, 1, `expected one stub-create error, got ${JSON.stringify(report.errors)}`)
+    assert.match(stub[0], /CON-FND-NOTLIVE000001/, 'the error must name the id')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('an update row is accepted when a full record in the same folder authors that id', () => {
+  const full = ['# Item', '## label', 'A fully authored concept', '## id', 'CON-FND-NOTLIVE000001',
+    '## canonical_key', 'not.live.anywhere', '## definition', 'd', '## explicit_objective', 'o', '## arabic_label', 'x', ''].join('\n')
+  const root = authorConceptDir([STUB_ROW, full])
+  try {
+    const report = validate(join(root, 'concept', 'batch-0.md'))
+    assert.equal(report.errors.filter((error) => error.includes('only carries the columns it changes')).length, 0)
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('two update rows for the same absent id do not vouch for each other', () => {
+  // Otherwise the check is satisfied by the very duplication it exists to catch.
+  const second = ['# Item', '## id', 'CON-FND-NOTLIVE000001', '## canonical_key', 'not.live.anywhere', '## resource_ids', '+src_a', ''].join('\n')
+  const root = authorConceptDir([STUB_ROW, second])
+  try {
+    const report = validate(join(root, 'concept', 'batch-0.md'))
+    assert.equal(report.errors.filter((error) => error.includes('only carries the columns it changes')).length, 1)
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('a fully authored question is never update-shaped, whatever its format', () => {
+  // The regression this pins. "Update-shaped" was first defined as "missing a
+  // required field", and `correct_answer` is required while only
+  // single-best-answer questions have one — so every matching, written,
+  // completion and labelling question in the repository was reported as an
+  // update to a record that does not exist. Five real questions were flagged,
+  // one of them carrying 31 populated fields. Substance is `question`, which
+  // does not vary by format.
+  const root = mkdtempSync(join(tmpdir(), 'stub-format-'))
+  mkdirSync(join(root, 'question'))
+  const matching = ['# Item', '## id', 'QM-TEST-000000000001', '## title', 'Match the descriptions',
+    '## subject', 'msk', '## format', 'matching', '## question', 'Match each item to its description',
+    '## matching_prompts', 'a = A', '## matching_options', 'A | thing', ''].join('\n')
+  writeFileSync(join(root, 'question', 'q.md'), matching)
+  try {
+    const report = validate(join(root, 'question', 'q.md'))
+    assert.equal(
+      report.errors.filter((error) => error.includes('only carries the columns it changes')).length, 0,
+      `a matching question is authored, not an update: ${JSON.stringify(report.errors)}`,
+    )
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
