@@ -1,0 +1,647 @@
+<!--
+  Sparse updates only. Lane W1-102-BIOC-B (sub-lane of W1-102-BIOC), AU-MED-102
+  Biochemistry — bioenergetics + carbohydrate metabolism + lipid metabolism
+  (triage topics G, I, J).
+
+  Every ## id below targets a concept that exists ONLY in an unimported Kasr
+  Year 1 batch — none is in server/data/medical-library-v1.json yet. Apply this
+  file ONLY after the named Kasr file is live (see pending-live/INDEX.md). Three
+  source files are involved:
+
+    A. docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md
+    B. docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md
+    C. docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md
+    D. docs/Kasr-Source-Imports/concept/102-INT-concepts.md
+
+  Each record below names which one (A/B/C/D) it targets. Per LANE-BRIEF Sec16
+  rule 1/2, Sec18 correction 2, and the coordinator's merged-validator note
+  (d82dd36): every record carries `## id` + `## label` (the Kasr concept's own
+  label, retyped verbatim — required by the validator as of d82dd36, not
+  optional) + only the fields being changed. `+` additions are one
+  university/module/year per line (pipe-joined is safe again per the
+  coordinator, but this file keeps one-per-line for readability). Concepts have
+  no `university_notes` column — the Alexandria-specific note for each record is
+  folded into `field_notes` instead.
+
+  Every idea below is tested ONLY by the department's AFM staff question bank
+  (src_01ab4268402d32d4d111) — no other AU-MED-102 Biochemistry source touches
+  bioenergetics, carbohydrate metabolism or lipid metabolism at all (triage
+  Sec5). Every exam_signal row cites that one source; page numbers are the PDF's
+  own page index (matching scripts/alexandria/pagetext/src_01ab4268402d32d4d111.json).
+
+  Simulated with (all four Kasr files together, since several records below
+  reference more than one):
+  npm run medical:simulate -- "docs/Alexandria-Source-Imports/pending-live/AU-MED-102-biochem-metabolism.md" \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-biochemistry-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-mcq-carbohydrate-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/103-BMS-mcq-lipid-concepts.md \
+    --with docs/Kasr-Source-Imports/concept/102-INT-concepts.md \
+    --emit /tmp/sim-AU-MED-102-biochem-metabolism-pending.json
+-->
+
+# Item
+
+## id
+CON-FND-7228237A5897B5
+
+## label
+A bond is high energy when hydrolysis releases 7.3 kcal/mol or more, which is what each terminal phosphate bond of ATP yields
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > High- and low-energy phosphate bonds
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
+
+## field_notes
+universityNotes: Tested twice by the AFM bank — which compound lacks a high-energy bond (glucose 6-phosphate is the low-energy exception among ATP/PEP/acetyl-CoA, Q1) and which bond listed is NOT low-energy (enol phosphate is high-energy, unlike phosphate ester/glycosidic/peptide bonds, Q6). Both are the same threshold fact tested from opposite directions.
+
+---
+
+# Item
+
+## id
+CON-FND-A3BC299ED2C7C9
+
+## label
+The respiratory chain has four complexes and two mobile carriers, and NADH and FADH2 enter it at different points
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > Electron transport chain
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
+
+## field_notes
+universityNotes: Tested twice by the AFM bank — coenzyme Q's role carrying electrons from NADH (via Complex I) to ubiquinone/cytochrome b, not as the chain's last member (Q2), and the chain's location and composition, inner mitochondrial membrane with 3 complexes plus CoQ and cytochrome c per the department's own key (Q7) — the department's key for Q7 counts complexes I, III and IV as "the following 3 complexes" alongside CoQ and cytochrome c, naming Complex II separately, which this record's own four-complex count already accommodates.
+
+---
+
+# Item
+
+## id
+CON-FND-0CA8047810DF78
+
+## label
+Complexes I, III and IV pump the protons; the gradient they build is what drives ATP synthase
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > Chemiosmosis and ATP synthase
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p55 | MED 102
+
+## field_notes
+universityNotes: Tested three times by the AFM bank — ATP synthase's F1/F0 subunits and the direction of proton flow, F0 to F1 (Q4, an EXCEPT item); which statement about Complex II is false, that it is a site of energy release, since it is not a proton-pumping/coupling complex (Q8); and which complexes coupling sites are associated with, I/III/IV (Q9). All three turn on the same fact this record already states — the coupling/proton-pumping complexes are I, III and IV, and Complex II is not one of them.
+
+---
+
+# Item
+
+## id
+CON-FND-6B7241CD9F3C42
+
+## label
+Cells do not store energy as ATP; creatine phosphate is the store, and the ATP–ADP cycle turns over in seconds
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > ATP-ADP cycle and energy storage
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p54 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "energy is stored in the muscles as: creatine phosphate" (Q5), keyed against ATP, S-adenosyl-methionine and active acetate as distractors.
+
+---
+
+# Item
+
+## id
+CON-FND-C3CB859E560A18
+
+## label
+An uncoupler lets oxidation continue while ATP synthesis stops, and the energy leaves as heat; ADP availability is what normally sets the rate
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > Uncouplers of oxidative phosphorylation
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p55 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "an uncoupler of oxidative phosphorylation: 2,4-dinitrophenol" (Q10), keyed against barbiturates, cyanide and carboxin as distractors (all electron-transport-chain inhibitors, not uncouplers).
+
+---
+
+# Item
+
+## id
+CON-FND-8771AB893CA4C3
+
+## label
+The reducing agent is the electron donor, and oxygen has the highest redox potential, which is why it sits at the end of the chain
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Bioenergetics > Electron transport chain
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p55 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "final acceptor in the electron transport chain: O2" (Q11), keyed against NADH, FADH2 and NAD+ as distractors (all electron donors upstream of oxygen, not the terminal acceptor).
+
+---
+
+# Item
+
+## id
+CON-HEM-095C9C97B56CCA
+
+## label
+Glycolysis is the only source of ATP in the red cell, because the red cell has no mitochondria
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis in the red cell
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p30 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p36 | MED 102
+
+## field_notes
+universityNotes: Tested three times — glycolysis product in erythrocytes is lactate, not pyruvate/CO2/NADPH (Q2); RBCs' oxidation of glucose yields 2 ATP, none from mitochondrial pathways (Q36); and where RBCs get all their energy, anaerobic glycolysis (Q80, against TCA cycle/fatty acid oxidation/electron transport chain distractors). A fourth item (Q55, "RBCs derive their energy from: glycolysis") repeats the same fact against the same four-option distractor set.
+
+---
+
+# Item
+
+## id
+CON-FND-EA1BA37ACB643B
+
+## label
+Hexokinase has a low Km and works everywhere; glucokinase has a high Km, sits in liver and β-cells, and is induced by insulin
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "glucokinase is more active after a meal, because: it is an inducible enzyme" (Q3), against glucokinase having more affinity than hexokinase, acting in all tissues, and acting on all monosaccharides as distractors — all three false statements this record's definition already corrects.
+
+---
+
+# Item
+
+## id
+CON-FND-853096A349FFBD
+
+## label
+Glycolysis has three irreversible steps, and the committed one is PFK-1 making fructose 1,6-bisphosphate
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p29 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p30 | MED 102
+
+## field_notes
+universityNotes: Tested five times — which enzyme catalyses an irreversible reaction, PFK (Q4); the key enzyme of glycolysis, PFK-1 (Q11); PFK-1's activator, AMP, against ATP/F1,6BP/F1P (Q12); which glycolytic reaction is reversible, PFK1/glucokinase/pyruvate kinase are all irreversible so phosphoglycerate kinase is the answer (Q32); and which two enzymes convert G6P to F1,6BP, phosphohexose isomerase and PFK-1 (Q38). All five turn on identifying PFK-1 as the committed, rate-limiting, allosterically regulated step this record already names.
+
+---
+
+# Item
+
+## id
+CON-FND-5253967A0E3786
+
+## label
+Substrate-level phosphorylation makes ATP directly at three reactions: two in glycolysis and one in the citric acid cycle
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Substrate-level phosphorylation
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p29 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p33 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p34 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p35 | MED 102
+
+## field_notes
+universityNotes: Tested six times — an example of substrate-level phosphorylation, pyruvate kinase against isocitrate dehydrogenase/enolase/GAPDH (Q5); which reaction does NOT generate ATP, hexokinase, since it consumes rather than makes ATP (Q10); phosphoglycerate kinase's own reaction, 1,3-BPG to 3-PG (Q33, tests the reaction identity rather than the phosphorylation itself, kept here as the same enzyme); which reaction produces ATP at the substrate level, phosphoglycerate kinase (Q34); which reaction forms a newly-created high-energy phosphate bond, 2-phosphoglycerate to phosphoenolpyruvate, i.e. the enolase step feeding pyruvate kinase (Q63); and the TCA cycle's own substrate-level step, printed by this bank as "ketoglutarate to succinate" — collapsing the α-ketoglutarate dehydrogenase and succinate thiokinase steps into one option (Q69, render-checked at 200 dpi to recover the true option text, the OCR text layer having dropped the intermediate "succinyl-CoA" wording).
+
+---
+
+# Item
+
+## id
+CON-FND-534286EBBAC239
+
+## label
+NAD+, NADP+, FMN and FAD are the nucleotide-derived coenzymes that carry hydrogen between oxidised and reduced forms
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Dehydrogenase coenzymes
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p32 | MED 102
+
+## field_notes
+universityNotes: Tested twice — which dehydrogenase is NOT NAD+-dependent, glucose-6-phosphate dehydrogenase, which is NADP+-specific (Q6); and the same fact from the other direction, which NAD-dependent-enzyme list has the one exception, again G6PD (Q54). Both cross-reference CON-HEM-A1EF4D20C85878 (G6PD, already live) as the concrete example the AFM bank tests the NAD/NADP distinction through — this lane does not sparse-update that record again here, since sub-lane A's own AU-MED-102-biochem-structural scope does not test it and no update is owed beyond the existing live record.
+
+---
+
+# Item
+
+## id
+CON-FND-0D6BFD870813B7
+
+## label
+Fluoride stops glycolysis at enolase and arsenic stops it at glyceraldehyde 3-phosphate dehydrogenase
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis inhibitors
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p25 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "which enzyme in glycolytic pathway is inhibited by fluoride ions: enolase" (Q7), against hexokinase/PFK/aldolase as distractors.
+
+---
+
+# Item
+
+## id
+CON-FND-403D06D1FB129F
+
+## label
+Anaerobic glycolysis makes lactate not for the lactate but to regenerate the NAD+ that glyceraldehyde 3-phosphate dehydrogenase needs
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "during anaerobic glycolysis NAD+ is regenerated from NADH by: lactate dehydrogenase" (Q8), against GAPDH/oxygen/glutamate dehydrogenase as distractors.
+
+---
+
+# Item
+
+## id
+CON-FND-CA74978B7B7ED1
+
+## label
+Glycogen synthesis and breakdown are reciprocally switched by one cAMP cascade, with calcium and AMP as the muscle's own overrides
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen metabolism regulation
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p31 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p33 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p37 | MED 102
+
+## field_notes
+universityNotes: Tested five times — which enzyme is NOT a regulatory enzyme, lactate dehydrogenase, against glycogen phosphorylase/G6PD/pyruvate kinase (Q9); the hormone that activates glycogen phosphorylase, epinephrine (Q22); glycogen phosphorylase's own properties — cAMP-activated, ATP-inhibited, not insulin-activated (Q45); epinephrine and glucagon's combined effect on liver glycogen metabolism, phosphorylase activated while synthase is inactivated (Q57); and, during glycogenolysis, what protein kinase A activates, phosphorylase kinase (Q83).
+
+---
+
+# Item
+
+## id
+CON-FND-0F4A45886203EF
+
+## label
+Glucose yields 32 ATP aerobically and 2 anaerobically, and four of the aerobic ATP are made at substrate level in glycolysis
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Complete glucose oxidation
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p29 | MED 102
+
+## field_notes
+universityNotes: Tested twice, and the AFM bank's own printed key uses the OLDER P/O-ratio convention (NADH = 3 ATP, FADH2 = 2 ATP) rather than this record's modern 32/2 figures: "complete oxidation of one molecule of glucose yields how many ATPs" keys 38 (Q13, option text recovered by 200 dpi render after the OCR text layer scrambled it to "129"), and "complete oxidation of glucose to pyruvate in liver produces" keys 8 ATP (Q35, i.e. 2 substrate-level + 2 NADH×3 shuttled — again the old convention). This is a genuine numeric-convention mismatch between this record's modern figure and the department's own examined figure, not an error in either; recorded for the question author's attention rather than silently reconciled.
+
+---
+
+# Item
+
+## id
+CON-FND-229C78C9EB0E78
+
+## label
+Pyruvate dehydrogenase is irreversible and needs five coenzymes, of which thiamine pyrophosphate is the one that fails first
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Pyruvate dehydrogenase
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p26 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p32 | MED 102
+
+## field_notes
+universityNotes: Tested three times — which coenzyme is NOT involved in the PDH reaction, biotin, against TPP/NAD+/FAD (Q14); PDH requires all of NAD/CoA/pyruvate EXCEPT ATP (Q40); and which coenzyme-enzyme pairing is wrong, "pyruvate dehydrogenase, PLP" — PDH does not use PLP among its five coenzymes (Q50).
+
+---
+
+# Item
+
+## id
+CON-FND-089E2C3E01031C
+
+## label
+Lactate, glucogenic amino acids, glycerol and odd-chain fatty acids give glucose; acetyl-CoA never can
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p31 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p34 | MED 102
+
+## field_notes
+universityNotes: Tested four times — no net glucose synthesis from fat because pyruvate-to-acetyl-CoA is irreversible (Q15); gluconeogenic substrates EXCEPT palmitic acid (Q21); which of lactate/glycerol/alanine/acetyl-CoA cannot be a gluconeogenic precursor, acetyl-CoA (Q49); and which compound cannot give net glucose synthesis, acetyl-CoA, against lactate/glycerol/α-ketoglutarate (Q66).
+
+---
+
+# Item
+
+## id
+CON-FND-C2C88203E4A918
+
+## label
+Gluconeogenesis is the reversal of glycolysis except at three irreversible steps, which four key enzymes bypass
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p31 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p33 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p35 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p36 | MED 102
+
+## field_notes
+universityNotes: Tested five times — the four key gluconeogenic enzymes EXCEPT phosphofructokinase, which is glycolytic not gluconeogenic (Q19); which enzyme is NOT cytosolic among the gluconeogenic set, pyruvate carboxylase, which is mitochondrial (Q47); which enzymes gluconeogenesis requires, all of PEP carboxykinase/fructose-1,6-bisphosphatase/G6Pase (Q60); the one enzyme shared by glycolysis and gluconeogenesis, aldolase — a related but distinct point from this record's own bypass-enzyme list, since aldolase is one of the pathway's *shared*, non-bypassed steps rather than one of the four key enzymes (Q71); and which reaction is unique to gluconeogenesis, oxaloacetate to phosphoenolpyruvate (Q77, biotin-requiring per Q76's own phrasing of the same fact).
+
+---
+
+# Item
+
+## id
+CON-FND-7B3B4F0BEBF198
+
+## label
+Glycolysis and gluconeogenesis are reciprocally regulated, and it is fatty acid oxidation that tips the liver towards making glucose
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis regulation
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p27 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p36 | MED 102
+
+## field_notes
+universityNotes: Tested twice — gluconeogenesis is inhibited by insulin, against glucagon/growth hormone/glucocorticoids, all of which favour it (Q18); and the synthesis of glucose from pyruvate requires biotin and is inhibited by elevated glucagon being the false option among the four (Q76).
+
+---
+
+# Item
+
+## id
+CON-FND-3905E3B98C2EC4
+
+## label
+Glycogen breakdown yields mostly glucose-1-phosphate, and only the liver can turn it into blood glucose
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen metabolism
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p33 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p36 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p37 | MED 102
+
+## field_notes
+universityNotes: Tested four times — glycogen's own structure and storage facts, all true of branching/bonds/muscle-vs-liver storage (Q44, folded here as the nearest general glycogen-metabolism record, since no Kasr concept states the structural fact alone); why muscle glycogen cannot raise blood glucose, because muscle lacks glucose-6-phosphatase (Q59); which tissue converts glycogen to glucose in the basal state, liver (Q81); and the rate-limiting enzyme of glycogen degradation, glycogen phosphorylase (Q82). A fifth item (Q78, the branching-point-forming enzyme, transglucosidase/glucotransferase) is glycogen synthesis rather than breakdown but is recorded here for the same reason — no finer Kasr concept exists for glycogen's synthesis mechanics specifically.
+
+---
+
+# Item
+
+## id
+CON-FND-1BE461A57AB76D
+
+## label
+Von Gierke's disease is glucose 6-phosphatase deficiency, and every feature follows from glucose 6-phosphate that cannot be dephosphorylated
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen storage disease
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p31 | MED 102
+
+## field_notes
+universityNotes: Tested twice — the deficient enzyme in Von Gierke's disease, G6Pase (Q23); and which statement is false among fasting hypoglycaemia/hyperlipidaemia-and-ketosis/hypouricaemia, since the disease in fact causes *hyper*uricaemia, not hypouricaemia (Q46) — the AFM bank's own EXCEPT item correctly keys the false "hypouricaemia" statement, so no internal contradiction survives into the authored question, unlike a separate Von Gierke item the triage flagged in a different topic group.
+
+---
+
+# Item
+
+## id
+CON-HEM-4F64967BBFBB6F
+
+## label
+G6PD deficiency increases RBC susceptibility to oxidant-induced hemolysis
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p31 | MED 102
+
+## field_notes
+universityNotes: Tested twice — which enzyme generates NADPH, G6PD (Q24, framed as the enzyme identity rather than the haemolysis mechanism, kept here as the same enzyme); and favism's deficient enzyme, G6PD (Q43). This record is already live and updated by Kasr's 103-BMS-biochemistry-concepts.md batch (see that file's own header); this sparse update targets the same id after that Kasr batch lands, per the ordering in pending-live/INDEX.md.
+
+---
+
+# Item
+
+## id
+CON-FND-B928DE79E08882
+
+## label
+The hexose monophosphate pathway is the main source of NADPH, and its oxidative phase is irreversible
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p28 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p30 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p35 | MED 102
+
+## field_notes
+universityNotes: Tested three times — which of ATP/fatty-acid-biosynthesis/reduced-glutathione/ribose is NOT what the HMP shunt supplies, ATP (Q26); the HMP pathway's own products, NADPH and pentose phosphate (Q62); and its tissue distribution, cytosol of liver/adipose/testis, i.e. all of the above (Q41). A fourth item on tissue distribution by enzyme activity (Q73, G6PD activity very low in adrenal cortex, against skeletal muscle/adipose/red cell) and the transketolase-thiamine link (Q25, folded here rather than under a separate vitamins concept, since the AFM bank frames it as an HMP-pathway fact) are recorded on the same concept for the same reason — no finer Kasr concept exists for the pathway's tissue distribution or its thiamine-dependent step specifically. Sub-lane C (nitrogen/blood/vitamins) may also touch this same concept from its own vitamins scope; flagged as a cross-lane note, not duplicated here beyond this file.
+
