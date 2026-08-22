@@ -276,15 +276,18 @@ comparing extracted **text**, not filenames:
   problem). Compared only within the same `moduleId` (or `containerKind` for the
   cross-module containers) — a match across modules would be a classification error, not a
   content twin.
-- **Source of text**: a per-`sourceId` cache, `scripts/alexandria/pagetext/<sourceId>.json`,
-  written by this same run of `manifest.py` from whatever `probe.json`/`ocr_results.json`
-  already held. This cache did not exist as standalone files before this fix — `pagetext/` was
-  previously only used for ephemeral OCR/soffice render temp-dirs — so writing it now is not a
-  re-probe; every byte in it was already sitting in the existing intermediates.
-  **Note for other lanes**: a second, independent process is concurrently writing a richer
-  per-page cache into the same directory as `<sourceId>.layout.json` (page-level readability,
-  not just flat text) — different filename suffix, so there is no collision, but don't assume
-  every `*.json` file in `pagetext/` follows this schema.
+- **Source of text**: a per-`sourceId` cache, `scripts/alexandria/intake/textcache/<sourceId>.json`
+  (`{sourceId, sha256, text}`), written by this same run of `manifest.py` from whatever
+  `probe.json`/`ocr_results.json` already held — not a re-probe; every byte in it was already
+  sitting in the existing intermediates.
+  **2026-08-22 incident**: this cache was first written to
+  `scripts/alexandria/pagetext/<sourceId>.json` — the same directory and filename pattern
+  `pagetext.py` uses for its own per-page cache (`{pages, mode, ...}`) — and overwrote 3,397 of
+  its files in a 4-second window before anyone noticed. Fixed by moving every file whose schema
+  was exactly `{sourceId, sha256, text}` (3,443 of them; checked key-by-key, nothing carrying a
+  `pages` key was touched) into `scripts/alexandria/intake/textcache/`, and repointing
+  `manifest.py` there. **Rule now in the brief: nothing writes into
+  `scripts/alexandria/pagetext/` except `pagetext.py`.** Both directories are gitignored.
 - **Matching**: text is normalised (lowercase, page-number-only lines dropped, a scanner-app
   watermark — `Scanned by CamScanner`, found stamped on 9 files corpus-wide with otherwise no
   extractable text at all — stripped like a page number, whitespace collapsed) and compared two

@@ -149,3 +149,30 @@ Lane P0-A (corpus intake), Years 1-3 + General Resources.
   zip-unknown — confirmed by hand). moduleMismatch: 0. Row count (3502) ==
   distinct-hash count (3502). Re-hash verification (3615/3615, 0 mismatches)
   still holds — nothing on disk was touched after that check.
+
+- 2026-08-22 (INCIDENT — urgent fix): contentTwinOf's text cache had been
+  writing to scripts/alexandria/pagetext/<sourceId>.json, colliding with
+  pagetext.py's own per-page cache at the same path/filename. 3,397 of its
+  files were overwritten in a 4-second window (19:59:57-20:00:01); the
+  tooling lane added a schema guard and restored its own 151 papers.
+  Remediation, done immediately:
+  1. Scanned every file in scripts/alexandria/pagetext/ (3,492 total),
+     checked its JSON keys, and moved only the ones whose schema was exactly
+     {sourceId, sha256, text} — 3,443 moved to
+     scripts/alexandria/intake/textcache/<sourceId>.json. 49 files left in
+     place, all confirmed (re-checked after the move) to carry a `pages` key
+     — never touched.
+  2. manifest.py changed to read/write only
+     scripts/alexandria/intake/textcache/ (PAGETEXT_DIR renamed
+     TEXTCACHE_DIR); .gitignore's pagetext/ line now carries an explicit
+     "nothing else writes here" note, and a new line for
+     scripts/alexandria/intake/textcache/ sits directly under it.
+  3. Re-ran manifest.py -> index.py -> build-source-index.ts. Diffed all four
+     manifests plus the evidence file against the committed 2a168bc:
+     **zero differences** in every file — moving the cache's storage location
+     changed nothing about its content or the contentTwinOf output it drives.
+  4. Verified: `git status --short scripts/alexandria/pagetext` reports `!!`
+     (ignored); `git check-ignore` confirms both scripts/alexandria/pagetext/
+     and scripts/alexandria/intake/textcache/ are matched by .gitignore.
+  Counts: 3,443 moved / 49 left in pagetext/ (all pre-existing pagetext.py
+  files, none touched) / 0 manifest diffs.

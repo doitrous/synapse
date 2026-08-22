@@ -58,7 +58,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = "/Users/doitrous/Desktop/Alexandria University"
 REPO = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 OUTDIR = os.path.join(REPO, "docs", "Alexandria-Source-Imports", "manifest")
-PAGETEXT_DIR = os.path.join(HERE, "..", "pagetext")
+TEXTCACHE_DIR = os.path.join(HERE, "textcache")
 
 UNIVERSITY = "au"
 YEAR_ID_OF_TOP = {"y1": "AU_Y1", "y2": "AU_Y2", "y3": "AU_Y3", "General Resources": None}
@@ -196,11 +196,18 @@ def row_word_count(pr, oc):
 # rescanned, whatever), no nameTwinOf link possible because the names don't
 # resemble each other at all. Restricted to the categories where this
 # actually matters: a paper, its answers, or a question bank. Computed from
-# the pagetext cache (scripts/alexandria/pagetext/<sourceId>.json — written
-# by this same run of manifest.py from whatever probe.json/ocr_results.json
-# already holds, since none existed as standalone files before this fix; see
-# README.md "Content twins" for why that's an honest description of what
-# happened here, not a re-probe).
+# this lane's own text cache (scripts/alexandria/intake/textcache/<sourceId>.json
+# — written by this same run of manifest.py from whatever probe.json/
+# ocr_results.json already holds; not a re-probe).
+#
+# 2026-08-22 INCIDENT: this cache was first written to
+# scripts/alexandria/pagetext/<sourceId>.json — the same directory and a
+# colliding filename pattern as pagetext.py's own per-page cache
+# ({pages, mode, ...}), which overwrote 3,397 of pagetext.py's files in a
+# 4-second window. Moved out to its own directory here; nothing in this
+# lane writes into scripts/alexandria/pagetext/ again. See
+# README.md "Content twins" and PROGRESS.md for the full incident and the
+# recovery (schema-checked move, not a blind rename).
 CONTENT_TWIN_CATEGORIES = {
     "End of Module paper", "End of Module answers", "End of Year paper",
     "Department Questions",
@@ -425,12 +432,17 @@ def main():
         rows_by_top[top].append(row)
 
     # --- Content-twin cache + detection (2026-08-22 orchestrator follow-up) -
-    # Materialise the pagetext cache: one file per sourceId, from whatever
-    # text probe.py/ocr_worker.py already extracted. This did not exist as
-    # standalone files before this fix (pagetext/ was only ever used for
-    # ephemeral render temp-dirs); writing it now is not a re-probe — every
-    # byte in it was already sitting in probe.json/ocr_results.json.
-    os.makedirs(PAGETEXT_DIR, exist_ok=True)
+    # Materialise this lane's own text cache: one file per sourceId, from
+    # whatever text probe.py/ocr_worker.py already extracted — not a re-probe,
+    # every byte was already sitting in probe.json/ocr_results.json.
+    #
+    # Lives under scripts/alexandria/intake/textcache/, NOT
+    # scripts/alexandria/pagetext/ — this cache was first written into
+    # pagetext/ using the same <sourceId>.json filename pagetext.py's own
+    # per-page cache uses, and overwrote 3,397 of its files. Rule now in the
+    # brief: nothing writes into scripts/alexandria/pagetext/ except
+    # pagetext.py. This directory is this lane's alone.
+    os.makedirs(TEXTCACHE_DIR, exist_ok=True)
     all_rows = [r for rows in rows_by_top.values() for r in rows]
     text_of = {}
     for r in all_rows:
@@ -440,7 +452,7 @@ def main():
         text = best_text(probe.get(sha, {}), ocr.get(sha))
         text_of[sha] = text
         if text:
-            cache_path = os.path.join(PAGETEXT_DIR, f"{r['sourceId']}.json")
+            cache_path = os.path.join(TEXTCACHE_DIR, f"{r['sourceId']}.json")
             json.dump({"sourceId": r["sourceId"], "sha256": sha, "text": text},
                       open(cache_path, "w"), ensure_ascii=False)
 

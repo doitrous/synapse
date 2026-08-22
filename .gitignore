@@ -56,7 +56,12 @@ ios/Synapse.xcodeproj/xcuserdata/
 # committed — it is source material, not source code.
 corpus/
 
-# scripts/alexandria/intake/'s pagetext cache: rendered pdf pages, OCR
-# temp images, and soffice-converted intermediates — regenerable, and not
-# small. Never committed.
+# pagetext.py's per-page cache: rendered pdf pages, page-level readability,
+# OCR temp images — regenerable, and not small. Never committed.
+# Nothing else writes here — see the incident note on the next line.
 scripts/alexandria/pagetext/
+# scripts/alexandria/intake/'s own text cache (sourceId -> extracted text, for
+# contentTwinOf). Was first written into scripts/alexandria/pagetext/ under a
+# colliding filename and overwrote 3,397 of pagetext.py's files on
+# 2026-08-22 — moved out to its own directory for good. Never committed.
+scripts/alexandria/intake/textcache/
