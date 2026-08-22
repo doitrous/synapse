@@ -199,7 +199,7 @@ Red blood cell
 ART-HEM-AU103-RBC-BONE-MARROW
 
 ## related_article_ids
-[clear]
+ART-HEM-TOP-D3C13B01E3
 
 ## related_concept_ids
 CON-HEM-23E454BD997B29
@@ -353,7 +353,7 @@ Erythropoiesis
 ART-HEM-AU103-RBC-BONE-MARROW
 
 ## related_article_ids
-[clear]
+ART-HEM-TOP-672DDE9D3A
 
 ## related_concept_ids
 CON-HEM-D86697439C5923
@@ -505,7 +505,7 @@ Leukopoiesis
 ART-HEM-AU103-RBC-BONE-MARROW
 
 ## related_article_ids
-[clear]
+ART-HEM-TOP-672DDE9D3A
 
 ## related_concept_ids
 CON-HEM-2D18E46BA15483
@@ -657,7 +657,7 @@ Leukopoiesis
 ART-HEM-AU103-LYMPHOID-ORGANS
 
 ## related_article_ids
-[clear]
+ART-IMM-TOP-B42C277725
 
 ## related_concept_ids
 CON-HEM-3E38A04641F73C
@@ -810,7 +810,7 @@ Phagocytes
 ART-HEM-AU103-LYMPHOID-ORGANS
 
 ## related_article_ids
-[clear]
+ART-IMM-TOP-35CFB732FE
 
 ## related_concept_ids
 CON-HEM-719FA556594454

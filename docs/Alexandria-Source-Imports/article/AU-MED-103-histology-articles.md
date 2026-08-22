@@ -135,6 +135,8 @@ CON-HEM-23E454BD997B29
 CON-HEM-D86697439C5923
 
 ## related_articles
+ART-HEM-TOP-672DDE9D3A: Hematopoiesis — the general marrow-maturation process this article's two specific stage landmarks sit inside
+ART-HEM-TOP-D3C13B01E3: Erythrocyte Physiology — the mature cell whose ultrastructure this article's haemoglobin-distribution fact describes
 
 ## question_ids
 
@@ -217,7 +219,6 @@ Written to carry this lane's three NEW concepts (Hb distribution, erythropoiesis
 ## field_notes
 arabicTitle: No standard Arabic rendering of this specific ultrastructure/maturation topic is in undergraduate use in Egypt; students use the English stage names throughout.
 aliases: Filled above.
-relatedArticles: No further-reading article exists yet for this specific new topic; [clear] was removed per LANE-BRIEF Sec21 (related_articles is a prose-list column and stores the literal text, not a sentinel).
 questionIds: question/AU-MED-103-histology-mcq.md carries this article's id in library_ids; the importer assigns real question ids on import, so none can be listed here yet.
 module: Carried on the module column above as +AU-MED-103.
 microtopicId: The primary node placement (SYS-HEM-T01-S01, Blood cell development) already covers this at the right grain; a separate microtopic string would only repeat the topic/subtopic columns.
@@ -351,6 +352,7 @@ CON-HEM-2C5153657AD1AE
 CON-HEM-157B01DD5EAEB6
 
 ## related_articles
+ART-IMM-TOP-B42C277725: Overview of the Immune System — the broader immune-system context this article's organ classification sits inside
 
 ## question_ids
 
@@ -420,7 +422,6 @@ Written to carry this lane's two remaining NEW concepts (lymphoid-organ classifi
 ## field_notes
 arabicTitle: No standard Arabic rendering of this classification is in undergraduate use in Egypt; students use the English "primary/secondary lymphoid organ" and "reticulo-endothelial system" terms.
 aliases: Filled above.
-relatedArticles: No further-reading article exists yet for this specific new topic; [clear] was removed per LANE-BRIEF Sec21 (related_articles is a prose-list column and stores the literal text, not a sentinel).
 questionIds: question/AU-MED-103-histology-mcq.md carries this article's id in library_ids; the importer assigns real question ids on import, so none can be listed here yet.
 module: Carried on the module column above as +AU-MED-103.
 microtopicId: The primary node placement (SYS-HEM-T01-S01-M02, Leukopoiesis) already covers this at the right grain.
