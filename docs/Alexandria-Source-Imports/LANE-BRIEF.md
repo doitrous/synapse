@@ -494,3 +494,12 @@ its output is part of every lane's GATES.
 - **`university_notes` exists on concepts and articles only.** Put the `au: <source, page>` line
   there; for questions/practicals keep the intended line in
   `coverage/00-university-notes-ledger.md` until the validator's H3 adds the column.
+- **Correction:** `university_notes` exists only on the **article** kind today (not concept,
+  question or practical). Concepts carry the `au:` line in `field_notes`; questions and
+  practicals in `coverage/00-university-notes-ledger.md` until H3 lands.
+- **`bulkImport.ts` computes `module_subject` unconditionally for question / article / practical /
+  resource rows:** a sparse update row on those kinds with no `module_subject` column collapses
+  the live value to `[]`. Until the guard (H2b) lands, every update row on those kinds restates
+  `module_subject` in full (Kasr's paths + ours). Concept rows are guarded.
+- **`exam_weight_by_year` keys must be the exact year id** (`AU_Y1`): a key on a wrong id hides
+  the concept from that university's blueprint entirely (`blueprint.ts:84-92`).
