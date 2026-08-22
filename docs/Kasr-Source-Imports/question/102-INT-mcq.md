@@ -80,6 +80,9 @@ Backwards. Deficiency of factor IX causes haemophilia B, not haemophilia A — h
 Acts by converting factor X to Xa
 ## explanation_d
 Correct. Activated factor IX (IXa), complexed with activated factor VIII (VIIIa), platelet phospholipid and Ca2+, activates factor X — the step at which the intrinsic pathway hands off to the common pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## correct_answer
 d
 ## main_concept
@@ -169,6 +172,10 @@ Haemophilia is a clotting-factor deficiency, which prolongs the whole blood *coa
 Characterized by prolonged coagulation time
 ## explanation_d
 Correct. Whichever factor is missing (VIII, IX or XI, according to type), haemophilia slows the intrinsic-pathway cascade and so prolongs the whole blood coagulation time.
+
+Why this is right, from the department book:
+- Haemophilia is a sex-linked recessive disease, carried by females and manifested almost always in males, characterised by episodes of haemorrhage into joints or internal organs after minor trauma, and causing prolongation of the whole blood coagulation time. (department book p.143)
+- There are three types: haemophilia A (classic haemophilia), from deficiency of factor VIII, representing 85% of cases of haemophilia; haemophilia B, from the absence of factor IX; and haemophilia C, from the absence of factor XI. (department book p.143)
 ## correct_answer
 d
 ## main_concept
@@ -250,6 +257,9 @@ Confuses proteins with small metabolites. The book's own definition is the oppos
 Organic compounds with high molecular weight
 ## explanation_b
 Correct. The book opens the chapter by defining proteins as organic compounds with a high molecular weight, built up from amino acids.
+
+Why this is right, from the department book:
+- Proteins are organic compounds with a high molecular weight.
 ## answer_c
 Inorganic compounds with low molecular weight
 ## explanation_c
@@ -343,6 +353,9 @@ Far above the book's count; there is no expanded amino-acid alphabet in what thi
 20 different amino acids
 ## explanation_c
 Correct. The book states that synthesis of proteins commonly requires twenty different amino acids.
+
+Why this is right, from the department book:
+- Proteins are organic compounds with a high molecular weight.
 ## answer_d
 30 different amino acids
 ## explanation_d
@@ -424,6 +437,9 @@ Which of the following is an example of o amino acids?
 Phenylalanine
 ## explanation_a
 Correct. Phenylalanine is one of the twenty amino acids the book lists, and — unlike proline — it is a true α-amino acid, with a free amino group on the carbon next to the carboxyl group.
+
+Why this is right, from the department book:
+- Proteins are organic compounds with a high molecular weight.
 ## answer_b
 Proline
 ## explanation_b
@@ -521,6 +537,9 @@ Glutamate (glutamic acid) is the book's example of an acidic aliphatic amino aci
 Proline
 ## explanation_c
 Correct. The book states plainly that all amino acids are α-amino acids except proline, which is an imino acid.
+
+Why this is right, from the department book:
+- Proteins are organic compounds with a high molecular weight.
 ## answer_d
 Serine
 ## explanation_d
@@ -610,6 +629,9 @@ Amino acids are not classified pathologically anywhere in this chapter — this 
 Chemical classification
 ## explanation_c
 Correct. The book names four classification schemes for amino acids, and chemical classification — by chemical structure — is the first one listed.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_d
 Quantitative classification
 ## explanation_d
@@ -695,6 +717,9 @@ Tempting because histidine has a ring, but the book reserves "aromatic" for phen
 Heterocyclic amino acid
 ## explanation_b
 Correct per the book's own note: "Histidine is a basic heterocyclic amino acid." Its ring places it, with proline, in the heterocyclic group of the chemical classification tree.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_c
 Branched chain amino acid
 ## explanation_c
@@ -780,6 +805,9 @@ Valine is:
 Aliphatic branched amino acid
 ## explanation_a
 Correct. The book lists valine, alongside leucine and isoleucine, under the branched-chain amino acids within the neutral aliphatic group.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_b
 Aliphatic non-branched amino acid
 ## explanation_b
@@ -873,6 +901,9 @@ Arginine is a basic aliphatic amino acid; its side chain is a guanidinium group,
 Serine
 ## explanation_b
 Correct. Serine, with threonine, is listed under the hydroxyl-containing amino acids in the book's chemical classification.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_c
 Cysteine
 ## explanation_c
@@ -958,6 +989,9 @@ An amino acid containing hydroxyl] group is:
 Threonine
 ## explanation_a
 Correct. Threonine is the book's second hydroxyl-containing amino acid, alongside serine.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_b
 Methionine
 ## explanation_b
@@ -1055,6 +1089,9 @@ Threonine is the second hydroxyl-containing amino acid — its side chain has no
 Methionine
 ## explanation_c
 Correct. Methionine, with cysteine, is the book's sulfur-containing amino acid.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_d
 Aspartate
 ## explanation_d
@@ -1148,6 +1185,9 @@ Pyruvate is not one of the book's twenty amino acids; it is not listed anywhere 
 Aspartate
 ## explanation_d
 Correct. Aspartate (aspartic acid), with glutamic acid, is one of the book's two acidic aliphatic amino acids.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## correct_answer
 d
 ## main_concept
@@ -1225,6 +1265,9 @@ An amino acid containing basic group:
 Lysine.
 ## explanation_a
 Correct. Lysine, with arginine, is one of the book's basic aliphatic amino acids.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_b
 Proline.
 ## explanation_b
@@ -1326,6 +1369,9 @@ Alanine is a short-chain neutral aliphatic amino acid with a simple methyl side 
 Phenylalanine
 ## explanation_d
 Correct. Phenylalanine, with tyrosine and tryptophan, is one of the book's aromatic amino acids.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## correct_answer
 d
 ## main_concept
@@ -1403,6 +1449,9 @@ An example of heterocyclic amino acid:
 Histidine
 ## explanation_a
 Correct. Histidine, with proline, is one of the book's two heterocyclic amino acids.
+
+Why this is right, from the department book:
+- The book gives four classification schemes for amino acids: chemical classification (by chemical structure), polar or non-polar (by the polarity of the side chain), nutritional classification (by dietary importance) and metabolic classification (by metabolic fate).
 ## answer_b
 Cysteine
 ## explanation_b
@@ -1496,6 +1545,9 @@ Non-polar/hydrophobic is the book's first polarity group (glycine, alanine, vali
 Uncharged polar group.
 ## explanation_b
 Correct. The book places serine, for its hydroxyl group, among the amino acids with uncharged polar R groups.
+
+Why this is right, from the department book:
+- By the polarity of the side chain (R-group), the book sorts amino acids into three main groups.
 ## answer_c
 Charged polar group.
 ## explanation_c
@@ -1585,6 +1637,9 @@ Uncharged polar covers hydroxyl-, sulfhydryl- and amide-bearing side chains (ser
 Amino acid with charged polar group
 ## explanation_b
 Correct. The book places arginine among the basic amino acids, one of the two charged-R-group categories.
+
+Why this is right, from the department book:
+- By the polarity of the side chain (R-group), the book sorts amino acids into three main groups.
 ## answer_c
 Amino acid with non-polar group
 ## explanation_c
@@ -1670,6 +1725,9 @@ Amino acids are nutritionally classified into:
 Essential, non-essential, and half-essential amino acids
 ## explanation_a
 Correct. Nutritionally, amino acids fall into essential, half-essential (semi-essential) and non-essential groups — the nine essential amino acids include valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine, arginine is the sole half-essential amino acid, and the rest are non-essential.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
 ## answer_b
 Ketogenic, glucogenic, and mixed amino acids
 ## explanation_b
@@ -1759,6 +1817,9 @@ Valine is:
 Essential amino acid
 ## explanation_a
 Correct. Valine is one of the nine essential amino acids — those the body cannot form, so diet must supply them.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
 ## answer_b
 Non-essential amino acid
 ## explanation_b
@@ -1848,6 +1909,9 @@ Proteins containing all the essential amino acids have:
 High biological value
 ## explanation_a
 Correct. The book states plainly that proteins containing all the essential amino acids are of high biological value, giving milk and egg proteins as examples.
+
+Why this is right, from the department book:
+- Proteins that contain all the essential amino acids are of high biological value — the book's examples are milk and egg proteins.
 ## answer_b
 Moderate biological value
 ## explanation_b
@@ -1937,6 +2001,9 @@ Amino acids are classified metabolically into:
 Ketogenic, glucogenic, and mixed amino acids
 ## explanation_a
 Correct. The book's metabolic classification names exactly these three groups: pure glucogenic, pure ketogenic, and glucogenic-and-ketogenic (mixed) amino acids.
+
+Why this is right, from the department book:
+- According to their metabolic fate, the book classifies amino acids into three groups.
 ## answer_b
 Acidic, alkaline, and neutral amino acids
 ## explanation_b
@@ -2026,6 +2093,9 @@ Lysine is:
 Pure ketogenic amino acid
 ## explanation_a
 Correct. The book names leucine and lysine as the only two pure ketogenic amino acids.
+
+Why this is right, from the department book:
+- According to their metabolic fate, the book classifies amino acids into three groups.
 ## answer_b
 Pure glucogenic amino acid
 ## explanation_b
@@ -2127,6 +2197,9 @@ Pure ketogenic is reserved for exactly two amino acids, leucine and lysine; phen
 Glucogenic and ketogenic amino acid
 ## explanation_d
 Correct per the book's own text: "Glucogenic and ketogenic (mixed) amino acids... include phenylalanine, tyrosine, tryptophan, and isoleucine" (physical p9). The printed key's answer (a) names a category the book never defines.
+
+Why this is right, from the department book:
+- According to their metabolic fate, the book classifies amino acids into three groups.
 ## correct_answer
 d
 ## main_concept
@@ -2204,6 +2277,9 @@ Amino acid is:
 Positively charged in acidic medium
 ## explanation_a
 Correct. The book states that in acidic medium amino acids are positively charged (R-NH3+), because the excess H+ leaves the ammonium group charged.
+
+Why this is right, from the department book:
+- Amino acids can react with both acids and bases, so they are ampholytes.
 ## answer_b
 Positively charged in alkaline medium
 ## explanation_b
@@ -2297,6 +2373,9 @@ The Iso Electric Point (IEP) all monoamino-monocarboxylic amino acids is at pH:
 6.02
 ## explanation_b
 Correct. The book states the isoelectric point for all monoamino-monocarboxylic amino acids is pH 6.02, the pH at which the zwitterion carries equal positive and negative charge and cannot migrate in an electric field.
+
+Why this is right, from the department book:
+- Amino acids can react with both acids and bases, so they are ampholytes.
 ## answer_c
 2.02
 ## explanation_c
@@ -2386,6 +2465,9 @@ Two carboxylic groups do not condense with each other in peptide bond formation 
 With the amino group of the other
 ## explanation_b
 Correct. The book describes the peptide bond as formed by condensation of the carboxylic group of one amino acid with the amino group of a second amino acid, releasing one molecule of water.
+
+Why this is right, from the department book:
+- A dipeptide is formed by the condensation of the carboxylic group of one amino acid with the amino group of a second amino acid, losing one molecule of water.
 ## answer_c
 With the hydroxylic group of the other
 ## explanation_c
@@ -2479,6 +2561,9 @@ Iron deficiency limits haemoglobin synthesis in the RBCs the marrow already prod
 Occurs due to chronic blood loss
 ## explanation_c
 Correct. Chronic blood loss — from hookworm infestation, peptic ulcer or piles bleeding, or excessive menstrual loss — is one of the book's three named causes of iron-deficiency anaemia.
+
+Why this is right, from the department book:
+- Chronic blood loss is one of the three causes of iron-deficiency anaemia the book names, alongside deficient dietary intake and deficient absorption.
 ## answer_d
 May cause large pale erythrocytes to appear in peripheral blood
 ## explanation_d
@@ -2572,6 +2657,9 @@ Backwards on location. Vitamin B12, bound to intrinsic factor, is absorbed in th
 Is needed for nuclear maturation and cell division.
 ## explanation_d
 Correct. The bone marrow's rapidly dividing cells need DNA synthesis for nuclear maturation and division, and vitamin B12 is essential for that synthesis.
+
+Why this is right, from the department book:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well. (department book p.132)
 ## correct_answer
 d
 ## main_concept
@@ -2649,6 +2737,10 @@ Anemia results from all the following, EXCEPT:
 Living at high altitude
 ## explanation_a
 Correct — the exception. Living at high altitude raises the RBC count through the hypoxia–erythropoietin pathway (secondary polycythemia); it does not cause anaemia, which is the opposite direction of change.
+
+Why this is right, from the department book:
+- Polycythemia means an increased number of RBCs, which may reach 6-8 million/mm3. (department book p.133)
+- There are two types: primary polycythemia (polycythemia vera), due to a condition in the RBC-forming organs themselves and usually accompanied by increased production of WBCs and platelets too; and secondary polycythemia, which occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude. (department book p.133)
 ## answer_b
 Bone marrow depression
 ## explanation_b
@@ -2738,6 +2830,9 @@ Protein C:
 Is a major physiological anticoagulant
 ## explanation_a
 Correct. Protein C is one of the body's own limiting mechanisms on coagulation: thrombin bound to thrombomodulin on healthy endothelium activates it, and activated protein C, together with protein S, inactivates factors V and VIII and frees tissue plasminogen activator to start fibrinolysis. That whole downstream effect is why protein C counts as a major physiological anticoagulant.
+
+Why this is right, from the department book:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system. (department book p.140)
 ## answer_b
 Decreases the formation of plasmin
 ## explanation_b
@@ -2835,6 +2930,9 @@ Backwards. A ganglion is, by definition, a collection of neurons *outside* the C
 Are the site of relay between one preganglionic and 8-9 postganglionic fibers
 ## explanation_c
 Correct. Each preganglionic axon synapses on 8–9 postganglionic cell bodies, so a ganglion is the site of relay between one preganglionic fibre and several (8–9) postganglionic fibres — the mechanism by which autonomic output is diffused.
+
+Why this is right, from the department book:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream. (department book p.152)
 ## answer_d
 Terminal ganglia are modified sympathetic ganglia
 ## explanation_d
@@ -2928,6 +3026,9 @@ Backwards. The adrenal medulla secretes 80% adrenaline and 20% noradrenaline, no
 Is stimulated by acetylcholine
 ## explanation_d
 Correct. The preganglionic fibres supplying the adrenal medulla are cholinergic (as all preganglionic autonomic fibres are), releasing acetylcholine to stimulate the medulla's catecholamine release — consistent with the medulla behaving as a modified sympathetic ganglion whose "postganglionic" cells have lost their axons.
+
+Why this is right, from the department book:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream. (department book p.152)
 ## correct_answer
 d
 ## main_concept
@@ -3009,6 +3110,9 @@ The paravertebral sympathetic chain relays sympathetic fibres only — parasympa
 Collateral and terminal ganglia.
 ## explanation_b
 Correct. Preganglionic parasympathetic fibres relay in collateral ganglia (the parasympathetic-relaying subset: ciliary, sphenopalatine, submaxillary, otic) and in terminal ganglia (near or in the organ) — the book names both as parasympathetic relay points, not one exclusively.
+
+Why this is right, from the department book:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream. (department book p.152)
 ## answer_c
 Terminal ganglia only.
 ## explanation_c
@@ -3098,6 +3202,9 @@ Backwards. Preganglionic sympathetic fibres to the head and neck arise from the 
 Relay in neurons of the cervical ganglia in the paravertebral sympathetic chain. :
 ## explanation_b
 Correct. Preganglionic sympathetic fibres to the head and neck ascend to relay with neurons in the cervical ganglia, which are part of the paravertebral sympathetic chain.
+
+Why this is right, from the department book:
+- Autonomic ganglia come in four types. The paravertebral sympathetic chain lies on both sides of the vertebral column with a ganglion for each spinal segment, and relays sympathetic fibres only. The collateral ganglia lie midway between cord and viscera at the origins of the big vessels arising from the abdominal aorta and are named after them. The terminal ganglia lie near or within the organ itself and relay parasympathetic fibres, whose postganglionic axons are only a millimetre to a few centimetres long. The adrenal medulla is a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete catecholamines straight into the bloodstream. (department book p.152)
 ## answer_c
 Relay in the ciliary ganglia of the eye.
 ## explanation_c
@@ -3195,6 +3302,9 @@ Dopamine is a synthetic intermediate on the way to noradrenaline inside adrenerg
 Acetyl choline
 ## explanation_d
 Correct. All preganglionic autonomic fibres — sympathetic and parasympathetic alike — are cholinergic, releasing acetylcholine onto nicotinic receptors on the postganglionic neuron inside the ganglion.
+
+Why this is right, from the department book:
+- Acetylcholine receptors divide into two types.
 ## correct_answer
 d
 ## main_concept
@@ -3276,6 +3386,9 @@ Dihydroxyacetone is the simplest ketose, not an aldose at all — it has no alde
 Glyceraldehyde
 ## explanation_b
 Correct. The book states directly that glyceraldehyde, the aldotriose, is the mother compound of all aldoses — every other aldose (erythrose, ribose, glucose, and so on) is structurally related to it.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_c
 Ribose
 ## explanation_c
@@ -3361,6 +3474,9 @@ Which of the following is an aldotriose?
 Glyceraldehyde
 ## explanation_a
 Correct. Glyceraldehyde is the book's aldotriose — the 3-carbon aldose.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_b
 Erythrose
 ## explanation_b
@@ -3458,6 +3574,9 @@ Fructose is a ketohexose and ribose is an aldopentose — neither is an aldohexo
 Glucose and Galactose
 ## explanation_c
 Correct. The book names glucose, mannose and galactose as its aldohexose examples; glucose and galactose are two of the three.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 Ribose and glucose
 ## explanation_d
@@ -3551,6 +3670,9 @@ Erythrulose is the book's ketotetrose, a ketose despite the "-ulose" name patter
 Glucose
 ## explanation_d
 Correct. Glucose is the book's aldohexose example — an aldehyde group at C1, six carbons.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## correct_answer
 d
 ## main_concept
@@ -3628,6 +3750,9 @@ Which of the following is an aldose sugar?
 Glyceraldehyde
 ## explanation_a
 Correct. Glyceraldehyde is the aldotriose — the mother compound of all aldoses.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_b
 Ribulose
 ## explanation_b
@@ -3725,6 +3850,9 @@ Ribulose is the ketopentose (5 carbons), further still from the simplest ketose.
 Dihydroxyacetone
 ## explanation_c
 Correct. The book states directly: "the simplest ketose is dihydroxyacetone (C3)."
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 Fructose
 ## explanation_d
@@ -3814,6 +3942,9 @@ Ribulose is the ketopentose (5 carbons), one carbon short of a hexose.
 Fructose
 ## explanation_c
 Correct. Fructose is the book's named example of a ketohexose.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 Glucose
 ## explanation_d
@@ -3907,6 +4038,9 @@ Erythrose is an aldotetrose, one carbon shorter than ribose, still an aldose.
 Dihydroxyacetone
 ## explanation_d
 Correct. Dihydroxyacetone is the book's simplest ketose.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## correct_answer
 d
 ## main_concept
@@ -3992,6 +4126,9 @@ Halves the terminal alcohol group count. A ketose's chain is capped by a CH2OH g
 All Ketoses have two terminal primary alcohol groups and one ketone group
 ## explanation_c
 Correct. The book states this exactly: "All ketoses have two terminal primary alcohol groups (CH2OH) and have one ketone group (C=O)."
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 All Ketoses have one terminal primary alcohol group and two ketone groups
 ## explanation_d
@@ -4077,6 +4214,9 @@ Xylose is an aldopentose (5-carbon aldose), not a ketotetrose — wrong on both 
 Erythrulose
 ## explanation_b
 Correct. The book names erythrulose as the ketotetrose.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_c
 Fructose
 ## explanation_c
@@ -4170,6 +4310,9 @@ Erythrulose is the ketotetrose (4 carbons), one carbon short of a pentose.
 Ribulose
 ## explanation_c
 Correct. The book names ribulose as the ketopentose.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 Dihydroxyacetone
 ## explanation_d
@@ -4255,6 +4398,9 @@ Both are monosaccharides, the simplest carbohydrate class — nowhere near the m
 Hexoses
 ## explanation_b
 Correct. Glucose is an aldohexose and fructose a ketohexose — both are six-carbon sugars, so hexose is the classification they share.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_c
 Aldoses
 ## explanation_c
@@ -4348,6 +4494,9 @@ Dihydroxyacetone has the right functional group (ketone) but only three carbons,
 Fructose
 ## explanation_c
 Correct. Fructose is the book's ketohexose — six carbons, ketone group at C2.
+
+Why this is right, from the department book:
+- Monosaccharides, the simplest carbohydrates, are classified two ways: by the position of the carbonyl group, into aldoses (aldehyde group at C1) and ketoses (ketone group at C2); and by the number of carbons in the molecule, into trioses (3 carbons), tetroses (4 carbons), pentoses (5 carbons), hexoses (6 carbons) and heptoses (7 carbons).
 ## answer_d
 Galactose
 ## explanation_d
@@ -4429,6 +4578,9 @@ Most of the naturally occurring monosaccharides are of which type?
 D type
 ## explanation_a
 Correct. The book states plainly: "Most of the naturally occurring monosaccharides are of the D- type."
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_b
 C type
 ## explanation_b
@@ -4518,6 +4670,9 @@ Compounds having the same molecular formula but differ in their functional group
 Functional group isomers
 ## explanation_a
 Correct. This is the book's definition of aldose-ketose isomers, i.e. functional group isomerism — same molecular formula, different functional group.
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_b
 Anomers
 ## explanation_b
@@ -4607,6 +4762,9 @@ Two sugars which differ from one another only in the configuration around a sing
 Epimers
 ## explanation_a
 Correct. The book defines epimers exactly this way: compounds with the same molecular formula that differ only in the configuration around one carbon.
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_b
 Anomers
 ## explanation_b
@@ -4696,6 +4854,9 @@ Which of the following is an epimer of glucose?
 Galactose
 ## explanation_a
 Correct. The book states: "Glucose and galactose are epimers at C4."
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_b
 Fructose
 ## explanation_b
@@ -4793,6 +4954,9 @@ C3 is not the carbon the book names for the glucose-mannose epimer pair; C4 is t
 2
 ## explanation_c
 Correct. The book states: "Glucose and mannose are epimers at C2."
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_d
 5
 ## explanation_d
@@ -4886,6 +5050,9 @@ C3 is not a configuration the book names for any epimer pair in this chapter.
 4
 ## explanation_d
 Correct. The book states: "Glucose and galactose are epimers at C4."
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## correct_answer
 d
 ## main_concept
@@ -4975,6 +5142,9 @@ Anomers differ only at the new stereocentre made by ring closure (C1); D- and L-
 Enantiomers
 ## explanation_d
 Correct. The book defines enantiomers as the D- and L- forms of the same compound, mirror images of one another, giving D- and L-glucose as its example.
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## correct_answer
 d
 ## main_concept
@@ -5056,6 +5226,9 @@ Anomers are the alpha/beta forms of the same cyclic compound; fructose and gluco
 Aldose-ketose isomers
 ## explanation_b
 Correct. The book states: "Fructose is the functional group isomer of glucose" — fructose is a ketose, glucose an aldose, same molecular formula, different functional group.
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_c
 Epimers
 ## explanation_c
@@ -5149,6 +5322,9 @@ Ribose is a pentose (5 carbons); fructose is a hexose (6 carbons), so they canno
 Glucose
 ## explanation_c
 Correct. The book states this directly: "Fructose is a functional group isomer of glucose."
+
+Why this is right, from the department book:
+- Isomers share a molecular formula but differ in structure.
 ## answer_d
 Erythrose
 ## explanation_d
@@ -5234,6 +5410,9 @@ Maltose is not among the sugars the book lists as present in honey; it is the di
 Fructose
 ## explanation_b
 Correct. The book states fructose ("fruit sugar") is present in honey, fruits, semen, sucrose and inulin.
+
+Why this is right, from the department book:
+- Among the pentoses, ribose is a component of ribonucleic acid (RNA) and 2-deoxyribose is a component of deoxyribonucleic acid (DNA).
 ## answer_c
 Ribulose
 ## explanation_c
@@ -5327,6 +5506,9 @@ Ribose is the book's RNA sugar, the other pentose in this pair — easy to swap 
 Deoxyribose
 ## explanation_c
 Correct. The book states: "2-deoxyribose is a component of deoxyribonucleic acid (DNA)."
+
+Why this is right, from the department book:
+- Among the pentoses, ribose is a component of ribonucleic acid (RNA) and 2-deoxyribose is a component of deoxyribonucleic acid (DNA).
 ## answer_d
 Ribulose
 ## explanation_d
@@ -5408,6 +5590,9 @@ The sugar found in RNA is:
 Ribose
 ## explanation_a
 Correct. The book states: "Ribose is a component of ribonucleic acids (RNA)."
+
+Why this is right, from the department book:
+- Among the pentoses, ribose is a component of ribonucleic acid (RNA) and 2-deoxyribose is a component of deoxyribonucleic acid (DNA).
 ## answer_b
 Deoxyribose
 ## explanation_b
@@ -5509,6 +5694,9 @@ Glucose is a monosaccharide, the smallest carbohydrate unit, far from the more-t
 It is oxidized to form glucuronic acid
 ## explanation_d
 Correct. The book states directly: "Glucose is oxidised to form glucuronic acid," its sugar-acid derivative.
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## correct_answer
 d
 ## main_concept
@@ -5586,6 +5774,9 @@ Sugar alcohol of glucose is:
 Sorbitol
 ## explanation_a
 Correct. The book states sorbitol is "glucose and fructose alcohol."
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_b
 Inositol
 ## explanation_b
@@ -5687,6 +5878,9 @@ Amino sugars form by replacing the C2 hydroxyl with an amino group, not by reduc
 Sugar alcohol
 ## explanation_d
 Correct. The book states: "These are sugars in which the carbonyl group is reduced to alcohol group" — sugar alcohols.
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## correct_answer
 d
 ## main_concept
@@ -5764,6 +5958,9 @@ Which of the following is a monosaccharide derivative?
 Sorbitol
 ## explanation_a
 Correct. Sorbitol is the book's sugar-alcohol derivative of glucose and fructose, listed under Monosaccharide Derivatives.
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_b
 Sucrose
 ## explanation_b
@@ -5853,6 +6050,9 @@ Glucose reduction produces:
 Sorbitol
 ## explanation_a
 Correct. The book names sorbitol as the alcohol of glucose (and fructose).
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_b
 Mannitol
 ## explanation_b
@@ -5950,6 +6150,9 @@ Glycosaminoglycans are heteropolysaccharides built of repeating amino-sugar/uron
 Sugar alcohol
 ## explanation_c
 Correct. The book lists glycerol first among its sugar alcohols, describing it as the alcohol of glyceraldehyde or dihydroxyacetone, and a component of triacylglycerol and most phospholipids.
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_d
 Protein
 ## explanation_d
@@ -6039,6 +6242,9 @@ Mannose's sugar alcohol is mannitol, per the book — not dulcitol.
 Galactose
 ## explanation_c
 Correct. The book states: "Dulcitol: It is galactose alcohol."
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_d
 Fructose
 ## explanation_d
@@ -6124,6 +6330,9 @@ Glycosides are condensation products with another sugar or a non-carbohydrate ag
 Sugar alcohols
 ## explanation_b
 Correct. Both are named in the book's Sugar Alcohols section: sorbitol as the alcohol of glucose/fructose, dulcitol as the alcohol of galactose.
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_c
 Sugar acids
 ## explanation_c
@@ -6213,6 +6422,9 @@ C1 carries the carbonyl group (the aldehyde) in an aldose, not the substitution 
 Second carbon
 ## explanation_b
 Correct. The book states: "These are sugars in which the hydroxyl group at C2 is replaced by an amino group (NH2)."
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## answer_c
 Third carbon
 ## explanation_c
@@ -6310,6 +6522,9 @@ Sugar alcohols form by reducing a monosaccharide's carbonyl group; nucleosides a
 Glycosides
 ## explanation_d
 Correct. The book states: "Nucleosides are glycosides formed of ribose or deoxyribose connected to nitrogenous base (aglycon), they are found in nucleic acids."
+
+Why this is right, from the department book:
+- Monosaccharides are chemically modified into five classes of derivative.
 ## correct_answer
 d
 ## main_concept
@@ -6387,6 +6602,9 @@ Which of the following is a sugar alcohol?
 Mannitol
 ## explanation_a
 Correct. Mannitol is the sugar alcohol of mannose, formed by reducing mannose's carbonyl group to an alcohol group.
+
+Why this is right, from the department book:
+- Mannitol is mannose alcohol. Because it is poorly absorbed by the intestines it is used as a low-calorie sweetener; and because it is non-metabolised and easily excreted by the kidney it is used as a diuretic, to reduce eye pressure in glaucoma, and to reduce intracranial pressure in brain oedema — in each of the three by osmosis. (department book p.21)
 ## answer_b
 Fructose
 ## explanation_b
@@ -6484,6 +6702,9 @@ Ribitol is the sugar alcohol of ribose, not mannose.
 Mannitol
 ## explanation_c
 Correct. Mannitol is mannose's sugar alcohol — mannose reduced at its carbonyl carbon.
+
+Why this is right, from the department book:
+- Mannitol is mannose alcohol. Because it is poorly absorbed by the intestines it is used as a low-calorie sweetener; and because it is non-metabolised and easily excreted by the kidney it is used as a diuretic, to reduce eye pressure in glaucoma, and to reduce intracranial pressure in brain oedema — in each of the three by osmosis. (department book p.21)
 ## answer_d
 Dulcitol
 ## explanation_d
@@ -6569,6 +6790,9 @@ Neither galactose nor mannose is a component of sucrose; the book builds sucrose
 Glucose and fructose
 ## explanation_b
 Correct. The book states sucrose "is formed of Fructose and Glucose united by...linkage," so hydrolysis returns those two monosaccharides.
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_c
 Glucose and galactose
 ## explanation_c
@@ -6654,6 +6878,9 @@ Monosaccharide units linked by a 1, 4-glucosidic linkage in:
 Maltose
 ## explanation_a
 Correct. The book states maltose is "formed of two molecules of glucose united by 1,4-glucosidic linkage."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_b
 Sucrose
 ## explanation_b
@@ -6751,6 +6978,9 @@ Cellulose is a homopolysaccharide of glucose units only; hydrolysis yields gluco
 Sucrose
 ## explanation_c
 Correct. Sucrose is formed of fructose and glucose, so its hydrolysis yields fructose (along with glucose).
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_d
 Starch
 ## explanation_d
@@ -6840,6 +7070,9 @@ The book explicitly groups lactose with maltose as having a free carbonyl group,
 Sucrose
 ## explanation_c
 Correct. The book states: "in sucrose both carbonyl carbons are involved in the linkage, so it is non-reducing."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_d
 Maltose
 ## explanation_d
@@ -6929,6 +7162,9 @@ Isomaltose is not built from fructose in the book's account; its structural rela
 Sucrose
 ## explanation_c
 Correct. Sucrose is fructose plus glucose, so hydrolysis returns both.
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_d
 Maltose
 ## explanation_d
@@ -7022,6 +7258,9 @@ Sucrose hydrolyses to glucose and fructose, per the book — no galactose.
 Lactose
 ## explanation_d
 Correct. The book states lactose "is hydrolyzed... into glucose and galactose."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## correct_answer
 d
 ## main_concept
@@ -7103,6 +7342,9 @@ Sucrose hydrolyses to glucose and fructose, not glucose alone.
 Maltose
 ## explanation_b
 Correct. The book states maltose "is hydrolyzed... into two molecules of D-glucose" — glucose units only.
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_c
 Lactose
 ## explanation_c
@@ -7192,6 +7434,9 @@ Itis called Malt sugar
 It is hydrolyzed into glucose and galactose
 ## explanation_b
 Correct. The book states lactose "is hydrolyzed by lactase enzyme or by acids into glucose and galactose."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_c
 Itis hydrolyzed by lactase enzyme or by alkali
 ## explanation_c
@@ -7285,6 +7530,9 @@ Cellulose's linkage is beta1,4-glucosidic — the same anomeric form and positio
 Lactose
 ## explanation_c
 Correct. The book states lactose is "galactose and glucose united by beta1,4-galactosidic linkage."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_d
 Sucrose
 ## explanation_d
@@ -7366,6 +7614,9 @@ Which of the following is the main product of digestion of starch by amylase?
 Maltose
 ## explanation_a
 Correct. The book states: "Maltose is the main product of digestion of starch by amylase."
+
+Why this is right, from the department book:
+- A disaccharide is two monosaccharides joined by a glycosidic linkage, named for its anomeric form (alpha or beta) and its parent sugar (glucosidic, galactosidic or fructosidic).
 ## answer_b
 Sucrose
 ## explanation_b
@@ -7455,6 +7706,9 @@ Oligosaccharides contain:
 3 to 10 monosaccharide units per molecule
 ## explanation_a
 Correct. The book states directly: "Oligosaccharides: consist of 3 to 10 monosaccharide units per molecule."
+
+Why this is right, from the department book:
+- Carbohydrates are poly-hydroxy-alcohols with an aldehyde or keto group (general formula Cn(H2O)n, hence "hydrates of carbon"), important as a source of dietary calories, a form of energy storage, and a structural component.
 ## answer_b
 More than 10 monosaccharide units per molecule
 ## explanation_b
@@ -7552,6 +7806,9 @@ Dextrin is not discussed in the book's homopolysaccharide classification.
 Inulin
 ## explanation_c
 Correct. The book names inulin as a fructan, "formed of fructose units," present in plants.
+
+Why this is right, from the department book:
+- Carbohydrates are poly-hydroxy-alcohols with an aldehyde or keto group (general formula Cn(H2O)n, hence "hydrates of carbon"), important as a source of dietary calories, a form of energy storage, and a structural component.
 ## answer_d
 Cellulose
 ## explanation_d
@@ -7637,6 +7894,9 @@ Glucose is the building unit of the book's glucans (starch, glycogen, cellulose)
 Fructose
 ## explanation_b
 Correct. The book classes inulin as a fructan, "formed of fructose units."
+
+Why this is right, from the department book:
+- Carbohydrates are poly-hydroxy-alcohols with an aldehyde or keto group (general formula Cn(H2O)n, hence "hydrates of carbon"), important as a source of dietary calories, a form of energy storage, and a structural component.
 ## answer_c
 Mannose
 ## explanation_c
@@ -7722,6 +7982,9 @@ Which of the following is the chief storage form of carbohydrates in chlorophyll
 Starch
 ## explanation_a
 Correct. The book states: "Starch is the chief storage form of carbohydrates in chlorophyll-containing plants."
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_b
 Glycogen
 ## explanation_b
@@ -7811,6 +8074,9 @@ Starch is a:
 Homopolysaccharide
 ## explanation_a
 Correct. The book lists starch among the Glucans — homopolysaccharides built entirely of glucose units.
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_b
 Monosaccharide
 ## explanation_b
@@ -7904,6 +8170,9 @@ Fructose is the building unit of fructans (e.g. inulin), per the book — not of
 D-Glucose
 ## explanation_b
 Correct. The book lists both starch and glycogen among the Glucans, polymers of glucose.
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_c
 Mannose
 ## explanation_c
@@ -7993,6 +8262,9 @@ Starch is the book's plant storage form, not the animal one.
 Glycogen
 ## explanation_b
 Correct. The book states: "Glycogen is the storage form of carbohydrates in animals."
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_c
 Glucose
 ## explanation_c
@@ -8078,6 +8350,9 @@ A polysaccharide which is called animal starch is:
 Glycogen
 ## explanation_a
 Correct. The book states glycogen is "the storage form of carbohydrates in animals (animal starch)."
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_b
 Starch
 ## explanation_b
@@ -8167,6 +8442,9 @@ Glycogen is mainly present in:
 Skeletal muscles and liver
 ## explanation_a
 Correct. The book states glycogen is "present in most cells but especially in skeletal muscles and liver (as stores of excess glucose)."
+
+Why this is right, from the department book:
+- Starch is the chief storage form of carbohydrate in chlorophyll-containing plants, present in large amounts in cereals (rice, wheat), tubers (potatoes, sweet potatoes) and legumes (beans).
 ## answer_b
 Brain
 ## explanation_b
@@ -8264,6 +8542,9 @@ Cellulose is a glucan — a homopolysaccharide built of glucose units only.
 Heparin
 ## explanation_c
 Correct. Heparin is one of the book's sulfate-containing glycosaminoglycans — heteropolysaccharides built of repeating amino-sugar/uronic-acid disaccharide units.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
 ## answer_d
 Dextrin
 ## explanation_d
@@ -8349,6 +8630,9 @@ Starch is a glucan, a homopolysaccharide built of glucose units only.
 Hyaluronic acid
 ## explanation_b
 Correct. Hyaluronic acid is the book's sulfate-free GAG — a heteropolysaccharide built of repeating amino-sugar/uronic-acid units.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
 ## answer_c
 Cellulose
 ## explanation_c
@@ -8442,6 +8726,9 @@ Cellulose is a glucan, a homopolysaccharide built of glucose units only.
 Keratan sulfate
 ## explanation_c
 Correct. Keratan sulfate is one of the book's sulfate-containing glycosaminoglycans, heteropolysaccharides built of repeating disaccharide units.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
 ## answer_d
 Dextrin
 ## explanation_d
@@ -8527,6 +8814,9 @@ Heparin is listed by the book among the sulfate-containing GAGs, not the sulfate
 Hyaluronic acid
 ## explanation_b
 Correct. The book classifies GAGs into "Sulfate free glycosaminoglycans: hyaluronic Acid" — the only member of that group.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
 ## answer_c
 Inulin
 ## explanation_c
@@ -8616,6 +8906,9 @@ Inulin is a fructan homopolysaccharide, not a GAG.
 Heparin
 ## explanation_b
 Correct. Heparin is one of the book's sulfate-containing glycosaminoglycans.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
 ## answer_c
 Glucosamine
 ## explanation_c
@@ -8709,6 +9002,9 @@ Anticoagulant activity is the book's description of heparin (and, to a lesser ex
 Important for cell-cell interaction
 ## explanation_c
 Correct. The book states: "Heparan sulfate is associated mainly with plasma membrane of cells and plays an important role in cell membrane receptors and cell-cell interaction."
+
+Why this is right, from the department book:
+- The GAGs each carry a specific biomedical role.
 ## answer_d
 Important for transparency of the cornea
 ## explanation_d
@@ -8790,6 +9086,9 @@ The polysaccharide which is used to prevent blood clotting is:
 Heparin
 ## explanation_a
 Correct. The book states: "Heparin proteoglycan is an important anticoagulant (prevents thrombus formation)."
+
+Why this is right, from the department book:
+- The GAGs each carry a specific biomedical role.
 ## answer_b
 Keratan sulfate
 ## explanation_b
@@ -8891,6 +9190,9 @@ Cell-cell interaction is the book's description of heparan sulfate, a different,
 Important for transparency of the cornea
 ## explanation_d
 Correct. The book states keratan sulfate "is one of the major components of the cornea and suggested to have important roles for corneal development and maintenance of its transparency."
+
+Why this is right, from the department book:
+- The GAGs each carry a specific biomedical role.
 ## correct_answer
 d
 ## main_concept
@@ -8968,6 +9270,9 @@ Which of the following is present in high concentration in embryonic tissues:
 Hyaluronic acid
 ## explanation_a
 Correct. The book states hyaluronic acid is "also found in skin, synovial fluid of joints, umbilical cord, vitreous body of the eye, and embryonic tissues."
+
+Why this is right, from the department book:
+- The GAGs each carry a specific biomedical role.
 ## answer_b
 keratan sulfate
 ## explanation_b
@@ -9061,6 +9366,9 @@ G1 is a growth phase in which the cell increases in size before committing to di
 S phase
 ## explanation_b
 Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated.
+
+Why this is right, from the department book:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
 ## answer_c
 M phase
 ## explanation_c
@@ -9158,6 +9466,9 @@ M phase is active mitosis, the most dynamic part of the cycle, not a resting sta
 GO phase
 ## explanation_d
 Correct. G0 is the quiescent phase a cell enters after G1 if it stops dividing; the cell rests, performing its function without dividing, and for some cells (like most adult neurons) this is permanent.
+
+Why this is right, from the department book:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
 ## correct_answer
 d
 ## main_concept
@@ -9243,6 +9554,9 @@ S phase duplicates the genetic material but does not itself produce two separate
 M phase
 ## explanation_c
 Correct. M phase is mitosis, the stage where the cell separates the two copies of its genetic material into two identical daughter cells.
+
+Why this is right, from the department book:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
 ## answer_d
 G2 phase
 ## explanation_d
@@ -9328,6 +9642,9 @@ An enzyme in general is too vague and is not what the book names as the initiati
 Growth factor
 ## explanation_b
 Correct. The book states the cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane, which triggers an intracellular signalling cascade that induces cyclin genes.
+
+Why this is right, from the department book:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
 ## answer_c
 Hormone
 ## explanation_c
@@ -9421,6 +9738,9 @@ Cyclin B pairs with CDK1 for the G2-to-M transition, not with CDK4.
 Cyclin D
 ## explanation_c
 Correct. The book's table pairs CDK4 (and CDK6) with cyclin D for progression past the restriction point at the G1/S boundary.
+
+Why this is right, from the department book:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
 ## answer_d
 Cyclin E
 ## explanation_d
@@ -9502,6 +9822,9 @@ Spindle assembly check point of the cell cycle:
 Check for proper attachment of chromosomes to spindle
 ## explanation_a
 Correct. The book states the spindle assembly checkpoint checks for proper attachment of chromosomes to the spindle.
+
+Why this is right, from the department book:
+- There are three checkpoints that ensure DNA and chromosomal structure are intact before the cell cycle is completed.
 ## answer_b
 Check for cell size
 ## explanation_b
@@ -9599,6 +9922,9 @@ Ensuring normal cell size is part of what the G1 (and G2) checkpoints verify, no
 Point beyond which cell become committed to enter the S phase
 ## explanation_c
 Correct. The book states the restriction point (R), located in late G1, is the point beyond which cells that pass through will enter S phase and complete the entire cycle independently of the presence of growth factors.
+
+Why this is right, from the department book:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
 ## answer_d
 For DNA replication
 ## explanation_d
@@ -9688,6 +10014,9 @@ A mutation is a change in DNA sequence, not a description of a cell-death proces
 Apoptosis
 ## explanation_c
 Correct. The book defines apoptosis as 'a programmed genetically directed cell death (physiological cell suicide program).'
+
+Why this is right, from the department book:
+- Apoptosis is a programmed genetically directed cell death, a physiological cell-suicide program.
 ## answer_d
 Transversion
 ## explanation_d
@@ -9773,6 +10102,9 @@ Serine proteases are a different enzyme class (e.g., trypsin, chymotrypsin) from
 Cystine proteases
 ## explanation_b
 Correct, allowing for the book's own spelling ('cystine' rather than 'cysteine'). The book states caspases are intracellular cysteine proteases.
+
+Why this is right, from the department book:
+- There are two main pathways for apoptosis.
 ## answer_c
 Aspartate proteases
 ## explanation_c
@@ -9862,6 +10194,9 @@ The nucleus houses the DNA whose damage can trigger apoptosis, but the intrinsic
 Mitochondria
 ## explanation_b
 Correct. The book names the intrinsic (mitochondrial) pathway for cellular stress that promotes release of cytochrome c from mitochondria into the cytosol, activating caspases.
+
+Why this is right, from the department book:
+- There are two main pathways for apoptosis.
 ## answer_c
 Endoplasmic reticulum
 ## explanation_c
@@ -9947,6 +10282,9 @@ Release of cytochrome ¢ from the mitochondria during apoptosis occurs in respon
 Stress as DNA damage
 ## explanation_a
 Correct. The book states the intrinsic pathway is used extensively in response to different forms of cellular stress, and stressors — including DNA damage — promote the release of cytochrome c from mitochondria into the cytosol.
+
+Why this is right, from the department book:
+- There are two main pathways for apoptosis.
 ## answer_b
 Caspase 8
 ## explanation_b
@@ -10048,6 +10386,9 @@ Bak is also a pro-apoptotic member of the Bcl-2 family.
 Bel-2
 ## explanation_d
 Correct. Bcl-2 is the anti-apoptotic member of the family named after it — under physiological conditions it balances the pro-apoptotic Bax, Bak and Bok.
+
+Why this is right, from the department book:
+- The cell cycle is controlled by a group of regulatory proteins, the cyclins and the cyclin-dependent kinases: a cyclin complexes with and activates a particular CDK, and that complex produces the regulatory effects the cell needs in order to pass from one phase into the next. (department book p.108)
 ## correct_answer
 d
 ## main_concept
@@ -10129,6 +10470,9 @@ Muscarinic receptors sit on effector organs reached by postganglionic parasympat
 nicotinic
 ## explanation_b
 Correct. The synapse between preganglionic and postganglionic sympathetic neurons uses nicotinic receptors — the same receptor type used at every autonomic ganglion, regardless of division.
+
+Why this is right, from the department book:
+- Nicotinic receptors, activated by nicotine, sit in the autonomic ganglia (on postganglionic-neuron membranes) and the adrenal medulla — the receptor at the preganglionic-to-postganglionic synapse itself, for both divisions.
 ## answer_c
 beta adrenergic
 ## explanation_c
@@ -10226,6 +10570,9 @@ Backwards. Noradrenaline is released from postganglionic, not preganglionic, sym
 Excites mainly alpha receptors
 ## explanation_d
 Correct. Noradrenaline excites mainly alpha receptors, exciting beta receptors only to a slight extent — the reverse of adrenaline's roughly equal action on both.
+
+Why this is right, from the department book:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis. (department book p.165)
 ## correct_answer
 d
 ## main_concept
@@ -10307,6 +10654,9 @@ Vasodilation is a beta-2 receptor effect (on coronary and skeletal blood vessels
 Inhibition of plain muscles of intestinal wall
 ## explanation_b
 Correct. Alpha-2 receptors are mainly inhibitory, producing relaxation of intestinal smooth muscle.
+
+Why this is right, from the department book:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis. (department book p.165)
 ## answer_c
 Increased cardiac activity
 ## explanation_c
@@ -10392,6 +10742,9 @@ The sympathetic:
 Some of postganglionic fibers release acetylcholine
 ## explanation_a
 Correct. Some postganglionic sympathetic fibres — the two named exceptions, secretory fibres to sweat glands and vasodilator fibres to skeletal-muscle blood vessels — release acetylcholine rather than noradrenaline.
+
+Why this is right, from the department book:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline. (department book p.162)
 ## answer_b
 Postganglionic fibers to the heart release adrenaline
 ## explanation_b
@@ -10489,6 +10842,9 @@ Backwards. Postganglionic cells of the adrenal medulla have lost their axons and
 Increase the blood glucose level by decreasing liver glycogen
 ## explanation_c
 Correct. Sympathetic stimulation of the liver drives glycogenolysis, breaking down stored glycogen and so increasing blood glucose level.
+
+Why this is right, from the department book:
+- Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves.
 ## answer_d
 Produce inhibition of plain muscles and sphincters of small intestine
 ## explanation_d
@@ -10570,6 +10926,9 @@ The autonomic nervous system differs from the somatic nervous system In:
 ls a 2 efferent system
 ## explanation_a
 Correct. The autonomic efferent pathway is a two-neuron system (preganglionic and postganglionic), while the somatic motor pathway from cord to skeletal muscle is a single-neuron system — this is the structural difference the book highlights.
+
+Why this is right, from the department book:
+- These efferent pathways differ from the somatic motor pathway: each somatic pathway from the cord to a skeletal muscle is composed of a single fibre (one-neuron system), while each autonomic, involuntary pathway is composed of two fibres, the preganglionic and the postganglionic neurons (two-neuron system). (department book p.151)
 ## answer_b
 Originates from all segments of the spinal cord
 ## explanation_b
@@ -10675,6 +11034,9 @@ All sympathetic preganglionic fibres genuinely release acetylcholine (as all pre
 All sympathetic postganglionic fibers -
 ## explanation_d
 Correct — the exception. Most postganglionic sympathetic fibres release noradrenaline (adrenergic), not acetylcholine — only the two named exceptions (sweat gland secretory fibres, skeletal-muscle vasodilator fibres) are cholinergic, so "all sympathetic postganglionic fibres" release acetylcholine is false.
+
+Why this is right, from the department book:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline. (department book p.162)
 ## correct_answer
 d
 ## main_concept
@@ -10752,6 +11114,9 @@ Norepinephrine secreted at the postgang!ionic sympathetic fibers is removed by:
 Reuptake by the endings of the sympathetic fibers
 ## explanation_a
 Correct. Active re-uptake into the sympathetic nerve endings themselves accounts for the removal of 50–80% of secreted noradrenaline — the dominant of the three named removal routes.
+
+Why this is right, from the department book:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
 ## answer_b
 Inactivation inside the adrenergic nerve endings by COMT
 ## explanation_b
@@ -10853,6 +11218,9 @@ Backwards. Splanchnic-nerve-driven hepatic glycogenolysis *increases*, not decre
 Secretion of epinephrine and norepinephrine by the adrenal medulla
 ## explanation_d
 Correct. The greater splanchnic nerve carries preganglionic cholinergic sympathetic fibres directly to the adrenal medulla, and its stimulation causes secretion of adrenaline and noradrenaline into the blood.
+
+Why this is right, from the department book:
+- Sympathetic preganglionic fibres to abdominal viscera (T5–T12) pass through the paravertebral chain without relay, leaving as the greater (T5–T9, to coeliac and superior mesenteric ganglia), lesser (T10–T11) and least (T12) splanchnic nerves.
 ## correct_answer
 d
 ## main_concept
@@ -10930,6 +11298,9 @@ Epinephrine is:
 Synthesized in the adrenal medulla by methylation of norepinephrine
 ## explanation_a
 Correct. Epinephrine (adrenaline) is synthesised in the adrenal medulla by methylating noradrenaline — the final step distinguishing the two catecholamines.
+
+Why this is right, from the department book:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
 ## answer_b
 The chemical transmitter of most sympathetic postganglionic nerve fibers
 ## explanation_b
@@ -11019,6 +11390,9 @@ Concerning norepinephrine all of the following is correct, except:
 It is synthesized from tyrosine by the enzyme monoamine oxidase (MAO).
 ## explanation_a
 Correct — the exception. Noradrenaline is synthesised from tyrosine by hydroxylation (to DOPA) and decarboxylation (to dopamine), then conversion to noradrenaline — MAO (monoamine oxidase) is a *degrading*, not synthesising, enzyme, part of noradrenaline's removal rather than its manufacture.
+
+Why this is right, from the department book:
+- Noradrenaline is synthesised in adrenergic nerve terminals by hydroxylation of tyrosine to DOPA, then decarboxylation of DOPA to dopamine; inside dark granulated vesicles, dopamine is converted to noradrenaline, stored bound to ATP and the protein chromogranin.
 ## answer_b
 It is inactivated by catechol-O-methyl transferase (COMT) present on the ‘membrane of the postsynaptic neurons.
 ## explanation_b
@@ -11120,6 +11494,9 @@ Relaxation of intestinal wall smooth muscle is a genuine alpha-2 receptor effect
 Increased cardiac activity
 ## explanation_d
 Correct — the exception. Increased cardiac activity is a beta-1, not an alpha, receptor effect — alpha receptors' actions are elsewhere (vasoconstriction, mydriasis, sphincter contraction, intestinal relaxation), never on the heart.
+
+Why this is right, from the department book:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis. (department book p.165)
 ## correct_answer
 d
 ## main_concept
@@ -11209,6 +11586,9 @@ Epinephrine's beta-2 action *relaxes* intestinal smooth muscle, the opposite of 
 Arterioles
 ## explanation_d
 Correct. Alongside beta-1-driven tachycardia, epinephrine's alpha-1 action contracts (vasoconstricts) arteriolar smooth muscle in skin, viscera and genitalia — matching both halves of the stem, tachycardia and smooth-muscle contraction, in one receptor-consistent picture.
+
+Why this is right, from the department book:
+- There are two major types of adrenergic receptor, alpha with subtypes 1 and 2 and beta with subtypes 1, 2 and 3, and they sit in two places: on the surface of effector organs, where they are postsynaptic, and on the membrane of postganglionic nerve endings, where they are presynaptic autoreceptors that regulate transmitter release — stimulating the alpha ones decreases noradrenaline release and stimulating the beta ones increases it. Postsynaptically they are told apart by mechanism: alpha-1 raises intracellular calcium, alpha-2 inhibits adenyl cyclase and lowers cAMP, and beta-1 and beta-2 stimulate adenyl cyclase and raise cAMP. And they are told apart by what they do. Alpha-1 is mainly excitatory and contracts plain muscle: vasoconstriction in skin, viscera and male genitalia, the dilator pupillae giving mydriasis, the splenic capsule, the sphincters of the gastrointestinal tract retaining faeces, the internal urethral sphincter retaining urine, and the seminal vesicles and vas deferens in ejaculation. Alpha-2 is mainly inhibitory and relaxes the plain muscle of the intestine. Beta-1 is mainly excitatory and accelerates the heart and increases its force of contraction. Beta-2 is mainly inhibitory and relaxes plain muscle: vasodilatation of the coronary and skeletal blood vessels, bronchodilatation, and relaxation of the gastrointestinal tract, urinary bladder and uterus. Beta-3 drives lipolysis. (department book p.165)
 ## correct_answer
 d
 ## main_concept
@@ -11290,6 +11670,9 @@ Skeletal muscle contraction is mediated by nicotinic receptors at the neuromuscu
 Bradycardia
 ## explanation_b
 Correct. Muscarinic receptors mediate the parasympathetic (vagal) effect on the heart, which slows atrial activity — bradycardia.
+
+Why this is right, from the department book:
+- Nicotinic receptors, activated by nicotine, sit in the autonomic ganglia (on postganglionic-neuron membranes) and the adrenal medulla — the receptor at the preganglionic-to-postganglionic synapse itself, for both divisions.
 ## answer_c
 Dilation of the pupils
 ## explanation_c
@@ -11375,6 +11758,9 @@ Sympathetic stimulation causes dilatation of blood vessels of skeletal muscles b
 Sympathetic cholinergic nerve fibers
 ## explanation_a
 Correct. Skeletal-muscle blood vessels are supplied by sympathetic cholinergic vasodilator fibres — one of the two named exceptions where a sympathetic fibre releases acetylcholine rather than noradrenaline, and it is this cholinergic action (muscarinic-receptor-mediated dilation) that dilates the vessels under sympathetic stimulation.
+
+Why this is right, from the department book:
+- Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions of the autonomic nervous system, so autonomic nerve fibres are divided into cholinergic and adrenergic. The cholinergic fibres are all preganglionic autonomic fibres, sympathetic and parasympathetic alike, including those to the adrenal medulla; all postganglionic parasympathetic fibres; and some postganglionic sympathetic fibres, which are the secretory fibres to the sweat glands and the vasodilator fibres to the blood vessels of skeletal muscle. All the other postganglionic sympathetic fibres secrete noradrenaline, which is also secreted from the adrenal medulla together with adrenaline. Cholinergic receptors are activated by acetylcholine, adrenergic receptors by noradrenaline. (department book p.162)
 ## answer_b
 Sympathetic adrenergic nerve fibers
 ## explanation_b
@@ -11464,6 +11850,9 @@ Adenine is:
 A purine base
 ## explanation_a
 Correct. The book classifies adenine, with guanine, as one of the two main purines. Its own naming table confirms adenine is the base — Adenosine is the nucleoside built from it, and AMP is the nucleotide.
+
+Why this is right, from the department book:
+- Nucleotides are the building units of DNA and RNA.
 ## answer_b
 A pyrimidine base
 ## explanation_b
@@ -11553,6 +11942,9 @@ Nucleoside contains:
 Base-sugar
 ## explanation_a
 Correct. The book defines a nucleoside as formed of a nitrogenous base and a pentose — base plus sugar, nothing more.
+
+Why this is right, from the department book:
+- Nucleotides are the building units of DNA and RNA.
 ## answer_b
 Base-phosphate
 ## explanation_b
@@ -11654,6 +12046,9 @@ C4' is part of the pentose ring itself, not the site of the phosphate ester bond
 C5
 ## explanation_d
 Correct. The book states the phosphate group is usually attached by ester bond to the terminal alcohol group of the pentose, termed the 5' hydroxyl group — so the linkage is at C5.
+
+Why this is right, from the department book:
+- Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — the glycosidic bond.
 ## correct_answer
 d
 ## main_concept
@@ -11735,6 +12130,9 @@ The book states thymine is present only in DNA, so a thymine nucleotide always c
 Uracil — pentose sugar-phosphate
 ## explanation_b
 Correct. The book states uracil is present only in RNA, so a uracil nucleotide always carries ribose, never deoxyribose — the only one of these four bases the book restricts to RNA alone.
+
+Why this is right, from the department book:
+- Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — the glycosidic bond.
 ## answer_c
 Adenine — pentose sugar-phosphate
 ## explanation_c
@@ -11820,6 +12218,9 @@ What is the pyrimidine base of nucleic acids in the following?
 Cytosine
 ## explanation_a
 Correct. The book's major pyrimidines are cytosine, uracil and thymine — cytosine is the only one of these four options that appears on that list.
+
+Why this is right, from the department book:
+- Nucleotides are the building units of DNA and RNA.
 ## answer_b
 Hypoxanthine
 ## explanation_b
@@ -11921,6 +12322,9 @@ Uracil-derived compounds belong to the pyrimidine family in the book's classific
 Nucleoside
 ## explanation_d
 Correct. The book's naming table lists Uridine specifically under the 'NUCLEOSIDES' column, built from the base Uracil, and distinct from the nucleotide UMP.
+
+Why this is right, from the department book:
+- Nucleotides are the building units of DNA and RNA.
 ## correct_answer
 d
 ## main_concept
@@ -12006,6 +12410,9 @@ Adenine is the purine base itself, not its nucleoside; the book's naming table g
 Adenosine
 ## explanation_c
 Correct. The book's naming table pairs the purine base Adenine with the nucleoside Adenosine — a purine nucleoside.
+
+Why this is right, from the department book:
+- Nucleotides are the building units of DNA and RNA.
 ## answer_d
 Uracil
 ## explanation_d
@@ -12087,6 +12494,9 @@ The nitrogenous base is linked to the ribose or deoxyribose sugar via:
 Glycosidic bond
 ## explanation_a
 Correct. The book states that C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — a glycosidic bond.
+
+Why this is right, from the department book:
+- Each nucleoside is formed of a nitrogenous base and a pentose, where C1' of the pentose forms an N-linked glycoside with N1 of a pyrimidine or N9 of a purine — the glycosidic bond.
 ## answer_b
 Amide bond
 ## explanation_b
@@ -12188,6 +12598,9 @@ Ribose and phosphate without the base omits the nitrogenous base that gives urid
 Uracil, ribose, and Phosphate
 ## explanation_d
 Correct. Uridylic acid is Uridine monophosphate (UMP), and the book defines a nucleotide as base + pentose + phosphate — here, uracil, ribose and phosphate.
+
+Why this is right, from the department book:
+- Each nucleotide is formed of a nitrogenous base, a pentose, and phosphate.
 ## correct_answer
 d
 ## main_concept
@@ -12269,6 +12682,9 @@ A nucleoside lacks phosphate entirely (base + sugar only); ATP carries three pho
 Nucleotide
 ## explanation_b
 Correct. The book introduces ATP alongside ADP and AMP as forms of the adenine nucleotide, differing only in phosphate count — ATP fits the book's base + pentose + phosphate definition of a nucleotide, with three phosphates.
+
+Why this is right, from the department book:
+- Each nucleotide is formed of a nitrogenous base, a pentose, and phosphate.
 ## answer_c
 Vitamin
 ## explanation_c
@@ -12358,6 +12774,9 @@ Wrong direction — a simple protein is one built only of amino acids; hemoprote
 Conjugated proteins
 ## explanation_b
 Correct. The book defines hemoproteins as conjugated proteins containing heme as a tightly bound prosthetic group — the non-amino-acid heme component is exactly what conjugation means.
+
+Why this is right, from the department book:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
 ## answer_c
 Glycoprotein
 ## explanation_c
@@ -12443,6 +12862,9 @@ The main function of hemoglobin is:
 Oxygen transport in blood
 ## explanation_a
 Correct. The book's hemoprotein table assigns hemoglobin exactly this job: transportation of oxygen in blood.
+
+Why this is right, from the department book:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
 ## answer_b
 Oxygen storage in muscles
 ## explanation_b
@@ -12544,6 +12966,9 @@ No hemoprotein in the book is described this way; three hemes on three chains ma
 One heme attached to one polypeptide chain
 ## explanation_d
 Correct. The book states myoglobin is formed of one heme attached to one polypeptide chain, while hemoglobin is the one with four hemes on four chains.
+
+Why this is right, from the department book:
+- Myoglobin is formed of one heme group attached to one polypeptide chain (apomyoglobin, 153 amino acids, 8 α-helices), while hemoglobin is formed of four heme groups attached to four polypeptide chains.
 ## correct_answer
 d
 ## main_concept
@@ -12621,6 +13046,9 @@ The heme ring is present in the hydrophobic pocket between:
 Eand F helices
 ## explanation_a
 Correct. The book places the heme ring inside the hydrophobic core of the chain, in a pocket between the E and F helices, where it is held by hydrophobic bonds to nonpolar side chains and by iron's bond to the proximal histidine F8.
+
+Why this is right, from the department book:
+- Heme is a ferrous (Fe2+) protoporphyrin IX: a porphin ring of four pyrrole rings linked through methenyl bridges, carrying four nonpolar methyl groups, two nonpolar vinyl groups and two polar propionate groups.
 ## answer_b
 A and B helices
 ## explanation_b
@@ -12714,6 +13142,9 @@ The opposite is true. Globin's nonpolar heme pocket prevents the heme-O2-heme co
 Prevents diffusion of heme to the plasma
 ## explanation_b
 Correct — this is one of the four jobs the globin chain does for heme: because of its large size, the globin chain prevents heme from diffusing out of the cell into the plasma.
+
+Why this is right, from the department book:
+- The protein part of haemoglobin is not inert packaging. It makes haem soluble, because the polar amino acids sit on the surface of the folded chain. It prevents the oxidation of haem into haematin, and the formation of a haem-O2-haem complex, because the haem pocket is lined by nonpolar amino acids. It prevents haem diffusing into the plasma, because of its large size. And it reduces the affinity of haem for carbon monoxide: carbon monoxide binds isolated haem with iron, carbon and oxygen all perpendicular to the plane of the ring, but in myoglobin and haemoglobin the distal histidine sterically hinders that orientation, and binding at a less favoured angle reduces the strength of the haem-CO bond. (department book p.44)
 ## answer_c
 Makes heme less soluble
 ## explanation_c
@@ -12799,6 +13230,9 @@ The main function of myoglobin is:
 Acting as a reservoir for oxygen in cardiac and skeletal muscles
 ## explanation_a
 Correct. The book states myoglobin functions in cardiac and skeletal muscle as a reservoir for oxygen and as a carrier that speeds oxygen release during severe muscular exercise.
+
+Why this is right, from the department book:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
 ## answer_b
 Acting as a buffer in RBCs
 ## explanation_b
@@ -12900,6 +13334,9 @@ Thirty percent saturation is too low for the affinity the book attributes to myo
 Myoglobin is 90% saturated
 ## explanation_d
 Correct. The book states myoglobin is 90% saturated at a pO2 of 20 mmHg, reflecting its greater affinity for oxygen than hemoglobin.
+
+Why this is right, from the department book:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
 ## correct_answer
 d
 ## main_concept
@@ -12985,6 +13422,9 @@ Transferrin is an iron-transport protein, but it binds iron directly rather than
 Cytochromes
 ## explanation_c
 Correct. The book's table of hemoproteins lists cytochromes, with the function of electron transportation in the respiratory chain.
+
+Why this is right, from the department book:
+- Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group.
 ## answer_d
 Elastin
 ## explanation_d
@@ -13070,6 +13510,9 @@ The book does not describe a secondary-structure fault; the defect is a single s
 Substitution of a single amino acid
 ## explanation_b
 Correct. The book traces the whole malfunction to one point mutation in the β-globin gene, replacing glutamate with valine at position six of the β chain — a single amino-acid substitution.
+
+Why this is right, from the department book:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
 ## answer_c
 Insufficient iron in the diet
 ## explanation_c
@@ -13159,6 +13602,9 @@ True, so not the answer. The book describes heme as built on protoporphyrin, a c
 Protoporphyrin is bound to a single iron atom in its fe3* state
 ## explanation_b
 This is the false statement, and so the answer. The book is explicit that heme is a ferrous, Fe2+, protoporphyrin IX — not ferric, Fe3+. Iron only becomes ferric when heme is oxidised into hematin, which the globin chain normally prevents.
+
+Why this is right, from the department book:
+- Heme is a ferrous (Fe2+) protoporphyrin IX: a porphin ring of four pyrrole rings linked through methenyl bridges, carrying four nonpolar methyl groups, two nonpolar vinyl groups and two polar propionate groups.
 ## answer_c
 Iron atom has 6 coordination bonds
 ## explanation_c
@@ -13252,6 +13698,9 @@ Blood cells are where hemoglobin works, not myoglobin — the book keeps the two
 Muscles
 ## explanation_c
 Correct. The book places myoglobin specifically in cardiac and skeletal muscles.
+
+Why this is right, from the department book:
+- Myoglobin is present in cardiac and skeletal muscles, where it functions as a reservoir for oxygen and as an oxygen carrier that increases the rate of oxygen release within the muscle cell during severe muscular exercise, when the partial pressure of oxygen (pO2) falls to 5 mmHg.
 ## answer_d
 Skin
 ## explanation_d
@@ -13333,6 +13782,9 @@ Myoglobin and the subunits of hemoglobin have:
 Different primary structure
 ## explanation_a
 Correct. The book gives apomyoglobin 153 amino acids and 8 helices, the α chain 141 amino acids and 7 helices, and the β chain 146 amino acids and 8 helices — different chain lengths mean different amino-acid sequences, i.e. different primary structures.
+
+Why this is right, from the department book:
+- Myoglobin is formed of one heme group attached to one polypeptide chain (apomyoglobin, 153 amino acids, 8 α-helices), while hemoglobin is formed of four heme groups attached to four polypeptide chains.
 ## answer_b
 Different tertiary structure
 ## explanation_b
@@ -13426,6 +13878,9 @@ The book specifically calls this a point mutation (a nucleotide alteration/subst
 Results from point mutation
 ## explanation_b
 Correct. The book describes HbS as caused by a single nucleotide alteration — a point mutation — in the β-globin gene, not an insertion.
+
+Why this is right, from the department book:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
 ## answer_c
 Is incompatible with life
 ## explanation_c
@@ -13519,6 +13974,9 @@ The book does not describe HbF's electrophoretic mobility relative to adult haem
 Has a higher affinity to oxygen than adult hemoglobin
 ## explanation_c
 Correct. The book states HbF has a higher affinity for oxygen than adult haemoglobin, which allows more efficient transplacental transfer of oxygen from mother to fetus.
+
+Why this is right, from the department book:
+- Hemoglobin structure differs across embryonic, fetal and adult life; all are tetramers of different polypeptide chains encoded by different genes.
 ## answer_d
 Is the major hemoglobin found in adults
 ## explanation_d
@@ -13604,6 +14062,9 @@ Tyrosine is not the residue the book names; the substituting amino acid is valin
 Valine
 ## explanation_b
 Correct. The book states the point mutation replaces the polar glutamate at position six of the β chain with a nonpolar valine.
+
+Why this is right, from the department book:
+- Sickle cell anaemia is caused by a single nucleotide alteration — a point mutation — in the β-globin gene, which replaces the polar glutamate normally at position six of the β chain with a nonpolar valine.
 ## answer_c
 Glycine
 ## explanation_c
@@ -13693,6 +14154,9 @@ a2, B2
 a2 62
 ## explanation_b
 Correct. The book states adult HbA2 consists of two alpha and two delta chains (α2δ2) and forms about 2% of total adult haemoglobin.
+
+Why this is right, from the department book:
+- Hemoglobin structure differs across embryonic, fetal and adult life; all are tetramers of different polypeptide chains encoded by different genes.
 ## answer_c
 a2 y2
 ## explanation_c
@@ -13782,6 +14246,9 @@ Thymine is DNA's base; the comparison table gives RNA uracil in its place (thymi
 Uracil
 ## explanation_b
 Correct. RNA's nitrogenous base is uracil in place of DNA's thymine, per the book's own DNA/RNA comparison.
+
+Why this is right, from the department book:
+- DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosine.
 ## answer_c
 Xanthine
 ## explanation_c
@@ -13875,6 +14342,9 @@ Arabinose is not a sugar the book assigns to either nucleic acid.
 Ribose
 ## explanation_c
 Correct. The book's comparison table gives RNA the sugar ribose, versus DNA's 2-deoxyribose.
+
+Why this is right, from the department book:
+- DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosine.
 ## answer_d
 Deoxyribose
 ## explanation_d
@@ -13964,6 +14434,9 @@ Pseudo-uridine is the unusual base found in the TψC arm, not the D-arm.
 Dihydrouracil
 ## explanation_c
 Correct. The book states the D-arm contains the unusual base dihydrouracil, which is important for the arm's recognition by aminoacyl-tRNA synthetase.
+
+Why this is right, from the department book:
+- tRNA is a single strand folded into a cloverleaf shape, stabilized by hydrogen bonds, with four main arms and one extra arm.
 ## answer_d
 Thymidine
 ## explanation_d
@@ -14045,6 +14518,9 @@ The T y C arm in the tRNA molecule possesses the sequence:
 T, pseudo-uridine, and C
 ## explanation_a
 Correct. The book states the TψC arm contains the unusual specific sequence of thymine and pseudouridine bases, alongside cytosine, giving the arm its name.
+
+Why this is right, from the department book:
+- tRNA is a single strand folded into a cloverleaf shape, stabilized by hydrogen bonds, with four main arms and one extra arm.
 ## answer_b
 T, uridine, and C
 ## explanation_b
@@ -14142,6 +14618,9 @@ Electrostatic bonds are not a force the book names as a source of nucleic acid s
 Van der Waal forces
 ## explanation_c
 Correct. The book states the stacked base pairs are held together by Van der Waals forces and hydrophobic interactions, and that 'these forces provide the stability of the double helix.'
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_d
 Phosphodiester bonds
 ## explanation_d
@@ -14231,6 +14710,9 @@ Thymine is a pyrimidine, and in RNA it appears only as a minor base within tRNA 
 Guanine
 ## explanation_c
 Correct. The book's comparison table lists adenine and guanine as the purines shared by both DNA and RNA; guanine is the purine among these four options.
+
+Why this is right, from the department book:
+- DNA and RNA share the purine bases adenine and guanine and the pyrimidine cytosine.
 ## answer_d
 Uracil we Chemistry of Nucleic Acids 50
 ## explanation_d
@@ -14320,6 +14802,9 @@ A DNA segment contains 100 Adenine and 100 cytosines. How many nucleotides are p
 400
 ## explanation_c
 Correct. In double-stranded DNA, adenine pairs with thymine and guanine pairs with cytosine, so 100 adenine implies 100 thymine, and 100 cytosine implies 100 guanine: 100+100+100+100 = 400 nucleotides total.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_d
 50
 ## explanation_d
@@ -14401,6 +14886,9 @@ What are the building blocks of nucleic acids?
 Nucleotides
 ## explanation_a
 Correct. The book opens by defining nucleic acids as polymers of nucleotides.
+
+Why this is right, from the department book:
+- Nucleic acids are polymers of nucleotides.
 ## answer_b
 Nucleosides
 ## explanation_b
@@ -14490,6 +14978,9 @@ On which of the following molecules would you find a codon ?
 Messenger RNA
 ## explanation_a
 Correct. The book states the coding region of mRNA carries genetic information as the template for protein synthesis, with each three-base codon designating an amino acid.
+
+Why this is right, from the department book:
+- Three major RNA types participate in protein synthesis.
 ## answer_b
 Ribosomal RNA
 ## explanation_b
@@ -14587,6 +15078,9 @@ A short length of DNA has 80 thymine and 80 guanine residues. The total no. of n
 320
 ## explanation_c
 Correct. Thymine pairs with adenine and guanine pairs with cytosine, so 80 thymine implies 80 adenine, and 80 guanine implies 80 cytosine: 80+80+80+80 = 320 nucleotides total.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_d
 640
 ## explanation_d
@@ -14668,6 +15162,9 @@ A phosphodiester bond is present in:
 Nucleotide in a nucleic acid
 ## explanation_a
 Correct. The book states nucleotides within a nucleic acid strand are linked by phosphodiester bonds, between the 3'-hydroxyl of one nucleotide and the 5'-hydroxyl of the next, through a phosphate group.
+
+Why this is right, from the department book:
+- Nucleic acids are polymers of nucleotides.
 ## answer_b
 Monosaccharides in a polysaccharide
 ## explanation_b
@@ -14761,6 +15258,9 @@ Covalent bonds hold each strand's own backbone together (the phosphodiester bond
 Hydrogen bond
 ## explanation_b
 Correct. The two strands are held together by complementary base pairing through hydrogen bonds — two between A and T, three between G and C.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_c
 Ionic bond
 ## explanation_c
@@ -14846,6 +15346,9 @@ Histones are rich in:
 Arginine and Lysine
 ## explanation_a
 Correct. The book states histones are basic proteins rich in lysine and arginine, which are positively charged and so bind the negatively charged, phosphate-rich DNA.
+
+Why this is right, from the department book:
+- Each chromosome contains DNA plus histone proteins.
 ## answer_b
 Argine and Leucine
 ## explanation_b
@@ -14939,6 +15442,9 @@ Number of hydrogen bonds between adenine and thymine is:
 2
 ## explanation_b
 Correct. The book states adenine pairs with thymine through two hydrogen bonds.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_c
 3
 ## explanation_c
@@ -15024,6 +15530,9 @@ Which of the following is a feature of DNA replication?
 Semi-conservative
 ## explanation_a
 Correct. Each daughter DNA molecule keeps one original (conserved) parental strand and gains one newly synthesized strand — the book's own definition of semi-conservative replication.
+
+Why this is right, from the department book:
+- DNA replication is the process by which a double-stranded DNA molecule is copied to produce two identical daughter DNA molecules, catalysed mainly by DNA polymerases.
 ## answer_b
 discontinuous
 ## explanation_b
@@ -15117,6 +15626,9 @@ A mutation is an error in the copied sequence, not a description of the copying 
 Semiconservative
 ## explanation_b
 Correct. One strand of each daughter molecule is the original parental strand and one is newly synthesized against it — that pairing of one old, one new strand per daughter molecule is what 'semi-conservative' names.
+
+Why this is right, from the department book:
+- DNA replication is the process by which a double-stranded DNA molecule is copied to produce two identical daughter DNA molecules, catalysed mainly by DNA polymerases.
 ## answer_c
 Discontinuous
 ## explanation_c
@@ -15202,6 +15714,9 @@ Which of the following enzymes unwinds the DNA double helix during replication?
 Helicase
 ## explanation_a
 Correct. Helicase enzyme molecules attach at each origin and unwind the DNA by breaking the hydrogen bonds between base pairs, producing the replication bubble.
+
+Why this is right, from the department book:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork. (department book p.82)
 ## answer_b
 Replicase
 ## explanation_b
@@ -15291,6 +15806,9 @@ Which enzyme catalyzes the elongation of DNA molecules?
 DNA polymerase
 ## explanation_a
 Correct. DNA polymerases catalyse the formation of polynucleotide chains, adding complementary nucleotides base-paired with the parental strand — this is elongation.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
 ## answer_b
 Helicase
 ## explanation_b
@@ -15380,6 +15898,9 @@ Formation of RNA primer:
 Precedes replication
 ## explanation_a
 Correct. DNA polymerases cannot initiate DNA synthesis without an RNA primer already in place — primer formation is the book's initiation step, carried out before elongation can begin.
+
+Why this is right, from the department book:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
 ## answer_b
 Follows replication
 ## explanation_b
@@ -15477,6 +15998,9 @@ Deoxyribose alone is a sugar with no base or phosphate — it cannot base-pair w
 A short RNA molecule
 ## explanation_c
 Correct. The book states the RNA primer is a short segment of RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand, giving DNA polymerase a 3'-OH end to extend.
+
+Why this is right, from the department book:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
 ## answer_d
 Proteins with free hydroxyl groups
 ## explanation_d
@@ -15558,6 +16082,9 @@ A single-stranded DNA molecule contains 20%A, 25°%T, 30%G, and 25%C. When the c
 20%
 ## explanation_a
 Correct. Adenine pairs with thymine, so wherever the template strand carries an A, the new complementary strand carries a T. The template is 20% A, so the new strand is 20% T.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
 ## answer_b
 22.5%
 ## explanation_b
@@ -15651,6 +16178,9 @@ Only the lagging strand is made discontinuously. DNA polymerase ε makes the lea
 One strand is synthesized continuously and the other discontinuously
 ## explanation_b
 Correct. The leading strand is synthesized continuously by polymerase ε while the lagging strand is built discontinuously, as Okazaki fragments, by polymerase δ.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
 ## answer_c
 Both new strands are synthesized continuously
 ## explanation_c
@@ -15748,6 +16278,9 @@ rRNA, like the other RNA types, is synthesized continuously by transcription, no
 DNA
 ## explanation_d
 Correct. Okazaki fragments are the short pieces of DNA that polymerase δ builds discontinuously while copying the lagging strand at the replication fork.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
 ## correct_answer
 d
 ## main_concept
@@ -15829,6 +16362,9 @@ G1 is a growth phase in which the cell increases in size before committing to di
 S phase
 ## explanation_b
 Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated, and it is the only phase in which replication occurs.
+
+Why this is right, from the department book:
+- The cell cycle is divided into the mitotic phase (M) and interphase, which is further divided into G1, S and G2.
 ## answer_c
 G2 phase
 ## explanation_c
@@ -15914,6 +16450,9 @@ The process of DNA replication involves:
 Multiple origins of replication per chromosome in eukaryotes
 ## explanation_a
 Correct. The book states many origins, rich in AT base pairs, serve as starting points across each chromosome, and that using multiple origins markedly decreases the time replication takes.
+
+Why this is right, from the department book:
+- Replication begins with the opening of DNA at multiple origins of replication.
 ## answer_b
 Binding of ribosomes to origins of replication
 ## explanation_b
@@ -16011,6 +16550,9 @@ Removing mispaired nucleotides by 3'-5' exonuclease activity is the proofreading
 Stabilize single-stranded DNA in the region
 ## explanation_c
 Correct. SSB proteins bind the single strands of unwound DNA and stabilize them — without them the two strands would simply rewind — and they also protect the exposed single strand from nucleases.
+
+Why this is right, from the department book:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork. (department book p.82)
 ## answer_d
 Cut and reseal DNA in advance of the replication fork to eliminate supercoiling in @80000800080
 ## explanation_d
@@ -16096,6 +16638,9 @@ DNA is what the primer allows to be synthesized afterward — the primer that ge
 RNA
 ## explanation_b
 Correct. The short primer strand required to start DNA replication is RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand.
+
+Why this is right, from the department book:
+- At the replication fork both parental strands serve as templates, but DNA polymerases cannot initiate DNA synthesis without an RNA primer already present.
 ## answer_c
 Histone
 ## explanation_c
@@ -16189,6 +16734,9 @@ The lagging strand is copied in the direction opposite the advancing replication
 It requires a short RNA primer to proceed
 ## explanation_c
 Correct. DNA polymerase δ needs a new RNA primer to start each Okazaki fragment, so, unlike the single-primer leading strand, the lagging strand requires multiple RNA primers.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
 ## answer_d
 It is synthesized continuously
 ## explanation_d
@@ -16282,6 +16830,9 @@ This option repeats another DNA polymerase without changing the enzyme's job —
 RNAse H
 ## explanation_d
 Correct. RNase H removes the RNA primers by its exonuclease activity, clearing the way for the gaps to be filled and the fragments joined.
+
+Why this is right, from the department book:
+- Termination of replication removes the primers and joins the fragments in two steps.
 ## correct_answer
 d
 ## main_concept
@@ -16363,6 +16914,9 @@ Gyrase is a bacterial type of topoisomerase; it is not the enzyme the book names
 DNA ligase
 ## explanation_b
 Correct. Once RNase H has removed the primers and the gaps are filled, DNA ligase joins the ends of the adjacent DNA fragments.
+
+Why this is right, from the department book:
+- Termination of replication removes the primers and joins the fragments in two steps.
 ## answer_c
 Polymerase
 ## explanation_c
@@ -16448,6 +17002,9 @@ What is the role of topoisomerases in eukaryotic DNA replication?
 Cut, uncoil, and reseal the double stranded DNA
 ## explanation_a
 Correct. As the fork advances and DNA unwinds, supercoils build up ahead of it; topoisomerases remove this supercoiling.
+
+Why this is right, from the department book:
+- At each origin of replication, helicase enzyme molecules attach and unwind the DNA by breaking the hydrogen bonds between the nitrogenous base pairs, forming replication bubbles. Single strand binding proteins then bind the single strands of the unwound DNA and stabilise them; without them the two strands would rewind, and they also protect the single strand from nucleases that cleave single-stranded DNA. It is the action of helicase and SSB proteins together that creates a replication fork. (department book p.82)
 ## answer_b
 Bind to the origin of replication sites within double stranded DNA
 ## explanation_b
@@ -16545,6 +17102,9 @@ Ligase does not undo anything DNA polymerase does — it completes the polymeras
 Joins the Okazaki fragments
 ## explanation_c
 Correct. DNA ligase joins the ends of adjacent DNA fragments, sealing the nicks left between Okazaki fragments once their RNA primers are removed and the gaps filled.
+
+Why this is right, from the department book:
+- Termination of replication removes the primers and joins the fragments in two steps.
 ## answer_d
 Winds the leading and lagging strands together
 ## explanation_d
@@ -16630,6 +17190,9 @@ A kinetochore is the site on a chromosome where spindle fibres attach during mit
 Telomere
 ## explanation_b
 Correct. Telomeres are the ends of eukaryotic linear chromosomes, carrying a non-coding sequence (5'-TTAGGG-3') repeated thousands of times.
+
+Why this is right, from the department book:
+- The ends of eukaryotic linear chromosomes are called telomeres.
 ## answer_c
 Centriole
 ## explanation_c
@@ -16723,6 +17286,9 @@ An activator increases enzyme activity, but it is not the book's term for the su
 Substrate
 ## explanation_c
 Correct. The book states enzymes interact with a specific substrate or inter-related substrates — this recognised substance is the substrate.
+
+Why this is right, from the department book:
+- Enzymes are biocatalysts that regulate the rate of biochemical reactions.
 ## answer_d
 Product
 ## explanation_d
@@ -16816,6 +17382,9 @@ Phospholipids are membrane-building molecules, unrelated to the book's classific
 Proteins
 ## explanation_d
 Correct. The book states enzymes are mainly protein in nature (though it notes some RNAs, ribozymes, also have catalytic activity).
+
+Why this is right, from the department book:
+- Enzymes are biocatalysts that regulate the rate of biochemical reactions.
 ## correct_answer
 d
 ## main_concept
@@ -16893,6 +17462,9 @@ Common features of the enzymes include:
 Produced by living cells
 ## explanation_a
 Correct. The book's list of common features opens with: all enzymes are produced by living cells and can act outside these cells.
+
+Why this is right, from the department book:
+- Enzymes are biocatalysts that regulate the rate of biochemical reactions.
 ## answer_b
 Affection of the reaction equilibrium
 ## explanation_b
@@ -16986,6 +17558,9 @@ Fatty acids are the building blocks of lipids, not of enzymes, which the book cl
 Amino acids
 ## explanation_b
 Correct. Since the book classes enzymes as mainly protein in nature, they are, like any protein, built as polymers of amino acids.
+
+Why this is right, from the department book:
+- Enzymes are biocatalysts that regulate the rate of biochemical reactions.
 ## answer_c
 Hexose sugars
 ## explanation_c
@@ -17079,6 +17654,9 @@ It is the substrate, not the active site, that is converted to product; the acti
 Catalyses the reaction
 ## explanation_c
 Correct. The book's own diagram of enzyme mechanism states the active site lowers the activation energy and speeds up the reaction — it is where catalysis happens.
+
+Why this is right, from the department book:
+- The active site is a special pocket or cleft on the enzyme molecule, containing amino acid chains that create a three-dimensional surface complementary to the substrate; it is where the substrate binds and the reaction is catalysed.
 ## answer_d
 Increases the energy of reaction
 ## explanation_d
@@ -17160,6 +17738,9 @@ In any reaction catalyzed by an enzyme, the reacting molecule is called the
 Substrate
 ## explanation_a
 Correct. The book's terminology names the molecule an enzyme recognises and reacts with the substrate.
+
+Why this is right, from the department book:
+- Enzymes are biocatalysts that regulate the rate of biochemical reactions.
 ## answer_b
 Cofactor
 ## explanation_b
@@ -17249,6 +17830,9 @@ The general mechanism in enzyme action is by:
 Reducing activation energy
 ## explanation_a
 Correct. The book states the enzyme accelerates the reaction by lowering the energy of activation, without affecting the equilibrium of the reaction.
+
+Why this is right, from the department book:
+- The active site is a special pocket or cleft on the enzyme molecule, containing amino acid chains that create a three-dimensional surface complementary to the substrate; it is where the substrate binds and the reaction is catalysed.
 ## answer_b
 Increasing activation energy
 ## explanation_b
@@ -17350,6 +17934,9 @@ True but incomplete — pH is one factor among several the book discusses togeth
 Temperature, concentration & pH
 ## explanation_d
 Correct. The book discusses substrate concentration, enzyme concentration, cofactor concentration, temperature and pH together as the factors affecting the rate of an enzyme-catalysed reaction; this option is the only one that groups more than one of them together, matching the book's own multi-factor treatment.
+
+Why this is right, from the department book:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH. (department book p.57)
 ## correct_answer
 d
 ## main_concept
@@ -17427,6 +18014,9 @@ In enzyme kinetics Km implies:
 The substrate concentration that gives one half Vmax
 ## explanation_a
 Correct. The book defines Km as the substrate concentration that produces half the maximal velocity (Vmax).
+
+Why this is right, from the department book:
+- As substrate concentration [S] increases, reaction velocity rises toward a maximum value, Vmax, at which point the enzyme is saturated and enzyme concentration becomes the limiting factor.
 ## answer_b
 The dissociation constant for the enzyme substrate complex
 ## explanation_b
@@ -17520,6 +18110,9 @@ Product formation alone does not standardise for substrate concentration or enzy
 Km value
 ## explanation_b
 Correct. The book states that a smaller Km reflects higher affinity of the enzyme for its substrate, and vice versa — this makes Km a direct way to compare different enzymes' catalytic efficiency.
+
+Why this is right, from the department book:
+- As substrate concentration [S] increases, reaction velocity rises toward a maximum value, Vmax, at which point the enzyme is saturated and enzyme concentration becomes the limiting factor.
 ## answer_c
 Molecular size of the enzymes
 ## explanation_c
@@ -17605,6 +18198,9 @@ The graph below shows an enzyme-controlled reaction. The enzyme concentration is
 The rate of the reaction is limited by enzyme concentration
 ## explanation_a
 Correct. The book states that as [S] increases, velocity rises up to the point where the enzyme is saturated — beyond that point (here, substrate concentrations greater than X) enzyme concentration, held constant in this experiment, becomes the limiting factor.
+
+Why this is right, from the department book:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH. (department book p.57)
 ## answer_b
 The rate of the reaction tends toward zero
 ## explanation_b
@@ -17702,6 +18298,9 @@ Allosteric inhibitors bind a site away from, not at, the catalytic (active) site
 Competitive inhibition
 ## explanation_c
 Correct. The book defines a competitive inhibitor as one that competes with the substrate to bind reversibly at the active (catalytic) site — directly blocking it.
+
+Why this is right, from the department book:
+- A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because raising the substrate concentration far enough reverses the inhibition and the reaction reaches the same Vmax as without inhibitor. The apparent Km rises, because more substrate is then needed to reach half of Vmax. (department book p.59)
 ## answer_d
 Feedback inhibition
 ## explanation_d
@@ -17787,6 +18386,9 @@ An allosteric inhibitor need not resemble the substrate at all — it acts by bi
 Competitive inhibition
 ## explanation_b
 Correct. The book defines a competitive inhibitor as structurally similar to the substrate, competing with it for the active site.
+
+Why this is right, from the department book:
+- A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because raising the substrate concentration far enough reverses the inhibition and the reaction reaches the same Vmax as without inhibitor. The apparent Km rises, because more substrate is then needed to reach half of Vmax. (department book p.59)
 ## answer_c
 Feedback inhibition
 ## explanation_c
@@ -17872,6 +18474,9 @@ A competitive inhibitor:
 Increases the Km of the enzyme
 ## explanation_a
 Correct. The book states a competitive inhibitor increases the apparent Km for a given substrate, since more substrate is then needed to reach half of Vmax.
+
+Why this is right, from the department book:
+- A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because raising the substrate concentration far enough reverses the inhibition and the reaction reaches the same Vmax as without inhibitor. The apparent Km rises, because more substrate is then needed to reach half of Vmax. (department book p.59)
 ## answer_b
 Decreases the Vmax of the enzyme
 ## explanation_b
@@ -17973,6 +18578,9 @@ Competing for the catalytic site is exactly what a competitive inhibitor does; t
 Binding to a site on the enzyme distinct from catalytic site
 ## explanation_d
 Correct. The book states allosteric inhibitors and activators bind to a specific site away from the catalytic site, producing conformational changes in the protein structure.
+
+Why this is right, from the department book:
+- Allosteric inhibitors and activators are usually small organic molecules that bind to a specific allosteric site away from the catalytic site, producing conformational changes in protein structure.
 ## correct_answer
 d
 ## main_concept
@@ -18058,6 +18666,9 @@ Allopurinol is the book's own worked example of a competitive (reversible) inhib
 Mercury
 ## explanation_c
 Correct. The book classes salts of heavy metals, such as Hg2+, as irreversible inhibitors: the positively charged metal ion combines with the negatively charged sulfur of a free SH group needed for catalytic activity.
+
+Why this is right, from the department book:
+- Irreversible enzyme inhibition, unlike competitive or allosteric inhibition, permanently disables the enzyme.
 ## answer_d
 Sulfonamides
 ## explanation_d
@@ -18147,6 +18758,9 @@ Vitamins are unrelated to the book's account of zymogens; a zymogen is a form of
 Enzyme precursor
 ## explanation_c
 Correct. The book states that many enzymes are formed in the form of proenzymes or zymogens, which are inactive — a zymogen is an enzyme precursor.
+
+Why this is right, from the department book:
+- Many enzymes are first formed as inactive proenzymes or zymogens.
 ## answer_d
 Modulator
 ## explanation_d
@@ -18228,6 +18842,9 @@ Example of pro-enzyme is:
 Pepsinogen
 ## explanation_a
 Correct. The book's own worked example of a zymogen is pepsinogen, which HCl converts to pepsin plus a polypeptide fragment in an autocatalytic reaction.
+
+Why this is right, from the department book:
+- Many enzymes are first formed as inactive proenzymes or zymogens.
 ## answer_b
 Trypsin
 ## explanation_b
@@ -18317,6 +18934,9 @@ Phosphorylation/ dephosphorylation of enzymes:
 Occurs on specific serine and threonine residues
 ## explanation_a
 Best supported by the book, though the book's own wording names serine or tyrosine as the residues carrying the phosphate group (not threonine, as this option states) — of the four options, only this one describes a real, hydroxyl-residue-based covalent modification, and it is the only option not directly contradicted elsewhere in the text.
+
+Why this is right, from the department book:
+- Many enzymes are activated by phosphorylation and inactivated by dephosphorylation, or vice versa, existing in two interconvertible forms.
 ## answer_b
 It is a non-covalent type of modification
 ## explanation_b
@@ -18406,6 +19026,9 @@ Erythrocytes:
 Count is increased in people living at high altitude
 ## explanation_a
 Correct. RBC count runs above the adult range at high altitude, alongside newborns and athletes — a physiological, hypoxia-driven response, not a disease.
+
+Why this is right, from the department book:
+- The average RBC count ranges from 5–5.5 million/mm3 in males and 4–4.5 million/mm3 in females.
 ## answer_b
 Biconcave shape is important to facilitate their rupture in narrow capillaries
 ## explanation_b
@@ -18507,6 +19130,11 @@ Backwards. Erythropoietin is synthesized and released by the kidneys and liver, 
 Inhibited by adenosine antagonists
 ## explanation_d
 Correct. Adenosine is one of the book's named stimulators of erythropoietin secretion, so an adenosine antagonist — blocking that stimulus — would inhibit secretion rather than promote it.
+
+Why this is right, from the department book:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration. (department book p.126)
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone. (department book p.126)
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis. (department book p.126)
 ## correct_answer
 d
 ## main_concept
@@ -18596,6 +19224,11 @@ Backwards. Erythropoietin stimulates mitosis of erythropoietin-*sensitive* commi
 Speeds all the steps of development of proerythroblasts to mature RBCs
 ## explanation_d
 Correct. Erythropoietin stimulates all steps of erythropoiesis — from the earliest proerythroblast through to the mature red cell — which is the mechanism the book states directly.
+
+Why this is right, from the department book:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration. (department book p.126)
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone. (department book p.126)
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis. (department book p.126)
 ## correct_answer
 d
 ## main_concept
@@ -18673,6 +19306,10 @@ Goncerning polycythemia the following is correct, EXCEPT:
 Occurs in liver disease
 ## explanation_a
 Correct — the exception. Liver disease is not among the book's causes of either primary or secondary polycythemia; if anything, since the liver makes 15% of erythropoietin, liver disease would work against a raised count, not toward one.
+
+Why this is right, from the department book:
+- Polycythemia means an increased number of RBCs, which may reach 6-8 million/mm3. (department book p.133)
+- There are two types: primary polycythemia (polycythemia vera), due to a condition in the RBC-forming organs themselves and usually accompanied by increased production of WBCs and platelets too; and secondary polycythemia, which occurs when the tissues become hypoxic, as in obstructive lung disease and in people living at high altitude. (department book p.133)
 ## answer_b
 Increases the viscosity of the blood
 ## explanation_b
@@ -18766,6 +19403,9 @@ Folic acid absorption is not described in the book as gastric-dependent the way 
 Helps absorption of B12 and iron
 ## explanation_b
 Correct. Gastric parietal cells provide intrinsic factor (needed for vitamin B12 absorption in the lower ileum) and gastric HCl (needed to reduce dietary iron to its absorbable ferrous form) — both nutrients the stomach makes possible, through different secretions from the same organ.
+
+Why this is right, from the department book:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption. (department book p.131)
 ## answer_c
 Secretes erythropoietin
 ## explanation_c
@@ -18855,6 +19495,11 @@ The stem cells are present in the marrow in renal failure — the marrow itself 
 85 % of erythropoietin hormone is formed by the kidney
 ## explanation_b
 Correct. Since the kidney normally makes 85% of erythropoietin and the liver's 15% cannot compensate for its loss, renal failure causes severe anaemia through erythropoietin deficiency.
+
+Why this is right, from the department book:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration. (department book p.126)
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone. (department book p.126)
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis. (department book p.126)
 ## answer_c
 The patient cannot eat the essential vitamins
 ## explanation_c
@@ -18952,6 +19597,11 @@ The book does not describe heart failure as raising blood vitamin B12 — this o
 Hypoxia stimulates RBCs formation
 ## explanation_d
 Correct. Heart failure reduces tissue oxygen delivery — hypoxia — which is the main stimulus for erythropoietin secretion and so for erythropoiesis, exactly as at high altitude or after haemorrhage.
+
+Why this is right, from the department book:
+- Erythropoietin is a glycoprotein hormone normally present in plasma at low concentration. (department book p.126)
+- During fetal life it is almost completely formed by the liver; in adults, 85% is formed by the kidneys and 15% by the liver — which is why patients with renal failure develop severe anaemia, since hepatic production cannot compensate for the kidneys' inability to produce the hormone. (department book p.126)
+- Erythropoietin stimulates all steps of erythropoiesis, binding specific receptors on erythropoietin-sensitive cells to stimulate mitosis and inhibit apoptosis. (department book p.126)
 ## correct_answer
 d
 ## main_concept
@@ -19033,6 +19683,11 @@ Intrinsic factor receptors are found in the lower ileal mucosa (for vitamin B12 
 The presence of hemopoietic stem cells
 ## explanation_b
 Correct. Active bone marrow contains the haemopoietic stem cells from which erythrocytes (and the other blood cell lines) develop — their presence, in healthy marrow, is what makes the marrow the site of erythropoiesis after birth.
+
+Why this is right, from the department book:
+- In the fetus, erythropoiesis occurs in the liver and spleen. (department book p.125)
+- After birth it occurs in active red marrow in the cavities of all bones; by age 20 the marrow in the cavities of long bones (except the upper humerus and femur) becomes inactive yellow marrow infiltrated by fat, so after age 20 only the membranous bones — vertebrae, skull, ribs and pelvis — produce erythrocytes. (department book p.125)
+- The bone marrow is one of the largest and most active organs in the body, approaching the size and weight of the liver. (department book p.125)
 ## answer_c
 The presence of megakaryocytes
 ## explanation_c
@@ -19130,6 +19785,11 @@ Haemoglobin forms oxyhaemoglobin with oxygen, not carbon monoxide — carbon mon
 The globin part forms carbamino compounds with CO.
 ## explanation_d
 Correct. The globin (polypeptide) part of haemoglobin forms carbamino compounds with carbon dioxide — carbaminohaemoglobin — distinct from the iron-based reactions with oxygen, carbon monoxide and oxidising agents.
+
+Why this is right, from the department book:
+- Hb unites loosely with oxygen to form oxyhaemoglobin; the O2 molecule attaches to iron that stays in the Fe2+ state, so the book calls this oxygenation, not oxidation. (department book p.124)
+- Hb combines with CO2 to form carbaminohaemoglobin, with CO2 attached to the polypeptide chains rather than the iron. (department book p.124)
+- Hb reacts with carbon monoxide to form carboxyhaemoglobin. (department book p.124)
 ## correct_answer
 d
 ## main_concept
@@ -19211,6 +19871,10 @@ Backwards. Ferric iron is the form that is *not* readily absorbed — it must fi
 It is transported in the blood in the form of transferrin
 ## explanation_b
 Correct. Iron exported from enterocytes (or released from macrophage recycling of old RBCs) is oxidised to the ferric form and carried in the blood bound to the plasma transport protein transferrin.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## answer_c
 Its deficiency produces macrocytic anemia
 ## explanation_c
@@ -19308,6 +19972,10 @@ Backwards. Iron is stored in the liver mainly as ferritin (and its aggregate, ha
 Needs vitamin C for absorption
 ## explanation_d
 Correct. Ascorbic acid (vitamin C) and other reducing substances help reduce ferric iron (Fe3+) to the absorbable ferrous form (Fe2+), assisted by gastric HCl.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## correct_answer
 d
 ## main_concept
@@ -19389,6 +20057,10 @@ Backwards. Iron is better absorbed in the ferrous state (Fe2+) — ferric iron (
 Requires gastric HCI
 ## explanation_b
 Correct. Gastric HCl helps dissolve dietary iron and, with ascorbic acid, reduce ferric iron to the absorbable ferrous form.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## answer_c
 Is a passive process which depends on the body requiremenis
 ## explanation_c
@@ -19478,6 +20150,9 @@ Decreased vitamin B12 intake causes macrocytic anaemia (large cells), not microc
 Decrease iron intake
 ## explanation_b
 Correct. Iron-deficiency anaemia — microcytic and hypochromic because too little haemoglobin can be built — follows from decreased dietary iron intake, among the book's named causes.
+
+Why this is right, from the department book:
+- Deficiency of iron in the diet is one of the book's three named causes of iron-deficiency anaemia, due to a lower iron intake than the body needs; it is more common in growing children and during pregnancy, when demand for iron rises.
 ## answer_c
 Diseases of the heart
 ## explanation_c
@@ -19575,6 +20250,10 @@ True, so not the exception. Ferrous iron (Fe2+) is the form DMT1 transports; fer
 The majority of iron absorption occurs in terminal ileum
 ## explanation_d
 The exception, and the answer. The book names the duodenum as where most iron absorption happens, not the terminal ileum — which is instead the site of vitamin B12 absorption, a distinct chapter's mechanism entirely.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## correct_answer
 d
 ## main_concept
@@ -19664,6 +20343,10 @@ Secretin is a gastrointestinal hormone that stimulates pancreatic bicarbonate se
 Transferrin
 ## explanation_d
 Correct. Transferrin is the plasma protein that binds ferric iron exported from enterocytes or macrophages and delivers it to cells with transferrin receptors — bone marrow, liver and muscle.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## correct_answer
 d
 ## main_concept
@@ -19741,6 +20424,10 @@ lron absorption needs healiny stomach
 For secretion of Hel
 ## explanation_a
 Correct. A healthy stomach secretes HCl, which dissolves dietary iron and — with vitamin C — reduces ferric iron to the ferrous form that DMT1 can transport, so achlorhydria (decreased HCl secretion) is associated with iron deficiency.
+
+Why this is right, from the department book:
+- Iron is absorbed by enterocytes of the intestinal mucosa, mainly in the duodenum. (department book p.129)
+- At the apical membrane, ferrous iron (Fe2+) is transported into the enterocyte by divalent metal transporter 1 (DMT1); unreduced ferric iron (Fe3+) is reduced to Fe2+ in the duodenum by a reductase enzyme; haem is transported in separately by a different carrier, haem carrier protein 1 (HCP1). (department book p.129)
 ## answer_b
 For secretion of intrinsic factor
 ## explanation_b
@@ -19834,6 +20521,9 @@ Oleic acid is the book's own example of a monoenoic (unsaturated) fatty acid, no
 Stearic acid
 ## explanation_b
 Correct. The book lists stearic acid among the saturated fatty acids, alongside acetic, butyric and palmitic acid — all with no double bonds.
+
+Why this is right, from the department book:
+- Fatty acids are classified by the existence of double bonds into saturated fatty acids (SFA), which contain none — acetic, butyric, palmitic and stearic acid are examples, with palmitic and stearic the most important, widely distributed in animal fats from whole milk, milk products, fatty meats, coconut oil and palm oil — and unsaturated fatty acids, which contain one or more.
 ## answer_c
 Linoleic acid
 ## explanation_c
@@ -19919,6 +20609,9 @@ Which of the following is the most common saturated fatty acid in human tissues?
 Palmitic acid
 ## explanation_a
 Correct. The book names palmitic acid, alongside stearic acid, as the most important saturated fatty acids, widely distributed in animal fats — the printed key identifies palmitic as the more common of the two in human tissue.
+
+Why this is right, from the department book:
+- Fatty acids are classified by the existence of double bonds into saturated fatty acids (SFA), which contain none — acetic, butyric, palmitic and stearic acid are examples, with palmitic and stearic the most important, widely distributed in animal fats from whole milk, milk products, fatty meats, coconut oil and palm oil — and unsaturated fatty acids, which contain one or more.
 ## answer_b
 Timnodonic acid
 ## explanation_b
@@ -20016,6 +20709,9 @@ Arachidonic acid is the book's polyunsaturated (four double bonds) example, not 
 Oleic acid
 ## explanation_c
 Correct. Oleic acid (ω9) is the book's monoenoic — one double bond — fatty acid example, which is what monounsaturated means.
+
+Why this is right, from the department book:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
 ## answer_d
 Stearic acid
 ## explanation_d
@@ -20101,6 +20797,9 @@ Vegetables themselves are not named as a trans fat source; only small amounts of
 Margarine
 ## explanation_b
 Correct. The book states the main source of trans fatty acids in the human diet is partially hydrogenated vegetable oils, giving margarine as its example.
+
+Why this is right, from the department book:
+- Fatty acids are classified by the existence of double bonds into saturated fatty acids (SFA), which contain none — acetic, butyric, palmitic and stearic acid are examples, with palmitic and stearic the most important, widely distributed in animal fats from whole milk, milk products, fatty meats, coconut oil and palm oil — and unsaturated fatty acids, which contain one or more.
 ## answer_c
 Ground nuts
 ## explanation_c
@@ -20190,6 +20889,9 @@ Linoleic acid is the book's ω6, not ω3, PUFA example.
 a-Linolenic acid
 ## explanation_b
 Correct. The book lists linolenic (α-linolenic) acid under the ω3 PUFA family.
+
+Why this is right, from the department book:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
 ## answer_c
 Nervonic acid
 ## explanation_c
@@ -20279,6 +20981,9 @@ Omega-3 is the family the book assigns to linolenic acid, not linoleic acid.
 Omega-6 fatty acid
 ## explanation_b
 Correct. The book lists linoleic acid under the ω6 PUFA family, alongside arachidonic acid.
+
+Why this is right, from the department book:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
 ## answer_c
 Monoenoic fatty acid
 ## explanation_c
@@ -20364,6 +21069,9 @@ Which of the following is an essential fatty acid?
 a-Linolenic acid
 ## explanation_a
 Correct. The book names α-linolenic acid, alongside linoleic acid, as one of the fatty acids the body cannot synthesise and must obtain from the diet.
+
+Why this is right, from the department book:
+- Essential fatty acids are not synthesised in the body, so they must be taken in the diet; they include α-linolenic acid and linoleic acid.
 ## answer_b
 Arachidonic acid
 ## explanation_b
@@ -20453,6 +21161,9 @@ Stearic acid is considered as:
 Saturated and non-essential fatty acid
 ## explanation_a
 Correct. The book lists stearic acid among the saturated fatty acids, and non-essential fatty acids are defined as all fatty acids other than α-linolenic, linoleic (and conditionally arachidonic) acid — stearic acid is one of these, made in the body mainly from carbohydrates.
+
+Why this is right, from the department book:
+- Essential fatty acids are not synthesised in the body, so they must be taken in the diet; they include α-linolenic acid and linoleic acid.
 ## answer_b
 Monounsaturated and non-essential fatty acid
 ## explanation_b
@@ -20546,6 +21257,9 @@ Opacity of the cornea is not among the effects of essential fatty acid deficienc
 Fatty liver
 ## explanation_b
 Correct. The book states deficiency of essential fatty acids causes dermatitis, fatty liver, and growth retardation, especially in children.
+
+Why this is right, from the department book:
+- Essential fatty acids are not synthesised in the body, so they must be taken in the diet; they include α-linolenic acid and linoleic acid.
 ## answer_c
 Spleen enlargement
 ## explanation_c
@@ -20643,6 +21357,9 @@ Three double bonds undercounts the four (CH=CH.CH2) repeats the book's formula f
 4
 ## explanation_d
 Correct. The book's structural formula for arachidonic acid, CH3.(CH2)4.(CH=CH.CH2)4.(CH2)2.COOH, contains four (CH=CH.CH2) repeats — four double bonds — consistent with its ω6 polyunsaturated classification.
+
+Why this is right, from the department book:
+- Cis fatty acids are classified by their number of double bonds into monoenoic acids, with one double bond (e.g.
 ## correct_answer
 d
 ## main_concept
@@ -20724,6 +21441,9 @@ How many carbon atoms do eicosanoids have?
 20
 ## explanation_b
 Correct. The book defines eicosanoids as physiologically active compounds formed from C20 polyunsaturated fatty acids such as arachidonic acid.
+
+Why this is right, from the department book:
+- Phospholipase A2 liberates arachidonic acid from membrane phospholipids. Prostaglandin H synthase, which carries both cyclooxygenase and peroxidase activity, then converts it into the cyclic eicosanoids — the prostaglandins, prostacyclins and thromboxanes — while lipoxygenase converts it into the acyclic ones, the leukotrienes and lipoxins. (department book p.38)
 ## answer_c
 22
 ## explanation_c
@@ -20817,6 +21537,9 @@ Fatty acid on its own is a derived lipid in the book's classification, a hydroly
 Triacylglycerol
 ## explanation_c
 Correct. The book gives triacylglycerol (neutral fat) as its example of a simple lipid — an ester of fatty acids with the alcohol glycerol, nothing more added.
+
+Why this is right, from the department book:
+- Lipids are classified into three main groups by composition.
 ## answer_d
 Steroids BS =
 ## explanation_d
@@ -20906,6 +21629,9 @@ Lecithin is a specific phospholipid (phosphatidylcholine), a compound lipid, not
 Neutral fats
 ## explanation_c
 Correct. The book gives 'neutral fats' as the other name for triacylglycerol (TAG), the simple-lipid subtype built from three fatty acids on glycerol.
+
+Why this is right, from the department book:
+- Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use.
 ## answer_d
 Waxes
 ## explanation_d
@@ -20991,6 +21717,9 @@ Neutral fats (TAG) use glycerol, not a longer-chain monohydroxy alcohol, and use
 Waxes
 ## explanation_b
 Correct. The book defines waxes exactly this way: esters of one fatty acid with a long chain monohydroxy alcohol higher than glycerol.
+
+Why this is right, from the department book:
+- Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use.
 ## answer_c
 Sphingolipids
 ## explanation_c
@@ -21084,6 +21813,9 @@ Cholesterol itself is a derived lipid (a sterol) in the book's classification; i
 Vitamin A esters
 ## explanation_c
 Correct. The book's own list of wax examples names vitamin A (retinol) esters directly, alongside ceramide, cholesteryl esters and vitamin D esters.
+
+Why this is right, from the department book:
+- Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use.
 ## answer_d
 Lecithin
 ## explanation_d
@@ -21165,6 +21897,9 @@ Cholesteryl esters are examples of:
 Waxes
 ## explanation_a
 Correct. The book lists cholesteryl esters directly among its wax examples, alongside ceramide and the vitamin A/D esters.
+
+Why this is right, from the department book:
+- Simple lipids, esters of fatty acids with alcohol, split into two subgroups by which alcohol they use.
 ## answer_b
 Neutral fats
 ## explanation_b
@@ -21254,6 +21989,9 @@ Which of the following is called phosphatidic acid?
 Diacylglycerol phosphate
 ## explanation_a
 Correct. The book names phosphatidic acid's parenthetical synonym directly: 'Phosphatidic acid (Diacylglycerol phosphate)'.
+
+Why this is right, from the department book:
+- Phosphatidic acid, also called diacylglycerol phosphate, is a glycerophospholipid: on hydrolysis it yields one glycerol, one saturated fatty acid at position 1, one unsaturated fatty acid at position 2, and phosphoric acid at position 3.
 ## answer_b
 Diphosphatidy! glycerol
 ## explanation_b
@@ -21343,6 +22081,9 @@ Hydrolysis of phosphatidic acid yields:
 1, 2-diacylglycerol and phosphoric acid
 ## explanation_a
 Correct. The book places phosphoric acid at position 3 of phosphatidic acid's glycerol backbone, with the two fatty acids at positions 1 and 2; hydrolysing off that phosphate leaves 1,2-diacylglycerol and phosphoric acid.
+
+Why this is right, from the department book:
+- Phosphatidic acid, also called diacylglycerol phosphate, is a glycerophospholipid: on hydrolysis it yields one glycerol, one saturated fatty acid at position 1, one unsaturated fatty acid at position 2, and phosphoric acid at position 3.
 ## answer_b
 1, 3-diacylglycerol and phosphoric acid
 ## explanation_b
@@ -21432,6 +22173,9 @@ Phosphatidic acid is present in:
 Lecithin and cephalin
 ## explanation_a
 Correct. The book builds both lecithin (phosphatidic acid plus choline) and cephalin (phosphatidic acid plus ethanolamine) directly on phosphatidic acid, so it is present in both.
+
+Why this is right, from the department book:
+- Phosphatidic acid, also called diacylglycerol phosphate, is a glycerophospholipid: on hydrolysis it yields one glycerol, one saturated fatty acid at position 1, one unsaturated fatty acid at position 2, and phosphoric acid at position 3.
 ## answer_b
 Lecithin and cerebrosides
 ## explanation_b
@@ -21521,6 +22265,9 @@ What is the other name of lecithin?
 Phosphatidylcholine
 ## explanation_a
 Correct. The book gives phosphatidylcholine directly as lecithin's other name.
+
+Why this is right, from the department book:
+- Lecithin, also called phosphatidylcholine, is formed of phosphatidic acid and choline.
 ## answer_b
 Phosphatidylserine
 ## explanation_b
@@ -21610,6 +22357,9 @@ Lung surfactant is formed mainly of:
 Dipalmitoyl-lecithin
 ## explanation_a
 Correct. The book states lung surfactant is formed mainly of dipalmitoyl-lecithin, secreted naturally by pneumocytes.
+
+Why this is right, from the department book:
+- Lecithin, also called phosphatidylcholine, is formed of phosphatidic acid and choline.
 ## answer_b
 Phosphatidylethanolamine
 ## explanation_b
@@ -21703,6 +22453,9 @@ The book does not connect the L/S ratio to kidney maturity; it names fetal lung 
 Fetal lung maturity
 ## explanation_b
 Correct. The book states the lecithin/sphingomyelin (L/S) ratio of amniotic fluid is a marker of fetal lung maturity.
+
+Why this is right, from the department book:
+- Lecithin, also called phosphatidylcholine, is formed of phosphatidic acid and choline.
 ## answer_c
 Fetal brain maturity
 ## explanation_c
@@ -21796,6 +22549,9 @@ Cephalin is described by its role in blood clotting (increasing thrombin formati
 Cardiolipins
 ## explanation_c
 Correct. The book places cardiolipins almost exclusively in the inner mitochondrial membrane, involved in mitochondrial energy metabolism.
+
+Why this is right, from the department book:
+- Cardiolipins, also called diphosphatidylglycerol, are formed of two molecules of phosphatidic acid connected by a molecule of glycerol, so they contain four fatty acids, three glycerol units and two phosphates.
 ## answer_d
 Ceramide
 ## explanation_d
@@ -21885,6 +22641,9 @@ Sulfolipids are glycolipids in the book's classification (ceramide plus carbohyd
 Plasmalogens
 ## explanation_c
 Correct. The book describes plasmalogens as carrying a fatty alcohol, rather than the usual fatty acid, at position 1 of the phosphatidic acid backbone — an ether-type substitution in place of the normal ester.
+
+Why this is right, from the department book:
+- Plasmalogens resemble lecithin and cephalin but contain a fatty alcohol instead of a fatty acid at position 1 of their phosphatidic acid — an ether-type linkage in place of the usual ester.
 ## answer_d
 Cerebrosides
 ## explanation_d
@@ -21974,6 +22733,9 @@ Lecithin's book-stated roles are as an acetylcholine precursor and lung surfacta
 Plasmalogens
 ## explanation_c
 Correct. The book states plasmalogens' reduced levels have been associated with Alzheimer disease.
+
+Why this is right, from the department book:
+- Plasmalogens resemble lecithin and cephalin but contain a fatty alcohol instead of a fatty acid at position 1 of their phosphatidic acid — an ether-type linkage in place of the usual ester.
 ## answer_d
 Cephalin
 ## explanation_d
@@ -22067,6 +22829,9 @@ Fatty acid and serine combine (via phosphatidic acid) to make phosphatidylserine
 Fatty acids and sphingosine 17 (om
 ## explanation_d
 Correct (the trailing '17 (om' in this option's text is scanner noise, not part of the answer). The book states fatty acids link to sphingosine by an amide bond to form ceramide.
+
+Why this is right, from the department book:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
 ## correct_answer
 d
 ## main_concept
@@ -22152,6 +22917,9 @@ Serine is not what connects to phosphocholine in the book's account; serine inst
 Ceramide
 ## explanation_c
 Correct. The book states ceramide is connected to phosphocholine to form sphingomyelin.
+
+Why this is right, from the department book:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
 ## answer_d
 Glucose
 ## explanation_d
@@ -22237,6 +23005,9 @@ Simple lipids are esters of fatty acid with alcohol alone; sphingomyelin adds a 
 Phospholipid
 ## explanation_b
 Correct. The book classes sphingomyelin, alongside the glycerophospholipids, under phospholipids — its subgroup whose alcohol is sphingosine rather than glycerol.
+
+Why this is right, from the department book:
+- Sphingomyelin is formed from sphingosine, an 18-carbon amino alcohol.
 ## answer_c
 Glycolipid
 ## explanation_c
@@ -22326,6 +23097,9 @@ This reverses the book's own labelling of the bilayer diagram, which marks the t
 Hydrophobic tails and hydrophilic heads
 ## explanation_b
 Correct. The book describes phospholipids as amphipathic — nonpolar fatty acid tails and polar (glycerol/phosphate/head-group) regions — and its own membrane diagram labels the tails hydrophobic and the heads hydrophilic.
+
+Why this is right, from the department book:
+- Phospholipids are amphipathic molecules with non-polar fatty acid side chains and polar head groups, and they are important constituents of the lipid bilayer of cell membranes. Increasing the unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity, because the kinks of the cis-double bonds prevent the phospholipids from packing closely together. (department book p.34)
 ## answer_c
 Large cyclic structure
 ## explanation_c
@@ -22419,6 +23193,9 @@ Phosphatidylserine has no stated second-messenger role in the book; it is only n
 Inositol-triphosphate and diacylglycerol
 ## explanation_c
 Correct, in the book's own (less detailed) terms: the book credits phosphatidylinositol itself with acting as a second messenger to many chemical transmitters, hormones and growth factors; this option names that role using its more familiar textbook form (its cleavage products, inositol triphosphate and diacylglycerol), a level of detail the department book itself does not spell out.
+
+Why this is right, from the department book:
+- Phosphatidylinositol, formed of phosphatidic acid and inositol, acts as a second messenger to many chemical transmitters, hormones and growth factors.
 ## answer_d
 Plasmalogens
 ## explanation_d
@@ -22512,6 +23289,9 @@ Plasmalogens are glycerophospholipids with a fatty-alcohol substitution in the b
 Cerebrosides
 ## explanation_d
 Correct. The book lists cerebrosides directly among its glycolipid examples, alongside sulfolipids and gangliosides.
+
+Why this is right, from the department book:
+- Glycolipids are formed of ceramide (sphingosine-fatty acid) and a carbohydrate radical; they include cerebrosides, sulfolipids (sulfatides) and gangliosides.
 ## correct_answer
 d
 ## main_concept
@@ -22593,6 +23373,9 @@ TAG (triacylglycerol) is the book's simple-lipid example, not a derived lipid.
 Fatty acid
 ## explanation_b
 Correct. The book lists fatty acids first among its examples of derived lipids.
+
+Why this is right, from the department book:
+- Lipids are classified into three main groups by composition.
 ## answer_c
 Lecithin
 ## explanation_c
@@ -22686,6 +23469,9 @@ Waxes are the book's other simple-lipid subtype, not where it places steroids.
 Derived lipids
 ## explanation_c
 Correct. The book lists steroids as one of the derived lipid types, alongside fatty acids, alcohols, fat-soluble vitamins and carotenoids.
+
+Why this is right, from the department book:
+- Lipids are classified into three main groups by composition.
 ## answer_d
 Compound lipids
 ## explanation_d
@@ -22771,6 +23557,9 @@ Estradiol is a steroid hormone (an estrogen) in the book's classification; membr
 Cholesterol
 ## explanation_b
 Correct. The book states cholesterol is an important constituent of cell membranes that controls their fluidity.
+
+Why this is right, from the department book:
+- Phospholipids are amphipathic molecules with non-polar fatty acid side chains and polar head groups, and they are important constituents of the lipid bilayer of cell membranes. Increasing the unsaturated fatty acid content at carbon 2 of the phospholipids increases membrane fluidity, because the kinks of the cis-double bonds prevent the phospholipids from packing closely together. (department book p.34)
 ## answer_c
 Testosterone
 ## explanation_c
@@ -22868,6 +23657,9 @@ Free cholesterol contains:
 27 carbon atoms
 ## explanation_d
 Correct. The book states free cholesterol contains 27 carbon atoms.
+
+Why this is right, from the department book:
+- Cholesterol matters because so much else is made from it. It is converted into bile acids and bile salts in the liver. It is the precursor of all steroid hormones. It can be oxidised in the liver into 7-dehydrocholesterol, which ultraviolet rays convert into vitamin D3 under the skin. And it is an important constituent of cell membranes that controls their fluidity. It is excreted from the body mainly in bile, in the form of bile salts. (department book p.37)
 ## correct_answer
 d
 ## main_concept
@@ -22953,6 +23745,9 @@ Vitamin C is not a lipid-derived vitamin at all in the book's account, and is no
 Vitamin D
 ## explanation_c
 Correct. The book states cholesterol can be oxidised in the liver into 7-dehydrocholesterol, converted into vitamin D3 in the skin by ultraviolet rays.
+
+Why this is right, from the department book:
+- Cholesterol matters because so much else is made from it. It is converted into bile acids and bile salts in the liver. It is the precursor of all steroid hormones. It can be oxidised in the liver into 7-dehydrocholesterol, which ultraviolet rays convert into vitamin D3 under the skin. And it is an important constituent of cell membranes that controls their fluidity. It is excreted from the body mainly in bile, in the form of bile salts. (department book p.37)
 ## answer_d
 Vitamin B12
 ## explanation_d
@@ -23034,6 +23829,9 @@ Bile acids are derived from:
 Cholesterol
 ## explanation_a
 Correct. The book states cholesterol is converted into bile acids and bile salts in the liver.
+
+Why this is right, from the department book:
+- Cholesterol matters because so much else is made from it. It is converted into bile acids and bile salts in the liver. It is the precursor of all steroid hormones. It can be oxidised in the liver into 7-dehydrocholesterol, which ultraviolet rays convert into vitamin D3 under the skin. And it is an important constituent of cell membranes that controls their fluidity. It is excreted from the body mainly in bile, in the form of bile salts. (department book p.37)
 ## answer_b
 Amino acids
 ## explanation_b
@@ -23135,6 +23933,11 @@ The stomach is autonomic territory (gastrointestinal smooth muscle), reached by 
 Skeletal muscles
 ## explanation_d
 Correct — the exception. Skeletal muscle is controlled by the somatic motor system alone. The autonomic system's remit is smooth muscle, glands and cardiac muscle; it has no direct motor pathway to skeletal muscle fibres.
+
+Why this is right, from the department book:
+- The nervous system, alongside the endocrine system, is one of the body's two major regulatory systems; it receives sensory information every minute and integrates it to determine a rapid, precise response. (department book p.148)
+- Anatomically it divides into the central nervous system, CNS (brain and spinal cord), and the peripheral nervous system, PNS (peripheral ganglia and peripheral nerves). (department book p.148)
+- Sensory information processing (the integrative function) occurs at three CNS levels: the spinal cord level, the lower brain/subcortical level, and the higher brain/cortical level. (department book p.148)
 ## answer_e
 Iris
 ## explanation_e
@@ -23220,6 +24023,9 @@ Backwards. Parasympathetic (sacral) stimulation *relaxes* the internal urethral 
 Erection
 ## explanation_b
 Correct. The sacral parasympathetic outflow (S2–S4, via the pelvic splanchnic nerves) produces vasodilatation of the penile blood vessels, which is erection.
+
+Why this is right, from the department book:
+- The parasympathetic supply to pelvic viscera originates from preganglionic fibres in the second, third and fourth sacral segments, runs as the pelvic splanchnic nerve (nervi erigentes), and relays in terminal ganglia inside or close to the organ.
 ## answer_c
 Contraction of the wall of rectum and the internal anal sphincter
 ## explanation_c
@@ -23313,6 +24119,9 @@ Preganglionic parasympathetic fibres relay in dedicated cranial ganglia (ciliary
 Prepares the eye for near vision |
 ## explanation_c
 Correct. Oculomotor (III) parasympathetic stimulation contracts the ciliary muscle, increasing lens power and preparing the eye for near vision — alongside constricting the pupil.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_d
 Produces salivary secretion which is concentrated, small in amount and viscid
 ## explanation_d
@@ -23402,6 +24211,9 @@ Backwards. The vagus inhibits *atrial* cardiac muscle only, and explicitly does 
 Decrease the oxygen consumption of the heart
 ## explanation_c
 Correct. Vagal stimulation decreases coronary blood flow and the heart's oxygen consumption, alongside slowing the atria.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## answer_d
 Inhibit pancreatic secretion
 ## explanation_d
@@ -23491,6 +24303,9 @@ Backwards. Parasympathetic secretion to the salivary glands is large in amount a
 Produce contraction of ciliary muscle to help near vision
 ## explanation_c
 Correct. Parasympathetic (oculomotor) stimulation contracts the ciliary muscle, increasing the lens's power and helping the eye focus for near vision.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_d
 Present in oculomotor nerve represent 75% of all parasympathetic fibers
 ## explanation_d
@@ -23572,6 +24387,9 @@ Stimulation of vagus nerve does not produce:
 Increased heart rate
 ## explanation_a
 Correct — the exception. Vagal (parasympathetic) stimulation slows, not increases, atrial activity — accelerating the heart is a sympathetic effect, the opposite of what the vagus does.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## answer_b
 Dilation of pulmonary vessels
 ## explanation_b
@@ -23665,6 +24483,9 @@ Decreased heart rate is a genuine parasympathetic (vagal) effect on the atria, s
 Bronchodilation
 ## explanation_b
 Correct — the exception. Parasympathetic stimulation causes bronchoconstriction, the opposite of bronchodilation, which is instead a sympathetic effect on the lungs.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## answer_c
 Increased gastric secretion
 ## explanation_c
@@ -23754,6 +24575,9 @@ The atria genuinely are supplied by parasympathetic (vagal) fibres, which inhibi
 Veniricles
 ## explanation_b
 Correct — the exception. The book states explicitly that the vagus does not supply the ventricles — the one chamber of the heart parasympathetic fibres do not reach.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## answer_c
 Gall biadder
 ## explanation_c
@@ -23839,6 +24663,9 @@ Parasympathetic nerves:
 Have opposite effects to sympathetic nerves on intestinal smooth muscle
 ## explanation_a
 Correct. Parasympathetic stimulation contracts intestinal smooth muscle and relaxes its sphincters, while sympathetic stimulation relaxes the muscle and contracts the sphincters — a directly opposite pairing on the same tissue.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## answer_b
 Have longer postganglionic than preganglionic fibers
 ## explanation_b
@@ -23940,6 +24767,9 @@ Backwards. Vagal stimulation causes bronchoconstriction, not bronchodilation.
 Contraction of the gallbladder
 ## explanation_d
 Correct. Vagal stimulation evacuates the gall bladder — contraction of its wall together with relaxation of the sphincter of Oddi.
+
+Why this is right, from the department book:
+- Preganglionic fibres from the vagal nucleus in the medulla oblongata run in the vagus to supply the entire thoracic and abdominal viscera — about 75% of all parasympathetic fibres — and relay in terminal ganglia in or close to the organ. On the heart the vagus does not supply the ventricles at all: it inhibits every property of atrial muscle and decreases coronary blood flow and oxygen consumption. On the lungs it produces bronchoconstriction, dilates the pulmonary vessels and stimulates the bronchial glands. On the gut it contracts the plain muscle of oesophagus, stomach, small intestine and proximal large intestine, relaxes the sphincters, and is secretory to the gut glands, liver and pancreas. On the gall bladder it contracts the wall and relaxes the sphincter of Oddi, evacuating it. (department book p.160)
 ## correct_answer
 d
 ## main_concept
@@ -24017,6 +24847,9 @@ The preganglionic neurons of the parasympathetic division of the autonomic nervo
 IIl, VII, IX, X
 ## explanation_a
 Correct. The book names cranial nerves III (oculomotor, Edinger-Westphal nucleus), VII (facial, superior salivary nucleus), IX (glossopharyngeal, inferior salivary nucleus) and X (vagus, vagal nucleus) as the four carrying preganglionic parasympathetic fibres.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_b
 VI, VII, VIII, IX
 ## explanation_b
@@ -24114,6 +24947,9 @@ Backwards. Vasodilatation of penile blood vessels *causes* erection, it does not
 Contraction of the bladder wall and relaxation of internal urethral sphincter | |
 ## explanation_c
 Correct. Parasympathetic pelvic stimulation contracts the bladder wall and relaxes the internal urethral sphincter, producing micturition.
+
+Why this is right, from the department book:
+- The parasympathetic supply to pelvic viscera originates from preganglionic fibres in the second, third and fourth sacral segments, runs as the pelvic splanchnic nerve (nervi erigentes), and relays in terminal ganglia inside or close to the organ.
 ## answer_d
 Ejaculation of semen
 ## explanation_d
@@ -24199,6 +25035,9 @@ Backwards. Parasympathetic action on the salivary glands is secretomotor *and va
 Vasodilation and secretion -
 ## explanation_b
 Correct. The facial and glossopharyngeal nerves' parasympathetic function on the salivary glands is secretomotor and vasodilator — vasodilation accompanies the (large, watery) secretion they produce.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_c
 Vasodilation and inhibition of secretion
 ## explanation_c
@@ -24296,6 +25135,9 @@ Retention of urine is a sympathetic pelvic effect (internal urethral sphincter c
 Near vision
 ## explanation_d
 Correct. Oculomotor parasympathetic stimulation contracts the ciliary muscle, increasing the lens's refractive power and preparing the eye for near vision, alongside constricting the pupil.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## correct_answer
 d
 ## main_concept
@@ -24373,6 +25215,9 @@ The cranial nerve that carries parasympathetic nerve fibers is
 Facial nerve
 ## explanation_a
 Correct. The facial nerve (cranial nerve VII) carries preganglionic parasympathetic fibres from the superior salivary nucleus, relaying in the sphenopalatine and submandibular ganglia to the lacrimal, nasal, submandibular and sublingual glands.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_b
 Trigeminal nerve
 ## explanation_b
@@ -24466,6 +25311,9 @@ Cranial nerves carry the parasympathetic outflow (III, VII, IX, X), not the symp
 Lumbar segments
 ## explanation_b
 Correct, as the best available answer among these four. The sympathetic nervous system is described as thoracolumbar, originating from the lateral horn cells of all thoracic segments *and* the upper two lumbar segments — of the four options offered, only "lumbar segments" names any part of that true origin; the other three (cranial nerves, sacral segments, cervical segments) are parasympathetic or unrelated locations.
+
+Why this is right, from the department book:
+- The sympathetic nervous system is thoracolumbar, originating from the lateral horn cells of all thoracic segments and the upper two lumbar segments — of the autonomic system's two divisions, only the sympathetic has this thoracolumbar cell-column origin, in contrast to the parasympathetic's cranio-sacral one (cranial nerves III/VII/IX/X plus sacral segments S2–S4).
 ## answer_c
 Sacral segments
 ## explanation_c
@@ -24555,6 +25403,9 @@ Cranial nerve IV (trochlear) is a purely motor nerve to the superior oblique eye
 Cranial nerve number II! (3)
 ## explanation_b
 Correct. Cranial nerve III (oculomotor) carries preganglionic parasympathetic fibres from the Edinger-Westphal nucleus, relaying in the ciliary ganglion.
+
+Why this is right, from the department book:
+- The oculomotor nerve (III): preganglionic fibres from the Edinger-Westphal nucleus in the midbrain relay in the ciliary ganglion; postganglionic short ciliary nerves contract the constrictor pupillae (miosis) and the ciliary muscle (increasing lens power, preparing the eye for near vision).
 ## answer_c
 Cranial nerve number Xi (12)
 ## explanation_c
@@ -24640,6 +25491,11 @@ Vitamin K dependent clotting factors include:
 Factor IX
 ## explanation_a
 Correct. Factor IX belongs to the prothrombin group (II, VII, IX, X), all of which need vitamin K for their hepatic synthesis.
+
+Why this is right, from the department book:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S. (department book p.142)
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time. (department book p.142)
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K). (department book p.142)
 ## answer_b
 Factor XI
 ## explanation_b
@@ -24737,6 +25593,9 @@ Vitamin K, not vitamin C, is what protein S synthesis (like protein C, and facto
 It functions as a cofactor to protein C
 ## explanation_c
 Correct. Protein S is the cofactor that activated protein C needs to inactivate factors V and VIII — protein C is the enzyme, protein S enables it.
+
+Why this is right, from the department book:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system. (department book p.140)
 ## answer_d
 It is involved in the inactivation of factor IXa
 ## explanation_d
@@ -24822,6 +25681,9 @@ Backwards. Osmotic pressure depends on the *number of particles* in solution, an
 It is responsible for most colloidal osmotic pressure
 ## explanation_b
 Correct. Albumin has the greatest concentration of the plasma proteins, and since osmotic pressure depends on particle number rather than mass, it is responsible for most of the plasma proteins' colloidal osmotic pressure.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## answer_c
 It is due to the permeability of the capillary membrane to albumin
 ## explanation_c
@@ -24907,6 +25769,9 @@ Concerning plasma proteins:
 They act as weak acids at the normal pH
 ## explanation_a
 Correct. At normal plasma pH (7.4), plasma proteins are negatively charged and act as weak acids (anions), combining with bases — this is the basis of their buffering function.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## answer_b
 Fibrinogen has the highest concentration
 ## explanation_b
@@ -25004,6 +25869,9 @@ Backwards. Albumin, not the gamma globulins, is chiefly responsible for the plas
 Of the a- type prevents loss of vitarnins and hormones in urine
 ## explanation_c
 Correct. Albumin and the alpha (and beta) globulins act as carriers for hormones, vitamins, lipids and minerals; binding these substances to plasma proteins prevents their rapid loss in the urine and provides a usable reservoir.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## answer_d
 Are positively charged at the normal pH of plasma and act as weak acids
 ## explanation_d
@@ -25097,6 +25965,9 @@ Backwards. Albumin is normally kept inside the plasma precisely because the capi
 Is important for the tissue fluid formation and blood volume regulation
 ## explanation_d
 Correct. Albumin's colloidal osmotic pressure holds water in the capillaries and draws tissue fluid back in, making it central to both tissue fluid formation and the regulation of circulating blood volume.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## correct_answer
 d
 ## main_concept
@@ -25174,6 +26045,9 @@ Concerning plasma proteins:
 They include clotting factors
 ## explanation_a
 Correct. Fibrinogen and the coagulation factors are plasma proteins in their own right, and plasma proteins as a class include them alongside albumin and the globulins.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## answer_b
 Globulins are formed mainly in the liver
 ## explanation_b
@@ -25275,6 +26149,9 @@ The book does not describe liver failure as changing renal water reabsorption di
 Decreased formation of albumin
 ## explanation_d
 Correct. A failing liver forms less albumin; less albumin means less colloidal osmotic pressure to hold water in the capillaries and pull tissue fluid back in, so fluid accumulates in the tissues as oedema.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## correct_answer
 d
 ## main_concept
@@ -25364,6 +26241,9 @@ Backwards. Tissue damage initiates the *extrinsic* pathway (via thromboplastin r
 Through the extrinsic pathway is initiated by the release of tissue thromboplastin
 ## explanation_d
 Correct. The extrinsic pathway is initiated when tissue trauma releases tissue thromboplastin, which activates factor VII.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## correct_answer
 d
 ## main_concept
@@ -25445,6 +26325,9 @@ Forming the prothrombin activator (active factor X with Ca2+, phospholipid and f
 Thrombin converts fibrinogen to fibrin
 ## explanation_b
 Correct. Thrombin converting soluble fibrinogen to insoluble fibrin monomer threads is the final reaction that actually produces the clot — everything before it builds toward generating thrombin.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_c
 Prothrombin activator converts prothrombin to thrombin
 ## explanation_c
@@ -25538,6 +26421,9 @@ Calcium is a cofactor throughout the cascade, but it does not itself activate fa
 Tissue thromboplastin activates factor VII
 ## explanation_c
 Correct. Tissue thromboplastin, released by damaged tissue, activates factor VII — the first step of the extrinsic pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_d
 Tissue thromboplastin activates factor IX
 ## explanation_d
@@ -25631,6 +26517,9 @@ Liver disease prolongs coagulation time through reduced clotting-factor synthesi
 Intake of large quantities of aspirin
 ## explanation_d
 Correct. Large quantities of aspirin inhibit cyclooxygenase in platelets, suppressing thromboxane A2 and impairing platelet aggregation, which prolongs bleeding time — the platelet-dependent measure, distinct from coagulation time.
+
+Why this is right, from the department book:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
 ## correct_answer
 d
 ## main_concept
@@ -25708,6 +26597,9 @@ Thromboxane Ao:
 Causes plaisiet aggregation
 ## explanation_a
 Correct. Thromboxane A2 is a powerful stimulant of platelet aggregation, alongside being a vasoconstrictor and a stimulator of the platelet release reaction.
+
+Why this is right, from the department book:
+- Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by cyclooxygenase; it is a vasoconstrictor, a stimulator of the platelet release reaction and a powerful stimulant of platelet aggregation. Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase; it is a powerful vasodilator and an inhibitor of both platelet release and platelet aggregation. Since its actions are the opposite of those of thromboxane A2, prostacyclin keeps the platelet plug localised to the site of injury. (department book p.135)
 ## answer_b
 Is metabolized to prostacyclin
 ## explanation_b
@@ -25805,6 +26697,9 @@ Adhering together to form a plug when exposed to collagen is the adhesion step o
 Liberating high concentrations of calcium
 ## explanation_c
 Correct — the exception. Platelets release calcium from their dense granules, but this reinforces further platelet activation and release locally, not a systemic liberation of "high concentrations" of calcium into the plasma — this option overstates what the release reaction achieves.
+
+Why this is right, from the department book:
+- Formation of the temporary haemostatic plug (primary haemostasis) proceeds in steps.
 ## answer_d
 Releasing factors causing vasoconstriction
 ## explanation_d
@@ -25898,6 +26793,11 @@ Vitamin K is *absorbed* using bile, not *synthesised* in the liver — the liver
 Decreased synthesis of prothrombin
 ## explanation_d
 Correct. Bile duct obstruction removes the bile needed to absorb the fat-soluble vitamin K, and the liver needs vitamin K to synthesise prothrombin (and the other vitamin-K-dependent factors) — so obstruction lowers prothrombin synthesis and raises bleeding tendency.
+
+Why this is right, from the department book:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S. (department book p.142)
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time. (department book p.142)
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K). (department book p.142)
 ## correct_answer
 d
 ## main_concept
@@ -25983,6 +26883,9 @@ Factor VII is activated by tissue thromboplastin in the *extrinsic* pathway, not
 Activation of factor XII
 ## explanation_c
 Correct. Contact with exposed subendothelial collagen activates factor XII to XIIa — the first step of the intrinsic pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_d
 Activation of factor IX
 ## explanation_d
@@ -26064,6 +26967,9 @@ How does aspirin influence platelets function:
 Impairs process of their aggregation
 ## explanation_a
 Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 and so impairing the aggregation step of platelet-plug formation.
+
+Why this is right, from the department book:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
 ## answer_b
 Decreases their content
 ## explanation_b
@@ -26165,6 +27071,9 @@ Kidney disease is connected in the book to a *lowered* albumin/globulin ratio (p
 Liver disease
 ## explanation_d
 Correct. The liver is the main site of synthesis of fibrinogen and the coagulation factors; liver disease depresses that synthesis directly, causing excessive bleeding after surgery.
+
+Why this is right, from the department book:
+- The liver is the main site of synthesis of the plasma proteins, making albumin, fibrinogen, the coagulation factors and 50% of the globulins, while the gamma globulins are formed by plasma cells in lymphoid tissue. Between them the plasma proteins do eight things. They supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin supplies most of it because it is the most concentrated. They supply 15% of the buffering power of the blood. The gamma globulins defend the body against microorganisms and their toxins. Fibrinogen and the clotting factors coagulate the blood. Fibrinogen also contributes more than any other protein to blood viscosity, because of its elongated shape. Plasma proteins close the pores of the capillary walls and so limit their permeability. Albumin and the alpha and beta globulins carry hormones, vitamins, lipids and minerals, and stop them being lost rapidly in urine. And they are a reserve for the rapid replacement of tissue protein. (department book p.122)
 ## correct_answer
 d
 ## main_concept
@@ -26250,6 +27159,9 @@ Tissue thromboplastin is the trigger that activates factor VII, not a receptor t
 Complexes with factor Vila to catalyze the activation of factor X
 ## explanation_c
 Correct. Tissue thromboplastin, complexed with factor VIIa, activates factor X — the extrinsic pathway's route into the common pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_d
 Is an important component of the intrinsic coagulation pathway
 ## explanation_d
@@ -26343,6 +27255,9 @@ Thrombomodulin's role is to bind thrombin and, through the resulting complex, ac
 Binds with thrombin forming a complex that activates protein S
 ## explanation_d
 Correct. Thrombomodulin binds thrombin, and the thrombomodulin–thrombin complex activates protein C, which (with its cofactor protein S) inactivates factors V and VIII and frees fibrinolysis to proceed — one of the book's named physiological limits on coagulation. The book's own next sentence names protein C, with protein S as its cofactor, as what that complex activates.
+
+Why this is right, from the department book:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system. (department book p.140)
 ## correct_answer
 d
 ## main_concept
@@ -26432,6 +27347,9 @@ Coumarin (warfarin) works by competitively inhibiting vitamin K in the liver, bl
 Heparin
 ## explanation_d
 Correct. Heparin combines with antithrombin III to inactivate factors IXa, Xa, XIa and XIIa — the book's comparison table describes this explicitly as heparin "facilitating" antithrombin III's action, i.e. increasing its activity.
+
+Why this is right, from the department book:
+- Blood normally circulates in a fluid state because several physiological mechanisms limit clotting: a healthy endothelium, which keeps blood off subendothelial collagen and carries antiplatelet and anticoagulant surface products; the small amount of heparin in blood, which combines with antithrombin III to inactivate factors IX, X, XI and XII; the liver, which inactivates any activated coagulation factor; a continuous normal flow rate, since stasis allows intravascular clotting; the balance between thromboxane A2 and prostacyclin, which confines a clot to the site of injury; and the fibrinolytic system. (department book p.140)
 ## correct_answer
 d
 ## main_concept
@@ -26513,6 +27431,9 @@ The extrinsic pathway begins with tissue thromboplastin release from damaged tis
 Intrinsic pathway
 ## explanation_b
 Correct. The intrinsic pathway begins when blood contacts exposed subendothelial collagen (activating factor XII), which is why it is described as beginning "inside" the vessel wall itself rather than from outside tissue damage.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_c
 Common pathway
 ## explanation_c
@@ -26610,6 +27531,9 @@ The book names antithrombin III as binding factors IX, X, XI and XII, not VII �
 The interaction between thromboxane A2 and prostacyclin limits clotting to the site of injury
 ## explanation_d
 Correct. The book names the balance between thromboxane A2 (a platelet-derived vasoconstrictor and aggregation stimulant) and prostacyclin (an endothelial vasodilator and aggregation inhibitor) as one of the mechanisms that limits the clot to the site of injury.
+
+Why this is right, from the department book:
+- Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by cyclooxygenase; it is a vasoconstrictor, a stimulator of the platelet release reaction and a powerful stimulant of platelet aggregation. Prostacyclin is produced from arachidonic acid in the endothelium of blood vessels by the same cyclooxygenase; it is a powerful vasodilator and an inhibitor of both platelet release and platelet aggregation. Since its actions are the opposite of those of thromboxane A2, prostacyclin keeps the platelet plug localised to the site of injury. (department book p.135)
 ## correct_answer
 d
 ## main_concept
@@ -26695,6 +27619,9 @@ Vasoconstriction of the injured vessel is an earlier, separate haemostasis step 
 Conversion of prothrombin into thrombin
 ## explanation_c
 Correct. Active factor X, together with phospholipid, Ca2+ and factor Va, forms the prothrombin activator that converts prothrombin to thrombin — the step at which the intrinsic and extrinsic pathways converge on the common pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_d
 Activation of coagulation factor XI
 ## explanation_d
@@ -26784,6 +27711,9 @@ Blood clotting in a glass tube is *promotion* of fibrin formation, not preventio
 Silica activates coagulation factor 12
 ## explanation_c
 Correct. The book states factor XII can be activated in vitro by exposure to electronegatively-charged wettable surfaces such as glass — silica activating factor XII is exactly this mechanism, and it is why the intrinsic pathway (unlike the extrinsic) occurs both in vivo and in vitro.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_d
 Inactivation of vitamin K
 ## explanation_d
@@ -26865,6 +27795,9 @@ Aspirin can cause bleeding tendency secondary to
 Inhibition of cyclooxygenase
 ## explanation_a
 Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 production and so impairing platelet aggregation, which is the mechanism behind its bleeding-tendency side effect.
+
+Why this is right, from the department book:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
 ## answer_b
 Inhibition of plasmin
 ## explanation_b
@@ -26966,6 +27899,9 @@ This order repeats "activation" twice and omits adhesion, which must come first 
 Adhesion, activation, release, aggregation, fusion
 ## explanation_d
 Correct. The book's own sequence is: adhesion (to collagen/von Willebrand factor) → activation (shape change, pseudopodia) → release reaction (granule contents) → aggregation (fibrinogen bridges) → fusion (irreversible).
+
+Why this is right, from the department book:
+- Formation of the temporary haemostatic plug (primary haemostasis) proceeds in steps.
 ## correct_answer
 d
 ## main_concept
@@ -27047,6 +27983,9 @@ Factor VII belongs to the prothrombin group of the extrinsic/common pathway, not
 Initiates the process of coagulation with tissue thromboplastin
 ## explanation_b
 Correct. Factor VII, activated by tissue thromboplastin released from damaged tissue, initiates the extrinsic coagulation pathway.
+
+Why this is right, from the department book:
+- Coagulation runs as two initiating cascades that converge.
 ## answer_c
 Activates the conversion of fibrinogen into fibrin
 ## explanation_c
@@ -27140,6 +28079,10 @@ Excessive RBC haemolysis describes a haemolytic anaemia, an unrelated condition 
 Prolonged bleeding time
 ## explanation_c
 Correct. Thrombocytopenia — platelet count below 50,000/mm3, or defective platelet function — is characterised by prolonged bleeding time and petechiae.
+
+Why this is right, from the department book:
+- Thrombocytopenic purpura is due to a decrease of platelet number below 50,000/mm3, or to defective platelet function (thrombasthenia). (department book p.142)
+- It is characterised by petechiae (the presence of many subcutaneous haemorrhages) and prolongation of bleeding time — the time needed for bleeding to stop without clotting of the blood, normally 1-3 minutes, depending on platelet count and function. (department book p.142)
 ## answer_d
 Increased number of platelets
 ## explanation_d
@@ -27225,6 +28168,9 @@ Transcription happens in the nucleus, where RNA polymerase reads the DNA templat
 Translation
 ## explanation_b
 Correct, and the answer. The book places protein synthesis at the rough endoplasmic reticulum, which is cytoplasmic; translation cannot happen in the nucleus because the ribosomes, tRNAs and aminoacyl-tRNA synthetases it needs are cytoplasmic machinery, and the mRNA reaching them has already been exported through a nuclear pore.
+
+Why this is right, from the department book:
+- Rough endoplasmic reticulum is the site of formation of proteins in eukaryotes — translation happens in the cytoplasm, on ribosomes studding the rough ER, once the mature mRNA has already left the nucleus through a nuclear pore.
 ## answer_c
 Removal of introns
 ## explanation_c
@@ -27322,6 +28268,9 @@ Universality is one of the book's four characteristics — applicable, not the e
 Overlapping
 ## explanation_d
 Correct. The book's reading-frame characteristic reads the code as 'a continuous uninterrupted sequence of bases taken 3 at a time' from a fixed start point — every base is used in exactly one codon, so the code is non-overlapping, not overlapping.
+
+Why this is right, from the department book:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
 ## correct_answer
 d
 ## main_concept
@@ -27411,6 +28360,9 @@ Universality is a real, book-listed characteristic — present, not lacking.
 A single codon can code for more than one amino acid
 ## explanation_d
 Correct. This reverses specificity: the book states 'a particular codon always codes for only one amino acid.' A single codon coding for more than one amino acid is exactly what the code lacks.
+
+Why this is right, from the department book:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
 ## correct_answer
 d
 ## main_concept
@@ -27488,6 +28440,9 @@ While the genetic code has 64 codons, there are only 20 naturally occurring amin
 Degenerate
 ## explanation_a
 Correct. The book defines degeneracy as an amino acid being coded by more than one codon, called synonym codons — exactly the feature described.
+
+Why this is right, from the department book:
+- Since each codon is formed of 3 of the 4 bases (U, C, A, G), there are 4³ = 64 possible codons: one, AUG, is the initiation codon; three (UAA, UAG, UGA) are termination (stop) codons that code for no amino acid; the rest code for amino acids.
 ## answer_b
 Duplicative
 ## explanation_b
@@ -27581,6 +28536,9 @@ Degeneracy is the fact that an amino acid may have several synonym codons; the q
 Wobble hypothesis
 ## explanation_b
 Correct. The book names this flexibility of the third codon base — paired against the first anticodon base — the wobble hypothesis.
+
+Why this is right, from the department book:
+- Correct pairing of the codon in the mRNA with the anticodon of the tRNA is essential for accurate translation.
 ## answer_c
 The central dogma
 ## explanation_c
@@ -27678,6 +28636,9 @@ tRNA recognises a codon through its anticodon, but nothing in the book calls AUG
 A polypeptide chain initiating codon
 ## explanation_d
 Correct. The book names AUG as the one codon that acts as the initiation codon for protein synthesis.
+
+Why this is right, from the department book:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
 ## correct_answer
 d
 ## main_concept
@@ -27755,6 +28716,9 @@ In biosynthesis of proteins the chain terminating codons are:
 UAA, UAG and UGA
 ## explanation_a
 Correct. The book names exactly these three as termination (stop) codons, coding for no amino acid.
+
+Why this is right, from the department book:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
 ## answer_b
 UGG, UGU and AGU
 ## explanation_b
@@ -27848,6 +28812,9 @@ The template strand of DNA carries the gene the codon is copied from, but the bo
 mRNA
 ## explanation_b
 Correct. The book defines the genetic code as 'the nucleotide sequence of mRNA representing the code words for amino acids' — codons are on mRNA.
+
+Why this is right, from the department book:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
 ## answer_c
 tRNA
 ## explanation_c
@@ -27941,6 +28908,9 @@ mRNA itself carries information from DNA (via transcription) to the ribosome; tR
 Amino acids from cytosol to ribosomes
 ## explanation_c
 Correct. The book states that in the cytosol, tRNAs carry the (activated) amino acids into the ribosomes.
+
+Why this is right, from the department book:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
 ## answer_d
 Proteins from ribosomes to cytosol
 ## explanation_d
@@ -28034,6 +29004,9 @@ Amino acids, activated and carried on tRNA, are explicitly one of the book's fou
 Okazaki fragments
 ## explanation_d
 Correct. Okazaki fragments are a feature of lagging-strand DNA replication; they play no part in the book's list of what translation needs (three RNA classes, amino acids, energy, protein factors).
+
+Why this is right, from the department book:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
 ## correct_answer
 d
 ## main_concept
@@ -28119,6 +29092,9 @@ A codon is not a free-floating base; it is a fixed 3-base sequence within the mR
 A code word of three bases on mRNA that specifies one amino acid
 ## explanation_c
 Correct. The book states that each 3 successive nitrogenous bases in mRNA represents a codon representing one amino acid's code word.
+
+Why this is right, from the department book:
+- The genetic code is the nucleotide sequence of mRNA representing the code words for amino acids, so called because those code words originate from DNA genes.
 ## answer_d
 A strong bond between two complementary nitrogen bases
 ## explanation_d
@@ -28200,6 +29176,9 @@ The following figure describes which step of protein synthesis? Ri 0 H3N -C—C 
 Activation of an amino acid
 ## explanation_a
 Correct. The reaction shown — an amino acid plus aminoacyl-tRNA synthetase and ATP, releasing PPi and forming an enzyme-AMP-amino acid complex before the aminoacyl-tRNA is released — is exactly the book's two-step formation of aminoacyl-tRNA, i.e. activation of the amino acid.
+
+Why this is right, from the department book:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
 ## answer_b
 Initiation of translation
 ## explanation_b
@@ -28289,6 +29268,9 @@ During cell analysis, their cytoplasm was determined to have high content of ami
 Amino acid activation
 ## explanation_a
 Correct. The book states that 20 different amino-acyl-tRNA synthetases, each specific for one amino acid and its tRNA, carry out the activation and loading of amino acids onto tRNA.
+
+Why this is right, from the department book:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
 ## answer_b
 Amino acid synthesis
 ## explanation_b
@@ -28386,6 +29368,9 @@ Peptidyl transferase, part of the 60S ribosomal subunit, catalyses the peptide b
 Spliceosome
 ## explanation_c
 Correct. The spliceosome removes introns and joins exons during mRNA splicing, a nuclear, post-transcriptional step that happens before the finished mRNA ever reaches a ribosome — it plays no part in translation itself.
+
+Why this is right, from the department book:
+- Translation is the process by which a cell makes protein using the genetic information carried in mRNA.
 ## answer_d
 Amino acyl-tRNA synthetase
 ## explanation_d
@@ -28467,6 +29452,9 @@ At the stage of translation in the rough endoplasmic reticulum, Amino acids are 
 mRNA codons
 ## explanation_a
 Correct. During elongation, the aminoacyl-tRNA bound at each step is determined by the mRNA codon aligned with the A site, so the order amino acids are added in — the polypeptide sequence — directly follows the order of codons on the mRNA.
+
+Why this is right, from the department book:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
 ## answer_b
 tRNA nucleotides
 ## explanation_b
@@ -28556,6 +29544,9 @@ The first amino acyl transfer RNA which initiates translation in eukaryotes is:
 MethionyltRNA
 ## explanation_a
 Correct. The book's initiation steps have 'the initiating methionyl tRNA (Met-tRNAi)' bind to the AUG start codon on the mRNA — methionyl-tRNA is the eukaryotic initiator.
+
+Why this is right, from the department book:
+- Initiation involves the assembly of the components of protein synthesis at the initiation codon.
 ## answer_b
 Formylmethionyl tRNA
 ## explanation_b
@@ -28645,6 +29636,9 @@ During the process of translation, the formation of the bond between two success
 Peptidyl transferase
 ## explanation_a
 Correct. The book states that peptidyl transferase, part of the 60S subunit, forms the peptide bond between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain in the P site.
+
+Why this is right, from the department book:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
 ## answer_b
 Glucosyl transferase
 ## explanation_b
@@ -28738,6 +29732,9 @@ The 40S subunit is where the mRNA first binds and slides to find the AUG start c
 60 S ribosomal subunit
 ## explanation_b
 Correct. The book states that peptidyl transferase is an enzyme that is part of the 60S subunit.
+
+Why this is right, from the department book:
+- Elongation is a 3-step cycle repeated for each amino acid added to the protein after the initiator methionine: (1) binding of aminoacyl-tRNA to the A site, the charged tRNA determined by the mRNA codon aligned with the A site; (2) peptide bond formation, catalysed by peptidyl transferase — an enzyme that is part of the 60S ribosomal subunit — between the amino group of the new aminoacyl-tRNA in the A site and the carboxylic group of the peptidyl chain carried by the tRNA in the P site, which leaves peptidyl-tRNA in the A site; (3) translocation, in which the ribosome moves exactly 3 nucleotides (one codon) along the mRNA, moving the growing peptidyl-tRNA from the A site to the P site and freeing the A site for the next aminoacyl-tRNA.
 ## answer_c
 eEF-2
 ## explanation_c
@@ -28827,6 +29824,9 @@ Post-translation processing includes:
 Trimming
 ## explanation_b
 Correct. Trimming — the proteolytic removal of a segment from a precursor protein — is one of the book’s two post-translational modifications, alongside covalent modification.
+
+Why this is right, from the department book:
+- Many proteins secreted from the cell are initially made as large, precursor molecules that are not functionally active.
 ## answer_c
 3°- polyadenylation
 ## explanation_c
@@ -28912,6 +29912,9 @@ Activation of trypsinogen into trypsin in the small intestine is an example of:
 Trimming
 ## explanation_a
 Correct. The book names trypsinogen becoming activated to trypsin in the small intestine as its example of a zymogen (inactive enzyme precursor) activated by trimming — proteolytic removal of part of the chain.
+
+Why this is right, from the department book:
+- Many proteins secreted from the cell are initially made as large, precursor molecules that are not functionally active.
 ## answer_b
 Phosphorylation
 ## explanation_b
@@ -29013,6 +30016,9 @@ Hydroxylation of prolyl/lysyl residues stabilises collagen; it is not the modifi
 Carboxylation
 ## explanation_d
 Correct. The book states that carboxylation forms γ-carboxyglutamate, which allows clotting proteins to bind Ca2+, a step in clot formation.
+
+Why this is right, from the department book:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell. (department book p.99)
 ## correct_answer
 d
 ## main_concept
@@ -29090,6 +30096,9 @@ What type of mutation is represented in the second strand of DNA? TACGGCACT TACG
 Deletion
 ## explanation_a
 Correct. Aligning the two sequences shows the second strand is one base shorter than the first — a base has been lost, which is a deletion.
+
+Why this is right, from the department book:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
 ## answer_b
 Insertion
 ## explanation_b
@@ -29187,6 +30196,9 @@ Uracil (a pyrimidine, and not even a DNA base) replaced by adenine (a purine) cr
 Guanine is replaced by adenine
 ## explanation_c
 Correct. Guanine and adenine are both purines, so one replacing the other is a purine-for-purine substitution — the book's definition of a transition.
+
+Why this is right, from the department book:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
 ## answer_d
 Guanine is replaced by uracil
 ## explanation_d
@@ -29272,6 +30284,9 @@ Transposition
 Transversion
 ## explanation_b
 Correct. Thymine (a pyrimidine) replaced by adenine (a purine) crosses between the two base classes — the book’s definition of a transversion.
+
+Why this is right, from the department book:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
 ## answer_c
 Transition
 ## explanation_c
@@ -29365,6 +30380,9 @@ Silent mutation is an effect of a base substitution that leaves the amino acid u
 Frame shift mutation
 ## explanation_c
 Correct. The book states that inserting or deleting a number of bases that is not a multiple of three — such as one or two bases — shifts the reading frame, producing a frameshift mutation.
+
+Why this is right, from the department book:
+- Mutations are permanent changes in a DNA sequence, caused by replication errors or by damage to DNA's nucleotides (chemical mutagens, irradiation, oxidative damage).
 ## answer_d
 Nonsense mutation
 ## explanation_d
@@ -29450,6 +30468,9 @@ Nonsense mutation creates a premature stop codon and usually a non-functional tr
 Missense mutation
 ## explanation_b
 Correct. The book names sickle cell anaemia as its example of a missense mutation, in which glutamate is replaced by valine at position six of the β chain.
+
+Why this is right, from the department book:
+- A base substitution falling in the coding region of a gene has one of three effects. A missense mutation changes the codon so that a different amino acid is inserted, with consequences ranging from none to very serious. A nonsense mutation converts an amino acid codon into a stop codon, so translation terminates early and the protein product is usually non-functional. A silent mutation gives a synonym codon for the same amino acid, so the protein is unchanged. (department book p.100)
 ## answer_c
 Silent mutation
 ## explanation_c
@@ -29543,6 +30564,9 @@ Same problem as the pentagonal option with a different invented shape name; a si
 Primary, secondary, and tertiary structures
 ## explanation_c
 Correct. A protein built of one polypeptide chain has primary, secondary and tertiary structure; quaternary structure requires two or more chains.
+
+Why this is right, from the department book:
+- Proteins in their native state are characterized by their three-dimensional structure.
 ## answer_d
 Primary, secondary, tertiary, and quaternary structures
 ## explanation_d
@@ -29636,6 +30660,9 @@ This is the set for a single-chain protein. A protein with two or more chains ad
 Primary, secondary, tertiary, and quaternary structures.
 ## explanation_d
 Correct. Two or more chains combine as subunits into a quaternary structure, on top of the primary, secondary and tertiary structure each subunit already has on its own.
+
+Why this is right, from the department book:
+- Proteins in their native state are characterized by their three-dimensional structure.
 ## correct_answer
 d
 ## main_concept
@@ -29713,6 +30740,9 @@ In the primary structure, the polypeptide chain starts on the left side by:
 N-terminus amino acid
 ## explanation_a
 Correct. The book states the polypeptide chain starts on the left side with amino acid number 1, which carries a free terminal amino group and is termed the N-terminus amino acid.
+
+Why this is right, from the department book:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
 ## answer_b
 C-terminus amino acid
 ## explanation_b
@@ -29806,6 +30836,9 @@ N-terminus, with its free amino group, is the book's name for the start of the c
 C-terminus amino acid
 ## explanation_b
 Correct. The book states that at the end, on the right side, the chain carries an amino acid with a free terminal carboxylic group, termed the C-terminus amino acid.
+
+Why this is right, from the department book:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
 ## answer_c
 S- terminus amino acid
 ## explanation_c
@@ -29891,6 +30924,9 @@ The synthesis of the polypeptide chain starts:
 From the N-terminus to the C- terminus
 ## explanation_a
 Correct. The book states synthesis of the polypeptide chain starts from the N-terminus end toward the C-terminus, with the sequence determined by the genetic information in DNA.
+
+Why this is right, from the department book:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
 ## answer_b
 From the C-terminus to the N- terminus
 ## explanation_b
@@ -29980,6 +31016,9 @@ The primary structure of proteins:
 Determines the secondary and tertiary structures
 ## explanation_a
 Correct. The book lays out the four orders of structure in sequence — primary first, as the amino acid sequence fixed by peptide bonds during biosynthesis — and describes the secondary and tertiary orders as further folding of that same chain; the sequence set at the primary level is what the higher orders fold.
+
+Why this is right, from the department book:
+- The primary structure refers to the amino acid sequence of the polypeptide chain, held together by peptide bonds made during protein biosynthesis; the sequence of any protein is specific to that protein.
 ## answer_b
 Is the final structure of the proteins
 ## explanation_b
@@ -30077,6 +31116,9 @@ There is no "β-helix" in the book; the two regular secondary structures are the
 a- helix or B- pleated sheets
 ## explanation_c
 Correct. The book states secondary structure includes mainly two regular forms, α-helical or β-pleated sheets.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_d
 a- helix or B- globular sheets
 ## explanation_d
@@ -30158,6 +31200,9 @@ In the a- helix protein structure:
 The polypeptide chain coils along its long axis
 ## explanation_a
 Correct. The book describes the α-helix as a folding of the polypeptide chain along its long axis into a specific coiled structure.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_b
 The polypeptide chain is perpendicular to its axis
 ## explanation_b
@@ -30259,6 +31304,9 @@ Side by side is correct, but the resulting structure is a sheet, not a coil — 
 Line side by side to form sheet
 ## explanation_d
 Correct. The book states that when two or more segments of chain are arranged side by side, a β-pleated sheet is formed.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## correct_answer
 d
 ## main_concept
@@ -30340,6 +31388,9 @@ Inter-chain hydrogen bonds stabilize β-pleated sheets formed between separate c
 Intra-chain hydrogen bonds
 ## explanation_b
 Correct. The book states the α-helix is stabilized by intra-chain hydrogen bonds, formed between the NH group of one peptide bond and the C=O group of another peptide bond in the same chain.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_c
 Inter-chain ionic bonds
 ## explanation_c
@@ -30425,6 +31476,9 @@ In the a- helix structure, the intra-chain hydrogen bonds are:
 Formed between NH and C=O groups
 ## explanation_a
 Correct. The book specifies the α-helix's intra-chain hydrogen bonds form between the NH group of one peptide bond and the C=O group of another.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_b
 Formed between NH and R- groups
 ## explanation_b
@@ -30518,6 +31572,9 @@ Inward projection would crowd the R-groups into the helix's core; the book state
 Outwards of the helix
 ## explanation_b
 Correct. The book states the R-groups of amino acids project outwards of the helix.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_c
 Upwards of the helix
 ## explanation_c
@@ -30611,6 +31668,9 @@ The opposite of what the book states — tryptophan's ring structure is one of t
 It Disturbs it
 ## explanation_c
 Correct. The book lists tryptophan, alongside proline, as disrupting the α-helical structure because its ring structure disturbs the helical formation.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## answer_d
 It has no effect
 ## explanation_d
@@ -30692,6 +31752,9 @@ In B- pleated sheet, the side chains are:
 Above or below the sheet plane
 ## explanation_a
 Correct. The book states the R-groups of amino acids project above or below the plane of the sheet.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## answer_b
 Inside or outside the sheet plane
 ## explanation_b
@@ -30785,6 +31848,9 @@ Parallel is the book's name for segments running in the same direction (N to C t
 Anti-parallel B- pleated sheet
 ## explanation_b
 Correct. The book states that when adjacent segments run in opposite directions, the structure is termed an antiparallel β-pleated sheet.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## answer_c
 Perpendicular B- pleated sheet
 ## explanation_c
@@ -30870,6 +31936,9 @@ Which of the following terms refer to adjacent polypeptide chains running in sam
 Parallel B- pleated sheet.
 ## explanation_a
 Correct. The book states that when segments of the β-pleated sheet run in the same direction (N to C terminus), the structure is termed a parallel β-pleated sheet.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## answer_b
 Anti-parallel B- pleated sheet.
 ## explanation_b
@@ -30959,6 +32028,9 @@ The B- pleated sheet formed by different chains is stabilized by:
 Inter-chain hydrogen bonds
 ## explanation_a
 Correct. The book states that in the case of multiple polypeptide chains, the chains involved in β-pleated sheet formation are stabilized by inter-chain hydrogen bonds.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## answer_b
 Intra-chain hydrogen bonds
 ## explanation_b
@@ -31052,6 +32124,9 @@ Inter-chain hydrogen bonds stabilize a sheet built between separate chains; a sh
 Intra-chain hydrogen bonds
 ## explanation_b
 Correct. The book states that when two or more segments of a single polypeptide chain are arranged side by side, the resulting β-pleated sheet is stabilized by intra-chain hydrogen bonds.
+
+Why this is right, from the department book:
+- β-pleated sheets can be formed within a single polypeptide chain or between multiple polypeptide chains.
 ## answer_c
 Inter-chain ionic bonds
 ## explanation_c
@@ -31149,6 +32224,9 @@ The ordinary α-helix/β-pleated-sheet pairing describes most proteins' secondar
 Its own characteristic secondary structure
 ## explanation_d
 Correct. The book notes that helical folding is right-handed in most proteins but left-handed in collagen — marking collagen's helix out from the standard forms described for secondary structure, consistent with collagen having its own characteristic secondary structure.
+
+Why this is right, from the department book:
+- Secondary structure includes mainly two regular forms, α-helical or β-pleated sheets, alongside other forms such as loop regions, β-bends and disordered regions.
 ## correct_answer
 d
 ## main_concept
@@ -31230,6 +32308,9 @@ Two dimensions understates the fold; the book specifies a higher three-dimension
 Higher 3-dimensional structure
 ## explanation_b
 Correct. The book states tertiary structure is the folding of the polypeptide chain into a specific higher three-dimensional globular structure.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_c
 Higher 4-dimensional structure
 ## explanation_c
@@ -31315,6 +32396,9 @@ Which of the following tends to associate together in the hydrophobic interactio
 nonpolar side chains of neutral amino acids
 ## explanation_a
 Correct. The book states the nonpolar side chains of neutral amino acids tend to associate together in proteins, driven by their tendency to cluster away from the surrounding aqueous medium.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_b
 nonpolar side chains of acidic amino acids
 ## explanation_b
@@ -31408,6 +32492,9 @@ Uncharged groups cannot form an electrostatic bond, which by definition requires
 Oppositely charged groups of amino acids side chains
 ## explanation_b
 Correct. The book states electrostatic bonds (salt bridges or ionic bonds) form between oppositely charged groups of amino acid side chains, giving lysine (positive) and aspartic acid (negative) as the example.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_c
 The same charged groups of amino acids
 ## explanation_c
@@ -31497,6 +32584,9 @@ Aspartate's side chain is carboxylic, not hydroxyl; the book lists aspartic acid
 The hydroxyl group of serine
 ## explanation_b
 Correct. The book names the hydroxyl group of amino acids such as serine (and threonine) as taking part in internal hydrogen bond formation in the tertiary structure.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_c
 The amide group of threonine
 ## explanation_c
@@ -31586,6 +32676,9 @@ The book calls Van der Waals interactions weak, transient attractions, not stron
 A weak bond in the tertiary structure
 ## explanation_b
 Correct. The book describes Van der Waals interactions as transient attractions between molecules that, as weak interactions, also contribute to the stability of proteins — introduced among the tertiary-structure interactions.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_c
 A strong bond in the secondary structure
 ## explanation_c
@@ -31679,6 +32772,9 @@ Tyrosine's side chain is a phenol, not a thiol, and is not the residue the book 
 2 cysteine
 ## explanation_c
 Correct. The book states disulfide bonds are present in many proteins when two cysteine residues connect to form cystine, giving keratin and insulin as examples.
+
+Why this is right, from the department book:
+- Tertiary structure is the folding of the polypeptide chain of a protein into a specific higher three-dimensional globular structure, maintained by several types of bonds or interactions.
 ## answer_d
 2 serine
 ## explanation_d
@@ -31772,6 +32868,9 @@ Tertiary structure is what a single subunit reaches on its own; hemoglobin's act
 Quaternary structure
 ## explanation_d
 Correct. The book states that this high level of organization — quaternary structure — may be essential for the activity of certain proteins, naming hemoglobin as an example.
+
+Why this is right, from the department book:
+- Proteins in their native state are characterized by their three-dimensional structure.
 ## correct_answer
 d
 ## main_concept
@@ -31849,6 +32948,9 @@ Denaturation is a specific property of:
 Proteins
 ## explanation_a
 Correct. The book opens its denaturation section by stating that denaturation is a specific property of proteins — the change of a protein's native state by rupture of the bonds holding its secondary, tertiary and quaternary structure.
+
+Why this is right, from the department book:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost. (department book p.15)
 ## answer_b
 Carbohydrates
 ## explanation_b
@@ -31950,6 +33052,9 @@ Glycoprotein cross linkage
 Disulfide cross linkage
 ## explanation_d
 Correct. The book gives albumin coagulation by heat as its example of denaturation, occurring due to the formation of disulfide cross linkage.
+
+Why this is right, from the department book:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost. (department book p.15)
 ## correct_answer
 d
 ## main_concept
@@ -32031,6 +33136,9 @@ The book states denaturation decreases protein solubility, due to exposure of no
 Increase protein viscosity
 ## explanation_b
 Correct. The book lists increased viscosity among the effects of denaturation on proteins.
+
+Why this is right, from the department book:
+- Denaturation ruptures the chemical bonds that stabilise a protein's secondary, tertiary and quaternary structure and leaves it in its primary structure. Viscosity rises; solubility falls as nonpolar hydrophobic groups are exposed; digestibility by proteolytic enzymes rises as peptide bonds are exposed; and both biological activity and antigenic property are lost. (department book p.15)
 ## answer_c
 Decrease protein digestibility
 ## explanation_c
@@ -32124,6 +33232,9 @@ Glycoproteins and lipoproteins are classified by what is conjugated to the prote
 Fibrous and globular proteins
 ## explanation_c
 Correct. The book states that, depending on their conformation, proteins are classified into two major classes: fibrous and globular.
+
+Why this is right, from the department book:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
 ## answer_d
 Essential and nonessential proteins
 ## explanation_d
@@ -32205,6 +33316,9 @@ Collagen and elastin are:
 Fibrous proteins
 ## explanation_a
 Correct. The book gives collagen and elastin, alongside α-keratin, as its examples of fibrous proteins.
+
+Why this is right, from the department book:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
 ## answer_b
 Globular proteins
 ## explanation_b
@@ -32298,6 +33412,9 @@ Fibrous is the book's other conformational class, illustrated by collagen, elast
 Globular proteins
 ## explanation_b
 Correct. The book lists hemoglobin and myoglobin among its examples of globular proteins, tightly folded into compact spherical shapes.
+
+Why this is right, from the department book:
+- Depending on their conformation, proteins are classified into two major classes: fibrous and globular.
 ## answer_c
 Apoproteins proteins
 ## explanation_c
@@ -32383,6 +33500,9 @@ A protein rich in glycine is:
 Collagen
 ## explanation_a
 Correct by the book's own description of collagen's amino acid composition: each α-chain's repeating Gly-X-Y triplet places glycine at every third position across roughly 1000 residues, making collagen distinctively glycine-rich.
+
+Why this is right, from the department book:
+- Collagen is strong because every level of its structure is built for it, and the department book gives seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility. (department book p.51)
 ## answer_b
 Hemoglobin
 ## explanation_b
@@ -32480,6 +33600,9 @@ Two chains would not match the book's description of tropocollagen; it explicitl
 3
 ## explanation_c
 Correct. The book states tropocollagen consists of three coiled α-chains, each a left-handed helix, tightly twisted together into a right-handed superhelix.
+
+Why this is right, from the department book:
+- Collagen is strong because every level of its structure is built for it, and the department book gives seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility. (department book p.51)
 ## answer_d
 4
 ## explanation_d
@@ -32561,6 +33684,9 @@ Each turn in the helix of tropocollagen contains:
 3 amino acids
 ## explanation_a
 Correct. The book states each turn of the collagen helix contains 3 amino acid residues, making a tighter helix than normal proteins, which have 3.6 residues per turn.
+
+Why this is right, from the department book:
+- Collagen is strong because every level of its structure is built for it, and the department book gives seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility. (department book p.51)
 ## answer_b
 4 amino acids
 ## explanation_b
@@ -32662,6 +33788,9 @@ Lysine only appears in the book as an occasional substitute for the X position (
 Glycine
 ## explanation_d
 Correct. The book states the repeating triplet is Gly-X-Y, where Gly is glycine, present in every third position of the chain.
+
+Why this is right, from the department book:
+- Collagen is strong because every level of its structure is built for it, and the department book gives seven reasons. Each turn contains three amino acid residues, making a tighter helix than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the polypeptide chains lie very close to each other. The three left-handed coiled chains form a right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the chains. Covalent cross-linkages between adjacent chains are responsible for the tensile property, so collagen can be stretched without being broken. The molecules are arranged specifically into fibril and fibres. And the staggered, overhanging array gives collagen marked flexibility. (department book p.51)
 ## correct_answer
 d
 ## main_concept
@@ -32739,6 +33868,9 @@ In collagen, the vitamin required for the formation of hydroxyproline is:
 Vitamin C
 ## explanation_a
 Correct. The book states that hydroxylation of some proline and some lysine residues, during collagen synthesis in the RER, is carried out by hydroxylase enzymes that require vitamin C as a cofactor.
+
+Why this is right, from the department book:
+- During collagen synthesis, inside the lumen of the rough endoplasmic reticulum, some proline and some lysine residues of the procollagen α-chain are hydroxylated by hydroxylase enzymes that require vitamin C as a cofactor.
 ## answer_b
 Vitamin A
 ## explanation_b
@@ -32836,6 +33968,9 @@ Proline occupies the X position of the triplet and is not described as carrying 
 Hydroxylysine
 ## explanation_c
 Correct. The book states glucose and galactose molecules are attached to hydroxylysine residues, which is why collagen is considered a glycoprotein.
+
+Why this is right, from the department book:
+- During collagen synthesis, inside the lumen of the rough endoplasmic reticulum, some proline and some lysine residues of the procollagen α-chain are hydroxylated by hydroxylase enzymes that require vitamin C as a cofactor.
 ## answer_d
 Hydroxyproline
 ## explanation_d
@@ -32925,6 +34060,9 @@ The book describes tropocollagen as three chains forming a triple helix, but tro
 Both have hydroxyproline residues
 ## explanation_c
 Correct. The book states tropoelastin contains little hydroxyproline (less than collagen's Y-position hydroxyproline content, but present nonetheless), so both proteins carry hydroxyproline residues, even though the amounts differ.
+
+Why this is right, from the department book:
+- Collagen and elastin are both connective-tissue fibrous proteins and share the presence of hydroxyproline residues, though elastin's tropoelastin monomer contains only little hydroxyproline and no hydroxylysine at all, unlike collagen's larger hydroxyproline content.
 ## answer_d
 Both have hydroxylysine residues
 ## explanation_d
@@ -33018,6 +34156,9 @@ Vitamin D (as calcitriol) is named by the book as what induces osteocalcin's syn
 Vitamin K
 ## explanation_d
 Correct. The book states osteocalcin's glutamate residues are γ-carboxylated by a vitamin K-dependent enzyme, to γ-carboxyglutamate that binds hydroxyapatite.
+
+Why this is right, from the department book:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
 ## correct_answer
 d
 ## main_concept
@@ -33095,6 +34236,9 @@ Bone proteins contain mainly collagen:
 Type I
 ## explanation_a
 Correct. The book states Type I collagen forms 90% of bone proteins, made of two α1 chains and one α2 chain.
+
+Why this is right, from the department book:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
 ## answer_b
 Type Il
 ## explanation_b
@@ -33188,6 +34332,9 @@ Garbled OCR for "Type I" ("Typel"); Type I is the book's dominant collagen for b
 Type II
 ## explanation_b
 Correct. The book states Type II collagen forms 90–98% of the total collagen present in cartilage, made of three identical α1 chains.
+
+Why this is right, from the department book:
+- Type I collagen forms 90% of bone proteins and is made of two α1 chains and one α2 chain; the minor collagen form present in bone is type V.
 ## answer_c
 Type Ill
 ## explanation_c
@@ -33277,6 +34424,9 @@ Erythrocytes are biconcave discs, but they are not rigid — the book emphasises
 Count is higher in newly born infants
 ## explanation_b
 Correct. Newborn infants normally have a higher RBC count than the adult range, alongside high altitude and athletic training, reflecting the relative hypoxia of intra-uterine life.
+
+Why this is right, from the department book:
+- The average number of red blood corpuscles ranges from 5–5.5 million/mm3 in males and 4–4.5 million/mm3 in females.
 ## answer_c
 Contain carbonic anhydrase enzyme needed for transport of oxygen
 ## explanation_c
@@ -33362,6 +34512,9 @@ Pre-transcriptional regulation includes:
 Epigenetic mechanisms
 ## explanation_a
 Correct. The book lists epigenetic mechanisms as the first item under Pre-transcriptional regulation, alongside the amount of DNA and gene rearrangements.
+
+Why this is right, from the department book:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
 ## answer_b
 mRNA stability
 ## explanation_b
@@ -33459,6 +34612,9 @@ Chromosomal rearrangements are large-scale structural changes to chromosomes; th
 Epigenetic phenomena
 ## explanation_c
 Correct. The book's Epigenetic Mechanisms section is built around exactly these two examples: DNA methylation and chromatin remodeling by histone acetylation.
+
+Why this is right, from the department book:
+- Epigenetic means 'around the gene'; it refers to changes in DNA and histone proteins that do not alter the DNA sequence.
 ## answer_d
 Translocation
 ## explanation_d
@@ -33548,6 +34704,9 @@ The book places the target cytosine next to a guanine (forming a CpG island); th
 Causes gene silencing
 ## explanation_c
 Correct. The book states that DNA methylation 'is associated with the silencing of the activities of certain genes.'
+
+Why this is right, from the department book:
+- Epigenetic means 'around the gene'; it refers to changes in DNA and histone proteins that do not alter the DNA sequence.
 ## answer_d
 Catalyzed by DNA ligase
 ## explanation_d
@@ -33637,6 +34796,9 @@ DNA methylation is an epigenetic, gene-silencing mechanism; the book's methotrex
 Gene amplification
 ## explanation_c
 Correct. The book states that malignant cells can develop resistance to methotrexate — a DHFR inhibitor — by amplifying the gene for this enzyme.
+
+Why this is right, from the department book:
+- A change in the number of copies of a gene can affect the amount of gene product produced.
 ## answer_d
 Gene diminution
 ## explanation_d
@@ -33718,6 +34880,9 @@ Diversity of immunoglobulins is achieved by:
 Gene rearrangement
 ## explanation_a
 Correct. The book states that the heavy and light chains of immunoglobulins are encoded by several hundred gene segments, and their rearrangement generates several million different immunoglobulins.
+
+Why this is right, from the department book:
+- A change in the number of copies of a gene can affect the amount of gene product produced.
 ## answer_b
 DNA methylation
 ## explanation_b
@@ -33819,6 +34984,9 @@ The book places the CAAT box and GC box 40-200 bp upstream; the TATA box itself 
 Defines where transcription is to start
 ## explanation_d
 Correct. The book states that the TATA box defines where transcription is to start along the DNA.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## correct_answer
 d
 ## main_concept
@@ -33904,6 +35072,9 @@ Transcriptional control affects how much of a gene is transcribed, not how many 
 Alternative splicing
 ## explanation_c
 Correct. The book states that alternative splicing explains why the estimated number of proteins much exceeds the number of genes, since one primary transcript can be spliced differently to yield different proteins.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## answer_d
 Translational control
 ## explanation_d
@@ -33989,6 +35160,9 @@ Epigenetic mechanisms are listed under Pre-transcriptional regulation in the boo
 Capping
 ## explanation_b
 Correct. The book's Post-transcriptional regulation section lists capping, poly-A tailing, splicing and miRNA.
+
+Why this is right, from the department book:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
 ## answer_c
 Trimming
 ## explanation_c
@@ -34086,6 +35260,9 @@ The book never describes a "leader sequence" being removed as part of mRNA proce
 Alternative splicing
 ## explanation_d
 Correct. The book's Post-transcriptional regulation list includes splicing, and alternative splicing is the book's own extension of splicing to yield multiple proteins from one gene's transcript.
+
+Why this is right, from the department book:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
 ## correct_answer
 d
 ## main_concept
@@ -34171,6 +35348,9 @@ Cis-acting elements are DNA sequences flanking a gene; miRNAs are RNA molecules 
 Reduce expression of the target mRNA
 ## explanation_c
 Correct. The book states that miRNAs are non-coding RNAs that reduce expression of the target mRNA, either by inducing its degradation or blocking its translation.
+
+Why this is right, from the department book:
+- miRNAs are non-coding RNAs that reduce expression of the target mRNA either by inducing its degradation or blocking its translation.
 ## answer_d
 Are transacting elements
 ## explanation_d
@@ -34264,6 +35444,9 @@ Posttranscriptional modification covers capping, poly-A tailing, splicing and mi
 Posttranslational modification
 ## explanation_d
 Correct. The book lists trimming under Post-Translational Modification of Proteins (discussed in Translation), alongside covalent modification.
+
+Why this is right, from the department book:
+- Gene expression is the process by which the information contained within a gene becomes a functional product (RNA or protein), and it must be strictly regulated so that cells produce the correct number of proteins when they need them.
 ## correct_answer
 d
 ## main_concept
@@ -34341,6 +35524,9 @@ One of the following is a covalent modification to a peptide chain:
 Carboxylation
 ## explanation_a
 Correct. Carboxylation, forming γ-carboxyglutamate so clotting proteins can bind calcium, is one of the book’s covalent post-translational modifications.
+
+Why this is right, from the department book:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell. (department book p.99)
 ## answer_b
 Trimming
 ## explanation_b
@@ -34430,6 +35616,9 @@ One of the following is an example of a posttranslational covalent modification 
 Phosphorylation
 ## explanation_a
 Correct. The book states that phosphorylation and dephosphorylation regulate the activity of many proteins, such as the enzymes of glycogen metabolism and regulators of gene transcription.
+
+Why this is right, from the department book:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell. (department book p.99)
 ## answer_b
 Trimming
 ## explanation_b
@@ -34519,6 +35708,9 @@ Which of the following best describes transcription?
 RNA synthesis is always in the 5' - 3' direction
 ## explanation_a
 Correct. The transcriptional-unit diagram shows the RNA transcript running 5' to 3'; RNA polymerase always extends the growing chain in this one direction.
+
+Why this is right, from the department book:
+- Synthesis of RNA from DNA is known as transcription.
 ## answer_b
 RNA polymerase needs a primer to initiate transcription
 ## explanation_b
@@ -34620,6 +35812,9 @@ tRNA is a translation component, not the DNA strand mRNA is transcribed against.
 Template strand
 ## explanation_d
 Correct. The book states plainly that RNA's sequence is complementary to the template strand's sequence.
+
+Why this is right, from the department book:
+- Synthesis of RNA from DNA is known as transcription.
 ## correct_answer
 d
 ## main_concept
@@ -34709,6 +35904,9 @@ This keeps the template’s own base order rather than pairing each base with it
 GUAGAUC
 ## explanation_d
 Correct. Pairing each base of the 5'-GATCTAC-3' template with its complement, read antiparallel (RNA polymerase moves 3' to 5' along the template while extending RNA 5' to 3', with U replacing T), gives 5'-GUAGAUC-3'.
+
+Why this is right, from the department book:
+- Synthesis of RNA from DNA is known as transcription.
 ## correct_answer
 d
 ## main_concept
@@ -34790,6 +35988,9 @@ This simply repeats the DNA sequence with T unchanged; RNA pairing requires each
 UAC ACU GUC
 ## explanation_b
 Correct. Pairing each DNA base with its RNA complement (A pairs with U, T pairs with A, G pairs with C, C pairs with G) across ATG TGA CAG gives UAC ACU GUC.
+
+Why this is right, from the department book:
+- Synthesis of RNA from DNA is known as transcription.
 ## answer_c
 TUC UCT GTC
 ## explanation_c
@@ -34879,6 +36080,9 @@ This is neither the coding-strand sequence nor its proper U-for-T conversion; it
 CAGCGC
 ## explanation_b
 Correct. The book states mRNA 'is the same as that of coding strand except for U replacing T'; since CAGCGC contains no T to begin with, the mRNA sequence is identical to the coding strand, CAGCGC.
+
+Why this is right, from the department book:
+- Synthesis of RNA from DNA is known as transcription.
 ## answer_c
 CUGCGC
 ## explanation_c
@@ -34968,6 +36172,9 @@ Relief of torsional tension is a topoisomerase's job, not what the book credits 
 Separation of two strands of DNA
 ## explanation_b
 Correct. The book states that TFIIH has a helicase activity that separates the two strands of DNA for initiation.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## answer_c
 Synthesis of the RNA primers
 ## explanation_c
@@ -35057,6 +36264,9 @@ DNA polymerase acts in DNA replication, not transcription; the book's promoter i
 A specific sequence of DNA to which RNA polymerase binds
 ## explanation_b
 Correct. The book defines the promoter as the nucleotide sequence at which RNA polymerase begins attachment, lying upstream of the transcription region.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## answer_c
 A specific DNA sequence to which a restriction endonuclease binds
 ## explanation_c
@@ -35154,6 +36364,9 @@ Splicing and recombination are separate post-transcriptional/gene-rearrangement 
 Alter gene expression by binding transcription factors
 ## explanation_d
 Correct. The book describes the promoter's basal expression elements (TATA box, CAAT/GC box) as the site where TFIID and the other transcription factors bind and assemble, which is how the promoter region influences gene expression.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## correct_answer
 d
 ## main_concept
@@ -35239,6 +36452,9 @@ Topoisomerase relieves DNA supercoiling; it is not what the book associates with
 RNA polymerase
 ## explanation_c
 Correct. The TATA box is part of the promoter, the nucleotide sequence at which — per the book's own terminology — RNA polymerase begins attachment; TFIID binds it first as the entry point for the RNA polymerase II pre-initiation complex.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## answer_d
 DNA ligase
 ## explanation_d
@@ -35324,6 +36540,9 @@ RNA polymerase I is for rRNA synthesis mainly, per the book's classification, no
 RNA polymerase II
 ## explanation_b
 Correct. The book states directly that RNA polymerase II is responsible for synthesis of mRNAs.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## answer_c
 RNA polymerase III
 ## explanation_c
@@ -35417,6 +36636,9 @@ RNA-dependent RNA polymerase 8
 RNA polymerase I
 ## explanation_c
 Correct. The book assigns rRNA synthesis mainly to RNA polymerase I (together with III for tRNA); the large 18S and 28S ribosomal RNA genes are transcribed by RNA polymerase I.
+
+Why this is right, from the department book:
+- There are three types of nuclear RNA polymerases: RNA polymerase I and III, for synthesis of rRNAs and tRNAs mainly; and RNA polymerase II, for synthesis of mRNAs, most small nuclear RNAs (snRNAs) and micro RNAs (miRNAs).
 ## answer_d
 RNA polymerase II
 ## explanation_d
@@ -35502,6 +36724,9 @@ The TATA box belongs to transcription, not DNA replication; the book never assig
 An indication of the starting point for transcription
 ## explanation_b
 Correct. The book states the TATA box 'defines where transcription is to start along the DNA.'
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## answer_c
 A termination signal for transcription
 ## explanation_c
@@ -35599,6 +36824,9 @@ Splicing is one of the book's four listed modifications — present, not lacking
 Trimming
 ## explanation_d
 Correct. The book's post-transcriptional modifications of mRNA are capping, polyadenylation, splicing and editing; trimming is a post-translational modification of proteins, not something mRNA processing includes.
+
+Why this is right, from the department book:
+- The eukaryotic promoter carries two types of sequence element, the basal expression elements, and they do different jobs. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it lies 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start — they control how frequently the event occurs — and they lie 40 to 200 base pairs upstream. (department book p.87)
 ## correct_answer
 d
 ## main_concept
@@ -35680,6 +36908,9 @@ Telomeres protect the ends of chromosomal DNA, not mRNA; they play no part in th
 Poly (A) tail
 ## explanation_b
 Correct. The book states that polyadenylation 'stabilizes the mRNA and protects it against the attack by ribonucleases.'
+
+Why this is right, from the department book:
+- Capping at the 5' end adds a methyl-guanosine cap; this stabilises the mRNA and protects it against attack by ribonucleases, and it facilitates protein synthesis by helping transport the mRNA to the cytoplasm and allowing its recognition by ribosomes.
 ## answer_c
 Introns
 ## explanation_c
@@ -35777,6 +37008,9 @@ DNA ligase joins DNA fragments in replication or repair; splicing of mRNA is car
 Cutting of introns and joining of exons
 ## explanation_d
 Correct. The book states that splicing removes introns (non-expressed regions) and joins exons (expressed regions) to form functional mRNA.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## correct_answer
 d
 ## main_concept
@@ -35866,6 +37100,9 @@ Plain splicing removes introns to give one mature mRNA; the figure’s two diffe
 Alternative splicing
 ## explanation_d
 Correct. The book states that the primary transcript of some genes may be spliced differently to yield different proteins from the same gene — exactly what the figure of one transcript producing Protein A and Protein B shows.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## correct_answer
 d
 ## main_concept
@@ -35955,6 +37192,9 @@ Exons are the expressed, coding regions that splicing keeps and joins together �
 An intron
 ## explanation_d
 Correct. Splicing removes introns and joins exons to form the functional, mature mRNA, so an intron is exactly what mature mRNA is least likely to still contain.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## correct_answer
 d
 ## main_concept
@@ -36044,6 +37284,9 @@ Nuclear body
 Spliceosomes
 ## explanation_d
 Correct. The book states that splicing requires a spliceosome, made of small nuclear ribonucleoproteins (snRNPs) built of special proteins and small nuclear RNAs.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## correct_answer
 d
 ## main_concept
@@ -36129,6 +37372,9 @@ The book's clinical correlation names snRNPs as the antibody target in SLE, not 
 Splicing
 ## explanation_c
 Correct. The book's own clinical correlation states that in SLE, autoantibodies target small nuclear ribonucleoproteins (snRNPs) — the components of the spliceosome that carries out splicing — so defective splicing is the mechanism.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## answer_d
 Alternative splicing
 ## explanation_d
@@ -36218,6 +37464,9 @@ Polyadenylation happens at the 3' end of the transcript, not at internal intron-
 Splicing
 ## explanation_c
 Correct. Splicing works by the spliceosome recognising the boundary between an intron and an exon in order to remove the intron and join the exons; a mutation exactly at that junction disrupts the recognition the book's own description of splicing depends on.
+
+Why this is right, from the department book:
+- Splicing removes the introns, the non-expressed regions of the primary transcript, and joins the exons to give functional mRNA; it needs a spliceosome built of small nuclear ribonucleoproteins — special proteins together with small nuclear RNAs. Splicing the same primary transcript in different ways yields different proteins from the same gene, which is why the estimated number of proteins far exceeds the number of genes. (department book p.91)
 ## answer_d
 Alternative splicing
 ## explanation_d
@@ -36311,6 +37560,9 @@ Splicing removes introns and joins exons; it does not itself convert one coding 
 mRNA editing
 ## explanation_d
 Correct. The book’s own ApoB example is exactly this: a cytidine deaminase converts a CAA codon to the UAA stop codon in intestinal mRNA, producing the truncated Apo B-48 protein — this is mRNA editing.
+
+Why this is right, from the department book:
+- Coding information of mRNA can be changed by RNA editing.
 ## correct_answer
 d
 ## main_concept
@@ -36400,6 +37652,9 @@ Backwards. Sympathetic stimulation to the salivary glands gives a small amount o
 Relaxes smooth muscles and contracts sphincters of the gastrointestinal tract
 ## explanation_d
 Correct. Sympathetic stimulation relaxes the smooth muscle of the stomach, small intestine and proximal large intestine while contracting the sphincters (e.g. pyloric) — confirmed unambiguously by the near-identical sibling question in the same book.
+
+Why this is right, from the department book:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
 ## correct_answer
 d
 ## main_concept
@@ -36489,6 +37744,9 @@ Backwards. Sympathetic salivary secretion is small, thick and viscid, not large 
 Relaxes smooth muscles and contracts sphincters of the gastrointestinal tract
 ## explanation_d
 Correct. Sympathetic stimulation relaxes gastrointestinal smooth muscle while contracting its sphincters, exactly as the book states for the abdominal viscera.
+
+Why this is right, from the department book:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
 ## correct_answer
 d
 ## main_concept
@@ -36566,6 +37824,9 @@ Sympathetic fibers to pelvic viscera:
 Produce ejaculation of semen and shrinkage of penis
 ## explanation_a
 Correct. Sympathetic fibres to the pelvic viscera contract the vas deferens, seminal vesicles and prostate (ejaculation) and vasoconstrict pelvic/genital vessels, causing shrinkage of the penis during the sexual act.
+
+Why this is right, from the department book:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
 ## answer_b
 Originate from all lumbar and upper 2 sacral segments
 ## explanation_b
@@ -36663,6 +37924,9 @@ Backwards. Sympathetic stimulation causes cutaneous *vaso*constriction, not vaso
 Increase cerebral blood flow and produce mental alertness
 ## explanation_c
 Correct. Sympathetic stimulation raises systemic arterial blood pressure, which increases cerebral blood flow despite mild direct constriction of cerebral vessels, and increases mental alertness by lowering the reticular formation's threshold.
+
+Why this is right, from the department book:
+- Sympathetic effects on the head and neck (preganglionic from T1–T2, relaying in the cervical ganglia): contraction of dilator pupillae (mydriasis), contraction of upper-eyelid smooth muscle (widens the palpebral fissure, increasing the field of vision), vasoconstriction of conjunctival vessels, sweat-gland secretion and cutaneous vasoconstriction, salivary secretion that is small in amount, concentrated and viscid (mainly from the submaxillary gland), increased cerebral blood flow (via raised systemic pressure, despite mild direct constriction of cerebral vessels), and increased mental alertness.
 ## answer_d
 Contracts muscles of lower eye lid to increase field of vision
 ## explanation_d
@@ -36752,6 +38016,9 @@ Backwards. The greater splanchnic nerve passes through the paravertebral chain *
 Originates from the lateral horn cells of the lower six thoracic segments
 ## explanation_c
 Correct, as the intended reading. The book places the greater splanchnic nerve's origin among the lower thoracic segments (T5–T9) that supply the abdominal viscera, in contrast to the upper four thoracic segments that supply the thoracic viscera.
+
+Why this is right, from the department book:
+- Sympathetic effects on abdominal viscera (preganglionic from T5–T12, passing through the paravertebral chain without relay as greater [T5–T9, to coeliac and superior mesenteric ganglia], lesser [T10–T11, to aorticorenal and superior mesenteric ganglia] and least [T12, to aorticorenal ganglion] splanchnic nerves): relaxation of stomach/small-intestine/proximal-large-intestine smooth muscle with contraction of sphincters (e.g.
 ## answer_d
 Is the preganglionic sympathetic fiber to the pelvic region
 ## explanation_d
@@ -36841,6 +38108,9 @@ Backwards. The sympathetic response *dilates* the pupil (letting in more light),
 Diameter of skin blood vessels
 ## explanation_c
 Correct. The alarm response constricts skin blood vessels, which limits bleeding from wounds — a decrease in the diameter of skin blood vessels.
+
+Why this is right, from the department book:
+- The sympathetic nervous system discharges as one unit in emergency situations, to prepare the individual to cope with the emergency — preparation for flight, fear or fight. It dilates the pupils, letting more light into the eyes. It accelerates the heartbeats and raises the blood pressure, which gives better perfusion of vital organs and muscles. It constricts the blood vessels of the skin, which limits bleeding from wounds. It lowers the threshold in the reticular formation of the brain, reinforcing the alert and aroused state. And it stimulates lipolysis and glycogenolysis, supplying more energy as glucose and free fatty acids. (department book p.158)
 ## answer_d
 Blood glucose concentration
 ## explanation_d
@@ -36934,6 +38204,9 @@ Backwards. Vitamin B12 deficiency, which pernicious anaemia causes, gives macroc
 There is absence of intrinsic factor and gastric HC] secretion
 ## explanation_c
 Correct. Pernicious anaemia follows immune destruction of the parietal cells, which removes both their intrinsic-factor secretion (so vitamin B12 cannot be absorbed) and their gastric HCl secretion together, since the same cells make both.
+
+Why this is right, from the department book:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption. (department book p.131)
 ## answer_d
 Is associated with folic acid deficiency
 ## explanation_d
@@ -37027,6 +38300,9 @@ Backwards on location. Vitamin B12 (with intrinsic factor) is absorbed in the lo
 Defective absorpiion occurs in pancreatic diseases
 ## explanation_d
 Correct. Pancreatic trypsin is required for vitamin B12 absorption, so pancreatic-deficiency disease can impair absorption independently of intrinsic factor and gastric HCl.
+
+Why this is right, from the department book:
+- The parietal cells of the stomach secrete intrinsic factor, a glycoprotein that combines with vitamin B12 and protects it from being digested, and it is intrinsic factor that also binds the vitamin to its specific receptor on the brush border of the mucosal cells of the lower ileum. Pancreatic trypsin is required as well, so pancreatic disease may impair absorption. (department book p.131)
 ## correct_answer
 d
 ## main_concept
@@ -37108,6 +38384,9 @@ Iron is needed to build the haem part of haemoglobin, not for DNA synthesis — 
 Vitamin B,»2 and folic acid
 ## explanation_b
 Correct. Both vitamin B12 and folic acid are essential for DNA synthesis, which the marrow's dividing cells need for nuclear maturation and division.
+
+Why this is right, from the department book:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well. (department book p.132)
 ## answer_c
 Proteins of plant origin
 ## explanation_c
@@ -37205,6 +38484,9 @@ Iron deficiency gives microcytic, hypochromic anaemia (small, pale cells) — th
 Vitamin B12 or folic acid deficiency
 ## explanation_d
 Correct. Vitamin B12 or folic acid deficiency both block DNA synthesis, failing nuclear maturation and division and leaving bigger, irregular, fragile RBCs — the macrocytic (megaloblastic) picture.
+
+Why this is right, from the department book:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well. (department book p.132)
 ## correct_answer
 d
 ## main_concept
@@ -37294,6 +38576,11 @@ Vitamin B12 malabsorption gives a macrocytic anaemia, not a bleeding tendency �
 Malabsorption of vitamin K
 ## explanation_d
 Correct. Vitamin K is fat-soluble and needs bile for its absorption; common bile duct obstruction removes that bile, causing vitamin K deficiency, decreased hepatic synthesis of factors II, VII, IX, X (and proteins C, S), and a bleeding tendency.
+
+Why this is right, from the department book:
+- Vitamin K is a fat-soluble vitamin synthesised by the intestinal bacterial flora, needed for the hepatic formation of factors II, VII, IX and X and proteins C and S. (department book p.142)
+- Its deficiency decreases formation of these coagulation factors and prolongs coagulation time. (department book p.142)
+- Deficiency can follow absence of intestinal bacterial flora (as in newborn infants), prolonged treatment with antibiotics, or obstruction of the bile ducts (absence of bile needed for absorption of the fat-soluble vitamin K). (department book p.142)
 ## correct_answer
 d
 ## main_concept
@@ -37371,6 +38658,9 @@ If MCV= 75 cu in anemic patient, what might be the cause?
 lron deficiency
 ## explanation_a
 Correct. An MCV of 75 μ3 is below the normal range (< 80 μ3), which the book defines as microcytic — the classification the book gives specifically to iron-deficiency anaemia.
+
+Why this is right, from the department book:
+- Iron-deficiency anaemia is classified as microcytic hypochromic anaemia: MCV < 80 μ3 and MCH < 25 pg, reflecting decreased RBC mass and haemoglobin content from too little iron to build haemoglobin.
 ## answer_b
 Vitamin B12 deficiency
 ## explanation_b
@@ -37472,6 +38762,9 @@ Liver failure removes the site where most clotting factors are made and genuinel
 Vitamin B42 deficiency
 ## explanation_d
 Correct — the exception. Vitamin B12 deficiency blocks DNA synthesis and gives a macrocytic anaemia; it does not touch the coagulation factors or platelets, so it is not accompanied by a bleeding tendency the way the other three conditions are.
+
+Why this is right, from the department book:
+- Vitamin B12 is needed for DNA synthesis, so its deficiency leaves the red cell precursors in the marrow unable to complete nuclear maturation and division: the cells end up bigger, irregular and very fragile, which is a macrocytic anaemia. Because vitamin B12 is also needed for the myelination of nerves, deficiency may produce neurological manifestations as well. (department book p.132)
 ## correct_answer
 d
 ## main_concept

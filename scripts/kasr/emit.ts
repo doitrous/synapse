@@ -33,7 +33,7 @@ import {
 } from './seeds/types.ts'
 import type { ConceptLinks } from './seeds/links.ts'
 import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 
 /**
  * The claims each concept asserts, by concept ID.
@@ -810,6 +810,140 @@ ${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, conce
 }
 
 /**
+ * One fact the department book supports, ready to append to a worked
+ * explanation: its sentence, whether it has passed the evidence gate, and the
+ * page a reviewer would open to check it.
+ */
+export interface EnrichmentClaim {
+  text: string
+  verified: boolean
+  page: number
+}
+
+/**
+ * Pull one field's value out of a `# Item` block.
+ *
+ * The same lookahead as `build-evidence.ts`'s own `field()`: it stops at the
+ * next `## ` heading or true end of string, never at the first blank line, so
+ * a multi-line value — `display_text`, `qualifiers` — survives intact.
+ */
+function evidenceField(block: string, label: string): string {
+  return block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |(?![\\s\\S]))`, 'm'))?.[1].trim() ?? ''
+}
+
+/**
+ * Every claim a module's evidence files support, keyed by concept ID —
+ * `evidence/<module>-claims.md`, `<module>-generated-claims.md`, and every
+ * other curated `<module>*-claims.md` file, each paired with its citation in
+ * the sibling `*-citations.md` file by `claim_id`.
+ *
+ * Built once per module and cached: `mcqBlock` runs once per question, and a
+ * build emits hundreds of questions per module, so re-reading and re-parsing
+ * every evidence file per question would be pure waste.
+ *
+ * A claim survives into the index only if some citation locates it to a page
+ * — a claim nothing cites cannot honestly carry a "(department book p.N)"
+ * tag, so it is left out rather than tagged with nothing. Kept in the file's
+ * own order (which follows the department book); `appendEnrichment` is what
+ * sorts verified claims first and caps the count, so that selection policy
+ * lives in one place and is unit-testable without touching disk.
+ */
+const CLAIMS_INDEX_CACHE = new Map<string, Map<string, EnrichmentClaim[]>>()
+
+function claimsIndexFor(module: ModuleRef): Map<string, EnrichmentClaim[]> {
+  const cached = CLAIMS_INDEX_CACHE.get(module.id)
+  if (cached) return cached
+
+  const dir = 'docs/Kasr-Source-Imports/evidence'
+  const prefix = `${module.id.replace(/\s+/g, '-')}-`
+  let files: string[] = []
+  try { files = readdirSync(dir) } catch { files = [] }
+
+  const claimFiles = files.filter((name) => name.startsWith(prefix) && name.endsWith('claims.md')).sort()
+  const citationFiles = files.filter((name) => name.startsWith(prefix) && name.endsWith('citations.md')).sort()
+
+  // claim_id -> page, from every citation file this module has. First
+  // locator wins on a rare double-citation rather than the last, so the
+  // result does not depend on directory listing order.
+  const pageByClaimId = new Map<string, number>()
+  for (const name of citationFiles) {
+    let text: string
+    try { text = readFileSync(`${dir}/${name}`, 'utf8') } catch { continue }
+    for (const block of text.split(/^\s*---\s*$/m)) {
+      const claimId = evidenceField(block, 'claim_id')
+      const pageRaw = evidenceField(block, 'locator_page')
+      if (!claimId || !pageRaw || pageByClaimId.has(claimId)) continue
+      const page = Number.parseInt(pageRaw, 10)
+      if (Number.isFinite(page)) pageByClaimId.set(claimId, page)
+    }
+  }
+
+  const byConcept = new Map<string, EnrichmentClaim[]>()
+  for (const name of claimFiles) {
+    let text: string
+    try { text = readFileSync(`${dir}/${name}`, 'utf8') } catch { continue }
+    for (const block of text.split(/^\s*---\s*$/m)) {
+      const claimId = evidenceField(block, 'id')
+      const conceptId = evidenceField(block, 'concept_id')
+      const displayText = evidenceField(block, 'display_text')
+      if (!claimId || !conceptId || !displayText) continue
+      const page = pageByClaimId.get(claimId)
+      if (page === undefined) continue
+      const verified = evidenceField(block, 'verification_status') === 'verified'
+      const list = byConcept.get(conceptId) ?? []
+      list.push({ text: displayText.replace(/\s+/g, ' ').trim(), verified, page })
+      byConcept.set(conceptId, list)
+    }
+  }
+  CLAIMS_INDEX_CACHE.set(module.id, byConcept)
+  return byConcept
+}
+
+/** The fixed sub-heading a mechanical enrichment lands under — see `appendEnrichment`. */
+export const ENRICHMENT_HEADING = 'Why this is right, from the department book:'
+
+/** The first sentence of a block of text — used for the definition fallback below. */
+function firstSentence(text: string): string {
+  const match = text.match(/^[\s\S]*?[.!?](?=\s|$)/)
+  return (match ? match[0] : text).trim()
+}
+
+/**
+ * Append the tested concept's claims — or, absent any locatable claim, its
+ * definition's first sentence — under a fixed sub-heading in the correct
+ * answer's explanation.
+ *
+ * Approved design (chief of staff + Omar's standing order, see
+ * `E1-enrichment.md`): up to 3 claims, verified ones first (a stable sort, so
+ * ties keep the department book's own order), each followed by
+ * `(department book p.N)`; when the concept has no locatable claim, the
+ * concept's `definition` sentence stands in; a sentence already present
+ * verbatim in the explanation is skipped rather than repeated. Entirely
+ * mechanical — nothing here is hand-written for this question — and it never
+ * touches the text above the sub-heading or any distractor's explanation.
+ *
+ * If every candidate is a duplicate, the explanation is returned byte-for-byte
+ * unchanged: a heading over nothing to add is worse than no heading. Pure —
+ * takes the concept's claims already resolved by the caller (`claimsIndexFor`
+ * does the disk reading) so it is unit-testable without touching disk or a
+ * `ModuleRef` fixture, and calling it twice on its own output is a no-op.
+ */
+export function appendEnrichment(explanation: string, claims: EnrichmentClaim[], definition: string): string {
+  const ordered = [...claims].sort((a, b) => Number(b.verified) - Number(a.verified))
+  const candidates = ordered.length
+    ? ordered.slice(0, 3).map((c) => `${c.text} (department book p.${c.page})`)
+    : [firstSentence(definition)].filter(Boolean)
+
+  const fresh = candidates.filter((sentence) => {
+    const bare = sentence.replace(/ \(department book p\.\d+\)$/, '')
+    return bare.length > 0 && !explanation.includes(bare)
+  })
+  if (!fresh.length) return explanation
+
+  return `${explanation}\n\n${ENRICHMENT_HEADING}\n${fresh.map((s) => `- ${s}`).join('\n')}`
+}
+
+/**
  * One multiple-choice question, from a bank row plus what an author added.
  *
  * `QM-<code>-<12 hex>` from the module and the bank's own key, so re-running the
@@ -852,6 +986,13 @@ export function mcqBlock(
     .map((where) => `${where.file} p${where.page} q${where.number}`)
     .join('; ')
 
+  // Mechanical enrichment: append the tested concept's book claims (or its
+  // definition, absent any) under a fixed sub-heading in the correct answer's
+  // explanation only. Every distractor's explanation is untouched.
+  const explanations: Record<string, string> = { ...authored.explanations }
+  const claims = claimsIndexFor(module).get(conceptId) ?? []
+  explanations[answer] = appendEnrichment(explanations[answer], claims, concept.definition)
+
   return `# Item
 ## id
 ${id}
@@ -865,7 +1006,7 @@ Draft
 single_best_answer
 ## question
 ${row.stem}
-${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[letter]}\n## explanation_${letter.toLowerCase()}\n${authored.explanations[letter]}`).join('\n')}
+${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[letter]}\n## explanation_${letter.toLowerCase()}\n${explanations[letter]}`).join('\n')}
 ## correct_answer
 ${answer}
 ## main_concept
