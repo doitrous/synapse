@@ -19,6 +19,7 @@
  */
 import { existsSync, readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
 import { seededBySource } from './seeds/registry.ts'
+import { readManifest } from './manifest.ts'
 import { join } from 'node:path'
 
 const REPO = process.cwd()
@@ -59,7 +60,7 @@ const scoped = (name: string) => {
   return MODULE === '101 ISK' ? `scripts/kasr/extract/${name}` : own
 }
 
-const manifest = read('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json')
+const manifest = readManifest(MODULE)
 const rows_: ManifestSource[] = manifest.sources.filter(
   (s: ManifestSource) => s.moduleId === MODULE || s.secondaryModule === MODULE)
 

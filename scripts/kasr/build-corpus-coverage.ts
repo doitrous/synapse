@@ -23,6 +23,7 @@
 import { existsSync, readFileSync, readdirSync, mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { MODULES } from './seeds/types.ts'
+import { readManifest } from './manifest.ts'
 
 const module = process.argv[2]
 if (!module || !MODULES[module]) {
@@ -49,7 +50,7 @@ interface ManifestSource {
   exclusionReason: string | null
 }
 
-const manifest = JSON.parse(readFileSync(join(ROOT, 'manifest/kasr-y1-sources.json'), 'utf8'))
+const manifest = readManifest(module)
 const rows: ManifestSource[] = manifest.sources.filter((s: ManifestSource) =>
   s.moduleId === module || s.secondaryModule === module)
 

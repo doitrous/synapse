@@ -23,10 +23,13 @@
  *   node --experimental-strip-types scripts/kasr/match-sittings.ts
  */
 import { readFileSync, writeFileSync } from 'node:fs'
+import { manifestFor } from './manifest.ts'
 
 const CONCEPTS = 'docs/Kasr-Source-Imports/concept'
 const QUESTIONS = 'scripts/kasr/questions.json'
-const MANIFEST = 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
+// This file's content logic (COMPILATIONS below) is 101 ISK-specific, so the
+// module is routed through manifestFor for consistency rather than generalized.
+const MANIFEST = manifestFor('101 ISK')
 const OUT = 'scripts/kasr/extract/sitting-matches.json'
 
 /** The compilations, and how the blueprint should weigh each. */

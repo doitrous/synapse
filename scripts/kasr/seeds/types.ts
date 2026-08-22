@@ -34,11 +34,57 @@ export interface ModuleRef {
  * to nothing, or worse, mints a competing module.
  */
 export const MODULES: Record<string, ModuleRef> = {
+  // Year 1 — unchanged. `mintConceptId` hashes `kau:<module>:<key>`, so
+  // touching an existing entry here would mint a different ID for every
+  // concept already authored under it.
   '101 ISK': { id: '101 ISK', code: '101' },
   '102 INT': { id: '102 INT', code: '102' },
   '103 BMS': { id: '103 BMS', code: '103' },
   '104 CPS': { id: '104 CPS', code: '104' },
   '108 INT': { id: '108 INT', code: '108' },
+  // Year 2 (`src/data/universities.ts`, `KAU_MODULES['Year 2']`). Every ID has
+  // a numeric prefix, so `code` is that number as a string, matching 101's
+  // pattern.
+  '205 NEU': { id: '205 NEU', code: '205' },
+  '206 DIG': { id: '206 DIG', code: '206' },
+  '207 END': { id: '207 END', code: '207' },
+  '208 INT': { id: '208 INT', code: '208' },
+  '210 PAT': { id: '210 PAT', code: '210' },
+  '213 PSY': { id: '213 PSY', code: '213' },
+  // Year 3 (`KAU_MODULES['Year 3']`). Six of eight carry a numeric prefix and
+  // keep it as `code`. `314` and `319` are the whole catalogue ID — no letters
+  // to strip — so `code` is the ID itself. `CLIN 3`, `COMM 3` and `ELEC 3`
+  // carry no number at all; `code` is the ID with its space removed
+  // (`CLIN3`/`COMM3`/`ELEC3`), which stays short, readable and distinct from
+  // every numeric code in this table — `code` is never parsed back into a
+  // number anywhere (confirmed by grepping `\.code\b` under scripts/kasr/: it
+  // is only ever interpolated into an ID template), so a non-numeric string is
+  // exactly as valid as `'101'` is.
+  '309 INF': { id: '309 INF', code: '309' },
+  '310 PAT': { id: '310 PAT', code: '310' },
+  '314': { id: '314', code: '314' },
+  '319': { id: '319', code: '319' },
+  '327 MPE': { id: '327 MPE', code: '327' },
+  'CLIN 3': { id: 'CLIN 3', code: 'CLIN3' },
+  'COMM 3': { id: 'COMM 3', code: 'COMM3' },
+  'ELEC 3': { id: 'ELEC 3', code: 'ELEC3' },
+  // Year 4 (`KAU_MODULES['Year 4']`). None of these carry a numeric prefix —
+  // the year digit is a suffix instead, because module IDs are unique
+  // faculty-wide and SURG/IM/FM repeat across years 4 and 5. `code` strips the
+  // space (`PEDS 4` -> `PEDS4`), same rule as the Year 3 codeless entries.
+  'PEDS 4': { id: 'PEDS 4', code: 'PEDS4' },
+  'OBGYN 4': { id: 'OBGYN 4', code: 'OBGYN4' },
+  'SURG 4': { id: 'SURG 4', code: 'SURG4' },
+  'IM 4': { id: 'IM 4', code: 'IM4' },
+  'PSY 4': { id: 'PSY 4', code: 'PSY4' },
+  'FM 4': { id: 'FM 4', code: 'FM4' },
+  'CM 4': { id: 'CM 4', code: 'CM4' },
+  'PALL 4': { id: 'PALL 4', code: 'PALL4' },
+  'RSCH 4': { id: 'RSCH 4', code: 'RSCH4' },
+  // Year 5 (`KAU_MODULES['Year 5']`) — SURG/IM/FM again, same suffix rule.
+  'SURG 5': { id: 'SURG 5', code: 'SURG5' },
+  'IM 5': { id: 'IM 5', code: 'IM5' },
+  'FM 5': { id: 'FM 5', code: 'FM5' },
 }
 
 /** The manifest row a paper is. */

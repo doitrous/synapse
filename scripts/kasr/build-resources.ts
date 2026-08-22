@@ -22,6 +22,7 @@
  */
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { batchFile } from './emit.ts'
+import { manifestFor } from './manifest.ts'
 
 interface ManifestSource {
   sourceId: string
@@ -39,7 +40,11 @@ interface ManifestSource {
   oldSystemExcluded?: boolean
 }
 
-const MANIFEST = 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
+// This file's content logic (rows filtered to `moduleId === '101 ISK'`, the
+// output paths, the `kasr-y1-101-isk` collection_id) is 101 ISK-specific, so
+// the module is routed through manifestFor for consistency rather than
+// generalized.
+const MANIFEST = manifestFor('101 ISK')
 // Beside the claims and citations, not in a `resource/` folder of its own.
 // `validate-content-batch` resolves an evidence batch's references against the
 // other batches in its OWN directory — a citation names a claim, a claim names

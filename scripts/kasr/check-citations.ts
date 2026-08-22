@@ -18,12 +18,23 @@
  */
 import { readFileSync, readdirSync, statSync } from 'node:fs'
 import { join, relative } from 'node:path'
+import { allManifestPaths } from './manifest.ts'
 
 const ROOT = 'docs/Kasr-Source-Imports'
-const MANIFEST = `${ROOT}/manifest/kasr-y1-sources.json`
 
-const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8'))
-const known = new Set<string>(manifest.sources.map((source: { sourceId: string }) => source.sourceId))
+/**
+ * Every manifest currently on disk, not just Year 1's — a citation may name a
+ * source from any intake year, and this check has no `--module` to scope it
+ * to one. Skips a year with no manifest yet rather than erroring.
+ */
+const MANIFESTS = allManifestPaths(process.cwd())
+const MANIFEST_SET = new Set(MANIFESTS)
+
+const known = new Set<string>()
+for (const path of MANIFESTS) {
+  const manifest = JSON.parse(readFileSync(path, 'utf8'))
+  for (const source of manifest.sources as { sourceId: string }[]) known.add(source.sourceId)
+}
 
 /**
  * The 47 sources that are live but not in this manifest.
@@ -70,8 +81,8 @@ const dangling: { file: string; id: string; line: number }[] = []
 let checked = 0
 
 for (const path of walk(ROOT)) {
-  // The manifest defines the IDs; checking it against itself proves nothing.
-  if (relative('.', path) === MANIFEST) continue
+  // A manifest defines the IDs; checking one against itself proves nothing.
+  if (MANIFEST_SET.has(relative('.', path))) continue
   if (!/\.(md|json|ts|txt)$/.test(path)) continue
 
   readFileSync(path, 'utf8').split('\n').forEach((text, index) => {
@@ -87,8 +98,9 @@ if (dangling.length) {
   for (const bad of dangling) console.error(`  ${bad.file}:${bad.line}  ${bad.id}`)
   console.error(`\nThese IDs are the first twenty hex of a file's sha256. A wrong one is not a
 typo a reader would catch — it is a plausible string pointing at nothing. Fix it
-against ${MANIFEST}, or regenerate the manifest if the file is genuinely new.`)
+against one of ${MANIFESTS.join(', ')}, or regenerate the manifest if the file is genuinely new.`)
   process.exit(1)
 }
 
-console.log(`${checked} manifest citations across ${ROOT}, all resolving to one of ${known.size} sources.`)
+console.log(`${checked} manifest citations across ${ROOT}, all resolving to one of ${known.size} sources `
+  + `across ${MANIFESTS.length} manifest${MANIFESTS.length === 1 ? '' : 's'} (${MANIFESTS.join(', ')}).`)

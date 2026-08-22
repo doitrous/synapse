@@ -15,6 +15,7 @@
  * than being discovered by a reviewer opening the tree.
  */
 import { readFileSync } from 'node:fs'
+import { EXAM_SOURCE_TIERS } from '../../../src/data/examSignal.ts'
 import {
   MODULES, type BodySystem, type KasrSubject, type Paper, type Scheme, type Seed, type SourceRef,
 } from './types.ts'
@@ -135,6 +136,22 @@ export function paperFromJson(file: string): LoadedPaper {
   const json: JsonPaper = JSON.parse(readFileSync(file, 'utf8'))
   const module = json.source.module
   if (!MODULES[module]) throw new Error(`${file}: "${module}" is not a module in the catalogue`)
+  // Years 2-5 papers all arrive as JSON — unlike 101's hand-written .ts
+  // literals, nothing at the type level stops a misspelt tier or a
+  // non-numeric year from reaching examSignal.ts, which coerces anything it
+  // does not recognise to 'other' *silently* (examSignal.ts:193) — the exact
+  // bug seeds/types.ts's own comment on `SourceRef.tier` describes: a resit
+  // counting for less than a random handout, with nothing saying so. Refused
+  // here instead, loudly, naming the file.
+  if (!(EXAM_SOURCE_TIERS as readonly string[]).includes(json.source.tier)) {
+    throw new Error(
+      `${file}: source.tier "${json.source.tier}" is not one of ${EXAM_SOURCE_TIERS.join(', ')} — `
+      + `an unrecognised tier is silently coerced to "other" by examSignal.ts and the paper's real `
+      + `weight is lost`)
+  }
+  if (typeof json.source.sittingYear !== 'number' || !Number.isFinite(json.source.sittingYear)) {
+    throw new Error(`${file}: source.sittingYear "${json.source.sittingYear}" is not a number`)
+  }
 
   const paths = knownPaths(module)
   const problems: string[] = []

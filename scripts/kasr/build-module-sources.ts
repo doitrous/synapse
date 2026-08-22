@@ -31,8 +31,8 @@
  */
 import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { MODULES } from './seeds/types.ts'
+import { manifestFor, readManifest } from './manifest.ts'
 
-const MANIFEST = 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
 const INDEX = 'docs/Kasr-Source-Imports/evidence/corpus-source-index.json'
 const OUT = 'docs/Kasr-Source-Imports'
 
@@ -58,8 +58,9 @@ const module = process.argv[2]
 if (!module || !MODULES[module]) {
   throw new Error(`usage: build-module-sources.ts "<module>" — one of ${Object.keys(MODULES).join(', ')}`)
 }
+const MANIFEST = manifestFor(module)
 
-const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8'))
+const manifest = readManifest(module)
 const all: ManifestSource[] = manifest.sources
 
 /**
@@ -265,7 +266,7 @@ Each is emitted once, at the path the corpus index carries, because that is the
 path \`medical:batch\` compares against.` : 'No source in this module is filed twice.'}
 
 Nothing here is authored. Every ID, path, page count and checksum is copied from
-docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json, which is generated from
+${MANIFEST}, which is generated from
 the files themselves — so a source that is not in the corpus cannot appear here,
 and \`source_relative_path\` cannot disagree with the corpus record.
 

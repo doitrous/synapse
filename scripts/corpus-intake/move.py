@@ -15,7 +15,16 @@ Rules that make this safe to run:
     would split subjects in two.
 
 `--apply` performs the moves; without it this prints what it would do.
+
+**Year 1 only.** Every later intake year (Year 2 onward) arrives already
+organised by the owner — there is no loose pile for this script to place,
+and running it against one would try to reorganise a corpus this repo has
+been told never to move, rename or delete. `--year` therefore only accepts
+`y1` (the default); anything else refuses before touching a single file
+rather than silently walking `ROOT` (Year 1's `PLAN`/`LEDGER`) against
+another year's folders.
 """
+import argparse
 import hashlib
 import json
 import os
@@ -55,7 +64,18 @@ def resolve_target(target_rel, known):
 
 
 def main():
-    apply = "--apply" in sys.argv
+    ap = argparse.ArgumentParser(add_help=False)
+    ap.add_argument("--year", default="y1")
+    ap.add_argument("--apply", action="store_true")
+    args, _unknown = ap.parse_known_args()
+    if args.year != "y1":
+        raise SystemExit(
+            f'move.py is Year-1-only — refusing --year "{args.year}". Year 2 onward arrived '
+            f'already organised by the owner; there is no plan for this script to apply, and '
+            f'nothing under those years is ever moved, renamed or deleted. See this file\'s '
+            f'module docstring.')
+
+    apply = args.apply
     plan = json.load(open(PLAN))
     known = existing_dirs()
 

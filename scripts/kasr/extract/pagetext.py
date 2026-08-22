@@ -26,14 +26,22 @@ import tempfile
 import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 
+from kasr_module import manifest_for
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
+# The default for a bare `pagetext.py <sourceId> ...` call, unchanged — every
+# sourceId this way has always meant "look it up in 101's manifest". `--module`
+# resolves its own manifest through `manifest_for` instead (see `sources`),
+# which is what makes `--module "205 NEU"` read Year 2's manifest rather than
+# silently searching Year 1's for a module it does not contain.
 MANIFEST = os.path.join(REPO, "docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json")
 CACHE = os.path.join(HERE, "pagetext")
 
 
-def sources():
-    with open(MANIFEST, encoding="utf-8") as fh:
+def sources(module=None):
+    path = manifest_for(module) if module else MANIFEST
+    with open(path, encoding="utf-8") as fh:
         return {s["sourceId"]: s for s in json.load(fh)["sources"]}
 
 
@@ -174,12 +182,12 @@ def reprobe():
 def main(argv):
     if "--reprobe" in argv:
         sys.exit(1 if reprobe() else 0)
-    by_id = sources()
     force = "--force" in argv
     argv = [a for a in argv if a != "--force"]
     if argv and argv[0] == "--module":
         module = argv[1]
         tier_max = int(argv[argv.index("--tier-max") + 1]) if "--tier-max" in argv else 9
+        by_id = sources(module)
         wanted = [s for s in by_id.values()
                   if (s.get("moduleId") == module or s.get("secondaryModule") == module)
                   and not s.get("exclusionReason")
@@ -189,6 +197,7 @@ def main(argv):
         # extractor is working before a 200-page book has finished.
         wanted.sort(key=lambda s: s.get("pageCount") or 0)
     else:
+        by_id = sources()
         wanted = [by_id[a] for a in argv]
 
     for entry in wanted:

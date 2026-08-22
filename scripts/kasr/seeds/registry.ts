@@ -18,16 +18,20 @@
  * `build-batches.ts` relies on it: where two papers ask the same thing, the
  * first one listed supplies the concept and the rest are recorded as further
  * occurrences.
+ *
+ * The list itself is assembled from one file per intake year —
+ * `registry-y1.ts` through `registry-y5.ts` — so a year's lane appends to its
+ * own array instead of five (now potentially five-times-five) lanes
+ * conflicting on one literal. Year 1 first, so nothing about its order — which
+ * `build-batches.ts`'s "first listed wins" rule depends on — changes by this
+ * split existing at all.
  */
 import type { Paper } from './types.ts'
-import { paperFromJson } from './from-json.ts'
-import { PAPER as EOY_2025 } from './101-eoy-2025.ts'
-import { PAPER as EOY_2024 } from './101-eoy-2024.ts'
-import { PAPER as EOY_2022 } from './101-eoy-2022.ts'
-import { PAPER as EOY_2022_SECOND } from './101-eoy-2022-second.ts'
-import { PAPER as CASES_2025 } from './101-eoy-2025-cases.ts'
-import { PAPER as BAQOON_2024 } from './101-baqoon-2024.ts'
-import { PAPER as BAQOON_2023 } from './101-baqoon-2023.ts'
+import { REGISTRATIONS_Y1 } from './registry-y1.ts'
+import { REGISTRATIONS_Y2 } from './registry-y2.ts'
+import { REGISTRATIONS_Y3 } from './registry-y3.ts'
+import { REGISTRATIONS_Y4 } from './registry-y4.ts'
+import { REGISTRATIONS_Y5 } from './registry-y5.ts'
 
 /**
  * A paper, registered against its module and **not yet loaded**.
@@ -58,15 +62,11 @@ export interface Registration {
 }
 
 export const REGISTRATIONS: Registration[] = [
-  { module: '101 ISK', load: () => EOY_2025 },
-  { module: '101 ISK', load: () => EOY_2024 },
-  { module: '101 ISK', load: () => EOY_2022 },
-  { module: '101 ISK', load: () => EOY_2022_SECOND },
-  { module: '101 ISK', load: () => BAQOON_2024 },
-  { module: '101 ISK', load: () => BAQOON_2023 },
-  { module: '101 ISK', load: () => CASES_2025 },
-  { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/eoy-2025-199.json') },
-  { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/eoy-2024-198.json') },
+  ...REGISTRATIONS_Y1,
+  ...REGISTRATIONS_Y2,
+  ...REGISTRATIONS_Y3,
+  ...REGISTRATIONS_Y4,
+  ...REGISTRATIONS_Y5,
 ]
 
 /**
