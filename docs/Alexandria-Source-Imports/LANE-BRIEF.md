@@ -435,3 +435,23 @@ Proven by simulate (Kasr Y1): the concept importer defaults a blank `label` to `
 import**. The validator refuses label-less rows (`d82dd36`) and the importer fix is queued, but
 the rule stands regardless: every sparse update row restates the Kasr label verbatim.
 `## canonical_key` does not substitute for it.
+
+## 21 · Lessons from the first three landed lanes (2026-08-23) — binding
+- **Questions that test a HIT-PENDING (Kasr) concept are authored NOW, not deferred.** Validate
+  with `medical:batch --with` the Kasr concept file AND the Kasr article file; prove the merge
+  with `medical:simulate <Kasr concept file> <Kasr article file> <your file>` (plain arguments,
+  targets first — simulate has no `--with`). File them in `pending-live/<slug>-questions.md`
+  with the same apply-after line. A bank with its questions deferred is not publishable.
+- **`pending-live/INDEX.md` is append-only.** One lane overwrote it wholesale and dropped three
+  lanes' rows. Append your row with an Edit at the end; never rewrite the file. The orchestrator
+  rebuilds every folder `INDEX.md` at the end — lanes do not create folder INDEX files.
+- Concepts have **no `years` column** (`unknown column "years"`); the year lives in
+  `learner_years` (numeric). Concepts have no `university_notes` either (article-only) — use
+  `field_notes`. Check the column table in your manual before inventing a `+years` line.
+- Placement on the discipline view is the **topic** node (`DIS-BIO-T01`), not the subtopic —
+  the subtopic "Core principles" nodes are filtered as redundant facets.
+- `related_articles` is a prose-list column: `[clear]` there is stored as a literal broken
+  reference. Write real content or omit the key with a `field_notes` reason.
+- Context hygiene (Omar): one task, one report ≤20 lines, then the lane ends; 16 concurrent
+  lanes is the ceiling; the orchestrator keeps `HANDOFF.md` current so a fresh session can
+  resume from files alone.

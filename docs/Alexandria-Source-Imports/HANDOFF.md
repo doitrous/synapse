@@ -1,0 +1,63 @@
+# HANDOFF — Alexandria University lane (orchestrator)
+
+Last written 2026-08-23 ~00:50 Cairo. Branch `claude/alexandria-university-content-000583`
+(worktree `.claude/worktrees/alexandria-university-content-000583`). Nothing pushed; main merged
+through `d82dd36` / `0e08ac1` / `ed87a85`. Files are the memory: resume from this file +
+`LANE-BRIEF.md` (§1–§21) + `Instruction Manual for Content Creation/00-START-HERE.md` + `13-orchestration.md`.
+
+## Chain of command
+Report only to the session named `synapse-chief-of-staff-…` ("Chief of staff — content lanes");
+deltas only (hash, number, blocker). Omar's orders in force: Year 1 only until publishable (§17);
+question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (§21).
+
+## Committed so far (all on the branch)
+| Hash | What |
+|---|---|
+| f83c7fe | 23 AU modules, `AU-<CODE>` ids, `docs/import-ready/academic/au-modules.md`, `AU_MODULES` |
+| ed7c8f0 / 2a168bc | manifest: 3,502 sources, twins, content twins, stream/cohort signals; OCR complete |
+| 25b0484 / 1bcf357 / 69c79c6 | `scripts/alexandria/extract/pagetext.py` + cache guard; intake textcache separated |
+| c722ea3 / 8b244cd | 13 triages consolidated (`coverage/00-wave1-triage-checkpoint.md`), publish plan (`coverage/00-publish-plan-year1.md`), wave-1 decisions |
+| 1c2fdf6 | AU-MED-102 Anatomy: 3 new concepts, 3 articles, evidence, 3 MCQs (gate lines in body) |
+| 194420e | AU-MED-102 Histology + Physiology: 25 concepts, 5 articles, evidence, 21 MCQs |
+| 76cc236 | AU-MED-102 Biochemistry sub-lane A: CHO chemistry 14 concepts, 1 article, 12 MCQs; 13 resources |
+
+## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
+## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
+Running Steps 2–4 (orders: `LANE-ORDERS-PHASE1.md` + lane rulings in `coverage/00-publish-plan-year1.md` § Corrections):
+102-ANAT (pending-live label fix + 126 questions) · 102-EMBR · 102-TERM (glossary-first; cut by a
+server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymology remain) ·
+102-BIOC-B metabolism · 102-BIOC-C nitrogen/blood · 102-BIOC-D molecular · 103-BIOC ·
+103-HIST (owns the boundary questions) · 103-PHYS (textbook resource) · 105-ANAT (keys by eye) ·
+105-HIST. Need a FRESH sitting (transcript lost): 105-PHYS (cardiac ideas under cvs), 106-ANAT and
+106-PHYS (both re-triage against the Telegram practical CVS bank first), F1 fetch (second sitting,
+≤20 min, continue from `coverage/00-telegram-fetch-log.md`).
+Done: 102-HIST+PHYS (194420e). F1 first sitting landed one MED 106 practical CVS bank; found the
+"ASM Minds" cohort channels (paid-content brands with occasional free gifts).
+
+## Uncommitted lane output on disk
+`git status` shows concept/, article/, evidence/, question/, glossary/, pending-live/ files from
+the lanes above. Commit per lane when its report lands, gates re-run first, gate lines in the body,
+question-backed records separate from everything else.
+
+## Next steps, in order
+1. Per lane report: re-run gates (batch per file; simulate of its own files; audit filtered to its
+   ids; pending-live with the Kasr targets as plain simulate args), commit, report the hash.
+2. When F1 stops: "browser free" + landed/not-landed to the chief of staff; re-run
+   `scripts/alexandria/intake/{inventory,probe,classify,manifest,index}.py` so Telegram files get
+   sourceIds; tell the 106 lanes the ids.
+3. Rebuild `INDEX.md` in every import folder (orchestrator only) with Omar's order: academic →
+   Kasr Y1 files named in pending-live/INDEX.md → resources → articles → concepts → evidence →
+   questions → pending-live last.
+4. Publishable check per module (§17); report per module.
+5. Years 2–3 frozen until "RESUME".
+
+## Open asks of Omar
+Alexandria Telegram channel links / joins (ASM Minds); zero orientation documents for any module;
+the list of Kasr Y1 batches already applied in production; `medical:snapshot-live`.
+
+## Exact resume message for a fresh orchestrator session
+"You are the Alexandria University orchestrator. Read docs/Alexandria-Source-Imports/HANDOFF.md,
+LANE-BRIEF.md, Instruction Manual for Content Creation/00-START-HERE.md and 13-orchestration.md.
+Check `git log --oneline -20` and `git status`; commit any lane output whose report is in
+CLAIMS.md Done after re-running its gates; resume or restart the lanes listed in HANDOFF.md from
+their triage files; report deltas to the chief-of-staff session."
