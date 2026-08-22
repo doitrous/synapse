@@ -473,3 +473,15 @@ When a bank's printed key follows an older convention than the Kasr concept (fir
 in one sentence ("this bank uses the classical P/O ratios; modern texts give 30–32"). Never
 write a sparse update to the Kasr concept's definition — prose fields replace, and the record
 is Kasr's (Kasr Y1 amends it to state both). Record every clash in the module's coverage ledger.
+
+## 24 · Per-university tags on every record (Omar, via the chief of staff)
+Every record Alexandria creates or overlays onto a Kasr id carries, for Alexandria:
+`+au` in `universities`; the AU year (in whatever column the kind actually has — concepts use
+`learner_years`, not `years`); `+AU-MED-xxx` in `modules`/`module`; an Alexandria
+`module_subject` path (coexistence on a shared record is being verified in the importer —
+until the audit lane reports, do NOT write `module_subject` on an overlay row);
+`exam_weight_by_year` with an `AU_Yn=…` key for each AU year it is examined in; and one
+`university_notes` line `au: <paper/bank, page>` naming the Alexandria source (on kinds that
+have the column; concepts carry it in `field_notes` as `universityNotes: au: …`).
+`scripts/alexandria/check-tags.mjs` reports per module which of the six each record carries;
+its output is part of every lane's GATES.
