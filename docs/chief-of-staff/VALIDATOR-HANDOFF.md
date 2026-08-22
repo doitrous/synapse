@@ -37,7 +37,7 @@ Content batches only when a shared gate is blocking every lane.
 | `dcc6929` | Practical completeness per format |
 | `2d3c6c6` | Authoring fields asked of creates only; `103-BMS-OWED.md` correction |
 | `3f4ea7a` | This handoff |
-| `PENDING_G` | Blank `label` no longer blanks a live concept's label on import |
+| `c255322` | Blank `label` no longer blanks a live concept's label on import |
 
 ---
 
