@@ -772,3 +772,50 @@ test('a sparse update on a resolvable id is not asked for the authoring fields',
     rmSync(root, { recursive: true, force: true })
   }
 })
+
+/* ---- a record's universities, years and modules must agree ---------------- */
+
+test('a year or module belonging to an unnamed university is refused', () => {
+  // A shared record has to be traceable per university and per year, and
+  // nothing checked the two agreed: a question naming `kau` and `AU_Y1` claimed
+  // to be Kasr content sat in an Alexandria year. It matters beyond tidiness —
+  // blueprint.ts restricts a concept to exactly the year ids in
+  // exam_weight_by_year once any exist, so a key on the wrong year hides the
+  // record from that university entirely.
+  const root = mkdtempSync(join(tmpdir(), 'scope-agree-'))
+  mkdirSync(join(root, 'question'))
+  const q = (name: string, extra: string[]) => {
+    const body = ['# Item', '## id', `QM-S-${name}`, '## title', 'T', '## subject', 'msk',
+      '## format', 'single best answer', '## question', 'Which?', '## correct_answer', 'a',
+      '## answer_a', 'A', '## answer_b', 'B', ...extra, ''].join('\n')
+    writeFileSync(join(root, 'question', `${name}.md`), body)
+    return validate(join(root, 'question', `${name}.md`)).errors
+      .filter((error) => /belongs to|no entry in years|not a year of any/.test(error))
+  }
+
+  try {
+    assert.deepEqual(q('ok', ['## universities', 'kau', '## years', 'KAU_Y1']), [], 'a matching pair is clean')
+
+    assert.match(q('foreign', ['## universities', 'kau', '## years', 'AU_Y1'])[0] ?? '',
+      /AU_Y1, which belongs to au/, 'a year of an unnamed university is refused')
+
+    assert.match(q('weight', ['## universities', 'kau', '## years', 'KAU_Y1',
+      '## exam_weight_by_year', 'AU_Y1=0.5'])[0] ?? '',
+    /exam_weight_by_year is keyed by AU_Y1/, 'an exam weight on a foreign year is refused')
+
+    assert.match(q('mod', ['## universities', 'au', '## years', 'AU_Y1', '## module', '101 ISK'])[0] ?? '',
+      /module 101 ISK belongs to kau/, "a module the catalogue places elsewhere is refused")
+
+    // The label form names no university, so it satisfies any named one. 2,469
+    // values in the repository are written this way and failing them would turn
+    // 41 files red for a convention nobody has ruled on.
+    assert.deepEqual(q('label', ['## universities', 'kau', '## years', 'Year 1']), [],
+      'a bare year label is not a contradiction')
+
+    // Same id, lower case — 114 of them. Resolution, not pattern-matching.
+    assert.deepEqual(q('case', ['## universities', 'kau', '## years', 'kau_y3']), [],
+      'a lower-case year id is the same year')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
