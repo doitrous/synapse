@@ -1342,3 +1342,1645 @@ lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
 publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-HIP-JOINT-STRUCTURE
+
+## title
+The hip joint: articular surfaces, capsule, ligaments and blood supply
+
+## arabic_title
+مفصل الورك: السطوح المفصلية والمحفظة والأربطة والتروية الدموية
+
+## aliases
+Hip joint osteology
+Acetabulum
+Ligaments of the hip joint
+Blood supply of the hip joint
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Joints of the lower limb
+
+## microtopic
+The Hip joint
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M01
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The hip is a synovial, ball-and-socket joint between the head of the femur and the acetabulum of the hip bone. The acetabulum is not uniformly articular: a horseshoe-shaped lunate surface carries the joint, while a rough, non-articular acetabular fossa sits at its centre and is completed inferiorly by the acetabular notch. A strong fibrous capsule and three named ligaments — iliofemoral, pubofemoral and ischiofemoral — make it one of the most stable joints in the body, and the ligamentum teres, running from that acetabular notch to a pit on the femoral head, carries one small but clinically important artery. This article is the osteology, capsule, ligaments and blood supply the 2025 hip-movements article does not cover; the two are meant to be read together.
+
+## sections
+### Overview and position
+The hip joint is a synovial, polyaxial joint of the ball-and-socket variety. Its two articulating bones are the head of the femur, the ball, and the acetabulum of the hip bone, the cup-like socket. It sits at the root of the lower limb, transmitting the weight of the trunk to the femur in standing and connecting the femoral triangle in front to the gluteal region behind.
+
+### Structure
+The acetabulum is not a uniformly articular cup. Its outer rim carries a smooth, horseshoe-shaped area, the lunate articular surface, which is the part that actually articulates with the head of the femur. At the centre of the socket, inside the horseshoe, lies the acetabular fossa — a rough, non-articular depression. The horseshoe is interrupted at its lower margin by the acetabular notch. The femoral head itself carries a matching rough area, the fovea, at the point where the ligament of the head attaches; the rest of the head is smooth and articular.
+
+The fibrous capsule is a strong sleeve surrounding the joint completely, attached to the margins of both articulating bones. In front it reaches as far as the intertrochanteric line of the femur; behind it stops short of the intertrochanteric crest, part way up the femoral neck, which is why the posterior surface of the neck is partly extracapsular. Fibres running from the capsule along the neck toward the head are called retinacula; they matter because they carry blood supply to the head and neck of the femur, and in a fractured neck of femur they help keep the fragments in position.
+
+The capsule is reinforced by three extracapsular ligaments. The iliofemoral ligament is an inverted-Y band whose stem attaches to the anterior inferior iliac spine and whose two limbs attach to the two ends of the intertrochanteric line; it is the strongest ligament of the joint, reinforces the capsule anteriorly, and limits over-extension. The pubofemoral ligament is a triangular band from the superior pubic ramus and the ilio-pubic eminence, blending with the medial part of the capsule, and it limits over-abduction. The ischiofemoral ligament attaches to the body of the ischium below the acetabulum, blends with the back of the capsule, supports it posteriorly, and limits excessive medial rotation.
+
+Two further structures lie inside the joint. The round ligament of the head of femur, the ligamentum teres, is a weak triangular band whose apex attaches to the fovea on the femoral head and whose base attaches to both sides of the acetabular notch and to the transverse acetabular ligament; its function is to carry the artery of the ligament of the head to the femoral head. The transverse acetabular ligament itself bridges the two ends of the acetabular notch, converting it into a foramen through which vessels and nerves reach the joint. The labrum acetabulare is a fibrocartilaginous rim attached around the margin of the acetabulum, blending with the transverse ligament, that deepens the socket.
+
+### Relations
+The capsule's anterior attachment on the femur is the intertrochanteric line, running the full distance between the greater and lesser trochanters. Posteriorly the capsule attaches to the middle of the back of the neck, well short of the intertrochanteric crest, leaving the lateral part of the neck outside the capsule. This asymmetry is why a fracture of the femoral neck can be either intracapsular or extracapsular depending on exactly where it occurs, with different implications for the blood supply to the head.
+
+### Blood supply, innervation and lymphatics
+Three sources supply the joint: the gluteal, circumflex and obturator arteries. The medial circumflex femoral artery, a branch of the profunda femoris, gives an acetabular branch that reaches the joint through the acetabular foramen — the foramen the transverse acetabular ligament creates out of the acetabular notch. The same medial circumflex artery also gives an ascending branch to the trochanteric anastomosis and a transverse branch to the cruciate anastomosis, both of which contribute to the ring of vessels around the upper femur that supplies the retinacular arteries running up the neck in the capsule's own fibres. The artery of the ligament of the head, a separate small vessel carried in the ligamentum teres, supplies only a limited area around the fovea and is a comparatively minor contributor in the adult, whose head depends chiefly on the retinacular vessels.
+
+Nerve supply comes from four sources: branches of the femoral nerve (specifically the nerve to rectus femoris), the anterior division of the obturator nerve, the sciatic nerve, and the nerve to quadratus femoris. Because the femoral and obturator nerves also supply the knee joint, disease of the hip can present as pain referred to the knee — a trap in a limping child with normal knee findings.
+
+### Development
+The department book's chapter on limb development treats the lower limb as a whole rather than joint by joint. It records that by the sixth week of development, joints form by an arrest of chondrogenesis at the site of the future joint, and the surrounding mesenchymal cells differentiate into a joint capsule — the general process by which the hip's own capsule and cavity are formed. No age-specific description of acetabular or femoral head development beyond this general statement is given.
+
+### Surface and imaging anatomy
+The department book gives no dedicated surface marking for the hip joint itself; the femoral artery's surface line, from the mid-inguinal point, passes just in front of it. No radiographic appearance is described in the source, and none is asserted here.
+
+### Clinical correlations
+The book records the hip as a very stable joint, and gives three reasons: a bony factor, the femoral head fitting well into a deep acetabular socket; a ligamentous factor, the strong capsule and its ligaments, especially the iliofemoral; and a muscular factor, the many strong muscles that surround it. Two groups of clinical points follow directly from the structure above. Fracture of the neck of femur is very common in old age, especially in women, because of osteoporosis, and whether it threatens the blood supply to the head depends on where along the neck it occurs relative to the capsule's posterior attachment and the retinacular vessels it carries. Dislocation of the hip joint may be congenital or traumatic; traumatic posterior dislocation occurs typically in car accidents and may injure the sciatic nerve, which lies immediately posterior to the joint.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The acetabulum's articular surface is the horseshoe-shaped lunate surface only; the central acetabular fossa is rough and non-articular.
+Three extracapsular ligaments: iliofemoral (strongest, limits over-extension), pubofemoral (limits over-abduction), ischiofemoral (limits over-medial-rotation).
+The transverse acetabular ligament converts the acetabular notch into the acetabular foramen, through which the acetabular branch of the medial circumflex femoral artery reaches the joint.
+The capsule's posterior femoral attachment stops at the middle of the neck, well short of the intertrochanteric crest — the anatomical basis for intracapsular versus extracapsular neck-of-femur fractures.
+
+## lose_the_mark
+Calling the whole acetabulum articular. Only the lunate surface is; the acetabular fossa at the centre is rough and non-articular.
+Naming the artery of the ligament of the head as the main supply of the adult femoral head. In the adult it is a minor contributor; the retinacular vessels, fed by the medial and lateral circumflex femoral arteries, carry the main supply.
+Forgetting that the capsule's posterior attachment does not reach the intertrochanteric crest, and answering every neck-of-femur fracture as though it were intracapsular.
+
+## related_concepts
+CON-MSK-959D95DCE2E022 | CON-MSK-78379D5B8914BC
+
+## related_articles
+ART-103-ANA-HIP-JOINT-MOVEMENTS: the movements and the muscles that produce them, taught separately from this article's osteology and blood supply
+ART-103-ANA-ADDUCTOR-CANAL: the medial circumflex femoral artery that gives the acetabular branch here also supplies the adductor canal's neighbouring structures
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Joints of the lower limb > The Hip joint
+
+## university_notes
+kau: Kasr Al Ainy's department book states the hip's arterial supply only as "from gluteal, circumflex and obturator arteries" (p81) without ranking their relative contribution; the more specific statement that the acetabular branch is a minor contributor to the joint itself, distinct from the femoral head, follows from the branch being named for the acetabulum rather than the head.
+
+## annotations
+
+## media
+
+## media_recommendations
+### anatomy plate · The acetabulum's articular and non-articular zones
+Purpose: Teaches CON-MSK-959D95DCE2E022. A student reading "lunate surface" and "acetabular fossa" as two names in a sentence cannot tell that one is a horseshoe around the other without seeing the socket face-on; the distinction is spatial and prose alone cannot carry it.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · The medial circumflex femoral artery's acetabular, ascending and transverse branches
+Purpose: Teaches CON-MSK-78379D5B8914BC. The acetabular branch is one of three from the same parent vessel and is easy to confuse with the ascending or transverse branch when only named in a list; a labelled diagram of the trochanteric and cruciate anastomoses shows where each one actually goes.
+Priority: strongly helpful
+Status: needed
+Section: Blood supply, innervation and lymphatics
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 76 to 81, for the joint's type, articulating bones, capsule, ligaments, ligamentum teres, transverse acetabular ligament, labrum, stability, nerve and arterial supply, and clinical points.
+The same book, page 20, for the acetabular, ascending and transverse branches of the medial circumflex femoral artery.
+The same book, page 115, for the general statement on joint formation by the sixth week, cited under Development.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, which is outside this batch's scope of file ownership (concept/ and article/ only). This article will fail `medical:audit`'s `articleData.spanIds missing` check for that reason — reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the gap `coverage/101-ISK-untaught-concepts.md` reported: CON-MSK-959D95DCE2E022 (acetabular articular surface) and CON-MSK-78379D5B8914BC (acetabular branch of medial circumflex) were named by no article in either direction. Both now carry this article in their `article_ids`, and both are named here in `related_concepts`.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading rather than left as a gap.
+nanotopicId: The microtopic "The Hip joint" is already the most precise node the department book's own chapter structure supports.
+questionIds: No question yet tests this article's content specifically (the paper's only hip question, on movements, is taught by ART-103-ANA-HIP-JOINT-MOVEMENTS).
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+calloutEvidence: Not written for this article — every teaching point in hold_these/lose_the_mark would need a claim and citation that do not yet exist, and inventing the callout block without them would be the same gap in a different field.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+conflicts: The department book is the only source used and no disagreement was found within it.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-DORSUM-AND-SOLE-OF-FOOT
+
+## title
+The dorsum and sole of the foot
+
+## arabic_title
+ظهر القدم وأخمصها
+
+## aliases
+Extensor digitorum brevis
+Dorsalis pedis artery
+Plantar aponeurosis
+Plantar nerves and arteries
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Foot
+
+## microtopic
+The Dorsum of the Foot
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M06
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The foot has one muscle on its dorsum, extensor digitorum brevis, and the dorsalis pedis artery running superficially across it before diving into the sole. The sole itself is protected by the plantar aponeurosis and supplied by the medial and lateral plantar nerves and arteries, the terminal branches of the tibial nerve and posterior tibial artery, which together carry the whole motor and sensory territory of the sole and end by anastomosing with the dorsal vessels at the first interosseous space — closing the circuit between the two surfaces of the foot.
+
+## sections
+### Overview and position
+The department book divides the foot into two regions, the dorsum and the sole, and this article follows that division. The dorsum carries one intrinsic muscle and the termination of the anterior tibial artery as dorsalis pedis; the sole carries the plantar aponeurosis and the two terminal branches each of the tibial nerve and the posterior tibial artery.
+
+### Structure
+Extensor digitorum brevis is the only muscle on the dorsum of the foot, lying immediately in front of the lateral malleolus. It arises from the dorsal surface of the calcaneus and breaks into four tendons to the medial four toes: the first, extensor hallucis brevis, inserts into the base of the proximal phalanx of the big toe, and the other three join the lateral side of the corresponding extensor digitorum longus expansions. It is supplied by the lateral terminal branch of the anterior tibial (deep peroneal) nerve and extends the metatarsophalangeal and interphalangeal joints.
+
+The dorsalis pedis artery begins as the continuation of the anterior tibial artery in front of the ankle joint, midway between the two malleoli — where its pulse is easily felt — and runs forward on the dorsum lying superficial throughout its course. It ends at the first interosseous space by passing between the two heads of the first dorsal interosseous muscle to reach the sole and anastomose with the plantar arch. Its branches are the medial and lateral tarsal arteries, which join the anastomosis around the ankle; the arcuate artery, the longest, which gives the second, third and fourth dorsal metatarsal arteries to the lateral three and a half toes; the first dorsal metatarsal artery, arising on the dorsum; and the first plantar metatarsal artery, arising in the sole.
+
+The deep fascia of the sole thickens centrally into the plantar aponeurosis, formed of three parts. The thick central part is triangular, attached by its apex to the medial tubercle of the calcaneus, and its base splits into five slips at the metatarsal heads that fuse with the fibrous flexor sheaths of the toes. A thin medial part covers abductor hallucis and a thin lateral part covers abductor digiti minimi. The aponeurosis protects the nerves and vessels of the sole and helps maintain both the medial and lateral longitudinal arches.
+
+The medial and lateral plantar nerves are the two terminal branches of the tibial nerve, beginning deep to the flexor retinaculum. The medial plantar nerve, the larger, runs between abductor hallucis and flexor digitorum brevis, lateral to the medial plantar vessels, and ends at the base of the first metatarsal by dividing into three plantar digital nerves; it supplies abductor hallucis, flexor hallucis brevis, flexor digitorum brevis and the first lumbrical, the skin of the medial two-thirds of the sole and the plantar surface of the medial three and a half toes, and articular branches to the tarsal and metatarsal joints. The lateral plantar nerve, the smaller, runs forward and laterally between the first and second layers of the sole to the base of the fifth metatarsal, accompanied by the lateral plantar artery, then divides into a superficial division to the lateral one and a half toes and a deep division that curves medially between the third and fourth layers to supply most of the remaining muscles of the sole — fourteen in total, including abductor digiti minimi, flexor digitorum accessorius, the lateral three lumbricals, flexor digiti minimi brevis, adductor hallucis and all seven interossei.
+
+The medial and lateral plantar arteries are the two terminal branches of the posterior tibial artery, also lying deep to the flexor retinaculum. The medial plantar artery, the smaller, runs between abductor hallucis and flexor digitorum brevis and gives muscular and digital branches to the medial one and a half toes before joining the first plantar metatarsal branch of dorsalis pedis. The lateral plantar artery, the larger, runs forward and laterally between the first and second layers to the base of the fifth metatarsal with the lateral plantar nerve medial to it, then curves deep and medially between the third and fourth layers to form the plantar arch, which ends by joining the dorsalis pedis artery at the first interosseous space. The arch gives three plantar metatarsal arteries to the lateral three interosseous spaces, each supplying plantar digital arteries to the clefts between the lateral four toes; a plantar digital artery for the lateral side of the little toe; and three perforating arteries that join the lateral three dorsal metatarsal arteries from the arcuate artery.
+
+### Relations
+Dorsalis pedis lies superficial throughout its course on the dorsum, palpable at the point midway between the two malleoli and traceable along a line to the first metatarsal space. In the sole, the medial and lateral plantar nerves run alongside their matching arteries — the lateral plantar nerve medial to the lateral plantar artery — and both neurovascular bundles lie deep to the flexor retinaculum proximally and travel between the muscle layers of the sole distally.
+
+### Blood supply, innervation and lymphatics
+The dorsum is supplied by dorsalis pedis, itself the continuation of the anterior tibial artery, and extensor digitorum brevis by the anterior tibial (deep peroneal) nerve. The sole is supplied by the medial and lateral plantar arteries from the posterior tibial artery, and innervated by the medial and lateral plantar nerves from the tibial nerve — a clean division that mirrors the anterior and posterior tibial vessels' own division between the two aspects of the leg. No lymphatic detail specific to these two regions is given beyond the general lower-limb lymphatic drainage described elsewhere in the book.
+
+### Development
+The department book's chapter on limb development treats the lower limb bud as a whole. It records that fingers and toes are formed when cell death in the apical ectodermal ridge separates that ridge into five parts, which then grow to form the digits — the general process by which the toes these muscles and vessels serve are themselves formed.
+
+### Surface and imaging anatomy
+Dorsalis pedis is represented by a line from a proximal point midway between the two malleoli to a distal point at the first metatarsal space, and its pulse at that proximal point is one of the standard peripheral pulses checked on limb examination. No other surface marking or imaging appearance for this region is given in the department book.
+
+### Clinical correlations
+The book records plantar fasciitis as a clinical point on the plantar aponeurosis: pain in the sole of the foot from long-standing or long-walking irritation of the aponeurosis. Because dorsalis pedis and the plantar arch anastomose at the first interosseous space, a weak or absent dorsalis pedis pulse does not by itself prove arterial disease — the plantar arch's perforating branches can supply the dorsum in the reverse direction, the same point already made for the posterior tibial artery's own account of the same anastomosis.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Extensor digitorum brevis is the only intrinsic muscle of the dorsum, supplied by the anterior tibial (deep peroneal) nerve, not the superficial peroneal nerve that supplies the skin over the same region.
+Dorsalis pedis begins midway between the two malleoli, runs superficial throughout the dorsum, and ends by diving into the sole at the first interosseous space to join the plantar arch.
+The medial plantar nerve and artery are the smaller pair, supplying the medial three and a half toes; the lateral plantar nerve and artery are the larger pair, supplying the lateral one and a half toes and most of the sole's own muscles.
+The plantar arch, formed by the lateral plantar artery, closes the circuit with dorsalis pedis at the first interosseous space — the same anastomotic logic as the anterior and posterior tibial arteries elsewhere in the limb.
+
+## lose_the_mark
+Assuming the medial plantar nerve is the larger territory because "medial" sounds like the dominant side. It is the lateral plantar nerve that supplies the greater number of muscles — fourteen against the medial nerve's four.
+Describing dorsalis pedis as ending at the ankle. It continues onto the dorsum and only ends in the first interosseous space, where it becomes part of the plantar arch.
+Treating an absent dorsalis pedis pulse as proof of arterial occlusion without considering the plantar arch's perforating anastomosis.
+
+## related_concepts
+CON-MSK-F656F96F575FFB | CON-MSK-71EEF2E5A3E88A | CON-DER-ABE5E8004B7E22 | CON-DER-337EE48D1D8BDA
+
+## related_articles
+ART-103-ANA-POSTERIOR-TIBIAL-ARTERY: the posterior tibial artery whose two terminal branches, the plantar arteries, are taught in full here
+ART-103-ANA-CUTANEOUS-AND-DERMATOMES: the medial and lateral plantar nerves' cutaneous territory, taught there as skin supply rather than full course and muscular branches
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Foot > The Dorsum of the Foot
+103 BMS > Anatomy > The Foot > The Sole of the Foot
+
+## university_notes
+kau: The department book's own ILOs for this chapter (p67) ask for the attachments, nerve supply and action of the dorsum's muscle, the layers of the sole's muscles, and the beginning, course, termination and branches of dorsalis pedis and the plantar nerves and arteries — this article follows that list directly.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · Dorsalis pedis and its branches, with the medial and lateral tarsal, arcuate and dorsal metatarsal arteries labelled
+Purpose: Teaches CON-MSK-71EEF2E5A3E88A and the branch list in Structure. The branches form a small anastomotic network at the base of the toes that a sentence-by-sentence description cannot make spatially clear.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · The four layers of the sole with the medial and lateral plantar neurovascular bundles
+Purpose: Teaches CON-DER-ABE5E8004B7E22 and CON-DER-337EE48D1D8BDA. The lateral plantar nerve's deep division "curves medially between the third and fourth layers" is unreadable as a spatial fact without seeing the layers it crosses.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 67 to 75, for extensor digitorum brevis, dorsalis pedis and its branches, the plantar aponeurosis, the plantar nerves and the plantar arteries in full.
+The same book, page 118, for digit formation from the apical ectodermal ridge, cited under Development.
+
+## evidence_gaps
+No claim or citation record exists yet for the extensor digitorum brevis, plantar aponeurosis, or the full course and muscular-branch content of the plantar nerves and arteries described here — only the cutaneous territory of the medial and lateral plantar nerves and the two dorsalis pedis facts already in `related_concepts` are claim-backed. Authoring the remaining claims requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Chapter 6, "The Foot," previously had no concept and no article in this module. Two of its four live-concept-eligible facts already existed as live concepts under a generic topic article (dorsalis pedis, under MSK; the plantar nerves' cutaneous territory, under DER); this article gives the chapter its own module-scoped teaching text and names the extensor digitorum brevis, plantar aponeurosis, and the plantar vessels' and nerves' full course and branches — none of which had a concept to attach to within this batch's scope.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading rather than left as a gap.
+nanotopicId: The book's own subheadings, "The Dorsum of the Foot" and "The Sole of the Foot," are already carried as `module_subject`; the canonical tree has nothing finer for either.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article as a whole; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason — authoring one requires a citation-bearing evidence file outside this batch's file ownership. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-CUTANEOUS-AND-DERMATOMES
+
+## title
+Cutaneous innervation and dermatomes of the lower limb
+
+## arabic_title
+التوزيع الجلدي العصبي والأمياط الجلدية للطرف السفلي
+
+## aliases
+Cutaneous nerves of the lower limb
+Dermatomes of the lower limb
+Segmental innervation of the skin
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+General Topics
+
+## microtopic
+Cutaneous Innervation of the Lower Limb
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Two different maps cover the same skin. The peripheral-nerve map names, region by region, which named cutaneous nerve supplies which patch — ilioinguinal and the genitofemoral, lateral and medial thigh nerves at the top, the lateral cutaneous nerve of the calf and its neighbours in the leg, the plantar nerves in the sole. The dermatomal map is unrelated to any of those names: it is the spinal-cord segment, L1 through S4, that each patch of skin ultimately traces back to. A clinician reads nerve injury from the first map and a spinal-cord level from the second, and the two disagree in shape wherever a peripheral nerve carries fibres from more than one segment.
+
+## sections
+### Overview and position
+The department book presents cutaneous innervation twice, by two different logics. First it lists the named peripheral nerves supplying each region — gluteal region and thigh, leg, and foot — the same nerves already met coursing through those regions in earlier chapters, now catalogued purely by the skin each one reaches. Second, separately, it gives the dermatomal map: the same skin, divided instead by which spinal-cord segment its sensory fibres arise from.
+
+### Structure
+In the gluteal region and thigh, the lumbar plexus contributes the ilioinguinal nerve (L1), to the upper medial thigh and adjoining external genitalia; the femoral branch of the genitofemoral nerve (L1, L2), to the upper front of the thigh; and the lateral cutaneous nerve of thigh (L2, L3), to the lateral thigh. The femoral nerve contributes three of its own: the medial cutaneous nerve of thigh, to the medial thigh; the intermediate cutaneous nerve of thigh, to the front of the thigh; and the saphenous nerve, to the lower medial thigh by its infrapatellar branch. The obturator nerve's anterior division supplies the skin of the lower medial thigh. The sacral plexus contributes the perforating branch (S3), to the gluteal region, and the posterior cutaneous nerve of thigh (S2), to the gluteal region and the back of the thigh.
+
+In the leg, the saphenous nerve continues onto the medial skin; the lateral cutaneous nerve of calf, from the common peroneal nerve, supplies the upper third of the anterolateral leg; the sural nerve, from the tibial nerve, supplies the lower back of the leg; the sural communicating nerve, from the common peroneal nerve, joins the sural nerve; the superficial peroneal nerve supplies the lower two-thirds of the anterolateral leg; and the posterior cutaneous nerve of thigh reaches the upper back of the leg.
+
+On the foot, the saphenous nerve reaches the medial side as far as the first metatarsophalangeal joint and the sural nerve the lateral side as far as the little toe. On the dorsum, the superficial peroneal nerve supplies most of the skin except the adjacent sides of the first and second toes, which the deep peroneal nerve supplies. On the sole, the medial plantar nerve supplies the medial part and the medial three and a half toes, and the lateral plantar nerve the lateral part and the lateral one and a half toes.
+
+The dermatomal map is unrelated in its logic. A dermatome is the skin area supplied by a spinal nerve arising from one segment of the spinal cord, and the lower limb's dermatomes arise from L1 to L5 and S1 to S4. On the front of the limb and the dorsum of the foot, from above down: L1 supplies the front, medial and lateral thigh below the inguinal ligament; L2 the same regions in the thigh's middle; L3 the same regions above the knee; L4 the medial front of leg and foot and the dorsum of the big toe; L5 the lateral front of leg and foot and the dorsum of the second to fourth toes; S1 the lateral leg and foot and the dorsum of the little toe. On the back of the limb and the sole, from below up: the sole is supplied by L4, L5 and S1, medial to lateral, mirroring the dorsum's own sequence; a long vertical strip in the middle of the back of the leg and thigh up to the gluteal region is S2; and the gluteal region itself is supplied by S3, the major area, and S4, a small area close to the sacrum.
+
+### Relations
+The two maps are drawn over the same skin but do not share boundaries: a single peripheral nerve, such as the saphenous, can carry fibres from more than one spinal segment, and a single dermatome can receive fibres travelling in more than one peripheral nerve. Neither map substitutes for the other in a clinical examination — a nerve lesion is read against the peripheral-nerve map, and a suspected cord or root lesion against the dermatomal map.
+
+### Blood supply, innervation and lymphatics
+This topic is itself the innervation of the skin; there is no separate blood supply or lymphatic drainage specific to it beyond the general venous and lymphatic drainage of the lower limb described elsewhere in this module.
+
+### Development
+The department book's limb development chapter records that limb musculature and the dermis of the skin are both derived from the dermomyotomes of the somites that migrate into the limb; because the limb bud lies opposite a particular run of spinal segments — the lower limb bud opposite the lower four lumbar and upper two sacral segments — the segmental (dermatomal) pattern of nerve supply is set by which somites the limb's tissue was derived from, which is also why a dermatome map for the lower limb runs L1 to S4 rather than any other range.
+
+### Surface and imaging anatomy
+No radiographic or imaging correlate applies to a cutaneous map; the department book gives none, and none is asserted here. The clinical use of both maps is bedside sensory testing rather than imaging.
+
+### Clinical correlations
+Because the femoral and obturator nerves supply both the hip joint and part of the thigh's skin, and because dermatomes and peripheral-nerve territories diverge, sensory testing after a suspected nerve or root lesion has to specify which map is being used: a deficit confined to one dermatome points to a root or cord level, while a deficit following one named nerve's own territory — crossing dermatome boundaries — points to a peripheral nerve lesion instead.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Two different maps, not one: named peripheral nerves group skin by which nerve reaches it; dermatomes group the same skin by which spinal segment it traces back to.
+The dorsum of the foot's dermatomes run, lateral to medial, S1-L5-L4; the sole's run the same order, L4-L5-S1 medial to lateral — the book states this explicitly as mirroring the dorsum's sequence.
+The gluteal region is dermatomally S3 (major area) and S4 (small area near the sacrum), which is not the same statement as which named nerve supplies the gluteal skin (the perforating branch of the sacral plexus and the posterior cutaneous nerve of thigh).
+A peripheral-nerve deficit crosses dermatome boundaries; a dermatomal (root/cord) deficit respects them and ignores which peripheral nerve carries the fibres.
+
+## lose_the_mark
+Treating "cutaneous nerve territory" and "dermatome" as two names for the same map. They are drawn by different logics and commonly disagree in shape.
+Naming the saphenous nerve as purely a thigh nerve. The book traces it from the femoral triangle through the leg to the medial side of the foot as far as the first metatarsophalangeal joint — a single named nerve spanning three regions.
+Confusing the sural communicating nerve (a branch the common peroneal contributes, joining the sural nerve) with the sural nerve itself (a branch of the tibial nerve) — the same trap the common peroneal nerve article's own case question tests.
+
+## related_concepts
+CON-DER-5D2999E827DC6B | CON-DER-A12AE15E4F43CD | CON-DER-6EB8AEB4918087 | CON-DER-D0C26711910B1B | CON-DER-66D9A148569084 | CON-DER-CA58978FF603CD | CON-DER-ABE5E8004B7E22 | CON-DER-337EE48D1D8BDA | CON-DER-99DD0425DC6B82 | CON-DER-24BABC4B205703 | CON-DER-4F4C6AB0F7EEB4 | CON-DER-4CB18B8F987419
+
+## related_articles
+ART-103-ANA-COMMON-PERONEAL-NERVE: the sural communicating nerve and lateral cutaneous nerve of calf as branches of the common peroneal nerve in the popliteal fossa, taught there by course rather than by territory
+ART-103-ANA-DORSUM-AND-SOLE-OF-FOOT: the medial and lateral plantar nerves' full course and muscular branches, taught there rather than here, where only their cutaneous territory is covered
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > General Topics > Cutaneous Innervation of the Lower Limb
+103 BMS > Anatomy > General Topics > Segmental Innervation of Skin of Lower Limb
+103 BMS > Anatomy > General Topics > Dermatomal Cutaneous Supply
+
+## university_notes
+kau: Kasr Al Ainy's department book presents both maps as ILOs for the same chapter (p98): "List the cutaneous nerves of the lower limb... Outline the segmental innervation of the skin," so a Kasr answer is expected to keep the two maps distinct rather than merge them.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · Cutaneous nerve territories of the lower limb, anterior and posterior views
+Purpose: Teaches the eight cutaneous-territory concepts in Structure. The book itself prints this as a labelled figure (p99); a region-by-region list cannot substitute for seeing where one nerve's territory ends and the next begins.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · Dermatome map of the lower limb, anterior and posterior views
+Purpose: Teaches CON-DER-24BABC4B205703, CON-DER-4F4C6AB0F7EEB4 and CON-DER-4CB18B8F987419. The department book itself is a labelled dermatome figure (p101); the level-by-level prose list is exactly the kind of spatial content the manual's own template flags as needing a diagram rather than more prose.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 98 to 102, for both the peripheral-nerve cutaneous map and the dermatomal map in full.
+The same book, page 113, for the dermomyotome origin of limb dermis and musculature, cited under Development.
+
+## evidence_gaps
+The saphenous nerve, sural nerve, sural communicating nerve, superficial peroneal nerve, posterior cutaneous nerve of thigh, obturator nerve's cutaneous branch and the sacral plexus's perforating branch are taught here as cutaneous territories but carry no live concept of their own — only the eight territories and four dermatome facts in `related_concepts` are claim-backed. Authoring the remaining claims and minting the remaining concepts requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Chapter 8, "General Topics," previously had no concept and no article in this module. Twelve live concepts already existed under generic DER-subject topic articles (eight cutaneous territories, four dermatome facts); this article gives them a second, module-scoped home and adds, as prose, the several named nerves the department book lists that have no live concept yet. Arches of the foot, the mechanism of walking and the transmission of body weight — the chapter's other three headings — are not covered here; see the batch report for why.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading rather than left as a gap.
+nanotopicId: The book's own subheading, "Cutaneous Innervation of the Lower Limb," is already carried as `module_subject`; the canonical tree has nothing finer.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article as a whole; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason — authoring one requires a citation-bearing evidence file outside this batch's file ownership. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-HAMSTRINGS
+
+## title
+The hamstring muscles of the back of the thigh
+
+## arabic_title
+عضلات أوتار الركبة الخلفية للفخذ
+
+## aliases
+Biceps femoris
+Semitendinosus
+Semimembranosus
+Muscles of the back of thigh
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Muscles of the Back of Thigh
+
+## microtopic
+Hamstring muscles
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Three muscles cross both the hip and the knee on the back of the thigh, flexing the knee and extending the hip together: biceps femoris, semitendinosus and semimembranosus. All three share the ischial tuberosity as their origin, with one exception — the short head of biceps femoris, which arises lower down from the linea aspera and is supplied by a different nerve to the rest of the group. That single exception is the whole teaching point of this short chapter, and it is also why a common peroneal nerve lesion, described elsewhere in this module, spares two and a half of the three hamstrings.
+
+## sections
+### Overview and position
+The hamstrings occupy the back of the thigh, between the gluteal region above and the popliteal fossa below. They are biceps femoris, semitendinosus and semimembranosus. As a group they share three features: all arise from the ischial tuberosity except the short head of biceps femoris; all are supplied by the sciatic nerve; and all flex the knee and extend the hip.
+
+### Structure
+Biceps femoris has two heads. The long head arises from the lower medial area of the upper quadrangular part of the ischial tuberosity, in common with semitendinosus, and is supplied by the tibial part of the sciatic nerve. The short head arises from the lateral lip of the linea aspera, the upper part of the lateral supracondylar line and the lateral intermuscular septum, and is supplied by the common peroneal part of the sciatic nerve — the two heads of one muscle, innervated by the two different parts of one nerve. The two heads unite into a common tendon inserting into the head of the fibula. Together they flex and laterally rotate the knee; the long head alone also extends the hip.
+
+Semitendinosus is named for being half tendon along its length. It arises with the long head of biceps femoris from the ischial tuberosity and inserts into the upper medial surface of the tibia, behind the insertions of sartorius and gracilis — the three together forming the "S.G.S." group. It belongs to the "guy-rope" muscles (with sartorius and gracilis) that steady the pelvis on the femur. It is supplied by the tibial part of the sciatic nerve and flexes and medially rotates the knee besides extending the hip and helping steady the pelvis.
+
+Semimembranosus is named for the wide membranous tendon that forms its upper part. It arises from the upper lateral area of the ischial tuberosity's quadrangular part and inserts into the groove on the back of the medial tibial condyle, the capsule of the knee joint, the popliteal fascia and the soleal line — four separate insertions from one muscle. It is supplied by the tibial part of the sciatic nerve and flexes and medially rotates the knee, and extends the thigh at the hip.
+
+### Relations
+All three hamstrings lie posterior to the femur, superficial to adductor magnus in the upper thigh, and converge toward the popliteal fossa distally, where biceps femoris forms the fossa's upper lateral boundary and semitendinosus and semimembranosus its upper medial boundary — the boundaries taught in this module's popliteal fossa article.
+
+### Blood supply, innervation and lymphatics
+All three are supplied by the sciatic nerve, but not uniformly: the long head of biceps, semitendinosus and semimembranosus are supplied by its tibial part, while the short head of biceps alone is supplied by its common peroneal part. This is the anatomical basis for a clinical distinction made elsewhere in this module — a lesion of the common peroneal nerve, after the sciatic has already divided, weakens only the short head of biceps among the hamstrings, leaving the other two and a half unaffected. No lymphatic detail specific to this muscle group is given in the department book beyond the general lower-limb lymphatic drainage described elsewhere.
+
+### Development
+The department book's limb development chapter records that limb musculature derives from the dermomyotomes of somites that migrate into the limb bud, initially segmented according to their somite of origin and later splitting into flexor and extensor components — the general process by which a flexor group like the hamstrings comes to exist as a distinct compartment on the back of the thigh.
+
+### Surface and imaging anatomy
+The department book gives no dedicated surface marking for the hamstrings as a group; their tendons are palpable behind the knee, converging on the popliteal fossa whose own surface anatomy is described in this module's popliteal fossa article. No radiographic appearance is given, and none is asserted here.
+
+### Clinical correlations
+Because the hamstrings extend the hip and flex the knee together, they act as a genuine two-joint muscle group whose testing (resisted knee flexion) is a standard part of a lower-limb neurological examination for sciatic nerve function. The short head of biceps femoris's separate nerve supply, from the common peroneal part of the sciatic nerve, is the detail that connects this chapter to the common peroneal nerve injury already taught elsewhere in this module: it is the one hamstring whose strength is reduced, not lost, by a common peroneal lesion, since it is supplied by a division of the sciatic that has already left the thigh as a distinct fascicle before the visible division in the popliteal fossa.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+All three hamstrings arise from the ischial tuberosity except the short head of biceps femoris, which arises from the linea aspera instead.
+The long head of biceps, semitendinosus and semimembranosus are supplied by the tibial part of the sciatic nerve; the short head of biceps alone is supplied by the common peroneal part.
+All three flex the knee and extend the hip; only biceps femoris (both heads together) also laterally rotates the knee, while semitendinosus and semimembranosus medially rotate it.
+Semitendinosus, sartorius and gracilis are the three "guy-rope" muscles that steady the pelvis on the femur, inserting together on the upper medial tibia.
+
+## lose_the_mark
+Naming the ischial tuberosity as the origin of all three hamstrings without exception. The short head of biceps femoris is the exception, and it is the exception the department book's own opening lines exist to flag.
+Treating "supplied by the sciatic nerve" as a single fact rather than checking which of its two parts. A common peroneal nerve lesion weakens only the short head of biceps among the three hamstrings.
+Forgetting that biceps femoris laterally rotates the flexed knee while the other two medially rotate it — opposite rotations from muscles in the same functional group.
+
+## related_concepts
+CON-MSK-3EE23956EE2DDB
+
+## related_articles
+ART-103-ANA-COMMON-PERONEAL-NERVE: the common peroneal part of the sciatic nerve that supplies only the short head of biceps femoris among the hamstrings, taught there by its own course and injury
+ART-103-ANA-SCIATIC-NERVE: the sciatic nerve's division into tibial and common peroneal parts, which this article's nerve-supply account depends on
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Muscles of the Back of Thigh > Hamstring muscles
+
+## university_notes
+kau: Kasr Al Ainy's department book teaches this short chapter, "Muscles of the Back of Thigh," as its own three-page unit distinct from the gluteal region before it and the popliteal fossa after it, so a Kasr answer is expected to treat the hamstrings as their own group rather than folded into either neighbouring chapter.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The hamstring group and the lateral rotators of the hip, posterior view
+Purpose: Teaches CON-MSK-3EE23956EE2DDB. The department book's own figure (p42) shows the three hamstrings alongside the six lateral rotators for orientation; the two heads of biceps femoris converging on one tendon, and the different level at which each arises, is a spatial fact prose alone leaves ambiguous.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 40 to 42, for the full chapter: the group's three shared features and each muscle's origin, insertion, nerve supply and action.
+The same book, page 113, for the somitic origin of limb musculature, cited under Development.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Chapter 3, "Muscles of the Back of Thigh," previously had no concept and no article in this module — the shortest chapter in the book (three pages) and the first of the five chapters this batch gives full first-time coverage.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The book's own section, "Hamstring muscles," is already carried as `module_subject`; the canonical tree has nothing finer, and the book gives the three individual muscles no separate subheadings of their own.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-KNEE-JOINT
+
+## title
+The knee joint: ligaments, menisci and the locking mechanism
+
+## arabic_title
+مفصل الركبة: الأربطة والهلالتان وآلية القفل
+
+## aliases
+Knee joint
+Menisci
+Cruciate ligaments
+Locking of the knee
+Unhappy triad
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Joints of the lower limb
+
+## microtopic
+The Knee Joint
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M03
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+11
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The knee is a modified hinge joint: mostly flexion and extension, but with a small amount of rotation that the joint uses on purpose. Four extracapsular ligaments and three intracapsular ones — the two cruciates and the transverse ligament — hold the femur, tibia and patella together, while two menisci deepen the tibia's flat surfaces to fit the femur's curved condyles. The rotation is not incidental: full extension automatically locks the knee into a rigid column for standing, using the anterior cruciate ligament and the femoral condyles' unequal lengths, and only popliteus can unlock it again at the start of flexion. A blow to the outer side of a planted knee can tear the tibial collateral ligament, the medial meniscus and the anterior cruciate ligament together — the "unhappy triad" — which is the clinical payoff of understanding how tightly these structures are bound to each other.
+
+## sections
+### Overview and position
+The knee joint is a synovial, modified-hinge joint — allowing flexion and extension like any hinge joint, plus a limited medial and lateral rotation the department book calls out as the "modified" part. Its articulating surfaces are the lower end of the femur, the upper end of the tibia, and the back of the patella. It sits between the thigh and the leg, receiving the hamstrings and quadriceps from above and giving rise to the deep fascia of the leg below.
+
+### Structure
+The fibrous capsule attaches to the margins of the articulating bones, and the synovial membrane lines the capsule and all intra-articular structures — including the two cruciate ligaments — except the bony articular surfaces themselves. Four extracapsular ligaments reinforce the capsule from outside: the patellar ligament, the downward continuation of the quadriceps tendon from the apex of the patella to the tibial tuberosity, forming part of the capsule's anterior wall; the fibular (lateral) collateral ligament, a cord from the lateral femoral epicondyle to the fibular head, kept separate from the lateral meniscus by the tendon of popliteus running between them; the tibial (medial) collateral ligament, a flattened band from the medial femoral epicondyle to the margin of the medial tibial condyle, firmly attached to the medial meniscus; and the oblique popliteal ligament, an expansion of semimembranosus's insertion tendon reinforcing the capsule posteriorly. Three ligaments lie inside the capsule: the anterior and posterior cruciate ligaments, and the transverse ligament of the knee, which connects the anterior horns of the two menisci and has no bony attachment of its own.
+
+Each meniscus is a curved plate of fibrocartilage on the upper surface of its matching tibial condyle, with a thick outer border and a very thin inner border, attached by an anterior and a posterior horn to the tibial intercondylar area. The medial meniscus is C-shaped and the larger of the two; its anterior horn attaches in front of the anterior cruciate ligament and its posterior horn behind the lateral meniscus's posterior horn and in front of the posterior cruciate ligament. It is firmly fixed to the tibial collateral ligament and the capsule, which makes it less mobile — and, because a less mobile structure is more easily trapped between moving bones, more liable to injury. The lateral meniscus is smaller and circular; its two horns lie close together, the anterior just in front of the lateral intercondylar tubercle and the posterior just behind it. Separated from the capsule and the fibular collateral ligament by the tendon of popliteus, it is more mobile and therefore less liable to injury. Both menisci increase the concavity of the tibial condyles to fit the convex femoral condyles.
+
+The anterior cruciate ligament runs from the anterior tibial intercondylar area, between the anterior horns of the two menisci, upwards, backwards and laterally to the medial surface of the lateral femoral condyle; being stretched on extension, it prevents hyperextension and prevents anterior dislocation of the tibia during extension. The posterior cruciate ligament runs from the posterior tibial intercondylar area upwards, forwards and medially to the lateral surface of the medial femoral condyle; being stretched on flexion, it prevents posterior dislocation of the tibia during flexion.
+
+### Relations
+The capsule's anterior wall is completed by the patellar ligament; its posterior wall is reinforced by the oblique popliteal ligament. Popliteus's tendon runs inside the capsule, perforating its back to leave the joint accompanied by its own synovial sheath, and this same tendon is what separates each collateral ligament from its neighbouring meniscus — the anatomical reason the lateral meniscus moves more freely than the medial one.
+
+### Blood supply, innervation and lymphatics
+Nerve supply is from three genicular branches of the tibial nerve, three genicular branches of the common peroneal nerve, and branches from the femoral and obturator nerves — the same two nerves that supply the hip joint, which is why hip disease can present as knee pain. Arterial supply is from the anastomosis around the knee, formed by genicular branches of the femoral, popliteal and profunda femoris vessels described in this module's popliteal fossa article.
+
+### Development
+The department book's limb development chapter states that by the sixth week, joints form by an arrest of chondrogenesis at the future joint site, with the surrounding mesenchyme differentiating into a joint capsule — the general process by which the knee's own capsule, menisci and ligaments come to exist as separate structures rather than a single cartilage block.
+
+### Surface and imaging anatomy
+The patella and its ligament are palpable anteriorly, and the joint line itself can be felt medially and laterally with the knee flexed — the department book gives no more specific surface marking, and no radiographic appearance is described in the source; none is asserted here.
+
+### Clinical correlations
+Locking and unlocking, described in this module's companion article, are the knee's normal mechanical behaviour and depend directly on the structures named above — particularly the anterior cruciate ligament's tension near full extension. Injury is where the structure becomes clinically visible: genu valgum follows a hard blow to the lateral side of a knee with the foot planted, opening the joint medially and forcing the knee inwards; it can tear the tibial collateral ligament, and because that ligament is firmly attached to the medial meniscus, the same injury may tear the medial meniscus and the anterior cruciate ligament together — the combination the book calls the "unhappy triad." The lateral meniscus's greater mobility, from its separation by popliteus, is the anatomical reason it is spared far more often than the medial meniscus in this same mechanism of injury.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Four extracapsular ligaments (patellar, fibular collateral, tibial collateral, oblique popliteal) and three intracapsular ones (anterior and posterior cruciate, transverse).
+The medial meniscus is C-shaped, larger, firmly fixed to the tibial collateral ligament and capsule, and therefore less mobile and more often injured; the lateral meniscus is circular, smaller, separated from its collateral ligament by popliteus, and therefore more mobile and less often injured.
+The anterior cruciate ligament prevents hyperextension and anterior tibial dislocation; the posterior cruciate ligament prevents posterior tibial dislocation — each tightens at the opposite end of the movement range from the other.
+The "unhappy triad" — tibial collateral ligament, medial meniscus and anterior cruciate ligament — tears together because the tibial collateral ligament is firmly attached to the medial meniscus, not because the three are anatomically close by coincidence.
+
+## lose_the_mark
+Calling all seven named ligaments of the knee "extracapsular." Only four are; the two cruciates and the transverse ligament lie inside the capsule.
+Assuming the two menisci are equally likely to be injured because they look symmetrical in a diagram. The medial meniscus's fixation to the tibial collateral ligament, not its shape, is why it tears far more often.
+Reversing the two cruciate ligaments' names against their function — the anterior cruciate resists anterior tibial displacement and hyperextension; the posterior cruciate resists posterior tibial displacement in flexion.
+
+## related_concepts
+CON-MSK-BBBD5662711A93 | CON-MSK-9B1204D74AF4FF
+
+## related_articles
+ART-103-ANA-HIP-JOINT-STRUCTURE: the femoral and obturator nerve supply the knee joint shares with the hip, the anatomical basis for hip disease referring pain to the knee
+ART-103-ANA-HAMSTRINGS: the hamstrings that flex the knee and, with popliteus, unlock it at the start of flexion
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Joints of the lower limb > The Knee Joint
+
+## university_notes
+kau: Kasr Al Ainy's department book gives the knee joint the longest single treatment of any joint in this chapter (p82–88, against three to four pages for the hip, ankle and tibiofibular joints each), which the ILOs (p76) reflect by naming "the structures inside the knee joint and the causes and results of their injury" as its own separate learning objective.
+
+## annotations
+
+## media
+
+## media_recommendations
+### anatomy plate · The four extracapsular and three intracapsular ligaments of the knee, anterior and posterior views
+Purpose: Teaches CON-MSK-BBBD5662711A93. Which ligaments lie inside versus outside the capsule is a spatial fact — "intracapsular" is meaningless as a memorised word without seeing the capsule as a boundary the two cruciates sit inside of.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · The two menisci from above, showing their horn attachments and the transverse ligament
+Purpose: Teaches CON-MSK-BBBD5662711A93. The book's own description of "C-shaped" against "circular," and where each horn attaches relative to the cruciate ligaments and the other meniscus's horns, is dense prose that a single superior-view diagram resolves at a glance.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · Locking sequence of the knee through the last 15 degrees of extension
+Purpose: Teaches CON-MSK-9B1204D74AF4FF. The mechanism depends on the medial femoral condyle's articular surface being longer than the lateral one, which is a comparison of two curved surfaces that prose describes but a sequential diagram shows directly.
+Priority: strongly helpful
+Status: needed
+Section: Clinical correlations
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 82 to 88, for the joint's type, articulating surfaces, capsule, all seven ligaments, both menisci, the movements, locking and unlocking mechanisms, nerve and arterial supply, and the genu valgum / unhappy triad clinical point.
+The same book, page 115, for the general statement on joint formation by the sixth week, cited under Development.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Part of the "Joints of the lower limb" chapter, which previously had only its hip-joint content covered (movements, in one existing article, and now structure, in a second). This article gives the knee — the chapter's longest single joint in the source book — its first coverage in this module. The tibio-fibular joints, intertarsal joints and the ligaments of the foot are covered in ART-103-ANA-ANKLE-AND-INVERSION-EVERSION, not here.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The book's own section, "The Knee Joint," is already carried as `module_subject`; the canonical tree has nothing finer.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; three are requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-ANKLE-AND-INVERSION-EVERSION
+
+## title
+The ankle joint, the tibiofibular joints and inversion and eversion of the foot
+
+## arabic_title
+مفصل الكاحل والمفاصل الظنبوبية الشظوية وانقلاب القدم
+
+## aliases
+Ankle joint
+Deltoid ligament
+Subtalar joint
+Talo-calcaneo-navicular joint
+Tibiofibular joints
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Joints of the lower limb
+
+## microtopic
+The Ankle Joint
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M05
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+10
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Three joints, three different jobs. The ankle joint proper is a hinge doing exactly two things — plantar flexion and dorsiflexion — nothing more. The three tibiofibular joints hold the two leg bones together and barely move at all. Inversion and eversion, which many students file under "ankle movements" by habit, happen one level down, at the subtalar and talo-calcaneo-navicular joints, a distinction the department book states as an explicit correction. The muscles doing each movement are the same tibialis pair and peroneal trio already met throughout this module's leg and foot chapters, now organised by what they do rather than where they run.
+
+## sections
+### Overview and position
+This article closes the "Joints of the lower limb" chapter's remaining joints below the knee: the ankle joint, the superior, middle and inferior tibiofibular joints, and the intertarsal joints responsible for inversion and eversion. The ankle sits at the junction of leg and foot; the tibiofibular joints hold the two leg bones to each other along their whole length; the intertarsal joints sit distal to the ankle, inside the foot itself.
+
+### Structure
+The ankle joint is a synovial, uniaxial joint of the hinge variety. Its articulating surfaces are the lower end of the tibia and its medial malleolus above and medially, the lateral malleolus of the fibula above and laterally, and the trochlea of the talus below. The fibrous capsule attaches to the margins of these surfaces, and the synovial membrane lines the capsule and the intra-articular structures. The medial (deltoid) ligament is triangular, attached by its apex to the tip of the medial malleolus and by its base to the neck of talus, the tuberosity of the navicular, the spring ligament, the sustentaculum tali and the body of talus. The lateral ligament is formed of three separate bands radiating from the lateral malleolus: the anterior talofibular ligament, to the talus; the posterior talofibular ligament, running horizontally from the malleolar fossa of the fibula to the talus; and the calcaneofibular ligament, a vertical middle band to the lateral surface of the calcaneus. A posterior tibiofibular ligament runs from the upper part of the malleolar fossa to the medial malleolus.
+
+The three tibiofibular joints are structurally distinct from one another. The superior tibiofibular joint is a synovial joint of plane variety between the head of the fibula and a rounded facet on the inferior surface of the lateral tibial condyle. The middle tibiofibular joint is the interosseous membrane — a tense sheet running obliquely downwards and laterally from tibia to fibula, not permitting movement between the two bones, and perforated above by the anterior tibial vessels and below by the perforating branch of the peroneal artery. The inferior tibiofibular joint is a fibrous joint, a syndesmosis, between the medial surface of the lower fibula and the fibular notch of the tibia.
+
+The intertarsal joints responsible for inversion and eversion are the subtalar (talocalcanean) joint, a plane synovial joint between the inferior surface of the body of talus and the upper surface of the calcaneus; and the talo-calcaneo-navicular joint, a complex ball-and-socket synovial joint where the head of talus is the ball and a socket formed by the calcaneus and navicular, with the spring (plantar calcaneo-navicular) ligament between them, is the socket. Two further named ligaments support the foot's arches at these joints: the long plantar ligament, from the plantar surface of the calcaneus to the bases of the second to fourth metatarsals, forming with the cuboid a tunnel for peroneus longus's tendon; and the short plantar (plantar calcaneo-cuboid) ligament, immediately deep to it, from the anterior calcaneal tubercle to the plantar surface of the cuboid.
+
+### Relations
+The middle tibiofibular joint's interosseous membrane is what the anterior tibial vessels pierce to reach the front of the leg, and what the peroneal artery's perforating branch pierces lower down to reach the front of the ankle — the same perforating branch this module's posterior tibial artery article credits with sometimes substituting for a weak or absent dorsalis pedis pulse. The subtalar and talo-calcaneo-navicular joints sit directly below the ankle joint, which is why a movement performed at one is easy to mistake, without care, for a movement performed at the other.
+
+### Blood supply, innervation and lymphatics
+The ankle joint's nerve supply is from the anterior and posterior tibial nerves, and its arterial supply from the anastomosis around the ankle, around the two malleoli. The department book gives no separate nerve or blood supply for the tibiofibular or intertarsal joints beyond what the surrounding leg and foot vessels and nerves, already taught elsewhere in this module, provide as they cross these joints.
+
+### Development
+The department book's limb development chapter states that by the sixth week, joints form by an arrest of chondrogenesis at the future joint site, with the surrounding mesenchyme differentiating into a joint capsule — the general process by which the ankle, tibiofibular and intertarsal joints all come to exist as separate synovial or fibrous cavities.
+
+### Surface and imaging anatomy
+The medial and lateral malleoli, the two bony landmarks between which dorsalis pedis's own surface line is measured in this module's foot article, are the ankle joint's most obvious surface markings. No further surface anatomy or imaging appearance is given for any of the joints in this article, and none is asserted here.
+
+### Clinical correlations
+The ankle joint permits only plantar flexion and dorsiflexion — the book states explicitly that inversion and eversion are not done at the ankle joint, which is the single most important organising fact of this article. Instead, inversion and eversion occur at the subtalar and talo-calcaneo-navicular joints, whose range is increased by the gliding action of the transverse tarsal (mid-tarsal) joint; the mechanism is that the talus is held fixed by the two malleoli while the calcaneus and navicular bones swing around it, carrying the rest of the foot's bones with them. Inversion is produced by tibialis anterior and tibialis posterior; eversion by peroneus longus, peroneus brevis and peroneus tertius — the same three peroneal muscles whose loss, after a common peroneal nerve injury, is described in this module's peroneus longus and common peroneal nerve articles. A sprained ankle follows directly from the ligament structure above: excessive inversion tears the anterior talofibular and calcaneofibular ligaments, the common ankle sprain, while excessive eversion tears the deltoid ligament, less common because it is the stronger of the two sides.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The ankle joint allows only plantar flexion and dorsiflexion; inversion and eversion happen one level down, at the subtalar and talo-calcaneo-navicular joints, not at the ankle.
+The medial (deltoid) ligament is one triangular band; the lateral ligament is three separate bands (anterior talofibular, posterior talofibular, calcaneofibular) — asymmetric strength that explains why eversion sprains are rarer than inversion sprains.
+The middle tibiofibular joint is the interosseous membrane, pierced above by the anterior tibial vessels and below by the peroneal artery's perforating branch — not a synovial joint at all, unlike the superior tibiofibular joint.
+Inversion: tibialis anterior and tibialis posterior. Eversion: peroneus longus, brevis and tertius — the same muscle groups already met by name in this module's leg chapter, now grouped by movement rather than compartment.
+
+## lose_the_mark
+Naming inversion or eversion as ankle-joint movements. The book states this explicitly as something not to do; they belong to the subtalar and talo-calcaneo-navicular joints.
+Treating all three tibiofibular joints as synovial. Only the superior one is; the middle is a fibrous interosseous membrane and the inferior is a fibrous syndesmosis.
+Naming the deltoid ligament as torn in the common ankle sprain. The common sprain is from excessive inversion, tearing the anterior talofibular and calcaneofibular ligaments on the lateral side; the deltoid tears with excessive eversion, the less common mechanism.
+
+## related_concepts
+CON-MSK-C4AD88B60ADDB8 | CON-MSK-F5196760C3DB9C
+
+## related_articles
+ART-103-ANA-PERONEUS-LONGUS: peroneus longus as one of the three evertors named here, taught there by its own attachments and action
+ART-103-ANA-COMMON-PERONEAL-NERVE: the nerve whose injury abolishes the eversion this article describes as normal, taught there as a case
+ART-103-ANA-POSTERIOR-TIBIAL-ARTERY: the perforating branch of the peroneal artery that pierces the middle tibiofibular joint's interosseous membrane, taught there in full
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Joints of the lower limb > The Ankle Joint
+103 BMS > Anatomy > Joints of the lower limb > Tibio-fibular Joints
+103 BMS > Anatomy > Joints of the lower limb > Intertarsal Joints
+103 BMS > Anatomy > Joints of the lower limb > Ligaments of the foot
+103 BMS > Anatomy > Joints of the lower limb > Inversion and Eversion of Foot
+
+## university_notes
+kau: Kasr Al Ainy's department book prints an explicit "N.B." that inversion and eversion are not done at the ankle joint (p97) directly under the ankle joint's own movements section (p90) — the two are placed close together on purpose, and a Kasr answer is expected to keep them as separate joints rather than one continuous "ankle movements" answer.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The medial (deltoid) and lateral ligaments of the ankle, both labelled with all four bands
+Purpose: Teaches CON-MSK-C4AD88B60ADDB8. The lateral ligament's three separate bands, each named for a different pair of bones, are easy to blur into "the lateral ligament" as one structure without a labelled figure showing all three fanning out from the malleolus.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · The subtalar and talo-calcaneo-navicular joints with the talus fixed and the calcaneus/navicular swinging beneath it
+Purpose: Teaches CON-MSK-F5196760C3DB9C. The mechanism — talus fixed by the malleoli while calcaneus and navicular swing around it — is a rotation in three dimensions that a single static labelled diagram of the bones, with rotation arrows, communicates far better than a sentence.
+Priority: required
+Status: needed
+Section: Clinical correlations
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 89 to 97, for the ankle joint, the three tibiofibular joints, the intertarsal joints, the two named plantar ligaments and inversion/eversion in full.
+The same book, page 115, for the general statement on joint formation by the sixth week, cited under Development.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Closes the "Joints of the lower limb" chapter's coverage below the knee. The tarsometatarsal, metatarsophalangeal and interphalangeal joints are named in the book (p94–95) but each carries only a type/variety/articular-surface description with no distinct nerve supply, blood supply or clinical point of its own; they are not given separate concepts or article space here and are reported as the remaining gap in this chapter.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The book's own section headings — "The Ankle Joint," "Tibio-fibular Joints," "Intertarsal Joints" and "Inversion and Eversion of Foot" — are carried across the four `module_subject` paths above; the canonical tree has nothing finer than the ankle-level microtopic used here.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-VEINS-AND-LYMPH
+
+## title
+Veins and lymph drainage of the lower limb
+
+## arabic_title
+أوردة الطرف السفلي وتصريفه الليمفاوي
+
+## aliases
+Great saphenous vein
+Small saphenous vein
+Varicose veins
+Lymph drainage of the lower limb
+Elephantiasis
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Veins of the Lower Limb
+
+## microtopic
+Veins of the Lower Limb
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M04
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Every superficial vein in the lower limb begins at the dorsal venous arch on top of the foot and drains, eventually, through one of two named channels: the great saphenous vein, the longest vein in the body, climbing the medial side of the whole limb to end in the femoral vein at the groin; and the small saphenous vein, climbing the back of the leg to end lower down, in the popliteal vein. Deep to the fascia, lymph mostly follows whichever of the two it is nearest — the great saphenous vein's route to the superficial inguinal nodes, or the small saphenous vein's route to the popliteal nodes — and a blockage anywhere in that chain, over time, can produce the limb swelling the book names elephantiasis.
+
+## sections
+### Overview and position
+The department book divides the lower limb's venous drainage into superficial and deep systems. Superficial veins, draining tissue outside the deep fascia, begin at the dorsal venous arch on the dorsum of the foot; from that arch the great and small saphenous veins ascend in the superficial fascia to end, eventually, in the deep veins. The deep veins, draining tissue beneath the deep fascia, are the femoral vein and the popliteal vein. Lymph drainage is organised the same way, into superficial and deep vessels and nodes relative to the deep fascia.
+
+### Structure
+The great (long) saphenous vein is the longest vein in the body. It begins on the dorsum of the foot from the medial end of the dorsal venous arch, passes backwards on the medial side of the foot and ascends in front of the medial malleolus, runs up the medial leg to the medial side of the back of the knee, ascends the medial thigh and curves forward to the saphenous opening, piercing the cribriform fascia to end in the femoral vein four centimetres below and lateral to the pubic tubercle. It carries fifteen to twenty valves, dividing it into segments to reduce venous pressure in the erect position, and its tributaries are superficial veins from the foot, leg and thigh, communicating veins to the small saphenous vein, perforating veins to the deep system, and the superficial inguinal veins (superficial circumflex iliac, superficial epigastric and superficial external pudendal).
+
+The small (short) saphenous vein begins from the lateral end of the dorsal venous arch, ascends behind the lateral malleolus and runs along the middle of the back of the leg with the sural nerve, pierces the deep fascia and ascends between the two heads of gastrocnemius, ending in the popliteal vein. It carries five to ten valves, drains the lateral side of the foot and the back of the leg, and communicates with the great saphenous vein.
+
+Superficial lymph vessels drain the skin and subcutaneous tissue; most accompany the great saphenous vein to the superficial inguinal nodes, and a minority accompany the small saphenous vein to the popliteal nodes. Deep lymph vessels drain the tissue beneath the deep fascia, accompanying the deep blood vessels to the inguinal nodes. The superficial inguinal nodes form a horizontal group below the inguinal ligament and a vertical group along the great saphenous vein's termination; together they receive afferents from the skin of the whole lower limb, the gluteal region, the external genitalia, the perineum (including the lower anal canal and vagina) and the anterior abdominal wall below the umbilicus, and send efferents to the deep inguinal nodes. The deep inguinal nodes lie beneath the deep fascia along the medial side of the femoral vein, inside the femoral canal; they receive afferents from the superficial inguinal nodes, the limb's deep tissues, the popliteal nodes and the deep perineum, and send efferents to the external iliac nodes. The popliteal nodes lie deep in the popliteal fossa along the popliteal vessels, receive afferents from the foot and leg, and send efferents to the deep inguinal nodes.
+
+### Relations
+The great saphenous vein runs the length of the limb in the company of the saphenous nerve, described in this module's cutaneous innervation article; the small saphenous vein runs with the sural nerve instead. The deep inguinal lymph nodes sit inside the femoral canal, medial to the femoral vein — the same vein the great saphenous vein pierces the cribriform fascia to join, so the vein's own termination and the deep nodes' position are immediate neighbours at the saphenous opening.
+
+### Blood supply, innervation and lymphatics
+This chapter is itself the venous and lymphatic drainage of the limb; arterial supply is covered by the femoral, popliteal, anterior and posterior tibial arteries described elsewhere in this module. The great saphenous vein is accompanied by the saphenous nerve and the small saphenous vein by the sural nerve, but neither nerve supplies the vein itself — the association is purely one of a shared course.
+
+### Development
+The department book's limb development chapter treats the lower limb as a whole rather than by system, and gives no separate account of venous or lymphatic development; nothing beyond the general statement that the limb bud's mesenchymal core forms the limb's connective tissue is available to cite here.
+
+### Surface and imaging anatomy
+The great saphenous vein's course — in front of the medial malleolus, up the medial leg and thigh to the saphenous opening — is itself a surface landmark used to harvest the vein or to cannulate it at the ankle. The department book gives no further imaging correlate, and none is asserted here.
+
+### Clinical correlations
+Varicose veins occur when the great saphenous vein becomes dilated, elongated and tortuous, produced by incompetence of the distal perforating veins' valves, which lets blood flow in reverse from the deep to the superficial system instead of the normal direction. In coronary bypass surgery, a segment of the great saphenous vein can be harvested and reversed, so that its own valves — oriented for its normal upward flow — do not obstruct the arterial flow once it is grafted in. Lymphatic obstruction anywhere in the chain above leads to progressive oedema, and when the limb becomes greatly enlarged the condition is called elephantiasis; inflammation of the superficial lymph vessels themselves is a separate condition, lymphangitis. The inguinal lymph nodes are also affected in blood diseases, a clinical point the book records without further detail.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Both saphenous veins begin at the dorsal venous arch, but end differently: the great saphenous vein ends in the femoral vein at the saphenous opening; the small saphenous vein ends lower, in the popliteal vein.
+The great saphenous vein has more valves (15–20) than the small saphenous vein (5–10) — consistent with it being the longer vein under greater hydrostatic pressure in the erect position.
+Most superficial lymph follows the great saphenous vein to the superficial inguinal nodes; a minority follows the small saphenous vein to the popliteal nodes instead.
+Varicose veins come from incompetent perforating-vein valves reversing flow from deep to superficial, not from a primary defect in the great saphenous vein's own wall.
+
+## lose_the_mark
+Saying the great saphenous vein ends in the popliteal vein. That is the small saphenous vein's termination.
+Treating the superficial and deep inguinal lymph nodes as one group with one drainage territory. They lie on either side of the deep fascia, receive different afferents, and the superficial group's efferents pass through the deep group before reaching the external iliac nodes.
+Confusing lymphangitis (inflammation of the lymph vessels) with elephantiasis (chronic swelling from lymphatic obstruction) — the book treats them as two separate clinical points, not two names for one condition.
+
+## related_concepts
+CON-MSK-47A1A46432D3E0 | CON-MSK-E812B745282A3A | CON-MSK-E77A7FF7843CF2
+
+## related_articles
+ART-103-ANA-ADDUCTOR-CANAL: the femoral vein the great saphenous vein terminates into, taught there as a content of the adductor canal
+ART-103-ANA-COMMON-PERONEAL-NERVE: the sural nerve that accompanies the small saphenous vein, taught there as a branch of the common peroneal nerve
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Veins of the Lower Limb
+103 BMS > Anatomy > Veins of the Lower Limb > Lymph Drainage of the Lower Limb
+
+## university_notes
+kau: Kasr Al Ainy's department book gives this chapter its own explicit ILO to "Explain the case of elephantiasis on anatomical basis" (p108), so a Kasr answer is expected to connect the lymphatic anatomy above directly to that clinical explanation, not to state the anatomy and the clinical point as two separate facts.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The great and small saphenous veins' full course, medial and posterior views
+Purpose: Teaches CON-MSK-47A1A46432D3E0 and CON-MSK-E812B745282A3A. The two veins' courses and, especially, their different terminations (femoral vein against popliteal vein) are easiest to confuse without seeing both drawn on the same limb at once.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · The lymph node chain — superficial and deep inguinal, and popliteal — with afferent and efferent directions arrowed
+Purpose: Teaches CON-MSK-E77A7FF7843CF2. The direction of flow between the three node groups (popliteal to deep inguinal, superficial inguinal to deep inguinal, deep inguinal to external iliac) is the entire teaching point and is unreadable from prose alone.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 108 to 112, for both saphenous veins in full and the lymph vessel and node chain in full.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Chapter 9, "Veins of the Lower Limb," previously had no concept and no article in this module. This article gives the whole chapter — both saphenous veins and the lymph drainage sub-heading — its first coverage.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The book gives this chapter one undivided heading for the veins and one subheading, "Lymph Drainage of the Lower Limb," for the lymphatics; both are carried in `module_subject` above, and the canonical tree has nothing finer than the leg-level microtopic used here.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-LIMB-DEVELOPMENT
+
+## title
+Development of the limbs
+
+## arabic_title
+تطور الأطراف
+
+## aliases
+Limb bud
+Apical ectodermal ridge
+Endochondral ossification of limbs
+Limb anomalies
+Amelia
+Syndactyly
+
+## subject
+dev
+
+## topic
+Embryology
+
+## subtopic
+System development
+
+## microtopic
+Development of Limbs
+
+## nanotopic
+
+## primary_node_id
+DIS-EMB-T03
+
+## secondary_node_ids
+[clear]
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Every structure taught elsewhere in this module — every muscle, nerve, artery and joint of the lower limb — began as an outpocketing of mesenchyme in the fourth week of development, grew under the control of a ridge of surface ectoderm, rotated ninety degrees to reach its adult orientation, and ossified from cartilage into bone over the following years. This article is that single process, told once, for the whole limb: how the bud forms, how its skeleton turns from cartilage to bone, and what goes wrong — amelia, meromelia, syndactyly, polydactyly, brachydactyly and cleft hand or foot — when part of the sequence fails.
+
+## sections
+### Overview and position
+The department book treats limb development as one chapter covering the whole lower limb, in three parts: the steps of bud formation and rotation, the formation of the limb's bony skeleton, and a set of named anomalies. This article follows that same three-part structure.
+
+### Structure
+At the end of the fourth week, limb buds form as outpocketings from the anterolateral body wall. Each bud has a core of mesenchyme, from lateral plate mesoderm, that will form the limb's skeleton and connective tissue, covered by surface ectoderm, which becomes the epidermis. The bud's distal margin thickens into the apical ectodermal ridge (AER). By six weeks the bud's terminal part flattens into a hand- or footplate, separated from the proximal segment by a circular constriction; a second constriction later divides the proximal portion into two, so the limb ends up with three segments. Fingers and toes form when cell death in the AER separates it into five parts, which grow into the digits. Limb musculature and the dermis of the skin both derive from the dermomyotomes of somites migrating into the limb, initially segmented by their somite of origin and later splitting into flexor and extensor components, with further splitting and fusion meaning a single adult muscle can come from more than one original segment. Upper limb buds sit opposite the lower five cervical and upper two thoracic segments; lower limb buds sit opposite the lower four lumbar and upper two sacral segments, and each limb's nerve supply follows from which somites its muscles and dermis derive from.
+
+The skeleton begins as the bud's mesenchymal core transformed into hyaline cartilage. Endochondral ossification of that cartilage begins by the end of the embryonic period: primary ossification centres form in the shafts, turning them to bone while the two ends stay cartilaginous. At birth the shafts are usually fully ossified but the epiphyses are still cartilage; secondary ossification centres then appear in the epiphyses, with an epiphyseal plate of cartilage temporarily separating each secondary centre from the primary one, controlling growth in bone length until the bone reaches full length, when the plates disappear and the epiphyses fuse to the shaft. Long bones carry an epiphyseal plate at each extremity; smaller bones such as the phalanges carry one at only one extremity; irregular bones such as vertebrae carry one or more primary centres and usually several secondary ones. By the sixth week, joints form separately by an arrest of chondrogenesis at the future joint site, with the surrounding mesenchyme differentiating into a joint capsule.
+
+The department book gives six examples of anomaly: meromelia, a short limb; amelia, complete absence of a limb; brachydactyly, abnormally short digits; syndactyly, fusion of two or three digits; polydactyly, an extra digit; and cleft hand or foot, a condition with two fingers or toes in either the hand or the foot.
+
+### Relations
+During the seventh week the two limbs rotate in opposite directions. The upper limb rotates ninety degrees laterally, bringing its extensor muscles to the lateral and posterior surface and its thumb to the lateral side. The lower limb rotates approximately ninety degrees medially, bringing its extensor muscles to the anterior surface and its big toe to the medial side — the rotation that places every anterior-compartment extensor muscle taught elsewhere in this module on the front of the leg, and every adductor and flexor group on the medial and posterior sides.
+
+### Blood supply, innervation and lymphatics
+The department book does not give a separate vascular or lymphatic developmental account for the limb; the nerve-supply pattern it does give is the segmental one above — each limb's dermatomes and muscle innervation follow the somites the limb's own tissue derived from, which is the developmental fact behind the dermatome map taught in this module's cutaneous innervation article.
+
+### Development
+This entire article is the department's own development chapter; there is no further, more granular developmental account within the source to add here.
+
+### Surface and imaging anatomy
+The department book gives clinical photographs, not surface-anatomy or imaging content, for this chapter: meromelia of both upper limbs, right amelia with a left cleft hand, and hand brachydactyly, syndactyly, polydactyly and cleft foot. No radiographic description of normal ossification timing is given, and none beyond the primary/secondary centre sequence above is asserted here.
+
+### Clinical correlations
+The six anomalies above are presented as disturbances of the same sequence just described — bud outgrowth, AER-driven digit formation and endochondral ossification — rather than as a separate mechanism, though the book does not state a specific cause for any of them. Distinguishing the six by name is the department's own stated purpose for this final part of the chapter: absence (amelia) against shortening that still leaves the limb present (meromelia, brachydactyly), and digit-number or fusion defects (syndactyly, polydactyly, cleft hand or foot) against each other.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The apical ectodermal ridge is what drives distal limb outgrowth and, through localised cell death, separates into five parts to form the digits.
+The lower limb rotates approximately 90 degrees medially in the seventh week, placing the extensors anteriorly and the big toe medially — the opposite direction to the upper limb's lateral rotation.
+A long bone ossifies from a primary centre in the shaft (present by birth) and secondary centres in the epiphyses (appearing after birth), separated by an epiphyseal plate that disappears once growth is complete.
+Amelia is complete absence of a limb; meromelia is a short limb that is still present — the two are opposite ends of a spectrum, not synonyms.
+
+## lose_the_mark
+Describing the AER as forming the digits directly, rather than as the structure whose localised cell death separates a single ridge into five parts that then grow into digits.
+Reversing the direction of lower-limb rotation, or assuming it matches the upper limb's rotation — the two limbs rotate in opposite directions, medially and laterally respectively.
+Treating the epiphyseal plate as bone. It is cartilage throughout growth and disappears at maturity; it does not itself become a permanent bony structure.
+
+## related_concepts
+CON-DEV-EAF577AD3F3C53 | CON-DEV-59689788046B4E | CON-DEV-7A9E2385A26A8B
+
+## related_articles
+ART-103-ANA-HIP-JOINT-STRUCTURE: the sixth-week joint-formation process cited here in general terms, applied there specifically to how the hip joint's own capsule and cavity form
+ART-103-ANA-CUTANEOUS-AND-DERMATOMES: the segmental (dermatomal) nerve pattern this article traces to the limb's somitic origin, taught there as the adult map itself
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Development of Limbs > Steps
+103 BMS > Anatomy > Development of Limbs > Formation of skeleton of limbs
+103 BMS > Anatomy > Development of Limbs > Anomalies of limbs
+
+## university_notes
+kau: Kasr Al Ainy's department book places this chapter last in the Anatomy term (p113–119), after every regional and joint chapter, so a Kasr answer is expected to connect the rotation and segmental-nerve content here back to the regional anatomy already learned, rather than treat development as an isolated topic.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The limb bud with mesenchymal core, surface ectoderm and apical ectodermal ridge labelled, at successive weeks
+Purpose: Teaches CON-DEV-EAF577AD3F3C53. The book's own three-stage description (bud, hand/footplate with one constriction, three segments with a second constriction) is a sequence in time that a single static description cannot convey as clearly as a staged diagram.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · Endochondral ossification of a long bone from cartilage model to mature bone, showing primary centre, secondary centres and the epiphyseal plate
+Purpose: Teaches CON-DEV-59689788046B4E. Distinguishing a primary centre (shaft, prenatal) from a secondary centre (epiphysis, postnatal) and locating the epiphyseal plate between them is a spatial and temporal relationship that prose states but a labelled cross-section shows directly.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 113 to 115, for the steps of limb bud formation and rotation, the formation of the limb skeleton, and the six named anomalies, in full. Pages 116 to 119 are the book's own illustrative figures and clinical photographs for this same chapter; no additional text beyond their captions appears there.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Chapter 10, "Development of Limbs," previously had no concept and no article in this module — the tenth and final chapter of the academic tree, and the last of the five chapters this batch gives full first-time coverage. Subject is `dev` per this module's brief; `primary_node_id` uses the canonical taxonomy's embryology discipline node `DIS-EMB-T03` rather than a `SYS-DEV` node, because the live `SYS-DEV` system tree is postnatal life-stages, not embryology — see the sibling concepts' own field_notes for the full reasoning.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The book's own chapter title, "Development of Limbs," and its three subheadings ("Steps," "Formation of skeleton of limbs," "Anomalies of limbs") are carried across the three `module_subject` paths above; no `DIS-EMB` leaf node finer than `DIS-EMB-T03` exists in the canonical taxonomy scanned, so `secondary_node_ids` is `[clear]` — reported as a genuine gap rather than a forced placement, per this concept cluster's own field_notes.
+questionIds: No question yet tests this article's content.
+claimIds: No claim exists for this article; see evidenceGaps.
+spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations. The book's own clinical photographs (meromelia, amelia, cleft hand, brachydactyly, syndactyly, polydactyly, cleft foot) are a further, higher-priority media need not yet filed as a separate request, since they would need rights clearance from the book's own publisher rather than being redrawn.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
