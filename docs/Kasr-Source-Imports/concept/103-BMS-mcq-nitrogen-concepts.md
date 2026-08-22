@@ -164,7 +164,12 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p124 | 103 BMS
 src_07f0a0ff41addf826c7f | department_questions | undated | p125 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-89A887347268
+CLM-E52B9EA8E00F
+CLM-B93AE5409D0A
+CLM-C421816B0F88
+CLM-2C56C66FDEED
+CLM-BA063FEC8ED6
 
 ## resource_occurrence_ids
 [clear]
@@ -353,7 +358,11 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_questions | undated | p125 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-ABAAD0A05407
+CLM-8DC9C7CC955B
+CLM-02D0408FD50F
+CLM-EFA6042BD865
+CLM-9096FB1167D1
 
 ## resource_occurrence_ids
 [clear]
@@ -542,7 +551,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | department_questions | undated | p124 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-DB3FBEA6CB19
+CLM-B3F99E28A3D8
+CLM-C3D0475EA27B
+CLM-6110E6FA44D9
+CLM-52648DB81488
 
 ## resource_occurrence_ids
 [clear]

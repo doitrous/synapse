@@ -179,7 +179,12 @@ KAU_Y1=0.4
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q1 and q2, and q6 by contrast | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-1675546C5D91
+CLM-355D769F24EC
+CLM-145DF72E15C6
+CLM-E3529E9409DE
+CLM-BBF534CDCB84
+CLM-DEBABF06C9DC
 
 ## resource_occurrence_ids
 [clear]
@@ -365,7 +370,9 @@ KAU_Y1=0.45
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q3 and q4 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-F4B2FE471780
+CLM-FAAE753F3991
+CLM-B47573C76EC7
 
 ## resource_occurrence_ids
 [clear]
@@ -554,7 +561,11 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q5 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-6AB7956E7FC3
+CLM-A7AD1F939B08
+CLM-4913EB2C56DD
+CLM-B4AC57A835AF
+CLM-B8A3C9B66FD8
 
 ## resource_occurrence_ids
 [clear]
@@ -740,7 +751,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q6 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-4DBC92CEAAEE
+CLM-3E2F285E3ED0
+CLM-A36C5D597C32
+CLM-985ADCD1CA34
 
 ## resource_occurrence_ids
 [clear]
@@ -929,7 +943,15 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q8 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-0F2556CCC91B
+CLM-941B05037BC6
+CLM-0E163C385986
+CLM-B3701CFBE9A3
+CLM-E6E05ADC1ABE
+CLM-FF6E8C03C35D
+CLM-0078256F177E
+CLM-AE027C92A37E
+CLM-3FC31E8ECCC9
 
 ## resource_occurrence_ids
 [clear]
@@ -1116,7 +1138,12 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q9 and q10 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-803CCD9B55A2
+CLM-3618370460EA
+CLM-31238480CBEA
+CLM-8416A6D7AADF
+CLM-53FCA94FBEB7
+CLM-D4FA465857ED
 
 ## resource_occurrence_ids
 [clear]
@@ -1303,7 +1330,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q11 and q12, printed p122 q13 and q14 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-088857341956
+CLM-092C300FB29A
+CLM-4AA3093EAA30
+CLM-1F514D96DF5D
+CLM-3F6A09665415
 
 ## resource_occurrence_ids
 [clear]
@@ -1490,7 +1521,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p122 q15 and q16 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-A9FB2AEFB489
+CLM-A2495401D5A5
+CLM-0B756281F6E1
+CLM-1AA99D0A7E9E
 
 ## resource_occurrence_ids
 [clear]

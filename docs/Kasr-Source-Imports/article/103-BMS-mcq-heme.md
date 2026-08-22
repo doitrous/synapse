@@ -220,10 +220,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-06FE0ACE0401 | CLM-0E4DC4C94576 | CLM-A332413F2E38
 
 ## span_ids
-[clear]
+SPN-BIO-HEME-BIOSYNTHESIS-AND-01 | SPN-BIO-HEME-BIOSYNTHESIS-AND-02 | SPN-BIO-HEME-BIOSYNTHESIS-AND-03
 
 ## universities
 kau
@@ -471,10 +471,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-98FF0B0A5654 | CLM-9D3716971751
 
 ## span_ids
-[clear]
+SPN-BIO-HEME-CATABOLISM-AND-01 | SPN-BIO-HEME-CATABOLISM-AND-02
 
 ## universities
 kau
@@ -723,10 +723,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-70320725EFB4
 
 ## span_ids
-[clear]
+SPN-BIO-HYPERBILIRUBINAEMIA-01
 
 ## universities
 kau

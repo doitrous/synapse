@@ -1553,7 +1553,13 @@ KAU_Y1=0.1
 
 
 ## atomic_claim_ids
-[clear]
+CLM-B7F0C0B801D3
+CLM-A51D3BFE5677
+CLM-04A99FFD7ECA
+CLM-5E725B38FACF
+CLM-186C5283C473
+CLM-BF3BE1FF0B2B
+CLM-429B95A04EB9
 
 ## resource_occurrence_ids
 [clear]
@@ -1735,7 +1741,11 @@ KAU_Y1=0.15
 
 
 ## atomic_claim_ids
-[clear]
+CLM-686DC2E33F11
+CLM-4638B1A0ED7E
+CLM-8DB9C60500BB
+CLM-F77A6D5CAD4E
+CLM-A43D3F5E2482
 
 ## resource_occurrence_ids
 [clear]
@@ -1915,7 +1925,11 @@ KAU_Y1=0.1
 
 
 ## atomic_claim_ids
-[clear]
+CLM-046598442A45
+CLM-BEEEA74FAA13
+CLM-F68335CC23FD
+CLM-844563ADA5E0
+CLM-13AED8249A89
 
 ## resource_occurrence_ids
 [clear]
@@ -2093,7 +2107,13 @@ KAU_Y1=0.3
 
 
 ## atomic_claim_ids
-[clear]
+CLM-1A1980E39A5A
+CLM-4A3D3A5F34DE
+CLM-43EBD893500F
+CLM-90CCECB9AC5D
+CLM-BA712A18CBF9
+CLM-890671341EE2
+CLM-A95D2B1F125E
 
 ## resource_occurrence_ids
 [clear]
@@ -2271,7 +2291,10 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-E17A1E03D1A3
+CLM-E388C08B80E4
+CLM-0B3D689F24DE
+CLM-28A70C92C2AC
 
 ## resource_occurrence_ids
 [clear]
@@ -2449,7 +2472,12 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-B00A8AC134A2
+CLM-F64C7813E433
+CLM-71D7F3950EB0
+CLM-FAB6808EBC37
+CLM-5D84092FADA8
+CLM-7CA3588ED31F
 
 ## resource_occurrence_ids
 [clear]
@@ -2626,7 +2654,10 @@ KAU_Y1=0.45
 
 
 ## atomic_claim_ids
-[clear]
+CLM-BBFC7B921505
+CLM-F9BCF466ACAE
+CLM-5B51FA376FC4
+CLM-9CDAD0AA4777
 
 ## resource_occurrence_ids
 [clear]
@@ -2804,7 +2835,11 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-8FB1F8B7E337
+CLM-E6F07AA1AC14
+CLM-EBF71239B7F2
+CLM-C021EC0C59E8
+CLM-ED3987F0148D
 
 ## resource_occurrence_ids
 [clear]
@@ -2985,7 +3020,11 @@ KAU_Y1=0.45
 
 
 ## atomic_claim_ids
-[clear]
+CLM-047A9A5C8B56
+CLM-489772A6397C
+CLM-3F38F4328525
+CLM-62B9F228E193
+CLM-7D4484B8876A
 
 ## resource_occurrence_ids
 [clear]
@@ -3161,7 +3200,8 @@ KAU_Y1=0.3
 
 
 ## atomic_claim_ids
-[clear]
+CLM-13D3D4D0B959
+CLM-18F5DFE2E514
 
 ## resource_occurrence_ids
 [clear]
@@ -3338,7 +3378,11 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-E6ADBBED07FB
+CLM-600A296EF3F3
+CLM-51DFC70EA4D8
+CLM-38B1AE815800
+CLM-7172CD155F4F
 
 ## resource_occurrence_ids
 [clear]
@@ -3515,7 +3559,10 @@ KAU_Y1=0.25
 
 
 ## atomic_claim_ids
-[clear]
+CLM-3DF6BA339592
+CLM-FAE733975CCE
+CLM-46611ECD4738
+CLM-730EA01E6661
 
 ## resource_occurrence_ids
 [clear]
@@ -3690,7 +3737,8 @@ KAU_Y1=0.3
 
 
 ## atomic_claim_ids
-[clear]
+CLM-ADEA0EE689F0
+CLM-1B4D8A832549
 
 ## resource_occurrence_ids
 [clear]
@@ -3868,7 +3916,11 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-A54132B0EFAD
+CLM-1D9CF72080B5
+CLM-829074ADB9C3
+CLM-D839225C7C9E
+CLM-1E50B9661AF1
 
 ## resource_occurrence_ids
 [clear]
@@ -4043,7 +4095,9 @@ KAU_Y1=0.2
 
 
 ## atomic_claim_ids
-[clear]
+CLM-9E0687A0CEB9
+CLM-8DADE80C9AA9
+CLM-9A8237078E8E
 
 ## resource_occurrence_ids
 [clear]
@@ -4221,7 +4275,10 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-D5F3ABEFB402
+CLM-9BD617307581
+CLM-A7A06276A272
+CLM-58B80708A2F7
 
 ## resource_occurrence_ids
 [clear]
@@ -4399,7 +4456,15 @@ KAU_Y1=0.5
 
 
 ## atomic_claim_ids
-[clear]
+CLM-3B4F4DE95C63
+CLM-F1970A35E3EA
+CLM-7F7F932A53D4
+CLM-0AD2D83E88F5
+CLM-6C998E920615
+CLM-85C950B1632A
+CLM-565AB5754A1C
+CLM-0FE224624D7A
+CLM-890C0011B816
 
 ## resource_occurrence_ids
 [clear]
@@ -4575,7 +4640,8 @@ KAU_Y1=0.25
 
 
 ## atomic_claim_ids
-[clear]
+CLM-7CA25B6304C0
+CLM-CAABE164481A
 
 ## resource_occurrence_ids
 [clear]
@@ -4751,7 +4817,8 @@ KAU_Y1=0.2
 
 
 ## atomic_claim_ids
-[clear]
+CLM-E09208580AAA
+CLM-89C3F6B7E6CD
 
 ## resource_occurrence_ids
 [clear]
@@ -4930,7 +4997,12 @@ KAU_Y1=0.45
 
 
 ## atomic_claim_ids
-[clear]
+CLM-F145E945E8F4
+CLM-7E54BC98332E
+CLM-56D736B0FB7C
+CLM-07825CC06E13
+CLM-E83AE7192ECA
+CLM-B4CEFB7A10E8
 
 ## resource_occurrence_ids
 [clear]
@@ -5107,7 +5179,9 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-9A99A18A87E2
+CLM-BB4F4BD88911
+CLM-EBF22E7ED6AC
 
 ## resource_occurrence_ids
 [clear]
@@ -5282,7 +5356,8 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-773868A44D72
+CLM-B6FC34BA2BB5
 
 ## resource_occurrence_ids
 [clear]
@@ -5457,7 +5532,8 @@ KAU_Y1=0.3
 
 
 ## atomic_claim_ids
-[clear]
+CLM-BDA879CD36D1
+CLM-FD4C2C16E385
 
 ## resource_occurrence_ids
 [clear]
@@ -5634,7 +5710,12 @@ KAU_Y1=0.15
 
 
 ## atomic_claim_ids
-[clear]
+CLM-2DAC3B057E29
+CLM-9CCCAD2237A5
+CLM-0D972433E00E
+CLM-8E76930A098A
+CLM-D38FA480D743
+CLM-7DAED7C91F83
 
 ## resource_occurrence_ids
 [clear]
@@ -5809,7 +5890,15 @@ KAU_Y1=0.2
 
 
 ## atomic_claim_ids
-[clear]
+CLM-073A03DCA616
+CLM-7C7E31EA2EA3
+CLM-85CE67CC2E02
+CLM-05B9227EAD93
+CLM-85D83DFDF1CA
+CLM-5942A9DA1826
+CLM-AB2ED26D6F93
+CLM-F7F9D6713A69
+CLM-94979C78EC81
 
 ## resource_occurrence_ids
 [clear]
@@ -5988,7 +6077,11 @@ KAU_Y1=0.5
 
 
 ## atomic_claim_ids
-[clear]
+CLM-FBC1778A94B1
+CLM-DA3BED7756F5
+CLM-06AC6440655E
+CLM-F2F82E3C4911
+CLM-35E6F25FBAA2
 
 ## resource_occurrence_ids
 [clear]
@@ -6164,7 +6257,12 @@ KAU_Y1=0.5
 
 
 ## atomic_claim_ids
-[clear]
+CLM-B5A610169554
+CLM-8D043405DB93
+CLM-81750E624738
+CLM-13718C88CF51
+CLM-751978BA6ADD
+CLM-611E8BE94E86
 
 ## resource_occurrence_ids
 [clear]
@@ -6341,7 +6439,9 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-78D2AF3F0691
+CLM-84FDA1EF4002
+CLM-2CA36AF7FD87
 
 ## resource_occurrence_ids
 [clear]
@@ -6517,7 +6617,8 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-CA0AA7A4AA39
+CLM-BEC978191158
 
 ## resource_occurrence_ids
 [clear]
@@ -6697,7 +6798,12 @@ KAU_Y1=0.15
 
 
 ## atomic_claim_ids
-[clear]
+CLM-A20138F63299
+CLM-90B966A899DF
+CLM-D633C1D66DCB
+CLM-547CE8A88F65
+CLM-13811AC8F32D
+CLM-CFFCCC73D6A3
 
 ## resource_occurrence_ids
 [clear]
@@ -6872,7 +6978,8 @@ KAU_Y1=0.1
 
 
 ## atomic_claim_ids
-[clear]
+CLM-7B0D0CF7D48B
+CLM-40FED25F3578
 
 ## resource_occurrence_ids
 [clear]
@@ -7047,7 +7154,8 @@ KAU_Y1=0.1
 
 
 ## atomic_claim_ids
-[clear]
+CLM-0ABF10E8BF71
+CLM-8547D675C796
 
 ## resource_occurrence_ids
 [clear]
@@ -7226,7 +7334,10 @@ KAU_Y1=0.2
 
 
 ## atomic_claim_ids
-[clear]
+CLM-22509C974C38
+CLM-1F9918938DD4
+CLM-58AFD44869BA
+CLM-EE237BC95D56
 
 ## resource_occurrence_ids
 [clear]
@@ -7402,7 +7513,10 @@ KAU_Y1=0.3
 
 
 ## atomic_claim_ids
-[clear]
+CLM-F7F93AEA7907
+CLM-F3512C28AFE8
+CLM-8E96AB6F67C1
+CLM-E5D7280038A2
 
 ## resource_occurrence_ids
 [clear]
@@ -7580,7 +7694,10 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-F9E8655C6880
+CLM-EFE3AA704A29
+CLM-97D0026458EB
+CLM-8CFAA9DB2EF8
 
 ## resource_occurrence_ids
 [clear]
@@ -7757,7 +7874,10 @@ KAU_Y1=0.4
 
 
 ## atomic_claim_ids
-[clear]
+CLM-359529F3464D
+CLM-1D6C52FA4515
+CLM-063800E78653
+CLM-4E701154ACFB
 
 ## resource_occurrence_ids
 [clear]
@@ -7935,7 +8055,12 @@ KAU_Y1=0.5
 
 
 ## atomic_claim_ids
-[clear]
+CLM-08871F0928CA
+CLM-1F65E90E6830
+CLM-E4AAE40BA32C
+CLM-B94492EF50CF
+CLM-69D70BDCCD8C
+CLM-2069E84B15AE
 
 ## resource_occurrence_ids
 [clear]
@@ -8111,7 +8236,9 @@ KAU_Y1=0.35
 
 
 ## atomic_claim_ids
-[clear]
+CLM-F591978AFA69
+CLM-0A6B24B6446E
+CLM-02656A100CB8
 
 ## resource_occurrence_ids
 [clear]

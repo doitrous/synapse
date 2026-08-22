@@ -2719,7 +2719,12 @@ KAU_Y1=0.5
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-B3242A4F1FAE
+CLM-8926CE7A898A
+CLM-F997F47EBE23
+CLM-08CEC2A47ADF
+CLM-8ECB07535AFD
+CLM-173D53912DC3
 
 ## resource_occurrence_ids
 [clear]
@@ -2899,7 +2904,12 @@ KAU_Y1=0.6
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-1BE009330909
+CLM-293D0DF18EFC
+CLM-F973EF7B417B
+CLM-0FB68BC966DE
+CLM-9277BA02910B
+CLM-C362D1D92976
 
 ## resource_occurrence_ids
 [clear]
@@ -3078,7 +3088,12 @@ KAU_Y1=0.55
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-C277ED13F1EA
+CLM-FC16C4FB3BD9
+CLM-37A4FBA146DC
+CLM-B7D52540960D
+CLM-162EBA9E8C94
+CLM-806A0FEDB279
 
 ## resource_occurrence_ids
 [clear]
@@ -3257,7 +3272,13 @@ KAU_Y1=0.55
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-6E02944D3D5D
+CLM-84D5BF9EFF25
+CLM-99F2D42B753A
+CLM-F708219B72EB
+CLM-D73F15EC005C
+CLM-A34400222B6C
+CLM-C943C3705409
 
 ## resource_occurrence_ids
 [clear]
@@ -3436,7 +3457,11 @@ KAU_Y1=0.6
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-9E8ED03A1F03
+CLM-D34C0CE08575
+CLM-DE7BEEBFFBC5
+CLM-BDF5693928C7
+CLM-94FCB09A3A7A
 
 ## resource_occurrence_ids
 [clear]
@@ -3615,7 +3640,10 @@ KAU_Y1=0.55
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-16AC35BBDAB8
+CLM-706B1DF2C6D9
+CLM-66A1A9608BBB
+CLM-B4850F8B2DE2
 
 ## resource_occurrence_ids
 [clear]
@@ -3792,7 +3820,9 @@ KAU_Y1=0.5
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-E2E8BAB4AB55
+CLM-E4FF5C61117B
+CLM-3B19E9985785
 
 ## resource_occurrence_ids
 [clear]
@@ -3973,7 +4003,12 @@ KAU_Y1=0.55
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-8B7E042CDCE0
+CLM-F70A6C68AA86
+CLM-E2515AA87145
+CLM-41D85FE7CAEA
+CLM-D91F13B85078
+CLM-1B8349F0A6EE
 
 ## resource_occurrence_ids
 [clear]
@@ -4152,7 +4187,13 @@ KAU_Y1=0.45
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-6213EC8ADDEB
+CLM-CFA3FD4FC96D
+CLM-CEA595613485
+CLM-C16FED878024
+CLM-4C8B22F3041B
+CLM-A7B3868088C3
+CLM-AB49E2E52C51
 
 ## resource_occurrence_ids
 [clear]
@@ -4334,7 +4375,12 @@ KAU_Y1=0.4
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-3494964ACE30
+CLM-65BDDD19E705
+CLM-5ACEDDFEA11E
+CLM-DB131C9D6AB2
+CLM-E117138B970A
+CLM-EDE9B3F6C8D3
 
 ## resource_occurrence_ids
 [clear]
@@ -4519,7 +4565,9 @@ KAU_Y1=0.4
 0.85
 
 ## atomic_claim_ids
-[clear]
+CLM-F10D38D6951F
+CLM-734B1B22D297
+CLM-26C28CE91C07
 
 ## resource_occurrence_ids
 [clear]
