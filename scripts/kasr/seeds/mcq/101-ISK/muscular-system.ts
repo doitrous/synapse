@@ -17,7 +17,7 @@
  *
  * Two concepts are reused rather than minted, and both are copied verbatim from
  * where they already exist. `skeletal-muscle-form-classification-by-fibre-
- * direction` was minted in `seeds/mcq/shoulder-region.ts` for the pennate
+ * direction` was minted in `seeds/mcq/101-ISK/shoulder-region.ts` for the pennate
  * examples — an example of a bipennate muscle, of a strap muscle — and the
  * deltoid-fibre question here tests exactly that objective from the general
  * chapter instead of from the shoulder. One concept, asked from two leaves.
@@ -33,7 +33,7 @@
  *
  * The pennate-example rows the extractor filed under Shoulder Region — an
  * example of a bipennate, multipennate or strap-like muscle — are authored in
- * `seeds/mcq/shoulder-region.ts` and are not touched here, including the two
+ * `seeds/mcq/101-ISK/shoulder-region.ts` and are not touched here, including the two
  * damaged reprints that leaf did not take.
  */
 import type { McqLeafSeed } from '../mcq.ts'

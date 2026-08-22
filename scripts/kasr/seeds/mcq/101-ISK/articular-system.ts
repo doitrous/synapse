@@ -10,7 +10,7 @@
  * `primary-versus-secondary-cartilaginous-joints` and
  * `synovial-joint-structure-characters` already exist from the sat papers, and
  * `elbow-joint-type-bones-ligaments` already exists in
- * `seeds/mcq/joints-of-upper-limb.ts`. All four definitions below are copied
+ * `seeds/mcq/101-ISK/joints-of-upper-limb.ts`. All four definitions below are copied
  * verbatim from those sources, so re-emitting them is an update that changes
  * nothing but the exam signal. The elbow one is the cross-leaf case the
  * contract warns about: the builder merges concepts by key across leaves, and
@@ -62,7 +62,7 @@ export const LEAF: McqLeafSeed = {
       type: 'classification',
     },
     {
-      // Verbatim from `seeds/mcq/joints-of-upper-limb.ts`, including its own
+      // Verbatim from `seeds/mcq/101-ISK/joints-of-upper-limb.ts`, including its own
       // modulePath. The elbow is the department book's type example of a
       // compound hinge, and the books ask about it from both chapters; two
       // concepts for it would halve a student's mastery of one joint.

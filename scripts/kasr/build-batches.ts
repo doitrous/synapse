@@ -303,7 +303,7 @@ ${GENERATED_BY}.`
  * The subject picks only the `CON-<SYS>-` prefix, so the same key under two
  * subjects mints two IDs with the same hash behind different prefixes. Nothing
  * at import time notices, and a student's mastery of one idea splits across
- * both. Two lanes author into `seeds/mcq/` and the papers are seeded
+ * both. Two lanes author into `seeds/mcq/<module>/` and the papers are seeded
  * separately, which is exactly the arrangement that produces it.
  *
  * Checked across every seed the build can see — papers and question-book leaves
@@ -324,7 +324,7 @@ async function assertOneSubjectPerKey(module: string, papers: Paper[]) {
   }
   for (const { leaf, name } of await mcqLeaves(module)) {
     for (const concept of leaf.concepts) {
-      entries.push({ key: concept.key, subject: concept.subject, where: `seeds/mcq/${name}` })
+      entries.push({ key: concept.key, subject: concept.subject, where: `seeds/mcq/${fileSlug(module)}/${name}` })
       const expected = subjectForPath(concept.modulePath)
       if (expected) byPath.set(concept.key, expected)
     }
@@ -376,46 +376,212 @@ function assertNoSlugCollision(papers: Paper[]) {
 /**
  * The question-book leaves belonging to one module.
  *
- * `seeds/mcq/` is not itself scoped by module — it was written when there was
- * only 101 — so a leaf is claimed by the module its own `modulePath` names.
- * That is the same string the batch writes to `module_subject`, so a leaf
- * cannot be filed under one module here and another at import. Moving the
- * directory to `seeds/mcq/<module>/` is the tidier fix and is a file move,
- * which this port deliberately did not make.
+ * `seeds/mcq/<module-slug>/` — `101 ISK` reads `seeds/mcq/101-ISK/`, `102 INT`
+ * reads `seeds/mcq/102-INT/`. This used to be one flat `seeds/mcq/` directory,
+ * written when there was only 101, with a leaf claimed by whichever module its
+ * own `modulePath` named; the directory move that comment said this port
+ * "deliberately did not make" is this one. No index file to keep in step with
+ * the directory: every `.ts` file directly inside a module's folder is a leaf,
+ * so a Year-2 lane adds `seeds/mcq/205-NEU/some-leaf.ts` and it is picked up
+ * without editing this script or any registry.
+ *
+ * The `modulePath` check stays as a second, independent guard — a leaf saved
+ * under the wrong module's folder throws here rather than silently mining the
+ * wrong module's namespace, which is the failure the folder split exists to
+ * rule out.
  */
 async function mcqLeaves(module: string): Promise<{ leaf: McqLeafSeed, name: string }[]> {
-  const dir = 'scripts/kasr/seeds/mcq'
+  const dir = `scripts/kasr/seeds/mcq/${fileSlug(module)}`
   if (!existsSync(dir)) return []
   const found: { leaf: McqLeafSeed, name: string }[] = []
   for (const name of readdirSync(dir).filter((one) => one.endsWith('.ts')).sort()) {
-    const leaf = (await import(`./seeds/mcq/${name}`)).LEAF as McqLeafSeed
-    if (leaf.modulePath.startsWith(`${module} > `) || leaf.modulePath === module) {
-      found.push({ leaf, name })
+    const leaf = (await import(`./seeds/mcq/${fileSlug(module)}/${name}`)).LEAF as McqLeafSeed
+    if (!(leaf.modulePath.startsWith(`${module} > `) || leaf.modulePath === module)) {
+      throw new Error(
+        `${dir}/${name}: modulePath "${leaf.modulePath}" does not belong to "${module}" — `
+        + `it is filed under the "${fileSlug(module)}" folder but names a different module`)
     }
+    found.push({ leaf, name })
   }
   return found
+}
+
+/**
+ * The path to a module's MCQ bank.
+ *
+ * `101 ISK`'s bank predates every other module's and sits at the top of
+ * `extract/`, unprefixed; every module after it gets its own `extract/<module
+ * slug>/mcq-bank.json`, alongside that module's other extraction output. 101
+ * keeps its historical path rather than being moved to match, because moving
+ * it buys nothing and a moved bank with nothing pointing at the old path is
+ * exactly the "file whose header is true and whose generator can no longer
+ * honour it" failure `removeOrphans` above spent three incidents learning to
+ * survive.
+ */
+const bankPathFor = (module: ModuleRef) => module.id === '101 ISK'
+  ? 'scripts/kasr/extract/mcq-bank.json'
+  : `scripts/kasr/extract/${fileSlug(module.id)}/mcq-bank.json`
+
+/**
+ * Where a module's sources are catalogued, resolved through one function.
+ *
+ * Every module built so far is Year 1, and Year 1 has one manifest. That will
+ * stop being true the day a Year 2 module arrives with its own — at which
+ * point this is the one place that needs to learn `manifestFor` takes a
+ * module and picks between manifests, instead of every caller that reads a
+ * source's filename needing to learn it separately.
+ */
+const manifestFor = (_module: ModuleRef) => 'docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json'
+
+/** `sourceId -> fileName`, for a bank row that names a source but not its file. */
+function sourceFileNames(module: ModuleRef): Map<string, string> {
+  const path = manifestFor(module)
+  if (!existsSync(path)) return new Map()
+  const manifest = JSON.parse(readFileSync(path, 'utf8')) as { sources: { sourceId: string, fileName: string }[] }
+  return new Map(manifest.sources.map((source) => [source.sourceId, source.fileName]))
+}
+
+/**
+ * One row of the second bank shape, as `scripts/kasr/extract/102-INT/mcq.py`
+ * writes it under `items`. 102 INT and 103 BMS are extracted this way; 101 ISK
+ * and 104 CPS are extracted by `extract/bank.py` instead, straight into the
+ * `BankRow` shape `mcq.ts` declares and this file's rows were always typed as.
+ *
+ * The two shapes disagree on the questions that matter here:
+ *
+ * - **Identity.** `bank.py` keys a row on a slug (`key`) it derives from the
+ *   stem. `mcq.py` keys a row on `id`, built from the source and the page —
+ *   there is no slug at all.
+ * - **Deduplication.** `bank.py` merges every book's copy of one question into
+ *   a single row, so `occurrences` can hold several sightings and
+ *   `timesAsked` counts them. `mcq.py` writes one row per sighting; a
+ *   question seen in two books is two rows, linked only by `duplicateOf`
+ *   where the extractor noticed. Normalising each row to `timesAsked: 1` and
+ *   a single-entry `occurrences` is therefore an undercount of the true
+ *   repetition for anything `duplicateOf` would have merged — real blueprint
+ *   evidence this loader is leaving on the table. A lane doing full triage on
+ *   102 or 103 should fold `duplicateOf` chains together before trusting
+ *   `timesAsked`; nothing here does it for them.
+ * - **Answer provenance.** `bank.py` gives `answerConfidence` directly.
+ *   `mcq.py` gives a free-text `correctSource` (`"printed key (p86)"`,
+ *   `"printed key (p15) read differently by different OCR passes (b/e)"`,
+ *   `"none"`, or `null`), collapsed below to `keyed` / `conflicting` / `none`.
+ * - **Row confidence.** `bank.py` gives `confidence: 'high' | 'medium' |
+ *   'low'` per row. `mcq.py` gives no such field, only a `suspect` reason
+ *   (`"option ran on"`, `"option count"`, …) when the OCR looks untrustworthy;
+ *   `'low'` when `suspect` is set, `'high'` otherwise, is this loader's
+ *   stand-in, not a judgement `mcq.py` itself made.
+ *
+ * Everything else here — `subject`, `chapter`, `duplicateOf`, `suspect`,
+ * `printedNumber`, `modulePathGuess` — is read by nothing downstream. `emit.ts`
+ * only ever reads a `BankRow`'s `key` / `stem` / `options` / `answer` /
+ * `occurrences` / `topic` / `timesAsked` / `confidence` / `answerConfidence` /
+ * `variants`, so those are the only fields worth normalising, and the rest is
+ * named here only so the shape is on record.
+ */
+interface RawV2Item {
+  id: string
+  sourceId: string
+  page: number
+  module: string
+  subject?: string
+  modulePathGuess?: string | null
+  stem: string
+  options: Record<string, string>
+  correct?: string | null
+  correctSource?: string | null
+  suspect?: string | null
+  printedNumber?: number
+  chapter?: string | null
+  duplicateOf?: string | null
+}
+
+/** `mcq.py`'s free-text `correctSource` collapsed to `BankRow`'s enum. */
+function v2AnswerConfidence(item: RawV2Item): BankRow['answerConfidence'] {
+  if (!item.correctSource || item.correctSource === 'none') return 'none'
+  if (item.correctSource.includes('printed key') && !item.correctSource.includes('differently')) return 'keyed'
+  return 'conflicting'
+}
+
+/**
+ * A module's bank, whichever of the two shapes it was extracted in.
+ *
+ * `null` for "no bank file" — `mcq()` turns that into a skip, not a throw, so
+ * a module with written papers but no question-book bank yet still builds.
+ * An unrecognised shape throws instead: that bank exists and this loader does
+ * not understand it, which is a bug worth stopping the build for rather than
+ * quietly treating as empty.
+ */
+function loadBank(module: ModuleRef): Map<string, BankRow> | null {
+  const bankPath = bankPathFor(module)
+  if (!existsSync(bankPath)) return null
+  const raw = JSON.parse(readFileSync(bankPath, 'utf8'))
+
+  if (Array.isArray(raw.questions)) {
+    // bank.py's own shape — 101 ISK and 104 CPS. No normalising to do.
+    return new Map(raw.questions.map((row: BankRow) => [row.key, row]))
+  }
+
+  if (Array.isArray(raw.items)) {
+    // mcq.py's shape — 102 INT and 103 BMS. 102 INT's own bank carries rows it
+    // tagged for 103 BMS and 104 CPS too (see the file's own `module` field on
+    // each row), because one lane read those source books once for every
+    // module they teach; a module builds only the rows it was tagged for.
+    const fileNames = sourceFileNames(module)
+    const bank = new Map<string, BankRow>()
+    for (const item of raw.items as RawV2Item[]) {
+      if (item.module !== module.id) continue
+      const row: BankRow = {
+        key: item.id,
+        stem: item.stem,
+        options: item.options,
+        answer: item.correct ?? undefined,
+        answerConfidence: v2AnswerConfidence(item),
+        occurrences: [{
+          sourceId: item.sourceId,
+          file: fileNames.get(item.sourceId) ?? item.sourceId,
+          page: item.page,
+          number: item.printedNumber ?? 0,
+        }],
+        timesAsked: 1,
+        topic: item.chapter ?? '',
+        confidence: item.suspect ? 'low' : 'high',
+        variants: [],
+      }
+      bank.set(row.key, row)
+    }
+    return bank
+  }
+
+  throw new Error(`${bankPath}: has neither "questions" (bank.py) nor "items" (mcq.py) — `
+    + 'not a bank shape this loader recognises')
 }
 
 /**
  * The multiple-choice bank, one batch per subject-tree leaf.
  *
  * Machine extraction supplies stems, options and most answers; the leaf seeds
- * under `seeds/mcq/` supply what an author has to decide — which concept a
- * question tests and why each option is right or wrong. A question with no
- * per-option explanation teaches a student nothing beyond "not that one", so
- * the emitter refuses to write one.
+ * under `seeds/mcq/<module>/` supply what an author has to decide — which
+ * concept a question tests and why each option is right or wrong. A question
+ * with no per-option explanation teaches a student nothing beyond "not that
+ * one", so the emitter refuses to write one.
  */
 async function mcq(module: ModuleRef) {
   // Checked before the bank is opened. The bank is one file per module and
   // reading another module's would be exactly the cross-module read the `load`
   // thunk in the registry exists to prevent.
   const leaves = (await mcqLeaves(module.id)).map((one) => one.leaf)
-  if (!leaves.length) return null
+  if (!leaves.length) {
+    console.error(`mcq: no seeds under scripts/kasr/seeds/mcq/${fileSlug(module.id)}/ — `
+      + `skipping the MCQ route for ${module.id}`)
+    return null
+  }
 
-  const bankPath = 'scripts/kasr/extract/mcq-bank.json'
-  if (!existsSync(bankPath)) return null
-  const bank = new Map<string, BankRow>(
-    JSON.parse(readFileSync(bankPath, 'utf8')).questions.map((row: BankRow) => [row.key, row]))
+  const bank = loadBank(module)
+  if (!bank) {
+    console.error(`mcq: no bank at ${bankPathFor(module)} — skipping the MCQ route for ${module.id}`)
+    return null
+  }
 
   // Concepts first: their exam signal is every occurrence of every question
   // that tests them, which is the whole reason a question book is worth
@@ -681,7 +847,14 @@ if (!MODULES[only]) {
   throw new Error(`"${only}" is not a module in the catalogue — one of ${Object.keys(MODULES).join(', ')}`)
 }
 const wanted = REGISTRATIONS.filter((entry) => entry.module === only)
-if (!wanted.length) throw new Error(`no registered paper belongs to "${only}"`)
+// A module with no registered written paper yet can still have a question
+// book worth building — MCQ triage under `seeds/mcq/<module>/` does not wait
+// on a written paper being seeded, and the two are seeded by different people
+// on different schedules. So this only refuses a module that has *neither*: a
+// bare run naming a module nobody has put anything into yet.
+if (!wanted.length && !(await mcqLeaves(only)).length) {
+  throw new Error(`no registered paper and no MCQ seeds belong to "${only}" — nothing to build`)
+}
 
 const papers: Paper[] = []
 for (const entry of wanted) {

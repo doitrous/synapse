@@ -7,7 +7,8 @@
  * is why each option is right or wrong, which concept the question tests, and
  * whether the question is fit to sit at all.
  *
- * One file per subject-tree leaf, under `seeds/mcq/`. A leaf is the unit
+ * One file per subject-tree leaf, under `seeds/mcq/<module>/` — `seeds/mcq/101-ISK/`,
+ * `seeds/mcq/102-INT/`, and so on, one folder per module. A leaf is the unit
  * because it is the unit the faculty teaches in, the unit its article covers,
  * and small enough that one pass over it can be held in mind at once.
  *
