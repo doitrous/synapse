@@ -147,13 +147,13 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'upper-limb-superficial-veins-origin-course-termination',
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Place the cephalic vein on the correct side of the limb.',
-      answerOverride: 'A',
+      answerOverride: 'a',
       answerOverrideReason: 'The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.',
       explanations: {
-        A: 'Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.',
-        B: 'The basilic vein\'s side, and the answer given by every student who has the two names the wrong way round.',
-        C: 'The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.',
-        D: 'The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.',
+        a: 'Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.',
+        b: 'The basilic vein\'s side, and the answer given by every student who has the two names the wrong way round.',
+        c: 'The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.',
+        d: 'The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.',
       },
     },
     {

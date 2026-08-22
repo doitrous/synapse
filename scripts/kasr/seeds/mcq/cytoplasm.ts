@@ -3601,14 +3601,14 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'golgi-apparatus-em-structure-products-and-functions',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Attribute secretory vesicles to the Golgi apparatus.',
-      answerOverride: 'C',
+      answerOverride: 'c',
       answerOverrideReason:
         'The book keys B, tubules of the rough reticulum, which produce transfer vesicles. Secretory vesicles bud from the Golgi\'s exit face; the same books key `the-organelle-that-packages-proteins-within-the-cell-is-41e916bd` and `all-of-the-following-are-products-of-golgi-apparatus-except-6aaae4bb` consistently with the Golgi as the source.',
       explanations: {
-        A: 'Smooth reticulum tubules handle lipid and detoxification and bud no secretory vesicle.',
-        B: 'The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and this is the option the book keys.',
-        C: 'Correct. The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.',
-        D: 'Mitochondria make ATP and export nothing.',
+        a: 'Smooth reticulum tubules handle lipid and detoxification and bud no secretory vesicle.',
+        b: 'The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and this is the option the book keys.',
+        c: 'Correct. The Golgi apparatus, from its trans face, after packing and concentrating the protein the reticulum sent it.',
+        d: 'Mitochondria make ATP and export nothing.',
       },
     },
     {

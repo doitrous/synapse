@@ -732,13 +732,13 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'axillary-nerve-injury-shoulder-dislocation',
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Name the movement to test when the axillary nerve is at risk, and say why it is that movement.',
-      answerOverride: 'D',
+      answerOverride: 'd',
       answerOverrideReason: 'The source printed no key. This is the second printing of the same case; abduction is the movement deltoid alone performs, so it is the one that confirms an axillary nerve lesion.',
       explanations: {
-        A: 'Flexion has four muscles behind it and is barely weakened.',
-        B: 'Extension is latissimus dorsi and teres major, both unaffected.',
-        C: 'Rotation is shared by many muscles; losing teres minor alone will not abolish it.',
-        D: 'Correct. Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.',
+        a: 'Flexion has four muscles behind it and is barely weakened.',
+        b: 'Extension is latissimus dorsi and teres major, both unaffected.',
+        c: 'Rotation is shared by many muscles; losing teres minor alone will not abolish it.',
+        d: 'Correct. Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.',
       },
     },
     {

@@ -927,11 +927,14 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'small-muscles-of-the-hand-groups-and-their-nerves',
       difficulty: 'Moderate', questionType: 'Clinical application',
       learningObjective: 'Give the motor loss of a deep branch lesion and explain why sensation is spared.',
+      answerOverride: 'c',
+      answerOverrideReason:
+        'The 2024 paper printed no key, and the letter carried on this row from a question-book copy is the upper-case C of a differently lettered printing, which is no longer a letter this row has. The department book settles it without a key: it says the deep branch of the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei and adductor pollicis, and that the three thenar muscles — abductor pollicis brevis among them — are median. It also puts the sensation of the little finger in the superficial branch, so option d is spared as well. Adductor pollicis is the only option the deep branch reaches.',
       explanations: {
-        A: 'Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.',
-        B: 'Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.',
-        C: 'Correct, and the key. Adductor pollicis is the deep branch\'s largest muscle, and its loss is what produces Froment\'s sign when the patient tries to pinch a sheet of paper.',
-        D: 'The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.',
+        a: 'Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.',
+        b: 'Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.',
+        c: 'Correct. Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment\'s sign when the patient tries to pinch a sheet of paper.',
+        d: 'The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.',
       },
     },
     {

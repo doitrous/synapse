@@ -274,13 +274,13 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'pectoralis-major-attachment-action-nerve',
       difficulty: 'Easy', questionType: 'Nerve supply',
       learningObjective: 'State that pectoralis major takes both pectoral nerves, one to each head.',
-      answerOverride: 'C',
+      answerOverride: 'c',
       answerOverrideReason: 'The source printed no key. Pectoralis major is the standard example of a doubly innervated muscle: the lateral pectoral nerve supplies the clavicular head and the medial pectoral nerve, after passing through pectoralis minor, supplies the sternocostal head.',
       explanations: {
-        A: 'Half the supply. The lateral pectoral nerve, from the lateral cord, reaches the clavicular head — but the sternocostal head has its own nerve.',
-        B: 'The other half. The medial pectoral nerve, from the medial cord, pierces pectoralis minor and supplies the sternocostal head, and it also supplies pectoralis minor on its way.',
-        C: 'Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.',
-        D: 'There is no nerve of that name. It is invented by analogy with the nerve to serratus anterior and the nerve to subclavius, and the invented name is the giveaway.',
+        a: 'Half the supply. The lateral pectoral nerve, from the lateral cord, reaches the clavicular head — but the sternocostal head has its own nerve.',
+        b: 'The other half. The medial pectoral nerve, from the medial cord, pierces pectoralis minor and supplies the sternocostal head, and it also supplies pectoralis minor on its way.',
+        c: 'Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.',
+        d: 'There is no nerve of that name. It is invented by analogy with the nerve to serratus anterior and the nerve to subclavius, and the invented name is the giveaway.',
       },
     },
     {

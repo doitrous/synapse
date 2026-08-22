@@ -45,7 +45,7 @@
     Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
 
-  Extracted from 2867 distinct questions across thirty question books and
+  Extracted from 2947 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
   copy each other freely. Every item carries how many times it was asked, which is
   blueprint evidence no single sat paper can give.
@@ -1228,7 +1228,7 @@ ART-101-ANA-ARM | ART-101-ANA-FOREARM-RETINACULUM-ROTATION | ART-101-ANA-RADIAL-
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Select the correct statement; the musculocutaneous nerve: (2024)
+[asked 2x across the question books] Select the correct statement; the musculocutaneous nerve:
 ## conflicts
 [clear]
 ## uncertainty
@@ -2202,7 +2202,7 @@ ART-101-ANA-SYNOVIAL-JOINTS
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] An example of a secondary cartilaginous joint is: (2024)
+[asked 2x across the question books] An example of a secondary cartilaginous joint is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4026,7 +4026,7 @@ ART-101-ANA-AXILLA-BREAST | ART-101-ANA-PECTORALIS-MAJOR
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Considering the nerve supply of pectoralis major; It is innervated by (2024)
+[asked 2x across the question books] Considering the nerve supply of pectoralis major; it is innervated by:
 ## conflicts
 [clear]
 ## uncertainty
@@ -4678,14 +4678,15 @@ kau
 ## exam_signal
 src_c6ab1b49dc16762227e1 | question_book | | p7 | 101 ISK
 src_a54bbf7a625ba2b172fc | question_book | | p4 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p16 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p3 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p4 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.47
+0.55
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.55
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4703,7 +4704,7 @@ ART-101-HIS-BLOOD-PLATELETS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Granulomere of blood platelets contains:
+[asked 3x across the question books] Granulomere of blood platelets contains:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6173,6 +6174,8 @@ src_34c967631e388497dc35 | question_book | | p10 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p5 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p15 | 101 ISK
+src_1641d3629225bb111726 | question_book | | p12 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -6196,7 +6199,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-MICROTECHNIQUES | ART-101-HIS-
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Which one of the following C.T cells is typically an antigen presenting cell:
+[asked 3x across the question books] Histiocytes originate from:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6880,7 +6883,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Asection in the tendon shows all the following features except:
+[asked 3x across the question books] A 43-year-old woman presented with a breast mass, examination of the biopsy revealed a normal lobule of mammary gland surrounded by densely packed collagen fibers orlented In different directions with few cells in between. This area is primarily composed of which of the following types of C.T.:
 ## conflicts
 [clear]
 ## uncertainty
@@ -6989,6 +6992,8 @@ kau
 ## exam_signal
 src_2944234d11e92ac4bbc8 | question_book | | p5 | 101 ISK
 src_c6ab1b49dc16762227e1 | question_book | | p8 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p16 | 101 ISK
+src_1641d3629225bb111726 | question_book | | p13 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p8 | 101 ISK
 src_34c967631e388497dc35 | question_book | | p12 | 101 ISK
@@ -6996,9 +7001,9 @@ src_34c967631e388497dc35 | question_book | | p6 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.63
+0.79
 ## exam_weight_by_year
-KAU_Y1=0.63
+KAU_Y1=0.79
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -7016,7 +7021,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-HAEMOPOIESIS | ART-101-HIS-RED
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Fixed cells of bone marrow include the following except:
+[asked 3x across the question books] The largest cell in bone marrow is:
 ## conflicts
 [clear]
 ## uncertainty
@@ -7407,6 +7412,7 @@ src_6846577508f49244d715 | question_book | | p6 | 101 ISK
 src_6846577508f49244d715 | question_book | | p26 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 src_6846577508f49244d715 | question_book | | p20 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p14 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p5 | 101 ISK
 src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 ## weight_confidence
@@ -7542,6 +7548,7 @@ kau
 src_d1414701d8fcb55932b6 | question_book | | p6 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p1 | 101 ISK
+src_1641d3629225bb111726 | question_book | | p11 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p6 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p6 | 101 ISK
 src_4a8ddb5edfab86d624d8 | question_book | | p2 | 101 ISK
@@ -7576,7 +7583,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CYTOPLASMIC-ORGANELLES
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] smooth endoplasmic reticulum is seen in:
+[asked 3x across the question books] smooth endoplasmic reticulum is seen in:
 ## conflicts
 [clear]
 ## uncertainty
@@ -8231,6 +8238,7 @@ src_9e6aad6c6af097e473d6 | question_book | | p3 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p8 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
 src_ce4292e31edea7517e7b | question_book | | p2 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p15 | 101 ISK
 src_4e481d399b2ffd65b97a | question_book | | p5 | 101 ISK
 src_c30d9391aa0861f41e44 | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p19 | 101 ISK
@@ -8240,9 +8248,9 @@ src_4e481d399b2ffd65b97a | question_book | | p12 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.95
+1.00
 ## exam_weight_by_year
-KAU_Y1=0.95
+KAU_Y1=1.00
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -8260,7 +8268,7 @@ ART-101-HIS-CONNECTIVE-TISSUE-CELLS | ART-101-HIS-CONNECTIVE-TISSUE-FIBRES | ART
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] Mallory trichrome stain can be used for demonstration of:
+[asked 2x across the question books] The C.T. fibers stained brown with-orcéin are ottttteeudeeeeeees fibers:
 ## conflicts
 [clear]
 ## uncertainty
@@ -9883,6 +9891,7 @@ src_34c967631e388497dc35 | question_book | | p3 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p16 | 101 ISK
 src_9487fd713153c573087f | question_book | | p3 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p14 | 101 ISK
 src_9487fd713153c573087f | question_book | | p1 | 101 ISK
 ## weight_confidence
 0.8
@@ -11995,6 +12004,7 @@ kau
 ## exam_signal
 src_6846577508f49244d715 | question_book | | p22 | 101 ISK
 src_6846577508f49244d715 | question_book | | p23 | 101 ISK
+src_1641d3629225bb111726 | question_book | | p11 | 101 ISK
 src_6846577508f49244d715 | question_book | | p8 | 101 ISK
 src_6846577508f49244d715 | question_book | | p3 | 101 ISK
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
@@ -12030,7 +12040,7 @@ ART-101-HIS-CYTOPLASMIC-ORGANELLES | ART-101-ANA-GAMETES | ART-101-HIS-MEMBRANOU
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] One of the following is a character of the shaft of cilia:
+[asked 2x across the question books] basal body of cilia consists of:
 ## conflicts
 [clear]
 ## uncertainty
@@ -28159,6 +28169,7 @@ src_c30d9391aa0861f41e44 | question_book | | p10 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p12 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p9 | 101 ISK
 src_9e6aad6c6af097e473d6 | question_book | | p2 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p14 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
@@ -32467,7 +32478,7 @@ ART-101-ANA-SKELETAL-SYSTEM
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Longitudinal growth in a growing bone passes through which of the following? (2024)
+[asked 2x across the question books] Longitudinal growth in a growing bone passes through which of the following?
 ## conflicts
 [clear]
 ## uncertainty
@@ -33244,6 +33255,7 @@ src_d184b8378f4d66d285e0 | question_book | | p11 | 101 ISK
 src_ce4292e31edea7517e7b | question_book | | p1 | 101 ISK
 src_bb081b0479f7a33666cd | question_book | | p10 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p10 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p15 | 101 ISK
 src_25ac512fb1cb23a6f696 | question_book | | p7 | 101 ISK
 src_1fb914ce96908301b7b1 | question_book | | p13 | 101 ISK
 src_d184b8378f4d66d285e0 | question_book | | p1 | 101 ISK
@@ -34365,6 +34377,7 @@ src_d1414701d8fcb55932b6 | question_book | | p24 | 101 ISK
 src_6846577508f49244d715 | question_book | | p10 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p7 | 101 ISK
 src_6846577508f49244d715 | question_book | | p11 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p14 | 101 ISK
 src_620516ae7327c0f4fc2f | question_book | | p1 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p4 | 101 ISK
 src_6846577508f49244d715 | question_book | | p2 | 101 ISK
@@ -34372,9 +34385,9 @@ src_6846577508f49244d715 | question_book | | p9 | 101 ISK
 ## weight_confidence
 0.8
 ## blueprint_weight
-0.87
+0.95
 ## exam_weight_by_year
-KAU_Y1=0.87
+KAU_Y1=0.95
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -34505,6 +34518,7 @@ src_d1414701d8fcb55932b6 | question_book | | p20 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p26 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p2 | 101 ISK
 src_2944234d11e92ac4bbc8 | question_book | | p6 | 101 ISK
+src_51fef9b6234c5d381f59 | question_book | | p16 | 101 ISK
 src_d1414701d8fcb55932b6 | question_book | | p22 | 101 ISK
 src_6846577508f49244d715 | question_book | | p3 | 101 ISK
 src_6846577508f49244d715 | question_book | | p9 | 101 ISK
@@ -34536,7 +34550,7 @@ ART-101-HIS-THE-CELL
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] The cell membrane of the mast cells have specific receptors for:
+[asked 2x across the question books] Cell membrane of basophils shows receptors for:
 ## conflicts
 [clear]
 ## uncertainty
@@ -35597,7 +35611,7 @@ ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE
 ## support_mode
 direct_statement
 ## original_wording
-[asked 2x across the question books] Reticular fibers e. Anchoring fibres f. Capsule of organs g. Orcein stain Table Ill [Concerning Types of Connective Tissue Proper]: Column (B) 4- Loose areolar C.T. a. Mediastinal region 2- Yellow elastic C.T. b. Large arteries 3- Regular white fibrous c. Tendons 4- oa adipose C.T. d. Pulp of teeth 5- Mucoid C,T. 6, Ear pinna f. Sclera g. Most abundant type 21 Answers of Connective Tissue ١
+[asked 4x across the question books] Reticular fibers e. Anchoring fibres f. Capsule of organs g. Orcein stain Table Ill [Concerning Types of Connective Tissue Proper]: Column (B) 4- Loose areolar C.T. a. Mediastinal region 2- Yellow elastic C.T. b. Large arteries 3- Regular white fibrous c. Tendons 4- oa adipose C.T. d. Pulp of teeth 5- Mucoid C,T. 6, Ear pinna f. Sclera g. Most abundant type 21 Answers of Connective Tissue ١
 ## conflicts
 [clear]
 ## uncertainty

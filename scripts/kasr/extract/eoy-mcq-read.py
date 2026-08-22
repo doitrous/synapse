@@ -16,6 +16,9 @@ layer, so `pdftotext` returns nothing and the OCR pass never reached them.
 Read off the rendered images instead.
 
 `EOY 195 first 2022` Section B, pp. 14–16: 29 questions at ½ mark each.
+`EOY 195 first 2022 … final module` Section B, pp. 11–13: 29 more, the second
+sitting of the same year — a parallel paper rather than a copy, varied question
+by question from the same blueprint.
 `EOY (ISK - 101) 198` Section 2 part II, p. 9: 10 questions at 1 mark each.
 
 Its part III — two extended-matching tables on p. 10, 1 mark each — is NOT here.
@@ -38,6 +41,17 @@ PAPERS = {
     "eoy-195-2022": {
         "sourceId": "src_51fef9b6234c5d381f59",
         "file": "EOY 195 first 2022 101 ISK final (1).pdf",
+        "section": "Section B: Multiple Choices questions",
+        "marksEach": 0.5, "satYear": 2022, "tier": "end_of_year",
+    },
+    "eoy-195-2022-second": {
+        # A parallel paper, not a copy. Same section, same structure, same
+        # marks — and systematically varied: where the first sitting asks the
+        # axoneme this asks the basal body, where it asks nerve cells this asks
+        # secretory cells, where it asks peripheral chromatin this asks
+        # chromatin islands. Two sittings of one year, set from one blueprint.
+        "sourceId": "src_1641d3629225bb111726",
+        "file": "EOY 195 first 2022  101 ISK  final module (1).pdf",
         "section": "Section B: Multiple Choices questions",
         "marksEach": 0.5, "satYear": 2022, "tier": "end_of_year",
     },
@@ -91,6 +105,35 @@ Q = [
  ("eoy-198-2024", 9, 8, "Connective tissue cell that can be stained with Toluidine blue stain is:", "Reticular cell", "Macrophage", "Mast cell", "Plasma cell"),
  ("eoy-198-2024", 9, 9, "Type of connective tissue proper forming sclera is ....... C.T. :", "Irregular white fibrous", "Loose areolar", "Mucoid", "Reticular"),
  ("eoy-198-2024", 9, 10, "collagen fibers can be stained with :", "Hematoxylin & Eosin", "Silver (Ag)", "Sudan III", "Orcein"),
+ ("eoy-195-2022-second", 11, 1, "Smooth endoplasmic reticulum is involved in:", "Protein synthesis", "Steroid synthesis", "Energy production", "Cell recognition"),
+ ("eoy-195-2022-second", 11, 2, "Microtubules, microfilaments, and intermediate filaments are components of:", "cell membrane", "Nucleus", "Golgi apparatus", "Cytoskeleton"),
+ ("eoy-195-2022-second", 11, 3, "The ribosome is concerned with:", "Calcium pumping in muscle contraction", "Protein synthesis", "Energy production", "Cellular digestion"),
+ ("eoy-195-2022-second", 11, 4, "Chromatin islands:", "A part of euchromatin", "Attached to inner nuclear membrane", "Surrounds the nucleolus", "Scattered in the nuclear sap"),
+ ("eoy-195-2022-second", 11, 5, "In secretory cells, the Golgi body is located:", "Apical", "Perinuclear", "Basal", "Eccentric"),
+ ("eoy-195-2022-second", 11, 6, "Silver staining is used to demonstrate:", "Mitochondria & cell membrane", "Golgi apparatus & cell membrane", "Lysosomes & Golgi apparatus", "Mitochondria & sER"),
+ ("eoy-195-2022-second", 11, 7, "Energy production is the function of:", "Golgi apparatus", "Mitochondria", "Rough endoplasmic reticulum", "Smooth endoplasmic reticulum"),
+ ("eoy-195-2022-second", 11, 8, "The basal body of the cilia is composed of:", "27 microtubules", "9 microtubules", "20 microtubules", "18 microtubules"),
+ ("eoy-195-2022-second", 11, 9, "Active fibroblasts have:", "Few organelles", "Dark nucleus", "Numerous rER", "Acidophilic cytoplasm"),
+ ("eoy-195-2022-second", 12, 10, "Connective tissue cell that shows a signet ring appearance with H&E stain is:", "Lymphocyte", "Unilocular fat cell", "Fibroblast", "Multilocular fat cell"),
+ ("eoy-195-2022-second", 12, 11, "Connective tissue cell that can be metachromatically stained is:", "Mast cell", "Macrophage", "Reticular cell", "Plasma cell"),
+ ("eoy-195-2022-second", 12, 12, "Yellow elastic connective tissue is found in one of the following sites:", "Cornea", "Aorta", "Capsules of organs", "Umbilical cord"),
+ ("eoy-195-2022-second", 12, 13, "The type of connective tissue proper (C.T.) forming stroma of organs is:", "White adipose C.T.", "Regular white fibrous C.T.", "Loose areolar C.T.", "Reticular C.T."),
+ ("eoy-195-2022-second", 12, 14, "Collagen fibers can be stained with:", "Best's carmine", "Silver", "Sudan III", "Eosin"),
+ ("eoy-195-2022-second", 12, 15, "Histiocytes (macrophage) originate from:", "B-lymphocytes", "Megakaryocytes", "Monocytes", "Adipocytes"),
+ ("eoy-195-2022-second", 12, 16, "Choose the correct answer about brown adipose connective tissue:", "Heat generation", "Forms stroma of the glands", "Not affected by hormones", "Withstands stress in one direction"),
+ ("eoy-195-2022-second", 12, 17, "The epithelial tissue is characterized by:", "High regenerative power", "Very wide intercellular space", "Penetrated by blood vessels", "No basement membrane"),
+ ("eoy-195-2022-second", 12, 18, "Simple cubical epithelium is formed of one layer of:", "Tall cells with flat nuclei", "Multiple cell layers with rounded nuclei.", "Flat cells with flat nuclei", "Cube-like cells with rounded nuclei"),
+ ("eoy-195-2022-second", 12, 19, "Simple squamous epithelium is concerned with:", "Secretion", "Gas exchange", "Contraction", "Protection"),
+ ("eoy-195-2022-second", 13, 20, "Regarding the exocrine gland:", "It is only unicellular", "It is only merocrine", "Its secretion is carried by blood", "Its secretion is carried by duct system"),
+ ("eoy-195-2022-second", 13, 21, "Microvilli are composed of:", "Intermediate filaments", "Microfilaments", "Microtubules", "Keratin filaments"),
+ ("eoy-195-2022-second", 13, 22, "One character for gap junction is:", "Encircles the apex of the cell", "Permitting ions exchange", "Formed of attachment plaque anchoring intermediate filaments", "Formed of condensed protein anchoring microfilaments"),
+ ("eoy-195-2022-second", 13, 23, "Anchoring fibrils attaching the basement membrane to underlying C.T. is:", "Collagen type IV", "Collagen type III", "Collagen type VII", "Collagen type II"),
+ ("eoy-195-2022-second", 13, 24, "Fusion of the two cell membranes at certain points occur in:", "Gap junctions", "Desmosomes", "Tight junctions", "Adherens junctions"),
+ ("eoy-195-2022-second", 13, 25, "The largest cell in the bone marrow is:", "Pericyte", "Osteogenic cell", "Fat cell", "Fibroblast"),
+ ("eoy-195-2022-second", 13, 26, "Neutrophils:", "Increase in parasitic disease", "Decrease in typhoid fever", "Terminate allergy", "Result in the humoral immunity"),
+ ("eoy-195-2022-second", 13, 27, "Concerning Reticulocytes:", "Percentage increases in haemorrhage", "Mature RBCs", "Percentage in normal blood is more than 7%", "Smaller than RBCs"),
+ ("eoy-195-2022-second", 13, 28, "Serotonin in blood platelets presents in:", "Cytoskeletal microtubules", "Open canalicular system", "Delta (dense) granules", "Dense canalicular system"),
+ ("eoy-195-2022-second", 13, 29, "Leucocytes promote the allergy are called:", "Neutrophils", "Monocytes", "Lymphocytes", "Basophils"),
 ]
 
 
@@ -118,8 +161,7 @@ def main():
                    "eoy-198-2024": "Section 2 part III, two extended-matching tables on p10 at 1 mark "
                                    "each. A matching question belongs to its paper's seed, not the "
                                    "MCQ bank — see seeds/types.ts on WrittenFormat 'matching'.",
-                   "eoy-2022-second": "Its Section B, 29 questions on pp11-13, is legible and still "
-                                      "unread. Same treatment as the 2022 first sitting above.",
+                   "eoy-2022-second": "Read. Its 29 are here.",
                },
                "questions": rows}, open(OUT, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"{len(rows)} end-of-year MCQs -> {OUT}")

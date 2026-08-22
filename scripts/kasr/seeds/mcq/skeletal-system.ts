@@ -428,13 +428,13 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'long-bone-grows-in-length-at-the-epiphyseal-plate',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Name the structure through which a growing bone lengthens, and separate it from the scar it leaves.',
-      answerOverride: 'C',
+      answerOverride: 'c',
       answerOverrideReason: 'The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.',
       explanations: {
-        A: 'The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.',
-        B: 'The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.',
-        C: 'Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.',
-        D: 'The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.',
+        a: 'The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.',
+        b: 'The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.',
+        c: 'Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.',
+        d: 'The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.',
       },
     },
     {
