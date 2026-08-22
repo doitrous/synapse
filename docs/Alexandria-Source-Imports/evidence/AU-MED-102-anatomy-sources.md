@@ -162,3 +162,211 @@ A past End of Module paper — curriculum/exam signal for what this faculty asks
 
 ## is_assessment
 yes
+
+---
+
+# Item
+
+## id
+src_2df3b7f9b3b393dc1d8f
+
+## title
+MCQs — Foundation Anatomy & Embryology (Nebras Team question bank)
+
+## institution
+Alexandria University — Faculty of Medicine (student-compiled question bank, Anatomy department folder)
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Anatomy/Questions/MCQs - Foundation Anatomy & Embryology mcqs Nebras.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+23
+
+## sha256
+2df3b7f9b3b393dc1d8f1da0609c4dead6c97d00da44187e00ff724f5599677f
+
+## rights
+Faculty teaching material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is taught and examined, never reproduced to a student.
+
+## qualification
+A student-compiled department question bank with a clean, dedicated answer key per section — curriculum/exam signal for what is asked and how, not an independent medical authority.
+
+## confidence
+0.55
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_98e8ccbfb3fe73a8c8e3
+
+## title
+MCQs — Questions Anatomy ("Alpha Team", items 116–165)
+
+## institution
+Alexandria University — Faculty of Medicine (student-compiled question bank, Anatomy department folder)
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Anatomy/Questions/MCQs - Questions Anatomy.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+13
+
+## sha256
+98e8ccbfb3fe73a8c8e3538af8d3214fbebe232edaac76f195b88d3ec8d7ac43
+
+## rights
+Faculty teaching material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is taught and examined, never reproduced to a student.
+
+## qualification
+A student-compiled department question bank (numbered 116–165, continuing a larger shared item pool also drawn on by the Nebras bank), fully keyed. Curriculum/exam signal, not an independent medical authority.
+
+## confidence
+0.55
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_8d6ddf874f8984be8217
+
+## title
+EOM — End foundation 2030 (AU-MED-102 End of Module paper, cohort 2030)
+
+## institution
+Alexandria University — Faculty of Medicine
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Exams/EOM - End foundation 2030.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+12
+
+## sha256
+8d6ddf874f8984be821729737a170938baa3db222d786d385841becc8f1ced54
+
+## rights
+Faculty examination material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is examined, never reproduced to a student as a leaked paper.
+
+## qualification
+A past End of Module paper — curriculum/exam signal for what this faculty asks and how it is worded, not an independent medical authority. Content-identical to `src_7d031a45baeadc973a00` (same per-department question sets and answer blocks, filed under the stream-labelled name).
+
+## confidence
+0.8
+
+## is_assessment
+yes
+
+---
+
+# Item
+
+## id
+src_7d031a45baeadc973a00
+
+## title
+EOM — end foundation مصريين (AU-MED-102 End of Module paper, Egyptian stream)
+
+## institution
+Alexandria University — Faculty of Medicine
+
+## processing_status
+native-text-extracted
+
+## collection_id
+au-y1
+
+## source_relative_path
+y1/MED 102 - Foundation of Basic Medical Sciences & Medical Terminology/Foundation of Basic Medical Sciences/Exams/EOM - end foundation  مصريين 222 1.pdf
+
+## source_uri
+
+## media_type
+application/pdf
+
+## languages
+en
+
+## publication_date
+
+## accessed_at
+
+## page_count
+11
+
+## sha256
+7d031a45baeadc973a008fa8c5394b664c64630209792a393113f7b8e5283695
+
+## rights
+Faculty examination material held by the student who supplied the Alexandria University corpus. Not redistributable; used here to derive what is examined, never reproduced to a student as a leaked paper.
+
+## qualification
+A past End of Module paper — curriculum/exam signal for what this faculty asks and how it is worded, not an independent medical authority. Content-identical to `src_8d6ddf874f8984be8217` (same per-department question sets and answer blocks, filed under the cohort-labelled name).
+
+## confidence
+0.8
+
+## is_assessment
+yes
