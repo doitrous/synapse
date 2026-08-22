@@ -1,0 +1,315 @@
+{
+  "source": {
+    "id": "src_df6b7a7de75411dbb92b",
+    "file": "EOY 104 Final (198 1st) (1).pdf",
+    "module": "104 CPS",
+    "sittingYear": 2025,
+    "tier": "end_of_year",
+    "sections": ["Physiology", "Anatomy"]
+  },
+
+  "seeds": [
+    {
+      "q": 3, "section": "Physiology", "page": 3, "marks": 10,
+      "asked": "Explain the function and resetting of baroreceptor reflex in regulation of arterial blood pressure",
+      "label": "Arterial baroreceptor discharge rises and falls with arterial pressure and, through the nucleus of the tractus solitarius, opposes whichever change caused it",
+      "key": "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      "definition": "Arterial baroreceptors are stretch receptors in the carotid sinus and the aortic arch, reporting to the nucleus of the tractus solitarius through the carotid sinus (Hering's) nerve and the aortic nerve. When arterial pressure rises their discharge increases: the vasomotor area is inhibited more, so sympathetic drive to heart and vessels falls, giving a lower heart rate, stroke volume and cardiac output with vasodilatation; and the cardiac inhibitory area is excited more, so vagal tone rises and the rate falls further. When arterial pressure falls the discharge decreases and every one of those changes reverses, raising the pressure back towards normal.",
+      "objective": "State where the arterial baroreceptors sit, which nerves they use, and what each limb of the reflex does when arterial pressure rises and when it falls.",
+      "pitfall": "Answering with the atrial volume receptors. Those are low-pressure receptors whose reflex is about volume, not arterial pressure.",
+      "subject": "cvs", "primary": "DIS-PHY-T02", "secondary": ["SYS-CVS-T01-S02-M03"],
+      "modulePath": "104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control",
+      "type": "mechanism"
+    },
+    {
+      "q": 7, "section": "Anatomy", "page": 5, "marks": 5,
+      "asked": "Identify fate of the aortic arches",
+      "label": "Of the six pairs of pharyngeal arch arteries, the third forms the carotids, the fourth forms the subclavian on the right and the arch of the aorta on the left, and the sixth's dorsal segment persists on the left as the ductus arteriosus",
+      "key": "aortic-arches.fate-of-the-six-pairs",
+      "definition": "The two primitive aortae, continuous with the paired endocardial heart tubes, each split after folding into a ventral aorta, a dorsal aorta and a first aortic arch connecting them through the first pharyngeal arch. The two ventral aortae fuse into the aortic sac, and as each pharyngeal arch develops the sac sends it a branch, giving six paired aortic arch arteries in turn, not all present simultaneously. Their fates diverge by pair: the first and second largely disappear, leaving only the maxillary and the hyoid/stapedial arteries; the third forms the common carotid artery and the proximal internal carotid on each side; the fourth forms part of the right subclavian artery on the right and the middle part of the aortic arch on the left; the fifth disappears completely; and the sixth's ventral segment forms the pulmonary arteries on each side while its dorsal segment disappears on the right but persists on the left as the ductus arteriosus.",
+      "objective": "State the adult derivative of the third, fourth and sixth pairs of aortic arch arteries on each side.",
+      "pitfall": "Giving both sides of the sixth arch artery the same fate. Its dorsal segment disappears on the right but persists on the left as the ductus arteriosus.",
+      "subject": "dev", "primary": "DIS-EMB-T03", "secondary": ["SYS-CVS-T01-S01"],
+      "modulePath": "104 CPS > Anatomy > Development of the Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 8, "section": "Anatomy", "page": 6, "marks": 5,
+      "asked": "List the tributaries of azygos vein",
+      "label": "The posterior intercostal veins end differently on the two sides: on the right directly in the azygos system, on the left through the two hemiazygos veins",
+      "key": "posterior-intercostal-and-subcostal-veins.termination",
+      "definition": "There are eleven posterior intercostal veins and a subcostal vein on each side. On the right the first ends in the right brachiocephalic vein; the second, third and fourth unite as the right superior intercostal vein, which ends in the arch of the azygos vein; and the fifth to eleventh, with the subcostal vein, open separately into the azygos vein. On the left the first ends in the left brachiocephalic vein; the second, third and fourth unite as the left superior intercostal vein, ending in the left brachiocephalic vein; the fifth to eighth open into the superior hemiazygos vein; and the ninth, tenth and eleventh, with the subcostal vein, open into the inferior hemiazygos vein. Both hemiazygos veins cross the midline to end in the azygos vein.",
+      "objective": "Give the termination of each posterior intercostal vein and of the subcostal vein on both sides, and name the tributaries that reach the azygos vein directly versus through the hemiazygos veins.",
+      "pitfall": "Forgetting the first vein on either side. It joins no part of the azygos system — it goes straight to the brachiocephalic vein.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M04"],
+      "modulePath": "104 CPS > Anatomy > Intercostal Spaces",
+      "type": "definition"
+    },
+    {
+      "q": 9, "section": "Anatomy", "page": 6, "marks": 5,
+      "asked": "Enumerate the contents of the root of the lung",
+      "label": "The root of the lung is enclosed in a pleural sleeve and its structures are arranged with the superior pulmonary vein most anterior, the principal bronchus most posterior and the artery in front of the bronchus",
+      "key": "lung.hilum-and-root",
+      "definition": "The root is the group of structures sleeved by a downward prolongation of mediastinal pleura that continues below as the pulmonary ligament. In both lungs the superior pulmonary vein lies most anteriorly, the inferior pulmonary vein most inferiorly, and the principal bronchus most posteriorly. The pulmonary artery lies in front of the bronchus, above it on the left and between the bronchus and superior pulmonary vein on the right. Bronchial vessels, the anterior and posterior pulmonary plexuses, and bronchopulmonary lymph nodes and vessels fill the spaces between these named structures.",
+      "objective": "List the structures at the root of the lung and give their antero-posterior order.",
+      "pitfall": "Placing the pulmonary artery in the same position on both sides; it is asymmetric between the right and left root.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": [],
+      "modulePath": "104 CPS > Anatomy > Lungs",
+      "type": "structural_description"
+    },
+    {
+      "q": 10, "section": "Anatomy", "page": 7, "marks": 5,
+      "asked": "Mention the vessels in the superior mediastinum",
+      "label": "The superior mediastinum holds the great veins and thymus in front, the aortic arch and its three branches in the middle, and the trachea, oesophagus and thoracic duct behind",
+      "key": "superior-mediastinum.contents",
+      "definition": "Retrosternally the superior mediastinum holds the two brachiocephalic veins, the upper half of the superior vena cava, the left superior intercostal vein and the thymus gland; more centrally, the arch of the aorta and its three branches — brachiocephalic, left common carotid and left subclavian — with the bifurcation of the pulmonary trunk in its concavity; and, most posteriorly, the trachea, the oesophagus, and the thoracic duct ascending behind the oesophagus's left border.",
+      "objective": "List the named vessels of the superior mediastinum by their front-to-back grouping.",
+      "pitfall": "Placing the thoracic duct in front of the oesophagus; it is the most posterior of the three tubal structures.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": [],
+      "modulePath": "104 CPS > Anatomy > Mediastinum",
+      "type": "structural_description"
+    },
+    {
+      "q": 11, "section": "Anatomy", "page": 8, "marks": 5,
+      "asked": "Give the distribution of the right coronary artery",
+      "label": "The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system",
+      "key": "right-coronary-artery.course-and-distribution",
+      "definition": "The right coronary artery supplies the whole right atrium, the whole right ventricle except a strip beside the anterior interventricular groove, a strip of the left ventricle's diaphragmatic surface beside the posterior interventricular groove, the posterior third of the interventricular septum, and the whole conducting system in most people: the SA node in 60% and the AV node and bundle branches in 80%.",
+      "objective": "State what the right coronary artery supplies and in what proportion of people it supplies the SA and AV nodes.",
+      "pitfall": "Assuming the right coronary artery always supplies the SA node — it does so in only 60% of people.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": ["SYS-CVS-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 12, "section": "Anatomy", "page": 9, "marks": 5,
+      "asked": "Discuss site, formation and branches of deep cardiac plexus",
+      "label": "The heart's autonomic supply is parasympathetic from the two vagi and sympathetic from the upper five thoracic segments, meeting in superficial and deep cardiac plexuses that only modulate rate, never initiate it",
+      "key": "heart.nerve-supply-and-cardiac-plexuses",
+      "definition": "Parasympathetic preganglionic fibres travel in cervical and thoracic cardiac branches of the vagi and the left recurrent laryngeal nerve; sympathetic preganglionic fibres arise in the lateral horn of the upper five thoracic segments and travel onward as postganglionic cardiac branches. These converge in the superficial cardiac plexus, in the concavity of the aortic arch on the ligamentum arteriosum, and the deep cardiac plexus, in front of the tracheal bifurcation deep to the arch, from which branches pass to the atria and to right and left coronary and pulmonary plexuses.",
+      "objective": "State the site and formation of the deep cardiac plexus and name the branches given off from it.",
+      "pitfall": "Crediting the autonomic nerves with starting the heartbeat; only the SA node and conducting system do that.",
+      "subject": "cvs", "primary": "DIS-ANA-T04", "secondary": [],
+      "modulePath": "104 CPS > Anatomy > Heart",
+      "type": "mechanism"
+    },
+    {
+      "q": 13, "section": "Anatomy", "page": 10, "marks": 2,
+      "asked": "A man with difficulty of respiration; X-ray shows fluid in the pleural cavity — name the condition",
+      "label": "Pneumothorax, haemothorax, pyothorax and pleural effusion are the four abnormal fillings of the pleural cavity, drained by needle in the seventh intercostal space in the midaxillary line",
+      "key": "pleural-cavity.abnormal-fillings-and-aspiration",
+      "definition": "The pleural cavity can fill abnormally with air (pneumothorax), blood (haemothorax), pus (pyothorax/empyema) or excess serous fluid (pleural effusion). Fluid is drained by a wide-bore needle placed in the seventh intercostal space in the midaxillary line, midway between the upper and lower boundaries of the space.",
+      "objective": "Name the abnormal filling of the pleural cavity shown by fluid on X-ray with dyspnoea, and state the safe site for aspiration.",
+      "pitfall": "Placing the aspiration needle against either boundary of the intercostal space rather than its middle.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Thoracic Cavity",
+      "type": "clinical_feature"
+    },
+    {
+      "q": 13, "section": "Anatomy", "page": 10, "marks": 2,
+      "asked": "Give the parts of the pleura and their recesses",
+      "label": "The parietal pleura is named cervical, costal, mediastinal and diaphragmatic by the wall it lines, and each pleural sac has a costomediastinal and a costodiaphragmatic recess",
+      "key": "pleura.divisions-and-recesses",
+      "definition": "The parietal pleura is subdivided by the wall it lines: cervical pleura over the lung apex, costal pleura against the ribs and intercostal spaces, mediastinal pleura against the sides of the mediastinum, and diaphragmatic pleura over the diaphragm. Two recesses in each sac are not occupied by lung except in forced inspiration: the costomediastinal recess, between costal and mediastinal pleura behind the sternum, and the costodiaphragmatic recess, between costal and diaphragmatic pleura at the outlet of the thorax.",
+      "objective": "Name the four regions of the parietal pleura and the two pleural recesses.",
+      "pitfall": "Omitting that the recesses only receive lung in forced inspiration, not quiet breathing.",
+      "subject": "resp", "primary": "DIS-ANA-T04", "secondary": ["SYS-RES-T01-S01-M03"],
+      "modulePath": "104 CPS > Anatomy > Thoracic Cavity",
+      "type": "structural_description"
+    }
+  ],
+
+  "schemes": {
+    "P1": {
+      "format": "short_answer",
+      "prompt": "Explain four factors that affect (whether increase or decrease) the rate of discharge of SA node (8 marks)",
+      "expects": [
+        "Autonomic nerve activity: sympathetic (noradrenaline on beta1 receptors, raised cAMP, increased funny current) raises the discharge rate (positive chronotropy); parasympathetic/vagal (acetylcholine on muscarinic receptors, lowered cAMP, decreased funny current) lowers it (negative chronotropy) — vagal tone dominates at rest, holding resting rate near 72/min below the SA node's intrinsic 90-105/min [Physiology dept book pp. 7-8]",
+        "Catecholamines in blood: adrenaline and noradrenaline from the adrenal medulla raise SA discharge rate by a mechanism similar to sympathetic stimulation [Physiology dept book p. 8]",
+        "Body temperature: a rise in temperature raises SA discharge rate, about 10 beats/min per 1 degree C rise [Physiology dept book p. 8]",
+        "Extracellular K+: hypokalaemia causes tachycardia (decreased K+ conductance raises the slope of phase 4); hyperkalaemia causes bradycardia (increased K+ conductance lowers the slope of phase 4) [Physiology dept book p. 8]",
+        "Ca++ channel-blocking drugs: may cause bradycardia by inactivating cardiac L-type Ca++ channels [Physiology dept book p. 8]"
+      ]
+    },
+    "P2": {
+      "format": "short_answer",
+      "prompt": "Explain with drawing the left ventricular pressure-volume loop, illustrating the effect of increasing preload on the pressure-volume curve (10 marks)",
+      "expects": [
+        "Increasing preload means more ventricular filling (higher end-diastolic volume), moving the loop's starting point further along the end-diastolic pressure-volume line [Physiology dept book p. 35]",
+        "The width of the pressure-volume loop increases, indicating an increased stroke volume [Physiology dept book p. 35]",
+        "The increase in stroke volume follows from cardiac muscle contracting with more shortening and higher velocity of shortening at the higher preload (Frank-Starling mechanism) [Physiology dept book p. 35]",
+        "The most important factor affecting preload is venous return/venous pressure; stronger atrial contraction also increases preload, while increased heart rate (shortened diastole) and decreased ventricular compliance decrease it [Physiology dept book pp. 35-36]",
+        "This question is not answered in full by any existing 104 CPS canonical concept — the committed concept only covers the effect of increased inotropy on the PV loop, not preload; see MISSING CONCEPT in the lane report."
+      ]
+    },
+    "P3": {
+      "format": "short_answer",
+      "prompt": "Explain the function and resetting of baroreceptor reflex in regulation of arterial blood pressure (10 marks)",
+      "conceptKey": "arterial-baroreceptor-reflex.response-to-a-rise-and-a-fall-in-arterial-pressure",
+      "expects": [
+        "Arterial baroreceptors are stretch receptors in the carotid sinus and aortic arch, signalling through the carotid sinus (Hering's) nerve and the aortic nerve to the nucleus of the tractus solitarius",
+        "A rise in arterial pressure increases baroreceptor discharge: more inhibition of the vasomotor area lowers sympathetic drive (falling heart rate, stroke volume, cardiac output, with vasodilatation), and more excitation of the cardiac inhibitory area raises vagal tone, lowering rate further",
+        "A fall in arterial pressure decreases baroreceptor discharge and reverses every one of those changes, restoring pressure towards normal",
+        "Resetting of the baroreceptor reflex is not established from any source available to this lane: the department physiology book's baroreceptor section (chapter on circulatory control) contains no discussion of resetting, and no mark scheme or handwritten answer exists for this paper — not established, needs faculty/book confirmation"
+      ]
+    },
+    "P4": {
+      "format": "short_answer",
+      "prompt": "Explain the mechanisms that help blood moving upwards towards the heart (8 marks)",
+      "expects": [
+        "Thoracic pump: during inspiration intrapleural pressure falls from -4 to -8 mmHg, lowering right atrial and caval pressure and widening the gradient for venous return; during expiration the reverse occurs and venous return decreases [Physiology dept book p. 53]",
+        "Heartbeat effects: atrial suction — during rapid ejection the AV ring is pulled down, sharply dropping atrial pressure and sucking blood from the great veins into the atria; ventricular sucking — during rapid filling, opening of the tricuspid/mitral valve lets low ventricular pressure suck blood from the atria and hence the veins [Physiology dept book p. 53]",
+        "Muscle pump: contraction of skeletal muscles surrounding the lower-limb veins compresses them, driving blood towards the heart [Physiology dept book p. 53]",
+        "Venous valves: allow flow toward the heart and prevent retrograde flow, so working with the muscle pump against gravity; incompetent valves (e.g. varicose veins) reduce venous return and cause stasis [Physiology dept book p. 54]",
+        "This question is broader than any existing 104 CPS canonical concept — the committed concept covers only the thoracic pump mechanism; see MISSING CONCEPT in the lane report."
+      ]
+    },
+    "P5": {
+      "format": "short_answer",
+      "prompt": "Draw with labeling the hemoglobin-oxygen dissociation curve (4 marks). Enumerate the factors that shift the curve to the right and to the left (10 marks)",
+      "expects": [
+        "P50 is the PO2 at which haemoglobin is 50% saturated with O2 (normal P50 = 27 mmHg); a curve shifted left has a lower P50 (higher O2 affinity), a curve shifted right has a higher P50 (lower O2 affinity) [Physiology dept book p. 129]",
+        "Shift to the right (Bohr effect): increased temperature, increased PCO2, decreased pH; and increased 2,3-DPG — each unloads more O2 to the tissues at a given PO2, as in muscular exercise or high altitude/hypoxia [Physiology dept book p. 129]",
+        "Shift to the left: decreased temperature, decreased PCO2, increased pH; decreased 2,3-DPG; carbon monoxide (raises the affinity of the remaining O2-binding sites); and fetal haemoglobin, whose gamma chains do not combine with 2,3-DPG [same left-shift content already covered by the committed concept haemoglobin-oxygen-dissociation-curve.factors-shifting-it-to-the-left]",
+        "The right-shift half of this question is not covered by any existing 104 CPS canonical concept (the committed concept covers left-shift only); see MISSING CONCEPT in the lane report."
+      ]
+    },
+    "P6": {
+      "format": "short_answer",
+      "prompt": "Compare the following characters of hypoxic hypoxia and anemic hypoxia regarding arterial % saturation of Hb and venous % saturation of Hb (8 marks)",
+      "expects": [
+        "Hypoxic hypoxia (inadequate oxygenation/decreased PO2 of arterial blood): both PO2 and O2 content/saturation are decreased in arterial blood; venous PO2/saturation are also decreased [Physiology dept book p. 153]",
+        "Anemic hypoxia (deficiency of Hb able to carry O2, e.g. anaemia, CO poisoning): arterial PO2 and % saturation are normal (ventilation and gas exchange are unaffected), but O2 content is reduced because there is less Hb to carry it; venous O2 content and PO2 are further reduced because tissues extract extra O2 from each unit of the reduced-Hb blood [Physiology dept book pp. 154-155]",
+        "The precise numeric table (Table 3 of the department book) comparing hypoxic, anemic, stagnant and histotoxic hypoxia by arterial/venous PO2, content and saturation is present in the book but its cell values were not captured by this session's text extraction (image/table OCR failure) — numeric cell values not established from the cached text; flagged for re-extraction",
+        "This comparison is not covered by any existing 104 CPS canonical concept; see MISSING CONCEPT in the lane report."
+      ]
+    },
+    "A7": {
+      "format": "short_answer",
+      "prompt": "Identify fate of the aortic arches (5 marks)",
+      "conceptKey": "aortic-arches.fate-of-the-six-pairs",
+      "expects": [
+        "1st and 2nd pairs: largely disappear, leaving only the maxillary and hyoid/stapedial arteries",
+        "3rd pair: forms the common carotid artery and proximal internal carotid artery on each side",
+        "4th pair: forms part of the right subclavian artery on the right, and the middle part of the arch of the aorta on the left",
+        "5th pair: disappears completely",
+        "6th pair: ventral segment forms the pulmonary arteries on each side; dorsal segment disappears on the right but persists on the left as the ductus arteriosus"
+      ]
+    },
+    "A8": {
+      "format": "short_answer",
+      "prompt": "List the tributaries of azygos vein (5 marks)",
+      "conceptKey": "posterior-intercostal-and-subcostal-veins.termination",
+      "expects": [
+        "Right superior intercostal vein (union of the 2nd-4th right posterior intercostal veins), ending in the arch of the azygos vein",
+        "5th-11th right posterior intercostal veins and the right subcostal vein, opening separately into the azygos vein",
+        "Superior hemiazygos vein (continuation of the 5th left posterior intercostal vein, draining the 5th-8th left posterior intercostal veins), crossing the midline to end in the azygos vein",
+        "Inferior hemiazygos vein (draining the 9th-11th left posterior intercostal veins and the left subcostal vein), crossing the midline to end in the azygos vein",
+        "The right 1st posterior intercostal vein ends in the right brachiocephalic vein directly and is not a tributary of the azygos vein — a common omission"
+      ]
+    },
+    "A9": {
+      "format": "short_answer",
+      "prompt": "Enumerate the contents of the root of the lung (5 marks)",
+      "conceptKey": "lung.hilum-and-root",
+      "expects": [
+        "Principal (main) bronchus — most posterior structure at the root on both sides",
+        "Pulmonary artery — in front of the bronchus; above the bronchus on the left, between the bronchus and the superior pulmonary vein on the right",
+        "Superior and inferior pulmonary veins — superior vein most anterior, inferior vein most inferior",
+        "Bronchial vessels (arteries and veins)",
+        "Anterior and posterior pulmonary nerve plexuses",
+        "Bronchopulmonary lymph nodes and lymphatic vessels",
+        "The whole group is enclosed by a pleural sleeve continued below as the pulmonary ligament"
+      ]
+    },
+    "A10": {
+      "format": "short_answer",
+      "prompt": "Mention the vessels in the superior mediastinum (5 marks)",
+      "conceptKey": "superior-mediastinum.contents",
+      "expects": [
+        "The two brachiocephalic veins and the upper half of the superior vena cava, retrosternally",
+        "The left superior intercostal vein",
+        "The arch of the aorta and its three branches: brachiocephalic artery, left common carotid artery, left subclavian artery",
+        "The bifurcation of the pulmonary trunk, in the concavity of the aortic arch"
+      ]
+    },
+    "A11": {
+      "format": "short_answer",
+      "prompt": "Give the distribution of the right coronary artery (5 marks)",
+      "conceptKey": "right-coronary-artery.course-and-distribution",
+      "expects": [
+        "The whole right atrium",
+        "The whole right ventricle, except a strip beside the anterior interventricular groove",
+        "A strip of the left ventricle's diaphragmatic surface beside the posterior interventricular groove",
+        "The posterior third of the interventricular septum",
+        "The conducting system in most people: the SA node in 60% and the AV node and bundle branches in 80%"
+      ]
+    },
+    "A12": {
+      "format": "short_answer",
+      "prompt": "Discuss site, formation and branches of deep cardiac plexus (5 marks)",
+      "conceptKey": "heart.nerve-supply-and-cardiac-plexuses",
+      "expects": [
+        "Site: in front of the tracheal bifurcation, deep to the arch of the aorta",
+        "Formation: parasympathetic preganglionic fibres from the cardiac branches of the vagi and the left recurrent laryngeal nerve, plus sympathetic postganglionic cardiac branches from the cervical and upper five thoracic sympathetic ganglia",
+        "Branches: pass to the atria and continue as the right and left coronary and pulmonary plexuses",
+        "Function is only modulatory (raises or lowers rate/force) — the plexus does not initiate or propagate the cardiac impulse, which is the conducting system's role"
+      ]
+    },
+    "A13": {
+      "format": "multipart_written",
+      "prompt": "A man with difficulty of respiration. On doing X-ray there was fluid in the pleural cavity (4 marks — printed total for this problem-solving question; per-letter split not stated by the paper).",
+      "expects": [
+        "The condition is a pleural effusion",
+        "Parietal pleura: cervical, costal, mediastinal, diaphragmatic; recesses: costomediastinal and costodiaphragmatic",
+        "Function of pleura: the thin film of serous fluid in the pleural cavity facilitates lung movement and minimizes friction during breathing",
+        "Part d of this case is illegible in the extracted page text (OCR truncated after 'd. Name the condition i...') — not established from available sources"
+      ],
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Name the condition",
+          "conceptKey": "pleural-cavity.abnormal-fillings-and-aspiration",
+          "expects": ["Pleural effusion — one of the four abnormal fillings of the pleural cavity (with pneumothorax, haemothorax and pyothorax)"]
+        },
+        {
+          "letter": "b",
+          "prompt": "Give the parts of the pleura and their recesses",
+          "conceptKey": "pleura.divisions-and-recesses",
+          "expects": [
+            "Parietal pleura: cervical (dome), costal, mediastinal, diaphragmatic",
+            "Visceral (pulmonary) pleura, closely adherent to the lung",
+            "Costomediastinal recess: between costal and mediastinal pleura, behind the sternum",
+            "Costodiaphragmatic recess: between costal and diaphragmatic pleura, at the outlet of the thorax"
+          ]
+        },
+        {
+          "letter": "c",
+          "prompt": "Mention the function of the pleura",
+          "expects": [
+            "The pleural cavity's thin film of serous fluid facilitates lung movement and minimizes friction between the visceral and parietal layers during breathing [Anatomy dept book p. 21]"
+          ]
+        },
+        {
+          "letter": "d",
+          "prompt": "[illegible in the source scan — OCR breaks off mid-sentence after 'Name the condition i...']",
+          "expects": [],
+          "conceptKey": null
+        }
+      ]
+    }
+  },
+
+  "unsat": [
+    {
+      "scheme": "H-matching-1",
+      "issue": "Section B extended matching (Histology, 5 marks: lymphatic organs — red pulp, pharyngeal tonsil, palatine tonsils, white pulp, plus 2 more prompts) is not transcribed. Prompts 5 and 6 are OCR-corrupted beyond recovery ('5 سند دم', 'fo', 'rs .ع') and option lettering for the last two options is ambiguous. No mark scheme or handwritten-answers.json entry exists for src_df6b7a7de75411dbb92b to establish the correct A-to-B pairing, and pairing a matching question from surface reading of a shuffled OCR dump would be fabrication.",
+      "blockedOn": "A clean re-scan/re-OCR of page 15 of src_df6b7a7de75411dbb92b (or the matching mark scheme) is needed before this scheme can be authored."
+    },
+    {
+      "scheme": "A13",
+      "issue": "Part d of the pleural-effusion case is illegible (OCR truncates at 'd. Name the condition i...'). Left with empty expects per the 'not established' rule rather than guessed.",
+      "blockedOn": "A clean re-scan of page 11 (index 10) of src_df6b7a7de75411dbb92b."
+    }
+  ]
+}

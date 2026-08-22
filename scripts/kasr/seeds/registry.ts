@@ -67,7 +67,10 @@ export const REGISTRATIONS: Registration[] = [
   { module: '101 ISK', load: () => CASES_2025 },
   { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/eoy-2025-199.json') },
   { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/eoy-2024-198.json') },
+  { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/eoy-2022.json') },
+  { module: '102 INT', load: () => paperFromJson('scripts/kasr/extract/102-INT/baqoon-2022.json') },
   { module: '104 CPS', load: () => paperFromJson('scripts/kasr/extract/104-CPS/eoy-2025-199.json') },
+  { module: '104 CPS', load: () => paperFromJson('scripts/kasr/extract/104-CPS/baqoon-2024-197.json') },
 ]
 
 /**
