@@ -133,6 +133,66 @@ const pagesTotal = live.reduce((sum, r) => sum + (r.source.pageCount ?? 0), 0)
 const ocrRows = readRows.filter((r) => r.cached?.mode === 'ocr')
 const fellBack = readRows.filter((r) => r.cached?.manifestTextLayer === 'native' && r.cached?.mode === 'ocr')
 
+/**
+ * Every batch this module has authored, and how many items each holds.
+ *
+ * `medical:batches-present` reads this table back and fails when reality is
+ * short of it. **It is the only record in the repository of what *should* be
+ * there** — `removeOrphans` deletes written batches the current run did not
+ * write, and that mechanism has destroyed committed work three times; twice it
+ * went unnoticed because the deletion rode into a large `git add -A` commit
+ * where a `D` line is invisible and every other gate stayed green.
+ *
+ * Generated rather than hand-written, and that is the whole point. The table
+ * was hand-added to this module's ledger once, with a note claiming the
+ * generator emitted it. The generator did not, so the next regeneration would
+ * have silently wiped the section — and with it the module's only absence
+ * check, leaving the same green build that hid the deletions in the first
+ * place. A guard a regeneration can remove without saying so is not a guard.
+ *
+ * Counting is the `---`-separated-chunks-containing-`# Item` rule the checker
+ * uses, so the two agree by construction rather than by both being right.
+ */
+function authoredTable(): string {
+  const batches: { path: string, items: number }[] = []
+  const walk = (dir: string) => {
+    for (const name of readdirSync(dir, { withFileTypes: true })) {
+      const path = join(dir, name.name)
+      if (name.isDirectory()) { walk(path); continue }
+      if (!name.name.endsWith('.md')) continue
+      if (!name.name.startsWith(`${slug}-`) && !name.name.startsWith(`${slug.toLowerCase()}-`)) continue
+      // Reports and ledgers are not batches; counting them would have the check
+      // demand items from a document that has none.
+      if (path.includes('/coverage/') || path.includes('/media-requests/')) continue
+      if (path.includes('/academic/')) continue
+      const items = readFileSync(path, 'utf8')
+        .split(/^\s*---\s*$/m)
+        .filter((chunk) => /^# Item\s*$/m.test(chunk)).length
+      if (items) batches.push({ path: path.replace(`${ROOT}/`, ''), items })
+    }
+  }
+  walk(ROOT)
+  batches.sort((a, b) => a.path.localeCompare(b.path))
+
+  return `## Authored so far
+
+This table is what \`medical:batches-present\` checks reality against, and it is the
+only record in the repository of what *should* be here. Without it that gate reports a
+note and passes — so every batch below could be deleted and every check would stay green.
+
+Regenerated with the rest of this file, so it cannot drift from the batches and cannot be
+wiped by a regeneration that quietly takes the module's absence check with it.
+
+**Run \`medical:batches-present\` _before_ regenerating this ledger, never after.** A
+ledger regenerated after a loss records the loss as normal and the missing rows stop being
+missing — the check fails in both directions.
+
+| Batch | Items |
+| --- | --- |
+${batches.map((b) => `| \`${b.path}\` | ${b.items} |`).join('\n')}
+`
+}
+
 const pct = (n: number, of: number) => of ? `${Math.round((n / of) * 100)}%` : '—'
 
 const table = (rows: Row[]) => rows.map((r) => {
@@ -186,6 +246,7 @@ claim about a file; the file wins.
 
 ${fellBack.map((r) => `- \`${r.source.sourceId}\` — ${r.source.corpusRelativePath}\n  ${r.cached?.modeReason ?? ''}`).join('\n')}
 ` : '## The manifest\'s text-layer field was right every time\n\nNo file in this module needed the native-to-OCR fallback.\n'}
+${authoredTable()}
 ${unread.length ? `## Not read
 
 These are the honest gap. Each is a file nobody has opened.

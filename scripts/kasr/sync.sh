@@ -48,9 +48,15 @@ else
 fi
 
 echo "regenerating…"
-for build in build-article-links build-batches build-coverage; do
-  node --experimental-strip-types "scripts/kasr/$build.ts" >/dev/null
-done
+# `build-batches.ts` takes the module to build and refuses to run without one.
+# There is no build-everything mode: six lanes share the generator, and a bare
+# run regenerated every registered module — so one lane regenerating its own
+# work silently rewrote a neighbour's committed batches. Everything else in this
+# script is 101-specific already (see GENERATED above, and the commit messages),
+# so the module it has always meant is named rather than inferred.
+node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
+node --experimental-strip-types scripts/kasr/build-batches.ts "101 ISK" >/dev/null
+node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
 
 git add -- "${GENERATED[@]}" 2>/dev/null || true
 if ! git diff --cached --quiet; then

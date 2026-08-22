@@ -28,12 +28,22 @@ department book read cover to cover and cited by four batches has not "yielded
 four things" — it has 163 pages still available. Collapsing the two is how a
 corpus comes to look finished while most of it is untouched.
 
+## The manifest's text-layer field was right every time
+
+No file in this module needed the native-to-OCR fallback.
+
 ## Authored so far
 
-This table is what `medical:batches-present` checks reality against. Without it that gate
-reports a note and passes — so both of this module's written batches could be deleted and
-every check would stay green. Hand-added after that was measured; `build-coverage.ts` emits
-this section itself, so a regeneration reproduces it.
+This table is what `medical:batches-present` checks reality against, and it is the
+only record in the repository of what *should* be here. Without it that gate reports a
+note and passes — so every batch below could be deleted and every check would stay green.
+
+Regenerated with the rest of this file, so it cannot drift from the batches and cannot be
+wiped by a regeneration that quietly takes the module's absence check with it.
+
+**Run `medical:batches-present` _before_ regenerating this ledger, never after.** A
+ledger regenerated after a loss records the loss as normal and the missing rows stop being
+missing — the check fails in both directions.
 
 | Batch | Items |
 | --- | --- |
@@ -47,10 +57,6 @@ this section itself, so a regeneration reproduces it.
 | `question/102-INT-MCQ-bank.md` | 22 |
 | `written/102-INT-EOY-2024-written.md` | 15 |
 | `written/102-INT-EOY-2025-written.md` | 19 |
-
-## The manifest's text-layer field was right every time
-
-No file in this module needed the native-to-OCR fallback.
 
 ## Every file in scope was read
 
@@ -150,10 +156,10 @@ Read and available; no batch cites them yet. Not a failure — a queue.
 | `src_ef6a52566ff98f237390` | Department Book | 212 | read (ocr), unused | — | — | y1/102 INT/Department Book/dpt book BIO 1.pdf |
 | `src_6305bb47646c842e2f7a` | Department Book | 8 | read (native), unused | 3 empty | — | y1/102 INT/Department Book/DPT BOOK BIOCHEMISTRY  102 department explain y (1).pdf |
 | `src_bfeed7a91f343a86b255` | Department Book | 158 | read (native) | 4 empty | `article/102-INT-physiology.md` | y1/102 INT/Department Book/Dpt book PHYSIO First Year.pdf |
-| `src_07f0a0ff41addf826c7f` | Department Questions | 154 | read (ocr) | 3 empty | `question/102-INT-MCQ-bank.md` | y1/102 INT/Department Questions/DPT BOOK MCQ D book bio 102&103 mcq (1).pdf |
+| `src_07f0a0ff41addf826c7f` | Department Questions | 154 | read (ocr) | 3 empty | `article/103-BMS-mcq-aminoacid.md`<br>`article/103-BMS-mcq-aromatic.md`<br>`article/103-BMS-mcq-carbohydrate.md`<br>`article/103-BMS-mcq-heme.md`<br>`article/103-BMS-mcq-lipid.md`<br>`article/103-BMS-mcq-nitrogen.md`<br>`article/103-BMS-mcq-purine.md`<br>`concept/103-BMS-mcq-aminoacid-concepts.md`<br>`concept/103-BMS-mcq-aromatic-concepts.md`<br>`concept/103-BMS-mcq-carbohydrate-concepts.md`<br>`concept/103-BMS-mcq-heme-concepts.md`<br>`concept/103-BMS-mcq-lipid-concepts.md`<br>`concept/103-BMS-mcq-nitrogen-concepts.md`<br>`concept/103-BMS-mcq-protein-concepts.md`<br>`concept/103-BMS-mcq-purine-concepts.md`<br>`evidence/103-BMS-mcq-carbohydrate-claims.md`<br>`question/102-INT-MCQ-bank.md`<br>`question/103-BMS-MCQ-carbohydrate-bioenergetics.md`<br>`question/103-BMS-MCQ-lipid-diabetes.md`<br>`question/103-BMS-MCQ-protein-heme.md`<br>`question/103-BMS-MCQ-vitamins.md` | y1/102 INT/Department Questions/DPT BOOK MCQ D book bio 102&103 mcq (1).pdf |
 | `src_b21bbb801aed8c932206` | Department Questions | 10 | read (ocr) | — | `question/102-INT-MCQ-bank.md` | y1/102 INT/Department Questions/dpt book mcq Physio MCQ [ANS] 2023.pdf |
 | `src_439c87aadd2a449415d2` | Department Questions | 15 | read (ocr) | — | `question/102-INT-MCQ-bank.md` | y1/102 INT/Department Questions/dpt book mcq Physio MCQ [Blood] 2023.pdf |
-| `src_2093c80b1f9c25f9c0a4` | Department Questions | 72 | read (ocr) | 3 empty | `question/102-INT-MCQ-bank.md` | y1/102 INT/Department Questions/Physio MCQ First Year.pdf |
+| `src_2093c80b1f9c25f9c0a4` | Department Questions | 72 | read (ocr) | 3 empty | `article/103-BMS-mcq-vitamins-nerve.md`<br>`concept/103-BMS-mcq-vitamins-nerve-concepts.md`<br>`question/102-INT-MCQ-bank.md`<br>`question/103-BMS-MCQ-nerve-muscle.md` | y1/102 INT/Department Questions/Physio MCQ First Year.pdf |
 | `src_62ce633e85fb73732e35` | Department Questions | 44 | read (native), unused | — | — | y1/102 INT/Department Questions/حل كتاب القسم كامل -bio 102- (1)DPT BOOK.pdf |
 | `src_9aa5234e15646f5af129` | Practical | 138 | read (ocr), unused | 2 empty | — | y1/102 INT/Practical/Dpt book Physio Practical 1st Year.pdf |
 | `src_f2e2bd667ff86d7fc137` | Important & Summaries | 4 | read (ocr), unused | — | — | y1/102 INT/Important & Summaries/IMPORTANT SUMMARY 102_202601181056_51635 (2).pdf |
