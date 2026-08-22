@@ -370,10 +370,10 @@ ART-108-PAT-INTRACELLULAR-ACCUMULATIONS: the fuller account of fatty change, whi
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-ATP-DEPLETION-EFFECTS-01 | CLM-FND-CELL-ADAPTATION-FORMS-01 | CLM-FND-REPERFUSION-FREE-RADICALS-01
 
 ## span_ids
-[clear]
+SPN-PAT-CELL-INJURY-AND-01 | SPN-PAT-CELL-INJURY-AND-02 | SPN-PAT-CELL-INJURY-AND-03
 
 ## universities
 kau
@@ -611,10 +611,10 @@ ART-108-PAT-PATHOLOGICAL-CALCIFICATION: dystrophic calcification, which necrotic
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-FIBRINOID-NECROSIS-01
 
 ## span_ids
-[clear]
+SPN-PAT-NECROSIS-01
 
 ## universities
 kau
@@ -1092,10 +1092,10 @@ ART-108-PAT-CELL-INJURY-AND-ADAPTATION: fatty change as one of the three reversi
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-CHOLESTEROL-ACCUMULATION-01 | CLM-FND-FATTY-LIVER-MORPHOLOGY-01 | CLM-FND-GLYCOGEN-ACCUMULATION-01 | CLM-FND-MYOCARDIAL-FATTY-CHANGE-01 | CLM-FND-STEATOSIS-DEFINITION-01
 
 ## span_ids
-[clear]
+SPN-PAT-INTRACELLULAR-01 | SPN-PAT-INTRACELLULAR-02 | SPN-PAT-INTRACELLULAR-03 | SPN-PAT-INTRACELLULAR-04 | SPN-PAT-INTRACELLULAR-05
 
 ## universities
 kau
@@ -1363,10 +1363,10 @@ ART-108-PAT-AMYLOIDOSIS: the amyloid heart, which is the other end of this modul
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-HAEMOCHROMATOSIS-01 | CLM-FND-HEMOZOIN-01
 
 ## span_ids
-[clear]
+SPN-PAT-PATHOLOGICAL-PIGMENTS-01 | SPN-PAT-PATHOLOGICAL-PIGMENTS-02
 
 ## universities
 kau
@@ -1853,10 +1853,10 @@ ART-108-PAT-APOPTOSIS: misfolded protein, which the book names as a cause of apo
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-AMYLOID-PROTEIN-TYPES-01 | CLM-FND-AMYLOIDOSIS-DIAGNOSIS-01 | CLM-FND-CARDIAC-GI-AMYLOIDOSIS-01 | CLM-FND-CONGO-RED-01
 
 ## span_ids
-[clear]
+SPN-PAT-AMYLOIDOSIS-01 | SPN-PAT-AMYLOIDOSIS-02 | SPN-PAT-AMYLOIDOSIS-03 | SPN-PAT-AMYLOIDOSIS-04
 
 ## universities
 kau

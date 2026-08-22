@@ -1145,10 +1145,10 @@ ART-108-PHA-POSOLOGY: the same curve, read for safety rather than for effect
 [clear]
 
 ## claim_ids
-[clear]
+CLM-FND-IRREVERSIBLE-ANTAGONISM-01
 
 ## span_ids
-[clear]
+SPN-PHA-PHARMACODYNAMICS-01
 
 ## annotations
 ### definition_of · CON-FND-38CD8C0BD5B4DE
