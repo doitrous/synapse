@@ -410,3 +410,15 @@ Three additions:
    longer required (harmless if you keep it).
 4. **An update row carries only changed fields.** Never restate `source_candidate_ids` copied from a
    live record — the candidate check fails on live-only candidates until the validator's next fix.
+
+## 20 · Revised manual on main (`0e08ac1`, merged)
+- Every lane dispatched from now on reads `00-START-HERE.md` (§0 law of priority, roles, stages
+  S0–S8, gates) and `13-orchestration.md` (reports, triage checkpoint, pause/resume, hazards
+  register, skeletons) before its type manual. `05-questions.md` now carries the three-sentence
+  explanation floor and the coverage rule — the same bar as §18.
+- Lanes already in flight keep their orders; nothing in the revision contradicts §10–§19.
+- **An update row must restate its kind's discriminator** (`## label` for a concept; the
+  discriminating columns in each manual's header box) or it is silently refused. Every
+  `pending-live/` row carries `## id` + `## label` + the `+` fields — nothing else.
+- **Practical stations are scoped** by `universities` / `years` / `module` (importer columns
+  landing as `ed87a85`); an empty `universities` means every university — never leave it empty.
