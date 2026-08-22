@@ -349,3 +349,10 @@ regeneration would not add them. So:
   `pending-live/` with the batch name in its import-order line, and Omar confirms at import.
 - Deterministic ids mean a re-mint of an already-applied key becomes an update, not a
   duplicate. Nothing to fear there; the hazard is only the stub-creation case in §15.
+
+### Catalogue gate now in `medical:batch` (`57ef0d4` on main, merged here)
+`universities` non-empty and valid; `module_subject`'s first segment must be a module the
+record declares in `modules`; `subject` ∈ the 20 catalogue ids; the `AU-` prefix is required
+on module ids; module *existence* is deliberately not gated. A production read route exists
+(`GET /api/state`, super-admin + MFA) and `medical:snapshot-live` is coming so Omar can refresh
+the fixture; until he runs it, "live" still means the bundle and the pending-live rules stand.
