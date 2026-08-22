@@ -1,35 +1,42 @@
 <!--
   103 BMS · Histology · library articles
 
-  Four articles, teaching the five concepts in
-  ../concept/103-BMS-histology-concepts.md, which are the concepts the four
-  written questions of Section 4 of the 2025 end-of-year paper test.
+  Originally four articles teaching the five concepts the 2025 end-of-year
+  paper's Section 4 tests. A later demand-driven lane (A3b) extended two of
+  those four and added one more, after the histology question lane's report
+  (B7c) flagged four department-bank topics — asked by the department's own
+  written-assessment revision set, src_7272bde5a8d524835d9b — that no article
+  covered. See each article's own `notes` for what changed and why.
 
   Article                                    teaches
   ART-103-HIS-DERMIS-LAYERS                  CON-DER-56784AB396C13E
   ART-103-HIS-BONE-CELLS                     CON-MSK-D137ADEEC56243, CON-MSK-76CE11C6DCDC37
-  ART-103-HIS-CARDIAC-INTERCALATED-DISC      CON-MSK-0DEAF126DF8F2E
+  ART-103-HIS-CARDIAC-INTERCALATED-DISC      CON-MSK-0DEAF126DF8F2E, CON-MSK-2E451ACE10A724, CON-MSK-5EA95D36121EF8 (latter two added by A3b)
   ART-103-HIS-SMOOTH-MUSCLE                  CON-MSK-888DFA3AA4E974
+  ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE      CON-MSK-507DCD2CD12E15, CON-MSK-2493DDAE4798CE, CON-MSK-0824FE988ADA00, CON-MSK-E36936D62038BF, CON-MSK-BD54A250111D42, CON-MSK-70448A9B07D24A (last two added by A3b)
+  ART-103-HIS-MUSCLE-COMPARISON-TABLE        CON-MSK-B080975D6171CF (new article, A3b)
 
   Every medical statement here comes from the department book,
   `Dpt book Final Book of Histology (BMS 103) 2026 1st Year.pdf`,
   src_2bf25a6864c9f6ce3283. Where the book is the only source and is silent,
   the article says so rather than reaching outside it.
 
-  All four questions ask for a light- or electron-microscopic appearance, and
-  no such appearance can be learnt from prose alone. Every article therefore
-  carries media requests — real histology fields and electron micrographs, with
-  a brief, a purpose, a priority and a status. No image URL is invented and no
-  article is written as though an image were already present.
+  All four EOY questions ask for a light- or electron-microscopic appearance,
+  and no such appearance can be learnt from prose alone. Every article
+  therefore carries media requests — real histology fields and electron
+  micrographs, with a brief, a purpose, a priority and a status. No image URL
+  is invented and no article is written as though an image were already
+  present.
 
-  NOT IN THIS BATCH: the paper prints "+5 MCQ about cartilage chapter" under
-  question 4. Those five MCQs are nowhere in the document. No cartilage article
-  is written, because nothing states what was asked.
+  NOT IN THIS BATCH: the 2025 EOY paper prints "+5 MCQ about cartilage
+  chapter" under question 4. Those five MCQs are nowhere in the document. No
+  cartilage article is written, because nothing states what was asked.
 
   `medical:batch` is directory-scoped, so it reports concept IDs, question IDs
   and span IDs held in sibling folders as "does not exist". Run it with
   --with ../concept/103-BMS-histology-concepts.md
   --with ../written/103-BMS-EOY-2025-histology-written.md
+  --with ../written/103-BMS-histology-department-written.md
   --with ../evidence/103-BMS-histology-claims.md
   --with ../evidence/103-BMS-histology-spans.md
   and anything left is real.
@@ -543,10 +550,10 @@ reviewDue: Set when the first review completes.
 ART-103-HIS-CARDIAC-INTERCALATED-DISC
 
 ## title
-Cardiac muscle and the intercalated disc
+Cardiac muscle: the myocyte, the intercalated disc, and Purkinje fibres
 
 ## arabic_title
-العضلة القلبية والقرص البيني
+العضلة القلبية: الخلية العضلية والقرص البيني وألياف بوركنجي
 
 ## aliases
 Intercalated disc
@@ -554,6 +561,11 @@ Intercalated discs
 Cardiac muscle histology
 Fascia adherens
 Cardiac myocyte junctions
+Cardiac myocyte
+Purkinje muscle fibres
+Purkinje fibres
+Moderator band
+Diad tubular system
 
 ## subject
 msk
@@ -565,7 +577,7 @@ Muscle tissue
 Cardiac Muscle
 
 ## microtopic
-The Intercalated Discs
+Cardiac Muscle
 
 ## nanotopic
 
@@ -589,7 +601,7 @@ en
 Years 1–3 foundation
 
 ## reading_time
-8
+13
 
 ## high_yield
 Core
@@ -610,7 +622,7 @@ Dr. Omar
 Admin team
 
 ## summary
-A cardiac muscle fibre is not one long cell. It is many separate cells joined end to end, and the junction between them is the intercalated disc. Light microscopy shows it as a line; electron microscopy shows it is folded, with two components in two orientations doing two different jobs — mechanical anchorage across the fibre, electrical coupling along it. The 2025 end-of-year paper asked for both pictures in one 3-mark question.
+A cardiac muscle fibre is not one long cell. It is many separate myocytes joined end to end, and the junction between them is the intercalated disc. Light microscopy shows the myocyte's own size, shape and single central nucleus, and the disc as a line; electron microscopy shows the myocyte's diad tubular system and its granule inclusions, and shows the disc is folded, with two components in two orientations doing two different jobs — mechanical anchorage across the fibre, electrical coupling along it. Purkinje fibres take that logic to its extreme: built purely for gap-junction conduction speed, they keep the coupling and drop the disc's mechanical anchorage entirely. The 2025 end-of-year paper asked for the disc's LM/EM picture in one 3-mark question; the department's own written-assessment revision set separately asks for the myocyte's full structure and for the Purkinje fibre's five distinguishing features.
 
 ## sections
 ### Definition
@@ -619,6 +631,13 @@ Cardiac muscle forms the middle layer of the heart, the myocardium, which is the
 Each cardiac muscle fibre is made up of many separate cells, called cardiac myocytes, linked to each other. Intercalated discs represent the sites of junctions between the sarcolemma of adjacent cardiac muscle cells in the fibre.
 
 By LM, intercalated discs are clear lines that appear transversely at intervals along the length of cardiac muscle fibre.
+
+### The cardiac myocyte: full LM and EM picture
+By light microscopy a cardiac myocyte is a cylindrical cell about 80 micrometres in length and 15 micrometres in diameter that branches and joins to adjacent cells. Its sarcolemma is a thin cell membrane — thinner than a skeletal fibre's, which is thickened by fusion with basal lamina and endomysium. Its nucleus is single (occasionally two), oval and central, unlike the multiple peripheral nuclei of a skeletal fibre. Its sarcoplasm is acidophilic and shows non-clear transverse striations — less distinct than skeletal muscle's, though still present, because a cardiac myocyte still has sarcomeres — together with the intercalated discs described above.
+
+By electron microscopy the sarcoplasm holds fewer myofibrils than skeletal muscle, and numerous large mitochondria with closely packed cristae — a fibre that never rests needs more fuel-burning capacity per unit volume than one that contracts occasionally. Its sarcoplasmic reticulum is less developed than skeletal muscle's, and its arrangement with the T-tubule forms a diad, not a triad: one T-tubule with a single terminal cisterna, at the level of the Z line rather than the A-I junction where skeletal muscle's triads sit.
+
+Three kinds of inclusion sit in the sarcoplasm. Glycogen granules and lipofuscin granules are both storage/waste products — lipofuscin accumulates with age and, in enough quantity, is seen grossly as brown atrophy of the heart. The third, found only in atrial muscle cells, is different in kind rather than degree: atrial granules contain atrial natriuretic hormones that affect urinary sodium and water excretion, which makes the atrial myocyte an endocrine cell as well as a contractile one — a cardiac muscle fact with no equivalent anywhere in skeletal or smooth muscle.
 
 ### Mechanism
 The disc has to solve two problems at once, and it solves them in two different places.
@@ -638,12 +657,19 @@ That is the design in one sentence: strength across the pull, communication alon
 
 **The comparison the book draws.** Skeletal muscle has no cell junctions at all, because each fibre is a single cell. Smooth muscle has gap junctions but no discs. Only cardiac muscle has the intercalated disc, with fascia adherens, desmosome and gap junction together.
 
+### Purkinje fibres
+Purkinje muscle fibres are highly specialised cardiac muscle fibres that constitute the atrioventricular (A-V) bundle and its branches. The moderator band, located in the right ventricle, contains Purkinje fibres, which are grouped into bundles surrounded by their own connective-tissue sheath. Their job is speed: they rapidly transmit the contractile impulse to various parts of the ventricular cardiac muscle via gap junctions, faster than ordinary myocardium — which is why the conduction system uses a dedicated fibre type rather than relying on cell-to-cell spread through ordinary myocytes alone.
+
+That speed is bought with a distinct histological picture, five features against an ordinary cardiac myocyte. Purkinje fibres are larger in diameter than ordinary cardiac muscle fibres. Their nucleus is usually eccentric in position, rather than central. Their sarcoplasm is pale and vacuolated, from excess glycogen. They show no striations, because they have few myofibrils, situated peripherally, parallel to the sarcolemma, rather than filling the cell. And — the feature that connects this section back to the rest of the article — they carry no intercalated discs at all.
+
+That last feature is the design logic in one line. An ordinary myocyte needs the intercalated disc's transverse component to keep it anchored to its neighbours through repetitive contraction; a Purkinje fibre's whole job is signal speed, not sustained contractile continuity, so it keeps the gap junction that gives it that speed and sheds the mechanical anchorage it does not need.
+
 ### Clinical significance
 Cardiac muscle does not contain progenitor cells, so it cannot regenerate. When cardiac myocytes are injured, as in myocardial infarction, they heal by fibrous tissue. Fibrous tissue neither contracts nor conducts, so an infarcted area is lost twice over — and the gap junctions that would have carried the signal through it are gone with the cells.
 
 The department book records myocardial infarction as complete obstruction of a coronary artery leading to cardiac muscle cell death, which releases proteins such as troponin-T and creatine kinase into the bloodstream; measuring these cardiac enzymes early in a patient presenting with chest pain is what allows early diagnosis and rapid treatment.
 
-Purkinje muscle fibres are the exception that proves the design. They are highly specialised cardiac muscle fibres that transmit contractile impulses rapidly via gap junctions, faster than the ordinary myocardium — and they have no intercalated discs. A conducting fibre needs the coupling but not the end-to-end anchorage.
+Purkinje fibres (see the dedicated section above) are the exception that proves the intercalated disc's design logic: a fibre built purely for gap-junction conduction speed has no need of, and carries no, intercalated discs at all.
 
 ### Common misconceptions
 Drawing the intercalated disc as one flat plate across the fibre. It has two components in two orientations, and putting the gap junctions in the transverse part removes the reason they survive contraction.
@@ -665,13 +691,20 @@ The transverse component carries desmosomes and fascia adherens, and stops the c
 The lateral component carries gap junctions, which let the contraction signal pass from cell to cell.
 The lateral position of the gap junctions is what protects them from the contraction forces.
 A cardiac muscle fibre is many separate cells, not one cell; the disc is the junction between them.
+A cardiac myocyte is about 80 µm long and 15 µm in diameter, thin sarcolemma, single central (rarely two) nucleus, non-clear striations.
+By EM a cardiac myocyte has fewer myofibrils than skeletal muscle, numerous large mitochondria, and a diad (not triad) tubular system at the Z line.
+Atrial muscle cells alone carry atrial granules, giving them an endocrine function (atrial natriuretic hormone) alongside their contractile one.
 Purkinje fibres are cardiac muscle with gap junctions but no intercalated discs.
+Purkinje fibres are larger, have an eccentric nucleus, pale vacuolated sarcoplasm, few peripheral myofibrils (so no striations), and sit in the moderator band of the right ventricle as part of the A-V bundle.
 
 ## lose_the_mark
 Putting the gap junctions in the transverse component. They are lateral, and the reason is mechanical.
 Answering only the electron-microscopic picture. The question asks for LM and EM, and the LM line is a separate mark.
 Calling the intercalated disc a form of striation. Striations are sarcomeric; the disc is a cell boundary.
 Writing that the disc is present in all three muscle types. Skeletal muscle has no cell junctions and smooth muscle has gap junctions without discs.
+Calling cardiac muscle unstriated. It shows non-clear striation, not none — only smooth muscle is genuinely unstriated.
+Giving cardiac muscle a triad. Its T-tubule pairs with one terminal cisterna at the Z line — a diad — not two cisternae at the A-I junction.
+Saying Purkinje fibres have intercalated discs because they are cardiac muscle. They carry gap junctions for speed and no discs at all.
 
 ## callout_evidence
 ### The lateral position of the gap junctions is what protects them from the contraction forces.
@@ -683,12 +716,18 @@ Reviewed at: 2026-08-21
 
 ## related_concepts
 CON-MSK-0DEAF126DF8F2E
+CON-MSK-2E451ACE10A724
+CON-MSK-5EA95D36121EF8
 
 ## related_articles
 ART-103-HIS-SMOOTH-MUSCLE: the third muscle type, which has gap junctions without intercalated discs and no striations at all
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE: the first muscle type, whose triad tubular system and single-cell fibre this article's diad system and multi-cell fibre are each contrasted against
+ART-103-HIS-MUSCLE-COMPARISON-TABLE: sets this article's cardiac row of the tubular-system and cell-junction rows beside skeletal and smooth muscle in one table
 
 ## question_ids
 QW-103-F907CB7E0010
+QW-103-06EB815A511A
+QW-103-56FBC59B4D41
 
 ## resource_ids
 src_2bf25a6864c9f6ce3283
@@ -722,6 +761,14 @@ kau: Kasr Al Ainy set this as "Mention LM and EM picture of Intercalated disc" f
 Quote: By LM, intercalated discs are clear lines that appear transversely at intervals along the length of cardiac muscle fibre.
 Block: body
 
+### definition_of · CON-MSK-2E451ACE10A724
+Quote: By light microscopy a cardiac myocyte is a cylindrical cell about 80 micrometres in length and 15 micrometres in diameter that branches and joins to adjacent cells.
+Block: body
+
+### definition_of · CON-MSK-5EA95D36121EF8
+Quote: Their job is speed: they rapidly transmit the contractile impulse to various parts of the ventricular cardiac muscle via gap junctions, faster than ordinary myocardium
+Block: body
+
 ## media
 
 
@@ -746,17 +793,29 @@ Section: Mechanism
 Source direction: openly licensed electron-microscopy teaching collection
 Rights: must be CC-BY or public domain
 
+### histology · Section Purkinje fibres
+Brief: Photomicrograph or labelled diagram of the moderator band showing Purkinje fibres beside ordinary cardiac muscle fibres in one field, with diameter, eccentric nucleus and pale vacuolated sarcoplasm all visible
+Purpose: Teaches CON-MSK-5EA95D36121EF8. Every one of the five distinguishing features the department book lists (diameter, nucleus position, sarcoplasm, striations, discs) is a recognition task against an ordinary myocyte; without both cell types in the same field a student cannot practise the actual comparison the exam tests.
+Priority: required
+Status: needed
+Kind: histology
+Section: Purkinje fibres
+Source direction: openly licensed histology slide library, or a Kasr Al Ainy department slide photographed for teaching
+Rights: must be CC-BY or public domain, or departmental with permission recorded
+
 ## publication_gate
 needs_evidence
 
 ## evidence_basis
 Kasr Al Ainy Histology (BMS 103) department book, 2026, page 28 of the file (printed page 27) — site, organisation and the light-microscopic characters of the cardiac muscle cell.
-Kasr Al Ainy Histology (BMS 103) department book, page 29 of the file (printed page 28) — sarcoplasm, diad system, and the definition and LM picture of the intercalated discs.
-Kasr Al Ainy Histology (BMS 103) department book, page 30 of the file (printed page 29) — the EM picture, the transverse and lateral components, and Purkinje fibres.
-Kasr Al Ainy Histology (BMS 103) department book, pages 31 and 34 (printed 30 and 33) — repair of injured cardiac myocytes, and the three-muscle comparison table.
+Kasr Al Ainy Histology (BMS 103) department book, page 29 of the file (printed page 28) — sarcoplasm organelles and inclusions (myofibrils, mitochondria, diad tubular system, glycogen, lipofuscin and atrial granules), and the definition and LM picture of the intercalated discs.
+Kasr Al Ainy Histology (BMS 103) department book, page 30 of the file (printed page 29) — the EM picture of the disc, the transverse and lateral components, and the full Purkinje Muscle Fibers section (site, function and the five histological characteristics).
+Kasr Al Ainy Histology (BMS 103) department book, page 31 of the file (printed page 30) — repair of injured cardiac myocytes.
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set, src_7272bde5a8d524835d9b), printed pages 24-25 (cardiac muscle histological structure, Q5) and printed page 26 (Purkinje fibre characteristics, Q7) — the department's own model-answer wording for the two topics this batch adds, used to confirm nothing beyond the department book itself was asserted.
 
 ## evidence_gaps
 The book writes "adherent junctions (fascia adherens)" without saying whether the fascia adherens is a kind of adherent junction or another name for it. The statement in the Mechanism section that the fascia adherens is where the terminal sarcomere's thin filaments anchor is standard, but the department book does not state it and it is not claim-linked here.
+The book gives the cardiac myocyte's length as 80 µm without saying whether that is the length of one cell between discs or of the whole multi-cell fibre.
 
 ## conflicts
 [clear]
@@ -770,9 +829,11 @@ The book writes "adherent junctions (fascia adherens)" without saying whether th
 ## notes
 Written to teach CON-MSK-0DEAF126DF8F2E, the concept tested by Histology question 3 of the 2025 end-of-year paper. The question asks for two pictures and the book gives two paragraphs, one per picture; the Mechanism section is the article's own reasoning about why the two components are arranged as they are, drawn only from what the book states about their positions and their protection from contraction forces. One sentence in Mechanism — the fascia adherens as the anchorage of the terminal sarcomere — goes beyond the book and is flagged in evidence_gaps.
 
+EXTENDED in the demand-driven lane that followed the histology question lane's report: that report's MISSING CONCEPT section flagged two topics the department's own written-assessment revision set (src_7272bde5a8d524835d9b) asks — "General cardiac muscle fibre histological structure" (Q5) and "Purkinje fibre histological characteristics" (Q7) — that this article discussed only in passing (site/organisation in Definition, one paragraph on Purkinje in Clinical significance) with no concept anchoring either. Two new concepts were minted, CON-MSK-2E451ACE10A724 and CON-MSK-5EA95D36121EF8, and this article gained "The cardiac myocyte: full LM and EM picture" and "Purkinje fibres" as dedicated sections built from the same department book pages already in evidence_basis, plus the department's own written-assessment pages, cited above, confirming no fact was added beyond what the book itself states. The old one-paragraph Purkinje mention in Clinical significance was trimmed to a pointer, so the fact is stated once.
+
 ## field_notes
-nanotopicId: "Cardiac Muscle" is the finest heading the department book prints under Muscle Tissue; "The Intercalated Discs" is used as the microtopic, and a level below it would be invented.
-media: No rights-cleared asset exists for this article; the two fields it needs are filed as requests in media_recommendations.
+nanotopicId: "Cardiac Muscle" is the finest heading the department book prints under Muscle Tissue; the article now spans all three of the book's own subsections under it (the myocyte itself, the intercalated disc, and Purkinje fibres), so `microtopic` is set to "Cardiac Muscle" rather than the disc-only heading it carried before this batch extended the scope; a nanotopic below it would be invented.
+media: No rights-cleared asset exists for this article; the three fields it needs are filed as requests in media_recommendations.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 
@@ -937,9 +998,11 @@ Reviewed at: 2026-08-21
 
 ## related_concepts
 CON-MSK-888DFA3AA4E974
+CON-MSK-B080975D6171CF
 
 ## related_articles
 ART-103-HIS-CARDIAC-INTERCALATED-DISC: the muscle type smooth muscle is most often contrasted with, and the source of the Z line and tubular-system comparisons used here
+ART-103-HIS-MUSCLE-COMPARISON-TABLE: sets this article's smooth row of the tubular-system and cell-junction rows beside skeletal and cardiac muscle in one table
 
 ## question_ids
 QW-103-BC96E7BF3973
@@ -2424,6 +2487,9 @@ Endomysium
 Sarcomere
 A band
 I band
+Triad
+Triad tubular system
+T-tubule
 
 ## subject
 msk
@@ -2460,7 +2526,7 @@ en
 Years 1–3 foundation
 
 ## reading_time
-11
+14
 
 ## high_yield
 Core
@@ -2481,7 +2547,7 @@ Dr. Omar
 Admin team
 
 ## summary
-A skeletal muscle is not a single structure but three nested connective-tissue coats holding together bundles of long, striated, multinucleated fibres, and each fibre is itself a stack of sarcomeres — the true contractile unit, defined precisely as the segment between two Z lines, whose named bands and lines are a direct map of where its actin and myosin filaments sit.
+A skeletal muscle is not a single structure but three nested connective-tissue coats holding together bundles of long, striated, multinucleated fibres, and each fibre is itself a stack of sarcomeres — the true contractile unit, defined precisely as the segment between two Z lines, whose named bands and lines are a direct map of where its actin and myosin filaments sit. That sarcomere lattice is read out by the triad tubular system: a T-tubule at every A-I junction, flanked by two terminal cisternae, spreads depolarisation from the surface into the fibre's depth and triggers the calcium release that starts the sliding described above.
 
 ## sections
 ### Definition
@@ -2498,6 +2564,11 @@ The named bands follow directly from where the two filament types sit. Thick myo
 
 Contraction changes the picture in a specific, filament-sliding way rather than by the filaments themselves shrinking. As the sarcomere shortens, the I band shortens and the H zone is abolished, because actin slides further into the A band's territory — but the A band's own length, fixed by the myosin filament's length, stays constant throughout.
 
+### The triad tubular system
+The sarcolemma does not just enclose the fibre; it invaginates deep into it. Many such invaginations form transverse tubules — T-tubules — in the sarcoplasm, encircling every myofibril at the A-I band junction, and their lumens are continuous with the extracellular space. That last fact is the whole point of the system: it lets a signal at the cell surface reach every myofibril's depth without diffusing there.
+
+Each T-tubule lies between a pair of wide terminal cisternae of the sarcoplasmic reticulum, and the T-tubule plus its two flanking cisternae together form a triple structure — the triad tubular system, named for the three-part unit itself, not for any one component alone. Its role is to couple electrical excitation to the calcium release that lets contraction begin: depolarisation spreads along the membranes of the T-tubules into the depth of the muscle fibre, and this stimulates the sarcoplasmic reticulum to rapidly release Ca²⁺ into the sarcoplasm.
+
 ### Key determinants
 **Three coats, largest to smallest.** Epimysium: whole muscle, major vessels/nerves. Perimysium: one fascicle, large vessels/nerves. Endomysium: one fibre, small vessels/fine nerves.
 
@@ -2506,6 +2577,8 @@ Contraction changes the picture in a specific, filament-sliding way rather than 
 **The sarcomere, filament by filament.** Z line: actin attachment, dense, defines the sarcomere's boundary. I band: actin only, light, either side of the Z line. A band: myosin + overlapping actin, dark, anisotropic, constant length. H zone: myosin only, central pale region of the A band. M line: myosin cross-links, bisects the H zone.
 
 **On contraction.** I band shortens. H zone is abolished. A band length stays constant. Filaments slide; they do not shorten.
+
+**The triad.** One T-tubule (sarcolemmal invagination, lumen continuous with extracellular space) at the A-I junction, flanked by two terminal cisternae of sarcoplasmic reticulum — three parts, one triad. Depolarisation along the T-tubule triggers Ca²⁺ release from the terminal cisternae into the sarcoplasm.
 
 ### Clinical significance
 Reading a muscle biopsy or an electron micrograph for A-band length is one of the more direct histological ways to distinguish active shortening from a fixed, non-contracting fibre: because the A band's length is fixed by filament length rather than by contractile state, any apparent change in A-band length on a slide points to a fixation or sectioning artefact rather than a physiological one, while a shortened I band and an abolished H zone are the expected, real signature of a fibre fixed mid-contraction.
@@ -2529,11 +2602,15 @@ A skeletal muscle fibre has multiple peripheral nuclei, one per fused myoblast.
 The sarcomere is the segment between two Z lines: one A band plus two half I bands, the basic contractile unit.
 Myosin occupies only the A band; actin runs from the Z line through the I band into the A band as far as the H zone.
 On contraction the I band shortens and the H zone is abolished, but the A band length stays constant — filaments slide, they do not shorten.
+A triad is one T-tubule (at the A-I junction, lumen continuous with the extracellular space) between two terminal cisternae of sarcoplasmic reticulum.
+Depolarisation along the T-tubule triggers Ca²⁺ release from the terminal cisternae into the sarcoplasm.
 
 ## lose_the_mark
 Swapping perimysium (one fascicle) and endomysium (one fibre).
 Saying the A band changes length on contraction. It does not; the I band and H zone do.
 Claiming actin or myosin filaments themselves shorten during contraction.
+Placing the T-tubule at the Z line, or naming skeletal muscle's tubular system a diad. It sits at the A-I junction and is a triad; the Z-line diad belongs to cardiac muscle.
+Naming only two parts of the triad. It is the T-tubule plus two flanking terminal cisternae — three structures, not one tube and "some reticulum".
 
 ## callout_evidence
 ### On contraction the I band shortens and the H zone is abolished, but the A band length stays constant — filaments slide, they do not shorten.
@@ -2543,17 +2620,29 @@ Span: SPN-HIS-SARCOMERE-01
 Reviewed by: Dr. Omar
 Reviewed at: 2026-08-22
 
+### Depolarisation along the T-tubule triggers Ca²⁺ release from the terminal cisternae into the sarcoplasm.
+Claims: CLM-MSK-TRIAD-01
+Citations: CIT-KA-HIST-TRIAD-01
+Span: SPN-HIS-TRIAD-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-22
+
 ## related_concepts
 CON-MSK-507DCD2CD12E15
 CON-MSK-2493DDAE4798CE
 CON-MSK-0824FE988ADA00
 CON-MSK-E36936D62038BF
+CON-MSK-BD54A250111D42
+CON-MSK-70448A9B07D24A
+CON-MSK-BBEDCAE76A03B9
 
 ## related_articles
 ART-103-HIS-SKELETAL-MUSCLE-FIBRE-TYPES-CLINICAL: the fibre types and the clinical conditions that follow once this article's structure fails or adapts
+ART-103-HIS-CARDIAC-INTERCALATED-DISC: the diad tubular system this article's triad is contrasted against
+ART-103-HIS-MUSCLE-COMPARISON-TABLE: sets this article's skeletal row of the tubular-system and sarcomere rows beside cardiac and smooth muscle in one table
 
 ## question_ids
-[clear]
+QW-103-BE8F3F8C754E
 
 
 ## resource_ids
@@ -2577,11 +2666,15 @@ KAU_Y1
 103 BMS > Histology > Muscle Tissue > Skeletal Muscle
 
 ## university_notes
-kau: Not tested on a sat paper in the corpus, though Skeletal Muscle carries the chapter's most detailed printed content and is examinable in full.
+kau: Not tested on a sat exam paper in the corpus, though Skeletal Muscle carries the chapter's most detailed printed content and is examinable in full. The triad and the before/during-contraction changes are asked in the department's own Histology written-assessment revision set (src_7272bde5a8d524835d9b, Q3), which is a department question bank rather than a sitting.
 
 ## annotations
 ### definition_of · CON-MSK-507DCD2CD12E15
 Quote: the endomysium, reticular fibres around each single fibre, carrying small vessels and fine nerves
+Block: body
+
+### definition_of · CON-MSK-BD54A250111D42
+Quote: Each T-tubule lies between a pair of wide terminal cisternae of the sarcoplasmic reticulum, and the T-tubule plus its two flanking cisternae together form a triple structure — the triad tubular system
 Block: body
 
 ## media
@@ -2608,6 +2701,16 @@ Section: Mechanism
 Source direction: openly licensed electron-microscopy teaching collection
 Rights: must be CC-BY or public domain
 
+### image · Section The triad tubular system
+Brief: Labelled diagram or electron micrograph of one triad at the A-I junction, showing the T-tubule between its two flanking terminal cisternae of sarcoplasmic reticulum, with the extracellular continuity of the T-tubule lumen indicated
+Purpose: Teaches CON-MSK-BD54A250111D42. The triad is a three-part spatial relationship (one tubule, two cisternae, one junction) too fine for light microscopy; a labelled EM diagram is the only way a student can check they have the three parts and the A-I location right, rather than confusing it with cardiac muscle's diad at the Z line.
+Priority: required
+Status: needed
+Kind: image
+Section: The triad tubular system
+Source direction: openly licensed electron-microscopy teaching collection
+Rights: must be CC-BY or public domain
+
 ## publication_gate
 needs_evidence
 
@@ -2616,9 +2719,13 @@ Kasr Al Ainy Histology (BMS 103) department book, 2026, page 22 of the file (pri
 Kasr Al Ainy Histology (BMS 103) department book, page 23 of the file (printed page 22) — skeletal muscle sites and connective-tissue organisation.
 Kasr Al Ainy Histology (BMS 103) department book, page 24 of the file (printed page 23) — the skeletal muscle fibre, its LM picture and sarcoplasmic contents.
 Kasr Al Ainy Histology (BMS 103) department book, page 25 of the file (printed page 24) — the EM picture of myofibrils and the sarcomere.
+Kasr Al Ainy Histology (BMS 103) department book, page 26 of the file (printed page 25) — the Triad Tubular System's own definition (T-tubules at A-I band junctions, each between a pair of terminal cisternae).
+Kasr Al Ainy Histology (BMS 103) department book, page 27 of the file (printed page 26) — the Role of the Tubular System (depolarisation along the T-tubule stimulating sarcoplasmic-reticulum Ca²⁺ release).
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set, src_7272bde5a8d524835d9b), printed pages 22-23 (Q3, the triad and the steps/before-and-during-contraction changes of skeletal muscle contraction) — the department's own model-answer wording, used to confirm the triad section adds nothing beyond what the department book itself states.
 
 ## evidence_gaps
 The book does not give a resting sarcomere length in micrometres, describing the contraction-related length changes only qualitatively; file page 26, the "Relaxed and contracted sarcomere" figure, carried no machine-readable caption text in the corpus extraction.
+The book states depolarisation along the T-tubule triggers sarcoplasmic-reticulum Ca²⁺ release, but this chapter does not itself state the relaxation step (Ca²⁺ pumped back into the sarcoplasmic reticulum) — the department's own written-assessment revision set states it, but that is a department question bank, not this chapter of the book, so it is not asserted here.
 
 ## conflicts
 [clear]
@@ -2632,12 +2739,16 @@ The book does not give a resting sarcomere length in micrometres, describing the
 ## notes
 Written to teach the skeletal-muscle organisation, fibre LM-picture and sarcomere concepts, plus the A/I-band update row, none of which had article coverage until now; the existing ART-103-HIS-CARDIAC-INTERCALATED-DISC and ART-103-HIS-SMOOTH-MUSCLE articles cover the other two muscle types.
 
+EXTENDED in the demand-driven lane that followed the histology question lane's report: that report's MISSING CONCEPT section flagged the triad tubular system and the contraction-length changes as concepts the department's own written-assessment revision set (src_7272bde5a8d524835d9b, Q3) asks about that no article named, even though both concepts (CON-MSK-BD54A250111D42, CON-MSK-70448A9B07D24A) already existed live. This article's own Mechanism section already stated the contraction-length fact in prose without citing the concept id — now cited. A new "The triad tubular system" section and matching Key determinants row were added from the same department book pages already in evidence_basis, so the article's concept and article coverage now both resolve.
+
+Two-sided coverage closure (this batch's final pass): `check-two-sided-coverage.py "103 BMS" --list` flagged CON-MSK-BBEDCAE76A03B9 ("A band has a central pale H zone bisected by M line") as tested with no article link. It is a live-only concept with no record of its own in concept/103-BMS-histology-concepts.md, but this article's own Definition section already states the identical fact ("The A band appears dark... the H zone... the M line, which bisects the H zone"), so it was added to `related_concepts` here to supply the missing back-link; a matching sparse update row (id + article_ids) was added to the concept file so the concept side resolves too.
+
 ## field_notes
 nanotopicId: "Skeletal Muscle" is the finest heading the department book prints under Muscle Tissue; a nanotopic below it would be invented.
-media: No rights-cleared asset exists for this article; the two fields it needs are filed as requests in media_recommendations.
+media: No rights-cleared asset exists for this article; the three fields it needs are filed as requests in media_recommendations.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
-questionIds: No hand-authored written or MCQ question in this batch tests this article's concepts yet; no question ID exists to cite. A future question-authoring lane should link one here once written.
+questionIds: QW-103-BE8F3F8C754E, the department written-assessment's triad/contraction-changes question authored in this same batch, is the first hand-authored question to test this article's concepts.
 
 ---
 
@@ -2861,6 +2972,238 @@ media: No rights-cleared asset exists for this article; the one field it needs i
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 questionIds: No hand-authored written or MCQ question in this batch tests this article's concepts yet; no question ID exists to cite. A future question-authoring lane should link one here once written.
+
+---
+
+# Item
+
+## id
+ART-103-HIS-MUSCLE-COMPARISON-TABLE
+
+## title
+Skeletal, cardiac and smooth muscle: the comparison table
+
+## arabic_title
+جدول مقارنة العضلات الهيكلية والقلبية والملساء
+
+## aliases
+Differences between the three types of muscle fibers
+Muscle fibre comparison table
+Skeletal versus cardiac versus smooth muscle
+Three types of muscle fibers table
+Comparison of muscle types
+
+## subject
+msk
+
+## topic
+Basic tissues
+
+## subtopic
+Muscle Tissue
+
+## microtopic
+Differences between the Three Types of Muscle Fibers
+
+## nanotopic
+
+
+## primary_node_id
+DIS-HIS-T02
+
+## secondary_node_ids
+DIS-HIS-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The department book closes its Muscle Tissue chapter with its own table, setting skeletal, cardiac and smooth muscle side by side across fourteen features at once. Read row by row it is mostly a recap of what the three muscle-type articles already state one at a time; read as a whole it is the fastest way to answer a "compare" question, and the department's own written-assessment revision set asks for exactly this table.
+
+## sections
+### Definition
+The book's own heading is "Difference between types of muscle fibers," printed as a table with three columns — Skeletal Muscle, Cardiac Muscle, Smooth Muscle — and fourteen rows: site, size, single fibre, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action, innervation, and a final "Modifications" row.
+
+Site: skeletal muscle is attached to bone; cardiac muscle forms the heart wall; smooth muscle lies in the wall of the viscera. Size: skeletal fibres are largest, cardiac fibres medium-sized, smooth fibres smallest. Single fibre: a skeletal fibre is a single cell and a smooth fibre is a single cell; a cardiac fibre is several cells (myocytes) linked together. Shape: skeletal and cardiac fibres are cylindrical; smooth fibres are spindle-shaped.
+
+### Mechanism
+The table is not fourteen unrelated facts; most of its rows follow from the same two underlying differences already argued in the three muscle-type articles — whether the fibre is one cell or many, and how far its contractile apparatus is organised.
+
+Branching, sarcolemma and nuclei follow the one-cell-or-many split directly. Skeletal fibres rarely branch, are thick-sarcolemma'd (fused to basal lamina and endomysium) and carry multiple peripheral nuclei — the signature of many fused myoblasts in one cell. Cardiac fibres branch and join, are very thin-sarcolemma'd, and carry one central nucleus per myocyte, because each myocyte is its own cell rather than a fusion product. Smooth fibres do not branch, are thin-sarcolemma'd, and carry one central nucleus, because each is a single, unfused cell from the start.
+
+Striation, sarcomeres and tubular system follow how organised the contractile apparatus is. Skeletal muscle has the most highly ordered filament lattice — regular sarcomeres, clear striation — and needs the fastest, most complete excitation-contraction coupling, hence a triad (one T-tubule, two terminal cisternae) at every A-I junction. Cardiac muscle has sarcomeres too, but arranged less regularly, giving "non-clear" striation rather than none, and needs less sarcoplasmic reticulum, hence only a diad at the Z line. Smooth muscle has no sarcomeres at all — its actin and myosin are irregularly arranged — so it has no striation and no tubular system; it uses surface caveolae instead.
+
+Cell junctions and regeneration follow from what each muscle type is built to do continuously. Skeletal fibres, as single large cells with their own nerve supply, need no junctions to their neighbours and cannot fuse new fibres from nothing, but recruit satellite cells (reserve myoblasts) to regenerate. Cardiac fibres, which must contract as one electrical and mechanical unit for a lifetime, need the intercalated disc's three junction types and, once mature, cannot regenerate at all. Smooth muscle, built to remodel throughout life (as in a pregnant uterus), keeps both a simpler gap-junction-only coupling and the ability to regenerate by mitosis or from pericytes.
+
+Action and innervation follow the same line one level up: skeletal muscle is voluntary and motor-innervated; cardiac and smooth muscle are both involuntary and autonomically innervated.
+
+### Key determinants
+**Site, size, single fibre.** Skeletal: bone, largest, single cell. Cardiac: heart wall, medium, several linked cells. Smooth: viscera wall, smallest, single cell.
+
+**Shape and branching.** Skeletal: cylindrical, rarely branches. Cardiac: cylindrical, branches. Smooth: spindle-shaped, non-branched.
+
+**Sarcolemma and striation.** Skeletal: thick, striated. Cardiac: very thin, non-clear striation. Smooth: thin, non-striated.
+
+**Nuclei and sarcomeres.** Skeletal: multiple/peripheral, regular sarcomeres. Cardiac: one/central, irregular sarcomeres. Smooth: one/central, no sarcomeres.
+
+**Tubular system and cell junctions.** Skeletal: triad (A-I junction), no junctions. Cardiac: diad (Z line), intercalated disc (fascia adherens, desmosomes, gap junctions). Smooth: none (caveolae instead), gap junctions only.
+
+**Regeneration, action, innervation.** Skeletal: satellite cells, voluntary, motor. Cardiac: cannot regenerate, involuntary, autonomic. Smooth: mitosis/pericytes, involuntary, autonomic.
+
+**Named modification.** Skeletal: muscle spindle. Cardiac: Purkinje fibres. Smooth: none printed.
+
+### Clinical significance
+The row most directly worth an exam mark by itself is regeneration: cardiac muscle's total inability to regenerate is exactly why an infarcted area heals by fibrous scar rather than new myocardium, while skeletal muscle's satellite cells and smooth muscle's mitotic and pericyte-derived regeneration are why those two tissues can recover structurally from comparable injury in a way heart muscle cannot.
+
+### Common misconceptions
+Treating "striated" as all-or-nothing. Cardiac muscle is not unstriated — it shows non-clear striation because it still has sarcomeres, just irregular ones; only smooth muscle, with no sarcomeres, is genuinely unstriated. A two-way striated/unstriated split loses the row that actually separates cardiac from both neighbours.
+
+Assuming every muscle type has some tubular system. Smooth muscle has none at all — caveolae are a different structure (surface invaginations, not a tubule network) and are not "a smaller tubular system."
+
+Assuming the intercalated disc's three junction types are three alternatives rather than three parts of one structure. All three — fascia adherens, desmosomes, gap junctions — are present together in one cardiac muscle fibre; the comparison with skeletal muscle (no junctions) and smooth muscle (gap junctions alone) is about which types of junction, not how many are present in cardiac muscle at once.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Skeletal muscle: bone, largest, single cell, thick sarcolemma, striated, multiple peripheral nuclei, regular sarcomeres, triad at the A-I junction, no cell junctions, satellite-cell regeneration, voluntary, motor.
+Cardiac muscle: heart wall, medium, several linked cells, very thin sarcolemma, non-clear striation, one central nucleus, irregular sarcomeres, diad at the Z line, intercalated disc, cannot regenerate, involuntary, autonomic.
+Smooth muscle: viscera wall, smallest, single cell, thin sarcolemma, non-striated, one central nucleus, no sarcomeres, no tubular system (caveolae), gap junctions only, regenerates by mitosis/pericytes, involuntary, autonomic.
+The book's own "Modifications" row: muscle spindle (skeletal), Purkinje fibres (cardiac), none printed (smooth).
+Cardiac muscle's total inability to regenerate is exactly why an infarcted area heals by fibrous scar rather than new myocardium.
+
+## lose_the_mark
+Calling cardiac muscle unstriated instead of "non-clear striation".
+Giving smooth muscle any tubular system; it has none, only caveolae.
+Saying cardiac muscle can regenerate like skeletal or smooth muscle; the book states it cannot, in normal conditions.
+Swapping the triad (skeletal, A-I junction) and diad (cardiac, Z line) locations.
+
+## callout_evidence
+### Cardiac muscle's total inability to regenerate is exactly why an infarcted area heals by fibrous scar rather than new myocardium.
+Claims: CLM-MSK-MUSCLE-COMPARISON-01
+Citations: CIT-KA-HIST-MUSCLE-COMPARISON-01
+Span: SPN-HIS-MUSCLE-COMPARISON-01
+Reviewed by: Dr. Omar
+Reviewed at: 2026-08-22
+
+## related_concepts
+CON-MSK-B080975D6171CF
+CON-MSK-2493DDAE4798CE
+CON-MSK-2E451ACE10A724
+CON-MSK-888DFA3AA4E974
+CON-MSK-BD54A250111D42
+
+## related_articles
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE: the skeletal row's own fibre, sarcomere and triad detail
+ART-103-HIS-CARDIAC-INTERCALATED-DISC: the cardiac row's own myocyte, diad and intercalated-disc detail
+ART-103-HIS-SMOOTH-MUSCLE: the smooth row's own fibre and caveolae detail
+
+## question_ids
+QW-103-B69C3DF0185E
+
+## resource_ids
+src_2bf25a6864c9f6ce3283
+
+## article_source_ids
+src_2bf25a6864c9f6ce3283
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue
+
+## university_notes
+kau: Asked as its own question in the department's own Histology written-assessment revision set (src_7272bde5a8d524835d9b, Q9), not a sitting; the department book prints the table under its own heading at the end of the Muscle Tissue chapter.
+
+## annotations
+### definition_of · CON-MSK-B080975D6171CF
+Quote: Site: skeletal muscle is attached to bone; cardiac muscle forms the heart wall; smooth muscle lies in the wall of the viscera.
+Block: body
+
+## media
+
+
+## media_recommendations
+### histology · Section Definition
+Brief: A redrawn or photographed copy of the department book's own fourteen-row comparison table, laid out with skeletal, cardiac and smooth muscle as columns exactly as the book prints it
+Purpose: Teaches CON-MSK-B080975D6171CF. This concept's entire objective is reproducing the book's own table; a student revising for a "compare the three muscle types" question needs the table itself as a study aid, not only the prose walkthrough of it.
+Priority: required
+Status: needed
+Kind: histology
+Section: Definition
+Source direction: Kasr Al Ainy department book page, photographed or redrawn for teaching with permission recorded
+Rights: must be CC-BY or public domain, or departmental with permission recorded
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Histology (BMS 103) department book, 2026, page 34 of the file (printed page 33) — "Differences between the Three Types of Muscle Fibers," the full fourteen-row table.
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set, src_7272bde5a8d524835d9b), printed page 29 (Q9) — the department's own reproduction of the same table, used to confirm nothing beyond the department book itself was asserted.
+
+## evidence_gaps
+The book gives cardiac muscle's striation as "Non-clear striation" without defining what makes a striation "clear" versus "non-clear" beyond the word itself; no numeric or structural criterion is printed anywhere in the chapter.
+The book's "Modifications" row prints "Muscle spindle" for skeletal and "Purkinje fibers" for cardiac muscle but no entry for smooth muscle, and does not say whether that cell is left blank because smooth muscle has no comparable named modification or because the book simply omits one — this article states only what is printed.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written for CON-MSK-B080975D6171CF, one of the four topics flagged in the histology question lane's report (B7c) as asked by the department's own written-assessment revision set (Q9) but covered by no existing article — the individual rows were already covered piecemeal by the skeletal, cardiac and smooth muscle articles, but no article synthesised all three side by side the way the book's own table does and the way the department bank's own question asks for. Every row in Definition and Key determinants is the book's own table, transcribed; the Mechanism section is this article's own reasoning about why the rows cluster the way they do, drawn only from facts the three muscle-type articles already state and cite.
+
+## field_notes
+microtopicId: The department book prints "Differences between the Three Types of Muscle Fibers" as its own heading, carried in `microtopic`; the canonical tree's Muscle Tissue node has no child for it (only Skeletal Muscle, Cardiac Muscle and Smooth Muscle are listed), so `module_subject` stops at "Muscle Tissue" rather than inventing a tree segment the academic tree file does not carry.
+nanotopicId: The table is already the finest unit the book prints; a nanotopic would be invented.
+media: No rights-cleared asset exists for this article; the one field it needs is filed as a request in media_recommendations.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+questionIds: QW-103-B69C3DF0185E, the department written-assessment's comparison-table question authored in this same batch, is the first hand-authored question to test this article's concept.
 
 ---
 

@@ -16,21 +16,26 @@
   Filename says "MSK" but the content is not limited to MSK histology; it runs Cartilage
   through Bone, Muscle and Skin as printed.
 
-  29 records, grouped Cartilage (5) > Bone (9) > Muscle (5) > Skin (10). Every
-  main_concept is an existing, live-pending concept from concept/103-BMS-histology-concepts.md
-  and every library_ids entry an existing article from article/103-BMS-histology.md —
-  no new concept or article was minted for this file.
+  29 records (Cartilage 5 > Bone 9 > Muscle 5 > Skin 10) were authored first, every
+  main_concept an existing, live-pending concept from concept/103-BMS-histology-concepts.md
+  and every library_ids entry an existing article from article/103-BMS-histology.md — no
+  new concept or article was minted for that batch.
 
-  NOT AUTHORED — genuinely uncovered by any existing concept+article pair, listed under
-  MISSING CONCEPT in the lane report:
-    - General cardiac muscle fibre histological structure (LM/EM, sarcoplasm inclusions,
-      atrial granules) — p23-24. Only its intercalated-disc sub-feature has a concept.
-    - Purkinje fibre histological characteristics — p25-26.
-    - The three-way skeletal/smooth/cardiac muscle comparison table — p28.
-    - Triad tubular system + the steps and before/during-contraction changes of skeletal
-      muscle contraction — p21-22. CON-MSK-BD54A250111D42 (T-tubule/triad) and
-      CON-MSK-70448A9B07D24A (contraction band changes) exist but neither is covered by
-      any article in article/103-BMS-histology.md.
+  4 MORE RECORDS were appended later, by the demand-driven lane A3b, once the four
+  MISSING CONCEPT gaps this file's own header used to list here were closed:
+    - QW-103-BE8F3F8C754E — Triad tubular system + the changes of skeletal muscle
+      contraction (p22-23). Reuses the two concepts that already existed,
+      CON-MSK-BD54A250111D42 and CON-MSK-70448A9B07D24A, now that
+      article/103-BMS-histology.md's ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE names both.
+    - QW-103-06EB815A511A — General cardiac muscle fibre histological structure, LM/EM,
+      sarcoplasm inclusions, atrial granules (p24-25). New concept CON-MSK-2E451ACE10A724.
+    - QW-103-56FBC59B4D41 — Purkinje fibre histological characteristics (p26). New concept
+      CON-MSK-5EA95D36121EF8.
+    - QW-103-B69C3DF0185E — The three-way skeletal/cardiac/smooth muscle comparison table
+      (p29). New concept CON-MSK-B080975D6171CF and new article
+      ART-103-HIS-MUSCLE-COMPARISON-TABLE.
+  33 records total. See A3b-103-histology-demand.md for the full account of what was
+  minted/extended and why.
 
   Status Draft throughout; these need a faculty reviewer. Import: Admin > Bulk import >
   question, after the histology concept and article files.
@@ -3914,6 +3919,547 @@ State which of the stratum lucidum, sebaceous glands and hair follicles are pres
 
 ## author_notes
 From the department's own Histology revision set (not a sitting; a printed page range, not an exam paper). 103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set) groups this content under its own printed heading; the model answer on p40 is transcribed as the Expects list.
+
+## estimated_seconds
+240
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QW-103-BE8F3F8C754E
+
+## title
+The triad tubular system and the changes of skeletal muscle contraction
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## question
+Describe the triad tubular system of skeletal muscle and state the changes that occur in the sarcomere during contraction.
+
+## format
+structured_written
+
+## written_parts
+### (a) 7 marks
+Describe the triad tubular system of skeletal muscle and state the changes that occur in the sarcomere during contraction.
+Expects: T-tubules are invaginations of the sarcolemma that encircle all myofibrils, located at the A-I band junctions, with their lumens continuous with the extracellular space
+Expects: Each T-tubule lies between a pair of wide terminal cisternae of sarcoplasmic reticulum, forming the triad tubular system
+Expects: Depolarisation spreads along the T-tubule membranes into the depth of the muscle fibre and stimulates the sarcoplasmic reticulum to rapidly release Ca2+ into the sarcoplasm
+Expects: During contraction the sarcomere shortens and the I band shortens
+Expects: The H zone narrows or disappears during contraction
+Expects: The A band does not change in length, because the length of the actin and myosin filaments is not changed
+Concept: CON-MSK-BD54A250111D42 | CON-MSK-70448A9B07D24A
+
+## derived_from
+
+
+## topic
+Muscle
+
+## subtopic
+Skeletal muscle
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## main_concept
+CON-MSK-BD54A250111D42 | CON-MSK-70448A9B07D24A
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue > Skeletal Muscle
+
+## clinical_relevance
+0.35
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+
+
+## concept_ids
+
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+
+## library_ids
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
+
+## resource_ids
+
+
+## learning_objective
+Describe the triad tubular system's structure and its role in triggering calcium release, and state which sarcomere bands change length during contraction and which does not.
+
+## media_recommendations
+
+
+## source_citation
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set), manifest src_7272bde5a8d524835d9b, p22-23.
+
+## attachments
+
+
+## attached_image
+
+
+## author_notes
+From the department's own Histology revision set (not a sitting; a printed page range, not an exam paper). 103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set) groups this content under its own printed heading "The Transverse tubules Triad Q3"; the model answer across p22-23 is transcribed as the Expects list. This is one of the four topics the histology question lane's report (B7c) flagged as asked by this source but covered by no article — ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE was extended with a new "The triad tubular system" section in the same batch that authored this question. Marks are not printed in this source; 7 is estimated by analogy with the 6-8 mark range the department prints for comparable two-part structural/mechanism questions elsewhere in this same revision set. The department's own "steps of contraction" list on p22 also states the relaxation step (Ca2+ pumped back into the sarcoplasmic reticulum); that step is not included in Expects because it is not stated anywhere in the department book chapter this question's concepts and article are drawn from, only in this question bank, and rule 1 requires the book as the source of medical fact.
+
+## estimated_seconds
+240
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QW-103-06EB815A511A
+
+## title
+Cardiac muscle fibre: light- and electron-microscopic structure
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## question
+Describe the light- and electron-microscopic structure of the cardiac muscle fibre.
+
+## format
+structured_written
+
+## written_parts
+### (a) 6 marks
+Describe the light- and electron-microscopic structure of the cardiac muscle fibre.
+Expects: Each cardiac muscle fibre is made up of many separate cardiac myocytes linked to each other
+Expects: By LM: about 80 micrometres in length and 15 micrometres in diameter, cylindrical, branching and joining to adjacent cells; sarcolemma is a thin cell membrane; nucleus is single (may be two), oval and central; sarcoplasm is acidophilic with non-clear transverse striations and intercalated discs
+Expects: By EM: myofibrils are fewer than in skeletal muscle; mitochondria are numerous and large with closely packed cristae
+Expects: By EM: sarcoplasmic reticulum is less developed than in skeletal muscle and, with the T-tubule, forms a diad (not triad) tubular system at the level of the Z line
+Expects: Inclusions are glycogen granules, lipofuscin granules (accumulating with age to form brown atrophy of the heart), and, in atrial muscle cells only, atrial granules containing atrial natriuretic hormones that affect urinary sodium and water excretion
+Concept: CON-MSK-2E451ACE10A724
+
+## derived_from
+
+
+## topic
+Muscle
+
+## subtopic
+Cardiac muscle
+
+## difficulty
+Moderate
+
+## question_type
+Anatomy
+
+## main_concept
+CON-MSK-2E451ACE10A724
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue > Cardiac Muscle
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+
+
+## concept_ids
+
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+
+## library_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## resource_ids
+
+
+## learning_objective
+State the light-microscopic size, shape, sarcolemma and nucleus of a cardiac myocyte, and its electron-microscopic organelles and inclusions, including the endocrine role of atrial granules.
+
+## media_recommendations
+
+
+## source_citation
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set), manifest src_7272bde5a8d524835d9b, p24-25.
+
+## attachments
+
+
+## attached_image
+
+
+## author_notes
+From the department's own Histology revision set (not a sitting; a printed page range, not an exam paper). 103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set) groups this content under its own printed heading "2. Cardiac Muscle / Histological structure Q5"; the model answer across p24-25 is transcribed as the Expects list. This is one of the four topics the histology question lane's report (B7c) flagged as asked by this source but covered by no article — only the intercalated-disc sub-feature had a concept before this batch minted CON-MSK-2E451ACE10A724 and extended ART-103-HIS-CARDIAC-INTERCALATED-DISC with a new "The cardiac myocyte: full LM and EM picture" section. Marks are not printed in this source; 6 is estimated by analogy with the "Mention LM and EM picture of Intercalated disc" question on the 2025 end-of-year paper, which this question matches in shape (one LM part, one EM part) and is set at the same 6 marks.
+
+## estimated_seconds
+240
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QW-103-56FBC59B4D41
+
+## title
+Purkinje fibres: site, function and histological characteristics
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## question
+Describe the site, function and histological characteristics of Purkinje muscle fibres.
+
+## format
+structured_written
+
+## written_parts
+### (a) 6 marks
+Describe the site, function and histological characteristics of Purkinje muscle fibres.
+Expects: The moderator band, located in the right ventricle, contains Purkinje muscle fibres, which constitute the atrioventricular (A-V) bundle and its branches
+Expects: They rapidly transmit the contractile impulses to various parts of the ventricular cardiac muscle via gap junctions, faster than the ordinary myocardium, and are grouped into bundles surrounded by a connective-tissue sheath
+Expects: They are larger in diameter than ordinary cardiac muscle fibres
+Expects: Their nucleus is usually eccentric in position
+Expects: Their sarcoplasm is pale and vacuolated, due to excess glycogen
+Expects: No striations appear, because they have few myofibrils, peripherally situated parallel to the sarcolemma; they have no intercalated discs
+Concept: CON-MSK-5EA95D36121EF8
+
+## derived_from
+
+
+## topic
+Muscle
+
+## subtopic
+Cardiac muscle
+
+## difficulty
+Moderate
+
+## question_type
+Anatomy
+
+## main_concept
+CON-MSK-5EA95D36121EF8
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue > Cardiac Muscle
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## question_only_for
+
+
+## concept_ids
+
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## contextual_concept_ids
+
+
+## library_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## resource_ids
+
+
+## learning_objective
+Define Purkinje muscle fibres by site and function, and list the five histological features that distinguish them from an ordinary cardiac myocyte.
+
+## media_recommendations
+
+
+## source_citation
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set), manifest src_7272bde5a8d524835d9b, p26.
+
+## attachments
+
+
+## attached_image
+
+
+## author_notes
+From the department's own Histology revision set (not a sitting; a printed page range, not an exam paper). 103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set) groups this content under its own printed heading "Purkinje muscle fibers / Q7 Histological Characteristics of Purkinje Fibers"; the model answer on p26 is transcribed as the Expects list. This is one of the four topics the histology question lane's report (B7c) flagged as asked by this source but covered by no article — the article mentioned Purkinje fibres in one prose paragraph with no concept anchoring it; this batch minted CON-MSK-5EA95D36121EF8 and gave ART-103-HIS-CARDIAC-INTERCALATED-DISC a dedicated "Purkinje fibres" section. Marks are not printed in this source; 6 is estimated by analogy with the intercalated-disc question's own 6-mark, two-part shape (site/function, then the distinguishing features), which this question mirrors.
+
+## estimated_seconds
+240
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QW-103-B69C3DF0185E
+
+## title
+Skeletal, cardiac and smooth muscle: the comparison table
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+
+## question
+Compare between skeletal, cardiac and smooth muscle regarding site, size, single fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation.
+
+## format
+comparison_table
+
+## written_parts
+### (a) 8 marks
+Compare between skeletal, cardiac and smooth muscle regarding site, size, single fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation.
+Expects: Site — skeletal muscle is attached to bone, cardiac muscle forms the heart wall, smooth muscle lies in the wall of the viscera. Size — skeletal fibres are largest, cardiac fibres medium sized, smooth fibres smallest. Single fibre — a skeletal fibre and a smooth fibre are each a single cell; a cardiac fibre is several cells joined together
+Expects: Shape — skeletal and cardiac fibres are cylindrical, smooth fibres are spindle-shaped. Branching — skeletal fibres rarely branch, cardiac fibres branch, smooth fibres are non-branched
+Expects: Sarcolemma — thick in skeletal muscle, very thin in cardiac muscle, thin in smooth muscle. Striation — skeletal muscle is striated, cardiac muscle shows non-clear striation, smooth muscle is non-striated
+Expects: Nuclei — skeletal fibres have multiple peripheral nuclei, cardiac and smooth fibres each have one central nucleus. Sarcomeres — regular in skeletal muscle, irregular in cardiac muscle, absent in smooth muscle
+Expects: Tubular system — skeletal muscle has a triad system at the A-I junction, cardiac muscle has a diad system at the level of the Z line, smooth muscle has no tubular system (caveolae instead)
+Expects: Cell junctions — none in skeletal muscle, the intercalated disc (fascia adherens, desmosomes and gap junctions) in cardiac muscle, gap junctions alone in smooth muscle
+Expects: Regeneration — skeletal muscle regenerates from satellite cells, cardiac muscle cannot regenerate in normal conditions, smooth muscle regenerates by mitosis or from pericytes. Action — skeletal muscle is voluntary, cardiac and smooth muscle are involuntary
+Expects: Innervation — skeletal muscle has motor innervation, cardiac and smooth muscle have autonomic innervation. Modifications — the muscle spindle in skeletal muscle and Purkinje fibres in cardiac muscle
+Concept: CON-MSK-B080975D6171CF
+
+## derived_from
+
+
+## topic
+Muscle
+
+## subtopic
+Comparison
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## main_concept
+CON-MSK-B080975D6171CF
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.95
+
+## cognitive_effort_score
+0.6
+
+## exam_weight_by_year
+KAU_Y1=0.7
+
+## question_only_for
+
+
+## concept_ids
+
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+60
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+
+
+## library_ids
+ART-103-HIS-MUSCLE-COMPARISON-TABLE
+
+## resource_ids
+
+
+## learning_objective
+Reproduce the department book's own fourteen-row comparison of skeletal, cardiac and smooth muscle.
+
+## media_recommendations
+
+
+## source_citation
+103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set), manifest src_7272bde5a8d524835d9b, p29.
+
+## attachments
+
+
+## attached_image
+
+
+## author_notes
+From the department's own Histology revision set (not a sitting; a printed page range, not an exam paper). 103 HISTOLOGY ASSESSMENT MSK - Written (Kasr Al Ainy Histology department revision set) groups this content under its own printed heading "Difference between types of muscle fibers Q9"; the model answer's table on p29 is transcribed row by row as the Expects list. This is one of the four topics the histology question lane's report (B7c) flagged as asked by this source but covered by no article — no synthesis concept spanned all three muscle types before this batch minted CON-MSK-B080975D6171CF and wrote a new article, ART-103-HIS-MUSCLE-COMPARISON-TABLE, to hold it. Marks are not printed in this source; 8 marks is the top of the range this department-bank file otherwise uses (4-8 marks per item), reflecting that this table has more rows than any other single item in this file.
 
 ## estimated_seconds
 240

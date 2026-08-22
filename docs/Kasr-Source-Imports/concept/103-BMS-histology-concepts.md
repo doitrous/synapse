@@ -710,7 +710,7 @@ ART-103-HIS-CARDIAC-INTERCALATED-DISC
 ART-103-HIS-CARDIAC-INTERCALATED-DISC
 
 ## related_concept_ids
-CON-MSK-888DFA3AA4E974 | CON-MSK-E36936D62038BF
+CON-MSK-888DFA3AA4E974 | CON-MSK-E36936D62038BF | CON-MSK-2E451ACE10A724 | CON-MSK-5EA95D36121EF8
 
 ## resource_ids
 src_2bf25a6864c9f6ce3283
@@ -815,6 +815,554 @@ relationships: Walked the live CON-MSK-* muscle concepts, of which CON-MSK-E3693
 # Item
 
 ## id
+CON-MSK-2E451ACE10A724
+
+## label
+A cardiac muscle fibre is many linked myocytes with a thin sarcolemma, one central nucleus, few myofibrils, numerous large mitochondria, a diad tubular system, and glycogen, lipofuscin and atrial granules in its sarcoplasm
+
+## canonical_key
+cardiac-muscle.fibre.lm-em-structure
+
+## aliases
+Cardiac myocyte
+Cardiac muscle fibre
+Diad tubular system
+Atrial granules
+Lipofuscin granules
+Brown atrophy of the heart
+
+## arabic_label
+البنية النسيجية لليفة العضلة القلبية بالمجهرين الضوئي والإلكتروني
+
+## arabic_aliases
+الخلية العضلية القلبية
+الجهاز الأنبوبي الثنائي
+الحبيبات الأذينية
+حبيبات الليبوفسين
+
+## definition
+Each cardiac muscle fibre is made up of many separate cardiac myocytes linked to each other. By light microscopy a cardiac myocyte is a cylindrical cell about 80 micrometres in length and 15 micrometres in diameter that branches and joins to adjacent cells; its sarcolemma is a thin cell membrane, its nucleus is single (occasionally two), oval and central, and its sarcoplasm is acidophilic, showing non-clear (less distinct than skeletal muscle) transverse striations and intercalated discs. By electron microscopy the sarcoplasm holds fewer myofibrils than skeletal muscle; numerous large mitochondria with closely packed cristae; and a sarcoplasmic reticulum that is less developed than in skeletal muscle and forms, with the T-tubule, a diad (not a triad) tubular system at the level of the Z line. Its inclusions are glycogen granules; lipofuscin granules, which accumulate with age to form brown atrophy of the heart; and, in atrial muscle cells only, atrial granules containing atrial natriuretic hormones that affect urinary sodium and water excretion — giving atrial muscle cells an endocrine function as well as a contractile one.
+
+## explicit_objective
+State the light-microscopic size, shape, sarcolemma and nucleus of a cardiac myocyte, and its electron-microscopic organelles (myofibrils, mitochondria, diad tubular system) and inclusions (glycogen, lipofuscin, atrial granules), including the endocrine role of atrial granules.
+
+## pitfalls
+Assuming cardiac muscle has a triad tubular system like skeletal muscle. Its T-tubule pairs with only one terminal cisterna of sarcoplasmic reticulum, at the level of the Z line, forming a diad, not a triad at the A-I junction — the tubular-system row is one of the rows the comparison table tests directly.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-HIS-T02
+
+## secondary_node_ids
+DIS-HIS-T04 | SYS-CVS-T01
+
+## topic
+Basic tissues
+
+## subtopic
+Muscle Tissue
+
+## microtopic
+Cardiac Muscle
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue > Cardiac Muscle
+
+## article_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## related_article_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## related_concept_ids
+CON-MSK-0DEAF126DF8F2E | CON-MSK-5EA95D36121EF8 | CON-MSK-2493DDAE4798CE
+
+## resource_ids
+src_2bf25a6864c9f6ce3283
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.85
+
+## exam_signal
+src_7272bde5a8d524835d9b | department_questions | 2026 | p24-25 | 103 BMS
+
+## atomic_claim_ids
+CLM-MSK-CARDIAC-FIBRE-STRUCTURE-01 | CLM-MSK-CARDIAC-FIBRE-STRUCTURE-02
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[LM picture] "Cardiac muscle cell is characterized by: 80µm in length. Shape: Cylindrical cells. Size: about 15µm in diameter & branch and join to adjacent cells. Sarcolemma: Thin cell membrane. Nucleus: single (may be two), oval & central in each cardiac myocyte. Sarcoplasm: by LM, is acidophilic, exhibits non-clear transverse striations and intercalated discs."
+[EM picture] "Myofibrils: Less than in skeletal muscle. Mitochondria: numerous, large with closely packed cristae. Sarcoplasmic reticulum: less in number, development and organization than in skeletal muscle. Its arrangement with T- tubule takes the form of Diad (Not triad) tubular system at level of Z- line." "Glycogen granules. Lipofuscin granules: accumulate to be abundant in old age, forming brown atrophy of the heart. Atrial granules: present in muscle cells of heart atria. They contain atrial natriuretic hormones which affect urinary excretion of sodium & water balance. So, muscle cells of heart's atria also have an endocrine function."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book gives the myocyte's length as 80µm without saying whether this is a value for a single myocyte between intercalated discs or for the fibre as a whole, given the fibre itself is defined as "many separate cells... linked to each other."
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The department book's own section, "Cardiac Muscle", is written in `microtopic` as a title and carried precisely by `module_subject`; it resolves to no `MIC_` node because the canonical tree stops at DIS-HIS-T02.
+nanotopicId: "Cardiac Muscle" is the finest heading the department book prints under Muscle Tissue; a nanotopic below it would be invented.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; a micrograph is requested on ART-103-HIS-CARDIAC-INTERCALATED-DISC.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book and the department's own Histology written-assessment revision set (Q5); this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "cardiac myocyte", "diad", "atrial granules" and "lipofuscin" — the cardiac myocyte hits are all cardiovascular physiology (action-potential ionic basis), not histological structure, and the other three terms return nothing.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+rejectedMergeCandidateIds: Nothing was found to reject.
+relationships: This is the general LM/EM structure of a cardiac myocyte, distinct from CON-MSK-0DEAF126DF8F2E (which owns only the intercalated disc's own two-component structure) and from CON-MSK-5EA95D36121EF8 (Purkinje fibres, a specialised cardiac fibre this record's own features are contrasted against). Cross-linked to CON-MSK-2493DDAE4798CE, the equivalent skeletal-muscle-fibre record, as the nearest same-shape neighbour. This is one of the four topics the department's own Histology written-assessment (src_7272bde5a8d524835d9b, Q5) asks that no article covered until this batch — see the lane report.
+
+---
+
+# Item
+
+## id
+CON-MSK-5EA95D36121EF8
+
+## label
+Purkinje fibres are larger, pale and vacuolated cardiac muscle fibres in the moderator band that conduct via gap junctions without intercalated discs
+
+## canonical_key
+cardiac-muscle.purkinje-fibres.histological-characteristics
+
+## aliases
+Purkinje muscle fibres
+Purkinje fibres
+Moderator band
+Atrioventricular bundle fibres
+Conducting fibres of the heart
+
+## arabic_label
+ألياف بوركنجي القلبية
+
+## arabic_aliases
+الألياف الموصلة للقلب
+الحزمة المعتدلة
+ألياف بوركنجى
+
+## definition
+Purkinje muscle fibres are highly specialised cardiac muscle fibres that constitute the atrioventricular (A-V) bundle and its branches; the moderator band, located in the right ventricle, contains Purkinje fibres. They rapidly transmit the contractile impulse to various parts of the ventricular cardiac muscle via gap junctions, faster than ordinary myocardium, and are grouped into bundles surrounded by a connective-tissue sheath. Histologically they are larger in diameter than ordinary cardiac muscle fibres; their nucleus is usually eccentric in position; their sarcoplasm is pale and vacuolated from excess glycogen; they show no striations because they have few myofibrils, which lie peripherally, parallel to the sarcolemma; and they carry no intercalated discs.
+
+## explicit_objective
+Define Purkinje muscle fibres by site and function (the moderator band, the A-V bundle and its branches, and rapid gap-junction conduction faster than ordinary myocardium), and list the five histological features — diameter, nucleus position, sarcoplasm, striations, intercalated discs — that distinguish them from an ordinary cardiac myocyte.
+
+## pitfalls
+Assuming a specialised conducting cardiac fibre must still carry intercalated discs because it is cardiac muscle. Purkinje fibres carry gap junctions, which give the speed, but no intercalated discs at all — the fastest-conducting cardiac fibre is the one built for signal speed rather than the mechanical anchorage ordinary myocardium needs to contract as one.
+
+## concept_type
+definition
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-HIS-T02
+
+## secondary_node_ids
+DIS-HIS-T04 | SYS-CVS-T01
+
+## topic
+Basic tissues
+
+## subtopic
+Muscle Tissue
+
+## microtopic
+Cardiac Muscle
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue > Cardiac Muscle
+
+## article_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## related_article_ids
+ART-103-HIS-CARDIAC-INTERCALATED-DISC
+
+## related_concept_ids
+CON-MSK-0DEAF126DF8F2E | CON-MSK-2E451ACE10A724
+
+## resource_ids
+src_2bf25a6864c9f6ce3283
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.45
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## weight_confidence
+0.3
+
+## confidence
+0.85
+
+## exam_signal
+src_7272bde5a8d524835d9b | department_questions | 2026 | p26 | 103 BMS
+
+## atomic_claim_ids
+CLM-MSK-PURKINJE-FIBRES-01 | CLM-MSK-PURKINJE-FIBRES-02
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Purkinje Muscle Fibers] "Moderator band is located in the right ventricle and it contains Purkinje muscle fibers." "Purkinje muscle fibers are highly specialized cardiac muscle fibers that constitute atrioventricular (A –V) bundle & its branches." "They rapidly transmit the contractile impulses to various parts of ventricular cardiac muscle cells via gap junctions, faster than the ordinary myocardium."
+[Histological characteristics of purkinje fibers] "They are larger in diameter, than ordinary cardiac muscle fibers. Nucleus: usually eccentric in position. Sarcoplasm: pale & vacuolated (due to excess glycogen). No striations appear in the sarcoplasm due to few myofibrils, which are peripherally situated parallel to sarcolemma. No intercalated discs."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book states Purkinje fibres carry no intercalated discs but does not say whether they retain any tubular system (diad, triad, or none) at all — the silence is not the same as a stated absence, and this record does not assert one.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The department book's own section, "Cardiac Muscle", is written in `microtopic` as a title and carried precisely by `module_subject`; "Purkinje Muscle Fibers" is the book's own sub-heading within it, but the canonical tree stops at DIS-HIS-T02 so it resolves to no `MIC_` node.
+nanotopicId: A nanotopic below "Cardiac Muscle" would be invented; the book prints no heading finer than "Purkinje Muscle Fibers", which is carried in `aliases` instead.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; the book's own labelled Purkinje-cell diagram is requested on ART-103-HIS-CARDIAC-INTERCALATED-DISC.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book and the department's own Histology written-assessment revision set (Q7); this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "Purkinje" — every hit is either cerebellar Purkinje cells (104 CPS neuro), the cardiac conduction system's function in 104 CPS anatomy/physiology, or the 103 BMS glossary term; none states the histological LM characteristics this record owns.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+rejectedMergeCandidateIds: The live CON-NEU-* Purkinje-cell records (cerebellum) and the 104 CPS conduction-system concepts were read and rejected — cerebellar Purkinje cells are neurons, not cardiac muscle, and the 104 CPS records state the conduction pathway's function, not this fibre's own histological picture.
+relationships: Cross-linked to CON-MSK-0DEAF126DF8F2E (intercalated disc — the junction Purkinje fibres are explicitly stated to lack) and CON-MSK-2E451ACE10A724 (the ordinary cardiac myocyte this record's every feature is contrasted against). This is one of the four topics the department's own Histology written-assessment (src_7272bde5a8d524835d9b, Q7) asks that no article covered until this batch — see the lane report.
+
+---
+
+# Item
+
+## id
+CON-MSK-B080975D6171CF
+
+## label
+Skeletal, cardiac and smooth muscle differ across site, size, fibre composition, shape, branching, sarcolemma, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation
+
+## canonical_key
+muscle-tissue.three-types.comparison-table
+
+## aliases
+Differences between the three types of muscle fibers
+Skeletal versus cardiac versus smooth muscle
+Comparison of muscle types
+Muscle fibre comparison table
+Three types of muscle fibers table
+
+## arabic_label
+الفروق بين الأنواع الثلاثة للألياف العضلية
+
+## arabic_aliases
+مقارنة العضلات الهيكلية والقلبية والملساء
+جدول الفروق بين أنواع الأنسجة العضلية
+
+## definition
+The department book's own summary table sets the three muscle types side by side across fourteen features. Site: skeletal muscle attaches to bone, cardiac muscle forms the heart wall, smooth muscle lies in the wall of the viscera. Size: skeletal fibres are largest, cardiac fibres medium-sized, smooth fibres smallest. Single fibre: a skeletal fibre is a single cell and a smooth fibre is a single cell, while a cardiac fibre is made of several linked cells (myocytes). Shape: skeletal and cardiac fibres are cylindrical, smooth fibres are spindle-shaped. Branching: skeletal fibres rarely branch, cardiac fibres branch, smooth fibres do not branch. Sarcolemma: thick in skeletal muscle, very thin in cardiac muscle, thin in smooth muscle. Striation: skeletal muscle is striated, cardiac muscle shows non-clear striation, smooth muscle is non-striated. Nuclei: skeletal fibres have multiple, peripheral nuclei, cardiac and smooth fibres each have one central nucleus. Sarcomeres: regular in skeletal muscle, irregular in cardiac muscle, absent in smooth muscle. Tubular system: skeletal muscle has a triad system at the A-I junction, cardiac muscle has a diad system at the level of the Z line, smooth muscle has no tubular system (caveolae instead). Cell junctions: skeletal muscle has none, cardiac muscle has the intercalated disc (fascia adherens, desmosomes and gap junctions), smooth muscle has gap junctions alone. Regeneration: skeletal muscle regenerates from satellite cells, cardiac muscle cannot regenerate in normal conditions, smooth muscle regenerates by mitosis or from pericytes. Action: skeletal muscle is voluntary; cardiac and smooth muscle are involuntary. Innervation: skeletal muscle has motor innervation; cardiac and smooth muscle have autonomic innervation. The table's own final row also names each type's distinguishing modification where one exists: the muscle spindle for skeletal muscle and Purkinje fibres for cardiac muscle, with no entry printed for smooth muscle.
+
+## explicit_objective
+Reproduce, feature by feature, the department book's own table comparing skeletal, cardiac and smooth muscle across site, size, single-fibre composition, shape, branching, sarcolemma thickness, striation, nuclei, sarcomeres, tubular system, cell junctions, regeneration, action and innervation.
+
+## pitfalls
+Treating "striated" as all-or-nothing. Cardiac muscle is not unstriated — its striation is "non-clear", less distinct than skeletal muscle's, because cardiac muscle still has sarcomeres (irregular ones) while smooth muscle, genuinely unstriated, has none at all. Collapsing this into a two-way striated/unstriated split loses the row that actually separates cardiac muscle from both of its neighbours in the table.
+
+## concept_type
+classification
+
+## status
+under review
+
+## support_mode
+direct_statement
+
+## subject
+msk
+
+## primary_node_id
+DIS-HIS-T02
+
+## secondary_node_ids
+DIS-HIS-T04
+
+## topic
+Basic tissues
+
+## subtopic
+Muscle Tissue
+
+## microtopic
+Differences between the Three Types of Muscle Fibers
+
+## nanotopic
+
+
+## modules
+103 BMS
+
+## module_subject
+103 BMS > Histology > Muscle Tissue
+
+## article_ids
+ART-103-HIS-MUSCLE-COMPARISON-TABLE
+
+## related_article_ids
+ART-103-HIS-MUSCLE-COMPARISON-TABLE
+
+## related_concept_ids
+CON-MSK-2493DDAE4798CE | CON-MSK-2E451ACE10A724 | CON-MSK-888DFA3AA4E974 | CON-MSK-BD54A250111D42
+
+## resource_ids
+src_2bf25a6864c9f6ce3283
+
+## approved_file_resource_ids
+[clear]
+
+## approved_video_resource_ids
+[clear]
+
+## learner_years
+1
+
+## universities
+kau
+
+## blueprint_weight
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.95
+
+## weight_confidence
+0.35
+
+## confidence
+0.9
+
+## exam_signal
+src_7272bde5a8d524835d9b | department_questions | 2026 | p29 | 103 BMS
+
+## atomic_claim_ids
+CLM-MSK-MUSCLE-COMPARISON-01 | CLM-MSK-MUSCLE-COMPARISON-02
+
+## resource_occurrence_ids
+[clear]
+
+## source_candidate_ids
+[clear]
+
+## original_wording
+[Difference between types of muscle fibers, table] "Tubular System: Triad system (at level of A-I junction) [Skeletal] — Diad system (at level of Z line) [Cardiac] — Absent (Caveolae) [Smooth]."
+"Cell Junctions: None [Skeletal] — Intercalated disc: Fascia adherence, Desmosomes, Gap junctions [Cardiac] — Gap junction [Smooth]."
+"Modifications: Muscle spindle [Skeletal] — Purkinje fibers [Cardiac] — (none printed) [Smooth]."
+
+## merge_ids
+[clear]
+
+## rejected_merge_candidate_ids
+[clear]
+
+## conflicts
+[clear]
+
+## uncertainty
+The book gives cardiac muscle's striation as "Non-clear striation" without defining what makes a striation "clear" versus "non-clear" beyond the word itself; no numeric or structural criterion is printed anywhere else in the chapter.
+
+## evidence_gaps
+Evidence must be attached before publication.
+
+## owner
+Claude
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## last_reviewed
+
+
+## review_due
+
+
+## publication_status
+needs_evidence
+
+## editorial_review_status
+drafted_not_reviewed
+
+## exclusion_reason
+
+
+## field_notes
+microtopicId: The department book prints "Differences between the Three Types of Muscle Fibers" as its own heading, carried in `microtopic`; the canonical tree's Muscle Tissue node has no child for it (only Skeletal Muscle, Cardiac Muscle and Smooth Muscle are listed), so `module_subject` stops at "Muscle Tissue" rather than inventing a tree segment the academic tree file does not carry, and the fuller heading is kept only in `microtopic` and `aliases`.
+nanotopicId: A nanotopic would be invented; the table is already the finest unit the book prints.
+approvedFileResourceIds: No file resource has been rights-cleared for this concept; a photograph or redrawing of the book's own table is requested on ART-103-HIS-MUSCLE-COMPARISON-TABLE.
+approvedVideoResourceIds: No video resource has been rights-cleared for this concept.
+resourceOccurrenceIds: Hand-authored from the department book and the department's own Histology written-assessment revision set (Q9); this concept has no corpus extraction record.
+sourceCandidateIds: Searched the corpus for "differences between the three types", "diad tubular system" and "comparison of muscle" — no existing record of any kind names this synthesis.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+rejectedMergeCandidateIds: Nothing was found to reject; the individual rows are covered piecemeal by the skeletal, cardiac and smooth muscle records already in this file (cross-linked here), but no existing record spans all three, which is why B7c's report flagged this as a genuine gap rather than a duplicate.
+relationships: Cross-linked to the three muscle-type records this table draws its rows from (CON-MSK-2493DDAE4798CE skeletal, CON-MSK-2E451ACE10A724 cardiac, CON-MSK-888DFA3AA4E974 smooth) and to CON-MSK-BD54A250111D42 (the skeletal triad, the tubular-system row's skeletal cell). This is one of the four topics the department's own Histology written-assessment (src_7272bde5a8d524835d9b, Q9) asks that no article covered until this batch — see the lane report.
+
+---
+
+# Item
+
+## id
 CON-MSK-888DFA3AA4E974
 
 ## label
@@ -889,7 +1437,7 @@ ART-103-HIS-SMOOTH-MUSCLE
 ART-103-HIS-SMOOTH-MUSCLE
 
 ## related_concept_ids
-CON-MSK-0DEAF126DF8F2E | CON-MSK-E36936D62038BF
+CON-MSK-0DEAF126DF8F2E | CON-MSK-E36936D62038BF | CON-MSK-B080975D6171CF
 
 ## resource_ids
 src_2bf25a6864c9f6ce3283
@@ -1061,6 +1609,12 @@ CON-MSK-D137ADEEC56243 | CON-MSK-76CE11C6DCDC37
 ## resource_ids
 src_2bf25a6864c9f6ce3283
 
+## learner_years
+1
+
+## universities
+kau
+
 ## original_wording
 [Bone, General structure] "B- Bone Cells: Osteogenic cells, osteoblasts, osteocytes and osteoclasts."
 
@@ -1147,6 +1701,12 @@ CON-MSK-888DFA3AA4E974 | CON-MSK-0DEAF126DF8F2E | CON-MSK-BBEDCAE76A03B9 | CON-M
 ## resource_ids
 src_2bf25a6864c9f6ce3283
 
+## learner_years
+1
+
+## universities
+kau
+
 ## original_wording
 [EM Picture of Myofibrils] "According to their appearance under the polarizing microscope, the light band is isotropic (so called I band) as it does not alter the plane of polarized light. The dark band is anisotropic (so called A band) as it alters the polarized light in two planes."
 
@@ -1229,6 +1789,12 @@ CON-DER-56784AB396C13E
 
 ## resource_ids
 src_2bf25a6864c9f6ce3283
+
+## learner_years
+1
+
+## universities
+kau
 
 ## original_wording
 [Arrector Pili Muscle] "A bundle of smooth muscle fibers that extend from the mid shaft of the hair follicle to the papillary layer of the dermis. In case of fear and cold; sympathetic stimulation causes contraction of arrector pili muscle leading to erection of hair with depression of skin over the muscle and elevation of skin around the hair (goose skin)."
@@ -5092,7 +5658,7 @@ ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
 ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
 
 ## related_concept_ids
-CON-MSK-E36936D62038BF
+CON-MSK-E36936D62038BF | CON-MSK-B080975D6171CF | CON-MSK-2E451ACE10A724
 
 ## resource_ids
 src_2bf25a6864c9f6ce3283
@@ -8367,12 +8933,17 @@ A T tubule between two terminal SR cisternae forms a triad
 ## module_subject
 103 BMS > Histology > Muscle Tissue > Skeletal Muscle
 
+## related_article_ids
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
+
 ## related_concept_ids
-[clear]
+CON-MSK-B080975D6171CF
 
 ## field_notes
 modules: This record states a fact the 103 BMS Histology department book also teaches, at the section named in `module_subject`; added because the live record carried an empty `moduleIds`. No other field is changed.
 This narrow live fact already matches the department book's own definition of the triad tubular system (T-tubules at A-I band junctions, each between a pair of terminal cisternae) closely enough that no separate mint was made for it; module placement added instead.
+relatedArticleIds: ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE is extended in this batch to state the triad tubular system by name and its role in excitation-contraction coupling, which this live fact anchors but no article named until now — flagged as a genuine gap in the lane report (department written-assessment Q3).
+relatedConceptIds: Cross-linked to CON-MSK-B080975D6171CF, the skeletal/cardiac/smooth comparison table, whose "Tubular System" row states this same fact as the skeletal-muscle cell.
 
 ---
 
@@ -8390,12 +8961,19 @@ A band has a central pale H zone bisected by M line
 ## module_subject
 103 BMS > Histology > Muscle Tissue > Skeletal Muscle
 
+## article_ids
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
+
+## related_article_ids
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
+
 ## related_concept_ids
 CON-MSK-E36936D62038BF
 
 ## field_notes
 modules: This record states a fact the 103 BMS Histology department book also teaches, at the section named in `module_subject`; added because the live record carried an empty `moduleIds`. No other field is changed.
 relatedConceptIds: Cross-linked to the A/I band update row (CON-MSK-E36936D62038BF) in this same file, the band this H zone and M line sit inside.
+articleIds/relatedArticleIds: `check-two-sided-coverage.py "103 BMS" --list` flagged this id as tested (main_concept of an MCQ in question/103-BMS-MCQ-nerve-muscle.md, a different lane's file) with no article link at all. ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE's own Definition section already states this exact fact ("The A band appears dark... the H zone... the M line, which bisects the H zone"), which the article's own related_concepts was updated to cite back; article_ids added here so both sides of the coverage check resolve.
 
 ---
 
@@ -8413,12 +8991,17 @@ Contraction shortens I band, abolishes H zone, preserves A band, and shortens sa
 ## module_subject
 103 BMS > Histology > Muscle Tissue > Skeletal Muscle
 
+## related_article_ids
+ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE
+
 ## related_concept_ids
-[clear]
+CON-MSK-B080975D6171CF
 
 ## field_notes
 modules: This record states a fact the 103 BMS Histology department book also teaches, at the section named in `module_subject`; added because the live record carried an empty `moduleIds`. No other field is changed.
 The department book illustrates this exact contraction-length relationship in its "Relaxed and contracted sarcomere" figure (file page 26); the figure's own caption text was not machine-readable in the corpus extraction, so this update adds only module placement, not a new original_wording quote, to avoid overstating what the extracted text itself states.
+relatedArticleIds: ART-103-HIS-SKELETAL-MUSCLE-STRUCTURE already states this exact contraction-length relationship in its own Mechanism and Key determinants sections, sourced from the book's own EM-picture prose ("I-bands are very short in contracted muscle and longer in relaxed muscle, the length of the A-bands remain constant," file page 25); the article did not yet cite this concept id, which is the gap the lane report flagged (department written-assessment Q3's "during contraction" table) — cited now.
+relatedConceptIds: Cross-linked to CON-MSK-B080975D6171CF, the skeletal/cardiac/smooth comparison table, which states sarcomere regularity/absence as one of its own rows.
 
 ---
 
