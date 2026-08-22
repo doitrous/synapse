@@ -184,7 +184,7 @@ export const LEAF: McqLeafSeed = {
       type: 'structural_description',
     },
     {
-      key: 'pectoralis-major-attachment-action-nerve',
+      key: 'pectoralis-major-attachment-nerve-action',
       label: 'Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves',
       definition: 'Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.',
       objective: 'Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.',
@@ -514,7 +514,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-pectoralis-major-mark-one-correct-statement-eecbeb41',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.',
       answerOverride: 'A',
@@ -528,7 +528,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-pectoralis-major-muscle-mark-one-correct-statement-690df6d3',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major.',
       answerOverride: 'A',

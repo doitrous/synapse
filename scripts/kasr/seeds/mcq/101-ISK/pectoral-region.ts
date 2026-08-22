@@ -11,7 +11,7 @@
  * only the ones minted for the pectoral region itself are `msk`.
  *
  * Six concepts are reused verbatim rather than minted:
- * `pectoralis-major-attachment-action-nerve`,
+ * `pectoralis-major-attachment-nerve-action`,
  * `long-thoracic-nerve-serratus-anterior-winging` and
  * `scapular-rotation-abduction-beyond-90-muscles` from the sat papers, and
  * `white-versus-brown-adipose-connective-tissue`,
@@ -50,7 +50,7 @@ export const LEAF: McqLeafSeed = {
 
   concepts: [
     {
-      key: 'pectoralis-major-attachment-action-nerve',
+      key: 'pectoralis-major-attachment-nerve-action',
       label: 'Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves',
       definition: 'Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove. It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion. It is supplied by the lateral and medial pectoral nerves.',
       objective: 'Give the attachments, actions and nerve supply of pectoralis major, including the different action of each head.',
@@ -271,7 +271,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'considering-the-nerve-supply-of-pectoralis-major-it-is-inner-b5b0d5da',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Easy', questionType: 'Nerve supply',
       learningObjective: 'State that pectoralis major takes both pectoral nerves, one to each head.',
       answerOverride: 'c',
@@ -299,7 +299,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-pectoralis-major-mark-one-correct-statement-dep-bo-0219bfa1',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.',
       explanations: {
@@ -311,7 +311,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-pectoralis-major-mark-one-correct-statement-dep-bo-f8998e68',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Give the insertion, nerve supply, wall of the axilla and action of pectoralis major, and reject the three false versions of each.',
       explanations: {
@@ -337,7 +337,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-the-pectoralis-major-muscle-2019-ac-ad-ac-ad-ad-ad-ff951b6a',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Hard', questionType: 'Structure and function',
       learningObjective: 'Recognise that pectoralis major works with latissimus dorsi in adduction, and reject the three statements that invert its nerve supply, insertion and respiratory role.',
       answerOverride: 'D',
@@ -433,7 +433,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'the-following-muscle-has-double-innervation-dep-book-4334dad1',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Easy', questionType: 'Nerve supply',
       learningObjective: 'Name the pectoral muscle supplied by two nerves rather than one.',
       explanations: {
@@ -509,7 +509,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'which-of-the-following-statements-is-true-for-pectoralis-maj-79b99555',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Give the direction of pull of pectoralis major and reject reversed attachments and the wrong nerve.',
       explanations: {
@@ -557,7 +557,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-pectoralis-major-muscle-mark-one-correct-statement-051124b9',
-      conceptKey: 'pectoralis-major-attachment-action-nerve',
+      conceptKey: 'pectoralis-major-attachment-nerve-action',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
