@@ -347,6 +347,21 @@ function plusOnNonListErrors(rowKind, values) {
  */
 const FIELD_FLOOR = { concept: 50, question: 46, article: 49 }
 
+/**
+ * The same contract for practicals, which state it per format.
+ *
+ * From each format's manual: "Columns you should use — N of the 25". They
+ * differ because the formats use different columns, so one number across all
+ * practicals would be wrong for four of the five.
+ */
+const PRACTICAL_FLOOR = {
+  'OSCE station': 20,
+  'Clinical case': 19,
+  'Skills checklist': 16,
+  'Lab interpretation': 17,
+  'Imaging interpretation': 17,
+}
+
 /** Sentences, counted the way a reader would: terminal punctuation, not line breaks. */
 const sentenceCount = (text) => (text.match(/[.!?](\s|$)/g) ?? []).length || (text.trim() ? 1 : 0)
 
@@ -391,6 +406,53 @@ function completenessWarnings(rowKind, rows) {
   }
 
   if (rowKind === 'practical') {
+    // Per station, by format. The five practical manuals state this as "Columns
+    // you should use — 20 of the 25" rather than as a `fieldsUsed floor` line,
+    // and say outright that practicals do not report `fieldsUsed` at all. They
+    // are the same contract under another name: a minimum column count for a
+    // finished record, differing by format because the formats use different
+    // columns. An OSCE has candidate instructions and a mark scheme; a clinical
+    // case has decisions and neither.
+    //
+    // The manuals count "of the 25", which predates the three scoping columns
+    // added to the importer today. A floor is a minimum, so the extra columns
+    // can only lift a station over it, never under.
+    const authored = rows.filter((row) => !liveIds.has(row.id?.trim()))
+    const belowFloor = []
+    for (const row of authored) {
+      const floor = PRACTICAL_FLOOR[(row.type ?? '').trim()]
+      if (floor && Object.keys(row).length < floor) belowFloor.push({ type: row.type.trim(), used: Object.keys(row).length, floor })
+    }
+    if (belowFloor.length) {
+      const byType = {}
+      for (const entry of belowFloor) {
+        byType[entry.type] ??= { count: 0, floor: entry.floor, thinnest: entry.used }
+        byType[entry.type].count += 1
+        byType[entry.type].thinnest = Math.min(byType[entry.type].thinnest, entry.used)
+      }
+      const detail = Object.entries(byType)
+        .map(([type, seen]) => `${seen.count} ${type} below ${seen.floor} (thinnest ${seen.thinnest})`)
+        .join('; ')
+      out.push(`${belowFloor.length} of ${authored.length} station(s) use fewer columns than their format's manual asks for: ${detail}.`)
+    }
+
+    // A station nobody can be marked on. `mark_scheme` is how an OSCE and a
+    // checklist are scored and `marks` is the total; a case or a lab set scores
+    // through its decisions instead, so those formats are not counted here.
+    const scored = authored.filter((row) => ['OSCE station', 'Skills checklist'].includes((row.type ?? '').trim()))
+    const unscored = scored.filter((row) => !row.mark_scheme?.trim() && !row.marks?.trim())
+    if (unscored.length) {
+      out.push(`${unscored.length} of ${scored.length} OSCE/checklist station(s) carry neither mark_scheme nor marks — there is nothing to score a candidate against.`)
+    }
+
+    // An asset a station needs and does not describe. `media_needed` flags that
+    // something is missing; `media_recommendations` is what to make. Flagged
+    // without described, nobody knows what to commission.
+    const wanting = rows.filter((row) => row.media_needed?.trim() && !row.media_recommendations?.trim())
+    if (wanting.length) {
+      out.push(`${wanting.length} station(s) set media_needed but no media_recommendations — the asset is flagged as missing with nothing saying what to make.`)
+    }
+
     // Practicals could not be scoped until the importer learned the columns, so
     // every station authored before that carries none and is visible to every
     // university's student — empty means unrestricted. Warned, not failed: the
