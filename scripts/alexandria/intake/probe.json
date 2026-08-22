@@ -6546,9 +6546,9 @@
   "rel": "y1/MED 106 - Cardiorespiratory System & Communication and Basic Clinical Skills (2)/Communication and Basic Clinical Skills (2)/Clinical Skills/Dr_ Eslam/Radiology.ppt",
   "sha256": "d1e75e7827fba99389f081c23ec7101538fc71d9e40708251ae920118164c177",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "‫ِبْسِم الَّلـِه الَّرْحَمٰـِن الَّرِحيِم‬ ‫‪ .‬قاُلوا ُسْبَحاَنَك اَل ِعْلَم َلَنا ِإاَّل َما َعَّلْمَتَناۖ ِإَّنَك َأنَت اْلَعِليُم اْلَحِكيُم‬ ‫‪Radiology-Skill lab‬‬ ‫‪By: Eslam Abd-Elsalam‬‬ Principle of X-ray:",
   "extra": null
  },
  {
@@ -6582,9 +6582,9 @@
   "rel": "y1/MED 106 - Cardiorespiratory System & Communication and Basic Clinical Skills (2)/Communication and Basic Clinical Skills (2)/Clinical Skills/Radiology/Radiology MSK.ppt",
   "sha256": "8ab885d731ac3973e689aacfc24b40e4fc58b6de997322ae61f51da59dd7a116",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Normal Radiological Anatomy Of Upper And Lower Extremities Modalities of imaging A- Xray B- CT C- MRI Concept of X-ray",
   "extra": null
  },
  {
@@ -16929,9 +16929,9 @@
   "rel": "y2/MED 202 - Gastrointestinal System and Nutrition & Communication and Basic Clinical Skills (4)/Gastrointestinal System and Nutrition/Physiology/Dr_ Iman Allam/8-Large intestine.ppt",
   "sha256": "d44dc41be9cc06a3bd378e0faf9df2447f88e006f5e45427ce30edec35d4fa37",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "SMALL INTESTINE INTESTINAL MOTILITY INTESTINAL MOTILITY The movements of the small intestine mix the intestinal contents & propel them toward the large intestine.",
   "extra": null
  },
  {
@@ -21425,9 +21425,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/CC Integrative areas .ppt",
   "sha256": "70a688fa9f5fba447ddeb4e681c12cee30c41694a269de19181f176533c6d5a2",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Cerebral Cortex Areas for integrative functions Association Areas • Association areas include all cortical areas other than primary sensory and motor areas Areas for integrative functions I. Pre-frontal association area II. Parieto temporal occipital association area III. Limbic association area",
   "extra": null
  },
  {
@@ -21470,9 +21470,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/PAIN NEW 2023 -1.ppt",
   "sha256": "83080470c5fa7e75b305e133b1f0921cd62392e352b6b470623a6dc8d2518c56",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "An unpleasant sensory, emotional experience associated with actual or potential tissue damage. Reactions to pain vary:  From “person to person” on exposure to similar pain stimuli.  Same person according to “emotional state”",
   "extra": null
  },
  {
@@ -21524,45 +21524,45 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/lecture #2(somatic sensations).ppt",
   "sha256": "aff0f68b46c02790bafa9122b65ead8822cd436fef2861d4f5c9560f5a1067a8",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Somatic sensations Objectives By the end of this lecture you will be able to: Differentiate between sensation & perception . List different types of somatic sensations. Describe mechanoceptive sensations. Tactile sensation. Kinethetic sensation. Describe thermoceptive sensation. Clinical application of this lecture will be given in full details in the practical classes",
   "extra": null
  },
  {
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/plasticity and memory   - Copy.ppt",
   "sha256": "e5d646442305bf18939ecd4af595f3c41e20ac27073e23aae62ab82845555c24",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Prof Dr Lobna Bayoumi Synaptic Plasticity Synaptic Plasticity Definition :  Ability of the synapse, to change the strength of response to either use or disuse. i.e. synaptic conduction can be strengthened or weakened on the basis of past experience. Importance:  “learning and memory”.",
   "extra": null
  },
  {
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/receptors-23 .ppt",
   "sha256": "12474659ad234a75b07084ea1bff688e85ecfc6e7e4c193881418293a8fed2da",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "NEUROPHYSIOLOGY Sensory Receptors Prof Dr.Lobna Bayoumi",
   "extra": null
  },
  {
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/spinal cord reflxes,23.ppt",
   "sha256": "b39eee431bfc81f299bf3bf6f4ae017554f4fd66f7d76dbc7f7808cdaf155cf2",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Synaptic transmission Physiology of Central Human Reflexes A Reflex Involuntary response of an organ to stimulus.",
   "extra": null
  },
  {
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Faculty PPT & Tutorial/stretch reflex- 23.ppt",
   "sha256": "38e457f266491999542a32acb7b3f6f38d2be80d0fd5b92f11c20cd025e1446d",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Stretch Reflex Definition:  Reflex contraction of the skeletal muscle in response to passive stretch. Contraction of muscle",
   "extra": null
  },
  {
@@ -22406,9 +22406,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Practical/Faculty PPT/Physiology sec 2 – Cranial nerves.ppt",
   "sha256": "8e1afca0709f872198c52d8bd3977ced1b512f297f09d2e96d62c24c9fbe6c4d",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "By: Abeer El-Emam Professor of Physiology OBJECTIVES By the end of this practical class, students should be able to: 1. Identify all cranial nerves and their functions. 2. Conduct different tests for cranial nerves examination 3. Differentiate between different cranial nerves lesions The Cranial Nerves",
   "extra": null
  },
  {
@@ -22433,9 +22433,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Practical/Faculty PPT/Physiology sec 4 – Motor System 2 & EEG.ppt",
   "sha256": "a967195865ec2368ba2d0cd9715f22065f519dbb7ddfcb1ed579d11fd5642eb0",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "IV.MOTOR SYSTEM EXAMINATION-2 RECORDING BRAIN WAVES USING BIOPAC SYSTEM BY Prof. Abeer El-Emam Dr. Asmaa Samy 2024-2025 OBJECTIVES By the end of this practical class students should be able to: 1. Describe items of motor system examination. 2. Demonstrate different types of gait 3. Examine cerebellar functions 4. Record EEG from an awake, resting subject with their eyes open and eyes closed 5. Observe interruptions of alpha rhythm following opening of the eye 6. Distinguish alpha, beta, delta, and theta waves of the EEG 7. Determine EEG changes during sleep Coordination a. Rapid Alternating Movements b. Finger to nose test UL c. Heel Knee shin test d. Gait LL",
   "extra": null
  },
  {
@@ -22460,9 +22460,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Nervous System/Physiology/Practical/Faculty PPT/Physiology sec 6 – revision CNS.ppt",
   "sha256": "dbe0c43ad169ee0140e89c5a72fd230786fac157a6be41f27c6925aa42fbf338",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "1. Explain the test to the patient 2. 1st at the center of for head to know the type of sensation 3. Closed eyes 4. Start distally then proceed proximal 5. Dermatomal 6. Rt versus Lt 7. Record and Map",
   "extra": null
  },
  {
@@ -22883,9 +22883,9 @@
   "rel": "y2/MED 203 - Nervous System & Professionalism, Medical Law and Ethics/Professionalism, Medical Law and Ethics/Professionalism/General/Professionalism 3rd tutorial.ppt",
   "sha256": "b477bc445a6c30935a32d839e13300e552d14e20635cc1a0207cb94562ed7764",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "DOCTOR - PATIENT RELATIONSHIP Forensic Medicine and Clinical Toxicology Department I-Patients’ Rights Information Disclosure Participation in Treatment Decisions Confidentiality of Health Information Respect and Nondiscrimination Consultation",
   "extra": null
  },
  {
@@ -25007,9 +25007,9 @@
   "rel": "y2/MED 204 - Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics/Concept of Health and Disease (1)/Pathology/Practical/1- Inflammation.ppt",
   "sha256": "6ac3e2389100b1d0d5b8db9dea6215378cc49a3992f1d71920e34f49cf75a055",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "INFLAMMATION PRACTICAL The Biopsy should be: Sent to the lab in a container . Fixed in 10% formalin. labeled with patient name, medical record number, and type of biopsy. The doctor sends along other important clinical data",
   "extra": null
  },
  {
@@ -25043,27 +25043,27 @@
   "rel": "y2/MED 204 - Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics/Concept of Health and Disease (1)/Pathology/Practical/5-Haemodynamics.ppt",
   "sha256": "769e3ca00764a43f078ad9dac33918264e62283a5b17cf015b55c96b364256ef",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Haemodynamics practical JARS THROMBI & EMBOLI: 1. Arterial thrombosis (atherosclerosis of the aorta). 2. Atherosclerosis, saccular aneurysm and thrombosis of the abdominal aorta 3. Infective endocarditis, mitral valve 4. Ball valve thrombus in left atrium (Heart) 5.Pulmonary embolism Jars CONGESTION: 6. Chronic venous congestion. Liver INFARCTIONS: 7. Hemorrhagic infarction of the lung 8. Splenic infarct (Pale infarct) 9. Healed brain infarcts 10. Renal infarcts",
   "extra": null
  },
  {
   "rel": "y2/MED 204 - Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics/Concept of Health and Disease (1)/Pathology/Practical/6- CVS 1.ppt",
   "sha256": "b79e8895b25a3a59a3fbe8e1a48be6b1c50efb5425c65e1a754be0a4759ed702",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "CVS I PRACTICAL JARS 1. 2. 3. 4. 5. 6. 7. 8. 9. Atherosclerosis of aorta (aneurysm and thrombosis). Atherosclerosis of aorta. Syphilitic aortitis – saccular aneurysm – heart. Syphilitic aortitis–diffuse atherosclerotic aneurysm. Aortic aneurysm Recent myocardial infarction. Myocardial scarring. Healed myocardial infarction with calcification. Healed apical infarct. JARS Atherosclerosis & aneurysm Atherosclerosis of aorta (aneurysm and thrombosis). Atherosclerosis of aorta. Syphilitic aortitis – saccular aneurysm – heart. Syphilitic aortitis–diffuse atherosclerotic aneurysm. IHD Recent myocardial infarction. Myocardial scarring. Healed myocardial infarction with calcification. Healed apical infarct.",
   "extra": null
  },
  {
   "rel": "y2/MED 204 - Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics/Concept of Health and Disease (1)/Pathology/Practical/7- CVS II.ppt",
   "sha256": "fe58e4d6c95e0ed52ee740081e4000e2b79a2ebd1b636c5e4b041e5f046c2291",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "CVS II PRACTICAL JARS 1. Acute Rheumatic Valvulitis (Mitral valve). 2. Chronic Rheumatic Endocarditis, mitral & tricuspid 3. Chronic Rheumatic Endocarditis with ball thrombus. 4. Bacterial Endocarditis (Mitral valve). 5. Bacterial Endocarditis (Aortic valve). 6. Concentric hypertrophy (heart of benign essential hypertension). 7. Fibrinous pericarditis . 8. Suppurative pericarditis . 9. Adhesive Pericarditis. 10. Constrictive Pericarditis. JARS Concentric hypertrophy (heart of benign essential hypertension). Pericardial diseases: • Fibrinous pericarditis . • Suppurative pericarditis . • Adhesive Pericarditis. • Constrictive Pericarditis. Rheumatic fever: • Acute Rheumatic Valvulitis (Mitral valve). • Chronic Rheumatic Endocarditis, mitral & tricuspid • Chronic Rheumatic Endocarditis with ball thrombus. Bacterial endocarditis: • Bacterial Endocarditis (Mitral valve). • Bacterial Endocarditis (Aortic valve).",
   "extra": null
  },
  {
@@ -32018,9 +32018,9 @@
   "rel": "y3/MED 305 - Medicine/General/Internal Medicine/AFM/Chest and cardiac Symptoms -1.ppt",
   "sha256": "13abe8af5dd66ddd51a22bda3c01dc0397da6ebfed7e9f926de3b1a4e60690a6",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "‫بسم هللا الرحمن الرحيم‬ Symptoms of Respiratory Diseases Mohammed Zeitoun Metabolism Department Agenda  Dyspnea.  Cough.  Haemoptysis.  Chest pain.",
   "extra": null
  },
  {
@@ -32036,18 +32036,18 @@
   "rel": "y3/MED 305 - Medicine/General/Internal Medicine/AFM/Clubbing2003.ppt",
   "sha256": "dea4d02a5bd2bbebb0a4fb17613deac4cb3ce1520d09e594885215feff534d5d",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Clubbing Definition Clubbing is hypertrophy of tissue at the nail bed with obliteration of the angle between the nail and the nail bed Mechanism 1- Chronic hypoxia 2- Chronic toxemia 3- Unknown",
   "extra": null
  },
  {
   "rel": "y3/MED 305 - Medicine/General/Internal Medicine/AFM/Extermites for 3rd year.ppt",
   "sha256": "3fc96847f3a4e7b42db54e7dbb157cf2598cf0fc813ba09c45b1c088658286e3",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Clubbing , Edema and Lymph nodes Examination Mohammed Zeitoun MD, Ph.D Lecturer of Medicine & Diabetes Dept of Metabolism & Diabetes The University of Alexandria Examination < 180° Clubbing A Sing of Underlying Disease",
   "extra": null
  },
  {
@@ -32072,9 +32072,9 @@
   "rel": "y3/MED 305 - Medicine/General/Internal Medicine/AFM/My neck veins.ppt",
   "sha256": "32ba92759d85c1b94d929b000fab86b3f51345bf0424267d6c5b72c162963253",
   "realType": "ppt-ole",
-  "textLayer": "unprobed",
-  "probeStatus": "ppt-unprobed: soffice not installed on this machine — see README Tooling note",
-  "text": "",
+  "textLayer": "native",
+  "probeStatus": "ppt-soffice-extracted",
+  "text": "Neck Veins Mohammed Zeitoun Metabolism Department Alexandria Agenda  Introduction.  Anatomy of neck veins.  The technique for examination.",
   "extra": null
  },
  {

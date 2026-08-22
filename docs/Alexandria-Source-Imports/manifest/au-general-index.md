@@ -62,7 +62,7 @@ None in this file.
 
 ## Exam signals
 
-- **0** files carry a graduating-cohort number in the filename (2027-2030) — recorded as `cohortSignal`, never treated as a sitting year.
+- **0** files carry a graduating-cohort number in the filename (2027-2030, or a two-digit academic year like 23-24/24-25) — recorded as `cohortSignal`, never treated as a sitting year.
 - **0** files are stream-specific ().
 - **0** files had a sitting year read from the document's own printed date (never from a filename number).
 
@@ -70,3 +70,4 @@ None in this file.
 
 - **0** sources are byte-identical copies filed under more than one path.
 - **0** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **0** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
+- **0** sources have a `contentTwinOf` link — same extracted text (≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* filename, restricted to exam-paper/question-bank categories. **0** are `contentTwinPreferred`. See manifest/README.md 'Content twins'.

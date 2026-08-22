@@ -60,21 +60,20 @@ Machine-readable copy: [`au-y1-sources.json`](./au-y1-sources.json)
 
 | textLayer | Files |
 |---|--:|
-| native | 435 |
+| native | 437 |
 | none | 247 |
-| unprobed | 3 |
+| unprobed | 1 |
 
 ## Probe status (top values)
 
 | probeStatus (bucketed) | Files |
 |---|--:|
 | native-text-extracted | 393 |
-| ocr-ran | 232 |
+| ocr-ran | 242 |
 | pptx-extracted | 40 |
-| ocr-queued-not-yet-run | 11 |
-| ocr-ran-negligible-text | 4 |
+| ocr-ran-negligible-text | 5 |
 | docx-extracted | 2 |
-| ppt-unprobed | 2 |
+| ppt-soffice-extracted | 2 |
 | pptx-unprobed | 1 |
 
 ## File type (by magic bytes, not extension)
@@ -92,11 +91,12 @@ None in this file.
 
 ## Exam signals
 
-- **2** files carry a graduating-cohort number in the filename (2027-2030) — recorded as `cohortSignal`, never treated as a sitting year.
-- **1** files are stream-specific (1 egyptian).
+- **2** files carry a graduating-cohort number in the filename (2027-2030, or a two-digit academic year like 23-24/24-25) — recorded as `cohortSignal`, never treated as a sitting year.
+- **6** files are stream-specific (2 international, 4 egyptian); matched tokens: Egyptian, wafdeen, مصريين.
 - **0** files had a sitting year read from the document's own printed date (never from a filename number).
 
 ## Duplicates and name-twins
 
 - **55** sources are byte-identical copies filed under more than one path.
 - **599** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **299** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
+- **6** sources have a `contentTwinOf` link — same extracted text (≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* filename, restricted to exam-paper/question-bank categories. **3** are `contentTwinPreferred`. See manifest/README.md 'Content twins'.

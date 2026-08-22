@@ -174,36 +174,57 @@ that needs the honest answer.
   `_ppsx_as_presentation`).
 - **`.doc`** (1 file) — macOS's built-in `textutil`, no install needed.
 - **`.ppt`** (22 files, legacy binary PowerPoint) — needs `soffice`
-  (`--headless --convert-to pdf`), which was **not** on this machine, and a
-  `brew install --cask libreoffice` started early in this run was **not an authorized
-  system-level install** (standing rule added to LANE-BRIEF.md §4 mid-run: no system-level
-  installs). That install was left running rather than killed mid-download, but this manifest
-  does **not** wait on or rely on it finishing. All 22 `.ppt` rows are recorded
-  `textLayer: "unprobed"`, `probeStatus: "ppt-unprobed: soffice not installed on this
-  machine — see README Tooling note"`. **3 `.pptx` files are also genuinely unprobed** —
-  2 have a corrupted embedded image that breaks the zip's CRC check, 1 is a truncated zip
-  container missing its end-of-central-directory record — both confirmed by hand, not a tool
-  gap. **1 zip-family file is `zip-unknown`** for the same truncation reason.
+  (`--headless --convert-to pdf`), which was **not** on this machine when this lane started. A
+  `brew install --cask libreoffice` kicked off early in the run turned out **not to be an
+  authorized system-level install** (standing rule added to LANE-BRIEF.md §4 mid-run: no
+  system-level installs); it was left running rather than killed mid-download, and the manifest
+  was regenerated several times without waiting on or relying on it. It finished on its own
+  partway through this lane's work, at which point `soffice` was already installed (not a new
+  install performed by this lane) — `probe.py` was re-run once, purely to use an already-present
+  tool, and all 22 `.ppt` rows now read `probeStatus: "ppt-soffice-extracted"`,
+  `textLayer: native` or `none` depending on what each file actually contained. **4 files remain
+  genuinely `unprobed`** (3 `.pptx` + 1 `zip-unknown`) — 2 `.pptx` have a corrupted embedded
+  image that breaks the zip's CRC check, 2 more (1 `.pptx`, 1 `zip-unknown`) are truncated zip
+  containers missing their end-of-central-directory record — all four confirmed by hand, not a
+  tool gap.
 - **OCR (tesseract, `eng+ara`, first 2 pages only)** — used only for pdfs with no native text
   layer (1,076 of 3,275 pdfs). Run by a separate background worker,
   `scripts/alexandria/intake/ocr_worker.py`, logging to `ocr.log` and writing
-  `ocr_results.json` incrementally, specifically so a slow OCR pass never blocks the manifest
-  (the brief's instruction). **This manifest was generated while that worker was still
-  running** — see the lane's final report for exactly how many rows had an OCR result merged
-  in vs. how many are still `ocr-queued-not-yet-run` as of generation time. Re-running
-  `manifest.py` at any point merges whatever `ocr_results.json` has by then; nothing needs to
-  be re-probed.
+  `ocr_results.json` incrementally, specifically so a slow OCR pass never blocked the manifest
+  while it ran (the brief's instruction) — this lane kept working (streamSignal/cohortSignal
+  and contentTwinOf fixes, README, verification) while it ground through the queue in the
+  background, and only re-ran `manifest.py` to merge progress, never waited idle on it.
+  **It reached 1,076/1,076 (100%) before this manifest's final generation** — every pdf in the
+  corpus has been read, natively or by OCR. Re-running `manifest.py` after any future OCR run
+  merges `ocr_results.json` automatically; nothing needs to be re-probed.
 
 ## Exam signals
 
-`examSignals.cohortSignal`: a four-digit number in the filename in `{2027, 2028, 2029, 2030}`
-— a **graduating cohort label**, per the brief, never treated as a sitting year.
-`examSignals.streamSignal`: `"egyptian"` (مصريين) or `"international"` (وافدين) when the
-filename or header names a stream — the two streams' papers for the same sitting, not two
-different years. `examSignals.sittingYear` / `sittingYearEvidence`: set **only** when the
-document's own printed text carries a dated header (`dd/mon/yyyy`-shaped); never derived from a
-filename number. No resit/"باقون" markers were found anywhere in this corpus (checked
-directly), unlike Kasr.
+`examSignals.cohortSignal`: a list of graduating-cohort labels found in the filename — a
+four-digit year in `{2027, 2028, 2029, 2030}` (per the brief), or a two-digit academic-year
+shorthand the corpus also uses (`23-24`, `24-25`, …: two consecutive two-digit numbers joined by
+a dash). Always a **graduating cohort label**, never a sitting year.
+`examSignals.streamSignal`: `"egyptian"` or `"international"` when the filename or already-
+extracted text names a stream — the two streams' papers for the same sitting, not two different
+years. `examSignals.streamSignalToken` records which literal string matched (`Egyptian`,
+`wafdeen`, مصريين, مصرين, وافدين …), so a later reader doesn't have to re-derive why a row got
+its label. `examSignals.sittingYear` / `sittingYearEvidence`: set **only** when the document's
+own printed text carries a dated header (`dd/mon/yyyy`-shaped); never derived from a filename
+number. No resit/"باقون" markers were found anywhere in this corpus (checked directly), unlike
+Kasr.
+
+**2026-08-22 orchestrator fix**: the first version of `streamSignal` (classify.py's
+`stream_signal()`) only matched the Arabic tokens (مصريين / وافدين), so English-labelled files
+— `EOM - Blood End Egyptian 1.pdf`, `EOM - GIT FINAL 23-24 (wafdeen).pdf` — got
+`streamSignal: null`. Two lanes reading `AU-MED-102`/`AU-MED-103` rows caught this. Fixed by
+adding a second, case-insensitive detector directly in `manifest.py` (`STREAM_PATTERNS`,
+`COHORT_4DIGIT_RX`/`COHORT_2DIGIT_RX`) that runs across every filename a hash is known under
+(`sourceRelativePaths`) plus whatever text was already extracted — no classify.py or probe.py
+rerun needed, so the fix is mergeable from `manifest.py` alone. It only **widens** what counts
+as a signal (union with whatever classify.py already found); it never narrows or removes an
+existing value, and it does not touch `sourceId` or row order. This run: **+16 rows gained a
+streamSignal** (5 in Year 1, 11 in Year 2) and **+6 rows gained a cohortSignal** (all in Year 2,
+from the two-digit academic-year pattern) that had neither before.
 
 ## Deduplication reality
 
@@ -236,6 +257,68 @@ So:
   "Updated" marker. This exists so a later content-authoring lane reads and cites *one* twin
   instead of rediscovering the relationship, or worse, double-extracting the same lecture from
   both copies as if they were independent sources.
+
+## Content twins
+
+**2026-08-22 orchestrator follow-up.** `nameTwinOf` (above) catches near-duplicates that at
+least *look* related. Two lanes found `AU-MED-102`'s five `Exams` files were really three
+distinct papers: two pairs are word-for-word identical question sets filed under names that
+share nothing — `EOM - Final foundation 2030.pdf` (a 2030-cohort label) and
+`EOM - Foundation Final Egyptian.pdf` (a stream label), different sha256, invisible to
+`nameTwinOf`'s name-similarity check.
+
+`contentTwinOf` (list of `sourceId`s) and `contentTwinPreferred` (bool) catch this instead, by
+comparing extracted **text**, not filenames:
+
+- **Scope**: only rows whose `category` is `End of Module paper`, `End of Module answers`,
+  `End of Year paper`, or `Department Questions` — this is where a genuinely duplicate paper
+  under an unrelated name actually matters (a lecture slide re-titled twice is not the same
+  problem). Compared only within the same `moduleId` (or `containerKind` for the
+  cross-module containers) — a match across modules would be a classification error, not a
+  content twin.
+- **Source of text**: a per-`sourceId` cache, `scripts/alexandria/pagetext/<sourceId>.json`,
+  written by this same run of `manifest.py` from whatever `probe.json`/`ocr_results.json`
+  already held. This cache did not exist as standalone files before this fix — `pagetext/` was
+  previously only used for ephemeral OCR/soffice render temp-dirs — so writing it now is not a
+  re-probe; every byte in it was already sitting in the existing intermediates.
+  **Note for other lanes**: a second, independent process is concurrently writing a richer
+  per-page cache into the same directory as `<sourceId>.layout.json` (page-level readability,
+  not just flat text) — different filename suffix, so there is no collision, but don't assume
+  every `*.json` file in `pagetext/` follows this schema.
+- **Matching**: text is normalised (lowercase, page-number-only lines dropped, a scanner-app
+  watermark — `Scanned by CamScanner`, found stamped on 9 files corpus-wide with otherwise no
+  extractable text at all — stripped like a page number, whitespace collapsed) and compared two
+  ways: an exact hash of the normalised text (fast path for a true duplicate), or 8-word-shingle
+  Jaccard similarity at a **≥95%** threshold. Rows whose normalised text is under 25 words are
+  excluded from comparison entirely (too little content to trust a shingle match on — this is
+  what caught and removed a false-positive 100% "match" between two unrelated CamScanner-only
+  scans before this threshold was added) and are counted separately, `contentTwinOf: null`.
+- **`contentTwinPreferred: true`**: within a linked cluster, the row categorised
+  `End of Module answers` wins if one exists (it's the one with the key); otherwise the larger
+  extracted-text word count; ties go to the "Updated"-marked copy, same as `twinPreferred`.
+- **Limitation, stated plainly**: comparison text for pptx/docx/xlsx/OCR rows was already
+  space-joined at extraction time (no line breaks left), so the page-number-line strip only
+  really does anything for native pdf text. And all cached text is a **truncated prefix**
+  (~4,000-6,000 chars) of the document, not the full text — two papers that diverge only past
+  that prefix would not be caught. Neither limitation was fixed here; both are named so a later
+  lane doesn't rediscover them as a mystery.
+
+This run: **622 rows in scope**, **26 with no usable cache text** (`contentTwinOf: null`,
+counted rather than guessed at), **51 content-twin pairs found across 10 modules**. Selected
+pairs that `nameTwinOf` could not have caught (unrelated filenames):
+
+| Module | File A | File B |
+|---|---|---|
+| `AU-MED-102` | `EOM - Final foundation 2030.pdf` | `EOM - Foundation Final Egyptian.pdf` |
+| `AU-MED-201` | `MCQs - ()Embryology EGU MCQ.pdf` | `MCQs - Embryology Endocrine.pdf` |
+| `AU-MED-202` | `MCQs - GIT Question bank by MCQs.pdf` | `MCQs - GIT question bank by MCQs [variant 2].pdf` |
+| `AU-MED-204` | `EOM - Concept 1 final 2023 Answers وافدين.pdf` | `EOM - Concept 1 final 2023 questions وافدين.pdf` |
+| `AU-MED-301` | `EOM MCQs - Parasitology infectious 1 Exam answers.pdf` | `EOM MCQs - Parasitology infectious 1 Exam without answer.pdf` |
+| `AU-MED-301` | `MCQs - Para MCQs with answers.pdf` | `MCQs - Para MCQs without answers.pdf` |
+
+Full list (all 51 pairs, all 10 modules — `AU-MED-102/103/201/202/203/204/205/301/303/308`) is
+in `manifest.py`'s own run output; re-run `python3 scripts/alexandria/intake/manifest.py` to see
+it again (deterministic — same input, same pairs, same order).
 
 ## Everything this manifest does **not** do
 

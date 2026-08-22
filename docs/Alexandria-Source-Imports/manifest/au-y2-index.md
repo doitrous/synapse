@@ -63,9 +63,9 @@ Non-module containers (`containerKind` set, `moduleId: null` — material spans 
 
 | textLayer | Files |
 |---|--:|
-| native | 1570 |
+| native | 1586 |
 | none | 683 |
-| unprobed | 19 |
+| unprobed | 3 |
 | n/a | 7 |
 
 ## Probe status (top values)
@@ -73,9 +73,10 @@ Non-module containers (`containerKind` set, `moduleId: null` — material spans 
 | probeStatus (bucketed) | Files |
 |---|--:|
 | native-text-extracted | 1452 |
-| ocr-queued-not-yet-run | 683 |
+| ocr-ran | 661 |
 | pptx-extracted | 115 |
-| ppt-unprobed | 16 |
+| ocr-ran-negligible-text | 22 |
+| ppt-soffice-extracted | 16 |
 | apkg-deck-metadata-read | 7 |
 | docx-extracted | 2 |
 | pptx-unprobed | 2 |
@@ -102,11 +103,12 @@ None in this file.
 
 ## Exam signals
 
-- **22** files carry a graduating-cohort number in the filename (2027-2030) — recorded as `cohortSignal`, never treated as a sitting year.
-- **22** files are stream-specific (7 international, 15 egyptian).
-- **11** files had a sitting year read from the document's own printed date (never from a filename number).
+- **28** files carry a graduating-cohort number in the filename (2027-2030, or a two-digit academic year like 23-24/24-25) — recorded as `cohortSignal`, never treated as a sitting year.
+- **33** files are stream-specific (9 international, 24 egyptian); matched tokens: Egyptian, wafdeen, مصريين, وافدين.
+- **16** files had a sitting year read from the document's own printed date (never from a filename number).
 
 ## Duplicates and name-twins
 
 - **53** sources are byte-identical copies filed under more than one path.
-- **1823** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **874** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
+- **1823** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **875** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
+- **63** sources have a `contentTwinOf` link — same extracted text (≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* filename, restricted to exam-paper/question-bank categories. **29** are `contentTwinPreferred`. See manifest/README.md 'Content twins'.

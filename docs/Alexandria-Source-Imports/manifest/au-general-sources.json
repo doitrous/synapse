@@ -48,11 +48,14 @@
    "examSignals": {
     "cohortSignal": null,
     "streamSignal": null,
+    "streamSignalToken": null,
     "sittingYear": null,
     "sittingYearEvidence": null
    },
    "exclusionReason": null,
-   "absolutePath": "/Users/doitrous/Desktop/Alexandria University/General Resources/University Regulations/اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf"
+   "absolutePath": "/Users/doitrous/Desktop/Alexandria University/General Resources/University Regulations/اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf",
+   "contentTwinOf": null,
+   "contentTwinPreferred": null
   }
  ]
 }

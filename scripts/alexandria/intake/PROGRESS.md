@@ -105,3 +105,47 @@ Lane P0-A (corpus intake), Years 1-3 + General Resources.
   no-system-installs standing rule; if it ever finishes, a future probe.py
   run will pick up `soffice` automatically and the 22 `.ppt` rows can be
   re-probed, but nothing here depends on that happening.
+
+- 2026-08-22 (orchestrator follow-ups, addressed before this lane's final
+  report): two follow-up asks from the orchestrator, both applied additively
+  to manifest.py only (no classify.py/probe.py rerun required by either):
+  1. streamSignal/cohortSignal fix — added English + both Arabic spellings
+     (Egyptian/مصريين/مصرين -> egyptian; wafdeen/wafdin/وافدين ->
+     international), case-insensitive, matched across every filename a hash
+     is known under plus already-extracted text; records the matched token
+     (`examSignals.streamSignalToken`). Also added two-digit academic-year
+     cohort detection (23-24, 24-25, ...). Result: +16 rows gained a
+     streamSignal (5 y1, 11 y2), +6 gained a cohortSignal (all y2). Purely
+     additive — union with classify.py's existing findings, never narrows.
+  2. contentTwinOf fix — two lanes found AU-MED-102's Exams folder held the
+     same paper twice under unrelated names (a 2030-cohort label vs a stream
+     label, different sha256). Added `contentTwinOf`/`contentTwinPreferred`,
+     restricted to End of Module paper/answers, End of Year paper, Department
+     Questions, compared within the same module via 8-word-shingle Jaccard
+     (>=95%) on normalised, watermark/page-number-stripped text. Materialised
+     the pagetext cache as real files for the first time
+     (scripts/alexandria/pagetext/<sourceId>.json, from data already in
+     probe.json/ocr_results.json — not a re-probe) since none existed before.
+     Caught and fixed one false positive during development: two unrelated
+     scans (histology questions vs a physiology MCQ doc) whose entire "native"
+     text layer was just a CamScanner watermark matched at 100% before a
+     minimum-content-word gate (25 words) was added. **Discovered while doing
+     this: a second, concurrent process is also writing into
+     scripts/alexandria/pagetext/, as `<sourceId>.layout.json` — different
+     schema (per-page readability), different filename suffix, no collision,
+     but flagging for whichever lane owns that so it's not a surprise.**
+     Result: 51 content-twin pairs across 10 modules, 622 rows in scope, 22
+     with no usable cache text (recorded, not guessed).
+  Verified additive-only: row counts unchanged (685/2279/537/1 = 3502) before
+  and after both fixes; sourceId/row-order logic untouched.
+
+- 2026-08-22 (session close): OCR worker reached 1,076/1,076 (100%) and the
+  earlier `brew install --cask libreoffice` finished on its own (not waited
+  on) partway through the follow-up work — `probe.py` was re-run once
+  afterward purely to use the now-present `soffice` for the 22 `.ppt` files
+  (not a new install). Final regeneration: manifest.py -> index.py ->
+  build-source-index.ts, all clean. Only 4 files remain genuinely unprobed
+  corpus-wide (2 corrupted-zip pptx, 1 truncated pptx, 1 truncated
+  zip-unknown — confirmed by hand). moduleMismatch: 0. Row count (3502) ==
+  distinct-hash count (3502). Re-hash verification (3615/3615, 0 mismatches)
+  still holds — nothing on disk was touched after that check.

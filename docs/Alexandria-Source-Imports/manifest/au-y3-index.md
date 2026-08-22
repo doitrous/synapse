@@ -66,18 +66,18 @@ Non-module containers (`containerKind` set, `moduleId: null` — material spans 
 
 | textLayer | Files |
 |---|--:|
-| native | 420 |
+| native | 424 |
 | none | 113 |
-| unprobed | 4 |
 
 ## Probe status (top values)
 
 | probeStatus (bucketed) | Files |
 |---|--:|
 | native-text-extracted | 386 |
-| ocr-queued-not-yet-run | 113 |
+| ocr-ran | 112 |
 | pptx-extracted | 33 |
-| ppt-unprobed | 4 |
+| ppt-soffice-extracted | 4 |
+| ocr-ran-negligible-text | 1 |
 | xlsx-extracted | 1 |
 
 ## File type (by magic bytes, not extension)
@@ -95,7 +95,7 @@ None in this file.
 
 ## Exam signals
 
-- **5** files carry a graduating-cohort number in the filename (2027-2030) — recorded as `cohortSignal`, never treated as a sitting year.
+- **5** files carry a graduating-cohort number in the filename (2027-2030, or a two-digit academic year like 23-24/24-25) — recorded as `cohortSignal`, never treated as a sitting year.
 - **0** files are stream-specific ().
 - **2** files had a sitting year read from the document's own printed date (never from a filename number).
 
@@ -103,3 +103,4 @@ None in this file.
 
 - **0** sources are byte-identical copies filed under more than one path.
 - **348** sources have a `nameTwinOf` link — a same-folder sibling with the same normalised name (bracket suffix and punctuation stripped) whose bytes differ. **174** of those are the `twinPreferred` one (more extracted text; ties go to the '[from Alexandria University Updated]' copy). See manifest/README.md 'Deduplication reality' — these are never merged, only cross-referenced.
+- **18** sources have a `contentTwinOf` link — same extracted text (≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* filename, restricted to exam-paper/question-bank categories. **9** are `contentTwinPreferred`. See manifest/README.md 'Content twins'.

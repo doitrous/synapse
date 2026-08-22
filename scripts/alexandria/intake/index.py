@@ -123,10 +123,14 @@ def render_one(src_path, title):
     streams = [x for x in s if x["examSignals"]["streamSignal"]]
     sat = [x for x in s if x["examSignals"]["sittingYear"]]
     w(f"- **{len(cohorts)}** files carry a graduating-cohort number in the filename "
-      "(2027-2030) — recorded as `cohortSignal`, never treated as a sitting year.")
+      "(2027-2030, or a two-digit academic year like 23-24/24-25) — recorded as "
+      "`cohortSignal`, never treated as a sitting year.")
     stream_counts = collections.Counter(x['examSignals']['streamSignal'] for x in streams)
+    tokens = sorted({x['examSignals'].get('streamSignalToken') for x in streams
+                     if x['examSignals'].get('streamSignalToken')})
     w(f"- **{len(streams)}** files are stream-specific "
-      f"({', '.join(f'{v} {k}' for k, v in stream_counts.items())}).")
+      f"({', '.join(f'{v} {k}' for k, v in stream_counts.items())})"
+      + (f"; matched tokens: {', '.join(tokens)}." if tokens else "."))
     w(f"- **{len(sat)}** files had a sitting year read from the document's own printed date "
       "(never from a filename number).")
 
@@ -140,6 +144,14 @@ def render_one(src_path, title):
       f"**{len(preferred)}** of those are the `twinPreferred` one (more extracted text; ties go "
       "to the '[from Alexandria University Updated]' copy). See manifest/README.md "
       "'Deduplication reality' — these are never merged, only cross-referenced.")
+
+    content_twins = [x for x in s if x.get("contentTwinOf")]
+    content_preferred = [x for x in content_twins if x.get("contentTwinPreferred")]
+    w(f"- **{len(content_twins)}** sources have a `contentTwinOf` link — same extracted text "
+      "(≥95% shingle/Jaccard, or an exact normalised-text hash match) on an *unrelated* "
+      "filename, restricted to exam-paper/question-bank categories. "
+      f"**{len(content_preferred)}** are `contentTwinPreferred`. See manifest/README.md "
+      "'Content twins'.")
 
     return "\n".join(L) + "\n", d
 

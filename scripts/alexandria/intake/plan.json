@@ -11250,8 +11250,8 @@
   "moduleNamedInText": null,
   "cohortSignal": null,
   "streamSignal": null,
-  "sittingYear": null,
-  "sittingYearEvidence": null
+  "sittingYear": 2024,
+  "sittingYearEvidence": "0/10/2024"
  },
  {
   "sha256": "0d2d780d12780f8a01c4a8e9b16d13fb476471b7937a4cbba8ec4858be4f833b",
@@ -11265,8 +11265,8 @@
   "moduleNamedInText": null,
   "cohortSignal": null,
   "streamSignal": null,
-  "sittingYear": null,
-  "sittingYearEvidence": null
+  "sittingYear": 2024,
+  "sittingYearEvidence": "06/12/2024"
  },
  {
   "sha256": "744cff1ace1ae5fe8d269ceee0034ba7a085561b93f3533240c7a6ffbafeaec6",
@@ -11310,8 +11310,8 @@
   "moduleNamedInText": null,
   "cohortSignal": null,
   "streamSignal": null,
-  "sittingYear": null,
-  "sittingYearEvidence": null
+  "sittingYear": 2024,
+  "sittingYearEvidence": "00/02/2024"
  },
  {
   "sha256": "8e7b7776a9dbdaf04825511210417e9f1afaaabd6e773fc91f86afbdca0c6b3a",
@@ -21186,8 +21186,8 @@
   "moduleNamedInText": null,
   "cohortSignal": null,
   "streamSignal": null,
-  "sittingYear": null,
-  "sittingYearEvidence": null
+  "sittingYear": 2024,
+  "sittingYearEvidence": "12/01/2024"
  },
  {
   "sha256": "af61c121eebba759959630a7eac8f113ee420c70907b844514cc1be35eab4aac",
@@ -29285,8 +29285,8 @@
   "moduleNamedInText": null,
   "cohortSignal": null,
   "streamSignal": null,
-  "sittingYear": null,
-  "sittingYearEvidence": null
+  "sittingYear": 2025,
+  "sittingYearEvidence": "3/11/2025"
  },
  {
   "sha256": "db7bc010fe03bd86b14a67adf95d158b194c8a0ad66bef7d0ee7bd34bfbffbc5",
