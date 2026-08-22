@@ -1,4 +1,4 @@
-# The authored content under `docs/Kasr-Source-Imports/`.
+# The authored content under every university's `docs/<Name>-Source-Imports/`.
 #
 # The web workflow ignores `docs/**` and `**/*.md`, which was right when docs
 # were prose. They are not any more: the extraction programme puts thousands of
@@ -12,10 +12,28 @@ name: Content
 
 on:
   pull_request:
-    paths: ['docs/Kasr-Source-Imports/**', 'scripts/kasr/**', 'scripts/validate-content-batch.mjs']
+    paths:
+      # Every university, matched by shape. GitHub's path filters do not expand
+      # braces, so each script root is its own line — and `docs/*-Source-Imports/**`
+      # is what stops this needing an edit when the next university appears.
+      - 'docs/*-Source-Imports/**'
+      - 'scripts/kasr/**'
+      - 'scripts/alexandria/**'
+      - 'scripts/asu/**'
+      - 'scripts/helwan/**'
+      - 'scripts/validate-content-batch.mjs'
   push:
     branches: [main]
-    paths: ['docs/Kasr-Source-Imports/**', 'scripts/kasr/**', 'scripts/validate-content-batch.mjs']
+    paths:
+      # Every university, matched by shape. GitHub's path filters do not expand
+      # braces, so each script root is its own line — and `docs/*-Source-Imports/**`
+      # is what stops this needing an edit when the next university appears.
+      - 'docs/*-Source-Imports/**'
+      - 'scripts/kasr/**'
+      - 'scripts/alexandria/**'
+      - 'scripts/asu/**'
+      - 'scripts/helwan/**'
+      - 'scripts/validate-content-batch.mjs'
 
 permissions:
   contents: read
@@ -88,18 +106,21 @@ jobs:
       - name: Validate every batch
         run: |
           set -e
-          concepts=$(ls docs/Kasr-Source-Imports/concept/*.md 2>/dev/null || true)
-          articles=$(ls docs/Kasr-Source-Imports/article/*.md 2>/dev/null || true)
+          concepts=$(ls docs/*-Source-Imports/concept/*.md 2>/dev/null || true)
+          articles=$(ls docs/*-Source-Imports/article/*.md 2>/dev/null || true)
           # Evidence too. A question may cite the paper it was taken from, and
           # that citation only resolves if the resource record is a sibling —
           # otherwise a batch that is right fails here for naming its own
           # source, and the only way to pass is to drop the provenance.
-          evidence=$(ls docs/Kasr-Source-Imports/evidence/*.md 2>/dev/null || true)
+          evidence=$(ls docs/*-Source-Imports/evidence/*.md 2>/dev/null || true)
           siblings=""
           for file in $concepts $articles $evidence; do siblings="$siblings --with $file"; done
 
           failed=0
-          for file in docs/Kasr-Source-Imports/*/*.md; do
+          for file in docs/*-Source-Imports/*/*.md; do
+            # An unmatched glob stays literal in sh, and validating a path that
+            # does not exist reads as a batch failure rather than as no batches.
+            [ -e "$file" ] || continue
             case "$file" in
               */manifest/*|*/INDEX.md|*/academic/*|*/coverage/*|*/media-requests/*) continue ;;
             esac
