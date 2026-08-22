@@ -45,7 +45,7 @@
     Types of Connective Tissue Proper — 21 questions, 7 concepts
     Veins of the Upper Limb — 10 questions, 3 concepts
 
-  Extracted from 2867 distinct questions across thirty question books and
+  Extracted from 2947 distinct questions across thirty question books and
   deduplicated: the same question appears in as many as five of them, and the books
   copy each other freely. Every item carries how many times it was asked, which is
   blueprint evidence no single sat paper can give.
@@ -3284,7 +3284,7 @@ Answer changed from the source's: The source printed no key. Triceps is inserted
 ## id
 QM-101-1F96C805D4D2
 ## title
-Select the correct statement; the musculocutaneous nerve: (2024)
+Select the correct statement; the musculocutaneous nerve:
 ## subject
 msk
 ## status
@@ -3292,25 +3292,25 @@ Draft
 ## format
 single_best_answer
 ## question
-Select the correct statement; the musculocutaneous nerve: (2024)
+Select the correct statement; the musculocutaneous nerve:
 ## answer_a
-It is anterior to the biceps brachii muscle but deep to the brachialis
+it is anterior to the biceps brachii muscle but deep to the brachialis
 ## explanation_a
 The two relations swapped. The nerve runs *behind* biceps and *in front of* brachialis — it lies in the plane between them, so it is deep to biceps, not anterior to it.
 ## answer_b
-Arises from the medial cord of the brachial plexus
+arises from the medial cord of the brachial plexus.
 ## explanation_b
 The lateral cord, not the medial. The medial cord gives the ulnar nerve, the medial pectoral nerve and the two medial cutaneous nerves; the musculocutaneous is the lateral cord's muscular branch.
 ## answer_c
-Becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon
+becomes the lateral cutaneous nerve of the forearm lateral to the biceps tendon.
 ## explanation_c
 Correct. It emerges at the lateral border of the biceps tendon, pierces the deep fascia and becomes the lateral cutaneous nerve of the forearm, supplying the skin of the lateral side of the forearm.
 ## answer_d
-Supplies the brachioradialis muscle
+supplies the brachioradialis muscle.
 ## explanation_d
 Brachioradialis is supplied by the radial nerve. The musculocutaneous supplies exactly three muscles — coracobrachialis, biceps and brachialis — all in the arm.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-F125616F7ED37A
 ## library_ids
@@ -3373,7 +3373,7 @@ Answer changed from the source's: The source printed no key. The nerve pierces t
 ## id
 QM-101-0471FEFB8D96
 ## title
-The biceps brachii muscle Is primarily involved in: (2024) ad Ac a- Extension of the fo…
+The biceps brachii muscle is primarily involved in:
 ## subject
 msk
 ## status
@@ -3381,25 +3381,25 @@ Draft
 ## format
 single_best_answer
 ## question
-The biceps brachii muscle Is primarily involved in: (2024) ad Ac a- Extension of the forearm. y Ac
+The biceps brachii muscle is primarily involved in:
 ## answer_a
-Extension of the forearm.
+extension of the forearm
 ## explanation_a
 Extension of the forearm is triceps, in the posterior compartment. Biceps is a flexor.
 ## answer_b
-Flexion and supination of the forearm.
+flexion and supination of the forearm
 ## explanation_b
 Correct. Biceps flexes the elbow and supinates the forearm, and it is the supination that makes it the powerful muscle of that movement.
 ## answer_c
-Pronation of the forearm.
+pronation of the forearm
 ## explanation_c
 The key the book prints, and it is reversed. Pronation is pronator teres and pronator quadratus; biceps opposes them.
 ## answer_d
-Flexion of the wrist.
+flexion of the wrist
 ## explanation_d
 Biceps stops at the radial tuberosity and the bicipital aponeurosis, well above the wrist. Wrist flexion is the forearm flexor group.
 ## correct_answer
-B
+b
 ## main_concept
 CON-MSK-875049D4420AA4
 ## library_ids
@@ -3452,7 +3452,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p42 q3; EOM ISK EOM exam 2024.pdf p6 q67. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence low; the answer came from the question book itself.
+Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is C, and C is the exact opposite of the truth: biceps is the powerful supinator, and it cannot pronate. B is the answer — flexion and supination of the forearm.
 
 
@@ -11412,9 +11412,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## exam_weight_by_year
-KAU_Y1=0.60
+KAU_Y1=0.75
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -11430,9 +11430,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39; EOM ISK End 101 — 2022.pdf p4 q441. Manifest src_c6ab1b49dc16762227e1, src_a54bbf7a625ba2b172fc.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p7 q39; EOM ISK End 101 — 2022.pdf p4 q441; EOY 195 first 2022 101 ISK final (1).pdf p16 q28. Manifest src_c6ab1b49dc16762227e1, src_a54bbf7a625ba2b172fc, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. Delta granules do hold ATP; each of the other three options misassigns either a structure or a granule content.
 
@@ -13815,9 +13815,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## exam_weight_by_year
-KAU_Y1=0.60
+KAU_Y1=0.75
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -13833,9 +13833,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25; EOM ISK 101 195 Answers.pdf p1 q2. Manifest src_d1414701d8fcb55932b6, src_9e6aad6c6af097e473d6.
+Kasr Al Ainy departmental question books, module 101 ISK. Cytology | Module 101 questions.pdf.pdf p22 q25; EOM ISK 101 195 Answers.pdf p1 q2; EOY 195 first 2022  101 ISK  final module (1).pdf p11 q1. Manifest src_d1414701d8fcb55932b6, src_9e6aad6c6af097e473d6, src_1641d3629225bb111726.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -18892,9 +18892,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.75
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -18910,9 +18910,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q45. Manifest src_c6ab1b49dc16762227e1.
+Kasr Al Ainy departmental question books, module 101 ISK. Blood MCQ pdf_87895.pdf p8 q45; EOY 195 first 2022 101 ISK final (1).pdf p16 q25; EOY 195 first 2022  101 ISK  final module (1).pdf p13 q25. Manifest src_c6ab1b49dc16762227e1, src_51fef9b6234c5d381f59, src_1641d3629225bb111726.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence medium; the answer came from a separate answer key, joined by question number.
 
 
@@ -23261,9 +23261,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -23279,9 +23279,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q23. Manifest src_ce4292e31edea7517e7b.
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 - 2023.pdf p2 q23; EOY 195 first 2022 101 ISK final (1).pdf p15 q14. Manifest src_ce4292e31edea7517e7b, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: No key was printed on the 2022 paper and none was recovered for this row, so the answer comes from the department book's fibre-and-stain table: elastic fibres are pink with eosin, brown with orcein and yellow with van Gieson, while it is silver, not orcein, that browns reticular fibres. The stem carries scanner noise where the blank was ("ottttteeudeeeeeees") but is otherwise intact.
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -28067,9 +28067,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -28085,9 +28085,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q15. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p23 q15; EOY 195 first 2022  101 ISK  final module (1).pdf p11 q8. Manifest src_6846577508f49244d715, src_1641d3629225bb111726.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys B, 18. The basal body has exactly the structure of a centriole — nine triplets, 27 microtubules — and the same books key `concerning-basal-body-it-is-formed-of-f8373bc5` and `the-basal-body-of-the-cilia-has-d824d86d` correctly as 27.
 
@@ -42497,9 +42497,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -42515,9 +42515,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q94. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p20 q94; EOY 195 first 2022 101 ISK final (1).pdf p14 q1. Manifest src_6846577508f49244d715, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The department book states that the rough reticulum is studded with ribosomes bound to ribophorins; centrioles, endosomes and lysosomes are separate structures and none of them attaches to it.
 
@@ -42627,11 +42627,11 @@ single_best_answer
 ## question
 The secretory vesicles in a cell arise from:
 ## answer_a
-Tubules of sER
+SER
 ## explanation_a
 Smooth reticulum tubules handle lipid and detoxification and bud no secretory vesicle.
 ## answer_b
-Tubules of rER
+rER
 ## explanation_b
 The rough reticulum buds transfer vesicles, which go to the Golgi. Transfer and secretory are the two vesicles this leaf keeps asking you to tell apart, and this is the option the book keys.
 ## answer_c
@@ -42643,7 +42643,7 @@ Mitochondria
 ## explanation_d
 Mitochondria make ATP and export nothing.
 ## correct_answer
-C
+c
 ## main_concept
 CON-FND-405BB5EA3C359E
 ## library_ids
@@ -46858,9 +46858,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -46876,9 +46876,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q18. Manifest src_9e6aad6c6af097e473d6.
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q18; EOY 195 first 2022 101 ISK final (1).pdf p14 q9. Manifest src_9e6aad6c6af097e473d6, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: No key was printed on the 2021 paper and none was recovered for it, so the answer is worked from the department book, which describes the active fibroblast as a protein-synthesising cell with well developed rough endoplasmic reticulum and Golgi and lists rER as the organelle of cells forming protein for export.
 
@@ -55259,7 +55259,7 @@ Answer changed from the source's: The source printed no key. The radial artery a
 ## id
 QM-101-1E55A4696327
 ## title
-A 45-year-old man arrived at the emergency department with injuries to his left Ac ad A…
+A 45-year-old man arrived at the emergency department with injuries to his left elbow a…
 ## subject
 msk
 ## status
@@ -55267,25 +55267,25 @@ Draft
 ## format
 single_best_answer
 ## question
-A 45-year-old man arrived at the emergency department with injuries to his left Ac ad Ac ad ad ad elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examination show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed? (2024) ad ad ViP a- Flexor digitorum superﬁcialis. ViP
+A 45-year-old man arrived at the emergency department with injuries to his left elbow after he fell in a bicycle race. Plain radiographic and magnetic resonance imaging (MRI) examinations show a fracture of the medial epicondyle and an injured ulnar nerve. Which of the following muscles will most likely be paralyzed?
 ## answer_a
-Flexor digitorum superﬁcialis.
+flexor digitorum superficialis
 ## explanation_a
 Flexor digitorum superficialis is entirely median, despite arising alongside flexor carpi ulnaris from the same epicondyle.
 ## answer_b
-Biceps brachii.
+biceps brachii
 ## explanation_b
 Biceps is supplied by the musculocutaneous nerve in the arm. It is the printed key and it is impossible.
 ## answer_c
-Brachioradialis.
+brachioradialis
 ## explanation_c
 Brachioradialis is a radial muscle in the extensor compartment.
 ## answer_d
-Flexor carpi ulnaris.
+flexor carpi ulnaris
 ## explanation_d
 Correct. Flexor carpi ulnaris is one of the ulnar nerve’s two forearm muscles, and the nerve enters the forearm between its two heads.
 ## correct_answer
-D
+d
 ## main_concept
 CON-MSK-F0F2BDF778A2DD
 ## library_ids
@@ -55338,7 +55338,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q26; EOM ISK EOM exam 2024.pdf p8 q85. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence medium; the answer came from the question book itself.
+Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is B, biceps brachii, which is musculocutaneous and lies in the arm — nothing at the medial epicondyle can reach it. The ulnar nerve supplies only two muscles in the forearm, flexor carpi ulnaris and the medial half of flexor digitorum profundus, and only the first is offered.
 
 
@@ -62047,7 +62047,7 @@ Answer changed from the source's: The source printed no key. Flexor pollicis lon
 ## id
 QM-101-AC2098A785CA
 ## title
-The muscles supplied by posterior interosseous nerve in forearm include: (2016)
+The muscles supplied by posterior interosseous nerve in forearm include:
 ## subject
 msk
 ## status
@@ -62055,7 +62055,7 @@ Draft
 ## format
 single_best_answer
 ## question
-The muscles supplied by posterior interosseous nerve in forearm include: (2016)
+The muscles supplied by posterior interosseous nerve in forearm include:
 ## answer_a
 Anconeus
 ## explanation_a
@@ -62073,7 +62073,7 @@ Brachialis
 ## explanation_d
 Brachialis is a flexor of the arm, supplied by the musculocutaneous nerve with a small radial twig.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-E04D8A31AEAC23
 ## library_ids
@@ -77597,25 +77597,25 @@ Draft
 ## format
 single_best_answer
 ## question
-When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with: (2024) P Ac ad y y
+When the deep branch of the ulnar nerve has been destroyed by compression, the patient presents with:
 ## answer_a
-Paralysis of abductor pollicis brevis.
+paralysis of abductor pollicis brevis
 ## explanation_a
 Abductor pollicis brevis is thenar and median; a deep branch lesion leaves it working, which is why the thumb can still be lifted from the palm.
 ## answer_b
-An ape-like deformity of the hand.
+an ape-like deformity of the hand
 ## explanation_b
 Ape hand belongs to a median lesion — a wasted thenar eminence with the thumb adducted. A deep branch lesion produces the opposite kind of hand.
 ## answer_c
-Paralysis of adductor pollicis.
+paralysis of adductor pollicis
 ## explanation_c
-Correct, and the key. Adductor pollicis is the deep branch's largest muscle, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
+Correct. Adductor pollicis is the largest muscle the deep branch supplies, and its loss is what produces Froment's sign when the patient tries to pinch a sheet of paper.
 ## answer_d
-Loss of sensation over palmar surface of little ﬁnger.
+loss of sensation over palmar surface of little finger
 ## explanation_d
 The deep branch is purely motor. Sensation over the little finger travels in the superficial branch, which is why a deep lesion can be complete and painless.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-8FB16415EFF905
 ## library_ids
@@ -77668,8 +77668,8 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p66 q27; EOM ISK EOM exam 2024.pdf p8 q87. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence medium; the answer came from the question book itself.
-
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The 2024 paper printed no key, and the letter carried on this row from a question-book copy is the upper-case C of a differently lettered printing, which is no longer a letter this row has. The department book settles it without a key: it says the deep branch of the ulnar nerve supplies the hypothenar muscles, the medial two lumbricals, all eight interossei and adductor pollicis, and that the three thenar muscles — abductor pollicis brevis among them — are median. It also puts the sensation of the little finger in the superficial branch, so option d is spared as well. Adductor pollicis is the only option the deep branch reaches.
 
 
 ---
@@ -93366,25 +93366,25 @@ Draft
 ## format
 single_best_answer
 ## question
-A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged? (2024)
+A 45-year-old man is stabbed in the lateral chest wall. He now presents with winging of scapula when pushing against a wall. Which nerve is likely damaged?
 ## answer_a
-Axillary nerve
+axillary nerve
 ## explanation_a
 An axillary nerve lesion flattens the shoulder and weakens abduction to ninety degrees; it does not wing the scapula, because deltoid does not hold the scapula to the chest.
 ## answer_b
-Long thoracic nerve
+long thoracic nerve.
 ## explanation_b
 Correct. The long thoracic nerve runs superficially on serratus anterior on the lateral chest wall, which is what makes it vulnerable to a stab there and to axillary surgery.
 ## answer_c
-Dorsal scapular nerve
+dorsal scapular nerve
 ## explanation_c
 The dorsal scapular nerve supplies the rhomboids and levator scapulae. Rhomboid palsy gives a much subtler winging and it is not brought out by pushing forwards.
 ## answer_d
-Thoracodorsal nerve
+thoracodorsal nerve.
 ## explanation_d
 The thoracodorsal nerve supplies latissimus dorsi, whose paralysis weakens adduction and extension of the arm and wings nothing.
 ## correct_answer
-B
+b
 ## main_concept
 CON-MSK-24E318F2E3F18E
 ## library_ids
@@ -93447,7 +93447,7 @@ Answer changed from the source's: The source printed no key. Winging brought out
 ## id
 QM-101-26A5AA3856ED
 ## title
-A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)
+A fracture of the midshaft of the humerus is most likely to injure which nerve?
 ## subject
 msk
 ## status
@@ -93455,25 +93455,25 @@ Draft
 ## format
 single_best_answer
 ## question
-A fracture of the midshaft of the humerus is most likely to Injure which nerve? (2024)
+A fracture of the midshaft of the humerus is most likely to injure which nerve?
 ## answer_a
-Ulnar nerve
+ulnar nerve
 ## explanation_a
 The ulnar nerve is only against bone at the medial epicondyle.
 ## answer_b
-Median nerve. ViP Ac
+median nerve
 ## explanation_b
-The median nerve is endangered by a supracondylar fracture at the lower end. This copy has the OCR watermark "ViP Ac" trailing the option text; the option itself reads "Median nerve".
+The median nerve is endangered by a supracondylar fracture at the lower end of the humerus, not by a mid-shaft one. It runs in front of the medial side of the arm with the brachial artery and never touches the shaft.
 ## answer_c
-Radial nerve
+radial nerve
 ## explanation_c
 Correct. The spiral groove runs across the back of the mid-shaft and carries the radial nerve with the profunda brachii vessels.
 ## answer_d
-Axillary nerve
+axillary nerve
 ## explanation_d
 The axillary nerve belongs to the surgical neck, at the top of the bone. It is the printed key here and it is wrong — a student who learns it will localise every humeral fracture to the wrong end.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-712EBE5936F7E4
 ## library_ids
@@ -94167,25 +94167,25 @@ Draft
 ## format
 single_best_answer
 ## question
-After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the: (2024)
+After drinking heavily on a Saturday night, a man fell asleep with his arm over the back of a chair. When he woke up in the morning, he had flexion at the elbow with inability to extend his hand. The most probable nerve injury is to the:
 ## answer_a
-Radial nerve above the elbow
+radial nerve above the elbow
 ## explanation_a
 A site below the axilla is possible on the anatomy but is not the named syndrome. The pressure of a chair back falls in the armpit.
 ## answer_b
-Innervation of the triceps muscle
+innervation of the triceps muscle.
 ## explanation_b
 Triceps is a muscle, not a site, and the stem describes no loss of elbow extension.
 ## answer_c
-Radial nerve in the axilla
+radial nerve in the axilla
 ## explanation_c
 Correct. Compression of the radial nerve in the axilla by the back of a chair is Saturday night palsy, and the picture is inability to extend the hand with elbow flexion preserved.
 ## answer_d
-Posterior cord
+posterior cord
 ## explanation_d
 A posterior cord lesion would add loss of shoulder abduction through the axillary nerve, which the stem does not describe.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-712EBE5936F7E4
 ## library_ids
@@ -102816,7 +102816,7 @@ Answer changed from the source's: The printed key is A, the radial nerve, which 
 ## id
 QM-101-E9BDB3541B96
 ## title
-Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad
+Which structure passes through the carpal tunnel?
 ## subject
 msk
 ## status
@@ -102824,25 +102824,25 @@ Draft
 ## format
 single_best_answer
 ## question
-Which structure passes through the carpal tunnel? (2024) Ac ad Ac ad ad ad
+Which structure passes through the carpal tunnel?
 ## answer_a
-Ulnar nerve.
+ulnar nerve
 ## explanation_a
 The ulnar nerve passes over the retinaculum, not under it. It is the printed key here and it is wrong — and it is the error that would make a student expect carpal tunnel syndrome to numb the little finger.
 ## answer_b
-Radial artery.
+radial artery
 ## explanation_b
 The radial artery crosses the floor of the anatomical snuff box, on the back of the wrist.
 ## answer_c
-Median nerve.
+median nerve
 ## explanation_c
 Correct. The carpal tunnel contains the median nerve and the tendons of flexor digitorum superficialis, flexor digitorum profundus and flexor pollicis longus.
 ## answer_d
-Brachial artery.
+brachial artery
 ## explanation_d
 The brachial artery ends in the cubital fossa, at the elbow.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-10423E16E36186
 ## library_ids
@@ -102895,7 +102895,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p81 q6; EOM ISK EOM exam 2024.pdf p8 q82. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence medium; the answer came from the question book itself.
+Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key is A, the ulnar nerve, which is the one nerve at the wrist that does not enter the tunnel: it crosses superficial to the flexor retinaculum in the canal of Guyon. The structure in the tunnel is the median nerve, with the long flexor tendons.
 
 
@@ -105103,9 +105103,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+7.5
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.75
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -105121,9 +105121,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q25. Manifest src_9e6aad6c6af097e473d6.
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p3 q25; EOY 195 first 2022 101 ISK final (1).pdf p15 q15; EOY 195 first 2022  101 ISK  final module (1).pdf p12 q15. Manifest src_9e6aad6c6af097e473d6, src_51fef9b6234c5d381f59, src_1641d3629225bb111726.
 ## author_notes
-Asked 1 time across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2021 paper carried no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: the macrophage, which it calls the histiocyte, arises from the monocyte, and monocytes leave the blood, enter connective tissue and change into macrophages.
 
@@ -110714,9 +110714,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -110732,9 +110732,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q13. Manifest src_9e6aad6c6af097e473d6.
+Kasr Al Ainy departmental question books, module 101 ISK. EOM ISK 101 195 Answers.pdf p2 q13; EOY 195 first 2022 101 ISK final (1).pdf p14 q4. Manifest src_9e6aad6c6af097e473d6, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: No key was printed on the 2021 paper and none was recovered, so the answer is worked from the department book. It defines chromatin as nucleoproteins — double-stranded DNA with histone and non-histone protein — which is true of peripheral chromatin as of any other, and it gives the three sites of heterochromatin as peripheral chromatin attached to the inner nuclear membrane, chromatin islands scattered in the nuclear sap, and nucleolus-associated chromatin. That makes b the only true statement and turns c and d into the other two sites.
 
@@ -111724,7 +111724,7 @@ Answer changed from the source's: The source printed no key. The anterior fold o
 ## id
 QM-101-D42D2ED1F861
 ## title
-Considering the nerve supply of pectoralis major; It is innervated by (2024)
+Considering the nerve supply of pectoralis major; it is innervated by:
 ## subject
 msk
 ## status
@@ -111732,25 +111732,25 @@ Draft
 ## format
 single_best_answer
 ## question
-Considering the nerve supply of pectoralis major; It is innervated by (2024)
+Considering the nerve supply of pectoralis major; it is innervated by:
 ## answer_a
-Lateral pectoral nerve
+lateral pectoral nerve.
 ## explanation_a
 Half the supply. The lateral pectoral nerve, from the lateral cord, reaches the clavicular head — but the sternocostal head has its own nerve.
 ## answer_b
-Medial pectoral nerve
+medial pectoral nerve
 ## explanation_b
 The other half. The medial pectoral nerve, from the medial cord, pierces pectoralis minor and supplies the sternocostal head, and it also supplies pectoralis minor on its way.
 ## answer_c
-Both medial and lateral pectoral nerves
+both medial and pectoral nerves.
 ## explanation_c
 Correct. Both pectoral nerves supply it, which is what makes pectoralis major the muscle the books ask about whenever they want double innervation.
 ## answer_d
-Nerve to pectoralis major
+nerve to pectoralis major.
 ## explanation_d
 There is no nerve of that name. It is invented by analogy with the nerve to serratus anterior and the nerve to subclavius, and the invented name is the giveaway.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-097C0BDED777AB
 ## library_ids
@@ -128108,7 +128108,7 @@ Answer changed from the source's: The source printed no key. A fracture of the s
 ## id
 QM-101-01C7E952AF60
 ## title
-A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the …
+A man came with fracture of the surgical neck of the humerus, the first movement of the…
 ## subject
 msk
 ## status
@@ -128116,25 +128116,25 @@ Draft
 ## format
 single_best_answer
 ## question
-A man came with fracture of the surgical neck of the humerus, the ﬁrst movement of the shoulder joint that you would test to conﬁrm the nerve injury is (2024) y y P a- Flexion. P
+A man came with fracture of the surgical neck of the humerus, the first movement of the shoulder joint that you would test to confirm the nerve injury is:
 ## answer_a
-Flexion.
+Flexion
 ## explanation_a
 Flexion has four muscles behind it and is barely weakened.
 ## answer_b
-Extension.
+Extension
 ## explanation_b
 Extension is latissimus dorsi and teres major, both unaffected.
 ## answer_c
-Rotation.
+Rotation
 ## explanation_c
 Rotation is shared by many muscles; losing teres minor alone will not abolish it.
 ## answer_d
-Abduction.
+Abduction
 ## explanation_d
 Correct. Deltoid is the sole abductor between fifteen and ninety degrees, so its paralysis shows there first.
 ## correct_answer
-D
+d
 ## main_concept
 CON-MSK-EE022A2043C10F
 ## library_ids
@@ -128187,7 +128187,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p38 q1; EOM ISK EOM exam 2024.pdf p5 q57. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence low; the answer came from no source and was supplied by the author.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. This is the second printing of the same case; abduction is the movement deltoid alone performs, so it is the one that confirms an axillary nerve lesion.
 
 
@@ -129888,7 +129888,7 @@ Extraction confidence high; the answer came from the question book itself.
 ## id
 QM-101-70A55CFAAC9B
 ## title
-Longitudinal growth in a growing bone passes through which of the following? (2024)
+Longitudinal growth in a growing bone passes through which of the following?
 ## subject
 msk
 ## status
@@ -129896,25 +129896,25 @@ Draft
 ## format
 single_best_answer
 ## question
-Longitudinal growth in a growing bone passes through which of the following? (2024)
+Longitudinal growth in a growing bone passes through which of the following?
 ## answer_a
-Metaphysis.
+metaphysic
 ## explanation_a
 The metaphysis is where the new cartilage is replaced by bone, and the book calls it the most active part of the long bone — which is why it draws the answer. Growth passes *out of* it; it does not begin there.
 ## answer_b
-Diaphysis.
+diaphysis
 ## explanation_b
 The diaphysis is the shaft. It gains length at its ends and gains width from the periosteum, but it generates neither.
 ## answer_c
-Epiphyseal plate.
+epiphyseal plate
 ## explanation_c
 Correct. The epiphyseal plate of hyaline cartilage divides and is replaced from below, and that is the whole mechanism of growth in length.
 ## answer_d
-Epiphyseal line.
+epiphyseal line
 ## explanation_d
 The epiphyseal line is the plate after it has ossified — the mark left when growth has finished. Choosing it is choosing the end of the process rather than the process.
 ## correct_answer
-C
+c
 ## main_concept
 CON-MSK-C30E73A5353ABB
 ## library_ids
@@ -129967,7 +129967,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p8 q23; EOM ISK EOM exam 2024.pdf p9 q95. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The 2024 source printed no key. The department book states that long bones increase in length from the epiphysial plates of cartilage by proliferation of their cells, which makes C the answer; D names what is left after that plate has ossified and growth has stopped.
 
 
@@ -131281,9 +131281,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-6.0
+7.5
 ## exam_weight_by_year
-KAU_Y1=0.60
+KAU_Y1=0.75
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -131299,9 +131299,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q4; Epithelium | Module 101 questions.pdf.pdf p10 q4. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0.
+Kasr Al Ainy departmental question books, module 101 ISK. Dpt Book MCQ histo 101 .NEW (1).pdf p10 q4; Epithelium | Module 101 questions.pdf.pdf p10 q4; EOY 195 first 2022 101 ISK final (1).pdf p15 q18. Manifest src_bb081b0479f7a33666cd, src_d184b8378f4d66d285e0, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 2 times across the question books.
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 1 materially different wording of this question exist in the books and were not collapsed into it.
@@ -142050,9 +142050,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -142068,9 +142068,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q58. Manifest src_2944234d11e92ac4bbc8.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Blood].pdf p6 q58; EOY 195 first 2022 101 ISK final (1).pdf p16 q29. Manifest src_2944234d11e92ac4bbc8, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 
@@ -142940,9 +142940,9 @@ Academic
 ## clinical_relevance
 0.3
 ## exam_relevance
-4.5
+6.0
 ## exam_weight_by_year
-KAU_Y1=0.45
+KAU_Y1=0.60
 ## concept_ids
 [clear]
 ## contextual_concept_ids
@@ -142958,9 +142958,9 @@ yes
 ## owner
 Claude
 ## source_citation
-Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q14. Manifest src_6846577508f49244d715.
+Kasr Al Ainy departmental question books, module 101 ISK. Histo MCQ by Dr.Zahra [Cytology].pdf p11 q14; EOY 195 first 2022 101 ISK final (1).pdf p14 q7. Manifest src_6846577508f49244d715, src_51fef9b6234c5d381f59.
 ## author_notes
-Asked 1 time across the question books.
+Asked 2 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The book keys B, and passive diffusion is a membrane function — it is the plainest one there is. RNA synthesis happens in the nucleus and is the only listed activity the membrane has no part in. The key is one letter off; the answer is D.
 
@@ -147959,7 +147959,7 @@ Extraction confidence medium; the answer came from the question book itself.
 ## id
 QM-101-9CF1D1FA5C29
 ## title
-The cephalic vein is located on which aspect of the upper limb? (2024)
+The cephalic vein is located on which aspect of the upper limb?
 ## subject
 msk
 ## status
@@ -147967,25 +147967,25 @@ Draft
 ## format
 single_best_answer
 ## question
-The cephalic vein is located on which aspect of the upper limb? (2024)
+The cephalic vein is located on which aspect of the upper limb?
 ## answer_a
-Lateral.
+lateral
 ## explanation_a
 Correct. Lateral, or radial — the cephalic vein starts at the lateral end of the dorsal venous arch and stays lateral until it reaches the deltopectoral groove.
 ## answer_b
-Medial.
+medial
 ## explanation_b
 The basilic vein's side, and the answer given by every student who has the two names the wrong way round.
 ## answer_c
-Anterior.
+anterior
 ## explanation_c
 The vein does cross to the front of the arm as it ascends, which makes this feel half right. The question asks which aspect of the limb it belongs to, and the answer that distinguishes it from the basilic is lateral.
 ## answer_d
-Posterior.
+posterior
 ## explanation_d
 The cephalic vein begins on the back of the hand at the dorsal venous arch, which is what makes posterior tempting. It is anterior and lateral for almost its whole course above the wrist.
 ## correct_answer
-A
+a
 ## main_concept
 CON-MSK-66A2E56C00F3A7
 ## library_ids
@@ -148038,7 +148038,7 @@ Claude
 Kasr Al Ainy departmental question books, module 101 ISK. 101 mcq all after edit(3)-نسخ.pdf p92 q2; EOM ISK EOM exam 2024.pdf p9 q91. Manifest src_08bc782553366518791e, src_16f747e1171423933757.
 ## author_notes
 Asked 2 times across the question books.
-Extraction confidence medium; the answer came from no source and was supplied by the author.
+Extraction confidence high; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The source printed no key. The cephalic vein runs on the lateral (radial) side of the forearm and arm from its origin at the lateral end of the dorsal venous arch, so A is the only possible answer.
 
 
