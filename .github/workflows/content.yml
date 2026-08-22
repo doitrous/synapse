@@ -65,6 +65,14 @@ jobs:
       - name: One idea, one concept
         run: npm run medical:concept-ids
 
+      # A concept ID is what every claim, span, question and article points at,
+      # so one moving forks a student's mastery across two records with nothing
+      # at import time noticing. This pins the committed ID of one concept per
+      # module — not `id === mintConceptId(...)`, which holds for 101 and 102
+      # and for none of 103, 104 or 108, and would make this red on day one.
+      - name: Concept IDs have not moved
+        run: npm run medical:id-stability
+
       # Every batch is checked against every concept and article batch as a
       # sibling. A question and a practical both resolve their concepts against
       # live state, deliberately — an item pointing at a concept nobody authored

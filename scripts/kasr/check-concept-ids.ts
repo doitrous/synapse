@@ -52,10 +52,35 @@
  * as "unchanged from an existing record" and looks like a fresh concept that
  * simply forgot its key.
  */
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
-const DIR = 'docs/Kasr-Source-Imports/concept'
+/**
+ * Every university's concept directory.
+ *
+ * 2026-08-22 — this scanned `docs/Kasr-Source-Imports/concept` alone, and the
+ * one-key-one-id invariant above is global: one medical idea is one concept ID,
+ * and a university, year or module is an overlay on that record rather than a
+ * separate namespace. So a concept under `docs/Alexandria-Source-Imports/`
+ * reusing a Kasr canonical key with a *different* id passed this gate green —
+ * the exact collision it exists to refuse. Proved with a fixture before the
+ * change: `no rival ids`, exit 0.
+ *
+ * The module-scoped reading in the header still holds and is unchanged; this
+ * only widens where rows are read from, and every check below already groups
+ * with no module filter, which the header notes is a superset rather than a
+ * gap. Widening the scan is what makes that superset actually cover the tree.
+ *
+ * Discovered by shape, not by name — the same rule `find-existing.mjs` uses, so
+ * the tool authors run before minting and the gate that catches them when they
+ * do not agree on what "everywhere" means. The next university must not need an
+ * edit here to be checked.
+ */
+const CONCEPT_DIRS = (existsSync('docs')
+  ? readdirSync('docs', { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && entry.name.endsWith('-Source-Imports'))
+    .map((entry) => join('docs', entry.name, 'concept'))
+  : []).filter((dir) => existsSync(dir)).sort()
 const LIVE_LIBRARY_PATH = 'server/data/medical-library-v1.json'
 
 interface Row { id: string; key: string; subject: string; module: string; file: string; line: number }
@@ -91,8 +116,13 @@ const idOnly: IdOnlyRow[] = []
  */
 const unparsed: string[] = []
 
-for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
-  const text = readFileSync(join(DIR, name), 'utf8')
+for (const dir of CONCEPT_DIRS) {
+ for (const name of readdirSync(dir).filter((one) => one.endsWith('.md'))) {
+  // Path rather than basename, now that more than one university is scanned:
+  // two of them may each author `concepts.md`, and a message naming only the
+  // basename would report one lane's collision against another lane's file.
+  const where = join(dir, name).replace(/^docs\//, '')
+  const text = readFileSync(join(dir, name), 'utf8')
   const lines = text.split('\n')
   // Split on the `---` delimiter like `text.split(...)` did, but keep each
   // block's starting line number so the new checks can report file:line
@@ -124,12 +154,13 @@ for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
     const id = field('id')
     const key = field('canonical_key')
     const module = field('module_subject').split('>')[0].trim()
-    if (id && key) { rows.push({ id, key, subject: field('subject'), module, file: name, line }); continue }
-    if (id && !key) { idOnly.push({ id, module, file: name, line }); continue }
+    if (id && key) { rows.push({ id, key, subject: field('subject'), module, file: where, line }); continue }
+    if (id && !key) { idOnly.push({ id, module, file: where, line }); continue }
     if (/^#\s*Item\s*$/m.test(block)) {
-      unparsed.push(`${name}:${line}: an item with ${key ? 'no id' : 'neither id nor canonical_key'}`)
+      unparsed.push(`${where}:${line}: an item with ${key ? 'no id' : 'neither id nor canonical_key'}`)
     }
   }
+}
 }
 
 // A blank canonical_key is normal on an update row (rule: "a blank block is
