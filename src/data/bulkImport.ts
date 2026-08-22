@@ -709,6 +709,20 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
  * `PracticalRunner` reads `practicalData`, not the flat `fields` strings, so an
  * imported practical is only usable once this returns the right shape.
  */
+/**
+ * `module_subject`, absent when the column is.
+ *
+ * `parseModuleSubjectPaths('')` returns `[]`, and `[]` is a value: the merge
+ * writes it, so a sparse update row that never mentioned `module_subject`
+ * collapsed the live record's curriculum placement to nothing. Four kinds
+ * computed it unconditionally — question, article, resource and practical —
+ * while `conceptImport.ts` had the guard. Same rule as every other optional
+ * column: the column absent means untouched, not emptied.
+ */
+function moduleSubjectPathsOf(value: string | undefined) {
+  return value === undefined ? undefined : parseModuleSubjectPaths(value)
+}
+
 export function practicalDataFrom(values: Record<string, string>, ownerId = ''): PracticalAuthoringData {
   const type = values.type?.trim()
   const learningObjective = values.learning_objective?.trim()
@@ -721,7 +735,7 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   const shared = {
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
-    moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+    moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
     // Curriculum scope, which this never read.
     //
     // `PracticalCommon` has carried `universityIds`, `yearIds` and `moduleIds`
@@ -1155,7 +1169,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           questionType: text('question_type'),
           mainConceptIds: optionalList(values.main_concept),
           moduleIds: optionalList(values.module),
-          moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+          moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
           clinicalRelevance: clamp01(values.clinical_relevance),
           academicRelevance: clamp01(values.academic_relevance),
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
@@ -1230,7 +1244,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         universityIds: optionalList(values.universities),
         yearIds: optionalList(values.years),
         moduleIds: optionalList(values.module),
-        moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+        moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
         subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
         relatedConceptIds: optionalList(values.related_concepts),
         relatedArticleIds: related.ids.length ? related.ids : undefined,
@@ -1325,7 +1339,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
-      moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+      moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
       includedConceptIds: splitImportList(values.included_concepts),
       includedArticleIds: splitImportList(values.included_articles),
       conceptLocations: (values.concept_locations ?? '').split(/\r?\n/).map((line, i) => {

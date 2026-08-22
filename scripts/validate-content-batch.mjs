@@ -240,6 +240,86 @@ rows.forEach((values, index) => {
 })
 
 /**
+ * Which university a year or module belongs to, and whether the record says so.
+ *
+ * A shared record has to be traceable per university and per year, and nothing
+ * checked that the two agreed. A question naming `kau` and `AU_Y1` claims to be
+ * Kasr content sat in an Alexandria year.
+ *
+ * Three shapes reach the `years` column in production, so this resolves rather
+ * than pattern-matches: `KAU_Y1` (canonical), `kau_y3` (the same id in lower
+ * case, 114 of them) and `Year 1` (a label, 2,469 of them and by far the
+ * commonest). A label names no university, so it satisfies any named one and
+ * can never fail; only an id can contradict the record, and only an id is
+ * judged. Failing the labels would have turned 41 files red for a convention
+ * nobody has ruled on, which is a content decision and not this script's to
+ * force.
+ */
+const YEAR_OWNER = new Map()
+const MODULE_OWNER = new Map()
+const YEAR_LABELS = new Map()
+for (const university of UNIVERSITY_CATALOGUE) {
+  for (const year of university.years) {
+    YEAR_OWNER.set(year.id.toLowerCase(), university.id)
+    YEAR_LABELS.set(`${university.id}::${year.year.trim().toLowerCase()}`, year.id)
+    for (const course of year.courses ?? []) {
+      if (course.moduleId) MODULE_OWNER.set(course.moduleId.trim().toLowerCase(), university.id)
+    }
+  }
+}
+
+/** The keys of a `key: value` cell, as `exam_weight_by_year` is written. */
+const weightKeys = (value) => (value ?? '').split(/\r?\n/).map((line) => line.split('=')[0].trim()).filter(Boolean)
+
+function scopeAgreementErrors(rowKind, values) {
+  const problems = []
+  const declared = listOf(values.universities).map((id) => id.trim())
+  if (!declared.length) return problems
+  const named = new Set(declared)
+  const owns = (id) => YEAR_OWNER.get(id.trim().toLowerCase())
+
+  const years = listOf(values.years)
+  for (const year of years) {
+    const owner = owns(year)
+    if (owner && !named.has(owner)) {
+      problems.push(`years names ${year}, which belongs to ${owner} — a university this record does not name (${declared.join(', ')})`)
+    }
+  }
+
+  // Every named university needs a year it can be placed in. A bare label
+  // counts for any of them, which is why this is satisfiable without ids.
+  if (years.length) {
+    for (const university of named) {
+      const covered = years.some((year) => owns(year) === university
+        || YEAR_LABELS.has(`${university}::${year.trim().toLowerCase()}`))
+      if (!covered) {
+        problems.push(`universities names ${university} but no entry in years belongs to it — a record shared with a university it has no year in cannot be placed for its students`)
+      }
+    }
+  }
+
+  // Exam weights are keyed by year id, with no label escape hatch.
+  for (const key of weightKeys(values.exam_weight_by_year)) {
+    const owner = owns(key)
+    if (!owner) problems.push(`exam_weight_by_year is keyed by ${key}, which is not a year of any university in the catalogue`)
+    else if (!named.has(owner)) problems.push(`exam_weight_by_year is keyed by ${key}, which belongs to ${owner} — a university this record does not name`)
+  }
+
+  // Modules, only where the catalogue places one. `universities.ts` carries 31
+  // for Kasr and none for the other eleven, so requiring a module per named
+  // university would fail every non-Kasr record on its first run. The converse
+  // is checkable: a module the catalogue does place must not contradict.
+  for (const id of [...listOf(values.modules), ...listOf(values.module)]) {
+    const owner = MODULE_OWNER.get(id.trim().toLowerCase())
+    if (owner && !named.has(owner)) {
+      problems.push(`module ${id} belongs to ${owner} — a university this record does not name`)
+    }
+  }
+
+  return problems
+}
+
+/**
  * A cell that mixes a plain item with a `+`-prefixed one.
  *
  * `+` marks the whole cell as an append, so `X | +Y` is an author writing a
@@ -805,6 +885,7 @@ if (kind === 'question') {
     for (const error of stubCreateErrors('question', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
     for (const error of plusOnNonListErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('question', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -967,6 +1048,7 @@ if (kind === 'practical') {
     for (const error of stubCreateErrors('practical', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
     for (const error of plusOnNonListErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('practical', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -1082,6 +1164,7 @@ if (kind === 'article') {
     for (const error of stubCreateErrors('article', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
     for (const error of plusOnNonListErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('article', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -1298,6 +1381,7 @@ rows.forEach((values, index) => {
     for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
     for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
     for (const error of plusOnNonListErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('concept', values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)

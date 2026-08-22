@@ -38,12 +38,64 @@ Content batches only when a shared gate is blocking every lane.
 | `2d3c6c6` | Authoring fields asked of creates only; `103-BMS-OWED.md` correction |
 | `3f4ea7a` | This handoff |
 | `c255322` | Blank `label` no longer blanks a live concept's label on import |
+| `7ec2ef4` | A record's universities, years and modules must agree |
+| `2edea35` | A sparse update no longer wipes `module_subject` on four kinds |
 
 ---
 
-## Open
+## Open queue
 
-- **Nothing queued.** The lane is held pending a fresh session.
+In order. Each is specified enough to start from; the investigation behind I is already done.
+
+**1 · H2 — `module_subject` cannot hold two universities' paths.**
+`conceptImport.ts:194` and the four kinds in `bulkImport.ts` call
+`parseModuleSubjectPaths` directly, so the cell **replaces**: two universities each
+supplying a path for one shared concept overwrite each other, last import wins. A leading
+`+` does not append — it is stored inside the path, which `d82dd36` now refuses. Route it
+through `listDirective`/`applyListDirective` like the id-list columns so `+<path>` appends
+and a bare value replaces, on every kind that carries the column.
+*The D1 check needs no edit:* it asks the importer whether a `+` survives into storage
+rather than consulting a list, so it stops flagging `module_subject` the moment the column
+honours one. That was the point of building it that way.
+*Fixture:* Kasr path live, update row with `+AU path` → both stored.
+
+**2 · H3 — `university_notes` exists only on the article kind** (`bulkImport.ts:117`, `:1183`).
+Not on concept (absent from `conceptImport.ts` and the `Concept` interface), not on question
+or practical. Omar's requirement is that every record traces per university, and
+`author_notes` is not that. Add it to concept, question and practical: `key: value` per
+line, **merged by key** on update so each university's line survives.
+
+**3 · I — the resource detector. Verdict already reached, do not re-investigate.**
+`IMPORT_SCHEMAS.resource` holds **19** columns (`id, title, subject, status, owner, type,
+source, url, year, topics, chapter, module_ids, module_subject, included_concepts,
+included_articles, concept_locations, universities, years, description`) and is what
+"Bulk import → resource" uses. `EVIDENCE_IMPORT_FIELDS.resource` holds 17 (`institution`,
+`processing_status`, …). **Both shapes are real; the detector is missing a branch**, and
+`detectBatchKind` returns `unknown` for the catalogue shape — confirmed by feeding it every
+`IMPORT_SCHEMAS.resource` key. So a catalogue resource can never be checked by
+`medical:batch` or `simulate`.
+*Do:* add a detector branch and a validation branch for the catalogue shape, keeping the
+evidence-source branch. `included_concepts`, `concept_locations`, `included_articles` and
+`module_ids` are catalogue-only and none appear on any other kind, so any of them
+discriminates. *Also tell the manual writer:* `12-resources.md` says "`IMPORT_SCHEMAS.resource`,
+18 columns" and "the catalogue resource — 18 columns". It is **19**. The shape is right and
+the count is stale.
+*Fixture:* both shapes, each detected as its own kind.
+
+**4 · Sweep for the third concrete-empty default.**
+Twice now a field defaulted to a concrete empty where every other optional field defaults to
+`undefined`, and the merge faithfully wrote it over live data: `label` in `conceptFromRow`
+(`c255322`) and `module_subject` on four kinds (`2edea35`). Two in one file family is a
+pattern. Grep the importers for `?? ''`, `|| []` and direct parser calls that are not guarded
+by `values.x === undefined`, and check each against what the merge does with the result.
+
+**5 · Rule on the shape of the `years` column** — a content decision, not a validator one.
+Three shapes are in production today: `KAU_Y1` (539), `kau_y3` — the same id lower-cased
+(114), and `Year 1` — a bare label (**2,469, across 41 files, and by far the commonest**).
+The scope check in `7ec2ef4` resolves rather than pattern-matches and judges ids only,
+because a label names no university and so can never contradict a record. Nothing can be
+made stricter here until somebody decides which form is canonical; failing the labels today
+would redden 41 files over a convention nobody has ruled on.
 
 **Checked while closing G, so nobody re-opens it:** `label` was the only field in
 `conceptFromRow` defaulting to `''`; every other prose field already used `text()`.
