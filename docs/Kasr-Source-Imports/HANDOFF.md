@@ -17,6 +17,9 @@ Year 1 (101 ISK, 102 INT, 103 BMS, 104 CPS, 108 INT) publishable: every banked M
 - Tooling: build-evidence per module c0a3709; build-spans 4033bde; per-module MCQ pipeline bec5510, 601b2c1, sparse updates + module books 7ab418f; gate fixes a4449a8 (merged with main's); glossary 514 terms d84d68a + ARABIC-REVIEW.md; practicals scoped 101954f (green after d82dd36).
 - main merged up to d82dd36 (validator: per-record floors, `+` rules, update-row checks, practical columns, revised manual 0e08ac1).
 
+## Landed after the first checkpoint (2026-08-23, in order)
+86244b9 HANDOFF + LANE-BRIEF in tree; 7b93d83 / b885078 / ea6b17d main merges (validator 2d3c6c6, dcc6929, c255322, manual 1a9f190); 4ad6755 check-two-sided-coverage.py; a3c77f6 104 pipeline 120 MCQs / 30 concepts (0 overlap with the hand 40); 8f00ae3 presence judges sparse rows on named fields only. Stalls: every subagent died on the API stream watchdog ~00:40–01:40 (platform-wide); dispatch resumed at ≤5 concurrent once a long lane completed end-to-end.
+
 ## Running at checkpoint (uncommitted files on disk; resume = re-dispatch one task from these files, not from a transcript)
 | Lane | Files on disk | Finish with |
 |---|---|---|
