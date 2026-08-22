@@ -19,6 +19,12 @@ struct DashboardView: View {
     @State private var questionCount = 0
     @State private var showingAccount = false
     /// Both calendars, merged, so "what is next" answers from whichever has it.
+    /// Concept id → the name a person would recognise.
+    ///
+    /// The review queue is keyed by concept id, and an id is not a thing a
+    /// student can act on: "CON-CVS-5692E7C9DCE9F5 is due" tells them nothing
+    /// about what to open.
+    @State private var conceptLabels: [String: String] = [:]
     @State private var upcoming: [UpcomingItem] = []
     @State private var recent: [RecentResource] = []
     private let api: SynapseAPI
@@ -112,6 +118,26 @@ struct DashboardView: View {
         let blocks = (try? await api.userState([StudyBlock].self, key: StudyBlock.storageKey))?.value ?? []
         upcoming = Upcoming.merge(sessions: sessions, blocks: blocks)
         recent = (try? await api.userState([RecentResource].self, key: RecentResource.key))?.value ?? []
+
+        // The same catalogue document the reader uses to match terms, read here
+        // only for its labels.
+        if let graph = try? await library.catalogue(key: SyncEngine.conceptGraphKey),
+           let decoded = try? JSONDecoder().decode(ConceptGraph.self, from: graph) {
+            conceptLabels = Dictionary(
+                decoded.concepts.map { ($0.id, $0.label) },
+                uniquingKeysWith: { first, _ in first }
+            )
+        }
+    }
+
+    /// What to call a concept on screen.
+    ///
+    /// Falls back to the id rather than to a blank or a guess: a concept the
+    /// catalogue has not caught up with is still due, and saying so with an
+    /// ugly name beats not saying it.
+    private func conceptName(_ conceptId: String) -> String {
+        let label = conceptLabels[conceptId]
+        return (label?.isEmpty == false ? label : nil) ?? conceptId
     }
 
     // MARK: - What is next
@@ -362,7 +388,7 @@ struct DashboardView: View {
                             .fill(colour(item.band))
                             .frame(width: 7, height: 7)
 
-                        Text(item.conceptId)
+                        Text(conceptName(item.conceptId))
                             .font(Theme.ui(14))
                             .foregroundStyle(Theme.ink)
                             .lineLimit(1)
