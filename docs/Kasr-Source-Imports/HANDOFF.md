@@ -20,6 +20,8 @@ Year 1 (101 ISK, 102 INT, 103 BMS, 104 CPS, 108 INT) publishable: every banked M
 ## Landed after the first checkpoint (2026-08-23, in order)
 86244b9 HANDOFF + LANE-BRIEF in tree; 7b93d83 / b885078 / ea6b17d main merges (validator 2d3c6c6, dcc6929, c255322, manual 1a9f190); 4ad6755 check-two-sided-coverage.py; a3c77f6 104 pipeline 120 MCQs / 30 concepts (0 overlap with the hand 40); 8f00ae3 presence judges sparse rows on named fields only. Stalls: every subagent died on the API stream watchdog ~00:40–01:40 (platform-wide); dispatch resumed at ≤5 concurrent once a long lane completed end-to-end.
 
+Later on 2026-08-23: 72f50b3 102 two-sided 48→147/164 + coverage/102-INT-GATES.md; 4faa37d ATP-yield concept states both conventions; 3a46d91 103 anatomy demand (11 concepts, 7 articles, 21 written); 0350c44 103 histology demand (3 concepts, 4 written); 89993f4 + 0b9bd71 101 two-sided 127→279/282 + coverage/101-ISK-GATES.md; 1b586d9 check-university-tags.py; 8f00ae3 presence judges sparse rows on named fields. Running at this line: enrichment (emit.ts), 104 hand-40 repair, 12-row tag fix, 103 biochemistry papers (MCQ sections), 101 textbook fallback for the last 3 concepts. Queued: 101 practical floor, 104 two-sided + INDEX, 102 MCQ-concept evidence run, university_notes/field_notes kau: generator, Telegram T3.
+
 ## Running at checkpoint (uncommitted files on disk; resume = re-dispatch one task from these files, not from a transcript)
 | Lane | Files on disk | Finish with |
 |---|---|---|
