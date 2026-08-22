@@ -99,7 +99,6 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M02
 SYS-MSK-T01-S01-M03
 ## related_concepts
-[clear]
 CON-MSK-74BFAB9385B955
 CON-MSK-951D4DFF864245
 CON-MSK-875049D4420AA4
@@ -317,13 +316,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead, which is the admin-side request queue rather than a student-visible asset.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the reciprocal link is written from the question side, which is where the importer maintains it.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate, so there is no student projection yet.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Development: The absence of a developmental account is the source's, not an omission here; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written from the two Kasr sources, which agree on every table in this chapter. The three divergences that exist are of placement and of wording rather than of fact, and are recorded in conflicts.
 
@@ -370,7 +371,6 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M01
 SYS-MSK-T03-S02-M03
 ## related_concepts
-[clear]
 CON-MSK-1CA86BE843A07C
 CON-MSK-DF8F395F3D471E
 CON-MSK-8533FCB18D819B
@@ -593,14 +593,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical correlations: The sentence explaining that the greater tuberosity meets the coraco-acromial ligament at 90° comes from the concept record drafted from the exam paper, not from the two chapters read for this article. It is named in evidence_gaps.
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Five concepts sit on this leaf, more than on any other Upper Limb leaf in the module, and four of them are answered by the same anatomy. The article is organised so that the intermuscular spaces, the abduction relay and the scapular anastomosis each get their own examinable block rather than being folded into a continuous description of the region.
 
@@ -647,7 +649,6 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M04
 SYS-MSK-T01-S01-M05
 ## related_concepts
-[clear]
 CON-MSK-E10403A4189B45
 CON-MSK-44234D1863CE8E
 ## related_articles
@@ -925,14 +926,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical correlations: The account of why the palmar cutaneous branch of the median nerve is spared in carpal tunnel syndrome is assembled from two statements the department book makes separately — that the branch passes superficial to the retinaculum, and that the nerve is compressed within the tunnel. The department book does not draw the conclusion itself.
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The forearm carries more question-book items than any other Anatomy leaf in this module, and the material is almost entirely tabular. The article is written so that the two nerve rules and their five exceptions come before the muscle tables, because a student who holds the rules can reconstruct most of the tables and a student who holds the tables cannot reconstruct the rules.
 
@@ -1123,15 +1126,17 @@ scripts/kasr/extract/mcq-bank.json, leaf "Introduction" — 54 stems, of which t
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here — and for this leaf in particular, because the whole article is vocabulary, an unreviewed Arabic title would be a claim about terminology rather than a label.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Introduction" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Introduction" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Three pages of department book support a leaf the question books return to every sitting, and every later chapter depends on the vocabulary. The article is short on purpose: there is nothing here that is not in the book, and padding it with movement terminology the book never defines would hide the gap that matters.
 
@@ -1177,7 +1182,6 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T03-S02-M04
 ## related_concepts
-[clear]
 CON-MSK-6CD9FFF51AE9CD
 ## related_articles
 ART-101-ANA-DEEP-FASCIA: The deep half of this chapter taught on its own, with the five parts and their functions worked through one at a time.
@@ -1326,14 +1330,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Mechanism: The explanation of why each item on the superficial fascia list follows from the tissue being loose and fatty is reasoning added here to make the list learnable. The book states the functions without deriving them.
 sections.Clinical significance: The two closing paragraphs — the carpal tunnel as an inelastic roof over a rigid floor, and the muscle-pump account of venous return — draw on statements made in this module's regional chapters and on general anatomical reasoning. The Fascia chapter itself makes neither connection.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf already has an article in 101-ISK-anatomy.md — ART-101-ANA-DEEP-FASCIA — which teaches the deep half in more depth. This one exists because the leaf's second concept, the superficial fascia's six functions, had no article claiming it, and because the department asks the two lists as a contrast. The overlap is recorded in conflicts for a reviewer to resolve.
 
@@ -1586,16 +1592,18 @@ scripts/kasr/extract/mcq-bank.json, leaf "Skeletal system" — 101 distinct ques
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is this leaf exists yet in either concept batch. The field is left empty rather than filled from the Articular system leaf next door, whose concepts belong to a different article, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is this leaf exists yet in either concept batch. The field is left empty rather than filled from the Articular system leaf next door, whose concepts belong to a different article, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical significance: Four paragraphs reason beyond the text — the epiphyseal plate as a plane of weakness, the epiphysis without collateral supply before ossification, the poor healing of an avascular cartilage, and the continuity of sinus mucosa with the nose. Each states a consequence of something the book asserts; the book itself draws none of them.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf carries 101 question-book stems and no concept. The article is written to the book's own three classifications and four-artery list, because those are what the five-mark written questions ask, and the marrow gap is recorded because it is the single most-asked thing on the leaf that the faculty's own chapter never teaches.
 
@@ -1820,11 +1828,11 @@ scripts/kasr/extract/mcq-bank.json, leaf "Cardiovascular system" — 85 stems, o
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system" exists yet in either concept batch. The field is left empty rather than filled with an upper-limb vascular concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system" exists yet in either concept batch. The field is left empty rather than filled with an upper-limb vascular concept, whose article is elsewhere, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
@@ -1832,6 +1840,8 @@ lastReviewed: Never reviewed.
 subject: Filed under cvs rather than msk because the material is cardiovascular, even though the leaf sits inside an Anatomy module whose other Basis leaves are msk.
 sections.Common misconceptions: The remark that a portal circulation is a venous system beginning and ending in capillaries is general anatomical knowledge; the department book describes the hepatic portal system without defining the class.
 sections.Clinical significance: The closing paragraph explaining the arteriovenous shunt as a thermoregulator assembles the book's separate statements about site, muscular coat, sympathetic control and local heat; the book does not draw them together.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Eight pages of department book, no second Kasr source, and a leaf whose question-bank entries are mostly upper-limb vessels filed here in error. The article teaches the chapter's general principles in full, because those principles are what the regional anastomosis questions in the rest of the module rest on.
 
@@ -2050,17 +2060,19 @@ scripts/kasr/extract/mcq-bank.json, leaf "Lymphatic system" — 71 stems, of whi
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system" exists yet in either concept batch. The field is left empty rather than filled with an axillary node concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system" exists yet in either concept batch. The field is left empty rather than filled with an axillary node concept, whose article is elsewhere, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 subject: Filed under msk to match the leaf's placement in the Anatomy module's Basis section, as specified for this batch, although the material is immunological.
 sections.Mechanism: The paragraph explaining why each of the four characters of a lymph vessel follows from what lymph is for is reasoning added here to make the list learnable. The book states the four characters without deriving them.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Four pages of department book against 71 question-bank stems, most of which this chapter cannot answer. The single most useful thing this article does for a faculty reviewer is name that mismatch precisely: the book mentions B and T lymphocytes once, in a bracket, and the papers examine them in detail.
 
@@ -2279,16 +2291,18 @@ scripts/kasr/extract/mcq-bank.json, leaf "Nervous system" — 16 stems, almost n
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Nervous system" exists yet in either concept batch. The field is left empty rather than borrowed from the Upper Limb nerve-injury leaf, whose concepts belong to other articles, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Nervous system" exists yet in either concept batch. The field is left empty rather than borrowed from the Upper Limb nerve-injury leaf, whose concepts belong to other articles, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 subject: Filed under neuro, matching the material, although the leaf sits in an Anatomy module whose other Basis leaves are msk.
 sections.Clinical significance: The department book's chapter has no clinical section. Every paragraph in this one is a consequence drawn from a statement the chapter does make, and the section says so in its opening line rather than presenting the reasoning as the faculty's teaching.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The shortest chapter in the Basis section and, on the evidence of the question bank, the leaf whose stems least resemble its own content. The article teaches the chapter completely — it is short enough to teach completely — and spends most of its evidence_gaps saying which of the chapter's own stated learning outcomes the chapter does not deliver.

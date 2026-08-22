@@ -1,7 +1,7 @@
 <!--
   Where the department book says what the claims say.
 
-  332 citations, every one quoting the book's own line.
+  330 citations, every one quoting the book's own line.
 
   A span is attached only where it carries at least 60% of the claim's
   distinctive vocabulary, and only from the chapter the concept's own curriculum
@@ -2648,62 +2648,6 @@ PDF page 160
 Matched to the claim on 75% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
 ## confidence
 0.75
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-F43CE3DC1DD7
-## claim_id
-CLM-600C4779CA33
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-Pectoralis - Clavicular head: Lateral lip of Lateral & - Adducts and Major anterior surface of intertubercular medial medially rotates medial ½ of clavicle (bicipital) pectoral arm - Sternocostal head: groove (via nerves - Clavicular head • Anterior surface of bilaminar flexes arm
-## locator_type
-printed_page
-## locator_page
-162
-## locator_section
-101 ISK > Anatomy > Upper Limb > Pectoral Region
-## locator_detail
-PDF page 162
-## context_note
-Matched to the claim on 78% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.78
-## counts_as_claim_evidence
-yes
-
----
-
-# Item
-## id
-CIT-D73D25C277EA
-## claim_id
-CLM-AB25B6DD599F
-## resource_id
-src_b1e6dc481eaf337268d0
-## evidence_role
-local_curriculum
-## support_span
-3- Deep (pectoral) fascia. 4- Muscles. 1- Supraclavicular nerves (C.3,4): they are branches from the cervical plexus in the neck (medial, intermediate and lateral supraclavicular nerves). They
-## locator_type
-printed_page
-## locator_page
-153
-## locator_section
-101 ISK > Anatomy > Upper Limb > Pectoral Region
-## locator_detail
-PDF page 153
-## context_note
-Matched to the claim on 80% of its distinctive terms, within the chapter the concept's curriculum path names. The department book is this faculty's own teaching text, so this is local curriculum evidence and not independent verification.
-## confidence
-0.80
 ## counts_as_claim_evidence
 yes
 

@@ -1,15 +1,15 @@
 <!--
   Every assertion the 101 ISK concepts make, as claims.
 
-  1153 claims from 321 concepts.
+  1148 claims from 319 concepts.
 
   A concept asserts something and its `definition` is that assertion written
   out, so the claims are its sentences rather than a second set of facts written
   alongside — two records of one thing can disagree, and then nobody knows which
   the module teaches.
 
-  332 carry a citation to the department book and stand at `verified`.
-  821 do not, and stand at `needs_evidence`. That split is the point of
+  330 carry a citation to the department book and stand at `verified`.
+  818 do not, and stand at `needs_evidence`. That split is the point of
   the file: a claim is only as good as the span under it, and the ones without a
   span are the work list for the pass that finds them.
 
@@ -9227,99 +9227,6 @@ curriculum: 101 ISK > Anatomy > Upper Limb > Pectoral Region
 
 # Item
 ## id
-CLM-DD50AD900216
-## concept_id
-CON-MSK-097C0BDED777AB
-## subject
-Pectoralis major
-## predicate
-arises
-## object
-by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove
-## display_text
-Pectoralis major arises by a clavicular head from the medial half of the clavicle and a sternocostal head from the sternum and upper six costal cartilages, and inserts into the lateral lip of the bicipital groove.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
-curriculum: 101 ISK > Anatomy > Upper Limb > Pectoral Region
-
----
-
-# Item
-## id
-CLM-600C4779CA33
-## concept_id
-CON-MSK-097C0BDED777AB
-## subject
-It adducts and medially rotates the arm
-## predicate
-states
-## object
-It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion.
-## display_text
-It adducts and medially rotates the arm; the clavicular head flexes the arm and the sternocostal head extends it from flexion.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.78
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
-curriculum: 101 ISK > Anatomy > Upper Limb > Pectoral Region
-
----
-
-# Item
-## id
-CLM-AB25B6DD599F
-## concept_id
-CON-MSK-097C0BDED777AB
-## subject
-It
-## predicate
-is
-## object
-supplied by the lateral and medial pectoral nerves
-## display_text
-It is supplied by the lateral and medial pectoral nerves.
-## risk_class
-foundational_stable
-## verification_status
-verified
-## conflict_status
-none
-## confidence
-0.80
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Pectoralis major adducts and medially rotates the arm, supplied by both pectoral nerves
-curriculum: 101 ISK > Anatomy > Upper Limb > Pectoral Region
-
----
-
-# Item
-## id
 CLM-9830EC312B6B
 ## concept_id
 CON-MSK-66A2E56C00F3A7
@@ -14057,68 +13964,6 @@ stable_local_curriculum_fact
 no
 ## qualifiers
 concept: A lysosome is a single-membrane bag of hydrolytic enzymes made in the rER, packed by the Golgi, and shown only by histochemistry
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-993B5D3087DE
-## concept_id
-CON-FND-42CCE864C55A08
-## subject
-A primary lysosome
-## predicate
-is
-## object
-a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted
-## display_text
-A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate
-curriculum: 101 ISK > Histology > Cytology > Cytoplasm
-
----
-
-# Item
-## id
-CLM-2E7999006EDD
-## concept_id
-CON-FND-42CCE864C55A08
-## subject
-A secondary lysosome
-## predicate
-is
-## object
-larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material
-## display_text
-A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.
-## risk_class
-foundational_stable
-## verification_status
-needs_evidence
-## conflict_status
-none
-## confidence
-0.4
-## freshness
-stable_local_curriculum_fact
-## time_sensitive
-no
-## qualifiers
-concept: Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate
 curriculum: 101 ISK > Histology > Cytology > Cytoplasm
 
 ---

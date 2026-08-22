@@ -218,10 +218,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 practicalIdentification: The Barr body paragraph draws on three sources at once — the book for its presence, the handout for its drumstick shape and its 3-6%, and the department's own end-of-module paper for what it is. Each is named in evidence_basis and the gap between them is recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written entirely from the department book chapter. The only content drawn from outside it is the naming of Leishman and Giemsa stains inside an image request, which is sourcing direction to a human and not taught content.
 
@@ -392,10 +395,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. The figures this article needs are written as image recommendations.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 practicalIdentification: The size comparison against the small lymphocyte is assembled from three chapters of the book, and the note that the department's platelet markers are usually plural is a reading of the plates. Both are recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught what a platelet is — a non-nucleated fragment, 2 to 4 µm, with a pale hyalomere and a dark granulomere — but it was written for a written paper and said nothing about finding one on a film among cells that are all larger than it. That is what the department's plates actually ask, and it is now in Key determinants.
 
@@ -719,11 +725,14 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so the plates this article needs are written as image recommendations.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-EE10AFCE944705 carries no secondary placement, and none is invented here.
 practicalIdentification: The paragraph on how a fibroblast reads on an ordinary section, and the contrast with an endothelial nucleus, are joined from the department book's description of the cell and the practical book's plate rather than quoted from either. It is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The Normal values section borrows the mast cell size and life span from the granular leucocyte chapter of the same book, because the connective tissue chapter gives neither. Both are the department's own figures.
 
@@ -1148,10 +1157,13 @@ media: No image exists in the repository, so every figure is written as an image
 questionIds: Questions for this article are authored in the question pass that follows.
 practicalIdentification: The Nissl's granules paragraph in Mechanism is the one place in this article where the two sources are joined rather than quoted. The department book names neither Nissl nor the nerve cell as an example of localised basophilia; the revision deck names the plate and prints no answer. The join is recorded in evidence_gaps.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended from a lysosome article into an account of the whole cytoplasm chapter, and retitled to match, because six concepts sit on this leaf: the lysosome types, the smooth endoplasmic reticulum, the Golgi apparatus, the ribosomes, the mitochondrion and the cytoskeletal comparison. Every one of them is asked the same three ways — light microscopy, electron microscopy, function — and the article is organised around that, with the department book's own two comparative tables reproduced as prose in Key determinants.
 
@@ -1358,11 +1370,14 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so every figure is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-0FAE59E00B748E carries no secondary placement, and none is invented here.
 practicalIdentification: The explanation of why the microvillus core is pale is this article's reading of two of the book's statements rather than a sentence either source prints, and it is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught both structures and the discriminator between them, so what was added is the department's own marker-by-marker answers and the two things a marked plate forces that a written account does not - that the microvillus is identified by an absence, and that length is the worst discriminator available because stereocilia are longer than many cilia.
 
@@ -1605,10 +1620,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so every plate is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-89FBF21510F273 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: six identification concepts sat on the Surface Epithelium leaf with no article claiming them. Four the article already taught — simple squamous, simple cubical, simple columnar and pseudostratified columnar — and needed only the department's own marker-by-marker answers written down, which is the new run in Key determinants. Two needed the article extended first. Keratinised against non-keratinised stratified squamous existed here only as the sentence that the oesophagus is non-keratinised and the epidermis is keratinised, with nothing about the horny layer or about which end of the epithelium the decision is made at. Stereocilia existed as a nine-word parenthesis inside the pseudostratified list, which is not enough to answer a plate that asks what separates them from cilia.
 

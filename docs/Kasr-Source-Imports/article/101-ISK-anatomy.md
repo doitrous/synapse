@@ -198,12 +198,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The account of why a tendon raises a bony marking and a fleshy attachment does not is general anatomical knowledge, added to make the classification mean something. Neither Kasr source states it.
 sections.Common misconceptions: The sentence describing an aponeurosis as a flattened tendon is general anatomical knowledge; neither source defines the word.
 sections.Clinical significance: The final paragraph on avulsion of a bony point is general clinical knowledge and is not in either source.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written from the two Kasr sources, which agree throughout this chapter. The one substantive divergence is from the concept record rather than between the sources, and it is recorded in conflicts.
 
@@ -372,12 +375,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanatory link between the tissue and the four other columns - that hyaline is the tissue bone grows from and so the joint must be temporary - is reasoning added here to make the table memorable. The sources state the five rows without connecting them.
 sections.Clinical significance: The sentence calling the epiphyseal plate a plane of relative weakness in a child is general clinical knowledge. Neither Kasr source states it, and no fracture classification is named here.
 sections.Common misconceptions: The synonyms synchondrosis and symphysis are standard terminology and are not used by either Kasr source, which say only primary and secondary. They are given so a student recognises them in an external question.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The two Kasr sources agree on all five rows. The only substantive divergence is from the concept record, over which example the secondary type carries, and it is recorded in conflicts.
 
@@ -546,12 +552,15 @@ arabicTitle: Arabic embryological terminology has not been reviewed for this mod
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: The concept for this article carries no secondary placement, and none is invented here; the decidua is a maternal structure with no second home in the four views.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Definition: The clause attributing the exaggerated secretory phase to a corpus luteum that has not regressed is general knowledge. Both Kasr sources use the phrase without giving a cause.
 sections.Mechanism: The account of the capsularis being pushed outwards by a growing sac is reasoning added to connect the two dated events the department book gives. The books state the events, not the mechanism.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written from the four Kasr sources, which agree on definition, features, parts and fate. The one number they add beyond the concept - the end of the third month - comes from the department book's fetal-membranes chapter rather than its decidua paragraph, and is recorded in conflicts because the concept gives a different month.
 
@@ -734,11 +743,14 @@ arabicTitle: Arabic embryological terminology has not been reviewed for this mod
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: The concept for this article carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanation of why a lengthening plate must buckle at its ends is reasoning added to make the two causes separable. The sources state the causes without arguing them.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The two Kasr sources agree on time, types, causes, limitations and results, differing only in how finely they subdivide the results. The substantive divergence is from the concept record, over what drives transverse folding, and it is recorded in conflicts.
 
@@ -948,12 +960,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Development: The inference that pectoralis major belongs with the ventral dermomyotome derivatives, drawn from its ventral-ramus nerve supply, is reasoning from the department book's own general rule. The book does not state it for this muscle, and the section says so in its own text.
 sections.Clinical correlations: The last paragraph, on contracting the muscle to test a breast lump for fixity, is general clinical knowledge. The Kasr sources state the anatomical relation but do not describe the manoeuvre.
 sections.Relations: The naming of the deltopectoral groove is taken from the department book's account of the deltoid branch of the acromio-thoracic artery and of the infraclavicular (delto-pectoral) nodes; the book does not define the groove as a heading of its own.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 All four Kasr sources agree on origin, insertion, nerve supply and the four action statements, which is unusually strong agreement for this corpus. The seven-mark question is answered by the Structure section and the first half of the innervation section.
 
@@ -1175,12 +1190,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Development: The section states the department book's general somite and ventral-ramus rule and says in its own text that the book does not derive a peripheral nerve. The dermatome figures that would complete it are unreadable images on page 260, which is recorded in evidence_gaps.
 sections.Surface and imaging anatomy: The manoeuvre of resisting elbow flexion in the mid-prone position to raise brachioradialis is general clinical knowledge, used here only as a way of finding a groove the sources do describe.
 sections.Relations: The observation that the spiral groove is the one place where the nerve lies against periosteum is reasoning from the sources' own description, added to explain why the humeral shaft fracture is the classic cause.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written to the orientation sheet's own seven-part specification for a named nerve: origin, root value, end, course, branches, areas supplied, effect of injury. All four Kasr sources agree on the branch grouping, and the department book alone supplies the injury detail.
 
@@ -1405,13 +1423,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 scope: This article was widened from "Arteries of the hand" to cover the anatomical snuff box as a named space, because the 2025 paper's second case asks for its boundaries, contents, floor and roof in four subparts, and the orientation sheet lists the snuff box among the five examinable spaces. Widening rather than splitting was chosen because the radial artery reaches the deep palmar arch through the snuff box, so the two topics are one continuous course rather than two neighbouring ones.
 scope.excluded: The muscles of the hand and the joints of the hand are excluded by the department's own orientation sheet and are deliberately absent here. A later author should not add them; the omission is the syllabus, not an oversight. The hand chapter of the department book does contain them, which is why this note exists.
 sections.Development: Left substantively empty on purpose. No Kasr source derives the vessels or carpal bones, and nothing is filled in from general embryology.
 sections.Clinical correlations: The sentence about radial artery cannulation and grafting is general clinical knowledge, added to make the double supply mean something. The Kasr sources describe the anastomoses without naming a procedure.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Two concepts are taught here: the deep palmar arch and the anatomical snuff box. They share a chapter in the department book only loosely, but they share the radial artery, which is the thread the article follows. The department book's internal disagreement about the interval between the two arches is recorded in conflicts rather than silently resolved.
 
@@ -1629,13 +1650,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 scope: The orientation sheet asks every joint for type, subtype, articulating surfaces, ligaments, movements and the muscles producing them, and all six are answered here. The joints of the hand are excluded by the same sheet and are absent on purpose.
 sections.Development: Left substantively empty on purpose. The ossification centres of the lower humerus are a real curriculum gap in both books and are recorded in evidence_gaps rather than filled from general knowledge.
 sections.Relations: The observation that the bicipital aponeurosis protects the brachial artery from a needle in the median cubital vein is general clinical knowledge; the department book states the anatomical relation without naming the procedure.
 sections.Blood supply, innervation and lymphatics: The statement that the elbow receives a twig from the radial nerve is inferred from the department book's own account of the radial branch to the small lateral part of brachialis, which the book says also supplies part of the capsule of the elbow joint.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 All four Kasr sources agree on type, articular surfaces and the two collateral ligaments. The divergence is from the concept record, over the shape and banding of the ulnar collateral ligament, and it is recorded in conflicts.
 
@@ -1820,10 +1844,15 @@ The book gives no developmental account of the breast in this chapter, so the De
 arabicTitle: Arabic terminology for this material has not been reviewed; it is filled during the evidence pass rather than guessed.
 publishedSummary: Not published — this article has not passed the evidence gate, so there is no student projection yet.
 publishedSections: As above.
+media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 reviewer: No faculty reviewer has seen this yet.
 lastReviewed: Never reviewed.
 questionIds: The questions that test this article are authored in the same pass and are wired from the question side, which is where the importer maintains the link.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ---
 
 # Item
@@ -1986,12 +2015,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-MSK-6CD9FFF51AE9CD carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The argument that each of the five products is one inelastic membrane anchored differently is this article's own organising claim, written to make a five-item list derivable rather than memorised. The five items and their stated effects are the sources'; the connective reasoning between them is not, and neither source offers a mechanism.
 sections.Common misconceptions: The link drawn between the absence of deep fascia in the face and the insertion of facial muscles into skin is reasoning across two chapters of the same book — the fascia chapter states the absence, the muscular chapter states the skin insertion — and neither states the connection.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Retitled from "Deep fascia" once the leaf was found to carry a superficial-fascia concept as well. The article already taught both layers in full — the department book defines them in one sentence and the Kasr past-question summary asks them as a comparison — so the title was made to match what the article does, rather than a second article being written for a layer this one already covers.
 
@@ -2161,13 +2193,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-F33BB68138377B carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Definition: The observation that the site of fertilization explains the length of the first week's journey is this article's own reading of two facts the sources state separately — the ampullary site, and the arrival in the uterine cavity on day four.
 sections.Clinical significance: The connection drawn between the tubal site of fertilization and ectopic implantation is general embryological knowledge. The department book's first-week chapter carries no clinical statement; abnormal sites of implantation are covered in its next chapter and in the past-question summary, and neither makes this connection in these words.
 sections.Clinical significance: The remark that a sperm must be capacitated before it can fertilise in vitro is general knowledge, added to give the seven-hour figure a use. No Kasr source mentions in-vitro fertilisation.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The three Kasr sources agree in wording as well as in content on this chapter, to the point of using the same phase numbering and the same two counts. The article follows the department book's order throughout and records the single wording difference in conflicts.
 
@@ -2370,12 +2405,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Neither concept on this leaf carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unresolved praevia grading in conflicts is a second reason.
 sections.Mechanism: The explanation that the chorion frondosum thrives because it faces the well vascularised decidua basalis while the laeve degenerates under the capsularis is general embryological reasoning. Every Kasr source states which part faces which decidua and which fate each meets, and none states the causal link between them.
 sections.Mechanism: The paragraph deriving each anomaly group from the corresponding feature of the normal placenta is this article's own organising device. The six groups and the normal figures are both the department book's; pairing them is not.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 One article for two concepts, because the department teaches them on one leaf and the second is unintelligible without the first: the anomalies of the placenta are anomalies of an organ whose fetal half is the chorion frondosum this article has just built. The unresolved grading of placenta praevia is the most consequential open question on the leaf and is recorded in conflicts rather than settled here.
 
@@ -2605,12 +2643,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The device of sorting the three spaces by which side of the long head of triceps each lies on is this article's own, written to make the boundaries derivable rather than memorised. The boundaries themselves are the department book's.
 sections.Mechanism: The remark that the axillary and radial nerves are two branches of the same posterior cord that separate at teres major draws together the Axilla chapter and the Shoulder Region chapter of the same book. Neither chapter makes the point.
 sections.Clinical significance: Grouping deltoid paralysis beside the two rotator paralyses for contrast is this article's arrangement; the three statements are separately the book's own.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Four concepts on one leaf, written as one article because they share the same muscles and the same figures. A student who has learnt the boundaries of the three spaces has already learnt teres major, teres minor, subscapularis and the two heads of triceps; the abduction question then adds only trapezius and serratus anterior; and deltoid is both the muscle that bounds nothing and the muscle that carries the middle range, so it belongs beside both.
 
@@ -2760,11 +2801,14 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The argument that immobility follows from the material rather than from the shape is this article's own, written to make the class definition mean something. The book states the tissue and the immobility side by side and does not connect them.
 sections.Clinical significance: The remark that a mobile tooth means a diseased periodontal ligament is general clinical reasoning from the book's own statement that the ligament is the tooth's attachment. It is not in any Kasr source.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate article rather than folded into ART-101-ANA-CARTILAGINOUS-JOINTS, which is a focused piece about the second class and does not teach this one — it names the three fibrous types in a single clause of its Definition, as the boundary of its own subject, which is not teaching them. Two short articles on one leaf is the honest arrangement here.
 
@@ -2928,12 +2972,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-89FC3BBB3C9BCE carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The final paragraph, explaining why each abnormal site fails, is reasoning built from facts the sources state separately — that the lower segment is where praevia sits, that the tube is expected to rupture, and that the syncytiotrophoblast erodes. No Kasr source argues it.
 sections.Clinical significance: The contrast drawn between the two groups as two different kinds of clinical problem is this article's own framing. The book states the tubal rupture; it says nothing about how either is managed, which is recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Placed on the First Week leaf because that is where the concept and the paper put it, while the material comes from the book's Second Week chapter. Both facts are recorded in conflicts so nobody later reads the mismatch as an extraction error.
 
@@ -3112,12 +3159,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-3E918A4C74B56D carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The device of reading each anomaly as a fault at one of the three developmental stages is this article's own. The stages and the anomalies are both the department book's, listed in separate places; the book does not connect them.
 sections.Clinical significance: The remark that the umbilical vessels are protected only where Wharton's jelly surrounds them, and are therefore unprotected in a velamentous attachment, is general embryological reasoning from the book's own description of the cord's structure. No Kasr source states it.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as its own article rather than folded into ART-101-ANA-CHORIONIC-VILLI-PLACENTA, because the department book teaches the cord as a fetal membrane in its own right with its own development, contents and anomaly list, and the two anomalies the lists share are the only overlap. Both articles state that overlap rather than leaving it to be noticed.
 
@@ -3299,13 +3349,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unsourced fracture site recorded in evidence_gaps is a second reason.
 sections.Structure: The observation that the bone reverses its curvature at the junction of the medial two-thirds with the lateral third, and that the conoid tubercle sits at that same junction, puts together two statements the source makes separately. Neither source says the two coincide.
 sections.Development: The remark that a bone ossifying in membrane has no cartilaginous model, and that this is consistent with the lateral third having no medullary cavity, is general osteological reasoning. The source lists the four differences without connecting them.
 sections.Relations: The inference that the brachial plexus lies immediately behind the middle of the clavicle rests on the department book's description of the cervico-axillary canal. No source states the relation as a relation of the clavicle, and the limit of what is claimed here is the canal's own boundaries and contents.
 sections.Surface and imaging anatomy: The manoeuvre of following the bone with a finger to find where the convexity reverses is general clinical practice, offered as a way of locating a point the sources do describe.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written from the osteology of the bone outwards to the case, because the case's three parts — where it breaks, why the shoulder drops, what is behind it — are three different chapters of the same corpus. The one thing the sources do not supply is the fracture site itself, which is recorded as a gap rather than asserted.
 
@@ -3486,12 +3539,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Definition: The description of this joint as the only bony link between the upper limb and the axial skeleton is general anatomical knowledge. No Kasr source says it, although every fact used to reach it is theirs.
 sections.Mechanism: The argument that the disc and the ligaments together compensate for articular surfaces that do not interlock is this article's own reading. The sources state the modified saddle type, the disc's two functions and the source of the joint's stability, and do not join them.
 sections.Mechanism: The observation that the interclavicular ligament reinforces the joint where the capsule is thin is reasoning from two of the book's own statements, which the book makes in separate sentences.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate article on the Joints of Upper Limb leaf rather than as a section of ART-101-ANA-ELBOW-JOINT, which is a complete and focused piece about a different joint and does not mention this one. The two are peers on one leaf and each teaches the joint it is named for.
 
@@ -3694,12 +3750,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Blood supply, innervation and lymphatics: The observation that every group of the elbow anastomosis pairs a descending branch with a recurrent branch is this article's own reading of the book's four-group list. The book gives the pairs and does not name the pattern.
 sections.Clinical correlations: The three consequences drawn there — that a superficial artery can be felt, punctured and cut; that it can be compressed against the humerus; and that the elbow anastomosis is a ready-made bypass — are reasoning from the sources' own anatomical statements. None of the three is stated in any Kasr source, and the corpus contains no clinical material on this artery at all.
 sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers limb angiogenesis.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The three facts this article exists to protect are two levels and a count: the artery begins at the lower border of teres major, it ends one centimetre below the elbow joint at the neck of the radius, and its branches are six groups. All three are places where a nearly-right answer is marked wrong.
 
@@ -3880,12 +3939,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanation that displacing the head from the shoulder stretches the upper roots while abducting the arm stretches the lower ones is anatomical reasoning added to make the two mechanisms memorable. The book states each mechanism and does not explain why it selects the trunk it does.
 sections.Mechanism: The derivation of each component of the porter's tip posture from a named paralysis with a named unopposed antagonist follows the book's own wording for the posture, but the muscles doing the opposing are supplied from the book's muscle chapters rather than from its account of the injury.
 sections.Clinical significance: The observation that a claw hand without trauma should send the examiner to the root of the neck is clinical reasoning from the book's own two non-traumatic causes. The book lists the causes and draws no such conclusion.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Two concepts, one article, because the department book teaches them as a pair in one chapter and because each is most easily learnt as the opposite of the other. The article is built on that symmetry: same five headings for each, and a misconceptions section that names the confusions the symmetry invites.
 
@@ -4110,13 +4172,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The account of why a retinaculum exists — that an unrestrained tendon would bowstring away from the wrist — is general anatomical reasoning. No Kasr source gives a reason; they state that the retinaculum keeps the tendons in position.
 sections.Mechanism: The argument that the axis passing through the radius at one end and the ulna at the other is why only the radius swings is this article's own. The sources state the axis and state that the radius swings, and do not connect them.
 sections.Mechanism: The remark that the radial tuberosity faces medially in pronation, so contracting biceps unwinds the radius, is general anatomical reasoning added to make the biceps qualification derivable. The sources state that biceps supinates the flexed elbow and give no mechanism.
 sections.Clinical significance: The reading of failed supination and failed pronation as localising tests is reasoning across the nerve injury chapter and this one. Both losses are the book's own statements; using them as tests is not.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Two concepts, one article, because both are about the two forearm bones and because the retinaculum's fourth compartment carries the nerve that supplies the supinator. Where the department book is thinner than the concept — the five septa, Lister's tubercle, the anterior border of the radius — the fuller source is named in conflicts rather than being quietly promoted to the department's own word.
 
@@ -4314,12 +4379,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanation that the supraclavicular and intercostobrachial territories are skin the limb bud never took over is general embryological knowledge, added to make an otherwise arbitrary map memorable. No Kasr source offers any explanation of the map's pattern.
 sections.Mechanism: The rule stated for the arm — back from the radial, medial from the chest wall above and the medial cord below, lateral from cervical plexus, axillary and radial in that order downwards — is this article's own summary of the book's six separate statements.
 sections.Clinical significance: The remark about axillary clearance leaving the medial upper arm numb is general clinical knowledge. The book states the intercostobrachial nerve's territory and names it as a content of the axilla, and does not connect the two.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a new article rather than declared on ART-101-ANA-RADIAL-NERVE, which teaches the radial nerve's own three cutaneous branches thoroughly and teaches none of the other seven. Three of the strips here belong to that article's nerve and are cross-referenced to it; the other territories — supraclavicular, intercostobrachial, medial cord, axillary, musculocutaneous, median and ulnar — have no other home in the batch.
 
@@ -4527,12 +4595,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Relations: Reading each relation as a site of injury is this article's own organising device. Every relation and every cause is the department book's; the correspondence between them is drawn here.
 sections.Clinical correlations: The final paragraph, on what abduction survives an axillary lesion, assembles the department book's three stated ranges from three different chapters. The book gives the ranges and gives the injury, and does not put them together.
 sections.Development: The section states the department book's general somite and ventral-ramus rule and says in its own text that the book does not derive a peripheral nerve, exactly as ART-101-ANA-RADIAL-NERVE does for the same reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate article rather than by extending ART-101-ANA-RADIAL-NERVE into a general nerve-injuries article. The orientation sheet names the axillary nerve in its own right and demands the same seven-part answer it demands for the radial nerve — origin, root value, end, course, branches, areas supplied, effect of injury — so the honest shape is a peer article to that one, built to the same specification. Folding it into an article titled "The radial nerve" would have made that article's title false and would have buried a seven-mark answer inside another nerve's clinical section.
 
@@ -4715,12 +4786,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the absence of any stated effect of injury — which the orientation sheet demands — is a second reason.
 sections.Surface and imaging anatomy: The manoeuvre of resisted elbow flexion to raise the biceps tendon is general clinical practice, offered only as a way of finding a landmark the sources do state.
 sections.Clinical correlations: The section is explicitly built from what the corpus says about this nerve elsewhere, because the corpus states no injury of it. Both paragraphs assemble statements the department book makes in other chapters, and the assembly is this article's own.
 sections.Development: Stated as an absence with the book's general rule, exactly as ART-101-ANA-RADIAL-NERVE and ART-101-ANA-AXILLARY-NERVE do, because the same silence covers all three.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The orientation sheet asks this nerve for seven things and the department book supplies six. The seventh, the effect of injury, is missing from the corpus for this nerve alone among the six named ones, and the article states that rather than importing a lesion from a general textbook.
 
@@ -4947,13 +5021,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason, and the unsourced compression manoeuvre recorded in evidence_gaps is a second reason.
 sections.Clinical correlations: The explanation that the palmar cutaneous branch escapes a lesion inside the carpal tunnel because it leaves an inch above the wrist and runs superficial to the retinaculum is reasoning from two of the book's own statements. The book states the branch's course and states the two different sensory pictures, and does not connect them.
 sections.Clinical correlations: The mechanical account of why a higher ulnar lesion claws less follows the department book's own stated reason — that the medial half of flexor digitorum profundus is also paralysed — and expands it into the muscle-by-muscle argument given here.
 sections.Clinical correlations: The account of what a wrist laceration divides is assembled from the book's list of the five structures superficial to the flexor retinaculum, its account of the carpal tunnel, and the VIP Academy revision's account of the two forearm arteries at the wrist. No Kasr source describes the laceration itself, and the compression manoeuvre named in the concept is not stated here.
 sections.Blood supply, innervation and lymphatics: The claim that between them the two nerves supply every intrinsic muscle of the hand is an inference from the two branch lists, which together account for the thenar muscles, hypothenar muscles, all four lumbricals, all eight interossei and adductor pollicis. No Kasr source states it as a generalisation.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Three concepts, one article, because all three are answered from one cross-section at the wrist and because the two nerves are learnt as a pair — ape hand against claw hand, inside the tunnel against outside it. The wrist laceration is the case that makes the pairing matter, and it is also the concept the corpus supports least well: the anatomy is fully sourced and the first-aid manoeuvre is not, which is stated rather than papered over.
 
@@ -5145,12 +5222,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The organisation of the seven components into "free movement without wear" and "staying together" is this article's own, written to make a flat list derivable. The components and their descriptions are the book's.
 sections.Mechanism: The observation that the synovial membrane's exception for the articular surfaces is what makes an intra-capsular tendon intelligible joins two of the book's own statements, which the book makes separately.
 sections.Clinical significance: The naming of effusion, haemarthrosis and septic arthritis follows the book's own three words — fluid, blood or pus — but the clinical terms are general knowledge and the book names no disease. The inference that avascular cartilage does not repair, and that an insensitive surface cannot report damage, is likewise general and is not in any Kasr source.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate article on the Articular system leaf rather than as an extension of ART-101-ANA-CARTILAGINOUS-JOINTS, which is a focused piece about the second class and mentions this one only as a contrast. Three classes, three articles, each teaching the class it is named for.
 
@@ -5334,13 +5414,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-5E63C211DEEE00 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanation that the paraxial column segments because the structures it builds repeat, while the other two columns build unsegmented things, is this article's own reasoning. The book states what each column forms and does not say why one segments.
 sections.Clinical significance: The observation that the shared somite origin of a muscle and its overlying skin is what makes a dermatome map possible is general embryological reasoning from the book's own statement about the two primary rami.
 sections.Common misconceptions: The distinction between the two senses of "dermatome" is drawn here because both senses appear in this module — the somite sense in this chapter and the segmental sense in the upper limb's nerve supply chapter. Neither Kasr source flags the ambiguity.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Placed on the Third Week leaf because that is where the concept and the paper put it, while the material comes from the book's Embryonic Period chapter. Both facts are recorded in conflicts so the mismatch is not later read as an extraction error.
 
@@ -5524,13 +5607,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-F356C3B8CFD31E carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The paragraphs explaining why each group of functions belongs to its stage — incompressibility, heat capacity, room to move — are general physical and physiological reasoning added to make a grouped list derivable. The book states the functions and the grouping and gives no reasons.
 sections.Clinical significance: The reading of polyhydramnios as a failure to swallow and oligohydramnios as a failure to make or pass urine is this article's own. Every cause named is the book's; the balance they are arranged around is not.
 sections.Common misconceptions: The observation that the fore bag is the part of the sac below the presenting part is general obstetric knowledge; the sources name the fore bag and its function without defining it.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as its own article on the Fetal Membranes leaf rather than folded into the cord or the placenta, because the department book treats the amnion and its fluid as one of the five fetal membranes with its own development, sources, three-part function list and two disorders. The three-part grouping is the article's organising spine, because it is also the mark scheme's.
 
@@ -5710,11 +5796,14 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The account of the fossa as a gap between two diverging muscles, and of the contents as whatever passes between arm and forearm, is this article's own reasoning. The boundaries and contents are the sources'; the derivation is not.
 sections.Clinical significance: The statements about venepuncture, blood pressure auscultation and palpation of the supratrochlear node are general clinical knowledge. Every anatomical fact they rest on is in the sources, and no Kasr source states any of the three procedures.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Placed on the Arm leaf because that is where the concept sits, although the department book describes the fossa at the start of its Forearm chapter. The article is built around the two things the question actually marks: the medial-to-lateral order of the contents, and the bicipital aponeurosis in the roof.
 
@@ -5906,12 +5995,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The explanation that the division stage separates flexor from extensor nerves because the two muscle groups develop on the two surfaces of the limb bud is general embryological knowledge, added to make the department book's flexor-extensor rule derivable rather than arbitrary. The rule itself is the book's.
 sections.Mechanism: The observation that the stage a branch arises from determines how many root values it carries is this article's own reasoning from the plexus's construction. No Kasr source states it.
 sections.Clinical significance: The generalisation that a root or trunk lesion affects muscles reached through several named nerves while a cord or branch lesion does not is this article's own, drawn from the book's own accounts of Erb's palsy and of the individual nerve injuries.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate article on the Axilla leaf rather than folded into ART-101-ANA-AXILLA-BREAST, which teaches the axilla as a space and its lymphatic drainage and names the cords only as contents. The plexus is a seven-mark question in its own right on the orientation sheet and needs the four-stage answer set out in full.
 
@@ -6103,12 +6195,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Clinical correlations: Both consequences drawn there — that a wrist laceration divides artery and nerve together, and that the elbow anastomosis is a collateral route — are reasoning from the sources' own anatomical statements. The corpus contains no clinical material on this artery, which is recorded in evidence_gaps.
 sections.Blood supply, innervation and lymphatics: The section describes what the artery supplies rather than what supplies it, because no Kasr source gives the vessel's own vasa vasorum or innervation. The absence is stated in the section's own text.
 sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers limb angiogenesis.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The two facts the article is built to protect are a position and a branching pattern: the artery is superficial to the flexor retinaculum, and the interosseous arteries are grandchildren of the ulnar rather than children. Both are places where a nearly-right answer is marked wrong.
 
@@ -6355,13 +6450,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The reading of the joint's three weaknesses against the Articular System chapter's four factors of stability is this article's own. Both lists are the department book's, in two different chapters, and the book does not put them side by side.
 sections.Mechanism: The conclusion that the unsupported direction is the direction of dislocation is drawn from the book's own statements that there is no muscular support below and that the axillary nerve, which lies below the joint, is injured in dislocation. The book does not name a direction of dislocation, which is recorded in evidence_gaps.
 sections.Clinical significance: The remark that a bursa between a moving tendon and a bony arch is the interface across which abduction happens is general anatomical reasoning from the book's own description of the subacromial bursa.
 sections.Key determinants: The department book states the flexors, extensors, abductors and adductors of the shoulder joint as four lists in its Joints chapter, but gives no corresponding list for medial and lateral rotation. The two rotation lists above are assembled from the individual actions the same book states for each muscle in its Pectoral Region, Muscles of the Back and Shoulder Region chapters — pectoralis major, teres major, latissimus dorsi, subscapularis and the anterior fibres of deltoid as medial rotators, infraspinatus, teres minor and the posterior fibres of deltoid as lateral rotators. Every muscle named is the book's own; the grouping into two rotation lists is this article's.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a peer to ART-101-ANA-ELBOW-JOINT on the Joints of Upper Limb leaf, and deliberately organised around the department book's own three reasons for instability rather than around a list of parts, because that is the question the paper asks and every other fact about the joint is an answer to it.
 
@@ -6543,11 +6641,14 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The general account of what an arterial anastomosis is for, and the derivation of the bypassed segment from the two ends of the axillary artery, is this article's own reasoning. The department book lists the vessels and names the trunks and does not state the purpose.
 sections.Clinical significance: The statement that a block or ligature of the axillary artery between the first rib and teres major can be bypassed by this network is an inference from the book's own list of parent trunks. No Kasr source states it, which is recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate short article on the Shoulder Region leaf rather than folded into the muscles article, because the concept is about arteries and their parentage and because the department book teaches all three shoulder-region anastomoses together in the Axilla chapter. The two companion networks are taught here as well, since an examiner asking one can ask any.
 
@@ -6722,14 +6823,17 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-DEV-1BCF37C48AF307 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 sections.Mechanism: The framing of the four steps as "solid, then hollow, then solid again" is this article's own device for making the sequence memorable. The four steps are the department book's, described in its own terms.
 sections.Mechanism: The explanation that the prenotochordal process stops at the bucco-pharyngeal membrane because ectoderm and endoderm are fused there joins two of the book's own statements — the cranial limit of the process, and the regions where intra-embryonic mesoderm is absent — which the book makes in separate paragraphs.
 sections.Mechanism: The reasoning that a firm rod has no further use once the column has formed around it is this article's own; the book states the fate without explaining it.
 sections.Clinical significance: The section is short because the corpus gives no clinical material on the notochord, and it says so in its own text rather than importing a lesion from a general textbook.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as a separate short article on the Third Week leaf rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the notochord and the somites are two different derivatives of gastrulation asked as two different questions, and because the notochord's four steps are a self-contained six-mark answer. The two articles cross-reference each other at the point where they meet: the sclerotome surrounding the notochord.
 
@@ -7017,8 +7121,8 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: The 24 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 secondaryNodeIds: The five concepts on this leaf carry SYS-MSK-T03-S02-M03 (Trauma and orthopedics > Soft-tissue injury > Muscle) or SYS-MSK-T01-S01-M03 (Regional anatomy > Upper limb > Elbow) as their secondary placement. The second of those is the upper-limb leaf the sibling articles use as a general tag, but this article is not about the elbow, so Shoulder (SYS-MSK-T01-S01-M01) and Back (SYS-MSK-T01-S03-M02) are used instead alongside the muscle node. The canonical taxonomy is a clinical one and has no node for a regional muscle group.
 sections.Structure: The observation that the three attachments of trapezius make a U opening medially because a long vertical origin converges on a short horizontal insertion is this article's own reading. The book gives the three attachments and calls the insertion U-shaped without explaining the shape.
@@ -7028,6 +7132,9 @@ sections.Blood supply, innervation and lymphatics: The statement that trapezius 
 sections.Clinical correlations: The mechanism offered for shoulder drop — that trapezius suspends the girdle from the skull and spines, so the girdle sags without it — is reasoning from the book's own attachments. The book states the deformity and not the mechanism. The statement that the spinal accessory nerve is superficial in the posterior triangle of the neck and can be cut there is general anatomy: no Kasr source in the extracted corpus describes the nerve's course, and it is recorded in evidence_gaps.
 sections.Clinical correlations: The account of a lumbar hernia as abdominal contents pushing through a gap whose floor is only internal oblique and transversus abdominis is inference from the book's stated boundaries. The book states only that the triangle might be a site of hernia.
 sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of these muscles.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as one article for the whole leaf rather than one per muscle, because the department book teaches the five as a set in two layers and because four of the five concepts on this leaf cut across muscles rather than down them — the nerve supply concept, the scapular border concept and the triangle concept each need three or four of the muscles at once.
 
@@ -7292,8 +7399,8 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: The 8 multiple-choice questions on this leaf already name this article in their own `library_ids`, so the reciprocal link is written from the question side and is not duplicated here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 secondaryNodeIds: The canonical taxonomy has no node for the peripheral veins and none for the lymph drainage of a limb — its cardiovascular branch stops at cardiac anatomy and its lymphoreticular branch is entirely disease. SYS-CVS-T01-S01 and SYS-MSK-T01-S01-M03 are the placements the sibling vessel articles use, and the second is defensible here because the median cubital vein and the supratrochlear nodes are both at the elbow. The absence of a better node is a fact about the taxonomy, not about this article.
 sections.Overview and position: The observation that the two great veins are simply the two ends of the dorsal venous network is this article's own device for holding the chapter together. The book gives the network and the two origins in separate sentences and draws no such conclusion.
@@ -7304,6 +7411,9 @@ sections.Clinical correlations: The account of infection tracking along the supe
 sections.Clinical correlations: The reasoning that the bicipital aponeurosis is what makes the median cubital vein safe, and that without it the same needle track would reach artery and nerve, joins the book's anatomical relation to its own clinical remark. The book states both facts and not the link between them.
 sections.Development: Left as a statement of absence rather than filled from general embryology, because no Kasr source covers the development of the limb veins.
 sections.Surface and imaging anatomy: The statement that the dorsal venous network is where a cannula usually goes in practice is general clinical knowledge, not a Kasr statement, and is recorded in evidence_gaps as a place the corpus is silent.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written for the whole leaf, veins and lymphatics together, because the department book's chapter 8 carries both under a title that names only the veins and the subject tree offers no other home for the lymph drainage. Eight of the module's multiple-choice questions point at this leaf and two of them are lymph-drainage questions, so an article that stopped at the veins would have left them untaught while still appearing to cover them.
 
@@ -7499,15 +7609,18 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: The thirteen questions filed on this leaf are authored in scripts/kasr/seeds/mcq/gametes.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Neither CON-DEV-0BA870DF2C2E13 nor CON-DEV-623698E111AA4B carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-relatedConcepts: Two concepts are declared, and both are taught above — the gamete morphology and the two haploid nuclei in Mechanism and Key determinants, the two gametogenesis schedules in Definition and Key determinants. Two further concepts are reached by questions filed on this leaf and are deliberately not declared here, because each is taught in full in another article and declaring it twice would make a coverage check read as taught what this article only mentions. CON-DEV-F33BB68138377B, the site, mechanism and results of fertilization, is taught by ART-101-ANA-FERTILIZATION and carries five of this leaf's questions; this article names the gamete-side facts those questions turn on and links to it. CON-FND-0FAE59E00B748E, cilium origin and ultrastructure, is taught by the histology article on polarity and membranous specializations and carries two; this article states the flagellum-against-cilium distinction and names where the axoneme is described.
+relatedConceptIds: Two concepts are declared, and both are taught above — the gamete morphology and the two haploid nuclei in Mechanism and Key determinants, the two gametogenesis schedules in Definition and Key determinants. Two further concepts are reached by questions filed on this leaf and are deliberately not declared here, because each is taught in full in another article and declaring it twice would make a coverage check read as taught what this article only mentions. CON-DEV-F33BB68138377B, the site, mechanism and results of fertilization, is taught by ART-101-ANA-FERTILIZATION and carries five of this leaf's questions; this article names the gamete-side facts those questions turn on and links to it. CON-FND-0FAE59E00B748E, cilium origin and ultrastructure, is taught by the histology article on polarity and membranous specializations and carries two; this article states the flagellum-against-cilium distinction and names where the axoneme is described.
 sections.Mechanism: The pairing of hyaluronidase with the hyaluronic acid of the corona radiata — "the sperm carries the solvent for the cement" — is this article's own way of joining two of the book's own statements, made a chapter apart. Neither statement is altered.
 sections.Mechanism: The comparison of the ovum's 120 microns with the sperm's 55, and the remark that the ovum is the largest cell in the body, is arithmetic on the book's two figures plus general knowledge. The book states neither comparison.
 sections.Clinical significance: The section is short because the corpus gives this chapter no clinical material at all, and it says so in its own text rather than importing a fertility topic from a general textbook.
 sections.Common misconceptions: Each misconception is drawn from a distractor that a question book actually prints on this leaf, not from a general list of student errors.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as one article for the whole Gametes leaf rather than split into a sperm article and an ovum article, because the department chapter is two pages, the exam asks the two side by side, and the two schedules of gametogenesis belong to neither gamete alone. The chapter is the shortest in the Anatomy part after the Fetal Period, and the article is longer than the chapter because the chapter is a list of names and the marks are lost in the order and the pairing of those names rather than in their recall.
 
@@ -7718,15 +7831,18 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: The three questions filed on this leaf are authored in scripts/kasr/seeds/mcq/embryonic-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Neither CON-DEV-8F17D9869A6D15 nor CON-DEV-3AB7E19B99F387 carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-relatedConcepts: Two concepts are declared and both are taught above — the craniocaudal direction of segmentation and the six regional counts in Mechanism and Key determinants, the somite-period dates and the age formula worked through in Mechanism and Key determinants. Concept CON-DEV-5E63C211DEEE00, on what a single somite differentiates into, and CON-DEV-72D21476F03993 and CON-DEV-44A219B862FFD5, on folding, also belong to this chapter of the book but are declared on ART-101-ANA-PARAXIAL-MESODERM and ART-101-ANA-EMBRYONIC-FOLDING, which teach them in full. They are cross-referenced here rather than claimed, so a coverage check does not read as taught what this article only mentions.
+relatedConceptIds: Two concepts are declared and both are taught above — the craniocaudal direction of segmentation and the six regional counts in Mechanism and Key determinants, the somite-period dates and the age formula worked through in Mechanism and Key determinants. Concept CON-DEV-5E63C211DEEE00, on what a single somite differentiates into, and CON-DEV-72D21476F03993 and CON-DEV-44A219B862FFD5, on folding, also belong to this chapter of the book but are declared on ART-101-ANA-PARAXIAL-MESODERM and ART-101-ANA-EMBRYONIC-FOLDING, which teach them in full. They are cross-referenced here rather than claimed, so a coverage check does not read as taught what this article only mentions.
 sections.Key determinants: The observation that the six regional counts sum to 42-44 is arithmetic on the book's own two statements — the regional list and the day-40 total — and is offered as a check rather than as a separate fact. The book states both figures and does not connect them.
 sections.Mechanism: The reading of why the formula subtracts one — that the first pair marks day 20 itself — is this article's own explanation of the book's arithmetic. The formula is the book's, printed on Anatomy page 88.
 sections.Definition: The identification of the digestive tract's two ectodermal ends as the stomodeum and the proctodeum, and their location at the bucco-pharyngeal and cloacal membranes, joins this chapter's derivative lists to the previous chapter's statement about where the disc has no mesoderm. Both statements are the book's; the connection between them is this article's.
 sections.Clinical significance: The argument that the embryonic period is the window in which an organ can fail to form is this article's own reasoning from the book's definition of the period as organogenesis. No Kasr source names a teratogen, a sensitive week or a malformation, and none is named here.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written as the leaf's own article rather than folded into ART-101-ANA-PARAXIAL-MESODERM, because the two teach different objectives from the same chapter: that article is what one somite becomes, this one is when somites appear, in what direction, and how many. A student can hold either without the other, and the question books ask them separately. The overlap is named in both directions in related_articles so that neither article reads as complete on the other's subject. The chapter's third subject, folding, has its own article already and is only dated here.
 
@@ -7950,17 +8066,20 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank. One of the four is a transcription request rather than an illustration request, because the missing asset is a table of numbers.
 questionIds: The four questions filed on this leaf are authored in scripts/kasr/seeds/mcq/fetal-period.ts and emitted to ../question/101-ISK-mcq.md, which names this article in its library_ids. The reciprocal link is written in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: None of the three concepts carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason. The weight figures make this article the one on this leaf most in need of a reviewer with the book open at page 106.
-relatedConcepts: All three concepts whose module subject path is 101 ISK > Anatomy > General Embryology > Fetal Period are declared, and each is taught above — the span of the period and its character in Definition, the three head proportions with their dates and measurements in Mechanism and Key determinants, and the full-term weight against the preterm rows in Key determinants and in `conflicts`. The third is the weakest of the three by evidence and is the only one whose supporting figure this article has not seen in the department book's own text.
+relatedConceptIds: All three concepts whose module subject path is 101 ISK > Anatomy > General Embryology > Fetal Period are declared, and each is taught above — the span of the period and its character in Definition, the three head proportions with their dates and measurements in Mechanism and Key determinants, and the full-term weight against the preterm rows in Key determinants and in `conflicts`. The third is the weakest of the three by evidence and is the only one whose supporting figure this article has not seen in the department book's own text.
 sections.Definition: The arithmetic converting the 9th week into the beginning of the 3rd month is this article's own, worked from the book's own dates. The book states the 9th week and does not do the conversion.
 sections.Definition: The identification of the fortnight between the 280-day and 266-day counts as the interval to ovulation joins this chapter's two durations to the Gametes chapter's statement that ovulation falls on the 14th day. Both statements are the book's; the connection is this article's.
 sections.Mechanism: The observation that the two schedules — the falling head proportion and the month-by-month external features — are one process seen twice is this article's own framing. The book gives them as two separate accounts.
 sections.Clinical significance: The account of why a due date is calculated from the last menstrual period in practice, and why a scan may disagree with it, is general obstetric knowledge and is not stated by any Kasr source. It is included because the book states both durations and states a preference between them, and it is named here rather than left to read as the department's own.
 sections.Clinical significance: The remark that a baby born early may be found with undescended testes follows from the book's statement that they descend just before birth. No Kasr source names cryptorchidism, and none is named here.
 sections.Key determinants: The preterm weights are quoted from the concept as drafted from the question books, not from a Kasr text this article has read. They are marked as such in `conflicts` and in `evidence_gaps`.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This is the shortest chapter in the Anatomy part of the department book — two pages, largely a table and a figure — and it is the one where the article most exceeds its source, because almost every mark on the leaf is lost to a number attached to the wrong month or the wrong measurement rather than to a fact not known. The article is therefore organised as schedules rather than as narrative, and every fraction is written with its date and its measurement attached.
 The one thing this article cannot do is read the department book's Table 1, which the extraction holds as an image. Every weight and every length in the chapter comes from that table, so a legible transcription of it is written as the first and only required non-illustration media request on this leaf, and the disagreement it would settle is recorded in `conflicts` rather than resolved silently.

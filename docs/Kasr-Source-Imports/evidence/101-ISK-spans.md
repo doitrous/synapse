@@ -1,9 +1,9 @@
 <!--
   Article evidence spans for 101 ISK.
 
-  254 spans over 73 articles (of 42
-  carrying at least one), from 254 of 3269 article-section sentences
-  (7.8%) that matched a
+  266 spans over 75 articles (of 44
+  carrying at least one), from 266 of 3453 article-section sentences
+  (7.7%) that matched a
   cited claim on at least 50% of that claim's distinctive vocabulary.
 
   A claim is eligible only if its concept is in the article's own `related_concepts` and it
@@ -1535,6 +1535,198 @@ The disc is white fibrocartilage; the nucleus pulposus is its soft centre and th
 CLM-89D917AC93DC
 ## citation_ids
 CIT-B07F99AA2C40
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-01
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-overview-and-position
+## text
+All three lie under cover of trapezius, all three run from the cervical or upper thoracic spines downwards and laterally to the medial border of the scapula, and all three take the same nerve.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-02
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-structure
+## text
+Its origins are five: by fleshy fibres from the spines of the lower six thoracic vertebrae, under cover of trapezius; from the thoracolumbar fascia; from the posterior third of the outer lip of the iliac crest; from the outer surface of the lower four ribs; and by a few fibres from the dorsal aspect of the inferior angle of the scapula.
+## claim_ids
+CLM-59C10CF80DB6
+## citation_ids
+CIT-5FD7AF0DB56E
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-03
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-relations
+## text
+Following the upper border of latissimus dorsi laterally: it lies first *behind* teres major, then curves *below* it, and at the insertion lies *in front* of it.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-04
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-relations
+## text
+The upper border of latissimus dorsi also crosses over the inferior angle of the scapula on its way laterally, which is why a few of its fibres arise from that angle.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-05
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-relations
+## text
+**The triangle of auscultation** lies on the back, medial to the lower part of the scapula.
+## claim_ids
+CLM-646BCF4DCF0C
+## citation_ids
+CIT-AC6833871747
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-06
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-relations
+## text
+It is bounded above by the lateral border of trapezius, below by the upper border of latissimus dorsi, and laterally by the lower part of the medial border of the scapula.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-07
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-relations
+## text
+It is bounded below by the iliac crest, medially by the lateral border of latissimus dorsi, and laterally by the posterior border of external abdominal oblique.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-MUSCLES-OF-THE-08
+## article_id
+ART-101-ANA-MUSCLES-OF-THE-BACK
+## section_id
+art-101-ana-muscles-of-the-back-clinical-correlations
+## text
+The triangle is a gap in the muscular wall bounded by bone below, latissimus dorsi medially and external oblique laterally, with only internal oblique and transversus abdominis in its floor — a weak spot in the abdominal wall, and abdominal contents can push through it as a lumbar hernia.
+## claim_ids
+CLM-2C7852546CAC
+## citation_ids
+CIT-509841E63360
+
+---
+
+# Item
+## id
+SPN-ANA-VEINS-OF-UPPER-01
+## article_id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## section_id
+art-101-ana-veins-of-upper-limb-overview-and-position
+## text
+The deep veins accompany the arteries as venae comitantes, two to each main artery, as far as the brachial artery; above that the limb has a single trunk, the axillary vein.
+## claim_ids
+CLM-133E08E37CE5
+## citation_ids
+CIT-AF95BA90661E
+
+---
+
+# Item
+## id
+SPN-ANA-VEINS-OF-UPPER-02
+## article_id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## section_id
+art-101-ana-veins-of-upper-limb-relations
+## text
+**The median cubital vein and the bicipital aponeurosis.** The median cubital vein crosses the cubital fossa superficial to the bicipital aponeurosis, and that sheet of fibrous tissue separates the vein from the brachial artery and the median nerve lying deep to it.
+## claim_ids
+CLM-FC78B55F71B5
+## citation_ids
+CIT-E0FC07ECAFAE
+
+---
+
+# Item
+## id
+SPN-ANA-VEINS-OF-UPPER-03
+## article_id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## section_id
+art-101-ana-veins-of-upper-limb-clinical-correlations
+## text
+**Venepuncture and intravenous injection at the median cubital vein.** The book states plainly that the median cubital vein is used for intravenous injection, and everything the anatomy contributes says why: it is large, it is the most prominent superficial vein in the body, it lies in the superficial fascia where a needle reaches it at once, and the bicipital aponeurosis lies between it and the brachial artery and the median nerve.
+## claim_ids
+CLM-FC78B55F71B5
+## citation_ids
+CIT-E0FC07ECAFAE
+
+---
+
+# Item
+## id
+SPN-ANA-VEINS-OF-UPPER-04
+## article_id
+ART-101-ANA-VEINS-OF-UPPER-LIMB
+## section_id
+art-101-ana-veins-of-upper-limb-clinical-correlations
+## text
+That description is the basilic vein and nothing else: it is the only superficial vein of the limb that pierces the deep fascia in the arm and runs on to join the venae comitantes of the brachial artery.
+## claim_ids
+CLM-133E08E37CE5
+## citation_ids
+CIT-AF95BA90661E
 
 ---
 

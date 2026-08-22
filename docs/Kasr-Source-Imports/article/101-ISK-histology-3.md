@@ -245,10 +245,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: None of the four concepts this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CYTOPLASMIC-ORGANELLES, which teaches the same book chapter but stops at the lysosome and the peroxisome. The two overlap in one place on purpose: this article states that lysosomal enzymes are made in rER and leave the Golgi inside lysosomes, because that sentence is the end of the route this article describes and the beginning of that one. If the two are merged later, the merge point is there.
 The section headings follow the book's own table columns — site, LM, EM, function — rather than one heading per organelle, because that is the axis the paper asks along.
@@ -471,10 +474,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Neither concept this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CYTOPLASMIC-ORGANELLES. The centriole, the cilium, the flagellum, the microvillus and the stereocilium are all built by the two filament systems described here, but they are taught in ART-101-HIS-MEMBRANOUS-SPECIALISATIONS and are cross-referred rather than repeated, so that the microtubule counts live in exactly one article.
 The Mechanism section reads the two filament systems against each other — hold a shape and move along a line, against change a shape and pinch off — which is this article's reading of the book's two function lists rather than a comparison the book itself draws. It is written as a reading for that reason.
@@ -713,10 +719,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every plate this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: None of the four concepts this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CONNECTIVE-TISSUE-CELLS, which teaches the same chapter but is built around the mast cell. The deliberate overlap is in two places. First, the resident-against-transient classification, which is restated here because every table in this article has origin as its first column and the classification is what that column means. Second, the plasma cell against mast cell comparison, which is one of the chapter's five printed tables: the mast cell half is taught there, the plasma cell half here, and a student answering that table needs both. If the two articles are merged, those are the seams.
 The four cells here plus the mast cell there account for five of the chapter's seven resident cells. The undifferentiated mesenchymal cell, the pericyte and the reticular cell are described in neither article at length, and no concept currently sits on them.
