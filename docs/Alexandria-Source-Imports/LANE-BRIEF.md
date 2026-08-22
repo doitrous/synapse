@@ -304,8 +304,9 @@ copy from this list. Placement law for subjects with no obvious home:
   typo will never be caught by a tool. Placement *is* checked and refused.
 - "Live state" for simulate is `server/data/medical-library-v1.json` (regenerated 2026-08-12),
   not the database.
-- CI runs no content gate on a PR that touches only Alexandria files until `content.yml`'s
-  paths are widened — run every gate locally and paste the output in your report.
+- CI now runs every content gate on Alexandria files (`9dba8ca`: `content.yml` triggers on
+  `docs/*-Source-Imports/**` and `scripts/alexandria/**`, and walks every university's batch
+  directory). Still run every gate locally and paste the output — CI is the second check.
 
 ## 16 · Mint freeze FULLY LIFTED (chief of staff, after P0-D) — the four laws
 
