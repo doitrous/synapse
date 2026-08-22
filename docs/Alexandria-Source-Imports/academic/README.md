@@ -3,10 +3,21 @@
 This folder holds the academic-structure import batch for Alexandria University (`au`) and
 the source material behind it.
 
+**Module id scheme, ruled 2026-08-22 (chief of staff, evening):** module ids are global bare
+strings in this codebase — `withModules()` (`src/data/universities.ts`) copies `moduleId`
+through unprefixed, and `bulkImport.ts` never checks a module id against which university it
+belongs to. A bare faculty code (`MED 102`) would therefore collide with any other
+university that prints the same code. Every Alexandria module id is now `AU-<CODE>`
+(uppercase, hyphens, no spaces — `AU-MED-102`, `AU-UNI-104`, `AU-E-304`); the
+faculty-printed code stays visible in the module *name* instead, as `"<CODE> — <title>"`
+(e.g. `"MED 102 — Foundation of Basic Medical Sciences & Medical Terminology"`). Everywhere
+below that shows a bare code (`MED 101`, `UNI 104`, `E 304`, …) is naming the faculty's own
+label — for cross-referencing the corpus and the bylaws — not the technical `module_id`.
+
 | File | What it is |
 |---|---|
 | `bylaws-2023-extract.md` | Page-cited extract of the Years 1–3 programme structure (module codes, titles, credit points, weeks, marks, sharing departments, assessment split) from the faculty's 2023 bylaws PDF. Evidence, not the batch. |
-| `au-modules.md` | The Academic setup import batch — 23 modules across `AU_Y1`–`AU_Y3`, in the same `# Item` / `## year` / `## term` / `## module` / `## module_id` shape as `docs/import-ready/academic/kau-modules.md`. |
+| `au-modules.md` | The Academic setup import batch — 23 modules across `AU_Y1`–`AU_Y3`, in the same `# Item` / `## year` / `## term` / `## module` / `## module_id` shape as `docs/import-ready/academic/kau-modules.md`. `module_id` is `AU-<CODE>` per the ruling above. |
 | `README.md` | This file. |
 
 The identical batch also ships at `docs/import-ready/academic/au-modules.md` (import-ready
@@ -40,8 +51,10 @@ documents the same exception. Instead:
   Both were ported into a throwaway Node script and run against `au-modules.md` in the
   scratchpad — every one of the 23 records parsed into a well-formed row with a non-empty
   `year`, `term`, `module`, and `module_id`, no row hit the `course`/`module_name` alias path
-  (the file already uses the canonical header), and none of the 23 `module_id`s collided
-  with each other or with any Kasr Al Ainy ID in `kau-modules.md`.
+  (the file already uses the canonical header), and none of the 23 `AU-<CODE>` `module_id`
+  values collided with each other or with any Kasr Al Ainy id in `kau-modules.md` (a
+  collision was already impossible against `kau-modules.md`'s bare codes once the `AU-`
+  prefix was added, but the check was rerun after the rename anyway).
   See the report at the end of this task for the exact command and output.
 - The in-app preview (`ImportWizard`'s "Full preview" and "Skipped rows" steps) is the
   remaining check and happens when Omar runs the import; nothing here substitutes for it.

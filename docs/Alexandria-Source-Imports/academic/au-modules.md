@@ -2,6 +2,18 @@
   Alexandria University modules — academic setup import batch, Years 1–3
   (AU_Y1, AU_Y2, AU_Y3). Target university: `au` (Alexandria University, short `AU`).
 
+  **Module IDs renamed 2026-08-22 (chief of staff ruling, evening).** `withModules()` in
+  `src/data/universities.ts` copies `moduleId` through unprefixed, and `bulkImport.ts` never
+  cross-checks a `module`/`module_id` value against which university it belongs to — module
+  ids are global bare strings across the whole runtime (`contentControl.ts:661`,
+  `blueprint.ts:84–87` read them the same way). A bare `MED 102` would therefore collide with
+  any other university that also prints a `MED 102` (Kasr Al Ainy doesn't, but nothing stops
+  a future one from doing so). Ruling, effective now: every Alexandria module id is
+  `AU-<CODE>` — uppercase, hyphens, no spaces — and the faculty-printed code stays visible in
+  the module *name* instead: `module` is now `"<CODE> — <title>"` (em dash), `module_id` is
+  `AU-<CODE-with-hyphens>`. This file was regenerated under that rule; the reconciliation
+  notes below are otherwise unchanged from the first pass.
+
   Columns, read from the importer (`src/pages/admin/AcademicImportPage.tsx` FIELDS,
   parsed by `src/components/admin/ImportWizard.tsx`'s `parseMarkdown` /
   `src/data/bulkImport.ts` conventions): `year` (required), `term` (optional, defaults to
@@ -12,16 +24,18 @@
   column in this importer — those live in a separate module-subject-tree import (see
   `docs/Kasr-Source-Imports/academic/104-cps-structure.md` for that shape), not this one.
 
-  IDs and names — the rule from `docs/Alexandria-Source-Imports/LANE-BRIEF.md` §1: the
-  module ID is the faculty's own label exactly as the corpus folder carries it
-  (`/Users/doitrous/Desktop/Alexandria University/y1|y2|y3/<CODE> - <name>`), and the module
-  name is the words after the dash in that same folder name. Neither is expanded,
-  translated, or corrected against the bylaws — the bylaws extract
-  (`bylaws-2023-extract.md`) is evidence for what the faculty's regulations say the course
-  is called, not a source to substitute into the batch.
+  IDs and names — the rule from `docs/Alexandria-Source-Imports/LANE-BRIEF.md` §1 (as
+  rewritten by the ruling above): the module id is `AU-<CODE>`, where `<CODE>` is the
+  faculty's own label exactly as the corpus folder carries it
+  (`/Users/doitrous/Desktop/Alexandria University/y1|y2|y3/<CODE> - <name>`), uppercased with
+  spaces turned to hyphens (`MED 102` → `AU-MED-102`); the module name is `"<CODE> —
+  <title>"`, where `<title>` is the words after the dash in that same folder name, verbatim.
+  Neither the code nor the title is expanded, translated, or corrected against the bylaws —
+  the bylaws extract (`bylaws-2023-extract.md`) is evidence for what the faculty's
+  regulations say the course is called, not a source to substitute into the batch.
 
-  Reconciliation against the bylaws (`bylaws-2023-extract.md` §3) — every disagreement found,
-  and which title the batch uses:
+  Reconciliation against the bylaws (`bylaws-2023-extract.md` §3) — every disagreement found
+  in the faculty-printed title, and which form the batch uses:
 
     * MED 102, 103, 105, 106, 202: bylaws print the joint course as two stacked rows joined
       by "+" (e.g. "Foundation of Basic Medical Sciences" + "Medical Terminology"); the
@@ -46,9 +60,9 @@
       needed above).
     * No module in years 1–3 has a code that disagrees between the bylaws and the corpus —
       every corpus folder code (`MED 1xx`/`MED 2xx`/`MED 3xx`, `UNI 1xx`/`UNI 3xx`, `E 3xx`)
-      matches a bylaws row with the space removed (bylaws print `MED101`; the corpus and
-      the university-identity table in LANE-BRIEF §1 both carry the spaced form `MED 101`,
-      which is what this batch uses, per the fixed identity value).
+      matches a bylaws row with the space removed (bylaws print `MED101`). The corpus form
+      (`MED 101`, spaced) is what appears in the module *name* prefix below; the technical
+      `module_id` is the ruling's `AU-MED-101` form, never the bare code.
 
   Terms — the bylaws state a semester per module for the entire Years 1–3 span (§3 of the
   extract: "Level I Semester 1/2", "Level II Semester 3/4", "Level III Semester 5/6"), so
@@ -78,9 +92,9 @@ Year 1
 ## term
 Term 1
 ## module
-Medical School Orientation
+MED 101 — Medical School Orientation
 ## module_id
-MED 101
+AU-MED-101
 
 ---
 
@@ -90,9 +104,9 @@ Year 1
 ## term
 Term 1
 ## module
-Foundation of Basic Medical Sciences & Medical Terminology
+MED 102 — Foundation of Basic Medical Sciences & Medical Terminology
 ## module_id
-MED 102
+AU-MED-102
 
 ---
 
@@ -102,9 +116,9 @@ Year 1
 ## term
 Term 1
 ## module
-Blood and Immune System & Medical Terminology
+MED 103 — Blood and Immune System & Medical Terminology
 ## module_id
-MED 103
+AU-MED-103
 
 ---
 
@@ -114,9 +128,9 @@ Year 1
 ## term
 Term 1
 ## module
-English
+UNI 104 — English
 ## module_id
-UNI 104
+AU-UNI-104
 
 ---
 
@@ -126,9 +140,9 @@ Year 1
 ## term
 Term 2
 ## module
-Musculoskeletal System & Communication and Basic Clinical Skills (1)
+MED 105 — Musculoskeletal System & Communication and Basic Clinical Skills (1)
 ## module_id
-MED 105
+AU-MED-105
 
 ---
 
@@ -138,9 +152,9 @@ Year 1
 ## term
 Term 2
 ## module
-Cardiorespiratory System & Communication and Basic Clinical Skills (2)
+MED 106 — Cardiorespiratory System & Communication and Basic Clinical Skills (2)
 ## module_id
-MED 106
+AU-MED-106
 
 ---
 
@@ -150,9 +164,9 @@ Year 1
 ## term
 Term 2
 ## module
-Social Issues
+UNI 107 — Social Issues
 ## module_id
-UNI 107
+AU-UNI-107
 
 ---
 
@@ -162,9 +176,9 @@ Year 2
 ## term
 Term 1
 ## module
-Endocrine and Genitourinary Systems & Communication and Basic Clinical Skills (3)
+MED 201 — Endocrine and Genitourinary Systems & Communication and Basic Clinical Skills (3)
 ## module_id
-MED 201
+AU-MED-201
 
 ---
 
@@ -174,9 +188,9 @@ Year 2
 ## term
 Term 1
 ## module
-Gastrointestinal System and Nutrition & Communication and Basic Clinical Skills (4)
+MED 202 — Gastrointestinal System and Nutrition & Communication and Basic Clinical Skills (4)
 ## module_id
-MED 202
+AU-MED-202
 
 ---
 
@@ -186,9 +200,9 @@ Year 2
 ## term
 Term 2
 ## module
-Nervous System & Professionalism, Medical Law and Ethics
+MED 203 — Nervous System & Professionalism, Medical Law and Ethics
 ## module_id
-MED 203
+AU-MED-203
 
 ---
 
@@ -198,9 +212,9 @@ Year 2
 ## term
 Term 2
 ## module
-Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics
+MED 204 — Concept of Health and Disease (1) & Professionalism, Medical Law and Ethics
 ## module_id
-MED 204
+AU-MED-204
 
 ---
 
@@ -210,9 +224,9 @@ Year 2
 ## term
 Term 2
 ## module
-Concept of Health and Disease (2) & Professionalism, Medical Law and Ethics
+MED 205 — Concept of Health and Disease (2) & Professionalism, Medical Law and Ethics
 ## module_id
-MED 205
+AU-MED-205
 
 ---
 
@@ -222,9 +236,9 @@ Year 3
 ## term
 Term 1
 ## module
-Infection 1
+MED 301 — Infection 1
 ## module_id
-MED 301
+AU-MED-301
 
 ---
 
@@ -234,9 +248,9 @@ Year 3
 ## term
 Term 1
 ## module
-Infection 2
+MED 302 — Infection 2
 ## module_id
-MED 302
+AU-MED-302
 
 ---
 
@@ -246,9 +260,9 @@ Year 3
 ## term
 Term 1
 ## module
-Concept of Health and Disease (3)
+MED 303 — Concept of Health and Disease (3)
 ## module_id
-MED 303
+AU-MED-303
 
 ---
 
@@ -258,9 +272,9 @@ Year 3
 ## term
 Term 1
 ## module
-Elective 1
+E 304 — Elective 1
 ## module_id
-E 304
+AU-E-304
 
 ---
 
@@ -270,9 +284,9 @@ Year 3
 ## term
 Term 2
 ## module
-Medicine
+MED 305 — Medicine
 ## module_id
-MED 305
+AU-MED-305
 
 ---
 
@@ -282,9 +296,9 @@ Year 3
 ## term
 Term 2
 ## module
-Elective 2
+E 306 — Elective 2
 ## module_id
-E 306
+AU-E-306
 
 ---
 
@@ -294,9 +308,9 @@ Year 3
 ## term
 Term 2
 ## module
-Investigative Medicine
+MED 307 — Investigative Medicine
 ## module_id
-MED 307
+AU-MED-307
 
 ---
 
@@ -306,9 +320,9 @@ Year 3
 ## term
 Term 2
 ## module
-Research
+MED 308 — Research
 ## module_id
-MED 308
+AU-MED-308
 
 ---
 
@@ -318,9 +332,9 @@ Year 3
 ## term
 Term 2
 ## module
-Surgery
+MED 309 — Surgery
 ## module_id
-MED 309
+AU-MED-309
 
 ---
 
@@ -330,9 +344,9 @@ Year 3
 ## term
 Term 2
 ## module
-Entrepreneurship
+UNI 310 — Entrepreneurship
 ## module_id
-UNI 310
+AU-UNI-310
 
 ---
 
@@ -342,6 +356,6 @@ Year 3
 ## term
 Term 2
 ## module
-Critical Thinking
+UNI 311 — Critical Thinking
 ## module_id
-UNI 311
+AU-UNI-311

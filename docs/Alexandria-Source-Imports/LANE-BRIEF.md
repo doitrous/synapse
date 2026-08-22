@@ -10,14 +10,15 @@ your consultant: when you are blocked, stop and report — never guess.
 |---|---|---|
 | University ID | `au` | `src/data/universities.ts:178` — `Alexandria University`, short `AU` |
 | Year IDs | `AU_Y1`, `AU_Y2`, `AU_Y3` | `buildYears('AU')` in the same file |
-| Module IDs | the faculty's own label, exactly: `MED 102`, `MED 103`, `MED 105`, `MED 106`, `MED 201` … `MED 205`, `MED 301` … `MED 309`, `UNI 104`, `UNI 107`, `UNI 310`, `UNI 311`, `E 304`, `E 306` | the corpus folder names, which carry the faculty codes. A module ID is unique across the whole university; never shorten to `102` |
+| Module IDs | `AU-<CODE>` — uppercase, hyphens, no spaces: `AU-MED-102`, `AU-MED-201`, `AU-UNI-104`, `AU-E-304`. **Ruled by the chief of staff 2026-08-22 evening**: module ids are global bare strings with no university cross-check in the importer, so a bare `MED 102` would collide with any other university printing the same code. The faculty-printed code (`MED 102`) stays in the module *name* and in aliases/`rawModuleShorthand`; it is never the id | ruling; `withModules()`, `bulkImport.ts`, `contentControl.ts:661`, `blueprint.ts:84–87` |
 | Module names | the words after the dash in the folder name, e.g. `Foundation of Basic Medical Sciences & Medical Terminology` | same. Do not expand, translate or "improve" them |
 | Corpus root | `/Users/doitrous/Desktop/Alexandria University/` (`y1/`, `y2/`, `y3/`, `General Resources/`) | read-only. **Never move, rename or delete a corpus file** — unlike Kasr, this tree is already organised |
 | Output root | `docs/Alexandria-Source-Imports/` | mirrors `docs/Kasr-Source-Imports/` folder for folder |
 | Tooling root | `scripts/alexandria/` | **not** `scripts/kasr/`, **not** `scripts/corpus-intake/` — see §4 |
 
-Every authored item carries `au`, its year ID, the exact module ID, and a `module_subject`
-path that resolves against `academic/`.
+Every authored item carries a **non-empty** `universities` (`au`), its year ID, the exact
+`AU-…` module ID, and a `module_subject` path that resolves against `academic/`. An empty
+`universities` list means *unrestricted* to the runtime — it is never acceptable here.
 
 ## 2 · Read order
 
@@ -56,9 +57,9 @@ path that resolves against `academic/`.
   /tmp/sim-AU-<scope>.json` (the gate) → `medical:audit -- --source …` filtered to your own
   IDs with a positive control. Use your own `/tmp/sim-AU-…` filename; the machine is shared.
 - **One lane, one output file.** Name every file `<MODULE-SLUG>-<subject>-<kind>.md`, one
-  (module, subject, kind) per file — `MED-102-anatomy-concepts.md`,
-  `MED-102-anatomy-articles.md`, `MED-102-eom-2023-mcq.md`. Claim it in `Instruction Manual
-  for Content Creation/CLAIMS.md` with scope `AU · <MODULE> · <subject> · <kind>` —
+  (module, subject, kind) per file — `AU-MED-102-anatomy-concepts.md`,
+  `AU-MED-102-anatomy-articles.md`, `AU-MED-102-eom-2023-mcq.md`. Claim it in `Instruction Manual
+  for Content Creation/CLAIMS.md` with scope `AU · <AU-MODULE-ID> · <subject> · <kind>` —
   **append at the bottom of the table**, never at the placeholder row. (Same grammar as the
   Helwan and Ain Shams lanes.)
 - **Hand edits to a generated batch die on the next rebuild.** If you generate, make the
@@ -188,7 +189,7 @@ writes a full new record over someone else's fields. So, before every mint:
 2. `grep -ril "<canonical_key>" docs/*-Source-Imports/concept/` — the Kasr, Ain Shams and
    Helwan pending batches, which find-existing does not see.
 3. A hit anywhere → an **update record**: `## id` + `## label` + only the fields you change
-   (`universities` with `+au`, `years` with `+AU_Y1`, `modules` with `+MED 102`,
+   (`universities` with `+au`, `years` with `+AU_Y1`, `modules` with `+AU-MED-102`,
    `university_notes` if Alexandria teaches it differently). Never a second full record.
 4. No hit → mint, and write the canonical key you minted into your report so the audit can
    check it against the next university's batch.
@@ -238,3 +239,48 @@ Ain Shams (`claude/busy-goldberg-ac3e9e`) is landing `withModules()` with an opt
 tuple element `term`. When that hash reaches main, the academic lane fills the third element
 for every AU module from `au-modules.md` (10 Term 1 / 13 Term 2). Nobody adds a parallel
 term mechanism, and nobody edits `withModules` here.
+
+## 12 · Mint freeze PARTIALLY lifted (chief of staff, after `fa72ec4` on main)
+
+`scripts/kasr/check-concept-ids.ts` now scans every `docs/*-Source-Imports/concept` batch, and
+`find-existing.mjs` already globs every university root. Run **`npm run medical:concept-ids`**
+before every hand-over. The key search (§10) is unchanged. Then:
+
+| Key search result | What you write |
+|---|---|
+| No hit anywhere | mint with `tools/mint-concept-id.mjs` — **allowed** |
+| Hit in **live** state | sparse update record (`+au`, `+AU_Yn`, `+AU-MED-xxx`) — **allowed** |
+| Hit only in **another lane's unimported batch** (Kasr/Ain Shams/Helwan `*-Source-Imports`) | write the record with that existing ID but **hold it** in `concept/<slug>-PENDING-LIVE.md`, outside any import root, until the orchestrator lifts this case |
+
+Replace every `<<PENDING-MINT>>` placeholder under these rules before validating.
+
+## 13 · Corpus facts from the gap ledger (`coverage/00-gap-ledger.md`)
+- **The `[from Alexandria University Updated]` twins are NOT byte-identical** (0/20 sampled;
+  1–8% size differences, same page counts, different text-extraction outcomes). The manifest
+  records both with `nameTwinOf` and marks one `twinPreferred`. Read the preferred one, cite
+  the one you read, never treat them as two sources of evidence for one fact.
+- 3,615 raw files → ~2,281 distinct by name. Zero orientation/schedule files anywhere — the
+  module's own statement of what it examines does not exist in this corpus; the EOM papers
+  are the only blueprint. Forensic Medicine & Toxicology is empty in all three Year 2 modules
+  that reference it. `MED 302` is empty across all six departments.
+- `Anatomy` and `Anatomy and Embryology` are sibling folders in four modules — query both.
+- `MED 305/307/308/309` carry unlabeled book-length teaching texts; file counts undersell them.
+
+## 14 · Subject ruling (chief of staff, verified in `src/data/curriculumCatalog.ts`)
+
+The valid `subject` ids are the catalogue's **20**, not the manual's eight (the manual is
+stale and being corrected): `cvs resp renal gi neuro endo msk pharm fnd dev haem imm inf obs
+gyn androl psy derm mul pop`. **The importer validates none of them — a typo is silent**, so
+copy from this list. Placement law for subjects with no obvious home:
+
+| Teaching | `subject` | Notes |
+|---|---|---|
+| Community Medicine / public health | `pop` | |
+| Psychology / behavioural | `psy` | |
+| Microbiology, Parasitology, Tropical | `inf` | |
+| Forensic Medicine, Toxicology, ENT, Ophthalmology | the body system of the **mechanism or target organ** | asphyxia → `resp`; otitis / conjunctivitis → `inf`; visual pathway, pupil, audiovestibular → `neuro`; ocular embryology → `dev`; organophosphates → `mul` |
+| Umbrella forensic / toxicology principles | `mul` | |
+| Pharmacology | `pharm` | the `CON-` body-system code is `FND` or `INF`, never `MUL` (SHARED-TOOLCHAIN) |
+
+`universities` must be non-empty on every record — no gate catches an empty list yet
+(the validator lane is adding the error); an empty list means *unrestricted* at runtime.

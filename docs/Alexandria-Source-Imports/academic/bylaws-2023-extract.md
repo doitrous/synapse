@@ -11,6 +11,14 @@ less than the PDF page for every content page (folio 12 = PDF p.13, folio 16 = P
 etc.) because the cover and the table-of-contents page carry no folio. Both are usable for
 verification; this file cites the PDF page.
 
+**Note on codes (2026-08-22):** the `Code` column below (`MED101`, `UNI104`, `E304`, …) is
+the bylaws' own printed code, reproduced as evidence — it is not the batch's `module_id`. A
+chief-of-staff ruling that evening found that module ids are global bare strings elsewhere
+in the codebase with no per-university check, so `au-modules.md` mints `AU-<CODE>`
+(`AU-MED-101`, `AU-UNI-104`, `AU-E-304`) as the id and keeps the bare code (spaced, as the
+corpus folder carries it) in the module's name instead. See `au-modules.md`'s leading
+comment and `README.md` for the full rationale.
+
 ## 0 · Readability check
 
 - `pdffonts`: 17 embedded font subsets, all `TrueType`/`CID TrueType`, all but three marked

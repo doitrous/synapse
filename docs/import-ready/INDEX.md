@@ -81,13 +81,19 @@ content batches. Review it in the import wizard's own preview instead.
 ### Alexandria University modules — `academic/`, 1 file, 23 modules
 
 Years 1 to 3, taken from the corpus folder names under `y1/`, `y2/`, `y3/`
-(`/Users/doitrous/Desktop/Alexandria University/`), the same fixed-identity rule the lane
-brief sets for this university: a module ID is the faculty's own label exactly as the
-corpus folder carries it (`MED 102`, `UNI 104`, `E 304`), never shortened and never
-substituted from another source. Apply at **Academic setup › Import** with **AU** selected
-as the target university; the importer merges into whatever that university already has
-rather than replacing it, so applying it twice would create a second copy of every module —
-the same hazard the Kasr Al Ainy folder above documents.
+(`/Users/doitrous/Desktop/Alexandria University/`). Apply at **Academic setup › Import**
+with **AU** selected as the target university; the importer merges into whatever that
+university already has rather than replacing it, so applying it twice would create a
+second copy of every module — the same hazard the Kasr Al Ainy folder above documents.
+
+**Module id scheme (ruled 2026-08-22, chief of staff):** module ids are global bare strings
+in this codebase — nothing cross-checks a `module_id` against which university it belongs
+to — so a bare faculty code like `MED 102` could collide with any other university that
+prints the same one. Every id here is `AU-<CODE>`, uppercase with hyphens and no spaces
+(`AU-MED-102`, `AU-UNI-104`, `AU-E-304`); the faculty's own code stays visible in the module
+*name* instead, as `"<CODE> — <title>"` (e.g. `"MED 102 — Foundation of Basic Medical
+Sciences & Medical Terminology"`). See `docs/Alexandria-Source-Imports/academic/au-modules.md`'s
+leading comment for the full rationale.
 
 Unlike the Kasr Al Ainy file, every row here carries a real term. The faculty's 2023
 bylaws (`اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf`, transcribed in
