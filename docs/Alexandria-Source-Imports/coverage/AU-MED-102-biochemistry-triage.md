@@ -771,3 +771,22 @@ their old one (no idea is double-counted; the arithmetic differs from a flat sum
 four ideas moved sub-lane and one, H4, was folded into its sibling C35 rather than deleted
 outright — noted so a later auditor is not alarmed by the discrepancy). Sub-lane A proceeds
 below as this lane's own scope.
+
+## 10 · Convention clashes (sub-lane B, added post-approval)
+
+Cases where the AFM bank's own printed key uses a different numeric convention from the
+live/pending Kasr concept it otherwise matches exactly. Per the chief of staff's ruling: the
+question keeps the AFM bank's printed answer, `explanation_<correct>` names the convention in
+one sentence, and the Kasr concept's own prose is never sparse-updated (it is Kasr's record;
+Kasr Y1 is separately amending it to state both conventions).
+
+- **Complete oxidation of glucose, ATP yield.** `CON-FND-0F4A45886203EF` (pending, 103-BMS-mcq-carbohydrate-concepts.md)
+  states the modern P/O-ratio figures (32 ATP aerobic, 2 anaerobic; NADH = ~2.5 ATP, FADH2 = ~1.5
+  ATP). The AFM bank's own printed key uses the older, classical P/O-ratio convention (NADH = 3
+  ATP, FADH2 = 2 ATP) throughout: Carbohydrate Metabolism Q13 keys 38 ATP for complete oxidation
+  of one glucose (option text recovered by 200 dpi render, the OCR text layer having scrambled it
+  to "129"); Q29 keys 12 ATP per turn of the citric acid cycle (3 NADH x 3 + 1 FADH2 x 2 + 1 GTP =
+  12, the classical count; the modern count is ~10); Q35 keys 8 ATP for glucose-to-pyruvate
+  oxidation in the liver (2 substrate-level + 2 NADH x 3 shuttled, classical). Recorded in
+  `pending-live/AU-MED-102-biochem-metabolism.md`'s field_notes for `CON-FND-0F4A45886203EF`, not
+  as a sparse update to that concept's own definition.

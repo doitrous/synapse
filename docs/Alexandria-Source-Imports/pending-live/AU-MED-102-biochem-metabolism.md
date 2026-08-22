@@ -645,3 +645,385 @@ src_01ab4268402d32d4d111 | dept_bank | | p35 | MED 102
 ## field_notes
 universityNotes: Tested three times — which of ATP/fatty-acid-biosynthesis/reduced-glutathione/ribose is NOT what the HMP shunt supplies, ATP (Q26); the HMP pathway's own products, NADPH and pentose phosphate (Q62); and its tissue distribution, cytosol of liver/adipose/testis, i.e. all of the above (Q41). A fourth item on tissue distribution by enzyme activity (Q73, G6PD activity very low in adrenal cortex, against skeletal muscle/adipose/red cell) and the transketolase-thiamine link (Q25, folded here rather than under a separate vitamins concept, since the AFM bank frames it as an HMP-pathway fact) are recorded on the same concept for the same reason — no finer Kasr concept exists for the pathway's tissue distribution or its thiamine-dependent step specifically. Sub-lane C (nitrogen/blood/vitamins) may also touch this same concept from its own vitamins scope; flagged as a cross-lane note, not duplicated here beyond this file.
 
+
+---
+
+# Item
+
+## id
+CON-FND-F8FE239D334F4F
+
+## label
+Alpha-oxidation handles fatty acids that are too branched for beta-oxidation and peroxisomal oxidation handles those that are too long
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+
+## field_notes
+universityNotes: Directly tested — "Refsum's disease is due to lack of enzymes of: alpha oxidation" (Q1), against beta oxidation/omega oxidation/desaturation as distractors.
+
+---
+
+# Item
+
+## id
+CON-GIT-3A348EEAF118BD
+
+## label
+HMG-CoA reductase is the rate-limiting step of cholesterol synthesis, active when dephosphorylated, and the branch point that decides whether HMG-CoA becomes a sterol or a ketone body is the compartment
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Cholesterol metabolism
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p50 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p51 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p52 | MED 102
+
+## field_notes
+universityNotes: Tested seven times — HMG-CoA's own direct products EXCEPT acetoacetyl-CoA, which is upstream of it, not downstream (Q2); the rate-limiting step of cholesterol biosynthesis, HMG-CoA reductase (Q27); HMG-CoA as precursor of all EXCEPT palmitic acid, since HMG-CoA does not feed de novo fatty-acid synthesis (Q51); HMG-CoA as intermediate for ketone bodies and cholesterol, not triglycerides/phospholipids (Q54); the key enzyme of cholesterol biosynthesis, HMG-CoA reductase, restated (Q59); HMG-CoA reductase's own reaction, to mevalonate (Q61); and HMG-CoA lyase's own reaction, to acetoacetate (Q62). The AFM bank frames the cholesterol-vs-ketone-body branch point as which compartment (cytosol for cholesterol, mitochondria for ketogenesis) rather than naming a single regulatory step, consistent with this record's own framing.
+
+---
+
+# Item
+
+## id
+CON-GIT-ECB3C2F56DC72D
+
+## label
+The plasma lipoproteins form one series ordered by protein content, and that order is the order of density
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p50 | MED 102
+
+## field_notes
+universityNotes: Tested three times — which lipoprotein carries the highest cholesterol content delivered to tissues, LDL (Q3, framed among the delivery lipoproteins, distinct from HDL's overall reverse-transport role); the main lipid in nascent HDL, phospholipid (Q15); and nascent HDL's major component restated, phospholipid (Q52).
+
+---
+
+# Item
+
+## id
+CON-GIT-6CB618DBA50596
+
+## label
+Lipoprotein lipase empties triacylglycerol-rich particles at the capillary wall; apo C-II activates it, insulin induces it, and heparin displaces it
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p52 | MED 102
+
+## field_notes
+universityNotes: Tested three times — lipoprotein lipase's own properties, hydrolysing triacylglycerol from circulating particles rather than being intracellular or mobilising adipose stores itself (Q4); the consequence of decreased LPL activity, elevation of both chylomicrons and VLDL together (Q32); and its activator, apo C-II (Q64).
+
+---
+
+# Item
+
+## id
+CON-END-2E748A37DA660A
+
+## label
+The liver makes ketone bodies it cannot itself use, because it has HMG-CoA synthase and lyase and lacks thiophorase
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p46 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p48 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p50 | MED 102
+
+## field_notes
+universityNotes: Tested seven times — acetoacetate-to-acetone conversion as non-enzymatic (Q5); ketone bodies as lipid-metabolism intermediates (Q6); which substance is NOT used as a muscle energy source, acetone, since it cannot be metabolised for fuel (Q10); ketone-body formation site, hepatic mitochondria (Q16); which tissues can oxidise ketone bodies, heart (against liver, which cannot use its own product) (Q21); ketone bodies formed from active acetate derived from beta-oxidation of fatty acids (Q33); and which liver process is the exception, ketolysis, since the liver cannot use the ketone bodies it makes (Q46).
+
+---
+
+# Item
+
+## id
+CON-FND-FCFC1B5A95695E
+
+## label
+Acetyl-CoA reaches the cytosol as citrate, and ATP-citrate lyase is what releases it there
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p48 | MED 102
+
+## field_notes
+universityNotes: Tested twice — the citrate shuttle as the route for transferring mitochondrial acetyl groups to the cytosol for fatty-acid synthesis (Q7); and the enzyme that releases cytosolic acetyl-CoA from citrate, ATP-citrate lyase (Q38).
+
+---
+
+# Item
+
+## id
+CON-FND-177A829022AC8F
+
+## label
+A fatty acid is activated to acyl-CoA in the cytosol, and only carnitine can carry it across the inner mitochondrial membrane
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p48 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p49 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p51 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p52 | MED 102
+
+## field_notes
+universityNotes: Tested six times — the transport agent long-chain fatty acids attach to for mitochondrial entry, carnitine (Q9); carnitine's own role, oxidation/transport (Q13); which statement about carnitine is false, that it is involved in fatty-acid synthesis rather than oxidation (Q36); the acyl-CoA synthetase reaction's own requirements, CoASH and ATP (Q40); free fatty acids' transport form in blood, bound to albumin, upstream of the carnitine-mediated mitochondrial step (Q57); a carnitine deficiency's specific effect, impaired beta-oxidation (Q58); and the activating agent and shuttle molecule for beta-oxidation, CoA and carnitine respectively (Q66).
+
+---
+
+# Item
+
+## id
+CON-FND-84BDACCA71AF45
+
+## label
+Beta-oxidation removes two carbons per turn in the mitochondrial matrix, and that fixes the turn count, the yield per turn, and what an odd-chain fatty acid leaves behind
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p48 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p49 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p53 | MED 102
+
+## field_notes
+universityNotes: Tested five times — the compounds formed each beta-oxidation cycle EXCEPT the fatty acyl-CoA count being wrong as printed (Q11); which enzyme is NOT involved in beta-oxidation, enoyl reductase, which is a fatty-acid-synthesis enzyme instead (Q17); which compound is NOT generated each cycle, NADPH (beta-oxidation generates NADH and FADH2, not NADPH, which is spent in synthesis instead) (Q35); the number of ATP gained from complete oxidation of butyric acid (Q37); and the number of turns needed to process a C20 fatty acid, nine (Q67, render-checked at 200 dpi: option "a-9" circled, matching the printed working "20/2 = 10-1 = 9").
+
+---
+
+# Item
+
+## id
+CON-FND-6B469645AE7DBC
+
+## label
+Adipose tissue lacks glycerol kinase, so it can only build triacylglycerol when glucose is available and cannot reuse the glycerol it releases
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of triacylglycerol
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p44 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p52 | MED 102
+
+## field_notes
+universityNotes: The AFM bank gives two different answers to this same question in two different places — Q12 keys "glycerol kinase acting on glycerol" as the source of adipose glycerol-3-phosphate, while Q65 keys "reduction of dihydroxyacetone phosphate," which is the standard teaching this record itself states (adipose tissue lacks glycerol kinase). This is a genuine internal contradiction in the department's own bank (flagged already in the triage, Sec5/Sec8), not a transcription error by this lane; Q65 is authored as the keyed, standard-teaching-consistent question, and Q12 is recorded here as exam signal only, not separately authored, since authoring both would teach two different mechanisms from one concept record.
+
+---
+
+# Item
+
+## id
+CON-GIT-33EAF87333AAD5
+
+## label
+Chylomicrons carry dietary triacylglycerol out of the gut; VLDL carries hepatic triacylglycerol out of the liver
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p45 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p46 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p49 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p50 | MED 102
+
+## field_notes
+universityNotes: Tested six times — how most dietary lipids are packaged and exported from the intestinal mucosa, as chylomicrons (Q18); chylomicrons' apolipoproteins EXCEPT apo B-100, which is the hepatic (VLDL/LDL) apoprotein, not the intestinal one (Q19); dietary management to lower chylomicron levels, decreased fat intake (Q24, the LPL-deficiency/chylomicronaemia management fact folded here since no finer Kasr concept exists for it); what VLDL transports, triacylglycerol from liver to peripheral tissues (Q28, restated); chylomicron's own transport function, triglycerides from intestine, and LDL's function, cholesterol from liver to peripheral tissues (Q47, Q48); and which statement about VLDL is true, transferring triacylglycerol from liver to tissues, against the false options that VLDL's main lipid is cholesterol or that it carries apo B-48 (the chylomicron apoprotein) (Q45).
+
+---
+
+# Item
+
+## id
+CON-END-CC450A236ABF50
+
+## label
+Ketosis is what happens when ketogenesis outruns ketolysis, and every cause is a state of high anti-insulin to insulin ratio
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p46 | MED 102
+
+## field_notes
+universityNotes: Tested twice — ketosis results from increased fatty-acid oxidation, not from increased carbohydrate utilisation (Q20); and the causes of ketosis EXCEPT nephrotic syndrome, which is not a recognised cause against starvation/uncontrolled diabetes/high-fat-low-carbohydrate diet (Q26).
+
+---
+
+# Item
+
+## id
+CON-FND-2F3A652B8E3104
+
+## label
+Acetyl-CoA carboxylase is the key enzyme of lipogenesis: it needs biotin, it makes malonyl-CoA, and every control signal converges on it
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p51 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p52 | MED 102
+
+## field_notes
+universityNotes: Tested three times — the key enzyme of fatty-acid synthesis, acetyl-CoA carboxylase (Q23, restated Q60); and the true statement about de novo fatty-acid synthesis, that it requires the intermediate malonyl-CoA, against false options on chain length and cellular location (Q31, the pathway runs in the cytosol, not the mitochondria).
+
+---
+
+# Item
+
+## id
+CON-FND-1C668119B3C0BB
+
+## label
+Insulin and the anti-insulin hormones pull one switch in opposite directions: the phosphorylation state of hormone-sensitive lipase and of acetyl-CoA carboxylase
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Regulation of lipolysis and lipogenesis
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p47 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p48 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p50 | MED 102
+
+## field_notes
+universityNotes: Tested three times — lipolysis's own defining feature, requiring hormone-sensitive lipase (against insulin stimulating it, which is backwards) (Q30); the key enzyme of lipolysis, hormone-sensitive lipase (Q34); and which hormone does NOT increase hormone-sensitive lipase activity in adipose tissue, insulin, since insulin opposes lipolysis (Q50).
+
+---
+
+# Item
+
+## id
+CON-FND-4C05D459E80AEF
+
+## label
+Fatty acid oxidation reduces FAD and NAD+, fatty acid synthesis spends NADPH, and keeping the two currencies apart is what lets both run in one cell
+
+## universities
++au
+
+## modules
++AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Cofactors of lipid metabolism
+
+## exam_signal
+src_01ab4268402d32d4d111 | dept_bank | | p43 | MED 102
+src_01ab4268402d32d4d111 | dept_bank | | p53 | MED 102
+
+## field_notes
+universityNotes: Tested twice — which coenzyme is NOT used in fatty-acid oxidation, NADP (oxidation uses NAD+ and FAD, never NADP/NADPH) (Q43); and the reducing agent lipogenesis needs, NADPH, the opposite currency from oxidation (Q68).
