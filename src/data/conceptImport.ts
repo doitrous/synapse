@@ -145,11 +145,20 @@ export const conceptIdFrom = (label: string) =>
  * mentioned" from "emptied", exactly as the article importer does.
  */
 export function conceptFromRow(values: Record<string, string>, placement: Partial<Concept> = {}): Concept {
+  // The string form, for deriving an ID when the row gives none. The *stored*
+  // label is `text(...)` like every other prose field — see below.
   const label = values.label?.trim() ?? ''
   const status = CONCEPT_STATUSES.includes(values.status?.trim() as ConceptStatus) ? values.status.trim() as ConceptStatus : undefined
   return {
     id: values.id?.trim() || conceptIdFrom(label),
-    label,
+    // `undefined`, not `''`, when the row is silent — the same rule the rest of
+    // this object follows and the one field that did not. `mergeConcept` skips
+    // `undefined` and writes anything else, so an update row that omitted
+    // `## label` blanked the live concept's label: the record stayed, findable
+    // by id and by nothing else, its name gone from every list a student reads.
+    // `materialiseNewConcept` supplies the empty string a genuinely new record
+    // needs, exactly as it does for `definition`.
+    label: text(values.label) as string,
     canonicalKey: text(values.canonical_key),
     aliases: optionalList(values.aliases) as string[],
     arabicLabel: text(values.arabic_label),
@@ -233,7 +242,7 @@ export function conceptFromRow(values: Record<string, string>, placement: Partia
 export function materialiseNewConcept(concept: Concept): Concept {
   const filled = { ...concept } as Record<string, unknown>
   for (const key of ['aliases', 'articleIds']) if (filled[key] === undefined) filled[key] = []
-  if (filled.definition === undefined) filled.definition = ''
+  for (const key of ['definition', 'label']) if (filled[key] === undefined) filled[key] = ''
   if (filled.status === undefined) filled.status = 'under review'
   const present = [
     'systemId', 'topicTagId', 'subtopicId', 'microtopicId', 'nanotopicId', 'secondaryNodeIds',
