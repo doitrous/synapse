@@ -28,10 +28,11 @@
   The matching blocks keep their spare options. A block's distractors are half of
   what it tests — they are the near neighbours a student has to rule out — and
   flattening a block into single-best-answer questions hands the student a fresh
-  set of distractors each time and stops testing the discrimination. The pairings
-  are authored: every matching block in this corpus prints its key as a grid on
-  the answers page, and every one of those grids came back from OCR as broken
-  table rules.
+  set of distractors each time and stops testing the discrimination. Three of the four
+  pairings are the paper's own, read off the answers page at 200 dpi: those
+  grids are legible to the eye and came back from OCR as broken table rules, so
+  "the scan lost the key" was a statement about the extraction and not about the
+  page. The fourth is authored, because that paper prints no key at all.
 
   What was banked and NOT authored, and why
   ----------------------------------------
@@ -39,9 +40,16 @@
   left in the bank. A question dropped without a reason is one nobody can
   reconsider, so the reasons are counted here rather than implied:
 
-    915  no answer anywhere in the corpus. The books print their keys as grids
-         on a back page and OCR reduced most of those grids to table rules. An
-         MCQ with no answer and no covering concept is not authorable yet.
+    915  no answer the extraction recovered — which is not the same as no
+         answer in the corpus, and the difference was found by checking. The
+         books print their keys as grids on a back page; OCR reduced those
+         grids to table rules, but they are plain when the page is rendered at
+         200 dpi. At least 173 of these 915, across the seven department
+         histology papers, have a legible printed answer sitting on a page the
+         extraction reported as answerless. They are recoverable by rendering,
+         the way this module's 120 handwritten answers were. An MCQ with no
+         answer and no covering concept is not authorable yet; most of these
+         are waiting on a rendering pass rather than on the source.
     287  answered and legible, but no concept among the 22 covers them. This is
          the real bound on the batch, not the extraction: the 22 concepts came
          from one end-of-year paper, and the MCQ corpus is much wider than they
@@ -2665,7 +2673,7 @@ Claude
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q21 (manifest src_9cf32ada2b25fa54f0e9).
 
 ## author_notes
-Bank key all-characters-of-palatine-tonsil-except-42969d66.
+Bank key all-characters-of-palatine-tonsil-except-42969d66. Option c is printed truncated in the source — "Contain lymph Nodule with or without germinal" — and is completed here to "germinal centres", which is the only reading the sentence admits. Named because every other repair in this batch is named and a silent one is indistinguishable from a transcription error. Note also that option b is not cleanly true of the palatine tonsil: its mucous glands open on the surface epithelium outside the crypts, and the arrangement it describes is the lingual tonsil's, which the next item tests. D remains the more decisively false option and the paper's key, but a student who argued for b would not be wrong about the anatomy.
 
 ---
 
@@ -3019,7 +3027,7 @@ Claude
 Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q24 (manifest src_9cf32ada2b25fa54f0e9).
 
 ## author_notes
-Bank key choose-the-correct-statement-about-pharyngeal-tonsil-fce585ae. The same stem appears in DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q23 with no readable answer; the answer here is the Kandeel book's.
+Bank key choose-the-correct-statement-about-pharyngeal-tonsil-fce585ae. The answer here is the Kandeel book's printed grid. The same stem appears in DPT HISTO MCQ [Lymphatic] 2023.pdf p3 as q23, and that paper's key is legible too — `23 b` when its answers page is rendered, though not in its text layer. The two agree, so this answer has two independent printed sources rather than one.
 
 ---
 
@@ -4355,6 +4363,7 @@ Red pulp = G
 Pharyngeal tonsil = C
 Palatine tonsils = D
 White pulp = A
+Thymus dependent zone = E
 
 ## main_concept
 CON-HEM-7B050DE7FE2B80 | CON-HEM-BF004EF03BD129
@@ -4423,7 +4432,7 @@ Claude
 Kasr Al Ainy corpus, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p15, matching table (manifest src_df6b7a7de75411dbb92b).
 
 ## author_notes
-Bank key match-column-a-with-column-b-match-column-a-with-column-b-pa-59c568d5. Three of the seven options answer no prompt and are the block's own distractors, kept because they are what the item tests: B is the marginal zone, E is the paracortex of a lymph node, and F is the lingual tonsil — each a near neighbour of a real answer. The pairing is authored: this paper prints its key as a grid that the scan lost, so no answer was recoverable from the corpus. Option text is the paper's, cleaned of OCR debris.
+Bank key match-column-a-with-column-b-match-column-a-with-column-b-pa-59c568d5. The paper sets five prompts for five marks, one mark each. The fifth, `Thymus dependent zone`, reached the text layer as Arabic-script debris and was missing from this item until the page was rendered and read; it is answered by E. Two of the seven options answer no prompt and are the block's own distractors: B is the marginal zone and F is the lingual tonsil, each a near neighbour of a real answer. The pairing is authored, and this paper has no answer key at all — fifteen pages checked, no answers section — so there is nothing in the corpus to check it against. Option text is the paper's, cleaned of OCR debris.
 
 ---
 
@@ -4564,6 +4573,7 @@ F | Unequal chromosomes, one short and one long
 G | 47, XXY
 
 ## matching_prompts
+Down's syndrome = B
 Klinefelter's syndrome = G
 Turner's syndrome = A
 Duplication = E
@@ -4636,7 +4646,7 @@ Claude
 Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3, Table 1 (manifest src_79af3b3857ba47239529).
 
 ## author_notes
-Bank key match-column-a-with-column-b-table-1duplication-klinefelter-ccd70e96. Three of the seven options answer no prompt: B is Down's syndrome, D is a distractor phrasing of duplication, and F is the isochromosome. They are what forces a student to separate a numerical from a structural aberration rather than recognise a single karyotype. The pairing is authored; the paper's key is a grid the scan did not recover.
+Bank key match-column-a-with-column-b-table-1duplication-klinefelter-ccd70e96. Table I sets five prompts. The first, `Down's syndrome`, was missing from this item until the answers page was rendered and read; it is answered by B. Two of the seven options answer no prompt: D is a distractor phrasing of duplication and F is the isochromosome, which is what forces a student to separate a numerical from a structural aberration rather than recognise a single karyotype. The pairing is not authored — the paper's printed key reads `b g a e c` across the five prompts, illegible in the text layer and plain at 200 dpi, and the same key appears again in the undated copy of this paper.
 
 ---
 

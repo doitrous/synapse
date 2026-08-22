@@ -464,6 +464,22 @@ export function conceptHash(module: string, key: string): string {
  */
 export function subjectForPath(modulePath: string): KasrSubject | null {
   if (modulePath.includes('> Histology > Blood')) return 'haem'
+  // 104 CPS's histology is organ histology, so its chapters carry their own
+  // body systems and the blanket `Histology -> fnd` below is wrong for them.
+  // That rule was written against 101 ISK, whose histology is cytology,
+  // epithelium and connective tissue — general tissue, genuinely foundational.
+  // Naming the chapters rather than the module keeps it a statement about what
+  // the path says, which is what the rest of this function is.
+  if (modulePath.includes('> Histology > Lymphatic and Macrophage System')) return 'haem'
+  if (modulePath.includes('> Histology > Cardiovascular System')) return 'cvs'
+  if (modulePath.includes('> Histology > Respiratory System')) return 'resp'
+  // Cytogenetics is deliberately unmapped. The chapter holds both the cell
+  // cycle, which is foundational, and chromosomal aberration, which is
+  // developmental — one path, two honest subjects. A rule that cannot separate
+  // them should say nothing rather than force whichever it saw first; null
+  // leaves the seed's own subject standing and the collision check still
+  // catches two authors disagreeing about one key.
+  if (modulePath.includes('> Histology > Cytogenetics')) return null
   if (modulePath.includes('> Histology')) return 'fnd'
   if (modulePath.includes('> General Embryology')) return 'dev'
   if (modulePath.includes('> Basis of Anatomy') || modulePath.includes('> Upper Limb')) return 'msk'
