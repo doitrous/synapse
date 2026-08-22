@@ -457,6 +457,14 @@ university-specific callouts on a question or practical have nowhere to go excep
   `optionalList`/`listDirective` (`src/data/importSemantics.ts`) give you `+au`, `+AU_Y1`,
   `+AU-MED-102` — append without retyping what is already there. This is the safe, ordinary
   case.
+- **`years` carries canonical year ids only** — `KAU_Y1`, `AU_Y1`… — exact case, never the
+  bare label `Year 1` and never a lower-cased id (ruling 2026-08-23). A label names no
+  university, so it cannot be traced per university the way an id can; production `years`
+  holds all three shapes today (`KAU_Y1` 539 rows, `kau_y3` 114 rows, the bare label `Year 1`
+  in 2,469 rows across 41 files). `buildYears` (`src/data/universities.ts:63-75`) mints the
+  real format — `${CODE}_Y${n}` upper-case per university — cite that, not a guess. Kasr
+  normalises its own existing records to ids in its sitting-year sweep; that is cleanup on
+  Kasr's side, not a reason to write the label yourself.
 - `module_subject` is **not** an ID-list column — it is a list of paths, parsed by
   `parseModuleSubjectPaths` (`moduleSubjectPath.ts:33-38`), which splits only on newlines and
   never strips a leading `+`. **Today, writing it replaces the field wholesale**; a second

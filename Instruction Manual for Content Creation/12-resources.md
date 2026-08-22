@@ -9,7 +9,7 @@ text.
 | | |
 |---|---|
 | **Goes in** | `docs/import-ready/resource/` and `docs/import-ready/evidence/` |
-| **`fieldsUsed` floor** | catalogue **16** of 18 · source **14** of 17 |
+| **`fieldsUsed` floor** | catalogue **16** of 19 · source **14** of 17 |
 
 ---
 
@@ -64,7 +64,7 @@ two different pages. Confusing them is the mistake this manual exists to prevent
 | What it is | Something a **student opens** — a book, a video, a deck | Something a **claim cites** — the provenance record |
 | Lives in | the content ledger | the evidence store |
 | Imports at | Bulk import → **resource** | Evidence › Import |
-| Schema | `IMPORT_SCHEMAS.resource`, 18 columns | `EVIDENCE_IMPORT_FIELDS.resource`, 17 columns |
+| Schema | `IMPORT_SCHEMAS.resource`, 19 columns | `EVIDENCE_IMPORT_FIELDS.resource`, 17 columns |
 | Folder | `docs/import-ready/resource/` | `docs/import-ready/evidence/` |
 | Pointed at by | a question's `resource_ids` | a concept's `resource_ids`, a citation's `resource_id` |
 | Can you invent the ID? | Yes — you are creating the record | **No.** See §Never invent a source ID |
@@ -151,7 +151,7 @@ node --experimental-strip-types scripts/build-corpus-source-index.mjs
 
 ---
 
-## A · The catalogue resource — 18 columns
+## A · The catalogue resource — 19 columns
 
 What a student opens. Imports at **Bulk import → resource**.
 
@@ -181,11 +181,16 @@ What a student opens. Imports at **Bulk import → resource**.
 carries a `field_notes` line saying no resource has cleared rights for it. Naming the
 concept here is what removes that.
 
-> **`npm run medical:batch` does not validate a catalogue-resource file.** `detectKind` has
-> no branch for it. It used to crash with a `TypeError`; it now refuses clearly, naming the
-> file and listing the kinds it does recognise. That means "wrong tool", not "bad file" —
-> the same as subjects and glossary. Use `medical:simulate`, and the import wizard's own
-> preview.
+> **`npm run medical:batch` does not validate a catalogue-resource file.**
+> `detectBatchKind` (`src/data/batchKind.ts`) has no branch for the catalogue-resource
+> shape — its only `resource` branch matches on `institution` + `processing_status`, which
+> is the evidence-source shape (§B), so a catalogue-resource row falls through to
+> `unknown`. It used to crash with a `TypeError`; it now refuses clearly, naming the file
+> and listing the kinds it does recognise. That means "wrong tool", not "bad file" — the
+> same as subjects and glossary. A fix is queued; until it lands, **validate catalogue
+> resources by `medical:simulate` only**, plus the import wizard's own preview — and record
+> that caveat in the module's `GATES.md` (13 §4, S8) so a green `medical:batch` run is
+> never read as having covered the catalogue-resource rows.
 
 ---
 

@@ -196,7 +196,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `clinical_relevance` | Clinical relevance | 0–1 | `0.5` |
 | `academic_relevance` | Academic relevance | 0–1 | `0.5` |
 | `exam_weight_by_year` | Exam weight by year | Keyed values only — `OMS_Y2=0.7 \| OMS_Y3=0.5`. No `+` directive on this column. | `{}` |
-| `years` | Relevant years | Year IDs | `[]` |
+| `years` | Relevant years | Canonical year IDs only — `KAU_Y1`, `AU_Y1`… (exact case). **Never the bare label `Year 1`; a lower-case id is also wrong.** | `[]` |
 | `universities` | Relevant universities | University IDs. **Must be non-empty — see below.** | `[]` |
 | `module` | Module ID(s) | Every module this applies to. **Non-Kasr modules carry that university's prefix — see below.** | `[]` |
 | `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One per line. | `[]` |
@@ -206,6 +206,15 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 what you intended; `inferred_difficulty` is how many students you expect to get it right.
 `Hard` and `Challenging` both mean "expect most to miss this" — `Hard` is a concept a strong
 student gets right, `Challenging` needs several steps held at once.
+
+**`years` is ids only (ruling 2026-08-23).** Production `years` currently holds three
+shapes — the canonical id (`KAU_Y1` 539 rows, `kau_y3` 114 rows), and the bare label
+(`Year 1`, 2,469 rows across 41 files). A label names no university, so it can never be
+checked per university the way an id can — ruled ids-only. Write the canonical id, exact
+case (`buildYears`, `src/data/universities.ts:63-75`, mints `${CODE}_Y${n}` in upper case
+for every university); `kau_y3` and `Year 1` are both wrong. Kasr's own records get
+normalised to ids in its sitting-year sweep — that is a Kasr-side cleanup, not licence to
+write a label or the wrong case yourself.
 
 ### Catalogue placement is a hard gate (S3), not a courtesy
 
