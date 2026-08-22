@@ -20,6 +20,98 @@ import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
 import { detectBatchKind } from '../src/data/batchKind.ts'
+import { universities as UNIVERSITY_CATALOGUE } from '../src/data/universities.ts'
+import { CURRICULUM_SUBJECTS } from '../src/data/curriculumCatalog.ts'
+import { listDirective } from '../src/data/importSemantics.ts'
+
+/* ---- catalogue checks --------------------------------------------------- */
+
+/**
+ * `universities`, `module` and `subject` were stored as plain lists and checked
+ * against nothing. A mistyped university or module is not a cosmetic error: it
+ * decides who the record reaches. A question tagged `kua` instead of `kau`
+ * belongs to no university and is served to nobody, and the author sees a
+ * clean import.
+ */
+const UNIVERSITY_IDS = new Set(UNIVERSITY_CATALOGUE.map((university) => university.id))
+const SUBJECT_IDS = new Set(CURRICULUM_SUBJECTS.map((subject) => subject.id))
+
+/** Module-ID prefix each university's modules must carry. Kasr predates the rule. */
+const MODULE_PREFIX = { asu: 'ASU-', au: 'AU-', hu: 'HU-' }
+
+/**
+ * The values a list cell names, read with the importer's own parser.
+ *
+ * `listDirective` rather than a split of my own, because a cell is an
+ * *instruction*, not a list: a leading `+` means append and its items start one
+ * character in, and `[clear]` means empty. Splitting naively read `+108 INT` as
+ * a module literally called "+108 INT" and reported nine correct update rows as
+ * naming a module they did not declare. The gate and the importer have to agree
+ * on what a cell says, and the only way to be sure is to call the same function.
+ */
+const listOf = (value) => listDirective(value).items
+
+/**
+ * What a record claims about who it is for, checked against the catalogue.
+ *
+ * Returns messages; the caller prefixes them with its own row label.
+ *
+ * NOT checked here, deliberately: whether a module exists in the catalogue.
+ * `universities.ts` lists 31 modules for Kasr and **zero for every other
+ * university**, and the live catalogue in `server/data/medical-library-v1.json`
+ * lists zero for all twelve including Kasr — `kau-modules.md` is a batch that
+ * has not been applied. So there is no authority to check a module against, and
+ * a gate asserting one would fail every record in the repository on its first
+ * run. What is checkable without that list is checked: the prefix rule, and
+ * that `module_subject` names a module the record actually declares.
+ */
+function catalogueErrors(kind, values) {
+  const problems = []
+
+  // An empty `universities` list means "every university" — `scopeMatches`
+  // returns true when the list is empty — so an author who forgot the field has
+  // published to everyone rather than to nobody, which is the direction that
+  // does not announce itself.
+  const declared = listOf(values.universities)
+  const hasColumn = 'universities' in values
+  if (hasColumn && !declared.length) {
+    problems.push('universities is empty — an empty list means EVERY university, not none, so this record reaches students it was never written for')
+  }
+  for (const id of declared) {
+    if (!UNIVERSITY_IDS.has(id)) {
+      problems.push(`university "${id}" is not in the catalogue (${[...UNIVERSITY_IDS].join(', ')})`)
+    }
+  }
+
+  // Concepts carry `modules`, questions and articles carry `module`.
+  const modules = [...listOf(values.modules), ...listOf(values.module)]
+  for (const id of modules) {
+    for (const university of declared) {
+      const prefix = MODULE_PREFIX[university]
+      if (prefix && !id.startsWith(prefix)) {
+        problems.push(`module "${id}" is under ${university}, whose module IDs carry the "${prefix}" prefix`)
+      }
+    }
+  }
+
+  // `module_subject` is `Module > Subject > …`. Its first segment must be a
+  // module this record declares, or the two fields describe different things
+  // and nothing else would notice.
+  const path = (values.module_subject ?? '').trim()
+  if (path && modules.length) {
+    const named = path.split('>')[0].trim()
+    if (named && !modules.includes(named)) {
+      problems.push(`module_subject starts with "${named}", which is not a module this record declares (${modules.join(', ')})`)
+    }
+  }
+
+  const subject = (values.subject ?? '').trim()
+  if (subject && !SUBJECT_IDS.has(subject)) {
+    problems.push(`subject "${subject}" is not one of the ${SUBJECT_IDS.size} curriculum subjects — a typo is placeholdered at runtime rather than refused, so it never surfaces`)
+  }
+
+  return problems
+}
 
 const file = process.argv[2]
 if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with <sibling.md> ...]')
@@ -303,6 +395,7 @@ if (kind === 'question') {
     const where = `Item ${index + 1} (${values.title ?? values.question ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('question', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -459,6 +552,7 @@ if (kind === 'practical') {
     const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('practical', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -568,6 +662,7 @@ if (kind === 'article') {
     const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('article', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -775,6 +870,7 @@ rows.forEach((values, index) => {
     if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
   }
   if (!values.label?.trim()) errors.push(`${where}: label is required`)
+    for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)

@@ -164,8 +164,31 @@ silently attaches your work to the wrong record, or to nothing.
 | `TPL-*` | Article template | `TPL-CONDITION` |
 | `rel-<source>-<type>-<target>` | Concept relation (derived) | |
 
-Subject IDs are exactly: `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`.
+Subject IDs are exactly these twenty, from `src/data/curriculumCatalog.ts`:
+
+```
+cvs    resp   renal  gi     neuro  endo   msk    pharm  fnd    dev
+haem   imm    inf    obs    gyn    androl psy    derm   mul    pop
+```
+
 Nothing else is valid in a `subject` field.
+
+This list said eight until 2026-08-22 — the eight that happen to have live
+concepts. The other twelve are equally valid and were being written from memory,
+which is how `ren` and `neu` reached a committed batch: both are placeholdered
+at runtime rather than refused, so nothing said a word. `medical:batch` now
+refuses a subject outside this list.
+
+**Twelve of the twenty have no live concept yet** — `fnd`, `dev`, `haem`, `imm`,
+`inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, `pop`. That is not a reason
+to avoid them; it means you have no precedent to copy, so read the catalogue
+rather than an existing batch. Live counts today: `pharm` 206, `gi` 126, `msk`
+123, `renal` 119, `resp` 112, `neuro` 108, `cvs` 98, `endo` 90.
+
+**`pharm` is the one subject that cannot pick its own `CON-` prefix.** The mint
+refuses it without an explicit body-system code, because live state files all
+206 pharmacology concepts under `FND` (general) or `INF` (anti-infectives) and
+`CON-MUL-` has no members at all. Name the system on the seed.
 
 > Some older live records carry `subjectId: "medical"` — 736 of them, from the extraction
 > pipeline. That is legacy data, not a subject you may use.
