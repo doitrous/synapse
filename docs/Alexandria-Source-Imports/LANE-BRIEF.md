@@ -399,10 +399,14 @@ Three additions:
    report must paste the exact `medical:batch` / `simulate` / `audit` / `concept-ids` output.
 
 ## 19 · Validator landings merged (312777b, 470fdde, b3cad82) — three rule changes
-1. Pipe-joined `+` cells are safe again; one-per-line remains fine.
+1. `+` additions: the fix is at the parser (`312777b`), so `+A | +B` and one-per-line are BOTH safe now
+   (the one-per-line workaround never actually avoided the bug). A stored value never begins with
+   `+`; a mixed cell `X | +Y` is refused as ambiguous. No batch edits needed.
 2. **An update-shaped row for an id that is neither live nor authored in the same batch folder is
    now an ERROR.** Validate every `pending-live/<slug>.md` with `--with` the Kasr concept file it
    targets: `npm run medical:batch -- docs/Alexandria-Source-Imports/pending-live/<slug>.md --with docs/Kasr-Source-Imports/concept/<file>.md`.
    A pending-live file that fails without `--with` and passes with it is correct.
 3. `find-existing.mjs` now reads `## canonical_key` in pending batches; the manual grep is no
    longer required (harmless if you keep it).
+4. **An update row carries only changed fields.** Never restate `source_candidate_ids` copied from a
+   live record — the candidate check fails on live-only candidates until the validator's next fix.
