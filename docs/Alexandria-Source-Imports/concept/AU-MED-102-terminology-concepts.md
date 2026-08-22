@@ -40,7 +40,7 @@ Word building
 Term structure
 
 ## microtopic
-
+Word root, prefix, suffix and combining vowel
 
 ## nanotopic
 
@@ -165,8 +165,8 @@ drafted_not_reviewed
 
 
 ## field_notes
-microtopicId: The canonical tree has no node for medical-terminology word-building; placed on the SYS-FND hub under protest and recorded as a Wanted row in CLAIMS.md — nothing more precise exists.
-nanotopicId: Same reason as microtopicId.
+microtopicId: `microtopic` names the new shelf authored in docs/Alexandria-Source-Imports/subjects/AU-MED-102-terminology-subjects.md (`Word building > Term structure > ...`), which resolves by live-title match (conceptImport.ts resolvePlacement) — it is not yet imported, so this resolves to a real MIC_ id only after that file lands and this record is re-applied.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be for this idea.
 secondaryNodeIds: No second canonical view fits a linguistic-structure idea better than the SYS-FND hub already used as primary.
 moduleIds: AU-MED-102 is the only module whose corpus was searched for this idea.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept yet.
@@ -218,10 +218,10 @@ SYS-FND
 Word building
 
 ## subtopic
-Pluralisation
+Term structure
 
 ## microtopic
-
+Pluralisation of Latin and Greek medical nouns
 
 ## nanotopic
 
@@ -348,8 +348,8 @@ drafted_not_reviewed
 
 
 ## field_notes
-microtopicId: No canonical node exists for medical-terminology word-building; see the Wanted row in CLAIMS.md. Placed on the SYS-FND hub under protest, alongside the sibling word-building concept.
-nanotopicId: Same reason as microtopicId.
+microtopicId: `microtopic` names the new shelf authored in docs/Alexandria-Source-Imports/subjects/AU-MED-102-terminology-subjects.md (`Word building > Term structure > ...`), which resolves by live-title match (conceptImport.ts resolvePlacement) — it is not yet imported, so this resolves to a real MIC_ id only after that file lands and this record is re-applied.
+nanotopicId: The microtopic placement is already more precise than any nanotopic would be for this idea.
 secondaryNodeIds: No better-fitting second view exists for a linguistic-pattern idea.
 moduleIds: AU-MED-102 is the only module whose corpus was searched.
 approvedFileResourceIds: No file resource has been rights-cleared yet.
@@ -584,10 +584,10 @@ Word building
 Term structure
 
 ## microtopic
-
+Descriptive terms and eponyms
 
 ## nanotopic
-
+Eponym recognition
 
 ## modules
 AU-MED-102
@@ -706,8 +706,8 @@ drafted_not_reviewed
 
 
 ## field_notes
-microtopicId: No canonical node exists for medical-terminology word-building; placed on the SYS-FND hub under protest, same gap named for the sibling word-building concepts.
-nanotopicId: Same reason as microtopicId.
+microtopicId: `microtopic` names the new shelf authored in docs/Alexandria-Source-Imports/subjects/AU-MED-102-terminology-subjects.md (`Word building > Term structure > ...`), which resolves by live-title match (conceptImport.ts resolvePlacement) — it is not yet imported, so this resolves to a real MIC_ id only after that file lands and this record is re-applied.
+nanotopicId: `nanotopic` ("Eponym recognition") names a node in the same not-yet-imported subjects file; same pending-resolution reason as microtopicId.
 secondaryNodeIds: No better-fitting second view exists for a naming-convention idea.
 moduleIds: AU-MED-102 is the only module whose corpus was searched.
 approvedFileResourceIds: No file resource has been rights-cleared yet.
