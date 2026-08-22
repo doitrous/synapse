@@ -141,9 +141,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-HEART-WALL-01 | CLM-104-HIS-CARDIAC-VALVE-01 | CLM-104-HIS-BLOOD-VESSEL-WALL-01
+CLM-15EAC759559D
 ## span_ids
-SPN-104-HIS-HVW-01
+SPN-HIS-HEART-AND-VESSEL-01
 ## universities
 kau
 ## years
@@ -286,9 +286,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-ARTERY-CLASSIFICATION-01 | CLM-104-HIS-METARTERIOLE-01 | CLM-104-HIS-VEIN-CLASSIFICATION-01 | CLM-104-HIS-ARTERY-VS-VEIN-01
+[clear]
 ## span_ids
-SPN-104-HIS-AAV-01
+[clear]
 ## universities
 kau
 ## years
@@ -429,9 +429,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-BLOOD-VS-LYMPHATIC-CAPILLARY-01 | CLM-104-HIS-FENESTRATED-CAPILLARY-01
+[clear]
 ## span_ids
-SPN-104-HIS-AVC-01
+[clear]
 ## universities
 kau
 ## years
@@ -563,9 +563,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-MONONUCLEAR-PHAGOCYTE-SYSTEM-01
+[clear]
 ## span_ids
-SPN-104-HIS-MPS-01
+[clear]
 ## universities
 kau
 ## years
@@ -706,9 +706,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-NASAL-CAVITY-01 | CLM-104-HIS-CONDUCTING-PORTION-EPITHELIUM-01 | CLM-104-HIS-LARYNX-01 | CLM-104-HIS-BRONCHI-AND-BRONCHIOLES-01
+[clear]
 ## span_ids
-SPN-104-HIS-LTB-01
+[clear]
 ## universities
 kau
 ## years
@@ -851,9 +851,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-RESPIRATORY-PORTION-01 | CLM-104-HIS-PNEUMOCYTE-TYPE-I-VS-TYPE-II-01 | CLM-104-HIS-BLOOD-AIR-BARRIER-01 | CLM-104-HIS-ALVEOLAR-PHAGOCYTES-01
+CLM-4E1D08498C2D
 ## span_ids
-SPN-104-HIS-RSP-01
+SPN-HIS-RESPIRATORY-PORTION-01 | SPN-HIS-RESPIRATORY-PORTION-02
 ## universities
 kau
 ## years
@@ -994,9 +994,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-CELL-CYCLE-01 | CLM-104-HIS-STEM-CELLS-01 | CLM-104-HIS-NECROSIS-VS-APOPTOSIS-01
+CLM-0C0E8A10CDF0 | CLM-1125E3A886CE | CLM-5B0A296D58E3 | CLM-5D726723382B
 ## span_ids
-SPN-104-HIS-CCD-01
+SPN-HIS-CELL-CYCLE-RENEWAL-01 | SPN-HIS-CELL-CYCLE-RENEWAL-02 | SPN-HIS-CELL-CYCLE-RENEWAL-03 | SPN-HIS-CELL-CYCLE-RENEWAL-04 | SPN-HIS-CELL-CYCLE-RENEWAL-05
 ## universities
 kau
 ## years
@@ -1134,9 +1134,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-MITOSIS-01 | CLM-104-HIS-MEIOSIS-01 | CLM-104-HIS-MITOSIS-VS-MEIOSIS-01
+CLM-77CB83973CD5
 ## span_ids
-SPN-104-HIS-MAM-01
+SPN-HIS-MITOSIS-AND-MEIOSIS-01 | SPN-HIS-MITOSIS-AND-MEIOSIS-02
 ## universities
 kau
 ## years
@@ -1275,9 +1275,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-CHROMOSOME-STRUCTURE-01 | CLM-104-HIS-KARYOTYPING-01 | CLM-104-HIS-CHROMOSOME-CLASSIFICATION-01 | CLM-104-HIS-SEX-CHROMATIN-01
+[clear]
 ## span_ids
-SPN-104-HIS-CSK-01
+[clear]
 ## universities
 kau
 ## years
@@ -1416,9 +1416,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-NUMERICAL-CHROMOSOMAL-ABERRATION-01 | CLM-104-HIS-DOWN-SYNDROME-01 | CLM-104-HIS-SEX-CHROMOSOME-ABERRATION-01
+[clear]
 ## span_ids
-SPN-104-HIS-NAB-01
+[clear]
 ## universities
 kau
 ## years
@@ -1554,9 +1554,9 @@ src_18d3a953df4ca83c4e74
 ## article_source_ids
 src_18d3a953df4ca83c4e74
 ## claim_ids
-CLM-104-HIS-STRUCTURAL-CHROMOSOMAL-ABERRATION-01
+CLM-6008DF5BAE4A
 ## span_ids
-SPN-104-HIS-SAB-01
+SPN-HIS-STRUCTURAL-ABERRATIONS-01
 ## universities
 kau
 ## years

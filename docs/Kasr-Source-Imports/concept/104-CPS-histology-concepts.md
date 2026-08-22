@@ -120,7 +120,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-HEART-WALL-01
+CLM-15EAC759559D
+CLM-BB99AAF5054B
+CLM-AE6E17198A56
+CLM-BAD4A9AC51CD
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -248,7 +251,8 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-CARDIAC-VALVE-01
+CLM-C5C88E97612A
+CLM-008FD84FB447
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -376,7 +380,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-BLOOD-VESSEL-WALL-01
+CLM-E30FB325FC5D
+CLM-51E9A3077B87
+CLM-A8612D383B1D
+CLM-89F4DD0CA495
+CLM-242992A9A809
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -504,7 +512,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-ARTERY-CLASSIFICATION-01
+CLM-915B0B6018D8
+CLM-17F3B170BB7A
+CLM-5D720A7C07C7
+CLM-4B7BAC9889BA
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -632,7 +643,8 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-METARTERIOLE-01
+CLM-8DDA1A3D694D
+CLM-4068F372FD58
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -760,7 +772,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-VEIN-CLASSIFICATION-01
+CLM-2CABF462F6C6
+CLM-B66BFE4DE488
+CLM-BD9D53577036
+CLM-CD389B5B67C1
+CLM-D4D5AFC23D21
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -888,7 +904,13 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-ARTERY-VS-VEIN-01
+CLM-F2C0CE6A462D
+CLM-F2BC0C8C6EDA
+CLM-0B3BB45B5865
+CLM-C572B7872A1F
+CLM-640C41A5A0CF
+CLM-35465AD93896
+CLM-A910D648393B
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1016,7 +1038,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-BLOOD-VS-LYMPHATIC-CAPILLARY-01
+CLM-79D47A6AE363
+CLM-4765A450AA3F
+CLM-191010D2D6D8
+CLM-31C750DC43D1
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1144,7 +1169,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-FENESTRATED-CAPILLARY-01
+CLM-DDDE42F826A8
+CLM-D94A31F8E172
+CLM-BB577D4C3BA8
+CLM-AE012CDEE69E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1272,7 +1300,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-MONONUCLEAR-PHAGOCYTE-SYSTEM-01
+CLM-71BFF3E49324
+CLM-09AE8639DFC2
+CLM-5E2D45CC24AC
+CLM-50619E017F92
+CLM-169FEBB53360
+CLM-5E03AB65976D
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1400,7 +1433,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-NASAL-CAVITY-01
+CLM-71947D809041
+CLM-D92A3DD582E5
+CLM-291AA9BC8191
+CLM-B7BAA3A65B67
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1528,7 +1564,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-CONDUCTING-PORTION-EPITHELIUM-01
+CLM-FCA8EC690A3E
+CLM-3C1993BDC8B9
+CLM-98AE69D7FB4E
+CLM-74E83CC39518
+CLM-E7BE7EF93C6A
+CLM-141ED1132323
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1656,7 +1697,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-OLFACTORY-MUCOSA-01
+CLM-F641FC6315DF
+CLM-EED8D0EA7B08
+CLM-4E6041F460F2
+CLM-828D9DD2D9B4
+CLM-BCE51E1F371D
+CLM-6CCDC307D44E
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1784,7 +1830,13 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-LARYNX-01
+CLM-C79D7FDD6F6F
+CLM-573DCB1C27B2
+CLM-D829BFEC13F4
+CLM-9F5C97104491
+CLM-0DA00580A532
+CLM-39223C024747
+CLM-F36BDF7098DC
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -1912,7 +1964,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-BRONCHI-AND-BRONCHIOLES-01
+CLM-D48796CB012A
+CLM-8E29F26B3253
+CLM-6D28B187A324
+CLM-25DE71D693A7
+CLM-CEBD01983F12
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2040,7 +2096,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-RESPIRATORY-PORTION-01
+CLM-4E1D08498C2D
+CLM-7EA41B4F9DE7
+CLM-45160AC7C066
+CLM-22D4E7335DA5
+CLM-62CC5F4A5E39
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2168,7 +2228,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-PNEUMOCYTE-TYPE-I-VS-TYPE-II-01
+CLM-5D34E9C7D86A
+CLM-875F35140519
+CLM-C0DA59CEE7E0
+CLM-1D693C5DA4C4
+CLM-1FC96B5026BC
+CLM-932B6009CB4B
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2296,7 +2361,8 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-BLOOD-AIR-BARRIER-01
+CLM-52160192B0FE
+CLM-FBD409DFC981
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2424,7 +2490,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-ALVEOLAR-PHAGOCYTES-01
+CLM-9D6C8373BC00
+CLM-A3DC9475D37A
+CLM-0750943C8026
+CLM-59121C9BDB2F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2552,7 +2621,13 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-CELL-CYCLE-01
+CLM-0C0E8A10CDF0
+CLM-5D726723382B
+CLM-1125E3A886CE
+CLM-486247DEFAFA
+CLM-74C799FCEA2F
+CLM-DE9D0FDEFB52
+CLM-4F15E15B7B26
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2680,7 +2755,9 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-STEM-CELLS-01
+CLM-254976608DE5
+CLM-B507B9788C27
+CLM-8C61F2239B1D
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2808,7 +2885,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-NECROSIS-VS-APOPTOSIS-01
+CLM-5B0A296D58E3
+CLM-CA40E3E893F2
+CLM-8A8AF4A98B4D
+CLM-B6FD64E4B8E3
+CLM-0BCB2C83BF14
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -2936,7 +3017,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-MITOSIS-01
+CLM-77CB83973CD5
+CLM-4240549216CF
+CLM-AF69657B7193
+CLM-9F121F580C25
+CLM-F7CE0030ECEB
+CLM-4E0FB05B18E2
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3064,7 +3150,9 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-MEIOSIS-01
+CLM-639D181A553C
+CLM-83E55C63C54F
+CLM-A0DE251EB8D8
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3192,7 +3280,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-MITOSIS-VS-MEIOSIS-01
+CLM-A4E9EC9526A3
+CLM-E92E4563622F
+CLM-8C7BD80586AA
+CLM-B8D8C665B6CC
+CLM-277987EDB066
+CLM-7427A01EE97C
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3320,7 +3413,13 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-CHROMOSOME-STRUCTURE-01
+CLM-504BE8134A0D
+CLM-84B923346982
+CLM-BFA6E6F28617
+CLM-3F5648BA76A4
+CLM-5CA960B0A8ED
+CLM-7396B3A45B89
+CLM-535052451CED
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3448,7 +3547,9 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-KARYOTYPING-01
+CLM-7AA73A72F47B
+CLM-11F118D5889A
+CLM-6909E3EC11E4
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3576,7 +3677,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-CHROMOSOME-CLASSIFICATION-01
+CLM-CAC25DF4D63B
+CLM-C85FDBB34EAC
+CLM-E3BD09E16A05
+CLM-9B8D6719C3C5
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3704,7 +3808,11 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-SEX-CHROMATIN-01
+CLM-2973DF47E659
+CLM-6C23BB700AE4
+CLM-F561A7A0DE38
+CLM-A5F3AA60A735
+CLM-C6D27C9A9A36
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3832,7 +3940,12 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-NUMERICAL-CHROMOSOMAL-ABERRATION-01
+CLM-526671E6C8DA
+CLM-899CC7AE8D3A
+CLM-736B199D6681
+CLM-FE1BE34C8C82
+CLM-002EA94B016C
+CLM-F61E58A826E7
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -3960,7 +4073,9 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-DOWN-SYNDROME-01
+CLM-0C6BD3AC29CB
+CLM-24534BB9FE0C
+CLM-61A447DE39E6
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4088,7 +4203,10 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-SEX-CHROMOSOME-ABERRATION-01
+CLM-2E54F6E4C9DB
+CLM-D606F34401F5
+CLM-AD206B74F419
+CLM-5D20621702AC
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
@@ -4216,7 +4334,14 @@ src_18d3a953df4ca83c4e74
 ## approved_video_resource_ids
 [clear]
 ## atomic_claim_ids
-CLM-104-HIS-STRUCTURAL-CHROMOSOMAL-ABERRATION-01
+CLM-6008DF5BAE4A
+CLM-3F6BC3DE1572
+CLM-7E4256D9A9DE
+CLM-B0BE3DB717C5
+CLM-39568E28AEC4
+CLM-D15CEB81DD4E
+CLM-AC792B96DD9F
+CLM-340E09BA8B8F
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids
