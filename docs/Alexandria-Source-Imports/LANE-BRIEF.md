@@ -318,3 +318,9 @@ copy from this list. Placement law for subjects with no obvious home:
 4. `grep -ril "<canonical_key>" docs/*-Source-Imports/concept/` stays mandatory.
 Everything in §12 that said "hold" now means "write it under rule 1". `<<PENDING-MINT>>`
 placeholders are no longer allowed in any file.
+
+### More toolchain hashes (Kasr Year 1 branch, not main)
+- `c0a3709` — `scripts/kasr/build-evidence.ts` module-parameterised (`--module`, `--concepts`,
+  `--book`, `--out-prefix`; reads the pagetext cache; `manifestPathFor(module)`).
+- `bec5510` — MCQ triage pipeline per module (`seeds/mcq/<module-slug>/`, `extract/<module-slug>/mcq-bank.json`).
+The tooling lane copies these into `scripts/alexandria/` with headers naming path + hash.
