@@ -284,3 +284,25 @@ copy from this list. Placement law for subjects with no obvious home:
 
 `universities` must be non-empty on every record — no gate catches an empty list yet
 (the validator lane is adding the error); an empty list means *unrestricted* at runtime.
+
+## 15 · What the validator probe proved (`coverage/00-validator-probe.md`) — read before authoring
+
+- **An update row for an ID that is not live is CREATED as a stub, silently.** The held case
+  in §12 stays held: a sparse update for an ID that exists only in another lane's unimported
+  batch goes in `concept/<slug>-PENDING-LIVE.md` outside any import root, with an INDEX line
+  "apply only after <that file> is live". Never fill such a stub in to make it pass.
+- **A full record on an ID you found by search replaces every field it names** — it evicts
+  `kau` from `universities` and can un-publish a live concept, and simulate reports it as a
+  normal `updated: 1`. Sparse update only; `+` on list columns; `exam_weight_by_year` has no
+  `+` — write `AU_Y1=<weight>` and the existing keys survive.
+- **Simulate only your own directory.** Two files naming one `## id` in one run → last file
+  wins, no warning.
+- **`find-existing.mjs` never reads a pending file's `## canonical_key`** (label/title/term/
+  aliases only). The `grep -ril "<canonical_key>" docs/*-Source-Imports/concept/` is the only
+  key-level check for pending batches. Both, every time.
+- **`universities` and `modules` are validated nowhere.** Copy `AU-…` ids from §1 by eye; a
+  typo will never be caught by a tool. Placement *is* checked and refused.
+- "Live state" for simulate is `server/data/medical-library-v1.json` (regenerated 2026-08-12),
+  not the database.
+- CI runs no content gate on a PR that touches only Alexandria files until `content.yml`'s
+  paths are widened — run every gate locally and paste the output in your report.
