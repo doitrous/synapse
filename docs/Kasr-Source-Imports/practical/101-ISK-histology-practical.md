@@ -57,6 +57,12 @@ Moderate
 Identify the plasma membrane on an electron micrograph, give one visible character of it, and name the intercellular space and the cytoplasm on either side.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-8BD70C3ED36B79
 ## lab_questions
@@ -129,6 +135,12 @@ Moderate
 Identify mitochondria on a light micrograph, name a stain that demonstrates them and give one visible character.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-ED156BF8FBFD46
 ## lab_questions
@@ -187,6 +199,12 @@ Moderate
 Identify a mitochondrion on an electron micrograph and name its cristae and its matrix when each is separately arrowed.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-E0B130AC5EC939
 ## lab_questions
@@ -246,6 +264,12 @@ Moderate
 Identify the Golgi apparatus on an electron micrograph, give one visible character, and tell a transfer vesicle from a secretory vesicle by the face it lies on.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-89F4A730D095B7
 ## lab_questions
@@ -304,6 +328,12 @@ Moderate
 Identify the Golgi apparatus in a silver-stained nerve cell, name the stain and the colour, and state the organelle's position relative to the nucleus.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-F4DF782C697CCF
 ## lab_questions
@@ -362,6 +392,12 @@ Moderate
 Identify the Golgi apparatus in a silver-stained secretory cell, state that its position is apical to the nucleus, and name the cell membrane when marked.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-F4DF782C697CCF
 ## lab_questions
@@ -420,6 +456,12 @@ Hard
 Identify the negative Golgi image on a routinely stained secretory cell and explain why the Golgi appears as an absence of stain.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-0492C40A7F76E7
 ## concept_ids
@@ -480,6 +522,12 @@ Moderate
 Identify rough endoplasmic reticulum on an electron micrograph, give one visible character and state its function.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-08378767774524
 ## lab_questions
@@ -538,6 +586,12 @@ Moderate
 Identify smooth endoplasmic reticulum on an electron micrograph and give one visible feature the model answer accepts.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-369A1D27DFE0DD
 ## lab_questions
@@ -597,6 +651,12 @@ Moderate
 Identify smooth endoplasmic reticulum and a mitochondrion in the same field and give the character that separates them.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-369A1D27DFE0DD
 ## concept_ids
@@ -658,6 +718,12 @@ Hard
 On a micrograph carrying both systems, say which profile is rough and which is smooth and give the character that decides each.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-82768007A697F1
 ## concept_ids
@@ -718,6 +784,12 @@ Moderate
 Identify a primary lysosome on an electron micrograph and say what makes it primary rather than secondary.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-9D325B98FC59A0
 ## lab_questions
@@ -776,6 +848,12 @@ Hard
 Identify a multivesicular body as a secondary lysosome and name what it has fused with.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-9D325B98FC59A0
 ## lab_questions
@@ -821,6 +899,12 @@ Hard
 Identify a heterolysosome and say what distinguishes it from the cell's other secondary lysosomes.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-9D325B98FC59A0
 ## lab_questions
@@ -866,6 +950,12 @@ Hard
 Identify an autolysosome by recognising a degenerating organelle inside it, and name what is left when digestion is incomplete.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-9D325B98FC59A0
 ## concept_ids
@@ -927,6 +1017,12 @@ Moderate
 Identify Nissl's granules in a nerve cell and state which organelle they are made of.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-4AE74C678A6F64
 ## concept_ids
@@ -987,6 +1083,12 @@ Moderate
 Name the parts of a ribosome on a labelled diagram and say where free and attached ribosomes send their product.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-ACF503263BA7D7
 ## lab_questions
@@ -1045,6 +1147,12 @@ Moderate
 Identify a centriole on an electron micrograph and state that its microtubules are arranged as nine triplets.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-759499A4A27938
 ## lab_questions
@@ -1103,6 +1211,12 @@ Moderate
 Identify the shaft of a cilium on an electron micrograph and name its peripheral doublets and central singlets.
 ## module_subject
 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-0FAE59E00B748E
 ## lab_questions
@@ -1161,6 +1275,12 @@ Moderate
 Tell a microvillus from a cilium on one micrograph and give the character that separates them.
 ## module_subject
 101 ISK > Histology > Epithelial Tissues > Polarity and Membranous Specializations
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-942169C7CEC1CA
 ## concept_ids
@@ -1222,6 +1342,12 @@ Moderate
 Identify glycogen as the inclusion on a stained plate, name a stain that demonstrates it, give one visible character and name the cell.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-7650D31963FEBD
 ## concept_ids
@@ -1284,6 +1410,12 @@ Moderate
 Recognise that the empty vacuole of an H&E adipocyte is the fat droplet, and explain why it is empty.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-53E16F5D4E3538
 ## lab_questions
@@ -1342,6 +1474,12 @@ Easy
 Identify fat by its Sudan III appearance and name the cell that holds it.
 ## module_subject
 101 ISK > Histology > Cytology > Cytoplasm
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-53E16F5D4E3538
 ## concept_ids
@@ -1389,6 +1527,12 @@ Moderate
 Tell an open-face from a closed-face nucleus on a light micrograph and say what each implies about the cell's activity.
 ## module_subject
 101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-E2DE55693981A7
 ## lab_questions
@@ -1447,6 +1591,12 @@ Moderate
 Name the nuclear membrane, the perinuclear space and a nuclear pore on an electron micrograph, and distinguish them from the nucleolus.
 ## module_subject
 101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-C81FD3E574D3AA
 ## lab_questions
@@ -1505,6 +1655,12 @@ Hard
 Identify a nucleus as heterochromatic and name its peripheral heterochromatin, chromatin islands and nucleolus-associated chromatin when arrowed.
 ## module_subject
 101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-BAABF179A898ED
 ## concept_ids
@@ -1565,6 +1721,12 @@ Hard
 Identify a nucleus as euchromatic and name the nucleolus, the nuclear sap and a nuclear pore when arrowed.
 ## module_subject
 101 ISK > Histology > Cytology > Nucleus
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-FND-BAABF179A898ED
 ## concept_ids
@@ -1628,6 +1790,12 @@ State that a slide is a blood film and name Leishman's as the stain before ident
 101 ISK > Histology > Blood > Red Blood Corpuscles
 101 ISK > Histology > Blood > Granular leukocytes
 101 ISK > Histology > Blood > Blood Platelets
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-1935D59A1D2839
 ## concept_ids
@@ -1689,6 +1857,12 @@ Moderate
 Identify a neutrophil in a blood film and give the nuclear and granule characters that separate it from the other granulocytes.
 ## module_subject
 101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-5724364F46CD5A
 ## lab_questions
@@ -1748,6 +1922,12 @@ Hard
 Identify a Barr body on a marked neutrophil and say what it represents and in whom it is found.
 ## module_subject
 101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-DD758E69648658
 ## concept_ids
@@ -1808,6 +1988,12 @@ Moderate
 Identify an eosinophil in a blood film by its granules and its nuclear shape, and separate it from a neutrophil.
 ## module_subject
 101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-5724364F46CD5A
 ## lab_questions
@@ -1867,6 +2053,12 @@ Hard
 Identify a basophil in a blood film, give the character of its granules, and separate it from a mast cell.
 ## module_subject
 101 ISK > Histology > Blood > Granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-1F7D2D1717F91A
 ## concept_ids
@@ -1929,6 +2121,12 @@ Moderate
 Identify a lymphocyte in a blood film by its nucleus and the amount of cytoplasm around it.
 ## module_subject
 101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-29CA381FD3707B
 ## lab_questions
@@ -1988,6 +2186,12 @@ Moderate
 Identify a monocyte in a blood film by its kidney-shaped nucleus and its frosted-glass cytoplasm.
 ## module_subject
 101 ISK > Histology > Blood > Non granular leukocytes
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-29CA381FD3707B
 ## lab_questions
@@ -2047,6 +2251,12 @@ Easy
 Identify platelets in a blood film and give the character that separates them from a small leucocyte.
 ## module_subject
 101 ISK > Histology > Blood > Blood Platelets
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-9A7C4752AA21E3
 ## contextual_concept_ids
@@ -2108,6 +2318,12 @@ Easy
 Identify an erythrocyte by its central pallor and absence of a nucleus, and tell a normal cell from a crenated one.
 ## module_subject
 101 ISK > Histology > Blood > Red Blood Corpuscles
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-4F5347CC3664E0
 ## lab_questions
@@ -2167,6 +2383,12 @@ Moderate
 State that a slide is a supravital preparation, name cresyl blue and say that it is supravital, and identify the marked reticulocyte.
 ## module_subject
 101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-C020FBF779203C
 ## lab_questions
@@ -2226,6 +2448,12 @@ Moderate
 Identify a section as bone marrow and name the megakaryocyte and the fat cells when each is arrowed.
 ## module_subject
 101 ISK > Histology > Blood > Haemopoiesis
+## universities
+kau
+## years
+KAU_Y1
+## module
+101 ISK
 ## main_concept
 CON-HEM-CF325DABA0EA62
 ## lab_questions
