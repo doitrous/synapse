@@ -74,7 +74,7 @@ Incorrect as an EXCEPT answer — ATP's terminal phosphoanhydride bonds are the 
 Glucose-6-phosphate
 
 ## explanation_b
-Correct — this is the exception. Glucose 6-phosphate is a low-energy phosphate ester; its hydrolysis releases substantially less free energy than the 7.3 kcal/mol-or-more threshold that defines a high-energy bond, which is why it does not belong on a list with ATP, acetyl-CoA and phosphoenolpyruvate.
+Correct — this is the exception. Glucose 6-phosphate is a low-energy phosphate ester; its hydrolysis releases substantially less free energy than the 7.3 kcal/mol-or-more threshold that defines a high-energy bond. That is why it does not belong on a list with ATP, acetyl-CoA and phosphoenolpyruvate, all of which clear that threshold.
 
 ## answer_c
 Acetyl-CoA
@@ -372,7 +372,7 @@ Incorrect as an EXCEPT answer — this is true. F0 spans the inner mitochondrial
 Proton flow is from F1 to F0
 
 ## explanation_d
-Correct — this is the false statement. Protons flow from the intermembrane space, where the electron-transport-chain complexes pumped them, through F0 and into the matrix — that is, from F0's outer face to its inner face, driving F1's rotation from the F0 side, not "from F1 to F0." Getting the direction backwards is the specific error this question is built to catch.
+Correct — this is the false statement. Protons flow from the intermembrane space, where the electron-transport-chain complexes pumped them, through F0 and into the matrix, driving F1 to rotate and synthesise ATP. The flow direction is from F0 toward F1, not the reverse the option states. Getting the direction backwards is the specific error this question is built to catch.
 
 ## topic
 Biomolecules
@@ -3025,6 +3025,2868 @@ AFM Biochemistry Questions (Alexandria University Medical Biochemistry Departmen
 
 ## estimated_seconds
 55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-GLUCONEOGENESIS-SUBSTRATES-001
+
+## title
+Substrates for gluconeogenesis, all except
+
+## question
+All the following are substrates for gluconeogenesis EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q21 (src_01ab4268402d32d4d111, p27-28).
+
+## correct_answer
+A
+
+## answer_a
+Palmitic acid
+
+## explanation_a
+Correct — this is the exception. Palmitic acid, an even-chain fatty acid, is broken down entirely to acetyl-CoA, and acetyl-CoA cannot be converted net to glucose because the pyruvate dehydrogenase reaction that would make it is irreversible. Fatty acids can only contribute carbon to gluconeogenesis through their rare odd-chain propionyl-CoA residues, which palmitic acid, being even-chain, does not produce.
+
+## answer_b
+Lactic acid
+
+## explanation_b
+Incorrect as an EXCEPT answer — lactate is a genuine gluconeogenic substrate, converted to pyruvate by lactate dehydrogenase and entering the pathway there, as in the Cori cycle.
+
+## answer_c
+Alanine
+
+## explanation_c
+Incorrect as an EXCEPT answer — alanine is transaminated to pyruvate in the liver and is a major gluconeogenic amino acid, carrying muscle nitrogen to the liver in the glucose-alanine cycle.
+
+## answer_d
+Glycerol
+
+## explanation_d
+Incorrect as an EXCEPT answer — glycerol, released by lipolysis, is phosphorylated and oxidised to dihydroxyacetone phosphate, entering gluconeogenesis directly.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Gluconeogenesis
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis
+
+## question_only_for
+
+## main_concept
+CON-FND-089E2C3E01031C
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Explain why fatty acids, unlike lactate, alanine and glycerol, cannot serve as net gluconeogenic substrates.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q21.
+
+## author_notes
+
+## estimated_seconds
+65
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-NAD-NADP-EXCEPT-001
+
+## title
+Which dehydrogenase is not NAD+ dependent
+
+## question
+All the dehydrogenases listed below are NAD+ dependent, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q6 (src_01ab4268402d32d4d111, p25).
+
+## correct_answer
+B
+
+## answer_a
+Lactate dehydrogenase
+
+## explanation_a
+Incorrect as an EXCEPT answer — lactate dehydrogenase uses NAD+/NADH to interconvert pyruvate and lactate.
+
+## answer_b
+Glucose-6-phosphate dehydrogenase
+
+## explanation_b
+Correct — this is the exception. G6PD, the hexose monophosphate pathway's first and rate-limiting enzyme, is specific for NADP+, not NAD+. This distinction matters clinically: NADPH, not NADH, is what G6PD deficiency leaves red cells short of, which is why the deficiency causes oxidant-induced haemolysis rather than an energy-production defect.
+
+## answer_c
+Pyruvate dehydrogenase
+
+## explanation_c
+Incorrect as an EXCEPT answer — the pyruvate dehydrogenase complex uses NAD+ as one of its five coenzymes, alongside TPP, lipoate, CoA and FAD.
+
+## answer_d
+Glyceraldehyde-3-phosphate dehydrogenase
+
+## explanation_d
+Incorrect as an EXCEPT answer — this glycolytic enzyme reduces NAD+ to NADH while oxidising glyceraldehyde 3-phosphate.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Dehydrogenase coenzymes
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Dehydrogenase coenzymes
+
+## question_only_for
+
+## main_concept
+CON-FND-534286EBBAC239
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Identify G6PD as the NADP+-specific exception among a list of NAD+-dependent dehydrogenases, and connect this to its clinical consequence.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q6.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-MUSCLE-NO-G6PASE-001
+
+## title
+Why muscle glycogen cannot raise blood glucose
+
+## question
+Muscle glycogen can not give rise to blood glucose because muscle lakes the enzyme:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q59 (src_01ab4268402d32d4d111, p33; the source's own stem prints "lakes" for "lacks").
+
+## correct_answer
+B
+
+## answer_a
+Phosphorylase
+
+## explanation_a
+Incorrect. Muscle has glycogen phosphorylase and uses it normally to release glucose 1-phosphate from its own glycogen for local use.
+
+## answer_b
+G-6 phosphatase
+
+## explanation_b
+Correct. Only the liver (and kidney) expresses glucose 6-phosphatase, the enzyme that dephosphorylates glucose 6-phosphate to free glucose that can leave the cell and enter the blood. Muscle glycogenolysis still produces glucose 6-phosphate, but without this enzyme that glucose 6-phosphate is trapped inside the myocyte and can only be used locally, by glycolysis, never exported as blood glucose.
+
+## answer_c
+Glucokinase
+
+## explanation_c
+Incorrect. Glucokinase phosphorylates glucose to glucose 6-phosphate in the liver and beta-cells; muscle does not rely on it, and its absence would not explain a failure to *release* glucose.
+
+## answer_d
+Debranching enzyme
+
+## explanation_d
+Incorrect. Debranching enzyme is needed to fully hydrolyse glycogen's branch points in any tissue, but its presence or absence does not determine whether the freed glucose can leave the cell as blood glucose.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Glycogen metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycogen metabolism
+
+## question_only_for
+
+## main_concept
+CON-FND-3905E3B98C2EC4
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-GLYCOGEN-METABOLISM
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Explain why muscle's lack of glucose 6-phosphatase confines its glycogenolysis to local use, unlike the liver's.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q59.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-GLUCONEOGENESIS-INSULIN-001
+
+## title
+Gluconeogenesis is inhibited by
+
+## question
+Gluconeogenesis is inhibited by:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q18 (src_01ab4268402d32d4d111, p27).
+
+## correct_answer
+C
+
+## answer_a
+Glucagon
+
+## explanation_a
+Incorrect. Glucagon activates hepatic gluconeogenesis, opposing insulin, as part of the body's response to falling blood glucose.
+
+## answer_b
+Growth hormone
+
+## explanation_b
+Incorrect. Growth hormone is an anti-insulin hormone that favours gluconeogenesis, as part of its broader glucose-sparing, fat-mobilising actions.
+
+## answer_c
+Insulin
+
+## explanation_c
+Correct. Insulin is the only hormone that lowers gluconeogenesis, by suppressing the transcription of the pathway's key enzymes (PEPCK, fructose-1,6-bisphosphatase, glucose-6-phosphatase) and by promoting glycolysis instead. Every other major counter-regulatory hormone — glucagon, cortisol, growth hormone — pushes gluconeogenesis up, which is exactly why insulin's role here is the single exception a student must hold onto.
+
+## answer_d
+Glucocorticoids
+
+## explanation_d
+Incorrect. Glucocorticoids (cortisol) promote gluconeogenesis, partly by supplying amino-acid substrate through protein catabolism and partly by inducing key gluconeogenic enzymes.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Gluconeogenesis regulation
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+60
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Gluconeogenesis regulation
+
+## question_only_for
+
+## main_concept
+CON-FND-7B3B4F0BEBF198
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name insulin as the sole hormone that inhibits gluconeogenesis, against three counter-regulatory hormones that activate it.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q18.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-HMP-EXCEPT-001
+
+## title
+The HMP shunt pathway is important for all the following except
+
+## question
+The HMP shunt pathway is important for all the following EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q26 (src_01ab4268402d32d4d111, p28).
+
+## correct_answer
+A
+
+## answer_a
+Generation of ATP
+
+## explanation_a
+Correct — this is the exception. The hexose monophosphate pathway generates no ATP at all; it produces NADPH and ribose 5-phosphate instead. This is what separates it from glycolysis as a route of glucose metabolism, since glycolysis exists precisely to make ATP.
+
+## answer_b
+Fatty acid biosynthesis
+
+## explanation_b
+Incorrect as an EXCEPT answer — the pathway is genuinely important here, supplying the NADPH that fatty-acid synthase and acetyl-CoA carboxylase both require.
+
+## answer_c
+Synthesis of reduced glutathione
+
+## explanation_c
+Incorrect as an EXCEPT answer — NADPH from this pathway is what glutathione reductase uses to keep glutathione in its reduced, protective form.
+
+## answer_d
+Synthesis of ribose
+
+## explanation_d
+Incorrect as an EXCEPT answer — ribose 5-phosphate, made in the pathway's non-oxidative phase, is the precursor for nucleotide and nucleic acid synthesis.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Hexose Monophosphate Pathway
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway
+
+## question_only_for
+
+## main_concept
+CON-FND-B928DE79E08882
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-HMP-PATHWAY-AND-G6PD
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+State that the HMP shunt yields NADPH and ribose 5-phosphate but no ATP, distinguishing its purpose from glycolysis.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q26.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-CHO-RBC-ENERGY-SOURCE-001
+
+## title
+RBCs derive their energy from
+
+## question
+RBCs derive their energy from:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Carbohydrate Metabolism Q55 (src_01ab4268402d32d4d111, p32).
+
+## correct_answer
+D
+
+## answer_a
+Fatty acid oxidation
+
+## explanation_a
+Incorrect. Mature red cells have no mitochondria, and beta-oxidation is a mitochondrial process, so they cannot use this route at all.
+
+## answer_b
+TCA cycle
+
+## explanation_b
+Incorrect. The citric acid cycle also requires mitochondria, which red cells lack; none of its reactions can run in a cell with no mitochondria to house them.
+
+## answer_c
+Respiratory chain
+
+## explanation_c
+Incorrect. Oxidative phosphorylation depends on the mitochondrial inner membrane and its embedded complexes, none of which a mature red cell possesses.
+
+## answer_d
+Glycolysis
+
+## explanation_d
+Correct. Because red cells have no mitochondria, anaerobic glycolysis is their only source of ATP, generated entirely by substrate-level phosphorylation. This is also why red cells depend so completely on a steady glucose supply, with no metabolic fallback if it is interrupted.
+
+## topic
+Carbohydrate metabolism
+
+## subtopic
+Glycolysis in the red cell
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+5
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.75
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Carbohydrate Metabolism > Glycolysis in the red cell
+
+## question_only_for
+
+## main_concept
+CON-HEM-095C9C97B56CCA
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+State that anaerobic glycolysis is the red cell's sole ATP source, because it has no mitochondria for any oxidative pathway.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Carbohydrate Metabolism Q55.
+
+## author_notes
+
+## estimated_seconds
+45
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-CARNITINE-TRANSPORT-001
+
+## title
+Long-chain fatty acids are attached to which carrier for mitochondrial transport
+
+## question
+For transport across the inner mitochondrial membrane, long chain fatty acids are attached to:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q9 (src_01ab4268402d32d4d111, p44).
+
+## correct_answer
+D
+
+## answer_a
+Coenzyme A
+
+## explanation_a
+Incorrect. CoA activates the fatty acid to acyl-CoA in the cytosol before mitochondrial entry, but CoA itself cannot cross the inner mitochondrial membrane, which is exactly why a separate carrier is needed.
+
+## answer_b
+Acyl transacylase
+
+## explanation_b
+Incorrect. This names an enzyme family, not the small molecule carrier that actually crosses the membrane carrying the fatty-acyl group.
+
+## answer_c
+Acyl transferase
+
+## explanation_c
+Incorrect. Carnitine palmitoyltransferase enzymes catalyse the attachment and release of the acyl group from carnitine; they are the enzymes of the shuttle, not the carrier molecule itself.
+
+## answer_d
+Carnitine
+
+## explanation_d
+Correct. Long-chain fatty acyl-CoA is converted to acylcarnitine by carnitine palmitoyltransferase I on the outer mitochondrial membrane, and only this carnitine-linked form can cross via a translocase into the matrix, where carnitine palmitoyltransferase II regenerates acyl-CoA. This carnitine shuttle is the only route long-chain fatty acids have into the mitochondrion for beta-oxidation.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Oxidation of fatty acids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## question_only_for
+
+## main_concept
+CON-FND-177A829022AC8F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name carnitine as the carrier that shuttles long-chain fatty acyl groups across the inner mitochondrial membrane.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q9.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-BETA-OXIDATION-CYCLE-001
+
+## title
+Compounds formed during a cycle of beta-oxidation
+
+## question
+During each cycle of ongoing Beta-oxidation of fatty acids, all the following compounds are formed EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q11 (src_01ab4268402d32d4d111, p44).
+
+## correct_answer
+C
+
+## answer_a
+NADH
+
+## explanation_a
+Incorrect as an EXCEPT answer — each cycle's 3-hydroxyacyl-CoA dehydrogenase step reduces NAD+ to NADH, so NADH is genuinely produced every turn.
+
+## answer_b
+Acetyl-CoA
+
+## explanation_b
+Incorrect as an EXCEPT answer — the thiolase step of every cycle cleaves off a two-carbon acetyl-CoA unit, which is the whole point of the pathway.
+
+## answer_c
+Fatty Acyl-CoA
+
+## explanation_c
+Correct — this is the exception, as printed. Each cycle regenerates a fatty acyl-CoA shortened by two carbons, so a shortened acyl-CoA persists across cycles rather than being a newly formed product distinct from what entered. The two genuinely new products of each turn are acetyl-CoA and the reduced coenzymes NADH and FADH2.
+
+## answer_d
+FADH2
+
+## explanation_d
+Incorrect as an EXCEPT answer — the acyl-CoA dehydrogenase step at the start of each cycle reduces FAD to FADH2.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Oxidation of fatty acids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## question_only_for
+
+## main_concept
+CON-FND-84BDACCA71AF45
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+List the three genuinely new products of one beta-oxidation cycle (acetyl-CoA, NADH, FADH2), distinguishing them from the shortened acyl-CoA that carries over.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q11.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-NADPH-VS-OXIDATION-001
+
+## title
+Coenzyme not used in fatty acid oxidation
+
+## question
+A coenzyme not used in fatty acid oxidation is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q43 (src_01ab4268402d32d4d111, p49).
+
+## correct_answer
+D
+
+## answer_a
+CoA-SH
+
+## explanation_a
+Incorrect as an EXCEPT answer — coenzyme A is genuinely used, carrying the acyl group throughout beta-oxidation as fatty acyl-CoA.
+
+## answer_b
+NAD
+
+## explanation_b
+Incorrect as an EXCEPT answer — NAD+ is reduced to NADH at the 3-hydroxyacyl-CoA dehydrogenase step of every cycle.
+
+## answer_c
+FAD
+
+## explanation_c
+Incorrect as an EXCEPT answer — FAD is reduced to FADH2 at the acyl-CoA dehydrogenase step of every cycle.
+
+## answer_d
+NADP
+
+## explanation_d
+Correct — this is the exception. Fatty acid oxidation is a purely catabolic, NAD+/FAD-using pathway. NADPH is instead spent, not made, on the opposite process, fatty-acid synthesis, and keeping these two reducing currencies on opposite sides of oxidation versus synthesis is what lets both pathways coexist in the same cell without cancelling each other out.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Cofactors of lipid metabolism
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Cofactors of lipid metabolism
+
+## question_only_for
+
+## main_concept
+CON-FND-4C05D459E80AEF
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+State that NADPH belongs to fatty-acid synthesis, not oxidation, which instead runs on NAD+ and FAD.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q43.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-REFSUM-ALPHA-OXIDATION-001
+
+## title
+Refsum's disease enzyme deficiency
+
+## question
+Refsum's disease is due to lack of enzymes of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q1 (src_01ab4268402d32d4d111, p43).
+
+## correct_answer
+C
+
+## answer_a
+Beta oxidation
+
+## explanation_a
+Incorrect. Beta-oxidation handles ordinary straight-chain fatty acids; a branch methyl group two carbons in, as in phytanic acid, actually blocks beta-oxidation's own thiolase step, which is precisely why a separate pathway is needed for such substrates.
+
+## answer_b
+Omega oxidation
+
+## explanation_b
+Incorrect. Omega-oxidation is a minor pathway oxidising the far end of a fatty acid chain; it is not the pathway defective in Refsum's disease.
+
+## answer_c
+Alpha oxidation
+
+## explanation_c
+Correct. Refsum's disease is a peroxisomal defect of alpha-oxidation, the pathway that removes one carbon at a time from branched-chain fatty acids such as phytanic acid, which cannot enter beta-oxidation directly because of a methyl branch at the beta-carbon. Phytanic acid, derived from dietary phytol, accumulates and causes the disease's neurological and retinal features.
+
+## answer_d
+Desaturation
+
+## explanation_d
+Incorrect. Desaturase enzymes introduce double bonds into fatty acid chains; this is unrelated to the branched-chain oxidation defect that defines Refsum's disease.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Oxidation of fatty acids
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.55
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+45
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Oxidation of fatty acids
+
+## question_only_for
+
+## main_concept
+CON-FND-F8FE239D334F4F
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-FATTY-ACID-OXIDATION
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name alpha-oxidation as the pathway defective in Refsum's disease, and explain why phytanic acid cannot instead be processed by beta-oxidation.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q1.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-KEY-ENZYME-FA-SYNTHESIS-001
+
+## title
+The key enzyme in fatty acid synthesis
+
+## question
+The key enzyme in fatty acid synthesis is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q23 (src_01ab4268402d32d4d111, p46).
+
+## correct_answer
+A
+
+## answer_a
+Acetyl CoA carboxylase
+
+## explanation_a
+Correct. Acetyl-CoA carboxylase catalyses fatty-acid synthesis's committed, rate-limiting step, carboxylating acetyl-CoA to malonyl-CoA using biotin and ATP. Every physiological signal that regulates lipogenesis — insulin activating it, glucagon and epinephrine inhibiting it via phosphorylation, citrate allosterically activating it — converges on this one enzyme.
+
+## answer_b
+Beta hydroxy acyl dehydratase
+
+## explanation_b
+Incorrect. This is one of the repeating-cycle enzymes of the fatty-acid synthase complex itself, not the pathway's separate, rate-limiting entry step.
+
+## answer_c
+Enoyl reductase
+
+## explanation_c
+Incorrect. Like beta-hydroxyacyl dehydratase, this is a cycle enzyme within the fatty-acid synthase complex, reducing the double bond formed by the dehydratase step, not the committed regulatory step.
+
+## answer_d
+Acetyl transacylase
+
+## explanation_d
+Incorrect. This enzyme loads acetyl groups onto the fatty-acid synthase complex's acyl carrier protein; it is a loading step, not the pathway's key regulatory enzyme.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Synthesis of fatty acids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+60
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## question_only_for
+
+## main_concept
+CON-FND-2F3A652B8E3104
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name acetyl-CoA carboxylase as the key, regulated enzyme of fatty-acid synthesis, distinguishing it from the fatty-acid synthase complex's own internal-cycle enzymes.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q23.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-CITRATE-SHUTTLE-001
+
+## title
+Route for acetyl group transfer across the inner mitochondrial membrane in fatty acid synthesis
+
+## question
+In fatty acid synthesis, the transfer of acetyl group across the inner mitochondrial membrane is mainly achieved by means of:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q7 (src_01ab4268402d32d4d111, p43-44).
+
+## correct_answer
+B
+
+## answer_a
+Carnitine shuttle
+
+## explanation_a
+Incorrect. Carnitine carries fatty acyl groups into the mitochondrion for oxidation — the opposite direction and opposite purpose from moving acetyl-CoA out for synthesis.
+
+## answer_b
+Citrate Shuttle
+
+## explanation_b
+Correct. Mitochondrial acetyl-CoA condenses with oxaloacetate to form citrate, which crosses the inner mitochondrial membrane on a citrate transporter; in the cytosol, ATP-citrate lyase splits it back into acetyl-CoA, now available for fatty-acid synthesis, and oxaloacetate. This citrate shuttle is the route acetyl-CoA takes out of the mitochondrion, since acetyl-CoA itself cannot cross the membrane directly.
+
+## answer_c
+Acetyl transferase
+
+## explanation_c
+Incorrect. This names an enzyme class, not the shuttle mechanism that actually moves the two-carbon unit across the membrane as citrate.
+
+## answer_d
+Malonyl-transacylase
+
+## explanation_d
+Incorrect. Malonyl transacylase loads malonyl groups onto the fatty-acid synthase complex within the cytosol; it plays no part in getting acetyl units out of the mitochondrion in the first place.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Synthesis of fatty acids
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of fatty acids
+
+## question_only_for
+
+## main_concept
+CON-FND-FCFC1B5A95695E
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name the citrate shuttle as the route mitochondrial acetyl-CoA takes to reach the cytosol for fatty-acid synthesis, distinct from the carnitine shuttle's opposite job.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q7.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-ADIPOSE-GLYCEROL-3P-001
+
+## title
+Source of glycerol-3-phosphate in adipose tissue
+
+## question
+Glycerol 3-phosphate in adipose tissue arises primarily from:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q65 (src_01ab4268402d32d4d111, p52). The AFM bank's own Q12 gives a different, internally inconsistent answer to this same question ("glycerol kinase acting on glycerol") — recorded in the triage as an unresolved contradiction; this question is authored from Q65's keyed answer, which matches standard teaching.
+
+## correct_answer
+A
+
+## answer_a
+Reduction of dihydroxyacetone phosphate
+
+## explanation_a
+Correct. Adipose tissue lacks glycerol kinase, so it cannot phosphorylate free glycerol at all — glycerol released locally by lipolysis simply diffuses out to the blood rather than being reused. Instead, adipocytes make glycerol 3-phosphate for triacylglycerol synthesis by reducing dihydroxyacetone phosphate, a glycolytic intermediate, with glycerol-3-phosphate dehydrogenase, which is why triacylglycerol synthesis in fat cells depends on glucose availability.
+
+## answer_b
+Hydrolysis of phosphatidic acid
+
+## explanation_b
+Incorrect. Phosphatidic acid is made from glycerol 3-phosphate, not the other way round; hydrolysing it would not supply the starting material this question asks about.
+
+## answer_c
+Phosphorylation of glycerol by glycerokinase
+
+## explanation_c
+Incorrect. This is the route the AFM bank's own Q12 gives, but it does not match standard teaching or this question's own keyed answer: adipose tissue's defining metabolic limitation is precisely that it lacks glycerol kinase, unlike the liver, which does have it.
+
+## answer_d
+Uptake from blood
+
+## explanation_d
+Incorrect. Circulating glycerol is taken up mainly by the liver, which can phosphorylate it directly; adipose tissue is not the tissue that relies on this route.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Synthesis of triacylglycerol
+
+## difficulty
+Hard
+
+## question_type
+Mechanism
+
+## cognitive_effort
+High
+
+## cognitive_effort_score
+0.65
+
+## setting
+Academic
+
+## reasoning_level
+3
+
+## inferred_difficulty
+40
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.3
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Synthesis of triacylglycerol
+
+## question_only_for
+
+## main_concept
+CON-FND-6B469645AE7DBC
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Explain why adipose tissue makes glycerol 3-phosphate by reducing dihydroxyacetone phosphate rather than by phosphorylating free glycerol, given its lack of glycerol kinase.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q65.
+
+## author_notes
+This bank's Q12 asks the identical question and keys the opposite (incorrect-by-standard-teaching) answer; recorded as a bank inconsistency in the triage, not silently harmonised.
+
+## estimated_seconds
+75
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-LIPOPROTEIN-LIPASE-001
+
+## title
+Lipoprotein lipase's own properties
+
+## question
+Lipoprotein lipase:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q4 (src_01ab4268402d32d4d111, p43).
+
+## correct_answer
+D
+
+## answer_a
+Is an intracellular enzyme
+
+## explanation_a
+Incorrect. Lipoprotein lipase is anchored to the luminal surface of capillary endothelium, not held inside a cell, which is where it acts on circulating lipoproteins.
+
+## answer_b
+Functions to mobilize stored triacylglycerols from adipose tissues
+
+## explanation_b
+Incorrect. Mobilising stored fat is hormone-sensitive lipase's job, acting inside the adipocyte; lipoprotein lipase instead acts outside cells, on circulating triacylglycerol-rich lipoproteins.
+
+## answer_c
+Is stimulated by one of the apoproteins present in VLDL
+
+## explanation_c
+Incorrect as printed here — apo C-II, present on both chylomicrons and VLDL, is indeed lipoprotein lipase's activator, but this option's imprecise framing is not what the bank keys as the best description of the enzyme; the complete, correct description is the enzyme's own substrate action.
+
+## answer_d
+Readily hydrolyzes three fatty acids from triacylglycerols
+
+## explanation_d
+Correct. Lipoprotein lipase, sitting on the capillary endothelium and activated by apo C-II, hydrolyses the triacylglycerol carried by chylomicrons and VLDL. Free fatty acids released this way are taken up by adipose tissue and muscle, leaving behind a cholesterol-enriched remnant particle. This is the only option among the four that correctly names both the enzyme's location and its substrate action.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Plasma lipids and lipoproteins
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## question_only_for
+
+## main_concept
+CON-GIT-6CB618DBA50596
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOPROTEIN-MACHINERY
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+State that lipoprotein lipase hydrolyses circulating triacylglycerol at the capillary wall, distinguishing it from intracellular hormone-sensitive lipase.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q4.
+
+## author_notes
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-HDL-PHOSPHOLIPID-001
+
+## title
+Main lipid in nascent HDL
+
+## question
+The main lipid in nascent HDL is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q15 (src_01ab4268402d32d4d111, p45).
+
+## correct_answer
+C
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Incorrect. Cholesterol becomes major only after LCAT esterifies it and it moves into the particle's core as the particle matures; freshly secreted, nascent HDL is not cholesterol-rich.
+
+## answer_b
+Free FA
+
+## explanation_b
+Incorrect. Free fatty acids travel bound to albumin, not packaged inside HDL particles.
+
+## answer_c
+Phospholipids
+
+## explanation_c
+Correct. Nascent HDL is secreted by the liver and intestine as a disc-shaped particle whose main lipid is phospholipid, studded with apolipoproteins including apo A-I. As LCAT esterifies cholesterol picked up from tissues and other lipoproteins, the particle matures into a spherical, cholesteryl-ester-rich HDL.
+
+## answer_d
+TAG
+
+## explanation_d
+Incorrect. Triacylglycerol is the dominant lipid of chylomicrons and VLDL, not of HDL at any stage, nascent or mature.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Plasma lipids and lipoproteins
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.45
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## question_only_for
+
+## main_concept
+CON-GIT-ECB3C2F56DC72D
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOPROTEIN-MACHINERY
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name phospholipid as nascent HDL's major lipid, distinguishing the freshly secreted disc from the mature, cholesteryl-ester-rich particle LCAT produces.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q15.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-KETONE-TISSUES-001
+
+## title
+Tissues capable of oxidising ketone bodies
+
+## question
+Which of the following tissues are capable of oxidizing ketone bodies?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q22 (src_01ab4268402d32d4d111, p46).
+
+## correct_answer
+B
+
+## answer_a
+Liver
+
+## explanation_a
+Incorrect. The liver makes ketone bodies but cannot use them itself, because it lacks thiophorase (succinyl-CoA:3-ketoacid CoA transferase), the enzyme needed to reactivate acetoacetate to acetoacetyl-CoA.
+
+## answer_b
+Heart
+
+## explanation_b
+Correct. Extrahepatic tissues with mitochondria and thiophorase, including heart, skeletal muscle, kidney and, during prolonged starvation, brain, can oxidise ketone bodies for energy. The heart in particular uses them readily, especially when glucose and fatty-acid supply are limited.
+
+## answer_c
+RBCS
+
+## explanation_c
+Incorrect. Red blood cells have no mitochondria at all, so they cannot oxidise ketone bodies, fatty acids, or run the citric acid cycle by any route.
+
+## answer_d
+Plasma
+
+## explanation_d
+Incorrect. Plasma is not a tissue and carries out no metabolism itself; ketone bodies are simply transported in it to the tissues that can use them.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Metabolism of ketone bodies
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.5
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## question_only_for
+
+## main_concept
+CON-END-2E748A37DA660A
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-KETONE-BODY-METABOLISM
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name the heart, and other extrahepatic thiophorase-containing tissues, as ketone-body users, contrasting with the liver, which makes but cannot use them.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q22.
+
+## author_notes
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-CHOLESTEROL-RATE-LIMITING-001
+
+## title
+Rate-limiting step in cholesterol biosynthesis
+
+## question
+The rate limiting step in cholesterol biosynthesis is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q27 (src_01ab4268402d32d4d111, p47).
+
+## correct_answer
+A
+
+## answer_a
+HMG COA reductase
+
+## explanation_a
+Correct. HMG-CoA reductase catalyses the committed, rate-limiting step of cholesterol synthesis, reducing HMG-CoA to mevalonate. It is active in its dephosphorylated state, inhibited by high intracellular cholesterol and by statin drugs, and induced when cellular cholesterol is low, making it the pathway's single most important control point.
+
+## answer_b
+HMG COA synthetase
+
+## explanation_b
+Incorrect. HMG-CoA synthase makes HMG-CoA one step earlier, from acetoacetyl-CoA and acetyl-CoA; it is shared with ketogenesis and is not the pathway's committed, regulated step.
+
+## answer_c
+Thiolase
+
+## explanation_c
+Incorrect. Thiolase condenses two acetyl-CoA molecules to acetoacetyl-CoA at the very start of the pathway, well before the committed step.
+
+## answer_d
+Mevalonate kinase
+
+## explanation_d
+Incorrect. Mevalonate kinase acts immediately after the rate-limiting reductase step; it is not itself rate-limiting.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Cholesterol metabolism
+
+## difficulty
+Easy
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.35
+
+## setting
+Both
+
+## reasoning_level
+1
+
+## inferred_difficulty
+65
+
+## exam_relevance
+7
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Cholesterol metabolism
+
+## question_only_for
+
+## main_concept
+CON-GIT-3A348EEAF118BD
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-CHOLESTEROL-METABOLISM
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name HMG-CoA reductase as cholesterol synthesis's rate-limiting, statin-targeted enzyme.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q27.
+
+## author_notes
+
+## estimated_seconds
+50
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-VLDL-CHYLOMICRON-001
+
+## title
+Chylomicrons carry dietary fat; VLDL carries hepatic fat
+
+## question
+Which of the following statements about chylomicrons and VLDL best describes their transport function?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q45 (src_01ab4268402d32d4d111, p49) and Q28 (p47).
+
+## correct_answer
+A
+
+## answer_a
+Chylomicrons transfer dietary triacylglycerol from the intestine; VLDL transfers hepatic triacylglycerol from the liver to peripheral tissues
+
+## explanation_a
+Correct. Chylomicrons, assembled in intestinal mucosal cells and carrying apo B-48, deliver dietary triacylglycerol to peripheral tissues via the lymphatics and blood. VLDL, assembled in the liver and carrying apo B-100, performs the analogous job for endogenously synthesised triacylglycerol, both particles being stripped of their triglyceride core by lipoprotein lipase at the capillary wall.
+
+## answer_b
+The main lipid of VLDL is cholesterol
+
+## explanation_b
+Incorrect. Like chylomicrons, VLDL is triacylglycerol-rich, not cholesterol-rich; cholesterol becomes dominant only in its downstream remnant, LDL.
+
+## answer_c
+VLDL contains apo B-48 as its main protein
+
+## explanation_c
+Incorrect. Apo B-48 is the intestinal apoprotein carried by chylomicrons; VLDL's defining apoprotein is apo B-100, made by the liver.
+
+## answer_d
+Chylomicrons are important for removal of cholesterol from tissues to the liver
+
+## explanation_d
+Incorrect. Reverse cholesterol transport, moving cholesterol from tissues back to the liver, is HDL's job, not chylomicrons', which move dietary fat in the opposite direction, from gut to tissues.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Plasma lipids and lipoproteins
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Plasma lipids and lipoproteins
+
+## question_only_for
+
+## main_concept
+CON-GIT-33EAF87333AAD5
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-PLASMA-LIPOPROTEINS
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Contrast chylomicrons (dietary, apo B-48, intestinal) with VLDL (hepatic, apo B-100), naming each particle's source, cargo and apoprotein correctly.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q45 and Q28.
+
+## author_notes
+Combines two closely paired AFM items (Q28's VLDL-transport statement and Q45's four-option VLDL/chylomicron comparison) into one composite-option question, since both test the same chylomicron-vs-VLDL distinction; each distractor is traced to its own source option.
+
+## estimated_seconds
+70
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-KETOSIS-CAUSES-001
+
+## title
+Causes of ketosis, all except
+
+## question
+All of the following are causes of ketosis, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q26 (src_01ab4268402d32d4d111, p46).
+
+## correct_answer
+C
+
+## answer_a
+Starvation
+
+## explanation_a
+Incorrect as an EXCEPT answer — starvation lowers insulin and raises anti-insulin hormones, driving fatty-acid oxidation and ketogenesis to fuel the brain when glucose is scarce.
+
+## answer_b
+Severe uncontrolled diabetes mellitus
+
+## explanation_b
+Incorrect as an EXCEPT answer — uncontrolled type 1 diabetes combines very low insulin with high anti-insulin hormone activity, maximally activating lipolysis and ketogenesis, producing diabetic ketoacidosis.
+
+## answer_c
+Nephritic syndrome
+
+## explanation_c
+Correct — this is the exception. Nephritic syndrome is a glomerular inflammatory disorder presenting with haematuria, hypertension and mild proteinuria. It has no recognised mechanism raising ketogenesis, unlike the anti-insulin-driven states in the other three options, which all genuinely increase fatty-acid oxidation and ketone-body production.
+
+## answer_d
+High fat, low carbohydrate diet
+
+## explanation_d
+Incorrect as an EXCEPT answer — a diet very low in carbohydrate forces greater reliance on fatty-acid oxidation for energy, increasing ketone body production even without a hormonal derangement.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Metabolism of ketone bodies
+
+## difficulty
+Moderate
+
+## question_type
+Pathophysiology
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Both
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.7
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Metabolism of ketone bodies
+
+## question_only_for
+
+## main_concept
+CON-END-CC450A236ABF50
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-KETOSIS
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Identify nephritic syndrome as unrelated to ketosis, distinguishing genuine anti-insulin-driven causes from an unrelated renal condition.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q26.
+
+## author_notes
+
+## estimated_seconds
+55
+
+## randomise_answers
+yes
+
+## media_recommendations
+
+## attached_image
+
+## attachments
+
+---
+
+# Item
+
+## id
+QST-FND-LIPID-LIPOLYSIS-HSL-001
+
+## title
+Lipolysis's defining feature
+
+## question
+Lipolysis:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## format
+single best answer
+
+## derived_from
+AFM Biochemistry Questions, Lipid Metabolism Q30 (src_01ab4268402d32d4d111, p47).
+
+## correct_answer
+C
+
+## answer_a
+Is stimulated by insulin
+
+## explanation_a
+Incorrect. Insulin suppresses lipolysis, by promoting dephosphorylation (inactivation) of hormone-sensitive lipase; it is glucagon and epinephrine that stimulate it.
+
+## answer_b
+Is inhibited by glucagon
+
+## explanation_b
+Incorrect. Glucagon activates lipolysis via the cAMP/protein kinase A cascade, the same mechanism it uses to activate glycogen phosphorylase; it does not inhibit it.
+
+## answer_c
+Requires the action of hormone-sensitive lipase
+
+## explanation_c
+Correct. Hormone-sensitive lipase is the key enzyme of lipolysis, hydrolysing stored triacylglycerol in adipocytes to free fatty acids and glycerol. It is activated by phosphorylation under glucagon and epinephrine, via cAMP and protein kinase A, and inactivated by insulin-driven dephosphorylation, the opposite regulatory pattern to acetyl-CoA carboxylase in lipogenesis.
+
+## answer_d
+Requires an apolipoprotein
+
+## explanation_d
+Incorrect. Apolipoproteins are structural and functional components of plasma lipoproteins; lipolysis of stored fat inside the adipocyte has no apolipoprotein requirement.
+
+## topic
+Lipid metabolism
+
+## subtopic
+Regulation of lipolysis and lipogenesis
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+2
+
+## inferred_difficulty
+50
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.4
+
+## academic_relevance
+0.85
+
+## exam_weight_by_year
+AU_Y1=0.45
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+AU-MED-102
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Metabolism > Regulation of lipolysis and lipogenesis
+
+## question_only_for
+
+## main_concept
+CON-FND-1C668119B3C0BB
+
+## concept_ids
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
+
+## resource_ids
+src_01ab4268402d32d4d111
+
+## learning_objective
+Name hormone-sensitive lipase as lipolysis's key enzyme, and state its opposite hormonal regulation to lipogenesis's acetyl-CoA carboxylase.
+
+## source_citation
+AFM Biochemistry Questions (Alexandria University Medical Biochemistry Department), Lipid Metabolism Q30.
+
+## author_notes
+
+## estimated_seconds
+60
 
 ## randomise_answers
 yes
