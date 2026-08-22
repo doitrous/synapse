@@ -164,6 +164,9 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
     fields: [
       ...common,
       { key: 'type', label: 'Practical type', required: true, help: 'OSCE station, Clinical case, Skills checklist, Lab interpretation, or Imaging interpretation.' },
+      { key: 'universities', label: 'University IDs', help: 'Canonical university IDs separated by |, ; or new lines. An empty list means EVERY university.' },
+      { key: 'years', label: 'Year IDs', help: 'Years this station is used in, e.g. KAU_Y1 | KAU_Y2.' },
+      { key: 'module', label: 'Module ID(s)', help: 'Module(s) this station sits under, separated by |, ; or new lines.' },
       { key: 'duration', label: 'Duration', help: 'Expected minutes.' },
       { key: 'marks', label: 'Marks / decisions', help: 'Total marks or number of decisions.' },
       { key: 'difficulty', label: 'Difficulty', help: 'Easy, Moderate, Hard, or Challenging. Whole-item difficulty; a case or interpretation set may also set "Difficulty:" per question.' },
@@ -719,6 +722,18 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
     moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+    // Curriculum scope, which this never read.
+    //
+    // `PracticalCommon` has carried `universityIds`, `yearIds` and `moduleIds`
+    // since stations needed to be assignable to a reviewer, and `itemScope`
+    // reads them — but no column fed them, so every imported practical arrived
+    // with all three empty. Empty means unrestricted, so roughly 190 Kasr
+    // stations were visible to every university's students. `optionalList`
+    // rather than a plain split, so `undefined` still means "column absent,
+    // leave what the practical had" and `+` still appends.
+    universityIds: optionalList(values.universities),
+    yearIds: optionalList(values.years),
+    moduleIds: optionalList(values.module),
     mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
   } as unknown as PracticalCommon

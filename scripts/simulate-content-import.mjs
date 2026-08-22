@@ -102,6 +102,10 @@ const KNOWN_COLUMNS = Object.fromEntries(
   Object.entries(COLUMNS).map(([kind, fields]) => [kind, new Set(fields.map((field) => field.key))]),
 )
 const batches = []
+// Declared before the file loop below, which reports an id-bearing file it
+// cannot type as an error rather than a skip.
+const errors = []
+
 /** Files this run will not apply, reported under `skipped` rather than `errors`. */
 const refused = []
 for (const file of files) {
@@ -112,6 +116,23 @@ for (const file of files) {
   // whatever the fallback guessed, which is how a question batch became sixteen
   // concept upserts. Refuse it, name it, and carry on with the rest.
   if (!(kind in ORDER)) {
+    // A file carrying `## id` rows is content, whatever the detector made of
+    // it — most often an update batch of `id` plus the columns it changes,
+    // which matches no kind's shape and so comes back "unknown". Reported as a
+    // skip and nothing else, this run exited 0 and a lane reading the exit code
+    // saw a clean simulation of a file that applied nothing at all.
+    //
+    // A file with no ids is a different thing — a stray note, a README — and
+    // stays a skip.
+    const carriesIds = rows.some((row) => row.id?.trim())
+    if (carriesIds) {
+      const ids = rows.map((row) => row.id?.trim()).filter(Boolean)
+      errors.push(`${file}: detected as "${kind}", so this run applies none of it — but it carries ${ids.length} row(s) with an id `
+        + `(${ids.slice(0, 3).join(', ')}${ids.length > 3 ? ', …' : ''}). A row with an id is a record somebody meant to import. `
+        + 'Give each row the column its kind is recognised by — a concept needs `label` or `canonical_key`, a question `question`, '
+        + 'an article `summary`, a practical `type`.')
+      continue
+    }
     refused.push(`${file}: detected as "${kind}", which this simulation does not apply. Move it out of the batch directory or add support for it.`)
     continue
   }
@@ -133,7 +154,6 @@ const report = []
 // a fact about the simulator, not a defect in the file. Counting it as an error
 // would fail a run whose data is fine, and `errors.length` is the signal every
 // caller uses to decide whether a batch is safe to import.
-const errors = []
 
 for (const batch of batches) {
   // A column the importer does not recognise is dropped, in silence, along with
