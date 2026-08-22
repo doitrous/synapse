@@ -1446,7 +1446,7 @@ The department book's chapter on limb development treats the lower limb as a who
 The department book gives no dedicated surface marking for the hip joint itself; the femoral artery's surface line, from the mid-inguinal point, passes just in front of it. No radiographic appearance is described in the source, and none is asserted here.
 
 ### Clinical correlations
-The book records the hip as a very stable joint, and gives three reasons: a bony factor, the femoral head fitting well into a deep acetabular socket; a ligamentous factor, the strong capsule and its ligaments, especially the iliofemoral; and a muscular factor, the many strong muscles that surround it. Two groups of clinical points follow directly from the structure above. Fracture of the neck of femur is very common in old age, especially in women, because of osteoporosis, and whether it threatens the blood supply to the head depends on where along the neck it occurs relative to the capsule's posterior attachment and the retinacular vessels it carries. Dislocation of the hip joint may be congenital or traumatic; traumatic posterior dislocation occurs typically in car accidents and may injure the sciatic nerve, which lies immediately posterior to the joint.
+The book records the hip as a very stable joint, and gives three reasons: a bony factor, the femoral head fitting well into a deep acetabular socket; a ligamentous factor, the strong capsule and its ligaments, especially the iliofemoral; and a muscular factor, the many strong muscles that surround it. Two groups of clinical points follow directly from the structure above. Fracture of the neck of femur is very common in old age, especially in women, because of osteoporosis, and whether it threatens the blood supply to the head depends on where along the neck it occurs relative to the capsule's posterior attachment and the retinacular vessels it carries. A classic presentation is a fall in which the limb becomes laterally rotated and noticeably shortened, and the patient cannot lift it off the ground; the shortening comes from the unopposed upward pull of the muscles connecting the femur to the hip bone on the now-mobile proximal fragment, once the neck's own rigidity as a strut is lost. The commonly associated complications are nonunion and avascular necrosis of the femoral head, both consequences of the same poor, easily disrupted retinacular blood supply described above — this last content, beyond the book's own osteoporosis line, is drawn from the department's own exam paper rather than the book itself (see `evidence_basis`). Dislocation of the hip joint may be congenital or traumatic; traumatic posterior dislocation occurs typically in car accidents and may injure the sciatic nerve, which lies immediately posterior to the joint.
 
 ## published_summary
 
@@ -1464,11 +1464,12 @@ Naming the artery of the ligament of the head as the main supply of the adult fe
 Forgetting that the capsule's posterior attachment does not reach the intertrochanteric crest, and answering every neck-of-femur fracture as though it were intracapsular.
 
 ## related_concepts
-CON-MSK-959D95DCE2E022 | CON-MSK-78379D5B8914BC
+CON-MSK-959D95DCE2E022 | CON-MSK-78379D5B8914BC | CON-MSK-FD892596698D24 | CON-MSK-278D880DE7C3B0
 
 ## related_articles
 ART-103-ANA-HIP-JOINT-MOVEMENTS: the movements and the muscles that produce them, taught separately from this article's osteology and blood supply
 ART-103-ANA-ADDUCTOR-CANAL: the medial circumflex femoral artery that gives the acetabular branch here also supplies the adductor canal's neighbouring structures
+ART-103-ANA-OBTURATOR-NERVE: the anterior division of the obturator nerve named here as one of the hip joint's four nerve sources
 
 ## question_ids
 [clear]
@@ -1524,6 +1525,7 @@ needs_evidence
 Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 76 to 81, for the joint's type, articulating bones, capsule, ligaments, ligamentum teres, transverse acetabular ligament, labrum, stability, nerve and arterial supply, and clinical points.
 The same book, page 20, for the acetabular, ascending and transverse branches of the medial circumflex femoral artery.
 The same book, page 115, for the general statement on joint formation by the sixth week, cited under Development.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2021 sitting p6, for the fractured-neck-of-femur case's own model answer — specifically the shortening mechanism (upward pull of the muscles connecting femur to hip bone) and the two named complications (nonunion, avascular necrosis of the femoral head), neither of which the book states by name; the book gives only the osteoporosis and old-age points directly (p81).
 
 ## evidence_gaps
 No claim or citation record exists yet for any statement in this article; authoring one requires a citation-bearing evidence file, which is outside this batch's scope of file ownership (concept/ and article/ only). This article will fail `medical:audit`'s `articleData.spanIds missing` check for that reason — reported as owed, not invented.
@@ -1537,6 +1539,7 @@ No claim or citation record exists yet for any statement in this article; author
 
 ## notes
 Written to close the gap `coverage/101-ISK-untaught-concepts.md` reported: CON-MSK-959D95DCE2E022 (acetabular articular surface) and CON-MSK-78379D5B8914BC (acetabular branch of medial circumflex) were named by no article in either direction. Both now carry this article in their `article_ids`, and both are named here in `related_concepts`.
+Extended to also close two of the eleven missing concepts B7a-103-anatomy-questions.md reported: the hip-ligaments question of the 2025/batch-198 paper (CON-MSK-FD892596698D24, whose content already lived in this article's own "Structure" section) and the fractured-neck-of-femur case of the 2021 sitting (CON-MSK-278D880DE7C3B0), for which the Clinical correlations section was extended with the shortening mechanism and the two named complications, sourced to that paper's own model answer where the book itself is silent.
 
 ## field_notes
 arabicTitle: Provided directly, translated from the department book's own English heading rather than left as a gap.
@@ -2980,6 +2983,1381 @@ questionIds: No question yet tests this article's content.
 claimIds: No claim exists for this article; see evidenceGaps.
 spanIds: No evidence span exists for this article yet, for the same reason. Reported as owed, not invented.
 media: No rights-cleared asset exists for this article; two are requested in media_recommendations. The book's own clinical photographs (meromelia, amelia, cleft hand, brachydactyly, syndactyly, polydactyly, cleft foot) are a further, higher-priority media need not yet filed as a separate request, since they would need rights clearance from the book's own publisher rather than being redrawn.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-FEMORAL-TRIANGLE
+
+## title
+The femoral triangle, femoral sheath and femoral hernia
+
+## arabic_title
+المثلث الفخذي والغمد الفخذي والفتق الفخذي
+
+## aliases
+Femoral triangle
+Boundaries and contents of the femoral triangle
+Femoral sheath
+Femoral canal
+Femoral hernia
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Femoral Triangle
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+8
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The femoral triangle is the gateway between the abdomen and the lower limb, bounded by sartorius, adductor longus and the inguinal ligament. Its floor and roof are muscle and fascia; its contents, from lateral to medial, are the femoral sheath (with its three compartments), the femoral nerve outside that sheath, the lateral cutaneous nerve of the thigh, and the deep inguinal lymph nodes. The sheath's medial compartment, the femoral canal, is short, clinically important, and the pathway of a femoral hernia — a protrusion more common in women, because their canal and ring are wider, and one whose danger is strangulation. This article is the triangle, the sheath and the hernia together, because the book teaches them as one continuous passage; the femoral artery's own relations inside the triangle are taught separately in `ART-103-ANA-FEMORAL-ARTERY`.
+
+## sections
+### Overview and position
+The femoral triangle lies in the upper thigh, immediately below the inguinal ligament, and is the surface through which the abdomen's vessels, nerves and lymphatics reach the lower limb. Its apex continues below into the adductor canal, so the triangle and the canal are one continuous passage for the femoral vessels, interrupted only by a change in name.
+
+### Structure
+The triangle's boundaries are: laterally, the medial border of sartorius; medially, the medial border of adductor longus; above (its base), the inguinal ligament; and its apex, directed downward, formed by sartorius overlapping adductor longus, continuous with the adductor canal. Its floor, from medial to lateral, is adductor longus, pectineus, psoas major and iliacus. Its roof is skin and superficial and deep fasciae; the superficial fascia of the roof itself carries cutaneous nerves (the femoral branch of the genitofemoral nerve), veins (the upper part of the great saphenous vein), arteries (the three superficial branches of the femoral artery — superficial circumflex iliac, superficial external pudendal and superficial epigastric) and the superficial inguinal lymph nodes.
+
+The triangle's own contents, as the book lists them, are four: the femoral sheath; the femoral nerve, with its branches, lying outside that sheath; the lateral cutaneous nerve of the thigh; and the deep inguinal lymph nodes, on the medial side of the femoral vein.
+
+The femoral sheath is a funnel-shaped extension of the deep fascia of the abdomen, surrounding the upper 3–4 cm of the femoral vessels. Its anterior wall extends the fascia transversalis and its posterior wall extends the fascia iliaca. Two antero-posterior septa divide it into three compartments: a lateral compartment holding the femoral artery and the femoral branch of the genitofemoral nerve; an intermediate compartment holding the femoral vein; and a medial compartment, shorter than the other two, the femoral canal, holding a lymph node, lymph vessels and fat.
+
+### Relations
+The femoral canal's clinical importance follows directly from being a short, otherwise-empty potential space next to the vein: it provides room for the vein to distend during muscular exercise; it is a pathway for lymph vessels travelling from the lower limb to the abdomen; and it is the pathway through which a femoral hernia — the abnormal protrusion of a peritoneal pouch — passes. A femoral hernia is more frequent in females, because their femoral ring is wider, on account of a wider female pelvis. The abnormal obturator artery, present in about 30% of people in place of the usual obturator artery, lies medial to the femoral ring and is at operative risk during repair of a strangulated femoral hernia.
+
+### Blood supply, innervation and lymphatics
+The femoral sheath's three compartments carry the femoral artery and vein, and the femoral canal itself carries only lymphatic tissue — a node, vessels and fat — not a vascular structure of its own. The femoral nerve, although it enters the thigh at the same level, is outside the sheath entirely, a distinction the exam tests directly by asking for the triangle's contents. The deep inguinal lymph nodes lie along the medial side of the femoral vein, receiving lymph that has already passed the femoral canal's own node.
+
+### Development
+The department book's chapter on limb development treats the lower limb as a whole rather than region by region; no separate developmental account of the femoral triangle, sheath or canal is given.
+
+### Surface and imaging anatomy
+The femoral pulse is palpable at the mid-inguinal point, midway between the anterior superior iliac spine and the pubic symphysis, which marks where the femoral artery lies inside the sheath's lateral compartment as it enters the triangle. The book gives no radiographic appearance for the triangle or the sheath, and none is asserted here.
+
+### Clinical correlations
+A femoral hernia presents as a globular swelling in the groin, below and lateral to the pubic tubercle (which distinguishes it on examination from an inguinal hernia), that characteristically becomes smaller when the patient lies down. Strangulation — compression of the herniated bowel's blood supply by the canal's narrow, rigid boundaries — is the hernia's dangerous and common complication, and is why a femoral hernia, unlike many inguinal ones, is generally repaired promptly rather than watched. At operation, the surgeon must remember that an abnormal obturator artery, when present, runs medial to the femoral ring and can be injured while widening the ring to release a strangulated hernia.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+The femoral sheath has three compartments: lateral (femoral artery, femoral branch of genitofemoral nerve), intermediate (femoral vein), medial (the femoral canal — a lymph node, lymph vessels and fat only).
+The femoral nerve lies outside the femoral sheath, not inside it — a frequent source of lost marks.
+The femoral canal is a pathway for a femoral hernia; the femoral ring is the canal's opening into the abdomen.
+Femoral hernia is more common in females because their femoral canal and ring are wider (wider pelvis); its dangerous complication is strangulation.
+
+## lose_the_mark
+Placing the femoral nerve inside the femoral sheath, alongside the artery and vein. It lies lateral to and outside the sheath.
+Giving the femoral canal the femoral artery or vein as content. It contains only a lymph node, lymph vessels and fat.
+Confusing "femoral ring" (the canal's abdominal opening) with "femoral canal" (the potential space itself) — the exam asks for both, separately.
+
+## related_concepts
+CON-MSK-BBFDC0AC14A819 | CON-MSK-9D013840078D50 | CON-MSK-EE2928A0211198
+
+## related_articles
+ART-103-ANA-FEMORAL-ARTERY: the femoral artery's own four-aspect relations inside this same triangle, taught separately from its contents
+ART-103-ANA-ADDUCTOR-CANAL: the passage the triangle's apex continues into
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Femoral Triangle
+
+## university_notes
+kau: The department book gives the femoral triangle's contents, the femoral sheath's structure, and the femoral hernia's definition as one continuous run of text (pp.10-12) with no sub-headings separating them, which is why this article teaches all three concepts together rather than splitting them into separate articles.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The femoral triangle's boundaries with the femoral sheath's three compartments
+Purpose: Teaches CON-MSK-BBFDC0AC14A819 and CON-MSK-9D013840078D50. The examiner's own answer is a compartment-by-compartment list; a single cross-sectional diagram through the upper thigh, showing the lateral, intermediate and medial (femoral canal) compartments side by side with their contents labelled, replaces a memorised list with a spatial picture.
+Priority: required
+Status: needed
+Section: Structure
+
+### diagram · Femoral hernia passing through the femoral canal and ring
+Purpose: Teaches CON-MSK-EE2928A0211198. The femoral ring/canal distinction is the part students lose marks on; a labelled sagittal or coronal schematic showing the ring as the canal's abdominal opening, with a hernia sac passing through both, fixes the two terms to two different structures at a glance.
+Priority: strongly helpful
+Status: needed
+Section: Clinical correlations
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), page 10, for the femoral triangle's boundaries, floor, roof and four contents, and the femoral sheath's walls and three compartments.
+The same book, page 11, for the femoral sheath's own labelled figure and caption.
+The same book, page 12, for the femoral canal's three clinical points and the femoral hernia's definition and female predisposition.
+The same book, page 24, for the abnormal obturator artery's relation to the femoral ring.
+EOY (BMS - 103) 198 Solved (1).pdf (src_4b8582402b55eae3bfd9), question 1, p1, for the femoral-triangle-contents answer as the department itself expects it stated.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2021 sitting p3 and 2022 sitting p22, for the femoral sheath and femoral hernia questions and their own model answers, including the femoral ring's definition, which the book itself does not state in so many words.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file, outside this batch's file ownership (concept/ and article/ only). Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close three of the eleven missing concepts B7a-103-anatomy-questions.md reported: the femoral-triangle-contents question of the 2025/batch-198 paper, the femoral-sheath question of the 2021 sitting, and the femoral-hernia case of the 2022 sitting. All three are taught in one article because the book itself teaches them as one continuous passage of text with no sub-headings between them.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English headings.
+nanotopicId: The microtopic "Femoral Triangle" is already the most precise node the book's own chapter structure supports for all three concepts this article covers.
+questionIds: No question is authored yet against this specific article id; the three source questions (batch-198 Q1, 2021 Q3, 2022 Case 2) are written in written/103-BMS-EOY-2025-anatomy-written-2.md and written/103-BMS-EOY-2021-anatomy-written.md and written/103-BMS-EOY-2022-anatomy-written.md, each naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; two are requested in media_recommendations.
+conflicts: The department book and the two exam papers' own model answers agree throughout; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-FEMORAL-ARTERY
+
+## title
+The femoral artery: origin, course and relations in the femoral triangle and adductor canal
+
+## arabic_title
+الشريان الفخذي: المنشأ والمسار والعلاقات
+
+## aliases
+Femoral artery
+Relations of the femoral artery
+Surface anatomy of the femoral artery
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Femoral Artery
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The femoral artery is the external iliac artery's continuation below the inguinal ligament, superficial in the femoral triangle and deep in the adductor canal, ending at the adductor hiatus as the popliteal artery. Its relations change completely between the two segments — a single "relations of the femoral artery" question in fact asks for eight separate facts, four aspects in each of two locations — which is why the department repeatedly tests it as one combined question rather than two. This article gives the triangle and the canal relations side by side; the canal's own boundaries are taught separately in `ART-103-ANA-ADDUCTOR-CANAL`.
+
+## sections
+### Overview and position
+The femoral artery begins behind the inguinal ligament, at the mid-inguinal point, as the continuation of the external iliac artery. Its upper half is superficial, lying in the femoral triangle; its lower half is deep, lying in the adductor canal. It ends at the opening in adductor magnus (the adductor hiatus), where it enters the popliteal fossa and becomes the popliteal artery. The upper 1.5 inches of the artery are enclosed with the femoral vein inside the femoral sheath. With the thigh slightly flexed, abducted and laterally rotated, its surface line runs along the upper two-thirds of a line from the mid-inguinal point to the adductor tubercle.
+
+### Structure
+The femoral artery's principal branches in this course are the profunda femoris (given off in the triangle) and, in the adductor canal, the descending genicular artery, which contributes to the anastomosis around the knee.
+
+### Relations
+In the femoral triangle: anteriorly, skin, fascia and the femoral sheath; posteriorly, iliopsoas, pectineus and adductor longus; laterally, the femoral nerve, the femoral branch of the genitofemoral nerve and the saphenous nerve; medially, the femoral vein, in the upper part of the triangle.
+
+In the adductor canal: anteriorly, the fibrous roof of the canal and sartorius; posteriorly, adductor longus (which separates the artery from the profunda femoris vessels), then adductor magnus, and the femoral vein, in the upper part of the canal; laterally, the saphenous nerve, in the upper part of the canal, and vastus medialis with its own nerve; medially, the saphenous nerve, in the lower part of the canal, having crossed the artery from lateral to medial.
+
+### Blood supply, innervation and lymphatics
+The femoral artery is itself the supply, not the supplied; its own name changes at each end (external iliac above, popliteal below) rather than it having a nerve or blood supply of its own. The femoral vein runs alongside it throughout, medial in the upper triangle and again in the upper canal, but posterior to the artery in between, inside the femoral sheath's upper part and again deeper in the canal.
+
+### Development
+The department book's chapter on limb development treats the lower limb's vasculature as part of its general account of limb bud formation, without a separate developmental description of the femoral artery itself.
+
+### Surface and imaging anatomy
+The femoral pulse is palpated at the mid-inguinal point. With the thigh slightly flexed, abducted and laterally rotated, the artery's surface marking is the upper two-thirds of a line drawn from the mid-inguinal point to the adductor tubercle — the same posture used clinically to bring the vessel closest to the skin for palpation or cannulation.
+
+### Clinical correlations
+Because the artery's relations reverse themselves between the triangle and the canal, a penetrating injury's likely damage to neighbouring structures depends on exactly where along the thigh it occurs — anterior wounds in the triangle risk the skin and fascia only, while anterior wounds in the canal risk sartorius and the canal's own fibrous roof. The femoral pulse's surface line is also the landmark for femoral arterial or venous catheterisation as it passes through the triangle.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Origin: continuation of the external iliac artery at the mid-inguinal point. End: adductor hiatus, becoming the popliteal artery.
+Triangle relations: anterior — skin/fascia/sheath; posterior — iliopsoas, pectineus, adductor longus; lateral — femoral nerve, genitofemoral branch, saphenous nerve; medial — femoral vein (upper part).
+Canal relations: anterior — fibrous roof and sartorius; posterior — adductor longus then adductor magnus, femoral vein (upper part); lateral — saphenous nerve (upper part), vastus medialis and its nerve; medial — saphenous nerve (lower part).
+
+## lose_the_mark
+Answering "relations of the femoral artery" with only one location's four aspects instead of both the triangle's and the canal's — the exam credits both.
+Placing the femoral vein medial to the artery throughout its course. It is medial only in the upper triangle and the upper canal; it lies posterior to the artery in between.
+Forgetting the saphenous nerve crosses the artery inside the canal — lateral in the upper canal, medial in the lower canal — rather than staying on one side.
+
+## related_concepts
+CON-MSK-5566B15D2C577E
+
+## related_articles
+ART-103-ANA-ADDUCTOR-CANAL: the same vessel's course through the canal, described there from the canal's own three-wall perspective
+ART-103-ANA-FEMORAL-TRIANGLE: the triangle's boundaries and other contents, taught separately from the artery's own relations here
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Femoral Artery
+
+## university_notes
+kau: The department book (p17-18) and the 2021 exam paper's own model answer are structured identically — origin/course/end, then relations split by triangle and canal — which this article reproduces directly rather than re-organising.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The femoral artery's four-aspect relations, triangle versus canal, side by side
+Purpose: Teaches CON-MSK-5566B15D2C577E. The single hardest part of this question is holding two four-aspect lists in mind at once without mixing them; a side-by-side cross-sectional pair, triangle on the left and canal on the right, keeps the two sets of relations visually separate.
+Priority: required
+Status: needed
+Section: Relations
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 17-18, for the femoral artery's origin, course, end, surface anatomy and its full relations in both the femoral triangle and the adductor canal, including the labelled figure on page 18.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2021 sitting p4, for the question and its own model answer, confirming the department expects both locations' relations in one answer.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the femoral-artery-relations gap B7a-103-anatomy-questions.md reported for the 2021 sitting's question 4. The four single-aspect relation concepts already live in this file (adductor-canal anterior/posterior relations, femoral-triangle anterior relations) each answer one quarter of what this article's own concept asks for; none was merged into it, for the reasons recorded in that concept's own `field_notes`.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The microtopic "Femoral Artery" is already the most precise node the book's own chapter structure supports.
+questionIds: No question is authored yet against this specific article id; the source question (2021 sitting, question 4) is written in written/103-BMS-EOY-2021-anatomy-written.md, naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and the 2021 paper's own model answer agree word for word; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-GLUTEUS-MAXIMUS
+
+## title
+Gluteus maximus
+
+## arabic_title
+العضلة الألوية الكبرى
+
+## aliases
+Gluteus maximus
+Attachments, nerve supply and action of gluteus maximus
+Largest muscle in the body
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Gluteal Region
+
+## microtopic
+Muscles of the Gluteal Region
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M01
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Gluteus maximus is the largest muscle in the body and the main extensor of the hip joint, and it is repeated almost every sitting of this module's end-of-year exam. Its origin, insertion (mostly into the iliotibial tract rather than bone), inferior gluteal nerve supply, and its three actions are the department's own five-mark answer, word for word, across at least two sittings four years apart.
+
+## sections
+### Overview and position
+Gluteus maximus forms the bulk of the buttock, the most superficial of the three glutei, covering gluteus medius, the six lateral rotators, and the sciatic nerve as it emerges from the pelvis.
+
+### Structure
+It arises from the outer gluteal surface of the ilium behind the posterior gluteal line, the posterior surface of the sacrum and coccyx, and the back of the sacrotuberous ligament. Its fibres pass downward and laterally. The superficial three-quarters insert into the posterior border of the upper part of the iliotibial tract; the deep one-quarter inserts into the floor of the gluteal tuberosity of the femur — so most of the muscle's pull is transmitted through a fascial band, not directly onto bone.
+
+### Relations
+The muscle is superficial to, and thick enough to protect, the sciatic nerve, the other lateral rotators, and the neurovascular structures leaving the pelvis through the greater sciatic foramen; the sciatic nerve's own course places it deep to gluteus maximus at the point midway between the greater trochanter and the ischial tuberosity.
+
+### Blood supply, innervation and lymphatics
+Gluteus maximus is supplied by the inferior gluteal nerve — a single nerve for the whole muscle, unlike gluteus medius and minimus, which share the superior gluteal nerve with tensor fasciae latae.
+
+### Development
+The department book's chapter on limb development treats the lower limb as a whole; no separate developmental account of gluteus maximus is given.
+
+### Surface and imaging anatomy
+The muscle's bulk and thickness are why intramuscular injections are given into it; the book gives no radiographic appearance and none is asserted here.
+
+### Clinical correlations
+Gluteus maximus's great thickness makes it an ideal site for intramuscular injection; to avoid injuring the sciatic nerve running deep to it, the injection is given in the upper outer quadrant of the buttock. Functionally, it is the main hip extensor in rising from sitting, a lateral rotator and abductor of the hip, and it tightens the iliotibial tract to help keep the knee extended in standing and walking — three actions in one muscle, all tested together on the exam's own five-mark question.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Origin: gluteal surface of ilium behind the posterior gluteal line; sacrum and coccyx; sacrotuberous ligament.
+Insertion: superficial three-quarters into the iliotibial tract; deep one-quarter into the gluteal tuberosity.
+Nerve supply: inferior gluteal nerve.
+Action: main extensor of the hip; lateral rotator and abductor of the hip; tightens the iliotibial tract to keep the knee extended in standing.
+Clinical: intramuscular injections go in the upper outer quadrant of the buttock, to avoid the sciatic nerve deep to the muscle.
+
+## lose_the_mark
+Naming the superior gluteal nerve as the supply. That nerve is for gluteus medius, minimus and tensor fasciae latae; gluteus maximus alone takes the inferior gluteal nerve.
+Saying the whole muscle inserts onto the femur. Only the deep quarter does; the much larger superficial three-quarters insert into the iliotibial tract.
+Forgetting the knee-stabilising action via the iliotibial tract, and giving only hip extension.
+
+## related_concepts
+CON-MSK-12FC6A14AE2740
+
+## related_articles
+ART-103-ANA-SCIATIC-NERVE: the nerve running deep to this muscle, at risk from a badly placed injection
+ART-103-ANA-HIP-JOINT-MOVEMENTS: the hip's own movements article, where gluteus maximus is named as the prime mover of extension
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Gluteal Region > Muscles of the Gluteal Region
+
+## university_notes
+kau: The department book (p27) and both the 2021 and 2025/batch-198 papers' own model answers give this muscle's attachments, nerve and action in an identical order and wording, so a Kasr answer should follow that same order: origin, insertion, nerve, action.
+
+## annotations
+
+## media
+
+## media_recommendations
+### anatomy plate · Gluteus maximus with its insertion split between the iliotibial tract and the gluteal tuberosity
+Purpose: Teaches CON-MSK-12FC6A14AE2740. Students routinely answer "inserts on the femur" without qualification; a plate that visibly shows three-quarters of the muscle's bulk running into the fascial tract rather than bone corrects this in one image.
+Priority: strongly helpful
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), page 27, for the muscle's origin, insertion, nerve supply, action and the intramuscular-injection clinical note.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2021 sitting p1, and EOY (BMS - 103) 198 Solved (1).pdf (src_4b8582402b55eae3bfd9), question 3, p2, for the same content examined in two separate sittings.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the gluteus-maximus gap B7a-103-anatomy-questions.md reported for both the 2021 sitting's question 1 and the 2025/batch-198 sitting's question 3 — the same muscle, examined twice, four sittings apart, in identical wording.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The microtopic "Muscles of the Gluteal Region" is already the most precise node the book's own chapter structure supports; the book's own numbered entry, "1- Gluteus maximus", is carried in the article title.
+questionIds: No question is authored yet against this specific article id; the two source questions are written in written/103-BMS-EOY-2021-anatomy-written.md and written/103-BMS-EOY-2025-anatomy-written-2.md, each naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and both exam papers' own model answers agree word for word; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-POPLITEAL-ARTERY
+
+## title
+The popliteal artery and the anastomosis around the knee
+
+## arabic_title
+الشريان المأبضي والمفاغرة حول الركبة
+
+## aliases
+Popliteal artery
+Origin, course, end and branches of the popliteal artery
+Anastomosis around the knee
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+Popliteal Fossa
+
+## microtopic
+Popliteal Artery
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M03
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The popliteal artery is the femoral artery's own continuation through the popliteal fossa, the deepest structure there, ending by splitting into the anterior and posterior tibial arteries. Its five articular branches, together with branches of the femoral, profunda femoris and posterior tibial arteries, build a ten-vessel anastomotic ring around the knee that keeps the joint perfused even if the popliteal artery itself is narrowed.
+
+## sections
+### Overview and position
+The popliteal artery occupies the popliteal fossa, the diamond-shaped hollow behind the knee, where it is the deepest of the fossa's contents — lying directly on the fossa's floor, with the popliteal vein and the tibial nerve superficial to it in turn.
+
+### Structure
+It is the continuation of the femoral artery at the opening in adductor magnus (the adductor hiatus), at the junction of the middle and lower thirds of the thigh. It ends below, at the lower border of popliteus, by dividing into the anterior and posterior tibial arteries.
+
+### Relations
+Because it lies on the floor of the fossa, the popliteal artery is the structure most protected from a direct posterior blow, but also the one most at risk in a posterior knee dislocation or in surgery approaching the fossa from behind, precisely because everything else (vein, nerve) must be moved aside first to reach it.
+
+### Blood supply, innervation and lymphatics
+Its branches are: muscular branches to the hamstring and calf muscles; five articular branches — the superior and inferior medial genicular, the superior and inferior lateral genicular, and the middle genicular arteries; and its two terminal branches, the anterior and posterior tibial arteries. The five articular branches are the popliteal artery's own contribution to the ten-vessel anastomosis around the knee, alongside the descending branch of the lateral circumflex femoral and the descending genicular (from the femoral artery), the circumflex fibular (from the posterior tibial artery), and the anterior and posterior recurrent genicular arteries (from the anterior tibial artery).
+
+### Development
+The department book's chapter on limb development treats limb vasculature as part of its general account of limb bud formation, without a separate developmental description of the popliteal artery.
+
+### Surface and imaging anatomy
+The book gives no surface marking or radiographic appearance for the popliteal artery specifically, and none is asserted here.
+
+### Clinical correlations
+Because it is the deepest structure in the fossa, the popliteal artery is relatively protected from superficial trauma but is the vessel most at risk in a posterior dislocation of the knee, since the joint's own displacement can stretch or tear it where it is tethered at the adductor hiatus above and the soleal arch below. The rich genicular anastomosis around the knee is what allows the joint to remain viable, at least in the short term, if the popliteal artery itself is occluded — the same collateral network is the reason a popliteal aneurysm or occlusion can present insidiously rather than with sudden limb-threatening ischaemia.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Origin: continuation of the femoral artery at the adductor hiatus. End: divides into anterior and posterior tibial arteries at the lower border of popliteus.
+It is the deepest structure in the popliteal fossa, lying on its floor.
+Branches: muscular (hamstring and calf); five articular (superior/inferior medial genicular, superior/inferior lateral genicular, middle genicular); two terminal (anterior and posterior tibial).
+Its five genicular branches are part of a ten-vessel anastomosis around the knee, fed also by the femoral, profunda femoris and posterior tibial arteries.
+
+## lose_the_mark
+Saying the popliteal artery is superficial in the fossa. It is the deepest structure there — vein and nerve lie superficial to it.
+Undercounting the articular branches at three or four instead of five.
+Crediting the descending genicular artery to the popliteal artery. It is a branch of the femoral artery, given off in the adductor canal, that joins the same anastomosis.
+
+## related_concepts
+CON-MSK-8E782A7460730E
+
+## related_articles
+ART-103-ANA-ADDUCTOR-CANAL: the femoral artery's own course immediately proximal to this vessel
+ART-103-ANA-POSTERIOR-TIBIAL-ARTERY: one of this artery's two terminal branches
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Popliteal Fossa > Popliteal Artery
+
+## university_notes
+kau: The department book (p45) prints the popliteal artery and "Anastomosis around the knee" as two consecutive but separate headings; this article keeps the artery's own branches and the wider anastomosis together, since the five genicular branches are the artery's own half of that same anastomosis.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The ten-vessel anastomosis around the knee, by parent artery
+Purpose: Teaches CON-MSK-8E782A7460730E. The exam question is specifically "branches", and the five genicular branches are far more memorable placed on a single ring diagram, colour-coded by which of the four parent arteries (femoral, profunda femoris, popliteal, posterior tibial and anterior tibial) each one comes from, than as a bare list.
+Priority: required
+Status: needed
+Section: Blood supply, innervation and lymphatics
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), page 45, for the popliteal artery's origin, course, end, branches, and the ten-vessel anastomosis around the knee.
+EOY (BMS - 103) 198 Solved (1).pdf (src_4b8582402b55eae3bfd9), question 4, p2, for the question and its own model answer.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the popliteal-artery gap B7a-103-anatomy-questions.md reported for the 2025/batch-198 sitting's question 4.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The microtopic "Popliteal Artery" is already the most precise node the book's own chapter structure supports.
+questionIds: No question is authored yet against this specific article id; the source question is written in written/103-BMS-EOY-2025-anatomy-written-2.md, naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and the 2025/batch-198 paper's own model answer agree word for word; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-OBTURATOR-NERVE
+
+## title
+The obturator nerve and obturator artery
+
+## arabic_title
+العصب السدادي والشريان السدادي
+
+## aliases
+Obturator nerve
+Origin and branches of the obturator nerve
+Obturator artery
+Abnormal obturator artery
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Obturator nerve
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+6
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The obturator nerve is the lumbar plexus's own supply to the medial compartment of the thigh, reaching it through the obturator canal and splitting there into an anterior and a posterior division, each with its own muscular targets and its own joint — hip for the anterior division, knee for the posterior. Its companion, the obturator artery, shares the same canal and carries one clinically important variant: an abnormal replacement that runs where a surgeon repairing a strangulated femoral hernia does not expect it.
+
+## sections
+### Overview and position
+The obturator nerve and obturator artery both leave the pelvis through the obturator canal, in company with each other, to reach the medial (adductor) compartment of the thigh — the only major nerve and named artery in the lower limb to use this particular route.
+
+### Structure
+The obturator nerve is a branch of the lumbar plexus in the abdomen, arising from the ventral divisions of the anterior primary rami of the second, third and fourth lumbar nerves. It appears at the medial side of psoas major, descends on the side of the pelvis with the obturator vessels, and passes through the obturator canal to reach the medial compartment of the thigh, dividing there into an anterior and a posterior division.
+
+The obturator artery begins inside the pelvis, from the anterior division of the internal iliac artery. It passes forward on the side of the pelvis with the obturator nerve and enters the thigh through the same obturator canal, where it too divides into anterior and posterior terminal branches, giving muscular branches to the medial compartment and a branch to the head of the femur along the ligament of the head.
+
+### Relations
+The anterior division of the obturator nerve passes in front of adductor brevis, between it and adductor longus; the posterior division passes behind adductor brevis, between it and adductor magnus — the two divisions sandwich adductor brevis between them, which is why that muscle alone receives branches from both.
+
+### Blood supply, innervation and lymphatics
+The anterior division's muscular branches go to adductor longus, adductor brevis and gracilis, and may give an additional branch to pectineus; its articular branch goes to the hip joint, and its cutaneous branch supplies a limited area of skin on the medial side of the thigh. The posterior division's muscular branches go to obturator externus, adductor brevis and the pubic part of adductor magnus; its articular branch goes to the knee joint. In about 30% of people, the obturator artery is absent and replaced by a pubic branch of the inferior epigastric artery, arising inside the pelvis; this abnormal vessel lies medial to the femoral ring.
+
+### Development
+The department book's chapter on limb development treats the lower limb as a whole; no separate developmental account of the obturator nerve or artery is given.
+
+### Surface and imaging anatomy
+Neither the obturator nerve nor the obturator artery has a surface marking described in the department book, and none is asserted here.
+
+### Clinical correlations
+The abnormal obturator artery, when present, lies medial to the femoral ring and may be injured during surgery on a strangulated femoral hernia, when the ring is being widened to release the trapped bowel — the reason this variant is taught alongside, rather than separately from, the femoral hernia itself. The obturator nerve's articular branch to the hip is one of the four sources of the hip joint's own nerve supply, which is why hip disease can occasionally present with obturator-distribution medial-thigh or knee pain.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Origin: lumbar plexus, ventral divisions of the anterior rami of L2, L3 and L4.
+Course: medial margin of psoas major, then the obturator canal, dividing into anterior and posterior divisions in the thigh.
+Anterior division: adductor longus, adductor brevis, gracilis (± pectineus); hip joint; cutaneous branch to medial thigh.
+Posterior division: obturator externus, adductor brevis, pubic part of adductor magnus; knee joint.
+The abnormal obturator artery (about 30% of people) lies medial to the femoral ring and is an operative hazard in a strangulated femoral hernia.
+
+## lose_the_mark
+Giving the obturator nerve's branches as one undivided list instead of splitting them correctly between the anterior and posterior divisions.
+Assigning the hip joint to the posterior division and the knee joint to the anterior division — it is the reverse: anterior division to hip, posterior division to knee.
+Forgetting adductor brevis receives branches from both divisions, not only one.
+
+## related_concepts
+CON-MSK-6614EA58CFAF9C
+
+## related_articles
+ART-103-ANA-HIP-JOINT-STRUCTURE: the hip joint whose nerve supply includes this nerve's anterior division
+ART-103-ANA-FEMORAL-TRIANGLE: the femoral hernia whose operative risk from the abnormal obturator artery is described there
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Obturator nerve
+
+## university_notes
+kau: The department book (pp.23-24) prints the obturator nerve and obturator artery as two consecutive headings, the artery's own abnormal-variant note placed directly beneath it; this article keeps them together for the same reason the femoral triangle article keeps the sheath and the hernia together.
+
+## annotations
+
+## media
+
+## media_recommendations
+### diagram · The obturator nerve's anterior and posterior divisions around adductor brevis
+Purpose: Teaches CON-MSK-6614EA58CFAF9C. The exam turns on which division supplies which muscle and which joint; a cross-sectional diagram of the medial thigh showing adductor brevis sandwiched between the two divisions, each labelled with its own muscular and articular targets, replaces two memorised lists with one picture.
+Priority: required
+Status: needed
+Section: Blood supply, innervation and lymphatics
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 23-24, for the obturator nerve's origin, course, branches by division, and the obturator artery's origin, course and abnormal variant.
+EOY (BMS - 103) 198 Solved (1).pdf (src_4b8582402b55eae3bfd9), question 5, p3, for the question and its own model answer.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the obturator-nerve gap B7a-103-anatomy-questions.md reported for the 2025/batch-198 sitting's question 5.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English headings.
+nanotopicId: The microtopic "Obturator nerve" is already the most precise node the book's own chapter structure supports.
+questionIds: No question is authored yet against this specific article id; the source question is written in written/103-BMS-EOY-2025-anatomy-written-2.md, naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and the 2025/batch-198 paper's own model answer agree word for word; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-QUADRICEPS-FEMORIS
+
+## title
+Quadriceps femoris
+
+## arabic_title
+العضلة الرباعية الفخذية
+
+## aliases
+Quadriceps femoris
+Attachments, nerve supply and action of quadriceps femoris
+Rectus femoris
+Vastus lateralis
+Vastus medialis
+Vastus intermedius
+Articularis genus
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Muscles of Front of Thigh
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Quadriceps femoris is four muscles that act as one: rectus femoris, vastus lateralis, vastus medialis and vastus intermedius, each with its own femoral origin, converging on a single tendon that inserts by way of the patella and patellar ligament onto the tibial tuberosity. It is the only extensor of the knee, and rectus femoris alone, by also crossing the hip, adds hip flexion to the group's repertoire.
+
+## sections
+### Overview and position
+Quadriceps femoris occupies almost the whole of the front and sides of the thigh, deep to sartorius, and is the largest and most powerful muscle group in the body.
+
+### Structure
+Rectus femoris arises by two heads: a straight head from the anterior inferior iliac spine, and a reflected head from a depression just above the acetabulum. Vastus lateralis arises from the upper part of the intertrochanteric line, the root of the greater trochanter, the lateral lip of the gluteal tuberosity, and the upper half of the lateral lip of the linea aspera. Vastus medialis arises from the lower part of the intertrochanteric line, the spiral line, the medial lip of the linea aspera, and the upper half of the medial supracondylar line. Vastus intermedius arises from the upper two-thirds of the anterior and lateral surfaces of the femur; its deep, lower fibres form a small slender muscle, articularis genus, which arises from the lower front of the femur and inserts into the upper part of the synovial membrane of the knee joint. The tendons of all four heads unite into one strong tendon inserting into the base of the patella and, through the patellar ligament, the tuberosity of the tibia.
+
+### Relations
+Rectus femoris lies most superficially of the four heads and is the only one to cross both the hip and the knee joints; the three vasti surround the femoral shaft (lateral, medial and intermediate) and act on the knee only.
+
+### Blood supply, innervation and lymphatics
+The whole muscle group is supplied by the femoral nerve; its branch to vastus intermedius also supplies articularis genus.
+
+### Development
+The department book's chapter on limb development treats limb musculature as part of its general account of somite-derived limb-bud tissue, without a separate developmental description of quadriceps femoris.
+
+### Surface and imaging anatomy
+The four heads are palpable individually on the anterior and lateral thigh with the knee actively extended against resistance; the patellar tendon reflex tests the integrity of this muscle group and its femoral-nerve supply (L2-L4).
+
+### Clinical correlations
+Powerful extension of the knee joint is the group's chief action, and flexion of the hip joint through rectus femoris is its second, since that head alone crosses the hip. The lower fibres of vastus medialis help stabilise the patella against the lateral pull of the iliotibial tract, so weakness there specifically (not the group generally) is implicated in patellar maltracking. Articularis genus pulls the synovial membrane of the knee joint upward during extension, preventing it from being pinched between the femur and patella. Injury to the femoral nerve, which supplies the whole group, paralyses the quadriceps and abolishes active knee extension, though the joint can still be extended passively with help from the iliotibial tract.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Four heads: rectus femoris (straight head from AIIS, reflected head above acetabulum), vastus lateralis, vastus medialis, vastus intermedius (with articularis genus as its deep lower fibres).
+Single insertion for all four: base of patella, then tibial tuberosity via the patellar ligament.
+Nerve supply: femoral nerve (branch to vastus intermedius also supplies articularis genus).
+Actions: powerful knee extension; hip flexion via rectus femoris only; patellar stabilisation via vastus medialis; synovial membrane elevation via articularis genus.
+
+## lose_the_mark
+Giving quadriceps femoris only one action, knee extension, and missing that rectus femoris, uniquely among the four heads, also flexes the hip.
+Treating articularis genus as a separate fifth muscle rather than naming it as the deep, lower fibres of vastus intermedius.
+Saying femoral nerve injury abolishes knee extension outright — active extension is lost, but the book notes the joint can still be extended passively via the iliotibial tract.
+
+## related_concepts
+CON-MSK-D50900A41BC52B
+
+## related_articles
+ART-103-ANA-FEMORAL-NERVE: the single nerve supplying this whole muscle group
+ART-103-ANA-KNEE-JOINT: the joint this group extends, and whose patellar ligament is the group's own insertion
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Muscles of Front of Thigh
+
+## university_notes
+kau: The department book (pp.4-6) numbers quadriceps femoris "2- Quadriceps femoris" under "Muscles of Front of Thigh", directly after sartorius; this article follows the book's own four-heads-then-shared-insertion structure.
+
+## annotations
+
+## media
+
+## media_recommendations
+### anatomy plate · The four heads of quadriceps femoris with their separate femoral origins
+Purpose: Teaches CON-MSK-D50900A41BC52B. The exam's own answer lists four separate origins that converge on one insertion; a single plate of the anterior femur with all four origins labelled in place removes the need to memorise four disconnected phrases.
+Priority: required
+Status: needed
+Section: Structure
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 4-6, for the four heads' origins, the shared insertion, nerve supply and four actions, including articularis genus.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2022 sitting p17, for the question and its own model answer.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the quadriceps-femoris gap B7a-103-anatomy-questions.md reported for the 2022 sitting's question 1.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The microtopic "Muscles of Front of Thigh" is already the most precise node the book's own chapter structure supports; the book's own numbered entry, "2- Quadriceps femoris", is carried in the article title.
+questionIds: No question is authored yet against this specific article id; the source question is written in written/103-BMS-EOY-2022-anatomy-written.md, naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and the 2022 paper's own model answer agree word for word; no disagreement was found.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.
+publishedSections: Left empty deliberately for the same reason.
+
+---
+
+# Item
+
+## id
+ART-103-ANA-FEMORAL-NERVE
+
+## title
+The femoral nerve
+
+## arabic_title
+العصب الفخذي
+
+## aliases
+Femoral nerve
+Origin, course and branches of the femoral nerve
+Effects of injury of the femoral nerve
+Saphenous nerve
+
+## subject
+msk
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## microtopic
+Nerve of anterior compartment of thigh (Femoral nerve)
+
+## nanotopic
+
+## primary_node_id
+DIS-ANA-T03
+
+## secondary_node_ids
+SYS-MSK-T01-S02-M02
+
+## template_id
+TPL-ANATOMY
+
+## archetype
+anatomy
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+7
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The femoral nerve is the anterior compartment of the thigh's own nerve, entering lateral to the femoral sheath (never inside it) and dividing 2 cm below the inguinal ligament into muscular, cutaneous and articular branches — the longest of the cutaneous branches, the saphenous nerve, continues all the way to the medial side of the foot. Injury paralyses quadriceps femoris and abolishes active knee extension, with sensory loss over the whole territory the nerve's cutaneous branches cover.
+
+## sections
+### Overview and position
+The femoral nerve arises from the lumbar plexus in the abdomen, from the dorsal divisions of the anterior primary rami of the second, third and fourth lumbar nerves — the plexus's largest branch, and the anterior compartment of the thigh's only nerve supply.
+
+### Structure
+It appears at the lateral margin of psoas major, between it and iliacus, a short distance above the inguinal ligament. It enters the thigh deep to the inguinal ligament and lateral to the femoral sheath, ending about 2 cm below the ligament by dividing into its branches.
+
+### Relations
+The femoral nerve lies lateral to the femoral sheath throughout its short course above its division — never inside the sheath, which carries only the femoral artery and vein (and the sheath's own femoral branch of the genitofemoral nerve) — the same fact tested from the femoral triangle's own side when the triangle's contents are asked for.
+
+### Blood supply, innervation and lymphatics
+Muscular branches supply iliacus, pectineus, sartorius and quadriceps femoris. Cutaneous branches are the saphenous nerve, to the skin of the medial side of the knee, leg and foot; the medial cutaneous nerve of the thigh, to the skin of the medial thigh down to the knee; and the intermediate cutaneous nerve of the thigh, to the skin of the intermediate area of the front of the thigh down to the knee. Articular branches reach the hip joint (from the nerve to rectus femoris) and the knee joint (from the nerves to the three vasti). The saphenous nerve, the longest cutaneous nerve in the body, arises from the femoral nerve in the femoral triangle, runs through the adductor canal (crossing the femoral artery from lateral to medial), leaves the canal by piercing its roof, and continues down the medial side of the leg with the great saphenous vein, in front of the medial malleolus, to the first metatarsophalangeal joint.
+
+### Development
+The department book's chapter on limb development treats the lower limb as a whole; no separate developmental account of the femoral nerve is given.
+
+### Surface and imaging anatomy
+The femoral nerve lies lateral to the femoral pulse at the mid-inguinal point, which is the landmark for a femoral nerve block; the book gives no radiographic description and none is asserted here.
+
+### Clinical correlations
+Injury to the femoral nerve paralyses quadriceps femoris, abolishing active knee extension — though the knee can still be extended passively with the help of the iliotibial tract — and causes sensory loss over the front and medial sides of the thigh and the medial sides of the leg and foot, the saphenous nerve's own territory. Because the nerve's articular branches reach both the hip (via the nerve to rectus femoris) and the knee (via the nerves to the vasti), hip pathology can occasionally refer pain along this nerve's distribution to the knee.
+
+## published_summary
+
+## published_sections
+
+## hold_these
+Origin: lumbar plexus, dorsal divisions of the anterior rami of L2, L3 and L4.
+Course: lateral margin of psoas major, then deep to the inguinal ligament, lateral to (never inside) the femoral sheath, dividing about 2 cm below the ligament.
+Muscular branches: iliacus, pectineus, sartorius, quadriceps femoris.
+Cutaneous branches: saphenous nerve, medial cutaneous nerve of thigh, intermediate cutaneous nerve of thigh.
+Articular branches: hip joint (via nerve to rectus femoris), knee joint (via nerves to the vasti).
+Injury: paralyses quadriceps (loss of active knee extension); sensory loss over front/medial thigh, medial leg and foot.
+
+## lose_the_mark
+Placing the femoral nerve inside the femoral sheath. It is lateral to and outside the sheath — the same fact the femoral-triangle-contents question tests directly.
+Saying femoral nerve injury abolishes knee extension completely. Active extension is lost, but the book notes passive extension remains possible via the iliotibial tract.
+Forgetting the hip joint among the nerve's articular branches, and naming only the knee.
+
+## related_concepts
+CON-MSK-7375F8CEDEBEC1
+
+## related_articles
+ART-103-ANA-QUADRICEPS-FEMORIS: the muscle group this nerve supplies and whose paralysis defines the nerve's own injury
+ART-103-ANA-ADDUCTOR-CANAL: the passage the saphenous nerve, this nerve's longest cutaneous branch, travels through
+ART-103-ANA-FEMORAL-TRIANGLE: where this nerve lies outside the femoral sheath, among the triangle's own contents
+
+## question_ids
+[clear]
+
+## resource_ids
+src_23c95ac89b6b113bd58e
+
+## article_source_ids
+src_23c95ac89b6b113bd58e
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Nerve of anterior compartment of thigh (Femoral nerve)
+
+## university_notes
+kau: The department book (pp.14-17) covers the femoral nerve and its own saphenous branch as two consecutive headings; this article carries the saphenous nerve's course under this nerve's own branches, since it is the femoral nerve's longest cutaneous branch rather than a separate concept in this batch.
+
+## annotations
+
+## media
+
+## media_recommendations
+### anatomy plate · The femoral nerve's course lateral to the femoral sheath, with its three cutaneous branches
+Purpose: Teaches CON-MSK-7375F8CEDEBEC1. The nerve's position relative to the sheath is the single most tested fact about it; a cross-section at the level of the inguinal ligament, with the nerve clearly outside the sheath's lateral wall, fixes this visually where prose alone is often disbelieved.
+Priority: required
+Status: needed
+Section: Relations
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Dpt book Anatomy Lower Limb 103.pdf (src_23c95ac89b6b113bd58e), pages 14-15 and 17, for the femoral nerve's origin, course, muscular, cutaneous and articular branches, and the effects of its injury.
+The same book, page 17, for the saphenous nerve's own origin and course, carried here as the femoral nerve's longest cutaneous branch.
+EOY GATHERED 103 FINALS (answered) (1).pdf (src_725217a3829e1dc009f7), 2022 sitting p21, for the question and its own model answer.
+
+## evidence_gaps
+No claim or citation record exists yet for any statement in this article; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+## review_due
+
+## notes
+Written to close the femoral-nerve gap B7a-103-anatomy-questions.md reported for the 2022 sitting's question 5.
+
+## field_notes
+arabicTitle: Provided directly, translated from the department book's own English heading.
+nanotopicId: The microtopic "Nerve of anterior compartment of thigh (Femoral nerve)" is already the most precise node the book's own chapter structure supports.
+questionIds: No question is authored yet against this specific article id; the source question is written in written/103-BMS-EOY-2022-anatomy-written.md, naming this article in its own `library_ids`.
+claimIds: No claim exists for this article yet; authoring one requires an evidence file outside this batch's file ownership. Reported as owed, not invented.
+spanIds: No evidence span exists for this article yet, for the same reason.
+media: No rights-cleared asset exists for this article; one is requested in media_recommendations.
+conflicts: The department book and the 2022 paper's own model answer agree word for word; no disagreement was found.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
 publishedSummary: Left empty deliberately — status is Draft, so there is no safe student projection to publish yet.

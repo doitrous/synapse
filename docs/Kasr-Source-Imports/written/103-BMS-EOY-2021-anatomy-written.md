@@ -27,16 +27,18 @@
   and 2 cases either. Recorded, not resolved, same as the discrepancy already
   logged in 103-BMS-EOY-2025-anatomy-written.md for a different sitting.
 
-  Of the 5 SAQs and 2 cases, only 3 items are authored here. The other 4 —
-  gluteus maximus (attachments/nerve/action), the femoral sheath, the
-  relations of the femoral artery in the femoral triangle and adductor canal,
-  and the fractured-neck-of-femur case — test anatomy no concept in
-  concept/103-BMS-anatomy-concepts.md currently covers. They are listed under
-  MISSING CONCEPT in this lane's report rather than answered from model
-  knowledge. The 3 authored here (inversion/eversion of the foot, the sciatic
-  nerve, and the knee-locking case) map onto concepts already live in that
-  file, minted while authoring a different paper's questions on the same
-  anatomy.
+  All 5 SAQs and both cases are now authored here. Questions 1-3
+  (inversion/eversion of the foot, the sciatic nerve, and the knee-locking
+  case) map onto concepts already live in concept/103-BMS-anatomy-concepts.md,
+  minted while authoring a different paper's questions on the same anatomy.
+  Questions 4-7 — gluteus maximus (attachments/nerve/action), the femoral
+  sheath, the relations of the femoral artery in the femoral triangle and
+  adductor canal, and the fractured-neck-of-femur case — were originally
+  listed under MISSING CONCEPT in this lane's upstream report
+  (B7a-103-anatomy-questions.md) and are authored here against the four new
+  concepts minted for them in the same batch that added this file
+  (CON-MSK-12FC6A14AE2740, CON-MSK-9D013840078D50, CON-MSK-5566B15D2C577E,
+  CON-MSK-278D880DE7C3B0).
 
   OCR quality: the source PDF has no text layer (textLayer: none,
   processingStatus: ocr_required in the manifest) and the surrounding page
@@ -179,6 +181,7 @@ Academic
 ART-103-ANA-ANKLE-AND-INVERSION-EVERSION
 
 ## resource_ids
+[clear]
 
 ## learning_objective
 Define inversion and eversion of the foot, name the two joints at which they occur and the mechanism by which the talus stays fixed while the rest of the foot swings, and name the muscles that produce each movement.
@@ -316,6 +319,7 @@ Academic
 ART-103-ANA-SCIATIC-NERVE
 
 ## resource_ids
+[clear]
 
 ## learning_objective
 State the origin of the sciatic nerve, trace its relations in the gluteal region and the back of the thigh, and name its muscular, articular and terminal branches.
@@ -466,6 +470,7 @@ Both
 ART-103-ANA-KNEE-JOINT
 
 ## resource_ids
+[clear]
 
 ## learning_objective
 Localise a rotational knee injury to the medial meniscus from the mechanism described, name the joint's extracapsular ligaments and its flexors, and name the two cruciate ligaments by the single movement each one checks.
@@ -492,6 +497,549 @@ Verbatim from the paper: "During the course of a football game, a football playe
 Parts (d) and (e) are marked as depending on (d) for (e) only in the sense that both name a cruciate ligament by the single movement it checks — a student who has (d) right has already retrieved the pairing this question is testing and (e) asks for its mirror. They are not causally dependent the way the fibula-fracture case's parts are.
 Two co-primary concepts: (a) and (b) are about the joint's own ligaments and menisci (CON-MSK-BBBD5662711A93); (c), (d) and (e) are about its movements and the locking mechanism (CON-MSK-9B1204D74AF4FF), which is where the two cruciates' individual functions are described.
 resource_ids is empty because src_725217a3829e1dc009f7 is not a live resource record yet.
+
+## estimated_seconds
+360
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QST-103-ANA-2021-04
+
+## title
+Gluteus maximus: attachments, nerve supply and action (2021 sitting)
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## question
+Give the attachments, nerve supply and action of the gluteus maximus muscle.
+
+## format
+structured_written
+
+## written_parts
+### (a) 5 marks
+Give the attachments, nerve supply and action of the gluteus maximus muscle.
+Expects: Origin — gluteal surface of the ilium behind the posterior gluteal line; back of the sacrum and coccyx; back of the sacrotuberous ligament
+Expects: Insertion — superficial three-quarters into the posterior border of the iliotibial tract; deep one-quarter into the floor of the gluteal tuberosity
+Expects: Nerve supply — inferior gluteal nerve
+Expects: Action — extension, abduction and lateral rotation of the thigh; makes the iliotibial tract tight, keeping the knee extended in standing and walking
+Expects: Gluteus maximus is ideal for intramuscular injection; to avoid sciatic nerve injury, the injection should be given in the upper outer quadrant of the buttock
+Concept: CON-MSK-12FC6A14AE2740
+
+## derived_from
+
+## topic
+Lower limb
+
+## subtopic
+The Gluteal Region
+
+## difficulty
+Moderate
+
+## question_type
+Anatomy
+
+## main_concept
+CON-MSK-12FC6A14AE2740
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Gluteal Region > Muscles of the Gluteal Region
+
+## clinical_relevance
+0.6
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.65
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+9
+
+## contextual_concept_ids
+
+## library_ids
+ART-103-ANA-GLUTEUS-MAXIMUS
+
+## resource_ids
+[clear]
+
+## learning_objective
+State the origin, insertion, nerve supply and action of gluteus maximus, and give the clinical reason its intramuscular injections are placed in the upper outer quadrant of the buttock.
+
+## media_recommendations
+
+## source_citation
+EOY GATHERED 103 FINALS (answered) (1).pdf — Kasr Al Ainy, module 103 BMS, Final Written Module Exam dated 10/8/2021, Section A, question 1, p1, {5 marks}. Manifest src_725217a3829e1dc009f7. Model answer typed inline on the same page (a table laid out across the page width; the cached OCR text reads it column by column rather than row by row, but every cell is present). Re-scanned in full at src_f0eee47e545f3cbb996d, same page range.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Verbatim from the paper: "1) Give the attachments, nerve supply and action of the gluteus maximus muscle. (5 marks)". Same content, wording and mark scheme as the gluteus maximus question already authored from the 2025/batch-198 sitting (written/103-BMS-EOY-2025-anatomy-written-2.md's question 3) — this is the same live concept, examined again in a different sitting, four years apart.
+resource_ids is empty because neither manifest source (src_725217a3829e1dc009f7, src_f0eee47e545f3cbb996d) is a live resource record yet.
+
+## estimated_seconds
+300
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QST-103-ANA-2021-05
+
+## title
+The femoral sheath: site, shape, formation and contents
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## question
+Describe the anatomy of the femoral sheath: its site, shape, formation and contents.
+
+## format
+structured_written
+
+## written_parts
+### (a) 5 marks
+Describe the anatomy of the femoral sheath: its site, shape, formation and contents.
+Expects: A funnel-shaped extension of the deep fascia of the abdomen, surrounding the upper 3-4 cm of the femoral vessels
+Expects: Walls — anterior wall is an extension of the fascia transversalis; posterior wall is an extension of the fascia iliaca
+Expects: Three compartments — lateral compartment contains the femoral artery and the femoral branch of the genitofemoral nerve
+Expects: Intermediate compartment contains the femoral vein
+Expects: Medial compartment (the femoral canal), shorter than the other two, contains a lymph node, lymph vessels and fat
+Concept: CON-MSK-9D013840078D50
+
+## derived_from
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## difficulty
+Moderate
+
+## question_type
+Anatomy
+
+## main_concept
+CON-MSK-9D013840078D50
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Femoral Triangle
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.85
+
+## cognitive_effort_score
+0.5
+
+## exam_weight_by_year
+KAU_Y1=0.5
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+Medium
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+7
+
+## contextual_concept_ids
+CON-MSK-BBFDC0AC14A819
+
+## library_ids
+ART-103-ANA-FEMORAL-TRIANGLE
+
+## resource_ids
+[clear]
+
+## learning_objective
+Describe the site, shape and formation of the femoral sheath, and name its three compartments and what each contains.
+
+## media_recommendations
+
+## source_citation
+EOY GATHERED 103 FINALS (answered) (1).pdf — Kasr Al Ainy, module 103 BMS, Final Written Module Exam dated 10/8/2021, Section A, question 3, p3, {5 marks}. Manifest src_725217a3829e1dc009f7. Model answer typed inline on the same page. Re-scanned in full at src_f0eee47e545f3cbb996d, same page range.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Verbatim from the paper: "3) Describe the anatomy of the femoral sheath (site, shape, formation and contents). (5 marks)".
+contextual_concept_ids names the femoral-triangle-contents concept: the sheath is one of the triangle's own four contents, examined as its own SAQ in the 2025/batch-198 sitting, but this question asks for the sheath alone, in more structural detail (walls, three compartments) than that other question's answer needs.
+resource_ids is empty because neither manifest source is a live resource record yet.
+
+## estimated_seconds
+300
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QST-103-ANA-2021-06
+
+## title
+Relations of the femoral artery in the femoral triangle and adductor canal
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+
+## question
+Give the relations of the femoral artery in the femoral triangle and adductor canal.
+
+## format
+structured_written
+
+## written_parts
+### (a) 5 marks
+Give the relations of the femoral artery in the femoral triangle and adductor canal.
+Expects: In the femoral triangle — anteriorly, skin, fascia and the femoral sheath; posteriorly, iliopsoas, pectineus and adductor longus; laterally, the femoral nerve, saphenous nerve and femoral branch of the genitofemoral nerve; medially, the femoral vein (upper part of the triangle)
+Expects: In the adductor canal — anteriorly, the fibrous roof of the canal and sartorius; posteriorly, adductor longus, then adductor magnus, and the femoral vein (upper part of the canal)
+Expects: In the adductor canal — laterally, vastus medialis and its nerve, and the saphenous nerve (upper part of the canal); medially, the saphenous nerve (lower part of the canal)
+Expects: Origin — at the mid-inguinal point, as the continuation of the external iliac artery; course — superficial in the upper half (femoral triangle), deep in the lower half (adductor canal), with its upper 1.5 inches enclosed with the femoral vein in the femoral sheath; end — at the adductor hiatus, entering the popliteal fossa as the popliteal artery
+Concept: CON-MSK-5566B15D2C577E
+
+## derived_from
+
+## topic
+Lower limb
+
+## subtopic
+The Thigh
+
+## difficulty
+Hard
+
+## question_type
+Anatomy
+
+## main_concept
+CON-MSK-5566B15D2C577E
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > The Thigh > Femoral Artery
+
+## clinical_relevance
+0.55
+
+## academic_relevance
+0.9
+
+## cognitive_effort_score
+0.7
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+40
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-MSK-FA04285EAA90F7 | CON-MSK-59755B64721E3D
+
+## library_ids
+ART-103-ANA-FEMORAL-ARTERY
+
+## resource_ids
+[clear]
+
+## learning_objective
+Give the four-aspect relations of the femoral artery separately for the femoral triangle and for the adductor canal, naming what changes between the two.
+
+## media_recommendations
+
+## source_citation
+EOY GATHERED 103 FINALS (answered) (1).pdf — Kasr Al Ainy, module 103 BMS, Final Written Module Exam dated 10/8/2021, Section A, question 4, p4, {5 marks}. Manifest src_725217a3829e1dc009f7. Model answer typed inline on the same page, laid out as a two-column table (triangle left, canal right); both columns are read into the mark scheme above. Re-scanned in full at src_f0eee47e545f3cbb996d, same page range.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Verbatim from the paper: "4) Give the relations of the femoral artery in the femoral triangle and adductor canal. (5 marks)".
+contextual_concept_ids names the live femoral-triangle-anterior-relations concept and the adductor-canal boundaries concept: both are narrower, partial matches for this same territory (see this concept's own field_notes for why none of the four narrower live records was merged into it).
+resource_ids is empty because neither manifest source is a live resource record yet.
+
+## estimated_seconds
+360
+
+## randomise_answers
+no
+
+---
+
+# Item
+
+## id
+QST-103-ANA-2021-07
+
+## title
+Fracture of the neck of the femur in an elderly patient
+
+## subject
+msk
+
+## status
+Draft
+
+## owner
+Claude
+
+## vignette
+A grandmother slipped on the floor. Her right lower limb was laterally rotated and noticeably shorter than her left limb. She was unable to get up or lift her limb off the floor.
+
+## question
+Answer the four parts below about this patient's injury: the common fracture site, why the bone is fragile at that site in elderly people, why the limb is shortened, and the fracture's common complications and why they occur.
+
+## format
+multipart_written
+
+## written_parts
+### (a) 1 mark
+What is the common fracture site of the femur in elderly people?
+Expects: Fracture of the neck of the femur
+Concept: CON-MSK-278D880DE7C3B0
+
+### (b) 1 mark
+Why is this part of the bone so fragile in elderly people?
+Expects: Due to osteoporosis of old age — bone resorption is greater than bone formation
+Concept: CON-MSK-278D880DE7C3B0
+Depends on: a
+
+### (c) 1 mark
+Why was her injured limb shorter than the other one?
+Expects: The shortening results from the upward pull of the muscles connecting the femur to the hip bone, once the fractured neck no longer holds the fragments as a rigid strut
+Concept: CON-MSK-278D880DE7C3B0
+Depends on: a
+
+### (d) 2 marks
+What are the complications commonly associated with these fractures, and why?
+Expects: Nonunion and avascular necrosis of the head of the femur
+Expects: Due to the poor blood supply of the femoral head and neck, chiefly carried by the retinacular vessels in the capsule's own fibres, which the fracture disrupts
+Concept: CON-MSK-278D880DE7C3B0
+Depends on: a
+
+## derived_from
+
+## topic
+Lower limb
+
+## subtopic
+Joints of the lower limb
+
+## difficulty
+Challenging
+
+## question_type
+Diagnosis
+
+## main_concept
+CON-MSK-278D880DE7C3B0
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Anatomy > Joints of the lower limb > The Hip joint
+
+## clinical_relevance
+0.85
+
+## academic_relevance
+0.7
+
+## cognitive_effort_score
+0.75
+
+## exam_weight_by_year
+KAU_Y1=0.55
+
+## question_only_for
+KAU_Y1
+
+## concept_ids
+
+## years
+KAU_Y1
+
+## universities
+kau
+
+## cognitive_effort
+High
+
+## setting
+Both
+
+## reasoning_level
+3
+
+## inferred_difficulty
+42
+
+## exam_relevance
+8
+
+## contextual_concept_ids
+CON-MSK-FD892596698D24
+
+## library_ids
+ART-103-ANA-HIP-JOINT-STRUCTURE
+
+## resource_ids
+[clear]
+
+## learning_objective
+Given a description of a fall in an elderly patient with a laterally rotated, shortened limb, identify the neck of the femur as the fracture site, explain why the bone is fragile there, explain the shortening, and name the fracture's common complications and why they occur.
+
+## media_recommendations
+### anatomy plate · Question stem
+Brief: Coronal section of the proximal femur showing the neck of femur, the capsule's posterior attachment stopping short of the intertrochanteric crest, and the retinacular vessels running up the neck within the capsule's own fibres
+Purpose: Part (d) turns on the same retinacular blood supply the hip joint's own structure article describes; a single labelled section that shows the vessels running in the capsule along the neck makes the nonunion/avascular-necrosis mechanism visible rather than a fact to memorise in isolation.
+Priority: strongly helpful
+Status: needed
+Source direction: openly licensed anatomy atlas
+Rights: must be CC-BY or public domain
+
+## source_citation
+EOY GATHERED 103 FINALS (answered) (1).pdf — Kasr Al Ainy, module 103 BMS, Final Written Module Exam dated 10/8/2021, Section A, problem-solving question I, p6, {5 marks total across 4 lettered parts}. Manifest src_725217a3829e1dc009f7. Model answers from the same page; part (a)'s answer confirmed by rendering the page to an image, since the cached OCR text is blank for that one line only (the case's other three answers OCR cleanly). Re-scanned in full at src_f0eee47e545f3cbb996d, same page range.
+
+## attachments
+
+## attached_image
+
+## author_notes
+Marks: the paper prints "(5 marks)" once for the whole case and letters four parts without a per-letter split. This file apportions 1/1/1/2 across the four parts so the total agrees with the paper's own printed five; it is this file's own apportionment, not the examiner's.
+Verbatim from the paper: "I) A grandmother slipped on the floor. Her right lower limb was laterally rotated and noticeably shorter than her left limb. She was unable to get up or lift her limb off the floor. (5 marks) a. What is the common fracture site of the femur in elderly people. b. Why this part of bone so fragile on elderly people. c. Why her injures limb was shorter than the other one. d. What are the complications commonly associated with these fractures? and Why?" The vignette and question above only fix grammar (subject-verb agreement, article use), not content.
+The rendered overlay answers: (a) "Fracture neck femur" (b) "Due to osteoporosis of old age (bone absorption is grater than bone formation)" (c) "The shortening of the lower limb results from upward pull of the muscles connecting the femur to his hip bone" (d) "Nonunion and avascular necrosis of head of femur. Due to its poor blood [supply]" — "grater" and "his" are the paper's own spelling, kept in the citation.
+Part (a)'s own expected answer ("fracture neck femur") is stated by the exam paper directly and is also the department book's own section heading for this clinical point (p81); it does not depend on model knowledge.
+The book itself (p78, p81) states only the osteoporosis point and the retinacula's role in keeping fragments in position; the shortening mechanism (c) and the two named complications (d) are the paper's own model answer, since the book does not state them by name — recorded in this concept's own `uncertainty` field, not treated as a source conflict.
+resource_ids is empty because neither manifest source is a live resource record yet.
 
 ## estimated_seconds
 360
