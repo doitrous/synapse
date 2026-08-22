@@ -250,7 +250,7 @@ before every hand-over. The key search (§10) is unchanged. Then:
 |---|---|
 | No hit anywhere | mint with `tools/mint-concept-id.mjs` — **allowed** |
 | Hit in **live** state | sparse update record (`+au`, `+AU_Yn`, `+AU-MED-xxx`) — **allowed** |
-| Hit only in **another lane's unimported batch** (Kasr/Ain Shams/Helwan `*-Source-Imports`) | write the record with that existing ID but **hold it** in `concept/<slug>-PENDING-LIVE.md`, outside any import root, until the orchestrator lifts this case |
+| Hit only in **another lane's unimported batch** (Kasr/Ain Shams/Helwan `*-Source-Imports`) | write the record with that existing ID but **hold it** in `pending-live/<slug>.md`, outside any import root, until the orchestrator lifts this case |
 
 Replace every `<<PENDING-MINT>>` placeholder under these rules before validating.
 
@@ -289,7 +289,7 @@ copy from this list. Placement law for subjects with no obvious home:
 
 - **An update row for an ID that is not live is CREATED as a stub, silently.** The held case
   in §12 stays held: a sparse update for an ID that exists only in another lane's unimported
-  batch goes in `concept/<slug>-PENDING-LIVE.md` outside any import root, with an INDEX line
+  batch goes in `pending-live/<slug>.md` outside any import root, with an INDEX line
   "apply only after <that file> is live". Never fill such a stub in to make it pass.
 - **A full record on an ID you found by search replaces every field it names** — it evicts
   `kau` from `universities` and can un-publish a live concept, and simulate reports it as a
@@ -306,3 +306,15 @@ copy from this list. Placement law for subjects with no obvious home:
   not the database.
 - CI runs no content gate on a PR that touches only Alexandria files until `content.yml`'s
   paths are widened — run every gate locally and paste the output in your report.
+
+## 16 · Mint freeze FULLY LIFTED (chief of staff, after P0-D) — the four laws
+
+1. A key whose ID exists only in another lane's unimported batch → sparse update written to
+   `docs/Alexandria-Source-Imports/pending-live/<slug>.md` (Omar never imports from there);
+   the folder INDEX says "apply only after <that university's file> is live".
+2. Sparse updates only on found IDs; `+` on list columns; `exam_weight_by_year` as
+   `AU_Y1=0.5`-style keys only.
+3. Simulate your own directory only; never combine directories in one run.
+4. `grep -ril "<canonical_key>" docs/*-Source-Imports/concept/` stays mandatory.
+Everything in §12 that said "hold" now means "write it under rule 1". `<<PENDING-MINT>>`
+placeholders are no longer allowed in any file.
