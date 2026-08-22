@@ -20,6 +20,7 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | 1c2fdf6 | AU-MED-102 Anatomy: 3 new concepts, 3 articles, evidence, 3 MCQs (gate lines in body) |
 | 194420e | AU-MED-102 Histology + Physiology: 25 concepts, 5 articles, evidence, 21 MCQs |
 | 76cc236 | AU-MED-102 Biochemistry sub-lane A: CHO chemistry 14 concepts, 1 article, 12 MCQs; 13 resources |
+| c4b3e55 | AU-MED-103 Biochemistry: 26 concepts, 9 articles, 30 MCQs; 38 pending-live updates |
 
 ## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
 ## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
@@ -28,9 +29,9 @@ Running Steps 2–4 (orders: `LANE-ORDERS-PHASE1.md` + lane rulings in `coverage
 server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymology remain) ·
 102-BIOC-B metabolism · 102-BIOC-C nitrogen/blood · 102-BIOC-D molecular · 103-BIOC ·
 103-HIST (owns the boundary questions) · 103-PHYS (textbook resource) · 105-ANAT (keys by eye) ·
-105-HIST. Need a FRESH sitting (transcript lost): 105-PHYS (cardiac ideas under cvs), 106-ANAT and
-106-PHYS (both re-triage against the Telegram practical CVS bank first), F1 fetch (second sitting,
-≤20 min, continue from `coverage/00-telegram-fetch-log.md`).
+105-HIST. Restarted fresh 2026-08-23 ~01:00 (transcripts lost): 105-PHYS (third sitting), 106-ANAT, 106-PHYS
+(both re-triage against the Telegram practical CVS bank first), F1 fetch (second sitting, ≤20 min).
+103-BIOC sent back for questions on its 12 pending ids; 105-HIST sent back for a missing claim + Step 3.
 Done: 102-HIST+PHYS (194420e). F1 first sitting landed one MED 106 practical CVS bank; found the
 "ASM Minds" cohort channels (paid-content brands with occasional free gifts).
 
