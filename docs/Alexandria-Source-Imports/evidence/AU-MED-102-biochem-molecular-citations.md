@@ -1018,3 +1018,666 @@ The source's printed key/marked-correct option for this stem is: phosphodiestera
 
 ## counts_as_claim_evidence
 yes
+
+---
+
+# Item
+
+## id
+CIT-FND-22D1D9B77A768E-01
+
+## claim_id
+CLM-FND-22D1D9B77A768E-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Cytosine is characterized by all of the following EXCEPT:
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+DNA & RNA MCQ, Q20
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-38857DFD506559-01
+
+## claim_id
+CLM-FND-38857DFD506559-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What causes Peptidyl transferase to hydrolyze the bond between the peptide chain and tRNA, terminating translation?
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+DNA & RNA MCQ, Q34
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-FE41A702648A00-01
+
+## claim_id
+CLM-FND-FE41A702648A00-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following eukaryotic DNA control sequences does not need to be in a fixed location, and is most responsible for high rates of transcription of particular genes?
+
+## locator_type
+page
+
+## locator_page
+7
+
+## locator_section
+DNA & RNA MCQ, Q36
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-874F418DFB12AF-01
+
+## claim_id
+CLM-FND-874F418DFB12AF-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is the most important condition for the formation of a Single stranded DNA from RNA?
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+DNA & RNA MCQ, Q38
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-21B283A2FE53C4-01
+
+## claim_id
+CLM-FND-21B283A2FE53C4-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Deamination of cytosine, if not repaired, produces
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+DNA & RNA MCQ, Q39
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-55348CAA8F9C16-01
+
+## claim_id
+CLM-FND-55348CAA8F9C16-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following proteins can introduce positive supercoils into DNA?
+
+## locator_type
+page
+
+## locator_page
+8
+
+## locator_section
+DNA & RNA MCQ, Q40
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-FE0A89860189A5-01
+
+## claim_id
+CLM-FND-FE0A89860189A5-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is the foundation of RNA polymerase?
+
+## locator_type
+page
+
+## locator_page
+11
+
+## locator_section
+DNA & RNA MCQ, Q58
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-6EF5C044E64C46-01
+
+## claim_id
+CLM-FND-6EF5C044E64C46-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Single stranded binding protein binds to single stranded DNA:
+
+## locator_type
+page
+
+## locator_page
+15
+
+## locator_section
+DNA & RNA MCQ, Q82
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-7CEF0F2F8C9EE1-01
+
+## claim_id
+CLM-FND-7CEF0F2F8C9EE1-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is the type of mutation when deletion or insertion of bases occurs?
+
+## locator_type
+page
+
+## locator_page
+16
+
+## locator_section
+DNA & RNA MCQ, Q86
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-9D5D6275474035-01
+
+## claim_id
+CLM-FND-9D5D6275474035-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What may shut down the translation of a processed mRNA?
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+DNA & RNA MCQ, Q64
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-60F505DFC88026-01
+
+## claim_id
+CLM-FND-60F505DFC88026-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Translocation is the process where
+
+## locator_type
+page
+
+## locator_page
+12
+
+## locator_section
+DNA & RNA MCQ, Q66
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-B92EB41248D631-01
+
+## claim_id
+CLM-FND-B92EB41248D631-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+eIF-1 and elF-3 in Protein synthesis are required:
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+DNA & RNA MCQ, Q69
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-D6A7B168134B07-01
+
+## claim_id
+CLM-FND-D6A7B168134B07-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+Which of the following antibiotics prevent tRNA from attaching to A site of Ribosome?
+
+## locator_type
+page
+
+## locator_page
+13
+
+## locator_section
+DNA & RNA MCQ, Q70
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-36FA9827A6B99C-01
+
+## claim_id
+CLM-FND-36FA9827A6B99C-01
+
+## resource_id
+src_80f6b1121bd3b85f8886
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is the mechanism that will remove Uracil and incorporate the correct base?
+
+## locator_type
+page
+
+## locator_page
+14
+
+## locator_section
+DNA & RNA MCQ, Q76
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-014D200ED96498-01
+
+## claim_id
+CLM-FND-014D200ED96498-01
+
+## resource_id
+src_413115a28d7dc9914c91
+
+## evidence_role
+local_curriculum
+
+## support_span
+A patient had acute bacterial infection and was given Ciprofloxacin which cured him, what is the effect of Ciprofloxacin
+
+## locator_type
+page
+
+## locator_page
+5
+
+## locator_section
+long EOM/Foundation Final Egyptian paper (biochemistry section), Q24
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-32433CE637CA9A-01
+
+## claim_id
+CLM-FND-32433CE637CA9A-01
+
+## resource_id
+src_413115a28d7dc9914c91
+
+## evidence_role
+local_curriculum
+
+## support_span
+What is the main function of RNA editing?
+
+## locator_type
+page
+
+## locator_page
+19
+
+## locator_section
+long EOM/Foundation Final Egyptian paper (biochemistry section), Q92
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes
+
+---
+
+# Item
+
+## id
+CIT-FND-A427EA66958B81-01
+
+## claim_id
+CLM-FND-A427EA66958B81-01
+
+## resource_id
+src_413115a28d7dc9914c91
+
+## evidence_role
+local_curriculum
+
+## support_span
+According to regulation of gene expression, Which of the following explains why mature RBCs cannot form mRNA
+
+## locator_type
+page
+
+## locator_page
+6
+
+## locator_section
+long EOM/Foundation Final Egyptian paper (biochemistry section), Q27
+
+## locator_detail
+
+## context_note
+AU-MED-102 Biochemistry department question source. Recorded as curriculum/exam signal, not independent medical authority (is_assessment belongs on the evidence-source record, owned by sub-lane A).
+
+## confidence
+0.7
+
+## counts_as_claim_evidence
+yes

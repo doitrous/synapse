@@ -1119,3 +1119,734 @@ no
 
 ## qualifiers
 population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-22D1D9B77A768E-01
+
+## concept_id
+CON-FND-22D1D9B77A768E
+
+## subject
+Cytosine
+
+## predicate
+is a
+
+## object
+pyrimidine base, 2-oxy-4-amino, present in both DNA and RNA
+
+## display_text
+Cytosine is a pyrimidine base (2-oxy-4-amino) found in both DNA and RNA, unlike thymine or uracil which each belong to only one.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-38857DFD506559-01
+
+## concept_id
+CON-FND-38857DFD506559
+
+## subject
+Peptidyl transferase
+
+## predicate
+is triggered by
+
+## object
+release factors occupying the A site at a stop codon
+
+## display_text
+Peptidyl transferase, an activity of the 60S ribosomal subunit, is triggered to hydrolyse the peptide-tRNA bond by release factors occupying the A site.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-FE41A702648A00-01
+
+## concept_id
+CON-FND-FE41A702648A00
+
+## subject
+An enhancer
+
+## predicate
+is
+
+## object
+a regulatory DNA sequence that need not sit at a fixed location relative to the gene it regulates
+
+## display_text
+An enhancer does not need to be in a fixed location and is most responsible for high transcription rates of particular genes.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-874F418DFB12AF-01
+
+## concept_id
+CON-FND-874F418DFB12AF
+
+## subject
+Reverse transcriptase
+
+## predicate
+is required for
+
+## object
+synthesising single-stranded DNA from an RNA template
+
+## display_text
+A reverse transcriptase must be present for the formation of single-stranded DNA from RNA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-21B283A2FE53C4-01
+
+## concept_id
+CON-FND-21B283A2FE53C4
+
+## subject
+Deamination of cytosine
+
+## predicate
+produces
+
+## object
+a point mutation (uracil) if not repaired
+
+## display_text
+Deamination of cytosine, if not repaired, produces a point mutation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-55348CAA8F9C16-01
+
+## concept_id
+CON-FND-55348CAA8F9C16
+
+## subject
+The primosome
+
+## predicate
+introduces
+
+## object
+positive supercoils into DNA
+
+## display_text
+The primosome is credited with introducing positive supercoils into DNA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-FE0A89860189A5-01
+
+## concept_id
+CON-FND-FE0A89860189A5
+
+## subject
+RNA polymerase
+
+## predicate
+adds nucleotides
+
+## object
+only at the 3' end of the growing chain, without a primer
+
+## display_text
+RNA polymerase adds nucleotides at the 3' end of the growing polynucleotide chain.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-6EF5C044E64C46-01
+
+## concept_id
+CON-FND-6EF5C044E64C46
+
+## subject
+Single-strand binding protein
+
+## predicate
+keeps
+
+## object
+the separated DNA strands from re-annealing
+
+## display_text
+Single-strand binding protein binds single-stranded DNA to keep the two strands from binding together again.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-7CEF0F2F8C9EE1-01
+
+## concept_id
+CON-FND-7CEF0F2F8C9EE1
+
+## subject
+Insertion or deletion of bases
+
+## predicate
+causes
+
+## object
+a frameshift mutation
+
+## display_text
+Deletion or insertion of bases causes a frameshift mutation.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-9D5D6275474035-01
+
+## concept_id
+CON-FND-9D5D6275474035
+
+## subject
+Decapping
+
+## predicate
+shuts down
+
+## object
+translation of a processed mRNA
+
+## display_text
+Decapping may shut down the translation of a processed mRNA.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-60F505DFC88026-01
+
+## concept_id
+CON-FND-60F505DFC88026
+
+## subject
+Translocation
+
+## predicate
+moves
+
+## object
+the peptide-bearing tRNA from the ribosomal A site to the P site
+
+## display_text
+Translocation moves the ribosome so the tRNA carrying the growing polypeptide chain shifts from the A site to the P site, freeing the A site.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-B92EB41248D631-01
+
+## concept_id
+CON-FND-B92EB41248D631
+
+## subject
+eIF-1 and eIF-3
+
+## predicate
+are required for
+
+## object
+binding of mRNA to the 40S ribosomal subunit
+
+## display_text
+eIF-1 and eIF-3 in protein synthesis are required for binding of mRNA to the 40S ribosomal subunit.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-D6A7B168134B07-01
+
+## concept_id
+CON-FND-D6A7B168134B07
+
+## subject
+Tetracycline
+
+## predicate
+prevents
+
+## object
+tRNA attachment to the ribosomal A site
+
+## display_text
+Tetracycline prevents tRNA from attaching to the A site of the ribosome.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-36FA9827A6B99C-01
+
+## concept_id
+CON-FND-36FA9827A6B99C
+
+## subject
+Base excision repair
+
+## predicate
+removes
+
+## object
+uracil and incorporates the correct base
+
+## display_text
+Base excision repair is the mechanism that removes uracil and incorporates the correct base.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-014D200ED96498-01
+
+## concept_id
+CON-FND-014D200ED96498
+
+## subject
+Ciprofloxacin
+
+## predicate
+inhibits
+
+## object
+bacterial DNA gyrase, a topoisomerase
+
+## display_text
+Ciprofloxacin cures a bacterial infection by inhibiting bacterial DNA gyrase, a topoisomerase.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-32433CE637CA9A-01
+
+## concept_id
+CON-FND-32433CE637CA9A
+
+## subject
+RNA editing
+
+## predicate
+produces
+
+## object
+a different protein from the same gene, unlike alternative splicing
+
+## display_text
+The main function of RNA editing is to synthesise a different protein from the same gene.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
+
+---
+
+# Item
+
+## id
+CLM-FND-A427EA66958B81-01
+
+## concept_id
+CON-FND-A427EA66958B81
+
+## subject
+A mature red blood cell
+
+## predicate
+cannot synthesise new mRNA because
+
+## object
+gene loss (losing its nucleus) during erythropoiesis
+
+## display_text
+According to the regulation of gene expression, mature red blood cells cannot form mRNA because of gene loss.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## qualifiers
+population: AU-MED-102 Year 1 (Biochemistry)
