@@ -428,3 +428,10 @@ Three additions:
 - A leading `+` on a non-id-list column is an ERROR: `module_subject` and every prose/path field
   is written as a full replacement. An update row without its discriminator (`## label`) is now
   an ERROR rather than a silent skip — which is what you want.
+
+### Why `## label` on every update row is absolute
+Proven by simulate (Kasr Y1): the concept importer defaults a blank `label` to `''`
+(`conceptImport.ts:148`), so an update row that omits `## label` **blanks the live label on
+import**. The validator refuses label-less rows (`d82dd36`) and the importer fix is queued, but
+the rule stands regardless: every sparse update row restates the Kasr label verbatim.
+`## canonical_key` does not substitute for it.
