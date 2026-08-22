@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { execFileSync } from 'node:child_process'
-import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs'
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -494,6 +494,140 @@ test('a fully authored question is never update-shaped, whatever its format', ()
       report.errors.filter((error) => error.includes('only carries the columns it changes')).length, 0,
       `a matching question is authored, not an update: ${JSON.stringify(report.errors)}`,
     )
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('a question whose concept is nowhere fails, and says to try --with', () => {
+  // Reported as a silent pass: "the coverage check does `if (!concept) continue`,
+  // so a question whose main concept is absent passes when the concept file was
+  // not given". It does not — the resolution check above the coverage check
+  // already errors, and the `continue` only avoids reporting the same id twice.
+  // What was missing was the hint: an author reading "is not a concept that
+  // exists" goes looking for a typo in the id, when the usual cause is a
+  // question batch validated without its own concept batch beside it.
+  const root = mkdtempSync(join(tmpdir(), 'coverage-'))
+  mkdirSync(join(root, 'question'))
+  mkdirSync(join(root, 'concept'))
+  const question = ['# Item', '## id', 'QM-TEST-000000000009', '## title', 'T', '## subject', 'msk',
+    '## format', 'single best answer', '## question', 'Which?', '## correct_answer', 'A',
+    '## answer_a', 'This', '## answer_b', 'That', '## main_concept', 'CON-FND-ABSENT00000X',
+    '## library_ids', 'ART-NOPE', ''].join('\n')
+  const concept = ['# Item', '## label', 'The absent concept, now authored', '## id', 'CON-FND-ABSENT00000X',
+    '## canonical_key', 'q6.concept', '## definition', 'd', '## explicit_objective', 'o',
+    '## arabic_label', 'x', '## publication_status', 'published', '## article_ids', 'ART-NOPE', ''].join('\n')
+  writeFileSync(join(root, 'question', 'q.md'), question)
+  writeFileSync(join(root, 'concept', 'c.md'), concept)
+  try {
+    const without = validate(join(root, 'question', 'q.md'))
+    const missing = without.errors.filter((error) => error.includes('CON-FND-ABSENT00000X is not a concept that exists'))
+    assert.equal(missing.length, 1, `expected the absent concept to be reported once, got ${JSON.stringify(without.errors)}`)
+    assert.match(missing[0], /--with/, 'the error should say how to resolve it')
+
+    const withIt = validate(join(root, 'question', 'q.md'), join(root, 'concept', 'c.md'))
+    assert.equal(
+      withIt.errors.filter((error) => error.includes('is not a concept that exists')).length, 0,
+      `naming the concept batch should resolve it: ${JSON.stringify(withIt.errors)}`,
+    )
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+/* ---- source_candidate_ids on an update row ------------------------------- */
+
+test('a live concept may restate the candidate ids it already carries', () => {
+  // A sparse update row repeats the fields it is not changing. Those candidate
+  // ids were minted when the concept was first authored, against whatever
+  // corpus index was current then — not necessarily the one this directory
+  // symlinks to. Nine correct rows in 108 INT were refused for repeating,
+  // unchanged, what the live record already holds.
+  //
+  // Read from live state rather than hard-coded, so this cannot drift.
+  const live = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  const concepts = (live.states['synapse-concept-graph-v2']?.concepts ?? [])
+    .filter((concept: { sourceCandidateIds?: string[] }) => concept.sourceCandidateIds?.length)
+  const mine = concepts[0]
+  const someoneElse = concepts.find((concept: { id: string }) => concept.id !== mine.id)
+  assert.ok(mine && someoneElse, 'live state should carry concepts with candidate ids')
+
+  const root = mkdtempSync(join(tmpdir(), 'candidates-'))
+  mkdirSync(join(root, 'concept'))
+  const row = (candidate: string, name: string) => ['# Item', '## label', name, '## id', mine.id,
+    '## canonical_key', `cand.${name.replace(/\W+/g, '')}`, '## definition', 'd',
+    '## explicit_objective', 'o', '## arabic_label', 'x', '## source_candidate_ids', candidate, ''].join('\n')
+  const candidateErrors = (body: string, file: string) => {
+    writeFileSync(join(root, 'concept', file), body)
+    return validate(join(root, 'concept', file)).errors.filter((error) => error.includes('candidate'))
+  }
+
+  try {
+    assert.deepEqual(candidateErrors(row(mine.sourceCandidateIds[0], 'own'), 'own.md'), [],
+      'restating a candidate the live record carries is not an invention')
+
+    // Per id, not globally. A candidate that belongs to a different live
+    // concept is still an invention on this one, and accepting any live
+    // candidate anywhere would make the check almost unfailable.
+    assert.equal(candidateErrors(row(someoneElse.sourceCandidateIds[0], 'other'), 'other.md').length, 1,
+      "another record's candidate must still be refused")
+
+    assert.equal(candidateErrors(row('concept_ffffffffffffffffffffffff', 'invented'), 'invented.md').length, 1,
+      'a candidate no record and no index has must still be refused')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+/* ---- completeness warnings ----------------------------------------------- */
+
+test('thin records are reported per record, and never as an error', () => {
+  // `fieldsUsed` in the summary is the union of every column any row uses, so
+  // one complete record makes a file of stubs report a full count. The floor
+  // the manual states is per record. Same name, different measurement.
+  const root = mkdtempSync(join(tmpdir(), 'completeness-'))
+  mkdirSync(join(root, 'question'))
+  const question = (id: string, extra: string[]) => ['# Item', '## id', id, '## title', 'T', '## subject', 'msk',
+    '## format', 'single best answer', '## question', 'Which?', '## correct_answer', 'a',
+    '## answer_a', 'This', '## answer_b', 'That', '## explanation_a', 'Because.', ...extra, ''].join('\n')
+  // One padded row and one bare row: the file-level union looks healthy, the
+  // per-record count does not.
+  const padding = Array.from({ length: 30 }, (_, index) => [`## spare_${index}`, 'x']).flat()
+  writeFileSync(join(root, 'question', 'q.md'), `${question('QM-T-1', padding)}\n---\n${question('QM-T-2', [])}`)
+  try {
+    const report = validate(join(root, 'question', 'q.md')) as { warnings?: string[], errors: string[] }
+    const warnings = report.warnings ?? []
+    assert.ok(warnings.some((line) => /below the question fieldsUsed floor/.test(line)),
+      `expected a floor warning, got ${JSON.stringify(warnings)}`)
+    // Thinness is not invalidity. A short record imports and can be answered;
+    // a gate that failed on it would block correct batches and be argued with.
+    assert.ok(!report.errors.some((error) => /fieldsUsed floor/.test(error)),
+      'completeness must never be an error')
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+test('the explanation distribution measures the correct answer, and skips rows without one', () => {
+  const root = mkdtempSync(join(tmpdir(), 'explanations-'))
+  mkdirSync(join(root, 'question'))
+  const rows = [
+    // correct is b, so the long explanation_a must NOT be what is measured.
+    ['# Item', '## id', 'QM-T-1', '## title', 'T', '## subject', 'msk', '## format', 'single best answer',
+      '## question', 'Which?', '## correct_answer', 'b', '## answer_a', 'A', '## answer_b', 'B',
+      '## explanation_a', 'x'.repeat(900), '## explanation_b', 'Short one.'].join('\n'),
+    // No explanation for its correct answer at all.
+    ['# Item', '## id', 'QM-T-2', '## title', 'T', '## subject', 'msk', '## format', 'single best answer',
+      '## question', 'Which?', '## correct_answer', 'a', '## answer_a', 'A', '## answer_b', 'B'].join('\n'),
+  ]
+  writeFileSync(join(root, 'question', 'q.md'), rows.join('\n\n---\n\n'))
+  try {
+    const warnings = (validate(join(root, 'question', 'q.md')) as { warnings?: string[] }).warnings ?? []
+    const distribution = warnings.find((line) => line.startsWith('explanation of the correct answer'))
+    assert.ok(distribution, `expected a distribution line, got ${JSON.stringify(warnings)}`)
+    assert.match(distribution, /across 1 question/, 'only the row with a correct-answer explanation counts')
+    assert.match(distribution, /shortest 10 chars/, 'it must measure explanation_b, not the 900-char explanation_a')
+    assert.ok(warnings.some((line) => /1 question\(s\) have no explanation/.test(line)))
   } finally {
     rmSync(root, { recursive: true, force: true })
   }

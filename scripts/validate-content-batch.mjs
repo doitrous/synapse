@@ -268,6 +268,103 @@ function mixedAppendErrors(values) {
   return problems
 }
 
+/**
+ * What to try when a concept ID resolves against nothing.
+ *
+ * These checks resolve against live state plus whatever `--with` named, and the
+ * commonest cause of a failure is neither a typo nor a missing concept: it is a
+ * question batch validated without its own concept batch alongside it. The
+ * message said only that the concept does not exist, which sends an author
+ * looking for a mistake in the ID.
+ */
+const WITH_HINT = ' — if it is authored in this batch set, name its concept file with --with'
+
+/* ---- completeness, reported and never enforced --------------------------- */
+
+/**
+ * The manual's per-record `fieldsUsed` floor, by kind.
+ *
+ * `fieldsUsed` in the summary below is the union of every column any row uses,
+ * which is a fact about the *file*: one complete record makes a file of thin
+ * ones report 52. The floor the manual states — "fieldsUsed >= 50, there is no
+ * excuse for 28" — is about a record. The two have the same name and measure
+ * different things, and only the file-level one was ever computed, so a batch
+ * of stubs with one good row read as fully populated.
+ *
+ * Updates are exempt by design: a sparse row carrying `id` and the columns it
+ * changes is correct, and the manual says the floor applies to new records
+ * only.
+ */
+const FIELD_FLOOR = { concept: 50, question: 46, article: 49 }
+
+/** Sentences, counted the way a reader would: terminal punctuation, not line breaks. */
+const sentenceCount = (text) => (text.match(/[.!?](\s|$)/g) ?? []).length || (text.trim() ? 1 : 0)
+
+const median = (numbers) => {
+  if (!numbers.length) return 0
+  const sorted = [...numbers].sort((a, b) => a - b)
+  const middle = Math.floor(sorted.length / 2)
+  return sorted.length % 2 ? sorted[middle] : Math.round((sorted[middle - 1] + sorted[middle]) / 2)
+}
+
+const share = (count, total) => (total ? `${Math.round((count / total) * 100)}%` : '0%')
+
+/**
+ * How complete this batch is, as warnings rather than failures.
+ *
+ * Thinness is not invalidity: a short explanation imports, renders and can be
+ * answered. It is also the difference between a question a student learns from
+ * and one they merely get right, and nothing measured it. Reported so a lane
+ * can paste the numbers into a commit body and see them move, and deliberately
+ * not an error — a gate that fails on prose length would be argued with rather
+ * than acted on, and would block a correct batch.
+ */
+function completenessWarnings(rowKind, rows) {
+  const out = []
+  const floor = FIELD_FLOOR[rowKind]
+  if (floor) {
+    // Per record, and only for records that are new.
+    //
+    // Two ways a row is not new, and both matter. It may be sparse — `id` plus
+    // the columns it changes. Or it may be substantial and still an update: the
+    // nine 108 INT pharmacology rows carry a label and forty populated columns
+    // and patch concepts that already exist. Judging by shape alone told them
+    // they were thin new records, which is the opposite of true.
+    const authored = rows.filter((row) => !isUpdateShaped(rowKind, row) && !liveIds.has(row.id?.trim()))
+    const thin = authored.filter((row) => Object.keys(row).length < floor)
+    if (thin.length) {
+      const counts = thin.map((row) => Object.keys(row).length).sort((a, b) => a - b)
+      out.push(`${thin.length} of ${authored.length} new records are below the ${rowKind} fieldsUsed floor of ${floor} `
+        + `(thinnest ${counts[0]}, median ${median(counts)}). The fieldsUsed in this report is the union across the file, `
+        + 'so it cannot show this — one complete record hides a batch of thin ones.')
+    }
+  }
+
+  if (rowKind === 'question') {
+    // The explanation for the answer that is correct. A distractor's
+    // explanation matters less: a student who picked it reads the correct one.
+    const lengths = []
+    for (const row of rows) {
+      const correct = (row.correct_answer ?? '').trim().toLowerCase()
+      if (!correct) continue
+      const text = (row[`explanation_${correct}`] ?? '').trim()
+      if (text) lengths.push(text)
+    }
+    if (lengths.length) {
+      const sizes = lengths.map((text) => text.length)
+      const short = lengths.filter((text) => text.length < 200).length
+      const terse = lengths.filter((text) => sentenceCount(text) < 3).length
+      out.push(`explanation of the correct answer, across ${lengths.length} question(s): `
+        + `shortest ${Math.min(...sizes)} chars, median ${median(sizes)}; `
+        + `${share(short, lengths.length)} under 200 chars, ${share(terse, lengths.length)} under 3 sentences.`)
+      const missing = rows.length - lengths.length
+      if (missing > 0) out.push(`${missing} question(s) have no explanation for their correct answer, or no correct_answer to have one for.`)
+    }
+  }
+
+  return out
+}
+
 /* ---- update rows that would land as stubs -------------------------------- */
 
 const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
@@ -282,10 +379,25 @@ const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', 
  * is a broken lookup.
  */
 const liveIds = new Set()
+
+/**
+ * The `source_candidate_ids` each live concept already carries.
+ *
+ * A sparse update row restates the fields it is not changing, candidates
+ * included, and those were minted when the concept was first authored — often
+ * from a corpus index this batch's directory does not point at. Nine correct
+ * update rows in 108 INT were refused for repeating, unchanged, what the live
+ * record already holds.
+ */
+const liveCandidates = new Map()
 try {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) if (concept?.id) liveIds.add(concept.id)
+  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) {
+    if (!concept?.id) continue
+    liveIds.add(concept.id)
+    if (concept.sourceCandidateIds?.length) liveCandidates.set(concept.id, new Set(concept.sourceCandidateIds))
+  }
   for (const item of live.states['synapse-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
 } catch (reason) {
   notes.push(`live state could not be read (${reason.message}) — every ID looks new, so the stub-create check below cannot run`)
@@ -600,7 +712,7 @@ if (kind === 'question') {
     // required only one-or-more.
     if (main.length < 1) errors.push(`${where}: no main_concept — name what this question tests`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -645,6 +757,8 @@ if (kind === 'question') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('question', rows),
     difficulty: difficultyCounts,
     conceptsTested: [...new Set(built.flatMap((item) => item.questionData.tags.mainConceptIds ?? []))].length,
     mediaFlagged,
@@ -695,7 +809,7 @@ if (kind === 'practical') {
     const { mainConceptIds: main, conceptIds: also, contextualConceptIds: contextual } = data.conceptTags
     if (!main.length) errors.push(`${where}: no main_concept — name what this item teaches`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -710,9 +824,9 @@ if (kind === 'practical') {
       questions += 1
       const label = `${where} question ${blockIndex + 1}`
       if (!block.conceptId) errors.push(`${label}: no "Concept:" line — name the one concept it teaches`)
-      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists`)
+      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists${WITH_HINT}`)
       for (const id of block.secondaryConceptIds ?? []) {
-        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists`)
+        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists${WITH_HINT}`)
       }
       if (!block.difficulty) errors.push(`${label}: no "Difficulty:" line`)
       else questionDifficulty[block.difficulty] = (questionDifficulty[block.difficulty] ?? 0) + 1
@@ -828,6 +942,8 @@ if (kind === 'article') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('article', rows),
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
     mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
@@ -1008,7 +1124,13 @@ rows.forEach((values, index) => {
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
   }
+  const alreadyOnTheLiveRecord = liveCandidates.get(values.id?.trim()) ?? new Set()
   for (const candidateId of concept.sourceCandidateIds ?? []) {
+    // A candidate the live record for this exact ID already carries is not an
+    // invention: the author is restating an unchanged field on an update row.
+    // It was minted against whatever index was current when the concept was
+    // first authored, which need not be the one this directory symlinks to.
+    if (alreadyOnTheLiveRecord.has(candidateId)) continue
     if (!corpusConcepts) errors.push(`${where}: ${candidateId} cannot be checked — the concept candidate index is missing, and an unchecked candidate ID points at nothing`)
     else if (!corpusConcepts[candidateId]) {
       errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
@@ -1028,6 +1150,8 @@ console.log(JSON.stringify({
   kind,
   items: rows.length,
   fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+  // Per-record completeness, which the file-level fieldsUsed above cannot show.
+  warnings: completenessWarnings('concept', rows),
   placements: records.map((record) => record.primaryNodeId),
   // `notes` was missing from this branch's report, so anything it had to say
   // about a check it could not run had nowhere to appear.
