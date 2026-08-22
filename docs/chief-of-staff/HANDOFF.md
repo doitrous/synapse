@@ -1,4 +1,4 @@
-# Chief of staff — HANDOFF (written 2026-08-23 00:40 Cairo)
+# Chief of staff — HANDOFF (updated 2026-08-23 01:05 Cairo)
 
 Read this, then BOARD.md (full history and rulings), then `Instruction Manual for Content Creation/13-orchestration.md`. A fresh chief-of-staff session starts here; the transcript is not needed.
 
@@ -11,7 +11,7 @@ Read this, then BOARD.md (full history and rulings), then `Instruction Manual fo
 ## Sessions (address = ListAgents name)
 - Kasr Y1 orchestrator: `media-library-user-hierarchy-42f2c5-8a` — ACTIVE. Branch claude/kasr-alainy-content-report-e0ee59. 108 INT and 101 ISK at the publish line; 102/103/104 in triage/authoring; enrichment of explanations running; INDEX-<module>.md + coverage/<module>-GATES.md per module; full-sequence simulate in click order is the hand-over proof.
 - Alexandria orchestrator: `alexandria-university-content-000583-b4` — ACTIVE. 16 authoring lanes on AU-MED-102/103/105/106 after TRIAGE APPROVED; holds the browser (Telegram) for its Year 1 list; first landed file 1c2fdf6.
-- Validator / shared tooling: `focused-jepsen-7b1a4e-cd` — ACTIVE. Lands on main. Queue: E (practical completeness floors), F (batch treats live-id sparse rows as updates), G (blank label must not overwrite live label). Landed today: fa72ec4, 57ef0d4, 99865d3, 9dba8ca, 470fdde, 312777b, b3cad82, daf0d4d, 4286b26, 6d3f597, ed87a85, d82dd36.
+- Validator / shared tooling: `focused-jepsen-7b1a4e-cd` — HOLDING, queue empty (E dcc6929, F 2d3c6c6, G c255322 landed; 24 hashes total). Its handoff: docs/chief-of-staff/VALIDATOR-HANDOFF.md — a fresh validator session starts from it + 13-orchestration.md when a new queue exists. Only red gate on main: medical:presence (103 BMS content, Kasr Y1's).
 - Kasr Y2–5: `Kasr Alainy year 2,3,4,5 content planning` — PAUSED at 9d1925a (retrofit unfinished, not for main). Resume: merge main, re-read 00+13, prove retrofit, Y3/Y4 surveys, structure agents, remaining fetch list.
 - Helwan: `vibrant-wu-9bf9b7-6b` — PAUSED at d5bcabe with triage table (≈3,560 Qs) and five pre-issued rulings; "TRIAGE APPROVED" takes effect on RESUME.
 - Ain Shams: `busy-goldberg-ac3e9e-bd` — PAUSED at 2271002; session may have exited at the 00:30 limit (unreachable at 00:40). Resume needs Omar's Ain Shams Telegram links; Year 1 has papers in 3/10 modules.

@@ -36,17 +36,21 @@ Content batches only when a shared gate is blocking every lane.
 | `d82dd36` | `+` on a non-list column refused; `simulate` fails on an id-bearing untypeable file |
 | `dcc6929` | Practical completeness per format |
 | `2d3c6c6` | Authoring fields asked of creates only; `103-BMS-OWED.md` correction |
+| `3f4ea7a` | This handoff |
+| `c255322` | Blank `label` no longer blanks a live concept's label on import |
 
 ---
 
 ## Open
 
-- **G, not started.** `conceptImport.ts:148` — `conceptFromRow` defaults `label` to `''`
-  where other optional fields default to `undefined`, so an update row omitting `## label`
-  blanks the live label on import. `d82dd36` refuses such rows at the validator, but the
-  importer should not do it. Check `definition`, `explicit_objective`, `summary` for the
-  same default. Test: update without label → live label survives; create without label →
-  still an error.
+- **Nothing queued.** The lane is held pending a fresh session.
+
+**Checked while closing G, so nobody re-opens it:** `label` was the only field in
+`conceptFromRow` defaulting to `''`; every other prose field already used `text()`.
+The other kinds cannot have the same defect — `importRowToContent` *throws* on a missing
+`title` rather than defaulting, so an article, question or practical update without one
+fails loudly instead of blanking. `source`/`target` on a relation default to `''` and that
+is correct: they are lookup keys, and a relation missing either is refused.
 - **`tools/mint-concept-id.mjs` is unsalted** — `sha256(key)`, no module, no university,
   against `scripts/kasr`'s `sha256("kau:<module>:<key>")`. It minted 237 of the ids in the
   tree. Ruled "keep as-is and pin" by the chief-of-staff, so this is a standing property,
