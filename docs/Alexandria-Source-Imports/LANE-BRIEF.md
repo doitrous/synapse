@@ -466,3 +466,10 @@ coverage (Kasr's were heuristic from `build-article-links.ts`, and some were wro
   concept), not just the validator output.
 - Questions on Kasr ids whose article is unverified stay in `pending-live/` with the note; Kasr Y1
   is running a verification pass.
+
+## 23 · Convention clashes (chief of staff ruling)
+When a bank's printed key follows an older convention than the Kasr concept (first case: 38 vs
+30–32 ATP per glucose), keep the printed key; the `explanation_<correct>` names the convention
+in one sentence ("this bank uses the classical P/O ratios; modern texts give 30–32"). Never
+write a sparse update to the Kasr concept's definition — prose fields replace, and the record
+is Kasr's (Kasr Y1 amends it to state both). Record every clash in the module's coverage ledger.
