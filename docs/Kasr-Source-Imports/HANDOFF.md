@@ -38,6 +38,9 @@ Year 1 (101 ISK, 102 INT, 103 BMS, 104 CPS, 108 INT) publishable: every banked M
 ## Open rulings / needs Omar
 Arabic review (glossary/ARABIC-REVIEW.md); reviewer/publisher names before status → Published; images for 52 practical stations (114 requests); which import-ready batches are already applied (for assumed-live lists); 102 "EOY 2021 physiology" treated as mistagged (upheld); the 729 untriaged 101 bank rows and the 101 EOY 2023 paper are post-publish.
 
+## Two-sided coverage rule (2026-08-23 01:30, chief of staff)
+A tested concept is covered only when the article names it in `related_concepts` AND a reader agrees it teaches it; a concept-side `article_ids` written by build-article-links.ts heuristics is not coverage. Measure with `python3 scripts/kasr/check-two-sided-coverage.py [module] [--list]`. At the time of the rule: 101 ISK 155/282 concept-side only; 102 INT 99/164; 103 BMS 2 (+14 no link, in-flight demand rows); 104 CPS 8/61; 108 INT 0/60. Two on-their-face wrong links to fix first: CON-MSK-4D7492BC85C03D, CON-MSK-888467E7C45479. Each module's verification pass reports heuristic-only → verified (back-link added) → rewired → new articles, and goes into GATES.md + INDEX as a stated check.
+
 ## Hazards learned today (all in memory + SHARED-TOOLCHAIN.md)
 `+` only on list columns; an update row must restate `label` (importer blanks it otherwise); sparse rows never restate source_candidate_ids; "live" = bundle; coverage = union rule; never run build-batches without a module, never --sweep; validator skips an unknown main concept silently — always `--with` every concept file.
 
