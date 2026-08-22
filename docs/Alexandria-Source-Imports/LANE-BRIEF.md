@@ -455,3 +455,14 @@ the rule stands regardless: every sparse update row restates the Kasr label verb
 - Context hygiene (Omar): one task, one report ≤20 lines, then the lane ends; 16 concurrent
   lanes is the ceiling; the orchestrator keeps `HANDOFF.md` current so a fresh session can
   resume from files alone.
+
+## 22 · Two-sided coverage (chief of staff ruling, all universities)
+For hand-over, a tested concept is covered only when it is **named in an article's
+`related_concepts` AND actually taught there**. A concept-side `article_ids` alone is not
+coverage (Kasr's were heuristic from `build-article-links.ts`, and some were wrong on their face).
+- Every article you write names in `related_concepts` every concept it teaches.
+- Every tested concept is named by at least one of your articles or a *verified* Kasr one.
+- State this check explicitly in each module's GATES in your report (which article names each
+  concept), not just the validator output.
+- Questions on Kasr ids whose article is unverified stay in `pending-live/` with the note; Kasr Y1
+  is running a verification pass.

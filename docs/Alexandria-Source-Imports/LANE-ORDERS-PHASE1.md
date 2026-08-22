@@ -74,6 +74,7 @@ Resources for every source used (`12-resources.md`), then claims → citations �
 Kasr shapes copied into `scripts/alexandria/` by P0-E (`build-evidence.ts`, `build-spans.ts`).
 
 ## Gates and hand-over
+**Two-sided coverage (brief §22):** before reporting, list every tested concept with the article whose `related_concepts` names it and which teaches it; a concept with only a concept-side `article_ids` is not covered.
 `medical:batch` per file → `medical:simulate docs/Alexandria-Source-Imports/<kind>/{{SLUG}}-*.md
 --emit /tmp/sim-AU-{{SLUG}}.json` (your own files only) → `medical:audit -- --source …`
 filtered to your IDs with a positive control → `npm run medical:concept-ids`. Claim in
