@@ -639,3 +639,1061 @@ no
 
 ## qualifiers
 scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-419FC81E2EDAD8-01
+
+## concept_id
+CON-FND-419FC81E2EDAD8
+
+## subject
+All the following
+
+## predicate
+are
+
+## object
+phospholipids except cerebroside, which is a glycolipid
+
+## display_text
+All the following are phospholipids except cerebroside, which is a glycolipid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-0DB99892A36970-01
+
+## concept_id
+CON-FND-0DB99892A36970
+
+## subject
+Stearic acid
+
+## predicate
+is
+
+## object
+18 carbons with no double bond; oleic acid is 18 carbons with one double bond; a saturated fatty acid with 16 carbons is palmitic acid
+
+## display_text
+Stearic acid is 18 carbons with no double bond; oleic acid is 18 carbons with one double bond; a saturated fatty acid with 16 carbons is palmitic acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-BF18C5B2D7ECF3-01
+
+## concept_id
+CON-FND-BF18C5B2D7ECF3
+
+## subject
+Fatty acids that
+
+## predicate
+are
+
+## object
+dietary essentials in humans include linoleic acid
+
+## display_text
+Fatty acids that are dietary essentials in humans include linoleic acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-A143E2775DED7A-01
+
+## concept_id
+CON-FND-A143E2775DED7A
+
+## subject
+The major fat in adipose tissue
+
+## predicate
+is
+
+## object
+triacylglycerol
+
+## display_text
+The major fat in adipose tissue is triacylglycerol.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-53CC985588829C-01
+
+## concept_id
+CON-FND-53CC985588829C
+
+## subject
+Sphingomyelin on hydrolysis yields sphingosine, phosphate an
+
+## predicate
+states
+
+## object
+Sphingomyelin on hydrolysis yields sphingosine, phosphate and choline, but not glucose.
+
+## display_text
+Sphingomyelin on hydrolysis yields sphingosine, phosphate and choline, but not glucose.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-434A828D92E20B-01
+
+## concept_id
+CON-FND-434A828D92E20B
+
+## subject
+A ganglioside on hydrolysis gives fatty acid, sphingosine and sugars, but not glycerol; NANA sialic acid
+
+## predicate
+is
+
+## object
+found in gangliosides
+
+## display_text
+A ganglioside on hydrolysis gives fatty acid, sphingosine and sugars, but not glycerol; NANA sialic acid is found in gangliosides.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-B0AA84787FED4A-01
+
+## concept_id
+CON-FND-B0AA84787FED4A
+
+## subject
+Cholesterol contains 27 carbon atoms.
+
+## predicate
+states
+
+## object
+Cholesterol contains 27 carbon atoms.
+
+## display_text
+Cholesterol contains 27 carbon atoms.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-96E45FFCAC519E-01
+
+## concept_id
+CON-FND-96E45FFCAC519E
+
+## subject
+The fatty acid present in lung surfactant
+
+## predicate
+is
+
+## object
+palmitic acid
+
+## display_text
+The fatty acid present in lung surfactant is palmitic acid.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-95D2E6C9F5FE97-01
+
+## concept_id
+CON-FND-95D2E6C9F5FE97
+
+## subject
+Ceramide consists of sphingosine and a fatty acid, joined by
+
+## predicate
+states
+
+## object
+Ceramide consists of sphingosine and a fatty acid, joined by an amide bond.
+
+## display_text
+Ceramide consists of sphingosine and a fatty acid, joined by an amide bond.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-389C605A5B72D6-01
+
+## concept_id
+CON-FND-389C605A5B72D6
+
+## subject
+All of the following
+
+## predicate
+are
+
+## object
+glycolipids except lecithin
+
+## display_text
+All of the following are glycolipids except lecithin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-E1532215D31DF5-01
+
+## concept_id
+CON-FND-E1532215D31DF5
+
+## subject
+All
+
+## predicate
+are
+
+## object
+sphingolipids except cephalin
+
+## display_text
+All are sphingolipids except cephalin.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-97EA8E843D3BF3-01
+
+## concept_id
+CON-FND-97EA8E843D3BF3
+
+## subject
+A compound normally used to conjugate bile acids
+
+## predicate
+is
+
+## object
+glycine
+
+## display_text
+A compound normally used to conjugate bile acids is glycine.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-DF00D86470165A-01
+
+## concept_id
+CON-FND-DF00D86470165A
+
+## subject
+True statements about lipids include being an intracellular energy source, poorly soluble in water, and structural components of membranes; being composed of only carbon, hydrogen and oxygen
+
+## predicate
+is
+
+## object
+false
+
+## display_text
+True statements about lipids include being an intracellular energy source, poorly soluble in water, and structural components of membranes; being composed of only carbon, hydrogen and oxygen is false.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-5B286BE8FAE195-01
+
+## concept_id
+CON-FND-5B286BE8FAE195
+
+## subject
+Testosterone, estrogen and progesterone
+
+## predicate
+are
+
+## object
+steroids derived from cholesterol; a prostaglandin is not
+
+## display_text
+Testosterone, estrogen and progesterone are steroids derived from cholesterol; a prostaglandin is not.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-6356E5CF325B76-01
+
+## concept_id
+CON-FND-6356E5CF325B76
+
+## subject
+Prostaglandins, thromboxanes and lipoxins can be synthesized
+
+## predicate
+states
+
+## object
+Prostaglandins, thromboxanes and lipoxins can be synthesized from arachidonic acid; interleukins cannot.
+
+## display_text
+Prostaglandins, thromboxanes and lipoxins can be synthesized from arachidonic acid; interleukins cannot.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-90FE6700F1159C-01
+
+## concept_id
+CON-FND-90FE6700F1159C
+
+## subject
+A patient with high cholesterol should be advised to eat olive oil rather than brain, meat or liver, because olive oil
+
+## predicate
+is
+
+## object
+rich in monounsaturated fatty acids
+
+## display_text
+A patient with high cholesterol should be advised to eat olive oil rather than brain, meat or liver, because olive oil is rich in monounsaturated fatty acids.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-D2618849B690F9-01
+
+## concept_id
+CON-FND-D2618849B690F9
+
+## subject
+7-Dehydrocholesterol
+
+## predicate
+is
+
+## object
+the precursor for vitamin D3
+
+## display_text
+7-Dehydrocholesterol is the precursor for vitamin D3.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-727D724CBB6F7F-01
+
+## concept_id
+CON-FND-727D724CBB6F7F
+
+## subject
+Which of the following doesn't have amphipathic property? Tr
+
+## predicate
+states
+
+## object
+Which of the following doesn't have amphipathic property? Tri Palmitin (triacylglycerol) does not; cholesterol, lecithin and sulfatides do.
+
+## display_text
+Which of the following doesn't have amphipathic property? Tri Palmitin (triacylglycerol) does not; cholesterol, lecithin and sulfatides do.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-FFD278E8EA5948-01
+
+## concept_id
+CON-FND-FFD278E8EA5948
+
+## subject
+Nervonic acid has a double bond at omega 15.
+
+## predicate
+states
+
+## object
+Nervonic acid has a double bond at omega 15.
+
+## display_text
+Nervonic acid has a double bond at omega 15.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-811CA7149C8E39-01
+
+## concept_id
+CON-FND-811CA7149C8E39
+
+## subject
+Cephalin (phosphatidyl ethanolamine) functions in blood clot
+
+## predicate
+states
+
+## object
+Cephalin (phosphatidyl ethanolamine) functions in blood clotting and forms the myelin sheath of nervous tissue.
+
+## display_text
+Cephalin (phosphatidyl ethanolamine) functions in blood clotting and forms the myelin sheath of nervous tissue.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-A8EE64DBE5FC6E-01
+
+## concept_id
+CON-FND-A8EE64DBE5FC6E
+
+## subject
+Glycosphingolipids, unlike phosphosphingolipids, contain sug
+
+## predicate
+states
+
+## object
+Glycosphingolipids, unlike phosphosphingolipids, contain sugar moieties, though both share ceramide and fatty acid content.
+
+## display_text
+Glycosphingolipids, unlike phosphosphingolipids, contain sugar moieties, though both share ceramide and fatty acid content.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-4151DDFA5CABDA-01
+
+## concept_id
+CON-FND-4151DDFA5CABDA
+
+## subject
+Phospholipids have polar charge; this
+
+## predicate
+is
+
+## object
+not the case for cholesterol in the same sense
+
+## display_text
+Phospholipids have polar charge; this is not the case for cholesterol in the same sense.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural
+
+---
+
+# Item
+
+## id
+CLM-FND-LIPID-FBBF9B587A2AD6-01
+
+## concept_id
+CON-FND-FBBF9B587A2AD6
+
+## subject
+Sodium glyco cholic acid contains a steroid nucleus, unlike 
+
+## predicate
+states
+
+## object
+Sodium glyco cholic acid contains a steroid nucleus, unlike sphingolipids, gangliosides or sulfatides.
+
+## display_text
+Sodium glyco cholic acid contains a steroid nucleus, unlike sphingolipids, gangliosides or sulfatides.
+
+## risk_class
+foundational_stable
+
+## verification_status
+needs_evidence
+
+## conflict_status
+none
+
+## confidence
+0.7
+
+## freshness
+stable_local_curriculum_fact
+
+## time_sensitive
+no
+
+## review_due
+
+
+## qualifiers
+scope: AU-MED-102 Biochemistry (Alexandria University), sub-lane A structural

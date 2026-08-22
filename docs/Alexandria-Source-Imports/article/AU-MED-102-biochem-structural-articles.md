@@ -258,3 +258,262 @@ module: No verified live AU-MED-102 module id has been confirmed in server data 
 moduleIds: Same reason — the academic setup batch `docs/import-ready/academic/au-modules.md` that establishes AU-MED-102 as a live module id has not been imported yet; module_subject names the module by its faculty-printed code instead.
 lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 reviewDue: Set when the first faculty review completes.
+
+---
+
+# Item
+
+## id
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## title
+Lipid chemistry: fatty acids to steroids
+
+## arabic_title
+
+
+## aliases
+Lipid classification|Fatty acid nomenclature|Phospholipid and glycolipid chemistry
+
+## subject
+fnd
+
+## topic
+Biomolecules
+
+## subtopic
+Lipid chemistry
+
+## microtopic
+
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T01
+
+## secondary_node_ids
+
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+14
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Admin team
+
+## reviewer
+Medical team, Admin team
+
+## final_publisher
+Admin team
+
+## universities
+au
+
+## years
+AU_Y1
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## summary
+Alexandria's Biochemistry department examines lipid chemistry the same way it examines carbohydrate chemistry — by naming and exception. Which lipid is not a phospholipid, which fatty acid is essential, which compound is not amphipathic: each fact is a single, separately tested claim, most of them keyed to a specific number (27 carbons, omega-15, 7-dehydrocholesterol) or a specific exclusion (cerebroside is the glycolipid among the phospholipids; interleukins are the one substance not made from arachidonic acid).
+
+## sections
+### Definition
+A lipid is a hydrophobic organic compound, insoluble in water but soluble in organic solvents, that stores energy, forms membranes and carries several signalling roles. Lipids are classified by composition: simple lipids (fatty acid esterified to an alcohol — triacylglycerol is the storage form found in adipose tissue), compound lipids (fatty acid, alcohol and a further group — phospholipids carry phosphate, glycolipids carry carbohydrate), and derived lipids (steroids, including cholesterol and its derivatives).
+
+Fatty acids are named by carbon count and double-bond number: palmitic acid is 16 carbons with none, stearic acid 18 carbons with none, oleic acid 18 carbons with one, linoleic acid 18 carbons with two, linolenic acid 18 carbons with three, arachidonic acid 20 carbons with four. Linoleic and linolenic acid are dietary-essential; oleic and palmitic are not. Nervonic acid, a 24-carbon monounsaturated fatty acid, carries its one double bond at the omega-15 position when counted from the methyl end — a useful check that "long chain" and "small omega number" are not the same claim.
+
+### Mechanism
+Compound lipids split into two backbones. Glycerophospholipids build on glycerol: phosphatidic acid (glycerol, two fatty acids, phosphate) is the parent, and its derivatives are named by what attaches to the phosphate — lecithin (choline), cephalin (ethanolamine), phosphatidylserine, phosphatidylinositol. Cephalin functions in blood clotting and forms part of the myelin sheath of nerve tissue; lecithin instead provides lung surfactant (as dipalmitoyl lecithin, making palmitic acid the surfactant fatty acid) and donates choline for acetylcholine synthesis.
+
+Sphingolipids build on ceramide instead: sphingosine, an amino alcohol, joined to a fatty acid by an amide bond. Ceramide plus phosphocholine gives sphingomyelin (a phosphosphingolipid, hydrolysing to sphingosine, fatty acid, phosphate and choline — never glucose). Ceramide plus a carbohydrate gives the glycolipids — cerebrosides, sulfatides and gangliosides — of which only the gangliosides carry N-acetylneuraminic (sialic) acid, the feature that separates them from plain cerebrosides. Cerebroside itself is the standard trap placed among phospholipid options, because it shares sphingomyelin's backbone but not its phosphate head group. Bile acids belong to neither family: they are steroid derivatives, conjugated with glycine (or taurine) to form the bile salts that are secreted.
+
+### Key determinants
+Membership questions in this chapter turn on one exclusion each. Lecithin is excluded from the glycolipids (it is a glycerophospholipid); cephalin is excluded from the sphingolipids (same reason, different family); glycosphingolipids and phosphosphingolipids (sphingomyelin) share a ceramide backbone and fatty-acid content, but only the glycosphingolipids carry sugar moieties. Triacylglycerol is excluded from the amphipathic lipids — cholesterol, lecithin and sulfatides all carry a polar and a non-polar region, but triacylglycerol's three esterified fatty acids leave it fully non-polar. Interleukins are excluded from the arachidonic-acid-derived eicosanoids (prostaglandins, thromboxanes, lipoxins); interleukins are cytokines, a separate protein-signalling family. Prostaglandins, in turn, are excluded from the steroid hormones cholesterol gives rise to — testosterone, oestrogen and progesterone are steroids; a prostaglandin is not, because it derives from arachidonic acid rather than the cholesterol/steroid-nucleus pathway. Cholesterol itself carries 27 carbon atoms — a fixed number, tested directly against implausible alternatives.
+
+### Clinical significance
+Cholesterol is the precursor of vitamin D3 by way of 7-dehydrocholesterol, oxidised in the liver and converted by ultraviolet light in the skin — the specific intermediate the exam names, as distinct from ergosterol, the plant/fungal precursor of vitamin D2. Dietary management of high cholesterol favours monounsaturated fat (olive oil, oleic acid) over saturated fat and organ meats (brain, liver) rich in cholesterol itself — the standard vignette asks which food a dietitian would recommend, and the answer turns on the fatty-acid profile, not on "healthy-sounding" foods in general.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Fatty acids are named by carbon count and double-bond number; linoleic and linolenic acid are the two dietary-essential ones.
+Triacylglycerol, not phospholipid or cholesterol, is the major stored lipid in adipose tissue.
+Sphingomyelin hydrolyses to sphingosine, a fatty acid, phosphate and choline — never a sugar; glycolipids (built on the same ceramide backbone) hydrolyse to a sugar instead.
+Cerebroside is a glycolipid, not a phospholipid; cephalin is a glycerophospholipid, not a sphingolipid — both are the standard membership traps.
+Only gangliosides among the glycolipids carry N-acetylneuraminic (sialic) acid.
+Cholesterol contains 27 carbon atoms and is the precursor of bile acids, steroid hormones (testosterone, oestrogen, progesterone) and, via 7-dehydrocholesterol, vitamin D3.
+Prostaglandins, thromboxanes and lipoxins come from arachidonic acid; interleukins (cytokines) do not, and a prostaglandin itself is not a steroid.
+Cholesterol, lecithin and sulfatides are amphipathic; triacylglycerol is not.
+
+## lose_the_mark
+Listing cerebroside among the phospholipids because it shares sphingomyelin's sphingosine backbone. The backbone is not what decides the class; the head group (phosphate vs sugar) is.
+Naming oleic acid as an essential fatty acid because it is unsaturated. Only linoleic and linolenic acid are dietary-essential.
+Confusing cephalin's functions (clotting, myelin) with lecithin's (surfactant, choline donation) — the two glycerophospholipids differ only in head group but are examined on different roles.
+Naming ergosterol as vitamin D3's precursor. Ergosterol gives vitamin D2 in plants/fungi; the human pathway to vitamin D3 goes through 7-dehydrocholesterol.
+Calling a prostaglandin a steroid because it is a lipid-derived signalling molecule. Steroids come from cholesterol's ring system; prostaglandins come from arachidonic acid.
+Treating "amphipathic" as a synonym for "membrane-associated". Triacylglycerol sits in and around membranes in adipocytes but carries no polar head group.
+
+## related_concepts
+CON-FND-419FC81E2EDAD8
+CON-FND-0DB99892A36970
+CON-FND-BF18C5B2D7ECF3
+CON-FND-A143E2775DED7A
+CON-FND-53CC985588829C
+CON-FND-434A828D92E20B
+CON-FND-B0AA84787FED4A
+CON-FND-96E45FFCAC519E
+CON-FND-95D2E6C9F5FE97
+CON-FND-389C605A5B72D6
+CON-FND-E1532215D31DF5
+CON-FND-97EA8E843D3BF3
+CON-FND-DF00D86470165A
+CON-FND-5B286BE8FAE195
+CON-FND-6356E5CF325B76
+CON-FND-90FE6700F1159C
+CON-FND-D2618849B690F9
+CON-FND-727D724CBB6F7F
+CON-FND-FFD278E8EA5948
+CON-FND-811CA7149C8E39
+CON-FND-A8EE64DBE5FC6E
+CON-FND-4151DDFA5CABDA
+CON-FND-FBBF9B587A2AD6
+
+## related_articles
+ART-FND-AU-MED-102-CHO-CHEMISTRY: the sister structural-chemistry chapter, and the source of the carbohydrate radical that turns a ceramide into a glycolipid.
+
+## question_ids
+
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+src_01ab4268402d32d4d111
+src_3bf4527b51de57464e14
+src_29f02a5a4d6a273dea76
+src_8d6ddf874f8984be8217
+
+## article_source_ids
+src_0c18ad70ae2353e69ac5
+
+## claim_ids
+CLM-FND-LIPID-419FC81E2EDAD8-01
+CLM-FND-LIPID-0DB99892A36970-01
+CLM-FND-LIPID-BF18C5B2D7ECF3-01
+CLM-FND-LIPID-A143E2775DED7A-01
+CLM-FND-LIPID-53CC985588829C-01
+CLM-FND-LIPID-434A828D92E20B-01
+CLM-FND-LIPID-B0AA84787FED4A-01
+CLM-FND-LIPID-96E45FFCAC519E-01
+CLM-FND-LIPID-95D2E6C9F5FE97-01
+CLM-FND-LIPID-389C605A5B72D6-01
+CLM-FND-LIPID-E1532215D31DF5-01
+CLM-FND-LIPID-97EA8E843D3BF3-01
+CLM-FND-LIPID-DF00D86470165A-01
+CLM-FND-LIPID-5B286BE8FAE195-01
+CLM-FND-LIPID-6356E5CF325B76-01
+CLM-FND-LIPID-90FE6700F1159C-01
+CLM-FND-LIPID-D2618849B690F9-01
+CLM-FND-LIPID-727D724CBB6F7F-01
+CLM-FND-LIPID-FFD278E8EA5948-01
+CLM-FND-LIPID-811CA7149C8E39-01
+CLM-FND-LIPID-A8EE64DBE5FC6E-01
+CLM-FND-LIPID-4151DDFA5CABDA-01
+CLM-FND-LIPID-FBBF9B587A2AD6-01
+
+## span_ids
+SPN-FND-LIPID-CEREBROSIDE-01
+SPN-FND-LIPID-SPHINGOMYELIN-01
+SPN-FND-LIPID-CHOLESTEROL-01
+SPN-FND-LIPID-VITD3-01
+
+## university_notes
+au: Every fact in this article is drawn from the Biochemistry department's own Lipid Chemistry MCQ bank and, where cross-cited, the AFM master bank and the module's EOM exam papers (see `evidence/AU-MED-102-biochemistry-resources.md`); no department book or lecture text beyond these assessment sources teaches lipid chemistry in this corpus.
+
+## annotations
+### definition_of · CON-FND-419FC81E2EDAD8
+Quote: Cerebroside itself is the standard trap placed among phospholipid options, because it shares sphingomyelin's backbone but not its phosphate head group.
+Block: body
+### definition_of · CON-FND-53CC985588829C
+Quote: Ceramide plus phosphocholine gives sphingomyelin (a phosphosphingolipid, hydrolysing to sphingosine, fatty acid, phosphate and choline — never glucose).
+Block: body
+### definition_of · CON-FND-B0AA84787FED4A
+Quote: Cholesterol itself carries 27 carbon atoms — a fixed number, tested directly against implausible alternatives.
+Block: body
+### mechanism_step_before · CON-FND-D2618849B690F9
+Quote: Cholesterol is the precursor of vitamin D3 by way of 7-dehydrocholesterol, oxidised in the liver and converted by ultraviolet light in the skin
+Block: body
+
+## media
+
+
+## media_recommendations
+### diagram · Glycerophospholipid vs sphingolipid backbone comparison
+Purpose: The membership traps in this chapter (cerebroside, cephalin) turn entirely on which backbone and head group a lipid has, which prose can name but a side-by-side structural diagram makes immediately checkable.
+Priority: strongly helpful
+Status: needed
+Kind: diagram
+Section: Mechanism
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Alexandria University AU-MED-102 Biochemistry department sources: `MCQs - lipids _ MCQ.pdf` (src_0c18ad70ae2353e69ac5, 50 questions, only 10 keyed as filed), the Lipid Chemistry section of the staff-authored master bank (src_01ab4268402d32d4d111), and cross-cited items from the module's EOM exam papers. See `coverage/AU-MED-102-biochemistry-triage.md` §3 topic B for the full per-question breakdown.
+
+## evidence_gaps
+No department book or lecture-slide text teaching lipid chemistry was found beyond the MCQ banks and exam papers. Every citation in the accompanying evidence batch is assessment-sourced (`is_assessment: true`), not an independent medical authority.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Searched before creating: the great majority of distinctive terms in this chapter (sphingomyelin, ganglioside, cerebroside, ceramide, amphipathic lipid, omega numbering, steroid nucleus) returned no live or pending match. `docs/Kasr-Source-Imports/article/102-INT-biochemistry.md`'s "Lipids of biological importance" chapter and `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` cover overlapping ground (lipid classification, glycerophospholipid derivatives, the eicosanoid pathway, cholesterol's importance) at a coarser grain and from a different department book; three near-misses (cholesterol carbon count vs. CON-FND-E77FD4A4D78884's importance statement; steroid hormones and vitamin D3 precursor, same Kasr concept; arachidonic-acid products vs. CON-FND-588CA87354B099's pathway mechanism) are recorded as considered-but-rejected merges on the relevant concepts rather than folded in, because AU's own bank tests each as a separate, narrower fact that Kasr's broader concepts do not state at the same grain. This lane cannot edit the Kasr file in any case (one agent, one output file).
+
+## field_notes
+arabicTitle: No standard Arabic term for this chapter is in undergraduate use separate from the English technical vocabulary.
+subtopicId: No SUB_ identifier exists for this module in the curriculum overlay; module_subject carries the department's own chapter position instead.
+microtopicId: The canonical placement (DIS-BIO-T01) and module_subject are already as fine as the department's own materials distinguish.
+nanotopicId: The microtopic level is unused here, so a nanotopic beneath it would be finer than anything examined.
+questionIds: No question record has been authored against this article yet; the reciprocal link is written in the question-authoring pass that follows.
+media: No medical image exists in this repository. Every figure this article needs is filed as a media request rather than left unexplained.
+module: No verified live AU-MED-102 module id has been confirmed in server data yet (the academic import batch is pending); module_subject carries curriculum mapping instead.
+moduleIds: Same reason — `docs/import-ready/academic/au-modules.md` has not been imported yet.
+lastReviewed: New record; not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+reviewDue: Set when the first faculty review completes.

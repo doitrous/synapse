@@ -83,3 +83,91 @@ CLM-FND-CHO-C179C6ECA77DFD-01
 
 ## citation_ids
 CIT-FND-CHO-C179C6ECA77DFD-01
+
+---
+
+# Item
+
+## id
+SPN-FND-LIPID-CEREBROSIDE-01
+
+## article_id
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-lipid-chemistry-mechanism
+
+## text
+Cerebroside itself is the standard trap placed among phospholipid options, because it shares sphingomyelin's backbone but not its phosphate head group.
+
+## claim_ids
+CLM-FND-LIPID-419FC81E2EDAD8-01
+
+## citation_ids
+CIT-FND-LIPID-419FC81E2EDAD8-01
+
+---
+
+# Item
+
+## id
+SPN-FND-LIPID-SPHINGOMYELIN-01
+
+## article_id
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-lipid-chemistry-mechanism
+
+## text
+Ceramide plus phosphocholine gives sphingomyelin (a phosphosphingolipid, hydrolysing to sphingosine, fatty acid, phosphate and choline — never glucose).
+
+## claim_ids
+CLM-FND-LIPID-53CC985588829C-01
+
+## citation_ids
+CIT-FND-LIPID-53CC985588829C-01
+
+---
+
+# Item
+
+## id
+SPN-FND-LIPID-CHOLESTEROL-01
+
+## article_id
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-lipid-chemistry-key-determinants
+
+## text
+Cholesterol itself carries 27 carbon atoms — a fixed number, tested directly against implausible alternatives.
+
+## claim_ids
+CLM-FND-LIPID-B0AA84787FED4A-01
+
+## citation_ids
+CIT-FND-LIPID-B0AA84787FED4A-01
+
+---
+
+# Item
+
+## id
+SPN-FND-LIPID-VITD3-01
+
+## article_id
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## section_id
+art-fnd-au-med-102-lipid-chemistry-clinical-significance
+
+## text
+Cholesterol is the precursor of vitamin D3 by way of 7-dehydrocholesterol, oxidised in the liver and converted by ultraviolet light in the skin
+
+## claim_ids
+CLM-FND-LIPID-D2618849B690F9-01
+
+## citation_ids
+CIT-FND-LIPID-D2618849B690F9-01

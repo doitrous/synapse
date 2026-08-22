@@ -1734,3 +1734,1452 @@ yes
 
 
 ## media_recommendations
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-001
+
+## title
+Which of the following is not a phospholipid?
+
+## question
+Which of the following is not a phospholipid?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Sphingomyelin
+
+## explanation_a
+Incorrect — sphingomyelin IS a phospholipid: ceramide joined to phosphocholine, a phosphate-bearing head group.
+
+## answer_b
+Cerebroside
+
+## explanation_b
+Correct. Cerebroside is a glycolipid — ceramide joined to a sugar, not a phosphate group — despite sharing sphingomyelin's sphingosine backbone.
+
+## answer_c
+Cephalin
+
+## explanation_c
+Incorrect — cephalin (phosphatidylethanolamine) IS a phospholipid, built on glycerol with a phosphate head group.
+
+## answer_d
+Lecithin
+
+## explanation_d
+Incorrect — lecithin (phosphatidylcholine) IS a phospholipid, the archetypal glycerophospholipid.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-419FC81E2EDAD8
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify cerebroside as a glycolipid rather than a phospholipid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q1), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-002
+
+## title
+The structure of stearic acid is:
+
+## question
+The structure of stearic acid is:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+16 carbon, no double bond
+
+## explanation_a
+Incorrect — 16 carbons with no double bond describes palmitic acid, not stearic acid.
+
+## answer_b
+18 carbon, no double bond
+
+## explanation_b
+Correct. Stearic acid is an 18-carbon saturated fatty acid, with no double bonds.
+
+## answer_c
+18 carbon, two double bonds
+
+## explanation_c
+Incorrect — 18 carbons with two double bonds describes linoleic acid.
+
+## answer_d
+18 carbon, three double bonds
+
+## explanation_d
+Incorrect — 18 carbons with three double bonds describes linolenic acid.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-0DB99892A36970
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State stearic acid's carbon count and degree of saturation.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q2), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-003
+
+## title
+Fatty acids that are dietary essentials in humans include which of the following:
+
+## question
+Fatty acids that are dietary essentials in humans include which of the following:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Palmitic acid
+
+## explanation_a
+Incorrect — palmitic acid (16:0) can be synthesised endogenously and is not a dietary essential.
+
+## answer_b
+Stearic acid
+
+## explanation_b
+Incorrect — stearic acid (18:0) can also be synthesised endogenously.
+
+## answer_c
+Oleic acid
+
+## explanation_c
+Incorrect, and the standard trap: oleic acid is unsaturated but the body can still synthesise it, so it is not essential.
+
+## answer_d
+Linoleic acid
+
+## explanation_d
+Correct. Linoleic acid (18:2, omega-6), along with linolenic acid, cannot be synthesised by the body and must come from the diet.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-BF18C5B2D7ECF3
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify linoleic acid as a dietary-essential fatty acid, distinguishing it from oleic acid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q19), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-004
+
+## title
+Sphingomyelin on hydrolysis yields all the following, EXCEPT:
+
+## question
+Sphingomyelin on hydrolysis yields all the following, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Sphingosine
+
+## explanation_a
+Incorrect selection — sphingosine IS a real hydrolysis product of sphingomyelin, its amino-alcohol backbone.
+
+## answer_b
+Glucose
+
+## explanation_b
+Correct. Sphingomyelin's polar head group is phosphocholine, not a sugar; glucose is a glycolipid's hydrolysis product, not sphingomyelin's.
+
+## answer_c
+Phosphate
+
+## explanation_c
+Incorrect selection — phosphate IS a real hydrolysis product, part of the phosphocholine head group.
+
+## answer_d
+Choline
+
+## explanation_d
+Incorrect selection — choline IS a real hydrolysis product, the other part of the phosphocholine head group.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-53CC985588829C
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+List sphingomyelin's hydrolysis products and exclude glucose.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q6), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-005
+
+## title
+Cholesterol contains how many carbon atoms?
+
+## question
+Cholesterol contains how many carbon atoms?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+6
+
+## explanation_a
+Incorrect — far too few for a steroid nucleus plus side chain.
+
+## answer_b
+12
+
+## explanation_b
+Incorrect — still too few for cholesterol's full ring-plus-chain structure.
+
+## answer_c
+27
+
+## explanation_c
+Correct. Cholesterol's steroid nucleus and side chain together total 27 carbon atoms.
+
+## answer_d
+30
+
+## explanation_d
+Incorrect — this overshoots cholesterol's actual carbon count.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-B0AA84787FED4A
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Easy
+
+## question_type
+Classification
+
+## cognitive_effort
+Low
+
+## cognitive_effort_score
+0.3
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+70
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+State that cholesterol contains 27 carbon atoms.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q9), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-006
+
+## title
+All of the following are glycolipids, EXCEPT:
+
+## question
+All of the following are glycolipids, EXCEPT:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Sulfatides
+
+## explanation_a
+Incorrect selection — sulfatides ARE glycolipids, ceramide joined to a sulfated sugar.
+
+## answer_b
+Lecithin
+
+## explanation_b
+Correct. Lecithin is a glycerophospholipid (glycerol backbone, phosphocholine head), not a glycolipid, despite the superficial 'lipid' association.
+
+## answer_c
+Ganglioside
+
+## explanation_c
+Incorrect selection — gangliosides ARE glycolipids, carrying sialic acid in addition to other sugars.
+
+## answer_d
+Cerebrosides
+
+## explanation_d
+Incorrect selection — cerebrosides ARE glycolipids, ceramide joined to a single sugar.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-389C605A5B72D6
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Exclude lecithin from the glycolipid family and classify it as a glycerophospholipid.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q15), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-007
+
+## title
+Which of the following doesn't have amphipathic property?
+
+## question
+Which of the following doesn't have amphipathic property?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Cholesterol
+
+## explanation_a
+Incorrect selection — cholesterol IS amphipathic, carrying a polar hydroxyl and a non-polar ring system.
+
+## answer_b
+Lecithin
+
+## explanation_b
+Incorrect selection — lecithin IS amphipathic, with a polar phosphocholine head and non-polar fatty-acid tails.
+
+## answer_c
+Sulfatides
+
+## explanation_c
+Incorrect selection — sulfatides ARE amphipathic, carrying a polar sulfated sugar head and non-polar ceramide tail.
+
+## answer_d
+Tri Palmitin
+
+## explanation_d
+Correct. Tripalmitin, a triacylglycerol, has all three positions esterified to fatty acids with no charged or polar head group, so it is fully non-polar and not amphipathic.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-727D724CBB6F7F
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify triacylglycerol as the lipid lacking amphipathic character.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q37), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-008
+
+## title
+Which of the following is Precursor for Vitamin D3?
+
+## question
+Which of the following is Precursor for Vitamin D3?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+C
+
+## answer_a
+Ergosterol
+
+## explanation_a
+Incorrect — ergosterol is the plant/fungal sterol that gives vitamin D2 under UV light, not the human vitamin D3 pathway.
+
+## answer_b
+22-Dihydro Ergosterol
+
+## explanation_b
+Incorrect — this is a derivative in the ergosterol/vitamin D2 pathway, not the cholesterol-derived human pathway.
+
+## answer_c
+7-Dehydro Cholesterol
+
+## explanation_c
+Correct. Cholesterol is oxidised in the liver to 7-dehydrocholesterol, which ultraviolet light then converts to vitamin D3 in the skin.
+
+## answer_d
+Cholesterol
+
+## explanation_d
+Incorrect on its own — cholesterol is the ultimate source, but the immediate precursor that UV light acts on is 7-dehydrocholesterol, not cholesterol itself.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-D2618849B690F9
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Mechanism
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Name 7-dehydrocholesterol as vitamin D3's immediate precursor, distinguishing it from cholesterol itself and from ergosterol.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q36), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-009
+
+## title
+A patient has high cholesterol. The dietitian encouraged him to limit consuming food considered as a rich dietary source for it. In this case, what will dietitian advise the patient to eat?
+
+## question
+A patient has high cholesterol. The dietitian encouraged him to limit consuming food considered as a rich dietary source for it. In this case, what will dietitian advise the patient to eat?
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+B
+
+## answer_a
+Brain
+
+## explanation_a
+Incorrect — brain is exceptionally rich in cholesterol and would worsen the patient's condition.
+
+## answer_b
+Olive oil
+
+## explanation_b
+Correct. Olive oil is rich in monounsaturated fatty acids (oleic acid) and is the recommended substitute for saturated-fat and cholesterol-rich foods in a patient managing high cholesterol.
+
+## answer_c
+Meat
+
+## explanation_c
+Incorrect — meat, particularly fatty cuts, is a significant dietary source of both saturated fat and cholesterol.
+
+## answer_d
+Liver
+
+## explanation_d
+Incorrect — liver, like brain, is very high in dietary cholesterol.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-90FE6700F1159C
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Management
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Recommend a monounsaturated-fat food as the dietary substitute for a patient with high cholesterol.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q31), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
+
+
+---
+
+# Item
+
+## id
+QST-FND-AU-102-LIPID-010
+
+## title
+Substance not steroid in nature:
+
+## question
+Substance not steroid in nature:
+
+## subject
+fnd
+
+## status
+Draft
+
+## owner
+Admin team
+
+## vignette
+
+
+## correct_answer
+D
+
+## answer_a
+Testosterone
+
+## explanation_a
+Incorrect selection — testosterone IS a steroid hormone, derived from cholesterol.
+
+## answer_b
+Estrogen
+
+## explanation_b
+Incorrect selection — oestrogen IS a steroid hormone, derived from cholesterol.
+
+## answer_c
+Progesterone
+
+## explanation_c
+Incorrect selection — progesterone IS a steroid hormone, derived from cholesterol.
+
+## answer_d
+Prostaglandin
+
+## explanation_d
+Correct. A prostaglandin is an eicosanoid derived from arachidonic acid, not from the cholesterol/steroid-nucleus pathway, so it is not a steroid despite also being a lipid-derived signalling molecule.
+
+## topic
+Lipid chemistry
+
+## subtopic
+
+
+## main_concept
+CON-FND-5B286BE8FAE195
+
+## concept_ids
+
+
+## contextual_concept_ids
+
+
+## difficulty
+Moderate
+
+## question_type
+Classification
+
+## cognitive_effort
+Medium
+
+## cognitive_effort_score
+0.5
+
+## setting
+Academic
+
+## reasoning_level
+1
+
+## inferred_difficulty
+55
+
+## exam_relevance
+6
+
+## clinical_relevance
+0.2
+
+## academic_relevance
+0.8
+
+## exam_weight_by_year
+AU_Y1=0.4
+
+## years
+AU_Y1
+
+## universities
+au
+
+## module
+
+
+## module_subject
+AU-MED-102 > Biochemistry > Lipid Chemistry
+
+## question_only_for
+
+
+## library_ids
+ART-FND-AU-MED-102-LIPID-CHEMISTRY
+
+## resource_ids
+src_0c18ad70ae2353e69ac5
+
+## learning_objective
+Identify a prostaglandin as the non-steroid substance among a list of cholesterol-derived steroid hormones.
+
+## source_citation
+Alexandria University AU-MED-102 Biochemistry department, Lipid Chemistry MCQ bank (lipids MCQ, Q27), Dr. Mohamed Agha ("The Genius in Biochemistry").
+
+## author_notes
+Transcribed verbatim from the department's own Lipid Chemistry MCQ bank (src_0c18ad70ae2353e69ac5); key confirmed against the bank's printed answer list.
+
+## estimated_seconds
+60
+
+## randomise_answers
+yes
+
+## attached_image
+
+
+## attachments
+
+
+## media_recommendations
