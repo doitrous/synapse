@@ -301,6 +301,15 @@ Rights: consented or openly licensed radiograph; no all-rights-reserved atlas im
 Where the cubital fossa is taught. The department book describes the cubital fossa at the head of the Forearm chapter (PDF pages 206-207) and Dr. Galal's revision puts it on his forearm pages, while the concept drafted from the paper files it under the Arm leaf. This article teaches it here, on the leaf the question sits on, and the forearm article cross-refers rather than repeating it.
 Nerve supply of brachialis. Dr. Galal's table gives brachialis as "musculo-cutaneous & radial nn." without qualification; the department book gives musculocutaneous to the muscle with a radial twig to a small lateral part only. This article follows the department book, which is the more specific statement, and both are recorded because the question books ask the item both ways.
 Origin of the lateral head of triceps. The department book says "the upper lip of the spiral groove, on the posterior surface of humerus"; Dr. Galal's table says "upper lip of spiral groove humerus". They agree; the wording is recorded because a student revising from a third summary that says "above the spiral groove" has the same fact in words the marker may not recognise.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-09C3CC42F64D | CLM-0FA3B2DF97D2 | CLM-2C0AE84F5A80 | CLM-6FA9B9852227 | CLM-B4E2C96E77E8 | CLM-BB1B27CD52CD | CLM-CDCA0C631225 | CLM-F96946E40133
+
+## span_ids
+SPN-ANA-ARM-01 | SPN-ANA-ARM-02 | SPN-ANA-ARM-03 | SPN-ANA-ARM-04 | SPN-ANA-ARM-05 | SPN-ANA-ARM-06 | SPN-ANA-ARM-07 | SPN-ANA-ARM-08 | SPN-ANA-ARM-09 | SPN-ANA-ARM-10 | SPN-ANA-ARM-11 | SPN-ANA-ARM-12 | SPN-ANA-ARM-13 | SPN-ANA-ARM-14 | SPN-ANA-ARM-15 | SPN-ANA-ARM-16
+
 ## evidence_gaps
 Neither source gives a developmental account of the arm, so the Development section reports the absence rather than an embryology. The limb bud, its rotation and the segmental origin of the arm's muscles are not taught anywhere in this module's material.
 The department book does not state the segmental root value of the musculocutaneous nerve's cutaneous territory, nor of the medial and intercostobrachial cutaneous nerves. Root values are given only for the named trunks.
@@ -577,6 +586,15 @@ Rights: consented clinical photograph, or an anatomical illustration if no conse
 Where serratus anterior is taught. The department book describes serratus anterior inside the Shoulder Region chapter (PDF pages 174-175) under the heading "muscles connecting the upper limb with the thoracic wall"; Dr. Galal's revision puts it on his pectoral-region page 2. Both give the same attachments, nerve and actions. It is taught here because two of this leaf's five concepts turn on its action.
 Boundaries of the quadrangular space. The department book adds "and the capsule of the shoulder joint" to the upper boundary; Dr. Galal's table gives teres minor behind and subscapularis in front without it. The book's fuller version is used, and the difference is recorded because a marker working from the revision may not expect the capsule.
 Insertion of supraspinatus. The department book says "the highest impression on the greater tuberosity"; Dr. Galal says "upper impression of greater tuberosity of humerus". The same fact in two words; recorded because a student writing "superior facet" from a third source is describing the same thing in a vocabulary this faculty does not use.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-03DBCEE37405 | CLM-0EB6C7FF0B79 | CLM-E49B719C31E7
+
+## span_ids
+SPN-ANA-SHOULDER-REGION-01 | SPN-ANA-SHOULDER-REGION-02 | SPN-ANA-SHOULDER-REGION-03 | SPN-ANA-SHOULDER-REGION-04
+
 ## evidence_gaps
 Neither source gives a developmental account of the shoulder region.
 The department book states that abduction beyond 90° requires scapular rotation but does not, in this chapter, state the mechanical reason. The statement here that the greater tuberosity meets the coraco-acromial ligament is taken from the concept record CON-MSK-04D3ACA71DC025 as drafted from the paper, and it is flagged in field_notes as not verified against the book's own Shoulder Joint chapter, which was not read for this article.
@@ -909,6 +927,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 When each supinator acts. Dr. Galal's table says supinator supinates "when the elbow is extended" and biceps "when elbow is flexed"; the department book states supinator's action simply as "it supinates the forearm at radio-ulnar joints" without the qualification. The revision's fuller statement is taught here because it is what makes the exam answer about the relative power of supination coherent, and the difference is recorded.
 Insertion of flexor carpi ulnaris. The department book gives "pisiform bone then into 5th metacarpal and hamate bones"; Dr. Galal gives the pisiform alone. Both are taught, with the pisiform named first, because the pisiform is what the ulnar artery and nerve are located against at the wrist.
 Origin of extensor pollicis brevis. The department book says "posterior surface of the shaft of the radius" and the back of the interosseous membrane; Dr. Galal says "back radius & back interosseous membrane". The same fact; recorded because a question book option that adds the ulna to that origin is wrong under both.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Neither source gives a developmental account of the forearm.
 Neither source states the frequency with which palmaris longus is absent, though the question books treat its absence as known. No figure is asserted here.
@@ -1114,6 +1141,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Sagittal as a synonym for median. The department book heads the first plane "Median plane (Sagittal)", treating the two as the same plane, and gives paramedian as the name for a parallel plane beside it. Most international texts use sagittal as the class name and midsagittal or median for the equal-halves plane. The department book's usage is followed here because it is what this faculty marks, and the divergence is recorded because a student reading around will meet the other convention.
 Which is the fourth plane. Dr. Galal's final revision does not cover this chapter at all — it opens at the Upper Limb and returns to the Basis chapters only for fascia, bone, joints and muscle. The department book is the only source of record for this leaf.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision does not cover this leaf. The department book is the sole source, so nothing in this article is corroborated by a second Kasr source.
 The department book gives no oblique plane, no term for rotation about an axis, and no movement vocabulary — flexion, extension, abduction, adduction, pronation, supination, circumduction — in this chapter. Those words are used from the very next chapter onwards and are never defined anywhere in the module's own text, although the question books use them in almost every stem.
@@ -1315,6 +1351,15 @@ Notes: Serves concept CON-MSK-2145D2D62EC401.
 ## conflicts
 Order of the superficial fascia functions. The department book gives thermal insulation first, then softening and smoothing, then skin movement; Dr. Galal's table gives softening and smoothing first, then skin movement, then heat loss. The content is identical and order is not marked; the book's order is used.
 Coverage overlap with ART-101-ANA-DEEP-FASCIA. That article, in 101-ISK-anatomy.md, teaches the same leaf and claims the deep fascia concept CON-MSK-6CD9FFF51AE9CD. This article claims both concepts on the leaf, because the superficial fascia concept CON-MSK-2145D2D62EC401 was not claimed by any article before it, and because the department asks the two lists against each other. The overlap is deliberate and is recorded so a reviewer can decide whether to merge the two articles or keep the deep-fascia one as the long-form treatment.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-C13EB37B0B03
+
+## span_ids
+SPN-ANA-FASCIA-01
+
 ## evidence_gaps
 Neither source describes the internal fascia, although both name it as one of the three kinds. A student asked to contrast deep with internal fascia has nothing in the department text to answer from. This is the same gap the concept record CON-MSK-6CD9FFF51AE9CD already carries, restated here because it belongs to the article too.
 Neither source defines aponeurosis, tendon or synovial sheath, although the muscular-system chapter's own stated learning outcome promises to define all three.
@@ -1578,6 +1623,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 Whether the cartilage model dissolves. The department book says the mesenchyme "is changed at first into a cartilage model, and then the cartilage is changed into bone"; Dr. Galal says the cartilage "dissolves & disappears to be replaced by bones". These describe the same process with different emphasis, and the book's wording is used.
 Where the metaphysis lies. The department book says it "lies in the upper and lower parts of the long bone just beneath the epiphyseal cartilage"; Dr. Galal says "upper & lower parts of diaphysis just below epiphyseal cartilage". Dr. Galal's is the more precise of the two and is followed, because "part of the long bone" would allow a student to place it in the epiphysis.
 Functions of the skeleton, counted. The department book gives eight lettered functions; Dr. Galal compresses them into five numbered ones by pairing joints with muscle attachment and blood formation with calcium storage. The book's eight are taught, because a five-mark question marked against eight items rewards the longer list.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Neither source distinguishes red from yellow bone marrow, or says where each is found in the adult, although the question books ask that distinction repeatedly on this leaf — which bones hold red marrow in an adult, and what yellow marrow does under stress. The department book says only that the medullary cavity is "filled with bone marrow (soft vascular tissue)". A student revising this chapter has nothing to answer those items with.
 Neither source describes the microscopic structure of bone — osteon, lamella, canaliculus, osteocyte, osteoclast — anywhere in the Anatomy part. The histology part of the same book covers connective tissue but the two are not cross-referenced.
@@ -1812,6 +1866,15 @@ Source direction: purpose-drawn, following the department book PDF pages 145-146
 Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Cardiovascular system chapter, so this leaf has one source only.
 The department book gives the heart's position, chambers and valves and nothing else: no surfaces, borders or apex beat, no coronary arteries, no conducting system, no cardiac veins. A question book stem on the coronary circulation has nothing in this chapter to answer from, and the module's own Histology part does not cover it either.
@@ -2044,6 +2107,15 @@ Source direction: purpose-drawn, following the department book PDF pages 149-151
 Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Lymphatic system chapter, so this leaf has one source only.
 **The book names B and T lymphocytes once, as "free cells", and never describes them.** The question books examine them constantly on this leaf — where each matures, which is responsible for humoral and which for cellular immunity, the proportion of T lymphocytes among circulating lymphocytes, CD markers, cytotoxic and helper subsets, natural killer cells, plasma cells and their cartwheel nucleus, life spans. None of it is anywhere in the Anatomy part of the department book. A student revising this chapter for those items has nothing to revise from, and a reviewer should decide whether they belong to the Histology half of the module instead.
@@ -2275,6 +2347,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
 Name of the eighth cranial nerve. The department book prints "Auditory nerve"; most current texts call it the vestibulocochlear nerve. The book's name is used here, and the divergence is recorded because a student reading around will meet the other.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Nervous system chapter, so this leaf has one source only, and it is three pages long.
 The book classifies the autonomic nervous system into sympathetic and parasympathetic and then says nothing else about either — no outflow, no ganglia, no neurotransmitter, no distribution — although one of its own stated learning outcomes for the chapter is to "discuss the two parts of the autonomic nervous system". The only autonomic anatomy in the chapter is the segmental level of the lateral-horn nuclei.

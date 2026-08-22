@@ -51,14 +51,34 @@ built against ages the moment anyone else's batch lands on `main`.
 Totals: 75 resources, 75 articles, 319 concepts (of which 59 are
 update-in-place against this module's own earlier steps, not against
 anything outside the bundle — see below), 1148 claims, 330 citations, 266
-spans, 194 relations, 38 practical items, 1755 questions (1661 MCQ + 94
-written across 7 papers).
+spans, 194 relations, 38 practical items, 1761 questions (1661 MCQ + 100
+written across 7 papers). Every figure in this paragraph and in the
+per-row table above was re-verified by script
+(`grep -c '^# Item$' <file>`, one universal record delimiter across every
+kind including relations, which omits `## id`) — see the addendum for the
+full recount and the one arithmetic error it caught.
 
 `medical:audit` (steps' cumulative field-presence check) is **not** wired
 into the import wizard or into CI (`.github/workflows/content.yml` never
 calls it, `server/src` never calls it) — a red audit does not block any step
 above. See `D1-101-publish.md` §6 for exactly which of its ~305 (now 10)
 open findings are cosmetic and which one was a real data bug.
+
+**Addendum**: all 75 articles now carry `## resource_ids` / `## claim_ids` /
+`## span_ids` columns (previously absent as columns entirely, not just
+blank — the root cause of `apply-article-evidence.ts` filling nothing).
+44 of the 75, the ones named in `scripts/kasr/extract/101-ISK/article-evidence.json`,
+now carry real values: `resource_ids` = `src_b1e6dc481eaf337268d0` (the
+department book — every one of this module's 330 citations resolves to
+that single resource, so "an article's claims/spans cite the book" and "an
+article's claims/spans exist at all" are the same condition here) and
+`claim_ids`/`span_ids` filled by re-running `apply-article-evidence.ts`.
+The other 31 stay `[clear]` on all three, honestly — they have no evidence
+pass yet. This dropped the audit's `resourceIds`/`claimIds`/`spanIds`
+missing-lines from 75 each to 31 each (see `D1-101-publish.md` §8); the
+totals and delta counts in the table above are unchanged (no records were
+added or removed — this was a column addition and fill, not a re-import
+shape change).
 
 ## Ids this module's batches assume already live
 
@@ -140,3 +160,21 @@ This module doesn't inherit anyone else's orphaned resource id.
   article record missing these two columns outright (every other 101
   article has them). Needs the same page-cited authoring the other 74
   records already carry — not fabricated here.
+- **31 articles have no claim/span evidence pass yet** (`resource_ids`,
+  `claim_ids`, `span_ids` all honestly `[clear]`): `ART-101-ANA-FOREARM`,
+  `-INTRODUCTION`, `-SKELETAL-SYSTEM`, `-CARDIOVASCULAR-SYSTEM`,
+  `-LYMPHATIC-SYSTEM`, `-NERVOUS-SYSTEM`, `-CARTILAGINOUS-JOINTS`,
+  `-DECIDUA`, `-HAND-ARTERIES`, `-CHORIONIC-VILLI-PLACENTA`,
+  `-IMPLANTATION`, `-UMBILICAL-CORD`, `-CLAVICLE`, `-BRACHIAL-ARTERY`,
+  `-BRACHIAL-PLEXUS-INJURIES`, `-FOREARM-RETINACULUM-ROTATION`,
+  `-SYNOVIAL-JOINTS`, `-PARAXIAL-MESODERM`, `-AMNIOTIC-FLUID`,
+  `-CUBITAL-FOSSA`, `-SCAPULAR-ANASTOMOSIS`,
+  `ART-101-HIS-RED-BLOOD-CORPUSCLES`, `-NON-GRANULAR-LEUKOCYTES`,
+  `-HAEMOPOIESIS`, `-MICROSCOPES`, `-MICROTECHNIQUES`,
+  `-CONNECTIVE-TISSUE-FIBRES`, `-MEMBRANOUS-SPECIALISATIONS`,
+  `ART-101-HIS-ID-NUCLEUS`, `-ID-LYMPHOCYTE-VERSUS-MONOCYTE`,
+  `-ID-CONNECTIVE-TISSUE-FIBRES`. Needs a `build-evidence.ts`/
+  `build-spans.ts` pass that actually finds citable department-book text
+  for these leaves (or a `field_notes` reason per field if the book
+  genuinely doesn't support one) — not something to fill with `[clear]`
+  reasons invented here.

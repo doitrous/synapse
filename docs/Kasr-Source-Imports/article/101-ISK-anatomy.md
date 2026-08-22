@@ -182,6 +182,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Number and axis of the classification. Concept CON-MSK-4018ED42ADDDB4, drafted from the exam paper's wording, gives three types — direct attachment to periosteum, attachment by tendon, and attachment by aponeurosis. Both Kasr sources give four, classified by what the muscle attaches to: bone (by flesh or by tendon), fibrous raphe, skin, and cartilage. This article follows the Kasr sources, because that is the list the department teaches and marks. The concept should be reconciled to the four-type list at the evidence pass.
 Completeness of the list in the revision summary. The Kasr past-question summary (src_647a13d829db0d2a6584, page 26) prints only three of the four types, giving bone, fibrous raphe and cartilage and omitting attachment to skin. The department book and Dr. Galal's revision both give four. This article teaches four, and the omission is recorded because a student revising from that summary alone would answer three.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-D5ED6FC9A7E2
+
+## span_ids
+SPN-ANA-MUSCLE-ATTACHMENTS-01 | SPN-ANA-MUSCLE-ATTACHMENTS-02
+
 ## evidence_gaps
 Neither source defines aponeurosis. The department book's muscular-system ILO promises "Define tendon, aponeurosis and synovial sheathes", but the chapter text that follows defines none of the three. The sentence here calling an aponeurosis a flattened tendon is general anatomical knowledge, not a quotation, and is flagged in field_notes.
 Neither source states how a fleshy attachment differs from a tendinous one in the force it places on bone, nor that a tendinous attachment raises a bony marking. That mechanical account is reasoning added here and is named in field_notes.
@@ -358,6 +367,15 @@ Notes: The source page is a revision compendium and must not be attached as a sc
 ## conflicts
 Which example the secondary type carries. Concept CON-MSK-8863ACD7E8D790 names both the pubic symphysis and the intervertebral discs. Both Kasr sources name only the intervertebral discs, and it is the disc whose structure they then describe. This article teaches the disc as the example and mentions the pubic symphysis only as consistent with the midline rule.
 Where the primary joint sits. Dr. Galal's revision says "between epiphysis and diaphysis of growing long bones". The department book says "at the ends of long bones" and adds "in the developing long bones in children". These describe the same plate at different resolutions; both wordings are given above so a student recognises either in a question stem.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No source in this corpus gives a second example of a primary cartilaginous joint. The spheno-occipital synchondrosis and the joints of the first rib are standard examples elsewhere and are deliberately not stated here.
 No source in this corpus names the nucleus pulposus as part of the intervertebral disc in the articular-system chapter. It appears only in the embryology account of the notochord, and the two are not connected by either book.
@@ -535,6 +553,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 When capsularis and parietalis fuse. Concept CON-DEV-B84639AB8FF5DE says "by about the fourth month". The department book states the end of the third month, and separately dates the amnion meeting the chorion to the beginning of the third month. This article follows the department book. The concept should be reconciled at the evidence pass.
 Where the topic sits in the curriculum. The concept and this article place the decidua under Fetal Membranes, which is where the exam paper's question sat. Both the department book and Dr. Galal's revision teach it inside the second week of development, immediately after implantation. Nothing turns on this for the content, but a reader looking for the source chapter should look under the second week.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No source in this corpus describes the decidual reaction at the cellular level, nor names decidual cells as glycogen-laden and lipid-laden. The features stated here are the three the books give and no more.
 Neither source states what hormone maintains the decidua, nor connects it to the corpus luteum. The sentence in Definition linking the exaggerated secretory phase to a persisting corpus luteum is general knowledge and is flagged in field_notes.
@@ -726,6 +753,15 @@ Rights: newly drawn for this product, or CC-BY
 What drives transverse folding. Concept CON-DEV-72D21476F03993 states that transverse or lateral folding "is driven by growth of the somites". Both Kasr sources state that growth of the neural tube and somites causes cephalo-caudal folding, and that expansion of the amniotic cavity is what causes folding in all directions, including transverse. This article follows the Kasr sources, and the concept should be corrected at the evidence pass.
 Where the topic sits in the curriculum. The concept and this article place folding under the third week of development, which is where the exam paper's question sat and where folding begins. Both the department book and Dr. Galal's revision teach it inside the Embryonic Period chapter, because it completes in the fourth week. A reader looking for the source chapter should look there.
 How many results are listed. The department book gives ten numbered results; Dr. Galal's revision gives nine steps that cover the same ground, merging the mesentery and coelom points. Neither list is wrong; the department book's is used here because it is the fuller.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-0B6908A186BC | CLM-DFFE9FC54E96
+
+## span_ids
+SPN-ANA-EMBRYONIC-FOLDING-01 | SPN-ANA-EMBRYONIC-FOLDING-02 | SPN-ANA-EMBRYONIC-FOLDING-03
+
 ## evidence_gaps
 Neither source names gastroschisis, and it is deliberately not mentioned here. Omphalocele is stated because the department book names and defines it.
 Neither source gives a Meckel's diverticulum or any other named remnant of the vitelline duct, although both describe the duct's degeneration.
@@ -941,6 +977,15 @@ Rights: must be CC-BY or public domain, with model consent recorded
 ## conflicts
 Wording of the clavicular origin. Dr. Galal's revision and the past-question summary give "medial half of the clavicle"; the department book and the VIP Upper Limb book give "anterior surface of the medial half of the clavicle". The fuller wording is used here and either is acceptable.
 Whether the external oblique aponeurosis is part of the sternocostal head. All four Kasr sources list it, but the VIP Upper Limb book prints it as a third item under the sternocostal head while the past-question summary prints it as a separate line. It is taught here as part of the sternocostal head, following the department book.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-61B0C9A76DFB
+
+## span_ids
+SPN-ANA-PECTORALIS-MAJOR-01
+
 ## evidence_gaps
 No Kasr source in this corpus derives pectoralis major embryologically. The Development section states only the department book's general somite rule and says explicitly what it does not license.
 No Kasr source gives a radiographic, ultrasound or cross-sectional appearance of pectoralis major, so the imaging half of the Surface and imaging anatomy section is empty rather than filled from elsewhere.
@@ -1171,6 +1216,15 @@ Rights: must be CC-BY or public domain, fully de-identified
 ## conflicts
 Where the nerve ends. Dr. Galal's revision and the VIP Upper Limb book say it ends in the cubital fossa in front of the lateral epicondyle. The department book says the same for the nerve but, when describing the accompanying radial artery, places the level one centimetre below the elbow joint at the neck of the radius. Both wordings are given above; nothing turns on the difference for the nerve.
 Whether the lower-third branches are counted as a separate group. Dr. Galal's revision and the VIP book give three groups plus terminals. The department book gives the same content but heads the third group "In the lower part of the arm (in the groove between brachialis and brachio-radialis)". The three-group structure is used here.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-A6DCAE9C5AD5
+
+## span_ids
+SPN-ANA-RADIAL-NERVE-01
+
 ## evidence_gaps
 The dermatome values of the upper limb are not stated anywhere in this article. The department book's "Segmental nerve supply of upper limb" section on page 260 consists of two figures with no text, so the values live only inside images the extraction could not read. They are a genuine gap rather than an omission.
 No Kasr source describes the vasa nervorum or the internal fascicular anatomy of the nerve.
@@ -1403,6 +1457,15 @@ Rights: newly drawn for this product, or CC-BY
 The interval between the two palmar arches. The department book states it twice and does not agree with itself: describing the superficial arch it says the arch lies 1 cm distal to the deep arch, and describing the deep arch it says the deep arch lies half an inch proximal to the superficial one. Dr. Galal's revision and the VIP Upper Limb book both say half an inch, and half an inch is used here. Both figures are recorded because the department book prints both.
 Contents of the snuff box. Concept CON-MSK-1424177E093253 names the radial artery and the beginning of the cephalic vein as the contents, and puts the base of the first metacarpal in the floor. All three Kasr sources put the cephalic vein and the superficial radial nerve in the roof, give the contents as the radial artery plus the tendons of extensor carpi radialis longus and brevis, and give the floor as styloid process of the radius, scaphoid and trapezium only. This article follows the Kasr sources, and the concept should be reconciled at the evidence pass.
 Where the snuff box's boundaries are said to lie. The concept describes an anterior and a posterior boundary with the radial styloid as a base. All three Kasr sources describe a lateral and a medial boundary, the radial styloid being part of the floor. The Kasr wording is used.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source in this corpus describes the development of the arteries or arches of the hand, or of the carpal bones, so the Development section states nothing.
 No Kasr source describes Allen's test, arteriography of the hand, or any imaging of the palmar arches.
@@ -1630,6 +1693,15 @@ Rights: must be CC-BY or public domain, fully de-identified
 The shape and bands of the ulnar collateral ligament. Concept CON-MSK-782A87EC05EF74 describes it as triangular, running from the medial epicondyle in anterior, posterior and oblique bands to the coronoid process and olecranon. All four Kasr sources describe it as fan-shaped, running from the medial epicondyle to the medial margin of the trochlear notch, with no bands named, and reserve the word triangular for the lateral collateral ligament. This article follows the Kasr sources, and the concept should be corrected at the evidence pass.
 How much of the radial head the superior radio-ulnar joint uses. The VIP Upper Limb book states that only one quarter of the circumference of the radial head articulates with the radial notch, the remaining three quarters lying against the anular ligament. The department book and Dr. Galal's revision state the articulation without the fraction. The fraction is recorded here as the VIP book's, not as the department's.
 Where the brachial artery ends. The department book puts it in the cubital fossa below the elbow joint at the level of the neck of the radius. Dr. Galal's revision says the cubital fossa without the level. Both are consistent; the fuller wording is used.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-91ED1C4F852C
+
+## span_ids
+SPN-ANA-ELBOW-JOINT-01
+
 ## evidence_gaps
 No Kasr source gives a complete list of the nerves supplying the elbow joint. Only the ulnar nerve's articular branches are stated explicitly, so Hilton's law is not applied here to fill in the rest.
 No Kasr source describes the development of the elbow, the ossification centres at the lower end of the humerus, or their order and age of appearance and fusion. This is a real gap for a joint whose paediatric radiology depends on it.
@@ -1837,6 +1909,15 @@ Priority: required
 Status: needed
 Rights: Original drawing or redistributable licence required.
 Section: Clinical correlations
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-434FDB0A5E77 | CLM-8B738AB21E7A
+
+## span_ids
+SPN-ANA-AXILLA-BREAST-01 | SPN-ANA-AXILLA-BREAST-02
+
 ## evidence_gaps
 The department book's Axilla chapter gives no descriptive text under its 'Apex (cervico-axillary canal)' heading — the apex boundaries are carried only in a figure the extractor could not read. The apex is named here but not bounded, and its boundaries should be added from p. 178 of the book by someone who can see the figure.
 The book gives no developmental account of the breast in this chapter, so the Development section reports its lifespan rather than its embryology.
@@ -1999,6 +2080,15 @@ Source direction: purpose-drawn from the department book Anatomy pages 112-114 a
 Rights: newly drawn for this product
 ## conflicts
 Where the palmar and plantar aponeuroses sit in the list. The department book and the VIP Academy revision both give them as a separate fourth item. The Kasr past-question summary gives the same five items in the same order, so all three agree; nothing here is contested. Recorded because the item is sometimes folded into "broad sheets" in other textbooks, which would give a four-item answer against this faculty's five.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-7267DB12DAEC | CLM-A1ADD569310C | CLM-C13EB37B0B03 | CLM-F3387AD03D32
+
+## span_ids
+SPN-ANA-DEEP-FASCIA-01 | SPN-ANA-DEEP-FASCIA-02 | SPN-ANA-DEEP-FASCIA-03 | SPN-ANA-DEEP-FASCIA-04
+
 ## evidence_gaps
 Internal fascia is named as the third kind of fascia by both the department book and the VIP Academy revision, and neither describes it. Nothing is said about it here beyond that it is named.
 No source states the thickness, tensile strength or fibre orientation of deep fascia in any region, so the account of why an inelastic sheet holds structures in place is reasoning from the stated tissue rather than a quoted mechanism. It is named in field_notes.
@@ -2177,6 +2267,15 @@ Source direction: purpose-drawn, following the department book Figures 2.1 and 2
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the sperm's middle piece is described as a mitochondrial sheath or as the middle piece. The department book says the sperm nucleus, mitochondrial sheath and axial filament pass into the oocyte; the VIP Academy embryology revision says the nucleus, middle piece and axial filament. These name the same structure and both are given, the department book's wording first.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-4CED1E3BB577
+
+## span_ids
+SPN-ANA-FERTILIZATION-01
+
 ## evidence_gaps
 No Kasr source states how long fertilization itself takes, nor how long the ovum remains fertilisable after ovulation, although both are standard figures elsewhere. No number is given here.
 No Kasr source names the zona protein the sperm binds to, nor the receptor on the sperm head. The sources say "specific receptors" and "binding sites", and this article says no more than that.
@@ -2387,6 +2486,15 @@ Notes: Serves concept CON-DEV-723B31B1B9ED2E.
 The grading of placenta praevia. Concept CON-DEV-723B31B1B9ED2E, drafted from the exam paper's wording, grades it as parietalis, where the margin lies above the internal os, marginalis, where the margin covers it, and centralis, where the central part covers it. The Kasr past-question summary (src_647a13d829db0d2a6584, page 19) grades it as complete, partial and marginal, and adds a low-lying placenta with its lower edge within two centimetres of the internal os. The department book names the group "in position" and gives no grading at all. This article states all three positions rather than choosing, because the department book — which is the faculty's own source and would normally settle it — is silent, and a student may meet either vocabulary. The concept should be reconciled at the evidence pass with a faculty reviewer.
 Number of anomaly groups. The concept record gives four groups: position, shape, number and cord attachment. The department book gives six, adding diameter and infiltration, and the past-question summary gives the same six. This article teaches six and the concept should be extended to match.
 Spelling of chorion laeve. The department book prints "chorion leave" throughout; the VIP Academy revision and the past-question summary print "chorion laeve". The latter is used here as the standard spelling, and the book's spelling is recorded so a student reading the book is not confused.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states the incidence of any placental anomaly, nor the management of any of them. They are taught as a named classification only.
 The department book prints "placenta accreta: placenta infiltrates till the myometrium" and "placenta increta: placenta infiltrates the myometrium", and as printed the two definitions are nearly identical, so the accreta-versus-increta distinction is not clearly drawn by this source. The past-question summary gives the same two phrasings. This article states the three in order of depth and does not invent a sharper distinction than the sources make.
@@ -2622,6 +2730,15 @@ Notes: The same plate is requested by ART-101-ANA-AXILLA-BREAST for the long tho
 ## conflicts
 Whether the capsule of the shoulder joint is a boundary of the quadrangular space. The department book includes "and the capsule of the shoulder joint" in the upper boundary; the VIP Academy Upper Limb revision and the Kasr past-question summary give only teres minor behind and subscapularis in front. The department book's fuller wording is used here and the shorter one is recorded, because either would be marked correct and a student may have learnt only three boundaries for that wall.
 The upper limit of deltoid's range. The Shoulder Region chapter of the department book states that deltoid's middle fibres abduct from 15 to 90 degrees; the Joints chapter of the same book states that supraspinatus initiates abduction from 0 to 15 or 18 degrees and that deltoid continues to 90 or 100 degrees. The article gives 15 to 90, which both chapters support, and records that the same book states the wider figures elsewhere.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-03DBCEE37405 | CLM-0EB6C7FF0B79 | CLM-4D303F5A798C | CLM-6E7E8C4A6BAD | CLM-BD577542BD86 | CLM-C90C6F71A8FF | CLM-E49B719C31E7 | CLM-F65F0FA5D7E8
+
+## span_ids
+SPN-ANA-SHOULDER-SPACES-ROTATION-01 | SPN-ANA-SHOULDER-SPACES-ROTATION-02 | SPN-ANA-SHOULDER-SPACES-ROTATION-03 | SPN-ANA-SHOULDER-SPACES-ROTATION-04 | SPN-ANA-SHOULDER-SPACES-ROTATION-05 | SPN-ANA-SHOULDER-SPACES-ROTATION-06 | SPN-ANA-SHOULDER-SPACES-ROTATION-07 | SPN-ANA-SHOULDER-SPACES-ROTATION-08 | SPN-ANA-SHOULDER-SPACES-ROTATION-09 | SPN-ANA-SHOULDER-SPACES-ROTATION-10 | SPN-ANA-SHOULDER-SPACES-ROTATION-11 | SPN-ANA-SHOULDER-SPACES-ROTATION-12 | SPN-ANA-SHOULDER-SPACES-ROTATION-13 | SPN-ANA-SHOULDER-SPACES-ROTATION-14 | SPN-ANA-SHOULDER-SPACES-ROTATION-15 | SPN-ANA-SHOULDER-SPACES-ROTATION-16 | SPN-ANA-SHOULDER-SPACES-ROTATION-17 | SPN-ANA-SHOULDER-SPACES-ROTATION-18 | SPN-ANA-SHOULDER-SPACES-ROTATION-19 | SPN-ANA-SHOULDER-SPACES-ROTATION-20
+
 ## evidence_gaps
 No Kasr source gives a dimension for any of the three spaces, nor a surface marking by which one could be found on a living shoulder.
 The department book does not state what the upper triangular space's small size is due to, nor why it transmits only one vessel. The article states the fact and does not explain it.
@@ -2787,6 +2904,15 @@ Source direction: purpose-drawn from the department book Anatomy pages 122-131
 Rights: newly drawn for this product
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-58D4FF019E07
+
+## span_ids
+SPN-ANA-FIBROUS-JOINTS-01 | SPN-ANA-FIBROUS-JOINTS-02
+
 ## evidence_gaps
 The department book gives no clinical statement about any fibrous joint. The Clinical significance section of this article says so, and draws only on consequences of facts stated inside the description.
 The book does not state at what age sutures obliterate, nor by what process. "Obliterated in old age" is the whole of it.
@@ -2956,6 +3082,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which chapter this material belongs to. Concept CON-DEV-89FC3BBB3C9BCE is placed on the First Week of Development leaf, and the exam paper asked it there. The department book teaches implantation and its abnormal sites in the Second Week of Development chapter, PDF pages 72-79, because implantation begins on the seventh day and ends on the eleventh. This article carries the concept's placement, which is where a student will look for it, and its evidence basis names the chapter the material actually comes from.
 Grading vocabulary for placenta praevia. The department book, the VIP Academy embryology revision and the Kasr past-question summary all give complete or total, partial and marginal. Concept CON-DEV-723B31B1B9ED2E, drafted from a different exam paper, grades it as parietalis, marginalis and centralis. This article uses the sources' vocabulary and the disagreement is recorded in full on ART-101-ANA-CHORIONIC-VILLI-PLACENTA, where the competing grading is taught.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states an incidence for ectopic pregnancy, for placenta praevia, or for any of their subtypes.
 No Kasr source gives the presentation, diagnosis or management of either abnormality. Rupture of a tubal pregnancy with internal haemorrhage is stated as expected, and nothing is said about what is done about it.
@@ -3142,6 +3277,15 @@ Source direction: purpose-drawn, following the department book Figure 6.11 on An
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which umbilical vein obliterates. The department book states that "one umbilical vein" obliterates as the definitive cord forms, without saying which. The VIP Academy embryology revision names it as the right umbilical vein. The book's wording is used in the body and the revision's identification is recorded here, because the sentence in Common misconceptions depends on it.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states the incidence of any cord anomaly, nor how any of them is detected before birth or managed after it.
 No Kasr source states what a single umbilical artery is associated with, only that it results from degeneration of the other artery.
@@ -3329,6 +3473,15 @@ Source direction: openly licensed anatomy atlas such as Gray's public-domain pla
 Rights: must be CC-BY or public domain; no all-rights-reserved textbook figure
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states the site at which the clavicle most commonly fractures. Concept CON-MSK-26E6BC06A6079C gives the junction of the lateral and middle thirds. The sources give the change of curvature and the position of the conoid tubercle at that junction, and the department book gives the consequence of a fracture medial to the coraco-clavicular ligament, but none of them names a commonest fracture site. The article states the anatomy and does not assert the epidemiology.
 No Kasr source states any treatment for a fractured clavicle. The arm sling named in the concept record is not in the corpus and is not stated here.
@@ -3522,6 +3675,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the capsule is described as thin above and below. The department book states the capsule surrounds the joint completely, thicker in front and behind and thin above and below. The VIP Academy Upper Limb revision gives only "thicker in front and behind". The fuller wording is used and the shorter one recorded, because a student revising from the shorter source has not been told the capsule is thin anywhere.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1EC6F3015BA6 | CLM-430E4876193E | CLM-597B5EFD0D0D
+
+## span_ids
+SPN-ANA-STERNOCLAVICULAR-JOINT-01 | SPN-ANA-STERNOCLAVICULAR-JOINT-02 | SPN-ANA-STERNOCLAVICULAR-JOINT-03 | SPN-ANA-STERNOCLAVICULAR-JOINT-04 | SPN-ANA-STERNOCLAVICULAR-JOINT-05 | SPN-ANA-STERNOCLAVICULAR-JOINT-06 | SPN-ANA-STERNOCLAVICULAR-JOINT-07 | SPN-ANA-STERNOCLAVICULAR-JOINT-08
+
 ## evidence_gaps
 No Kasr source states the movements permitted at the sterno-clavicular joint as a named list with ranges. What is given is the movements of the shoulder girdle as a whole, occurring at both joints, and the statement that the sterno-clavicular joint is what increases the range of scapular movement.
 No Kasr source describes dislocation of the sterno-clavicular joint, its causes or its management. The disc is said to prevent dislocation of the sternal end of the clavicle, and nothing follows from that in the corpus.
@@ -3733,6 +3895,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Where the profunda brachii arises. The department book says it arises from the posteromedial aspect of the brachial artery just below the lower border of teres major; the VIP Academy Upper Limb revision says "near its beginning". These agree, and the book's more precise wording is used.
 Which terminal branch is the larger. The department book, describing the forearm arteries, states that the radial artery is the smaller of the two terminal branches of the brachial and the ulnar the larger. Nothing in the corpus disagrees, and it is recorded because the radial is the one that is palpated and is therefore assumed to be the main vessel.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source describes any lesion, injury or occlusion of the brachial artery, nor Volkmann's ischaemic contracture, nor the relation of a supracondylar fracture to this vessel. The clinical section says so and reasons only from stated anatomy.
 No Kasr source describes the vasa vasorum or the nerve supply of the artery.
@@ -3921,6 +4092,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which lumbricals are involved in the claw hand. The department book's account of Klumpke's paralysis says the small muscles of the hand are paralysed through the ulnar nerve to the lumbricals and interossei, giving a complete claw hand. Its account of ulnar nerve injury says only the medial two lumbricals are ulnar-supplied, so an isolated ulnar lesion gives a partial claw hand affecting the fourth and fifth fingers. Both statements are the book's own and they are consistent — a lower trunk lesion takes more than the ulnar nerve does — but a student reading the two accounts together needs the distinction spelled out, so it is recorded here.
 Whether Erb's palsy includes brachialis entirely. The department book says the elbow is extended "from paralysis of biceps and most of brachialis". The qualification is the book's, and it exists because a small lateral part of brachialis is supplied by the radial nerve. It is preserved in the wording above.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source gives the incidence, prognosis, recovery or management of either injury.
 No Kasr source states how a trunk lesion is distinguished clinically from an avulsion of the roots themselves, although the concept record for Klumpke's paralysis uses the word avulsion.
@@ -4153,6 +4333,15 @@ The lateral attachment of the extensor retinaculum. The department book says it 
 The number of septa. The department book says only that fibrous septa divide the space into six compartments and gives no number. The VIP Academy revision states five septa, and six compartments require five. The number is given here with its source named, because it is arithmetic the book does not print.
 Lister's tubercle. The department book's compartment table gives the contents without naming the dorsal tubercle. The VIP Academy revision names it and uses it to locate the second and third compartments, and the concept's pitfall depends on it. It is used here with the source named.
 Where the compartment contents include the nerve and artery. Both sources agree that the posterior interosseous nerve and anterior interosseous artery run in the fourth compartment, and the department book states it twice — in the compartment table and in its account of the posterior interosseous nerve. Recorded because the fourth compartment is otherwise remembered as tendons only.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source gives the attachments of brachioradialis or of pronator quadratus, although both are named as muscles producing forearm rotation and the concept asks for attachments. Their attachments are therefore not stated in this article.
 No Kasr source describes any lesion of the extensor retinaculum or any tenosynovitis in its compartments, so the clinical section reasons only from stated anatomy.
@@ -4361,6 +4550,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The same plate is requested by ART-101-ANA-RADIAL-NERVE. One drawing serves both.
 ## conflicts
 Whether the intercostobrachial nerve is the lateral cutaneous branch of the second intercostal nerve or of the second thoracic nerve. The department book's Axilla chapter calls it "the lateral cutaneous branch of the 2nd thoracic nerve"; its nerve supply chapter and both revision sources call it the lateral cutaneous branch of the second intercostal nerve. These name the same nerve — the second intercostal nerve is the ventral ramus of the second thoracic nerve — and the wording used here is the one the nerve supply chapter and the revisions share.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-49774183E306 | CLM-B4FAA6EA159F
+
+## span_ids
+SPN-ANA-UPPER-LIMB-CUTANEOUS-01 | SPN-ANA-UPPER-LIMB-CUTANEOUS-02 | SPN-ANA-UPPER-LIMB-CUTANEOUS-03 | SPN-ANA-UPPER-LIMB-CUTANEOUS-04 | SPN-ANA-UPPER-LIMB-CUTANEOUS-05 | SPN-ANA-UPPER-LIMB-CUTANEOUS-06 | SPN-ANA-UPPER-LIMB-CUTANEOUS-07 | SPN-ANA-UPPER-LIMB-CUTANEOUS-08 | SPN-ANA-UPPER-LIMB-CUTANEOUS-09 | SPN-ANA-UPPER-LIMB-CUTANEOUS-10 | SPN-ANA-UPPER-LIMB-CUTANEOUS-11 | SPN-ANA-UPPER-LIMB-CUTANEOUS-12 | SPN-ANA-UPPER-LIMB-CUTANEOUS-13 | SPN-ANA-UPPER-LIMB-CUTANEOUS-14 | SPN-ANA-UPPER-LIMB-CUTANEOUS-15
+
 ## evidence_gaps
 The dermatomes of the upper limb are not stated anywhere in this article. The department book's "Segmental nerve supply of upper limb" section on page 260 consists of two figures with no text, so the values live only inside images the extraction could not read. This is a genuine gap in the corpus and the segmental map is a different question from the cutaneous map.
 No Kasr source states the cutaneous supply of the skin over the scapula, or of the back of the shoulder above the level of the deltoid tuberosity, beyond the posterior cutaneous nerve of the arm's stated territory.
@@ -4575,6 +4773,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 The direction of the dislocation. The department book states that axillary nerve injury is frequent in dislocation of the shoulder joint, without specifying a direction. The VIP Academy Upper Limb revision specifies downward dislocation. Both are given above, the book's general statement first.
 Whether the nerve passes below the capsule of the shoulder joint or through the quadrangular space first. The department book's Axilla chapter says it passes downwards and laterally and, at the lower border of subscapularis, backwards through the quadrangular space; the VIP Academy revision says it passes backwards below the capsule of the shoulder joint through the quadrangular space. These describe the same course from two reference points and both wordings are used above.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-5429503F321C
+
+## span_ids
+SPN-ANA-AXILLARY-NERVE-01 | SPN-ANA-AXILLARY-NERVE-02 | SPN-ANA-AXILLARY-NERVE-03 | SPN-ANA-AXILLARY-NERVE-04 | SPN-ANA-AXILLARY-NERVE-05
+
 ## evidence_gaps
 The dermatome values of the upper limb are not stated in this article. The department book's segmental nerve supply section on page 260 is two figures with no text, so the values live only inside images the extraction could not read.
 No Kasr source describes the development of a peripheral nerve, the vasa nervorum of the axillary nerve, or its internal fascicular anatomy.
@@ -4765,6 +4972,15 @@ Source direction: purpose-drawn for this product, from the department book's Joi
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which part of brachialis the radial nerve takes. The department book's Arm chapter says the flexor group is supplied by the musculocutaneous nerve "with the small lateral part of brachialis also supplied by a twig from the radial nerve", and its account of the radial nerve lists a branch to "a small lateral part of brachialis". The VIP Academy revision says the musculocutaneous nerve supplies brachialis "except a small lateral part". All three wordings agree and the exception is preserved above.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-43638453499F
+
+## span_ids
+SPN-ANA-MUSCULOCUTANEOUS-NERVE-01
+
 ## evidence_gaps
 No Kasr source describes any injury of the musculocutaneous nerve, its causes, its motor effects or its sensory effects. The department book's nerve injury chapter covers seven nerves and this is not one of them, although the orientation sheet names it among the nerves examined and asks for "the effect of injury" for each. This is the most consequential gap on this article and the Clinical correlations section says so in its own text.
 No Kasr source gives a surface marking line for the nerve.
@@ -5000,6 +5216,15 @@ Notes: Serves concept CON-MSK-9B52018C4649BD.
 Whether the sensory loss of carpal tunnel syndrome includes the palm. The department book states that in carpal tunnel syndrome there is paraesthesia just over the lateral three and a half fingers, while in a cut wrist the lateral two-thirds of the palm is also lost if the palmar cutaneous branch is involved. Concept CON-MSK-9B52018C4649BD gives the sensory territory as the palmar surface of the lateral three and a half fingers and the dorsal aspect of their distal phalanges, and does not mention the palm. These agree; the distinction between the two causes is stated above because the corpus makes it and it is the anatomical point of the palmar cutaneous branch.
 Which lumbricals the median nerve supplies. The department book's account of ulnar injury says the second and third fingers are less affected because their lumbricals are median-supplied; its account of the median nerve in the palm gives the first and second lumbricals to the median. Concept CON-MSK-9B52018C4649BD says the lateral two lumbricals. All three agree on two lumbricals and the numbering above follows the palm account.
 Whether the ulnar nerve supplies flexor pollicis brevis. The VIP Academy revision says the deep terminal branch "may also supply" it; the department book does not raise the question. The hedge is preserved by not listing the muscle among the ulnar-supplied ones above.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-F821F12677C4
+
+## span_ids
+SPN-ANA-MEDIAN-ULNAR-NERVES-01 | SPN-ANA-MEDIAN-ULNAR-NERVES-02 | SPN-ANA-MEDIAN-ULNAR-NERVES-03 | SPN-ANA-MEDIAN-ULNAR-NERVES-04 | SPN-ANA-MEDIAN-ULNAR-NERVES-05
+
 ## evidence_gaps
 No Kasr source states where to compress an artery to arrest bleeding from a wrist laceration. Concept CON-MSK-6DD9511FAB3EF1 names compression of the brachial artery against the humerus at the middle and at the lower part of the arm. What the corpus supports is that the brachial artery is superficial throughout its course, covered only by skin and fascia, and runs on the medial side of the shaft of the humerus, with a stated surface marking. The article does not assert the compression manoeuvre, and the gap is named in field_notes.
 No Kasr source states the management, repair or prognosis of any of the three lesions.
@@ -5206,6 +5431,15 @@ Source direction: purpose-drawn from the department book Anatomy pages 122-131
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The department book does not define a condylar joint or a ball and socket joint, although it names both and gives examples. It defines the hinge, pivot, ellipsoid, saddle and plane joints only, and no definition is supplied here for the two it omits.
 The book gives no thickness for articular cartilage and no volume for the synovial fluid in any joint.
@@ -5396,6 +5630,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Where this material sits in the book. Concept CON-DEV-5E63C211DEEE00 is placed on the Third Week of Development leaf, and the intra-embryonic mesoderm does form in the third week. The department book describes the differentiation of the mesoderm, the somites and their derivatives in its Embryonic Period chapter, PDF pages 87-93, because the somite period runs from day 20 to day 30. This article carries the concept's placement and its evidence basis names the chapter the material comes from.
 The upper limit of the somite period. The department book states that segmentation is regular until the thirtieth day and then continues at a slower irregular rate, and gives 42 to 44 pairs by day 40. The VIP Academy revision says the slower rate continues until the thirty-fifth or fortieth day. Both are given above, the book's wording first.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source names any anomaly or malformation of the somites, of segmentation, or of the sclerotome.
 No Kasr source states the mechanism by which the paraxial mesoderm segments, only that it does and in what order.
@@ -5589,6 +5832,15 @@ Source direction: purpose-drawn for this product from the department book's stat
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 The main source of the fluid. The department book states it is first produced by amnioblast cells and then derived from maternal blood by osmosis. The VIP Academy embryology revision states it is "partially produced by amnioblasts but primarily derived from maternal blood by osmosis". The two agree; the revision's word "primarily" is used above because it settles which source dominates, and the difference is recorded because the book does not say so outright.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states how amniotic fluid is turned over, or how often, only what its sources are.
 No Kasr source states the management of polyhydramnios or oligohydramnios, or the consequences of either for the fetus beyond naming their causes.
@@ -5780,6 +6032,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the supratrochlear lymph node is one node or several. The department book's Forearm chapter roof list is given without a count and the Kasr past-question summary says "supratrochlear lymph node" in the singular while the concept record says "the supratrochlear lymph nodes". Nothing turns on it, and both wordings are used above.
 Where the ulnar artery leaves the fossa. The department book states that the median nerve is separated from the ulnar artery by the deep head of pronator teres; the Kasr past-question summary states that the ulnar artery leaves deep to pronator teres. These agree and the summary's explicit wording is used.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source describes any injury, infection or surgical approach involving the cubital fossa.
 No Kasr source gives the dimensions of the fossa or any surface marking for its apex.
@@ -5977,6 +6238,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which is the largest branch of the lateral cord. The department book names the musculocutaneous nerve as the largest branch of the lateral cord and the ulnar nerve as the largest branch of the medial cord. Nothing in the corpus disagrees, and both are stated above because the same question can ask for either.
 Whether the intercostobrachial nerve belongs to the plexus. The department book lists it among the contents of the axilla and calls it the lateral cutaneous branch of the second thoracic nerve; it is not a branch of the plexus and is not listed among these branches. Recorded because it is met in the axilla alongside the cords and is easily added to a cord list by mistake.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1A5C11BE8A88 | CLM-5C3BDAA3C15B | CLM-6CEE7CB6CFD6 | CLM-C5F07792951C
+
+## span_ids
+SPN-ANA-BRACHIAL-PLEXUS-01 | SPN-ANA-BRACHIAL-PLEXUS-02 | SPN-ANA-BRACHIAL-PLEXUS-03 | SPN-ANA-BRACHIAL-PLEXUS-04 | SPN-ANA-BRACHIAL-PLEXUS-05 | SPN-ANA-BRACHIAL-PLEXUS-06
+
 ## evidence_gaps
 No Kasr source gives the relation of the plexus to the scalene muscles, to the subclavian artery in the neck, or to the first rib.
 No Kasr source describes a prefixed or postfixed plexus, or any variation in its root value.
@@ -6176,6 +6446,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Where the common interosseous artery arises. The department book says about one inch below the beginning of the ulnar artery; the concept record says the same. Nothing disagrees, and the figure is stated because it is a marked detail.
 Which structures the ulnar artery lies between at the wrist. The department book's Forearm chapter says it lies lateral to the ulnar nerve and the pisiform and medial to the hook of the hamate; its account of the ulnar nerve says the nerve is lateral to the pisiform and medial to the ulnar artery. The two statements are consistent — nerve medial to artery, both lateral to the pisiform — and both are given above because the pisiform appears in each with a different partner.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-6718C4107954 | CLM-C630C6A0D787
+
+## span_ids
+SPN-ANA-ULNAR-ARTERY-01 | SPN-ANA-ULNAR-ARTERY-02
+
 ## evidence_gaps
 No Kasr source describes any injury, occlusion or aneurysm of the ulnar artery, nor Allen's test or any assessment of the hand's dual supply.
 No Kasr source gives a surface marking line for the ulnar artery.
@@ -6429,6 +6708,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the coraco-acromial ligament is a ligament of the shoulder joint. The department book lists it fourth among the shoulder joint's ligaments and also describes it separately as forming the coraco-acromial arch, which is not attached to the humerus at all. Both accounts are the book's own and both are given above; a student who omits it from the ligament list has followed the arch description and lost a mark.
 The upper limit of the gleno-humeral range of abduction. The department book's Joints chapter states that deltoid continues abduction to 90 or 100 degrees; its Shoulder Region chapter states 15 to 90 degrees for deltoid's middle fibres. Ninety degrees is used above, which both chapters support, and the wider figure is recorded.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-499463425672 | CLM-C6F9F5988B89
+
+## span_ids
+SPN-ANA-SHOULDER-JOINT-01 | SPN-ANA-SHOULDER-JOINT-02 | SPN-ANA-SHOULDER-JOINT-03 | SPN-ANA-SHOULDER-JOINT-04
+
 ## evidence_gaps
 No Kasr source describes the direction, mechanism or management of shoulder dislocation. What is stated is that the joint is easily dislocated, that it has no muscular support below, and that the axillary nerve is injured in dislocation. The inference that the dislocation is downward is left to the sources' own words and is named in field_notes.
 No Kasr source names rotator cuff tear, subacromial impingement, frozen shoulder or bicipital tendinitis.
@@ -6624,6 +6912,15 @@ Source direction: purpose-drawn, following the department book Axilla chapter, A
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the transverse cervical artery contributes by its deep branch or as a whole. The department book names the deep branch of the transverse cervical artery, from the thyro-cervical trunk. Some accounts name the dorsal scapular artery in that role. Only the book's wording is used here, and the alternative name is recorded because a student meeting it elsewhere should know it is the same vessel by a different naming convention.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No Kasr source states a clinical case, a ligature or an occlusion in which this anastomosis has been shown to work. The clinical section reasons from the network's stated ends and is named in field_notes.
 No Kasr source gives the calibre of any vessel in the network, or states which route carries most of the collateral flow.
@@ -6805,6 +7102,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-314DBCE913E1 | CLM-89D917AC93DC | CLM-A61D6A6AF6A5 | CLM-CC819AB8F6AC | CLM-D901842A343E
+
+## span_ids
+SPN-ANA-NOTOCHORD-01 | SPN-ANA-NOTOCHORD-02 | SPN-ANA-NOTOCHORD-03 | SPN-ANA-NOTOCHORD-04 | SPN-ANA-NOTOCHORD-05 | SPN-ANA-NOTOCHORD-06 | SPN-ANA-NOTOCHORD-07 | SPN-ANA-NOTOCHORD-08 | SPN-ANA-NOTOCHORD-09 | SPN-ANA-NOTOCHORD-10 | SPN-ANA-NOTOCHORD-11 | SPN-ANA-NOTOCHORD-12
+
 ## evidence_gaps
 No Kasr source names any anomaly, tumour or remnant disease of the notochord.
 No Kasr source states when the notochord degenerates, or by what process.
@@ -7093,6 +7399,15 @@ Whether the lower fibres of trapezius depress the shoulder girdle. The departmen
 How many ribs latissimus dorsi arises from. The department book and the VIP Academy revision book both say the lower four ribs; the concept as drafted from the question books says "the lower three or four ribs". Four is used, on the faculty's own source.
 Which boundary of the triangle of auscultation trapezius forms. The department book's own boundary list puts the lateral border of trapezius *above* the triangle, with the medial border of the scapula laterally; the concept record CON-MSK-2BCDBB34965818, drafted from the question books, describes the triangle as bounded *medially* by the lateral border of trapezius. The triangle itself, and its floor, are unchanged between the two — only the compass word attached to the trapezius boundary differs. The book's own wording, "above", is used throughout this article.
 Nerve supply of levator scapulae and the rhomboids, by name. The department book calls it the dorsal scapular nerve (C5); Dr Galal's final-revision compendium calls it the "N. to rhomboids", with the same C3 and C4 addition for levator scapulae. Both names refer to the same nerve — the department book itself uses "nerve to the rhomboids" as a synonym elsewhere in the Axilla chapter — and both are recorded because a marker working from either wording should recognise the other.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2C7852546CAC | CLM-59C10CF80DB6 | CLM-646BCF4DCF0C
+
+## span_ids
+SPN-ANA-MUSCLES-OF-THE-01 | SPN-ANA-MUSCLES-OF-THE-02 | SPN-ANA-MUSCLES-OF-THE-03 | SPN-ANA-MUSCLES-OF-THE-04 | SPN-ANA-MUSCLES-OF-THE-05 | SPN-ANA-MUSCLES-OF-THE-06 | SPN-ANA-MUSCLES-OF-THE-07 | SPN-ANA-MUSCLES-OF-THE-08
+
 ## evidence_gaps
 No Kasr source names the arterial supply of trapezius, levator scapulae, rhomboideus major or rhomboideus minor. Only latissimus dorsi has a named artery in the corpus, the thoraco-dorsal.
 No Kasr source describes the venous drainage of any muscle of the back.
@@ -7371,6 +7686,15 @@ Which surface of the forearm the basilic vein ascends on. The department book sa
 Where the supratrochlear nodes lie relative to the basilic vein. The department book says they lie along the basilic vein. A question in the bank keys as correct the statement that they lie in the cubital fossa roof *medial to* the basilic vein. The book's "along" is used; the bank's "medial to" is recorded because a student who has memorised the option will meet the book's wording and should know it is the same node group.
 Whether the median vein of the forearm is itself a common site for intravenous injection. One question in the bank keys as correct an option that ends "It is a common site for intravenous injections", attached to the median vein of the forearm. Both the department book and the VIP Academy revision book name the median *cubital* vein as the vein used for intravenous injection and say nothing of the kind about the median vein of the forearm. The book is followed; the bank option is recorded because it is a single option carrying two statements, and only the first of them — the division into median basilic and median cephalic veins — is what makes it the right answer.
 Whether the basilic vein pierces the clavipectoral fascia. The same question-bank stem, "Regarding veins of upper limb, one is correct answer", offers "The basilic vein pierces the clavipectoral fascia" as a wrong option beside the true one about the cephalic vein's origin. The department book is clear that it is the *cephalic* vein that pierces the clavipectoral fascia, just below the clavicle; the basilic vein pierces the deep fascia of the arm at its middle, nowhere near that fascia. The option is recorded because a student who has only met the distractor should recognise it as false.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-133E08E37CE5 | CLM-FC78B55F71B5
+
+## span_ids
+SPN-ANA-VEINS-OF-UPPER-01 | SPN-ANA-VEINS-OF-UPPER-02 | SPN-ANA-VEINS-OF-UPPER-03 | SPN-ANA-VEINS-OF-UPPER-04
+
 ## evidence_gaps
 The chapter's own intended learning outcomes promise the sites of intravenous injection commonly used and the interpretation of a faulty intravenous injection. No such section exists in the extracted text; the only clinical statement in the chapter is the remark that the median cubital vein is used for intravenous injection. Nothing has been supplied here in its place.
 No Kasr source states what a faulty intravenous injection into this vein damages, or what an intra-arterial injection at the cubital fossa causes.
@@ -7589,6 +7913,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: Serves concept CON-DEV-623698E111AA4B.
 ## conflicts
 Whether the mature ovum is a secondary oocyte or the product of a completed second meiotic division. The department book's Gametes chapter says the mature ovum consists of a secondary oocyte; its own First Week chapter says the secondary oocyte completes the second meiotic division only after the sperm contents have entered, forming the nucleus of the ootid and the second polar body. Both are the same book. This article follows the Gametes chapter's wording, because that is the chapter this leaf is examined from, and names the ovum a secondary oocyte while recording that the division it is arrested in is completed at fertilization.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-665046075BB4 | CLM-FFA330CD8F68
+
+## span_ids
+SPN-ANA-GAMETES-01 | SPN-ANA-GAMETES-02
+
 ## evidence_gaps
 The department book gives no length for the neck of the sperm, and none is supplied here. The three lengths it does give — 4, 6 and 45 microns — sum to the stated total of 55, which leaves the neck without a measured length rather than with a length of zero; the book does not comment on this and neither does this article.
 No Kasr source in the extracted corpus describes the stages of spermatogenesis or of oogenesis — spermatogonium to spermatid, oogonium to primary oocyte — nor spermiogenesis. The chapter examines the finished gametes and the two schedules only.
@@ -7811,6 +8144,15 @@ Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Whether the events at the start of this chapter belong to the embryonic period at all. The department book defines the embryonic period as the 4th to the 8th gestational weeks, then opens the chapter with the division of the intra-embryonic mesoderm on day 17, the first somite pair on day 20 and folding beginning at the end of the third week — all of which fall in the third week, not the fourth. The book does not reconcile the two. This article follows the book's stated span for the definition and the book's stated days for the events, and says both. The repository files the two neighbouring articles, ART-101-ANA-PARAXIAL-MESODERM and ART-101-ANA-EMBRYONIC-FOLDING, under the Third Week of Development leaf for the same reason.
 Whether the somite period starts on day 20 or day 21. The department book says the first pair of occipital somites separates on the 20th gestational day, and separately dates the somite period from day 21 till day 30. Its own formula, age in days = (number of somites − 1) / 3 + 20, is anchored on day 20: one somite returns day 20. This article gives both statements as the book gives them and uses day 20 in the arithmetic, because that is the day the formula is built on and the formula is what the calculation question requires.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2A5444FD8672 | CLM-66C9634F2F3E | CLM-88055399A567 | CLM-BF573093BC88 | CLM-D635A759332E | CLM-F821D99E5F37
+
+## span_ids
+SPN-ANA-EMBRYONIC-PERIOD-01 | SPN-ANA-EMBRYONIC-PERIOD-02 | SPN-ANA-EMBRYONIC-PERIOD-03 | SPN-ANA-EMBRYONIC-PERIOD-04 | SPN-ANA-EMBRYONIC-PERIOD-05 | SPN-ANA-EMBRYONIC-PERIOD-06 | SPN-ANA-EMBRYONIC-PERIOD-07 | SPN-ANA-EMBRYONIC-PERIOD-08 | SPN-ANA-EMBRYONIC-PERIOD-09 | SPN-ANA-EMBRYONIC-PERIOD-10 | SPN-ANA-EMBRYONIC-PERIOD-11
+
 ## evidence_gaps
 The department book gives this chapter no clinical note, no anomaly and no Egyptian applied material. Its applied content is the chapter's intended learning outcomes only.
 No Kasr source states what the four occipital somites go on to form. This article says only that they make no vertebra, which follows from the book's own statement that the sclerotomes form the vertebrae and from the absence of occipital vertebrae; the book does not say it.
@@ -8046,6 +8388,15 @@ Notes: Serves concept CON-DEV-E273F775E9CB77.
 ## conflicts
 The full-term weight of the fetus, 3000 to 3400 grams, is not settled against the department book's own text in the extracted corpus. The book's growth table on Anatomy page 106 is the source of the figure, and the extraction carries that table only as an image, so no weight at any week is present as text. The question books disagree with themselves about it: the clean printing of the birth-weight question is keyed to 3000 to 3400 grams, and two annotated printings are keyed to 1400 to 2100 grams, which is the 28 to 32 week row of the same table. This article follows 3000 to 3400 grams, on the clean printing and on the table's internal logic — a term weight cannot be lower than the preterm rows above it — and records that the department book's own table has not been read to confirm it. The image recommendation for a legible transcription of Table 1 exists to close this.
 The preterm weights quoted in Key determinants — about 900 to 1300 grams at 25 to 28 weeks and 1400 to 2100 grams at 28 to 32 weeks — come from the concept as drafted from the question books and from the same unread table, not from any Kasr text this article has seen. They are given here only to place the standard distractor at the week it belongs to, and they carry the same doubt as the term figure.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-30617DBD30AF | CLM-FF7A60441F79
+
+## span_ids
+SPN-ANA-FETAL-PERIOD-01 | SPN-ANA-FETAL-PERIOD-02 | SPN-ANA-FETAL-PERIOD-03 | SPN-ANA-FETAL-PERIOD-04 | SPN-ANA-FETAL-PERIOD-05 | SPN-ANA-FETAL-PERIOD-06
+
 ## evidence_gaps
 The department book's growth table, correlating crown-rump and crown-heel length with the age of the fetus in weeks, is carried in the extraction only as an image. No length at any week is stated in this article for that reason, and the two measurements are defined rather than tabulated.
 No Kasr source states the weight of the fetus at any week as extractable text. Every weight in this article is flagged in `conflicts`.

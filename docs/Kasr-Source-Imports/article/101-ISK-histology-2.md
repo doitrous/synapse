@@ -231,6 +231,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book states no acid–base buffering role for the red corpuscle, although the question books ask for one. Only gas transport is claimed here.
 The book names spherocytes as an abnormal shape and actin and spectrin as the cytoskeleton, but never connects the two. It does not state that hereditary spherocytosis is a spectrin defect, and this article does not either.
@@ -439,6 +448,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book states that the three lymphocyte types are indistinguishable by light and electron microscopy but does not say how they are distinguished in practice beyond naming their surface markers. No immunostaining method is described in this chapter.
 The book gives no total lymphocyte life span figures beyond "years", "a few days to a few months" and "years" for T, B and natural killer cells respectively.
@@ -620,6 +638,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The same drawing serves ART-101-HIS-BLOOD-PLATELETS, where the demarcation channels are the origin story of the platelet.
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The chapter's own stated objective asks for the histological structure of the cells involved in the various stages of haemopoiesis, but the text covers only marrow structure, the reticulocyte and the megakaryocyte. Neither the erythroid nor the myeloid maturation series is described, and no blast, myelocyte, metamyelocyte or band cell is defined anywhere in this chapter.
 The book names the stem cell but does not classify it, does not give a pluripotent-to-committed hierarchy, and does not name a colony-forming unit.
@@ -788,6 +815,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book gives no resolution figure for the scanning electron microscope, only for the electron microscope as a class.
 The book gives no magnification range for the scanning electron microscope.
@@ -982,6 +1018,15 @@ Rights: must be CC-BY or public domain
 Notes: The same plate serves ART-101-HIS-GRANULAR-LEUKOCYTES and ART-101-HIS-CONNECTIVE-TISSUE-CELLS, where mast cell and basophil metachromasia is the identifying feature.
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The chapter's own stated learning outcomes ask the student to name the common fixatives and list their functions, but the text of pages 4-6 lists processing techniques and stains and never gives a list of fixatives. No fixative list is supplied here. The only fixative the book names anywhere in this part is the methyl alcohol of Leishman's stain, named in the blood chapter.
 The book does not describe the individual steps of any of the three techniques — no fixation, dehydration, clearing, embedding, sectioning or mounting sequence is given, only the advantages and disadvantages of each method.
@@ -1209,6 +1254,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The same drawing serves ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, where the junctions are the chapter's own content.
 ## conflicts
 Which membrane molecule has the stabilising effect. The department book states that cholesterol lies among the hydrophobic fatty acid tails, restricts the movement of the phospholipid molecules and so modulates membrane fluidity, and the concept CON-FND-85CC08A33D0A88 follows the book. One question in the extracted bank marks "phospholipids" as the answer to the stabilising-effect stem while another marks cholesterol for the same idea. This article follows the department book: cholesterol is the stabiliser. The question-book discrepancy is recorded rather than resolved silently, and it needs a faculty ruling before either item is published.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1E8813C96183 | CLM-249826C16E35 | CLM-3166BEFEDE9A | CLM-D374E75C6EA1
+
+## span_ids
+SPN-HIS-THE-CELL-01 | SPN-HIS-THE-CELL-02 | SPN-HIS-THE-CELL-03 | SPN-HIS-THE-CELL-04
+
 ## evidence_gaps
 The book does not name the fluid-mosaic model as such in this chapter, although it describes every element of it. The phrase is not used here.
 The book does not say what proportion of membrane mass is lipid or carbohydrate; only the protein figure, about 50%, is given.
@@ -1495,6 +1549,15 @@ Source direction: purpose-drawn, following the department book's page 23 and pag
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-181E8A4C2DDC | CLM-25DD8FC36FFE | CLM-2B756A5E13F1 | CLM-3D1DB23E51EF | CLM-770B0EDAB872 | CLM-AB9E9BBF304F | CLM-B8590DF61E92 | CLM-C1C62A12E33D | CLM-C2EACD1B5515 | CLM-E327FCE5D8D7 | CLM-E4F95AEAA2D5 | CLM-F53CE81ACB5A
+
+## span_ids
+SPN-HIS-NUCLEUS-01 | SPN-HIS-NUCLEUS-02 | SPN-HIS-NUCLEUS-03 | SPN-HIS-NUCLEUS-04 | SPN-HIS-NUCLEUS-05 | SPN-HIS-NUCLEUS-06 | SPN-HIS-NUCLEUS-07 | SPN-HIS-NUCLEUS-08 | SPN-HIS-NUCLEUS-09 | SPN-HIS-NUCLEUS-10 | SPN-HIS-NUCLEUS-11 | SPN-HIS-NUCLEUS-12 | SPN-HIS-NUCLEUS-13 | SPN-HIS-NUCLEUS-14 | SPN-HIS-NUCLEUS-15 | SPN-HIS-NUCLEUS-16 | SPN-HIS-NUCLEUS-17
+
 ## evidence_gaps
 The book gives no size for the nucleus, no nucleocytoplasmic ratio, and no diameter for the nuclear pore or the perinuclear space.
 The book names the nuclear lamina and lamins but does not say what the lamina does beyond being associated with the inner membrane.
@@ -1706,6 +1769,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book explicitly refers collagen synthesis out to Biochemistry — "COLLAGEN SYNTHESIS: Refer to the Biochemistry" — so no synthetic pathway, no procollagen, no tropocollagen and no cross-linking step is taught in this chapter or stated here.
 The book gives no diameter for any of the three fibres and no banding periodicity for collagen.
@@ -1974,6 +2046,15 @@ Source direction: purpose-drawn from the department book's page 51 table, redraw
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2C090FC11C7F | CLM-AC9D07AFE4F1 | CLM-EDB12D72B6A4 | CLM-F460D2954A6B
+
+## span_ids
+SPN-HIS-TYPES-OF-CONNECTIVE-01 | SPN-HIS-TYPES-OF-CONNECTIVE-02 | SPN-HIS-TYPES-OF-CONNECTIVE-03 | SPN-HIS-TYPES-OF-CONNECTIVE-04 | SPN-HIS-TYPES-OF-CONNECTIVE-05 | SPN-HIS-TYPES-OF-CONNECTIVE-06 | SPN-HIS-TYPES-OF-CONNECTIVE-07 | SPN-HIS-TYPES-OF-CONNECTIVE-08
+
 ## evidence_gaps
 The book gives no quantity for any of these tissues — no percentage of body weight for adipose tissue, no fat cell diameter, no figure for how much brown fat a newborn carries.
 The book prints a rhetorical "Why?" beside the brown colour of the multilocular fat cell in its page 50 table rather than an answer, and the answer given here — richer vascularity plus mitochondrial cytochrome pigment — is taken from the same table's own colour row.
@@ -2197,6 +2278,15 @@ Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-0D3B51AFD14D | CLM-40F3E658F8BE | CLM-4C7C5EC35FD2 | CLM-4DEE7710173E | CLM-51DBDF94F0D4 | CLM-567BDBAC904E | CLM-72627EF1A944 | CLM-7755A347F5E1 | CLM-A7CE3E30B771 | CLM-B51269F181B2 | CLM-BA6E46168358 | CLM-D4B459B85CFE
+
+## span_ids
+SPN-HIS-GLANDULAR-EPITHELIUM-01 | SPN-HIS-GLANDULAR-EPITHELIUM-02 | SPN-HIS-GLANDULAR-EPITHELIUM-03 | SPN-HIS-GLANDULAR-EPITHELIUM-04 | SPN-HIS-GLANDULAR-EPITHELIUM-05 | SPN-HIS-GLANDULAR-EPITHELIUM-06 | SPN-HIS-GLANDULAR-EPITHELIUM-07 | SPN-HIS-GLANDULAR-EPITHELIUM-08 | SPN-HIS-GLANDULAR-EPITHELIUM-09 | SPN-HIS-GLANDULAR-EPITHELIUM-10 | SPN-HIS-GLANDULAR-EPITHELIUM-11 | SPN-HIS-GLANDULAR-EPITHELIUM-12 | SPN-HIS-GLANDULAR-EPITHELIUM-13 | SPN-HIS-GLANDULAR-EPITHELIUM-14 | SPN-HIS-GLANDULAR-EPITHELIUM-15 | SPN-HIS-GLANDULAR-EPITHELIUM-16 | SPN-HIS-GLANDULAR-EPITHELIUM-17 | SPN-HIS-GLANDULAR-EPITHELIUM-18 | SPN-HIS-GLANDULAR-EPITHELIUM-19 | SPN-HIS-GLANDULAR-EPITHELIUM-20
+
 ## evidence_gaps
 The book describes the three modes of secretion by their mechanism but gives no named gland example for any of them. The salivary, lactating mammary and sebaceous examples used here come from the question books and from the concepts drafted on them, not from the extracted text of pages 57-58.
 The same is true of the combined classification. The book prints ten unlabelled diagrams on page 58 and does not attach an organ to any of them; the intestinal, fundic, sweat, kidney, sebaceous and salivary placements come from the question books.
@@ -2332,6 +2422,15 @@ Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
 Notes: An unlabelled version is preferred so the same plate can carry a recognition question later. The department book's page 59 image is itself unlabelled.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-7AB7A607B5F9 | CLM-A00C71090954
+
+## span_ids
+SPN-HIS-NEURO-EPITHELIUM-01 | SPN-HIS-NEURO-EPITHELIUM-02 | SPN-HIS-NEURO-EPITHELIUM-03
+
 ## evidence_gaps
 This is one of the shortest sections in the department book — three bullet points and one unlabelled image on page 59 — and the article is short for that reason rather than by choice.
 The book does not describe the structure of a taste bud: no taste pore, no gustatory cell, no supporting or sustentacular cell, no basal cell.
@@ -2469,6 +2568,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The department book's own figure is unlabelled. The same drawing serves ART-101-HIS-GLANDULAR-EPITHELIUM, where the presence of myo-epithelial cells is one of the consequences of having a duct.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-200E3E65A24E | CLM-47A77AF342DC
+
+## span_ids
+SPN-HIS-MYO-EPITHELIUM-01 | SPN-HIS-MYO-EPITHELIUM-02 | SPN-HIS-MYO-EPITHELIUM-03 | SPN-HIS-MYO-EPITHELIUM-04 | SPN-HIS-MYO-EPITHELIUM-05
+
 ## evidence_gaps
 The department book gives this class four bullet points and one unlabelled figure on page 59, and the article is short for that reason rather than by choice.
 The book does not describe the shape of the myo-epithelial cell, its processes, or the basket appearance the cell is named for elsewhere.

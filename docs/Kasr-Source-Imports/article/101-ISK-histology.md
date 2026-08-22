@@ -201,6 +201,15 @@ Source direction: purpose-drawn, following the department book's page 33 figure
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Eosinophil differential count. The department book states 1-4% of white cells. Concept CON-HEM-5724364F46CD5A, drafted from the exam paper wording, states 2-4%. This article follows the department book, because that is what the faculty teaches and marks against. The concept should be reconciled to 1-4% at the evidence pass.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-33BE460986E7 | CLM-45F2D9E9FA20 | CLM-6661BBB9FD08 | CLM-7EBBBAEBDC2D | CLM-E075FC93FD8F | CLM-EC826322CA81
+
+## span_ids
+SPN-HIS-GRANULAR-LEUKOCYTES-01 | SPN-HIS-GRANULAR-LEUKOCYTES-02 | SPN-HIS-GRANULAR-LEUKOCYTES-03 | SPN-HIS-GRANULAR-LEUKOCYTES-04 | SPN-HIS-GRANULAR-LEUKOCYTES-05 | SPN-HIS-GRANULAR-LEUKOCYTES-06 | SPN-HIS-GRANULAR-LEUKOCYTES-07
+
 ## evidence_gaps
 The book gives no life span in days for any granulocyte beyond the phrase "a few days", so no number is stated here.
 The book does not name the stain used for the routine differential count. Leishman and Giemsa are named only in the image request, as direction to a fulfiller, not as taught content.
@@ -379,6 +388,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-3514249F8DFB | CLM-4A6A44939366
+
+## span_ids
+SPN-HIS-BLOOD-PLATELETS-01 | SPN-HIS-BLOOD-PLATELETS-02 | SPN-HIS-BLOOD-PLATELETS-03 | SPN-HIS-BLOOD-PLATELETS-04 | SPN-HIS-BLOOD-PLATELETS-05
+
 ## evidence_gaps
 The book does not use the term "marginal bundle" for the platelet's microtubules, although the concept definition does. This article uses the book's own wording, "microtubules maintaining cell shape".
 The book does not describe the platelet's role in coagulation beyond naming the alpha granule contents as "clotting factors". No named factor, no cascade and no adhesion receptor is given, so none is stated here.
@@ -700,6 +718,15 @@ Rights: must be CC-BY or public domain
 Where the monocyte and the B lymphocyte belong. Concepts CON-HEM-22B546E0AA7D80 and CON-HEM-9F3C4150F1076B both sit on the Blood > Non granular leukocytes leaf, and the leaf-correct article for both is ART-101-HIS-NON-GRANULAR-LEUKOCYTES, which teaches the monocyte and all three lymphocyte types in full as blood cells. That article lives in a sibling batch file this session was not permitted to edit, so its `related_concepts` could not be extended and the coverage link could not be made from there. Both concepts are declared here instead, on an article that does teach both cells — the monocyte with its counts, light- and electron-microscopic picture and functions, and the B lymphocyte with its percentage, maturation site, surface receptors and pathway to the plasma cell — because the department book's own accounts of the macrophage and the plasma cell begin "arises from the monocyte" and "arises from the B lymphocyte", and each pair is one cell at two stages. The fix at the evidence pass is one line in each place: add `CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B` to the `related_concepts` of ART-101-HIS-NON-GRANULAR-LEUKOCYTES and repoint both entries in `scripts/kasr/seeds/articles.ts`. This article's own teaching of the two precursors should stay, because the macrophage and the plasma cell are not intelligible without them.
 Whether the macrophage is described as fixed or free. The department book says the macrophage "is found in C.T., lymphoid tissue, bone marrow, brain, lung and liver" and draws no fixed-versus-free distinction. Concept CON-FND-45A380D5F6A77F describes it as fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung. This article states the book's list and names the histiocyte as the book does, without asserting the fixed-free split, which no Kasr source in the corpus makes.
 Origin of the mast cell. The department book states the mast cell arises from the undifferentiated mesenchymal cell. Standard current texts derive it from a bone-marrow progenitor that matures in the tissues. This article states the book's position because that is what this faculty teaches and marks, and the disagreement is recorded here rather than resolved silently.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-0706F0B622BB | CLM-1E28C5F758AB | CLM-3A0335A796EC | CLM-778DF53B44AF | CLM-95C38785030F
+
+## span_ids
+SPN-HIS-CONNECTIVE-TISSUE-CELLS-01 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-02 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-03 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-04 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-05 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-06 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-07 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-08 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-09 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-10 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-11 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-12 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-13 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-14 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-15 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-16 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-17 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-18
+
 ## evidence_gaps
 The book does not describe the internal ultrastructure of the mast cell granule. It says only "electron-dense membrane-bound granules". The scroll or lamellar internal structure named in concept CON-FND-EE10AFCE944705 is not in this chapter, is not stated in this article, and needs either an independent citation or removal from the concept.
 The book gives no mast cell count or density per unit tissue.
@@ -1135,6 +1162,15 @@ Rights: must be CC-BY or public domain
 Notes: Serves concept CON-FND-ED156BF8FBFD46.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1F498C9A39D5 | CLM-33D0317FBC0C | CLM-892514BBF5B4
+
+## span_ids
+SPN-HIS-CYTOPLASMIC-ORGANELLES-01 | SPN-HIS-CYTOPLASMIC-ORGANELLES-02 | SPN-HIS-CYTOPLASMIC-ORGANELLES-03 | SPN-HIS-CYTOPLASMIC-ORGANELLES-04 | SPN-HIS-CYTOPLASMIC-ORGANELLES-05 | SPN-HIS-CYTOPLASMIC-ORGANELLES-06 | SPN-HIS-CYTOPLASMIC-ORGANELLES-07
+
 ## evidence_gaps
 The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-9D325B98FC59A0 is therefore unsupported by this source and is not stated in this article.
 The book gives no size in nanometres for a primary or a secondary lysosome, so the article describes them as small and larger rather than giving a figure.
@@ -1353,6 +1389,15 @@ Source direction: openly licensed cell biology EM atlas
 Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The department book does not mention dynein arms, nexin links or radial spokes. It attributes the beat to "bending of adjacent doublets" and stops there. The dynein arms named in concept CON-FND-0FAE59E00B748E are therefore not supported by this source, are not stated in this article, and need either an independent citation or removal from the concept.
 The book does not name the disease of immotile cilia, describing only chronic respiratory infection and male infertility as consequences. No syndrome name is given here.
@@ -1603,6 +1648,15 @@ Source direction: purpose-drawn from the department book's own classification
 Rights: newly drawn for this product
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-51A288E04048 | CLM-9EED68AF159A | CLM-D3010F08C9FB
+
+## span_ids
+SPN-HIS-SURFACE-EPITHELIUM-01 | SPN-HIS-SURFACE-EPITHELIUM-02 | SPN-HIS-SURFACE-EPITHELIUM-03
+
 ## evidence_gaps
 The book does not name the plaque protein of the transitional epithelium's superficial cells. It says only "rigid plaques acting as a barrier", so no uroplakin is named here.
 The book does not describe the fusiform vesicles of the umbrella cell, nor give an EM account of transitional epithelium at all. The comparison in this article is a light-microscopic one because that is the level the source works at.
