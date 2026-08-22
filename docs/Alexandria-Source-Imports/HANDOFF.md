@@ -25,6 +25,7 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | 5ac21ea | AU-MED-102 Anatomy pending-live: 23 labelled Kasr updates + 14 questions |
 | 6ac97cb | AU-MED-102 Terminology: 81 glossary terms, 4 concepts, 2 articles, 4+2 questions — LANE DONE |
 | 6fd9e4e | AU-MED-102 Biochem D: 26 concepts, 3 articles, evidence, 7 pending updates (19 ideas + questions owed) |
+| f9a57e7 | AU-MED-103 Histology: 5 concepts + 5 live updates, 2 articles, 10 MCQs (audit key fix + pending/practical questions owed) |
 
 ## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
 ## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
