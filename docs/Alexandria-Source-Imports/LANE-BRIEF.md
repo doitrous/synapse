@@ -397,3 +397,12 @@ Three additions:
 3. **Commits.** Lanes still never run git. The orchestrator commits each lane's question-backed
    records separately from everything else, with the gate lines in the commit body — so every
    report must paste the exact `medical:batch` / `simulate` / `audit` / `concept-ids` output.
+
+## 19 · Validator landings merged (312777b, 470fdde, b3cad82) — three rule changes
+1. Pipe-joined `+` cells are safe again; one-per-line remains fine.
+2. **An update-shaped row for an id that is neither live nor authored in the same batch folder is
+   now an ERROR.** Validate every `pending-live/<slug>.md` with `--with` the Kasr concept file it
+   targets: `npm run medical:batch -- docs/Alexandria-Source-Imports/pending-live/<slug>.md --with docs/Kasr-Source-Imports/concept/<file>.md`.
+   A pending-live file that fails without `--with` and passes with it is correct.
+3. `find-existing.mjs` now reads `## canonical_key` in pending batches; the manual grep is no
+   longer required (harmless if you keep it).
