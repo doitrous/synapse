@@ -224,19 +224,60 @@ const summarise = (map) => {
 }
 
 let failed = 0
+/**
+ * The concepts already in the ledger, by ID.
+ *
+ * The audit this mirrors runs against the **merged** ledger, and an update
+ * record is merged over the live one — `id` plus the discriminating columns
+ * plus only the fields it changes, with every omitted key keeping its live
+ * value. Judging such a record on its own asks a question the audit never
+ * asks, and answers it wrongly: five sparse updates in this module reported
+ * `definition`, `subjectId`, `primaryNodeId` and `conceptType` unpopulated
+ * while every one of them is populated on the record being updated.
+ *
+ * `medical:batch` has the same blind spot and the manuals say so outright —
+ * "validate a partial update with `medical:simulate`, not `medical:batch`".
+ * A pre-import check has no such excuse: it can read live state.
+ */
+const LIVE = 'server/data/medical-library-v1.json'
+let liveConcepts = new Map()
+try {
+  const graph = JSON.parse(readFileSync(LIVE, 'utf8')).states['synapse-concept-graph-v2']?.concepts ?? {}
+  const rows = Array.isArray(graph) ? graph : Object.values(graph)
+  liveConcepts = new Map(rows.map((concept) => [concept.id, concept]))
+} catch {
+  // No live state in this checkout: every record is then judged as new, which
+  // is stricter rather than looser, and the run says so below.
+}
+
 for (const file of process.argv.slice(2)) {
   const rows = parse(readFileSync(file, 'utf8')).filter((row) => row.id || row.label)
   const isArticle = rows.some((row) => row.summary !== undefined && row.sections !== undefined)
   const shapeOf = isArticle ? ARTICLE_SHAPE : SHAPE
   const absent = {}
   const unpopulated = {}
+  let updates = 0
 
   for (const row of isArticle ? [] : rows) {
     // Placement is resolved the way the importer resolves it. Without the
     // catalogue `subjectId` comes back undefined and every concept looks
     // broken — a check that cries wolf is worse than no check.
-    const concept = materialiseNewConcept(
+    const authored = materialiseNewConcept(
       conceptFromRow(row, resolvePlacement(row.subject?.trim() ?? '', row, CURRICULUM_CATALOG)))
+    // An update is judged on what the ledger will hold after it is applied,
+    // not on what the batch file carries. A key the batch omits keeps its live
+    // value; a key the batch fills wins.
+    const existing = liveConcepts.get(authored.id)
+    // Start from the live record and lay the batch over it, rather than the
+    // other way round: a key the batch omits entirely is *absent* from the
+    // authored object, so iterating the batch's own keys never reaches it —
+    // which is how `subjectId` stayed unpopulated after the first attempt at
+    // this. The union is what the importer merges, so the union is what to ask.
+    const concept = existing
+      ? Object.fromEntries([...new Set([...Object.keys(existing), ...Object.keys(authored)])]
+          .map((key) => [key, isEmpty(authored[key]) && !isEmpty(existing[key]) ? existing[key] : authored[key]]))
+      : authored
+    updates += existing ? 1 : 0
     for (const key of PRESENT) {
       if (!(key in concept) || concept[key] === undefined) (absent[key] ??= []).push(concept.id)
     }

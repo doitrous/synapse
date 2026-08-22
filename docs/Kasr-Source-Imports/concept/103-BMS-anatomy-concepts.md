@@ -1826,6 +1826,9 @@ relationships: The highest-value edge in this batch is often_confused_with betwe
 ## id
 CON-MSK-594BD65D8C0D7A
 
+## canonical_key
+femoral-canal.anterior-roof-sartorius
+
 ## label
 Anterior relations in adductor canal
 
@@ -1859,6 +1862,9 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p9 | 103 BMS
 
 ## id
 CON-MSK-700EC3AB121997
+
+## canonical_key
+femoral-canal.posterior-adductor-longus
 
 ## label
 Adductor longus behind femoral artery
@@ -1894,6 +1900,9 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p9 | 103 BMS
 ## id
 CON-MSK-6F2C49EFF66B46
 
+## canonical_key
+femoral-canal.posterior-adductor-magnus
+
 ## label
 Adductor magnus behind femoral artery
 
@@ -1928,6 +1937,9 @@ src_37f6c0daf3436096af19 | end_of_year | 2025 | p9 | 103 BMS
 ## id
 CON-MSK-959D95DCE2E022
 
+## canonical_key
+hip-joint.acetabulum-articular
+
 ## label
 Acetabular hip articular surface
 
@@ -1955,6 +1967,9 @@ kau
 
 ## id
 CON-MSK-78379D5B8914BC
+
+## canonical_key
+medial-circumflex.acetabular-hip
 
 ## label
 Acetabular branch of medial circumflex

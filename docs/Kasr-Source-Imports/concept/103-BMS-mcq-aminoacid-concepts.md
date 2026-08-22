@@ -374,7 +374,7 @@ src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q3 
 [clear]
 
 ## original_wording
-
+"Which of the following amino acid degradation pathway disorders would lead to renal failure due to stone formation? a) Phenylalanine b) Tyrosine c) Methionine d) Glycine" — key: d
 
 ## merge_ids
 [clear]
@@ -416,6 +416,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+originalWording: The department textbook states nothing here to quote — "oxalate" and "glyoxylate" occur on none of its 160 pages. The wording is the question book's, which is the source this concept was authored from and the only source that asserts it. Kept as the source's own words rather than left empty, with support_mode `inference` and the textbook silence recorded in evidence_gaps.
 microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
 nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)

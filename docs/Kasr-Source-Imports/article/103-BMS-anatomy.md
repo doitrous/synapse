@@ -225,6 +225,7 @@ The same book, page 114, for the medial rotation of the lower limb bud cited und
 The adductor canal block and the surgical exposure of the femoral artery in the thigh are named under Clinical correlations but are not in the department book; they are stated as context and are not claim-linked.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -438,6 +439,7 @@ The same book, pages 113 and 114, for limb musculature and the medial rotation o
 The arterial supply of the lateral compartment is not stated for these muscles individually in the department book, so no arterial claim is made and the section says so.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -651,6 +653,7 @@ The same book, pages 114 and 115, for joint formation and limb rotation cited un
 The bedside inference in Clinical correlations — that isolated weak abduction localises to gluteus medius and minimus — follows from the book's muscle list but is not stated in the book, so it is not claim-linked.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -864,6 +867,7 @@ The same book, pages 113 and 114, for the limb bud and its medial rotation cited
 The clinical instruction to check the posterior tibial pulse before calling an absent dorsalis pedis pulse abnormal is an inference from the book's note about the perforating branch; the book does not give the instruction, so it is not claim-linked.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1081,6 +1085,7 @@ The same book, pages 113 and 114, for the segmental level of the lower limb bud 
 The statement that the upper outer quadrant is the safe injection site is the standard corollary of the book's surface marking and of its warning about faulty injection, but the book does not name the quadrant, so it is not claim-linked.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 

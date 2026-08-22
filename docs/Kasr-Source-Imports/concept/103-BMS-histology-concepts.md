@@ -995,6 +995,9 @@ relationships: Walked the live CON-MSK-* and CON-RES-* smooth-muscle concepts an
 ## id
 CON-MSK-967E873EEEACE0
 
+## canonical_key
+teaching.bone.cells
+
 ## label
 Bone cells include osteogenic cells, osteoblasts, osteocytes, and osteoclasts
 
@@ -1033,6 +1036,9 @@ CON-MSK-D137ADEEC56243 | CON-MSK-76CE11C6DCDC37
 ## id
 CON-MSK-E36936D62038BF
 
+## canonical_key
+teaching.a-i-bands
+
 ## label
 Alternating anisotropic dark A bands and isotropic light I bands create striations
 
@@ -1067,6 +1073,9 @@ CON-MSK-888DFA3AA4E974 | CON-MSK-0DEAF126DF8F2E
 
 ## id
 CON-DER-A4BD56E5027310
+
+## canonical_key
+teaching.arrector.structure
 
 ## label
 Arrector pili is a smooth-muscle bundle extending from mid hair follicle to papillary dermis

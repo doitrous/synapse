@@ -714,7 +714,7 @@ Oxidation of fatty acids
 ART-103-BIO-FATTY-ACID-OXIDATION
 
 ## related_article_ids
-[clear]
+ART-103-BIO-KETONE-BODY-METABOLISM | ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT | ART-103-BIO-FEED-STARVE-CYCLE
 
 ## related_concept_ids
 CON-FND-84BDACCA71AF45 | CON-FND-A0F07BE6AD30A5
@@ -805,6 +805,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
@@ -1425,7 +1426,7 @@ Synthesis of triacylglycerol
 ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
 
 ## related_article_ids
-[clear]
+ART-103-BIO-FATTY-ACID-OXIDATION | ART-103-BIO-PLASMA-LIPOPROTEINS | ART-103-BIO-CHOLESTEROL-METABOLISM
 
 ## related_concept_ids
 CON-FND-69437CF1F5CCC0 | CON-FND-1C668119B3C0BB
@@ -1516,6 +1517,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
@@ -3045,7 +3047,7 @@ Eicosanoids
 ART-103-BIO-EICOSANOIDS
 
 ## related_article_ids
-[clear]
+ART-103-BIO-LIPOPROTEIN-MACHINERY
 
 ## related_concept_ids
 CON-GIT-ECB3C2F56DC72D
@@ -3136,6 +3138,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
