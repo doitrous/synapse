@@ -826,7 +826,6 @@ Getting the fibre types the wrong way round. Preganglionic axons are mostly myel
 
 ## related_concepts
 CON-NEU-FCFD384A1011F8
-
 ## related_articles
 ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM: The parasympathetic chapter names the ganglia these fibres relay in — ciliary, sphenopalatine, submandibular, otic and the terminal ganglia — and is where the second and third types of ganglion are seen at work.
 
@@ -1139,7 +1138,8 @@ Reading 75% as a proportion of parasympathetic effects. It is the share of paras
 
 ## related_concepts
 CON-NEU-C3D7B209FB3260
-
+CON-NEU-489FA78A649E37
+CON-NEU-6CC8F7E6DC2871
 ## related_articles
 ART-102-PHY-AUTONOMIC-GANGLIA: The ganglia this chapter's fibres relay in — ciliary, sphenopalatine, submaxillary, otic and the terminal ganglia — are defined and classified there.
 
@@ -1812,7 +1812,9 @@ Listing serotonin among the aggregating agents. It reinforces and maintains vaso
 ## related_concepts
 CON-HEM-543C749CEB67BF
 CON-FND-4C1A1DFB1C6FA2
-
+CON-HEM-603D2DB3DED602
+CON-HEM-8EC1CD48F9DB41
+CON-HEM-C62DE76BB2BDCD
 ## related_articles
 ART-102-PHY-PHYSIOLOGICAL-LIMITATIONS-OF-BLOOD-COAGULATION: the chapter immediately after this one, whose fifth limiting mechanism is the thromboxane A2 and prostacyclin balance described here, and whose fibrinolytic system is the fourth step of haemostasis.
 ART-102-PHY-PLASMA-PROTEINS: the coagulation factors are plasma proteins, mainly beta globulins made by the liver, and blood clotting is the fourth of the eight functions that chapter lists.
@@ -2174,7 +2176,8 @@ Giving four items of the alarm response. The book prints five, each with the adv
 
 ## related_concepts
 CON-NEU-DCDACCB179C2A5
-
+CON-NEU-7200808D45CA8C
+CON-NEU-7D2786E349DE45
 ## related_articles
 ART-102-PHY-AUTONOMIC-GANGLIA: the paravertebral chain, the collateral ganglia the splanchnic nerves end on, and the adrenal medulla as a modified sympathetic ganglion are defined and classified there.
 ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM: the book teaches every effect in this chapter against its parasympathetic mirror, and the sphincter rule is the clearest case of the two chapters being one rule read in opposite directions.
@@ -2532,7 +2535,8 @@ Saying adrenaline raises blood pressure more than noradrenaline. Noradrenaline d
 ## related_concepts
 CON-NEU-F16D60268905BC
 CON-NEU-1DB903AAE3D02A
-
+CON-NEU-2FB725F305BDB1
+CON-NEU-5B28B080597460
 ## related_articles
 ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM: every effect that chapter lists organ by organ is produced by one of the receptor subtypes classified here, and its sudomotor and skeletal-muscle vasodilator fibres are the two cholinergic exceptions this chapter names.
 ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM: its postganglionic fibres are the cholinergic ones acting on the muscarinic receptors described here.

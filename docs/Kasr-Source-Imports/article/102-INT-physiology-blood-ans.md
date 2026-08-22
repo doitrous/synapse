@@ -598,7 +598,7 @@ CON-HEM-B71DE46C254775
 CON-HEM-5CCFCC7E8DD150
 CON-HEM-B70E44482E6095
 CON-HEM-09F3E7013DEF40
-
+CON-HEM-E3063003DB0FDD
 ## related_articles
 ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID: The book's own next major theme in this half of the chapter sequence — what the marrow needs to make more of the cell this article describes.
 
@@ -819,7 +819,6 @@ CON-HEM-60C24B6F5C0EC2
 CON-HEM-F0B1AE47105A5B
 CON-HEM-881E8EA781D8E2
 CON-HEM-8B4F811AE09E0F
-
 ## related_articles
 ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID: One of the six control factors this article names (diet) is expanded fully by that article.
 ART-102-PHY-IRON-METABOLISM: The book's very next chapter, expanding the other dietary factor named here.
@@ -1263,7 +1262,7 @@ CON-HEM-CDF561308A4D25
 CON-HEM-7F0EF6B0D6F2FB
 CON-HEM-AA67D0E4B516BF
 CON-HEM-BDED630BBC87A3
-
+CON-HEM-3767DA0A153B4C
 ## related_articles
 ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID: That article's own Clinical significance section already draws on this chapter's MCV threshold and pernicious-anaemia material, read as the chapter this one runs into.
 ART-102-PHY-IRON-METABOLISM: Supplies the absorption mechanism behind this chapter's microcytic-anaemia causes.
@@ -1707,7 +1706,7 @@ CON-HEM-BC9F1F59205EC7
 CON-HEM-54B08B015D5498
 CON-HEM-33CFB175D5114C
 CON-HEM-C15EB1D9B62C8B
-
+CON-HEM-8EC1CD48F9DB41
 ## related_articles
 ART-102-PHY-PLATELETS-AND-HAEMOSTASIS: The book's earlier chapter on normal haemostasis, of which this chapter is the failure-mode companion.
 ART-102-PHY-ANTICOAGULANTS: The chapter immediately before this one; warfarin's vitamin-K-inhibition mechanism there is the drug-induced mirror of this chapter's vitamin K deficiency.
@@ -2361,7 +2360,6 @@ Naming only one autonomic transmitter (acetylcholine) and omitting noradrenaline
 ## related_concepts
 CON-NEU-D28EA156B57AB0
 CON-NEU-A78CC0816E3824
-
 ## related_articles
 ART-102-PHY-AUTONOMIC-GANGLIA: The very next chapter in the book, which is this chapter's two-neuron rule specified down to the four named types of ganglion where the relay actually happens.
 ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM: One of the two efferent subdivisions this chapter names, given its full functional detail.
