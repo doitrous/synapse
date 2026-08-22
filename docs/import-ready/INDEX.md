@@ -18,7 +18,7 @@ filename alone never did.
 
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
-| [`academic/`](academic/) | Academic setup › Import | 1 | 31 |
+| [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
 | [`concept/`](concept/) | Concepts › Import | 13 | 208 |
 | [`article/`](article/) | Bulk import → **article** | 8 | 58 |
 | [`question/`](question/) | Bulk import → **question** | 10 | 219 |
@@ -77,6 +77,33 @@ not a claim that every module runs in the first term.
 
 This folder is **not** covered by `medical:simulate` or `medical:audit`; those read medical
 content batches. Review it in the import wizard's own preview instead.
+
+### Alexandria University modules — `academic/`, 1 file, 23 modules
+
+Years 1 to 3, taken from the corpus folder names under `y1/`, `y2/`, `y3/`
+(`/Users/doitrous/Desktop/Alexandria University/`), the same fixed-identity rule the lane
+brief sets for this university: a module ID is the faculty's own label exactly as the
+corpus folder carries it (`MED 102`, `UNI 104`, `E 304`), never shortened and never
+substituted from another source. Apply at **Academic setup › Import** with **AU** selected
+as the target university; the importer merges into whatever that university already has
+rather than replacing it, so applying it twice would create a second copy of every module —
+the same hazard the Kasr Al Ainy folder above documents.
+
+Unlike the Kasr Al Ainy file, every row here carries a real term. The faculty's 2023
+bylaws (`اللائحة الداخلية برنامج بكالوريوس الطب و الجراحة2023.pdf`, transcribed in
+`docs/Alexandria-Source-Imports/academic/bylaws-2023-extract.md`) state a semester for
+every module in Years 1–3, so `Term 1`/`Term 2` here means the bylaws' own first or second
+semester of that year (Level I–III, Semesters 1–6) — not the importer's silent default.
+
+Titles are the corpus's own label — where the bylaws spell a module differently (a `&`
+where the corpus has `and`, a capitalisation difference, "Endocrines" vs "Endocrine"), the
+corpus form is what this batch carries; the bylaws title is recorded as evidence in the
+same source doc, not substituted in. No module code disagrees between the two sources.
+
+This folder is **not** covered by `medical:simulate` or `medical:audit` either; it was
+dry-run against the importer's own parser instead (`ImportWizard.tsx`'s `parseMarkdown` +
+`AcademicImportPage.tsx`'s field list) — see
+`docs/Alexandria-Source-Imports/academic/README.md` for the check and its result.
 
 ### Cardiovascular practical bank — `practical/`, 34 files
 
