@@ -51,6 +51,8 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 ## Rulings
 
+- CONVENTION CLASHES (2026-08-23): when two universities' exams key different answers for one shared idea (ATP/glucose 38 classical vs 30–32 modern), the shared concept states both conventions and which exam keys which (owner of the concept amends the prose); each question keeps its printed key and its explanation names the convention. Never a sparse update to another lane's prose field.
+
 - TWO-SIDED COVERAGE (2026-08-23): for hand-over, every tested concept must be named in an article's related_concepts AND that article must actually teach it; a heuristic concept-side `article_ids` (build-article-links.ts term overlap) alone is not coverage. Verification pass per module before INDEX. (Manual 04/05/13 to carry this on next touch.)
 
 - TRIAGE CHECKPOINT (all universities): lanes stop after question-led triage; the orchestrator sends CoS one table (questions triaged · concepts tested · live-hit / pending-hit / new) and mints nothing until "TRIAGE APPROVED".
@@ -170,3 +172,5 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - 2026-08-23 ~01:55 — Kasr Y1 confirmed: 17/23 Alexandria ids covered only by heuristic concept-side links, ≥2 wrong. Ruling: two-sided coverage is the publish gate; verification pass widened to every module.
 - 2026-08-23 ~02:05 — Two-sided coverage scan: 101 155/282 concept-side-only; 102 99/164 (+17 article-only ok); 103 2 (+14 none, in-flight); 104 8; 108 0. Reading lanes dispatched per module (probe permitting).
 - 2026-08-23 ~02:15 — Kasr Y1 probe proven (a3c77f6: 104 pipeline 120 MCQs/30 concepts; 160/335 bank rows authored, 172 untriaged); dispatch at 4: 101 two-sided ×2, 103 anatomy, 102 coverage; then 103 histology, enrichment, 103 biochem papers, 101 practical floor, 104 two-sided+INDEX, T3 fetch. check-two-sided-coverage.py 4ad6755. Alexandria 6fd9e4e (Biochem D); label-before-id parser hazard relayed.
+- 2026-08-23 ~02:30 — Manual on main 1a9f190: glossary uses # Item blocks (pipe table was UI copy; `definition_ar`), two-sided coverage in 04/05/13, field-order hazard. Kasr Y1 asked to confirm its 514 glossary terms are block-form.
+- 2026-08-23 ~03:00 — ETAs to Omar: 108 ready now; Kasr 101–104 ≈ 4–5 h + 2 h cross-cutting; Alexandria 102/103 ≈ 2–3.5 h, 105/106 ≈ 5–6 h, 101 unsourced; ~250 Alexandria items need media (policy decision for Omar). 8f00ae3 presence patch. ATP-yield convention ruling issued.
