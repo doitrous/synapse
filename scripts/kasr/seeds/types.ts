@@ -488,6 +488,66 @@ export function parseConceptIds(text: string, module: string): Map<string, strin
 }
 
 /**
+ * `canonical_key -> [## modules]`, read the same way `parseConceptIds` reads
+ * `## id` — one map alongside the other so `resolveConceptId`'s caller can
+ * tell whether the module it is building for is already on the pinned
+ * record's own `modules` list, which is the difference between a sparse
+ * update row that has nothing to add there and one that needs a `+modules`
+ * line.
+ *
+ * Scoped and first-block-wins the same way, for the same reason: this reads
+ * only the rows `parseConceptIds` would also index for this module, so the
+ * two maps always agree on which keys exist.
+ */
+export function parseConceptModules(text: string, module: string): Map<string, string[]> {
+  const index = new Map<string, string[]>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    const modules = block.match(/## modules\n(.*)/)?.[1]
+    if (!key || !moduleSubject || !modules) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    if (index.has(key)) continue
+    index.set(key, modules.split(/\r?\n|\||;/).map((one) => one.trim()).filter(Boolean))
+  }
+  return index
+}
+
+/**
+ * `canonical_key -> ## label`, read the same way as `parseConceptModules`.
+ *
+ * Exists to work around a real bug in `conceptFromRow`
+ * (`src/data/conceptImport.ts:148`): every other optional field there returns
+ * `undefined` when its column is blank, which is what lets `mergeConcept`
+ * tell "not mentioned" from "emptied" — `label` is the one field that instead
+ * defaults to `''` unconditionally (`values.label?.trim() ?? ''`), so an
+ * update row that omits `## label` entirely, exactly as `conceptUpdateBlock`
+ * always has, **blanks the live record's label** the moment it is imported.
+ * Confirmed against a real `medical:simulate` run of a sparse update row for
+ * `CON-RES-0BB6BDDB3E4413` (104 CPS): the merged concept came back with
+ * `"label": ""`, not the hand-authored record's own label.
+ *
+ * That is a shared-importer defect outside this pipeline's file ownership —
+ * `conceptFromRow` runs for every concept import in the product, not only
+ * KASR's — so it is not fixed here. Instead `conceptUpdateBlock` restates the
+ * pinned record's own label verbatim, sourced from this map, which is not a
+ * redefinition (the value is unchanged) and sidesteps the bug at the one
+ * place this pipeline controls.
+ */
+export function parseConceptLabels(text: string, module: string): Map<string, string> {
+  const index = new Map<string, string>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    const label = block.match(/## label\n(.*)/)?.[1]?.trim()
+    if (!key || !moduleSubject || !label) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    if (!index.has(key)) index.set(key, label)
+  }
+  return index
+}
+
+/**
  * Which id a canonical_key should use, and whether that means minting.
  *
  * The project-wide rule is one canonical_key -> one id, within a module.
@@ -500,21 +560,37 @@ export function parseConceptIds(text: string, module: string): Map<string, strin
  * is a content decision for whoever owns it, never something a build script
  * does on its own.
  *
- * **A pinned id that happens to already agree with a fresh mint is not a
- * divergence.** Most keys a hand-authored file carries were themselves minted
- * with `mintConceptId`, so `pinned` finding an entry is the *common* case, and
- * agreement is the *normal* outcome of that — `reused: true` must mean
- * something actually would have gone wrong without it, or every caller ends
- * up treating an ordinary, already-correct concept as if it needed rescuing
- * from a collision that was never going to happen.
+ * **A pinned id is a reuse whether or not it happens to agree with a fresh
+ * mint.** This used to gate on the two disagreeing — `pinnedId !== mintedId`
+ * — on the theory that agreement meant there was nothing to protect. That
+ * theory was about the *id* and missed the record: a key that already has a
+ * hand-authored concept file entry also already has a full, reviewed record
+ * — aliases, article links, a real `resource_ids` — behind that entry, and a
+ * build that mints the id fresh still emits a **full** `conceptBlock`/
+ * `mcqConceptBlock` for it, thinner than the hand record in every field this
+ * pipeline does not itself populate. The importer's "Update matching items"
+ * mode replaces every *named* field of the live record with whatever the
+ * incoming full record says, named or not — so re-emitting a full record for
+ * an id that happens to match is exactly as destructive as one that does
+ * not; the id agreeing was never the thing keeping the hand record safe.
+ * (Found in 104 CPS: `mintConceptId("104 CPS", "resp",
+ * "typical-intercostal-nerve.course-and-branches")` already equals the hand
+ * file's own pinned id, `CON-RES-0BB6BDDB3E4413` — and the old gate still let
+ * a full re-mint through, emptying that record's `aliases` and
+ * `relatedArticleIds` and replacing its `resource_ids` with whatever this
+ * pipeline's own fallback happened to be.)
+ *
+ * A hit is now unconditionally a reuse: any canonical_key an existing
+ * hand-authored concept file already claims for this module gets that file's
+ * id back, verbatim, and a sparse update row — never a second full
+ * definition of an idea someone has already authored.
  */
 export function resolveConceptId(
   pinned: Map<string, string>, module: string, subject: KasrSubject, key: string, system?: BodySystem,
 ): { id: string, reused: boolean } {
-  const mintedId = mintConceptId(module, subject, key, system)
   const pinnedId = pinned.get(key)
-  if (pinnedId !== undefined && pinnedId !== mintedId) return { id: pinnedId, reused: true }
-  return { id: mintedId, reused: false }
+  if (pinnedId !== undefined) return { id: pinnedId, reused: true }
+  return { id: mintConceptId(module, subject, key, system), reused: false }
 }
 
 /**

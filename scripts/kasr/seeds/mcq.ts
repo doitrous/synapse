@@ -46,6 +46,15 @@ export interface McqConcept {
   gaps?: string[]
   /** What is genuinely unclear, as opposed to unsourced. */
   uncertainty?: string
+  /**
+   * Override for `resource_ids`, for the rare concept whose evidence is not
+   * simply "the module's department book" — a named atlas, a cross-module
+   * source, or a book the manifest does not categorise as `Department Book`.
+   * Absent by default: `emit.ts`'s `mcqConceptBlock` then resolves the
+   * module's own department book(s) from the manifest, scoped by this
+   * concept's `modulePath` department where one of several applies.
+   */
+  resourceIds?: string[]
 }
 
 export interface McqAuthored {

@@ -61,8 +61,55 @@ const CLAIMS_FOR_CONCEPT: Record<string, string[]> = (() => {
  * it is *true* — and it is already recorded on `exam_signal`, which is the
  * column for curriculum signal. Putting it in `resource_ids` would make a
  * question its own justification.
+ *
+ * Used to be one hardcoded id, `src_b1e6dc481eaf337268d0` — 101 ISK's own
+ * department book. That was correct for 101 by accident, because 101 is the
+ * module this pipeline was first written against, and every other module's
+ * concept silently cited 101's book instead of its own the moment a second
+ * module started using this fallback (found in 104 CPS: all 19 of its
+ * question-book concepts, and every reused-but-full paper concept with no
+ * evidence pass, cited 101's book). Resolved from the manifest instead, so a
+ * module gets its own department book(s) without this file knowing any
+ * module's id or subject vocabulary in advance.
  */
-const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
+const MANIFEST_SOURCES: readonly { sourceId: string; moduleId: string; subject: string; sourceCategory: string }[] =
+  (() => {
+    try {
+      return JSON.parse(readFileSync('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json', 'utf8')).sources ?? []
+    }
+    catch { return [] }
+  })()
+
+/**
+ * The department book(s) a module's concept should cite by default, absent a
+ * seed or leaf naming its own `resourceIds`.
+ *
+ * Scoped first by module, then — where the concept's own `module_subject`
+ * path names one (`path[1]`, e.g. `Anatomy`) — by department, because a
+ * module with several department books (104 CPS has three: anatomy,
+ * histology, physiology) should not cite all of them for a concept that only
+ * one actually teaches. Falls back to every department book the module has
+ * when no department is named, or when the named department matches none of
+ * them — which is what keeps 101 ISK unchanged: its one book is filed under
+ * `subject: "Histology"` even though 101's own concepts carry `Anatomy` and
+ * other department names in their path, so the department match never hits
+ * and every 101 concept falls back to "every department book this module
+ * has", which has always been the same one book.
+ *
+ * De-duplicated, because a module's manifest rows are not guaranteed unique
+ * per department (108 INT's Pharmacology and Pathology books are each listed
+ * twice, apparently from a re-scan) — citing the same source id twice in one
+ * `resource_ids` cell is a batch a reviewer has to notice and fix by hand,
+ * for no benefit over citing it once.
+ */
+function departmentBookIdsFor(module: string, department?: string): string[] {
+  const books = MANIFEST_SOURCES.filter((s) => s.moduleId === module && s.sourceCategory === 'Department Book')
+  const matching = department
+    ? books.filter((b) => b.subject.trim().toLowerCase() === department.trim().toLowerCase())
+    : []
+  const chosen = matching.length ? matching : books
+  return [...new Set(chosen.map((b) => b.sourceId))]
+}
 
 /**
  * Where a concept was examined, in the `exam_signal` column's own grammar.
@@ -171,6 +218,7 @@ ${conceptTail(
   context.relatedArticleIds ?? [],
   mintConceptId(module.id, seed.subject, seed.key, seed.system),
   context.links, seed,
+  departmentBookIdsFor(module.id, path[1]),
 )}`
 }
 
@@ -181,29 +229,90 @@ ${conceptTail(
  * Per the authoring manual (`00-START-HERE.md` §2, "Updating an existing
  * record"): give the record's real `## id` and only the `## field_key` blocks
  * being changed; every field left out keeps its live value exactly as it is.
- * This route changes nothing about what the concept *is* — no `## label`,
- * `## definition`, `## subject`, `## pitfalls`, or any other descriptive
- * field, because a pinned id already belongs to a fully-authored live record
- * and this pass has no business redefining it. All it adds is evidence that
- * the concept was examined here too (`## exam_signal`) and, where this leaf's
- * article is not already among the record's own, that it teaches it as well
- * (`## article_ids`, `+`-prefixed — per the manual, "a `+` cell adds without
- * re-typing the list, and re-importing the same row does not duplicate what
- * it added, so a batch can be applied twice safely").
+ * This route changes nothing about what the concept *is* — no `## definition`,
+ * `## subject`, `## pitfalls`, or any other descriptive field, because a
+ * pinned id already belongs to a fully-authored live record and this pass has
+ * no business redefining it.
+ *
+ * `## label` is the one exception to "omitted field", and it is restated
+ * verbatim rather than left out — **not** a redefinition, a workaround.
+ * `conceptFromRow` (`src/data/conceptImport.ts:148`) defaults `label` to
+ * `''` whenever the column is blank, unlike every other optional field there,
+ * which return `undefined` so `mergeConcept` can tell "not mentioned" from
+ * "emptied". An update row that omits `## label` therefore does not leave the
+ * live label alone — it blanks it. Confirmed with a real `medical:simulate`
+ * run of a 104 CPS sparse row: the merged concept came back
+ * `"label": ""`. Restating the pinned record's own label (threaded through
+ * from `existingConceptIds`'s `labels` map — `parseConceptLabels` in
+ * `seeds/types.ts`) writes back exactly what was already there, so the
+ * record's label is unchanged in substance even though the column is
+ * present. The underlying bug lives in shared importer code no KASR lane
+ * owns and is not fixed here; when it is, this parameter stops mattering but
+ * stays harmless (restating an unchanged value is a no-op either way).
+ *
+ * Everything else this row can add is the pipeline's own contribution and
+ * nothing more:
+ *
+ * - `## exam_signal` — evidence that the concept was examined here too.
+ * - `## article_ids`, `+`-prefixed — where this leaf's article is not already
+ *   among the record's own, that it teaches it as well. Per the manual,
+ *   "a `+` cell adds without re-typing the list, and re-importing the same
+ *   row does not duplicate what it added, so a batch can be applied twice
+ *   safely" — and `article_ids` genuinely parses a leading `+` this way
+ *   (`optionalList` -> `listDirective`).
+ * - `## modules`, `+`-prefixed, but **only when the module building this row
+ *   is not already on the pinned record's own `## modules` list** (checked
+ *   against `existingConceptIds`'s second map, `parseConceptModules`) — the
+ *   ordinary case is that it already is, since the id was only found because
+ *   `module_subject`'s first segment already named this module, and emitting
+ *   `+<module already there>` would be a no-op cell for every row, not a
+ *   contribution.
+ *
+ * Two fields the literal instruction ("`+module_subject`", "`+question_ids`")
+ * asked for are deliberately never emitted here, because their shapes do not
+ * support what `+` promises:
+ *
+ * - `## module_subject` is parsed by `parseModuleSubjectPaths`
+ *   (`src/data/moduleSubjectPath.ts`), a bare newline-split with no leading-`+`
+ *   convention at all — unlike `article_ids`/`modules`, which route through
+ *   `optionalList` -> `listDirective`. Writing `+104 CPS > …` here would not
+ *   append: `+104 CPS` fails to resolve as any known module id, and the cell
+ *   still **replaces** the record's whole path list the moment it is
+ *   non-blank, since `conceptImport.ts` only treats `undefined` (an
+ *   omitted key) as "leave alone". The only safe way to add a path with the
+ *   tools this repository has today is to leave the key out, which is what
+ *   this route does.
+ * - `## question_ids` is not a field `Concept` has at all
+ *   (`CONCEPT_IMPORT_FIELDS` in `src/data/conceptImport.ts` has no such key) —
+ *   there is nothing to add it to.
+ *
+ * `## exam_signal` itself has the same missing-`+` shape as `module_subject`
+ * (`parseExamAppearances` does not strip a leading `+`, and `mergeConcept`
+ * replaces `examSignal.appearances` wholesale whenever the column is
+ * non-blank) — it is emitted anyway, unprefixed, because every hand-authored
+ * record this route has ever found pinned leaves `## exam_signal` genuinely
+ * blank (the field is populated by this pipeline, never by hand), so there is
+ * nothing yet on the live record for a wholesale-replace to lose. A module
+ * whose hand-authored files start carrying their own `exam_signal` history
+ * would need this reconsidered; nothing in this corpus does today.
  */
 export function conceptUpdateBlock(
   id: string, key: string, signals: string[], articleIds: string | undefined, note: string,
+  /** The module building this row, passed only when it is not already on the pinned record's own `## modules`. */
+  newModule?: string,
+  /** The pinned record's own label, restated verbatim — see the doc comment above for why. */
+  label?: string,
 ): string {
   const addArticles = articleIds
     ?.split('|').map((one) => one.trim()).filter(Boolean).map((one) => `+${one}`).join(' | ')
   return `# Item
 ## id
 ${id}
-## canonical_key
+${label ? `## label\n${label}\n` : ''}## canonical_key
 ${key}
 ## exam_signal
 ${signals.join('\n')}
-${addArticles ? `## article_ids\n${addArticles}\n` : ''}## field_notes
+${addArticles ? `## article_ids\n${addArticles}\n` : ''}${newModule ? `## modules\n+${newModule}\n` : ''}## field_notes
 ${note}
 `
 }
@@ -270,6 +379,13 @@ ${note}
 function conceptTail(
   relatedArticleIds: string[] = [], conceptId?: string,
   links?: ConceptLinks, seed?: Seed,
+  /**
+   * What `resource_ids` falls back to when neither `links` (the module's
+   * evidence pass) nor the seed/leaf itself names a source: the caller's own
+   * `departmentBookIdsFor(module.id, department)` result, resolved from the
+   * manifest rather than one id hardcoded here for every module.
+   */
+  fallbackResourceIds: string[] = [],
 ): string {
   /**
    * A list column. `[clear]` when empty, and only ever here.
@@ -324,7 +440,7 @@ function conceptTail(
     // them, and 101's plan predates the plan files.
     list('resource_ids',
       links?.resourceIds?.length ? links.resourceIds
-        : seed?.resourceIds?.length ? seed.resourceIds : [DEPARTMENT_BOOK]),
+        : seed?.resourceIds?.length ? seed.resourceIds : fallbackResourceIds),
     list('approved_file_resource_ids', undefined),
     list('approved_video_resource_ids', undefined),
     list('atomic_claim_ids',
@@ -622,6 +738,12 @@ export function mcqConceptBlock(
   // times across three books is blueprint evidence no single paper can give.
   const weight = Math.min(1, 0.15 + 0.08 * signals.length).toFixed(2)
   const path = concept.modulePath.split(' > ')
+  // A leaf's own `resourceIds` wins where it names one — the rare case a
+  // concept's evidence is not simply "the module's department book", e.g. a
+  // question drawn from a named atlas or a cross-module source. Otherwise the
+  // department book(s) this concept's own `module_subject` path names.
+  const resourceIds = concept.resourceIds?.length
+    ? concept.resourceIds : departmentBookIdsFor(module.id, path[1])
   return `# Item
 ## label
 ${concept.label}
@@ -683,7 +805,7 @@ ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, concept.key))}
+${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, concept.key), undefined, undefined, resourceIds)}
 `
 }
 

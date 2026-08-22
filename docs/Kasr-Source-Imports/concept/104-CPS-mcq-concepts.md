@@ -4,10 +4,16 @@
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
-    Cytogenetics — Cell Cycle Phases and Stem Cells — 6 questions, 2 concepts
+    Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
+    Cytogenetics — Cell Cycle Phase Details — 7 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 6 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 1 questions, 1 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
+    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
+    Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
@@ -37,419 +43,77 @@
 -->
 
 # Item
-## label
-Arteries are classed as large elastic, medium muscular or small arterioles, distinguished chiefly by their tunica media
 ## id
 CON-CVS-712BA581C8AF88
+## label
+Arteries are classed as large elastic, medium muscular or small arterioles, distinguished chiefly by their tunica media
 ## canonical_key
 artery-classification.elastic-muscular-and-arteriolar-types
-## definition
-Arteries fall into three histological classes. Large elastic (conducting) arteries — the aorta and its large branches — carry blood from the heart; they have very wide lumina and thick walls, an intima with a thin, inconspicuous internal elastic lamina, and a thick media of 40 to 70 circularly arranged fenestrated elastic membranes (increasing with age) with some smooth muscle, collagen and proteoglycan. Medium-sized muscular (distributing) arteries, the most common type, deliver blood to organs; their intima carries a prominent internal elastic lamina that distinguishes them from elastic arteries, and their thick media is almost entirely circular smooth muscle with elastic fibres between the cells, often with a recognisable external elastic lamina. Small arteries (arterioles), the smallest branches of muscular arteries, regulate flow to the capillaries; their wall thins gradually with diameter — a thin subendothelium and a disappearing internal elastic lamina, only one or two smooth-muscle layers in the media, and a very thin, ill-defined adventitia.
-## explicit_objective
-Name the three histological classes of artery, give one example of each, and say what distinguishes their tunica intima and media.
-## pitfalls
-Using the presence of an internal elastic lamina alone to separate the classes. All three have some form of it; what separates elastic from muscular arteries is that the muscular artery's IEL is prominent and distinct from the media, where the elastic artery's is not — its media is already made of the same elastic membranes.
-## concept_type
-classification
-## status
-under review
-## subject
-cvs
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-CVS-T01-S01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Arteries
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p14 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Cardiovascular System
-## aliases
-Elastic artery | Muscular artery | Arteriole classification | Types of arteries
 ## article_ids
-ART-104-HIS-ARTERIES-AND-VEINS
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] All characters of basilar arteries except
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-HEART-AND-VESSEL-WALL | ART-104-ANA-THORACIC-WALL-VEINS | ART-104-ANA-CORONARY-ARTERIES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-ARTERIES-AND-VEINS
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "artery-classification.elastic-muscular-and-arteriolar-types" already has a pinned id in this module (CON-CVS-712BA581C8AF88); mintConceptId derives the same id fresh (CON-CVS-712BA581C8AF88) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
-## label
-A cardiac valve is a fold of endocardium: simple squamous epithelium over a dense fibrous core rich in collagen and elastic fibres
 ## id
 CON-CVS-7DA6E2CF7A3369
+## label
+A cardiac valve is a fold of endocardium: simple squamous epithelium over a dense fibrous core rich in collagen and elastic fibres
 ## canonical_key
 cardiac-valve.histological-structure
-## definition
-The valves of the heart are folds of the endocardium. Their surface, on both sides, is simple squamous epithelium continuous with the endothelium lining the chambers; their substance is a middle layer of dense fibrous connective tissue, rich in collagen and elastic fibres, that gives the valve cusp the strength to resist the pressure closing it and the flexibility to open with each cycle.
-## explicit_objective
-Describe a heart valve as a fold of endocardium and name its two histological components.
-## pitfalls
-Treating a valve as a separate structure from the endocardium rather than a fold of it — the valve's surface epithelium is literally the same endothelium that lines the rest of the chamber.
-## concept_type
-structural_description
-## status
-under review
-## subject
-cvs
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-CVS-T01-S01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > The heart
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Cardiovascular System
-## aliases
-Heart valve histology | Endocardial valve folds
 ## article_ids
-ART-104-HIS-HEART-AND-VESSEL-WALL
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Valve of heart is lined by - - - - epithelium XXX
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-ARTERIES-AND-VEINS | ART-104-ANA-CORONARY-ARTERIES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "cardiac-valve.histological-structure" already has a pinned id in this module (CON-CVS-7DA6E2CF7A3369); mintConceptId derives the same id fresh (CON-CVS-7DA6E2CF7A3369) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
-## label
-Most blood vessel walls are three tunics: intima, media and adventitia, each adapted to the vessel's function
 ## id
 CON-CVS-30053920BDC07F
+## label
+Most blood vessel walls are three tunics: intima, media and adventitia, each adapted to the vessel's function
 ## canonical_key
 blood-vessel-wall.general-three-tunic-plan
-## definition
-Wall of most blood vessels is formed of three layers from inside outwards. Tunica intima is innermost and in direct contact with blood: an endothelium of simple squamous epithelium on its basal lamina, providing a smooth surface for flow and a thin barrier for exchange; a subendothelium of loose areolar connective tissue supporting it; and, in arteries only, an internal elastic lamina of condensed, fenestrated elastic fibres that prevents complete occlusion. Tunica media is the middle layer, variable amounts of circularly arranged smooth muscle (which regulates flow by contracting and also manufactures the media's own extracellular components), elastic fibres that allow distension, and reticular fibres and proteoglycans between the muscle cells. Tunica adventitia is the outermost loose connective tissue connecting the vessel to its surroundings: longitudinal collagen fibres that resist overdistension, a few circular elastic fibres, vasa vasorum (small vessels, chiefly in large veins, nourishing the vessel wall itself) and nervi vasorum (autonomic nerves controlling the smooth muscle). An external elastic lamina may lie between media and adventitia, fenestrated like the internal one, and the fenestrae in both allow nutrients to diffuse into the wall.
-## explicit_objective
-Name the three tunics of a blood vessel wall in order and state what each layer contributes to the vessel's function.
-## pitfalls
-Damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
-## concept_type
-structural_description
-## status
-under review
-## subject
-cvs
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-CVS-T01-S01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > Arteries
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p13 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p12 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Cardiovascular System
-## aliases
-Tunica intima, media and adventitia | General plan of the blood vessel wall
 ## article_ids
-ART-104-HIS-HEART-AND-VESSEL-WALL
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] allow distension of arteries
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-ARTERIES-AND-VEINS | ART-104-ANA-CORONARY-ARTERIES
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-HEART-AND-VESSEL-WALL
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "blood-vessel-wall.general-three-tunic-plan" already has a pinned id in this module (CON-CVS-30053920BDC07F); mintConceptId derives the same id fresh (CON-CVS-30053920BDC07F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
 ## label
-The cell cycle is mitosis plus a three-phase interphase, with a G0 stable phase for cells that have left the cycle
+Aneuploidy arises from non-disjunction, from failure of duplication, or from simple loss of a chromosome
 ## id
-CON-FND-9C205E44C3404D
+CON-DEV-C2AC39B48A8F21
 ## canonical_key
-cell-cycle.phases-g1-s-g2-m-and-g0
+aneuploidy.causes
 ## definition
-The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. Gap 1 (G1), about 8 hours: the daughter cell's nucleus holds 46 single chromosomes (s-chromosomes, or chromatids); the cell grows and acquires energy as ATP; RNA and protein synthesis needed for DNA duplication occurs; and the cell becomes a specialised working cell — the more specialised, the longer G1 and the lower the rate of division. Synthesis (S), about 8 hours: DNA duplicates, so each cell now holds 46 double (d-) chromosomes, and the centrioles duplicate. Gap 2 (G2), about 4 hours: RNA and proteins essential for division are synthesised, energy for mitosis is stored, tubulin is made to build the mitotic microtubules, and any DNA replication error is corrected. Cells that have left the cycle are said to be in the stable, or G0, phase — a resting stage outside the cycle in which most specialised working cells spend a prolonged G1.
+Aneuploidy is a chromosome number that is not an exact multiple of the haploid number, the karyotype having gained or lost a single chromosome. It arises from non-disjunction, primary when two homologous chromosomes fail to separate at the first meiotic division, giving four abnormal daughter cells, and secondary when two chromatids fail to separate at the centromere at the second meiotic division or in mitosis, giving two normal and two abnormal daughter cells in meiosis and two abnormal cells in mitosis; from failure of duplication, one chromatid failing to duplicate in S phase; and from simple loss, a chromosome failing to align at metaphase or lagging in anaphase. Secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype.
 ## explicit_objective
-Name the cell cycle's phases in order, state the chromosome number and type at G1 versus S, and define G0.
+Give the causes of aneuploidy, distinguishing primary from secondary non-disjunction by the daughter cells each produces.
 ## pitfalls
-Confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+Treating aneuploidy as always meiotic. Mitotic non-disjunction after fertilisation gives mosaicism, which is why a karyotype from one tissue can read normal in an affected patient.
 ## concept_type
 mechanism
 ## status
 under review
 ## subject
-fnd
+dev
 ## primary_node_id
 DIS-HIS-T01
 ## secondary_node_ids
@@ -457,19 +121,20 @@ DIS-HIS-T01
 ## modules
 104 CPS
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 ## universities
 kau
 ## learner_years
 1
 ## exam_signal
-src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 ## weight_confidence
 0.6
 ## blueprint_weight
-0.23
+0.31
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.31
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -481,13 +146,13 @@ Histology
 ## subtopic
 Cytogenetics
 ## aliases
-Interphase | G0 phase | G1, S and G2 phases
+Non-disjunction | Causes of aneuploidy
 ## article_ids
-ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] cell become specialized working cell in ----------- phase
+[asked 1x across the question books] when 2 homologous chromosome fail to separate, result in 4 abnormal daughter cell
 ## conflicts
 [clear]
 ## uncertainty
@@ -505,9 +170,9 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY | ART-104-HIS-MITOSIS-AND-MEIOSIS
+ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -564,23 +229,23 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Stem cells self-renew and are pluripotential, giving rise to more than one specialised cell type, or unipotential, giving rise to only one
+Radiation, viral infection, advanced maternal age, cytotoxic drugs and autoimmune disease all predispose to chromosomal aberration, each by a different route
 ## id
-CON-FND-4699C7DBCE159A
+CON-DEV-E9C307421DE375
 ## canonical_key
-stem-cells.pluripotential-and-unipotential-types
+chromosomal-aberration.general-causes
 ## definition
-Stem cells are undifferentiated cells capable of self-renewal, of two types. Pluripotential (multipotential) stem cells have the potential to give rise to more than one type of specialised cell — for example, blood cells, and the cells lining the gastrointestinal tract. Unipotential stem cells are able to produce only one type of specialised cell — for example, male germ cells.
+Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration. Radiation causes chromosomal damage and non-disjunction. Viral infections, such as German measles (rubella), cause fragmentation of the chromosome. Pregnancy at an advanced maternal age increases the risk of non-disjunction, through a very long prophase. Drugs, such as the cytotoxic drug colchicine, inhibit formation of the mitotic spindle — which is why colchicine is used experimentally to arrest cells in metaphase, since without a spindle the chromatids cannot be pulled apart into anaphase. Autoimmune diseases are usually associated with non-disjunction as well.
 ## explicit_objective
-Define a stem cell and distinguish a pluripotential from a unipotential stem cell, with the book's own example of each.
+List the book's five general causes of chromosomal aberration — radiation, viral infection, advanced maternal age, cytotoxic drugs, autoimmune disease — and state which mechanism each acts through.
 ## pitfalls
-Assuming 'pluripotential' means unlimited potential. The book's own bar is comparative — more than one specialised type — not a claim that a pluripotential stem cell can become anything; a unipotential stem cell such as the male germ cell is still a true stem cell, simply restricted to one fate.
+Confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss). Radiation and advanced maternal age are named here as things that increase the risk of non-disjunction happening; they are not alternative mechanisms to it.
 ## concept_type
-classification
+mechanism
 ## status
 under review
 ## subject
-fnd
+dev
 ## primary_node_id
 DIS-HIS-T01
 ## secondary_node_ids
@@ -588,147 +253,13 @@ DIS-HIS-T01
 ## modules
 104 CPS
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 ## universities
 kau
 ## learner_years
 1
 ## exam_signal
-src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
-src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
-## weight_confidence
-0.8
-## blueprint_weight
-0.47
-## exam_weight_by_year
-KAU_Y1=0.47
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.85
-## topic
-Histology
-## subtopic
-Cytogenetics
-## aliases
-Pluripotential stem cells | Multipotential stem cells | Unipotential stem cells
-## article_ids
-ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
-## support_mode
-direct_statement
-## original_wording
-[asked 3x across the question books] One of the following has a pluripotential stem cell:
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY | ART-104-HIS-MITOSIS-AND-MEIOSIS
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
-## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
-
-
----
-
-# Item
-## label
-Necrosis is pathological cell swelling and rupture; apoptosis is a programmed, active shrinkage, both ending in phagocytosis by macrophages
-## id
-CON-FND-E44369E755E9F7
-## canonical_key
-necrosis-vs-apoptosis.comparison
-## definition
-Two forms of cell death are recognised. Necrosis is a pathological condition resulting from anoxia, mechanical injury or exposure to toxins: necrotic cells and their organelles swell and burst, releasing their contents into the extracellular space. Apoptosis is an active, programmed cell death, occurring normally at the end of a cell's lifespan, and may also be pathological or physiological; apoptotic cells do not swell but instead decrease in size. By light microscopy, necrotic nuclei show pyknosis (small, darkly stained, condensed chromatin), karyorrhexis (nuclear and chromatin fragmentation by endonuclease) and karyolysis (dissolution and disappearance of the nucleus). In fate, necrotic cells degenerate and are eventually phagocytosed by macrophages; apoptotic cells break into large vesicles that are themselves phagocytosed by macrophages.
-## explicit_objective
-Contrast necrosis and apoptosis by cause, cell-volume change, nuclear changes and fate.
-## pitfalls
-Assuming both forms of death end differently. Both necrotic and apoptotic material is ultimately cleared by macrophage phagocytosis — what differs is the route (swelling and rupture versus programmed vesiculation), not whether a macrophage is involved at the end.
-## concept_type
-comparison
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cytogenetics > Cell Division
-## universities
-kau
-## learner_years
-1
-## exam_signal
-src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 ## weight_confidence
 0.6
@@ -747,13 +278,13 @@ Histology
 ## subtopic
 Cytogenetics
 ## aliases
-Pyknosis | Karyorrhexis | Karyolysis | Programmed cell death
+Causes of chromosomal aberration | Colchicine and mitotic spindle inhibition
 ## article_ids
-ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] All characters of Necrosis except
+[asked 1x across the question books] Cause fragmentation of chromosome
 ## conflicts
 [clear]
 ## uncertainty
@@ -771,9 +302,9 @@ direct_statement
 ## related_concept_ids
 [clear]
 ## related_article_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY | ART-104-HIS-MITOSIS-AND-MEIOSIS
+ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -824,6 +355,60 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-FND-9C205E44C3404D
+## label
+The cell cycle is mitosis plus a three-phase interphase, with a G0 stable phase for cells that have left the cycle
+## canonical_key
+cell-cycle.phases-g1-s-g2-m-and-g0
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+## article_ids
++ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## field_notes
+canonical_key "cell-cycle.phases-g1-s-g2-m-and-g0" already has a pinned id in this module (CON-FND-9C205E44C3404D); mintConceptId derives the same id fresh (CON-FND-9C205E44C3404D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-4699C7DBCE159A
+## label
+Stem cells self-renew and are pluripotential, giving rise to more than one specialised cell type, or unipotential, giving rise to only one
+## canonical_key
+stem-cells.pluripotential-and-unipotential-types
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+## article_ids
++ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## field_notes
+canonical_key "stem-cells.pluripotential-and-unipotential-types" already has a pinned id in this module (CON-FND-4699C7DBCE159A); mintConceptId derives the same id fresh (CON-FND-4699C7DBCE159A) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-E44369E755E9F7
+## label
+Necrosis is pathological cell swelling and rupture; apoptosis is a programmed, active shrinkage, both ending in phagocytosis by macrophages
+## canonical_key
+necrosis-vs-apoptosis.comparison
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+## article_ids
++ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## field_notes
+canonical_key "necrosis-vs-apoptosis.comparison" already has a pinned id in this module (CON-FND-E44369E755E9F7); mintConceptId derives the same id fresh (CON-FND-E44369E755E9F7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -860,22 +445,19 @@ kau
 ## learner_years
 1
 ## exam_signal
-src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
-src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
-src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
 ## weight_confidence
-0.8
+0.6
 ## blueprint_weight
-0.47
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.47
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.85
+0.7
 ## topic
 Histology
 ## subtopic
@@ -887,7 +469,7 @@ ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## support_mode
 direct_statement
 ## original_wording
-[asked 3x across the question books] One of the following is a non-renewing cell:
+[asked 1x across the question books] sperms are example for
 ## conflicts
 [clear]
 ## uncertainty
@@ -907,7 +489,7 @@ direct_statement
 ## related_article_ids
 ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -963,132 +545,187 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
+## id
+CON-FND-918BBB81C26937
 ## label
-Mitosis is prophase, metaphase, anaphase and telophase, producing two genetically identical daughter cells
+A chromosome is DNA coiled on histones, its two chromatids joined at a centromere bearing kinetochores, capped by telomeres
+## canonical_key
+chromosome-structure.chromatid-centromere-kinetochore-and-telomere
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+## article_ids
++ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## field_notes
+canonical_key "chromosome-structure.chromatid-centromere-kinetochore-and-telomere" already has a pinned id in this module (CON-FND-918BBB81C26937); mintConceptId derives the same id fresh (CON-FND-918BBB81C26937) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-C7C2723BD3BC8D
+## label
+Karyotyping studies chromosome number and type from a metaphase spread of leucocytes, refined by banding to stain individual genes
+## canonical_key
+karyotyping.definition-technique-and-banding
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
+## article_ids
++ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## field_notes
+canonical_key "karyotyping.definition-technique-and-banding" already has a pinned id in this module (CON-FND-C7C2723BD3BC8D); mintConceptId derives the same id fresh (CON-FND-C7C2723BD3BC8D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-29D305EDFC022D
+## label
+Chromosomes are classed by gene content into autosomes and sex chromosomes, by centromere position into four shapes, and by length into seven groups
+## canonical_key
+chromosome-classification.by-gene-content-centromere-position-and-length
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## field_notes
+canonical_key "chromosome-classification.by-gene-content-centromere-position-and-length" already has a pinned id in this module (CON-FND-29D305EDFC022D); mintConceptId derives the same id fresh (CON-FND-29D305EDFC022D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-7FE32E35CA4C7F
+## label
+The Barr body is the inactive, coiled X chromosome, present in normal females and X-excess males but absent in normal males and Turner syndrome
+## canonical_key
+sex-chromatin.barr-body-structure-and-clinical-significance
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## field_notes
+canonical_key "sex-chromatin.barr-body-structure-and-clinical-significance" already has a pinned id in this module (CON-FND-7FE32E35CA4C7F); mintConceptId derives the same id fresh (CON-FND-7FE32E35CA4C7F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
 ## id
 CON-FND-6DEB5A4F0F1675
+## label
+Mitosis is prophase, metaphase, anaphase and telophase, producing two genetically identical daughter cells
 ## canonical_key
 mitosis.four-stages-prophase-to-telophase
-## definition
-Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. Prophase: the 46 d-chromosomes shorten, thicken and stain more darkly, becoming visible as fine threads; the nucleoli and nuclear envelope disappear; centrioles move to opposite poles as cytoplasmic microtubules radiate from the microtubule-organising centre around them; and these microtubules organise into a spindle. Metaphase: chromosomes migrate to the equatorial metaphase plate, and a dense plaque, the kinetochore, develops at each chromosome's centromere as the attachment site for chromosomal microtubules. The mitotic spindle's microtubules are of three kinds: cytoplasmic microtubules, which elongate the cell; chromosomal microtubules, attached to kinetochores, which arrange the chromosomes at the equator; and astral microtubules, star-like around the centrioles, which establish the spindle's axis. Anaphase: each d-chromosome splits longitudinally at the centromere, its two sister chromatids pulled to opposite poles by the chromosomal microtubules as the cytoplasmic microtubules elongate. Telophase: a cleavage furrow forms at the equator by contraction of actin filaments, dividing the cytoplasm in two; the 46 chromatids (s-chromosomes) of each new cell lengthen, uncoil and lose visibility; nuclear envelopes re-form; and nucleoli reappear.
-## explicit_objective
-Name mitosis's four stages in order and state, for each, what happens to the chromosomes, the nuclear envelope/nucleoli and the spindle.
-## pitfalls
-Describing the kinetochore as the centromere itself. The kinetochore is a protein plaque that develops at the centromere in metaphase specifically to serve as the microtubule attachment site — the centromere is the chromosomal constriction it sits on.
-## concept_type
-mechanism
-## status
-under review
-## subject
-fnd
-## primary_node_id
-DIS-HIS-T01
-## secondary_node_ids
-[clear]
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cytogenetics > Cell Division
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Cytogenetics
-## aliases
-Prophase, metaphase, anaphase, telophase | Mitotic spindle | Kinetochore
 ## article_ids
-ART-104-HIS-MITOSIS-AND-MEIOSIS
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] non continuous, attached to kinetochore
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH | ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE | ART-104-HIS-NUMERICAL-ABERRATIONS
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-MITOSIS-AND-MEIOSIS
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "mitosis.four-stages-prophase-to-telophase" already has a pinned id in this module (CON-FND-6DEB5A4F0F1675); mintConceptId derives the same id fresh (CON-FND-6DEB5A4F0F1675) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-685D573458A6D7
+## label
+Meiosis is two successive divisions without an intervening S-phase, producing four haploid germ cells with crossing over
+## canonical_key
+meiosis.two-successive-divisions-and-crossing-over
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-HIS-MITOSIS-AND-MEIOSIS
+## field_notes
+canonical_key "meiosis.two-successive-divisions-and-crossing-over" already has a pinned id in this module (CON-FND-685D573458A6D7); mintConceptId derives the same id fresh (CON-FND-685D573458A6D7) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-FND-AB1858FD6C0F61
+## label
+Mitosis is one division producing two identical diploid daughter cells; meiosis is two divisions with crossing over, producing four genetically varied haploid ones
+## canonical_key
+mitosis-vs-meiosis.comparison
+## exam_signal
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p35 | 104 CPS
+## article_ids
++ART-104-HIS-MITOSIS-AND-MEIOSIS
+## field_notes
+canonical_key "mitosis-vs-meiosis.comparison" already has a pinned id in this module (CON-FND-AB1858FD6C0F61); mintConceptId derives the same id fresh (CON-FND-AB1858FD6C0F61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-DEV-294FB8DDA40429
+## label
+Down syndrome is trisomy 21, from non-disjunction or a 14;21 translocation, with mental retardation and characteristic dysmorphic features
+## canonical_key
+down-syndrome.causes-and-features
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p41 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+## article_ids
++ART-104-HIS-NUMERICAL-ABERRATIONS
+## field_notes
+canonical_key "down-syndrome.causes-and-features" already has a pinned id in this module (CON-DEV-294FB8DDA40429); mintConceptId derives the same id fresh (CON-DEV-294FB8DDA40429) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-DEV-C5F7B1973F8049
+## label
+Klinefelter (47,XXY), triple X (47,XXX) and Turner (45,XO) syndromes are sex-chromosome aneuploidies from non-disjunction in oogenesis
+## canonical_key
+sex-chromosome-aberration.klinefelter-turner-and-triple-x-syndromes
+## exam_signal
+src_79af3b3857ba47239529 | question_book | | p3 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p41 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p39 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p3 | 104 CPS
+## article_ids
++ART-104-HIS-NUMERICAL-ABERRATIONS
+## field_notes
+canonical_key "sex-chromosome-aberration.klinefelter-turner-and-triple-x-syndromes" already has a pinned id in this module (CON-DEV-C5F7B1973F8049); mintConceptId derives the same id fresh (CON-DEV-C5F7B1973F8049) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-DEV-D2BA4082190B3F
+## label
+Structural chromosomal aberrations are breaks, deletions, inversions, translocations, duplications and isochromosomes, balanced or unbalanced by gene content
+## canonical_key
+structural-chromosomal-aberration.deletion-inversion-translocation-duplication-isochromosome
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+## article_ids
++ART-104-HIS-STRUCTURAL-ABERRATIONS
+## field_notes
+canonical_key "structural-chromosomal-aberration.deletion-inversion-translocation-duplication-isochromosome" already has a pinned id in this module (CON-DEV-D2BA4082190B3F); mintConceptId derives the same id fresh (CON-DEV-D2BA4082190B3F) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -1169,7 +806,7 @@ direct_statement
 ## related_article_ids
 ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1300,7 +937,7 @@ direct_statement
 ## related_article_ids
 ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1431,7 +1068,7 @@ direct_statement
 ## related_article_ids
 ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1563,7 +1200,7 @@ direct_statement
 ## related_article_ids
 ART-104-PHY-OXYGEN-CONTENT-AND-CO2-TRANSPORT
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1694,7 +1331,7 @@ direct_statement
 ## related_article_ids
 ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -1750,527 +1387,71 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
-## label
-The conducting portion's epithelium has five cell types: ciliated, goblet, brush, basal and small granule cells
 ## id
 CON-RES-38BA83C42FBE02
+## label
+The conducting portion's epithelium has five cell types: ciliated, goblet, brush, basal and small granule cells
 ## canonical_key
 conducting-portion-epithelium.five-cell-types
-## definition
-The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it. Ciliated columnar cells are the most abundant, each carrying about 300 motile cilia, their apical cytoplasm packed with the cilia's basal bodies and with mitochondria supplying energy for ciliary beating; they push mucus, with its trapped bacteria and dust, outward in one direction. Mucous goblet cells are next most numerous, their apical portions filled with mucin granules, secreting the mucus that covers the epithelium and traps particles. Brush cells are columnar cells with abundant apical microvilli and basal afferent nerve endings, acting as sensory receptors. Basal cells are small, rounded cells sitting on the basal lamina without reaching the lumen — the stem cells that replace the other types. Small granule cells are neuroendocrine cells of the APUD group, with numerous basal dense granules, secreting hormones such as serotonin and catecholamines that control airway and blood-vessel diameter and regulate mucous and serous secretion.
-## explicit_objective
-Name the conducting portion's five epithelial cell types and state the distinguishing feature and function of each.
-## pitfalls
-In smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
-## concept_type
-structural_description
-## status
-under review
-## subject
-resp
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-RES-T01-S01-M01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p22 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Respiratory System
-## aliases
-Respiratory epithelium cell types | Ciliated, goblet, brush, basal and small granule cells | Pseudostratified ciliated columnar epithelium
 ## article_ids
-ART-104-HIS-NASAL-MUCOSA
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] cell act as sensory receptor, Contain afferent Nerve ending
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-NASAL-MUCOSA
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "conducting-portion-epithelium.five-cell-types" already has a pinned id in this module (CON-RES-38BA83C42FBE02); mintConceptId derives the same id fresh (CON-RES-38BA83C42FBE02) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
-## label
-The nasal cavity is a keratinized, hair-lined vestibule opening into two conchae-bearing fossae that condition inspired air
 ## id
 CON-RES-1FF74892D5B943
+## label
+The nasal cavity is a keratinized, hair-lined vestibule opening into two conchae-bearing fossae that condition inspired air
 ## canonical_key
 nasal-cavity.vestibule-and-fossae-regions
-## definition
-The nasal cavity is the external vestibule and the internal nasal fossae. The vestibule is the anterior dilated portion, lined with hairy keratinized stratified squamous epithelium that changes, deeper in, to non-keratinized stratified squamous epithelium; its epithelium carries thick short hairs, the vibrissae, that filter large particles out of the air. The nasal fossae are two chambers separated by the bony nasal septum, each bearing three bony shelf-like projections from its lateral wall — the superior, middle and inferior conchae. The lamina propria of the conchae is loose connective tissue containing large venous plexuses (swell bodies) and mucous and serous glands, and its function is to improve the conditioning of inspired air by increasing the surface area of the respiratory mucosa.
-## explicit_objective
-Describe the vestibule and the nasal fossae as the two regions of the nasal cavity, and state the function of the conchae.
-## pitfalls
-Allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.
-## concept_type
-structural_description
-## status
-under review
-## subject
-resp
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-RES-T01-S01-M01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p22 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Respiratory System
-## aliases
-Vestibule of the nose | Nasal fossae | Swell bodies
 ## article_ids
-ART-104-HIS-NASAL-MUCOSA
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] in vestibule, deeper, its epithelium change into
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-NASAL-MUCOSA
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "nasal-cavity.vestibule-and-fossae-regions" already has a pinned id in this module (CON-RES-1FF74892D5B943); mintConceptId derives the same id fresh (CON-RES-1FF74892D5B943) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
-## label
-Olfactory epithelium has three cell types — olfactory neurons, sustentacular cells and basal cells — over a lamina propria of Bowman's glands
 ## id
 CON-RES-58840F56FB3A36
+## label
+Olfactory epithelium has three cell types — olfactory neurons, sustentacular cells and basal cells — over a lamina propria of Bowman's glands
 ## canonical_key
 olfactory-mucosa.cell-types-and-lamina-propria
-## definition
-Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria. The epithelium is the neuro-epithelium responsible for smell, much thicker than respiratory epithelium, a modified pseudostratified columnar ciliated epithelium with no goblet cells, built of three cell types. Olfactory neurons are bipolar nerve cells whose dendrites extend to the surface and end in an olfactory vesicle bearing multiple basal bodies, from which arise cilia that are few, very long and non-motile, increasing the surface exposed to odorous substances; their axons pass into the lamina propria as olfactory nerve fibres. Sustentacular (supporting) cells are tall columnar cells with wide apices and narrow bases, apical microvilli in a fluid layer, and apical yellow lipofuscin granules that give olfactory mucosa its yellow colour; junctional complexes bind them to the olfactory cells. Basal cells are small pyramidal cells with basophilic cytoplasm and round nuclei, acting as stem cells for both the sensory and the supporting cells. The lamina propria beneath is dense connective tissue carrying olfactory nerve bundles and Bowman's glands, whose serous secretion reaches the surface through ducts and forms the fluid medium in which odorous substances dissolve around the olfactory cilia.
-## explicit_objective
-Name olfactory epithelium's three cell types and state what each contributes, and say what Bowman's glands secrete and why.
-## pitfalls
-Olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
-## concept_type
-structural_description
-## status
-under review
-## subject
-resp
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-RES-T01-S01-M01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Respiratory System
-## aliases
-Olfactory neurons | Sustentacular cells | Bowman's glands | Olfactory epithelium structure
 ## article_ids
-ART-104-HIS-NASAL-MUCOSA
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] bind supporting cell to olfactory cell
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-NASAL-MUCOSA
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "olfactory-mucosa.cell-types-and-lamina-propria" already has a pinned id in this module (CON-RES-58840F56FB3A36); mintConceptId derives the same id fresh (CON-RES-58840F56FB3A36) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
 
 # Item
-## label
-The larynx is mostly respiratory epithelium over hyaline and elastic cartilages, except at the true vocal cords
 ## id
 CON-RES-099718106C38CD
+## label
+The larynx is mostly respiratory epithelium over hyaline and elastic cartilages, except at the true vocal cords
 ## canonical_key
 larynx.vocal-cords-and-cartilages
-## definition
-The larynx connects the pharynx with the trachea. It is lined with respiratory epithelium, except over the true vocal cords and the lingual surface of the epiglottis, which are covered by stratified squamous epithelium; its connective-tissue lamina propria contains the laryngeal cartilages. The large cartilages — thyroid, cricoid and most of the arytenoids — are hyaline and may calcify with age; the small cartilages — epiglottis, cuneiform, corniculate and the tip of the arytenoids — are elastic and do not calcify. Two pairs of folds extend into the laryngeal lumen. The upper pair, the false vocal cords (vestibular folds), are lined by respiratory epithelium and prevent food and fluid from entering the larynx. The lower pair, the true vocal cords, are lined by non-keratinized stratified squamous epithelium and produce voice. Overall the larynx produces voice through the true vocal cords, maintains an open airway through its cartilages, and, through the epiglottis and false vocal cords, prevents food and fluid from entering the respiratory passages.
-## explicit_objective
-State which parts of the larynx are lined by stratified squamous rather than respiratory epithelium, and contrast the false and true vocal cords by lining and function.
-## pitfalls
-Assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first. The true vocal cords and the lingual epiglottis are the two named exceptions, and it is exactly those two mechanically abraded surfaces that switch to a tougher, non-keratinized stratified squamous lining.
-## concept_type
-structural_description
-## status
-under review
-## subject
-resp
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-RES-T01-S01-M01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p24 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p23 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.31
-## exam_weight_by_year
-KAU_Y1=0.31
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Respiratory System
-## aliases
-True and false vocal cords | Laryngeal cartilages | Vestibular folds
 ## article_ids
-ART-104-HIS-LARYNX-TRACHEA-BRONCHI
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] Cartilage in epiglottis, cuneiform, Corniculate is
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-NASAL-MUCOSA | ART-104-HIS-RESPIRATORY-PORTION
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-LARYNX-TRACHEA-BRONCHI
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "larynx.vocal-cords-and-cartilages" already has a pinned id in this module (CON-RES-099718106C38CD); mintConceptId derives the same id fresh (CON-RES-099718106C38CD) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---
@@ -2351,7 +1532,7 @@ direct_statement
 ## related_article_ids
 ART-104-HIS-NASAL-MUCOSA | ART-104-HIS-RESPIRATORY-PORTION
 ## resource_ids
-src_b1e6dc481eaf337268d0
+src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
 [clear]
 ## approved_video_resource_ids
@@ -2407,130 +1588,16 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 ---
 
 # Item
-## label
-Type I pneumocytes are flat cells covering 97% of the alveolar surface for gas exchange; type II are cuboidal surfactant-secreting stem cells
 ## id
 CON-RES-94F66D51DB5B4D
+## label
+Type I pneumocytes are flat cells covering 97% of the alveolar surface for gas exchange; type II are cuboidal surfactant-secreting stem cells
 ## canonical_key
 pneumocyte-type-i-vs-type-ii.structure-and-function
-## definition
-Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface. By light microscopy they are flat squamous cells with flat nuclei and little cytoplasm; by electron microscopy they show few organelles in the perinuclear region and small pinocytic vesicles that turn over pulmonary surfactant, and they hold tight junctions with both other type I and type II cells. Their function is to provide a very thin wall for gas exchange and, through those tight junctions, to prevent leakage of tissue fluid into the alveolar cavity. Type II pneumocytes (great alveolar cells) cover only about 3% of the surface. They are cuboidal cells bulging into the air space, with central rounded nuclei and foamy cytoplasm; by electron microscopy they are rich in mitochondria, ribosomes, rough endoplasmic reticulum and a well-developed Golgi body, with membrane-bound multilamellar bodies (cytosomes) and a free surface bearing short microvilli. Their function is to secrete pulmonary surfactant and to act as the stem cell for both pneumocyte types.
-## explicit_objective
-Contrast type I and type II pneumocytes by the fraction of alveolar surface each covers, their light- and electron-microscopic appearance, and their function.
-## pitfalls
-Assuming the cell covering most of the alveolar surface must be the more metabolically active one. It is the reverse: the type I cell is a thin, organelle-poor wall built purely for diffusion, while the much rarer type II cell carries the secretory machinery and is also the stem cell for both types.
-## concept_type
-comparison
-## status
-under review
-## subject
-resp
-## primary_node_id
-DIS-HIS-T03
-## secondary_node_ids
-SYS-RES-T01-S01-M01
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Respiratory Portion
-## universities
-kau
-## learner_years
-1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p25 | 104 CPS
-## weight_confidence
-0.6
-## blueprint_weight
-0.23
-## exam_weight_by_year
-KAU_Y1=0.23
-## clinical_relevance
-0.3
-## academic_relevance
-0.9
-## confidence
-0.7
-## topic
-Histology
-## subtopic
-Respiratory System
-## aliases
-Type I pneumocyte | Type II pneumocyte | Squamous alveolar cell | Great alveolar cell
 ## article_ids
-ART-104-HIS-RESPIRATORY-PORTION
-## support_mode
-direct_statement
-## original_wording
-[asked 1x across the question books] type of Junction between type I and II pneumocyte is
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## evidence_gaps
-[clear]
-## arabic_label
-
-## arabic_aliases
-[clear]
-## microtopic
-[clear]
-## nanotopic
-[clear]
-## related_concept_ids
-[clear]
-## related_article_ids
-ART-104-HIS-LARYNX-TRACHEA-BRONCHI | ART-104-HIS-MACROPHAGE-SYSTEM | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-## resource_ids
-src_b1e6dc481eaf337268d0
-## approved_file_resource_ids
-[clear]
-## approved_video_resource_ids
-[clear]
-## atomic_claim_ids
-[clear]
-## resource_occurrence_ids
-[clear]
-## source_candidate_ids
-[clear]
-## merge_ids
-[clear]
-## rejected_merge_candidate_ids
-[clear]
-## exclusion_reason
-
-## reviewer
-Medical team, Admin team
-## final_publisher
-Admin team
-## last_reviewed
-
-## review_due
-
-## owner
-Claude
-## publication_status
-needs_evidence
-## editorial_review_status
-authored_needs_independent_evidence
++ART-104-HIS-RESPIRATORY-PORTION
 ## field_notes
-aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
-arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
-arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
-microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
-nanotopicId: As above — no NAN_ ids exist for this material.
-atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
-approvedFileResourceIds: As above — no approved file resources exist for this module.
-approvedVideoResourceIds: This faculty distributes no video for this module.
-resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
-sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
-relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
-relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
-mergeIds: Nothing has been merged into this concept.
-rejectedMergeCandidateIds: No merge has been proposed or rejected.
-exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
-reviewer: No faculty reviewer has seen this yet.
-finalPublisher: Not published — it has not passed the evidence gate.
-lastReviewed: Never reviewed.
-reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+canonical_key "pneumocyte-type-i-vs-type-ii.structure-and-function" already has a pinned id in this module (CON-RES-94F66D51DB5B4D); mintConceptId derives the same id fresh (CON-RES-94F66D51DB5B4D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 

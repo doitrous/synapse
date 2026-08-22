@@ -2,8 +2,9 @@
   Concepts for 104 CPS, from every paper read so far.
 
     EOY Final 104, 199 (2).pdf — end of year 2025, 22 questions
+    ١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf — baqoon 2024, 11 questions
 
-  22 concepts from 22 questions.
+  33 concepts from 33 questions.
   0 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
@@ -2873,3 +2874,168 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## id
+CON-RES-0BB6BDDB3E4413
+## label
+A typical intercostal nerve runs in the neurovascular bundle below the vein and artery, and ends as the anterior cutaneous branch
+## canonical_key
+typical-intercostal-nerve.course-and-branches
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p1 | 104 CPS
+## field_notes
+canonical_key "typical-intercostal-nerve.course-and-branches" already has a pinned id in this module (CON-RES-0BB6BDDB3E4413); mintConceptId derives the same id fresh (CON-RES-0BB6BDDB3E4413) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC1111DA6DD151
+## label
+The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches
+## canonical_key
+lung.mediastinal-surface-impressions
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p2 | 104 CPS
+## field_notes
+canonical_key "lung.mediastinal-surface-impressions" already has a pinned id in this module (CON-RES-DC1111DA6DD151); mintConceptId derives the same id fresh (CON-RES-DC1111DA6DD151) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-42C907CE4749DC
+## label
+The right atrium is split by the crista terminalis into a rough atrium proper and a smooth sinus venarum; the right ventricle has an inflow part with three papillary muscles and a smooth infundibulum
+## canonical_key
+heart.right-chambers-interior
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p3 | 104 CPS
+## field_notes
+canonical_key "heart.right-chambers-interior" already has a pinned id in this module (CON-CVS-42C907CE4749DC); mintConceptId derives the same id fresh (CON-CVS-42C907CE4749DC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2A21F1B4F30B61
+## label
+The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system
+## canonical_key
+right-coronary-artery.course-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p4 | 104 CPS
+## field_notes
+canonical_key "right-coronary-artery.course-and-distribution" already has a pinned id in this module (CON-CVS-2A21F1B4F30B61); mintConceptId derives the same id fresh (CON-CVS-2A21F1B4F30B61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1F1AB4B70AB06D
+## label
+The left coronary artery divides into the anterior interventricular and circumflex arteries, together supplying the left atrium, most of the left ventricle and the anterior two thirds of the septum
+## canonical_key
+left-coronary-artery.branches-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p4 | 104 CPS
+## field_notes
+canonical_key "left-coronary-artery.branches-and-distribution" already has a pinned id in this module (CON-CVS-1F1AB4B70AB06D); mintConceptId derives the same id fresh (CON-CVS-1F1AB4B70AB06D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-9C60987F3CB5A1
+## label
+The arch of the aorta passes over the left bronchus and gives the brachiocephalic, left common carotid and left subclavian arteries from its convexity, with the trachea and oesophagus behind it
+## canonical_key
+arch-of-aorta.relations-and-branches
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p5 | 104 CPS
+## field_notes
+canonical_key "arch-of-aorta.relations-and-branches" already has a pinned id in this module (CON-CVS-9C60987F3CB5A1); mintConceptId derives the same id fresh (CON-CVS-9C60987F3CB5A1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-AFCED19BA66ED2
+## label
+The phrenic nerve enters the thorax on the venous side (right) or arterial side (left) of the mediastinum and leaves through the diaphragm it alone supplies motor to
+## canonical_key
+phrenic-nerve.course-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p6 | 104 CPS
+## field_notes
+canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-7A8A04F61D44D1
+## label
+The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction
+## canonical_key
+cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p8 | 104 CPS
+## field_notes
+canonical_key "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance" already has a pinned id in this module (CON-CVS-7A8A04F61D44D1); mintConceptId derives the same id fresh (CON-CVS-7A8A04F61D44D1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-BF82D6F52B72C9
+## label
+Beta-adrenergic stimulation raises cytoplasmic calcium through Protein Kinase A to increase both contractile force (positive inotropy) and the speed of relaxation (lusitropy), while hypoxia and ischaemia impair both
+## canonical_key
+cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p9 | 104 CPS
+## field_notes
+canonical_key "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms" already has a pinned id in this module (CON-CVS-BF82D6F52B72C9); mintConceptId derives the same id fresh (CON-CVS-BF82D6F52B72C9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-D97F7FD5B9F824
+## label
+Cardiac output is the volume each ventricle pumps per minute, equals heart rate times stroke volume, and is corrected for body size as the cardiac index
+## canonical_key
+cardiac-output.definition-formula-and-index
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p10 | 104 CPS
+## field_notes
+canonical_key "cardiac-output.definition-formula-and-index" already has a pinned id in this module (CON-CVS-D97F7FD5B9F824); mintConceptId derives the same id fresh (CON-CVS-D97F7FD5B9F824) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-A54FECB95CBEBC
+## label
+The dorsal respiratory group drives normal quiet breathing alone, the ventral respiratory group activates only for forced breathing, and the pontine apneustic and pneumotaxic centres tune the medullary rhythm rather than generating it
+## canonical_key
+respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p14 | 104 CPS
+## field_notes
+canonical_key "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation" already has a pinned id in this module (CON-RES-A54FECB95CBEBC); mintConceptId derives the same id fresh (CON-RES-A54FECB95CBEBC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+

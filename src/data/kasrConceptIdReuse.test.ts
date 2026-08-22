@@ -1,19 +1,31 @@
 import { test, describe } from 'node:test'
 import assert from 'node:assert/strict'
-import { mintConceptId, parseConceptIds, resolveConceptId } from '../../scripts/kasr/seeds/types.ts'
+import { mintConceptId, parseConceptIds, parseConceptModules, resolveConceptId } from '../../scripts/kasr/seeds/types.ts'
 
 /**
- * One canonical_key -> one id, within a module — even when the id already on
- * record was never minted by `mintConceptId` in the first place.
+ * One canonical_key -> one id, within a module — whether or not the id
+ * already on record happens to be what `mintConceptId` would derive fresh.
  *
- * 103 BMS's hand-authored concept files are minted by a different tool
- * (`Instruction Manual for Content Creation/tools/mint-concept-id.mjs`, which
- * hashes the canonical_key alone, with no module salt) and those ids are
- * pinned: a build script re-minting a live record is not its call to make.
+ * Two real modules exercise the two ways a hand-authored id can relate to a
+ * fresh mint, and both must produce a reuse (a sparse update row), never a
+ * full re-mint:
+ *
+ * - 103 BMS's hand-authored concept files are minted by a different tool
+ *   (`Instruction Manual for Content Creation/tools/mint-concept-id.mjs`,
+ *   which hashes the canonical_key alone, with no module salt), so a pinned
+ *   id there reliably *disagrees* with `mintConceptId`.
+ * - 104 CPS's hand-authored concept files were minted with `mintConceptId`
+ *   itself, so a pinned id there reliably *agrees* — and used to be treated
+ *   as "nothing to reuse" for exactly that reason, which is the bug this
+ *   file's third `resolveConceptId` test now guards against: agreement was
+ *   never proof that the full hand-authored record (aliases, article links,
+ *   evidence) was safe from a full re-mint overwriting it.
+ *
  * `resolveConceptId` is what a build checks before minting anything, and
- * `parseConceptIds` is how it learns what a module already calls a key,
- * straight out of a concept batch's own markdown — no file system, so both
- * are true unit tests rather than fixtures on disk.
+ * `parseConceptIds`/`parseConceptModules` are how it learns what a module
+ * already calls a key and which modules that record already claims, straight
+ * out of a concept batch's own markdown — no file system, so all three are
+ * true unit tests rather than fixtures on disk.
  */
 const MODULE = '103 BMS'
 const SUBJECT = 'fnd'
@@ -24,7 +36,21 @@ const KEY = 'bioenergetics.bonds.high-energy-threshold'
 // what mintConceptId derives for the same key.
 const PINNED_ID = 'CON-FND-7228237A5897B5'
 
-describe('resolveConceptId: key-hit reuses, key-miss mints', () => {
+// The real pinned id for this key in
+// docs/Kasr-Source-Imports/concept/104-CPS-anatomy-concepts.md — minted with
+// mintConceptId itself, so it is *equal* to a fresh mint for the same
+// (module, subject, key). Confirmed directly:
+// `mintConceptId("104 CPS", "resp", MODULE_104_KEY)` === `MODULE_104_PINNED_ID`.
+// This is the id-reuse hazard lane B9 found: build-batches.ts "104 CPS"
+// referencing this same key from a written paper took the "reused: false"
+// branch under the old rule and emitted a full conceptBlock(), emptying the
+// hand record's aliases/relatedArticleIds and replacing its resource_ids.
+const MODULE_104 = '104 CPS'
+const SUBJECT_104 = 'resp'
+const KEY_104 = 'typical-intercostal-nerve.course-and-branches'
+const PINNED_ID_104 = 'CON-RES-0BB6BDDB3E4413'
+
+describe('resolveConceptId: every pinned hit is a reuse', () => {
   test('a key with no entry in the pinned map mints, and says so', () => {
     const pinned = new Map<string, string>()
     const resolved = resolveConceptId(pinned, MODULE, SUBJECT, KEY)
@@ -32,7 +58,7 @@ describe('resolveConceptId: key-hit reuses, key-miss mints', () => {
     assert.equal(resolved.reused, false)
   })
 
-  test('a key whose pinned id disagrees with a fresh mint reuses the pinned id', () => {
+  test('a key whose pinned id disagrees with a fresh mint reuses the pinned id (103 BMS)', () => {
     const pinned = new Map([[KEY, PINNED_ID]])
     const resolved = resolveConceptId(pinned, MODULE, SUBJECT, KEY)
     assert.equal(resolved.id, PINNED_ID)
@@ -41,24 +67,27 @@ describe('resolveConceptId: key-hit reuses, key-miss mints', () => {
     assert.equal(resolved.reused, true)
   })
 
-  test('a pinned id that already agrees with a fresh mint is not a reuse', () => {
-    // The common case: most hand-authored concepts were themselves minted
-    // with mintConceptId, so the "pinned" id and a fresh mint usually just
-    // agree — 101 ISK's own `101-ISK-practical-concepts.md` shares six
-    // canonical_keys with `101-ISK-mcq-concepts.md` this way. Treating
-    // agreement as a reuse would demote every one of those six to a sparse
-    // update row for no reason, which is exactly the regression the 101 ISK
-    // byte-identity proof exists to catch.
-    const already = mintConceptId(MODULE, SUBJECT, KEY)
-    const pinned = new Map([[KEY, already]])
-    const resolved = resolveConceptId(pinned, MODULE, SUBJECT, KEY)
-    assert.equal(resolved.id, already)
-    assert.equal(resolved.reused, false)
+  test('a pinned id that already agrees with a fresh mint is STILL a reuse (104 CPS)', () => {
+    // This used to assert `reused: false`, on the theory that an id agreeing
+    // with a fresh mint meant there was nothing to protect. That theory
+    // tracked only the id and missed the record behind it: 104 CPS's hand
+    // files were minted with mintConceptId throughout, so most of its keys
+    // agree this way, and the old rule let every one of them through as a
+    // full re-mint — which is exactly the field loss lane B9 found (aliases
+    // and relatedArticleIds emptied, resource_ids replaced) on live,
+    // hand-authored 104 CPS concepts. Agreement is not, and was never, a
+    // reason to skip the sparse-update row.
+    assert.equal(PINNED_ID_104, mintConceptId(MODULE_104, SUBJECT_104, KEY_104),
+      'the fixture only proves anything if the pinned id truly agrees with a fresh mint')
+    const pinned = new Map([[KEY_104, PINNED_ID_104]])
+    const resolved = resolveConceptId(pinned, MODULE_104, SUBJECT_104, KEY_104)
+    assert.equal(resolved.id, PINNED_ID_104)
+    assert.equal(resolved.reused, true)
   })
 })
 
 describe('parseConceptIds reads canonical_key -> id off batch markdown', () => {
-  const block = (id: string, key: string, moduleSubject: string) => `# Item
+  const block = (id: string, key: string, moduleSubject: string, modules?: string) => `# Item
 
 ## id
 ${id}
@@ -68,6 +97,9 @@ Something
 
 ## canonical_key
 ${key}
+
+## modules
+${modules ?? moduleSubject.split(' > ')[0]}
 
 ## module_subject
 ${moduleSubject}
@@ -142,5 +174,67 @@ Left as-is (untouched) — this update row does not change canonical_key.
     const miss = resolveConceptId(pinned, MODULE, SUBJECT, 'a-brand-new-key-nobody-has-authored-yet')
     assert.equal(miss.id, mintConceptId(MODULE, SUBJECT, 'a-brand-new-key-nobody-has-authored-yet'))
     assert.equal(miss.reused, false)
+  })
+})
+
+describe('parseConceptModules reads canonical_key -> ## modules off batch markdown', () => {
+  const block = (key: string, modules: string, moduleSubject: string) => `# Item
+
+## id
+CON-FND-AAAAAAAAAAAAAA
+
+## canonical_key
+${key}
+
+## modules
+${modules}
+
+## module_subject
+${moduleSubject}
+
+## field_notes
+n/a
+`
+
+  test('a hit carries the modules list, split the same way any ID list splits', () => {
+    const text = block(KEY, `${MODULE} | 205 NEU`, `${MODULE} > Biochemistry > Bioenergetics`)
+    const index = parseConceptModules(text, MODULE)
+    assert.deepEqual(index.get(KEY), [MODULE, '205 NEU'])
+  })
+
+  test('scoped by module_subject the same way parseConceptIds is', () => {
+    const text = block(KEY, MODULE_104, '104 CPS > Histology > Respiratory System')
+    const index = parseConceptModules(text, MODULE)
+    assert.equal(index.get(KEY), undefined)
+  })
+
+  test('a block with no ## modules is skipped, not thrown on', () => {
+    const text = `# Item
+
+## id
+CON-FND-AAAAAAAAAAAAAA
+
+## canonical_key
+${KEY}
+
+## module_subject
+${MODULE} > Biochemistry > Bioenergetics
+
+## field_notes
+n/a
+`
+    const index = parseConceptModules(text, MODULE)
+    assert.equal(index.size, 0)
+  })
+
+  test('agrees with parseConceptIds about which key a real 104 CPS record uses', () => {
+    // The same record this file's resolveConceptId fixture reuses — module
+    // already on the list, so a caller checking "is this module new here"
+    // correctly gets false.
+    const text = block(KEY_104, MODULE_104, `${MODULE_104} > Anatomy > Intercostal Spaces`)
+    const ids = parseConceptIds(text, MODULE_104)
+    const modules = parseConceptModules(text, MODULE_104)
+    assert.equal(ids.get(KEY_104), 'CON-FND-AAAAAAAAAAAAAA', 'sanity: the same block is indexable by parseConceptIds too')
+    assert.equal(modules.get(KEY_104)?.includes(MODULE_104), true)
   })
 })
