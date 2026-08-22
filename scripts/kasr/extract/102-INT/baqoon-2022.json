@@ -1,0 +1,645 @@
+{
+  "source": {
+    "id": "src_78d4962525e01c247496",
+    "file": "دور تاني 2022 102  (1)EOY 2022 PHYSIO  .pdf",
+    "module": "102 INT",
+    "sittingYear": 2022,
+    "tier": "baqoon",
+    "sections": [
+      "Short Essay Questions",
+      "On Biochemical Basis Explain",
+      "Compare",
+      "Enumerate"
+    ]
+  },
+  "seeds": [
+    {
+      "q": 1,
+      "section": "Short Essay Questions",
+      "page": 2,
+      "marks": 8,
+      "asked": "Describe the sympathetic supply of abdominal and pelvic viscera. (8 marks)",
+      "label": "The sympathetic outflow to the gut and pelvis leaves the cord as splanchnic nerves and relays in the collateral ganglia before riding the blood vessels to the organ",
+      "key": "sympathetic-supply-abdominal-pelvic-viscera",
+      "definition": "Sympathetic supply to the abdominal viscera arises as preganglionic fibres from T5-T12, passing through the paravertebral chain without relay and leaving as splanchnic nerves (greater, T5-T9, to coeliac and superior mesenteric ganglia; lesser, T10-T11, to aorticorenal and superior mesenteric ganglia; least, T12, to the aorticorenal ganglion); postganglionic fibres then run with the blood vessels to the abdominal viscera, relaxing gut plain muscle and contracting sphincters, constricting most abdominal arterioles, driving hepatic glycogenolysis, contracting the splenic capsule to release stored blood, and stimulating the adrenal medulla. Sympathetic supply to the pelvic viscera arises as preganglionic fibres from T12-L2, reaching the inferior mesenteric ganglion as lumbar splanchnic nerves for the gut and the sacral ganglia as sacral splanchnic nerves for the bladder and genitalia; postganglionic fibres relax the distal colon and rectum while contracting the internal anal sphincter (retaining faeces), relax the bladder wall while contracting the internal urethral sphincter (retaining urine), and contract the vas deferens, seminal vesicles and prostate to produce ejaculation.",
+      "objective": "State the segmental origin, relay ganglia and course of the sympathetic supply to the abdominal and to the pelvic viscera, and give the main functional effect on each organ named.",
+      "pitfall": "Assuming abdominal and pelvic sympathetic fibres relay the same way. Abdominal preganglionic fibres pass the paravertebral chain untouched and relay in collateral ganglia named after the great vessels; pelvic fibres to the gut do the same via the inferior mesenteric ganglion, but the fibres to bladder and genitalia instead leave via the sacral ganglia as sacral splanchnic nerves.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system",
+      "type": "mechanism",
+      "difficulty": "Hard",
+      "sourcePage": 2,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Short Essay Questions",
+      "page": 3,
+      "marks": 6,
+      "asked": "Describe the parasympathetic supply of head and neck. (6 marks)",
+      "label": "Three cranial nerves — III, VII and IX — carry the parasympathetic supply to the head and neck, each with its own brainstem nucleus, relay ganglion and target gland or muscle",
+      "key": "parasympathetic-supply-head-and-neck",
+      "definition": "The oculomotor nerve (III) carries preganglionic fibres from the Edinger-Westphal nucleus in the midbrain, relaying in the ciliary ganglion; postganglionic fibres run as short ciliary nerves to contract the constrictor pupillae (miosis) and the ciliary muscle (accommodation for near vision). The facial nerve (VII) carries preganglionic fibres from the superior salivary nucleus in the lower pons; some relay in the sphenopalatine ganglion, whose postganglionic fibres supply the lacrimal and nasal glands, and others run in the chorda tympani to relay in the submandibular ganglion, whose postganglionic fibres supply the submandibular and sublingual salivary glands — functions secretomotor and vasodilator. The glossopharyngeal nerve (IX) carries preganglionic fibres from the inferior salivary nucleus at the pons-medulla junction, relaying in the otic ganglion, whose postganglionic fibres supply the parotid gland — again secretomotor and vasodilator.",
+      "objective": "Name the three cranial nerves that carry the parasympathetic supply to the head and neck, and for each give the brainstem nucleus of origin, the relay ganglion, and what it supplies.",
+      "pitfall": "Assuming the facial nerve relays in only one ganglion. It splits: fibres via the sphenopalatine ganglion serve the lacrimal and nasal glands, while fibres via the chorda tympani relay separately in the submandibular ganglion for the submandibular and sublingual glands.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 3,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Short Essay Questions",
+      "page": 4,
+      "marks": 10,
+      "asked": "Explain the mechanism of iron absorption. Mention the effect of iron deficiency and its causes. (10 marks)",
+      "label": "Iron crosses the enterocyte by two doors, DMT1 for the ferrous ion and HCP1 for haem, and whether it goes to storage or to the blood depends on the body's need; too little iron, from any of three causes, gives a small pale RBC",
+      "key": "iron-absorption-mechanism-dmt1-hcp1-ferroportin",
+      "definition": "Iron is absorbed by enterocytes, mainly in the duodenum. At the apical membrane, ferrous iron (Fe2+) enters via divalent metal transporter 1 (DMT1) — ferric iron not reduced in the stomach is reduced to Fe2+ in the duodenum by a reductase — while haem iron enters via a separate carrier, haem carrier protein 1 (HCP1). Inside the enterocyte, if body demand is decreased, most iron is stored as ferritin and haemosiderin and lost with the sloughed enterocyte in the faeces; if demand is increased, iron crosses the basolateral membrane via the export protein ferroportin, is oxidised to Fe3+ by a ferroxidase, and binds plasma transferrin (normally 35% saturated), which delivers it to transferrin-receptor-bearing cells of marrow, liver and muscle. Iron deficiency produces microcytic hypochromic anaemia — decreased RBC mass and haemoglobin content, MCV under 80 fL and MCH under 25 pg — from three causes: dietary deficiency (low intake, more common in growing children and pregnancy), deficient absorption (partial gastrectomy, vitamin C deficiency, excess phytate/oxalate/phosphate, small-intestinal disease), and chronic blood loss (hookworm infestation, bleeding peptic ulcer or piles, excessive menstrual bleeding).",
+      "objective": "Trace iron from the gut lumen to plasma transferrin through both possible enterocyte fates, then name the three causes of iron deficiency and the anaemia it produces.",
+      "pitfall": "Treating DMT1 as the only iron door into the enterocyte. Haem iron uses a separate transporter, HCP1, so a diet's absorbable iron is the sum of both routes, and this is why haem iron (meat) is absorbed more efficiently than the non-haem iron that depends on reduction and DMT1 alone.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T02-S01-M01"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Iron",
+      "type": "mechanism",
+      "difficulty": "Hard",
+      "sourcePage": 4,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "Short Essay Questions",
+      "page": 5,
+      "marks": 6,
+      "asked": "Case: (6 marks; each question 1 mark). A 31-year-old patient presented to emergency room with dyspnea and acute chest pain. He was diagnosed as acute pulmonary embolism secondary to deep venous thrombosis. The physician prescribed to him tissue plasminogen activator. Further investigation proved that this patient has activated protein C resistance. Questions: a) Outline the mechanism of action of tissue plasminogen activator. b) Inside the body, explain the relation between protein C and tissue plasminogen activator. c) Clarify the role of thrombin in coagulation. d) How does thrombin lose its procoagulant activity and become a potent anticoagulant? e) Name the factors inactivated by protein C. f) Name 2 possible complications of blood clot formation inside blood vessels.",
+      "label": "The fibrinolytic system turns the same enzyme, thrombin, from the maker of the clot into the trigger of its own dissolution once it is bound to endothelial thrombomodulin",
+      "key": "physiological-limitation-of-coagulation",
+      "definition": "Thrombin has two opposite roles. Procoagulant: thrombin, formed from prothrombin by the prothrombin activator complex of active factor X, phospholipid, calcium and active factor V, converts fibrinogen to fibrin and drives the coagulation cascade. Anticoagulant: when thrombin binds thrombomodulin, expressed by endothelial cells (except cerebral microcirculation), the thrombin-thrombomodulin complex activates protein C; activated protein C (APC), with cofactor protein S, inactivates factors V and VIIIa and inactivates the inhibitor of tissue plasminogen activator (TPA), so that activated TPA converts plasminogen to plasmin (with thrombin's help), and plasmin lyses fibrin and fibrinogen into fibrinogen degradation products, which themselves inhibit thrombin. Activated protein C resistance means factor V is not properly inactivated by APC, so this fibrinolytic brake fails and the patient over-clots, producing this case's deep venous thrombosis and pulmonary embolism.",
+      "objective": "Trace thrombin's dual role in coagulation and in its own fibrinolytic shutdown via protein C, and explain why a defect in protein C's action on factor V causes a clotting tendency.",
+      "pitfall": "Treating protein C and TPA as unrelated. Activated protein C's job is precisely to unblock TPA by inactivating TPA's own inhibitor, so protein C resistance leaves both factor Va active and TPA suppressed — a double push toward clot.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T03"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Physiological limitations of blood coagulation",
+      "type": "mechanism",
+      "difficulty": "Hard",
+      "sourcePage": 5,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "On Biochemical Basis Explain",
+      "page": 7,
+      "marks": 6,
+      "asked": "Point mutation may have no effect or may cause serious effects. (6 marks)",
+      "label": "A base substitution is missense, nonsense or silent, and only the label tells you whether the protein is unchanged, wrecked or truncated",
+      "key": "point-mutation-types-and-consequences",
+      "definition": "Base substitutions are the commonest gene mutations. A nonsense mutation converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional — thalassaemia is the example. A missense mutation changes the codon so a different amino acid is inserted; the effect ranges from none to very serious, as in sickle cell anaemia, where glutamate is replaced by valine at position six of the beta chain. A silent mutation gives a synonym codon for the same amino acid, so the protein is unchanged.",
+      "objective": "Name the three types of point mutation and explain why the same class of change (a single base substitution) can range from harmless to fatal.",
+      "pitfall": "Assuming every missense mutation is harmless because only one amino acid changes. Whether it matters depends on which amino acid — swapping polar glutamate for nonpolar valine is exactly what produces sickle cell anaemia.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [
+        "SYS-FND-T02-S01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 7,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "On Biochemical Basis Explain",
+      "page": 7,
+      "marks": 6,
+      "asked": "cAMP acts as a hormone second messenger. (6 marks)",
+      "label": "A hormone that cannot enter the cell hands its message to adenylyl cyclase, which makes cAMP, which switches protein kinase A on, and that one relay explains how glucagon and epinephrine push glycogen breakdown while insulin pushes it back",
+      "key": "camp-second-messenger-mechanism",
+      "definition": "cAMP is formed from ATP by adenylyl cyclase and broken down to AMP by phosphodiesterase. Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, generating cAMP. Cyclic AMP activates protein kinase A: the inactive enzyme is a tetramer of two regulatory and two catalytic subunits, and binding of two cAMP molecules to each regulatory subunit releases the active catalytic subunits, which phosphorylate substrate enzymes, activating some and inactivating others; a protein phosphatase reverses this by dephosphorylation. Glucagon and epinephrine act through this mechanism, raising cAMP, while insulin lowers cAMP by activating protein phosphatase and phosphodiesterase.",
+      "objective": "Trace the chain from hormone-receptor binding to phosphorylated-enzyme effect, and explain how insulin reverses what glucagon and epinephrine do through this same pathway.",
+      "pitfall": "Assuming cAMP itself does the phosphorylating. cAMP's job is to release the catalytic subunits of protein kinase A from its regulatory subunits — the kinase does the phosphorylation.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 7,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "On Biochemical Basis Explain",
+      "page": 8,
+      "marks": 6,
+      "asked": "Collagen molecule has a strong flexible structure. (6 marks)",
+      "label": "Collagen is strong because every level of its structure is built for tightness — three residues per turn, glycine in every third position, a right-handed superhelix of left-handed chains, hydroxyproline hydrogen bonds, and covalent cross-links between chains",
+      "key": "collagen-structural-strength-basis",
+      "definition": "Tropocollagen is three left-handed alpha-chains twisted into a right-handed superhelix, each chain the repeating triplet Gly-X-Y. Strength comes from: only 3 residues per turn (tighter than an ordinary protein's 3.6); glycine at every third position, small enough to let the chains pack close; the high hydroxyproline content forming interchain hydrogen bonds; covalent cross-links between adjacent chains giving tensile strength; and the staggered fibril/fibre arrangement giving flexibility.",
+      "objective": "List the structural features, from the amino-acid triplet up to the fibre, that together give collagen its tensile strength and flexibility.",
+      "pitfall": "Crediting proline alone for the strength. Proline prevents a right-handed helix in the single chain, but glycine's small size is what lets three chains pack close enough to superhelix together.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-MSK-T04-S02"
+      ],
+      "modulePath": "102 INT > Biochemistry > Proteins of Extracellular Matrix",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 8,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "On Biochemical Basis Explain",
+      "page": 8,
+      "marks": 6,
+      "asked": "Trimming is a very important posttranslational modification. (Explain and mention an example.) (6 marks)",
+      "label": "Trimming cuts an inactive precursor protein down to its active, functional size, and insulin and the zymogens are the book's two worked examples",
+      "key": "post-translational-covalent-modification-types",
+      "definition": "Many proteins are synthesised as larger, inactive precursor molecules; portions of the chain must then be removed by specific endoproteases to release the active protein — this is trimming. Examples: preproinsulin is converted to proinsulin and then to insulin; and zymogens, the inactive precursors of secreted enzymes, are activated by trimming — trypsinogen is activated to trypsin in the small intestine.",
+      "objective": "Explain why trimming is needed (an inactive precursor becomes active) and give one worked example.",
+      "pitfall": "Assuming trimming is the same thing as the covalent side-chain modifications (phosphorylation, glycosylation, hydroxylation, carboxylation). Trimming is proteolytic — it removes a piece of the polypeptide backbone itself, rather than adding or altering a side group.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 8,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "Compare",
+      "page": 9,
+      "marks": 4,
+      "asked": "DNA and RNA (4 marks)",
+      "label": "DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job",
+      "key": "dna-vs-rna-comparison",
+      "definition": "The book's comparison table: bases — both have adenine, guanine, cytosine; DNA has thymine and no uracil, RNA has uracil and thymine only as a minor tRNA base. Sugar — DNA 2-deoxyribose, RNA ribose. Shape — DNA double helix, RNA single strand. Types — DNA linear/circular, RNA is mRNA/tRNA/rRNA. Site — DNA nucleus and mitochondria, RNA mainly cytosol. Function — DNA carries genetic information and directs RNA synthesis, RNA carries out protein synthesis.",
+      "objective": "Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.",
+      "pitfall": "Saying RNA never contains thymine. Thymine appears in RNA too, as a minor base specifically in tRNA.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 9,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Compare",
+      "page": 9,
+      "marks": 4,
+      "asked": "Lactate dehydrogenase and Creatine Kinase isoenzymes (4 marks)",
+      "label": "answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages",
+      "key": "ldh-and-ck-isoenzymes-comparison",
+      "definition": "The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages. No book-sourced definition can be written for this question.",
+      "objective": "Not established from the assigned source.",
+      "pitfall": "Not established from the assigned source.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T02",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Enzymes",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 9,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Compare",
+      "page": 10,
+      "marks": 4,
+      "asked": "Myoglobin and Hemoglobin (4 marks)",
+      "label": "Myoglobin is a one-heme oxygen store built for muscle, hemoglobin is a four-heme oxygen taxi built for blood, and their oxygen-affinity curves are shaped by exactly that difference in job",
+      "key": "myoglobin-vs-hemoglobin-comparison",
+      "definition": "Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells. Structure: myoglobin one heme + one chain (153 aa, 8 helices); hemoglobin four heme rings + four chains (alpha 141 aa/7 helices, beta 146 aa/8 helices). Function: myoglobin stores O2 and releases it during severe exercise; hemoglobin transports O2 to tissue, removes CO2, buffers blood. Affinity: myoglobin higher at low pO2; hemoglobin higher at the lung, lower at the tissue. Clinical: myoglobin a marker of muscle damage; HbA1c assesses 3-month diabetic control.",
+      "objective": "Compare myoglobin and hemoglobin by site, structure, function and oxygen affinity, and explain why the affinity difference suits each protein's job.",
+      "pitfall": "Assuming higher oxygen affinity makes myoglobin the better carrier. Its high, flat affinity curve is exactly why it is a poor transporter and a good store.",
+      "subject": "haem",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two basic amino acids. (2 marks)",
+      "label": "Lysine, arginine and histidine are the book's basic (diamino-monocarboxylic) amino acids",
+      "key": "basic-amino-acids",
+      "definition": "The basic (diamino-monocarboxylic) amino acids the book lists are lysine, arginine and histidine.",
+      "objective": "Name two basic amino acids.",
+      "pitfall": "Confusing 'basic' (charge) with 'essential' (diet). Basic here means the R group is positively charged (an extra amino group); lysine, arginine and histidine happen to also be nutritionally essential/semi-essential, but the classification asked for is chemical.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two essential fatty acids. (2 marks)",
+      "label": "Linoleic and alpha-linolenic acids are the two fatty acids the body cannot make and must eat",
+      "key": "essential-fatty-acids-and-functions",
+      "definition": "Essential fatty acids cannot be synthesised in the body and must come from the diet: alpha-linolenic acid and linoleic acid. Arachidonic acid is normally made from linoleic acid, becoming essential itself only if linoleic acid is deficient.",
+      "objective": "Name the two essential fatty acids and explain why arachidonic acid is only conditionally essential.",
+      "pitfall": "Naming arachidonic acid as essential outright. It is normally synthesised from linoleic acid and becomes essential only when linoleic acid is deficient.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T04",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+      "type": "definition",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two causes of gene mutations. (2 marks)",
+      "label": "A mutation starts either as a replication mistake or as chemical/radiation/oxidative damage to the DNA itself",
+      "key": "causes-of-gene-mutations",
+      "definition": "Causes of mutations: (1) errors in replication — a non-complementary base added and not repaired; (2) damage to DNA nucleotides, which includes chemical mutagens (e.g. cigarette-smoke carcinogens), irradiation (UV, X-rays, gamma rays) and oxidative damage (implicated in neurological disease, cancer and ageing).",
+      "objective": "Name two causes of gene mutation.",
+      "pitfall": "Treating 'damage of nucleotides' as one single cause. The book splits it into three: chemical mutagens, irradiation and oxidative damage, alongside the separate cause of uncorrected replication error.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [
+        "SYS-FND-T02-S01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two homopolysaccharides. (2 marks)",
+      "label": "Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose",
+      "key": "homopolysaccharides-classification",
+      "definition": "Homopolysaccharides are built entirely of one monosaccharide type; the glucans (glucose) are starch, glycogen and cellulose, and the fructans (fructose) include inulin.",
+      "objective": "Name two homopolysaccharides and their monosaccharide unit.",
+      "pitfall": "Naming a heteropolysaccharide (e.g. a GAG such as heparin) as a homopolysaccharide.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 5,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 2,
+      "asked": "Two hemoglobinopathies. (2 marks)",
+      "label": "Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain",
+      "key": "hemoglobinopathies-examples",
+      "definition": "Hemoglobinopathies are caused either by structurally abnormal globin chains, e.g. sickle cell anemia (HbS), or by an abnormally reduced amount of alpha or beta globin chains, e.g. the thalassaemias.",
+      "objective": "Name two hemoglobinopathies.",
+      "pitfall": "Treating sickle cell anemia and thalassemia as the same mechanism; one is a structural defect, the other a quantity defect.",
+      "subject": "haem",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 6,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 2,
+      "asked": "Two factors affecting the rate of enzyme catalyzed reaction. (2 marks)",
+      "label": "The rate of an enzyme-catalysed reaction is set by substrate concentration, enzyme concentration, cofactor concentration, temperature and pH",
+      "key": "factors-affecting-enzyme-reaction-rate",
+      "definition": "Five factors govern enzyme reaction velocity: substrate concentration, enzyme concentration, cofactor concentration, temperature (optimum near 37C) and pH (usually 5-9).",
+      "objective": "Name two of the five factors affecting enzyme reaction rate.",
+      "pitfall": "Assuming higher temperature always means faster reaction; past the optimum the enzyme denatures and velocity falls.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T02",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Enzymes",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 7,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 4,
+      "asked": "Four effects of denaturation on proteins. (4 marks)",
+      "label": "Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead",
+      "key": "protein-denaturation-effects",
+      "definition": "Denaturation breaks the bonds stabilising secondary/tertiary/quaternary structure, leaving only the primary structure. Effects: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of higher-order structure, loss of biological activity, loss of antigenic property.",
+      "objective": "List four effects of denaturation on a protein.",
+      "pitfall": "Saying the peptide bonds are broken; the primary structure survives denaturation, which is why the protein becomes more, not less, digestible.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Proteins of Biological Importance",
+      "type": "mechanism",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    }
+  ],
+  "schemes": {
+    "S1": {
+      "format": "structured_written",
+      "prompt": "Describe the sympathetic supply of abdominal and pelvic viscera.",
+      "expects": [
+        "Abdominal — origin: preganglionic fibres arise from LHCs of T5-T12 (Module 102 Department Book, physical p156)",
+        "Abdominal — relay: pass through the paravertebral chain without relay, leaving as greater (T5-T9, to coeliac and superior mesenteric ganglia), lesser (T10-T11, to aorticorenal and superior mesenteric ganglia) and least (T12, to aorticorenal ganglion) splanchnic nerves (Module 102 Department Book, physical p156)",
+        "Abdominal — course and function: postganglionic fibres run with the blood vessels to the abdominal viscera; relax GI plain muscle and contract sphincters (e.g. pyloric); vasoconstrict most abdominal arterioles (some vasodilatation); drive hepatic glycogenolysis raising blood glucose; contract the splenic capsule releasing stored blood; and stimulate the adrenal medulla to secrete adrenaline and noradrenaline (Module 102 Department Book, physical p157)",
+        "Pelvic — origin: preganglionic fibres arise from LHCs of the 12th thoracic and upper 2 lumbar segments (Module 102 Department Book, physical p157)",
+        "Pelvic — relay: fibres to the GI tract pass the chain without relay as lumbar splanchnic nerves to the inferior mesenteric ganglion; fibres to the bladder and external genitalia leave via the sacral ganglia as sacral splanchnic nerves (Module 102 Department Book, physical p157)",
+        "Pelvic — course and function: postganglionic fibres run with the pelvic blood vessels; relax distal colon/rectum plain muscle and contract the internal anal sphincter (retains faeces); relax the bladder wall and contract the internal urethral sphincter (retains urine); contract the vas deferens, seminal vesicles and prostate causing ejaculation; and vasoconstrict pelvic/external genital vessels causing penile shrinkage (Module 102 Department Book, physical p158)"
+      ]
+    },
+    "S2": {
+      "format": "structured_written",
+      "prompt": "Describe the parasympathetic supply of head and neck.",
+      "expects": [
+        "Oculomotor (III): origin — Edinger-Westphal nucleus, midbrain; relay — ciliary ganglion; course — short ciliary nerves; function — contracts constrictor pupillae (miosis) and ciliary muscle (near vision) (Module 102 Department Book, physical p159)",
+        "Facial (VII): origin — superior salivary nucleus, lower pons; relay — sphenopalatine ganglion (to lacrimal and nasal glands) and, via the chorda tympani, submandibular ganglion (to submandibular and sublingual glands); function — secretomotor and vasodilator (Module 102 Department Book, physical p159)",
+        "Glossopharyngeal (IX): origin — inferior salivary nucleus, pons-medulla junction; relay — otic ganglion; course — supplies the parotid gland; function — secretomotor and vasodilator (Module 102 Department Book, physical p159)"
+      ]
+    },
+    "S3": {
+      "format": "structured_written",
+      "prompt": "Explain the mechanism of iron absorption. Mention the effect of iron deficiency and its causes.",
+      "expects": [
+        "Site: iron is absorbed by enterocytes, mainly in the duodenum (Module 102 Department Book, physical p129)",
+        "Apical membrane: Fe2+ enters via DMT1; unreduced Fe3+ is reduced to Fe2+ in the duodenum by a reductase; haem iron enters via a separate carrier, HCP1 (Module 102 Department Book, physical p129)",
+        "Decreased demand: most absorbed iron is stored in the enterocyte as ferritin/haemosiderin and lost in the faeces with the sloughed cell (Module 102 Department Book, physical p129)",
+        "Increased demand: iron crosses the basolateral membrane via ferroportin, is oxidised to Fe3+ by a ferroxidase, and binds plasma transferrin (normally 35% saturated), which delivers it to transferrin-receptor cells of the marrow, liver and muscle (Module 102 Department Book, physical p129)",
+        "Effect of deficiency: microcytic hypochromic (iron deficiency) anaemia — decreased RBC mass and Hb content, MCV < 80 fL, MCH < 25 pg (Module 102 Department Book, physical p133)",
+        "Causes: (1) dietary deficiency — low intake, more common in growing children and pregnancy; (2) deficient absorption — partial gastrectomy, vitamin C deficiency, high phytate/oxalate/phosphate intake, small-intestinal disease; (3) chronic blood loss — hookworm (ankylostoma) infestation, bleeding peptic ulcer or piles, excessive menstrual bleeding (Module 102 Department Book, physical p133)"
+      ]
+    },
+    "S4": {
+      "format": "structured_written",
+      "prompt": "Case of pulmonary embolism treated with tissue plasminogen activator, in a patient with activated protein C resistance.",
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Outline the mechanism of action of tissue plasminogen activator.",
+          "expects": [
+            "TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Inside the body, explain the relation between protein C and tissue plasminogen activator.",
+          "expects": [
+            "Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, releasing TPA to become active (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "c",
+          "prompt": "Clarify the role of thrombin in coagulation.",
+          "expects": [
+            "Thrombin, formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V), converts fibrinogen to fibrin, producing the clot; formed by both intrinsic and extrinsic pathways (Module 102 Department Book, physical p140; also physical p138)"
+          ]
+        },
+        {
+          "letter": "d",
+          "prompt": "How does thrombin lose its procoagulant activity and become a potent anticoagulant?",
+          "expects": [
+            "Thrombin bound to endothelial thrombomodulin forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "e",
+          "prompt": "Name the factors inactivated by protein C.",
+          "expects": [
+            "Activated protein C (with protein S) inactivates factor V and factor VIII(a) (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "f",
+          "prompt": "Name 2 possible complications of blood clot formation inside blood vessels.",
+          "expects": [
+            "Local obstruction of blood flow with infarction of the tissue supplied; and embolism, where part of the clot breaks off and lodges in a smaller downstream vessel, as in this case's pulmonary embolus (Module 102 Department Book, physical p140; case stem)"
+          ]
+        }
+      ],
+      "expects": []
+    },
+    "O1": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain why point mutation may have no effect or may cause serious effects.",
+      "expects": [
+        "Silent mutation: gives a synonym codon coding for the same amino acid, so no change occurs in the protein product — no effect (Module 102 Department Book, physical p101)",
+        "Missense mutation: changes the codon so a different amino acid is inserted; effect ranges from none to very serious depending on which amino acid is substituted, e.g. sickle cell anaemia (Glu -> Val at position 6 of the beta chain) (Module 102 Department Book, physical p100-Module 102 Department Book, physical p101)",
+        "Nonsense mutation: converts an amino acid codon into a stop codon, so translation terminates prematurely and the protein product is usually non-functional, e.g. thalassaemia (Module 102 Department Book, physical p101)"
+      ]
+    },
+    "O2": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain how cAMP acts as a hormone second messenger.",
+      "expects": [
+        "cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase (Module 102 Department Book, physical p69)",
+        "Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP (Module 102 Department Book, physical p69)",
+        "Cyclic AMP activates protein kinase A: binding of two cAMP molecules to each of its two regulatory subunits releases the two catalytic subunits, which phosphorylate substrate enzymes (Module 102 Department Book, physical p69)",
+        "Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses this by dephosphorylation (Module 102 Department Book, physical p69)",
+        "Glucagon and epinephrine activate adenylyl cyclase and raise cAMP; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing their effects (Module 102 Department Book, physical p69)"
+      ]
+    },
+    "O3": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain why the collagen molecule has a strong flexible structure.",
+      "expects": [
+        "Tropocollagen is 3 left-handed alpha-chains, each the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix (Module 102 Department Book, physical p50)",
+        "Each turn contains only 3 residues, a tighter helix than an ordinary protein (3.6/turn) (Module 102 Department Book, physical p50)",
+        "Glycine at every third position has a side chain small enough to let the 3 chains pack closely (Module 102 Department Book, physical p50)",
+        "High hydroxyproline content forms interchain hydrogen bonds (Module 102 Department Book, physical p50)",
+        "Covalent cross-links between adjacent chains give the tensile property, allowing stretch without breaking (Module 102 Department Book, physical p50)",
+        "Molecules are arranged into fibrils and fibres in a staggered, overhanging array, giving marked flexibility (Module 102 Department Book, physical p50)"
+      ]
+    },
+    "O4": {
+      "format": "structured_written",
+      "prompt": "Explain why trimming is a very important posttranslational modification, and mention an example.",
+      "expects": [
+        "Many proteins are initially large, functionally inactive precursor molecules; endoproteases remove portions of the chain to release the active protein (Module 102 Department Book, physical p85, physical p85 area / general post-translational modification section)",
+        "Example 1: preproinsulin -> proinsulin -> insulin (Module 102 Department Book, physical p85)",
+        "Example 2: zymogens (inactive precursors of secreted enzymes) are activated by trimming, e.g. trypsinogen -> trypsin in the small intestine (Module 102 Department Book, physical p85)"
+      ]
+    },
+    "C1": {
+      "format": "comparison_table",
+      "prompt": "Compare between DNA and RNA.",
+      "expects": [
+        "Nitrogenous bases: both carry adenine, guanine, cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA (Module 102 Department Book, physical p79)",
+        "Sugar: DNA has 2-deoxyribose; RNA has ribose (Module 102 Department Book, physical p79)",
+        "Shape of strand: DNA is a double helix; RNA is a single strand (Module 102 Department Book, physical p79)",
+        "Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis (Module 102 Department Book, physical p79)"
+      ]
+    },
+    "C2": {
+      "format": "comparison_table",
+      "prompt": "Compare between Lactate dehydrogenase and Creatine Kinase isoenzymes.",
+      "expects": []
+    },
+    "C3": {
+      "format": "comparison_table",
+      "prompt": "Compare between myoglobin and hemoglobin.",
+      "expects": [
+        "Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells (Module 102 Department Book, physical p46)",
+        "Structure: myoglobin one heme + one chain (apomyoglobin 153 aa/8 helices); hemoglobin four heme rings + four chains (alpha 141 aa/7 helices; beta 146 aa/8 helices) (Module 102 Department Book, physical p46)",
+        "Function: myoglobin stores O2 in muscle, releases it during severe exercise; hemoglobin transports O2 to tissue, removes CO2, buffers blood (Module 102 Department Book, physical p46)",
+        "Affinity to oxygen: myoglobin higher at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin higher at the lung, lower at the tissue (Module 102 Department Book, physical p46)"
+      ]
+    },
+    "E1": {
+      "format": "short_answer",
+      "prompt": "Enumerate two basic amino acids.",
+      "expects": [
+        "Any two of: lysine, arginine, histidine (Module 102 Department Book, physical p8)"
+      ]
+    },
+    "E2": {
+      "format": "short_answer",
+      "prompt": "Enumerate two essential fatty acids.",
+      "expects": [
+        "Alpha-linolenic acid and linoleic acid (Module 102 Department Book, physical p31)"
+      ]
+    },
+    "E3": {
+      "format": "short_answer",
+      "prompt": "Enumerate two causes of gene mutations.",
+      "expects": [
+        "Any two of: errors in replication, chemical mutagens, irradiation (UV/X-ray/gamma), oxidative damage (Module 102 Department Book, physical p100)"
+      ]
+    },
+    "E4": {
+      "format": "short_answer",
+      "prompt": "Enumerate two homopolysaccharides.",
+      "expects": [
+        "Starch and glycogen (glucans, built of glucose); cellulose also acceptable (Module 102 Department Book, physical p23)"
+      ]
+    },
+    "E5": {
+      "format": "short_answer",
+      "prompt": "Enumerate two hemoglobinopathies.",
+      "expects": [
+        "Sickle cell anemia (HbS) and thalassemia (Module 102 Department Book, physical p47)"
+      ]
+    },
+    "E6": {
+      "format": "short_answer",
+      "prompt": "Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.",
+      "expects": [
+        "Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH (Module 102 Department Book, physical p56)"
+      ]
+    },
+    "E7": {
+      "format": "short_answer",
+      "prompt": "Enumerate four effects of denaturation on proteins.",
+      "expects": [
+        "Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property (Module 102 Department Book, physical p11)"
+      ]
+    }
+  },
+  "mediaRequests": [],
+  "unsat": [
+    {
+      "scheme": "S1..S4",
+      "issue": "Page 1's exam-instructions overview prints \"I- Short assay (5 questions ...... 30 marks)\", but only 4 numbered short-essay items appear in the body (1: 8 marks, 2: 6 marks, 3: 10 marks, 4/case: 6 marks), summing to exactly the stated 30 marks. The header's \"5\" is treated as a paper printing error, not a missing fifth question — the marks reconcile exactly with 4 items and the paper reads continuously from 'Page 1 of 11' to 'END OF EXAM' on page 11 with nothing skipped."
+    },
+    {
+      "scheme": "C2",
+      "issue": "\"Lactate dehydrogenase and Creatine Kinase isoenzymes\" cannot be answered from the assigned source. The department book (src_a488633802ec053c6325, both the Biochemistry and Physiology parts, 167 pages) contains no mention of lactate dehydrogenase, creatine kinase, or enzyme isoenzymes anywhere — confirmed by exhaustive search of the cached page text. The prompt is transcribed verbatim per the paper; `expects` is empty and no definition/answer has been invented. This is the same topic the 31/07/2022 EOY sitting's own Compare section replaces with \"Competitive and allosteric enzyme inhibitors\" — suggesting the department may examine isoenzymes from lecture material outside this textbook."
+    },
+    {
+      "scheme": "S1",
+      "issue": "This question and the 31/07/2022 EOY sitting's own I-1 (\"Define autonomic ganglia...\") are different questions on the same chapter family (Sympathetic nervous system), not a repeat of the same concept — recorded because a reader comparing the two sittings side by side might otherwise expect every slot to repeat, and about half of this paper's items do (the case, cAMP, collagen, DNA vs RNA, myoglobin/Hb, essential FA, homopolysaccharides, hemoglobinopathies, enzyme-rate factors, denaturation) while the other half (sympathetic/parasympathetic topography, iron absorption, point mutation, trimming, isoenzymes, basic amino acids, causes of mutation) do not."
+    }
+  ]
+}
