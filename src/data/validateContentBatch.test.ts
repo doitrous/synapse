@@ -1,7 +1,7 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { execFileSync } from 'node:child_process'
-import { mkdtempSync, mkdirSync, writeFileSync, rmSync } from 'node:fs'
+import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -530,6 +530,50 @@ test('a question whose concept is nowhere fails, and says to try --with', () => 
       withIt.errors.filter((error) => error.includes('is not a concept that exists')).length, 0,
       `naming the concept batch should resolve it: ${JSON.stringify(withIt.errors)}`,
     )
+  } finally {
+    rmSync(root, { recursive: true, force: true })
+  }
+})
+
+/* ---- source_candidate_ids on an update row ------------------------------- */
+
+test('a live concept may restate the candidate ids it already carries', () => {
+  // A sparse update row repeats the fields it is not changing. Those candidate
+  // ids were minted when the concept was first authored, against whatever
+  // corpus index was current then — not necessarily the one this directory
+  // symlinks to. Nine correct rows in 108 INT were refused for repeating,
+  // unchanged, what the live record already holds.
+  //
+  // Read from live state rather than hard-coded, so this cannot drift.
+  const live = JSON.parse(readFileSync(join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  const concepts = (live.states['synapse-concept-graph-v2']?.concepts ?? [])
+    .filter((concept: { sourceCandidateIds?: string[] }) => concept.sourceCandidateIds?.length)
+  const mine = concepts[0]
+  const someoneElse = concepts.find((concept: { id: string }) => concept.id !== mine.id)
+  assert.ok(mine && someoneElse, 'live state should carry concepts with candidate ids')
+
+  const root = mkdtempSync(join(tmpdir(), 'candidates-'))
+  mkdirSync(join(root, 'concept'))
+  const row = (candidate: string, name: string) => ['# Item', '## label', name, '## id', mine.id,
+    '## canonical_key', `cand.${name.replace(/\W+/g, '')}`, '## definition', 'd',
+    '## explicit_objective', 'o', '## arabic_label', 'x', '## source_candidate_ids', candidate, ''].join('\n')
+  const candidateErrors = (body: string, file: string) => {
+    writeFileSync(join(root, 'concept', file), body)
+    return validate(join(root, 'concept', file)).errors.filter((error) => error.includes('candidate'))
+  }
+
+  try {
+    assert.deepEqual(candidateErrors(row(mine.sourceCandidateIds[0], 'own'), 'own.md'), [],
+      'restating a candidate the live record carries is not an invention')
+
+    // Per id, not globally. A candidate that belongs to a different live
+    // concept is still an invention on this one, and accepting any live
+    // candidate anywhere would make the check almost unfailable.
+    assert.equal(candidateErrors(row(someoneElse.sourceCandidateIds[0], 'other'), 'other.md').length, 1,
+      "another record's candidate must still be refused")
+
+    assert.equal(candidateErrors(row('concept_ffffffffffffffffffffffff', 'invented'), 'invented.md').length, 1,
+      'a candidate no record and no index has must still be refused')
   } finally {
     rmSync(root, { recursive: true, force: true })
   }

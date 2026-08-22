@@ -293,10 +293,25 @@ const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', 
  * is a broken lookup.
  */
 const liveIds = new Set()
+
+/**
+ * The `source_candidate_ids` each live concept already carries.
+ *
+ * A sparse update row restates the fields it is not changing, candidates
+ * included, and those were minted when the concept was first authored — often
+ * from a corpus index this batch's directory does not point at. Nine correct
+ * update rows in 108 INT were refused for repeating, unchanged, what the live
+ * record already holds.
+ */
+const liveCandidates = new Map()
 try {
   const here = dirname(fileURLToPath(import.meta.url))
   const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
-  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) if (concept?.id) liveIds.add(concept.id)
+  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) {
+    if (!concept?.id) continue
+    liveIds.add(concept.id)
+    if (concept.sourceCandidateIds?.length) liveCandidates.set(concept.id, new Set(concept.sourceCandidateIds))
+  }
   for (const item of live.states['synapse-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
 } catch (reason) {
   notes.push(`live state could not be read (${reason.message}) — every ID looks new, so the stub-create check below cannot run`)
@@ -1019,7 +1034,13 @@ rows.forEach((values, index) => {
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
   }
+  const alreadyOnTheLiveRecord = liveCandidates.get(values.id?.trim()) ?? new Set()
   for (const candidateId of concept.sourceCandidateIds ?? []) {
+    // A candidate the live record for this exact ID already carries is not an
+    // invention: the author is restating an unchanged field on an update row.
+    // It was minted against whatever index was current when the concept was
+    // first authored, which need not be the one this directory symlinks to.
+    if (alreadyOnTheLiveRecord.has(candidateId)) continue
     if (!corpusConcepts) errors.push(`${where}: ${candidateId} cannot be checked — the concept candidate index is missing, and an unchecked candidate ID points at nothing`)
     else if (!corpusConcepts[candidateId]) {
       errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
