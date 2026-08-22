@@ -450,6 +450,74 @@ export function conceptHash(module: string, key: string): string {
 }
 
 /**
+ * `canonical_key -> id`, read out of one concept batch's markdown text, for
+ * whichever rows belong to one module.
+ *
+ * Pure and file-system-free on purpose: the caller decides which files are
+ * worth reading (`build-batches.ts`'s `existingConceptIds` skips anything
+ * carrying `GENERATED_BY`, which this function knows nothing about and should
+ * not have to), and a parser with no I/O of its own is a parser a test can
+ * hand a string.
+ *
+ * A row is indexed only when it carries `## id`, `## canonical_key` **and**
+ * `## module_subject` — an update row that omits `canonical_key` (normal: the
+ * manual's own rule is that an omitted field is untouched, not empty) cannot
+ * be attributed to a key from this text alone and is skipped, on the
+ * assumption that the record which first introduced the key still carries it
+ * somewhere in the module's concept files.
+ *
+ * Scoped by `module_subject`'s first segment, not by which file the text came
+ * from — a filename only says which module's directory a file sits in, and a
+ * row misfiled inside it should not donate its id to a key that is not
+ * actually this module's.
+ */
+export function parseConceptIds(text: string, module: string): Map<string, string> {
+  const index = new Map<string, string>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const id = block.match(/## id\n(\S+)/)?.[1]
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    if (!id || !key || !moduleSubject) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    // First block wins, matching the rule `concepts()` in build-batches.ts
+    // already uses for papers: the corpus is expected to agree with itself,
+    // and if it does not, the first answer found is at least a stable one.
+    if (!index.has(key)) index.set(key, id)
+  }
+  return index
+}
+
+/**
+ * Which id a canonical_key should use, and whether that means minting.
+ *
+ * The project-wide rule is one canonical_key -> one id, within a module.
+ * `mintConceptId` is *a* way to satisfy that — deterministic, so two authors
+ * filing the same key converge without talking to each other — but it is not
+ * the only id a live record can carry: some hand-authored concept files were
+ * minted by a different tool entirely (`Instruction Manual for Content
+ * Creation/tools/mint-concept-id.mjs`, which hashes the canonical_key alone,
+ * with no module salt), and those ids are pinned — re-minting a live record
+ * is a content decision for whoever owns it, never something a build script
+ * does on its own.
+ *
+ * **A pinned id that happens to already agree with a fresh mint is not a
+ * divergence.** Most keys a hand-authored file carries were themselves minted
+ * with `mintConceptId`, so `pinned` finding an entry is the *common* case, and
+ * agreement is the *normal* outcome of that — `reused: true` must mean
+ * something actually would have gone wrong without it, or every caller ends
+ * up treating an ordinary, already-correct concept as if it needed rescuing
+ * from a collision that was never going to happen.
+ */
+export function resolveConceptId(
+  pinned: Map<string, string>, module: string, subject: KasrSubject, key: string, system?: BodySystem,
+): { id: string, reused: boolean } {
+  const mintedId = mintConceptId(module, subject, key, system)
+  const pinnedId = pinned.get(key)
+  if (pinnedId !== undefined && pinnedId !== mintedId) return { id: pinnedId, reused: true }
+  return { id: mintedId, reused: false }
+}
+
+/**
  * The subject a concept takes, from where it sits in the curriculum.
  *
  * Agreed between the two lanes authoring this module, because the subject is

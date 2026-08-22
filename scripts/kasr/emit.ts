@@ -71,7 +71,7 @@ const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
  * no `module` is `101 ISK`, so this line is unchanged for every paper seeded
  * before the module was a parameter.
  */
-const occurrence = (source: SourceRef, seed: Seed) =>
+export const occurrence = (source: SourceRef, seed: Seed) =>
   `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | ${moduleOf(source).id}`
 
 /**
@@ -172,6 +172,40 @@ ${conceptTail(
   mintConceptId(module.id, seed.subject, seed.key, seed.system),
   context.links, seed,
 )}`
+}
+
+/**
+ * A sparse update row for a concept whose canonical_key already has a pinned
+ * id in this module — see `existingConceptIds` in `build-batches.ts`.
+ *
+ * Per the authoring manual (`00-START-HERE.md` §2, "Updating an existing
+ * record"): give the record's real `## id` and only the `## field_key` blocks
+ * being changed; every field left out keeps its live value exactly as it is.
+ * This route changes nothing about what the concept *is* — no `## label`,
+ * `## definition`, `## subject`, `## pitfalls`, or any other descriptive
+ * field, because a pinned id already belongs to a fully-authored live record
+ * and this pass has no business redefining it. All it adds is evidence that
+ * the concept was examined here too (`## exam_signal`) and, where this leaf's
+ * article is not already among the record's own, that it teaches it as well
+ * (`## article_ids`, `+`-prefixed — per the manual, "a `+` cell adds without
+ * re-typing the list, and re-importing the same row does not duplicate what
+ * it added, so a batch can be applied twice safely").
+ */
+export function conceptUpdateBlock(
+  id: string, key: string, signals: string[], articleIds: string | undefined, note: string,
+): string {
+  const addArticles = articleIds
+    ?.split('|').map((one) => one.trim()).filter(Boolean).map((one) => `+${one}`).join(' | ')
+  return `# Item
+## id
+${id}
+## canonical_key
+${key}
+## exam_signal
+${signals.join('\n')}
+${addArticles ? `## article_ids\n${addArticles}\n` : ''}## field_notes
+${note}
+`
 }
 
 /**
@@ -664,9 +698,18 @@ ${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, conce
  * The answer is the source's unless the author overrode it, and an override
  * without a reason throws rather than importing: an answer changed silently is
  * indistinguishable from an answer changed wrongly.
+ *
+ * `conceptId` is resolved by the caller, not derived here from
+ * `mintConceptId(module.id, concept.subject, concept.key)` — the two can
+ * disagree the moment the key already has a pinned id in this module (see
+ * `existingConceptIds` in `build-batches.ts`), and a question whose
+ * `main_concept` disagrees with the concept record actually emitted for that
+ * key references either the wrong id or nothing at all. One resolution, done
+ * once by the caller for the concept block and the question block alike, is
+ * the only way the two cannot drift apart.
  */
 export function mcqBlock(
-  row: BankRow, authored: McqAuthored, leaf: McqLeafSeed, module: ModuleRef,
+  row: BankRow, authored: McqAuthored, leaf: McqLeafSeed, module: ModuleRef, conceptId: string,
 ): string {
   if (authored.answerOverride && !authored.answerOverrideReason?.trim()) {
     throw new Error(`${authored.key}: answerOverride without answerOverrideReason`)
@@ -704,7 +747,7 @@ ${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[lett
 ## correct_answer
 ${answer}
 ## main_concept
-${mintConceptId(module.id, concept.subject, concept.key)}
+${conceptId}
 ## library_ids
 ${leaf.articleId}
 ## topic
