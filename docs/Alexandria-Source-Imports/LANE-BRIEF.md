@@ -503,3 +503,11 @@ its output is part of every lane's GATES.
   `module_subject` in full (Kasr's paths + ours). Concept rows are guarded.
 - **`exam_weight_by_year` keys must be the exact year id** (`AU_Y1`): a key on a wrong id hides
   the concept from that university's blueprint entirely (`blueprint.ts:84-92`).
+
+### Resource records: only the evidence-source shape validates
+`detectBatchKind` (`src/data/batchKind.ts`) returns `resource` only for rows carrying
+`institution` + `processing_status` (the 17-column evidence-source schema). The 18-column
+catalogue schema in `12-resources.md` never matches and comes back `unknown`, which simulate
+treats as an error when the row has an id. Author resource records in the evidence-source shape
+(see any `*-sources.md` here); keep catalogue-only fields in the header comment. Reported to the
+validator lane via the chief of staff.
