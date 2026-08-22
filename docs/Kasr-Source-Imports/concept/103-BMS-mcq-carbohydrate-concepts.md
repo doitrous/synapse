@@ -3133,6 +3133,8 @@ Net gain of glycolysis
 Aerobic glycolysis
 Anaerobic glycolysis
 32 ATP
+38 ATP
+P/O ratio
 Yield from muscle glycogen
 
 ## arabic_label
@@ -3143,10 +3145,10 @@ Yield from muscle glycogen
 اثنان وثلاثون جزيء ATP
 
 ## definition
-Glycolysis spends two ATP in phase I and makes four by substrate-level phosphorylation in phase II, at phosphoglycerate kinase and pyruvate kinase, so the substrate-level total is four and the net is two. Aerobically the two NADH from glyceraldehyde 3-phosphate dehydrogenase are oxidised by the chain for five more ATP, making a net seven for glycolysis alone; complete oxidation of one glucose to six CO2 yields 32 ATP. Anaerobically the NADH is spent making lactate instead, and the net is two ATP only. Because half a glucose's work is done per triose, converting one glyceraldehyde 3-phosphate to one pyruvate yields two ATP and one NADH; converting one fructose 1,6-bisphosphate to two pyruvates yields four ATP and two NADH. Glucose taken from glycogen enters as glucose 1-phosphate and costs no ATP to phosphorylate, so a glucosyl unit of muscle glycogen yields 33.
+Glycolysis spends two ATP in phase I and makes four by substrate-level phosphorylation in phase II, at phosphoglycerate kinase and pyruvate kinase, so the substrate-level total is four and the net is two. Aerobically the two NADH from glyceraldehyde 3-phosphate dehydrogenase are oxidised by the chain for five more ATP, making a net seven for glycolysis alone; complete oxidation of one glucose to six CO2 yields 32 ATP. Anaerobically the NADH is spent making lactate instead, and the net is two ATP only. Because half a glucose's work is done per triose, converting one glyceraldehyde 3-phosphate to one pyruvate yields two ATP and one NADH; converting one fructose 1,6-bisphosphate to two pyruvates yields four ATP and two NADH. Glucose taken from glycogen enters as glucose 1-phosphate and costs no ATP to phosphorylate, so a glucosyl unit of muscle glycogen yields 33. Two accounting conventions exist for the same oxidation: the modern one uses the measured P/O ratios of 2.5 ATP per NADH and 1.5 per FADH2 and totals 30 to 32 (the department book's table gives 32); the classical one uses 3 and 2 and totals 36 to 38. Kasr Al Ainy papers key 32; Alexandria's question bank keys 38 — the chemistry is identical, only the ratio assumed per reduced coenzyme differs, so a student should state which convention a question is using.
 
 ## explicit_objective
-Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, and adjust the figure for glucose entering from glycogen.
+Calculate the ATP yield of glucose oxidation under aerobic and anaerobic conditions, adjust the figure for glucose entering from glycogen, and explain why the classical 38 and the modern 32 describe the same oxidation.
 
 ## pitfalls
 Confusing the four ATP made at substrate level in glycolysis with the net two. The question wording decides which is wanted: "synthesised from ADP by substrate level phosphorylation" is four; "net gain" is two. Students who have memorised one number answer both questions with it.
