@@ -37,8 +37,16 @@ def load_sources():
 def main():
     by_id = load_sources()
     rows = []
+    skipped_foreign = 0
     for path in sorted(glob.glob(os.path.join(CACHE, "*.json"))):
         doc = json.load(open(path, encoding="utf-8"))
+        # Not every *.json under the cache directory is necessarily this tool's own shape —
+        # see pagetext.py's `_valid_cache` docstring for the incident that made this
+        # necessary (something else bulk-wrote 3,397 files here in a different schema on
+        # 2026-08-22). Skip anything that isn't ours rather than crashing on it.
+        if "pages" not in doc or "sourceId" not in doc:
+            skipped_foreign += 1
+            continue
         sid = doc["sourceId"]
         meta = by_id.get(sid, {})
         text = "".join(doc["pages"])
@@ -104,7 +112,8 @@ def main():
 
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(lines) + "\n")
-    print("wrote %s (%d rows, %d blank)" % (OUT, len(rows), len(blank)))
+    print("wrote %s (%d rows, %d blank, %d foreign-schema cache files skipped)"
+          % (OUT, len(rows), len(blank), skipped_foreign))
 
 
 if __name__ == "__main__":

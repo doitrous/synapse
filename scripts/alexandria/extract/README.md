@@ -1,4 +1,52 @@
-# MCQ triage — what Alexandria does instead of copying Kasr's pipeline
+# MCQ triage and extraction notes — Alexandria
+
+## Scrambled answer-key columns — symptom and remedy
+
+The terminology lane (W1-102-TERM) and the anatomy lane (W1-105-ANAT) both hit the same
+failure independently: a native-text answer block prints question numbers and answer
+letters as a multi-column grid (e.g. five columns of 25 rows each), and `pdftotext`
+extracts it as one linear stream with the columns interleaved — a run of `26 27 28 b 29 d
+30 C d 31 b b 32 33 C a a a a a C b b b d …` where the numbers and letters are no longer
+reliably paired, or, worse, most of the grid is simply dropped and only a bare column of
+loose letters survives (`scripts/alexandria/pagetext/src_a2ec24de7b5561128fed.json`'s last
+page: 21 letter tokens, zero question numbers, against a 50-question bank).
+
+**Diagnosis.** `pdftotext -bbox-layout -f <page> -l <page> <file> -` on every affected page
+shows every word's bounding box collapsed into a sliver a couple of points wide near the
+page's origin (`xMin`/`xMax` around 1.0–2.4, the whole page's content squeezed into `yMin`
+0.27 through `yMax` 44, on an 802-point-tall page) — regardless of the true, much larger
+page size. That is not something any `pdftotext` flag can see past: `-layout` (the default
+this tool's `native_page` has always used), `-raw` (content-stream order), `-fixed <n>`
+(fixed-pitch/tabular assumption) and `-colspacing <n>` all read the *same* embedded
+coordinates and so all produce byte-identical output on every affected page — confirmed
+directly, not inferred. The embedded text layer on these pages is a prior OCR bake-in (the
+terminology lane's own note: "CamScanner OCR baked into text layer"; several of the anatomy
+banks end `Scanned with CamScanner`), and that prior OCR pass wrote its recognised words
+with degenerate position metadata. `pdftotext`'s layout reconstruction is only as good as
+the coordinates it is given; these are not real coordinates, they are noise, so no
+re-invocation of `pdftotext` against the same file can recover the row order.
+
+**`pagetext.py --layout`** (added for this finding) runs an explicit second
+`pdftotext -layout` pass into `<sourceId>.layout.json`, beside — never over — the plain
+`<sourceId>.json`, and records `identicalToPlainCache` so the answer is written down rather
+than re-derived by eye each time. Tested against all 7 banks this affects so far
+(2 AU-MED-102 Terminology, 5 AU-MED-105 Anatomy): **`--layout` changed nothing on any of
+them** — every one comes back `identicalToPlainCache: true`. This matches the diagnosis:
+the flag cannot fix a coordinate problem in the source file.
+
+**The remedy is not automated.** Per the anatomy lane's own citation of
+SHARED-TOOLCHAIN.md's "Recovering an answer key" procedure — "resolve the label from its
+position in the sequence, never from its shape" and "confirm any suspected mark at 200
+dpi" — reconstructing a jumbled table from a linear text dump risks a wrong-letter error
+that is worse than recording no key at all. The working path is to render the affected
+page (`pdftoppm -r 200 …`, or open the PDF directly) and read the grid by eye, column by
+column, exactly as printed; a render-based *automated* reconstruction was tried during this
+finding (tesseract at several `--psm` settings, and a naive TSV word-position clustering)
+and none of it reliably survived the source pages' own ruled table lines, skew and shadow
+— so this tool does not attempt one, and a lane hitting this should not either. Record the
+recovered mapping as a manual finding in the triage doc, not as a cache re-extraction.
+
+## What Alexandria does instead of copying Kasr's MCQ triage pipeline
 
 LANE-BRIEF.md §16 asks this lane to look at commit `bec5510`'s MCQ triage
 pipeline (`seeds/mcq/<module-slug>/`, `extract/<module-slug>/mcq-bank.json`)

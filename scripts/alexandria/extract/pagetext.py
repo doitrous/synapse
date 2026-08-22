@@ -26,9 +26,28 @@ Differences from the Kasr original:
     explicitly on the command line is always extracted, preferred or not — the brief's "unless
     named explicitly" clause.
 
+  - `--layout`: a second, explicit `pdftotext -layout` extraction, cached beside — never
+    over — the plain `<sourceId>.json`, as `<sourceId>.layout.json` with `mode:
+    "native-layout"`. Added for a failure the terminology lane found: on some native-text
+    banks (two AU-MED-102 "Terminology MCQ" files), the answer block's letters extract in
+    the wrong column order. `native_page` below has always passed `-layout` already, so
+    this flag's own extraction is mechanically the same call — what it adds is a recorded,
+    diffable answer to "does `-layout` change anything for this file", via
+    `identicalToPlainCache` in the written JSON, instead of a lane re-deriving that by eye
+    each time. For the two files that motivated this flag, the honest answer is no: every
+    `pdftotext` invocation tried (`-layout`, `-raw`, `-fixed`, `-colspacing`) produced
+    byte-identical output, because `pdftotext -bbox-layout` on the affected pages shows the
+    embedded text layer's own bounding boxes collapsed into a sliver near the page origin,
+    regardless of the true page size — a baked-in prior OCR (CamScanner, per the
+    terminology lane's own note) with corrupted position metadata that no `pdftotext` flag
+    can reflow, because the flag only rearranges words using coordinates that are already
+    wrong. See `scripts/alexandria/extract/README.md`'s "Scrambled answer-key columns"
+    section for the full finding and what a lane does instead.
+
 Usage:
     python3 scripts/alexandria/extract/pagetext.py <sourceId> [<sourceId> ...]
     python3 scripts/alexandria/extract/pagetext.py --module "AU-MED-102" [--category "End of Module paper"] [--department Anatomy] [--tier-max 5]
+    python3 scripts/alexandria/extract/pagetext.py --layout <sourceId> [<sourceId> ...]   # diagnostic -layout re-extraction, see above
     python3 scripts/alexandria/extract/pagetext.py --reprobe        # audit what is already cached
 
 A page that OCRs to nothing is written as an empty string and counted, because a paper that
@@ -125,6 +144,19 @@ def native_page(pdf, page):
     return r.stdout.decode("utf-8", "replace")
 
 
+def native_page_layout(pdf, page):
+    """Explicit `pdftotext -layout` invocation for the `--layout` diagnostic mode.
+
+    Mechanically identical to `native_page` above (which already always passes `-layout`)
+    — kept as its own function, rather than an alias, so `--layout` keeps meaning "the
+    -layout invocation" even if a future change to `native_page`'s default flags diverges
+    from it.
+    """
+    r = subprocess.run(["pdftotext", "-layout", "-f", str(page), "-l", str(page), pdf, "-"],
+                       capture_output=True, timeout=180)
+    return r.stdout.decode("utf-8", "replace")
+
+
 def ocr_page(pdf, page, dpi=200, psm="6"):
     with tempfile.TemporaryDirectory() as td:
         stub = os.path.join(td, "p")
@@ -142,11 +174,41 @@ def ocr_page(pdf, page, dpi=200, psm="6"):
             return ""
 
 
+def _valid_cache(path, entry):
+    """Is this cache file actually one of ours, for this source, at this page count?
+
+    Found necessary the hard way: on 2026-08-22 something else — not this tool, not
+    `ocr_worker.py` (checked; that one only uses this directory as OCR scratch space) —
+    bulk-wrote 3,397 files under `scripts/alexandria/pagetext/*.json` in a four-second
+    window with an entirely different, incompatible shape: `{sourceId, sha256, text}`,
+    one flat string per document, no `pages`, no `mode`. Every one of this lane's own
+    151 real extractions for its four priority modules was silently replaced. Before this
+    check existed, `extract()`/`extract_layout()` would `json.load` a file like that and
+    hand it back as if it were a real cache hit — no error, just a `KeyError` two calls
+    later for whoever tried `doc["pages"]`, or worse, no error at all for a caller that
+    only reads `doc["sourceId"]`. This is the guard: a cache hit must actually look like
+    ours (has `pages`, and the right number of them) before it is trusted; anything else
+    is treated as no cache at all, and rebuilt.
+    """
+    try:
+        doc = json.load(open(path, encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return None
+    n = entry.get("pageCount") or 0
+    if not isinstance(doc.get("pages"), list) or (n and len(doc["pages"]) != n):
+        return None
+    return doc
+
+
 def extract(entry, force=False, workers=6):
     sid, pdf = entry["sourceId"], entry["absolutePath"]
     out = os.path.join(CACHE, sid + ".json")
     if os.path.exists(out) and not force:
-        return json.load(open(out, encoding="utf-8"))
+        cached = _valid_cache(out, entry)
+        if cached is not None:
+            return cached
+        print("WARN  %s: cache file exists but is not in this tool's shape "
+              "(or wrong page count) — rebuilding" % sid, file=sys.stderr)
     n = entry.get("pageCount") or 0
     if not n or not os.path.exists(pdf):
         return None
@@ -205,6 +267,61 @@ def extract(entry, force=False, workers=6):
     return doc
 
 
+def extract_layout(entry, force=False):
+    """The `--layout` diagnostic: a second `pdftotext -layout` pass, cached separately.
+
+    Never overwrites `<sourceId>.json` — this writes `<sourceId>.layout.json` and records
+    `identicalToPlainCache` against whatever plain cache already exists, so the question
+    "did -layout change anything here" has a written, diffable answer rather than one a
+    lane has to re-derive by reading both files.
+    """
+    sid, pdf = entry["sourceId"], entry["absolutePath"]
+    out = os.path.join(CACHE, sid + ".layout.json")
+    if os.path.exists(out) and not force:
+        cached = _valid_cache(out, entry)
+        if cached is not None:
+            return cached
+    n = entry.get("pageCount") or 0
+    if not n or not os.path.exists(pdf):
+        return None
+
+    with ThreadPoolExecutor(max_workers=1) as pool:
+        pages = list(pool.map(lambda p: native_page_layout(pdf, p), range(1, n + 1)))
+
+    # Compare against a *validated* plain cache only — an alien-shaped or wrong-page-count
+    # file at <sourceId>.json is not "the plain cache", it is noise, and diffing against it
+    # would report a meaningless "DIFFERS" (see `_valid_cache`'s docstring for exactly this
+    # failure, hit for real while building this flag).
+    plain_path = os.path.join(CACHE, sid + ".json")
+    plain = _valid_cache(plain_path, entry) if os.path.exists(plain_path) else None
+    identical = (plain["pages"] == pages) if plain is not None else None
+
+    whole = readability("".join(pages))
+    doc = {
+        "sourceId": sid,
+        "file": entry["corpusRelativePath"],
+        "moduleId": entry.get("moduleId"),
+        "category": entry.get("category"),
+        "departmentFolder": entry.get("departmentFolder"),
+        "mode": "native-layout",
+        "modeReason": ("explicit `pdftotext -layout` re-extraction, requested to check "
+                       "whether -layout reorders a scrambled answer-key column against the "
+                       "plain cache"),
+        "manifestTextLayer": entry.get("textLayer"),
+        "readability": whole,
+        "pages": pages,
+        "emptyPages": [i + 1 for i, t in enumerate(pages) if not t.strip()],
+        "unreadablePages": [i + 1 for i, t in enumerate(pages)
+                            if t.strip() and readability(t)["words"] < 3],
+        # None = no plain cache existed yet to compare against. True/False = it did.
+        "identicalToPlainCache": identical,
+    }
+    os.makedirs(CACHE, exist_ok=True)
+    with open(out, "w", encoding="utf-8") as fh:
+        json.dump(doc, fh, ensure_ascii=False)
+    return doc
+
+
 def reprobe():
     """Audit every cached file for the failure the length guard used to miss."""
     names = [n for n in sorted(os.listdir(CACHE)) if n.endswith(".json")]
@@ -227,7 +344,8 @@ def main(argv):
         sys.exit(1 if reprobe() else 0)
     by_id = sources()
     force = "--force" in argv
-    argv = [a for a in argv if a != "--force"]
+    layout = "--layout" in argv
+    argv = [a for a in argv if a not in ("--force", "--layout")]
 
     def opt(name):
         return argv[argv.index(name) + 1] if name in argv else None
@@ -265,15 +383,21 @@ def main(argv):
             print("SKIP  %s (not found in any Alexandria manifest)" % m, flush=True)
 
     for entry in wanted:
-        doc = extract(entry, force=force)
+        doc = extract_layout(entry, force=force) if layout else extract(entry, force=force)
         if doc is None:
             print("SKIP  %s (no pages or missing file) %s" % (entry["sourceId"], entry["fileName"]),
                   flush=True)
             continue
-        print("%-6s %s %3dp %2d empty %2d unreadable  %s\n         %s"
+        suffix = ""
+        if layout:
+            same = doc.get("identicalToPlainCache")
+            suffix = ("  [identical to plain cache — -layout changes nothing here]" if same
+                       else "  [no plain cache to compare against]" if same is None
+                       else "  [DIFFERS from plain cache]")
+        print("%-6s %s %3dp %2d empty %2d unreadable  %s\n         %s%s"
               % (doc["mode"], doc["sourceId"], len(doc["pages"]), len(doc["emptyPages"]),
                  len(doc.get("unreadablePages", [])), entry["corpusRelativePath"],
-                 doc.get("modeReason", "")), flush=True)
+                 doc.get("modeReason", ""), suffix), flush=True)
 
 
 if __name__ == "__main__":

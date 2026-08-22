@@ -357,3 +357,17 @@ record declares in `modules`; `subject` ∈ the 20 catalogue ids; the `AU-` pref
 on module ids; module *existence* is deliberately not gated. A production read route exists
 (`GET /api/state`, super-admin + MFA) and `medical:snapshot-live` is coming so Omar can refresh
 the fixture; until he runs it, "live" still means the bundle and the pending-live rules stand.
+
+### Cache discipline (after the 2026-08-22 overwrite incident)
+**Nothing writes into `scripts/alexandria/pagetext/` except `scripts/alexandria/extract/pagetext.py`.**
+An intake job wrote a different schema under the same filenames and wiped 3,397 page
+extractions in four seconds. `pagetext.py` now validates a cache hit before trusting it and
+rebuilds on a foreign schema; any other tool keeps its own directory.
+
+### Garbled answer keys are not a text-extraction problem
+On AU-MED-105's five anatomy banks and AU-MED-102 Terminology MCQ1/MCQ2 the PDF text layer's
+word positions are collapsed to a sliver (a prior CamScanner OCR with corrupted metadata).
+`pdftotext -layout/-raw/-fixed` all return the same scrambled order; `--layout` is byte-identical
+to plain. A key from one of these files can be recorded only from a **render** read by eye,
+question by question, with the method written in the triage; otherwise the question stays
+unkeyed and is not authored. Never reorder letters by pattern.
