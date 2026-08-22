@@ -77,7 +77,7 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 
 - STRAY FILES in the main checkout (written there by manifest.py's hardcoded REPO path; untracked; Ain Shams could not delete outside its worktree): `docs/Ain-Shams-Source-Imports/manifest/asu-y1/y2-sources.json` (and sibling) under /Users/doitrous/Documents/CodexGPT/Codex-Synapse continue on Claude/ClaudeSynapse — delete by hand.
 
-- PRACTICAL SCOPING: runtime always carried universityIds/yearIds/moduleIds and the admin editor could set them; only the importer lacked columns. Validator ed87a85 adds `universities`/`years`/`module` (pushes once the manual documents them). NO practical is live yet; 52 authored Kasr stations are unscoped and must gain the columns before import.
+- PRACTICAL SCOPING: runtime always carried universityIds/yearIds/moduleIds and the admin editor could set them; only the importer lacked columns. Validator ed87a85 (on main via 11e8dbb) adds `universities`/`years`/`module`; Kasr Y1's 52 stations scoped (101954f). NO practical is live yet.
 
 - 101 ISK READY: Omar names reviewer / final publisher on the 75 articles before flipping status to Published (the only student-visibility gate). 101 EOY 2023 paper (batch 197) confirmed a real gap → Telegram item 4 stands.
 
@@ -149,3 +149,6 @@ Totals now: concepts 730→1,063; articles 184→277; relations 0→350; glossar
 - 2026-08-22 — Ain Shams PAUSE REPORT in (2271002). Hazards: `+` on module_subject stored literally; update row without label silently skipped → validator task D; manual reviewer told. Kasr tooling findings relayed to Y1.
 - 2026-08-22 — Validator: A 4286b26, B 6d3f597 (fieldsUsed now per RECORD vs floors; 104-CPS-mcq-authored 40/40 below floor, 4 with no correct explanation), C ed87a85 (held for manual). Kasr Y1: 108 at publish line (b5f9e6d), 101 9637c93, 102 biochem triage 2f0e8ed (320 MCQs), 103 70 written, 104 64 chapter-less rows triaged. Manual review clean; finisher adding practical columns + hazards.
 - 2026-08-22 — Kasr Y1: relation graph complete (1,129 edges: 101 194/68v, 102 150/130v 54bd1ce, 103 324/179v 3e683a2, 104 305/176v 54e8467, 108 156/156v); 102 triage done — 422 MCQs from 504 keyed rows, 117 duplicates collapsed, 98 concepts minted; coverage lane scripting banked→covered→authored. 52 stations gaining scope columns.
+- 2026-08-22 — MANUAL REVISION LANDED on main at 0e08ac1 (15 files, ~373 KB; authoringDocs test 11/11). Freeze lifted; active lanes told to merge and re-read 00 + 13; paused lanes briefed for resume. Validator released to push ed87a85.
+- 2026-08-22 — Validator D landed d82dd36 (`+` on non-id column → error; unknown-kind id row → error); ed87a85 on main. Kasr Y1 merged manual (547c195), stations scoped (101954f), re-gating 108. Validator task E: per-record floors for practical types.
+- 2026-08-22 — Kasr Y1 merged d82dd36 (452aa0e): all 52 practicals errors 0 → 108 practical INDEX step green; no new D-class errors. Remaining batch noise = sparse live-id rows failing create-required fields → validator task F (update semantics in batch).
