@@ -27,10 +27,13 @@ question-led scope (§10–§11); overlay minting (§12/§16); context hygiene (
 | 6fd9e4e | AU-MED-102 Biochem D: 26 concepts, 3 articles, evidence, 7 pending updates (19 ideas + questions owed) |
 | f9a57e7 | AU-MED-103 Histology: 5 concepts + 5 live updates, 2 articles, 10 MCQs (audit key fix + pending/practical questions owed) |
 | cd248e4 | AU-MED-102 Embryology: 4 concepts, 3 articles, 12 pending updates + 13 questions — LANE DONE |
+| b9cb23c | Terminology shelf (subjects/ node under Foundations) + 3 concepts re-placed — 102-TERM fully DONE |
+| 369ef39 | AU-MED-103 Biochemistry: 33 questions on Kasr ids — 103-BIOC DONE |
+| 432ee37 | AU-MED-102 Biochem A: lipid chemistry 23 concepts, 10 MCQs (protein + enzymology remain) |
 
 ## Lanes (Sonnet subagents; resumable by id from the roster in the orchestrator scratchpad; a lane
 ## whose transcript is gone is restarted fresh from its committed triage file — never redo finished work)
-DONE lanes: 102-HIST+PHYS, 102-TERM, 102-EMBR, 102-ANAT (pending-id questions limited by 17 Kasr concepts with no article — routed to Kasr Y1), BIOC-C, 103-BIOC (NEW/live scope; pending-id questions in progress).
+DONE lanes: 102-HIST+PHYS, 102-TERM, 102-EMBR, 103-BIOC, 102-ANAT (pending-id questions limited by 17 Kasr concepts with no article — routed to Kasr Y1), BIOC-C, 103-BIOC (NEW/live scope; pending-id questions in progress).
 Running Steps 2–4 (orders: `LANE-ORDERS-PHASE1.md` + lane rulings in `coverage/00-publish-plan-year1.md` § Corrections):
 102-ANAT (pending-live label fix + 126 questions) · 102-EMBR · 102-TERM (glossary-first; cut by a
 server rate limit, resumable) · 102-BIOC-A (lipid/protein chemistry + enzymology remain) ·
