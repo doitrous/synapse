@@ -468,6 +468,16 @@ MMS: The Mansoura course covers this under Emergency Medicine rather than Respir
 `university_notes` is a **prose list** — one note per line, `UNIVERSITY: text`. It renders
 as a distinct in-article aside.
 
+**Every university on this article needs all five of its own tags — `universities`,
+`years`, `module`, `module_subject`, `university_notes` — not just its name in
+`universities`.** Adding a second university means restating the union: `years` and
+`universities` accept `+MMS`/`+MMS_Y2` (true id lists), but `module_subject` and
+`university_notes` are re-parsed whole on every write and have no `+` form, so retype every
+line already there plus the new university's own. See [00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records) — an article
+has no `exam_weight_by_year` column (that lives on the question and the concept), so this
+kind's traceable set is the five fields above.
+
 ---
 
 ## Worked example
