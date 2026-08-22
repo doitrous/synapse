@@ -422,3 +422,9 @@ Three additions:
   `pending-live/` row carries `## id` + `## label` + the `+` fields — nothing else.
 - **Practical stations are scoped** by `universities` / `years` / `module` (importer columns
   landing as `ed87a85`); an empty `universities` means every university — never leave it empty.
+
+### Two more validator rules (`ed87a85`, `d82dd36`, merged)
+- Every practical station carries `universities: au` (plus `years`, `module`).
+- A leading `+` on a non-id-list column is an ERROR: `module_subject` and every prose/path field
+  is written as a full replacement. An update row without its discriminator (`## label`) is now
+  an ERROR rather than a silent skip — which is what you want.
