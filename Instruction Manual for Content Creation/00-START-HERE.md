@@ -346,7 +346,7 @@ silently attaches your work to the wrong record, or to nothing.
 |---|---|---|
 | `SYS-CVS`, `SYS-CVS-T02-S01-M01` | Canonical taxonomy node, Systems view | placement |
 | `DIS-PHA-T04`, `SKL-EXM`, `KNW-EMG` | Canonical node, other views | secondary placement |
-| `SYS_*`, `TPC_*`, `SUB_*`, `MIC_*`, `NAN_*` | Curriculum overlay | `SUB_HF_MGMT` |
+| `SYS_*`, `TPC_*`, `SUB_*`, `MIC_*`, `NAN_*` | Curriculum overlay for the live subjects | `SUB_HF_MGMT` |
 | `CON-<SYSTEM>-<14 hex>` | Concept — SYSTEM is a body-system code, **not** the subject ID | `CON-CVS-7C9D59D257AC65`, `CON-REN-…` |
 | `ART-<SUBJECT>-<SLUG>` | Article | `ART-CVS-CARDIAC-CYCLE` |
 | `TPL-*` | Article template | `TPL-CONDITION` |

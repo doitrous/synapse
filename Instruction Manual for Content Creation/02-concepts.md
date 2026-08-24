@@ -191,8 +191,8 @@ Every one of the 1,718 concepts in live state is `CON-<SYSTEM>-<14 hex>`. The im
 `med.concept.<slug-of-label>`, which matches nothing and opens a second ID namespace inside
 one graph. So the ID is never optional.
 
-> **The first segment is a body-system code, not the subject ID.** They differ for five of
-> the eight subjects, and guessing gets it wrong: `renal` → **REN**, `resp` → **RES**,
+> **The first segment is a body-system code, not the subject ID.** Several live subjects
+> deliberately differ, and guessing gets it wrong: `renal` → **REN**, `resp` → **RES**,
 > `gi` → **GIT**, `endo` → **END**, `neuro` → **NEU**. Only `cvs`, `msk` and `pharm` are
 > unsurprising, and `pharm` concepts are filed under the system whose drugs they are rather
 > than under a pharmacology code. It is also not the canonical node — `CON-REN-` concepts

@@ -80,7 +80,7 @@ const QUESTION_MAP = {
   attachments: 'attachments', correctAnswer: 'correct_answer', answers: 'answer_a', attachedImage: 'attached_image',
   libraryIds: 'library_ids', resourceIds: 'resource_ids', tags: 'topic', learningObjective: 'learning_objective',
   authorNotes: 'author_notes', sourceCitation: 'source_citation', estimatedSeconds: 'estimated_seconds',
-  randomiseAnswers: 'randomise_answers', mediaRequests: 'media_recommendations',
+  randomiseAnswers: 'randomise_answers', media: null, mediaRequests: 'media_recommendations',
 }
 
 const QUESTION_TAGS_MAP = {
@@ -114,7 +114,7 @@ const CONCEPT_MAP = {
   reviewDue: 'review_due', publicationStatus: 'publication_status',
   editorialReviewStatus: 'editorial_review_status', exclusionReason: 'exclusion_reason',
   weightConfidence: 'weight_confidence', fieldNotes: 'field_notes',
-  moduleSubjectPaths: 'module_subject',
+  moduleSubjectPaths: 'module_subject', mediaIds: null,
 }
 
 const RELATION_MAP = {
@@ -132,6 +132,7 @@ const ANNOTATION_MAP = { id: 'annotations', quote: 'annotations', conceptId: 'an
 const PRACTICAL_COMMON_MAP = {
   references: 'references', conceptTags: 'main_concept', mediaRequests: 'media_needed',
   learningObjective: 'learning_objective', moduleSubjectPaths: 'module_subject',
+  universityIds: null, yearIds: null, moduleIds: null,
 }
 
 const OSCE_MAP = {
@@ -177,11 +178,11 @@ const MEDIA_REQUEST_MAP = {
   block: 'media_recommendations', anchorQuote: 'media_recommendations',
   priority: 'media_recommendations', status: 'media_recommendations',
   notes: 'media_recommendations', sourceDirection: 'media_recommendations',
-  rightsNotes: 'media_recommendations', mediaId: 'media_recommendations',
+  rightsNotes: 'media_recommendations', slot: null, answerLabel: null, mediaId: 'media_recommendations',
 }
 
 const RESOURCE_MAP = {
-  universityIds: 'universities', yearIds: 'years', institution: 'source', collectionId: null,
+  universityIds: 'universities', yearIds: 'years', icon: null, institution: 'source', collectionId: null,
   storageKey: null, sha256: null, rights: null, processingStatus: null, reviewer: null, finalPublisher: null,
   chapters: 'chapter', moduleIds: 'module_ids', moduleSubjectPaths: 'module_subject',
   includedConceptIds: 'included_concepts',
@@ -195,6 +196,14 @@ const RESOURCE_MAP = {
  * so an import column would be a way to forge provenance.
  */
 const EXEMPT = {
+  'Concept.mediaIds': 'Assigned when rights-checked media is attached through the media library, not by concept import.',
+  'QuestionAuthoringData.media': 'Question media placements are created when a fulfilled media asset is attached to a slot.',
+  'MediaRequest.slot': 'Chosen during fulfillment when the reviewer places the asset into its final owner slot.',
+  'MediaRequest.answerLabel': 'Only meaningful for fulfilled answer media; chosen with the final slot.',
+  'PracticalCommon.universityIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct university IDs.',
+  'PracticalCommon.yearIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct year IDs.',
+  'PracticalCommon.moduleIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct module IDs.',
+  'ResourceAuthoringData.icon': 'Presentation glyph chosen by the resource UI from the type unless an editor overrides it later.',
   'ResourceAuthoringData.collectionId': 'Set by the ingest pipeline from the source collection.',
   'ResourceAuthoringData.storageKey': 'Set on upload to authenticated storage; an author cannot choose it.',
   'ResourceAuthoringData.sha256': 'Computed from the uploaded binary. Typing it would forge provenance.',

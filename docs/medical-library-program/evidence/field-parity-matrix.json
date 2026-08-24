@@ -25,8 +25,8 @@
       "modelFields": 18,
       "importFields": 54,
       "ok": 14,
-      "missing": 2,
-      "notApplicable": 2
+      "missing": 0,
+      "notApplicable": 4
     },
     {
       "contentType": "Concept",
@@ -34,8 +34,8 @@
       "modelFields": 57,
       "importFields": 54,
       "ok": 56,
-      "missing": 1,
-      "notApplicable": 0
+      "missing": 0,
+      "notApplicable": 1
     },
     {
       "contentType": "Concept relation",
@@ -52,8 +52,8 @@
       "modelFields": 22,
       "importFields": 61,
       "ok": 21,
-      "missing": 1,
-      "notApplicable": 0
+      "missing": 0,
+      "notApplicable": 1
     },
     {
       "contentType": "Question · tags",
@@ -70,8 +70,8 @@
       "modelFields": 18,
       "importFields": 61,
       "ok": 14,
-      "missing": 2,
-      "notApplicable": 2
+      "missing": 0,
+      "notApplicable": 4
     },
     {
       "contentType": "Practical · OSCE and checklist",
@@ -79,8 +79,8 @@
       "modelFields": 16,
       "importFields": 27,
       "ok": 13,
-      "missing": 3,
-      "notApplicable": 0
+      "missing": 0,
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · clinical case",
@@ -88,8 +88,8 @@
       "modelFields": 11,
       "importFields": 27,
       "ok": 8,
-      "missing": 3,
-      "notApplicable": 0
+      "missing": 0,
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · case decision",
@@ -106,8 +106,8 @@
       "modelFields": 11,
       "importFields": 27,
       "ok": 8,
-      "missing": 3,
-      "notApplicable": 0
+      "missing": 0,
+      "notApplicable": 3
     },
     {
       "contentType": "Practical · interpretation question",
@@ -124,8 +124,8 @@
       "modelFields": 18,
       "importFields": 27,
       "ok": 14,
-      "missing": 2,
-      "notApplicable": 2
+      "missing": 0,
+      "notApplicable": 4
     },
     {
       "contentType": "Resource",
@@ -133,8 +133,8 @@
       "modelFields": 17,
       "importFields": 19,
       "ok": 9,
-      "missing": 1,
-      "notApplicable": 7
+      "missing": 0,
+      "notApplicable": 8
     },
     {
       "contentType": "Evidence · source",
@@ -182,134 +182,7 @@
       "notApplicable": 0
     }
   ],
-  "gaps": [
-    {
-      "contentType": "Library article · media request",
-      "field": "slot",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Library article · media request",
-      "field": "answerLabel",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Concept",
-      "field": "mediaIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Question",
-      "field": "media",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Question · media request",
-      "field": "slot",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Question · media request",
-      "field": "answerLabel",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · OSCE and checklist",
-      "field": "universityIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · OSCE and checklist",
-      "field": "yearIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · OSCE and checklist",
-      "field": "moduleIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · clinical case",
-      "field": "universityIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · clinical case",
-      "field": "yearIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · clinical case",
-      "field": "moduleIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · interpretation set",
-      "field": "universityIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · interpretation set",
-      "field": "yearIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · interpretation set",
-      "field": "moduleIds",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · media request",
-      "field": "slot",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Practical · media request",
-      "field": "answerLabel",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    },
-    {
-      "contentType": "Resource",
-      "field": "icon",
-      "column": null,
-      "state": "missing",
-      "reason": "No import column maps to this field."
-    }
-  ],
+  "gaps": [],
   "groups": [
     {
       "contentType": "Library article",
@@ -729,14 +602,14 @@
         {
           "field": "slot",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
         },
         {
           "field": "answerLabel",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
         },
         {
           "field": "mediaId",
@@ -934,8 +807,8 @@
         {
           "field": "mediaIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Assigned when rights-checked media is attached through the media library, not by concept import."
         },
         {
           "field": "resourceIds",
@@ -1230,8 +1103,8 @@
         {
           "field": "media",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Question media placements are created when a fulfilled media asset is attached to a slot."
         },
         {
           "field": "correctAnswer",
@@ -1544,14 +1417,14 @@
         {
           "field": "slot",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
         },
         {
           "field": "answerLabel",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
         },
         {
           "field": "mediaId",
@@ -1647,20 +1520,20 @@
         {
           "field": "universityIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "yearIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "moduleIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
@@ -1720,20 +1593,20 @@
         {
           "field": "universityIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "yearIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "moduleIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
@@ -1860,20 +1733,20 @@
         {
           "field": "universityIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "yearIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         },
         {
           "field": "moduleIds",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Not author-supplied."
         }
       ]
     },
@@ -2036,14 +1909,14 @@
         {
           "field": "slot",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Chosen during fulfillment when the reviewer places the asset into its final owner slot."
         },
         {
           "field": "answerLabel",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Only meaningful for fulfilled answer media; chosen with the final slot."
         },
         {
           "field": "mediaId",
@@ -2073,8 +1946,8 @@
         {
           "field": "icon",
           "column": null,
-          "state": "missing",
-          "reason": "No import column maps to this field."
+          "state": "n/a",
+          "reason": "Presentation glyph chosen by the resource UI from the type unless an editor overrides it later."
         },
         {
           "field": "institution",
