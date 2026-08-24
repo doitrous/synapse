@@ -194,11 +194,11 @@ const records = []
 // kinds this script has no branch for. A stack trace says neither, so the author
 // reads it as a bad batch and starts editing content that was fine. Refuse by
 // name, and say which kinds are recognised so the answer is "wrong tool".
-const VALIDATED_KINDS = ['concept', 'relation', 'article', 'question', 'practical', 'resource', 'claim', 'citation', 'span']
+const VALIDATED_KINDS = ['concept', 'relation', 'article', 'question', 'practical', 'catalogue-resource', 'resource', 'claim', 'citation', 'span']
 if (!VALIDATED_KINDS.includes(kind)) {
   errors.push(
     `${file}: its columns match none of the contracts this script validates, so there is nothing here to check it against. `
-    + `Recognised kinds are ${VALIDATED_KINDS.join(', ')} — a catalogue-resource, subjects or glossary batch is not one of them `
+    + `Recognised kinds are ${VALIDATED_KINDS.join(', ')} — subjects or glossary batches are not among them `
     + 'and has no branch here. Check it with the manual for its type and the import wizard\'s own preview instead.',
   )
   console.log(JSON.stringify({ file, kind, items: rows.length, notes, errors }, null, 1))
@@ -603,7 +603,7 @@ function completenessWarnings(rowKind, rows) {
 
 /* ---- update rows that would land as stubs -------------------------------- */
 
-const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
+const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type', 'catalogue-resource': 'type' }
 
 
 /**
@@ -771,7 +771,7 @@ async function foldInSiblings(concepts, articles, resources) {
       if (kind === 'article' && articles) {
         articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
       }
-      if (kind === 'resource' && resources) resources.add(id)
+      if ((kind === 'resource' || kind === 'catalogue-resource') && resources) resources.add(id)
     }
     notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
   }
@@ -1204,6 +1204,39 @@ if (kind === 'article') {
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
     mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
+    errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind === 'catalogue-resource') {
+  const known = new Set(IMPORT_SCHEMAS.resource.fields.map((field) => field.key))
+  const built = []
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateImportRow('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('catalogue-resource', values)) errors.push(`${where}: ${error}`)
+    try {
+      built.push(importRowToContent('resource', values, `row-${index}`))
+    } catch (reason) {
+      errors.push(`${where}: ${reason.message}`)
+    }
+  })
+
+  const ids = rows.map((row) => row.id?.trim())
+  for (const id of ids) if (id && ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    warnings: completenessWarnings('catalogue-resource', rows),
+    resources: built.length,
     errors,
   }, null, 1))
   if (errors.length) process.exitCode = 1

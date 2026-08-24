@@ -53,6 +53,11 @@ test('a practical batch is not mistaken for a question batch', () => {
   assert.equal(detectBatchKind({ title: 'Station', type: 'OSCE station', mark_scheme: 'Opening (5): greets' }), 'practical')
 })
 
+test('a catalogue resource batch is distinct from an evidence source batch', () => {
+  assert.equal(detectBatchKind({ title: 'Slides', subject: 'cvs', type: 'Deck', source: 'ASU', status: 'Draft' }), 'catalogue-resource')
+  assert.equal(detectBatchKind({ title: 'Source PDF', institution: 'ASU', processing_status: 'pending' }), 'resource')
+})
+
 test('a row that matches no contract stays unknown rather than becoming a concept', () => {
   // The failure this guards: falling back to 'concept' meant a stray question
   // batch was applied as sixteen concept upserts and nothing said so.
