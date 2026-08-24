@@ -27,7 +27,7 @@ number of decisions you wrote.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `Clinical case`. Exact string. |
 | `title` | Title | **yes** | What the case is about. |
-| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
@@ -35,6 +35,9 @@ number of decisions you wrote.
 | `marks` | Marks / decisions | no | Recomputed as the **number of decisions**. |
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty; each decision may also set its own. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this case is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this case sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What the case as a whole is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also assesses. Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | Needed by the scenario, never assessed. **No mastery.** |
@@ -45,6 +48,37 @@ number of decisions you wrote.
 
 Use the item-level concept fields for what the **case as a whole** is about, and the
 per-decision `Concept:` / `Also:` lines for what **one decision** is about.
+
+---
+
+## Priority of sources
+
+Highest first (00 §A): this department's own practical atlas / OSCE bank / station sheets,
+then other official files for the same module, then doctor/student/academy notes (tier ≤5,
+never sole source), then a standard textbook only where the corpus has none. **Another
+university's material never stands for this university's signal.**
+
+## Media (S6 of the pipeline)
+
+A decision that turns on an image the candidate must read carries `media_recommendations`
+and is **marked as a request, never rewritten into prose** that describes the finding
+instead of showing it. This is stage S6 ([13-orchestration.md](13-orchestration.md) §4).
+
+## Scope: universities and module
+
+A practical case is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported case arrived unscoped. An
+empty `universities` list means EVERY university. Scope is separate from concept tagging and
+`module_subject`.
+
+## Stages and completeness
+
+A case is not "done" at a green `medical:batch`. It is finished per
+[13-orchestration.md](13-orchestration.md) §4 once `questions` (the decision count) meets
+this type's floor, S6 media requests are tracked, and `medical:audit` is clean.
 
 ---
 

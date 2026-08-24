@@ -416,3 +416,28 @@ test('a partial update does not wipe the curriculum position it says nothing abo
   assert.equal(patched.definition, 'A revised definition.')
   assert.deepEqual(patched.moduleSubjectPaths, ['101 ISK > Anatomy > Upper Limb'])
 })
+
+test('an update that omits the label leaves the live label alone', () => {
+  // `conceptFromRow` defaulted `label` to `''` where every other prose field
+  // defaults to `undefined`. `mergeConcept` skips `undefined` and writes
+  // anything else, so an update row carrying `id` and one changed column
+  // blanked the live concept's name: the record stayed, findable by id and by
+  // nothing else, gone from every list a student reads. Proved by a real
+  // simulate before it was fixed.
+  const live = conceptFromRow({ label: 'The live label', id: 'CON-L', definition: 'A live definition' })
+  const merged = mergeConcept(live, conceptFromRow({ id: 'CON-L', pitfalls: 'a new pitfall' }))
+  assert.equal(merged.label, 'The live label')
+  assert.equal(merged.definition, 'A live definition', 'the same rule that already protected definition')
+  assert.equal(merged.pitfalls, 'a new pitfall', 'what the row did say is still applied')
+})
+
+test('a new concept still materialises a label, and a blank one is not a value', () => {
+  // The other half. `undefined` must not reach a created record as `undefined`,
+  // or a new concept has no label field at all; `materialiseNewConcept`
+  // supplies the empty string, exactly as it does for `definition`.
+  assert.equal(conceptFromRow({ id: 'CON-N' }).label, undefined)
+  assert.equal(materialiseNewConcept(conceptFromRow({ id: 'CON-N' })).label, '')
+  // Whitespace is not a label either.
+  assert.equal(conceptFromRow({ id: 'CON-N', label: '   ' }).label, undefined)
+  assert.equal(conceptFromRow({ id: 'CON-N', label: '  Real  ' }).label, 'Real')
+})

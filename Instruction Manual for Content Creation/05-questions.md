@@ -20,6 +20,30 @@ The only columns a complete five-option question legitimately omits are `answer_
 
 ---
 
+## §A · The law of priority, for questions
+
+A question exists so a student can rehearse an exam their university actually sets. That
+sets a strict order:
+
+1. **Real papers and department banks first** — transcribed from an actual exam paper (EOM,
+   EOY, resit/Baqoon, end-of-rotation) or a department's own question bank / MCQ book, not
+   composed to illustrate a concept.
+2. **Invented items fill a named gap, and say so** in `derived_from` and `author_notes` —
+   never a silent substitute for a real paper's question.
+3. **Answers come only from an official key or the department book, page cited** in
+   `source_citation`, never reconciled by hand. A questionable printed key is recorded **as
+   printed**, key error and all.
+4. **A garbled key is rendered by eye, method recorded in `author_notes`, or left unkeyed
+   and not authored.** Guessing a key from context authors a fact nobody printed.
+5. **An image-dependent item gets a required `media_recommendations` block, never a prose
+   rewrite** that describes the image away.
+6. **Another university's paper is never this university's signal.** It tags that
+   university in `universities`; it does not stand in for a paper this one never sat.
+
+See `00-START-HERE.md` for the full law of priority and the staged pipeline it drives.
+
+---
+
 ## Two rules that decide whether the question is any good
 
 ### The three concept buckets
@@ -61,9 +85,22 @@ teaches it, write the article first, or do not write the question.
 **silently taken from the correct answer's explanation**. There is no `explanation` column
 that sets it independently.
 
-So `explanation_<correct letter>` must carry the full reasoning: why the right answer is
-right, the mechanism behind it, and the thing worth remembering. It is doing two jobs.
-Write it as the teaching moment, not as a one-line justification.
+So `explanation_<correct letter>` is doing two jobs, and both are hard rules:
+
+- **`explanation_<correct>` is at least three sentences**: why the right answer is right,
+  the mechanism behind it, and the thing worth remembering. Fewer than three sentences is
+  not a shorter version of the explanation bar — it is short of it.
+- **Every distractor's explanation says why it is wrong, in one sentence**, and names the
+  specific misconception that picks it. Not "this is wrong" — the one sentence has to do
+  the work of catching a nameable student.
+
+The worked example below is held to this bar too: if it does not clear it, extend it rather
+than treat the bar as aspirational. Mechanical enrichment of an explanation — expanding the
+mechanism from what an already-verified evidence claim states — is allowed. There is no
+`claim_ids` column on a question; that field lives on the article (`04-library-articles.md`).
+An enriched explanation stays traceable by keeping the article carrying those claims in
+`library_ids` — enrichment is not licence to assert anything beyond what the cited article's
+claims already carry.
 
 ---
 
@@ -111,7 +148,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `attached_image` | Attached image | no | A single image URL shown with the stem. **Only a real URL.** If you need one, file a media request. |
 | `attachments` | Attachments | no | `### image\|audio\|video · URL` blocks, then `Name:` and optionally `Mime:`. Real assets only. |
 | `id` | Canonical ID | no | Supply to update an existing question. |
-| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
+| `subject` | Subject ID | **yes** | One of the 20 curriculum subjects in `src/data/curriculumCatalog.ts` — `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`, `fnd`, `dev`, `haem`, `imm`, `inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, `pop`. See `01-subjects-and-topics.md`. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Defaults to `Import queue`. Set it to a real owner. |
 
@@ -158,14 +195,51 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `exam_relevance` | Exam relevance | Integer 0–10 | `5` |
 | `clinical_relevance` | Clinical relevance | 0–1 | `0.5` |
 | `academic_relevance` | Academic relevance | 0–1 | `0.5` |
-| `exam_weight_by_year` | Exam weight by year | `OMS_Y2=0.7 \| OMS_Y3=0.5` | `{}` |
-| `years` | Relevant years | Year IDs | `[]` |
-| `universities` | Relevant universities | University IDs | `[]` |
-| `module` | Module ID(s) | Every module this applies to | `[]` |
+| `exam_weight_by_year` | Exam weight by year | Keyed values only — `OMS_Y2=0.7 \| OMS_Y3=0.5`. No `+` directive on this column. | `{}` |
+| `years` | Relevant years | Canonical year IDs only — `KAU_Y1`, `AU_Y1`… (exact case). **Never the bare label `Year 1`; a lower-case id is also wrong.** | `[]` |
+| `universities` | Relevant universities | University IDs. **Must be non-empty — see below.** | `[]` |
+| `module` | Module ID(s) | Every module this applies to. **Non-Kasr modules carry that university's prefix — see below.** | `[]` |
 | `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One per line. | `[]` |
 | `question_only_for` | Restrict to years/universities | If set, the question applies **only** to these, regardless of subject scope | `[]` |
 
 `difficulty` and `inferred_difficulty` are different axes and both matter. `difficulty` is
+what you intended; `inferred_difficulty` is how many students you expect to get it right.
+`Hard` and `Challenging` both mean "expect most to miss this" — `Hard` is a concept a strong
+student gets right, `Challenging` needs several steps held at once.
+
+**`years` is ids only (ruling 2026-08-23).** Production `years` currently holds three
+shapes — the canonical id (`KAU_Y1` 539 rows, `kau_y3` 114 rows), and the bare label
+(`Year 1`, 2,469 rows across 41 files). A label names no university, so it can never be
+checked per university the way an id can — ruled ids-only. Write the canonical id, exact
+case (`buildYears`, `src/data/universities.ts:63-75`, mints `${CODE}_Y${n}` in upper case
+for every university); `kau_y3` and `Year 1` are both wrong. Kasr's own records get
+normalised to ids in its sitting-year sweep — that is a Kasr-side cleanup, not licence to
+write a label or the wrong case yourself.
+
+### Catalogue placement is a hard gate (S3), not a courtesy
+
+`medical:batch` runs a catalogue check (`scripts/validate-content-batch.mjs`,
+`catalogueErrors`) against `src/data/universities.ts` and `src/data/curriculumCatalog.ts`.
+Hard errors, not style notes:
+
+- **`universities` empty is an error, not "every university."** An empty list *does* mean
+  every university at runtime, which is the danger: a record an author forgot to scope
+  reaches every student instead of none, silently — so the gate refuses it.
+- Every university ID must be in the catalogue, or the row is refused by name.
+- **A non-Kasr module ID carries its university's prefix**: `ASU-`, `AU-`, `HU-` — e.g.
+  `AU-MED-102`. **Kasr keeps its bare IDs**, e.g. `101 ISK`.
+- `module_subject`'s first segment must be a module this record declares in `module`, or
+  the row is refused.
+- `subject` must be one of the 20 (field table above) — an unrecognised one is
+  placeholdered at runtime rather than refused there, which is why the batch gate checks it.
+
+There is no `exam_signal` column on a question — that field lives on the **concept**
+(`02-concepts.md`), recording how many independent sources examine it. A question's own
+provenance is `derived_from` and `source_citation`.
+
+**Kasr sitting year, for `years` and `exam_weight_by_year`:** the batch number is not the
+sitting year — EOM = batch + 1825 + year; EOY / Baqoon = batch + 1826 + year; a printed date
+on the paper always wins over either formula.
 
 ### `module_subject` — where inside a module this belongs
 
@@ -193,11 +267,21 @@ Write the way down, one path per line:
   reorganised as department books change, and a path that stops resolving can be
   reported and repaired, where a stale ID just points at nothing.
 
+**A question shared by several universities needs all four of `universities`, `years`,
+`module`, and `exam_weight_by_year` filled in for each one** — `universities`, `years` and
+`module` are true id lists (`+HU`, `+HU_Y3`, `+HU-GIT-301` append safely), but
+`module_subject` re-parses the whole cell on every write with no `+` form, so a second
+university's path means retyping every path already there plus the new one.
+`exam_weight_by_year` merges per `YEAR_ID=weight` key, so writing only your own year's entry
+is safe — but a key on the wrong year id contributes nothing to anyone's blueprint. See
+[00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records). Questions
+have no `university_notes` column today (it is landing); a university-specific aside goes in
+`author_notes` (internal only) or on the covering article's own `university_notes` until it
+ships.
+
 Build the tree first, with an indented outline in **Academic Setup › Import**.
 See `01-subjects-and-topics.md`.
-what you intended; `inferred_difficulty` is how many students you expect to get it right.
-`Hard` and `Challenging` both mean "expect most to miss this" — `Hard` is a concept a strong
-student gets right, `Challenging` needs several steps held at once.
 
 ## Fields · evidence and editorial
 
@@ -235,10 +319,33 @@ several are stricter than the field table's own defaults suggest:
 | `learning_objective` is non-empty | `no learning objective` |
 | `source_citation` is non-empty | `no source citation` |
 | `difficulty` is one of the four bands | `difficulty "Medium" is not one of Easy, Moderate, Hard, Challenging` |
+| `universities` is non-empty | `universities is empty — an empty list means EVERY university, not none, so this record reaches students it was never written for` |
+| every university ID is in the catalogue | `university "X" is not in the catalogue` |
+| a non-Kasr module carries its university's prefix | `module "X" is under <uni>, whose module IDs carry the "<prefix>" prefix` |
+| `module_subject`'s first segment names a module this record declares | `module_subject starts with "X", which is not a module this record declares` |
+| `subject` is one of the 20 curriculum subjects | `subject "X" is not one of the 20 curriculum subjects` |
+| an update row (`id` set, `question`/`title` blank) points at a live ID | `X is not a question that exists — not in live state, and no full record in this batch folder or a --with sibling authors it` |
+
+**Coverage, precisely:** "the main concept is covered by one of those articles" means the
+concept's `article_ids` **union** every article whose `related_concepts` names it back — a
+link authored from either side counts. The check runs against **live state plus whatever
+`--with` named**, never the whole repository. A question batch validated without the sibling
+concept batch that mints its `main_concept` will report that concept as missing — not
+silently: the error names the concept and, since daf0d4d, ends with a hint to pass the
+concept batch with `--with`. Always name every sibling concept and article batch on `--with`,
+or a "not a concept that exists" error may be an artefact of an incomplete command, not a
+real defect.
 
 There is also a note, not an error, when the concept you are testing has not passed
 the evidence gate: *"main concept X has not passed the evidence gate — promote the
 concept and the question together"*. That is a sequencing reminder, not a defect.
+
+That union rule passes on the concept side alone, and the concept side is not always earned:
+`scripts/kasr/build-article-links.ts` writes `article_ids` onto generated concept rows by term
+overlap, not by anyone confirming the article teaches the concept, so a clean `medical:batch`
+run can still mean no article actually names the concept. For hand-over, treat coverage as
+real only after the coverage-verification pass — reading each linked article and confirming or
+fixing the back-link — has run for the module (13-orchestration.md §4, §10).
 
 ## Media
 
@@ -512,6 +619,35 @@ block, and no request would have been needed.
 
 ---
 
+## Redundancy: search before you author
+
+Before writing a question, search for it: `node "Instruction Manual for Content Creation/
+tools/find-existing.mjs" <a phrase from the stem>` — it searches question and practical
+titles and aliases, live and every pending batch. A hit on the stem means a question that may
+already exist, not a fresh one to mint.
+
+**The same printed question sat in two exam sittings is one record, not two.** Add the second
+sitting to that question's `exam_weight_by_year` and `years` rather than authoring a
+duplicate with a new ID — two records for one idea is what `medical:duplicate-keys` and S7
+exist to catch.
+
+---
+
+## Stages for a question
+
+Not finished at `medical:batch` green; finished at S7. In order (`00-START-HERE.md`,
+`13-orchestration.md`):
+
+- **S1 Triage** — which concept it tests; live / pending / new; wait for approval before S2.
+- **S2 Build** — write against an article that already covers that concept.
+- **S3 Tag & place** — placement, universities, module/module_subject, weights ("Catalogue placement" above).
+- **S4 Relate** — `main_concept` sits in `library_ids`' coverage (concept `article_ids` ∪ article `related_concepts`).
+- **S6 Media** — every image-dependent stem or option gets a `media_recommendations` block, never a prose rewrite.
+- **S7 Completeness** — `fieldsUsed` ≥ 46, the explanation bar met, redundancy scan clean. Below the floor or short of the bar is not finished, whatever `medical:batch` says.
+- **S8 Hand-over** — carried by the import-order INDEX, not by this file.
+
+---
+
 ## Before you hand off
 
 ```bash
@@ -533,6 +669,9 @@ testing does not exist.
 - [ ] No option says "both A and C" or "none of the above"
 - [ ] Images I need are request blocks; no invented URLs
 - [ ] `fieldsUsed` ≥ **46** (the worked example scores 48)
+- [ ] `explanation_<correct>` is at least three sentences; every distractor's is one
+- [ ] `universities` is non-empty; module IDs carry the right university prefix (Kasr excepted)
+- [ ] Searched with `find-existing.mjs` first; a second sitting of the same printed question is a weight, not a new record
 - [ ] All three commands return zero errors
 
 ### The failures specific to questions

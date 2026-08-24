@@ -20,6 +20,98 @@ import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
 import { MEDICAL_TAXONOMY_INDEX } from '../src/data/medicalLibraryTaxonomy.ts'
 import { detectBatchKind } from '../src/data/batchKind.ts'
+import { universities as UNIVERSITY_CATALOGUE } from '../src/data/universities.ts'
+import { CURRICULUM_SUBJECTS } from '../src/data/curriculumCatalog.ts'
+import { listDirective } from '../src/data/importSemantics.ts'
+
+/* ---- catalogue checks --------------------------------------------------- */
+
+/**
+ * `universities`, `module` and `subject` were stored as plain lists and checked
+ * against nothing. A mistyped university or module is not a cosmetic error: it
+ * decides who the record reaches. A question tagged `kua` instead of `kau`
+ * belongs to no university and is served to nobody, and the author sees a
+ * clean import.
+ */
+const UNIVERSITY_IDS = new Set(UNIVERSITY_CATALOGUE.map((university) => university.id))
+const SUBJECT_IDS = new Set(CURRICULUM_SUBJECTS.map((subject) => subject.id))
+
+/** Module-ID prefix each university's modules must carry. Kasr predates the rule. */
+const MODULE_PREFIX = { asu: 'ASU-', au: 'AU-', hu: 'HU-' }
+
+/**
+ * The values a list cell names, read with the importer's own parser.
+ *
+ * `listDirective` rather than a split of my own, because a cell is an
+ * *instruction*, not a list: a leading `+` means append and its items start one
+ * character in, and `[clear]` means empty. Splitting naively read `+108 INT` as
+ * a module literally called "+108 INT" and reported nine correct update rows as
+ * naming a module they did not declare. The gate and the importer have to agree
+ * on what a cell says, and the only way to be sure is to call the same function.
+ */
+const listOf = (value) => listDirective(value).items
+
+/**
+ * What a record claims about who it is for, checked against the catalogue.
+ *
+ * Returns messages; the caller prefixes them with its own row label.
+ *
+ * NOT checked here, deliberately: whether a module exists in the catalogue.
+ * `universities.ts` lists 31 modules for Kasr and **zero for every other
+ * university**, and the live catalogue in `server/data/medical-library-v1.json`
+ * lists zero for all twelve including Kasr — `kau-modules.md` is a batch that
+ * has not been applied. So there is no authority to check a module against, and
+ * a gate asserting one would fail every record in the repository on its first
+ * run. What is checkable without that list is checked: the prefix rule, and
+ * that `module_subject` names a module the record actually declares.
+ */
+function catalogueErrors(kind, values) {
+  const problems = []
+
+  // An empty `universities` list means "every university" — `scopeMatches`
+  // returns true when the list is empty — so an author who forgot the field has
+  // published to everyone rather than to nobody, which is the direction that
+  // does not announce itself.
+  const declared = listOf(values.universities)
+  const hasColumn = 'universities' in values
+  if (hasColumn && !declared.length) {
+    problems.push('universities is empty — an empty list means EVERY university, not none, so this record reaches students it was never written for')
+  }
+  for (const id of declared) {
+    if (!UNIVERSITY_IDS.has(id)) {
+      problems.push(`university "${id}" is not in the catalogue (${[...UNIVERSITY_IDS].join(', ')})`)
+    }
+  }
+
+  // Concepts carry `modules`, questions and articles carry `module`.
+  const modules = [...listOf(values.modules), ...listOf(values.module)]
+  for (const id of modules) {
+    for (const university of declared) {
+      const prefix = MODULE_PREFIX[university]
+      if (prefix && !id.startsWith(prefix)) {
+        problems.push(`module "${id}" is under ${university}, whose module IDs carry the "${prefix}" prefix`)
+      }
+    }
+  }
+
+  // `module_subject` is `Module > Subject > …`. Its first segment must be a
+  // module this record declares, or the two fields describe different things
+  // and nothing else would notice.
+  const path = (values.module_subject ?? '').trim()
+  if (path && modules.length) {
+    const named = path.split('>')[0].trim()
+    if (named && !modules.includes(named)) {
+      problems.push(`module_subject starts with "${named}", which is not a module this record declares (${modules.join(', ')})`)
+    }
+  }
+
+  const subject = (values.subject ?? '').trim()
+  if (subject && !SUBJECT_IDS.has(subject)) {
+    problems.push(`subject "${subject}" is not one of the ${SUBJECT_IDS.size} curriculum subjects — a typo is placeholdered at runtime rather than refused, so it never surfaces`)
+  }
+
+  return problems
+}
 
 const file = process.argv[2]
 if (!file) throw new Error('Usage: validate-content-batch.mjs <batch.md> [--with <sibling.md> ...]')
@@ -146,6 +238,492 @@ rows.forEach((values, index) => {
     )
   }
 })
+
+/**
+ * Which university a year or module belongs to, and whether the record says so.
+ *
+ * A shared record has to be traceable per university and per year, and nothing
+ * checked that the two agreed. A question naming `kau` and `AU_Y1` claims to be
+ * Kasr content sat in an Alexandria year.
+ *
+ * Three shapes reach the `years` column in production, so this resolves rather
+ * than pattern-matches: `KAU_Y1` (canonical), `kau_y3` (the same id in lower
+ * case, 114 of them) and `Year 1` (a label, 2,469 of them and by far the
+ * commonest). A label names no university, so it satisfies any named one and
+ * can never fail; only an id can contradict the record, and only an id is
+ * judged. Failing the labels would have turned 41 files red for a convention
+ * nobody has ruled on, which is a content decision and not this script's to
+ * force.
+ */
+const YEAR_OWNER = new Map()
+const MODULE_OWNER = new Map()
+const YEAR_LABELS = new Map()
+for (const university of UNIVERSITY_CATALOGUE) {
+  for (const year of university.years) {
+    YEAR_OWNER.set(year.id.toLowerCase(), university.id)
+    YEAR_LABELS.set(`${university.id}::${year.year.trim().toLowerCase()}`, year.id)
+    for (const course of year.courses ?? []) {
+      if (course.moduleId) MODULE_OWNER.set(course.moduleId.trim().toLowerCase(), university.id)
+    }
+  }
+}
+
+/** The keys of a `key: value` cell, as `exam_weight_by_year` is written. */
+const weightKeys = (value) => (value ?? '').split(/\r?\n/).map((line) => line.split('=')[0].trim()).filter(Boolean)
+
+function scopeAgreementErrors(rowKind, values) {
+  const problems = []
+  const declared = listOf(values.universities).map((id) => id.trim())
+  if (!declared.length) return problems
+  const named = new Set(declared)
+  const owns = (id) => YEAR_OWNER.get(id.trim().toLowerCase())
+
+  const years = listOf(values.years)
+  for (const year of years) {
+    const owner = owns(year)
+    if (owner && !named.has(owner)) {
+      problems.push(`years names ${year}, which belongs to ${owner} — a university this record does not name (${declared.join(', ')})`)
+    }
+  }
+
+  // Every named university needs a year it can be placed in. A bare label
+  // counts for any of them, which is why this is satisfiable without ids.
+  if (years.length) {
+    for (const university of named) {
+      const covered = years.some((year) => owns(year) === university
+        || YEAR_LABELS.has(`${university}::${year.trim().toLowerCase()}`))
+      if (!covered) {
+        problems.push(`universities names ${university} but no entry in years belongs to it — a record shared with a university it has no year in cannot be placed for its students`)
+      }
+    }
+  }
+
+  // Exam weights are keyed by year id, with no label escape hatch.
+  for (const key of weightKeys(values.exam_weight_by_year)) {
+    const owner = owns(key)
+    if (!owner) problems.push(`exam_weight_by_year is keyed by ${key}, which is not a year of any university in the catalogue`)
+    else if (!named.has(owner)) problems.push(`exam_weight_by_year is keyed by ${key}, which belongs to ${owner} — a university this record does not name`)
+  }
+
+  // Modules, only where the catalogue places one. `universities.ts` carries 31
+  // for Kasr and none for the other eleven, so requiring a module per named
+  // university would fail every non-Kasr record on its first run. The converse
+  // is checkable: a module the catalogue does place must not contradict.
+  for (const id of [...listOf(values.modules), ...listOf(values.module)]) {
+    const owner = MODULE_OWNER.get(id.trim().toLowerCase())
+    if (owner && !named.has(owner)) {
+      problems.push(`module ${id} belongs to ${owner} — a university this record does not name`)
+    }
+  }
+
+  return problems
+}
+
+/**
+ * A cell that mixes a plain item with a `+`-prefixed one.
+ *
+ * `+` marks the whole cell as an append, so `X | +Y` is an author writing a
+ * replace cell and an append item at once. The importer cannot honour both: it
+ * reads the cell as a replace, which discards whatever the list already held —
+ * the opposite of what the `+` asked for — and the loss is silent.
+ *
+ * Refused rather than guessed. Treating it as an append would let one stray
+ * character turn a deliberate replacement into an addition, and treating it as
+ * a replacement is what already happens and is what surprised the author. The
+ * fix is one character either way, and only they know which.
+ */
+function mixedAppendErrors(values) {
+  const problems = []
+  for (const [column, raw] of Object.entries(values)) {
+    if (typeof raw !== 'string') continue
+    const cell = raw.trim()
+    if (!cell || cell.startsWith('+')) continue
+    const parts = cell.split(/\r?\n|\||;/).map((one) => one.trim()).filter(Boolean)
+    if (parts.length > 1 && parts.some((one) => one.startsWith('+'))) {
+      problems.push(`${column} mixes a plain item with a "+" one (${parts.filter((one) => one.startsWith('+')).join(', ')}). `
+        + 'A "+" marks the whole cell as an append, so this asks to replace the list and add to it at once. '
+        + 'Put "+" at the front of the cell to append everything in it, or drop it to replace.')
+    }
+  }
+  return problems
+}
+
+/**
+ * What to try when a concept ID resolves against nothing.
+ *
+ * These checks resolve against live state plus whatever `--with` named, and the
+ * commonest cause of a failure is neither a typo nor a missing concept: it is a
+ * question batch validated without its own concept batch alongside it. The
+ * message said only that the concept does not exist, which sends an author
+ * looking for a mistake in the ID.
+ */
+const WITH_HINT = ' — if it is authored in this batch set, name its concept file with --with'
+
+/* ---- a + on a column that does not understand one ------------------------ */
+
+/**
+ * Whether a leading `+` in this column survives into the stored record.
+ *
+ * `+` means append, and only the list columns implement it. On anything else —
+ * `module_subject` was the case found, and prose and `key: value` columns are
+ * the same — the `+` is simply part of the value, so the record stores
+ * `"+ASU-CVS > Anatomy > …"`: a path no lookup matches, silently.
+ *
+ * Asked of the importer rather than answered from a list. The manual's
+ * splitting table ends "and every other list of identifiers", so any list I
+ * copied here would be a guess that drifts the first time a column is added.
+ * Instead the row is parsed twice, once with a sentinel and once with the same
+ * sentinel behind a `+`, and the column is judged by what comes back: if the
+ * stored value still carries the `+`, the column did not understand it.
+ *
+ * Cheap because it only runs for a row that actually uses `+` — 53 cells in the
+ * whole repository — and it cannot go stale, because it is measuring the
+ * importer's behaviour rather than describing it.
+ */
+const SENTINEL = 'ZZSENTINELZZ'
+
+function materialiseFor(rowKind, values) {
+  try {
+    if (rowKind === 'concept') return JSON.stringify(materialiseNewConcept(conceptFromRow(values)))
+    return JSON.stringify(importRowToContent(rowKind, values, 'probe'))
+  } catch {
+    return null
+  }
+}
+
+function plusOnNonListErrors(rowKind, values) {
+  const problems = []
+  for (const [column, raw] of Object.entries(values)) {
+    if (typeof raw !== 'string' || !raw.trim().startsWith('+')) continue
+    const plain = materialiseFor(rowKind, { ...values, [column]: SENTINEL })
+    const appended = materialiseFor(rowKind, { ...values, [column]: `+${SENTINEL}` })
+    // A column the probe cannot exercise (the row will not build either way)
+    // is left alone: the row has a bigger problem and will be reported for it.
+    if (!plain || !appended) continue
+    if (!plain.includes(SENTINEL)) continue
+    if (appended.includes(`+${SENTINEL}`)) {
+      problems.push(`${column} starts with "+", but this column does not take an append — the "+" is stored as part of the value, `
+        + 'so the record keeps a value nothing will ever match. Write this field as a full replacement.')
+    }
+  }
+  return problems
+}
+
+/**
+ * A row that edits a record that already exists, rather than authoring one.
+ *
+ * Two conditions, and both matter. The `id` must resolve — to live state, or to
+ * a full record in this batch folder or a `--with` sibling — so a typo'd id is
+ * still a create and is still refused for what it lacks. And the row must
+ * restate its discriminator, the column its kind is recognised by, so the
+ * detector types the file correctly and `medical:simulate` does not skip it.
+ *
+ * On such a row the authoring fields are not required. A sparse update carrying
+ * `id`, `label` and three columns is the documented way to add claim links to a
+ * concept that already has a definition, and demanding one back reported 90
+ * lines of "no definition" against records whose live definitions were never in
+ * doubt. Every check that reads a field the row *does* name still applies —
+ * catalogue, `+` semantics, candidate ids — because those are about what the
+ * row says, not about what it omits.
+ */
+function isRecognisedUpdate(rowKind, values) {
+  const id = values.id?.trim()
+  if (!id) return false
+  // Live state, or a `--with` sibling — deliberately NOT a full record in this
+  // same file. `authoredHere` includes the row being validated, so a brand-new
+  // concept vouched for itself: its own id was "authored here", so it read as
+  // an update and was excused the definition it genuinely lacked. A create must
+  // never be able to certify itself.
+  if (!liveIds.has(id) && !authoredAlongside.has(id)) return false
+  const substance = SUBSTANCE[rowKind]
+  return Boolean(substance && values[substance]?.trim())
+}
+
+/* ---- completeness, reported and never enforced --------------------------- */
+
+/**
+ * The manual's per-record `fieldsUsed` floor, by kind.
+ *
+ * `fieldsUsed` in the summary below is the union of every column any row uses,
+ * which is a fact about the *file*: one complete record makes a file of thin
+ * ones report 52. The floor the manual states — "fieldsUsed >= 50, there is no
+ * excuse for 28" — is about a record. The two have the same name and measure
+ * different things, and only the file-level one was ever computed, so a batch
+ * of stubs with one good row read as fully populated.
+ *
+ * Updates are exempt by design: a sparse row carrying `id` and the columns it
+ * changes is correct, and the manual says the floor applies to new records
+ * only.
+ */
+const FIELD_FLOOR = { concept: 50, question: 46, article: 49 }
+
+/**
+ * The same contract for practicals, which state it per format.
+ *
+ * From each format's manual: "Columns you should use — N of the 25". They
+ * differ because the formats use different columns, so one number across all
+ * practicals would be wrong for four of the five.
+ */
+const PRACTICAL_FLOOR = {
+  'OSCE station': 20,
+  'Clinical case': 19,
+  'Skills checklist': 16,
+  'Lab interpretation': 17,
+  'Imaging interpretation': 17,
+}
+
+/** Sentences, counted the way a reader would: terminal punctuation, not line breaks. */
+const sentenceCount = (text) => (text.match(/[.!?](\s|$)/g) ?? []).length || (text.trim() ? 1 : 0)
+
+const median = (numbers) => {
+  if (!numbers.length) return 0
+  const sorted = [...numbers].sort((a, b) => a - b)
+  const middle = Math.floor(sorted.length / 2)
+  return sorted.length % 2 ? sorted[middle] : Math.round((sorted[middle - 1] + sorted[middle]) / 2)
+}
+
+const share = (count, total) => (total ? `${Math.round((count / total) * 100)}%` : '0%')
+
+/**
+ * How complete this batch is, as warnings rather than failures.
+ *
+ * Thinness is not invalidity: a short explanation imports, renders and can be
+ * answered. It is also the difference between a question a student learns from
+ * and one they merely get right, and nothing measured it. Reported so a lane
+ * can paste the numbers into a commit body and see them move, and deliberately
+ * not an error — a gate that fails on prose length would be argued with rather
+ * than acted on, and would block a correct batch.
+ */
+function completenessWarnings(rowKind, rows) {
+  const out = []
+  const floor = FIELD_FLOOR[rowKind]
+  if (floor) {
+    // Per record, and only for records that are new.
+    //
+    // Two ways a row is not new, and both matter. It may be sparse — `id` plus
+    // the columns it changes. Or it may be substantial and still an update: the
+    // nine 108 INT pharmacology rows carry a label and forty populated columns
+    // and patch concepts that already exist. Judging by shape alone told them
+    // they were thin new records, which is the opposite of true.
+    const authored = rows.filter((row) => !isUpdateShaped(rowKind, row) && !liveIds.has(row.id?.trim()))
+    const thin = authored.filter((row) => Object.keys(row).length < floor)
+    if (thin.length) {
+      const counts = thin.map((row) => Object.keys(row).length).sort((a, b) => a - b)
+      out.push(`${thin.length} of ${authored.length} new records are below the ${rowKind} fieldsUsed floor of ${floor} `
+        + `(thinnest ${counts[0]}, median ${median(counts)}). The fieldsUsed in this report is the union across the file, `
+        + 'so it cannot show this — one complete record hides a batch of thin ones.')
+    }
+  }
+
+  if (rowKind === 'practical') {
+    // Per station, by format. The five practical manuals state this as "Columns
+    // you should use — 20 of the 25" rather than as a `fieldsUsed floor` line,
+    // and say outright that practicals do not report `fieldsUsed` at all. They
+    // are the same contract under another name: a minimum column count for a
+    // finished record, differing by format because the formats use different
+    // columns. An OSCE has candidate instructions and a mark scheme; a clinical
+    // case has decisions and neither.
+    //
+    // The manuals count "of the 25", which predates the three scoping columns
+    // added to the importer today. A floor is a minimum, so the extra columns
+    // can only lift a station over it, never under.
+    const authored = rows.filter((row) => !liveIds.has(row.id?.trim()))
+    const belowFloor = []
+    for (const row of authored) {
+      const floor = PRACTICAL_FLOOR[(row.type ?? '').trim()]
+      if (floor && Object.keys(row).length < floor) belowFloor.push({ type: row.type.trim(), used: Object.keys(row).length, floor })
+    }
+    if (belowFloor.length) {
+      const byType = {}
+      for (const entry of belowFloor) {
+        byType[entry.type] ??= { count: 0, floor: entry.floor, thinnest: entry.used }
+        byType[entry.type].count += 1
+        byType[entry.type].thinnest = Math.min(byType[entry.type].thinnest, entry.used)
+      }
+      const detail = Object.entries(byType)
+        .map(([type, seen]) => `${seen.count} ${type} below ${seen.floor} (thinnest ${seen.thinnest})`)
+        .join('; ')
+      out.push(`${belowFloor.length} of ${authored.length} station(s) use fewer columns than their format's manual asks for: ${detail}.`)
+    }
+
+    // A station nobody can be marked on. `mark_scheme` is how an OSCE and a
+    // checklist are scored and `marks` is the total; a case or a lab set scores
+    // through its decisions instead, so those formats are not counted here.
+    const scored = authored.filter((row) => ['OSCE station', 'Skills checklist'].includes((row.type ?? '').trim()))
+    const unscored = scored.filter((row) => !row.mark_scheme?.trim() && !row.marks?.trim())
+    if (unscored.length) {
+      out.push(`${unscored.length} of ${scored.length} OSCE/checklist station(s) carry neither mark_scheme nor marks — there is nothing to score a candidate against.`)
+    }
+
+    // An asset a station needs and does not describe. `media_needed` flags that
+    // something is missing; `media_recommendations` is what to make. Flagged
+    // without described, nobody knows what to commission.
+    const wanting = rows.filter((row) => row.media_needed?.trim() && !row.media_recommendations?.trim())
+    if (wanting.length) {
+      out.push(`${wanting.length} station(s) set media_needed but no media_recommendations — the asset is flagged as missing with nothing saying what to make.`)
+    }
+
+    // Practicals could not be scoped until the importer learned the columns, so
+    // every station authored before that carries none and is visible to every
+    // university's student — empty means unrestricted. Warned, not failed: the
+    // batches are not wrong, they were written against an importer that had
+    // nowhere to put the answer.
+    const unscoped = rows.filter((row) => !listOf(row.universities).length)
+    if (unscoped.length) {
+      out.push(`${unscoped.length} of ${rows.length} station(s) name no universities. An empty list means EVERY university, `
+        + 'so these are served to every student in every faculty. The practical importer now reads `universities`, `years` '
+        + 'and `module` — add them.')
+    }
+  }
+
+  if (rowKind === 'question') {
+    // The explanation for the answer that is correct. A distractor's
+    // explanation matters less: a student who picked it reads the correct one.
+    const lengths = []
+    for (const row of rows) {
+      const correct = (row.correct_answer ?? '').trim().toLowerCase()
+      if (!correct) continue
+      const text = (row[`explanation_${correct}`] ?? '').trim()
+      if (text) lengths.push(text)
+    }
+    if (lengths.length) {
+      const sizes = lengths.map((text) => text.length)
+      const short = lengths.filter((text) => text.length < 200).length
+      const terse = lengths.filter((text) => sentenceCount(text) < 3).length
+      out.push(`explanation of the correct answer, across ${lengths.length} question(s): `
+        + `shortest ${Math.min(...sizes)} chars, median ${median(sizes)}; `
+        + `${share(short, lengths.length)} under 200 chars, ${share(terse, lengths.length)} under 3 sentences.`)
+      const missing = rows.length - lengths.length
+      if (missing > 0) out.push(`${missing} question(s) have no explanation for their correct answer, or no correct_answer to have one for.`)
+    }
+  }
+
+  return out
+}
+
+/* ---- update rows that would land as stubs -------------------------------- */
+
+const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
+
+
+/**
+ * IDs that already exist, so an update row can be told from a create.
+ *
+ * Read once. Concepts live in the graph; articles and resources in the ledger.
+ * A failure to read is reported rather than swallowed, because "no live IDs"
+ * and "every ID is new" are the same thing to the check below, and one of them
+ * is a broken lookup.
+ */
+const liveIds = new Set()
+
+/**
+ * The `source_candidate_ids` each live concept already carries.
+ *
+ * A sparse update row restates the fields it is not changing, candidates
+ * included, and those were minted when the concept was first authored — often
+ * from a corpus index this batch's directory does not point at. Nine correct
+ * update rows in 108 INT were refused for repeating, unchanged, what the live
+ * record already holds.
+ */
+const liveCandidates = new Map()
+try {
+  const here = dirname(fileURLToPath(import.meta.url))
+  const live = JSON.parse(await readFile(join(here, '..', 'server', 'data', 'medical-library-v1.json'), 'utf8'))
+  for (const concept of live.states['synapse-concept-graph-v2']?.concepts ?? []) {
+    if (!concept?.id) continue
+    liveIds.add(concept.id)
+    if (concept.sourceCandidateIds?.length) liveCandidates.set(concept.id, new Set(concept.sourceCandidateIds))
+  }
+  for (const item of live.states['synapse-admin-content-ledger-v4'] ?? []) if (item?.id) liveIds.add(item.id)
+} catch (reason) {
+  notes.push(`live state could not be read (${reason.message}) — every ID looks new, so the stub-create check below cannot run`)
+}
+
+/**
+ * IDs given a *full* record somewhere in this batch directory or a `--with`
+ * sibling — as opposed to merely mentioned by another update row.
+ *
+ * "Full" is the kind's own required fields. Two update rows for the same absent
+ * ID must not vouch for each other.
+ */
+const authoredHere = new Set()
+
+/**
+ * The same, restricted to `--with` siblings.
+ *
+ * `authoredHere` answers "does anything author this id", including the file
+ * under validation, which is right for the stub-create check. It is wrong for
+ * deciding whether a row is an update: a row is in its own file, so it would
+ * vouch for itself.
+ */
+const authoredAlongside = new Set()
+{
+  const dir = dirname(file)
+  const paths = new Set([
+    ...(await readdir(dir)).filter((name) => name.endsWith('.md')).map((name) => join(dir, name)),
+    ...alongside.map((path) => resolve(path)),
+  ])
+  for (const path of paths) {
+    let parsed
+    try { parsed = parseMarkdown(await readFile(path, 'utf8')) } catch { continue }
+    if (!parsed.length) continue
+    const theirKind = detectKind(parsed[0])
+    for (const row of parsed) {
+      const id = row.id?.trim()
+      if (id && !isUpdateShaped(theirKind, row)) {
+        authoredHere.add(id)
+        if (path !== resolve(file)) authoredAlongside.add(id)
+      }
+    }
+  }
+}
+
+/**
+ * A row that edits a record rather than authoring one.
+ *
+ * The batch format lets a row carry an `id` and only the columns it changes.
+ * That is the right way to add claim links to a concept that already exists —
+ * and if the ID does *not* exist, the importer has no record to edit, so it
+ * creates one from the handful of columns present. `medical:simulate` reports
+ * that as `created: 1, errors: []`: a near-empty concept, in the graph, with a
+ * plausible ID, that nothing will ever flag again.
+ *
+ * The required-field errors do fire on such a row, but they say "label is
+ * required", which reads as a forgotten field. An author who obliges adds a
+ * label and turns a silent stub into a confidently wrong new record — the ID
+ * was meant to point at something that already existed. So this names the ID
+ * and says what would happen to it.
+ */
+/**
+ * The one column that makes a row an authoring row rather than a patch.
+ *
+ * NOT the schema's `required` list, which was the first attempt and was wrong:
+ * `correct_answer` is required there, and only single-best-answer questions
+ * have one. Every matching, written, completion and labelling question in the
+ * repository looked like an update to a record that does not exist — five
+ * fully-authored questions flagged, one of them carrying 31 populated fields.
+ * The same trap `batchKind.ts` documents one layer down, arrived at
+ * independently.
+ *
+ * These are the columns the detector itself keys on, and none of them varies by
+ * format: a row with a `question` is authoring a question whatever kind of
+ * question it is.
+ */
+function isUpdateShaped(rowKind, values) {
+  const substance = SUBSTANCE[rowKind]
+  if (!substance) return false
+  return !values[substance]?.trim()
+}
+
+/** The error for a row that edits a record nothing has authored. */
+function stubCreateErrors(rowKind, values) {
+  const id = values.id?.trim()
+  if (!id || !isUpdateShaped(rowKind, values)) return []
+  if (liveIds.has(id) || authoredHere.has(id)) return []
+  return [`${id} is not a ${rowKind} that exists — not in live state, and no full record in this batch folder or a --with sibling authors it. `
+    + `This row only carries the columns it changes, so the importer has nothing to update and would CREATE it from those columns alone: `
+    + 'a near-empty record with a plausible ID that no later check would question. Author it in full, or correct the ID.']
+}
 
 /**
  * Fold `--with` siblings in as though already imported.
@@ -303,6 +881,11 @@ if (kind === 'question') {
     const where = `Item ${index + 1} (${values.title ?? values.question ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('question', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('question', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('question', values, `row-${index}`))
     const data = item.questionData
@@ -380,7 +963,7 @@ if (kind === 'question') {
     // required only one-or-more.
     if (main.length < 1) errors.push(`${where}: no main_concept — name what this question tests`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -425,6 +1008,8 @@ if (kind === 'question') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('question', rows),
     difficulty: difficultyCounts,
     conceptsTested: [...new Set(built.flatMap((item) => item.questionData.tags.mainConceptIds ?? []))].length,
     mediaFlagged,
@@ -459,6 +1044,11 @@ if (kind === 'practical') {
     const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('practical', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('practical', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('practical', values, `row-${index}`))
     const data = item.practicalData
@@ -472,7 +1062,7 @@ if (kind === 'practical') {
     const { mainConceptIds: main, conceptIds: also, contextualConceptIds: contextual } = data.conceptTags
     if (!main.length) errors.push(`${where}: no main_concept — name what this item teaches`)
     for (const [label, ids] of [['main_concept', main], ['concept_ids', also], ['contextual_concept_ids', contextual]]) {
-      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists`)
+      for (const id of ids) if (!concepts.has(id)) errors.push(`${where}: ${label} ${id} is not a concept that exists${WITH_HINT}`)
     }
     for (const id of contextual) {
       if (main.includes(id) || also.includes(id)) {
@@ -487,9 +1077,9 @@ if (kind === 'practical') {
       questions += 1
       const label = `${where} question ${blockIndex + 1}`
       if (!block.conceptId) errors.push(`${label}: no "Concept:" line — name the one concept it teaches`)
-      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists`)
+      else if (!concepts.has(block.conceptId)) errors.push(`${label}: concept ${block.conceptId} is not a concept that exists${WITH_HINT}`)
       for (const id of block.secondaryConceptIds ?? []) {
-        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists`)
+        if (!concepts.has(id)) errors.push(`${label}: also-assessed concept ${id} is not a concept that exists${WITH_HINT}`)
       }
       if (!block.difficulty) errors.push(`${label}: no "Difficulty:" line`)
       else questionDifficulty[block.difficulty] = (questionDifficulty[block.difficulty] ?? 0) + 1
@@ -533,6 +1123,8 @@ if (kind === 'practical') {
 
   console.log(JSON.stringify({
     file, kind, items: rows.length,
+    // Scoping, which practicals could not carry until the importer learned it.
+    warnings: completenessWarnings('practical', rows),
     byType: rows.reduce((out, row) => ({ ...out, [row.type ?? '?']: (out[row.type ?? '?'] ?? 0) + 1 }), {}),
     questions,
     markSchemeItems,
@@ -568,6 +1160,11 @@ if (kind === 'article') {
     const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
     for (const error of validateImportRow('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('article', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('article', values)) errors.push(`${where}: ${error}`)
 
     const item = materialiseNewItem(importRowToContent('article', values, `row-${index}`))
     const data = item.articleData
@@ -602,6 +1199,8 @@ if (kind === 'article') {
   console.log(JSON.stringify({
     file, kind, items: rows.length,
     fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    // Per-record completeness, which the file-level fieldsUsed above cannot show.
+    warnings: completenessWarnings('article', rows),
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
     mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
@@ -774,20 +1373,34 @@ rows.forEach((values, index) => {
   for (const key of Object.keys(values)) {
     if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
   }
+  // An update restates its discriminator and only the columns it changes, so
+  // the authoring fields below are asked of creates alone.
+  const isUpdate = isRecognisedUpdate('concept', values)
   if (!values.label?.trim()) errors.push(`${where}: label is required`)
+    for (const error of catalogueErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('concept', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('concept', values)) errors.push(`${where}: ${error}`)
   const concept = materialiseNewConcept(conceptFromRow(values))
   for (const nodeId of [concept.primaryNodeId, ...(concept.secondaryNodeIds ?? [])].filter(Boolean)) {
     if (!MEDICAL_TAXONOMY_INDEX.byId.has(nodeId)) errors.push(`${where}: placement ${nodeId} is not a canonical node`)
   }
+  const alreadyOnTheLiveRecord = liveCandidates.get(values.id?.trim()) ?? new Set()
   for (const candidateId of concept.sourceCandidateIds ?? []) {
+    // A candidate the live record for this exact ID already carries is not an
+    // invention: the author is restating an unchanged field on an update row.
+    // It was minted against whatever index was current when the concept was
+    // first authored, which need not be the one this directory symlinks to.
+    if (alreadyOnTheLiveRecord.has(candidateId)) continue
     if (!corpusConcepts) errors.push(`${where}: ${candidateId} cannot be checked — the concept candidate index is missing, and an unchecked candidate ID points at nothing`)
     else if (!corpusConcepts[candidateId]) {
       errors.push(`${where}: ${candidateId} is not a concept candidate the corpus contains — do not invent a candidate ID`)
     }
   }
-  if (!concept.definition) errors.push(`${where}: no definition`)
-  if (!concept.explicitObjective) errors.push(`${where}: no explicit objective — a concept without one cannot be assessed`)
-  if (!concept.arabicLabel && !concept.fieldNotes?.arabicLabel) errors.push(`${where}: no Arabic label and no field note saying why (LD-15)`)
+  if (!isUpdate && !concept.definition) errors.push(`${where}: no definition`)
+  if (!isUpdate && !concept.explicitObjective) errors.push(`${where}: no explicit objective — a concept without one cannot be assessed`)
+  if (!isUpdate && !concept.arabicLabel && !concept.fieldNotes?.arabicLabel) errors.push(`${where}: no Arabic label and no field note saying why (LD-15)`)
   records.push(concept)
 })
 
@@ -799,6 +1412,8 @@ console.log(JSON.stringify({
   kind,
   items: rows.length,
   fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+  // Per-record completeness, which the file-level fieldsUsed above cannot show.
+  warnings: completenessWarnings('concept', rows),
   placements: records.map((record) => record.primaryNodeId),
   // `notes` was missing from this branch's report, so anything it had to say
   // about a check it could not run had nowhere to appear.

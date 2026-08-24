@@ -3,7 +3,7 @@ import assert from 'node:assert/strict'
 import {
   IMPORT_SCHEMAS, importRowToContent, validateImportRow,
   parseAnnotations, parseMediaRequests, parseCalloutEvidence, parseRelatedArticles, parseFieldNotes,
-  parseDecisions, parseLabQuestions,
+  parseDecisions, parseLabQuestions, practicalDataFrom,
 } from './bulkImport.ts'
 import { mergeContentItem, materialiseNewItem } from './importMerge.ts'
 import { listDirective, applyListDirective, optionalList, isAppend } from './importSemantics.ts'
@@ -1007,4 +1007,24 @@ test('a labelling payload on a non-labelling format is refused', () => {
     ...FULL_QUESTION, labeling_image: 'https://example.test/a.png',
   })
   assert.ok(errors.some((error) => /only a labelling question carries them/.test(error)))
+})
+
+test('an update that omits module_subject leaves the live placement alone', () => {
+  // `parseModuleSubjectPaths('')` returns `[]`, and `[]` is a value the merge
+  // writes — so a sparse update row that never mentioned `module_subject`
+  // collapsed the live record's curriculum placement to nothing. Four kinds
+  // computed it unconditionally; `conceptImport.ts` had the guard and they did
+  // not. The column absent means untouched, not emptied.
+  const withPath = importRowToContent('article',
+    { id: 'ART-MS', title: 'T', subject: 'msk', topic: 't', summary: 's', module_subject: '101 ISK > Anatomy > Hip' }, 'p')
+  assert.deepEqual(withPath.articleData?.moduleSubjectPaths, ['101 ISK > Anatomy > Hip'])
+
+  const sparse = importRowToContent('article',
+    { id: 'ART-MS', title: 'T', subject: 'msk', topic: 't', summary: 's' }, 'p')
+  assert.equal(sparse.articleData?.moduleSubjectPaths, undefined,
+    'undefined is what makes the merge skip it; [] would overwrite the live path')
+
+  // The same guard on every kind that carries the column.
+  const practical = practicalDataFrom({ type: 'OSCE station' })
+  assert.equal(practical.moduleSubjectPaths, undefined)
 })

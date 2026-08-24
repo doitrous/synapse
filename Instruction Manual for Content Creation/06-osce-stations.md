@@ -25,6 +25,52 @@ review, and the folder's `INDEX.md` should say which is which either way.
 
 ---
 
+## Priority of sources
+
+Highest first (00 §A), and a practical format is where this matters most, because a station
+written from the wrong tier teaches the wrong exam:
+
+1. This department's own practical atlas, OSCE bank, or station sheets — official.
+2. Other official files for the same module (lecture handouts, past mark schemes).
+3. Doctor notes, student notes, academy material — tier ≤5, never the sole source of a
+   mark-scheme item.
+4. A standard textbook, only where the corpus has no department text, cited as such.
+
+**Another university's OSCE bank or atlas is never this university's signal.** It may confirm
+a finding is genuine, never that it is examined here.
+
+## Media (S6 of the pipeline)
+
+An item that needs an image, specimen, slide or film to be answerable carries
+`media_recommendations` and is **marked as a request, never rewritten into prose** that
+describes the asset instead of showing it. This is stage S6 (see
+[13-orchestration.md](13-orchestration.md) §4); an item with an open, correctly-formed
+request is importable now and completes S6 once the asset lands.
+
+## Scope: universities and module
+
+A practical station is scoped exactly as a question is: by `universities`, `years` and
+`module` — ID lists with the standard rules (`\|`, `;` or newline; leading `+` appends; an
+absent column leaves the existing value untouched). The record has always carried
+`universityIds`/`yearIds`/`moduleIds` and the Practical editor could set them; until
+2026-08-22 the importer had no column to read, so every imported station arrived unscoped.
+An empty `universities` list means EVERY university. Scope is separate from concept tagging
+and `module_subject`.
+
+No practical is live yet — the content ledger holds zero — but 52 stations already authored
+in the Kasr batches are unscoped and must gain these three columns before import.
+
+## Stages and completeness
+
+A station is not "done" the day it validates. It passes through the stages in
+[13-orchestration.md](13-orchestration.md) §4 — S2 build, S3 tag & place, S6 media, S7
+completeness — and a station is only finished once its `fieldsUsed` (or, here, the
+mark-scheme-item count) meets this type's floor and every media request from S6 is either
+supplied or still tracked. Do not report a station "complete" on the strength of `medical:batch`
+alone; `medical:audit` and the media ledger are part of the same gate.
+
+---
+
 ## Shared practical fields
 
 Every practical format carries these. They are restated in each of manuals 06–10 so you
@@ -34,7 +80,7 @@ can work from one file.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `OSCE station` here. Exact string — see the box above. |
 | `title` | Title | **yes** | What the station is. |
-| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
+| `subject` | Subject ID | **yes** | One of the 20 in `src/data/curriculumCatalog.ts` (00 §3) — not just the eight with live concepts. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |
@@ -43,6 +89,9 @@ can work from one file.
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. Whole-item difficulty. |
 | `station_image` | Station image | no | An image the station is built around — a radiograph on the light box. **Images only**: the runner renders it as an image, so audio or video shows a broken one. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
+| `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
+| `years` | Year IDs | — | Year IDs this station is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
+| `module` | Module ID(s) | — | Module ID(s) this station sits under (Kasr `101 ISK`; other universities prefixed, e.g. `AU-MED-102`). |
 | `main_concept` | Main concept(s) | — | What this station is **for**. Awards mastery. |
 | `concept_ids` | Also assessed | — | What it also genuinely assesses. Awards mastery. |
 | `contextual_concept_ids` | Mentioned only | — | What the scenario needs but never tests. **Awards no mastery.** |

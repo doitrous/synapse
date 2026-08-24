@@ -18,61 +18,45 @@ are done.
 
 ---
 
-## 1 · ~~Thirteen rows have no `canonical_key`~~ — done; eight still owe content
+## 1 · ~~Thirteen rows have no `canonical_key`~~ — closed, and the rest was my error
 
-**All thirteen now carry a `canonical_key`, and `medical:concept-ids` exits 0.**
-That gate scans the whole concept directory, so it was red for every lane, not
-just this one; it is green now. The keys follow the convention already in these
-files, `topic.subtopic.aspect`, and were checked for collision against the 659
-keys in the directory.
+**All thirteen carry a `canonical_key` and every 103 BMS concept batch validates
+at 0 errors.** `medical:concept-ids`, which scans the whole concept directory
+whatever paths it is given, is green.
 
-The thirteen were three different jobs and only the first is closed:
+**Correction, 2026-08-23.** An earlier version of this file said eight of the
+thirteen still owed a `definition` and an `explicit_objective`, and that they
+needed the corpus and an author who had read it. That was wrong, and it was
+routed for staffing on my say-so. Withdrawn.
 
-| Rows | `canonical_key` | `definition` | Article-linked | Still owed |
-| --- | --- | --- | --- | --- |
-| biochemistry ×5 | **done** | yes | yes | **nothing — these are complete** |
-| anatomy ×3 | **done** | no | yes | `definition`, `explicit_objective` |
-| anatomy ×2, histology ×3 | **done** | no | **no** | `definition`, `explicit_objective`, an article |
+Those eight rows are **sparse updates to concepts that already exist**. All
+eight ids are live, and all eight live records already carry a definition and an
+explicit objective. The rows restate their label and change a few columns, which
+is exactly what an update row is for. What was actually broken was the
+validator: it asked every row for the authoring fields, including rows that were
+editing a record rather than creating one, and reported the absence as a debt.
+Fixed — `medical:batch` now recognises an update (an id that resolves to live
+state or a `--with` sibling, plus its discriminator restated) and asks the
+authoring fields of creates only.
+
+So 103 BMS owes nothing on these thirteen rows. The keys were real work; the
+definitions were a measurement error, and mine.
+
+The keys, for the record:
 
 ```
-biochemistry — complete, validates clean
-  CON-HEM-A1EF4D20C85878  hmp.g6pd.key-enzyme-nadph
-  CON-HEM-4F64967BBFBB6F  g6pd.deficiency.oxidant-haemolysis
-  CON-HEM-F2B664C215C912  haemolytic-anaemia.definition.jaundice
-  CON-REN-31708150F8B722  gout.chronic.tophi-and-urate-stones
-  CON-REN-E5BAEF03791C8F  gout.allopurinol.urate-lowering-and-renal-caution
-
-anatomy — an article already teaches them; they need a definition
-  CON-MSK-594BD65D8C0D7A  femur.adductor-canal.anterior-relations
-  CON-MSK-700EC3AB121997  femur.adductor-canal.posterior-relation-adductor-longus
-  CON-MSK-6F2C49EFF66B46  femur.adductor-canal.posterior-relation-adductor-magnus
-
-the untaught five — a definition and something to teach them
-  CON-MSK-959D95DCE2E022  hip.acetabulum.articular-surface
-  CON-MSK-78379D5B8914BC  hip.acetabulum.acetabular-branch-medial-circumflex
-  CON-MSK-967E873EEEACE0  bone.cells.four-types
-  CON-MSK-E36936D62038BF  skeletal.myofibril.a-and-i-bands
-  CON-DER-A4BD56E5027310  hair-follicle.arrector-pili.structure-attachment
+biochemistry   hmp.g6pd.key-enzyme-nadph · g6pd.deficiency.oxidant-haemolysis
+               haemolytic-anaemia.definition.jaundice
+               gout.chronic.tophi-and-urate-stones
+               gout.allopurinol.urate-lowering-and-renal-caution
+anatomy        femur.adductor-canal.anterior-relations
+               femur.adductor-canal.posterior-relation-adductor-longus
+               femur.adductor-canal.posterior-relation-adductor-magnus
+               hip.acetabulum.articular-surface
+               hip.acetabulum.acetabular-branch-medial-circumflex
+histology      bone.cells.four-types · skeletal.myofibril.a-and-i-bands
+               hair-follicle.arrector-pili.structure-attachment
 ```
-
-**Why the remaining eight were not finished at the same time.** A `canonical_key`
-is derivable from the row's own `label` — it renames what is already there. A
-`definition` and an `explicit_objective` are new medical assertions, and this
-module's rule is that those come from a source with provenance, not from a model's
-background knowledge. Writing eight plausible definitions would have cleared
-`medical:presence` and left eight uncited claims behind a green gate, which is the
-`[clear]`-sentinel failure in another costume: the check stops reporting and
-nothing is actually known. They need the 103 BMS corpus and an author who has read
-it.
-
-`medical:batch` on the three files: biochemistry **0 errors**, anatomy 15,
-histology 6 — all fifteen and six are `no definition` / `no explicit objective` on
-those eight rows. Identical counts before this change, so nothing regressed; the
-key was simply never what those errors were about.
-
-**One side effect worth knowing.** `coverage/101-ISK-untaught-concepts.md` used to
-list the five untaught concepts with blank names, because it prints the canonical
-key and they had none. It names them now.
 
 ## 2 · Why this blocks lanes other than 103
 

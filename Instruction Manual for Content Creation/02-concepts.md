@@ -14,13 +14,88 @@ fail. Do not repeat that.
 |---|---|
 | **Imports at** | Admin › Concepts › Import (`/admin/concepts/import`) |
 | **Goes in** | `docs/import-ready/concept/` |
-| **Recognised by** | the presence of `label` or `canonical_key` — **always include `label`** |
+| **Recognised by** | the presence of `label` or `canonical_key` for *kind detection* — but the row itself is refused without `## label` regardless; **always include `label`, `canonical_key` does not substitute** |
 | **`fieldsUsed` floor** | **50** of 52 for a **new** concept — the worked example scores **52** |
 
 The floor applies to new records only. An **update** is deliberately sparse — `id` + the
 discriminating columns + the fields you are changing — and will score far below it. Validate
 an update with `medical:simulate` and confirm `created: 0, updated: 1`; `medical:batch` and
 the floor do not apply. See [00-START-HERE §2](00-START-HERE.md).
+
+**An update row must still restate `## label`.** `canonical_key` may accompany it but does
+not replace it: kind detection resolves a file to `concept` on the presence of either key,
+but the required-field check keys on `label` specifically — a row with `## id` +
+`## canonical_key` and no `## label` fails `label is required` even though the file is
+correctly typed as a concept batch. Drop both keys and the file's kind can resolve to
+`unknown` instead. `medical:batch` has always refused a label-less row outright — exit 1,
+`label is required`, alongside the `470fdde` stub-create error. It was `medical:simulate`
+that stayed quiet: it used to put such a file in its `skipped` list and exit 0, so a run
+could print zero errors while a sparse row of `## id` + `+universities` alone never applied.
+Since `d82dd36`, `medical:simulate` errors on any file carrying `## id` rows it cannot type,
+naming the ids and the missing discriminator; a file with no `## id` rows at all still just
+shows up as a skip. Verified 2026-08-22 by the Ain Shams toolchain lane against the real
+validator, and again the same day by the Alexandria lane: 23 pending-live rows with
+`## canonical_key` but no `## label` all failed `label is required` against `d82dd36`.
+Restate the Kasr label verbatim on every sparse update row.
+
+Append to a list field rather than retyping it, with a leading `+` on the cell — `+au`,
+`+AU_Y1`, `+AU-MED-102`. Both the pipe-joined and the one-item-per-line form are safe: a
+parser bug once stored every `+item` after the first with its plus still attached, in both
+forms equally, and it is fixed at the parser (`312777b`) — there was never a form that
+avoided it. A cell that mixes a plain item with a `+` one, `X | +Y`, is refused as ambiguous
+rather than guessed at.
+
+**`+` only works on a true ID-list column.** It is `listDirective`/`splitList`
+(`src/data/importSemantics.ts`) that strips the leading `+` and appends — fields parsed a
+different way never see it. `module_subject` is the case that bit: it is a list of paths, not
+of IDs, split on newlines by `parseModuleSubjectPaths`, which never strips a `+`, so
+`+101 ISK > Anatomy > Upper Limb` is stored with the literal `+` in front of it, not appended
+to what was already there. Write a non-ID-list field as a full replacement, every time.
+Verified 2026-08-22 by the Ain Shams toolchain lane against the real validator;
+`medical:batch` now refuses it (`d82dd36`).
+
+Never write a **full record** over a hit: every field you name replaces what live state
+holds, so a full record that means to add `AU` to `universities` but retypes the field
+without the existing entries silently evicts every university already there. Carry only what
+you are changing — never restate `source_candidate_ids` copied from the live record. An
+update row is checked exactly like a new one, against the corpus concept index sitting beside
+the batch, and a candidate ID that is real on the live record but absent from that index
+fails as though invented. An `id` that is not live is refused outright rather than quietly
+turned into a stub (`470fdde`).
+
+**A sparse overlay update must carry all six per-university tags for the university it is
+adding, not just `universities`** — see [00-START-HERE §3, "Per-university
+traceability"](00-START-HERE.md#per-university-traceability-on-shared-records). A concept
+Alexandria overlays onto a Kasr record needs, in one sparse row: `+au`, `+AU_Y1`,
+`+AU-MED-102`, and (since `module_subject` fully replaces) a `module_subject` cell restating
+Kasr's existing path(s) plus Alexandria's own:
+
+```markdown
+## id
+CON-MED-...
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-102
+
+## module_subject
+101 ISK > Anatomy > Upper Limb
+AU-MED-102 > Anatomy > Upper Limb
+
+## exam_weight_by_year
+AU_Y1=0.5
+
+## field_notes
+university_notes: not a field on concepts — put the source note in field_notes or on the covering article
+```
+
+Concepts have no `university_notes` column; name your source (paper/bank/page) in
+`field_notes` instead, e.g. `au: MED 102 EOM 2024 p3`.
 
 ---
 
@@ -35,6 +110,25 @@ the floor do not apply. See [00-START-HERE §2](00-START-HERE.md).
 
 A good concept label is a **claim**, not a heading. "Ejection fraction classifies heart
 failure; it does not define it" is a concept. "Heart failure" is a topic.
+
+---
+
+## Scope
+
+A concept exists for one of two reasons, in that order of priority: a banked question tests
+it, or the department book chapter the module examines teaches it. Record which — list every
+paper it came up on in `exam_signal`; where it exists only because the chapter teaches it and
+no banked question has tested it yet, say so in `evidence_gaps`. A concept the module never
+sits, in either sense, is out of scope.
+
+## Stages
+
+Writing this file is **S2** of the pipeline in [13-orchestration.md](13-orchestration.md) §4,
+run after S1 triage has assigned the concept. S3 tags and places it — see Placement, below.
+S4 gives it typed relations ([03-relationships.md](03-relationships.md), and step 4 below).
+S5 gives it an evidence chain (`atomic_claim_ids`, below). None of that is optional: a concept
+is not finished — whatever `fieldsUsed` says — until it has an article that teaches it, at
+least one typed relation to a sibling, and evidence behind its claims.
 
 ---
 
@@ -80,6 +174,16 @@ Run it again for every alias you intend to give it, and for the synonym another 
 would have reached for. If anything comes back, go to 00-START-HERE §4 and decide between
 update, distinguish, or record-as-rejected. **Do not proceed to step 2 on a hit.**
 
+It searches live state, `docs/import-ready`, every `docs/*-Source-Imports`, and — beside the
+usual label/title fields — the `canonical_key` column of every pending batch, because a
+canonical key rarely reads like a label-shaped search term and used to slip past this check
+entirely.
+
+**A hit only in another lane's unimported batch** — not live, not yours — is still a hit.
+Write your update as a sparse record in that import root's `pending-live/<slug>.md`, with an
+`INDEX` line reading "apply after `<the other lane's file>`". Do not edit their file, and do
+not treat an unimported batch as though it does not exist.
+
 ## Step 2 · Mint the ID
 
 Every one of the 1,718 concepts in live state is `CON-<SYSTEM>-<14 hex>`. The importer does
@@ -96,6 +200,20 @@ one graph. So the ID is never optional.
 >
 > The 19 valid codes: `AND CVS DER DEV END FND GIT GYN HEM IMM INF MSK MUL NEU OBS POP PSY
 > REN RES`.
+
+**One medical idea is one ID, across every university.** `universities`, `learner_years` and
+`module_subject` are overlays on that one record — a second university teaching the same idea
+is a sparse update adding itself to those fields, never a second concept. This is exactly what
+step 1's search exists to protect, and it is also why this tool never salts the hash with a
+module or a university: `mint-concept-id.mjs` hashes the canonical key alone, so the same idea
+mints the same ID no matter who asks for it.
+
+Kasr's own pipeline (`mintConceptId` in `scripts/kasr/seeds/types.ts`) does the opposite — it
+salts the hash with the module (`kau:<module>:<key>`), so two modules teaching one idea mint
+two IDs on purpose, to be found by the redundancy scan below and merged by a human. Both
+minters are real and both are in use today. Which one a new lane should use, and how a
+module-salted ID and an unsalted one for the same idea get reconciled, is a product question
+the chief of staff holds — do not decide it yourself mid-batch.
 
 First write the **canonical key** — a stable, dot-separated de-duplication key,
 `entity.relation.qualifier`:
@@ -160,22 +278,30 @@ them **present**, so write both.
 
 | Key | Admin label | Rule |
 |---|---|---|
-| `subject` | System / subject ID | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
+| `subject` | System / subject ID | One of the 20 in `src/data/curriculumCatalog.ts` — see [00-START-HERE §3](00-START-HERE.md). Twelve of the twenty have no live concept yet; that is not a reason to avoid them. |
 | `primary_node_id` | Canonical node ID | One canonical taxonomy node — `SYS-CVS-T02-S01-M01`. Must already exist. This is the concept's one home. |
 | `article_ids` | Article IDs | Every article that teaches this concept. **Each of those articles must list this concept back** in `related_concepts`. A concept with no article is an orphan. |
+
+Source material does not always name one of the 20 outright. Placement for the ones without an
+obvious home: `Community medicine` → `pop`; `Psychology` → `psy`; `Microbiology` and
+`Parasitology` → `inf`; `Forensic medicine`, `Toxicology`, `ENT` and `Ophthalmology` → the body
+system of the mechanism or the target organ — asphyxia → `resp`, otitis/conjunctivitis → `inf`,
+the visual pathway/pupil/audiovestibular system → `neuro`, ocular embryology → `dev`,
+organophosphates → `mul`; an umbrella forensic or toxicology principle with no single target
+organ also → `mul`. `pharm` concepts take the `FND` or `INF` `CON-` system code, never their
+own. (`oph` and `ent` as subjects in their own right: pending Omar.)
 
 ### Audience and weighting
 
 | Key | Admin label | Rule |
 |---|---|---|
 | `learner_years` | Learner years | `2 \| 3`. Numeric. Which years actually meet this. |
-| `universities` | University IDs | Canonical university IDs. Which universities teach it. |
+| `universities` | University IDs | Canonical university IDs. Which universities teach it. **Must be non-empty** — an empty list makes the record visible to every university, which is rarely what you mean. |
 | `blueprint_weight` | Blueprint weight (0–1) | Overall exam weight. 0.8 = examined nearly every sitting; 0.2 = examined rarely. |
 | `exam_weight_by_year` | Exam weight by year | `HU_Y2=0.7 \| HU_Y3=0.5`. Per-year override where a year weights it differently from the overall figure. |
 | `clinical_relevance` | Clinical relevance (0–1) | How much it matters on the ward. |
 | `academic_relevance` | Academic relevance (0–1) | How much it matters in the written exam. These genuinely differ — the Krebs cycle is high academic, low clinical. |
-| `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. The canonical placement is `primary_node_id`; this is the curriculum's own. | `[]` |
-| `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. The canonical placement is `primary_node_id`; this is the curriculum's own. | `[]` |
+| `module_subject` | Module subject path(s) | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. The canonical placement is `primary_node_id`; this is the curriculum's own. |
 | `exam_signal` | Exam appearances | Which papers this came up on, one per line as `src_… \| tier \| year \| p14`. The blueprint weight is **derived** from these. |
 | `weight_confidence` | Weight confidence (0–1) | How sure the weights are. **Be honest; a guess is not a 1.** If you inferred the weight from one past paper, that is 0.3. |
 | `confidence` | Confidence (0–1) | Authoring confidence in the content. Never a substitute for verification. |
@@ -234,7 +360,7 @@ error, because the audit cannot tell an intentional empty from an omission. From
 | `nanotopic` | `NAN_` ID or title. May be blank with a reason. |
 | `secondary_node_ids` | Other valid placements across the four views — `DIS-PHY-T02 \| KNW-DIA`. This is "also appears in". A concept that a discipline course also teaches belongs here. |
 | `related_concept_ids` | The **untyped** neighbour list. Typed edges live in [03-relationships.md](03-relationships.md); this is the loose "see also". |
-| `modules` | Module IDs. Usually blank with a reason — see below. |
+| `modules` | Module IDs. Usually blank with a reason — see below. Kasr modules are bare (`101 ISK`); a non-Kasr university prefixes its own — `ASU-CVS`, `AU-MED-102`, `HU-GIT-301` (uppercase, spaces to hyphens). |
 | `aliases` | Alternate terms and spelling variants. An alias never creates a second concept — it makes the existing one findable. Include abbreviations (`HFrEF`), the full form, and the common misspelling. |
 | `arabic_label` | Reviewed Arabic term. Research it and write it; no additional verification step is required. |
 | `arabic_aliases` | Reviewed Arabic alternates, including the transliterated form students actually say. |
@@ -369,6 +495,25 @@ Two relation types earn special attention because they are the ones that actuall
 revising student and the ones nobody writes: **`often_confused_with`** and
 **`contrasts_with`**. If you know the pair students mix up, that edge is worth more than
 three `related_concepts`.
+
+---
+
+## Redundancy
+
+`npm run medical:duplicate-keys` regenerates `docs/chief-of-staff/duplicate-keys.md` from
+live state plus every batch: an exact `canonical_key` collision, which the ID-stability gate
+also enforces, and a normalised-label collision, which nothing enforces and relies entirely on
+a human reading the report. **A label twin — the same idea written twice under two different
+keys — is a duplicate, not two concepts that happen to agree.** Merge them: pick the surviving
+ID, fold the other's fields into it, repoint every reference (`article_ids`,
+`related_concept_ids`, relation edges, a question's main concept) at the survivor, and record
+the discarded ID in `merge_ids` on the record that absorbed it.
+
+The 101 ISK case: `pectoralis-major-attachment-nerve-action` and
+`pectoralis-major-attachment-action-nerve` are one fact — pectoralis major's attachments,
+nerve supply and action — written to two canonical keys that only reorder the same three
+words, minted to two different IDs as a result. The mint cannot catch this; it only refuses an
+*exact* key collision. Reading the label is the only check that does.
 
 ---
 

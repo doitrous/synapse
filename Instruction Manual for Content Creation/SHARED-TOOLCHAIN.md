@@ -3123,3 +3123,24 @@ against the wrong expectation, and a check whose baseline drifts is on its way t
 
 **An absence check is only as good as the ledger it reads. Regenerate the ledger in the same
 commit as the batch.**
+
+## 2026-08-22 — `check-concept-ids.ts`'s invariant, stated once precisely
+
+**ONE KEY -> ONE ID.** A canonical_key may legitimately appear in several files of a module as
+long as every row carries the same CON- id (e.g. `fibroblast-features-function` in both
+`101-ISK-concepts.md` and `101-ISK-mcq-concepts.md`, same id both places — that is an update,
+not a duplicate, and `check-concept-ids.ts` logs it, not flags it). The failure is two different
+ids for one key in one module, and the script's existing key-grouping and id-grouping checks
+already catch it — they group by key / hash-body with no module filter, which is a superset of
+the module-scoped case, not a gap. Confirmed by a controlled test: a scratch row added to
+`docs/Kasr-Source-Imports/concept/` with a live key
+(`eosinophil-versus-neutrophil-light-microscopy`) and a fresh id was flagged within one run, then
+removed; the reverse (a live id given a second canonical_key) is also caught. Nothing new was
+needed for either direction.
+
+What **was** missing: a record whose canonical_key is blank (the field left "untouched" on an
+update row, per the batch format's "a blank block is untouched, not empty") was reported as a
+generic parse failure regardless of whether it was a legitimate update — 18 false positives were
+live in `103-BMS-histology-concepts.md` alone. The script now only reports a blank canonical_key
+when the id is neither live in `server/data/medical-library-v1.json` nor already established with
+a key elsewhere in the same module's batches.

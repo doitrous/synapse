@@ -164,6 +164,9 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
     fields: [
       ...common,
       { key: 'type', label: 'Practical type', required: true, help: 'OSCE station, Clinical case, Skills checklist, Lab interpretation, or Imaging interpretation.' },
+      { key: 'universities', label: 'University IDs', help: 'Canonical university IDs separated by |, ; or new lines. An empty list means EVERY university.' },
+      { key: 'years', label: 'Year IDs', help: 'Years this station is used in, e.g. KAU_Y1 | KAU_Y2.' },
+      { key: 'module', label: 'Module ID(s)', help: 'Module(s) this station sits under, separated by |, ; or new lines.' },
       { key: 'duration', label: 'Duration', help: 'Expected minutes.' },
       { key: 'marks', label: 'Marks / decisions', help: 'Total marks or number of decisions.' },
       { key: 'difficulty', label: 'Difficulty', help: 'Easy, Moderate, Hard, or Challenging. Whole-item difficulty; a case or interpretation set may also set "Difficulty:" per question.' },
@@ -706,6 +709,20 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
  * `PracticalRunner` reads `practicalData`, not the flat `fields` strings, so an
  * imported practical is only usable once this returns the right shape.
  */
+/**
+ * `module_subject`, absent when the column is.
+ *
+ * `parseModuleSubjectPaths('')` returns `[]`, and `[]` is a value: the merge
+ * writes it, so a sparse update row that never mentioned `module_subject`
+ * collapsed the live record's curriculum placement to nothing. Four kinds
+ * computed it unconditionally — question, article, resource and practical —
+ * while `conceptImport.ts` had the guard. Same rule as every other optional
+ * column: the column absent means untouched, not emptied.
+ */
+function moduleSubjectPathsOf(value: string | undefined) {
+  return value === undefined ? undefined : parseModuleSubjectPaths(value)
+}
+
 export function practicalDataFrom(values: Record<string, string>, ownerId = ''): PracticalAuthoringData {
   const type = values.type?.trim()
   const learningObjective = values.learning_objective?.trim()
@@ -718,7 +735,19 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   const shared = {
     references: values.references?.trim() ? importLines(values.references) : undefined,
     conceptTags: practicalConceptTags(values),
-    moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+    moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
+    // Curriculum scope, which this never read.
+    //
+    // `PracticalCommon` has carried `universityIds`, `yearIds` and `moduleIds`
+    // since stations needed to be assignable to a reviewer, and `itemScope`
+    // reads them — but no column fed them, so every imported practical arrived
+    // with all three empty. Empty means unrestricted, so roughly 190 Kasr
+    // stations were visible to every university's students. `optionalList`
+    // rather than a plain split, so `undefined` still means "column absent,
+    // leave what the practical had" and `+` still appends.
+    universityIds: optionalList(values.universities),
+    yearIds: optionalList(values.years),
+    moduleIds: optionalList(values.module),
     mediaRequests: media?.trim() ? parseMediaRequests(media, ownerId, 'practical') : undefined,
     ...(learningObjective ? { learningObjective } : {}),
   } as unknown as PracticalCommon
@@ -1140,7 +1169,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
           questionType: text('question_type'),
           mainConceptIds: optionalList(values.main_concept),
           moduleIds: optionalList(values.module),
-          moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+          moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
           clinicalRelevance: clamp01(values.clinical_relevance),
           academicRelevance: clamp01(values.academic_relevance),
           cognitiveEffortScore: clamp01(values.cognitive_effort_score),
@@ -1215,7 +1244,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
         universityIds: optionalList(values.universities),
         yearIds: optionalList(values.years),
         moduleIds: optionalList(values.module),
-        moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+        moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
         subtopicId: text('subtopic'), microtopicId: text('microtopic'), nanotopicId: text('nanotopic'),
         relatedConceptIds: optionalList(values.related_concepts),
         relatedArticleIds: related.ids.length ? related.ids : undefined,
@@ -1310,7 +1339,7 @@ export function importRowToContent(kind: ContentKind, values: Record<string, str
       institution: values.source?.trim() || undefined,
       chapters: splitImportList(values.chapter),
       moduleIds: splitImportList(values.module_ids),
-      moduleSubjectPaths: parseModuleSubjectPaths(values.module_subject),
+      moduleSubjectPaths: moduleSubjectPathsOf(values.module_subject),
       includedConceptIds: splitImportList(values.included_concepts),
       includedArticleIds: splitImportList(values.included_articles),
       conceptLocations: (values.concept_locations ?? '').split(/\r?\n/).map((line, i) => {

@@ -293,7 +293,7 @@ under review
 inference
 
 ## subject
-ren
+renal
 
 ## primary_node_id
 DIS-BIO-T07
@@ -667,7 +667,7 @@ under review
 direct_statement
 
 ## subject
-neu
+neuro
 
 ## primary_node_id
 DIS-BIO-T05
@@ -1417,7 +1417,7 @@ under review
 direct_statement
 
 ## subject
-ren
+renal
 
 ## primary_node_id
 DIS-BIO-T07

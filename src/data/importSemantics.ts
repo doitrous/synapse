@@ -24,9 +24,27 @@ export interface ListDirective<T = string> {
 
 const CLEAR = /^\[clear\]$/i
 
-/** Split on new lines, pipes and semicolons — the importer's list separators. */
+/**
+ * Split on new lines, pipes and semicolons — the importer's list separators.
+ *
+ * A leading `+` is stripped from every item, not only from the first.
+ *
+ * `+` marks the *cell* as an append, and `listDirective` removes it by slicing
+ * one character off the front before splitting. That is correct for a cell of
+ * one item and wrong for every other: `+A | +B` appended `A` and then stored
+ * the literal string `+B`, and `+A\n+B` did the same, so the "one item per
+ * line" workaround did not avoid it. The stored list held an ID no record has,
+ * silently, and nothing downstream could tell it from a real one.
+ *
+ * Stripping here rather than in `listDirective` fixes both separators and both
+ * modes at once, and a leading `+` on a stored value is never legitimate: no
+ * concept, article, claim or resource ID begins with one.
+ */
 export function splitList(value: string): string[] {
-  return value.split(/\r?\n|\||;/).map((item) => item.trim()).filter(Boolean)
+  return value
+    .split(/\r?\n|\||;/)
+    .map((item) => item.trim().replace(/^\+\s*/, '').trim())
+    .filter(Boolean)
 }
 
 /** Read one cell as a list instruction. */

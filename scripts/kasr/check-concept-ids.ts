@@ -27,15 +27,83 @@
  *      the IDs differ in three characters out of eighteen.
  *
  * Exits non-zero on any of them, so it can gate a merge.
+ *
+ * 2026-08-22 — the invariant this whole file enforces, stated once precisely:
+ * ONE KEY -> ONE ID. A canonical_key may legitimately appear in several files
+ * of a module as long as every row carries the same CON- id (e.g.
+ * fibroblast-features-function in both 101-ISK-concepts.md and
+ * 101-ISK-mcq-concepts.md, same id both places — that is an update, not a
+ * duplicate, and is logged, not flagged). The failure is two different ids
+ * for one key in one module, and checks #1/#4 below already catch it: they
+ * group by key/hash-body with no module filter, which is a superset of the
+ * module-scoped case, not a gap. Confirmed 2026-08-22 by a controlled test:
+ * a scratch row added to this directory with a live key
+ * (eosinophil-versus-neutrophil-light-microscopy) and a fresh id was flagged
+ * within one run, then removed. Same test in reverse (a live id given a
+ * second canonical_key) is also caught, by the `id -> multiple keys` check
+ * further down. Nothing new was added for either direction.
+ *
+ * What WAS missing, and is fixed below: a record whose canonical_key is
+ * blank (the field left "untouched" on an update row per the batch format)
+ * was being reported as a generic parse failure regardless of whether it was
+ * a legitimate update. It now only reports when the id is neither live in
+ * server/data/medical-library-v1.json nor already established with a key
+ * elsewhere in the same module — i.e. when the blank key cannot be explained
+ * as "unchanged from an existing record" and looks like a fresh concept that
+ * simply forgot its key.
  */
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 
-const DIR = 'docs/Kasr-Source-Imports/concept'
+/**
+ * Every university's concept directory.
+ *
+ * 2026-08-22 — this scanned `docs/Kasr-Source-Imports/concept` alone, and the
+ * one-key-one-id invariant above is global: one medical idea is one concept ID,
+ * and a university, year or module is an overlay on that record rather than a
+ * separate namespace. So a concept under `docs/Alexandria-Source-Imports/`
+ * reusing a Kasr canonical key with a *different* id passed this gate green —
+ * the exact collision it exists to refuse. Proved with a fixture before the
+ * change: `no rival ids`, exit 0.
+ *
+ * The module-scoped reading in the header still holds and is unchanged; this
+ * only widens where rows are read from, and every check below already groups
+ * with no module filter, which the header notes is a superset rather than a
+ * gap. Widening the scan is what makes that superset actually cover the tree.
+ *
+ * Discovered by shape, not by name — the same rule `find-existing.mjs` uses, so
+ * the tool authors run before minting and the gate that catches them when they
+ * do not agree on what "everywhere" means. The next university must not need an
+ * edit here to be checked.
+ */
+const CONCEPT_DIRS = (existsSync('docs')
+  ? readdirSync('docs', { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && entry.name.endsWith('-Source-Imports'))
+    .map((entry) => join('docs', entry.name, 'concept'))
+  : []).filter((dir) => existsSync(dir)).sort()
+const LIVE_LIBRARY_PATH = 'server/data/medical-library-v1.json'
 
-interface Row { id: string; key: string; subject: string; file: string }
+interface Row { id: string; key: string; subject: string; module: string; file: string; line: number }
+interface IdOnlyRow { id: string; module: string; file: string; line: number }
+
+// Live ids, and the canonical_key each one already carries in production —
+// used only to decide whether a blank canonical_key on a batch row is a
+// legitimate "untouched, unchanged" update field rather than a fresh concept
+// that forgot to state its key.
+const liveKeyById = new Map<string, string>()
+try {
+  const live = JSON.parse(readFileSync(LIVE_LIBRARY_PATH, 'utf8'))
+  const concepts = live?.states?.['synapse-concept-graph-v2']?.concepts ?? []
+  for (const concept of concepts) {
+    if (concept?.id) liveKeyById.set(concept.id, concept.canonicalKey ?? '')
+  }
+} catch (err) {
+  console.error(`warning: could not read ${LIVE_LIBRARY_PATH} (${(err as Error).message}); `
+    + 'the empty-canonical_key check will treat every id as not-live')
+}
 
 const rows: Row[] = []
+const idOnly: IdOnlyRow[] = []
 /**
  * Blocks that look like items but did not parse.
  *
@@ -48,20 +116,64 @@ const rows: Row[] = []
  */
 const unparsed: string[] = []
 
-for (const name of readdirSync(DIR).filter((one) => one.endsWith('.md'))) {
-  const text = readFileSync(join(DIR, name), 'utf8')
-  for (const block of text.split(/^\s*---\s*$/m)) {
+for (const dir of CONCEPT_DIRS) {
+ for (const name of readdirSync(dir).filter((one) => one.endsWith('.md'))) {
+  // Path rather than basename, now that more than one university is scanned:
+  // two of them may each author `concepts.md`, and a message naming only the
+  // basename would report one lane's collision against another lane's file.
+  const where = join(dir, name).replace(/^docs\//, '')
+  const text = readFileSync(join(dir, name), 'utf8')
+  const lines = text.split('\n')
+  // Split on the `---` delimiter like `text.split(...)` did, but keep each
+  // block's starting line number so the new checks can report file:line
+  // instead of just a filename.
+  const blocks: { block: string; startLine: number }[] = []
+  let blockStart = 0
+  let current: string[] = []
+  for (let i = 0; i < lines.length; i++) {
+    if (/^\s*---\s*$/.test(lines[i])) {
+      blocks.push({ block: current.join('\n'), startLine: blockStart + 1 })
+      blockStart = i + 1
+      current = []
+    } else {
+      current.push(lines[i])
+    }
+  }
+  blocks.push({ block: current.join('\n'), startLine: blockStart + 1 })
+
+  for (const { block, startLine } of blocks) {
     const field = (label: string) =>
       // `[ \t]*` and not `\s*`: `\s` matches a newline, so a field whose value
       // is blank would swallow the blank line and return the NEXT heading as
       // its value. Same bug as `build-article-links.ts` had.
       block.match(new RegExp(`^## ${label}[ \\t]*\\n(.+)$`, 'm'))?.[1].trim() ?? ''
+    // Line of the `## id` heading itself, for a precise file:line — falls
+    // back to the block start when `## id` is missing entirely.
+    const idHeadingOffset = block.split('\n').findIndex((l) => /^## id[ \t]*$/.test(l))
+    const line = idHeadingOffset >= 0 ? startLine + idHeadingOffset : startLine
     const id = field('id')
     const key = field('canonical_key')
-    if (id && key) { rows.push({ id, key, subject: field('subject'), file: name }); continue }
+    const module = field('module_subject').split('>')[0].trim()
+    if (id && key) { rows.push({ id, key, subject: field('subject'), module, file: where, line }); continue }
+    if (id && !key) { idOnly.push({ id, module, file: where, line }); continue }
     if (/^#\s*Item\s*$/m.test(block)) {
-      unparsed.push(`${name}: an item with ${id ? 'no canonical_key' : key ? 'no id' : 'neither id nor canonical_key'}`)
+      unparsed.push(`${where}:${line}: an item with ${key ? 'no id' : 'neither id nor canonical_key'}`)
     }
+  }
+}
+}
+
+// A blank canonical_key is normal on an update row (rule: "a blank block is
+// untouched, not empty") — it is only a problem when nothing explains it as
+// an update: the id is not live, and no other batch row in the same module
+// has already given this id a key.
+for (const { id, module, file, line } of idOnly) {
+  const isUpdateRow = liveKeyById.has(id)
+    || rows.some((row) => row.id === id && row.module === module)
+  if (!isUpdateRow) {
+    unparsed.push(`${file}:${line}: concept ${id} has an empty canonical_key and is not `
+      + `explained as an update (not live, and no other ${module || '(no module_subject)'} `
+      + 'batch row already gives it a key) — a new concept needs one')
   }
 }
 

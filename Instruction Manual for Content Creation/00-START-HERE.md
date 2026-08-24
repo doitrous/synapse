@@ -8,6 +8,108 @@ them, commit them, or push them. A human applies them by hand.
 
 ---
 
+## 0 · Why you are here
+
+**North star:** a student solves the question bank — MCQ, written, practical — and then
+excels in their university exam. Every ruling below exists to serve that, and nothing
+else.
+
+### The law of priority
+
+Source priority, highest first:
+
+1. **Actual exam papers** of that university / year / module (EOM, EOY, resit/Baqoon,
+   end-of-rotation), with their official keys or model answers.
+2. **Department files** — department books, department question banks / MCQ books,
+   practical atlases, official lecture files.
+3. **Doctor notes, student notes, academy material** — tier ≤5 only, and never as the
+   sole source of an answer.
+4. **Standard textbooks** — only where the corpus has no department text for the
+   point, and cited as such in `field_notes`.
+
+**Scope is examinable.** Write what the module can examine — its own papers plus its own
+department-book chapter — never wider. Inside a module, work in this order:
+
+1. The concepts and articles that banked questions actually need.
+2. The rest of the examinable chapter.
+3. Nothing the module never sits.
+
+**Sequence: articles before questions.** The validator refuses a question whose main
+concept has no covering article — write or claim the article first, in the same batch.
+
+**Answers come only from an official key or the department book**, page cited, never
+reconciled by hand. A questionable printed key is recorded as printed, not silently
+corrected. A garbled key is rendered by eye with the method recorded — or, failing that,
+the question is left unkeyed and unauthored. An item that depends on an image becomes a
+media request (§6), never a prose rewrite of what the image would have shown.
+
+**Worked example.** A Kasr renal paper has a garbled MCQ key next to a clean
+department-book chapter that never mentions the drug the question's stem names. You do
+not average the two. You record the printed key as printed — or unkeyed, if it truly
+cannot be read — and you write the article from the department book, not from the
+question stem: a past paper is a source of *what was asked*, never of medical fact.
+
+---
+
+## Roles and the chain of command
+
+- **Omar (owner).** The only human. Imports batches by hand via admin Bulk Import.
+  Decides product questions. Supplies tokens, Telegram channel links, reviewers.
+- **Chief of staff (one session).** The single channel every lane reports to — lanes
+  never message each other. Issues standing orders, rulings, the browser queue,
+  pause/resume. Audits lane self-reports with independent read-only subagents.
+  Escalates to Omar only what genuinely needs him. Keeps `docs/chief-of-staff/BOARD.md`.
+- **Orchestrator** (one session per university-year lane — Kasr Y1, Kasr Y2–5,
+  Alexandria, Ain Shams, Helwan). Plans its lane, dispatches Sonnet subagents with
+  explicit file ownership, holds a LANE-BRIEF, consolidates reports, runs the triage
+  checkpoint. Never authors content itself. Commits checkpoints on its own branch, never
+  pushes.
+- **Validator / shared-tooling lane.** Owns the gates and the importer, serves the
+  content lanes, lands on `main`, reports hashes to the chief of staff.
+- **Subagent / authoring lane** — you, most of the time. Reads this file plus one type
+  manual, writes batches, runs the gates, and reports in ≤20 lines: lane · produced ·
+  validation · traceable-to-question share · drift to rule on · blockers · next. Ends its
+  turn with a `BLOCKED` section when stuck, rather than guessing.
+
+**Report discipline.** ≤20 lines. Numbers come from scripts, never estimates. **A claim
+of green gates without pasted output is not green** — gate summary lines belong in the
+commit body, or in `coverage/<module>-GATES.md`.
+
+**The triage checkpoint.** Before any lane mints a single record, its orchestrator sends
+the chief of staff one table — questions triaged · distinct concepts tested ·
+live-hit / pending-hit / new — and waits for **TRIAGE APPROVED** before anyone writes.
+
+The full operating procedure — LANE-BRIEF format, the browser queue, escalation paths —
+is [13-orchestration.md](13-orchestration.md). This file covers what every lane needs;
+that one covers how lanes are run.
+
+---
+
+## Content moves in stages
+
+A record is **not finished** the moment `medical:batch` passes. It moves through nine
+stages, each with its own gate, and the coverage ledger in each import root's
+`coverage/` folder tracks where every record currently sits:
+
+| Stage | What is produced | Gate |
+|---|---|---|
+| **S0 Intake** | Source manifest: sha256, textLayer, name-twins, tier, sitting year, module | Manifest validates; twins resolved; tier ≤5 |
+| **S1 Triage** | Questions read, keys recovered, each assigned its tested concept; concept keys searched live + pending → live / pending / new | Triage checkpoint table; **TRIAGE APPROVED** |
+| **S2 Build** | Concepts → articles (covering every tested concept) → questions | `medical:batch`, `concept-ids`, `presence`; gate lines in commit body |
+| **S3 Tag & place** | Taxonomy placement, `universities` non-empty, years, weights, difficulty, `exam_weight_by_year` | Catalogue check; placement resolves; no blank required tags |
+| **S4 Relate** | Typed concept relations with evidence; article ↔ concept links both directions | Relations batch validates; every question's concept covered by an article |
+| **S5 Evidence** | Claims, citations, spans from the department book | `medical:citations`; `atomicClaimIds-missing = 0` |
+| **S6 Media** | `media_recommendations` on every record that needs one | Media ledger lists every open request |
+| **S7 Completeness** | `fieldsUsed` at floor; explanations ≥3 sentences; dup/label-twin scan clean | `medical:audit` delta zero; `duplicate-keys` zero; `INDEX.md` |
+| **S8 Hand-over** | Full-sequence simulate in Omar's import order; `INDEX.md`; `GATES.md` | Omar imports; a named reviewer flips status to Published |
+
+A lane may run S2 for a module before S3–S7 — that is normal, not a shortcut. But
+**nothing is done until S7**, and a self-report that only cites `medical:batch` is
+reporting S2, not completion. Full detail is
+[13-orchestration.md](13-orchestration.md).
+
+---
+
 ## The manuals
 
 | File | Write this when you are creating or editing… |
@@ -24,6 +126,7 @@ them, commit them, or push them. A human applies them by hand.
 | [10-imaging-interpretation.md](10-imaging-interpretation.md) | an imaging interpretation set |
 | [11-glossary-terms.md](11-glossary-terms.md) | a glossary term |
 | [12-resources.md](12-resources.md) | a source: a PDF, textbook, guideline or video |
+| [13-orchestration.md](13-orchestration.md) | how lanes are run: roles, stages, reports, queues |
 
 Read this file, then **one** manual — the one for what you were asked to produce. Each
 manual is complete for its own type; do not skim the others for background.
@@ -37,7 +140,27 @@ sent to author a *different content type*, in its own file — read 03 then, not
 
 ## 1 · Where work goes
 
-One folder per admin import page, so the filename always tells the human which page to open.
+Two kinds of root, and which one you write to depends on whether your batch is tied to
+one university's exam lane or not.
+
+### Per-university import roots
+
+One root per university, each mirroring one exam-paper lane:
+
+```
+docs/Kasr-Source-Imports/
+docs/Alexandria-Source-Imports/     (when present)
+docs/Ain-Shams-Source-Imports/      (when present)
+docs/Helwan-Source-Imports/         (when present)
+```
+
+Only `docs/Kasr-Source-Imports/` exists in this checkout today; the other three are
+created the day that university's lane starts — don't create one yourself on spec.
+Inside each, by content type and stage: `manifest/`, `coverage/`, `concept/`, `article/`,
+`written/`, `practical/`, `question/`, `evidence/`, `relations/`, `glossary/`, plus
+`pending-live/` for a sparse update targeting a concept id that isn't live yet (§3).
+
+### The Systems-view root
 
 ```
 docs/import-ready/
@@ -52,9 +175,20 @@ docs/import-ready/
   glossary/     → Admin › Glossary › Import
 ```
 
-Naming: `<CANONICAL-NODE>-<KIND>-<NNN>.md` — `SYS-RES-CONCEPT-004.md`,
+`docs/import-ready/` still exists, and is still where a batch goes when it is not tied
+to one university's exam lane — a cross-university Systems-view record, most often.
+
+Naming, in either root: `<CANONICAL-NODE>-<KIND>-<NNN>.md` — `SYS-RES-CONCEPT-004.md`,
 `SYS-CVS-PRACTICAL-012.md`. Keep each folder's `INDEX.md` current: counts, what to expect
 after importing, and anything the human must do in a particular order.
+
+### Toolchain
+
+`scripts/kasr/` is the shared toolchain — Kasr's own, and the template every other
+university's lane copies from. A new lane copies what it needs into `scripts/<uni>/` and
+edits its own copy from there. **Never edit another lane's files under `scripts/`** —
+Kasr's included — a shared script changes behaviour for every lane still relying on it,
+silently.
 
 **A file is finished when it validates clean.** Nothing here is imported until Omar does
 it. Never run `git commit`, `git push`, or an import.
@@ -63,7 +197,7 @@ it. Never run `git commit`, `git push`, or an import.
 
 ## 2 · The file format
 
-Every importer except the glossary reads the same markdown:
+Every importer, the glossary included, reads the same markdown:
 
 ```markdown
 # Item
@@ -92,7 +226,13 @@ value
   `## canonical_key` are the same key.
 - One file may hold many records of the same kind. Practicals may mix all five formats.
 
-The glossary is the exception: it uses a pipe table. See [11-glossary-terms.md](11-glossary-terms.md).
+Key order within a record does not matter to the importer; never write a script that assumes
+it.
+
+The glossary is not an exception to this format — it goes through the same generic import
+wizard and the same `# Item` / `## field` parser as everything else. Its field keys and the
+handful of headings that need spelling to auto-map correctly are in
+[11-glossary-terms.md](11-glossary-terms.md).
 
 ### Two list-splitting rules, and mixing them corrupts your prose
 
@@ -100,6 +240,10 @@ The glossary is the exception: it uses a pipe table. See [11-glossary-terms.md](
 |---|---|---|
 | **ID lists** | newline, `\|`, `;` | `concept_ids`, `resource_ids`, `universities`, `years`, `module`, `aliases`, `secondary_node_ids`, and every other list of identifiers |
 | **Prose lists** | **newline only** | `hold_these`, `lose_the_mark`, `actor_flags`, `references`, `field_notes`, `university_notes`, `related_articles` |
+
+A `+` only means append on a list column. On a prose, `key: value` or path column —
+`module_subject` among them — it is stored as part of the value, and `medical:batch` now
+refuses it (`d82dd36`). Write those fields as a full replacement.
 
 Prose lists split on newlines only because a semicolon inside a teaching point was cutting
 it into two half-sentences. Your manual's field table names the rule for every field. When
@@ -133,6 +277,50 @@ a practical must always restate `type`.
 A `+` cell adds without re-typing the list, and re-importing the same row does not duplicate
 what it added, so a batch can be applied twice safely.
 
+**Both `+` forms are safe now** — `+A | +B` in one cell, and one `+item` per line — fixed
+at the parser in 312777b. Before the fix, only the first item in a `+`-prefixed cell lost
+its plus; every later item was stored with the literal `+` still on it, an ID no record
+ever has, silently — newline-separated cells had the same bug, so "one `+` per line" was
+never actually the safe form. What is still refused is **mixing** a plain item with a
+`+` one in the same cell (`X | +Y`) — ambiguous, so the validator asks rather than
+guessing whether you meant replace or append. `exam_weight_by_year` never takes a `+`;
+write keyed values instead — `AU_Y1=0.5`.
+
+**`+` only appends on a true ID-list column.** The append/replace/clear/untouched logic
+lives in one place (`listDirective`/`splitList` in `src/data/importSemantics.ts`), and only
+fields parsed through it see the leading `+` at all. `module_subject` is a list of *paths*,
+split on newlines by a separate parser that never strips a `+` — so `+101 ISK > Anatomy`
+imports with the literal plus still on the front, not appended to what was already there.
+Treat any field this manual doesn't explicitly call an ID list the same way: write it as a
+full replacement, never a `+` cell. Verified 2026-08-22 by the Ain Shams toolchain lane
+against the real validator; `medical:batch` now refuses it (`d82dd36`).
+
+**An update row must still restate the kind's discriminator** — `## label` for a concept
+(restate the live record's label verbatim; `canonical_key` may accompany it but does not
+replace it — `detectBatchKind` will still classify a `label`-less, `canonical_key`-only row
+as a concept, but the required-field check in `validate-content-batch.mjs` demands `label`
+specifically and refuses the row without it), the title/question/type field for every other
+kind. Kind is detected once per file from its first row's columns, and a row that drops the
+discriminator because "it's just an update" can make the whole file's kind resolve to
+`unknown`. `medical:batch` has always refused a row like this outright — exit 1, `label is
+required`, alongside the `470fdde` stub-create error — so it was never the silent one. The
+silent one was `medical:simulate`: it used to list such a file under `skipped` and exit 0, so
+a genuinely sparse update — a row of `## id` + `+universities` and nothing else — was never
+applied and never flagged either. Since `d82dd36`, `medical:simulate` errors on any file
+carrying `## id` rows it cannot type, naming the ids and the missing discriminator; a file
+with no `## id` rows at all still just shows up as a skip. Verified 2026-08-22 by the Ain
+Shams toolchain lane against the real validator, and again by the Alexandria lane the same
+day: 23 pending-live rows carrying `## id` + `## canonical_key` but no `## label` all failed
+`label is required` against validator `d82dd36`.
+
+**An update row against an id that is not live is refused, not silently created.** Before
+470fdde, a row carrying only an `id` plus a couple of changed columns — meant as an update
+— would mint a near-empty new record if that id didn't exist yet. The validator now names
+the id and refuses the row. If the id you're updating is authored earlier in the same
+import sequence but not live yet — another lane's unimported batch, or your own — write
+the update in `<import root>/pending-live/<slug>.md` instead, with an `INDEX.md` line
+saying "apply after `<that file>`."
+
 ---
 
 ## 3 · Never invent an ID
@@ -164,16 +352,174 @@ silently attaches your work to the wrong record, or to nothing.
 | `TPL-*` | Article template | `TPL-CONDITION` |
 | `rel-<source>-<type>-<target>` | Concept relation (derived) | |
 
-Subject IDs come from the live curriculum catalogue, not the old eight-ID list. The
-authoritative sources are `src/data/curriculumCatalog.ts` (`CURRICULUM_CATALOG` and
-`CURRICULUM_SUBJECTS`) and `src/data/subjects.ts`. A `subject` value must resolve to a
-valid live subject/system ID. The current set is:
+Subject IDs are exactly these twenty, from `src/data/curriculumCatalog.ts`:
 
-`cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`, `fnd`, `dev`, `haem`,
-`imm`, `inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, `pop`.
+```
+cvs    resp   renal  gi     neuro  endo   msk    pharm  fnd    dev
+haem   imm    inf    obs    gyn    androl psy    derm   mul    pop
+```
+
+Nothing else is valid in a `subject` field.
+
+**Placement for a subject with no obvious home:** Community medicine → `pop`; Psychology
+→ `psy`; Microbiology and Parasitology → `inf`. Forensic medicine, Toxicology, ENT and
+Ophthalmology place by the body system the mechanism or target organ belongs to —
+asphyxia → `resp`; otitis / conjunctivitis → `inf`; visual pathway, pupil, audiovestibular
+→ `neuro`; ocular embryology → `dev`; organophosphates → `mul`; an umbrella
+forensic/toxicology principle with no single organ also → `mul`. A pharmacology concept
+takes `FND` or `INF` as its `CON-` system code (below), never a subject of its own. `oph`
+and `ent` as subject ids are pending an Omar ruling — do not mint against them yet.
+
+This list said eight until 2026-08-22 — the eight that happen to have live
+concepts. The other twelve are equally valid and were being written from memory,
+which is how `ren` and `neu` reached a committed batch: both are placeholdered
+at runtime rather than refused, so nothing said a word. `medical:batch` now
+refuses a subject outside this list.
+
+**Twelve of the twenty have no live concept yet** — `fnd`, `dev`, `haem`, `imm`,
+`inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, `pop`. That is not a reason
+to avoid them; it means you have no precedent to copy, so read the catalogue
+rather than an existing batch. Live counts today: `pharm` 206, `gi` 126, `msk`
+123, `renal` 119, `resp` 112, `neuro` 108, `cvs` 98, `endo` 90.
+
+**`pharm` is the one subject that cannot pick its own `CON-` prefix.** The mint
+refuses it without an explicit body-system code, because live state files all
+206 pharmacology concepts under `FND` (general) or `INF` (anti-infectives) and
+`CON-MUL-` has no members at all. Name the system on the seed.
 
 > Some older live records carry `subjectId: "medical"` — 736 of them, from the extraction
 > pipeline. That is legacy data, not a subject you may use.
+
+### Module ids
+
+A module id is a **global bare string** — one namespace, not one per university. Kasr
+predates the prefix rule and keeps its ids as-is, e.g. `101 ISK`. Every other
+university's module ids carry that university's prefix: `ASU-CVS`, `AU-MED-102`,
+`HU-GIT-301` — uppercase, spaces to hyphens. The validator refuses a non-Kasr module id
+without it.
+
+`## universities` must be **non-empty on every record**, always — empty does not mean
+"none of them," it means **every university**, so a blank field reaches students it was
+never written or checked for. Kasr-only content says `Kasr`, not blank.
+
+### The concept-id overlay rule
+
+One medical idea gets **one concept id, across every university** — `mint-concept-id.mjs`
+hashes `canonical_key` and never salts it, so the same key always mints the same id
+regardless of who writes it. `universities`, `learner_years` and `modules` are overlays on
+that one concept, not separate concepts.
+
+Always run `find-existing.mjs` first (§4) — it searches live state, every
+`docs/*-Source-Imports` root and `docs/import-ready`, including `canonical_key` inside
+pending batches.
+
+- **A hit in live state** → a **sparse update**: the id, the discriminating columns, and
+  only the overlay fields you're adding — `+ASU`, `+ASU_Y2`, `+<module>`. **Never a full
+  record** — it replaces every named field, which can silently evict a university or
+  un-publish a live record by omission.
+- **A hit only in another lane's unimported batch** → the same sparse update, written into
+  `<import root>/pending-live/<slug>.md` with an `INDEX.md` line naming what it applies
+  after (§1, §2).
+
+Kasr's own pipeline salts concept ids per module, so two minters currently exist in this
+repo with different behaviour on the same input — which one a new lane should use is an
+open product question, not yours to resolve by guessing.
+
+### Per-university traceability on shared records
+
+One shared id, but **every university that uses the record carries its own complete tag
+set** — not a share of one combined set. A concept, article, question, resource or
+practical that three universities teach is one record with three universities' worth of
+tags sitting side by side on it, and every one of those universities' tags must be there
+in full, or that university's view of the record is broken without the record looking
+wrong to anyone checking a different university.
+
+The six tags, per kind (verified against the importers, `src/data/*.ts`):
+
+| Tag | Concept | Article | Question | Resource / Practical |
+|---|---|---|---|---|
+| `universities` | `universityIds` (`conceptImport.ts:184`) | `universityIds` (`bulkImport.ts:1233`) | `tags.universityIds` (`bulkImport.ts:1147`) | `universityIds` |
+| `years` | `learner_years` → `learnerYears`, plain numbers (`conceptImport.ts:183`) | `years` → `yearIds`, scoped ids like `OMS_Y2` (`bulkImport.ts:1233`) | `years` → `tags.years` (`bulkImport.ts:1146`) | `years` → `yearIds` |
+| `module` | `modules` → `moduleIds` (`conceptImport.ts:185`) | `module` → `moduleIds` | `module` → `tags.moduleIds` (`bulkImport.ts:1157`) | `module_ids` (resource) |
+| `module_subject` | one path per line, first segment names the module (`conceptImport.ts:194-196`, `moduleSubjectPath.ts`) | same | same (`bulkImport.ts:1158`) | same |
+| `exam_weight_by_year` | `YEAR_ID=weight` pairs (`conceptImport.ts:187`) | — (not a field on this kind) | `YEAR_ID=weight` pairs (`bulkImport.ts:1162`) | — |
+| `university_notes` | — **not a field on this kind today** — | `UNI: text` per line (`bulkImport.ts:117`, `:1183-1184`) | — **landing, not live yet** — | — **landing, not live yet** — |
+
+Every field marked "—" genuinely does not exist on that kind's import contract as of
+2026-08-23; do not invent a column for it. `university_notes` is currently **article-only**
+— a lane is adding it to the question and practical importers, but until that ships,
+university-specific callouts on a question or practical have nowhere to go except
+`author_notes` (internal, never shown to a student) or the article that covers it.
+
+**How each tag actually merges — this is where a second university's overlay gets lost:**
+
+- `universities`, `module` (as an id list) and `years`-as-ids are true ID-list columns:
+  `optionalList`/`listDirective` (`src/data/importSemantics.ts`) give you `+au`, `+AU_Y1`,
+  `+AU-MED-102` — append without retyping what is already there. This is the safe, ordinary
+  case.
+- **`years` carries canonical year ids only** — `KAU_Y1`, `AU_Y1`… — exact case, never the
+  bare label `Year 1` and never a lower-cased id (ruling 2026-08-23). A label names no
+  university, so it cannot be traced per university the way an id can; production `years`
+  holds all three shapes today (`KAU_Y1` 539 rows, `kau_y3` 114 rows, the bare label `Year 1`
+  in 2,469 rows across 41 files). `buildYears` (`src/data/universities.ts:63-75`) mints the
+  real format — `${CODE}_Y${n}` upper-case per university — cite that, not a guess. Kasr
+  normalises its own existing records to ids in its sitting-year sweep; that is cleanup on
+  Kasr's side, not a reason to write the label yourself.
+- `module_subject` is **not** an ID-list column — it is a list of paths, parsed by
+  `parseModuleSubjectPaths` (`moduleSubjectPath.ts:33-38`), which splits only on newlines and
+  never strips a leading `+`. **Today, writing it replaces the field wholesale**; a second
+  university's path must be added by restating every path already there plus your own, in
+  one cell, one path per line — `+101 ISK > Anatomy` stores the literal `+` in front of the
+  path, not an append (`02-concepts.md`, `04-library-articles.md`, `05-questions.md` all
+  carry this warning already). A lane is landing `+<path>` append support for this field
+  (in progress, 2026-08-23) — until it ships, treat every `module_subject` write as a full
+  replacement.
+- `exam_weight_by_year` is a nested object, not a list, so it merges **per key**
+  (`mergeAuthoringData`, `src/data/importMerge.ts:43-59`, recurses into plain objects rather
+  than replacing them). Writing only your own `YEAR_ID=weight` entries is safe — another
+  university's year keys already on the record survive untouched. The trap is the key
+  itself, not the merge: get the year id wrong and your entry sits beside the others,
+  contributing nothing to anyone.
+- `university_notes` (article only) is a flat prose list re-parsed whole on every write
+  (`bulkImport.ts:1183-1184`) — restate every university's note line, not only your own, the
+  same discipline as `module_subject`.
+
+**A record is traceable per university when filtering by that university alone reproduces
+that university's whole view of it** — which years, which modules, which exam weight, which
+source. That is exactly what the runtime does: `itemInScope`/`itemScope`
+(`src/data/contentControl.ts:651-666`) is the question/article/resource/practical filter a
+student's own university and year are run through, and `conceptInScope`
+(`src/data/adaptive/blueprint.ts:84-92`) is the concept one. Reproduce the filter by hand —
+pick one university id, check every tag above resolves to something that names it — and if
+any tag comes up silent, that university's traceability is broken even though every other
+university's is fine.
+
+**What breaks when one tag is missing, verified against the code that reads it:**
+
+- **Empty `universities`** does not mean "no university" — it means **every university**
+  (`itemScope`/`conceptInScope` both treat an empty list as unrestricted). A record you
+  meant to scope to one university, left blank, silently reaches all of them.
+- **A module tagged without its university** (i.e. the university you added is missing from
+  `universities` even though its module id is present) is invisible to that university's
+  own per-university filter — `itemUniversities` (`contentScope.ts:137-141`) and
+  `itemWritableBy` (`contentScope.ts:151-166`) derive "which university" partly from scoped
+  year ids like `AU_Y1`, so a module tag with no matching university or year id on the
+  record cannot be traced back to anyone.
+- **An `exam_weight_by_year` key on the wrong year id is lost**, and not merely unused —
+  `conceptInScope` (`blueprint.ts:88-90`) restricts a concept's blueprint visibility to
+  *exactly* the year ids present in `exam_weight_by_year` once that map has any entries at
+  all. A concept correctly tagged `universities: +au`, `learner_years: +1` but whose
+  `exam_weight_by_year` only ever got a Kasr key (`KAU_Y1`) is **excluded outright** from
+  Alexandria Year 1's blueprint — not under-weighted, absent — because the map names a year
+  Alexandria's filter never matches.
+
+The validator is being extended to enforce this consistency directly — `universities` ↔
+`years` ↔ `module` ↔ `exam_weight_by_year` keys all naming the same set of universities, one
+check rather than four separate fields an author has to cross-check by hand (in progress as
+of 2026-08-23; do not assume it is enforced yet). Until it lands, each module's `GATES.md`
+(13 §4, S8) reports the per-record completeness of these six tags — treat a record flagged
+incomplete there as not actually finished for that university, regardless of what its
+`fieldsUsed` count says.
 
 ---
 
@@ -190,8 +536,12 @@ node "Instruction Manual for Content Creation/tools/find-existing.mjs" "<the lab
 ```
 
 It searches live concepts by label, alias, canonical key and definition; live articles,
-questions and practicals by title and alias; the live glossary in both languages; and every
-unimported batch in `docs/import-ready/` and `docs/questions-import-ready/`.
+questions and practicals by title and alias; the live glossary in both languages; and
+every unimported batch — `docs/import-ready/`, `docs/questions-import-ready/`, and now
+**every `docs/*-Source-Imports` root** it finds (b3cad82), not just Kasr's. Since that
+commit it also matches `## canonical_key` inside a pending batch, not only `## label`,
+`## title`, `## term` and `## aliases` — a mismatched label with a matching key is now a
+hit, not a false "safe to create."
 
 Real output:
 
@@ -292,10 +642,11 @@ is untouched. Note that `aliases` re-types the two existing values alongside the
 that is deliberate, for the `+append` reason given above.
 
 > **Keep the discriminating columns even in an update.** `## label` above is unchanged, and
-> it is there only so the file can be recognised as a concept batch. Strip it and the
-> validator cannot classify the record at all — it falls through to `unknown` and refuses
-> the file, naming the kinds it recognises. (It used to crash with a `TypeError` here, which
-> said the same thing far less usefully.)
+> it is required, not optional — `canonical_key` alone will still get the file classified as
+> a concept batch, but the row itself is refused with `label is required` unless `## label`
+> is restated too. Strip both and the validator cannot classify the record at all — it falls
+> through to `unknown` and refuses the file, naming the kinds it recognises. (It used to
+> crash with a `TypeError` here, which said the same thing far less usefully.)
 >
 > An update record carries `id` + the discriminating columns for its type + only the fields
 > you are changing. Your manual names the discriminating columns in its header box.
@@ -334,6 +685,18 @@ keeps the label and the others carry a **cross-reference** — a link, never a s
 - **Where two subjects mean genuinely different things by the same words, disambiguate the
   label** rather than cross-referencing — "Cardiac excitation–contraction coupling" and
   "Skeletal muscle excitation–contraction coupling", not one shared node.
+
+### The tree-wide duplicate scan
+
+`find-existing.mjs` depends on picking the right query (§4 above). `npm run
+medical:duplicate-keys` (5c28167) is the backstop — it scans the whole tree for one idea
+wearing two concept ids, searched or not. Run it before handing off any batch that mints
+concepts, not only when you suspect a collision.
+
+**Label-twin rule.** The same idea under two different wordings is still a duplicate —
+"Autoregulation of renal blood flow" and "How the kidney keeps its own blood flow
+constant" are one concept, not two, even though no substring search catches both. Read a
+surprising phrasing before deciding it's unrelated.
 
 ---
 
@@ -524,9 +887,50 @@ broken link. Neither errors at import; both are found by `npm run medical:audit`
 
 ---
 
-## 8 · Validate before you hand off
+## 8 · Gates
 
-Run all of these. Zero errors at every step, or the batch is not finished.
+Run all of these. Zero errors at every step, or the batch is not finished — and per
+"Content moves in stages" above, S7/S8 need more of them than S2 alone. The commands
+below show `docs/import-ready/<kind>/` as the path — substitute your actual root
+(§1) when you are writing in a per-university import root instead.
+
+| npm script | What it catches |
+|---|---|
+| `medical:batch` | Per-file shape and column errors; directory-scoped only (below) |
+| `medical:simulate` | The real gate — applies your batch to a copy of live state |
+| `medical:audit` | Under-filled fields, blank-without-reason, broken cross-references |
+| `medical:presence` | Every Kasr concept/article batch actually covers what triage said it must |
+| `medical:citations` | Evidence: every claim traceable, `atomicClaimIds-missing = 0` |
+| `medical:concept-ids` | One key, one id, across every university's `*-Source-Imports/concept` |
+| `medical:id-stability` | An id does not drift between runs |
+| `medical:duplicate-keys` | One idea wearing two concept ids, tree-wide (§4) |
+| `medical:batches-present` | The manifest names batches that actually exist on disk |
+| `medical:validate:authoring` / `medical:validate:taxonomy` | Committed repo state — labels, placement — not your unimported batch |
+| `medical:snapshot-live` / `medical:snapshot-staleness` | Refresh, and measure the gap in, the live-state extract (below) |
+
+Verify these names against `package.json` before typing one from memory — the list above
+matches this checkout today, not a promise about tomorrow's.
+
+- **`--with` for sibling batches.** `medical:simulate` and the presence/citations/
+  concept-id checks resolve ids against live state plus whatever files you pass with
+  `--with`. A question batch validated without its own concept batch beside it errors on
+  the unresolved concept — a real error, not a silent skip — and since daf0d4d that error
+  now adds *"name its concept file with `--with`"*. Pass every sibling batch your ids
+  resolve against.
+- **The catalogue check runs inside `medical:batch`** (57ef0d4), not as a separate
+  script. It checks who a record is claimed for (`universities`, `module`) against
+  `src/data/universities.ts` — it is what refuses a non-Kasr module id without its
+  university prefix (§3), and an empty `universities` list.
+- **Simulate one directory at a time.** A combined run across two folders lets the
+  *last* file win on any id both define — a green result that silently dropped one
+  author's changes.
+- **"Live state" is not automatically today's production data.** It means
+  `server/data/medical-library-v1.json` — the extraction bundle's copy, **not**
+  production, unless Omar ran `npm run medical:snapshot-live` (99865d3) to pull it fresh;
+  `medical:snapshot-staleness` reports the gap.
+- **Paste the output, don't summarise it.** Gate lines go in the commit body, or in
+  `coverage/<module>-GATES.md` for a lane that isn't committing yet — a claim of green
+  gates without pasted output is not green.
 
 ```bash
 npm run medical:batch -- "docs/import-ready/<kind>/<your-file>.md"
@@ -643,6 +1047,17 @@ resource → article → concept → claim → citation → span → relation �
 
 If you are producing a later kind, everything earlier that you reference must already be
 live or be sitting in the same batch folder.
+
+---
+
+## Telegram and other fetches
+
+Telegram runs through Omar's own logged-in Chrome, one lane at a time, with the chief of
+staff holding the queue. Only listed channel links and the in-app search box — never
+click **Join**, log "needs Omar to join" instead; never use **addlist**; no video or
+audio downloads. Dedupe by sha256, tier ≤5 like every other source, and another
+university's past papers are never this university's examinable signal. Full procedure:
+[13-orchestration.md](13-orchestration.md).
 
 ---
 
