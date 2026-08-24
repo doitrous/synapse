@@ -39,6 +39,13 @@ import {
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
+import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
+import {
+  createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
+  listEnrollmentChangeRequests, myEnrollmentChangeRequests,
+} from './enrollmentChanges.js'
+import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
+import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
   chat as assistantChat,
@@ -238,7 +245,19 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
       mfaRequired: Boolean(req.identity.mfaRequired),
     },
     profile: user
-      ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
+      ? {
+          studentId: user.id,
+          name: user.name,
+          email: user.email,
+          universityId: user.universityId,
+          year: user.year,
+          group: user.group,
+          status: user.status,
+          username: user.username,
+          profileIcon: user.profileIcon,
+          discoverable: user.discoverable,
+          socialProvider: user.socialProvider,
+        }
       : null,
     subscription: user?.subscription ?? null,
     entitlement: user?.entitlement ?? { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null },
@@ -256,8 +275,24 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
  */
 app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
   const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
-  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json({ error: result.error })
+  if (result.error) {
+    const status = result.error === 'no_identity' ? 404 : (result.error === 'enrollment_locked' || result.error === 'username_taken' ? 409 : 400)
+    return res.status(status).json(result)
+  }
   res.json({ ok: true, profile: result.profile })
+}))
+
+app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createEnrollmentChangeRequest(req.identity.id, req.body ?? {})
+  if (result.error) {
+    const status = result.error === 'pending_exists' || result.error === 'unchanged' ? 409 : 400
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ requests: await myEnrollmentChangeRequests(req.identity.id) })
 }))
 
 /**
@@ -590,6 +625,30 @@ app.delete('/api/vouchers/redemption', requireAuthenticated, wrap(async (req, re
 
 app.get('/api/vouchers/mine', requireAuthenticated, wrap(async (req, res) => {
   res.json({ redemption: await myVoucher(req.identity.id) })
+}))
+
+/* ── Pricing and verified QBank records ─────────────────────────────────── */
+
+app.get('/api/pricing/quote', wrap(async (req, res) => {
+  const result = await pricingQuote({ period: req.query?.period, voucherCode: req.query?.voucher })
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordVerifiedAttempts(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/leaderboards', requireAuthenticated, wrap(async (req, res) => {
+  const result = await leaderboardFor(req.identity.id, {
+    metric: req.query?.metric === 'mastery' ? 'mastery' : 'accuracy',
+    term: req.query?.term ? String(req.query.term) : 'current',
+    limit: Math.min(Number(req.query?.limit) || 50, 100),
+  })
+  if (result.error) return res.status(409).json(result)
+  res.json(result)
 }))
 
 /* ── Study Together ──────────────────────────────────────────────────────── */
@@ -1239,10 +1298,10 @@ app.get('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
 app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
-  const fields = ['name', 'email', 'university_id', 'year', 'study_group', 'notes']
+  const fields = ['name', 'email', 'study_group', 'notes']
   const updates = []
   const params = []
-  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['universityId', 'university_id'], ['year', 'year'], ['group', 'study_group'], ['notes', 'notes']]) {
+  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['group', 'study_group'], ['notes', 'notes']]) {
     if (req.body?.[key] !== undefined && fields.includes(column)) { updates.push(`${column} = ?`); params.push(req.body[key] || null) }
   }
   if (!updates.length) return res.status(400).json({ error: 'nothing to update' })
@@ -1363,6 +1422,58 @@ app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res
     const [status, message] = REFUSALS[result.error] ?? [400, result.error]
     return res.status(status).json({ error: message })
   }
+  res.json(result)
+}))
+
+app.get('/api/admin/enrollment-change-requests', requireTab('users'), wrap(async (req, res) => {
+  res.json({ requests: await listEnrollmentChangeRequests({ status: req.query?.status ? String(req.query.status) : 'pending' }) })
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/approve', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: true, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'username_conflict' || result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/reject', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: false, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/admin/platform/reports', requireTab('dashboard'), wrap(async (_req, res) => {
+  res.json(await platformReport())
+}))
+
+app.post('/api/admin/platform/storage-thresholds/:thresholdGb/ack', requireTab('dashboard'), wrap(async (req, res) => {
+  const result = await acknowledgeStorageThreshold(req.params.thresholdGb, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/admin/pricing', requireTab('payments'), wrap(async (_req, res) => {
+  res.json(await listPricingDiscounts())
+}))
+
+app.post('/api/admin/pricing/promotions', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPromotion(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/admin/pricing/vouchers', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPricingVoucher(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
   res.json(result)
 }))
 

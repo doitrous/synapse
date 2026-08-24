@@ -212,6 +212,18 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS user_id VARCHAR(64) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS notes TEXT NULL;
 ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_user (user_id);
 
+/* Student-owned public identity. Authentication still comes from Supabase, but
+   classmates and leaderboards need a stable handle that is not an email. The
+   normalized copy is written by the server and unique only inside a university
+   so the same username can exist at different schools without leaking between
+   cohorts. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS username VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS username_normalized VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS profile_icon VARCHAR(64) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS social_provider VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS social_subject VARCHAR(191) NULL;
+ALTER TABLE students ADD UNIQUE INDEX IF NOT EXISTS uniq_students_university_username (university_id, username_normalized);
+
 /* The cohort a student belongs to inside their year — "Cardiovascular block",
    "Group B". Vouchers and notification campaigns have always offered group
    targeting, but nothing stored a group, so every group-restricted rule failed
@@ -341,6 +353,13 @@ CREATE TABLE IF NOT EXISTS user_documents (
   deleted_at   DATETIME NULL,
   INDEX idx_user_documents_owner (user_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* User document rows are the managed asset ledger for resources, notebooks and
+   whiteboards. The source columns let reporting charge the owner's bytes once
+   while still explaining where the asset came from. */
+ALTER TABLE user_documents ADD COLUMN IF NOT EXISTS source_kind ENUM('resource','notebook','whiteboard') NOT NULL DEFAULT 'resource';
+ALTER TABLE user_documents ADD COLUMN IF NOT EXISTS source_id VARCHAR(64) NULL;
+ALTER TABLE user_documents ADD INDEX IF NOT EXISTS idx_user_documents_source (user_id, source_kind, deleted_at);
 
 /* Where to send a push notification.
 
@@ -519,10 +538,103 @@ CREATE TABLE IF NOT EXISTS friendships (
   INDEX idx_friendships_b (user_b, status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-/* Whether this student may be found in their cohort's directory. Default on:
-   being findable by your own classmates is the point of the directory, and the
-   cohort is already closed. The toggle lives in Account. */
-ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 1;
+/* Whether this student may be found in their cohort's directory. Default off:
+   a student opts in before classmates can find them, and existing rows are reset
+   to the same explicit private state during this migration. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 0;
+ALTER TABLE students MODIFY COLUMN discoverable BOOLEAN NOT NULL DEFAULT 0;
+UPDATE students SET discoverable = 0 WHERE discoverable <> 0;
+
+/* Locked enrollment changes. Students can ask for a new university or year with
+   a reason, while an admin applies or rejects the request with an audit note.
+   Approving a university change rechecks the username constraint in code before
+   writing the profile. */
+CREATE TABLE IF NOT EXISTS enrollment_change_requests (
+  id             VARCHAR(64) PRIMARY KEY,
+  user_id        VARCHAR(64) NOT NULL,
+  student_id     VARCHAR(64) NOT NULL,
+  field          ENUM('university','year') NOT NULL,
+  current_value  VARCHAR(128) NULL,
+  requested_value VARCHAR(128) NOT NULL,
+  reason         VARCHAR(500) NOT NULL,
+  status         ENUM('pending','approved','rejected') NOT NULL DEFAULT 'pending',
+  admin_note     VARCHAR(500) NULL,
+  reviewed_by    VARCHAR(64) NULL,
+  reviewed_at    DATETIME NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_enrollment_change_user (user_id, created_at),
+  INDEX idx_enrollment_change_status (status, created_at),
+  INDEX idx_enrollment_change_student (student_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Server-verified question attempts. Public rankings read only rows marked
+   against the published question snapshot, never local client-only history. */
+CREATE TABLE IF NOT EXISTS qbank_attempts (
+  id                       VARCHAR(64) PRIMARY KEY,
+  user_id                  VARCHAR(64) NOT NULL,
+  student_id               VARCHAR(64) NOT NULL,
+  session_id               VARCHAR(96) NOT NULL,
+  question_id              VARCHAR(96) NOT NULL,
+  university_id            VARCHAR(64) NOT NULL,
+  year                     VARCHAR(32) NOT NULL,
+  term                     VARCHAR(64) NOT NULL DEFAULT 'current',
+  subject_id               VARCHAR(96) NULL,
+  topic                    VARCHAR(255) NULL,
+  subtopic                 VARCHAR(255) NULL,
+  concept_ids              JSON NULL,
+  answer_index             INT NOT NULL,
+  correct_index            INT NOT NULL,
+  correct                  TINYINT(1) NOT NULL,
+  seconds                  INT NULL,
+  session_duration_seconds INT NULL,
+  overtime_seconds         INT NULL,
+  answered_at              DATETIME NOT NULL,
+  verified_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_qbank_attempt (user_id, session_id, question_id),
+  INDEX idx_qbank_leaderboard (university_id, year, term, user_id),
+  INDEX idx_qbank_concept_scope (university_id, year, term, verified_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Current all-access pricing. Promotions apply automatically, vouchers apply by
+   code, and the quote endpoint chooses one discount only. */
+CREATE TABLE IF NOT EXISTS pricing_promotions (
+  id             VARCHAR(64) PRIMARY KEY,
+  label          VARCHAR(160) NOT NULL,
+  period         ENUM('monthly','term','both') NOT NULL DEFAULT 'both',
+  discount_type  ENUM('percent','fixed') NOT NULL,
+  discount_value DECIMAL(10,2) NOT NULL,
+  starts_at      DATETIME NOT NULL,
+  ends_at        DATETIME NOT NULL,
+  active         BOOLEAN NOT NULL DEFAULT 1,
+  created_by     VARCHAR(64) NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_pricing_promotions_live (active, starts_at, ends_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS pricing_vouchers (
+  id             VARCHAR(64) PRIMARY KEY,
+  code           VARCHAR(64) NOT NULL UNIQUE,
+  label          VARCHAR(160) NOT NULL,
+  period         ENUM('monthly','term') NOT NULL,
+  discount_type  ENUM('percent','fixed') NOT NULL,
+  discount_value DECIMAL(10,2) NOT NULL,
+  starts_at      DATETIME NOT NULL,
+  ends_at        DATETIME NOT NULL,
+  active         BOOLEAN NOT NULL DEFAULT 1,
+  max_redemptions INT NULL,
+  created_by     VARCHAR(64) NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_pricing_vouchers_live (active, period, starts_at, ends_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* One global acknowledgement per reached storage threshold. Once a threshold is
+   dismissed it stays quiet until the next threshold is crossed. */
+CREATE TABLE IF NOT EXISTS storage_threshold_acknowledgements (
+  threshold_gb    INT PRIMARY KEY,
+  acknowledged_by VARCHAR(64) NOT NULL,
+  acknowledged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* A link a student can send to anyone, on any channel we do not control.
    Single use and short-lived: a link that lives forever in a group chat is a

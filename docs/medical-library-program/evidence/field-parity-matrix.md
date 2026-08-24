@@ -8,18 +8,18 @@ drift when a field is added.
 |---|---|---:|---:|---:|---:|---:|
 | Library article | `ArticleAuthoringData` | 46 | 54 | 46 | 0 | 0 |
 | Library article · statement annotation | `ConceptAnnotation` | 5 | 54 | 5 | 0 | 0 |
-| Library article · media request | `MediaRequest` | 18 | 54 | 14 | 0 | 4 |
+| Library article · media request | `MediaRequest` | 19 | 54 | 14 | 0 | 5 |
 | Concept | `Concept` | 57 | 54 | 56 | 0 | 1 |
 | Concept relation | `ConceptRelation` | 11 | 11 | 11 | 0 | 0 |
 | Question | `QuestionAuthoringData` | 22 | 61 | 21 | 0 | 1 |
 | Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
-| Question · media request | `MediaRequest` | 18 | 61 | 14 | 0 | 4 |
+| Question · media request | `MediaRequest` | 19 | 61 | 14 | 0 | 5 |
 | Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 30 | 13 | 0 | 3 |
 | Practical · clinical case | `CaseAuthoringData` | 11 | 30 | 8 | 0 | 3 |
 | Practical · case decision | `ClinicalDecisionDraft` | 10 | 30 | 10 | 0 | 0 |
 | Practical · interpretation set | `LabAuthoringData` | 11 | 30 | 8 | 0 | 3 |
 | Practical · interpretation question | `LabQuestionDraft` | 9 | 30 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 18 | 30 | 14 | 0 | 4 |
+| Practical · media request | `MediaRequest` | 19 | 30 | 14 | 0 | 5 |
 | Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 0 | 8 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
@@ -39,6 +39,7 @@ None. Every model field is reachable by bulk import, or is recorded as not autho
 | `QuestionAuthoringData.media` | Question media placements are created when a fulfilled media asset is attached to a slot. |
 | `MediaRequest.slot` | Chosen during fulfillment when the reviewer places the asset into its final owner slot. |
 | `MediaRequest.answerLabel` | Only meaningful for fulfilled answer media; chosen with the final slot. |
+| `MediaRequest.reviewComments` | Created inside the reviewer workspace as anchored discussion, not by bulk authoring import. |
 | `PracticalCommon.universityIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct university IDs. |
 | `PracticalCommon.yearIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct year IDs. |
 | `PracticalCommon.moduleIds` | Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct module IDs. |

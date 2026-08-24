@@ -200,6 +200,7 @@ const EXEMPT = {
   'QuestionAuthoringData.media': 'Question media placements are created when a fulfilled media asset is attached to a slot.',
   'MediaRequest.slot': 'Chosen during fulfillment when the reviewer places the asset into its final owner slot.',
   'MediaRequest.answerLabel': 'Only meaningful for fulfilled answer media; chosen with the final slot.',
+  'MediaRequest.reviewComments': 'Created inside the reviewer workspace as anchored discussion, not by bulk authoring import.',
   'PracticalCommon.universityIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct university IDs.',
   'PracticalCommon.yearIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct year IDs.',
   'PracticalCommon.moduleIds': 'Practical scope is resolved by review/tagging. Imports currently carry module-subject paths, not direct module IDs.',

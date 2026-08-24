@@ -35,7 +35,7 @@ export interface AdminTabView {
 }
 
 export const ADMIN_TAB_VIEWS: AdminTabView[] = [
-  { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: [] },
+  { id: 'dashboard', label: 'Control Dashboard', to: '/admin', icon: Gauge, group: 'Overview', end: true, stateKeys: [], apiPrefixes: ['/api/admin/platform'] },
 
   { id: 'taxonomy', label: 'Systems & Topics', to: '/admin/taxonomy', icon: Network, group: 'Content',
     stateKeys: ['synapse-taxonomy-tree-v4', 'synapse-medical-library-taxonomy-v1'], apiPrefixes: [] },
@@ -79,11 +79,11 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'notifications', label: 'Student Notifications', to: '/admin/notifications', icon: BellRing, group: 'Operations',
     stateKeys: ['synapse-notification-campaigns-v1'], apiPrefixes: [] },
   { id: 'users', label: 'Users', to: '/admin/users', icon: UserCog, group: 'Operations',
-    stateKeys: [], apiPrefixes: ['/api/admin/users'] },
+    stateKeys: [], apiPrefixes: ['/api/admin/users', '/api/admin/enrollment-change-requests'] },
   { id: 'students', label: 'Students', to: '/admin/students', icon: Users, group: 'Operations',
     stateKeys: [], apiPrefixes: ['/api/students'] },
   { id: 'payments', label: 'Payments & Finance', to: '/admin/payments', icon: Banknote, group: 'Operations',
-    stateKeys: ['synapse-plans-v1', 'synapse-plan-catalog-v1', 'synapse-student-id-discount-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-plans-v1', 'synapse-plan-catalog-v1', 'synapse-student-id-discount-v1'], apiPrefixes: ['/api/admin/pricing'] },
   { id: 'vouchers', label: 'Vouchers', to: '/admin/vouchers', icon: TicketPercent, group: 'Operations',
     stateKeys: ['synapse-vouchers-v1'], apiPrefixes: [] },
   { id: 'assistant', label: 'AI Assistant', to: '/admin/assistant', icon: Bot, group: 'Operations',

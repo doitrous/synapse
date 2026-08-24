@@ -26,9 +26,16 @@
 export function questionKey(item) {
   const data = item?.questionData
   const answers = (data?.answers ?? []).filter((answer) => answer?.text?.trim())
+  const tags = data?.tags ?? {}
+  const mainConceptIds = Array.isArray(tags.mainConceptIds) ? tags.mainConceptIds : []
+  const conceptIds = Array.isArray(tags.conceptIds) ? tags.conceptIds : []
   return {
     id: item?.id,
     title: item?.title,
+    subjectId: item?.subjectId ?? null,
+    topic: tags.topic ?? item?.fields?.topic ?? null,
+    subtopic: item?.fields?.subtopic ?? null,
+    conceptIds: [...new Set([...mainConceptIds, ...conceptIds].filter((id) => typeof id === 'string' && id.trim()))],
     // The index of the correct option, or -1 when no answer carries the key's label.
     correctIndex: answers.findIndex((answer) => answer.label === data?.correctAnswer),
     optionCount: answers.length,

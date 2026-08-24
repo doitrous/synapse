@@ -22,11 +22,11 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
+      "modelFields": 19,
       "importFields": 54,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Concept",
@@ -67,11 +67,11 @@
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
+      "modelFields": 19,
       "importFields": 61,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Practical · OSCE and checklist",
@@ -121,11 +121,11 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
+      "modelFields": 19,
       "importFields": 30,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Resource",
@@ -616,6 +616,12 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
@@ -1431,6 +1437,12 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
@@ -1923,6 +1935,12 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },

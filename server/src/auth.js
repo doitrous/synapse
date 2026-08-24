@@ -55,11 +55,22 @@ async function supabaseIdentity(token) {
 
   const userId = String(payload.sub)
   const email = typeof payload.email === 'string' ? payload.email : null
+  const appMetadata = payload.app_metadata && typeof payload.app_metadata === 'object' ? payload.app_metadata : {}
+  const provider = typeof appMetadata.provider === 'string' ? appMetadata.provider.slice(0, 32) : null
   await pool.query(
     `INSERT INTO user_access (user_id, email, role) VALUES (?, ?, 'student')
      ON DUPLICATE KEY UPDATE email = COALESCE(VALUES(email), email)`,
     [userId, email],
   )
+  if (provider && provider !== 'email') {
+    await pool.query(
+      `UPDATE students
+          SET social_provider = COALESCE(social_provider, ?),
+              social_subject = COALESCE(social_subject, ?)
+        WHERE user_id = ?`,
+      [provider, userId, userId],
+    )
+  }
   const [rows] = await pool.query(
     'SELECT role, status, mfa_required, content_scope FROM user_access WHERE user_id = ?',
     [userId],
@@ -112,6 +123,7 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/webhooks/resend/inbound'
     || req.path === '/api/unsubscribe'
     || req.path === '/api/accounts/exists'
+    || req.path === '/api/pricing/quote'
     || req.path === '/api/facebook/deletion-callback'
   ) return next()
 
@@ -240,4 +252,3 @@ export function requireAuthenticated(req, res, next) {
   if (!req.identity) return res.status(401).json({ error: 'unauthorized' })
   return next()
 }
-

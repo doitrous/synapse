@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { entitlementOf, extensionBase, addDays, readReason, stateFamily } from './accounts.js'
+import { entitlementOf, extensionBase, addDays, readReason, stateFamily, normaliseUsername, usernameProblem } from './accounts.js'
 
 const NOW = new Date('2026-08-13T12:00:00Z')
 
@@ -69,4 +69,10 @@ test('an unrecognised state key is reported, not dropped', () => {
   // product. Silently discarding it would understate their activity.
   assert.equal(stateFamily('synapse.something-new.v1'), 'Other')
   assert.equal(stateFamily(''), 'Other')
+})
+
+test('usernames normalize case, accents and punctuation for cohort uniqueness', () => {
+  assert.equal(normaliseUsername('  Omar Élite!!  '), 'omar-elite')
+  assert.equal(usernameProblem('ab'), 'username_too_short')
+  assert.equal(usernameProblem('omary98'), null)
 })

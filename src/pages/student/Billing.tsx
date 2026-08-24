@@ -215,7 +215,7 @@ export function Billing() {
           <div>
             <p className="text-[14px] font-semibold text-ink">{t('Apply a discount to your next renewal')}</p>
             <p className="mt-1 text-[12.5px] leading-relaxed text-ink-3">
-              {t('Eligibility is checked on the server against your university, year, group, the voucher dates, and the remaining redemption limit.')}
+              {t('Eligibility is checked on the server against your university, year, group, the voucher dates, and the remaining redemption limit. Timed promotions and vouchers never stack; the valid option that produces the lowest price wins.')}
             </p>
           </div>
           {redemption ? (

@@ -46,6 +46,8 @@ export const OWNED_BY_USER_ID = [
   'facebook_links',
   'study_party_members',
   'study_party_answers',
+  'enrollment_change_requests',
+  'qbank_attempts',
   'role_promotion_audit',
   // Last of the user_id tables by convention only: nothing here has a foreign
   // key, so the order inside the transaction does not matter. What matters is

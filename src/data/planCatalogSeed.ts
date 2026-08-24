@@ -14,16 +14,11 @@ import type { Bilingual, BillingPeriodDef, CatalogPlan, PlanCatalog, PlanFeature
 const bi = (en: string, ar: string): Bilingual => ({ en, ar })
 
 /**
- * Billing periods.
- *
- * `quarterly` became `term`, which is what an academic year is actually divided
- * into and what the price was always describing. The year is priced and shown
- * but marked coming soon, so it advertises without offering.
+ * Billing periods. The platform now sells one all-access plan by month or term.
  */
 export const SEED_PERIODS: BillingPeriodDef[] = [
   { id: 'month', label: bi('1 month', 'شهر واحد'), billedAs: bi('billed monthly', 'تُحصَّل شهريًا'), months: 1 },
   { id: 'term', label: bi('1 term', 'فصل دراسي'), billedAs: bi('billed each term', 'تُحصَّل كل فصل'), months: 3 },
-  { id: 'year', label: bi('1 year', 'سنة'), billedAs: bi('billed yearly', 'تُحصَّل سنويًا'), months: 12, comingSoon: true },
 ]
 
 /** A cell in the comparison: has it, does not, or has it with a qualification. */
@@ -34,30 +29,30 @@ const PLANNING = bi('Planning and review', 'التخطيط والمراجعة')
 const TOOLS = bi('Tools', 'الأدوات')
 
 /**
- * What each tier includes, in column order: Free, QBank, Adaptive.
+ * What the all-access plan includes.
  *
  * Declared once and inverted below. Writing it per plan would mean stating the
  * same fifteen labels three times, in two languages, and keeping them aligned by
  * hand — which is how the table and the plans drifted apart in the first place.
  */
 const MATRIX: Array<{ group: Bilingual; label: Bilingual; values: [Cell, Cell, Cell] }> = [
-  { group: STUDYING, label: bi('Library and verified sources', 'المكتبة والمصادر الموثّقة'), values: [bi('Limited', 'محدود'), true, true] },
-  { group: STUDYING, label: bi('Questions a day', 'أسئلة يوميًا'), values: [bi('10', '١٠'), bi('Unlimited', 'بلا حد'), bi('Unlimited', 'بلا حد')] },
+  { group: STUDYING, label: bi('Library and verified sources', 'المكتبة والمصادر الموثّقة'), values: [true, true, true] },
+  { group: STUDYING, label: bi('Questions a day', 'أسئلة يوميًا'), values: [bi('Unlimited', 'بلا حد'), bi('Unlimited', 'بلا حد'), bi('Unlimited', 'بلا حد')] },
   { group: STUDYING, label: bi('A rationale for every option', 'شروح لكل خيار'), values: [true, true, true] },
-  { group: STUDYING, label: bi('Review after you submit', 'مراجعة بعد التسليم'), values: [false, true, true] },
-  { group: STUDYING, label: bi('Custom blocks by system and topic', 'كتل مخصّصة حسب الجهاز والموضوع'), values: [false, true, true] },
-  { group: STUDYING, label: bi('Adaptive blocks aimed at your weak points', 'كتل تكيّفية حسب نقاط ضعفك'), values: [false, false, true] },
+  { group: STUDYING, label: bi('Review after you submit', 'مراجعة بعد التسليم'), values: [true, true, true] },
+  { group: STUDYING, label: bi('Custom blocks by system and topic', 'كتل مخصّصة حسب الجهاز والموضوع'), values: [true, true, true] },
+  { group: STUDYING, label: bi('Adaptive blocks aimed at your weak points', 'كتل تكيّفية حسب نقاط ضعفك'), values: [true, true, true] },
 
   { group: PLANNING, label: bi('Calendar and your plan', 'التقويم وخطتك'), values: [true, true, true] },
-  { group: PLANNING, label: bi('Spaced review', 'مراجعة متباعدة'), values: [false, bi('Basic', 'أساسية'), true] },
-  { group: PLANNING, label: bi('A generated study plan', 'خطة دراسة مولّدة'), values: [false, false, true] },
-  { group: PLANNING, label: bi('Exam readiness assessments', 'تقييمات جاهزية للامتحان'), values: [false, false, true] },
+  { group: PLANNING, label: bi('Spaced review', 'مراجعة متباعدة'), values: [true, true, true] },
+  { group: PLANNING, label: bi('A generated study plan', 'خطة دراسة مولّدة'), values: [true, true, true] },
+  { group: PLANNING, label: bi('Exam readiness assessments', 'تقييمات جاهزية للامتحان'), values: [true, true, true] },
 
   { group: TOOLS, label: bi('PDF reader and editor', 'قارئ ومحرّر PDF'), values: [true, true, true] },
-  { group: TOOLS, label: bi('Your own uploaded documents', 'مستنداتك المرفوعة'), values: [bi('One file', 'ملف واحد'), true, true] },
+  { group: TOOLS, label: bi('Your own uploaded documents', 'مستنداتك المرفوعة'), values: [true, true, true] },
   { group: TOOLS, label: bi('Notebook and whiteboard', 'دفتر الملاحظات والسبورة'), values: [true, true, true] },
-  { group: TOOLS, label: bi('Study Together', 'الدراسة الجماعية'), values: [bi('As a guest', 'ضيف'), true, true] },
-  { group: TOOLS, label: bi('Analytics', 'التحليلات'), values: [bi('Basic', 'أساسية'), bi('Basic', 'أساسية'), bi('Detailed', 'مفصّلة')] },
+  { group: TOOLS, label: bi('Study Together', 'الدراسة الجماعية'), values: [true, true, true] },
+  { group: TOOLS, label: bi('Analytics', 'التحليلات'), values: [bi('Detailed', 'مفصّلة'), bi('Detailed', 'مفصّلة'), bi('Detailed', 'مفصّلة')] },
 ]
 
 /** One tier's own feature list, taken from its column of the matrix. */
@@ -80,92 +75,18 @@ export function initialPlanCatalog(): PlanCatalog {
     periods: structuredClone(SEED_PERIODS),
     plans: [
       {
-        id: 'free',
-        name: bi('Free', 'مجاني'),
-        // The old copy promised a seven-day trial. It is three days now, and a
-        // price page that overstates what it gives is worse than a plain one.
+        id: 'all_access',
+        name: bi('All access', 'وصول كامل'),
         entitlement: bi(
-          'A diagnostic and 10 questions a day, after a 3-day full trial — no card required.',
-          'تشخيص أولي و١٠ أسئلة يوميًا، بعد تجربة كاملة ٣ أيام — دون بطاقة.',
+          'Everything Connect Cortex offers for your university and year. Trial access remains an onboarding state, not a plan you buy.',
+          'كل ما يقدمه Connect Cortex لجامعتك وسنتك. الوصول التجريبي حالة بدء، وليس خطة تُشترى.',
         ),
         features: featuresForColumn(0),
-        prices: { month: 0 },
-        cta: bi('Start free', 'ابدأ مجانًا'),
-        prominence: 'primary',
-        active: true,
-        ...OPEN,
-      },
-      {
-        id: 'qbank',
-        name: bi('QBank', 'بنك الأسئلة'),
-        entitlement: bi(
-          'The full approved question bank, custom blocks, explanations, bookmarks and notes, and basic progress.',
-          'بنك الأسئلة المعتمد كاملًا، كتل مخصّصة، شروح، إشارات وملاحظات، وتقدّم أساسي.',
-        ),
-        features: featuresForColumn(1),
-        prices: { month: 99, term: 249, year: 799 },
-        cta: bi('Subscribe', 'اشترك'),
-        prominence: 'primary',
-        active: true,
-        ...OPEN,
-      },
-      {
-        id: 'adaptive',
-        name: bi('Adaptive', 'Adaptive'),
-        entitlement: bi(
-          'Everything above, plus adaptive blocks, a study plan, spaced review, readiness assessments and richer analytics.',
-          'كل ما سبق، مع كتل تكيّفية وخطة دراسة ومراجعة متباعدة وتقييمات جاهزية وتحليلات أغنى.',
-        ),
-        features: featuresForColumn(2),
-        prices: { month: 199, term: 499, year: 1499 },
+        prices: { month: 400, term: 1000 },
         featured: true,
         badge: bi('Best value', 'الأكثر قيمة'),
         cta: bi('Subscribe', 'اشترك'),
         prominence: 'primary',
-        active: true,
-        ...OPEN,
-      },
-      {
-        id: 'addon',
-        name: bi('Adaptive add-on', 'إضافة Adaptive'),
-        entitlement: bi(
-          'Adds Adaptive to an eligible current course without paying twice for overlapping content.',
-          'أضِف Adaptive إلى اشتراك حالي مؤهّل دون دفع مرتين عن المحتوى المتداخل.',
-        ),
-        features: [],
-        prices: { month: 79, term: 199 },
-        cta: bi('Add on', 'أضِف'),
-        prominence: 'secondary',
-        active: true,
-        ...OPEN,
-      },
-      {
-        id: 'sprint',
-        name: bi('Exam Sprint', 'Exam Sprint'),
-        entitlement: bi(
-          'One defined exam scope: a compressed plan, mocks, adaptive repair and sprint analytics.',
-          'نطاق امتحان واحد محدّد: خطة مكثّفة، اختبارات محاكاة، إصلاح تكيّفي، وتحليلات السبرنت.',
-        ),
-        features: [],
-        prices: { month: 249 },
-        fixedPeriod: bi('/ 30 days', '/ ٣٠ يومًا'),
-        cta: bi('Start a sprint', 'ابدأ سبرنت'),
-        prominence: 'secondary',
-        active: true,
-        ...OPEN,
-      },
-      {
-        id: 'campus',
-        name: bi('Campus / cohort', 'المؤسسات / الدفعات'),
-        entitlement: bi(
-          'Institution-wide access and analytics, priced per student.',
-          'وصول وتحليلات على مستوى الجامعة أو الدفعة، بتسعير لكل طالب.',
-        ),
-        features: [],
-        prices: {},
-        quoted: bi('Quoted', 'حسب الطلب'),
-        cta: bi('Start, then talk to us', 'ابدأ ثم تواصل معنا'),
-        prominence: 'secondary',
         active: true,
         ...OPEN,
       },

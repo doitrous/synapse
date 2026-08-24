@@ -58,31 +58,31 @@ function targeted(): PlanCatalog {
   const catalog = initialPlanCatalog()
   return {
     ...catalog,
-    plans: catalog.plans.map((plan) => (plan.id === 'qbank' ? { ...plan, universityIds: ['asu'] } : plan)),
+    plans: catalog.plans.map((plan) => ({ ...plan, universityIds: ['asu'] })),
   }
 }
 
-test('only the tiers are offered, and only those aimed at this cohort', () => {
+test('only the all-access plan is offered, and only when aimed at this cohort', () => {
   const offered = offeredPlans(targeted(), { universityId: 'kau', year: 'Year 1' })
-  assert.deepEqual(offered.map((plan) => plan.id), ['free', 'adaptive'])
+  assert.deepEqual(offered.map((plan) => plan.id), [])
 })
 
-test('with no targeting, every tier is offered', () => {
+test('with no targeting, the all-access plan is offered', () => {
   const offered = offeredPlans(initialPlanCatalog(), { universityId: 'kau', year: 'Year 1' })
-  assert.deepEqual(offered.map((plan) => plan.id), ['free', 'qbank', 'adaptive'])
+  assert.deepEqual(offered.map((plan) => plan.id), ['all_access'])
 })
 
 test('a plan is selectable when the catalogue sells it at some live period', () => {
   const catalog = initialPlanCatalog()
-  const free = catalog.plans.find((plan) => plan.id === 'free')!
-  const campus = catalog.plans.find((plan) => plan.id === 'campus')!
-  assert.equal(planSelectable(catalog, free), true)
-  assert.equal(planSelectable(catalog, campus), false)
+  const allAccess = catalog.plans.find((plan) => plan.id === 'all_access')!
+  const trial = { ...allAccess, id: 'trial', prices: {} }
+  assert.equal(planSelectable(catalog, allAccess), true)
+  assert.equal(planSelectable(catalog, trial), false)
 })
 
 test('a plan sold only at a coming-soon period cannot be chosen', () => {
   const catalog = initialPlanCatalog()
-  const yearOnly = { ...catalog.plans[1], id: 'later', prices: { year: 800 } }
+  const yearOnly = { ...catalog.plans[0], id: 'later', prices: { year: 800 } }
   assert.equal(planSelectable(catalog, yearOnly), false)
 })
 

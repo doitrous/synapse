@@ -83,6 +83,8 @@ const USER_COLUMNS = `
   COALESCE(s.id, a.user_id) AS id,
   s.name, COALESCE(s.email, a.email) AS email,
   s.university_id AS universityId, s.year, s.study_group AS studyGroup, s.plan, s.status,
+  s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
+  s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
   s.accuracy, s.readiness, COALESCE(s.user_id, a.user_id) AS userId, s.notes,
   a.role, a.status AS accessStatus, a.created_at AS identityCreatedAt,
@@ -135,6 +137,12 @@ function shape(row) {
     year: row.year,
     group: row.studyGroup,
     status: row.status,
+    username: row.username,
+    usernameNormalized: row.usernameNormalized,
+    profileIcon: row.profileIcon,
+    discoverable: Boolean(row.discoverable),
+    socialProvider: row.socialProvider,
+    socialSubject: row.socialSubject,
     joined: row.joined,
     lastActive: row.lastActive,
     notes: row.notes,
@@ -229,8 +237,8 @@ export async function ensureStudentRow(conn, id) {
   if (!identity.length) return null
 
   await conn.query(
-    `INSERT INTO students (id, name, email, user_id, status, joined, questions_answered, accuracy, readiness)
-     VALUES (?, ?, ?, ?, 'Active', CURDATE(), 0, 0, 0)`,
+    `INSERT INTO students (id, name, email, user_id, status, joined, questions_answered, accuracy, readiness, discoverable)
+     VALUES (?, ?, ?, ?, 'Active', CURDATE(), 0, 0, 0, 0)`,
     [id, identity[0].email ?? null, identity[0].email ?? null, id],
   )
   return { id, user_id: id }
@@ -244,11 +252,11 @@ export async function ensureStudentRow(conn, id) {
  * checking the setting is never what creates the roster row — a student who
  * has changed nothing still gets an honest answer. An absent row and a row
  * nobody has touched mean the same thing here, because the column's own
- * default is `1`: both read as discoverable.
+ * default is `0`: both read as private until the student opts in.
  */
 export async function getDiscoverable(userId) {
   const [rows] = await pool.query('SELECT discoverable FROM students WHERE user_id = ? LIMIT 1', [userId])
-  return rows.length ? Boolean(rows[0].discoverable) : true
+  return rows.length ? Boolean(rows[0].discoverable) : false
 }
 
 /**
@@ -685,6 +693,48 @@ function trimmed(value, max) {
   return text ? text.slice(0, max) : null
 }
 
+export function normaliseUsername(value) {
+  return normalisedUsernameText(value).slice(0, 32)
+}
+
+function normalisedUsernameText(value) {
+  return String(value ?? '')
+    .trim()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9_]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .replace(/-{2,}/g, '-')
+}
+
+export function usernameProblem(value) {
+  const raw = String(value ?? '').trim()
+  if (!raw) return 'username_required'
+  const normalized = normalisedUsernameText(raw)
+  if (normalized.length < 3) return 'username_too_short'
+  if (normalized.length > 32) return 'username_too_long'
+  if (!/^[a-z0-9][a-z0-9_-]*[a-z0-9]$/.test(normalized)) return 'username_format'
+  return null
+}
+
+export function normaliseProfileIcon(value) {
+  const icon = String(value ?? '').trim().slice(0, 64)
+  if (!icon) return null
+  return /^[a-z][a-z0-9_-]{1,63}$/i.test(icon) ? icon : null
+}
+
+export async function usernameConflict(conn, { universityId, usernameNormalized, studentId }) {
+  if (!universityId || !usernameNormalized) return false
+  const [rows] = await conn.query(
+    `SELECT id FROM students
+      WHERE university_id = ? AND username_normalized = ? AND id <> ?
+      LIMIT 1`,
+    [universityId, usernameNormalized, studentId ?? ''],
+  )
+  return rows.length > 0
+}
+
 /**
  * Where this account studies, written where every device can read it.
  *
@@ -711,6 +761,11 @@ export async function saveOwnEnrolment(userId, input) {
   const nationality = trimmed(input?.nationality, 64)
   const phone = normalisePhone(input?.phone)
   const plan = trimmed(input?.plan, 64)
+  const username = trimmed(input?.username, 32)
+  const profileIcon = normaliseProfileIcon(input?.profileIcon)
+  const usernameNormalized = username ? normaliseUsername(username) : null
+  const usernameError = username ? usernameProblem(username) : null
+  if (usernameError) return { error: usernameError }
 
   const conn = await pool.getConnection()
   try {
@@ -736,7 +791,23 @@ export async function saveOwnEnrolment(userId, input) {
      * A stored name that is anything other than the email was put there
      * deliberately, by an administrator, and is never overwritten from here.
      */
-    const [[stored]] = await conn.query('SELECT name, email FROM students WHERE id = ?', [student.id])
+    const [[stored]] = await conn.query(
+      'SELECT name, email, university_id AS universityId, year, username_normalized AS usernameNormalized FROM students WHERE id = ?',
+      [student.id],
+    )
+    const lockedUniversity = Boolean(stored?.universityId)
+    const lockedYear = Boolean(stored?.year)
+    const lockedChanges = []
+    if (lockedUniversity && stored.universityId !== universityId) lockedChanges.push('university')
+    if (lockedYear && stored.year !== year) lockedChanges.push('year')
+    if (lockedChanges.length) {
+      await conn.rollback()
+      return { error: 'enrollment_locked', fields: lockedChanges }
+    }
+    if (usernameNormalized && await usernameConflict(conn, { universityId, usernameNormalized, studentId: student.id })) {
+      await conn.rollback()
+      return { error: 'username_taken' }
+    }
     const placeholder = !stored?.name || stored.name === stored.email
     const finalName = placeholder ? (name ?? stored?.name ?? null) : stored.name
 
@@ -748,10 +819,14 @@ export async function saveOwnEnrolment(userId, input) {
               name = ?,
               nationality = COALESCE(nationality, ?),
               phone = COALESCE(phone, ?),
+              username = COALESCE(?, username),
+              username_normalized = COALESCE(?, username_normalized),
+              profile_icon = COALESCE(?, profile_icon),
+              discoverable = COALESCE(discoverable, 0),
               status = COALESCE(status, 'Active'),
               joined = COALESCE(joined, CURDATE())
         WHERE id = ?`,
-      [universityId, year, group, finalName, nationality, storedPhone, student.id],
+      [universityId, year, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, student.id],
     )
 
     // The trial is granted once, by the server, so it starts when the account
