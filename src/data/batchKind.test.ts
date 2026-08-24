@@ -58,6 +58,11 @@ test('a catalogue resource batch is distinct from an evidence source batch', () 
   assert.equal(detectBatchKind({ title: 'Source PDF', institution: 'ASU', processing_status: 'pending' }), 'resource')
 })
 
+test('an authored minigame batch is detected from its game kind and payload', () => {
+  assert.equal(detectBatchKind({ kind: 'clinical_sequence', prompt: 'Order these', steps: 'a | First' }), 'minigame')
+  assert.equal(detectBatchKind({ kind: 'red_flag_sort', prompt: 'Sort these', findings: 'a | urgent | Finding | Why' }), 'minigame')
+})
+
 test('a row that matches no contract stays unknown rather than becoming a concept', () => {
   // The failure this guards: falling back to 'concept' meant a stray question
   // batch was applied as sixteen concept upserts and nothing said so.

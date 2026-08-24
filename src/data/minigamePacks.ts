@@ -13,17 +13,21 @@ import { seededRandom, shuffle } from './seededRandom.ts'
 
 export type MiniGameKind = 'clinical_sequence' | 'mechanism_chain' | 'red_flag_sort'
 
-interface BasePack {
+export interface MiniGameSource {
+  label: string
+  reviewedBy: string
+  url?: string
+  reviewedAt?: string
+}
+
+export interface BasePack {
   id: string
   kind: MiniGameKind
   title: string
   subjectId: string
   topic: string
   summary: string
-  source: {
-    label: string
-    reviewedBy: string
-  }
+  source: MiniGameSource
 }
 
 export interface OrderedStep {
@@ -96,7 +100,7 @@ export const MINI_GAME_PACKS: MiniGamePack[] = [
     id: 'rf-respiratory-escalation',
     kind: 'red_flag_sort',
     title: 'Respiratory escalation signals',
-    subjectId: 'res',
+    subjectId: 'resp',
     topic: 'Respiratory safety',
     summary: 'Sort respiratory findings into urgent escalation versus routine review.',
     prompt: 'Classify each authored finding by the action it should trigger in this learning scenario.',
@@ -151,6 +155,7 @@ export function validateMiniGamePack(pack: MiniGamePack): string[] {
   if (!pack.id.trim()) errors.push('id is required')
   if (!pack.title.trim()) errors.push(`${pack.id}: title is required`)
   if (!pack.subjectId.trim()) errors.push(`${pack.id}: subjectId is required`)
+  if (!pack.topic.trim() || !pack.summary.trim()) errors.push(`${pack.id}: topic and summary are required`)
   if (!pack.source.label.trim() || !pack.source.reviewedBy.trim()) errors.push(`${pack.id}: reviewed source metadata is required`)
 
   if (pack.kind === 'red_flag_sort') {

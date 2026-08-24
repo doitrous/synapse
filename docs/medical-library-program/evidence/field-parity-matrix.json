@@ -137,6 +137,60 @@
       "notApplicable": 8
     },
     {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "modelFields": 7,
+      "importFields": 16,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "modelFields": 2,
+      "importFields": 16,
+      "ok": 2,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
       "contentType": "Evidence · source",
       "model": "ResourceRecord",
       "modelFields": 20,
@@ -2048,6 +2102,198 @@
         {
           "field": "conceptLocations",
           "column": "concept_locations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "title",
+          "column": "title",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subjectId",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topic",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "summary",
+          "column": "summary",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "source",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "label",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedBy",
+          "column": "reviewed_by",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "url",
+          "column": "source_url",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedAt",
+          "column": "reviewed_at",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "steps",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "explanation",
+          "column": "explanation",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lanes",
+          "column": "urgent_lane",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "findings",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lane",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rationale",
+          "column": "findings",
           "state": "ok",
           "reason": ""
         }

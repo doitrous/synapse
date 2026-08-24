@@ -17,15 +17,18 @@
  */
 import { readFile, writeFile } from 'node:fs/promises'
 
-import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation, CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
-import { IMPORT_SCHEMAS, importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
+import { MINI_GAME_PACKS } from '../src/data/minigamePacks.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
-  EVIDENCE_IMPORT_FIELDS, evidenceErrors, reconcileClaimEvidence,
+  evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
 } from '../src/data/evidenceImport.ts'
 import { detectBatchKind } from '../src/data/batchKind.ts'
+import { IMPORT_CONTRACTS } from '../src/data/importContract.ts'
 
 const args = process.argv.slice(2)
 const option = (name) => {
@@ -80,25 +83,16 @@ const before = {
 // concept must have been applied before one is checked against the graph.
 // Questions run last: each one resolves against both the concept graph and the
 // article ledger, so it has to see every concept and article this run creates.
-const ORDER = { resource: 0, 'catalogue-resource': 1, article: 2, concept: 3, claim: 4, citation: 5, span: 6, relation: 7, practical: 8, question: 9 }
+const ORDER = { resource: 0, 'catalogue-resource': 1, article: 2, concept: 3, claim: 4, citation: 5, span: 6, relation: 7, practical: 8, question: 9, minigame: 10 }
 
-// The columns each kind actually has, taken from the importer's own field lists
-// rather than a copy kept here — a vocabulary maintained in two places is a
-// vocabulary that drifts, and the drift shows up as a false error on a good
-// batch. `IMPORT_SCHEMAS` is the authority for the three wizard kinds; concepts,
-// relations and evidence carry their own.
-const COLUMNS = {
-  article: IMPORT_SCHEMAS.article.fields,
-  'catalogue-resource': IMPORT_SCHEMAS.resource.fields,
-  practical: IMPORT_SCHEMAS.practical.fields,
-  question: IMPORT_SCHEMAS.question.fields,
-  concept: CONCEPT_IMPORT_FIELDS,
-  relation: RELATION_IMPORT_FIELDS,
-  resource: EVIDENCE_IMPORT_FIELDS.resource,
-  claim: EVIDENCE_IMPORT_FIELDS.claim,
-  citation: EVIDENCE_IMPORT_FIELDS.citation,
-  span: EVIDENCE_IMPORT_FIELDS.span,
-}
+// The columns each kind actually has, taken from the canonical registry rather
+// than a copy kept here — a vocabulary maintained in two places is a vocabulary
+// that drifts, and the drift shows up as a false error on a good batch.
+const COLUMNS = Object.fromEntries(
+  Object.entries(IMPORT_CONTRACTS)
+    .filter(([kind]) => kind in ORDER)
+    .map(([kind, contract]) => [kind, contract.fields]),
+)
 const KNOWN_COLUMNS = Object.fromEntries(
   Object.entries(COLUMNS).map(([kind, fields]) => [kind, new Set(fields.map((field) => field.key))]),
 )
@@ -175,6 +169,22 @@ for (const batch of batches) {
     store: evidence,
     conceptIds: new Set(graph.concepts.map((concept) => concept.id)),
     articleIds: new Set(ledger.filter((item) => item.kind === 'article').map((item) => item.id)),
+  }
+
+  if (batch.kind === 'minigame') {
+    let created = 0
+    let updated = 0
+    let gamePacks = [...MINI_GAME_PACKS]
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateMiniGameRow(row)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = miniGamePackFromRow(row)
+      const position = gamePacks.findIndex((pack) => pack.id === incoming.id)
+      if (position >= 0) { gamePacks[position] = incoming; updated += 1 }
+      else { gamePacks = [incoming, ...gamePacks]; created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
   }
 
   if (batch.kind === 'article') {

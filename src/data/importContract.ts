@@ -2,6 +2,7 @@ import { IMPORT_SCHEMAS, type ImportFieldDefinition } from './bulkImport.ts'
 import { CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from './conceptImport.ts'
 import { SUBJECTS_IMPORT_FIELDS } from './subjectsImport.ts'
 import { EVIDENCE_IMPORT_FIELDS } from './evidenceImport.ts'
+import { MINIGAME_IMPORT_FIELDS } from './minigameImport.ts'
 
 /**
  * Canonical bulk-import contract registry.
@@ -22,6 +23,7 @@ export type ImportContractKind =
   | 'deck'
   | 'essay'
   | 'histology'
+  | 'minigame'
   | 'concept'
   | 'relation'
   | 'subjects'
@@ -78,21 +80,28 @@ export const IMPORT_CONTRACTS: Record<ImportContractKind, ImportContract> = {
     label: 'Flashcard deck',
     fields: IMPORT_SCHEMAS.deck.fields,
     parserOwner: 'src/data/bulkImport.ts#importRowToContent(deck)',
-    manualFiles: ['13-decks-essays-histology.md'],
+    manualFiles: ['14-decks-essays-histology.md'],
   },
   essay: {
     kind: 'essay',
     label: 'Written essay',
     fields: IMPORT_SCHEMAS.essay.fields,
     parserOwner: 'src/data/bulkImport.ts#importRowToContent(essay)',
-    manualFiles: ['13-decks-essays-histology.md'],
+    manualFiles: ['14-decks-essays-histology.md'],
   },
   histology: {
     kind: 'histology',
     label: 'Histology slide',
     fields: IMPORT_SCHEMAS.histology.fields,
     parserOwner: 'src/data/bulkImport.ts#importRowToContent(histology)',
-    manualFiles: ['13-decks-essays-histology.md'],
+    manualFiles: ['14-decks-essays-histology.md'],
+  },
+  minigame: {
+    kind: 'minigame',
+    label: 'Medicine minigame pack',
+    fields: MINIGAME_IMPORT_FIELDS,
+    parserOwner: 'src/data/minigameImport.ts#miniGamePackFromRow',
+    manualFiles: ['14-decks-essays-histology.md'],
   },
   concept: {
     kind: 'concept',
@@ -147,7 +156,7 @@ export const IMPORT_CONTRACTS: Record<ImportContractKind, ImportContract> = {
 
 export const IMPORT_CONTRACT_ORDER: ImportContractKind[] = [
   'subjects', 'resource', 'catalogue-resource', 'article', 'concept', 'claim',
-  'citation', 'span', 'relation', 'practical', 'question', 'deck', 'essay', 'histology',
+  'citation', 'span', 'relation', 'practical', 'question', 'deck', 'essay', 'histology', 'minigame',
 ]
 
 export function importFieldKeys(kind: ImportContractKind): Set<string> {
@@ -302,6 +311,31 @@ export const RESOURCE_RECORD_MAP = {
   mediaType: 'media_type', languages: 'languages', publicationDate: 'publication_date', pageCount: 'page_count',
   sha256: 'sha256', processingStatus: 'processing_status', rights: 'rights', validation: null,
   confidence: 'confidence', isAssessment: 'is_assessment', qualification: 'qualification', accessedAt: 'accessed_at',
+}
+
+export const MINIGAME_BASE_MAP = {
+  id: 'id', kind: 'kind', title: 'title', subjectId: 'subject', topic: 'topic', summary: 'summary',
+  source: 'source_label',
+}
+
+export const MINIGAME_SOURCE_MAP = {
+  label: 'source_label', reviewedBy: 'reviewed_by', url: 'source_url', reviewedAt: 'reviewed_at',
+}
+
+export const ORDERED_MINIGAME_MAP = {
+  kind: 'kind', prompt: 'prompt', steps: 'steps', explanation: 'explanation',
+}
+
+export const ORDERED_STEP_MAP = {
+  id: 'steps', text: 'steps',
+}
+
+export const RED_FLAG_SORT_MAP = {
+  kind: 'kind', prompt: 'prompt', lanes: 'urgent_lane', findings: 'findings',
+}
+
+export const RED_FLAG_FINDING_MAP = {
+  id: 'findings', text: 'findings', lane: 'findings', rationale: 'findings',
 }
 
 export const CLAIM_MAP = {

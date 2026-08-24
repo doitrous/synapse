@@ -13,7 +13,8 @@
 
 export type BatchKind =
   | 'concept' | 'relation' | 'article' | 'question' | 'practical'
-  | 'catalogue-resource' | 'resource' | 'claim' | 'citation' | 'span' | 'unknown'
+  | 'catalogue-resource' | 'resource' | 'claim' | 'citation' | 'span'
+  | 'minigame' | 'unknown'
 
 /**
  * The columns that identify a question, beyond `question` itself.
@@ -33,6 +34,7 @@ export function detectBatchKind(sample: Record<string, unknown>): BatchKind {
   const has = (key: string) => key in sample
 
   if (has('source') && has('type') && has('target')) return 'relation'
+  if (has('kind') && has('prompt') && (has('steps') || has('findings'))) return 'minigame'
   if (has('question') && QUESTION_PAYLOADS.some(has)) return 'question'
   if (has('summary') && has('sections')) return 'article'
   if (has('claim_id') && has('resource_id')) return 'citation'

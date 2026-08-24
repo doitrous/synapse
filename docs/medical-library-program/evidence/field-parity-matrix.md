@@ -21,6 +21,12 @@ drift when a field is added.
 | Practical · interpretation question | `LabQuestionDraft` | 9 | 30 | 9 | 0 | 0 |
 | Practical · media request | `MediaRequest` | 19 | 30 | 14 | 0 | 5 |
 | Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 0 | 8 |
+| Minigame · base pack | `BasePack` | 7 | 16 | 7 | 0 | 0 |
+| Minigame · source metadata | `MiniGameSource` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · ordered pack | `OrderedMiniGamePack` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · ordered step | `OrderedStep` | 2 | 16 | 2 | 0 | 0 |
+| Minigame · red flag sort | `RedFlagSortPack` | 4 | 16 | 4 | 0 | 0 |
+| Minigame · red flag finding | `RedFlagFinding` | 4 | 16 | 4 | 0 | 0 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
 | Evidence · citation | `CitationLink` | 9 | 12 | 9 | 0 | 0 |
