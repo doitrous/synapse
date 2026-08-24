@@ -52,6 +52,7 @@ const theme = {
 
 export function NoteEditor({ editorJson, onChange, onPaste, placeholder }: NoteEditorProps) {
   const initialState = useMemo(() => JSON.stringify(normaliseForLexical(editorJson)), [editorJson])
+  const locallyEmittedStates = useRef(new Set<string>())
 
   return (
     <LexicalComposer
@@ -84,15 +85,17 @@ export function NoteEditor({ editorJson, onChange, onPaste, placeholder }: NoteE
       </div>
       <HistoryPlugin />
       <ListPlugin />
-      <LoadEditorStatePlugin editorJson={editorJson} />
+      <LoadEditorStatePlugin editorJson={editorJson} locallyEmittedStates={locallyEmittedStates.current} />
       <OnChangePlugin
         ignoreSelectionChange
         onChange={(state) => {
           let plainText = ''
+          const nextEditorJson = state.toJSON() as NotebookEditorJson
           state.read(() => {
             plainText = $getRoot().getTextContent()
           })
-          onChange({ editorJson: state.toJSON() as NotebookEditorJson, plainText })
+          rememberLocallyEmittedState(locallyEmittedStates.current, JSON.stringify(normaliseForLexical(nextEditorJson)))
+          onChange({ editorJson: nextEditorJson, plainText })
         }}
       />
     </LexicalComposer>
@@ -143,17 +146,34 @@ function ToolbarButton({
   )
 }
 
-function LoadEditorStatePlugin({ editorJson }: { editorJson: NotebookEditorJson }) {
+function rememberLocallyEmittedState(states: Set<string>, serialised: string) {
+  states.add(serialised)
+  if (states.size <= 32) return
+  const oldest = states.values().next().value
+  if (oldest) states.delete(oldest)
+}
+
+function LoadEditorStatePlugin({ editorJson, locallyEmittedStates }: { editorJson: NotebookEditorJson; locallyEmittedStates: Set<string> }) {
   const [editor] = useLexicalComposerContext()
-  const lastApplied = useRef('')
 
   useEffect(() => {
     const serialised = JSON.stringify(normaliseForLexical(editorJson))
-    if (serialised === lastApplied.current) return
+    // Parent persistence can echo an earlier keystroke after the student has
+    // already typed another one. Treat every recent local state as an
+    // acknowledgement, never as an external document revision.
+    if (locallyEmittedStates.delete(serialised)) return
+    // OnChange immediately echoes the current editor JSON through the note
+    // store. Re-applying that identical state resets Lexical's selection and
+    // makes the editor appear to lose focus after every character. Only load a
+    // state when it is genuinely external (note switch, capture append, or a
+    // shared revision).
+    const current = JSON.stringify(normaliseForLexical(
+      editor.getEditorState().toJSON() as NotebookEditorJson,
+    ))
+    if (serialised === current) return
     try {
       const nextState = editor.parseEditorState(serialised) as EditorState
       editor.setEditorState(nextState)
-      lastApplied.current = serialised
     } catch {
       const fallback = editorJsonToPlainText(editorJson)
       editor.update(() => {
@@ -163,9 +183,8 @@ function LoadEditorStatePlugin({ editorJson }: { editorJson: NotebookEditorJson 
         paragraph.append($createTextNode(fallback))
         root.append(paragraph)
       })
-      lastApplied.current = JSON.stringify(plainTextToEditorJson(fallback))
     }
-  }, [editor, editorJson])
+  }, [editor, editorJson, locallyEmittedStates])
 
   return null
 }

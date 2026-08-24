@@ -13,6 +13,7 @@ import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
+import { Badge } from '@/components/ui/Badge'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
@@ -22,6 +23,7 @@ import { cn } from '@/lib/cn'
 import { API_MODE, apiGet } from '@/lib/api'
 import { ExamReadinessCard } from '@/components/dashboard/ProgressTrio'
 import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
+import { demoLeaderboard } from '@/data/demoPreview'
 
 /**
  * Marked answers needed before this page reports anything.
@@ -134,7 +136,12 @@ function TopPerformers() {
 
   useEffect(() => {
     let alive = true
-    if (!API_MODE) { setData(null); setLoading(false); return () => { alive = false } }
+    if (!API_MODE) {
+      setData(demoLeaderboard(metric))
+      setLoading(false)
+      setFailed(false)
+      return () => { alive = false }
+    }
     setLoading(true)
     setFailed(false)
     apiGet<LeaderboardResponse>(`/leaderboards?metric=${metric}`)
@@ -164,6 +171,12 @@ function TopPerformers() {
           )}
         />
         <div className="border-b border-line bg-surface-2/40 px-4 py-3 text-[12px] leading-relaxed text-ink-2 sm:px-5">
+          {!API_MODE && <Badge tone="primary" dot className="mb-2">Demo cohort preview</Badge>}
+          {data?.scope && (
+            <p className="mb-1 font-medium text-ink">
+              {[data.scope.university, data.scope.year, data.scope.term].filter(Boolean).join(' · ')}
+            </p>
+          )}
           {metric === 'mastery'
             ? t('A concept counts as secured after at least three marked attempts at 80% accuracy or better. This rewards breadth of reliable knowledge, not answer volume alone.')
             : t('Accuracy includes students with at least 100 server-verified answers this term. Ties are resolved by evidence volume, then recent verified activity.')}

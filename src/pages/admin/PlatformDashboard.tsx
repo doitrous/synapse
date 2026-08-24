@@ -5,7 +5,6 @@ import {
   BellRing,
   BookOpenCheck,
   CalendarClock,
-  Database,
   FileWarning,
   Flag,
   GraduationCap,
@@ -27,6 +26,7 @@ import { Icon } from '@/components/ui/Icon'
 import { Meter } from '@/components/ui/Meter'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { API_MODE, apiGet, apiPost } from '@/lib/api'
+import { demoPlatformReport } from '@/data/demoPreview'
 
 interface PlatformReport {
   generatedAt: string
@@ -53,6 +53,7 @@ interface PlatformReport {
 const gb = (bytes: number) => bytes / 1024 / 1024 / 1024
 const whole = (value: number | null | undefined) => Number(value ?? 0).toLocaleString()
 const egp = (value: number | null | undefined) => value == null ? 'Not connected' : `EGP ${Math.round(value).toLocaleString()}`
+const money = (currency: string | null | undefined, value: number | null | undefined) => value == null ? 'Not connected' : `${currency ?? 'EGP'} ${Math.round(value).toLocaleString()}`
 const when = (iso: string | null | undefined) => iso ? new Intl.DateTimeFormat(undefined, { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(iso)) : '—'
 
 function sourceLabel(source: string) {
@@ -62,7 +63,7 @@ function sourceLabel(source: string) {
 }
 
 export function PlatformDashboard() {
-  const [report, setReport] = useState<PlatformReport | null>(null)
+  const [report, setReport] = useState<PlatformReport | null>(() => API_MODE ? null : demoPlatformReport())
   const [loading, setLoading] = useState(false)
   const [ackBusy, setAckBusy] = useState(false)
   const [error, setError] = useState('')
@@ -91,7 +92,7 @@ export function PlatformDashboard() {
   const detailRows: Array<{ area: string; signal: string; value: string; icon: LucideIcon }> = [
     { area: 'Students', signal: 'Active / total', value: `${whole(report?.students.active)} / ${whole(report?.students.total)}`, icon: UserRoundCheck },
     { area: 'Subscriptions', signal: 'Active all-access subscriptions', value: whole(report?.subscriptions.active), icon: ShieldCheck },
-    { area: 'Revenue', signal: '30-day recognized revenue', value: `${report?.subscriptions.revenueCurrency ?? 'EGP'} · ${egp(report?.subscriptions.revenue30d)}`, icon: WalletCards },
+    { area: 'Revenue', signal: '30-day recognized revenue', value: money(report?.subscriptions.revenueCurrency, report?.subscriptions.revenue30d), icon: WalletCards },
     { area: 'Engagement', signal: 'Active answerers in 30 days', value: whole(report?.engagement.activeAnswerers30d), icon: Activity },
     { area: 'Content health', signal: 'Published / invalid / total', value: `${whole(report?.contentHealth.published)} / ${whole(report?.contentHealth.invalid)} / ${whole(report?.contentHealth.total)}`, icon: FileWarning },
     { area: 'Notifications', signal: 'Outbound / problems in 30 days', value: `${whole(report?.notificationDelivery.outbound30d)} / ${whole(report?.notificationDelivery.problem30d)}`, icon: BellRing },
@@ -100,6 +101,20 @@ export function PlatformDashboard() {
   async function acknowledgeStorage() {
     const threshold = report?.storage.reachedThresholdGb
     if (!threshold) return
+    if (!API_MODE) {
+      setReport((current) => current ? {
+        ...current,
+        storage: {
+          ...current.storage,
+          warning: false,
+          acknowledgedThresholdGb: threshold,
+          acknowledgedBy: 'demo-admin',
+          acknowledgedAt: new Date().toISOString(),
+        },
+      } : current)
+      setNotice(`${threshold} GB demo warning acknowledged. This preview does not change live data.`)
+      return
+    }
     setAckBusy(true)
     setNotice('')
     try {
@@ -113,19 +128,6 @@ export function PlatformDashboard() {
     }
   }
 
-  if (!API_MODE) {
-    return (
-      <PageContainer>
-        <PageHeader title="Operational Reports" description="Live platform health, storage, enrolment, content and delivery reports." />
-        <Panel className="px-5 py-10 text-center">
-          <Icon icon={Database} size={28} className="mx-auto text-ink-3" />
-          <p className="mt-3 font-semibold text-ink">Connect the live backend to view operations.</p>
-          <p className="mt-1 text-[13px] text-ink-3">Set VITE_API_BASE so this page can read /api/admin/platform reports.</p>
-        </Panel>
-      </PageContainer>
-    )
-  }
-
   return (
     <PageContainer>
       <PageHeader
@@ -133,7 +135,16 @@ export function PlatformDashboard() {
         description="The admin front door now reports server-owned activity, storage, enrolment, content and delivery signals."
         actions={
           <>
-            <Button size="sm" variant="secondary" iconLeft={RefreshCw} loading={loading} onClick={() => void load()}>Refresh</Button>
+            {!API_MODE && <Badge tone="primary" dot>Demo data</Badge>}
+            <Button
+              size="sm"
+              variant="secondary"
+              iconLeft={RefreshCw}
+              loading={loading}
+              onClick={() => API_MODE ? void load() : setReport(demoPlatformReport())}
+            >
+              {API_MODE ? 'Refresh' : 'Reset demo'}
+            </Button>
             <Link to="/admin/content" className="inline-flex h-8 items-center rounded-lg border border-line-2 bg-surface px-2.5 text-[13px] font-semibold text-ink shadow-control hover:bg-surface-2">
               Content Control
             </Link>

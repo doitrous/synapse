@@ -492,6 +492,36 @@ function parseCapture(raw: string): NoteCapturePayload {
   return { quote: raw }
 }
 
+function DemoSharedNotesList({ query }: { query: string }) {
+  const needle = query.trim().toLowerCase()
+  const items = [
+    { title: 'Cranial nerve localisation', owner: '@neuro-nora', topic: 'Neurology', stars: 18, following: true, collaborators: 3 },
+    { title: 'Heart murmurs · bedside distinctions', owner: '@cardio-karim', topic: 'Cardiovascular', stars: 12, following: false, collaborators: 2 },
+    { title: 'Anaemia pattern recognition', owner: '@hema-hana', topic: 'Haematology', stars: 9, following: true, collaborators: 4 },
+  ].filter((item) => !needle || `${item.title} ${item.owner} ${item.topic}`.toLowerCase().includes(needle))
+
+  return (
+    <div className="flex-1 overflow-y-auto px-2 pb-3">
+      <p className="mx-2 mb-2 rounded-md bg-primary-tint px-2.5 py-2 text-[11px] font-medium text-primary-strong">Demo shared library · live access stays server-enforced</p>
+      {items.map((item) => (
+        <section key={item.title} className="mb-3">
+          <p className="px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{item.topic}</p>
+          <div className="rounded-lg border border-line bg-surface p-2">
+            <p className="truncate text-[13px] font-semibold text-ink">{item.title}</p>
+            <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.owner} · View and collaborate</p>
+            <div className="mt-2 flex items-center gap-2 text-[11px] text-ink-3">
+              <span className="inline-flex items-center gap-1"><Icon icon={Star} size={12} />{item.stars}</span>
+              <span className="inline-flex items-center gap-1"><Icon icon={Users} size={12} />{item.collaborators}</span>
+              <span className="ms-auto inline-flex items-center gap-1 font-medium text-ink-2"><Icon icon={Bell} size={12} />{item.following ? 'Following' : 'Follow'}</span>
+            </div>
+          </div>
+        </section>
+      ))}
+      {!items.length && <p className="px-3 py-6 text-center text-[12px] text-ink-3">No demo shared note matches.</p>}
+    </div>
+  )
+}
+
 function SharedNotesList({
   query,
   shared,
@@ -529,7 +559,7 @@ function SharedNotesList({
   }
 
   if (shared.loading) return <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('Opening shared notes…')}</p>
-  if (!API_MODE) return <p className="px-4 py-6 text-center text-[12.5px] leading-relaxed text-ink-3">{t('Shared notebook items need the connected API. This preview keeps notes in your browser.')}</p>
+  if (!API_MODE) return <DemoSharedNotesList query={query} />
   if (shared.error) return <p role="alert" className="px-4 py-6 text-center text-[12.5px] text-danger">{t(shared.error)}</p>
   if (!items.length) return <p className="px-4 py-6 text-center text-[12.5px] text-ink-3">{t('No shared notes match.')}</p>
 
