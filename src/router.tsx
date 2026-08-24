@@ -93,6 +93,7 @@ const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), '
 const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
+const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
 const ControlDashboard = lazyNamed(() => import('@/pages/admin/ControlDashboard'), 'ControlDashboard')
 const AcademicSetup = lazyNamed(() => import('@/pages/admin/AcademicSetup'), 'AcademicSetup')
 const PaymentsFinance = lazyNamed(() => import('@/pages/admin/PaymentsFinance'), 'PaymentsFinance')
@@ -243,7 +244,7 @@ const guarded = (path: string, element: ReactElement) => ({
  */
 function AdminHome() {
   const identity = useIdentity()
-  if (identity.status === 'demo' || identity.tabs.includes('dashboard')) return <ControlDashboard />
+  if (identity.status === 'demo' || identity.tabs.includes('dashboard')) return <PlatformDashboard />
   const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
   return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
 }
@@ -278,6 +279,7 @@ const adminApp = {
     guarded('library/coverage', render(MedicalCoverageReview)),
     guarded('library/media', render(MediaRequests)),
     guarded('library/evidence/import', render(EvidenceImportPage)),
+    { path: 'content', element: <RequireAuth tab="library">{render(ControlDashboard)}</RequireAuth> },
     ...adminRoutes,
   ],
 }
