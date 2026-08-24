@@ -77,7 +77,7 @@
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
       "modelFields": 16,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 13,
       "missing": 0,
       "notApplicable": 3
@@ -86,7 +86,7 @@
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
       "modelFields": 11,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -95,7 +95,7 @@
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
       "modelFields": 10,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 10,
       "missing": 0,
       "notApplicable": 0
@@ -104,7 +104,7 @@
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
       "modelFields": 11,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -113,7 +113,7 @@
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
       "modelFields": 9,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 9,
       "missing": 0,
       "notApplicable": 0
@@ -122,7 +122,7 @@
       "contentType": "Practical · media request",
       "model": "MediaRequest",
       "modelFields": 18,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 14,
       "missing": 0,
       "notApplicable": 4
@@ -1437,7 +1437,7 @@
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1540,7 +1540,7 @@
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1613,7 +1613,7 @@
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",
@@ -1680,7 +1680,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1753,7 +1753,7 @@
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",
@@ -1814,7 +1814,7 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",

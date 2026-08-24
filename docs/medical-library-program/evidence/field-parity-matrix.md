@@ -14,12 +14,12 @@ drift when a field is added.
 | Question | `QuestionAuthoringData` | 22 | 61 | 21 | 0 | 1 |
 | Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
 | Question · media request | `MediaRequest` | 18 | 61 | 14 | 0 | 4 |
-| Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 27 | 13 | 0 | 3 |
-| Practical · clinical case | `CaseAuthoringData` | 11 | 27 | 8 | 0 | 3 |
-| Practical · case decision | `ClinicalDecisionDraft` | 10 | 27 | 10 | 0 | 0 |
-| Practical · interpretation set | `LabAuthoringData` | 11 | 27 | 8 | 0 | 3 |
-| Practical · interpretation question | `LabQuestionDraft` | 9 | 27 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 18 | 27 | 14 | 0 | 4 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 30 | 13 | 0 | 3 |
+| Practical · clinical case | `CaseAuthoringData` | 11 | 30 | 8 | 0 | 3 |
+| Practical · case decision | `ClinicalDecisionDraft` | 10 | 30 | 10 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 11 | 30 | 8 | 0 | 3 |
+| Practical · interpretation question | `LabQuestionDraft` | 9 | 30 | 9 | 0 | 0 |
+| Practical · media request | `MediaRequest` | 18 | 30 | 14 | 0 | 4 |
 | Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 0 | 8 |
 | Evidence · source | `ResourceRecord` | 20 | 17 | 17 | 0 | 3 |
 | Evidence · claim | `EvidenceClaim` | 15 | 14 | 15 | 0 | 0 |
