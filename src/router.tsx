@@ -198,7 +198,9 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'spotter', 'term-match', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+// Keep mounted routes and preloadable student pages in one registry so a new
+// page cannot be linked in navigation while silently falling through to 404.
+const studentPaths = Object.keys(studentPages)
 const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
