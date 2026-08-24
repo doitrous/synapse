@@ -27,7 +27,7 @@ number of decisions you wrote.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `Clinical case`. Exact string. |
 | `title` | Title | **yes** | What the case is about. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |

@@ -111,7 +111,7 @@ Validate with `npm run medical:batch` and report fieldsUsed. It must be 46 or mo
 | `attached_image` | Attached image | no | A single image URL shown with the stem. **Only a real URL.** If you need one, file a media request. |
 | `attachments` | Attachments | no | `### image\|audio\|video · URL` blocks, then `Name:` and optionally `Mime:`. Real assets only. |
 | `id` | Canonical ID | no | Supply to update an existing question. |
-| `subject` | Subject ID | **yes** | One of the eight. |
+| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Defaults to `Import queue`. Set it to a real owner. |
 

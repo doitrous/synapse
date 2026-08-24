@@ -59,7 +59,7 @@ finding already circled cannot be used to test whether the student can find it.
 | `type` | Practical format | **yes** | `Imaging interpretation`. Exact string. |
 | `lab_subtype` | Lab / Imaging | **yes** in practice | `Imaging`. |
 | `title` | Title | **yes** | What the set covers. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |

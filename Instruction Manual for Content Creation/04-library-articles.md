@@ -138,7 +138,7 @@ From `articlePopulated` in the field audit, plus the importer's own required set
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | Student-facing. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `topic` | **yes** | Parent topic in the library navigator. |
 | `summary` | **yes** | The opening summary. Also a discriminating column — always include it. |
 | `sections` | **yes** in practice | `### Heading` blocks. The audit requires a value; the importer accepts `body` instead, but do not use it — it is legacy. |

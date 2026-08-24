@@ -59,7 +59,7 @@ number of steps you wrote.
 |---|---|---|---|
 | `type` | Practical format | **yes** | `Skills checklist`. Exact string — a typo silently makes it an OSCE station. |
 | `title` | Title | **yes** | The procedure. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `status` | Workflow status | no | `Draft` · `In review` · `Published` · `Archived`. Write `Draft`. |
 | `owner` | Content owner | no | Author or team responsible for review. |
 | `duration` | Duration | no | Expected minutes. |

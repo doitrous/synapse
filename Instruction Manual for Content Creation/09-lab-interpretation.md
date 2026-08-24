@@ -58,7 +58,7 @@ HCO₃⁻ 12 mmol/L (22–26) · Base excess −13 mmol/L (−2 to +2) · Lactat
 | `type` | Practical format | **yes** | `Lab interpretation`. Exact string. |
 | `lab_subtype` | Lab / Imaging | **yes** in practice | `Lab`. |
 | `title` | Title | **yes** | What the set covers. |
-| `subject` | Subject ID | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | Subject ID | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `status` | Status | no | Write `Draft`. |
 | `owner` | Owner | no | Author or team responsible for review. |

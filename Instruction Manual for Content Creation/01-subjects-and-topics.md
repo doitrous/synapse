@@ -45,14 +45,18 @@ where you already placed the item rather than typed twice.
 Five levels, each with a stable ID prefix:
 
 ```
-System      SYS_*    ← the eight subjects
+System      SYS_*    ← live curriculum subjects
   Topic       TPC_*
     Subtopic    SUB_*
       Microtopic  MIC_*
         Nanotopic   NAN_*
 ```
 
-Subject IDs are exactly `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`.
+Subject IDs come from the live curriculum catalogue (`src/data/curriculumCatalog.ts`
+and `src/data/subjects.ts`), not the old eight-ID list. Use a value that resolves to a
+valid subject/system ID: `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`,
+`fnd`, `dev`, `haem`, `imm`, `inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, or
+`pop`.
 
 ---
 
@@ -126,9 +130,8 @@ systems: 20
 
 If the shelf exists under any name, rename it rather than adding a sibling.
 
-> The catalogue holds **20** systems, not eight. The eight subject IDs in §00 are the ones
-> valid in a `subject` field on content; the extra systems exist in the tree. Check before
-> assuming a system is missing.
+> The catalogue holds **20** systems, not eight. All 20 current IDs named in §00 are valid
+> in a `subject` field on content. Check before assuming a system is missing.
 
 ---
 

@@ -117,7 +117,7 @@ What a student opens. Imports at **Bulk import → resource**.
 | Key | Required | Rule |
 |---|---|---|
 | `title` | **yes** | The source as a student would recognise it. |
-| `subject` | **yes** | One of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | **yes** | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `type` | **yes** | `Book` · `Video` · `Guideline` · `Deck` · `Article`. |
 | `source` | **yes** | Publisher, institution or author. |
 | `id` | no | Use the `src_…` ID if this PDF is in the corpus, so both records match. |

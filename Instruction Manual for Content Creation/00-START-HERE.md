@@ -158,14 +158,19 @@ silently attaches your work to the wrong record, or to nothing.
 |---|---|---|
 | `SYS-CVS`, `SYS-CVS-T02-S01-M01` | Canonical taxonomy node, Systems view | placement |
 | `DIS-PHA-T04`, `SKL-EXM`, `KNW-EMG` | Canonical node, other views | secondary placement |
-| `SYS_*`, `TPC_*`, `SUB_*`, `MIC_*`, `NAN_*` | Curriculum overlay | `SUB_HF_MGMT` |
+| `SYS_*`, `TPC_*`, `SUB_*`, `MIC_*`, `NAN_*` | Curriculum overlay for the live subjects | `SUB_HF_MGMT` |
 | `CON-<SYSTEM>-<14 hex>` | Concept — SYSTEM is a body-system code, **not** the subject ID | `CON-CVS-7C9D59D257AC65`, `CON-REN-…` |
 | `ART-<SUBJECT>-<SLUG>` | Article | `ART-CVS-CARDIAC-CYCLE` |
 | `TPL-*` | Article template | `TPL-CONDITION` |
 | `rel-<source>-<type>-<target>` | Concept relation (derived) | |
 
-Subject IDs are exactly: `cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`.
-Nothing else is valid in a `subject` field.
+Subject IDs come from the live curriculum catalogue, not the old eight-ID list. The
+authoritative sources are `src/data/curriculumCatalog.ts` (`CURRICULUM_CATALOG` and
+`CURRICULUM_SUBJECTS`) and `src/data/subjects.ts`. A `subject` value must resolve to a
+valid live subject/system ID. The current set is:
+
+`cvs`, `resp`, `renal`, `gi`, `neuro`, `endo`, `msk`, `pharm`, `fnd`, `dev`, `haem`,
+`imm`, `inf`, `obs`, `gyn`, `androl`, `psy`, `derm`, `mul`, `pop`.
 
 > Some older live records carry `subjectId: "medical"` — 736 of them, from the extraction
 > pipeline. That is legacy data, not a subject you may use.

@@ -5,6 +5,7 @@ import { IMPORT_SCHEMAS } from './bulkImport.ts'
 import { CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from './conceptImport.ts'
 import { SUBJECTS_IMPORT_FIELDS } from './subjectsImport.ts'
 import { EVIDENCE_IMPORT_FIELDS } from './evidenceImport.ts'
+import { CURRICULUM_CATALOG } from './curriculumCatalog.ts'
 
 /**
  * The authoring manuals and the import schema must not drift apart.
@@ -90,10 +91,10 @@ test('every Subjects & Topics import field is documented in its manual', () => {
   check(['01-subjects-and-topics.md'], SUBJECTS_IMPORT_FIELDS.map((field) => field.key))
 })
 
-test('the shared law still names the eight valid subject IDs', () => {
+test('the shared law names every live subject ID', () => {
   // Cheap guard on the rule every manual depends on.
   const start = doc('00-START-HERE.md')
-  for (const subject of ['cvs', 'resp', 'renal', 'gi', 'neuro', 'endo', 'msk', 'pharm']) {
+  for (const subject of CURRICULUM_CATALOG.map((system) => system.id)) {
     assert.ok(start.includes(`\`${subject}\``), `00-START-HERE does not name subject ${subject}`)
   }
 })

@@ -87,8 +87,8 @@ Every one of the 1,718 concepts in live state is `CON-<SYSTEM>-<14 hex>`. The im
 `med.concept.<slug-of-label>`, which matches nothing and opens a second ID namespace inside
 one graph. So the ID is never optional.
 
-> **The first segment is a body-system code, not the subject ID.** They differ for five of
-> the eight subjects, and guessing gets it wrong: `renal` → **REN**, `resp` → **RES**,
+> **The first segment is a body-system code, not the subject ID.** Several live subjects
+> deliberately differ, and guessing gets it wrong: `renal` → **REN**, `resp` → **RES**,
 > `gi` → **GIT**, `endo` → **END**, `neuro` → **NEU**. Only `cvs`, `msk` and `pharm` are
 > unsurprising, and `pharm` concepts are filed under the system whose drugs they are rather
 > than under a pharmacology code. It is also not the canonical node — `CON-REN-` concepts
@@ -160,7 +160,7 @@ them **present**, so write both.
 
 | Key | Admin label | Rule |
 |---|---|---|
-| `subject` | System / subject ID | Exactly one of `cvs resp renal gi neuro endo msk pharm`. |
+| `subject` | System / subject ID | Valid live curriculum subject/system ID from `src/data/curriculumCatalog.ts` / `src/data/subjects.ts` — for example `cvs`, `fnd`, `haem`, or `pop`. Do not use legacy `medical`. |
 | `primary_node_id` | Canonical node ID | One canonical taxonomy node — `SYS-CVS-T02-S01-M01`. Must already exist. This is the concept's one home. |
 | `article_ids` | Article IDs | Every article that teaches this concept. **Each of those articles must list this concept back** in `related_concepts`. A concept with no article is an orphan. |
 
