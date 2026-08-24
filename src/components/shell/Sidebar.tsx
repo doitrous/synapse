@@ -108,7 +108,7 @@ export function Sidebar({
                           className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
                         />
                         {collapsed ? (
-                          <span className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-50 hidden -translate-y-1/2 whitespace-nowrap rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium text-paper shadow-pop group-hover:block group-focus-visible:block">
+                          <span role="tooltip" className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-[90] hidden w-max max-w-56 -translate-y-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop group-hover:block group-focus-visible:block">
                             {t(item.label)}
                           </span>
                         ) : (

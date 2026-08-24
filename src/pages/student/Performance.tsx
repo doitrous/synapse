@@ -445,7 +445,7 @@ export function Performance() {
               ))}
             </div>
             <p className="mt-5 border-t border-line pt-4 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Stations, checklists and written questions are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Connect Cortex aggregates other students yet.')}
+              {t('Stations, checklists and written questions are self-scored, so they count as attempts but never toward an accuracy. Cohort comparison is not available: nothing in Maristana aggregates other students yet.')}
             </p>
           </div>
         </Panel>

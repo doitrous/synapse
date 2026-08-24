@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 /* =========================================================================
-   CONNECT CORTEX · "The Clinical Chart"
+   MARISTANA · "The Clinical Chart"
    The visual language of medicine's own instruments: ruled vitals charts,
    graph/ECG paper, formulary tables, fine anatomical line-work.
 
@@ -23,7 +23,7 @@
   --font-serif: "Source Serif 4 Variable", Georgia, "Times New Roman", serif;
   --font-mono: "Geist Mono Variable", ui-monospace, "SF Mono", Menlo, monospace;
   /* The logotype's own geometric sans. Brand lockups only — never UI, never body. */
-  --font-brand: "Jost Variable", "Century Gothic", system-ui, sans-serif;
+  --font-brand: "Orbitron Variable", "Century Gothic", system-ui, sans-serif;
 
   /* ---- Ground & ink -------------------------------------------------- */
   --color-paper: #f5f7fb;      /* page ground — a very light hint of the brand blue */

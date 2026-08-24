@@ -21,6 +21,8 @@ import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, 
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
 import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
+import { applyGlossaryRows } from '../src/data/glossaryImport.ts'
+import { EMPTY_GLOSSARY, GLOSSARY_STORAGE_KEY, MED_CATEGORIES } from '../src/data/glossary.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
   evidenceErrors, reconcileClaimEvidence,
@@ -68,6 +70,8 @@ const evidence = structuredClone(state[EVIDENCE_KEY] ?? { claims: [], citations:
 const ledger = structuredClone(state[LEDGER_KEY] ?? [])
 let gamePacks = structuredClone(Array.isArray(state[MINIGAME_PACKS_KEY]?.packs) ? state[MINIGAME_PACKS_KEY].packs : [])
 let minigameTouched = false
+let glossary = structuredClone(state[GLOSSARY_STORAGE_KEY] ?? EMPTY_GLOSSARY)
+let glossaryTouched = false
 
 const before = {
   articles: ledger.filter((item) => item.kind === 'article').length,
@@ -78,6 +82,7 @@ const before = {
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
   minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 /* ---- apply, in dependency order ------------------------------------------ */
@@ -86,7 +91,7 @@ const before = {
 // concept must have been applied before one is checked against the graph.
 // Questions run last: each one resolves against both the concept graph and the
 // article ledger, so it has to see every concept and article this run creates.
-const ORDER = { resource: 0, 'catalogue-resource': 1, article: 2, concept: 3, claim: 4, citation: 5, span: 6, relation: 7, practical: 8, question: 9, minigame: 10 }
+const ORDER = { glossary: 0, resource: 1, 'catalogue-resource': 2, article: 3, concept: 4, claim: 5, citation: 6, span: 7, relation: 8, practical: 9, question: 10, minigame: 11 }
 
 // The columns each kind actually has, taken from the canonical registry rather
 // than a copy kept here — a vocabulary maintained in two places is a vocabulary
@@ -187,6 +192,25 @@ for (const batch of batches) {
       else { gamePacks = [incoming, ...gamePacks]; created += 1 }
     })
     report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'glossary') {
+    glossaryTouched = true
+    const result = applyGlossaryRows(glossary.terms, batch.rows)
+    glossary = {
+      version: 1,
+      categories: glossary.categories.length ? glossary.categories : MED_CATEGORIES.map((entry) => ({ ...entry })),
+      terms: result.records,
+    }
+    result.errors.forEach((error) => errors.push(`${batch.file}: ${error}`))
+    report.push({
+      file: batch.file,
+      kind: batch.kind,
+      created: result.created,
+      updated: result.updated,
+      rejected: result.rejected,
+    })
     continue
   }
 
@@ -353,6 +377,7 @@ const after = {
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
   minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 // The point of the exercise: which concepts can now leave needs_evidence.
@@ -381,6 +406,7 @@ if (emitFile) {
       packs: gamePacks,
     }
   }
+  if (glossaryTouched) nextStates[GLOSSARY_STORAGE_KEY] = glossary
   await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: nextStates }, null, 1)}\n`)
 }
 

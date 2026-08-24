@@ -1,5 +1,5 @@
 /**
- * Connect Cortex curriculum source of truth.
+ * Maristana curriculum source of truth.
  *
  * This file owns the stable Subjects & Topics hierarchy. Articles, concepts,
  * questions, resources, filters, and import preflight all reference these IDs;

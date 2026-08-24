@@ -1,6 +1,6 @@
-# Synapse / Connect Cortex
+# Maristana Platform (Synapse)
 
-Synapse is the Connect Cortex undergraduate medical learning platform. It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
+Maristana by Connect Academy is the undergraduate medical learning platform in this repository; `synapse` remains the internal application/package name and storage-key namespace. It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
 
 The same repository can run in two modes:
 
@@ -148,7 +148,6 @@ Trial access remains an onboarding/access state, not a public purchase tier. The
 The admin home at `/admin` uses `/api/admin/platform/reports` for operational reporting: storage, active students, recent signups, active subscriptions, engagement, verified question activity, content health, media-blocked content, reports, pending enrollment changes, and outbound notification/email delivery health. Subscription revenue is reported in EGP, but `revenue30d` is currently `null` until a payment source is wired to the report.
 
 Storage usage is calculated from live `user_documents` rows and grouped by resource, notebook, and whiteboard sources. Warnings are triggered at 20, 50, 70, 90, and 110 GB, then every additional 20 GB. A dismissed threshold is stored globally with administrator and timestamp through `/api/admin/platform/storage-thresholds/:thresholdGb/ack`; it remains dismissed until a higher threshold is reached.
-
 ## Data, State, and Media
 
 Shared catalogue/admin state lives in MariaDB `app_state` documents and is guarded by role/tab permissions. Student-owned state lives under `/api/user-state/:key`, where the server derives the owner from the verified Supabase session. The front end routes known private keys through `src/lib/stateOwnership.ts`; demo mode stores the same keys in localStorage.
@@ -175,10 +174,9 @@ Party games are server-authoritative. The browser creates a party game with `POS
 
 Authoring guidance lives in `Instruction Manual for Content Creation/`. Start with `00-START-HERE.md`, then use the manual for the content type being authored: subjects/topics, concepts, relationships, library articles, questions, practical formats, glossary terms, and resources.
 
-The canonical import-contract registry is `src/data/importContract.ts`. It is shared by manual-heading parity checks, schemas, parsers, merging, validators, and round-trip tests. Supported contracts include subjects, evidence resources/claims/citations/spans, catalogue resources, articles, concepts, relationships, practicals, questions, decks, essays, histology slides, and authored medicine minigame packs.
+The canonical import-contract registry is `src/data/importContract.ts`. It is shared by manual-heading parity checks, schemas, parsers, merging, validators, and round-trip tests. Supported contracts include subjects, evidence resources/claims/citations/spans, catalogue resources, articles, concepts, relationships, practicals, questions, glossary terms, decks, essays, histology slides, and authored medicine minigame packs.
 
 Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `synapse-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
-
 Important import locations:
 
 - `docs/import-ready/` - validated batches staged for manual admin import.

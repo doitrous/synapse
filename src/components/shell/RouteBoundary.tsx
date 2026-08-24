@@ -82,7 +82,7 @@ export class RouteBoundary extends Component<Props, State> {
     return (
       <div className="mx-auto w-full max-w-lg px-4 py-16 text-center" role="alert">
         <h1 className="font-serif text-[22px] font-semibold text-ink">
-          {stale ? 'Connect Cortex has been updated' : 'This screen could not be opened'}
+          {stale ? 'Maristana has been updated' : 'This screen could not be opened'}
         </h1>
         <p className="mt-2 text-[13.5px] leading-relaxed text-ink-2">
           {stale

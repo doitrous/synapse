@@ -63,6 +63,17 @@ test('an authored minigame batch is detected from its game kind and payload', ()
   assert.equal(detectBatchKind({ kind: 'red_flag_sort', prompt: 'Sort these', findings: 'a | urgent | Finding | Why' }), 'minigame')
 })
 
+test('a bilingual glossary batch is detected from its authored fields', () => {
+  assert.equal(detectBatchKind({
+    id: 'tachycardia',
+    term: 'Tachycardia',
+    ar: 'تسرّع القلب',
+    category: 'Signs & symptoms',
+    def: 'A faster than normal heart rate.',
+    definition_ar: 'تسارع ضربات القلب عن المعدل الطبيعي.',
+  }), 'glossary')
+})
+
 test('a row that matches no contract stays unknown rather than becoming a concept', () => {
   // The failure this guards: falling back to 'concept' meant a stray question
   // batch was applied as sixteen concept upserts and nothing said so.

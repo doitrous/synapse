@@ -89,7 +89,7 @@ export function SharedDocument() {
     <div className="min-h-dvh bg-paper">
       <header className="border-b border-line bg-surface/70">
         <div className="mx-auto flex min-h-16 max-w-5xl items-center gap-3 px-4 sm:px-6">
-          <Link to="/" aria-label="Connect Cortex home"><Wordmark /></Link>
+          <Link to="/" aria-label="Maristana home"><Wordmark /></Link>
           <span className="ms-auto text-[12.5px] text-ink-3">{t('Shared with you')}</span>
         </div>
       </header>
@@ -112,7 +112,7 @@ export function SharedDocument() {
                 : t('It may be private, withdrawn, or shared from another cohort. Ask the owner to check the link and permission.')}
             </p>
             <Link to={status === 'anonymous' ? `/login?next=${encodeURIComponent(`/s/${id ?? ''}`)}` : '/'} className="mt-6 inline-flex min-h-11 items-center justify-center rounded-lg bg-primary px-5 text-[13.5px] font-semibold text-on-primary hover:bg-primary-hover">
-              {status === 'anonymous' ? t('Sign in') : t('Go to Connect Cortex')}
+              {status === 'anonymous' ? t('Sign in') : t('Go to Maristana')}
             </Link>
           </div>
         )}
@@ -180,7 +180,7 @@ export function SharedDocument() {
 
             <p className="mt-6 flex items-center gap-1.5 text-[12px] text-ink-3">
               <Icon icon={LinkIcon} size={13} />
-              {t('Shared from Connect Cortex.')}{' '}
+              {t('Shared from Maristana.')}{' '}
               <Link to="/" className="font-semibold text-primary-strong hover:text-primary">{t('What is this?')}</Link>
             </p>
           </>

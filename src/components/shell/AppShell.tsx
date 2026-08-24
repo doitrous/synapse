@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
@@ -15,6 +15,13 @@ import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
 import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
+
+function isTypingTarget(target: EventTarget | null): boolean {
+  const element = target instanceof HTMLElement ? target : null
+  if (!element) return false
+  if (element.isContentEditable) return true
+  return Boolean(element.closest('input, textarea, select, [contenteditable="true"]'))
+}
 
 function AppShellInner({ portal }: { portal: Portal }) {
   const t = useT()
@@ -37,17 +44,22 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // The sidebar destination this URL belongs to: "/app/resources/42" and
   // "/app/resources" are one destination, "/app/library" is another.
   const section = pathname.split('/').slice(0, 3).join('/')
-  const typingTarget = (target: EventTarget | null) => {
-    const element = target instanceof HTMLElement ? target : null
-    return Boolean(element?.closest('input, textarea, select, [contenteditable="true"]'))
+
+  function openMobile() {
+    setMobileOpen(true)
   }
+
+  const closeMobile = useCallback(() => {
+    setMobileOpen(false)
+    window.setTimeout(() => mobileButtonRef.current?.focus(), 0)
+  }, [])
 
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
   useEffect(() => {
     if (!focusMode) return
     function onKey(event: KeyboardEvent) {
-      if (typingTarget(event.target)) return
+      if (isTypingTarget(event.target)) return
       if (event.key === 'Escape') toggleFocusMode()
     }
     window.addEventListener('keydown', onKey)
@@ -57,7 +69,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Global ⌘K / Ctrl-K to toggle search.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (typingTarget(e.target)) return
+      if (isTypingTarget(e.target)) return
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault()
         setSearchOpen((v) => !v)
@@ -73,32 +85,31 @@ function AppShellInner({ portal }: { portal: Portal }) {
     window.requestAnimationFrame(() => mainRef.current?.focus({ preventScroll: true }))
   }, [pathname])
 
+  useEffect(() => {
+    mainRef.current?.focus({ preventScroll: true })
+  }, [section])
+
   // Keep the page behind the mobile navigation still while the drawer is open.
   useEffect(() => {
     if (!mobileOpen) return
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = previous
-    }
-  }, [mobileOpen])
-
-  useEffect(() => {
-    if (!mobileOpen) return
     const drawer = drawerRef.current
-    window.requestAnimationFrame(() => drawer?.querySelector<HTMLElement>('a, button')?.focus())
-    function onKey(event: KeyboardEvent) {
+    const selector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    const focusable = drawer?.querySelector<HTMLElement>(selector)
+    window.setTimeout(() => focusable?.focus(), 0)
+    function trap(event: KeyboardEvent) {
       if (event.key === 'Escape') {
-        setMobileOpen(false)
-        mobileButtonRef.current?.focus()
+        event.preventDefault()
+        closeMobile()
         return
       }
-      if (event.key !== 'Tab' || !drawer) return
-      const focusable = [...drawer.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      if (event.key !== 'Tab' || !drawerRef.current) return
+      const items = Array.from(drawerRef.current.querySelectorAll<HTMLElement>(selector))
         .filter((element) => !element.hasAttribute('disabled') && element.offsetParent !== null)
-      if (!focusable.length) return
-      const first = focusable[0]
-      const last = focusable[focusable.length - 1]
+      if (!items.length) return
+      const first = items[0]
+      const last = items[items.length - 1]
       if (event.shiftKey && document.activeElement === first) {
         event.preventDefault()
         last.focus()
@@ -107,14 +118,12 @@ function AppShellInner({ portal }: { portal: Portal }) {
         first.focus()
       }
     }
-    document.addEventListener('keydown', onKey)
-    return () => document.removeEventListener('keydown', onKey)
-  }, [mobileOpen])
-
-  function closeMobile() {
-    setMobileOpen(false)
-    mobileButtonRef.current?.focus()
-  }
+    document.addEventListener('keydown', trap)
+    return () => {
+      document.body.style.overflow = previous
+      document.removeEventListener('keydown', trap)
+    }
+  }, [closeMobile, mobileOpen])
 
   return (
     <div className="min-h-dvh min-w-0">
@@ -144,7 +153,13 @@ function AppShellInner({ portal }: { portal: Portal }) {
             className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade"
             onClick={closeMobile}
           />
-          <div ref={drawerRef} className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop" role="dialog" aria-modal="true" aria-label={t('Navigation')}>
+          <div
+            ref={drawerRef}
+            className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop"
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('Navigation')}
+          >
             <Sidebar portal={portal} collapsed={false} onNavigate={closeMobile} />
           </div>
         </div>
@@ -161,9 +176,9 @@ function AppShellInner({ portal }: { portal: Portal }) {
           portal={portal}
           focusMode={focusMode}
           onToggleFocusMode={toggleFocusMode}
-          onOpenMobile={() => setMobileOpen(true)}
-          onOpenSearch={() => setSearchOpen(true)}
           mobileButtonRef={mobileButtonRef}
+          onOpenMobile={openMobile}
+          onOpenSearch={() => setSearchOpen(true)}
         />
         {/* Keyed on the destination, so the arriving screen re-settles by 8px.
             Deliberately the *section* rather than the whole pathname: moving

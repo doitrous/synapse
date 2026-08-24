@@ -1,9 +1,10 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, perMonth, periodById, plansFor, priceAt, purchasableAt,
-  savingPercent, say, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
+  compareGroups, compareRows, findPlan, isPurchasable, monthlyEquivalent, monthlyPriceFor, offerSelectionFromSearch, perMonth, periodById, plansFor, priceAt, purchasableAt,
+  savingPercent, say, signupPathForOffer, type BillingPeriodDef, type CatalogPlan, type PlanCatalog,
 } from './planCatalog.ts'
+import { initialPlanCatalog } from './planCatalogSeed.ts'
 
 const bi = (en: string) => ({ en, ar: `${en} (ar)` })
 const feat = (en: string, value?: string) => (value === undefined ? { label: bi(en) } : { label: bi(en), value: bi(value) })
@@ -24,7 +25,7 @@ function plan(overrides: Partial<CatalogPlan> = {}): CatalogPlan {
   }
 }
 
-const catalog = (plans: CatalogPlan[]): PlanCatalog => ({ periods: PERIODS, plans })
+const catalog = (plans: CatalogPlan[]): PlanCatalog => ({ schemaVersion: 2, periods: PERIODS, plans })
 
 /* ---- Language ------------------------------------------------------------ */
 
@@ -45,11 +46,15 @@ test('a period a plan is sold at gives that exact price', () => {
   assert.equal(priceAt(plan(), 'term', PERIODS)?.period.id, 'term')
 })
 
-test('a period a plan is not sold at falls back to the longest shorter one it is', () => {
+test('a live period a plan is not sold at falls back to the longest shorter one it is', () => {
   const monthlyOnly = plan({ prices: { month: 100 } })
-  assert.equal(priceAt(monthlyOnly, 'year', PERIODS)?.period.id, 'month')
+  assert.equal(priceAt(monthlyOnly, 'term', PERIODS)?.period.id, 'month')
   const upToTerm = plan({ prices: { month: 100, term: 250 } })
-  assert.equal(priceAt(upToTerm, 'year', PERIODS)?.period.id, 'term')
+  assert.equal(priceAt(upToTerm, 'term', PERIODS)?.period.id, 'term')
+})
+
+test('a coming-soon period with no exact price does not invent one from a shorter window', () => {
+  assert.equal(priceAt(plan({ prices: { month: 400, term: 1000 } }), 'year', PERIODS), null)
 })
 
 test('a plan sold only at a longer period still has a price to show', () => {
@@ -242,13 +247,13 @@ test('an unknown plan is worth nothing a month, rather than throwing', () => {
   assert.equal(monthlyPriceFor(list, 'nothing'), 0)
 })
 
-test('a plan sold only by the month is still on sale while the page shows the term', () => {
+test('a plan sold only by the month is still on sale while the page shows a live longer period', () => {
   const free = plan({ prices: { month: 0 } })
   // The exact period says no — it is not sold that way — but the price falls
   // back to the month, and the button must follow the price.
   assert.equal(isPurchasable(free, PERIODS[1]), false)
   assert.equal(purchasableAt(free, 'term', PERIODS), true)
-  assert.equal(purchasableAt(free, 'year', PERIODS), true)
+  assert.equal(purchasableAt(free, 'year', PERIODS), false)
 })
 
 test('a plan priced at a coming-soon period is refused while that period is showing', () => {
@@ -258,4 +263,21 @@ test('a plan priced at a coming-soon period is refused while that period is show
 
 test('a plan with no price at all cannot be bought at any period', () => {
   assert.equal(purchasableAt(plan({ prices: {} }), 'month', PERIODS), false)
+})
+
+/* ---- Offer selection ---------------------------------------------------- */
+
+test('the chosen Maristana period survives in an identifiers-only sign-up URL', () => {
+  const selection = offerSelectionFromSearch(initialPlanCatalog(), '?plan=maristana&period=month')
+  assert.deepEqual(selection, { planId: 'maristana', periodId: 'month' })
+  assert.equal(signupPathForOffer(selection), '/signup?plan=maristana&period=month')
+})
+
+test('the academic term is the safe default for an unknown or coming-soon offer', () => {
+  const launch = initialPlanCatalog()
+  assert.deepEqual(offerSelectionFromSearch(launch, ''), { planId: 'maristana', periodId: 'term' })
+  assert.deepEqual(
+    offerSelectionFromSearch(launch, '?plan=qbank&period=year'),
+    { planId: 'maristana', periodId: 'term' },
+  )
 })

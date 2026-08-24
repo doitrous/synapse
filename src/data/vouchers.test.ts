@@ -120,3 +120,25 @@ test('the inactive, unstarted, expired and exhausted rules still come first', ()
   assert.match(voucherEligibility(voucher({ expiresAt: new Date(2020, 0, 1).toISOString() }), student, catalogue()) ?? '', /expired/)
   assert.match(voucherEligibility(voucher({ maxRedemptions: 5, redemptionCount: 5 }), student, catalogue()) ?? '', /redemption limit/)
 })
+
+test('a private scholarship code can cover 100% once and remain scoped to one university year', () => {
+  const scholarship = voucher({
+    code: 'PRIVATE-SCHOLARSHIP',
+    name: 'Year representative scholarship',
+    amount: 100,
+    maxRedemptions: 1,
+    universityIds: ['kau'],
+    years: ['Year 1'],
+  })
+
+  assert.equal(voucherDiscount(scholarship, 1000), 1000)
+  assert.equal(voucherEligibility(scholarship, student, catalogue()), null)
+  assert.match(
+    voucherEligibility({ ...scholarship, redemptionCount: 1 }, student, catalogue()) ?? '',
+    /redemption limit/,
+  )
+  assert.match(
+    voucherEligibility(scholarship, { ...student, year: 'Year 2' }, catalogue()) ?? '',
+    /year/,
+  )
+})

@@ -2233,7 +2233,7 @@ const port = Number(process.env.PORT) || 8080
 migrate()
   .then(async () => {
     app.listen(port, () => {
-      console.log(`Connect Cortex on :${port}`)
+      console.log(`Maristana on :${port}`)
       void medicalResourceRecords()
         .then((resources) => console.log(`Medical resource index ready (${resources.length} records)`))
         .catch((error) => console.error('Medical resource index warm-up failed:', error.message))

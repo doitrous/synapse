@@ -751,7 +751,7 @@ export const AR: Record<string, string> = {
 
   // Panel titles
   'Two systems, measured separately': 'نظامان يُقاسان بشكل منفصل',
-  'What Connect Cortex measures': 'ما يقيسه Connect Cortex',
+  'What Maristana measures': 'ما يقيسه Maristana',
   'What it does not measure': 'ما لا يقيسه',
   'How your next block is put together': 'كيف تُبنى مجموعتك التالية',
   'Rules that are never relaxed': 'قواعد لا يجري التساهل فيها أبدًا',
@@ -834,8 +834,8 @@ export const AR: Record<string, string> = {
   Meaning: 'المعنى',
   'Not enough distinct questions yet to say anything about this.':
     'لا توجد أسئلة مختلفة كافية بعد لقول أي شيء عن هذا.',
-  'One recent answer went wrong. Connect Cortex will check this again — this is not a weakness label.':
-    'إجابة حديثة واحدة كانت خاطئة. سيتحقق Connect Cortex من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.',
+  'One recent answer went wrong. Maristana will check this again — this is not a weakness label.':
+    'إجابة حديثة واحدة كانت خاطئة. سيتحقق Maristana من هذا مرة أخرى — وهذا ليس وصفًا بالضعف.',
   'Repeated evidence across different questions points to a real gap here.':
     'أدلة متكررة عبر أسئلة مختلفة تشير إلى وجود فجوة حقيقية هنا.',
   'Measurable, but not yet strong enough to count as secure.':
@@ -860,8 +860,8 @@ export const AR: Record<string, string> = {
 
   // Page shell — the header and tab strip around the rules surface. Left in
   // English these framed an Arabic page, which reads worse than either alone.
-  'Connect Cortex keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.':
-    'يواصل Connect Cortex اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.',
+  'Maristana keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.':
+    'يواصل Maristana اكتشاف ما يُرجَّح أن تنساه أو تسيء فهمه، ويعيده إليك في الوقت المناسب، ويُبقي تدريبك متوافقًا مع مخطط امتحانك.',
   Algorithm: 'الخوارزمية',
   'days to exam': 'يومًا حتى الامتحان',
   'Your university and year are not set': 'لم تُحدَّد جامعتك وسنتك الدراسية',
@@ -880,7 +880,7 @@ export const AR: Record<string, string> = {
   'Thinking…': 'يفكّر…',
   'left today': 'متبقٍ اليوم',
   'No messages left today': 'لا رسائل متبقية اليوم',
-  'Ask about anything you are studying, or about how Connect Cortex works.': 'اسأل عن أي شيء تذاكره، أو عن طريقة عمل Connect Cortex.',
+  'Ask about anything you are studying, or about how Maristana works.': 'اسأل عن أي شيء تذاكره، أو عن طريقة عمل Maristana.',
   'What should I study today?': 'ماذا أذاكر اليوم؟',
   'Explain preload and afterload': 'اشرح الحمل القبلي والحمل البعدي',
   'Where is heart failure covered?': 'أين يُغطّى قصور القلب؟',

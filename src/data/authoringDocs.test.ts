@@ -82,6 +82,10 @@ test('every Subjects & Topics import field is documented in its manual', () => {
   check(IMPORT_CONTRACTS.subjects.manualFiles, IMPORT_CONTRACTS.subjects.fields.map((field) => field.key))
 })
 
+test('every glossary import field is documented in the glossary manual', () => {
+  check(IMPORT_CONTRACTS.glossary.manualFiles, IMPORT_CONTRACTS.glossary.fields.map((field) => field.key))
+})
+
 test('every deck, essay, histology, and minigame import field is documented in the supplemental manual', () => {
   for (const kind of ['deck', 'essay', 'histology', 'minigame'] as const) {
     check(IMPORT_CONTRACTS[kind].manualFiles, IMPORT_CONTRACTS[kind].fields.map((field) => field.key))

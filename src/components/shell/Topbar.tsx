@@ -34,16 +34,16 @@ export function Topbar({
   portal,
   focusMode,
   onToggleFocusMode,
+  mobileButtonRef,
   onOpenMobile,
   onOpenSearch,
-  mobileButtonRef,
 }: {
   portal: Portal
   focusMode: boolean
   onToggleFocusMode: () => void
+  mobileButtonRef?: RefObject<HTMLButtonElement | null>
   onOpenMobile: () => void
   onOpenSearch: () => void
-  mobileButtonRef?: RefObject<HTMLButtonElement | null>
 }) {
   const { pathname } = useLocation()
   const { t } = useI18n()
@@ -57,10 +57,14 @@ export function Topbar({
     'synapse.account.prefs.v1',
     { reviewReminders: true, calendarReminders: true },
   )
-  const notifications = [...campaigns
-    .filter((campaign) => portal === 'admin' ? campaign.active : notificationMatchesStudent(campaign, audience) && notificationIsDue(campaign) && notificationAllowedByPrefs(campaign, prefs))
-    , ...(portal === 'student' ? sharedNotifications : [])]
-    .sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
+  const notifications = [
+    ...campaigns.filter((campaign) =>
+      portal === 'admin'
+        ? campaign.active
+        : notificationMatchesStudent(campaign, audience) && notificationIsDue(campaign) && notificationAllowedByPrefs(campaign, prefs),
+    ),
+    ...(portal === 'student' ? sharedNotifications : []),
+  ].sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
   const [popupId, setPopupId] = useState<string | null>(null)
   const popoverRef = useRef<HTMLDivElement>(null)
   const title = currentTitle(portal, pathname, tabs)
@@ -120,7 +124,7 @@ export function Topbar({
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       {/* The desktop collapse control now lives in the sidebar, with the menu it
           opens. This one stays: on a phone there is no sidebar to put it in. */}
-      <button ref={mobileButtonRef} className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
+      <button ref={mobileButtonRef} type="button" className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
         <Icon icon={Menu} size={18} />
       </button>
 
@@ -134,6 +138,7 @@ export function Topbar({
 
       <div className="ms-auto flex shrink-0 items-center gap-0.5 sm:gap-1.5">
         <button
+          type="button"
           onClick={onOpenSearch}
           className="hidden h-9 w-60 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] text-ink-3 transition-colors hover:border-line-2 sm:flex"
         >
@@ -141,14 +146,16 @@ export function Topbar({
           <span className="flex-1 text-start">{t('Search…')}</span>
           <Kbd>⌘K</Kbd>
         </button>
-        <button onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
-          <Icon icon={Search} size={18} />
-        </button>
 
         <PomodoroTimer />
 
-        <Tooltip label={t('Hide menus')}>
+        <button type="button" onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
+          <Icon icon={Search} size={18} />
+        </button>
+
+        <Tooltip content={t('Hide menus')}>
           <button
+            type="button"
             onClick={onToggleFocusMode}
             className={cn(iconBtn, 'max-lg:hidden')}
             aria-label={t('Hide menus')}
@@ -170,7 +177,7 @@ export function Topbar({
           </Link>
         )}
 
-        <Tooltip label={t('Sign out')}>
+        <Tooltip content={t('Sign out')}>
           <Link to="/logout" className={iconBtn} aria-label={t('Sign out')}>
             <Icon icon={LogOut} size={17} />
           </Link>
@@ -178,6 +185,7 @@ export function Topbar({
 
         <div className="relative" ref={popoverRef}>
           <button
+            type="button"
             className={cn(iconBtn, 'relative')}
             aria-label={t('Notifications')}
             aria-haspopup="dialog"
@@ -201,6 +209,7 @@ export function Topbar({
                   <p className="text-[11.5px] text-ink-3">{unreadCount} {t('unread')}</p>
                 </div>
                 <button
+                  type="button"
                   className="text-[12px] font-medium text-primary hover:text-primary-strong"
                   onClick={() => markRead(notifications.map((notification) => notification.id))}
                 >

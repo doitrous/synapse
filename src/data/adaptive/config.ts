@@ -444,7 +444,7 @@ export const DEFAULT_ADAPTIVE_CONFIG: AdaptiveConfig = {
     {
       version: 1,
       at: '2026-07-19',
-      author: 'Connect Cortex',
+      author: 'Maristana',
       note: 'Initial published configuration. All weights, thresholds and intervals are launch hypotheses awaiting local held-out calibration.',
     },
   ],

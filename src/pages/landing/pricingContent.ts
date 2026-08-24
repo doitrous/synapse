@@ -1,19 +1,14 @@
 /**
- * Copy for the standalone pricing page.
+ * Conversion copy for Maristana's single-membership offer.
  *
- * The platform now sells one all-access plan, with trial access kept as a
- * non-purchasable onboarding state.
+ * Prices stay in the catalogue; this file only supplies the language around
+ * them. Keeping the page bilingual as one typed document makes it difficult
+ * for the Arabic route to lose a section when the English offer changes.
  */
 
 export interface FaqItem {
   q: string
   a: string
-}
-
-export interface TrustPoint {
-  icon: 'lock' | 'shield' | 'export' | 'globe'
-  label: string
-  line: string
 }
 
 export interface PricingContent {
@@ -23,16 +18,55 @@ export interface PricingContent {
   metaDescription: string
   breadcrumb: string
   navLabel: string
-  teaser: { title: string; sub: string; from: string; link: string }
+  teaser: {
+    eyebrow: string
+    title: string
+    sub: string
+    termLabel: string
+    termDetail: string
+    scholarship: string
+    link: string
+    cta: string
+  }
   h1: string
   sub: string
   assurances: string[]
+  offer: {
+    eyebrow: string
+    title: string
+    description: string
+    month: string
+    monthDetail: string
+    term: string
+    termDetail: string
+    year: string
+    yearDetail: string
+    comingSoon: string
+    currency: string
+    save: string
+    equivalent: string
+    fullAccess: string
+    cta: string
+    unavailable: string
+  }
+  includedTitle: string
+  includedSub: string
+  included: { title: string; items: string[] }[]
+  scholarship: {
+    eyebrow: string
+    title: string
+    sub: string
+    facts: string[]
+    note: string
+  }
+  next: {
+    title: string
+    sub: string
+    steps: { number: string; title: string; line: string }[]
+  }
   faqTitle: string
   faqSub: string
   faq: FaqItem[]
-  trustTitle: string
-  trustSub: string
-  trust: TrustPoint[]
   closingTitle: string
   closingSub: string
   closingPrimary: string
@@ -42,36 +76,106 @@ export interface PricingContent {
 export const EN_PRICING: PricingContent = {
   path: '/pricing',
   otherPath: '/ar/pricing',
-  documentTitle: 'Pricing — Connect Cortex · One all-access medical study plan',
+  documentTitle: 'Maristana pricing — One complete medical learning membership',
   metaDescription:
-    'One all-access medical study workspace for 400 EGP monthly or 1,000 EGP per term. Trial access is available during onboarding without buying a separate tier.',
+    'One all-access medical study workspace for EGP 400 monthly or EGP 1,000 per academic term. Trial access is available during onboarding without buying a separate tier.',
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
-    title: 'One plan, two periods',
-    sub: 'All-access study tools for 400 EGP monthly or 1,000 EGP per term. Promotions and vouchers never stack; the lowest valid price wins.',
-    from: 'from',
-    link: 'See what all access includes',
+    eyebrow: 'Simple by design',
+    title: 'One Maristana. Choose your study window.',
+    sub: 'The whole platform is included for EGP 400 monthly or EGP 1,000 per term. Start in onboarding, then choose the time that fits your semester.',
+    termLabel: 'Academic term · 3 months',
+    termDetail: 'EGP 1,000 · save EGP 200 · EGP 333/month equivalent',
+    scholarship: 'Private 100%-off scholarships are available through your year representative or Student Union.',
+    link: 'See pricing and scholarships',
+    cta: 'Start studying',
   },
-  h1: 'One all-access plan',
+  h1: 'One Maristana. Choose your study window.',
   sub:
-    'Library, verified sources, QBank, practicals, calendar, notebook, whiteboard, analytics and adaptive study tools are included. Choose one month or one term.',
+    'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together for one month or one academic term.',
   assurances: [
-    '400 EGP monthly',
-    '1,000 EGP per term',
+    'EGP 400 monthly',
+    'EGP 1,000 per term',
     'Trial access is not a purchasable tier',
   ],
-
-  faqTitle: 'Questions people ask before subscribing',
-  faqSub: 'If yours is not here, ask before you pay rather than after.',
+  offer: {
+    eyebrow: 'Complete membership',
+    title: 'Everything in Maristana',
+    description: 'Pick a duration. The product does not change with the period you choose.',
+    month: '1 month',
+    monthDetail: 'A focused month of full access',
+    term: 'Academic term',
+    termDetail: '3 months of full access',
+    year: 'Full year',
+    yearDetail: 'A longer study window is on its way',
+    comingSoon: 'Coming soon',
+    currency: 'EGP',
+    save: 'Save',
+    equivalent: 'monthly equivalent',
+    fullAccess: 'Full Maristana access for the selected period',
+    cta: 'Start studying',
+    unavailable: 'Yearly access is coming soon',
+  },
+  includedTitle: 'Everything included',
+  includedSub: 'One membership follows the whole study cycle—from your university schedule to the concepts you still need to master.',
+  included: [
+    {
+      title: 'Your curriculum',
+      items: ['University and year schedule', 'Modules, exams, and finals', 'Personal calendar and daily plan'],
+    },
+    {
+      title: 'Practice Suite',
+      items: ['MCQs, cases, essays, labs, and imaging', 'OSCE candidate and examiner briefs', 'Virtual microscope, terminology, and minigames'],
+    },
+    {
+      title: 'Adaptive study',
+      items: ['Concept mastery beyond raw accuracy', 'Targeted review from flagged and weak material', 'Deep reports and anonymous cohort comparison'],
+    },
+    {
+      title: 'Your workspace',
+      items: ['Synced PDF reader and editor', 'Question notes, notebook, and Pomodoro', 'Whiteboards, mind maps, and shared notes'],
+    },
+    {
+      title: 'Study together',
+      items: ['Study buddies and shared tests', 'Study parties, rooms, and challenges', 'Private social discovery within your cohort'],
+    },
+    {
+      title: 'Grow',
+      items: ['A mini-maristana that grows as you study', 'Visible study progress without public identity', 'The same progress across your devices'],
+    },
+  ],
+  scholarship: {
+    eyebrow: 'Private scholarship route',
+    title: 'Full access can be 100% covered.',
+    sub:
+      'Connect Academy provides up to 200 scholarships per year, per university, for students who genuinely need them.',
+    facts: [
+      'Begin through your year representative or Student Union.',
+      'Approved access uses a one-time, 100%-off code.',
+      'Scholarship status is never shown in rankings, profiles, or social spaces.',
+    ],
+    note: 'Terms and availability apply. Maristana does not ask you to publish financial-need information.',
+  },
+  next: {
+    title: 'What happens next',
+    sub: 'See the product first. Paying is not part of starting onboarding.',
+    steps: [
+      { number: '01', title: 'Create your account', line: 'Choose your university and year so Maristana opens in the right curriculum.' },
+      { number: '02', title: 'Start with all access', line: 'When trial access is available, it opens during onboarding without a card or a separate plan purchase.' },
+      { number: '03', title: 'Choose after you have studied', line: 'Continue with one month or one academic term. The server quotes any valid promotion or voucher before payment.' },
+    ],
+  },
+  faqTitle: 'Before you start',
+  faqSub: 'Clear answers about access, privacy, and what happens after onboarding.',
   faq: [
     {
-      q: 'What does the plan include?',
-      a: 'All-access means the study surfaces available to your university and year: library, verified sources, question bank, explanations, practical learning, calendar, notebook, whiteboard, resources, analytics and adaptive review.',
+      q: 'What does the membership include?',
+      a: 'All-access means the study surfaces available to your university and year: library, verified sources, question bank, explanations, practical learning, calendar, notebook, whiteboard, resources, analytics, and adaptive review.',
     },
     {
       q: 'How much does it cost?',
-      a: 'One month costs 400 EGP. One term costs 1,000 EGP. Prices are the listed platform price before any valid administrator promotion or voucher.',
+      a: 'One month costs EGP 400. One academic term costs EGP 1,000 for 3 months, saving EGP 200 compared with three separate monthly windows.',
     },
     {
       q: 'Do promotions and vouchers stack?',
@@ -82,33 +186,31 @@ export const EN_PRICING: PricingContent = {
       a: 'No. Trial access is an onboarding state, not a plan in the catalogue and not something sold at checkout. When a trial is available, you start there and choose what to buy later.',
     },
     {
-      q: 'Can I cancel any time?',
-      a: 'Yes. You keep access until the end of the period you have already paid for. There is no cancellation fee and no notice period.',
+      q: 'Is my university supported?',
+      a: 'Available university and year combinations appear during setup. Curriculum mapping expands cohort by cohort, so you only enter a scope that Maristana currently supports.',
     },
     {
-      q: 'Is Connect Cortex aligned with my university’s curriculum?',
-      a: 'The app scopes content by the university and year recorded on your account. Source-backed medical content remains a study aid, not a replacement for your faculty material.',
+      q: 'Who can see that I received a scholarship?',
+      a: 'No other student can. Scholarship status is private and never appears in rankings, profiles, study rooms, or other social surfaces.',
+    },
+    {
+      q: 'How do cancellations and refunds work?',
+      a: 'You keep access until the end of the period you have already paid for. The published cancellation and refund terms for paid access will be shown during checkout before any payment is confirmed.',
+    },
+    {
+      q: 'What happens to my notes and uploads after paid access expires?',
+      a: 'They remain attached to your account. Notes, whiteboards, bookmarks, annotations, and uploaded files remain yours while full membership features pause until you reactivate access.',
     },
     {
       q: 'Is any of this clinical guidance?',
-      a: 'No. Connect Cortex is a study tool for undergraduate medical education. Nothing in the library, question bank or practicals is clinical guidance.',
+      a: 'No. Maristana is a study tool for undergraduate medical education. Nothing in the library, question bank, or practicals is clinical guidance.',
     },
     {
-      q: 'What happens to my notes and documents if I stop paying?',
-      a: 'They stay in your account. Notes, whiteboards, bookmarks, annotations and uploaded files remain yours, and you can request an export or deletion from Account.',
+      q: 'When will the full-year option be available?',
+      a: 'It is coming soon. We will publish the price only when yearly access is ready to buy; there is no placeholder price or working checkout today.',
     },
   ],
-
-  trustTitle: 'Your account, and your data',
-  trustSub: 'What is true of the platform today — not a roadmap.',
-  trust: [
-    { icon: 'lock', label: 'Two-factor sign-in', line: 'Available on any account, from the security section of your profile.' },
-    { icon: 'export', label: 'Export or delete', line: 'Request a copy of your data, or its deletion, from Privacy in your account.' },
-    { icon: 'shield', label: 'An audit trail', line: 'Administrative access to institutional content is logged and immutable.' },
-    { icon: 'globe', label: 'Arabic and English', line: 'The whole interface, right-to-left included — not a translated shell.' },
-  ],
-
-  closingTitle: 'Start with all access',
+  closingTitle: 'Start with all access.',
   closingSub: 'Choose monthly or term access after onboarding. Any valid promotion or voucher is quoted by the server before payment.',
   closingPrimary: 'Start studying',
   closingSecondary: 'Sign in',
@@ -117,36 +219,106 @@ export const EN_PRICING: PricingContent = {
 export const AR_PRICING: PricingContent = {
   path: '/ar/pricing',
   otherPath: '/pricing',
-  documentTitle: 'الأسعار — Connect Cortex · خطة وصول كامل واحدة',
+  documentTitle: 'أسعار Maristana — عضوية واحدة متكاملة لتعلّم الطب',
   metaDescription:
-    'مساحة مذاكرة طبية كاملة بسعر ٤٠٠ جنيه شهريًا أو ١٠٠٠ جنيه للفصل. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.',
+    'مساحة مذاكرة طبية كاملة في Maristana بسعر ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.',
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
-    title: 'خطة واحدة، ومدتان',
-    sub: 'وصول كامل مقابل ٤٠٠ جنيه شهريًا أو ١٠٠٠ جنيه للفصل. العروض والقسائم لا تتراكم؛ أقل سعر صالح هو الذي يُطبَّق.',
-    from: 'من',
-    link: 'اطّلع على ما يتضمّنه الوصول الكامل',
+    eyebrow: 'بساطة مقصودة',
+    title: 'Maristana واحدة. اختر مدة مذاكرتك.',
+    sub: 'كل المنصة مشمولة مقابل ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.',
+    termLabel: 'فصل دراسي · ٣ أشهر',
+    termDetail: '١٬٠٠٠ ج.م · وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
+    scholarship: 'تتوفر منح خاصة بخصم ١٠٠٪ من خلال ممثل دفعتك أو اتحاد الطلاب.',
+    link: 'اطّلع على الأسعار والمنح',
+    cta: 'ابدأ المذاكرة',
   },
-  h1: 'خطة وصول كامل واحدة',
+  h1: 'Maristana واحدة. اختر مدة مذاكرتك.',
   sub:
-    'المكتبة، المصادر الموثّقة، بنك الأسئلة، العملي، التقويم، دفتر الملاحظات، السبورة، الموارد، التحليلات وأدوات المذاكرة التكيّفية مشمولة. اختر شهرًا واحدًا أو فصلًا واحدًا.',
+    'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا لشهر واحد أو فصل دراسي.',
   assurances: [
-    '٤٠٠ جنيه شهريًا',
-    '١٠٠٠ جنيه للفصل',
+    '٤٠٠ ج.م شهريًا',
+    '١٬٠٠٠ ج.م للفصل',
     'التجربة ليست خطة تُشترى',
   ],
-
-  faqTitle: 'أسئلة تُطرح قبل الاشتراك',
-  faqSub: 'إن لم يكن سؤالك هنا، اسأل قبل الدفع لا بعده.',
+  offer: {
+    eyebrow: 'عضوية متكاملة',
+    title: 'كل ما في Maristana',
+    description: 'اختر المدة فقط. المنتج لا يتغيّر بتغيّر الفترة التي تختارها.',
+    month: 'شهر واحد',
+    monthDetail: 'شهر مركّز بوصول كامل',
+    term: 'فصل دراسي',
+    termDetail: '٣ أشهر بوصول كامل',
+    year: 'سنة كاملة',
+    yearDetail: 'مدة أطول للمذاكرة في الطريق',
+    comingSoon: 'قريبًا',
+    currency: 'ج.م',
+    save: 'وفّر',
+    equivalent: 'ما يعادل شهريًا',
+    fullAccess: 'وصول Maristana الكامل طوال المدة المختارة',
+    cta: 'ابدأ المذاكرة',
+    unavailable: 'الوصول السنوي قريبًا',
+  },
+  includedTitle: 'كل شيء مشمول',
+  includedSub: 'عضوية واحدة تتابع دورة المذاكرة كاملة—من جدول جامعتك إلى المفاهيم التي ما زالت تحتاج إلى إتقانها.',
+  included: [
+    {
+      title: 'منهجك',
+      items: ['جدول الجامعة والسنة الدراسية', 'الوحدات والاختبارات والنهائيات', 'تقويمك الشخصي وخطة اليوم'],
+    },
+    {
+      title: 'مجموعة التدريب',
+      items: ['اختيار من متعدد وحالات ومقالي ومعامل وأشعة', 'تعليمات المرشح والممتحن في محطات OSCE', 'ميكروسكوب افتراضي ومصطلحات وألعاب قصيرة'],
+    },
+    {
+      title: 'المذاكرة التكيّفية',
+      items: ['إتقان المفاهيم أبعد من نسبة الإجابات الصحيحة', 'مراجعة موجّهة لما أشّرت عليه وما لم يثبت بعد', 'تقارير عميقة ومقارنة مجهولة مع الدفعة'],
+    },
+    {
+      title: 'مساحة عملك',
+      items: ['قارئ ومحرّر PDF متزامن', 'ملاحظات الأسئلة والدفتر ومؤقت بومودورو', 'سبورات وخرائط ذهنية وملاحظات مشتركة'],
+    },
+    {
+      title: 'ذاكر مع غيرك',
+      items: ['زملاء مذاكرة واختبارات مشتركة', 'جلسات وغرف وتحديات دراسية', 'اكتشاف خاص للزملاء داخل دفعتك'],
+    },
+    {
+      title: 'Grow',
+      items: ['مارستانا مصغّرة تنمو كلما ذاكرت', 'تقدّم دراسي ظاهر دون كشف هويتك', 'نفس التقدّم على أجهزتك المختلفة'],
+    },
+  ],
+  scholarship: {
+    eyebrow: 'مسار منح يحفظ الخصوصية',
+    title: 'قد تُغطّى التكلفة كاملة بنسبة ١٠٠٪.',
+    sub:
+      'توفّر Connect Academy ما يصل إلى ٢٠٠ منحة سنويًا لكل جامعة للطلاب الذين يحتاجون إليها فعلًا.',
+    facts: [
+      'ابدأ من خلال ممثل دفعتك أو اتحاد الطلاب.',
+      'الوصول المقبول يتم بكود استخدام واحد بخصم ١٠٠٪.',
+      'لا تظهر حالة المنحة في الترتيب أو الملف الشخصي أو المساحات الاجتماعية.',
+    ],
+    note: 'تُطبّق الشروط والتوافر. لا تطلب Maristana منك نشر معلومات عن احتياجك المادي.',
+  },
+  next: {
+    title: 'ماذا يحدث بعد ذلك؟',
+    sub: 'جرّب المنتج أولًا. الدفع ليس جزءًا من بدء الإعداد.',
+    steps: [
+      { number: '٠١', title: 'أنشئ حسابك', line: 'اختر جامعتك وسنتك لتفتح Maristana على المنهج الصحيح.' },
+      { number: '٠٢', title: 'ابدأ بوصول كامل', line: 'عند توفر الوصول التجريبي، يبدأ أثناء الإعداد دون بطاقة أو شراء خطة منفصلة.' },
+      { number: '٠٣', title: 'اختر بعد أن تذاكر', line: 'واصل بشهر واحد أو فصل دراسي. أي عرض أو قسيمة صالحة تُسعَّر من الخادم قبل الدفع.' },
+    ],
+  },
+  faqTitle: 'قبل أن تبدأ',
+  faqSub: 'إجابات واضحة عن الوصول والخصوصية وما يحدث بعد الإعداد.',
   faq: [
     {
-      q: 'ماذا تتضمن الخطة؟',
+      q: 'ماذا تتضمن العضوية؟',
       a: 'الوصول الكامل يعني مساحات المذاكرة المتاحة لجامعتك وسنتك: المكتبة، المصادر، بنك الأسئلة، الشروح، العملي، التقويم، الملاحظات، السبورة، الموارد، التحليلات والمراجعة التكيّفية.',
     },
     {
       q: 'كم السعر؟',
-      a: 'الشهر الواحد ٤٠٠ جنيه. الفصل الواحد ١٠٠٠ جنيه. هذه أسعار المنصة قبل أي عرض إداري أو قسيمة صالحة.',
+      a: 'الشهر الواحد ٤٠٠ ج.م. الفصل الدراسي ١٬٠٠٠ ج.م لمدة ٣ أشهر، أي يوفر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
     },
     {
       q: 'هل تتراكم العروض والقسائم؟',
@@ -157,33 +329,31 @@ export const AR_PRICING: PricingContent = {
       a: 'لا. الوصول التجريبي حالة بدء، وليس خطة في الكتالوج ولا شيئًا يُباع عند الدفع. عند إتاحته تبدأ به ثم تختار ما تشتريه لاحقًا.',
     },
     {
-      q: 'هل يمكنني الإلغاء في أي وقت؟',
-      a: 'نعم. يبقى وصولك حتى نهاية المدة المدفوعة بالفعل. لا توجد رسوم إلغاء ولا مدة إخطار.',
+      q: 'هل جامعتي مدعومة؟',
+      a: 'تظهر الجامعات والسنوات المتاحة أثناء الإعداد. يتوسع ربط المناهج دفعة بعد دفعة، لذلك لن تدخل إلا نطاقًا تدعمه Maristana حاليًا.',
     },
     {
-      q: 'هل يتوافق Connect Cortex مع منهج جامعتي؟',
-      a: 'يرتبط المحتوى بالجامعة والسنة المسجلتين في حسابك. يظل المحتوى الطبي المدعوم بالمصادر أداة مذاكرة، لا بديلًا عن مادة كليتك.',
+      q: 'من يستطيع معرفة أنني حصلت على منحة؟',
+      a: 'لا يراها أي طالب آخر. حالة المنحة خاصة ولا تظهر في الترتيب أو الملف الشخصي أو غرف الدراسة أو أي مساحة اجتماعية.',
+    },
+    {
+      q: 'كيف يعمل الإلغاء والاسترداد؟',
+      a: 'يبقى وصولك حتى نهاية المدة المدفوعة بالفعل. وستظهر سياسة الإلغاء والاسترداد المنشورة للوصول المدفوع أثناء الدفع قبل تأكيد أي عملية.',
+    },
+    {
+      q: 'ماذا يحدث لملاحظاتي وملفاتي بعد انتهاء الوصول المدفوع؟',
+      a: 'تظل مرتبطة بحسابك. الملاحظات والسبورات والإشارات والتعليقات والملفات التي رفعتها تظل ملكك بينما تتوقف خصائص العضوية الكاملة حتى تعيد تفعيل الوصول.',
     },
     {
       q: 'هل أي من هذا إرشاد سريري؟',
-      a: 'لا. Connect Cortex أداة مذاكرة للتعليم الطبي الجامعي. لا شيء في المكتبة أو بنك الأسئلة أو العملي يُعدّ إرشادًا سريريًا.',
+      a: 'لا. Maristana أداة مذاكرة للتعليم الطبي الجامعي. لا شيء في المكتبة أو بنك الأسئلة أو العملي يُعدّ إرشادًا سريريًا.',
     },
     {
-      q: 'ماذا يحدث لملاحظاتي ومستنداتي إن توقفت عن الدفع؟',
-      a: 'تبقى في حسابك. الملاحظات والسبورات والإشارات والتعليقات والملفات التي رفعتها تظل ملكك، ويمكنك طلب تصدير بياناتك أو حذفها من الحساب.',
+      q: 'متى تتوفر مدة السنة الكاملة؟',
+      a: 'ستتوفر قريبًا. لن ننشر سعرًا إلا عندما يصبح الوصول السنوي جاهزًا للشراء؛ لا يوجد سعر افتراضي أو صفحة دفع عاملة حاليًا.',
     },
   ],
-
-  trustTitle: 'حسابك، وبياناتك',
-  trustSub: 'ما هو قائم في المنصة اليوم — لا خطة مستقبلية.',
-  trust: [
-    { icon: 'lock', label: 'تسجيل دخول بخطوتين', line: 'متاح لأي حساب، من قسم الأمان في ملفك الشخصي.' },
-    { icon: 'export', label: 'تصدير أو حذف', line: 'اطلب نسخة من بياناتك، أو حذفها، من قسم الخصوصية في حسابك.' },
-    { icon: 'shield', label: 'سجل تدقيق', line: 'الوصول الإداري لمحتوى المؤسسة مُسجَّل وغير قابل للتعديل.' },
-    { icon: 'globe', label: 'بالعربية والإنجليزية', line: 'الواجهة كاملة، بما فيها الاتجاه من اليمين لليسار — لا قشرة مترجمة.' },
-  ],
-
-  closingTitle: 'ابدأ بالوصول الكامل',
+  closingTitle: 'ابدأ بالوصول الكامل.',
   closingSub: 'اختر شهرًا أو فصلًا بعد بدء الحساب. أي عرض أو قسيمة صالحة تُسعَّر من الخادم قبل الدفع.',
   closingPrimary: 'ابدأ المذاكرة',
   closingSecondary: 'تسجيل الدخول',

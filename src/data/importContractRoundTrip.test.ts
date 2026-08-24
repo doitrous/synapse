@@ -274,7 +274,7 @@ const HISTOLOGY = {
 test('canonical registry names every first-class import contract', () => {
   assert.deepEqual(Object.keys(IMPORT_CONTRACTS).sort(), [
     'article', 'catalogue-resource', 'citation', 'claim', 'concept', 'deck',
-    'essay', 'histology', 'minigame', 'practical', 'question', 'relation', 'resource', 'span', 'subjects',
+    'essay', 'glossary', 'histology', 'minigame', 'practical', 'question', 'relation', 'resource', 'span', 'subjects',
   ].sort())
 })
 

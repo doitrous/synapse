@@ -27,7 +27,7 @@ export function ThemeSwitch({ className }: { className?: string }) {
       {THEMES.map((option) => {
         const active = option === theme
         return (
-          <Tooltip key={option} label={t(LABEL[option])}>
+          <Tooltip key={option} content={t(LABEL[option])}>
             <button
               type="button"
               role="radio"
@@ -35,7 +35,7 @@ export function ThemeSwitch({ className }: { className?: string }) {
               aria-label={t(LABEL[option])}
               onClick={() => setTheme(option)}
               className={cn(
-                'grid size-9 place-items-center rounded-md transition-colors sm:size-7',
+                'grid size-11 place-items-center rounded-md transition-colors sm:size-7',
                 active ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
               )}
             >

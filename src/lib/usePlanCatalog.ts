@@ -1,6 +1,6 @@
-import { useMemo } from 'react'
+import { useEffect, useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { PLAN_CATALOG_STORAGE_KEY, type PlanCatalog } from '@/data/planCatalog'
+import { PLAN_CATALOG_SCHEMA_VERSION, PLAN_CATALOG_STORAGE_KEY, type PlanCatalog } from '@/data/planCatalog'
 import { resolvePlanCatalog, type LegacyPlanDef } from '@/data/planCatalogSeed'
 
 /** The key the previous, admin-editable plan list was stored under. */
@@ -17,5 +17,15 @@ export function usePlanCatalog() {
   const [stored, setStored, status] = usePersistentState<PlanCatalog | null>(PLAN_CATALOG_STORAGE_KEY, null)
   const [legacy] = usePersistentState<LegacyPlanDef[]>(LEGACY_PLANS_STORAGE_KEY, [])
   const catalog = useMemo(() => resolvePlanCatalog(stored, legacy), [legacy, stored])
+
+  // Persist a loaded v1 document only after it has actually been read. Fresh
+  // accounts still receive the seed lazily; existing admin edits are upgraded
+  // once and retain their historical plan records.
+  useEffect(() => {
+    if (stored?.plans?.length && stored.schemaVersion !== PLAN_CATALOG_SCHEMA_VERSION) {
+      setStored(catalog)
+    }
+  }, [catalog, setStored, stored])
+
   return [catalog, setStored, status] as const
 }

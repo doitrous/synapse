@@ -3,6 +3,7 @@ import { CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from './conceptImport.t
 import { SUBJECTS_IMPORT_FIELDS } from './subjectsImport.ts'
 import { EVIDENCE_IMPORT_FIELDS } from './evidenceImport.ts'
 import { MINIGAME_IMPORT_FIELDS } from './minigameImport.ts'
+import { GLOSSARY_IMPORT_FIELDS } from './glossaryImport.ts'
 
 /**
  * Canonical bulk-import contract registry.
@@ -24,6 +25,7 @@ export type ImportContractKind =
   | 'essay'
   | 'histology'
   | 'minigame'
+  | 'glossary'
   | 'concept'
   | 'relation'
   | 'subjects'
@@ -103,6 +105,13 @@ export const IMPORT_CONTRACTS: Record<ImportContractKind, ImportContract> = {
     parserOwner: 'src/data/minigameImport.ts#miniGamePackFromRow',
     manualFiles: ['14-decks-essays-histology.md'],
   },
+  glossary: {
+    kind: 'glossary',
+    label: 'Glossary term',
+    fields: GLOSSARY_IMPORT_FIELDS,
+    parserOwner: 'src/data/glossaryImport.ts#glossaryTermFromRow',
+    manualFiles: ['11-glossary-terms.md'],
+  },
   concept: {
     kind: 'concept',
     label: 'Concept',
@@ -156,7 +165,7 @@ export const IMPORT_CONTRACTS: Record<ImportContractKind, ImportContract> = {
 
 export const IMPORT_CONTRACT_ORDER: ImportContractKind[] = [
   'subjects', 'resource', 'catalogue-resource', 'article', 'concept', 'claim',
-  'citation', 'span', 'relation', 'practical', 'question', 'deck', 'essay', 'histology', 'minigame',
+  'citation', 'span', 'relation', 'practical', 'question', 'deck', 'essay', 'histology', 'glossary', 'minigame',
 ]
 
 export function importFieldKeys(kind: ImportContractKind): Set<string> {

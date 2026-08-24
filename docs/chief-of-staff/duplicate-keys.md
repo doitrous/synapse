@@ -61,4 +61,3 @@ teaching the same idea one concept or two?** Until that is decided, §1 will
 keep reappearing wherever the two conventions meet. It is not a tooling
 defect to be patched — either answer is coherent, and the tools should be
 made to agree with whichever is chosen.
-

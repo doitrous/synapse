@@ -87,7 +87,7 @@ export function Login() {
         )}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
         <SocialAuthButtons mode="sign in" redirectTo={`${window.location.origin}${next}`} />
-        <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-3">
+        <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
           <span className="h-px flex-1 bg-line" />
           Email
           <span className="h-px flex-1 bg-line" />
@@ -107,7 +107,7 @@ export function Login() {
           <Link to="/auth/forgot-password" className="font-semibold text-primary-strong hover:text-primary">Forgot password?</Link>
         </div>
         <Button className="w-full" type="submit" variant="primary" size="lg" iconLeft={LogIn} loading={loading}>Sign in</Button>
-        <p className="text-center text-[13px] text-ink-2">New to Connect Cortex? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
+        <p className="text-center text-[13px] text-ink-2">New to Maristana? <Link className="inline-flex items-center gap-1 font-semibold text-primary-strong hover:text-primary" to="/signup">Create an account <Icon icon={ArrowRight} size={13} /></Link></p>
       </form>
     </AuthLayout>
   )

@@ -58,31 +58,31 @@ function targeted(): PlanCatalog {
   const catalog = initialPlanCatalog()
   return {
     ...catalog,
-    plans: catalog.plans.map((plan) => ({ ...plan, universityIds: ['asu'] })),
+    plans: catalog.plans.map((plan) => (plan.id === 'maristana' ? { ...plan, universityIds: ['asu'] } : plan)),
   }
 }
 
-test('only the all-access plan is offered, and only when aimed at this cohort', () => {
+test('the complete membership is offered only to cohorts it is aimed at', () => {
   const offered = offeredPlans(targeted(), { universityId: 'kau', year: 'Year 1' })
   assert.deepEqual(offered.map((plan) => plan.id), [])
 })
 
-test('with no targeting, the all-access plan is offered', () => {
+test('with no targeting, Maristana is the only onboarding offer', () => {
   const offered = offeredPlans(initialPlanCatalog(), { universityId: 'kau', year: 'Year 1' })
-  assert.deepEqual(offered.map((plan) => plan.id), ['all_access'])
+  assert.deepEqual(offered.map((plan) => plan.id), ['maristana'])
 })
 
 test('a plan is selectable when the catalogue sells it at some live period', () => {
   const catalog = initialPlanCatalog()
-  const allAccess = catalog.plans.find((plan) => plan.id === 'all_access')!
-  const trial = { ...allAccess, id: 'trial', prices: {} }
-  assert.equal(planSelectable(catalog, allAccess), true)
-  assert.equal(planSelectable(catalog, trial), false)
+  const maristana = catalog.plans.find((plan) => plan.id === 'maristana')!
+  const campus = catalog.plans.find((plan) => plan.id === 'campus')!
+  assert.equal(planSelectable(catalog, maristana), true)
+  assert.equal(planSelectable(catalog, campus), false)
 })
 
 test('a plan sold only at a coming-soon period cannot be chosen', () => {
   const catalog = initialPlanCatalog()
-  const yearOnly = { ...catalog.plans[0], id: 'later', prices: { year: 800 } }
+  const yearOnly = { ...catalog.plans[1], id: 'later', prices: { year: 800 } }
   assert.equal(planSelectable(catalog, yearOnly), false)
 })
 
@@ -97,8 +97,8 @@ test('all three answers are required', () => {
 })
 
 test('finishing grants exactly three days of full access, recording the plan', () => {
-  const grant = trialFor('adaptive', new Date(2026, 7, 19, 9, 0))
-  assert.equal(grant.plan, 'adaptive')
+  const grant = trialFor('maristana', new Date(2026, 7, 19, 9, 0))
+  assert.equal(grant.plan, 'maristana')
   assert.equal(grant.status, 'trialing')
   assert.equal(grant.source, 'trial')
   const expires = new Date(grant.expiresAt)

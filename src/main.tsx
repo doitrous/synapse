@@ -10,11 +10,11 @@ import { isAdminHost } from './lib/portalHost'
 import { API_MODE } from './lib/api'
 
 // Self-hosted variable fonts (Fontsource) — offline, no external requests.
-// Jost is the logotype's own geometric sans: brand lockups only, never UI.
+// Orbitron is the logotype's own geometric sans: brand lockups only, never UI.
 import '@fontsource-variable/source-serif-4'
 import '@fontsource-variable/geist'
 import '@fontsource-variable/geist-mono'
-import '@fontsource-variable/jost'
+import '@fontsource-variable/orbitron'
 import './index.css'
 
 // Both domains serve one index.html, whose canonical, hreflang and Open Graph tags
@@ -22,7 +22,7 @@ import './index.css'
 // private, so the marketing head is stripped and the domain is told to stay out of
 // search results.
 if (isAdminHost()) {
-  document.title = 'Connect Cortex Admin'
+  document.title = 'Maristana Admin'
   document.querySelectorAll('link[rel="canonical"], link[rel="alternate"][hreflang], meta[property^="og:"], meta[name^="twitter:"]').forEach((tag) => tag.remove())
   const robots = document.createElement('meta')
   robots.name = 'robots'

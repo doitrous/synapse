@@ -398,7 +398,7 @@ export function RelationshipsSetup() {
           <Field label="Citation ID(s)" hint="Must belong to the selected claims and point to exact source locations.">
             <TextInput value={citationText} onChange={(event) => setCitationText(event.target.value)} placeholder="CIT-…, CIT-…" />
           </Field>
-          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Connect Cortex marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
+          <p className="sm:col-span-2 text-[11px] leading-relaxed text-ink-3">Maristana marks the relationship verified only when every supplied claim is verified and at least one matching exact citation is present. Otherwise it remains “needs evidence.”</p>
         </div>
         <div className="flex items-center justify-between gap-2 px-4 pb-4">
           <p className="text-[11.5px] text-ink-3">{source && targets.length ? `${conceptLabel(source)} ${bidirectional ? '↔' : '→'} ${type} ${bidirectional ? '↔' : '→'} ${targets.length} concept${targets.length === 1 ? '' : 's'}` : 'Pick a source and one or more targets.'}</p>

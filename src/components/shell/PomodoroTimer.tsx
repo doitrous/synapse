@@ -1,58 +1,154 @@
-import { useEffect, useMemo, useState } from 'react'
-import { Bell, BellOff, Pause, Play, RotateCcw, SkipForward, Timer, Volume2, VolumeX } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { Bell, BellOff, Pause, Play, RotateCcw, SkipForward, TimerReset, Volume2, VolumeX } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
-import { Tooltip } from '@/components/ui/Tooltip'
+import { IconButton } from '@/components/ui/IconButton'
 import { cn } from '@/lib/cn'
 import { useLocalJsonPreference, useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 
 type Mode = 'focus' | 'short' | 'long'
 
-const DURATIONS: Record<Mode, number> = { focus: 25 * 60, short: 5 * 60, long: 15 * 60 }
-
-interface TimerState {
+interface PomodoroState {
   mode: Mode
-  remaining: number
+  remainingSeconds: number
   running: boolean
-  completedFocus: number
-  lastTick: number | null
+  focusCycles: number
+  updatedAt: number
+  completedAt: number | null
+  completedMode: Mode | null
 }
 
-const DEFAULT_STATE: TimerState = {
-  mode: 'focus',
-  remaining: DURATIONS.focus,
-  running: false,
-  completedFocus: 0,
-  lastTick: null,
+type StoredPomodoroState = Partial<PomodoroState> & {
+  remaining?: number
+  completedFocus?: number
+  lastTick?: number | null
 }
 
-function labelFor(mode: Mode): string {
-  if (mode === 'focus') return 'Focus'
-  if (mode === 'short') return 'Short break'
-  return 'Long break'
+const DURATION: Record<Mode, number> = {
+  focus: 25 * 60,
+  short: 5 * 60,
+  long: 15 * 60,
 }
 
-function formatTime(seconds: number): string {
+const LABEL: Record<Mode, string> = {
+  focus: 'Focus',
+  short: 'Short break',
+  long: 'Long break',
+}
+
+const STORAGE_KEY = 'synapse.shell.pomodoro.v1'
+
+function initialState(): PomodoroState {
+  return {
+    mode: 'focus',
+    remainingSeconds: DURATION.focus,
+    running: false,
+    focusCycles: 0,
+    updatedAt: Date.now(),
+    completedAt: null,
+    completedMode: null,
+  }
+}
+
+function validMode(mode: unknown): mode is Mode {
+  return mode === 'focus' || mode === 'short' || mode === 'long'
+}
+
+function normalizeState(stored: StoredPomodoroState): PomodoroState {
+  const mode = validMode(stored.mode) ? stored.mode : 'focus'
+  const remaining = typeof stored.remainingSeconds === 'number'
+    ? stored.remainingSeconds
+    : typeof stored.remaining === 'number'
+      ? stored.remaining
+      : DURATION[mode]
+
+  return {
+    mode,
+    remainingSeconds: Math.max(0, Math.min(DURATION[mode], Math.floor(remaining))),
+    running: stored.running === true,
+    focusCycles: typeof stored.focusCycles === 'number' ? stored.focusCycles : stored.completedFocus ?? 0,
+    updatedAt: typeof stored.updatedAt === 'number' ? stored.updatedAt : stored.lastTick ?? Date.now(),
+    completedAt: typeof stored.completedAt === 'number' ? stored.completedAt : null,
+    completedMode: validMode(stored.completedMode) ? stored.completedMode : null,
+  }
+}
+
+function nextState(current: PomodoroState, completed = false): PomodoroState {
+  if (current.mode === 'focus') {
+    const cycles = current.focusCycles + 1
+    const mode: Mode = cycles % 4 === 0 ? 'long' : 'short'
+    return {
+      mode,
+      remainingSeconds: DURATION[mode],
+      running: false,
+      focusCycles: cycles,
+      updatedAt: Date.now(),
+      completedAt: completed ? Date.now() : null,
+      completedMode: completed ? current.mode : null,
+    }
+  }
+  return {
+    mode: 'focus',
+    remainingSeconds: DURATION.focus,
+    running: false,
+    focusCycles: current.focusCycles,
+    updatedAt: Date.now(),
+    completedAt: completed ? Date.now() : null,
+    completedMode: completed ? current.mode : null,
+  }
+}
+
+function resolveState(stored: StoredPomodoroState): PomodoroState {
+  const state = normalizeState(stored)
+  if (!state.running) return state
+  const elapsed = Math.max(0, Math.floor((Date.now() - state.updatedAt) / 1000))
+  if (elapsed <= 0) return state
+  const remaining = state.remainingSeconds - elapsed
+  if (remaining > 0) return { ...state, remainingSeconds: remaining, updatedAt: Date.now() }
+  return nextState({ ...state, remainingSeconds: 0, running: false, updatedAt: Date.now() }, true)
+}
+
+function format(seconds: number): string {
   const safe = Math.max(0, Math.floor(seconds))
   const minutes = Math.floor(safe / 60)
   const rest = safe % 60
-  return `${minutes}:${String(rest).padStart(2, '0')}`
+  return `${minutes}:${rest.toString().padStart(2, '0')}`
 }
 
-function nextState(state: TimerState): TimerState {
-  if (state.mode !== 'focus') return { ...state, mode: 'focus', remaining: DURATIONS.focus, running: false, lastTick: null }
-  const completedFocus = state.completedFocus + 1
-  const mode: Mode = completedFocus % 4 === 0 ? 'long' : 'short'
-  return { mode, remaining: DURATIONS[mode], running: false, completedFocus, lastTick: null }
+function chime() {
+  const AudioContextCtor: typeof window.AudioContext | undefined = window.AudioContext
+    || (window as Window & { webkitAudioContext?: typeof window.AudioContext }).webkitAudioContext
+  if (!AudioContextCtor) return
+  const audio = new AudioContextCtor()
+  const oscillator = audio.createOscillator()
+  const gain = audio.createGain()
+  oscillator.type = 'sine'
+  oscillator.frequency.value = 660
+  gain.gain.value = 0.001
+  oscillator.connect(gain)
+  gain.connect(audio.destination)
+  oscillator.start()
+  gain.gain.exponentialRampToValueAtTime(0.12, audio.currentTime + 0.02)
+  gain.gain.exponentialRampToValueAtTime(0.001, audio.currentTime + 0.35)
+  window.setTimeout(() => {
+    oscillator.stop()
+    void audio.close()
+  }, 420)
 }
 
 export function PomodoroTimer() {
   const t = useT()
-  const [state, setState] = useLocalJsonPreference<TimerState>('synapse.shell.pomodoro.v1', DEFAULT_STATE)
+  const [state, setState] = useLocalJsonPreference<PomodoroState>(STORAGE_KEY, initialState)
   const [sound, setSound] = useLocalPreference('synapse.shell.pomodoro.sound', false)
   const [notify, setNotify] = useLocalPreference('synapse.shell.pomodoro.notify', false)
   const [reducedMotion, setReducedMotion] = useState(false)
-  const progress = useMemo(() => 1 - state.remaining / DURATIONS[state.mode], [state.mode, state.remaining])
+  const lastCompletedRef = useRef<number | null>(null)
+  const current = normalizeState(state)
+  const progress = 1 - (current.remainingSeconds / DURATION[current.mode])
+
+  useEffect(() => {
+    setState((stored) => resolveState(stored))
+  }, [setState])
 
   useEffect(() => {
     const query = window.matchMedia('(prefers-reduced-motion: reduce)')
@@ -63,97 +159,72 @@ export function PomodoroTimer() {
   }, [])
 
   useEffect(() => {
-    if (!state.running) return
-    const tick = window.setInterval(() => {
-      setState((current) => {
-        if (!current.running) return current
-        const now = Date.now()
-        const elapsed = current.lastTick ? Math.max(1, Math.floor((now - current.lastTick) / 1000)) : 1
-        const remaining = current.remaining - elapsed
-        if (remaining > 0) return { ...current, remaining, lastTick: now }
-        return nextState(current)
-      })
+    if (!current.running) return
+    const timer = window.setInterval(() => {
+      setState((stored) => resolveState(stored))
     }, 1000)
-    return () => window.clearInterval(tick)
-  }, [setState, state.running])
+    return () => window.clearInterval(timer)
+  }, [current.running, setState])
 
   useEffect(() => {
-    if (state.running || state.remaining > 0) return
-    if (sound) {
-      const AudioContextCtor = window.AudioContext || (window as typeof window & { webkitAudioContext?: typeof AudioContext }).webkitAudioContext
-      if (AudioContextCtor) {
-        const ctx = new AudioContextCtor()
-        const osc = ctx.createOscillator()
-        const gain = ctx.createGain()
-        osc.frequency.value = 880
-        gain.gain.value = 0.06
-        osc.connect(gain)
-        gain.connect(ctx.destination)
-        osc.start()
-        osc.stop(ctx.currentTime + 0.16)
-        window.setTimeout(() => void ctx.close(), 260)
-      }
+    if (!current.completedAt || current.completedAt === lastCompletedRef.current) return
+    lastCompletedRef.current = current.completedAt
+    if (sound) chime()
+    if (notify && 'Notification' in window && Notification.permission === 'granted') {
+      const body = current.completedMode === 'focus' ? t('Break time is ready.') : t('Your next focus block is ready.')
+      new Notification(t('Pomodoro timer'), { body })
     }
-    if (notify && Notification.permission === 'granted') {
-      new Notification('Synapse timer', { body: `${labelFor(state.mode)} is complete.` })
-    }
-  }, [notify, sound, state.mode, state.remaining, state.running])
-
-  function toggleRunning() {
-    setState((current) => ({ ...current, running: !current.running, lastTick: !current.running ? Date.now() : null }))
-  }
-
-  function reset() {
-    setState((current) => ({ ...current, remaining: DURATIONS[current.mode], running: false, lastTick: null }))
-  }
-
-  function skip() {
-    setState((current) => nextState(current))
-  }
+  }, [current.completedAt, current.completedMode, notify, sound, t])
 
   async function toggleNotifications() {
-    if (!notify && Notification.permission === 'default') {
-      const answer = await Notification.requestPermission()
-      if (answer !== 'granted') return
+    if (!notify && 'Notification' in window && Notification.permission === 'default') {
+      const permission = await Notification.requestPermission()
+      if (permission !== 'granted') return
     }
     setNotify((value) => !value)
   }
 
+  function startPause() {
+    setState((stored) => {
+      const resolved = resolveState(stored)
+      return { ...resolved, running: !resolved.running, updatedAt: Date.now() }
+    })
+  }
+
+  function reset() {
+    setState((stored) => {
+      const resolved = normalizeState(stored)
+      return { ...resolved, remainingSeconds: DURATION[resolved.mode], running: false, updatedAt: Date.now(), completedAt: null, completedMode: null }
+    })
+  }
+
+  function skip() {
+    setState((stored) => nextState({ ...resolveState(stored), running: false }, false))
+  }
+
   return (
-    <div className="hidden h-9 items-center gap-1 rounded-lg border border-line bg-surface px-1.5 sm:flex" aria-label={t('Pomodoro timer')}>
-      <span className="flex min-w-[5.5rem] items-center gap-1.5 px-1 text-[12px] font-semibold text-ink">
-        <span className={cn('grid size-6 place-items-center rounded-full bg-primary-tint text-primary-strong', state.running && !reducedMotion && 'animate-pulse')}>
-          <Icon icon={Timer} size={14} />
+    <div className="hidden items-center gap-1 rounded-xl border border-line bg-surface-2/65 p-1 shadow-panel md:flex" aria-label={t('Pomodoro timer')}>
+      <div className="flex min-w-[8.5rem] items-center gap-2 px-2">
+        <span className={cn('relative grid size-7 place-items-center rounded-full bg-surface text-primary-strong', current.running && !reducedMotion && 'animate-pulse')}>
+          <span
+            aria-hidden
+            className="absolute inset-0 rounded-full"
+            style={{ background: `conic-gradient(var(--color-primary) ${Math.max(0, Math.min(1, progress)) * 360}deg, transparent 0deg)` }}
+          />
+          <span className="absolute inset-[3px] rounded-full bg-surface" />
+          <Icon icon={TimerReset} size={14} className="relative" />
         </span>
-        <span className="tnum font-mono">{formatTime(state.remaining)}</span>
-        <span className="sr-only">{t(labelFor(state.mode))}</span>
-      </span>
-      <Tooltip label={state.running ? t('Pause timer') : t('Start timer')}>
-        <button type="button" className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-primary" onClick={toggleRunning} aria-label={state.running ? t('Pause timer') : t('Start timer')}>
-          <Icon icon={state.running ? Pause : Play} size={14} />
-        </button>
-      </Tooltip>
-      <Tooltip label={t('Reset this interval')}>
-        <button type="button" className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-primary" onClick={reset} aria-label={t('Reset this interval')}>
-          <Icon icon={RotateCcw} size={14} />
-        </button>
-      </Tooltip>
-      <Tooltip label={t('Skip interval')}>
-        <button type="button" className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-primary" onClick={skip} aria-label={t('Skip interval')}>
-          <Icon icon={SkipForward} size={14} />
-        </button>
-      </Tooltip>
-      <Tooltip label={sound ? t('Sound on') : t('Sound off')}>
-        <button type="button" className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-primary" onClick={() => setSound((value) => !value)} aria-label={sound ? t('Turn sound off') : t('Turn sound on')}>
-          <Icon icon={sound ? Volume2 : VolumeX} size={14} />
-        </button>
-      </Tooltip>
-      <Tooltip label={notify ? t('Browser notifications on') : t('Browser notifications off')}>
-        <button type="button" className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-primary" onClick={() => void toggleNotifications()} aria-label={notify ? t('Turn notifications off') : t('Turn notifications on')}>
-          <Icon icon={notify ? Bell : BellOff} size={14} />
-        </button>
-      </Tooltip>
-      <span className="sr-only" aria-live="polite">{t(labelFor(state.mode))}, {Math.round(progress * 100)}%</span>
+        <span className="min-w-0">
+          <span className="block text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3">{t(LABEL[current.mode])}</span>
+          <span className="tnum block font-mono text-[13px] font-semibold text-ink">{format(current.remainingSeconds)}</span>
+        </span>
+      </div>
+      <IconButton icon={current.running ? Pause : Play} label={current.running ? t('Pause timer') : t('Start timer')} size="sm" variant={current.running ? 'surface' : 'primary'} onClick={startPause} />
+      <IconButton icon={RotateCcw} label={t('Reset this block')} size="sm" onClick={reset} />
+      <IconButton icon={SkipForward} label={t('Skip to the next block')} size="sm" onClick={skip} />
+      <IconButton icon={sound ? Volume2 : VolumeX} label={sound ? t('Turn sound off') : t('Turn sound on')} size="sm" active={sound} onClick={() => setSound((value) => !value)} />
+      <IconButton icon={notify ? Bell : BellOff} label={notify ? t('Notifications on') : t('Notifications off')} size="sm" active={notify} onClick={() => void toggleNotifications()} />
+      <span className="sr-only" aria-live="polite">{t(LABEL[current.mode])}, {Math.round(Math.max(0, Math.min(1, progress)) * 100)}%</span>
     </div>
   )
 }

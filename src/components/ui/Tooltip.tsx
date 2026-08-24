@@ -1,66 +1,90 @@
-import { cloneElement, isValidElement, useId, useState, type ReactElement, type ReactNode } from 'react'
+import {
+  cloneElement,
+  isValidElement,
+  useId,
+  useRef,
+  useState,
+  type FocusEvent,
+  type KeyboardEvent,
+  type PointerEvent,
+  type ReactElement,
+  type ReactNode,
+} from 'react'
 import { cn } from '@/lib/cn'
 
-type TriggerElement = ReactElement<{
-  'aria-describedby'?: string
-  onBlur?: React.FocusEventHandler<HTMLElement>
-  onFocus?: React.FocusEventHandler<HTMLElement>
-  onMouseEnter?: React.MouseEventHandler<HTMLElement>
-  onMouseLeave?: React.MouseEventHandler<HTMLElement>
-  onTouchStart?: React.TouchEventHandler<HTMLElement>
-}>
+type Trigger = ReactElement<Record<string, unknown>>
+
+function call<E>(handler: unknown, event: E) {
+  if (typeof handler === 'function') (handler as (event: E) => void)(event)
+}
 
 export function Tooltip({
+  content,
   label,
   children,
+  disabled = false,
   className,
 }: {
-  label: ReactNode
-  children: TriggerElement
+  content?: ReactNode
+  label?: ReactNode
+  children: Trigger
+  disabled?: boolean
   className?: string
 }) {
   const id = useId()
   const [open, setOpen] = useState(false)
+  const touchOpened = useRef(false)
+  const tooltip = content ?? label
+  if (!tooltip || !isValidElement(children) || disabled) return children
 
-  if (!label || !isValidElement(children)) return children
-
-  const child = children as TriggerElement
-  const describedBy = [child.props['aria-describedby'], id].filter(Boolean).join(' ') || undefined
-  const close = () => setOpen(false)
+  const props = children.props
+  const describedBy = [open ? id : undefined, props['aria-describedby']].filter(Boolean).join(' ') || undefined
 
   return (
-    <span
-      className={cn('relative inline-flex', className)}
-      onTouchStart={(event) => {
-        event.stopPropagation()
-        setOpen((current) => !current)
-      }}
-      onKeyDown={(event) => {
-        if (event.key === 'Escape') close()
-      }}
-    >
-      {cloneElement(child, {
+    <span className={cn('relative inline-flex min-w-0', className)}>
+      {cloneElement(children, {
         'aria-describedby': describedBy,
-        onFocus: (event) => {
-          child.props.onFocus?.(event)
+        onPointerEnter: (event: PointerEvent) => {
+          call(props.onPointerEnter, event)
+          if (event.pointerType !== 'touch') setOpen(true)
+        },
+        onPointerLeave: (event: PointerEvent) => {
+          call(props.onPointerLeave, event)
+          if (event.pointerType !== 'touch') setOpen(false)
+        },
+        onPointerDown: (event: PointerEvent) => {
+          call(props.onPointerDown, event)
+          if (event.pointerType === 'touch') {
+            touchOpened.current = true
+            setOpen((current) => !current)
+          }
+        },
+        onFocus: (event: FocusEvent) => {
+          call(props.onFocus, event)
           setOpen(true)
         },
-        onBlur: (event) => {
-          child.props.onBlur?.(event)
-          close()
+        onBlur: (event: FocusEvent) => {
+          call(props.onBlur, event)
+          setOpen(false)
+          touchOpened.current = false
         },
-        onMouseEnter: (event) => {
-          child.props.onMouseEnter?.(event)
-          setOpen(true)
-        },
-        onMouseLeave: (event) => {
-          child.props.onMouseLeave?.(event)
-          close()
+        onKeyDown: (event: KeyboardEvent) => {
+          call(props.onKeyDown, event)
+          if (event.key === 'Escape') {
+            setOpen(false)
+            touchOpened.current = false
+          }
         },
       })}
-      <span id={id} role="tooltip" className={cn('pointer-events-none absolute bottom-[calc(100%+0.45rem)] left-1/2 z-50 max-w-64 -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-center text-[11.5px] font-medium leading-snug text-paper shadow-pop transition-opacity', open ? 'opacity-100' : 'opacity-0')}>
-        {label}
-      </span>
+      {open && (
+        <span
+          id={id}
+          role="tooltip"
+          className="pointer-events-none absolute bottom-[calc(100%+0.45rem)] start-1/2 z-[90] w-max max-w-64 -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-center text-[11.5px] font-medium leading-snug text-paper shadow-pop animate-pop"
+        >
+          {tooltip}
+        </span>
+      )}
     </span>
   )
 }
