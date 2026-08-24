@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "test": "node --test --experimental-strip-types \"src/**/*.test.ts\"",
+    "load:students": "node scripts/load-test-students.mjs",
     "preview": "vite preview",
     "og": "node scripts/og/render.mjs",
     "medical:build": "node --experimental-strip-types scripts/build-medical-library-v1.mjs",
