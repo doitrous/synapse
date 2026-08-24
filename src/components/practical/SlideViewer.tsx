@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from 'react'
+import { createPortal } from 'react-dom'
 import { Info, Maximize2, Minimize2, RotateCcw, X, ZoomIn, ZoomOut } from 'lucide-react'
 import { objectivesOf, openingObjective, spriteCell, structuresAt, type HistologySlide, type Objective } from '@/data/histology'
 import { resolveMediaSource } from '@/lib/mediaStorage'
@@ -15,6 +16,7 @@ const FOCUS_COLUMNS = 12
 const FOCUS_ROWS = 10
 const FOCUS_FRAMES = FOCUS_COLUMNS * FOCUS_ROWS
 const FOCUS_MS = 2000
+const FOCUS_REVEAL_PROGRESS = 0.8
 
 interface Drag {
   pointerId: number
@@ -59,6 +61,7 @@ export function SlideViewer({
   const [maximized, setMaximized] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
   const [focusVisible, setFocusVisible] = useState(Boolean(transitionOrigin))
+  const [slideVisible, setSlideVisible] = useState(!transitionOrigin)
 
   // Undefined until the image has actually loaded once, so nothing is drawn
   // at a guessed size before its real proportions are known.
@@ -69,6 +72,7 @@ export function SlideViewer({
 
   const fieldRef = useRef<HTMLDivElement>(null)
   const focusRef = useRef<HTMLDivElement>(null)
+  const viewerRef = useRef<HTMLDivElement>(null)
   const thumbnailRef = useRef<HTMLDivElement>(null)
   const dragRef = useRef<Drag | null>(null)
   const thumbnailDragRef = useRef<number | null>(null)
@@ -87,18 +91,21 @@ export function SlideViewer({
     const layer = focusRef.current
     const field = fieldRef.current
     if (!transitionOrigin || !layer || !field) {
+      setSlideVisible(true)
       setFocusVisible(false)
       return
     }
 
     const destination = field.getBoundingClientRect()
     if (destination.width <= 0 || destination.height <= 0) {
+      setSlideVisible(true)
       setFocusVisible(false)
       return
     }
 
     const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
     if (reduced || typeof layer.animate !== 'function') {
+      setSlideVisible(true)
       setFocusVisible(false)
       return
     }
@@ -124,9 +131,17 @@ export function SlideViewer({
     const started = performance.now()
     let raf = 0
     let active = true
+    let revealed = false
     const tick = (now: number) => {
       const progress = Math.min(1, (now - started) / FOCUS_MS)
       showFrame(Math.round(progress * (FOCUS_FRAMES - 1)))
+      if (!revealed && progress >= FOCUS_REVEAL_PROGRESS) {
+        // The first fully opened lens is the last visually meaningful keyed
+        // frame. Reveal the tissue beneath it in the same paint; the remaining
+        // rim frames stay above it, so there is no empty interval.
+        revealed = true
+        setSlideVisible(true)
+      }
       if (progress < 1) raf = requestAnimationFrame(tick)
     }
     raf = requestAnimationFrame(tick)
@@ -136,12 +151,22 @@ export function SlideViewer({
       { duration: FOCUS_MS, easing: 'cubic-bezier(0.2, 0, 0, 1)', fill: 'forwards' },
     )
     const iris = layer.animate(
-      [{ borderRadius: '0.75rem' }, { borderRadius: '50%' }],
-      { delay: FOCUS_MS * 0.72, duration: FOCUS_MS * 0.28, easing: 'ease-out', fill: 'forwards' },
+      [
+        { offset: 0, clipPath: 'circle(70.71% at 50% 50%)' },
+        { offset: 0.4, clipPath: 'circle(70.71% at 50% 50%)' },
+        // Follow the right eyepiece as it becomes the field of view. This
+        // masks the source cell's hard square crop instead of rounding that
+        // rectangle and leaving its straight edges visible.
+        { offset: 0.58, clipPath: 'circle(34% at 65% 48%)' },
+        { offset: 0.8, clipPath: 'circle(50% at 50% 50%)' },
+        { offset: 1, clipPath: 'circle(50% at 50% 50%)' },
+      ],
+      { duration: FOCUS_MS, easing: 'ease-out', fill: 'forwards' },
     )
     const finish = () => {
       if (!active) return
       showFrame(FOCUS_FRAMES - 1)
+      setSlideVisible(true)
       setFocusVisible(false)
     }
     Promise.all([movement.finished, iris.finished]).then(finish).catch(() => undefined)
@@ -167,7 +192,43 @@ export function SlideViewer({
     })
     observer.observe(node)
     return () => observer.disconnect()
-  }, [])
+  }, [maximized])
+
+  useEffect(() => {
+    if (!maximized) return
+    const previousOverflow = document.body.style.overflow
+    const viewer = viewerRef.current
+    const onKeyDown = (event: globalThis.KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setMaximized(false)
+        return
+      }
+      if (event.key !== 'Tab' || !viewer) return
+      const focusable = [...viewer.querySelectorAll<HTMLElement>(
+        'button:not([disabled]), [href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])',
+      )].filter((node) => !node.hasAttribute('hidden'))
+      if (!focusable.length) return
+      const first = focusable[0]
+      const last = focusable[focusable.length - 1]
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    }
+    document.body.style.overflow = 'hidden'
+    window.addEventListener('keydown', onKeyDown)
+    viewer?.querySelector<HTMLElement>('[data-slide-maximize]')?.focus()
+    return () => {
+      document.body.style.overflow = previousOverflow
+      window.removeEventListener('keydown', onKeyDown)
+      requestAnimationFrame(() => {
+        document.querySelector<HTMLElement>('[data-slide-maximize]')?.focus()
+      })
+    }
+  }, [maximized])
 
   // The image scaled to *cover* the field, computed directly from its real
   // pixel dimensions rather than via `object-fit: cover` on a fixed box.
@@ -372,11 +433,17 @@ export function SlideViewer({
 
   const zoomLabel = `${Math.round(zoom * 100)}%`
 
-  return (
+  const viewer = (
     <div
+      ref={viewerRef}
+      role={maximized ? 'dialog' : undefined}
+      aria-modal={maximized || undefined}
+      aria-label={maximized ? t('Maximized slide viewer') : undefined}
       className={cn(
-        'mx-auto flex w-full max-w-4xl flex-col items-center gap-4 p-4',
-        maximized && 'fixed inset-0 z-50 overflow-auto bg-canvas px-4 py-5 sm:px-6',
+        'mx-auto flex w-full flex-col items-center gap-4 p-4',
+        maximized
+          ? 'fixed inset-0 z-[100] m-0 h-dvh max-w-none overflow-y-auto bg-paper px-4 py-5 sm:px-6'
+          : 'max-w-4xl',
       )}
     >
       {focusVisible && (
@@ -394,10 +461,10 @@ export function SlideViewer({
         />
       )}
       <div
-        aria-hidden={focusVisible || undefined}
+        aria-hidden={!slideVisible || undefined}
         className={cn(
-          'flex w-full flex-col items-center gap-4 transition-opacity duration-150 ease-out motion-reduce:transition-none',
-          focusVisible ? 'pointer-events-none opacity-0' : 'opacity-100',
+          'flex w-full flex-col items-center gap-4',
+          slideVisible ? 'opacity-100' : 'pointer-events-none opacity-0',
         )}
       >
       <div className="flex w-full flex-wrap items-start justify-between gap-3">
@@ -418,6 +485,7 @@ export function SlideViewer({
             icon={maximized ? Minimize2 : Maximize2}
             label={maximized ? t('Restore the slide viewer') : t('Maximize the slide viewer')}
             variant="surface"
+            data-slide-maximize
             onClick={() => setMaximized((next) => !next)}
           />
           <IconButton icon={X} label={t('Close the slide viewer')} variant="surface" onClick={onClose} />
@@ -439,7 +507,7 @@ export function SlideViewer({
           // is the same eyepiece the push-in animation ends on, and that frame
           // does not change with light or dark mode.
           'relative aspect-square w-full touch-none select-none overflow-hidden rounded-full border-[10px] border-ink bg-white shadow-panel',
-          maximized ? 'max-w-[min(80vh,42rem)]' : 'max-w-sm',
+          maximized ? 'max-w-[min(86dvh,56rem)]' : 'max-w-sm',
           !imageLoading && !imageError && currentView && 'cursor-grab active:cursor-grabbing',
         )}
       >
@@ -629,4 +697,6 @@ export function SlideViewer({
       </div>
     </div>
   )
+
+  return maximized && typeof document !== 'undefined' ? createPortal(viewer, document.body) : viewer
 }
