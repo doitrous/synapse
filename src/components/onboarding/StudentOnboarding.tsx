@@ -49,7 +49,7 @@ function StepDots({ step, total }: { step: number; total: number }) {
       {Array.from({ length: total }, (_, index) => (
         <span
           key={index}
-          className={cn('h-1.5 rounded-full transition-all', index === step ? 'w-6 bg-primary' : index < step ? 'w-1.5 bg-primary/50' : 'w-1.5 bg-line-2')}
+          className={cn('h-1.5 rounded-full transition-[width,background-color]', index === step ? 'w-6 bg-primary' : index < step ? 'w-1.5 bg-primary/50' : 'w-1.5 bg-line-2')}
         />
       ))}
     </div>

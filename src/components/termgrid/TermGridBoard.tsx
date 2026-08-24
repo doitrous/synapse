@@ -318,7 +318,7 @@ export function TermGridBoard({
                   focusCell(word.row, word.column)
                 }}
                 className={cn(
-                  'min-w-0 flex-1 rounded-md px-2 py-1 text-start text-[12.5px] leading-snug transition-colors',
+                  'min-h-11 min-w-0 flex-1 rounded-md px-2 py-1 text-start text-[12.5px] leading-snug transition-colors sm:min-h-0',
                   isSelected ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
                   revealed && 'text-ink-3 line-through decoration-ink-3/60',
                 )}

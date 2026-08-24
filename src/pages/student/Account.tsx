@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Check, Download, KeyRound, LifeBuoy, LogOut, Palette, ShieldCheck, UserRound } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonAnchor } from '@/components/ui/Button'
 import { Field, Select, TextInput } from '@/components/ui/Field'
 import { Toggle } from '@/components/ui/Toggle'
 import { Badge } from '@/components/ui/Badge'
@@ -132,9 +132,8 @@ function StudyContext() {
             value={universityId}
             onChange={(event) => { setUniversityId(event.target.value); setJustSaved(false) }}
           >
-            <option value="">{t('Choose your university')}</option>
-            {universities.map((university) => (
-              <option key={university.id} value={university.id}>{university.short} — {university.name}</option>
+            {[{ id: '', short: '', name: t('Choose your university') }, ...universities].map((university) => (
+              <option key={university.id || 'choose-university'} value={university.id}>{university.id ? `${university.short} — ${university.name}` : university.name}</option>
             ))}
           </Select>
         </Field>
@@ -148,8 +147,7 @@ function StudyContext() {
             value={year}
             onChange={(event) => { setYear(event.target.value); setJustSaved(false) }}
           >
-            <option value="">{t('Choose your year')}</option>
-            {years.map((option) => <option key={option} value={option}>{t(option)}</option>)}
+            {['', ...years].map((option) => <option key={option || 'choose-year'} value={option}>{option ? t(option) : t('Choose your year')}</option>)}
           </Select>
         </Field>
         {profile.year && profile.year !== year && <RosterNote recorded={profile.year} />}
@@ -191,6 +189,7 @@ export function Account() {
   const t = useT()
   const { email } = useIdentity()
   const [prefs, setPrefs] = usePersistentState<AccountPrefs>(ACCOUNT_PREFS_STORAGE_KEY, DEFAULTS)
+  const timezone = prefs.timezone || DEFAULTS.timezone
   const [exporting, setExporting] = useState(false)
   const [exportError, setExportError] = useState('')
   // Matches the column default (`students.discoverable` is `1`), so a student
@@ -271,10 +270,10 @@ export function Account() {
             <StudyContext />
             <div className="border-t border-line p-5">
               <Field label={t('Timezone')} hint={t('Used for calendar blocks and reminders')} className="max-w-sm">
-                <Select value={prefs.timezone} onChange={(event) => patch({ timezone: event.target.value })}>
-                  {[prefs.timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
+                <Select aria-label={t('Timezone')} value={timezone} onChange={(event) => patch({ timezone: event.target.value })}>
+                  {[timezone, 'Africa/Cairo', 'Europe/London', 'Asia/Dubai', 'America/New_York']
                     .filter((zone, index, all) => all.indexOf(zone) === index)
-                    .map((zone) => <option key={zone} value={zone}>{zone}</option>)}
+                    .map((zone) => <option key={zone || 'timezone-default'} value={zone}>{zone}</option>)}
                 </Select>
               </Field>
             </div>
@@ -379,7 +378,7 @@ export function Account() {
           <Panel>
             <PanelHeader title={t('Support')} icon={LifeBuoy} />
             <div className="p-4">
-              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</Button></a>
+              <ButtonAnchor href={supportLink} className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</ButtonAnchor>
             </div>
           </Panel>
         </div>

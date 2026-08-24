@@ -9,7 +9,7 @@ import { PlacedImage } from '@/components/ui/PlacedMedia'
 import { useMediaRecords } from '@/lib/useMediaRecords'
 import { PRIORITY_BANDS, bandOf, effectiveWeight, weightForBand } from '@/data/conceptPriority'
 import { useScopedConcepts } from '@/lib/useScopedContent'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { Field, Select, TextInput, Textarea } from '@/components/ui/Field'
@@ -31,6 +31,7 @@ import { universities } from '@/data/universities'
 import { MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore, type CitationLink, type EvidenceLocator, type MedicalEvidenceStore, type ResourceRecord } from '@/data/medicalEvidence'
 import { apiOpenFile } from '@/lib/api'
 import { overlayPortal } from '@/lib/overlayPortal'
+import { useIdentity } from '@/lib/useIdentity'
 
 const slug = (value: string) =>
   value.toLowerCase().trim().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') || 'concept'
@@ -144,7 +145,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
 
                 <div className="mt-2.5 space-y-2">
                   {resourceCitations.length > 0 ? resourceCitations.map((citation) => (
-                    <div key={citation.id} className="rounded-md border-s-2 border-primary-line bg-surface-2/45 px-2.5 py-2">
+                    <div key={citation.id} className="rounded-md border border-primary-line/70 bg-surface-2/45 px-2.5 py-2">
                       <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
                         <span className="font-mono text-[10px] font-semibold text-primary-strong">{sourceLocatorLabel(citation.locator)}</span>
                         <span className={cn('text-[9.5px] font-semibold uppercase tracking-[0.04em]', citation.countsAsClaimEvidence ? 'text-success' : 'text-ink-3')}>
@@ -235,6 +236,7 @@ function ConceptAdvancedFields({ value, onPatch }: { value: Partial<Concept>; on
 }
 
 export function ConceptsSetup() {
+  const identity = useIdentity()
   const [graph, setGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [evidence] = usePersistentState<MedicalEvidenceStore>(MEDICAL_EVIDENCE_STORAGE_KEY, emptyMedicalEvidenceStore)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
@@ -469,8 +471,20 @@ export function ConceptsSetup() {
       <PageHeader
         title="Concepts"
         description="Concepts are the smallest assessable objectives. Author each one's definition, pitfalls, curriculum placement, weighting, and relationships. Definitions surface in a question — stem and answers — only after the student reveals the answer."
-        actions={<Link to="/admin/concepts/import"><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link>}
+        actions={<ButtonLink to="/admin/concepts/import" variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink>}
       />
+
+      {identity.role === 'reviewer' && (
+        <Panel className="mb-4 p-4">
+          <p className="text-[13px] font-semibold text-ink">Reviewer workflow</p>
+          <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
+            <li><span className="font-semibold text-ink">1.</span> Select a concept from your scoped navigator.</li>
+            <li><span className="font-semibold text-ink">2.</span> Confirm the definition, aliases, pitfall, placement, and evidence notes are student-safe.</li>
+            <li><span className="font-semibold text-ink">3.</span> Save the concept before leaving the page.</li>
+            <li><span className="font-semibold text-ink">4.</span> Relationship editing appears only if your role holds that tab.</li>
+          </ol>
+        </Panel>
+      )}
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(19rem,22rem)_minmax(0,1fr)]">
         {/* ---- Navigator: stays put while the editor scrolls ---- */}
@@ -578,7 +592,11 @@ export function ConceptsSetup() {
                 <div className="rounded-lg border border-line bg-surface-2/40 p-3">
                   <div className="mb-1.5 flex items-center justify-between">
                     <p className="text-[11px] font-bold uppercase tracking-[0.07em] text-ink-3">Relationships</p>
-                    <Link to="/admin/relationships" className="text-[11px] font-medium text-primary hover:text-primary-strong">Manage →</Link>
+                    {identity.tabs.includes('relationships') ? (
+                      <Link to="/admin/relationships" className="text-[11px] font-medium text-primary hover:text-primary-strong">Manage →</Link>
+                    ) : (
+                      <span className="text-[11px] text-ink-3">Relationship editing unavailable</span>
+                    )}
                   </div>
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).slice(0, 6).map((rel) => (
                     <p key={rel.id} className="font-mono text-[10.5px] leading-relaxed text-ink-2">
@@ -586,7 +604,7 @@ export function ConceptsSetup() {
                     </p>
                   ))}
                   {graph.relations.filter((rel) => rel.sourceId === selected.id || rel.targetId === selected.id).length === 0 && (
-                    <p className="text-[11.5px] text-ink-3">No relationships yet — add them in the Relationships tab.</p>
+                    <p className="text-[11.5px] text-ink-3">{identity.tabs.includes('relationships') ? 'No relationships yet — add them in the Relationships tab.' : 'No relationships are attached to this concept.'}</p>
                   )}
                 </div>
 
@@ -739,7 +757,7 @@ function ConceptMediaField({ mediaIds, onChange }: {
                   : <p className="p-2 text-[11px] text-warning">no longer in the library</p>}
                 <button
                   type="button"
-                  className="mt-1 w-full rounded px-1 py-0.5 text-[11px] text-ink-3 hover:bg-inset hover:text-danger"
+                  className="mt-1 min-h-10 w-full rounded px-1 py-1 text-[11px] text-ink-3 hover:bg-inset hover:text-danger sm:min-h-0"
                   onClick={() => onChange(mediaIds.filter((candidate) => candidate !== mediaId))}
                 >
                   Remove

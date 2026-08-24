@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { CircleCheck, CircleAlert } from 'lucide-react'
 import { API_MODE, apiGet } from '@/lib/api'
 import { Icon } from '@/components/ui/Icon'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 
 /**
  * The page an unsubscribe link lands on.
@@ -57,7 +57,14 @@ export function Unsubscribe() {
           </>
         )}
 
-        <Link to="/" className="mt-6 inline-block"><Button variant="secondary" size="sm">Go to Maristana</Button></Link>
+        <ButtonLink
+          to="/"
+          variant="secondary"
+          size="sm"
+          className="mt-6"
+        >
+          Go to Maristana
+        </ButtonLink>
       </div>
     </main>
   )

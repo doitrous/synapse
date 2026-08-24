@@ -49,6 +49,7 @@ export function NotificationCampaigns() {
   const [campaigns, setCampaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
   const [editing, setEditing] = useState<NotificationCampaign | null>(null)
   const [notice, setNotice] = useState('')
+  const [deleteId, setDeleteId] = useState('')
   const active = useMemo(() => campaigns.filter((campaign) => campaign.active).length, [campaigns])
 
   function save(sendNow = false) {
@@ -56,6 +57,7 @@ export function NotificationCampaigns() {
     const next: NotificationCampaign = { ...editing, title: editing.title.trim(), message: editing.message.trim(), delivery: sendNow ? 'Immediate' : editing.delivery, scheduledAt: sendNow ? new Date().toISOString() : editing.scheduledAt, sentAt: sendNow ? new Date().toISOString() : editing.sentAt }
     setCampaigns((current) => current.some((campaign) => campaign.id === next.id) ? current.map((campaign) => campaign.id === next.id ? next : campaign) : [next, ...current])
     setEditing(null)
+    setDeleteId('')
     setNotice(sendNow ? 'Notification is now available to the selected students.' : 'Notification campaign saved.')
   }
 
@@ -74,7 +76,7 @@ export function NotificationCampaigns() {
             <thead><tr><Th className="pl-4">Notification</Th><Th>Delivery</Th><Th>Audience</Th><Th>When</Th><Th>Status</Th><Th align="end" className="pr-4">Actions</Th></tr></thead>
             <tbody>{campaigns.map((campaign) => {
               const audienceRules = campaign.universityIds.length + campaign.years.length + campaign.groups.length
-              return <Tr key={campaign.id} hover><Td className="max-w-sm pl-4"><p className="line-clamp-1 font-semibold text-ink">{campaign.title}</p><p className="mt-0.5 line-clamp-1 text-[11.5px] text-ink-3">{campaign.message}</p></Td><Td><Badge tone={campaign.delivery === 'Automated' ? 'primary' : campaign.delivery === 'Scheduled' ? 'warning' : 'neutral'}>{campaign.delivery}</Badge></Td><Td className="text-[12px] text-ink-2">{audienceRules ? `${audienceRules} targeting rules` : 'All students'}</Td><Td className="whitespace-nowrap text-[12px] text-ink-2">{campaign.delivery === 'Automated' ? campaign.automation : formatDateTime(new Date(campaign.scheduledAt))}</Td><Td><Badge tone={campaign.active ? 'success' : 'neutral'}>{campaign.active ? 'Active' : 'Paused'}</Badge></Td><Td align="end" className="pr-4"><div className="inline-flex gap-1"><IconButton icon={Pencil} label={`Edit ${campaign.title}`} size="sm" onClick={() => setEditing({ ...campaign })} /><IconButton icon={Trash2} label={`Delete ${campaign.title}`} size="sm" className="text-danger" onClick={() => setCampaigns((current) => current.filter((item) => item.id !== campaign.id))} /></div></Td></Tr>
+              return <Tr key={campaign.id} hover><Td className="max-w-sm pl-4"><p className="line-clamp-1 font-semibold text-ink">{campaign.title}</p><p className="mt-0.5 line-clamp-1 text-[11.5px] text-ink-3">{campaign.message}</p></Td><Td><Badge tone={campaign.delivery === 'Automated' ? 'primary' : campaign.delivery === 'Scheduled' ? 'warning' : 'neutral'}>{campaign.delivery}</Badge></Td><Td className="text-[12px] text-ink-2">{audienceRules ? `${audienceRules} targeting rules` : 'All students'}</Td><Td className="whitespace-nowrap text-[12px] text-ink-2">{campaign.delivery === 'Automated' ? campaign.automation : formatDateTime(new Date(campaign.scheduledAt))}</Td><Td><Badge tone={campaign.active ? 'success' : 'neutral'}>{campaign.active ? 'Active' : 'Paused'}</Badge></Td><Td align="end" className="pr-4"><div className="inline-flex gap-1"><IconButton icon={Pencil} label={`Edit ${campaign.title}`} size="sm" onClick={() => { setEditing({ ...campaign }); setDeleteId('') }} /><IconButton icon={Trash2} label={deleteId === campaign.id ? `Confirm delete ${campaign.title}` : `Delete ${campaign.title}`} size="sm" className={deleteId === campaign.id ? 'border-danger/30 bg-danger-tint text-danger' : 'text-danger'} onClick={() => { if (deleteId === campaign.id) { setCampaigns((current) => current.filter((item) => item.id !== campaign.id)); setDeleteId(''); setNotice(`Notification “${campaign.title}” deleted.`) } else { setDeleteId(campaign.id); setNotice(`Press delete again to remove “${campaign.title}”.`) } }} /></div></Td></Tr>
             })}</tbody>
           </Table>
         </Panel>

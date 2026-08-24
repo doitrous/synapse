@@ -225,16 +225,16 @@ function TreeLevel({
               onChange={(event) => onRename(node.id, event.target.value)}
               className="h-8 min-w-0 flex-1 text-[12.5px] font-medium"
             />
-            <button type="button" aria-label={`Move ${node.title} up`} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" onClick={() => onMove(node.id, 'up')}>
+            <button type="button" aria-label={`Move ${node.title} up`} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-8" onClick={() => onMove(node.id, 'up')}>
               <Icon icon={ChevronUp} size={14} />
             </button>
-            <button type="button" aria-label={`Move ${node.title} down`} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" onClick={() => onMove(node.id, 'down')}>
+            <button type="button" aria-label={`Move ${node.title} down`} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-8" onClick={() => onMove(node.id, 'down')}>
               <Icon icon={ChevronDown} size={14} />
             </button>
-            <button type="button" aria-label={`Add a heading under ${node.title}`} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink" onClick={() => { onAdding(node.id); onNewTitle('') }}>
+            <button type="button" aria-label={`Add a heading under ${node.title}`} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-8" onClick={() => { onAdding(node.id); onNewTitle('') }}>
               <Icon icon={Plus} size={14} />
             </button>
-            <button type="button" aria-label={`Delete ${node.title}`} className="grid size-8 place-items-center rounded text-ink-3 hover:bg-inset hover:text-danger" onClick={() => onRemove(node)}>
+            <button type="button" aria-label={`Delete ${node.title}`} className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-danger sm:size-8" onClick={() => onRemove(node)}>
               <Icon icon={Trash2} size={14} />
             </button>
           </div>

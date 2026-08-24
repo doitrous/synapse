@@ -27,8 +27,6 @@ export function RequireAuth({ console: needsConsole, tab, children }: {
   const location = useLocation()
 
   if (identity.status === 'loading') return <RouteLoading />
-  // The self-contained demo build has no account system to enforce.
-  if (identity.status === 'demo') return children
   if (identity.status === 'anonymous') {
     const next = `${location.pathname}${location.search}`
     return <Navigate to={`/login?next=${encodeURIComponent(next)}`} replace />
@@ -41,7 +39,7 @@ export function RequireAuth({ console: needsConsole, tab, children }: {
   //
   // Ahead of the console checks below, because an unfinished account has no
   // business in the console either.
-  if (!identity.emailVerified) {
+  if (identity.status !== 'demo' && !identity.emailVerified) {
     const address = identity.email ? `?email=${encodeURIComponent(identity.email)}` : ''
     return <Navigate to={`/auth/verify-email${address}`} replace />
   }
@@ -52,7 +50,7 @@ export function RequireAuth({ console: needsConsole, tab, children }: {
     // who else gets console access. Somebody promoted an hour ago has not
     // enrolled yet; send them to enrol rather than to twenty-five pages that
     // each answer mfa_required on their own.
-    if (identity.aal !== 'aal2') {
+    if (identity.status !== 'demo' && identity.aal !== 'aal2') {
       const next = `${location.pathname}${location.search}`
       return <Navigate to={`/auth/mfa?next=${encodeURIComponent(next)}`} replace />
     }

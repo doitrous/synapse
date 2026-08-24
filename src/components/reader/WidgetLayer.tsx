@@ -160,7 +160,7 @@ function Widget({
         onPointerCancel={endDrag}
         onClick={() => setPeeled((current) => !current)}
         className={cn(
-          'absolute rounded-[3px] transition-opacity duration-200 motion-reduce:transition-none',
+          'absolute rounded-[3px] transition-opacity duration-200 motion-reduce:transition-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
           TAPE_CLASS[object.tone],
           peeled ? 'opacity-15' : 'opacity-100',
           selected && 'ring-2 ring-primary ring-offset-1',
@@ -175,11 +175,14 @@ function Widget({
   const isNote = object.kind === 'note'
   return (
     <div
+      role={interactive && !editing ? 'button' : undefined}
+      tabIndex={interactive && !editing ? 0 : -1}
+      aria-label={interactive && !editing ? (object.kind === 'note' ? t('Note') : t('Text box')) : undefined}
       className={cn(
         'absolute overflow-hidden rounded-lg border text-start shadow-panel',
         isNote ? TONE_CLASS[object.tone] : 'border-transparent bg-transparent shadow-none',
         selected && 'ring-2 ring-primary',
-        interactive && !editing && 'cursor-move',
+        interactive && !editing && 'cursor-move focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]',
       )}
       style={style}
       onPointerDown={onPointerDown}
@@ -187,6 +190,17 @@ function Widget({
       onPointerUp={endDrag}
       onPointerCancel={endDrag}
       onDoubleClick={() => interactive && setEditing(true)}
+      onKeyDown={(event) => {
+        if (!interactive || editing) return
+        if (event.key === 'Enter') {
+          event.preventDefault()
+          onSelect(object.id, event.shiftKey)
+          setEditing(true)
+        } else if (event.key === ' ') {
+          event.preventDefault()
+          onSelect(object.id, event.shiftKey)
+        }
+      }}
     >
       {editing ? (
         <textarea
@@ -194,7 +208,7 @@ function Widget({
           value={object.text}
           onChange={(event) => onChangeText(object.id, event.target.value)}
           onBlur={() => { setEditing(false); onGestureEnd() }}
-          className="size-full resize-none bg-transparent p-2 text-[12px] leading-snug text-ink outline-none"
+          className="size-full resize-none bg-transparent p-2 text-[12px] leading-snug text-ink outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
           style={object.kind === 'textbox' ? { color: object.color, fontSize: Math.max(9, px(object.size)) } : undefined}
         />
       ) : (

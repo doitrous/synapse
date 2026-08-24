@@ -93,11 +93,11 @@ export function Login() {
           <span className="h-px flex-1 bg-line" />
         </div>
         <Field label="Email address" htmlFor="login-email">
-          <TextInput id="login-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" />
+          <TextInput id="login-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" />
         </Field>
         <Field label="Password" htmlFor="login-password">
           <div className="relative">
-            <TextInput id="login-password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" />
+            <TextInput id="login-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="current-password" required value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" />
             <button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}>
               <Icon icon={showPassword ? EyeOff : Eye} size={16} />
             </button>

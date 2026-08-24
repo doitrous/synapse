@@ -116,8 +116,10 @@ export function Topbar({
 
       <div className="ms-auto flex shrink-0 items-center gap-0.5 sm:gap-1.5">
         <button
+          type="button"
           onClick={onOpenSearch}
-          className="hidden h-9 w-60 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] text-ink-3 transition-colors hover:border-line-2 sm:flex"
+          className="hidden h-9 w-60 items-center gap-2 rounded-md border border-line bg-surface px-3 text-[13px] text-ink-3 transition-colors hover:border-line-2 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)] sm:flex"
+          aria-label={t('Search')}
         >
           <Icon icon={Search} size={16} />
           <span className="flex-1 text-start">{t('Search…')}</span>
@@ -184,7 +186,8 @@ export function Topbar({
                   <p className="text-[11.5px] text-ink-3">{unreadCount} {t('unread')}</p>
                 </div>
                 <button
-                  className="text-[12px] font-medium text-primary hover:text-primary-strong"
+                  type="button"
+                  className="min-h-9 rounded-md px-2 text-[12px] font-medium text-primary hover:bg-primary-tint hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                   onClick={() => setReadIds((current) => [...new Set([...current, ...notifications.map((notification) => notification.id)])])}
                 >
                   {t('Mark all read')}

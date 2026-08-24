@@ -4,6 +4,7 @@ import { AppShell } from '@/components/shell/AppShell'
 import { RouteLoading } from '@/components/shell/RouteLoading'
 import { RouteBoundary } from '@/components/shell/RouteBoundary'
 import { RequireAuth } from '@/components/auth/RequireAuth'
+import { RequireImportKind } from '@/components/auth/RequireImportKind'
 import { ADMIN_TAB_VIEWS } from '@/data/adminTabs'
 import { useIdentity } from '@/lib/useIdentity'
 import { ADMIN_ORIGIN, STUDENT_ORIGIN, isAdminHost, isStudentHost, samePathOn } from '@/lib/portalHost'
@@ -235,7 +236,7 @@ const guarded = (path: string, element: ReactElement) => ({
  */
 function AdminHome() {
   const identity = useIdentity()
-  if (identity.status === 'demo' || identity.tabs.includes('dashboard')) return <ControlDashboard />
+  if (identity.tabs.includes('dashboard')) return <ControlDashboard />
   const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
   return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
 }
@@ -259,8 +260,8 @@ const adminApp = {
   children: [
     { index: true, element: <AdminHome /> },
     // `import/:kind` is the one path whose tab depends on the parameter, so it
-    // is guarded by the ledger tabs its four kinds map onto.
-    { path: 'import/:kind', element: <RequireAuth console>{render(BulkImportPage)}</RequireAuth> },
+    // is guarded by the ledger tab that owns that content kind.
+    { path: 'import/:kind', element: <RequireImportKind>{render(BulkImportPage)}</RequireImportKind> },
     guarded('concepts/import', render(ConceptsImportPage)),
     guarded('relationships/import', render(RelationsImportPage)),
     guarded('academic/import', render(AcademicImportPage)),

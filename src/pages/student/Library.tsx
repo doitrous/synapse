@@ -31,7 +31,7 @@ import type { LibBlock } from '@/data/library'
 import type { ArticleMediaRecord } from '@/data/contentControl'
 import { useLiveLibrary, type LiveSubtopic } from '@/lib/useLiveLibrary'
 import { getSubject } from '@/data/subjects'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { CatalogueUnavailable } from '@/components/ui/CatalogueUnavailable'
 import { Icon } from '@/components/ui/Icon'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -754,12 +754,10 @@ function Reader({
           return updatedAt ? <span className="text-[12.5px] text-ink-3">{t('Updated')} {formatLongDate(updatedAt)}</span> : null
         })()}
         <div className="flex gap-2">
-          <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="secondary" size="sm" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
-          <Link to={`/app/qbank?article=${st.id}`}>
-            <Button variant="primary" size="sm" iconLeft={ListChecks}>
-              {t('Test yourself')}
-            </Button>
-          </Link>
+          <ButtonLink to={`/app/notebook?article=${st.id}&new=1`} variant="secondary" size="sm" iconLeft={NotebookPen}>{t('Take a note')}</ButtonLink>
+          <ButtonLink to={`/app/qbank?article=${st.id}`} variant="primary" size="sm" iconLeft={ListChecks}>
+            {t('Test yourself')}
+          </ButtonLink>
           <Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'library article', id: st.id, title: st.title })}>{t('Report')}</Button>
         </div>
       </div>
@@ -805,8 +803,8 @@ function Reader({
 
       <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-5">
         <Button variant={isRead ? 'secondary' : 'primary'} iconLeft={isRead ? Check : BookmarkCheck} onClick={() => setReadArticles((current) => ({ ...current, [id]: !isRead }))}>{isRead ? t('Marked as read') : t('Mark as read')}</Button>
-        <Link to={`/app/qbank?article=${st.id}`}><Button variant="secondary" iconLeft={ListChecks}>{t('Test yourself')} · {st.questions.length} {t('questions')}</Button></Link>
-        <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="ghost" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
+        <ButtonLink to={`/app/qbank?article=${st.id}`} variant="secondary" iconLeft={ListChecks}>{t('Test yourself')} · {st.questions.length} {t('questions')}</ButtonLink>
+        <ButtonLink to={`/app/notebook?article=${st.id}&new=1`} variant="ghost" iconLeft={NotebookPen}>{t('Take a note')}</ButtonLink>
       </div>
     </article>
     {/* min-w-0: on mobile the aside shares one grid column with the article, so
@@ -1126,7 +1124,7 @@ export function Library() {
             className="shrink-0 max-lg:hidden"
           />
         )}
-        <button type="button" className="inline-flex min-h-11 shrink-0 items-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
+        <button type="button" className="inline-flex min-h-11 min-w-11 shrink-0 items-center justify-center gap-2 rounded-md px-1.5 py-1 text-start hover:bg-inset sm:min-h-0 sm:min-w-0 sm:justify-start" onClick={() => changeView('home')}><Icon icon={BookOpen} size={16} className="text-primary" /><span className="hidden font-serif text-[16px] font-semibold text-ink sm:inline">{t('Library')}</span></button>
         {/* The home state offers these same five routes as cards in the page.
             Showing them as tabs at the same time was two menus for one choice,
             so the strip appears only once a route has been picked — and then
@@ -1220,7 +1218,7 @@ export function Library() {
       {/* Mobile navigator */}
       {treeOpen && overlayPortal(
         <div className="fixed inset-0 z-40 lg:hidden">
-          <div className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} />
+          <button type="button" className="absolute inset-0 bg-ink/30 animate-fade" onClick={() => setTreeOpen(false)} aria-label={t('Close library navigation')} />
           <div className="animate-slide-x absolute inset-y-0 start-0 flex w-[min(22rem,90vw)] flex-col bg-surface shadow-pop">
             <div className="flex h-12 items-center justify-between border-b border-line px-4">
               <span className="font-serif text-[16px] font-semibold text-ink">{t('Library')}</span>

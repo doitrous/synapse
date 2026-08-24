@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { CalendarDays, Check, ChevronLeft, ChevronRight, Clock, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight } from 'lucide-react'
 import type { CalEvent } from '@/data/calendar'
 import { getSubject, subjects } from '@/data/subjects'
@@ -12,7 +11,7 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { PageContainer } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Dialog } from '@/components/ui/Dialog'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Segmented } from '@/components/ui/Tabs'
 import { Toggle } from '@/components/ui/Toggle'
@@ -241,11 +240,9 @@ function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClos
               {t('Close')}
             </Button>
             {action && (
-              <Link to={action.to}>
-                <Button variant="primary" iconRight={ArrowRight}>
-                  {t(action.label)}
-                </Button>
-              </Link>
+              <ButtonLink to={action.to} variant="primary" iconRight={ArrowRight}>
+                {t(action.label)}
+              </ButtonLink>
             )}
           </div>
         )}

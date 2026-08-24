@@ -55,7 +55,7 @@ function KeyPointRow({ point, index, count, onChange, onRemove, onMove }: {
           type="button"
           onClick={() => onMove(-1)}
           disabled={index === 0}
-          className="grid size-6 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink disabled:opacity-30 disabled:hover:bg-transparent"
+          className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink disabled:opacity-30 disabled:hover:bg-transparent sm:size-7"
           aria-label={`Move key point ${index + 1} up`}
         >
           <Icon icon={ArrowUp} size={13} />
@@ -64,7 +64,7 @@ function KeyPointRow({ point, index, count, onChange, onRemove, onMove }: {
           type="button"
           onClick={() => onMove(1)}
           disabled={index === count - 1}
-          className="grid size-6 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink disabled:opacity-30 disabled:hover:bg-transparent"
+          className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink disabled:opacity-30 disabled:hover:bg-transparent sm:size-7"
           aria-label={`Move key point ${index + 1} down`}
         >
           <Icon icon={ArrowDown} size={13} />

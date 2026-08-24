@@ -1,9 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Mail, Inbox, Send, Plus, Paperclip, Download, X, RefreshCw, AtSign, Info, Loader2, ChevronLeft, Zap } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { IconButton } from '@/components/ui/IconButton'
@@ -90,7 +89,7 @@ export function MailBox() {
       <PageHeader
         title="Mail Box"
         description="Every message sent and received — automations, campaigns and replies — with attachments."
-        actions={<><Link to="/admin/email"><Button variant="secondary" size="md" iconLeft={Zap}>Automations</Button></Link><Button variant="secondary" size="md" iconLeft={RefreshCw} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
+        actions={<><ButtonLink to="/admin/email" variant="secondary" size="md" iconLeft={Zap}>Automations</ButtonLink><Button variant="secondary" size="md" iconLeft={RefreshCw} onClick={() => void load()}>Refresh</Button><Button variant="primary" size="md" iconLeft={Plus} onClick={() => { setComposing(true); setSelected(null) }}>Compose</Button></>}
       />
 
       {notice && (

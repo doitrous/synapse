@@ -139,7 +139,7 @@ export function SharedBoardView({ board }: { board: BoardState }) {
             className="pointer-events-none absolute overflow-hidden rounded-lg border border-line bg-surface shadow-panel"
             style={{ left: image.x, top: image.y, width: image.width, height: image.height }}
           >
-            <img src={image.src} alt={image.alt} className="size-full object-contain" />
+            <img src={image.src} alt={image.alt} width={image.width} height={image.height} className="size-full object-contain" />
           </div>
         ))}
 

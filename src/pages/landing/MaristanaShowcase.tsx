@@ -236,14 +236,12 @@ export function MaristanaShowcase({ c }: { c: MaristanaLandingCopy }) {
 
       <div className="mt-8 grid gap-7 lg:grid-cols-[0.68fr_1.32fr] lg:items-start">
         <div>
-          <div role="tablist" aria-label={c.showcase.title} className="border-t border-line">
+          <div aria-label={c.showcase.title} className="border-t border-line">
             {c.showcase.stages.map((item, index) => (
               <button
                 key={item.label}
                 type="button"
-                role="tab"
-                aria-selected={index === stage}
-                aria-controls="maristana-showcase-panel"
+                aria-pressed={index === stage}
                 onClick={() => { setStage(index); setPlaying(false) }}
                 className={cn(
                   'group flex min-h-14 w-full items-center gap-3 border-b border-line px-1 py-3 text-start transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary',
@@ -268,7 +266,7 @@ export function MaristanaShowcase({ c }: { c: MaristanaLandingCopy }) {
           </div>
         </div>
 
-        <div id="maristana-showcase-panel" role="tabpanel" className="min-w-0">
+        <div className="min-w-0">
           <StudySurface stage={stage} c={c} />
           <div className="mt-4 min-h-[72px] border-s-2 border-primary ps-4">
             <h3 className="text-[15px] font-semibold text-ink">{c.showcase.stages[stage].title}</h3>

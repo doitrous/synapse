@@ -3,7 +3,7 @@ import { Building2, Users, Plug, Flag, IdCard } from 'lucide-react'
 import { institution, roles, integrations, featureFlags } from '@/data/admin'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Field, TextInput } from '@/components/ui/Field'
@@ -15,6 +15,8 @@ import {
 } from '@/data/studentDiscount'
 
 export function Settings() {
+  const [profile, setProfile] = useState(institution)
+  const [notice, setNotice] = useState('')
   const [studentId, setStudentId] = usePersistentState<StudentIdDiscount>(STUDENT_ID_DISCOUNT_STORAGE_KEY, DEFAULT_STUDENT_ID_DISCOUNT)
   const [connected, setConnected] = useState<Set<string>>(
     () => new Set(integrations.filter((i) => i.connected).map((i) => i.name)),
@@ -41,23 +43,30 @@ export function Settings() {
     <PageContainer>
       <PageHeader title="Settings" description="Institution profile, roles, integrations, and feature flags." />
 
+      {notice && (
+        <div role="status" className="mb-4 flex items-center gap-2 rounded-lg border border-success/25 bg-success-tint px-4 py-2.5 text-[13px] text-ink">
+          <span className="flex-1">{notice}</span>
+          <button type="button" onClick={() => setNotice('')} className="text-[12px] font-medium text-ink-3 hover:text-ink">Dismiss</button>
+        </div>
+      )}
+
       <Panel className="mb-4">
         <PanelHeader title="Institution" icon={Building2} />
         <div className="grid gap-4 p-5 sm:grid-cols-2">
           <Field label="Institution name">
-            <TextInput defaultValue={institution.name} />
+            <TextInput value={profile.name} onChange={(event) => setProfile((current) => ({ ...current, name: event.target.value }))} />
           </Field>
           <Field label="Primary domain">
-            <TextInput defaultValue={institution.domain} />
+            <TextInput value={profile.domain} onChange={(event) => setProfile((current) => ({ ...current, domain: event.target.value }))} />
           </Field>
           <Field label="Region">
-            <TextInput defaultValue={institution.region} />
+            <TextInput value={profile.region} onChange={(event) => setProfile((current) => ({ ...current, region: event.target.value }))} />
           </Field>
           <Field label="Admin contact">
-            <TextInput defaultValue={institution.contact} />
+            <TextInput value={profile.contact} onChange={(event) => setProfile((current) => ({ ...current, contact: event.target.value }))} />
           </Field>
           <div className="sm:col-span-2">
-            <Button variant="primary" size="md">
+            <Button variant="primary" size="md" onClick={() => setNotice('Institution profile saved for this browser session.')}>
               Save changes
             </Button>
           </div>
@@ -105,7 +114,7 @@ export function Settings() {
           <PanelHeader
             title="Roles & permissions"
             icon={Users}
-            action={<Button variant="ghost" size="sm">Add role</Button>}
+            action={<ButtonLink to="/admin/access" variant="ghost" size="sm">Manage access</ButtonLink>}
           />
           <Table>
             <thead>

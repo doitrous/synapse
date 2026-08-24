@@ -4,7 +4,7 @@ import { ArrowLeft, ImagePlus, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { SearchInput, Select } from '@/components/ui/Field'
@@ -20,6 +20,7 @@ import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
 import { MediaPicker } from '@/components/admin/MediaPicker'
 import { isStoredMediaReference } from '@/lib/mediaStorage'
 import type { MediaPlacement } from '@/data/mediaLibrary'
+import { useIdentity } from '@/lib/useIdentity'
 
 interface Row extends MediaRequest {
   ownerId: string
@@ -81,6 +82,7 @@ function rootOf(nodeId: string | undefined): { id: string; title: string } {
  * article or a question is waiting on it.
  */
 export function MediaRequests() {
+  const identity = useIdentity()
   const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   // The backlog shows only what this person may work on. `ledger` stays in
   // scope below for one reason — see `nodeByArticle`.
@@ -220,13 +222,25 @@ export function MediaRequests() {
 
   return (
     <PageContainer>
-      <Link to="/admin/library" className="mb-3 inline-flex items-center gap-1.5 text-[12.5px] text-ink-3 hover:text-ink">
+      <Link to="/admin/library" className="-ms-2 mb-3 inline-flex min-h-11 items-center gap-1.5 rounded-md px-2 text-[12.5px] text-ink-3 hover:bg-surface-2 hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:min-h-9">
         <Icon icon={ArrowLeft} size={14} className="rtl:-scale-x-100" /> Back to Library Setup
       </Link>
       <PageHeader
         title="Media requests"
         description="Images, recordings and clips that an article, question or practical needs but does not yet have. These are editorial instructions for a person — a separate record from student media, never appearing in a published article, its HTML, its search data, or any student API response."
       />
+
+      {identity.role === 'reviewer' && (
+        <Panel className="mb-4 p-4">
+          <p className="text-[13px] font-semibold text-ink">Reviewer workflow</p>
+          <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
+            <li><span className="font-semibold text-ink">1.</span> Start with <span className="font-medium text-ink">Outstanding</span> and required requests.</li>
+            <li><span className="font-semibold text-ink">2.</span> Open the owning item to confirm what the asset must teach.</li>
+            <li><span className="font-semibold text-ink">3.</span> Attach a stored image where the request supports it, or mark the request planned/declined.</li>
+            <li><span className="font-semibold text-ink">4.</span> Return to the owner item and finish its review status.</li>
+          </ol>
+        </Panel>
+      )}
 
       {/* A backlog nobody can see is a backlog nobody works. These images were
           uploaded, confirmed, and reach no student — and until now nothing
@@ -281,24 +295,24 @@ export function MediaRequests() {
       <Panel className="overflow-hidden">
         <PanelHeader title="Backlog" icon={ImagePlus} hint={`${visible.length} shown`} />
         <div className="grid gap-2 border-b border-line p-3 sm:grid-cols-3 lg:grid-cols-5">
-          <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search brief, purpose, owner" className="sm:col-span-3 lg:col-span-1" />
-          <Select value={system} onChange={(event) => setSystem(event.target.value)}>
+          <SearchInput aria-label="Search media requests" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search brief, purpose, owner" className="sm:col-span-3 lg:col-span-1" />
+          <Select aria-label="Filter media requests by system" value={system} onChange={(event) => setSystem(event.target.value)}>
             <option value="all">All systems</option>
             {systems.map(([id, title]) => <option key={id} value={id}>{title}</option>)}
           </Select>
-          <Select value={owner} onChange={(event) => setOwner(event.target.value)}>
+          <Select aria-label="Filter media requests by content type" value={owner} onChange={(event) => setOwner(event.target.value)}>
             <option value="all">Any content type</option>
             {Object.entries(OWNER_LABEL).map(([value, label]) => <option key={value} value={value}>{label}</option>)}
           </Select>
-          <Select value={medium} onChange={(event) => setMedium(event.target.value)}>
+          <Select aria-label="Filter media requests by medium" value={medium} onChange={(event) => setMedium(event.target.value)}>
             <option value="all">Any medium</option>
             {MEDIA_REQUEST_MEDIA.map((value) => <option key={value} value={value}>{value}</option>)}
           </Select>
-          <Select value={priority} onChange={(event) => setPriority(event.target.value)}>
+          <Select aria-label="Filter media requests by priority" value={priority} onChange={(event) => setPriority(event.target.value)}>
             <option value="all">Any priority</option>
             {MEDIA_REQUEST_PRIORITIES.map((value) => <option key={value} value={value}>{value}</option>)}
           </Select>
-          <Select value={status} onChange={(event) => setStatus(event.target.value)}>
+          <Select aria-label="Filter media requests by status" value={status} onChange={(event) => setStatus(event.target.value)}>
             <option value="needed,planned">Outstanding</option>
             <option value="all">Any status</option>
             {MEDIA_REQUEST_STATUSES.map((value) => <option key={value} value={value}>{value}</option>)}
@@ -344,7 +358,7 @@ export function MediaRequests() {
               <p className="mt-0.5 text-[12px] leading-relaxed text-ink-2">
                 A `required` request means the item cannot be understood without it — a question whose diagram is missing has nothing to read, and an article missing its plate cannot carry the relationship it describes. Publishing before the asset exists ships something a student cannot use.
               </p>
-              <Link to="/admin/library" className="mt-2 inline-block"><Button variant="secondary" size="sm">Open Library Setup</Button></Link>
+              <ButtonLink to="/admin/library" variant="secondary" size="sm" className="mt-2">Open Library Setup</ButtonLink>
             </div>
           </div>
         </Panel>

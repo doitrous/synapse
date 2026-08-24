@@ -129,20 +129,20 @@ export function Signup() {
           Email
           <span className="h-px flex-1 bg-line" />
         </div>
-        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
-        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" /></Field>
+        <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" name="name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
+        <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" name="email" type="email" autoComplete="email" spellCheck={false} required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu…" /></Field>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label="Phone number" htmlFor="signup-phone" hint="One account per number">
-            <TextInput id="signup-phone" type="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567" />
+            <TextInput id="signup-phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" required value={phone} onChange={(event) => setPhone(event.target.value)} placeholder="0100 123 4567…" />
           </Field>
           <Field label="Nationality" htmlFor="signup-nationality" hint="Optional">
-            <TextInput id="signup-nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian" />
+            <TextInput id="signup-nationality" name="nationality" autoComplete="country-name" value={nationality} onChange={(event) => setNationality(event.target.value)} placeholder="Egyptian…" />
           </Field>
         </div>
         <Field label="Password" htmlFor="signup-password" hint={`${MIN_PASSWORD} characters or more`}>
-          <div className="relative"><TextInput id="signup-password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
+          <div className="relative"><TextInput id="signup-password" name="password" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required minLength={MIN_PASSWORD} value={password} onChange={(event) => setPassword(event.target.value)} className="pe-12" /><button type="button" className="absolute end-1 top-1 grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset hover:text-ink" onClick={() => setShowPassword((visible) => !visible)} aria-label={showPassword ? 'Hide password' : 'Show password'}><Icon icon={showPassword ? EyeOff : Eye} size={16} /></button></div>
         </Field>
-        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} /></Field>
+        <Field label="Confirm password" htmlFor="signup-confirm"><TextInput id="signup-confirm" name="password-confirmation" type={showPassword ? 'text' : 'password'} autoComplete="new-password" required value={confirm} onChange={(event) => setConfirm(event.target.value)} /></Field>
         <div className="rounded-lg border border-line bg-surface-2/55 p-3 text-[11.5px]">
           <p aria-label={`${MIN_PASSWORD} or more characters: ${longEnough ? 'met' : 'not yet met'}`} className={longEnough ? 'flex items-center gap-1.5 font-semibold text-success' : 'flex items-center gap-1.5 font-semibold text-ink-2'}>
             <Icon icon={longEnough ? Check : Circle} size={12} />{MIN_PASSWORD} or more characters

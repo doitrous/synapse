@@ -1,10 +1,9 @@
 import { Fragment, useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
 import { Plus, Trash2, ArrowRight, Upload, FileSpreadsheet, Search, CircleCheck, TriangleAlert, Tag, Pencil, Check, X, ChevronDown, ChevronRight } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { ConceptNavigator } from '@/components/admin/ConceptNavigator'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Icon } from '@/components/ui/Icon'
 import { SubjectDot } from '@/components/ui/Subject'
@@ -261,7 +260,7 @@ export function RelationshipsSetup() {
         actions={
           <div className="flex flex-wrap gap-2">
             <Button variant="secondary" size="md" iconLeft={Upload} onClick={() => { setImporting(true); setReport(null); setImportText('') }}>Paste relationships</Button>
-            <Link to="/admin/relationships/import"><Button variant="secondary" size="md" iconLeft={FileSpreadsheet}>Import a file</Button></Link>
+            <ButtonLink to="/admin/relationships/import" variant="secondary" size="md" iconLeft={FileSpreadsheet}>Import a file</ButtonLink>
           </div>
         }
       />

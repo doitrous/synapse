@@ -44,7 +44,7 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
   return (
     <div style={{ paddingInlineStart: depth === 0 ? 0 : 10 }} className={depth === 0 ? '' : 'border-s border-line-2'}>
       <div className="group/branch flex items-center gap-1.5 rounded-md px-2 py-1.5 hover:bg-inset/50">
-        <button onClick={() => onToggle(node.key)} className="grid size-5 place-items-center text-ink-3 hover:text-ink" aria-expanded={open} aria-label={`${open ? 'Collapse' : 'Expand'} ${node.label}`}>
+        <button type="button" onClick={() => onToggle(node.key)} className="grid size-10 shrink-0 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-7" aria-expanded={open} aria-label={`${open ? 'Collapse' : 'Expand'} ${node.label}`}>
           <Icon icon={ChevronRight} size={14} className={cn('chevron-turn')} open={open} />
         </button>
         {editing && onRename ? (
@@ -58,7 +58,7 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
           <span className={cn('flex-1 truncate font-semibold text-ink', depth === 0 ? 'text-[13px]' : 'text-[12.5px]')}>{node.label}</span>
         )}
         {canRename && !editing && (
-          <button onClick={() => { setValue(node.label); setEditing(true) }} title="Rename" className="grid size-6 place-items-center rounded text-ink-3 opacity-0 hover:bg-inset hover:text-ink group-hover/branch:opacity-100"><Icon icon={Pencil} size={12} /></button>
+          <button type="button" onClick={() => { setValue(node.label); setEditing(true) }} title="Rename" aria-label={`Rename ${node.label}`} className="grid size-10 shrink-0 place-items-center rounded text-ink-3 hover:bg-inset hover:text-ink sm:size-7 sm:opacity-0 sm:group-hover/branch:opacity-100"><Icon icon={Pencil} size={12} /></button>
         )}
         <span className="tnum font-mono text-[10.5px] text-ink-3">{total}</span>
       </div>
@@ -72,8 +72,9 @@ export function ConceptTreeBranch({ node, depth, expanded, onToggle, selectedId,
               {node.concepts.map((concept) => (
                 <li key={concept.id}>
                   <button
+                    type="button"
                     onClick={() => onSelect(concept)}
-                    className={cn('flex w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start transition-colors', selectedId === concept.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
+                    className={cn('flex min-h-10 w-full items-center justify-between gap-2 rounded-md px-2 py-1.5 text-start transition-colors sm:min-h-0', selectedId === concept.id ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink')}
                   >
                     <span className="truncate text-[12.5px] font-medium">{concept.label}</span>
                     {badgeFor ? badgeFor(concept) : (!concept.definition && <Badge tone="warning">No definition</Badge>)}
@@ -227,13 +228,13 @@ export function ConceptNavigator({
       </div>
 
       <div className="space-y-2 border-b border-line p-2.5">
-        <Select value={division} onChange={(event) => setDivision(event.target.value)} className="w-full">
+        <Select aria-label="Filter concepts by division" value={division} onChange={(event) => setDivision(event.target.value)} className="w-full">
           <option value="all">All divisions</option>
           {MEDICAL_TAXONOMY_DIVISIONS.map((entry) => <option key={entry.id} value={entry.id}>{entry.label}</option>)}
           <option value="unplaced">Not yet placed</option>
         </Select>
         <div className="relative">
-          <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search concepts…" className="w-full ps-8" />
+          <SearchInput aria-label="Search concepts" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search concepts…" className="w-full ps-8" />
           <Icon icon={Search} size={14} className="pointer-events-none absolute start-2.5 top-1/2 -translate-y-1/2 text-ink-3" />
         </div>
         {(query || division !== 'all') && (

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import { dueReviewItems, type ReviewItem } from '@/data/reviewQueue'
 import { CONCEPT_STORAGE_KEY, initialConceptGraph, type ConceptGraph } from '@/data/conceptGraph'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Meter } from '@/components/ui/Meter'
 import { Icon } from '@/components/ui/Icon'
@@ -121,7 +121,7 @@ export function DueReviews() {
             icon={Flag}
             title={t('Nothing due')}
             description={t('Answer some questions and the concepts worth revisiting will collect here.')}
-            action={<Link to="/app/qbank"><Button variant="primary" size="sm" iconLeft={Play}>{t('Open the question bank')}</Button></Link>}
+            action={<ButtonLink to="/app/qbank" variant="primary" size="sm" iconLeft={Play}>{t('Open the question bank')}</ButtonLink>}
           />
         </div>
       ) : (
@@ -145,9 +145,7 @@ export function DueReviews() {
             <span className="text-[12.5px] text-ink-2">
               <span className="tnum font-mono font-medium text-ink">{items.length}</span> {items.length === 1 ? t('concept') : t('concepts')}
             </span>
-            <Link to={`/app/qbank?concepts=${encodeURIComponent(batch)}`}>
-              <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
-            </Link>
+            <ButtonLink to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</ButtonLink>
           </div>
         </>
       )}
@@ -180,9 +178,7 @@ export function DueReviews() {
               <span className="text-[12.5px] text-ink-2">
                 <span className="tnum font-mono font-medium text-ink">{items.length}</span> {items.length === 1 ? t('concept') : t('concepts')}
               </span>
-              <Link to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} onClick={() => setShowAll(false)}>
-                <Button variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</Button>
-              </Link>
+              <ButtonLink to={`/app/qbank?concepts=${encodeURIComponent(batch)}`} onClick={() => setShowAll(false)} variant="primary" size="sm" iconLeft={Play}>{t('Start review')}</ButtonLink>
             </div>
           </Panel>
         </div>

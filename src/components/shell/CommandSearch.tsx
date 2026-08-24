@@ -23,19 +23,20 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
   // which would offer a reviewer the payments page and take them to a redirect.
   // Offering a page somebody cannot open is the same bug as linking to it.
   const { tabs } = useIdentity()
-  const COMMANDS = useMemo<Cmd[]>(() => [
+  const commands = useMemo<Cmd[]>(() => [
     ...STUDENT_COMMANDS,
     ...adminNavFor(tabs).flatMap((g) => g.items.map((i) => ({ ...i, group: 'Admin console' }))),
   ], [tabs])
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
+  const panelRef = useRef<HTMLDivElement>(null)
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase()
-    if (!q) return COMMANDS
-    return COMMANDS.filter((c) => c.label.toLowerCase().includes(q))
-  }, [query])
+    if (!q) return commands
+    return commands.filter((c) => c.label.toLowerCase().includes(q))
+  }, [commands, query])
 
   useEffect(() => {
     if (open) {
@@ -48,6 +49,26 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
   }, [open])
 
   useEffect(() => setActive(0), [query])
+
+  useEffect(() => {
+    if (!open) return
+    function trap(event: globalThis.KeyboardEvent) {
+      if (event.key !== 'Tab' || !panelRef.current) return
+      const items = Array.from(panelRef.current.querySelectorAll<HTMLElement>('input, button:not([disabled]), a[href]'))
+      if (!items.length) return
+      const first = items[0]
+      const last = items[items.length - 1]
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    }
+    document.addEventListener('keydown', trap, true)
+    return () => document.removeEventListener('keydown', trap, true)
+  }, [open])
 
   if (!open) return null
 
@@ -78,13 +99,18 @@ export function CommandSearch({ open, onClose }: { open: boolean; onClose: () =>
       <button type="button" aria-label="Close search" className="absolute inset-0 size-full cursor-default bg-ink/25 animate-fade" onClick={onClose} />
       <div className="absolute left-1/2 top-[calc(env(safe-area-inset-top)+0.75rem)] w-[min(94vw,560px)] -translate-x-1/2 sm:top-[12vh] sm:w-[min(92vw,560px)]">
         <div
+          ref={panelRef}
           className="animate-pop overflow-hidden rounded-xl border border-line bg-surface shadow-pop"
           onKeyDown={onKeyDown}
         >
-          <div className="flex items-center gap-2.5 border-b border-line px-4">
+          <div className="flex items-center gap-2.5 border-b border-line px-4 focus-within:ring-2 focus-within:ring-primary">
             <Icon icon={Search} size={17} className="text-ink-3" />
             <input
               ref={inputRef}
+              aria-label="Search Maristana"
+              name="command-search"
+              autoComplete="off"
+              spellCheck={false}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Search topics, questions, resources, admin…"

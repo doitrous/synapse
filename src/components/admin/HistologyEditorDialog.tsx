@@ -376,7 +376,7 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                         <span className="text-[13px] font-semibold tabular-nums text-ink">{objective}×</span>
                         {view ? <Badge tone="success">Image</Badge> : <span className="text-[11.5px] text-ink-3">Empty</span>}
                         {view && (
-                          <button type="button" onClick={() => removeView(objective)} className="ms-auto grid size-7 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Remove the ${objective}× image`}>
+                          <button type="button" onClick={() => removeView(objective)} className="ms-auto grid size-10 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-7" aria-label={`Remove the ${objective}× image`}>
                             <Icon icon={Trash2} size={14} />
                           </button>
                         )}
@@ -443,13 +443,13 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                             type="button"
                             onClick={() => setSelectedStructureId(structure.id)}
                             aria-pressed={selected}
-                            className={cn('grid size-7 shrink-0 place-items-center rounded-full border', selected ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-3 hover:border-primary-line hover:text-primary-strong')}
+                            className={cn('grid size-10 shrink-0 place-items-center rounded-full border sm:size-7', selected ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-3 hover:border-primary-line hover:text-primary-strong')}
                             aria-label={`Pin ${structure.label || 'this structure'}`}
                           >
                             <Icon icon={MapPin} size={13} />
                           </button>
                           <TextInput aria-label="Structure label" className="min-w-0 flex-1" value={structure.label} onChange={(event) => setStructure(structure.id, { label: event.target.value })} placeholder="Goblet cell" />
-                          <button type="button" onClick={() => removeStructure(structure.id)} className="grid size-9 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger" aria-label={`Delete ${structure.label || 'this structure'}`}>
+                          <button type="button" onClick={() => removeStructure(structure.id)} className="grid size-10 shrink-0 place-items-center rounded text-ink-3 hover:bg-danger-tint hover:text-danger sm:size-9" aria-label={`Delete ${structure.label || 'this structure'}`}>
                             <Icon icon={Trash2} size={14} />
                           </button>
                         </div>
@@ -462,7 +462,7 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                               key={objective}
                               type="button"
                               onClick={() => clearPin(structure.id, objective)}
-                              className="inline-flex h-6 items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-2 text-[11px] font-semibold tabular-nums text-primary-strong hover:border-danger hover:text-danger"
+                              className="inline-flex min-h-10 items-center gap-1 rounded-full border border-primary-line bg-primary-tint px-2.5 text-[11px] font-semibold tabular-nums text-primary-strong hover:border-danger hover:text-danger sm:min-h-8"
                               aria-label={`Clear the ${objective}× pin for ${structure.label || 'this structure'}`}
                             >
                               {objective}×

@@ -47,7 +47,7 @@ function OtherLanguageOffer({ c, otherHref }: { c: LandingContent; otherHref: st
         <Icon icon={Globe} size={14} className="shrink-0 text-ink-3" />
         <p className="min-w-0 flex-1 text-ink-2">{c.otherOffer.line}</p>
         <Link to={otherHref} className="font-semibold text-primary-strong hover:underline">{c.otherOffer.accept}</Link>
-        <button type="button" onClick={() => setDismissed(true)} className="grid size-6 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label={c.otherOffer.dismiss}>
+        <button type="button" onClick={() => setDismissed(true)} className="grid size-11 shrink-0 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary sm:size-6" aria-label={c.otherOffer.dismiss}>
           <Icon icon={X} size={13} />
         </button>
       </div>

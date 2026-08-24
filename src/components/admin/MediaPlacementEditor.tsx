@@ -98,7 +98,7 @@ export function MediaPlacementEditor({ placements, onChange, previewQuestion }: 
               <button
                 type="button"
                 aria-label={`Remove ${record?.title ?? 'this image'}`}
-                className="grid size-8 place-items-center rounded text-ink-3 hover:bg-inset hover:text-danger"
+                className="grid size-10 place-items-center rounded text-ink-3 hover:bg-inset hover:text-danger sm:size-8"
                 onClick={() => onChange(placements.filter((candidate) => candidate.id !== placement.id))}
               >
                 <Icon icon={Trash2} size={14} />

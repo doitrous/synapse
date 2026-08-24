@@ -50,7 +50,7 @@ function CalendarPreview({ ar }: { ar: boolean }) {
   return <div>
     <div className="flex items-center justify-between"><h5 className="font-serif text-[21px] font-semibold text-ink">{ar ? 'الاثنين ٢١ أكتوبر' : 'Monday, 21 October'}</h5><Icon icon={CalendarDays} size={18} className="text-primary" /></div>
     <div className="mt-5 border-t border-line">{rows.map(([time, title, owner], index) => <div key={time} className="grid grid-cols-[64px_1fr_auto] items-center gap-3 border-b border-line py-3.5"><span className="font-mono text-[11px] text-ink-3">{time}</span><span className="text-[13px] font-semibold text-ink">{title}</span><span className={cn('rounded-md px-2 py-1 text-[9.5px] font-semibold', index === 2 ? 'bg-primary-tint text-primary-strong' : 'bg-accent-tint text-accent-strong')}>{owner}</span></div>)}</div>
-    <button type="button" className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-lg border border-dashed border-line-2 px-3 text-[11.5px] font-semibold text-ink-2"><Clock3 size={14} />{ar ? 'أضف وقت مذاكرة' : 'Add study block'}</button>
+    <span aria-hidden="true" className="mt-4 inline-flex min-h-11 items-center gap-2 rounded-lg border border-dashed border-line-2 px-3 text-[11.5px] font-semibold text-ink-2"><Clock3 size={14} />{ar ? 'أضف وقت مذاكرة' : 'Add study block'}</span>
   </div>
 }
 
@@ -81,7 +81,7 @@ function MicroscopePreview({ ar }: { ar: boolean }) {
       <div className="absolute inset-0 grid place-items-center"><span className="size-16 rounded-full border border-on-primary/60" /></div>
     </div>
     <div className="flex flex-row justify-between gap-2 sm:flex-col sm:justify-start">
-      {['4×', '10×', '40×'].map((zoom, i) => <button key={zoom} type="button" className={cn('grid min-h-11 flex-1 place-items-center rounded-lg border font-mono text-[11px] sm:flex-none', i === 1 ? 'border-primary bg-primary text-on-primary' : 'border-line-2 bg-surface-2 text-ink-2')}>{zoom}</button>)}
+      {['4×', '10×', '40×'].map((zoom, i) => <span key={zoom} aria-hidden="true" className={cn('grid min-h-11 flex-1 place-items-center rounded-lg border font-mono text-[11px] sm:flex-none', i === 1 ? 'border-primary bg-primary text-on-primary' : 'border-line-2 bg-surface-2 text-ink-2')}>{zoom}</span>)}
     </div>
     <div className="sm:col-span-2"><p className="text-[11px] font-semibold text-ink">{ar ? 'نسيج كبد · صبغة H&E' : 'Liver tissue · H&E stain'}</p><p className="mt-1 text-[10.5px] text-ink-3">{ar ? 'حرّك الشريحة، كبّر، ثم ثبّت العلامة' : 'Pan, zoom, then pin the finding'}</p></div>
   </div>
@@ -103,7 +103,7 @@ function RankingPreview({ ar }: { ar: boolean }) {
 }
 
 function ReaderPreview({ ar }: { ar: boolean }) {
-  return <div className="grid gap-4 sm:grid-cols-[48px_1fr]"><div className="flex gap-2 sm:flex-col">{[Highlighter, PenLine, FileText, Search].map((Tool, i) => <button key={i} type="button" className={cn('grid size-10 place-items-center rounded-lg border', i === 0 ? 'border-primary bg-primary text-on-primary' : 'border-line bg-surface-2 text-ink-2')}><Tool size={15} /></button>)}</div><div className="min-h-56 rounded-md border border-line bg-paper p-5 shadow-panel"><div className="h-2 w-2/3 rounded bg-ink/80" /><div className="mt-4 space-y-2">{[92, 78, 88, 64, 85].map((w, i) => <div key={i} className={cn('h-1.5 rounded', i === 2 ? 'bg-primary-soft/55' : 'bg-line-2')} style={{ width: `${w}%` }} />)}</div><div className="mt-6 border-s-2 border-primary bg-primary-tint px-3 py-2 text-[10.5px] text-ink-2">{ar ? 'ملاحظة: اربط الوذمة بالاحتقان الوريدي' : 'Note: connect oedema to venous congestion'}</div><p className="mt-5 font-mono text-[9.5px] text-ink-3">{ar ? 'تزامن الآن · صفحة ١٤' : 'Synced now · page 14'}</p></div></div>
+  return <div className="grid gap-4 sm:grid-cols-[48px_1fr]"><div className="flex gap-2 sm:flex-col" aria-hidden="true">{[Highlighter, PenLine, FileText, Search].map((Tool, i) => <span key={i} className={cn('grid size-10 place-items-center rounded-lg border', i === 0 ? 'border-primary bg-primary text-on-primary' : 'border-line bg-surface-2 text-ink-2')}><Tool size={15} /></span>)}</div><div className="min-h-56 rounded-md border border-line bg-paper p-5 shadow-panel"><div className="h-2 w-2/3 rounded bg-ink/80" /><div className="mt-4 space-y-2">{[92, 78, 88, 64, 85].map((w, i) => <div key={i} className={cn('h-1.5 rounded', i === 2 ? 'bg-primary-soft/55' : 'bg-line-2')} style={{ width: `${w}%` }} />)}</div><div className="mt-6 border-s-2 border-primary bg-primary-tint px-3 py-2 text-[10.5px] text-ink-2">{ar ? 'ملاحظة: اربط الوذمة بالاحتقان الوريدي' : 'Note: connect oedema to venous congestion'}</div><p className="mt-5 font-mono text-[9.5px] text-ink-3">{ar ? 'تزامن الآن · صفحة ١٤' : 'Synced now · page 14'}</p></div></div>
 }
 
 function NotesPreview({ ar }: { ar: boolean }) {
@@ -121,7 +121,7 @@ function TimerPreview({ ar }: { ar: boolean }) {
 
 function PeoplePreview({ ar }: { ar: boolean }) {
   const people = [['MA', ar ? 'مريم أحمد' : 'Mariam Ahmed'], ['OK', ar ? 'عمر كريم' : 'Omar Karim'], ['LN', ar ? 'ليلى نبيل' : 'Laila Nabil']]
-  return <div><div className="flex items-center gap-2 rounded-lg border border-line bg-surface-2 px-3 py-2.5"><Search size={14} className="text-ink-3" /><span className="text-[11px] text-ink-3">{ar ? 'نفس الجامعة · السنة الثانية' : 'Same university · Year 2'}</span></div><div className="mt-4 space-y-2">{people.map(([initials, name], i) => <div key={initials} className="flex items-center gap-3 border-b border-line py-2.5"><span className="grid size-9 place-items-center rounded-full bg-accent-tint font-mono text-[10px] font-semibold text-accent-strong">{initials}</span><div className="min-w-0 flex-1"><p className="truncate text-[12px] font-semibold text-ink">{name}</p><p className="text-[9.5px] text-ink-3">{ar ? 'قلب وأوعية هذا الأسبوع' : 'Cardiovascular this week'}</p></div><button type="button" className={cn('min-h-10 rounded-lg px-3 text-[10px] font-semibold', i === 0 ? 'bg-primary text-on-primary' : 'border border-line text-ink-2')}>{i === 0 ? (ar ? 'متصل' : 'Added') : (ar ? 'أضف' : 'Add')}</button></div>)}</div></div>
+  return <div><div className="flex items-center gap-2 rounded-lg border border-line bg-surface-2 px-3 py-2.5"><Search size={14} className="text-ink-3" /><span className="text-[11px] text-ink-3">{ar ? 'نفس الجامعة · السنة الثانية' : 'Same university · Year 2'}</span></div><div className="mt-4 space-y-2">{people.map(([initials, name], i) => <div key={initials} className="flex items-center gap-3 border-b border-line py-2.5"><span className="grid size-9 place-items-center rounded-full bg-accent-tint font-mono text-[10px] font-semibold text-accent-strong">{initials}</span><div className="min-w-0 flex-1"><p className="truncate text-[12px] font-semibold text-ink">{name}</p><p className="text-[9.5px] text-ink-3">{ar ? 'قلب وأوعية هذا الأسبوع' : 'Cardiovascular this week'}</p></div><span aria-hidden="true" className={cn('inline-flex min-h-10 items-center rounded-lg px-3 text-[10px] font-semibold', i === 0 ? 'bg-primary text-on-primary' : 'border border-line text-ink-2')}>{i === 0 ? (ar ? 'متصل' : 'Added') : (ar ? 'أضف' : 'Add')}</span></div>)}</div></div>
 }
 
 function RoomPreview({ ar }: { ar: boolean }) {
@@ -140,16 +140,16 @@ function DesktopSuites({ c }: { c: MaristanaLandingCopy }) {
   const item = suite.items[Math.min(itemIndex, suite.items.length - 1)]
   return <div className="hidden lg:grid lg:grid-cols-[0.42fr_1fr] lg:gap-10">
     <div>
-      <div role="tablist" aria-label={c.suites.title} className="border-t border-line">
-        {c.featureSuites.map((candidate, index) => <button key={candidate.id} type="button" role="tab" aria-selected={index === suiteIndex} onClick={() => { setSuiteIndex(index); setItemIndex(0) }} className={cn('flex min-h-16 w-full items-center justify-between gap-4 border-b border-line py-3 text-start text-[13px] font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary', index === suiteIndex ? 'text-primary-strong' : 'text-ink-2 hover:text-ink')}><span>{candidate.label}</span><span className="font-mono text-[10px] text-ink-3">0{index + 1}</span></button>)}
+      <div aria-label={c.suites.title} className="border-t border-line">
+        {c.featureSuites.map((candidate, index) => <button key={candidate.id} type="button" aria-pressed={index === suiteIndex} onClick={() => { setSuiteIndex(index); setItemIndex(0) }} className={cn('flex min-h-16 w-full items-center justify-between gap-4 border-b border-line py-3 text-start text-[13px] font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary', index === suiteIndex ? 'text-primary-strong' : 'text-ink-2 hover:text-ink')}><span>{candidate.label}</span><span className="font-mono text-[10px] text-ink-3">0{index + 1}</span></button>)}
       </div>
       <p className="mt-5 text-[12.5px] leading-relaxed text-ink-2">{suite.intro}</p>
     </div>
     <div>
-      <div role="tablist" aria-label={c.suites.itemsLabel} className="mb-4 flex flex-wrap gap-2">
-        {suite.items.map((candidate, index) => <button key={candidate.id} type="button" role="tab" aria-selected={index === itemIndex} onClick={() => setItemIndex(index)} className={cn('min-h-10 rounded-lg border px-3 py-2 text-[11.5px] font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary', index === itemIndex ? 'border-primary bg-primary text-on-primary' : 'border-line-2 bg-surface text-ink-2 hover:bg-surface-2')}>{candidate.label}</button>)}
+      <div aria-label={c.suites.itemsLabel} className="mb-4 flex flex-wrap gap-2">
+        {suite.items.map((candidate, index) => <button key={candidate.id} type="button" aria-pressed={index === itemIndex} onClick={() => setItemIndex(index)} className={cn('min-h-10 rounded-lg border px-3 py-2 text-[11.5px] font-semibold transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary', index === itemIndex ? 'border-primary bg-primary text-on-primary' : 'border-line-2 bg-surface text-ink-2 hover:bg-surface-2')}>{candidate.label}</button>)}
       </div>
-      <div role="tabpanel"><PreviewFrame item={item} c={c} /></div>
+      <PreviewFrame item={item} c={c} />
     </div>
   </div>
 }
@@ -164,7 +164,7 @@ function MobileSuites({ c }: { c: MaristanaLandingCopy }) {
     const regionId = `feature-suite-${suite.id}`
     return <div key={suite.id} className="overflow-hidden rounded-xl border border-line bg-surface">
       <button type="button" aria-expanded={expanded} aria-controls={regionId} onClick={() => setOpen(expanded ? -1 : suiteIndex)} className="flex min-h-14 w-full items-center justify-between gap-4 px-4 py-3 text-start focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-primary"><span><span className="block text-[13px] font-semibold text-ink">{suite.label}</span><span className="mt-0.5 block text-[10.5px] text-ink-3">{suite.intro}</span></span><Icon icon={ChevronDown} size={16} className={cn('shrink-0 text-ink-3 transition-transform', expanded && 'rotate-180')} /></button>
-      {expanded && <div id={regionId} className="border-t border-line p-3 sm:p-4"><div className="mb-3 flex gap-2 overflow-x-auto pb-1" aria-label={c.suites.itemsLabel}>{suite.items.map((candidate, index) => <button key={candidate.id} type="button" onClick={() => setItems((current) => ({ ...current, [suiteIndex]: index }))} className={cn('min-h-11 shrink-0 rounded-lg border px-3 text-[11px] font-semibold', index === itemIndex ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-2')}>{candidate.label}</button>)}</div><PreviewFrame item={item} c={c} /></div>}
+      {expanded && <div id={regionId} className="border-t border-line p-3 sm:p-4"><div className="mb-3 flex gap-2 overflow-x-auto pb-1" aria-label={c.suites.itemsLabel}>{suite.items.map((candidate, index) => <button key={candidate.id} type="button" aria-pressed={index === itemIndex} onClick={() => setItems((current) => ({ ...current, [suiteIndex]: index }))} className={cn('min-h-11 shrink-0 rounded-lg border px-3 text-[11px] font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary', index === itemIndex ? 'border-primary bg-primary text-on-primary' : 'border-line-2 text-ink-2 hover:bg-surface-2')}>{candidate.label}</button>)}</div><PreviewFrame item={item} c={c} /></div>}
     </div>
   })}</div>
 }

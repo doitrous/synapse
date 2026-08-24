@@ -130,7 +130,7 @@ export function MfaSetup() {
           )}
           {!loading && enrollment && (
             <div className="mt-6 grid gap-5 sm:grid-cols-[9rem_minmax(0,1fr)]">
-              {enrollment.qrCode ? <img src={qrSource(enrollment.qrCode)} alt="Authenticator QR code" className="size-36 rounded-lg border border-line bg-white p-2" /> : <div className="grid size-36 place-items-center rounded-lg border border-success/30 bg-success-tint text-center text-[12px] font-semibold text-success">Factor enrolled<br />Enter a fresh code</div>}
+              {enrollment.qrCode ? <img src={qrSource(enrollment.qrCode)} alt="Authenticator QR code" width={144} height={144} className="size-36 rounded-lg border border-line bg-white p-2" /> : <div className="grid size-36 place-items-center rounded-lg border border-success/30 bg-success-tint text-center text-[12px] font-semibold text-success">Factor enrolled<br />Enter a fresh code</div>}
               <div className="space-y-4">
                 {enrollment.secret && (
                   <div>
@@ -142,7 +142,7 @@ export function MfaSetup() {
                     {enrollment.uri && <a href={enrollment.uri} className="mt-1.5 inline-block text-[12px] font-semibold text-primary-strong hover:text-primary">Open in my authenticator app</a>}
                   </div>
                 )}
-                <Field label="Six-digit verification code" htmlFor="mfa-code"><TextInput id="mfa-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} placeholder="000000" className="font-mono tracking-[0.25em]" /></Field>
+                <Field label="Six-digit verification code" htmlFor="mfa-code"><TextInput id="mfa-code" name="one-time-code" inputMode="numeric" autoComplete="one-time-code" pattern="[0-9]{6}" maxLength={6} value={code} onChange={(event) => setCode(event.target.value.replace(/\D/g, '').slice(0, 6))} placeholder="000000…" className="font-mono tracking-[0.25em]" /></Field>
                 <div className="flex flex-wrap items-center gap-3">
                   <Button type="submit" variant="primary" iconLeft={ShieldCheck} loading={verifying} disabled={code.length !== 6}>Verify authenticator</Button>
                   <button type="button" onClick={() => navigate(next)} className="inline-flex min-h-11 items-center rounded-lg px-3 text-[13px] font-semibold text-ink-2 transition-colors hover:bg-inset hover:text-ink">

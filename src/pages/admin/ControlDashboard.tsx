@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
 import { ImagePlus,
   BookOpenText,
   CircleCheck,
@@ -39,7 +39,7 @@ import {
 import { getSubject, subjects } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonLink } from '@/components/ui/Button'
 import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { StatusBadge } from '@/components/ui/StatusBadge'
@@ -224,7 +224,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
    * content they were never shown.
    */
   const items = useScopedItems(ledger)
-  const { contentScope } = useIdentity()
+  const identity = useIdentity()
+  const { contentScope } = identity
   const [conceptGraph, setConceptGraph] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
   const [taxonomy, setTaxonomy] = useTaxonomyTree()
   const [catalogue] = useUniversityCatalogue()
@@ -509,7 +510,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       <PageHeader
         title={lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
         description={lockedKind ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.` : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
-        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <Link to="/admin/library/coverage"><Button variant="secondary" size="md" iconLeft={Database}>Evidence review</Button></Link>}{activeKind !== 'resource' && <Link to="/admin/library/media"><Button variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</Button></Link>}<Link to={`/admin/import/${activeKind}`}><Button variant="secondary" size="md" iconLeft={Upload}>Bulk import</Button></Link><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
+        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <ButtonLink to="/admin/library/coverage" variant="secondary" size="md" iconLeft={Database}>Evidence review</ButtonLink>}{activeKind !== 'resource' && <ButtonLink to="/admin/library/media" variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</ButtonLink>}<ButtonLink to={`/admin/import/${activeKind}`} variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
       />
 
       {notice && (
@@ -518,6 +519,18 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           <span className="flex-1">{notice.text}</span>
           <button type="button" onClick={() => setNotice(null)} className="text-[12px] font-medium text-ink-3 hover:text-ink">Dismiss</button>
         </div>
+      )}
+
+      {identity.role === 'reviewer' && (
+        <Panel className="mb-4 p-4">
+          <p className="text-[13px] font-semibold text-ink">Reviewer workflow</p>
+          <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
+            <li><span className="font-semibold text-ink">1.</span> Filter to <span className="font-medium text-ink">In review</span> or search the assigned item.</li>
+            <li><span className="font-semibold text-ink">2.</span> Open the item and check the source, media, answer key, and student-visible explanation.</li>
+            <li><span className="font-semibold text-ink">3.</span> Save corrections, then use the row actions or selected-row bar to move the status forward.</li>
+            <li><span className="font-semibold text-ink">4.</span> If an item is outside your module scope, ask an editor to widen reviewer scope rather than duplicating it.</li>
+          </ol>
+        </Panel>
       )}
 
       <div className="mb-4 grid grid-cols-2 gap-3 lg:grid-cols-4">
@@ -592,8 +605,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
           )}
 
           <div className="flex flex-wrap items-center gap-2 border-b border-line bg-surface-2/45 px-4 py-3">
-            <SearchInput value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-72" />
-            <Select value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-40">
+            <SearchInput aria-label={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}`} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={`Search ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()}…`} className="w-full sm:w-72" />
+            <Select aria-label="Filter by workflow status" value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-full sm:w-40">
               {STATUSES.map((option) => <option key={option}>{option}</option>)}
             </Select>
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
@@ -662,6 +675,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                     checked={allPageSelected}
                     indeterminate={somePageSelected && !allPageSelected}
                     onChange={(on) => setSelection(pageRows.map((item) => item.id), on)}
+                    className="size-11 sm:size-8"
                   />
                 </Th>
                 <Th>Content</Th>
@@ -678,27 +692,35 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                   <Fragment key={group.key}>
                     <tr className="border-t border-line bg-surface-2/70">
                       <td colSpan={6} className="px-2 py-0">
-                        <button
-                          type="button"
-                          onClick={() => toggleGroup(group.key)}
-                          aria-expanded={!groupCollapsed}
-                          className="flex w-full items-center gap-2 px-2 py-2 text-start"
-                        >
-                          <Icon icon={ChevronRight} size={15} className={cn('text-ink-3 chevron-turn')} open={!groupCollapsed} />
-                          {group.color && <SubjectDot id={group.key} />}
-                          {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="text-primary" />}
-                          <span className="text-[13px] font-semibold text-ink">{group.label}</span>
-                          <span className="tnum font-mono text-[11px] text-ink-3">{group.count}</span>
+                        <div className="flex items-center gap-2">
+                          <button
+                            type="button"
+                            onClick={() => toggleGroup(group.key)}
+                            aria-expanded={!groupCollapsed}
+                            className="flex min-h-10 min-w-0 flex-1 items-center gap-2 px-2 py-2 text-start"
+                          >
+                            <Icon icon={ChevronRight} size={15} className={cn('shrink-0 text-ink-3 chevron-turn')} open={!groupCollapsed} />
+                            {group.color && <SubjectDot id={group.key} />}
+                            {group.icon && <Icon icon={group.icon === 'video' ? PlayCircle : FileText} size={15} className="shrink-0 text-primary" />}
+                            <span className="min-w-0 truncate text-[13px] font-semibold text-ink">{group.label}</span>
+                            <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{group.count}</span>
+                          </button>
                           {isTaxonomyKind && group.color && (
-                            <span role="button" tabIndex={0} onClick={(e) => { e.stopPropagation(); setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }} className="ms-auto inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-primary-strong"><Icon icon={Plus} size={12} />Add topic</span>
+                            <button
+                              type="button"
+                              onClick={() => { setAddingTopicFor(addingTopicFor === group.key ? null : group.key); setNewTopicName('') }}
+                              className="inline-flex min-h-11 shrink-0 items-center gap-1 rounded px-2 text-[11px] font-medium text-ink-3 hover:bg-inset hover:text-primary-strong sm:min-h-9"
+                            >
+                              <Icon icon={Plus} size={12} />Add topic
+                            </button>
                           )}
-                        </button>
+                        </div>
                       </td>
                     </tr>
                     {isTaxonomyKind && addingTopicFor === group.key && (
                       <tr><td colSpan={6} className="px-4 py-2 ps-10">
-                        <form className="flex items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
-                          <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-64" />
+                        <form className="flex flex-wrap items-center gap-2" onSubmit={(e) => { e.preventDefault(); addTopic(group.key) }}>
+                          <SearchInput value={newTopicName} onChange={(e) => setNewTopicName(e.target.value)} placeholder="New topic name…" className="w-full sm:w-64" />
                           <Button type="submit" variant="primary" size="sm">Add</Button>
                           <Button type="button" variant="ghost" size="sm" onClick={() => setAddingTopicFor(null)}>Cancel</Button>
                         </form>
@@ -713,6 +735,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                               checked={sub.items.every((item) => selected.has(item.id))}
                               indeterminate={sub.items.some((item) => selected.has(item.id)) && !sub.items.every((item) => selected.has(item.id))}
                               onChange={(on) => setSelection(sub.items.map((item) => item.id), on)}
+                              className="size-11 sm:size-8"
                             />
                           </td>
                           <td colSpan={5} className="px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
@@ -735,6 +758,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                                   label={`Select “${item.title}”`}
                                   checked={selected.has(item.id)}
                                   onChange={(on) => setSelection([item.id], on)}
+                                  className="size-11 sm:size-8"
                                 />
                               </Td>
                               <Td className="max-w-md">
@@ -831,13 +855,13 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             )}
           </Panel>
 
-          <Panel className="p-4">
+          {identity.tabs.includes('reports') && <Panel className="p-4">
             <div className="flex items-start gap-3">
               <span className="grid size-8 shrink-0 place-items-center rounded-md bg-danger-tint text-danger"><Icon icon={Flag} size={15} /></span>
               <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">Student content reports</p><p className="mt-0.5 text-[11.5px] leading-snug text-ink-3">{reports.filter((report) => report.status === 'Open' || report.status === 'In review').length} reports need editorial attention.</p></div>
             </div>
-            <Link to="/admin/reports" className="mt-3 block"><Button variant="secondary" size="sm" className="w-full">Open report queue</Button></Link>
-          </Panel>
+            <ButtonLink to="/admin/reports" variant="secondary" size="sm" className="mt-3 w-full">Open report queue</ButtonLink>
+          </Panel>}
 
           {!API_MODE && <Panel className="p-4">
             <div className="flex items-center gap-2"><Icon icon={RotateCcw} size={15} className="text-ink-3" /><p className="text-[12.5px] font-medium text-ink">Prototype data</p></div>

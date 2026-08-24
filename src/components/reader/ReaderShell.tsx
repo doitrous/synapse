@@ -450,7 +450,7 @@ export function ReaderShell() {
   return (
     <div className="flex h-[calc(100dvh-3.5rem)] min-h-0 flex-col bg-paper">
       <header className="flex h-12 shrink-0 items-center gap-2 border-b border-line bg-surface px-3 sm:px-4">
-        <button type="button" onClick={() => navigate(-1)} className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink sm:min-h-8">
+        <button type="button" onClick={() => navigate(-1)} className="inline-flex min-h-10 items-center gap-1.5 rounded-md px-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
           <Icon icon={ArrowLeft} size={15} />
           <span className="hidden sm:inline">{t('Back')}</span>
         </button>
@@ -460,30 +460,30 @@ export function ReaderShell() {
         {doc && (
           <>
             <div className="hidden items-center gap-1 md:flex">
-              <button type="button" onClick={() => void goToPage(current - 1)} disabled={current <= 1} className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-inset disabled:opacity-40" aria-label={t('Previous page')}>
+              <button type="button" onClick={() => void goToPage(current - 1)} disabled={current <= 1} className="grid size-10 place-items-center rounded-md text-ink-2 hover:bg-inset disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Previous page')}>
                 <Icon icon={ChevronLeft} size={16} className="rtl:-scale-x-100" />
               </button>
               <span className="tnum font-mono text-[12px] text-ink-2">{current} / {doc.numPages}</span>
-              <button type="button" onClick={() => void goToPage(current + 1)} disabled={current >= doc.numPages} className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-inset disabled:opacity-40" aria-label={t('Next page')}>
+              <button type="button" onClick={() => void goToPage(current + 1)} disabled={current >= doc.numPages} className="grid size-10 place-items-center rounded-md text-ink-2 hover:bg-inset disabled:opacity-40 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Next page')}>
                 <Icon icon={ChevronRight} size={16} className="rtl:-scale-x-100" />
               </button>
             </div>
             <div className="hidden items-center gap-1 lg:flex">
-              <button type="button" onClick={() => zoomStep(-1)} className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-inset" aria-label={t('Zoom out')}>
+              <button type="button" onClick={() => zoomStep(-1)} className="grid size-10 place-items-center rounded-md text-ink-2 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Zoom out')}>
                 <Icon icon={Minus} size={15} />
               </button>
               <span className="tnum w-11 text-center font-mono text-[12px] text-ink-2">{Math.round(scale * 100)}%</span>
-              <button type="button" onClick={() => zoomStep(1)} className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-inset" aria-label={t('Zoom in')}>
+              <button type="button" onClick={() => zoomStep(1)} className="grid size-10 place-items-center rounded-md text-ink-2 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Zoom in')}>
                 <Icon icon={Plus} size={15} />
               </button>
-              <button type="button" onClick={() => applyFit('width')} className="grid size-8 place-items-center rounded-md text-ink-2 hover:bg-inset" aria-label={t('Fit to width')} title={t('Fit to width')}>
+              <button type="button" onClick={() => applyFit('width')} className="grid size-10 place-items-center rounded-md text-ink-2 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Fit to width')} title={t('Fit to width')}>
                 <Icon icon={Maximize} size={15} />
               </button>
             </div>
-            <button type="button" onClick={() => setPanel((p) => (p === 'search' ? 'none' : 'search'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'search' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Search this document')}>
+            <button type="button" onClick={() => setPanel((p) => (p === 'search' ? 'none' : 'search'))} className={cn('grid size-11 place-items-center rounded-md hover:bg-inset sm:size-10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', panel === 'search' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Search this document')}>
               <Icon icon={Search} size={16} />
             </button>
-            <button type="button" onClick={() => setPanel((p) => (p === 'outline' ? 'none' : 'outline'))} className={cn('grid size-9 place-items-center rounded-md hover:bg-inset sm:size-8', panel === 'outline' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Contents')}>
+            <button type="button" onClick={() => setPanel((p) => (p === 'outline' ? 'none' : 'outline'))} className={cn('grid size-11 place-items-center rounded-md hover:bg-inset sm:size-10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', panel === 'outline' ? 'bg-primary-tint text-primary-strong' : 'text-ink-2')} aria-label={t('Contents')}>
               <Icon icon={List} size={16} />
             </button>
           </>
@@ -660,12 +660,12 @@ export function ReaderShell() {
                     const title = window.prompt(t('Name this section'), `${t('Page')} ${current}`)
                     if (title?.trim()) annotations.addMarker(title.trim(), current)
                   }}
-                  className="inline-flex items-center gap-1 rounded-md px-1.5 py-1 text-[11.5px] font-medium text-primary-strong hover:bg-inset"
+                  className="inline-flex min-h-9 items-center gap-1 rounded-md px-2 text-[11.5px] font-medium text-primary-strong hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                 >
                   <Icon icon={Plus} size={13} />{t('Section here')}
                 </button>
               )}
-              <button type="button" onClick={() => setPanel('none')} className="grid size-8 place-items-center rounded-md text-ink-3 hover:bg-inset" aria-label={t('Close')}>
+              <button type="button" onClick={() => setPanel('none')} className="grid size-10 place-items-center rounded-md text-ink-3 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Close')}>
                 <Icon icon={X} size={15} />
               </button>
             </div>
@@ -681,7 +681,7 @@ export function ReaderShell() {
                           key={marker.id}
                           type="button"
                           onClick={() => void goToPage(marker.page)}
-                          className="flex w-full items-center gap-2 rounded-md px-2 py-2 text-start text-[12.5px] text-ink-2 hover:bg-inset hover:text-ink"
+                            className="flex min-h-10 w-full items-center gap-2 rounded-md px-2 py-2 text-start text-[12.5px] text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                         >
                           <span className="h-3.5 w-0.5 shrink-0 rounded-full bg-primary" aria-hidden />
                           <span className="min-w-0 flex-1 truncate">{marker.title}</span>
@@ -697,7 +697,7 @@ export function ReaderShell() {
                         disabled={entry.page == null}
                         onClick={() => entry.page && void goToPage(entry.page)}
                         style={{ paddingInlineStart: `${0.5 + entry.depth * 0.85}rem` }}
-                        className="flex w-full items-center gap-2 rounded-md py-2 pe-2 text-start text-[12.5px] text-ink-2 hover:bg-inset hover:text-ink disabled:text-ink-3"
+                        className="flex min-h-10 w-full items-center gap-2 rounded-md py-2 pe-2 text-start text-[12.5px] text-ink-2 hover:bg-inset hover:text-ink disabled:text-ink-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
                       >
                         <span className="min-w-0 flex-1 truncate">{entry.title}</span>
                         {entry.page != null && <span className="tnum shrink-0 font-mono text-[11px] text-ink-3">{entry.page}</span>}
@@ -722,7 +722,7 @@ export function ReaderShell() {
                     <ul className="mt-1 divide-y divide-line">
                       {noteHits.map((hit) => (
                         <li key={hit.id}>
-                          <button type="button" onClick={() => void goToPage(hit.page)} className="w-full py-2.5 text-start hover:bg-inset">
+                          <button type="button" onClick={() => void goToPage(hit.page)} className="min-h-10 w-full py-2.5 text-start hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]">
                             <span className="tnum font-mono text-[11px] text-primary-strong">{t('Page')} {hit.page}</span>
                             <span className="mt-0.5 block px-2 text-[12px] leading-relaxed text-ink-2">{hit.text}</span>
                           </button>
@@ -743,10 +743,10 @@ export function ReaderShell() {
                     <span className="tnum flex-1 font-mono text-[11.5px] text-ink-3">
                       {search.currentIndex + 1} / {search.matches.length}{search.truncated ? '+' : ''}
                     </span>
-                    <button type="button" onClick={() => search.step(-1)} className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset" aria-label={t('Previous match')}>
+                    <button type="button" onClick={() => search.step(-1)} className="grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Previous match')}>
                       <Icon icon={ChevronLeft} size={14} className="rtl:-scale-x-100" />
                     </button>
-                    <button type="button" onClick={() => search.step(1)} className="grid size-7 place-items-center rounded-md text-ink-2 hover:bg-inset" aria-label={t('Next match')}>
+                    <button type="button" onClick={() => search.step(1)} className="grid size-9 place-items-center rounded-md text-ink-2 hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" aria-label={t('Next match')}>
                       <Icon icon={ChevronRight} size={14} className="rtl:-scale-x-100" />
                     </button>
                   </div>
@@ -767,7 +767,7 @@ export function ReaderShell() {
                       <button
                         type="button"
                         onClick={() => search.goTo(index)}
-                        className={cn('w-full py-2.5 text-start', index === search.currentIndex ? 'bg-primary-tint/40' : 'hover:bg-inset')}
+                        className={cn('min-h-10 w-full py-2.5 text-start focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', index === search.currentIndex ? 'bg-primary-tint/40' : 'hover:bg-inset')}
                       >
                         <span className="tnum font-mono text-[11px] text-primary-strong">{t('Page')} {match.page}</span>
                         <span className="mt-0.5 block px-2 text-[12px] leading-relaxed text-ink-2">{match.snippet}</span>
@@ -819,7 +819,7 @@ function SelectionBar({
           type="button"
           onClick={() => onColor(swatch)}
           aria-label={`${t('Recolour')} ${swatch}`}
-          className="size-5 rounded-full border border-line-2 transition-transform hover:scale-110"
+          className="size-8 rounded-full border border-line-2 transition-transform hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
           style={{ backgroundColor: swatch }}
         />
       ))}
@@ -830,7 +830,7 @@ function SelectionBar({
           type="button"
           onClick={() => onTone(tone)}
           aria-label={`${t('Recolour')} ${t(tone)}`}
-          className={cn('size-5 rounded-md border border-line-2 transition-transform hover:scale-110', TONE_SWATCH[tone])}
+          className={cn('size-8 rounded-md border border-line-2 transition-transform hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]', TONE_SWATCH[tone])}
         />
       ))}
       <span className="h-5 w-px bg-line" aria-hidden />

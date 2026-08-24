@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { CreditCard, BadgeCheck, IdCard, LifeBuoy, TicketPercent, X } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
-import { Button } from '@/components/ui/Button'
+import { Button, ButtonAnchor } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { IconButton } from '@/components/ui/IconButton'
@@ -154,7 +154,7 @@ export function Billing() {
                 description={profileMissing
                   ? t("Your university hasn't set up your student profile yet. Once it has, any plan granted to you appears here.")
                   : t('No plan has been granted to your account yet. Contact the Maristana team to arrange one.')}
-                action={<a href={supportLink}><Button variant="secondary" size="sm" iconLeft={LifeBuoy}>{t('Contact support')}</Button></a>}
+                action={<ButtonAnchor href={supportLink} variant="secondary" size="sm" iconLeft={LifeBuoy}>{t('Contact support')}</ButtonAnchor>}
               />
             ) : (
               <>
@@ -191,9 +191,7 @@ export function Billing() {
                 <p className="mt-5 border-t border-line pt-4 text-[12.5px] leading-relaxed text-ink-3">
                   {t('Subscriptions are managed by the Maristana team. To change or end your plan, get in touch and someone will action it on your account.')}
                 </p>
-                <a href={supportLink} className="mt-3 inline-block">
-                  <Button variant="secondary" size="md" iconLeft={LifeBuoy}>{t('Contact support about your plan')}</Button>
-                </a>
+                <ButtonAnchor href={supportLink} className="mt-3" variant="secondary" size="md" iconLeft={LifeBuoy}>{t('Contact support about your plan')}</ButtonAnchor>
               </>
             )}
           </div>

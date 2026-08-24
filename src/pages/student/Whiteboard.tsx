@@ -1063,12 +1063,14 @@ export function Whiteboard() {
       ref={pictureInput}
       type="file"
       accept="image/*"
+      aria-label={t('Add a picture')}
       className="sr-only"
       onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addPicture(file) }}
     />
     <input
       ref={fileInput}
       type="file"
+      aria-label={t('Attach a file')}
       className="sr-only"
       onChange={(event) => { const file = event.target.files?.[0]; event.target.value = ''; if (file) void addFile(file) }}
     />

@@ -1,7 +1,7 @@
 import { ChevronRight, Play } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { PageContainer } from '@/components/shell/Page'
-import { Button } from '@/components/ui/Button'
+import { ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { NextOnSchedule } from '@/components/dashboard/NextOnSchedule'
 import { DueReviews } from '@/components/dashboard/DueReviews'
@@ -59,7 +59,7 @@ export function Dashboard() {
             )}
           </p>
         </div>
-        <Link to="/app/calendar"><Button variant="primary" size="md" iconLeft={Play}>{t("Continue today's plan")}</Button></Link>
+        <ButtonLink to="/app/calendar" variant="primary" size="md" iconLeft={Play}>{t("Continue today's plan")}</ButtonLink>
       </div>
 
       {audienceUnknown && (
