@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from 'react'
+import { useEffect, useLayoutEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from 'react'
 import { Info, Maximize2, Minimize2, RotateCcw, X, ZoomIn, ZoomOut } from 'lucide-react'
-import { objectivesOf, openingObjective, structuresAt, type HistologySlide, type Objective } from '@/data/histology'
+import { objectivesOf, openingObjective, spriteCell, structuresAt, type HistologySlide, type Objective } from '@/data/histology'
 import { resolveMediaSource } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
 import { cn } from '@/lib/cn'
@@ -8,6 +8,14 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Panel } from '@/components/ui/Panel'
+import { microscopeTransitionStart, type MicroscopeTransitionRect } from './microscopeTransition'
+
+const FOCUS_GRID = '/microscope/focus-grid-alpha.webp'
+const FOCUS_COLUMNS = 12
+const FOCUS_ROWS = 10
+const FOCUS_FRAMES = FOCUS_COLUMNS * FOCUS_ROWS
+const FOCUS_MS = 2000
+const FOCUS_FADE_MS = 180
 
 interface Drag {
   pointerId: number
@@ -31,7 +39,15 @@ function clamp01(value: number): number {
  * them. This is deliberately not a diagram — a slide that named everything up
  * front would test nothing.
  */
-export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose: () => void }) {
+export function SlideViewer({
+  slide,
+  onClose,
+  transitionOrigin,
+}: {
+  slide: HistologySlide
+  onClose: () => void
+  transitionOrigin?: MicroscopeTransitionRect
+}) {
   const t = useT()
   const objectives = objectivesOf(slide)
   const [objective, setObjective] = useState<Objective | null>(() => openingObjective(slide))
@@ -43,6 +59,7 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
   const [zoom, setZoom] = useState(1)
   const [maximized, setMaximized] = useState(false)
   const [aboutOpen, setAboutOpen] = useState(false)
+  const [focusVisible, setFocusVisible] = useState(Boolean(transitionOrigin))
 
   // Undefined until the image has actually loaded once, so nothing is drawn
   // at a guessed size before its real proportions are known.
@@ -52,9 +69,101 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
   const [fieldSize, setFieldSize] = useState(0)
 
   const fieldRef = useRef<HTMLDivElement>(null)
+  const focusRef = useRef<HTMLDivElement>(null)
   const thumbnailRef = useRef<HTMLDivElement>(null)
   const dragRef = useRef<Drag | null>(null)
   const thumbnailDragRef = useRef<number | null>(null)
+
+  /**
+   * The destination is measured from the real field after layout. The moving
+   * layer is then laid out at that exact rectangle and transformed back over
+   * the bench microscope. Returning to `transform: none` therefore cannot
+   * finish above, below, or beside the field it reveals.
+   *
+   * The transition sprite has a real alpha channel keyed from its white studio
+   * ground, so only the instrument moves across the page — never its source
+   * video's rectangular backdrop.
+   */
+  useLayoutEffect(() => {
+    const layer = focusRef.current
+    const field = fieldRef.current
+    if (!transitionOrigin || !layer || !field) {
+      setFocusVisible(false)
+      return
+    }
+
+    const destination = field.getBoundingClientRect()
+    if (destination.width <= 0 || destination.height <= 0) {
+      setFocusVisible(false)
+      return
+    }
+
+    const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
+    if (reduced || typeof layer.animate !== 'function') {
+      setFocusVisible(false)
+      return
+    }
+
+    const start = microscopeTransitionStart(transitionOrigin, destination)
+    const startTransform = `translate3d(${start.x}px, ${start.y}px, 0) scale3d(${start.scaleX}, ${start.scaleY}, 1)`
+
+    Object.assign(layer.style, {
+      left: `${destination.left}px`,
+      top: `${destination.top}px`,
+      width: `${destination.width}px`,
+      height: `${destination.height}px`,
+      transform: startTransform,
+      visibility: 'visible',
+    })
+
+    const showFrame = (index: number) => {
+      const cell = spriteCell(index, FOCUS_COLUMNS, FOCUS_ROWS)
+      layer.style.backgroundPosition = `${cell.x}% ${cell.y}%`
+    }
+
+    showFrame(0)
+    const started = performance.now()
+    let raf = 0
+    let active = true
+    const tick = (now: number) => {
+      const progress = Math.min(1, (now - started) / FOCUS_MS)
+      showFrame(Math.round(progress * (FOCUS_FRAMES - 1)))
+      if (progress < 1) raf = requestAnimationFrame(tick)
+    }
+    raf = requestAnimationFrame(tick)
+
+    const movement = layer.animate(
+      [{ transform: startTransform }, { transform: 'translate3d(0, 0, 0) scale3d(1, 1, 1)' }],
+      { duration: FOCUS_MS, easing: 'cubic-bezier(0.2, 0, 0, 1)', fill: 'forwards' },
+    )
+    const iris = layer.animate(
+      [{ borderRadius: '0.75rem' }, { borderRadius: '50%' }],
+      { delay: FOCUS_MS * 0.72, duration: FOCUS_MS * 0.28, easing: 'ease-out', fill: 'forwards' },
+    )
+    const fade = layer.animate(
+      [{ opacity: 1 }, { opacity: 0 }],
+      { delay: FOCUS_MS - FOCUS_FADE_MS, duration: FOCUS_FADE_MS, easing: 'ease-out', fill: 'forwards' },
+    )
+
+    const finish = () => {
+      if (!active) return
+      showFrame(FOCUS_FRAMES - 1)
+      setFocusVisible(false)
+    }
+    Promise.all([movement.finished, iris.finished, fade.finished]).then(finish).catch(() => undefined)
+    // Browsers can throttle animation promises in a background tab. The
+    // viewer still becomes usable when the elapsed time has passed.
+    const fallback = window.setTimeout(finish, FOCUS_MS + 250)
+
+    return () => {
+      active = false
+      cancelAnimationFrame(raf)
+      window.clearTimeout(fallback)
+      movement.cancel()
+      iris.cancel()
+      fade.cancel()
+    }
+  }, [transitionOrigin])
 
   useEffect(() => {
     const node = fieldRef.current
@@ -277,6 +386,20 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
         maximized && 'fixed inset-0 z-50 overflow-auto bg-canvas px-4 py-5 sm:px-6',
       )}
     >
+      {focusVisible && (
+        <div
+          ref={focusRef}
+          role="img"
+          aria-label={t('Focusing on the slide')}
+          className="pointer-events-none fixed z-40 invisible bg-no-repeat"
+          style={{
+            backgroundImage: `url(${FOCUS_GRID})`,
+            backgroundSize: `${FOCUS_COLUMNS * 100}% ${FOCUS_ROWS * 100}%`,
+            transformOrigin: 'center',
+            willChange: 'transform, opacity',
+          }}
+        />
+      )}
       <div className="flex w-full flex-wrap items-start justify-between gap-3">
         <div className="min-w-0">
           <h1 className="truncate font-serif text-[19px] font-semibold text-ink">{slide.title}</h1>

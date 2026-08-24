@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef } from 'react'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
-import { spriteCell, type HistologySlide } from '@/data/histology'
+import type { HistologySlide } from '@/data/histology'
 import { useLiveHistology } from '@/lib/useLiveHistology'
 import { subjects, getSubject } from '@/data/subjects'
 import { Panel } from '@/components/ui/Panel'
@@ -8,26 +8,10 @@ import { EmptyState } from '@/components/ui/EmptyState'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { cn } from '@/lib/cn'
 import { useT } from '@/lib/i18n'
+import type { MicroscopeTransitionRect } from './microscopeTransition'
 
 const INSTRUMENT = '/microscope/microscope.png'
-const GRID = '/microscope/focus-grid.jpg'
-
-/**
- * A hundred and twenty frames on a twelve-by-ten grid.
- *
- * A grid rather than a strip because a strip of this many frames would be
- * nearly thirty thousand pixels wide — past what a GPU will hold as one
- * texture. Two axes is also why the frames are stepped from here instead of by
- * CSS `steps()`, which walks one.
- */
-const COLUMNS = 12
-const ROWS = 10
-const FRAMES = COLUMNS * ROWS
-/** Two seconds at sixty frames a second — the point of having this many. */
-const FOCUS_MS = 2000
-
-/** Where the instrument was sitting when the slide was chosen. */
-interface Origin { x: number; y: number; scale: number }
+const FOCUS_GRID = '/microscope/focus-grid-alpha.webp'
 
 /** Slides grouped by subject, catalogue order first, then anything unrecognised. */
 function groupBySubject(slides: HistologySlide[]) {
@@ -46,128 +30,37 @@ function groupBySubject(slides: HistologySlide[]) {
 /**
  * The instrument, and the slides on the bench beside it.
  *
- * Choosing a slide does not cut to a viewer. The microscope travels from
- * wherever it is sitting to the middle of the screen while the push-in plays,
- * so what a student sees is continuous — the same object the whole way, rather
- * than one thing swapped for another.
+ * Choosing a slide records the instrument's real viewport rectangle. The
+ * viewer uses that rectangle as the transition origin and its own measured
+ * field as the destination, keeping the move continuous and precisely aligned.
  */
-export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void }) {
+export function Microscope({
+  onOpen,
+}: {
+  onOpen: (slide: HistologySlide, origin?: MicroscopeTransitionRect) => void
+}) {
   const t = useT()
   const { slides } = useLiveHistology()
-  const [chosen, setChosen] = useState<HistologySlide | null>(null)
-  const [origin, setOrigin] = useState<Origin | null>(null)
-  /** False for one frame, so the element paints *at* the instrument before it moves. */
-  const [travelling, setTravelling] = useState(false)
   const instrumentRef = useRef<HTMLImageElement>(null)
-  const fieldRef = useRef<HTMLDivElement>(null)
   const groups = useMemo(() => groupBySubject(slides), [slides])
 
-  // Fetched when there is something to look at, not on mount. A student who
-  // never opens histology should not pay for the grid.
+  // Decode the keyed transition frames while the student is choosing a slide,
+  // so the first frame is ready when they open one instead of appearing late.
   useEffect(() => {
     if (!slides.length) return
     const image = new Image()
-    image.src = GRID
+    image.src = FOCUS_GRID
+    image.decode?.().catch(() => undefined)
   }, [slides.length])
-
-  /**
-   * Walk the frames against the clock.
-   *
-   * Timed rather than counted, so the push-in takes two seconds on a slow
-   * machine as well as a fast one — a loop that advanced one frame per paint
-   * would simply run long wherever it dropped frames. Reduced motion goes
-   * straight to the last frame: the destination without the journey.
-   */
-  useEffect(() => {
-    const field = fieldRef.current
-    if (!chosen || !field) return
-    const reduced = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false
-    const show = (index: number) => {
-      const clamped = index
-      const cell = spriteCell(clamped, COLUMNS, ROWS)
-      field.style.backgroundPosition = `${cell.x}% ${cell.y}%`
-    }
-    if (reduced) { show(FRAMES - 1); return }
-    let raf = 0
-    const started = performance.now()
-    const tick = (now: number) => {
-      const progress = Math.min(1, (now - started) / FOCUS_MS)
-      show(Math.round(progress * (FRAMES - 1)))
-      if (progress < 1) raf = requestAnimationFrame(tick)
-    }
-    show(0)
-    raf = requestAnimationFrame(tick)
-    return () => cancelAnimationFrame(raf)
-  }, [chosen])
-
-  /**
-   * Open the slide even if the animation never says it finished.
-   *
-   * A CSS animation only fires `animationend` while the page is being painted.
-   * A backgrounded or throttled tab leaves the clock at zero, and with the
-   * transition as the only way through, the student would sit on a still frame
-   * for good. The animation stays the nice path; this guarantees they arrive.
-   */
-  useEffect(() => {
-    if (!chosen) return
-    const timer = window.setTimeout(() => onOpen(chosen), FOCUS_MS + 250)
-    return () => window.clearTimeout(timer)
-  }, [chosen, onOpen])
-
-  // Laid out at the destination and transformed back onto the instrument, then
-  // released on the next frame so the browser has something to animate from.
-  // Two frames deep: one to paint the start, one to change it.
-  useEffect(() => {
-    if (!origin) return
-    let inner = 0
-    const outer = requestAnimationFrame(() => {
-      inner = requestAnimationFrame(() => setTravelling(true))
-    })
-    return () => { cancelAnimationFrame(outer); cancelAnimationFrame(inner) }
-  }, [origin])
 
   function choose(slide: HistologySlide) {
     const rect = instrumentRef.current?.getBoundingClientRect()
-    if (rect) {
-      // The overlay is laid out centred at the target size; this is the
-      // transform that puts it back over the instrument, so the travel starts
-      // exactly where the student is already looking.
-      const target = Math.min(window.innerWidth * 0.78, window.innerHeight * 0.62, 416)
-      setOrigin({
-        x: rect.left + rect.width / 2 - window.innerWidth / 2,
-        y: rect.top + rect.height / 2 - window.innerHeight / 2,
-        scale: rect.width / target,
-      })
-    }
-    setChosen(slide)
-  }
-
-  if (chosen) {
-    return (
-      <div className="pointer-events-none fixed inset-0 z-40 grid place-items-center bg-transparent">
-        <div
-          ref={fieldRef}
-          role="img"
-          aria-label={t('Focusing on the slide')}
-          className="animate-microscope-iris"
-          style={{
-            width: 'min(80vw, 66vh, 28rem)',
-            height: 'min(80vw, 66vh, 28rem)',
-            backgroundImage: `url(${GRID})`,
-            // The whole grid, scaled so one cell fills the element. Cell size is
-            // a fraction of the element rather than pixels, so the frames stay
-            // registered whatever size the field is drawn at.
-            backgroundSize: `${COLUMNS * 100}% ${ROWS * 100}%`,
-            backgroundRepeat: 'no-repeat',
-            ['--microscope-focus-ms' as string]: `${FOCUS_MS}ms`,
-            transform: origin && !travelling
-              ? `translate(${origin.x}px, ${origin.y}px) scale(${origin.scale})`
-              : undefined,
-            transition: `transform ${FOCUS_MS}ms cubic-bezier(0.4, 0, 0.2, 1)`,
-          }}
-        />
-      </div>
-    )
+    onOpen(slide, rect ? {
+      left: rect.left,
+      top: rect.top,
+      width: rect.width,
+      height: rect.height,
+    } : undefined)
   }
 
   return (

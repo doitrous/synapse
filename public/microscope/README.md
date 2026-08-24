@@ -1,9 +1,9 @@
 # The microscope
 
-Two files, cut from a 10.04s / 960×960 / 3.5 MB source with an audio track. The
-source is a studio shot on **white**, which is the point: the push-in plays on a
-white screen, so the frames and the surround are the same colour and there is no
-photograph-pasted-on-a-page edge.
+Three files, cut from a 10.04s / 960×960 / 3.5 MB source with an audio track. The
+source is a studio shot on white. The browser transition uses an alpha-keyed
+WebP sprite so only the instrument moves across the page; the rectangular
+studio ground is not rendered.
 
 (A second video was tried and rejected: it was shot in a lab, so the instrument
 carried a grey background that read as a box floating in the white.)
@@ -18,6 +18,14 @@ sits on the page rather than in a card:
 
     ffmpeg -i <source> -vf "trim=start=0:end=9.2,setpts=PTS-STARTPTS,\
       fps=13.043,scale=240:240,tile=12x10" -frames:v 1 focus-grid.jpg
+
+`focus-grid-alpha.webp` — the runtime sprite, with the white studio ground
+removed and the result compressed with alpha intact:
+
+    ffmpeg -i focus-grid.jpg \
+      -vf "colorkey=0xFFFFFF:0.20:0.08,format=rgba" focus-grid-alpha.png
+    cwebp -q 82 -alpha_q 90 -m 6 -mt \
+      focus-grid-alpha.png -o focus-grid-alpha.webp
 
 A grid, not a strip: 120 frames in a row would be nearly 30,000px wide, past
 what a GPU holds as one texture. Two axes is also why the frames are stepped
@@ -34,7 +42,9 @@ frames to trim.
 
 The driver is timed against a real clock rather than advancing one frame per
 paint, so the push-in takes two seconds on a slow machine instead of running
-long. `prefers-reduced-motion` jumps to the last frame — the destination without
-the journey.
+long. The transition layer is laid out at the real, measured slide field and is
+transformed back over the bench instrument; returning to no transform therefore
+lands on the exact viewer rectangle at every shell/sidebar and viewport size.
+`prefers-reduced-motion` opens the destination without the journey.
 
 No audio: a control that plays sound when a student presses it is a defect.
