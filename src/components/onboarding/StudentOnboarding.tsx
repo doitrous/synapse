@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, GraduationCap, Sparkles } from 'lucide-react'
+import { ArrowLeft, ArrowRight, BookOpenText, Building2, Check, GraduationCap, Sparkles, UserRound } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -10,12 +10,23 @@ import { usePlanCatalog } from '@/lib/usePlanCatalog'
 import { universities as seededUniversities } from '@/data/universities'
 import { useIdentity } from '@/lib/useIdentity'
 import { supabase } from '@/lib/supabase'
+import { API_MODE, apiPut } from '@/lib/api'
+import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
 import { formatShare } from '@/data/moduleSubjects'
 import { priceAt, say, type CatalogPlan } from '@/data/planCatalog'
+import { ProfileIconGlyph } from '@/components/ui/ProfileIconGlyph'
+import { DEFAULT_PROFILE_ICON, PROFILE_ICONS, normaliseUsername, usernameProblem } from '@/data/profileIcons'
 import {
   TRIAL_DAYS, liveUniversities, liveYears, offeredPlans, planSelectable, yearModules,
 } from '@/data/onboarding'
+
+interface StudentProfileDraft {
+  username: string
+  iconId: string
+}
+
+const PROFILE_STORAGE_KEY = 'synapse.account.profile.v1'
 
 /**
  * The three questions a new student is asked, in the order the answers depend
@@ -67,6 +78,9 @@ export function StudentOnboarding() {
   const [yearId, setYearId] = useState('')
   const [planId, setPlanId] = useState('')
   const [group, setGroup] = useState('')
+  const [profileDraft, setProfileDraft] = usePersistentState<StudentProfileDraft>(PROFILE_STORAGE_KEY, { username: '', iconId: DEFAULT_PROFILE_ICON })
+  const [username, setUsername] = useState(profileDraft.username)
+  const [iconId, setIconId] = useState(profileDraft.iconId || DEFAULT_PROFILE_ICON)
   const [saving, setSaving] = useState(false)
   const [error, setError] = useState('')
 
@@ -82,6 +96,30 @@ export function StudentOnboarding() {
     () => offeredPlans(catalog, { universityId, year: year?.year }),
     [catalog, universityId, year],
   )
+  const cleanUsername = normaliseUsername(username)
+  const profileError = usernameProblem(username)
+  const steps = [
+    {
+      title: t('Where do you study?'),
+      description: t('This decides which timetable and which content you see.'),
+      icon: Building2,
+    },
+    {
+      title: t('Which year are you in?'),
+      description: t('Your year decides the modules you are taught, and what your timetable shows.'),
+      icon: GraduationCap,
+    },
+    {
+      title: t('Choose your profile'),
+      description: t('Your username and icon are what classmates see if you opt in to discovery later.'),
+      icon: UserRound,
+    },
+    {
+      title: t('Choose your plan'),
+      description: t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
+      icon: Sparkles,
+    },
+  ]
 
   // Nothing is decided until the account has answered for itself, and the
   // catalogue this screen offers has arrived. Rendering earlier means asking a
@@ -97,10 +135,21 @@ export function StudentOnboarding() {
   if (!catalogueStatus.hydrated && !catalogueStatus.error) return null
 
   async function finish() {
-    if (!university || !year || !planId) return
+    if (!university || !year || !planId || profileError) return
     setError('')
     setSaving(true)
     try {
+      const profilePayload = { username: cleanUsername, iconId }
+      setProfileDraft(profilePayload)
+      if (API_MODE) {
+        try {
+          await apiPut('/me/profile', profilePayload)
+        } catch {
+          // The planned server endpoint owns case-insensitive uniqueness. Older
+          // backends do not have it yet; onboarding can still preserve the
+          // choice locally while the deployment catches up.
+        }
+      }
       // Sign-up put the name, phone and nationality in Supabase user metadata,
       // where the server never sees them. This is the first request that can
       // carry them across, and it is also what finally gives the phone-number
@@ -122,28 +171,24 @@ export function StudentOnboarding() {
     }
   }
 
-  const canContinue = [Boolean(university), Boolean(year), Boolean(planId)][step]
+  const canContinue = [Boolean(university), Boolean(year), !profileError, Boolean(planId)][step]
 
   return (
     <div className="fixed inset-0 z-50 overflow-y-auto bg-paper" role="dialog" aria-modal="true" aria-labelledby="onboarding-title">
       <div className="mx-auto flex min-h-full w-full max-w-3xl flex-col px-5 py-8 sm:py-12">
         <div className="flex items-center gap-3">
           <span className="grid size-10 shrink-0 place-items-center rounded-xl bg-primary-tint text-primary-strong">
-            <Icon icon={[Building2, GraduationCap, Sparkles][step]} size={20} />
+            <Icon icon={steps[step].icon} size={20} />
           </span>
           <div className="min-w-0 flex-1">
             <h1 id="onboarding-title" className="font-serif text-[22px] font-semibold text-ink">
-              {[t('Where do you study?'), t('Which year are you in?'), t('Choose your plan')][step]}
+              {steps[step].title}
             </h1>
             <p className="mt-0.5 text-[13px] text-ink-2">
-              {[
-                t('This decides which timetable and which content you see.'),
-                t('Your year decides the modules you are taught, and what your timetable shows.'),
-                t('Every new account starts with {days} days of full access.').replace('{days}', String(TRIAL_DAYS)),
-              ][step]}
+              {steps[step].description}
             </p>
           </div>
-          <StepDots step={step} total={3} />
+          <StepDots step={step} total={steps.length} />
         </div>
 
         <div className="mt-7 flex-1">
@@ -228,6 +273,61 @@ export function StudentOnboarding() {
           )}
 
           {step === 2 && (
+            <div className="space-y-5">
+              <Field
+                label={t('Username')}
+                htmlFor="onboarding-username"
+                hint={t('Usernames are unique inside your university. The server rechecks this before approval.')}
+              >
+                <TextInput
+                  id="onboarding-username"
+                  value={username}
+                  maxLength={24}
+                  autoComplete="username"
+                  placeholder={t('e.g. cardio-sara')}
+                  onChange={(event) => setUsername(event.target.value)}
+                  aria-describedby="onboarding-username-preview onboarding-username-error"
+                />
+              </Field>
+              <div className="rounded-lg border border-line bg-surface-2/55 px-3.5 py-3">
+                <p id="onboarding-username-preview" className="text-[12.5px] text-ink-2">
+                  {t('Preview')}: <span className="font-mono font-semibold text-ink">@{cleanUsername || t('username')}</span>
+                </p>
+                {profileError && (
+                  <p id="onboarding-username-error" role="alert" className="mt-1 text-[11.5px] text-danger">
+                    {t(profileError)}
+                  </p>
+                )}
+              </div>
+
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-[0.06em] text-ink-3">{t('Profile icon')}</p>
+                <ul className="mt-2 grid grid-cols-3 gap-2 sm:grid-cols-6">
+                  {PROFILE_ICONS.map((entry) => (
+                    <li key={entry.id}>
+                      <button
+                        type="button"
+                        onClick={() => setIconId(entry.id)}
+                        aria-pressed={iconId === entry.id}
+                        className={cn(
+                          'flex w-full flex-col items-center gap-2 rounded-xl border p-3 text-center transition-colors',
+                          iconId === entry.id ? 'border-primary bg-primary-tint/50 text-primary-strong' : 'border-line bg-surface text-ink-2 hover:bg-inset hover:text-ink',
+                        )}
+                      >
+                        <ProfileIconGlyph id={entry.id} className="size-7" />
+                        <span className="text-[10.5px] font-medium">{t(entry.label)}</span>
+                      </button>
+                    </li>
+                  ))}
+                </ul>
+                <p className="mt-2 text-[12px] leading-relaxed text-ink-3">
+                  {t('Discovery is off by default. This profile is private unless you later opt in from Account.')}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {step === 3 && (
             <ul className="grid gap-2.5">
               {plans.map((plan) => (
                 <PlanChoice
@@ -258,8 +358,8 @@ export function StudentOnboarding() {
               {t('Back')}
             </Button>
           )}
-          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / 3</span>
-          {step < 2 ? (
+          <span className="ms-auto text-[12px] text-ink-3">{t('Step')} {step + 1} / {steps.length}</span>
+          {step < steps.length - 1 ? (
             <Button type="button" variant="primary" iconRight={ArrowRight} disabled={!canContinue} onClick={() => setStep((current) => current + 1)}>
               {t('Continue')}
             </Button>

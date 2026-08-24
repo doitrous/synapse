@@ -5,15 +5,17 @@ import { cn } from '@/lib/cn'
 export function OverflowText({
   children,
   title,
+  tooltip,
   className,
 }: {
   children: ReactNode
   title?: string
+  tooltip?: ReactNode
   className?: string
 }) {
   const ref = useRef<HTMLSpanElement>(null)
   const [truncated, setTruncated] = useState(false)
-  const label = title ?? (typeof children === 'string' ? children : '')
+  const label = tooltip ?? title ?? (typeof children === 'string' ? children : '')
 
   useEffect(() => {
     const node = ref.current

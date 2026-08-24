@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useCallback, useEffect, useRef, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
@@ -14,6 +14,14 @@ import { cn } from '@/lib/cn'
 import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
+import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
+
+function isTypingTarget(target: EventTarget | null): boolean {
+  const element = target instanceof HTMLElement ? target : null
+  if (!element) return false
+  if (element.isContentEditable) return true
+  return Boolean(element.closest('input, textarea, select, [contenteditable="true"]'))
+}
 
 function AppShellInner({ portal }: { portal: Portal }) {
   const t = useT()
@@ -41,24 +49,17 @@ function AppShellInner({ portal }: { portal: Portal }) {
     setMobileOpen(true)
   }
 
-  function closeMobile() {
+  const closeMobile = useCallback(() => {
     setMobileOpen(false)
     window.setTimeout(() => mobileButtonRef.current?.focus(), 0)
-  }
-
-  function typingTarget(target: EventTarget | null): boolean {
-    const element = target instanceof HTMLElement ? target : null
-    if (!element) return false
-    if (element.isContentEditable) return true
-    return Boolean(element.closest('input, textarea, select, [contenteditable="true"]'))
-  }
+  }, [])
 
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
   useEffect(() => {
     if (!focusMode) return
     function onKey(event: KeyboardEvent) {
-      if (typingTarget(event.target)) return
+      if (isTypingTarget(event.target)) return
       if (event.key === 'Escape') toggleFocusMode()
     }
     window.addEventListener('keydown', onKey)
@@ -68,7 +69,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Global ⌘K / Ctrl-K to toggle search.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
-      if (typingTarget(e.target)) return
+      if (isTypingTarget(e.target)) return
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault()
         setSearchOpen((v) => !v)
@@ -79,7 +80,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
   }, [])
 
   // Close the mobile drawer whenever the route changes.
-  useEffect(() => setMobileOpen(false), [pathname])
+  useEffect(() => {
+    setMobileOpen(false)
+    window.requestAnimationFrame(() => mainRef.current?.focus({ preventScroll: true }))
+  }, [pathname])
 
   useEffect(() => {
     mainRef.current?.focus({ preventScroll: true })
@@ -91,7 +95,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
     const drawer = drawerRef.current
-    const focusable = drawer?.querySelector<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+    const selector = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+    const focusable = drawer?.querySelector<HTMLElement>(selector)
     window.setTimeout(() => focusable?.focus(), 0)
     function trap(event: KeyboardEvent) {
       if (event.key === 'Escape') {
@@ -100,7 +105,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
         return
       }
       if (event.key !== 'Tab' || !drawerRef.current) return
-      const items = Array.from(drawerRef.current.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'))
+      const items = Array.from(drawerRef.current.querySelectorAll<HTMLElement>(selector))
+        .filter((element) => !element.hasAttribute('disabled') && element.offsetParent !== null)
       if (!items.length) return
       const first = items[0]
       const last = items[items.length - 1]
@@ -117,7 +123,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       document.body.style.overflow = previous
       document.removeEventListener('keydown', trap)
     }
-  }, [mobileOpen])
+  }, [closeMobile, mobileOpen])
 
   return (
     <div className="min-h-dvh min-w-0">
@@ -147,7 +153,13 @@ function AppShellInner({ portal }: { portal: Portal }) {
             className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade"
             onClick={closeMobile}
           />
-          <div ref={drawerRef} className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop">
+          <div
+            ref={drawerRef}
+            className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop"
+            role="dialog"
+            aria-modal="true"
+            aria-label={t('Navigation')}
+          >
             <Sidebar portal={portal} collapsed={false} onNavigate={closeMobile} />
           </div>
         </div>
@@ -174,7 +186,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
             and remounting there would throw away the reader's page and zoom.
             The class is on <main> itself rather than an inner wrapper, so
             pages that size themselves against it keep their height contract. */}
-        <main ref={mainRef} key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
+        <main ref={mainRef} key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in focus:outline-none" tabIndex={-1}>
           <Outlet />
         </main>
       </div>
@@ -193,6 +205,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       )}
 
       <CommandSearch open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <OverflowTooltipLayer />
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
       {/* Docked, not a page: the question is nearly always about what is

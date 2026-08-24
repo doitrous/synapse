@@ -59,14 +59,17 @@ test('every pairId appears exactly twice, once per side', () => {
   }
 })
 
-test('tiles are interleaved, not laid out as two tidy columns', () => {
+test('terms stay fixed on the left and partners are shuffled on the right', () => {
   const board = buildBoard(terms, 'definition', 7)
-  // A trivial board puts every 'term' tile before every 'partner' tile (or the
-  // reverse). A real shuffle should not, across a run of eight pairs.
-  const sides = board.tiles.map((tile) => tile.side)
-  const allTermsFirst = sides.slice(0, board.pairs).every((side) => side === 'term')
-  const allPartnersFirst = sides.slice(0, board.pairs).every((side) => side === 'partner')
-  assert.ok(!allTermsFirst && !allPartnersFirst)
+  assert.equal(board.termTiles.length, board.pairs)
+  assert.equal(board.partnerTiles.length, board.pairs)
+  assert.ok(board.termTiles.every((tile) => tile.side === 'term'))
+  assert.ok(board.partnerTiles.every((tile) => tile.side === 'partner'))
+  assert.deepEqual(board.tiles, [...board.termTiles, ...board.partnerTiles])
+  assert.notDeepEqual(
+    board.partnerTiles.map((tile) => tile.pairId),
+    board.termTiles.map((tile) => tile.pairId),
+  )
 })
 
 test('isPair accepts two tiles that share a pairId and differ in side', () => {

@@ -16,7 +16,7 @@ import {
   Languages,
   Compass,
   Layers,
-  Grid3x3,
+  Gamepad2,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -65,7 +65,7 @@ export const studentNav: NavGroup[] = [
       { label: 'Whiteboard', to: '/app/whiteboard', icon: PenTool },
       { label: 'Notebook', to: '/app/notebook', icon: Notebook },
       { label: 'Flashcards', to: '/app/flashcards', icon: Layers },
-      { label: 'Term Grid', to: '/app/term-grid', icon: Grid3x3 },
+      { label: 'Minigames', to: '/app/minigames', icon: Gamepad2 },
       { label: 'Study Together', to: '/app/study-together', icon: Users },
     ],
   },

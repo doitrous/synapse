@@ -184,6 +184,43 @@ function actionFor(event: CalEvent): { to: string; label: string } | null {
   return null
 }
 
+function eventEndDate(event: CalEvent): Date {
+  if (!event.endTime) return eventStartDate(event)
+  const [hours = 0, minutes = 0] = event.endTime.split(':').map(Number)
+  return new Date(event.date.getFullYear(), event.date.getMonth(), event.date.getDate(), hours, minutes)
+}
+
+function eventStartDate(event: CalEvent): Date {
+  const [hours = 0, minutes = 0] = event.time.split(':').map(Number)
+  return new Date(event.date.getFullYear(), event.date.getMonth(), event.date.getDate(), hours, minutes)
+}
+
+/** Unscheduled time inside a consistent 08:00–22:00 planning window. */
+function openMinutes(events: CalEvent[]): number {
+  const dayStart = 8 * 60
+  const dayEnd = 22 * 60
+  const occupied = events
+    .filter((event) => event.endTime)
+    .map((event) => {
+      const start = eventStartDate(event)
+      const end = eventEndDate(event)
+      return {
+        start: Math.max(dayStart, start.getHours() * 60 + start.getMinutes()),
+        end: Math.min(dayEnd, end.getHours() * 60 + end.getMinutes()),
+      }
+    })
+    .filter((interval) => interval.end > interval.start)
+    .sort((a, b) => a.start - b.start)
+  let used = 0
+  let cursor = dayStart
+  for (const interval of occupied) {
+    if (interval.end <= cursor) continue
+    used += Math.max(0, interval.end - Math.max(cursor, interval.start))
+    cursor = Math.max(cursor, interval.end)
+  }
+  return Math.max(0, dayEnd - dayStart - used)
+}
+
 function EventDetailDialog({ event, onClose, onEdit }: { event: CalEvent; onClose: () => void; onEdit?: () => void }) {
   const t = useT()
   const subject = getSubject(event.subjectId)
@@ -313,7 +350,6 @@ export function CalendarPage() {
   }, [blocks, sessions])
 
   const visible = (events: CalEvent[] = []) => events.filter((event) => event.layer === 'curriculum' ? showCurriculum : showPersonal)
-  const todayEvents = visible(eventMap.get(dayKey(today)))
   const thisWeek = weekDays(anchor, WEEK_START)
   const weekEvents = thisWeek.flatMap((day) => visible(eventMap.get(dayKey(day))))
   const taughtSessions = weekEvents.filter((event) => event.layer === 'curriculum')
@@ -322,6 +358,21 @@ export function CalendarPage() {
   const taughtMinutes = taughtSessions.reduce((total, event) => total + (event.endTime ? durationMinutes(event.time, event.endTime) : 0), 0)
   const plannedBlocks = blocks.filter((block) => thisWeek.some((day) => block.date === isoDay(day)))
   const plannedMinutes = plannedBlocks.reduce((total, block) => total + durationMinutes(block.start, block.end), 0)
+  const now = new Date()
+  const nextEvent = [...eventMap.values()]
+    .flatMap((events) => visible(events))
+    .filter((event) => eventEndDate(event).getTime() >= now.getTime())
+    .sort((a, b) => eventStartDate(a).getTime() - eventStartDate(b).getTime())[0]
+  const nextAction = nextEvent ? actionFor(nextEvent) : null
+  const todayBlocks = blocks.filter((block) => block.date === isoDay(today))
+  const completedToday = todayBlocks.filter((block) => block.done)
+  const remainingTodayMinutes = todayBlocks
+    .filter((block) => !block.done)
+    .reduce((total, block) => total + durationMinutes(block.start, block.end), 0)
+  const openGapMinutes = thisWeek.reduce((total, day) => total + openMinutes(visible(eventMap.get(dayKey(day)))), 0)
+  const upcomingMilestones = sessions
+    .filter((session) => session.start.getTime() >= now.getTime() && (session.isExam || !session.end))
+    .slice(0, 3)
   const editingBlock = blocks.find((block) => block.id === editingBlockId)
 
   function shift(direction: number) {
@@ -369,26 +420,23 @@ export function CalendarPage() {
 
   return (
     <PageContainer>
-      <div className="mb-4 space-y-3">
-        {/* Row 1: navigation + view switch (always visible on mobile) */}
+      <div className="mb-4 rounded-xl border border-line bg-surface px-3 py-3 shadow-panel">
         <div className="flex flex-wrap items-center gap-2">
           <IconButton icon={ChevronLeft} label={t('Previous')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(-1)} />
-          <h1 className="min-w-0 flex-1 truncate font-serif text-[17px] font-semibold text-ink sm:min-w-[11rem] sm:flex-none sm:text-[19px]">{label}</h1>
+          <h1 className="min-w-0 flex-1 truncate font-serif text-[17px] font-semibold text-ink sm:text-[19px]">{label}</h1>
           <IconButton icon={ChevronRight} label={t('Next')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(1)} />
           <Button variant="secondary" size="sm" onClick={() => setAnchor(new Date())}>{t('Today')}</Button>
-          <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} />
-        </div>
-        {/* Row 2: filters + add */}
-        <div className="flex flex-wrap items-center gap-3">
+          <span className="hidden h-5 w-px bg-line md:block" />
           <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm bg-primary-tint ring-1 ring-primary-line" />{t('Curriculum')}<Toggle checked={showCurriculum} onChange={setShowCurriculum} label={t('Curriculum')} /></label>
           <label className="flex cursor-pointer items-center gap-2 text-[13px] text-ink-2"><span className="size-2.5 rounded-sm border border-dashed border-line-2 bg-surface" />{t('Personal')}<Toggle checked={showPersonal} onChange={setShowPersonal} label={t('Personal')} tint="#55605c" /></label>
-          <Button className="ms-auto" variant="primary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
+          <Segmented value={view} onChange={setView} items={[{ value: 'month', label: t('Month') }, { value: 'week', label: t('Week') }]} />
+          <Button variant="primary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(new Date())}>{t('Add block')}</Button>
         </div>
       </div>
 
       <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_20rem]">
         {view === 'month' ? (
-          <Panel className="overflow-hidden">
+          <Panel className="min-h-[37rem] overflow-hidden">
             <div className="grid grid-cols-7 border-b border-line bg-surface-2">{WEEKDAYS.map((day) => <div key={day} className="px-2 py-2 text-[11px] font-semibold uppercase tracking-[0.05em] text-ink-3">{t(day)}</div>)}</div>
             <div className="grid grid-cols-7">
               {days.map((date, index) => {
@@ -409,28 +457,68 @@ export function CalendarPage() {
             </div>
           </Panel>
         ) : (
-          <div className="space-y-2">
+          <Panel className="min-h-[37rem] overflow-hidden p-2">
             {days.map((date, index) => {
               const events = visible(eventMap.get(dayKey(date)))
               return <Panel key={dayKey(date)} className="flex flex-col gap-2 p-3 sm:flex-row sm:gap-3"><button onClick={() => openDay(date)} className="flex w-full shrink-0 items-center gap-2 rounded-md text-start hover:bg-inset sm:w-28"><span className="text-[12px] font-medium uppercase tracking-wide text-ink-3">{t(WEEKDAYS[index])}</span><span className={cn('tnum grid size-8 place-items-center rounded-full font-serif text-[16px] font-semibold', sameDay(date, today) ? 'bg-primary text-on-primary' : 'text-ink')}>{date.getDate()}</span></button><div className="grid min-w-0 flex-1 gap-1.5 sm:grid-cols-2">{events.length ? events.map((event) => <button key={event.id} type="button" onClick={() => setDetailEvent(event)} className="min-w-0 text-start"><Chip event={event} /></button>) : <button onClick={() => setDialogDate(date)} className="rounded-md border border-dashed border-line px-3 py-2 text-start text-[12.5px] text-ink-3 hover:border-line-2">+ {t('Add a block')}</button>}</div></Panel>
             })}
-          </div>
+          </Panel>
         )}
 
         <aside className="space-y-4 xl:sticky xl:top-[4.5rem]">
           <Panel>
-            <PanelHeader title={t("Today's view")} icon={Clock} hint={formatLongDate(today)} />
+            <PanelHeader title={t('Prepare next')} icon={Clock} hint={nextEvent ? formatLongDate(nextEvent.date) : undefined} />
             <div className="p-3">
-              {todayEvents.length ? <ul className="space-y-2">{todayEvents.map((event) => <li key={event.id}><button type="button" onClick={() => setDetailEvent(event)} className="grid w-full grid-cols-[4.5rem_1fr_auto] items-center gap-2 rounded-lg border border-line bg-surface-2/50 p-2.5 text-start transition-colors hover:border-primary-line hover:bg-primary-tint/25"><span className="tnum font-mono text-[10.5px] text-ink-3">{formatTimeString(event.time)}</span><span><span className="block text-[12.5px] font-medium text-ink">{event.title}</span><span className="mt-0.5 block text-[11px] text-ink-3">{event.kind}</span></span><Icon icon={ChevronRight} size={15} className="text-ink-3 rtl:-scale-x-100" /></button></li>)}</ul> : <div className="rounded-lg border border-line bg-surface-2 p-4"><p className="text-[13px] font-medium text-ink">{t('Nothing scheduled')}</p><p className="mt-2 text-[13px] leading-relaxed text-ink-2">{t('A clear day. If it is deliberate, leave it clear—recovery is part of the plan.')}</p></div>}
-              <Button className="mt-3 w-full" variant="secondary" size="sm" iconLeft={Plus} onClick={() => setDialogDate(today)}>{t('Add to today')}</Button>
+              {nextEvent ? (
+                <div className="rounded-lg border border-line bg-surface-2/60 p-3">
+                  <p className="tnum font-mono text-[11px] text-ink-3">{formatTimeString(nextEvent.time)}{nextEvent.endTime ? ` – ${formatTimeString(nextEvent.endTime)}` : ''}</p>
+                  <h2 className="mt-1 text-[13.5px] font-semibold leading-snug text-ink">{nextEvent.title}</h2>
+                  <p className="mt-1 text-[12px] text-ink-3">{nextEvent.kind}</p>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    <Button variant="secondary" size="sm" onClick={() => setDetailEvent(nextEvent)}>{t('Details')}</Button>
+                    {nextAction && <ButtonLink to={nextAction.to} variant="primary" size="sm" iconRight={ArrowRight}>{t(nextAction.label)}</ButtonLink>}
+                  </div>
+                </div>
+              ) : (
+                <div className="rounded-lg border border-line bg-surface-2 p-4">
+                  <p className="text-[13px] font-medium text-ink">{t('Nothing ahead')}</p>
+                  <p className="mt-2 text-[13px] leading-relaxed text-ink-2">{t('Plan the next block when you know what needs attention.')}</p>
+                </div>
+              )}
             </div>
           </Panel>
           <Panel>
-            <PanelHeader title={t('Where the week goes')} />
+            <PanelHeader title={t("Today's work")} hint={formatLongDate(today)} />
             <div className="divide-y divide-line px-4 py-1">
-              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Taught')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(taughtMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{weekEvents.filter((event) => event.layer === 'curriculum').length} {t('sessions')}</span></span></div>
-              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Your plan')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(plannedMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{plannedBlocks.length} {t('blocks')}</span></span></div>
+              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Completed')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{completedToday.length}/{todayBlocks.length}</strong><span className="text-[11.5px] text-ink-3">{t('personal blocks')}</span></span></div>
+              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Remaining')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(remainingTodayMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{t('planned by you')}</span></span></div>
             </div>
+          </Panel>
+          <Panel>
+            <PanelHeader title={t('Week load')} />
+            <div className="divide-y divide-line px-4 py-1">
+              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Taught')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(taughtMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{taughtSessions.length} {t('sessions')}</span></span></div>
+              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Your plan')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(plannedMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{plannedBlocks.length} {t('blocks')}</span></span></div>
+              <div className="flex items-start justify-between py-3"><span className="text-[13.5px] text-ink-2">{t('Open time')}</span><span className="text-end"><strong className="tnum block font-mono text-[16px] text-ink">{(openGapMinutes / 60).toFixed(1)} {t('h')}</strong><span className="text-[11.5px] text-ink-3">{t('unscheduled · 8 AM–10 PM')}</span></span></div>
+            </div>
+          </Panel>
+          <Panel>
+            <PanelHeader title={t('Exams & deadlines')} />
+            {upcomingMilestones.length ? (
+              <ul className="divide-y divide-line px-4 py-1">
+                {upcomingMilestones.map((session) => (
+                  <li key={session.id} className="flex items-start justify-between gap-3 py-3">
+                    <span className="min-w-0">
+                      <span className="block truncate text-[13px] font-medium text-ink">{session.title || session.label}</span>
+                      <span className="mt-0.5 block text-[11.5px] text-ink-3">{session.courseName}</span>
+                    </span>
+                    <span className="tnum shrink-0 text-end font-mono text-[11px] text-ink-3">{formatLongDate(session.start)}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              <p className="px-4 py-5 text-[12.5px] leading-relaxed text-ink-3">{t('No upcoming exam or deadline is published for this week view.')}</p>
+            )}
           </Panel>
         </aside>
       </div>

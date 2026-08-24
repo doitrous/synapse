@@ -87,6 +87,13 @@ export async function apiFetchFile(path: string): Promise<ArrayBuffer> {
   return res.arrayBuffer()
 }
 
+/** Fetch authenticated media while preserving its server-verified MIME type. */
+export async function apiFetchBlob(path: string): Promise<Blob> {
+  const res = await fetch(`${BASE}${path}`, { headers: await headers() })
+  if (!res.ok) throw new ApiError(res.status, `GET ${path}`)
+  return res.blob()
+}
+
 /** Open an authenticated file in a new tab, optionally at an exact PDF page. */
 export async function apiOpenFile(path: string, fragment = ''): Promise<void> {
   // Open synchronously so browsers treat this as the user's click, then sever

@@ -2,7 +2,7 @@ import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
   clearsStoredSitting, finishedManifests, liveSittingId, pendingAttempts, persistsSitting,
-  restorableQuestions, selectClearsStrike, type StoredSitting,
+  paceBand, restorableQuestions, selectClearsStrike, timedClock, type StoredSitting,
 } from './qbankSession.ts'
 import type { Question } from './qbank.ts'
 
@@ -123,4 +123,22 @@ test('a sitting whose answers are all recorded commits nothing again', () => {
 
 test('a question left unanswered is not committed', () => {
   assert.deepEqual(pendingAttempts(POOL, {}, {}), [])
+})
+
+test('a timed sitting counts down from ninety seconds per question', () => {
+  assert.deepEqual(timedClock(3, 1), { remaining: 269, overtime: 0 })
+  assert.deepEqual(timedClock(3, 270), { remaining: 0, overtime: 0 })
+})
+
+test('a timed sitting continues upward as explicit overtime', () => {
+  assert.deepEqual(timedClock(2, 193), { remaining: 0, overtime: 13 })
+})
+
+test('question pace uses the agreed inclusive boundaries', () => {
+  assert.equal(paceBand(45), 'good')
+  assert.equal(paceBand(46), 'target')
+  assert.equal(paceBand(60), 'target')
+  assert.equal(paceBand(61), 'slower')
+  assert.equal(paceBand(90), 'slower')
+  assert.equal(paceBand(91), 'overtime')
 })

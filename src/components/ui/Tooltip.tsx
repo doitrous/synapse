@@ -20,11 +20,13 @@ function call<E>(handler: unknown, event: E) {
 
 export function Tooltip({
   content,
+  label,
   children,
   disabled = false,
   className,
 }: {
-  content: ReactNode
+  content?: ReactNode
+  label?: ReactNode
   children: Trigger
   disabled?: boolean
   className?: string
@@ -32,13 +34,16 @@ export function Tooltip({
   const id = useId()
   const [open, setOpen] = useState(false)
   const touchOpened = useRef(false)
-  if (!isValidElement(children) || disabled) return children
+  const tooltip = content ?? label
+  if (!tooltip || !isValidElement(children) || disabled) return children
 
   const props = children.props
+  const describedBy = [open ? id : undefined, props['aria-describedby']].filter(Boolean).join(' ') || undefined
+
   return (
     <span className={cn('relative inline-flex min-w-0', className)}>
       {cloneElement(children, {
-        'aria-describedby': open ? id : props['aria-describedby'],
+        'aria-describedby': describedBy,
         onPointerEnter: (event: PointerEvent) => {
           call(props.onPointerEnter, event)
           if (event.pointerType !== 'touch') setOpen(true)
@@ -75,9 +80,9 @@ export function Tooltip({
         <span
           id={id}
           role="tooltip"
-          className="pointer-events-none absolute bottom-[calc(100%+0.45rem)] start-1/2 z-[90] w-max max-w-64 -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop animate-pop"
+          className="pointer-events-none absolute bottom-[calc(100%+0.45rem)] start-1/2 z-[90] w-max max-w-64 -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-center text-[11.5px] font-medium leading-snug text-paper shadow-pop animate-pop"
         >
-          {content}
+          {tooltip}
         </span>
       )}
     </span>

@@ -1,4 +1,4 @@
-import type { ManagedContentItem } from './contentControl'
+import { blockingMediaRequests, type ManagedContentItem } from './contentControl.ts'
 
 /**
  * Whether publishing an item would actually give a student something to read.
@@ -24,6 +24,8 @@ export interface PublishReadiness {
    * do nothing at all.
    */
   alreadyPublished?: boolean
+  /** Required media is never bypassable, even when another editorial gate is. */
+  hardBlocked?: boolean
 }
 
 const GATE_REASON: Record<string, string> = {
@@ -34,6 +36,14 @@ const GATE_REASON: Record<string, string> = {
 }
 
 export function publishReadiness(item: ManagedContentItem): PublishReadiness {
+  const missingMedia = blockingMediaRequests(item)
+  if (missingMedia.length) {
+    return {
+      ready: false,
+      reason: `${missingMedia.length} required media ${missingMedia.length === 1 ? 'request' : 'requests'} unresolved`,
+      hardBlocked: true,
+    }
+  }
   if (item.status === 'Published') return { ready: false, reason: 'Already published', alreadyPublished: true }
   if (item.kind !== 'article') return { ready: true, reason: '' }
 
@@ -58,16 +68,16 @@ export function publishReadiness(item: ManagedContentItem): PublishReadiness {
 export function partitionByReadiness(items: ManagedContentItem[]): {
   ready: ManagedContentItem[]
   live: ManagedContentItem[]
-  blocked: Array<{ item: ManagedContentItem; reason: string }>
+  blocked: Array<{ item: ManagedContentItem; reason: string; hardBlocked: boolean }>
 } {
   const ready: ManagedContentItem[] = []
   const live: ManagedContentItem[] = []
-  const blocked: Array<{ item: ManagedContentItem; reason: string }> = []
+  const blocked: Array<{ item: ManagedContentItem; reason: string; hardBlocked: boolean }> = []
   for (const item of items) {
     const verdict = publishReadiness(item)
     if (verdict.ready) ready.push(item)
     else if (verdict.alreadyPublished) live.push(item)
-    else blocked.push({ item, reason: verdict.reason })
+    else blocked.push({ item, reason: verdict.reason, hardBlocked: verdict.hardBlocked === true })
   }
   return { ready, live, blocked }
 }

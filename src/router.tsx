@@ -79,6 +79,10 @@ const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'
 const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const SpotterPage = lazyNamed(() => import('@/components/games/SpotterPage'), 'SpotterPage')
 const TermMatchPage = lazyNamed(() => import('@/components/games/TermMatchPage'), 'TermMatchPage')
+const MinigamesHubPage = lazyNamed(() => import('@/components/games/MinigamesHubPage'), 'MinigamesHubPage')
+const ClinicalSequencePage = lazyNamed(() => import('@/components/games/ClinicalSequencePage'), 'ClinicalSequencePage')
+const MechanismChainPage = lazyNamed(() => import('@/components/games/MechanismChainPage'), 'MechanismChainPage')
+const RedFlagSortPage = lazyNamed(() => import('@/components/games/RedFlagSortPage'), 'RedFlagSortPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
@@ -90,6 +94,7 @@ const StudyTogether = lazyNamed(() => import('@/pages/student/StudyTogether'), '
 const Billing = lazyNamed(() => import('@/pages/student/Billing'), 'Billing')
 const Account = lazyNamed(() => import('@/pages/student/Account'), 'Account')
 
+const PlatformDashboard = lazyNamed(() => import('@/pages/admin/PlatformDashboard'), 'PlatformDashboard')
 const ControlDashboard = lazyNamed(() => import('@/pages/admin/ControlDashboard'), 'ControlDashboard')
 const AcademicSetup = lazyNamed(() => import('@/pages/admin/AcademicSetup'), 'AcademicSetup')
 const PaymentsFinance = lazyNamed(() => import('@/pages/admin/PaymentsFinance'), 'PaymentsFinance')
@@ -136,6 +141,10 @@ const studentPages: Record<string, Preloadable> = {
   'term-grid': TermGridPage,
   spotter: SpotterPage,
   'term-match': TermMatchPage,
+  minigames: MinigamesHubPage,
+  'clinical-sequence': ClinicalSequencePage,
+  'mechanism-chain': MechanismChainPage,
+  'red-flag-sort': RedFlagSortPage,
   practical: Practical,
   flashcards: Flashcards,
   essays: EssayQuestions,
@@ -190,7 +199,9 @@ const adminBuilt: Record<string, ReactElement> = {
   assistant: render(AssistantSetup),
 }
 
-const studentPaths = ['library', 'qbank', 'adaptive', 'practical', 'flashcards', 'essays', 'resources', 'taxonomy', 'term-grid', 'spotter', 'term-match', 'calendar', 'performance', 'whiteboard', 'notebook', 'study-together', 'billing', 'account']
+// Keep mounted routes and preloadable student pages in one registry so a new
+// page cannot be linked in navigation while silently falling through to 404.
+const studentPaths = Object.keys(studentPages)
 const adminPaths = ['academic', 'library', 'questions', 'adaptive', 'concepts', 'relationships', 'taxonomy', 'glossary', 'practical', 'flashcards', 'written', 'histology', 'resources', 'reports', 'users', 'students', 'notifications', 'vouchers', 'email', 'mailbox', 'payments', 'privacy', 'settings', 'audit', 'assistant', 'access']
 
 const studentRoutes = [
@@ -236,7 +247,7 @@ const guarded = (path: string, element: ReactElement) => ({
  */
 function AdminHome() {
   const identity = useIdentity()
-  if (identity.tabs.includes('dashboard')) return <ControlDashboard />
+  if (identity.tabs.includes('dashboard')) return <PlatformDashboard />
   const first = ADMIN_TAB_VIEWS.find((view) => view.id !== 'dashboard' && identity.tabs.includes(view.id))
   return first ? <Navigate to={first.to} replace /> : <Navigate to="/app" replace />
 }
@@ -271,6 +282,7 @@ const adminApp = {
     guarded('library/coverage', render(MedicalCoverageReview)),
     guarded('library/media', render(MediaRequests)),
     guarded('library/evidence/import', render(EvidenceImportPage)),
+    { path: 'content', element: <RequireAuth tab="library">{render(ControlDashboard)}</RequireAuth> },
     ...adminRoutes,
   ],
 }

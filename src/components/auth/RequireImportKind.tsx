@@ -10,6 +10,7 @@ const IMPORT_TAB_BY_KIND: Record<string, string> = {
   deck: 'flashcards',
   essay: 'written',
   histology: 'histology',
+  minigame: 'practical',
 }
 
 export function RequireImportKind({ children }: { children: ReactElement }) {

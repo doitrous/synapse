@@ -12,7 +12,7 @@
  */
 
 import { isDue, type CardSchedule, type SrsConfig } from './srs.ts'
-import type { ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type ManagedContentItem } from './contentControl.ts'
 
 export interface DeckCard {
   id: string
@@ -93,7 +93,7 @@ export function parseCardLines(text: string): DeckCard[] {
  * has nothing in it regardless of status.
  */
 export function managedDeckToStudentDeck(item: ManagedContentItem): StudentDeck | null {
-  if (item.status !== 'Published') return null
+  if (!isStudentPublishable(item)) return null
   const data = item.deckData
   if (!data || data.cards.length === 0) return null
   return {

@@ -42,5 +42,6 @@ export function IconButton({
       <Icon icon={icon} size={size === 'sm' ? 16 : 18} strokeWidth={2.1} />
     </button>
   )
+
   return <Tooltip content={label}>{button}</Tooltip>
 }

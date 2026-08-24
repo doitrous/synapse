@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
 import { API_MODE } from './api'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty } from '@/data/qbank'
 import {
   osceStations as DEMO_OSCE,
@@ -49,7 +49,10 @@ export function useLivePracticals() {
   return useMemo(() => {
     const items = ledger.filter((i) => i.kind === 'practical')
     const byId = new Map(items.map((i) => [i.id, i]))
-    const archived = (id: string) => byId.get(id)?.status === 'Archived'
+    const archived = (id: string) => {
+      const item = byId.get(id)
+      return item?.status === 'Archived' || (item?.status === 'Published' && !isStudentPublishable(item))
+    }
     const seededIds = new Set([...SEED_OSCE, ...SEED_CASES, ...SEED_LAB].map((x) => x.id))
 
     const osceStations: OsceStation[] = SEED_OSCE.filter((s) => !archived(s.id)).map((s) => {
@@ -73,7 +76,7 @@ export function useLivePracticals() {
 
     // Admin-created (published) practicals with no seed → appended by their type.
     items
-      .filter((i) => !seededIds.has(i.id) && i.status === 'Published')
+      .filter((i) => !seededIds.has(i.id) && isStudentPublishable(i))
       .forEach((i) => {
         const type = i.fields.Type
         // A checklist runs through the station runner with no actor, so it joins

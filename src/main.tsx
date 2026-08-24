@@ -7,6 +7,7 @@ import { ThemeProvider } from './lib/useTheme'
 import { IdentityProvider } from './lib/useIdentity'
 import { ErrorBoundary } from './components/shell/ErrorBoundary'
 import { isAdminHost } from './lib/portalHost'
+import { API_MODE } from './lib/api'
 
 // Self-hosted variable fonts (Fontsource) — offline, no external requests.
 // Orbitron is the logotype's own geometric sans: brand lockups only, never UI.
@@ -29,16 +30,30 @@ if (isAdminHost()) {
   document.head.appendChild(robots)
 }
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <ErrorBoundary>
-      <ThemeProvider>
-        <I18nProvider>
-          <IdentityProvider>
-            <RouterProvider router={router} />
-          </IdentityProvider>
-        </I18nProvider>
-      </ThemeProvider>
-    </ErrorBoundary>
-  </StrictMode>,
-)
+async function startApp() {
+  // Keep the local showcase populated for review without putting fixture code
+  // on the live startup path or sending fixture data to a configured backend.
+  // Existing browser-owned work is preserved and wins over every demo fixture.
+  if (!API_MODE) {
+    try {
+      const { seedDemoShowcase } = await import('./data/demoPreview')
+      seedDemoShowcase(window.localStorage)
+    } catch { /* storage may be unavailable */ }
+  }
+
+  createRoot(document.getElementById('root')!).render(
+    <StrictMode>
+      <ErrorBoundary>
+        <ThemeProvider>
+          <I18nProvider>
+            <IdentityProvider>
+              <RouterProvider router={router} />
+            </IdentityProvider>
+          </I18nProvider>
+        </ThemeProvider>
+      </ErrorBoundary>
+    </StrictMode>,
+  )
+}
+
+void startApp()

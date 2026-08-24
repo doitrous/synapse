@@ -3,6 +3,7 @@ import assert from 'node:assert/strict'
 import {
   PRIVATE_FIELDS,
   PUBLIC_FIELDS,
+  hasUnresolvedRequiredMedia,
   redactItem,
   redactLedgerForStudent,
   redactMediaForStudent,
@@ -10,6 +11,28 @@ import {
   MEDIA_STUDENT_FIELDS,
   REDACTED_STATE_KEYS,
 } from './studentLedger.js'
+
+test('required media excludes published content at any anchor until an asset fulfils it', () => {
+  const item = authoredQuestion({
+    questionData: {
+      mediaRequests: [{ priority: 'required', status: 'needed' }],
+      answers: [{ text: 'A', mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'media-2' }] }],
+    },
+  })
+  assert.equal(hasUnresolvedRequiredMedia(item), true)
+  assert.equal(redactItem(item), null)
+
+  item.questionData.mediaRequests[0] = { priority: 'required', status: 'supplied', mediaId: 'media-1' }
+  assert.equal(hasUnresolvedRequiredMedia(item), false)
+  assert.notEqual(redactItem(item), null)
+})
+
+test('declining required media does not bypass the publication gate', () => {
+  const item = authoredQuestion({
+    questionData: { mediaRequests: [{ priority: 'required', status: 'declined' }] },
+  })
+  assert.equal(redactItem(item), null)
+})
 
 /** A published question carrying everything an author would put on one. */
 function authoredQuestion(overrides = {}) {

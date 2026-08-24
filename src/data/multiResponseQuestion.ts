@@ -1,4 +1,4 @@
-import type { AnswerLabel, ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type AnswerLabel, type ManagedContentItem } from './contentControl.ts'
 
 /**
  * A multiple-response question: several options, more than one of them right.
@@ -81,7 +81,7 @@ export function multiResponseErrors(
 }
 
 export function managedMultiToStudentMulti(item: ManagedContentItem): MultiResponseQuestionView | null {
-  if (item.kind !== 'question' || item.status !== 'Published') return null
+  if (item.kind !== 'question' || !isStudentPublishable(item)) return null
   const data = item.questionData
   if (data?.format !== 'mcq_multi') return null
   const correctAnswers = data.multiResponse?.correctAnswers ?? []

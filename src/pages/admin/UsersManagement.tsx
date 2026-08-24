@@ -26,6 +26,7 @@ import {
   EXTENSION_PRESETS, entitlementLabel, entitlementTone, shortDate,
   type AdminUser, type AdminUserDetail,
 } from '@/data/adminUsers'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
 
 /**
  * Every action on this page is consequential and several are hard to undo, so
@@ -49,7 +50,18 @@ type PendingAction =
   | { kind: 'profile'; name: string; email: string; year: string; universityId: string; notes: string }
   | { kind: 'role'; role: StoredRole }
 
-const PLAN_OPTIONS = ['Free', 'QBank', 'Adaptive', 'Adaptive add-on', 'Exam Sprint']
+const PLAN_OPTIONS = ['All access']
+
+interface EnrollmentChangeRequest {
+  id: string
+  field: 'university' | 'year'
+  currentValue: string | null
+  requestedValue: string
+  reason: string
+  status: string
+  createdAt: string
+  student?: { name?: string | null; email?: string | null; username?: string | null; profileIcon?: string | null }
+}
 
 /**
  * The visible roster as a spreadsheet.
@@ -98,6 +110,10 @@ export function UsersManagement() {
   const [resetLink, setResetLink] = useState<string | null>(null)
   const [activity, setActivity] = useState<UserActivity | null>(null)
   const [activityBusy, setActivityBusy] = useState(false)
+  const [enrollmentRequests, setEnrollmentRequests] = useState<EnrollmentChangeRequest[]>([])
+  const [enrollmentNote, setEnrollmentNote] = useState('')
+  const [enrollmentBusy, setEnrollmentBusy] = useState<string | null>(null)
+  const [enrollmentError, setEnrollmentError] = useState('')
   /**
    * The roles this actor may give this person.
    *
@@ -121,6 +137,38 @@ export function UsersManagement() {
   }, [query])
 
   useEffect(() => { void load(filters) }, [filters, load])
+
+  const loadEnrollmentRequests = useCallback(async () => {
+    if (!API_MODE) return
+    try {
+      const response = await apiGet<{ requests: EnrollmentChangeRequest[] }>('/admin/enrollment-change-requests?status=pending')
+      setEnrollmentRequests(response.requests)
+      setEnrollmentError('')
+    } catch {
+      setEnrollmentError('Could not load enrollment change requests.')
+    }
+  }, [])
+
+  useEffect(() => { void loadEnrollmentRequests() }, [loadEnrollmentRequests])
+
+  async function decideEnrollmentRequest(id: string, decision: 'approve' | 'reject') {
+    if (enrollmentNote.trim().length < 8) {
+      setEnrollmentError('Write an admin note of at least 8 characters before deciding.')
+      return
+    }
+    setEnrollmentBusy(id)
+    setEnrollmentError('')
+    try {
+      await apiPost(`/admin/enrollment-change-requests/${encodeURIComponent(id)}/${decision}`, { note: enrollmentNote })
+      setEnrollmentNote('')
+      await loadEnrollmentRequests()
+      await refresh()
+    } catch (error) {
+      setEnrollmentError(error instanceof Error ? error.message : 'The enrollment request was refused.')
+    } finally {
+      setEnrollmentBusy(null)
+    }
+  }
 
   const openUser = useCallback(async (id: string) => {
     setSelectedId(id)
@@ -213,6 +261,52 @@ export function UsersManagement() {
           </Panel>
         ))}
       </div>
+
+      <Panel className="overflow-hidden">
+        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-line px-4 py-3">
+          <div>
+            <h3 className="text-[13.5px] font-bold text-ink">Pending enrollment changes</h3>
+            <p className="mt-0.5 text-[12px] text-ink-3">Students can request a locked university or year change; admins approve or reject with an audit note.</p>
+          </div>
+          <Button size="sm" variant="ghost" iconLeft={RefreshCw} onClick={() => void loadEnrollmentRequests()}>Refresh</Button>
+        </div>
+        {enrollmentError && <p role="alert" className="border-b border-line bg-warning-tint px-4 py-2 text-[12.5px] text-warning">{enrollmentError}</p>}
+        <div className="p-4">
+          {enrollmentRequests.length === 0 ? (
+            <p className="text-[12.5px] text-ink-3">No pending enrollment changes.</p>
+          ) : (
+            <div className="space-y-3">
+              <Field label="Admin note" hint="Stored with the approve/reject decision.">
+                <TextInput value={enrollmentNote} onChange={(event) => setEnrollmentNote(event.target.value)} placeholder="Why is this request being accepted or refused?" />
+              </Field>
+              <Table>
+                <thead><tr><Th>Student</Th><Th>Requested change</Th><Th>Reason</Th><Th align="end">Decision</Th></tr></thead>
+                <tbody>
+                  {enrollmentRequests.map((request) => (
+                    <Tr key={request.id}>
+                      <Td>
+                        <p className="font-medium text-ink">{request.student?.name || request.student?.username || 'Student'}</p>
+                        <p className="text-[11.5px] text-ink-3">{request.student?.email ?? request.id}</p>
+                      </Td>
+                      <Td className="text-[12.5px] text-ink-2">
+                        <span className="font-medium capitalize text-ink">{request.field}</span>
+                        <span className="tnum font-mono"> · {request.currentValue ?? 'unset'} → {request.requestedValue}</span>
+                      </Td>
+                      <Td className="max-w-sm text-[12.5px] text-ink-2">{request.reason}</Td>
+                      <Td align="end">
+                        <div className="inline-flex gap-1.5">
+                          <Button size="sm" variant="primary" loading={enrollmentBusy === request.id} onClick={() => void decideEnrollmentRequest(request.id, 'approve')}>Approve</Button>
+                          <Button size="sm" variant="secondary" loading={enrollmentBusy === request.id} onClick={() => void decideEnrollmentRequest(request.id, 'reject')}>Reject</Button>
+                        </div>
+                      </Td>
+                    </Tr>
+                  ))}
+                </tbody>
+              </Table>
+            </div>
+          )}
+        </div>
+      </Panel>
 
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_26rem]">
         {/* ---- Roster ---- */}
@@ -332,7 +426,7 @@ export function UsersManagement() {
                 <p className="mb-2 text-[11.5px] font-semibold uppercase tracking-[0.06em] text-ink-3">Manage</p>
                 <div className="flex flex-wrap gap-1.5">
                   <Button size="sm" variant="secondary" iconLeft={CalendarPlus}
-                    onClick={() => setPending({ kind: 'extend', plan: detail.entitlement.plan === 'Free' ? 'QBank' : detail.entitlement.plan, days: 30, note: '' })}>
+                    onClick={() => setPending({ kind: 'extend', plan: 'All access', days: 30, note: '' })}>
                     Extend
                   </Button>
                   <Button size="sm" variant="secondary" iconLeft={Ban} disabled={detail.entitlement.state === 'none'}

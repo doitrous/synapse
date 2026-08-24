@@ -2,7 +2,7 @@ import { strict as assert } from 'node:assert'
 import test from 'node:test'
 import {
   BOARD, NOTE_HEIGHT, NOTE_WIDTH, anchorOf, clampToBoard, clampView, defaultControls,
-  linkPath, matchNotes, noteAt, sidesBetween, toBoard, viewCentredOn,
+  linkPath, matchNotes, minimapViewport, noteAt, panViewByBoardDelta, sidesBetween, toBoard, viewCentredOn, viewFromMinimapPoint,
 } from './whiteboardGeometry.ts'
 
 const note = (id: string, x: number, y: number, text = '') => ({ id, x, y, text })
@@ -108,4 +108,28 @@ test('centring on a point puts it mid-viewport, and stays on the board', () => {
   assert.equal(view.y, 350 - 1500)
   // A point near the corner cannot be centred without leaving the board.
   assert.equal(viewCentredOn({ x: 0, y: 0 }, viewport, 1).x, 0)
+})
+
+test('minimap viewport is computed in board coordinates without rounding', () => {
+  const view = { x: -123.456, y: -78.9, scale: 1.25 }
+  const viewport = minimapViewport(view, { width: 1440.5, height: 812.25 }, { width: 190, height: 112 })
+  assert.equal(viewport.x, (-view.x / view.scale) * (112 / BOARD.height))
+  assert.equal(viewport.y, (-view.y / view.scale) * (112 / BOARD.height))
+  assert.equal(viewport.width, (1440.5 / view.scale) * (112 / BOARD.height))
+  assert.equal(viewport.height, (812.25 / view.scale) * (112 / BOARD.height))
+})
+
+test('clicking the minimap centres that board point in the main viewport', () => {
+  const viewport = { width: 1000, height: 700 }
+  const view = viewFromMinimapPoint({ x: 95, y: 56 }, viewport, { width: 190, height: 112 }, { x: 0, y: 0, scale: 1 })
+  assert.equal(view.x, 500 - (95 / (112 / BOARD.height)))
+  assert.equal(view.y, 350 - (56 / (112 / BOARD.height)))
+})
+
+test('keyboard minimap panning moves in board units and respects clamps', () => {
+  const viewport = { width: 1000, height: 700 }
+  const moved = panViewByBoardDelta({ x: -500, y: -500, scale: 2 }, { x: 12.5, y: -20.25 }, viewport)
+  assert.equal(moved.x, -525)
+  assert.equal(moved.y, -459.5)
+  assert.equal(panViewByBoardDelta({ x: 0, y: 0, scale: 1 }, { x: -100, y: 0 }, viewport).x, 0)
 })

@@ -46,6 +46,24 @@ export interface AttemptRecord {
   correct: boolean | null
   /** Null when the item was untimed. */
   seconds: number | null
+  /**
+   * The option the student chose and the keyed option at the time of marking.
+   *
+   * Optional for backward compatibility with the existing local attempt
+   * shards. Keeping both lets a previous test explain the student's reasoning
+   * without trying to reconstruct a wrong choice from a boolean verdict.
+   */
+  selectedIndex?: number
+  correctIndex?: number
+  /** The most specific authored curriculum label available for this item. */
+  subtopic?: string
+  /**
+   * Whole-sitting timing, repeated on the records written at submission.
+   * Legacy records have neither field and continue to use their per-question
+   * timings. The report takes the maximum rather than summing duplicates.
+   */
+  sessionDurationSeconds?: number
+  sessionOvertimeSeconds?: number
   /** Groups the records made in one sitting, so a session can be replayed. */
   sessionId: string
 }

@@ -124,7 +124,7 @@ export function PartiesPanel() {
               <TextInput value={name} onChange={(event) => setName(event.target.value)} placeholder={t('e.g. Y3 Cardiology group')} />
             </Field>
             <Button variant="primary" iconLeft={Plus} loading={busy} onClick={() => void createParty()}>
-              {t('Create and get a link')}
+              {t('Create and get a code')}
             </Button>
           </div>
         </Panel>
@@ -136,7 +136,7 @@ export function PartiesPanel() {
               <EmptyState
                 icon={Users}
                 title={t('No parties yet')}
-                description={t('Start one, join one open to your year, or join with a link.')}
+                description={t('Start one, join one open to your year, or join with a code.')}
               />
             </div>
           ) : (
@@ -198,7 +198,7 @@ export function PartiesPanel() {
         )}
 
         <Panel>
-          <PanelHeader title={t('Join with a link')} icon={LogIn} />
+          <PanelHeader title={t('Join with a code')} icon={LogIn} />
           <div className="space-y-3 p-5">
             <TextInput
               value={joinInput}

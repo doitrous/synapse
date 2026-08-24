@@ -53,6 +53,27 @@ test('a practical batch is not mistaken for a question batch', () => {
   assert.equal(detectBatchKind({ title: 'Station', type: 'OSCE station', mark_scheme: 'Opening (5): greets' }), 'practical')
 })
 
+test('a catalogue resource batch is distinct from an evidence source batch', () => {
+  assert.equal(detectBatchKind({ title: 'Slides', subject: 'cvs', type: 'Deck', source: 'ASU', status: 'Draft' }), 'catalogue-resource')
+  assert.equal(detectBatchKind({ title: 'Source PDF', institution: 'ASU', processing_status: 'pending' }), 'resource')
+})
+
+test('an authored minigame batch is detected from its game kind and payload', () => {
+  assert.equal(detectBatchKind({ kind: 'clinical_sequence', prompt: 'Order these', steps: 'a | First' }), 'minigame')
+  assert.equal(detectBatchKind({ kind: 'red_flag_sort', prompt: 'Sort these', findings: 'a | urgent | Finding | Why' }), 'minigame')
+})
+
+test('a bilingual glossary batch is detected from its authored fields', () => {
+  assert.equal(detectBatchKind({
+    id: 'tachycardia',
+    term: 'Tachycardia',
+    ar: 'تسرّع القلب',
+    category: 'Signs & symptoms',
+    def: 'A faster than normal heart rate.',
+    definition_ar: 'تسارع ضربات القلب عن المعدل الطبيعي.',
+  }), 'glossary')
+})
+
 test('a row that matches no contract stays unknown rather than becoming a concept', () => {
   // The failure this guards: falling back to 'concept' meant a stray question
   // batch was applied as sixteen concept upserts and nothing said so.

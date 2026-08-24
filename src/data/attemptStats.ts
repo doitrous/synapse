@@ -1,5 +1,6 @@
 import type { AttemptRecord, AttemptSurface } from './attempts'
 import type { Difficulty } from './qbank'
+import { paceBand, type PaceBand } from './qbankSession.ts'
 
 /**
  * Every number the student sees about their own work, derived here.
@@ -62,6 +63,12 @@ export function bySubject(records: AttemptRecord[]): Breakdown<string>[] {
 
 export function byTopic(records: AttemptRecord[]): Breakdown<string>[] {
   return group(records, (record) => record.topic).sort((a, b) => b.attempts - a.attempts)
+}
+
+/** The finest authored label available, falling back to the historical topic. */
+export function bySubtopic(records: AttemptRecord[]): Breakdown<string>[] {
+  return group(records, (record) => record.subtopic?.trim() || record.topic)
+    .sort((a, b) => b.attempts - a.attempts)
 }
 
 export function byDifficulty(records: AttemptRecord[]): Breakdown<Difficulty>[] {
@@ -260,10 +267,17 @@ export interface SessionDetail {
   /** Marked by nobody: a station ticked by the student is practice, not a score. */
   unmarked: number
   accuracy: number | null
+  /** Full wall-clock duration when recorded, otherwise summed item timings. */
+  durationSeconds: number
+  /** Compatibility alias used by the older previous-tests surface. */
   seconds: number
+  overtimeSeconds: number
+  averageSeconds: number | null
   medianSeconds: number | null
+  pace: Record<PaceBand, number>
   subjects: Breakdown<string>[]
   topics: Breakdown<string>[]
+  subtopics: Breakdown<string>[]
   /** Topics with at least one wrong answer, most wrong first. */
   missed: Breakdown<string>[]
   /**
@@ -275,6 +289,17 @@ export interface SessionDetail {
    * answer, and it is already listed under `missed`.
    */
   weakestTopic: Breakdown<string> | null
+  /** Topics missed here and in at least two earlier marked attempts. */
+  repeatedWeaknesses: string[]
+  answers: Array<{
+    itemId: string
+    topic: string
+    subtopic?: string
+    correct: boolean | null
+    selectedIndex?: number
+    correctIndex?: number
+    seconds: number | null
+  }>
 }
 
 export function sessionDetail(records: AttemptRecord[], sessionId: string): SessionDetail {
@@ -282,6 +307,18 @@ export function sessionDetail(records: AttemptRecord[], sessionId: string): Sess
   const scored = marked(own)
   const correct = scored.filter((record) => record.correct).length
   const topics = byTopic(own)
+  const timed = own.filter((record) => typeof record.seconds === 'number' && record.seconds >= 0)
+  const recordedDuration = own.reduce((longest, record) => Math.max(longest, record.sessionDurationSeconds ?? 0), 0)
+  const summedDuration = timed.reduce((sum, record) => sum + (record.seconds ?? 0), 0)
+  const durationSeconds = recordedDuration || summedDuration
+  const ownMissedTopics = new Set(own.filter((record) => record.correct === false).map((record) => record.topic))
+  const earlierWrongByTopic = new Map<string, number>()
+  for (const record of records) {
+    if (record.sessionId === sessionId || record.correct !== false) continue
+    earlierWrongByTopic.set(record.topic, (earlierWrongByTopic.get(record.topic) ?? 0) + 1)
+  }
+  const pace: Record<PaceBand, number> = { good: 0, target: 0, slower: 0, overtime: 0 }
+  for (const record of timed) pace[paceBand(record.seconds!)] += 1
   return {
     sessionId,
     answered: own.length,
@@ -290,14 +327,31 @@ export function sessionDetail(records: AttemptRecord[], sessionId: string): Sess
     wrong: scored.length - correct,
     unmarked: own.length - scored.length,
     accuracy: scored.length ? correct / scored.length : null,
-    seconds: own.reduce((sum, record) => sum + (record.seconds ?? 0), 0),
+    durationSeconds,
+    seconds: durationSeconds,
+    overtimeSeconds: own.reduce((longest, record) => Math.max(longest, record.sessionOvertimeSeconds ?? 0), 0),
+    averageSeconds: timed.length ? Math.round(summedDuration / timed.length) : null,
     medianSeconds: medianSeconds(own),
+    pace,
     subjects: bySubject(own),
     topics,
+    subtopics: bySubtopic(own),
     missed: topics
       .filter((topic) => topic.marked > topic.correct)
       .sort((a, b) => (b.marked - b.correct) - (a.marked - a.correct)),
     weakestTopic: weakest(topics, 2, 1)[0] ?? null,
+    repeatedWeaknesses: [...ownMissedTopics]
+      .filter((topic) => (earlierWrongByTopic.get(topic) ?? 0) >= 2)
+      .sort((a, b) => (earlierWrongByTopic.get(b) ?? 0) - (earlierWrongByTopic.get(a) ?? 0)),
+    answers: own.map((record) => ({
+      itemId: record.itemId,
+      topic: record.topic,
+      ...(record.subtopic ? { subtopic: record.subtopic } : {}),
+      correct: record.correct,
+      ...(typeof record.selectedIndex === 'number' ? { selectedIndex: record.selectedIndex } : {}),
+      ...(typeof record.correctIndex === 'number' ? { correctIndex: record.correctIndex } : {}),
+      seconds: record.seconds,
+    })),
   }
 }
 
@@ -334,7 +388,8 @@ export function bySession(records: AttemptRecord[]): SessionSummary[] {
       correct,
       accuracy: scored.length ? correct / scored.length : null,
       subjectIds: [...bySubject.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id),
-      seconds: group.reduce((sum, record) => sum + (record.seconds ?? 0), 0),
+      seconds: group.reduce((longest, record) => Math.max(longest, record.sessionDurationSeconds ?? 0), 0)
+        || group.reduce((sum, record) => sum + (record.seconds ?? 0), 0),
     })
   }
   return summaries.sort((a, b) => b.startedAt.localeCompare(a.startedAt))

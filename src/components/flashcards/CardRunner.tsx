@@ -114,24 +114,35 @@ export function CardRunner({ deckId, title, subjectId, cards, schedules, dailyCo
     setShowAnswer(false)
   }
 
-  function handleKeyDown(event: React.KeyboardEvent) {
-    const target = event.target as HTMLElement
+  useEffect(() => {
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.metaKey || event.ctrlKey || event.altKey) return
+      const target = event.target as HTMLElement | null
     // The deck screens this runner is opened from have a name field and card
     // fields of their own; stealing "1" out from under someone typing there
     // would be worse than not offering the shortcut at all.
-    if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.isContentEditable) return
-    if (!currentCard) return
-    if (event.key === ' ' && !showAnswer) {
+      if (target && (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA' || target.tagName === 'SELECT' || target.isContentEditable || target.getAttribute('role') === 'textbox')) return
+      if (event.key === 'Escape') {
+        event.preventDefault()
+        onExit()
+        return
+      }
+      if (!currentCard) return
+      if ((event.key === ' ' || event.code === 'Space') && !showAnswer) {
+        event.preventDefault()
+        setShowAnswer(true)
+        return
+      }
+      if (!showAnswer) return
+      const index = { '1': 0, '2': 1, '3': 2, '4': 3 }[event.key]
+      if (index === undefined) return
       event.preventDefault()
-      setShowAnswer(true)
-      return
+      commit(GRADES[index])
     }
-    if (!showAnswer) return
-    const index = { '1': 0, '2': 1, '3': 2, '4': 3 }[event.key]
-    if (index === undefined) return
-    event.preventDefault()
-    commit(GRADES[index])
-  }
+
+    window.addEventListener('keydown', handleKeyDown)
+    return () => window.removeEventListener('keydown', handleKeyDown)
+  })
 
   if (!currentCard) {
     return (
@@ -176,7 +187,6 @@ export function CardRunner({ deckId, title, subjectId, cards, schedules, dailyCo
     <div
       ref={containerRef}
       tabIndex={-1}
-      onKeyDown={handleKeyDown}
       className="mx-auto max-w-[42rem] px-4 py-6 outline-none sm:px-6"
     >
       <BackLink onExit={onExit} title={title} />

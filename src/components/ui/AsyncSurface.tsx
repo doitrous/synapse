@@ -30,7 +30,7 @@ export function AsyncSurface({
   return (
     <div className={cn('min-w-0', className)} aria-busy={loading || undefined} aria-live="polite">
       <span className="sr-only">{loading ? busyLabel : ''}</span>
-      {showFallback ? fallback : children}
+      {loading && showFallback ? fallback : children}
     </div>
   )
 }

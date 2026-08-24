@@ -122,9 +122,9 @@ export async function myRequests(userId) {
  * action offered on a result is "add".
  */
 export async function directorySearch(userId, query) {
-  const [me] = await pool.query('SELECT university_id, year FROM students WHERE user_id = ? LIMIT 1', [userId])
+  const [me] = await pool.query('SELECT university_id, year, discoverable FROM students WHERE user_id = ? LIMIT 1', [userId])
   const cohort = me[0]
-  if (!cohort?.university_id || !cohort?.year) return []
+  if (!cohort?.university_id || !cohort?.year || !Number(cohort.discoverable)) return []
   const term = `%${String(query ?? '').trim().slice(0, 60)}%`
   const [rows] = await pool.query(
     `SELECT s.user_id, COALESCE(s.name, s.email) AS name, s.university_id, s.year

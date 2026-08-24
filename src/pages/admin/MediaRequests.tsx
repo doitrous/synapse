@@ -1,26 +1,29 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, ImagePlus, TriangleAlert } from 'lucide-react'
+import { ArrowLeft, Eye, Flag, ImagePlus, MessageSquare, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
 import { Button, ButtonLink } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
-import { SearchInput, Select } from '@/components/ui/Field'
+import { SearchInput, Select, Textarea } from '@/components/ui/Field'
 import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useScopedItems } from '@/lib/useScopedContent'
+import { useIdentity } from '@/lib/useIdentity'
 import {
   CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA,
-  type MediaRequest, type ManagedContentItem, type PracticalAuthoringData,
+  type MediaRequest, type MediaReviewComment, type ManagedContentItem, type PracticalAuthoringData,
 } from '@/data/contentControl'
 import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
 import { MediaPicker } from '@/components/admin/MediaPicker'
 import { isStoredMediaReference } from '@/lib/mediaStorage'
-import type { MediaPlacement } from '@/data/mediaLibrary'
-import { useIdentity } from '@/lib/useIdentity'
+import {
+  MEDIA_STATE_KEY, emptyMediaLibrary, mediaUrl,
+  type MediaLibraryDocument, type MediaPlacement,
+} from '@/data/mediaLibrary'
 
 interface Row extends MediaRequest {
   ownerId: string
@@ -84,6 +87,7 @@ function rootOf(nodeId: string | undefined): { id: string; title: string } {
 export function MediaRequests() {
   const identity = useIdentity()
   const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [mediaLibrary] = usePersistentState<MediaLibraryDocument>(MEDIA_STATE_KEY, emptyMediaLibrary)
   // The backlog shows only what this person may work on. `ledger` stays in
   // scope below for one reason — see `nodeByArticle`.
   const scoped = useScopedItems(ledger)
@@ -93,6 +97,7 @@ export function MediaRequests() {
   const [owner, setOwner] = useState('all')
   const [priority, setPriority] = useState('all')
   const [status, setStatus] = useState('needed,planned')
+  const [reviewingId, setReviewingId] = useState<string | null>(null)
 
   const rows = useMemo<Row[]>(() => {
     // A question has no canonical placement of its own, so it inherits the one
@@ -141,6 +146,9 @@ export function MediaRequests() {
     })
   }, [medium, owner, priority, query, rows, status, system])
 
+  const reviewing = rows.find((row) => row.id === reviewingId) ?? null
+  const reviewingItem = reviewing ? ledger.find((item) => item.id === reviewing.ownerId) ?? null : null
+
   /**
    * Move one request along.
    *
@@ -161,6 +169,21 @@ export function MediaRequests() {
         const practicalData = { ...item.practicalData, mediaRequests: patch(item.practicalData.mediaRequests) } as PracticalAuthoringData
         return { ...item, practicalData }
       }
+      return item
+    }))
+  }
+
+  function addReviewComment(row: Row, comment: MediaReviewComment) {
+    setLedger((items) => items.map((item) => {
+      if (item.id !== row.ownerId) return item
+      const patch = (list: MediaRequest[] | undefined) => list?.map((request) => (
+        request.id === row.id
+          ? { ...request, reviewComments: [...(request.reviewComments ?? []), comment] }
+          : request
+      ))
+      if (item.kind === 'article' && item.articleData) return { ...item, articleData: { ...item.articleData, mediaRequests: patch(item.articleData.mediaRequests) } }
+      if (item.kind === 'question' && item.questionData) return { ...item, questionData: { ...item.questionData, mediaRequests: patch(item.questionData.mediaRequests) } }
+      if (item.kind === 'practical' && item.practicalData) return { ...item, practicalData: { ...item.practicalData, mediaRequests: patch(item.practicalData.mediaRequests) } as PracticalAuthoringData }
       return item
     }))
   }
@@ -198,22 +221,77 @@ export function MediaRequests() {
    */
   function fulfil(row: Row, mediaId: string) {
     setLedger((items) => items.map((item) => {
-      if (item.id !== row.ownerId || item.kind !== 'question' || !item.questionData) return item
-      const placement: MediaPlacement = {
-        id: `plc-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
-        mediaId,
-        slot: row.slot ?? 'stem',
-        ...(row.slot === 'answer' && row.answerLabel ? { answerLabel: row.answerLabel } : {}),
+      if (item.id !== row.ownerId) return item
+      const supplied = (requests: MediaRequest[] | undefined) => requests?.map((request) => (
+        request.id === row.id ? { ...request, status: 'supplied' as const, mediaId } : request
+      ))
+      if (item.kind === 'question' && item.questionData) {
+        const placement: MediaPlacement = {
+          id: `plc-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+          mediaId,
+          slot: row.slot ?? 'stem',
+          ...(row.slot === 'answer' && row.answerLabel ? { answerLabel: row.answerLabel } : {}),
+        }
+        return {
+          ...item,
+          questionData: {
+            ...item.questionData,
+            media: [...(item.questionData.media ?? []).filter((candidate) => candidate.id !== placement.id), placement],
+            mediaRequests: supplied(item.questionData.mediaRequests),
+          },
+        }
       }
-      return {
-        ...item,
-        questionData: {
-          ...item.questionData,
-          media: [...(item.questionData.media ?? []), placement],
-          mediaRequests: item.questionData.mediaRequests?.map((request) =>
-            request.id === row.id ? { ...request, status: 'supplied' as const, mediaId } : request),
-        },
+      const record = mediaLibrary.records.find((candidate) => candidate.id === mediaId)
+      if (!record) return item
+      if (item.kind === 'article' && item.articleData) {
+        return {
+          ...item,
+          articleData: {
+            ...item.articleData,
+            media: [...(item.articleData.media ?? []), {
+              id: `article-media-${Date.now().toString(36)}`,
+              type: 'image' as const,
+              sourceId: mediaId,
+              url: mediaUrl(mediaId),
+              caption: record.title,
+              altText: record.altText,
+              rights: record.rights,
+              necessity: row.teachingPurpose,
+              ...(row.anchorQuote ? { anchor: { quote: row.anchorQuote, ...(row.block ? { block: row.block } : {}) } } : {}),
+            }],
+            mediaRequests: supplied(item.articleData.mediaRequests),
+          },
+        }
       }
+      if (item.kind === 'practical' && item.practicalData) {
+        const url = mediaUrl(mediaId)
+        let practicalData: PracticalAuthoringData
+        if (item.practicalData.format === 'osce') {
+          practicalData = { ...item.practicalData, mediaUrl: url, mediaRequests: supplied(item.practicalData.mediaRequests) ?? [] }
+        } else if (item.practicalData.format === 'case') {
+          const target = row.section?.toLowerCase()
+          const index = Math.max(0, item.practicalData.decisions.findIndex((decision) => (
+            !target || decision.id.toLowerCase() === target || decision.title.toLowerCase() === target || decision.context.toLowerCase().includes(target)
+          )))
+          practicalData = {
+            ...item.practicalData,
+            decisions: item.practicalData.decisions.map((decision, current) => current === index ? { ...decision, mediaUrl: url } : decision),
+            mediaRequests: supplied(item.practicalData.mediaRequests) ?? [],
+          }
+        } else {
+          const target = row.section?.toLowerCase()
+          const index = Math.max(0, item.practicalData.questions.findIndex((question) => (
+            !target || question.id.toLowerCase() === target || question.context.toLowerCase().includes(target) || question.question.toLowerCase().includes(target)
+          )))
+          practicalData = {
+            ...item.practicalData,
+            questions: item.practicalData.questions.map((question, current) => current === index ? { ...question, mediaUrl: url } : question),
+            mediaRequests: supplied(item.practicalData.mediaRequests) ?? [],
+          }
+        }
+        return { ...item, practicalData }
+      }
+      return item
     }))
   }
 
@@ -292,6 +370,17 @@ export function MediaRequests() {
         </Panel>
       </div>
 
+      {reviewing && reviewingItem && (
+        <ReviewerWorkspace
+          row={reviewing}
+          item={reviewingItem}
+          reviewer={identity.displayName}
+          onClose={() => setReviewingId(null)}
+          onFulfil={fulfil}
+          onComment={addReviewComment}
+        />
+      )}
+
       <Panel className="overflow-hidden">
         <PanelHeader title="Backlog" icon={ImagePlus} hint={`${visible.length} shown`} />
         <div className="grid gap-2 border-b border-line p-3 sm:grid-cols-3 lg:grid-cols-5">
@@ -341,7 +430,14 @@ export function MediaRequests() {
                   </span>
                 </div>
                 <ul className="space-y-2">
-                  {ownerRows.map((row) => <RequestRow key={row.id} row={row} onStatus={setRequestStatus} onFulfil={fulfil} />)}
+                  {ownerRows.map((row) => (
+                    <RequestRow
+                      key={row.id}
+                      row={row}
+                      onStatus={setRequestStatus}
+                      onReview={() => setReviewingId(row.id)}
+                    />
+                  ))}
                 </ul>
               </section>
             ))}
@@ -374,14 +470,205 @@ export function MediaRequests() {
  * "supplied" meant that somebody typed it. Here the upload happens where the
  * request is, and the status follows from it.
  */
-function RequestRow({ row, onStatus, onFulfil }: {
+function anchorOptions(row: Row, item: ManagedContentItem): string[] {
+  if (item.kind === 'question') {
+    return [
+      'Question stem',
+      ...(item.questionData?.answers ?? []).flatMap((answer) => [`Answer ${answer.label}`, `Explanation ${answer.label}`]),
+    ]
+  }
+  if (item.kind === 'article') return ['Article summary', ...(item.articleData?.sections ?? []).map((section) => section.heading)]
+  if (item.practicalData?.format === 'osce') return ['Candidate instructions', 'Station media', 'Mark scheme']
+  if (item.practicalData?.format === 'case') return item.practicalData.decisions.map((decision) => decision.title || decision.id)
+  if (item.practicalData?.format === 'lab') return item.practicalData.questions.map((question) => question.id)
+  return [row.section || 'Content']
+}
+
+function requestedAnchor(row: Row): string {
+  if (row.slot === 'answer') return `Answer ${row.answerLabel ?? ''}`.trim()
+  if (row.slot === 'explanation') return row.answerLabel ? `Explanation ${row.answerLabel}` : 'Explanation'
+  if (row.slot === 'stem') return 'Question stem'
+  return row.section || (row.block === 'summary' ? 'Article summary' : 'Content')
+}
+
+function Target({ active, children }: { active: boolean; children: React.ReactNode }) {
+  return (
+    <div className={cn('rounded-lg border p-3', active ? 'border-warning bg-warning/10 ring-2 ring-warning/20' : 'border-line bg-surface')}>
+      {active && <p className="mb-1 text-[10.5px] font-bold uppercase tracking-[0.08em] text-warning-strong">Requested media goes here</p>}
+      {children}
+    </div>
+  )
+}
+
+function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentItem }) {
+  const anchor = requestedAnchor(row).toLowerCase()
+  if (item.kind === 'question' && item.questionData) {
+    return (
+      <div className="space-y-3">
+        <Target active={anchor === 'question stem'}><p className="text-[14px] font-semibold leading-relaxed text-ink">{item.title}</p></Target>
+        <ol className="space-y-2" aria-label="Answer choices">
+          {item.questionData.answers.map((answer) => (
+            <li key={answer.label} className="space-y-1.5">
+              <Target active={anchor === `answer ${answer.label}`.toLowerCase()}>
+                <p className="text-[12.5px] text-ink"><span className="me-2 font-bold">{answer.label}.</span>{answer.text}</p>
+              </Target>
+              {answer.explanation && (
+                <Target active={anchor === `explanation ${answer.label}`.toLowerCase() || (anchor === 'explanation' && answer.label === item.questionData?.correctAnswer)}>
+                  <p className="text-[11.5px] leading-relaxed text-ink-2"><span className="font-semibold">Explanation:</span> {answer.explanation}</p>
+                </Target>
+              )}
+            </li>
+          ))}
+        </ol>
+      </div>
+    )
+  }
+  if (item.kind === 'article' && item.articleData) {
+    return (
+      <article className="space-y-3">
+        <h3 className="font-serif text-xl font-semibold text-ink">{item.title}</h3>
+        <Target active={anchor === 'article summary' || row.block === 'summary'}><p className="text-[12.5px] leading-relaxed text-ink-2">{item.articleData.summary || 'No summary written yet.'}</p></Target>
+        {item.articleData.sections.map((section) => (
+          <Target key={section.id} active={anchor === section.heading.toLowerCase() || row.section === section.id || (row.anchorQuote ? `${section.body} ${section.narrative ?? ''}`.includes(row.anchorQuote) : false)}>
+            <h4 className="text-[13px] font-semibold text-ink">{section.heading}</h4>
+            <p className="mt-1 whitespace-pre-wrap text-[12px] leading-relaxed text-ink-2">{section.narrative || section.body || 'This section is empty.'}</p>
+          </Target>
+        ))}
+      </article>
+    )
+  }
+  const practical = item.practicalData
+  if (!practical) return <p className="text-[12px] text-ink-3">This content has no previewable student payload.</p>
+  if (practical.format === 'osce') {
+    return (
+      <div className="space-y-3">
+        <h3 className="font-serif text-xl font-semibold text-ink">{item.title}</h3>
+        <Target active={anchor === 'candidate instructions' || anchor === 'station media'}><p className="whitespace-pre-wrap text-[12.5px] leading-relaxed text-ink">{practical.candidateInstructions}</p></Target>
+      </div>
+    )
+  }
+  if (practical.format === 'case') {
+    return (
+      <div className="space-y-3">
+        <h3 className="font-serif text-xl font-semibold text-ink">{item.title}</h3>
+        {practical.decisions.map((decision) => (
+          <Target key={decision.id} active={anchor === decision.title.toLowerCase() || row.section === decision.id}>
+            <h4 className="text-[13px] font-semibold text-ink">{decision.title}</h4>
+            <p className="mt-1 text-[12px] text-ink-2">{decision.context}</p>
+            <p className="mt-2 text-[12.5px] font-medium text-ink">{decision.question}</p>
+          </Target>
+        ))}
+      </div>
+    )
+  }
+  return (
+    <div className="space-y-3">
+      <h3 className="font-serif text-xl font-semibold text-ink">{item.title}</h3>
+      {practical.questions.map((question) => (
+        <Target key={question.id} active={anchor === question.id.toLowerCase() || row.section === question.id}>
+          <p className="text-[12px] text-ink-2">{question.context}</p>
+          <p className="mt-2 text-[12.5px] font-medium text-ink">{question.question}</p>
+        </Target>
+      ))}
+    </div>
+  )
+}
+
+function ReviewerWorkspace({ row, item, reviewer, onClose, onFulfil, onComment }: {
+  row: Row
+  item: ManagedContentItem
+  reviewer: string
+  onClose: () => void
+  onFulfil: (row: Row, mediaId: string) => void
+  onComment: (row: Row, comment: MediaReviewComment) => void
+}) {
+  const anchors = anchorOptions(row, item)
+  const [anchor, setAnchor] = useState(requestedAnchor(row))
+  const [comment, setComment] = useState('')
+  const [picking, setPicking] = useState(false)
+
+  function saveComment(kind: MediaReviewComment['kind']) {
+    const text = comment.trim()
+    if (!text) return
+    onComment(row, {
+      id: `media-comment-${Date.now().toString(36)}`,
+      anchor,
+      kind,
+      text,
+      author: reviewer,
+      createdAt: new Date().toISOString(),
+    })
+    setComment('')
+  }
+
+  return (
+    <Panel className="mb-4 overflow-hidden" aria-label={`Review media request for ${row.ownerTitle}`}>
+      <PanelHeader title="Reviewer workspace" icon={Eye} hint="Student view and fulfilment" />
+      <div className="grid lg:grid-cols-[minmax(0,1.35fr)_minmax(20rem,0.65fr)]">
+        <section className="border-b border-line p-4 lg:border-b-0 lg:border-e" aria-label="Student preview">
+          <div className="mb-3 flex items-center justify-between gap-3">
+            <div>
+              <p className="text-[10.5px] font-bold uppercase tracking-[0.08em] text-ink-3">Exactly as authored for students</p>
+              <p className="mt-0.5 text-[12px] text-ink-2">The amber frame marks the slot this request must fulfil.</p>
+            </div>
+            <Button size="sm" variant="ghost" onClick={onClose}>Close</Button>
+          </div>
+          <StudentContentPreview row={row} item={item} />
+        </section>
+        <aside className="space-y-4 bg-surface-2/45 p-4">
+          <div>
+            <div className="flex flex-wrap gap-1.5">
+              <Badge tone={PRIORITY_TONE[row.priority] ?? 'neutral'}>{row.priority}</Badge>
+              <Badge tone="outline">{row.medium}{row.medium === 'image' ? ` · ${row.kind}` : ''}</Badge>
+              <Badge tone={row.status === 'supplied' ? 'success' : 'warning'}>{row.status}</Badge>
+            </div>
+            <h3 className="mt-2 text-[14px] font-semibold text-ink">{row.brief}</h3>
+            <p className="mt-1 text-[12px] leading-relaxed text-ink-2"><span className="font-semibold">Why it is needed:</span> {row.teachingPurpose || 'No teaching purpose recorded.'}</p>
+            {row.sourceDirection && <p className="mt-1 text-[11.5px] text-ink-3"><span className="font-semibold">Source direction:</span> {row.sourceDirection}</p>}
+            {row.rightsNotes && <p className="mt-1 text-[11.5px] text-ink-3"><span className="font-semibold">Rights:</span> {row.rightsNotes}</p>}
+          </div>
+
+          {row.status !== 'supplied' && row.medium === 'image' && !picking && (
+            <Button size="sm" variant="primary" iconLeft={ImagePlus} onClick={() => setPicking(true)}>Upload or choose image</Button>
+          )}
+          {picking && <MediaPicker onPick={(mediaId) => { setPicking(false); onFulfil(row, mediaId) }} onCancel={() => setPicking(false)} />}
+          {row.status !== 'supplied' && row.medium !== 'image' && (
+            <p className="rounded-lg border border-line bg-surface p-3 text-[11.5px] leading-relaxed text-ink-2">Audio and video requests remain publication-blocking until the managed media service accepts those formats.</p>
+          )}
+
+          <div className="border-t border-line pt-4">
+            <p className="flex items-center gap-1.5 text-[12px] font-semibold text-ink"><Icon icon={MessageSquare} size={14} /> Anchored review notes</p>
+            <Select className="mt-2" aria-label="Comment anchor" value={anchor} onChange={(event) => setAnchor(event.target.value)}>
+              {[...new Set([requestedAnchor(row), ...anchors])].map((value) => <option key={value} value={value}>{value}</option>)}
+            </Select>
+            <Textarea className="mt-2 min-h-24" value={comment} onChange={(event) => setComment(event.target.value)} placeholder="Explain the issue or leave guidance for the author…" />
+            <div className="mt-2 flex flex-wrap gap-2">
+              <Button size="sm" variant="secondary" iconLeft={MessageSquare} disabled={!comment.trim()} onClick={() => saveComment('comment')}>Add comment</Button>
+              <Button size="sm" variant="ghost" iconLeft={Flag} disabled={!comment.trim()} onClick={() => saveComment('problem')}>Report a problem</Button>
+            </div>
+            {(row.reviewComments?.length ?? 0) > 0 && (
+              <ol className="mt-3 space-y-2">
+                {row.reviewComments?.map((entry) => (
+                  <li key={entry.id} className={cn('rounded-lg border p-2.5', entry.kind === 'problem' ? 'border-danger/30 bg-danger/5' : 'border-line bg-surface')}>
+                    <p className="text-[10.5px] font-semibold uppercase tracking-[0.05em] text-ink-3">{entry.kind === 'problem' ? 'Problem' : 'Comment'} · {entry.anchor}</p>
+                    <p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{entry.text}</p>
+                    <p className="mt-1 text-[10.5px] text-ink-3">{entry.author} · {new Date(entry.createdAt).toLocaleString()}</p>
+                  </li>
+                ))}
+              </ol>
+            )}
+          </div>
+        </aside>
+      </div>
+    </Panel>
+  )
+}
+
+function RequestRow({ row, onStatus, onReview }: {
   row: Row
   onStatus: (row: Row, next: MediaRequest['status']) => void
-  onFulfil: (row: Row, mediaId: string) => void
+  onReview: () => void
 }) {
-  const [picking, setPicking] = useState(false)
-  const fulfillable = row.ownerKind === 'question' && row.medium === 'image'
-
   return (
     <li className="rounded-lg border border-line bg-surface-2/50 p-3">
       <div className="flex flex-wrap items-start gap-2">
@@ -411,22 +698,8 @@ function RequestRow({ row, onStatus, onFulfil }: {
             <option key={value} value={value} disabled={value === 'supplied' && row.status !== 'supplied'}>{value}</option>
           ))}
         </Select>
-        {fulfillable && row.status !== 'supplied' && !picking && (
-          <Button size="sm" variant="secondary" iconLeft={ImagePlus} onClick={() => setPicking(true)}>Supply it</Button>
-        )}
+        <Button size="sm" variant="secondary" iconLeft={Eye} onClick={onReview}>Review &amp; supply</Button>
       </div>
-      {picking && (
-        <div className="mt-2">
-          <MediaPicker onPick={(mediaId) => { setPicking(false); onFulfil(row, mediaId) }} onCancel={() => setPicking(false)} />
-        </div>
-      )}
-      {!fulfillable && row.status !== 'supplied' && (
-        <p className="mt-1.5 text-[11px] text-ink-3">
-          {row.medium === 'image'
-            ? 'Only questions can be supplied from here so far. Attach this one in its own editor.'
-            : `${row.medium} is not held in the media library yet. Attach it in the item's own editor.`}
-        </p>
-      )}
     </li>
   )
 }

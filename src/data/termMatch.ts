@@ -32,6 +32,11 @@ export interface MatchTile {
 
 export interface MatchBoard {
   mode: MatchMode
+  /** Fixed left column: the selected authored terms. */
+  termTiles: MatchTile[]
+  /** Shuffled right column: the Arabic translation or definition tiles. */
+  partnerTiles: MatchTile[]
+  /** Legacy/full-board view, always left column followed by right column. */
   tiles: MatchTile[]
   pairs: number
   /** Why there is no board, when there are no tiles. */
@@ -77,15 +82,17 @@ export function buildBoard(
   const usable = terms.filter((term) => partnerText(term, mode).trim() !== '')
 
   if (usable.length < MIN_PAIRS) {
-    return { mode, tiles: [], pairs: 0, refusal: 'too_few_terms' }
+    return { mode, termTiles: [], partnerTiles: [], tiles: [], pairs: 0, refusal: 'too_few_terms' }
   }
 
   const random = seededRandom(seed)
   const chosen = shuffle(usable, random).slice(0, Math.min(pairs, usable.length))
 
   const tiles: MatchTile[] = []
+  const termTiles: MatchTile[] = []
+  const partnerTiles: MatchTile[] = []
   for (const term of chosen) {
-    tiles.push({ id: `${term.id}-term`, pairId: term.id, text: term.term, side: 'term' })
+    const termTile: MatchTile = { id: `${term.id}-term`, pairId: term.id, text: term.term, side: 'term' }
     const partnerTile: MatchTile = {
       id: `${term.id}-partner`,
       pairId: term.id,
@@ -96,13 +103,16 @@ export function buildBoard(
     // definition rendered right-to-left would be as unreadable as Arabic
     // rendered left-to-right.
     if (mode === 'arabic') partnerTile.arabic = true
-    tiles.push(partnerTile)
+    termTiles.push(termTile)
+    partnerTiles.push(partnerTile)
   }
 
   // Drawing from the same `random` again (rather than a fresh seed) keeps the
   // whole board a single deterministic sequence: which terms were chosen and
-  // how their tiles land are both consequences of one seed, not two.
-  return { mode, tiles: shuffle(tiles, random), pairs: chosen.length, refusal: null }
+  // how the answer column lands are both consequences of one seed, not two.
+  const shuffledPartners = shuffle(partnerTiles, random)
+  tiles.push(...termTiles, ...shuffledPartners)
+  return { mode, termTiles, partnerTiles: shuffledPartners, tiles, pairs: chosen.length, refusal: null }
 }
 
 /** True only for two tiles that share a pairId and sit on opposite sides. */

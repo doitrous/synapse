@@ -379,28 +379,36 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
 
   function saveItem(next: ManagedContentItem) {
     const exists = items.some((item) => item.id === next.id)
-    setItems((current) => exists ? current.map((item) => item.id === next.id ? next : item) : [next, ...current])
+    const verdict = publishReadiness(next)
+    const accepted = next.status === 'Published' && verdict.hardBlocked
+      ? { ...next, status: 'In review' as const, updatedAt: new Date().toISOString() }
+      : next
+    setItems((current) => exists ? current.map((item) => item.id === accepted.id ? accepted : item) : [accepted, ...current])
     // Auto-link: a resource tagged with concepts adds itself to those concepts'
     // approved file/video resource lists (so concepts only reference vetted media).
-    if (next.kind === 'resource') {
-      const conceptIds = next.resourceData?.includedConceptIds?.length
-        ? next.resourceData.includedConceptIds
-        : (next.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
+    if (accepted.kind === 'resource') {
+      const conceptIds = accepted.resourceData?.includedConceptIds?.length
+        ? accepted.resourceData.includedConceptIds
+        : (accepted.fields['Included concepts'] ?? '').split(/[\n,;|]/).map((s) => s.trim()).filter(Boolean)
       if (conceptIds.length) {
-        const isVideo = next.fields.Type === 'Video'
+        const isVideo = accepted.fields.Type === 'Video'
         setConceptGraph((g) => ({
           ...g,
           concepts: g.concepts.map((c) => conceptIds.includes(c.id) ? {
             ...c,
-            approvedVideoResourceIds: isVideo ? [...new Set([...(c.approvedVideoResourceIds ?? []), next.id])] : c.approvedVideoResourceIds,
-            approvedFileResourceIds: isVideo ? c.approvedFileResourceIds : [...new Set([...(c.approvedFileResourceIds ?? []), next.id])],
+            approvedVideoResourceIds: isVideo ? [...new Set([...(c.approvedVideoResourceIds ?? []), accepted.id])] : c.approvedVideoResourceIds,
+            approvedFileResourceIds: isVideo ? c.approvedFileResourceIds : [...new Set([...(c.approvedFileResourceIds ?? []), accepted.id])],
           } : c),
         }))
       }
     }
     setEditorOpen(false)
     setEditing(null)
-    say(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
+    if (verdict.hardBlocked && next.status === 'Published') {
+      warn(`${CONTENT_KIND_LABEL[next.kind].singular} kept in review: ${verdict.reason}. Supply the required media before publishing.`)
+    } else {
+      say(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
+    }
   }
 
   const isTaxonomyKind = activeKind === 'question' || activeKind === 'article' || activeKind === 'resource'
@@ -448,6 +456,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   // ever claims the page in front of you.
   const selectedItems = useMemo(() => rows.filter((item) => selected.has(item.id)), [rows, selected])
   const readiness = useMemo(() => partitionByReadiness(selectedItems), [selectedItems])
+  const hardBlocked = readiness.blocked.filter((entry) => entry.hardBlocked)
+  const forceableBlocked = readiness.blocked.filter((entry) => !entry.hardBlocked)
   const someShownSelected = selectedItems.length > 0
   const allPageSelected = pageRows.length > 0 && pageRows.every((item) => selected.has(item.id))
   const somePageSelected = pageRows.some((item) => selected.has(item.id))
@@ -471,12 +481,16 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     const ids = new Set(targets.map((item) => item.id))
     const at = new Date().toISOString()
     setItems((current) => current.map((item) => (ids.has(item.id) ? { ...item, status, updatedAt: at } : item)))
-    setSelected(new Set())
+    setSelected((current) => {
+      const next = new Set(current)
+      ids.forEach((id) => next.delete(id))
+      return next
+    })
     say(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
   }
 
   function publishSelected(includeBlocked: boolean) {
-    const targets = includeBlocked ? [...readiness.ready, ...readiness.blocked.map((entry) => entry.item)] : readiness.ready
+    const targets = includeBlocked ? [...readiness.ready, ...forceableBlocked.map((entry) => entry.item)] : readiness.ready
     applyStatus(targets, 'Published', 'published', 'Nothing to publish in this selection.')
     setForcePublish(false)
   }
@@ -488,7 +502,11 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
    */
   function onPublishPressed() {
     if (readiness.ready.length > 0) { publishSelected(false); return }
-    if (readiness.blocked.length > 0) { setForcePublish(true); return }
+    if (forceableBlocked.length > 0) { setForcePublish(true); return }
+    if (hardBlocked.length > 0) {
+      warn(`${hardBlocked.length} selected ${hardBlocked.length === 1 ? 'item has' : 'items have'} required media still unresolved. Nothing was published.`)
+      return
+    }
     warn(readiness.live.length === 1
       ? 'Nothing to publish — that item is already published. Nothing was changed.'
       : `Nothing to publish — all ${readiness.live.length} selected items are already published. Nothing was changed.`)
@@ -510,7 +528,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
       <PageHeader
         title={lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
         description={lockedKind ? `Create, revise, review, and import ${CONTENT_KIND_LABEL[activeKind].plural.toLowerCase()} without leaving this catalogue.` : 'Create, revise, review, and remove everything students can open in the question bank, library, practical area, and resources.'}
-        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <ButtonLink to="/admin/library/coverage" variant="secondary" size="md" iconLeft={Database}>Evidence review</ButtonLink>}{activeKind !== 'resource' && <ButtonLink to="/admin/library/media" variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</ButtonLink>}<ButtonLink to={`/admin/import/${activeKind}`} variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
+        actions={<>{lockedKind && activeKind === 'article' && API_MODE && <ButtonLink to="/admin/library/coverage" variant="secondary" size="md" iconLeft={Database}>Evidence review</ButtonLink>}{activeKind !== 'resource' && <ButtonLink to="/admin/library/media" variant="secondary" size="md" iconLeft={ImagePlus}>Media requests</ButtonLink>}{activeKind === 'practical' && <ButtonLink to="/admin/import/minigame" variant="secondary" size="md" iconLeft={Upload}>Import minigames</ButtonLink>}<ButtonLink to={`/admin/import/${activeKind}`} variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink><Button variant="primary" size="md" iconLeft={Plus} onClick={openNew}>Add {CONTENT_KIND_LABEL[activeKind].singular}</Button></>}
       />
 
       {notice && (
@@ -899,18 +917,18 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
               <div className="min-w-0">
                 <h2 id="force-publish-title" className="font-serif text-[18px] font-semibold text-ink">Publish without student-visible content?</h2>
                 <p className="mt-2 text-[13px] leading-relaxed text-ink-2">
-                  {readiness.blocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
-                  verified content to show. Published now, {readiness.blocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
+                  {forceableBlocked.length} of the {selectedItems.length} selected {selectedItems.length === 1 ? 'item has' : 'items have'} no
+                  verified content to show. Published now, {forceableBlocked.length === 1 ? 'it' : 'they'} will appear in the student library as a
                   title and summary with an empty body.
                 </p>
                 <ul className="mt-3 max-h-40 space-y-1 overflow-y-auto rounded-lg border border-line bg-surface-2/50 p-2.5">
-                  {readiness.blocked.slice(0, 8).map(({ item, reason }) => (
+                  {forceableBlocked.slice(0, 8).map(({ item, reason }) => (
                     <li key={item.id} className="flex items-center gap-2 text-[12px] text-ink-2">
                       <span className="min-w-0 flex-1 truncate">{item.title}</span>
                       <span className="shrink-0 font-medium text-warning">{reason}</span>
                     </li>
                   ))}
-                  {readiness.blocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {readiness.blocked.length - 8} more</li>}
+                  {forceableBlocked.length > 8 && <li className="text-[11.5px] text-ink-3">…and {forceableBlocked.length - 8} more</li>}
                 </ul>
               </div>
             </div>

@@ -44,9 +44,10 @@ const commit = args.includes('--commit')
 const files = args.filter((a) => !a.startsWith('--'))
 if (!files.length) throw new Error('Give at least one batch file')
 
-const KEYS = ['synapse-admin-content-ledger-v4', 'synapse-concept-graph-v2', 'synapse-medical-evidence-v1']
+const KEYS = ['synapse-admin-content-ledger-v4', 'synapse-concept-graph-v2', 'synapse-medical-evidence-v1', 'synapse-minigame-packs-v1']
 const LEDGER_KEY = KEYS[0]
 const GRAPH_KEY = KEYS[1]
+const MINIGAME_PACKS_KEY = KEYS[3]
 
 /** The connection string the server itself uses. Never printed. */
 async function databaseUrl() {
@@ -78,6 +79,7 @@ try {
     questions: (states[LEDGER_KEY] ?? []).filter((i) => i.kind === 'question').length,
     practicals: (states[LEDGER_KEY] ?? []).filter((i) => i.kind === 'practical').length,
     concepts: (states[GRAPH_KEY]?.concepts ?? []).length,
+    minigamePacks: (states[MINIGAME_PACKS_KEY]?.packs ?? []).length,
   })
 
   console.log('live before:', JSON.stringify(countsOf(live)))
@@ -108,6 +110,7 @@ try {
     process.exitCode = 1
   } else {
     const after = JSON.parse(await readFile(afterFile, 'utf8')).states
+    const writeKeys = KEYS.filter((key) => key in after)
     console.log('would write:', JSON.stringify(countsOf(after)))
 
     if (!commit) {
@@ -116,7 +119,7 @@ try {
       /* ---- write ---------------------------------------------------------- */
       await connection.beginTransaction()
       try {
-        for (const key of KEYS) {
+        for (const key of writeKeys) {
           const value = JSON.stringify(after[key])
           // The version row records what was there BEFORE this write, which is
           // the order the server's own PUT /api/state/:key uses.
@@ -138,7 +141,7 @@ try {
       }
 
       /* ---- verify against the database, not against intent ----------------- */
-      const [check] = await connection.query('SELECT k, v FROM app_state WHERE k IN (?)', [KEYS])
+      const [check] = await connection.query('SELECT k, v FROM app_state WHERE k IN (?)', [writeKeys])
       const written = {}
       for (const row of check) written[row.k] = typeof row.v === 'string' ? JSON.parse(row.v) : row.v
       console.log('live after: ', JSON.stringify(countsOf(written)))

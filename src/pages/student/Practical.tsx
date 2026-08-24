@@ -37,6 +37,7 @@ import { Tabs } from '@/components/ui/Tabs'
 import { Microscope as MicroscopeIcon } from 'lucide-react'
 import { Microscope } from '@/components/practical/Microscope'
 import { SlideViewer } from '@/components/practical/SlideViewer'
+import type { MicroscopeTransitionRect } from '@/components/practical/microscopeTransition'
 import { useLiveHistology } from '@/lib/useLiveHistology'
 import type { HistologySlide } from '@/data/histology'
 import { SystemMark } from '@/components/ui/SystemMark'
@@ -520,9 +521,17 @@ function OralTab() {
  * width without the chooser above it.
  */
 function HistologyTab() {
-  const [open, setOpen] = useState<HistologySlide | null>(null)
-  if (open) return <SlideViewer slide={open} onClose={() => setOpen(null)} />
-  return <Microscope onOpen={setOpen} />
+  const [open, setOpen] = useState<{ slide: HistologySlide; origin?: MicroscopeTransitionRect } | null>(null)
+  if (open) {
+    return (
+      <SlideViewer
+        slide={open.slide}
+        transitionOrigin={open.origin}
+        onClose={() => setOpen(null)}
+      />
+    )
+  }
+  return <Microscope onOpen={(slide, origin) => setOpen({ slide, origin })} />
 }
 
 export function Practical() {

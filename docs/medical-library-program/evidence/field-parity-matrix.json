@@ -22,11 +22,11 @@
     {
       "contentType": "Library article · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
+      "modelFields": 19,
       "importFields": 54,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Concept",
@@ -67,17 +67,17 @@
     {
       "contentType": "Question · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
+      "modelFields": 19,
       "importFields": 61,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
       "modelFields": 16,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 13,
       "missing": 0,
       "notApplicable": 3
@@ -86,7 +86,7 @@
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
       "modelFields": 11,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -95,7 +95,7 @@
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
       "modelFields": 10,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 10,
       "missing": 0,
       "notApplicable": 0
@@ -104,7 +104,7 @@
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
       "modelFields": 11,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -113,7 +113,7 @@
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
       "modelFields": 9,
-      "importFields": 27,
+      "importFields": 30,
       "ok": 9,
       "missing": 0,
       "notApplicable": 0
@@ -121,11 +121,11 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "modelFields": 18,
-      "importFields": 27,
+      "modelFields": 19,
+      "importFields": 30,
       "ok": 14,
       "missing": 0,
-      "notApplicable": 4
+      "notApplicable": 5
     },
     {
       "contentType": "Resource",
@@ -135,6 +135,60 @@
       "ok": 9,
       "missing": 0,
       "notApplicable": 8
+    },
+    {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "modelFields": 7,
+      "importFields": 16,
+      "ok": 7,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "modelFields": 2,
+      "importFields": 16,
+      "ok": 2,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "modelFields": 4,
+      "importFields": 16,
+      "ok": 4,
+      "missing": 0,
+      "notApplicable": 0
     },
     {
       "contentType": "Evidence · source",
@@ -616,6 +670,12 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
@@ -1431,13 +1491,19 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1540,7 +1606,7 @@
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1613,7 +1679,7 @@
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",
@@ -1680,7 +1746,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "format",
@@ -1753,7 +1819,7 @@
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",
@@ -1814,7 +1880,7 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "importFields": 27,
+      "importFields": 30,
       "fields": [
         {
           "field": "id",
@@ -1923,6 +1989,12 @@
           "column": "media_recommendations",
           "state": "ok",
           "reason": ""
+        },
+        {
+          "field": "reviewComments",
+          "column": null,
+          "state": "n/a",
+          "reason": "Created inside the reviewer workspace as anchored discussion, not by bulk authoring import."
         }
       ]
     },
@@ -2030,6 +2102,198 @@
         {
           "field": "conceptLocations",
           "column": "concept_locations",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · base pack",
+      "model": "BasePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "id",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "title",
+          "column": "title",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "subjectId",
+          "column": "subject",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "topic",
+          "column": "topic",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "summary",
+          "column": "summary",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "source",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · source metadata",
+      "model": "MiniGameSource",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "label",
+          "column": "source_label",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedBy",
+          "column": "reviewed_by",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "url",
+          "column": "source_url",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "reviewedAt",
+          "column": "reviewed_at",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered pack",
+      "model": "OrderedMiniGamePack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "steps",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "explanation",
+          "column": "explanation",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · ordered step",
+      "model": "OrderedStep",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "steps",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag sort",
+      "model": "RedFlagSortPack",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "kind",
+          "column": "kind",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "prompt",
+          "column": "prompt",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lanes",
+          "column": "urgent_lane",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "findings",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        }
+      ]
+    },
+    {
+      "contentType": "Minigame · red flag finding",
+      "model": "RedFlagFinding",
+      "importFields": 16,
+      "fields": [
+        {
+          "field": "id",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "text",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "lane",
+          "column": "findings",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "rationale",
+          "column": "findings",
           "state": "ok",
           "reason": ""
         }

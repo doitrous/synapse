@@ -78,26 +78,26 @@ export const EN_PRICING: PricingContent = {
   otherPath: '/ar/pricing',
   documentTitle: 'Maristana pricing — One complete medical learning membership',
   metaDescription:
-    'Choose one month or one academic term of complete Maristana access. Start with 3 full days, no card, then keep a free daily sampler.',
+    'One all-access medical study workspace for EGP 400 monthly or EGP 1,000 per academic term. Trial access is available during onboarding without buying a separate tier.',
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
     eyebrow: 'Simple by design',
     title: 'One Maristana. Choose your study window.',
-    sub: 'The whole platform is included. Start with 3 full days, no card, then choose the time that fits your semester.',
+    sub: 'The whole platform is included for EGP 400 monthly or EGP 1,000 per term. Start in onboarding, then choose the time that fits your semester.',
     termLabel: 'Academic term · 3 months',
-    termDetail: 'Save EGP 200 · EGP 333/month equivalent',
+    termDetail: 'EGP 1,000 · save EGP 200 · EGP 333/month equivalent',
     scholarship: 'Private 100%-off scholarships are available through your year representative or Student Union.',
     link: 'See pricing and scholarships',
-    cta: 'Start 3 days free',
+    cta: 'Start studying',
   },
   h1: 'One Maristana. Choose your study window.',
   sub:
-    'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together.',
+    'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together for one month or one academic term.',
   assurances: [
-    'Full access for 3 days',
-    'No card to start',
-    'Free daily sampler after the trial',
+    'EGP 400 monthly',
+    'EGP 1,000 per term',
+    'Trial access is not a purchasable tier',
   ],
   offer: {
     eyebrow: 'Complete membership',
@@ -114,7 +114,7 @@ export const EN_PRICING: PricingContent = {
     save: 'Save',
     equivalent: 'monthly equivalent',
     fullAccess: 'Full Maristana access for the selected period',
-    cta: 'Start 3 days free',
+    cta: 'Start studying',
     unavailable: 'Yearly access is coming soon',
   },
   includedTitle: 'Everything included',
@@ -159,27 +159,31 @@ export const EN_PRICING: PricingContent = {
   },
   next: {
     title: 'What happens next',
-    sub: 'See the product first. Paying is not part of starting the trial.',
+    sub: 'See the product first. Paying is not part of starting onboarding.',
     steps: [
       { number: '01', title: 'Create your account', line: 'Choose your university and year so Maristana opens in the right curriculum.' },
-      { number: '02', title: 'Use everything for 3 days', line: 'No card. Explore the full platform with your real study scope.' },
-      { number: '03', title: 'Choose after you have studied', line: 'Continue with a study window, or keep the diagnostic and 10 questions a day for free.' },
+      { number: '02', title: 'Start with all access', line: 'When trial access is available, it opens during onboarding without a card or a separate plan purchase.' },
+      { number: '03', title: 'Choose after you have studied', line: 'Continue with one month or one academic term. The server quotes any valid promotion or voucher before payment.' },
     ],
   },
   faqTitle: 'Before you start',
-  faqSub: 'Clear answers about access, privacy, and what happens after the trial.',
+  faqSub: 'Clear answers about access, privacy, and what happens after onboarding.',
   faq: [
     {
-      q: 'What happens when the 3-day trial ends?',
-      a: 'You are not charged. Full access closes and your account moves to the permanent free sampler: diagnostic access and 10 questions per day. Your work remains in your account.',
+      q: 'What does the membership include?',
+      a: 'All-access means the study surfaces available to your university and year: library, verified sources, question bank, explanations, practical learning, calendar, notebook, whiteboard, resources, analytics, and adaptive review.',
     },
     {
-      q: 'How long is an academic term?',
-      a: 'The academic-term window is 3 months from activation. It costs EGP 1,000, saving EGP 200 compared with three separate monthly windows.',
+      q: 'How much does it cost?',
+      a: 'One month costs EGP 400. One academic term costs EGP 1,000 for 3 months, saving EGP 200 compared with three separate monthly windows.',
     },
     {
-      q: 'Does the trial or membership renew automatically?',
-      a: 'The no-card trial cannot renew or charge you. When hosted payment opens, the checkout will show the selected access window, final EGP amount, and renewal terms before you pay.',
+      q: 'Do promotions and vouchers stack?',
+      a: 'No. A timed admin promotion and a voucher can both be valid, but they are compared independently. The server applies the valid option that produces the lowest price.',
+    },
+    {
+      q: 'Do I buy a trial?',
+      a: 'No. Trial access is an onboarding state, not a plan in the catalogue and not something sold at checkout. When a trial is available, you start there and choose what to buy later.',
     },
     {
       q: 'Is my university supported?',
@@ -191,20 +195,24 @@ export const EN_PRICING: PricingContent = {
     },
     {
       q: 'How do cancellations and refunds work?',
-      a: 'The trial needs no cancellation because it takes no card. The published cancellation and refund terms for paid access will be shown during checkout before any payment is confirmed.',
+      a: 'You keep access until the end of the period you have already paid for. The published cancellation and refund terms for paid access will be shown during checkout before any payment is confirmed.',
     },
     {
       q: 'What happens to my notes and uploads after paid access expires?',
-      a: 'They remain attached to your account. The free sampler keeps your learning history available while full membership features pause until you reactivate access.',
+      a: 'They remain attached to your account. Notes, whiteboards, bookmarks, annotations, and uploaded files remain yours while full membership features pause until you reactivate access.',
+    },
+    {
+      q: 'Is any of this clinical guidance?',
+      a: 'No. Maristana is a study tool for undergraduate medical education. Nothing in the library, question bank, or practicals is clinical guidance.',
     },
     {
       q: 'When will the full-year option be available?',
       a: 'It is coming soon. We will publish the price only when yearly access is ready to buy; there is no placeholder price or working checkout today.',
     },
   ],
-  closingTitle: 'Start with the product, not a payment form.',
-  closingSub: 'Three full days of Maristana. No card, and nothing is charged when the trial ends.',
-  closingPrimary: 'Start 3 days free',
+  closingTitle: 'Start with all access.',
+  closingSub: 'Choose monthly or term access after onboarding. Any valid promotion or voucher is quoted by the server before payment.',
+  closingPrimary: 'Start studying',
   closingSecondary: 'Sign in',
 }
 
@@ -213,26 +221,26 @@ export const AR_PRICING: PricingContent = {
   otherPath: '/pricing',
   documentTitle: 'أسعار Maristana — عضوية واحدة متكاملة لتعلّم الطب',
   metaDescription:
-    'اختر شهرًا أو فصلًا دراسيًا كاملًا في Maristana. ابدأ بثلاثة أيام كاملة دون بطاقة، ثم احتفظ بعينة يومية مجانية.',
+    'مساحة مذاكرة طبية كاملة في Maristana بسعر ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل الدراسي. الوصول التجريبي حالة بدء وليس خطة منفصلة للشراء.',
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
     eyebrow: 'بساطة مقصودة',
     title: 'Maristana واحدة. اختر مدة مذاكرتك.',
-    sub: 'كل المنصة مشمولة. ابدأ بثلاثة أيام كاملة دون بطاقة، ثم اختر المدة التي تناسب فصلك الدراسي.',
+    sub: 'كل المنصة مشمولة مقابل ٤٠٠ ج.م شهريًا أو ١٬٠٠٠ ج.م للفصل. ابدأ من الإعداد، ثم اختر المدة التي تناسب فصلك الدراسي.',
     termLabel: 'فصل دراسي · ٣ أشهر',
-    termDetail: 'وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
+    termDetail: '١٬٠٠٠ ج.م · وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
     scholarship: 'تتوفر منح خاصة بخصم ١٠٠٪ من خلال ممثل دفعتك أو اتحاد الطلاب.',
     link: 'اطّلع على الأسعار والمنح',
-    cta: 'ابدأ ٣ أيام مجانًا',
+    cta: 'ابدأ المذاكرة',
   },
   h1: 'Maristana واحدة. اختر مدة مذاكرتك.',
   sub:
-    'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا.',
+    'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا لشهر واحد أو فصل دراسي.',
   assurances: [
-    'وصول كامل لمدة ٣ أيام',
-    'دون بطاقة للبدء',
-    'عينة يومية مجانية بعد التجربة',
+    '٤٠٠ ج.م شهريًا',
+    '١٬٠٠٠ ج.م للفصل',
+    'التجربة ليست خطة تُشترى',
   ],
   offer: {
     eyebrow: 'عضوية متكاملة',
@@ -249,7 +257,7 @@ export const AR_PRICING: PricingContent = {
     save: 'وفّر',
     equivalent: 'ما يعادل شهريًا',
     fullAccess: 'وصول Maristana الكامل طوال المدة المختارة',
-    cta: 'ابدأ ٣ أيام مجانًا',
+    cta: 'ابدأ المذاكرة',
     unavailable: 'الوصول السنوي قريبًا',
   },
   includedTitle: 'كل شيء مشمول',
@@ -294,27 +302,31 @@ export const AR_PRICING: PricingContent = {
   },
   next: {
     title: 'ماذا يحدث بعد ذلك؟',
-    sub: 'جرّب المنتج أولًا. الدفع ليس جزءًا من بدء التجربة.',
+    sub: 'جرّب المنتج أولًا. الدفع ليس جزءًا من بدء الإعداد.',
     steps: [
       { number: '٠١', title: 'أنشئ حسابك', line: 'اختر جامعتك وسنتك لتفتح Maristana على المنهج الصحيح.' },
-      { number: '٠٢', title: 'استخدم كل شيء ٣ أيام', line: 'دون بطاقة. استكشف المنصة كاملة داخل نطاق مذاكرتك الحقيقي.' },
-      { number: '٠٣', title: 'اختر بعد أن تذاكر', line: 'واصل بمدة مدفوعة، أو احتفظ بالتشخيص و١٠ أسئلة يوميًا مجانًا.' },
+      { number: '٠٢', title: 'ابدأ بوصول كامل', line: 'عند توفر الوصول التجريبي، يبدأ أثناء الإعداد دون بطاقة أو شراء خطة منفصلة.' },
+      { number: '٠٣', title: 'اختر بعد أن تذاكر', line: 'واصل بشهر واحد أو فصل دراسي. أي عرض أو قسيمة صالحة تُسعَّر من الخادم قبل الدفع.' },
     ],
   },
   faqTitle: 'قبل أن تبدأ',
-  faqSub: 'إجابات واضحة عن الوصول والخصوصية وما يحدث بعد التجربة.',
+  faqSub: 'إجابات واضحة عن الوصول والخصوصية وما يحدث بعد الإعداد.',
   faq: [
     {
-      q: 'ماذا يحدث عند انتهاء تجربة الأيام الثلاثة؟',
-      a: 'لن تُحصّل منك أي مبالغ. ينتهي الوصول الكامل وينتقل حسابك إلى العينة المجانية الدائمة: وصول تشخيصي و١٠ أسئلة يوميًا. ويبقى عملك محفوظًا في حسابك.',
+      q: 'ماذا تتضمن العضوية؟',
+      a: 'الوصول الكامل يعني مساحات المذاكرة المتاحة لجامعتك وسنتك: المكتبة، المصادر، بنك الأسئلة، الشروح، العملي، التقويم، الملاحظات، السبورة، الموارد، التحليلات والمراجعة التكيّفية.',
     },
     {
-      q: 'ما مدة الفصل الدراسي؟',
-      a: 'مدة الفصل الدراسي ٣ أشهر من تاريخ التفعيل. تكلف ١٬٠٠٠ ج.م، وتوفّر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
+      q: 'كم السعر؟',
+      a: 'الشهر الواحد ٤٠٠ ج.م. الفصل الدراسي ١٬٠٠٠ ج.م لمدة ٣ أشهر، أي يوفر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
     },
     {
-      q: 'هل تتجدد التجربة أو العضوية تلقائيًا؟',
-      a: 'تجربة دون بطاقة لا يمكن أن تتجدد أو تحصّل منك مبلغًا. وعند فتح الدفع المستضاف سيعرض لك صفحة الدفع المدة المختارة والمبلغ النهائي بالجنيه وشروط التجديد قبل أن تدفع.',
+      q: 'هل تتراكم العروض والقسائم؟',
+      a: 'لا. قد يكون العرض والقسيمة صالحين في الوقت نفسه، لكنهما يُقارنان مستقلين. يطبّق الخادم الخيار الصالح الذي يعطي أقل سعر.',
+    },
+    {
+      q: 'هل أشتري التجربة؟',
+      a: 'لا. الوصول التجريبي حالة بدء، وليس خطة في الكتالوج ولا شيئًا يُباع عند الدفع. عند إتاحته تبدأ به ثم تختار ما تشتريه لاحقًا.',
     },
     {
       q: 'هل جامعتي مدعومة؟',
@@ -326,20 +338,24 @@ export const AR_PRICING: PricingContent = {
     },
     {
       q: 'كيف يعمل الإلغاء والاسترداد؟',
-      a: 'لا تحتاج التجربة إلى إلغاء لأنها لا تطلب بطاقة. وستظهر سياسة الإلغاء والاسترداد المنشورة للوصول المدفوع أثناء الدفع قبل تأكيد أي عملية.',
+      a: 'يبقى وصولك حتى نهاية المدة المدفوعة بالفعل. وستظهر سياسة الإلغاء والاسترداد المنشورة للوصول المدفوع أثناء الدفع قبل تأكيد أي عملية.',
     },
     {
       q: 'ماذا يحدث لملاحظاتي وملفاتي بعد انتهاء الوصول المدفوع؟',
-      a: 'تظل مرتبطة بحسابك. وتحافظ العينة المجانية على سجل تعلّمك بينما تتوقف خصائص العضوية الكاملة حتى تعيد تفعيل الوصول.',
+      a: 'تظل مرتبطة بحسابك. الملاحظات والسبورات والإشارات والتعليقات والملفات التي رفعتها تظل ملكك بينما تتوقف خصائص العضوية الكاملة حتى تعيد تفعيل الوصول.',
+    },
+    {
+      q: 'هل أي من هذا إرشاد سريري؟',
+      a: 'لا. Maristana أداة مذاكرة للتعليم الطبي الجامعي. لا شيء في المكتبة أو بنك الأسئلة أو العملي يُعدّ إرشادًا سريريًا.',
     },
     {
       q: 'متى تتوفر مدة السنة الكاملة؟',
       a: 'ستتوفر قريبًا. لن ننشر سعرًا إلا عندما يصبح الوصول السنوي جاهزًا للشراء؛ لا يوجد سعر افتراضي أو صفحة دفع عاملة حاليًا.',
     },
   ],
-  closingTitle: 'ابدأ بالمنتج، لا بنموذج دفع.',
-  closingSub: 'ثلاثة أيام كاملة في Maristana. دون بطاقة، ولن تُحصّل منك أي مبالغ عند انتهائها.',
-  closingPrimary: 'ابدأ ٣ أيام مجانًا',
+  closingTitle: 'ابدأ بالوصول الكامل.',
+  closingSub: 'اختر شهرًا أو فصلًا بعد بدء الحساب. أي عرض أو قسيمة صالحة تُسعَّر من الخادم قبل الدفع.',
+  closingPrimary: 'ابدأ المذاكرة',
   closingSecondary: 'تسجيل الدخول',
 }
 

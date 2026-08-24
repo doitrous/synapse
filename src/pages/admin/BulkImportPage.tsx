@@ -13,6 +13,10 @@ import { cn } from '@/lib/cn'
 import { CONTENT_KIND_LABEL, CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ContentKind, type ManagedContentItem } from '@/data/contentControl'
 import { IMPORT_SCHEMAS, importRowToContent, validateImportRow } from '@/data/bulkImport'
 import { materialiseNewItem, mergeContentItem } from '@/data/importMerge'
+import { MINIGAME_IMPORT_SCHEMA, miniGamePackFromRow, validateMiniGameRow } from '@/data/minigameImport'
+import {
+  EMPTY_MINIGAME_PACK_DOCUMENT, MINIGAME_PACKS_STORAGE_KEY, validateMiniGamePack, type MiniGamePack,
+} from '@/data/minigamePacks'
 
 interface SourceSheet { name: string; headers: string[]; rows: string[][] }
 interface ImportJournal { fingerprint: string; rowKeys: string[]; imported: number; failed: number; updatedAt: string }
@@ -20,17 +24,20 @@ interface MappedRow { index: number; values: Record<string, string>; errors: str
 
 const IGNORE = '__ignore__'
 const steps = ['Choose a file', 'Confirm worksheet', 'Map columns', 'Full preview', 'Skipped rows', 'Import options']
-const routeFor: Record<ContentKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards', essay: 'written', histology: 'histology' }
+type ImportPageKind = ContentKind | 'minigame'
+
+const PAGE_SCHEMAS = { ...IMPORT_SCHEMAS, minigame: MINIGAME_IMPORT_SCHEMA }
+const routeFor: Record<ImportPageKind, string> = { question: 'questions', article: 'library', practical: 'practical', resource: 'resources', deck: 'flashcards', essay: 'written', histology: 'histology', minigame: 'practical' }
 
 function normalize(value: string) {
   return value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 }
 
-function guessMapping(header: string, kind: ContentKind) {
+function guessMapping(header: string, kind: ImportPageKind) {
   const normalized = normalize(header)
   const aliases: Record<string, string> = { stem: 'question', question_text: 'question', correct: 'correct_answer', answer: 'correct_answer', university: 'universities', year: 'years', reading_minutes: 'reading_time', traps: 'lose_the_mark', mark_scheme_items: 'mark_scheme' }
   const guessed = aliases[normalized] ?? normalized
-  return IMPORT_SCHEMAS[kind].fields.some((field) => field.key === guessed) ? guessed : IGNORE
+  return PAGE_SCHEMAS[kind].fields.some((field) => field.key === guessed) ? guessed : IGNORE
 }
 
 function parseCsv(text: string) {
@@ -79,7 +86,7 @@ function cellText(value: unknown) {
   return value == null ? '' : String(value)
 }
 
-function fingerprint(file: File, kind: ContentKind) {
+function fingerprint(file: File, kind: ImportPageKind) {
   return `${kind}:${file.name}:${file.size}:${file.lastModified}`
 }
 
@@ -89,8 +96,9 @@ export function BulkImportPage() {
   // previously had to be kept in sync by hand and one addition missed it, so
   // /admin/import/<new-kind> quietly fell back to questions and imported the
   // wrong shape. Deriving it means a new kind cannot forget this line.
-  const kind: ContentKind = Object.hasOwn(IMPORT_SCHEMAS, params.kind ?? '') ? params.kind as ContentKind : 'question'
-  const schema = IMPORT_SCHEMAS[kind]
+  const kind: ImportPageKind = Object.hasOwn(PAGE_SCHEMAS, params.kind ?? '') ? params.kind as ImportPageKind : 'question'
+  const schema = PAGE_SCHEMAS[kind]
+  const kindLabel = kind === 'minigame' ? { singular: 'minigame pack', plural: 'Minigame packs' } : CONTENT_KIND_LABEL[kind]
   const inputRef = useRef<HTMLInputElement>(null)
   const [step, setStep] = useState(0)
   const [file, setFile] = useState<File | null>(null)
@@ -104,9 +112,11 @@ export function BulkImportPage() {
   const [overrideEmpty, setOverrideEmpty] = useState(false)
   const [confirmed, setConfirmed] = useState(false)
   const [importing, setImporting] = useState(false)
+  const [publishConfirmed, setPublishConfirmed] = useState(false)
   const [progress, setProgress] = useState(0)
   const [importResult, setImportResult] = useState<{ imported: number; failed: number; errors: string[] } | null>(null)
   const [items, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [miniGameDocument, setMiniGameDocument] = usePersistentState(MINIGAME_PACKS_STORAGE_KEY, EMPTY_MINIGAME_PACK_DOCUMENT)
   const [journal, setJournal] = usePersistentState<ImportJournal[]>('synapse-import-journal-v1', [])
 
   const sheet = sheets.find((candidate) => candidate.name === sheetName) ?? sheets[0]
@@ -121,18 +131,18 @@ export function BulkImportPage() {
         if (target && target !== IGNORE) values[target] = row[columnIndex] ?? ''
       })
       const rowKey = `${fileFingerprint}:${sheet.name}:${index + 2}`
-      return { index: index + 2, values, errors: validateImportRow(kind, values), rowKey }
+      return { index: index + 2, values, errors: kind === 'minigame' ? validateMiniGameRow(values) : validateImportRow(kind, values), rowKey }
     })
   }, [fileFingerprint, kind, mapping, schema.fields, sheet])
 
   const skippedRows = useMemo(() => mappedRows.map((row) => {
     const duplicate = importedKeys.has(row.rowKey)
-    const existing = row.values.id && items.some((item) => item.id === row.values.id)
+    const existing = row.values.id && (kind === 'minigame' ? miniGameDocument.packs : items).some((item) => item.id === row.values.id)
     const reasons = [...row.errors]
     if (duplicate) reasons.push('Already imported in this file run')
     if (mergeMode === 'create' && existing) reasons.push('Canonical ID already exists')
     return { ...row, reasons }
-  }).filter((row) => row.reasons.length > 0 && (!includeInvalid || row.reasons.some((reason) => /already imported|already exists/i.test(reason)))), [importedKeys, includeInvalid, items, mappedRows, mergeMode])
+  }).filter((row) => row.reasons.length > 0 && (kind === 'minigame' || !includeInvalid || row.reasons.some((reason) => /already imported|already exists/i.test(reason)))), [importedKeys, includeInvalid, items, kind, mappedRows, mergeMode, miniGameDocument.packs])
 
   async function loadFile(nextFile: File) {
     setLoading(true)
@@ -169,10 +179,11 @@ export function BulkImportPage() {
 
   async function runImport() {
     if (!confirmed) return
+    setPublishConfirmed(false)
     setImporting(true)
     setProgress(0)
     const permanentSkips = new Set(skippedRows.map((row) => row.rowKey))
-    const candidates = mappedRows.filter((row) => !importedKeys.has(row.rowKey) && !permanentSkips.has(row.rowKey) && (includeInvalid || row.errors.length === 0))
+    const candidates = mappedRows.filter((row) => !importedKeys.has(row.rowKey) && !permanentSkips.has(row.rowKey) && (kind === 'minigame' ? row.errors.length === 0 : includeInvalid || row.errors.length === 0))
     const errors: string[] = []
     let imported = 0
     const completedKeys: string[] = []
@@ -180,19 +191,37 @@ export function BulkImportPage() {
     for (let start = 0; start < candidates.length; start += batchSize) {
       const batch = candidates.slice(start, start + batchSize)
       const converted: ManagedContentItem[] = []
+      const convertedPacks: MiniGamePack[] = []
       for (const row of batch) {
-        try { converted.push(importRowToContent(kind, row.values, row.rowKey)); completedKeys.push(row.rowKey); imported++ }
+        try {
+          if (kind === 'minigame') convertedPacks.push(miniGamePackFromRow(row.values))
+          else converted.push(importRowToContent(kind, row.values, row.rowKey))
+          completedKeys.push(row.rowKey)
+          imported++
+        }
         catch (error) { errors.push(`Row ${row.index}: ${error instanceof Error ? error.message : 'Import failed'}`) }
       }
-      setItems((current) => {
-        let next = [...current]
-        converted.forEach((incoming) => {
-          const index = next.findIndex((item) => item.id === incoming.id)
-          if (index >= 0 && mergeMode === 'update') next[index] = mergeContentItem(next[index], incoming, overrideEmpty)
-          else if (index < 0) next.unshift(materialiseNewItem(incoming))
+      if (kind === 'minigame') {
+        setMiniGameDocument((current) => {
+          const next = [...current.packs]
+          convertedPacks.forEach((incoming) => {
+            const index = next.findIndex((item) => item.id === incoming.id)
+            if (index >= 0 && mergeMode === 'update') next[index] = incoming
+            else if (index < 0) next.unshift(incoming)
+          })
+          return { version: 1, status: 'In review', validationStatus: 'validated', updatedAt: new Date().toISOString(), packs: next }
         })
-        return next
-      })
+      } else {
+        setItems((current) => {
+          let next = [...current]
+          converted.forEach((incoming) => {
+            const index = next.findIndex((item) => item.id === incoming.id)
+            if (index >= 0 && mergeMode === 'update') next[index] = mergeContentItem(next[index], incoming, overrideEmpty)
+            else if (index < 0) next.unshift(materialiseNewItem(incoming))
+          })
+          return next
+        })
+      }
       setProgress(Math.round((Math.min(start + batchSize, candidates.length) / Math.max(1, candidates.length)) * 100))
       await new Promise<void>((resolve) => requestAnimationFrame(() => resolve()))
     }
@@ -206,13 +235,23 @@ export function BulkImportPage() {
     setImporting(false)
   }
 
+  function publishValidatedMiniGames() {
+    if (kind !== 'minigame' || !publishConfirmed) return
+    const errors = miniGameDocument.packs.flatMap((pack) => validateMiniGamePack(pack))
+    if (errors.length) {
+      setImportResult((current) => ({ imported: current?.imported ?? 0, failed: errors.length, errors }))
+      return
+    }
+    setMiniGameDocument((current) => ({ ...current, status: 'Published', validationStatus: 'validated', updatedAt: new Date().toISOString() }))
+  }
+
   function reset() {
-    setStep(0); setFile(null); setSheets([]); setSheetName(''); setMapping({}); setParseError(''); setConfirmed(false); setImportResult(null); setProgress(0)
+    setStep(0); setFile(null); setSheets([]); setSheetName(''); setMapping({}); setParseError(''); setConfirmed(false); setPublishConfirmed(false); setImportResult(null); setProgress(0)
   }
 
   return (
     <PageContainer className="max-w-[88rem]">
-      <PageHeader title={`Bulk import ${schema.noun}`} description="Open a spreadsheet, CSV, or Codex-authored Markdown file; inspect every mapping and row before committing resumable batches." actions={<ButtonLink to={`/admin/${routeFor[kind]}`} variant="secondary" iconLeft={ArrowLeft}>Back to {CONTENT_KIND_LABEL[kind].plural.toLowerCase()}</ButtonLink>} />
+      <PageHeader title={`Bulk import ${schema.noun}`} description="Open a spreadsheet, CSV, or Codex-authored Markdown file; inspect every mapping and row before committing resumable batches." actions={<ButtonLink to={`/admin/${routeFor[kind]}`} variant="secondary" iconLeft={ArrowLeft}>Back to {kindLabel.plural.toLowerCase()}</ButtonLink>} />
 
       <Panel className="mb-4 overflow-hidden">
         <div className="grid grid-cols-2 gap-px bg-line sm:grid-cols-3 xl:grid-cols-6">{steps.map((label, index) => <button key={label} type="button" disabled={index > step || importing} onClick={() => index <= step && setStep(index)} className={cn('flex min-h-16 items-center gap-2 bg-surface px-3 py-2 text-start', index === step && 'bg-primary-tint/55', index < step && 'text-ink', index > step && 'text-ink-3')}><span className={cn('grid size-6 shrink-0 place-items-center rounded-full border font-mono text-[10px]', index < step ? 'border-success bg-success text-on-success' : index === step ? 'border-primary bg-primary text-on-primary' : 'border-line-2')}>{index < step ? <Check size={12} /> : index + 1}</span><span className="text-[11.5px] font-semibold leading-tight">{label}</span></button>)}</div>
@@ -232,9 +271,23 @@ export function BulkImportPage() {
       {step === 4 && <Panel className="overflow-hidden"><PanelHeader title="Rows that will be skipped" icon={AlertTriangle} hint={`${skippedRows.length} rows`} /><div className="divide-y divide-line">{skippedRows.map((row) => <div key={row.rowKey} className="grid gap-1 px-4 py-3 sm:grid-cols-[5rem_1fr]"><span className="font-mono text-[11px] text-ink-3">Row {row.index}</span><div><p className="text-[12.5px] font-semibold text-ink">{row.values.title || row.values.question || 'Untitled row'}</p><p className="mt-0.5 text-[11.5px] leading-relaxed text-warning">{row.reasons.join(' · ')}</p></div></div>)}{skippedRows.length === 0 && <div className="px-5 py-12 text-center"><CheckCircle2 size={24} className="mx-auto text-success" /><p className="mt-2 text-[13px] font-semibold text-ink">No rows will be skipped</p><p className="mt-1 text-[12px] text-ink-3">Every row has passed the currently selected rules.</p></div>}</div><div className="flex justify-end border-t border-line px-4 py-3"><Button variant="primary" iconRight={ArrowRight} onClick={() => setStep(5)}>Choose import options</Button></div></Panel>}
 
       {step === 5 && <div className="grid gap-4 xl:grid-cols-[1fr_24rem]">
-        <Panel className="overflow-hidden"><PanelHeader title="Import options and submit" /><div className="space-y-4 p-4 sm:p-5"><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-line bg-surface p-3"><input type="checkbox" className="mt-0.5" checked={includeInvalid} onChange={(event) => setIncludeInvalid(event.target.checked)} /><span><strong className="block text-[13px] text-ink">Import invalid rows too</strong><span className="mt-0.5 block text-[11.5px] leading-relaxed text-ink-3">Include rows with validation errors instead of skipping them. Duplicate rows and conflicting IDs in create-only mode remain blocked.</span></span></label><div className="grid gap-3 sm:grid-cols-2"><label className="rounded-lg border border-line p-3"><span className="mb-1.5 block text-[12.5px] font-medium text-ink-2">Existing canonical IDs</span><Select value={mergeMode} onChange={(event) => setMergeMode(event.target.value as 'create' | 'update')}><option value="update">Update matching items</option><option value="create">Create only; skip matches</option></Select></label><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-line p-3"><input type="checkbox" className="mt-0.5" checked={overrideEmpty} onChange={(event) => setOverrideEmpty(event.target.checked)} /><span><strong className="block text-[12.5px] text-ink">Override with blanks</strong><span className="mt-0.5 block text-[11px] leading-relaxed text-ink-3">Allow empty imported fields to replace existing content.</span></span></label></div><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-primary-line bg-primary-tint/35 p-4"><input type="checkbox" className="mt-0.5" checked={confirmed} onChange={(event) => setConfirmed(event.target.checked)} /><span className="text-[12.5px] font-medium leading-relaxed text-ink">I reviewed all mappings, all preview rows, all visible errors, the skipped-row list, and the selected merge/override options.</span></label>{importing && <div><div className="mb-2 flex items-center justify-between text-[12px]"><span className="inline-flex items-center gap-2 text-ink-2"><Loader2 size={14} className="animate-spin" />Importing in batches of 25</span><span className="font-mono text-ink">{progress}%</span></div><Meter value={progress} tone="primary" /></div>}{importResult && <div className={cn('rounded-lg border p-4', importResult.failed ? 'border-warning/35 bg-warning-tint/40' : 'border-success/30 bg-success-tint/50')}><p className="flex items-center gap-2 text-[13px] font-semibold text-ink"><Icon icon={importResult.failed ? AlertTriangle : CheckCircle2} size={16} className={importResult.failed ? 'text-warning' : 'text-success'} />{importResult.imported} imported · {importResult.failed} failed</p>{importResult.errors.length > 0 && <ul className="mt-2 space-y-1 text-[11.5px] text-warning">{importResult.errors.map((error) => <li key={error}>{error}</li>)}</ul>}<p className="mt-2 text-[11.5px] text-ink-3">Completed row identities were recorded. Re-running this file will not import them twice.</p></div>}<div className="flex flex-col-reverse gap-2 border-t border-line pt-4 sm:flex-row sm:justify-between"><Button variant="ghost" iconLeft={RotateCcw} onClick={reset} disabled={importing}>Start over</Button><Button variant="primary" iconLeft={Upload} onClick={() => void runImport()} disabled={!confirmed || importing || Boolean(importResult)} loading={importing}>Import {mappedRows.length - skippedRows.length} rows</Button></div></div></Panel>
+        <Panel className="overflow-hidden"><PanelHeader title="Import options and submit" /><div className="space-y-4 p-4 sm:p-5"><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-line bg-surface p-3"><input type="checkbox" className="mt-0.5" checked={includeInvalid} disabled={kind === 'minigame'} onChange={(event) => setIncludeInvalid(event.target.checked)} /><span><strong className="block text-[13px] text-ink">{kind === 'minigame' ? 'Invalid medical game rows are always blocked' : 'Import invalid rows too'}</strong><span className="mt-0.5 block text-[11.5px] leading-relaxed text-ink-3">{kind === 'minigame' ? 'A minigame must pass its authored-fact and source validation before it can enter review.' : 'Include rows with validation errors instead of skipping them. Duplicate rows and conflicting IDs in create-only mode remain blocked.'}</span></span></label><div className="grid gap-3 sm:grid-cols-2"><label className="rounded-lg border border-line p-3"><span className="mb-1.5 block text-[12.5px] font-medium text-ink-2">Existing canonical IDs</span><Select value={mergeMode} onChange={(event) => setMergeMode(event.target.value as 'create' | 'update')}><option value="update">Update matching items</option><option value="create">Create only; skip matches</option></Select></label><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-line p-3"><input type="checkbox" className="mt-0.5" checked={overrideEmpty} onChange={(event) => setOverrideEmpty(event.target.checked)} /><span><strong className="block text-[12.5px] text-ink">Override with blanks</strong><span className="mt-0.5 block text-[11px] leading-relaxed text-ink-3">Allow empty imported fields to replace existing content.</span></span></label></div><label className="flex cursor-pointer items-start gap-3 rounded-lg border border-primary-line bg-primary-tint/35 p-4"><input type="checkbox" className="mt-0.5" checked={confirmed} onChange={(event) => setConfirmed(event.target.checked)} /><span className="text-[12.5px] font-medium leading-relaxed text-ink">I reviewed all mappings, all preview rows, all visible errors, the skipped-row list, and the selected merge/override options.</span></label>{importing && <div><div className="mb-2 flex items-center justify-between text-[12px]"><span className="inline-flex items-center gap-2 text-ink-2"><Loader2 size={14} className="animate-spin" />Importing in batches of 25</span><span className="font-mono text-ink">{progress}%</span></div><Meter value={progress} tone="primary" /></div>}{importResult && <div className={cn('rounded-lg border p-4', importResult.failed ? 'border-warning/35 bg-warning-tint/40' : 'border-success/30 bg-success-tint/50')}><p className="flex items-center gap-2 text-[13px] font-semibold text-ink"><Icon icon={importResult.failed ? AlertTriangle : CheckCircle2} size={16} className={importResult.failed ? 'text-warning' : 'text-success'} />{importResult.imported} imported · {importResult.failed} failed</p>{importResult.errors.length > 0 && <ul className="mt-2 space-y-1 text-[11.5px] text-warning">{importResult.errors.map((error) => <li key={error}>{error}</li>)}</ul>}<p className="mt-2 text-[11.5px] text-ink-3">Completed row identities were recorded. Re-running this file will not import them twice.</p></div>}<div className="flex flex-col-reverse gap-2 border-t border-line pt-4 sm:flex-row sm:justify-between"><Button variant="ghost" iconLeft={RotateCcw} onClick={reset} disabled={importing}>Start over</Button><Button variant="primary" iconLeft={Upload} onClick={() => void runImport()} disabled={!confirmed || importing || Boolean(importResult)} loading={importing}>Import {mappedRows.length - skippedRows.length} rows</Button></div></div></Panel>
         <Panel className="h-fit overflow-hidden"><PanelHeader title="Import summary" /><dl className="divide-y divide-line px-4"><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">File</dt><dd className="max-w-48 truncate text-[12px] font-medium text-ink">{file?.name}</dd></div><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">Worksheet</dt><dd className="text-[12px] font-medium text-ink">{sheet?.name}</dd></div><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">Rows detected</dt><dd className="font-mono text-[12px] text-ink">{mappedRows.length}</dd></div><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">Previously imported</dt><dd className="font-mono text-[12px] text-ink">{mappedRows.filter((row) => importedKeys.has(row.rowKey)).length}</dd></div><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">Will skip</dt><dd className="font-mono text-[12px] text-warning">{skippedRows.length}</dd></div><div className="flex justify-between py-3"><dt className="text-[12px] text-ink-3">Batch size</dt><dd className="font-mono text-[12px] text-ink">25</dd></div></dl></Panel>
       </div>}
+
+      {kind === 'minigame' && importResult && (
+        <Panel className="mt-4 border-warning/35 p-4 sm:p-5">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+            <div className="max-w-3xl">
+              <Badge tone={miniGameDocument.status === 'Published' ? 'success' : 'warning'}>{miniGameDocument.status}</Badge>
+              <h2 className="mt-2 text-[15px] font-semibold text-ink">Medical content publication review</h2>
+              <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">Imported packs stay out of student and party games until a reviewer explicitly confirms the medical facts, ordering, rationales, and source metadata.</p>
+              {miniGameDocument.status !== 'Published' && <label className="mt-3 flex items-start gap-2 text-[12.5px] text-ink"><input type="checkbox" className="mt-0.5" checked={publishConfirmed} onChange={(event) => setPublishConfirmed(event.target.checked)} /><span>I reviewed every imported pack and approve this validated pack library for student use.</span></label>}
+            </div>
+            {miniGameDocument.status !== 'Published' && <Button variant="primary" iconLeft={CheckCircle2} disabled={!publishConfirmed || miniGameDocument.packs.length === 0} onClick={publishValidatedMiniGames}>Publish reviewed packs</Button>}
+          </div>
+        </Panel>
+      )}
     </PageContainer>
   )
 }

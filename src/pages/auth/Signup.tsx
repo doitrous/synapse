@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { AlertCircle, BookOpenText, CalendarDays, ChartNoAxesColumnIncreasing, Check, Circle, Eye, EyeOff, UserPlus } from 'lucide-react'
 import { AuthLayout } from './AuthLayout'
+import { SocialAuthButtons } from './SocialAuthButtons'
 import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
@@ -10,7 +11,6 @@ import { authErrorMessage } from './authMessages'
 import { rememberPendingEmail } from './pendingEmail'
 import { CONFLICT_MESSAGE, MIN_PASSWORD, normalisePhone, signInPathFor } from '@/data/accountIdentity'
 import { identityConflict } from '@/lib/accountExists'
-import { SocialAuthButtons } from './SocialAuthButtons'
 
 const ownership = [
   { icon: BookOpenText, title: 'Notes and highlights', detail: 'Annotations, personal articles, tags, and reading state.' },

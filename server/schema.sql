@@ -212,6 +212,18 @@ ALTER TABLE students ADD COLUMN IF NOT EXISTS user_id VARCHAR(64) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS notes TEXT NULL;
 ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_user (user_id);
 
+/* Student-owned public identity. Authentication still comes from Supabase, but
+   classmates and leaderboards need a stable handle that is not an email. The
+   normalized copy is written by the server and unique only inside a university
+   so the same username can exist at different schools without leaking between
+   cohorts. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS username VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS username_normalized VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS profile_icon VARCHAR(64) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS social_provider VARCHAR(32) NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS social_subject VARCHAR(191) NULL;
+ALTER TABLE students ADD UNIQUE INDEX IF NOT EXISTS uniq_students_university_username (university_id, username_normalized);
+
 /* The cohort a student belongs to inside their year — "Cardiovascular block",
    "Group B". Vouchers and notification campaigns have always offered group
    targeting, but nothing stored a group, so every group-restricted rule failed
@@ -341,6 +353,13 @@ CREATE TABLE IF NOT EXISTS user_documents (
   deleted_at   DATETIME NULL,
   INDEX idx_user_documents_owner (user_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* User document rows are the managed asset ledger for resources, notebooks and
+   whiteboards. The source columns let reporting charge the owner's bytes once
+   while still explaining where the asset came from. */
+ALTER TABLE user_documents ADD COLUMN IF NOT EXISTS source_kind ENUM('resource','notebook','whiteboard') NOT NULL DEFAULT 'resource';
+ALTER TABLE user_documents ADD COLUMN IF NOT EXISTS source_id VARCHAR(64) NULL;
+ALTER TABLE user_documents ADD INDEX IF NOT EXISTS idx_user_documents_source (user_id, source_kind, deleted_at);
 
 /* Where to send a push notification.
 
@@ -474,16 +493,14 @@ CREATE TABLE IF NOT EXISTS assistant_provider_keys (
 
 /* A note or a whiteboard, published behind a link.
 
-   The share is a copy, not a pointer into `user_state`. That is deliberate:
-   the student's own document keeps working exactly as it did whether or not it
-   has ever been shared, revoking a link cannot damage the original, and a
-   collaborator's edit lands on the shared copy rather than silently rewriting
-   somebody's private notebook. Republishing is an explicit act.
+   The share starts as a copy, not a pointer into `user_state`. The student's
+   own private document remains independent, while the shared copy has its own
+   revision history for safe live collaboration.
 
    `access` is the whole permission model, and it is checked on the server.
      private — only the owner may read it, so a leaked link reveals nothing.
-     view    — anybody holding the link may read it.
-     edit    — anybody holding the link who is signed in may also write to it.
+     view    — signed-in classmates in the same cohort may read it.
+     edit    — signed-in classmates in the same cohort may also write to it.
 
    No semicolons anywhere in this comment: `migrate()` splits the file on them
    to get its statements, so one here would cut this block in half and leave an
@@ -504,6 +521,103 @@ CREATE TABLE IF NOT EXISTS shared_documents (
   INDEX idx_shared_documents_owner (owner_id, kind, updated_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* Shared study material stays inside the owner's university and year. Every
+   content edit advances a revision so a slower collaborator cannot silently
+   overwrite newer work. Existing shares inherit their owner's cohort. */
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS revision INT UNSIGNED NOT NULL DEFAULT 1;
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS university_id VARCHAR(64) NULL;
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS year VARCHAR(64) NULL;
+ALTER TABLE shared_documents ADD INDEX IF NOT EXISTS idx_shared_documents_cohort (university_id, year, kind, access, updated_at);
+UPDATE shared_documents d
+JOIN students s ON s.user_id = d.owner_id
+SET d.university_id = COALESCE(d.university_id, s.university_id),
+    d.year = COALESCE(d.year, s.year)
+WHERE d.university_id IS NULL OR d.year IS NULL;
+
+CREATE TABLE IF NOT EXISTS shared_document_topics (
+  share_id    VARCHAR(64) NOT NULL,
+  position    SMALLINT UNSIGNED NOT NULL,
+  subject_id  VARCHAR(96) NULL,
+  topic       VARCHAR(255) NULL,
+  subtopic    VARCHAR(255) NULL,
+  PRIMARY KEY (share_id, position),
+  INDEX idx_shared_document_topics_subject (subject_id, topic, subtopic),
+  CONSTRAINT fk_shared_topics_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_revisions (
+  id          VARCHAR(64) PRIMARY KEY,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  title       VARCHAR(255) NOT NULL,
+  payload     MEDIUMTEXT NOT NULL,
+  topics      JSON NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_shared_document_revision (share_id, revision),
+  INDEX idx_shared_document_revision_actor (actor_id, created_at),
+  CONSTRAINT fk_shared_revisions_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Managed media approved by the document owner for one exact shared revision.
+   The viewer route never derives file permission from collaborator-editable
+   payload JSON. A new revision gets a new allowlist after server validation. */
+CREATE TABLE IF NOT EXISTS shared_document_revision_assets (
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  document_id VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, revision, document_id),
+  INDEX idx_shared_revision_assets_document (document_id),
+  CONSTRAINT fk_shared_revision_assets_revision FOREIGN KEY (share_id, revision)
+    REFERENCES shared_document_revisions(share_id, revision) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_stars (
+  share_id    VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, user_id),
+  INDEX idx_shared_document_stars_user (user_id, created_at),
+  CONSTRAINT fk_shared_stars_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_follows (
+  share_id    VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, user_id),
+  INDEX idx_shared_document_follows_user (user_id, created_at),
+  CONSTRAINT fk_shared_follows_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_events (
+  id          VARCHAR(64) PRIMARY KEY,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  kind        VARCHAR(64) NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  payload     JSON NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_shared_document_events_share (share_id, revision),
+  INDEX idx_shared_document_events_actor (actor_id, created_at),
+  CONSTRAINT fk_shared_events_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_notifications (
+  id          VARCHAR(64) PRIMARY KEY,
+  user_id     VARCHAR(64) NOT NULL,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  kind        VARCHAR(64) NOT NULL,
+  message     VARCHAR(500) NOT NULL,
+  read_at     DATETIME NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_shared_document_notifications_user (user_id, read_at, created_at),
+  CONSTRAINT fk_shared_notifications_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 /* ── Friends ─────────────────────────────────────────────────────────────
    A friendship is a single row with its pair sorted, so two students pressing
    Add at the same moment cannot create two rows describing one friendship.
@@ -519,10 +633,103 @@ CREATE TABLE IF NOT EXISTS friendships (
   INDEX idx_friendships_b (user_b, status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-/* Whether this student may be found in their cohort's directory. Default on:
-   being findable by your own classmates is the point of the directory, and the
-   cohort is already closed. The toggle lives in Account. */
-ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 1;
+/* Whether this student may be found in their cohort's directory. Default off:
+   a student opts in before classmates can find them, and existing rows are reset
+   to the same explicit private state during this migration. */
+ALTER TABLE students ADD COLUMN IF NOT EXISTS discoverable BOOLEAN NOT NULL DEFAULT 0;
+ALTER TABLE students MODIFY COLUMN discoverable BOOLEAN NOT NULL DEFAULT 0;
+UPDATE students SET discoverable = 0 WHERE discoverable <> 0;
+
+/* Locked enrollment changes. Students can ask for a new university or year with
+   a reason, while an admin applies or rejects the request with an audit note.
+   Approving a university change rechecks the username constraint in code before
+   writing the profile. */
+CREATE TABLE IF NOT EXISTS enrollment_change_requests (
+  id             VARCHAR(64) PRIMARY KEY,
+  user_id        VARCHAR(64) NOT NULL,
+  student_id     VARCHAR(64) NOT NULL,
+  field          ENUM('university','year') NOT NULL,
+  current_value  VARCHAR(128) NULL,
+  requested_value VARCHAR(128) NOT NULL,
+  reason         VARCHAR(500) NOT NULL,
+  status         ENUM('pending','approved','rejected') NOT NULL DEFAULT 'pending',
+  admin_note     VARCHAR(500) NULL,
+  reviewed_by    VARCHAR(64) NULL,
+  reviewed_at    DATETIME NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_enrollment_change_user (user_id, created_at),
+  INDEX idx_enrollment_change_status (status, created_at),
+  INDEX idx_enrollment_change_student (student_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Server-verified question attempts. Public rankings read only rows marked
+   against the published question snapshot, never local client-only history. */
+CREATE TABLE IF NOT EXISTS qbank_attempts (
+  id                       VARCHAR(64) PRIMARY KEY,
+  user_id                  VARCHAR(64) NOT NULL,
+  student_id               VARCHAR(64) NOT NULL,
+  session_id               VARCHAR(96) NOT NULL,
+  question_id              VARCHAR(96) NOT NULL,
+  university_id            VARCHAR(64) NOT NULL,
+  year                     VARCHAR(32) NOT NULL,
+  term                     VARCHAR(64) NOT NULL DEFAULT 'current',
+  subject_id               VARCHAR(96) NULL,
+  topic                    VARCHAR(255) NULL,
+  subtopic                 VARCHAR(255) NULL,
+  concept_ids              JSON NULL,
+  answer_index             INT NOT NULL,
+  correct_index            INT NOT NULL,
+  correct                  TINYINT(1) NOT NULL,
+  seconds                  INT NULL,
+  session_duration_seconds INT NULL,
+  overtime_seconds         INT NULL,
+  answered_at              DATETIME NOT NULL,
+  verified_at              TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_qbank_attempt (user_id, session_id, question_id),
+  INDEX idx_qbank_leaderboard (university_id, year, term, user_id),
+  INDEX idx_qbank_concept_scope (university_id, year, term, verified_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Current all-access pricing. Promotions apply automatically, vouchers apply by
+   code, and the quote endpoint chooses one discount only. */
+CREATE TABLE IF NOT EXISTS pricing_promotions (
+  id             VARCHAR(64) PRIMARY KEY,
+  label          VARCHAR(160) NOT NULL,
+  period         ENUM('monthly','term','both') NOT NULL DEFAULT 'both',
+  discount_type  ENUM('percent','fixed') NOT NULL,
+  discount_value DECIMAL(10,2) NOT NULL,
+  starts_at      DATETIME NOT NULL,
+  ends_at        DATETIME NOT NULL,
+  active         BOOLEAN NOT NULL DEFAULT 1,
+  created_by     VARCHAR(64) NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_pricing_promotions_live (active, starts_at, ends_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS pricing_vouchers (
+  id             VARCHAR(64) PRIMARY KEY,
+  code           VARCHAR(64) NOT NULL UNIQUE,
+  label          VARCHAR(160) NOT NULL,
+  period         ENUM('monthly','term') NOT NULL,
+  discount_type  ENUM('percent','fixed') NOT NULL,
+  discount_value DECIMAL(10,2) NOT NULL,
+  starts_at      DATETIME NOT NULL,
+  ends_at        DATETIME NOT NULL,
+  active         BOOLEAN NOT NULL DEFAULT 1,
+  max_redemptions INT NULL,
+  created_by     VARCHAR(64) NULL,
+  created_at     TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_pricing_vouchers_live (active, period, starts_at, ends_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* One global acknowledgement per reached storage threshold. Once a threshold is
+   dismissed it stays quiet until the next threshold is crossed. */
+CREATE TABLE IF NOT EXISTS storage_threshold_acknowledgements (
+  threshold_gb    INT PRIMARY KEY,
+  acknowledged_by VARCHAR(64) NOT NULL,
+  acknowledged_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* A link a student can send to anyone, on any channel we do not control.
    Single use and short-lived: a link that lives forever in a group chat is a
@@ -631,4 +838,68 @@ CREATE TABLE IF NOT EXISTS study_party_answers (
   seconds     INT NULL,
   answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (session_id, user_id, item_kind, item_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Server-authoritative party games. The browser may choose a game kind and a
+   trusted source id. The full content, including answer keys, is built and
+   persisted here so a party score is never derived from client-supplied facts. */
+CREATE TABLE IF NOT EXISTS study_party_games (
+  id                  VARCHAR(64) PRIMARY KEY,
+  party_id            VARCHAR(64) NOT NULL,
+  host_user_id        VARCHAR(64) NOT NULL,
+  kind                VARCHAR(32) NOT NULL,
+  title               VARCHAR(255) NOT NULL,
+  source_kind         ENUM('authored','published') NOT NULL,
+  source_id           VARCHAR(160) NOT NULL,
+  source_label        VARCHAR(255) NOT NULL,
+  content_json        LONGTEXT NOT NULL,
+  status              ENUM('lobby','in_round','between_rounds','completed') NOT NULL DEFAULT 'lobby',
+  current_round_index INT NOT NULL DEFAULT 0,
+  scores_json         LONGTEXT NOT NULL,
+  version             BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  created_by          VARCHAR(64) NOT NULL,
+  created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at          DATETIME NULL,
+  completed_at        DATETIME NULL,
+  INDEX idx_party_games_party (party_id, status, updated_at),
+  INDEX idx_party_games_host (host_user_id, updated_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_participants (
+  game_id      VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  username     VARCHAR(64) NOT NULL,
+  profile_icon VARCHAR(64) NULL,
+  connected    TINYINT(1) NOT NULL DEFAULT 0,
+  joined_at    DATETIME NOT NULL,
+  last_seen_at DATETIME NOT NULL,
+  PRIMARY KEY (game_id, user_id),
+  INDEX idx_party_game_participants_user (user_id, last_seen_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_answers (
+  game_id     VARCHAR(64) NOT NULL,
+  round_id    VARCHAR(160) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  answer_json LONGTEXT NOT NULL,
+  correct     TINYINT(1) NOT NULL,
+  points      INT NOT NULL,
+  max_points  INT NOT NULL,
+  answered_at DATETIME NOT NULL,
+  PRIMARY KEY (game_id, round_id, user_id),
+  INDEX idx_party_game_answers_user (user_id, answered_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_events (
+  event_id     VARCHAR(96) PRIMARY KEY,
+  game_id      VARCHAR(64) NOT NULL,
+  party_id     VARCHAR(64) NOT NULL,
+  sequence     BIGINT UNSIGNED NOT NULL,
+  type         VARCHAR(64) NOT NULL,
+  actor_id     VARCHAR(64) NOT NULL,
+  payload_json LONGTEXT NOT NULL,
+  created_at   DATETIME NOT NULL,
+  UNIQUE INDEX uniq_party_game_event_sequence (game_id, sequence),
+  INDEX idx_party_game_events_party (party_id, created_at),
+  INDEX idx_party_game_events_actor (actor_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

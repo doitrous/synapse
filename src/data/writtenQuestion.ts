@@ -1,4 +1,4 @@
-import type { ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type ManagedContentItem } from './contentControl.ts'
 import { isWrittenFormat, writtenTotalMarks, type WrittenPart } from './questionFormat.ts'
 import type { MatchingQuestionView } from './matchingQuestion.ts'
 
@@ -39,7 +39,7 @@ export interface WrittenQuestion {
  * of the practice.
  */
 export function managedWrittenToStudentWritten(item: ManagedContentItem): WrittenQuestion | null {
-  if (item.kind !== 'question' || item.status !== 'Published') return null
+  if (item.kind !== 'question' || !isStudentPublishable(item)) return null
   const data = item.questionData
   if (!data?.format || !isWrittenFormat(data.format)) return null
   const parts = data.writtenParts ?? []
@@ -163,7 +163,7 @@ export function writtenPartsInOrder(parts: readonly WrittenPart[]): WrittenPart[
  * what it tests.
  */
 export function managedMatchingToStudentMatching(item: ManagedContentItem): MatchingQuestionView | null {
-  if (item.kind !== 'question' || item.status !== 'Published') return null
+  if (item.kind !== 'question' || !isStudentPublishable(item)) return null
   const data = item.questionData
   if (data?.format !== 'matching') return null
   const matching = data.matching

@@ -9,7 +9,11 @@ import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 import { REDACTED_STATE_KEYS } from './studentLedger.js'
-import { createShare, deleteShare, listShares, readShare, updateShare } from './shares.js'
+import {
+  createShare, deleteShare, listDiscoverableShares, listShareNotifications, listShares,
+  markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
+  shareRevisionHistory, updateShare,
+} from './shares.js'
 import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
@@ -39,6 +43,13 @@ import {
 import { withinRateLimit } from './identity.js'
 import { effectivePlan, limitFor, readStorageLimits } from './storage.js'
 import { redeemVoucher, releaseVoucher, myVoucher } from './vouchers.js'
+import { createPromotion, createPricingVoucher, listPricingDiscounts, pricingQuote } from './pricing.js'
+import {
+  createEnrollmentChangeRequest, decideEnrollmentChangeRequest,
+  listEnrollmentChangeRequests, myEnrollmentChangeRequests,
+} from './enrollmentChanges.js'
+import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
+import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
   chat as assistantChat,
@@ -58,6 +69,9 @@ import {
   createParty, joinByCode, setVisibility, myParties, openParties, partyFor, leaveParty,
   createSession, sessionsFor, sessionFor, answerItem, closeSession,
 } from './parties.js'
+import {
+  actOnPartyGame, createPartyGame, partyGameFor, partyGamesFor, streamPartyGameEvents,
+} from './partyGames.js'
 import {
   createChallenge, respondToChallenge, submitChallengeAnswer, finishChallenge, challengeFor, myChallenges,
 } from './challenges.js'
@@ -238,7 +252,19 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
       mfaRequired: Boolean(req.identity.mfaRequired),
     },
     profile: user
-      ? { studentId: user.id, name: user.name, email: user.email, universityId: user.universityId, year: user.year, group: user.group, status: user.status }
+      ? {
+          studentId: user.id,
+          name: user.name,
+          email: user.email,
+          universityId: user.universityId,
+          year: user.year,
+          group: user.group,
+          status: user.status,
+          username: user.username,
+          profileIcon: user.profileIcon,
+          discoverable: user.discoverable,
+          socialProvider: user.socialProvider,
+        }
       : null,
     subscription: user?.subscription ?? null,
     entitlement: user?.entitlement ?? { state: 'none', plan: 'Free', expiresAt: null, daysLeft: null },
@@ -256,8 +282,24 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
  */
 app.put('/api/me/enrolment', requireAuthenticated, wrap(async (req, res) => {
   const result = await saveOwnEnrolment(req.identity.id, req.body ?? {})
-  if (result.error) return res.status(result.error === 'no_identity' ? 404 : 400).json({ error: result.error })
+  if (result.error) {
+    const status = result.error === 'no_identity' ? 404 : (result.error === 'enrollment_locked' || result.error === 'username_taken' ? 409 : 400)
+    return res.status(status).json(result)
+  }
   res.json({ ok: true, profile: result.profile })
+}))
+
+app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  const result = await createEnrollmentChangeRequest(req.identity.id, req.body ?? {})
+  if (result.error) {
+    const status = result.error === 'pending_exists' || result.error === 'unchanged' ? 409 : 400
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ requests: await myEnrollmentChangeRequests(req.identity.id) })
 }))
 
 /**
@@ -298,10 +340,9 @@ app.get('/api/me/export', requireAuthenticated, wrap(async (req, res) => {
 /**
  * Whether the caller shows up in their own year's directory.
  *
- * The column defaults to findable, because the cohort is already closed and
- * being found by your own classmates is the point of the directory — but
- * default-on only stays honest if a student can see and change it, which is
- * what these two routes are for. The actor is always the verified session;
+ * The column defaults to private. A student must deliberately opt in before
+ * they can appear in, or browse, their cohort directory. The actor is always
+ * the verified session;
  * the value being written is the only thing that comes from the body.
  */
 app.get('/api/account/discoverable', requireAuthenticated, wrap(async (req, res) => {
@@ -409,7 +450,8 @@ function describeUpload(body) {
 async function myDocument(userId, id) {
   const [rows] = await pool.query(
     `SELECT id, title, storage_key AS storageKey, media_type AS mediaType, file_name AS fileName,
-       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount, created_at AS createdAt
+       mime_type AS mimeType, size_bytes AS sizeBytes, sha256, page_count AS pageCount,
+       source_kind AS sourceKind, source_id AS sourceId, created_at AS createdAt
      FROM user_documents WHERE id = ? AND user_id = ? AND deleted_at IS NULL`,
     [id, userId],
   )
@@ -419,7 +461,8 @@ async function myDocument(userId, id) {
 app.get('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const [rows] = await pool.query(
     `SELECT id, title, media_type AS mediaType, file_name AS fileName, mime_type AS mimeType,
-       size_bytes AS sizeBytes, page_count AS pageCount, created_at AS createdAt
+       size_bytes AS sizeBytes, page_count AS pageCount, source_kind AS sourceKind,
+       source_id AS sourceId, created_at AS createdAt
      FROM user_documents WHERE user_id = ? AND deleted_at IS NULL ORDER BY created_at DESC`,
     [req.identity.id],
   )
@@ -432,9 +475,13 @@ app.post('/api/my-documents', requireAuthenticated, wrap(async (req, res) => {
   const upload = describeUpload(req.body)
   // Generated here, never accepted: a path is not something a client gets to say.
   const storageKey = join('my-documents', req.identity.id.replace(/[^a-zA-Z0-9_-]/g, '_'), `${id}.${upload.extension}`)
+  const sourceKind = ['notebook', 'whiteboard'].includes(req.body?.sourceKind) ? req.body.sourceKind : 'resource'
+  const sourceId = String(req.body?.sourceId ?? '').trim().replace(/[\r\n\t]/g, ' ').slice(0, 64) || null
   await pool.query(
-    'INSERT INTO user_documents (id, user_id, title, storage_key, media_type, file_name, mime_type) VALUES (?, ?, ?, ?, ?, ?, ?)',
-    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType],
+    `INSERT INTO user_documents
+       (id, user_id, title, storage_key, media_type, file_name, mime_type, source_kind, source_id)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+    [id, req.identity.id, documentTitle(req.body?.title), storageKey, upload.kind, upload.fileName, upload.mimeType, sourceKind, sourceId],
   )
   res.json({ id, uploadId: randomUUID().replace(/-/g, ''), chunkMaxBytes: RESOURCE_CHUNK_MAX_BYTES, mediaType: upload.kind })
 }))
@@ -513,11 +560,12 @@ app.get('/api/my-documents/:id/file', requireAuthenticated, wrap(async (req, res
   const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, document.storageKey)
   if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'document file is still uploading' })
   const isPdf = document.mediaType === 'pdf'
+  const safeImageMime = /^(?:image\/(?:avif|gif|jpeg|png|webp))$/i.test(document.mimeType ?? '') ? document.mimeType : null
   const name = basename(document.fileName || `${document.title}.${isPdf ? 'pdf' : 'bin'}`).replace(/["\r\n]/g, '')
-  res.setHeader('Content-Type', isPdf ? 'application/pdf' : 'application/octet-stream')
-  // A PDF is opened in the reader. Anything else is handed over as a download
-  // rather than rendered on this origin, whatever it claims to be.
-  res.setHeader('Content-Disposition', `${isPdf ? 'inline' : 'attachment'}; filename="${name}"`)
+  res.setHeader('Content-Type', isPdf ? 'application/pdf' : safeImageMime ?? 'application/octet-stream')
+  // Reviewed raster types and PDFs can render inline. Everything else remains
+  // a download, whatever MIME type the uploader supplied.
+  res.setHeader('Content-Disposition', `${isPdf || safeImageMime ? 'inline' : 'attachment'}; filename="${name}"`)
   res.setHeader('X-Content-Type-Options', 'nosniff')
   res.sendFile(fullPath)
 }))
@@ -541,9 +589,8 @@ app.delete('/api/my-documents/:id', requireAuthenticated, wrap(async (req, res) 
  *
  * The permission rules are in `shares.js`, deliberately away from the routing,
  * because they are the only thing between "shared with my study group" and
- * "on the open web". Read is the one route that answers without a session —
- * see the note in `apiAuthGate` — and it still refuses a private share to
- * anybody but its owner.
+ * "on the open web". Every share route requires a session, and direct reads
+ * remain restricted to the owner's university and year.
  */
 app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
   const result = await createShare(req.identity.id, req.body ?? {})
@@ -552,26 +599,71 @@ app.post('/api/shares', requireAuthenticated, wrap(async (req, res) => {
 }))
 
 app.get('/api/shares', requireAuthenticated, wrap(async (req, res) => {
-  res.json({ items: await listShares(req.identity.id) })
+  res.json(await listDiscoverableShares(req.identity.id, { kind: req.query.kind }))
 }))
 
-app.get('/api/shares/:id', wrap(async (req, res) => {
+app.get('/api/shares/mine', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await listShares(req.identity.id, { kind: req.query.kind }))
+}))
+
+app.get('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await readShare(req.params.id, req.identity?.id ?? null)
   if (result.error) return res.status(404).json({ error: result.error })
   res.json(result.share)
 }))
 
+app.get('/api/shares/:id/assets/:documentId', requireAuthenticated, wrap(async (req, res) => {
+  const result = await readShareAsset(req.params.id, req.params.documentId, req.identity.id)
+  if (result.error) return res.status(404).json({ error: 'asset not found' })
+  const fullPath = resolveWithin(RESOURCE_STORAGE_DIR, result.document.storageKey)
+  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'asset not found' })
+  const safeMime = /^(?:image\/(?:avif|gif|jpeg|png|webp)|application\/pdf)$/i.test(result.document.mimeType ?? '')
+    ? result.document.mimeType
+    : 'application/octet-stream'
+  res.setHeader('Content-Type', safeMime)
+  res.setHeader('Content-Disposition', `inline; filename="${basename(result.document.fileName || result.document.title).replace(/["\r\n]/g, '')}"`)
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.sendFile(fullPath)
+}))
+
 app.put('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await updateShare(req.params.id, req.identity.id, req.body ?? {})
   if (result.error === 'not_found') return res.status(404).json({ error: result.error })
+  if (result.error === 'stale_revision') return res.status(409).json({ error: result.error, currentRevision: result.currentRevision })
   if (result.error) return res.status(400).json({ error: result.error })
   res.json(result.share)
+}))
+
+app.put('/api/shares/:id/star', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setShareStar(req.params.id, req.identity.id, Boolean(req.body?.starred))
+  if (result.error) return res.status(result.error === 'not_found' ? 404 : 400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.put('/api/shares/:id/follow', requireAuthenticated, wrap(async (req, res) => {
+  const result = await setShareFollow(req.params.id, req.identity.id, Boolean(req.body?.following))
+  if (result.error) return res.status(result.error === 'not_found' ? 404 : 400).json({ error: result.error })
+  res.json(result.share)
+}))
+
+app.get('/api/shares/:id/revisions', requireAuthenticated, wrap(async (req, res) => {
+  const result = await shareRevisionHistory(req.params.id, req.identity.id)
+  if (result.error) return res.status(404).json({ error: result.error })
+  res.json(result.revisions)
 }))
 
 app.delete('/api/shares/:id', requireAuthenticated, wrap(async (req, res) => {
   const result = await deleteShare(req.params.id, req.identity.id)
   if (result.error) return res.status(404).json({ error: result.error })
   res.json({ ok: true })
+}))
+
+app.get('/api/notifications/shared', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await listShareNotifications(req.identity.id, { limit: req.query.limit }))
+}))
+
+app.post('/api/notifications/shared/read', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await markShareNotificationsRead(req.identity.id, req.body?.ids))
 }))
 
 /* ── Vouchers ────────────────────────────────────────────────────────────── */
@@ -590,6 +682,30 @@ app.delete('/api/vouchers/redemption', requireAuthenticated, wrap(async (req, re
 
 app.get('/api/vouchers/mine', requireAuthenticated, wrap(async (req, res) => {
   res.json({ redemption: await myVoucher(req.identity.id) })
+}))
+
+/* ── Pricing and verified QBank records ─────────────────────────────────── */
+
+app.get('/api/pricing/quote', wrap(async (req, res) => {
+  const result = await pricingQuote({ period: req.query?.period, voucherCode: req.query?.voucher })
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/qbank/attempts', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordVerifiedAttempts(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(result.error === 'profile_incomplete' ? 409 : 400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/leaderboards', requireAuthenticated, wrap(async (req, res) => {
+  const result = await leaderboardFor(req.identity.id, {
+    metric: req.query?.metric === 'mastery' ? 'mastery' : 'accuracy',
+    term: req.query?.term ? String(req.query.term) : 'current',
+    limit: Math.min(Number(req.query?.limit) || 50, 100),
+  })
+  if (result.error) return res.status(409).json(result)
+  res.json(result)
 }))
 
 /* ── Study Together ──────────────────────────────────────────────────────── */
@@ -656,6 +772,30 @@ app.post('/api/parties/:id/visibility', requireAuthenticated, wrap(async (req, r
 
 app.post('/api/parties/:id/leave', requireAuthenticated, wrap(async (req, res) => {
   res.json(await leaveParty(req.identity.id, req.params.id))
+}))
+
+/* ── Study party games ───────────────────────────────────────────────────── */
+
+app.post('/api/parties/:id/games', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await createPartyGame(req.identity.id, req.params.id, req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/games', requireAuthenticated, wrap(async (req, res) => {
+  res.json({ games: await partyGamesFor(req.identity.id, req.params.id) })
+}))
+
+app.get('/api/parties/:id/games/:gameId', requireAuthenticated, wrap(async (req, res) => {
+  const game = await partyGameFor(req.identity.id, req.params.id, req.params.gameId)
+  if (!game) return res.status(404).json({ error: 'game not found' })
+  res.json({ game })
+}))
+
+app.post('/api/parties/:id/games/:gameId/actions', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await actOnPartyGame(req.identity.id, req.params.id, req.params.gameId, req.body?.action ?? req.body ?? {}))
+}))
+
+app.get('/api/parties/:id/games/:gameId/events', requireAuthenticated, wrap(async (req, res) => {
+  await streamPartyGameEvents(req.identity.id, req.params.id, req.params.gameId, req, res)
 }))
 
 /* ── Study party sessions ────────────────────────────────────────────────── */
@@ -1239,10 +1379,10 @@ app.get('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
 app.patch('/api/admin/users/:id', requireTab('users'), wrap(async (req, res) => {
   const reason = readReason(req.body)
   if (!reason) return res.status(400).json({ error: 'reason must be explicit (8 characters or more)' })
-  const fields = ['name', 'email', 'university_id', 'year', 'study_group', 'notes']
+  const fields = ['name', 'email', 'study_group', 'notes']
   const updates = []
   const params = []
-  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['universityId', 'university_id'], ['year', 'year'], ['group', 'study_group'], ['notes', 'notes']]) {
+  for (const [key, column] of [['name', 'name'], ['email', 'email'], ['group', 'study_group'], ['notes', 'notes']]) {
     if (req.body?.[key] !== undefined && fields.includes(column)) { updates.push(`${column} = ?`); params.push(req.body[key] || null) }
   }
   if (!updates.length) return res.status(400).json({ error: 'nothing to update' })
@@ -1363,6 +1503,58 @@ app.post('/api/admin/users/:id/scope', requireTab('users'), wrap(async (req, res
     const [status, message] = REFUSALS[result.error] ?? [400, result.error]
     return res.status(status).json({ error: message })
   }
+  res.json(result)
+}))
+
+app.get('/api/admin/enrollment-change-requests', requireTab('users'), wrap(async (req, res) => {
+  res.json({ requests: await listEnrollmentChangeRequests({ status: req.query?.status ? String(req.query.status) : 'pending' }) })
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/approve', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: true, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'username_conflict' || result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.post('/api/admin/enrollment-change-requests/:id/reject', requireTab('users'), wrap(async (req, res) => {
+  const result = await decideEnrollmentChangeRequest(req.params.id, {
+    approve: false, note: req.body?.note ?? req.body?.reason, actorId: req.identity.id,
+  })
+  if (result.error) {
+    const status = result.error === 'already_decided' ? 409 : (result.error === 'not_found' ? 404 : 400)
+    return res.status(status).json(result)
+  }
+  res.json(result)
+}))
+
+app.get('/api/admin/platform/reports', requireTab('dashboard'), wrap(async (_req, res) => {
+  res.json(await platformReport())
+}))
+
+app.post('/api/admin/platform/storage-thresholds/:thresholdGb/ack', requireTab('dashboard'), wrap(async (req, res) => {
+  const result = await acknowledgeStorageThreshold(req.params.thresholdGb, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.get('/api/admin/pricing', requireTab('payments'), wrap(async (_req, res) => {
+  res.json(await listPricingDiscounts())
+}))
+
+app.post('/api/admin/pricing/promotions', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPromotion(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.post('/api/admin/pricing/vouchers', requireTab('payments'), wrap(async (req, res) => {
+  const result = await createPricingVoucher(req.body ?? {}, req.identity.id)
+  if (result.error) return res.status(400).json(result)
   res.json(result)
 }))
 

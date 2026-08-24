@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState, type KeyboardEvent } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { Shuffle, Copy, Check } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -39,15 +39,21 @@ function TermMatchTile({
   tile,
   state,
   onClick,
+  onKeyDown,
+  buttonRef,
 }: {
   tile: MatchTile
   state: TileState
   onClick: () => void
+  onKeyDown: (event: KeyboardEvent<HTMLButtonElement>) => void
+  buttonRef: (node: HTMLButtonElement | null) => void
 }) {
   return (
     <button
+      ref={buttonRef}
       type="button"
       onClick={onClick}
+      onKeyDown={onKeyDown}
       disabled={state === 'matched'}
       // Only the Arabic side ever needs this — an English definition tile
       // rendered right-to-left would be as unreadable as Arabic rendered
@@ -91,6 +97,7 @@ function TermMatchPlayer({
   const [startedAt] = useState(() => Date.now())
   const [finishedAt, setFinishedAt] = useState<number | null>(null)
   const wrongTimer = useRef<number | null>(null)
+  const tileRefs = useRef<Map<string, HTMLButtonElement>>(new Map())
 
   useEffect(
     () => () => {
@@ -136,6 +143,41 @@ function TermMatchPlayer({
     wrongTimer.current = window.setTimeout(() => setWrongIds(new Set()), MISMATCH_FLASH_MS)
   }
 
+  const registerTile = useCallback(
+    (id: string) => (node: HTMLButtonElement | null) => {
+      if (node) tileRefs.current.set(id, node)
+      else tileRefs.current.delete(id)
+    },
+    [],
+  )
+
+  function focusTile(tile: MatchTile | undefined) {
+    if (!tile || matchedIds.has(tile.id)) return
+    tileRefs.current.get(tile.id)?.focus()
+  }
+
+  function handleTileKeyDown(tile: MatchTile, event: KeyboardEvent<HTMLButtonElement>) {
+    if (!['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Enter', ' '].includes(event.key)) return
+    if (event.key === 'Enter' || event.key === ' ') return
+    event.preventDefault()
+    const ownColumn = tile.side === 'term' ? board.termTiles : board.partnerTiles
+    const otherColumn = tile.side === 'term' ? board.partnerTiles : board.termTiles
+    const index = ownColumn.findIndex((entry) => entry.id === tile.id)
+    if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+      const step = event.key === 'ArrowUp' ? -1 : 1
+      for (let offset = 1; offset <= ownColumn.length; offset++) {
+        const next = ownColumn[(index + step * offset + ownColumn.length) % ownColumn.length]
+        if (next && !matchedIds.has(next.id)) {
+          focusTile(next)
+          break
+        }
+      }
+      return
+    }
+    const targetIndex = Math.max(0, Math.min(otherColumn.length - 1, index))
+    focusTile(otherColumn[targetIndex])
+  }
+
   if (finishedAt !== null) {
     return (
       <Panel className="flex flex-wrap items-center gap-4 border-success/40 bg-success-tint/40 p-4">
@@ -152,18 +194,48 @@ function TermMatchPlayer({
     )
   }
 
+  const stateFor = (tile: MatchTile): TileState => matchedIds.has(tile.id)
+    ? 'matched'
+    : wrongIds.has(tile.id)
+      ? 'wrong'
+      : selectedId === tile.id
+        ? 'selected'
+        : 'idle'
+
   return (
-    <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-      {board.tiles.map((tile) => {
-        const state: TileState = matchedIds.has(tile.id)
-          ? 'matched'
-          : wrongIds.has(tile.id)
-            ? 'wrong'
-            : selectedId === tile.id
-              ? 'selected'
-              : 'idle'
-        return <TermMatchTile key={tile.id} tile={tile} state={state} onClick={() => handleTap(tile)} />
-      })}
+    <div className="grid gap-3 md:grid-cols-2" aria-label={t('Term Match board')}>
+      <Panel className="p-3">
+        <h2 className="mb-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-ink-3">{t('Terms')}</h2>
+        <div className="grid gap-2">
+          {board.termTiles.map((tile) => (
+            <TermMatchTile
+              key={tile.id}
+              tile={tile}
+              state={stateFor(tile)}
+              onClick={() => handleTap(tile)}
+              onKeyDown={(event) => handleTileKeyDown(tile, event)}
+              buttonRef={registerTile(tile.id)}
+            />
+          ))}
+        </div>
+      </Panel>
+      <Panel className="p-3">
+        <h2 className="mb-2 text-[12px] font-semibold uppercase tracking-[0.14em] text-ink-3">
+          {board.mode === 'arabic' ? t('Arabic') : t('Definition')}
+        </h2>
+        <div className="grid gap-2">
+          {board.partnerTiles.map((tile) => (
+            <TermMatchTile
+              key={tile.id}
+              tile={tile}
+              state={stateFor(tile)}
+              onClick={() => handleTap(tile)}
+              onKeyDown={(event) => handleTileKeyDown(tile, event)}
+              buttonRef={registerTile(tile.id)}
+            />
+          ))}
+        </div>
+      </Panel>
     </div>
   )
 }

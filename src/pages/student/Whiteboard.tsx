@@ -1,35 +1,41 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map, GripVertical,
+  StickyNote, ZoomIn, ZoomOut, Maximize, Trash2, Undo2, Redo2, PanelsTopLeft, Map as MapIcon, GripVertical,
   Search, ChevronUp, ChevronDown, X, ImagePlus, Paperclip, Pencil, Eraser, MousePointer2,
-  FileText, Download, Link2,
+  FileText, Download, Link2, Plus, Star, Bell, Users, Lock, Eye,
 } from 'lucide-react'
 import { IconButton } from '@/components/ui/IconButton'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { clamp } from '@/lib/format'
 import { usePersistentState } from '@/lib/usePersistentState'
-import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
+import { resolveMediaSource } from '@/lib/mediaStorage'
 import { useMyDocuments } from '@/lib/useMyDocuments'
-import { apiDownload, API_MODE } from '@/lib/api'
+import { apiDownload, apiFetchFile, API_MODE } from '@/lib/api'
 import { uploadRouteId } from '@/lib/useReaderSource'
 import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
+import { useIdentity } from '@/lib/useIdentity'
 import {
   BOARD, anchorOf, clampToBoard, clampView, defaultControls,
-  linkPath, matchNotes, noteAt, sidesBetween, toBoard, viewCentredOn,
+  linkPath, matchNotes, minimapViewport, noteAt, panViewByBoardDelta, sidesBetween, toBoard, viewCentredOn, viewFromMinimapPoint,
   type Point, type Side,
 } from '@/lib/whiteboardGeometry'
 import {
   FILE_H, FILE_W, IMAGE_W, INITIAL_BOARD, INK_COLOURS, INK_WIDTHS, NOTE_H, NOTE_W,
   TONES, TONE_LABEL, TONE_ORDER, filesOf, imagesOf, inkOf, inkPath,
+  LEGACY_WHITEBOARD_KEY, WHITEBOARD_COLLECTION_KEY,
+  activeWhiteboard, addWhiteboard, createWhiteboardDocument, emptyWhiteboardCollection,
+  groupWhiteboardsByTopic, migrateSingleBoardToCollection, removeWhiteboard, renameWhiteboard,
+  sameAudienceSharedBoards, toggleWhiteboardFollow, toggleWhiteboardStar, updateWhiteboardState,
   type BoardFile, type BoardImage, type BoardState, type Frame, type InkStroke, type LinkLine,
-  type Tool,
+  type Tool, type WhiteboardCollection, type WhiteboardDocument,
 } from '@/data/whiteboard'
 
 
 type NoteOffset = { id: string; ox: number; oy: number }
+type BoardUpdater = BoardState | ((current: BoardState) => BoardState)
 type Drag =
   | { type: 'pan'; sx: number; sy: number; ox: number; oy: number }
   | { type: 'note'; id: string; sx: number; sy: number; ox: number; oy: number }
@@ -50,10 +56,31 @@ export function Whiteboard() {
   const t = useT()
   const navigate = useNavigate()
   const documents = useMyDocuments()
+  const uploadDocument = documents.upload
+  const identity = useIdentity()
   const canvasRef = useRef<HTMLDivElement>(null)
+  const minimapRef = useRef<HTMLDivElement>(null)
   // The board starts at its own corner: there is nothing before (0, 0) to show.
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 })
-  const [board, setBoard] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
+  const [legacyBoard] = usePersistentState<BoardState>(LEGACY_WHITEBOARD_KEY, INITIAL_BOARD)
+  const [collection, setCollection] = usePersistentState<WhiteboardCollection>(
+    WHITEBOARD_COLLECTION_KEY,
+    () => emptyWhiteboardCollection(identity.userId ?? 'local-student', identity.displayName, identity.audience.universityId, identity.audience.year),
+  )
+  const activeBoard = activeWhiteboard(collection)
+  const activeBoardId = activeBoard.id
+  const board = activeBoard.state
+  const setBoard = useCallback((next: BoardUpdater) => {
+    setCollection((current) => {
+      const active = activeWhiteboard(current)
+      const nextState = typeof next === 'function' ? next(active.state) : next
+      return updateWhiteboardState(current, active.id, nextState)
+    })
+  }, [setCollection])
+  const [viewMode, setViewMode] = useState<'your' | 'shared'>('your')
+  const [renamingBoard, setRenamingBoard] = useState<string | null>(null)
+  const minimapDrag = useRef<number | null>(null)
+  const audience = identity.audience
   const [selected, setSelected] = useState<string | null>(null)
   /** Which note has its colour picker open, if any. */
   const [palette, setPalette] = useState<string | null>(null)
@@ -98,8 +125,50 @@ export function Whiteboard() {
   const boardRef = useRef(board)
   const history = useRef<BoardState[]>([])
   const future = useRef<BoardState[]>([])
+  const migratingImages = useRef(new Set<string>())
   viewRef.current = view
   boardRef.current = board
+
+  useEffect(() => {
+    if (identity.loading) return
+    setCollection((current) => migrateSingleBoardToCollection(legacyBoard, current, {
+      ownerId: identity.userId ?? 'local-student',
+      ownerName: identity.displayName,
+      universityId: identity.audience.universityId,
+      year: identity.audience.year,
+    }))
+  }, [identity.audience.universityId, identity.audience.year, identity.displayName, identity.loading, identity.userId, legacyBoard, setCollection])
+
+  // Connected accounts lazily move legacy inline/IndexedDB pictures into the
+  // same managed asset ledger as new board uploads. Placement is untouched.
+  useEffect(() => {
+    if (!API_MODE) return
+    const legacy = imagesOf(board).find((image) => image.src && !image.documentId && !migratingImages.current.has(`${activeBoardId}:${image.id}`))
+    if (!legacy?.src) return
+    const key = `${activeBoardId}:${legacy.id}`
+    migratingImages.current.add(key)
+    let revoke = false
+    let source = ''
+    void resolveMediaSource(legacy.src)
+      .then(async (resolved) => {
+        source = resolved.url
+        revoke = resolved.revoke
+        const blob = await fetch(resolved.url).then((response) => response.blob())
+        return uploadDocument(new File([blob], legacy.alt || `${legacy.id}.jpg`, { type: blob.type || 'image/jpeg' }), undefined, { kind: 'whiteboard', id: activeBoardId })
+      })
+      .then((documentId) => setBoard((current) => ({ ...current, images: imagesOf(current).map((image) => image.id === legacy.id ? { ...image, documentId, src: undefined } : image) })))
+      .catch(() => migratingImages.current.delete(key))
+      .finally(() => { if (revoke && source) URL.revokeObjectURL(source) })
+  }, [activeBoardId, board, setBoard, uploadDocument])
+
+  useEffect(() => {
+    history.current = []
+    future.current = []
+    clearSelection()
+    setView((current) => clampView(current, viewportSize()))
+    // Selection clearing is intentionally local to a board switch.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeBoardId])
 
   const snapshot = () => structuredClone(boardRef.current)
   function remember() { history.current.push(snapshot()); if (history.current.length > 50) history.current.shift(); future.current = [] }
@@ -485,21 +554,22 @@ export function Whiteboard() {
     setAttachError('')
     setAttaching('image')
     try {
-      const src = await imageFileToBoundedDataUrl(file)
-      const shape = await new Promise<{ width: number; height: number }>((resolve) => {
-        const probe = new Image()
-        probe.onload = () => resolve({ width: probe.naturalWidth, height: probe.naturalHeight })
-        probe.onerror = () => resolve({ width: 4, height: 3 })
-        probe.src = src
-      })
+      const shape = await createImageBitmap(file)
+        .then((bitmap) => {
+          const size = { width: bitmap.width, height: bitmap.height }
+          bitmap.close()
+          return size
+        })
+        .catch(() => ({ width: 4, height: 3 }))
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
       const centre = centerPoint()
-      const height = Math.round(IMAGE_W * (shape.height / Math.max(1, shape.width)))
+      const height = IMAGE_W * (shape.height / Math.max(1, shape.width))
       const placed = clampToBoard({ x: centre.x - IMAGE_W / 2, y: centre.y - height / 2 }, { width: IMAGE_W, height })
       remember()
       const id = `p${Date.now()}`
       setBoard((current) => ({
         ...current,
-        images: [...imagesOf(current), { id, x: placed.x, y: placed.y, width: IMAGE_W, height, src, alt: file.name }],
+        images: [...imagesOf(current), { id, x: placed.x, y: placed.y, width: IMAGE_W, height, documentId, alt: file.name, sizeBytes: file.size }],
       }))
       clearSelection()
       setSelectedItem({ kind: 'image', id })
@@ -521,7 +591,7 @@ export function Whiteboard() {
     setAttachError('')
     setAttaching('file')
     try {
-      const documentId = await documents.upload(file)
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
       const centre = centerPoint()
       const placed = clampToBoard({ x: centre.x - FILE_W / 2, y: centre.y - FILE_H / 2 }, { width: FILE_W, height: FILE_H })
       remember()
@@ -553,6 +623,39 @@ export function Whiteboard() {
     setBoard((current) => ({ ...current, notes: current.notes.map((note) => note.id === id ? { ...note, tone } : note) }))
   }
 
+  function createBoard() {
+    const id = `wb-${Date.now().toString(36)}`
+    const next = createWhiteboardDocument({
+      id,
+      title: t('Untitled board'),
+      ownerId: identity.userId ?? 'local-student',
+      ownerName: identity.displayName,
+      universityId: identity.audience.universityId,
+      year: identity.audience.year,
+    })
+    setCollection((current) => addWhiteboard(current, next))
+    setViewMode('your')
+    setRenamingBoard(id)
+  }
+
+  function switchBoard(id: string) {
+    setCollection((current) => ({ ...current, activeBoardId: id }))
+    setViewMode('your')
+  }
+
+  function renameActiveBoard(title: string) {
+    setCollection((current) => renameWhiteboard(current, activeBoardId, title))
+    setRenamingBoard(null)
+  }
+
+  function deleteActiveBoard() {
+    setCollection((current) => removeWhiteboard(current, activeBoardId))
+  }
+
+  function updateSharedBoard(id: string, updater: (board: WhiteboardDocument) => WhiteboardDocument) {
+    setCollection((current) => ({ ...current, sharedBoards: current.sharedBoards.map((board) => board.id === id ? updater(board) : board) }))
+  }
+
   /* ---- Search ---------------------------------------------------------- */
 
   const hits = useMemo(() => matchNotes(board.notes, query), [board.notes, query])
@@ -580,6 +683,11 @@ export function Whiteboard() {
   useEffect(() => { if (searchOpen) searchRef.current?.focus() }, [searchOpen])
 
   const hitIds = useMemo(() => new Set(hits.map((note) => note.id)), [hits])
+  const studentId = identity.userId ?? 'local-student'
+  const sharedGroups = useMemo(
+    () => groupWhiteboardsByTopic(sameAudienceSharedBoards(collection, audience)),
+    [audience, collection],
+  )
 
   const bounds = useMemo(() => {
     const xs = [
@@ -661,15 +769,11 @@ export function Whiteboard() {
   }, [])
 
   const byId = (id: string) => board.notes.find((note) => note.id === id)
+  const documentsById = useMemo(() => new globalThis.Map(documents.items.map((document) => [document.id, document])), [documents.items])
   const miniWidth = 190; const miniHeight = 112
   const miniScale = Math.min(miniWidth / BOARD.width, miniHeight / BOARD.height)
   const canvasRect = canvasRef.current?.getBoundingClientRect()
-  const visible = {
-    x: (-view.x / view.scale) * miniScale,
-    y: (-view.y / view.scale) * miniScale,
-    width: ((canvasRect?.width ?? 0) / view.scale) * miniScale,
-    height: ((canvasRect?.height ?? 0) / view.scale) * miniScale,
-  }
+  const visible = minimapViewport(view, { width: canvasRect?.width ?? 0, height: canvasRect?.height ?? 0 }, { width: miniWidth, height: miniHeight })
 
   const pulled = (() => {
     const active = drag.current
@@ -678,6 +782,49 @@ export function Whiteboard() {
     if (!note) return null
     return linkPath(anchorOf(note, active.side), pulling).d
   })()
+
+  function panFromMinimap(clientX: number, clientY: number) {
+    const rect = minimapRef.current?.getBoundingClientRect()
+    const canvas = canvasRef.current?.getBoundingClientRect()
+    if (!rect || !canvas) return
+    setView((current) => viewFromMinimapPoint(
+      { x: clientX - rect.left, y: clientY - rect.top },
+      { width: canvas.width, height: canvas.height },
+      { width: miniWidth, height: miniHeight },
+      current,
+    ))
+  }
+
+  function minimapDown(event: React.PointerEvent<HTMLDivElement>) {
+    if (event.button !== 0) return
+    minimapDrag.current = event.pointerId
+    event.currentTarget.setPointerCapture(event.pointerId)
+    panFromMinimap(event.clientX, event.clientY)
+  }
+
+  function minimapMove(event: React.PointerEvent<HTMLDivElement>) {
+    if (minimapDrag.current !== event.pointerId) return
+    panFromMinimap(event.clientX, event.clientY)
+  }
+
+  function minimapUp(event: React.PointerEvent<HTMLDivElement>) {
+    if (minimapDrag.current !== event.pointerId) return
+    event.currentTarget.releasePointerCapture(event.pointerId)
+    minimapDrag.current = null
+  }
+
+  function minimapKeyDown(event: React.KeyboardEvent<HTMLDivElement>) {
+    const moves: Record<string, Point> = {
+      ArrowUp: { x: 0, y: -180 },
+      ArrowDown: { x: 0, y: 180 },
+      ArrowLeft: { x: -180, y: 0 },
+      ArrowRight: { x: 180, y: 0 },
+    }
+    const move = moves[event.key]
+    if (!move) return
+    event.preventDefault()
+    setView((current) => panViewByBoardDelta(current, move, viewportSize()))
+  }
 
   return <div ref={canvasRef} onPointerDown={backgroundDown} onDoubleClick={backgroundDoubleClick} onWheel={onWheel} className="relative h-[calc(100dvh-3.5rem-env(safe-area-inset-top))] touch-none overflow-hidden bg-paper" style={{ backgroundImage: 'radial-gradient(var(--color-grid-major) 1.2px, transparent 1.2px)', backgroundSize: `${24 * view.scale}px ${24 * view.scale}px`, backgroundPosition: `${view.x}px ${view.y}px` }}>
     <div className="absolute left-0 top-0 origin-top-left" style={{ transform: `translate(${view.x}px, ${view.y}px) scale(${view.scale})` }}>
@@ -843,7 +990,7 @@ export function Whiteboard() {
             )}
             style={{ left: image.x, top: image.y, width: image.width, height: image.height }}
           >
-            <img src={image.src} alt={image.alt} draggable={false} className="size-full select-none object-contain" />
+            <BoardImageView image={image} documentRef={image.documentId ? documentsById.get(image.documentId)?.ref : undefined} />
             {tool === 'select' && (
               <span
                 onPointerDown={(event) => imageResizeDown(event, image)}
@@ -968,7 +1115,96 @@ export function Whiteboard() {
       ))}
     </div>
 
-    <div className="absolute left-2 right-2 top-2 flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:left-4 sm:right-auto sm:top-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
+    <div className="absolute left-2 right-2 top-2 rounded-xl border border-line bg-surface p-2 shadow-raised sm:left-4 sm:right-auto sm:w-[28rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
+      <div className="mb-2 flex items-center gap-1">
+        {(['your', 'shared'] as const).map((mode) => (
+          <button
+            key={mode}
+            type="button"
+            onClick={() => setViewMode(mode)}
+            className={cn(
+              'rounded-lg px-3 py-1.5 text-[12px] font-semibold transition-colors',
+              viewMode === mode ? 'bg-primary-tint text-primary-strong' : 'text-ink-2 hover:bg-inset hover:text-ink',
+            )}
+          >
+            {mode === 'your' ? t('Your boards') : t('Shared')}
+          </button>
+        ))}
+        <IconButton icon={Plus} label={t('New board')} size="sm" variant="surface" className="ms-auto" onClick={createBoard} />
+      </div>
+
+      {viewMode === 'your' ? (
+        <>
+          <div className="flex gap-1 overflow-x-auto overscroll-x-contain [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {collection.boards.map((entry) => (
+              <div key={entry.id} className={cn('flex shrink-0 items-center gap-1 rounded-lg border px-2 py-1', entry.id === activeBoardId ? 'border-primary bg-primary-tint' : 'border-line bg-surface-2')}>
+                {renamingBoard === entry.id ? (
+                  <input
+                    autoFocus
+                    defaultValue={entry.title}
+                    onBlur={(event) => renameActiveBoard(event.target.value)}
+                    onKeyDown={(event) => {
+                      if (event.key === 'Enter') (event.target as HTMLInputElement).blur()
+                      if (event.key === 'Escape') setRenamingBoard(null)
+                    }}
+                    className="w-36 bg-transparent text-[12.5px] font-semibold text-ink outline-none"
+                  />
+                ) : (
+                  <button type="button" onClick={() => switchBoard(entry.id)} onDoubleClick={() => setRenamingBoard(entry.id)} className="max-w-40 truncate text-[12.5px] font-semibold text-ink">
+                    {entry.title}
+                  </button>
+                )}
+                <span className="tnum font-mono text-[10.5px] text-ink-3">r{entry.revision}</span>
+              </div>
+            ))}
+            {collection.boards.length > 1 && (
+              <IconButton icon={Trash2} label={t('Delete current board')} size="sm" onClick={deleteActiveBoard} />
+            )}
+          </div>
+          <div className="mt-2 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+            <span className="inline-flex items-center gap-1"><Icon icon={Lock} size={11} />{t('Owner')}</span>
+            <span>{activeBoard.ownerName}</span>
+            <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{activeBoard.collaborators.length} {t('collaborators')}</span>
+          </div>
+        </>
+      ) : (
+        <div className="max-h-52 overflow-auto pr-1">
+          {sharedGroups.length === 0 ? (
+            <p className="rounded-lg border border-dashed border-line px-3 py-4 text-center text-[12.5px] text-ink-3">
+              {t('No same-university/year whiteboards have been shared with you yet.')}
+            </p>
+          ) : (
+            <div className="space-y-3">
+              {sharedGroups.map((group) => (
+                <section key={group.topic}>
+                  <h2 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{group.topic}</h2>
+                  <div className="space-y-1">
+                    {group.boards.map((entry) => (
+                      <div key={entry.id} className="rounded-lg border border-line bg-surface-2 p-2">
+                        <div className="flex items-start gap-2">
+                          <button type="button" className="min-w-0 flex-1 text-start" onClick={() => setCollection((current) => ({ ...current, activeBoardId: current.activeBoardId }))}>
+                            <span className="block truncate text-[12.5px] font-semibold text-ink">{entry.title}</span>
+                            <span className="mt-0.5 flex flex-wrap items-center gap-2 text-[11px] text-ink-3">
+                              <span className="inline-flex items-center gap-1"><Icon icon={Users} size={11} />{entry.collaborators.length}</span>
+                              <span className="inline-flex items-center gap-1"><Icon icon={entry.permission === 'edit' ? Pencil : Eye} size={11} />{t(entry.permission)}</span>
+                              <span>{entry.ownerName}</span>
+                            </span>
+                          </button>
+                          <IconButton icon={Star} label={t('Star board')} size="sm" active={entry.stars.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardStar(board, studentId))} />
+                          <IconButton icon={Bell} label={t('Follow updates')} size="sm" active={entry.follows.includes(studentId)} onClick={() => updateSharedBoard(entry.id, (board) => toggleWhiteboardFollow(board, studentId))} />
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+    </div>
+
+    <div className="absolute left-2 right-2 top-[7.5rem] flex items-center gap-1 overflow-x-auto overscroll-x-contain rounded-xl border border-line bg-surface p-1 shadow-raised [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:left-4 sm:right-auto sm:top-[7.75rem]" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()}>
       <IconButton icon={MousePointer2} label={t('Move and select')} active={tool === 'select'} onClick={() => setTool('select')} />
       <IconButton icon={Pencil} label={t('Draw freehand')} active={tool === 'pen'} onClick={() => setTool('pen')} />
       <IconButton icon={Eraser} label={t('Erase a line')} active={tool === 'eraser'} onClick={() => setTool('eraser')} />
@@ -1054,7 +1290,7 @@ export function Whiteboard() {
       onClose={() => setSharing(false)}
       handle="board"
       kind="whiteboard"
-      title={t('Whiteboard')}
+      title={activeBoard.title || t('Whiteboard')}
       payload={() => boardRef.current}
     />
 
@@ -1087,10 +1323,22 @@ export function Whiteboard() {
     )}
 
     <div className="absolute bottom-[calc(0.75rem+env(safe-area-inset-bottom))] right-3 overflow-hidden rounded-xl border border-line bg-surface/95 p-2 shadow-raised sm:bottom-4 sm:right-4" onPointerDown={(event) => event.stopPropagation()} onDoubleClick={(event) => event.stopPropagation()} aria-label={t('Board minimap')}>
-      <div className="mb-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={Map} size={12} />{t('World view')}</div>
+      <div className="mb-1 flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.06em] text-ink-3"><Icon icon={MapIcon} size={12} />{t('World view')}</div>
       {/* The minimap shows the whole board, not just what is on it — which is
           what makes it a map of somewhere rather than a map of your notes. */}
-      <div className="relative overflow-hidden rounded-md bg-inset" style={{ width: BOARD.width * miniScale, height: BOARD.height * miniScale }}>
+      <div
+        ref={minimapRef}
+        role="group"
+        tabIndex={0}
+        aria-label={t('Move around the board minimap')}
+        onPointerDown={minimapDown}
+        onPointerMove={minimapMove}
+        onPointerUp={minimapUp}
+        onPointerCancel={minimapUp}
+        onKeyDown={minimapKeyDown}
+        className="relative touch-none overflow-hidden rounded-md bg-inset focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+        style={{ width: BOARD.width * miniScale, height: BOARD.height * miniScale }}
+      >
         {board.frames.map((frame) => <span key={frame.id} className="absolute rounded border border-line-2" style={{ left: frame.x * miniScale, top: frame.y * miniScale, width: frame.width * miniScale, height: frame.height * miniScale }} />)}
         {board.notes.map((note) => <span key={note.id} className="absolute rounded-sm bg-primary" style={{ left: note.x * miniScale, top: note.y * miniScale, width: Math.max(3, NOTE_W * miniScale), height: Math.max(2, NOTE_H * miniScale) }} />)}
         <span className="absolute border border-danger bg-danger/5" style={{ left: visible.x, top: visible.y, width: visible.width, height: visible.height }} />
@@ -1107,4 +1355,71 @@ function controlsFor(board: BoardState, line: LinkLine): [Point, Point] {
   if (!a || !b) return [{ x: 0, y: 0 }, { x: 0, y: 0 }]
   const sides = sidesBetween(a, b)
   return defaultControls(anchorOf(a, sides.from), anchorOf(b, sides.to))
+}
+
+function BoardImageView({ image, documentRef }: { image: BoardImage; documentRef?: string }) {
+  const t = useT()
+  const [url, setUrl] = useState('')
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    let active = true
+    let revoke = false
+    let resolvedUrl = ''
+    setError('')
+
+    async function load() {
+      try {
+        if (image.src) {
+          const resolved = await resolveMediaSource(image.src)
+          if (!active) {
+            if (resolved.revoke) URL.revokeObjectURL(resolved.url)
+            return
+          }
+          resolvedUrl = resolved.url
+          revoke = resolved.revoke
+          setUrl(resolved.url)
+          return
+        }
+        if (documentRef) {
+          const resolved = await resolveMediaSource(documentRef)
+          if (!active) {
+            if (resolved.revoke) URL.revokeObjectURL(resolved.url)
+            return
+          }
+          resolvedUrl = resolved.url
+          revoke = resolved.revoke
+          setUrl(resolved.url)
+          return
+        }
+        if (API_MODE && image.documentId) {
+          const bytes = await apiFetchFile(`/my-documents/${encodeURIComponent(image.documentId)}/file`)
+          if (!active) return
+          const blob = new Blob([bytes])
+          resolvedUrl = URL.createObjectURL(blob)
+          revoke = true
+          setUrl(resolvedUrl)
+          return
+        }
+        setError(t('This picture is stored as managed media but is not available in this browser yet.'))
+      } catch (cause) {
+        if (!active) return
+        setError(cause instanceof Error ? cause.message : t('This picture could not be loaded.'))
+      }
+    }
+
+    void load()
+    return () => {
+      active = false
+      if (revoke && resolvedUrl) URL.revokeObjectURL(resolvedUrl)
+    }
+  }, [documentRef, image.documentId, image.src, t])
+
+  if (error) {
+    return <p role="alert" className="grid size-full place-items-center p-3 text-center text-[12px] text-danger">{error}</p>
+  }
+  if (!url) {
+    return <p className="grid size-full place-items-center p-3 text-center text-[12px] text-ink-3">{t('Loading picture…')}</p>
+  }
+  return <img src={url} alt={image.alt} draggable={false} className="size-full select-none object-contain" />
 }

@@ -5,6 +5,8 @@ import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
+import { Tooltip } from '@/components/ui/Tooltip'
+import { PomodoroTimer } from './PomodoroTimer'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -12,9 +14,7 @@ import { initialNotificationCampaigns, notificationAllowedByPrefs, notificationI
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { hasConsoleAccess } from '@/data/adminRoles'
-import { API_MODE } from '@/lib/api'
-import { Tooltip } from '@/components/ui/Tooltip'
-import { PomodoroTimer } from './PomodoroTimer'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
 
 function currentTitle(portal: Portal, pathname: string, tabs: readonly string[]): string {
   const items = navFor(portal, tabs).flatMap((g) => g.items)
@@ -50,15 +50,21 @@ export function Topbar({
   const { audience, role, tabs } = useIdentity()
   const [notificationsOpen, setNotificationsOpen] = useState(false)
   const [campaigns] = usePersistentState<NotificationCampaign[]>(NOTIFICATION_STORAGE_KEY, API_MODE ? [] : initialNotificationCampaigns)
+  const [sharedNotifications, setSharedNotifications] = useState<NotificationCampaign[]>([])
   const [readIds, setReadIds] = usePersistentState<string[]>(`${NOTIFICATION_READ_STORAGE_KEY}-${portal}`, [])
   // The student's own notification preferences, from the Account page.
   const [prefs] = usePersistentState<{ reviewReminders: boolean; calendarReminders: boolean }>(
     'synapse.account.prefs.v1',
     { reviewReminders: true, calendarReminders: true },
   )
-  const notifications = campaigns
-    .filter((campaign) => portal === 'admin' ? campaign.active : notificationMatchesStudent(campaign, audience) && notificationIsDue(campaign) && notificationAllowedByPrefs(campaign, prefs))
-    .sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
+  const notifications = [
+    ...campaigns.filter((campaign) =>
+      portal === 'admin'
+        ? campaign.active
+        : notificationMatchesStudent(campaign, audience) && notificationIsDue(campaign) && notificationAllowedByPrefs(campaign, prefs),
+    ),
+    ...(portal === 'student' ? sharedNotifications : []),
+  ].sort((a, b) => new Date(b.sentAt ?? b.scheduledAt).getTime() - new Date(a.sentAt ?? a.scheduledAt).getTime())
   const [popupId, setPopupId] = useState<string | null>(null)
   const popoverRef = useRef<HTMLDivElement>(null)
   const title = currentTitle(portal, pathname, tabs)
@@ -73,6 +79,22 @@ export function Topbar({
   const canSwitchPortal = hasConsoleAccess(role ?? '') || !API_MODE
   const unreadCount = notifications.filter((notification) => !readIds.includes(notification.id)).length
   const popupNotification = notifications.find((notification) => notification.id === popupId)
+
+  useEffect(() => {
+    if (!API_MODE || portal !== 'student') return
+    let active = true
+    void apiGet<NotificationCampaign[]>('/notifications/shared').then((items) => {
+      if (active) setSharedNotifications(items)
+    }).catch(() => undefined)
+    return () => { active = false }
+  }, [portal])
+
+  function markRead(ids: string[]) {
+    const unique = [...new Set(ids)]
+    setReadIds((current) => [...new Set([...current, ...unique])])
+    const serverIds = unique.filter((id) => sharedNotifications.some((notification) => notification.id === id))
+    if (serverIds.length) void apiPost('/notifications/shared/read', { ids: serverIds }).catch(() => undefined)
+  }
 
   useEffect(() => {
     if (portal !== 'student' || popupId) return
@@ -125,6 +147,7 @@ export function Topbar({
           <span className="flex-1 text-start">{t('Search…')}</span>
           <Kbd>⌘K</Kbd>
         </button>
+
         <PomodoroTimer />
 
         <button type="button" onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
@@ -163,6 +186,7 @@ export function Topbar({
 
         <div className="relative" ref={popoverRef}>
           <button
+            type="button"
             className={cn(iconBtn, 'relative')}
             aria-label={t('Notifications')}
             aria-haspopup="dialog"
@@ -188,7 +212,7 @@ export function Topbar({
                 <button
                   type="button"
                   className="min-h-9 rounded-md px-2 text-[12px] font-medium text-primary hover:bg-primary-tint hover:text-primary-strong focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
-                  onClick={() => setReadIds((current) => [...new Set([...current, ...notifications.map((notification) => notification.id)])])}
+                  onClick={() => markRead(notifications.map((notification) => notification.id))}
                 >
                   {t('Mark all read')}
                 </button>
@@ -199,7 +223,7 @@ export function Topbar({
                     <Link
                       to={portal === 'admin' ? '/admin/notifications' : notification.to}
                       onClick={() => {
-                        setReadIds((current) => current.includes(notification.id) ? current : [...current, notification.id])
+                        markRead([notification.id])
                         setNotificationsOpen(false)
                       }}
                       className="flex gap-3 rounded-lg px-2.5 py-2.5 transition-colors hover:bg-inset"
@@ -229,10 +253,10 @@ export function Topbar({
             <div className="flex items-start gap-3 border-b border-line px-4 py-3.5 sm:px-5">
               <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-primary-tint text-primary"><Icon icon={BellRing} size={18} /></span>
               <div className="min-w-0 flex-1"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary-strong">{t('For your year and group')}</p><h2 id="notification-popup-title" className="mt-0.5 text-[16px] font-bold leading-snug text-ink">{popupNotification.title}</h2></div>
-              <button type="button" className="grid size-10 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink sm:size-8" aria-label={t('Close')} onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}><Icon icon={X} size={17} /></button>
+              <button type="button" className="grid size-10 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink sm:size-8" aria-label={t('Close')} onClick={() => { markRead([popupNotification.id]); setPopupId(null) }}><Icon icon={X} size={17} /></button>
             </div>
             <div className="px-4 py-5 sm:px-5"><p className="text-[14px] leading-relaxed text-ink-2">{popupNotification.message}</p><p className="mt-3 font-mono text-[10.5px] text-ink-3">{formatDateTime(new Date(popupNotification.sentAt ?? popupNotification.scheduledAt))}</p></div>
-            <div className="flex flex-col-reverse gap-2 border-t border-line bg-surface-2/45 px-4 py-3 sm:flex-row sm:justify-end sm:px-5"><button type="button" className="min-h-11 rounded-lg px-3.5 text-[13px] font-semibold text-ink-2 hover:bg-inset sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>{t('Not now')}</button><Link to={popupNotification.to} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary px-3.5 text-[13px] font-semibold text-on-primary hover:bg-primary-hover sm:min-h-9" onClick={() => { setReadIds((current) => current.includes(popupNotification.id) ? current : [...current, popupNotification.id]); setPopupId(null) }}>{t('Open')} <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link></div>
+            <div className="flex flex-col-reverse gap-2 border-t border-line bg-surface-2/45 px-4 py-3 sm:flex-row sm:justify-end sm:px-5"><button type="button" className="min-h-11 rounded-lg px-3.5 text-[13px] font-semibold text-ink-2 hover:bg-inset sm:min-h-9" onClick={() => { markRead([popupNotification.id]); setPopupId(null) }}>{t('Not now')}</button><Link to={popupNotification.to} className="inline-flex min-h-11 items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary px-3.5 text-[13px] font-semibold text-on-primary hover:bg-primary-hover sm:min-h-9" onClick={() => { markRead([popupNotification.id]); setPopupId(null) }}>{t('Open')} <Icon icon={ArrowRight} size={15} className="rtl:-scale-x-100" /></Link></div>
           </div>
         </div>
       )}

@@ -5,8 +5,8 @@ import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
-import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { OverflowText } from '@/components/ui/OverflowText'
+import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { ThemeSwitch } from './ThemeSwitch'
 import { LanguageSwitch } from './LanguageSwitch'
 import { MenuToggle } from './MenuToggle'
@@ -100,24 +100,22 @@ export function Sidebar({
                       )
                     }
                   >
-                    {({ isActive }) => {
-                      return (
-                        <>
-                          <Icon
-                            icon={item.icon}
-                            size={17}
-                            className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
-                          />
-                          {collapsed ? (
-                            <span role="tooltip" className="pointer-events-none absolute start-[calc(100%+0.5rem)] z-[90] hidden w-max max-w-56 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop group-hover:block group-focus-visible:block">
-                              {t(item.label)}
-                            </span>
-                          ) : (
-                            <OverflowText>{t(item.label)}</OverflowText>
-                          )}
-                        </>
-                      )
-                    }}
+                    {({ isActive }) => (
+                      <>
+                        <Icon
+                          icon={item.icon}
+                          size={17}
+                          className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
+                        />
+                        {collapsed ? (
+                          <span role="tooltip" className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-[90] hidden w-max max-w-56 -translate-y-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium leading-snug text-paper shadow-pop group-hover:block group-focus-visible:block">
+                            {t(item.label)}
+                          </span>
+                        ) : (
+                          <OverflowText>{t(item.label)}</OverflowText>
+                        )}
+                      </>
+                    )}
                   </NavLink>
                 </li>
               ))}
@@ -155,7 +153,7 @@ export function Sidebar({
             <>
               <span className="min-w-0 flex-1">
                 <OverflowText className="text-[13px] font-medium text-ink">{profile.name}</OverflowText>
-                <OverflowText className="text-[11.5px] text-ink-3" title={detailTitle || undefined}>
+                <OverflowText className="text-[11.5px] text-ink-3" tooltip={detailTitle || profile.detail}>
                   {profile.detail}
                 </OverflowText>
               </span>

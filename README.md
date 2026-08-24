@@ -1,6 +1,6 @@
-# Synapse / Connect Cortex
+# Maristana Platform (Synapse)
 
-Synapse is the Connect Cortex undergraduate medical learning platform. It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
+Maristana by Connect Academy is the undergraduate medical learning platform in this repository; `synapse` remains the internal application/package name and storage-key namespace. It combines a React/Vite student app, a protected administration console, a Node/Express API, MariaDB persistence, Supabase Auth, Resend email, managed medical media, content-import tooling, and an in-progress native iOS student client.
 
 The same repository can run in two modes:
 
@@ -17,7 +17,7 @@ The same repository can run in two modes:
 | Authorization | Server-owned `user_access` roles, tab permissions, reviewer content scope, admin MFA requirement |
 | Persistence | MariaDB tables plus JSON state documents in `app_state` and per-user documents in `user_state` |
 | Email | Resend for sending, inbound webhook, unsubscribe tokens, mailbox/address records |
-| Media/storage | Server-managed resource files, user documents, and media assets under `RESOURCE_STORAGE_DIR` |
+| Media/storage | Server-managed medical resources, student-owned documents, notebook media, and whiteboard media under `RESOURCE_STORAGE_DIR` |
 | iOS | Native student app in `ios/`, using `supabase-swift` and the same Express API |
 | Deployment | Root Dockerfile builds the Vite app and serves it from the API container on port 8080 |
 
@@ -30,20 +30,21 @@ Public and auth:
 - `/login`, `/signup`, `/logout` - account entry and sign-out.
 - `/auth/verify-email`, `/auth/mfa`, `/auth/forgot-password`, `/auth/reset-password` - Supabase-backed account flows.
 - `/unsubscribe` - public email unsubscribe.
-- `/s/:id` - shared note/board/document link; the server decides whether it is public, view-only, or editable.
+- `/s/:id` - shared note/board/document link; the server decides whether it is private, view-only, or editable.
 
 Student portal:
 
 - `/app` - dashboard.
 - `/app/library`, `/app/qbank`, `/app/adaptive`, `/app/practical`, `/app/flashcards`, `/app/essays`.
 - `/app/resources`, `/app/resources/:id`, `/app/taxonomy`.
-- `/app/term-grid`, `/app/spotter`, `/app/term-match`.
+- `/app/minigames`, with `/app/term-grid`, `/app/spotter`, `/app/term-match`, `/app/clinical-sequence`, `/app/mechanism-chain`, and `/app/red-flag-sort`.
 - `/app/calendar`, `/app/performance`, `/app/whiteboard`, `/app/notebook`.
 - `/app/study-together`, `/app/billing`, `/app/account`.
 
 Admin console:
 
-- `/admin` - first permitted admin tab, usually the control dashboard.
+- `/admin` - operational platform reports dashboard when the administrator has dashboard access; otherwise the first permitted admin tab.
+- `/admin/content` - Content Control.
 - `/admin/academic`, `/admin/academic/import`, `/admin/academic/marks`.
 - `/admin/library`, `/admin/library/coverage`, `/admin/library/media`, `/admin/library/evidence/import`.
 - `/admin/questions`, `/admin/adaptive`, `/admin/concepts`, `/admin/concepts/import`.
@@ -102,6 +103,7 @@ Server-only variables:
 | `SUPABASE_URL` | Required for API JWT verification. Without it, protected API requests are refused. |
 | `SUPABASE_SERVICE_ROLE_KEY` | Server-only key used for admin auth-user operations such as account deletion and recovery links. Never expose it to Vite or iOS. |
 | `SUPER_ADMIN_EMAILS` | Comma-separated email allowlist that resolves to super-admin at request time. |
+| `AUTH_BYPASS_ENABLED`, `API_BEARER` | Optional owner-preview bypass for local/preview access. Keep disabled for normal production auth. Never expose the bearer value in a Vite variable. |
 | `CORS_ORIGIN` | Comma-separated allowed origins for split deployments. Omit for development. |
 | `RESEND_API_KEY` | Sending key for Resend. |
 | `RESEND_ADMIN_API_KEY` | Optional broader Resend key for inbound/address operations; falls back to `RESEND_API_KEY` where supported. |
@@ -125,23 +127,56 @@ The web client creates a Supabase browser client only when `VITE_SUPABASE_URL` a
 Configure Supabase URL allow-list and redirects for every deployed origin:
 
 - Site URL: the main student origin, for example `https://synapse.example.com`.
-- Additional redirect URLs: `https://synapse.example.com/auth/verify-email`, `https://synapse.example.com/auth/reset-password`, `https://synapse.example.com/auth/mfa`, plus the same paths on the admin origin if admins sign in there.
-- Local development redirects: `http://localhost:5173/auth/verify-email`, `http://localhost:5173/auth/reset-password`, `http://localhost:5173/auth/mfa`, and any `adminsynapse.localhost`/`synapse.localhost` hostnames used to test the split.
+- Additional redirect URLs: `https://synapse.example.com/app`, `https://synapse.example.com/auth/verify-email`, `https://synapse.example.com/auth/reset-password`, `https://synapse.example.com/auth/mfa`, plus the same paths on the admin origin if admins sign in there.
+- Local development redirects: `http://localhost:5173/app`, `http://localhost:5173/auth/verify-email`, `http://localhost:5173/auth/reset-password`, `http://localhost:5173/auth/mfa`, and any `adminsynapse.localhost`/`synapse.localhost` hostnames used to test the split.
 
-Google and Facebook social login are not currently present in the React login form. When that UI is added, enable the Google and Facebook providers in Supabase Auth, enter the OAuth client credentials in Supabase, and include the Supabase provider callback URL shown in the dashboard in each provider's console. The app-side post-auth redirect should still land on the existing onboarding/account flow, not directly on protected content.
+Google and Facebook buttons are present on the login and sign-up pages through `supabase.auth.signInWithOAuth`. They are disabled until `VITE_SUPABASE_URL` and a publishable key are configured. Login sends the user back to the current origin plus the requested `next` path; sign-up lands on `/app`, where the normal university, year, username, icon, and plan onboarding flow continues. Password reset lands on `/auth/reset-password`.
+
+To enable social login, turn on the Google and Facebook providers in Supabase Auth, enter each provider's OAuth client credentials in Supabase, and copy the Supabase provider callback URL shown in the Supabase dashboard into the Google/Facebook developer console. Do not place OAuth secrets in Vite variables.
 
 Facebook friend matching is separate from Supabase social login. The server has feature-flagged endpoints for linking a Meta app-scoped Facebook id and a deletion callback, but the UI labels the feature as waiting on Meta review.
 
+## Pricing, Reports, and Storage Thresholds
+
+The current purchasable plan is one all-access plan:
+
+- One month: 400 EGP.
+- One term: 1,000 EGP.
+
+Trial access remains an onboarding/access state, not a public purchase tier. The quote endpoint (`/api/pricing/quote`) and admin pricing endpoints support timed promotions plus monthly or term voucher discounts. Promotions and vouchers do not stack; the server quotes the single valid option that gives the lowest price.
+
+The admin home at `/admin` uses `/api/admin/platform/reports` for operational reporting: storage, active students, recent signups, active subscriptions, engagement, verified question activity, content health, media-blocked content, reports, pending enrollment changes, and outbound notification/email delivery health. Subscription revenue is reported in EGP, but `revenue30d` is currently `null` until a payment source is wired to the report.
+
+Storage usage is calculated from live `user_documents` rows and grouped by resource, notebook, and whiteboard sources. Warnings are triggered at 20, 50, 70, 90, and 110 GB, then every additional 20 GB. A dismissed threshold is stored globally with administrator and timestamp through `/api/admin/platform/storage-thresholds/:thresholdGb/ack`; it remains dismissed until a higher threshold is reached.
 ## Data, State, and Media
 
 Shared catalogue/admin state lives in MariaDB `app_state` documents and is guarded by role/tab permissions. Student-owned state lives under `/api/user-state/:key`, where the server derives the owner from the verified Supabase session. The front end routes known private keys through `src/lib/stateOwnership.ts`; demo mode stores the same keys in localStorage.
 
-Medical resources and media are stored as files under `RESOURCE_STORAGE_DIR`, with metadata in MariaDB-backed state. Admin-managed media uploads go through `/api/media`; files are content-addressed by SHA-256 and released to students only when they have a stored file, alt text, and rights information. Student documents go through `/api/my-documents`, are stored under that student's server-owned path, and count against the student's current plan quota. Existing browser-only media helpers remain for demo/offline convenience, but live upload success is not reported until the server has accepted and returned the bytes.
+Medical resources and media are stored as files under `RESOURCE_STORAGE_DIR`, with metadata in MariaDB-backed state. Admin-managed media uploads go through `/api/media`; files are content-addressed by SHA-256 and released to students only when they have a stored file, alt text, and rights information.
+
+Student documents and student-owned media go through `/api/my-documents`, are stored under that student's server-owned path, and count against the student's current plan quota. Each uploaded file carries a `sourceKind` of `resource`, `notebook`, or `whiteboard`; Resources shows My uploads first, separates Documents from Media, labels where each media item came from, and counts the same stored bytes once even if an asset appears in more than one place. Existing browser-only media helpers remain for demo/offline convenience, but live upload success is not reported until the server has accepted and returned the bytes.
+
+Notebook notes use a single Lexical rich-text surface. Notes store versioned editor JSON plus searchable plain text; legacy markdown is preserved lazily instead of discarded. Whiteboards support multiple named boards, with the previous single-board state migrated into the default board. Notebook and whiteboard images are stored as managed student media rather than embedded data URLs.
+
+## Sharing, Revisions, and Notifications
+
+Notes and whiteboards can be published as shared documents at `/s/:id`. A share starts as a server-side copy, not a pointer into the student's private source document. Access can be private, view-only, or editable, and read/edit permission is enforced by the API. Shared classroom discovery is scoped to the owner's university and year.
+
+Shared documents support multiple topic/subtopic mappings, collaborator and revision history, one star per student, follows, and internal notifications. Live edits require an `expectedRevision`; a stale editor receives a conflict instead of silently overwriting newer work. Revisions record their actor, topic metadata, and allowed managed-media assets, and followers receive shared-document notification records when a live source is revised.
+
+## Study Parties and Party Games
+
+Study parties use a short invitation code as the primary join method. Parties are scoped to the host's university and year, can be invite-only or open to matching classmates, and support host-scheduled activities with date/time, activity choice, and optional calendar insertion from the student UI.
+
+Party games are server-authoritative. The browser creates a party game with `POST /api/parties/:id/games`, sends answer/start/round actions with `POST /api/parties/:id/games/:gameId/actions`, and follows synchronized lobby, round, answer, score, reconnect, and completion updates through `/api/parties/:id/games/:gameId/events` server-sent events. Supported game kinds are Term Grid, Spotter, Term Match, Clinical Sequence, Mechanism Chain, and Red Flag Sort. Student clients receive game state without answer keys; the server marks answers against published glossary/histology content or reviewed authored minigame packs.
 
 ## Content and Imports
 
 Authoring guidance lives in `Instruction Manual for Content Creation/`. Start with `00-START-HERE.md`, then use the manual for the content type being authored: subjects/topics, concepts, relationships, library articles, questions, practical formats, glossary terms, and resources.
 
+The canonical import-contract registry is `src/data/importContract.ts`. It is shared by manual-heading parity checks, schemas, parsers, merging, validators, and round-trip tests. Supported contracts include subjects, evidence resources/claims/citations/spans, catalogue resources, articles, concepts, relationships, practicals, questions, glossary terms, decks, essays, histology slides, and authored medicine minigame packs.
+
+Authored minigames are imported through `/admin/import/minigame`. The minigame contract covers Clinical Sequence, Mechanism Chain, and Red Flag Sort packs, including source/reviewer metadata, ordered steps or findings/lanes/rationales, and validation through `validateMiniGamePack`. Valid imported packs enter the `synapse-minigame-packs-v1` library as **In review** and stay out of solo and party games until a reviewer explicitly publishes the validated pack library.
 Important import locations:
 
 - `docs/import-ready/` - validated batches staged for manual admin import.

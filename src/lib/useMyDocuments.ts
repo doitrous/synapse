@@ -39,6 +39,8 @@ export interface MyDocument {
   sizeBytes: number
   pageCount: number | null
   createdAt: string
+  sourceKind?: 'resource' | 'notebook' | 'whiteboard'
+  sourceId?: string | null
   /** Demo mode only: the IndexedDB reference standing in for a server file. */
   ref?: string
 }
@@ -51,9 +53,14 @@ export interface MyDocumentsState {
   synced: boolean
   loading: boolean
   error: string | null
-  upload: (file: File, onProgress?: (fraction: number) => void) => Promise<string>
+  upload: (file: File, onProgress?: (fraction: number) => void, source?: { kind: 'resource' | 'notebook' | 'whiteboard'; id?: string }) => Promise<string>
   rename: (id: string, title: string) => Promise<void>
   remove: (id: string) => Promise<void>
+}
+
+export interface MyDocumentSource {
+  kind: 'resource' | 'notebook' | 'whiteboard'
+  id?: string
 }
 
 /** What a single request carries, well under the server's chunk ceiling. */
@@ -92,15 +99,18 @@ export function useMyDocuments(): MyDocumentsState {
 
   useEffect(() => { void refresh() }, [refresh])
 
-  const upload = useCallback(async (file: File, onProgress?: (fraction: number) => void) => {
+  const upload = useCallback(async (file: File, onProgress?: (fraction: number) => void, source: MyDocumentSource = { kind: 'resource' }) => {
     if (!API_MODE) {
       const id = `local-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`
       const ref = await storeMediaFile(id, file)
       onProgress?.(1)
-      setLocal((current) => [newRecord(id, file, ref), ...current])
+      setLocal((current) => [{ ...newRecord(id, file, ref), sourceKind: source.kind, sourceId: source.id ?? null }, ...current])
       return id
     }
-    const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', { title: fileTitle(file), fileName: file.name, mimeType: file.type })
+    const created = await apiPost<{ id: string; uploadId: string }>('/my-documents', {
+      title: fileTitle(file), fileName: file.name, mimeType: file.type,
+      sourceKind: source.kind, sourceId: source.id,
+    })
     const total = Math.max(1, Math.ceil(file.size / CHUNK_BYTES))
     for (let index = 0; index < total; index++) {
       await apiUploadChunk(

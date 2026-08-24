@@ -11,10 +11,11 @@
 import { readFile, readdir } from 'node:fs/promises'
 import { dirname, join, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { conceptFromRow, materialiseNewConcept, CONCEPT_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
-import { EVIDENCE_IMPORT_FIELDS, evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
-import { RELATION_IMPORT_FIELDS, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
-import { IMPORT_SCHEMAS, importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
+import { conceptFromRow, materialiseNewConcept } from '../src/data/conceptImport.ts'
+import { evidenceErrors, citationFromRow, claimFromRow } from '../src/data/evidenceImport.ts'
+import { relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
+import { importRowToContent, validateImportRow, parseSections } from '../src/data/bulkImport.ts'
+import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
 import { isChoiceFormat, isWrittenFormat, parseQuestionFormat } from '../src/data/questionFormat.ts'
 import { materialiseNewItem } from '../src/data/importMerge.ts'
 import { missingRequiredSections } from '../src/data/articleTemplates.ts'
@@ -23,6 +24,7 @@ import { detectBatchKind } from '../src/data/batchKind.ts'
 import { universities as UNIVERSITY_CATALOGUE } from '../src/data/universities.ts'
 import { CURRICULUM_SUBJECTS } from '../src/data/curriculumCatalog.ts'
 import { listDirective } from '../src/data/importSemantics.ts'
+import { IMPORT_CONTRACTS, importFieldKeys } from '../src/data/importContract.ts'
 
 /* ---- catalogue checks --------------------------------------------------- */
 
@@ -189,16 +191,16 @@ const records = []
 // Every branch below assumes `kind` names a contract this script knows how to
 // check. Nothing said so, and an unrecognised file fell through to the evidence
 // branch and threw `TypeError: Cannot read properties of undefined (reading
-// 'map')` on `EVIDENCE_IMPORT_FIELDS[kind]`. Catalogue resources, subjects and
+// 'map')` on that kind's field list. Catalogue resources, subjects and
 // glossary terms all land here, and none of them are broken files — they are
 // kinds this script has no branch for. A stack trace says neither, so the author
 // reads it as a bad batch and starts editing content that was fine. Refuse by
 // name, and say which kinds are recognised so the answer is "wrong tool".
-const VALIDATED_KINDS = ['concept', 'relation', 'article', 'question', 'practical', 'resource', 'claim', 'citation', 'span']
+const VALIDATED_KINDS = ['concept', 'relation', 'article', 'question', 'practical', 'catalogue-resource', 'minigame', 'resource', 'claim', 'citation', 'span']
 if (!VALIDATED_KINDS.includes(kind)) {
   errors.push(
     `${file}: its columns match none of the contracts this script validates, so there is nothing here to check it against. `
-    + `Recognised kinds are ${VALIDATED_KINDS.join(', ')} — a catalogue-resource, subjects or glossary batch is not one of them `
+    + `Recognised kinds are ${VALIDATED_KINDS.map((entry) => IMPORT_CONTRACTS[entry]?.label ?? entry).join(', ')} — subjects or glossary batches are not among them `
     + 'and has no branch here. Check it with the manual for its type and the import wizard\'s own preview instead.',
   )
   console.log(JSON.stringify({ file, kind, items: rows.length, notes, errors }, null, 1))
@@ -603,7 +605,7 @@ function completenessWarnings(rowKind, rows) {
 
 /* ---- update rows that would land as stubs -------------------------------- */
 
-const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type' }
+const SUBSTANCE = { concept: 'label', question: 'question', article: 'summary', practical: 'type', 'catalogue-resource': 'type', minigame: 'prompt' }
 
 
 /**
@@ -771,7 +773,7 @@ async function foldInSiblings(concepts, articles, resources) {
       if (kind === 'article' && articles) {
         articles.set(id, { id, status: row.status?.trim() ?? 'Draft', pending: sibling })
       }
-      if (kind === 'resource' && resources) resources.add(id)
+      if ((kind === 'resource' || kind === 'catalogue-resource') && resources) resources.add(id)
     }
     notes.push(`${sibling}: ${rows.length} ${kind} rows treated as pending import`)
   }
@@ -828,7 +830,7 @@ if (kind === 'relation') {
   }
   const graph = { concepts, relations: [] }
   const evidence = { claims, citations }
-  const known = new Set(RELATION_IMPORT_FIELDS.map((field) => field.key))
+  const known = importFieldKeys('relation')
   const built = []
   rows.forEach((values, index) => {
     const where = `Item ${index + 1} (${values.source ?? '?'} -${values.type ?? '?'}-> ${values.target ?? '?'})`
@@ -871,7 +873,7 @@ if (kind === 'question') {
 
 
 
-  const known = new Set(IMPORT_SCHEMAS.question.fields.map((field) => field.key))
+  const known = importFieldKeys('question')
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
   const built = []
   const difficultyCounts = {}
@@ -1028,7 +1030,7 @@ if (kind === 'practical') {
   const concepts = new Map((live.states['synapse-concept-graph-v2']?.concepts ?? []).map((concept) => [concept.id, concept]))
   await foldInSiblings(concepts)
 
-  const known = new Set(IMPORT_SCHEMAS.practical.fields.map((field) => field.key))
+  const known = importFieldKeys('practical')
   const DIFFICULTIES = ['Easy', 'Moderate', 'Hard', 'Challenging']
   // What a bank should look like: mostly middle, a thin tail at each end. A set
   // that is nearly all Hard filters students rather than teaching them.
@@ -1154,7 +1156,7 @@ if (kind === 'article') {
     }
   }
 
-  const known = new Set(IMPORT_SCHEMAS.article.fields.map((field) => field.key))
+  const known = importFieldKeys('article')
   const built = []
   rows.forEach((values, index) => {
     const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
@@ -1204,6 +1206,68 @@ if (kind === 'article') {
     annotations: built.reduce((sum, item) => sum + item.articleData.annotations.length, 0),
     mediaRequests: built.reduce((sum, item) => sum + (item.articleData.mediaRequests?.length ?? 0), 0),
     calloutsWithEvidence: built.reduce((sum, item) => sum + Object.keys(item.articleData.calloutEvidence ?? {}).length, 0),
+    errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind === 'catalogue-resource') {
+  const known = importFieldKeys('catalogue-resource')
+  const built = []
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateImportRow('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of scopeAgreementErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of mixedAppendErrors(values)) errors.push(`${where}: ${error}`)
+    for (const error of plusOnNonListErrors('resource', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('catalogue-resource', values)) errors.push(`${where}: ${error}`)
+    try {
+      built.push(importRowToContent('resource', values, `row-${index}`))
+    } catch (reason) {
+      errors.push(`${where}: ${reason.message}`)
+    }
+  })
+
+  const ids = rows.map((row) => row.id?.trim())
+  for (const id of ids) if (id && ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+
+  console.log(JSON.stringify({
+    file, kind, items: rows.length,
+    fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    warnings: completenessWarnings('catalogue-resource', rows),
+    resources: built.length,
+    errors,
+  }, null, 1))
+  if (errors.length) process.exitCode = 1
+  process.exit()
+}
+
+if (kind === 'minigame') {
+  const known = importFieldKeys('minigame')
+  const built = []
+  rows.forEach((values, index) => {
+    const where = `Item ${index + 1} (${values.id ?? values.title ?? 'untitled'})`
+    for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
+    for (const error of validateMiniGameRow(values)) errors.push(`${where}: ${error}`)
+    for (const error of catalogueErrors('minigame', values)) errors.push(`${where}: ${error}`)
+    for (const error of stubCreateErrors('minigame', values)) errors.push(`${where}: ${error}`)
+    built.push(miniGamePackFromRow(values))
+  })
+
+  const ids = built.map((pack) => pack.id)
+  for (const id of ids) if (id && ids.filter((other) => other === id).length > 1) errors.push(`duplicate id ${id} within the file`)
+
+  console.log(JSON.stringify({
+    file,
+    kind,
+    items: rows.length,
+    fieldsUsed: [...new Set(rows.flatMap((row) => Object.keys(row)))].length,
+    clinicalSequence: built.filter((pack) => pack.kind === 'clinical_sequence').length,
+    mechanismChain: built.filter((pack) => pack.kind === 'mechanism_chain').length,
+    redFlagSort: built.filter((pack) => pack.kind === 'red_flag_sort').length,
     errors,
   }, null, 1))
   if (errors.length) process.exitCode = 1
@@ -1292,7 +1356,7 @@ if (kind !== 'concept') {
     notes.push(`${corpusSourcePath} could not be read (${reason.message}) — no source ID in this file can be checked against the corpus. Put the index beside the batch, or regenerate it.`)
   }
 
-  const known = new Set(EVIDENCE_IMPORT_FIELDS[kind].map((field) => field.key))
+  const known = importFieldKeys(kind)
   rows.forEach((values, index) => {
     const where = `Item ${index + 1} (${values.id ?? 'no id'})`
     for (const key of Object.keys(values)) if (!known.has(key)) errors.push(`${where}: unknown column "${key}"`)
@@ -1366,7 +1430,7 @@ try {
   notes.push(`${corpusConceptPath} could not be read (${reason.message}) — no source_candidate_ids in this file can be checked against the corpus. Put the index beside the batch, or regenerate it.`)
 }
 
-const known = new Set(CONCEPT_IMPORT_FIELDS.map((field) => field.key))
+const known = importFieldKeys('concept')
 
 rows.forEach((values, index) => {
   const where = `Item ${index + 1} (${values.label ?? 'no label'})`

@@ -13,7 +13,8 @@
 
 export type BatchKind =
   | 'concept' | 'relation' | 'article' | 'question' | 'practical'
-  | 'resource' | 'claim' | 'citation' | 'span' | 'unknown'
+  | 'catalogue-resource' | 'resource' | 'claim' | 'citation' | 'span'
+  | 'glossary' | 'minigame' | 'unknown'
 
 /**
  * The columns that identify a question, beyond `question` itself.
@@ -33,11 +34,14 @@ export function detectBatchKind(sample: Record<string, unknown>): BatchKind {
   const has = (key: string) => key in sample
 
   if (has('source') && has('type') && has('target')) return 'relation'
+  if (has('kind') && has('prompt') && (has('steps') || has('findings'))) return 'minigame'
+  if (has('term') && has('category') && has('def')) return 'glossary'
   if (has('question') && QUESTION_PAYLOADS.some(has)) return 'question'
   if (has('summary') && has('sections')) return 'article'
   if (has('claim_id') && has('resource_id')) return 'citation'
   if (has('concept_id') && has('display_text')) return 'claim'
   if (has('article_id') && has('section_id')) return 'span'
+  if (has('source') && has('type')) return 'catalogue-resource'
   if (has('institution') && has('processing_status')) return 'resource'
   if (has('type') && (has('mark_scheme') || has('decisions')
     || has('lab_questions') || has('candidate_instructions'))) return 'practical'

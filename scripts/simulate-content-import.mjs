@@ -17,15 +17,19 @@
  */
 import { readFile, writeFile } from 'node:fs/promises'
 
-import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation, CONCEPT_IMPORT_FIELDS, RELATION_IMPORT_FIELDS } from '../src/data/conceptImport.ts'
+import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, relationFromRow, relationErrors, isDuplicateRelation } from '../src/data/conceptImport.ts'
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
-import { IMPORT_SCHEMAS, importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
+import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
+import { applyGlossaryRows } from '../src/data/glossaryImport.ts'
+import { EMPTY_GLOSSARY, GLOSSARY_STORAGE_KEY, MED_CATEGORIES } from '../src/data/glossary.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
-  EVIDENCE_IMPORT_FIELDS, evidenceErrors, reconcileClaimEvidence,
+  evidenceErrors, reconcileClaimEvidence,
   resourceFromRow, claimFromRow, citationFromRow, spanFromRow,
 } from '../src/data/evidenceImport.ts'
 import { detectBatchKind } from '../src/data/batchKind.ts'
+import { IMPORT_CONTRACTS } from '../src/data/importContract.ts'
 
 const args = process.argv.slice(2)
 const option = (name) => {
@@ -40,6 +44,7 @@ if (!files.length) throw new Error('Give at least one batch file')
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 const GRAPH_KEY = 'synapse-concept-graph-v2'
 const EVIDENCE_KEY = 'synapse-medical-evidence-v1'
+const MINIGAME_PACKS_KEY = 'synapse-minigame-packs-v1'
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -63,6 +68,10 @@ const state = bundle.states
 const graph = structuredClone(state[GRAPH_KEY] ?? { concepts: [], relations: [] })
 const evidence = structuredClone(state[EVIDENCE_KEY] ?? { claims: [], citations: [], resources: [], articleSpans: [], merges: [], coverage: [] })
 const ledger = structuredClone(state[LEDGER_KEY] ?? [])
+let gamePacks = structuredClone(Array.isArray(state[MINIGAME_PACKS_KEY]?.packs) ? state[MINIGAME_PACKS_KEY].packs : [])
+let minigameTouched = false
+let glossary = structuredClone(state[GLOSSARY_STORAGE_KEY] ?? EMPTY_GLOSSARY)
+let glossaryTouched = false
 
 const before = {
   articles: ledger.filter((item) => item.kind === 'article').length,
@@ -72,6 +81,8 @@ const before = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 /* ---- apply, in dependency order ------------------------------------------ */
@@ -80,24 +91,16 @@ const before = {
 // concept must have been applied before one is checked against the graph.
 // Questions run last: each one resolves against both the concept graph and the
 // article ledger, so it has to see every concept and article this run creates.
-const ORDER = { resource: 0, article: 1, concept: 2, claim: 3, citation: 4, span: 5, relation: 6, practical: 7, question: 8 }
+const ORDER = { glossary: 0, resource: 1, 'catalogue-resource': 2, article: 3, concept: 4, claim: 5, citation: 6, span: 7, relation: 8, practical: 9, question: 10, minigame: 11 }
 
-// The columns each kind actually has, taken from the importer's own field lists
-// rather than a copy kept here — a vocabulary maintained in two places is a
-// vocabulary that drifts, and the drift shows up as a false error on a good
-// batch. `IMPORT_SCHEMAS` is the authority for the three wizard kinds; concepts,
-// relations and evidence carry their own.
-const COLUMNS = {
-  article: IMPORT_SCHEMAS.article.fields,
-  practical: IMPORT_SCHEMAS.practical.fields,
-  question: IMPORT_SCHEMAS.question.fields,
-  concept: CONCEPT_IMPORT_FIELDS,
-  relation: RELATION_IMPORT_FIELDS,
-  resource: EVIDENCE_IMPORT_FIELDS.resource,
-  claim: EVIDENCE_IMPORT_FIELDS.claim,
-  citation: EVIDENCE_IMPORT_FIELDS.citation,
-  span: EVIDENCE_IMPORT_FIELDS.span,
-}
+// The columns each kind actually has, taken from the canonical registry rather
+// than a copy kept here — a vocabulary maintained in two places is a vocabulary
+// that drifts, and the drift shows up as a false error on a good batch.
+const COLUMNS = Object.fromEntries(
+  Object.entries(IMPORT_CONTRACTS)
+    .filter(([kind]) => kind in ORDER)
+    .map(([kind, contract]) => [kind, contract.fields]),
+)
 const KNOWN_COLUMNS = Object.fromEntries(
   Object.entries(COLUMNS).map(([kind, fields]) => [kind, new Set(fields.map((field) => field.key))]),
 )
@@ -130,7 +133,7 @@ for (const file of files) {
       errors.push(`${file}: detected as "${kind}", so this run applies none of it — but it carries ${ids.length} row(s) with an id `
         + `(${ids.slice(0, 3).join(', ')}${ids.length > 3 ? ', …' : ''}). A row with an id is a record somebody meant to import. `
         + 'Give each row the column its kind is recognised by — a concept needs `label` or `canonical_key`, a question `question`, '
-        + 'an article `summary`, a practical `type`.')
+        + 'an article `summary`, a practical `type`, a catalogue resource `source` and `type`, or an evidence source `institution` and `processing_status`.')
       continue
     }
     refused.push(`${file}: detected as "${kind}", which this simulation does not apply. Move it out of the batch directory or add support for it.`)
@@ -176,6 +179,41 @@ for (const batch of batches) {
     articleIds: new Set(ledger.filter((item) => item.kind === 'article').map((item) => item.id)),
   }
 
+  if (batch.kind === 'minigame') {
+    let created = 0
+    let updated = 0
+    minigameTouched = true
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateMiniGameRow(row)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = miniGamePackFromRow(row)
+      const position = gamePacks.findIndex((pack) => pack.id === incoming.id)
+      if (position >= 0) { gamePacks[position] = incoming; updated += 1 }
+      else { gamePacks = [incoming, ...gamePacks]; created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'glossary') {
+    glossaryTouched = true
+    const result = applyGlossaryRows(glossary.terms, batch.rows)
+    glossary = {
+      version: 1,
+      categories: glossary.categories.length ? glossary.categories : MED_CATEGORIES.map((entry) => ({ ...entry })),
+      terms: result.records,
+    }
+    result.errors.forEach((error) => errors.push(`${batch.file}: ${error}`))
+    report.push({
+      file: batch.file,
+      kind: batch.kind,
+      created: result.created,
+      updated: result.updated,
+      rejected: result.rejected,
+    })
+    continue
+  }
+
   if (batch.kind === 'article') {
     let created = 0
     let updated = 0
@@ -183,6 +221,21 @@ for (const batch of batches) {
       const rowErrors = validateImportRow('article', row)
       if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
       const incoming = importRowToContent('article', row, `row-${index}`)
+      const position = ledger.findIndex((item) => item.id === incoming.id)
+      if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
+      else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
+    })
+    report.push({ file: batch.file, kind: batch.kind, created, updated, rejected: batch.rows.length - created - updated })
+    continue
+  }
+
+  if (batch.kind === 'catalogue-resource') {
+    let created = 0
+    let updated = 0
+    batch.rows.forEach((row, index) => {
+      const rowErrors = validateImportRow('resource', row)
+      if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
+      const incoming = importRowToContent('resource', row, `row-${index}`)
       const position = ledger.findIndex((item) => item.id === incoming.id)
       if (position >= 0) { ledger[position] = mergeContentItem(ledger[position], incoming, false); updated += 1 }
       else { ledger.unshift(materialiseNewItem(incoming)); created += 1 }
@@ -323,6 +376,8 @@ const after = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
+  glossaryTerms: glossary.terms.length,
 }
 
 // The point of the exercise: which concepts can now leave needs_evidence.
@@ -341,7 +396,18 @@ const nowSupported = [...claimsByConcept.entries()]
   .filter((entry) => entry.publicationStatus !== 'published')
 
 if (emitFile) {
-  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence } }, null, 1)}\n`)
+  const nextStates = { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence }
+  if (minigameTouched) {
+    nextStates[MINIGAME_PACKS_KEY] = {
+      version: 1,
+      status: 'In review',
+      validationStatus: 'validated',
+      updatedAt: new Date().toISOString(),
+      packs: gamePacks,
+    }
+  }
+  if (glossaryTouched) nextStates[GLOSSARY_STORAGE_KEY] = glossary
+  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: nextStates }, null, 1)}\n`)
 }
 
 console.log(JSON.stringify({
