@@ -1,4 +1,4 @@
-import type { ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type ManagedContentItem } from './contentControl.ts'
 import { matchesAnswer } from './answerMatching.ts'
 
 /**
@@ -98,7 +98,7 @@ export function completionErrors(payload: CompletionPayload, raw?: string): stri
 }
 
 export function managedCompletionToStudentCompletion(item: ManagedContentItem): CompletionQuestionView | null {
-  if (item.kind !== 'question' || item.status !== 'Published') return null
+  if (item.kind !== 'question' || !isStudentPublishable(item)) return null
   const data = item.questionData
   if (data?.format !== 'completion') return null
   const completion = data.completion

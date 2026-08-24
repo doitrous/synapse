@@ -54,6 +54,14 @@ async function isPartyMember(partyId, userId) {
   return rows.length > 0
 }
 
+async function isPartyHost(partyId, userId) {
+  const [rows] = await pool.query(
+    'SELECT 1 FROM study_parties WHERE id = ? AND host_user_id = ? AND archived_at IS NULL LIMIT 1',
+    [partyId, userId],
+  )
+  return rows.length > 0
+}
+
 /**
  * Published ledger items of the given kinds, id only — the practical and
  * essay half of what `createSession` is allowed to freeze. Not cached like
@@ -307,7 +315,7 @@ function parseItemRefs(raw) {
  * failing the whole request, again matching `createRoom`.
  */
 export async function createSession(userId, partyId, { name, items, startsAt }) {
-  if (!(await isPartyMember(partyId, userId))) return { ok: false, reason: 'not_a_member' }
+  if (!(await isPartyHost(partyId, userId))) return { ok: false, reason: 'not_host' }
 
   const wanted = Array.isArray(items) ? items : []
   const published = await publishedQuestions()

@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { usePersistentState } from './usePersistentState'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import { libraryTopics as SEED_TOPICS, type LibTopic, type LinkedQuestion, type Subtopic } from '@/data/library'
 import { subjects } from '@/data/subjects'
 import { API_MODE } from './api'
@@ -23,7 +23,11 @@ export function useLiveLibrary() {
   const [graph, , graphStatus] = usePersistentState<ConceptGraph>(CONCEPT_STORAGE_KEY, initialConceptGraph)
 
   return useMemo(() => {
-    const articleItems = ledger.filter((i) => i.kind === 'article' && i.status !== 'Archived' && (!API_MODE || i.status === 'Published'))
+    const articleItems = ledger.filter((item) => {
+      if (item.kind !== 'article' || item.status === 'Archived') return false
+      if (item.status === 'Published' && !isStudentPublishable(item)) return false
+      return !API_MODE || isStudentPublishable(item)
+    })
     const byId = new Map(articleItems.map((i) => [i.id, i]))
     // Related reading may only point at an article this projection will render,
     // so the same filtered set decides both what exists and what may be linked.
@@ -65,7 +69,7 @@ export function useLiveLibrary() {
      */
     const questionsByArticle = new Map<string, LinkedQuestion[]>()
     for (const item of ledger) {
-      if (item.kind !== 'question' || item.status !== 'Published') continue
+      if (item.kind !== 'question' || !isStudentPublishable(item)) continue
       const stem = item.title
       for (const articleId of item.questionData?.libraryIds ?? []) {
         questionsByArticle.set(articleId, [...(questionsByArticle.get(articleId) ?? []), { id: item.id, stem }])

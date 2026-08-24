@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent } from 'react'
-import { X } from 'lucide-react'
+import { useEffect, useMemo, useRef, useState, type CSSProperties, type KeyboardEvent, type PointerEvent as ReactPointerEvent } from 'react'
+import { Info, Maximize2, Minimize2, RotateCcw, X, ZoomIn, ZoomOut } from 'lucide-react'
 import { objectivesOf, openingObjective, structuresAt, type HistologySlide, type Objective } from '@/data/histology'
 import { resolveMediaSource } from '@/lib/mediaStorage'
 import { useT } from '@/lib/i18n'
@@ -7,6 +7,7 @@ import { cn } from '@/lib/cn'
 import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
+import { Panel } from '@/components/ui/Panel'
 
 interface Drag {
   pointerId: number
@@ -18,6 +19,10 @@ interface Drag {
 
 function clamp(value: number, limit: number): number {
   return Math.min(limit, Math.max(-limit, value))
+}
+
+function clamp01(value: number): number {
+  return Math.min(1, Math.max(0, value))
 }
 
 /**
@@ -35,6 +40,9 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
   const [imageUrl, setImageUrl] = useState('')
   const [imageLoading, setImageLoading] = useState(true)
   const [imageError, setImageError] = useState('')
+  const [zoom, setZoom] = useState(1)
+  const [maximized, setMaximized] = useState(false)
+  const [aboutOpen, setAboutOpen] = useState(false)
 
   // Undefined until the image has actually loaded once, so nothing is drawn
   // at a guessed size before its real proportions are known.
@@ -44,7 +52,9 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
   const [fieldSize, setFieldSize] = useState(0)
 
   const fieldRef = useRef<HTMLDivElement>(null)
+  const thumbnailRef = useRef<HTMLDivElement>(null)
   const dragRef = useRef<Drag | null>(null)
+  const thumbnailDragRef = useRef<number | null>(null)
 
   useEffect(() => {
     const node = fieldRef.current
@@ -65,23 +75,50 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
   // every pin fraction (0 to 1 across "the image") reachable.
   const display = naturalSize
     ? (() => {
-        const scale = fieldSize / Math.min(naturalSize.w, naturalSize.h)
+        const scale = fieldSize / Math.min(naturalSize.w, naturalSize.h) * zoom
         return { width: naturalSize.w * scale, height: naturalSize.h * scale }
       })()
     : { width: fieldSize, height: fieldSize }
+
+  const limits = useMemo(
+    () => ({
+      x: Math.max(0, (display.width - fieldSize) / 2),
+      y: Math.max(0, (display.height - fieldSize) / 2),
+    }),
+    [display.height, display.width, fieldSize],
+  )
+
+  const viewport = useMemo(() => {
+    if (!fieldSize || !display.width || !display.height) return { left: 0, top: 0, width: 1, height: 1 }
+    const width = Math.min(1, fieldSize / display.width)
+    const height = Math.min(1, fieldSize / display.height)
+    return {
+      left: clamp01(0.5 - width / 2 - pan.x / display.width),
+      top: clamp01(0.5 - height / 2 - pan.y / display.height),
+      width,
+      height,
+    }
+  }, [display.height, display.width, fieldSize, pan.x, pan.y])
 
   // A different slide is a different instrument session — start it fresh,
   // opening where the student is meant to orient themselves.
   useEffect(() => {
     setObjective(openingObjective(slide))
     setRevealed(new Set())
+    setZoom(1)
+    setAboutOpen(false)
   }, [slide])
 
   // Panning belongs to one field of view; switching power should not carry a
   // pan offset that no longer means anything on the new image.
   useEffect(() => {
     setPan({ x: 0, y: 0 })
+    setZoom(1)
   }, [objective])
+
+  useEffect(() => {
+    setPan((current) => ({ x: clamp(current.x, limits.x), y: clamp(current.y, limits.y) }))
+  }, [limits.x, limits.y])
 
   const currentView = objective === null ? undefined : slide.views.find((view) => view.objective === objective)
 
@@ -165,11 +202,9 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
     // Half of however much the covering image overflows the field on each
     // axis — zero when it happens to fit exactly, so there is nothing to
     // drag toward.
-    const limitX = Math.max(0, (display.width - fieldSize) / 2)
-    const limitY = Math.max(0, (display.height - fieldSize) / 2)
     setPan({
-      x: clamp(drag.originX + (event.clientX - drag.startX), limitX),
-      y: clamp(drag.originY + (event.clientY - drag.startY), limitY),
+      x: clamp(drag.originX + (event.clientX - drag.startX), limits.x),
+      y: clamp(drag.originY + (event.clientY - drag.startY), limits.y),
     })
   }
 
@@ -180,16 +215,90 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
     dragRef.current = null
   }
 
+  function updatePanFromThumbnail(clientX: number, clientY: number) {
+    const thumbnail = thumbnailRef.current
+    if (!thumbnail || display.width <= 0 || display.height <= 0) return
+    const rect = thumbnail.getBoundingClientRect()
+    if (rect.width <= 0 || rect.height <= 0) return
+    const x = clamp01((clientX - rect.left) / rect.width)
+    const y = clamp01((clientY - rect.top) / rect.height)
+    setPan({
+      x: clamp((0.5 - x) * display.width, limits.x),
+      y: clamp((0.5 - y) * display.height, limits.y),
+    })
+  }
+
+  function onThumbnailPointerDown(event: ReactPointerEvent<HTMLDivElement>) {
+    if (event.button !== 0) return
+    thumbnailDragRef.current = event.pointerId
+    event.currentTarget.setPointerCapture(event.pointerId)
+    updatePanFromThumbnail(event.clientX, event.clientY)
+  }
+
+  function onThumbnailPointerMove(event: ReactPointerEvent<HTMLDivElement>) {
+    if (thumbnailDragRef.current !== event.pointerId) return
+    updatePanFromThumbnail(event.clientX, event.clientY)
+  }
+
+  function endThumbnailDrag(event: ReactPointerEvent<HTMLDivElement>) {
+    if (thumbnailDragRef.current !== event.pointerId) return
+    event.currentTarget.releasePointerCapture(event.pointerId)
+    thumbnailDragRef.current = null
+  }
+
+  function resetView() {
+    setPan({ x: 0, y: 0 })
+    setZoom(1)
+  }
+
+  function stepZoom(next: number) {
+    setZoom(Math.min(2.5, Math.max(0.75, next)))
+  }
+
+  function onThumbnailKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    const moves: Record<string, [number, number]> = {
+      ArrowUp: [0, 24],
+      ArrowDown: [0, -24],
+      ArrowLeft: [24, 0],
+      ArrowRight: [-24, 0],
+    }
+    const move = moves[event.key]
+    if (!move) return
+    event.preventDefault()
+    setPan((current) => ({ x: clamp(current.x + move[0], limits.x), y: clamp(current.y + move[1], limits.y) }))
+  }
+
+  const zoomLabel = `${Math.round(zoom * 100)}%`
+
   return (
-    <div className="mx-auto flex w-full max-w-lg flex-col items-center gap-4 p-4">
-      <div className="flex w-full items-start justify-between gap-3">
+    <div
+      className={cn(
+        'mx-auto flex w-full max-w-4xl flex-col items-center gap-4 p-4',
+        maximized && 'fixed inset-0 z-50 overflow-auto bg-canvas px-4 py-5 sm:px-6',
+      )}
+    >
+      <div className="flex w-full flex-wrap items-start justify-between gap-3">
         <div className="min-w-0">
           <h1 className="truncate font-serif text-[19px] font-semibold text-ink">{slide.title}</h1>
           <p className="truncate text-[12.5px] text-ink-2">
             {slide.tissue} · {slide.stain}
           </p>
         </div>
-        <IconButton icon={X} label={t('Close the slide viewer')} variant="surface" onClick={onClose} />
+        <div className="flex items-center gap-1.5">
+          <IconButton
+            icon={Info}
+            label={aboutOpen ? t('Hide slide details') : t('About this tissue')}
+            variant={aboutOpen ? 'primary' : 'surface'}
+            onClick={() => setAboutOpen((open) => !open)}
+          />
+          <IconButton
+            icon={maximized ? Minimize2 : Maximize2}
+            label={maximized ? t('Restore the slide viewer') : t('Maximize the slide viewer')}
+            variant="surface"
+            onClick={() => setMaximized((next) => !next)}
+          />
+          <IconButton icon={X} label={t('Close the slide viewer')} variant="surface" onClick={onClose} />
+        </div>
       </div>
 
       <div
@@ -206,7 +315,8 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
           // white stays literal rather than following the surface token — it
           // is the same eyepiece the push-in animation ends on, and that frame
           // does not change with light or dark mode.
-          'relative aspect-square w-full max-w-sm touch-none select-none overflow-hidden rounded-full border-[10px] border-ink bg-white shadow-panel',
+          'relative aspect-square w-full touch-none select-none overflow-hidden rounded-full border-[10px] border-ink bg-white shadow-panel',
+          maximized ? 'max-w-[min(80vh,42rem)]' : 'max-w-sm',
           !imageLoading && !imageError && currentView && 'cursor-grab active:cursor-grabbing',
         )}
       >
@@ -293,30 +403,71 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
         )}
       </div>
 
-      {objectives.length > 1 ? (
-        <div className="flex items-center justify-center gap-2">
-          {objectives.map((entry) => (
-            <button
-              key={entry}
-              type="button"
-              onClick={() => setObjective(entry)}
-              aria-pressed={entry === objective}
-              className={cn(
-                'inline-flex h-10 min-w-11 items-center justify-center rounded-full border px-3 text-[13px] font-semibold tabular-nums transition-colors sm:h-8',
-                entry === objective
-                  ? 'border-primary-line bg-primary-tint text-primary-strong'
-                  : 'border-line bg-surface text-ink-2 hover:border-line-2 hover:text-ink',
-              )}
-            >
-              {entry}×
-            </button>
-          ))}
+      <Panel className="w-full max-w-xl p-3">
+        <div className="flex flex-wrap items-center justify-center gap-3">
+          {objectives.length > 1 ? (
+            <div className="flex items-center gap-1.5" role="group" aria-label={t('Objectives')}>
+              {objectives.map((entry) => (
+                <button
+                  key={entry}
+                  type="button"
+                  onClick={() => setObjective(entry)}
+                  aria-pressed={entry === objective}
+                  className={cn(
+                    'inline-flex h-10 min-w-11 items-center justify-center rounded-full border px-3 text-[13px] font-semibold tabular-nums transition-colors sm:h-8',
+                    entry === objective
+                      ? 'border-primary-line bg-primary-tint text-primary-strong'
+                      : 'border-line bg-surface text-ink-2 hover:border-line-2 hover:text-ink',
+                  )}
+                >
+                  {entry}×
+                </button>
+              ))}
+            </div>
+          ) : (
+            // One objective is not a choice, so it is shown as a fact about the
+            // slide rather than a lone button that looks like it should do
+            // something when pressed.
+            objective !== null && <Badge tone="outline">{objective}×</Badge>
+          )}
+
+          <div className="flex items-center gap-1.5" role="group" aria-label={t('Zoom controls')}>
+            <IconButton icon={ZoomOut} label={t('Zoom out')} size="sm" variant="surface" disabled={zoom <= 0.75} onClick={() => stepZoom(zoom - 0.25)} />
+            <span className="tnum min-w-12 text-center font-mono text-[12px] font-semibold text-ink-2">{zoomLabel}</span>
+            <IconButton icon={ZoomIn} label={t('Zoom in')} size="sm" variant="surface" disabled={zoom >= 2.5} onClick={() => stepZoom(zoom + 0.25)} />
+            <IconButton icon={RotateCcw} label={t('Reset view')} size="sm" variant="surface" onClick={resetView} />
+          </div>
         </div>
-      ) : (
-        // One objective is not a choice, so it is shown as a fact about the
-        // slide rather than a lone button that looks like it should do
-        // something when pressed.
-        objective !== null && <Badge tone="outline">{objective}×</Badge>
+      </Panel>
+
+      {!imageLoading && !imageError && currentView && (
+        <div className="w-full max-w-xl">
+          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-3">{t('Full-slide thumbnail')}</p>
+          <div
+            ref={thumbnailRef}
+            role="group"
+            tabIndex={0}
+            aria-label={t('Move the field of view on the full-slide thumbnail')}
+            onPointerDown={onThumbnailPointerDown}
+            onPointerMove={onThumbnailPointerMove}
+            onPointerUp={endThumbnailDrag}
+            onPointerCancel={endThumbnailDrag}
+            onKeyDown={onThumbnailKeyDown}
+            className="relative mx-auto h-24 w-full max-w-[12rem] touch-none overflow-hidden rounded-xl border border-line bg-surface-2 shadow-control focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+          >
+            <img src={imageUrl} alt="" draggable={false} className="size-full object-cover opacity-90" />
+            <span
+              aria-hidden
+              className="absolute rounded-md border-2 border-primary bg-primary/15 shadow-[0_0_0_999px_rgba(0,0,0,0.2)]"
+              style={{
+                left: `${viewport.left * 100}%`,
+                top: `${viewport.top * 100}%`,
+                width: `${viewport.width * 100}%`,
+                height: `${viewport.height * 100}%`,
+              }}
+            />
+          </div>
+        </div>
       )}
 
       {structures.length > 0 && (
@@ -326,7 +477,32 @@ export function SlideViewer({ slide, onClose }: { slide: HistologySlide; onClose
         </div>
       )}
 
-      {slide.description && <p className="text-center text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
+      {aboutOpen && (
+        <Panel className="w-full max-w-xl p-4">
+          <h2 className="font-serif text-[16px] font-semibold text-ink">{t('About this tissue')}</h2>
+          <dl className="mt-3 grid gap-2 text-[13px] sm:grid-cols-2">
+            <div>
+              <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Tissue')}</dt>
+              <dd className="mt-0.5 text-ink">{slide.tissue}</dd>
+            </div>
+            <div>
+              <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Stain')}</dt>
+              <dd className="mt-0.5 text-ink">{slide.stain || t('Not specified')}</dd>
+            </div>
+            <div>
+              <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Objectives')}</dt>
+              <dd className="mt-0.5 text-ink">{objectives.map((entry) => `${entry}×`).join(' · ') || t('No image objectives')}</dd>
+            </div>
+            <div>
+              <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Pinned structures')}</dt>
+              <dd className="mt-0.5 text-ink">{slide.structures.length}</dd>
+            </div>
+          </dl>
+          {slide.description && <p className="mt-3 text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
+        </Panel>
+      )}
+
+      {!aboutOpen && slide.description && <p className="text-center text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
     </div>
   )
 }

@@ -63,7 +63,7 @@ export const PRIVATE_FIELDS = new Set([
   // `source` is withheld to prevent.
   'derivedFromFormat', 'derivedFromId',
   // Authors talking to authors.
-  'authorNotes', 'fieldNotes', 'notes', 'internalNotes', 'owner', 'ownerId',
+  'authorNotes', 'fieldNotes', 'notes', 'internalNotes', 'reviewComments', 'owner', 'ownerId',
   // The review pipeline's own bookkeeping.
   'reviewer', 'finalPublisher', 'reviewDue', 'lastReviewed',
   // Work still outstanding: media being chased, and the file-pipeline columns
@@ -146,10 +146,32 @@ function strip(value) {
   return value
 }
 
+/**
+ * Required media must name the managed asset that supplied it. Requests can be
+ * anchored at any depth (stem, answer, explanation, section, or practical
+ * block), so the student gate inspects the complete authored item.
+ */
+export function hasUnresolvedRequiredMedia(value, seen = new Set()) {
+  if (!value || typeof value !== 'object' || seen.has(value)) return false
+  seen.add(value)
+  if (Array.isArray(value)) return value.some((entry) => hasUnresolvedRequiredMedia(entry, seen))
+  for (const [key, inner] of Object.entries(value)) {
+    if (key === 'mediaRequests' && Array.isArray(inner)) {
+      const unresolved = inner.some((request) => request?.priority === 'required'
+        && (request.status !== 'supplied' || typeof request.mediaId !== 'string' || !request.mediaId.trim()))
+      if (unresolved) return true
+      continue
+    }
+    if (hasUnresolvedRequiredMedia(inner, seen)) return true
+  }
+  return false
+}
+
 /** The student's view of one item, or `null` when they may not see it at all. */
 export function redactItem(item) {
   if (!item || typeof item !== 'object' || Array.isArray(item)) return null
   if (item.status !== 'Published') return null
+  if (hasUnresolvedRequiredMedia(item)) return null
   return strip(item)
 }
 

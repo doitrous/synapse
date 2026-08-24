@@ -1,7 +1,8 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  MAX_PAYLOAD_BYTES, mayChangeAccess, mayRead, mayWrite, readPayload, readTitle, viewerRights,
+  MAX_PAYLOAD_BYTES, mayChangeAccess, mayRead, mayWrite, readPayload, readTitle, readTopics,
+  revisionVerdict, sameCohort, viewerRights,
 } from './sharePolicy.js'
 
 const OWNER = 'user-owner'
@@ -81,4 +82,55 @@ test('a payload has to be storable JSON, and bounded', () => {
   assert.equal(readPayload(cycle).error, 'payload_not_serialisable')
 
   assert.equal(readPayload({ body: 'x'.repeat(MAX_PAYLOAD_BYTES) }).error, 'payload_too_large')
+})
+
+test('share topics are bounded, deduplicated, and normalised without trusting arbitrary fields', () => {
+  assert.deepEqual(
+    readTopics({
+      topics: [
+        { subjectId: ' SYS ', topic: '  Cardiology\n', subtopic: ' Heart failure ' },
+        { subject_id: 'sys', topic: 'Cardiology', subtopic: 'Heart failure' },
+        'Respiratory',
+        { ignored: true },
+      ],
+    }),
+    [
+      { subjectId: 'SYS', topic: 'Cardiology', subtopic: 'Heart failure' },
+      { subjectId: null, topic: 'Respiratory', subtopic: null },
+    ],
+  )
+  assert.deepEqual(
+    readTopics({ subjectId: 'CVS', topic: 'Valves', subtopic: 'Aortic stenosis' }),
+    [{ subjectId: 'CVS', topic: 'Valves', subtopic: 'Aortic stenosis' }],
+  )
+})
+
+test('live document edits require the current revision and refuse stale writes', () => {
+  assert.deepEqual(revisionVerdict({ revision: 3 }, { baseRevision: 3 }), {
+    ok: true,
+    currentRevision: 3,
+    nextRevision: 4,
+  })
+  assert.deepEqual(revisionVerdict({ revision: 3 }, { payload: { revision: 4 } }), {
+    ok: true,
+    currentRevision: 3,
+    nextRevision: 4,
+  })
+  assert.deepEqual(revisionVerdict({ revision: 4 }, { payload: { revision: 4 } }), {
+    ok: false,
+    reason: 'stale_revision',
+    currentRevision: 4,
+  })
+  assert.deepEqual(revisionVerdict({ revision: 3 }, { title: 'new' }), {
+    ok: false,
+    reason: 'revision_required',
+    currentRevision: 3,
+  })
+})
+
+test('cohort discovery only matches the exact same university and year', () => {
+  assert.equal(sameCohort({ university_id: 'ain-shams', year: 'year-2' }, { university_id: 'ain-shams', year: 'year-2' }), true)
+  assert.equal(sameCohort({ university_id: 'ain-shams', year: 'year-2' }, { university_id: 'cairo', year: 'year-2' }), false)
+  assert.equal(sameCohort({ university_id: 'ain-shams', year: 'year-2' }, { university_id: 'ain-shams', year: 'year-3' }), false)
+  assert.equal(sameCohort({ university_id: null, year: 'year-2' }, { university_id: 'ain-shams', year: 'year-2' }), false)
 })

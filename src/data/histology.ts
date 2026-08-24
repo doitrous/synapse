@@ -1,4 +1,4 @@
-import type { ManagedContentItem } from './contentControl.ts'
+import { isStudentPublishable, type ManagedContentItem } from './contentControl.ts'
 
 /**
  * The objectives a teaching microscope actually carries.
@@ -86,7 +86,7 @@ export function structuresAt(
  * reaching the viewer and rendering an empty eyepiece.
  */
 export function managedSlideToStudentSlide(item: ManagedContentItem): HistologySlide | null {
-  if (item.kind !== 'histology' || item.status !== 'Published') return null
+  if (item.kind !== 'histology' || !isStudentPublishable(item)) return null
   const data = item.histologyData
   if (!data) return null
   const views = OBJECTIVES

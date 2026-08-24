@@ -132,6 +132,16 @@ export type MediaRequestMedium = (typeof MEDIA_REQUEST_MEDIA)[number]
 export type MediaRequestKind = (typeof MEDIA_REQUEST_KINDS)[number]
 export type MediaRequestOwnerKind = (typeof MEDIA_REQUEST_OWNER_KINDS)[number]
 
+export interface MediaReviewComment {
+  id: string
+  /** The precise student-visible part the reviewer is discussing. */
+  anchor: string
+  kind: 'comment' | 'problem'
+  text: string
+  author: string
+  createdAt: string
+}
+
 /**
  * An asset a piece of content needs but does not yet have.
  *
@@ -182,6 +192,8 @@ export interface MediaRequest {
   answerLabel?: AnswerLetter
   /** Set once a real media record fulfils this request. */
   mediaId?: string
+  /** Private, anchored reviewer discussion. Never enters a student projection. */
+  reviewComments?: MediaReviewComment[]
 }
 
 /**
@@ -622,6 +634,38 @@ export interface ManagedContentItem {
   deckData?: DeckAuthoringData
   essayData?: EssayAuthoringData
   histologyData?: HistologyAuthoringData
+}
+
+/**
+ * Required media still outstanding anywhere inside an authored item.
+ *
+ * Requests may sit on the owner or on an anchored section/answer payload. A
+ * recursive read keeps the publication rule independent of content type and
+ * slot. `supplied` alone is not enough: it must name the managed asset that
+ * fulfilled it, so a manually changed status cannot release broken content.
+ */
+export function blockingMediaRequests(item: ManagedContentItem): MediaRequest[] {
+  const found: MediaRequest[] = []
+  const seen = new Set<unknown>()
+  const visit = (value: unknown) => {
+    if (!value || typeof value !== 'object' || seen.has(value)) return
+    seen.add(value)
+    if (Array.isArray(value)) { value.forEach(visit); return }
+    for (const [key, inner] of Object.entries(value)) {
+      if (key === 'mediaRequests' && Array.isArray(inner)) {
+        for (const request of inner as MediaRequest[]) {
+          if (request?.priority === 'required' && (request.status !== 'supplied' || !request.mediaId?.trim())) found.push(request)
+        }
+      } else visit(inner)
+    }
+  }
+  visit(item)
+  return found
+}
+
+/** The one student-projection gate every content surface can share. */
+export function isStudentPublishable(item: ManagedContentItem): boolean {
+  return item.status === 'Published' && blockingMediaRequests(item).length === 0
 }
 
 /** True when an item was taken from a university or college rather than authored here. */

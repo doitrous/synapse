@@ -106,6 +106,36 @@ interface Bounds {
 
 const key = (row: number, column: number) => `${row},${column}`
 
+/**
+ * The answer form Term Grid uses everywhere: built terms, typed cells, pasted
+ * text and completion checks. It deliberately ignores presentation characters
+ * that students commonly copy from articles — spaces, punctuation, apostrophes,
+ * hyphens and accents — while keeping the crossword itself one Latin letter per
+ * square.
+ */
+export function normalizeTermGridAnswer(input: string): string {
+  return input
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toUpperCase()
+    .replace(/[^A-Z]/g, '')
+}
+
+/** The single square value to store after typing or pasting into one cell. */
+export function normalizeTermGridLetter(input: string): string {
+  return normalizeTermGridAnswer(input).slice(-1)
+}
+
+/**
+ * Deterministic givens for the finished grid. The caller passes the puzzle seed
+ * so a shared link opens with the same two prefilled answers for everyone.
+ */
+export function givenTermsForGrid(grid: Grid, seed: number, count: number = 2): string[] {
+  if (grid.words.length === 0 || count <= 0) return []
+  const unique = [...new Map(grid.words.map((word) => [word.term, word])).keys()]
+  return shuffle(unique, seededRandom(seed ^ 0x6d2b79f5)).slice(0, Math.min(count, unique.length))
+}
+
 const letterAt = (placement: Pick<Placement, 'row' | 'column' | 'direction'>, index: number) => ({
   row: placement.direction === 'down' ? placement.row + index : placement.row,
   column: placement.direction === 'across' ? placement.column + index : placement.column,
@@ -352,13 +382,7 @@ export function buildGrid(terms: GridTerm[], seed: number, max: number = DEFAULT
 
   for (const entry of terms) {
     const raw = entry.term.trim()
-    // A multi-word term cannot go in a crossword square, and the space has to be
-    // caught before stripping punctuation, or two words would silently fuse.
-    if (/\s/.test(raw)) {
-      rejected.push(raw.toUpperCase())
-      continue
-    }
-    const word = raw.toUpperCase().replace(/[^A-Z]/g, '')
+    const word = normalizeTermGridAnswer(raw)
     if (word.length < 3) {
       // Reported as the caller wrote it, so they can find which term this was.
       rejected.push(raw.toUpperCase())

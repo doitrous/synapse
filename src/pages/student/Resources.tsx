@@ -15,6 +15,7 @@ import {
   ChevronRight,
   Folder,
   Upload,
+  ImagePlus,
   Trash2,
   Pencil,
   X,
@@ -25,9 +26,9 @@ import { subjects, getSubject } from '@/data/subjects'
 import { YEARS } from '@/data/universities'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useRecentResources } from '@/lib/useRecentResources'
-import { useMyDocuments } from '@/lib/useMyDocuments'
+import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
 import { uploadRouteId } from '@/lib/useReaderSource'
-import { apiOpenFile } from '@/lib/api'
+import { apiDownload, apiOpenFile, API_MODE } from '@/lib/api'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -44,6 +45,8 @@ import { cn } from '@/lib/cn'
 import { BackBar } from '@/components/ui/BackBar'
 import { useT } from '@/lib/i18n'
 import { overlayPortal } from '@/lib/overlayPortal'
+import { initialNotes, type Note } from '@/data/notebook'
+import { filesOf, imagesOf, INITIAL_BOARD, type BoardState } from '@/data/whiteboard'
 
 /** Document (PDF) types — everything that isn't a video. */
 const PDF_TYPES: ResourceType[] = ['Book', 'Guideline', 'Deck', 'Article']
@@ -69,10 +72,10 @@ export function Resources() {
   const [universityCatalogue] = useUniversityCatalogue()
   const navigate = useNavigate()
   const [params] = useSearchParams()
-  const [section, setSection] = useState<'pdf' | 'video' | 'mine'>('pdf')
+  const [section, setSection] = useState<'pdf' | 'video' | 'mine'>('mine')
   // Kept per device: how someone wants their resources laid out is not a
   // per-visit decision, and this reset to System on every mount.
-  const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'system', ['system', 'module'] as const)
+  const [groupBy, setGroupBy] = useLocalChoice('synapse.resources.groupBy', 'module', ['system', 'module'] as const)
   const [collapsed, setCollapsed] = useState<Set<string>>(new Set())
   const [query, setQuery] = useState(params.get('q') ?? '')
   const [type, setType] = useState<ResourceType | 'all'>('all')
@@ -524,21 +527,17 @@ function MyUploads() {
   const t = useT()
   const navigate = useNavigate()
   const documents = useMyDocuments()
+  const [notes] = usePersistentState<Note[]>('synapse.notebook.notes', initialNotes)
+  const [board] = usePersistentState<BoardState>('synapse.whiteboard.board', INITIAL_BOARD)
   const [busy, setBusy] = useState<number | null>(null)
   const [failure, setFailure] = useState<string | null>(null)
-  // Only what this screen can actually open. Files pinned to a whiteboard are
-  // on the same account and count against the same quota, but they are not
-  // readable documents and listing them here would offer a reader that is not
-  // coming. They are managed from the board they belong to.
   const readable = documents.items.filter((item) => item.mediaType === 'pdf')
+  const mediaRows = mediaInventory({ documents: documents.items, notes, board })
+  const countedBytes = dedupedMediaBytes({ documents: documents.items, notes, board })
 
   const accept = async (files: FileList | null) => {
     const file = files?.[0]
     if (!file) return
-    if (!/\.pdf$/i.test(file.name)) {
-      setFailure(t('Only PDF files can be added for now.'))
-      return
-    }
     setFailure(null)
     setBusy(0)
     try {
@@ -555,19 +554,18 @@ function MyUploads() {
       <Panel className="p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="min-w-0">
-            <h2 className="font-serif text-[15.5px] font-semibold text-ink">{t('Self-uploaded documents')}</h2>
+            <h2 className="font-serif text-[15.5px] font-semibold text-ink">{t('My uploads')}</h2>
             <p className="mt-0.5 text-[12.5px] text-ink-3">
               {documents.synced
-                ? t('Your own PDFs, kept on your account and open on any device you sign in on.')
-                : t('Your own PDFs. This preview keeps them in this browser only.')}
+                ? t('Your documents and media, counted once against the same account quota wherever they appear.')
+                : t('Your documents and media. This preview keeps uploaded bytes in this browser only.')}
             </p>
           </div>
           <label className="inline-flex cursor-pointer items-center gap-2 rounded-lg border border-primary-line bg-primary-tint px-3 py-2 text-[13px] font-semibold text-primary-strong hover:bg-primary-tint/70">
             <Icon icon={Upload} size={15} />
-            {busy === null ? t('Add a PDF') : `${Math.round(busy * 100)}%`}
+            {busy === null ? t('Add a file') : `${Math.round(busy * 100)}%`}
             <input
               type="file"
-              accept="application/pdf,.pdf"
               className="sr-only"
               disabled={busy !== null}
               onChange={(event) => { void accept(event.target.files); event.target.value = '' }}
@@ -576,7 +574,7 @@ function MyUploads() {
         </div>
         {documents.quotaBytes > 0 && (
           <p className="tnum mt-3 font-mono text-[11px] text-ink-3">
-            {megabytes(documents.usedBytes)} / {megabytes(documents.quotaBytes)} MB
+            {megabytes(countedBytes)} / {megabytes(documents.quotaBytes)} MB
           </p>
         )}
         {(failure || documents.error) && (
@@ -586,55 +584,158 @@ function MyUploads() {
 
       {documents.loading ? (
         <Panel><p className="p-6 text-center text-[13px] text-ink-3">{t('Opening…')}</p></Panel>
-      ) : readable.length === 0 ? (
+      ) : readable.length === 0 && mediaRows.length === 0 ? (
         <Panel>
           <EmptyState
             icon={Upload}
             title={t('Nothing uploaded yet')}
-            description={t('Add a lecture handout or a scanned chapter, and annotate it exactly like anything else here.')}
+            description={t('Add a lecture handout, image, or board attachment. Documents and media are listed separately here.')}
           />
         </Panel>
       ) : (
-        <Panel className="overflow-hidden">
-          <ul className="divide-y divide-line">
-            {readable.map((item) => (
-              <li
-                key={item.id}
-                aria-label={`${t('Open resource')}: ${item.title}`}
-                {...clickableRow(() => navigate(`/app/resources/${uploadRouteId(item.id)}`), 'group flex items-center gap-3 px-4 py-2.5 hover:bg-inset/60')}
-              >
-                <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={FileText} size={16} /></span>
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
-                  <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB</p>
-                </div>
-                <span {...stopRowClick} className="contents">
-                  <IconButton
-                    icon={Pencil}
-                    label={t('Rename')}
-                    size="sm"
-                    onClick={() => {
-                      const title = window.prompt(t('Rename'), item.title)
-                      if (title?.trim()) void documents.rename(item.id, title.trim())
-                    }}
-                  />
-                  <IconButton
-                    icon={Trash2}
-                    label={t('Delete')}
-                    size="sm"
-                    onClick={() => {
-                      if (window.confirm(t('Delete this document? Your marks on it are deleted with it.'))) void documents.remove(item.id)
-                    }}
-                  />
-                </span>
-                <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
-              </li>
-            ))}
-          </ul>
-        </Panel>
+        <div className="grid gap-3 lg:grid-cols-2">
+          <Panel className="overflow-hidden">
+            <div className="border-b border-line bg-surface-2/50 px-4 py-3">
+              <h3 className="text-[13px] font-semibold text-ink">{t('Documents')}</h3>
+              <p className="text-[11.5px] text-ink-3">{t('PDFs that open in the resource reader.')}</p>
+            </div>
+            {readable.length === 0 ? (
+              <p className="p-5 text-[12.5px] text-ink-3">{t('No reader-ready documents yet.')}</p>
+            ) : (
+              <ul className="divide-y divide-line">
+                {readable.map((item) => (
+                  <li
+                    key={item.id}
+                    aria-label={`${t('Open resource')}: ${item.title}`}
+                    {...clickableRow(() => navigate(`/app/resources/${uploadRouteId(item.id)}`), 'group flex items-center gap-3 px-4 py-2.5 hover:bg-inset/60')}
+                  >
+                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={FileText} size={16} /></span>
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
+                      <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB · {t('Resources upload')}</p>
+                    </div>
+                    <span {...stopRowClick} className="contents">
+                      <IconButton icon={Pencil} label={t('Rename')} size="sm" onClick={() => { const title = window.prompt(t('Rename'), item.title); if (title?.trim()) void documents.rename(item.id, title.trim()) }} />
+                      <IconButton icon={Trash2} label={t('Delete')} size="sm" onClick={() => { if (window.confirm(t('Delete this document? Your marks on it are deleted with it.'))) void documents.remove(item.id) }} />
+                    </span>
+                    <Icon icon={ChevronRight} size={16} className="shrink-0 text-ink-3 transition-transform group-hover:translate-x-0.5 rtl:-scale-x-100" />
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Panel>
+
+          <Panel className="overflow-hidden">
+            <div className="border-b border-line bg-surface-2/50 px-4 py-3">
+              <h3 className="text-[13px] font-semibold text-ink">{t('Media')}</h3>
+              <p className="text-[11.5px] text-ink-3">{t('Images and non-reader files from resources, notebooks, and whiteboards.')}</p>
+            </div>
+            {mediaRows.length === 0 ? (
+              <p className="p-5 text-[12.5px] text-ink-3">{t('No media assets yet.')}</p>
+            ) : (
+              <ul className="divide-y divide-line">
+                {mediaRows.map((item) => (
+                  <li key={item.id} className="flex items-center gap-3 px-4 py-2.5">
+                    <span className="grid size-9 shrink-0 place-items-center rounded-md border border-line bg-surface-2 text-ink-2"><Icon icon={item.kind === 'image' ? ImagePlus : Upload} size={16} /></span>
+                    <div className="min-w-0 flex-1">
+                      <p className="truncate text-[13.5px] font-medium text-ink">{item.title}</p>
+                      <p className="tnum mt-0.5 font-mono text-[11px] text-ink-3">{megabytes(item.sizeBytes)} MB · {t(item.sourceLabel)}</p>
+                    </div>
+                    {item.documentId && API_MODE && <IconButton icon={ChevronRight} label={t('Download')} size="sm" onClick={() => void apiDownload(`/my-documents/${encodeURIComponent(item.documentId!)}/file`, item.title)} />}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Panel>
+        </div>
       )}
     </div>
   )
+}
+
+interface MediaInventoryInput {
+  documents: MyDocument[]
+  notes: Note[]
+  board: BoardState
+}
+
+interface MediaRow {
+  id: string
+  title: string
+  sizeBytes: number
+  sourceLabel: string
+  kind: 'image' | 'file'
+  documentId?: string
+}
+
+function mediaInventory({ documents, notes, board }: MediaInventoryInput): MediaRow[] {
+  const rows: MediaRow[] = []
+  const byDocument = new Map(documents.map((item) => [item.id, item]))
+
+  documents
+    .filter((item) => item.mediaType !== 'pdf')
+    .forEach((item) => rows.push({
+      id: `document:${item.id}`,
+      title: item.title,
+      sizeBytes: item.sizeBytes,
+      sourceLabel: 'Resources upload',
+      kind: 'file',
+      documentId: item.id,
+    }))
+
+  notes
+    .filter((note) => Boolean(note.imageData))
+    .forEach((note) => rows.push({
+      id: `note:${note.id}`,
+      title: note.title || 'Notebook image',
+      sizeBytes: dataUrlBytes(note.imageData ?? ''),
+      sourceLabel: 'Notebook',
+      kind: 'image',
+    }))
+
+  imagesOf(board).forEach((image) => rows.push({
+    id: `board-image:${image.id}`,
+    title: image.alt || 'Whiteboard image',
+    sizeBytes: dataUrlBytes(image.src ?? ''),
+    sourceLabel: 'Whiteboard',
+    kind: 'image',
+  }))
+
+  filesOf(board).forEach((file) => {
+    const document = byDocument.get(file.documentId)
+    rows.push({
+      id: `board-file:${file.id}`,
+      title: file.name,
+      sizeBytes: document?.sizeBytes ?? file.sizeBytes,
+      sourceLabel: 'Whiteboard',
+      kind: 'file',
+      documentId: file.documentId,
+    })
+  })
+
+  return rows.sort((a, b) => a.sourceLabel.localeCompare(b.sourceLabel) || a.title.localeCompare(b.title))
+}
+
+function dedupedMediaBytes({ documents, notes, board }: MediaInventoryInput): number {
+  const countedDocumentIds = new Set<string>()
+  let total = 0
+  for (const document of documents) {
+    countedDocumentIds.add(document.id)
+    total += document.sizeBytes
+  }
+  for (const note of notes) {
+    if (note.imageData) total += dataUrlBytes(note.imageData)
+  }
+  for (const image of imagesOf(board)) total += dataUrlBytes(image.src ?? '')
+  for (const file of filesOf(board)) {
+    if (file.documentId && !countedDocumentIds.has(file.documentId)) total += file.sizeBytes
+  }
+  return total
+}
+
+function dataUrlBytes(value: string): number {
+  const body = value.split(',')[1] ?? value
+  return Math.ceil((body.length * 3) / 4)
 }
 
 function megabytes(bytes: number): string {

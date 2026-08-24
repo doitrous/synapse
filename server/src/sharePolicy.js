@@ -12,6 +12,7 @@ export const SHARE_ACCESS = new Set(['private', 'view', 'edit'])
 
 /** A shared document is a whole board or a whole note; this is the ceiling. */
 export const MAX_PAYLOAD_BYTES = 4 * 1024 * 1024
+export const MAX_SHARE_TOPICS = 12
 
 export function readTitle(raw) {
   const title = String(raw ?? '').trim().replace(/[\r\n\t]/g, ' ').slice(0, 200)
@@ -30,6 +31,72 @@ export function readPayload(value) {
   if (serialised === 'null') return { error: 'payload_required' }
   if (Buffer.byteLength(serialised, 'utf8') > MAX_PAYLOAD_BYTES) return { error: 'payload_too_large' }
   return { serialised }
+}
+
+function cleanText(raw, max) {
+  const value = String(raw ?? '').trim().replace(/[\r\n\t]/g, ' ').replace(/\s+/g, ' ').slice(0, max)
+  return value || null
+}
+
+/**
+ * Shared documents may be filed under several topics/subtopics. The route does
+ * not trust arbitrary keys from the client; these are the only fields that
+ * become searchable/discoverable metadata.
+ */
+export function readTopics(input) {
+  const rawTopics = Array.isArray(input?.topics)
+    ? input.topics
+    : input?.topic || input?.subjectId || input?.subtopic
+      ? [{ subjectId: input.subjectId, topic: input.topic, subtopic: input.subtopic }]
+      : []
+  const seen = new Set()
+  const topics = []
+  for (const raw of rawTopics) {
+    const row = typeof raw === 'string' ? { topic: raw } : raw && typeof raw === 'object' ? raw : null
+    if (!row) continue
+    const subjectId = cleanText(row.subjectId ?? row.subject_id ?? row.subject, 96)
+    const topic = cleanText(row.topic ?? row.topicTitle ?? row.title, 255)
+    const subtopic = cleanText(row.subtopic ?? row.subtopicTitle, 255)
+    if (!subjectId && !topic && !subtopic) continue
+    const key = `${subjectId ?? ''}\u0000${topic ?? ''}\u0000${subtopic ?? ''}`.toLowerCase()
+    if (seen.has(key)) continue
+    seen.add(key)
+    topics.push({ subjectId, topic, subtopic })
+    if (topics.length >= MAX_SHARE_TOPICS) break
+  }
+  return topics
+}
+
+export function readExpectedRevision(patch) {
+  for (const key of ['expectedRevision', 'baseRevision']) {
+    const value = Number(patch?.[key])
+    if (Number.isInteger(value) && value >= 0) return value
+  }
+  const nextPayloadRevision = Number(patch?.payload?.revision)
+  if (Number.isInteger(nextPayloadRevision) && nextPayloadRevision > 0) return nextPayloadRevision - 1
+  return null
+}
+
+/**
+ * Live document edits must be based on the revision the editor actually read.
+ * Without that check, a slower collaborator can silently overwrite newer work.
+ */
+export function revisionVerdict(row, patch) {
+  const current = Number(row?.revision ?? 1)
+  const expected = readExpectedRevision(patch)
+  if (!Number.isInteger(current) || current < 1) return { ok: false, reason: 'invalid_current_revision' }
+  if (expected == null) return { ok: false, reason: 'revision_required', currentRevision: current }
+  if (expected !== current) return { ok: false, reason: 'stale_revision', currentRevision: current }
+  return { ok: true, currentRevision: current, nextRevision: current + 1 }
+}
+
+export function sameCohort(a, b) {
+  return Boolean(
+    a?.university_id && a?.year &&
+    b?.university_id && b?.year &&
+    String(a.university_id) === String(b.university_id) &&
+    String(a.year) === String(b.year),
+  )
 }
 
 /**

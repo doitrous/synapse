@@ -144,7 +144,7 @@ export function Microscope({ onOpen }: { onOpen: (slide: HistologySlide) => void
 
   if (chosen) {
     return (
-      <div className="fixed inset-0 z-40 grid place-items-center bg-white">
+      <div className="pointer-events-none fixed inset-0 z-40 grid place-items-center bg-transparent">
         <div
           ref={fieldRef}
           role="img"

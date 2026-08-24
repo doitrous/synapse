@@ -26,6 +26,7 @@ export interface SharedDocument<T = unknown> {
   title: string
   access: ShareAccess
   payload: T
+  revision: number
   updatedAt: string
   createdAt: string
   isOwner: boolean
@@ -37,6 +38,14 @@ export interface ShareSummary {
   kind: ShareKind
   title: string
   access: ShareAccess
+  permission?: ShareAccess
+  ownerName?: string
+  collaborators?: string[]
+  subjectId?: string
+  topics?: string[]
+  starCount?: number
+  starred?: boolean
+  following?: boolean
   createdAt: string
   updatedAt: string
 }
@@ -65,7 +74,7 @@ export async function createShare(input: { kind: ShareKind; title: string; acces
   return created.id
 }
 
-export async function updateShare(id: string, patch: { title?: string; access?: ShareAccess; payload?: unknown }): Promise<SharedDocument> {
+export async function updateShare(id: string, patch: { title?: string; access?: ShareAccess; payload?: unknown; expectedRevision?: number; topics?: unknown[] }): Promise<SharedDocument> {
   return apiPut<SharedDocument>(`/shares/${encodeURIComponent(id)}`, patch)
 }
 
@@ -75,6 +84,44 @@ export async function deleteShare(id: string): Promise<void> {
 
 export async function fetchShare<T>(id: string): Promise<SharedDocument<T>> {
   return apiGet<SharedDocument<T>>(`/shares/${encodeURIComponent(id)}`)
+}
+
+export async function listSharedDocuments(kind: ShareKind): Promise<ShareSummary[]> {
+  return apiGet<ShareSummary[]>(`/shares?kind=${encodeURIComponent(kind)}`)
+}
+
+export async function setShareStar(id: string, starred: boolean): Promise<ShareSummary> {
+  return apiPut<ShareSummary>(`/shares/${encodeURIComponent(id)}/star`, { starred })
+}
+
+export async function setShareFollow(id: string, following: boolean): Promise<ShareSummary> {
+  return apiPut<ShareSummary>(`/shares/${encodeURIComponent(id)}/follow`, { following })
+}
+
+export function useSharedDocuments(kind: ShareKind) {
+  const [items, setItems] = useState<ShareSummary[]>([])
+  const [loading, setLoading] = useState(API_MODE)
+  const [error, setError] = useState('')
+
+  const reload = useCallback(async () => {
+    if (!API_MODE) return
+    setLoading(true)
+    try {
+      setItems(await listSharedDocuments(kind))
+      setError('')
+    } catch {
+      setError('Shared items could not be loaded.')
+    } finally {
+      setLoading(false)
+    }
+  }, [kind])
+
+  useEffect(() => {
+    if (!API_MODE) { setLoading(false); return }
+    void reload()
+  }, [reload])
+
+  return { items, setItems, loading, error, reload }
 }
 
 /** One shared document, for the public viewer. */

@@ -1,14 +1,20 @@
-import { useState } from 'react'
-import { Users, Hash, Copy, Check, ArrowLeft, Play, Clock, Trophy } from 'lucide-react'
+import { useMemo, useState } from 'react'
+import { Users, Hash, Copy, Check, ArrowLeft, Play, Clock, Trophy, CalendarPlus } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Avatar } from '@/components/ui/Avatar'
 import { Toggle } from '@/components/ui/Toggle'
-import { PARTY_REFUSALS, useParty, usePartyActions, usePartySessions, type PartySessionSummary } from '@/lib/useParties'
+import { Field, Select, TextInput } from '@/components/ui/Field'
+import { PARTY_REFUSALS, useParty, usePartyActions, usePartySessions, type PartySessionItemKind, type PartySessionSummary } from '@/lib/useParties'
 import { PartySessionRunner } from './PartySessionRunner'
 import { formatDateTime, formatRelativeTime } from '@/lib/format'
 import { useT } from '@/lib/i18n'
+import { usePublishedQuestions } from '@/lib/usePublishedQuestions'
+import { useLivePracticals } from '@/lib/useLivePracticals'
+import { useLiveEssays } from '@/lib/useLiveEssays'
+import { usePersistentState } from '@/lib/usePersistentState'
+import { STUDY_BLOCKS_STORAGE_KEY, type StudyBlock } from '@/data/studyBlocks'
 
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
@@ -49,11 +55,28 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
   const t = useT()
   const { party, error, reload } = useParty(partyId)
   const { sessions, reload: reloadSessions } = usePartySessions(partyId)
-  const { setVisibility } = usePartyActions()
+  const { setVisibility, createSession } = usePartyActions()
+  const questions = usePublishedQuestions()
+  const practicals = useLivePracticals()
+  const essays = useLiveEssays()
+  const [, setCalendarBlocks] = usePersistentState<StudyBlock[]>(STUDY_BLOCKS_STORAGE_KEY, [])
   const [copied, setCopied] = useState(false)
+  const [copiedLink, setCopiedLink] = useState(false)
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
   const [openSessionId, setOpenSessionId] = useState<string | null>(null)
+  const [scheduleName, setScheduleName] = useState('')
+  const [scheduleStartsAt, setScheduleStartsAt] = useState('')
+  const [scheduleActivity, setScheduleActivity] = useState('')
+  const [addToCalendar, setAddToCalendar] = useState(true)
+
+  const activities = useMemo(() => [
+    ...questions.map((question) => ({ kind: 'question' as const, id: question.id, title: question.stem, subjectId: question.subjectId })),
+    ...practicals.osceStations.map((entry) => ({ kind: 'practical' as const, id: entry.id, title: entry.title, subjectId: entry.subjectId })),
+    ...practicals.clinicalCases.map((entry) => ({ kind: 'practical' as const, id: entry.id, title: entry.title, subjectId: entry.subjectId })),
+    ...practicals.labImaging.map((entry) => ({ kind: 'practical' as const, id: entry.id, title: entry.title, subjectId: entry.subjectId })),
+    ...essays.map((entry) => ({ kind: 'essay' as const, id: entry.id, title: entry.title, subjectId: entry.subjectId })),
+  ], [essays, practicals, questions])
 
   if (openSessionId) {
     return <PartySessionRunner sessionId={openSessionId} onExit={() => { setOpenSessionId(null); void reloadSessions() }} />
@@ -85,6 +108,45 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
     else void reload()
   }
 
+  async function schedulePartyActivity() {
+    const [kind, id] = scheduleActivity.split(':') as [PartySessionItemKind, string]
+    const activity = activities.find((candidate) => candidate.kind === kind && candidate.id === id)
+    if (!activity || !scheduleStartsAt) return
+    setBusy(true)
+    setMessage('')
+    const starts = new Date(scheduleStartsAt)
+    const result = await createSession(partyId, {
+      name: scheduleName.trim() || activity.title,
+      items: [{ kind, id }],
+      startsAt: starts.toISOString(),
+    })
+    setBusy(false)
+    if (!result.ok) {
+      setMessage(PARTY_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+      return
+    }
+    if (addToCalendar) {
+      const end = new Date(starts.getTime() + 60 * 60 * 1000)
+      const date = scheduleStartsAt.slice(0, 10)
+      const start = scheduleStartsAt.slice(11, 16)
+      const endTime = `${String(end.getHours()).padStart(2, '0')}:${String(end.getMinutes()).padStart(2, '0')}`
+      setCalendarBlocks((current) => [...current, {
+        id: `party-${result.session?.id ?? Date.now().toString(36)}`,
+        title: `${party?.name ?? t('Study party')} · ${scheduleName.trim() || activity.title}`,
+        date,
+        start,
+        end: endTime,
+        subjectId: activity.subjectId,
+        kind: 'Study party',
+        sourceSessionId: result.session?.id,
+      }])
+    }
+    setScheduleName('')
+    setScheduleStartsAt('')
+    setScheduleActivity('')
+    await reloadSessions()
+  }
+
   const running = sessions.filter((session) => session.state === 'open')
   const scheduled = sessions.filter((session) => session.state === 'scheduled')
   const finished = sessions.filter((session) => session.state === 'closed')
@@ -100,15 +162,22 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
           />
           <div className="space-y-4 p-5">
             <div>
-              <p className="text-[12.5px] text-ink-3">{t('Share this link so others can join')}</p>
+              <p className="text-[12.5px] text-ink-3">{t('Share this party code so others can join')}</p>
               <div className="mt-2 flex flex-wrap items-center gap-2">
-                <span className="min-w-0 flex-1 truncate rounded-lg border border-line bg-surface-2 px-3 py-2 font-mono text-[12.5px] text-ink">{link}</span>
+                <span className="tnum rounded-lg border border-line bg-surface-2 px-4 py-2 font-mono text-[24px] font-semibold tracking-[0.2em] text-ink">{party.code}</span>
                 <Button
                   variant="secondary"
                   iconLeft={copied ? Check : Copy}
-                  onClick={() => { void navigator.clipboard?.writeText(link); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
+                  onClick={() => { void navigator.clipboard?.writeText(party.code); setCopied(true); window.setTimeout(() => setCopied(false), 1600) }}
                 >
-                  {copied ? t('Copied') : t('Copy link')}
+                  {copied ? t('Copied') : t('Copy code')}
+                </Button>
+                <Button
+                  variant="ghost"
+                  iconLeft={copiedLink ? Check : Copy}
+                  onClick={() => { void navigator.clipboard?.writeText(link); setCopiedLink(true); window.setTimeout(() => setCopiedLink(false), 1600) }}
+                >
+                  {copiedLink ? t('Link copied') : t('Copy link')}
                 </Button>
               </div>
             </div>
@@ -138,6 +207,33 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
             )}
           </div>
         </Panel>
+
+        {party.isHost && (
+          <Panel>
+            <PanelHeader title={t('Schedule for this party')} icon={CalendarPlus} hint={t('Host only')} />
+            <div className="grid gap-3 p-5 sm:grid-cols-2">
+              <Field label={t('Activity')}>
+                <Select value={scheduleActivity} onChange={(event) => setScheduleActivity(event.target.value)}>
+                  <option value="">{t('Choose published content')}</option>
+                  {activities.map((activity) => <option key={`${activity.kind}:${activity.id}`} value={`${activity.kind}:${activity.id}`}>{activity.title}</option>)}
+                </Select>
+              </Field>
+              <Field label={t('Date and time')}>
+                <TextInput type="datetime-local" value={scheduleStartsAt} onChange={(event) => setScheduleStartsAt(event.target.value)} />
+              </Field>
+              <Field label={t('Name')} hint={t('Optional')}>
+                <TextInput value={scheduleName} onChange={(event) => setScheduleName(event.target.value)} placeholder={t('e.g. Sunday cardiology review')} />
+              </Field>
+              <label className="flex min-h-11 items-center justify-between gap-4 rounded-lg border border-line bg-surface px-3">
+                <span className="text-[12.5px] font-medium text-ink">{t('Add to my calendar')}</span>
+                <Toggle checked={addToCalendar} onChange={setAddToCalendar} label={t('Add to my calendar')} />
+              </label>
+              <div className="sm:col-span-2">
+                <Button variant="primary" iconLeft={CalendarPlus} loading={busy} disabled={!scheduleActivity || !scheduleStartsAt} onClick={() => void schedulePartyActivity()}>{t('Schedule activity')}</Button>
+              </div>
+            </div>
+          </Panel>
+        )}
 
         <Panel>
           <PanelHeader title={t('Running now')} icon={Play} hint={running.length ? String(running.length) : undefined} />

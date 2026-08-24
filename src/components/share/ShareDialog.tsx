@@ -57,6 +57,7 @@ export function ShareDialog({
   const [copied, setCopied] = useState(false)
   const [error, setError] = useState('')
   const [publishedAt, setPublishedAt] = useState<string | null>(null)
+  const [revision, setRevision] = useState<number | null>(null)
 
   // What the link currently allows is the server's answer, not a remembered
   // one: the owner may have changed it from another device.
@@ -64,7 +65,7 @@ export function ShareDialog({
     if (!open || !shareId) return
     let live = true
     void fetchShare(shareId)
-      .then((share) => { if (live) { setAccess(share.access); setPublishedAt(share.updatedAt) } })
+      .then((share) => { if (live) { setAccess(share.access); setPublishedAt(share.updatedAt); setRevision(share.revision) } })
       .catch(() => {
         // Deleted from elsewhere. Forget it rather than offering a dead link.
         if (live) setIndex((current) => { const next = { ...current }; delete next[handle]; return next })
@@ -79,12 +80,14 @@ export function ShareDialog({
     setBusy(true)
     try {
       if (shareId) {
-        const updated = await updateShare(shareId, { title, access: nextAccess, payload: payload() })
+        const updated = await updateShare(shareId, { title, access: nextAccess, payload: payload(), expectedRevision: revision ?? undefined })
         setPublishedAt(updated.updatedAt)
+        setRevision(updated.revision)
       } else {
         const id = await createShare({ kind, title, access: nextAccess, payload: payload() })
         setIndex((current) => ({ ...current, [handle]: id }))
         setPublishedAt(new Date().toISOString())
+        setRevision(1)
       }
       setAccess(nextAccess)
     } catch {
@@ -101,6 +104,7 @@ export function ShareDialog({
       await deleteShare(shareId)
       setIndex((current) => { const next = { ...current }; delete next[handle]; return next })
       setPublishedAt(null)
+      setRevision(null)
     } catch {
       setError(t('The link could not be withdrawn. Try again.'))
     } finally {
@@ -129,7 +133,7 @@ export function ShareDialog({
         ) : (
           <>
             <p className="text-[13px] leading-relaxed text-ink-2">
-              {t('A shared copy is published under its own link. Your own copy keeps working exactly as it does now, and changing this back to “Only me” stops the link working for everybody else.')}
+              {t('This live document keeps its revision history. Classmates can read it or collaborate according to the permission you choose, and changing it back to “Only me” stops their access.')}
             </p>
 
             <ul className="space-y-2">
@@ -175,7 +179,7 @@ export function ShareDialog({
                 {publishedAt && (
                   <p className="mt-2 flex items-center gap-1.5 text-[11.5px] text-ink-3">
                     <Icon icon={RefreshCw} size={12} />
-                    {t('Published from your current version.')}
+                    {t('Live revision')} {revision ?? 1}
                   </p>
                 )}
               </div>
@@ -186,7 +190,7 @@ export function ShareDialog({
             <div className="flex flex-wrap items-center gap-2 border-t border-line pt-4">
               {shareId && (
                 <Button size="sm" iconLeft={RefreshCw} loading={busy} onClick={() => void publish(access)}>
-                  {t('Update the shared copy')}
+                  {t('Publish current revision')}
                 </Button>
               )}
               {shareId && (

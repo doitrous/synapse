@@ -8,7 +8,7 @@ import { Button } from '@/components/ui/Button'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Stat } from '@/components/ui/Stat'
 import { useMedicalGlossary } from '@/data/glossaryStore'
-import { buildGrid, MIN_TERMS, type GridTerm } from '@/data/crossword'
+import { buildGrid, givenTermsForGrid, MIN_TERMS, type GridTerm } from '@/data/crossword'
 import { useTermGrid, termGridPuzzleId } from '@/lib/useTermGrid'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useT } from '@/lib/i18n'
@@ -56,6 +56,20 @@ function TermGridPlayer({
 }) {
   const t = useT()
   const grid = useMemo(() => buildGrid(terms, seed), [terms, seed])
+  const givenWords = useMemo(() => givenTermsForGrid(grid, seed, 2), [grid, seed])
+  const givenSet = useMemo(() => new Set(givenWords), [givenWords])
+  const givenLetters = useMemo(() => {
+    const cells: Record<string, string> = {}
+    for (const word of grid.words) {
+      if (!givenSet.has(word.term)) continue
+      for (let i = 0; i < word.term.length; i++) {
+        const row = word.direction === 'down' ? word.row + i : word.row
+        const column = word.direction === 'across' ? word.column + i : word.column
+        cells[`${row},${column}`] = word.term[i]
+      }
+    }
+    return cells
+  }, [givenSet, grid.words])
   const puzzleId = termGridPuzzleId(category, seed)
   const { puzzles, start, setLetter, revealWord, finish } = useTermGrid()
   const progress = puzzles[puzzleId] ?? { letters: {}, revealedWords: [], startedAt: null, finishedAt: null }
@@ -69,11 +83,11 @@ function TermGridPlayer({
       for (let i = 0; i < word.term.length; i++) {
         const row = word.direction === 'down' ? word.row + i : word.row
         const column = word.direction === 'across' ? word.column + i : word.column
-        if ((progress.letters[`${row},${column}`] ?? '') !== word.term[i]) return false
+        if ((progress.letters[`${row},${column}`] ?? givenLetters[`${row},${column}`] ?? '') !== word.term[i]) return false
       }
     }
     return true
-  }, [grid, progress.letters])
+  }, [givenLetters, grid, progress.letters])
 
   useEffect(() => {
     if (isComplete && !progress.finishedAt) finish(puzzleId)
@@ -150,6 +164,7 @@ function TermGridPlayer({
         letters={progress.letters}
         onLetterChange={handleLetterChange}
         revealedWords={progress.revealedWords}
+        givenWords={givenWords}
         onRevealWord={handleReveal}
         showErrors={checkedOnce}
         disabled={finished}
@@ -249,7 +264,7 @@ export function TermGridPage() {
             </Button>
           </div>
 
-          <TermGridPlayer key={`${category}:${generation}`} category={category} seed={seed} terms={terms} onReplay={newPuzzle} />
+          <TermGridPlayer key={`${category}:${seed}`} category={category} seed={seed} terms={terms} onReplay={newPuzzle} />
         </>
       )}
     </PageContainer>

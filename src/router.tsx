@@ -78,6 +78,10 @@ const MedicalTaxonomy = lazyNamed(() => import('@/pages/student/MedicalTaxonomy'
 const TermGridPage = lazyNamed(() => import('@/components/termgrid/TermGridPage'), 'TermGridPage')
 const SpotterPage = lazyNamed(() => import('@/components/games/SpotterPage'), 'SpotterPage')
 const TermMatchPage = lazyNamed(() => import('@/components/games/TermMatchPage'), 'TermMatchPage')
+const MinigamesHubPage = lazyNamed(() => import('@/components/games/MinigamesHubPage'), 'MinigamesHubPage')
+const ClinicalSequencePage = lazyNamed(() => import('@/components/games/ClinicalSequencePage'), 'ClinicalSequencePage')
+const MechanismChainPage = lazyNamed(() => import('@/components/games/MechanismChainPage'), 'MechanismChainPage')
+const RedFlagSortPage = lazyNamed(() => import('@/components/games/RedFlagSortPage'), 'RedFlagSortPage')
 const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practical')
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
@@ -135,6 +139,10 @@ const studentPages: Record<string, Preloadable> = {
   'term-grid': TermGridPage,
   spotter: SpotterPage,
   'term-match': TermMatchPage,
+  minigames: MinigamesHubPage,
+  'clinical-sequence': ClinicalSequencePage,
+  'mechanism-chain': MechanismChainPage,
+  'red-flag-sort': RedFlagSortPage,
   practical: Practical,
   flashcards: Flashcards,
   essays: EssayQuestions,

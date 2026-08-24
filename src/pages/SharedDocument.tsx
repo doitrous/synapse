@@ -4,13 +4,14 @@ import { Check, Eye, LinkIcon, PencilLine, Save } from 'lucide-react'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
-import { NoteEditor, NotePreview } from '@/components/notebook/NoteEditor'
+import { NoteEditor } from '@/components/notebook/NoteEditor'
 import { SharedBoardView } from '@/components/share/SharedBoardView'
 import { updateShare, useSharedDocument } from '@/lib/useShares'
 import { useIdentity } from '@/lib/useIdentity'
 import { formatRelativeTime } from '@/lib/format'
 import type { BoardState } from '@/data/whiteboard'
 import { useT } from '@/lib/i18n'
+import { editorJsonToPlainText, plainTextToEditorJson, type NotebookEditorJson } from '@/data/notebook'
 
 /**
  * A note or a board somebody shared, at its own link.
@@ -26,8 +27,17 @@ import { useT } from '@/lib/i18n'
 
 interface SharedNote {
   title: string
-  body: string
+  body?: string
+  editorJson?: NotebookEditorJson
+  plainText?: string
+  legacyMarkdownSource?: string
   tags?: string[]
+  revision?: number
+}
+
+interface NoteDraft {
+  editorJson: NotebookEditorJson
+  plainText: string
 }
 
 export function SharedDocument() {
@@ -36,14 +46,18 @@ export function SharedDocument() {
   const { status } = useIdentity()
   const { share, loading, error, setShare } = useSharedDocument<SharedNote | BoardState>(id)
 
-  const [draft, setDraft] = useState('')
+  const [draft, setDraft] = useState<NoteDraft>({ editorJson: plainTextToEditorJson(''), plainText: '' })
   const [editing, setEditing] = useState(false)
   const [saving, setSaving] = useState(false)
   const [saved, setSaved] = useState(false)
   const [failure, setFailure] = useState('')
 
   useEffect(() => {
-    if (share?.kind === 'note') setDraft((share.payload as SharedNote).body ?? '')
+    if (share?.kind === 'note') {
+      const payload = share.payload as SharedNote
+      const plainText = payload.plainText ?? payload.body ?? ''
+      setDraft({ plainText, editorJson: payload.editorJson ?? plainTextToEditorJson(plainText) })
+    }
   }, [share])
 
   async function save() {
@@ -51,8 +65,14 @@ export function SharedDocument() {
     setFailure('')
     setSaving(true)
     try {
-      const payload = { ...(share.payload as SharedNote), body: draft }
-      const updated = await updateShare(share.id, { payload })
+      const payload = {
+        ...(share.payload as SharedNote),
+        body: draft.plainText,
+        plainText: draft.plainText,
+        editorJson: draft.editorJson,
+        revision: ((share.payload as SharedNote).revision ?? 1) + 1,
+      }
+      const updated = await updateShare(share.id, { payload, expectedRevision: share.revision })
       setShare({ ...share, title: updated.title, access: updated.access, updatedAt: updated.updatedAt, payload })
       setSaved(true)
       setEditing(false)
@@ -110,7 +130,12 @@ export function SharedDocument() {
               {share.kind === 'note' && share.canEdit && (
                 editing ? (
                   <div className="flex items-center gap-2">
-                    <Button variant="ghost" onClick={() => { setEditing(false); setDraft((share.payload as SharedNote).body ?? '') }}>{t('Cancel')}</Button>
+                    <Button variant="ghost" onClick={() => {
+                      const payload = share.payload as SharedNote
+                      const plainText = payload.plainText ?? payload.body ?? ''
+                      setEditing(false)
+                      setDraft({ plainText, editorJson: payload.editorJson ?? plainTextToEditorJson(plainText) })
+                    }}>{t('Cancel')}</Button>
                     <Button variant="primary" iconLeft={Save} loading={saving} onClick={() => void save()}>{t('Save changes')}</Button>
                   </div>
                 ) : (
@@ -134,8 +159,8 @@ export function SharedDocument() {
             <article className="rounded-xl border border-line bg-surface p-5 sm:p-7">
               {share.kind === 'note' ? (
                 editing
-                  ? <NoteEditor value={draft} onChange={setDraft} preview={false} />
-                  : <NotePreview source={(share.payload as SharedNote).body ?? ''} />
+                  ? <NoteEditor editorJson={draft.editorJson} onChange={setDraft} />
+                  : <SharedNotePreview note={share.payload as SharedNote} />
               ) : (
                 <SharedBoardView board={share.payload as BoardState} />
               )}
@@ -155,6 +180,16 @@ export function SharedDocument() {
           </>
         )}
       </main>
+    </div>
+  )
+}
+
+function SharedNotePreview({ note }: { note: SharedNote }) {
+  const source = note.plainText ?? editorJsonToPlainText(note.editorJson) ?? note.body ?? ''
+  const lines = source.split('\n')
+  return (
+    <div className="space-y-3 whitespace-pre-wrap text-[14.5px] leading-relaxed text-ink-2">
+      {lines.length ? lines.map((line, index) => <p key={index}>{line || '\u00a0'}</p>) : <p>{'\u00a0'}</p>}
     </div>
   )
 }
