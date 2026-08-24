@@ -18,6 +18,7 @@ dist-ssr
 !.env.example
 
 # Editor directories and files
+.obsidian/workspace.json
 .vscode/*
 !.vscode/extensions.json
 .idea
