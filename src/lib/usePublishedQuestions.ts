@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import {
   CONTENT_LEDGER_STORAGE_KEY,
   initialManagedContent,
+  isStudentPublishable,
   type ManagedContentItem,
 } from '@/data/contentControl'
 import { DIFFICULTIES, type Difficulty, type Question } from '@/data/qbank'
@@ -17,7 +18,7 @@ export function managedQuestionToStudentQuestion(
   item: ManagedContentItem,
   catalogue: ManagedContentItem[],
 ): Question | null {
-  if (item.kind !== 'question' || item.status !== 'Published' || !item.questionData) return null
+  if (item.kind !== 'question' || !isStudentPublishable(item) || !item.questionData) return null
 
   const data = item.questionData
   const answers = data.answers.filter((answer) => answer.text.trim())

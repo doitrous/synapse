@@ -297,3 +297,36 @@ test('a topic missed twice in one sitting is called weak', () => {
   assert.equal(detail.weakestTopic?.key, 'Conduction')
   assert.equal(detail.weakestTopic?.accuracy, 0)
 })
+
+test('a timed sitting reports full duration, overtime, average and pace bands', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', seconds: 40, sessionDurationSeconds: 202, sessionOvertimeSeconds: 22 }),
+    attempt({ sessionId: 's1', itemId: 'q2', seconds: 55, sessionDurationSeconds: 202, sessionOvertimeSeconds: 22 }),
+    attempt({ sessionId: 's1', itemId: 'q3', seconds: 72, sessionDurationSeconds: 202, sessionOvertimeSeconds: 22 }),
+    attempt({ sessionId: 's1', itemId: 'q4', seconds: 101, sessionDurationSeconds: 202, sessionOvertimeSeconds: 22 }),
+  ], 's1')
+  assert.equal(detail.durationSeconds, 202)
+  assert.equal(detail.overtimeSeconds, 22)
+  assert.equal(detail.averageSeconds, 67)
+  assert.deepEqual(detail.pace, { good: 1, target: 1, slower: 1, overtime: 1 })
+})
+
+test('a report retains selected versus correct options when the record has them', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 's1', itemId: 'q1', correct: false, selectedIndex: 2, correctIndex: 1 }),
+  ], 's1')
+  assert.deepEqual(detail.answers[0], {
+    itemId: 'q1', topic: 'Heart failure', correct: false,
+    selectedIndex: 2, correctIndex: 1, seconds: 60,
+  })
+})
+
+test('a topic missed repeatedly across sittings is surfaced separately', () => {
+  const detail = sessionDetail([
+    attempt({ sessionId: 'old-1', itemId: 'a', topic: 'Valves', correct: false }),
+    attempt({ sessionId: 'old-2', itemId: 'b', topic: 'Valves', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'c', topic: 'Valves', correct: false }),
+    attempt({ sessionId: 's1', itemId: 'd', topic: 'Conduction', correct: false }),
+  ], 's1')
+  assert.deepEqual(detail.repeatedWeaknesses, ['Valves'])
+})

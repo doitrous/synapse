@@ -54,7 +54,7 @@ import { ConceptChip } from '@/components/concepts/ConceptChip'
 import { apiOpenFile } from '@/lib/api'
 import { useMedicalTaxonomy } from '@/data/medicalTaxonomyStore'
 import { indexMedicalTaxonomy } from '@/data/medicalLibraryTaxonomy'
-import { AtlasNavigation, LibraryLanding, LibraryViewTabs, MEDICAL_LIBRARY_VIEWS, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
+import { AtlasNavigation, LibraryLanding, LibraryViewTabs, TaxonomyNodeOverview, type AtlasArticle, type MedicalLibraryView } from '@/components/library/MedicalLibraryAtlas'
 import {
   MarkNotePopover, MarkSelectionToolbar, MarkedPhrase, YourMarksPanel, useArticleMarks,
   type ArticleMarks,
@@ -754,7 +754,22 @@ function Reader({
           return updatedAt ? <span className="text-[12.5px] text-ink-3">{t('Updated')} {formatLongDate(updatedAt)}</span> : null
         })()}
         <div className="flex gap-2">
-          <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="secondary" size="sm" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
+          <Link
+            to="/app/notebook?capture=1"
+            onClick={() => {
+              try {
+                sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+                  quote: st.summary,
+                  sourceTitle: st.title,
+                  articleId: st.id,
+                  topicTitle: st.topicTitle,
+                  sourceUrl: `/app/library?s=${st.id}`,
+                }))
+              } catch { /* keep navigation usable */ }
+            }}
+          >
+            <Button variant="secondary" size="sm" iconLeft={NotebookPen}>{t('Take a note')}</Button>
+          </Link>
           <Link to={`/app/qbank?article=${st.id}`}>
             <Button variant="primary" size="sm" iconLeft={ListChecks}>
               {t('Test yourself')}
@@ -806,19 +821,34 @@ function Reader({
       <div className="mt-10 flex flex-wrap items-center gap-2 border-t border-line pt-5">
         <Button variant={isRead ? 'secondary' : 'primary'} iconLeft={isRead ? Check : BookmarkCheck} onClick={() => setReadArticles((current) => ({ ...current, [id]: !isRead }))}>{isRead ? t('Marked as read') : t('Mark as read')}</Button>
         <Link to={`/app/qbank?article=${st.id}`}><Button variant="secondary" iconLeft={ListChecks}>{t('Test yourself')} · {st.questions.length} {t('questions')}</Button></Link>
-        <Link to={`/app/notebook?article=${st.id}&new=1`}><Button variant="ghost" iconLeft={NotebookPen}>{t('Take a note')}</Button></Link>
+        <Link
+          to="/app/notebook?capture=1"
+          onClick={() => {
+            try {
+              sessionStorage.setItem('synapse.notebook.capture', JSON.stringify({
+                quote: st.summary,
+                sourceTitle: st.title,
+                articleId: st.id,
+                topicTitle: st.topicTitle,
+                sourceUrl: `/app/library?s=${st.id}`,
+              }))
+            } catch { /* keep navigation usable */ }
+          }}
+        >
+          <Button variant="ghost" iconLeft={NotebookPen}>{t('Take a note')}</Button>
+        </Link>
       </div>
     </article>
     {/* min-w-0: on mobile the aside shares one grid column with the article, so
         without it the widest sidebar row sets the column width for both. */}
     <aside className="min-w-0 space-y-3 lg:sticky lg:top-[4.75rem]">
+      <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       {st.keyPoints.length > 0 && (
       <section className="rounded-xl border border-line bg-surface p-4 shadow-panel">
         <div className="flex items-center gap-2"><Icon icon={Lightbulb} size={15} className="text-primary" /><h2 className="text-[13px] font-semibold text-ink">{t('Hold these')}</h2></div>
         <ul className="mt-3 space-y-2.5">{st.keyPoints.map((point, index) => <li key={point} className="flex gap-2 text-[12.5px] leading-snug text-ink-2"><span className="mt-1.5 size-1 shrink-0 rounded-full bg-primary" /><span><ReaderText text={point} query="" media={anchoredMedia(media, 'hold')} onOpenMedia={setOpenMedia} blockId={`hold:${index}`} marks={marks} onOpenMark={(mark, anchor) => setOpenNote({ mark, anchor })} /></span></li>)}</ul>
       </section>
       )}
-      <YourMarksPanel marks={marks} onSelect={revealMark} onOpenNote={(mark, anchor) => setOpenNote({ mark, anchor })} />
       <MediaIndexPanel media={media} onOpenMedia={setOpenMedia} t={t} />
       {/* Shown only when this article has reviewed traps. An article with none
           says nothing rather than offering generic advice as its own. */}
@@ -967,23 +997,47 @@ export function Library() {
   const paramId = params.get('s')
   const paramView = params.get('view')
   const paramNode = params.get('node')
-  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'module', 'year'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'home'
+  const initialView: MedicalLibraryView = ['system', 'discipline', 'skills', 'knowledge', 'module', 'year'].includes(paramView ?? '') ? paramView as MedicalLibraryView : paramId ? 'system' : 'module'
   const [userArticles, setUserArticles] = usePersistentState<UserArticle[]>(USER_ARTICLES_KEY, [])
   const [personalTags, setPersonalTags] = usePersistentState<Record<string, string[]>>(PERSONAL_TAGS_KEY, {})
   const [selectedId, setSelectedId] = useState(allSubtopics.some((s) => s.id === paramId) ? (paramId as string) : '')
-  const [selectedNodeId, setSelectedNodeId] = useState<string | undefined>(paramNode && taxonomyIndex.byId.has(paramNode) ? paramNode : undefined)
+  const [selectedNodeId, setSelectedNodeId] = useState<string | undefined>(() => {
+    if (paramNode && taxonomyIndex.byId.has(paramNode)) return paramNode
+    if (['system', 'discipline', 'skills', 'knowledge'].includes(initialView)) return taxonomyIndex.roots(initialView as Exclude<MedicalLibraryView, 'home' | 'module' | 'year'>)[0]?.id
+    return undefined
+  })
   const [view, setView] = useState<MedicalLibraryView>(initialView)
   const [treeOpen, setTreeOpen] = useState(false)
   const [creating, setCreating] = useState(false)
-  // Which desktop menus are showing. The rail is a device preference — a wide
-  // monitor and a laptop want different answers — while the route strip resets
-  // each visit, because it is redundant the moment a route has been chosen.
+  // The rail is a device preference — a wide monitor and a laptop want
+  // different answers.
   const [railOpen, setRailOpen] = useLocalPreference('synapse.library.rail', true)
-  const [viewTabsOpen, setViewTabsOpen] = useState(false)
+  const railCollapseTimer = useRef<number | null>(null)
   /** Articles jumped from, most recent last — the way back out of "Read next". */
   const [trail, setTrail] = useState<string[]>([])
   const { role } = useIdentity()
   const atlasArticles = useMemo<AtlasArticle[]>(() => allSubtopics.map((article) => ({ id: article.id, title: article.title, summary: article.summary, subjectId: article.subjectId, topicTitle: article.topicTitle, primaryNodeId: article.primaryNodeId, secondaryNodeIds: article.secondaryNodeIds })), [allSubtopics])
+
+  const defaultNodeFor = (nextView: MedicalLibraryView): string | undefined => {
+    if (nextView === 'home' || nextView === 'module' || nextView === 'year') return undefined
+    return taxonomyIndex.roots(nextView)[0]?.id
+  }
+
+  function cancelRailAutoCollapse() {
+    if (railCollapseTimer.current != null) window.clearTimeout(railCollapseTimer.current)
+    railCollapseTimer.current = null
+  }
+
+  function scheduleRailAutoCollapse() {
+    cancelRailAutoCollapse()
+    if (!window.matchMedia('(min-width: 1024px)').matches) return
+    railCollapseTimer.current = window.setTimeout(() => {
+      setRailOpen(false)
+      railCollapseTimer.current = null
+    }, 3_000)
+  }
+
+  useEffect(() => () => cancelRailAutoCollapse(), [])
 
   // Follow ?s= when arriving from a question's reference link.
   useEffect(() => {
@@ -1015,12 +1069,14 @@ export function Library() {
   const selectedUserArticle = userArticles.find((a) => a.id === selectedId)
 
   const openView = (nextView: Exclude<MedicalLibraryView, 'home'>, nodeId?: string) => {
+    cancelRailAutoCollapse()
     setView(nextView)
     setSelectedId('')
-    setSelectedNodeId(nodeId)
+    const nextNodeId = nodeId ?? defaultNodeFor(nextView)
+    setSelectedNodeId(nextNodeId)
     const next = new URLSearchParams()
     next.set('view', nextView)
-    if (nodeId) next.set('node', nodeId)
+    if (nextNodeId) next.set('node', nextNodeId)
     setParams(next)
   }
 
@@ -1032,9 +1088,8 @@ export function Library() {
     setView(nextView)
     setSelectedNodeId(node?.id)
     setSelectedId(articleId)
-    // Choosing an article ends the browsing. The tree has done its job, and the
-    // reading column should have the width — reopen it from the three lines.
-    setRailOpen(false)
+    setRailOpen(true)
+    scheduleRailAutoCollapse()
     const next = new URLSearchParams()
     next.set('view', nextView)
     next.set('s', articleId)
@@ -1069,6 +1124,7 @@ export function Library() {
   }
 
   const changeView = (nextView: MedicalLibraryView) => {
+    cancelRailAutoCollapse()
     if (nextView === 'home') {
       setView('home')
       setSelectedId('')
@@ -1083,6 +1139,7 @@ export function Library() {
     const node = taxonomyIndex.byId.get(nodeId)
     if (!node) return
     // A topic is a step in browsing, not the end of it: the tree stays.
+    cancelRailAutoCollapse()
     setRailOpen(true)
     setTrail([])
     setSelectedNodeId(nodeId)
@@ -1097,9 +1154,6 @@ export function Library() {
   // "On a route" means a view has been chosen or an article opened — the two
   // states in which the tab strip is a navigation aid rather than a duplicate.
   const onRoute = view !== 'home' || Boolean(selectedId)
-  const currentViewLabel = view === 'home'
-    ? 'Home'
-    : MEDICAL_LIBRARY_VIEWS.find((item) => item.id === view)?.label ?? 'Home'
   const cameFromArticle = allSubtopics.find((item) => item.id === trail[trail.length - 1])
   const selectedNode = selectedNodeId ? taxonomyIndex.byId.get(selectedNodeId) : undefined
   const selectedPublishedArticle = allSubtopics.find((article) => article.id === selectedId)
@@ -1120,7 +1174,10 @@ export function Library() {
         {onRoute && (
           <MenuToggle
             open={railOpen}
-            onToggle={() => setRailOpen((current) => !current)}
+            onToggle={() => {
+              cancelRailAutoCollapse()
+              setRailOpen((current) => !current)
+            }}
             label="topics"
             direction="vertical"
             className="shrink-0 max-lg:hidden"
@@ -1134,19 +1191,7 @@ export function Library() {
             It reopens from the same three lines the rest of the app uses. */}
         {onRoute && <span className="hidden h-5 w-px shrink-0 bg-line sm:block" />}
         {/* Too narrow for six tabs on a phone — the Browse topics drawer carries them there. */}
-        {onRoute ? (
-          <div className="flex min-w-0 flex-1 items-center gap-1.5 max-sm:hidden">
-            <MenuToggle
-              open={viewTabsOpen}
-              onToggle={() => setViewTabsOpen((current) => !current)}
-              label="views"
-              direction="horizontal"
-            />
-            {viewTabsOpen
-              ? <LibraryViewTabs view={view} onViewChange={changeView} />
-              : <span className="truncate text-[12.5px] font-medium text-ink-2">{t(currentViewLabel)}</span>}
-          </div>
-        ) : <span className="flex-1" />}
+        {onRoute ? <LibraryViewTabs view={view} onViewChange={changeView} className="max-sm:hidden" /> : <span className="flex-1" />}
         <span className="flex-1 sm:hidden" />
         {view !== 'home' && <Button variant="secondary" size="sm" iconLeft={BookOpen} onClick={() => setTreeOpen(true)} className="shrink-0 lg:hidden">{t('Browse topics')}</Button>}
         {/* Authoring belongs to the console, not to one role within it. A
@@ -1174,6 +1219,8 @@ export function Library() {
                 narrower on every frame of its own collapse. */}
             <div
               inert={!railOpen}
+              onMouseEnter={cancelRailAutoCollapse}
+              onFocusCapture={cancelRailAutoCollapse}
               className={cn(
                 'min-h-0 shrink-0 overflow-hidden transition-[width,opacity] duration-200 ease-out motion-reduce:transition-none max-lg:hidden',
                 railOpen ? 'w-72 opacity-100' : 'w-0 opacity-0',
@@ -1209,6 +1256,14 @@ export function Library() {
             onBrowseTopic={selectedPublishedArticle.primaryNodeId ? () => selectNode(selectedPublishedArticle.primaryNodeId!) : undefined}
             cameFrom={cameFromArticle ? { title: cameFromArticle.title, onBack: goBackInTrail } : undefined}
           />
+        ) : view === 'module' || view === 'year' ? (
+          <div className="grid min-h-full place-items-center px-6 py-10 text-center">
+            <div className="max-w-md">
+              <span className="mx-auto grid size-11 place-items-center rounded-xl bg-primary-tint text-primary-strong"><Icon icon={BookOpen} size={20} /></span>
+              <h1 className="mt-4 font-serif text-[22px] font-semibold text-ink">{view === 'module' ? t('Choose a module article') : t('Choose a year article')}</h1>
+              <p className="mt-2 text-[13px] leading-relaxed text-ink-3">{t('Use the library tree to open material scoped to your registered university and year.')}</p>
+            </div>
+          </div>
         ) : (
           <TaxonomyNodeOverview node={selectedNode} taxonomy={taxonomy} articles={atlasArticles} onOpenArticle={openArticle} onSelectNode={selectNode} />
         )}

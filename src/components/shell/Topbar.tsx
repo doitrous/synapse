@@ -1,10 +1,12 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type RefObject } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, Maximize2, Search, Bell, ArrowLeftRight, CalendarClock, BookOpen, BellRing, X, ArrowRight, LogOut } from 'lucide-react'
 import type { Portal } from './nav'
 import { navFor } from './nav'
 import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
+import { Tooltip } from '@/components/ui/Tooltip'
+import { PomodoroTimer } from './PomodoroTimer'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -34,12 +36,14 @@ export function Topbar({
   onToggleFocusMode,
   onOpenMobile,
   onOpenSearch,
+  mobileButtonRef,
 }: {
   portal: Portal
   focusMode: boolean
   onToggleFocusMode: () => void
   onOpenMobile: () => void
   onOpenSearch: () => void
+  mobileButtonRef?: RefObject<HTMLButtonElement | null>
 }) {
   const { pathname } = useLocation()
   const { t } = useI18n()
@@ -98,7 +102,7 @@ export function Topbar({
     <header className="sticky top-0 z-30 flex h-[calc(3.5rem+env(safe-area-inset-top))] min-w-0 items-center gap-1.5 border-b border-line bg-paper px-2.5 pt-[env(safe-area-inset-top)] sm:gap-2 sm:px-4">
       {/* The desktop collapse control now lives in the sidebar, with the menu it
           opens. This one stays: on a phone there is no sidebar to put it in. */}
-      <button className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
+      <button ref={mobileButtonRef} className={cn(iconBtn, 'lg:hidden')} onClick={onOpenMobile} aria-label={t('Open navigation')}>
         <Icon icon={Menu} size={18} />
       </button>
 
@@ -123,14 +127,17 @@ export function Topbar({
           <Icon icon={Search} size={18} />
         </button>
 
-        <button
-          onClick={onToggleFocusMode}
-          className={cn(iconBtn, 'max-lg:hidden')}
-          aria-label={t('Hide menus')}
-          title={t('Hide menus')}
-        >
-          <Icon icon={Maximize2} size={17} />
-        </button>
+        <PomodoroTimer />
+
+        <Tooltip label={t('Hide menus')}>
+          <button
+            onClick={onToggleFocusMode}
+            className={cn(iconBtn, 'max-lg:hidden')}
+            aria-label={t('Hide menus')}
+          >
+            <Icon icon={Maximize2} size={17} />
+          </button>
+        </Tooltip>
 
         {/* Appearance and language live in the sidebar footer, above the
             student's own name — one home each, reachable at every width. */}
@@ -145,9 +152,11 @@ export function Topbar({
           </Link>
         )}
 
-        <Link to="/logout" className={iconBtn} aria-label={t('Sign out')} title={t('Sign out')}>
-          <Icon icon={LogOut} size={17} />
-        </Link>
+        <Tooltip label={t('Sign out')}>
+          <Link to="/logout" className={iconBtn} aria-label={t('Sign out')}>
+            <Icon icon={LogOut} size={17} />
+          </Link>
+        </Tooltip>
 
         <div className="relative" ref={popoverRef}>
           <button

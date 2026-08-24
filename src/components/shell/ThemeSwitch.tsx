@@ -1,6 +1,7 @@
 import { Coffee, Moon, Sun } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
+import { Tooltip } from '@/components/ui/Tooltip'
 import { cn } from '@/lib/cn'
 import { THEMES, useTheme, type Theme } from '@/lib/useTheme'
 import { useT } from '@/lib/i18n'
@@ -26,21 +27,21 @@ export function ThemeSwitch({ className }: { className?: string }) {
       {THEMES.map((option) => {
         const active = option === theme
         return (
-          <button
-            key={option}
-            type="button"
-            role="radio"
-            aria-checked={active}
-            aria-label={t(LABEL[option])}
-            title={t(LABEL[option])}
-            onClick={() => setTheme(option)}
-            className={cn(
-              'grid size-9 place-items-center rounded-md transition-colors sm:size-7',
-              active ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
-            )}
-          >
-            <Icon icon={GLYPH[option]} size={15} />
-          </button>
+          <Tooltip key={option} label={t(LABEL[option])}>
+            <button
+              type="button"
+              role="radio"
+              aria-checked={active}
+              aria-label={t(LABEL[option])}
+              onClick={() => setTheme(option)}
+              className={cn(
+                'grid size-9 place-items-center rounded-md transition-colors sm:size-7',
+                active ? 'bg-surface text-primary-strong shadow-panel' : 'text-ink-3 hover:text-ink',
+              )}
+            >
+              <Icon icon={GLYPH[option]} size={15} />
+            </button>
+          </Tooltip>
         )
       })}
     </div>

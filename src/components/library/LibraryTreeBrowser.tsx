@@ -12,7 +12,7 @@ import {
   type LibraryTreeKind, type LibraryTreeNode, type LibraryTreesDocument,
 } from '@/data/libraryTrees'
 
-interface Choice { key: string; label: string; mine: boolean }
+interface Choice { key: string; label: string }
 
 /**
  * The library as a faculty arranged it, for one module or one year.
@@ -36,36 +36,33 @@ export function LibraryTreeBrowser({ kind, selectedArticleId, onArticleSelect, a
   const [chosen, setChosen] = useState<string | null>(null)
 
   /**
-   * What this student can open, theirs first.
+   * What this student can open.
    *
-   * "Mine" is their own university's year and its modules, from the audience
-   * they gave onboarding or the roster gave us. Everything else stays reachable
-   * — a student revising ahead should not be walled out of next year.
+   * Module and year trees are scoped to the university/year on the account.
+   * If that scope is missing, this view says so instead of showing another
+   * cohort's material.
    */
   const choices = useMemo<Choice[]>(() => {
     const out: Choice[] = []
-    catalogue.forEach((university) => {
-      const ours = university.id === identity.audience.universityId
-      university.years.forEach((year) => {
-        const mineYear = ours && year.year === identity.audience.year
-        if (kind === 'year') {
-          out.push({ key: treeScope('year', year.id), label: `${university.short} · ${year.year}`, mine: mineYear })
-          return
-        }
-        year.courses.forEach((course, index) => {
-          const moduleId = course.moduleId ?? defaultModuleId(course.name, index + 1)
-          out.push({ key: treeScope('module', moduleId), label: `${course.name} · ${university.short} ${year.year}`, mine: mineYear })
-        })
-      })
+    const university = catalogue.find((item) => item.id === identity.audience.universityId)
+    const year = university?.years.find((item) => item.year === identity.audience.year || item.id === identity.audience.yearId)
+    if (!university || !year) return out
+    if (kind === 'year') {
+      out.push({ key: treeScope('year', year.id), label: `${university.short} · ${year.year}` })
+      return out
+    }
+    year.courses.forEach((course, index) => {
+      const moduleId = course.moduleId ?? defaultModuleId(course.name, index + 1)
+      out.push({ key: treeScope('module', moduleId), label: course.name })
     })
-    return out.sort((a, b) => Number(b.mine) - Number(a.mine) || a.label.localeCompare(b.label))
+    return out.sort((a, b) => a.label.localeCompare(b.label))
   }, [catalogue, identity.audience, kind])
 
-  const active = chosen ?? choices.find((choice) => choice.mine)?.key ?? choices[0]?.key ?? null
+  const active = chosen && choices.some((choice) => choice.key === chosen) ? chosen : choices[0]?.key ?? null
   const nodes = active ? document.trees[active] ?? null : null
 
   if (choices.length === 0) {
-    return <p className="px-2 py-6 text-center text-[12px] text-ink-3">{t('No modules or years have been set up yet.')}</p>
+    return <p className="px-2 py-6 text-center text-[12px] leading-relaxed text-ink-3">{t('Choose your university and year in Account to see module and year library trees.')}</p>
   }
 
   return (
@@ -82,7 +79,6 @@ export function LibraryTreeBrowser({ kind, selectedArticleId, onArticleSelect, a
             )}
           >
             {choice.label}
-            {choice.mine && <span className="ms-1.5 text-[10.5px] font-normal text-ink-3">{t('yours')}</span>}
           </button>
         ))}
       </div>

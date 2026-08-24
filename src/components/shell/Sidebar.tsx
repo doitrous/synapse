@@ -5,6 +5,7 @@ import { navFor } from './nav'
 import { Wordmark } from '@/components/brand/Wordmark'
 import { Avatar } from '@/components/ui/Avatar'
 import { Icon } from '@/components/ui/Icon'
+import { OverflowText } from '@/components/ui/OverflowText'
 import { Popover, usePopoverTrigger } from '@/components/ui/Popover'
 import { ThemeSwitch } from './ThemeSwitch'
 import { LanguageSwitch } from './LanguageSwitch'
@@ -89,10 +90,9 @@ export function Sidebar({
                     onMouseEnter={() => preloadStudentRoute(item.to)}
                     onFocus={() => preloadStudentRoute(item.to)}
                     onTouchStart={() => preloadStudentRoute(item.to)}
-                    title={collapsed ? t(item.label) : undefined}
                     className={({ isActive }) =>
                       cn(
-                        'group flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
+                        'group relative flex h-11 items-center gap-2.5 rounded-md text-[13.5px] transition-colors duration-100 lg:h-9',
                         collapsed ? 'justify-center px-0' : 'px-2.5',
                         isActive
                           ? 'nav-selected font-medium'
@@ -107,7 +107,13 @@ export function Sidebar({
                           size={17}
                           className={isActive ? 'text-primary' : 'text-ink-3 group-hover:text-ink-2'}
                         />
-                        {!collapsed && <span className="truncate">{t(item.label)}</span>}
+                        {collapsed ? (
+                          <span className="pointer-events-none absolute start-[calc(100%+0.5rem)] top-1/2 z-50 hidden -translate-y-1/2 whitespace-nowrap rounded-lg border border-line bg-ink px-2.5 py-1.5 text-[11.5px] font-medium text-paper shadow-pop group-hover:block group-focus-visible:block">
+                            {t(item.label)}
+                          </span>
+                        ) : (
+                          <OverflowText>{t(item.label)}</OverflowText>
+                        )}
                       </>
                     )}
                   </NavLink>
@@ -141,16 +147,15 @@ export function Sidebar({
             'flex w-full items-center gap-2.5 rounded-md py-1.5 text-start transition-colors hover:bg-inset',
             collapsed ? 'justify-center px-0' : 'px-2',
           )}
-          title={collapsed ? `${profile.name} · ${detailTitle || profile.detail}` : undefined}
         >
           <Avatar name={profile.name} size="sm" />
           {!collapsed && (
             <>
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-[13px] font-medium text-ink">{profile.name}</span>
-                <span className="block truncate text-[11.5px] text-ink-3" title={detailTitle || undefined}>
+                <OverflowText className="text-[13px] font-medium text-ink">{profile.name}</OverflowText>
+                <OverflowText className="text-[11.5px] text-ink-3" tooltip={detailTitle || profile.detail}>
                   {profile.detail}
-                </span>
+                </OverflowText>
               </span>
               <Icon icon={ChevronsUpDown} size={15} className="text-ink-3" />
             </>

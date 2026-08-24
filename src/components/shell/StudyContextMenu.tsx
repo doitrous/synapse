@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import {
-  ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, Link2, ListChecks, NotebookPen,
+  ArrowLeft, BookOpen, Copy, ExternalLink, FolderOpen, NotebookPen,
   RotateCw, Search,
 } from 'lucide-react'
 import { ContextMenu, type ContextMenuItem } from '@/components/ui/ContextMenu'
@@ -170,12 +170,6 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
       onSelect: () => navigate(`/app/library?q=${encodeURIComponent(selection)}`),
     })
     items.push({
-      id: 'qbank',
-      label: t('Find questions on this'),
-      icon: ListChecks,
-      onSelect: () => navigate(`/app/qbank?q=${encodeURIComponent(selection)}`),
-    })
-    items.push({
       id: 'resources',
       label: t('Search resources'),
       icon: FolderOpen,
@@ -209,12 +203,6 @@ export function StudyContextMenu({ onOpenSearch }: { onOpenSearch: () => void })
     icon: Search,
     separated: surfaceOffered,
     onSelect: onOpenSearch,
-  })
-  items.push({
-    id: 'copy-link',
-    label: t('Copy link to this page'),
-    icon: Link2,
-    onSelect: () => { void navigator.clipboard?.writeText(window.location.href).catch(() => undefined) },
   })
   items.push({
     id: 'back',

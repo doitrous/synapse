@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { BarChart3, Brain, Clock3, Layers, ListChecks, Table2, Timer, TrendingUp } from 'lucide-react'
+import { useEffect, useMemo, useState } from 'react'
+import { Award, BarChart3, Brain, Clock3, Layers, ListChecks, Medal, Table2, Timer, TrendingUp, Users } from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
@@ -15,10 +15,13 @@ import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
-import { Segmented } from '@/components/ui/Tabs'
+import { Segmented, Tabs } from '@/components/ui/Tabs'
 import { useAttemptHistory } from '@/lib/useAttemptLog'
 import { formatTimeString } from '@/lib/format'
 import { cn } from '@/lib/cn'
+import { API_MODE, apiGet } from '@/lib/api'
+import { ExamReadinessCard } from '@/components/dashboard/ProgressTrio'
+import { PerformanceOverview } from '@/components/dashboard/PerformanceOverview'
 
 /**
  * Marked answers needed before this page reports anything.
@@ -31,6 +34,25 @@ const MIN_MARKED = 20
 
 /** Marked answers a subject needs before its own row is worth showing. */
 const MIN_PER_SUBJECT = 3
+
+type PerformanceView = 'personal' | 'leaders'
+type LeaderboardMetric = 'accuracy' | 'mastery'
+
+interface LeaderboardRow {
+  rank: number
+  username: string
+  profileIcon: string | null
+  accuracy?: number
+  verifiedAnswers?: number
+  securedConcepts?: number
+  lastVerifiedAt?: string | null
+}
+
+interface LeaderboardResponse {
+  rows: LeaderboardRow[]
+  scope?: { university?: string; year?: string; term?: string }
+  viewer?: { eligible: boolean; verifiedAnswers?: number; requiredAnswers?: number }
+}
 
 // Keyed loosely, so nothing here fails to compile when a surface is added —
 // only the row goes out untranslated. Add the label with the surface.
@@ -103,6 +125,100 @@ function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
   )
 }
 
+function TopPerformers() {
+  const t = useT()
+  const [metric, setMetric] = useState<LeaderboardMetric>('mastery')
+  const [data, setData] = useState<LeaderboardResponse | null>(null)
+  const [loading, setLoading] = useState(API_MODE)
+  const [failed, setFailed] = useState(false)
+
+  useEffect(() => {
+    let alive = true
+    if (!API_MODE) { setData(null); setLoading(false); return () => { alive = false } }
+    setLoading(true)
+    setFailed(false)
+    apiGet<LeaderboardResponse>(`/leaderboards?metric=${metric}`)
+      .then((next) => { if (alive) setData(next) })
+      .catch(() => { if (alive) { setData(null); setFailed(true) } })
+      .finally(() => { if (alive) setLoading(false) })
+    return () => { alive = false }
+  }, [metric])
+
+  const rows = data?.rows ?? []
+  return (
+    <div className="space-y-4">
+      <Panel>
+        <PanelHeader
+          title={t('Top performers')}
+          icon={Award}
+          hint={t('Your university, year, and current term')}
+          action={(
+            <Segmented
+              value={metric}
+              onChange={(value) => setMetric(value as LeaderboardMetric)}
+              items={[
+                { value: 'mastery', label: t('Concepts mastered') },
+                { value: 'accuracy', label: t('% correct') },
+              ]}
+            />
+          )}
+        />
+        <div className="border-b border-line bg-surface-2/40 px-4 py-3 text-[12px] leading-relaxed text-ink-2 sm:px-5">
+          {metric === 'mastery'
+            ? t('A concept counts as secured after at least three marked attempts at 80% accuracy or better. This rewards breadth of reliable knowledge, not answer volume alone.')
+            : t('Accuracy includes students with at least 100 server-verified answers this term. Ties are resolved by evidence volume, then recent verified activity.')}
+        </div>
+
+        {loading ? (
+          <div className="space-y-2 p-5" aria-label={t('Loading leaderboard')}>
+            {[0, 1, 2, 3, 4].map((row) => <div key={row} className="h-12 animate-pulse rounded-lg bg-inset motion-reduce:animate-none" />)}
+          </div>
+        ) : failed ? (
+          <div className="p-10"><EmptyState icon={Users} title={t('Leaderboard unavailable')} description={t('The verified ranking could not be loaded. Your private performance data has not been substituted.')}/></div>
+        ) : rows.length === 0 ? (
+          <div className="p-10"><EmptyState icon={Users} title={t('No eligible performers yet')} description={API_MODE ? t('The board appears once students in this university and year have enough verified evidence.') : t('Public rankings require the connected server. Demo and historical client-only attempts remain private.')}/></div>
+        ) : (
+          <Table>
+            <thead><Tr><Th className="w-14">{t('Rank')}</Th><Th>{t('Student')}</Th><Th align="end">{metric === 'mastery' ? t('Secured concepts') : t('Accuracy')}</Th><Th align="end" className="pr-4">{t('Evidence')}</Th></Tr></thead>
+            <tbody>
+              {rows.map((row) => (
+                <Tr key={`${row.rank}-${row.username}`} hover>
+                  <Td>
+                    <span className={cn('tnum inline-flex size-7 items-center justify-center rounded-full font-mono text-[12px] font-semibold', row.rank <= 3 ? 'bg-primary-tint text-primary-strong' : 'bg-inset text-ink-2')}>
+                      {row.rank <= 3 ? <Icon icon={row.rank === 1 ? Medal : Award} size={14} /> : row.rank}
+                    </span>
+                  </Td>
+                  <Td>
+                    <span className="inline-flex items-center gap-2.5 font-medium text-ink">
+                      {row.profileIcon ? <img src={row.profileIcon} alt="" className="size-8 rounded-full border border-line bg-inset object-cover" /> : <span className="grid size-8 place-items-center rounded-full bg-inset text-[11px] font-bold uppercase text-ink-2">{row.username.slice(0, 2)}</span>}
+                      @{row.username}
+                    </span>
+                  </Td>
+                  <Td align="end" className="tnum font-mono font-semibold text-ink">
+                    {metric === 'mastery' ? (row.securedConcepts ?? 0) : `${Math.round((row.accuracy ?? 0) * 100)}%`}
+                  </Td>
+                  <Td align="end" className="tnum pr-4 font-mono text-ink-3">
+                    {row.verifiedAnswers ?? '—'}
+                  </Td>
+                </Tr>
+              ))}
+            </tbody>
+          </Table>
+        )}
+      </Panel>
+
+      {data?.viewer && !data.viewer.eligible && metric === 'accuracy' && (
+        <Panel className="border-warning/30 bg-warning-tint/35 p-4">
+          <p className="text-[13px] font-semibold text-ink">{t('Your ranking is still private')}</p>
+          <p className="mt-1 text-[12px] text-ink-2">
+            {data.viewer.verifiedAnswers ?? 0} {t('of')} {data.viewer.requiredAnswers ?? 100} {t('server-verified answers completed this term.')}
+          </p>
+        </Panel>
+      )}
+    </div>
+  )
+}
+
 /**
  * The student's own record, and only their own record.
  *
@@ -114,6 +230,7 @@ function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
  */
 export function Performance() {
   const t = useT()
+  const [view, setView] = useState<PerformanceView>('personal')
   const { records, loading } = useAttemptHistory()
 
   const scored = useMemo(() => marked(records), [records])
@@ -127,10 +244,29 @@ export function Performance() {
   const overall = accuracyOf(records)
   const median = medianSeconds(records)
 
+  const header = (
+    <>
+      <PageHeader title={t('Performance')} description={t('Your progress, curriculum coverage, and verified peer rankings.')} />
+      <Tabs
+        className="mb-4"
+        value={view}
+        onChange={(value) => setView(value as PerformanceView)}
+        items={[
+          { value: 'personal', label: t('Personal progress'), icon: TrendingUp },
+          { value: 'leaders', label: t('Top performers'), icon: Award },
+        ]}
+      />
+    </>
+  )
+
+  if (view === 'leaders') {
+    return <PageContainer>{header}<TopPerformers /></PageContainer>
+  }
+
   if (loading) {
     return (
       <PageContainer>
-        <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
+        {header}
         <Panel className="p-10 text-center text-[13px] text-ink-3">{t('Loading your record…')}</Panel>
       </PageContainer>
     )
@@ -139,8 +275,12 @@ export function Performance() {
   if (scored.length < MIN_MARKED) {
     return (
       <PageContainer>
-        <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
+        {header}
         <div className="space-y-4">
+          <div className="grid gap-4 lg:grid-cols-2">
+            <ExamReadinessCard />
+            <PerformanceOverview />
+          </div>
           <Panel className="p-10">
             <EmptyState
               icon={TrendingUp}
@@ -156,9 +296,13 @@ export function Performance() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Performance')} description={t('Your accuracy, weak areas, and the shape of your study time.')} />
+      {header}
 
       <div className="space-y-4">
+        <div className="grid gap-4 lg:grid-cols-2">
+          <ExamReadinessCard />
+          <PerformanceOverview />
+        </div>
         <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
           <KpiTile
             icon={TrendingUp}

@@ -48,3 +48,20 @@ export function useLocalChoice<T extends string>(key: string, fallback: T, allow
 
   return [value, setValue] as const
 }
+
+/** Local JSON for richer device-only preferences such as the Pomodoro clock. */
+export function useLocalJsonPreference<T>(key: string, fallback: T) {
+  const [value, setValue] = useState<T>(() => {
+    try {
+      const raw = localStorage.getItem(key)
+      if (raw) return { ...fallback, ...JSON.parse(raw) } as T
+    } catch { /* private browsing or old data — the default stands */ }
+    return fallback
+  })
+
+  useEffect(() => {
+    try { localStorage.setItem(key, JSON.stringify(value)) } catch { /* nothing to remember with */ }
+  }, [key, value])
+
+  return [value, setValue] as const
+}

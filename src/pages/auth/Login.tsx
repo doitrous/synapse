@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/Button'
 import { Field, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { AuthLayout } from './AuthLayout'
+import { SocialAuthButtons } from './SocialAuthButtons'
 import { isSupabaseConfigured, supabase } from '@/lib/supabase'
 import { authErrorMessage } from './authMessages'
 
@@ -85,6 +86,12 @@ export function Login() {
           </div>
         )}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
+        <SocialAuthButtons mode="sign in" redirectTo={`${window.location.origin}${next}`} />
+        <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.08em] text-ink-3">
+          <span className="h-px flex-1 bg-line" />
+          Email
+          <span className="h-px flex-1 bg-line" />
+        </div>
         <Field label="Email address" htmlFor="login-email">
           <TextInput id="login-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" />
         </Field>

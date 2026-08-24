@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, type ManagedContentItem } from '@/data/contentControl'
+import { CONTENT_LEDGER_STORAGE_KEY, initialManagedContent, isStudentPublishable, type ManagedContentItem } from '@/data/contentControl'
 import {
   buildExamProgramme, dueReminder, isExamBlock,
   type ExamBlock, type ExamProgramme, type ProgrammeContent,
@@ -29,7 +29,7 @@ export function programmeContentFor(
   catalogue: readonly ManagedContentItem[],
 ): ProgrammeContent {
   const published = new Map(
-    catalogue.filter((item) => item.status === 'Published').map((item) => [item.id, item]),
+    catalogue.filter(isStudentPublishable).map((item) => [item.id, item]),
   )
   const resolve = (ids: readonly string[] | undefined) =>
     (ids ?? []).filter((id) => published.has(id))

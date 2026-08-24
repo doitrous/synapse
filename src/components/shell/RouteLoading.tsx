@@ -1,3 +1,5 @@
+import { useEffect, useState } from 'react'
+
 /**
  * What a surface looks like while its chunk is still arriving.
  *
@@ -8,6 +10,15 @@
  * prefetched on hover this should rarely be seen at all.
  */
 export function RouteLoading() {
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => setVisible(true), 150)
+    return () => window.clearTimeout(timer)
+  }, [])
+
+  if (!visible) return null
+
   return (
     <div className="mx-auto w-full max-w-6xl px-4 py-8 sm:px-6" role="status" aria-busy="true">
       <span className="sr-only">Loading</span>
