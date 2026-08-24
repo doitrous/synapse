@@ -15,7 +15,6 @@ const FOCUS_COLUMNS = 12
 const FOCUS_ROWS = 10
 const FOCUS_FRAMES = FOCUS_COLUMNS * FOCUS_ROWS
 const FOCUS_MS = 2000
-const FOCUS_FADE_MS = 180
 
 interface Drag {
   pointerId: number
@@ -140,17 +139,12 @@ export function SlideViewer({
       [{ borderRadius: '0.75rem' }, { borderRadius: '50%' }],
       { delay: FOCUS_MS * 0.72, duration: FOCUS_MS * 0.28, easing: 'ease-out', fill: 'forwards' },
     )
-    const fade = layer.animate(
-      [{ opacity: 1 }, { opacity: 0 }],
-      { delay: FOCUS_MS - FOCUS_FADE_MS, duration: FOCUS_FADE_MS, easing: 'ease-out', fill: 'forwards' },
-    )
-
     const finish = () => {
       if (!active) return
       showFrame(FOCUS_FRAMES - 1)
       setFocusVisible(false)
     }
-    Promise.all([movement.finished, iris.finished, fade.finished]).then(finish).catch(() => undefined)
+    Promise.all([movement.finished, iris.finished]).then(finish).catch(() => undefined)
     // Browsers can throttle animation promises in a background tab. The
     // viewer still becomes usable when the elapsed time has passed.
     const fallback = window.setTimeout(finish, FOCUS_MS + 250)
@@ -161,7 +155,6 @@ export function SlideViewer({
       window.clearTimeout(fallback)
       movement.cancel()
       iris.cancel()
-      fade.cancel()
     }
   }, [transitionOrigin])
 
@@ -396,10 +389,17 @@ export function SlideViewer({
             backgroundImage: `url(${FOCUS_GRID})`,
             backgroundSize: `${FOCUS_COLUMNS * 100}% ${FOCUS_ROWS * 100}%`,
             transformOrigin: 'center',
-            willChange: 'transform, opacity',
+            willChange: 'transform',
           }}
         />
       )}
+      <div
+        aria-hidden={focusVisible || undefined}
+        className={cn(
+          'flex w-full flex-col items-center gap-4 transition-opacity duration-150 ease-out motion-reduce:transition-none',
+          focusVisible ? 'pointer-events-none opacity-0' : 'opacity-100',
+        )}
+      >
       <div className="flex w-full flex-wrap items-start justify-between gap-3">
         <div className="min-w-0">
           <h1 className="truncate font-serif text-[19px] font-semibold text-ink">{slide.title}</h1>
@@ -626,6 +626,7 @@ export function SlideViewer({
       )}
 
       {!aboutOpen && slide.description && <p className="text-center text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
+      </div>
     </div>
   )
 }

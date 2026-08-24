@@ -45,6 +45,9 @@ paint, so the push-in takes two seconds on a slow machine instead of running
 long. The transition layer is laid out at the real, measured slide field and is
 transformed back over the bench instrument; returning to no transform therefore
 lands on the exact viewer rectangle at every shell/sidebar and viewport size.
-`prefers-reduced-motion` opens the destination without the journey.
+The slide viewer remains laid out but visually and interactively hidden until
+the movement and iris animations have both finished; it then appears in a
+brief 150ms reveal. `prefers-reduced-motion` opens the destination without the
+journey.
 
 No audio: a control that plays sound when a student presses it is a defect.
