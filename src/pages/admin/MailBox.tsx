@@ -72,12 +72,12 @@ export function MailBox() {
   if (!API_MODE) {
     return (
       <PageContainer>
-        <PageHeader title="Mail Box" description="Send and receive email from your Connect Cortex addresses." />
+        <PageHeader title="Mail Box" description="Send and receive email from your Maristana addresses." />
         <Panel className="p-8 text-center">
           <span className="mx-auto grid size-12 place-items-center rounded-xl bg-warning-tint text-warning"><Icon icon={Info} size={22} /></span>
           <h2 className="mt-4 font-serif text-[19px] font-semibold text-ink">The Mail Box needs the backend</h2>
           <p className="mx-auto mt-2 max-w-md text-[13.5px] leading-relaxed text-ink-2">
-            Mail sending, the inbox, and attachments run through the Connect Cortex API (Resend + database). Set <code className="rounded bg-inset px-1 font-mono text-[12px]">VITE_API_BASE</code> and deploy <code className="rounded bg-inset px-1 font-mono text-[12px]">server/</code> — see <b>DEPLOY-STEPS.md</b> — then this page goes live.
+            Mail sending, the inbox, and attachments run through the Maristana API (Resend + database). Set <code className="rounded bg-inset px-1 font-mono text-[12px]">VITE_API_BASE</code> and deploy <code className="rounded bg-inset px-1 font-mono text-[12px]">server/</code> — see <b>DEPLOY-STEPS.md</b> — then this page goes live.
           </p>
           <p className="mt-3 font-mono text-[11px] text-ink-3">RESEND_API_KEY → server · VITE_API_BASE → app</p>
         </Panel>

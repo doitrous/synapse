@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="96" viewBox="0 0 400 96" role="img" aria-labelledby="title desc">
+  <title id="title">Maristana</title>
+  <desc id="desc">Maristana by Connect Academy</desc>
+  <style>
+    .blue { fill: #1553b3; }
+    .rose { fill: #d13a63; }
+    .ink { fill: #161920; }
+    .muted { fill: #5d636f; }
+    @media (prefers-color-scheme: dark) {
+      .blue { fill: #6fa5ff; }
+      .rose { fill: #f193ab; }
+      .ink { fill: #e8ecf3; }
+      .muted { fill: #a2abbb; }
+    }
+  </style>
+  <g transform="translate(8 10)">
+    <path class="blue" d="M4 58V11C4 8.8 5.8 7 8 7h6l18 22v9c-7.7 0-14 6.3-14 14v6H4Z"/>
+    <path class="rose" d="M60 58V11c0-2.2-1.8-4-4-4h-6L32 29v9c7.7 0 14 6.3 14 14v6h14Z"/>
+  </g>
+  <text class="ink" x="82" y="54" font-family="Orbitron, Jost, Century Gothic, sans-serif" font-size="37" font-weight="700" letter-spacing="-.4">ARISTANA</text>
+  <text class="muted" x="84" y="75" font-family="Geist, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2.4">BY CONNECT ACADEMY</text>
+</svg>

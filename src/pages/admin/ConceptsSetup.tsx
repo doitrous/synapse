@@ -163,7 +163,7 @@ function ConceptSources({ concept, evidence }: { concept: Concept; evidence: Med
                   <Button size="sm" variant="secondary" iconLeft={ExternalLink} onClick={() => void openResource(resource, resourceCitations)}>Go to source</Button>
                 </div>
                 {openError === resource.id && (
-                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Connect Cortex storage.</p>
+                  <p role="alert" className="mt-2 rounded-md border border-warning/25 bg-warning-tint px-2.5 py-2 text-[10.5px] leading-relaxed text-warning">The citation is preserved, but this file is still awaiting secure upload to Maristana storage.</p>
                 )}
               </article>
             )

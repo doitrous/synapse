@@ -11,7 +11,7 @@ export function authErrorMessage(error: unknown, fallback: string): string {
   if (normalized.includes('already registered')) return 'An account already uses this email. Sign in or reset its password.'
   if (normalized.includes('rate limit') || normalized.includes('too many')) return 'Too many attempts were made. Wait a few minutes, then try again.'
   if (normalized.includes('expired')) return 'That secure link or code has expired. Request a fresh one and try again.'
-  if (normalized.includes('network') || normalized.includes('fetch')) return 'Connect Cortex could not reach the account service. Check your connection and try again.'
+  if (normalized.includes('network') || normalized.includes('fetch')) return 'Maristana could not reach the account service. Check your connection and try again.'
   return fallback
 }
 

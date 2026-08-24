@@ -48,3 +48,20 @@ export function useLocalChoice<T extends string>(key: string, fallback: T, allow
 
   return [value, setValue] as const
 }
+
+export function useLocalJsonPreference<T>(key: string, fallback: T | (() => T)) {
+  const readFallback = () => (typeof fallback === 'function' ? (fallback as () => T)() : fallback)
+  const [value, setValue] = useState<T>(() => {
+    try {
+      const raw = localStorage.getItem(key)
+      if (raw) return JSON.parse(raw) as T
+    } catch { /* private browsing / malformed storage — the default stands */ }
+    return readFallback()
+  })
+
+  useEffect(() => {
+    try { localStorage.setItem(key, JSON.stringify(value)) } catch { /* nothing to remember with */ }
+  }, [key, value])
+
+  return [value, setValue] as const
+}

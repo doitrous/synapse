@@ -20,7 +20,7 @@ export type Theme = (typeof THEMES)[number]
  */
 export const THEME_STORAGE_KEY = 'synapse-theme'
 
-/** Light is the reference ground the Connect Cortex palette is built around. */
+/** Light is the reference ground the Maristana palette is built around. */
 const DEFAULT_THEME: Theme = 'light'
 
 /** The address bar / task switcher colour, so browser chrome matches the page. */

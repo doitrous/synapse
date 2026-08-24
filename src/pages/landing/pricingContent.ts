@@ -1,16 +1,9 @@
 /**
- * Copy for the standalone pricing page.
+ * Conversion copy for Maristana's single-membership offer.
  *
- * Kept out of `content.ts` because it answers a different question. The landing
- * page argues that Connect Cortex is worth using; this page is read by somebody who
- * has already decided that and is now deciding what to pay — so it is mostly
- * objections, in the order people raise them.
- *
- * Every answer here is grounded in something the product actually does. Where a
- * fact is not yet settled — the payment processor, a compliance certification,
- * a named institution — there is no question about it rather than a vague
- * answer, because a pricing page that hedges reads worse than one that is short.
- * `docs/pricing-page.md` lists the questions to add once those facts exist.
+ * Prices stay in the catalogue; this file only supplies the language around
+ * them. Keeping the page bilingual as one typed document makes it difficult
+ * for the Arabic route to lose a section when the English offer changes.
  */
 
 export interface FaqItem {
@@ -18,34 +11,62 @@ export interface FaqItem {
   a: string
 }
 
-export interface TrustPoint {
-  icon: 'lock' | 'shield' | 'export' | 'globe'
-  label: string
-  line: string
-}
-
 export interface PricingContent {
-  /** This page's path, and the other language's, for canonical + hreflang. */
   path: string
   otherPath: string
   documentTitle: string
-  /** `{from}` is replaced with the cheapest monthly-equivalent on offer. */
   metaDescription: string
   breadcrumb: string
-  /** The header link to this page, shown on every marketing page. */
   navLabel: string
-  /** The compact block on the landing page that links here. */
-  teaser: { title: string; sub: string; from: string; link: string }
+  teaser: {
+    eyebrow: string
+    title: string
+    sub: string
+    termLabel: string
+    termDetail: string
+    scholarship: string
+    link: string
+    cta: string
+  }
   h1: string
   sub: string
-  /** Short risk-reducers under the heading, before any price is shown. */
   assurances: string[]
+  offer: {
+    eyebrow: string
+    title: string
+    description: string
+    month: string
+    monthDetail: string
+    term: string
+    termDetail: string
+    year: string
+    yearDetail: string
+    comingSoon: string
+    currency: string
+    save: string
+    equivalent: string
+    fullAccess: string
+    cta: string
+    unavailable: string
+  }
+  includedTitle: string
+  includedSub: string
+  included: { title: string; items: string[] }[]
+  scholarship: {
+    eyebrow: string
+    title: string
+    sub: string
+    facts: string[]
+    note: string
+  }
+  next: {
+    title: string
+    sub: string
+    steps: { number: string; title: string; line: string }[]
+  }
   faqTitle: string
   faqSub: string
   faq: FaqItem[]
-  trustTitle: string
-  trustSub: string
-  trust: TrustPoint[]
   closingTitle: string
   closingSub: string
   closingPrimary: string
@@ -55,186 +76,273 @@ export interface PricingContent {
 export const EN_PRICING: PricingContent = {
   path: '/pricing',
   otherPath: '/ar/pricing',
-  documentTitle: 'Pricing — Connect Cortex · Plans for undergraduate medical study',
+  documentTitle: 'Maristana pricing — One complete medical learning membership',
   metaDescription:
-    'One workspace for the library, question bank, practicals and your schedule, priced per student from {from} a month. Start free with a 7-day full trial, no card.',
+    'Choose one month or one academic term of complete Maristana access. Start with 3 full days, no card, then keep a free daily sampler.',
   breadcrumb: 'Home',
   navLabel: 'Pricing',
   teaser: {
-    title: 'Plans & pricing',
-    sub: 'Start free with a 7-day full trial, no card. Upgrade when choosing what to revise starts costing more time than the revision.',
-    from: 'from',
-    link: 'See what each plan includes',
+    eyebrow: 'Simple by design',
+    title: 'One Maristana. Choose your study window.',
+    sub: 'The whole platform is included. Start with 3 full days, no card, then choose the time that fits your semester.',
+    termLabel: 'Academic term · 3 months',
+    termDetail: 'Save EGP 200 · EGP 333/month equivalent',
+    scholarship: 'Private 100%-off scholarships are available through your year representative or Student Union.',
+    link: 'See pricing and scholarships',
+    cta: 'Start 3 days free',
   },
-  h1: 'Plans for the whole degree, not just exam week',
+  h1: 'One Maristana. Choose your study window.',
   sub:
-    'Every plan opens the library, the verified sources behind it and the PDF reader. What changes higher up is how much of your revision Connect Cortex plans for you.',
+    'No feature gates and no plan comparison to decode. Your curriculum, Practice Suite, adaptive study, workspace, and study rooms are included together.',
   assurances: [
-    '7-day full trial, no card',
-    'Upgrade or cancel any time',
-    '14-day refund window',
+    'Full access for 3 days',
+    'No card to start',
+    'Free daily sampler after the trial',
   ],
-
-  faqTitle: 'Questions people ask before subscribing',
-  faqSub: 'If yours is not here, ask before you pay rather than after.',
+  offer: {
+    eyebrow: 'Complete membership',
+    title: 'Everything in Maristana',
+    description: 'Pick a duration. The product does not change with the period you choose.',
+    month: '1 month',
+    monthDetail: 'A focused month of full access',
+    term: 'Academic term',
+    termDetail: '3 months of full access',
+    year: 'Full year',
+    yearDetail: 'A longer study window is on its way',
+    comingSoon: 'Coming soon',
+    currency: 'EGP',
+    save: 'Save',
+    equivalent: 'monthly equivalent',
+    fullAccess: 'Full Maristana access for the selected period',
+    cta: 'Start 3 days free',
+    unavailable: 'Yearly access is coming soon',
+  },
+  includedTitle: 'Everything included',
+  includedSub: 'One membership follows the whole study cycle—from your university schedule to the concepts you still need to master.',
+  included: [
+    {
+      title: 'Your curriculum',
+      items: ['University and year schedule', 'Modules, exams, and finals', 'Personal calendar and daily plan'],
+    },
+    {
+      title: 'Practice Suite',
+      items: ['MCQs, cases, essays, labs, and imaging', 'OSCE candidate and examiner briefs', 'Virtual microscope, terminology, and minigames'],
+    },
+    {
+      title: 'Adaptive study',
+      items: ['Concept mastery beyond raw accuracy', 'Targeted review from flagged and weak material', 'Deep reports and anonymous cohort comparison'],
+    },
+    {
+      title: 'Your workspace',
+      items: ['Synced PDF reader and editor', 'Question notes, notebook, and Pomodoro', 'Whiteboards, mind maps, and shared notes'],
+    },
+    {
+      title: 'Study together',
+      items: ['Study buddies and shared tests', 'Study parties, rooms, and challenges', 'Private social discovery within your cohort'],
+    },
+    {
+      title: 'Grow',
+      items: ['A mini-maristana that grows as you study', 'Visible study progress without public identity', 'The same progress across your devices'],
+    },
+  ],
+  scholarship: {
+    eyebrow: 'Private scholarship route',
+    title: 'Full access can be 100% covered.',
+    sub:
+      'Connect Academy provides up to 200 scholarships per year, per university, for students who genuinely need them.',
+    facts: [
+      'Begin through your year representative or Student Union.',
+      'Approved access uses a one-time, 100%-off code.',
+      'Scholarship status is never shown in rankings, profiles, or social spaces.',
+    ],
+    note: 'Terms and availability apply. Maristana does not ask you to publish financial-need information.',
+  },
+  next: {
+    title: 'What happens next',
+    sub: 'See the product first. Paying is not part of starting the trial.',
+    steps: [
+      { number: '01', title: 'Create your account', line: 'Choose your university and year so Maristana opens in the right curriculum.' },
+      { number: '02', title: 'Use everything for 3 days', line: 'No card. Explore the full platform with your real study scope.' },
+      { number: '03', title: 'Choose after you have studied', line: 'Continue with a study window, or keep the diagnostic and 10 questions a day for free.' },
+    ],
+  },
+  faqTitle: 'Before you start',
+  faqSub: 'Clear answers about access, privacy, and what happens after the trial.',
   faq: [
     {
-      q: 'Can I cancel any time?',
-      a: 'Yes. You can cancel from Billing in your account, and you keep access until the end of the period you have already paid for. There is no cancellation fee and no notice period.',
+      q: 'What happens when the 3-day trial ends?',
+      a: 'You are not charged. Full access closes and your account moves to the permanent free sampler: diagnostic access and 10 questions per day. Your work remains in your account.',
     },
     {
-      q: 'Do I need a card to start?',
-      a: 'No. The free plan starts with a 7-day trial of the full Adaptive plan and asks for no card. When the trial ends you drop to the free plan — a diagnostic and 10 questions a day — rather than being charged.',
+      q: 'How long is an academic term?',
+      a: 'The academic-term window is 3 months from activation. It costs EGP 1,000, saving EGP 200 compared with three separate monthly windows.',
     },
     {
-      q: 'What happens when I run out of questions on the free plan?',
-      a: 'The free plan gives you 10 questions a day. When you reach that, the question bank waits until the next day; nothing you have already written, bookmarked or annotated is taken away, and the library, reader and notebook keep working.',
+      q: 'Does the trial or membership renew automatically?',
+      a: 'The no-card trial cannot renew or charge you. When hosted payment opens, the checkout will show the selected access window, final EGP amount, and renewal terms before you pay.',
     },
     {
-      q: "What is the difference between QBank and Adaptive?",
-      a: 'QBank gives you the whole approved question bank and lets you build your own blocks by system and topic. Adaptive adds the part that decides for you: blocks aimed at your weak points, a generated study plan, spaced review, and exam readiness assessments. Most people move up when choosing what to revise starts costing more time than the revision.',
+      q: 'Is my university supported?',
+      a: 'Available university and year combinations appear during setup. Curriculum mapping expands cohort by cohort, so you only enter a scope that Maristana currently supports.',
     },
     {
-      q: 'Can I change plan or billing period later?',
-      a: 'Yes, in either direction. Moving up takes effect immediately and is charged pro rata for the rest of the period; moving down takes effect at the next renewal so you do not lose access you have paid for.',
+      q: 'Who can see that I received a scholarship?',
+      a: 'No other student can. Scholarship status is private and never appears in rankings, profiles, study rooms, or other social surfaces.',
     },
     {
-      q: 'How does the yearly price work out against monthly?',
-      a: 'A longer commitment is charged once and works out lower per month. Switch the billing control above and each plan shows its own price for that period and what it saves against paying monthly. A period that is announced but not yet open is marked, and you can still see what it will cost.',
+      q: 'How do cancellations and refunds work?',
+      a: 'The trial needs no cancellation because it takes no card. The published cancellation and refund terms for paid access will be shown during checkout before any payment is confirmed.',
     },
     {
-      q: 'Is Connect Cortex aligned with my university\'s curriculum?',
-      a: 'Content is organised by organ system across Years 1–5, which is how most MBBS-style curricula are taught, and every fact carries the book and page it came from so you can check it against your own reading list. It is not a substitute for your faculty\'s material, and it does not claim to cover a specific university\'s syllabus.',
+      q: 'What happens to my notes and uploads after paid access expires?',
+      a: 'They remain attached to your account. The free sampler keeps your learning history available while full membership features pause until you reactivate access.',
     },
     {
-      q: 'Is any of this clinical guidance?',
-      a: 'No. Connect Cortex is a study tool for undergraduate medical education. Nothing in the library, question bank or practicals is clinical guidance, and none of it should be used to make a decision about a patient.',
-    },
-    {
-      q: 'What happens to my notes and documents if I stop paying?',
-      a: 'They stay in your account. Notes, whiteboards, bookmarks, annotations and files you uploaded remain yours and remain readable on the free plan; you can also request an export or deletion of your data at any point.',
-    },
-    {
-      q: 'Do you price for a whole year group or institution?',
-      a: 'Yes — Campus is priced per student for institution-wide access and analytics, and is quoted rather than listed because it depends on cohort size and how much of the curriculum you want mapped. Start on a normal plan and tell us the cohort; nothing is lost by starting individually first.',
-    },
-    {
-      q: 'What currency are prices in, and how am I billed?',
-      a: 'Prices are in Egyptian pounds (EGP) and are the full amount — there is no separate setup, per-question or per-download fee. You choose monthly, every 3 months, or yearly, and the plan renews on that cycle until you cancel.',
-    },
-    {
-      q: 'Is there a version for the exam period only?',
-      a: 'Exam Sprint covers one defined exam scope for 30 days: a compressed plan, mocks, adaptive repair and sprint analytics. It is a fixed 30-day scope rather than a subscription, so it does not renew.',
+      q: 'When will the full-year option be available?',
+      a: 'It is coming soon. We will publish the price only when yearly access is ready to buy; there is no placeholder price or working checkout today.',
     },
   ],
-
-  trustTitle: 'Your account, and your data',
-  trustSub: 'What is true of the platform today — not a roadmap.',
-  trust: [
-    { icon: 'lock', label: 'Two-factor sign-in', line: 'Available on any account, from the security section of your profile.' },
-    { icon: 'export', label: 'Export or delete', line: 'Request a copy of your data, or its deletion, from Privacy in your account.' },
-    { icon: 'shield', label: 'An audit trail', line: 'Administrative access to institutional content is logged and immutable.' },
-    { icon: 'globe', label: 'Arabic and English', line: 'The whole interface, right-to-left included — not a translated shell.' },
-  ],
-
-  closingTitle: 'Start on the free plan',
-  closingSub: 'Seven days of the full Adaptive plan, no card. Decide after you have used it.',
-  closingPrimary: 'Start free',
+  closingTitle: 'Start with the product, not a payment form.',
+  closingSub: 'Three full days of Maristana. No card, and nothing is charged when the trial ends.',
+  closingPrimary: 'Start 3 days free',
   closingSecondary: 'Sign in',
 }
 
 export const AR_PRICING: PricingContent = {
   path: '/ar/pricing',
   otherPath: '/pricing',
-  documentTitle: 'الأسعار — Connect Cortex · خطط لدراسة الطب الجامعية',
+  documentTitle: 'أسعار Maristana — عضوية واحدة متكاملة لتعلّم الطب',
   metaDescription:
-    'مساحة واحدة للمكتبة وبنك الأسئلة والعملي وجدولك، بسعر لكل طالب يبدأ من {from} شهريًا. ابدأ مجانًا بتجربة كاملة ٧ أيام، دون بطاقة.',
+    'اختر شهرًا أو فصلًا دراسيًا كاملًا في Maristana. ابدأ بثلاثة أيام كاملة دون بطاقة، ثم احتفظ بعينة يومية مجانية.',
   breadcrumb: 'الرئيسية',
   navLabel: 'الأسعار',
   teaser: {
-    title: 'خطط وأسعار',
-    sub: 'ابدأ مجانًا بتجربة كاملة ٧ أيام دون بطاقة. ورقِّ خطتك حين يبدأ اختيار ما تُذاكره في استهلاك وقت أطول من المذاكرة نفسها.',
-    from: 'من',
-    link: 'اطّلع على ما تتضمّنه كل خطة',
+    eyebrow: 'بساطة مقصودة',
+    title: 'Maristana واحدة. اختر مدة مذاكرتك.',
+    sub: 'كل المنصة مشمولة. ابدأ بثلاثة أيام كاملة دون بطاقة، ثم اختر المدة التي تناسب فصلك الدراسي.',
+    termLabel: 'فصل دراسي · ٣ أشهر',
+    termDetail: 'وفّر ٢٠٠ ج.م · ما يعادل ٣٣٣ ج.م شهريًا',
+    scholarship: 'تتوفر منح خاصة بخصم ١٠٠٪ من خلال ممثل دفعتك أو اتحاد الطلاب.',
+    link: 'اطّلع على الأسعار والمنح',
+    cta: 'ابدأ ٣ أيام مجانًا',
   },
-  h1: 'خطط تكفي سنوات الدراسة، لا أسبوع الامتحان فقط',
+  h1: 'Maristana واحدة. اختر مدة مذاكرتك.',
   sub:
-    'كل خطة تفتح المكتبة والمصادر الموثّقة خلفها وقارئ الـ PDF. ما يتغيّر في الخطط الأعلى هو مقدار ما يخطّطه Connect Cortex لمذاكرتك بدلًا عنك.',
+    'لا خصائص محجوبة ولا جداول خطط تحتاج إلى فكّها. منهجك ومجموعة التدريب والمذاكرة التكيّفية ومساحة عملك وغرف الدراسة كلها مشمولة معًا.',
   assurances: [
-    'تجربة كاملة ٧ أيام دون بطاقة',
-    'رقِّ خطتك أو ألغِ في أي وقت',
-    'نافذة استرداد ١٤ يومًا',
+    'وصول كامل لمدة ٣ أيام',
+    'دون بطاقة للبدء',
+    'عينة يومية مجانية بعد التجربة',
   ],
-
-  faqTitle: 'أسئلة تُطرح قبل الاشتراك',
-  faqSub: 'إن لم يكن سؤالك هنا، اسأل قبل الدفع لا بعده.',
+  offer: {
+    eyebrow: 'عضوية متكاملة',
+    title: 'كل ما في Maristana',
+    description: 'اختر المدة فقط. المنتج لا يتغيّر بتغيّر الفترة التي تختارها.',
+    month: 'شهر واحد',
+    monthDetail: 'شهر مركّز بوصول كامل',
+    term: 'فصل دراسي',
+    termDetail: '٣ أشهر بوصول كامل',
+    year: 'سنة كاملة',
+    yearDetail: 'مدة أطول للمذاكرة في الطريق',
+    comingSoon: 'قريبًا',
+    currency: 'ج.م',
+    save: 'وفّر',
+    equivalent: 'ما يعادل شهريًا',
+    fullAccess: 'وصول Maristana الكامل طوال المدة المختارة',
+    cta: 'ابدأ ٣ أيام مجانًا',
+    unavailable: 'الوصول السنوي قريبًا',
+  },
+  includedTitle: 'كل شيء مشمول',
+  includedSub: 'عضوية واحدة تتابع دورة المذاكرة كاملة—من جدول جامعتك إلى المفاهيم التي ما زالت تحتاج إلى إتقانها.',
+  included: [
+    {
+      title: 'منهجك',
+      items: ['جدول الجامعة والسنة الدراسية', 'الوحدات والاختبارات والنهائيات', 'تقويمك الشخصي وخطة اليوم'],
+    },
+    {
+      title: 'مجموعة التدريب',
+      items: ['اختيار من متعدد وحالات ومقالي ومعامل وأشعة', 'تعليمات المرشح والممتحن في محطات OSCE', 'ميكروسكوب افتراضي ومصطلحات وألعاب قصيرة'],
+    },
+    {
+      title: 'المذاكرة التكيّفية',
+      items: ['إتقان المفاهيم أبعد من نسبة الإجابات الصحيحة', 'مراجعة موجّهة لما أشّرت عليه وما لم يثبت بعد', 'تقارير عميقة ومقارنة مجهولة مع الدفعة'],
+    },
+    {
+      title: 'مساحة عملك',
+      items: ['قارئ ومحرّر PDF متزامن', 'ملاحظات الأسئلة والدفتر ومؤقت بومودورو', 'سبورات وخرائط ذهنية وملاحظات مشتركة'],
+    },
+    {
+      title: 'ذاكر مع غيرك',
+      items: ['زملاء مذاكرة واختبارات مشتركة', 'جلسات وغرف وتحديات دراسية', 'اكتشاف خاص للزملاء داخل دفعتك'],
+    },
+    {
+      title: 'Grow',
+      items: ['مارستانا مصغّرة تنمو كلما ذاكرت', 'تقدّم دراسي ظاهر دون كشف هويتك', 'نفس التقدّم على أجهزتك المختلفة'],
+    },
+  ],
+  scholarship: {
+    eyebrow: 'مسار منح يحفظ الخصوصية',
+    title: 'قد تُغطّى التكلفة كاملة بنسبة ١٠٠٪.',
+    sub:
+      'توفّر Connect Academy ما يصل إلى ٢٠٠ منحة سنويًا لكل جامعة للطلاب الذين يحتاجون إليها فعلًا.',
+    facts: [
+      'ابدأ من خلال ممثل دفعتك أو اتحاد الطلاب.',
+      'الوصول المقبول يتم بكود استخدام واحد بخصم ١٠٠٪.',
+      'لا تظهر حالة المنحة في الترتيب أو الملف الشخصي أو المساحات الاجتماعية.',
+    ],
+    note: 'تُطبّق الشروط والتوافر. لا تطلب Maristana منك نشر معلومات عن احتياجك المادي.',
+  },
+  next: {
+    title: 'ماذا يحدث بعد ذلك؟',
+    sub: 'جرّب المنتج أولًا. الدفع ليس جزءًا من بدء التجربة.',
+    steps: [
+      { number: '٠١', title: 'أنشئ حسابك', line: 'اختر جامعتك وسنتك لتفتح Maristana على المنهج الصحيح.' },
+      { number: '٠٢', title: 'استخدم كل شيء ٣ أيام', line: 'دون بطاقة. استكشف المنصة كاملة داخل نطاق مذاكرتك الحقيقي.' },
+      { number: '٠٣', title: 'اختر بعد أن تذاكر', line: 'واصل بمدة مدفوعة، أو احتفظ بالتشخيص و١٠ أسئلة يوميًا مجانًا.' },
+    ],
+  },
+  faqTitle: 'قبل أن تبدأ',
+  faqSub: 'إجابات واضحة عن الوصول والخصوصية وما يحدث بعد التجربة.',
   faq: [
     {
-      q: 'هل يمكنني الإلغاء في أي وقت؟',
-      a: 'نعم. يمكنك الإلغاء من صفحة الفوترة في حسابك، ويبقى وصولك حتى نهاية المدة التي دفعتها بالفعل. لا توجد رسوم إلغاء ولا مدة إخطار.',
+      q: 'ماذا يحدث عند انتهاء تجربة الأيام الثلاثة؟',
+      a: 'لن تُحصّل منك أي مبالغ. ينتهي الوصول الكامل وينتقل حسابك إلى العينة المجانية الدائمة: وصول تشخيصي و١٠ أسئلة يوميًا. ويبقى عملك محفوظًا في حسابك.',
     },
     {
-      q: 'هل أحتاج بطاقة للبدء؟',
-      a: 'لا. تبدأ الخطة المجانية بتجربة ٧ أيام لخطة Adaptive كاملة دون طلب بطاقة. وعند انتهاء التجربة تنتقل إلى الخطة المجانية — تشخيص و١٠ أسئلة يوميًا — بدلًا من أن تُحصَّل منك أي مبالغ.',
+      q: 'ما مدة الفصل الدراسي؟',
+      a: 'مدة الفصل الدراسي ٣ أشهر من تاريخ التفعيل. تكلف ١٬٠٠٠ ج.م، وتوفّر ٢٠٠ ج.م مقارنة بثلاث مدد شهرية منفصلة.',
     },
     {
-      q: 'ماذا يحدث حين تنتهي أسئلة اليوم في الخطة المجانية؟',
-      a: 'تمنحك الخطة المجانية ١٠ أسئلة يوميًا. عند بلوغها ينتظر بنك الأسئلة حتى اليوم التالي؛ ولا يُسحب منك شيء مما كتبته أو أشّرت عليه أو علّقت به، وتظل المكتبة والقارئ ودفتر الملاحظات تعمل.',
+      q: 'هل تتجدد التجربة أو العضوية تلقائيًا؟',
+      a: 'تجربة دون بطاقة لا يمكن أن تتجدد أو تحصّل منك مبلغًا. وعند فتح الدفع المستضاف سيعرض لك صفحة الدفع المدة المختارة والمبلغ النهائي بالجنيه وشروط التجديد قبل أن تدفع.',
     },
     {
-      q: 'ما الفرق بين بنك الأسئلة وAdaptive؟',
-      a: 'بنك الأسئلة يمنحك البنك المعتمد كاملًا ويتيح لك بناء كتلك الخاصة حسب الجهاز والموضوع. أما Adaptive فيضيف الجزء الذي يقرّر بدلًا عنك: كتل موجّهة لنقاط ضعفك، وخطة دراسة مولّدة، ومراجعة متباعدة، وتقييمات جاهزية للامتحان. وينتقل معظم الناس للأعلى حين يبدأ اختيار ما يُذاكَر في استهلاك وقت أطول من المذاكرة نفسها.',
+      q: 'هل جامعتي مدعومة؟',
+      a: 'تظهر الجامعات والسنوات المتاحة أثناء الإعداد. يتوسع ربط المناهج دفعة بعد دفعة، لذلك لن تدخل إلا نطاقًا تدعمه Maristana حاليًا.',
     },
     {
-      q: 'هل أستطيع تغيير الخطة أو مدة الفوترة لاحقًا؟',
-      a: 'نعم، في الاتجاهين. الترقية تسري فورًا وتُحتسب بالتناسب لبقية المدة؛ والتخفيض يسري عند التجديد التالي حتى لا تفقد وصولًا دفعت ثمنه.',
+      q: 'من يستطيع معرفة أنني حصلت على منحة؟',
+      a: 'لا يراها أي طالب آخر. حالة المنحة خاصة ولا تظهر في الترتيب أو الملف الشخصي أو غرف الدراسة أو أي مساحة اجتماعية.',
     },
     {
-      q: 'كيف يقارن السعر السنوي بالشهري؟',
-      a: 'الالتزام الأطول يُحصَّل مرة واحدة وما يعادله شهريًا أقل. حوّل زر الفوترة أعلاه لترى سعر كل خطة لتلك المدة ومقدار ما توفّره مقارنة بالدفع الشهري. وأي مدة أُعلنت ولم تُفتح بعد تكون مُعلَّمة، ويظل بإمكانك رؤية تكلفتها.',
+      q: 'كيف يعمل الإلغاء والاسترداد؟',
+      a: 'لا تحتاج التجربة إلى إلغاء لأنها لا تطلب بطاقة. وستظهر سياسة الإلغاء والاسترداد المنشورة للوصول المدفوع أثناء الدفع قبل تأكيد أي عملية.',
     },
     {
-      q: 'هل يتوافق Connect Cortex مع منهج جامعتي؟',
-      a: 'المحتوى مرتّب حسب أجهزة الجسم عبر السنوات من الأولى إلى الخامسة، وهي طريقة تدريس معظم مناهج الطب، وكل حقيقة تحمل الكتاب والصفحة التي جاءت منها لتقارنها بقائمة قراءتك. وهو ليس بديلًا عن مادة كليتك، ولا يدّعي تغطية منهج جامعة بعينها.',
+      q: 'ماذا يحدث لملاحظاتي وملفاتي بعد انتهاء الوصول المدفوع؟',
+      a: 'تظل مرتبطة بحسابك. وتحافظ العينة المجانية على سجل تعلّمك بينما تتوقف خصائص العضوية الكاملة حتى تعيد تفعيل الوصول.',
     },
     {
-      q: 'هل أي من هذا إرشاد سريري؟',
-      a: 'لا. Connect Cortex أداة مذاكرة للتعليم الطبي الجامعي. لا شيء في المكتبة أو بنك الأسئلة أو العملي يُعدّ إرشادًا سريريًا، ولا يصحّ الاعتماد على أي منه في قرار يخص مريضًا.',
-    },
-    {
-      q: 'ماذا يحدث لملاحظاتي ومستنداتي إن توقفت عن الدفع؟',
-      a: 'تبقى في حسابك. الملاحظات والسبورات والإشارات والتعليقات والملفات التي رفعتها تظل ملكك وتظل قابلة للقراءة في الخطة المجانية؛ ويمكنك أيضًا طلب تصدير بياناتك أو حذفها في أي وقت.',
-    },
-    {
-      q: 'هل لديكم تسعير لدفعة كاملة أو لمؤسسة؟',
-      a: 'نعم — خطة Campus تُسعَّر لكل طالب لوصول وتحليلات على مستوى المؤسسة، وتُعرض بعرض سعر لا بسعر مُدرَج لأنها تعتمد على حجم الدفعة وقدر المنهج المطلوب ربطه. ابدأ بخطة عادية وأخبرنا بحجم الدفعة؛ لا شيء يضيع بالبدء فرديًا أولًا.',
-    },
-    {
-      q: 'بأي عملة الأسعار، وكيف تتم الفوترة؟',
-      a: 'الأسعار بالجنيه المصري (ج.م) وهي المبلغ الكامل — لا توجد رسوم تأسيس أو رسوم لكل سؤال أو لكل تنزيل. تختار شهريًا أو كل ٣ أشهر أو سنويًا، وتتجدّد الخطة على تلك الدورة حتى تلغيها.',
-    },
-    {
-      q: 'هل توجد نسخة لفترة الامتحانات فقط؟',
-      a: 'خطة Exam Sprint تغطي نطاق امتحان واحد محدّد لمدة ٣٠ يومًا: خطة مضغوطة، واختبارات محاكاة، وإصلاح تكيّفي، وتحليلات للسبرنت. وهي نطاق ثابت لثلاثين يومًا لا اشتراك، فلا تتجدّد.',
+      q: 'متى تتوفر مدة السنة الكاملة؟',
+      a: 'ستتوفر قريبًا. لن ننشر سعرًا إلا عندما يصبح الوصول السنوي جاهزًا للشراء؛ لا يوجد سعر افتراضي أو صفحة دفع عاملة حاليًا.',
     },
   ],
-
-  trustTitle: 'حسابك، وبياناتك',
-  trustSub: 'ما هو قائم في المنصة اليوم — لا خطة مستقبلية.',
-  trust: [
-    { icon: 'lock', label: 'تسجيل دخول بخطوتين', line: 'متاح لأي حساب، من قسم الأمان في ملفك الشخصي.' },
-    { icon: 'export', label: 'تصدير أو حذف', line: 'اطلب نسخة من بياناتك، أو حذفها، من قسم الخصوصية في حسابك.' },
-    { icon: 'shield', label: 'سجل تدقيق', line: 'الوصول الإداري لمحتوى المؤسسة مُسجَّل وغير قابل للتعديل.' },
-    { icon: 'globe', label: 'بالعربية والإنجليزية', line: 'الواجهة كاملة، بما فيها الاتجاه من اليمين لليسار — لا قشرة مترجمة.' },
-  ],
-
-  closingTitle: 'ابدأ بالخطة المجانية',
-  closingSub: 'سبعة أيام من خطة Adaptive كاملة، دون بطاقة. قرّر بعد أن تكون قد استخدمتها.',
-  closingPrimary: 'ابدأ مجانًا',
+  closingTitle: 'ابدأ بالمنتج، لا بنموذج دفع.',
+  closingSub: 'ثلاثة أيام كاملة في Maristana. دون بطاقة، ولن تُحصّل منك أي مبالغ عند انتهائها.',
+  closingPrimary: 'ابدأ ٣ أيام مجانًا',
   closingSecondary: 'تسجيل الدخول',
 }
 
-/** The pricing copy for a language, so the shared chrome can link to it. */
 export function pricingFor(lang: 'ar' | 'en'): PricingContent {
   return lang === 'ar' ? AR_PRICING : EN_PRICING
 }

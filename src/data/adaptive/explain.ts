@@ -137,7 +137,7 @@ export function shortageNotice(block: AdaptiveBlock): string | null {
  */
 export const STATUS_EXPLANATION: Record<ConceptState['status'], string> = {
   unmeasured: 'Not enough distinct questions yet to say anything about this.',
-  attention: 'One recent answer went wrong. Connect Cortex will check this again — this is not a weakness label.',
+  attention: 'One recent answer went wrong. Maristana will check this again — this is not a weakness label.',
   weak: 'Repeated evidence across different questions points to a real gap here.',
   developing: 'Measurable, but not yet strong enough to count as secure.',
   secure: 'Answered correctly across several distinct questions, including one after a gap of at least two days.',

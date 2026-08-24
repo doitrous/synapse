@@ -1,7 +1,15 @@
-import type { Bilingual, BillingPeriodDef, CatalogPlan, PlanCatalog, PlanFeature } from './planCatalog.ts'
+import {
+  MARISTANA_PLAN_ID,
+  PLAN_CATALOG_SCHEMA_VERSION,
+  type Bilingual,
+  type BillingPeriodDef,
+  type CatalogPlan,
+  type PlanCatalog,
+  type PlanFeature,
+} from './planCatalog.ts'
 
 /**
- * The catalogue Connect Cortex starts with, and how an older one is carried into it.
+ * The catalogue Maristana starts with, and how an older one is carried into it.
  *
  * The plans lived in `src/pages/landing/content.ts` as two hand-written lists —
  * one English, one Arabic — beside a third hand-written comparison table. The
@@ -17,8 +25,8 @@ const bi = (en: string, ar: string): Bilingual => ({ en, ar })
  * Billing periods.
  *
  * `quarterly` became `term`, which is what an academic year is actually divided
- * into and what the price was always describing. The year is priced and shown
- * but marked coming soon, so it advertises without offering.
+ * into. The year is shown without a price and marked coming soon, so it can be
+ * announced without inventing an offer.
  */
 export const SEED_PERIODS: BillingPeriodDef[] = [
   { id: 'month', label: bi('1 month', 'شهر واحد'), billedAs: bi('billed monthly', 'تُحصَّل شهريًا'), months: 1 },
@@ -75,8 +83,26 @@ export function featuresForColumn(column: 0 | 1 | 2): PlanFeature[] {
 
 const OPEN = { universityIds: [], years: [] }
 
+/**
+ * The complete membership is deliberately described as suites rather than
+ * tiers. These lines feed the admin and Billing surfaces as well as the public
+ * offer, so no one has to infer whether a capability is included.
+ */
+const MARISTANA_FEATURES: PlanFeature[] = [
+  { group: bi('Your curriculum', 'منهجك الدراسي'), label: bi('University schedule, modules and finals', 'جدول الجامعة والمقررات والامتحانات النهائية') },
+  { group: bi('Your curriculum', 'منهجك الدراسي'), label: bi('Personal calendar and daily plan', 'تقويمك الشخصي وخطتك اليومية') },
+  { group: bi('Practice Suite', 'مجموعة التدريب'), label: bi('MCQs, clinical cases, labs, imaging and essay practice', 'أسئلة اختيار وحالات سريرية ومعامل وأشعة وتدريب مقالي') },
+  { group: bi('Practice Suite', 'مجموعة التدريب'), label: bi('OSCE stations and virtual microscope', 'محطات OSCE والميكروسكوب الافتراضي') },
+  { group: bi('Adaptive study', 'المذاكرة التكيّفية'), label: bi('Concept mastery and targeted review', 'إتقان المفاهيم والمراجعة الموجّهة') },
+  { group: bi('Adaptive study', 'المذاكرة التكيّفية'), label: bi('Deep performance reports and anonymous cohort comparison', 'تقارير أداء متعمقة ومقارنة مجهولة مع الدفعة') },
+  { group: bi('Study workspace', 'مساحة المذاكرة'), label: bi('Synced PDF reader, notes, notebook and whiteboard', 'قارئ PDF متزامن وملاحظات ودفتر وسبورة') },
+  { group: bi('Study with people', 'ذاكر مع الآخرين'), label: bi('Study buddies, shared work and study parties', 'زملاء مذاكرة ومحتوى مشترك وجلسات جماعية') },
+  { group: bi('Study with people', 'ذاكر مع الآخرين'), label: bi('Pomodoro, challenges, minigames and Grow', 'بومودورو وتحديات وألعاب قصيرة وGrow') },
+]
+
 export function initialPlanCatalog(): PlanCatalog {
   return {
+    schemaVersion: PLAN_CATALOG_SCHEMA_VERSION,
     periods: structuredClone(SEED_PERIODS),
     plans: [
       {
@@ -92,6 +118,24 @@ export function initialPlanCatalog(): PlanCatalog {
         prices: { month: 0 },
         cta: bi('Start free', 'ابدأ مجانًا'),
         prominence: 'primary',
+        // Free is the permanent state after the trial, not a second product a
+        // new student has to choose beside the complete membership.
+        active: false,
+        ...OPEN,
+      },
+      {
+        id: MARISTANA_PLAN_ID,
+        name: bi('MARISTANA', 'MARISTANA'),
+        entitlement: bi(
+          'Complete Maristana access for your university and year, with a 3-day full trial and no card required.',
+          'وصول كامل إلى Maristana لجامعتك وسنتك، مع تجربة كاملة لمدة ٣ أيام دون بطاقة.',
+        ),
+        features: structuredClone(MARISTANA_FEATURES),
+        prices: { month: 400, term: 1000 },
+        featured: true,
+        badge: bi('Complete membership', 'العضوية الكاملة'),
+        cta: bi('Start 3 days free', 'ابدأ ٣ أيام مجانًا'),
+        prominence: 'primary',
         active: true,
         ...OPEN,
       },
@@ -106,7 +150,7 @@ export function initialPlanCatalog(): PlanCatalog {
         prices: { month: 99, term: 249, year: 799 },
         cta: bi('Subscribe', 'اشترك'),
         prominence: 'primary',
-        active: true,
+        active: false,
         ...OPEN,
       },
       {
@@ -122,7 +166,7 @@ export function initialPlanCatalog(): PlanCatalog {
         badge: bi('Best value', 'الأكثر قيمة'),
         cta: bi('Subscribe', 'اشترك'),
         prominence: 'primary',
-        active: true,
+        active: false,
         ...OPEN,
       },
       {
@@ -136,7 +180,7 @@ export function initialPlanCatalog(): PlanCatalog {
         prices: { month: 79, term: 199 },
         cta: bi('Add on', 'أضِف'),
         prominence: 'secondary',
-        active: true,
+        active: false,
         ...OPEN,
       },
       {
@@ -151,7 +195,7 @@ export function initialPlanCatalog(): PlanCatalog {
         fixedPeriod: bi('/ 30 days', '/ ٣٠ يومًا'),
         cta: bi('Start a sprint', 'ابدأ سبرنت'),
         prominence: 'secondary',
-        active: true,
+        active: false,
         ...OPEN,
       },
       {
@@ -166,7 +210,7 @@ export function initialPlanCatalog(): PlanCatalog {
         quoted: bi('Quoted', 'حسب الطلب'),
         cta: bi('Start, then talk to us', 'ابدأ ثم تواصل معنا'),
         prominence: 'secondary',
-        active: true,
+        active: false,
         ...OPEN,
       },
     ],
@@ -204,7 +248,10 @@ export function carryOverLegacyPlans(catalog: PlanCatalog, legacy: readonly Lega
       prices: { month: plan.priceEGP },
       cta: bi('Subscribe', 'اشترك'),
       prominence: 'secondary' as const,
-      active: plan.active,
+      // Legacy admin offers remain resolvable, but Maristana is the only new
+      // paid offer. Their original active state is historical data, not a
+      // licence to surface another acquisition card after the migration.
+      active: false,
       universityIds: plan.universityIds ?? [],
       years: plan.years ?? [],
     }))
@@ -212,11 +259,55 @@ export function carryOverLegacyPlans(catalog: PlanCatalog, legacy: readonly Lega
   return extra.length ? { ...catalog, plans: [...catalog.plans, ...extra] } : catalog
 }
 
+/** The unversioned shape persisted before the Maristana launch. */
+export type StoredPlanCatalog = Omit<PlanCatalog, 'schemaVersion'> & { schemaVersion?: number }
+
+/**
+ * Upgrade an unversioned tier catalogue without deleting anything it referred
+ * to. Old plan ids, names and prices remain intact for subscription lookup and
+ * finance history; only their availability to new students is switched off.
+ */
+export function migratePlanCatalog(stored: StoredPlanCatalog): PlanCatalog {
+  const seed = initialPlanCatalog()
+  const seedById = new Map(seed.plans.map((plan) => [plan.id, plan]))
+
+  const free = seedById.get('free')!
+  const maristana = seedById.get(MARISTANA_PLAN_ID)!
+  const retained = stored.plans
+    .filter((plan) => plan.id !== 'free' && plan.id !== MARISTANA_PLAN_ID)
+    .map((plan) => ({ ...plan, active: false }))
+  const retainedIds = new Set(retained.map((plan) => plan.id))
+  const missingHistorical = seed.plans.filter((plan) => (
+    plan.id !== 'free'
+    && plan.id !== MARISTANA_PLAN_ID
+    && !retainedIds.has(plan.id)
+  ))
+
+  const seedPeriodIds = new Set(seed.periods.map((period) => period.id))
+  const extraPeriods = (stored.periods ?? []).filter((period) => !seedPeriodIds.has(period.id))
+
+  return {
+    schemaVersion: PLAN_CATALOG_SCHEMA_VERSION,
+    periods: [...structuredClone(seed.periods), ...structuredClone(extraPeriods)],
+    plans: [
+      // The canonical sampler and launch offer intentionally win over an old
+      // admin edit: their public price, trial and scope are launch facts.
+      structuredClone(free),
+      structuredClone(maristana),
+      ...retained,
+      ...missingHistorical,
+    ],
+  }
+}
+
 /**
  * The catalogue to use: what was stored, or a fresh seed with any older
  * admin-added plans folded in.
  */
-export function resolvePlanCatalog(stored: PlanCatalog | null, legacy: readonly LegacyPlanDef[] = []): PlanCatalog {
-  if (stored?.plans?.length) return stored
+export function resolvePlanCatalog(stored: StoredPlanCatalog | PlanCatalog | null, legacy: readonly LegacyPlanDef[] = []): PlanCatalog {
+  if (stored?.plans?.length) {
+    if (stored.schemaVersion === PLAN_CATALOG_SCHEMA_VERSION) return stored as PlanCatalog
+    return migratePlanCatalog(stored)
+  }
   return carryOverLegacyPlans(initialPlanCatalog(), legacy)
 }

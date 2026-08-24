@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import { Minimize2 } from 'lucide-react'
 import type { Portal } from './nav'
@@ -24,6 +24,9 @@ function AppShellInner({ portal }: { portal: Portal }) {
   const [focusMode, , toggleFocusMode] = useLocalPreference('synapse.shell.focusMode', false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [searchOpen, setSearchOpen] = useState(false)
+  const mobileButtonRef = useRef<HTMLButtonElement>(null)
+  const drawerRef = useRef<HTMLDivElement>(null)
+  const mainRef = useRef<HTMLElement>(null)
   const { pathname } = useLocation()
   const { immersive } = useImmersion()
   // The student's own preference is never written by a test — it is only
@@ -34,11 +37,28 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // "/app/resources" are one destination, "/app/library" is another.
   const section = pathname.split('/').slice(0, 3).join('/')
 
+  function openMobile() {
+    setMobileOpen(true)
+  }
+
+  function closeMobile() {
+    setMobileOpen(false)
+    window.setTimeout(() => mobileButtonRef.current?.focus(), 0)
+  }
+
+  function typingTarget(target: EventTarget | null): boolean {
+    const element = target instanceof HTMLElement ? target : null
+    if (!element) return false
+    if (element.isContentEditable) return true
+    return Boolean(element.closest('input, textarea, select, [contenteditable="true"]'))
+  }
+
   // Focus mode hides the chrome, which would also hide the only way back out.
   // Escape is that way out, and it is the key people already try.
   useEffect(() => {
     if (!focusMode) return
     function onKey(event: KeyboardEvent) {
+      if (typingTarget(event.target)) return
       if (event.key === 'Escape') toggleFocusMode()
     }
     window.addEventListener('keydown', onKey)
@@ -48,6 +68,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Global ⌘K / Ctrl-K to toggle search.
   useEffect(() => {
     function onKey(e: KeyboardEvent) {
+      if (typingTarget(e.target)) return
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault()
         setSearchOpen((v) => !v)
@@ -60,13 +81,41 @@ function AppShellInner({ portal }: { portal: Portal }) {
   // Close the mobile drawer whenever the route changes.
   useEffect(() => setMobileOpen(false), [pathname])
 
+  useEffect(() => {
+    mainRef.current?.focus({ preventScroll: true })
+  }, [section])
+
   // Keep the page behind the mobile navigation still while the drawer is open.
   useEffect(() => {
     if (!mobileOpen) return
     const previous = document.body.style.overflow
     document.body.style.overflow = 'hidden'
+    const drawer = drawerRef.current
+    const focusable = drawer?.querySelector<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])')
+    window.setTimeout(() => focusable?.focus(), 0)
+    function trap(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        event.preventDefault()
+        closeMobile()
+        return
+      }
+      if (event.key !== 'Tab' || !drawerRef.current) return
+      const items = Array.from(drawerRef.current.querySelectorAll<HTMLElement>('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'))
+      if (!items.length) return
+      const first = items[0]
+      const last = items[items.length - 1]
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault()
+        last.focus()
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault()
+        first.focus()
+      }
+    }
+    document.addEventListener('keydown', trap)
     return () => {
       document.body.style.overflow = previous
+      document.removeEventListener('keydown', trap)
     }
   }, [mobileOpen])
 
@@ -96,10 +145,10 @@ function AppShellInner({ portal }: { portal: Portal }) {
             type="button"
             aria-label={t('Close navigation')}
             className="absolute inset-0 size-full cursor-default bg-ink/30 animate-fade"
-            onClick={() => setMobileOpen(false)}
+            onClick={closeMobile}
           />
-          <div className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop">
-            <Sidebar portal={portal} collapsed={false} onNavigate={() => setMobileOpen(false)} />
+          <div ref={drawerRef} className="animate-slide-x absolute inset-y-0 start-0 w-[min(18rem,calc(100vw-3rem))] overscroll-contain border-e border-line pb-[env(safe-area-inset-bottom)] shadow-pop">
+            <Sidebar portal={portal} collapsed={false} onNavigate={closeMobile} />
           </div>
         </div>
       )}
@@ -115,7 +164,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
           portal={portal}
           focusMode={focusMode}
           onToggleFocusMode={toggleFocusMode}
-          onOpenMobile={() => setMobileOpen(true)}
+          mobileButtonRef={mobileButtonRef}
+          onOpenMobile={openMobile}
           onOpenSearch={() => setSearchOpen(true)}
         />
         {/* Keyed on the destination, so the arriving screen re-settles by 8px.
@@ -124,7 +174,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
             and remounting there would throw away the reader's page and zoom.
             The class is on <main> itself rather than an inner wrapper, so
             pages that size themselves against it keep their height contract. */}
-        <main key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
+        <main ref={mainRef} key={section} id="main-content" className="min-w-0 flex-1 animate-screen-in" tabIndex={-1}>
           <Outlet />
         </main>
       </div>

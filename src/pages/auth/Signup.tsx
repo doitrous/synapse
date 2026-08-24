@@ -10,6 +10,7 @@ import { authErrorMessage } from './authMessages'
 import { rememberPendingEmail } from './pendingEmail'
 import { CONFLICT_MESSAGE, MIN_PASSWORD, normalisePhone, signInPathFor } from '@/data/accountIdentity'
 import { identityConflict } from '@/lib/accountExists'
+import { SocialAuthButtons } from './SocialAuthButtons'
 
 const ownership = [
   { icon: BookOpenText, title: 'Notes and highlights', detail: 'Annotations, personal articles, tags, and reading state.' },
@@ -118,10 +119,16 @@ export function Signup() {
   )
 
   return (
-    <AuthLayout step="account" title="Create your Connect Cortex account" description="One account for your study record. Verify your email, then choose your university, year and plan. A second factor is optional and can be added later." aside={aside}>
+    <AuthLayout step="account" title="Create your Maristana account" description="One account for your study record. Verify your email, then choose your university, year and plan. A second factor is optional and can be added later." aside={aside}>
       <form className="space-y-4" onSubmit={submit}>
         {!isSupabaseConfigured && <div className="rounded-lg border border-warning/30 bg-warning-tint px-3.5 py-3 text-[12.5px] leading-relaxed text-ink-2">Account service awaiting Supabase project keys. The form is ready and dashboard preview stays open.</div>}
         {error && <div role="alert" className="flex gap-2 rounded-lg border border-danger/30 bg-danger-tint px-3.5 py-3 text-[12.5px] text-danger"><Icon icon={AlertCircle} size={16} className="mt-0.5 shrink-0" />{error}</div>}
+        <SocialAuthButtons mode="sign up" redirectTo={`${window.location.origin}/app`} />
+        <div className="flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
+          <span className="h-px flex-1 bg-line" />
+          Email
+          <span className="h-px flex-1 bg-line" />
+        </div>
         <Field label="Full name" htmlFor="signup-name"><TextInput id="signup-name" autoComplete="name" required minLength={2} value={name} onChange={(event) => setName(event.target.value)} /></Field>
         <Field label="University email" htmlFor="signup-email"><TextInput id="signup-email" type="email" autoComplete="email" required value={email} onChange={(event) => setEmail(event.target.value)} placeholder="you@university.edu" /></Field>
         <div className="grid gap-4 sm:grid-cols-2">

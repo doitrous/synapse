@@ -255,7 +255,7 @@ export function EmailAutomations() {
         <Icon icon={configured ? KeyRound : Info} size={16} className={configured ? 'text-success' : 'text-warning'} />
         <span className="flex-1 text-ink">
           {transport === 'backend'
-            ? 'Live sending is on. Mail goes through the Connect Cortex backend to Resend, and every message is recorded in Mail Box.'
+            ? 'Live sending is on. Mail goes through the Maristana backend to Resend, and every message is recorded in Mail Box.'
             : transport === 'endpoint'
               ? 'Live sending is on via the configured email function.'
               : 'Demo mode — emails are recorded but not sent. This build has no backend; set RESEND_API_KEY on the server, or VITE_EMAIL_ENDPOINT for a static demo.'}

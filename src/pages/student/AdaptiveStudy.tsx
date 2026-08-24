@@ -1,7 +1,7 @@
 /**
  * Adaptive Study.
  *
- * Connect Cortex selects the most useful next learning action while preserving exam
+ * Maristana selects the most useful next learning action while preserving exam
  * coverage, medical-content safety, student autonomy, and an auditable
  * explanation. It optimises preparation quality — not engagement volume, and
  * not a guaranteed exam result.
@@ -54,7 +54,7 @@ export function AdaptiveStudy() {
     <PageContainer>
       <PageHeader
         title={t('Adaptive Study')}
-        description={t('Connect Cortex keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.')}
+        description={t('Maristana keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.')}
         actions={
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="outline">{t('Algorithm')} v{study.config.version}</Badge>

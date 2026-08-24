@@ -210,7 +210,7 @@ const journeyMetrics = Object.fromEntries(JOURNEYS.map(({ name }) => [name, { us
 const startedAt = new Date()
 const testStarted = performance.now()
 
-console.log(`Connect Cortex load simulation: ${users.toLocaleString()} simultaneous students → ${target.origin}`)
+console.log(`Maristana load simulation: ${users.toLocaleString()} simultaneous students → ${target.origin}`)
 for (const journey of JOURNEYS) {
   console.log(`  ${journey.name.padEnd(14)} ${resourcesByJourney.get(journey.name).length + 1} requests per fresh session`)
 }

@@ -316,7 +316,7 @@ function SkillRow({ skill, status, onCycle }: { skill: Skill; status: SkillStatu
  * headline claiming "14 / 22 signed off". A student can now record what they
  * have practised and what they are ready to be assessed on — and the copy is
  * explicit that this is their own record, not a sign-off, because no assessor
- * identity exists in Connect Cortex to give one.
+ * identity exists in Maristana to give one.
  */
 function SkillsTab() {
   const categories = ['Examination', 'Procedures', 'Communication'] as const
@@ -345,7 +345,7 @@ function SkillsTab() {
 
       <p className="flex items-start gap-2 rounded-lg border border-line bg-surface-2/40 px-3.5 py-2.5 text-[12px] leading-relaxed text-ink-2">
         <Icon icon={CircleCheck} size={14} className="mt-0.5 shrink-0 text-ink-3" />
-        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Connect Cortex.
+        This is your own record of what you have practised. A formal sign-off is given by an assessor and is not recorded in Maristana.
       </p>
 
       {categories.map((cat) => {

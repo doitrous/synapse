@@ -5,9 +5,9 @@ import { useEffect } from 'react'
  *
  * `index.html` carries the head for the site as a whole, which is the right
  * default for a single-page app and the wrong one for a page that has its own
- * search intent. Somebody searching "Connect Cortex pricing" should land on a result
+ * search intent. Somebody searching "Maristana pricing" should land on a result
  * whose title and snippet are about pricing, and an answer engine asked "does
- * Connect Cortex refund?" should find the answer as structured data rather than infer
+ * Maristana refund?" should find the answer as structured data rather than infer
  * it from a paragraph.
  *
  * Everything set here is reverted on unmount, so navigating away restores the
@@ -28,6 +28,8 @@ export interface PageMeta {
   canonical?: string
   /** `hreflang` → path, for the same page in the other language. */
   alternates?: Record<string, string>
+  /** Route-specific social image path. */
+  ogImage?: string
   /** JSON-LD objects injected as `application/ld+json`. */
   jsonLd?: unknown[]
 }
@@ -46,10 +48,10 @@ function upsert(selector: string, create: () => HTMLElement, apply: (el: HTMLEle
   return () => created.remove()
 }
 
-export function usePageMeta({ title, description, canonical, alternates, jsonLd }: PageMeta): void {
+export function usePageMeta({ title, description, canonical, alternates, ogImage, jsonLd }: PageMeta): void {
   // Serialised so the effect re-runs on content change rather than on every
   // render — the objects here are literals rebuilt by their parent each time.
-  const key = JSON.stringify({ title, description, canonical, alternates, jsonLd })
+  const key = JSON.stringify({ title, description, canonical, alternates, ogImage, jsonLd })
 
   useEffect(() => {
     const undo: (() => void)[] = []
@@ -76,6 +78,20 @@ export function usePageMeta({ title, description, canonical, alternates, jsonLd 
       () => document.createElement('meta'),
       (el) => { el.setAttribute('property', 'og:description'); el.setAttribute('content', description) },
     ))
+
+    if (ogImage) {
+      const image = `${SITE_ORIGIN}${ogImage}`
+      undo.push(upsert(
+        'meta[property="og:image"]',
+        () => document.createElement('meta'),
+        (el) => { el.setAttribute('property', 'og:image'); el.setAttribute('content', image) },
+      ))
+      undo.push(upsert(
+        'meta[name="twitter:image"]',
+        () => document.createElement('meta'),
+        (el) => { el.setAttribute('name', 'twitter:image'); el.setAttribute('content', image) },
+      ))
+    }
 
     if (canonical) {
       const href = `${SITE_ORIGIN}${canonical}`

@@ -199,7 +199,7 @@ export function Account() {
   const [discoverable, setDiscoverableState] = useState(true)
 
   const patch = (next: Partial<AccountPrefs>) => setPrefs((current) => ({ ...current, ...next }))
-  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Connect Cortex profile change request')}`
+  const supportLink = `mailto:${SUPPORT_ADDRESS}?subject=${encodeURIComponent('Maristana profile change request')}`
 
   useEffect(() => {
     if (!API_MODE) return
@@ -300,7 +300,7 @@ export function Account() {
                 product updates — were read by nothing at all. They return when
                 email delivery actually consults a preference. */}
             <p className="border-t border-line px-5 py-3 text-[11.5px] leading-relaxed text-ink-3">
-              {t('Email preferences are not configurable yet. Connect Cortex only emails you about your account.')}
+              {t('Email preferences are not configurable yet. Maristana only emails you about your account.')}
             </p>
           </Panel>
         </div>
@@ -379,7 +379,7 @@ export function Account() {
           <Panel>
             <PanelHeader title={t('Support')} icon={LifeBuoy} />
             <div className="p-4">
-              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Connect Cortex team')}</Button></a>
+              <a href={supportLink}><Button className="w-full justify-start" variant="ghost" iconLeft={LifeBuoy}>{t('Email the Maristana team')}</Button></a>
             </div>
           </Panel>
         </div>
