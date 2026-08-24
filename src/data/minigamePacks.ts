@@ -13,6 +13,8 @@ import { seededRandom, shuffle } from './seededRandom.ts'
 
 export type MiniGameKind = 'clinical_sequence' | 'mechanism_chain' | 'red_flag_sort'
 
+export const MINIGAME_PACKS_STORAGE_KEY = 'synapse-minigame-packs-v1'
+
 export interface MiniGameSource {
   label: string
   reviewedBy: string
@@ -57,6 +59,22 @@ export interface RedFlagSortPack extends BasePack {
 }
 
 export type MiniGamePack = OrderedMiniGamePack | RedFlagSortPack
+
+export interface MiniGamePackDocument {
+  version: 1
+  status: 'In review' | 'Published'
+  validationStatus: 'validated'
+  updatedAt: string
+  packs: MiniGamePack[]
+}
+
+export const EMPTY_MINIGAME_PACK_DOCUMENT: MiniGamePackDocument = {
+  version: 1,
+  status: 'In review',
+  validationStatus: 'validated',
+  updatedAt: '1970-01-01T00:00:00.000Z',
+  packs: [],
+}
 
 export const MINI_GAME_PACKS: MiniGamePack[] = [
   {

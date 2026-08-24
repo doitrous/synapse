@@ -56,6 +56,7 @@ export function Whiteboard() {
   const t = useT()
   const navigate = useNavigate()
   const documents = useMyDocuments()
+  const uploadDocument = documents.upload
   const identity = useIdentity()
   const canvasRef = useRef<HTMLDivElement>(null)
   const minimapRef = useRef<HTMLDivElement>(null)
@@ -124,6 +125,7 @@ export function Whiteboard() {
   const boardRef = useRef(board)
   const history = useRef<BoardState[]>([])
   const future = useRef<BoardState[]>([])
+  const migratingImages = useRef(new Set<string>())
   viewRef.current = view
   boardRef.current = board
 
@@ -136,6 +138,28 @@ export function Whiteboard() {
       year: identity.audience.year,
     }))
   }, [identity.audience.universityId, identity.audience.year, identity.displayName, identity.loading, identity.userId, legacyBoard, setCollection])
+
+  // Connected accounts lazily move legacy inline/IndexedDB pictures into the
+  // same managed asset ledger as new board uploads. Placement is untouched.
+  useEffect(() => {
+    if (!API_MODE) return
+    const legacy = imagesOf(board).find((image) => image.src && !image.documentId && !migratingImages.current.has(`${activeBoardId}:${image.id}`))
+    if (!legacy?.src) return
+    const key = `${activeBoardId}:${legacy.id}`
+    migratingImages.current.add(key)
+    let revoke = false
+    let source = ''
+    void resolveMediaSource(legacy.src)
+      .then(async (resolved) => {
+        source = resolved.url
+        revoke = resolved.revoke
+        const blob = await fetch(resolved.url).then((response) => response.blob())
+        return uploadDocument(new File([blob], legacy.alt || `${legacy.id}.jpg`, { type: blob.type || 'image/jpeg' }), undefined, { kind: 'whiteboard', id: activeBoardId })
+      })
+      .then((documentId) => setBoard((current) => ({ ...current, images: imagesOf(current).map((image) => image.id === legacy.id ? { ...image, documentId, src: undefined } : image) })))
+      .catch(() => migratingImages.current.delete(key))
+      .finally(() => { if (revoke && source) URL.revokeObjectURL(source) })
+  }, [activeBoardId, board, setBoard, uploadDocument])
 
   useEffect(() => {
     history.current = []
@@ -537,7 +561,7 @@ export function Whiteboard() {
           return size
         })
         .catch(() => ({ width: 4, height: 3 }))
-      const documentId = await documents.upload(file)
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
       const centre = centerPoint()
       const height = IMAGE_W * (shape.height / Math.max(1, shape.width))
       const placed = clampToBoard({ x: centre.x - IMAGE_W / 2, y: centre.y - height / 2 }, { width: IMAGE_W, height })
@@ -567,7 +591,7 @@ export function Whiteboard() {
     setAttachError('')
     setAttaching('file')
     try {
-      const documentId = await documents.upload(file)
+      const documentId = await documents.upload(file, undefined, { kind: 'whiteboard', id: activeBoardId })
       const centre = centerPoint()
       const placed = clampToBoard({ x: centre.x - FILE_W / 2, y: centre.y - FILE_H / 2 }, { width: FILE_W, height: FILE_H })
       remember()

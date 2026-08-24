@@ -53,7 +53,7 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
   { id: 'adaptive', label: 'Adaptive Learning', to: '/admin/adaptive', icon: Compass, group: 'Content',
     stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'], apiPrefixes: [] },
   { id: 'practical', label: 'Practical Setup', to: '/admin/practical', icon: Stethoscope, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-minigame-packs-v1', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'flashcards', label: 'Flashcards Setup', to: '/admin/flashcards', icon: Layers, group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'written', label: 'Written Setup', to: '/admin/written', icon: PenLine, group: 'Content',

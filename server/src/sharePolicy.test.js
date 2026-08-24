@@ -4,6 +4,7 @@ import {
   MAX_PAYLOAD_BYTES, mayChangeAccess, mayRead, mayWrite, readPayload, readTitle, readTopics,
   revisionVerdict, sameCohort, viewerRights,
 } from './sharePolicy.js'
+import { assetsWithinAllowlist, payloadDocumentIds, payloadReferencesDocument } from './shares.js'
 
 const OWNER = 'user-owner'
 const OTHER = 'user-other'
@@ -16,10 +17,10 @@ test('a private share is visible only to its owner', () => {
   assert.equal(mayRead(share('private'), null), false)
 })
 
-test('a read-only share opens for anybody holding the link, account or not', () => {
-  assert.equal(mayRead(share('view'), null), true)
+test('a read-only share opens for a signed-in link holder, never anonymously', () => {
+  assert.equal(mayRead(share('view'), null), false)
   assert.equal(mayRead(share('view'), OTHER), true)
-  assert.equal(mayRead(share('edit'), null), true)
+  assert.equal(mayRead(share('edit'), null), false)
 })
 
 test('revoking a link stops it opening, not merely stops it being offered', () => {
@@ -133,4 +134,19 @@ test('cohort discovery only matches the exact same university and year', () => {
   assert.equal(sameCohort({ university_id: 'ain-shams', year: 'year-2' }, { university_id: 'cairo', year: 'year-2' }), false)
   assert.equal(sameCohort({ university_id: 'ain-shams', year: 'year-2' }, { university_id: 'ain-shams', year: 'year-3' }), false)
   assert.equal(sameCohort({ university_id: null, year: 'year-2' }, { university_id: 'ain-shams', year: 'year-2' }), false)
+})
+
+test('share assets must be explicitly referenced by a managed-media field', () => {
+  const payload = {
+    imageDocumentId: 'note-image',
+    board: { images: [{ documentId: 'board-image' }], files: [{ documentId: 'board-file' }] },
+    prose: 'mentioning secret-file here must not expose it',
+  }
+  assert.equal(payloadReferencesDocument(payload, 'note-image'), true)
+  assert.equal(payloadReferencesDocument(payload, 'board-image'), true)
+  assert.equal(payloadReferencesDocument(payload, 'board-file'), true)
+  assert.equal(payloadReferencesDocument(payload, 'secret-file'), false)
+  assert.deepEqual(payloadDocumentIds(payload).sort(), ['board-file', 'board-image', 'note-image'])
+  assert.equal(assetsWithinAllowlist(payloadDocumentIds(payload), new Set(['note-image', 'board-image', 'board-file'])), true)
+  assert.equal(assetsWithinAllowlist([...payloadDocumentIds(payload), 'guessed-owner-file'], new Set(['note-image', 'board-image', 'board-file'])), false)
 })

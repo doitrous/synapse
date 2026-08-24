@@ -154,6 +154,11 @@ one of the three supported medicine games:
 - `mechanism_chain`
 - `red_flag_sort`
 
+Import these packs through `/admin/import/minigame`. Passing the row validator
+places the pack library **In review**. It cannot appear in solo or party games
+until a reviewer separately checks the medical facts and source metadata and
+uses **Publish reviewed packs**. Any later import returns the library to review.
+
 Shared minigame fields:
 
 - `id`

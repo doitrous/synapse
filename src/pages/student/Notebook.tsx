@@ -16,13 +16,14 @@ import { NoteEditor } from '@/components/notebook/NoteEditor'
 import { DocumentRefs } from '@/components/notebook/DocumentRefs'
 import { useLiveLibrary } from '@/lib/useLiveLibrary'
 import { formatRelativeTime } from '@/lib/format'
-import { imageFileToBoundedDataUrl } from '@/lib/mediaStorage'
+import { resolveMediaSource } from '@/lib/mediaStorage'
 import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
 import { ShareDialog } from '@/components/share/ShareDialog'
 import { useT } from '@/lib/i18n'
 import { overlayPortal } from '@/lib/overlayPortal'
-import { API_MODE } from '@/lib/api'
+import { API_MODE, apiFetchBlob } from '@/lib/api'
 import { setShareFollow, setShareStar, useSharedDocuments, type ShareSummary } from '@/lib/useShares'
+import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
 
 type NotebookTab = 'your' | 'shared'
 
@@ -55,14 +56,31 @@ export function Notebook() {
   const [pendingCapture, setPendingCapture] = useState<NoteCapturePayload | null>(null)
   const [captureTarget, setCaptureTarget] = useState('')
   const sharedNotes = useSharedDocuments('note')
+  const documents = useMyDocuments()
+  const uploadDocument = documents.upload
   const handledArticle = useRef<string | null>(null)
   const handledCapture = useRef(false)
+  const migratingImages = useRef(new Set<string>())
 
   useEffect(() => {
     if (notes.some((entry) => !entry.editorJson || entry.plainText === undefined)) {
       setNotes((current) => current.map(ensureNotebookEditor))
     }
   }, [notes, setNotes])
+
+  // Existing notes may still carry a bounded data URL from the old editor.
+  // Move it once into the managed asset ledger so it syncs, is quota-counted,
+  // and is not re-uploaded with every later note edit.
+  useEffect(() => {
+    const legacy = notes.find((entry) => entry.imageData?.startsWith('data:') && !entry.imageDocumentId && !migratingImages.current.has(entry.id))
+    if (!legacy?.imageData) return
+    migratingImages.current.add(legacy.id)
+    void fetch(legacy.imageData)
+      .then((response) => response.blob())
+      .then((blob) => uploadDocument(new File([blob], `${legacy.id}-image.${blob.type.includes('png') ? 'png' : 'jpg'}`, { type: blob.type || 'image/jpeg' }), undefined, { kind: 'notebook', id: legacy.id }))
+      .then((imageDocumentId) => setNotes((current) => current.map((entry) => entry.id === legacy.id ? { ...entry, imageDocumentId, imageData: undefined, updatedAt: new Date().toISOString() } : entry)))
+      .catch(() => migratingImages.current.delete(legacy.id))
+  }, [notes, setNotes, uploadDocument])
 
   const needle = query.trim().toLowerCase()
   const filtered = notes.filter(
@@ -147,8 +165,8 @@ export function Notebook() {
     event.preventDefault()
     const noteId = note.id
     setImageError(null)
-    imageFileToBoundedDataUrl(file)
-      .then((imageData) => update(noteId, { imageData }))
+    documents.upload(file, undefined, { kind: 'notebook', id: noteId })
+      .then((imageDocumentId) => update(noteId, { imageDocumentId, imageData: undefined }))
       .catch((error: unknown) => setImageError(error instanceof Error ? error.message : t('That image could not be attached.')))
   }
 
@@ -328,7 +346,7 @@ export function Notebook() {
               />
             </div>
 
-            {editorNote.imageData && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ZoomableImage src={editorNote.imageData} alt="Pasted into this note" className="max-h-96 w-full object-contain" /><IconButton icon={X} label="Remove image" size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(editorNote.id, { imageData: undefined })} /></div>}
+            {(editorNote.imageDocumentId || editorNote.imageData) && <div className="relative mt-4 overflow-hidden rounded-lg border border-line bg-surface"><ManagedNotebookImage document={documents.items.find((item) => item.id === editorNote.imageDocumentId)} documentId={editorNote.imageDocumentId} legacySource={editorNote.imageData} /><IconButton icon={X} label="Remove image" size="sm" className="absolute right-2 top-2 bg-surface shadow-panel" onClick={() => update(editorNote.id, { imageDocumentId: undefined, imageData: undefined })} /></div>}
 
             <div className="mt-5">
               <NoteEditor
@@ -352,7 +370,7 @@ export function Notebook() {
               handle={`note:${editorNote.id}`}
               kind="note"
               title={editorNote.title || t('Untitled note')}
-              payload={() => ({ title: editorNote.title, editorJson: editorNote.editorJson, plainText: editorNote.plainText, legacyMarkdownSource: editorNote.legacyMarkdownSource, tags: editorNote.tags, subjectId: editorNote.subjectId, subtopicId: editorNote.subtopicId, revision: editorNote.revision })}
+              payload={() => ({ title: editorNote.title, editorJson: editorNote.editorJson, plainText: editorNote.plainText, legacyMarkdownSource: editorNote.legacyMarkdownSource, imageDocumentId: editorNote.imageDocumentId, imageData: editorNote.imageData, tags: editorNote.tags, subjectId: editorNote.subjectId, subtopicId: editorNote.subtopicId, revision: editorNote.revision })}
             />
           </div>
         ) : (
@@ -414,6 +432,47 @@ export function Notebook() {
       )}
     </div>
   )
+}
+
+function ManagedNotebookImage({ document, documentId, legacySource }: { document?: MyDocument; documentId?: string; legacySource?: string }) {
+  const t = useT()
+  const [source, setSource] = useState(legacySource ?? '')
+  const [error, setError] = useState('')
+
+  useEffect(() => {
+    let active = true
+    let revoke = false
+    let resolvedUrl = ''
+    if (legacySource) { setSource(legacySource); return undefined }
+    if (!documentId) return undefined
+    setSource('')
+    setError('')
+    void (async () => {
+      try {
+        if (!API_MODE && document?.ref) {
+          const resolved = await resolveMediaSource(document.ref)
+          resolvedUrl = resolved.url
+          revoke = resolved.revoke
+        } else {
+          const blob = await apiFetchBlob(`/my-documents/${encodeURIComponent(documentId)}/file`)
+          resolvedUrl = URL.createObjectURL(blob)
+          revoke = true
+        }
+        if (active) setSource(resolvedUrl)
+        else if (revoke) URL.revokeObjectURL(resolvedUrl)
+      } catch {
+        if (active) setError(t('That notebook image could not be loaded.'))
+      }
+    })()
+    return () => {
+      active = false
+      if (revoke && resolvedUrl) URL.revokeObjectURL(resolvedUrl)
+    }
+  }, [document?.ref, documentId, legacySource, t])
+
+  if (error) return <p role="alert" className="p-4 text-center text-[12px] text-danger">{error}</p>
+  if (!source) return <p role="status" className="p-4 text-center text-[12px] text-ink-3">{t('Loading image…')}</p>
+  return <ZoomableImage src={source} alt={document?.title ?? t('Pasted into this note')} className="max-h-96 w-full object-contain" />
 }
 
 function parseCapture(raw: string): NoteCapturePayload {

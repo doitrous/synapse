@@ -43,7 +43,7 @@ export const ADMIN_TABS = [
     stateKeys: ['synapse-adaptive-config-v1', 'synapse-adaptive-blueprints-v1', 'synapse-adaptive-heldout-v1'],
     apiPrefixes: [] },
   { id: 'practical', to: '/admin/practical', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-minigame-packs-v1', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'flashcards', to: '/admin/flashcards', group: 'Content',
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-import-journal-v1'], apiPrefixes: [] },
   { id: 'written', to: '/admin/written', group: 'Content',

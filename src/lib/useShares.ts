@@ -5,19 +5,17 @@ import { usePersistentState } from './usePersistentState'
 /**
  * Notes and whiteboards published behind a link.
  *
- * A share is a *copy*, taken when it is published. The student's own note keeps
- * working exactly as it did whether or not it has ever been shared, revoking a
- * link cannot damage the original, and a classmate editing a shared copy cannot
- * reach back into a private notebook. Sharing again republishes to the same
- * link, so a link that has been handed out keeps working and keeps being the
- * current version.
+ * A share begins as a copy when it is published. The student's private source
+ * remains independent, while the shared copy gains server-checked revisions so
+ * classmates can collaborate without silently overwriting newer work. Sharing
+ * again republishes to the same link.
  *
  * The permission is the server's decision, always — `canEdit` on a read is what
  * the server says this viewer may do, not something worked out here.
  */
 
 export type ShareKind = 'note' | 'whiteboard'
-/** private: only the owner. view: anybody with the link. edit: and they may write. */
+/** private: only the owner. View/edit links stay inside the owner's cohort. */
 export type ShareAccess = 'private' | 'view' | 'edit'
 
 export interface SharedDocument<T = unknown> {

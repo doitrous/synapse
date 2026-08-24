@@ -21,7 +21,6 @@ import { conceptFromRow, materialiseNewConcept, mergeConcept, resolvePlacement, 
 import { CURRICULUM_CATALOG } from '../src/data/curriculumCatalog.ts'
 import { importRowToContent, practicalDataFrom, validateImportRow } from '../src/data/bulkImport.ts'
 import { miniGamePackFromRow, validateMiniGameRow } from '../src/data/minigameImport.ts'
-import { MINI_GAME_PACKS } from '../src/data/minigamePacks.ts'
 import { materialiseNewItem, mergeContentItem, upsertRecords } from '../src/data/importMerge.ts'
 import {
   evidenceErrors, reconcileClaimEvidence,
@@ -43,6 +42,7 @@ if (!files.length) throw new Error('Give at least one batch file')
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 const GRAPH_KEY = 'synapse-concept-graph-v2'
 const EVIDENCE_KEY = 'synapse-medical-evidence-v1'
+const MINIGAME_PACKS_KEY = 'synapse-minigame-packs-v1'
 
 const normalize = (value) => value.trim().toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')
 
@@ -66,6 +66,8 @@ const state = bundle.states
 const graph = structuredClone(state[GRAPH_KEY] ?? { concepts: [], relations: [] })
 const evidence = structuredClone(state[EVIDENCE_KEY] ?? { claims: [], citations: [], resources: [], articleSpans: [], merges: [], coverage: [] })
 const ledger = structuredClone(state[LEDGER_KEY] ?? [])
+let gamePacks = structuredClone(Array.isArray(state[MINIGAME_PACKS_KEY]?.packs) ? state[MINIGAME_PACKS_KEY].packs : [])
+let minigameTouched = false
 
 const before = {
   articles: ledger.filter((item) => item.kind === 'article').length,
@@ -75,6 +77,7 @@ const before = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
 }
 
 /* ---- apply, in dependency order ------------------------------------------ */
@@ -174,7 +177,7 @@ for (const batch of batches) {
   if (batch.kind === 'minigame') {
     let created = 0
     let updated = 0
-    let gamePacks = [...MINI_GAME_PACKS]
+    minigameTouched = true
     batch.rows.forEach((row, index) => {
       const rowErrors = validateMiniGameRow(row)
       if (rowErrors.length) { errors.push(`${batch.file} row ${index + 2}: ${rowErrors.join('; ')}`); return }
@@ -349,6 +352,7 @@ const after = {
   citations: evidence.citations.length,
   resources: evidence.resources.length,
   articleSpans: evidence.articleSpans.length,
+  minigamePacks: gamePacks.length,
 }
 
 // The point of the exercise: which concepts can now leave needs_evidence.
@@ -367,7 +371,17 @@ const nowSupported = [...claimsByConcept.entries()]
   .filter((entry) => entry.publicationStatus !== 'published')
 
 if (emitFile) {
-  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence } }, null, 1)}\n`)
+  const nextStates = { ...state, [LEDGER_KEY]: ledger, [GRAPH_KEY]: graph, [EVIDENCE_KEY]: evidence }
+  if (minigameTouched) {
+    nextStates[MINIGAME_PACKS_KEY] = {
+      version: 1,
+      status: 'In review',
+      validationStatus: 'validated',
+      updatedAt: new Date().toISOString(),
+      packs: gamePacks,
+    }
+  }
+  await writeFile(emitFile, `${JSON.stringify({ ...bundle, states: nextStates }, null, 1)}\n`)
 }
 
 console.log(JSON.stringify({

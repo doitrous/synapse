@@ -109,7 +109,7 @@ export function sameCohort(a, b) {
 export function mayRead(row, viewerId) {
   if (!row) return false
   if (row.owner_id === viewerId) return true
-  return row.access !== 'private'
+  return Boolean(viewerId) && row.access !== 'private'
 }
 
 /**

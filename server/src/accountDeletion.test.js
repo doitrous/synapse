@@ -1,7 +1,8 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
-  OWNED_BY_USER_ID, OWNED_BY_OWNER_ID, OWNED_BY_STUDENT_ID, DELIBERATELY_KEPT,
+  ANONYMISE_USER_REFERENCES, DELETED_IDENTITY, OWNED_BY_USER_ID, OWNED_BY_OWNER_ID,
+  OWNED_BY_STUDENT_ID, DELIBERATELY_KEPT,
 } from './accountDeletion.js'
 
 /**
@@ -79,4 +80,27 @@ test('the student\'s own work is all on the delete list', () => {
 test('the device stops being sent notifications', () => {
   // Otherwise the next person to sign in on that phone inherits them.
   assert.ok(OWNED_BY_USER_ID.includes('device_tokens'))
+})
+
+test('collaboration history cannot retain a deleted user identity', () => {
+  const policies = new Map(ANONYMISE_USER_REFERENCES.map((entry) => [`${entry.table}.${entry.column}`, entry.replacement]))
+  for (const reference of [
+    'shared_documents.updated_by',
+    'shared_document_revisions.actor_id',
+    'shared_document_events.actor_id',
+    'shared_document_notifications.actor_id',
+    'study_party_games.host_user_id',
+    'study_party_games.created_by',
+    'study_party_game_events.actor_id',
+  ]) assert.ok(policies.has(reference), `${reference} needs an account-deletion policy`)
+  assert.equal(policies.get('shared_document_revisions.actor_id'), null)
+  assert.equal(policies.get('study_party_games.host_user_id'), DELETED_IDENTITY)
+})
+
+test('every anonymised collaboration column exists in the schema', () => {
+  for (const { table, column } of ANONYMISE_USER_REFERENCES) {
+    const body = schema.match(new RegExp(`CREATE TABLE IF NOT EXISTS ${table} \\(([\\s\\S]*?)\\n\\) ENGINE`))?.[1]
+    assert.ok(body, `${table} is missing from the schema`)
+    assert.match(body, new RegExp(`^\\s{2}${column}\\s`, 'm'), `${table}.${column} is missing from the schema`)
+  }
 })

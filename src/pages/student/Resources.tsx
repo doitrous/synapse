@@ -678,13 +678,13 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
       id: `document:${item.id}`,
       title: item.title,
       sizeBytes: item.sizeBytes,
-      sourceLabel: 'Resources upload',
+      sourceLabel: item.sourceKind === 'notebook' ? 'Notebook' : item.sourceKind === 'whiteboard' ? 'Whiteboard' : 'Resources upload',
       kind: 'file',
       documentId: item.id,
     }))
 
   notes
-    .filter((note) => Boolean(note.imageData))
+    .filter((note) => Boolean(note.imageData) && !note.imageDocumentId)
     .forEach((note) => rows.push({
       id: `note:${note.id}`,
       title: note.title || 'Notebook image',
@@ -693,7 +693,7 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
       kind: 'image',
     }))
 
-  imagesOf(board).forEach((image) => rows.push({
+  imagesOf(board).filter((image) => !image.documentId || !byDocument.has(image.documentId)).forEach((image) => rows.push({
     id: `board-image:${image.id}`,
     title: image.alt || 'Whiteboard image',
     sizeBytes: dataUrlBytes(image.src ?? ''),
@@ -701,7 +701,7 @@ function mediaInventory({ documents, notes, board }: MediaInventoryInput): Media
     kind: 'image',
   }))
 
-  filesOf(board).forEach((file) => {
+  filesOf(board).filter((file) => !byDocument.has(file.documentId)).forEach((file) => {
     const document = byDocument.get(file.documentId)
     rows.push({
       id: `board-file:${file.id}`,

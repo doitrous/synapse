@@ -493,16 +493,14 @@ CREATE TABLE IF NOT EXISTS assistant_provider_keys (
 
 /* A note or a whiteboard, published behind a link.
 
-   The share is a copy, not a pointer into `user_state`. That is deliberate:
-   the student's own document keeps working exactly as it did whether or not it
-   has ever been shared, revoking a link cannot damage the original, and a
-   collaborator's edit lands on the shared copy rather than silently rewriting
-   somebody's private notebook. Republishing is an explicit act.
+   The share starts as a copy, not a pointer into `user_state`. The student's
+   own private document remains independent, while the shared copy has its own
+   revision history for safe live collaboration.
 
    `access` is the whole permission model, and it is checked on the server.
      private — only the owner may read it, so a leaked link reveals nothing.
-     view    — anybody holding the link may read it.
-     edit    — anybody holding the link who is signed in may also write to it.
+     view    — signed-in classmates in the same cohort may read it.
+     edit    — signed-in classmates in the same cohort may also write to it.
 
    No semicolons anywhere in this comment: `migrate()` splits the file on them
    to get its statements, so one here would cut this block in half and leave an
@@ -521,6 +519,103 @@ CREATE TABLE IF NOT EXISTS shared_documents (
   updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   updated_by  VARCHAR(64) NULL,
   INDEX idx_shared_documents_owner (owner_id, kind, updated_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Shared study material stays inside the owner's university and year. Every
+   content edit advances a revision so a slower collaborator cannot silently
+   overwrite newer work. Existing shares inherit their owner's cohort. */
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS revision INT UNSIGNED NOT NULL DEFAULT 1;
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS university_id VARCHAR(64) NULL;
+ALTER TABLE shared_documents ADD COLUMN IF NOT EXISTS year VARCHAR(64) NULL;
+ALTER TABLE shared_documents ADD INDEX IF NOT EXISTS idx_shared_documents_cohort (university_id, year, kind, access, updated_at);
+UPDATE shared_documents d
+JOIN students s ON s.user_id = d.owner_id
+SET d.university_id = COALESCE(d.university_id, s.university_id),
+    d.year = COALESCE(d.year, s.year)
+WHERE d.university_id IS NULL OR d.year IS NULL;
+
+CREATE TABLE IF NOT EXISTS shared_document_topics (
+  share_id    VARCHAR(64) NOT NULL,
+  position    SMALLINT UNSIGNED NOT NULL,
+  subject_id  VARCHAR(96) NULL,
+  topic       VARCHAR(255) NULL,
+  subtopic    VARCHAR(255) NULL,
+  PRIMARY KEY (share_id, position),
+  INDEX idx_shared_document_topics_subject (subject_id, topic, subtopic),
+  CONSTRAINT fk_shared_topics_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_revisions (
+  id          VARCHAR(64) PRIMARY KEY,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  title       VARCHAR(255) NOT NULL,
+  payload     MEDIUMTEXT NOT NULL,
+  topics      JSON NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  UNIQUE KEY uniq_shared_document_revision (share_id, revision),
+  INDEX idx_shared_document_revision_actor (actor_id, created_at),
+  CONSTRAINT fk_shared_revisions_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Managed media approved by the document owner for one exact shared revision.
+   The viewer route never derives file permission from collaborator-editable
+   payload JSON. A new revision gets a new allowlist after server validation. */
+CREATE TABLE IF NOT EXISTS shared_document_revision_assets (
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  document_id VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, revision, document_id),
+  INDEX idx_shared_revision_assets_document (document_id),
+  CONSTRAINT fk_shared_revision_assets_revision FOREIGN KEY (share_id, revision)
+    REFERENCES shared_document_revisions(share_id, revision) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_stars (
+  share_id    VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, user_id),
+  INDEX idx_shared_document_stars_user (user_id, created_at),
+  CONSTRAINT fk_shared_stars_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_follows (
+  share_id    VARCHAR(64) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (share_id, user_id),
+  INDEX idx_shared_document_follows_user (user_id, created_at),
+  CONSTRAINT fk_shared_follows_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_events (
+  id          VARCHAR(64) PRIMARY KEY,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  kind        VARCHAR(64) NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  payload     JSON NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_shared_document_events_share (share_id, revision),
+  INDEX idx_shared_document_events_actor (actor_id, created_at),
+  CONSTRAINT fk_shared_events_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS shared_document_notifications (
+  id          VARCHAR(64) PRIMARY KEY,
+  user_id     VARCHAR(64) NOT NULL,
+  share_id    VARCHAR(64) NOT NULL,
+  revision    INT UNSIGNED NOT NULL,
+  actor_id    VARCHAR(64) NULL,
+  kind        VARCHAR(64) NOT NULL,
+  message     VARCHAR(500) NOT NULL,
+  read_at     DATETIME NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_shared_document_notifications_user (user_id, read_at, created_at),
+  CONSTRAINT fk_shared_notifications_document FOREIGN KEY (share_id) REFERENCES shared_documents(id) ON DELETE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* ── Friends ─────────────────────────────────────────────────────────────
@@ -743,4 +838,68 @@ CREATE TABLE IF NOT EXISTS study_party_answers (
   seconds     INT NULL,
   answered_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (session_id, user_id, item_kind, item_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Server-authoritative party games. The browser may choose a game kind and a
+   trusted source id. The full content, including answer keys, is built and
+   persisted here so a party score is never derived from client-supplied facts. */
+CREATE TABLE IF NOT EXISTS study_party_games (
+  id                  VARCHAR(64) PRIMARY KEY,
+  party_id            VARCHAR(64) NOT NULL,
+  host_user_id        VARCHAR(64) NOT NULL,
+  kind                VARCHAR(32) NOT NULL,
+  title               VARCHAR(255) NOT NULL,
+  source_kind         ENUM('authored','published') NOT NULL,
+  source_id           VARCHAR(160) NOT NULL,
+  source_label        VARCHAR(255) NOT NULL,
+  content_json        LONGTEXT NOT NULL,
+  status              ENUM('lobby','in_round','between_rounds','completed') NOT NULL DEFAULT 'lobby',
+  current_round_index INT NOT NULL DEFAULT 0,
+  scores_json         LONGTEXT NOT NULL,
+  version             BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  created_by          VARCHAR(64) NOT NULL,
+  created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at          DATETIME NULL,
+  completed_at        DATETIME NULL,
+  INDEX idx_party_games_party (party_id, status, updated_at),
+  INDEX idx_party_games_host (host_user_id, updated_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_participants (
+  game_id      VARCHAR(64) NOT NULL,
+  user_id      VARCHAR(64) NOT NULL,
+  username     VARCHAR(64) NOT NULL,
+  profile_icon VARCHAR(64) NULL,
+  connected    TINYINT(1) NOT NULL DEFAULT 0,
+  joined_at    DATETIME NOT NULL,
+  last_seen_at DATETIME NOT NULL,
+  PRIMARY KEY (game_id, user_id),
+  INDEX idx_party_game_participants_user (user_id, last_seen_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_answers (
+  game_id     VARCHAR(64) NOT NULL,
+  round_id    VARCHAR(160) NOT NULL,
+  user_id     VARCHAR(64) NOT NULL,
+  answer_json LONGTEXT NOT NULL,
+  correct     TINYINT(1) NOT NULL,
+  points      INT NOT NULL,
+  max_points  INT NOT NULL,
+  answered_at DATETIME NOT NULL,
+  PRIMARY KEY (game_id, round_id, user_id),
+  INDEX idx_party_game_answers_user (user_id, answered_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+CREATE TABLE IF NOT EXISTS study_party_game_events (
+  event_id     VARCHAR(96) PRIMARY KEY,
+  game_id      VARCHAR(64) NOT NULL,
+  party_id     VARCHAR(64) NOT NULL,
+  sequence     BIGINT UNSIGNED NOT NULL,
+  type         VARCHAR(64) NOT NULL,
+  actor_id     VARCHAR(64) NOT NULL,
+  payload_json LONGTEXT NOT NULL,
+  created_at   DATETIME NOT NULL,
+  UNIQUE INDEX uniq_party_game_event_sequence (game_id, sequence),
+  INDEX idx_party_game_events_party (party_id, created_at),
+  INDEX idx_party_game_events_actor (actor_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

@@ -10,16 +10,14 @@
  *   private — only the owner may read it. A link that has been revoked back to
  *             private answers 404 to everybody else, so a link that has already
  *             been passed around stops working rather than staying live.
- *   view    — anybody holding the link may read it, signed in or not. Classmates
- *             should not have to have an account to read a revision sheet.
- *   edit    — anybody holding the link *who is signed in* may also write to it.
+ *   view    — a signed-in student in the owner's university and year may read.
+ *   edit    — a signed-in student in that cohort may also write to it.
  *             Editing is attributed (`updated_by`), which anonymous editing
  *             could not be.
  *
- * Nothing here reads or writes `user_state`. A share is a copy taken at the
- * moment it was published: the student's own document is unaffected by anything
- * that happens to the share, and a collaborator's edit cannot reach back into a
- * private notebook.
+ * Nothing here reads or writes `user_state`. A share starts as a copy taken at
+ * publication and then receives its own guarded revision history. The source
+ * notebook or whiteboard remains private and independent.
  */
 import { randomBytes, randomUUID } from 'node:crypto'
 import { pool } from './db.js'
@@ -37,6 +35,35 @@ function parseJson(value, fallback = null) {
   if (value == null) return fallback
   if (typeof value !== 'string') return value
   try { return JSON.parse(value) } catch { return fallback }
+}
+
+/** Extract only explicit managed-media fields, with a traversal bound. */
+export function payloadDocumentIds(value) {
+  const ids = new Set()
+  const stack = [value]
+  let visited = 0
+  while (stack.length && visited < 10_000) {
+    const current = stack.pop()
+    visited++
+    if (!current || typeof current !== 'object') continue
+    for (const [key, inner] of Object.entries(current)) {
+      if ((key === 'documentId' || key === 'imageDocumentId') && typeof inner === 'string' && inner.trim()) {
+        ids.add(inner.trim())
+      } else if (inner && typeof inner === 'object') {
+        stack.push(inner)
+      }
+    }
+  }
+  return [...ids].slice(0, 500)
+}
+
+export function payloadReferencesDocument(value, documentId) {
+  return payloadDocumentIds(value).includes(documentId)
+}
+
+export function assetsWithinAllowlist(documentIds, approvedIds) {
+  const approved = approvedIds instanceof Set ? approvedIds : new Set(approvedIds)
+  return documentIds.every((documentId) => approved.has(documentId))
 }
 
 function publicTopicLabel(topic) {
@@ -131,6 +158,48 @@ async function recordRevision(conn, { shareId, revision, actorId, title, payload
   )
 }
 
+async function ownedAssetIds(conn, ownerId, documentIds) {
+  if (!documentIds.length) return new Set()
+  const [rows] = await conn.query(
+    'SELECT id FROM user_documents WHERE user_id = ? AND id IN (?) AND deleted_at IS NULL',
+    [ownerId, documentIds],
+  )
+  return new Set(rows.map((row) => String(row.id)))
+}
+
+async function recordRevisionAssets(conn, shareId, revision, documentIds) {
+  if (!documentIds.length) return
+  await conn.query(
+    `INSERT IGNORE INTO shared_document_revision_assets (share_id, revision, document_id)
+     VALUES ${documentIds.map(() => '(?, ?, ?)').join(', ')}`,
+    documentIds.flatMap((documentId) => [shareId, revision, documentId]),
+  )
+}
+
+async function approvedAssetsForRevision(conn, row) {
+  const revision = rowRevision(row)
+  const [stored] = await conn.query(
+    'SELECT document_id AS documentId FROM shared_document_revision_assets WHERE share_id = ? AND revision = ?',
+    [row.id, revision],
+  )
+  if (stored.length) return new Set(stored.map((entry) => String(entry.documentId)))
+
+  // Backward-compatible lazy migration for an owner-authored legacy revision.
+  // Collaborator-authored JSON is never trusted to bootstrap file permission.
+  if (row.updated_by && row.updated_by !== row.owner_id) return new Set()
+  const requested = payloadDocumentIds(parseJson(row.payload, null))
+  const owned = await ownedAssetIds(conn, row.owner_id, requested)
+  if (owned.size !== requested.length) return new Set()
+  await conn.query(
+    `INSERT IGNORE INTO shared_document_revisions
+       (id, share_id, revision, actor_id, title, payload, topics)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    [randomUUID(), row.id, revision, row.owner_id, row.title, row.payload, JSON.stringify([])],
+  )
+  await recordRevisionAssets(conn, row.id, revision, requested)
+  return owned
+}
+
 async function notifyFollowers(conn, { shareId, revision, actorId, title }) {
   await conn.query(
     `INSERT INTO shared_document_events (id, share_id, revision, kind, actor_id, payload)
@@ -215,6 +284,7 @@ export async function createShare(ownerId, input = {}) {
     ...input,
   })
   const cleanTitle = readTitle(title)
+  const requestedAssetIds = payloadDocumentIds(payload)
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
@@ -222,6 +292,11 @@ export async function createShare(ownerId, input = {}) {
     if (!profile?.university_id || !profile?.year) {
       await conn.rollback()
       return { error: 'profile_incomplete' }
+    }
+    const ownedAssets = await ownedAssetIds(conn, ownerId, requestedAssetIds)
+    if (ownedAssets.size !== requestedAssetIds.length) {
+      await conn.rollback()
+      return { error: 'asset_not_owned' }
     }
     await conn.query(
       `INSERT INTO shared_documents
@@ -238,6 +313,7 @@ export async function createShare(ownerId, input = {}) {
       payload: body.serialised,
       topics,
     })
+    await recordRevisionAssets(conn, id, 1, requestedAssetIds)
     await conn.commit()
   } catch (error) {
     await conn.rollback()
@@ -258,6 +334,11 @@ export async function readShare(id, viewerId) {
   const [rows] = await pool.query(`${shareSelect(viewerId)} WHERE d.id = ? LIMIT 1`, [viewerId, viewerId, String(id ?? '')])
   if (!rows.length) return { error: 'not_found' }
   const row = rows[0]
+  if (row.owner_id !== viewerId) {
+    if (!viewerId) return { error: 'not_found' }
+    const viewer = await profileFor(pool, viewerId)
+    if (!sameCohort(row, viewer)) return { error: 'not_found' }
+  }
   if (!mayRead(row, viewerId)) return { error: 'not_found' }
   const [share] = await hydrateShares(pool, [row], viewerId)
   return { ok: true, share }
@@ -288,6 +369,13 @@ export async function updateShare(id, viewerId, patch) {
       return { error: 'not_found' }
     }
     const row = rows[0]
+    if (row.owner_id !== viewerId) {
+      const viewer = await profileFor(conn, viewerId)
+      if (!sameCohort(row, viewer)) {
+        await conn.rollback()
+        return { error: 'not_found' }
+      }
+    }
     if (!mayWrite(row, viewerId)) {
       await conn.rollback()
       return { error: 'not_found' }
@@ -297,6 +385,7 @@ export async function updateShare(id, viewerId, patch) {
     const params = []
     const nextTitle = title !== undefined ? readTitle(title) : row.title
     let nextPayload = row.payload
+    let nextAssetIds = payloadDocumentIds(parseJson(row.payload, null))
     if (title !== undefined) { sets.push('title = ?'); params.push(nextTitle) }
     if (payload !== undefined) {
       const body = readPayload(payload)
@@ -305,6 +394,7 @@ export async function updateShare(id, viewerId, patch) {
         return { error: body.error }
       }
       nextPayload = body.serialised
+      nextAssetIds = payloadDocumentIds(payload)
       sets.push('payload = ?')
       params.push(body.serialised)
     }
@@ -331,6 +421,19 @@ export async function updateShare(id, viewerId, patch) {
         return { error: verdict.reason, status: verdict.reason === 'stale_revision' ? 409 : 400, currentRevision: verdict.currentRevision }
       }
       nextRevision = verdict.nextRevision
+      if (row.owner_id === viewerId) {
+        const ownedAssets = await ownedAssetIds(conn, row.owner_id, nextAssetIds)
+        if (ownedAssets.size !== nextAssetIds.length) {
+          await conn.rollback()
+          return { error: 'asset_not_owned' }
+        }
+      } else {
+        const approvedAssets = await approvedAssetsForRevision(conn, row)
+        if (!assetsWithinAllowlist(nextAssetIds, approvedAssets)) {
+          await conn.rollback()
+          return { error: 'asset_not_shared' }
+        }
+      }
       sets.push('revision = ?')
       params.push(nextRevision)
     }
@@ -354,6 +457,7 @@ export async function updateShare(id, viewerId, patch) {
         payload: nextPayload,
         topics,
       })
+      await recordRevisionAssets(conn, row.id, nextRevision, nextAssetIds)
       await notifyFollowers(conn, { shareId: row.id, revision: nextRevision, actorId: viewerId, title: nextTitle })
     }
     await conn.commit()
@@ -388,11 +492,10 @@ export async function listShares(ownerId, options = {}) {
 
 async function shareVisibleToCohort(conn, shareId, viewerId) {
   const [rows] = await conn.query(
-    `SELECT d.*, owner.discoverable AS owner_discoverable,
+    `SELECT d.*,
             viewer.university_id AS viewer_university_id, viewer.year AS viewer_year
        FROM shared_documents d
        JOIN students viewer ON viewer.user_id = ?
-       LEFT JOIN students owner ON owner.user_id = d.owner_id
       WHERE d.id = ? LIMIT 1`,
     [viewerId, shareId],
   )
@@ -401,7 +504,6 @@ async function shareVisibleToCohort(conn, shareId, viewerId) {
   const viewer = { university_id: row.viewer_university_id, year: row.viewer_year }
   if (row.owner_id === viewerId) return row
   if (row.access === 'private') return null
-  if (!Number(row.owner_discoverable ?? 0)) return null
   if (!sameCohort(row, viewer)) return null
   return row
 }
@@ -410,8 +512,9 @@ async function shareVisibleToCohort(conn, shareId, viewerId) {
  * Cohort discovery for the Notebook/Whiteboard Shared tabs.
  *
  * Direct links keep their link semantics (`readShare`); this listing is stricter:
- * only non-private documents from opted-in classmates in the same university
- * and year are discoverable.
+ * only non-private documents in the same university and year are discoverable.
+ * Sharing a document is its own explicit opt-in and is independent from the
+ * profile directory's “Let classmates find me” setting.
  */
 export async function listDiscoverableShares(viewerId, options = {}) {
   const kind = cleanKind(options.kind)
@@ -423,13 +526,11 @@ export async function listDiscoverableShares(viewerId, options = {}) {
     "d.access <> 'private'",
     'd.university_id = ?',
     'd.year = ?',
-    'owner.discoverable = 1',
   ]
   const params = [viewerId, profile.university_id, profile.year]
   if (kind) { where.push('d.kind = ?'); params.push(kind) }
   const [rows] = await pool.query(
     `${shareSelect(viewerId)}
-      JOIN students owner ON owner.user_id = d.owner_id
       WHERE ${where.join(' AND ')}
       ORDER BY star_count DESC, d.updated_at DESC
       LIMIT ?`,
@@ -512,4 +613,83 @@ export async function shareRevisionHistory(shareId, viewerId) {
       createdAt: row.createdAt,
     })),
   }
+}
+
+/** Internal bell notifications created by followed live documents. */
+export async function listShareNotifications(viewerId, { limit = 50 } = {}) {
+  const boundedLimit = Math.min(Math.max(Number(limit) || 50, 1), 100)
+  const [rows] = await pool.query(
+    `SELECT n.id, n.share_id AS shareId, n.message, n.read_at AS readAt,
+            n.created_at AS createdAt, d.kind, d.title
+       FROM shared_document_notifications n
+       JOIN shared_documents d ON d.id = n.share_id
+      WHERE n.user_id = ?
+      ORDER BY n.created_at DESC LIMIT ?`,
+    [viewerId, boundedLimit],
+  )
+  return rows.map((row) => ({
+    id: row.id,
+    title: row.kind === 'whiteboard' ? 'Shared whiteboard updated' : 'Shared note updated',
+    message: row.message,
+    to: `/s/${row.shareId}`,
+    active: true,
+    delivery: 'Immediate',
+    scheduledAt: row.createdAt,
+    automation: 'None',
+    leadMinutes: 0,
+    universityIds: [],
+    years: [],
+    groups: [],
+    createdAt: row.createdAt,
+    sentAt: row.createdAt,
+    readAt: row.readAt,
+  }))
+}
+
+export async function markShareNotificationsRead(viewerId, rawIds) {
+  const ids = [...new Set((Array.isArray(rawIds) ? rawIds : []).map(String).filter(Boolean))].slice(0, 100)
+  if (!ids.length) return { ok: true, changed: 0 }
+  const [result] = await pool.query(
+    'UPDATE shared_document_notifications SET read_at = COALESCE(read_at, NOW()) WHERE user_id = ? AND id IN (?)',
+    [viewerId, ids],
+  )
+  return { ok: true, changed: Number(result.affectedRows ?? 0) }
+}
+
+/** Resolve one managed asset referenced by a readable shared document. */
+export async function readShareAsset(shareId, documentId, viewerId) {
+  if (!viewerId) return { error: 'not_found' }
+  const [shares] = await pool.query(
+    `SELECT d.* FROM shared_documents d
+       LEFT JOIN students viewer ON viewer.user_id = ?
+      WHERE d.id = ? AND (
+        d.owner_id = ? OR (
+          d.access IN ('view', 'edit')
+          AND d.university_id = viewer.university_id
+          AND d.year = viewer.year
+        )
+      ) LIMIT 1`,
+    [viewerId, shareId, viewerId],
+  )
+  if (!shares.length) return { error: 'not_found' }
+  await approvedAssetsForRevision(pool, shares[0])
+  const [rows] = await pool.query(
+    `SELECT f.id, f.title, f.storage_key AS storageKey, f.media_type AS mediaType,
+            f.file_name AS fileName, f.mime_type AS mimeType
+       FROM shared_documents d
+       JOIN shared_document_revision_assets a
+         ON a.share_id = d.id AND a.revision = d.revision
+       JOIN user_documents f
+         ON f.id = a.document_id AND f.user_id = d.owner_id AND f.deleted_at IS NULL
+       LEFT JOIN students viewer ON viewer.user_id = ?
+      WHERE d.id = ? AND a.document_id = ? AND (
+        d.owner_id = ? OR (
+          d.access IN ('view', 'edit')
+          AND d.university_id = viewer.university_id
+          AND d.year = viewer.year
+        )
+      ) LIMIT 1`,
+    [viewerId, shareId, String(documentId ?? ''), viewerId],
+  )
+  return rows.length ? { ok: true, document: rows[0] } : { error: 'not_found' }
 }

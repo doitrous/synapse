@@ -267,8 +267,8 @@ const adminApp = {
   element: <RequireAuth console><AppShell portal="admin" /></RequireAuth>,
   children: [
     { index: true, element: <AdminHome /> },
-    // `import/:kind` is the one path whose tab depends on the parameter, so it
-    // is guarded by the ledger tabs its four kinds map onto.
+    // `import/:kind` is the one path whose owning content tab depends on the
+    // parameter. Server state-key ownership remains the write authority.
     { path: 'import/:kind', element: <RequireAuth console>{render(BulkImportPage)}</RequireAuth> },
     guarded('concepts/import', render(ConceptsImportPage)),
     guarded('relationships/import', render(RelationsImportPage)),

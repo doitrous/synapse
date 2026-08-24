@@ -1,6 +1,8 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import {
+  EMPTY_MINIGAME_PACK_DOCUMENT,
+  MINIGAME_PACKS_STORAGE_KEY,
   MINI_GAME_PACKS,
   scoreOrderedSteps,
   scoreRedFlagSort,
@@ -10,6 +12,13 @@ import {
   type OrderedMiniGamePack,
   type RedFlagSortPack,
 } from './minigamePacks.ts'
+
+test('the canonical imported-pack document is review-gated', () => {
+  assert.equal(MINIGAME_PACKS_STORAGE_KEY, 'synapse-minigame-packs-v1')
+  assert.equal(EMPTY_MINIGAME_PACK_DOCUMENT.status, 'In review')
+  assert.equal(EMPTY_MINIGAME_PACK_DOCUMENT.validationStatus, 'validated')
+  assert.deepEqual(EMPTY_MINIGAME_PACK_DOCUMENT.packs, [])
+})
 
 test('every local mini-game pack is explicitly reviewed and valid', () => {
   assert.ok(MINI_GAME_PACKS.length >= 3)

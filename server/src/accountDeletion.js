@@ -46,8 +46,13 @@ export const OWNED_BY_USER_ID = [
   'facebook_links',
   'study_party_members',
   'study_party_answers',
+  'study_party_game_participants',
+  'study_party_game_answers',
   'enrollment_change_requests',
   'qbank_attempts',
+  'shared_document_stars',
+  'shared_document_follows',
+  'shared_document_notifications',
   'role_promotion_audit',
   // Last of the user_id tables by convention only: nothing here has a foreign
   // key, so the order inside the transaction does not matter. What matters is
@@ -57,6 +62,20 @@ export const OWNED_BY_USER_ID = [
 
 export const OWNED_BY_OWNER_ID = ['shared_documents']
 export const OWNED_BY_STUDENT_ID = ['subscriptions']
+
+// Collaboration history owned by somebody else may outlive this account, but
+// it must no longer identify the deleted person. Nullable attribution becomes
+// NULL. Required server-authoritative history uses one non-identifying marker.
+export const DELETED_IDENTITY = 'deleted-account'
+export const ANONYMISE_USER_REFERENCES = [
+  { table: 'shared_documents', column: 'updated_by', replacement: null },
+  { table: 'shared_document_revisions', column: 'actor_id', replacement: null },
+  { table: 'shared_document_events', column: 'actor_id', replacement: null },
+  { table: 'shared_document_notifications', column: 'actor_id', replacement: null },
+  { table: 'study_party_games', column: 'host_user_id', replacement: DELETED_IDENTITY },
+  { table: 'study_party_games', column: 'created_by', replacement: DELETED_IDENTITY },
+  { table: 'study_party_game_events', column: 'actor_id', replacement: DELETED_IDENTITY },
+]
 
 /**
  * Kept deliberately, and each for a reason that is not convenience.
@@ -107,6 +126,14 @@ export async function deleteAccount(identity, { fetchImpl = fetch } = {}) {
   const conn = await pool.getConnection()
   try {
     await conn.beginTransaction()
+
+    for (const policy of ANONYMISE_USER_REFERENCES) {
+      const [result] = await conn.query(
+        `UPDATE ${policy.table} SET ${policy.column} = ? WHERE ${policy.column} = ?`,
+        [policy.replacement, userId],
+      )
+      if (result.affectedRows) removed[`${policy.table}.${policy.column}`] = result.affectedRows
+    }
 
     for (const table of OWNED_BY_USER_ID) {
       const [result] = await conn.query(`DELETE FROM ${table} WHERE user_id = ?`, [userId])

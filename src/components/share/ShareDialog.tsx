@@ -28,8 +28,8 @@ import {
 
 const CHOICES: Array<{ value: ShareAccess; label: string; detail: string; icon: typeof Lock }> = [
   { value: 'private', label: 'Only me', detail: 'The link stops working for everybody else.', icon: Lock },
-  { value: 'view', label: 'Anyone with the link can read', detail: 'They do not need an account.', icon: Eye },
-  { value: 'edit', label: 'Anyone with the link can edit', detail: 'They have to be signed in, and their changes are recorded against them.', icon: PencilLine },
+  { value: 'view', label: 'Classmates with the link can read', detail: 'They sign in with an account in your university and year.', icon: Eye },
+  { value: 'edit', label: 'Classmates with the link can edit', detail: 'Their changes are revision-checked and recorded against them.', icon: PencilLine },
 ]
 
 export function ShareDialog({

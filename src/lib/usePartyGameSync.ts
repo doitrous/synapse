@@ -1,6 +1,9 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { apiPost } from '@/lib/api'
+import { authAccessToken } from '@/lib/supabase'
 import type { PartyGameAction, PartyGamePublicState, PublicPartyGameEvent } from '@/data/partyGameSync'
+
+const API_BASE = import.meta.env.VITE_API_BASE as string | undefined
 
 export interface UsePartyGameSyncOptions {
   partyId: string
@@ -60,6 +63,28 @@ function applyPublicEvent(state: PartyGamePublicState | null, event: PublicParty
   return state
 }
 
+function eventsFromSseChunk(chunk: string): PublicPartyGameEvent[] {
+  return chunk
+    .split('\n\n')
+    .map((block) => block
+      .split('\n')
+      .filter((line) => line.startsWith('data:'))
+      .map((line) => line.slice(5).trimStart())
+      .join('\n'))
+    .filter(Boolean)
+    .map((data) => JSON.parse(data) as PublicPartyGameEvent)
+}
+
+function reconnectDelay(signal: AbortSignal): Promise<void> {
+  return new Promise((resolve) => {
+    const timer = window.setTimeout(resolve, 2_000)
+    signal.addEventListener('abort', () => {
+      window.clearTimeout(timer)
+      resolve()
+    }, { once: true })
+  })
+}
+
 export function usePartyGameSync({
   partyId,
   gameId,
@@ -89,28 +114,52 @@ export function usePartyGameSync({
   )
 
   useEffect(() => {
-    if (!enabled || typeof EventSource === 'undefined') return undefined
-    const stream = new EventSource(resolvedEventsPath)
-    stream.onopen = () => {
-      setConnected(true)
-      setError(null)
-    }
-    stream.onerror = () => {
-      setConnected(false)
-      setError('Live party updates are reconnecting.')
-    }
-    stream.onmessage = (message) => {
-      try {
-        const event = JSON.parse(message.data) as PublicPartyGameEvent
-        lastEventId.current = message.lastEventId || event.id
-        setEvents((previous) => [...previous, event])
-        setState((previous) => applyPublicEvent(previous, event))
-      } catch {
-        setError('A party update could not be read.')
+    if (!enabled) return undefined
+    const abort = new AbortController()
+    let carry = ''
+
+    async function connect() {
+      while (!abort.signal.aborted) {
+        try {
+          const token = await authAccessToken()
+          const after = lastEventId.current
+          const separator = resolvedEventsPath.includes('?') ? '&' : '?'
+          const path = after ? `${resolvedEventsPath}${separator}after=${encodeURIComponent(after)}` : resolvedEventsPath
+          const response = await fetch(`${API_BASE ?? ''}${path}`, {
+            headers: token ? { Authorization: `Bearer ${token}` } : {},
+            signal: abort.signal,
+          })
+          if (!response.ok || !response.body) throw new Error('Live party updates are reconnecting.')
+          setConnected(true)
+          setError(null)
+          const reader = response.body.getReader()
+          const decoder = new TextDecoder()
+          while (!abort.signal.aborted) {
+            const { done, value } = await reader.read()
+            if (done) break
+            carry += decoder.decode(value, { stream: true })
+            const boundary = carry.lastIndexOf('\n\n')
+            if (boundary < 0) continue
+            const complete = carry.slice(0, boundary + 2)
+            carry = carry.slice(boundary + 2)
+            const parsed = eventsFromSseChunk(complete)
+            if (!parsed.length) continue
+            lastEventId.current = parsed[parsed.length - 1].id
+            setEvents((previous) => [...previous, ...parsed])
+            for (const event of parsed) setState((previous) => applyPublicEvent(previous, event))
+          }
+        } catch (cause) {
+          if (abort.signal.aborted) return
+          setError(cause instanceof Error ? cause.message : 'Live party updates are reconnecting.')
+        }
+        setConnected(false)
+        await reconnectDelay(abort.signal)
       }
     }
+
+    void connect()
     return () => {
-      stream.close()
+      abort.abort()
       setConnected(false)
     }
   }, [enabled, resolvedEventsPath])

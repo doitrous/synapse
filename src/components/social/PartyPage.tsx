@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { Users, Hash, Copy, Check, ArrowLeft, Play, Clock, Trophy, CalendarPlus } from 'lucide-react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { Users, Hash, Copy, Check, ArrowLeft, Play, Clock, Trophy, CalendarPlus, Gamepad2 } from 'lucide-react'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
@@ -15,9 +15,45 @@ import { useLivePracticals } from '@/lib/useLivePracticals'
 import { useLiveEssays } from '@/lib/useLiveEssays'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { STUDY_BLOCKS_STORAGE_KEY, type StudyBlock } from '@/data/studyBlocks'
+import { API_MODE, apiGet, apiPost } from '@/lib/api'
+import { PartyGameSyncPlayer } from './PartyGameSyncPlayer'
+import type { PartyGameKind, PartyGamePublicState } from '@/data/partyGameSync'
+import { authUserId } from '@/lib/supabase'
 
 function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
+}
+
+const PARTY_GAME_OPTIONS: { kind: PartyGameKind; label: string }[] = [
+  { kind: 'term-grid', label: 'Term Grid' },
+  { kind: 'spotter', label: 'Spotter' },
+  { kind: 'term-match', label: 'Term Match' },
+  { kind: 'clinical-sequence', label: 'Clinical Sequence' },
+  { kind: 'mechanism-chain', label: 'Mechanism Chain' },
+  { kind: 'red-flag-sort', label: 'Red Flag Sort' },
+]
+
+const PARTY_GAME_REFUSALS: Record<string, string> = {
+  invalid_kind: 'That party game is not available.',
+  client_content_refused: 'Party games must be created from server-validated content.',
+  no_content: 'There is not enough published or authored material for that game yet.',
+  not_host: 'Only the host of this party can do that.',
+  not_a_member: 'You are not a member of this party.',
+  archived: 'That party has been archived.',
+  not_found: 'That could not be found.',
+}
+
+interface PartyGameSummary {
+  id: string
+  partyId: string
+  hostId: string
+  kind: PartyGameKind
+  title: string
+  status: PartyGamePublicState['status']
+  currentRoundIndex: number
+  version: number
+  updatedAt: string
+  completedAt: string | null
 }
 
 function SessionRow({ session, t, onOpen }: { session: PartySessionSummary; t: (s: string) => string; onOpen: () => void }) {
@@ -69,6 +105,11 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
   const [scheduleStartsAt, setScheduleStartsAt] = useState('')
   const [scheduleActivity, setScheduleActivity] = useState('')
   const [addToCalendar, setAddToCalendar] = useState(true)
+  const [gameKind, setGameKind] = useState<PartyGameKind>('term-match')
+  const [partyGames, setPartyGames] = useState<PartyGameSummary[]>([])
+  const [openGame, setOpenGame] = useState<PartyGamePublicState | null>(null)
+  const [gameMessage, setGameMessage] = useState('')
+  const [actorId, setActorId] = useState<string | null>(null)
 
   const activities = useMemo(() => [
     ...questions.map((question) => ({ kind: 'question' as const, id: question.id, title: question.stem, subjectId: question.subjectId })),
@@ -78,8 +119,48 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
     ...essays.map((entry) => ({ kind: 'essay' as const, id: entry.id, title: entry.title, subjectId: entry.subjectId })),
   ], [essays, practicals, questions])
 
+  const reloadPartyGames = useCallback(async () => {
+    if (!API_MODE) return
+    try {
+      const result = await apiGet<{ games: PartyGameSummary[] }>(`/parties/${encodeURIComponent(partyId)}/games`)
+      setPartyGames(result.games)
+    } catch {
+      setPartyGames([])
+    }
+  }, [partyId])
+
+  useEffect(() => {
+    void reloadPartyGames()
+  }, [reloadPartyGames])
+
+  useEffect(() => {
+    void authUserId().then(setActorId)
+  }, [])
+
   if (openSessionId) {
     return <PartySessionRunner sessionId={openSessionId} onExit={() => { setOpenSessionId(null); void reloadSessions() }} />
+  }
+
+  if (openGame && party) {
+    return (
+      <div className="space-y-4">
+        <Button
+          variant="ghost"
+          size="sm"
+          iconLeft={ArrowLeft}
+          onClick={() => { setOpenGame(null); void reloadPartyGames() }}
+        >
+          {t('Back to party')}
+        </Button>
+        <PartyGameSyncPlayer
+          partyId={partyId}
+          gameId={openGame.id}
+          actorId={actorId ?? ''}
+          initialState={openGame}
+          isHost={party.isHost}
+        />
+      </div>
+    )
   }
 
   if (error) {
@@ -145,6 +226,37 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
     setScheduleStartsAt('')
     setScheduleActivity('')
     await reloadSessions()
+  }
+
+  async function createPartyGameNow() {
+    setBusy(true)
+    setGameMessage('')
+    const result = await apiPost<{ ok: boolean; reason?: string; game?: PartyGamePublicState }>(
+      `/parties/${encodeURIComponent(partyId)}/games`,
+      { kind: gameKind, seed: Date.now() },
+    )
+    setBusy(false)
+    if (!result.ok || !result.game) {
+      setGameMessage(PARTY_GAME_REFUSALS[result.reason ?? ''] ?? fallbackRefusal(t))
+      return
+    }
+    setOpenGame(result.game)
+    await reloadPartyGames()
+  }
+
+  async function openPartyGame(gameId: string) {
+    setBusy(true)
+    setGameMessage('')
+    try {
+      const result = await apiGet<{ game: PartyGamePublicState }>(
+        `/parties/${encodeURIComponent(partyId)}/games/${encodeURIComponent(gameId)}`,
+      )
+      setOpenGame(result.game)
+    } catch {
+      setGameMessage(fallbackRefusal(t))
+    } finally {
+      setBusy(false)
+    }
   }
 
   const running = sessions.filter((session) => session.state === 'open')
@@ -234,6 +346,46 @@ export function PartyPage({ partyId, onExit }: { partyId: string; onExit: () => 
             </div>
           </Panel>
         )}
+
+        <Panel>
+          <PanelHeader title={t('Party games')} icon={Gamepad2} hint={partyGames.length ? String(partyGames.length) : undefined} />
+          {party.isHost && (
+            <div className="grid gap-3 border-b border-line p-5 sm:grid-cols-[minmax(0,1fr)_auto]">
+              <Field label={t('Game')}>
+                <Select value={gameKind} onChange={(event) => setGameKind(event.target.value as PartyGameKind)}>
+                  {PARTY_GAME_OPTIONS.map((option) => (
+                    <option key={option.kind} value={option.kind}>{t(option.label)}</option>
+                  ))}
+                </Select>
+              </Field>
+              <div className="flex items-end">
+                <Button variant="primary" iconLeft={Gamepad2} loading={busy} onClick={() => void createPartyGameNow()}>
+                  {t('Create party game')}
+                </Button>
+              </div>
+            </div>
+          )}
+          {gameMessage && <p role="status" className="border-b border-line px-5 py-3 text-[12.5px] text-danger">{gameMessage}</p>}
+          {partyGames.length === 0 ? (
+            <p className="px-5 py-6 text-center text-[12.5px] text-ink-3">{t('No party games yet.')}</p>
+          ) : (
+            <ul className="divide-y divide-line">
+              {partyGames.map((game) => (
+                <li key={game.id}>
+                  <button type="button" onClick={() => void openPartyGame(game.id)} className="flex w-full items-center gap-3 px-4 py-3 text-start transition-colors hover:bg-inset">
+                    <span className="min-w-0 flex-1">
+                      <span className="block truncate text-[13.5px] font-medium text-ink">{game.title}</span>
+                      <span className="mt-0.5 block text-[12px] text-ink-3">
+                        {game.kind} · {game.status === 'completed' ? t('Completed') : t('Live')}
+                      </span>
+                    </span>
+                    <Badge tone={game.status === 'completed' ? 'neutral' : 'primary'}>{game.status}</Badge>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </Panel>
 
         <Panel>
           <PanelHeader title={t('Running now')} icon={Play} hint={running.length ? String(running.length) : undefined} />

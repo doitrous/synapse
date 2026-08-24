@@ -24,6 +24,9 @@ export interface Note {
   subtopicId?: string
   subtopicTitle?: string
   subjectId?: string
+  /** Managed student-owned media for newly pasted images. */
+  imageDocumentId?: string
+  /** Legacy inline image retained so existing notes never lose an attachment. */
   imageData?: string
   /**
    * Documents this note is about — a Connect Cortex resource, or a PDF the student
