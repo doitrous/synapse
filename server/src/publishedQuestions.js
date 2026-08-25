@@ -14,26 +14,31 @@
  */
 import { pool } from './db.js'
 import { questionKeysFromLedger } from './questionKey.js'
+import { MEDIA_STATE_KEY } from './mediaLibrary.js'
+import { releasedMediaIdsFromDocument } from './studentLedger.js'
 
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
 
 let questionSnapshot = null
 
 export function invalidatePublishedQuestions(key) {
-  if (key === LEDGER_KEY) questionSnapshot = null
+  if (key === LEDGER_KEY || key === MEDIA_STATE_KEY) questionSnapshot = null
 }
 
 export async function publishedQuestions() {
   if (questionSnapshot) return questionSnapshot
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?)', [LEDGER_KEY, MEDIA_STATE_KEY])
   let byId = new Map()
-  if (rows.length) {
-    try {
-      byId = questionKeysFromLedger(JSON.parse(rows[0].v))
-    } catch {
-      // A malformed ledger yields an empty set rather than a thrown request.
-      byId = new Map()
-    }
+  try {
+    const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
+    const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
+    const ledger = ledgerRow ? JSON.parse(ledgerRow.v) : []
+    const media = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+    byId = questionKeysFromLedger(ledger, releasedMediaIdsFromDocument(media))
+  } catch {
+    // A malformed ledger or media document yields an empty set rather than a
+    // question entering a room without its required teaching media.
+    byId = new Map()
   }
   questionSnapshot = byId
   return byId

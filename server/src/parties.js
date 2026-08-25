@@ -13,6 +13,8 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { canJoin, visibleTo, sessionState, tally } from './partyRules.js'
 import { publishedQuestions } from './publishedQuestions.js'
+import { MEDIA_STATE_KEY } from './mediaLibrary.js'
+import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 
 /** No 0/O/1/I/L — a code gets read aloud and typed by hand. */
 const CODE_ALPHABET = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789'
@@ -71,16 +73,21 @@ async function isPartyHost(partyId, userId) {
  */
 async function publishedLedgerIdsByKind(kinds) {
   const byKind = new Map(kinds.map((kind) => [kind, new Set()]))
-  const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [LEDGER_KEY])
-  if (rows.length) {
-    try {
-      const ledger = JSON.parse(rows[0].v)
-      for (const item of Array.isArray(ledger) ? ledger : []) {
-        if (item?.status === 'Published' && byKind.has(item?.kind)) byKind.get(item.kind).add(item.id)
-      }
-    } catch {
-      // A malformed ledger yields nothing published rather than a thrown request.
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?)', [LEDGER_KEY, MEDIA_STATE_KEY])
+  try {
+    const ledgerRow = rows.find((row) => row.k === LEDGER_KEY)
+    const mediaRow = rows.find((row) => row.k === MEDIA_STATE_KEY)
+    const media = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+    const ledger = redactLedgerForStudent(
+      ledgerRow ? JSON.parse(ledgerRow.v) : [],
+      releasedMediaIdsFromDocument(media),
+    )
+    for (const item of ledger) {
+      if (byKind.has(item?.kind)) byKind.get(item.kind).add(item.id)
     }
+  } catch {
+    // A malformed ledger or media document yields nothing published rather
+    // than freezing content whose required asset is unavailable.
   }
   return byKind
 }

@@ -25,7 +25,14 @@ import { apiDelete } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
-import { MEDIA_STATE_KEY, emptyMediaLibrary, mediaUrl, type MediaLibraryDocument, type MediaRecord } from '@/data/mediaLibrary'
+import {
+  MEDIA_STATE_KEY,
+  emptyMediaLibrary,
+  mediaReleaseBlockers,
+  mediaUrl,
+  type MediaLibraryDocument,
+  type MediaRecord,
+} from '@/data/mediaLibrary'
 import { overlayPortal } from '@/lib/overlayPortal'
 
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
@@ -37,6 +44,12 @@ function isImageFile(file: File): boolean {
   if (file.type.startsWith('image/')) return true
   const extension = file.name.split('.').pop()?.toLowerCase() ?? ''
   return ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(extension)
+}
+
+function managedMediaId(reference: string): string | null {
+  const match = /^\/media\/([^/?#]+)$/.exec(reference)
+  if (!match) return null
+  try { return decodeURIComponent(match[1]) } catch { return null }
 }
 
 function emptyHistologyData(): HistologyAuthoringData {
@@ -184,13 +197,14 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
       // histology arrived after that bug and inherited it.
       const { id: uploadedId, measured, alreadyStored } = await uploadMedia(file)
       if (measured.mediaType !== 'image') {
-        if (!alreadyStored) await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
+        await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
         throw new Error('Histology fields accept PNG, JPEG, GIF or WebP images.')
       }
       const twin = alreadyStored
         ? (library.records ?? []).find((record) => record.sha256 === measured.sha256)
         : undefined
       const mediaId = twin?.id ?? uploadedId
+      if (twin) await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
       if (!twin) {
         const record: MediaRecord = {
           id: mediaId,
@@ -243,6 +257,13 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
         delete at[objective]
         return { ...structure, at }
       }),
+    }))
+  }
+
+  function updateMediaRecord(id: string, patch: Partial<MediaRecord>) {
+    setLibrary((current) => ({
+      ...current,
+      records: (current.records ?? []).map((record) => record.id === id ? { ...record, ...patch } : record),
     }))
   }
 
@@ -409,6 +430,46 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
                   )
                 })}
               </div>
+              {data.views.some((view) => managedMediaId(view.image)) && (
+                <div className="mt-4 space-y-3 border-t border-line pt-4">
+                  <div>
+                    <h4 className="text-[12.5px] font-semibold text-ink">Student-safe media details</h4>
+                    <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-3">Describe what each field shows and record its source or licence. The slide cannot publish until both are complete.</p>
+                  </div>
+                  {data.views.map((view) => {
+                    const mediaId = managedMediaId(view.image)
+                    const record = mediaId ? (library.records ?? []).find((candidate) => candidate.id === mediaId) : undefined
+                    if (!mediaId || !record) return null
+                    const blockers = mediaReleaseBlockers(record)
+                    return (
+                      <div key={view.objective} className="grid gap-3 rounded-lg border border-line bg-surface-2/35 p-3 sm:grid-cols-[5rem_minmax(0,1fr)_minmax(0,1fr)]">
+                        <div className="flex items-start justify-between gap-2 sm:block">
+                          <p className="text-[13px] font-semibold tabular-nums text-ink">{view.objective}× field</p>
+                          <Badge tone={blockers.length ? 'warning' : 'success'}>{blockers.length ? 'Needs details' : 'Ready'}</Badge>
+                        </div>
+                        <Field label="Accessibility description" htmlFor={`histology-media-${view.objective}-description`} hint="What the student needs to understand if the image is unavailable">
+                          <Textarea
+                            id={`histology-media-${view.objective}-description`}
+                            className="min-h-20"
+                            value={record.altText}
+                            onChange={(event) => updateMediaRecord(mediaId, { altText: event.target.value })}
+                            placeholder="H&E section showing…"
+                          />
+                        </Field>
+                        <Field label="Source and rights" htmlFor={`histology-media-${view.objective}-rights`} hint="Owner, source, permission, or licence">
+                          <Textarea
+                            id={`histology-media-${view.objective}-rights`}
+                            className="min-h-20"
+                            value={record.rights}
+                            onChange={(event) => updateMediaRecord(mediaId, { rights: event.target.value })}
+                            placeholder="Department-owned teaching slide; cleared for student use"
+                          />
+                        </Field>
+                      </div>
+                    )
+                  })}
+                </div>
+              )}
               {mediaError && <p role="alert" className="mt-2 text-[11.5px] text-danger">{mediaError}</p>}
               {/* A warning, not a refusal: a 40×-only slide is still worth
                   publishing when that is the only image there is. */}

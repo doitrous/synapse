@@ -94,6 +94,18 @@ test('a ledger that is not a list yields an empty snapshot', () => {
   assert.equal(questionKeysFromLedger({ kind: 'question' }).size, 0)
 })
 
+test('media-blocked questions never receive a server marking key', () => {
+  const waiting = ledgerQuestion({
+    id: 'q-media',
+    questionData: {
+      ...ledgerQuestion().questionData,
+      mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'med-question' }],
+    },
+  })
+  assert.equal(questionKeysFromLedger([waiting], new Set()).size, 0)
+  assert.deepEqual([...questionKeysFromLedger([waiting], new Set(['med-question'])).keys()], ['q-media'])
+})
+
 test('the index a correctly-answering student sends is scored correct', () => {
   // This is the exact comparison parties.js, challenges.js and studyRooms.js make.
   const key = questionKey(ledgerQuestion())

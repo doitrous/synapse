@@ -98,6 +98,26 @@ test('reviewed seed pack is an explicit fallback when no imported pack exists', 
   assert.equal(result.content.kind, 'red-flag-sort')
 })
 
+test('a media-blocked histology slide cannot enter a party spotter game', () => {
+  const slide = {
+    id: 'histology-1', kind: 'histology', status: 'Published', title: 'Small intestine', subjectId: 'histology',
+    histologyData: {
+      views: [{ objective: 4, image: '/media/med-slide' }],
+      structures: ['Villus', 'Crypt', 'Goblet cell', 'Lamina propria'].map((label, index) => ({
+        id: `structure-${index}`, label, at: { 4: { x: 20 + index, y: 30 + index } },
+      })),
+    },
+    mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'med-slide' }],
+  }
+  const media = { records: [{ id: 'med-slide', storageKey: 'media/aa/bb/slide.png', altText: 'H&E slide', rights: 'Owned' }] }
+
+  assert.deepEqual(
+    _test.contentFromTrustedSource({ kind: 'spotter' }, { ledger: [slide], media: { records: [] } }),
+    { ok: false, reason: 'no_content' },
+  )
+  assert.equal(_test.contentFromTrustedSource({ kind: 'spotter' }, { ledger: [slide], media }).ok, true)
+})
+
 test('party game actions enforce membership, host controls, scoring and public redaction', () => {
   const built = _test.contentFromTrustedSource({ kind: 'term-grid', seed: 1, rounds: 4 }, { glossary })
   const game = gameFrom(built.content)

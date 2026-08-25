@@ -1,3 +1,5 @@
+import { redactItem } from './studentLedger.js'
+
 /**
  * How a published question is marked.
  *
@@ -43,11 +45,13 @@ export function questionKey(item) {
 }
 
 /** Build the id-keyed snapshot from a parsed ledger, skipping anything unpublished. */
-export function questionKeysFromLedger(ledger) {
+export function questionKeysFromLedger(ledger, releasedMediaIds = null) {
   const byId = new Map()
   for (const item of Array.isArray(ledger) ? ledger : []) {
-    if (item?.kind !== 'question' || item.status !== 'Published') continue
-    byId.set(item.id, questionKey(item))
+    if (item?.kind !== 'question') continue
+    const studentItem = redactItem(item, releasedMediaIds)
+    if (!studentItem) continue
+    byId.set(studentItem.id, questionKey(studentItem))
   }
   return byId
 }

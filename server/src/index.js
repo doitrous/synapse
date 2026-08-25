@@ -8,7 +8,12 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { REDACTED_STATE_KEYS, redactLedgerForStudent } from './studentLedger.js'
+import {
+  REDACTED_STATE_KEYS,
+  newlyMediaBlockedPublishedItems,
+  redactLedgerForStudent,
+  releasedMediaIdsFromDocument,
+} from './studentLedger.js'
 import {
   createShare, deleteShare, listDiscoverableShares, listShareNotifications, listShares,
   markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
@@ -100,6 +105,7 @@ const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || 2
 const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+const CONTENT_LEDGER_STATE_KEY = 'synapse-admin-content-ledger-v4'
 const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
 let medicalResourceSnapshot = null
 let medicalResourceLoad = null
@@ -1170,8 +1176,8 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // projection instead. That happens here rather than in the browser, because a
   // field removed after delivery has already been delivered.
   const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
-  if (!authoring && req.params.key === 'synapse-admin-content-ledger-v4') {
-    const releasedMediaIds = new Set((await mediaRecords()).filter(isMediaReleased).map((record) => record.id))
+  if (!authoring && req.params.key === CONTENT_LEDGER_STATE_KEY) {
+    const releasedMediaIds = releasedMediaIdsFromDocument({ records: await mediaRecords() })
     value = redactLedgerForStudent(value, releasedMediaIds)
   } else if (redact) value = redact(value)
   res.json({ value, updatedAt, version })
@@ -1204,9 +1210,25 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
   }
 
   const conn = await pool.getConnection()
+  let removedMediaRecords = []
   try {
     await conn.beginTransaction()
-    const [currentRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+    let guardedRows = []
+    let currentRows
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY) {
+      // Publication and release are one invariant. Lock both documents in one
+      // deterministic query so a concurrent publish and media withdrawal
+      // cannot each validate against the other's old value.
+      const [rows] = await conn.query(
+        'SELECT k, v FROM app_state WHERE k IN (?, ?) ORDER BY k FOR UPDATE',
+        [CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY],
+      )
+      guardedRows = rows
+      currentRows = rows.filter((row) => row.k === key)
+    } else {
+      const [rows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [key])
+      currentRows = rows
+    }
     const storedRaw = currentRows.length ? currentRows[0].v : null
     const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [key])
     const storedVersion = versionRows[0]?.version ?? null
@@ -1255,6 +1277,38 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       })
     }
 
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY) {
+      const ledgerRow = guardedRows.find((row) => row.k === CONTENT_LEDGER_STATE_KEY)
+      const mediaRow = guardedRows.find((row) => row.k === MEDIA_STATE_KEY)
+      const beforeLedger = ledgerRow ? JSON.parse(ledgerRow.v) : []
+      const beforeMedia = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+      const ledger = key === CONTENT_LEDGER_STATE_KEY
+        ? merged.value
+        : beforeLedger
+      const media = key === MEDIA_STATE_KEY
+        ? merged.value
+        : beforeMedia
+      const blockedItems = newlyMediaBlockedPublishedItems(
+        beforeLedger,
+        releasedMediaIdsFromDocument(beforeMedia),
+        ledger,
+        releasedMediaIdsFromDocument(media),
+      )
+      if (blockedItems.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'media_required',
+          reason: 'published content cannot be saved while required teaching media is unresolved or unreleased',
+          blockedItems,
+        })
+      }
+      if (key === MEDIA_STATE_KEY) {
+        const nextIds = new Set((Array.isArray(media?.records) ? media.records : []).map((record) => record.id))
+        removedMediaRecords = (Array.isArray(beforeMedia?.records) ? beforeMedia.records : [])
+          .filter((record) => !nextIds.has(record.id))
+      }
+    }
+
     const v = JSON.stringify(merged.value ?? null)
     let version = storedVersion
     if (storedRaw !== v) {
@@ -1268,6 +1322,25 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     }
     await conn.commit()
     invalidateSnapshots(key)
+    if (removedMediaRecords.length) {
+      // The descriptive document is now authoritative. Reclaim each removed
+      // managed alias only after that commit, so a failed state save can never
+      // strand a live library record without its bytes.
+      for (const record of removedMediaRecords) {
+        try {
+          const deleted = await deleteManagedMediaRow({ id: record.id })
+          if (!deleted && record.storageKey) {
+            await withManagedMediaDigestLock(record.sha256 || record.id, (mediaConn) => (
+              removePhysicalMediaIfUnreferenced(record, mediaConn)
+            ))
+          }
+        } catch (error) {
+          // A remaining managed row is a durable cleanup marker. The stale
+          // upload sweep retries it after the recovery window.
+          console.error(`media cleanup failed for ${record.id}:`, error)
+        }
+      }
+    }
     if (key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()
     res.json({ ok: true, version })
   } catch (error) {
@@ -1778,6 +1851,122 @@ async function cleanupStaleMediaUploads() {
     if (workspace) await rm(workspace, { recursive: true, force: true })
     await pool.query(`DELETE FROM managed_media WHERE id = ? AND upload_id = ? AND status = 'uploading'`, [row.id, row.uploadId])
   }
+
+  // A browser can disappear after completion but before it describes the
+  // asset in the library document. Keep that recovery window generous, then
+  // reclaim the durable orphan through the same reference-aware path.
+  const stateConn = await pool.getConnection()
+  try {
+    await stateConn.beginTransaction()
+    // Read the authoritative document while holding the same row lock used by
+    // state writes. A second replica's process-local cache must never decide a
+    // destructive cleanup.
+    const [mediaRows] = await stateConn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [MEDIA_STATE_KEY])
+    const describedRecords = mediaRows.length ? JSON.parse(mediaRows[0].v)?.records ?? [] : []
+    const describedIds = new Set(describedRecords.map((record) => record.id))
+    const [readyOrphans] = await stateConn.query(
+      `SELECT id FROM managed_media
+       WHERE status = 'ready' AND updated_at < DATE_SUB(NOW(), INTERVAL ? HOUR)`,
+      [MEDIA_UPLOAD_MAX_AGE_HOURS],
+    )
+    for (const row of readyOrphans) {
+      if (!describedIds.has(row.id)) await deleteManagedMediaRow({ id: row.id, describedMediaRecords: describedRecords })
+    }
+    await stateConn.commit()
+  } catch (error) {
+    await stateConn.rollback()
+    throw error
+  } finally {
+    stateConn.release()
+  }
+}
+
+/** Serialise file creation and reclamation for one content-addressed object. */
+async function withManagedMediaDigestLock(digest, work) {
+  const conn = await pool.getConnection()
+  const lockName = `synapse-media:${String(digest).slice(0, 48)}`
+  try {
+    const [rows] = await conn.query('SELECT GET_LOCK(?, 10) AS acquired', [lockName])
+    if (Number(rows[0]?.acquired) !== 1) {
+      const error = new Error('media storage is busy; please try again')
+      error.status = 503
+      throw error
+    }
+    return await work(conn)
+  } finally {
+    await conn.query('SELECT RELEASE_LOCK(?)', [lockName]).catch(() => {})
+    conn.release()
+  }
+}
+
+function completedMediaPayload(row, alreadyStored = false) {
+  return {
+    id: row.id,
+    storageKey: row.storageKey,
+    sha256: row.sha256,
+    mediaType: row.mediaType,
+    mimeType: row.mimeType,
+    sizeBytes: Number(row.sizeBytes || 0),
+    width: Number(row.width || 0),
+    height: Number(row.height || 0),
+    alreadyStored,
+  }
+}
+
+/** Remove content-addressed bytes only after every database and library alias is gone. */
+async function removePhysicalMediaIfUnreferenced(record, conn, excludedManagedId = null, describedMediaRecords = null) {
+  if (!record?.storageKey) return false
+  const [databaseReferences] = await conn.query(
+    `SELECT COUNT(*) AS total FROM managed_media
+     WHERE storage_key = ? AND status = 'ready'${excludedManagedId ? ' AND id <> ?' : ''}`,
+    excludedManagedId ? [record.storageKey, excludedManagedId] : [record.storageKey],
+  )
+  if (Number(databaseReferences[0]?.total || 0) > 0) return false
+  const descriptions = describedMediaRecords ?? await mediaRecords()
+  const describedReference = descriptions.some((entry) => entry?.storageKey === record.storageKey)
+  if (describedReference) return false
+  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record.storageKey)
+  if (fullPath) await rm(fullPath, { force: true })
+  return true
+}
+
+/** Delete one owned upload/asset alias and reclaim its bytes when it was the last. */
+async function deleteManagedMediaRow({ id, uploadedBy = null, uploadId = null, describedMediaRecords = null }) {
+  const where = ['id = ?']
+  const params = [id]
+  if (uploadedBy) { where.push('uploaded_by = ?'); params.push(uploadedBy) }
+  if (uploadId) { where.push('upload_id = ?'); params.push(uploadId) }
+  const [initialRows] = await pool.query(
+    `SELECT id, upload_id AS uploadId, uploaded_by AS uploadedBy, status,
+       storage_key AS storageKey, sha256
+     FROM managed_media WHERE ${where.join(' AND ')} LIMIT 1`,
+    params,
+  )
+  const initial = initialRows[0]
+  if (!initial) return false
+
+  if (initial.status === 'uploading') {
+    const workspace = resolvedMediaUploadPath(initial.id, initial.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    const [deleted] = await pool.query(`DELETE FROM managed_media WHERE ${where.join(' AND ')} AND status = 'uploading'`, params)
+    return Boolean(deleted.affectedRows)
+  }
+
+  return withManagedMediaDigestLock(initial.sha256 || initial.id, async (conn) => {
+    const [rows] = await conn.query(
+      `SELECT id, upload_id AS uploadId, storage_key AS storageKey, sha256 FROM managed_media
+       WHERE ${where.join(' AND ')} AND status = 'ready' LIMIT 1`,
+      params,
+    )
+    const record = rows[0]
+    if (!record) return false
+    const workspace = record.uploadId && resolvedMediaUploadPath(record.id, record.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    await removePhysicalMediaIfUnreferenced(record, conn, record.id, describedMediaRecords)
+    const [deleted] = await conn.query(`DELETE FROM managed_media WHERE ${where.join(' AND ')} AND status = 'ready'`, params)
+    if (!deleted.affectedRows) return false
+    return true
+  })
 }
 
 /** Turn an assembled staging file into one immediately readable managed asset. */
@@ -1809,40 +1998,37 @@ async function registerManagedMedia(staging, received, { id = `med-${randomUUID(
   const fullPath = storageKey && resolveWithin(MEDIA_STORAGE_DIR, storageKey)
   if (!fullPath) throw new Error('media path could not be resolved')
 
-  // The same bytes have one physical file and one server asset id. A reviewer
-  // choosing the duplicate receives that existing id, so an abandoned upload
-  // cannot leave an unreachable ready row behind.
-  const [duplicates] = await pool.query(
-    `SELECT id, storage_key AS storageKey, sha256, media_type AS mediaType,
-       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
-     FROM managed_media WHERE sha256 = ? AND status = 'ready' LIMIT 1`,
-    [received.sha256],
-  )
-  if (duplicates[0]) {
-    await rm(staging, { force: true })
-    await pool.query(`DELETE FROM managed_media WHERE id = ? AND status = 'uploading'`, [id])
-    return { ...duplicates[0], alreadyStored: true }
-  }
-
-  const alreadyStored = existsSync(fullPath)
-  if (!alreadyStored) {
-    await mkdir(dirname(fullPath), { recursive: true })
-    await rename(staging, fullPath)
-  }
-  await pool.query(
-    `INSERT INTO managed_media
-       (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height, ready_at)
-     VALUES (?, ?, 'ready', ?, ?, ?, ?, ?, ?, ?, NOW())
-     ON DUPLICATE KEY UPDATE upload_id = NULL, status = 'ready', storage_key = VALUES(storage_key),
-       sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
-       size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height), ready_at = NOW()`,
-    [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
-  )
-  return {
-    id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
-    mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
-    width: meta.width || 0, height: meta.height || 0, alreadyStored,
-  }
+  return withManagedMediaDigestLock(received.sha256, async (conn) => {
+    // Identical uploads share one physical object but retain their own row and
+    // upload id. That makes completion and cleanup safely retryable even when
+    // the first HTTP response is lost.
+    const alreadyStored = existsSync(fullPath)
+    if (!alreadyStored) {
+      await mkdir(dirname(fullPath), { recursive: true })
+      await rename(staging, fullPath)
+    } else {
+      await rm(staging, { force: true })
+    }
+    try {
+      await conn.query(
+        `INSERT INTO managed_media
+           (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height, ready_at)
+         VALUES (?, ?, 'ready', ?, ?, ?, ?, ?, ?, ?, NOW())
+         ON DUPLICATE KEY UPDATE status = 'ready', storage_key = VALUES(storage_key),
+           sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
+           size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height), ready_at = NOW()`,
+        [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
+      )
+    } catch (error) {
+      if (!alreadyStored) await removePhysicalMediaIfUnreferenced({ storageKey }, conn)
+      throw error
+    }
+    return completedMediaPayload({
+      id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
+      mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
+      width: meta.width, height: meta.height,
+    }, alreadyStored)
+  })
 }
 
 /** Legacy bounded request, kept for older clients. New clients use chunks. */
@@ -1898,12 +2084,30 @@ app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources'
 
 app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
   const [rows] = await pool.query(
-    `SELECT id, size_bytes AS sizeBytes FROM managed_media
-     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    `SELECT id, status, storage_key AS storageKey, sha256, media_type AS mediaType,
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+     FROM managed_media
+     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status IN ('uploading', 'ready')`,
     [req.params.id, req.params.uploadId, req.identity.id],
   )
   const pending = rows[0]
   if (!pending) return res.status(404).json({ error: 'media upload not found' })
+  if (pending.status === 'ready') {
+    const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    const [duplicates] = await pool.query(
+      `SELECT COUNT(*) AS total FROM managed_media
+       WHERE storage_key = ? AND status = 'ready' AND id <> ?`,
+      [pending.storageKey, pending.id],
+    )
+    const describedDuplicate = (await mediaRecords()).some(
+      (record) => record.id !== pending.id && record.storageKey === pending.storageKey,
+    )
+    return res.json({
+      ok: true,
+      ...completedMediaPayload(pending, Number(duplicates[0]?.total || 0) > 0 || describedDuplicate),
+    })
+  }
   const totalChunks = Number(req.body?.totalChunks)
   const declaredSize = Number(req.body?.sizeBytes)
   if (!Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 4096) return res.status(400).json({ error: 'invalid chunk count' })
@@ -1916,8 +2120,10 @@ app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'm
   try {
     const received = await assembleChunks(workspace, staging, {
       totalChunks, declaredSize, maxBytes: MEDIA_CHUNKED_MAX_BYTES, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES,
+      removeWorkspace: false,
     })
     const registered = await registerManagedMedia(staging, received, { id: req.params.id, uploadedBy: req.identity.id })
+    await rm(workspace, { recursive: true, force: true })
     res.json({ ok: true, ...registered })
   } catch (error) {
     await rm(staging, { force: true })
@@ -1926,17 +2132,12 @@ app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'm
 }))
 
 app.delete('/api/media/uploads/:id/:uploadId', requireTab('resources', 'media'), wrap(async (req, res) => {
-  const [rows] = await pool.query(
-    `SELECT id FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
-    [req.params.id, req.params.uploadId, req.identity.id],
-  )
-  if (!rows.length) return res.status(404).json({ error: 'media upload not found' })
-  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
-  if (workspace) await rm(workspace, { recursive: true, force: true })
-  await pool.query(
-    `DELETE FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
-    [req.params.id, req.params.uploadId, req.identity.id],
-  )
+  const deleted = await deleteManagedMediaRow({
+    id: req.params.id,
+    uploadId: req.params.uploadId,
+    uploadedBy: req.identity.id,
+  })
+  if (!deleted) return res.status(404).json({ error: 'media upload not found' })
   res.json({ ok: true })
 }))
 
@@ -1972,18 +2173,22 @@ app.get('/api/media-playback/:token', wrap(async (req, res) => {
  * Whether this image may be removed.
  *
  * The record itself is removed by the client's write to the library document;
- * this route exists to refuse, and to say who is still using it. The bytes stay
- * where they are: they are content-addressed, so another record may
- * legitimately name the same file.
+ * this route refuses active use and drops this managed alias. Content-addressed
+ * bytes are reclaimed only after every database and library alias is gone.
  */
 app.delete('/api/media/:id', requireTab('resources', 'media'), wrap(async (req, res) => {
-  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-admin-content-ledger-v4'])
+  const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
   const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
   const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
   const concepts = graphRow.length ? (JSON.parse(graphRow[0].v)?.concepts ?? []) : []
   const refusal = deleteRefusal(req.params.id, ledger, concepts)
   if (refusal) return res.status(409).json({ error: refusal })
-  await pool.query('DELETE FROM managed_media WHERE id = ?', [req.params.id])
+  // A described library record is removed by the following state write. Keep
+  // its durable row and bytes until that write commits; pending/duplicate
+  // uploads have no description and can be reclaimed immediately.
+  if (!(await mediaRecords()).some((record) => record.id === req.params.id)) {
+    await deleteManagedMediaRow({ id: req.params.id })
+  }
   res.json({ ok: true })
 }))
 

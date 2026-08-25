@@ -190,12 +190,44 @@ export function hasUnreleasedManagedMedia(value, releasedMediaIds, seen = new Se
   return false
 }
 
+/** The released managed ids in the authoritative descriptive media document. */
+export function releasedMediaIdsFromDocument(document) {
+  return new Set(
+    (Array.isArray(document?.records) ? document.records : [])
+      .filter(isMediaReleased)
+      .map((record) => record.id)
+      .filter((id) => typeof id === 'string' && id.trim()),
+  )
+}
+
+/** Why a nominally published item still cannot enter any student surface. */
+export function publicationMediaBlockers(item, releasedMediaIds = null) {
+  const blockers = []
+  if (hasUnresolvedRequiredMedia(item, new Set(), releasedMediaIds)) blockers.push('required media is unresolved')
+  if (hasUnreleasedManagedMedia(item, releasedMediaIds)) blockers.push('managed media is not released')
+  return blockers
+}
+
+/** Published items that a server write must refuse until their media is ready. */
+export function mediaBlockedPublishedItems(ledger, releasedMediaIds = null) {
+  if (!Array.isArray(ledger)) return []
+  return ledger
+    .filter((item) => item?.status === 'Published')
+    .map((item) => ({ id: item.id, title: item.title, blockers: publicationMediaBlockers(item, releasedMediaIds) }))
+    .filter((item) => item.blockers.length > 0)
+}
+
+/** Blocks introduced by this write; legacy blocks remain editable so staff can repair them. */
+export function newlyMediaBlockedPublishedItems(beforeLedger, beforeReleasedMediaIds, afterLedger, afterReleasedMediaIds) {
+  const beforeIds = new Set(mediaBlockedPublishedItems(beforeLedger, beforeReleasedMediaIds).map((item) => item.id))
+  return mediaBlockedPublishedItems(afterLedger, afterReleasedMediaIds).filter((item) => !beforeIds.has(item.id))
+}
+
 /** The student's view of one item, or `null` when they may not see it at all. */
 export function redactItem(item, releasedMediaIds = null) {
   if (!item || typeof item !== 'object' || Array.isArray(item)) return null
   if (item.status !== 'Published') return null
-  if (hasUnresolvedRequiredMedia(item, new Set(), releasedMediaIds)) return null
-  if (hasUnreleasedManagedMedia(item, releasedMediaIds)) return null
+  if (publicationMediaBlockers(item, releasedMediaIds).length) return null
   return strip(item)
 }
 

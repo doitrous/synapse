@@ -5,9 +5,13 @@ import {
   PUBLIC_FIELDS,
   hasUnresolvedRequiredMedia,
   hasUnreleasedManagedMedia,
+  mediaBlockedPublishedItems,
+  newlyMediaBlockedPublishedItems,
+  publicationMediaBlockers,
   redactItem,
   redactLedgerForStudent,
   redactMediaForStudent,
+  releasedMediaIdsFromDocument,
   MEDIA_PRIVATE_FIELDS,
   MEDIA_STUDENT_FIELDS,
   REDACTED_STATE_KEYS,
@@ -52,6 +56,53 @@ test('direct histology and practical media URLs cannot bypass release', () => {
   assert.equal(hasUnreleasedManagedMedia(slide, new Set()), true)
   assert.equal(redactItem(slide, new Set()), null)
   assert.notEqual(redactItem(slide, new Set(['med-slide'])), null)
+})
+
+test('the publication write gate reports exactly which published items are media-blocked', () => {
+  const released = {
+    id: 'med-ready', storageKey: 'media/aa/bb/ready.png', altText: 'Teaching image', rights: 'Owned',
+  }
+  const releasedIds = releasedMediaIdsFromDocument({ records: [released, { id: 'med-draft', storageKey: '', altText: '', rights: '' }] })
+  assert.deepEqual([...releasedIds], ['med-ready'])
+
+  const waiting = authoredQuestion({
+    id: 'q-waiting',
+    questionData: {
+      ...authoredQuestion().questionData,
+      mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'med-draft' }],
+    },
+  })
+  const safe = authoredQuestion({
+    id: 'q-safe',
+    questionData: {
+      ...authoredQuestion().questionData,
+      mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'med-ready' }],
+    },
+  })
+  assert.deepEqual(publicationMediaBlockers(safe, releasedIds), [])
+  assert.deepEqual(mediaBlockedPublishedItems([waiting, safe], releasedIds), [{
+    id: 'q-waiting',
+    title: waiting.title,
+    blockers: ['required media is unresolved', 'managed media is not released'],
+  }])
+
+  const newlyBlocked = authoredQuestion({
+    id: 'q-new',
+    questionData: {
+      ...authoredQuestion().questionData,
+      mediaRequests: [{ priority: 'required', status: 'needed' }],
+    },
+  })
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([waiting], releasedIds, [waiting, newlyBlocked], releasedIds).map((item) => item.id),
+    ['q-new'],
+    'an existing block stays repairable while a newly introduced one is refused',
+  )
+  assert.deepEqual(
+    newlyMediaBlockedPublishedItems([waiting, newlyBlocked], releasedIds, [safe, newlyBlocked], releasedIds),
+    [],
+    'a write that repairs one legacy block is allowed even while another remains',
+  )
 })
 
 /** A published question carrying everything an author would put on one. */

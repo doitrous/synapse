@@ -74,13 +74,14 @@ export function MediaPicker({ onPick, onCancel, medium = 'image' }: {
       }
       const { id, measured, alreadyStored } = await uploadMedia(file, setProgress)
       if (measured.mediaType !== medium) {
-        if (!alreadyStored) await apiDelete(`/media/${encodeURIComponent(id)}`).catch(() => undefined)
+        await apiDelete(`/media/${encodeURIComponent(id)}`).catch(() => undefined)
         throw new Error(`That file contains ${measured.mediaType}, but this request needs ${medium}.`)
       }
       // These exact bytes are already here. Offer what already describes them
       // rather than starting a second description of the same picture.
       const twin = alreadyStored ? records.find((record) => record.sha256 === measured.sha256) : undefined
       if (twin) {
+        await apiDelete(`/media/${encodeURIComponent(id)}`).catch(() => undefined)
         setDuplicate(twin)
         return
       }

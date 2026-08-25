@@ -100,6 +100,7 @@ export async function assembleChunks(workspace, fullPath, {
   chunkMaxBytes,
   expectedSha256 = null,
   requirePdf = false,
+  removeWorkspace = true,
 }) {
   const chunkPaths = Array.from({ length: totalChunks }, (_, index) => join(workspace, `${String(index).padStart(4, '0')}.part`))
   for (const chunkPath of chunkPaths) {
@@ -139,7 +140,7 @@ export async function assembleChunks(workspace, fullPath, {
       throw failure(415, 'that file is not a PDF')
     }
     await rename(temporaryPath, fullPath)
-    await rm(workspace, { recursive: true, force: true })
+    if (removeWorkspace) await rm(workspace, { recursive: true, force: true })
     return { sizeBytes, sha256, chunks: totalChunks }
   } catch (error) {
     output.destroy()

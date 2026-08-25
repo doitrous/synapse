@@ -15,7 +15,7 @@ export interface UploadedMedia {
   id: string
   /** Everything measured or verified from the stored file. */
   measured: Pick<MediaRecord, 'storageKey' | 'sha256' | 'mimeType' | 'sizeBytes' | 'mediaType' | 'width' | 'height' | 'durationSeconds'>
-  /** True when these exact bytes already had a managed asset record. */
+  /** True when these exact bytes were already present in content-addressed storage. */
   alreadyStored: boolean
 }
 
@@ -112,10 +112,21 @@ export async function uploadMedia(file: File, onProgress?: (fraction: number) =>
       if (lastError) throw lastError
       onProgress?.(end / file.size)
     }
-    completed = await apiPost<CompletedUpload>(
-      `/media/uploads/${encodeURIComponent(session.id)}/${encodeURIComponent(session.uploadId)}/complete`,
-      { totalChunks, sizeBytes: file.size },
-    )
+    let completionError: unknown
+    for (let attempt = 0; attempt < 3; attempt += 1) {
+      try {
+        completed = await apiPost<CompletedUpload>(
+          `/media/uploads/${encodeURIComponent(session.id)}/${encodeURIComponent(session.uploadId)}/complete`,
+          { totalChunks, sizeBytes: file.size },
+        )
+        completionError = undefined
+        break
+      } catch (reason) {
+        completionError = reason
+        if (attempt < 2) await new Promise((resolve) => window.setTimeout(resolve, 350 * (attempt + 1)))
+      }
+    }
+    if (!completed) throw completionError
     const playback = await browserMetadata(completed.id, completed.mediaType, completed.mimeType)
     return {
       id: completed.id,
@@ -132,9 +143,9 @@ export async function uploadMedia(file: File, onProgress?: (fraction: number) =>
       alreadyStored: completed.alreadyStored,
     }
   } catch (error) {
-    if (completed && !completed.alreadyStored) {
+    if (completed) {
       await apiDelete(`/media/${encodeURIComponent(completed.id)}`).catch(() => undefined)
-    } else if (!completed) {
+    } else {
       await apiDelete(`/media/uploads/${encodeURIComponent(session.id)}/${encodeURIComponent(session.uploadId)}`).catch(() => undefined)
     }
     throw error
