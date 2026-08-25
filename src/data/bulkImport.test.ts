@@ -636,6 +636,9 @@ const DECISION = [
   'Concept: CON-CVS-AAA',
   'Also: CON-CVS-BBB | CON-CVS-CCC',
   'Difficulty: Challenging',
+  'Media: /media/med-decision-video',
+  'Media type: video',
+  'Media MIME: video/mp4',
   'Q: What is your first step?',
   '*= Give aspirin and arrange an immediate ECG',
   'Why: Both are time-critical, and neither waits',
@@ -650,6 +653,9 @@ test('a decision block carries its concept, difficulty and a reason per option',
   assert.equal(decision.conceptId, 'CON-CVS-AAA')
   assert.deepEqual(decision.secondaryConceptIds, ['CON-CVS-BBB', 'CON-CVS-CCC'])
   assert.equal(decision.difficulty, 'Challenging')
+  assert.equal(decision.mediaUrl, '/media/med-decision-video')
+  assert.equal(decision.mediaType, 'video')
+  assert.equal(decision.mediaMimeType, 'video/mp4')
   assert.equal(decision.context, 'A 54-year-old man has 20 minutes of central chest pain.')
   assert.equal(decision.answers[0].explanation, 'Both are time-critical, and neither waits on a confirmed diagnosis.')
   assert.equal(decision.answers[1].explanation, 'The misconception that a diagnosis must be confirmed first.')
@@ -672,6 +678,33 @@ test('a Why: binds to the option above it, not to the block', () => {
   ])
   // The block-level explanation must not have swallowed either of them.
   assert.equal(question.explanation, 'Territory follows the leads that face the surface.')
+})
+
+test('OSCE and interpretation imports preserve managed audio and video metadata', () => {
+  const station = practicalDataFrom({
+    type: 'OSCE station', station_image: '/media/med-station-audio',
+    station_media_type: 'audio', station_media_mime_type: 'audio/mpeg',
+  })
+  assert.equal(station.format, 'osce')
+  if (station.format !== 'osce') return
+  assert.equal(station.mediaUrl, '/media/med-station-audio')
+  assert.equal(station.mediaType, 'audio')
+  assert.equal(station.mediaMimeType, 'audio/mpeg')
+
+  const [question] = parseLabQuestions([
+    '### Moving ultrasound clip',
+    'Media: /media/med-lab-video',
+    'Media type: video',
+    'Media MIME: video/webm',
+    'Q: What is shown?',
+    '*= Pleural sliding',
+    'Why: The pleural line moves with respiration.',
+    '* Absent sliding',
+    'Why: That is the opposite finding.',
+    'Explanation: Motion is essential to the interpretation.',
+  ].join('\n'))
+  assert.equal(question.mediaType, 'video')
+  assert.equal(question.mediaMimeType, 'video/webm')
 })
 
 test('an unexplained option is a row error rather than a silently worse question', () => {

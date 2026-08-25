@@ -9,7 +9,7 @@ const SHA = 'ab12cd34'.padEnd(64, '0')
 
 test('the client and the server agree where a file is stored', () => {
   assert.equal(MEDIA_STATE_KEY, server.MEDIA_STATE_KEY)
-  for (const mime of ['image/png', 'image/jpeg', 'image/gif', 'image/webp', 'application/pdf']) {
+  for (const mime of ['image/png', 'image/jpeg', 'image/gif', 'image/webp', 'audio/mpeg', 'audio/mp4', 'video/mp4', 'video/webm', 'application/pdf']) {
     assert.equal(storageKeyFor(SHA, mime), server.storageKeyFor(SHA, mime), mime)
   }
   for (const digest of ['short', SHA.toUpperCase(), '../../etc/passwd'.padEnd(64, 'a')]) {
@@ -36,6 +36,9 @@ test('the client and the server agree who is using an image', () => {
     { id: 'q1', kind: 'question', title: 'Q1', questionData: { media: [{ id: 'p1', mediaId: 'med-a', slot: 'stem' as const }] } },
     { id: 'q2', kind: 'question', title: 'Q2', questionData: { media: [{ id: 'p2', mediaId: 'med-a', slot: 'answer' as const, answerLabel: 'C' as const }] } },
     { id: 'q3', kind: 'question', title: 'Q3', questionData: { media: [] } },
+    { id: 'a1', kind: 'article', title: 'A1', articleData: { media: [{ sourceId: 'med-a' }] } },
+    { id: 'p1', kind: 'practical', title: 'P1', practicalData: { questions: [{ id: 'l1', mediaUrl: '/media/med-a' }] } },
+    { id: 'h1', kind: 'histology', title: 'H1', histologyData: { views: [{ objective: 10, image: '/media/med-a' }] } },
   ]
   const concepts = [{ id: 'c1', label: 'Plexus', mediaIds: ['med-a'] }]
   for (const id of ['med-a', 'med-none']) {

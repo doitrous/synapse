@@ -20,7 +20,8 @@ import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { isStoredMediaReference, removeStoredMedia, resolveMediaSource } from '@/lib/mediaStorage'
-import { uploadMedia, verifyRenders } from '@/lib/mediaUpload'
+import { uploadMedia } from '@/lib/mediaUpload'
+import { apiDelete } from '@/lib/api'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { StrandedMediaNotice } from '@/components/admin/StrandedMediaNotice'
@@ -30,12 +31,12 @@ import { overlayPortal } from '@/lib/overlayPortal'
 const STATUSES: Status[] = ['Draft', 'In review', 'Published', 'Archived']
 
 /** The same ceiling question attachments use — one media path, one limit. */
-const MAX_IMAGE_BYTES = 100_000_000
+const MAX_IMAGE_BYTES = 100 * 1024 * 1024
 
 function isImageFile(file: File): boolean {
   if (file.type.startsWith('image/')) return true
   const extension = file.name.split('.').pop()?.toLowerCase() ?? ''
-  return ['jpg', 'jpeg', 'png', 'gif', 'webp', 'avif', 'tif', 'tiff'].includes(extension)
+  return ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(extension)
 }
 
 function emptyHistologyData(): HistologyAuthoringData {
@@ -172,7 +173,7 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
     if (!file) return
     setMediaError('')
     if (!isImageFile(file)) { setMediaError(`${file.name} is not a supported image file.`); return }
-    if (file.size > MAX_IMAGE_BYTES) { setMediaError(`${file.name} is larger than the 100 MB upload limit.`); return }
+    if (file.size > MAX_IMAGE_BYTES) { setMediaError(`${file.name} is larger than the 100 MB image limit. Large-file support is intended for streaming audio and video.`); return }
     // Read before awaiting: after the store resolves, this closure's copy of the
     // draft is a render old.
     const previous = data.views.find((view) => view.objective === objective)
@@ -181,14 +182,18 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
       // On the server, like every other image. A slide that only existed in the
       // uploader's browser rendered perfectly for them and reached no student —
       // histology arrived after that bug and inherited it.
-      const { measured, alreadyStored } = await uploadMedia(file)
+      const { id: uploadedId, measured, alreadyStored } = await uploadMedia(file)
+      if (measured.mediaType !== 'image') {
+        if (!alreadyStored) await apiDelete(`/media/${encodeURIComponent(uploadedId)}`).catch(() => undefined)
+        throw new Error('Histology fields accept PNG, JPEG, GIF or WebP images.')
+      }
       const twin = alreadyStored
         ? (library.records ?? []).find((record) => record.sha256 === measured.sha256)
         : undefined
-      let mediaId = twin?.id
-      if (!mediaId) {
+      const mediaId = twin?.id ?? uploadedId
+      if (!twin) {
         const record: MediaRecord = {
-          id: `med-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+          id: mediaId,
           ...measured,
           title: `${draft.title || 'Slide'} · ${objective}×`,
           // Blank on purpose: the file is safe, and it is not publishable until
@@ -200,9 +205,7 @@ export function HistologyEditorDialog({ open, item, onClose, onSave }: {
           uploadedAt: new Date().toISOString(),
         }
         setLibrary((current) => ({ ...current, records: [record, ...(current.records ?? [])] }))
-        mediaId = record.id
       }
-      await verifyRenders(mediaId)
       const image = mediaUrl(mediaId)
       // A replaced picture that only ever lived in this browser is nobody's
       // now. One on the server is left alone: another slide may name it.

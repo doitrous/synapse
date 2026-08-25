@@ -59,7 +59,7 @@ export const ADMIN_TABS = [
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'],
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', to: '/admin/library/media', group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: [] },
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
   { id: 'reports', to: '/admin/reports', group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
 

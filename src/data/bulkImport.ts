@@ -173,7 +173,9 @@ export const IMPORT_SCHEMAS: Record<ContentKind, ImportSchemaDefinition> = {
       { key: 'candidate_instructions', label: 'Candidate instructions', help: 'Student-facing station brief.' },
       { key: 'actor_opening', label: 'Actor opening', help: 'Opening statement for the actor.' },
       { key: 'actor_sections', label: 'Actor brief sections', help: 'One “Section: content” entry per line.' },
-      { key: 'station_image', label: 'Station image', help: 'An image the station is built around — a radiograph on the light box. Images only; the runner renders it as an image. (OSCE station)' },
+      { key: 'station_image', label: 'Station media URL', help: 'A working managed-media URL the station is built around. Pair audio/video with station_media_type and station_media_mime_type. (OSCE station / Skills checklist)' },
+      { key: 'station_media_type', label: 'Station media type', help: 'image, audio, or video. Required when station_image points to audio or video. (OSCE station / Skills checklist)' },
+      { key: 'station_media_mime_type', label: 'Station media MIME type', help: 'The verified MIME type for station media, e.g. video/mp4 or audio/mpeg. (OSCE station / Skills checklist)' },
       { key: 'actor_flags', label: 'Actor flags', help: 'Behavioural flags separated by new lines. (OSCE station)' },
       { key: 'mark_scheme', label: 'Mark scheme', help: 'One “Section (marks): item” entry per line. (OSCE station)' },
       { key: 'decisions', label: 'Case decisions', help: 'Clinical-case decision points. Start each with "### Decision title", then optionally "Concept:", "Also:" and "Difficulty:", then "Q: question", options as "* option" (mark the right one "*= option") each followed by "Why: …", and "Rationale: …". (Clinical case)' },
@@ -586,17 +588,18 @@ export function parseRelatedArticles(value = ''): { ids: string[]; reasons: Reco
   return { ids, reasons }
 }
 
-type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media' | 'concept' | 'also' | 'difficulty'
+type BlockField = 'context' | 'question' | 'rationale' | 'explanation' | 'media' | 'mediaType' | 'mediaMimeType' | 'concept' | 'also' | 'difficulty'
 
 /** `why` is not a part of the block — it belongs to the option above it. */
 type BlockTarget = BlockField | 'why'
 
 const BLOCK_LABELS: Record<string, BlockTarget> = {
   q: 'question', rationale: 'rationale', explanation: 'explanation', media: 'media',
+  'media type': 'mediaType', 'media mime': 'mediaMimeType',
   why: 'why', concept: 'concept', also: 'also', difficulty: 'difficulty',
 }
 
-const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
+const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Media type|Media MIME|Why|Concept|Also|Difficulty)\s*:\s*(.*)$/i
 
 /**
  * Labels whose value is a single line: an ID, a band, a URL.
@@ -607,11 +610,16 @@ const BLOCK_LABEL_PATTERN = /^(Q|Rationale|Explanation|Media|Why|Concept|Also|Di
  * swallow it produced a difficulty of "Moderate He tells you he is thirsty",
  * which matched no band and silently went untagged.
  */
-const SCALAR_BLOCK_LABELS = new Set<BlockTarget>(['concept', 'also', 'difficulty', 'media'])
+const SCALAR_BLOCK_LABELS = new Set<BlockTarget>(['concept', 'also', 'difficulty', 'media', 'mediaType', 'mediaMimeType'])
 
 /** Read an authored difficulty, on the same four-band scale the question bank uses. */
 function practicalDifficulty(value: string): PracticalDifficulty | undefined {
   return DIFFICULTIES.find((tier) => tier.toLowerCase() === value.trim().toLowerCase())
+}
+
+function practicalMediaType(value = ''): 'image' | 'audio' | 'video' | undefined {
+  const normalized = value.trim().toLowerCase()
+  return normalized === 'image' || normalized === 'audio' || normalized === 'video' ? normalized : undefined
 }
 
 /**
@@ -629,7 +637,10 @@ function practicalDifficulty(value: string): PracticalDifficulty | undefined {
  * batch validator reports it as an option missing its explanation.
  */
 function parseLabelledBlock(body = '') {
-  const parts: Record<BlockField, string[]> = { context: [], question: [], rationale: [], explanation: [], media: [], concept: [], also: [], difficulty: [] }
+  const parts: Record<BlockField, string[]> = {
+    context: [], question: [], rationale: [], explanation: [], media: [], mediaType: [], mediaMimeType: [],
+    concept: [], also: [], difficulty: [],
+  }
   const answers: PracticalAnswerDraft[] = []
   let current: BlockTarget = 'context'
   const write = (target: BlockTarget, text: string) => {
@@ -664,6 +675,8 @@ function parseLabelledBlock(body = '') {
     rationale: parts.rationale.join(' ').trim(),
     explanation: parts.explanation.join(' ').trim(),
     mediaUrl: parts.media.join('').trim(),
+    mediaType: practicalMediaType(parts.mediaType.join(' ')),
+    mediaMimeType: parts.mediaMimeType.join(' ').trim() || undefined,
     conceptId: parts.concept.join(' ').trim(),
     secondaryConceptIds: splitImportList(parts.also.join('\n')),
     difficulty: practicalDifficulty(parts.difficulty.join(' ')),
@@ -685,7 +698,11 @@ export function parseDecisions(value = ''): ClinicalDecisionDraft[] {
   return parseSections(value)
     .map((section, index) => {
       const block = parseLabelledBlock(section.body)
-      return { id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, rationale: block.rationale, ...blockTags(block) }
+      return {
+        id: `dec-imp-${index}`, title: section.heading, context: block.context, question: block.question,
+        mediaUrl: block.mediaUrl, mediaType: block.mediaType, mediaMimeType: block.mediaMimeType,
+        answers: block.answers, rationale: block.rationale, ...blockTags(block),
+      }
     })
     .filter((decision) => decision.question && decision.answers.length)
 }
@@ -697,7 +714,11 @@ export function parseLabQuestions(value = ''): LabQuestionDraft[] {
       const block = parseLabelledBlock(section.body)
       // The heading is the stem; any prose before `Q:` extends it.
       const context = [section.heading, block.context].filter(Boolean).join('\n')
-      return { id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl, answers: block.answers, explanation: block.explanation, ...blockTags(block) }
+      return {
+        id: `lab-imp-${index}`, context, question: block.question, mediaUrl: block.mediaUrl,
+        mediaType: block.mediaType, mediaMimeType: block.mediaMimeType,
+        answers: block.answers, explanation: block.explanation, ...blockTags(block),
+      }
     })
     .filter((question) => question.question && question.answers.length)
 }
@@ -770,6 +791,9 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
   // OSCE station and Skills checklist share the mark-scheme shape; a checklist
   // simply has no actor brief.
   const difficulty = practicalDifficulty(values.difficulty ?? '')
+  const mediaUrl = trimmed(values.station_image)
+  const mediaType = practicalMediaType(values.station_media_type) ?? (mediaUrl ? 'image' : undefined)
+  const mediaMimeType = trimmed(values.station_media_mime_type)
   return {
     ...shared,
     format: 'osce',
@@ -778,6 +802,9 @@ export function practicalDataFrom(values: Record<string, string>, ownerId = ''):
     actorSections: only('actor_sections', parseActorSections) as ActorBriefSectionDraft[],
     actorFlags: only('actor_flags', importLines) as string[],
     markSections: only('mark_scheme', parseMarkSections) as PracticalMarkSectionDraft[],
+    ...(mediaUrl ? { mediaUrl } : {}),
+    ...(mediaType ? { mediaType } : {}),
+    ...(mediaMimeType ? { mediaMimeType } : {}),
     ...(difficulty ? { difficulty } : {}),
   }
 }

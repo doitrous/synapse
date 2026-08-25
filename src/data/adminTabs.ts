@@ -68,7 +68,7 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'],
     apiPrefixes: ['/api/medical-resources', '/api/media'] },
   { id: 'media', label: 'Media Requests', to: '/admin/library/media', icon: ImagePlus, group: 'Content',
-    stateKeys: ['synapse-admin-content-ledger-v4'], apiPrefixes: [] },
+    stateKeys: ['synapse-admin-content-ledger-v4', 'synapse-media-library-v1'], apiPrefixes: ['/api/media'] },
   { id: 'reports', label: 'Content Reports', to: '/admin/reports', icon: Flag, group: 'Content',
     stateKeys: ['synapse-content-reports-v1'], apiPrefixes: [] },
 

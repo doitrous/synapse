@@ -89,7 +89,8 @@ local reporting units differ.
 
 ## Media (S6 of the pipeline)
 
-`Media:` inside a question is a real, working URL only. Anything you do not have yet is a
+`Media:` inside a question is a real, working managed-media URL only. Follow it with
+`Media type:` (`image`, `audio`, or `video`) and `Media MIME:` for audio/video. Anything you do not have yet is a
 `media_recommendations` request block, **marked as a request, never rewritten into prose**
 that describes the missing asset. This is stage S6
 ([13-orchestration.md](13-orchestration.md) §4).
@@ -192,19 +193,11 @@ raised gap points to ketoacidosis.
 | `Concept:` | The ONE concept this question teaches. |
 | `Also:` | Concepts it also assesses, `\|`-separated. |
 | `Difficulty:` | This question's intended difficulty. |
-| `Media:` | A **real image** URL for this question. Leave it out unless you have one. See the warning below — it is not a general media field. |
+| `Media:` | A real working managed-media URL for this question. Leave it out unless you have one. |
+| `Media type:` | `image`, `audio`, or `video`. Required for audio/video; legacy rows without it are treated as images. |
+| `Media MIME:` | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
 
-> **`Media:` is image-only, whatever the admin form says.** The student runner renders it
-> through `ZoomableImage` — an `<img>` — so an audio or video URL produces a broken image,
-> silently. The admin field's own placeholder invites "ECG, X-ray, CT, waveform, **or audio
-> URL**", and the last of those does not work.
->
-> **There is nowhere in a practical to attach a heart sound, a murmur or a breath sound.**
-> If you need one, write it as an MCQ instead — a question's `## attachments` takes `audio`
-> and `video` blocks, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
-
-`Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — each takes its own
+`Concept:`, `Also:`, `Difficulty:`, `Media:`, `Media type:` and `Media MIME:` are **scalar labels** — each takes its own
 line, then the parser reverts to context. Putting a value on the same line as
 `Difficulty:` produced `"Moderate He tells you he is thirsty"`, which matched no band and
 went silently untagged.

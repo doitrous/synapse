@@ -476,8 +476,10 @@ export interface PracticalMarkSectionDraft {
 
 export interface OsceAuthoringData extends PracticalCommon {
   format: 'osce'
-  /** The image a station is built around — a radiograph on the light box. */
+  /** Managed media a station is built around — image, recording or clip. */
   mediaUrl?: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   candidateInstructions: string
   actorOpening: string
   actorSections: ActorBriefSectionDraft[]
@@ -490,16 +492,10 @@ export interface ClinicalDecisionDraft {
   id: string
   title: string
   context: string
-  /**
-   * An image the decision turns on — the ECG, the film, the specimen.
-   *
-   * `LabQuestionDraft` has had one all along and a case has not, so a case
-   * built around an image had nowhere to put it and the `Media:` line an author
-   * wrote was silently discarded at import. Images only, as for a lab question:
-   * the runner renders it with `ZoomableImage`, so audio or video would show a
-   * broken image.
-   */
+  /** Managed image, recording or clip the decision turns on. */
   mediaUrl?: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   question: string
   answers: PracticalAnswerDraft[]
   rationale: string
@@ -520,15 +516,10 @@ export interface LabQuestionDraft {
   id: string
   context: string
   question: string
-  /**
-   * An image for this question. **Images only** — the runner renders any
-   * non-empty value as an `<img>`, so an audio or video URL shows a student a
-   * broken image. The admin field once invited "or audio URL", which is the
-   * mistake this comment exists to stop being repeated: there is nowhere in any
-   * practical format to attach a recording, and a heart sound belongs on an MCQ,
-   * whose `attachments` accept `audio` and `video`.
-   */
+  /** Managed image, recording or clip for this interpretation question. */
   mediaUrl: string
+  mediaType?: MediaAttachment['type']
+  mediaMimeType?: string
   answers: PracticalAnswerDraft[]
   explanation: string
   /** The single concept this question teaches. */
@@ -644,9 +635,11 @@ export interface ManagedContentItem {
  * slot. `supplied` alone is not enough: it must name the managed asset that
  * fulfilled it, so a manually changed status cannot release broken content.
  */
-export function blockingMediaRequests(item: ManagedContentItem): MediaRequest[] {
+export function mediaRequestsOf(item: ManagedContentItem): MediaRequest[] {
   const found: MediaRequest[] = []
   const seen = new Set<unknown>()
+  const requestIds = new Set<string>()
+  const requestObjects = new Set<object>()
   const visit = (value: unknown) => {
     if (!value || typeof value !== 'object' || seen.has(value)) return
     seen.add(value)
@@ -654,13 +647,38 @@ export function blockingMediaRequests(item: ManagedContentItem): MediaRequest[] 
     for (const [key, inner] of Object.entries(value)) {
       if (key === 'mediaRequests' && Array.isArray(inner)) {
         for (const request of inner as MediaRequest[]) {
-          if (request?.priority === 'required' && (request.status !== 'supplied' || !request.mediaId?.trim())) found.push(request)
+          if (!request || typeof request !== 'object' || requestObjects.has(request)) continue
+          requestObjects.add(request)
+          const id = typeof request.id === 'string' ? request.id.trim() : ''
+          if (id && requestIds.has(id)) continue
+          if (id) requestIds.add(id)
+          found.push(request)
         }
       } else visit(inner)
     }
   }
   visit(item)
   return found
+}
+
+export function blockingMediaRequests(item: ManagedContentItem): MediaRequest[] {
+  return mediaRequestsOf(item).filter((request) => (
+    request.priority === 'required'
+    && (request.status !== 'supplied' || !request.mediaId?.trim())
+  ))
+}
+
+export type MediaRequestFilter = 'all' | 'any' | 'outstanding' | 'blocking' | 'none'
+
+/** Match a catalogue item against the reviewer-facing media-request states. */
+export function matchesMediaRequestFilter(item: ManagedContentItem, filter: MediaRequestFilter): boolean {
+  if (filter === 'all') return true
+  const requests = mediaRequestsOf(item)
+  if (filter === 'none') return requests.length === 0
+  if (filter === 'any') return requests.length > 0
+  if (filter === 'blocking') return blockingMediaRequests(item).length > 0
+  return requests.some((request) => request.status === 'needed' || request.status === 'planned')
+    || blockingMediaRequests(item).length > 0
 }
 
 /** The one student-projection gate every content surface can share. */

@@ -125,6 +125,9 @@ export async function apiAuthGate(req, res, next) {
     || req.path === '/api/accounts/exists'
     || req.path === '/api/pricing/quote'
     || req.path === '/api/facebook/deletion-callback'
+    // Native media elements cannot attach the Supabase bearer header. They use
+    // a short-lived signed URL minted for an authenticated viewer instead.
+    || ((req.method === 'GET' || req.method === 'HEAD') && req.path.startsWith('/api/media-playback/'))
   ) return next()
 
   const auth = req.header('authorization') || ''

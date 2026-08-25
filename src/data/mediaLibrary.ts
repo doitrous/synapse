@@ -16,10 +16,18 @@ export const MEDIA_MIME_EXTENSION: Record<string, string> = {
   'image/jpeg': 'jpg',
   'image/gif': 'gif',
   'image/webp': 'webp',
+  'audio/mpeg': 'mp3',
+  'audio/wav': 'wav',
+  'audio/ogg': 'ogg',
+  'audio/mp4': 'm4a',
+  'video/mp4': 'mp4',
+  'video/quicktime': 'mov',
+  'video/webm': 'webm',
 }
 
 export type AnswerLetter = 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
 export type MediaSlot = 'stem' | 'answer' | 'explanation'
+export type ManagedMediaType = 'image' | 'audio' | 'video'
 
 export interface MediaRecord {
   id: string
@@ -27,9 +35,12 @@ export interface MediaRecord {
   sha256: string
   mimeType: string
   sizeBytes: number
-  /** Measured from the decoded image on the server, never claimed by a client. */
+  /** Present on every new asset; inferred from MIME for legacy image records. */
+  mediaType?: ManagedMediaType
+  /** Images carry dimensions; recordings and clips use zero when unavailable. */
   width: number
   height: number
+  durationSeconds?: number
   /** What it is, in the picker. */
   title: string
   /** Required before it can reach a student. */
@@ -45,7 +56,7 @@ export interface MediaPlacement {
   id: string
   mediaId: string
   slot: MediaSlot
-  /** Only meaningful when slot is 'answer'. */
+  /** Names the answer when the asset belongs to that answer or its explanation. */
   answerLabel?: AnswerLetter
   /** A caption for this use alone. The record's own `title` is untouched. */
   caption?: string
@@ -59,6 +70,13 @@ export interface MediaUsage {
   ownerTitle: string
   placementId: string | null
   where: string
+}
+
+export function mediaTypeOf(record: Pick<MediaRecord, 'mediaType' | 'mimeType'>): ManagedMediaType {
+  if (record.mediaType) return record.mediaType
+  if (record.mimeType.startsWith('audio/')) return 'audio'
+  if (record.mimeType.startsWith('video/')) return 'video'
+  return 'image'
 }
 
 /** An empty library, for a key that has never been written. */
@@ -95,12 +113,26 @@ interface UsageItem {
   kind: string
   title: string
   questionData?: { media?: MediaPlacement[] }
+  articleData?: { media?: Array<{ sourceId?: string; url?: string; anchor?: { quote?: string } }> }
+  practicalData?: {
+    mediaUrl?: string
+    decisions?: Array<{ id?: string; title?: string; mediaUrl?: string }>
+    questions?: Array<{ id?: string; mediaUrl?: string }>
+  }
+  histologyData?: { views?: Array<{ objective?: number; image?: string }> }
 }
 
 interface UsageConcept { id: string; label: string; mediaIds?: string[] }
 
 function placementsOf(item: UsageItem | null | undefined): MediaPlacement[] {
   return item?.questionData?.media ?? []
+}
+
+function idFromUrl(value: unknown): string | null {
+  if (typeof value !== 'string') return null
+  const match = /^\/media\/([^/?#]+)$/.exec(value)
+  if (!match) return null
+  try { return decodeURIComponent(match[1]) } catch { return null }
 }
 
 function whereOf(placement: MediaPlacement): string {
@@ -121,6 +153,29 @@ export function usageOf(mediaId: string, ledger: UsageItem[], concepts: UsageCon
         where: whereOf(placement),
       })
     }
+    for (const media of item.articleData?.media ?? []) {
+      if (media.sourceId !== mediaId && idFromUrl(media.url) !== mediaId) continue
+      usage.push({
+        ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title,
+        placementId: null, where: media.anchor?.quote ? 'article anchor' : 'article media',
+      })
+    }
+    const practical = item.practicalData
+    if (idFromUrl(practical?.mediaUrl) === mediaId) {
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: 'station media' })
+    }
+    for (const decision of practical?.decisions ?? []) {
+      if (idFromUrl(decision.mediaUrl) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `decision ${decision.title || decision.id || ''}`.trim() })
+    }
+    for (const question of practical?.questions ?? []) {
+      if (idFromUrl(question.mediaUrl) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `interpretation ${question.id || ''}`.trim() })
+    }
+    for (const view of item.histologyData?.views ?? []) {
+      if (idFromUrl(view.image) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `${view.objective || '?'}× field` })
+    }
   }
   for (const concept of Array.isArray(concepts) ? concepts : []) {
     if (!concept?.mediaIds?.includes(mediaId)) continue
@@ -140,5 +195,5 @@ export function deleteRefusal(mediaId: string, ledger: UsageItem[], concepts: Us
   if (!usage.length) return null
   const names = usage.slice(0, 5).map((entry) => entry.ownerTitle).join(', ')
   const rest = usage.length > 5 ? `, and ${usage.length - 5} more` : ''
-  return `${usage.length} item${usage.length === 1 ? '' : 's'} still use this image: ${names}${rest}`
+  return `${usage.length} item${usage.length === 1 ? '' : 's'} still use this media: ${names}${rest}`
 }

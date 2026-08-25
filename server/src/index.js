@@ -8,7 +8,7 @@ import compression from 'compression'
 import cors from 'cors'
 import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
-import { REDACTED_STATE_KEYS } from './studentLedger.js'
+import { REDACTED_STATE_KEYS, redactLedgerForStudent } from './studentLedger.js'
 import {
   createShare, deleteShare, listDiscoverableShares, listShareNotifications, listShares,
   markShareNotificationsRead, readShare, readShareAsset, setShareFollow, setShareStar,
@@ -17,8 +17,9 @@ import {
 import { apiAuthGate, heldTabs, invalidateRoleTabs, mfaSatisfied, requireAuthenticated, requireConsole, requireSuperAdmin, requireTab } from './auth.js'
 import { hasConsoleAccess } from './roles.js'
 import { ROLE_TABS_STATE_KEY, holdsTab, tabsForStateKey } from './tabs.js'
-import { imageMeta } from './imageMeta.js'
-import { MEDIA_STATE_KEY, deleteRefusal, storageKeyFor } from './mediaLibrary.js'
+import { mediaMeta } from './mediaMeta.js'
+import { MEDIA_STATE_KEY, deleteRefusal, isMediaReleased, storageKeyFor } from './mediaLibrary.js'
+import { createMediaPlaybackToken, readMediaPlaybackToken } from './mediaPlayback.js'
 import { authoriseChanges, diffDocument, mergeDocument } from './stateMerge.js'
 import {
   cancelSubscription,
@@ -89,9 +90,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
 const RESOURCE_STORAGE_DIR = resolve(process.env.RESOURCE_STORAGE_DIR || '/data/medical-library')
 const RESOURCE_MAX_BYTES = Number(process.env.RESOURCE_MAX_BYTES) || 250 * 1024 * 1024
-/** Images share the resource volume; they are bounded far lower than a textbook. */
+/** Managed teaching media shares the resource volume. Small legacy uploads keep
+ * a single-request ceiling; the normal path uses bounded chunks up to 2 GB. */
 const MEDIA_STORAGE_DIR = RESOURCE_STORAGE_DIR
-const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 20 * 1024 * 1024
+const MEDIA_MAX_BYTES = Number(process.env.MEDIA_MAX_BYTES) || 100 * 1024 * 1024
+const MEDIA_IMAGE_MAX_BYTES = Number(process.env.MEDIA_IMAGE_MAX_BYTES) || 100 * 1024 * 1024
+const MEDIA_CHUNK_MAX_BYTES = Number(process.env.MEDIA_CHUNK_MAX_BYTES) || 8 * 1024 * 1024
+const MEDIA_CHUNKED_MAX_BYTES = Number(process.env.MEDIA_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
+const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_MAX_AGE_HOURS) || 24)
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
 const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
@@ -128,6 +134,42 @@ async function mediaRecords() {
   const [rows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [MEDIA_STATE_KEY])
   mediaSnapshot = rows.length ? JSON.parse(rows[0].v)?.records ?? [] : []
   return mediaSnapshot
+}
+
+/**
+ * The file facts used by both authenticated fetches and signed playback URLs.
+ * New uploads are authoritative rows, which makes them readable immediately on
+ * completion. The JSON lookup is a backward-compatible bridge for assets
+ * uploaded before managed_media existed.
+ */
+async function managedMediaFile(id) {
+  const [rows] = await pool.query(
+    `SELECT id, storage_key AS storageKey, sha256, media_type AS mediaType,
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+     FROM managed_media WHERE id = ? AND status = 'ready'`,
+    [id],
+  )
+  if (rows[0]) return rows[0]
+  return (await mediaRecords()).find((entry) => entry.id === id) ?? null
+}
+
+function sendManagedMedia(res, record, { signed = false } = {}) {
+  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record?.storageKey || '')
+  if (!fullPath || !existsSync(fullPath)) return false
+  res.setHeader('Content-Type', record.mimeType || 'application/octet-stream')
+  res.setHeader('Cache-Control', signed ? 'private, no-store' : 'private, max-age=3600')
+  if (!signed) res.setHeader('Vary', 'Authorization')
+  res.setHeader('X-Content-Type-Options', 'nosniff')
+  res.setHeader('Accept-Ranges', 'bytes')
+  res.sendFile(fullPath)
+  return true
+}
+
+/** Console staff may inspect drafts; students receive only released assets. */
+async function mayReadManagedMedia(identity, id) {
+  if (hasConsoleAccess(identity?.role)) return true
+  const record = (await mediaRecords()).find((entry) => entry.id === id)
+  return Boolean(record && isMediaReleased(record))
 }
 const app = express()
 /**
@@ -1128,7 +1170,11 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   // projection instead. That happens here rather than in the browser, because a
   // field removed after delivery has already been delivered.
   const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
-  res.json({ value: redact ? redact(value) : value, updatedAt, version })
+  if (!authoring && req.params.key === 'synapse-admin-content-ledger-v4') {
+    const releasedMediaIds = new Set((await mediaRecords()).filter(isMediaReleased).map((record) => record.id))
+    value = redactLedgerForStudent(value, releasedMediaIds)
+  } else if (redact) value = redact(value)
+  res.json({ value, updatedAt, version })
 }))
 
 /**
@@ -1715,17 +1761,92 @@ function resolvedChunkUploadPath(resourceId, uploadId) {
   return resolveUploadWorkspace(RESOURCE_STORAGE_DIR, resourceId, uploadId)
 }
 
-/** Remove interrupted upload work only after every stored resource is live. */
-/**
- * Receive one image.
- *
- * A single request, unlike a medical resource: there the catalogue already
- * knows the digest and the upload is checked against it, and here the digest is
- * what the upload produces. So the bytes land in a staging file, are measured
- * and identified from their own content, and only then move to the path their
- * digest names.
- */
-app.post('/api/media', requireTab('resources'), wrap(async (req, res) => {
+/** Managed-media chunks are isolated from the medical-resource cleanup tree. */
+function resolvedMediaUploadPath(mediaId, uploadId) {
+  return resolveUploadWorkspace(resolve(MEDIA_STORAGE_DIR, 'media'), `upload-${mediaId}`, uploadId)
+}
+
+/** Remove only abandoned managed-media sessions, never active resource work. */
+async function cleanupStaleMediaUploads() {
+  const [stale] = await pool.query(
+    `SELECT id, upload_id AS uploadId FROM managed_media
+      WHERE status = 'uploading' AND updated_at < DATE_SUB(NOW(), INTERVAL ? HOUR)`,
+    [MEDIA_UPLOAD_MAX_AGE_HOURS],
+  )
+  for (const row of stale) {
+    const workspace = resolvedMediaUploadPath(row.id, row.uploadId)
+    if (workspace) await rm(workspace, { recursive: true, force: true })
+    await pool.query(`DELETE FROM managed_media WHERE id = ? AND upload_id = ? AND status = 'uploading'`, [row.id, row.uploadId])
+  }
+}
+
+/** Turn an assembled staging file into one immediately readable managed asset. */
+async function registerManagedMedia(staging, received, { id = `med-${randomUUID()}`, uploadedBy }) {
+  // MP4/M4A track metadata may live in a trailing `moov` atom, especially for
+  // large/non-fast-start files. Probe a bounded head and tail rather than
+  // loading a multi-gigabyte upload into memory or guessing from its filename.
+  const headLength = Math.min(1024 * 1024, received.sizeBytes)
+  const tailLength = Math.min(4 * 1024 * 1024, Math.max(0, received.sizeBytes - headLength))
+  const probe = Buffer.alloc(headLength + tailLength)
+  const handle = await open(staging, 'r')
+  try {
+    await handle.read(probe, 0, headLength, 0)
+    if (tailLength) await handle.read(probe, headLength, tailLength, received.sizeBytes - tailLength)
+  } finally { await handle.close() }
+  const meta = mediaMeta(probe)
+  if (!meta) {
+    const error = new Error('that file is not a supported image, audio recording or video')
+    error.status = 415
+    throw error
+  }
+  if (meta.mediaType === 'image' && received.sizeBytes > MEDIA_IMAGE_MAX_BYTES) {
+    const error = new Error(`images may be up to ${Math.round(MEDIA_IMAGE_MAX_BYTES / (1024 * 1024))} MB`)
+    error.status = 413
+    throw error
+  }
+
+  const storageKey = storageKeyFor(received.sha256, meta.mimeType)
+  const fullPath = storageKey && resolveWithin(MEDIA_STORAGE_DIR, storageKey)
+  if (!fullPath) throw new Error('media path could not be resolved')
+
+  // The same bytes have one physical file and one server asset id. A reviewer
+  // choosing the duplicate receives that existing id, so an abandoned upload
+  // cannot leave an unreachable ready row behind.
+  const [duplicates] = await pool.query(
+    `SELECT id, storage_key AS storageKey, sha256, media_type AS mediaType,
+       mime_type AS mimeType, size_bytes AS sizeBytes, width, height
+     FROM managed_media WHERE sha256 = ? AND status = 'ready' LIMIT 1`,
+    [received.sha256],
+  )
+  if (duplicates[0]) {
+    await rm(staging, { force: true })
+    await pool.query(`DELETE FROM managed_media WHERE id = ? AND status = 'uploading'`, [id])
+    return { ...duplicates[0], alreadyStored: true }
+  }
+
+  const alreadyStored = existsSync(fullPath)
+  if (!alreadyStored) {
+    await mkdir(dirname(fullPath), { recursive: true })
+    await rename(staging, fullPath)
+  }
+  await pool.query(
+    `INSERT INTO managed_media
+       (id, uploaded_by, status, storage_key, sha256, media_type, mime_type, size_bytes, width, height, ready_at)
+     VALUES (?, ?, 'ready', ?, ?, ?, ?, ?, ?, ?, NOW())
+     ON DUPLICATE KEY UPDATE upload_id = NULL, status = 'ready', storage_key = VALUES(storage_key),
+       sha256 = VALUES(sha256), media_type = VALUES(media_type), mime_type = VALUES(mime_type),
+       size_bytes = VALUES(size_bytes), width = VALUES(width), height = VALUES(height), ready_at = NOW()`,
+    [id, uploadedBy, storageKey, received.sha256, meta.mediaType, meta.mimeType, received.sizeBytes, meta.width || null, meta.height || null],
+  )
+  return {
+    id, storageKey, sha256: received.sha256, mediaType: meta.mediaType,
+    mimeType: meta.mimeType, sizeBytes: received.sizeBytes,
+    width: meta.width || 0, height: meta.height || 0, alreadyStored,
+  }
+}
+
+/** Legacy bounded request, kept for older clients. New clients use chunks. */
+app.post('/api/media', requireTab('resources', 'media'), wrap(async (req, res) => {
   const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', randomUUID()))
   if (!staging) return res.status(500).json({ error: 'media staging path could not be resolved' })
 
@@ -1737,61 +1858,114 @@ app.post('/api/media', requireTab('resources'), wrap(async (req, res) => {
     return res.status(413).json({ error: error.message })
   }
 
+  try { return res.json({ ok: true, ...(await registerManagedMedia(staging, received, { uploadedBy: req.identity.id })) }) }
+  catch (error) { return res.status(error.status || 500).json({ error: error.message }) }
+  finally { await rm(staging, { force: true }) }
+}))
+
+/** Start a large, resumable managed-media upload. */
+app.post('/api/media/uploads', requireTab('resources', 'media'), wrap(async (req, res) => {
+  await cleanupStaleMediaUploads()
+  const sizeBytes = Number(req.body?.sizeBytes)
+  if (!Number.isFinite(sizeBytes) || sizeBytes < 1 || sizeBytes > MEDIA_CHUNKED_MAX_BYTES) {
+    return res.status(413).json({ error: `managed media may be up to ${Math.round(MEDIA_CHUNKED_MAX_BYTES / (1024 * 1024))} MB` })
+  }
+  const id = `med-${randomUUID()}`
+  const uploadId = randomUUID().replace(/-/g, '')
+  await pool.query(
+    `INSERT INTO managed_media (id, upload_id, uploaded_by, status, size_bytes) VALUES (?, ?, ?, 'uploading', ?)`,
+    [id, uploadId, req.identity.id, sizeBytes],
+  )
+  res.json({ id, uploadId, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES, maxBytes: MEDIA_CHUNKED_MAX_BYTES })
+}))
+
+app.put('/api/media/uploads/:id/:uploadId/chunks/:index', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  if (!rows.length) return res.status(404).json({ error: 'media upload not found' })
+  const index = Number(req.params.index)
+  if (!Number.isInteger(index) || index < 0 || index > 4095) return res.status(400).json({ error: 'invalid chunk index' })
+  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+  if (!workspace) return res.status(400).json({ error: 'invalid media upload path' })
+  const declaredLength = Number(req.header('content-length'))
+  if (Number.isFinite(declaredLength) && declaredLength > MEDIA_CHUNK_MAX_BYTES) return res.status(413).json({ error: 'chunk exceeds configured limit' })
+  const result = await receiveChunk(req, workspace, index, MEDIA_CHUNK_MAX_BYTES)
+  await pool.query(`UPDATE managed_media SET updated_at = NOW() WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`, [req.params.id, req.params.uploadId, req.identity.id])
+  res.json({ ok: true, index, sizeBytes: result.sizeBytes })
+}))
+
+app.post('/api/media/uploads/:id/:uploadId/complete', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id, size_bytes AS sizeBytes FROM managed_media
+     WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  const pending = rows[0]
+  if (!pending) return res.status(404).json({ error: 'media upload not found' })
+  const totalChunks = Number(req.body?.totalChunks)
+  const declaredSize = Number(req.body?.sizeBytes)
+  if (!Number.isInteger(totalChunks) || totalChunks < 1 || totalChunks > 4096) return res.status(400).json({ error: 'invalid chunk count' })
+  if (!Number.isFinite(declaredSize) || declaredSize !== Number(pending.sizeBytes) || declaredSize > MEDIA_CHUNKED_MAX_BYTES) {
+    return res.status(409).json({ error: 'uploaded size does not match the initiated upload' })
+  }
+  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+  const staging = resolveWithin(MEDIA_STORAGE_DIR, join('media', '.staging', req.params.id))
+  if (!workspace || !staging) return res.status(400).json({ error: 'invalid media upload path' })
   try {
-    // Identified from the file, never from the Content-Type the caller sent.
-    const head = Buffer.alloc(Math.min(64 * 1024, received.sizeBytes))
-    const handle = await open(staging, 'r')
-    try { await handle.read(head, 0, head.length, 0) } finally { await handle.close() }
-    const meta = imageMeta(head)
-    if (!meta) return res.status(415).json({ error: 'that file is not a PNG, JPEG, GIF or WebP image' })
-
-    const storageKey = storageKeyFor(received.sha256, meta.mimeType)
-    const fullPath = storageKey && resolveWithin(MEDIA_STORAGE_DIR, storageKey)
-    if (!fullPath) return res.status(500).json({ error: 'media path could not be resolved' })
-
-    // Two people uploading the same file store it once. They still each get
-    // their own record — the client is told about the match and offers the
-    // existing one rather than merging two people's alt text because the bytes
-    // happened to agree.
-    const alreadyStored = existsSync(fullPath)
-    if (!alreadyStored) {
-      await mkdir(dirname(fullPath), { recursive: true })
-      await rename(staging, fullPath)
-    }
-
-    return res.json({
-      ok: true,
-      storageKey,
-      sha256: received.sha256,
-      sizeBytes: received.sizeBytes,
-      mimeType: meta.mimeType,
-      width: meta.width,
-      height: meta.height,
-      alreadyStored,
+    const received = await assembleChunks(workspace, staging, {
+      totalChunks, declaredSize, maxBytes: MEDIA_CHUNKED_MAX_BYTES, chunkMaxBytes: MEDIA_CHUNK_MAX_BYTES,
     })
-  } finally {
-    // Whatever happened above, nothing is left in staging. A rename has already
-    // moved it; every other path abandoned it.
+    const registered = await registerManagedMedia(staging, received, { id: req.params.id, uploadedBy: req.identity.id })
+    res.json({ ok: true, ...registered })
+  } catch (error) {
     await rm(staging, { force: true })
+    res.status(error.status || 500).json({ error: error.message || 'media upload could not be completed' })
   }
 }))
 
-/**
- * Serve one image.
- *
- * Authenticated, like every other stored file here: these are a paying
- * product's teaching assets. Cached immutably because the path is the digest —
- * this URL cannot ever come to mean a different picture.
- */
+app.delete('/api/media/uploads/:id/:uploadId', requireTab('resources', 'media'), wrap(async (req, res) => {
+  const [rows] = await pool.query(
+    `SELECT id FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  if (!rows.length) return res.status(404).json({ error: 'media upload not found' })
+  const workspace = resolvedMediaUploadPath(req.params.id, req.params.uploadId)
+  if (workspace) await rm(workspace, { recursive: true, force: true })
+  await pool.query(
+    `DELETE FROM managed_media WHERE id = ? AND upload_id = ? AND uploaded_by = ? AND status = 'uploading'`,
+    [req.params.id, req.params.uploadId, req.identity.id],
+  )
+  res.json({ ok: true })
+}))
+
+/** Authenticated fetch for images and downloads. */
 app.get('/api/media/:id', requireAuthenticated, wrap(async (req, res) => {
-  const record = (await mediaRecords()).find((entry) => entry.id === req.params.id)
+  if (!await mayReadManagedMedia(req.identity, req.params.id)) return res.status(404).json({ error: 'media not found' })
+  const record = await managedMediaFile(req.params.id)
   if (!record) return res.status(404).json({ error: 'media not found' })
-  const fullPath = resolveWithin(MEDIA_STORAGE_DIR, record.storageKey || '')
-  if (!fullPath || !existsSync(fullPath)) return res.status(404).json({ error: 'media file is pending upload' })
-  res.setHeader('Content-Type', record.mimeType || 'application/octet-stream')
-  res.setHeader('Cache-Control', 'private, max-age=31536000, immutable')
-  res.setHeader('X-Content-Type-Options', 'nosniff')
-  res.sendFile(fullPath)
+  if (!sendManagedMedia(res, record)) return res.status(404).json({ error: 'media file is pending upload' })
+}))
+
+/** Native audio/video playback uses a signed URL so Range requests can seek. */
+app.post('/api/media/:id/playback', requireAuthenticated, wrap(async (req, res) => {
+  if (!await mayReadManagedMedia(req.identity, req.params.id)) return res.status(404).json({ error: 'media not found' })
+  const record = await managedMediaFile(req.params.id)
+  if (!record) return res.status(404).json({ error: 'media not found' })
+  const token = createMediaPlaybackToken(record.id, Date.now(), 4 * 60 * 60 * 1000, hasConsoleAccess(req.identity?.role))
+  res.json({ url: `/api/media-playback/${encodeURIComponent(token)}` })
+}))
+
+app.get('/api/media-playback/:token', wrap(async (req, res) => {
+  const claim = readMediaPlaybackToken(req.params.token)
+  if (!claim) return res.status(404).json({ error: 'media link expired' })
+  if (!claim.allowDraft) {
+    const released = (await mediaRecords()).find((entry) => entry.id === claim.mediaId)
+    if (!released || !isMediaReleased(released)) return res.status(404).json({ error: 'media not found' })
+  }
+  const record = await managedMediaFile(claim.mediaId)
+  if (!record || !sendManagedMedia(res, record, { signed: true })) return res.status(404).json({ error: 'media not found' })
 }))
 
 /**
@@ -1802,13 +1976,14 @@ app.get('/api/media/:id', requireAuthenticated, wrap(async (req, res) => {
  * where they are: they are content-addressed, so another record may
  * legitimately name the same file.
  */
-app.delete('/api/media/:id', requireTab('resources'), wrap(async (req, res) => {
+app.delete('/api/media/:id', requireTab('resources', 'media'), wrap(async (req, res) => {
   const [ledgerRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-admin-content-ledger-v4'])
   const [graphRow] = await pool.query('SELECT v FROM app_state WHERE k = ?', ['synapse-concept-graph-v2'])
   const ledger = ledgerRow.length ? JSON.parse(ledgerRow[0].v) : []
   const concepts = graphRow.length ? (JSON.parse(graphRow[0].v)?.concepts ?? []) : []
   const refusal = deleteRefusal(req.params.id, ledger, concepts)
   if (refusal) return res.status(409).json({ error: refusal })
+  await pool.query('DELETE FROM managed_media WHERE id = ?', [req.params.id])
   res.json({ ok: true })
 }))
 

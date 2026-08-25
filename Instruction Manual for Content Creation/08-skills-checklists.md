@@ -67,6 +67,9 @@ number of steps you wrote.
 | `difficulty` | Difficulty | no | `Easy` · `Moderate` · `Hard` · `Challenging`. |
 | `id` | Canonical ID | no | Supply to update an existing item. |
 | `mark_scheme` | Mark scheme | **by contract** | The steps. One `Section (marks): step` per line. |
+| `station_image` | Station media URL | no | A real working managed-media URL for an image, recording, or clip the checklist uses. |
+| `station_media_type` | Station media type | no | `image`, `audio`, or `video`. Required for audio/video; defaults to `image` for legacy rows. |
+| `station_media_mime_type` | Station media MIME type | no | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
 | `module_subject` | Module subject path(s) | — | Where inside each module it sits — `101 ISK > Anatomy > Upper Limb`. One path per line. |
 | `universities` | University IDs | — | Canonical university IDs, `\|`/`;`/newline separated. **Empty means EVERY university.** |
 | `years` | Year IDs | — | Year IDs this checklist is used in, e.g. `KAU_Y1 \| KAU_Y2`. |
@@ -210,16 +213,10 @@ no behaviour after the colon produces one.
 
 ## Media
 
-> **This format has no field for real media.** `OsceAuthoringData` — which backs both OSCE
-> stations and skills checklists — carries no media URL of any kind, and neither does a
-> clinical case decision. The only media a practical can hold is a **request**, which is an
-> instruction to a human and never renders to a student.
->
-> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
-> options are: request it and let a human place it once real media exists, or, if the item
-> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
-> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
+A fulfilled checklist can render an image, recording, or clip through `station_image` (the
+legacy key name), `station_media_type`, and `station_media_mime_type`. Use only a real,
+rights-cleared managed-media URL. Until that asset exists, omit those fields and keep the
+need in `media_recommendations`; required unresolved requests block publication.
 
 Checklists often want a photograph of correct hand position, a diagram of landmarks, or a
 recording of a sound the student must recognise.

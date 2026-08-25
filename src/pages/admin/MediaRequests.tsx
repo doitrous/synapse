@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { ArrowLeft, Eye, Flag, ImagePlus, MessageSquare, TriangleAlert } from 'lucide-react'
+import { ArrowLeft, Eye, FileAudio, FileVideo, Flag, ImagePlus, MessageSquare, TriangleAlert } from 'lucide-react'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { Badge } from '@/components/ui/Badge'
@@ -15,14 +15,18 @@ import { useIdentity } from '@/lib/useIdentity'
 import {
   CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA,
+  mediaRequestsOf,
   type MediaRequest, type MediaReviewComment, type ManagedContentItem, type PracticalAuthoringData,
 } from '@/data/contentControl'
 import { MEDICAL_TAXONOMY_INDEX } from '@/data/medicalLibraryTaxonomy'
 import { MediaPicker } from '@/components/admin/MediaPicker'
+import { PlacedAsset, PlacedMedia } from '@/components/ui/PlacedMedia'
+import { MediaAttachmentView } from '@/components/ui/MediaAttachmentView'
+import { placementsFor } from '@/data/mediaPlacement'
 import { isStoredMediaReference } from '@/lib/mediaStorage'
 import {
-  MEDIA_STATE_KEY, emptyMediaLibrary, mediaUrl,
-  type MediaLibraryDocument, type MediaPlacement,
+  MEDIA_STATE_KEY, emptyMediaLibrary, mediaTypeOf, mediaUrl,
+  type MediaLibraryDocument, type MediaPlacement, type MediaRecord,
 } from '@/data/mediaLibrary'
 
 interface Row extends MediaRequest {
@@ -67,6 +71,24 @@ const OWNER_CATALOGUE: Record<MediaRequest['ownerKind'], string> = {
   concept: '/admin/concepts',
 }
 
+/** Rewrite a request wherever the authoring contract anchored it. */
+function patchMediaRequest<T>(value: T, requestId: string, patch: (request: MediaRequest) => MediaRequest): T {
+  if (Array.isArray(value)) return value.map((entry) => patchMediaRequest(entry, requestId, patch)) as T
+  if (!value || typeof value !== 'object') return value
+  let changed = false
+  const next = Object.fromEntries(Object.entries(value).map(([key, inner]) => {
+    if (key === 'mediaRequests' && Array.isArray(inner)) {
+      const requests = (inner as MediaRequest[]).map((request) => request.id === requestId ? patch(request) : request)
+      changed ||= requests.some((request, index) => request !== inner[index])
+      return [key, requests]
+    }
+    const nested = patchMediaRequest(inner, requestId, patch)
+    changed ||= nested !== inner
+    return [key, nested]
+  }))
+  return (changed ? next : value) as T
+}
+
 /** The canonical root a request's owner sits under, for grouping. */
 function rootOf(nodeId: string | undefined): { id: string; title: string } {
   if (!nodeId) return { id: '—', title: 'No canonical placement' }
@@ -98,6 +120,7 @@ export function MediaRequests() {
   const [priority, setPriority] = useState('all')
   const [status, setStatus] = useState('needed,planned')
   const [reviewingId, setReviewingId] = useState<string | null>(null)
+  const mediaRecords = useMemo(() => new Map((mediaLibrary.records ?? []).map((record) => [record.id, record])), [mediaLibrary.records])
 
   const rows = useMemo<Row[]>(() => {
     // A question has no canonical placement of its own, so it inherits the one
@@ -109,11 +132,7 @@ export function MediaRequests() {
       ledger.filter((item) => item.kind === 'article').map((item) => [item.id, item.articleData?.primaryNodeId]),
     )
     return scoped.flatMap((item) => {
-      const requests =
-        item.kind === 'article' ? item.articleData?.mediaRequests
-        : item.kind === 'question' ? item.questionData?.mediaRequests
-        : item.kind === 'practical' ? item.practicalData?.mediaRequests
-        : undefined
+      const requests = mediaRequestsOf(item)
       if (!requests?.length) return []
       const nodeId =
         item.kind === 'article' ? item.articleData?.primaryNodeId
@@ -159,33 +178,15 @@ export function MediaRequests() {
    * that could disagree with it.
    */
   function setRequestStatus(row: Row, next: MediaRequest['status']) {
-    setLedger((items) => items.map((item) => {
-      if (item.id !== row.ownerId) return item
-      const patch = (list: MediaRequest[] | undefined) =>
-        list?.map((request) => (request.id === row.id ? { ...request, status: next } : request))
-      if (item.kind === 'article' && item.articleData) return { ...item, articleData: { ...item.articleData, mediaRequests: patch(item.articleData.mediaRequests) } }
-      if (item.kind === 'question' && item.questionData) return { ...item, questionData: { ...item.questionData, mediaRequests: patch(item.questionData.mediaRequests) } }
-      if (item.kind === 'practical' && item.practicalData) {
-        const practicalData = { ...item.practicalData, mediaRequests: patch(item.practicalData.mediaRequests) } as PracticalAuthoringData
-        return { ...item, practicalData }
-      }
-      return item
-    }))
+    setLedger((items) => items.map((item) => item.id === row.ownerId
+      ? patchMediaRequest(item, row.id, (request) => ({ ...request, status: next }))
+      : item))
   }
 
   function addReviewComment(row: Row, comment: MediaReviewComment) {
-    setLedger((items) => items.map((item) => {
-      if (item.id !== row.ownerId) return item
-      const patch = (list: MediaRequest[] | undefined) => list?.map((request) => (
-        request.id === row.id
-          ? { ...request, reviewComments: [...(request.reviewComments ?? []), comment] }
-          : request
-      ))
-      if (item.kind === 'article' && item.articleData) return { ...item, articleData: { ...item.articleData, mediaRequests: patch(item.articleData.mediaRequests) } }
-      if (item.kind === 'question' && item.questionData) return { ...item, questionData: { ...item.questionData, mediaRequests: patch(item.questionData.mediaRequests) } }
-      if (item.kind === 'practical' && item.practicalData) return { ...item, practicalData: { ...item.practicalData, mediaRequests: patch(item.practicalData.mediaRequests) } as PracticalAuthoringData }
-      return item
-    }))
+    setLedger((items) => items.map((item) => item.id === row.ownerId
+      ? patchMediaRequest(item, row.id, (request) => ({ ...request, reviewComments: [...(request.reviewComments ?? []), comment] }))
+      : item))
   }
 
   /**
@@ -215,84 +216,105 @@ export function MediaRequests() {
    * Record that a request has been met.
    *
    * The placement and the request's status are written in one update, so a
-   * fulfilled request and the image it refers to can never disagree — and
+   * fulfilled request and the asset it refers to can never disagree — and
    * `supplied` becomes a fact set by the thing that made it true rather than a
    * label somebody applied.
    */
-  function fulfil(row: Row, mediaId: string) {
+  function fulfil(row: Row, mediaId: string, destination: string, suppliedRecord?: MediaRecord): string | null {
+    const ownerItem = ledger.find((item) => item.id === row.ownerId)
+    if (!ownerItem) return 'The owning content changed. Reload this page and try again.'
+    const record = suppliedRecord ?? mediaLibrary.records.find((candidate) => candidate.id === mediaId)
+    if (ownerItem.kind !== 'question' && !record) return 'The stored media record is still saving. Wait a moment and try again.'
+
+    const questionAnswer = /^answer\s+([A-F])$/i.exec(destination.trim())
+    const questionExplanation = /^explanation\s+([A-F])$/i.exec(destination.trim())
+    if (ownerItem.kind === 'question' && destination.trim().toLowerCase() !== 'question stem' && !questionAnswer && !questionExplanation) {
+      return 'Choose the question stem, a specific answer, or a specific answer explanation before supplying the media.'
+    }
+
+    let practicalIndex = -1
+    if (ownerItem.kind === 'practical' && ownerItem.practicalData && ownerItem.practicalData.format !== 'osce') {
+      const target = (destination || row.section || '').trim().toLowerCase()
+      if (!target) return 'Choose the exact practical section where this media belongs.'
+      practicalIndex = ownerItem.practicalData.format === 'case'
+        ? ownerItem.practicalData.decisions.findIndex((decision) => (
+          decision.id.toLowerCase() === target || decision.title.toLowerCase() === target || decision.context.toLowerCase().includes(target)
+        ))
+        : ownerItem.practicalData.questions.findIndex((question) => (
+          question.id.toLowerCase() === target || question.context.toLowerCase().includes(target) || question.question.toLowerCase().includes(target)
+        ))
+      if (practicalIndex < 0) return 'That practical section no longer exists. Choose a current section before supplying the media.'
+    }
+
     setLedger((items) => items.map((item) => {
       if (item.id !== row.ownerId) return item
-      const supplied = (requests: MediaRequest[] | undefined) => requests?.map((request) => (
-        request.id === row.id ? { ...request, status: 'supplied' as const, mediaId } : request
-      ))
+      let updated: ManagedContentItem = item
       if (item.kind === 'question' && item.questionData) {
+        const slot: MediaPlacement['slot'] = questionAnswer
+          ? 'answer'
+          : questionExplanation
+            ? 'explanation'
+            : 'stem'
+        const answerLabel = (questionAnswer?.[1] ?? questionExplanation?.[1])?.toUpperCase() as MediaPlacement['answerLabel'] | undefined
         const placement: MediaPlacement = {
           id: `plc-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
           mediaId,
-          slot: row.slot ?? 'stem',
-          ...(row.slot === 'answer' && row.answerLabel ? { answerLabel: row.answerLabel } : {}),
+          slot,
+          ...((slot === 'answer' || slot === 'explanation') && (answerLabel ?? row.answerLabel) ? { answerLabel: answerLabel ?? row.answerLabel } : {}),
         }
-        return {
+        updated = {
           ...item,
           questionData: {
             ...item.questionData,
             media: [...(item.questionData.media ?? []).filter((candidate) => candidate.id !== placement.id), placement],
-            mediaRequests: supplied(item.questionData.mediaRequests),
           },
         }
-      }
-      const record = mediaLibrary.records.find((candidate) => candidate.id === mediaId)
-      if (!record) return item
-      if (item.kind === 'article' && item.articleData) {
-        return {
-          ...item,
-          articleData: {
-            ...item.articleData,
-            media: [...(item.articleData.media ?? []), {
-              id: `article-media-${Date.now().toString(36)}`,
-              type: 'image' as const,
-              sourceId: mediaId,
-              url: mediaUrl(mediaId),
-              caption: record.title,
-              altText: record.altText,
-              rights: record.rights,
-              necessity: row.teachingPurpose,
-              ...(row.anchorQuote ? { anchor: { quote: row.anchorQuote, ...(row.block ? { block: row.block } : {}) } } : {}),
-            }],
-            mediaRequests: supplied(item.articleData.mediaRequests),
-          },
+      } else {
+        if (!record) return item
+        if (item.kind === 'article' && item.articleData) {
+          const articleBlock = destination.trim().toLowerCase() === 'article summary' ? 'summary' : 'body'
+          updated = {
+            ...item,
+            articleData: {
+              ...item.articleData,
+              media: [...(item.articleData.media ?? []), {
+                id: `article-media-${Date.now().toString(36)}`,
+                type: mediaTypeOf(record),
+                sourceId: mediaId,
+                url: mediaUrl(mediaId),
+                caption: record.title,
+                altText: record.altText,
+                rights: record.rights,
+                necessity: row.teachingPurpose,
+                locator: destination,
+                ...(row.anchorQuote ? { anchor: { quote: row.anchorQuote, block: articleBlock } } : {}),
+              }],
+            },
+          }
+        } else if (item.kind === 'practical' && item.practicalData) {
+          const url = mediaUrl(mediaId)
+          const mediaType = mediaTypeOf(record)
+          const mediaMimeType = record.mimeType
+          let practicalData: PracticalAuthoringData
+          if (item.practicalData.format === 'osce') {
+            practicalData = { ...item.practicalData, mediaUrl: url, mediaType, mediaMimeType }
+          } else if (item.practicalData.format === 'case') {
+            practicalData = {
+              ...item.practicalData,
+              decisions: item.practicalData.decisions.map((decision, current) => current === practicalIndex ? { ...decision, mediaUrl: url, mediaType, mediaMimeType } : decision),
+            }
+          } else {
+            practicalData = {
+              ...item.practicalData,
+              questions: item.practicalData.questions.map((question, current) => current === practicalIndex ? { ...question, mediaUrl: url, mediaType, mediaMimeType } : question),
+            }
+          }
+          updated = { ...item, practicalData }
         }
       }
-      if (item.kind === 'practical' && item.practicalData) {
-        const url = mediaUrl(mediaId)
-        let practicalData: PracticalAuthoringData
-        if (item.practicalData.format === 'osce') {
-          practicalData = { ...item.practicalData, mediaUrl: url, mediaRequests: supplied(item.practicalData.mediaRequests) ?? [] }
-        } else if (item.practicalData.format === 'case') {
-          const target = row.section?.toLowerCase()
-          const index = Math.max(0, item.practicalData.decisions.findIndex((decision) => (
-            !target || decision.id.toLowerCase() === target || decision.title.toLowerCase() === target || decision.context.toLowerCase().includes(target)
-          )))
-          practicalData = {
-            ...item.practicalData,
-            decisions: item.practicalData.decisions.map((decision, current) => current === index ? { ...decision, mediaUrl: url } : decision),
-            mediaRequests: supplied(item.practicalData.mediaRequests) ?? [],
-          }
-        } else {
-          const target = row.section?.toLowerCase()
-          const index = Math.max(0, item.practicalData.questions.findIndex((question) => (
-            !target || question.id.toLowerCase() === target || question.context.toLowerCase().includes(target) || question.question.toLowerCase().includes(target)
-          )))
-          practicalData = {
-            ...item.practicalData,
-            questions: item.practicalData.questions.map((question, current) => current === index ? { ...question, mediaUrl: url } : question),
-            mediaRequests: supplied(item.practicalData.mediaRequests) ?? [],
-          }
-        }
-        return { ...item, practicalData }
-      }
-      return item
+      return patchMediaRequest(updated, row.id, (request) => ({ ...request, status: 'supplied', mediaId }))
     }))
+    return null
   }
 
   const outstanding = rows.filter((row) => row.status === 'needed' || row.status === 'planned')
@@ -314,7 +336,7 @@ export function MediaRequests() {
           <ol className="mt-2 grid gap-2 text-[12.5px] leading-relaxed text-ink-2 sm:grid-cols-2 xl:grid-cols-4">
             <li><span className="font-semibold text-ink">1.</span> Start with <span className="font-medium text-ink">Outstanding</span> and required requests.</li>
             <li><span className="font-semibold text-ink">2.</span> Open the owning item to confirm what the asset must teach.</li>
-            <li><span className="font-semibold text-ink">3.</span> Attach a stored image where the request supports it, or mark the request planned/declined.</li>
+            <li><span className="font-semibold text-ink">3.</span> Upload or choose the requested asset, then complete its accessibility and rights details.</li>
             <li><span className="font-semibold text-ink">4.</span> Return to the owner item and finish its review status.</li>
           </ol>
         </Panel>
@@ -375,6 +397,7 @@ export function MediaRequests() {
           row={reviewing}
           item={reviewingItem}
           reviewer={identity.displayName}
+          mediaRecords={mediaRecords}
           onClose={() => setReviewingId(null)}
           onFulfil={fulfil}
           onComment={addReviewComment}
@@ -500,26 +523,41 @@ function Target({ active, children }: { active: boolean; children: React.ReactNo
   )
 }
 
-function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentItem }) {
+function previewMedia(url: string | undefined, type: 'image' | 'audio' | 'video' | undefined, mimeType: string | undefined, name: string, records: Map<string, MediaRecord>) {
+  if (!url) return null
+  const match = /^\/media\/([^/?#]+)$/.exec(url)
+  let record: MediaRecord | undefined
+  if (match) {
+    try { record = records.get(decodeURIComponent(match[1])) } catch { record = undefined }
+  }
+  return record
+    ? <PlacedAsset record={record} caption={name} />
+    : <MediaAttachmentView attachment={{ id: url, type: type ?? 'image', name, url, mimeType }} />
+}
+
+function StudentContentPreview({ row, item, mediaRecords }: { row: Row; item: ManagedContentItem; mediaRecords: Map<string, MediaRecord> }) {
   const anchor = requestedAnchor(row).toLowerCase()
   if (item.kind === 'question' && item.questionData) {
     return (
       <div className="space-y-3">
-        <Target active={anchor === 'question stem'}><p className="text-[14px] font-semibold leading-relaxed text-ink">{item.title}</p></Target>
+        <Target active={anchor === 'question stem'}><p className="text-[14px] font-semibold leading-relaxed text-ink">{item.title}</p><PlacedMedia placements={placementsFor(item.questionData.media, 'stem')} records={mediaRecords} /></Target>
         <ol className="space-y-2" aria-label="Answer choices">
           {item.questionData.answers.map((answer) => (
             <li key={answer.label} className="space-y-1.5">
               <Target active={anchor === `answer ${answer.label}`.toLowerCase()}>
                 <p className="text-[12.5px] text-ink"><span className="me-2 font-bold">{answer.label}.</span>{answer.text}</p>
+                <PlacedMedia placements={placementsFor(item.questionData?.media, 'answer', answer.label)} records={mediaRecords} />
               </Target>
               {answer.explanation && (
                 <Target active={anchor === `explanation ${answer.label}`.toLowerCase() || (anchor === 'explanation' && answer.label === item.questionData?.correctAnswer)}>
                   <p className="text-[11.5px] leading-relaxed text-ink-2"><span className="font-semibold">Explanation:</span> {answer.explanation}</p>
+                  <PlacedMedia placements={placementsFor(item.questionData?.media, 'explanation', answer.label)} records={mediaRecords} />
                 </Target>
               )}
             </li>
           ))}
         </ol>
+        <PlacedMedia placements={placementsFor(item.questionData.media, 'explanation')} records={mediaRecords} />
       </div>
     )
   }
@@ -534,6 +572,9 @@ function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentIt
             <p className="mt-1 whitespace-pre-wrap text-[12px] leading-relaxed text-ink-2">{section.narrative || section.body || 'This section is empty.'}</p>
           </Target>
         ))}
+        {(item.articleData.media ?? []).filter((media) => media.url && media.altText && media.rights).map((media) => (
+          <MediaAttachmentView key={media.id} attachment={{ id: media.id, type: media.type, name: media.caption || item.title, url: media.url!, description: media.altText }} />
+        ))}
       </article>
     )
   }
@@ -543,7 +584,7 @@ function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentIt
     return (
       <div className="space-y-3">
         <h3 className="font-serif text-xl font-semibold text-ink">{item.title}</h3>
-        <Target active={anchor === 'candidate instructions' || anchor === 'station media'}><p className="whitespace-pre-wrap text-[12.5px] leading-relaxed text-ink">{practical.candidateInstructions}</p></Target>
+        <Target active={anchor === 'candidate instructions' || anchor === 'station media'}><p className="whitespace-pre-wrap text-[12.5px] leading-relaxed text-ink">{practical.candidateInstructions}</p>{previewMedia(practical.mediaUrl, practical.mediaType, practical.mediaMimeType, `${item.title} station media`, mediaRecords)}</Target>
       </div>
     )
   }
@@ -556,6 +597,7 @@ function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentIt
             <h4 className="text-[13px] font-semibold text-ink">{decision.title}</h4>
             <p className="mt-1 text-[12px] text-ink-2">{decision.context}</p>
             <p className="mt-2 text-[12.5px] font-medium text-ink">{decision.question}</p>
+            {previewMedia(decision.mediaUrl, decision.mediaType, decision.mediaMimeType, decision.title || item.title, mediaRecords)}
           </Target>
         ))}
       </div>
@@ -568,24 +610,28 @@ function StudentContentPreview({ row, item }: { row: Row; item: ManagedContentIt
         <Target key={question.id} active={anchor === question.id.toLowerCase() || row.section === question.id}>
           <p className="text-[12px] text-ink-2">{question.context}</p>
           <p className="mt-2 text-[12.5px] font-medium text-ink">{question.question}</p>
+          {previewMedia(question.mediaUrl, question.mediaType, question.mediaMimeType, `${item.title} interpretation`, mediaRecords)}
         </Target>
       ))}
     </div>
   )
 }
 
-function ReviewerWorkspace({ row, item, reviewer, onClose, onFulfil, onComment }: {
+function ReviewerWorkspace({ row, item, reviewer, mediaRecords, onClose, onFulfil, onComment }: {
   row: Row
   item: ManagedContentItem
   reviewer: string
+  mediaRecords: Map<string, MediaRecord>
   onClose: () => void
-  onFulfil: (row: Row, mediaId: string) => void
+  onFulfil: (row: Row, mediaId: string, destination: string, record?: MediaRecord) => string | null
   onComment: (row: Row, comment: MediaReviewComment) => void
 }) {
   const anchors = anchorOptions(row, item)
   const [anchor, setAnchor] = useState(requestedAnchor(row))
   const [comment, setComment] = useState('')
   const [picking, setPicking] = useState(false)
+  const [fulfilError, setFulfilError] = useState('')
+  const MediumIcon = row.medium === 'audio' ? FileAudio : row.medium === 'video' ? FileVideo : ImagePlus
 
   function saveComment(kind: MediaReviewComment['kind']) {
     const text = comment.trim()
@@ -613,7 +659,7 @@ function ReviewerWorkspace({ row, item, reviewer, onClose, onFulfil, onComment }
             </div>
             <Button size="sm" variant="ghost" onClick={onClose}>Close</Button>
           </div>
-          <StudentContentPreview row={row} item={item} />
+          <StudentContentPreview row={row} item={item} mediaRecords={mediaRecords} />
         </section>
         <aside className="space-y-4 bg-surface-2/45 p-4">
           <div>
@@ -628,20 +674,22 @@ function ReviewerWorkspace({ row, item, reviewer, onClose, onFulfil, onComment }
             {row.rightsNotes && <p className="mt-1 text-[11.5px] text-ink-3"><span className="font-semibold">Rights:</span> {row.rightsNotes}</p>}
           </div>
 
-          {row.status !== 'supplied' && row.medium === 'image' && !picking && (
-            <Button size="sm" variant="primary" iconLeft={ImagePlus} onClick={() => setPicking(true)}>Upload or choose image</Button>
+          {row.status !== 'supplied' && !picking && (
+            <Button size="sm" variant="primary" iconLeft={MediumIcon} onClick={() => setPicking(true)}>Upload or choose {row.medium}</Button>
           )}
-          {picking && <MediaPicker onPick={(mediaId) => { setPicking(false); onFulfil(row, mediaId) }} onCancel={() => setPicking(false)} />}
-          {row.status !== 'supplied' && row.medium !== 'image' && (
-            <p className="rounded-lg border border-line bg-surface p-3 text-[11.5px] leading-relaxed text-ink-2">Audio and video requests remain publication-blocking until the managed media service accepts those formats.</p>
-          )}
+          {picking && <MediaPicker medium={row.medium} onPick={(mediaId, record) => {
+            const error = onFulfil(row, mediaId, anchor, record)
+            if (error) setFulfilError(error)
+            else { setFulfilError(''); setPicking(false) }
+          }} onCancel={() => setPicking(false)} />}
+          {fulfilError && <p role="alert" className="rounded-lg border border-danger/25 bg-danger-tint p-3 text-[11.5px] leading-relaxed text-danger">{fulfilError}</p>}
 
           <div className="border-t border-line pt-4">
             <p className="flex items-center gap-1.5 text-[12px] font-semibold text-ink"><Icon icon={MessageSquare} size={14} /> Anchored review notes</p>
-            <Select className="mt-2" aria-label="Comment anchor" value={anchor} onChange={(event) => setAnchor(event.target.value)}>
+            <Select className="mt-2" aria-label="Media placement and comment anchor" value={anchor} onChange={(event) => setAnchor(event.target.value)}>
               {[...new Set([requestedAnchor(row), ...anchors])].map((value) => <option key={value} value={value}>{value}</option>)}
             </Select>
-            <Textarea className="mt-2 min-h-24" value={comment} onChange={(event) => setComment(event.target.value)} placeholder="Explain the issue or leave guidance for the author…" />
+            <Textarea aria-label="Review note" className="mt-2 min-h-24" value={comment} onChange={(event) => setComment(event.target.value)} placeholder="Explain the issue or leave guidance for the author…" />
             <div className="mt-2 flex flex-wrap gap-2">
               <Button size="sm" variant="secondary" iconLeft={MessageSquare} disabled={!comment.trim()} onClick={() => saveComment('comment')}>Add comment</Button>
               <Button size="sm" variant="ghost" iconLeft={Flag} disabled={!comment.trim()} onClick={() => saveComment('problem')}>Report a problem</Button>

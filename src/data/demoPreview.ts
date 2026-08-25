@@ -15,7 +15,7 @@ import { MASTERY_STORAGE_KEY, recordEvidence, type MasteryLedger } from './maste
 import { PRACTICAL_PROGRESS_STORAGE_KEY, type PracticalProgress } from './practicalProgress.ts'
 
 export const DEMO_SHOWCASE_MARKER_KEY = 'synapse.demo.showcase.version'
-export const DEMO_SHOWCASE_VERSION = '2026-08-24.1'
+export const DEMO_SHOWCASE_VERSION = '2026-08-25.1'
 
 export const DEMO_SESSION_NAMES_KEY = 'synapse.qbank.sessionNames.v1'
 export const DEMO_SESSION_QUESTIONS_KEY = 'synapse.qbank.sessionQuestions.v1'
@@ -141,6 +141,60 @@ function blockedMediaQuestion(now: Date): ManagedContentItem {
   }
 }
 
+function blockedVideoPractical(now: Date): ManagedContentItem {
+  const id = 'demo-media-request-video-practical'
+  return {
+    id,
+    kind: 'practical',
+    title: 'Demo review queue · respiratory examination video required',
+    subjectId: 'resp',
+    status: 'In review',
+    owner: 'Media review team',
+    updatedAt: at(now, 0, 14, 20),
+    fields: {
+      Format: 'OSCE',
+      Difficulty: 'Moderate',
+      Description: 'A demo station held out of student view until its required examination clip is supplied and reviewed.',
+    },
+    source: { origin: 'internal', reference: 'Demo preview fixture' },
+    practicalData: {
+      format: 'osce',
+      candidateInstructions: 'Examine this patient’s respiratory system and describe the visible clinical signs.',
+      actorOpening: 'You are comfortable at rest and answer the student’s questions briefly.',
+      actorSections: [],
+      actorFlags: [],
+      markSections: [{
+        id: 'demo-video-marks',
+        title: 'Observation and interpretation',
+        marks: 3,
+        items: [
+          { id: 'demo-video-mark-1', text: 'Uses a structured inspection sequence.' },
+          { id: 'demo-video-mark-2', text: 'Identifies the demonstrated clinical sign.' },
+          { id: 'demo-video-mark-3', text: 'Explains its likely clinical significance.' },
+        ],
+      }],
+      difficulty: 'Moderate',
+      references: [],
+      conceptTags: { mainConceptIds: [], conceptIds: [], contextualConceptIds: [] },
+      mediaRequests: [{
+        id: 'demo-media-request-respiratory-video',
+        ownerId: id,
+        ownerKind: 'practical',
+        medium: 'video',
+        kind: 'clinical photograph',
+        brief: 'Upload a short, rights-cleared clip showing the required respiratory inspection finding.',
+        teachingPurpose: 'Students need to observe the sign in motion before explaining its clinical significance.',
+        section: 'station',
+        anchorQuote: 'Examine this patient’s respiratory system',
+        priority: 'required',
+        status: 'needed',
+        sourceDirection: 'Consented teaching recording or licensed clinical-media library',
+        reviewComments: [],
+      }],
+    },
+  }
+}
+
 function histologyItem(now: Date): ManagedContentItem {
   return {
     id: 'demo-histology-myocardium',
@@ -216,6 +270,7 @@ export function demoManagedContent(now = new Date()): ManagedContentItem[] {
     deckItem(now),
     essayItem(now),
     blockedMediaQuestion(now),
+    blockedVideoPractical(now),
   ]
 }
 

@@ -46,6 +46,16 @@ test('usage names every item that points at this image, and where', () => {
   assert.deepEqual(usageOf('med-nobody', ledger, []), [])
 })
 
+test('article, practical and histology media also prevent deletion', () => {
+  const ledger = [
+    { id: 'a1', kind: 'article', title: 'Article', articleData: { media: [{ sourceId: 'med-a' }] } },
+    { id: 'p1', kind: 'practical', title: 'Case', practicalData: { decisions: [{ id: 'd1', mediaUrl: '/media/med-a' }] } },
+    { id: 'h1', kind: 'histology', title: 'Slide', histologyData: { views: [{ objective: 4, image: '/media/med-a' }] } },
+  ]
+  assert.deepEqual(usageOf('med-a', ledger, []).map((entry) => entry.where), ['article media', 'decision d1', '4× field'])
+  assert.match(deleteRefusal('med-a', ledger, []), /3 items/)
+})
+
 test('a concept that shows an image counts as using it', () => {
   const concepts = [{ id: 'c1', label: 'Brachial plexus', mediaIds: ['med-a'] }]
   const usage = usageOf('med-a', [], concepts)

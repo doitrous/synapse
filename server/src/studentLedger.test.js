@@ -4,6 +4,7 @@ import {
   PRIVATE_FIELDS,
   PUBLIC_FIELDS,
   hasUnresolvedRequiredMedia,
+  hasUnreleasedManagedMedia,
   redactItem,
   redactLedgerForStudent,
   redactMediaForStudent,
@@ -32,6 +33,25 @@ test('declining required media does not bypass the publication gate', () => {
     questionData: { mediaRequests: [{ priority: 'required', status: 'declined' }] },
   })
   assert.equal(redactItem(item), null)
+})
+
+test('a supplied request still waits for released media metadata', () => {
+  const item = authoredQuestion({
+    questionData: { mediaRequests: [{ priority: 'required', status: 'supplied', mediaId: 'med-unreleased' }] },
+  })
+  assert.equal(redactItem(item, new Set()), null)
+  assert.notEqual(redactItem(item, new Set(['med-unreleased'])), null)
+})
+
+test('direct histology and practical media URLs cannot bypass release', () => {
+  const slide = {
+    id: 'h-1', kind: 'histology', title: 'Slide', subjectId: 'path', status: 'Published',
+    owner: 'reviewer', updatedAt: '2026-08-25T00:00:00.000Z', fields: {},
+    histologyData: { views: [{ objective: 4, image: '/media/med-slide' }], structures: [] },
+  }
+  assert.equal(hasUnreleasedManagedMedia(slide, new Set()), true)
+  assert.equal(redactItem(slide, new Set()), null)
+  assert.notEqual(redactItem(slide, new Set(['med-slide'])), null)
 })
 
 /** A published question carrying everything an author would put on one. */

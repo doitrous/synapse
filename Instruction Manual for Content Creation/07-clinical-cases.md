@@ -161,8 +161,11 @@ happen before any result is back, because the cost of waiting is myocardium.
 | `Concept:` | The ONE concept this decision teaches. |
 | `Also:` | Concepts it also assesses, `\|`-separated. |
 | `Difficulty:` | This decision's intended difficulty. |
+| `Media:` | A real working managed-media URL for this decision. Omit while the asset is still only a request. |
+| `Media type:` | `image`, `audio`, or `video`. Required for audio/video; legacy rows without it are treated as images. |
+| `Media MIME:` | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
 
-`Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — they take their own
+`Concept:`, `Also:`, `Difficulty:`, `Media:`, `Media type:` and `Media MIME:` are **scalar labels** — they take their own
 line and then the parser reverts to context. This exists because letting `Difficulty:`
 swallow the next line produced values like `"Moderate He tells you he is thirsty"`, which
 matched no band and went silently untagged. Keep each on its own line.
@@ -229,20 +232,16 @@ line. The importer treats both as optional — the validator does not.
 
 ## Media
 
-> **This format has no field for real media.** `ClinicalDecisionDraft` carries no media URL
-> — and neither does `OsceAuthoringData`, behind stations and checklists. The only media any
-> practical can hold is a **request**, which is an instruction to a human and never renders
-> to a student.
->
-> So you cannot attach an ECG, a photograph, a heart sound or a clip here at all. Your
-> options are: request it and let a human place it once real media exists, or, if the item
-> genuinely turns on the asset, write it as an MCQ instead — a question's `## attachments`
-> takes `image`, `audio` and `video`, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
-> A `Media:` line inside a `### decision` block is **silently discarded**. The parser
-> recognises the label — it does not even fall through into the decision's context — but
-> `ClinicalDecisionDraft` has no media field to put it in, so it vanishes without an error.
-> Only lab and imaging questions have a `Media:` that goes anywhere.
+A fulfilled decision can render an image, recording, or clip. Put its working managed URL
+on `Media:`, then declare `Media type:` and `Media MIME:` on their own lines. Until the
+asset is supplied and rights-cleared, omit all three and keep it in
+`media_recommendations`; required unresolved requests block publication.
+
+```markdown
+Media: /media/med-verified-ecg-clip
+Media type: video
+Media MIME: video/mp4
+```
 
 A case commonly needs an ECG, a radiograph or a photograph at one particular decision.
 

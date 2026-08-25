@@ -354,6 +354,31 @@ CREATE TABLE IF NOT EXISTS user_documents (
   INDEX idx_user_documents_owner (user_id, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* Server-authoritative teaching media. The descriptive library remains in the
+   versioned admin document, but file readiness lives here so a newly completed
+   upload can be fetched immediately instead of waiting for that document's
+   debounced save. Large files use upload_id until completion; ready rows use
+   the content-addressed storage key. */
+CREATE TABLE IF NOT EXISTS managed_media (
+  id           VARCHAR(64) PRIMARY KEY,
+  upload_id    VARCHAR(80) NULL UNIQUE,
+  uploaded_by  VARCHAR(64) NOT NULL,
+  status       ENUM('uploading','ready') NOT NULL DEFAULT 'uploading',
+  storage_key  VARCHAR(255) NULL,
+  sha256       CHAR(64) NULL,
+  media_type   ENUM('image','audio','video') NULL,
+  mime_type    VARCHAR(128) NULL,
+  size_bytes   BIGINT UNSIGNED NOT NULL DEFAULT 0,
+  width        INT UNSIGNED NULL,
+  height       INT UNSIGNED NULL,
+  created_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  ready_at     DATETIME NULL,
+  INDEX idx_managed_media_digest (sha256, status),
+  INDEX idx_managed_media_uploader (uploaded_by, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+ALTER TABLE managed_media ADD COLUMN IF NOT EXISTS updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+
 /* User document rows are the managed asset ledger for resources, notebooks and
    whiteboards. The source columns let reporting charge the owner's bytes once
    while still explaining where the asset came from. */

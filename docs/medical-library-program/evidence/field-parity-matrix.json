@@ -76,9 +76,9 @@
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "modelFields": 16,
-      "importFields": 30,
-      "ok": 13,
+      "modelFields": 18,
+      "importFields": 32,
+      "ok": 15,
       "missing": 0,
       "notApplicable": 3
     },
@@ -86,7 +86,7 @@
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
       "modelFields": 11,
-      "importFields": 30,
+      "importFields": 32,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -94,9 +94,9 @@
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "modelFields": 10,
-      "importFields": 30,
-      "ok": 10,
+      "modelFields": 12,
+      "importFields": 32,
+      "ok": 12,
       "missing": 0,
       "notApplicable": 0
     },
@@ -104,7 +104,7 @@
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
       "modelFields": 11,
-      "importFields": 30,
+      "importFields": 32,
       "ok": 8,
       "missing": 0,
       "notApplicable": 3
@@ -112,9 +112,9 @@
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "modelFields": 9,
-      "importFields": 30,
-      "ok": 9,
+      "modelFields": 11,
+      "importFields": 32,
+      "ok": 11,
       "missing": 0,
       "notApplicable": 0
     },
@@ -122,7 +122,7 @@
       "contentType": "Practical · media request",
       "model": "MediaRequest",
       "modelFields": 19,
-      "importFields": 30,
+      "importFields": 32,
       "ok": 14,
       "missing": 0,
       "notApplicable": 5
@@ -1503,7 +1503,7 @@
     {
       "contentType": "Practical · OSCE and checklist",
       "model": "OsceAuthoringData",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
@@ -1514,6 +1514,18 @@
         {
           "field": "mediaUrl",
           "column": "station_image",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "station_media_type",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
+          "column": "station_media_mime_type",
           "state": "ok",
           "reason": ""
         },
@@ -1606,7 +1618,7 @@
     {
       "contentType": "Practical · clinical case",
       "model": "CaseAuthoringData",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
@@ -1679,7 +1691,7 @@
     {
       "contentType": "Practical · case decision",
       "model": "ClinicalDecisionDraft",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",
@@ -1701,6 +1713,18 @@
         },
         {
           "field": "mediaUrl",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "decisions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
           "column": "decisions",
           "state": "ok",
           "reason": ""
@@ -1746,7 +1770,7 @@
     {
       "contentType": "Practical · interpretation set",
       "model": "LabAuthoringData",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "format",
@@ -1819,7 +1843,7 @@
     {
       "contentType": "Practical · interpretation question",
       "model": "LabQuestionDraft",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",
@@ -1841,6 +1865,18 @@
         },
         {
           "field": "mediaUrl",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaType",
+          "column": "lab_questions",
+          "state": "ok",
+          "reason": ""
+        },
+        {
+          "field": "mediaMimeType",
           "column": "lab_questions",
           "state": "ok",
           "reason": ""
@@ -1880,7 +1916,7 @@
     {
       "contentType": "Practical · media request",
       "model": "MediaRequest",
-      "importFields": 30,
+      "importFields": 32,
       "fields": [
         {
           "field": "id",

@@ -112,7 +112,10 @@ Server-only variables:
 | `PUBLIC_ORIGIN` | Public student origin used in email links. |
 | `RESOURCE_STORAGE_DIR` | Root directory for managed medical resources, student documents, upload workspaces, and media files. Default `/data/medical-library`. |
 | `RESOURCE_MAX_BYTES`, `RESOURCE_CHUNK_MAX_BYTES`, `RESOURCE_CHUNKED_MAX_BYTES` | Resource upload limits. |
-| `MEDIA_MAX_BYTES` | Managed media upload limit. |
+| `MEDIA_MAX_BYTES`, `MEDIA_IMAGE_MAX_BYTES` | Legacy single-request ceiling and decoded-image ceiling; both default to 100 MB. Large-file support is intended for streaming audio/video. |
+| `MEDIA_CHUNK_MAX_BYTES`, `MEDIA_CHUNKED_MAX_BYTES` | Chunk size and total image/audio/video upload ceiling; defaults are 8 MB chunks and 2 GB total. Keep the chunk size below proxy request limits. |
+| `MEDIA_UPLOAD_MAX_AGE_HOURS` | Age after which an inactive managed-media upload session is safely removed; default 24 hours. |
+| `MEDIA_PLAYBACK_SECRET` | Shared HMAC secret for expiring audio/video playback URLs. Required when the API has multiple replicas. |
 | `MY_DOCUMENT_MAX_BYTES`, `MY_DOCUMENT_QUOTA_BYTES` | Student document upload ceiling and fallback quota before admin storage settings are read. |
 | `PUBLIC_DIR` | Directory served as the SPA build, default `server/public` inside the container. |
 | `FEATURE_FACEBOOK_FRIENDS`, `FACEBOOK_APP_SECRET` | Facebook friend matching and Meta deletion callback support. |
@@ -152,7 +155,9 @@ Storage usage is calculated from live `user_documents` rows and grouped by resou
 
 Shared catalogue/admin state lives in MariaDB `app_state` documents and is guarded by role/tab permissions. Student-owned state lives under `/api/user-state/:key`, where the server derives the owner from the verified Supabase session. The front end routes known private keys through `src/lib/stateOwnership.ts`; demo mode stores the same keys in localStorage.
 
-Medical resources and media are stored as files under `RESOURCE_STORAGE_DIR`, with metadata in MariaDB-backed state. Admin-managed media uploads go through `/api/media`; files are content-addressed by SHA-256 and released to students only when they have a stored file, alt text, and rights information.
+Medical resources and media are stored as files under `RESOURCE_STORAGE_DIR`, with file readiness in MariaDB and descriptive metadata in versioned admin state. Admin-managed images, audio, and videos use `/api/media/uploads` sessions with bounded, retryable chunks, byte-sniffed formats, SHA-256 content addressing, and immediate retrieval after completion. Audio/video playback uses expiring signed URLs so native media controls can make Range requests; assets are released to students only when they have a stored file, accessibility text, and rights information.
+
+The Media Requests reviewer workspace shows the authored student view, highlights the requested anchor, and provides an explicit upload-or-choose control for the requested image, audio, or video. Content catalogues can filter to any, outstanding, or publication-blocking media requests, select every matching result across pages, and bulk publish or return published items to review. A required request cannot publish until it is marked supplied and names its managed asset.
 
 Student documents and student-owned media go through `/api/my-documents`, are stored under that student's server-owned path, and count against the student's current plan quota. Each uploaded file carries a `sourceKind` of `resource`, `notebook`, or `whiteboard`; Resources shows My uploads first, separates Documents from Media, labels where each media item came from, and counts the same stored bytes once even if an asset appears in more than one place. Existing browser-only media helpers remain for demo/offline convenience, but live upload success is not reported until the server has accepted and returned the bytes.
 

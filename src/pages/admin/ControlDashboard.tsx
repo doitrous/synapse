@@ -21,6 +21,7 @@ import { ImagePlus,
   PlayCircle,
   FileText,
   Database,
+  EyeOff,
   GraduationCap,
   TriangleAlert,
   Layers,
@@ -34,7 +35,9 @@ import {
   type ManagedContentItem,
   itemInScope,
   isUniversitySourced,
+  matchesMediaRequestFilter,
   sourceLabel,
+  type MediaRequestFilter,
 } from '@/data/contentControl'
 import { getSubject, subjects } from '@/data/subjects'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -233,6 +236,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [newTopicName, setNewTopicName] = useState('')
   const [kind, setKind] = useState<ContentKind>(initialKind)
   const [status, setStatus] = useState<Status | 'All'>('All')
+  const [mediaFilter, setMediaFilter] = useState<MediaRequestFilter>('all')
   const [query, setQuery] = useState('')
   const [editorOpen, setEditorOpen] = useState(false)
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
@@ -251,6 +255,8 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   // between sibling routes, so relying on useState(initialKind) leaks the
   // previously visited catalogue into the next page.
   const activeKind = lockedKind ? initialKind : kind
+  const activeUniversityId = activeScope?.universityId
+  const activeYear = activeScope?.year
   const scopedItems = useMemo(
     () => lockedKind ? items.filter((item) => item.kind === activeKind) : items,
     [activeKind, items, lockedKind],
@@ -278,15 +284,16 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
     return items
       .filter((item) => item.kind === activeKind)
       .filter((item) => status === 'All' || item.status === status)
+      .filter((item) => matchesMediaRequestFilter(item, mediaFilter))
       // Navigator scope (Master → university → year) for question & resource catalogues.
       .filter((item) => {
-        if (!activeScope || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
+        if (!activeUniversityId || !activeYear || (activeKind !== 'question' && activeKind !== 'resource' && activeKind !== 'practical' && activeKind !== 'deck' && activeKind !== 'essay' && activeKind !== 'histology')) return true
         // Authored scope, not a hash of the item's id.
-        return itemInScope(item, activeScope.universityId, activeScope.year)
+        return itemInScope(item, activeUniversityId, activeYear)
       })
       .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
-  }, [activeKind, items, query, status, activeScope])
+  }, [activeKind, activeUniversityId, activeYear, items, mediaFilter, query, status])
 
   /**
    * Questions and practicals taken from a faculty's own papers are reviewed,
@@ -318,7 +325,10 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const [page, setPage] = useState(1)
   const currentPage = Math.min(page, pageCount)
   const pageRows = useMemo(() => rows.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE), [rows, currentPage])
-  useEffect(() => { setPage(1) }, [activeKind, status, query, sourceTab, activeScope])
+  useEffect(() => {
+    setPage(1)
+    setSelected(new Set())
+  }, [activeKind, activeUniversityId, activeYear, status, mediaFilter, query, sourceTab])
 
   /**
    * Open the item a link asked for.
@@ -461,6 +471,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
   const someShownSelected = selectedItems.length > 0
   const allPageSelected = pageRows.length > 0 && pageRows.every((item) => selected.has(item.id))
   const somePageSelected = pageRows.some((item) => selected.has(item.id))
+  const allMatchingSelected = rows.length > 0 && rows.every((item) => selected.has(item.id))
 
   /** Selection only ever refers to rows the current filters actually show. */
   const setSelection = (ids: string[], on: boolean) =>
@@ -627,6 +638,13 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
             <Select aria-label="Filter by workflow status" value={status} onChange={(event) => setStatus(event.target.value as Status | 'All')} className="w-full sm:w-40">
               {STATUSES.map((option) => <option key={option}>{option}</option>)}
             </Select>
+            <Select aria-label="Filter by media request state" value={mediaFilter} onChange={(event) => setMediaFilter(event.target.value as MediaRequestFilter)} className="w-full sm:w-52">
+              <option value="all">All media states</option>
+              <option value="any">Has media requests</option>
+              <option value="outstanding">Unresolved requests</option>
+              <option value="blocking">Required media missing</option>
+              <option value="none">No media requests</option>
+            </Select>
             <span className="ml-auto tnum font-mono text-[11.5px] text-ink-3">
               {rows.length === 0 ? '0 shown' : `${(currentPage - 1) * PAGE_SIZE + 1}–${Math.min(currentPage * PAGE_SIZE, rows.length)} of ${rows.length}`}
             </span>
@@ -659,6 +677,11 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                 {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
                 {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
               </span>
+              {!allMatchingSelected && rows.length > selectedItems.length && (
+                <Button variant="ghost" size="sm" onClick={() => setSelection(rows.map((item) => item.id), true)}>
+                  Select all {rows.length} matching
+                </Button>
+              )}
               <div className="ms-auto flex flex-wrap items-center gap-2">
                 {/* The label says what pressing it will do. It used to read "Publish…"
                     for both "some are held back" and "these are all already live". */}
@@ -674,6 +697,7 @@ export function ControlDashboard({ initialKind = 'question', lockedKind = false,
                       ? `Review ${readiness.blocked.length} blocked`
                       : 'Already published'}
                 </Button>
+                <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatus(selectedItems.filter((item) => item.status === 'Published'), 'In review', 'unpublished and returned to review', 'No selected item is currently published.')}>Unpublish</Button>
                 <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review', 'Every selected item is already in review.')}>Send for review</Button>
                 <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived', 'Every selected item is already archived.')}>Archive</Button>
                 <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>

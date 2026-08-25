@@ -164,19 +164,11 @@ Identical to lab interpretation.
 | `Concept:` | The ONE concept this question teaches. |
 | `Also:` | Concepts it also assesses, `\|`-separated. |
 | `Difficulty:` | This question's intended difficulty. |
-| `Media:` | A **real** image URL. Omit unless you have one. |
+| `Media:` | A real working managed-media URL. Omit unless you have one. |
+| `Media type:` | `image`, `audio`, or `video`. Required for audio/video; legacy rows without it are treated as images. |
+| `Media MIME:` | The verified MIME type, e.g. `video/mp4` or `audio/mpeg`. |
 
-> **`Media:` is image-only, whatever the admin form says.** The student runner renders it
-> through `ZoomableImage` — an `<img>` — so an audio or video URL produces a broken image,
-> silently. The admin field's own placeholder invites "ECG, X-ray, CT, waveform, **or audio
-> URL**", and the last of those does not work.
->
-> **There is nowhere in a practical to attach a heart sound, a murmur or a breath sound.**
-> If you need one, write it as an MCQ instead — a question's `## attachments` takes `audio`
-> and `video` blocks, and is the only student-facing item that does. See
-> [05-questions.md](05-questions.md) §Media.
-
-`Concept:`, `Also:`, `Difficulty:` and `Media:` are **scalar labels** — each on its own
+`Concept:`, `Also:`, `Difficulty:`, `Media:`, `Media type:` and `Media MIME:` are **scalar labels** — each on its own
 line, then the parser reverts to context.
 
 > Interpretation questions end with `Explanation:`. Clinical cases end with `Rationale:`.

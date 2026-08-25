@@ -14,12 +14,12 @@ drift when a field is added.
 | Question | `QuestionAuthoringData` | 22 | 61 | 21 | 0 | 1 |
 | Question · tags | `QuestionTags` | 22 | 61 | 22 | 0 | 0 |
 | Question · media request | `MediaRequest` | 19 | 61 | 14 | 0 | 5 |
-| Practical · OSCE and checklist | `OsceAuthoringData` | 16 | 30 | 13 | 0 | 3 |
-| Practical · clinical case | `CaseAuthoringData` | 11 | 30 | 8 | 0 | 3 |
-| Practical · case decision | `ClinicalDecisionDraft` | 10 | 30 | 10 | 0 | 0 |
-| Practical · interpretation set | `LabAuthoringData` | 11 | 30 | 8 | 0 | 3 |
-| Practical · interpretation question | `LabQuestionDraft` | 9 | 30 | 9 | 0 | 0 |
-| Practical · media request | `MediaRequest` | 19 | 30 | 14 | 0 | 5 |
+| Practical · OSCE and checklist | `OsceAuthoringData` | 18 | 32 | 15 | 0 | 3 |
+| Practical · clinical case | `CaseAuthoringData` | 11 | 32 | 8 | 0 | 3 |
+| Practical · case decision | `ClinicalDecisionDraft` | 12 | 32 | 12 | 0 | 0 |
+| Practical · interpretation set | `LabAuthoringData` | 11 | 32 | 8 | 0 | 3 |
+| Practical · interpretation question | `LabQuestionDraft` | 11 | 32 | 11 | 0 | 0 |
+| Practical · media request | `MediaRequest` | 19 | 32 | 14 | 0 | 5 |
 | Resource | `ResourceAuthoringData` | 17 | 19 | 9 | 0 | 8 |
 | Minigame · base pack | `BasePack` | 7 | 16 | 7 | 0 | 0 |
 | Minigame · source metadata | `MiniGameSource` | 4 | 16 | 4 | 0 | 0 |
