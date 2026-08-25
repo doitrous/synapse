@@ -142,6 +142,29 @@ async function mediaRecords() {
   return mediaSnapshot
 }
 
+/** Student activity that a global question withdrawal could interrupt. */
+async function contentVisibilityResetActivity() {
+  const [[roomRows], [challengeRows], [partyRows]] = await Promise.all([
+    pool.query("SELECT COUNT(*) AS count FROM study_rooms WHERE status IN ('lobby','running')"),
+    pool.query("SELECT COUNT(*) AS count FROM challenges WHERE status IN ('sent','running')"),
+    pool.query("SELECT item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
+  ])
+  const partyQuestionSessions = partyRows.reduce((count, row) => {
+    try {
+      const refs = typeof row.itemRefs === 'string' ? JSON.parse(row.itemRefs) : row.itemRefs
+      return count + (Array.isArray(refs) && refs.some((entry) => entry?.kind === 'question') ? 1 : 0)
+    } catch {
+      // Malformed frozen session data is conservatively counted as affected.
+      return count + 1
+    }
+  }, 0)
+  return {
+    studyRooms: Number(roomRows[0]?.count ?? 0),
+    challenges: Number(challengeRows[0]?.count ?? 0),
+    partyQuestionSessions,
+  }
+}
+
 /**
  * The file facts used by both authenticated fetches and signed playback URLs.
  * New uploads are authoritative rows, which makes them readable immediately on
@@ -1143,6 +1166,13 @@ app.get('/api/state', requireSuperAdmin, wrap(async (_req, res) => {
   const out = {}
   for (const r of rows) { try { out[r.k] = JSON.parse(r.v) } catch { out[r.k] = null } }
   res.json(out)
+}))
+
+// A mass withdrawal is intentionally not a normal editor action. The
+// operational script reads this immediately before its versioned ledger write
+// and refuses to interrupt live question sessions without an explicit flag.
+app.get('/api/admin/content-visibility-reset-preflight', requireSuperAdmin, wrap(async (_req, res) => {
+  res.json({ active: await contentVisibilityResetActivity() })
 }))
 
 app.get('/api/state/:key', wrap(async (req, res) => {

@@ -25,6 +25,7 @@
     "medical:duplicate-keys": "node --experimental-strip-types scripts/report-duplicate-keys.ts",
     "medical:snapshot-live": "node scripts/snapshot-live.mjs",
     "medical:snapshot-staleness": "node scripts/snapshot-staleness.mjs",
+    "content:reset-visibility": "node --experimental-strip-types scripts/reset-published-content-visibility.mjs",
     "medical:batches-present": "python3 scripts/kasr/check-batches-present.py",
     "medical:batch": "node --experimental-strip-types scripts/validate-content-batch.mjs",
     "medical:simulate": "node --experimental-strip-types scripts/simulate-content-import.mjs"
