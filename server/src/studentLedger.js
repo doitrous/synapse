@@ -65,7 +65,7 @@ export const PRIVATE_FIELDS = new Set([
   // Authors talking to authors.
   'authorNotes', 'fieldNotes', 'notes', 'internalNotes', 'reviewComments', 'owner', 'ownerId',
   // The review pipeline's own bookkeeping.
-  'reviewer', 'finalPublisher', 'reviewDue', 'lastReviewed',
+  'reviewer', 'finalPublisher', 'reviewDue', 'lastReviewed', 'editorialTags',
   // Work still outstanding: media being chased, and the file-pipeline columns
   // that describe the admin's copy of a resource rather than the student's.
   'mediaRequests', 'mediaRecommendations',

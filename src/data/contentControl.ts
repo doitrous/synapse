@@ -627,6 +627,14 @@ export interface ManagedContentItem {
   owner: string
   updatedAt: string
   fields: Record<string, string>
+  /**
+   * Admin-managed catalogue labels shared by every content type.
+   *
+   * These are deliberately separate from question blueprint tags and concept
+   * links: an editorial label such as `Generated - No Module` describes the
+   * record's workflow/provenance, not what a student is expected to master.
+   */
+  editorialTags?: string[]
   /** Admin-only provenance. Absent means internally authored. */
   source?: ContentSource
   /** Admin-only recovery and audit metadata. */

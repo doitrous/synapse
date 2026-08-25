@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { ImagePlus,
   BookOpenText,
@@ -25,6 +25,7 @@ import { ImagePlus,
   GraduationCap,
   TriangleAlert,
   Layers,
+  Tags,
 } from 'lucide-react'
 import type { Status } from '@/data/admin'
 import {
@@ -80,6 +81,8 @@ import { API_MODE } from '@/lib/api'
 import { contentModuleLabels } from '@/data/contentModules'
 import { SystemMark } from '@/components/ui/SystemMark'
 import { Tooltip } from '@/components/ui/Tooltip'
+import { BulkContentTagDialog } from '@/components/admin/BulkContentTagDialog'
+import { addContentTags, availableContentTags, contentTagsOf } from '@/data/contentTags'
 
 const KIND_ICON = {
   question: FileQuestion,
@@ -266,6 +269,8 @@ export function ControlDashboard({
   /** A thing that did not happen, and why. */
   const warn = (text: string) => setNotice({ text, tone: 'warning' })
   const [selected, setSelected] = useState<Set<string>>(() => new Set())
+  const [bulkTagOpen, setBulkTagOpen] = useState(false)
+  const closeBulkTagDialog = useCallback(() => setBulkTagOpen(false), [])
   const [forcePublish, setForcePublish] = useState(false)
   const [reports] = usePersistentState<ContentReport[]>(REPORT_STORAGE_KEY, initialContentReports)
   const [reportTarget, setReportTarget] = useState<ReportTarget | null>(null)
@@ -307,6 +312,8 @@ export function ControlDashboard({
     histology: items.filter((item) => item.kind === 'histology').length,
   }), [items])
 
+  const existingContentTags = useMemo(() => availableContentTags(items), [items])
+
   const matching = useMemo(() => {
     const normalized = query.trim().toLowerCase()
     return items
@@ -320,7 +327,7 @@ export function ControlDashboard({
         // Authored scope, not a hash of the item's id.
         return itemInScope(item, activeUniversityId, activeYear)
       })
-      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')}`.toLowerCase().includes(normalized))
+      .filter((item) => !normalized || `${item.title} ${item.owner} ${Object.values(item.fields).join(' ')} ${contentTagsOf(item).join(' ')}`.toLowerCase().includes(normalized))
       .sort((a, b) => new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime())
   }, [activeKind, activeUniversityId, activeYear, isArchiveView, isQuestionCatalogue, items, mediaFilter, query, status])
 
@@ -357,7 +364,7 @@ export function ControlDashboard({
   useEffect(() => {
     setPage(1)
     setSelected(new Set())
-  }, [activeKind, activeUniversityId, activeYear, status, mediaFilter, query, sourceTab])
+  }, [activeKind, activeUniversityId, activeYear, isArchiveView, status, mediaFilter, query, sourceTab])
 
   /**
    * Open the item a link asked for.
@@ -529,6 +536,29 @@ export function ControlDashboard({
     say(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
   }
 
+  function applyTags(tags: string[]) {
+    if (!selectedItems.length || !tags.length) {
+      warn('Choose at least one content item and one tag.')
+      return
+    }
+    const additions = new Set(tags.map((tag) => tag.toLocaleLowerCase()))
+    const changedItems = selectedItems.filter((item) => {
+      const current = new Set(contentTagsOf(item).map((tag) => tag.toLocaleLowerCase()))
+      return [...additions].some((tag) => !current.has(tag))
+    })
+    if (!changedItems.length) {
+      setBulkTagOpen(false)
+      warn(selectedItems.length === 1 ? 'That item already has every selected tag.' : 'Every selected item already has those tags.')
+      return
+    }
+    const ids = new Set(changedItems.map((item) => item.id))
+    const at = new Date().toISOString()
+    setItems((current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
+    setSelected(new Set())
+    setBulkTagOpen(false)
+    say(`${ids.size} selected ${ids.size === 1 ? 'item' : 'items'} updated with ${tags.length} ${tags.length === 1 ? 'tag' : 'tags'}.`)
+  }
+
   function publishSelected(includeBlocked: boolean) {
     const targets = includeBlocked ? [...readiness.ready, ...forceableBlocked.map((entry) => entry.item)] : readiness.ready
     applyStatus(targets, 'Published', 'published', 'Nothing to publish in this selection.')
@@ -578,7 +608,7 @@ export function ControlDashboard({
       ] as const
 
   return (
-    <PageContainer>
+    <PageContainer className="max-w-[1600px]">
       <PageHeader
         title={isArchiveView ? 'Archived questions' : lockedKind ? `${CONTENT_KIND_LABEL[activeKind].plural} setup` : 'Content control'}
         description={isArchiveView
@@ -626,7 +656,7 @@ export function ControlDashboard({
         ))}
       </div>
 
-      <div className="grid items-start gap-4 xl:grid-cols-[minmax(0,1fr)_19rem]">
+      <div className="grid items-start gap-4">
         <Panel className="min-w-0 overflow-hidden">
           {!lockedKind && <div className="border-b border-line px-4 pt-3">
             <Tabs
@@ -725,9 +755,13 @@ export function ControlDashboard({
                 {selectedItems.length} selected
               </span>
               <span className="text-[12px] text-ink-2">
-                {readiness.ready.length} of {selectedItems.length} can publish
-                {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
-                {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+                {isArchiveView
+                  ? 'Add editorial tags without changing archive status'
+                  : <>
+                      {readiness.ready.length} of {selectedItems.length} can publish
+                      {readiness.live.length > 0 && ` · ${readiness.live.length} already published`}
+                      {readiness.blocked.length > 0 && ` · ${readiness.blocked.length} blocked`}
+                    </>}
               </span>
               {!allMatchingSelected && rows.length > selectedItems.length && (
                 <Button variant="ghost" size="sm" onClick={() => setSelection(rows.map((item) => item.id), true)}>
@@ -735,6 +769,9 @@ export function ControlDashboard({
                 </Button>
               )}
               <div className="ms-auto flex flex-wrap items-center gap-2">
+                <Button variant="secondary" size="sm" iconLeft={Tags} onClick={() => setBulkTagOpen(true)}>
+                  Add tags
+                </Button>
                 {isArchiveView ? null : (
                   <>
                     {/* The label says what pressing it will do. It used to read "Publish…"
@@ -761,20 +798,28 @@ export function ControlDashboard({
             </div>
           )}
 
-          {/* A minimum width so the columns keep their shape, and an Actions column
-              pinned to the right edge — it used to be pushed past the panel's clip by
-              the 19rem rail, reachable only by scrolling sideways inside the table. */}
-          <Table className="min-w-[52rem]">
+          {/* The catalogue uses the wider admin canvas and a fixed column contract.
+              At desktop widths, long titles now wrap inside Content instead of
+              widening the table and pushing Actions into a horizontal scroller. */}
+          <Table className="min-w-[42rem] table-fixed">
+            <colgroup>
+              <col className="w-12" />
+              <col />
+              <col className="w-16" />
+              <col className="w-24" />
+              <col className="w-28" />
+              <col className="w-44" />
+            </colgroup>
             <thead>
               <tr>
                 <Th className="w-10 pl-4">
-                  {!isArchiveView && <Checkbox
+                  <Checkbox
                     label={allPageSelected ? 'Clear selection on this page' : `Select all ${pageRows.length} on this page`}
                     checked={allPageSelected}
                     indeterminate={somePageSelected && !allPageSelected}
                     onChange={(on) => setSelection(pageRows.map((item) => item.id), on)}
                     className="size-11 sm:size-8"
-                  />}
+                  />
                 </Th>
                 <Th>Content</Th>
                 <Th>Subject</Th>
@@ -828,13 +873,13 @@ export function ControlDashboard({
                       <Fragment key={sub.key}>
                         <tr className="bg-surface-2/25">
                           <td className="py-1.5 pl-4">
-                            {!isArchiveView && <Checkbox
+                            <Checkbox
                               label={`Select all in ${sub.label}`}
                               checked={sub.items.every((item) => selected.has(item.id))}
                               indeterminate={sub.items.some((item) => selected.has(item.id)) && !sub.items.every((item) => selected.has(item.id))}
                               onChange={(on) => setSelection(sub.items.map((item) => item.id), on)}
                               className="size-11 sm:size-8"
-                            />}
+                            />
                           </td>
                           <td colSpan={5} className="px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                             {isTaxonomyKind
@@ -846,21 +891,22 @@ export function ControlDashboard({
                         {sub.items.map((item) => {
                           const subject = getSubject(item.subjectId)
                           const verdict = publishReadiness(item)
-                          const modules = item.kind === 'question' ? contentModuleLabels(item, catalogue) : []
+                          const modules = contentModuleLabels(item, catalogue)
+                          const contentTags = contentTagsOf(item)
                           return (
                             // One concrete background per state, never two competing
                             // ones — the pinned Actions cell inherits it, so the row
                             // reads as one row across the seam.
                             <Tr key={item.id} hover className={selected.has(item.id) ? 'bg-primary-tint/25' : 'bg-surface'}>
                               <Td className="pl-4">
-                                {!isArchiveView && <Checkbox
+                                <Checkbox
                                   label={`Select “${item.title}”`}
                                   checked={selected.has(item.id)}
                                   onChange={(on) => setSelection([item.id], on)}
                                   className="size-11 sm:size-8"
-                                />}
+                                />
                               </Td>
-                              <Td className="max-w-md">
+                              <Td className="min-w-0">
                                 <p className="line-clamp-2 font-medium leading-snug text-ink">{item.title}</p>
                                 <p className="mt-0.5 flex items-center gap-1.5 truncate text-[11.5px] text-ink-3">
                                   {itemSummary(item)}
@@ -878,8 +924,7 @@ export function ControlDashboard({
                                     </span>
                                   )}
                                 </p>
-                                {item.kind === 'question' && (
-                                  <div className="mt-1.5 flex min-w-0 flex-wrap items-center gap-1.5">
+                                <div className="mt-1.5 flex min-w-0 flex-wrap items-center gap-1.5">
                                     {modules.length ? modules.slice(0, 2).map((module) => (
                                       <Tooltip key={`${module.id}-${module.label}`} content={`${module.label}${module.context ? ` · ${module.context}` : ''}`}>
                                         <span
@@ -906,8 +951,21 @@ export function ControlDashboard({
                                         </button>
                                       </Tooltip>
                                     )}
-                                  </div>
-                                )}
+                                    {contentTags.slice(0, 3).map((tag) => (
+                                      <Tooltip key={tag} content={tag}>
+                                        <span tabIndex={0} className="inline-flex min-w-0 max-w-full items-center rounded-full border border-accent-line bg-accent-tint/55 px-2 py-1 text-[10.5px] font-medium text-accent-strong focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/35">
+                                          <span className="max-w-44 truncate">{tag}</span>
+                                        </span>
+                                      </Tooltip>
+                                    ))}
+                                    {contentTags.length > 3 && (
+                                      <Tooltip content={contentTags.slice(3).join(' · ')}>
+                                        <button type="button" className="inline-flex h-6 items-center rounded-full border border-accent-line bg-accent-tint/55 px-2 font-mono text-[10px] font-semibold text-accent-strong">
+                                          +{contentTags.length - 3} tags
+                                        </button>
+                                      </Tooltip>
+                                    )}
+                                </div>
                               </Td>
                               <Td>
                                 <span className="inline-flex items-center gap-1.5 whitespace-nowrap text-[12.5px] text-ink-2" title={subject.name}><SubjectDot id={subject.id} /></span>
@@ -961,7 +1019,7 @@ export function ControlDashboard({
           )}
         </Panel>
 
-        <div className="space-y-4 xl:sticky xl:top-20">
+        <div className="grid items-start gap-4 lg:grid-cols-3">
           <Panel className="overflow-hidden">
             <PanelHeader title="Review queue" hint={`${counts.review} waiting`} icon={Send} />
             {reviewQueue.length > 0 ? (
@@ -1052,6 +1110,13 @@ export function ControlDashboard({
       )}
 
       <ConfirmDeleteDialog item={deleting} onClose={() => setDeleting(null)} onConfirm={deleteItem} />
+      <BulkContentTagDialog
+        open={bulkTagOpen}
+        itemCount={selectedItems.length}
+        existingTags={existingContentTags}
+        onClose={closeBulkTagDialog}
+        onApply={applyTags}
+      />
       <ReportContentDialog open={Boolean(reportTarget)} target={reportTarget} reporterRole="Admin" onClose={() => setReportTarget(null)} onSubmitted={() => say('Question reported for editorial review.')} />
     </PageContainer>
   )

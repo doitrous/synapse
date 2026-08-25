@@ -12,6 +12,7 @@ import { cn } from '@/lib/cn'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useScopedItems } from '@/lib/useScopedContent'
 import { useIdentity } from '@/lib/useIdentity'
+import { useUniversityCatalogue } from '@/lib/useUniversityCatalogue'
 import {
   CONTENT_LEDGER_STORAGE_KEY, initialManagedContent,
   MEDIA_REQUEST_PRIORITIES, MEDIA_REQUEST_STATUSES, MEDIA_REQUEST_MEDIA,
@@ -28,12 +29,21 @@ import {
   MEDIA_STATE_KEY, emptyMediaLibrary, mediaTypeOf, mediaUrl,
   type MediaLibraryDocument, type MediaPlacement, type MediaRecord,
 } from '@/data/mediaLibrary'
+import {
+  curriculumScopeHasModule,
+  mediaRequestCurriculumScope,
+  mediaRequestModuleOptions,
+  sortMediaRequestRows,
+  type MediaRequestCurriculumSort,
+  type MediaRequestCurriculumScope,
+} from '@/data/mediaRequestCurriculum'
 
 interface Row extends MediaRequest {
   ownerId: string
   ownerTitle: string
   systemId: string
   systemTitle: string
+  curriculum: MediaRequestCurriculumScope
 }
 
 const PRIORITY_TONE: Record<string, 'danger' | 'warning' | 'neutral'> = {
@@ -108,6 +118,7 @@ function rootOf(nodeId: string | undefined): { id: string; title: string } {
  */
 export function MediaRequests() {
   const identity = useIdentity()
+  const [universityCatalogue] = useUniversityCatalogue()
   const [ledger, setLedger] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   const [mediaLibrary] = usePersistentState<MediaLibraryDocument>(MEDIA_STATE_KEY, emptyMediaLibrary)
   // The backlog shows only what this person may work on. `ledger` stays in
@@ -119,8 +130,14 @@ export function MediaRequests() {
   const [owner, setOwner] = useState('all')
   const [priority, setPriority] = useState('all')
   const [status, setStatus] = useState('needed,planned')
+  const [university, setUniversity] = useState('all')
+  const [year, setYear] = useState('all')
+  const [module, setModule] = useState('all')
+  const [sort, setSort] = useState<MediaRequestCurriculumSort>('priority')
   const [reviewingId, setReviewingId] = useState<string | null>(null)
   const mediaRecords = useMemo(() => new Map((mediaLibrary.records ?? []).map((record) => [record.id, record])), [mediaLibrary.records])
+  const allModuleOptions = useMemo(() => mediaRequestModuleOptions(universityCatalogue), [universityCatalogue])
+  const moduleOptionByKey = useMemo(() => new Map(allModuleOptions.map((option) => [option.key, option])), [allModuleOptions])
 
   const rows = useMemo<Row[]>(() => {
     // A question has no canonical placement of its own, so it inherits the one
@@ -139,17 +156,27 @@ export function MediaRequests() {
         : item.kind === 'question' ? nodeByArticle.get(item.questionData?.libraryIds?.[0] ?? '')
         : undefined
       const root = rootOf(nodeId)
+      const curriculum = mediaRequestCurriculumScope(item, universityCatalogue)
       return requests.map((request) => ({
         ...request,
         ownerId: item.id,
         ownerTitle: item.title,
         systemId: root.id,
         systemTitle: root.title,
+        curriculum,
       }))
     })
-  }, [ledger, scoped])
+  }, [ledger, scoped, universityCatalogue])
 
   const systems = useMemo(() => [...new Map(rows.map((row) => [row.systemId, row.systemTitle])).entries()].sort((a, b) => a[1].localeCompare(b[1])), [rows])
+  const selectedUniversity = universityCatalogue.find((candidate) => candidate.id === university)
+  const years = selectedUniversity?.years ?? universityCatalogue.flatMap((candidate) => candidate.years)
+  const moduleOptions = useMemo(() => allModuleOptions.filter((option) => (
+    (university === 'all' || university === 'unassigned' || option.universityId === university)
+    && (year === 'all' || year === 'unassigned' || option.yearId === year)
+  )), [allModuleOptions, university, year])
+  const unresolvedModules = useMemo(() => [...new Set(rows.flatMap((row) => row.curriculum.unresolvedModules))]
+    .sort((a, b) => a.localeCompare(b)), [rows])
 
   const visible = useMemo(() => {
     const wanted = new Set(status.split(','))
@@ -160,10 +187,42 @@ export function MediaRequests() {
       if (owner !== 'all' && row.ownerKind !== owner) return false
       if (priority !== 'all' && row.priority !== priority) return false
       if (status !== 'all' && !wanted.has(row.status)) return false
+      if (university === 'unassigned' && row.curriculum.hasUniversityAssignment) return false
+      if (university !== 'all' && university !== 'unassigned' && !row.curriculum.universityIds.includes(university)) return false
+      if (year === 'unassigned' && row.curriculum.hasYearAssignment) return false
+      if (year !== 'all' && year !== 'unassigned' && !row.curriculum.yearIds.includes(year)) return false
+      if (module === 'unassigned' && row.curriculum.hasModuleAssignment) return false
+      if (module.startsWith('unresolved:') && !row.curriculum.moduleKeys.includes(module.slice('unresolved:'.length))) return false
+      if (module !== 'all' && module !== 'unassigned' && !module.startsWith('unresolved:')) {
+        const option = moduleOptionByKey.get(module)
+        if (!option || !curriculumScopeHasModule(row.curriculum, option)) return false
+      }
       if (!q) return true
       return `${row.brief} ${row.teachingPurpose} ${row.ownerTitle} ${row.medium} ${row.kind}`.toLowerCase().includes(q)
     })
-  }, [medium, owner, priority, query, rows, status, system])
+  }, [medium, module, moduleOptionByKey, owner, priority, query, rows, status, system, university, year])
+
+  const filtersActive = Boolean(
+    query || system !== 'all' || medium !== 'all' || owner !== 'all' || priority !== 'all'
+    || status !== 'needed,planned' || university !== 'all' || year !== 'all' || module !== 'all',
+  )
+
+  const ordered = useMemo(
+    () => sortMediaRequestRows(visible, sort, universityCatalogue, allModuleOptions),
+    [allModuleOptions, sort, universityCatalogue, visible],
+  )
+
+  function clearFilters() {
+    setQuery('')
+    setSystem('all')
+    setMedium('all')
+    setOwner('all')
+    setPriority('all')
+    setStatus('needed,planned')
+    setUniversity('all')
+    setYear('all')
+    setModule('all')
+  }
 
   const reviewing = rows.find((row) => row.id === reviewingId) ?? null
   const reviewingItem = reviewing ? ledger.find((item) => item.id === reviewing.ownerId) ?? null : null
@@ -197,13 +256,13 @@ export function MediaRequests() {
    */
   const byOwner = useMemo(() => {
     const groups = new Map<string, Row[]>()
-    visible.forEach((row) => {
+    ordered.forEach((row) => {
       const group = groups.get(row.ownerId)
       if (group) group.push(row)
       else groups.set(row.ownerId, [row])
     })
     return [...groups.entries()]
-  }, [visible])
+  }, [ordered])
 
   /** Every image that still lives in one browser and reaches nobody. */
   const stranded = useMemo(() => ledger.filter((item) => {
@@ -406,8 +465,57 @@ export function MediaRequests() {
 
       <Panel className="overflow-hidden">
         <PanelHeader title="Backlog" icon={ImagePlus} hint={`${visible.length} shown`} />
-        <div className="grid gap-2 border-b border-line p-3 sm:grid-cols-3 lg:grid-cols-5">
-          <SearchInput aria-label="Search media requests" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search brief, purpose, owner" className="sm:col-span-3 lg:col-span-1" />
+        <div className="grid gap-2 border-b border-line p-3 md:grid-cols-2 xl:grid-cols-4">
+          <div className="md:col-span-2">
+            <SearchInput aria-label="Search media requests" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search brief, purpose, owner" />
+          </div>
+          <Select aria-label="Filter media requests by university" value={university} onChange={(event) => {
+            setUniversity(event.target.value)
+            setYear('all')
+            setModule('all')
+          }}>
+            <option value="all">All universities</option>
+            <option value="unassigned">No university assigned</option>
+            {universityCatalogue.length === 0 && <option disabled>No universities configured</option>}
+            {universityCatalogue.map((candidate) => <option key={candidate.id} value={candidate.id}>{candidate.short} · {candidate.name}</option>)}
+          </Select>
+          <Select aria-label="Filter media requests by year" value={year} onChange={(event) => {
+            setYear(event.target.value)
+            setModule('all')
+          }}>
+            <option value="all">All years</option>
+            <option value="unassigned">No year assigned</option>
+            {years.length === 0 && <option disabled>No years configured</option>}
+            {selectedUniversity
+              ? selectedUniversity.years.map((candidate) => <option key={candidate.id} value={candidate.id}>{candidate.year}</option>)
+              : universityCatalogue.map((candidate) => (
+                <optgroup key={candidate.id} label={candidate.short}>
+                  {candidate.years.map((candidateYear) => <option key={candidateYear.id} value={candidateYear.id}>{candidateYear.year}</option>)}
+                </optgroup>
+              ))}
+          </Select>
+          <Select aria-label="Filter media requests by module" value={module} onChange={(event) => setModule(event.target.value)}>
+            <option value="all">All modules</option>
+            <option value="unassigned">No module assigned</option>
+            {moduleOptions.length === 0 && unresolvedModules.length === 0 && <option disabled>No modules configured</option>}
+            {universityCatalogue.map((candidate) => {
+              const options = moduleOptions.filter((option) => option.universityId === candidate.id)
+              if (!options.length) return null
+              return (
+                <optgroup key={candidate.id} label={candidate.short}>
+                  {options.map((option) => {
+                    const candidateYear = candidate.years.find((entry) => entry.id === option.yearId)
+                    return <option key={option.key} value={option.key}>{candidateYear?.year} · {option.moduleName} ({option.moduleId})</option>
+                  })}
+                </optgroup>
+              )
+            })}
+            {unresolvedModules.length > 0 && (
+              <optgroup label="Needs catalogue repair">
+                {unresolvedModules.map((value) => <option key={value} value={`unresolved:${value.toLocaleLowerCase()}`}>{value}</option>)}
+              </optgroup>
+            )}
+          </Select>
           <Select aria-label="Filter media requests by system" value={system} onChange={(event) => setSystem(event.target.value)}>
             <option value="all">All systems</option>
             {systems.map(([id, title]) => <option key={id} value={id}>{title}</option>)}
@@ -429,6 +537,13 @@ export function MediaRequests() {
             <option value="all">Any status</option>
             {MEDIA_REQUEST_STATUSES.map((value) => <option key={value} value={value}>{value}</option>)}
           </Select>
+          <Select aria-label="Sort media requests" value={sort} onChange={(event) => setSort(event.target.value as MediaRequestCurriculumSort)}>
+            <option value="priority">Sort: Priority</option>
+            <option value="university">Sort: University</option>
+            <option value="year">Sort: Year</option>
+            <option value="module">Sort: Module</option>
+          </Select>
+          {filtersActive && <Button variant="ghost" size="sm" onClick={clearFilters} className="justify-self-start xl:justify-self-end">Clear filters</Button>}
         </div>
 
         {visible.length === 0 ? (
@@ -438,6 +553,7 @@ export function MediaRequests() {
             description={rows.length
               ? 'Widen the filters to see the rest of the backlog.'
               : 'Add them while authoring, or import them alongside the item. A request says what the asset must teach and why prose is not enough.'}
+            action={rows.length && filtersActive ? <Button variant="secondary" size="sm" onClick={clearFilters}>Clear filters</Button> : undefined}
           />
         ) : (
           <div className="divide-y divide-line">

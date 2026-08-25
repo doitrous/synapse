@@ -102,3 +102,28 @@ test('a colliding module without enough scope stays explicitly unresolved', () =
   assert.match(label.context, /matches multiple catalogue entries/)
   assert.match(label.context, /Add or correct the item's university and year scope/)
 })
+
+test('module visualization resolves curriculum placement for every placeable content type', () => {
+  const base = {
+    id: 'content-1', title: 'Content', subjectId: 'cvs', status: 'Draft', owner: 'Admin', updatedAt: '', fields: {},
+  } as const
+  const records = [
+    { ...base, kind: 'question', questionData: { tags: { moduleIds: ['KAU-CVS-1'], universityIds: ['KAU'], years: ['KAU_Y1'] } } },
+    { ...base, kind: 'article', articleData: { moduleIds: ['KAU-CVS-1'], universityIds: ['KAU'], yearIds: ['KAU_Y1'] } },
+    { ...base, kind: 'practical', practicalData: { moduleIds: ['KAU-CVS-1'], universityIds: ['KAU'], yearIds: ['KAU_Y1'] } },
+    { ...base, kind: 'resource', resourceData: { moduleIds: ['KAU-CVS-1'], universityIds: ['KAU'], yearIds: ['KAU_Y1'] } },
+  ] as unknown as ManagedContentItem[]
+
+  for (const record of records) {
+    assert.equal(contentModuleLabels(record, catalogue)[0]?.label, 'Cardiovascular module', record.kind)
+  }
+})
+
+test('content types without curriculum placement are explicitly available to the no-module state', () => {
+  for (const kind of ['deck', 'essay', 'histology'] as const) {
+    const record = {
+      id: kind, kind, title: kind, subjectId: 'cvs', status: 'Draft', owner: 'Admin', updatedAt: '', fields: {},
+    } as ManagedContentItem
+    assert.deepEqual(contentModuleLabels(record, catalogue), [], kind)
+  }
+})
