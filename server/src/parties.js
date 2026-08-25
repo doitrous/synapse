@@ -13,6 +13,7 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { canJoin, visibleTo, sessionState, tally } from './partyRules.js'
 import { publishedQuestions } from './publishedQuestions.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
 import { MEDIA_STATE_KEY } from './mediaLibrary.js'
 import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 
@@ -321,7 +322,7 @@ function parseItemRefs(raw) {
  * unpublished, deleted, or was never real is silently dropped rather than
  * failing the whole request, again matching `createRoom`.
  */
-export async function createSession(userId, partyId, { name, items, startsAt }) {
+async function createSessionUnlocked(userId, partyId, { name, items, startsAt }) {
   if (!(await isPartyHost(partyId, userId))) return { ok: false, reason: 'not_host' }
 
   const wanted = Array.isArray(items) ? items : []
@@ -358,6 +359,10 @@ export async function createSession(userId, partyId, { name, items, startsAt }) 
     [id, partyId, String(name || 'Study session').slice(0, 255), JSON.stringify(frozen), starts, status, userId],
   )
   return { ok: true, session: await sessionFor(userId, id) }
+}
+
+export async function createSession(userId, partyId, input) {
+  return withContentCatalogueGate(() => createSessionUnlocked(userId, partyId, input))
 }
 
 /** The party's sessions, most recent first, with state derived per `sessionState`. */

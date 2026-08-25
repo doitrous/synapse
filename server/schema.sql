@@ -23,6 +23,26 @@ CREATE TABLE IF NOT EXISTS app_state_versions (
   INDEX idx_app_state_versions (k, created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+-- Exact, reviewed manifests for retiring a legacy question/article catalogue.
+-- The manifest keeps each original target as a manual-recovery record without
+-- rolling the entire shared ledger over later edits.
+CREATE TABLE IF NOT EXISTS content_archive_operations (
+  id                  VARCHAR(64) PRIMARY KEY,
+  created_by          VARCHAR(64) NOT NULL,
+  status              ENUM('prepared','applied','expired','failed') NOT NULL DEFAULT 'prepared',
+  ledger_version      BIGINT UNSIGNED NULL,
+  ledger_digest       CHAR(64) NOT NULL,
+  manifest_json       LONGTEXT NOT NULL,
+  confirmation_phrase VARCHAR(255) NOT NULL,
+  reason              VARCHAR(500),
+  result_json         LONGTEXT,
+  expires_at          DATETIME NOT NULL,
+  applied_at          DATETIME,
+  created_at          TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_content_archive_operations (created_by, created_at),
+  INDEX idx_content_archive_status (status, expires_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 -- Private learning state. The composite primary key makes ownership explicit:
 -- the same key (for example notebook notes) can safely exist for every user.
 CREATE TABLE IF NOT EXISTS user_state (

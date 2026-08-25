@@ -1,0 +1,110 @@
+import test from 'node:test'
+import assert from 'node:assert/strict'
+import {
+  activeArchiveBlockers,
+  applyContentArchive,
+  archiveConfirmation,
+  contentArchiveManifest,
+  contentDigest,
+  originalScopeFor,
+} from './contentArchive.js'
+
+const AT = '2026-08-25T20:00:00.000Z'
+
+function question(overrides = {}) {
+  return {
+    id: 'q-1', kind: 'question', title: 'Question', subjectId: 'cvs', status: 'Published', owner: 'Admin', updatedAt: '2026-01-01T00:00:00.000Z', fields: {},
+    questionData: { tags: { module: 'cvs', moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: ['KAU-CVS-1 > Anatomy'], universityIds: ['KAU'], years: ['KAU_Y1'], questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 } }, answers: [] },
+    ...overrides,
+  }
+}
+
+function article(overrides = {}) {
+  return {
+    id: 'a-1', kind: 'article', title: 'Article', subjectId: 'cvs', status: 'In review', owner: 'Admin', updatedAt: '2026-01-01T00:00:00.000Z', fields: {},
+    articleData: { moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: ['KAU-CVS-1 > Anatomy'], universityIds: ['KAU'], yearIds: ['KAU_Y1'], universityNotes: [{ universityId: 'KAU', text: 'Keep this authored note' }] },
+    ...overrides,
+  }
+}
+
+test('manifest freezes every current article and question, not nearby content', () => {
+  const ledger = [question(), article(), { ...article({ id: 'r-1', kind: 'resource' }) }]
+  const manifest = contentArchiveManifest(ledger)
+  assert.deepEqual(manifest.counts, { articles: 1, questions: 1, total: 2 })
+  assert.deepEqual(manifest.targets.map(({ id }) => id), ['a-1', 'q-1'])
+  assert.equal(manifest.targets[0].fingerprint, contentDigest(article()))
+  assert.equal(archiveConfirmation(manifest.counts), 'ARCHIVE 1 ARTICLES AND 1 QUESTIONS')
+})
+
+test('archive detaches curriculum targeting while preserving content and provenance', () => {
+  const source = { origin: 'university', universityId: 'KAU', reference: 'Paper 1' }
+  const ledger = [question({ source }), article({ source }), { id: 'later', kind: 'resource', status: 'Published' }]
+  const manifest = contentArchiveManifest(ledger)
+  const archived = applyContentArchive(ledger, manifest, {
+    operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy generated catalogue', archivedAt: AT,
+  }).value
+
+  const q = archived.find((item) => item.id === 'q-1')
+  assert.equal(q.status, 'Archived')
+  assert.deepEqual(q.source, source)
+  assert.deepEqual(q.questionData.tags.moduleIds, [])
+  assert.deepEqual(q.questionData.tags.moduleSubjectPaths, [])
+  assert.deepEqual(q.questionData.tags.universityIds, [])
+  assert.deepEqual(q.questionData.tags.years, [])
+  assert.deepEqual(q.questionData.tags.questionOnlyFor, [])
+  assert.deepEqual(q.questionData.tags.examWeightByYear, {})
+  assert.equal(q.questionData.tags.module, '')
+
+  const a = archived.find((item) => item.id === 'a-1')
+  assert.equal(a.status, 'Archived')
+  assert.deepEqual(a.articleData.moduleIds, [])
+  assert.deepEqual(a.articleData.moduleSubjectPaths, [])
+  assert.deepEqual(a.articleData.universityIds, [])
+  assert.deepEqual(a.articleData.yearIds, [])
+  assert.deepEqual(a.articleData.universityNotes, [{ universityId: 'KAU', text: 'Keep this authored note' }])
+  assert.equal(archived[2], ledger[2])
+  assert.deepEqual(originalScopeFor(manifest.targets.find((target) => target.id === 'q-1')), {
+    module: 'cvs', moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: ['KAU-CVS-1 > Anatomy'], universityIds: ['KAU'], years: ['KAU_Y1'], questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 },
+  })
+})
+
+test('a changed manifest target aborts without a partial transform', () => {
+  const ledger = [question(), article()]
+  const manifest = contentArchiveManifest(ledger)
+  assert.throws(() => applyContentArchive([{ ...question(), title: 'Edited later' }, article()], manifest, {
+    operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy', archivedAt: AT,
+  }), /content changed after preflight/)
+})
+
+test('a completed archive is idempotent and retains its first receipt metadata', () => {
+  const ledger = [question(), article()]
+  const firstManifest = contentArchiveManifest(ledger)
+  const first = applyContentArchive(ledger, firstManifest, {
+    operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy', archivedAt: AT,
+  }).value
+  assert.deepEqual(contentArchiveManifest(first).counts, { articles: 0, questions: 0, total: 0 })
+  assert.equal(first[0].archive.operationId, 'op-1')
+  assert.equal(first[0].archive.originalStatus, 'Published')
+})
+
+test('older Archived records are cleaned only when targeting remains', () => {
+  const targeted = question({ status: 'Archived', archive: undefined })
+  const detached = question({
+    id: 'q-2',
+    status: 'Archived',
+    archive: undefined,
+    questionData: { tags: { module: '', moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [], questionOnlyFor: [], examWeightByYear: {} }, answers: [] },
+  })
+  const manifest = contentArchiveManifest([targeted, detached])
+  assert.deepEqual(manifest.targets.map((target) => target.id), ['q-1'])
+})
+
+test('malformed target IDs are rejected before a destructive manifest exists', () => {
+  assert.throws(() => contentArchiveManifest([question({ id: '' })]), /without an ID/)
+  assert.throws(() => contentArchiveManifest([question(), article({ id: 'q-1' })]), /duplicate ID/)
+  assert.throws(() => contentArchiveManifest([question(), { id: 'q-1', kind: 'resource', status: 'Published' }]), /duplicate ID/)
+})
+
+test('collaborative activity is counted conservatively', () => {
+  assert.equal(activeArchiveBlockers({ studyRooms: 2, challenges: 3, partyQuestionSessions: 4 }), 9)
+})

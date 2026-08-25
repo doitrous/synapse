@@ -45,11 +45,11 @@ export function questionKey(item) {
 }
 
 /** Build the id-keyed snapshot from a parsed ledger, skipping anything unpublished. */
-export function questionKeysFromLedger(ledger, releasedMediaIds = null) {
+export function questionKeysFromLedger(ledger, releasedMediaIds = null, catalogue = null) {
   const byId = new Map()
   for (const item of Array.isArray(ledger) ? ledger : []) {
     if (item?.kind !== 'question') continue
-    const studentItem = redactItem(item, releasedMediaIds)
+    const studentItem = redactItem(item, releasedMediaIds, catalogue)
     if (!studentItem) continue
     byId.set(studentItem.id, questionKey(studentItem))
   }

@@ -70,6 +70,8 @@ export const PRIVATE_FIELDS = new Set([
   // that describe the admin's copy of a resource rather than the student's.
   'mediaRequests', 'mediaRecommendations',
   'collectionId', 'sha256', 'rights', 'processingStatus',
+  // A selective retirement's operator, reason, recovery id and grace window.
+  'archive',
 ])
 
 /**
@@ -223,11 +225,216 @@ export function newlyMediaBlockedPublishedItems(beforeLedger, beforeReleasedMedi
   return mediaBlockedPublishedItems(afterLedger, afterReleasedMediaIds).filter((item) => !beforeIds.has(item.id))
 }
 
+/** Non-empty, trimmed identifiers without duplicates. */
+function identifiers(value) {
+  if (!Array.isArray(value)) return []
+  return [...new Set(value
+    .filter((entry) => typeof entry === 'string')
+    .map((entry) => entry.trim())
+    .filter(Boolean))]
+}
+
+/** Keep the server's derived module IDs identical to the academic editor. */
+function defaultModuleId(name, index) {
+  const code = String(name ?? '').replace(/[^A-Za-z]/g, '').slice(0, 4).toUpperCase() || 'MOD'
+  return `${code} ${String(index).padStart(2, '0')}`
+}
+
+/** The module identifier at the head of `101 ISK > Anatomy > Thorax`. */
+function modulePathHead(value) {
+  return typeof value === 'string' ? value.split('>')[0].trim() : ''
+}
+
+/**
+ * The IDs the academic catalogue authoritatively defines, plus their ownership.
+ *
+ * Module IDs are university-scoped. Keeping the owner maps means a real module
+ * from University A cannot be used to make an archived item look assigned to
+ * University B merely because both IDs exist somewhere in the catalogue.
+ */
+function academicIds(catalogue) {
+  const universityIds = new Set()
+  const yearIds = new Set()
+  const yearUniversity = new Map()
+  const moduleIds = new Set()
+  const moduleUniversities = new Map()
+  const moduleYears = new Map()
+
+  for (const university of Array.isArray(catalogue) ? catalogue : []) {
+    const universityId = typeof university?.id === 'string' ? university.id.trim() : ''
+    if (!universityId) continue
+    universityIds.add(universityId)
+    for (const year of Array.isArray(university.years) ? university.years : []) {
+      const yearId = typeof year?.id === 'string' ? year.id.trim() : ''
+      if (yearId) {
+        yearIds.add(yearId)
+        yearUniversity.set(yearId, universityId)
+      }
+      for (const [index, course] of (Array.isArray(year?.courses) ? year.courses : []).entries()) {
+        const explicit = typeof course?.moduleId === 'string' ? course.moduleId.trim() : ''
+        const moduleId = explicit || defaultModuleId(course?.name, index + 1)
+        if (!moduleId) continue
+        moduleIds.add(moduleId)
+        moduleUniversities.set(moduleId, new Set([...(moduleUniversities.get(moduleId) ?? []), universityId]))
+        if (yearId) moduleYears.set(moduleId, new Set([...(moduleYears.get(moduleId) ?? []), yearId]))
+      }
+    }
+  }
+  return { universityIds, yearIds, yearUniversity, moduleIds, moduleUniversities, moduleYears }
+}
+
+function detachedArchiveScope(item) {
+  if (item?.kind === 'question') {
+    const tags = item.questionData?.tags ?? {}
+    return {
+      moduleIds: [...new Set([
+        ...identifiers(tags.moduleIds),
+        ...identifiers(tags.moduleSubjectPaths).map(modulePathHead).filter(Boolean),
+      ])],
+      universityIds: identifiers(tags.universityIds),
+      yearIds: identifiers(tags.years),
+      onlyForIds: identifiers(tags.questionOnlyFor),
+    }
+  }
+  if (item?.kind === 'article') {
+    const data = item.articleData ?? {}
+    return {
+      moduleIds: [...new Set([
+        ...identifiers(data.moduleIds),
+        ...identifiers(data.moduleSubjectPaths).map(modulePathHead).filter(Boolean),
+      ])],
+      universityIds: identifiers(data.universityIds),
+      yearIds: identifiers(data.yearIds),
+      onlyForIds: [],
+    }
+  }
+  return { moduleIds: [], universityIds: [], yearIds: [], onlyForIds: [] }
+}
+
+function unknown(values, known) {
+  return values.filter((value) => !known.has(value))
+}
+
+/**
+ * Why a detached article/question is unsafe to publish against this catalogue.
+ *
+ * This is intentionally server-shaped and pure. The browser has a matching
+ * usability check, but publication is an invariant and therefore belongs on
+ * the authoritative write path too. Non-archive content is outside this rule.
+ */
+export function publicationArchiveScopeBlockers(item, catalogue) {
+  if (item?.status !== 'Published' || item?.archive?.detached !== true
+      || (item.kind !== 'question' && item.kind !== 'article')) return []
+
+  const known = academicIds(catalogue)
+  const scope = detachedArchiveScope(item)
+  const blockers = []
+
+  if (!scope.moduleIds.length) blockers.push('module assignment is required')
+  const unknownModules = unknown(scope.moduleIds, known.moduleIds)
+  if (unknownModules.length) blockers.push(`unknown module IDs: ${unknownModules.join(', ')}`)
+
+  const audienceIds = [...scope.universityIds, ...scope.yearIds, ...scope.onlyForIds]
+  if (!audienceIds.length) blockers.push('audience assignment is required')
+  const unknownUniversities = unknown(scope.universityIds, known.universityIds)
+  const unknownYears = unknown(scope.yearIds, known.yearIds)
+  const knownAudienceIds = new Set([...known.universityIds, ...known.yearIds])
+  const unknownOnlyFor = unknown(scope.onlyForIds, knownAudienceIds)
+  if (unknownUniversities.length) blockers.push(`unknown university IDs: ${unknownUniversities.join(', ')}`)
+  if (unknownYears.length) blockers.push(`unknown year IDs: ${unknownYears.join(', ')}`)
+  if (unknownOnlyFor.length) blockers.push(`unknown question-only audience IDs: ${unknownOnlyFor.join(', ')}`)
+
+  const selectedUniversities = new Set(scope.universityIds.filter((id) => known.universityIds.has(id)))
+  const selectedYears = new Set(scope.yearIds.filter((id) => known.yearIds.has(id)))
+  for (const id of scope.onlyForIds) {
+    if (known.universityIds.has(id)) selectedUniversities.add(id)
+    if (known.yearIds.has(id)) selectedYears.add(id)
+  }
+  for (const yearId of selectedYears) {
+    const universityId = known.yearUniversity.get(yearId)
+    if (universityId) selectedUniversities.add(universityId)
+  }
+
+  if (scope.universityIds.length && selectedYears.size) {
+    const explicitlyAssigned = new Set(scope.universityIds.filter((id) => known.universityIds.has(id)))
+    const mismatchedYears = [...selectedYears].filter((yearId) => !explicitlyAssigned.has(known.yearUniversity.get(yearId)))
+    if (explicitlyAssigned.size && mismatchedYears.length) {
+      blockers.push(`year IDs outside assigned universities: ${mismatchedYears.join(', ')}`)
+    }
+  }
+
+  const knownModules = scope.moduleIds.filter((id) => known.moduleIds.has(id))
+  const outsideAudience = knownModules.filter((moduleId) => {
+    const universities = known.moduleUniversities.get(moduleId) ?? new Set()
+    const years = known.moduleYears.get(moduleId) ?? new Set()
+    // A selected year is the narrower, authoritative audience. Do not accept a
+    // module from another year merely because both years share a university.
+    if (selectedYears.size) return ![...years].some((id) => selectedYears.has(id))
+    return ![...universities].some((id) => selectedUniversities.has(id))
+  })
+  if (outsideAudience.length && selectedUniversities.size) {
+    blockers.push(`module IDs outside assigned audience: ${outsideAudience.join(', ')}`)
+  }
+
+  return blockers
+}
+
+/** Detached archived records that are nominally published but not safely assigned. */
+export function archiveScopeBlockedPublishedItems(ledger, catalogue) {
+  if (!Array.isArray(ledger)) return []
+  return ledger
+    .filter((item) => item?.status === 'Published' && item?.archive?.detached === true)
+    .map((item) => ({ id: item.id, title: item.title, blockers: publicationArchiveScopeBlockers(item, catalogue) }))
+    .filter((item) => item.blockers.length > 0)
+}
+
+/**
+ * Invalid archive publications introduced by this write.
+ *
+ * Existing invalid rows remain editable so an administrator can repair them;
+ * transitioning an archive to Published or making a valid publication invalid
+ * is refused atomically by the caller.
+ */
+export function newlyArchiveScopeBlockedPublishedItems(beforeLedger, afterLedger, catalogue) {
+  const beforeById = new Map((Array.isArray(beforeLedger) ? beforeLedger : [])
+    .filter((item) => item?.id)
+    .map((item) => [item.id, item]))
+  const existingInvalidIds = new Set(archiveScopeBlockedPublishedItems(beforeLedger, catalogue).map((item) => item.id))
+  const blocked = []
+
+  for (const item of Array.isArray(afterLedger) ? afterLedger : []) {
+    const before = beforeById.get(item?.id)
+    const wasDetached = before?.archive?.detached === true
+    if (wasDetached && item?.archive?.detached !== true) {
+      blocked.push({
+        id: item.id,
+        title: item.title,
+        blockers: ['archive detachment metadata cannot be removed'],
+      })
+      continue
+    }
+    if (item?.status !== 'Published' || (!wasDetached && item?.archive?.detached !== true)) continue
+
+    // Validate against the server-held archive marker even if a replacement
+    // document tried to omit it. Existing invalid publications stay editable
+    // for remediation, but cannot erase their provenance or become less safe.
+    const effective = wasDetached
+      ? { ...item, archive: { ...(before.archive ?? {}), ...(item.archive ?? {}), detached: true } }
+      : item
+    const blockers = publicationArchiveScopeBlockers(effective, catalogue)
+    if (blockers.length && !existingInvalidIds.has(item.id)) {
+      blocked.push({ id: item.id, title: item.title, blockers })
+    }
+  }
+  return blocked
+}
+
 /** The student's view of one item, or `null` when they may not see it at all. */
-export function redactItem(item, releasedMediaIds = null) {
+export function redactItem(item, releasedMediaIds = null, catalogue = null) {
   if (!item || typeof item !== 'object' || Array.isArray(item)) return null
   if (item.status !== 'Published') return null
   if (publicationMediaBlockers(item, releasedMediaIds).length) return null
+  if (catalogue !== null && publicationArchiveScopeBlockers(item, catalogue).length) return null
   return strip(item)
 }
 
@@ -237,9 +444,9 @@ export function redactItem(item, releasedMediaIds = null) {
  * A malformed stored value yields an empty ledger rather than a thrown request,
  * matching how `publishedQuestions.js` treats the same document.
  */
-export function redactLedgerForStudent(ledger, releasedMediaIds = null) {
+export function redactLedgerForStudent(ledger, releasedMediaIds = null, catalogue = null) {
   if (!Array.isArray(ledger)) return []
-  return ledger.map((item) => redactItem(item, releasedMediaIds)).filter((item) => item !== null)
+  return ledger.map((item) => redactItem(item, releasedMediaIds, catalogue)).filter((item) => item !== null)
 }
 
 /**

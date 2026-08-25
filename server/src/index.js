@@ -10,6 +10,8 @@ import { Resend } from 'resend'
 import { pool, migrate } from './db.js'
 import {
   REDACTED_STATE_KEYS,
+  archiveScopeBlockedPublishedItems,
+  newlyArchiveScopeBlockedPublishedItems,
   newlyMediaBlockedPublishedItems,
   redactLedgerForStudent,
   releasedMediaIdsFromDocument,
@@ -89,7 +91,16 @@ import {
   deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
+import {
+  CONTENT_ARCHIVE_TTL_MINUTES,
+  activeArchiveBlockers,
+  applyContentArchive,
+  archiveConfirmation,
+  contentArchiveManifest,
+  contentDigest,
+} from './contentArchive.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
@@ -106,6 +117,7 @@ const MEDIA_UPLOAD_MAX_AGE_HOURS = Math.max(1, Number(process.env.MEDIA_UPLOAD_M
 const RESOURCE_CHUNK_MAX_BYTES = Number(process.env.RESOURCE_CHUNK_MAX_BYTES) || 64 * 1024 * 1024
 const RESOURCE_CHUNKED_MAX_BYTES = Number(process.env.RESOURCE_CHUNKED_MAX_BYTES) || 2 * 1024 * 1024 * 1024
 const CONTENT_LEDGER_STATE_KEY = 'synapse-admin-content-ledger-v4'
+const ACADEMIC_CATALOGUE_STATE_KEY = 'synapse-academic-universities-v1'
 const MEDICAL_EVIDENCE_STATE_KEY = 'synapse-medical-evidence-v1'
 let medicalResourceSnapshot = null
 let medicalResourceLoad = null
@@ -143,11 +155,11 @@ async function mediaRecords() {
 }
 
 /** Student activity that a global question withdrawal could interrupt. */
-async function contentVisibilityResetActivity() {
+async function contentVisibilityResetActivity(db = pool) {
   const [[roomRows], [challengeRows], [partyRows]] = await Promise.all([
-    pool.query("SELECT COUNT(*) AS count FROM study_rooms WHERE status IN ('lobby','running')"),
-    pool.query("SELECT COUNT(*) AS count FROM challenges WHERE status IN ('sent','running')"),
-    pool.query("SELECT item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
+    db.query("SELECT COUNT(*) AS count FROM study_rooms WHERE status IN ('lobby','running')"),
+    db.query("SELECT COUNT(*) AS count FROM challenges WHERE status IN ('sent','running')"),
+    db.query("SELECT item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
   ])
   const partyQuestionSessions = partyRows.reduce((count, row) => {
     try {
@@ -1175,6 +1187,175 @@ app.get('/api/admin/content-visibility-reset-preflight', requireSuperAdmin, wrap
   res.json({ active: await contentVisibilityResetActivity() })
 }))
 
+/**
+ * Prepare an exact, expiring retirement manifest.
+ *
+ * The response contains compact target summaries, never mutable item bodies.
+ * Originals stay server-side in `content_archive_operations`, where they are a
+ * manual-recovery record and cannot be swapped by a browser before apply.
+ */
+app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (req, res) => {
+  const [[ledgerRows], [versionRows], active] = await Promise.all([
+    pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
+    pool.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
+    contentVisibilityResetActivity(),
+  ])
+  const raw = ledgerRows[0]?.v ?? '[]'
+  let ledger
+  try { ledger = JSON.parse(raw) } catch { return res.status(409).json({ error: 'content ledger is malformed' }) }
+  if (!Array.isArray(ledger)) return res.status(409).json({ error: 'content ledger is not a list' })
+
+  let manifest
+  try { manifest = contentArchiveManifest(ledger) } catch (error) {
+    return res.status(409).json({ error: error?.message ?? 'content ledger cannot be archived safely' })
+  }
+  const operationId = `archive-${randomUUID()}`
+  const confirmationPhrase = archiveConfirmation(manifest.counts)
+  const expiresAt = new Date(Date.now() + CONTENT_ARCHIVE_TTL_MINUTES * 60_000)
+  const ledgerVersion = versionRows[0]?.version ?? null
+  const ledgerDigest = contentDigest(raw)
+  // A refresh replaces the caller's unused preflight rather than multiplying
+  // ledger-sized manifests. Applied receipts remain immutable.
+  await pool.query(
+    `DELETE FROM content_archive_operations
+      WHERE status = 'prepared' AND (created_by = ? OR expires_at <= CURRENT_TIMESTAMP)`,
+    [req.identity.id],
+  )
+  await pool.query(
+    `INSERT INTO content_archive_operations
+       (id, created_by, ledger_version, ledger_digest, manifest_json, confirmation_phrase, expires_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    [operationId, req.identity.id, ledgerVersion, ledgerDigest, JSON.stringify(manifest), confirmationPhrase, toMariaDbDate(expiresAt)],
+  )
+  res.json({
+    operationId,
+    expiresAt: expiresAt.toISOString(),
+    ledgerVersion,
+    ledgerDigest,
+    counts: manifest.counts,
+    statusCounts: manifest.statusCounts,
+    sourceCounts: manifest.sourceCounts,
+    targets: manifest.targets.map((target) => ({
+      id: target.id,
+      title: target.before?.title ?? target.id,
+      kind: target.kind,
+      status: target.before?.status ?? 'Unknown',
+      source: target.before?.source ?? target.before?.owner ?? null,
+    })),
+    confirmationPhrase,
+    active,
+    blocked: activeArchiveBlockers(active) > 0,
+  })
+}))
+
+/** Apply only the server-held manifest prepared above. */
+app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req, res) => withContentCatalogueGate(async () => {
+  const operationId = String(req.body?.operationId ?? '').trim()
+  const confirmation = String(req.body?.confirmation ?? '').trim()
+  const reason = String(req.body?.reason ?? '').trim().slice(0, 500)
+  if (!operationId) return res.status(400).json({ error: 'operationId is required' })
+  if (reason.length < 10) return res.status(400).json({ error: 'a clear reason of at least 10 characters is required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    const [operationRows] = await conn.query(
+      `SELECT id, created_by AS createdBy, status, ledger_version AS ledgerVersion,
+              ledger_digest AS ledgerDigest, manifest_json AS manifestJson,
+              confirmation_phrase AS confirmationPhrase, result_json AS resultJson,
+              expires_at AS expiresAt
+         FROM content_archive_operations WHERE id = ? FOR UPDATE`,
+      [operationId],
+    )
+    const operation = operationRows[0]
+    if (!operation || operation.createdBy !== req.identity.id) {
+      await conn.rollback()
+      return res.status(404).json({ error: 'archive preflight not found' })
+    }
+    if (operation.status === 'applied') {
+      await conn.commit()
+      return res.json(JSON.parse(operation.resultJson))
+    }
+    if (operation.status !== 'prepared' || new Date(operation.expiresAt).getTime() <= Date.now()) {
+      await conn.query("UPDATE content_archive_operations SET status = 'expired' WHERE id = ? AND status = 'prepared'", [operationId])
+      await conn.commit()
+      return res.status(409).json({ error: 'archive preflight expired; run it again' })
+    }
+    if (confirmation !== operation.confirmationPhrase) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'the confirmation phrase does not match this preflight' })
+    }
+
+    const active = await contentVisibilityResetActivity(conn)
+    if (activeArchiveBlockers(active) > 0) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'active question sessions must finish first', active })
+    }
+
+    const [ledgerRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_LEDGER_STATE_KEY])
+    const raw = ledgerRows[0]?.v ?? '[]'
+    const [versionRows] = await conn.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [CONTENT_LEDGER_STATE_KEY])
+    const currentVersion = versionRows[0]?.version ?? null
+    const expectedVersion = operation.ledgerVersion ?? null
+    if (String(currentVersion ?? '') !== String(expectedVersion ?? '') || contentDigest(raw) !== operation.ledgerDigest) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'content changed after preflight; review the refreshed counts before trying again' })
+    }
+
+    let ledger
+    let manifest
+    try {
+      ledger = JSON.parse(raw)
+      manifest = JSON.parse(operation.manifestJson)
+    } catch {
+      await conn.rollback()
+      return res.status(409).json({ error: 'the stored archive manifest is malformed' })
+    }
+    const archivedAt = new Date()
+    let archived
+    try {
+      archived = applyContentArchive(ledger, manifest, {
+        operationId,
+        actorId: req.identity.id,
+        reason,
+        archivedAt: archivedAt.toISOString(),
+      })
+    } catch (error) {
+      await conn.rollback()
+      if (error?.code === 'stale_manifest') return res.status(409).json({ error: error.message })
+      throw error
+    }
+
+    const value = JSON.stringify(archived.value)
+    const [inserted] = await conn.query(
+      'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+      [CONTENT_LEDGER_STATE_KEY, value, req.identity.id],
+    )
+    await conn.query('UPDATE app_state SET v = ? WHERE k = ?', [value, CONTENT_LEDGER_STATE_KEY])
+    const result = {
+      ok: true,
+      operationId,
+      counts: archived.counts,
+      archivedAt: archivedAt.toISOString(),
+      version: inserted.insertId,
+    }
+    await conn.query(
+      `UPDATE content_archive_operations
+          SET status = 'applied', reason = ?, result_json = ?, applied_at = ?
+        WHERE id = ?`,
+      [reason, JSON.stringify(result), toMariaDbDate(archivedAt), operationId],
+    )
+    await conn.commit()
+    invalidateSnapshots(CONTENT_LEDGER_STATE_KEY)
+    res.json(result)
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+})))
+
 app.get('/api/state/:key', wrap(async (req, res) => {
   // Console access, not the single role 'admin': an editor or a reviewer
   // authors this content and must read it whole. Redaction is for students.
@@ -1208,7 +1389,10 @@ app.get('/api/state/:key', wrap(async (req, res) => {
   const redact = authoring ? undefined : REDACTED_STATE_KEYS.get(req.params.key)
   if (!authoring && req.params.key === CONTENT_LEDGER_STATE_KEY) {
     const releasedMediaIds = releasedMediaIdsFromDocument({ records: await mediaRecords() })
-    value = redactLedgerForStudent(value, releasedMediaIds)
+    const [catalogueRows] = await pool.query('SELECT v FROM app_state WHERE k = ?', [ACADEMIC_CATALOGUE_STATE_KEY])
+    let catalogue = []
+    try { catalogue = catalogueRows[0] ? JSON.parse(catalogueRows[0].v) : [] } catch { catalogue = [] }
+    value = redactLedgerForStudent(value, releasedMediaIds, catalogue)
   } else if (redact) value = redact(value)
   res.json({ value, updatedAt, version })
 }))
@@ -1245,13 +1429,13 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
     await conn.beginTransaction()
     let guardedRows = []
     let currentRows
-    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY) {
-      // Publication and release are one invariant. Lock both documents in one
-      // deterministic query so a concurrent publish and media withdrawal
-      // cannot each validate against the other's old value.
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_STATE_KEY) {
+      // Publication, release, and valid curriculum placement are one invariant.
+      // Lock all three documents in one deterministic query so concurrent
+      // writes cannot validate against different catalogue/media generations.
       const [rows] = await conn.query(
-        'SELECT k, v FROM app_state WHERE k IN (?, ?) ORDER BY k FOR UPDATE',
-        [CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY],
+        'SELECT k, v FROM app_state WHERE k IN (?, ?, ?) ORDER BY k FOR UPDATE',
+        [ACADEMIC_CATALOGUE_STATE_KEY, CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY],
       )
       guardedRows = rows
       currentRows = rows.filter((row) => row.k === key)
@@ -1307,17 +1491,22 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
       })
     }
 
-    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY) {
+    if (key === CONTENT_LEDGER_STATE_KEY || key === MEDIA_STATE_KEY || key === ACADEMIC_CATALOGUE_STATE_KEY) {
       const ledgerRow = guardedRows.find((row) => row.k === CONTENT_LEDGER_STATE_KEY)
       const mediaRow = guardedRows.find((row) => row.k === MEDIA_STATE_KEY)
+      const catalogueRow = guardedRows.find((row) => row.k === ACADEMIC_CATALOGUE_STATE_KEY)
       const beforeLedger = ledgerRow ? JSON.parse(ledgerRow.v) : []
       const beforeMedia = mediaRow ? JSON.parse(mediaRow.v) : { records: [] }
+      const beforeCatalogue = catalogueRow ? JSON.parse(catalogueRow.v) : []
       const ledger = key === CONTENT_LEDGER_STATE_KEY
         ? merged.value
         : beforeLedger
       const media = key === MEDIA_STATE_KEY
         ? merged.value
         : beforeMedia
+      const catalogue = key === ACADEMIC_CATALOGUE_STATE_KEY
+        ? merged.value
+        : beforeCatalogue
       const blockedItems = newlyMediaBlockedPublishedItems(
         beforeLedger,
         releasedMediaIdsFromDocument(beforeMedia),
@@ -1330,6 +1519,20 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
           error: 'media_required',
           reason: 'published content cannot be saved while required teaching media is unresolved or unreleased',
           blockedItems,
+        })
+      }
+      const archiveScopeBlockedItems = key === ACADEMIC_CATALOGUE_STATE_KEY
+        ? (() => {
+            const beforeIds = new Set(archiveScopeBlockedPublishedItems(beforeLedger, beforeCatalogue).map((item) => item.id))
+            return archiveScopeBlockedPublishedItems(ledger, catalogue).filter((item) => !beforeIds.has(item.id))
+          })()
+        : newlyArchiveScopeBlockedPublishedItems(beforeLedger, ledger, catalogue)
+      if (archiveScopeBlockedItems.length) {
+        await conn.rollback()
+        return res.status(409).json({
+          error: 'archive_scope_required',
+          reason: 'archived content must be assigned to a valid university, year, and module before it can be published',
+          blockedItems: archiveScopeBlockedItems,
         })
       }
       if (key === MEDIA_STATE_KEY) {
@@ -1384,6 +1587,12 @@ app.put('/api/state/:key', requireConsole, wrap(async (req, res) => {
 app.delete('/api/state/:key', requireSuperAdmin, wrap(async (req, res) => {
   // Deleting a whole document is not an edit: it has no per-item diff and so no
   // scope to judge it against. Super admin only.
+  if ([CONTENT_LEDGER_STATE_KEY, MEDIA_STATE_KEY, ACADEMIC_CATALOGUE_STATE_KEY].includes(req.params.key)) {
+    return res.status(409).json({
+      error: 'protected_state',
+      reason: 'the content ledger, media library, and academic catalogue must be changed through their guarded editors',
+    })
+  }
   await pool.query('DELETE FROM app_state WHERE k = ?', [req.params.key])
   invalidateSnapshots(req.params.key)
   if (req.params.key === ROLE_TABS_STATE_KEY) invalidateRoleTabs()

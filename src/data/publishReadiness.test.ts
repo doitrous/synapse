@@ -95,3 +95,27 @@ test('required media is resolved only by a supplied managed asset', () => {
   } as unknown as ManagedContentItem
   assert.equal(publishReadiness(item).ready, true)
 })
+
+test('a detached archive cannot be republished globally by accident', () => {
+  const item = {
+    ...base,
+    id: 'q-archive',
+    kind: 'question',
+    status: 'Archived',
+    archive: {
+      operationId: 'archive-1', actorId: 'admin-1', reason: 'Legacy generated content',
+      archivedAt: '2026-08-25T20:00:00.000Z', originalStatus: 'Published', detached: true,
+    },
+    questionData: { tags: { moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [] } },
+  } as unknown as ManagedContentItem
+  const blocked = publishReadiness(item)
+  assert.equal(blocked.ready, false)
+  assert.equal(blocked.hardBlocked, true)
+  assert.equal(blocked.reason, 'Assign a verified module and audience')
+
+  const reassigned = {
+    ...item,
+    questionData: { tags: { moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: [], universityIds: ['KAU'], years: ['KAU_Y1'] } },
+  } as unknown as ManagedContentItem
+  assert.equal(publishReadiness(reassigned).ready, true)
+})

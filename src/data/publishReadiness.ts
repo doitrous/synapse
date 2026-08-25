@@ -35,6 +35,23 @@ const GATE_REASON: Record<string, string> = {
   excluded: 'Excluded',
 }
 
+function reassignedAfterArchive(item: ManagedContentItem): boolean {
+  if (!item.archive?.detached) return true
+  if (item.kind === 'question') {
+    const tags = item.questionData?.tags
+    const hasModule = Boolean(tags?.moduleIds?.length || tags?.moduleSubjectPaths?.length)
+    const hasAudience = Boolean(tags?.universityIds?.length || tags?.years?.length || tags?.questionOnlyFor?.length)
+    return hasModule && hasAudience
+  }
+  if (item.kind === 'article') {
+    const data = item.articleData
+    const hasModule = Boolean(data?.moduleIds?.length || data?.moduleSubjectPaths?.length)
+    const hasAudience = Boolean(data?.universityIds?.length || data?.yearIds?.length)
+    return hasModule && hasAudience
+  }
+  return true
+}
+
 export function publishReadiness(item: ManagedContentItem): PublishReadiness {
   const missingMedia = blockingMediaRequests(item)
   if (missingMedia.length) {
@@ -45,6 +62,13 @@ export function publishReadiness(item: ManagedContentItem): PublishReadiness {
     }
   }
   if (item.status === 'Published') return { ready: false, reason: 'Already published', alreadyPublished: true }
+  if (!reassignedAfterArchive(item)) {
+    return {
+      ready: false,
+      reason: 'Assign a verified module and audience',
+      hardBlocked: true,
+    }
+  }
   if (item.kind !== 'article') return { ready: true, reason: '' }
 
   const data = item.articleData

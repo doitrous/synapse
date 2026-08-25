@@ -5,8 +5,11 @@ import {
   PUBLIC_FIELDS,
   hasUnresolvedRequiredMedia,
   hasUnreleasedManagedMedia,
+  archiveScopeBlockedPublishedItems,
   mediaBlockedPublishedItems,
+  newlyArchiveScopeBlockedPublishedItems,
   newlyMediaBlockedPublishedItems,
+  publicationArchiveScopeBlockers,
   publicationMediaBlockers,
   redactItem,
   redactLedgerForStudent,
@@ -16,6 +19,179 @@ import {
   MEDIA_STUDENT_FIELDS,
   REDACTED_STATE_KEYS,
 } from './studentLedger.js'
+
+const academicCatalogue = [{
+  id: 'kau', short: 'KAU', name: 'Kasr Alainy',
+  years: [{
+    id: 'KAU_Y1', year: 'Year 1',
+    courses: [
+      { id: 'course-1', name: '101 ISK', moduleId: '101 ISK' },
+      { id: 'course-2', name: 'Cardiovascular foundations' },
+    ],
+  }],
+}, {
+  id: 'asu', short: 'ASU', name: 'Ain Shams',
+  years: [{ id: 'ASU_Y2', year: 'Year 2', courses: [{ id: 'course-3', name: 'ASU CVS', moduleId: 'ASU-CVS' }] }],
+}]
+
+function detachedArchive(overrides = {}) {
+  return authoredQuestion({
+    status: 'Archived',
+    archive: {
+      operationId: 'archive-1', actorId: 'admin-1', reason: 'Legacy generated catalogue',
+      archivedAt: '2026-08-25T20:00:00.000Z', originalStatus: 'Published', detached: true,
+    },
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [], questionOnlyFor: [] },
+    },
+    ...overrides,
+  })
+}
+
+test('a detached archive can publish only with known module and audience IDs', () => {
+  const safe = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: ['101 ISK'], universityIds: ['kau'], years: ['KAU_Y1'], questionOnlyFor: [] },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(safe, academicCatalogue), [])
+  assert.deepEqual(archiveScopeBlockedPublishedItems([safe], academicCatalogue), [])
+
+  const detached = detachedArchive({ status: 'Published' })
+  assert.deepEqual(publicationArchiveScopeBlockers(detached, academicCatalogue), [
+    'module assignment is required',
+    'audience assignment is required',
+  ])
+  assert.notEqual(redactItem(safe, null, academicCatalogue), null)
+  assert.equal(redactItem(detached, null, academicCatalogue), null)
+})
+
+test('unknown module, university, year and hard-audience IDs are all rejected', () => {
+  const unsafe = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: {
+        moduleIds: ['MISSING-MODULE'], universityIds: ['missing-university'],
+        years: ['MISSING_YEAR'], questionOnlyFor: ['MISSING_ONLY_FOR'],
+      },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(unsafe, academicCatalogue), [
+    'unknown module IDs: MISSING-MODULE',
+    'unknown university IDs: missing-university',
+    'unknown year IDs: MISSING_YEAR',
+    'unknown question-only audience IDs: MISSING_ONLY_FOR',
+  ])
+})
+
+test('module paths and catalogue-derived module IDs are validated as real modules', () => {
+  const fromPath = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: [], moduleSubjectPaths: ['101 ISK > Anatomy'], universityIds: [], years: ['KAU_Y1'] },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(fromPath, academicCatalogue), [])
+
+  const derived = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: ['CARD 02'], universityIds: ['kau'], years: [] },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(derived, academicCatalogue), [])
+})
+
+test('real IDs cannot be combined across unrelated university audiences', () => {
+  const wrongYear = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: ['101 ISK'], universityIds: ['kau'], years: ['ASU_Y2'] },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(wrongYear, academicCatalogue), [
+    'year IDs outside assigned universities: ASU_Y2',
+    'module IDs outside assigned audience: 101 ISK',
+  ])
+
+  const wrongModule = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: ['ASU-CVS'], universityIds: ['kau'], years: ['KAU_Y1'] },
+    },
+  })
+  assert.deepEqual(publicationArchiveScopeBlockers(wrongModule, academicCatalogue), [
+    'module IDs outside assigned audience: ASU-CVS',
+  ])
+
+  const wrongYearWithinUniversity = detachedArchive({
+    status: 'Published',
+    questionData: {
+      ...authoredQuestion().questionData,
+      tags: { moduleIds: ['101 ISK'], universityIds: ['kau'], years: ['KAU_Y2'] },
+    },
+  })
+  const catalogueWithSecondKauYear = [{
+    ...academicCatalogue[0],
+    years: [...academicCatalogue[0].years, { id: 'KAU_Y2', year: 'Year 2', courses: [] }],
+  }, academicCatalogue[1]]
+  assert.deepEqual(publicationArchiveScopeBlockers(wrongYearWithinUniversity, catalogueWithSecondKauYear), [
+    'module IDs outside assigned audience: 101 ISK',
+  ])
+})
+
+test('articles use the same authoritative module and audience rule', () => {
+  const article = {
+    id: 'a-1', kind: 'article', title: 'Legacy article', status: 'Published',
+    archive: { detached: true },
+    articleData: { moduleIds: ['101 ISK'], moduleSubjectPaths: [], universityIds: ['kau'], yearIds: ['KAU_Y1'] },
+  }
+  assert.deepEqual(publicationArchiveScopeBlockers(article, academicCatalogue), [])
+  assert.deepEqual(publicationArchiveScopeBlockers({
+    ...article,
+    articleData: { ...article.articleData, moduleIds: ['UNKNOWN'] },
+  }, academicCatalogue), ['unknown module IDs: UNKNOWN'])
+})
+
+test('the write gate reports only newly invalid archive publications', () => {
+  const archived = detachedArchive()
+  const newlyPublished = { ...archived, status: 'Published' }
+  assert.deepEqual(
+    newlyArchiveScopeBlockedPublishedItems([archived], [newlyPublished], academicCatalogue),
+    [{ id: archived.id, title: archived.title, blockers: ['module assignment is required', 'audience assignment is required'] }],
+  )
+  assert.deepEqual(
+    newlyArchiveScopeBlockedPublishedItems([newlyPublished], [newlyPublished], academicCatalogue),
+    [],
+    'an already-invalid publication remains editable for remediation',
+  )
+
+  const ordinary = authoredQuestion({ status: 'Published' })
+  assert.deepEqual(newlyArchiveScopeBlockedPublishedItems([], [ordinary], academicCatalogue), [])
+})
+
+test('archive detachment metadata cannot be removed or bypassed while publishing', () => {
+  const archived = detachedArchive()
+  const withoutMarker = { ...archived, archive: undefined }
+  assert.deepEqual(
+    newlyArchiveScopeBlockedPublishedItems([archived], [withoutMarker], academicCatalogue),
+    [{ id: archived.id, title: archived.title, blockers: ['archive detachment metadata cannot be removed'] }],
+  )
+
+  const publishedWithoutMarker = { ...withoutMarker, status: 'Published' }
+  assert.deepEqual(
+    newlyArchiveScopeBlockedPublishedItems([archived], [publishedWithoutMarker], academicCatalogue),
+    [{ id: archived.id, title: archived.title, blockers: ['archive detachment metadata cannot be removed'] }],
+  )
+})
 
 test('required media excludes published content at any anchor until an asset fulfils it', () => {
   const item = authoredQuestion({

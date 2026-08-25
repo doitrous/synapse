@@ -16,6 +16,7 @@ import { randomUUID } from 'node:crypto'
 import { pool } from './db.js'
 import { publishedQuestions } from './publishedQuestions.js'
 import { orderedPair } from './friendship.js'
+import { withContentCatalogueGate } from './contentCatalogueGate.js'
 
 /** Longest a room may be. Enough for a full paper, short of an endurance test. */
 const MAX_QUESTIONS = 40
@@ -66,7 +67,7 @@ async function seatInvitedFriends(hostId, roomId, inviteUserIds) {
   }
 }
 
-export async function createRoom(userId, { name, questionIds, timed, secondsPerQuestion, inviteUserIds }) {
+async function createRoomUnlocked(userId, { name, questionIds, timed, secondsPerQuestion, inviteUserIds }) {
   const wanted = Array.isArray(questionIds) ? questionIds : []
   const published = await publishedQuestions()
   // Only questions that exist and are published can be frozen into a room.
@@ -95,6 +96,10 @@ export async function createRoom(userId, { name, questionIds, timed, secondsPerQ
     }
   }
   return { ok: false, reason: 'code_collision' }
+}
+
+export async function createRoom(userId, input) {
+  return withContentCatalogueGate(() => createRoomUnlocked(userId, input))
 }
 
 export async function joinRoom(userId, rawCode) {
@@ -179,13 +184,17 @@ export async function roomFor(userId, roomId) {
   }
 }
 
-export async function startRoom(userId, roomId) {
+async function startRoomUnlocked(userId, roomId) {
   const [rows] = await pool.query('SELECT host_user_id AS hostUserId, status FROM study_rooms WHERE id = ?', [roomId])
   if (!rows.length) return { ok: false, reason: 'not_found' }
   if (rows[0].hostUserId !== userId) return { ok: false, reason: 'not_host' }
   if (rows[0].status !== 'lobby') return { ok: true, room: await roomFor(userId, roomId) }
   await pool.query("UPDATE study_rooms SET status = 'running', started_at = CURRENT_TIMESTAMP WHERE id = ?", [roomId])
   return { ok: true, room: await roomFor(userId, roomId) }
+}
+
+export async function startRoom(userId, roomId) {
+  return withContentCatalogueGate(() => startRoomUnlocked(userId, roomId))
 }
 
 export async function submitAnswer(userId, roomId, { questionId, chosenIndex, seconds }) {

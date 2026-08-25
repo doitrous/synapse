@@ -9,8 +9,7 @@ import {
   type QuestionAuthoringData,
 } from '@/data/contentControl'
 import { subjects } from '@/data/subjects'
-import { YEARS } from '@/data/universities'
-import { yearId } from '@/data/taxonomy'
+import { defaultModuleId } from '@/data/universities'
 import { Button } from '@/components/ui/Button'
 import { Badge } from '@/components/ui/Badge'
 import { Field, Select, Textarea, TextInput } from '@/components/ui/Field'
@@ -208,11 +207,68 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
   const conceptPicks = useMemo(() => conceptOptions({ graph: concepts, taxonomy, medicalTaxonomy }), [concepts, taxonomy, medicalTaxonomy])
   const articlePicks = useMemo(() => contentOptions(contentItems, 'article'), [contentItems])
   const resourcePicks = useMemo(() => contentOptions(contentItems, 'resource'), [contentItems])
+  const selectedUniversityIds = new Set(data.tags.universityIds)
+  const selectedYearIds = new Set(data.tags.years)
+  const yearOptions = universityCatalogue
+    .filter((university) => selectedUniversityIds.has(university.id))
+    .flatMap((university) => university.years.map((year) => ({
+      id: year.id,
+      label: `${university.short} · ${year.year}`,
+    })))
+  const moduleOptions = [...new Map(universityCatalogue
+    .filter((university) => selectedUniversityIds.has(university.id))
+    .flatMap((university) => university.years
+      .filter((year) => selectedYearIds.has(year.id))
+      .flatMap((year) => year.courses.map((course, index) => ({
+        id: course.moduleId?.trim() || defaultModuleId(course.name, index + 1),
+        label: `${university.short} · ${year.year} · ${course.name}`,
+      }))))
+    .map((option) => [option.id, option] as const)).values()]
 
   if (!open) return null
 
   function updateData(updater: (current: QuestionAuthoringData) => QuestionAuthoringData) {
     setDraft((current) => ({ ...current, questionData: updater(current.questionData ?? blankQuestionData()) }))
+  }
+
+  function updateUniversities(universityIds: string[]) {
+    const validYears = new Set(universityCatalogue
+      .filter((university) => universityIds.includes(university.id))
+      .flatMap((university) => university.years.map((year) => year.id)))
+    updateData((current) => {
+      const years = current.tags.years.filter((id) => validYears.has(id))
+      const validModules = new Set(universityCatalogue
+        .filter((university) => universityIds.includes(university.id))
+        .flatMap((university) => university.years
+          .filter((year) => years.includes(year.id))
+          .flatMap((year) => year.courses.map((course, index) => course.moduleId?.trim() || defaultModuleId(course.name, index + 1)))))
+      return {
+        ...current,
+        tags: {
+          ...current.tags,
+          universityIds,
+          years,
+          moduleIds: (current.tags.moduleIds ?? []).filter((id) => validModules.has(id)),
+          questionOnlyFor: (current.tags.questionOnlyFor ?? []).length ? [...years, ...universityIds] : [],
+        },
+      }
+    })
+  }
+
+  function updateYears(years: string[]) {
+    const validModules = new Set(universityCatalogue
+      .flatMap((university) => university.years
+        .filter((year) => years.includes(year.id))
+        .flatMap((year) => year.courses.map((course, index) => course.moduleId?.trim() || defaultModuleId(course.name, index + 1)))))
+    updateData((current) => ({
+      ...current,
+      tags: {
+        ...current.tags,
+        years,
+        moduleIds: (current.tags.moduleIds ?? []).filter((id) => validModules.has(id)),
+        questionOnlyFor: (current.tags.questionOnlyFor ?? []).length ? [...years, ...current.tags.universityIds] : [],
+      },
+    }))
   }
 
   function addMedia() {
@@ -336,7 +392,7 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
 
               <Section title="Question tags and blueprint" hint="Mastery evidence is awarded only to explicitly linked concepts." icon={Tags}>
                 <div className="grid gap-3 sm:grid-cols-2">
-                  <Field label="Related module" htmlFor="tag-module"><Select id="tag-module" value={data.tags.module} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, module: event.target.value } }))}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
+                  <Field label="Related system" htmlFor="tag-module"><Select id="tag-module" value={data.tags.module} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, module: event.target.value } }))}>{subjects.map((subject) => <option key={subject.id} value={subject.id}>{subject.name}</option>)}</Select></Field>
                   <Field label="Related topic" htmlFor="tag-topic"><TextInput id="tag-topic" value={data.tags.topic} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, topic: event.target.value } }))} /></Field>
                   <Field label="Related subtopic" htmlFor="tag-subtopic" className="sm:col-span-2"><TextInput id="tag-subtopic" value={data.tags.subtopic} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, subtopic: event.target.value } }))} /></Field>
                   <Field label="Cognitive effort" htmlFor="tag-effort"><Select id="tag-effort" value={data.tags.cognitiveEffort} onChange={(event) => updateData((current) => ({ ...current, tags: { ...current.tags, cognitiveEffort: event.target.value as QuestionAuthoringData['tags']['cognitiveEffort'] } }))}><option>Low</option><option>Medium</option><option>High</option></Select></Field>
@@ -353,13 +409,20 @@ export function QuestionEditorDialog({ open, item, concepts, contentItems, onClo
                 <EntityPicker className="mt-4" label="Main concept(s) · what this question primarily tests" noun="concepts" options={conceptPicks} selected={data.tags.mainConceptIds ?? []} onChange={(mainConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, mainConceptIds } }))} />
                 <EntityPicker className="mt-4" label="Related concepts · mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.conceptIds} onChange={(conceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, conceptIds } }))} />
                 <EntityPicker className="mt-4" label="Contextual concepts · no mastery evidence" noun="concepts" options={conceptPicks} selected={data.tags.contextualConceptIds} onChange={(contextualConceptIds) => updateData((current) => ({ ...current, tags: { ...current.tags, contextualConceptIds } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p><CheckList columns={3} options={YEARS.map((year) => ({ id: year, label: year }))} selected={data.tags.years} onChange={(years) => updateData((current) => ({ ...current, tags: { ...current.tags, years } }))} />
-                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={(universityIds) => updateData((current) => ({ ...current, tags: { ...current.tags, universityIds } }))} />
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant universities</p><CheckList options={universityCatalogue.map((university) => ({ id: university.id, label: `${university.short} · ${university.name}` }))} selected={data.tags.universityIds} onChange={updateUniversities} />
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Relevant years</p>
+                {yearOptions.length > 0
+                  ? <CheckList columns={3} options={yearOptions} selected={data.tags.years} onChange={updateYears} />
+                  : <p className="text-[11.5px] text-ink-3">Select a university to choose its catalogue years.</p>}
+                <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Curriculum modules</p>
+                {moduleOptions.length > 0
+                  ? <CheckList options={moduleOptions} selected={data.tags.moduleIds ?? []} onChange={(moduleIds) => updateData((current) => ({ ...current, tags: { ...current.tags, moduleIds } }))} />
+                  : <p className="text-[11.5px] text-ink-3">Select a university and year to choose verified modules.</p>}
 
                 {/* Per-year exam-blueprint weight (one unique weight per selected university-year) */}
                 <p className="mb-2 mt-4 text-[11px] font-semibold uppercase tracking-[0.06em] text-ink-3">Exam blueprint weight by year</p>
                 {(() => {
-                  const keys = data.tags.universityIds.flatMap((uid) => data.tags.years.map((y) => yearId(uid, y)))
+                  const keys = data.tags.years
                   if (keys.length === 0) return <p className="text-[11.5px] text-ink-3">Select relevant universities and years above to set per-year weights.</p>
                   return (
                     <div className="space-y-1.5">

@@ -607,6 +607,17 @@ export interface ContentSource {
   reference?: string
 }
 
+/** Private receipt for an administrator's selective catalogue retirement. */
+export interface ContentArchiveRecord {
+  operationId: string
+  actorId: string
+  reason: string
+  archivedAt: string
+  detached: true
+  originalStatus: Status
+  /** Existing solo attempts may finish scoring until this instant. */
+}
+
 export interface ManagedContentItem {
   id: string
   kind: ContentKind
@@ -618,6 +629,8 @@ export interface ManagedContentItem {
   fields: Record<string, string>
   /** Admin-only provenance. Absent means internally authored. */
   source?: ContentSource
+  /** Admin-only recovery and audit metadata. */
+  archive?: ContentArchiveRecord
   questionData?: QuestionAuthoringData
   articleData?: ArticleAuthoringData
   practicalData?: PracticalAuthoringData
