@@ -42,14 +42,13 @@ frames to trim.
 
 The driver is timed against a real clock rather than advancing one frame per
 paint, so the push-in takes two seconds on a slow machine instead of running
-long. The transition layer is laid out at the real, measured slide field and is
-transformed back over the bench instrument; returning to no transform therefore
-lands on the exact viewer rectangle at every shell/sidebar and viewport size.
-The slide viewer remains laid out but visually and interactively hidden during
-the push-in. A circular iris mask follows the right eyepiece as it fills the
-frame, removing the hard square crop edges from the source cells. The tissue is
-revealed beneath the first fully opened-lens frame (80% of the sequence), while
-the final rim frames are still above it — never after a blank or delayed fade.
-`prefers-reduced-motion` opens the destination without the journey.
+long. Sprite cells are square, so the transition layer lands on a measured,
+centred square over the real rectangular slide stage instead of stretching the
+instrument to the stage's aspect ratio. There is no circular CSS clip or iris:
+the alpha-keyed instrument is allowed to move intact. The slide viewer remains
+laid out but visually, interactively, and semantically hidden during the
+push-in, then is revealed in the same paint as the final keyed frame — never
+after a blank or delayed fade. `prefers-reduced-motion` opens the destination
+without the journey.
 
 No audio: a control that plays sound when a student presses it is a defect.

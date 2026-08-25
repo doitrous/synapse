@@ -11,6 +11,17 @@ export interface MicroscopeTransitionStart {
   scaleY: number
 }
 
+/** Keep square animation cells square while centring them over a rectangular stage. */
+export function centeredSquareTransitionRect(rect: MicroscopeTransitionRect): MicroscopeTransitionRect {
+  const side = Math.max(0, Math.min(rect.width, rect.height))
+  return {
+    left: rect.left + (rect.width - side) / 2,
+    top: rect.top + (rect.height - side) / 2,
+    width: side,
+    height: side,
+  }
+}
+
 /**
  * Place an element laid out at `destination` exactly over `origin`.
  *

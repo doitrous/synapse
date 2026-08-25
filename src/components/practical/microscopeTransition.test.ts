@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
-import { microscopeTransitionStart } from './microscopeTransition.ts'
+import { centeredSquareTransitionRect, microscopeTransitionStart } from './microscopeTransition.ts'
 
 test('the transformed viewer rectangle starts exactly over the microscope', () => {
   const origin = { left: 72, top: 184, width: 144, height: 144 }
@@ -26,4 +26,18 @@ test('zero-size destination data never creates an infinite transform', () => {
   )
   assert.equal(start.scaleX, 1)
   assert.equal(start.scaleY, 1)
+})
+
+test('a landscape slide stage receives a centred square animation target', () => {
+  assert.deepEqual(
+    centeredSquareTransitionRect({ left: 100, top: 80, width: 800, height: 500 }),
+    { left: 250, top: 80, width: 500, height: 500 },
+  )
+})
+
+test('a portrait slide stage receives a centred square animation target', () => {
+  assert.deepEqual(
+    centeredSquareTransitionRect({ left: 100, top: 80, width: 320, height: 600 }),
+    { left: 100, top: 220, width: 320, height: 320 },
+  )
 })

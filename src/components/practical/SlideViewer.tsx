@@ -9,14 +9,16 @@ import { IconButton } from '@/components/ui/IconButton'
 import { Badge } from '@/components/ui/Badge'
 import { Toggle } from '@/components/ui/Toggle'
 import { Panel } from '@/components/ui/Panel'
-import { microscopeTransitionStart, type MicroscopeTransitionRect } from './microscopeTransition'
+import { centeredSquareTransitionRect, microscopeTransitionStart, type MicroscopeTransitionRect } from './microscopeTransition'
 
 const FOCUS_GRID = '/microscope/focus-grid-alpha.webp'
 const FOCUS_COLUMNS = 12
 const FOCUS_ROWS = 10
 const FOCUS_FRAMES = FOCUS_COLUMNS * FOCUS_ROWS
 const FOCUS_MS = 2000
-const FOCUS_REVEAL_PROGRESS = 0.8
+const MIN_ZOOM = 1
+const MAX_ZOOM = 4
+const ZOOM_STEP = 0.25
 
 interface Drag {
   pointerId: number
@@ -35,10 +37,10 @@ function clamp01(value: number): number {
 }
 
 /**
- * The eyepiece: a circular field of view showing one objective of a slide,
- * with the slide's structures hidden behind pins until a student asks for
- * them. This is deliberately not a diagram — a slide that named everything up
- * front would test nothing.
+ * A rectangular virtual-microscope stage showing one objective of a slide,
+ * with structures hidden behind pins until a student asks for them. This is
+ * deliberately not a diagram — a slide that named everything up front would
+ * test nothing.
  */
 export function SlideViewer({
   slide,
@@ -66,9 +68,9 @@ export function SlideViewer({
   // Undefined until the image has actually loaded once, so nothing is drawn
   // at a guessed size before its real proportions are known.
   const [naturalSize, setNaturalSize] = useState<{ w: number; h: number } | undefined>(undefined)
-  // The field is a square, but it is also `w-full` up to a max width, so its
-  // pixel size depends on the viewport — tracked live rather than assumed.
-  const [fieldSize, setFieldSize] = useState(0)
+  // The optical stage is responsive and rectangular, so both axes are measured
+  // rather than inferring height from a square width.
+  const [fieldSize, setFieldSize] = useState({ width: 0, height: 0 })
 
   const fieldRef = useRef<HTMLDivElement>(null)
   const focusRef = useRef<HTMLDivElement>(null)
@@ -76,6 +78,19 @@ export function SlideViewer({
   const thumbnailRef = useRef<HTMLDivElement>(null)
   const dragRef = useRef<Drag | null>(null)
   const thumbnailDragRef = useRef<number | null>(null)
+  const viewRef = useRef({
+    zoom: 1,
+    pan: { x: 0, y: 0 },
+    fieldSize: { width: 0, height: 0 },
+    naturalSize: undefined as { w: number; h: number } | undefined,
+  })
+  const wheelReadyRef = useRef(false)
+  const zoomAtRef = useRef<(nextValue: number, anchor?: { x: number; y: number }) => void>(() => undefined)
+
+  // Native wheel bursts can arrive faster than React commits a render. Keep
+  // the latest optical state synchronously as well as in React state so every
+  // trackpad delta builds on the one immediately before it.
+  viewRef.current = { zoom, pan, fieldSize, naturalSize }
 
   /**
    * The destination is measured from the real field after layout. The moving
@@ -96,8 +111,8 @@ export function SlideViewer({
       return
     }
 
-    const destination = field.getBoundingClientRect()
-    if (destination.width <= 0 || destination.height <= 0) {
+    const fieldRect = field.getBoundingClientRect()
+    if (fieldRect.width <= 0 || fieldRect.height <= 0) {
       setSlideVisible(true)
       setFocusVisible(false)
       return
@@ -110,6 +125,9 @@ export function SlideViewer({
       return
     }
 
+    // Sprite cells are square. Centre a square transition target over the
+    // rectangular stage so the microscope never stretches as it arrives.
+    const destination = centeredSquareTransitionRect(fieldRect)
     const start = microscopeTransitionStart(transitionOrigin, destination)
     const startTransform = `translate3d(${start.x}px, ${start.y}px, 0) scale3d(${start.scaleX}, ${start.scaleY}, 1)`
 
@@ -134,11 +152,12 @@ export function SlideViewer({
     let revealed = false
     const tick = (now: number) => {
       const progress = Math.min(1, (now - started) / FOCUS_MS)
-      showFrame(Math.round(progress * (FOCUS_FRAMES - 1)))
-      if (!revealed && progress >= FOCUS_REVEAL_PROGRESS) {
-        // The first fully opened lens is the last visually meaningful keyed
-        // frame. Reveal the tissue beneath it in the same paint; the remaining
-        // rim frames stay above it, so there is no empty interval.
+      const frame = Math.round(progress * (FOCUS_FRAMES - 1))
+      showFrame(frame)
+      if (!revealed && frame === FOCUS_FRAMES - 1) {
+        // Mount the tissue in the same paint as the final keyed frame. The
+        // alpha-keyed instrument remains above it until the movement finishes,
+        // so there is no blank frame or circular intermediary.
         revealed = true
         setSlideVisible(true)
       }
@@ -150,26 +169,13 @@ export function SlideViewer({
       [{ transform: startTransform }, { transform: 'translate3d(0, 0, 0) scale3d(1, 1, 1)' }],
       { duration: FOCUS_MS, easing: 'cubic-bezier(0.2, 0, 0, 1)', fill: 'forwards' },
     )
-    const iris = layer.animate(
-      [
-        { offset: 0, clipPath: 'circle(70.71% at 50% 50%)' },
-        { offset: 0.4, clipPath: 'circle(70.71% at 50% 50%)' },
-        // Follow the right eyepiece as it becomes the field of view. This
-        // masks the source cell's hard square crop instead of rounding that
-        // rectangle and leaving its straight edges visible.
-        { offset: 0.58, clipPath: 'circle(34% at 65% 48%)' },
-        { offset: 0.8, clipPath: 'circle(50% at 50% 50%)' },
-        { offset: 1, clipPath: 'circle(50% at 50% 50%)' },
-      ],
-      { duration: FOCUS_MS, easing: 'ease-out', fill: 'forwards' },
-    )
     const finish = () => {
       if (!active) return
       showFrame(FOCUS_FRAMES - 1)
       setSlideVisible(true)
       setFocusVisible(false)
     }
-    Promise.all([movement.finished, iris.finished]).then(finish).catch(() => undefined)
+    movement.finished.then(finish).catch(() => undefined)
     // Browsers can throttle animation promises in a background tab. The
     // viewer still becomes usable when the elapsed time has passed.
     const fallback = window.setTimeout(finish, FOCUS_MS + 250)
@@ -179,7 +185,6 @@ export function SlideViewer({
       cancelAnimationFrame(raf)
       window.clearTimeout(fallback)
       movement.cancel()
-      iris.cancel()
     }
   }, [transitionOrigin])
 
@@ -187,11 +192,35 @@ export function SlideViewer({
     const node = fieldRef.current
     if (!node) return
     const observer = new ResizeObserver((entries) => {
-      const width = entries[0]?.contentRect.width
-      if (width) setFieldSize(width)
+      const rect = entries[0]?.contentRect
+      if (rect?.width && rect.height) setFieldSize({ width: rect.width, height: rect.height })
     })
     observer.observe(node)
     return () => observer.disconnect()
+  }, [maximized])
+
+  useEffect(() => {
+    const node = fieldRef.current
+    if (!node) return
+    const onNativeWheel = (event: globalThis.WheelEvent) => {
+      if (!wheelReadyRef.current) return
+      event.preventDefault()
+      const rect = node.getBoundingClientRect()
+      const anchor = {
+        x: event.clientX - rect.left - rect.width / 2,
+        y: event.clientY - rect.top - rect.height / 2,
+      }
+      const pixels = event.deltaMode === 1
+        ? event.deltaY * 16
+        : event.deltaMode === 2
+          ? event.deltaY * rect.height
+          : event.deltaY
+      zoomAtRef.current(viewRef.current.zoom * Math.exp(-pixels * 0.0015), anchor)
+    }
+    // React delegates wheel events passively. A native non-passive listener is
+    // required so zooming over the stage never scrolls the surrounding page.
+    node.addEventListener('wheel', onNativeWheel, { passive: false })
+    return () => node.removeEventListener('wheel', onNativeWheel)
   }, [maximized])
 
   useEffect(() => {
@@ -236,32 +265,32 @@ export function SlideViewer({
   // same-sized box — a pin near that clipped edge would have no box left to
   // pan into. Sizing the box itself to the true covering dimensions keeps
   // every pin fraction (0 to 1 across "the image") reachable.
-  const display = naturalSize
+  const display = naturalSize && fieldSize.width && fieldSize.height
     ? (() => {
-        const scale = fieldSize / Math.min(naturalSize.w, naturalSize.h) * zoom
+        const scale = Math.max(fieldSize.width / naturalSize.w, fieldSize.height / naturalSize.h) * zoom
         return { width: naturalSize.w * scale, height: naturalSize.h * scale }
       })()
-    : { width: fieldSize, height: fieldSize }
+    : { width: fieldSize.width, height: fieldSize.height }
 
   const limits = useMemo(
     () => ({
-      x: Math.max(0, (display.width - fieldSize) / 2),
-      y: Math.max(0, (display.height - fieldSize) / 2),
+      x: Math.max(0, (display.width - fieldSize.width) / 2),
+      y: Math.max(0, (display.height - fieldSize.height) / 2),
     }),
-    [display.height, display.width, fieldSize],
+    [display.height, display.width, fieldSize.height, fieldSize.width],
   )
 
   const viewport = useMemo(() => {
-    if (!fieldSize || !display.width || !display.height) return { left: 0, top: 0, width: 1, height: 1 }
-    const width = Math.min(1, fieldSize / display.width)
-    const height = Math.min(1, fieldSize / display.height)
+    if (!fieldSize.width || !fieldSize.height || !display.width || !display.height) return { left: 0, top: 0, width: 1, height: 1 }
+    const width = Math.min(1, fieldSize.width / display.width)
+    const height = Math.min(1, fieldSize.height / display.height)
     return {
       left: clamp01(0.5 - width / 2 - pan.x / display.width),
       top: clamp01(0.5 - height / 2 - pan.y / display.height),
       width,
       height,
     }
-  }, [display.height, display.width, fieldSize, pan.x, pan.y])
+  }, [display.height, display.width, fieldSize.height, fieldSize.width, pan.x, pan.y])
 
   // A different slide is a different instrument session — start it fresh,
   // opening where the student is meant to orient themselves.
@@ -284,6 +313,7 @@ export function SlideViewer({
   }, [limits.x, limits.y])
 
   const currentView = objective === null ? undefined : slide.views.find((view) => view.objective === objective)
+  wheelReadyRef.current = Boolean(currentView && !imageLoading && !imageError)
 
   useEffect(() => {
     setNaturalSize(undefined)
@@ -410,12 +440,61 @@ export function SlideViewer({
   }
 
   function resetView() {
+    viewRef.current = { ...viewRef.current, zoom: 1, pan: { x: 0, y: 0 } }
     setPan({ x: 0, y: 0 })
     setZoom(1)
   }
 
-  function stepZoom(next: number) {
-    setZoom(Math.min(2.5, Math.max(0.75, next)))
+  function setZoomAt(nextValue: number, anchor = { x: 0, y: 0 }) {
+    const current = viewRef.current
+    const next = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM, nextValue))
+    if (next === current.zoom) return
+    const ratio = next / current.zoom
+    const baseScale = current.naturalSize && current.fieldSize.width && current.fieldSize.height
+      ? Math.max(current.fieldSize.width / current.naturalSize.w, current.fieldSize.height / current.naturalSize.h)
+      : 1
+    const currentDisplay = current.naturalSize
+      ? { width: current.naturalSize.w * baseScale * current.zoom, height: current.naturalSize.h * baseScale * current.zoom }
+      : { width: current.fieldSize.width, height: current.fieldSize.height }
+    const nextDisplay = { width: currentDisplay.width * ratio, height: currentDisplay.height * ratio }
+    const nextLimits = {
+      x: Math.max(0, (nextDisplay.width - current.fieldSize.width) / 2),
+      y: Math.max(0, (nextDisplay.height - current.fieldSize.height) / 2),
+    }
+    const nextPan = {
+      x: clamp(anchor.x - (anchor.x - current.pan.x) * ratio, nextLimits.x),
+      y: clamp(anchor.y - (anchor.y - current.pan.y) * ratio, nextLimits.y),
+    }
+    viewRef.current = { ...current, zoom: next, pan: nextPan }
+    setPan(nextPan)
+    setZoom(next)
+  }
+  zoomAtRef.current = setZoomAt
+
+  function onFieldKeyDown(event: KeyboardEvent<HTMLDivElement>) {
+    if (event.target !== event.currentTarget) return
+    const moves: Record<string, [number, number]> = {
+      ArrowUp: [0, 32],
+      ArrowDown: [0, -32],
+      ArrowLeft: [32, 0],
+      ArrowRight: [-32, 0],
+    }
+    const move = moves[event.key]
+    if (move) {
+      event.preventDefault()
+      setPan((current) => ({ x: clamp(current.x + move[0], limits.x), y: clamp(current.y + move[1], limits.y) }))
+      return
+    }
+    if (event.key === '+' || event.key === '=') {
+      event.preventDefault()
+      setZoomAt(zoom + ZOOM_STEP)
+    } else if (event.key === '-') {
+      event.preventDefault()
+      setZoomAt(zoom - ZOOM_STEP)
+    } else if (event.key === '0') {
+      event.preventDefault()
+      resetView()
+    }
   }
 
   function onThumbnailKeyDown(event: KeyboardEvent<HTMLDivElement>) {
@@ -432,6 +511,7 @@ export function SlideViewer({
   }
 
   const zoomLabel = `${Math.round(zoom * 100)}%`
+  const thumbnailAspect = naturalSize ? `${naturalSize.w} / ${naturalSize.h}` : '8 / 5'
 
   const viewer = (
     <div
@@ -440,10 +520,10 @@ export function SlideViewer({
       aria-modal={maximized || undefined}
       aria-label={maximized ? t('Maximized slide viewer') : undefined}
       className={cn(
-        'mx-auto flex w-full flex-col items-center gap-4 p-4',
+        'mx-auto flex w-full flex-col items-center gap-3 p-4',
         maximized
-          ? 'fixed inset-0 z-[100] m-0 h-dvh max-w-none overflow-y-auto bg-paper px-4 py-5 sm:px-6'
-          : 'max-w-4xl',
+          ? 'fixed inset-0 z-[100] m-0 h-dvh max-w-none overflow-y-auto bg-paper px-3 py-3 sm:px-5'
+          : 'max-w-6xl',
       )}
     >
       {focusVisible && (
@@ -462,58 +542,69 @@ export function SlideViewer({
       )}
       <div
         aria-hidden={!slideVisible || undefined}
+        inert={!slideVisible ? true : undefined}
         className={cn(
-          'flex w-full flex-col items-center gap-4',
+          'w-full',
           slideVisible ? 'opacity-100' : 'pointer-events-none opacity-0',
         )}
       >
-      <div className="flex w-full flex-wrap items-start justify-between gap-3">
-        <div className="min-w-0">
-          <h1 className="truncate font-serif text-[19px] font-semibold text-ink">{slide.title}</h1>
-          <p className="truncate text-[12.5px] text-ink-2">
-            {slide.tissue} · {slide.stain}
-          </p>
-        </div>
-        <div className="flex items-center gap-1.5">
-          <IconButton
-            icon={Info}
-            label={aboutOpen ? t('Hide slide details') : t('About this tissue')}
-            variant={aboutOpen ? 'primary' : 'surface'}
-            onClick={() => setAboutOpen((open) => !open)}
-          />
-          <IconButton
-            icon={maximized ? Minimize2 : Maximize2}
-            label={maximized ? t('Restore the slide viewer') : t('Maximize the slide viewer')}
-            variant="surface"
-            data-slide-maximize
-            onClick={() => setMaximized((next) => !next)}
-          />
-          <IconButton icon={X} label={t('Close the slide viewer')} variant="surface" onClick={onClose} />
-        </div>
-      </div>
+        <div className={cn('grid w-full gap-3', maximized ? 'xl:grid-cols-[minmax(0,1fr)_17rem]' : 'lg:grid-cols-[minmax(0,1fr)_15rem]')}>
+          <section className="min-w-0 overflow-hidden rounded-xl border border-[#303845] bg-[#11151c] shadow-pop" aria-label={t('Virtual microscope')}>
+            <header className="flex min-h-16 flex-wrap items-center gap-3 border-b border-white/10 px-3 py-2.5 sm:px-4">
+              <span className="hidden size-8 shrink-0 place-items-center rounded-md border border-white/10 bg-white/5 text-white/70 sm:grid" aria-hidden>
+                <span className="size-2 rounded-full bg-primary" />
+              </span>
+              <div className="min-w-0 flex-1">
+                <h2 className="truncate font-serif text-[17px] font-semibold text-white sm:text-[19px]">{slide.title}</h2>
+                <p className="truncate text-[11.5px] text-white/55 sm:text-[12px]">{slide.tissue} · {slide.stain || t('Stain not specified')}</p>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <IconButton
+                  icon={Info}
+                  label={aboutOpen ? t('Hide slide details') : t('About this tissue')}
+                  className={cn('border-white/15 bg-white/5 text-white/75 hover:border-white/25 hover:bg-white/10 hover:text-white', aboutOpen && 'border-primary/60 bg-primary text-white')}
+                  onClick={() => setAboutOpen((open) => !open)}
+                />
+                <IconButton
+                  icon={maximized ? Minimize2 : Maximize2}
+                  label={maximized ? t('Restore the slide viewer') : t('Maximize the slide viewer')}
+                  className="border-white/15 bg-white/5 text-white/75 hover:border-white/25 hover:bg-white/10 hover:text-white"
+                  data-slide-maximize
+                  onClick={() => setMaximized((next) => !next)}
+                />
+                <IconButton icon={X} label={t('Close the slide viewer')} className="border-white/15 bg-white/5 text-white/75 hover:border-white/25 hover:bg-white/10 hover:text-white" onClick={onClose} />
+              </div>
+            </header>
 
-      <div
-        ref={fieldRef}
-        role="group"
-        aria-label={t('Field of view')}
-        onPointerDown={onPointerDown}
-        onPointerMove={onPointerMove}
-        onPointerUp={endDrag}
-        onPointerCancel={endDrag}
-        className={cn(
-          // A white ground and a dark rim in CSS, not an image, so the field
-          // scales with its container and the rim can take the theme. The
-          // white stays literal rather than following the surface token — it
-          // is the same eyepiece the push-in animation ends on, and that frame
-          // does not change with light or dark mode.
-          'relative aspect-square w-full touch-none select-none overflow-hidden rounded-full border-[10px] border-ink bg-white shadow-panel',
-          maximized ? 'max-w-[min(86dvh,56rem)]' : 'max-w-sm',
-          !imageLoading && !imageError && currentView && 'cursor-grab active:cursor-grabbing',
-        )}
-      >
+            <div
+              ref={fieldRef}
+              role="group"
+              tabIndex={0}
+              aria-label={t('Interactive rectangular slide field. Drag or use arrow keys to pan. Use the mouse wheel, plus, or minus to zoom.')}
+              onPointerDown={onPointerDown}
+              onPointerMove={onPointerMove}
+              onPointerUp={endDrag}
+              onPointerCancel={endDrag}
+              onKeyDown={onFieldKeyDown}
+              className={cn(
+                'relative aspect-[8/5] w-full touch-none select-none overflow-hidden bg-[#07090c] outline-none',
+                'focus-visible:shadow-[inset_0_0_0_2px_var(--color-primary)]',
+                maximized && 'mx-auto max-h-[calc(100dvh-9.5rem)] max-w-[calc((100dvh-9.5rem)*1.6)]',
+                !imageLoading && !imageError && currentView && 'cursor-grab active:cursor-grabbing',
+              )}
+            >
+              <div className="pointer-events-none absolute end-3 top-3 z-20 flex items-center gap-2" aria-hidden>
+                <span className="rounded-md border border-white/15 bg-black/60 px-2 py-1 font-mono text-[10px] font-semibold tracking-[0.08em] text-white/85 shadow-control">
+                  {objective === null ? '—' : `${objective}×`} OBJECTIVE
+                </span>
+                <span className="hidden rounded-md border border-white/15 bg-black/60 px-2 py-1 font-mono text-[10px] text-white/60 sm:inline">{zoomLabel}</span>
+              </div>
+              <div className="pointer-events-none absolute bottom-3 start-3 z-20 hidden items-center gap-2 rounded-md border border-white/10 bg-black/60 px-2 py-1 text-[10.5px] text-white/60 sm:flex" aria-hidden>
+                <span>{t('Drag to pan')}</span><span className="text-white/25">·</span><span>{t('Scroll to zoom')}</span>
+              </div>
         {imageLoading && <p className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-ink-3">{t('Loading…')}</p>}
         {!imageLoading && imageError && (
-          <p role="alert" className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-danger">
+          <p role="alert" className="absolute inset-0 grid place-items-center px-8 text-center text-[12px] text-[#ffb4b9]">
             {imageError}
           </p>
         )}
@@ -575,7 +666,7 @@ export function SlideViewer({
                         style={{
                           // Same reasoning as the pin: which side has room to
                           // show the callout without it being clipped by the
-                          // circular field is a fact about the image, not
+                          // slide field is a fact about the image, not
                           // about reading direction, so this stays physical
                           // too.
                           ...(onRight ? { right: '100%', marginRight: '0.4rem' } : { left: '100%', marginLeft: '0.4rem' }),
@@ -592,86 +683,90 @@ export function SlideViewer({
             </div>
           </div>
         )}
-      </div>
+            </div>
 
-      <Panel className="w-full max-w-xl p-3">
-        <div className="flex flex-wrap items-center justify-center gap-3">
+            <footer className="flex flex-wrap items-center justify-between gap-2 border-t border-white/10 px-3 py-2.5 sm:px-4">
+              <div className="flex min-w-0 items-center gap-1.5" role="group" aria-label={t('Objectives')}>
           {objectives.length > 1 ? (
-            <div className="flex items-center gap-1.5" role="group" aria-label={t('Objectives')}>
-              {objectives.map((entry) => (
+                objectives.map((entry) => (
                 <button
                   key={entry}
                   type="button"
                   onClick={() => setObjective(entry)}
                   aria-pressed={entry === objective}
                   className={cn(
-                    'inline-flex h-10 min-w-11 items-center justify-center rounded-full border px-3 text-[13px] font-semibold tabular-nums transition-colors sm:h-8',
+                    'inline-flex h-11 min-w-11 items-center justify-center rounded-md border px-2.5 font-mono text-[12px] font-semibold tabular-nums transition-colors sm:h-9',
                     entry === objective
-                      ? 'border-primary-line bg-primary-tint text-primary-strong'
-                      : 'border-line bg-surface text-ink-2 hover:border-line-2 hover:text-ink',
+                      ? 'border-primary bg-primary text-white'
+                      : 'border-white/15 bg-white/5 text-white/65 hover:border-white/25 hover:bg-white/10 hover:text-white',
                   )}
                 >
                   {entry}×
                 </button>
-              ))}
-            </div>
+                ))
           ) : (
             // One objective is not a choice, so it is shown as a fact about the
             // slide rather than a lone button that looks like it should do
             // something when pressed.
-            objective !== null && <Badge tone="outline">{objective}×</Badge>
+                objective !== null && <span className="rounded-md border border-white/15 bg-white/5 px-2.5 py-1.5 font-mono text-[12px] font-semibold text-white/75">{objective}×</span>
           )}
+              </div>
 
-          <div className="flex items-center gap-1.5" role="group" aria-label={t('Zoom controls')}>
-            <IconButton icon={ZoomOut} label={t('Zoom out')} size="sm" variant="surface" disabled={zoom <= 0.75} onClick={() => stepZoom(zoom - 0.25)} />
-            <span className="tnum min-w-12 text-center font-mono text-[12px] font-semibold text-ink-2">{zoomLabel}</span>
-            <IconButton icon={ZoomIn} label={t('Zoom in')} size="sm" variant="surface" disabled={zoom >= 2.5} onClick={() => stepZoom(zoom + 0.25)} />
-            <IconButton icon={RotateCcw} label={t('Reset view')} size="sm" variant="surface" onClick={resetView} />
-          </div>
-        </div>
-      </Panel>
+              <div className="flex items-center gap-1" role="group" aria-label={t('Zoom controls')}>
+                <IconButton icon={ZoomOut} label={t('Zoom out')} size="sm" className="border-white/15 bg-white/5 text-white/70 hover:border-white/25 hover:bg-white/10 hover:text-white disabled:opacity-35" disabled={zoom <= MIN_ZOOM} onClick={() => setZoomAt(zoom - ZOOM_STEP)} />
+                <span role="status" aria-live="polite" aria-atomic="true" className="tnum min-w-12 text-center font-mono text-[11px] font-semibold text-white/65">{zoomLabel}</span>
+                <IconButton icon={ZoomIn} label={t('Zoom in')} size="sm" className="border-white/15 bg-white/5 text-white/70 hover:border-white/25 hover:bg-white/10 hover:text-white disabled:opacity-35" disabled={zoom >= MAX_ZOOM} onClick={() => setZoomAt(zoom + ZOOM_STEP)} />
+                <IconButton icon={RotateCcw} label={t('Reset view')} size="sm" className="border-white/15 bg-white/5 text-white/70 hover:border-white/25 hover:bg-white/10 hover:text-white" onClick={resetView} />
+              </div>
+            </footer>
+          </section>
 
-      {!imageLoading && !imageError && currentView && (
-        <div className="w-full max-w-xl">
-          <p className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.14em] text-ink-3">{t('Full-slide thumbnail')}</p>
-          <div
-            ref={thumbnailRef}
-            role="group"
-            tabIndex={0}
-            aria-label={t('Move the field of view on the full-slide thumbnail')}
-            onPointerDown={onThumbnailPointerDown}
-            onPointerMove={onThumbnailPointerMove}
-            onPointerUp={endThumbnailDrag}
-            onPointerCancel={endThumbnailDrag}
-            onKeyDown={onThumbnailKeyDown}
-            className="relative mx-auto h-24 w-full max-w-[12rem] touch-none overflow-hidden rounded-xl border border-line bg-surface-2 shadow-control focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
-          >
-            <img src={imageUrl} alt="" draggable={false} className="size-full object-cover opacity-90" />
-            <span
-              aria-hidden
-              className="absolute rounded-md border-2 border-primary bg-primary/15 shadow-[0_0_0_999px_rgba(0,0,0,0.2)]"
-              style={{
-                left: `${viewport.left * 100}%`,
-                top: `${viewport.top * 100}%`,
-                width: `${viewport.width * 100}%`,
-                height: `${viewport.height * 100}%`,
-              }}
-            />
-          </div>
-        </div>
-      )}
+          <aside className="grid min-w-0 content-start gap-3 sm:grid-cols-2 lg:grid-cols-1" aria-label={t('Slide tools and information')}>
+            {!imageLoading && !imageError && currentView && (
+              <Panel className="p-3">
+                <div className="mb-2 flex items-center justify-between gap-2">
+                  <p className="text-[10.5px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Slide navigator')}</p>
+                  <span className="font-mono text-[10px] text-ink-3">{zoomLabel}</span>
+                </div>
+                <div
+                  ref={thumbnailRef}
+                  role="group"
+                  tabIndex={0}
+                  aria-label={t('Move the field of view on the full-slide thumbnail')}
+                  onPointerDown={onThumbnailPointerDown}
+                  onPointerMove={onThumbnailPointerMove}
+                  onPointerUp={endThumbnailDrag}
+                  onPointerCancel={endThumbnailDrag}
+                  onKeyDown={onThumbnailKeyDown}
+                  className="relative mx-auto w-full touch-none overflow-hidden rounded-lg border border-line-2 bg-inset shadow-control focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+                  style={{ aspectRatio: thumbnailAspect }}
+                >
+                  <img src={imageUrl} alt="" draggable={false} className="size-full object-contain" />
+                  <span
+                    aria-hidden
+                    className="absolute rounded-sm border-2 border-primary bg-primary/15 shadow-[0_0_0_999px_rgba(0,0,0,0.24)]"
+                    style={{
+                      left: `${viewport.left * 100}%`,
+                      top: `${viewport.top * 100}%`,
+                      width: `${viewport.width * 100}%`,
+                      height: `${viewport.height * 100}%`,
+                    }}
+                  />
+                </div>
+                <p className="mt-2 text-[11px] leading-relaxed text-ink-3">{t('Click or drag the frame to move around the tissue.')}</p>
+              </Panel>
+            )}
 
-      {structures.length > 0 && (
-        <div className="flex items-center gap-2">
-          <Toggle checked={allRevealed} onChange={setAllRevealed} label={t('Reveal all structures')} />
-          <span className="text-[12.5px] font-medium text-ink-2">{t('Reveal all')}</span>
-        </div>
-      )}
-
-      {aboutOpen && (
-        <Panel className="w-full max-w-xl p-4">
-          <h2 className="font-serif text-[16px] font-semibold text-ink">{t('About this tissue')}</h2>
-          <dl className="mt-3 grid gap-2 text-[13px] sm:grid-cols-2">
+            <Panel className="p-3.5">
+              <div className="flex items-center justify-between gap-2">
+                <div>
+                  <p className="text-[10.5px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Tissue')}</p>
+                  <h2 className="mt-0.5 font-serif text-[16px] font-semibold text-ink">{slide.tissue}</h2>
+                </div>
+                <Badge tone="outline">{slide.stain || t('No stain')}</Badge>
+              </div>
+              {aboutOpen && (
+                <dl className="mt-3 grid gap-2 border-t border-line pt-3 text-[12.5px]">
             <div>
               <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Tissue')}</dt>
               <dd className="mt-0.5 text-ink">{slide.tissue}</dd>
@@ -688,12 +783,27 @@ export function SlideViewer({
               <dt className="text-[11px] font-semibold uppercase tracking-[0.12em] text-ink-3">{t('Pinned structures')}</dt>
               <dd className="mt-0.5 text-ink">{slide.structures.length}</dd>
             </div>
-          </dl>
-          {slide.description && <p className="mt-3 text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
-        </Panel>
-      )}
+                </dl>
+              )}
+              {slide.description && <p className={cn('text-[12.5px] leading-relaxed text-ink-2', aboutOpen ? 'mt-3' : 'mt-2')}>{slide.description}</p>}
+              {!aboutOpen && (
+                <button type="button" className="mt-3 text-[12px] font-semibold text-primary-strong hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]" onClick={() => setAboutOpen(true)}>
+                  {t('About this tissue')}
+                </button>
+              )}
+            </Panel>
 
-      {!aboutOpen && slide.description && <p className="text-center text-[13.5px] leading-relaxed text-ink-2">{slide.description}</p>}
+            {structures.length > 0 && (
+              <Panel className="flex items-center gap-2 p-3.5 sm:col-span-2 lg:col-span-1">
+                <Toggle checked={allRevealed} onChange={setAllRevealed} label={t('Reveal all structures')} />
+                <div className="min-w-0">
+                  <p className="text-[12.5px] font-medium text-ink">{t('Reveal all structures')}</p>
+                  <p className="text-[10.5px] text-ink-3">{structures.length} {t('pins at this objective')}</p>
+                </div>
+              </Panel>
+            )}
+          </aside>
+        </div>
       </div>
     </div>
   )

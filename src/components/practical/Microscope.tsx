@@ -31,8 +31,9 @@ function groupBySubject(slides: HistologySlide[]) {
  * The instrument, and the slides on the bench beside it.
  *
  * Choosing a slide records the instrument's real viewport rectangle. The
- * viewer uses that rectangle as the transition origin and its own measured
- * field as the destination, keeping the move continuous and precisely aligned.
+ * viewer uses that rectangle as the transition origin and its own measured,
+ * centered optical target as the destination, keeping the move continuous and
+ * precisely aligned.
  */
 export function Microscope({
   onOpen,
