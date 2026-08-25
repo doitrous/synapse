@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto'
 
 export const CONTENT_ARCHIVE_TTL_MINUTES = 20
+export const GENERATED_NO_MODULE_TAG = 'Generated - No Module'
 
 const TARGET_KINDS = new Set(['article', 'question'])
 
@@ -46,6 +47,19 @@ export function archiveConfirmation(counts) {
   return `ARCHIVE ${counts.articles} ARTICLES AND ${counts.questions} QUESTIONS`
 }
 
+function hasGeneratedNoModuleTag(item) {
+  return list(item?.editorialTags).some((tag) => String(tag).trim().toLocaleLowerCase('en-US') === GENERATED_NO_MODULE_TAG.toLocaleLowerCase('en-US'))
+}
+
+function withGeneratedNoModuleTag(item) {
+  const preserved = list(item?.editorialTags)
+    .map((tag) => String(tag).trim())
+    .filter(Boolean)
+    .filter((tag, index, tags) => tags.findIndex((candidate) => candidate.toLocaleLowerCase('en-US') === tag.toLocaleLowerCase('en-US')) === index)
+    .filter((tag) => tag.toLocaleLowerCase('en-US') !== GENERATED_NO_MODULE_TAG.toLocaleLowerCase('en-US'))
+  return [...preserved, GENERATED_NO_MODULE_TAG]
+}
+
 /**
  * Freeze the exact records an operator saw during preflight.
  *
@@ -79,7 +93,7 @@ export function contentArchiveManifest(ledger) {
     // A completed retirement is an idempotent no-op. Older Archived records
     // with targeting still need one pass so "all universities/years/modules"
     // means exactly that, regardless of which version created them.
-    .filter((item) => item.status !== 'Archived' || hasContentArchiveScope(item))
+    .filter((item) => item.status !== 'Archived' || hasContentArchiveScope(item) || !hasGeneratedNoModuleTag(item))
     .map((item) => ({
       id: item.id,
       kind: item.kind,
@@ -110,6 +124,7 @@ function detachedQuestion(item, archive) {
     status: 'Archived',
     updatedAt: archive.archivedAt,
     archive,
+    editorialTags: withGeneratedNoModuleTag(item),
     questionData: {
       ...data,
       tags: {
@@ -133,6 +148,7 @@ function detachedArticle(item, archive) {
     status: 'Archived',
     updatedAt: archive.archivedAt,
     archive,
+    editorialTags: withGeneratedNoModuleTag(item),
     articleData: {
       ...data,
       moduleIds: [],

@@ -38,7 +38,7 @@ test('manifest freezes every current article and question, not nearby content', 
 
 test('archive detaches curriculum targeting while preserving content and provenance', () => {
   const source = { origin: 'university', universityId: 'KAU', reference: 'Paper 1' }
-  const ledger = [question({ source }), article({ source }), { id: 'later', kind: 'resource', status: 'Published' }]
+  const ledger = [question({ source, editorialTags: ['Legacy', 'legacy', ''] }), article({ source, editorialTags: ['Faculty reviewed'] }), { id: 'later', kind: 'resource', status: 'Published' }]
   const manifest = contentArchiveManifest(ledger)
   const archived = applyContentArchive(ledger, manifest, {
     operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy generated catalogue', archivedAt: AT,
@@ -54,6 +54,7 @@ test('archive detaches curriculum targeting while preserving content and provena
   assert.deepEqual(q.questionData.tags.questionOnlyFor, [])
   assert.deepEqual(q.questionData.tags.examWeightByYear, {})
   assert.equal(q.questionData.tags.module, '')
+  assert.deepEqual(q.editorialTags, ['Legacy', 'Generated - No Module'])
 
   const a = archived.find((item) => item.id === 'a-1')
   assert.equal(a.status, 'Archived')
@@ -62,6 +63,7 @@ test('archive detaches curriculum targeting while preserving content and provena
   assert.deepEqual(a.articleData.universityIds, [])
   assert.deepEqual(a.articleData.yearIds, [])
   assert.deepEqual(a.articleData.universityNotes, [{ universityId: 'KAU', text: 'Keep this authored note' }])
+  assert.deepEqual(a.editorialTags, ['Faculty reviewed', 'Generated - No Module'])
   assert.equal(archived[2], ledger[2])
   assert.deepEqual(originalScopeFor(manifest.targets.find((target) => target.id === 'q-1')), {
     module: 'cvs', moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: ['KAU-CVS-1 > Anatomy'], universityIds: ['KAU'], years: ['KAU_Y1'], questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 },
@@ -85,6 +87,7 @@ test('a completed archive is idempotent and retains its first receipt metadata',
   assert.deepEqual(contentArchiveManifest(first).counts, { articles: 0, questions: 0, total: 0 })
   assert.equal(first[0].archive.operationId, 'op-1')
   assert.equal(first[0].archive.originalStatus, 'Published')
+  assert.deepEqual(first[0].editorialTags, ['Generated - No Module'])
 })
 
 test('older Archived records are cleaned only when targeting remains', () => {
@@ -93,6 +96,7 @@ test('older Archived records are cleaned only when targeting remains', () => {
     id: 'q-2',
     status: 'Archived',
     archive: undefined,
+    editorialTags: ['Generated - No Module'],
     questionData: { tags: { module: '', moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [], questionOnlyFor: [], examWeightByYear: {} }, answers: [] },
   })
   const manifest = contentArchiveManifest([targeted, detached])
@@ -107,4 +111,21 @@ test('malformed target IDs are rejected before a destructive manifest exists', (
 
 test('collaborative activity is counted conservatively', () => {
   assert.equal(activeArchiveBlockers({ studyRooms: 2, challenges: 3, partyQuestionSessions: 4 }), 9)
+})
+
+test('an older detached archive missing the retirement tag is repaired once', () => {
+  const detached = question({
+    status: 'Archived',
+    archive: { operationId: 'old', actorId: 'admin', reason: 'Old archive', archivedAt: AT, detached: true, originalStatus: 'Published' },
+    editorialTags: [],
+    questionData: { tags: { module: '', moduleIds: [], moduleSubjectPaths: [], universityIds: [], years: [], questionOnlyFor: [], examWeightByYear: {} }, answers: [] },
+  })
+  const manifest = contentArchiveManifest([detached])
+  assert.equal(manifest.counts.questions, 1)
+  const repaired = applyContentArchive([detached], manifest, {
+    operationId: 'repair', actorId: 'admin', reason: 'Add retirement tag', archivedAt: AT,
+  }).value[0]
+  assert.deepEqual(repaired.editorialTags, ['Generated - No Module'])
+  assert.equal(repaired.archive.operationId, 'old')
+  assert.equal(contentArchiveManifest([repaired]).counts.total, 0)
 })
