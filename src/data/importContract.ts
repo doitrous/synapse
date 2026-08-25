@@ -274,7 +274,7 @@ export const PRACTICAL_COMMON_MAP = {
 
 export const OSCE_MAP = {
   ...PRACTICAL_COMMON_MAP,
-  format: 'type', mediaUrl: 'station_image',
+  format: 'type', mediaUrl: 'station_image', mediaType: 'station_media_type', mediaMimeType: 'station_media_mime_type',
   candidateInstructions: 'candidate_instructions', actorOpening: 'actor_opening',
   actorSections: 'actor_sections', actorFlags: 'actor_flags', markSections: 'mark_scheme',
   difficulty: 'difficulty',
@@ -287,11 +287,12 @@ export const LAB_MAP = { ...PRACTICAL_COMMON_MAP, format: 'type', subtype: 'lab_
 export const DECISION_MAP = {
   id: 'decisions', title: 'decisions', context: 'decisions', question: 'decisions', answers: 'decisions',
   rationale: 'decisions', conceptId: 'decisions', secondaryConceptIds: 'decisions', difficulty: 'decisions',
-  mediaUrl: 'decisions',
+  mediaUrl: 'decisions', mediaType: 'decisions', mediaMimeType: 'decisions',
 }
 
 export const LAB_QUESTION_MAP = {
   id: 'lab_questions', context: 'lab_questions', question: 'lab_questions', mediaUrl: 'lab_questions',
+  mediaType: 'lab_questions', mediaMimeType: 'lab_questions',
   answers: 'lab_questions', explanation: 'lab_questions', conceptId: 'lab_questions',
   secondaryConceptIds: 'lab_questions', difficulty: 'lab_questions',
 }

@@ -219,11 +219,11 @@ export function PomodoroTimer() {
           <span className="tnum block font-mono text-[13px] font-semibold text-ink">{format(current.remainingSeconds)}</span>
         </span>
       </div>
-      <IconButton icon={current.running ? Pause : Play} label={current.running ? t('Pause timer') : t('Start timer')} size="sm" variant={current.running ? 'surface' : 'primary'} onClick={startPause} />
-      <IconButton icon={RotateCcw} label={t('Reset this block')} size="sm" onClick={reset} />
-      <IconButton icon={SkipForward} label={t('Skip to the next block')} size="sm" onClick={skip} />
-      <IconButton icon={sound ? Volume2 : VolumeX} label={sound ? t('Turn sound off') : t('Turn sound on')} size="sm" active={sound} onClick={() => setSound((value) => !value)} />
-      <IconButton icon={notify ? Bell : BellOff} label={notify ? t('Notifications on') : t('Notifications off')} size="sm" active={notify} onClick={() => void toggleNotifications()} />
+      <IconButton tooltipPlacement="bottom" icon={current.running ? Pause : Play} label={current.running ? t('Pause timer') : t('Start timer')} size="sm" variant={current.running ? 'surface' : 'primary'} onClick={startPause} />
+      <IconButton tooltipPlacement="bottom" icon={RotateCcw} label={t('Reset this block')} size="sm" onClick={reset} />
+      <IconButton tooltipPlacement="bottom" icon={SkipForward} label={t('Skip to the next block')} size="sm" onClick={skip} />
+      <IconButton tooltipPlacement="bottom" icon={sound ? Volume2 : VolumeX} label={sound ? t('Turn sound off') : t('Turn sound on')} size="sm" active={sound} onClick={() => setSound((value) => !value)} />
+      <IconButton tooltipPlacement="bottom" icon={notify ? Bell : BellOff} label={notify ? t('Notifications on') : t('Notifications off')} size="sm" active={notify} onClick={() => void toggleNotifications()} />
       <span className="sr-only" aria-live="polite">{t(LABEL[current.mode])}, {Math.round(Math.max(0, Math.min(1, progress)) * 100)}%</span>
     </div>
   )

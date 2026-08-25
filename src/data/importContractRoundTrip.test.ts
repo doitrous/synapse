@@ -196,7 +196,9 @@ const OSCE = {
   candidate_instructions: 'Take a focused history.',
   actor_opening: 'The pain started upstairs.',
   actor_sections: 'Identity: Daniel, 54',
-  station_image: 'https://example.test/station.png',
+  station_image: '/media/med-osce-video',
+  station_media_type: 'video',
+  station_media_mime_type: 'video/mp4',
   actor_flags: 'Admits smoking if asked.',
   mark_scheme: 'Opening (2): Introduces self',
   module_subject: 'CVS 01 > Skills > History',
@@ -213,7 +215,7 @@ const CASE = {
   ...COMMON,
   id: 'P-ROUNDTRIP-CASE',
   type: 'Clinical case',
-  decisions: '### Immediate action\nConcept: med.concept.pe\nQ: First step?\n*= Oxygen\nWhy: Treat hypoxia.\n* Wait\nWhy: Delays care.\nRationale: ABCs first.',
+  decisions: '### Immediate action\nConcept: med.concept.pe\nMedia: /media/med-case-audio\nMedia type: audio\nMedia MIME: audio/mpeg\nQ: First step?\n*= Oxygen\nWhy: Treat hypoxia.\n* Wait\nWhy: Delays care.\nRationale: ABCs first.',
   debrief: 'ABCs come first.',
 }
 
@@ -222,7 +224,7 @@ const LAB = {
   id: 'P-ROUNDTRIP-LAB',
   type: 'Imaging interpretation',
   lab_subtype: 'Imaging',
-  lab_questions: '### CXR\nConcept: med.concept.effusion\nQ: Finding?\n*= Effusion\nWhy: Blunted angle.\n* Consolidation\nWhy: Different pattern.\nExplanation: Meniscus suggests fluid.',
+  lab_questions: '### CXR\nConcept: med.concept.effusion\nMedia: /media/med-lab-video\nMedia type: video\nMedia MIME: video/webm\nQ: Finding?\n*= Effusion\nWhy: Blunted angle.\n* Consolidation\nWhy: Different pattern.\nExplanation: Meniscus suggests fluid.',
 }
 
 const RESOURCE = {
@@ -318,6 +320,9 @@ test('content fixtures cover every schema field and survive validate -> import -
   assert.equal(serialised.find((item) => item.id === 'ART-ROUNDTRIP')?.articleData.mediaRequests[0].priority, 'required')
   assert.equal(serialised.find((item) => item.id === 'Q-ROUNDTRIP-MATCH')?.questionData.matching.options.length, 3)
   assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-LAB')?.practicalData.questions[0].answers.length, 2)
+  assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-OSCE')?.practicalData.mediaType, 'video')
+  assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-CASE')?.practicalData.decisions[0].mediaType, 'audio')
+  assert.equal(serialised.find((item) => item.id === 'P-ROUNDTRIP-LAB')?.practicalData.questions[0].mediaMimeType, 'video/webm')
   assert.equal(serialised.find((item) => item.id === 'DECK-ROUNDTRIP')?.deckData.cards.length, 2)
   assert.equal(serialised.find((item) => item.id === 'HIST-ROUNDTRIP')?.histologyData.views.length, 3)
 })

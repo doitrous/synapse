@@ -62,6 +62,8 @@ import {
 import { overlayPortal } from '@/lib/overlayPortal'
 import { orderedSegments } from '@/lib/library/textAnchor'
 import type { LibraryMark } from '@/data/libraryMarks'
+import { PlacedAsset } from '@/components/ui/PlacedMedia'
+import { useMediaRecords } from '@/lib/useMediaRecords'
 
 /**
  * Article prose, with the search term marked where there is one.
@@ -208,9 +210,16 @@ function ReaderText({
 
 /** The media itself, sized to its container. */
 function MediaFrame({ item, className }: { item: ArticleMediaRecord; className?: string }) {
+  const mediaRecords = useMediaRecords()
   // An admin can release an item before its alt text is written, so fall back
   // to the caption rather than shipping an unlabelled element.
   const label = item.altText?.trim() || item.caption?.trim() || MEDIA_LABEL[item.type]
+  if (item.sourceId) {
+    const record = mediaRecords.get(item.sourceId)
+    return record
+      ? <PlacedAsset record={record} caption={item.caption} className={className} />
+      : <p role="alert" className="p-3 text-[11.5px] text-danger">This managed media record is unavailable.</p>
+  }
   if (item.type === 'image') return <img src={item.url} alt={label} className={cn('w-full rounded-lg object-contain', className)} />
   if (item.type === 'video') return <video src={item.url} controls aria-label={label} className={cn('w-full rounded-lg', className)} />
   return <audio src={item.url} controls aria-label={label} className={cn('w-full', className)} />
@@ -268,17 +277,19 @@ function ArticleMediaSection({ media, onOpenMedia, t }: { media: ArticleMediaRec
       <div className="mt-4 grid gap-4 sm:grid-cols-2">
         {media.map((item) => (
           <figure key={item.id} className="overflow-hidden rounded-xl border border-line bg-surface shadow-panel">
-            <button
-              type="button"
-              onClick={() => onOpenMedia(item)}
-              className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
-              aria-label={`${t('Open')} ${item.caption || MEDIA_LABEL[item.type]}`}
-            >
-              <MediaFrame item={item} className="max-h-56" />
-              {item.type === 'image' && (
+            {item.type === 'image' ? (
+              <button
+                type="button"
+                onClick={() => onOpenMedia(item)}
+                className="group relative block w-full bg-inset/40 text-start focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40"
+                aria-label={`${t('Open')} ${item.caption || MEDIA_LABEL[item.type]}`}
+              >
+                <MediaFrame item={item} className="max-h-56" />
                 <span className="absolute end-2 top-2 grid size-7 place-items-center rounded-md bg-paper/85 text-ink-2 opacity-0 transition-opacity group-hover:opacity-100"><Icon icon={Expand} size={14} /></span>
-              )}
-            </button>
+              </button>
+            ) : (
+              <div className="bg-inset/40 p-3"><MediaFrame item={item} className="max-h-56" /></div>
+            )}
             <figcaption className="border-t border-line px-3.5 py-3">
               <p className="text-[12.5px] leading-relaxed text-ink-2">{item.caption || item.altText}</p>
               <MediaCredit item={item} />

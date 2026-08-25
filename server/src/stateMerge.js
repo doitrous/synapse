@@ -136,12 +136,12 @@ export function diffDocument(key, base, next) {
 /** True when the only difference between two items is their media requests. */
 function mediaRequestsOnly(before, after) {
   if (!before || !after) return false
-  const strip = (item) => {
-    const copy = { ...item }
-    for (const block of ['questionData', 'articleData', 'practicalData']) {
-      if (copy[block]) copy[block] = { ...copy[block], mediaRequests: undefined }
-    }
-    return copy
+  const strip = (value) => {
+    if (Array.isArray(value)) return value.map(strip)
+    if (!value || typeof value !== 'object') return value
+    return Object.fromEntries(Object.entries(value)
+      .filter(([key]) => key !== 'mediaRequests')
+      .map(([key, inner]) => [key, strip(inner)]))
   }
   return fingerprint(strip(before)) === fingerprint(strip(after))
 }

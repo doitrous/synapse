@@ -18,6 +18,7 @@ export function IconButton({
   variant = 'ghost',
   size = 'md',
   active = false,
+  tooltipPlacement = 'top',
   className,
   ...props
 }: ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -26,6 +27,7 @@ export function IconButton({
   variant?: Variant
   size?: 'sm' | 'md'
   active?: boolean
+  tooltipPlacement?: 'top' | 'bottom'
 }) {
   const button = (
     <button
@@ -43,5 +45,5 @@ export function IconButton({
     </button>
   )
 
-  return <Tooltip content={label}>{button}</Tooltip>
+  return <Tooltip content={label} placement={tooltipPlacement}>{button}</Tooltip>
 }

@@ -101,7 +101,7 @@ export const PUBLIC_FIELDS = new Set([
   'decisions', 'debrief', 'subtype', 'questions',
   // The image a station or a case decision turns on. A student cannot answer
   // "what does this film show" without the film.
-  'mediaUrl',
+  'mediaUrl', 'mediaType', 'mediaMimeType',
   // Resource
   'icon', 'institution', 'storageKey', 'chapters', 'includedConceptIds',
   'includedArticleIds', 'conceptLocations',
@@ -151,27 +151,83 @@ function strip(value) {
  * anchored at any depth (stem, answer, explanation, section, or practical
  * block), so the student gate inspects the complete authored item.
  */
-export function hasUnresolvedRequiredMedia(value, seen = new Set()) {
+export function hasUnresolvedRequiredMedia(value, seen = new Set(), releasedMediaIds = null) {
   if (!value || typeof value !== 'object' || seen.has(value)) return false
   seen.add(value)
-  if (Array.isArray(value)) return value.some((entry) => hasUnresolvedRequiredMedia(entry, seen))
+  if (Array.isArray(value)) return value.some((entry) => hasUnresolvedRequiredMedia(entry, seen, releasedMediaIds))
   for (const [key, inner] of Object.entries(value)) {
     if (key === 'mediaRequests' && Array.isArray(inner)) {
-      const unresolved = inner.some((request) => request?.priority === 'required'
-        && (request.status !== 'supplied' || typeof request.mediaId !== 'string' || !request.mediaId.trim()))
+      const unresolved = inner.some((request) => {
+        const mediaId = typeof request?.mediaId === 'string' ? request.mediaId.trim() : ''
+        return request?.priority === 'required'
+          && (request.status !== 'supplied' || !mediaId || (releasedMediaIds && !releasedMediaIds.has(mediaId)))
+      })
       if (unresolved) return true
       continue
     }
-    if (hasUnresolvedRequiredMedia(inner, seen)) return true
+    if (hasUnresolvedRequiredMedia(inner, seen, releasedMediaIds)) return true
   }
   return false
 }
 
+/** Any managed asset directly rendered by this item must be released too. */
+export function hasUnreleasedManagedMedia(value, releasedMediaIds, seen = new Set()) {
+  if (!releasedMediaIds || !value || typeof value !== 'object' || seen.has(value)) return false
+  seen.add(value)
+  if (Array.isArray(value)) return value.some((entry) => hasUnreleasedManagedMedia(entry, releasedMediaIds, seen))
+  for (const [key, inner] of Object.entries(value)) {
+    if ((key === 'mediaId' || key === 'sourceId') && typeof inner === 'string' && inner.startsWith('med-') && !releasedMediaIds.has(inner)) return true
+    if (typeof inner === 'string') {
+      const match = /^\/media\/([^/?#]+)$/.exec(inner)
+      if (match) {
+        let id = match[1]
+        try { id = decodeURIComponent(id) } catch { return true }
+        if (!releasedMediaIds.has(id)) return true
+      }
+    }
+    if (hasUnreleasedManagedMedia(inner, releasedMediaIds, seen)) return true
+  }
+  return false
+}
+
+/** The released managed ids in the authoritative descriptive media document. */
+export function releasedMediaIdsFromDocument(document) {
+  return new Set(
+    (Array.isArray(document?.records) ? document.records : [])
+      .filter(isMediaReleased)
+      .map((record) => record.id)
+      .filter((id) => typeof id === 'string' && id.trim()),
+  )
+}
+
+/** Why a nominally published item still cannot enter any student surface. */
+export function publicationMediaBlockers(item, releasedMediaIds = null) {
+  const blockers = []
+  if (hasUnresolvedRequiredMedia(item, new Set(), releasedMediaIds)) blockers.push('required media is unresolved')
+  if (hasUnreleasedManagedMedia(item, releasedMediaIds)) blockers.push('managed media is not released')
+  return blockers
+}
+
+/** Published items that a server write must refuse until their media is ready. */
+export function mediaBlockedPublishedItems(ledger, releasedMediaIds = null) {
+  if (!Array.isArray(ledger)) return []
+  return ledger
+    .filter((item) => item?.status === 'Published')
+    .map((item) => ({ id: item.id, title: item.title, blockers: publicationMediaBlockers(item, releasedMediaIds) }))
+    .filter((item) => item.blockers.length > 0)
+}
+
+/** Blocks introduced by this write; legacy blocks remain editable so staff can repair them. */
+export function newlyMediaBlockedPublishedItems(beforeLedger, beforeReleasedMediaIds, afterLedger, afterReleasedMediaIds) {
+  const beforeIds = new Set(mediaBlockedPublishedItems(beforeLedger, beforeReleasedMediaIds).map((item) => item.id))
+  return mediaBlockedPublishedItems(afterLedger, afterReleasedMediaIds).filter((item) => !beforeIds.has(item.id))
+}
+
 /** The student's view of one item, or `null` when they may not see it at all. */
-export function redactItem(item) {
+export function redactItem(item, releasedMediaIds = null) {
   if (!item || typeof item !== 'object' || Array.isArray(item)) return null
   if (item.status !== 'Published') return null
-  if (hasUnresolvedRequiredMedia(item)) return null
+  if (publicationMediaBlockers(item, releasedMediaIds).length) return null
   return strip(item)
 }
 
@@ -181,9 +237,9 @@ export function redactItem(item) {
  * A malformed stored value yields an empty ledger rather than a thrown request,
  * matching how `publishedQuestions.js` treats the same document.
  */
-export function redactLedgerForStudent(ledger) {
+export function redactLedgerForStudent(ledger, releasedMediaIds = null) {
   if (!Array.isArray(ledger)) return []
-  return ledger.map(redactItem).filter((item) => item !== null)
+  return ledger.map((item) => redactItem(item, releasedMediaIds)).filter((item) => item !== null)
 }
 
 /**
@@ -209,7 +265,7 @@ export function redactLedgerForStudent(ledger) {
  *      and layout uses the dimensions. There is no spread of projections here to
  *      make an allow-list guesswork.
  */
-export const MEDIA_STUDENT_FIELDS = ['id', 'mimeType', 'width', 'height', 'altText', 'title']
+export const MEDIA_STUDENT_FIELDS = ['id', 'mediaType', 'mimeType', 'width', 'height', 'durationSeconds', 'altText', 'title']
 
 /** Withheld: internal storage identity, provenance, and the rights negotiation. */
 export const MEDIA_PRIVATE_FIELDS = ['storageKey', 'sha256', 'sizeBytes', 'rights', 'tags', 'uploadedBy', 'uploadedAt']

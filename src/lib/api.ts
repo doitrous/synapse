@@ -19,6 +19,13 @@ export async function stateOwnerId(): Promise<string | null> {
 /** True when a backend is configured — the switch between live and demo modes. */
 export const API_MODE = Boolean(BASE)
 
+/** Resolve a public API path for browser-native media elements. */
+export function apiPublicUrl(path: string): string {
+  if (/^https?:\/\//i.test(path)) return path
+  if (!BASE || !/^https?:\/\//i.test(BASE)) return path
+  return new URL(path, BASE).toString()
+}
+
 async function headers(json = false): Promise<HeadersInit> {
   const h: Record<string, string> = {}
   if (json) h['Content-Type'] = 'application/json'

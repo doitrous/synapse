@@ -1,6 +1,8 @@
 import { randomUUID } from 'node:crypto'
 import { EventEmitter } from 'node:events'
 import { pool } from './db.js'
+import { MEDIA_STATE_KEY } from './mediaLibrary.js'
+import { redactLedgerForStudent, releasedMediaIdsFromDocument } from './studentLedger.js'
 
 const GLOSSARY_KEY = 'synapse-medical-glossary-v1'
 const LEDGER_KEY = 'synapse-admin-content-ledger-v4'
@@ -199,9 +201,12 @@ function termMatchContent(request, docs) {
 }
 
 function publishedSlides(docs) {
-  const ledger = Array.isArray(docs?.ledger) ? docs.ledger : []
+  const ledger = redactLedgerForStudent(
+    Array.isArray(docs?.ledger) ? docs.ledger : [],
+    releasedMediaIdsFromDocument(docs?.media),
+  )
   return ledger
-    .filter((item) => item?.kind === 'histology' && item?.status === 'Published' && item?.histologyData)
+    .filter((item) => item?.kind === 'histology' && item?.histologyData)
     .map((item) => ({
       id: item.id,
       title: item.title,
@@ -567,13 +572,15 @@ function redactEvent(event, publicState) {
 }
 
 async function trustedDocsForCreation() {
-  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?)', [GLOSSARY_KEY, LEDGER_KEY, MINIGAME_PACKS_KEY])
+  const [rows] = await pool.query('SELECT k, v FROM app_state WHERE k IN (?, ?, ?, ?)', [GLOSSARY_KEY, LEDGER_KEY, MINIGAME_PACKS_KEY, MEDIA_STATE_KEY])
   const docs = {}
   for (const row of rows) {
     if (row.k === GLOSSARY_KEY) docs.glossary = parseJson(row.v, null)
     if (row.k === LEDGER_KEY) docs.ledger = parseJson(row.v, [])
     if (row.k === MINIGAME_PACKS_KEY) docs.minigamePacks = parseJson(row.v, [])
+    if (row.k === MEDIA_STATE_KEY) docs.media = parseJson(row.v, { records: [] })
   }
+  docs.ledger = redactLedgerForStudent(docs.ledger ?? [], releasedMediaIdsFromDocument(docs.media))
   return docs
 }
 

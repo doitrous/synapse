@@ -72,6 +72,13 @@ test('a media-request-only edit is allowed by the media tab or by the owner tab'
   assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null }).ok, false)
 })
 
+test('a nested media-request edit is allowed by the media tab', () => {
+  const before = { ...q('a', 'One'), questionData: { tags: {}, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'needed' }] }] } }
+  const after = { ...before, questionData: { ...before.questionData, answers: [{ label: 'A', mediaRequests: [{ id: 'm1', status: 'planned' }] }] } }
+  const changes = diffDocument(LEDGER, [before], [after])
+  assert.equal(authoriseChanges(changes, { heldTabs: ['media'], contentScope: null }).ok, true)
+})
+
 test('holding the media tab does not license editing the rest of the question', () => {
   const before = q('a', 'One')
   const after = q('a', 'Rewritten stem')

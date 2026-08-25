@@ -8,11 +8,13 @@ const media: MediaPlacement[] = [
   { id: 'p2', mediaId: 'm2', slot: 'answer', answerLabel: 'A' },
   { id: 'p3', mediaId: 'm3', slot: 'answer', answerLabel: 'C' },
   { id: 'p4', mediaId: 'm4', slot: 'explanation' },
+  { id: 'p5', mediaId: 'm5', slot: 'explanation', answerLabel: 'B' },
 ]
 
 test('each slot gets only what belongs to it', () => {
   assert.deepEqual(placementsFor(media, 'stem').map((p) => p.mediaId), ['m1'])
   assert.deepEqual(placementsFor(media, 'explanation').map((p) => p.mediaId), ['m4'])
+  assert.deepEqual(placementsFor(media, 'explanation', 'B').map((p) => p.mediaId), ['m5'])
   assert.deepEqual(placementsFor(media, 'answer', 'A').map((p) => p.mediaId), ['m2'])
   assert.deepEqual(placementsFor(media, 'answer', 'C').map((p) => p.mediaId), ['m3'])
   assert.deepEqual(placementsFor(media, 'answer', 'B'), [])

@@ -1,12 +1,11 @@
 import { useMemo, useState } from 'react'
-import { Replace, TriangleAlert, Trash2 } from 'lucide-react'
+import { TriangleAlert, Trash2 } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { Badge } from '@/components/ui/Badge'
 import { Panel } from '@/components/ui/Panel'
 import { MediaPicker } from '@/components/admin/MediaPicker'
 import { PlacedImage } from '@/components/ui/PlacedMedia'
-import { uploadMedia, verifyRenders } from '@/lib/mediaUpload'
 import { apiDelete } from '@/lib/api'
 import { usageOf, type MediaLibraryDocument, type MediaRecord } from '@/data/mediaLibrary'
 import type { ManagedContentItem } from '@/data/contentControl'
@@ -44,26 +43,6 @@ export function MediaUsagePanel({ record, ledger, concepts, onLedger, onLibrary,
       else next.add(placementId)
       return next
     })
-  }
-
-  /** Swap the file behind this record. Everything pointing at it changes. */
-  async function replaceEverywhere(file: File) {
-    setBusy(true)
-    setError('')
-    try {
-      const { measured } = await uploadMedia(file)
-      onLibrary((document) => ({
-        ...document,
-        records: (document.records ?? []).map((candidate) =>
-          candidate.id === record.id ? { ...candidate, ...measured } : candidate),
-      }))
-      await verifyRenders(record.id)
-      setMessage(`Replaced. ${usage.length} item${usage.length === 1 ? '' : 's'} now show the new image.`)
-    } catch (reason) {
-      setError(reason instanceof Error ? reason.message : 'That image could not be replaced.')
-    } finally {
-      setBusy(false)
-    }
   }
 
   /** Point the ticked placements at a different record. Nothing else moves. */
@@ -145,27 +124,11 @@ export function MediaUsagePanel({ record, ledger, concepts, onLedger, onLibrary,
         <div className="rounded-lg border border-line p-3">
           <p className="text-[12.5px] font-semibold text-ink">Replace this image everywhere</p>
           <p className="mt-0.5 text-[11.5px] leading-relaxed text-ink-2">
-            Swaps the file behind this one record.{' '}
-            {usage.length > 0
-              ? `All ${usage.length} item${usage.length === 1 ? '' : 's'} above will show the new image.`
-              : 'Nothing uses it yet, so nothing else changes.'}
-            {' '}Use this when the picture is wrong.
+            Temporarily unavailable while global replacement is moved into one server transaction. This prevents a partial
+            replacement from leaving some questions or concepts on the old file. Use the ticked-item control for explicit
+            question placements in the meantime.
           </p>
-          <label className="mt-2 inline-flex cursor-pointer items-center gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-[12px] font-semibold text-ink-2 hover:border-primary-line">
-            <Icon icon={Replace} size={14} />
-            {busy ? 'Working…' : 'Choose the replacement'}
-            <input
-              type="file"
-              accept="image/png,image/jpeg,image/gif,image/webp"
-              className="sr-only"
-              disabled={busy}
-              onChange={(event) => {
-                const file = event.currentTarget.files?.[0]
-                event.currentTarget.value = ''
-                if (file) void replaceEverywhere(file)
-              }}
-            />
-          </label>
+          <Button className="mt-2" size="sm" variant="secondary" disabled>Server-safe replacement coming next</Button>
         </div>
 
         <div className="rounded-lg border border-line p-3">

@@ -423,7 +423,7 @@ export function CalendarPage() {
       <div className="mb-4 rounded-xl border border-line bg-surface px-3 py-3 shadow-panel">
         <div className="flex flex-wrap items-center gap-2">
           <IconButton icon={ChevronLeft} label={t('Previous')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(-1)} />
-          <h1 className="min-w-0 flex-1 truncate font-serif text-[17px] font-semibold text-ink sm:text-[19px]">{label}</h1>
+          <h1 className="min-w-0 flex-1 truncate text-center font-serif text-[17px] font-semibold text-ink sm:text-[19px]">{label}</h1>
           <IconButton icon={ChevronRight} label={t('Next')} variant="surface" size="sm" className="rtl:-scale-x-100" onClick={() => shift(1)} />
           <Button variant="secondary" size="sm" onClick={() => setAnchor(new Date())}>{t('Today')}</Button>
           <span className="hidden h-5 w-px bg-line md:block" />

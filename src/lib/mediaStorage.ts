@@ -1,3 +1,5 @@
+import { API_MODE, apiFetchBlob } from './api'
+
 const DATABASE_NAME = 'synapse-media-v1'
 const STORE_NAME = 'attachments'
 const DATABASE_VERSION = 1
@@ -45,7 +47,16 @@ export async function storeMediaFile(id: string, file: File) {
 }
 
 export async function resolveMediaSource(reference: string): Promise<{ url: string; revoke: boolean }> {
-  if (!isStoredMediaReference(reference)) return { url: reference, revoke: false }
+  // Managed media is protected. A raw <img src="/media/…"> neither reaches
+  // the /api route nor carries the Supabase bearer token, so fetch it like any
+  // other authenticated file and render a short-lived local URL.
+  if (!isStoredMediaReference(reference)) {
+    if (API_MODE && /^\/media\/[^/?#]+$/.test(reference)) {
+      const blob = await apiFetchBlob(reference)
+      return { url: URL.createObjectURL(blob), revoke: true }
+    }
+    return { url: reference, revoke: false }
+  }
 
   const database = await openDatabase()
   const transaction = database.transaction(STORE_NAME, 'readonly')

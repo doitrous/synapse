@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
-import { mediaUrl, type MediaPlacement, type MediaRecord } from '@/data/mediaLibrary'
+import { MediaAttachmentView, ZoomableImage } from '@/components/ui/MediaAttachmentView'
+import { mediaTypeOf, mediaUrl, type MediaPlacement, type MediaRecord } from '@/data/mediaLibrary'
 import { apiFetchFile } from '@/lib/api'
 
 /**
@@ -79,6 +79,29 @@ export function PlacedImage({ record, caption, className }: {
   )
 }
 
+/** A managed image, recording or clip rendered with the correct native control. */
+export function PlacedAsset({ record, caption, className }: {
+  record: MediaRecord
+  caption?: string
+  className?: string
+}) {
+  const type = mediaTypeOf(record)
+  if (type === 'image') return <PlacedImage record={record} caption={caption} className={className} />
+  return (
+    <div className="mt-2">
+      <MediaAttachmentView attachment={{
+        id: record.id,
+        type,
+        name: caption || record.title,
+        url: mediaUrl(record.id),
+        mimeType: record.mimeType,
+        size: record.sizeBytes,
+        description: record.altText,
+      }} />
+    </div>
+  )
+}
+
 /**
  * Images placed in one slot of an item.
  *
@@ -97,7 +120,7 @@ export function PlacedMedia({ placements, records, className }: {
       {placements.map((placement) => {
         const record = records.get(placement.mediaId)
         return record
-          ? <PlacedImage key={placement.id} record={record} caption={placement.caption} />
+          ? <PlacedAsset key={placement.id} record={record} caption={placement.caption} />
           : null
       })}
     </div>

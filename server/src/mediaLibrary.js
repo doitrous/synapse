@@ -49,9 +49,16 @@ export function isMediaReleased(record) {
   return mediaReleaseBlockers(record).length === 0
 }
 
-/** Where each content kind keeps its placements. */
+/** Where question content keeps reusable slot placements. */
 function placementsOf(item) {
   return item?.questionData?.media ?? []
+}
+
+function idFromUrl(value) {
+  if (typeof value !== 'string') return null
+  const match = /^\/media\/([^/?#]+)$/.exec(value)
+  if (!match) return null
+  try { return decodeURIComponent(match[1]) } catch { return null }
 }
 
 /** How a placement reads on screen, so a usage list is scannable. */
@@ -80,6 +87,29 @@ export function usageOf(mediaId, ledger, concepts) {
         where: whereOf(placement),
       })
     }
+    for (const media of item?.articleData?.media ?? []) {
+      if (media?.sourceId !== mediaId && idFromUrl(media?.url) !== mediaId) continue
+      usage.push({
+        ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title,
+        placementId: null, where: media?.anchor?.quote ? 'article anchor' : 'article media',
+      })
+    }
+    const practical = item?.practicalData
+    if (idFromUrl(practical?.mediaUrl) === mediaId) {
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: 'station media' })
+    }
+    for (const decision of practical?.decisions ?? []) {
+      if (idFromUrl(decision?.mediaUrl) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `decision ${decision.title || decision.id || ''}`.trim() })
+    }
+    for (const question of practical?.questions ?? []) {
+      if (idFromUrl(question?.mediaUrl) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `interpretation ${question.id || ''}`.trim() })
+    }
+    for (const view of item?.histologyData?.views ?? []) {
+      if (idFromUrl(view?.image) !== mediaId) continue
+      usage.push({ ownerId: item.id, ownerKind: item.kind, ownerTitle: item.title, placementId: null, where: `${view.objective || '?'}× field` })
+    }
   }
   for (const concept of Array.isArray(concepts) ? concepts : []) {
     if (!concept?.mediaIds?.includes(mediaId)) continue
@@ -106,5 +136,5 @@ export function deleteRefusal(mediaId, ledger, concepts) {
   if (!usage.length) return null
   const names = usage.slice(0, 5).map((entry) => entry.ownerTitle).join(', ')
   const rest = usage.length > 5 ? `, and ${usage.length - 5} more` : ''
-  return `${usage.length} item${usage.length === 1 ? '' : 's'} still use this image: ${names}${rest}`
+  return `${usage.length} item${usage.length === 1 ? '' : 's'} still use this media: ${names}${rest}`
 }

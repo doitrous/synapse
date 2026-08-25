@@ -121,6 +121,9 @@ export function QuestionView({
                 {/* Inside the option, so "which of these four radiographs" reads
                     as four options rather than four pictures and four labels. */}
                 <PlacedMedia placements={placementsFor(question.media, 'answer', LETTERS[index])} records={mediaRecords} />
+                {revealed && (
+                  <PlacedMedia placements={placementsFor(question.media, 'explanation', LETTERS[index])} records={mediaRecords} />
+                )}
               </span>
             </>
           )

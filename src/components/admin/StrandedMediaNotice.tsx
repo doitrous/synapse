@@ -3,7 +3,7 @@ import { TriangleAlert } from 'lucide-react'
 import { Button } from '@/components/ui/Button'
 import { Icon } from '@/components/ui/Icon'
 import { isStoredMediaReference, resolveMediaSource } from '@/lib/mediaStorage'
-import { uploadMedia, verifyRenders } from '@/lib/mediaUpload'
+import { uploadMedia } from '@/lib/mediaUpload'
 import { usePersistentState } from '@/lib/usePersistentState'
 import { useIdentity } from '@/lib/useIdentity'
 import { MEDIA_STATE_KEY, emptyMediaLibrary, type MediaLibraryDocument, type MediaRecord } from '@/data/mediaLibrary'
@@ -65,7 +65,7 @@ export function StrandedMediaNotice({ reference, title, onRecovered }: {
       // file is trusted more than a new one — it is still identified from its
       // own bytes, and still has to come back before it counts.
       const file = new File([blob], 'recovered-image', { type: blob.type || 'image/png' })
-      const { measured, alreadyStored } = await uploadMedia(file)
+      const { id: uploadedId, measured, alreadyStored } = await uploadMedia(file)
 
       // An upload alone creates no record, and a placement points at a record.
       // The bytes may already be here under somebody else's description, in
@@ -73,10 +73,10 @@ export function StrandedMediaNotice({ reference, title, onRecovered }: {
       const twin = alreadyStored
         ? (library.records ?? []).find((record) => record.sha256 === measured.sha256)
         : undefined
-      let mediaId = twin?.id
-      if (!mediaId) {
+      const mediaId = twin?.id ?? uploadedId
+      if (!twin) {
         const record: MediaRecord = {
-          id: `med-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+          id: mediaId,
           ...measured,
           title: title || 'Recovered image',
           // Deliberately blank. The file is safe now, but it is not publishable
@@ -89,10 +89,7 @@ export function StrandedMediaNotice({ reference, title, onRecovered }: {
           uploadedAt: new Date().toISOString(),
         }
         setLibrary((current) => ({ ...current, records: [record, ...(current.records ?? [])] }))
-        mediaId = record.id
       }
-
-      await verifyRenders(mediaId)
       setRecovered(true)
       onRecovered(mediaId)
     } catch (reason) {

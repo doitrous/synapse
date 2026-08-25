@@ -24,12 +24,14 @@ export function Tooltip({
   children,
   disabled = false,
   className,
+  placement = 'top',
 }: {
   content?: ReactNode
   label?: ReactNode
   children: Trigger
   disabled?: boolean
   className?: string
+  placement?: 'top' | 'bottom'
 }) {
   const id = useId()
   const [open, setOpen] = useState(false)
@@ -80,7 +82,10 @@ export function Tooltip({
         <span
           id={id}
           role="tooltip"
-          className="pointer-events-none absolute bottom-[calc(100%+0.45rem)] start-1/2 z-[90] w-max max-w-64 -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-center text-[11.5px] font-medium leading-snug text-paper shadow-pop animate-pop"
+          className={cn(
+            'pointer-events-none absolute start-1/2 z-[90] w-max max-w-[min(16rem,calc(100vw-1rem))] -translate-x-1/2 rounded-lg border border-line bg-ink px-2.5 py-1.5 text-center text-[11.5px] font-medium leading-snug text-paper shadow-pop animate-pop',
+            placement === 'bottom' ? 'top-[calc(100%+0.45rem)]' : 'bottom-[calc(100%+0.45rem)]',
+          )}
         >
           {tooltip}
         </span>

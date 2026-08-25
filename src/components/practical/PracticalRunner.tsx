@@ -32,8 +32,11 @@ import { usePracticalProgress } from '@/lib/usePracticalProgress'
 import { useRecordAttempt } from '@/lib/useAttemptLog'
 import { DIFFICULTIES } from '@/data/qbank'
 import { ReportContentDialog, type ReportTarget } from '@/components/reports/ReportContentDialog'
-import { ZoomableImage } from '@/components/ui/MediaAttachmentView'
+import { MediaAttachmentView } from '@/components/ui/MediaAttachmentView'
+import { PlacedAsset } from '@/components/ui/PlacedMedia'
 import { ExaminerWarning } from '@/components/practical/ExaminerWarning'
+import { useMediaRecords } from '@/lib/useMediaRecords'
+import type { MediaRecord } from '@/data/mediaLibrary'
 
 export type RunnerKind = 'osce' | 'case' | 'lab'
 
@@ -55,6 +58,24 @@ const KIND_LABEL: Record<RunnerKind, string> = {
   osce: 'OSCE station',
   case: 'Clinical case',
   lab: 'Interpretation',
+}
+
+/** Render authored practical media with the native control for its format. */
+function PracticalMedia({ url, type = 'image', mimeType, name, record }: {
+  url: string
+  type?: 'image' | 'audio' | 'video'
+  mimeType?: string
+  name: string
+  record?: MediaRecord
+}) {
+  if (record) return <PlacedAsset record={record} caption={name} />
+  return <MediaAttachmentView attachment={{ id: url, type, name, url, mimeType }} />
+}
+
+function recordAt(records: Map<string, MediaRecord>, url: string): MediaRecord | undefined {
+  const match = /^\/media\/([^/?#]+)$/.exec(url)
+  if (!match) return undefined
+  try { return records.get(decodeURIComponent(match[1])) } catch { return undefined }
 }
 
 /**
@@ -168,11 +189,15 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getOsceDetail(target.id)
+  const mediaRecords = useMediaRecords()
   const detail = authored?.format === 'osce' ? {
     scenario: authored.candidateInstructions,
+    mediaUrl: authored.mediaUrl,
+    mediaType: authored.mediaType,
+    mediaMimeType: authored.mediaMimeType,
     markScheme: authored.markSections.flatMap((section) => section.items),
     markSections: authored.markSections,
-    actorBrief: { opening: authored.actorOpening, identity: '', prompts: [], sections: authored.actorSections, flags: authored.actorFlags },
+    actorBrief: { opening: authored.actorOpening, identity: '', prompts: [], sections: authored.actorSections, flags: authored.actorFlags, examinerNote: undefined },
     references: authored.references,
   } : staticDetail
   const sections = detail?.markSections ?? (detail ? [{ id: 'core', title: 'Core station skills', marks: 100, items: detail.markScheme }] : [])
@@ -315,7 +340,21 @@ function OsceRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       {tab === 'candidate' ? (
         <div className="mb-4 space-y-3">
           <ExaminerWarning />
-          <Panel className="p-4"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Candidate instructions</p><p className="mt-1.5 text-[14.5px] leading-relaxed text-ink">{detail.scenario}</p></Panel>
+          <Panel className="p-4">
+            <p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-ink-3">Candidate instructions</p>
+            <p className="mt-1.5 text-[14.5px] leading-relaxed text-ink">{detail.scenario}</p>
+            {'mediaUrl' in detail && typeof detail.mediaUrl === 'string' && detail.mediaUrl && (
+              <div className="mt-4">
+                <PracticalMedia
+                  url={detail.mediaUrl}
+                  type={'mediaType' in detail ? detail.mediaType : undefined}
+                  mimeType={'mediaMimeType' in detail ? detail.mediaMimeType : undefined}
+                  name={`${target.title} station media`}
+                  record={recordAt(mediaRecords, detail.mediaUrl)}
+                />
+              </div>
+            )}
+          </Panel>
         </div>
       ) : (
         <Panel className="mb-4 overflow-hidden">
@@ -411,8 +450,9 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
   const location = useLocation()
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getCaseDetail(target.id)
+  const mediaRecords = useMediaRecords()
   const detail = authored?.format === 'case' ? {
-    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, mediaUrl: decision.mediaUrl, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
+    stages: authored.decisions.map((decision) => ({ title: decision.title, context: decision.context, question: decision.question, prompt: decision.question, mediaUrl: decision.mediaUrl, mediaType: decision.mediaType, mediaMimeType: decision.mediaMimeType, options: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.text), optionExplanations: decision.answers.filter((answer) => answer.text.trim()).map((answer) => answer.explanation), correctIndex: decision.answers.filter((answer) => answer.text.trim()).findIndex((answer) => answer.correct), answer: decision.rationale, difficulty: decision.difficulty, conceptIds: assessedConcepts(decision) })),
     debrief: authored.debrief,
     references: authored.references,
   } : staticDetail
@@ -500,14 +540,15 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
       <Panel className="p-5 sm:p-6">
         <div className="flex items-center gap-2"><p className="text-[11px] font-semibold uppercase tracking-[0.07em] text-primary">{stage.title}</p><DifficultyMark value={'difficulty' in stage ? stage.difficulty : undefined} /></div>
         {stage.context && <p className="mt-3 max-w-3xl text-[15px] leading-[1.7] text-ink-2">{stage.context}</p>}
-        {/* The image a decision turns on — an ECG, a film, a specimen. A lab
-            question could always carry one and a case could not, so a case
-            built around an image had nowhere to put it. Images only, as for a
-            lab question: this renders an `<img>`, so audio or video would show
-            a broken one. */}
         {'mediaUrl' in stage && typeof stage.mediaUrl === 'string' && stage.mediaUrl && (
-          <div className="mt-4 overflow-hidden rounded-lg border border-line bg-inset p-2">
-            <ZoomableImage src={stage.mediaUrl} alt={stage.title ?? 'Case image'} className="max-h-96 w-full object-contain" />
+          <div className="mt-4">
+            <PracticalMedia
+              url={stage.mediaUrl}
+              type={'mediaType' in stage && (stage.mediaType === 'image' || stage.mediaType === 'audio' || stage.mediaType === 'video') ? stage.mediaType : undefined}
+              mimeType={'mediaMimeType' in stage && typeof stage.mediaMimeType === 'string' ? stage.mediaMimeType : undefined}
+              name={stage.title ?? 'Case media'}
+              record={recordAt(mediaRecords, stage.mediaUrl)}
+            />
           </div>
         )}
         <h2 className="mt-4 font-sans text-[18px] font-semibold tracking-[-0.01em] text-ink">{stage.question ?? stage.prompt}</h2>
@@ -548,8 +589,9 @@ function CaseRunner({ target, onExit }: { target: RunnerTarget; onExit: () => vo
 function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => void }) {
   const authored = useAuthoredPractical(target.id)
   const staticDetail = getLabDetail(target.id)
+  const mediaRecords = useMediaRecords()
   const detail = authored?.format === 'lab' ? {
-    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty, conceptIds: assessedConcepts(question) })),
+    questions: authored.questions.map((question) => ({ stem: question.question, context: question.context, question: question.question, mediaUrl: question.mediaUrl, mediaType: question.mediaType, mediaMimeType: question.mediaMimeType, options: question.answers.filter((answer) => answer.text.trim()).map((answer) => ({ text: answer.text, correct: answer.correct, explanation: answer.explanation })), explanation: question.explanation, difficulty: question.difficulty, conceptIds: assessedConcepts(question) })),
   } : staticDetail
   // A question with no options cannot be answered; showing it would be a dead end.
   const qs = (detail?.questions ?? []).filter((question) => question.options.length > 0)
@@ -565,6 +607,8 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
 
   const q = qs[idx]
   const mediaUrl = q && 'mediaUrl' in q && typeof q.mediaUrl === 'string' ? q.mediaUrl : ''
+  const mediaType = q && 'mediaType' in q && (q.mediaType === 'image' || q.mediaType === 'audio' || q.mediaType === 'video') ? q.mediaType : undefined
+  const mediaMimeType = q && 'mediaMimeType' in q && typeof q.mediaMimeType === 'string' ? q.mediaMimeType : undefined
   const revealed = checked.has(idx)
   const chosen = answers[idx]
   const last = idx === qs.length - 1
@@ -650,7 +694,7 @@ function LabRunner({ target, onExit }: { target: RunnerTarget; onExit: () => voi
       <Panel className="p-5 sm:p-6">
         {q.context && <p className="mb-3 text-[14.5px] leading-relaxed text-ink-2">{q.context}</p>}
         <div className="flex items-start gap-2"><p className="flex-1 text-[16px] font-semibold leading-snug text-ink">{q.question ?? q.stem}</p><DifficultyMark value={'difficulty' in q ? q.difficulty : undefined} /></div>
-        {mediaUrl && <div className="mt-4 overflow-hidden rounded-lg border border-line bg-inset p-2"><ZoomableImage src={mediaUrl} alt="Investigation" className="max-h-96 w-full object-contain" /><div className="flex justify-end border-t border-line px-1 pt-2"><Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · image ${idx + 1}` })}>Report image</Button></div></div>}
+        {mediaUrl && <div className="mt-4"><PracticalMedia url={mediaUrl} type={mediaType} mimeType={mediaMimeType} name={`${target.title} · media ${idx + 1}`} record={recordAt(mediaRecords, mediaUrl)} /><div className="mt-1 flex justify-end"><Button variant="ghost" size="sm" iconLeft={Flag} onClick={() => setReportTarget({ kind: 'image', id: `${target.id}-${idx}`, title: `${target.title} · media ${idx + 1}` })}>Report media</Button></div></div>}
         <div className="mt-4 space-y-2.5">
           {q.options.map((opt, i) => (
             <div key={i}>
