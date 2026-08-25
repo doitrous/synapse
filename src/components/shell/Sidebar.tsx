@@ -133,7 +133,7 @@ export function Sidebar({
           <RailPreferences />
         ) : (
           <div className="space-y-1.5">
-            <ThemeSwitch className="flex w-full [&>button]:flex-1" />
+            <ThemeSwitch className="flex w-full" />
             <LanguageSwitch className="flex w-full [&>button]:flex-1" />
           </div>
         )}
@@ -196,7 +196,7 @@ function RailPreferences() {
           <div className="space-y-2">
             <div>
               <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Appearance')}</p>
-              <ThemeSwitch className="flex w-full [&>button]:flex-1" />
+              <ThemeSwitch className="flex w-full" />
             </div>
             <div>
               <p className="mb-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">{t('Language')}</p>
