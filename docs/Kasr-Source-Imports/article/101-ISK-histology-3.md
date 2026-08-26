@@ -230,6 +230,15 @@ Source direction: purpose-drawn from the department book's page 16 figure
 Rights: newly drawn for this product
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2BC13F33C925 | CLM-33D0317FBC0C | CLM-892514BBF5B4
+
+## span_ids
+SPN-HIS-SECRETORY-PATHWAY-01 | SPN-HIS-SECRETORY-PATHWAY-02 | SPN-HIS-SECRETORY-PATHWAY-03 | SPN-HIS-SECRETORY-PATHWAY-04
+
 ## evidence_gaps
 The Golgi apparatus section of the book, on printed page 13, carries a "Functions:" heading whose content sits entirely inside an unextractable figure. The book's own list of Golgi functions is therefore not available as text from this source. What this article says the Golgi does is taken from the chapter's other passages — the cis and trans face description, and the lysosome passage which states that lysosomal enzymes are released from the Golgi — and no numbered function list is given, because the book's cannot be read.
 The book gives no size for a ribosome or its subunits, and no Svedberg values.
@@ -245,10 +254,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: None of the four concepts this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CYTOPLASMIC-ORGANELLES, which teaches the same book chapter but stops at the lysosome and the peroxisome. The two overlap in one place on purpose: this article states that lysosomal enzymes are made in rER and leave the Golgi inside lysosomes, because that sentence is the end of the route this article describes and the beginning of that one. If the two are merged later, the merge point is there.
 The section headings follow the book's own table columns — site, LM, EM, function — rather than one heading per organelle, because that is the axis the paper asks along.
@@ -456,6 +468,15 @@ Source direction: purpose-drawn from the department book's page 18 list
 Rights: newly drawn for this product
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1B8BCD311C51 | CLM-38B2C0330FC1
+
+## span_ids
+SPN-HIS-MITOCHONDRIA-AND-01 | SPN-HIS-MITOCHONDRIA-AND-02
+
 ## evidence_gaps
 The book does not state the size or shape of a mitochondrion, nor how many cristae a mitochondrion carries, so no figure is given here.
 The book does not name the enzyme complexes of the respiratory chain, nor describe oxidative phosphorylation beyond attributing ATP synthase activity to the elementary particles.
@@ -471,10 +492,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Neither concept this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CYTOPLASMIC-ORGANELLES. The centriole, the cilium, the flagellum, the microvillus and the stereocilium are all built by the two filament systems described here, but they are taught in ART-101-HIS-MEMBRANOUS-SPECIALISATIONS and are cross-referred rather than repeated, so that the microtubule counts live in exactly one article.
 The Mechanism section reads the two filament systems against each other — hold a shape and move along a line, against change a shape and pinch off — which is this article's reading of the book's two function lists rather than a comparison the book itself draws. It is written as a reading for that reason.
@@ -696,6 +720,15 @@ Source direction: openly licensed histopathology teaching set
 Rights: must be CC-BY or public domain
 ## conflicts
 Origin of the plasma cell. This chapter of the department book states only that the plasma cell arises from the B lymphocyte. The same book's non-granular leucocyte chapter, printed pages 36-38, gives the fuller sequence: B lymphocyte, activated by antigen and by a T-helper cell, becomes a plasmablast and then a plasma cell. Concept CON-FND-45A380D5F6A77F names the plasmablast in the origin column. This article gives the fuller sequence and marks it as coming from the other chapter of the same book, rather than dropping a step the paper's own answer key expects.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-3C82542F6DC1 | CLM-778DF53B44AF | CLM-95C38785030F
+
+## span_ids
+SPN-HIS-CT-CELLS-COMPARED-01 | SPN-HIS-CT-CELLS-COMPARED-02 | SPN-HIS-CT-CELLS-COMPARED-03 | SPN-HIS-CT-CELLS-COMPARED-04 | SPN-HIS-CT-CELLS-COMPARED-05 | SPN-HIS-CT-CELLS-COMPARED-06 | SPN-HIS-CT-CELLS-COMPARED-07
+
 ## evidence_gaps
 The connective tissue chapter names no disease. Its only two applied notes are the mast cell's — the allergic reaction and anaphylactic shock — and both belong to ART-101-HIS-CONNECTIVE-TISSUE-CELLS. The Clinical significance section here is therefore built from the functions the book states for each cell, not from named conditions, and it says so.
 The book gives no size for the fibroblast, the plasma cell, the macrophage or the multilocular fat cell. The only diameter in the chapter is the unilocular adipose cell at 50-150 µm.
@@ -713,10 +746,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every plate this article needs is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: None of the four concepts this article teaches carries a secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Companion to ART-101-HIS-CONNECTIVE-TISSUE-CELLS, which teaches the same chapter but is built around the mast cell. The deliberate overlap is in two places. First, the resident-against-transient classification, which is restated here because every table in this article has origin as its first column and the classification is what that column means. Second, the plasma cell against mast cell comparison, which is one of the chapter's five printed tables: the mast cell half is taught there, the plasma cell half here, and a student answering that table needs both. If the two articles are merged, those are the seams.
 The four cells here plus the mast cell there account for five of the chapter's seven resident cells. The undifferentiated mesenchymal cell, the pericyte and the reticular cell are described in neither article at length, and no concept currently sits on them.

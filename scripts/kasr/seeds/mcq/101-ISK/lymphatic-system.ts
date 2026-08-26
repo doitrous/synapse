@@ -21,7 +21,7 @@
  * blueprint fact rather than padding the leaf to look fuller than it is.
  *
  * Two further rows exist and neither can be sat. Both concern the thoracic
- * duct, and both are also carried, excluded, in `seeds/mcq/glandular-epithelium.ts`,
+ * duct, and both are also carried, excluded, in `seeds/mcq/101-ISK/glandular-epithelium.ts`,
  * where the extractor had filed them under the word "duct"; that file marks them
  * as needing a leaf correction, and this is the leaf. Their reasons are restated
  * here in full so this leaf's record is complete, and because one of them turns
@@ -98,7 +98,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'Option C was lost, and it is the answer. The three that survived — the right side of the head and neck, the right lower limb, the right half of the thorax — are all wrong for the thoracic duct: the first and third are right lymphatic duct territory and the second, while genuinely thoracic duct territory, would make the option true only by accident of being below the diaphragm rather than for the reason the stem is testing. Whatever the examiner meant by option C is off the page. Also carried, excluded, in `seeds/mcq/glandular-epithelium.ts`, where the extractor had filed it under the word "duct"; this leaf is the correction that file asks for.',
+      excludeReason: 'Option C was lost, and it is the answer. The three that survived — the right side of the head and neck, the right lower limb, the right half of the thorax — are all wrong for the thoracic duct: the first and third are right lymphatic duct territory and the second, while genuinely thoracic duct territory, would make the option true only by accident of being below the diaphragm rather than for the reason the stem is testing. Whatever the examiner meant by option C is off the page. Also carried, excluded, in `seeds/mcq/101-ISK/glandular-epithelium.ts`, where the extractor had filed it under the word "duct"; this leaf is the correction that file asks for.',
     },
     {
       key: 'the-right-thoracic-duct-drains-the-ipka-7e4611d8',
@@ -107,7 +107,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
       exclude: true,
-      excludeReason: 'Two faults, and the second is fatal. The stem names a "right thoracic duct", which is not a structure the chapter describes — the duct on the right is the right lymphatic duct, and the thoracic duct is the left one — so the stem conflates the two vessels the question is supposedly testing. And this row\'s four options ("Right side of the abdomen", "Right lower limb", "Right upper limb", "Right side pelvis") appear elsewhere in the bank attached to a completely different stem, `the-segments-of-the-spinal-cord-are-dep-book-vi-ad-3a3a95e4`, which is excluded in `seeds/mcq/nervous-system.ts` for carrying them. When one option block has been printed under two unrelated stems, neither pairing can be trusted. Also carried, excluded, in `seeds/mcq/glandular-epithelium.ts`; this leaf is the correction that file asks for.',
+      excludeReason: 'Two faults, and the second is fatal. The stem names a "right thoracic duct", which is not a structure the chapter describes — the duct on the right is the right lymphatic duct, and the thoracic duct is the left one — so the stem conflates the two vessels the question is supposedly testing. And this row\'s four options ("Right side of the abdomen", "Right lower limb", "Right upper limb", "Right side pelvis") appear elsewhere in the bank attached to a completely different stem, `the-segments-of-the-spinal-cord-are-dep-book-vi-ad-3a3a95e4`, which is excluded in `seeds/mcq/101-ISK/nervous-system.ts` for carrying them. When one option block has been printed under two unrelated stems, neither pairing can be trusted. Also carried, excluded, in `seeds/mcq/101-ISK/glandular-epithelium.ts`; this leaf is the correction that file asks for.',
     },
   ],
 }

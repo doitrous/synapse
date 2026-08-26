@@ -166,6 +166,15 @@ Kind: diagram
 Section: Common misconceptions
 Source direction: purpose-drawn, following the layout of the practical book's page 63 plate rather than reproducing it
 Rights: newly drawn for this product, or CC-BY
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No image exists in the repository for any of the four plates this article describes. Until they exist the article can only tell a student what to look for in words, which is not what a spot exam asks of them: the whole skill is matching a description to a field of view, and half of that pairing is missing.
 The practical book prints the open-face and closed-face plate as a titled teaching plate with no marked question and no model answer, so what the examiner accepts as a visible character on that plate is taken from the caption and from the departmental handout rather than from a marked answer page.
@@ -182,9 +191,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: The practical spot items that assess these plates are authored in docs/Kasr-Source-Imports/practical/101-ISK-histology-practical.md; the reciprocal link is written at the linking pass rather than guessed here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This is an identification article, not a structure-and-function article. ART-101-HIS-NUCLEUS teaches what the nucleus is; this one teaches how to recognise it and its states on the department's own plates, and the two are deliberately not merged.
 
@@ -354,6 +366,15 @@ Kind: diagram
 Section: Mechanism
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-AC40AF522D56
+
+## span_ids
+SPN-HIS-ID-BLOOD-FILM-01
+
 ## evidence_gaps
 No image exists in the repository for any blood-film plate. An identification article without its micrograph teaches a student the words of an answer but not the recognition the spot exam actually tests, and this article cannot do its job until the plates above exist.
 The department's stem asks for the stain by name but the practical book does not print the composition of Leishman's on the plate itself; the methylene-blue-and-eosin-in-methyl-alcohol description is taken from Prof. Dalia El Marakby's Blood handout, and no independent source has been checked against it.
@@ -370,9 +391,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: The spot items that assess these plates are authored in docs/Kasr-Source-Imports/practical/101-ISK-histology-practical.md; the reciprocal link is written at the linking pass.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Two concepts are grouped here because they are one act at the microscope: a student looks at a field, decides it is a blood film, and in the same glance decides that what fills it is erythrocytes. Separating the preparation from its predominant cell would put the two halves of one stem in two articles.
 
@@ -531,6 +555,15 @@ Kind: histology
 Section: Definition
 Source direction: openly licensed haematology atlas
 Rights: must be CC-BY or public domain
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No image exists in the repository for any blood-film plate. The discrimination this article teaches is between two textures of cytoplasm, and a texture described in words is the weakest possible substitute for the micrograph a spot exam puts in front of a student.
 The department shows the lymphocyte and the monocyte only on Leishman-stained films and prints no alternative stain for either, so this article states what the cells look like under one stain and cannot say what a second would add. That is a gap in the source, not an omission here.
@@ -547,9 +580,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: The spot items that assess these plates are authored in docs/Kasr-Source-Imports/practical/101-ISK-histology-practical.md; the reciprocal link is written at the linking pass.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This concept is given an article of its own rather than being folded into the blood-film article because it is a different act at the microscope. The film article is about recognising a preparation and the cell that fills it; this is a two-cell discrimination made at oil immersion, and the department sets it as its own plate with its own answer page.
 
@@ -727,6 +763,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Which cell is the largest in bone marrow. Concept CON-HEM-7EBD069E615270 in the live concept graph states that fat cells are the largest cells in bone marrow, following Prof. Dalia El Marakby's Blood handout p. 13; the same handout gives the megakaryocyte a diameter of fifty to seventy micrometres on p. 15. This article does not resolve the disagreement and deliberately does not use "largest" as an identifying feature for either cell: the megakaryocyte is named here by its measured diameter and its single multilobed nucleus. The two statements should be reconciled at the evidence pass.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2FF5551348E8
+
+## span_ids
+SPN-HIS-ID-BONE-MARROW-01 | SPN-HIS-ID-BONE-MARROW-02
+
 ## evidence_gaps
 No image exists in the repository for either plate. Both identifications turn on things only a picture carries — how crowded a marrow field is, whether nuclear lobes are connected, how fine a reticulum is — so the article cannot fully do its job until the plates above exist.
 The practical book does not name the stain used on its bone marrow plates; the slide catalogue records no stain for them. H&E is named in the image request as sourcing direction to a fulfiller, not as taught content, and a student should not answer a stain question on the marrow plate from this article.
@@ -744,9 +789,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: The spot items that assess these plates are authored in docs/Kasr-Source-Imports/practical/101-ISK-histology-practical.md; the reciprocal link is written at the linking pass.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 These two concepts sit in different tissues and are grouped anyway, because what a student has to learn is a single negative discrimination: this plate is not the Leishman film you have seen nine times. Both are set in the same block of the practical, both open with a stem whose familiar wording has an unfamiliar answer, and both are lost the same way — by answering from habit before looking. Teaching them apart would teach each identification but not the reflex that saves both.
 
@@ -931,6 +979,15 @@ Kind: diagram
 Section: Definition
 Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 No image exists in the repository for any of these plates. This is the article in the batch that suffers most from that: it teaches three shapes and a stain table, and every one of those is a visual fact that prose can only gesture at.
 The practical book does not state the stain used on its loose areolar plate; the slide catalogue records none for it. H&E is named in the image request as sourcing direction to a fulfiller. A student should answer the stain question on that plate from the department's own teaching rather than from this article.
@@ -948,9 +1005,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: No practical spot items have been authored for the connective tissue block yet; the existing practical batch stops at bone marrow. The reciprocal link is written when they are.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The two concepts here are one skill and are deliberately not split. Telling collagen from elastic and recognising reticular fibres are the same act — asking of a fibre whether it is bundled, whether it branches, and whether it anastomoses — and the reticular concept is only meaningful as the third answer to a question the first two have already posed. The brown-versus-brown trap in particular exists only when orcein and silver are taught in one place.
 
@@ -1152,6 +1212,15 @@ Kind: diagram
 Section: Key determinants
 Source direction: purpose-drawn for this product from the order set out in Key determinants
 Rights: newly drawn for this product, or CC-BY
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-00595A53E65D | CLM-455AC71857D8
+
+## span_ids
+SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-01 | SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-02 | SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-03 | SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-04 | SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-05 | SPN-HIS-ID-CONNECTIVE-TISSUE-TYPES-06
+
 ## evidence_gaps
 No image exists in the repository for any of these six plates. Every identification in this article is a low-power judgement about what fills a field, and that is the single thing a written description is least able to supply; the article cannot fully do its job until the plates above exist.
 The mucoid connective tissue plate is printed in the practical book as a titled teaching plate with no marked question and no model answer. What the examiner would accept as a visible character for it is therefore taken from the caption and from Prof. Dalia El Marakby's Connective tissue handout, not from a marked answer page, and it is the least certain identification in this article.
@@ -1169,9 +1238,12 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: The repository holds no medical images at all, so there is no URL to attach. The field is left present and empty rather than cleared, because every figure this article needs is real and is written up as an image recommendation below.
 questionIds: No practical spot items have been authored for the connective tissue block yet; the existing practical batch stops at bone marrow. The reciprocal link is written when they are.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Five concepts are grouped into one article because they are five answers to one question. The department's stem on every one of these plates is identify the tissue, be specific, and a student does not know in advance which of the five is under the microscope; the skill is the ordered elimination, not five separate recognitions. Splitting them would give a student five articles and no way to choose between them, which is exactly the position they are in at the microscope.
 

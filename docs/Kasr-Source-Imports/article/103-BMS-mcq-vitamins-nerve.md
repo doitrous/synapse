@@ -251,7 +251,7 @@ src_59643edb9d371bcefa2c
 CLM-NEU-MYELINATION-01 | CLM-NEU-SALTATORY-CONDUCTION-01 | CLM-NEU-LOCAL-RESPONSE-01 | CLM-NEU-SODIUM-POTASSIUM-PUMP-01 | CLM-NEU-COMPOUND-AP-01 | CLM-NEU-BIPHASIC-AP-01
 
 ## span_ids
-[clear]
+SPN-PHY-NERVE-FIBRE-AND-01 | SPN-PHY-NERVE-FIBRE-AND-02
 
 ## universities
 kau
@@ -332,7 +332,7 @@ Kasr Al Ainy Physiology department book for module 103 BMS, "Nerve and Muscle", 
 Every statement rests on the Kasr Al Ainy Physiology department book alone. No independent verification against an international physiology reference has been attached, and no claim here has been through faculty review.
 
 ## conflicts
-
+[clear]
 
 ## last_reviewed
 
@@ -591,7 +591,7 @@ Kasr Al Ainy Physiology department book for module 103 BMS, "Nerve and Muscle", 
 Every statement rests on the Kasr Al Ainy Physiology department book alone. No independent verification against an international physiology reference has been attached, and no claim here has been through faculty review. The article names drugs because the book names them; it states what they do and never a dose, and it lands as a draft that must not auto-publish.
 
 ## conflicts
-
+[clear]
 
 ## last_reviewed
 

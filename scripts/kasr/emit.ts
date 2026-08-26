@@ -33,7 +33,7 @@ import {
 } from './seeds/types.ts'
 import type { ConceptLinks } from './seeds/links.ts'
 import type { BankRow, McqAuthored, McqConcept, McqLeafSeed } from './seeds/mcq.ts'
-import { readFileSync } from 'node:fs'
+import { readdirSync, readFileSync } from 'node:fs'
 
 /**
  * The claims each concept asserts, by concept ID.
@@ -61,8 +61,55 @@ const CLAIMS_FOR_CONCEPT: Record<string, string[]> = (() => {
  * it is *true* — and it is already recorded on `exam_signal`, which is the
  * column for curriculum signal. Putting it in `resource_ids` would make a
  * question its own justification.
+ *
+ * Used to be one hardcoded id, `src_b1e6dc481eaf337268d0` — 101 ISK's own
+ * department book. That was correct for 101 by accident, because 101 is the
+ * module this pipeline was first written against, and every other module's
+ * concept silently cited 101's book instead of its own the moment a second
+ * module started using this fallback (found in 104 CPS: all 19 of its
+ * question-book concepts, and every reused-but-full paper concept with no
+ * evidence pass, cited 101's book). Resolved from the manifest instead, so a
+ * module gets its own department book(s) without this file knowing any
+ * module's id or subject vocabulary in advance.
  */
-const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
+const MANIFEST_SOURCES: readonly { sourceId: string; moduleId: string; subject: string; sourceCategory: string }[] =
+  (() => {
+    try {
+      return JSON.parse(readFileSync('docs/Kasr-Source-Imports/manifest/kasr-y1-sources.json', 'utf8')).sources ?? []
+    }
+    catch { return [] }
+  })()
+
+/**
+ * The department book(s) a module's concept should cite by default, absent a
+ * seed or leaf naming its own `resourceIds`.
+ *
+ * Scoped first by module, then — where the concept's own `module_subject`
+ * path names one (`path[1]`, e.g. `Anatomy`) — by department, because a
+ * module with several department books (104 CPS has three: anatomy,
+ * histology, physiology) should not cite all of them for a concept that only
+ * one actually teaches. Falls back to every department book the module has
+ * when no department is named, or when the named department matches none of
+ * them — which is what keeps 101 ISK unchanged: its one book is filed under
+ * `subject: "Histology"` even though 101's own concepts carry `Anatomy` and
+ * other department names in their path, so the department match never hits
+ * and every 101 concept falls back to "every department book this module
+ * has", which has always been the same one book.
+ *
+ * De-duplicated, because a module's manifest rows are not guaranteed unique
+ * per department (108 INT's Pharmacology and Pathology books are each listed
+ * twice, apparently from a re-scan) — citing the same source id twice in one
+ * `resource_ids` cell is a batch a reviewer has to notice and fix by hand,
+ * for no benefit over citing it once.
+ */
+function departmentBookIdsFor(module: string, department?: string): string[] {
+  const books = MANIFEST_SOURCES.filter((s) => s.moduleId === module && s.sourceCategory === 'Department Book')
+  const matching = department
+    ? books.filter((b) => b.subject.trim().toLowerCase() === department.trim().toLowerCase())
+    : []
+  const chosen = matching.length ? matching : books
+  return [...new Set(chosen.map((b) => b.sourceId))]
+}
 
 /**
  * Where a concept was examined, in the `exam_signal` column's own grammar.
@@ -71,7 +118,7 @@ const DEPARTMENT_BOOK = 'src_b1e6dc481eaf337268d0'
  * no `module` is `101 ISK`, so this line is unchanged for every paper seeded
  * before the module was a parameter.
  */
-const occurrence = (source: SourceRef, seed: Seed) =>
+export const occurrence = (source: SourceRef, seed: Seed) =>
   `${source.id} | ${source.tier} | ${source.sittingYear} | p${seed.page} | ${moduleOf(source).id}`
 
 /**
@@ -171,7 +218,103 @@ ${conceptTail(
   context.relatedArticleIds ?? [],
   mintConceptId(module.id, seed.subject, seed.key, seed.system),
   context.links, seed,
+  departmentBookIdsFor(module.id, path[1]),
 )}`
+}
+
+/**
+ * A sparse update row for a concept whose canonical_key already has a pinned
+ * id in this module — see `existingConceptIds` in `build-batches.ts`.
+ *
+ * Per the authoring manual (`00-START-HERE.md` §2, "Updating an existing
+ * record"): give the record's real `## id` and only the `## field_key` blocks
+ * being changed; every field left out keeps its live value exactly as it is.
+ * This route changes nothing about what the concept *is* — no `## definition`,
+ * `## subject`, `## pitfalls`, or any other descriptive field, because a
+ * pinned id already belongs to a fully-authored live record and this pass has
+ * no business redefining it.
+ *
+ * `## label` is the one exception to "omitted field", and it is restated
+ * verbatim rather than left out — **not** a redefinition, a workaround.
+ * `conceptFromRow` (`src/data/conceptImport.ts:148`) defaults `label` to
+ * `''` whenever the column is blank, unlike every other optional field there,
+ * which return `undefined` so `mergeConcept` can tell "not mentioned" from
+ * "emptied". An update row that omits `## label` therefore does not leave the
+ * live label alone — it blanks it. Confirmed with a real `medical:simulate`
+ * run of a 104 CPS sparse row: the merged concept came back
+ * `"label": ""`. Restating the pinned record's own label (threaded through
+ * from `existingConceptIds`'s `labels` map — `parseConceptLabels` in
+ * `seeds/types.ts`) writes back exactly what was already there, so the
+ * record's label is unchanged in substance even though the column is
+ * present. The underlying bug lives in shared importer code no KASR lane
+ * owns and is not fixed here; when it is, this parameter stops mattering but
+ * stays harmless (restating an unchanged value is a no-op either way).
+ *
+ * Everything else this row can add is the pipeline's own contribution and
+ * nothing more:
+ *
+ * - `## exam_signal` — evidence that the concept was examined here too.
+ * - `## article_ids`, `+`-prefixed — where this leaf's article is not already
+ *   among the record's own, that it teaches it as well. Per the manual,
+ *   "a `+` cell adds without re-typing the list, and re-importing the same
+ *   row does not duplicate what it added, so a batch can be applied twice
+ *   safely" — and `article_ids` genuinely parses a leading `+` this way
+ *   (`optionalList` -> `listDirective`).
+ * - `## modules`, `+`-prefixed, but **only when the module building this row
+ *   is not already on the pinned record's own `## modules` list** (checked
+ *   against `existingConceptIds`'s second map, `parseConceptModules`) — the
+ *   ordinary case is that it already is, since the id was only found because
+ *   `module_subject`'s first segment already named this module, and emitting
+ *   `+<module already there>` would be a no-op cell for every row, not a
+ *   contribution.
+ *
+ * Two fields the literal instruction ("`+module_subject`", "`+question_ids`")
+ * asked for are deliberately never emitted here, because their shapes do not
+ * support what `+` promises:
+ *
+ * - `## module_subject` is parsed by `parseModuleSubjectPaths`
+ *   (`src/data/moduleSubjectPath.ts`), a bare newline-split with no leading-`+`
+ *   convention at all — unlike `article_ids`/`modules`, which route through
+ *   `optionalList` -> `listDirective`. Writing `+104 CPS > …` here would not
+ *   append: `+104 CPS` fails to resolve as any known module id, and the cell
+ *   still **replaces** the record's whole path list the moment it is
+ *   non-blank, since `conceptImport.ts` only treats `undefined` (an
+ *   omitted key) as "leave alone". The only safe way to add a path with the
+ *   tools this repository has today is to leave the key out, which is what
+ *   this route does.
+ * - `## question_ids` is not a field `Concept` has at all
+ *   (`CONCEPT_IMPORT_FIELDS` in `src/data/conceptImport.ts` has no such key) —
+ *   there is nothing to add it to.
+ *
+ * `## exam_signal` itself has the same missing-`+` shape as `module_subject`
+ * (`parseExamAppearances` does not strip a leading `+`, and `mergeConcept`
+ * replaces `examSignal.appearances` wholesale whenever the column is
+ * non-blank) — it is emitted anyway, unprefixed, because every hand-authored
+ * record this route has ever found pinned leaves `## exam_signal` genuinely
+ * blank (the field is populated by this pipeline, never by hand), so there is
+ * nothing yet on the live record for a wholesale-replace to lose. A module
+ * whose hand-authored files start carrying their own `exam_signal` history
+ * would need this reconsidered; nothing in this corpus does today.
+ */
+export function conceptUpdateBlock(
+  id: string, key: string, signals: string[], articleIds: string | undefined, note: string,
+  /** The module building this row, passed only when it is not already on the pinned record's own `## modules`. */
+  newModule?: string,
+  /** The pinned record's own label, restated verbatim — see the doc comment above for why. */
+  label?: string,
+): string {
+  const addArticles = articleIds
+    ?.split('|').map((one) => one.trim()).filter(Boolean).map((one) => `+${one}`).join(' | ')
+  return `# Item
+## id
+${id}
+${label ? `## label\n${label}\n` : ''}## canonical_key
+${key}
+## exam_signal
+${signals.join('\n')}
+${addArticles ? `## article_ids\n${addArticles}\n` : ''}${newModule ? `## modules\n+${newModule}\n` : ''}## field_notes
+${note}
+`
 }
 
 /**
@@ -236,6 +379,13 @@ ${conceptTail(
 function conceptTail(
   relatedArticleIds: string[] = [], conceptId?: string,
   links?: ConceptLinks, seed?: Seed,
+  /**
+   * What `resource_ids` falls back to when neither `links` (the module's
+   * evidence pass) nor the seed/leaf itself names a source: the caller's own
+   * `departmentBookIdsFor(module.id, department)` result, resolved from the
+   * manifest rather than one id hardcoded here for every module.
+   */
+  fallbackResourceIds: string[] = [],
 ): string {
   /**
    * A list column. `[clear]` when empty, and only ever here.
@@ -290,7 +440,7 @@ function conceptTail(
     // them, and 101's plan predates the plan files.
     list('resource_ids',
       links?.resourceIds?.length ? links.resourceIds
-        : seed?.resourceIds?.length ? seed.resourceIds : [DEPARTMENT_BOOK]),
+        : seed?.resourceIds?.length ? seed.resourceIds : fallbackResourceIds),
     list('approved_file_resource_ids', undefined),
     list('approved_video_resource_ids', undefined),
     list('atomic_claim_ids',
@@ -588,6 +738,12 @@ export function mcqConceptBlock(
   // times across three books is blueprint evidence no single paper can give.
   const weight = Math.min(1, 0.15 + 0.08 * signals.length).toFixed(2)
   const path = concept.modulePath.split(' > ')
+  // A leaf's own `resourceIds` wins where it names one — the rare case a
+  // concept's evidence is not simply "the module's department book", e.g. a
+  // question drawn from a named atlas or a cross-module source. Otherwise the
+  // department book(s) this concept's own `module_subject` path names.
+  const resourceIds = concept.resourceIds?.length
+    ? concept.resourceIds : departmentBookIdsFor(module.id, path[1])
   return `# Item
 ## label
 ${concept.label}
@@ -649,8 +805,142 @@ ${(concept.conflicts ?? []).join('\n') || '[clear]'}
 ${concept.uncertainty || '[clear]'}
 ## evidence_gaps
 ${(concept.gaps ?? []).join('\n') || '[clear]'}
-${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, concept.key))}
+${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, concept.key), undefined, undefined, resourceIds)}
 `
+}
+
+/**
+ * One fact the department book supports, ready to append to a worked
+ * explanation: its sentence, whether it has passed the evidence gate, and the
+ * page a reviewer would open to check it.
+ */
+export interface EnrichmentClaim {
+  text: string
+  verified: boolean
+  page: number
+}
+
+/**
+ * Pull one field's value out of a `# Item` block.
+ *
+ * The same lookahead as `build-evidence.ts`'s own `field()`: it stops at the
+ * next `## ` heading or true end of string, never at the first blank line, so
+ * a multi-line value — `display_text`, `qualifiers` — survives intact.
+ */
+function evidenceField(block: string, label: string): string {
+  return block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |(?![\\s\\S]))`, 'm'))?.[1].trim() ?? ''
+}
+
+/**
+ * Every claim a module's evidence files support, keyed by concept ID —
+ * `evidence/<module>-claims.md`, `<module>-generated-claims.md`, and every
+ * other curated `<module>*-claims.md` file, each paired with its citation in
+ * the sibling `*-citations.md` file by `claim_id`.
+ *
+ * Built once per module and cached: `mcqBlock` runs once per question, and a
+ * build emits hundreds of questions per module, so re-reading and re-parsing
+ * every evidence file per question would be pure waste.
+ *
+ * A claim survives into the index only if some citation locates it to a page
+ * — a claim nothing cites cannot honestly carry a "(department book p.N)"
+ * tag, so it is left out rather than tagged with nothing. Kept in the file's
+ * own order (which follows the department book); `appendEnrichment` is what
+ * sorts verified claims first and caps the count, so that selection policy
+ * lives in one place and is unit-testable without touching disk.
+ */
+const CLAIMS_INDEX_CACHE = new Map<string, Map<string, EnrichmentClaim[]>>()
+
+function claimsIndexFor(module: ModuleRef): Map<string, EnrichmentClaim[]> {
+  const cached = CLAIMS_INDEX_CACHE.get(module.id)
+  if (cached) return cached
+
+  const dir = 'docs/Kasr-Source-Imports/evidence'
+  const prefix = `${module.id.replace(/\s+/g, '-')}-`
+  let files: string[] = []
+  try { files = readdirSync(dir) } catch { files = [] }
+
+  const claimFiles = files.filter((name) => name.startsWith(prefix) && name.endsWith('claims.md')).sort()
+  const citationFiles = files.filter((name) => name.startsWith(prefix) && name.endsWith('citations.md')).sort()
+
+  // claim_id -> page, from every citation file this module has. First
+  // locator wins on a rare double-citation rather than the last, so the
+  // result does not depend on directory listing order.
+  const pageByClaimId = new Map<string, number>()
+  for (const name of citationFiles) {
+    let text: string
+    try { text = readFileSync(`${dir}/${name}`, 'utf8') } catch { continue }
+    for (const block of text.split(/^\s*---\s*$/m)) {
+      const claimId = evidenceField(block, 'claim_id')
+      const pageRaw = evidenceField(block, 'locator_page')
+      if (!claimId || !pageRaw || pageByClaimId.has(claimId)) continue
+      const page = Number.parseInt(pageRaw, 10)
+      if (Number.isFinite(page)) pageByClaimId.set(claimId, page)
+    }
+  }
+
+  const byConcept = new Map<string, EnrichmentClaim[]>()
+  for (const name of claimFiles) {
+    let text: string
+    try { text = readFileSync(`${dir}/${name}`, 'utf8') } catch { continue }
+    for (const block of text.split(/^\s*---\s*$/m)) {
+      const claimId = evidenceField(block, 'id')
+      const conceptId = evidenceField(block, 'concept_id')
+      const displayText = evidenceField(block, 'display_text')
+      if (!claimId || !conceptId || !displayText) continue
+      const page = pageByClaimId.get(claimId)
+      if (page === undefined) continue
+      const verified = evidenceField(block, 'verification_status') === 'verified'
+      const list = byConcept.get(conceptId) ?? []
+      list.push({ text: displayText.replace(/\s+/g, ' ').trim(), verified, page })
+      byConcept.set(conceptId, list)
+    }
+  }
+  CLAIMS_INDEX_CACHE.set(module.id, byConcept)
+  return byConcept
+}
+
+/** The fixed sub-heading a mechanical enrichment lands under — see `appendEnrichment`. */
+export const ENRICHMENT_HEADING = 'Why this is right, from the department book:'
+
+/** The first sentence of a block of text — used for the definition fallback below. */
+function firstSentence(text: string): string {
+  const match = text.match(/^[\s\S]*?[.!?](?=\s|$)/)
+  return (match ? match[0] : text).trim()
+}
+
+/**
+ * Append the tested concept's claims — or, absent any locatable claim, its
+ * definition's first sentence — under a fixed sub-heading in the correct
+ * answer's explanation.
+ *
+ * Approved design (chief of staff + Omar's standing order, see
+ * `E1-enrichment.md`): up to 3 claims, verified ones first (a stable sort, so
+ * ties keep the department book's own order), each followed by
+ * `(department book p.N)`; when the concept has no locatable claim, the
+ * concept's `definition` sentence stands in; a sentence already present
+ * verbatim in the explanation is skipped rather than repeated. Entirely
+ * mechanical — nothing here is hand-written for this question — and it never
+ * touches the text above the sub-heading or any distractor's explanation.
+ *
+ * If every candidate is a duplicate, the explanation is returned byte-for-byte
+ * unchanged: a heading over nothing to add is worse than no heading. Pure —
+ * takes the concept's claims already resolved by the caller (`claimsIndexFor`
+ * does the disk reading) so it is unit-testable without touching disk or a
+ * `ModuleRef` fixture, and calling it twice on its own output is a no-op.
+ */
+export function appendEnrichment(explanation: string, claims: EnrichmentClaim[], definition: string): string {
+  const ordered = [...claims].sort((a, b) => Number(b.verified) - Number(a.verified))
+  const candidates = ordered.length
+    ? ordered.slice(0, 3).map((c) => `${c.text} (department book p.${c.page})`)
+    : [firstSentence(definition)].filter(Boolean)
+
+  const fresh = candidates.filter((sentence) => {
+    const bare = sentence.replace(/ \(department book p\.\d+\)$/, '')
+    return bare.length > 0 && !explanation.includes(bare)
+  })
+  if (!fresh.length) return explanation
+
+  return `${explanation}\n\n${ENRICHMENT_HEADING}\n${fresh.map((s) => `- ${s}`).join('\n')}`
 }
 
 /**
@@ -664,9 +954,18 @@ ${conceptTail(relatedArticleIds, mintConceptId(module.id, concept.subject, conce
  * The answer is the source's unless the author overrode it, and an override
  * without a reason throws rather than importing: an answer changed silently is
  * indistinguishable from an answer changed wrongly.
+ *
+ * `conceptId` is resolved by the caller, not derived here from
+ * `mintConceptId(module.id, concept.subject, concept.key)` — the two can
+ * disagree the moment the key already has a pinned id in this module (see
+ * `existingConceptIds` in `build-batches.ts`), and a question whose
+ * `main_concept` disagrees with the concept record actually emitted for that
+ * key references either the wrong id or nothing at all. One resolution, done
+ * once by the caller for the concept block and the question block alike, is
+ * the only way the two cannot drift apart.
  */
 export function mcqBlock(
-  row: BankRow, authored: McqAuthored, leaf: McqLeafSeed, module: ModuleRef,
+  row: BankRow, authored: McqAuthored, leaf: McqLeafSeed, module: ModuleRef, conceptId: string,
 ): string {
   if (authored.answerOverride && !authored.answerOverrideReason?.trim()) {
     throw new Error(`${authored.key}: answerOverride without answerOverrideReason`)
@@ -687,6 +986,13 @@ export function mcqBlock(
     .map((where) => `${where.file} p${where.page} q${where.number}`)
     .join('; ')
 
+  // Mechanical enrichment: append the tested concept's book claims (or its
+  // definition, absent any) under a fixed sub-heading in the correct answer's
+  // explanation only. Every distractor's explanation is untouched.
+  const explanations: Record<string, string> = { ...authored.explanations }
+  const claims = claimsIndexFor(module).get(conceptId) ?? []
+  explanations[answer] = appendEnrichment(explanations[answer], claims, concept.definition)
+
   return `# Item
 ## id
 ${id}
@@ -700,11 +1006,11 @@ Draft
 single_best_answer
 ## question
 ${row.stem}
-${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[letter]}\n## explanation_${letter.toLowerCase()}\n${authored.explanations[letter]}`).join('\n')}
+${letters.map((letter) => `## answer_${letter.toLowerCase()}\n${row.options[letter]}\n## explanation_${letter.toLowerCase()}\n${explanations[letter]}`).join('\n')}
 ## correct_answer
 ${answer}
 ## main_concept
-${mintConceptId(module.id, concept.subject, concept.key)}
+${conceptId}
 ## library_ids
 ${leaf.articleId}
 ## topic

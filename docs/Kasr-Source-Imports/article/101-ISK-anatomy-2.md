@@ -1,11 +1,21 @@
 <!--
   Library articles for 101 ISK — Anatomy, Year 1, Kasr Al Ainy (kau).
 
-  Eleven articles completing the Anatomy half of the module: the five Upper Limb
-  leaves not covered by 101-ISK-anatomy.md — Arm, Shoulder Region, Forearm,
-  Muscles of the Back and Veins of the Upper Limb — and the six Basis of Anatomy
-  leaves — Introduction, Fascia, Skeletal system, Cardiovascular system,
-  Lymphatic system and Nervous system.
+  Nine articles completing the Anatomy half of the module: the three Upper Limb
+  leaves not covered by 101-ISK-anatomy.md — Arm, Shoulder Region and Forearm —
+  and the six Basis of Anatomy leaves — Introduction, Fascia, Skeletal system,
+  Cardiovascular system, Lymphatic system and Nervous system.
+
+  Muscles of the Back and Veins of the Upper Limb were originally drafted here
+  as well, independently of the copies in 101-ISK-anatomy.md, and both drafts
+  carried the same ids — ART-101-ANA-MUSCLES-OF-THE-BACK and
+  ART-101-ANA-VEINS-OF-UPPER-LIMB — as the ones already in that file. A repeated
+  id is read by the importer as an update, so whichever file imported second
+  would have silently overwritten the other. The two records have been compared
+  against the department book and merged into single records kept in
+  101-ISK-anatomy.md; anything this file's draft had that the book supported and
+  the surviving record lacked was folded in there. The duplicates are removed
+  from this file. 101-ISK-anatomy.md is the sole record for both ids.
 
   Two sources of record, both taken from ../manifest/kasr-y1-sources.json:
 
@@ -35,12 +45,11 @@
   whose `module_subject` is that article's own subject path, copied rather than
   re-derived, and every listed concept is taught in the prose. The concept files
   were re-read after the last article was written, and the concepts other lanes
-  had minted in the meantime — seven more on Arm, five on Muscles of the Back,
-  two on Veins of the Upper Limb — were folded in, with prose added where a new
-  concept asked for something the article had not yet taught. Five leaves carry
-  no concept at all yet — Introduction, Skeletal system, Cardiovascular system,
-  Lymphatic system and Nervous system — and their `field_notes` say so rather
-  than borrowing one from a neighbouring leaf.
+  had minted in the meantime — seven more on Arm — were folded in, with prose
+  added where a new concept asked for something the article had not yet taught.
+  Five leaves carry no concept at all yet — Introduction, Skeletal system,
+  Cardiovascular system, Lymphatic system and Nervous system — and their
+  `field_notes` say so rather than borrowing one from a neighbouring leaf.
 
   The repository holds zero medical images (../media-requests/media-audit.md).
   Every plate these articles need is written as an `image_recommendations` block
@@ -90,7 +99,6 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M02
 SYS-MSK-T01-S01-M03
 ## related_concepts
-[clear]
 CON-MSK-74BFAB9385B955
 CON-MSK-951D4DFF864245
 CON-MSK-875049D4420AA4
@@ -293,6 +301,15 @@ Rights: consented or openly licensed radiograph; no all-rights-reserved atlas im
 Where the cubital fossa is taught. The department book describes the cubital fossa at the head of the Forearm chapter (PDF pages 206-207) and Dr. Galal's revision puts it on his forearm pages, while the concept drafted from the paper files it under the Arm leaf. This article teaches it here, on the leaf the question sits on, and the forearm article cross-refers rather than repeating it.
 Nerve supply of brachialis. Dr. Galal's table gives brachialis as "musculo-cutaneous & radial nn." without qualification; the department book gives musculocutaneous to the muscle with a radial twig to a small lateral part only. This article follows the department book, which is the more specific statement, and both are recorded because the question books ask the item both ways.
 Origin of the lateral head of triceps. The department book says "the upper lip of the spiral groove, on the posterior surface of humerus"; Dr. Galal's table says "upper lip of spiral groove humerus". They agree; the wording is recorded because a student revising from a third summary that says "above the spiral groove" has the same fact in words the marker may not recognise.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-09C3CC42F64D | CLM-0FA3B2DF97D2 | CLM-2C0AE84F5A80 | CLM-6FA9B9852227 | CLM-B4E2C96E77E8 | CLM-BB1B27CD52CD | CLM-CDCA0C631225 | CLM-F96946E40133
+
+## span_ids
+SPN-ANA-ARM-01 | SPN-ANA-ARM-02 | SPN-ANA-ARM-03 | SPN-ANA-ARM-04 | SPN-ANA-ARM-05 | SPN-ANA-ARM-06 | SPN-ANA-ARM-07 | SPN-ANA-ARM-08 | SPN-ANA-ARM-09 | SPN-ANA-ARM-10 | SPN-ANA-ARM-11 | SPN-ANA-ARM-12 | SPN-ANA-ARM-13 | SPN-ANA-ARM-14 | SPN-ANA-ARM-15 | SPN-ANA-ARM-16
+
 ## evidence_gaps
 Neither source gives a developmental account of the arm, so the Development section reports the absence rather than an embryology. The limb bud, its rotation and the segmental origin of the arm's muscles are not taught anywhere in this module's material.
 The department book does not state the segmental root value of the musculocutaneous nerve's cutaneous territory, nor of the medial and intercostobrachial cutaneous nerves. Root values are given only for the named trunks.
@@ -308,13 +325,15 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead, which is the admin-side request queue rather than a student-visible asset.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the reciprocal link is written from the question side, which is where the importer maintains it.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate, so there is no student projection yet.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Development: The absence of a developmental account is the source's, not an omission here; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written from the two Kasr sources, which agree on every table in this chapter. The three divergences that exist are of placement and of wording rather than of fact, and are recorded in conflicts.
 
@@ -361,11 +380,8 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M01
 SYS-MSK-T03-S02-M03
 ## related_concepts
-[clear]
-CON-MSK-1CA86BE843A07C
-CON-MSK-DF8F395F3D471E
-CON-MSK-8533FCB18D819B
-CON-MSK-04D3ACA71DC025
+CON-MSK-1CA86BE843A07C | CON-MSK-DF8F395F3D471E | CON-MSK-8533FCB18D819B | CON-MSK-04D3ACA71DC025 | CON-MSK-171B2F8B24F6E7 | CON-MSK-352E28DEA38DF7 | CON-MSK-38A32E79B1412F | CON-MSK-B88F413E4536F9 | CON-MSK-DAF3D2128459B3 | CON-MSK-E68EAACB7596AF
+
 ## related_articles
 ART-101-ANA-MUSCLES-OF-THE-BACK: Trapezius, the rhomboids and levator scapulae are the other half of the shoulder girdle's muscle list, and the article that carries them also carries the retraction and downward-rotation columns.
 ART-101-ANA-AXILLA-BREAST: The axilla lies immediately below this region, and the long thoracic nerve that rotates the scapula runs on its medial wall.
@@ -568,6 +584,15 @@ Rights: consented clinical photograph, or an anatomical illustration if no conse
 Where serratus anterior is taught. The department book describes serratus anterior inside the Shoulder Region chapter (PDF pages 174-175) under the heading "muscles connecting the upper limb with the thoracic wall"; Dr. Galal's revision puts it on his pectoral-region page 2. Both give the same attachments, nerve and actions. It is taught here because two of this leaf's five concepts turn on its action.
 Boundaries of the quadrangular space. The department book adds "and the capsule of the shoulder joint" to the upper boundary; Dr. Galal's table gives teres minor behind and subscapularis in front without it. The book's fuller version is used, and the difference is recorded because a marker working from the revision may not expect the capsule.
 Insertion of supraspinatus. The department book says "the highest impression on the greater tuberosity"; Dr. Galal says "upper impression of greater tuberosity of humerus". The same fact in two words; recorded because a student writing "superior facet" from a third source is describing the same thing in a vocabulary this faculty does not use.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-03DBCEE37405 | CLM-0EB6C7FF0B79 | CLM-E49B719C31E7
+
+## span_ids
+SPN-ANA-SHOULDER-REGION-01 | SPN-ANA-SHOULDER-REGION-02 | SPN-ANA-SHOULDER-REGION-03 | SPN-ANA-SHOULDER-REGION-04
+
 ## evidence_gaps
 Neither source gives a developmental account of the shoulder region.
 The department book states that abduction beyond 90° requires scapular rotation but does not, in this chapter, state the mechanical reason. The statement here that the greater tuberosity meets the coraco-acromial ligament is taken from the concept record CON-MSK-04D3ACA71DC025 as drafted from the paper, and it is flagged in field_notes as not verified against the book's own Shoulder Joint chapter, which was not read for this article.
@@ -584,14 +609,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical correlations: The sentence explaining that the greater tuberosity meets the coraco-acromial ligament at 90° comes from the concept record drafted from the exam paper, not from the two chapters read for this article. It is named in evidence_gaps.
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Five concepts sit on this leaf, more than on any other Upper Limb leaf in the module, and four of them are answered by the same anatomy. The article is organised so that the intermuscular spaces, the abduction relay and the scapular anastomosis each get their own examinable block rather than being folded into a continuous description of the region.
 
@@ -638,9 +665,8 @@ DIS-ANA-T02
 SYS-MSK-T01-S01-M04
 SYS-MSK-T01-S01-M05
 ## related_concepts
-[clear]
-CON-MSK-E10403A4189B45
-CON-MSK-44234D1863CE8E
+CON-MSK-E10403A4189B45 | CON-MSK-44234D1863CE8E | CON-MSK-2AA14F317F45C3
+
 ## related_articles
 ART-101-ANA-ARM: The cubital fossa, where every structure in this article enters the forearm, is described there with its boundaries, roof and contents.
 ART-101-ANA-HAND-ARTERIES: The superficial and deep palmar arches that the ulnar and radial arteries become, and the snuff box seen from the hand's side.
@@ -899,6 +925,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 When each supinator acts. Dr. Galal's table says supinator supinates "when the elbow is extended" and biceps "when elbow is flexed"; the department book states supinator's action simply as "it supinates the forearm at radio-ulnar joints" without the qualification. The revision's fuller statement is taught here because it is what makes the exam answer about the relative power of supination coherent, and the difference is recorded.
 Insertion of flexor carpi ulnaris. The department book gives "pisiform bone then into 5th metacarpal and hamate bones"; Dr. Galal gives the pisiform alone. Both are taught, with the pisiform named first, because the pisiform is what the ulnar artery and nerve are located against at the wrist.
 Origin of extensor pollicis brevis. The department book says "posterior surface of the shaft of the radius" and the back of the interosseous membrane; Dr. Galal says "back radius & back interosseous membrane". The same fact; recorded because a question book option that adds the ulna to that origin is wrong under both.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Neither source gives a developmental account of the forearm.
 Neither source states the frequency with which palmaris longus is absent, though the question books treat its absence as known. No figure is asserted here.
@@ -916,475 +951,18 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical correlations: The account of why the palmar cutaneous branch of the median nerve is spared in carpal tunnel syndrome is assembled from two statements the department book makes separately — that the branch passes superficial to the retinaculum, and that the nerve is compressed within the tunnel. The department book does not draw the conclusion itself.
 sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The forearm carries more question-book items than any other Anatomy leaf in this module, and the material is almost entirely tabular. The article is written so that the two nerve rules and their five exceptions come before the muscle tables, because a student who holds the rules can reconstruct most of the tables and a student who holds the tables cannot reconstruct the rules.
-
----
-
-# Item
-## id
-ART-101-ANA-MUSCLES-OF-THE-BACK
-## title
-Muscles of the back
-## subject
-msk
-## status
-Draft
-## owner
-Claude
-## topic
-Upper limb
-## language
-en
-## learner_stage
-Year 1 foundation
-## template_id
-TPL-ANATOMY
-## archetype
-anatomy
-## high_yield
-Core
-## time_sensitive
-stable
-## publication_gate
-needs_evidence
-## universities
-kau
-## years
-Year 1
-## module
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Muscles of the Back
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S03-M02
-SYS-MSK-T01-S01-M01
-## related_concepts
-CON-MSK-49E1E587FB6ED6
-CON-MSK-84E91B4CD6B6DF
-CON-MSK-59453A6F6ACC2E
-CON-MSK-C89FCDA03E8C99
-CON-MSK-2BCDBB34965818
-## related_articles
-ART-101-ANA-SHOULDER-REGION: The other half of the shoulder girdle's muscle list, and the abduction relay that trapezius completes above ninety degrees.
-ART-101-ANA-AXILLA-BREAST: Latissimus dorsi forms the posterior wall of the axilla with teres major and subscapularis, and the posterior axillary fold with teres major.
-ART-101-ANA-PECTORALIS-MAJOR: Latissimus dorsi and the sternocostal head of pectoralis major work together to pull the trunk upwards in climbing.
-## aliases
-Muscles of the back | Muscles connecting the upper limb with the vertebral column | Trapezius | Latissimus dorsi | Rhomboids | Levator scapulae | Triangle of auscultation | Lumbar triangle
-## reading_time
-11
-## summary
-These are not the muscles of the back in the anatomist's general sense. They are the five muscles that connect the upper limb to the vertebral column, and they are supplied by the anterior primary rami of spinal nerves — which is why trapezius, alone in the whole shoulder girdle, is not a brachial plexus muscle at all but a cranial-nerve one. Two layers, five muscles, two named triangles, and three clinical signs: shoulder drop, the posterior axillary fold, and a lumbar hernia.
-## sections
-### Overview and position
-The muscles of the back, in this chapter's sense, are the muscles of the **upper limb** that lie on the back and connect the limb to the **vertebral column**. They are supplied by the **anterior primary rami** of the spinal nerves, and they are arranged in two layers.
-
-**Superficial layer** — two muscles: **trapezius** and **latissimus dorsi**.
-**Deep layer** — three muscles: **levator scapulae**, **rhomboideus major** and **rhomboideus minor**.
-
-Five muscles in all. A student who adds erector spinae or the intrinsic muscles of the back has answered a different question: those are true back muscles, supplied by posterior primary rami, and this module does not teach them here.
-
-### Structure
-**Trapezius.** A large flat muscle whose two halves together look like a trapezium.
-
-*Origin* — three regions of a continuous **U-shaped** line: the **back of the skull**, from the external occipital protuberance and the medial third of the superior nuchal line; the **back of the neck**, from the ligamentum nuchae and the spine of C7; and the **back of the thorax**, from the spines of **all** the thoracic vertebrae and their supraspinous ligaments.
-*Insertion* — three regions matching the three sets of fibres: **upper fibres** into the posterior border of the lateral third of the clavicle; **middle fibres** into the medial border of the acromion and the upper lip of the crest of the spine of the scapula; **lower fibres** into a rough tubercle on the crest of the spine of the scapula near its root.
-*Nerve supply* — **motor from the spinal root of the accessory nerve; sensory from the cervical nerves C3 and C4.**
-*Action* — the upper fibres **elevate** the shoulder girdle; the middle fibres, with the rhomboids, **retract** the scapula and brace back the shoulder; the **lower fibres depress** the scapula; and the upper and lower fibres together **rotate the scapula so that the glenoid cavity faces upward**, which is what allows the arm to be raised overhead. Because the muscle suspends the whole shoulder girdle from the skull and the vertebral column, its paralysis lets the shoulder sag.
-
-**Latissimus dorsi.** A large triangular flat muscle covering the lower half of the back down to the iliac crest, with a **wide origin and a narrow tendon of insertion**.
-
-*Origin* — fleshy fibres from the **spines of the lower six thoracic vertebrae**, under cover of trapezius; the **thoraco-lumbar fascia**; the **posterior third of the outer lip of the iliac crest**; the **outer surfaces of the lower four ribs**; and a few fibres from the **dorsal aspect of the inferior angle of the scapula**.
-*Insertion* — the **floor of the bicipital groove** of the humerus.
-*Nerve supply* — the **thoraco-dorsal nerve (nerve to latissimus dorsi)**.
-*Action* — **extension, medial rotation and adduction** of the arm, which is why it is named with pectoralis major as the swimming and rowing muscle; acting with the sternocostal part of pectoralis major it **pulls the trunk upwards** as in climbing, working from its insertion; and through its rib attachment it assists **violent expiration**, as in coughing.
-
-Two relations of latissimus dorsi are examined in their own right. Its upper border crosses the inferior angle of the scapula, and it has a **triple relation to teres major**: first it lies **behind** teres major, then it curves **below** it, and at its insertion it comes to lie **in front** of it. And at its insertion it usually fuses with teres major to form the **posterior axillary fold** — the reason the two are named together whenever the wall of the axilla is asked.
-
-**Deep layer.** Three muscles that all reach the **dorsal surface of the medial border of the scapula**, and are told apart by where along that border they arrive.
-
-*Levator scapulae* — origin by four slips from the **transverse processes of the upper four cervical vertebrae**; insertion into the medial border **above the root of the spine**; nerve **dorsal scapular nerve (C5)** with fibres from **C3 and C4**; action: elevates the shoulder girdle with the upper fibres of trapezius, **rotates the scapula so the glenoid faces downward**, and retracts the scapula.
-
-*Rhomboideus minor* — origin from the **lower part of the ligamentum nuchae and the spines of C7 and T1**; insertion into the medial border **opposite the root of the spine**; nerve **dorsal scapular nerve (C5)**; action: downward rotation of the scapula with levator scapulae, and **retraction** with the middle fibres of trapezius.
-
-*Rhomboideus major* — origin from the **spines of T2 to T5 and their supraspinous ligaments**; insertion into the medial border **from the root of the spine to the inferior angle**; nerve **dorsal scapular nerve (C5)**; action: the same as rhomboideus minor.
-
-So the medial border of the scapula is read from above down: levator scapulae above the spine, rhomboideus minor at the spine, rhomboideus major below it — and, on the **ventral (costal)** surface of the same border, **serratus anterior**. Which surface a muscle reaches is the difference between the rhomboids and serratus anterior, and it is the reason they are antagonists.
-
-The **lateral border** belongs to a different set of muscles, and the papers ask the two borders against each other. **Teres minor** arises from the upper two-thirds of its dorsal surface and **teres major** from the lower third and the inferior angle, with the **long head of triceps** arising just above it from the **infraglenoid tubercle**. So a question that offers teres major among muscles of the medial border, or levator scapulae among those of the lateral border, is testing that split — four muscles on the medial border, two on the lateral.
-
-### Relations
-Trapezius is the most superficial muscle of the region and covers the upper part of latissimus dorsi's origin, the rhomboids and levator scapulae. Latissimus dorsi covers the lower half of the back and is the muscle that wraps forwards around the lower border of the axilla.
-
-Two named triangles are defined by these muscles, and both are asked by their boundaries.
-
-**Triangle of auscultation** lies medial to the lower part of the scapula. *Above*: the lateral border of **trapezius**. *Below*: the upper border of **latissimus dorsi**. *Laterally*: the lower part of the **medial border of the scapula**. Its **floor** is **rhomboideus major** and the **sixth and seventh ribs with the space between them**. Breath sounds are heard clearly over it, because so little muscle lies between the stethoscope and the lung — which is where the name comes from.
-
-**Lumbar triangle** lies just above the iliac crest. *Below*: the **iliac crest**. *Medially*: the lateral border of **latissimus dorsi**. *Laterally*: the posterior border of the **external abdominal oblique**. Its **floor** is the **internal abdominal oblique and transversus abdominis**. It is a site of **lumbar hernia**.
-
-Note which muscle appears in both triangles and which does not: latissimus dorsi is a boundary of both, teres major of neither. A question book item that offers teres major as part of the triangle of auscultation is testing exactly that.
-
-### Blood supply, innervation and lymphatics
-The nerve supplies of this group carry a lesson that the whole shoulder girdle turns on.
-
-**Trapezius is supplied by the spinal root of the accessory nerve** — a cranial nerve — with sensory fibres from C3 and C4. It is the one muscle acting on the shoulder girdle that is **not** supplied by a branch of the brachial plexus, and that exception is asked directly.
-
-**Latissimus dorsi** is supplied by the **thoraco-dorsal nerve (C6, C7, C8)**, a branch of the posterior cord.
-**Levator scapulae and both rhomboids** are supplied by the **dorsal scapular nerve (C5)**, levator scapulae also receiving fibres from **C3 and C4**.
-
-The rest of the scapular set completes the same list and is worth reciting with it, because the examiners ask it as one question: **serratus anterior** takes the **long thoracic nerve (C5, C6, C7)**; **teres major** takes the **lower subscapular nerve**; **teres minor** takes the **axillary nerve**. Every one of those is a brachial plexus branch. Trapezius is the exception.
-
-The arterial supply of the region is not set out as a list in either Kasr source. What is named is the **anastomosis around the scapula**, whose vessels — the suprascapular artery, the deep branch of the transverse cervical artery, the subscapular and circumflex scapular arteries and the posterior intercostal arteries — run in this plane and supply the muscles they pass through.
-
-**Lymphatics** of the back down to the level of the iliac crest drain to the **posterior (subscapular) group** of axillary nodes, which is why a lesion low on the back presents with an axillary node.
-
-### Development
-Neither Kasr source gives a developmental account of these muscles. The point that would matter — why a muscle of the limb comes to lie on the back and to be supplied by a cranial nerve — is not addressed in this module's material, and nothing is offered here in its place.
-
-### Surface and imaging anatomy
-The **lateral border of trapezius** and the **upper border of latissimus dorsi** are both palpable and together with the medial border of the scapula outline the triangle of auscultation; the triangle is opened up by folding the arms across the chest and leaning forwards, which draws the scapula laterally.
-
-The **posterior axillary fold** is felt between finger and thumb as the sharp ridge at the back of the armpit; it is latissimus dorsi and teres major together.
-
-The **inferior angle of the scapula** normally lies flat against the chest wall at about the level of the seventh rib; its projection backwards is the sign of a winged scapula, and it is what an examiner asks the patient to demonstrate by pushing against a wall.
-
-The **lumbar triangle** is the soft area just above the iliac crest behind the mid-axillary line, and a lumbar hernia presents there as a reducible swelling.
-
-### Clinical correlations
-**Paralysis of trapezius leads to shoulder drop.** The department book states it in those words. The upper fibres are what hold the shoulder up against the weight of the limb, so their loss lets the whole girdle sag. Because the motor supply is the spinal root of the accessory nerve, the lesion is often in the **posterior triangle of the neck** rather than in the limb at all — an operation or a wound there, not a brachial plexus injury.
-
-**Trapezius and serratus anterior fail together in raising the arm overhead.** Both rotate the scapula so that the glenoid cavity faces upward, and abduction beyond about ninety degrees needs that rotation. Loss of either stops the arm at roughly shoulder height, and the two are distinguished by the accompanying sign — **shoulder drop** for trapezius, **winging** for serratus anterior.
-
-**Retraction fails with trapezius and the rhomboids together.** A patient who cannot brace the shoulders back has lost the middle fibres of trapezius, the rhomboids, or both, and the paired answer is the one the examiners ask for.
-
-**Lumbar hernia** occurs through the lumbar triangle, whose floor is only internal oblique and transversus abdominis. The department book names the triangle as a hernia site and asks for its boundaries; it does not describe the management, and none is offered here.
-
-**Latissimus dorsi in climbing and coughing.** Because the muscle takes origin from the trunk and inserts on the humerus, fixing the hand converts it into a muscle that lifts the trunk — which is the anatomical account of a pull-up. Its rib origin means the same muscle assists violent expiration.
-## hold_these
-The muscles of the back in this chapter are five muscles of the upper limb connecting it to the vertebral column, supplied by anterior primary rami.
-Superficial layer: trapezius and latissimus dorsi. Deep layer: levator scapulae, rhomboideus major and rhomboideus minor.
-Trapezius arises from the external occipital protuberance and medial third of the superior nuchal line, the ligamentum nuchae and C7 spine, and all the thoracic spines with their supraspinous ligaments.
-Trapezius is supplied motor by the spinal root of the accessory nerve and sensory by C3 and C4 — the one shoulder-girdle muscle that is not a brachial plexus muscle.
-Trapezius upper fibres elevate, middle fibres retract, and upper and lower fibres together rotate the scapula so the glenoid faces upward.
-Latissimus dorsi arises from the lower six thoracic spines, thoraco-lumbar fascia, outer lip of the iliac crest, lower four ribs and the inferior angle of the scapula, and inserts into the floor of the bicipital groove.
-Latissimus dorsi is supplied by the thoraco-dorsal nerve and extends, medially rotates and adducts the arm.
-Latissimus dorsi has a triple relation to teres major — behind it, then below it, then in front of it at the insertion — and fuses with it to form the posterior axillary fold.
-Levator scapulae and both rhomboids are supplied by the dorsal scapular nerve (C5); levator scapulae also takes C3 and C4.
-The thoraco-dorsal nerve is C6, C7, C8; the long thoracic nerve to serratus anterior is C5, C6, C7; teres major takes the lower subscapular nerve and teres minor the axillary nerve.
-The lateral border of the scapula gives origin to teres minor above and teres major below, with the long head of triceps from the infraglenoid tubercle just above it.
-The lower fibres of trapezius depress the scapula.
-Levator scapulae inserts above the root of the spine of the scapula, rhomboideus minor opposite it, rhomboideus major below it — all on the dorsal surface of the medial border.
-Triangle of auscultation: trapezius above, latissimus dorsi below, medial border of scapula laterally; floor rhomboideus major with the sixth and seventh ribs.
-Lumbar triangle: iliac crest below, latissimus dorsi medially, external abdominal oblique laterally; floor internal oblique and transversus abdominis; a site of lumbar hernia.
-Paralysis of trapezius gives shoulder drop.
-## lose_the_mark
-Answering with erector spinae or the intrinsic back muscles. This chapter's five muscles belong to the upper limb and take anterior primary rami; the true back muscles are a different group.
-Giving the brachial plexus as trapezius's nerve. It is the spinal root of the accessory nerve, and the exception is asked directly.
-Confusing shoulder drop with winging. Shoulder drop is trapezius; winging is serratus anterior. Both stop the arm below the head, and only the accompanying sign separates them.
-Putting teres major or teres minor on the medial border of the scapula. They take the lateral border; the medial border is levator scapulae, the two rhomboids and serratus anterior.
-Putting teres major in the triangle of auscultation. Its boundaries are trapezius, latissimus dorsi and the medial border of the scapula, with rhomboideus major in the floor.
-Attributing lateral rotation or flexion of the arm to latissimus dorsi. It extends, adducts and medially rotates.
-Giving latissimus dorsi an origin from the lumbar spines directly. The book gives the thoraco-lumbar fascia, not the lumbar spines, along with the lower six thoracic spines.
-Letting the rhomboids and serratus anterior share a surface. The rhomboids reach the dorsal surface of the medial border and serratus anterior the ventral surface, which is why they oppose each other.
-Naming one nerve for the deep layer and forgetting levator scapulae's extra roots. It takes C3 and C4 in addition to the dorsal scapular nerve.
-Giving the lumbar triangle a floor of latissimus dorsi. Latissimus dorsi is its medial boundary; the floor is internal oblique and transversus abdominis.
-## image_recommendations
-### anatomy plate · Back view with the five muscles in two panels — trapezius and latissimus dorsi in place on the left, cut away on the right to show levator scapulae and the two rhomboids — with every attachment mapped on the underlying skeleton in matching colours
-Purpose: The deep-layer muscles are distinguished only by where along one border they insert, and that is unreadable as three sentences. A two-panel plate with the superficial layer reflected makes the layering and the border sequence one image.
-Priority: required
-Status: needed
-Kind: anatomy plate
-Section: Structure
-Source direction: purpose-drawn, following the department book Figs. 12, 13, 14 and 17 (PDF pages 163-168)
-Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
-### diagram · The triangle of auscultation and the lumbar triangle drawn on one back view, each boundary labelled with the muscle or bone that forms it and each floor tinted differently, with the stethoscope position marked on the first and the hernia site on the second
-Purpose: Both triangles are examined as boundary lists, and both lists share latissimus dorsi. Drawing them on the same back is what stops the two sets of boundaries being blended into one.
-Priority: required
-Status: needed
-Kind: diagram
-Section: Relations
-Source direction: purpose-drawn, following the department book Fig. 16 (PDF page 167)
-Rights: newly drawn for this product, or CC-BY / public domain
-### diagram · The triple relation of latissimus dorsi to teres major, drawn as three small panels along the muscle's course — behind, below, and in front at the insertion — with the posterior axillary fold marked where the two fuse
-Purpose: A relationship that changes three times along one muscle cannot be held from a sentence; three panels make the twist visible and explain the fold in the same figure.
-Priority: strongly helpful
-Status: needed
-Kind: diagram
-Section: Structure
-Source direction: purpose-drawn, following the department book Fig. 15 (PDF page 166)
-Rights: newly drawn for this product, or CC-BY / public domain
-### clinical photograph · A patient with unilateral shoulder drop from trapezius paralysis, shown from behind beside the normal side, with the level of the two acromia marked
-Purpose: Shoulder drop is a comparison rather than an appearance, and the examiner asks it to be recognised. A single side photographed alone teaches nothing.
-Priority: optional
-Status: needed
-Kind: clinical photograph
-Section: Clinical correlations
-Rights: consented clinical photograph, or an anatomical illustration if no consented image is available
-## conflicts
-Nerve supply of levator scapulae. The department book gives "dorsal scapular nerve (C5) + fibres from C3 and C4"; Dr. Galal's table gives "N. to rhomboids & C3, 4", which names the same nerve by a different name. Both are recorded, because a marker working from either wording should recognise the other.
-Which boundary of the triangle of auscultation trapezius forms. The department book puts the lateral border of trapezius **above** the triangle and the medial border of the scapula laterally; the concept record CON-MSK-2BCDBB34965818, drafted from the question books, puts trapezius **medially**. The triangle is the same triangle and the third boundary is the same in both, so the disagreement is one of how the sides are named rather than of what bounds them. The department book's naming is followed here.
-Insertion of the upper fibres of trapezius. The department book says "posterior border of lateral third of clavicle"; Dr. Galal says "post. border of lat. 1/3 clavicle". They agree, and the agreement is recorded because a third summary that says "outer third of the clavicle" is describing the same attachment in words the marker may not credit.
-## evidence_gaps
-Neither source gives a developmental account of these muscles, and neither explains why a limb muscle comes to be supplied by a cranial nerve. A student asked to account for trapezius's innervation has nothing in the faculty's own text to reason from.
-Neither source sets out an arterial supply for this group as a list. What is given is the anastomosis around the scapula, whose vessels run in the plane; the muscles' individual arteries are not named anywhere in this module's material.
-The department book names the lumbar triangle as a site of hernia and asks for its boundaries, but describes neither the clinical presentation nor the management of a lumbar hernia.
-The leaf had no concept at all when this article was drafted. Five were minted into ../concept/101-ISK-mcq-concepts.md by another lane while it was being written, and all five are now claimed and taught: trapezius, latissimus dorsi, the muscles of the two borders of the scapula, the nerve supply of the scapular muscles, and the triangle of auscultation. Prose was added for the lateral border of the scapula, the depressing action of the lower fibres of trapezius, and the root values of the scapular nerves, because those were the parts the new concepts asked for and the first draft did not carry.
-No independent citation has been attached to any statement in this article.
-## evidence_basis
-Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Chapter 2 "Muscles of the Back", PDF pages 163-168 — the two layers and their five muscles with origin, insertion, nerve supply and action; the triple relation of latissimus dorsi to teres major; the posterior axillary fold; the triangle of auscultation and the lumbar triangle; shoulder drop.
-Department Book Module 101, Chapter 3 "Shoulder Region", PDF pages 174-175 — serratus anterior, whose ventral insertion on the medial border of the scapula is what the rhomboids are contrasted with.
-Dr. Galal final revision (src_fc7ea5960363431009ed), page 4 — "Q. Trapezius", "Q. Latissimus dorsi", and the levator scapulae / rhomboideus minor / rhomboideus major comparison table.
-scripts/kasr/extract/mcq-bank.json, leaf "Muscles of the Back" — 29 distinct question stems, read for what the examiners ask.
-## field_notes
-arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
-media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: All five concepts whose module_subject is "101 ISK > Anatomy > Upper Limb > Muscles of the Back" are listed, copied from ../concept/101-ISK-mcq-concepts.md on a re-read after drafting. They did not exist when the article was first written.
-questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
-subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
-reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-publishedSummary: Not published — this article has not passed the evidence gate.
-publishedSections: As above.
-lastReviewed: Never reviewed.
-sections.Blood supply, innervation and lymphatics: The arterial paragraph reports that the sources give no list, rather than assembling one from elsewhere.
-sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
-## notes
-The article was written to the question books' stems and to Dr. Galal's two "Q." topics on the same page, because the leaf had no concept at the time. Five concepts appeared on it during the same pass and are now claimed; the prose needed three additions to cover them, which are noted in evidence_gaps.
-
----
-
-# Item
-## id
-ART-101-ANA-VEINS-OF-UPPER-LIMB
-## title
-Veins and lymphatics of the upper limb
-## subject
-msk
-## status
-Draft
-## owner
-Claude
-## topic
-Upper limb
-## language
-en
-## learner_stage
-Year 1 foundation
-## template_id
-TPL-ANATOMY
-## archetype
-anatomy
-## high_yield
-Core
-## time_sensitive
-stable
-## publication_gate
-needs_evidence
-## universities
-kau
-## years
-Year 1
-## module
-101 ISK
-## module_subject
-101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb
-## primary_node_id
-DIS-ANA-T02
-## secondary_node_ids
-SYS-MSK-T01-S01-M03
-SYS-MSK-T01-S01-M02
-## related_concepts
-CON-MSK-66A2E56C00F3A7
-CON-MSK-1F14D98DCE111B
-## related_articles
-ART-101-ANA-ARM: The cubital fossa, whose roof carries the median cubital vein and whose bicipital aponeurosis is what makes venepuncture there safe.
-ART-101-ANA-AXILLA-BREAST: The axillary vein and the five groups of axillary lymph nodes that every lymphatic in this article ends in.
-ART-101-ANA-FOREARM: The extensor retinaculum, which the cephalic and basilic veins pass superficial to, and the flexor retinaculum at the other side of the wrist.
-## aliases
-Veins of the upper limb | Cephalic vein | Basilic vein | Median cubital vein | Dorsal venous arch | Lymph drainage of the upper limb | Supratrochlear nodes | Infraclavicular nodes
-## reading_time
-10
-## summary
-Both great superficial veins of the limb start from the same dorsal venous arch and are told apart by which end they start from — cephalic laterally, basilic medially. Everything else follows: the cephalic ends in the axillary vein after piercing the clavipectoral fascia, the basilic becomes deep at the middle of the arm and helps make the axillary vein, and the median cubital vein between them is the commonest site of venepuncture in the body because a sheet of aponeurosis lies between it and the brachial artery. The lymphatics run with the veins and end, almost all of them, in one group of axillary nodes.
-## sections
-### Overview and position
-The veins of the upper limb are divided into a **superficial** and a **deep** group. They communicate freely with each other and are provided with **valves**.
-
-The superficial veins run in the **superficial fascia**, and the department book states plainly that they are **larger and more important than the deep veins**, into which they finally end. That is the opposite of the arrangement students expect from the lower limb, and it is the fact that makes the upper limb the site of choice for taking blood and giving fluids.
-
-All of the superficial veins begin on the **dorsum of the hand**, from a network in the superficial fascia there.
-
-### Structure
-**The superficial dorsal venous network (dorsal venous arch)** lies in the superficial fascia on the dorsum of the hand and receives the **dorsal digital and metacarpal veins**. Both great superficial veins of the limb rise from its two ends.
-
-**The cephalic vein** begins from the **lateral end** of the dorsal venous arch, **just behind the styloid process of the radius** — which is to say, in the roof of the anatomical snuff box. It runs upwards, winds round the lateral side of the wrist to reach the **anterior surface of the forearm**, and ascends on its lateral side. It crosses the **lateral part of the roof of the cubital fossa** into the arm, where it runs in a groove along the lateral side, and finally reaches the **delto-pectoral groove**. Just below the clavicle it pierces the **deep fascia and the clavipectoral fascia** to end in the **terminal part of the axillary vein**.
-
-**The basilic vein** begins from the **medial end** of the dorsal venous arch. It ascends along the **medial surface of the forearm**, then turns to reach the anterior surface just below the elbow, and crosses the **medial part of the roof of the cubital fossa** into the arm. It **pierces the deep fascia at the middle of the arm**, at the insertion of coracobrachialis, and ascends **medial to the brachial artery**. At the **lower border of teres major** it is joined by the two venae comitantes of the brachial artery, and the union **forms the axillary vein**.
-
-So the two veins end in different ways and the difference is examined: the cephalic **drains into** the axillary vein at its upper end, while the basilic **becomes** the axillary vein at its lower end.
-
-**The median vein of the forearm** begins near the wrist by the union of a few veins from the palm and ascends in the middle of the front of the forearm. Below the elbow it ends in the basilic or the cephalic vein, or it divides into two — a **median basilic vein** joining the basilic and a **median cephalic vein** joining the cephalic.
-
-**The median cubital vein** connects the cephalic and basilic veins in the superficial fascia of the **roof of the cubital fossa**, crossing **superficial to the bicipital aponeurosis**, which separates it from the brachial artery and median nerve lying deep to the aponeurosis. It is the **most prominent superficial vein in the body** and is the standard vein for intravenous injection.
-
-**The deep veins** are two kinds. **Venae comitantes** accompany the main arteries, usually **two to each artery**, anastomosing with each other across it; the venae comitantes of the radial and ulnar arteries join those of the brachial artery. And the **axillary vein**, which begins at the lower border of teres major, ascends on the medial side of the axillary artery, and ends at the outer border of the first rib by becoming the subclavian vein.
-
-The paired arrangement stops at the axilla, and the stopping point is examined: the **axillary artery has a single axillary vein and no venae comitantes**. An option that gives the axillary artery two venae comitantes is wrong for that reason, and it appears in the question books repeatedly beside the true statement about the brachial artery.
-
-### Relations
-The relation that carries the clinical weight is at the elbow. In the **roof of the cubital fossa**, from superficial to deep: skin, then superficial fascia carrying the **median cubital vein** with the medial and lateral cutaneous nerves of the forearm and the **supratrochlear lymph nodes**, then deep fascia **reinforced by the bicipital aponeurosis**, and only then the **brachial artery and median nerve**. A needle in the median cubital vein is separated from the artery and the nerve by that aponeurosis.
-
-At the **wrist**, both veins lie **superficial to the retinacula**. The beginning of the cephalic vein and the superficial radial nerve lie on the **lateral** side of the extensor retinaculum; the basilic vein and the dorsal cutaneous branch of the ulnar nerve on its **medial** side. Nothing venous passes deep to the extensor retinaculum, whose six compartments carry tendons, one nerve and one artery.
-
-At the **shoulder**, the cephalic vein lies in the delto-pectoral groove with the deltoid branch of the thoraco-acromial artery and the **infra-clavicular (delto-pectoral) lymph nodes**, and pierces the **clavipectoral fascia** — one of the four structures that do so, along with the lateral pectoral nerve, the acromio-thoracic artery, and the lymph vessels running from the infraclavicular nodes to the apical group.
-
-### Blood supply, innervation and lymphatics
-**Lymph nodes of the upper limb** are divided into deep and superficial.
-
-**Deep nodes** are the **five groups of axillary lymph nodes** — anterior (pectoral), posterior (subscapular), lateral (humeral), central and apical — together with a few nodes in the cubital fossa at the bifurcation of the brachial artery, in the arm along the brachial artery, and in the forearm along the radial and ulnar arteries.
-
-**Superficial nodes** are few and scattered, and form two named groups.
-
-The **supratrochlear (epitrochlear) nodes** lie in the superficial fascia of the **roof of the cubital fossa, above the medial epicondyle, along the basilic vein**. They receive from the **medial side of the hand and forearm** and send their efferents to the **lateral (humeral) group** of axillary nodes.
-
-The **infraclavicular (delto-pectoral) nodes** lie **along the cephalic vein in the delto-pectoral groove**, immediately below the clavicle. They receive the few lymphatics that accompany that vein and send their efferents to the **apical group** of axillary nodes.
-
-**Lymph vessels** follow the same two-vein plan.
-
-*Superficial vessels on the medial side of the wrist* follow the **basilic vein** in the forearm, pierce the deep fascia with it, and end in the **lateral (humeral) group** of axillary nodes — some of them passing first through the supratrochlear nodes just above the elbow.
-
-*Superficial vessels on the lateral side of the wrist* follow the **cephalic vein**. At the insertion of deltoid **most of them incline medially**, pierce the deep fascia and end in the **lateral (humeral) group**; a **few continue with the cephalic vein** and end in the **apical group**.
-
-*Deep vessels* follow the main arteries — radial, ulnar and brachial — and end in the **lateral group**.
-
-Two exceptions are named separately: deep vessels from the **scapular region** end in the **subscapular** group, and those from the **pectoral region** in the **pectoral** group.
-
-The pattern to hold is that the **lateral (humeral) group of axillary nodes is the destination of the whole limb**, medial and lateral, superficial and deep, except for the small cephalic-vein stream that reaches the apical group directly. That is why the lateral group is the one enlarged by an infected hand.
-
-### Development
-Neither Kasr source gives a developmental account of the limb's veins or lymphatics, and this module's embryology chapters do not follow the limb bud. The absence is recorded rather than filled.
-
-### Surface and imaging anatomy
-The **dorsal venous arch** is visible under the skin on the back of the hand in most people, especially with the hand dependent, and is the vein used when the antecubital fossa is unusable.
-
-The **cephalic vein** is followed as a line up the lateral side of the forearm and arm to the **delto-pectoral groove**, a palpable furrow between deltoid and pectoralis major.
-
-The **median cubital vein** is looked for in the roof of the cubital fossa, and is made to stand out with a tourniquet on the arm. Its landmark is the **bicipital aponeurosis**, which can be felt as a taut band when the elbow is flexed against resistance.
-
-The **supratrochlear nodes** are sought just above the medial epicondyle, along the basilic vein, and are palpated in a patient with a lesion of the medial fingers or the ulnar border of the hand.
-
-### Clinical correlations
-**Why venepuncture is done at the median cubital vein.** It is the most prominent superficial vein in the body, it is fixed in the superficial fascia of the roof of the cubital fossa, and the **bicipital aponeurosis** lies immediately deep to it, separating it from the brachial artery and the median nerve. The anatomy, not the size of the vein, is the answer to the exam question.
-
-**Why the upper limb rather than the lower.** The superficial veins of the upper limb are larger and more important than the deep, so a cannula in a superficial vein carries a large share of the limb's return and does not obstruct anything the deep system needs.
-
-**Why an infected finger produces a lump above the elbow.** Lymph from the medial side of the hand and forearm follows the basilic vein and passes through the **supratrochlear nodes** on its way to the axilla. A septic lesion on the ulnar side of the hand enlarges them; a lesion on the radial side usually does not, because that stream inclines medially at the deltoid to bypass them.
-
-**Why an infected hand enlarges the lateral axillary nodes.** Almost the entire limb — superficial and deep, medial and lateral — drains eventually to the **lateral (humeral) group**, which is therefore the group that swells in an infection of the limb, as distinct from the **anterior (pectoral) group** that a breast lesion reaches first.
-
-**Why the cephalic vein is used for a pacemaker or long line.** Its position in the delto-pectoral groove is constant and superficial, and it ends directly in the axillary vein after piercing the clavipectoral fascia, giving a short route to the central veins. The department book gives the anatomy; it does not describe the procedure, and none is described here.
-
-### Variations and anomalies
-The department book records that the **median vein of the forearm** may end in the basilic vein, or in the cephalic vein, or divide into a median basilic and a median cephalic vein — three normal patterns rather than one, which is why the venous outline at the elbow differs from patient to patient and why a described "M" pattern is a common arrangement rather than the arrangement.
-
-No other variation of the limb's veins or lymphatics is described in either source, and none is asserted here.
-## hold_these
-The superficial veins of the upper limb are larger and more important than the deep veins, and they end in them; both groups carry valves.
-Both great superficial veins begin from the dorsal venous arch on the back of the hand — cephalic from its lateral end, basilic from its medial end.
-The cephalic vein begins just behind the styloid process of the radius, ascends on the lateral side, crosses the lateral part of the roof of the cubital fossa, reaches the delto-pectoral groove, and pierces the clavipectoral fascia to end in the axillary vein.
-The basilic vein pierces the deep fascia at the middle of the arm and is joined at the lower border of teres major by the venae comitantes of the brachial artery to form the axillary vein.
-The median cubital vein connects the two in the roof of the cubital fossa, crossing superficial to the bicipital aponeurosis.
-The bicipital aponeurosis separates the median cubital vein from the brachial artery and the median nerve.
-The median vein of the forearm ends in the basilic, or the cephalic, or divides into median basilic and median cephalic veins.
-Venae comitantes accompany the main arteries, two to each, and those of the radial and ulnar arteries join those of the brachial.
-Supratrochlear nodes lie above the medial epicondyle along the basilic vein, receive from the medial side of the hand and forearm, and drain to the lateral (humeral) axillary group.
-Infraclavicular nodes lie along the cephalic vein in the delto-pectoral groove and drain to the apical axillary group.
-Lymph from the medial side of the wrist follows the basilic vein to the lateral group, some passing through the supratrochlear nodes.
-Lymph from the lateral side of the wrist follows the cephalic vein, most inclining medially at the deltoid to reach the lateral group, a few continuing to the apical group.
-Deep lymph vessels follow the radial, ulnar and brachial arteries to the lateral group; scapular region drains to subscapular nodes and pectoral region to pectoral nodes.
-## lose_the_mark
-Starting the basilic vein at the lateral end of the dorsal venous arch. Cephalic is lateral, basilic is medial, and the two stems that swap them are the commonest single-best-answer trap on this leaf.
-Saying the cephalic vein ends in the subclavian vein. It ends in the terminal part of the axillary vein, after piercing the clavipectoral fascia.
-Putting the beginning of the cephalic vein or the basilic vein deep to the extensor retinaculum. Both are superficial to it; only tendons, the posterior interosseous nerve and the anterior interosseous artery pass beneath.
-Answering "because it is big" when asked why the median cubital vein is used for injection. The mark is for the bicipital aponeurosis lying between it and the brachial artery.
-Calling the median cubital vein a deep vein. It lies in the superficial fascia of the roof of the cubital fossa.
-Saying the axillary artery is accompanied by two venae comitantes. It has one axillary vein; it is the brachial artery that has two venae comitantes.
-Sending supratrochlear lymph to the apical group. Supratrochlear efferents go to the lateral (humeral) group; it is the infraclavicular nodes along the cephalic vein that reach the apical group.
-Treating the basilic vein as a tributary of the axillary vein. It is one of the two roots that form it, together with the venae comitantes of the brachial artery.
-## image_recommendations
-### diagram · The superficial veins of the whole upper limb on one anterior figure, dorsal venous arch at the bottom with the cephalic rising from its lateral end and the basilic from its medial end, the median vein of the forearm and the median cubital vein drawn between them, the point where the basilic pierces the deep fascia marked, and the cephalic's passage through the clavipectoral fascia shown at the top
-Purpose: Both veins are defined entirely by which end they start from and where they go deep, and those are two positions on one drawing. The commonest exam error on this leaf is swapping them, which a single figure prevents and prose does not.
-Priority: required
-Status: needed
-Kind: diagram
-Section: Structure
-Source direction: purpose-drawn, following the department book Figs. 96 and 97 (PDF pages 253-254)
-Rights: newly drawn for this product, or CC-BY / public domain; no all-rights-reserved textbook figure
-### diagram · Sagittal section through the roof of the cubital fossa, layer by layer — skin, superficial fascia with the median cubital vein and the supratrochlear nodes, deep fascia reinforced by the bicipital aponeurosis, then the brachial artery and median nerve beneath — with a needle drawn entering the vein and stopping above the aponeurosis
-Purpose: The safety of venepuncture is a statement about layers, and a section is the only view in which a layer is a thing rather than a word. The needle makes the teaching point without a caption.
-Priority: required
-Status: needed
-Kind: diagram
-Section: Relations
-Source direction: purpose-drawn, following the department book Fig. 53 (PDF page 206) and the veins chapter PDF page 254
-Rights: newly drawn for this product, or CC-BY / public domain
-### diagram · Lymph drainage of the upper limb as arrows on one anterior figure — the medial stream following the basilic vein through the supratrochlear nodes to the lateral axillary group, the lateral stream following the cephalic vein and inclining medially at the deltoid with a thin branch continuing to the apical group, and the deep vessels following the arteries — with the five axillary groups drawn at the top
-Purpose: The whole answer is a set of directions that converge on one node group, and directions drawn as arrows are countable in a way that four prose sentences are not.
-Priority: required
-Status: needed
-Kind: diagram
-Section: Blood supply, innervation and lymphatics
-Source direction: purpose-drawn, following the department book Figs. 98 and 99 (PDF pages 255-256)
-Rights: newly drawn for this product, or CC-BY / public domain
-### clinical photograph · A forearm with a tourniquet applied and the median cubital vein standing out in the cubital fossa, the bicipital aponeurosis's position indicated on a companion drawing
-Purpose: The vein is identified in practice by appearance under a tourniquet, and a student who has only read "most prominent superficial vein" has no picture of what to look for.
-Priority: optional
-Status: needed
-Kind: clinical photograph
-Section: Surface and imaging anatomy
-Rights: consented clinical photograph, or an anatomical illustration if no consented image is available
-## conflicts
-Where the cephalic vein begins. The department book says "from the lateral end of the dorsal venous arch just behind the styloid process of radius"; Dr. Galal says it begins "from lat. end of dorsal venous arch in roof of anatomical snuff box". These are the same place described by two landmarks, and both are given here because the question books use both.
-Whether the basilic vein pierces the clavipectoral fascia. One question-book stem offers "the basilic vein pierces the clavipectoral fascia" as an option. Both Kasr sources are clear that it is the **cephalic** vein that pierces the clavipectoral fascia; the basilic pierces the deep fascia of the arm at the middle of the arm. The stem is recorded because a student who has met the option needs to know it is a distractor.
-## evidence_gaps
-Neither source gives a developmental account of the limb's veins or lymphatics.
-Neither source gives the valve arrangement of the superficial veins beyond the statement that they are provided with valves, so a question on the direction or number of valves cannot be answered from this faculty's own text.
-The department book states that the superficial veins are larger and more important than the deep veins but does not say why, and offers no account of the muscle pump or of venous return from the limb. The clinical paragraph here reasons from the book's own statement rather than adding a mechanism the book does not teach.
-The leaf had no concept when this article was drafted. Two were minted into ../concept/101-ISK-mcq-concepts.md by another lane during the same pass and are now claimed and taught: the median cubital vein and its bicipital aponeurosis, and the cephalic and basilic veins with their beginnings and terminations. One sentence was added for the second — that the axillary artery has a single axillary vein and no venae comitantes — because the concept carries it and the first draft did not.
-No independent citation has been attached to any statement in this article.
-## evidence_basis
-Department Book Module 101 (src_b1e6dc481eaf337268d0), Part II Anatomy, Chapter 8 "Veins of the Upper Limb", PDF pages 253-256 — superficial and deep groups; dorsal venous network; cephalic, basilic, median and median cubital veins; venae comitantes; deep and superficial lymph nodes; superficial and deep lymph vessels and their destinations.
-Department Book Module 101, Chapter 6 "Forearm", PDF page 206 — the roof of the cubital fossa and the bicipital aponeurosis, which is what makes the median cubital vein safe to puncture.
-Department Book Module 101, Chapter 4 "Axilla", PDF pages 191-193 — the axillary vein and the five groups of axillary lymph nodes that every stream in this article ends in.
-Dr. Galal final revision (src_fc7ea5960363431009ed), pages 12 and 36 — "Axillary V.", "Q. Axillary lymph nodes", and "Cephalic & basilic veins".
-scripts/kasr/extract/mcq-bank.json, leaf "Veins of the Upper Limb" — 9 distinct question stems, the smallest count on any Anatomy leaf in this module, read for what the examiners ask.
-## field_notes
-arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
-media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: Both concepts whose module_subject is "101 ISK > Anatomy > Upper Limb > Veins of the Upper Limb" are listed, copied from ../concept/101-ISK-mcq-concepts.md on a re-read after drafting. Neither existed when the article was first written.
-questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
-subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
-reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
-publishedSummary: Not published — this article has not passed the evidence gate.
-publishedSections: As above.
-lastReviewed: Never reviewed.
-title: The leaf is named "Veins of the Upper Limb" but the department book's chapter of that name also carries the whole lymph drainage of the limb, and the question books ask both. The title says so rather than leaving half the chapter unannounced.
-sections.Development: The absence of a developmental account is the source's; it is recorded in evidence_gaps.
-## notes
-The chapter this article follows is short, and the leaf carries only nine question-book stems. It is written full-length anyway, because the lymphatic half of the chapter is what the axilla and breast questions rest on, and because five of the nine stems turn on one swap — cephalic lateral, basilic medial.
 
 ---
 
@@ -1428,7 +1006,7 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T01
 ## related_concepts
-[clear]
+CON-MSK-A0C1F50FABDC0F | CON-MSK-D193498AB94D21 | CON-MSK-EE7CDEF8ACA587
 
 ## related_articles
 ART-101-ANA-FASCIA: The first structure described in these terms — superficial and deep, and everything the two words mean.
@@ -1561,6 +1139,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Sagittal as a synonym for median. The department book heads the first plane "Median plane (Sagittal)", treating the two as the same plane, and gives paramedian as the name for a parallel plane beside it. Most international texts use sagittal as the class name and midsagittal or median for the equal-halves plane. The department book's usage is followed here because it is what this faculty marks, and the divergence is recorded because a student reading around will meet the other convention.
 Which is the fourth plane. Dr. Galal's final revision does not cover this chapter at all — it opens at the Upper Limb and returns to the Basis chapters only for fascia, bone, joints and muscle. The department book is the only source of record for this leaf.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision does not cover this leaf. The department book is the sole source, so nothing in this article is corroborated by a second Kasr source.
 The department book gives no oblique plane, no term for rotation about an axis, and no movement vocabulary — flexion, extension, abduction, adduction, pronation, supination, circumduction — in this chapter. Those words are used from the very next chapter onwards and are never defined anywhere in the module's own text, although the question books use them in almost every stem.
@@ -1573,15 +1160,17 @@ scripts/kasr/extract/mcq-bank.json, leaf "Introduction" — 54 stems, of which t
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here — and for this leaf in particular, because the whole article is vocabulary, an unreviewed Arabic title would be a claim about terminology rather than a label.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Introduction" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Introduction" exists yet in either concept batch. The field is left empty rather than filled with a neighbouring leaf's concept, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Three pages of department book support a leaf the question books return to every sitting, and every later chapter depends on the vocabulary. The article is short on purpose: there is nothing here that is not in the book, and padding it with movement terminology the book never defines would hide the gap that matters.
 
@@ -1627,7 +1216,6 @@ DIS-ANA-T01
 ## secondary_node_ids
 SYS-MSK-T03-S02-M04
 ## related_concepts
-[clear]
 CON-MSK-6CD9FFF51AE9CD
 ## related_articles
 ART-101-ANA-DEEP-FASCIA: The deep half of this chapter taught on its own, with the five parts and their functions worked through one at a time.
@@ -1761,6 +1349,15 @@ Notes: Serves concept CON-MSK-2145D2D62EC401.
 ## conflicts
 Order of the superficial fascia functions. The department book gives thermal insulation first, then softening and smoothing, then skin movement; Dr. Galal's table gives softening and smoothing first, then skin movement, then heat loss. The content is identical and order is not marked; the book's order is used.
 Coverage overlap with ART-101-ANA-DEEP-FASCIA. That article, in 101-ISK-anatomy.md, teaches the same leaf and claims the deep fascia concept CON-MSK-6CD9FFF51AE9CD. This article claims both concepts on the leaf, because the superficial fascia concept CON-MSK-2145D2D62EC401 was not claimed by any article before it, and because the department asks the two lists against each other. The overlap is deliberate and is recorded so a reviewer can decide whether to merge the two articles or keep the deep-fascia one as the long-form treatment.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-C13EB37B0B03
+
+## span_ids
+SPN-ANA-FASCIA-01
+
 ## evidence_gaps
 Neither source describes the internal fascia, although both name it as one of the three kinds. A student asked to contrast deep with internal fascia has nothing in the department text to answer from. This is the same gap the concept record CON-MSK-6CD9FFF51AE9CD already carries, restated here because it belongs to the article too.
 Neither source defines aponeurosis, tendon or synovial sheath, although the muscular-system chapter's own stated learning outcome promises to define all three.
@@ -1776,14 +1373,16 @@ arabicTitle: Arabic anatomical terminology has not been reviewed for this module
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Mechanism: The explanation of why each item on the superficial fascia list follows from the tissue being loose and fatty is reasoning added here to make the list learnable. The book states the functions without deriving them.
 sections.Clinical significance: The two closing paragraphs — the carpal tunnel as an inelastic roof over a rigid floor, and the muscle-pump account of venous return — draw on statements made in this module's regional chapters and on general anatomical reasoning. The Fascia chapter itself makes neither connection.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf already has an article in 101-ISK-anatomy.md — ART-101-ANA-DEEP-FASCIA — which teaches the deep half in more depth. This one exists because the leaf's second concept, the superficial fascia's six functions, had no article claiming it, and because the department asks the two lists as a contrast. The overlap is recorded in conflicts for a reviewer to resolve.
 
@@ -1830,7 +1429,7 @@ DIS-ANA-T01
 SYS-MSK-T05
 SYS-MSK-T01-S03-M01
 ## related_concepts
-[clear]
+CON-MSK-00B4A0D32A6420 | CON-MSK-2C78EFB16CA67F | CON-MSK-40012FE18569EC | CON-MSK-6DCABD3AE947F5 | CON-MSK-9A22BB8909AF29 | CON-MSK-AEB62E99182AEE | CON-MSK-C30E73A5353ABB | CON-MSK-EFD497A9922A4D
 
 ## related_articles
 ART-101-ANA-CARTILAGINOUS-JOINTS: The epiphyseal plate is a joint as well as a growth plate, and the classification of joints that follows from the cartilage types is set out there.
@@ -2022,6 +1621,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 Whether the cartilage model dissolves. The department book says the mesenchyme "is changed at first into a cartilage model, and then the cartilage is changed into bone"; Dr. Galal says the cartilage "dissolves & disappears to be replaced by bones". These describe the same process with different emphasis, and the book's wording is used.
 Where the metaphysis lies. The department book says it "lies in the upper and lower parts of the long bone just beneath the epiphyseal cartilage"; Dr. Galal says "upper & lower parts of diaphysis just below epiphyseal cartilage". Dr. Galal's is the more precise of the two and is followed, because "part of the long bone" would allow a student to place it in the epiphysis.
 Functions of the skeleton, counted. The department book gives eight lettered functions; Dr. Galal compresses them into five numbered ones by pairing joints with muscle attachment and blood formation with calcium storage. The book's eight are taught, because a five-mark question marked against eight items rewards the longer list.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Neither source distinguishes red from yellow bone marrow, or says where each is found in the adult, although the question books ask that distinction repeatedly on this leaf — which bones hold red marrow in an adult, and what yellow marrow does under stress. The department book says only that the medullary cavity is "filled with bone marrow (soft vascular tissue)". A student revising this chapter has nothing to answer those items with.
 Neither source describes the microscopic structure of bone — osteon, lamella, canaliculus, osteocyte, osteoclast — anywhere in the Anatomy part. The histology part of the same book covers connective tissue but the two are not cross-referenced.
@@ -2036,16 +1644,18 @@ scripts/kasr/extract/mcq-bank.json, leaf "Skeletal system" — 101 distinct ques
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is this leaf exists yet in either concept batch. The field is left empty rather than filled from the Articular system leaf next door, whose concepts belong to a different article, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is this leaf exists yet in either concept batch. The field is left empty rather than filled from the Articular system leaf next door, whose concepts belong to a different article, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 sections.Clinical significance: Four paragraphs reason beyond the text — the epiphyseal plate as a plane of weakness, the epiphysis without collateral supply before ossification, the poor healing of an avascular cartilage, and the continuity of sinus mucosa with the nose. Each states a consequence of something the book asserts; the book itself draws none of them.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf carries 101 question-book stems and no concept. The article is written to the book's own three classifications and four-artery list, because those are what the five-mark written questions ask, and the marrow gap is recorded because it is the single most-asked thing on the leaf that the faculty's own chapter never teaches.
 
@@ -2096,7 +1706,7 @@ ART-101-ANA-ELBOW-JOINT: The anastomosis around the elbow is the department book
 ART-101-ANA-SHOULDER-REGION: The anastomosis around the scapula, the collateral route that keeps the limb alive when the axillary artery is blocked.
 ART-101-ANA-VEINS-OF-UPPER-LIMB: The superficial and deep veins of a limb, and the venae comitantes this chapter's principles describe in general.
 ## related_concepts
-[clear]
+CON-MSK-655D74FEE1515A | CON-MSK-A12FB50E90A64B
 
 ## aliases
 Cardiovascular system | Heart | Blood circulation | Systemic circulation | Pulmonary circulation | Portal circulation | Arterial anastomosis | End arteries | Venous return | Arteriovenous shunt
@@ -2254,6 +1864,15 @@ Source direction: purpose-drawn, following the department book PDF pages 145-146
 Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Cardiovascular system chapter, so this leaf has one source only.
 The department book gives the heart's position, chambers and valves and nothing else: no surfaces, borders or apex beat, no coronary arteries, no conducting system, no cardiac veins. A question book stem on the coronary circulation has nothing in this chapter to answer from, and the module's own Histology part does not cover it either.
@@ -2270,11 +1889,11 @@ scripts/kasr/extract/mcq-bank.json, leaf "Cardiovascular system" — 85 stems, o
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system" exists yet in either concept batch. The field is left empty rather than filled with an upper-limb vascular concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Cardiovascular system" exists yet in either concept batch. The field is left empty rather than filled with an upper-limb vascular concept, whose article is elsewhere, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
@@ -2282,6 +1901,8 @@ lastReviewed: Never reviewed.
 subject: Filed under cvs rather than msk because the material is cardiovascular, even though the leaf sits inside an Anatomy module whose other Basis leaves are msk.
 sections.Common misconceptions: The remark that a portal circulation is a venous system beginning and ending in capillaries is general anatomical knowledge; the department book describes the hepatic portal system without defining the class.
 sections.Clinical significance: The closing paragraph explaining the arteriovenous shunt as a thermoregulator assembles the book's separate statements about site, muscular coat, sympathetic control and local heat; the book does not draw them together.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Eight pages of department book, no second Kasr source, and a leaf whose question-bank entries are mostly upper-limb vessels filed here in error. The article teaches the chapter's general principles in full, because those principles are what the regional anastomosis questions in the rest of the module rest on.
 
@@ -2328,7 +1949,7 @@ DIS-ANA-T01
 SYS-IMM-T01
 SYS-HEM-T01
 ## related_concepts
-[clear]
+CON-MSK-8EFC3649B7898F | CON-MSK-BF3670E27D6F12
 
 ## related_articles
 ART-101-ANA-AXILLA-BREAST: The five groups of axillary lymph nodes and the lymphatic drainage of the breast — this chapter's principles in the region the papers ask them from.
@@ -2484,6 +2105,15 @@ Source direction: purpose-drawn, following the department book PDF pages 149-151
 Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Lymphatic system chapter, so this leaf has one source only.
 **The book names B and T lymphocytes once, as "free cells", and never describes them.** The question books examine them constantly on this leaf — where each matures, which is responsible for humoral and which for cellular immunity, the proportion of T lymphocytes among circulating lymphocytes, CD markers, cytotoxic and helper subsets, natural killer cells, plasma cells and their cartwheel nucleus, life spans. None of it is anywhere in the Anatomy part of the department book. A student revising this chapter for those items has nothing to revise from, and a reviewer should decide whether they belong to the Histology half of the module instead.
@@ -2500,17 +2130,19 @@ scripts/kasr/extract/mcq-bank.json, leaf "Lymphatic system" — 71 stems, of whi
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system" exists yet in either concept batch. The field is left empty rather than filled with an axillary node concept, whose article is elsewhere, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Lymphatic system" exists yet in either concept batch. The field is left empty rather than filled with an axillary node concept, whose article is elsewhere, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 subject: Filed under msk to match the leaf's placement in the Anatomy module's Basis section, as specified for this batch, although the material is immunological.
 sections.Mechanism: The paragraph explaining why each of the four characters of a lymph vessel follows from what lymph is for is reasoning added here to make the list learnable. The book states the four characters without deriving them.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Four pages of department book against 71 question-bank stems, most of which this chapter cannot answer. The single most useful thing this article does for a faculty reviewer is name that mismatch precisely: the book mentions B and T lymphocytes once, in a bracket, and the papers examine them in detail.
 
@@ -2557,7 +2189,7 @@ DIS-ANA-T01
 SYS-NEU-T01-S01
 SYS-NEU-T01-S02
 ## related_concepts
-[clear]
+CON-MSK-59F41C4BAF6181
 
 ## related_articles
 ART-101-ANA-RADIAL-NERVE: A peripheral nerve followed from its roots to its territory — this chapter's classification worked out in one nerve.
@@ -2713,6 +2345,15 @@ Rights: newly drawn for this product, or CC-BY / public domain
 ## conflicts
 Dr. Galal's final revision does not cover this chapter. The department book is the sole source of record for this leaf, so nothing here is corroborated by a second Kasr source.
 Name of the eighth cranial nerve. The department book prints "Auditory nerve"; most current texts call it the vestibulocochlear nerve. The book's name is used here, and the divergence is recorded because a student reading around will meet the other.
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 Dr. Galal's revision covers none of the Nervous system chapter, so this leaf has one source only, and it is three pages long.
 The book classifies the autonomic nervous system into sympathetic and parasympathetic and then says nothing else about either — no outflow, no ganglia, no neurotransmitter, no distribution — although one of its own stated learning outcomes for the chapter is to "discuss the two parts of the autonomic nervous system". The only autonomic anatomy in the chapter is the segmental level of the lateral-horn nuclei.
@@ -2729,16 +2370,18 @@ scripts/kasr/extract/mcq-bank.json, leaf "Nervous system" — 16 stems, almost n
 ## field_notes
 arabicTitle: Arabic anatomical terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists anywhere in the repository for this module, so there is no URL to attach. Everything this article needs is written as an image recommendation instead.
-relatedConcepts: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Nervous system" exists yet in either concept batch. The field is left empty rather than borrowed from the Upper Limb nerve-injury leaf, whose concepts belong to other articles, and the gap is named in evidence_gaps.
+relatedConceptIds: No concept whose module_subject is "101 ISK > Anatomy > Basis of Anatomy > Nervous system" exists yet in either concept batch. The field is left empty rather than borrowed from the Upper Limb nerve-injury leaf, whose concepts belong to other articles, and the gap is named in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that runs alongside it, and the link is written from the question side.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so module_subject carries the curriculum position.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 publishedSummary: Not published — this article has not passed the evidence gate.
 publishedSections: As above.
 lastReviewed: Never reviewed.
 subject: Filed under neuro, matching the material, although the leaf sits in an Anatomy module whose other Basis leaves are msk.
 sections.Clinical significance: The department book's chapter has no clinical section. Every paragraph in this one is a consequence drawn from a statement the chapter does make, and the section says so in its opening line rather than presenting the reasoning as the faculty's teaching.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The shortest chapter in the Basis section and, on the evidence of the question bank, the leaf whose stems least resemble its own content. The article teaches the chapter completely — it is short enough to teach completely — and spends most of its evidence_gaps saying which of the chapter's own stated learning outcomes the chapter does not deliver.

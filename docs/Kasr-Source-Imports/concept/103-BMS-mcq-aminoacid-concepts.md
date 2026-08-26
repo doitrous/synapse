@@ -179,7 +179,12 @@ KAU_Y1=0.4
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q1 and q2, and q6 by contrast | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-1675546C5D91
+CLM-355D769F24EC
+CLM-145DF72E15C6
+CLM-E3529E9409DE
+CLM-BBF534CDCB84
+CLM-DEBABF06C9DC
 
 ## resource_occurrence_ids
 [clear]
@@ -365,7 +370,9 @@ KAU_Y1=0.45
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q3 and q4 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-F4B2FE471780
+CLM-FAAE753F3991
+CLM-B47573C76EC7
 
 ## resource_occurrence_ids
 [clear]
@@ -374,7 +381,7 @@ src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q3 
 [clear]
 
 ## original_wording
-
+"Which of the following amino acid degradation pathway disorders would lead to renal failure due to stone formation? a) Phenylalanine b) Tyrosine c) Methionine d) Glycine" — key: d
 
 ## merge_ids
 [clear]
@@ -416,6 +423,7 @@ authored_needs_independent_evidence
 
 
 ## field_notes
+originalWording: The department textbook states nothing here to quote — "oxalate" and "glyoxylate" occur on none of its 160 pages. The wording is the question book's, which is the source this concept was authored from and the only source that asserts it. Kept as the source's own words rather than left empty, with support_mode `inference` and the textbook silence recorded in evidence_gaps.
 microtopicId: The department book's own section is already the leaf named in module_subject; the canonical tree has no node finer than DIS-BIO-T05 for individual amino acid metabolism.
 nanotopicId: No nanotopic exists below the microtopic level for this material.
 canonicalKey: This key does not hash to this concept's ID. The ID was fixed first, by questions already authored against it, and the key was written afterwards to describe the concept. Do NOT re-mint an ID from this key — mint-concept-id.mjs would return a different one and fork the record. The ID is the identity; the key is the de-duplication label. (This is the norm rather than the exception: none of the 1,718 live concepts has a key that reproduces its own ID.)
@@ -553,7 +561,11 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q5 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-6AB7956E7FC3
+CLM-A7AD1F939B08
+CLM-4913EB2C56DD
+CLM-B4AC57A835AF
+CLM-B8A3C9B66FD8
 
 ## resource_occurrence_ids
 [clear]
@@ -739,7 +751,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p120 q6 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-4DBC92CEAAEE
+CLM-3E2F285E3ED0
+CLM-A36C5D597C32
+CLM-985ADCD1CA34
 
 ## resource_occurrence_ids
 [clear]
@@ -928,7 +943,15 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q8 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-0F2556CCC91B
+CLM-941B05037BC6
+CLM-0E163C385986
+CLM-B3701CFBE9A3
+CLM-E6E05ADC1ABE
+CLM-FF6E8C03C35D
+CLM-0078256F177E
+CLM-AE027C92A37E
+CLM-3FC31E8ECCC9
 
 ## resource_occurrence_ids
 [clear]
@@ -1115,7 +1138,12 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q9 and q10 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-803CCD9B55A2
+CLM-3618370460EA
+CLM-31238480CBEA
+CLM-8416A6D7AADF
+CLM-53FCA94FBEB7
+CLM-D4FA465857ED
 
 ## resource_occurrence_ids
 [clear]
@@ -1302,7 +1330,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p121 q11 and q12, printed p122 q13 and q14 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-088857341956
+CLM-092C300FB29A
+CLM-4AA3093EAA30
+CLM-1F514D96DF5D
+CLM-3F6A09665415
 
 ## resource_occurrence_ids
 [clear]
@@ -1489,7 +1521,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | department_question_book | undated | printed p122 q15 and q16 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-A9FB2AEFB489
+CLM-A2495401D5A5
+CLM-0B756281F6E1
+CLM-1AA99D0A7E9E
 
 ## resource_occurrence_ids
 [clear]

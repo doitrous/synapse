@@ -16,7 +16,7 @@
  * that already carries IDs is left alone, so running this twice is safe and so
  * is running it after somebody has edited a value by hand.
  */
-import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { MODULES } from './seeds/types.ts'
 
 const module = process.argv[2]
@@ -30,8 +30,22 @@ if (!existsSync(mapPath)) throw new Error(`${mapPath} does not exist — run the
 const evidence: Record<string, { claimIds: string[], spanIds: string[] }> =
   JSON.parse(readFileSync(mapPath, 'utf8'))
 
-const BATCHES = ['biochemistry', 'physiology', 'anatomy', 'histology']
-  .map((half) => `docs/Kasr-Source-Imports/article/${slug}-${half}.md`)
+// Every article batch this module owns, not a hardcoded half-name list.
+//
+// This used to be `['biochemistry', 'physiology', 'anatomy', 'histology']`
+// mapped onto `<slug>-<half>.md`. That covers 102 INT and most of 103 BMS,
+// but 103 also authors `103-BMS-mcq-*.md` article batches the list never
+// named, 104 CPS's articles all live in one `104-CPS-articles.md`, and 108
+// INT's are `108-INT-pathology.md` / `108-INT-pharmacology.md` — none of
+// which end in a listed half, so this ran as a silent no-op (`batches: 0`)
+// for 108 before this change. Globbing the directory for the module's own
+// prefix is what "this module's article batches" actually means, and it is
+// no less safe: every file found still only has its `[clear]` claim_ids/
+// span_ids replaced, and only for article IDs the evidence map names.
+const ARTICLE_DIR = 'docs/Kasr-Source-Imports/article'
+const BATCHES = readdirSync(ARTICLE_DIR)
+  .filter((name) => name.startsWith(`${slug}-`) && name.endsWith('.md'))
+  .map((name) => `${ARTICLE_DIR}/${name}`)
   .filter(existsSync)
 
 let filled = 0

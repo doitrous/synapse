@@ -201,6 +201,15 @@ Source direction: purpose-drawn, following the department book's page 33 figure
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 Eosinophil differential count. The department book states 1-4% of white cells. Concept CON-HEM-5724364F46CD5A, drafted from the exam paper wording, states 2-4%. This article follows the department book, because that is what the faculty teaches and marks against. The concept should be reconciled to 1-4% at the evidence pass.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-33BE460986E7 | CLM-45F2D9E9FA20 | CLM-6661BBB9FD08 | CLM-7EBBBAEBDC2D | CLM-E075FC93FD8F | CLM-EC826322CA81
+
+## span_ids
+SPN-HIS-GRANULAR-LEUKOCYTES-01 | SPN-HIS-GRANULAR-LEUKOCYTES-02 | SPN-HIS-GRANULAR-LEUKOCYTES-03 | SPN-HIS-GRANULAR-LEUKOCYTES-04 | SPN-HIS-GRANULAR-LEUKOCYTES-05 | SPN-HIS-GRANULAR-LEUKOCYTES-06 | SPN-HIS-GRANULAR-LEUKOCYTES-07
+
 ## evidence_gaps
 The book gives no life span in days for any granulocyte beyond the phrase "a few days", so no number is stated here.
 The book does not name the stain used for the routine differential count. Leishman and Giemsa are named only in the image request, as direction to a fulfiller, not as taught content.
@@ -218,10 +227,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. Every figure this article needs is written as an image recommendation rather than left as an unexplained blank.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 practicalIdentification: The Barr body paragraph draws on three sources at once — the book for its presence, the handout for its drumstick shape and its 3-6%, and the department's own end-of-module paper for what it is. Each is named in evidence_basis and the gap between them is recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Written entirely from the department book chapter. The only content drawn from outside it is the naming of Leishman and Giemsa stains inside an image request, which is sourcing direction to a human and not taught content.
 
@@ -376,6 +388,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-3514249F8DFB | CLM-4A6A44939366
+
+## span_ids
+SPN-HIS-BLOOD-PLATELETS-01 | SPN-HIS-BLOOD-PLATELETS-02 | SPN-HIS-BLOOD-PLATELETS-03 | SPN-HIS-BLOOD-PLATELETS-04 | SPN-HIS-BLOOD-PLATELETS-05
+
 ## evidence_gaps
 The book does not use the term "marginal bundle" for the platelet's microtubules, although the concept definition does. This article uses the book's own wording, "microtubules maintaining cell shape".
 The book does not describe the platelet's role in coagulation beyond naming the alpha granule contents as "clotting factors". No named factor, no cascade and no adhesion receptor is given, so none is stated here.
@@ -392,10 +413,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository. The figures this article needs are written as image recommendations.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
 practicalIdentification: The size comparison against the small lymphocyte is assembled from three chapters of the book, and the note that the department's platelet markers are usually plural is a reading of the plates. Both are recorded in evidence_gaps.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught what a platelet is — a non-nucleated fragment, 2 to 4 µm, with a pale hyalomere and a dark granulomere — but it was written for a written paper and said nothing about finding one on a film among cells that are all larger than it. That is what the department's plates actually ask, and it is now in Key determinants.
 
@@ -443,7 +467,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B | CON-FND-2030501B814D35 | CON-FND-90E8073879B42A | CON-FND-B83D7EAAF68D3B | CON-FND-97930723FE0D94
+CON-FND-EE10AFCE944705 | CON-FND-0BB73C5CC1821B | CON-FND-CC62175DBE7355 | CON-FND-45A380D5F6A77F | CON-FND-2E2D5D5817E5F5 | CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B | CON-FND-2030501B814D35 | CON-FND-90E8073879B42A | CON-FND-B83D7EAAF68D3B | CON-FND-97930723FE0D94 | CON-FND-4589050BE16100 | CON-FND-471B49C03F8BF8 | CON-FND-5EFDEADAA559B8 | CON-FND-6EC4DC6997F361 | CON-FND-6F4EB91B19C122 | CON-FND-721D9B96A2367F | CON-FND-7D406E91EA3BF2 | CON-FND-7D55448AC644C5 | CON-FND-A5D2D2350D099D | CON-FND-E15318FC4CE3A1
 ## related_articles
 ART-101-HIS-NON-GRANULAR-LEUKOCYTES: The monocyte is described there as a blood cell, with its counts and its whole immunological family; here it is described as the macrophage's origin.
 ART-101-HIS-GRANULAR-LEUKOCYTES: The basophil is the mast cell's blood counterpart, sharing metachromatic granules and IgE receptors, and the book compares them directly.
@@ -694,6 +718,15 @@ Rights: must be CC-BY or public domain
 Where the monocyte and the B lymphocyte belong. Concepts CON-HEM-22B546E0AA7D80 and CON-HEM-9F3C4150F1076B both sit on the Blood > Non granular leukocytes leaf, and the leaf-correct article for both is ART-101-HIS-NON-GRANULAR-LEUKOCYTES, which teaches the monocyte and all three lymphocyte types in full as blood cells. That article lives in a sibling batch file this session was not permitted to edit, so its `related_concepts` could not be extended and the coverage link could not be made from there. Both concepts are declared here instead, on an article that does teach both cells — the monocyte with its counts, light- and electron-microscopic picture and functions, and the B lymphocyte with its percentage, maturation site, surface receptors and pathway to the plasma cell — because the department book's own accounts of the macrophage and the plasma cell begin "arises from the monocyte" and "arises from the B lymphocyte", and each pair is one cell at two stages. The fix at the evidence pass is one line in each place: add `CON-HEM-22B546E0AA7D80 | CON-HEM-9F3C4150F1076B` to the `related_concepts` of ART-101-HIS-NON-GRANULAR-LEUKOCYTES and repoint both entries in `scripts/kasr/seeds/articles.ts`. This article's own teaching of the two precursors should stay, because the macrophage and the plasma cell are not intelligible without them.
 Whether the macrophage is described as fixed or free. The department book says the macrophage "is found in C.T., lymphoid tissue, bone marrow, brain, lung and liver" and draws no fixed-versus-free distinction. Concept CON-FND-45A380D5F6A77F describes it as fixed in connective tissue as the histiocyte and free in lymphoid tissue, bone marrow, brain, liver and lung. This article states the book's list and names the histiocyte as the book does, without asserting the fixed-free split, which no Kasr source in the corpus makes.
 Origin of the mast cell. The department book states the mast cell arises from the undifferentiated mesenchymal cell. Standard current texts derive it from a bone-marrow progenitor that matures in the tissues. This article states the book's position because that is what this faculty teaches and marks, and the disagreement is recorded here rather than resolved silently.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-0706F0B622BB | CLM-1E28C5F758AB | CLM-3A0335A796EC | CLM-778DF53B44AF | CLM-95C38785030F
+
+## span_ids
+SPN-HIS-CONNECTIVE-TISSUE-CELLS-01 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-02 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-03 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-04 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-05 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-06 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-07 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-08 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-09 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-10 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-11 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-12 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-13 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-14 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-15 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-16 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-17 | SPN-HIS-CONNECTIVE-TISSUE-CELLS-18
+
 ## evidence_gaps
 The book does not describe the internal ultrastructure of the mast cell granule. It says only "electron-dense membrane-bound granules". The scroll or lamellar internal structure named in concept CON-FND-EE10AFCE944705 is not in this chapter, is not stated in this article, and needs either an independent citation or removal from the concept.
 The book gives no mast cell count or density per unit tissue.
@@ -719,11 +752,14 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so the plates this article needs are written as image recommendations.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-EE10AFCE944705 carries no secondary placement, and none is invented here.
 practicalIdentification: The paragraph on how a fibroblast reads on an ordinary section, and the contrast with an endothelial nucleus, are joined from the department book's description of the cell and the practical book's plate rather than quoted from either. It is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The Normal values section borrows the mast cell size and life span from the granular leucocyte chapter of the same book, because the connective tissue chapter gives neither. Both are the department's own figures.
 
@@ -769,7 +805,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-73F10C624D4BE1 | CON-FND-8BD70C3ED36B79 | CON-FND-ED156BF8FBFD46 | CON-FND-E0B130AC5EC939 | CON-FND-89F4A730D095B7 | CON-FND-F4DF782C697CCF | CON-FND-0492C40A7F76E7 | CON-FND-08378767774524 | CON-FND-369A1D27DFE0DD | CON-FND-82768007A697F1 | CON-FND-4AE74C678A6F64 | CON-FND-ACF503263BA7D7 | CON-FND-759499A4A27938 | CON-FND-7650D31963FEBD | CON-FND-53E16F5D4E3538
+CON-FND-9D325B98FC59A0 | CON-FND-0B3CC0A79F9150 | CON-FND-56B72DE04F5FED | CON-FND-73F10C624D4BE1 | CON-FND-8BD70C3ED36B79 | CON-FND-ED156BF8FBFD46 | CON-FND-E0B130AC5EC939 | CON-FND-89F4A730D095B7 | CON-FND-F4DF782C697CCF | CON-FND-0492C40A7F76E7 | CON-FND-08378767774524 | CON-FND-369A1D27DFE0DD | CON-FND-82768007A697F1 | CON-FND-4AE74C678A6F64 | CON-FND-ACF503263BA7D7 | CON-FND-759499A4A27938 | CON-FND-7650D31963FEBD | CON-FND-53E16F5D4E3538 | CON-FND-05D3B2832089AB | CON-FND-0E38E21957DB05 | CON-FND-195407DF67047D | CON-FND-1ACE68A9080772 | CON-FND-2560DB7970AF40 | CON-FND-29AD7E837E1E1E | CON-FND-405BB5EA3C359E | CON-FND-4284C6B8667CD6 | CON-FND-60953640114635 | CON-FND-6268E97A4A9F26 | CON-FND-632A634868EEC6 | CON-FND-6D29BE5A5B1325 | CON-FND-7D25B3CB28F0F6 | CON-FND-9EBFBDE42AC100 | CON-FND-B845AC57451E7F | CON-FND-DAF4EB4BC63077 | CON-FND-E66C68C0B80D16 | CON-FND-F2650956ED1A0C
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: Cilia, microvilli and stereocilia are microtubular and microfilamentous derivatives described in this same cytology chapter, and the epithelial chapter cross-refers to it rather than repeating them.
 ART-101-HIS-BLOOD-PLATELETS: The platelet's lambda granules are lysosomes, and its microtubules and actin filaments are the cytoskeletal elements set out here.
@@ -1126,6 +1162,15 @@ Rights: must be CC-BY or public domain
 Notes: Serves concept CON-FND-ED156BF8FBFD46.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1F498C9A39D5 | CLM-33D0317FBC0C | CLM-892514BBF5B4
+
+## span_ids
+SPN-HIS-CYTOPLASMIC-ORGANELLES-01 | SPN-HIS-CYTOPLASMIC-ORGANELLES-02 | SPN-HIS-CYTOPLASMIC-ORGANELLES-03 | SPN-HIS-CYTOPLASMIC-ORGANELLES-04 | SPN-HIS-CYTOPLASMIC-ORGANELLES-05 | SPN-HIS-CYTOPLASMIC-ORGANELLES-06 | SPN-HIS-CYTOPLASMIC-ORGANELLES-07
+
 ## evidence_gaps
 The book does not name acid phosphatase, or any other histochemical reaction, as the test that confirms a body is a lysosome. It says only that lysosomes "require histochemical stains". The acid-phosphatase reaction named in the pitfall of concept CON-FND-9D325B98FC59A0 is therefore unsupported by this source and is not stated in this article.
 The book gives no size in nanometres for a primary or a secondary lysosome, so the article describes them as small and larger rather than giving a figure.
@@ -1148,10 +1193,13 @@ media: No image exists in the repository, so every figure is written as an image
 questionIds: Questions for this article are authored in the question pass that follows.
 practicalIdentification: The Nissl's granules paragraph in Mechanism is the one place in this article where the two sources are joined rather than quoted. The department book names neither Nissl nor the nerve cell as an example of localised basophilia; the revision deck names the plate and prints no answer. The join is recorded in evidence_gaps.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-9D325B98FC59A0 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended from a lysosome article into an account of the whole cytoplasm chapter, and retitled to match, because six concepts sit on this leaf: the lysosome types, the smooth endoplasmic reticulum, the Golgi apparatus, the ribosomes, the mitochondrion and the cytoskeletal comparison. Every one of them is asked the same three ways — light microscopy, electron microscopy, function — and the article is organised around that, with the department book's own two comparative tables reproduced as prose in Key determinants.
 
@@ -1199,7 +1247,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T01
 ## related_concepts
-CON-FND-0FAE59E00B748E | CON-FND-942169C7CEC1CA
+CON-FND-0FAE59E00B748E | CON-FND-942169C7CEC1CA | CON-FND-2EAD7BC676C215 | CON-FND-47743DDD3ED7A0 | CON-FND-5114283D5309E5 | CON-FND-59E3FDA20F54AD | CON-FND-993662DC8318E5 | CON-FND-ACB35745EC9A5D | CON-FND-BBC8959FD63F56 | CON-FND-D716C3939DB217
 ## related_articles
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The department book teaches cilia, flagella, microvilli and stereocilia in the cytology chapter and cross-refers to it from here, so the ultrastructure in this article is drawn from there.
 ART-101-HIS-SURFACE-EPITHELIUM: Ciliated epithelia, and the clear against non-clear basement membrane that separates stratified squamous from transitional epithelium, are described in the surface epithelium chapter.
@@ -1341,6 +1389,15 @@ Source direction: openly licensed cell biology EM atlas
 Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The department book does not mention dynein arms, nexin links or radial spokes. It attributes the beat to "bending of adjacent doublets" and stops there. The dynein arms named in concept CON-FND-0FAE59E00B748E are therefore not supported by this source, are not stated in this article, and need either an independent citation or removal from the concept.
 The book does not name the disease of immotile cilia, describing only chronic respiratory infection and male infertility as consequences. No syndrome name is given here.
@@ -1358,11 +1415,14 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so every figure is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-0FAE59E00B748E carries no secondary placement, and none is invented here.
 practicalIdentification: The explanation of why the microvillus core is pale is this article's reading of two of the book's statements rather than a sentence either source prints, and it is recorded in evidence_gaps.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: one identification concept sat here with no article claiming it. The article already taught both structures and the discriminator between them, so what was added is the department's own marker-by-marker answers and the two things a marked plate forces that a written account does not - that the microvillus is identified by an absence, and that length is the worst discriminator available because stereocilia are longer than many cilia.
 
@@ -1408,7 +1468,7 @@ Year 1
 ## primary_node_id
 DIS-HIS-T02
 ## related_concepts
-CON-FND-89FBF21510F273 | CON-FND-CC0954729ED55F | CON-FND-8760847341DE80 | CON-FND-A214482F13AD8D | CON-FND-9715187C19E7FA | CON-FND-28F7FA711C1C1C | CON-FND-8EEA6972B77898
+CON-FND-89FBF21510F273 | CON-FND-CC0954729ED55F | CON-FND-8760847341DE80 | CON-FND-A214482F13AD8D | CON-FND-9715187C19E7FA | CON-FND-28F7FA711C1C1C | CON-FND-8EEA6972B77898 | CON-FND-28D12B544C3BA3 | CON-FND-49350AB867CB5A | CON-FND-5AD09BF9FC2420 | CON-FND-6887E3F110A894 | CON-FND-68DA70C4BBE2A1 | CON-FND-6913B2CF5EFC7C | CON-FND-7FDC0D8E9467FA | CON-FND-8FEBD5195DCED2 | CON-FND-E51851DAB2DD13
 ## related_articles
 ART-101-HIS-MEMBRANOUS-SPECIALISATIONS: The clear against non-clear basement membrane, the desmosomes that hold stratified squamous epithelium together, and the cilia of the respiratory epithelium are all set out there.
 ## aliases
@@ -1588,6 +1648,15 @@ Source direction: purpose-drawn from the department book's own classification
 Rights: newly drawn for this product
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-51A288E04048 | CLM-9EED68AF159A | CLM-D3010F08C9FB
+
+## span_ids
+SPN-HIS-SURFACE-EPITHELIUM-01 | SPN-HIS-SURFACE-EPITHELIUM-02 | SPN-HIS-SURFACE-EPITHELIUM-03
+
 ## evidence_gaps
 The book does not name the plaque protein of the transitional epithelium's superficial cells. It says only "rigid plaques acting as a barrier", so no uroplakin is named here.
 The book does not describe the fusiform vesicles of the umbrella cell, nor give an EM account of transitional epithelium at all. The comparison in this article is a light-microscopic one because that is the level the source works at.
@@ -1605,10 +1674,13 @@ arabicTitle: Arabic histological terminology has not been reviewed for this modu
 media: No image exists in the repository, so every plate is written as an image recommendation.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 secondaryNodeIds: Concept CON-FND-89FBF21510F273 carries no secondary placement, and none is invented here.
 reviewer: Not yet reviewed by faculty, which is why the publication gate is needs_evidence.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: six identification concepts sat on the Surface Epithelium leaf with no article claiming them. Four the article already taught — simple squamous, simple cubical, simple columnar and pseudostratified columnar — and needed only the department's own marker-by-marker answers written down, which is the new run in Key determinants. Two needed the article extended first. Keratinised against non-keratinised stratified squamous existed here only as the sentence that the oesophagus is non-keratinised and the epidermis is keratinised, with nothing about the horny layer or about which end of the epithelium the decision is made at. Stereocilia existed as a nine-word parenthesis inside the pseudostratified list, which is not enough to answer a plate that asks what separates them from cilia.
 

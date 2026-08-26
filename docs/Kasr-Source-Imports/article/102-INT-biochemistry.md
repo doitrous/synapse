@@ -175,6 +175,13 @@ Calling arginine essential or non-essential. It is half-essential: enough is mad
 Putting lysine in the heterocyclic group because histidine is basic and heterocyclic. Lysine and arginine are basic aliphatic; histidine is the basic heterocyclic one.
 ## related_concepts
 CON-FND-D0EDFFF1477094
+CON-FND-327EF635E45CB6
+CON-FND-4EA3F93C091334
+CON-FND-5C05062976F311
+CON-FND-7C8A02831B3243
+CON-FND-889417DDD8A661
+CON-FND-A37A5AA8733ACE
+CON-FND-F7B968019AB64C
 ## related_articles
 ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE: the polymer these twenty monomers build, and where the disulfide bond between two cysteines does structural work.
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION: where a single substituted amino acid changes a protein, and why swapping glutamate for valine matters.
@@ -402,6 +409,12 @@ Claiming the α-helix is held together by disulfide bonds. Disulfide bonds belon
 Calling a denatured protein a hydrolysed protein. Hydrolysis cleaves peptide bonds; denaturation does not.
 ## related_concepts
 CON-FND-2414B3639FD4D3
+CON-FND-89C28B312B15FC
+CON-FND-99CEF760A9D2CC
+CON-FND-9F8AE7C57AFBA8
+CON-FND-BE919386760579
+CON-FND-BEB66C74781AF0
+CON-FND-FAA25760657211
 ## related_articles
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE: the twenty monomers whose side chains supply every bond that holds the higher orders together.
 ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS: haemoglobin is the worked example of quaternary structure, and myoglobin of a globular protein with none.
@@ -628,6 +641,16 @@ Calling starch indigestible because it is a polysaccharide. Amylase hydrolyses i
 ## related_concepts
 CON-GIT-9589A7077392FD
 CON-FND-F32B7A523D305A
+CON-FND-2BD334DFDAE34C
+CON-FND-358E18A31D89FC
+CON-FND-38F8E2264D46B1
+CON-FND-4128FE1AD6819C
+CON-FND-4706C1246E4B76
+CON-FND-ABEA43BF07B408
+CON-FND-CD24D4572D101B
+CON-FND-E84660F1CEC3AE
+CON-FND-EDE6D8E401EB10
+CON-FND-FC888FB7A7D8A8
 ## related_articles
 ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE: the protein core a glycosaminoglycan is conjugated to, and the conformational classes that core belongs to.
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE: the other class of biomolecule the book defines by structure and then explains clinically, including the glycolipids that carry a carbohydrate radical.
@@ -852,6 +875,20 @@ Labelling the pathway diagram with products where it asks for enzymes. The three
 CON-MUL-4749CA1B14B669
 CON-FND-588CA87354B099
 CON-FND-445EEBE58E1F25
+CON-FND-08650B3DDFE948
+CON-FND-0958D1436FD2E7
+CON-FND-1DFF2BB6521B64
+CON-FND-268703EAF31C9D
+CON-FND-30D2E317144DDF
+CON-FND-5C3202473D16EA
+CON-FND-CEDE8978E2DE3A
+CON-FND-D0969A4C2C03CE
+CON-FND-D1FDD52629718C
+CON-FND-D5D15A190D88AE
+CON-FND-E48C83F7BD0E6A
+CON-FND-E618B54C3E216C
+CON-FND-E77FD4A4D78884
+CON-FND-F5D38D496B7D0D
 ## related_articles
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE: the sister structural chapter, and the source of the carbohydrate radical that turns a ceramide into a glycolipid.
 ART-102-BIO-ENZYMES: where aspirin's acetylation of the serine hydroxyl at the cyclooxygenase active site is set out as an irreversible enzyme inhibition.
@@ -1093,6 +1130,13 @@ Swapping the two histidines. F8 is proximal and takes the fifth coordination; E7
 Calling the T form the oxygenated one. T is tense, deoxygenated and low-affinity; R is relaxed, oxygenated and high-affinity.
 ## related_concepts
 CON-END-47313D5F26B03A
+CON-HEM-0C20B87FDE8B31
+CON-HEM-0E5FE994670D4A
+CON-HEM-208821E5E203D5
+CON-HEM-9D7110C869FBDF
+CON-HEM-B9017F150AF212
+CON-HEM-BEF9577989EAF4
+CON-HEM-E172B2F684099D
 ## related_articles
 ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE: haemoglobin is this module's worked example of quaternary structure, and the bonds that hold its two dimers together are the ones listed there.
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION: the missense mutation that puts valine at position six of the β chain is taught there as the type example of its class.
@@ -1331,6 +1375,14 @@ Using coenzyme as a synonym for cofactor. A coenzyme is the organic kind of cofa
 ## related_concepts
 CON-FND-F29934C070A94C
 CON-INF-5A15540CA80809
+CON-FND-028C50A610B2A2
+CON-FND-42EE1863F04920
+CON-FND-5846431203789F
+CON-FND-6A58FA1680290F
+CON-FND-6BBAC69900B22F
+CON-FND-BA7E60E9E6800B
+CON-FND-CB8584ED2F3C49
+CON-FND-F6E154FA6FF42A
 ## related_articles
 ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES: NAD+, NADP+, FMN and FAD are the nucleotide coenzymes that make up the cofactor whose concentration is one of the five factors.
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE: the cyclooxygenase that aspirin acetylates is one of the two catalytic activities of prostaglandin H synthase on the eicosanoid pathway.
@@ -1551,6 +1603,10 @@ Answering with ATP and GTP. Those are the energy transduction group, not the hyd
 Writing nucleoside where the answer is a nucleotide. Every one of the four hydrogen carriers is a mononucleotide or a dinucleotide.
 ## related_concepts
 CON-FND-534286EBBAC239
+CON-FND-21029C98FEA19F
+CON-FND-C672878EA48528
+CON-FND-D6DFABFBA0BA5E
+CON-FND-F2A54F8809C051
 ## related_articles
 ART-102-BIO-ENZYMES: the cofactor whose concentration is one of the five factors affecting reaction rate, and the coenzyme-versus-metal-ion split these five belong to.
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR: where nucleotides stop being coenzymes and become the deoxynucleoside triphosphates a polymerase joins together.
@@ -1774,6 +1830,12 @@ Attributing proofreading to all five polymerases. The book gives proof-reading a
 Forgetting γ. It is the mitochondrial polymerase and it is the one students most often leave out of the five.
 ## related_concepts
 CON-FND-A73C06E0EC3C1D
+CON-FND-47766D8DAC7503
+CON-FND-75C487BD0973FA
+CON-FND-81A17C5BF7ED85
+CON-FND-A5CFD23270ACE3
+CON-FND-ADBBD5E030ECA6
+CON-FND-DB5CF51C91F866
 ## related_articles
 ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES: the deoxynucleoside triphosphates a polymerase joins, and the difference between a nucleoside and a nucleotide these enzymes are named around.
 ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION: the other template-directed synthesis in the central dogma, where only one strand is copied and no primer is needed.
@@ -1992,6 +2054,10 @@ Calling the transcribed strand the coding strand. The transcribed one is the tem
 Placing splicing in the cytoplasm. All four modifications happen in the nucleus, before the mRNA-protein complex leaves through a nuclear pore.
 ## related_concepts
 CON-FND-27013C64915C7E
+CON-FND-46D33A24F4AE03
+CON-FND-A734203535EAA1
+CON-FND-CDAB433363C64E
+CON-FND-EEEEDA8F5EA739
 ## related_articles
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR: the other template-directed synthesis, where both strands are copied and every new chain needs an RNA primer.
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION: what the mature mRNA is read for, and where a single base substitution in an exon becomes a changed or absent protein.
@@ -2239,6 +2305,15 @@ Putting the peptide bond formation at the P site. Peptidyl transferase joins the
 ## related_concepts
 CON-FND-344140D2457FBB
 CON-FND-4508AC0EA86F86
+CON-FND-25E8976EFF0509
+CON-FND-837C223B0C4E69
+CON-FND-89278C7DEE1C9C
+CON-FND-9A1437CD0A382C
+CON-FND-CC6BAFEE04D3F8
+CON-FND-E4551E87D19A8F
+CON-FND-F7408686F4736E
+CON-FND-FB17D0600C8D49
+CON-FND-FB99DCB7F61A0E
 ## related_articles
 ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION: where the mRNA this chapter reads is made and matured, and where an exon becomes the coding region a point mutation can fall in.
 ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS: the β-globin chain in which the missense mutation of sickle cell anaemia sits, and the structural consequence of putting valine at position six.
@@ -2474,6 +2549,11 @@ Calling apoptosis a form of cell injury. It is programmed, genetically directed 
 Naming cytochrome c as the initiator of the extrinsic pathway. Cytochrome c release is the intrinsic pathway's step, and it is controlled by Bax, Bak and Bok.
 ## related_concepts
 CON-FND-1F66060A9C2625
+CON-FND-32A72B4F49EC2B
+CON-FND-70E5BD77E8FE49
+CON-FND-B66BA480F8FD19
+CON-FND-F5627F4531F391
+CON-FND-FF40DB9ED068F9
 ## related_articles
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR: the S phase the checkpoints protect, and the repair machinery p53 buys time for by arresting the cycle in G1.
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION: where the mutations that inactivate a tumour suppressor gene are classified, and where the causes of DNA damage are listed.
@@ -2746,6 +2826,11 @@ Saying RNA never contains thymine. This book's comparison table lists thymine in
 ## related_concepts
 CON-FND-5BAF472E54A764
 CON-FND-87DC8A5CE668F7
+CON-FND-3660CDEFA054C3
+CON-FND-4DCC3E30FD4C86
+CON-FND-BDF683EF5CD960
+CON-FND-C5D9467CA2A949
+CON-FND-CB55EE69768E2E
 ## related_articles
 ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES: the nucleotides this chapter polymerises, and the nucleoside-against-nucleotide distinction the phosphodiester bond is built on.
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR: the antiparallel strands described here are what force one strand to be copied continuously and the other in Okazaki fragments.
@@ -3044,6 +3129,9 @@ Swapping the collagen types between the two tissues. Type II is cartilage; type 
 Explaining loss of height with age by collagen. It is the change in aggrecan that reduces cartilage compressibility; ageing collagen becomes less flexible, not shorter.
 ## related_concepts
 CON-FND-14647EC60106E1
+CON-FND-31F96EC2F609C9
+CON-FND-96FF52D15F67AE
+CON-FND-E6C216AED80ED8
 ## related_articles
 ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE: the levels of protein structure and the bonds that hold them, which this chapter applies to two named fibrous proteins.
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE: glycine, proline, lysine and the post-translational hydroxylation that produces hydroxyproline and hydroxylysine are classified there.

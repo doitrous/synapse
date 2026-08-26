@@ -1,0 +1,693 @@
+{
+  "source": {
+    "id": "src_a1c9b307c0fa78dc8724",
+    "file": "EOY PHYSIO 2022 Written 2022 102 (1) (1).pdf",
+    "module": "102 INT",
+    "sittingYear": 2022,
+    "tier": "end_of_year",
+    "sections": [
+      "Short Essay Questions",
+      "On Biochemical Basis Explain",
+      "Compare",
+      "Enumerate"
+    ]
+  },
+  "seeds": [
+    {
+      "q": 1,
+      "section": "Short Essay Questions",
+      "page": 2,
+      "marks": 6,
+      "asked": "Define autonomic ganglia. Mention its importance. Describe its different types. (6 marks)",
+      "label": "An autonomic ganglion is a relay station outside the CNS holding the mother neurons of postganglionic fibres, and there are four kinds: the paravertebral chain, the collateral ganglia, the terminal ganglia and the adrenal medulla",
+      "key": "autonomic-ganglia-types",
+      "definition": "A ganglion is a collection of neurons outside the CNS containing the cell bodies of postganglionic fibres. Each preganglionic axon synapses on 8-9 postganglionic cell bodies, so the ganglion acts as a distribution centre diffusing the autonomic output at a ratio of about 1:8 or 1:9. Four types exist: (1) the paravertebral sympathetic chain, on both sides of the vertebral column with a ganglion per spinal segment except the cervical region, which has only three (superior, middle, inferior), relaying sympathetic fibres only; (2) the collateral ganglia, midway between cord and viscera at the origin of the abdominal aorta's branches, named after the vessel — coeliac, superior mesenteric and inferior mesenteric relay sympathetic fibres, while ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres; (3) the terminal ganglia, near or in the organ itself, relaying parasympathetic fibres whose postganglionic axons are only 1 mm to a few cm long; and (4) the adrenal medulla, a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete adrenaline and noradrenaline directly into the blood.",
+      "objective": "Define an autonomic ganglion, state its importance as a distribution centre, and name and describe its four types.",
+      "pitfall": "Assuming every collateral ganglion is sympathetic because the abdominal ones are — the ciliary, sphenopalatine, submaxillary and otic collateral ganglia relay parasympathetic fibres.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Autonomic ganglia",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 2,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Short Essay Questions",
+      "page": 3,
+      "marks": 6,
+      "asked": "Describe how the acetylcholine and noradrenaline are removed after being exocytosed. (6 marks)",
+      "label": "Acetylcholine is destroyed at once by acetylcholinesterase, while noradrenaline is mostly recaptured by the nerve ending that released it and only slowly destroyed by MAO and COMT",
+      "key": "removal-of-acetylcholine-and-noradrenaline",
+      "definition": "Once secreted, most acetylcholine is split within a fraction of a second into acetate and choline by acetylcholinesterase, of which true (specific) cholinesterase sits on cholinergic nerve endings and pseudocholinesterase (non-specific) acts in plasma; the choline produced is transported back into the nerve ending for resynthesis of acetylcholine. Noradrenaline is removed within a few seconds by three routes: active re-uptake into the adrenergic nerve ending itself, which accounts for 50-80% of removal; diffusion away into surrounding fluid and blood; and enzymic destruction by monoamine oxidase (MAO), on the outer mitochondrial membrane, and catechol-O-methyl-transferase (COMT), present in tissues generally but not in the adrenergic nerve ending itself.",
+      "objective": "State the enzyme and mechanism that removes acetylcholine, and the three routes by which noradrenaline is removed, naming the two enzymes involved.",
+      "pitfall": "Assuming both transmitters are removed the same way. Acetylcholine's removal is essentially enzymic and immediate; noradrenaline's is mainly physical re-uptake, with enzymic destruction as a secondary route — which is why blocking re-uptake, not the enzymes, is the faster way to prolong noradrenaline's action.",
+      "subject": "neuro",
+      "primary": "DIS-PHY-T07",
+      "secondary": [
+        "SYS-NEU-T01-S02"
+      ],
+      "modulePath": "102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 3,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Short Essay Questions",
+      "page": 3,
+      "marks": 6,
+      "asked": "Define hepcidin. Outline its role in iron homeostasis. Mention the factors affecting hepcidin secretion. (6 marks)",
+      "label": "Hepcidin is a liver hormone that shuts ferroportin down on enterocytes and macrophages, so it lowers plasma iron, and its own secretion falls with iron deficiency, hypoxia and erythropoietin and rises with iron excess and inflammation",
+      "key": "hepcidin-regulation-of-iron-balance",
+      "definition": "The body has no mechanism to regulate iron excretion, so plasma iron level is regulated mainly through absorption. Hepcidin, a 25-amino-acid hormone secreted by the liver, is the main regulator of that absorption: it binds ferroportin on the basolateral membrane of enterocytes, causing its internalisation and degradation, and binds ferroportin on macrophages and hepatocytes, blocking iron release from those cells — so hepcidin promotes cellular iron storage and lowers plasma iron. The liver senses plasma iron level and adjusts hepcidin synthesis accordingly. Hepcidin production falls with iron deficiency, hypoxia and erythropoietin, and rises with excess iron intake and inflammation, which is why inflammatory disease causes anaemia.",
+      "objective": "Define hepcidin, state its site and mechanism of action, and list what raises and lowers its secretion.",
+      "pitfall": "Treating hepcidin as only blocking new dietary iron. It also blocks the release of recycled iron from macrophages that broke down old RBCs, so inflammation-driven hepcidin excess can starve the marrow of iron even when total body iron stores are normal.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T02-S01-M01"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Iron",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 3,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "Short Essay Questions",
+      "page": 4,
+      "marks": 6,
+      "asked": "Describe the platelet release reaction. (6 marks)",
+      "label": "The platelet release reaction empties the dense and alpha granules, and it is what turns an adherent platelet into an aggregating, clot-recruiting one",
+      "key": "platelet-release-reaction-mechanism",
+      "definition": "The platelet release reaction is a calcium-dependent step of platelet activation following adhesion to exposed subendothelial collagen and von Willebrand factor. It releases the contents of the dense granules — calcium, which promotes further release; ADP, which activates, aggregates and fuses more platelets; and serotonin, which reinforces vasoconstriction of the injured vessel — and the contents of the alpha granules, which include coagulation factors (fibrinogen, factor V, von Willebrand factor and factor XIII), platelet-derived growth factor (PDGF, which stimulates vessel-wall repair by driving proliferation of endothelium, smooth muscle and fibroblasts), platelet activating factor (PAF, which stimulates further platelet aggregation), and thromboxane A2, produced from membrane arachidonic acid by cyclooxygenase, which is a vasoconstrictor and a powerful stimulant of both the release reaction and platelet aggregation.",
+      "objective": "List the contents released from platelet dense and alpha granules during the release reaction and state what each contributes to haemostasis.",
+      "pitfall": "Treating the release reaction as the first step of platelet plug formation. Adhesion to exposed collagen comes first and triggers activation; the release reaction is the calcium-dependent step that follows and is what recruits and aggregates further platelets.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T03"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Platelets and haemostasis",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 4,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 5,
+      "section": "Short Essay Questions",
+      "page": 5,
+      "marks": 6,
+      "asked": "Case: (6 marks; each question 1 mark). A 31-year-old patient presented to the emergency room with dyspnea and acute chest pain. He was diagnosed as acute pulmonary embolism secondary to deep venous thrombosis. The physician prescribed to him tissue plasminogen activator. Further investigation proved that this patient has activated protein C resistance. Questions: a) Outline the mechanism of action of tissue plasminogen activator. b) Inside the body, explain the relation between protein C and tissue plasminogen activator. c) Clarify the role of thrombin in coagulation. d) How does thrombin lose its procoagulant activity and become a potent anticoagulant? e) Name the factors inactivated by protein C. f) Name 2 possible complications of blood clot formation inside blood vessels.",
+      "label": "The fibrinolytic system turns the same enzyme, thrombin, from the maker of the clot into the trigger of its own dissolution once it is bound to endothelial thrombomodulin",
+      "key": "physiological-limitation-of-coagulation",
+      "definition": "Thrombin has two opposite roles. Procoagulant: thrombin, formed from prothrombin by the prothrombin activator complex of active factor X, phospholipid, calcium and active factor V, converts fibrinogen to fibrin and drives the coagulation cascade. Anticoagulant: when thrombin binds thrombomodulin, expressed by endothelial cells (except cerebral microcirculation), the thrombin-thrombomodulin complex activates protein C; activated protein C (APC), with cofactor protein S, inactivates factors V and VIIIa (removing thrombin's own activators) and inactivates the inhibitor of tissue plasminogen activator (TPA), so that activated TPA — produced clinically by recombinant DNA technology as a drug — converts plasminogen to plasmin (with thrombin's help), and plasmin lyses fibrin and fibrinogen into fibrinogen degradation products, which themselves inhibit thrombin. Activated protein C resistance means factor V is not properly inactivated by APC, so this fibrinolytic brake fails and the patient over-clots, which is exactly the deep venous thrombosis and pulmonary embolism of the case. Uncontrolled intravascular clotting can obstruct blood flow (infarction of the tissue supplied) or embolise to lodge downstream, as the pulmonary embolus in this case did.",
+      "objective": "Trace thrombin's dual role in coagulation and in its own fibrinolytic shutdown via protein C, and explain why a defect in protein C's action on factor V causes a clotting tendency.",
+      "pitfall": "Treating protein C and TPA as unrelated drugs/factors. Activated protein C's job is precisely to unblock TPA — it inactivates TPA's own inhibitor — so protein C resistance leaves both factor Va active and TPA suppressed, a double push toward clot.",
+      "subject": "haem",
+      "primary": "DIS-PHY-T02",
+      "secondary": [
+        "SYS-HEM-T03"
+      ],
+      "modulePath": "102 INT > Physiology > Blood > Physiological limitations of blood coagulation",
+      "type": "mechanism",
+      "difficulty": "Hard",
+      "sourcePage": 5,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "On Biochemical Basis Explain",
+      "page": 7,
+      "marks": 6,
+      "asked": "The importance of capping and polyadenylation of mRNA molecules. (6 marks)",
+      "label": "Capping and polyadenylation both protect the message from nucleases and help it get made into protein, and the poly(A) tail length also sets how long the message survives",
+      "key": "eukaryotic-transcription-elements-and-mrna-processing",
+      "definition": "Capping adds a methyl-guanosine cap to the 5' end of the primary transcript; it stabilises mRNA by protecting it from ribonucleases, and it increases protein synthesis by promoting transport of mRNA to the cytoplasm and allowing its recognition by ribosomes. Polyadenylation adds a poly(A) tail of up to 200 adenine residues to the 3' end by poly(A) polymerase; it likewise stabilises mRNA against ribonucleases, increases protein synthesis by letting poly(A)-tail-binding proteins bind, and the length of the tail determines the mRNA's half-life.",
+      "objective": "State the importance of 5' capping and 3' polyadenylation of mRNA, distinguishing the shared function (protection) from polyadenylation's extra role (half-life).",
+      "pitfall": "Treating capping and polyadenylation as doing exactly the same job. Both protect against nucleases and aid translation, but only the poly(A) tail's length also sets the message's half-life.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > RNA Synthesis (Transcription)",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 7,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "On Biochemical Basis Explain",
+      "page": 7,
+      "marks": 6,
+      "asked": "cAMP acts as a hormone second messenger. (6 marks)",
+      "label": "A hormone that cannot enter the cell hands its message to adenylyl cyclase, which makes cAMP, which switches protein kinase A on, and that one relay explains how glucagon and epinephrine push glycogen breakdown while insulin pushes it back",
+      "key": "camp-second-messenger-mechanism",
+      "definition": "cAMP is formed from ATP by adenylyl cyclase and broken down to AMP by phosphodiesterase. Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, generating cAMP. Cyclic AMP activates protein kinase A: the inactive enzyme is a tetramer of two regulatory and two catalytic subunits, and binding of two cAMP molecules to each regulatory subunit releases the active catalytic subunits, which phosphorylate substrate enzymes, activating some (e.g. glycogen phosphorylase kinase) and inactivating others (e.g. glycogen synthase); a protein phosphatase reverses this by dephosphorylation. Glucagon and epinephrine act through this mechanism, raising cAMP and (by inhibiting protein phosphatase) sustaining the phosphorylated state, while insulin lowers cAMP by activating both protein phosphatase and phosphodiesterase, reversing glucagon's and epinephrine's effects.",
+      "objective": "Trace the chain from hormone-receptor binding to phosphorylated-enzyme effect, and explain how insulin reverses what glucagon and epinephrine do through this same pathway.",
+      "pitfall": "Assuming cAMP itself does the phosphorylating. cAMP's whole job is to release the catalytic subunits of protein kinase A from its regulatory subunits — the kinase does the phosphorylation.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Free Nucleotides",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 7,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "On Biochemical Basis Explain",
+      "page": 8,
+      "marks": 6,
+      "asked": "Collagen molecule has a strong flexible structure. (6 marks)",
+      "label": "Collagen is strong because every level of its structure is built for tightness — three residues per turn, glycine in every third position, a right-handed superhelix of left-handed chains, hydroxyproline hydrogen bonds, and covalent cross-links between chains",
+      "key": "collagen-structural-strength-basis",
+      "definition": "Tropocollagen is three left-handed alpha-chains twisted into a right-handed superhelix, each chain the repeating triplet Gly-X-Y (X usually proline, Y usually hydroxyproline). Its strength comes from several features together: each turn has only 3 residues (an ordinary helix has 3.6), making a very tight helix; glycine at every third position is small enough to let the three chains pack close together; the high hydroxyproline content forms interchain hydrogen bonds; covalent cross-links between adjacent chains give collagen its tensile property, letting it be stretched without breaking; and the molecules are arranged into fibrils and then fibres in a staggered, overhanging array that gives marked flexibility.",
+      "objective": "List the structural features, from the amino-acid triplet up to the fibre, that together give collagen its tensile strength and flexibility.",
+      "pitfall": "Crediting proline alone for the strength. Proline prevents a right-handed helix in the single chain, but it is glycine's small size that lets three chains pack close enough to superhelix together, and the covalent cross-links that let the result resist being pulled apart.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-MSK-T04-S02"
+      ],
+      "modulePath": "102 INT > Biochemistry > Proteins of Extracellular Matrix",
+      "type": "structure_function_relationship",
+      "difficulty": "Moderate",
+      "sourcePage": 8,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "On Biochemical Basis Explain",
+      "page": 8,
+      "marks": 6,
+      "asked": "Repair of damaged DNA occurs in four steps. (6 marks)",
+      "label": "DNA repair is a four-step assembly line — cut, remove, refill, seal — and losing any one step is what produces a genetic repair disease like xeroderma pigmentosum",
+      "key": "dna-repair-four-steps",
+      "definition": "DNA replicates with high accuracy but roughly one error occurs per 30,000 bases, and radiation, chemicals and spontaneous loss also damage bases; unrepaired damage becomes a permanent mutation. Repair proceeds in four broad steps: recognition of the lesion, by an endonuclease that cleaves the damaged strand to make a nick; excision of the damaged DNA, by an exonuclease; filling the gap, catalysed by a repair DNA polymerase (polymerase beta); and ligation, catalysed by DNA ligase. Defects in this repair machinery cause genetic disease, for example xeroderma pigmentosum, whose defective DNA repair causes hypersensitivity to sunlight/UV, increased skin cancer and premature ageing and death.",
+      "objective": "Name and order the four steps of DNA repair with the enzyme responsible for each, and give one disease caused by a defect in the pathway.",
+      "pitfall": "Naming DNA polymerase as the enzyme that finds the damage. Recognition is an endonuclease's job (it nicks the strand); the repair DNA polymerase only fills the gap after the damaged segment has already been excised.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > DNA Synthesis (Replication) and Repair",
+      "type": "mechanism",
+      "difficulty": "Moderate",
+      "sourcePage": 8,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "Compare",
+      "page": 9,
+      "marks": 4,
+      "asked": "DNA and RNA (4 marks)",
+      "label": "DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job",
+      "key": "dna-vs-rna-comparison",
+      "definition": "The book's own comparison table: nitrogenous bases — both have adenine, guanine and cytosine; DNA has thymine and no uracil, RNA has uracil and thymine only as a minor base in tRNA. Sugar — DNA has 2-deoxyribose, RNA has ribose. Shape of strand — DNA is a double helix, RNA is single-stranded. Types — DNA is linear or circular, RNA exists as mRNA, tRNA and rRNA. Site — DNA is in the nucleus and mitochondria, RNA is mainly in the cytosol and less commonly in the nucleus and mitochondria. Function — DNA carries genetic information and directs synthesis of RNAs, RNA carries out protein synthesis.",
+      "objective": "Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.",
+      "pitfall": "Saying RNA never contains thymine. Thymine appears in RNA too, as a minor base specifically in tRNA — uracil is simply RNA's major pyrimidine in place of thymine.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Nucleic Acids",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 9,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Compare",
+      "page": 9,
+      "marks": 4,
+      "asked": "Competitive and allosteric enzyme inhibitors (4 marks)",
+      "label": "A competitive inhibitor squats in the active site and loses to more substrate; an allosteric inhibitor changes the enzyme's shape from a separate site and cannot be out-competed",
+      "key": "competitive-vs-allosteric-enzyme-inhibitors",
+      "definition": "Competitive inhibitors are structurally similar to the substrate and compete reversibly for the active/catalytic site; the degree of inhibition depends on the inhibitor-to-substrate concentration ratio, Vmax is unchanged because raising substrate concentration overcomes the inhibitor, and the apparent Km rises. Allosteric inhibitors bind reversibly at a separate allosteric site (not the active site), producing a conformational change in the enzyme that lowers its affinity for the substrate; because they act away from the active site, adding more substrate cannot displace them, so they lower Vmax, apparent affinity (Km) or both, and they include physiological feedback inhibitors, where the end product of a pathway binds the allosteric site of an early regulatory enzyme.",
+      "objective": "Contrast where each inhibitor binds, whether it can be beaten by more substrate, and what each does to Km and Vmax.",
+      "pitfall": "Assuming both kinds are beaten by adding more substrate. Only the competitive kind is — an allosteric inhibitor works away from the active site by changing the enzyme's shape, so raising substrate concentration does not reverse it.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T02",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Enzymes",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 9,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Compare",
+      "page": 10,
+      "marks": 4,
+      "asked": "Myoglobin and Hemoglobin (4 marks)",
+      "label": "Myoglobin is a one-heme oxygen store built for muscle, hemoglobin is a four-heme oxygen taxi built for blood, and their oxygen-affinity curves are shaped by exactly that difference in job",
+      "key": "myoglobin-vs-hemoglobin-comparison",
+      "definition": "Site: myoglobin is present in cardiac and skeletal muscle; hemoglobin (HbA1) is in red blood cells. Structure: myoglobin has one heme ring and one polypeptide chain (apomyoglobin, 153 amino acids, 8 helices); hemoglobin has four heme rings and four chains (globin alpha2-beta2: alpha chains 141 amino acids/7 helices, beta chains 146 amino acids/8 helices). Function: myoglobin stores oxygen in muscle and releases it during severe muscular exercise; hemoglobin transports oxygen to the tissues, removes CO2 from the tissues, and buffers the blood. Affinity to oxygen: myoglobin has a higher affinity at low pO2 (is already 90% saturated at pO2 20 mmHg) so it does not unload readily except under severe demand; hemoglobin has a higher affinity at the lung's high pO2 and a lower affinity at the tissue's low pO2, which is what lets it load in the lung and unload in the tissue. Clinical significance: myoglobin is used as a blood marker of muscle damage (it is released into blood after myocardial infarction or severe muscle injury); HbA1c is used to assess diabetic control over the preceding three months.",
+      "objective": "Compare myoglobin and hemoglobin by site, subunit structure, function and the shape of their oxygen affinity, and explain why the affinity difference suits each protein's job.",
+      "pitfall": "Assuming myoglobin's higher affinity for oxygen makes it the better oxygen carrier. A carrier needs to load AND unload; myoglobin's high, flat affinity curve is exactly why it is a poor transporter and a good store — it only releases its oxygen when muscle pO2 falls very low, during severe exercise.",
+      "subject": "haem",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 1,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two sulfur-containing amino acids. (2 marks)",
+      "label": "Cysteine and methionine are the two sulfur-containing amino acids the book draws",
+      "key": "sulfur-containing-amino-acids",
+      "definition": "The department book's amino acid structures list cysteine and methionine as the sulfur-containing amino acids; cystine, formed by joining two cysteines with a disulfide bond, is a related sulfur-containing derivative.",
+      "objective": "Name the two sulfur-containing amino acids.",
+      "pitfall": "Naming cystine as a third amino acid rather than a disulfide-linked dimer of two cysteine residues.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Amino Acids of Biological Importance",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 2,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two essential fatty acids. (2 marks)",
+      "label": "Linoleic and alpha-linolenic acids are the two fatty acids the body cannot make and must eat",
+      "key": "essential-fatty-acids-and-functions",
+      "definition": "Essential fatty acids cannot be synthesised in the body and must be supplied in the diet; they are alpha-linolenic acid and linoleic acid. Arachidonic acid is normally synthesised in the body from linoleic acid, but becomes essential itself if linoleic acid is deficient.",
+      "objective": "Name the two essential fatty acids and explain why arachidonic acid is only conditionally essential.",
+      "pitfall": "Naming arachidonic acid as one of the two essential fatty acids. It is normally synthesised from linoleic acid in the body and only becomes essential when linoleic acid is deficient.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T04",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Lipids of Biological Importance",
+      "type": "definition",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 3,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two characteristics of the genetic code. (2 marks)",
+      "label": "The genetic code is specific and degenerate at once — one codon means one amino acid, but most amino acids have more than one codon",
+      "key": "genetic-code-characteristics",
+      "definition": "The genetic code has four characteristics: specificity, a particular codon always codes for only one amino acid; degeneracy, an amino acid may be coded by more than one codon (synonym codons); universality, the code is nearly the same in all organisms; and reading frame, codons are read from a fixed starting point as a continuous, non-overlapping sequence taken three bases at a time.",
+      "objective": "Name and briefly define two of the four characteristics of the genetic code.",
+      "pitfall": "Treating specificity and degeneracy as contradictory. Specificity is read codon-to-amino-acid (one codon, one meaning); degeneracy is read amino-acid-to-codon (one amino acid, several possible codons) — both hold at once.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T06",
+      "secondary": [
+        "SYS-FND-T02-S01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Protein Synthesis (Translation)",
+      "type": "classification",
+      "difficulty": "Moderate",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 4,
+      "section": "Enumerate",
+      "page": 10,
+      "marks": 2,
+      "asked": "Two homopolysaccharides. (2 marks)",
+      "label": "Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose",
+      "key": "homopolysaccharides-classification",
+      "definition": "Homopolysaccharides are polysaccharides made entirely of one type of monosaccharide unit; the glucans, formed of glucose, are starch, glycogen and cellulose, and the fructans, formed of fructose, include inulin.",
+      "objective": "Name two homopolysaccharides and the monosaccharide unit each is built from.",
+      "pitfall": "Calling a heteropolysaccharide (e.g. a glycosaminoglycan such as heparin) a homopolysaccharide. Homopolysaccharides are built from one repeating monosaccharide only.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T01",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Carbohydrates of Biological Importance",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 10,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 5,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 2,
+      "asked": "Two hemoglobinopathies. (2 marks)",
+      "label": "Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain",
+      "key": "hemoglobinopathies-examples",
+      "definition": "Hemoglobinopathies are disorders caused either by structurally abnormal globin chains, e.g. sickle cell anemia (HbS, from a point mutation replacing glutamate with valine at position 6 of the beta chain), or by an abnormally reduced amount of alpha or beta globin chains, e.g. the thalassaemias.",
+      "objective": "Name two hemoglobinopathies and say which of the two mechanisms (abnormal structure vs reduced amount) each represents.",
+      "pitfall": "Treating sickle cell anemia and thalassemia as the same mechanism. Sickle cell disease makes a structurally abnormal chain; thalassemia makes a normal chain in reduced amount.",
+      "subject": "haem",
+      "primary": "DIS-BIO-T05",
+      "secondary": [
+        "SYS-HEM-T01"
+      ],
+      "modulePath": "102 INT > Biochemistry > Chemistry of Hemoproteins",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 6,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 2,
+      "asked": "Two factors affecting the rate of enzyme catalyzed reaction. (2 marks)",
+      "label": "The rate of an enzyme-catalysed reaction is set by substrate concentration, enzyme concentration, cofactor concentration, temperature and pH",
+      "key": "factors-affecting-enzyme-reaction-rate",
+      "definition": "Five factors govern enzyme reaction velocity: substrate concentration (raises velocity toward Vmax as the enzyme saturates), enzyme concentration (velocity directly proportional until substrate becomes limiting), cofactor concentration, temperature (rises to an optimum near 37C and falls thereafter as the enzyme denatures), and pH (most enzymes have an optimum between pH 5 and 9).",
+      "objective": "Name two of the five factors that affect the rate of an enzyme-catalysed reaction.",
+      "pitfall": "Assuming higher temperature always means faster reaction. Past the optimum the enzyme itself denatures and velocity falls.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T02",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Enzymes",
+      "type": "classification",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    },
+    {
+      "q": 7,
+      "section": "Enumerate",
+      "page": 11,
+      "marks": 4,
+      "asked": "Four effects of denaturation on proteins. (4 marks)",
+      "label": "Denaturation ruptures the bonds holding secondary, tertiary and quaternary structure, leaving the primary sequence intact but the protein insoluble, more viscous, more digestible and biologically dead",
+      "key": "protein-denaturation-effects",
+      "definition": "Denaturation breaks the bonds stabilising the secondary, tertiary and quaternary structure, leaving only the primary structure. Effects: decreased solubility (nonpolar groups become exposed); increased viscosity; increased digestibility by proteolytic enzymes (peptide bonds become exposed); loss of secondary/tertiary/quaternary structure; loss of biological activity (enzymes inactivated); and loss of antigenic property.",
+      "objective": "List four effects of denaturation on a protein.",
+      "pitfall": "Saying the peptide bonds are broken. Denaturation leaves the primary structure untouched, which is exactly why a denatured protein is more digestible rather than already broken down.",
+      "subject": "fnd",
+      "primary": "DIS-BIO-T05",
+      "secondary": [],
+      "modulePath": "102 INT > Biochemistry > Proteins of Biological Importance",
+      "type": "mechanism",
+      "difficulty": "Easy",
+      "sourcePage": 11,
+      "resourceIds": [
+        "src_a488633802ec053c6325"
+      ]
+    }
+  ],
+  "schemes": {
+    "S1": {
+      "format": "structured_written",
+      "prompt": "Define autonomic ganglia, mention their importance, and describe their different types.",
+      "expects": [
+        "Definition: a ganglion is a collection of neurons outside the CNS, containing the mother neurons (cell bodies) of postganglionic nerve fibres (Module 102 Department Book, physical p152)",
+        "Importance: each preganglionic axon synapses on 8-9 postganglionic cell bodies, so autonomic ganglia act as distribution centres and diffuse the autonomic output, the ratio of preganglionic to postganglionic fibres being about 1:8 or 1:9 (Module 102 Department Book, physical p152)",
+        "Paravertebral sympathetic chain: on both sides of the vertebral column, one ganglion per spinal segment except only 3 in the cervical region (superior, middle, inferior); relays sympathetic fibres only (Module 102 Department Book, physical p152)",
+        "Collateral ganglia: midway between the spinal cord and the viscera at the origin of the abdominal aorta's branches, named after the vessel — coeliac, superior mesenteric and inferior mesenteric ganglia relay sympathetic fibres; ciliary, sphenopalatine, submaxillary and otic ganglia relay parasympathetic fibres (Module 102 Department Book, physical p153)",
+        "Terminal ganglia: near or within the visceral organ itself, relaying parasympathetic fibres whose postganglionic axons are very short (1 mm to a few cm) (Module 102 Department Book, physical p153)",
+        "Adrenal medulla: a modified sympathetic ganglion whose postganglionic cells have lost their axons and secrete adrenaline (80%) and noradrenaline (20%) directly into the blood when the preganglionic cholinergic sympathetic supply is stimulated (Module 102 Department Book, physical p153)"
+      ]
+    },
+    "S2": {
+      "format": "structured_written",
+      "prompt": "Describe how acetylcholine and noradrenaline are removed after being released.",
+      "expects": [
+        "Acetylcholine: split within a fraction of a second into acetate ion and choline by the enzyme acetylcholinesterase (Module 102 Department Book, physical p163)",
+        "True (specific) cholinesterase has high affinity for acetylcholine and sits on membranes of cholinergic nerve endings, in the synaptic area bound to collagen and at the cholinergic nerve terminal (Module 102 Department Book, physical p163)",
+        "Pseudocholinesterase (non-specific) is present in plasma and acts on acetylcholine that diffuses into surrounding fluid or plasma (Module 102 Department Book, physical p163)",
+        "The choline produced is transported back into the nerve ending and reused to synthesise new acetylcholine (Module 102 Department Book, physical p163)",
+        "Noradrenaline route 1: active re-uptake into the adrenergic nerve ending itself, accounting for 50-80% of removal of the secreted noradrenaline (Module 102 Department Book, physical p164)",
+        "Noradrenaline routes 2-3: diffusion away from the nerve ending into surrounding body fluids and blood; and destruction by monoamine oxidase (MAO, outer mitochondrial surface, deaminates noradrenaline) and catechol-O-methyl-transferase (COMT, present in tissues generally but not in adrenergic nerve endings, methylates noradrenaline) (Module 102 Department Book, physical p164)"
+      ]
+    },
+    "S3": {
+      "format": "structured_written",
+      "prompt": "Define hepcidin, outline its role in iron homeostasis, and mention the factors affecting its secretion.",
+      "expects": [
+        "Definition: hepcidin is a 25-amino-acid hormone secreted by the liver, and is the main regulator of iron absorption from the intestine (Module 102 Department Book, physical p130)",
+        "Because the body has no mechanism to regulate iron excretion, plasma iron level is regulated mainly through absorption, which is where hepcidin acts (Module 102 Department Book, physical p130)",
+        "Mechanism on enterocytes: hepcidin binds ferroportin on the basolateral membrane of enterocytes, causing its internalisation and degradation, blocking dietary iron export into plasma (Module 102 Department Book, physical p130)",
+        "Mechanism on macrophages/hepatocytes: hepcidin binds ferroportin on macrophages and hepatocytes, inhibiting release of stored/recycled iron from these cells (Module 102 Department Book, physical p130)",
+        "Net role: hepcidin promotes cellular storage of iron and lowers plasma iron levels; the liver senses plasma iron level and regulates hepcidin synthesis and secretion accordingly (Module 102 Department Book, physical p130)",
+        "Decreased by: iron deficiency, hypoxia, erythropoietin hormone. Increased by: excessive iron intake, inflammation (Module 102 Department Book, physical p130)"
+      ]
+    },
+    "S4": {
+      "format": "structured_written",
+      "prompt": "Describe the platelet release reaction.",
+      "expects": [
+        "A calcium-dependent reaction that follows platelet adhesion (to exposed subendothelial collagen and von Willebrand factor) and activation (Module 102 Department Book, physical p135)",
+        "Dense granule contents released: calcium (leads to more release), ADP (activation, aggregation and fusion of platelets), serotonin (reinforces and maintains vasoconstriction of the injured vessel) (Module 102 Department Book, physical p135)",
+        "Alpha granule contents released: coagulation factors — fibrinogen, factor V, von Willebrand factor and factor XIII (Module 102 Department Book, physical p135)",
+        "Alpha granule contents released: platelet-derived growth factor (PDGF), which stimulates vessel-wall repair by driving growth and multiplication of vascular endothelium, smooth muscle and fibroblasts (Module 102 Department Book, physical p135)",
+        "Alpha granule contents released: platelet activating factor (PAF), which stimulates platelet aggregation (Module 102 Department Book, physical p135)",
+        "Thromboxane A2 (TXA2), produced from membrane arachidonic acid by cyclooxygenase, is a vasoconstrictor, a stimulator of the release reaction itself, and a powerful stimulant of platelet aggregation (Module 102 Department Book, physical p135-Module 102 Department Book, physical p136)"
+      ]
+    },
+    "S5": {
+      "format": "structured_written",
+      "prompt": "Case of pulmonary embolism treated with tissue plasminogen activator, in a patient with activated protein C resistance.",
+      "parts": [
+        {
+          "letter": "a",
+          "prompt": "Outline the mechanism of action of tissue plasminogen activator.",
+          "expects": [
+            "TPA converts plasminogen into plasmin (fibrinolysin), with the help of thrombin; plasmin then lyses fibrin and fibrinogen into fibrinogen degradation products (FDPs), which in turn inhibit thrombin (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "b",
+          "prompt": "Inside the body, explain the relation between protein C and tissue plasminogen activator.",
+          "expects": [
+            "Thrombin bound to endothelial thrombomodulin activates protein C; activated protein C (with cofactor protein S) inactivates the inhibitor of TPA, which releases TPA to become active — so protein C is what switches TPA on (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "c",
+          "prompt": "Clarify the role of thrombin in coagulation.",
+          "expects": [
+            "Thrombin is the enzyme formed by the prothrombin activator complex (active factor X + phospholipid + Ca2+ + active factor V) that converts prothrombin to thrombin, which converts fibrinogen to fibrin, producing the clot; it is formed by both the intrinsic and extrinsic pathways (Module 102 Department Book, physical p140; also physical p138)"
+          ]
+        },
+        {
+          "letter": "d",
+          "prompt": "How does thrombin lose its procoagulant activity and become a potent anticoagulant?",
+          "expects": [
+            "When thrombin binds thrombomodulin on the endothelial surface it forms a thrombin-thrombomodulin complex that no longer clots fibrinogen but instead activates protein C, converting thrombin's action from procoagulant to anticoagulant (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "e",
+          "prompt": "Name the factors inactivated by protein C.",
+          "expects": [
+            "Activated protein C (with protein S) inactivates factor V and factor VIII(a) (Module 102 Department Book, physical p140)"
+          ]
+        },
+        {
+          "letter": "f",
+          "prompt": "Name 2 possible complications of blood clot formation inside blood vessels.",
+          "expects": [
+            "Local: obstruction of blood flow through the vessel with infarction (tissue anoxia and death) of the area supplied. Distant: embolism, in which part or all of the clot breaks off and lodges in a smaller downstream vessel — as the pulmonary embolus in this case (Module 102 Department Book, physical p140; case stem)"
+          ]
+        }
+      ],
+      "expects": []
+    },
+    "O1": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain the importance of capping and polyadenylation of mRNA molecules.",
+      "expects": [
+        "Capping: addition of a methyl-guanosine cap at the 5' end of the primary transcript (Module 102 Department Book, physical p74)",
+        "Importance of capping: stabilises mRNA by protecting it against ribonuclease attack; increases protein synthesis by increasing transport of mRNA to the cytoplasm and allowing its recognition by ribosomes (Module 102 Department Book, physical p74)",
+        "Polyadenylation: addition of a poly(A) tail (up to 200 adenine residues) at the 3' end, catalysed by poly(A) polymerase (PAP) (Module 102 Department Book, physical p74)",
+        "Importance of polyadenylation: stabilises mRNA against ribonuclease attack; increases protein synthesis by binding specific poly(A)-tail-binding proteins; and the length of the poly(A) tail determines the half-life of the mRNA (Module 102 Department Book, physical p74)"
+      ]
+    },
+    "O2": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain how cAMP acts as a hormone second messenger.",
+      "expects": [
+        "cAMP is formed from ATP by adenylyl cyclase and converted to AMP by phosphodiesterase (Module 102 Department Book, physical p69)",
+        "Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, which forms cAMP from ATP (Module 102 Department Book, physical p69)",
+        "Cyclic AMP activates protein kinase A, causing phosphorylation of target proteins/enzymes (Module 102 Department Book, physical p69)",
+        "Inactive protein kinase A is a tetramer of two regulatory (R) and two catalytic (C) subunits; binding of two cAMP molecules to each regulatory subunit releases the two catalytic subunits, which are active and phosphorylate their substrates (Module 102 Department Book, physical p69)",
+        "Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase); a protein phosphatase reverses the process by dephosphorylation (Module 102 Department Book, physical p69)",
+        "Glucagon and epinephrine activate adenylyl cyclase and raise cAMP, which inhibits protein phosphatase; insulin activates protein phosphatase and phosphodiesterase and lowers cAMP, reversing glucagon's and epinephrine's effects (Module 102 Department Book, physical p69)"
+      ]
+    },
+    "O3": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain why the collagen molecule has a strong flexible structure.",
+      "expects": [
+        "Tropocollagen is 3 left-handed alpha-chains, each about 1000 amino acids of the repeating triplet Gly-X-Y (X = proline, Y = hydroxyproline), twisted into a right-handed superhelix (Module 102 Department Book, physical p50)",
+        "Each turn of the helix contains only 3 amino acid residues, making a tighter helix than an ordinary protein (3.6 residues/turn) (Module 102 Department Book, physical p50)",
+        "Glycine, present at every third position, has a side chain small enough to let the 3 chains lie very close together (Module 102 Department Book, physical p50)",
+        "The high hydroxyproline content forms hydrogen bonds between the chains (Module 102 Department Book, physical p50)",
+        "Covalent cross-links between adjacent chains give collagen its tensile property, so it can be stretched without breaking (Module 102 Department Book, physical p50)",
+        "The molecules are arranged specifically into fibrils and then fibres in a staggered, overhanging array, which gives collagen marked flexibility (Module 102 Department Book, physical p50)"
+      ]
+    },
+    "O4": {
+      "format": "structured_written",
+      "prompt": "On a biochemical basis, explain how repair of damaged DNA occurs in four steps.",
+      "expects": [
+        "Step 1 — Recognition of the lesion: an endonuclease cleaves the damaged strand to form a nick (Module 102 Department Book, physical p85)",
+        "Step 2 — Excision of damaged DNA: the damaged part is removed by an exonuclease (Module 102 Department Book, physical p85)",
+        "Step 3 — Filling the gap: catalysed by a repair DNA polymerase (DNA polymerase beta) (Module 102 Department Book, physical p85)",
+        "Step 4 — Ligation: catalysed by DNA ligase (Module 102 Department Book, physical p85)",
+        "Context: DNA replication has an error rate of about 1 per 30,000 bases, and radiation, chemicals and spontaneous base loss also cause damage; unrepaired damage becomes a permanent mutation (Module 102 Department Book, physical p85)",
+        "Clinical correlate: defects of the repair mechanism cause genetic disease, e.g. xeroderma pigmentosum — hypersensitivity to sunlight/UV, increased skin cancer, premature ageing and death (Module 102 Department Book, physical p85)"
+      ]
+    },
+    "C1": {
+      "format": "comparison_table",
+      "prompt": "Compare between DNA and RNA.",
+      "expects": [
+        "Nitrogenous bases: both carry adenine, guanine and cytosine; DNA carries thymine and no uracil; RNA carries uracil, and thymine only as a minor base in tRNA (Module 102 Department Book, physical p79)",
+        "Sugar: DNA has 2-deoxyribose; RNA has ribose (Module 102 Department Book, physical p79)",
+        "Shape of strand: DNA is a double helix; RNA is a single strand (Module 102 Department Book, physical p79)",
+        "Types: DNA is linear or circular; RNA exists as mRNA, tRNA and rRNA (Module 102 Department Book, physical p79)",
+        "Site: DNA is in the nucleus and mitochondria; RNA is mainly in the cytosol, less commonly in the nucleus and mitochondria (Module 102 Department Book, physical p79)",
+        "Function: DNA carries genetic information and directs synthesis of RNAs; RNA carries out protein synthesis (Module 102 Department Book, physical p79)"
+      ]
+    },
+    "C2": {
+      "format": "comparison_table",
+      "prompt": "Compare between competitive and allosteric enzyme inhibitors.",
+      "expects": [
+        "Site of binding: competitive inhibitors bind reversibly at the active/catalytic site itself, because they structurally resemble the substrate; allosteric inhibitors bind reversibly at a separate allosteric site (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)",
+        "Mechanism: competitive inhibition depends on the ratio of inhibitor to substrate concentration and on relative affinities; allosteric inhibition works by producing a conformational change in the enzyme that lowers its affinity for the substrate (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)",
+        "Reversal by substrate: competitive inhibition is overcome by raising substrate concentration; allosteric inhibition, acting away from the active site, cannot be overcome this way (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)",
+        "Effect on kinetics: competitive inhibitors leave Vmax unchanged and raise the apparent Km; allosteric inhibitors decrease the enzyme's affinity for substrate (raise apparent Km), decrease Vmax, or both (Module 102 Department Book, physical p58-Module 102 Department Book, physical p59)",
+        "Example of allosteric inhibition: physiological feedback inhibition, where the pathway's end product binds the allosteric site of an early regulatory enzyme (Module 102 Department Book, physical p59)"
+      ]
+    },
+    "C3": {
+      "format": "comparison_table",
+      "prompt": "Compare between myoglobin and hemoglobin.",
+      "expects": [
+        "Site: myoglobin in cardiac and skeletal muscle; hemoglobin (HbA1) in red blood cells (Module 102 Department Book, physical p46)",
+        "Structure: myoglobin — one heme + one polypeptide chain, apomyoglobin 153 amino acids/8 helices; hemoglobin — four heme rings + four chains, globin alpha2-beta2 (alpha: 141 aa/7 helices; beta: 146 aa/8 helices) (Module 102 Department Book, physical p46)",
+        "Function: myoglobin stores O2 in muscle and releases it during severe muscular exercise; hemoglobin transports O2 to tissue, removes CO2 from tissue, and buffers blood (Module 102 Department Book, physical p46)",
+        "Affinity to oxygen: myoglobin has a higher affinity at low pO2 (90% saturated at pO2 20 mmHg); hemoglobin has a higher affinity at the lung and a lower affinity at the tissue (Module 102 Department Book, physical p46)",
+        "Clinical significance: myoglobin is a blood marker of muscle damage; HbA1c assesses diabetic control over the preceding 3 months (Module 102 Department Book, physical p46)"
+      ]
+    },
+    "E1": {
+      "format": "short_answer",
+      "prompt": "Enumerate two sulfur-containing amino acids.",
+      "expects": [
+        "Cysteine and methionine (Module 102 Department Book, physical p6)"
+      ]
+    },
+    "E2": {
+      "format": "short_answer",
+      "prompt": "Enumerate two essential fatty acids.",
+      "expects": [
+        "Alpha-linolenic acid and linoleic acid (Module 102 Department Book, physical p31)"
+      ]
+    },
+    "E3": {
+      "format": "short_answer",
+      "prompt": "Enumerate two characteristics of the genetic code.",
+      "expects": [
+        "Specificity: a particular codon always codes for only one amino acid (e.g. UUU codes only for phenylalanine) (Module 102 Department Book, physical p92)",
+        "Degeneracy: an amino acid may be coded by more than one codon (synonym codons, e.g. phenylalanine has two) — also acceptable: universality (the code is nearly universal) or reading frame (codons read from a fixed start point, 3 bases at a time, uninterrupted) (Module 102 Department Book, physical p92)"
+      ]
+    },
+    "E4": {
+      "format": "short_answer",
+      "prompt": "Enumerate two homopolysaccharides.",
+      "expects": [
+        "Starch and glycogen (both glucans, built of glucose units); cellulose is also acceptable (Module 102 Department Book, physical p23)"
+      ]
+    },
+    "E5": {
+      "format": "short_answer",
+      "prompt": "Enumerate two hemoglobinopathies.",
+      "expects": [
+        "Sickle cell anemia (HbS) and thalassemia (Module 102 Department Book, physical p47)"
+      ]
+    },
+    "E6": {
+      "format": "short_answer",
+      "prompt": "Enumerate two factors affecting the rate of an enzyme-catalyzed reaction.",
+      "expects": [
+        "Any two of: substrate concentration, enzyme concentration, cofactor concentration, temperature, pH (Module 102 Department Book, physical p56)"
+      ]
+    },
+    "E7": {
+      "format": "short_answer",
+      "prompt": "Enumerate four effects of denaturation on proteins.",
+      "expects": [
+        "Any four of: decreased solubility, increased viscosity, increased digestibility by proteolytic enzymes, loss of secondary/tertiary/quaternary structure, loss of biological activity, loss of antigenic property (Module 102 Department Book, physical p11)"
+      ]
+    }
+  },
+  "mediaRequests": [],
+  "unsat": [
+    {
+      "scheme": "E1..E7",
+      "issue": "The page-1 overview prints \"IV- Enumerate (7 questions ...... 14 marks)\", i.e. 2 marks per item across all 7. But item 7's own body text prints \"7) Four effects of denaturation on proteins. (4 marks)\" — 4 marks, not 2. The body's per-item mark is authoritative (same rule the 2024 102 paper's unsat used for its P3 discrepancy), so E1-E6 carry 2 marks each and E7 carries 4, summing to 16 rather than the header's 14; the paper's own page-1 summary (\"Total Marks: 80 Marks\") is 2 marks short of the true total of 82 (30 + 24 + 12 + 16) for the same reason."
+    },
+    {
+      "scheme": "S5",
+      "issue": "The case prints \"(6 marks; each question 1 mark)\" for 6 sub-questions (a-f), matching 1 mark each. None of the six sub-answers is on a page the department book covers in a solved worked example — they are all drawn from the book's Fibrinolytic System section (physical p140) and the general coagulation-mechanism pages (physical p138, cited for thrombin's procoagulant role, part c), which state the mechanism generally rather than walking through this specific clinical scenario. No student answer key exists for this paper (unsolved, no companion scan found in the manifest under either EOY 198/199's already-seeded pairing or a distinct solved copy for this sitting)."
+    }
+  ]
+}

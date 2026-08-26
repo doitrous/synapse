@@ -5,16 +5,32 @@
  * from `The cell` and one from `Nucleus`, because their concepts live here and
  * the emitter cannot write the same concept id twice in one batch. It spans
  * every organelle the department book teaches, which is why it carries far more
- * concepts than any other leaf — twenty-three, of which four are not minted here
+ * concepts than any other leaf — twenty-two, of which three are not minted here
  * at all.
  *
- * Four concepts are reused from the written-paper batch with their labels,
+ * Three concepts are reused from the written-paper batch with their labels,
  * definitions, objectives and pitfalls copied verbatim, so re-emitting them is
  * an update that changes nothing except adding the question books' occurrences
  * to their exam signal: `ser-structure-function-steroid-detoxification`,
- * `lysosome-types-electron-microscopy`, `lysosome-types-secondary-fates` and
- * `cilium-origin-and-ultrastructure`. A rival key for any of them would halve a
- * student's mastery of an idea two papers have already examined.
+ * `lysosome-types-secondary-fates` and `cilium-origin-and-ultrastructure`. A
+ * rival key for any of them would halve a student's mastery of an idea two
+ * papers have already examined.
+ *
+ * `lysosome-types-secondary-fates` was that rival key until it was merged here.
+ * This file carried a second concept, `lysosome-types-electron-microscopy`, for
+ * the four rows that identify a primary lysosome by its uniform electron
+ * density. It was a copy of what `101-eoy-2025.ts` used to key the written
+ * question "Mention EM of types of Lysosomes" under, kept after that seed was
+ * reconciled onto the cluster key and never moved with it — its label is still
+ * byte-identical to the label that seed now emits. The department book agrees:
+ * page 13-14 of the Histology department book (`src_b1e6dc481eaf337268d0`)
+ * treats the EM appearance of primary/secondary lysosomes and the three named
+ * secondary types as one continuous section, not two topics. The clustering
+ * never held it as an objective either: `clusters.json` puts the EM-worded
+ * written question and the secondary-type MCQs in one cluster, keyed
+ * `lysosome-types-secondary-fates`, and there is no cluster of the other name.
+ * Its four rows now name the cluster key, which is the objective asked from
+ * the primary-lysosome end.
  *
  * `organelle-content-identifies-what-a-cell-does` is minted here and is the one
  * concept in this file that is not about an organelle. It exists because a
@@ -231,21 +247,6 @@ export const LEAF: McqLeafSeed = {
       modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
       type: 'structure_function_relationship',
       aliases: ['Acid phosphatase', 'Hydrolytic enzymes', 'Intracytoplasmic digestion'],
-    },
-    {
-      key: 'lysosome-types-electron-microscopy',
-      label: 'Primary and secondary lysosomes are distinguished on electron microscopy by whether they have yet fused with a substrate',
-      definition:
-        'A primary lysosome is a small, uniformly electron-dense, membrane-bound vesicle newly budded from the Golgi and containing acid hydrolases that have not yet acted. A secondary lysosome is larger and heterogeneous, having fused with phagosome or autophagosome; a residual body is its end state, holding indigestible material.',
-      objective:
-        'Distinguish primary from secondary lysosomes and residual bodies by their appearance on electron microscopy.',
-      pitfall:
-        'Calling every dense body a lysosome. Density alone does not identify one; the acid-phosphatase reaction is what confirms it.',
-      subject: 'fnd',
-      primary: 'DIS-HIS-T01',
-      secondary: [],
-      modulePath: '101 ISK > Histology > Cytology > Cytoplasm',
-      type: 'structural_description',
     },
     {
       key: 'lysosome-types-secondary-fates',
@@ -843,7 +844,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'a-lysosome-measures-0-4-pm-in-diameter-what-is-the-diameter-c3402333',
-      conceptKey: 'lysosome-types-electron-microscopy',
+      conceptKey: 'lysosome-types-secondary-fates',
       difficulty: 'Moderate', questionType: 'Normal values',
       learningObjective: 'Not sittable as extracted.',
       explanations: {},
@@ -2110,7 +2111,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'homogenous-electron-dense-membrane-limited-granules-are-d9f8521e',
-      conceptKey: 'lysosome-types-electron-microscopy',
+      conceptKey: 'lysosome-types-secondary-fates',
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify a primary lysosome by its uniform density.',
       explanations: {
@@ -2192,7 +2193,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'inactive-enzyme-homogenous-newly-released-from-golgi-2c63ed56',
-      conceptKey: 'lysosome-types-electron-microscopy',
+      conceptKey: 'lysosome-types-secondary-fates',
       difficulty: 'Easy', questionType: 'Structure and function',
       learningObjective: 'Identify the primary lysosome from its origin and its uniformity.',
       explanations: {
@@ -2910,7 +2911,7 @@ export const LEAF: McqLeafSeed = {
     },
     {
       key: 'regarding-primary-lysosome-the-following-is-true-c2931c79',
-      conceptKey: 'lysosome-types-electron-microscopy',
+      conceptKey: 'lysosome-types-secondary-fates',
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Pick the true statement about a primary lysosome.',
       explanations: {

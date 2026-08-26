@@ -66,8 +66,6 @@
 # Item
 ## id
 CON-FND-3CC86CC26BF549
-## source_candidate_ids
-concept_07664c1db4280e6f1ee6f3ce | concept_0f6a0331a1ec76eab71e9a3c
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -165,8 +163,6 @@ atomicClaimIds: Left as extracted. No evidence pass has been run for 108 INT and
 # Item
 ## id
 CON-FND-7F59EAD61B05E0
-## source_candidate_ids
-concept_13767925eee721123debd46f
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -264,8 +260,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-CBA2A73AE9A6D8
-## source_candidate_ids
-concept_661b519bce2af196be2fe3e5 | concept_da5527a310829e0497a75626
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -364,8 +358,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-0D3254CF812B1A
-## source_candidate_ids
-concept_276017cfe55caa25d3c65de4
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -459,8 +451,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-FD53CFAE6AAC72
-## source_candidate_ids
-concept_5735f4ca6e96cb51f767c38a
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -558,8 +548,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-43BED56FA9D1E9
-## source_candidate_ids
-concept_3a1e20d305e92cf494c3d27d
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -656,8 +644,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-87C323BB0CE321
-## source_candidate_ids
-concept_17b05427b3b20ddc211a63ab
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -752,8 +738,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-01E59D0FD26046
-## source_candidate_ids
-concept_09800b97a8dd7a3cad0cfed1
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer
@@ -854,8 +838,6 @@ atomicClaimIds: Left as extracted; no evidence pass exists for 108 INT (LD-14).
 # Item
 ## id
 CON-FND-9D89A82094F8AA
-## source_candidate_ids
-concept_3666b9398c5962370b98087e
 ## secondary_node_ids
 DIS-PHA-T01 | DIS-PHA
 ## reviewer

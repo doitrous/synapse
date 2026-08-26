@@ -450,6 +450,150 @@ export function conceptHash(module: string, key: string): string {
 }
 
 /**
+ * `canonical_key -> id`, read out of one concept batch's markdown text, for
+ * whichever rows belong to one module.
+ *
+ * Pure and file-system-free on purpose: the caller decides which files are
+ * worth reading (`build-batches.ts`'s `existingConceptIds` skips anything
+ * carrying `GENERATED_BY`, which this function knows nothing about and should
+ * not have to), and a parser with no I/O of its own is a parser a test can
+ * hand a string.
+ *
+ * A row is indexed only when it carries `## id`, `## canonical_key` **and**
+ * `## module_subject` — an update row that omits `canonical_key` (normal: the
+ * manual's own rule is that an omitted field is untouched, not empty) cannot
+ * be attributed to a key from this text alone and is skipped, on the
+ * assumption that the record which first introduced the key still carries it
+ * somewhere in the module's concept files.
+ *
+ * Scoped by `module_subject`'s first segment, not by which file the text came
+ * from — a filename only says which module's directory a file sits in, and a
+ * row misfiled inside it should not donate its id to a key that is not
+ * actually this module's.
+ */
+export function parseConceptIds(text: string, module: string): Map<string, string> {
+  const index = new Map<string, string>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const id = block.match(/## id\n(\S+)/)?.[1]
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    if (!id || !key || !moduleSubject) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    // First block wins, matching the rule `concepts()` in build-batches.ts
+    // already uses for papers: the corpus is expected to agree with itself,
+    // and if it does not, the first answer found is at least a stable one.
+    if (!index.has(key)) index.set(key, id)
+  }
+  return index
+}
+
+/**
+ * `canonical_key -> [## modules]`, read the same way `parseConceptIds` reads
+ * `## id` — one map alongside the other so `resolveConceptId`'s caller can
+ * tell whether the module it is building for is already on the pinned
+ * record's own `modules` list, which is the difference between a sparse
+ * update row that has nothing to add there and one that needs a `+modules`
+ * line.
+ *
+ * Scoped and first-block-wins the same way, for the same reason: this reads
+ * only the rows `parseConceptIds` would also index for this module, so the
+ * two maps always agree on which keys exist.
+ */
+export function parseConceptModules(text: string, module: string): Map<string, string[]> {
+  const index = new Map<string, string[]>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    const modules = block.match(/## modules\n(.*)/)?.[1]
+    if (!key || !moduleSubject || !modules) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    if (index.has(key)) continue
+    index.set(key, modules.split(/\r?\n|\||;/).map((one) => one.trim()).filter(Boolean))
+  }
+  return index
+}
+
+/**
+ * `canonical_key -> ## label`, read the same way as `parseConceptModules`.
+ *
+ * Exists to work around a real bug in `conceptFromRow`
+ * (`src/data/conceptImport.ts:148`): every other optional field there returns
+ * `undefined` when its column is blank, which is what lets `mergeConcept`
+ * tell "not mentioned" from "emptied" — `label` is the one field that instead
+ * defaults to `''` unconditionally (`values.label?.trim() ?? ''`), so an
+ * update row that omits `## label` entirely, exactly as `conceptUpdateBlock`
+ * always has, **blanks the live record's label** the moment it is imported.
+ * Confirmed against a real `medical:simulate` run of a sparse update row for
+ * `CON-RES-0BB6BDDB3E4413` (104 CPS): the merged concept came back with
+ * `"label": ""`, not the hand-authored record's own label.
+ *
+ * That is a shared-importer defect outside this pipeline's file ownership —
+ * `conceptFromRow` runs for every concept import in the product, not only
+ * KASR's — so it is not fixed here. Instead `conceptUpdateBlock` restates the
+ * pinned record's own label verbatim, sourced from this map, which is not a
+ * redefinition (the value is unchanged) and sidesteps the bug at the one
+ * place this pipeline controls.
+ */
+export function parseConceptLabels(text: string, module: string): Map<string, string> {
+  const index = new Map<string, string>()
+  for (const block of text.split(/^\s*---\s*$/m)) {
+    const key = block.match(/## canonical_key\n(\S+)/)?.[1]
+    const moduleSubject = block.match(/## module_subject\n(.*)/)?.[1]
+    const label = block.match(/## label\n(.*)/)?.[1]?.trim()
+    if (!key || !moduleSubject || !label) continue
+    if (moduleSubject.split(' > ')[0].trim() !== module) continue
+    if (!index.has(key)) index.set(key, label)
+  }
+  return index
+}
+
+/**
+ * Which id a canonical_key should use, and whether that means minting.
+ *
+ * The project-wide rule is one canonical_key -> one id, within a module.
+ * `mintConceptId` is *a* way to satisfy that — deterministic, so two authors
+ * filing the same key converge without talking to each other — but it is not
+ * the only id a live record can carry: some hand-authored concept files were
+ * minted by a different tool entirely (`Instruction Manual for Content
+ * Creation/tools/mint-concept-id.mjs`, which hashes the canonical_key alone,
+ * with no module salt), and those ids are pinned — re-minting a live record
+ * is a content decision for whoever owns it, never something a build script
+ * does on its own.
+ *
+ * **A pinned id is a reuse whether or not it happens to agree with a fresh
+ * mint.** This used to gate on the two disagreeing — `pinnedId !== mintedId`
+ * — on the theory that agreement meant there was nothing to protect. That
+ * theory was about the *id* and missed the record: a key that already has a
+ * hand-authored concept file entry also already has a full, reviewed record
+ * — aliases, article links, a real `resource_ids` — behind that entry, and a
+ * build that mints the id fresh still emits a **full** `conceptBlock`/
+ * `mcqConceptBlock` for it, thinner than the hand record in every field this
+ * pipeline does not itself populate. The importer's "Update matching items"
+ * mode replaces every *named* field of the live record with whatever the
+ * incoming full record says, named or not — so re-emitting a full record for
+ * an id that happens to match is exactly as destructive as one that does
+ * not; the id agreeing was never the thing keeping the hand record safe.
+ * (Found in 104 CPS: `mintConceptId("104 CPS", "resp",
+ * "typical-intercostal-nerve.course-and-branches")` already equals the hand
+ * file's own pinned id, `CON-RES-0BB6BDDB3E4413` — and the old gate still let
+ * a full re-mint through, emptying that record's `aliases` and
+ * `relatedArticleIds` and replacing its `resource_ids` with whatever this
+ * pipeline's own fallback happened to be.)
+ *
+ * A hit is now unconditionally a reuse: any canonical_key an existing
+ * hand-authored concept file already claims for this module gets that file's
+ * id back, verbatim, and a sparse update row — never a second full
+ * definition of an idea someone has already authored.
+ */
+export function resolveConceptId(
+  pinned: Map<string, string>, module: string, subject: KasrSubject, key: string, system?: BodySystem,
+): { id: string, reused: boolean } {
+  const pinnedId = pinned.get(key)
+  if (pinnedId !== undefined) return { id: pinnedId, reused: true }
+  return { id: mintConceptId(module, subject, key, system), reused: false }
+}
+
+/**
  * The subject a concept takes, from where it sits in the curriculum.
  *
  * Agreed between the two lanes authoring this module, because the subject is
@@ -464,6 +608,22 @@ export function conceptHash(module: string, key: string): string {
  */
 export function subjectForPath(modulePath: string): KasrSubject | null {
   if (modulePath.includes('> Histology > Blood')) return 'haem'
+  // 104 CPS's histology is organ histology, so its chapters carry their own
+  // body systems and the blanket `Histology -> fnd` below is wrong for them.
+  // That rule was written against 101 ISK, whose histology is cytology,
+  // epithelium and connective tissue — general tissue, genuinely foundational.
+  // Naming the chapters rather than the module keeps it a statement about what
+  // the path says, which is what the rest of this function is.
+  if (modulePath.includes('> Histology > Lymphatic and Macrophage System')) return 'haem'
+  if (modulePath.includes('> Histology > Cardiovascular System')) return 'cvs'
+  if (modulePath.includes('> Histology > Respiratory System')) return 'resp'
+  // Cytogenetics is deliberately unmapped. The chapter holds both the cell
+  // cycle, which is foundational, and chromosomal aberration, which is
+  // developmental — one path, two honest subjects. A rule that cannot separate
+  // them should say nothing rather than force whichever it saw first; null
+  // leaves the seed's own subject standing and the collision check still
+  // catches two authors disagreeing about one key.
+  if (modulePath.includes('> Histology > Cytogenetics')) return null
   if (modulePath.includes('> Histology')) return 'fnd'
   if (modulePath.includes('> General Embryology')) return 'dev'
   if (modulePath.includes('> Basis of Anatomy') || modulePath.includes('> Upper Limb')) return 'msk'

@@ -31,12 +31,31 @@ if [ -z "$MODULE" ]; then
 fi
 cd "$(dirname "$0")/../.."
 
+# The module as a filename fragment: "101 ISK" -> "101-ISK". `build-batches.ts`
+# derives its own output names the same way (`fileSlug`), so this has to match
+# it exactly or the array below points at files the build never writes.
+SLUG="${MODULE// /-}"
+
 # Written by scripts/kasr/build-*.ts, and by nothing else.
+#
+# Not a "101 ISK" constant. Six lanes share this script, one per module, and a
+# hardcoded 101 filename list here regenerated and committed only 101's
+# batches no matter which module `sync.sh` was called for — exactly the
+# neighbour-clobbering failure the required `$MODULE` argument above exists to
+# stop, arriving by the back door. Derived from `$SLUG` so a module gets its
+# own five files without this script needing to learn its name.
+#
+# `article-links.json` is module-agnostic — `build-article-links.ts` reads
+# every module's articles and concepts in one pass — so it stays a constant.
+# `coverage/101-ISK-untaught-concepts.md` is genuinely 101-only today:
+# `build-article-links.ts` hardcodes that one ledger path and does not yet
+# take a module argument. Widening it to one ledger per module is that
+# script's change to make, not this one's to fake.
 GENERATED=(
-  docs/Kasr-Source-Imports/concept/101-ISK-concepts.md
-  docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md
-  docs/Kasr-Source-Imports/question/101-ISK-mcq.md
-  docs/Kasr-Source-Imports/coverage/101-ISK-coverage.md
+  "docs/Kasr-Source-Imports/concept/${SLUG}-concepts.md"
+  "docs/Kasr-Source-Imports/concept/${SLUG}-mcq-concepts.md"
+  "docs/Kasr-Source-Imports/question/${SLUG}-mcq.md"
+  "docs/Kasr-Source-Imports/coverage/${SLUG}-coverage.md"
   docs/Kasr-Source-Imports/coverage/101-ISK-untaught-concepts.md
   scripts/kasr/seeds/article-links.json
 )
@@ -62,17 +81,31 @@ else
 fi
 
 echo "regenerating…"
-# `build-batches` takes the module now; the other two do not. A bare run of it
-# used to regenerate every registered module, so one lane regenerating its own
-# work silently rewrote a neighbour's committed batches — which is why it now
-# refuses to run without being told which module it is building.
+# `build-batches` and `build-coverage` both take the module; `build-article-links`
+# does not, because it reads every module's articles and concepts in one pass.
+# A bare run of `build-batches` used to regenerate every registered module, so
+# one lane regenerating its own work silently rewrote a neighbour's committed
+# batches — which is why it now refuses to run without being told which module
+# it is building. `build-coverage` defaults to 101 ISK when `--module` is
+# omitted, so leaving it bare here would regenerate 101's coverage file no
+# matter which module `$MODULE` names, while `$GENERATED` above expects this
+# module's own — silently stale for everyone but 101.
 node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
 node --experimental-strip-types scripts/kasr/build-batches.ts "$MODULE" >/dev/null
-node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
+node --experimental-strip-types scripts/kasr/build-coverage.ts --module "$MODULE" >/dev/null
 
-git add -- "${GENERATED[@]}" 2>/dev/null || true
+# Only what this run actually produced. `build-batches` skips the MCQ route
+# entirely for a module with no question-book seeds or bank yet (see `mcq()`
+# in build-batches.ts), so `${SLUG}-mcq.md` and `${SLUG}-mcq-concepts.md` may
+# not exist — and `git add` fails its whole argument list, staging nothing at
+# all, the moment one pathspec in it matches no file.
+existing=()
+for file in "${GENERATED[@]}"; do
+  [ -e "$file" ] && existing+=("$file")
+done
+git add -- "${existing[@]}" 2>/dev/null || true
 if ! git diff --cached --quiet; then
-  git commit -q -m "Regenerate the 101 ISK batches after merging
+  git commit -q -m "Regenerate the $MODULE batches after merging
 
 Generated from the seeds rather than merged: two lanes regenerating one
 file conflict on every line, and a hand-resolved merge of generated
@@ -103,9 +136,13 @@ for attempt in 1 2 3; do
   fi
   node --experimental-strip-types scripts/kasr/build-article-links.ts >/dev/null
   node --experimental-strip-types scripts/kasr/build-batches.ts "$MODULE" >/dev/null
-  node --experimental-strip-types scripts/kasr/build-coverage.ts >/dev/null
-  git add -- "${GENERATED[@]}" 2>/dev/null || true
-  git diff --cached --quiet || git commit -q -m "Regenerate the 101 ISK batches after merging"
+  node --experimental-strip-types scripts/kasr/build-coverage.ts --module "$MODULE" >/dev/null
+  existing=()
+  for file in "${GENERATED[@]}"; do
+    [ -e "$file" ] && existing+=("$file")
+  done
+  git add -- "${existing[@]}" 2>/dev/null || true
+  git diff --cached --quiet || git commit -q -m "Regenerate the $MODULE batches after merging"
 done
 
 echo "could not push after three attempts — origin is moving faster than this script" >&2

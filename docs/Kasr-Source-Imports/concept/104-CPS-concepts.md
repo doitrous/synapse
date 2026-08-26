@@ -2,8 +2,9 @@
   Concepts for 104 CPS, from every paper read so far.
 
     EOY Final 104, 199 (2).pdf — end of year 2025, 22 questions
+    ١٩٧ دور ثان ١٠٤ (2)EOY BAQOON 197.pdf — baqoon 2024, 11 questions
 
-  22 concepts from 22 questions.
+  33 concepts from 33 questions.
   0 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
@@ -33,34 +34,64 @@ Reading the plateau as a period without current. It is two large opposing curren
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S01-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p2 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 Phase 1 and phase 2 of the ventricular action potential | Ionic basis of the cardiac plateau
+## article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q1, 8 marks] Describe the ionic bases of phase 1 and phase 2 in cardiac myocyte action potential
+## conflicts
+The physiology department book p. 12 prints the L-type current as 'Efflux of Ca++' while listing it under 'Inward positive current'. The solved copy writes it as inward. The book's word is a slip; calcium enters.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Electrical Activity of the Heart
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL
-## related_article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -77,71 +108,42 @@ CLM-104-PHY-AP-PHASE1-01 | CLM-104-PHY-AP-PHASE2-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-CVS-77AA16A0BD5F70
-## conflicts
-The physiology department book p. 12 prints the L-type current as 'Efflux of Ca++' while listing it under 'Inward positive current'. The solved copy writes it as inward. The book's word is a slip; calcium enters.
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Electrical Activity of the Heart
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p2 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q1, 8 marks] Describe the ionic bases of phase 1 and phase 2 in cardiac myocyte action potential
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION — the article the teaching article ART-104-PHY-CARDIAC-ACTION-POTENTIAL names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "cardiac myocyte" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -162,34 +164,64 @@ Expecting ejection to stop the moment ventricular pressure falls below arterial 
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p2 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 Phases of ventricular ejection
+## article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q1, 0 marks] Compare between rapid ejection phase and reduced ejection phase regarding ventricular pressure, ventricular volume, semilunar valves and arterial pressure
+## conflicts
+[clear]
+## uncertainty
+The arterial-pressure row of the solved copy's table is contaminated by jugular-venous-pulse text (x and v waves) that belongs to another table; that row is taken from the department book p. 25 instead.
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Cardiac Function
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION
-## related_article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -206,72 +238,42 @@ CLM-104-PHY-EJECTION-PHASES-01 | CLM-104-PHY-STROKE-VOLUME-ARITHMETIC-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-The arterial-pressure row of the solved copy's table is contaminated by jugular-venous-pulse text (x and v waves) that belongs to another table; that row is taken from the department book p. 25 instead.
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Cardiac Function
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p2 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q1, 0 marks] Compare between rapid ejection phase and reduced ejection phase regarding ventricular pressure, ventricular volume, semilunar valves and arterial pressure
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "cardiac cycle.rapid" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -292,34 +294,64 @@ Reading the wider loop as a preload effect. Preload moves the right-hand edge of
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p3 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 ESPVR shift with contractility | Inotropy on the PV loop
+## article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q2, 10 marks] Illustrate the effect of increased in inotropy on left ventricle pressure-volume loop
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Cardiac Function
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION
-## related_article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -336,73 +368,42 @@ CLM-104-PHY-INOTROPY-ESPVR-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Cardiac Function
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p3 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q2, 10 marks] Illustrate the effect of increased in inotropy on left ventricle pressure-volume loop
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "ventricular pressure" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -423,34 +424,64 @@ Treating maximal heart rate as trainable. Training raises stroke volume reserve 
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M02
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Cardiac Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p3 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 Cardiac reserve
+## article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q2, 0 marks] Explain heart rate reserve and stroke volume reserve
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Cardiac Function
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION
-## related_article_ids
-ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-ACTION-POTENTIAL | ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -467,73 +498,42 @@ CLM-104-PHY-CARDIAC-RESERVE-01 | CLM-104-PHY-STROKE-VOLUME-RESERVE-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Cardiac Function
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p3 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q2, 0 marks] Explain heart rate reserve and stroke volume reserve
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-ACTION-POTENTIAL and ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX — the articles the teaching article ART-104-PHY-CARDIAC-PUMP-FUNCTION names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "cardiac reserve.heart" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -554,34 +554,64 @@ Confusing this with a change in resistance to venous return, which pivots the cu
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M02
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p4 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 MSFP | Mean systemic filling pressure on the venous return curve
+## article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q3, 10 marks] Explain the changes on MSFP on venous return curve
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Vascular Function
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
-## related_article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 CON-CVS-245C56665C0240 | CON-CVS-59DE21D055FA34
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -598,72 +628,42 @@ CLM-104-PHY-MSFP-VALUE-01 | CLM-104-PHY-MSFP-VR-CURVE-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Vascular Function
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p4 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q3, 10 marks] Explain the changes on MSFP on venous return curve
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "venous return" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -684,34 +684,64 @@ Describing it as the chest sucking blood in. It works by lowering the downstream
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M02
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Vascular Function
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p4 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 Respiratory pump | Thoracic pump
+## article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q3, 0 marks] Explain how thoracic pump helps in venous return
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Vascular Function
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
-## related_article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -728,73 +758,42 @@ CLM-104-PHY-THORACIC-PUMP-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Vascular Function
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p4 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q3, 0 marks] Explain how thoracic pump helps in venous return
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "venous return.thoracic" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -815,34 +814,64 @@ Answering with the atrial volume receptors. Those are low-pressure receptors who
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-PHY-T02
 ## secondary_node_ids
 SYS-CVS-T01-S02-M03
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p5 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.08
+## exam_weight_by_year
+KAU_Y1=0.08
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Cardiovascular System
 ## aliases
 Baroreceptor reflex | Buffer reflex
+## article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q4, 10 marks] Explain function of baroreceptors when ABP increases and when it decreases
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Basic Mechanisms of Circulatory Control
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX
-## related_article_ids
-ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-CARDIAC-PUMP-FUNCTION | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -859,72 +888,42 @@ CLM-104-PHY-BARORECEPTOR-SITE-01 | CLM-104-PHY-BAROREFLEX-OPPOSES-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-CVS-A302CAFBD5028C | CON-CVS-61D2DE3408AC86
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p5 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q4, 10 marks] Explain function of baroreceptors when ABP increases and when it decreases
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-CARDIAC-PUMP-FUNCTION and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "arterial baroreceptor" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -945,34 +944,64 @@ Giving elastic tissue alone. Surface tension is the larger of the two contributi
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-PHY-T03
 ## secondary_node_ids
 SYS-RES-T01-S02-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p5 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Respiratory System
 ## aliases
 Recoil tendency of the lung and expansion tendency of the chest wall
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q4, 0 marks] Mention causes of chest wall to expand and lung to recoil
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Organization of the Respiratory System
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-## related_article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -989,72 +1018,42 @@ CLM-104-PHY-LUNG-RECOIL-SOURCES-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-RES-5D76C8ED496E54 | CON-RES-364A753569C12F
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p5 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q4, 0 marks] Mention causes of chest wall to expand and lung to recoil
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "respiratory mechanics.causes" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1075,34 +1074,64 @@ Reading Laplace's law as making the small alveolus empty into the large one. Sur
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-PHY-T03
 ## secondary_node_ids
 SYS-RES-T01-S02-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p6 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.11
+## exam_weight_by_year
+KAU_Y1=0.11
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Respiratory System
 ## aliases
 Functions of pulmonary surfactant | Causes of surfactant deficiency
+## article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q5, 13 marks] Mention functions of surfactants and 4 causes of deficiency of surfactant
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Organization of the Respiratory System
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-## related_article_ids
-ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -1119,72 +1148,42 @@ CLM-104-PHY-SURFACTANT-SOURCE-01 | CLM-104-PHY-SURFACTANT-FUNCTIONS-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-RES-FB2D4322FCC2EB | CON-RES-364A753569C12F
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p6 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q5, 13 marks] Mention functions of surfactants and 4 causes of deficiency of surfactant
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-VENOUS-RETURN-AND-BAROREFLEX and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "pulmonary surfactant.functions" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1205,34 +1204,64 @@ Treating a left shift as good for the tissues. High affinity means the blood loa
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-PHY-T03
 ## secondary_node_ids
 SYS-RES-T01-S02-M04
+## modules
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p7 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.10
+## exam_weight_by_year
+KAU_Y1=0.10
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Respiratory System
 ## aliases
 Left shift of the oxygen dissociation curve | Factors decreasing P50
+## article_ids
+ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
+## support_mode
+direct_statement
+## original_wording
+[Physiology Q6, 12 marks] Mention the factors that shift Hb-O2 dissociation curve to the left
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Physiology
-## subtopic
-Gas Transport by the Blood
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-PHY-OXYGEN-DISSOCIATION-CURVE
-## related_article_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 CON-RES-AA4C315125E587
+## related_article_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_a11a7faed67c95e2d636
 ## approved_file_resource_ids
@@ -1249,72 +1278,42 @@ CLM-104-PHY-ODC-P50-01 | CLM-104-PHY-ODC-LEFT-SHIFT-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Physiology > Respiratory System > Gas Transport by the Blood
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p7 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Physiology Q6, 12 marks] Mention the factors that shift Hb-O2 dissociation curve to the left
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the article the teaching article ART-104-PHY-OXYGEN-DISSOCIATION-CURVE names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "haemoglobin oxygen" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1335,34 +1334,64 @@ Forgetting the first vein on either side. It joins no part of the azygos system 
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-ANA-T04
 ## secondary_node_ids
 SYS-RES-T01-S01-M04
-## aliases
-Termination of the posterior intercostal veins | Superior intercostal veins
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Intercostal Spaces
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p8 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Intercostal Spaces
+## aliases
+Termination of the posterior intercostal veins | Superior intercostal veins
+## article_ids
+ART-104-ANA-THORACIC-WALL-VEINS
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q7, 6 marks] Mention the end of posterior intercoastal and subcostal veins
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-THORACIC-WALL-VEINS
-## related_article_ids
-ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -1379,73 +1408,42 @@ CLM-104-ANA-POST-INTERCOSTAL-VEINS-RIGHT-01 | CLM-104-ANA-POST-INTERCOSTAL-VEINS
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Intercostal Spaces
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p8 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q7, 6 marks] Mention the end of posterior intercoastal and subcostal veins
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-PLEURA-AND-MEDIASTINUM — the article the teaching article ART-104-ANA-THORACIC-WALL-VEINS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "posterior intercostal" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1466,34 +1464,64 @@ Giving the phrenic nerve the whole diaphragmatic pleura. Only its central part i
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-ANA-T04
 ## secondary_node_ids
 SYS-RES-T01-S01-M03
-## aliases
-Innervation of the pleura
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Thoracic Cavity
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p8 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Thoracic Cavity
+## aliases
+Innervation of the pleura
+## article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q8, 6 marks] Mention the nerve supply of pleura
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-PLEURA-AND-MEDIASTINUM
-## related_article_ids
-ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -1510,73 +1538,42 @@ CLM-104-ANA-PLEURA-NERVE-SUPPLY-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Thoracic Cavity
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p8 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q8, 6 marks] Mention the nerve supply of pleura
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-THORACIC-WALL-VEINS and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-ANA-PLEURA-AND-MEDIASTINUM names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "pleura.nerve supply" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1597,34 +1594,64 @@ Assuming the nodal arteries are always right coronary. The circumflex supplies t
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-ANA-T04
 ## secondary_node_ids
 SYS-CVS-T01-S01-M03
-## aliases
-Left circumflex artery
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p9 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Heart
+## aliases
+Left circumflex artery
+## article_ids
+ART-104-ANA-CORONARY-ARTERIES
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q9, 6 marks] Mention origin, end and branches of circumflex branch of left coronary artery
+## conflicts
+The unsolved copy renders this question as 'Mention origin, end and branches of left covonary artery', without the words 'circumflex branch of'. The solved copy carries them, and its marked answer reproduces only item 2 of the department book's branch list — the circumflex — so the fuller reading is taken. OCR drops words; it does not invent three coherent ones.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-CORONARY-ARTERIES
-## related_article_ids
-ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -1641,71 +1668,42 @@ CLM-104-ANA-CIRCUMFLEX-ORIGIN-END-01 | CLM-104-ANA-CIRCUMFLEX-BRANCHES-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-CVS-63D0C4219C40EA | CON-CVS-7CD4CEA27DF356
-## conflicts
-The unsolved copy renders this question as 'Mention origin, end and branches of left covonary artery', without the words 'circumflex branch of'. The solved copy carries them, and its marked answer reproduces only item 2 of the department book's branch list — the circumflex — so the fuller reading is taken. OCR drops words; it does not invent three coherent ones.
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Heart
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p9 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q9, 6 marks] Mention origin, end and branches of circumflex branch of left coronary artery
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT — the article the teaching article ART-104-ANA-CORONARY-ARTERIES names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "circumflex artery.origin" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1726,34 +1724,64 @@ Stopping at four groups. The posterior mediastinal lymph nodes are the fifth, an
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-ANA-T04
 ## secondary_node_ids
 SYS-RES-T01-S01-M04
-## aliases
-Posterior mediastinum
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Mediastinum
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p9 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Mediastinum
+## aliases
+Posterior mediastinum
+## article_ids
+ART-104-ANA-PLEURA-AND-MEDIASTINUM
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q10, 6 marks] Mention the boundaries and contents of posterior medistinum
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-PLEURA-AND-MEDIASTINUM
-## related_article_ids
-ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-THORACIC-WALL-VEINS | ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -1770,73 +1798,42 @@ CLM-104-ANA-POSTERIOR-MEDIASTINUM-BOUNDARIES-01 | CLM-104-ANA-POSTERIOR-MEDIASTI
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Mediastinum
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p9 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q10, 6 marks] Mention the boundaries and contents of posterior medistinum
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-THORACIC-WALL-VEINS and ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT — the articles the teaching article ART-104-ANA-PLEURA-AND-MEDIASTINUM names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "posterior mediastinum.boundaries" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1857,34 +1854,64 @@ Handing the whole arch of the aorta to the aortic sac. Only its proximal part is
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 dev
 ## primary_node_id
 DIS-EMB-T03
 ## secondary_node_ids
 SYS-CVS-T01-S01
-## aliases
-Derivatives of the aortic sac
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Development of the Heart
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p10 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Development of the Heart
+## aliases
+Derivatives of the aortic sac
+## article_ids
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q11, 6 marks] Mention fate of aortic sac
+## conflicts
+[clear]
+## uncertainty
+The unsolved copy's page 10 is a failed scan that repeats page 9, so this question's wording is attested only by the solved copy. The orientation's arithmetic — five SAQs of six marks plus a case of four, totalling 34 — requires a fifth anatomy SAQ and confirms one is there.
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
-## related_article_ids
-ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -1901,72 +1928,42 @@ CLM-104-ANA-AORTIC-SAC-FATE-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-The unsolved copy's page 10 is a failed scan that repeats page 9, so this question's wording is attested only by the solved copy. The orientation's arithmetic — five SAQs of six marks plus a case of four, totalling 34 — requires a fifth anatomy SAQ and confirms one is there.
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Development of the Heart
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p10 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q11, 6 marks] Mention fate of aortic sac
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-CORONARY-ARTERIES and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "aortic sac.fate" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -1987,34 +1984,64 @@ Blaming the right recurrent laryngeal nerve. It hooks round the right subclavian
 clinical_feature
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-ANA-T04
 ## secondary_node_ids
 SYS-CVS-T07-S02-M01
-## aliases
-Aortic arch aneurysm | Mediastinal syndrome
-## arabic_label
-
-## arabic_aliases
-[clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Anatomy > Large Arteries of the Thorax
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p10 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.03
+## exam_weight_by_year
+KAU_Y1=0.03
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
 ## topic
 Anatomy
 ## subtopic
 Large Arteries of the Thorax
+## aliases
+Aortic arch aneurysm | Mediastinal syndrome
+## article_ids
+ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
+## support_mode
+direct_statement
+## original_wording
+[Anatomy Q6, 4 marks] An old man suffers from pulsatile retrosternal chest pain which increases following effort associated with irregular heartbeats, dysphagia and horsiness of voice. a. Name the affected organ and the diagnosis of the disease b. Explain the reason of the irregular heart beats c. Explain the reason of the dysphagia e. Why there is horsiness of voice
+## conflicts
+The solved copy numbers this item '6-', which is its position within the anatomy section rather than in the paper's running numbering; the anatomy SAQs above it are numbered Q7 to Q11. It is recorded as Anatomy question 6, which is what the paper prints. The lettering also runs a, b, c, e with no d, and the solved copy carries a struck-through answer line where d would be.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT
-## related_article_ids
-ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-ANA-CORONARY-ARTERIES | ART-104-ANA-PLEURA-AND-MEDIASTINUM
 ## resource_ids
 src_4bd55e9eaf092282818c
 ## approved_file_resource_ids
@@ -2031,72 +2058,42 @@ CLM-104-ANA-AORTIC-ANEURYSM-MEDIASTINAL-SYNDROME-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-The solved copy numbers this item '6-', which is its position within the anatomy section rather than in the paper's running numbering; the anatomy SAQs above it are numbered Q7 to Q11. It is recorded as Anatomy question 6, which is what the paper prints. The lettering also runs a, b, c, e with no d, and the solved copy carries a struck-through answer line where d would be.
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Anatomy > Large Arteries of the Thorax
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.7
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p10 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Anatomy Q6, 4 marks] An old man suffers from pulsatile retrosternal chest pain which increases following effort associated with irregular heartbeats, dysphagia and horsiness of voice. a. Name the affected organ and the diagnosis of the disease b. Explain the reason of the irregular heart beats c. Explain the reason of the dysphagia e. Why there is horsiness of voice
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-ANA-CORONARY-ARTERIES and ART-104-ANA-PLEURA-AND-MEDIASTINUM — the articles the teaching article ART-104-ANA-AORTIC-ARCH-AND-ITS-DEVELOPMENT names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "aortic arch" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2117,34 +2114,64 @@ Trying to separate them by epithelium. Both are non-keratinized stratified squam
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 haem
 ## primary_node_id
 DIS-HIS-T03
 ## secondary_node_ids
 SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p11 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
 ## aliases
 Palatine tonsil | Lingual tonsil
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[Histology Q12, 7 marks] Mention the difference between palatine and lingual tonsils as regard the site, epithelial covering and crypt
+## conflicts
+The solved copy answers 'single crypt' for the lingual tonsil. The histology department book p. 21 writes only that the lingual epithelium 'dips down to form crypts' and gives no number, so the single crypt per lingual tonsillar unit rests on the marked answer rather than on the book.
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-Tonsils
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-LYMPHOID-ORGANS
-## related_article_ids
-ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2161,72 +2188,42 @@ CLM-104-HIS-TONSIL-PALATINE-LINGUAL-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-The solved copy answers 'single crypt' for the lingual tonsil. The histology department book p. 21 writes only that the lingual epithelium 'dips down to form crypts' and gives no number, so the single crypt per lingual tonsillar unit rests on the marked answer rather than on the book.
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p11 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q12, 7 marks] Mention the difference between palatine and lingual tonsils as regard the site, epithelial covering and crypt
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "palatine versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2247,34 +2244,64 @@ Taking the central arteriole to be central. It is eccentric in the corpuscle; th
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 haem
 ## primary_node_id
 DIS-HIS-T03
 ## secondary_node_ids
 SYS-HEM
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p11 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Lymphatic and Macrophage System
 ## aliases
 Malpighian corpuscle | Periarteriolar lymphatic sheath
+## article_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## support_mode
+direct_statement
+## original_wording
+[Histology Q12, 0 marks] Outline the zones of white pulp and state the cellular composition of each zone
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-Spleen
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-LYMPHOID-ORGANS
-## related_article_ids
-ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-HIS-CAPILLARY-TYPES | ART-104-HIS-NASAL-MUCOSA
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2291,73 +2318,42 @@ CLM-104-HIS-WHITE-PULP-ZONES-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p11 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q12, 0 marks] Outline the zones of white pulp and state the cellular composition of each zone
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-CAPILLARY-TYPES and ART-104-HIS-NASAL-MUCOSA — the articles the teaching article ART-104-HIS-LYMPHOID-ORGANS names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "splenic white" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2378,34 +2374,64 @@ Reading 'continuously renewing' as continuously dividing. The end cell does not 
 classification
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 fnd
 ## primary_node_id
 DIS-HIS-T01
 ## secondary_node_ids
 [clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p12 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.06
+## exam_weight_by_year
+KAU_Y1=0.06
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cytogenetics
 ## aliases
 Cell renewal | Non-renewing, potentially renewable and continuously renewing cells
+## article_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## support_mode
+direct_statement
+## original_wording
+[Histology Q13, 7 marks] Classify the specialized cells according to their ability to reproduce and state one example for each
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-The Cell Cycle
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2422,73 +2448,42 @@ CLM-104-HIS-CELL-RENEWAL-TYPES-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p12 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q13, 7 marks] Classify the specialized cells according to their ability to reproduce and state one example for each
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 1 claim in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "specialized cell" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: No second canonical view applies; this concept is taught only in the discipline this module runs under.
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2509,34 +2504,64 @@ Treating aneuploidy as always meiotic. Mitotic non-disjunction after fertilisati
 mechanism
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 dev
 ## primary_node_id
 DIS-HIS-T01
 ## secondary_node_ids
 [clear]
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p12 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cytogenetics
 ## aliases
 Non-disjunction | Causes of aneuploidy
+## article_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## support_mode
+direct_statement
+## original_wording
+[Histology Q13, 0 marks] Outline the causes of aneuploidy
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-Chromosomal Aberrations (Abnormalities)
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 CON-DEV-B922919ED9D575
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2553,72 +2578,42 @@ CLM-104-HIS-ANEUPLOIDY-DEFINITION-01 | CLM-104-HIS-ANEUPLOIDY-CAUSES-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p12 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q13, 0 marks] Outline the causes of aneuploidy
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "aneuploidy.causes" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: No second canonical view applies; this concept is taught only in the discipline this module runs under.
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2639,34 +2634,64 @@ Confusing a sinusoid with a fenestrated capillary. Both have pores, but the fene
 classification
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 cvs
 ## primary_node_id
 DIS-HIS-T03
 ## secondary_node_ids
 SYS-CVS-T01-S01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > A-V Connections
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p13 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Cardiovascular System
 ## aliases
 Somatic capillary | Blood sinusoid
+## article_ids
+ART-104-HIS-CAPILLARY-TYPES
+## support_mode
+direct_statement
+## original_wording
+[Histology Q14, 8 marks] Describe the histological characteristics of the somatic and sinusoidal capillaries regarding endothelium, junctions and basal lamina state one site for each
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-A-V Connections
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-CAPILLARY-TYPES
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS
 ## related_concept_ids
 [clear]
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2683,72 +2708,42 @@ CLM-104-HIS-CAPILLARY-CONTINUOUS-01 | CLM-104-HIS-CAPILLARY-SINUSOID-01
 [clear]
 ## rejected_merge_candidate_ids
 CON-CVS-2A37D5DDEB19DB | CON-CVS-047FC0A529AFBA | CON-HEM-C860EAA4417873
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p13 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q14, 8 marks] Describe the histological characteristics of the somatic and sinusoidal capillaries regarding endothelium, junctions and basal lamina state one site for each
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS — the article the teaching article ART-104-HIS-CAPILLARY-TYPES names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-relatedConceptIds: Walked the concepts under this module-subject leaf and found no untyped neighbour worth recording; anything real between them belongs in a typed relation instead.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "continuous versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
 
 ---
 
@@ -2769,34 +2764,64 @@ Calling the olfactory cilia motile. They do not beat; they are receptive process
 definition
 ## status
 under review
-## support_mode
-direct_statement
 ## subject
 resp
 ## primary_node_id
 DIS-HIS-T03
 ## secondary_node_ids
 SYS-RES-T01-S01-M01
+## modules
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_078450096f7b08eb1284 | end_of_year | 2025 | p14 | 104 CPS
+## weight_confidence
+0.7
+## blueprint_weight
+0.00
+## exam_weight_by_year
+KAU_Y1=0.00
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Histology
+## subtopic
+Respiratory System
 ## aliases
 Olfactory mucosa | Respiratory mucosa
+## article_ids
+ART-104-HIS-NASAL-MUCOSA
+## support_mode
+direct_statement
+## original_wording
+[Histology Q14, 0 marks] Compare between respiratory mucosa and olfactory mucosa as regard the epithelial thickness, basement membrane. cilia and goblet cells
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
 ## arabic_label
 
 ## arabic_aliases
 [clear]
-## topic
-Histology
-## subtopic
-Conducting Portion
 ## microtopic
 [clear]
 ## nanotopic
 [clear]
-## article_ids
-ART-104-HIS-NASAL-MUCOSA
-## related_article_ids
-ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## related_concept_ids
 CON-RES-F818BF7BB20E31 | CON-RES-CCE62F7217A235
+## related_article_ids
+ART-104-HIS-LYMPHOID-ORGANS | ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## resource_ids
 src_18d3a953df4ca83c4e74
 ## approved_file_resource_ids
@@ -2813,69 +2838,204 @@ CLM-104-HIS-OLFACTORY-EPITHELIUM-01 | CLM-104-HIS-OLFACTORY-BASEMENT-MEMBRANE-01
 [clear]
 ## rejected_merge_candidate_ids
 [clear]
-## conflicts
-[clear]
-## uncertainty
-[clear]
-## last_reviewed
-
-## review_due
-
 ## exclusion_reason
 
-## modules
-104 CPS
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-## universities
-kau
-## learner_years
-1
-## blueprint_weight
-0.60
-## exam_weight_by_year
-KAU_Y1=0.60
-## clinical_relevance
-0.2
-## academic_relevance
-0.9
-## exam_signal
-src_078450096f7b08eb1284 | end_of_year | 2025 | p14 | 104 CPS
-## weight_confidence
-0.7
-## confidence
-0.8
-## original_wording
-[Histology Q14, 0 marks] Compare between respiratory mucosa and olfactory mucosa as regard the epithelial thickness, basement membrane. cilia and goblet cells
-## evidence_gaps
-Evidence must be attached before publication.
-## owner
-Claude
 ## reviewer
 Medical team, Admin team
 ## final_publisher
 Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
 ## publication_status
 needs_evidence
 ## editorial_review_status
 authored_needs_independent_evidence
 ## field_notes
-arabicLabel: Teaching at Kasr Alainy is in English and the department book prints no Arabic term; students use the English one. Not transliterated, because a transliteration is not a reviewed term.
-arabicAliases: No Arabic label exists for this concept yet, so it can have no Arabic alternates.
-microtopicId: The canonical placement and the module-subject path are already finer than any microtopic in the overlay would be.
-nanotopicId: The microtopic level is already unused here; a nanotopic beneath it would be finer than anything the department book distinguishes.
-relatedArticleIds: ART-104-HIS-LYMPHOID-ORGANS and ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY — the articles the teaching article ART-104-HIS-NASAL-MUCOSA names in its own related_articles, which is the only other article in this module that touches this concept without teaching it.
-approvedFileResourceIds: No file resource has been rights-cleared for this concept; the corpus is a private university collection and nothing in it has been cleared for redistribution.
-approvedVideoResourceIds: No video resource has been rights-cleared for this concept; the module's corpus holds no video at all.
-atomicClaimIds: 2 claims in ../evidence/104-CPS-claims.md, each carrying a local_curriculum citation quoted from the department book. All are needs_evidence or conflicted: a university book establishes what is taught here, not that the fact is true, so none of them is verified off one source.
-resourceOccurrenceIds: Read from the paper and the department book by hand rather than by the extraction pipeline, so no corpus occurrence record exists to point at.
-sourceCandidateIds: Searched the corpus index for "respiratory versus" and found no candidate record; the Kasr Y1 corpus is indexed by file, not by extracted candidate.
-mergeIds: Nothing was merged into this concept; it was minted from one question on one paper.
-rejectedMergeCandidateIds: The search for this label returned no near-miss to decide against, so there is nothing to record here for the next author.
-conflicts: The department book and the solved paper agree on this concept; no source disagreement was found to record.
-uncertainty: Nothing about this concept is genuinely unsettled at undergraduate level; the department book states it without qualification.
-lastReviewed: New record; no reviewer has seen it yet.
-reviewDue: Set when the first review completes; a due date before a first review is a date nobody agreed to.
-exclusionReason: This concept is not excluded; the field is present and empty so that an exclusion later is a change somebody made rather than a field that was always missing.
-secondaryNodeIds: placed on a second view as well as its home node
-relationships: Walked the concepts sharing this module-subject leaf. Typed edges worth writing are recorded in the module's relation batch; the rest are same-leaf proximity only.
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## id
+CON-RES-0BB6BDDB3E4413
+## label
+A typical intercostal nerve runs in the neurovascular bundle below the vein and artery, and ends as the anterior cutaneous branch
+## canonical_key
+typical-intercostal-nerve.course-and-branches
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p1 | 104 CPS
+## field_notes
+canonical_key "typical-intercostal-nerve.course-and-branches" already has a pinned id in this module (CON-RES-0BB6BDDB3E4413); mintConceptId derives the same id fresh (CON-RES-0BB6BDDB3E4413) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-DC1111DA6DD151
+## label
+The mediastinal surfaces of the two lungs carry different impressions: the right is grooved by the SVC and azygos arch, the left by the aortic arch and its two great branches
+## canonical_key
+lung.mediastinal-surface-impressions
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p2 | 104 CPS
+## field_notes
+canonical_key "lung.mediastinal-surface-impressions" already has a pinned id in this module (CON-RES-DC1111DA6DD151); mintConceptId derives the same id fresh (CON-RES-DC1111DA6DD151) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-42C907CE4749DC
+## label
+The right atrium is split by the crista terminalis into a rough atrium proper and a smooth sinus venarum; the right ventricle has an inflow part with three papillary muscles and a smooth infundibulum
+## canonical_key
+heart.right-chambers-interior
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p3 | 104 CPS
+## field_notes
+canonical_key "heart.right-chambers-interior" already has a pinned id in this module (CON-CVS-42C907CE4749DC); mintConceptId derives the same id fresh (CON-CVS-42C907CE4749DC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-2A21F1B4F30B61
+## label
+The right coronary artery runs the coronary sulcus to give the marginal and posterior interventricular arteries, supplying the whole right side of the heart and, in most people, the whole conducting system
+## canonical_key
+right-coronary-artery.course-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p4 | 104 CPS
+## field_notes
+canonical_key "right-coronary-artery.course-and-distribution" already has a pinned id in this module (CON-CVS-2A21F1B4F30B61); mintConceptId derives the same id fresh (CON-CVS-2A21F1B4F30B61) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-1F1AB4B70AB06D
+## label
+The left coronary artery divides into the anterior interventricular and circumflex arteries, together supplying the left atrium, most of the left ventricle and the anterior two thirds of the septum
+## canonical_key
+left-coronary-artery.branches-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p4 | 104 CPS
+## field_notes
+canonical_key "left-coronary-artery.branches-and-distribution" already has a pinned id in this module (CON-CVS-1F1AB4B70AB06D); mintConceptId derives the same id fresh (CON-CVS-1F1AB4B70AB06D) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-9C60987F3CB5A1
+## label
+The arch of the aorta passes over the left bronchus and gives the brachiocephalic, left common carotid and left subclavian arteries from its convexity, with the trachea and oesophagus behind it
+## canonical_key
+arch-of-aorta.relations-and-branches
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p5 | 104 CPS
+## field_notes
+canonical_key "arch-of-aorta.relations-and-branches" already has a pinned id in this module (CON-CVS-9C60987F3CB5A1); mintConceptId derives the same id fresh (CON-CVS-9C60987F3CB5A1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-AFCED19BA66ED2
+## label
+The phrenic nerve enters the thorax on the venous side (right) or arterial side (left) of the mediastinum and leaves through the diaphragm it alone supplies motor to
+## canonical_key
+phrenic-nerve.course-and-distribution
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p6 | 104 CPS
+## field_notes
+canonical_key "phrenic-nerve.course-and-distribution" already has a pinned id in this module (CON-RES-AFCED19BA66ED2); mintConceptId derives the same id fresh (CON-RES-AFCED19BA66ED2) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-7A8A04F61D44D1
+## label
+The Na+-K+ ATPase, the Ca++-ATPase and the Na+-Ca++ exchanger maintain cardiac myocyte ionic gradients, and the exchanger can reverse direction
+## canonical_key
+cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p8 | 104 CPS
+## field_notes
+canonical_key "cardiac-sarcolemma.ionic-pumps-exchangers.resting-gradient-maintenance" already has a pinned id in this module (CON-CVS-7A8A04F61D44D1); mintConceptId derives the same id fresh (CON-CVS-7A8A04F61D44D1) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-BF82D6F52B72C9
+## label
+Beta-adrenergic stimulation raises cytoplasmic calcium through Protein Kinase A to increase both contractile force (positive inotropy) and the speed of relaxation (lusitropy), while hypoxia and ischaemia impair both
+## canonical_key
+cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p9 | 104 CPS
+## field_notes
+canonical_key "cardiac-contractility.inotropy-and-lusitropy.camp-pka-mechanisms" already has a pinned id in this module (CON-CVS-BF82D6F52B72C9); mintConceptId derives the same id fresh (CON-CVS-BF82D6F52B72C9) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-CVS-D97F7FD5B9F824
+## label
+Cardiac output is the volume each ventricle pumps per minute, equals heart rate times stroke volume, and is corrected for body size as the cardiac index
+## canonical_key
+cardiac-output.definition-formula-and-index
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p10 | 104 CPS
+## field_notes
+canonical_key "cardiac-output.definition-formula-and-index" already has a pinned id in this module (CON-CVS-D97F7FD5B9F824); mintConceptId derives the same id fresh (CON-CVS-D97F7FD5B9F824) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-A54FECB95CBEBC
+## label
+The dorsal respiratory group drives normal quiet breathing alone, the ventral respiratory group activates only for forced breathing, and the pontine apneustic and pneumotaxic centres tune the medullary rhythm rather than generating it
+## canonical_key
+respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation
+## exam_signal
+src_bc655a2ebebc4bf9d974 | baqoon | 2024 | p14 | 104 CPS
+## field_notes
+canonical_key "respiratory-center.drg-vrg-pontine-groups-and-rhythm-generation" already has a pinned id in this module (CON-RES-A54FECB95CBEBC); mintConceptId derives the same id fresh (CON-RES-A54FECB95CBEBC) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+

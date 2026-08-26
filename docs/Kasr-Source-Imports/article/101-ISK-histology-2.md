@@ -82,7 +82,7 @@ DIS-HIS-T02
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M02
 ## related_concepts
-[clear]
+CON-HEM-0EBFB178160067 | CON-HEM-11ABCB9BFB7F06 | CON-HEM-2C81CE9CF9F3D8 | CON-HEM-77AC215885FD6B | CON-HEM-BF988AB4E39366 | CON-HEM-C2A2C9AC2F59D5 | CON-HEM-C79EA8644C0C9C
 ## related_articles
 ART-101-HIS-HAEMOPOIESIS: The reticulocyte that replaces a lost red corpuscle, and the marrow that makes it, are described there.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The cell coat and the cytoskeleton this article relies on are set out in the cytology chapter, and the red corpuscle is the book's own worked example of both.
@@ -231,6 +231,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book states no acid–base buffering role for the red corpuscle, although the question books ask for one. Only gas transport is claimed here.
 The book names spherocytes as an abnormal shape and actin and spectrin as the cytoskeleton, but never connects the two. It does not state that hereditary spherocytosis is a spectrin defect, and this article does not either.
@@ -245,14 +254,17 @@ The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a658
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf. The two now listed are the identification concepts from ../concept/101-ISK-practical-concepts.md whose module subject path is this leaf, and both are taught above — the blood film and Leishman's stain in Definition and Key determinants, and the corpuscle's non-nucleated acidophilic disc with its central pallor, against the crenated corpuscle, in Definition, Key determinants and Common misconceptions.
+relatedConceptIds: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md sits on this leaf. The two now listed are the identification concepts from ../concept/101-ISK-practical-concepts.md whose module subject path is this leaf, and both are taught above — the blood film and Leishman's stain in Definition and Key determinants, and the corpuscle's non-nucleated acidophilic disc with its central pallor, against the crenated corpuscle, in Definition, Key determinants and Common misconceptions.
 practicalIdentification: The description of the blood film as a field is assembled from the practical plates rather than quoted from either source, and it is recorded in evidence_gaps.
 questionIds: Questions for this article are authored in the question pass that follows, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The question books ask for the molecular cause of hereditary spherocytosis (a spectrin gene defect) and for an acid–base buffering function. Neither is in this chapter, and neither is taught here. Both are recorded as evidence gaps for a faculty reviewer to rule on.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: two identification concepts sat here with no article claiming them, and the article already taught the substance of both — the Leishman preparation with its two dyes and its fixative, the corpuscle's acidophilia, its non-nucleated state, the pale central third, and crenation in a hypertonic medium. What it did not carry was the shape of the question. The department asks the preparation and the stain before it asks about any cell, and it arrows a normal and a crenated corpuscle on the same field, so the plate convention is written down here rather than left for a student to meet cold at the bench.
 
@@ -300,6 +312,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M02
 SYS-HEM-T01-S02-M01
+## related_concepts
+CON-HEM-667148E42AB738 | CON-HEM-681584C9DC1F94 | CON-HEM-719FA556594454 | CON-HEM-785718A47454E8 | CON-HEM-A8DC563DBFFDF6 | CON-HEM-FDAC2D5F64032E
 ## related_articles
 ART-101-HIS-GRANULAR-LEUKOCYTES: The differential count this article completes is stated there, and the total leukocytic count applies to both halves of it.
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The macrophage and the plasma cell, which are what the monocyte and the B lymphocyte become once they leave the blood, are described there.
@@ -436,6 +450,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book states that the three lymphocyte types are indistinguishable by light and electron microscopy but does not say how they are distinguished in practice beyond naming their surface markers. No immunostaining method is described in this chapter.
 The book gives no total lymphocyte life span figures beyond "years", "a few days to a few months" and "years" for T, B and natural killer cells respectively.
@@ -448,13 +471,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No authored concept sits on this leaf yet. The existing blood concepts cover granulocytes and platelets, and neither is what this article teaches, so none is claimed.
+relatedConceptIds: No authored concept sits on this leaf yet. The existing blood concepts cover granulocytes and platelets, and neither is what this article teaches, so none is claimed.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The question books ask which cell is the stem cell of the histiocyte, using a word this chapter never uses. Histiocyte is the connective tissue chapter's synonym for the fixed macrophage, and the answer is still the monocyte. The synonym is recorded here rather than introduced into the prose as though the book had taught it.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The differential count percentages in this article and in ART-101-HIS-GRANULAR-LEUKOCYTES together make up the book's whole differential, and they should be checked as a set at the evidence pass rather than one article at a time.
 
@@ -500,6 +526,8 @@ DIS-HIS-T02
 ## secondary_node_ids
 SYS-HEM-T01-S01-M01
 SYS-HEM-T01-S02-M03
+## related_concepts
+CON-HEM-25C4304A1DB441 | CON-HEM-5E6C1744F798E1 | CON-HEM-AEB2E6C6E8A423 | CON-HEM-E27E5F8544640A
 ## related_articles
 ART-101-HIS-BLOOD-PLATELETS: The megakaryocyte described here is where the platelet comes from, and the demarcation channels are set out in full there.
 ART-101-HIS-RED-BLOOD-CORPUSCLES: The reticulocyte is the immature form of the corpuscle described there, and the 120-day life span is what the marrow is replacing.
@@ -614,6 +642,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The same drawing serves ART-101-HIS-BLOOD-PLATELETS, where the demarcation channels are the origin story of the platelet.
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The chapter's own stated objective asks for the histological structure of the cells involved in the various stages of haemopoiesis, but the text covers only marrow structure, the reticulocyte and the megakaryocyte. Neither the erythroid nor the myeloid maturation series is described, and no blast, myelocyte, metamyelocyte or band cell is defined anywhere in this chapter.
 The book names the stem cell but does not classify it, does not give a pluripotent-to-committed hierarchy, and does not name a colony-forming unit.
@@ -626,13 +663,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation.
-relatedConcepts: No authored concept sits on this leaf yet, and none is invented here.
+relatedConceptIds: No authored concept sits on this leaf yet, and none is invented here.
 questionIds: Questions for this article are authored in the question pass that follows.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Some question books ask this leaf for myeloblasts, metamyelocytes and band cells, and for the bones in which erythropoiesis occurs. The department book teaches none of them in this chapter. Nothing about those stages is asserted here, and the absence is recorded as an evidence gap for a faculty reviewer rather than filled from another textbook.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf carries only six questions in the extracted question bank, but two of the six are the same question about bone marrow transplantation asked twice, and a third asks what increases as haemopoietic activity falls. Both turn on marrow structure rather than on a maturation series, which supports writing the article the way the book teaches it.
 
@@ -677,6 +717,8 @@ Year 1
 DIS-HIS-T04
 ## secondary_node_ids
 DIS-HIS-T01
+## related_concepts
+CON-FND-DACB83532148D6
 ## related_articles
 ART-101-HIS-MICROTECHNIQUES: The instrument is useless without a section to put under it, and the three processing techniques and the stains are set out there.
 ART-101-HIS-THE-CELL: The cell membrane is the book's own worked example of a structure below the resolution of the light microscope and visible only by electron microscopy.
@@ -779,6 +821,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book gives no resolution figure for the scanning electron microscope, only for the electron microscope as a class.
 The book gives no magnification range for the scanning electron microscope.
@@ -790,13 +841,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
+relatedConceptIds: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
 questionIds: The extracted question bank holds seven questions on this leaf, and they are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Nothing in this article comes from outside the department book. The arithmetic in Clinical significance — that 0.2 µm is 200 nm and therefore some twenty to twenty-five times the membrane's thickness — is the book's own two numbers put side by side, not an imported fact.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Several questions filed under this leaf in the extracted bank are really cell membrane questions that happen to mention the electron microscope. They are answered by ART-101-HIS-THE-CELL, and this article carries only the instrument side of them.
 
@@ -841,6 +895,8 @@ Year 1
 DIS-HIS-T04
 ## secondary_node_ids
 DIS-HIS-T02
+## related_concepts
+CON-FND-03C08D6EA7C7BE | CON-FND-05C930A781CE55 | CON-FND-22D6FA8D15AA45 | CON-FND-5F15B250FC19EC | CON-FND-9F0CCA2BFB5C7B | CON-FND-C75600D3D3B546
 ## related_articles
 ART-101-HIS-MICROSCOPES: The instrument these techniques feed, and the resolution limit that decides what a stained section can be asked to show.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Mallory, van Gieson, orcein and silver are all fibre stains, and the fibre article sets out which colour each gives which fibre.
@@ -970,6 +1026,15 @@ Rights: must be CC-BY or public domain
 Notes: The same plate serves ART-101-HIS-GRANULAR-LEUKOCYTES and ART-101-HIS-CONNECTIVE-TISSUE-CELLS, where mast cell and basophil metachromasia is the identifying feature.
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The chapter's own stated learning outcomes ask the student to name the common fixatives and list their functions, but the text of pages 4-6 lists processing techniques and stains and never gives a list of fixatives. No fixative list is supplied here. The only fixative the book names anywhere in this part is the methyl alcohol of Leishman's stain, named in the blood chapter.
 The book does not describe the individual steps of any of the three techniques — no fixation, dehydration, clearing, embedding, sectioning or mounting sequence is given, only the advantages and disadvantages of each method.
@@ -982,13 +1047,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here.
+relatedConceptIds: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here.
 questionIds: The extracted question bank holds eighty-seven questions filed on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Nothing here comes from outside the department book, but four stains come from outside this chapter of it. Best's carmine, Sudan III, Janus green, iron haematoxylin, Mallory's trichrome and van Gieson are taught in the cytology and connective tissue chapters, and the paragraph that names them says so rather than presenting them as part of the introduction's own stain list.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Most of the eighty-seven questions filed on this leaf in the extracted bank are stain questions whose subject matter belongs to another chapter — an eosinophil, a mast cell, a collagen fibre — and only the dye is being asked. This article gives the dye-and-target grid; the cell or fibre in each stem is described in its own article.
 
@@ -1194,6 +1262,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The same drawing serves ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, where the junctions are the chapter's own content.
 ## conflicts
 Which membrane molecule has the stabilising effect. The department book states that cholesterol lies among the hydrophobic fatty acid tails, restricts the movement of the phospholipid molecules and so modulates membrane fluidity, and the concept CON-FND-85CC08A33D0A88 follows the book. One question in the extracted bank marks "phospholipids" as the answer to the stabilising-effect stem while another marks cholesterol for the same idea. This article follows the department book: cholesterol is the stabiliser. The question-book discrepancy is recorded rather than resolved silently, and it needs a faculty ruling before either item is published.
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-1E8813C96183 | CLM-249826C16E35 | CLM-3166BEFEDE9A | CLM-D374E75C6EA1
+
+## span_ids
+SPN-HIS-THE-CELL-01 | SPN-HIS-THE-CELL-02 | SPN-HIS-THE-CELL-03 | SPN-HIS-THE-CELL-04
+
 ## evidence_gaps
 The book does not name the fluid-mosaic model as such in this chapter, although it describes every element of it. The phrase is not used here.
 The book does not say what proportion of membrane mass is lipid or carbohydrate; only the protein figure, about 50%, is given.
@@ -1208,13 +1285,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: All three concepts whose module subject path is 101 ISK > Histology > Cytology > The cell are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a fourth, CON-FND-17E5245CBA11D0, whose own module subject path is the Polarity and Membranous Specializations leaf but whose article_ids name this article and whose three questions are filed on this leaf. Rather than leave those three questions with nothing to read, the four lateral junctions are taught above, in the department book's own terms and cross-referenced to ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, which owns that leaf. Each listed concept is taught in the prose above — the unit membrane and its thickness in Definition, the molecular components in Mechanism, and the cell coat in Mechanism and Clinical significance. The endocytosis-and-exocytosis concept CON-FND-E66C68C0B80D16 is deliberately not listed: it was moved to the 101 ISK > Histology > Cytology > Cytoplasm path while this batch was being written, so it belongs to ART-101-HIS-CYTOPLASMIC-ORGANELLES. This article still teaches the three types of endocytosis, because the leaf's questions need them, but it does not claim a concept that now sits on another leaf.
+relatedConceptIds: All three concepts whose module subject path is 101 ISK > Histology > Cytology > The cell are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a fourth, CON-FND-17E5245CBA11D0, whose own module subject path is the Polarity and Membranous Specializations leaf but whose article_ids name this article and whose three questions are filed on this leaf. Rather than leave those three questions with nothing to read, the four lateral junctions are taught above, in the department book's own terms and cross-referenced to ART-101-HIS-MEMBRANOUS-SPECIALISATIONS, which owns that leaf. Each listed concept is taught in the prose above — the unit membrane and its thickness in Definition, the molecular components in Mechanism, and the cell coat in Mechanism and Clinical significance. The endocytosis-and-exocytosis concept CON-FND-E66C68C0B80D16 is deliberately not listed: it was moved to the 101 ISK > Histology > Cytology > Cytoplasm path while this batch was being written, so it belongs to ART-101-HIS-CYTOPLASMIC-ORGANELLES. This article still teaches the three types of endocytosis, because the leaf's questions need them, but it does not claim a concept that now sits on another leaf.
 questionIds: Questions for this article are authored in the question pass, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The four lateral junctions in Key determinants are from the department book's epithelial chapter rather than its cytology chapter, and the evidence basis says so. The question books' own vocabulary for them — connexon, and a gap of 2-3 nm — is deliberately not used, because the department book names no junctional protein family and gives no gap width; a student answering from this article answers in the book's words. The IgE receptors of the mast cell and the basophil, named in Clinical significance, are taught in the blood and connective tissue chapters of the same book rather than in the cytology chapter. They are used here as an application of the cell coat's receptor function, and the cross-reference is stated rather than presented as this chapter's own content. Nothing from outside the department book is asserted anywhere in this article.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The department book splits this material between a one-page section called The Cell and the opening pages of the Cytoplasm chapter. The subject tree gives the leaf to The cell and the question bank files forty-six membrane questions there, so the membrane is taught here and the remaining organelles are left to ART-101-HIS-CYTOPLASMIC-ORGANELLES, which holds the Cytoplasm leaf. The two articles are written not to repeat each other.
 
@@ -1260,7 +1340,7 @@ DIS-HIS-T01
 ## secondary_node_ids
 SYS-FND-T01-S01-M03
 ## related_concepts
-CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED
+CON-FND-BC0AAA59F11F66 | CON-FND-C5C16B3F123155 | CON-FND-6C5ABFD844D630 | CON-FND-30573B6D0A9AFD | CON-FND-AEAB45FAA2C33D | CON-FND-5097CA5BAB2E51 | CON-FND-C81FD3E574D3AA | CON-FND-BAABF179A898ED | CON-FND-69671A492023B8 | CON-FND-EB83F2B16C479F
 ## related_articles
 ART-101-HIS-THE-CELL: The cell's other basic component, and the plasma membrane whose trilaminar profile the nuclear envelope repeats twice over.
 ART-101-HIS-CYTOPLASMIC-ORGANELLES: The rough endoplasmic reticulum the outer nuclear membrane is continuous with, and the ribosomes whose subunits leave through the nuclear pores, are described there.
@@ -1477,6 +1557,15 @@ Source direction: purpose-drawn, following the department book's page 23 and pag
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-181E8A4C2DDC | CLM-25DD8FC36FFE | CLM-2B756A5E13F1 | CLM-3D1DB23E51EF | CLM-770B0EDAB872 | CLM-AB9E9BBF304F | CLM-B8590DF61E92 | CLM-C1C62A12E33D | CLM-C2EACD1B5515 | CLM-E327FCE5D8D7 | CLM-E4F95AEAA2D5 | CLM-F53CE81ACB5A
+
+## span_ids
+SPN-HIS-NUCLEUS-01 | SPN-HIS-NUCLEUS-02 | SPN-HIS-NUCLEUS-03 | SPN-HIS-NUCLEUS-04 | SPN-HIS-NUCLEUS-05 | SPN-HIS-NUCLEUS-06 | SPN-HIS-NUCLEUS-07 | SPN-HIS-NUCLEUS-08 | SPN-HIS-NUCLEUS-09 | SPN-HIS-NUCLEUS-10 | SPN-HIS-NUCLEUS-11 | SPN-HIS-NUCLEUS-12 | SPN-HIS-NUCLEUS-13 | SPN-HIS-NUCLEUS-14 | SPN-HIS-NUCLEUS-15 | SPN-HIS-NUCLEUS-16 | SPN-HIS-NUCLEUS-17
+
 ## evidence_gaps
 The book gives no size for the nucleus, no nucleocytoplasmic ratio, and no diameter for the nuclear pore or the perinuclear space.
 The book names the nuclear lamina and lamins but does not say what the lamina does beyond being associated with the inner membrane.
@@ -1496,13 +1585,16 @@ The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a658
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
 practicalIdentification: The open-face and closed-face paragraph is the one place in this article where a term is equated across two sources rather than quoted from one. It is recorded in evidence_gaps.
-relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Cytology > Nucleus are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a seventh, CON-DEV-0BA870DF2C2E13, whose own module subject path is the General Embryology > Gametes leaf but whose article_ids name this article and whose two questions are filed on this leaf. Rather than leave those two questions with nothing to read, the gamete nuclei are summarised in Clinical significance from the embryology chapter of the same book, with the source named. Each listed concept is taught above — the four parts, the nuclear sap and the functions in Definition and Mechanism; the envelope and the pore-versus-pore-complex distinction in Mechanism and Key determinants; euchromatin against heterochromatin and the three heterochromatin sites in Mechanism and Key determinants; the three parts of the nucleolus and what it makes in Mechanism and Key determinants; nuclear number, position, shape and level as the way a cell is named in Key determinants; and the four named chromosomal syndromes in Clinical significance. The last of those six was minted while this article was being written and is the only one whose content the histology chapter itself does not carry; it is taught with its source named rather than left uncovered.
+relatedConceptIds: All six concepts whose module subject path is 101 ISK > Histology > Cytology > Nucleus are listed, copied from ../concept/101-ISK-mcq-concepts.md, together with a seventh, CON-DEV-0BA870DF2C2E13, whose own module subject path is the General Embryology > Gametes leaf but whose article_ids name this article and whose two questions are filed on this leaf. Rather than leave those two questions with nothing to read, the gamete nuclei are summarised in Clinical significance from the embryology chapter of the same book, with the source named. Each listed concept is taught above — the four parts, the nuclear sap and the functions in Definition and Mechanism; the envelope and the pore-versus-pore-complex distinction in Mechanism and Key determinants; euchromatin against heterochromatin and the three heterochromatin sites in Mechanism and Key determinants; the three parts of the nucleolus and what it makes in Mechanism and Key determinants; nuclear number, position, shape and level as the way a cell is named in Key determinants; and the four named chromosomal syndromes in Clinical significance. The last of those six was minted while this article was being written and is the only one whose content the histology chapter itself does not carry; it is taught with its source named rather than left uncovered.
 questionIds: The extracted question bank files seventy-one questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Two blocks of content in this article are not in the department book's nucleus chapter, and both are named as such rather than smuggled in. The karyotypes of Down, Turner, Klinefelter and cri-du-chat syndromes in Clinical significance come from the departmental question books, which mark several of them as departmental questions; the chapter itself teaches only that chromosomal alterations are associated with tumours and genetic diseases. They are taught here because concept CON-FND-5097CA5BAB2E51 sits on this leaf and the questions on it would otherwise have nowhere to be read, and they carry an explicit sentence in the prose saying the chapter does not state them. The named cells in the nuclear-shape paragraph are from other chapters of the same book, cross-referenced rather than reproduced, and so is the gamete material in Clinical significance, which belongs to the embryology part. Nothing in this article comes from a textbook other than the department's own book and its own question books.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: three identification concepts sat here with no article claiming them. Two the article already taught in full — the nuclear envelope with its two membranes, perinuclear space and pores, and the euchromatin-against-heterochromatin comparison with the three sites of heterochromatin — and needed only the department's own marker-by-marker answers written down. The third could not honestly be declared until the article was extended, because the article carried that idea under one set of names and the spot exam asks it under another: pale vesicular and dark condensed in the book, open face and closed face on the plate.
 
@@ -1549,6 +1641,8 @@ Year 1
 DIS-HIS-T02
 ## secondary_node_ids
 SYS-FND-T03-S02-M03
+## related_concepts
+CON-FND-46C9A4425362B0 | CON-FND-6CCD045AEF0536 | CON-FND-A635150A3F245D | CON-FND-CE178A6B5707B1 | CON-FND-E0C05B1FE6D280
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: The fibroblast, the reticular cell and the chondroblast that make these fibres are described there, along with the ground substance the fibres lie in.
 ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE: Which fibre predominates is what names each type of connective tissue proper, and the six types are set out there.
@@ -1685,6 +1779,15 @@ Source direction: purpose-drawn for this product
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+[clear]
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
 ## evidence_gaps
 The book explicitly refers collagen synthesis out to Biochemistry — "COLLAGEN SYNTHESIS: Refer to the Biochemistry" — so no synthetic pathway, no procollagen, no tropocollagen and no cross-linking step is taught in this chapter or stated here.
 The book gives no diameter for any of the three fibres and no banding periodicity for collagen.
@@ -1698,13 +1801,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
+relatedConceptIds: No concept in ../concept/101-ISK-concepts.md or ../concept/101-ISK-mcq-concepts.md carries the module subject path of this leaf, so the list is empty. None is invented here, and no concept belonging to another leaf is claimed as taught by this article.
 questionIds: The extracted question bank files fifty-one questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: Nothing in this article comes from outside the department book. The basal lamina and reticular lamina facts used in Key determinants are from the same book's epithelial chapter rather than from this one, and the evidence basis says so; they are included because the question books ask them against this leaf and because they are collagen type statements.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 The department book prints the fibre table and the collagen table on facing material, and the "Types of C.T. Proper" chart falls on the same page 48 as the collagen table. The two leaves are therefore easy to conflate in revision; this article stops at the fibres, and ART-101-HIS-TYPES-OF-CONNECTIVE-TISSUE begins with the chart.
 
@@ -1750,7 +1856,7 @@ DIS-HIS-T02
 ## secondary_node_ids
 DIS-HIS-T03
 ## related_concepts
-CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-49D5829AC3DCA1
+CON-FND-FE298AB3CE47E9 | CON-FND-5DCA7C68C51E38 | CON-FND-B784BE0F18B493 | CON-FND-37C773B1F99BE3 | CON-FND-86543DB2855310 | CON-FND-EA4034F1E87235 | CON-FND-49D5829AC3DCA1 | CON-FND-1438DCA008F0DB
 ## related_articles
 ART-101-HIS-CONNECTIVE-TISSUE-CELLS: Every cell named here — the fibroblast, the fat cell, the reticular cell, the mast cell, the macrophage, the plasma cell — is described there, along with the ground substance.
 ART-101-HIS-CONNECTIVE-TISSUE-FIBRES: Which fibre predominates is what names most of these types, and the three fibres and their stains are set out there.
@@ -1950,6 +2056,15 @@ Source direction: purpose-drawn from the department book's page 51 table, redraw
 Rights: newly drawn for this product, or CC-BY
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-2C090FC11C7F | CLM-AC9D07AFE4F1 | CLM-EDB12D72B6A4 | CLM-F460D2954A6B
+
+## span_ids
+SPN-HIS-TYPES-OF-CONNECTIVE-01 | SPN-HIS-TYPES-OF-CONNECTIVE-02 | SPN-HIS-TYPES-OF-CONNECTIVE-03 | SPN-HIS-TYPES-OF-CONNECTIVE-04 | SPN-HIS-TYPES-OF-CONNECTIVE-05 | SPN-HIS-TYPES-OF-CONNECTIVE-06 | SPN-HIS-TYPES-OF-CONNECTIVE-07 | SPN-HIS-TYPES-OF-CONNECTIVE-08
+
 ## evidence_gaps
 The book gives no quantity for any of these tissues — no percentage of body weight for adipose tissue, no fat cell diameter, no figure for how much brown fat a newborn carries.
 The book prints a rhetorical "Why?" beside the brown colour of the multilocular fat cell in its page 50 table rather than an answer, and the answer given here — richer vascularity plus mitochondrial cytochrome pigment — is taken from the same table's own colour row.
@@ -1967,13 +2082,16 @@ The department's practical book, "DPT Practical Histo 101" (src_b4cb8bf9f0c7a658
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
 practicalIdentification: The mucoid connective tissue paragraph is the one place in this article where the section appearance is reasoned from a description rather than quoted from an answer page. It is recorded in evidence_gaps.
-relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the proper-versus-specialised classification in Definition, loose areolar as the complete and commonest type in Mechanism and Key determinants, its sites and functions in Key determinants, the functions of adipose tissue including leptin in Key determinants and Clinical significance, white against brown fat in Key determinants, and mucoid connective tissue in Mechanism and Key determinants.
+relatedConceptIds: All six concepts whose module subject path is 101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the proper-versus-specialised classification in Definition, loose areolar as the complete and commonest type in Mechanism and Key determinants, its sites and functions in Key determinants, the functions of adipose tissue including leptin in Key determinants and Clinical significance, white against brown fat in Key determinants, and mucoid connective tissue in Mechanism and Key determinants.
 questionIds: Questions for this article are authored in the question pass, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The proper-versus-specialised classification and the naming of mesenchyme as the embryonic connective tissue come from the department book's connective tissue cells chapter rather than from this one, and the evidence basis says so. Nothing from outside the department book is asserted anywhere in this article.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Extended to close the practical gap on this leaf: five identification concepts sat here with no article claiming them. The article already carried each tissue's composition, sites and functions, but it had been written for a written paper and said almost nothing about what any of them looks like down a microscope. What was added is the fibre picture of each type — thick acidophilic bundles, single thin zigzag fibres, a thin branching brown network — the two stains the spot exam names, orcein and silver, and the department's own marker-by-marker answers. Mucoid connective tissue is the one type on this leaf the department does not set as a marked question, and the paragraph on it says so.
 
@@ -2170,6 +2288,15 @@ Source direction: openly licensed histology teaching set
 Rights: must be CC-BY or public domain
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-0D3B51AFD14D | CLM-40F3E658F8BE | CLM-4C7C5EC35FD2 | CLM-4DEE7710173E | CLM-51DBDF94F0D4 | CLM-567BDBAC904E | CLM-72627EF1A944 | CLM-7755A347F5E1 | CLM-A7CE3E30B771 | CLM-B51269F181B2 | CLM-BA6E46168358 | CLM-D4B459B85CFE
+
+## span_ids
+SPN-HIS-GLANDULAR-EPITHELIUM-01 | SPN-HIS-GLANDULAR-EPITHELIUM-02 | SPN-HIS-GLANDULAR-EPITHELIUM-03 | SPN-HIS-GLANDULAR-EPITHELIUM-04 | SPN-HIS-GLANDULAR-EPITHELIUM-05 | SPN-HIS-GLANDULAR-EPITHELIUM-06 | SPN-HIS-GLANDULAR-EPITHELIUM-07 | SPN-HIS-GLANDULAR-EPITHELIUM-08 | SPN-HIS-GLANDULAR-EPITHELIUM-09 | SPN-HIS-GLANDULAR-EPITHELIUM-10 | SPN-HIS-GLANDULAR-EPITHELIUM-11 | SPN-HIS-GLANDULAR-EPITHELIUM-12 | SPN-HIS-GLANDULAR-EPITHELIUM-13 | SPN-HIS-GLANDULAR-EPITHELIUM-14 | SPN-HIS-GLANDULAR-EPITHELIUM-15 | SPN-HIS-GLANDULAR-EPITHELIUM-16 | SPN-HIS-GLANDULAR-EPITHELIUM-17 | SPN-HIS-GLANDULAR-EPITHELIUM-18 | SPN-HIS-GLANDULAR-EPITHELIUM-19 | SPN-HIS-GLANDULAR-EPITHELIUM-20
+
 ## evidence_gaps
 The book describes the three modes of secretion by their mechanism but gives no named gland example for any of them. The salivary, lactating mammary and sebaceous examples used here come from the question books and from the concepts drafted on them, not from the extracted text of pages 57-58.
 The same is true of the combined classification. The book prints ten unlabelled diagrams on page 58 and does not attach an organ to any of them; the intestinal, fundic, sweat, kidney, sebaceous and salivary placements come from the question books.
@@ -2183,13 +2310,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so every plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: All six concepts whose module subject path is 101 ISK > Histology > Epithelial Tissues > Glandular Epithelium are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the duct-presence classification in Definition, the three modes of secretion in Mechanism, the separate meanings of simple, compound, branched, tubular and alveolar in Mechanism and Key determinants, the named glands in the combined classification in Key determinants, the goblet cell as the unicellular gland in Mechanism, and the nature-of-secretion classification with the serous parotid in Mechanism and Key determinants.
+relatedConceptIds: All six concepts whose module subject path is 101 ISK > Histology > Epithelial Tissues > Glandular Epithelium are listed, copied from ../concept/101-ISK-mcq-concepts.md, and each is taught above — the duct-presence classification in Definition, the three modes of secretion in Mechanism, the separate meanings of simple, compound, branched, tubular and alveolar in Mechanism and Key determinants, the named glands in the combined classification in Key determinants, the goblet cell as the unicellular gland in Mechanism, and the nature-of-secretion classification with the serous parotid in Mechanism and Key determinants.
 questionIds: Questions for this article are authored in the question pass, and the reciprocal link is written then.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The named gland examples — salivary for merocrine, lactating mammary for apocrine, sebaceous for holocrine, and the six organs placed in the combined classification — are not in the extracted text of this chapter, which teaches the mechanisms and prints the diagrams unlabelled. They come from the departmental question books and are what the paper marks against, so they are taught here and their origin is named rather than presented as the book's own text. A faculty reviewer should confirm them against the printed figures before publication.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 Sixty-eight questions are filed on this leaf in the extracted bank, more than on any other histology leaf in the module except the cytoplasm, and they cluster on three things: which structure a classification word describes, which mode of secretion a named gland uses, and where the myo-epithelial cell sits. The article is ordered to answer those three first.
 
@@ -2302,6 +2432,15 @@ Rights: must be CC-BY or public domain, no all-rights-reserved textbook figure
 Notes: An unlabelled version is preferred so the same plate can carry a recognition question later. The department book's page 59 image is itself unlabelled.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-7AB7A607B5F9 | CLM-A00C71090954
+
+## span_ids
+SPN-HIS-NEURO-EPITHELIUM-01 | SPN-HIS-NEURO-EPITHELIUM-02 | SPN-HIS-NEURO-EPITHELIUM-03
+
 ## evidence_gaps
 This is one of the shortest sections in the department book — three bullet points and one unlabelled image on page 59 — and the article is short for that reason rather than by choice.
 The book does not describe the structure of a taste bud: no taste pore, no gustatory cell, no supporting or sustentacular cell, no basal cell.
@@ -2315,13 +2454,16 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so the one plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: The one concept whose module subject path is 101 ISK > Histology > Epithelial Tissues > Neuro Epithelium is listed, copied from ../concept/101-ISK-mcq-concepts.md. It is taught in Definition and Key determinants, including its pitfall — that the prefix names the function and not the ancestry.
+relatedConceptIds: The one concept whose module subject path is 101 ISK > Histology > Epithelial Tissues > Neuro Epithelium is listed, copied from ../concept/101-ISK-mcq-concepts.md. It is taught in Definition and Key determinants, including its pitfall — that the prefix names the function and not the ancestry.
 questionIds: The extracted question bank holds three questions on this leaf. They are authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The two statements in Clinical significance — that a sensation can fail at the receptor with the nerve intact, and that an epithelial receptor is in principle replaceable where a neuron is not — are inferences from the book's own definition of neuro-epithelium and its own statement that epithelium has a high power of regeneration. The book itself gives no clinical content for this class. They are marked here so that a faculty reviewer can strike them if the inference is not one the department wants taught.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf carries three questions in the extracted bank, and all three test the same definition from different directions: what the term means, what the taste bud is made of, and what the taste bud is an example of. The article is deliberately short. Padding it would not add a single mark and would bury the one distinction that is asked.
 
@@ -2436,6 +2578,15 @@ Rights: newly drawn for this product, or CC-BY
 Notes: The department book's own figure is unlabelled. The same drawing serves ART-101-HIS-GLANDULAR-EPITHELIUM, where the presence of myo-epithelial cells is one of the consequences of having a duct.
 ## conflicts
 [clear]
+## resource_ids
+src_b1e6dc481eaf337268d0
+
+## claim_ids
+CLM-200E3E65A24E | CLM-47A77AF342DC
+
+## span_ids
+SPN-HIS-MYO-EPITHELIUM-01 | SPN-HIS-MYO-EPITHELIUM-02 | SPN-HIS-MYO-EPITHELIUM-03 | SPN-HIS-MYO-EPITHELIUM-04 | SPN-HIS-MYO-EPITHELIUM-05
+
 ## evidence_gaps
 The department book gives this class four bullet points and one unlabelled figure on page 59, and the article is short for that reason rather than by choice.
 The book does not describe the shape of the myo-epithelial cell, its processes, or the basket appearance the cell is named for elsewhere.
@@ -2450,12 +2601,15 @@ Department Book Module 101, "Normal Structure of the Human Body (ISK - 101)", Fa
 ## field_notes
 arabicTitle: Arabic histological terminology has not been reviewed for this module. It is filled at the evidence pass with a reviewer rather than guessed here.
 media: No image exists in the repository, so the one plate this article needs is written as an image recommendation rather than left as an unexplained blank.
-relatedConcepts: The one concept whose module subject path is 101 ISK > Histology > Epithelial Tissues > Myo Epithelium is listed, copied from ../concept/101-ISK-mcq-concepts.md. It is taught in Definition, Mechanism and Key determinants, including its pitfall — the apical position that the geometry rules out.
+relatedConceptIds: The one concept whose module subject path is 101 ISK > Histology > Epithelial Tissues > Myo Epithelium is listed, copied from ../concept/101-ISK-mcq-concepts.md. It is taught in Definition, Mechanism and Key determinants, including its pitfall — the apical position that the geometry rules out.
 questionIds: The extracted question bank holds a single question on this leaf. It is authored in the question pass rather than here.
 subtopic: No SUB_ identifier has been assigned to this module in the canonical taxonomy, so the curriculum position is carried by module_subject instead.
-microtopic: No microtopic level exists beneath this node.
-nanotopic: No nanotopic level exists beneath this node.
+microtopicId: No microtopic level exists beneath this node.
+nanotopicId: No nanotopic level exists beneath this node.
 reviewer: Not yet reviewed by faculty. The publication gate is needs_evidence for that reason.
 beyondTheBook: The milk-ejection reading in Clinical significance is an application of the book's own mechanism to the mammary gland, which the book itself names as a site. Oxytocin, the hormone that drives that contraction, is deliberately not named, because the book does not name it and nothing else in this module supplies it. A faculty reviewer should decide whether the clinical paragraph is taught or struck.
+lastReviewed: Never reviewed.
+reviewDue: No review cycle has been scheduled yet — none begins until a faculty reviewer completes the sign-off named in the reviewer note above.
+finalPublisher: Not yet released to students by a named publisher. The publication gate is needs_evidence for that reason.
 ## notes
 This leaf carries one question in the extracted bank, and that question is built on the apical-position distractor. The article is written to that: the position is stated four times in four different forms — definition, mechanism, decision rule and trap — because it is the only thing being examined and because stating it once has demonstrably not been enough.

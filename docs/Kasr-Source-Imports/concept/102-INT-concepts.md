@@ -3,9 +3,11 @@
 
     EOY (INT - 102) 199 (2).pdf — end of year 2025, 21 questions
     EOY (INT - 102) 198 (1).pdf — end of year 2024, 24 questions
+    EOY PHYSIO 2022 Written 2022 102 (1) (1).pdf — end of year 2022, 19 questions
+    دور تاني 2022 102  (1)EOY 2022 PHYSIO  .pdf — baqoon 2022, 18 questions
 
-  38 concepts from 45 questions.
-  7 of them were asked on more than one paper, and carry an exam_signal
+  57 concepts from 82 questions.
+  18 of them were asked on more than one paper, and carry an exam_signal
   line per sitting: repetition is the strongest blueprint evidence this corpus
   holds, and it only exists once the papers are read together.
 
@@ -181,12 +183,14 @@ kau
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p1 | 102 INT
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p8 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p11 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p11 | 102 INT
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.04
+0.06
 ## exam_weight_by_year
-KAU_Y1=0.04
+KAU_Y1=0.06
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -311,18 +315,20 @@ kau
 1
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p1 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p11 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p11 | 102 INT
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.03
+0.05
 ## exam_weight_by_year
-KAU_Y1=0.03
+KAU_Y1=0.05
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Biochemistry
 ## subtopic
@@ -702,18 +708,19 @@ kau
 1
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p1 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p8 | 102 INT
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.03
+0.04
 ## exam_weight_by_year
-KAU_Y1=0.03
+KAU_Y1=0.04
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Biochemistry
 ## subtopic
@@ -1743,12 +1750,13 @@ kau
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p6 | 102 INT
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p7 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p7 | 102 INT
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.09
+0.13
 ## exam_weight_by_year
-KAU_Y1=0.09
+KAU_Y1=0.13
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -2394,18 +2402,20 @@ kau
 1
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p9 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p5 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p5 | 102 INT
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.11
+0.23
 ## exam_weight_by_year
-KAU_Y1=0.11
+KAU_Y1=0.23
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Physiology
 ## subtopic
@@ -2525,12 +2535,13 @@ kau
 ## exam_signal
 src_f90429f7c288986e68b5 | end_of_year | 2025 | p10 | 102 INT
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p4 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p2 | 102 INT
 ## weight_confidence
 0.9
 ## blueprint_weight
-0.15
+0.20
 ## exam_weight_by_year
-KAU_Y1=0.15
+KAU_Y1=0.20
 ## clinical_relevance
 0.3
 ## academic_relevance
@@ -4087,18 +4098,20 @@ kau
 1
 ## exam_signal
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p7 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p8 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p8 | 102 INT
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
-0.06
+0.12
 ## exam_weight_by_year
-KAU_Y1=0.06
+KAU_Y1=0.12
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Biochemistry
 ## subtopic
@@ -4477,8 +4490,9 @@ kau
 1
 ## exam_signal
 src_dbe1da0da0b7f94a618f | end_of_year | 2024 | p9 | 102 INT
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p7 | 102 INT
 ## weight_confidence
-0.7
+0.9
 ## blueprint_weight
 0.00
 ## exam_weight_by_year
@@ -4488,7 +4502,7 @@ KAU_Y1=0.00
 ## academic_relevance
 0.9
 ## confidence
-0.75
+0.9
 ## topic
 Biochemistry
 ## subtopic
@@ -4917,6 +4931,2218 @@ src_a488633802ec053c6325
 [clear]
 ## atomic_claim_ids
 CLM-FND-REPLICATION-FORK-STRAND-SEPARATION-01
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Acetylcholine is destroyed at once by acetylcholinesterase, while noradrenaline is mostly recaptured by the nerve ending that released it and only slowly destroyed by MAO and COMT
+## id
+CON-NEU-ACE8344E6D9D43
+## canonical_key
+removal-of-acetylcholine-and-noradrenaline
+## definition
+Once secreted, most acetylcholine is split within a fraction of a second into acetate and choline by acetylcholinesterase, of which true (specific) cholinesterase sits on cholinergic nerve endings and pseudocholinesterase (non-specific) acts in plasma; the choline produced is transported back into the nerve ending for resynthesis of acetylcholine. Noradrenaline is removed within a few seconds by three routes: active re-uptake into the adrenergic nerve ending itself, which accounts for 50-80% of removal; diffusion away into surrounding fluid and blood; and enzymic destruction by monoamine oxidase (MAO), on the outer mitochondrial membrane, and catechol-O-methyl-transferase (COMT), present in tissues generally but not in the adrenergic nerve ending itself.
+## explicit_objective
+State the enzyme and mechanism that removes acetylcholine, and the three routes by which noradrenaline is removed, naming the two enzymes involved.
+## pitfalls
+Assuming both transmitters are removed the same way. Acetylcholine's removal is essentially enzymic and immediate; noradrenaline's is mainly physical re-uptake, with enzymic destruction as a secondary route — which is why blocking re-uptake, not the enzymes, is the faster way to prolong noradrenaline's action.
+## concept_type
+mechanism
+## status
+under review
+## subject
+neuro
+## primary_node_id
+DIS-PHY-T07
+## secondary_node_ids
+SYS-NEU-T01-S02
+## modules
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Chemical transmission at autonomic junctions and autonomic receptors
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p3 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Autonomic nervous system
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Short Essay Questions Q2, 6 marks] Describe how the acetylcholine and noradrenaline are removed after being exocytosed. (6 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## id
+CON-HEM-E0B694DE0AF467
+## label
+Hepcidin, a liver-secreted 25-amino-acid hormone, is the main regulator of iron absorption, lowering plasma iron by degrading ferroportin on enterocytes and macrophages
+## canonical_key
+hepcidin-regulation-of-iron-balance
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p3 | 102 INT
+## field_notes
+canonical_key "hepcidin-regulation-of-iron-balance" already has a pinned id in this module (CON-HEM-E0B694DE0AF467); mintConceptId derives the same id fresh (CON-HEM-E0B694DE0AF467) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+The platelet release reaction empties the dense and alpha granules, and it is what turns an adherent platelet into an aggregating, clot-recruiting one
+## id
+CON-HEM-E20402B19F5D30
+## canonical_key
+platelet-release-reaction-mechanism
+## definition
+The platelet release reaction is a calcium-dependent step of platelet activation following adhesion to exposed subendothelial collagen and von Willebrand factor. It releases the contents of the dense granules — calcium, which promotes further release; ADP, which activates, aggregates and fuses more platelets; and serotonin, which reinforces vasoconstriction of the injured vessel — and the contents of the alpha granules, which include coagulation factors (fibrinogen, factor V, von Willebrand factor and factor XIII), platelet-derived growth factor (PDGF, which stimulates vessel-wall repair by driving proliferation of endothelium, smooth muscle and fibroblasts), platelet activating factor (PAF, which stimulates further platelet aggregation), and thromboxane A2, produced from membrane arachidonic acid by cyclooxygenase, which is a vasoconstrictor and a powerful stimulant of both the release reaction and platelet aggregation.
+## explicit_objective
+List the contents released from platelet dense and alpha granules during the release reaction and state what each contributes to haemostasis.
+## pitfalls
+Treating the release reaction as the first step of platelet plug formation. Adhesion to exposed collagen comes first and triggers activation; the release reaction is the calcium-dependent step that follows and is what recruits and aggregates further platelets.
+## concept_type
+mechanism
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-PHY-T02
+## secondary_node_ids
+SYS-HEM-T03
+## modules
+102 INT
+## module_subject
+102 INT > Physiology > Blood > Platelets and haemostasis
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p4 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Blood
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Short Essay Questions Q4, 6 marks] Describe the platelet release reaction. (6 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+A hormone that cannot enter the cell hands its message to adenylyl cyclase, which makes cAMP, which switches protein kinase A on, and that one relay explains how glucagon and epinephrine push glycogen breakdown while insulin pushes it back
+## id
+CON-FND-12CE1BF1D6C77C
+## canonical_key
+camp-second-messenger-mechanism
+## definition
+cAMP is formed from ATP by adenylyl cyclase and broken down to AMP by phosphodiesterase. Hormone-receptor interaction activates G proteins, which activate adenylyl cyclase, generating cAMP. Cyclic AMP activates protein kinase A: the inactive enzyme is a tetramer of two regulatory and two catalytic subunits, and binding of two cAMP molecules to each regulatory subunit releases the active catalytic subunits, which phosphorylate substrate enzymes, activating some (e.g. glycogen phosphorylase kinase) and inactivating others (e.g. glycogen synthase); a protein phosphatase reverses this by dephosphorylation. Glucagon and epinephrine act through this mechanism, raising cAMP and (by inhibiting protein phosphatase) sustaining the phosphorylated state, while insulin lowers cAMP by activating both protein phosphatase and phosphodiesterase, reversing glucagon's and epinephrine's effects.
+## explicit_objective
+Trace the chain from hormone-receptor binding to phosphorylated-enzyme effect, and explain how insulin reverses what glucagon and epinephrine do through this same pathway.
+## pitfalls
+Assuming cAMP itself does the phosphorylating. cAMP's whole job is to release the catalytic subunits of protein kinase A from its regulatory subunits — the kinase does the phosphorylation.
+## concept_type
+mechanism
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T01
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Free Nucleotides
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p7 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p7 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.11
+## exam_weight_by_year
+KAU_Y1=0.11
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Chemistry of Free Nucleotides
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[On Biochemical Basis Explain Q2, 6 marks] cAMP acts as a hormone second messenger. (6 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+DNA repair is a four-step assembly line — cut, remove, refill, seal — and losing any one step is what produces a genetic repair disease like xeroderma pigmentosum
+## id
+CON-FND-DEE7732AEC0F74
+## canonical_key
+dna-repair-four-steps
+## definition
+DNA replicates with high accuracy but roughly one error occurs per 30,000 bases, and radiation, chemicals and spontaneous loss also damage bases; unrepaired damage becomes a permanent mutation. Repair proceeds in four broad steps: recognition of the lesion, by an endonuclease that cleaves the damaged strand to make a nick; excision of the damaged DNA, by an exonuclease; filling the gap, catalysed by a repair DNA polymerase (polymerase beta); and ligation, catalysed by DNA ligase. Defects in this repair machinery cause genetic disease, for example xeroderma pigmentosum, whose defective DNA repair causes hypersensitivity to sunlight/UV, increased skin cancer and premature ageing and death.
+## explicit_objective
+Name and order the four steps of DNA repair with the enzyme responsible for each, and give one disease caused by a defect in the pathway.
+## pitfalls
+Naming DNA polymerase as the enzyme that finds the damage. Recognition is an endonuclease's job (it nicks the strand); the repair DNA polymerase only fills the gap after the damaged segment has already been excised.
+## concept_type
+mechanism
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T06
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p8 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+DNA Synthesis (Replication) and Repair
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[On Biochemical Basis Explain Q4, 6 marks] Repair of damaged DNA occurs in four steps. (6 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job
+## id
+CON-FND-E50700FFFCF367
+## canonical_key
+dna-vs-rna-comparison
+## definition
+The book's own comparison table: nitrogenous bases — both have adenine, guanine and cytosine; DNA has thymine and no uracil, RNA has uracil and thymine only as a minor base in tRNA. Sugar — DNA has 2-deoxyribose, RNA has ribose. Shape of strand — DNA is a double helix, RNA is single-stranded. Types — DNA is linear or circular, RNA exists as mRNA, tRNA and rRNA. Site — DNA is in the nucleus and mitochondria, RNA is mainly in the cytosol and less commonly in the nucleus and mitochondria. Function — DNA carries genetic information and directs synthesis of RNAs, RNA carries out protein synthesis.
+## explicit_objective
+Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
+## pitfalls
+Saying RNA never contains thymine. Thymine appears in RNA too, as a minor base specifically in tRNA — uracil is simply RNA's major pyrimidine in place of thymine.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T06
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p9 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p9 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Chemistry of Nucleic Acids
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Compare Q1, 4 marks] DNA and RNA (4 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+A competitive inhibitor squats in the active site and loses to more substrate; an allosteric inhibitor changes the enzyme's shape from a separate site and cannot be out-competed
+## id
+CON-FND-C04259379794DA
+## canonical_key
+competitive-vs-allosteric-enzyme-inhibitors
+## definition
+Competitive inhibitors are structurally similar to the substrate and compete reversibly for the active/catalytic site; the degree of inhibition depends on the inhibitor-to-substrate concentration ratio, Vmax is unchanged because raising substrate concentration overcomes the inhibitor, and the apparent Km rises. Allosteric inhibitors bind reversibly at a separate allosteric site (not the active site), producing a conformational change in the enzyme that lowers its affinity for the substrate; because they act away from the active site, adding more substrate cannot displace them, so they lower Vmax, apparent affinity (Km) or both, and they include physiological feedback inhibitors, where the end product of a pathway binds the allosteric site of an early regulatory enzyme.
+## explicit_objective
+Contrast where each inhibitor binds, whether it can be beaten by more substrate, and what each does to Km and Vmax.
+## pitfalls
+Assuming both kinds are beaten by adding more substrate. Only the competitive kind is — an allosteric inhibitor works away from the active site by changing the enzyme's shape, so raising substrate concentration does not reverse it.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T02
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p9 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Compare Q2, 4 marks] Competitive and allosteric enzyme inhibitors (4 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Myoglobin is a one-heme oxygen store built for muscle, hemoglobin is a four-heme oxygen taxi built for blood, and their oxygen-affinity curves are shaped by exactly that difference in job
+## id
+CON-HEM-741FE61E6062DB
+## canonical_key
+myoglobin-vs-hemoglobin-comparison
+## definition
+Site: myoglobin is present in cardiac and skeletal muscle; hemoglobin (HbA1) is in red blood cells. Structure: myoglobin has one heme ring and one polypeptide chain (apomyoglobin, 153 amino acids, 8 helices); hemoglobin has four heme rings and four chains (globin alpha2-beta2: alpha chains 141 amino acids/7 helices, beta chains 146 amino acids/8 helices). Function: myoglobin stores oxygen in muscle and releases it during severe muscular exercise; hemoglobin transports oxygen to the tissues, removes CO2 from the tissues, and buffers the blood. Affinity to oxygen: myoglobin has a higher affinity at low pO2 (is already 90% saturated at pO2 20 mmHg) so it does not unload readily except under severe demand; hemoglobin has a higher affinity at the lung's high pO2 and a lower affinity at the tissue's low pO2, which is what lets it load in the lung and unload in the tissue. Clinical significance: myoglobin is used as a blood marker of muscle damage (it is released into blood after myocardial infarction or severe muscle injury); HbA1c is used to assess diabetic control over the preceding three months.
+## explicit_objective
+Compare myoglobin and hemoglobin by site, subunit structure, function and the shape of their oxygen affinity, and explain why the affinity difference suits each protein's job.
+## pitfalls
+Assuming myoglobin's higher affinity for oxygen makes it the better oxygen carrier. A carrier needs to load AND unload; myoglobin's high, flat affinity curve is exactly why it is a poor transporter and a good store — it only releases its oxygen when muscle pO2 falls very low, during severe exercise.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-BIO-T05
+## secondary_node_ids
+SYS-HEM-T01
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p10 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p10 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Chemistry of Hemoproteins
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Compare Q3, 4 marks] Myoglobin and Hemoglobin (4 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Cysteine and methionine are the two sulfur-containing amino acids the book draws
+## id
+CON-FND-3D6B24CAA42AC2
+## canonical_key
+sulfur-containing-amino-acids
+## definition
+The department book's amino acid structures list cysteine and methionine as the sulfur-containing amino acids; cystine, formed by joining two cysteines with a disulfide bond, is a related sulfur-containing derivative.
+## explicit_objective
+Name the two sulfur-containing amino acids.
+## pitfalls
+Naming cystine as a third amino acid rather than a disulfide-linked dimer of two cysteine residues.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T05
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p10 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.02
+## exam_weight_by_year
+KAU_Y1=0.02
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Amino Acids of Biological Importance
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q1, 2 marks] Two sulfur-containing amino acids. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Linoleic and alpha-linolenic acids are the two fatty acids the body cannot make and must eat
+## id
+CON-FND-2AA1E4F3853330
+## canonical_key
+essential-fatty-acids-and-functions
+## definition
+Essential fatty acids cannot be synthesised in the body and must be supplied in the diet; they are alpha-linolenic acid and linoleic acid. Arachidonic acid is normally synthesised in the body from linoleic acid, but becomes essential itself if linoleic acid is deficient.
+## explicit_objective
+Name the two essential fatty acids and explain why arachidonic acid is only conditionally essential.
+## pitfalls
+Naming arachidonic acid as one of the two essential fatty acids. It is normally synthesised from linoleic acid in the body and only becomes essential when linoleic acid is deficient.
+## concept_type
+definition
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T04
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p10 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p10 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.04
+## exam_weight_by_year
+KAU_Y1=0.04
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Lipids of Biological Importance
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q2, 2 marks] Two essential fatty acids. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The genetic code is specific and degenerate at once — one codon means one amino acid, but most amino acids have more than one codon
+## id
+CON-FND-D23183EAACF5B7
+## canonical_key
+genetic-code-characteristics
+## definition
+The genetic code has four characteristics: specificity, a particular codon always codes for only one amino acid; degeneracy, an amino acid may be coded by more than one codon (synonym codons); universality, the code is nearly the same in all organisms; and reading frame, codons are read from a fixed starting point as a continuous, non-overlapping sequence taken three bases at a time.
+## explicit_objective
+Name and briefly define two of the four characteristics of the genetic code.
+## pitfalls
+Treating specificity and degeneracy as contradictory. Specificity is read codon-to-amino-acid (one codon, one meaning); degeneracy is read amino-acid-to-codon (one amino acid, several possible codons) — both hold at once.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T06
+## secondary_node_ids
+SYS-FND-T02-S01
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p10 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.02
+## exam_weight_by_year
+KAU_Y1=0.02
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Protein Synthesis (Translation)
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q3, 2 marks] Two characteristics of the genetic code. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose
+## id
+CON-FND-B4916A9B4C980C
+## canonical_key
+homopolysaccharides-classification
+## definition
+Homopolysaccharides are polysaccharides made entirely of one type of monosaccharide unit; the glucans, formed of glucose, are starch, glycogen and cellulose, and the fructans, formed of fructose, include inulin.
+## explicit_objective
+Name two homopolysaccharides and the monosaccharide unit each is built from.
+## pitfalls
+Calling a heteropolysaccharide (e.g. a glycosaminoglycan such as heparin) a homopolysaccharide. Homopolysaccharides are built from one repeating monosaccharide only.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T01
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p10 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p10 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.04
+## exam_weight_by_year
+KAU_Y1=0.04
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Carbohydrates of Biological Importance
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q4, 2 marks] Two homopolysaccharides. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
+## id
+CON-HEM-3B1C5DBC2DB666
+## canonical_key
+hemoglobinopathies-examples
+## definition
+Hemoglobinopathies are disorders caused either by structurally abnormal globin chains, e.g. sickle cell anemia (HbS, from a point mutation replacing glutamate with valine at position 6 of the beta chain), or by an abnormally reduced amount of alpha or beta globin chains, e.g. the thalassaemias.
+## explicit_objective
+Name two hemoglobinopathies and say which of the two mechanisms (abnormal structure vs reduced amount) each represents.
+## pitfalls
+Treating sickle cell anemia and thalassemia as the same mechanism. Sickle cell disease makes a structurally abnormal chain; thalassemia makes a normal chain in reduced amount.
+## concept_type
+classification
+## status
+under review
+## subject
+haem
+## primary_node_id
+DIS-BIO-T05
+## secondary_node_ids
+SYS-HEM-T01
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Hemoproteins
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_a1c9b307c0fa78dc8724 | end_of_year | 2022 | p11 | 102 INT
+src_78d4962525e01c247496 | baqoon | 2022 | p11 | 102 INT
+## weight_confidence
+0.9
+## blueprint_weight
+0.04
+## exam_weight_by_year
+KAU_Y1=0.04
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.9
+## topic
+Biochemistry
+## subtopic
+Chemistry of Hemoproteins
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q5, 2 marks] Two hemoglobinopathies. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+The sympathetic outflow to the gut and pelvis leaves the cord as splanchnic nerves and relays in the collateral ganglia before riding the blood vessels to the organ
+## id
+CON-NEU-EF92EEB546EA99
+## canonical_key
+sympathetic-supply-abdominal-pelvic-viscera
+## definition
+Sympathetic supply to the abdominal viscera arises as preganglionic fibres from T5-T12, passing through the paravertebral chain without relay and leaving as splanchnic nerves (greater, T5-T9, to coeliac and superior mesenteric ganglia; lesser, T10-T11, to aorticorenal and superior mesenteric ganglia; least, T12, to the aorticorenal ganglion); postganglionic fibres then run with the blood vessels to the abdominal viscera, relaxing gut plain muscle and contracting sphincters, constricting most abdominal arterioles, driving hepatic glycogenolysis, contracting the splenic capsule to release stored blood, and stimulating the adrenal medulla. Sympathetic supply to the pelvic viscera arises as preganglionic fibres from T12-L2, reaching the inferior mesenteric ganglion as lumbar splanchnic nerves for the gut and the sacral ganglia as sacral splanchnic nerves for the bladder and genitalia; postganglionic fibres relax the distal colon and rectum while contracting the internal anal sphincter (retaining faeces), relax the bladder wall while contracting the internal urethral sphincter (retaining urine), and contract the vas deferens, seminal vesicles and prostate to produce ejaculation.
+## explicit_objective
+State the segmental origin, relay ganglia and course of the sympathetic supply to the abdominal and to the pelvic viscera, and give the main functional effect on each organ named.
+## pitfalls
+Assuming abdominal and pelvic sympathetic fibres relay the same way. Abdominal preganglionic fibres pass the paravertebral chain untouched and relay in collateral ganglia named after the great vessels; pelvic fibres to the gut do the same via the inferior mesenteric ganglion, but the fibres to bladder and genitalia instead leave via the sacral ganglia as sacral splanchnic nerves.
+## concept_type
+mechanism
+## status
+under review
+## subject
+neuro
+## primary_node_id
+DIS-PHY-T07
+## secondary_node_ids
+SYS-NEU-T01-S02
+## modules
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Sympathetic nervous system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p2 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.10
+## exam_weight_by_year
+KAU_Y1=0.10
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Autonomic nervous system
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Short Essay Questions Q1, 8 marks] Describe the sympathetic supply of abdominal and pelvic viscera. (8 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Three cranial nerves — III, VII and IX — carry the parasympathetic supply to the head and neck, each with its own brainstem nucleus, relay ganglion and target gland or muscle
+## id
+CON-NEU-1B57CDAD7DEBCF
+## canonical_key
+parasympathetic-supply-head-and-neck
+## definition
+The oculomotor nerve (III) carries preganglionic fibres from the Edinger-Westphal nucleus in the midbrain, relaying in the ciliary ganglion; postganglionic fibres run as short ciliary nerves to contract the constrictor pupillae (miosis) and the ciliary muscle (accommodation for near vision). The facial nerve (VII) carries preganglionic fibres from the superior salivary nucleus in the lower pons; some relay in the sphenopalatine ganglion, whose postganglionic fibres supply the lacrimal and nasal glands, and others run in the chorda tympani to relay in the submandibular ganglion, whose postganglionic fibres supply the submandibular and sublingual salivary glands — functions secretomotor and vasodilator. The glossopharyngeal nerve (IX) carries preganglionic fibres from the inferior salivary nucleus at the pons-medulla junction, relaying in the otic ganglion, whose postganglionic fibres supply the parotid gland — again secretomotor and vasodilator.
+## explicit_objective
+Name the three cranial nerves that carry the parasympathetic supply to the head and neck, and for each give the brainstem nucleus of origin, the relay ganglion, and what it supplies.
+## pitfalls
+Assuming the facial nerve relays in only one ganglion. It splits: fibres via the sphenopalatine ganglion serve the lacrimal and nasal glands, while fibres via the chorda tympani relay separately in the submandibular ganglion for the submandibular and sublingual glands.
+## concept_type
+classification
+## status
+under review
+## subject
+neuro
+## primary_node_id
+DIS-PHY-T07
+## secondary_node_ids
+SYS-NEU-T01-S02
+## modules
+102 INT
+## module_subject
+102 INT > Physiology > Autonomic nervous system > Parasympathetic nervous system
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p3 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.07
+## exam_weight_by_year
+KAU_Y1=0.07
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Physiology
+## subtopic
+Autonomic nervous system
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Short Essay Questions Q2, 6 marks] Describe the parasympathetic supply of head and neck. (6 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## id
+CON-HEM-A6420C4B3B3D9A
+## label
+Enterocytes absorb ferrous iron via DMT1 and haem iron via HCP1, then export iron to plasma transferrin through ferroportin only when body iron demand is increased
+## canonical_key
+iron-absorption-mechanism-dmt1-hcp1-ferroportin
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p4 | 102 INT
+## field_notes
+canonical_key "iron-absorption-mechanism-dmt1-hcp1-ferroportin" already has a pinned id in this module (CON-HEM-A6420C4B3B3D9A); mintConceptId derives the same id fresh (CON-HEM-A6420C4B3B3D9A) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the paper's exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## label
+answer: not established — the assigned department book does not cover this topic anywhere in its 167 pages
+## id
+CON-FND-DD3EE5EC8C07D1
+## canonical_key
+ldh-and-ck-isoenzymes-comparison
+## definition
+The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages. No book-sourced definition can be written for this question.
+## explicit_objective
+Not established from the assigned source.
+## pitfalls
+Not established from the assigned source.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T02
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p9 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.05
+## exam_weight_by_year
+KAU_Y1=0.05
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Enzymes
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Compare Q2, 4 marks] Lactate dehydrogenase and Creatine Kinase isoenzymes (4 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+Lysine, arginine and histidine are the book's basic (diamino-monocarboxylic) amino acids
+## id
+CON-FND-57DC83CE4A718B
+## canonical_key
+basic-amino-acids
+## definition
+The basic (diamino-monocarboxylic) amino acids the book lists are lysine, arginine and histidine.
+## explicit_objective
+Name two basic amino acids.
+## pitfalls
+Confusing 'basic' (charge) with 'essential' (diet). Basic here means the R group is positively charged (an extra amino group); lysine, arginine and histidine happen to also be nutritionally essential/semi-essential, but the classification asked for is chemical.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T05
+## secondary_node_ids
+[clear]
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p10 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.02
+## exam_weight_by_year
+KAU_Y1=0.02
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Amino Acids of Biological Importance
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q1, 2 marks] Two basic amino acids. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
+## resource_occurrence_ids
+[clear]
+## source_candidate_ids
+[clear]
+## merge_ids
+[clear]
+## rejected_merge_candidate_ids
+[clear]
+## exclusion_reason
+
+## reviewer
+Medical team, Admin team
+## final_publisher
+Admin team
+## last_reviewed
+
+## review_due
+
+## owner
+Claude
+## publication_status
+needs_evidence
+## editorial_review_status
+authored_needs_independent_evidence
+## field_notes
+aliases: Filled where a paper or a student uses another name for the same thing; [clear] where this concept is known by one name only.
+arabicLabel: Arabic terminology has not been researched; it is filled during the evidence pass rather than guessed.
+arabicAliases: Same — no Arabic terminology has been reviewed for this concept yet.
+microtopicId: The catalogue has no MIC_ ids for first-year basic science; module_subject carries the curriculum position instead.
+nanotopicId: As above — no NAN_ ids exist for this material.
+atomicClaimIds: The claims this concept's definition asserts, generated by build-evidence.ts. Empty only where the definition yields no sentence long enough to stand as a claim.
+approvedFileResourceIds: As above — no approved file resources exist for this module.
+approvedVideoResourceIds: This faculty distributes no video for this module.
+resourceOccurrenceIds: Occurrences are recorded on exam_signal, which names the manifest source, page and sitting; there are no resource records to point at yet.
+sourceCandidateIds: The source is known exactly, not a candidate — it is named on exam_signal.
+relatedConceptIds: Left for the relations pass, which types the edges rather than guessing an untyped neighbour list.
+relatedArticleIds: The article that teaches this concept is on article_ids; further reading is chosen when the library for this module is complete.
+mergeIds: Nothing has been merged into this concept.
+rejectedMergeCandidateIds: No merge has been proposed or rejected.
+exclusionReason: This concept is not excluded; it is awaiting evidence, which publication_status records.
+reviewer: No faculty reviewer has seen this yet.
+finalPublisher: Not published — it has not passed the evidence gate.
+lastReviewed: Never reviewed.
+reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+---
+
+# Item
+## label
+A mutation starts either as a replication mistake or as chemical/radiation/oxidative damage to the DNA itself
+## id
+CON-FND-3BF934540F73CD
+## canonical_key
+causes-of-gene-mutations
+## definition
+Causes of mutations: (1) errors in replication — a non-complementary base added and not repaired; (2) damage to DNA nucleotides, which includes chemical mutagens (e.g. cigarette-smoke carcinogens), irradiation (UV, X-rays, gamma rays) and oxidative damage (implicated in neurological disease, cancer and ageing).
+## explicit_objective
+Name two causes of gene mutation.
+## pitfalls
+Treating 'damage of nucleotides' as one single cause. The book splits it into three: chemical mutagens, irradiation and oxidative damage, alongside the separate cause of uncorrected replication error.
+## concept_type
+classification
+## status
+under review
+## subject
+fnd
+## primary_node_id
+DIS-BIO-T06
+## secondary_node_ids
+SYS-FND-T02-S01
+## modules
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## universities
+kau
+## learner_years
+1
+## exam_signal
+src_78d4962525e01c247496 | baqoon | 2022 | p10 | 102 INT
+## weight_confidence
+0.7
+## blueprint_weight
+0.02
+## exam_weight_by_year
+KAU_Y1=0.02
+## clinical_relevance
+0.3
+## academic_relevance
+0.9
+## confidence
+0.75
+## topic
+Biochemistry
+## subtopic
+Protein Synthesis (Translation)
+## aliases
+[clear]
+## support_mode
+direct_statement
+## original_wording
+[Enumerate Q3, 2 marks] Two causes of gene mutations. (2 marks)
+## conflicts
+[clear]
+## uncertainty
+[clear]
+## evidence_gaps
+[clear]
+## arabic_label
+
+## arabic_aliases
+[clear]
+## microtopic
+[clear]
+## nanotopic
+[clear]
+## related_concept_ids
+[clear]
+## related_article_ids
+[clear]
+## resource_ids
+src_a488633802ec053c6325
+## approved_file_resource_ids
+[clear]
+## approved_video_resource_ids
+[clear]
+## atomic_claim_ids
+[clear]
 ## resource_occurrence_ids
 [clear]
 ## source_candidate_ids

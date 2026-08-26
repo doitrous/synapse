@@ -31,7 +31,7 @@ SPN-FND-AMINO-ACID-CHEMICAL-AND-NUTRITIONAL-CLAS-01
 ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Key determinants
+art-102-bio-amino-acids-of-biological-importance-key-determinants
 
 ## text
 Essential amino acids are not formed in the body. Their deficiency decreases the rate of growth and of protein synthesis, producing a negative nitrogen balance, so they have to be supplied in the diet. There are nine members: valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine.
@@ -57,7 +57,7 @@ SPN-GIT-CELLULOSE-DIETARY-IMPORTANCE-01
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Mechanism
+art-102-bio-carbohydrates-of-biological-importance-mechanism
 
 ## text
 Cellulose is insoluble in water, and it is non-hydrolysable by the amylase digestive enzyme because amylase hydrolyses only α-linkages. Undigested cellulose in the diet increases the bulk of food, which stimulates intestinal contractions and thus prevents constipation. Cellulose in the diet also delays fat absorption.
@@ -79,7 +79,7 @@ SPN-FND-GAG-SHOCK-ABSORPTION-MECHANISM-01
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Mechanism
+art-102-bio-carbohydrates-of-biological-importance-mechanism
 
 ## text
 Compressibility is the shock-absorbing property: when a GAG solution is compressed, water is squeezed out and the GAGs occupy a smaller volume; when the compression is released, their molecules regain their original hydrated size. That is why they act as shock absorbers in joints and make the eyeball resilient.
@@ -101,7 +101,7 @@ SPN-FND-CELL-CYCLE-AND-APOPTOSIS-REGULATORY-PROT-01
 ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
 
 ## section_id
-Key determinants
+art-102-bio-cell-cycle-apoptosis-and-tumor-suppressor-genes-key-determinants
 
 ## text
 Cyclin-dependent kinases are the regulatory proteins of the cell cycle. Complexed with their cyclins, they carry the cell from one phase to the next.
@@ -123,7 +123,7 @@ SPN-FND-NUCLEOTIDE-COENZYME-HYDROGEN-CARRIERS-01
 ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
 
 ## section_id
-Key determinants
+art-102-bio-chemistry-of-free-nucleotides-key-determinants
 
 ## text
 Four of those five are hydrogen carriers, and the book sets the oxidised and reduced forms out as a pair for each. NAD+ is reduced to NADH,H+. NADP+ is reduced to NADPH,H+. FMN is reduced to FMNH2. FAD is reduced to FADH2. The oxidised form is on the left of each pair and the reduced form on the right, and the conversion in each case is the addition of 2H.
@@ -145,7 +145,7 @@ SPN-END-HBA1C-THREE-MONTH-GLYCAEMIC-WINDOW-01
 ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
 
 ## section_id
-Key determinants
+art-102-bio-chemistry-of-hemoproteins-key-determinants
 
 ## text
 Part of adult haemoglobin HbA1 can bind with blood glucose to form glycated haemoglobin, HbA1c. Glucose forms a covalent bond with the N-terminal valine of the β chain. It is a non-enzymatic reaction that depends on the exposure of red cells to particular blood glucose levels throughout the life span of the red cell, which is 120 days.
@@ -167,7 +167,7 @@ SPN-FND-EUKARYOTIC-DNA-POLYMERASES-AND-ROLES-01
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
 
 ## section_id
-Key determinants
+art-102-bio-dna-synthesis-replication-and-repair-key-determinants
 
 ## text
 DNA polymerase α, working as the α-primase complex, synthesises the RNA primers and the short stretch of DNA connected to them.
@@ -197,7 +197,7 @@ SPN-FND-FACTORS-AFFECTING-ENZYME-REACTION-RATE-01
 ART-102-BIO-ENZYMES
 
 ## section_id
-Key determinants
+art-102-bio-enzymes-key-determinants
 
 ## text
 Five factors affect the rate of an enzyme-catalysed reaction, and the book insists that only one is varied at a time with all others held constant, and that the rate is always measured at the very beginning of the reaction — the initial velocity — to avoid the fall in substrate concentration, the accumulation of products, and equilibrium.
@@ -219,7 +219,7 @@ SPN-INF-SULFONAMIDE-COMPETITIVE-INHIBITION-OF-FO-01
 ART-102-BIO-ENZYMES
 
 ## section_id
-Clinical significance
+art-102-bio-enzymes-clinical-significance
 
 ## text
 Bacteria require folic acid for their growth and multiplication. Bacteria synthesise folic acid using para-aminobenzoic acid, PABA. Sulfonamides are structurally similar to PABA. They therefore act as competitive inhibitors of the enzyme involved in the formation of folic acid using PABA as substrate.
@@ -241,7 +241,7 @@ SPN-MUL-SNAKE-VENOM-PHOSPHOLIPASE-HAEMOLYSIS-01
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Mechanism
+art-102-bio-lipids-of-biological-importance-mechanism
 
 ## text
 Snake venom toxins contain a lecithinase enzyme with phospholipase A2 activity. When injected into blood, it converts the phospholipids present in the cell membranes of red blood cells into lysophospholipids, causing cell membrane rupture, which is haemolysis.
@@ -263,7 +263,7 @@ SPN-FND-EICOSANOID-SYNTHESIS-PATHWAY-ENZYMES-01
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Key determinants
+art-102-bio-lipids-of-biological-importance-key-determinants
 
 ## text
 The pathway starts at membrane phospholipids. Phospholipase A2 converts phospholipids to lysophospholipid and releases arachidonic acid. From arachidonic acid the pathway forks.
@@ -287,7 +287,7 @@ SPN-FND-EICOSANOID-PATHWAY-DRUG-TARGETS-01
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Clinical significance
+art-102-bio-lipids-of-biological-importance-clinical-significance
 
 ## text
 Steroidal anti-inflammatory drugs, SAIDs, inhibit phospholipase A2 activity and thus decrease the availability of arachidonic acid. The book's examples are hydrocortisone, which is cortisol, prednisone and betamethasone. Because they act above the fork, they reduce the supply to the cyclic and the acyclic branch alike.
@@ -313,7 +313,7 @@ SPN-FND-POST-TRANSLATIONAL-COVALENT-MODIFICATION-01
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
 
 ## section_id
-Key determinants
+art-102-bio-protein-synthesis-translation-key-determinants
 
 ## text
 Amino acid residues within the peptide chain are modified enzymatically to achieve one or more of three functions: to alter the activity or stability of the protein, to direct it to a subcellular compartment, or to prepare it for secretion from the cell. Residues are modified by the addition of various types of functional group, and the department book gives five with an example each.
@@ -335,7 +335,7 @@ SPN-FND-POINT-MUTATION-TYPES-AND-CONSEQUENCES-01
 ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
 
 ## section_id
-Key determinants
+art-102-bio-protein-synthesis-translation-key-determinants
 
 ## text
 A missense mutation leads to a changed codon and results in an amino acid change in the protein product of that gene. Depending on which amino acid is changed, missense mutations can have either no effect or very serious ones, as in sickle cell anaemia.
@@ -361,7 +361,7 @@ SPN-FND-PROTEIN-DENATURATION-EFFECTS-01
 ART-102-BIO-PROTEINS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Key determinants
+art-102-bio-proteins-of-biological-importance-key-determinants
 
 ## text
 Loss of the secondary, tertiary and quaternary structure of the protein.
@@ -393,7 +393,7 @@ SPN-FND-MRNA-SPLICING-AND-ALTERNATIVE-SPLICING-01
 ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
 
 ## section_id
-Key determinants
+art-102-bio-rna-synthesis-transcription-key-determinants
 
 ## text
 Splicing removes the introns, the non-expressed regions, and joins the exons, the expressed regions, to form functional mRNA. Splicing requires a spliceosome, which is small nuclear ribonucleoproteins, snRNPs, formed of special proteins and small nuclear RNAs, snRNAs.
@@ -417,7 +417,7 @@ SPN-NEU-AUTONOMIC-GANGLIA-TYPES-01
 ART-102-PHY-AUTONOMIC-GANGLIA
 
 ## section_id
-Key determinants
+art-102-phy-autonomic-ganglia-key-determinants
 
 ## text
 **One, the paravertebral sympathetic chain.** It is present on both sides of the vertebral column. It has a ganglion for each segment of the spinal cord, except that there are only 3 ganglia for the cervical region — superior, middle and inferior cervical. These ganglia are for the relay of sympathetic fibres only.
@@ -445,7 +445,7 @@ SPN-NEU-PARASYMPATHETIC-FUNCTION-THORACIC-ABDOMI-01
 ART-102-PHY-PARASYMPATHETIC-NERVOUS-SYSTEM
 
 ## section_id
-Key determinants
+art-102-phy-parasympathetic-nervous-system-key-determinants
 
 ## text
 Origin: the vagal nucleus in the medulla oblongata. Course: preganglionic fibres run in the vagus to supply the entire thoracic and abdominal viscera, about 75% of all parasympathetic fibres. Relay: terminal ganglia, inside or close to the organ. Functions: on the heart, no ventricular supply, inhibition of all properties of atrial muscle only, and decreased coronary blood flow and oxygen consumption; on the lungs, bronchoconstriction, pulmonary vasodilatation and stimulation of the bronchial glands; on the gastrointestinal tract, contraction of the wall from oesophagus to the proximal large intestine, relaxation of the sphincters, and secretion from the gut glands, liver and pancreas; on the gall bladder, contraction of the wall and relaxation of the sphincter of Oddi.
@@ -467,7 +467,7 @@ SPN-HEM-PHYSIOLOGICAL-LIMITATION-OF-COAGULATION-01
 ART-102-PHY-PHYSIOLOGICAL-LIMITATIONS-OF-BLOOD-COAGULATION
 
 ## section_id
-Key determinants
+art-102-phy-physiological-limitations-of-blood-coagulation-key-determinants
 
 ## text
 One. Healthy endothelium: a barrier to subendothelial collagen; smooth and negatively charged; produces nitric oxide and prostacyclin; expresses thrombomodulin; produces tissue plasminogen activator.
@@ -499,7 +499,7 @@ SPN-HEM-VITAMIN-B12-ABSORPTION-INTRINSIC-FACTOR-01
 ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
 
 ## section_id
-Mechanism
+art-102-phy-vitamin-b12-and-folic-acid-mechanism
 
 ## text
 The parietal cells of the stomach secrete a glycoprotein called intrinsic factor, which combines with vitamin B12 and protects it from being digested.
@@ -523,7 +523,7 @@ SPN-HEM-VITAMIN-B12-IMPORTANCE-AND-DEFICIENCY-01
 ART-102-PHY-VITAMIN-B12-AND-FOLIC-ACID
 
 ## section_id
-Clinical significance
+art-102-phy-vitamin-b12-and-folic-acid-clinical-significance
 
 ## text
 Vitamin B12 deficiency results in macrocytic anaemia. Diminished DNA leads to failure of nuclear maturation and division of the red cells in the bone marrow, so the red cells are bigger, irregular and very fragile. Vitamin B12 deficiency may also cause neurological manifestations, because vitamin B12 is needed for the myelination of the nerves.
@@ -545,7 +545,7 @@ SPN-FND-MANNITOL-CLINICAL-APPLICATIONS-01
 ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Clinical significance
+art-102-bio-carbohydrates-of-biological-importance-clinical-significance
 
 ## text
 Mannitol is mannose alcohol, used as a low-calorie sweetener because it is poorly absorbed by the intestine, and — being non-metabolised and easily excreted by the kidney — used as a diuretic to reduce eye pressure in glaucoma and intracranial pressure in brain oedema, by osmosis.
@@ -567,7 +567,7 @@ SPN-FND-FREE-NUCLEOTIDE-BIOLOGICAL-FUNCTIONS-01
 ART-102-BIO-CHEMISTRY-OF-FREE-NUCLEOTIDES
 
 ## section_id
-Definition
+art-102-bio-chemistry-of-free-nucleotides-definition
 
 ## text
 Free nucleosides and nucleotides, over and above their role as building blocks, play an important role in many biochemical functions. The book gives four groups: energy transduction, signalling second messengers, activated precursors in biosynthesis, and coenzyme components.
@@ -589,7 +589,7 @@ SPN-HEM-GLOBIN-PROTEIN-PART-FUNCTIONS-01
 ART-102-BIO-CHEMISTRY-OF-HEMOPROTEINS
 
 ## section_id
-Clinical significance
+art-102-bio-chemistry-of-hemoproteins-clinical-significance
 
 ## text
 The protein part of haemoglobin is not inert packaging, and the book gives four reasons. Globin makes haem soluble, because of the surface polar amino acids. It prevents iron oxidation, because the nonpolar amino acids lining the haem pocket prevent oxidation of haem into haematin and prevent the formation of a haem-O2-haem complex. It prevents diffusion of haem into plasma, because of its large size. And it reduces the affinity of haem for carbon monoxide: carbon monoxide binds isolated haem in its preferred orientation, with iron, carbon and oxygen all perpendicular to the plane of the haem, but in myoglobin and haemoglobin the distal histidine sterically hinders that orientation, and binding at a less favoured angle reduces the strength of the haem-CO bond.
@@ -611,7 +611,7 @@ SPN-FND-DNA-DOUBLE-HELIX-ANTIPARALLEL-STRANDS-01
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
 
 ## section_id
-Mechanism
+art-102-bio-chemistry-of-nucleic-acids-mechanism
 
 ## text
 First, two antiparallel strands form a right-handed helix. The two strands of DNA run antiparallel and are paired to each other and coil around a common axis to form a right-handed helix.
@@ -635,7 +635,7 @@ SPN-FND-MITOCHONDRIAL-DNA-CHARACTERISTICS-01
 ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
 
 ## section_id
-Key determinants
+art-102-bio-chemistry-of-nucleic-acids-key-determinants
 
 ## text
 DNA is mainly linear but sometimes circular, as in the DNA of mitochondria, of chloroplasts in plants, and of bacteria. Mitochondrial DNA represents 0.3 to 1% of the total cellular DNA. Human mitochondrial DNA is present in the form of a small double-stranded circular supercoil.
@@ -661,7 +661,7 @@ SPN-FND-REPLICATION-FORK-STRAND-SEPARATION-01
 ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
 
 ## section_id
-Mechanism
+art-102-bio-dna-synthesis-replication-and-repair-mechanism
 
 ## text
 Two replication forks then form at each origin: helicase molecules attach and unwind the DNA by breaking the hydrogen bonds between the base pairs, forming replication bubbles, and single strand binding proteins bind the unwound single strands and stabilise them — without SSB proteins the two strands would rewind, and SSB proteins also protect the single strand from nucleases that cleave single-stranded DNA. Helicase plus SSB proteins is what creates a replication fork.
@@ -683,7 +683,7 @@ SPN-FND-COMPETITIVE-ENZYME-INHIBITION-MECHANISM-01
 ART-102-BIO-ENZYMES
 
 ## section_id
-Mechanism
+art-102-bio-enzymes-mechanism
 
 ## text
 A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of the concentration of the inhibitor to that of the substrate, not on the absolute concentration of either, and on the relative affinity of substrate and inhibitor for the enzyme. There is no effect on Vmax: raising the substrate concentration far enough reverses the inhibition, and the reaction reaches the same Vmax as without inhibitor. Km rises: a competitive inhibitor increases the apparent Km, which means more substrate is needed to reach half Vmax.
@@ -705,7 +705,7 @@ SPN-FND-CHOLESTEROL-IMPORTANCE-AND-DERIVATIVES-01
 ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
 
 ## section_id
-Clinical significance
+art-102-bio-lipids-of-biological-importance-clinical-significance
 
 ## text
 It is converted into bile acids and bile salts in the liver, is the precursor of all steroid hormones, can be oxidised in the liver into 7-dehydrocholesterol and then converted into vitamin D3 under the skin by ultraviolet rays, and is an important constituent of cell membranes that controls their fluidity. It is excreted mainly in bile as bile salts.
@@ -727,7 +727,7 @@ SPN-FND-COLLAGEN-STRUCTURAL-STRENGTH-BASIS-01
 ART-102-BIO-PROTEINS-OF-EXTRACELLULAR-MATRIX
 
 ## section_id
-Key determinants
+art-102-bio-proteins-of-extracellular-matrix-key-determinants
 
 ## text
 One. Each turn contains 3 amino acid residues, which makes a tight helix, where normal proteins contain 3.6 amino acids per turn.
@@ -761,7 +761,7 @@ SPN-FND-EUKARYOTIC-TRANSCRIPTION-ELEMENTS-AND-MR-01
 ART-102-BIO-RNA-SYNTHESIS-TRANSCRIPTION
 
 ## section_id
-Mechanism
+art-102-bio-rna-synthesis-transcription-mechanism
 
 ## text
 The eukaryotic promoter carries two types of sequence element, called the basal expression elements. The TATA box defines where transcription is to start along the DNA; its sequence is TATAAA and it is usually located 20 to 30 base pairs upstream of the transcription start site. The CAAT box and the GC box define when transcription is to start, controlling how frequently the event occurs, and they are located 40 to 200 base pairs upstream.
@@ -783,7 +783,7 @@ SPN-NEU-ADRENERGIC-RECEPTOR-DISTRIBUTION-AND-ACT-01
 ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
 
 ## section_id
-Key determinants
+art-102-phy-chemical-transmission-at-autonomic-junctions-and-autonomic-receptors-key-determinants
 
 ## text
 There are 2 major types of adrenergic receptor, alpha and beta. Alpha has 2 subtypes, 1 and 2. Beta has 3 subtypes, 1, 2 and 3.
@@ -823,7 +823,7 @@ SPN-NEU-CHOLINERGIC-AND-ADRENERGIC-FIBRE-TRANSMI-01
 ART-102-PHY-CHEMICAL-TRANSMISSION-AT-AUTONOMIC-JUNCTIONS-AND-AUTONOMIC-RECEPTORS
 
 ## section_id
-Definition
+art-102-phy-chemical-transmission-at-autonomic-junctions-and-autonomic-receptors-definition
 
 ## text
 Acetylcholine and noradrenaline are the main chemical transmitters at the synaptic junctions in the autonomic nervous system. Therefore autonomic nerve fibres are divided into cholinergic and adrenergic fibres. Cholinergic receptors are activated by acetylcholine, and adrenergic receptors are activated by noradrenaline.
@@ -849,7 +849,7 @@ SPN-NEU-SYMPATHETIC-ALARM-STRESS-RESPONSE-01
 ART-102-PHY-SYMPATHETIC-NERVOUS-SYSTEM
 
 ## section_id
-Key determinants
+art-102-phy-sympathetic-nervous-system-key-determinants
 
 ## text
 The sympathetic nervous system discharges one unit in emergency situations to prepare the individual to cope with emergency, that is preparation for flight, fear or fight.
@@ -883,7 +883,7 @@ SPN-HEM-PLASMA-PROTEINS-FORMATION-AND-FUNCTIONS-01
 ART-102-PHY-PLASMA-PROTEINS
 
 ## section_id
-Key determinants
+art-102-phy-plasma-proteins-key-determinants
 
 ## text
 One, the osmotic function. Plasma proteins supply the 25 to 28 mmHg of effective colloidal osmotic pressure that draws tissue fluid into the blood, and albumin is mainly responsible.
@@ -919,7 +919,7 @@ SPN-HEM-THROMBOXANE-A2-AND-PROSTACYCLIN-BALANCE-01
 ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
 
 ## section_id
-Mechanism
+art-102-phy-platelets-and-haemostasis-mechanism
 
 ## text
 Thromboxane A2 is produced from arachidonic acid in the membrane of active platelets by cyclooxygenase enzyme. It is a vasoconstrictor, a stimulator of the platelet release reaction, and a powerful stimulant of platelet aggregation.
@@ -943,7 +943,7 @@ SPN-FND-ASPIRIN-COX-INHIBITION-MI-PREVENTION-01
 ART-102-PHY-PLATELETS-AND-HAEMOSTASIS
 
 ## section_id
-Key determinants
+art-102-phy-platelets-and-haemostasis-key-determinants
 
 ## text
 Aspirin inhibits the cyclooxygenase enzyme and thus reduces production of both thromboxane A2 and prostacyclin.

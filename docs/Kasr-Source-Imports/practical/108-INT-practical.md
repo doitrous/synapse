@@ -208,6 +208,15 @@ Final diagnosis (4): Says that hyaline names an appearance rather than one subst
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Hyaline Change
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
+
 ## main_concept
 CON-FND-5CB8B822A9A6AF
 
@@ -284,6 +293,15 @@ Final diagnosis (4): Names the accumulating substance as triglyceride within par
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
+
 ## main_concept
 CON-FND-70554B38361679
 
@@ -358,6 +376,15 @@ Final diagnosis (4): Separates the traumatic form from the enzymatic form, which
 
 ## module_subject
 108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Fat necrosis
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
 
 ## main_concept
 CON-FND-6626C19B61A23B
@@ -435,6 +462,15 @@ Final diagnosis (4): Explains that the outline survives because denaturation of 
 ## module_subject
 108 INT > Pathology > Cellular Response to Injury > Necrosis > Types of necrosis > Coagulative necrosis (ischemic necrosis)
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
+
 ## main_concept
 CON-FND-5285A9707E61CA
 
@@ -509,6 +545,15 @@ Final diagnosis (4): States that calling it dystrophic rather than metastatic re
 
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Dystrophic calcification
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
 
 ## main_concept
 CON-FND-33466CEBFC4EBA
@@ -585,6 +630,15 @@ Final diagnosis (6): Declines to call a brown pigment iron on its colour alone, 
 
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
 
 ## main_concept
 CON-FND-5DBC795B58DC74
@@ -671,6 +725,15 @@ Final diagnosis (4): Attributes the brown colour to lipofuscin, the wear-and-tea
 
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Pigments > Endogenous Pigments
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
 
 ## main_concept
 CON-FND-063F60318B4D20
@@ -767,6 +830,15 @@ Final diagnosis (4): Gives the second diagnosis — atherosclerosis of the aorta
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
+
 ## main_concept
 CON-FND-4354823564BAB3
 
@@ -844,6 +916,15 @@ Final diagnosis (4): Names what the yellow cut surface looks like down the micro
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Intracellular Accumulations > Lipids intracellular accumulations > Steatosis (Fatty Change)
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
+
 ## main_concept
 CON-FND-70554B38361679
 
@@ -920,6 +1001,15 @@ Final diagnosis (4): States that calcium laid down inside an already abnormal ti
 
 ## module_subject
 108 INT > Pathology > Intracellular Accumulation and Extracellular Depositions > Pathological Calcification > Dystrophic calcification
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+108 INT
 
 ## main_concept
 CON-FND-33466CEBFC4EBA

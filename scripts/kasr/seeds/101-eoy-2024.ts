@@ -64,7 +64,7 @@
  * The paper's Section 2 also prints ten multiple-choice questions at one mark
  * each (p8–p9) and two extended-matching tables at one mark each (p10). They
  * are printed in full — nothing is missing from the copy — but they belong to
- * the question-book pipeline under `seeds/mcq/`, not here. `incomplete` says
+ * the question-book pipeline under `seeds/mcq/101-ISK/`, not here. `incomplete` says
  * so, so the written batch cannot be read as the whole paper.
  */
 import type { Paper, Scheme, Seed, SourceRef } from './types.ts'

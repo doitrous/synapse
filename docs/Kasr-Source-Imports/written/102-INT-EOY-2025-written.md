@@ -72,6 +72,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 75
 ## cognitive_effort_score
@@ -150,6 +156,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 75
 ## cognitive_effort_score
@@ -227,6 +239,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 75
 ## cognitive_effort_score
@@ -303,6 +321,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -381,6 +405,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 30
 ## cognitive_effort_score
@@ -458,6 +488,12 @@ Academic
 0.3
 ## exam_relevance
 5.3
+## exam_weight_by_year
+KAU_Y1=0.53
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -536,6 +572,12 @@ Academic
 0.3
 ## exam_relevance
 7.9
+## exam_weight_by_year
+KAU_Y1=0.79
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -612,6 +654,12 @@ Academic
 0.3
 ## exam_relevance
 7.9
+## exam_weight_by_year
+KAU_Y1=0.79
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -689,6 +737,12 @@ Academic
 0.3
 ## exam_relevance
 7.9
+## exam_weight_by_year
+KAU_Y1=0.79
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -766,6 +820,12 @@ Academic
 0.3
 ## exam_relevance
 7.9
+## exam_weight_by_year
+KAU_Y1=0.79
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -865,6 +925,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -969,6 +1035,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -1077,6 +1149,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 30
 ## cognitive_effort_score
@@ -1168,6 +1246,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 30
 ## cognitive_effort_score
@@ -1250,6 +1334,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -1340,6 +1430,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score
@@ -1423,6 +1519,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 15
 ## cognitive_effort_score
@@ -1503,6 +1605,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 75
 ## cognitive_effort_score
@@ -1586,6 +1694,12 @@ Academic
 0.3
 ## exam_relevance
 10.0
+## exam_weight_by_year
+KAU_Y1=1.00
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## inferred_difficulty
 55
 ## cognitive_effort_score

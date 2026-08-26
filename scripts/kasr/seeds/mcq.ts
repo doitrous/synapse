@@ -7,7 +7,8 @@
  * is why each option is right or wrong, which concept the question tests, and
  * whether the question is fit to sit at all.
  *
- * One file per subject-tree leaf, under `seeds/mcq/`. A leaf is the unit
+ * One file per subject-tree leaf, under `seeds/mcq/<module>/` — `seeds/mcq/101-ISK/`,
+ * `seeds/mcq/102-INT/`, and so on, one folder per module. A leaf is the unit
  * because it is the unit the faculty teaches in, the unit its article covers,
  * and small enough that one pass over it can be held in mind at once.
  *
@@ -45,6 +46,15 @@ export interface McqConcept {
   gaps?: string[]
   /** What is genuinely unclear, as opposed to unsourced. */
   uncertainty?: string
+  /**
+   * Override for `resource_ids`, for the rare concept whose evidence is not
+   * simply "the module's department book" — a named atlas, a cross-module
+   * source, or a book the manifest does not categorise as `Department Book`.
+   * Absent by default: `emit.ts`'s `mcqConceptBlock` then resolves the
+   * module's own department book(s) from the manifest, scoped by this
+   * concept's `modulePath` department where one of several applies.
+   */
+  resourceIds?: string[]
 }
 
 export interface McqAuthored {
