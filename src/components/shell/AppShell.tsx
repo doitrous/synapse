@@ -16,7 +16,8 @@ import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
 import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
 import { StudyActivityTracker } from './StudyActivityTracker'
-import { FocusAudioPlayer } from './FocusAudioPlayer'
+import { FocusAudioProvider } from './FocusAudioPlayer'
+import { MaristanaProgressNotice } from '@/components/maristanas/MaristanaProgressNotice'
 
 function isTypingTarget(target: EventTarget | null): boolean {
   const element = target instanceof HTMLElement ? target : null
@@ -211,7 +212,7 @@ function AppShellInner({ portal }: { portal: Portal }) {
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
       {portal === 'student' && <StudyActivityTracker />}
-      {portal === 'student' && <FocusAudioPlayer railed={railed} focusMode={focusMode} />}
+      {portal === 'student' && <MaristanaProgressNotice />}
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}
@@ -224,7 +225,9 @@ function AppShellInner({ portal }: { portal: Portal }) {
 export function AppShell({ portal }: { portal: Portal }) {
   return (
     <ImmersionProvider>
-      <AppShellInner portal={portal} />
+      <FocusAudioProvider>
+        <AppShellInner portal={portal} />
+      </FocusAudioProvider>
     </ImmersionProvider>
   )
 }

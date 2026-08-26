@@ -94,8 +94,8 @@ export function MaristanaAchievementToast({
       role="status"
       aria-live="polite"
       className={cn(
-        'fixed inset-x-3 bottom-[calc(1rem+env(safe-area-inset-bottom))] z-[80] mx-auto max-w-sm transition-[opacity,transform] duration-250 ease-[var(--ease-out-quint)] motion-reduce:transition-none sm:inset-x-auto sm:end-5 sm:mx-0',
-        visible ? 'translate-y-0 scale-100 opacity-100' : 'translate-y-2 scale-[0.98] opacity-0 motion-reduce:translate-y-0 motion-reduce:scale-100',
+        'fixed inset-x-3 top-[calc(4.5rem+env(safe-area-inset-top))] z-[80] mx-auto max-w-sm transition-[opacity,transform] duration-250 ease-[var(--ease-out-quint)] motion-reduce:transition-none sm:inset-x-auto sm:end-5 sm:mx-0',
+        visible ? 'translate-y-0 scale-100 opacity-100' : '-translate-y-2 scale-[0.98] opacity-0 motion-reduce:translate-y-0 motion-reduce:scale-100',
       )}
     >
       <Panel className="overflow-hidden border-primary-line shadow-pop">

@@ -234,7 +234,7 @@ export function Maristanas() {
         </div>
       </header>
 
-      <div className="grid gap-4 xl:grid-cols-[minmax(0,1.55fr)_minmax(300px,0.72fr)]">
+      <div>
         <Panel className="overflow-hidden">
           <div className="flex min-h-[76px] items-center justify-between gap-4 border-b border-line px-4 py-3 sm:px-5">
             <div className="min-w-0">
@@ -248,8 +248,17 @@ export function Maristanas() {
           <MaristanaModel stage={selected.stage} name={selected.name} />
         </Panel>
 
-        <div className="space-y-4">
-          <BuildLedger hospital={selected} creditsPerStep={data.config.creditsPerStep} />
+        <div className="mt-4 grid items-start gap-4 lg:grid-cols-[minmax(0,0.86fr)_minmax(0,1.14fr)]">
+          <div className="space-y-4">
+            <BuildLedger hospital={selected} creditsPerStep={data.config.creditsPerStep} />
+
+            <Panel className="p-4">
+              <div className="flex items-start gap-3">
+                <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Clock3} size={17} /></span>
+                <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">This week</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} active study · {data.thisWeek.questionsAnswered} questions</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} credits</p></div>
+              </div>
+            </Panel>
+          </div>
 
           <Panel>
             <PanelHeader title="Construction ledger" icon={BookOpenCheck} hint={`${credit(data.totalCredits)} total`} />
@@ -266,13 +275,6 @@ export function Maristanas() {
                   <span className="tnum font-mono text-[12px] font-semibold text-ink">+{credit(value as number)}</span>
                 </div>
               ))}
-            </div>
-          </Panel>
-
-          <Panel className="p-4">
-            <div className="flex items-start gap-3">
-              <span className="grid size-9 shrink-0 place-items-center rounded-lg bg-accent-tint text-accent-strong"><Icon icon={Clock3} size={17} /></span>
-              <div className="min-w-0 flex-1"><p className="text-[12.5px] font-semibold text-ink">This week</p><p className="mt-1 text-[11.5px] leading-relaxed text-ink-2">{duration(data.thisWeek.studyMinutes)} active study · {data.thisWeek.questionsAnswered} questions</p><p className="tnum mt-2 font-mono text-[17px] font-semibold text-primary-strong">+{credit(data.thisWeek.credits)} credits</p></div>
             </div>
           </Panel>
         </div>

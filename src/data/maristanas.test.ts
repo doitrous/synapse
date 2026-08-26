@@ -1,13 +1,19 @@
 import assert from 'node:assert/strict'
 import test from 'node:test'
 import {
-  DEFAULT_MARISTANA_CONFIG, MARISTANA_MILESTONES, MARISTANA_STEPS, maristanaCredits, maristanaHospitals,
+  DEFAULT_MARISTANA_CONFIG, MARISTANA_BUILD_STEPS, MARISTANA_MILESTONES, MARISTANA_STEPS,
+  DEMO_MARISTANA_OVERVIEW, maristanaCredits, maristanaHospitals, maristanaProgressDelta,
   normaliseMaristanaConfig, projectedModuleHospitals,
 } from './maristanas.ts'
 
 test('architectural achievements end exactly with the twenty-fifth stage', () => {
   assert.equal(MARISTANA_MILESTONES.at(-1)?.stage, MARISTANA_STEPS)
   assert.deepEqual(MARISTANA_MILESTONES.map((milestone) => milestone.stage), [1, 5, 10, 15, 20, 25])
+})
+
+test('the build roadmap names every commissioned construction frame', () => {
+  assert.equal(MARISTANA_BUILD_STEPS.length, MARISTANA_STEPS)
+  assert.equal(new Set(MARISTANA_BUILD_STEPS).size, MARISTANA_STEPS)
 })
 
 test('the default module target builds roughly three hospitals', () => {
@@ -35,4 +41,29 @@ test('admin values are bounded before they affect progression', () => {
   assert.equal(safe.creditsPerStep, 20)
   assert.equal(safe.creditsPerStudyMinute, 100)
   assert.equal(safe.assessmentMinimumQuestions, 5)
+})
+
+test('a progress acknowledgement reports earned credit and distance to the next part', () => {
+  const previous = {
+    ...DEMO_MARISTANA_OVERVIEW,
+    totalCredits: 118,
+    completedHospitals: 0,
+    hospitals: maristanaHospitals(118),
+  }
+  const next = {
+    ...previous,
+    totalCredits: 130,
+    hospitals: maristanaHospitals(130),
+  }
+  assert.deepEqual(maristanaProgressDelta(previous, next), {
+    earnedCredits: 12,
+    stepsPlaced: 0,
+    hospitalName: 'Maristana 01',
+    stage: 1,
+    nextStage: 2,
+    creditsToNextStep: 70,
+    stepProgress: 0.3,
+    hospitalCompleted: false,
+  })
+  assert.equal(maristanaProgressDelta(next, next), null)
 })

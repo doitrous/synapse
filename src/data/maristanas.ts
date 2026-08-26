@@ -45,6 +45,39 @@ export const MARISTANA_MILESTONES: readonly MaristanaMilestone[] = [
   { stage: 25, title: 'Maristana complete', description: 'The hospital and its gardens are ready to serve.' },
 ] as const
 
+/**
+ * The visible construction sequence in the commissioned 25-frame model.
+ * These labels stay architectural and concrete so the roadmap describes the
+ * part the student is actually working toward, not an abstract game level.
+ */
+export const MARISTANA_BUILD_STEPS = [
+  'Perimeter set',
+  'Foundation bed',
+  'Courtyard traced',
+  'Main axis laid',
+  'Entry steps formed',
+  'West wing begun',
+  'West arcade raised',
+  'Front wall enclosed',
+  'East wing framed',
+  'Twin arcades joined',
+  'Courtyard wings opened',
+  'Central hall planned',
+  'Healing hall raised',
+  'Main portal framed',
+  'Grand portal finished',
+  'Rooflines secured',
+  'Entrance masonry set',
+  'Dome ribs assembled',
+  'Dome crowned',
+  'Main doors fitted',
+  'Fountain opened',
+  'Gardens planted',
+  'Cypress court completed',
+  'Tilework finished',
+  'Maristana complete',
+] as const
+
 export interface MaristanaConfig {
   version: 1
   enabled: boolean
@@ -108,6 +141,37 @@ export interface MaristanaOverview {
   hospitals: MaristanaHospital[]
   recentActivity: MaristanaRecentActivity[]
   thisWeek: { studyMinutes: number; questionsAnswered: number; credits: number }
+}
+
+export interface MaristanaProgressDelta {
+  earnedCredits: number
+  stepsPlaced: number
+  hospitalName: string
+  stage: number
+  nextStage: number
+  creditsToNextStep: number
+  stepProgress: number
+  hospitalCompleted: boolean
+}
+
+/** Build the small, global progress acknowledgement from two server ledgers. */
+export function maristanaProgressDelta(previous: MaristanaOverview, next: MaristanaOverview): MaristanaProgressDelta | null {
+  const earnedCredits = Math.round(next.totalCredits - previous.totalCredits)
+  if (!next.enabled || earnedCredits <= 0) return null
+  const hospital = next.hospitals.find((candidate) => candidate.active) ?? next.hospitals.at(-1)
+  if (!hospital) return null
+  const stepCost = Math.max(1, next.config.creditsPerStep)
+  const stepsPlaced = Math.max(0, Math.floor(next.totalCredits / stepCost) - Math.floor(previous.totalCredits / stepCost))
+  return {
+    earnedCredits,
+    stepsPlaced,
+    hospitalName: hospital.name,
+    stage: hospital.stage,
+    nextStage: Math.min(MARISTANA_STEPS, hospital.stage + (hospital.completed ? 0 : 1)),
+    creditsToNextStep: hospital.creditsToNextStep,
+    stepProgress: hospital.completed ? 1 : hospital.stepProgress,
+    hospitalCompleted: next.completedHospitals > previous.completedHospitals,
+  }
 }
 
 export interface MaristanaEvidence {

@@ -7,6 +7,7 @@ import { Icon } from '@/components/ui/Icon'
 import { Kbd } from '@/components/ui/Kbd'
 import { Tooltip } from '@/components/ui/Tooltip'
 import { PomodoroTimer } from './PomodoroTimer'
+import { FocusAudioPlayer } from './FocusAudioPlayer'
 import { cn } from '@/lib/cn'
 import { formatDateTime } from '@/lib/format'
 import { useI18n } from '@/lib/i18n'
@@ -148,7 +149,8 @@ export function Topbar({
           <Kbd>⌘K</Kbd>
         </button>
 
-        <PomodoroTimer />
+        {portal === 'student' && <PomodoroTimer />}
+        {portal === 'student' && <FocusAudioPlayer />}
 
         <button type="button" onClick={onOpenSearch} className={cn(iconBtn, 'sm:hidden')} aria-label={t('Search')}>
           <Icon icon={Search} size={18} />
