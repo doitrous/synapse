@@ -18,6 +18,25 @@ interface ModuleOption {
   yearLabel: string
 }
 
+/**
+ * Where each module id sits in the catalogue: universities in declared order,
+ * each one's years in declared order, each year's courses in declared order.
+ * A module taught in more than one place keeps the position of its first
+ * appearance, so it does not compete with itself for a rank.
+ *
+ * This is "the module registry" as far as ordering goes — the same walk
+ * `contentModuleLabels` does to resolve a single item's modules, but reduced
+ * to the one fact a sort needs: which module comes before which.
+ */
+export function moduleCatalogueOrder(catalogue: University[]): Map<string, number> {
+  const rank = new Map<string, number>()
+  catalogue.forEach((university) => university.years.forEach((year) => year.courses.forEach((course, index) => {
+    const id = course.moduleId?.trim() || defaultModuleId(course.name, index + 1)
+    if (!rank.has(id)) rank.set(id, rank.size)
+  })))
+  return rank
+}
+
 function values(value: unknown): string[] {
   return Array.isArray(value)
     ? value.map((entry) => String(entry).trim()).filter(Boolean)
