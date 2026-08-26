@@ -1,5 +1,5 @@
-import { useEffect, useRef, useState } from 'react'
-import { AudioLines, ChevronDown, CloudRain, Headphones, Music2, Pause, Play, Volume2, Waves, Wind, X } from 'lucide-react'
+import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from 'react'
+import { AudioLines, CloudRain, Headphones, Music2, Pause, Play, Volume2, Waves, Wind, X } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
 import { useLocalJsonPreference } from '@/lib/useLocalPreference'
@@ -131,19 +131,65 @@ async function stopEngine(engine: AudioEngine | null) {
   await engine.context.close().catch(() => undefined)
 }
 
-export function FocusAudioPlayer({ railed, focusMode }: { railed: boolean; focusMode: boolean }) {
+interface FocusAudioContextValue {
+  preference: { sound: SoundId; volume: number }
+  playing: boolean
+  play: (id?: SoundId) => Promise<void>
+  pause: () => Promise<void>
+  choose: (id: SoundId) => Promise<void>
+  setVolume: (volume: number) => void
+}
+
+const FocusAudioContext = createContext<FocusAudioContextValue | null>(null)
+
+/** Keeps audio alive while the top bar temporarily disappears in focus mode. */
+export function FocusAudioProvider({ children }: { children: ReactNode }) {
   const [preference, setPreference] = useLocalJsonPreference('synapse.focusAudio.v1', { sound: 'lofi' as SoundId, volume: 0.32 })
   const [playing, setPlaying] = useState(false)
-  const [open, setOpen] = useState(false)
-  const root = useRef<HTMLDivElement>(null)
   const engine = useRef<AudioEngine | null>(null)
-  const selected = SOUNDS.find((sound) => sound.id === preference.sound) ?? SOUNDS[0]
 
   useEffect(() => () => { void stopEngine(engine.current) }, [])
 
   useEffect(() => {
     if (engine.current) engine.current.master.gain.setTargetAtTime(preference.volume, engine.current.context.currentTime, 0.04)
   }, [preference.volume])
+
+  const play = useCallback(async (id = preference.sound) => {
+    await stopEngine(engine.current)
+    engine.current = startSound(id, preference.volume)
+    await engine.current.context.resume()
+    setPlaying(true)
+  }, [preference.sound, preference.volume])
+
+  const pause = useCallback(async () => {
+    await stopEngine(engine.current)
+    engine.current = null
+    setPlaying(false)
+  }, [])
+
+  const choose = useCallback(async (id: SoundId) => {
+    setPreference((current) => ({ ...current, sound: id }))
+    if (playing) await play(id)
+  }, [play, playing, setPreference])
+
+  const setVolume = useCallback((volume: number) => {
+    setPreference((current) => ({ ...current, volume }))
+  }, [setPreference])
+
+  return (
+    <FocusAudioContext.Provider value={{ preference, playing, play, pause, choose, setVolume }}>
+      {children}
+    </FocusAudioContext.Provider>
+  )
+}
+
+export function FocusAudioPlayer() {
+  const audio = useContext(FocusAudioContext)
+  if (!audio) throw new Error('FocusAudioPlayer must be rendered inside FocusAudioProvider')
+  const { preference, playing, play, pause, choose, setVolume } = audio
+  const [open, setOpen] = useState(false)
+  const root = useRef<HTMLDivElement>(null)
+  const selected = SOUNDS.find((sound) => sound.id === preference.sound) ?? SOUNDS[0]
 
   useEffect(() => {
     function close(event: MouseEvent) {
@@ -157,34 +203,25 @@ export function FocusAudioPlayer({ railed, focusMode }: { railed: boolean; focus
     return () => { document.removeEventListener('mousedown', close); document.removeEventListener('keydown', key) }
   }, [])
 
-  async function play(id = preference.sound) {
-    await stopEngine(engine.current)
-    engine.current = startSound(id, preference.volume)
-    await engine.current.context.resume()
-    setPlaying(true)
-  }
-
-  async function pause() {
-    await stopEngine(engine.current)
-    engine.current = null
-    setPlaying(false)
-  }
-
-  async function choose(id: SoundId) {
-    setPreference((current) => ({ ...current, sound: id }))
-    if (playing) await play(id)
-  }
-
   return (
-    <div
-      ref={root}
-      className={cn(
-        'fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] z-30 transition-[inset-inline-start] duration-200 ease-[var(--ease-out-quint)]',
-        focusMode ? 'start-3 sm:start-4' : railed ? 'start-3 lg:start-[calc(var(--spacing-sidebar-collapsed)+1rem)]' : 'start-3 lg:start-[calc(var(--spacing-sidebar)+1rem)]',
-      )}
-    >
+    <div ref={root} className="relative">
+      <button
+        type="button"
+        onClick={() => setOpen((current) => !current)}
+        aria-label="Focus sounds"
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        className={cn(
+          'relative inline-flex size-11 items-center justify-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary lg:size-9',
+          open && 'bg-inset text-ink',
+        )}
+      >
+        <Icon icon={AudioLines} size={17} />
+        {playing && <span className="absolute end-1.5 top-1.5 size-1.5 rounded-full bg-primary ring-2 ring-paper" />}
+      </button>
+
       {open && (
-        <div role="dialog" aria-label="Focus sounds" className="animate-pop absolute bottom-[calc(100%+0.65rem)] start-0 w-[min(21rem,calc(100vw-1.5rem))] overflow-hidden rounded-xl border border-line bg-surface shadow-pop">
+        <div role="dialog" aria-label="Focus sounds" className="animate-pop fixed inset-x-2 top-[calc(3.75rem+env(safe-area-inset-top))] z-50 overflow-hidden rounded-xl border border-line bg-surface shadow-pop sm:absolute sm:inset-x-auto sm:end-0 sm:top-[calc(100%+0.5rem)] sm:w-[min(21rem,calc(100vw-1rem))]">
           <div className="flex items-center justify-between border-b border-line px-4 py-3">
             <div><p className="text-[13.5px] font-semibold text-ink">Focus sounds</p><p className="mt-0.5 text-[10.5px] text-ink-3">Generated on your device · no streaming</p></div>
             <button type="button" className="grid size-9 place-items-center rounded-md text-ink-3 hover:bg-inset hover:text-ink" aria-label="Close focus sounds" onClick={() => setOpen(false)}><Icon icon={X} size={16} /></button>
@@ -210,31 +247,15 @@ export function FocusAudioPlayer({ railed, focusMode }: { railed: boolean; focus
             <label className="flex items-center gap-3">
               <Icon icon={Volume2} size={15} className="shrink-0 text-ink-3" />
               <span className="sr-only">Volume</span>
-              <input type="range" min="0.05" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setPreference((current) => ({ ...current, volume: Number(event.target.value) }))} className="h-6 min-w-0 flex-1 accent-primary" />
+              <input type="range" min="0.05" max="0.75" step="0.01" value={preference.volume} onChange={(event) => setVolume(Number(event.target.value))} className="h-6 min-w-0 flex-1 accent-primary" />
               <span className="tnum w-8 text-end font-mono text-[10.5px] text-ink-3">{Math.round(preference.volume * 100)}%</span>
             </label>
-            <button type="button" onClick={() => void (playing ? pause() : play())} className="mt-2 inline-flex h-10 w-full items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary text-[13px] font-semibold text-on-primary shadow-action transition-[background-color,transform] hover:bg-primary-hover active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
+            <button type="button" onClick={() => void (playing ? pause() : play())} className="mt-2 inline-flex h-10 w-full items-center justify-center gap-2 rounded-lg border border-primary-strong/25 bg-primary text-[13px] font-semibold text-on-primary shadow-action transition-[background-color,transform] hover:bg-primary-hover active:scale-[0.96] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">
               <Icon icon={playing ? Pause : Play} size={15} /> {playing ? 'Pause' : `Play ${selected.label}`}
             </button>
           </div>
         </div>
       )}
-
-      <div className="flex items-center overflow-hidden rounded-xl border border-line bg-surface/95 shadow-pop backdrop-blur-sm">
-        <button
-          type="button"
-          onClick={() => void (playing ? pause() : play())}
-          className="grid size-11 place-items-center text-primary-strong transition-colors hover:bg-primary-tint focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-primary"
-          aria-label={playing ? `Pause ${selected.label}` : `Play ${selected.label}`}
-        >
-          <Icon icon={playing ? Pause : Play} size={16} className={playing ? '' : 'translate-x-px'} />
-        </button>
-        <button type="button" onClick={() => setOpen((current) => !current)} aria-expanded={open} className="flex size-11 items-center justify-center gap-2 border-s border-line text-start transition-colors hover:bg-inset focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-primary sm:h-11 sm:w-auto sm:max-w-[10.5rem] sm:justify-start sm:pe-2.5 sm:ps-3">
-          <Icon icon={AudioLines} size={14} className={cn('shrink-0 text-ink-3', playing && 'text-primary')} />
-          <span className="hidden min-w-0 sm:block"><span className="block truncate text-[11.5px] font-semibold text-ink">{selected.label}</span><span className="block text-[9.5px] text-ink-3">{playing ? 'Playing softly' : 'Focus audio'}</span></span>
-          <Icon icon={ChevronDown} size={13} className={cn('hidden shrink-0 text-ink-3 transition-transform sm:block', open && 'rotate-180')} />
-        </button>
-      </div>
     </div>
   )
 }

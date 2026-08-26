@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
-import { Building2, Box } from 'lucide-react'
+import { useEffect, useRef, useState } from 'react'
+import { Building2, Box, Check } from 'lucide-react'
 import { Icon } from '@/components/ui/Icon'
 import { cn } from '@/lib/cn'
-import { maristanaStageAsset } from '@/data/maristanas'
+import { MARISTANA_BUILD_STEPS, MARISTANA_STEPS, maristanaStageAsset } from '@/data/maristanas'
 
 /**
  * Asset hand-off contract.
@@ -62,6 +62,78 @@ function BlueprintHospital({ stage }: { stage: number }) {
   )
 }
 
+function BuildRoadmap({ stage }: { stage: number }) {
+  const scroller = useRef<HTMLDivElement>(null)
+  const currentStep = useRef<HTMLLIElement>(null)
+  const mounted = useRef(false)
+  const activeStep = Math.min(MARISTANA_STEPS, stage + (stage < MARISTANA_STEPS ? 1 : 0))
+
+  useEffect(() => {
+    const rail = scroller.current
+    const item = currentStep.current
+    if (!rail || !item) return
+    const top = Math.max(0, item.offsetTop - (rail.clientHeight - item.clientHeight) / 2)
+    rail.scrollTo({
+      top,
+      behavior: mounted.current && !window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'smooth' : 'auto',
+    })
+    mounted.current = true
+  }, [activeStep])
+
+  return (
+    <aside className="flex min-h-0 flex-col border-e border-line bg-surface" aria-label="Maristana construction roadmap">
+      <div className="shrink-0 border-b border-line px-3 py-3 sm:px-4">
+        <p className="text-[9.5px] font-bold uppercase tracking-[0.09em] text-ink-3">Build roadmap</p>
+        <p className="tnum mt-1 font-mono text-[10.5px] font-semibold text-ink">{stage} / {MARISTANA_STEPS} placed</p>
+      </div>
+      <div ref={scroller} className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-2 py-2 sm:px-3" tabIndex={0}>
+        <ol className="relative">
+          {MARISTANA_BUILD_STEPS.map((label, index) => {
+            const number = index + 1
+            const complete = number <= stage
+            const current = number === activeStep
+            return (
+              <li
+                key={label}
+                ref={current ? currentStep : undefined}
+                aria-current={current ? 'step' : undefined}
+                className={cn(
+                  'relative flex min-h-10 gap-2 rounded-md px-1.5 py-2 sm:gap-2.5 sm:px-2',
+                  current && 'bg-primary-tint/65',
+                )}
+              >
+                {number < MARISTANA_STEPS && (
+                  <span aria-hidden className={cn(
+                    'absolute start-[13px] top-7 h-[calc(100%-0.55rem)] w-px sm:start-[15px]',
+                    number < stage ? 'bg-primary/45' : 'bg-line-2',
+                  )} />
+                )}
+                <span className={cn(
+                  'relative z-10 mt-px grid size-[18px] shrink-0 place-items-center rounded-full border font-mono text-[8.5px] font-bold tabular-nums sm:size-5 sm:text-[9px]',
+                  complete
+                    ? 'border-primary bg-primary text-on-primary'
+                    : current
+                      ? 'border-primary bg-surface text-primary-strong shadow-panel'
+                      : 'border-line-2 bg-surface text-ink-3',
+                )}>
+                  {complete ? <Icon icon={Check} size={10} strokeWidth={2.5} /> : number}
+                </span>
+                <span className="min-w-0 pt-px">
+                  <span className={cn(
+                    'block text-[9.5px] font-semibold leading-[1.25] sm:text-[10.5px]',
+                    current ? 'text-primary-strong' : complete ? 'text-ink-2' : 'text-ink-3',
+                  )}>{label}</span>
+                  {current && <span className="mt-0.5 block text-[8.5px] font-medium text-primary sm:text-[9px]">In progress</span>}
+                </span>
+              </li>
+            )
+          })}
+        </ol>
+      </div>
+    </aside>
+  )
+}
+
 export function MaristanaModel({ stage, name, compact = false }: { stage: number; name: string; compact?: boolean }) {
   const [assetAvailable, setAssetAvailable] = useState(true)
   useEffect(() => setAssetAvailable(true), [stage])
@@ -86,33 +158,36 @@ export function MaristanaModel({ stage, name, compact = false }: { stage: number
   }
 
   return (
-    <div className="grid-chart-major relative min-h-[340px] overflow-hidden bg-surface-2/45 sm:min-h-[430px]">
-      <div className="absolute inset-x-0 top-0 z-10 flex items-center justify-between gap-3 p-4 sm:p-5">
-        <span className="inline-flex items-center gap-2 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[11px] font-semibold text-ink-2 shadow-panel backdrop-blur-sm">
-          <Icon icon={Box} size={13} /> Stage model {String(stage).padStart(2, '0')}/25
-        </span>
-        <span className="max-w-[50%] truncate font-mono text-[10.5px] text-ink-3">{name}</span>
+    <div className="grid h-60 grid-cols-[7.5rem_minmax(0,1fr)] overflow-hidden bg-surface-2/45 sm:h-[31rem] sm:grid-cols-[11.5rem_minmax(0,1fr)] xl:h-[36rem]">
+      <BuildRoadmap stage={stage} />
+      <div className="relative h-full min-w-0 overflow-hidden bg-surface-2/45">
+        <div className="absolute inset-x-0 top-0 z-10 flex items-center justify-between gap-3 p-3 sm:p-4">
+          <span className="inline-flex items-center gap-2 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[10px] font-semibold text-ink-2 shadow-panel backdrop-blur-sm sm:text-[11px]">
+            <Icon icon={Box} size={13} /> Stage {String(stage).padStart(2, '0')}/25
+          </span>
+          <span className="hidden max-w-[42%] truncate rounded-md bg-surface/75 px-2 py-1 font-mono text-[9.5px] text-ink-3 backdrop-blur-sm sm:block">{name}</span>
+        </div>
+
+        {assetAvailable && stage > 0 ? (
+          <img
+            key={stage}
+            src={maristanaStageAsset(stage)}
+            alt={`${name}, construction stage ${stage} of 25`}
+            className="absolute inset-0 size-full object-contain"
+            onError={() => setAssetAvailable(false)}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-end px-3 pb-7 pt-14 sm:px-8 sm:pb-9">
+            <BlueprintHospital stage={stage} />
+          </div>
+        )}
+
+        {!assetAvailable && (
+          <div className="absolute bottom-3 start-3 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[10.5px] text-ink-3 shadow-panel backdrop-blur-sm">
+            Blueprint preview · 3D asset pending
+          </div>
+        )}
       </div>
-
-      {assetAvailable && stage > 0 ? (
-        <img
-          key={stage}
-          src={maristanaStageAsset(stage)}
-          alt={`${name}, construction stage ${stage} of 25`}
-          className="absolute inset-0 size-full object-contain p-9 pt-16"
-          onError={() => setAssetAvailable(false)}
-        />
-      ) : (
-        <div className="absolute inset-0 flex items-end px-4 pb-8 pt-16 sm:px-10 sm:pb-10">
-          <BlueprintHospital stage={stage} />
-        </div>
-      )}
-
-      {!assetAvailable && (
-        <div className="absolute bottom-3 start-3 rounded-md border border-line bg-surface/90 px-2.5 py-1.5 text-[10.5px] text-ink-3 shadow-panel backdrop-blur-sm">
-          Blueprint preview · 3D asset pending
-        </div>
-      )}
     </div>
   )
 }
