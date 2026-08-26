@@ -19,14 +19,14 @@ filename alone never did.
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
 | [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
-| [`concept/`](concept/) | Concepts › Import | 16 | 306 |
-| [`article/`](article/) | Bulk import → **article** | 10 | 75 |
-| [`question/`](question/) | Bulk import → **question** | 12 | 294 |
-| [`practical/`](practical/) | Bulk import → **practical** | 35 | 162 |
-| [`relations/`](relations/) | Relationships › Import | 1 | 156 |
-| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 4 | 275 |
+| [`concept/`](concept/) | Concepts › Import | 19 | 684 |
+| [`article/`](article/) | Bulk import → **article** | 16 | 150 |
+| [`question/`](question/) | Bulk import → **question** | 20 | 2055 |
+| [`practical/`](practical/) | Bulk import → **practical** | 36 | 200 |
+| [`relations/`](relations/) | Relationships › Import | 2 | 350 |
+| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 8 | 2094 |
 | [`subjects/`](subjects/) | Taxonomy › Import | — | — |
-| [`glossary/`](glossary/) | Glossary › Import | 6 | 376 |
+| [`glossary/`](glossary/) | Glossary › Import | 7 | 480 |
 | [`resource/`](resource/) | Bulk import → **resource** | — | — |
 
 The empty folders are not oversights — they are the shape of the work that has not been
@@ -318,6 +318,112 @@ concept/article covers a topic the department book itself doesn't teach);
 publication. None of these block the 14 files above from being applied —
 they are content-completeness gaps the module already discloses, not
 import-time errors.
+
+---
+
+---
+
+### Kasr Al Ainy 101 ISK (Histology + Anatomy) — 24 files across 7 folders
+
+Staged 2026-08-27, same pass and same layout as 108 INT above. Copied
+verbatim from `docs/Kasr-Source-Imports/{evidence,article,concept,relations,
+practical,question,written,glossary}/101-ISK-*` — no hand edits except the
+practical file's floor/media repair (below), which happened in
+`docs/Kasr-Source-Imports/` before this copy, per lane protocol. Full
+detail — the `medical:batch` false-alarm on the question step, the audit
+findings, ids this module assumes are already live, and what remains
+open — is in `docs/Kasr-Source-Imports/INDEX-101-ISK.md` and
+`docs/Kasr-Source-Imports/coverage/101-ISK-GATES.md`; this entry states only
+the apply order and current status.
+
+**Apply in this order** (each step's ids are referenced by the next; the
+generic order above already matches this):
+
+| # | File | Admin page | Records | "Update matching items" |
+|---|---|---|--:|---|
+| 1 | `evidence/101-ISK-resources.md` | Bulk import evidence · Resource | 75 | on (evidence always upserts) |
+| 2 | `article/101-ISK-anatomy.md` | Bulk import → article | 39 | On |
+| 3 | `article/101-ISK-anatomy-2.md` | Bulk import → article | 9 | On |
+| 4 | `article/101-ISK-histology.md` | Bulk import → article | 6 | On |
+| 5 | `article/101-ISK-histology-2.md` | Bulk import → article | 12 | On |
+| 6 | `article/101-ISK-histology-3.md` | Bulk import → article | 3 | On |
+| 7 | `article/101-ISK-identification.md` | Bulk import → article | 6 | On |
+| 8 | `concept/101-ISK-concepts.md` | Concepts › Import | 75 | On |
+| 9 | `concept/101-ISK-mcq-concepts.md` | Concepts › Import | 207 new + 53 updates | **Must be On** — 53 of its 260 rows share an id with a concept `concepts.md` (step 8) just created; "Create only" silently skips them |
+| 10 | `concept/101-ISK-practical-concepts.md` | Concepts › Import | 37 new + 6 updates | **Must be On**, same reason — 6 of 43 share an id with a concept imported in steps 8–9 |
+| 11 | `evidence/101-ISK-claims.md` | Bulk import evidence · Claim | 1148 | On |
+| 12 | `evidence/101-ISK-citations.md` | Bulk import evidence · Citation | 330 | On |
+| 13 | `evidence/101-ISK-spans.md` | Bulk import evidence · Span | 266 | On |
+| 14 | `relations/101-ISK-relations.md` | Relationships › Import | 194 | On — 68 carry `verification_status: verified`, the other 126 `needs_evidence` (a claim named, no citation on the relation yet) — expected, not an error |
+| 15 | `practical/101-ISK-histology-practical.md` | Bulk import → practical | 38 | On — **import but keep Draft until media added**: all 38 stations carry `media_recommendations` with `Priority: required` and 0 images exist; Omar publishes after adding media via the Media Requests page (`/admin/library/media`) |
+| 16 | `question/101-ISK-mcq.md` | Bulk import → question | 1661 | On |
+| 17–23 | `question/101-ISK-{BAQOON-2022,BAQOON-2023,BAQOON-2024,EOY-2022,EOY-2024,EOY-2025,FORMATIVE-2025}-written.md` | Bulk import → question (format: written, same page) | 14+13+16+14+17+16+10 = 100 | On |
+| 24 | `glossary/101-ISK-glossary.md` | Glossary › Import | 104 | Glossary import always upserts by id |
+
+**Gate status, re-run 2026-08-27 against this staged copy plus the rest of
+`docs/import-ready/`:** `medical:simulate` chained one kind at a time,
+resources → articles → concepts (3 files) → claims → citations → spans →
+relations → practical → question → written → glossary — `errors: []` at
+every one of the 11 steps, 0 rejected. `npm run medical:simulate -- "docs/
+import-ready/"*/*.md --emit ...` over the whole combined folder (101 ISK
+plus 108 INT plus every pre-existing CVS/REN/RES batch) also comes back
+`errors: []`, 108 batches applied, only the 3 pre-existing `academic/`+
+`glossary/INDEX.md` non-batch files skipped (unrelated to 101). `medical:
+batch` on 101's 16 batch-able files (`--with` every 101 sibling concept/
+article file) is 15/16 `errors: []`; the one exception is `question/101-
+ISK-mcq.md` standalone, which the same class of false alarm 108's relations
+file hit — `--with`'s `foldInSiblings` merge does not strip the `+` prefix
+off a sparse concept-update row's `article_ids`, so a coverage check
+comparing `"+ART-…"` to a plain `"ART-…"` never matches; resolved by
+`medical:simulate`, which uses the real importer logic and reports
+`errors: []` for all 1661 questions. Full mechanism in `INDEX-101-ISK.md`.
+**Reviewer / final publisher, closed this pass.** The chief-of-staff's
+standing ruling — `reviewer: Medical team, Admin team` /
+`final_publisher: Admin team` are FINAL, same values as 108 INT — was
+applied to all 75 articles in both `docs/Kasr-Source-Imports/article/` and
+this staged copy (byte-identical), replacing the absent field and dropping
+the now-contradictory `reviewer:`/`finalPublisher:` `field_notes` lines.
+`medical:batch` stays `errors: []` on every article file after the edit.
+
+`medical:audit` against the combined emit (post-reviewer-fix): 5 aggregate
+editorial-gap lines fire for 101 (`resourceIds`/`claimIds`/`spanIds`/
+`evidenceBasis`/`notes` missing on the 31 articles with no claim/span
+evidence pass yet) plus the 126 already-known `needs_evidence` relations
+(row 14 above) — `Reviewer`/`Publisher` no longer appear anywhere in the
+audit's findings. None of this blocks import (every 101 record is
+`status: Draft`) or visibility (`status === 'Published'` is the only gate,
+and nothing here is Published).
+
+**Practical repair, done before this staging.** `practical/101-ISK-
+histology-practical.md`'s 38 "Lab interpretation" stations were below the
+format's 17-column floor and all 38 set `media_needed` with no
+`media_recommendations` (Validator E, `dcc6929`). Fixed by hand in
+`docs/Kasr-Source-Imports/` (the file carries no `Generated by` header): added
+`status`/`owner`/`duration` to every station and renamed `media_needed` to
+`media_recommendations` (same content, the field `bulkImport.ts` actually
+checks for). `medical:batch` on the file now reports `"warnings": []`. All
+38 stations' `media_recommendations` are `Priority: required` with 0 images
+in the repository — **import, but keep every one of these 38 records
+`status: Draft` until Omar adds the media via the Media Requests page**
+(`/admin/library/media`); see row 15 above.
+
+**Explanation enrichment — checked, not re-done.** Sized before touching
+anything: 0 of 1661 questions have no correct-answer explanation, 0% are
+under 3 sentences, only 16 (1%) are under 200 characters and every one of
+those 16 still clears the 3-sentence floor. This matches the enrichment
+pass BOARD.md already recorded as landed (2026-08-23). Well under the
+60-record threshold for a fresh pass, so none was done.
+
+**What remains genuinely open**: 3 concepts (`CON-FND-0D6F0DC6CBAD60`,
+`CON-FND-25C25E4FA62811`, `CON-FND-14D80DE53DE835`) confirmed page-by-page
+absent from the assigned histology source book, pending a ruling on sourcing
+from elsewhere or staying concept-side-only permanently; 729 untriaged MCQ
+bank rows; the EOY 2023 written paper (`src_ef2104d4eaede4fa1356`) whose
+11-record ledger entry cannot be found in any current written batch; 31
+articles with no claim/span evidence pass; zero medical images anywhere in
+the repository (the 38 practical stations above need it most acutely — see
+row 15). Reviewer/final publisher is now closed (standing ruling applied,
+see above). None of these block the 24 files above from being applied.
 
 ---
 

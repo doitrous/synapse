@@ -5,7 +5,9 @@ ids this module's batches assume are already live, and what is still open.
 `INDEX.md` (the shared, all-module index) is unedited — read it first for the
 general import-order rules and hazards; this file is the 101-specific
 instantiation of them, current as of the publish-gate run recorded in
-`D1-101-publish.md`.
+`D1-101-publish.md`, refreshed 2026-08-27 (glossary step added, 38-station
+practical repair, `medical:batch` false-alarm note, gate re-run — see the
+dated sections below).
 
 `docs/Kasr-Source-Imports/academic/101-isk-structure.md` is reference prose
 (zero `# Item` records) reproducing the department book's own chapter
@@ -47,16 +49,23 @@ built against ages the moment anyone else's batch lands on `main`.
 | 21 | `written/101-ISK-EOY-2024-written.md` | same | 17 | 0 | On |
 | 22 | `written/101-ISK-EOY-2025-written.md` | same | 16 | 0 | On |
 | 23 | `written/101-ISK-FORMATIVE-2025-written.md` | same | 10 | 0 | On |
+| 24 | `glossary/101-ISK-glossary.md` | Admin › Glossary Import (`/admin/glossary/import`) | 104 | 0 | Glossary import always upserts by id (a matching ID updates in place; `GlossaryImportPage.tsx:12,56`) — no separate toggle, equivalent to "on". Not covered by `medical:batch`/`simulate`/`audit` at all — the only check is `node docs/import-ready/glossary/check-glossary.mjs docs/Kasr-Source-Imports/glossary/101-ISK-glossary.md`, which reports `104 rows, 7 columns → clean; total problems: 0`. |
 
 Totals: 75 resources, 75 articles, 319 concepts (of which 59 are
 update-in-place against this module's own earlier steps, not against
 anything outside the bundle — see below), 1148 claims, 330 citations, 266
 spans, 194 relations, 38 practical items, 1761 questions (1661 MCQ + 100
-written across 7 papers). Every figure in this paragraph and in the
-per-row table above was re-verified by script
-(`grep -c '^# Item$' <file>`, one universal record delimiter across every
-kind including relations, which omits `## id`) — see the addendum for the
-full recount and the one arithmetic error it caught.
+written across 7 papers), 104 glossary terms. Every figure in this
+paragraph and in the per-row table above was re-verified this pass by a
+chained `medical:simulate` run, one kind at a time, each step's `--source`
+the previous step's `--emit`, against the current tree — `errors: []` and
+zero rejects at every one of the 11 steps (articles run together, the three
+concept files run together, the seven written files run together; every
+other kind is its own step) — cross-checked against
+`grep -c '^# Item$' <file>` (one universal record delimiter across every
+kind including relations, which omits `## id`), which matches on every row.
+The glossary row was added to this checklist in this pass — it existed on
+disk before but had never been added to the ordered import list.
 
 `medical:audit` (steps' cumulative field-presence check) is **not** wired
 into the import wizard or into CI (`.github/workflows/content.yml` never
@@ -79,6 +88,54 @@ missing-lines from 75 each to 31 each (see `D1-101-publish.md` §8); the
 totals and delta counts in the table above are unchanged (no records were
 added or removed — this was a column addition and fill, not a re-import
 shape change).
+
+## `medical:batch` is not the gate, same as 108's precedent
+
+Re-verified this pass. `question/101-ISK-mcq.md` run standalone with
+`medical:batch --with` the three concept files reports 19 `main concept X is
+not covered by any article in library_ids` errors, all against six concepts
+whose `article_ids` are set by a `+`-append sparse update row in
+`concept/101-ISK-mcq-concepts.md` (e.g. `## article_ids` / `+ART-101-HIS-
+CONNECTIVE-TISSUE-FIBRES | +ART-101-HIS-MICROTECHNIQUES`). The batch
+validator's `foldInSiblings` helper merges that column with a plain
+`.split('|').trim()` and does not strip the leading `+`, so the concept's
+simulated `articleIds` array in this standalone check literally contains
+`"+ART-101-HIS-CONNECTIVE-TISSUE-FIBRES"` — which never matches a question's
+plain `library_ids` value naming the same article without the `+`. Confirmed
+by instrumenting a scratch copy of the validator (not committed): the article
+really is linked (`concept.articleIds` in the real chained state is fully
+resolved), and the chained `medical:simulate` run for the question step
+(after concepts have actually been imported through the real importer, which
+does strip `+`) reports `errors: []` for all 1661 records, 0 rejects. Same
+class of false alarm as 108's directory-scoped relations file — a
+`--with`-based standalone check approximates real import order and can be
+wrong where a sparse update row's `+`-append syntax is involved;
+`medical:simulate` chained is the check that means anything.
+
+## Practical repair — 38/38 stations, done this pass
+
+`practical/101-ISK-histology-practical.md`'s 38 "Lab interpretation" stations
+were below the format's 17-column floor (thinnest 14) and all 38 set
+`media_needed` with no `media_recommendations`, per Validator E (`dcc6929`).
+Fixed by hand (this file carries no `Generated by` header — it is not
+generator output): added `status: Draft`, `owner: Claude` and `duration: 5`
+to every station (14/15 → 17/18 columns), and renamed every `## media_needed`
+heading to `## media_recommendations` — same block content, the canonical
+field name `bulkImport.ts` aliases for practicals (`media_recommendations ||
+media_needed`) and the one `completenessWarnings` actually checks for.
+Re-validated: `medical:batch` on the file (`--with` the three concept files)
+now reports `"warnings": []` (previously two warnings, both above) with
+`"errors": []` unchanged, `items: 38`, `questions: 74`.
+
+**Media flag, per the chief-of-staff's standing ruling.** All 38 stations
+carry `media_recommendations` with `Priority: required` (the histology
+plates each station is built around) and the repository holds zero images.
+Import the file — the gates above are clean and nothing here blocks
+import — but every one of these 38 records must stay `status: Draft` after
+import until Omar adds the media via the Media Requests page
+(`/admin/library/media`); do not flip any of the 38 to `Published` on the
+strength of these gates alone. Flagged in the import-ready INDEX's 101 ISK
+section as "import but keep Draft until media added".
 
 ## Ids this module's batches assume already live
 
@@ -105,8 +162,68 @@ both the 101 manifest and the legacy-live set: all 75 resolve to 101's own 76-ro
 manifest (`manifest/kasr-y1-sources.json`), zero resolve only via the legacy list.
 This module doesn't inherit anyone else's orphaned resource id.
 
+## Explanation enrichment — verified done, not re-done
+
+Sized before touching anything: `medical:batch` on `question/101-ISK-mcq.md`
+reports, across all 1661 records, correct-answer explanation `shortest 150
+chars, median 402; 1% under 200 chars, 0% under 3 sentences`, and 0 questions
+with no correct-answer explanation at all. Only 16 records sit under 200
+chars, and every one of those 16 still clears the 3-sentence floor (checked
+individually). This matches the enrichment pass already landed for 101
+(BOARD.md, 2026-08-23 ~05:25: median 145→402 chars, ≤2-sentence 92%→0.8%,
+none empty) — well under the 60-record threshold for a fresh enrichment pass,
+so none was done this pass; there is nothing left to enrich.
+
+## Gate run — this pass (2026-08-27)
+
+`medical:concept-ids`, `medical:id-stability`, `medical:citations`,
+`medical:presence` (concept+article files), `check-column-parsers.ts` (all 24
+101 batch files, run individually — 0 `sentinelInTextColumn` / 0
+`blankInListColumn` on every one), and `check-glossary.mjs` all clean. The
+chained `medical:simulate` (11 steps, order above) is `errors: []` throughout,
+0 rejects.
+
+**Reviewer / final publisher, closed this pass.** The chief-of-staff's
+standing ruling — `reviewer: Medical team, Admin team` /
+`final_publisher: Admin team` are the FINAL values, same as 108 INT — was
+applied to all 75 articles (all six `article/101-ISK-*.md` files), replacing
+the absent field with the ruled value and dropping the now-contradictory
+`reviewer:`/`finalPublisher:` `field_notes` excuse lines (74+1, one file's
+first record needed a second pass after an off-by-one in the batch script).
+Re-verified: `## reviewer` / `## final_publisher` present on all 75 records
+in both `docs/Kasr-Source-Imports/article/` and the staged
+`docs/import-ready/article/` copies (byte-identical), 0 leftover
+`reviewer:`/`finalPublisher:` field_notes lines, `medical:batch` still
+`errors: []` on every file. `status` stays `Draft` regardless — this closes
+the *reviewer/publisher* gate only; Omar still flips `Published` by hand.
+
+`medical:audit` against the final chained `--emit` (post-reviewer-fix): 131
+error lines (down from 135), all pre-existing and already documented
+elsewhere in this file or in `coverage/101-ISK-GATES.md` — 126 are the
+already-known 126/194 `needs_evidence` relations (row 14 above), 5 are
+aggregate lines naming the 31 articles still missing
+`resourceIds`/`claimIds`/`spanIds`/`evidenceBasis`/`notes` (the unstarted
+claim/span evidence pass, listed below). `Reviewer`/`Publisher` no longer
+appear anywhere in `articleMissing` — confirmed by inspecting the audit JSON
+directly. `conceptMissing` and `conceptFieldsAbsent` are both empty — 0
+concept-level audit findings. None of these 131 lines are rejected by
+`validate-content-batch.mjs` or `simulate-content-import.mjs` (the two
+together are the actual import gate), and none are read by the visibility
+gate (`status === 'Published'`, and every 101 record is `Draft`) — same
+classification method 108's gate ledger used.
+
 ## What remains open
 
+- **3 concepts, permanently concept-side-only, pending an Omar ruling.**
+  `check-two-sided-coverage.py "101 ISK"` reports 279/282 two-sided, 3
+  concept-side-only (`CON-FND-0D6F0DC6CBAD60` proteasome vs lysosome,
+  `CON-FND-25C25E4FA62811` necrosis vs apoptosis,
+  `CON-FND-14D80DE53DE835` neuron classification) — see
+  `coverage/101-ISK-GATES.md`'s BLOCKED section for the full page-by-page
+  confirmation that the assigned histology source book does not teach any
+  of the three. Needs either a pointer to a different department book/page
+  range, or a ruling to leave them concept-side-only permanently as
+  MCQ-bank-only material.
 - **Images.** The repository holds zero medical images. Every 101 article
   carries its plates as `image_recommendations` blocks (a human sourcing
   queue), not as attached media — `field_notes.media` on every record says so
