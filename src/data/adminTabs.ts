@@ -92,7 +92,7 @@ export const ADMIN_TAB_VIEWS: AdminTabView[] = [
     stateKeys: [], apiPrefixes: [] },
 
   { id: 'settings', label: 'Settings', to: '/admin/settings', icon: Settings, group: 'Governance', superAdminOnly: true,
-    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1', 'synapse-maristana-config-v1'], apiPrefixes: [] },
   { id: 'audit', label: 'Audit & Security', to: '/admin/audit', icon: ShieldCheck, group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
   { id: 'access', label: 'Access Control', to: '/admin/access', icon: KeyRound, group: 'Governance', superAdminOnly: true,

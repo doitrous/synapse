@@ -25,6 +25,9 @@ const USER_OWNED_PATTERNS = [
   /^synapse\.reader\./,
   /^synapse\.bookmarks\./,
   /^synapse\.progress\./,
+  // Whether this student has completed the one-time Build Maristanas tour.
+  // It follows the account across devices and must never become shared state.
+  /^synapse\.maristanas\./,
   // The list of a student's own uploaded documents. Undotted it reached the
   // shared catalogue store, where the server refuses a student every read and
   // every write — so the demo build's document list was silently inert and the

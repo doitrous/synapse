@@ -57,6 +57,7 @@ import {
   listEnrollmentChangeRequests, myEnrollmentChangeRequests,
 } from './enrollmentChanges.js'
 import { leaderboardFor, recordVerifiedAttempts } from './qbankAttempts.js'
+import { maristanaOverview, recordStudyHeartbeat, renameHospital } from './maristanas.js'
 import { acknowledgeStorageThreshold, platformReport } from './platformReports.js'
 import {
   statusFor as assistantStatus,
@@ -791,6 +792,24 @@ app.get('/api/leaderboards', requireAuthenticated, wrap(async (req, res) => {
   res.json(result)
 }))
 
+/* ── Build Maristanas ──────────────────────────────────────────────────── */
+
+app.get('/api/maristanas', requireAuthenticated, wrap(async (req, res) => {
+  res.json(await maristanaOverview(req.identity.id))
+}))
+
+app.post('/api/maristanas/study-heartbeat', requireAuthenticated, wrap(async (req, res) => {
+  const result = await recordStudyHeartbeat(req.identity.id, req.body ?? {})
+  if (result.error) return res.status(400).json(result)
+  res.json(result)
+}))
+
+app.patch('/api/maristanas/:slot', requireAuthenticated, wrap(async (req, res) => {
+  const result = await renameHospital(req.identity.id, req.params.slot, req.body?.name)
+  if (result.error) return res.status(result.error === 'hospital_not_unlocked' ? 403 : 400).json(result)
+  res.json(result)
+}))
+
 /* ── Study Together ──────────────────────────────────────────────────────── */
 
 app.post('/api/study-rooms', requireAuthenticated, wrap(async (req, res) => {
@@ -1132,6 +1151,9 @@ const STUDENT_READABLE_STATE = new Set([
   'synapse-student-id-discount-v1',
   // The upload allowance, so the demo build can show the limit an admin set.
   'synapse-storage-limits-v1',
+  // The construction economy is set by an admin and explained on the student
+  // dashboard. Students can read the multipliers but only Settings can write.
+  'synapse-maristana-config-v1',
   // Adaptive Study runs entirely on these three, on the student's own screen.
   // Admin-written and student-read: a student must not be able to edit the
   // thresholds they are judged by, but a page that cannot read them silently

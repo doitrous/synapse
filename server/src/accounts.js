@@ -498,6 +498,7 @@ export function stateFamily(key) {
   if (/^synapse\.qbank\./.test(key)) return 'Question bank'
   if (/^synapse\.practical\./.test(key)) return 'Practicals'
   if (/^synapse\.progress\./.test(key)) return 'Progress'
+  if (/^synapse\.maristanas\./.test(key)) return 'Maristanas'
   if (/^synapse\.notebook\./.test(key)) return 'Notebook'
   if (/^synapse\.whiteboard\./.test(key)) return 'Whiteboards'
   if (/^synapse\.highlights\./.test(key)) return 'Highlights'

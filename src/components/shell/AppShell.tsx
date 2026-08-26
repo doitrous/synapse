@@ -15,6 +15,8 @@ import { useLocalPreference } from '@/lib/useLocalPreference'
 import { useT } from '@/lib/i18n'
 import { ImmersionProvider, useImmersion } from './ImmersionContext'
 import { OverflowTooltipLayer } from '@/components/ui/OverflowTooltipLayer'
+import { StudyActivityTracker } from './StudyActivityTracker'
+import { FocusAudioPlayer } from './FocusAudioPlayer'
 
 function isTypingTarget(target: EventTarget | null): boolean {
   const element = target instanceof HTMLElement ? target : null
@@ -208,6 +210,8 @@ function AppShellInner({ portal }: { portal: Portal }) {
       <OverflowTooltipLayer />
       <StudyContextMenu onOpenSearch={() => setSearchOpen(true)} />
       {portal === 'student' && <StudentOnboarding />}
+      {portal === 'student' && <StudyActivityTracker />}
+      {portal === 'student' && <FocusAudioPlayer railed={railed} focusMode={focusMode} />}
       {/* Docked, not a page: the question is nearly always about what is
           already on screen. Renders nothing unless the assistant is on and
           included on this student's plan. */}

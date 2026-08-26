@@ -83,7 +83,7 @@ export const ADMIN_TABS = [
   { id: 'privacy', to: '/admin/privacy', group: 'Operations', stateKeys: [], apiPrefixes: [] },
 
   { id: 'settings', to: '/admin/settings', group: 'Governance', superAdminOnly: true,
-    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-storage-limits-v1', 'synapse-system-colors-v1', 'synapse-maristana-config-v1'], apiPrefixes: [] },
   { id: 'audit', to: '/admin/audit', group: 'Governance', superAdminOnly: true,
     stateKeys: [], apiPrefixes: ['/api/backups', '/api/launch'] },
   { id: 'access', to: '/admin/access', group: 'Governance', superAdminOnly: true,

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Building2, Users, Plug, Flag, IdCard } from 'lucide-react'
+import { Building2, Users, Plug, Flag, IdCard, Hammer } from 'lucide-react'
 import { institution, roles, integrations, featureFlags } from '@/data/admin'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
@@ -13,11 +13,16 @@ import {
   DEFAULT_STUDENT_ID_DISCOUNT, STUDENT_ID_DISCOUNT_STORAGE_KEY, normaliseDiscountPercent,
   type StudentIdDiscount,
 } from '@/data/studentDiscount'
+import {
+  DEFAULT_MARISTANA_CONFIG, MARISTANA_CONFIG_KEY, normaliseMaristanaConfig,
+  projectedModuleHospitals, type MaristanaConfig,
+} from '@/data/maristanas'
 
 export function Settings() {
   const [profile, setProfile] = useState(institution)
   const [notice, setNotice] = useState('')
   const [studentId, setStudentId] = usePersistentState<StudentIdDiscount>(STUDENT_ID_DISCOUNT_STORAGE_KEY, DEFAULT_STUDENT_ID_DISCOUNT)
+  const [maristana, setMaristana] = usePersistentState<MaristanaConfig>(MARISTANA_CONFIG_KEY, DEFAULT_MARISTANA_CONFIG)
   const [connected, setConnected] = useState<Set<string>>(
     () => new Set(integrations.filter((i) => i.connected).map((i) => i.name)),
   )
@@ -106,6 +111,80 @@ export function Settings() {
             />
             {studentId.enabled ? 'Offered' : 'Not offered'}
           </label>
+        </div>
+      </Panel>
+
+      <Panel className="mb-4">
+        <PanelHeader title="Build Maristanas economy" icon={Hammer} hint="25 construction steps per hospital" />
+        <div className="border-b border-line bg-surface-2/40 px-5 py-4">
+          <div className="flex flex-wrap items-center gap-x-6 gap-y-3">
+            <div className="min-w-0 flex-1">
+              <p className="text-[13.5px] font-semibold text-ink">Learning-to-construction balance</p>
+              <p className="mt-1 max-w-3xl text-[12.5px] leading-relaxed text-ink-2">
+                The default projects about <strong className="font-semibold text-ink">{projectedModuleHospitals(maristana).toFixed(1)} hospitals</strong> from
+                a representative module: 30 active study hours, 300 scored questions at 75% accuracy, and ten 75% assessment sessions.
+                Changing a multiplier rebalances existing collections because stages are derived from evidence, never stored as an editable score.
+              </p>
+            </div>
+            <label className="flex items-center gap-2 text-[12.5px] text-ink-2">
+              <Toggle
+                checked={maristana.enabled}
+                onChange={(enabled) => setMaristana((current) => normaliseMaristanaConfig({ ...current, enabled }))}
+                label="Build Maristanas"
+              />
+              {maristana.enabled ? 'Available to students' : 'Paused'}
+            </label>
+          </div>
+        </div>
+        <div className="grid gap-4 p-5 sm:grid-cols-2 xl:grid-cols-3">
+          <Field label="Credits per construction step" hint="A hospital always has 25 steps.">
+            <TextInput
+              type="number" min={20} max={10000} step={10}
+              value={maristana.creditsPerStep}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, creditsPerStep: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Credits per active study minute" hint="Recorded only on visible, recently active study surfaces.">
+            <TextInput
+              type="number" min={0} max={100} step={0.25}
+              value={maristana.creditsPerStudyMinute}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, creditsPerStudyMinute: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Credits per scored question" hint="Awarded for the attempt, regardless of result.">
+            <TextInput
+              type="number" min={0} max={500} step={1}
+              value={maristana.creditsPerQuestion}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, creditsPerQuestion: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Correct-answer bonus" hint="Added only after the server verifies the answer key.">
+            <TextInput
+              type="number" min={0} max={1000} step={1}
+              value={maristana.creditsPerCorrectAnswer}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, creditsPerCorrectAnswer: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Assessment minimum questions" hint="A scored session at or above this length earns score credit.">
+            <TextInput
+              type="number" min={5} max={200} step={1}
+              value={maristana.assessmentMinimumQuestions}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, assessmentMinimumQuestions: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
+          <Field label="Credits per assessment percentage point" hint="Example: 80% × 1.5 = 120 credits.">
+            <TextInput
+              type="number" min={0} max={100} step={0.1}
+              value={maristana.creditsPerAssessmentPercent}
+              onChange={(event) => setMaristana((current) => normaliseMaristanaConfig({ ...current, creditsPerAssessmentPercent: event.target.value }))}
+              className="tnum font-mono"
+            />
+          </Field>
         </div>
       </Panel>
 

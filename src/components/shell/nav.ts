@@ -17,6 +17,7 @@ import {
   Compass,
   Layers,
   Gamepad2,
+  Building2,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -57,6 +58,7 @@ export const studentNav: NavGroup[] = [
     label: 'Plan',
     items: [
       { label: 'Performance', to: '/app/performance', icon: LineChart },
+      { label: 'Build Maristanas', to: '/app/maristanas', icon: Building2 },
     ],
   },
   {

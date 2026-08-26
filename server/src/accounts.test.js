@@ -61,6 +61,7 @@ test('per-user state keys fold into families a person would recognise', () => {
   assert.equal(stateFamily('synapse.qbank.attempts'), 'Question bank')
   assert.equal(stateFamily('synapse.notebook.a3f9'), 'Notebook')
   assert.equal(stateFamily('synapse.library.read'), 'Library')
+  assert.equal(stateFamily('synapse.maristanas.onboarding.v1'), 'Maristanas')
   assert.equal(stateFamily('synapse-notification-read-v1-42'), 'Notifications')
 })
 

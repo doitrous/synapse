@@ -736,6 +736,37 @@ CREATE TABLE IF NOT EXISTS qbank_attempts (
   INDEX idx_qbank_concept_scope (university_id, year, term, verified_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+/* ── Build Maristanas ───────────────────────────────────────────────────
+   Active study time is a server-clocked minute ledger. The unique bucket per
+   student prevents two tabs, retries, or replayed requests from creating more
+   than one minute of credit for the same wall-clock minute. Question and
+   assessment credit is derived from qbank_attempts above, whose answer key is
+   verified by the server. */
+CREATE TABLE IF NOT EXISTS maristana_study_minutes (
+  user_id       VARCHAR(64) NOT NULL,
+  minute_bucket BIGINT NOT NULL,
+  session_id    VARCHAR(64) NOT NULL,
+  module_id     VARCHAR(96) NULL,
+  subject_id    VARCHAR(96) NULL,
+  surface       VARCHAR(64) NULL,
+  recorded_at   TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, minute_bucket),
+  INDEX idx_maristana_study_recent (user_id, recorded_at),
+  INDEX idx_maristana_study_module (user_id, module_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+/* Names are the only hospital property stored directly. Stage and completion
+   are derived from evidence on every read, so settings changes rebalance the
+   collection without a destructive migration or an out-of-sync counter. */
+CREATE TABLE IF NOT EXISTS maristana_hospitals (
+  user_id     VARCHAR(64) NOT NULL,
+  slot_number INT UNSIGNED NOT NULL,
+  name        VARCHAR(80) NOT NULL,
+  created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  updated_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (user_id, slot_number)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 /* Current all-access pricing. Promotions apply automatically, vouchers apply by
    code, and the quote endpoint chooses one discount only. */
 CREATE TABLE IF NOT EXISTS pricing_promotions (
