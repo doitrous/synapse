@@ -32,10 +32,22 @@ export function TopicChooser({
   value,
   onChange,
   pool,
+  countPool,
 }: {
   value: Scope
   onChange: (next: Scope) => void
   pool: Question[]
+  /**
+   * The subset counts are drawn from, when it differs from `pool`.
+   *
+   * `pool` still decides which chapters exist to pick from — the tree itself
+   * never reshuffles as a student narrows their source. `countPool` (e.g. only
+   * their flagged questions) decides what number lands on each row, so a
+   * chapter with nothing under the current source reads 0 rather than
+   * disappearing or showing a count that belongs to a different source.
+   * Defaults to `pool`, which is the original single-pool behaviour.
+   */
+  countPool?: Question[]
 }) {
   const t = useT()
   // The same chapter tree the Library shows — not the demo seed — plus any
@@ -44,14 +56,23 @@ export function TopicChooser({
   const libraryTopics = useMemo(() => chooserTopics(pool, publishedTopics), [pool, publishedTopics])
   // scopeCounts walks every topic × subtopic × question. Unmemoised it ran on
   // every render — so on every keystroke and every checkbox in this tree.
-  const counts = useMemo(() => scopeCounts(pool, libraryTopics), [pool, libraryTopics])
+  // Computed from `pool`, never `countPool`: this is what decides whether a
+  // chapter ever has anything in it at all, which is what the group filter
+  // below uses to decide whether the chapter is offered as an option.
+  const existsCounts = useMemo(() => scopeCounts(pool, libraryTopics), [pool, libraryTopics])
+  // What is actually printed next to each row. Same values as `existsCounts`
+  // unless a narrower `countPool` was supplied.
+  const counts = useMemo(
+    () => (countPool ? scopeCounts(countPool, libraryTopics) : existsCounts),
+    [countPool, libraryTopics, existsCounts],
+  )
   const [expanded, setExpanded] = useState<Record<string, boolean>>({})
   /** Systems start closed: the list is a menu of twenty, not a wall of chapters. */
   const [openSubjects, setOpenSubjects] = useState<Record<string, boolean>>({})
 
   const groups = useMemo(() => subjects
-    .map((subj) => ({ subj, topics: libraryTopics.filter((tp) => tp.subjectId === subj.id && counts.topics[tp.id] > 0) }))
-    .filter((g) => g.topics.length > 0), [libraryTopics, counts])
+    .map((subj) => ({ subj, topics: libraryTopics.filter((tp) => tp.subjectId === subj.id && existsCounts.topics[tp.id] > 0) }))
+    .filter((g) => g.topics.length > 0), [libraryTopics, existsCounts])
 
   const toggleTopic = (topicId: string) => {
     const next = new Set(value)

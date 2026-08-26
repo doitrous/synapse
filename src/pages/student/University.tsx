@@ -1,10 +1,10 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import {
-  BookOpen, CalendarDays, FileQuestion, GraduationCap, History,
-  Layers3, Link2, MapPinned, Microscope, Scale, ShieldCheck, Stethoscope,
+  ArrowLeft, BookOpen, CalendarDays, Compass, FileQuestion, GraduationCap, History,
+  Link2, ListChecks, MapPinned, Microscope, RotateCw, Scale, Stethoscope,
   TriangleAlert,
 } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import type { AssessmentScheme } from '@/data/assessmentScheme'
 import { MODULE_SUBJECTS_STORAGE_KEY, type ModuleSubjectStore } from '@/data/moduleSubjects'
 import type { ModuleScheduleStore } from '@/data/moduleSchedule'
@@ -45,20 +45,41 @@ function n(value: number | null): string {
   return new Intl.NumberFormat('en-US', { maximumFractionDigits: 2 }).format(value)
 }
 
-function labelTone(label: string): 'neutral' | 'success' | 'warning' | 'accent' | 'outline' {
-  if (label === 'verified' || label === 'exact') return 'success'
-  if (label === 'carried-forward') return 'neutral'
-  if (label === 'inferred') return 'accent'
-  if (label === 'being-verified' || label === 'partial' || label === 'needs-marks' || label === 'needs-schedule') return 'warning'
-  return 'outline'
+/**
+ * Every internal state word this page might see, translated into something a
+ * student would actually want to read — and nothing else. States that come
+ * from a live server projection are a free string at the type level, so an
+ * unrecognised value here is dropped rather than printed: a badge that says
+ * nothing is safer than one that quotes an internal workflow term verbatim.
+ */
+const FRIENDLY_STATE: Record<string, { text: string; tone: 'neutral' | 'success' | 'warning' | 'accent' | 'outline' }> = {
+  verified: { text: 'Confirmed', tone: 'success' },
+  exact: { text: 'Confirmed', tone: 'success' },
+  derived: { text: 'Estimated from your marks', tone: 'accent' },
+  inferred: { text: 'Estimated', tone: 'accent' },
+  'carried-forward': { text: 'From last year', tone: 'neutral' },
+  partial: { text: 'Still being finalised', tone: 'warning' },
+  ambiguous: { text: 'Being confirmed', tone: 'warning' },
+  being_verified: { text: 'Being confirmed', tone: 'warning' },
+  'being-verified': { text: 'Being confirmed', tone: 'warning' },
 }
 
-function labelText(label: string): string {
-  return label.replace(/[_-]+/g, ' ')
+function friendlyState(label: string) {
+  return FRIENDLY_STATE[label] ?? null
+}
+
+function FriendlyBadges({ labels, limit = 2 }: { labels: string[]; limit?: number }) {
+  const resolved = labels.map(friendlyState).filter((entry): entry is NonNullable<typeof entry> => Boolean(entry)).slice(0, limit)
+  if (resolved.length === 0) return null
+  return (
+    <>
+      {resolved.map((entry) => <Badge key={entry.text} tone={entry.tone}>{entry.text}</Badge>)}
+    </>
+  )
 }
 
 function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; depth?: number }) {
-  if (subjects.length === 0) return <p className="text-[12.5px] text-ink-3">No subject tree has been published for this module yet.</p>
+  if (subjects.length === 0) return <p className="text-[12.5px] text-ink-3">Your faculty hasn&apos;t published a topic breakdown for this module yet.</p>
   return (
     <ul className={cn(depth === 0 && 'space-y-1.5')}>
       {subjects.map((subject) => (
@@ -66,9 +87,12 @@ function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; d
           <div className="flex min-w-0 items-center gap-2 py-0.5" style={{ paddingInlineStart: `${depth * 0.8}rem` }}>
             <span className={cn('size-1.5 shrink-0 rounded-full', depth === 0 ? 'bg-primary/55' : 'bg-accent/45')} />
             <span className="truncate text-[12.5px] text-ink-2">{subject.name}</span>
-            {subject.labels.slice(0, 2).map((label) => (
-              <Badge key={label} tone={labelTone(label)} className="hidden shrink-0 sm:inline-flex">{labelText(label)}</Badge>
-            ))}
+            {subject.coverageCount > 0 && (
+              <span className="hidden shrink-0 text-[11px] text-ink-3 sm:inline">{subject.coverageCount} resources</span>
+            )}
+            <span className="hidden shrink-0 gap-1 sm:inline-flex">
+              <FriendlyBadges labels={subject.labels} />
+            </span>
           </div>
           {subject.children.length > 0 && <SubjectTree subjects={subject.children} depth={depth + 1} />}
         </li>
@@ -78,33 +102,34 @@ function SubjectTree({ subjects, depth = 0 }: { subjects: StudentSubjectMap[]; d
 }
 
 function ModuleBadge({ badge }: { badge: StudentModuleMap['badges'][number] }) {
-  if (badge === 'verified') return <Badge tone="success" dot>verified marks</Badge>
-  if (badge === 'carried-forward') return <Badge tone="neutral" dot>carried forward</Badge>
-  if (badge === 'inferred') return <Badge tone="accent" dot>inferred</Badge>
-  if (badge === 'being-verified') return <Badge tone="warning" dot>being verified</Badge>
-  if (badge === 'needs-marks') return <Badge tone="warning" dot>marks unavailable</Badge>
-  return <Badge tone="warning" dot>schedule pending</Badge>
+  if (badge === 'verified') return <Badge tone="success" dot>Marks confirmed</Badge>
+  if (badge === 'carried-forward') return <Badge tone="neutral" dot>Continued from last year</Badge>
+  if (badge === 'inferred') return <Badge tone="accent" dot>Estimated</Badge>
+  if (badge === 'being-verified') return <Badge tone="warning" dot>Being confirmed</Badge>
+  if (badge === 'needs-marks') return <Badge tone="warning" dot>Marks coming soon</Badge>
+  return <Badge tone="warning" dot>Schedule coming soon</Badge>
 }
 
 function AssessmentPanel({ assessment }: { assessment: StudentAssessmentMap }) {
   const visibleComponents = assessment.components.filter((component) => component.marks !== null)
   const maxComponent = Math.max(1, ...visibleComponents.map((component) => component.marks ?? 0))
+  const status = friendlyState(assessment.status)
   return (
     <div className="rounded-lg border border-line bg-surface-2 p-3">
       <div className="mb-3 flex items-end justify-between gap-3">
         <div>
-          <p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">Assessment total</p>
-          <p className="tnum mt-1 font-serif text-[26px] font-semibold leading-none text-ink">{assessment.displayTotal}</p>
+          <p className="text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">Total marks</p>
+          <p className="tnum mt-1 font-serif text-[26px] font-semibold leading-none text-ink">{assessment.displayTotal === 'unavailable' ? 'Not published yet' : assessment.displayTotal}</p>
         </div>
         <Icon icon={Scale} size={18} className="text-ink-3" />
       </div>
       <div className="mb-3 flex flex-wrap gap-1.5">
-        <Badge tone={labelTone(assessment.status)} dot>{labelText(assessment.status)}</Badge>
+        {status && <Badge tone={status.tone} dot>{status.text}</Badge>}
         {assessment.credits !== null && <Badge tone="outline">{assessment.credits} credits</Badge>}
         {assessment.passRule && <Badge tone="outline">{assessment.passRule}</Badge>}
       </div>
       {visibleComponents.length === 0 ? (
-        <p className="text-[12.5px] leading-relaxed text-ink-3">Assessment components are unavailable, not zero.</p>
+        <p className="text-[12.5px] leading-relaxed text-ink-3">Your faculty hasn&apos;t published how this module&apos;s marks break down yet.</p>
       ) : (
         <div className="space-y-2">
           {visibleComponents.map((component) => (
@@ -133,7 +158,7 @@ function AssessmentPanel({ assessment }: { assessment: StudentAssessmentMap }) {
 
 function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; compact?: boolean }) {
   if (rows.length === 0) {
-    return <p className="text-[12.5px] leading-relaxed text-ink-3">No timetable blocks are published for this module yet.</p>
+    return <p className="text-[12.5px] leading-relaxed text-ink-3">Schedule coming soon — your faculty hasn&apos;t published this module&apos;s timetable yet.</p>
   }
   const visible = compact ? rows.slice(0, 3) : rows
   return (
@@ -144,16 +169,16 @@ function ScheduleList({ rows, compact = false }: { rows: StudentScheduleMap[]; c
             <div className="min-w-0">
               <p className="truncate text-[12.5px] font-semibold text-ink">{row.title}</p>
               <p className="mt-0.5 text-[11.5px] text-ink-3">
-                {row.start ? `${formatLongDate(row.start)} · ${formatClock(row.start)}` : row.date ?? 'date unavailable'}
+                {row.start ? `${formatLongDate(row.start)} · ${formatClock(row.start)}` : row.date ?? 'Date to be announced'}
                 {row.location ? ` · ${row.location}` : ''}
               </p>
             </div>
             <Badge tone={row.isExam ? 'warning' : 'outline'}>{row.label}</Badge>
           </div>
-          {(row.labels.length > 0 || row.linkCount > 0) && (
+          {(row.labels.some((label) => friendlyState(label)) || row.linkCount > 0) && (
             <div className="mt-2 flex flex-wrap gap-1">
-              {row.labels.map((label) => <Badge key={label} tone={labelTone(label)}>{labelText(label)}</Badge>)}
-              {row.linkCount > 0 && <Badge tone="accent"><Icon icon={Link2} size={11} /> {row.linkCount} links</Badge>}
+              <FriendlyBadges labels={row.labels} limit={row.labels.length} />
+              {row.linkCount > 0 && <Badge tone="accent"><Icon icon={Link2} size={11} /> {row.linkCount} resources linked</Badge>}
             </div>
           )}
         </li>
@@ -173,7 +198,7 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
             <div className="min-w-0">
               <h3 className="truncate font-serif text-[19px] font-semibold tracking-[-0.02em] text-ink">{module.name}</h3>
               <p className="mt-0.5 text-[12.5px] text-ink-3">
-                {module.moduleId} · {module.subjectCount} subject nodes · {module.schedule.length} timetable blocks
+                {module.moduleId} · {module.subjectCount} {module.subjectCount === 1 ? 'topic' : 'topics'} · {module.schedule.length} {module.schedule.length === 1 ? 'session' : 'sessions'}
               </p>
             </div>
           </div>
@@ -187,14 +212,14 @@ function ModuleCard({ module }: { module: StudentModuleMap }) {
             <div className="rounded-lg border border-line bg-surface-2 p-3">
               <div className="mb-2 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                 <Icon icon={Microscope} size={14} />
-                Subject tree
+                Topics covered
               </div>
               <SubjectTree subjects={module.subjects} />
             </div>
             <div className="rounded-lg border border-line bg-surface-2 p-3">
               <div className="mb-2 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                 <Icon icon={CalendarDays} size={14} />
-                Scoped schedule
+                Timetable
               </div>
               <ScheduleList rows={module.schedule} compact />
             </div>
@@ -211,6 +236,7 @@ function useLiveUniversityProjection() {
   const [projection, setProjection] = useState<StudentUniversityProjection | null>(null)
   const [loading, setLoading] = useState(API_MODE)
   const [error, setError] = useState('')
+  const [attempt, setAttempt] = useState(0)
 
   useEffect(() => {
     if (!API_MODE) return
@@ -224,15 +250,40 @@ function useLiveUniversityProjection() {
       })
       .catch((err: unknown) => {
         if (!alive) return
-        setError(err instanceof Error ? err.message : 'Unable to read your university projection.')
+        // The reason is logged for debugging, never shown to the student —
+        // a raw fetch/server error can carry endpoint names or stack detail.
+        console.error('Unable to load the student university projection.', err)
+        setError('Something went wrong loading your university page.')
       })
       .finally(() => {
         if (alive) setLoading(false)
       })
     return () => { alive = false }
-  }, [])
+  }, [attempt])
 
-  return { projection, loading, error }
+  const retry = useCallback(() => setAttempt((value) => value + 1), [])
+  return { projection, loading, error, retry }
+}
+
+/** ArrowLeft to the previous screen, falling back to the dashboard when this
+ * is the first entry in the tab's history (a fresh tab, a bookmark, a deep link). */
+function BackButton() {
+  const navigate = useNavigate()
+  const handleBack = useCallback(() => {
+    const historyIndex = (window.history.state as { idx?: number } | null)?.idx
+    if (typeof historyIndex === 'number' && historyIndex > 0) navigate(-1)
+    else navigate('/app')
+  }, [navigate])
+  return (
+    <button
+      type="button"
+      onClick={handleBack}
+      className="mb-3 inline-flex min-h-9 items-center gap-1.5 rounded-md px-2 -ms-2 text-[12.5px] font-medium text-ink-2 hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--color-primary)]"
+    >
+      <Icon icon={ArrowLeft} size={15} className="rtl:-scale-x-100" />
+      Back
+    </button>
+  )
 }
 
 function CurriculumView({
@@ -240,18 +291,22 @@ function CurriculumView({
   loading,
   error,
   demo = false,
+  onRetry,
 }: {
   map: StudentCurriculumMap | null
   loading: boolean
   error: string
   demo?: boolean
+  onRetry?: () => void
 }) {
   const totalMarks = map?.totals.marks ?? null
+  const yearLabel = map?.year?.year ?? 'your year'
   return (
     <PageContainer>
+      <BackButton />
       <PageHeader
         title="Your University"
-        description="A quiet map of your own year: terms, modules, subjects, assessments, and the timetable your faculty has published."
+        description="Your own year, laid out clearly: modules and terms, how each is marked, and the timetable your faculty has published so far."
         actions={
           <>
             <ButtonLink to="/app/library" variant="secondary" iconLeft={BookOpen}>Library</ButtonLink>
@@ -263,21 +318,28 @@ function CurriculumView({
       />
 
       {error && (
-        <Panel className="mb-4 border-danger/35 bg-danger-tint p-4 text-[13px] text-ink-2">
-          Your curriculum could not be read safely ({error}). Try again once the connection settles.
+        <Panel className="mb-4 flex flex-wrap items-center justify-between gap-3 border-danger/35 bg-danger-tint p-4 text-[13px] text-ink-2">
+          {/* The specific reason is intentionally not shown here — only ever
+              logged to the console — so nothing technical reaches the page. */}
+          <span>Something went wrong loading your university page. Please try again in a moment.</span>
+          {onRetry && (
+            <button type="button" onClick={onRetry} className="inline-flex items-center gap-1.5 rounded-md border border-line bg-surface px-2.5 py-1 text-[12.5px] font-semibold text-ink hover:bg-surface-2">
+              <Icon icon={RotateCw} size={13} /> Try again
+            </button>
+          )}
         </Panel>
       )}
 
       {loading ? (
         <Panel>
-          <EmptyState icon={GraduationCap} title="Loading your curriculum" description="We are reading only the university and year on your account." />
+          <EmptyState icon={GraduationCap} title="Loading your university page" description="Just a moment while we bring in your modules, timetable and marks." />
         </Panel>
       ) : !map || map.status === 'missing_profile' ? (
         <Panel>
           <EmptyState
             icon={MapPinned}
             title="Tell Synapse where you study"
-            description="Your university map stays empty until your account has a university and year."
+            description="Add your university and year to your account, and this page will fill in with your own modules and timetable."
             action={<ButtonLink to="/app/account" variant="primary">Open account settings</ButtonLink>}
           />
         </Panel>
@@ -285,8 +347,8 @@ function CurriculumView({
         <Panel>
           <EmptyState
             icon={TriangleAlert}
-            title="This year is being verified"
-            description="Your account is enrolled, but the live academic projection has not published that year yet."
+            title="This year is being set up"
+            description="You're enrolled, but your faculty's curriculum for this year hasn't been published yet. Check back soon."
           />
         </Panel>
       ) : (
@@ -297,13 +359,17 @@ function CurriculumView({
                 <div className="mb-3 inline-flex items-center gap-2 rounded-full border border-line bg-surface-2 px-2.5 py-1 text-[10.5px] font-semibold uppercase tracking-[0.07em] text-ink-3">
                   <Icon icon={GraduationCap} size={13} />
                   {map.university.short} · {map.year.year}
-                  {demo && <span className="ms-1 rounded-full bg-primary-tint px-2 text-primary-strong">demo</span>}
+                  {demo && <span className="ms-1 rounded-full bg-primary-tint px-2 text-primary-strong">preview data</span>}
                 </div>
                 <h2 className="text-balance font-serif text-[30px] font-semibold tracking-[-0.03em] text-ink">{map.university.name}</h2>
+                <p className="mt-1.5 flex items-center gap-1.5 text-[13px] text-ink-3">
+                  <Icon icon={Compass} size={13} />
+                  {map.university.region}
+                </p>
                 <p className="mt-2 max-w-2xl text-pretty text-[14px] leading-relaxed text-ink-2">
                   {demo
-                    ? 'Demo mode mirrors the local academic catalogue. Live deployments use the authenticated projection only.'
-                    : 'This live view is server-scoped to your own university and year. No other university or year can be requested from here.'}
+                    ? 'This is sample data so you can see how your university page will look and feel.'
+                    : `This page shows only what's yours — ${yearLabel} at ${map.university.name}, nothing from any other university or year.`}
                 </p>
               </div>
               <div className="grid grid-cols-3 border-t border-line bg-surface-2 md:border-s md:border-t-0">
@@ -316,7 +382,7 @@ function CurriculumView({
                   <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{map.totals.modules}</p>
                 </div>
                 <div className="border-s border-line p-4">
-                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Marks</p>
+                  <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Total marks</p>
                   <p className="tnum mt-2 font-serif text-[26px] font-semibold text-ink">{n(totalMarks)}</p>
                 </div>
               </div>
@@ -327,7 +393,7 @@ function CurriculumView({
             <div className="min-w-0 space-y-5">
               {map.terms.length === 0 || map.totals.modules === 0 ? (
                 <Panel>
-                  <EmptyState icon={History} title="No modules in your year yet" description="An admin can publish terms and modules from Academic Setup. Until then, Library and Qbank still work where content is available." />
+                  <EmptyState icon={History} title="No modules published for your year yet" description="Once your faculty's modules are published, they'll appear here, organised by term. Library and Qbank still work in the meantime." />
                 </Panel>
               ) : map.terms.map((term, index) => (
                 <section key={term.term} className="relative ps-7">
@@ -351,10 +417,10 @@ function CurriculumView({
 
             <aside className="space-y-4 xl:sticky xl:top-4 xl:self-start">
               <Panel className="overflow-hidden">
-                <PanelHeader title="Upcoming schedule" icon={CalendarDays} hint={`${Math.min(map.upcoming.length, 4)} next`} />
+                <PanelHeader title="Coming up" icon={CalendarDays} hint={map.upcoming.length > 0 ? `next ${Math.min(map.upcoming.length, 4)}` : undefined} />
                 {map.upcoming.length === 0 ? (
                   <div className="p-4 text-[13px] leading-relaxed text-ink-2">
-                    No future timetable blocks are published for this year. Older rows may still appear as carried-forward badges on modules.
+                    Nothing upcoming yet — your faculty hasn&apos;t published future timetable dates for this year. Past sessions may still show on a module as "from last year".
                   </div>
                 ) : (
                   <ul className="divide-y divide-line">
@@ -367,10 +433,10 @@ function CurriculumView({
                           <div className="min-w-0">
                             <p className="truncate text-[13px] font-semibold text-ink">{session.title}</p>
                             <p className="mt-0.5 text-[12px] text-ink-3">{session.moduleName}</p>
-                            <p className="mt-1 text-[12px] text-ink-2">{session.start ? `${formatLongDate(session.start)} · ${formatClock(session.start)}` : session.date ?? 'date unavailable'}</p>
-                            {session.labels.length > 0 && (
+                            <p className="mt-1 text-[12px] text-ink-2">{session.start ? `${formatLongDate(session.start)} · ${formatClock(session.start)}` : session.date ?? 'Date to be announced'}</p>
+                            {session.labels.some((label) => friendlyState(label)) && (
                               <div className="mt-2 flex flex-wrap gap-1">
-                                {session.labels.map((label) => <Badge key={label} tone={labelTone(label)}>{labelText(label)}</Badge>)}
+                                <FriendlyBadges labels={session.labels} limit={session.labels.length} />
                               </div>
                             )}
                           </div>
@@ -383,33 +449,32 @@ function CurriculumView({
 
               <Panel className="p-4">
                 <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                  <Icon icon={ShieldCheck} size={14} />
-                  Scope protection
+                  <Icon icon={GraduationCap} size={14} />
+                  Your enrolment
                 </div>
                 <p className="text-[13px] leading-relaxed text-ink-2">
-                  {demo ? 'Demo mode can browse local seed data.' : 'Live mode reads the server projection for your authenticated cohort only:'}{' '}
-                  <span className="font-semibold text-ink">{map.profile?.yearId ?? map.year.id}</span>.
+                  You&apos;re set up as a <span className="font-semibold text-ink">{map.year.year}</span> student at <span className="font-semibold text-ink">{map.university.name}</span>. Wrong university or year?
                 </p>
-                <Link to="/app/account" className="mt-3 inline-flex text-[13px] font-semibold text-primary-strong hover:text-primary">Review enrolment</Link>
+                <Link to="/app/account" className="mt-3 inline-flex text-[13px] font-semibold text-primary-strong hover:text-primary">Update in account settings</Link>
               </Panel>
 
               <Panel className="p-4">
                 <div className="mb-3 flex items-center gap-2 text-[12px] font-semibold uppercase tracking-[0.07em] text-ink-3">
-                  <Icon icon={Layers3} size={14} />
-                  Evidence summary
+                  <Icon icon={ListChecks} size={14} />
+                  This year at a glance
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div>
-                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Subjects</p>
+                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Topics</p>
                     <p className="tnum mt-1 font-serif text-[22px] font-semibold text-ink">{map.totals.subjects}</p>
                   </div>
                   <div>
-                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Schedule</p>
+                    <p className="text-[11px] uppercase tracking-[0.08em] text-ink-3">Timetable sessions</p>
                     <p className="tnum mt-1 font-serif text-[22px] font-semibold text-ink">{map.totals.scheduleRows}</p>
                   </div>
                 </div>
                 {map.totals.marksUnavailable && (
-                  <p className="mt-3 text-[12.5px] leading-relaxed text-ink-3">Some assessment totals are unavailable while source evidence is still being reconciled.</p>
+                  <p className="mt-3 text-[12.5px] leading-relaxed text-ink-3">Some modules&apos; marks haven&apos;t been published yet — check back closer to exams.</p>
                 )}
               </Panel>
             </aside>
@@ -421,10 +486,10 @@ function CurriculumView({
 }
 
 function LiveUniversity() {
-  const { projection, loading, error } = useLiveUniversityProjection()
+  const { projection, loading, error, retry } = useLiveUniversityProjection()
   const now = useMemo(() => new Date(), [])
   const map = useMemo(() => projection ? normalizeStudentUniversityProjection(projection, now) : null, [now, projection])
-  return <CurriculumView map={map} loading={loading} error={error} />
+  return <CurriculumView map={map} loading={loading} error={error} onRetry={retry} />
 }
 
 function DemoUniversity() {

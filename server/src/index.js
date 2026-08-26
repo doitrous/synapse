@@ -90,6 +90,7 @@ import { mintInvite, redeemInvite } from './friendInvites.js'
 import {
   linkAccount as linkFacebookAccount, unlinkAccount as unlinkFacebookAccount,
   deletionCallback as facebookDeletionCallback, parseSignedRequest as parseFacebookSignedRequest,
+  matchFacebookFriends,
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
@@ -1039,6 +1040,20 @@ app.post('/api/friends/facebook/link', requireAuthenticated, facebookFriendsEnab
 
 app.post('/api/friends/facebook/unlink', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
   res.json(await unlinkFacebookAccount(req.identity.id))
+}))
+
+/**
+ * The intersection itself.
+ *
+ * `fbFriendIds` is the caller's own Facebook friend list, read by the browser
+ * straight from Facebook's `/me/friends` for the account it just connected.
+ * This route never talks to Facebook — it only matches that list against
+ * `facebook_links`, same as the deletion callback never re-derives what Meta
+ * already told it.
+ */
+app.post('/api/friends/facebook/match', requireAuthenticated, facebookFriendsEnabled, wrap(async (req, res) => {
+  const fbFriendIds = Array.isArray(req.body?.fbFriendIds) ? req.body.fbFriendIds : []
+  res.json({ people: await matchFacebookFriends(req.identity.id, fbFriendIds) })
 }))
 
 /**

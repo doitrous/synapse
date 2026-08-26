@@ -1567,7 +1567,11 @@ export function QuestionBank() {
                     </button>
                   )}
                 </div>
-                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} />
+                {/* `pool` keeps the chapter tree stable across sources; `countPool`
+                    is the exact set `available` below draws from, so every
+                    number in the tree matches what starting a session would
+                    actually contain. */}
+                <TopicChooser value={scope} onChange={setScope} pool={articleQuestions} countPool={sourcePool} />
                 <p className="mt-2 text-[11.5px] text-ink-3">
                   {scope.size === 0
                     ? t('Nothing selected — questions are drawn from the whole bank.')

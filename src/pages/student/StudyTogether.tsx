@@ -370,7 +370,10 @@ export function StudyTogether() {
   const libraryTopics = useMemo(() => chooserTopics(questions, publishedTopics), [questions, publishedTopics])
   const available = questionsInScope(questions, scope, libraryTopics)
 
-  const { friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite } = useFriends()
+  const {
+    friends, incoming, outgoing, respond, remove, request, searchDirectory, mintInvite, redeemInvite,
+    linkFacebook, matchFacebook,
+  } = useFriends()
   const [inviteNotice, setInviteNotice] = useState<{ tone: 'success' | 'danger'; text: string } | null>(null)
 
   const { challenges, reload: reloadChallenges } = useMyChallenges()
@@ -665,6 +668,8 @@ export function StudyTogether() {
         onCreateInvite={mintInvite}
         onRequest={request}
         onSearchDirectory={searchDirectory}
+        onConnectFacebook={linkFacebook}
+        onMatchFacebook={matchFacebook}
       />
     </div>
   )

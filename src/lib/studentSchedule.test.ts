@@ -1,7 +1,10 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { flattenSchedule, nextExam, sessionMinutes } from './studentSchedule.ts'
-import { emptyModuleScheduleBlock, type ModuleScheduleBlock, type ModuleScheduleBlockType, type ModuleScheduleStore } from '../data/moduleSchedule.ts'
+import {
+  SCHEDULE_PUBLISH_STATE_KEY, emptyModuleScheduleBlock,
+  type ModuleScheduleBlock, type ModuleScheduleBlockType, type ModuleScheduleStore,
+} from '../data/moduleSchedule.ts'
 import type { UniYear, University } from '../data/universities.ts'
 
 /**
@@ -27,9 +30,20 @@ function block(overrides: Partial<ModuleScheduleBlock> & { date: string }): Modu
   return { ...emptyModuleScheduleBlock(overrides.date, type), ...overrides, type }
 }
 
-/** The key the admin console actually writes, as seen in production data. */
+/**
+ * The key the admin console actually writes, as seen in production data.
+ * Published by default — these tests exercise what a student sees once a
+ * schedule has gone out, not the separate default-unpublished behavior
+ * covered below.
+ */
 function byId(courseId: string, blocks: ModuleScheduleBlock[]): ModuleScheduleStore {
-  return { [`kau:KAU_Y1:${courseId}`]: blocks }
+  const key = `kau:KAU_Y1:${courseId}`
+  return { [key]: blocks, [SCHEDULE_PUBLISH_STATE_KEY]: { [key]: true } }
+}
+
+/** Marks every given module key published, for tests that build the store by hand. */
+function published(...keys: string[]): ModuleScheduleStore {
+  return { [SCHEDULE_PUBLISH_STATE_KEY]: Object.fromEntries(keys.map((key) => [key, true])) } as ModuleScheduleStore
 }
 
 test('a timetable is found under the year ID the console actually writes', () => {
@@ -45,7 +59,10 @@ test('a timetable is found under the year ID the console actually writes', () =>
 })
 
 test('a timetable published before years grew IDs is still read under the label', () => {
-  const sessions = flattenSchedule(UNI, YEAR, { [`kau:Year 1:${CVS}`]: [block({ date: '2026-09-10' })] })
+  const sessions = flattenSchedule(UNI, YEAR, {
+    [`kau:Year 1:${CVS}`]: [block({ date: '2026-09-10' })],
+    ...published(`kau:Year 1:${CVS}`),
+  })
   assert.equal(sessions.length, 1)
 })
 
@@ -54,6 +71,7 @@ test('the ID wins when a module has blocks under both forms', () => {
   const sessions = flattenSchedule(UNI, YEAR, {
     [`kau:KAU_Y1:${CVS}`]: [block({ date: '2026-09-10', title: 'Published' })],
     [`kau:Year 1:${CVS}`]: [block({ date: '2026-09-11', title: 'Stale' })],
+    ...published(`kau:KAU_Y1:${CVS}`, `kau:Year 1:${CVS}`),
   })
   assert.deepEqual(sessions.map((session) => session.title), ['Published'])
 })
@@ -65,8 +83,24 @@ test('every module in the year lands on one list, in time order', () => {
       block({ date: '2026-09-10', startTime: '14:00', title: 'First' }),
       block({ date: '2026-09-11', startTime: '11:00', title: 'Third' }),
     ],
+    ...published(`kau:KAU_Y1:${CVS}`, `kau:KAU_Y1:${YEAR.courses[1].id}`),
   })
   assert.deepEqual(sessions.map((session) => session.title), ['First', 'Second', 'Third'])
+})
+
+test('a module\'s rows stay off the timetable until an admin publishes that schedule', () => {
+  // Missing from the publish map — the state of every schedule saved before
+  // publishing existed — reads the same as a schedule an admin never sent out.
+  const sessions = flattenSchedule(UNI, YEAR, { [`kau:KAU_Y1:${CVS}`]: [block({ date: '2026-09-10', title: 'Not yet public' })] })
+  assert.deepEqual(sessions, [])
+})
+
+test('a module explicitly unpublished stays off the timetable', () => {
+  const sessions = flattenSchedule(UNI, YEAR, {
+    [`kau:KAU_Y1:${CVS}`]: [block({ date: '2026-09-10', title: 'Pulled back' })],
+    [SCHEDULE_PUBLISH_STATE_KEY]: { [`kau:KAU_Y1:${CVS}`]: false },
+  })
+  assert.deepEqual(sessions, [])
 })
 
 test('another year of the same university is not this student\'s timetable', () => {
