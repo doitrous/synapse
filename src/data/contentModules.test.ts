@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { contentModuleLabels } from './contentModules.ts'
+import { contentModuleLabels, moduleCatalogueOrder } from './contentModules.ts'
 import type { ManagedContentItem } from './contentControl.ts'
 import type { University } from './universities.ts'
 
@@ -126,4 +126,28 @@ test('content types without curriculum placement are explicitly available to the
     } as ManagedContentItem
     assert.deepEqual(contentModuleLabels(record, catalogue), [], kind)
   }
+})
+
+test('the catalogue order ranks modules by university, then year, then course, in declared order', () => {
+  const order = moduleCatalogueOrder(collisionCatalogue)
+  // KAU Year 1 comes first, so its two modules rank ahead of everything else;
+  // FND before CVS before MED matches the course order inside that year.
+  assert.equal(order.get('SHARED-1'), 0)
+  assert.equal(order.get('KAU-CVS-1'), 1)
+  assert.equal(order.get('KAU-MED-1'), 2)
+  // KAU Year 2 reuses SHARED-1 — its first appearance in Year 1 keeps the rank.
+  assert.equal(order.size, 4) // SHARED-1, KAU-CVS-1, KAU-MED-1, OMS-MED-1
+  assert.equal(order.get('OMS-MED-1'), 3)
+})
+
+test('a course with no authored module ID falls back to the same default the picker shows', () => {
+  const noIds = [{
+    id: 'KAU', short: 'KAU', name: 'King Abdulaziz University', region: 'Egypt',
+    years: [{ id: 'KAU_Y1', year: 'Year 1', courses: [
+      { name: 'Cardiovascular module', block: 'CVS' },
+      { name: 'Respiratory module', block: 'RES' },
+    ] }],
+  }] as unknown as University[]
+  const order = moduleCatalogueOrder(noIds)
+  assert.deepEqual([...order.keys()], ['CARD 01', 'RESP 02'])
 })
