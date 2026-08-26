@@ -99,7 +99,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -115,7 +115,7 @@ A loading dose is an initial dose intended to reach a target drug concentration 
 ## label
 Loading dose
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Fundamental Principles of Pharmacokinetics > Loading dose
 ## pitfalls
@@ -194,7 +194,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -210,7 +210,7 @@ A maintenance dose replaces drug eliminated since the preceding dose to maintain
 ## label
 A maintenance dose replaces drug eliminated since the preceding dose to maintain steady state
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Fundamental Principles of Pharmacokinetics > Maintenance dose
 ## pitfalls
@@ -293,7 +293,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -309,7 +309,7 @@ Apparent volume of distribution is the hypothetical volume that relates the amou
 ## label
 Apparent volume of distribution
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Distribution > Apparent volume of distribution
 ## pitfalls
@@ -389,7 +389,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -405,7 +405,7 @@ Apparent volume of distribution can exceed total body volume because it is a pro
 ## label
 Apparent volume of distribution can exceed body volume
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Distribution > Apparent volume of distribution
 ## pitfalls
@@ -482,7 +482,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -498,7 +498,7 @@ A high apparent volume of distribution usually indicates that a drug is extensiv
 ## label
 Interpretation of a high apparent volume of distribution
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Distribution > Apparent volume of distribution
 ## pitfalls
@@ -579,7 +579,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -595,7 +595,7 @@ A low apparent volume of distribution suggests that much of the measured drug re
 ## label
 Interpretation of a low apparent volume of distribution
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Distribution > Apparent volume of distribution
 ## pitfalls
@@ -675,7 +675,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -691,7 +691,7 @@ Clearance is the volume of body fluid from which drug is removed per unit time.
 ## label
 Clearance is the volume of body fluid from which drug is removed per unit time
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Excretion > Renal
 ## pitfalls
@@ -769,7 +769,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -785,7 +785,7 @@ Active tubular excretion is saturable and is a site of competition and drug inte
 ## label
 Active tubular excretion is saturable and is a site of competition and drug interaction
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Excretion > Renal
 ## pitfalls
@@ -869,7 +869,7 @@ direct
 ## universities
 kau
 ## learner_years
-1 | 2 | 3
+1
 ## concept_type
 directly_taught_pharmacology_concept
 ## primary_node_id
@@ -885,7 +885,7 @@ Biliary drug excretion can be followed by intestinal reabsorption and enterohepa
 ## label
 Biliary drug excretion can be followed by intestinal reabsorption and enterohepatic circulation
 ## modules
-+108 INT
+108 INT
 ## module_subject
 108 INT > Pharmacology > Pharmacokinetics > Excretion > The Alimentary Tract
 ## pitfalls
