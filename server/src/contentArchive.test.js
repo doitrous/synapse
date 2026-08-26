@@ -6,6 +6,7 @@ import {
   archiveConfirmation,
   contentArchiveManifest,
   contentDigest,
+  hasContentModuleAssignment,
   originalScopeFor,
 } from './contentArchive.js'
 
@@ -27,18 +28,46 @@ function article(overrides = {}) {
   }
 }
 
-test('manifest freezes every current article and question, not nearby content', () => {
-  const ledger = [question(), article(), { ...article({ id: 'r-1', kind: 'resource' }) }]
+function unassignedQuestion(overrides = {}) {
+  return question({
+    questionData: {
+      tags: {
+        module: 'cvs', moduleIds: [], moduleSubjectPaths: [], universityIds: ['KAU'], years: ['KAU_Y1'],
+        questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 },
+      },
+      answers: [],
+    },
+    ...overrides,
+  })
+}
+
+function unassignedArticle(overrides = {}) {
+  return article({
+    articleData: {
+      moduleIds: [], moduleSubjectPaths: [], universityIds: ['KAU'], yearIds: ['KAU_Y1'],
+      universityNotes: [{ universityId: 'KAU', text: 'Keep this authored note' }],
+    },
+    ...overrides,
+  })
+}
+
+test('manifest freezes only module-unassigned articles and questions', () => {
+  const ledger = [
+    question(), article(),
+    unassignedQuestion({ id: 'q-2' }), unassignedArticle({ id: 'a-2' }),
+    { ...article({ id: 'r-1', kind: 'resource' }) },
+  ]
   const manifest = contentArchiveManifest(ledger)
+  assert.equal(manifest.selection, 'unassigned-modules-v1')
   assert.deepEqual(manifest.counts, { articles: 1, questions: 1, total: 2 })
-  assert.deepEqual(manifest.targets.map(({ id }) => id), ['a-1', 'q-1'])
-  assert.equal(manifest.targets[0].fingerprint, contentDigest(article()))
+  assert.deepEqual(manifest.targets.map(({ id }) => id), ['a-2', 'q-2'])
+  assert.equal(manifest.targets[0].fingerprint, contentDigest(unassignedArticle({ id: 'a-2' })))
   assert.equal(archiveConfirmation(manifest.counts), 'ARCHIVE 1 ARTICLES AND 1 QUESTIONS')
 })
 
 test('archive detaches curriculum targeting while preserving content and provenance', () => {
   const source = { origin: 'university', universityId: 'KAU', reference: 'Paper 1' }
-  const ledger = [question({ source, editorialTags: ['Legacy', 'legacy', ''] }), article({ source, editorialTags: ['Faculty reviewed'] }), { id: 'later', kind: 'resource', status: 'Published' }]
+  const ledger = [unassignedQuestion({ source, editorialTags: ['Legacy', 'legacy', ''] }), unassignedArticle({ source, editorialTags: ['Faculty reviewed'] }), { id: 'later', kind: 'resource', status: 'Published' }]
   const manifest = contentArchiveManifest(ledger)
   const archived = applyContentArchive(ledger, manifest, {
     operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy generated catalogue', archivedAt: AT,
@@ -66,20 +95,20 @@ test('archive detaches curriculum targeting while preserving content and provena
   assert.deepEqual(a.editorialTags, ['Faculty reviewed', 'Generated - No Module'])
   assert.equal(archived[2], ledger[2])
   assert.deepEqual(originalScopeFor(manifest.targets.find((target) => target.id === 'q-1')), {
-    module: 'cvs', moduleIds: ['KAU-CVS-1'], moduleSubjectPaths: ['KAU-CVS-1 > Anatomy'], universityIds: ['KAU'], years: ['KAU_Y1'], questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 },
+    module: 'cvs', moduleIds: [], moduleSubjectPaths: [], universityIds: ['KAU'], years: ['KAU_Y1'], questionOnlyFor: ['KAU_Y1'], examWeightByYear: { KAU_Y1: 0.8 },
   })
 })
 
 test('a changed manifest target aborts without a partial transform', () => {
-  const ledger = [question(), article()]
+  const ledger = [unassignedQuestion(), unassignedArticle()]
   const manifest = contentArchiveManifest(ledger)
-  assert.throws(() => applyContentArchive([{ ...question(), title: 'Edited later' }, article()], manifest, {
+  assert.throws(() => applyContentArchive([{ ...unassignedQuestion(), title: 'Edited later' }, unassignedArticle()], manifest, {
     operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy', archivedAt: AT,
   }), /content changed after preflight/)
 })
 
 test('a completed archive is idempotent and retains its first receipt metadata', () => {
-  const ledger = [question(), article()]
+  const ledger = [unassignedQuestion(), unassignedArticle()]
   const firstManifest = contentArchiveManifest(ledger)
   const first = applyContentArchive(ledger, firstManifest, {
     operationId: 'op-1', actorId: 'admin-1', reason: 'Legacy', archivedAt: AT,
@@ -91,7 +120,7 @@ test('a completed archive is idempotent and retains its first receipt metadata',
 })
 
 test('older Archived records are cleaned only when targeting remains', () => {
-  const targeted = question({ status: 'Archived', archive: undefined })
+  const targeted = unassignedQuestion({ status: 'Archived', archive: undefined })
   const detached = question({
     id: 'q-2',
     status: 'Archived',
@@ -128,4 +157,23 @@ test('an older detached archive missing the retirement tag is repaired once', ()
   assert.deepEqual(repaired.editorialTags, ['Generated - No Module'])
   assert.equal(repaired.archive.operationId, 'old')
   assert.equal(contentArchiveManifest([repaired]).counts.total, 0)
+})
+
+test('any authored module id or path protects content from this archive', () => {
+  assert.equal(hasContentModuleAssignment(question()), true)
+  assert.equal(hasContentModuleAssignment(article()), true)
+  assert.equal(hasContentModuleAssignment(unassignedQuestion()), false)
+  assert.equal(hasContentModuleAssignment(unassignedArticle()), false)
+  assert.equal(hasContentModuleAssignment(unassignedQuestion({
+    questionData: { tags: { moduleIds: ['UNKNOWN-MODULE'], moduleSubjectPaths: [] }, answers: [] },
+  })), true)
+})
+
+test('an obsolete all-content manifest cannot be applied after the selection narrows', () => {
+  const ledger = [unassignedQuestion()]
+  const manifest = contentArchiveManifest(ledger)
+  delete manifest.selection
+  assert.throws(() => applyContentArchive(ledger, manifest, {
+    operationId: 'old-op', actorId: 'admin', reason: 'Old broad preflight', archivedAt: AT,
+  }), /obsolete selection/)
 })

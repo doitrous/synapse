@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 
 export const CONTENT_ARCHIVE_TTL_MINUTES = 20
 export const GENERATED_NO_MODULE_TAG = 'Generated - No Module'
+export const CONTENT_ARCHIVE_SELECTION = 'unassigned-modules-v1'
 
 const TARGET_KINDS = new Set(['article', 'question'])
 
@@ -18,7 +19,9 @@ function object(value) {
 }
 
 function hasValues(value) {
-  return Array.isArray(value) ? value.length > 0 : Boolean(String(value ?? '').trim())
+  return Array.isArray(value)
+    ? value.some((entry) => Boolean(String(entry ?? '').trim()))
+    : Boolean(String(value ?? '').trim())
 }
 
 /** Curriculum targeting that must be removed even from older Archived rows. */
@@ -39,6 +42,19 @@ export function hasContentArchiveScope(item) {
       || hasValues(data.moduleSubjectPaths)
       || hasValues(data.universityIds)
       || hasValues(data.yearIds)
+  }
+  return false
+}
+
+/** Whether a record has an authored module placement, known or legacy. */
+export function hasContentModuleAssignment(item) {
+  if (item?.kind === 'question') {
+    const tags = item.questionData?.tags ?? {}
+    return hasValues(tags.moduleIds) || hasValues(tags.moduleSubjectPaths)
+  }
+  if (item?.kind === 'article') {
+    const data = item.articleData ?? {}
+    return hasValues(data.moduleIds) || hasValues(data.moduleSubjectPaths)
   }
   return false
 }
@@ -90,9 +106,10 @@ export function contentArchiveManifest(ledger) {
   }
   const targets = ledger
     .filter((item) => TARGET_KINDS.has(item?.kind))
+    .filter((item) => !hasContentModuleAssignment(item))
     // A completed retirement is an idempotent no-op. Older Archived records
-    // with targeting still need one pass so "all universities/years/modules"
-    // means exactly that, regardless of which version created them.
+    // with residual audience targeting still need one pass so detached means
+    // exactly that, regardless of which version created them.
     .filter((item) => item.status !== 'Archived' || hasContentArchiveScope(item) || !hasGeneratedNoModuleTag(item))
     .map((item) => ({
       id: item.id,
@@ -113,7 +130,13 @@ export function contentArchiveManifest(ledger) {
     const source = String(target.before?.source?.type ?? target.before?.source?.origin ?? target.before?.owner ?? 'Unlabelled')
     sourceCounts[source] = (sourceCounts[source] ?? 0) + 1
   }
-  return { targets, counts: { ...counts, total: counts.articles + counts.questions }, statusCounts, sourceCounts }
+  return {
+    selection: CONTENT_ARCHIVE_SELECTION,
+    targets,
+    counts: { ...counts, total: counts.articles + counts.questions },
+    statusCounts,
+    sourceCounts,
+  }
 }
 
 function detachedQuestion(item, archive) {
@@ -167,10 +190,20 @@ export function applyContentArchive(ledger, manifest, {
   archivedAt,
 }) {
   const current = Array.isArray(ledger) ? ledger : []
+  if (manifest?.selection !== CONTENT_ARCHIVE_SELECTION) {
+    const error = new Error('archive preflight uses an obsolete selection; run it again')
+    error.code = 'invalid_manifest'
+    throw error
+  }
   const byId = new Map(current.map((item) => [item?.id, item]))
   const targets = Array.isArray(manifest?.targets) ? manifest.targets : []
 
   for (const target of targets) {
+    if (!TARGET_KINDS.has(target?.kind) || hasContentModuleAssignment(target?.before)) {
+      const error = new Error(`archive preflight contains an assigned or unsupported target: ${target?.id ?? 'unknown'}`)
+      error.code = 'invalid_manifest'
+      throw error
+    }
     const item = byId.get(target.id)
     if (!item || item.kind !== target.kind || contentDigest(item) !== target.fingerprint) {
       const error = new Error(`content changed after preflight: ${target.id}`)

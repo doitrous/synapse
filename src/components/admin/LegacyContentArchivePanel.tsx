@@ -11,6 +11,7 @@ import { Icon } from '@/components/ui/Icon'
 
 interface ArchivePreview {
   operationId: string
+  selection: 'unassigned-modules-v1'
   expiresAt: string
   ledgerVersion: number | null
   ledgerDigest: string
@@ -177,7 +178,7 @@ export function LegacyContentArchivePanel() {
   return (
     <Panel className="mb-4 overflow-hidden border-line-2">
       <PanelHeader
-        title="Legacy content retirement"
+        title="Unassigned content retirement"
         icon={Archive}
         hint="Exact snapshot · immutable audit receipt"
         action={
@@ -188,8 +189,8 @@ export function LegacyContentArchivePanel() {
       />
       <div className="space-y-4 p-4">
         <p className="max-w-3xl text-[12.5px] leading-relaxed text-ink-2">
-          Archive the questions and library articles in the exact catalogue snapshot reviewed here. Their university,
-          year, and module assignments are detached. Authored content and provenance are retained in an immutable administrator audit record.
+          Archive only questions and library articles with no module assignment in the exact snapshot reviewed here.
+          Authored content remains recoverable, receives the Generated - No Module tag, and is retained in an immutable administrator audit record.
         </p>
 
         {error && (
@@ -213,7 +214,7 @@ export function LegacyContentArchivePanel() {
                   ['Questions', preview.counts.questions],
                   ['Articles', preview.counts.articles],
                   ['Total records', preview.counts.total],
-                  ['Active group sessions', activeTotal],
+                  ['Affected group sessions', activeTotal],
                 ].map(([label, value]) => (
                   <div key={String(label)} className="rounded-lg border border-line bg-inset/35 px-3 py-2.5">
                     <p className="text-[10px] font-semibold uppercase tracking-[0.07em] text-ink-3">{label}</p>
@@ -245,14 +246,14 @@ export function LegacyContentArchivePanel() {
         {preview && preview.counts.total === 0 && !receipt && (
           <div className="flex items-start gap-2 rounded-lg border border-success/25 bg-success-tint/55 px-3 py-2.5 text-[12px] leading-relaxed text-ink-2">
             <Icon icon={CircleCheck} size={15} className="mt-0.5 shrink-0 text-success" />
-            <span><strong className="text-ink">Nothing to archive.</strong> No current question or library article needs retirement in this snapshot.</span>
+            <span><strong className="text-ink">Nothing to archive.</strong> Every current question and library article has a module assignment, or is already retired.</span>
           </div>
         )}
 
         {preview?.blocked && preview.counts.total > 0 && !receipt && (
           <div className="flex items-start gap-2 rounded-lg border border-warning/30 bg-warning-tint/65 px-3 py-2.5 text-[12px] leading-relaxed text-ink-2">
             <Icon icon={Clock3} size={15} className="mt-0.5 shrink-0 text-warning" />
-            <span><strong className="text-ink">Archive paused.</strong> Finish the active room, challenge, or party question session, then refresh the preflight.</span>
+            <span><strong className="text-ink">Archive paused.</strong> A room, challenge, or party session contains one of these unassigned questions. Finish it, then refresh the preflight.</span>
           </div>
         )}
 
@@ -265,7 +266,7 @@ export function LegacyContentArchivePanel() {
               </>
             ) : (
               <>
-                <Badge tone={preview.blocked ? 'warning' : 'success'}>{preview.blocked ? 'Live activity found' : 'No active group sessions'}</Badge>
+                <Badge tone={preview.blocked ? 'warning' : 'success'}>{preview.blocked ? 'Affected live activity found' : 'No affected group sessions'}</Badge>
                 <span>Archived questions leave every student question bank immediately and are not served to new blocks.</span>
               </>
             )}
@@ -276,7 +277,7 @@ export function LegacyContentArchivePanel() {
           <div ref={receiptRef} role="status" tabIndex={-1} className="flex flex-col gap-3 rounded-lg border border-success/25 bg-success-tint/55 p-4 outline-none focus-visible:ring-2 focus-visible:ring-primary/35 sm:flex-row sm:items-center">
             <span className="grid size-9 shrink-0 place-items-center rounded-full bg-surface text-success"><Icon icon={CircleCheck} size={18} /></span>
             <div className="min-w-0 flex-1">
-              <p className="text-[13px] font-semibold text-ink">Legacy catalogue archived</p>
+              <p className="text-[13px] font-semibold text-ink">Unassigned content archived</p>
               <p className="mt-0.5 text-[11.5px] text-ink-2">{receipt.counts.questions} questions and {receipt.counts.articles} articles · receipt {receipt.operationId}</p>
             </div>
             <Button variant="secondary" size="sm" onClick={() => window.location.reload()}>Reload archive</Button>
@@ -290,9 +291,9 @@ export function LegacyContentArchivePanel() {
             <div className="flex items-start gap-3">
               <span className="grid size-10 shrink-0 place-items-center rounded-lg bg-danger-tint text-danger"><Icon icon={Archive} size={19} /></span>
               <div>
-                <h2 className="font-serif text-[20px] font-semibold text-ink">Archive this reviewed snapshot?</h2>
+                <h2 className="font-serif text-[20px] font-semibold text-ink">Archive this unassigned snapshot?</h2>
                 <p className="mt-1 text-[12.5px] leading-relaxed text-ink-2">
-                  This retires {preview.counts.questions} questions and {preview.counts.articles} articles and removes every university, year, and module assignment. It does not delete authored content.
+                  This retires {preview.counts.questions} questions and {preview.counts.articles} articles that have no module assignment. It removes any remaining university/year audience and does not delete authored content.
                 </p>
               </div>
             </div>
@@ -311,7 +312,7 @@ export function LegacyContentArchivePanel() {
               </div>
             )}
             <Field label="Reason" htmlFor="legacy-archive-reason" hint="Stored with the immutable super-admin audit receipt.">
-              <Textarea id="legacy-archive-reason" value={reason} onChange={(event) => setReason(event.target.value)} placeholder="Why this catalogue is being retired…" />
+              <Textarea id="legacy-archive-reason" value={reason} onChange={(event) => setReason(event.target.value)} placeholder="Why this unassigned content is being retired…" />
             </Field>
             <Field label="Type the exact confirmation phrase" htmlFor="legacy-archive-confirmation">
               <p className="mb-2 select-all rounded-md border border-line bg-inset px-3 py-2 font-mono text-[11.5px] font-semibold text-ink">{preview.confirmationPhrase}</p>

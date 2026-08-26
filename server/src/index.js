@@ -93,9 +93,11 @@ import {
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
+import { affectedSessionRows } from './contentArchiveActivity.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 import {
   CONTENT_ARCHIVE_TTL_MINUTES,
+  CONTENT_ARCHIVE_SELECTION,
   activeArchiveBlockers,
   applyContentArchive,
   archiveConfirmation,
@@ -155,26 +157,17 @@ async function mediaRecords() {
   return mediaSnapshot
 }
 
-/** Student activity that a global question withdrawal could interrupt. */
-async function contentVisibilityResetActivity(db = pool) {
+/** Student activity that contains one of the questions this archive withdraws. */
+async function contentVisibilityResetActivity(db = pool, targetQuestionIds = null) {
   const [[roomRows], [challengeRows], [partyRows]] = await Promise.all([
-    db.query("SELECT COUNT(*) AS count FROM study_rooms WHERE status IN ('lobby','running')"),
-    db.query("SELECT COUNT(*) AS count FROM challenges WHERE status IN ('sent','running')"),
+    db.query("SELECT question_ids AS questionIds FROM study_rooms WHERE status IN ('lobby','running')"),
+    db.query("SELECT question_ids AS questionIds FROM challenges WHERE status IN ('sent','running')"),
     db.query("SELECT item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
   ])
-  const partyQuestionSessions = partyRows.reduce((count, row) => {
-    try {
-      const refs = typeof row.itemRefs === 'string' ? JSON.parse(row.itemRefs) : row.itemRefs
-      return count + (Array.isArray(refs) && refs.some((entry) => entry?.kind === 'question') ? 1 : 0)
-    } catch {
-      // Malformed frozen session data is conservatively counted as affected.
-      return count + 1
-    }
-  }, 0)
   return {
-    studyRooms: Number(roomRows[0]?.count ?? 0),
-    challenges: Number(challengeRows[0]?.count ?? 0),
-    partyQuestionSessions,
+    studyRooms: affectedSessionRows(roomRows, 'questionIds', targetQuestionIds),
+    challenges: affectedSessionRows(challengeRows, 'questionIds', targetQuestionIds),
+    partyQuestionSessions: affectedSessionRows(partyRows, 'itemRefs', targetQuestionIds, { party: true }),
   }
 }
 
@@ -1217,10 +1210,9 @@ app.get('/api/admin/content-visibility-reset-preflight', requireSuperAdmin, wrap
  * manual-recovery record and cannot be swapped by a browser before apply.
  */
 app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (req, res) => {
-  const [[ledgerRows], [versionRows], active] = await Promise.all([
+  const [[ledgerRows], [versionRows]] = await Promise.all([
     pool.query('SELECT v FROM app_state WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
     pool.query('SELECT MAX(id) AS version FROM app_state_versions WHERE k = ?', [CONTENT_LEDGER_STATE_KEY]),
-    contentVisibilityResetActivity(),
   ])
   const raw = ledgerRows[0]?.v ?? '[]'
   let ledger
@@ -1231,6 +1223,8 @@ app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (re
   try { manifest = contentArchiveManifest(ledger) } catch (error) {
     return res.status(409).json({ error: error?.message ?? 'content ledger cannot be archived safely' })
   }
+  const targetQuestionIds = new Set(manifest.targets.filter((target) => target.kind === 'question').map((target) => target.id))
+  const active = await contentVisibilityResetActivity(pool, targetQuestionIds)
   const operationId = `archive-${randomUUID()}`
   const confirmationPhrase = archiveConfirmation(manifest.counts)
   const expiresAt = new Date(Date.now() + CONTENT_ARCHIVE_TTL_MINUTES * 60_000)
@@ -1251,6 +1245,7 @@ app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (re
   )
   res.json({
     operationId,
+    selection: manifest.selection,
     expiresAt: expiresAt.toISOString(),
     ledgerVersion,
     ledgerDigest,
@@ -1308,10 +1303,22 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
       return res.status(400).json({ error: 'the confirmation phrase does not match this preflight' })
     }
 
-    const active = await contentVisibilityResetActivity(conn)
+    let manifest
+    try {
+      manifest = JSON.parse(operation.manifestJson)
+    } catch {
+      await conn.rollback()
+      return res.status(409).json({ error: 'the stored archive manifest is malformed' })
+    }
+    if (manifest?.selection !== CONTENT_ARCHIVE_SELECTION) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'archive preflight uses an obsolete selection; run it again' })
+    }
+    const targetQuestionIds = new Set((manifest.targets ?? []).filter((target) => target?.kind === 'question').map((target) => target.id))
+    const active = await contentVisibilityResetActivity(conn, targetQuestionIds)
     if (activeArchiveBlockers(active) > 0) {
       await conn.rollback()
-      return res.status(409).json({ error: 'active question sessions must finish first', active })
+      return res.status(409).json({ error: 'affected question sessions must finish first', active })
     }
 
     const [ledgerRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_LEDGER_STATE_KEY])
@@ -1325,13 +1332,11 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
     }
 
     let ledger
-    let manifest
     try {
       ledger = JSON.parse(raw)
-      manifest = JSON.parse(operation.manifestJson)
     } catch {
       await conn.rollback()
-      return res.status(409).json({ error: 'the stored archive manifest is malformed' })
+      return res.status(409).json({ error: 'the content ledger is malformed' })
     }
     const archivedAt = new Date()
     let archived
@@ -1344,7 +1349,7 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
       })
     } catch (error) {
       await conn.rollback()
-      if (error?.code === 'stale_manifest') return res.status(409).json({ error: error.message })
+      if (error?.code === 'stale_manifest' || error?.code === 'invalid_manifest') return res.status(409).json({ error: error.message })
       throw error
     }
 
