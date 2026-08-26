@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { CalendarDays, Check, ChevronLeft, ChevronRight, Clock, Pencil, Plus, Trash2, X, MapPin, Layers, ArrowRight } from 'lucide-react'
 import type { CalEvent } from '@/data/calendar'
+import { scheduleLinks } from '@/data/moduleSchedule'
 import { getSubject, subjects } from '@/data/subjects'
 import {
   durationMinutes, isoDay, STUDY_BLOCKS_STORAGE_KEY, type StudyBlock,
@@ -52,6 +53,7 @@ function timeOf(date: Date) {
 
 /** A published timetable block, as a calendar event. */
 function sessionEvent(session: ScheduledSession): CalEvent {
+  const links = scheduleLinks(session)
   return {
     id: session.id,
     title: session.title || session.label,
@@ -59,7 +61,8 @@ function sessionEvent(session: ScheduledSession): CalEvent {
     time: timeOf(session.start),
     endTime: session.end ? timeOf(session.end) : undefined,
     layer: 'curriculum',
-    subjectId: session.topicIds[0] ?? '',
+    subjectId: links.subjectId ?? '',
+    moduleId: session.moduleNumber || session.courseName,
     kind: session.label,
     location: session.location,
     isExam: session.isExam,

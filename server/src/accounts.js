@@ -26,6 +26,14 @@ import { normaliseEmail, normalisePhone } from './identity.js'
 const SUPABASE_URL = process.env.SUPABASE_URL?.replace(/\/$/, '')
 const SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY
 
+function derivedYearId(universityId, year) {
+  const uni = String(universityId ?? '').replace(/[^A-Za-z0-9]/g, '').toUpperCase()
+  const label = String(year ?? '').trim()
+  const number = label.match(/\d+/)?.[0] ?? ''
+  if (!uni || !number) return null
+  return /internship/i.test(label) ? `${uni}_INT${number}` : `${uni}_Y${number}`
+}
+
 /** Reasons are required on every action, so an audit row is never bare. */
 export function readReason(body) {
   const reason = String(body?.reason ?? '').trim()
@@ -82,7 +90,7 @@ export function addDays(from, days) {
 const USER_COLUMNS = `
   COALESCE(s.id, a.user_id) AS id,
   s.name, COALESCE(s.email, a.email) AS email,
-  s.university_id AS universityId, s.year, s.study_group AS studyGroup, s.plan, s.status,
+  s.university_id AS universityId, s.year, s.year_id AS yearId, s.study_group AS studyGroup, s.plan, s.status,
   s.username, s.username_normalized AS usernameNormalized, s.profile_icon AS profileIcon,
   s.discoverable, s.social_provider AS socialProvider, s.social_subject AS socialSubject,
   s.joined, s.last_active AS lastActive, s.questions_answered AS questionsAnswered,
@@ -135,6 +143,7 @@ function shape(row) {
     email: row.email,
     universityId: row.universityId,
     year: row.year,
+    yearId: row.yearId,
     group: row.studyGroup,
     status: row.status,
     username: row.username,
@@ -757,6 +766,7 @@ export async function saveOwnEnrolment(userId, input) {
   const universityId = trimmed(input?.universityId, 64)
   const year = trimmed(input?.year, 32)
   if (!universityId || !year) return { error: 'university_and_year_required' }
+  const yearId = trimmed(input?.yearId, 64) ?? derivedYearId(universityId, year)
   const group = trimmed(input?.group, 120)
   const name = trimmed(input?.name, 255)
   const nationality = trimmed(input?.nationality, 64)
@@ -793,7 +803,7 @@ export async function saveOwnEnrolment(userId, input) {
      * deliberately, by an administrator, and is never overwritten from here.
      */
     const [[stored]] = await conn.query(
-      'SELECT name, email, university_id AS universityId, year, username_normalized AS usernameNormalized FROM students WHERE id = ?',
+      'SELECT name, email, university_id AS universityId, year, year_id AS yearId, username_normalized AS usernameNormalized FROM students WHERE id = ?',
       [student.id],
     )
     const lockedUniversity = Boolean(stored?.universityId)
@@ -816,6 +826,7 @@ export async function saveOwnEnrolment(userId, input) {
       `UPDATE students
           SET university_id = ?,
               year = ?,
+              year_id = COALESCE(year_id, ?),
               study_group = ?,
               name = ?,
               nationality = COALESCE(nationality, ?),
@@ -827,7 +838,7 @@ export async function saveOwnEnrolment(userId, input) {
               status = COALESCE(status, 'Active'),
               joined = COALESCE(joined, CURDATE())
         WHERE id = ?`,
-      [universityId, year, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, student.id],
+      [universityId, year, yearId, group, finalName, nationality, storedPhone, username, usernameNormalized, profileIcon, student.id],
     )
 
     // The trial is granted once, by the server, so it starts when the account

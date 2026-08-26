@@ -14,6 +14,14 @@ function cleanText(value, max) {
   return text ? text.slice(0, max) : null
 }
 
+function derivedYearId(universityId, year) {
+  const uni = String(universityId ?? '').replace(/[^A-Za-z0-9]/g, '').toUpperCase()
+  const label = String(year ?? '').trim()
+  const number = label.match(/\d+/)?.[0] ?? ''
+  if (!uni || !number) return null
+  return /internship/i.test(label) ? `${uni}_INT${number}` : `${uni}_Y${number}`
+}
+
 export function requestProblem(input) {
   const field = cleanField(input?.field)
   const requestedValue = cleanText(input?.requestedValue ?? input?.targetValue, 128)
@@ -141,7 +149,8 @@ export async function decideEnrollmentChangeRequest(id, { approve, note, actorId
   try {
     await conn.beginTransaction()
     const [rows] = await conn.query(
-      `SELECT r.*, s.username_normalized AS usernameNormalized, s.university_id AS liveUniversityId
+      `SELECT r.*, s.username_normalized AS usernameNormalized, s.university_id AS liveUniversityId,
+              s.year AS liveYear
          FROM enrollment_change_requests r
          JOIN students s ON s.id = r.student_id
         WHERE r.id = ? FOR UPDATE`,
@@ -159,8 +168,17 @@ export async function decideEnrollmentChangeRequest(id, { approve, note, actorId
         })
         if (taken) { await conn.rollback(); return { error: 'username_conflict' } }
       }
-      const column = request.field === 'university' ? 'university_id' : 'year'
-      await conn.query(`UPDATE students SET ${column} = ? WHERE id = ?`, [request.requested_value, request.student_id])
+      if (request.field === 'university') {
+        await conn.query(
+          'UPDATE students SET university_id = ?, year_id = ? WHERE id = ?',
+          [request.requested_value, derivedYearId(request.requested_value, request.liveYear), request.student_id],
+        )
+      } else {
+        await conn.query(
+          'UPDATE students SET year = ?, year_id = ? WHERE id = ?',
+          [request.requested_value, derivedYearId(request.liveUniversityId, request.requested_value), request.student_id],
+        )
+      }
     }
     await conn.query(
       `UPDATE enrollment_change_requests

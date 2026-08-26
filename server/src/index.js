@@ -105,6 +105,12 @@ import {
   contentArchiveManifest,
   contentDigest,
 } from './contentArchive.js'
+import {
+  ACADEMIC_STATE_KEYS,
+  academicPreview,
+  parseAcademicDocuments,
+  studentUniversityProjection,
+} from './academic.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LAUNCH_DATA_PATH = join(__dirname, '..', 'data', 'medical-library-v1.json')
@@ -344,6 +350,7 @@ app.get('/api/me', requireAuthenticated, wrap(async (req, res) => {
           email: user.email,
           universityId: user.universityId,
           year: user.year,
+          yearId: user.yearId,
           group: user.group,
           status: user.status,
           username: user.username,
@@ -386,6 +393,21 @@ app.post('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async 
 
 app.get('/api/me/enrollment-change-requests', requireAuthenticated, wrap(async (req, res) => {
   res.json({ requests: await myEnrollmentChangeRequests(req.identity.id) })
+}))
+
+app.get('/api/me/university', requireAuthenticated, wrap(async (req, res) => {
+  const [profileRows] = await pool.query(
+    `SELECT id, university_id AS universityId, year, year_id AS yearId, study_group AS studyGroup
+       FROM students WHERE user_id = ? LIMIT 1`,
+    [req.identity.id],
+  )
+  const [stateRows] = await pool.query(
+    `SELECT k, v FROM app_state WHERE k IN (${ACADEMIC_STATE_KEYS.map(() => '?').join(',')})`,
+    ACADEMIC_STATE_KEYS,
+  )
+  const rawDocuments = Object.fromEntries(stateRows.map((row) => [row.k, row.v]))
+  const projection = studentUniversityProjection(profileRows[0] ?? null, parseAcademicDocuments(rawDocuments))
+  res.json(projection)
 }))
 
 /**
@@ -1401,6 +1423,136 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
     conn.release()
   }
 })))
+
+function cleanAcademicDocuments(input) {
+  const documents = input && typeof input === 'object' ? input : {}
+  const out = {}
+  for (const key of ACADEMIC_STATE_KEYS) {
+    if (Object.hasOwn(documents, key)) out[key] = documents[key]
+  }
+  return out
+}
+
+async function readAcademicState(conn, lock = false) {
+  const [rows] = await conn.query(
+    `SELECT s.k, s.v, (SELECT MAX(id) FROM app_state_versions WHERE k = s.k) AS version
+       FROM app_state s
+      WHERE s.k IN (${ACADEMIC_STATE_KEYS.map(() => '?').join(',')})
+      ${lock ? 'FOR UPDATE' : ''}`,
+    ACADEMIC_STATE_KEYS,
+  )
+  const found = new Map(rows.map((row) => [row.k, row]))
+  const documents = {}
+  const versions = {}
+  for (const key of ACADEMIC_STATE_KEYS) {
+    const row = found.get(key)
+    documents[key] = row ? JSON.parse(row.v) : null
+    versions[key] = row?.version ?? null
+  }
+  return { documents, versions }
+}
+
+function academicVersionMismatch(expectedVersions, versions) {
+  if (!expectedVersions || typeof expectedVersions !== 'object') return [{ key: '*', expected: undefined, actual: null }]
+  const mismatches = []
+  for (const key of ACADEMIC_STATE_KEYS) {
+    if (!Object.hasOwn(expectedVersions, key)) {
+      mismatches.push({ key, expected: undefined, actual: versions[key] ?? null })
+      continue
+    }
+    const expected = expectedVersions[key] ?? null
+    const actual = versions[key] ?? null
+    if (String(expected) !== String(actual)) mismatches.push({ key, expected, actual })
+  }
+  return mismatches
+}
+
+app.post('/api/admin/academic/preview', requireTab('academic', 'marks'), wrap(async (req, res) => {
+  const incoming = cleanAcademicDocuments(req.body?.documents)
+  if (!Object.keys(incoming).length) return res.status(400).json({ error: 'documents are required' })
+  const conn = await pool.getConnection()
+  try {
+    const { documents, versions } = await readAcademicState(conn)
+    const next = { ...documents, ...incoming }
+    res.json({ ...academicPreview(documents, next), versions })
+  } finally {
+    conn.release()
+  }
+}))
+
+app.post('/api/admin/academic/publish', requireSuperAdmin, wrap(async (req, res) => {
+  const idempotencyKey = String(req.body?.idempotencyKey ?? '').trim().slice(0, 128)
+  if (!idempotencyKey) return res.status(400).json({ error: 'idempotencyKey is required' })
+  const incoming = cleanAcademicDocuments(req.body?.documents)
+  if (!Object.keys(incoming).length) return res.status(400).json({ error: 'documents are required' })
+
+  const conn = await pool.getConnection()
+  try {
+    await conn.beginTransaction()
+    try {
+      await conn.query(
+        'INSERT INTO academic_publish_requests (idempotency_key, actor_id, response_json) VALUES (?, ?, ?)',
+        [idempotencyKey, req.identity.id, '{}'],
+      )
+    } catch {
+      const [previous] = await conn.query(
+        'SELECT actor_id AS actorId, response_json AS responseJson FROM academic_publish_requests WHERE idempotency_key = ?',
+        [idempotencyKey],
+      )
+      await conn.rollback()
+      if (!previous.length) return res.status(409).json({ error: 'idempotency_conflict' })
+      if (previous[0].actorId !== req.identity.id) return res.status(409).json({ error: 'idempotency_key_used' })
+      return res.json(JSON.parse(previous[0].responseJson))
+    }
+
+    const { documents, versions } = await readAcademicState(conn, true)
+    const mismatches = academicVersionMismatch(req.body?.expectedVersions, versions)
+    if (mismatches.length) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'stale', mismatches })
+    }
+
+    const next = { ...documents, ...incoming }
+    const preview = academicPreview(documents, next)
+    if (!preview.ok) {
+      await conn.rollback()
+      return res.status(400).json({ error: 'academic_batch_refused', preview })
+    }
+
+    const changedVersions = {}
+    for (const key of preview.changedKeys) {
+      const value = JSON.stringify(next[key] ?? null)
+      const [inserted] = await conn.query(
+        'INSERT INTO app_state_versions (k, v, actor_id) VALUES (?, ?, ?)',
+        [key, value, req.identity.id],
+      )
+      changedVersions[key] = inserted.insertId
+      await conn.query(
+        'INSERT INTO app_state (k, v) VALUES (?, ?) ON DUPLICATE KEY UPDATE v = VALUES(v)',
+        [key, value],
+      )
+    }
+
+    const response = {
+      ok: true,
+      changedKeys: preview.changedKeys,
+      versions: { ...versions, ...changedVersions },
+      fingerprints: preview.fingerprints,
+    }
+    await conn.query(
+      'UPDATE academic_publish_requests SET response_json = ? WHERE idempotency_key = ?',
+      [JSON.stringify(response), idempotencyKey],
+    )
+    await conn.commit()
+    for (const key of preview.changedKeys) invalidateSnapshots(key)
+    res.json(response)
+  } catch (error) {
+    await conn.rollback()
+    throw error
+  } finally {
+    conn.release()
+  }
+}))
 
 app.get('/api/state/:key', wrap(async (req, res) => {
   // Console access, not the single role 'admin': an editor or a reviewer
@@ -2598,7 +2750,7 @@ app.get('/api/backups/:id/download', requireTab('audit'), wrap(async (req, res) 
 
 /* ── Students ────────────────────────────────────────────────────────────── */
 
-const STUDENT_COLS = 'id, name, email, university_id AS universityId, year, plan, status, joined, last_active AS lastActive, questions_answered AS questionsAnswered, accuracy, readiness'
+const STUDENT_COLS = 'id, name, email, university_id AS universityId, year, year_id AS yearId, plan, status, joined, last_active AS lastActive, questions_answered AS questionsAnswered, accuracy, readiness'
 
 app.get('/api/students', wrap(async (_req, res) => {
   const [rows] = await pool.query(`SELECT ${STUDENT_COLS} FROM students ORDER BY name`)
@@ -2609,15 +2761,15 @@ app.post('/api/students', wrap(async (req, res) => {
   const s = req.body || {}
   const id = s.id || `stu-${randomUUID().slice(0, 8)}`
   await pool.query(
-    `INSERT INTO students (id, name, email, university_id, year, plan, status, joined, last_active, questions_answered, accuracy, readiness)
-     VALUES (?,?,?,?,?,?,?,?,?,?,?,?)`,
-    [id, s.name, s.email, s.universityId, s.year, s.plan, s.status, s.joined || null, s.lastActive || null, s.questionsAnswered || 0, s.accuracy || 0, s.readiness || 0],
+    `INSERT INTO students (id, name, email, university_id, year, year_id, plan, status, joined, last_active, questions_answered, accuracy, readiness)
+     VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+    [id, s.name, s.email, s.universityId, s.year, s.yearId || null, s.plan, s.status, s.joined || null, s.lastActive || null, s.questionsAnswered || 0, s.accuracy || 0, s.readiness || 0],
   )
   res.json({ id })
 }))
 
 app.patch('/api/students/:id', wrap(async (req, res) => {
-  const allowed = { name: 'name', email: 'email', universityId: 'university_id', year: 'year', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
+  const allowed = { name: 'name', email: 'email', universityId: 'university_id', year: 'year', yearId: 'year_id', plan: 'plan', status: 'status', lastActive: 'last_active', questionsAnswered: 'questions_answered', accuracy: 'accuracy', readiness: 'readiness' }
   const sets = [], vals = []
   for (const [k, col] of Object.entries(allowed)) if (k in (req.body || {})) { sets.push(`${col} = ?`); vals.push(req.body[k]) }
   if (sets.length) { vals.push(req.params.id); await pool.query(`UPDATE students SET ${sets.join(', ')} WHERE id = ?`, vals) }

@@ -116,6 +116,7 @@ CREATE TABLE IF NOT EXISTS students (
   nationality        VARCHAR(64),
   university_id      VARCHAR(64),
   year               VARCHAR(32),
+  year_id            VARCHAR(64),
   plan               VARCHAR(64),
   status             VARCHAR(32),
   joined             DATE,
@@ -230,7 +231,17 @@ CREATE TABLE IF NOT EXISTS medical_library_source_availability (
 
 ALTER TABLE students ADD COLUMN IF NOT EXISTS user_id VARCHAR(64) NULL;
 ALTER TABLE students ADD COLUMN IF NOT EXISTS notes TEXT NULL;
+ALTER TABLE students ADD COLUMN IF NOT EXISTS year_id VARCHAR(64) NULL;
 ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_user (user_id);
+ALTER TABLE students ADD INDEX IF NOT EXISTS idx_students_university_year_id (university_id, year_id);
+
+CREATE TABLE IF NOT EXISTS academic_publish_requests (
+  idempotency_key VARCHAR(128) PRIMARY KEY,
+  actor_id        VARCHAR(64) NOT NULL,
+  response_json   LONGTEXT NOT NULL,
+  created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  INDEX idx_academic_publish_actor (actor_id, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 /* Student-owned public identity. Authentication still comes from Supabase, but
    classmates and leaderboards need a stable handle that is not an email. The

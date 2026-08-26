@@ -18,6 +18,7 @@ import {
   Layers,
   Gamepad2,
   Building2,
+  GraduationCap,
 } from 'lucide-react'
 import { ADMIN_TAB_VIEWS, type AdminTabGroup } from '@/data/adminTabs'
 
@@ -39,6 +40,7 @@ export const studentNav: NavGroup[] = [
   {
     items: [
       { label: 'Dashboard', to: '/app', icon: LayoutDashboard, end: true },
+      { label: 'University', to: '/app/university', icon: GraduationCap },
       { label: 'Calendar', to: '/app/calendar', icon: CalendarDays },
     ],
   },

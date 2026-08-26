@@ -2,6 +2,7 @@ import { readFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
 import mysql from 'mysql2/promise'
+import { findCatalogueYear, parseCatalogue, UNIVERSITY_KEY } from './academic.js'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
@@ -78,6 +79,7 @@ export async function migrate() {
     for (const [column, definition] of [
       ['phone', 'VARCHAR(32) NULL AFTER email'],
       ['nationality', 'VARCHAR(64) NULL AFTER phone'],
+      ['year_id', 'VARCHAR(64) NULL AFTER year'],
     ]) {
       const [found] = await conn.query(
         `SELECT 1 FROM information_schema.columns
@@ -111,6 +113,50 @@ export async function migrate() {
     )
     if (!phoneIndex.length) {
       await conn.query('CREATE UNIQUE INDEX students_phone_unique ON students (phone)')
+    }
+
+    const [yearIdIndex] = await conn.query(
+      `SELECT 1 FROM information_schema.statistics
+        WHERE table_schema = DATABASE() AND table_name = 'students' AND index_name = 'idx_students_university_year_id'`,
+    )
+    if (!yearIdIndex.length) {
+      await conn.query('CREATE INDEX idx_students_university_year_id ON students (university_id, year_id)')
+    }
+
+    await conn.query(
+      `CREATE TABLE IF NOT EXISTS academic_publish_requests (
+        idempotency_key VARCHAR(128) PRIMARY KEY,
+        actor_id        VARCHAR(64) NOT NULL,
+        response_json   LONGTEXT NOT NULL,
+        created_at      TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        INDEX idx_academic_publish_actor (actor_id, created_at)
+      ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4`,
+    )
+
+    const backfillYearIds = '2026-08-26-backfill-student-year-ids'
+    const [yearBackfillApplied] = await conn.query('SELECT id FROM schema_migrations WHERE id = ?', [backfillYearIds])
+    if (!yearBackfillApplied.length) {
+      await conn.beginTransaction()
+      try {
+        const [catalogueRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [UNIVERSITY_KEY])
+        const catalogue = parseCatalogue(catalogueRows[0]?.v)
+        const [students] = await conn.query(
+          `SELECT id, university_id AS universityId, year
+             FROM students
+            WHERE year_id IS NULL AND university_id IS NOT NULL AND year IS NOT NULL
+            FOR UPDATE`,
+        )
+        for (const student of students) {
+          const year = findCatalogueYear(catalogue, student.universityId, student.year)
+          if (!year?.id) continue
+          await conn.query('UPDATE students SET year_id = ? WHERE id = ? AND year_id IS NULL', [year.id, student.id])
+        }
+        await conn.query('INSERT INTO schema_migrations (id) VALUES (?)', [backfillYearIds])
+        await conn.commit()
+      } catch (error) {
+        await conn.rollback()
+        throw error
+      }
     }
 
     // The owner authorised a clean academic slate before any real university

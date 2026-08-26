@@ -24,10 +24,10 @@ export const ADMIN_TABS = [
   { id: 'glossary', to: '/admin/glossary', group: 'Content',
     stateKeys: ['synapse-medical-glossary-v1'], apiPrefixes: [] },
   { id: 'academic', to: '/admin/academic', group: 'Content',
-    stateKeys: ['synapse-academic-universities-v1', 'synapse-course-curricula-v1', 'synapse-module-schedules-v1'],
+    stateKeys: ['synapse-academic-universities-v1', 'synapse-course-curricula-v1', 'synapse-module-schedules-v1', 'synapse-module-subjects-v1', 'synapse-assessment-schemes-v1', 'synapse-academic-source-provenance-v1'],
     apiPrefixes: [] },
   { id: 'marks', to: '/admin/academic/marks', group: 'Content',
-    stateKeys: ['synapse-module-subjects-v1'], apiPrefixes: [] },
+    stateKeys: ['synapse-module-subjects-v1', 'synapse-assessment-schemes-v1'], apiPrefixes: [] },
   { id: 'library', to: '/admin/library', group: 'Content',
     stateKeys: [
       'synapse-admin-content-ledger-v4',

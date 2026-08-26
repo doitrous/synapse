@@ -71,6 +71,15 @@ describe('Subjects inside a module', () => {
     assert.equal(tree[0].name, 'Anatomy')
   })
 
+  test('decimal marks survive academic outline parsing', () => {
+    const out = parseAcademicOutline(`# Year 1
+- Decimal Module [101 ISK]
+  - Physiology (written EOM 12.5, practical EOY 26.5)`, { universityShort: 'KAU', knownModuleIds: KASR })
+    const tree = out.subjects[moduleKey('kau', out.years[0].id, out.years[0].courses[0].id)]
+    assert.equal(tree[0].marks.writtenEndOfModule, 12.5)
+    assert.equal(tree[0].marks.practicalEndOfYear, 26.5)
+  })
+
   test('marks on a nested subject are refused, not silently dropped', () => {
     const out = parseAcademicOutline(`# Year 1
 - Module [101 ISK]

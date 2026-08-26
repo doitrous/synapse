@@ -87,6 +87,7 @@ const Practical = lazyNamed(() => import('@/pages/student/Practical'), 'Practica
 const Flashcards = lazyNamed(() => import('@/pages/student/Flashcards'), 'Flashcards')
 const EssayQuestions = lazyNamed(() => import('@/pages/student/EssayQuestions'), 'EssayQuestions')
 const CalendarPage = lazyNamed(() => import('@/pages/student/Calendar'), 'CalendarPage')
+const UniversityPage = lazyNamed(() => import('@/pages/student/University'), 'University')
 const Performance = lazyNamed(() => import('@/pages/student/Performance'), 'Performance')
 const Maristanas = lazyNamed(() => import('@/pages/student/Maristanas'), 'Maristanas')
 const Whiteboard = lazyNamed(() => import('@/pages/student/Whiteboard'), 'Whiteboard')
@@ -127,6 +128,7 @@ const RelationsImportPage = lazyNamed(() => import('@/pages/admin/RelationsImpor
 const MediaRequests = lazyNamed(() => import('@/pages/admin/MediaRequests'), 'MediaRequests')
 const EvidenceImportPage = lazyNamed(() => import('@/pages/admin/EvidenceImportPage'), 'EvidenceImportPage')
 const AcademicImportPage = lazyNamed(() => import('@/pages/admin/AcademicImportPage'), 'AcademicImportPage')
+const AcademicIntakePage = lazyNamed(() => import('@/pages/admin/AcademicIntakePage'), 'AcademicIntakePage')
 const MarksWeights = lazyNamed(() => import('@/pages/admin/MarksWeights'), 'MarksWeights')
 const SubjectsImportPage = lazyNamed(() => import('@/pages/admin/SubjectsImportPage'), 'SubjectsImportPage')
 const MailBox = lazyNamed(() => import('@/pages/admin/MailBox'), 'MailBox')
@@ -150,6 +152,7 @@ const studentPages: Record<string, Preloadable> = {
   flashcards: Flashcards,
   essays: EssayQuestions,
   calendar: CalendarPage,
+  university: UniversityPage,
   performance: Performance,
   maristanas: Maristanas,
   whiteboard: Whiteboard,
@@ -278,6 +281,7 @@ const adminApp = {
     guarded('concepts/import', render(ConceptsImportPage)),
     guarded('relationships/import', render(RelationsImportPage)),
     guarded('academic/import', render(AcademicImportPage)),
+    guarded('academic/intake', render(AcademicIntakePage)),
     guarded('academic/marks', render(MarksWeights)),
     guarded('taxonomy/import', render(SubjectsImportPage)),
     guarded('glossary/import', render(GlossaryImportPage)),

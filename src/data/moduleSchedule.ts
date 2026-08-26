@@ -1,5 +1,6 @@
 import { DEFAULT_REMINDER_POLICY } from './examProgramme.ts'
 import type { ExamKind, ExamMarkSplit, ExamReminderPolicy } from './examProgramme.ts'
+import type { AcademicProvenance, AcademicSourceRef } from './academicSource.ts'
 
 export type ModuleScheduleBlockType =
   | 'lecture'
@@ -20,6 +21,23 @@ export interface ModuleScheduleBlock {
   endTime: string
   location: string
   moduleNumber: string
+  subjectId?: string
+  topicNodeIds?: string[]
+  conceptIds?: string[]
+  articleIds?: string[]
+  resourceIds?: string[]
+  assessmentComponentIds?: string[]
+  linkState?: 'verified' | 'inferred' | 'ambiguous' | 'conflicted'
+  linkNotes?: string
+  provenance?: AcademicProvenance
+  carryForward?: {
+    sourceDate: string
+    sourceCycle: string
+    carriedForwardFrom: string
+    targetCycle: string
+    sourceRefs?: AcademicSourceRef[]
+  }
+  /** Legacy alias retained for schedules saved before typed content links. */
   topicIds: string[]
   notes: string
   automaticQuestions: boolean
@@ -56,6 +74,15 @@ export interface ModuleScheduleBlock {
 }
 
 export type ModuleScheduleStore = Record<string, ModuleScheduleBlock[]>
+
+export interface ModuleScheduleLinks {
+  subjectId?: string
+  topicNodeIds: string[]
+  conceptIds: string[]
+  articleIds: string[]
+  resourceIds: string[]
+  assessmentComponentIds: string[]
+}
 
 export const MODULE_BLOCK_LABEL: Record<ModuleScheduleBlockType, string> = {
   lecture: 'Lecture',
@@ -115,5 +142,37 @@ export function emptyModuleScheduleBlock(
         manualArticleIds: [],
       }
       : {}),
+  }
+}
+
+function cleanIds(values: readonly string[] | undefined): string[] {
+  return [...new Set((values ?? []).map((value) => value.trim()).filter(Boolean))]
+}
+
+export function scheduleLinks(block: Pick<ModuleScheduleBlock,
+  'subjectId' | 'topicIds' | 'topicNodeIds' | 'conceptIds' | 'articleIds' | 'resourceIds' | 'assessmentComponentIds'
+>): ModuleScheduleLinks {
+  const legacy = cleanIds(block.topicIds)
+  return {
+    subjectId: block.subjectId,
+    topicNodeIds: cleanIds([...(block.topicNodeIds ?? []), ...legacy.filter((id) => !/^ART-/i.test(id) && !/^CON-/i.test(id))]),
+    conceptIds: cleanIds([...(block.conceptIds ?? []), ...legacy.filter((id) => /^CON-/i.test(id))]),
+    articleIds: cleanIds([...(block.articleIds ?? []), ...legacy.filter((id) => /^ART-/i.test(id))]),
+    resourceIds: cleanIds(block.resourceIds),
+    assessmentComponentIds: cleanIds(block.assessmentComponentIds),
+  }
+}
+
+export function withScheduleLinks(block: ModuleScheduleBlock, links: Partial<ModuleScheduleLinks>): ModuleScheduleBlock {
+  const topicNodeIds = cleanIds(links.topicNodeIds ?? block.topicNodeIds)
+  return {
+    ...block,
+    subjectId: links.subjectId ?? block.subjectId,
+    topicNodeIds,
+    conceptIds: cleanIds(links.conceptIds ?? block.conceptIds),
+    articleIds: cleanIds(links.articleIds ?? block.articleIds),
+    resourceIds: cleanIds(links.resourceIds ?? block.resourceIds),
+    assessmentComponentIds: cleanIds(links.assessmentComponentIds ?? block.assessmentComponentIds),
+    topicIds: topicNodeIds,
   }
 }

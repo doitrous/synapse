@@ -56,7 +56,7 @@ export interface AcademicParseResult {
 
 /** `(written EOM 20, written EOY 30, practical EOM 10, practical EOY 15)` */
 const MARKS_RX = /\(([^)]*)\)\s*$/
-const MARK_PART_RX = /(written|practical)\s*(eom|eoy|end of module|end of year)\s*(\d+)/gi
+const MARK_PART_RX = /(written|practical)\s*(eom|eoy|end of module|end of year)\s*(\d+(?:\.\d+)?)/gi
 
 function parseMarks(text: string): { marks: ExamMarks; found: boolean } {
   const marks = emptyExamMarks()

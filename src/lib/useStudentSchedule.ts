@@ -15,8 +15,8 @@ export function useStudentSchedule(): { sessions: ScheduledSession[]; hasYear: b
 
   return useMemo(() => {
     const university = catalogue.find((item) => item.id === audience.universityId)
-    const year = university?.years.find((item) => item.year === audience.year)
+    const year = university?.years.find((item) => item.id === audience.yearId || item.year === audience.year)
     if (!university || !year) return { sessions: [], hasYear: false }
     return { sessions: flattenSchedule(university, year, schedules), hasYear: true }
-  }, [audience.universityId, audience.year, catalogue, schedules])
+  }, [audience.universityId, audience.year, audience.yearId, catalogue, schedules])
 }

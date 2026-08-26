@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
-import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload, Scale } from 'lucide-react'
+import { CalendarDays, Plus, X, Trash2, MapPin, Building2, SlidersHorizontal, Pencil, Check, Upload, Scale, ShieldCheck } from 'lucide-react'
 import type { CurriculumCourse, University } from '@/data/universities'
 import { newUniversityYears, defaultModuleId, universityYearId } from '@/data/universities'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
@@ -332,6 +332,7 @@ export function AcademicSetup() {
         description="Manage universities, years, terms, modules, curricula, marks, and teaching schedules — each year carries a unique year_ID and each module a unique module_ID."
         actions={
           <>
+            <ButtonLink to="/admin/academic/intake" variant="secondary" size="md" iconLeft={ShieldCheck}>Intake workbench</ButtonLink>
             <ButtonLink to="/admin/academic/marks" variant="secondary" size="md" iconLeft={Scale}>Marks & weights</ButtonLink>
             <ButtonLink to="/admin/academic/import" variant="secondary" size="md" iconLeft={Upload}>Bulk import</ButtonLink>
             <Button variant="primary" size="md" iconLeft={Plus} onClick={() => setAddingUni((v) => !v)}>

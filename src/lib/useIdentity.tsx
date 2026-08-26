@@ -46,6 +46,7 @@ export interface IdentityProfile {
   email: string | null
   universityId: string | null
   year: string | null
+  yearId?: string | null
   group: string | null
   status: string | null
 }
@@ -123,6 +124,7 @@ export interface Identity {
 export interface EnrolmentInput {
   universityId: string
   year: string
+  yearId?: string
   group?: string
   /** Carried from sign-up metadata on the first enrolment; ignored afterwards. */
   name?: string
@@ -132,7 +134,7 @@ export interface EnrolmentInput {
 }
 
 const EMPTY_PROFILE: IdentityProfile = {
-  studentId: null, name: null, email: null, universityId: null, year: null, group: null, status: null,
+  studentId: null, name: null, email: null, universityId: null, year: null, yearId: null, group: null, status: null,
 }
 
 const EMPTY_AUDIENCE: StudentAudience = { universityId: '', year: '', yearId: '', group: '' }
@@ -378,7 +380,7 @@ export function IdentityProvider({ children }: { children: ReactNode }) {
         year,
         // An empty university or year must not produce a plausible-looking id;
         // a filter comparing against "_Y3" would match the wrong content.
-        yearId: universityId && year ? deriveYearId(universityId, year) : '',
+        yearId: profile.yearId || (universityId && year ? deriveYearId(universityId, year) : ''),
         group: profile.group || stored?.group || '',
       },
       entitlement: state.entitlement,
