@@ -15,6 +15,10 @@ blastocyst-structure-poles-and-the-start-of-implantation
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.3
 
@@ -36,6 +40,10 @@ bilaminar-disc-amnioblast-and-epiblast
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_weight_by_year
 AU_Y1=0.35
@@ -62,6 +70,10 @@ implantation-normal-site-and-the-syncytiotrophoblast-that-achieves-it
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.3
 
@@ -83,6 +95,10 @@ implantation-abnormal-sites
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_weight_by_year
 AU_Y1=0.35
@@ -109,6 +125,10 @@ chorionic-villi-types-development
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.3
 
@@ -130,6 +150,10 @@ notochord-formation-fate
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_weight_by_year
 AU_Y1=0.25
@@ -155,6 +179,10 @@ gastrulation-primitive-streak-and-the-three-layers-from-epiblast
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## pitfalls
 Deriving the endoderm from the hypoblast. The hypoblast is displaced, not converted — every layer of the trilaminar disc comes from the epiblast, and the book states it as a point in its own right.
@@ -185,6 +213,10 @@ embryonic-folding-types-and-causes
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.35
 
@@ -206,6 +238,10 @@ embryonic-disc-folding-types-causes-results
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_weight_by_year
 AU_Y1=0.4
@@ -232,6 +268,10 @@ yolk-sac-allantois-heuser-and-the-vitelline-duct
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.35
 
@@ -257,6 +297,10 @@ placenta-anomalies
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_weight_by_year
 AU_Y1=0.5
 
@@ -281,6 +325,10 @@ umbilical-cord-anomalies
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_weight_by_year
 AU_Y1=0.2

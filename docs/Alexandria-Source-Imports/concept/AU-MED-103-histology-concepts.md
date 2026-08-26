@@ -53,8 +53,12 @@ Biconcavity increases flexibility through small capillaries
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q30) asks what is responsible for the flexibility of the RBC membrane, against distractors naming the glycocalyx and the absent nucleus/organelles; this record's biconcave-shape mechanism is the keyed answer.
+universityNotes: au: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q30) asks what is responsible for the flexibility of the RBC membrane, against distractors naming the glycocalyx and the absent nucleus/organelles; this record's biconcave-shape mechanism is the keyed answer.
 
 ---
 
@@ -75,8 +79,12 @@ Erythrocyte glycocalyx carries ABO and Rh blood-group antigenic sites
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: Tested only as a distractor on MED 103's EOM - Blood End Egyptian 1, Q30 ("well developed glycocalyx", rejected in favour of the biconcave-shape mechanism above) — recorded because the question's explanation needs it, not because it is the main concept there.
+universityNotes: au: Tested only as a distractor on MED 103's EOM - Blood End Egyptian 1, Q30 ("well developed glycocalyx", rejected in favour of the biconcave-shape mechanism above) — recorded because the question's explanation needs it, not because it is the main concept there.
 
 ---
 
@@ -97,8 +105,12 @@ Brilliant cresyl blue supravital stain demonstrates reticulocytes
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: Tested on two MED 103 EOM papers — EOM - Blood end wafdeen final Q23 asks which organelle gives the reticulate pattern on cresyl blue (ribosomes), and EOM - Blood Final Egyptian final Q62 asks which cell rises with accelerated erythropoiesis (reticulocyte); both are this record's own stain mechanism.
+universityNotes: au: Tested on two MED 103 EOM papers — EOM - Blood end wafdeen final Q23 asks which organelle gives the reticulate pattern on cresyl blue (ribosomes), and EOM - Blood Final Egyptian final Q62 asks which cell rises with accelerated erythropoiesis (reticulocyte); both are this record's own stain mechanism.
 
 ---
 
@@ -119,8 +131,12 @@ Bone-marrow megakaryocytes produce platelets
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 7c asks for the megakaryocyte on a bone-marrow (myeloid tissue) diagram; this record's platelet-production fact is what the identification rests on.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 7c asks for the megakaryocyte on a bone-marrow (myeloid tissue) diagram; this record's platelet-production fact is what the identification rests on.
 
 ---
 
@@ -141,8 +157,12 @@ Open canalicular system supports extracellular calcium uptake and intracellular 
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q49) asks which statement about the open canalicular system is true against distractors naming the dense tubular system and the granulomere; this record's own description is the keyed answer.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q49) asks which statement about the open canalicular system is true against distractors naming the dense tubular system and the granulomere; this record's own description is the keyed answer.
 
 ---
 

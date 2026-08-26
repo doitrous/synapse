@@ -18,6 +18,10 @@ It is the fibrous remnant of the obliterated allantois, not of the yolk stalk (v
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_3bf4527b51de57464e14 | end_of_module | | p18
 

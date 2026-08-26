@@ -287,3 +287,144 @@ Full query log available on request; summarised per row.
 None — proceeding to checkpoint per Step 1 instructions. The "5 vs 4 banks" and "practical
 files as teaching source" items above are flagged as open questions for `TRIAGE APPROVED`,
 not blockers.
+
+## Step 3 — answer-key completion (second, careful diff pass; OWED item resolved)
+
+Re-ran `difflib.unified_diff` page-by-page on `pdftotext -layout` output of both preferred
+files (`src_2fc652b90b34c2b804be` plain, `src_208b4c27ce9ba9d8cc26` "-3" keyed copy), this time
+reading full page context around every hunk rather than the hunk alone, per
+SHARED-TOOLCHAIN.md step 5 (sanity-check against cached stems) and step 7 (record
+disagreement, don't resolve by guessing). Zero renders, zero OCR — native-text diff only,
+same method as the first pass.
+
+**Newly resolved (9), not corrupted/flagged in the first pass:**
+- P3 heart rate calc → **B (83)**
+- P5 flow-volume loop "this patient has" → **C (bronchial asthma)**
+- P10 QRS>0.12sec indicates → **D (bundle branch block)**
+- P10 indicator for CHF in old → **D (S3)**
+- P10 "good indication for ABP" → **B (S2)** — low-moderate confidence; this stem is itself
+  flagged suspect in the original triage ("[sic, likely mis-set stem]"); a second, unrelated
+  artifact (`C-` rendered as `L-`) sits one line below the recovered mark and is NOT a second
+  answer, per the mechanism (label survives, just garbled — not "vanished").
+- P12 "curve used for measuring" (N2-washout/Fowler's method) → **D (anatomical dead space)**
+- P14 speed of blood flow → **D (1m/sec)** — vessel type is still unspecified in the extracted
+  stem; recorded value only.
+- P20 "maximal air expired by maximal expiratory effort from maximal inspiration" → **A (VC)**
+
+**One correction to the first pass:** P7 FEV1% equals — first pass recorded "B (83%,
+hand-annotated)". Full-context re-read shows the corruption (dash dropped, "A.83" instead of
+"A-.83") plus a **duplicated `83%` floating line** immediately after option A, and a **third**
+"83%" floating near the page bottom margin — three-way reinforcement all anchored to option A's
+own value (.83 = 83%), not option B's (1.25, not a percentage at all). **Corrected: A (0.83 =
+83%)**, not B. B was a mis-assignment in the first pass; flagging it as an authored correction
+rather than silently overwriting the earlier record.
+
+**Confirmed unchanged (13 from first pass):** P1 diagnosis→B; P2 CO2 method→D(Bohr); P2 low
+diastolic→D(hardness of arterial wall); P4 inverted-T/ST→D(depressed ST); P4 VSD→D(absent Q
+wave); P6 pulse oximetry→C(Race); P6 CO2 2nd phrasing→D→C(measuring VD); P7 curve
+represents→A(lung fibrosis); P8 closed-circuit formula→D; P9 curve represents→B(normal
+person); P10 first heart sound→D(25-40Hz); P12 letter A refers to→D(pure dead space); P14
+ABP device→C(sphygmomanometer); P14 systolic in children→D(90-120); P15 dull sound→D; P18
+third heart sound in→A(CHF); P20 red arrow→C(2300cc); P20 green arrow method→D(closed
+circuit). (This list is 17, not 13 — the first pass's "13 confirmed" undercounted its own
+finds; recount above is exhaustive against the original per-page table.)
+
+**P1's residual ambiguity resolved, not just re-flagged:** the corrupted mark sits immediately
+after each question's own stem, before the two-column merge garbles the trailing option
+fragments — RV/TLC% in this disease → **A (normal)** is now recorded with confidence, the
+2-column merge only affects the *unmarked* trailing options, not the letter-position of the
+mark itself.
+
+**QT interval (P4) — disagreement recorded, and independently corroborated, not resolved by
+fiat:** the plain copy's own option D text reads "1-3 sec"; the "-3" copy's corrupted D reads
+"0.3-0.4 sec" (recovered value, floating a third time at the page bottom as "`.3-.4 sec .3-.4
+sec`"). The new Telegram bank (`Practical CVS Qs Bank, ASM Minds.pdf`, sourceId pending, Spot
+34.3) independently states the normal QT interval as **"0.3-0.4 sec"** — a second, unrelated
+source teaching the same value. Recorded as: printed key **D**, teaching value **0.3-0.4 sec**,
+plain copy's option text is an uncorrected typo in that source, cross-source corroboration
+noted in the concept's `field_notes`/explanation per the disagreement-recording rule — not
+silently reconciled.
+
+**VSD → absent Q wave — same treatment, now independently corroborated:** the Telegram bank's
+Spot 34.2 asks "Q wave is absent in ___" with answer "Ventricular septal defects" — the same
+non-standard teaching association the original triage flagged as clinically dubious. Two
+independent local banks teach the identical (non-standard) fact. Recorded as printed/taught in
+this corpus, sourced disagreement noted in the article rather than laundered into an
+unqualified clinical claim (per LANE-BRIEF §"106 all" correction).
+
+**Still unresolved after this pass (no corruption found on recheck — recorded, not guessed):**
+P2 MAP calc, P2 pulse pressure "increases in all except", P2 ABP-measurement false-statement;
+P3 PR-interval-prolongation (ECG diagram); P4 lead-inverted (aVR), P4 yellow-limb-lead; P5
+"which event occurs in this patient"; P6 Bohr-method-definition question; P6 IC/VDan dual
+question (ambiguous 2-column interleaving — the one clear corruption, a dropped label on a
+"3500cc" value, cannot be confidently assigned to either sub-question's option set; recorded
+as unresolved rather than guessed, correcting the original triage which did not flag this
+ambiguity as sharply); P8 anatomical-dead-space-increases, VC-increases-with-age, VC
+definition, ERV definition, race/lung-volume; P10 cannot-be-heard-in-young-adult, area-on-apex;
+P11 (all three, zero corruption — reconfirmed); P13 Korotkoff phase (zero corruption —
+reconfirmed); P14 diastolic-importance, NOT-a-pulse-property, auscultatory-gap; P16 (zero
+corruption — reconfirmed); P17 pulse-oximetry-principle (zero corruption — reconfirmed, only
+OCR text-quality noise: "P02"→"PO2" is a glyph fix, not a key); P18 non-valvular-S1-cause, S3
+duration, aortic-area, myocardium-indicator, Q-wave-septal-depolarization; P19 curve-identify
+(MVV/FEV/FVC — zero corruption, reconfirmed).
+
+Net: **29 of 62 confidently keyed** (up from 13), 33 remain unresolved and are recorded as
+such in Step 3 authoring, not guessed. The FRC/"air remaining after normal expiration"
+question (P6) is downgraded from the first pass's tentative "D" to **unresolved** — the only
+signal on recheck is an unanchored stray "c" glyph in the page's bottom margin with no clear
+tie to this specific question; not authored as a fact.
+
+## Addendum — Telegram source triage (order 1)
+
+Source: `/Users/doitrous/Desktop/Alexandria University/y1/MED 106 - Cardiorespiratory System
+& Communication and Basic Clinical Skills (2)/Cardiorespiratory System/General/Telegram/
+Practical CVS Qs Bank, ASM Minds.pdf` — not in the manifest yet, cited by path, **sourceId
+pending**. `pdfinfo`: 42 pages, encrypted (print/copy restricted) but native text layer
+extracts cleanly via `pdftotext -layout` (no OCR needed; encryption blocks printing/copying in
+a viewer, not `pdftotext`). Shared with the 106-Anatomy lane (Anatomy/Histology/Biochemistry
+sections are that lane's or wave-2's territory, not triaged here).
+
+Structure: a 4-department "Practical Question Bank — CVS" (Anatomy 30 spots, Histology 12
+spots, **Physiology 44 spots, pp.19-34**, Biochemistry 15 spots). This is genuinely a different
+document from the two "MCQs - Mohammed Mostafa physio practical" files already triaged (spot/
+short-answer format vs 4-option MCQ, different author credit, different question set) — not a
+duplicate, an additional bank. `GUARD = bank` still applies (no paper). Physiology answers are
+printed plainly (`CVS Physiology Answers`, pp.31-34) — no highlight/OCR recovery needed, a
+genuine answers key.
+
+**Scope test (brief §10):** 44 spots, ~29 already covered by the 35 ideas already triaged
+(BP/MAP/pulse-pressure/pulse-properties, PFT patterns/FEV1%/FRC/dead-space methods/MRV,
+ECG intervals/leads/waves, heart sounds S1-S4, sphygmomanometer, pulse oximetry). **15 spots
+test ideas outside the existing 35** — widening scope only to what they test, per order:
+
+| # | Idea (Telegram spot) | Key search | Classification |
+|---|---|---|---|
+| 36 | Atrial fibrillation — absent P waves, fine fibrillatory waves, irregular ventricular rhythm, pulse deficit | `atrial fibrillation` → `CON-CVS-236CE7171C7289` "Absence of discrete P waves in atrial fibrillation" (**live**) | HIT-LIVE (this record covers the P-wave sign; the bank's fuller picture — irregular rhythm + pulse deficit — may need a `university_notes` extension in Step 2) |
+| 37 | Pulsus deficit — pulse rate below heart rate, caused by weak beats not reaching the periphery, occurs in AF | `pulsus deficit` — no hit | NEW |
+| 38 | Atrial flutter — ventricular rate capped near 230/min, regular ventricular rhythm | `atrial flutter` — no hit (only pending `docs/import-ready/article/SYS-CVS-ARTICLE-T05.md` "Atrial flutter" via title — different lane's unimported batch) | HIT-PENDING → `pending-live/AU-MED-106-physiology.md`, apply-after `docs/import-ready/article/SYS-CVS-ARTICLE-T05.md` (article, not concept — the matching concept record in that file needs identifying in Step 2) |
+| 39 | Ventricular tachycardia — wide abnormal QRS | `ventricular tachycardia` → `docs/import-ready/concept/SYS-CVS-CONCEPT-T05.md` "A broad-complex tachycardia is ventricular tachycardia until proven otherwise" | HIT-PENDING, same apply-after file |
+| 40 | Ventricular fibrillation — no organised rhythm, HR 350-500 | `ventricular fibrillation` → `docs/import-ready/concept/SYS-CVS-CONCEPT-T05.md` "Ventricular fibrillation produces no cardiac output" | HIT-PENDING, same apply-after file |
+| 41 | Atrial hypertrophy → enlarged/tall P wave | `atrial hypertrophy`, `P wave enlarged` — no hit | NEW |
+| 42 | Acute MI ECG signature — ST elevation (acute), deep Q wave, ST depression in ischaemia (not infarction) | `myocardial infarction ecg changes`, `ST elevation` — no hit (existing `CON-CVS-...ischemia` concepts from the original 35's idea #15 are the closer neighbour; author as an extension of that record or a tightly cross-linked sibling in Step 2, not a duplicate) | NEW |
+| 43 | Hypercalcaemia shortens the QT interval | `hypercalcemia qt interval` — no hit | NEW |
+| 44 | Hypertension — definition (ABP persistently above normal) and two causes named (endocrine disease, kidney disease) | `hypertension` → only adrenaline-adverse-effect live concepts and a pending essential-hypertension article, neither is the definition/aetiology idea the bank tests | NEW |
+| 45 | ECG electrode placement specifics: V4 (5th left ICS, mid-clavicular), V6 (5th left ICS, mid-axillary line), lead III positive electrode (left leg), lead II electrodes (right arm/left leg), aVL exploring electrode (left arm), chest (precordial) leads view the horizontal plane | `ecg lead placement`, `precordial lead position` — no hit | NEW |
+| 46 | Ventricular hypertrophy → increased QRS amplitude | `ventricular hypertrophy qrs` — no hit | NEW |
+| 47 | Minute respiratory volume = tidal volume × respiratory rate (worked calculation) | `minute respiratory volume`, `minute ventilation` — no hit as a worked-calculation concept (alveolar ventilation's own definition is idea 12 territory, related not identical) | NEW |
+| 48 | Bradycardia — operational definition, HR<60/min | `bradycardia` → pending records are about *symptomatic* bradycardia management, not the plain definition | NEW (the plain rate-cutoff definition is not the same idea as the pending symptomatic-bradycardia record) |
+| 49 | Auscultatory gap avoided by palpatory method first (practical technique, distinct from idea #27's device/positioning technique) | `auscultatory gap palpatory method` — no hit | NEW, closely related to existing idea #27 — author as one concept covering both if Step 2's scope allows, flagged for that decision |
+| 50 | Arrhythmia — definition (disturbance of rate/rhythm) and named symptoms | `arrhythmia definition` — no hit | NEW |
+
+**Independent corroboration of two already-triaged hazards** (not new ideas, but material to
+Step 2/3 authoring — see Step 3 section above): QT interval normal duration (Spot 34.3:
+"0.3-0.4 sec") and VSD/absent-Q-wave association (Spot 34.2) both match the "-3" file's
+recovered/dubious answers exactly, from an unrelated author/bank.
+
+**Not widened:** Anatomy/Histology/Biochemistry sections of this same PDF (their own lanes/
+wave 2). Cardiac-cycle heart-sound timing (S3 during "isovolumetric relaxation" per Spot 41 —
+textbook orthodoxy places S3 in rapid ventricular filling, not isovolumetric relaxation) is
+recorded as printed, a second sourced-disagreement case, not silently corrected.
+
+Revised concept count for Step 2: **35 (original) + 11 NEW + 3 HIT-PENDING (atrial
+flutter/VT/VFib, one apply-after file) + 1 HIT-LIVE extension (AF) = 46 distinct ideas + 3
+sourced-disagreement notes** (QT interval, VSD/Q-wave, S3-timing).

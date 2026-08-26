@@ -689,3 +689,33 @@ The posterior tibial artery gives seven branches, of which the peroneal is the l
 ## modules
 +AU-MED-105
 
+---
+
+# Item
+
+<!--
+  Added by W1-105-ANAT-Q (Step 3, questions): found while authoring the mock
+  practical exam labelling items, testing this id in
+  question/AU-MED-105-anatomy-practical-mcq.md item QST-MSK-AU105-PRACT-M2-05.
+  Not one of the original 36 rows above (30 Upper Limb + 6 Lower Limb); source
+  is docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md, same file
+  already named as a dependency in this file's header and in INDEX.md. Its
+  Kasr article, ART-101-ANA-ULNAR-ARTERY (101-ISK-anatomy.md), names it in
+  `related_concepts` — §22 coverage confirmed.
+-->
+
+## id
+CON-MSK-25C6698A72A982
+
+## label
+The ulnar artery is the larger terminal branch of the brachial, and it ends as the superficial palmar arch
+
+## universities
++au
+
+## learner_years
++1
+
+## modules
++AU-MED-105
+

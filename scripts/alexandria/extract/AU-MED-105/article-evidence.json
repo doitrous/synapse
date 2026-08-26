@@ -1,0 +1,37 @@
+{
+ "ART-MSK-AU105-FEMORAL-TRIANGLE-CANAL": {
+  "claimIds": [
+   "CLM-325E0C9A73A6",
+   "CLM-ED38D73D015D"
+  ],
+  "spanIds": [
+   "SPN-AU105-FEMORAL-TRIANGLE-CANAL-01",
+   "SPN-AU105-FEMORAL-TRIANGLE-CANAL-02",
+   "SPN-AU105-FEMORAL-TRIANGLE-CANAL-03"
+  ]
+ },
+ "ART-MSK-AU105-POSTERIOR-THIGH-POPLITEAL-KNEE": {
+  "claimIds": [
+   "CLM-A23E80DA14C0"
+  ],
+  "spanIds": [
+   "SPN-AU105-POSTERIOR-THIGH-01"
+  ]
+ },
+ "ART-MSK-AU105-LEG-ANKLE-FOOT": {
+  "claimIds": [
+   "CLM-F1A07BD84759"
+  ],
+  "spanIds": [
+   "SPN-AU105-LEG-ANKLE-FOOT-01"
+  ]
+ },
+ "ART-MSK-AU105-FOREARM-NERVES": {
+  "claimIds": [
+   "CLM-C26414C85CA9"
+  ],
+  "spanIds": [
+   "SPN-AU105-FOREARM-NERVES-01"
+  ]
+ }
+}

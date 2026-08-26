@@ -3006,6 +3006,10 @@ Bone cells include osteogenic cells, osteoblasts, osteocytes, and osteoclasts
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p3 | AU-MED-105
 src_fc2b7922f6377d572f37 | bank | | p5 | AU-MED-105
@@ -3028,6 +3032,10 @@ A Haversian canal is surrounded by 5–20 concentric circular bony lamellae with
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p4 | AU-MED-105
@@ -3104,6 +3112,10 @@ Contraction shortens I band, abolishes H zone, preserves A band, and shortens sa
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p14 | AU-MED-105
 
@@ -3125,6 +3137,10 @@ Epimysium is dense connective tissue around whole muscle carrying major vessels 
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p15 | AU-MED-105
@@ -3148,6 +3164,10 @@ Endomysial reticular fibers surround individual fibers and carry small vessels/f
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p15 | AU-MED-105
 
@@ -3169,6 +3189,10 @@ Alternating anisotropic dark A bands and isotropic light I bands create striatio
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p13 | AU-MED-105
