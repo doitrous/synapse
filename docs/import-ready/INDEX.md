@@ -19,14 +19,14 @@ filename alone never did.
 | Folder | Admin page | Files | Records |
 |---|---|---:|---:|
 | [`academic/`](academic/) | Academic setup › Import | 2 | 54 |
-| [`concept/`](concept/) | Concepts › Import | 13 | 208 |
-| [`article/`](article/) | Bulk import → **article** | 8 | 58 |
-| [`question/`](question/) | Bulk import → **question** | 10 | 219 |
-| [`practical/`](practical/) | Bulk import → **practical** | 34 | 152 |
-| [`relations/`](relations/) | Relationships › Import | — | — |
-| [`evidence/`](evidence/) | Evidence › Import | — | — |
+| [`concept/`](concept/) | Concepts › Import | 16 | 306 |
+| [`article/`](article/) | Bulk import → **article** | 10 | 75 |
+| [`question/`](question/) | Bulk import → **question** | 12 | 294 |
+| [`practical/`](practical/) | Bulk import → **practical** | 35 | 162 |
+| [`relations/`](relations/) | Relationships › Import | 1 | 156 |
+| [`evidence/`](evidence/) | Bulk import evidence · Resource/Claim/Citation/Span | 4 | 275 |
 | [`subjects/`](subjects/) | Taxonomy › Import | — | — |
-| [`glossary/`](glossary/) | Glossary › Import | — | — |
+| [`glossary/`](glossary/) | Glossary › Import | 6 | 376 |
 | [`resource/`](resource/) | Bulk import → **resource** | — | — |
 
 The empty folders are not oversights — they are the shape of the work that has not been
@@ -232,6 +232,92 @@ applies the whole set — 128 concepts, 58 articles — with 0 errors and 0 reje
 ### Cardiovascular questions — `question/`, 10 files
 
 Topics 2–9. Questions reference the concepts in `concept/`, so that folder goes first.
+
+---
+
+### Kasr Al Ainy 108 INT (Pathology + Pharmacology) — 14 files across 7 folders
+
+Staged 2026-08-27, first Kasr Al Ainy module content to reach this folder (the
+`academic/kau-modules.md` row for `108 INT` was already here). Copied verbatim
+from `docs/Kasr-Source-Imports/{evidence,article,concept,relations,practical,
+question,written,glossary}/108-INT-*` — no hand edits, per lane protocol.
+Full detail — commit-by-commit history, the `medical:batch` relations
+false-alarm, the audit's 3 editorial findings, ids this module assumes are
+already live, and what remains open — is in
+`docs/Kasr-Source-Imports/INDEX-108-INT.md` and
+`docs/Kasr-Source-Imports/coverage/108-INT-GATES.md`; this entry states only
+the apply order and current status.
+
+**Apply in this order** (each step's ids are referenced by the next; the
+generic order above already matches this):
+
+| # | File | Admin page | Records | "Update matching items" |
+|---|---|---|--:|---|
+| 1 | `evidence/108-INT-resources.md` | Bulk import evidence · Resource | 11 | on (evidence always upserts) |
+| 2 | `article/108-INT-pathology.md` | Bulk import → article | 8 | On |
+| 3 | `article/108-INT-pharmacology.md` | Bulk import → article | 9 | On |
+| 4 | `concept/108-INT-concepts-pathology.md` | Concepts › Import | 49 | On |
+| 5 | `concept/108-INT-concepts-pharmacology.md` | Concepts › Import | 40 | On |
+| 6 | `concept/108-INT-concepts-pharmacology-updates.md` | Concepts › Import | 9 | **Must be On** — every row targets a concept id already live before this bundle; with "Create only" these 9 rows are silently skipped, not merged |
+| 7 | `evidence/108-INT-claims.md` | Bulk import evidence · Claim | 89 | On |
+| 8 | `evidence/108-INT-citations.md` | Bulk import evidence · Citation | 159 | On |
+| 9 | `evidence/108-INT-spans.md` | Bulk import evidence · Span | 16 | On |
+| 10 | `relations/108-INT-relations.md` | Relationships › Import | 156 | On — `medical:batch` run directory-scoped on this file alone falsely flags 3 concept ids (×2 directions) as missing; confirmed live in `server/data/medical-library-v1.json`, and `medical:simulate` chained on top of the concept/evidence steps above resolves clean |
+| 11 | `practical/108-INT-practical.md` | Bulk import → practical | 10 | On |
+| 12 | `question/108-INT-EOY-mcq.md` | Bulk import → question | 47 | On |
+| 13 | `question/108-INT-EOY-written.md` | Bulk import → question (format: written, same page) | 28 | On |
+| 14 | `glossary/108-INT-glossary.md` | Glossary › Import | 79 | Glossary import always upserts by id |
+
+**Gate status, re-run 2026-08-27 against this staged copy plus the rest of
+`docs/import-ready/`:** `medical:simulate` chained one kind at a time,
+resources → articles → concepts (pathology, pharmacology, then the 9 update
+rows) → claims → citations → spans → relations → practical → question →
+written — `errors: []` at every step, 0 rejected, the updates step reporting
+exactly `created: 0, updated: 9`. `npm run medical:simulate -- "docs/import-
+ready/"*/*.md --emit ...` over the **whole combined folder** (108 INT plus
+every pre-existing CVS/REN/RES batch) also comes back `errors: []`, 84
+batches applied. `medical:batch` on all 12 batch-able files (`--with` every
+108 sibling concept/article file) is 12/12 `errors: []`; relations shows the
+same documented directory-scope false alarm, resolved by simulate.
+`medical:audit` against the combined emit: only the same 3 pre-existing
+editorial-gap classes fire for 108 (`articleData.resourceIds` missing on all
+17 articles, `claimIds`/`spanIds` missing on 11 of them) — none block import
+or visibility (every 108 article carries `status: Draft`); no reviewer or
+publisher finding appears — every 108 article already carries `reviewer:
+Medical team, Admin team` and `final_publisher: Admin team`.
+
+**Two items recorded as open blockers before this staging turned out to
+already be resolved in the batch content itself:**
+
+- *Practical "scope columns."* `docs/chief-of-staff/BOARD.md`'s "needs" note
+  predates commit `101954f` ("Scope all 52 practical stations to Kasr Al
+  Ainy Year 1", 2026-08-22 21:04), which already added `universities: kau`,
+  `years: KAU_Y1` and `module: 108 INT` to all 10 stations. Verified present
+  and correct on every station in this copy; the board note is stale, not a
+  real gap.
+- *Reviewer/publisher names.* Every article already carries `reviewer:
+  Medical team, Admin team` and `final_publisher: Admin team` (added before
+  `b5f9e6d`, the gate-clean commit); `medical:audit` raises no reviewer or
+  publisher finding for 108. **Still owed to Omar:** whether "Medical team,
+  Admin team" / "Admin team" are the actual names to carry when status
+  flips Draft → Published, or placeholders he wants replaced with real
+  people — this is logged as an open ruling in
+  `docs/Kasr-Source-Imports/HANDOFF.md` ("Open rulings / needs Omar") and is
+  a publish-policy decision, not a gate failure; nothing here was changed
+  to guess at it.
+
+**What remains genuinely open** (unchanged from `INDEX-108-INT.md`, not
+addressed by this staging pass): 56 of 72 image requests are `required` and
+unfulfilled (sourcing is out of scope for this lane); the practical atlas is
+a confirmed 23% sample (10 of at least 44 stations — pages 5–21 of the
+source PDF are missing and a Telegram fetch request is still
+`pending_discovery`) and must not be counted as the module's full practical
+syllabus; the 2025 paper's pharmacogenomics question is held back (no
+concept/article covers a topic the department book itself doesn't teach);
+126 department-bank questions are extracted but not rights-cleared for
+publication. None of these block the 14 files above from being applied —
+they are content-completeness gaps the module already discloses, not
+import-time errors.
 
 ---
 
