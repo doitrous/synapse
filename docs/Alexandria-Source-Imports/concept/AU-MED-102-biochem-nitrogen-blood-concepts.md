@@ -2322,8 +2322,10 @@ CON-IMM-8F37F8822F1157
 ## modules
 +AU-MED-102
 
-## module_subject
-AU-MED-102 > Biochemistry > Blood > Immunoglobulins
+
+
+## learner_years
++1
 
 ## exam_signal
 src_01ab4268402d32d4d111 | department_question_book | undated | p41 q23 | AU-MED-102

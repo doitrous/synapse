@@ -51,11 +51,15 @@ anatomical-erect-position-is-the-reference-for-all-description
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p2 | MED 102
 
 ## field_notes
-universityNotes: Foundation of Basic Medical Sciences tests the same criteria (upright, eyes forward, upper limb at the sides, facing anteriorly) as a true/false item bank (MCQs - Foundation Anatomy & Embryology mcqs Nebras, keyed).
+universityNotes: au: Foundation of Basic Medical Sciences tests the same criteria (upright, eyes forward, upper limb at the sides, facing anteriorly) as a true/false item bank (MCQs - Foundation Anatomy & Embryology mcqs Nebras, keyed).
 
 ---
 
@@ -76,12 +80,16 @@ anatomical-planes-median-coronal-horizontal
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p2 | MED 102
 src_29f02a5a4d6a273dea76 | dept_bank | | p2 | MED 102
 
 ## field_notes
-universityNotes: Also tested unkeyed in EOM - End Foundation wafdeen-1.pdf (Q8, plane dividing the body into upper and lower parts) — no answer key survives in that file; recorded for completeness, not authored as a question.
+universityNotes: au: Also tested unkeyed in EOM - End Foundation wafdeen-1.pdf (Q8, plane dividing the body into upper and lower parts) — no answer key survives in that file; recorded for completeness, not authored as a question.
 
 ---
 
@@ -102,11 +110,15 @@ terms-of-position-medial-lateral-proximal-distal
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 
 ## field_notes
-universityNotes: Tested as "planter surface of the foot & dorsum" terminology (sole vs palm) rather than the upper-limb proximal/distal framing 101-ISK teaches it through — same underlying terms-of-position idea, different worked example.
+universityNotes: au: Tested as "planter surface of the foot & dorsum" terminology (sole vs palm) rather than the upper-limb proximal/distal framing 101-ISK teaches it through — same underlying terms-of-position idea, different worked example.
 
 ---
 
@@ -127,12 +139,16 @@ superficial-fascia-features
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_8d6ddf874f8984be8217 | EOM_paper | | p1 | MED 102
 src_7d031a45baeadc973a00 | EOM_paper | | p1 | MED 102
 
 ## field_notes
-universityNotes: Directly tested on the "End foundation" EOM paper (both stream twins) — "the fatty connective tissue just under the skin" — answer superficial fascia. High-confidence EOM-paper signal.
+universityNotes: au: Directly tested on the "End foundation" EOM paper (both stream twins) — "the fatty connective tissue just under the skin" — answer superficial fascia. High-confidence EOM-paper signal.
 
 ---
 
@@ -153,12 +169,16 @@ deep-fascia-parts-functions
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_3bf4527b51de57464e14 | EOM_paper | | p16 | MED 102
 src_413115a28d7dc9914c91 | EOM_paper | | p16 | MED 102
 
 ## field_notes
-universityNotes: EOM paper Q76 asks which statement best describes deep fascia (forms intermuscular septa) — high-confidence EOM-paper signal. The Anatomy Tutorial (AFM) also asks a clinical vignette on cutting the extensor retinaculum (a deep-fascia derivative) but that item carries no printed answer key in this corpus and is not counted as exam evidence here.
+universityNotes: au: EOM paper Q76 asks which statement best describes deep fascia (forms intermuscular septa) — high-confidence EOM-paper signal. The Anatomy Tutorial (AFM) also asks a clinical vignette on cutting the extensor retinaculum (a deep-fascia derivative) but that item carries no printed answer key in this corpus and is not counted as exam evidence here.
 
 ---
 
@@ -179,12 +199,16 @@ skeleton-axial-versus-appendicular
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 src_29f02a5a4d6a273dea76 | dept_bank | | p3 | MED 102
 
 ## field_notes
-universityNotes: EOM - End Foundation wafdeen-1.pdf's occurrence (Q9) has no answer key anywhere in that file — recorded as exam signal, not authored as a question.
+universityNotes: au: EOM - End Foundation wafdeen-1.pdf's occurrence (Q9) has no answer key anywhere in that file — recorded as exam signal, not authored as a question.
 
 ---
 
@@ -205,12 +229,16 @@ bone-shapes-six-classes-with-examples
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p2 | MED 102
 
 ## field_notes
-universityNotes: Tested for the long-bone exception (sacrum, not a long bone) and the largest sesamoid bone (patella) — both keyed in both twin banks.
+universityNotes: au: Tested for the long-bone exception (sacrum, not a long bone) and the largest sesamoid bone (patella) — both keyed in both twin banks.
 
 ---
 
@@ -231,11 +259,15 @@ pneumatic-bone-air-cavities-and-their-uses
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_84b91e011582f2b53494 | dept_bank | | p4 | MED 102
 
 ## field_notes
-universityNotes: Two Wagih-bank items test this (why pneumatic bones are so named; which function pneumatic bones do NOT serve). Both sit in the bank whose printed key is OCR-garbled and unaligned to question number (see coverage/AU-MED-102-anatomy-triage.md) — recorded as exam signal only, not authored as a question until the key is recovered by render.
+universityNotes: au: Two Wagih-bank items test this (why pneumatic bones are so named; which function pneumatic bones do NOT serve). Both sit in the bank whose printed key is OCR-garbled and unaligned to question number (see coverage/AU-MED-102-anatomy-triage.md) — recorded as exam signal only, not authored as a question until the key is recovered by render.
 
 ---
 
@@ -256,12 +288,16 @@ long-bone-regions-epiphysis-diaphysis-metaphysis
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p3 | MED 102
 
 ## field_notes
-universityNotes: Tested as three items — "the end of the long bone is called" (epiphysis), "the shaft... is called diaphysis" (true), "epiphysis is separated from diaphysis by..." (cartilage) — all keyed in both twin banks.
+universityNotes: au: Tested as three items — "the end of the long bone is called" (epiphysis), "the shaft... is called diaphysis" (true), "epiphysis is separated from diaphysis by..." (cartilage) — all keyed in both twin banks.
 
 ---
 
@@ -282,6 +318,10 @@ long-bone-grows-in-length-at-the-epiphyseal-plate
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_8d6ddf874f8984be8217 | EOM_paper | | p1 | MED 102
 src_7d031a45baeadc973a00 | EOM_paper | | p1 | MED 102
@@ -289,7 +329,7 @@ src_3bf4527b51de57464e14 | EOM_paper | | p1 | MED 102
 src_413115a28d7dc9914c91 | EOM_paper | | p1 | MED 102
 
 ## field_notes
-universityNotes: Tested on both EOM papers ("which bone has a growing upper end" / "which is a growing end of a bone") — the single most repeated Anatomy fact in this module's exam corpus (4 occurrences across the two paper pairs).
+universityNotes: au: Tested on both EOM papers ("which bone has a growing upper end" / "which is a growing end of a bone") — the single most repeated Anatomy fact in this module's exam corpus (4 occurrences across the two paper pairs).
 
 ---
 
@@ -310,11 +350,15 @@ long-bone-arterial-supply-nutrient-metaphyseal-epiphyseal-periosteal
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 
 ## field_notes
-universityNotes: Tested as a true/false item on nutrient-artery direction ("directed towards the non-growing end" — true), keyed in the department bank.
+universityNotes: au: Tested as a true/false item on nutrient-artery direction ("directed towards the non-growing end" — true), keyed in the department bank.
 
 ---
 
@@ -335,11 +379,15 @@ ossification-membranous-versus-cartilaginous
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 [clear]
 
 ## field_notes
-universityNotes: No question in any triaged Anatomy source names ossification type directly. Kept in scope as chapter-completion under brief §10 — the department's own Anatomy Summaries sheet (src_bfb1aee3422c7577592c) teaches membranous vs cartilaginous ossification as part of the same Skeletal-system chapter that the growing-end and epiphysis/diaphysis facts above are examined from — not a directly question-driven update.
+universityNotes: au: No question in any triaged Anatomy source names ossification type directly. Kept in scope as chapter-completion under brief §10 — the department's own Anatomy Summaries sheet (src_bfb1aee3422c7577592c) teaches membranous vs cartilaginous ossification as part of the same Skeletal-system chapter that the growing-end and epiphysis/diaphysis facts above are examined from — not a directly question-driven update.
 
 ---
 
@@ -360,12 +408,16 @@ fibrous-joints-types-definition
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p5 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p6 | MED 102
 
 ## field_notes
-universityNotes: Tested for suture identification, gomphosis (peg-and-socket), syndesmosis, and "no movement in..." across several keyed items in both twin banks.
+universityNotes: au: Tested for suture identification, gomphosis (peg-and-socket), syndesmosis, and "no movement in..." across several keyed items in both twin banks.
 
 ---
 
@@ -386,12 +438,16 @@ primary-versus-secondary-cartilaginous-joints
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_3bf4527b51de57464e14 | EOM_paper | | p16 | MED 102
 src_413115a28d7dc9914c91 | EOM_paper | | p16 | MED 102
 
 ## field_notes
-universityNotes: EOM paper Q75 (which joint type is found in the midline — secondary cartilaginous) is a direct, high-confidence signal on this exact record.
+universityNotes: au: EOM paper Q75 (which joint type is found in the midline — secondary cartilaginous) is a direct, high-confidence signal on this exact record.
 
 ---
 
@@ -412,12 +468,16 @@ synovial-joint-structure-characters
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p6 | MED 102
 src_84b91e011582f2b53494 | dept_bank | | p2 | MED 102
 
 ## field_notes
-universityNotes: "All bones of synovial joints are covered with hyaline cartilage" (true) is keyed in the department bank. The Wagih-bank synovial-joint-definition item (same idea) sits in the OCR-garbled-key file and is recorded as signal only.
+universityNotes: au: "All bones of synovial joints are covered with hyaline cartilage" (true) is keyed in the department bank. The Wagih-bank synovial-joint-definition item (same idea) sits in the OCR-garbled-key file and is recorded as signal only.
 
 ---
 
@@ -438,13 +498,17 @@ upper-limb-joint-types-by-articular-surfaces
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p5 | MED 102
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p6 | MED 102
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p7 | MED 102
 
 ## field_notes
-universityNotes: The Foundation module tests this classification generically (pivot, hinge, ellipsoid, uniaxial-exception, ball-and-socket) rather than only through upper-limb examples — 101 ISK's own label names the upper limb because that is the region its department book teaches from; the underlying axis/shape classification is the same idea Alexandria's paper tests.
+universityNotes: au: The Foundation module tests this classification generically (pivot, hinge, ellipsoid, uniaxial-exception, ball-and-socket) rather than only through upper-limb examples — 101 ISK's own label names the upper limb because that is the region its department book teaches from; the underlying axis/shape classification is the same idea Alexandria's paper tests.
 
 ---
 
@@ -465,11 +529,15 @@ upper-limb-joint-movements-follow-from-type
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p5 | MED 102
 
 ## field_notes
-universityNotes: Same regional-vs-general note as CON-MSK-4D7492BC85C03D above — tested generically here (e.g. "pivot joint considers a... uniaxial").
+universityNotes: au: Same regional-vs-general note as CON-MSK-4D7492BC85C03D above — tested generically here (e.g. "pivot joint considers a... uniaxial").
 
 ---
 
@@ -490,11 +558,15 @@ elbow-joint-nerve-supply-and-hiltons-law
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p7 | MED 102
 
 ## field_notes
-universityNotes: Foundation module tests Hilton's law as a general principle ("nerve supply of any joint supplies the muscles acting on it" — true), not through the elbow specifically as 101 ISK's own worked example does.
+universityNotes: au: Foundation module tests Hilton's law as a general principle ("nerve supply of any joint supplies the muscles acting on it" — true), not through the elbow specifically as 101 ISK's own worked example does.
 
 ---
 
@@ -515,12 +587,16 @@ muscle-types-skeletal-smooth-cardiac
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p6 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p8 | MED 102
 
 ## field_notes
-universityNotes: Cardiac-muscle control/structure and alimentary-canal (smooth) muscle location both keyed in the department bank.
+universityNotes: au: Cardiac-muscle control/structure and alimentary-canal (smooth) muscle location both keyed in the department bank.
 
 ---
 
@@ -541,11 +617,15 @@ muscle-attachment-types
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_84b91e011582f2b53494 | dept_bank | | p6 | MED 102
 
 ## field_notes
-universityNotes: Aponeurosis-definition item ("flat, sheet-like connective tissue which attaches a muscle to bone or cartilage") sits in the OCR-garbled-key file — recorded as signal only, not authored as a question.
+universityNotes: au: Aponeurosis-definition item ("flat, sheet-like connective tissue which attaches a muscle to bone or cartilage") sits in the OCR-garbled-key file — recorded as signal only, not authored as a question.
 
 ---
 
@@ -566,12 +646,16 @@ muscle-action-roles-prime-mover-antagonist-fixator-synergist
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p6 | MED 102
 src_84b91e011582f2b53494 | dept_bank | | p6 | MED 102
 
 ## field_notes
-universityNotes: "Triceps in elbow extension is an example of prime mover" is keyed in the department bank. The Wagih-bank items on prime-mover terminology and triceps' role sit in the OCR-garbled-key file — recorded as signal only.
+universityNotes: au: "Triceps in elbow extension is an example of prime mover" is keyed in the department bank. The Wagih-bank items on prime-mover terminology and triceps' role sit in the OCR-garbled-key file — recorded as signal only.
 
 ---
 
@@ -592,12 +676,16 @@ thoracic-duct-and-right-lymphatic-duct-territories
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_8d6ddf874f8984be8217 | EOM_paper | | p1 | MED 102
 src_7d031a45baeadc973a00 | EOM_paper | | p1 | MED 102
 
 ## field_notes
-universityNotes: EOM paper Q3 ("which of the following is drained by the thoracic duct — right lower limb") is a direct, high-confidence signal that matches this record's own territory description exactly.
+universityNotes: au: EOM paper Q3 ("which of the following is drained by the thoracic duct — right lower limb") is a direct, high-confidence signal that matches this record's own territory description exactly.
 
 ---
 
@@ -618,9 +706,13 @@ skeletal-muscle-form-classification-by-fibre-direction
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_3bf4527b51de57464e14 | EOM_paper | | p16 | MED 102
 src_413115a28d7dc9914c91 | EOM_paper | | p16 | MED 102
 
 ## field_notes
-universityNotes: EOM paper Q77 ("which muscle has a wider range of movement — parallel") is a direct, high-confidence signal on this exact record.
+universityNotes: au: EOM paper Q77 ("which muscle has a wider range of movement — parallel") is a direct, high-confidence signal on this exact record.

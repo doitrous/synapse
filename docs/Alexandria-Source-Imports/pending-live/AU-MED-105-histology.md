@@ -30,6 +30,10 @@ The three cartilages are told apart by their matrix, and each has its own list o
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p1 | AU-MED-105
 src_fc2b7922f6377d572f37 | bank | | p2 | AU-MED-105
@@ -54,6 +58,10 @@ Nerve cells are classed by how many processes leave the cell body: one, two, or 
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p9 | AU-MED-105
@@ -80,6 +88,10 @@ Nissl's granules are the basophilic clumps of rough endoplasmic reticulum seen i
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p9 | AU-MED-105
 src_fc2b7922f6377d572f37 | bank | | p11 | AU-MED-105
@@ -103,6 +115,10 @@ Smooth muscle has caveolae instead of T-tubules and dense bodies instead of Z li
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p15 | AU-MED-105
@@ -128,6 +144,10 @@ Excitation–contraction coupling relays a T-tubule depolarisation into calcium 
 ## modules
 +AU-MED-105
 
+
+## learner_years
++1
+
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p13 | AU-MED-105
 src_fc2b7922f6377d572f37 | bank | | p15 | AU-MED-105
@@ -152,6 +172,10 @@ Neuromuscular transmission runs presynaptic calcium, acetylcholine exocytosis, a
 
 ## modules
 +AU-MED-105
+
+
+## learner_years
++1
 
 ## exam_signal
 src_fc2b7922f6377d572f37 | bank | | p14 | AU-MED-105

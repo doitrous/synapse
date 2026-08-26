@@ -35,6 +35,10 @@ Leukocytes divide into granular — neutrophil, eosinophil, basophil — and non
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_c6ab1b49dc16762227e1 | question_book | | p3 | 101 ISK
 src_5d2dbb44df399f871731 | question_book | | p15 | AU-MED-102
@@ -58,6 +62,10 @@ A long bone is an epiphysis at each end, a diaphysis between them, and a metaphy
 
 ## modules
 +AU-MED-102
+
+
+## learner_years
++1
 
 ## exam_signal
 src_51fef9b6234c5d381f59 | question_book | | p3 | 101 ISK

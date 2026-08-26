@@ -1,0 +1,20 @@
+{
+ "ART-HEM-AU103-RBC-BONE-MARROW": {
+  "claimIds": [
+   "CLM-28028B8512F4",
+   "CLM-3817DFB7BAB3"
+  ],
+  "spanIds": [
+   "SPN-AU103-RBC-BONE-MARROW-01",
+   "SPN-AU103-RBC-BONE-MARROW-02"
+  ]
+ },
+ "ART-HEM-AU103-LYMPHOID-ORGANS": {
+  "claimIds": [
+   "CLM-9225D5FA5051"
+  ],
+  "spanIds": [
+   "SPN-AU103-LYMPHOID-ORGANS-01"
+  ]
+ }
+}

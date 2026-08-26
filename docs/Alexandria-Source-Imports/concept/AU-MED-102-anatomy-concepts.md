@@ -31,12 +31,16 @@ Anatomical bone classification by shape includes long, short, flat, and irregula
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p3 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p2 | MED 102
 
 ## field_notes
-universityNotes: Alexandria's own bank tests the fuller six-class version (adding pneumatic and sesamoid to this record's four) via the parallel pending record CON-MSK-00B4A0D32A6420 in docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (see pending-live/AU-MED-102-anatomy.md) -- this live record is updated rather than duplicated, per LANE-BRIEF Sec15 ("a hit in live state -> sparse update record").
+universityNotes: au: Alexandria's own bank tests the fuller six-class version (adding pneumatic and sesamoid to this record's four) via the parallel pending record CON-MSK-00B4A0D32A6420 in docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md (see pending-live/AU-MED-102-anatomy.md) -- this live record is updated rather than duplicated, per LANE-BRIEF Sec15 ("a hit in live state -> sparse update record").
 
 ---
 
@@ -54,12 +58,16 @@ Hematopoiesis is blood-cell formation in bone marrow and lymphatic organs such a
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## exam_signal
 src_2df3b7f9b3b393dc1d8f | dept_bank | | p4 | MED 102
 src_98e8ccbfb3fe73a8c8e3 | dept_bank | | p4 | MED 102
 
 ## field_notes
-universityNotes: Tested as "the bone marrow acts as a factory for the formation of WBCs" (keyed) in both Anatomy/Questions twin banks.
+universityNotes: au: Tested as "the bone marrow acts as a factory for the formation of WBCs" (keyed) in both Anatomy/Questions twin banks.
 
 ---
 
@@ -77,8 +85,12 @@ shoulder circumduction
 ## modules
 +AU-MED-102
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: Foundation of Basic Medical Sciences tests circumduction as the general movement term ("the circular movement is called... circumduction"), not through the shoulder specifically the way this record's own worked example does. The Wagih department-bank item that tests it sits in the file whose printed answer key is OCR-garbled and unaligned to question number (see coverage/AU-MED-102-anatomy-triage.md) -- recorded here as an overlay tag only; no exam_signal line is added because the specific question cannot yet be keyed with confidence.
+universityNotes: au: Foundation of Basic Medical Sciences tests circumduction as the general movement term ("the circular movement is called... circumduction"), not through the shoulder specifically the way this record's own worked example does. The Wagih department-bank item that tests it sits in the file whose printed answer key is OCR-garbled and unaligned to question number (see coverage/AU-MED-102-anatomy-triage.md) -- recorded here as an overlay tag only; no exam_signal line is added because the specific question cannot yet be keyed with confidence.
 
 ---
 

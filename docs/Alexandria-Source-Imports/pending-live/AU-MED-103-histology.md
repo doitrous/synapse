@@ -68,8 +68,12 @@ The reticular cell is a stellate cell of an organ's stroma that secretes the ret
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: Alexandria's own Histology notes (Dr Iman Nabil, "Structure of myeloid tissue") and the Practical Blood Questions bank (Spot 7b) test this same reticular cell as the fixed stromal-cell population of bone marrow, adding a function this record's definition does not carry — secreting growth factors that stimulate hemopoiesis. That function is bone-marrow-specific and not asserted here; flagging it rather than rewriting the shared definition.
+universityNotes: au: Alexandria's own Histology notes (Dr Iman Nabil, "Structure of myeloid tissue") and the Practical Blood Questions bank (Spot 7b) test this same reticular cell as the fixed stromal-cell population of bone marrow, adding a function this record's definition does not carry — secreting growth factors that stimulate hemopoiesis. That function is bone-marrow-specific and not asserted here; flagging it rather than rewriting the shared definition.
 
 ---
 
@@ -90,8 +94,12 @@ The neutrophil carries two granule populations and is the first line of non-spec
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q23) tests the neutrophil's function directly — "converted to macrophage and engulf invaded organism" is the keyed distractor rejected in favour of phagocytosis of the invading organism itself, the same first-line-defence idea this record already carries.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q23) tests the neutrophil's function directly — "converted to macrophage and engulf invaded organism" is the keyed distractor rejected in favour of phagocytosis of the invading organism itself, the same first-line-defence idea this record already carries.
 
 ---
 
@@ -112,8 +120,12 @@ The eosinophil is a bilobed nucleus behind large acidophilic granules
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood end wafdeen final, Q22) tests the EM appearance of the eosinophil's specific granule directly against four distractors on granule size and electron density; this record's internum/externum description is the correct answer.
+universityNotes: au: MED 103's EOM paper (EOM - Blood end wafdeen final, Q22) tests the EM appearance of the eosinophil's specific granule directly against four distractors on granule size and electron density; this record's internum/externum description is the correct answer.
 
 ---
 
@@ -134,8 +146,12 @@ The three lymphocytes look identical and differ only in their surface receptors:
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final) tests two separate functional facts already inside this one record's definition as two separate questions on the same paper — Q50 asks the helper T cell's function (this record: "activates the B cell"; the keyed option is "secretes lymphokines", a wording gap noted below) and Q51 asks the natural killer cell's function (this record: "act in innate early immunity... without any helper T stimulation"; keyed as "nonspecific immune response"). Both are the same functional-classification concept tested twice, not two concepts.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final) tests two separate functional facts already inside this one record's definition as two separate questions on the same paper — Q50 asks the helper T cell's function (this record: "activates the B cell"; the keyed option is "secretes lymphokines", a wording gap noted below) and Q51 asks the natural killer cell's function (this record: "act in innate early immunity... without any helper T stimulation"; keyed as "nonspecific immune response"). Both are the same functional-classification concept tested twice, not two concepts.
 conflicts: This record's own wording for the helper T cell's role ("activates the B cell") does not use the word "lymphokines" that MED 103's Q50 key selects. A live concept elsewhere (CON-IMM-37793AE332D7E6, "cytokines produced by lymphocytes are called lymphokines") supplies that term; the two are complementary, not contradictory — recorded here rather than silently reconciled.
 
 ---
@@ -157,8 +173,12 @@ The monocyte is the largest leukocyte and the precursor of every phagocytic cell
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q6) tests "which of the following is an antigen presenting cell" against T- and B-lymphocyte distractors; this record's own definition already states "it is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body", which is the tested fact.
+universityNotes: au: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q6) tests "which of the following is an antigen presenting cell" against T- and B-lymphocyte distractors; this record's own definition already states "it is an antigen-presenting cell, and it is the precursor of all the phagocytic cells of the body", which is the tested fact.
 
 ---
 
@@ -179,8 +199,12 @@ A platelet is a non-nucleated fragment with a pale peripheral hyalomere and a da
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q48) asks which statement about platelet structure is correct against distractors describing a nucleated or acidophilic-centred cell; this record's two-zone description is the keyed answer.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q48) asks which statement about platelet structure is correct against distractors describing a nucleated or acidophilic-centred cell; this record's two-zone description is the keyed answer.
 
 ---
 
@@ -201,8 +225,12 @@ The hyalomere's microtubules and canalicular system carry out the platelet's sha
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: Tested twice on two different MED 103 papers — EOM - Blood End Egyptian 1 Q29 asks the function of the circumferential microtubules directly ("maintenance of the discoid shape"), and EOM - Blood end wafdeen final Q5 asks the histological feature of the granulomere and keys "circumferential bundle of microtubules" — which this record itself places in the hyalomere, not the granulomere. Recorded as a paper-vs-record zone mismatch rather than silently corrected; the mechanism tested (microtubule bundle maintains discoid shape) is the same either way.
+universityNotes: au: Tested twice on two different MED 103 papers — EOM - Blood End Egyptian 1 Q29 asks the function of the circumferential microtubules directly ("maintenance of the discoid shape"), and EOM - Blood end wafdeen final Q5 asks the histological feature of the granulomere and keys "circumferential bundle of microtubules" — which this record itself places in the hyalomere, not the granulomere. Recorded as a paper-vs-record zone mismatch rather than silently corrected; the mechanism tested (microtubule bundle maintains discoid shape) is the same either way.
 
 ---
 
@@ -223,8 +251,12 @@ Platelets carry three granule types — alpha, delta and lambda — each with di
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 9 asks a student to identify "alpha granules" on a platelet EM diagram; this record's classification of the three granule types is what that spot tests.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 9 asks a student to identify "alpha granules" on a platelet EM diagram; this record's classification of the three granule types is what that spot tests.
 
 ---
 
@@ -245,8 +277,12 @@ A Hassall's corpuscle is a concentric epithelial body with a degenerating acidop
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q28) asks what is in the medulla of the thymus; Hassall's corpuscles are the keyed answer this record already describes.
+universityNotes: au: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q28) asks what is in the medulla of the thymus; Hassall's corpuscles are the keyed answer this record already describes.
 
 ---
 
@@ -267,8 +303,12 @@ Thymic epithelial reticular cells are endodermal, joined into a cellular reticul
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q63) asks the function of the thymus's epithelial reticular cells against a phagocytosis distractor; this record's "nursing cell" / supporting role is the keyed answer.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q63) asks the function of the thymus's epithelial reticular cells against a phagocytosis distractor; this record's "nursing cell" / supporting role is the keyed answer.
 
 ---
 
@@ -289,8 +329,12 @@ The blood-thymic barrier is four layers around a cortical capillary, and it exis
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood end wafdeen final, Q14) asks which components make up the blood-thymic barrier; this record's four-layer, cortex-only description is what the question tests.
+universityNotes: au: MED 103's EOM paper (EOM - Blood end wafdeen final, Q14) asks which components make up the blood-thymic barrier; this record's four-layer, cortex-only description is what the question tests.
 
 ---
 
@@ -311,8 +355,12 @@ The thymus is incompletely lobulated, with a dark cortex, a pale medulla continu
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood end wafdeen final, Q13) asks what describes the cells of the thymic inner cortex; this record's cortex description ("thymocytes in its inner part") is what the question turns on.
+universityNotes: au: MED 103's EOM paper (EOM - Blood end wafdeen final, Q13) asks what describes the cells of the thymic inner cortex; this record's cortex description ("thymocytes in its inner part") is what the question turns on.
 
 ---
 
@@ -333,8 +381,12 @@ The thymus has no lymphoid nodules, no B lymphocytes, no plasma cells and no aff
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q34) asks how the thymus differs histologically from the lymph node against distractors on nodule distribution and cortex/medulla division; this record's list of absences is what the keyed option ("supportive network of epithelial reticular cells") turns on.
+universityNotes: au: MED 103's EOM paper (EOM - Blood End Egyptian 1, Q34) asks how the thymus differs histologically from the lymph node against distractors on nodule distribution and cortex/medulla division; this record's list of absences is what the keyed option ("supportive network of epithelial reticular cells") turns on.
 
 ---
 
@@ -355,8 +407,12 @@ A lymph node is read from the capsule inwards: thin capsule, septa from its deep
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 1a asks for a lymph-node slide identification and Spot 9c asks for the medullary lymph sinuses on a lymph-node H&E slide; both are this record's own capsule-to-medulla structure.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 1a asks for a lymph-node slide identification and Spot 9c asks for the medullary lymph sinuses on a lymph-node H&E slide; both are this record's own capsule-to-medulla structure.
 
 ---
 
@@ -377,8 +433,12 @@ The paracortex is the thymus-dependent zone, and its T lymphocytes arrive from t
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q53) asks the main cell population of the paracortical area of the lymph node, and the Practical Blood Questions bank's Histology Spot 5b asks the same zone by name on a palatine-tonsil-adjacent slide set; both are this record's T-lymphocyte zone.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q53) asks the main cell population of the paracortical area of the lymph node, and the Practical Blood Questions bank's Histology Spot 5b asks the same zone by name on a palatine-tonsil-adjacent slide set; both are this record's T-lymphocyte zone.
 
 ---
 
@@ -399,8 +459,12 @@ The spleen is a thick muscular capsule with thick trabeculae radiating from the 
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 6a asks for a spleen (silver stain) slide identification, which is this record's own capsule/trabeculae/parenchyma description.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 6a asks for a spleen (silver stain) slide identification, which is this record's own capsule/trabeculae/parenchyma description.
 
 ---
 
@@ -421,8 +485,12 @@ Splenic white pulp is four zones arranged concentrically around the central arte
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q52) asks the thymus-dependent area of the spleen, and the Practical Blood Questions bank's Histology Spot 3 asks for the germinal centre and the marginal zone on a spleen diagram; all three are zones this one record already names in order.
+universityNotes: au: MED 103's EOM paper (EOM - Blood Final Egyptian final, Q52) asks the thymus-dependent area of the spleen, and the Practical Blood Questions bank's Histology Spot 3 asks for the germinal centre and the marginal zone on a spleen diagram; all three are zones this one record already names in order.
 
 ---
 
@@ -443,8 +511,12 @@ Red pulp is Billroth cords and stave-cell sinusoids whose intercellular gaps let
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 8b asks for the splenic cords of the red pulp on a spleen diagram, which is this record's own Billroth-cord description.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 8b asks for the splenic cords of the red pulp on a spleen diagram, which is this record's own Billroth-cord description.
 
 ---
 
@@ -465,8 +537,12 @@ Open, closed and open-and-closed theories describe how blood crosses from the te
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: The Practical Blood Questions bank's Histology Spot 8c asks for the central (follicular) artery on the same spleen diagram as Spot 8b; this record's circulation route is what identifies that vessel.
+universityNotes: au: The Practical Blood Questions bank's Histology Spot 8c asks for the central (follicular) artery on the same spleen diagram as Spot 8b; this record's circulation route is what identifies that vessel.
 
 ---
 
@@ -487,5 +563,9 @@ The palatine tonsil is stratified squamous epithelium dipping in as crypts, nodu
 ## modules
 +AU-MED-103
 
+
+## learner_years
++1
+
 ## field_notes
-universityNotes: MED 103's EOM paper (EOM - Blood end wafdeen final, Q21) asks which histological structures relate to the palatine tonsil's capsule and keys "mucous acini" — this record's mucous-gland-on-the-deep-aspect fact. The Practical Blood Questions bank's Histology Spot 5a (identification) and Spot 6b/6c (secondary tonsillar crypt, mucous acini) test the same slide.
+universityNotes: au: MED 103's EOM paper (EOM - Blood end wafdeen final, Q21) asks which histological structures relate to the palatine tonsil's capsule and keys "mucous acini" — this record's mucous-gland-on-the-deep-aspect fact. The Practical Blood Questions bank's Histology Spot 5a (identification) and Spot 6b/6c (secondary tonsillar crypt, mucous acini) test the same slide.
