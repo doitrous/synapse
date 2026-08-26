@@ -27,7 +27,7 @@
  * `docs/Kasr-Source-Imports/concept/102-INT-concepts.md` for the three
  * denaturation rows.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Proteins of Biological Importance',

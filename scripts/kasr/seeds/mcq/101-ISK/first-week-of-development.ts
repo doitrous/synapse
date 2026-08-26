@@ -65,7 +65,7 @@
  * key is recorded in the exclusion rather than acted on, because there is no
  * option C in that row for it to name.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'First Week of Development',

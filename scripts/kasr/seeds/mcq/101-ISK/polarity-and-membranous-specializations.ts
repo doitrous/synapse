@@ -36,7 +36,7 @@
  * student sees it. `intermediate-filament-types-and-tumour-diagnosis` is copied
  * verbatim from `cytoplasm.ts`, where it was minted.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Polarity and Membranous Specializations',

@@ -10,7 +10,7 @@
  * resolved by cross-referencing a near-identical sibling question in the
  * same book; two rows are excluded as structurally broken.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Sympathetic nervous system',

@@ -33,7 +33,7 @@
  * Three questions are excluded for having more than one defensible answer.
  * That is a reviewer problem rather than a scan problem, and each says so.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Hand',

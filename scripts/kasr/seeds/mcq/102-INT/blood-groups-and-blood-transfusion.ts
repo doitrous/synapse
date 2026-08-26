@@ -11,7 +11,7 @@
  * declares but never tests (`untested`, build-batches.ts:780-791), and there
  * is nothing here for a declared concept to be tested by.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Blood groups and blood transfusion',

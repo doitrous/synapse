@@ -18,7 +18,7 @@
  * own "cysteine proteases" (p109), an ordinary letter-substitution OCR slip
  * rather than a different, unsupported term.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Cell Cycle, Apoptosis, and Tumor Suppressor Genes',

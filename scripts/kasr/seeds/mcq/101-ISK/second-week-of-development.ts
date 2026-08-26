@@ -32,7 +32,7 @@
  * that the amniotic cavity forms between amnioblast and epiblast without knowing
  * that it does so on the eighth day.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Second Week of Development',

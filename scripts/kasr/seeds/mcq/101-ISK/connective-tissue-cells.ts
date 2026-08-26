@@ -64,7 +64,7 @@
  * `mucoid-ct-is-jelly-rich-in-hyaluronic-acid` are copied verbatim from the leaves
  * that mint them, because two of the papers' rows ask them from the cell side.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Connective Tissue Cells',

@@ -12,7 +12,7 @@
  * The citation is made anyway so the question is complete the moment the
  * article lands.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Myo Epithelium',

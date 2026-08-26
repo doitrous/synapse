@@ -28,7 +28,7 @@
  * recovers the missing option can restore all three without re-deciding
  * anything.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Fascia',

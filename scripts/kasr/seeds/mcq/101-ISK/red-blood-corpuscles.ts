@@ -49,7 +49,7 @@
  * options left. The department book answers both, and both name the page to
  * rescan.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Red Blood Corpuscles',

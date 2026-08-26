@@ -21,7 +21,7 @@
  * `dense-white-fibrous-ct-regular-versus-irregular` is copied verbatim from
  * `connective-tissue-cells.ts`, where it is minted.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Types of Connective Tissue Proper',

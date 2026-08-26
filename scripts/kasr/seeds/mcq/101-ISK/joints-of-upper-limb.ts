@@ -18,7 +18,7 @@
  * are flatly wrong — "the elbow joint is: ball and socket" is one. Every
  * override says so rather than absorbing it.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Joints of Upper Limb',

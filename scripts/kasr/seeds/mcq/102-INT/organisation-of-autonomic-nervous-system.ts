@@ -11,7 +11,7 @@
  * pelvic parasympathetic outflow (`Parasympathetic nervous system` leaf), so
  * both reuse concepts declared fully in those leaves.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Organisation of autonomic nervous system',

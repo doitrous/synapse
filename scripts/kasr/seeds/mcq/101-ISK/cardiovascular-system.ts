@@ -26,7 +26,7 @@
  * both the aorta and the coronary arteries, which are branches of the aorta —
  * two true answers and no key to say which the examiner wanted.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Cardiovascular system',

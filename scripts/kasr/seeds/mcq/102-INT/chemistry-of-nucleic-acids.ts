@@ -27,7 +27,7 @@
  * from this leaf in the DNA Synthesis chapter's own arithmetic question,
  * which needs the identical A-T/G-C pairing fact.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Chemistry of Nucleic Acids',

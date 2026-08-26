@@ -82,7 +82,7 @@
  * concepts to three other leaves keeps each concept\u2019s article list honest:
  * a hand article does not teach chorionic villi.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Fetal Membranes',

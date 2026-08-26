@@ -1,4 +1,4 @@
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: "Physiology Respiratory System — Non-Chemical Control of Respiration",

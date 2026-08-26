@@ -77,7 +77,7 @@
  * kept rather than excluded because the second option is defensible as false on
  * the clinical reading, but it is not a clean item.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Forearm',

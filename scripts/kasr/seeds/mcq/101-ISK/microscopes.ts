@@ -43,7 +43,7 @@
  * `cytoplasm.ts`, because that is exactly the inference they test — given the cell,
  * name the organelle — and because answering either one requires the other.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Microscopes',

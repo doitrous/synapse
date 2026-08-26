@@ -32,7 +32,7 @@
  * concept lists five. That override is set out in full on the two rows it
  * touches rather than absorbed.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Axilla',

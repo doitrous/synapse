@@ -36,7 +36,7 @@
  * `seeds/mcq/101-ISK/shoulder-region.ts` and are not touched here, including the two
  * damaged reprints that leaf did not take.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Muscular system',

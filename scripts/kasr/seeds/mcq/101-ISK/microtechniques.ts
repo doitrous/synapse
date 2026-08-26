@@ -73,7 +73,7 @@
  * questions filed under microtechniques because they name a stain, and a rival key
  * for any of those four would halve a student's mastery of it.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Microtechniques',

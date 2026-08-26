@@ -25,7 +25,7 @@
  * from `non-granular-leukocytes.ts`, where it is minted — the paper asks it from
  * the granulocyte side, and a rival key would halve a student's mastery of it.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Granular leukocytes',

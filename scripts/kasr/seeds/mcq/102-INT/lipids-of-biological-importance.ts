@@ -19,7 +19,7 @@
  * (`docs/Kasr-Source-Imports/concept/102-INT-concepts.md`), because rows here
  * test exactly the facts those concepts already state.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Lipids of Biological Importance',

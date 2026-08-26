@@ -24,7 +24,7 @@
  * (`p38-q7`, where the book states vitamin C, not copper, as a cofactor and
  * never mentions copper at all in this chapter).
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Proteins of Extracellular Matrix',

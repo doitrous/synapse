@@ -7,7 +7,7 @@
  * option in each row is really about a neighbouring leaf's fact). Two rows
  * carry no printed answer key.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Erythropoiesis',

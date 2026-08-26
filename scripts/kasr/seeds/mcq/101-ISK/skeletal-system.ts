@@ -31,7 +31,7 @@
  * what a pneumatic bone *is* and another about what its air cavity is *for*,
  * and the second is answered from the sinus, not from the classification.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Skeletal system',

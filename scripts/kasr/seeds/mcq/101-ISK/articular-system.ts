@@ -23,7 +23,7 @@
  * cartilaginous joint" is keyed to a potential cavity. None of those survive
  * reading the department book's own chapter 4.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Articular system',

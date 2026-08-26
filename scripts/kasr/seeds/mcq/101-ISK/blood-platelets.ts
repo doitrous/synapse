@@ -20,7 +20,7 @@
  * stated diameter of 50-70 µm as the only true option. Kept with its reason so a
  * rescan of page 3 can make it live.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Blood Platelets',

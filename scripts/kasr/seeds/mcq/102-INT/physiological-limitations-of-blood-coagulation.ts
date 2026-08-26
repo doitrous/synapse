@@ -6,7 +6,7 @@
  * factor list from the Abnormalities-of-haemostasis concept batch, and the
  * protein-C/protein-S pathway from `../concept/102-INT-concepts.md`.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Physiological limitations of blood coagulation',

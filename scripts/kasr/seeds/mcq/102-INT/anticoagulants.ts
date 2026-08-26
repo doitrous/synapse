@@ -16,7 +16,7 @@
  * reusing it from a different leaf file is exactly what the pipeline's
  * cross-leaf concept merge is for.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Anticoagulants',

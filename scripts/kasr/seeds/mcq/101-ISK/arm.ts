@@ -42,7 +42,7 @@
  * what a shaft fracture costs. Between them they account for more than half the
  * leaf.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Arm',

@@ -22,7 +22,7 @@
  * on — the 9th week, the head at a quarter of crown-heel length at birth — is
  * stated in the book's own text on pages 106–107.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Fetal Period',

@@ -28,7 +28,7 @@
  * is keyed D, "Inferior", and the book's own table of terms of position gives
  * medial as "nearer to the median plane". The override says so.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Introduction',

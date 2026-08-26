@@ -94,7 +94,7 @@
  * were rewritten as live questions. If the bank is repaired again, the
  * exclusions are the part of this file to re-read.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Cytoplasm',

@@ -41,7 +41,7 @@
  * option and once from 2024 with no options at all; a rescan of either would make
  * it live.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Glandular Epithelium',

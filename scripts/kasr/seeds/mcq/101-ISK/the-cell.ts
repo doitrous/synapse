@@ -55,7 +55,7 @@
  * `red-corpuscle-membrane-carries-blood-groups-outside-and-a-cytoskeleton-inside`
  * are copied verbatim from the leaves that mint them.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'The cell',

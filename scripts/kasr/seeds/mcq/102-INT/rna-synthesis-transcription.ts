@@ -25,7 +25,7 @@
  * ApoB mRNA-editing example, each a distinct fact the reused concepts do not
  * cover.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'RNA Synthesis (Transcription)',

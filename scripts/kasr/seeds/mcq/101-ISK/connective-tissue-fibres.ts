@@ -53,7 +53,7 @@
  * option naming silver, the other reduced four Roman-numeral combinations to
  * unreadable fragments — and neither can be reconstructed without a rescan.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Connective Tissue Fibres',

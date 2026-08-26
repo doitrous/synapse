@@ -41,7 +41,7 @@
  * flagged in the option explanations and on the concept as a conflict, because
  * it is a wording problem a rescan cannot fix.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Pectoral Region',

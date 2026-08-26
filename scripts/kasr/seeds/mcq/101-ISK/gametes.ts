@@ -38,7 +38,7 @@
  * On whether the books ask timing the book never states: they do not here. Both
  * schedules are printed in the book's own text on page 66.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Gametes',

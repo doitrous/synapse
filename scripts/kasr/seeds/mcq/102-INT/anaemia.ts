@@ -6,7 +6,7 @@
  * intake already have concepts from the hand-authored physiology batch, but
  * chronic loss did not), and two reuse existing concepts.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Anaemia',

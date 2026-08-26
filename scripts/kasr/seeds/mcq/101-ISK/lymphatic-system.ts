@@ -28,7 +28,7 @@
  * out to be worse than a missing option: its four options appear elsewhere in
  * the bank attached to a stem about the segments of the spinal cord.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Lymphatic system',

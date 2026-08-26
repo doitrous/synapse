@@ -9,7 +9,7 @@
  * structurally broken (the printed key grid and the next question's stem
  * bled into its own option text during extraction).
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Autonomic ganglia',

@@ -21,7 +21,7 @@
  * mechanism, Km, allosteric regulation, irreversible inhibition, zymogen
  * activation, and covalent phosphorylation.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Enzymes',

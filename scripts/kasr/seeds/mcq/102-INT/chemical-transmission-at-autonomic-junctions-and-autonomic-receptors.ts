@@ -12,7 +12,7 @@
  * covered. Two rows are excluded: one for a genuinely irresolvable OCR key
  * conflict, one for a structurally broken option set.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Chemical transmission at autonomic junctions and autonomic receptors',

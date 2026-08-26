@@ -21,7 +21,7 @@
  * (number of somites − 1)/3 + 20, which is printed on page 88, and the four
  * occipital pairs are in the book's regional list on the same page.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Embryonic Period',

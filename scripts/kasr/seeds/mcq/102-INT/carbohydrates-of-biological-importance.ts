@@ -30,7 +30,7 @@
  * `answerOverride` because the bank supplied no usable printed key for them,
  * but the book settles each one directly.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Carbohydrates of Biological Importance',

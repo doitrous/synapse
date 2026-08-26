@@ -48,7 +48,7 @@
  * `all-the-statements-concerned-to-the-trilaminar-appearance-of` prints two false
  * statements and asks for one exception. That is not fixable by rescanning.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Third Week of Development',

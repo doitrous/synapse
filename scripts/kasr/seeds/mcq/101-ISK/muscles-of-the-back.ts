@@ -27,7 +27,7 @@
  * the extractor was reading a margin, not an answer line, and a margin mark
  * lands on the first option far more often than chance allows.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Muscles of the Back',

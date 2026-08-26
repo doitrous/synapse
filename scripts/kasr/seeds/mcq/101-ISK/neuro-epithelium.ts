@@ -17,7 +17,7 @@
  * `ART-101-HIS-NEURO-EPITHELIUM` does not exist yet; another lane is writing
  * it. Cited anyway.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Neuro Epithelium',

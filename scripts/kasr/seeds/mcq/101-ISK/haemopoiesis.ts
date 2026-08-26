@@ -31,7 +31,7 @@
  * with a `gaps` note saying that no source this faculty would accept supports it.
  * The answer came neither from a key nor from the book, and the row says so.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Haemopoiesis',

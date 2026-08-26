@@ -24,7 +24,7 @@
  * matching a nucleotide derivative to its biological role) — reusing either
  * would misdescribe what the question is teaching, so both stay unused here.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Chemistry of Free Nucleotides',

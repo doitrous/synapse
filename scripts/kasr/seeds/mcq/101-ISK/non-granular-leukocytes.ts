@@ -26,7 +26,7 @@
  * that they cannot be told apart by microscopy, and gives cell-mediated immunity to
  * T and humoral to B — and no existing concept in the batch carried it.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Non granular leukocytes',

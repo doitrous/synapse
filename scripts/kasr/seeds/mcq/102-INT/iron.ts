@@ -8,7 +8,7 @@
  * One row (an OCR key conflict between two options) is resolved from the
  * module book rather than guessed.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Iron',

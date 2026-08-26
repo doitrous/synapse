@@ -35,7 +35,7 @@
  * mechanisms, gene copy-number/rearrangement, cis-/trans-acting elements,
  * miRNA, and translational regulation by IF phosphorylation.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Regulation of Gene Expression',

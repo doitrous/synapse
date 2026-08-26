@@ -34,7 +34,7 @@
  *
  * Four answers overridden, two of them because the printed key is wrong.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Nervous system',

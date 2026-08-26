@@ -29,7 +29,7 @@
  * mutation taxonomy (kept distinct from the existing consequence-focused
  * point-mutation concept).
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Protein Synthesis (Translation)',

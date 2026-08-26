@@ -11,7 +11,7 @@
  * conflicting key are false per the book and the true answer was named by
  * neither OCR pass.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Parasympathetic nervous system',

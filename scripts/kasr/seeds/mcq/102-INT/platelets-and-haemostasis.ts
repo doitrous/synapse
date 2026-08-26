@@ -19,7 +19,7 @@
  * duplicate the extractor's dedup pass did not catch (same source book,
  * same content, two different printed question numbers).
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Platelets and haemostasis',

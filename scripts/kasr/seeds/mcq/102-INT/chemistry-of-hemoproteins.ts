@@ -28,7 +28,7 @@
  * that tests exactly the fact it already states. The other six concepts are
  * minted fresh from this chapter's own text.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Chemistry of Hemoproteins',

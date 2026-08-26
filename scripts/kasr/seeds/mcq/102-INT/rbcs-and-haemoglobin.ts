@@ -6,7 +6,7 @@
  * genuine printed defect (the department's own book prints the same option
  * text twice) and one for having no answer key at all.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'RBCs and haemoglobin',

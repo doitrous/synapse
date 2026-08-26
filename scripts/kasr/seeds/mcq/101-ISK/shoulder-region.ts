@@ -58,7 +58,7 @@
  * shoulder its paralysis leaves. Abduction is asked in stages, and the stage
  * boundaries (0–15, 15–90, beyond 90) are the marks.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Shoulder Region',

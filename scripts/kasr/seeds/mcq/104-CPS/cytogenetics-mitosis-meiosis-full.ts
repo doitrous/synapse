@@ -1,4 +1,4 @@
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: "Cytogenetics — Mitosis Stages, Meiosis and Their Comparison",

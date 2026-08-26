@@ -7,7 +7,7 @@
  * whose questions the bank's page-proximity `modulePathGuess` filed here
  * even though their content belongs to other leaves.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Vitamin B12 and folic acid',

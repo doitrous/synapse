@@ -7,7 +7,7 @@
  * evidence sits, and reused here); the other tests haemophilia, which
  * already has a concept from the hand-authored physiology concept batch.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Abnormalities of haemostasis',

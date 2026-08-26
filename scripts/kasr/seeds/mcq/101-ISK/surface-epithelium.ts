@@ -43,7 +43,7 @@
  * against the next question's options, and the lung alveoli row has no options at
  * all. All three name the page to rescan.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Surface Epithelium',

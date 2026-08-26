@@ -23,7 +23,7 @@
  * three are wrong in the same direction — they mark the first option. The
  * fourth had no key at all.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Veins of the Upper Limb',

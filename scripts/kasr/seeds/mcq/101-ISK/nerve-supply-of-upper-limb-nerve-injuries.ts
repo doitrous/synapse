@@ -99,7 +99,7 @@
  * and minting a nerve-side rival to either key would split a student's
  * mastery of the same fact in two.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Nerve Supply of Upper Limb & Nerve Injuries',

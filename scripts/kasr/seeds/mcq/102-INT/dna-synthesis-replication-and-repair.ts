@@ -24,7 +24,7 @@
  * both chapters' question books independently ask which phase DNA replication
  * occurs in.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'DNA Synthesis (Replication) and Repair',

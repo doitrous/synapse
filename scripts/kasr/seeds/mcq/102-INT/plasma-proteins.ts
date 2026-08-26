@@ -5,7 +5,7 @@
  * this leaf from the hand-authored physiology batch, which covers formation
  * site and all eight named functions. Three rows carry no printed answer key.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Plasma proteins',

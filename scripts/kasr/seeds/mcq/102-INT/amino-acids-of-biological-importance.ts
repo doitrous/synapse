@@ -26,7 +26,7 @@
  * biological value; the metabolic scheme; the amphoteric/isoelectric-point
  * property; and peptide bond formation.
  */
-import type { McqLeafSeed } from '../mcq.ts'
+import type { McqLeafSeed } from '../../mcq.ts'
 
 export const LEAF: McqLeafSeed = {
   leaf: 'Amino Acids of Biological Importance',
