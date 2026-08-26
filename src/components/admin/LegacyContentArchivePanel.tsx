@@ -11,7 +11,7 @@ import { Icon } from '@/components/ui/Icon'
 
 interface ArchivePreview {
   operationId: string
-  selection: 'unassigned-modules-v1'
+  selection: 'unassigned-modules-v2'
   expiresAt: string
   ledgerVersion: number | null
   ledgerDigest: string
@@ -40,6 +40,8 @@ interface ArchiveReceipt {
   ok: true
   operationId: string
   counts: ArchivePreview['counts']
+  affectedSessionsAcknowledged?: ArchivePreview['active']
+  affectedSessionOverrideUsed?: boolean
   archivedAt: string
   version: number
 }
@@ -116,6 +118,7 @@ export function LegacyContentArchivePanel() {
   const [dialogOpen, setDialogOpen] = useState(false)
   const [reason, setReason] = useState('')
   const [confirmation, setConfirmation] = useState('')
+  const [allowAffectedSessions, setAllowAffectedSessions] = useState(false)
   const [error, setError] = useState('')
   const applyingRef = useRef(false)
   const receiptRef = useRef<HTMLDivElement>(null)
@@ -140,6 +143,7 @@ export function LegacyContentArchivePanel() {
     try {
       setPreview(await apiPost<ArchivePreview>('/admin/content-archive/preview'))
       setConfirmation('')
+      setAllowAffectedSessions(false)
     } catch (nextError) {
       setError(errorText(nextError))
     } finally {
@@ -157,6 +161,7 @@ export function LegacyContentArchivePanel() {
         operationId: preview.operationId,
         confirmation,
         reason,
+        allowAffectedSessions,
       })
       setReceipt(next)
       setDialogOpen(false)
@@ -171,8 +176,8 @@ export function LegacyContentArchivePanel() {
   const activeTotal = preview
     ? preview.active.studyRooms + preview.active.challenges + preview.active.partyQuestionSessions
     : 0
-  const ready = Boolean(preview && !preview.blocked && preview.counts.total > 0)
-  const confirmed = Boolean(preview && confirmation === preview.confirmationPhrase && reason.trim().length >= 10)
+  const ready = Boolean(preview && preview.counts.total > 0)
+  const confirmed = Boolean(preview && confirmation === preview.confirmationPhrase && reason.trim().length >= 10 && (!preview.blocked || allowAffectedSessions))
   const workflowCounts = preview ? statusEntries(preview) : []
 
   return (
@@ -253,7 +258,7 @@ export function LegacyContentArchivePanel() {
         {preview?.blocked && preview.counts.total > 0 && !receipt && (
           <div className="flex items-start gap-2 rounded-lg border border-warning/30 bg-warning-tint/65 px-3 py-2.5 text-[12px] leading-relaxed text-ink-2">
             <Icon icon={Clock3} size={15} className="mt-0.5 shrink-0 text-warning" />
-            <span><strong className="text-ink">Archive paused.</strong> A room, challenge, or party session contains one of these unassigned questions. Finish it, then refresh the preflight.</span>
+            <span><strong className="text-ink">Affected study activity found.</strong> A room, challenge, or party session contains one of these unassigned questions. You can wait for it to finish, or explicitly acknowledge the interruption in the final review.</span>
           </div>
         )}
 
@@ -310,6 +315,19 @@ export function LegacyContentArchivePanel() {
                 <span className="text-[11px] font-semibold text-ink-2">This includes</span>
                 {workflowCounts.map(([status, count]) => <Badge key={status} tone="outline">{count} {status}</Badge>)}
               </div>
+            )}
+            {preview.blocked && (
+              <label className="flex cursor-pointer items-start gap-3 rounded-lg border border-warning/35 bg-warning-tint/50 p-3">
+                <input
+                  type="checkbox"
+                  className="mt-0.5 size-4 shrink-0 accent-[var(--color-warning)]"
+                  checked={allowAffectedSessions}
+                  onChange={(event) => setAllowAffectedSessions(event.target.checked)}
+                />
+                <span className="text-[12px] leading-relaxed text-ink-2">
+                  I understand that archiving now may interrupt {activeTotal} affected group {activeTotal === 1 ? 'session' : 'sessions'}, and I want to continue.
+                </span>
+              </label>
             )}
             <Field label="Reason" htmlFor="legacy-archive-reason" hint="Stored with the immutable super-admin audit receipt.">
               <Textarea id="legacy-archive-reason" value={reason} onChange={(event) => setReason(event.target.value)} placeholder="Why this unassigned content is being retired…" />

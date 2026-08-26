@@ -93,12 +93,13 @@ import {
 } from './facebook.js'
 import { toMariaDbDate } from './datetime.js'
 import { withContentCatalogueGate } from './contentCatalogueGate.js'
-import { affectedSessionRows } from './contentArchiveActivity.js'
+import { affectedSessionIds, affectedSessionSetsMatch } from './contentArchiveActivity.js'
 import { assembleChunks, receiveChunk, receiveStream, resolveUploadWorkspace, resolveWithin } from './uploads.js'
 import {
   CONTENT_ARCHIVE_TTL_MINUTES,
   CONTENT_ARCHIVE_SELECTION,
   activeArchiveBlockers,
+  archiveActivityAllowed,
   applyContentArchive,
   archiveConfirmation,
   contentArchiveManifest,
@@ -158,17 +159,25 @@ async function mediaRecords() {
 }
 
 /** Student activity that contains one of the questions this archive withdraws. */
-async function contentVisibilityResetActivity(db = pool, targetQuestionIds = null) {
+async function contentVisibilityResetSnapshot(db = pool, targetQuestionIds = null) {
   const [[roomRows], [challengeRows], [partyRows]] = await Promise.all([
-    db.query("SELECT question_ids AS questionIds FROM study_rooms WHERE status IN ('lobby','running')"),
-    db.query("SELECT question_ids AS questionIds FROM challenges WHERE status IN ('sent','running')"),
-    db.query("SELECT item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
+    db.query("SELECT id, question_ids AS questionIds FROM study_rooms WHERE status IN ('lobby','running')"),
+    db.query("SELECT id, question_ids AS questionIds FROM challenges WHERE status IN ('sent','running')"),
+    db.query("SELECT id, item_refs AS itemRefs FROM study_party_sessions WHERE status IN ('open','scheduled')"),
   ])
-  return {
-    studyRooms: affectedSessionRows(roomRows, 'questionIds', targetQuestionIds),
-    challenges: affectedSessionRows(challengeRows, 'questionIds', targetQuestionIds),
-    partyQuestionSessions: affectedSessionRows(partyRows, 'itemRefs', targetQuestionIds, { party: true }),
+  const sessionIds = {
+    studyRooms: affectedSessionIds(roomRows, 'questionIds', targetQuestionIds),
+    challenges: affectedSessionIds(challengeRows, 'questionIds', targetQuestionIds),
+    partyQuestionSessions: affectedSessionIds(partyRows, 'itemRefs', targetQuestionIds, { party: true }),
   }
+  return {
+    active: Object.fromEntries(Object.entries(sessionIds).map(([kind, ids]) => [kind, ids.length])),
+    sessionIds,
+  }
+}
+
+async function contentVisibilityResetActivity(db = pool, targetQuestionIds = null) {
+  return (await contentVisibilityResetSnapshot(db, targetQuestionIds)).active
 }
 
 /**
@@ -1224,7 +1233,9 @@ app.post('/api/admin/content-archive/preview', requireSuperAdmin, wrap(async (re
     return res.status(409).json({ error: error?.message ?? 'content ledger cannot be archived safely' })
   }
   const targetQuestionIds = new Set(manifest.targets.filter((target) => target.kind === 'question').map((target) => target.id))
-  const active = await contentVisibilityResetActivity(pool, targetQuestionIds)
+  const activity = await contentVisibilityResetSnapshot(pool, targetQuestionIds)
+  manifest.affectedSessions = activity.sessionIds
+  const active = activity.active
   const operationId = `archive-${randomUUID()}`
   const confirmationPhrase = archiveConfirmation(manifest.counts)
   const expiresAt = new Date(Date.now() + CONTENT_ARCHIVE_TTL_MINUTES * 60_000)
@@ -1270,6 +1281,7 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
   const operationId = String(req.body?.operationId ?? '').trim()
   const confirmation = String(req.body?.confirmation ?? '').trim()
   const reason = String(req.body?.reason ?? '').trim().slice(0, 500)
+  const allowAffectedSessions = req.body?.allowAffectedSessions === true
   if (!operationId) return res.status(400).json({ error: 'operationId is required' })
   if (reason.length < 10) return res.status(400).json({ error: 'a clear reason of at least 10 characters is required' })
 
@@ -1315,10 +1327,15 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
       return res.status(409).json({ error: 'archive preflight uses an obsolete selection; run it again' })
     }
     const targetQuestionIds = new Set((manifest.targets ?? []).filter((target) => target?.kind === 'question').map((target) => target.id))
-    const active = await contentVisibilityResetActivity(conn, targetQuestionIds)
-    if (activeArchiveBlockers(active) > 0) {
+    const activity = await contentVisibilityResetSnapshot(conn, targetQuestionIds)
+    const active = activity.active
+    if (!affectedSessionSetsMatch(manifest.affectedSessions, activity.sessionIds)) {
       await conn.rollback()
-      return res.status(409).json({ error: 'affected question sessions must finish first', active })
+      return res.status(409).json({ error: 'affected question sessions changed after preflight; refresh and review again', active })
+    }
+    if (!archiveActivityAllowed(active, allowAffectedSessions)) {
+      await conn.rollback()
+      return res.status(409).json({ error: 'affected question sessions require explicit acknowledgement', active })
     }
 
     const [ledgerRows] = await conn.query('SELECT v FROM app_state WHERE k = ? FOR UPDATE', [CONTENT_LEDGER_STATE_KEY])
@@ -1363,6 +1380,8 @@ app.post('/api/admin/content-archive/apply', requireSuperAdmin, wrap(async (req,
       ok: true,
       operationId,
       counts: archived.counts,
+      affectedSessionsAcknowledged: active,
+      affectedSessionOverrideUsed: allowAffectedSessions && activeArchiveBlockers(active) > 0,
       archivedAt: archivedAt.toISOString(),
       version: inserted.insertId,
     }

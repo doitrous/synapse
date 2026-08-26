@@ -2,7 +2,7 @@ import { createHash } from 'node:crypto'
 
 export const CONTENT_ARCHIVE_TTL_MINUTES = 20
 export const GENERATED_NO_MODULE_TAG = 'Generated - No Module'
-export const CONTENT_ARCHIVE_SELECTION = 'unassigned-modules-v1'
+export const CONTENT_ARCHIVE_SELECTION = 'unassigned-modules-v2'
 
 const TARGET_KINDS = new Set(['article', 'question'])
 
@@ -240,6 +240,11 @@ export function activeArchiveBlockers(activity) {
   return Number(activity?.studyRooms ?? 0)
     + Number(activity?.challenges ?? 0)
     + Number(activity?.partyQuestionSessions ?? 0)
+}
+
+/** Live activity requires a separate, explicit acknowledgement at apply time. */
+export function archiveActivityAllowed(activity, allowAffectedSessions) {
+  return activeArchiveBlockers(activity) === 0 || allowAffectedSessions === true
 }
 
 export function originalScopeFor(target) {

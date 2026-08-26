@@ -2,6 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import {
   activeArchiveBlockers,
+  archiveActivityAllowed,
   applyContentArchive,
   archiveConfirmation,
   contentArchiveManifest,
@@ -58,7 +59,7 @@ test('manifest freezes only module-unassigned articles and questions', () => {
     { ...article({ id: 'r-1', kind: 'resource' }) },
   ]
   const manifest = contentArchiveManifest(ledger)
-  assert.equal(manifest.selection, 'unassigned-modules-v1')
+  assert.equal(manifest.selection, 'unassigned-modules-v2')
   assert.deepEqual(manifest.counts, { articles: 1, questions: 1, total: 2 })
   assert.deepEqual(manifest.targets.map(({ id }) => id), ['a-2', 'q-2'])
   assert.equal(manifest.targets[0].fingerprint, contentDigest(unassignedArticle({ id: 'a-2' })))
@@ -140,6 +141,9 @@ test('malformed target IDs are rejected before a destructive manifest exists', (
 
 test('collaborative activity is counted conservatively', () => {
   assert.equal(activeArchiveBlockers({ studyRooms: 2, challenges: 3, partyQuestionSessions: 4 }), 9)
+  assert.equal(archiveActivityAllowed({ studyRooms: 2, challenges: 3, partyQuestionSessions: 4 }, false), false)
+  assert.equal(archiveActivityAllowed({ studyRooms: 2, challenges: 3, partyQuestionSessions: 4 }, true), true)
+  assert.equal(archiveActivityAllowed({ studyRooms: 0, challenges: 0, partyQuestionSessions: 0 }, false), true)
 })
 
 test('an older detached archive missing the retirement tag is repaired once', () => {
