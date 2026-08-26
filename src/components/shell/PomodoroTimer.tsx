@@ -224,16 +224,21 @@ export function PomodoroTimer() {
       <button
         type="button"
         onClick={() => setOpen((value) => !value)}
-        aria-label={t('Pomodoro timer')}
+        aria-label={current.running ? `${t(LABEL[current.mode])}: ${format(current.remainingSeconds)}` : t('Pomodoro timer')}
         aria-haspopup="dialog"
         aria-expanded={open}
         className={cn(
-          'relative inline-flex size-11 items-center justify-center rounded-md text-ink-2 transition-colors hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary lg:size-9',
+          'relative inline-flex h-11 items-center justify-center rounded-md text-ink-2 transition-[width,background-color,color,padding] hover:bg-inset hover:text-ink focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary lg:h-9',
+          current.running ? 'min-w-[5.4rem] gap-1.5 bg-inset px-2.5 text-ink lg:min-w-[5rem] lg:px-2' : 'w-11 lg:w-9',
           open && 'bg-inset text-ink',
         )}
       >
         <Icon icon={TimerReset} size={17} />
-        {current.running && <span className="absolute end-1.5 top-1.5 size-1.5 rounded-full bg-primary ring-2 ring-paper" />}
+        {current.running && (
+          <span className="tnum font-mono text-[12px] font-semibold tracking-[-0.02em] text-ink" aria-hidden>
+            {format(current.remainingSeconds)}
+          </span>
+        )}
       </button>
 
       {open && (
