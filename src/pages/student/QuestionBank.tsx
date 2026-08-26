@@ -1068,11 +1068,13 @@ export function QuestionBank() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions, reviewConcepts, reviewSubject])
 
+  // Every live test has an elapsed clock. Timed mode interprets it against the
+  // sitting allowance; Tutor mode presents the same value as a calm count-up.
   useEffect(() => {
-    if (phase !== 'running' || mode !== 'timed' || reviewing || visibilityPaused) return
+    if (phase !== 'running' || reviewing || visibilityPaused) return
     const id = setInterval(() => setElapsed((e) => e + 1), 1000)
     return () => clearInterval(id)
-  }, [phase, mode, reviewing, visibilityPaused])
+  }, [phase, reviewing, visibilityPaused])
 
   /** Close the clock on whichever question was showing, and open it on this one. */
   const switchTiming = useCallback((nextId: string | null) => {
@@ -1816,12 +1818,11 @@ export function QuestionBank() {
     // answer; the incoming branch factored the record out into `attemptFor`, so
     // one answer and a whole sitting cannot value a question differently. Both.
     setChecked((c) => ({ ...c, [q.id]: true }))
-    // Untimed, and not a `mode === 'timed'` question. This is the Tutor writer:
-    // the button that calls it is rendered in no other mode, and the clock runs
-    // in no mode but timed. Asking anyway read a clock that never started and
-    // could only ever file a measured-looking zero. A timed sitting is measured
-    // by `switchTiming`, which owns `questionStartedAt` — this used to reset it
-    // from underneath — and committed by `commitAnswers`.
+    // Tutor's visible clock measures the sitting, not the speed of a single
+    // answer. Keep its attempt untimed so time spent reading feedback is never
+    // mistaken for answer latency. A timed sitting is measured by
+    // `switchTiming`, which owns `questionStartedAt`, and committed by
+    // `commitAnswers`.
     logAttempt(attemptFor(q, chosen, null))
   }
 
@@ -1875,9 +1876,8 @@ export function QuestionBank() {
    *
    * What a timed sitting owes the log at the end — see `pendingAttempts`.
    *
-   * `seconds` comes from the clock that followed the student between questions,
-   * and only in timed mode: that is the only mode the clock runs in, so a tutor
-   * sitting would otherwise file a measured-looking zero against every question.
+   * `seconds` comes from the per-question clock in timed mode. Tutor's count-up
+   * is session context only, so it deliberately files no answer-latency value.
    */
   function commitAnswers() {
     const pending = pendingAttempts(session, answers, checked)
@@ -1929,18 +1929,24 @@ export function QuestionBank() {
                 rather than a caption: same place, same width, legible across
                 the room. It was previously grey mono text among four other
                 grey controls, which is close to not being there. */}
-            {mode === 'timed' && !reviewing && (
+            {!reviewing && (
               <span
                 className={cn(
                   'tnum inline-flex items-center gap-1.5 rounded-lg border bg-surface px-2.5 py-1.5 font-mono text-[14px] font-semibold shadow-panel',
-                  sessionClock.overtime > 0 ? 'border-danger/40 text-danger' : 'border-line-2 text-ink',
+                  mode === 'timed' && sessionClock.overtime > 0 ? 'border-danger/40 text-danger' : 'border-line-2 text-ink',
                 )}
-                aria-label={sessionClock.overtime > 0
-                  ? `${t('Overtime')} ${clock(sessionClock.overtime)}`
-                  : `${t('Time remaining')} ${clock(sessionClock.remaining)}`}
+                aria-label={mode === 'tutor'
+                  ? `${t('Elapsed time')} ${clock(elapsed)}`
+                  : sessionClock.overtime > 0
+                    ? `${t('Overtime')} ${clock(sessionClock.overtime)}`
+                    : `${t('Time remaining')} ${clock(sessionClock.remaining)}`}
               >
                 <Icon icon={Clock} size={15} className="text-primary" />
-                {sessionClock.overtime > 0 ? `+${clock(sessionClock.overtime)}` : clock(sessionClock.remaining)}
+                {mode === 'tutor'
+                  ? clock(elapsed)
+                  : sessionClock.overtime > 0
+                    ? `+${clock(sessionClock.overtime)}`
+                    : clock(sessionClock.remaining)}
               </span>
             )}
           </div>
