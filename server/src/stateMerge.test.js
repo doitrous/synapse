@@ -1,7 +1,7 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
-import { authoriseChanges, diffDocument, isMergeable, mergeDocument } from './stateMerge.js'
+import { authoriseChanges, diffDocument, isMergeable, mergeDocument, reconstructChanges, applyDelta } from './stateMerge.js'
 
 const LEDGER = 'synapse-admin-content-ledger-v4'
 const GRAPH = 'synapse-concept-graph-v2'
@@ -204,6 +204,81 @@ test('the newest version row must equal app_state, or every re-edit is a phantom
   const fixed = mergeDocument(LEDGER, correctBase, stored, incoming)
   assert.equal(fixed.ok, true)
   assert.equal(fixed.value.find((item) => item.id === 'q-imported').status, 'Published')
+})
+
+// ── Delta saves: the client sends only the items it changed ──────────────────
+
+test('a delta publishes one question without resending the rest', () => {
+  const stored = [q('q1', 'Anatomy'), { ...q('q2', 'Physiology'), status: 'Draft' }]
+  const changes = reconstructChanges(LEDGER, [
+    { collection: 'items', id: 'q2', before: { ...q('q2', 'Physiology'), status: 'Draft' }, after: { ...q('q2', 'Physiology'), status: 'Published' } },
+  ])
+  const merged = applyDelta(LEDGER, stored, changes)
+  assert.equal(merged.ok, true)
+  assert.equal(merged.value.find((item) => item.id === 'q2').status, 'Published')
+  assert.equal(merged.value.find((item) => item.id === 'q1').title, 'Anatomy') // untouched
+  assert.equal(merged.value.length, 2)
+})
+
+test('a delta whose before no longer matches what is stored is a conflict', () => {
+  const stored = [{ ...q('q1', 'Anatomy'), status: 'Published' }] // someone else already published it
+  const changes = reconstructChanges(LEDGER, [
+    { collection: 'items', id: 'q1', before: { ...q('q1', 'Anatomy'), status: 'Draft' }, after: { ...q('q1', 'Anatomy'), status: 'In review' } },
+  ])
+  const merged = applyDelta(LEDGER, stored, changes)
+  assert.equal(merged.ok, false)
+  assert.deepEqual(merged.conflicts, ['q1'])
+})
+
+test('a delta applies the same result a whole-document save would', () => {
+  const base = [q('q1', 'Anatomy'), { ...q('q2', 'Physiology'), status: 'Draft' }]
+  const stored = base
+  const incoming = [q('q1', 'Anatomy'), { ...q('q2', 'Physiology'), status: 'Published' }]
+  const whole = mergeDocument(LEDGER, base, stored, incoming)
+  const delta = applyDelta(LEDGER, stored, reconstructChanges(LEDGER, diffDocument(LEDGER, base, incoming)))
+  assert.equal(whole.ok, true)
+  assert.equal(delta.ok, true)
+  assert.deepEqual(delta.value, whole.value)
+})
+
+test('a delta add and a delta delete both apply', () => {
+  const stored = [q('q1', 'Anatomy'), q('q2', 'Physiology')]
+  const changes = reconstructChanges(LEDGER, [
+    { collection: 'items', id: 'q3', before: null, after: q('q3', 'Biochem') }, // add
+    { collection: 'items', id: 'q2', before: q('q2', 'Physiology'), after: null }, // delete
+  ])
+  const merged = applyDelta(LEDGER, stored, changes)
+  assert.equal(merged.ok, true)
+  assert.deepEqual(merged.value.map((item) => item.id).sort(), ['q1', 'q3'])
+})
+
+test('reconstructChanges derives kind and tabs from the adapter, not the client', () => {
+  // The client cannot assert its way past authorisation by naming its own tabs.
+  const changes = reconstructChanges(LEDGER, [
+    { collection: 'items', id: 'q1', before: null, after: q('q1', 'Anatomy'), kind: 'article', tabs: ['library'] },
+  ])
+  assert.equal(changes[0].kind, 'question')
+  assert.deepEqual(changes[0].tabs, ['questions'])
+  // And so a reviewer without the questions tab is still refused.
+  assert.equal(authoriseChanges(changes, { heldTabs: ['library'], contentScope: null }).ok, false)
+  assert.equal(authoriseChanges(changes, { heldTabs: ['questions'], contentScope: null }).ok, true)
+})
+
+test('malformed change sets are refused, never read as delete-everything', () => {
+  assert.equal(reconstructChanges(LEDGER, undefined), null)
+  assert.equal(reconstructChanges(LEDGER, 'not-an-array'), null)
+  assert.equal(reconstructChanges(LEDGER, [{ collection: 'nope', id: 'q1', after: q('q1', 'x') }]), null) // unknown collection
+  assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 42, after: q('q1', 'x') }]), null) // non-string id
+  assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 'q1', before: null, after: null }]), null) // empty change
+  assert.equal(reconstructChanges(LEDGER, [{ collection: 'items', id: 'q1', after: q('q2', 'x') }]), null) // after.id disagrees
+  assert.equal(reconstructChanges('synapse-vouchers-v1', [{ collection: 'items', id: 'q1', after: q('q1', 'x') }]), null) // not a mergeable key
+})
+
+test('an empty delta is a no-op that changes nothing', () => {
+  const stored = [q('q1', 'Anatomy')]
+  const merged = applyDelta(LEDGER, stored, reconstructChanges(LEDGER, []))
+  assert.equal(merged.ok, true)
+  assert.deepEqual(merged.value, stored)
 })
 
 test('an unmergeable document is returned as sent, for the caller to version-check', () => {

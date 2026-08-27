@@ -249,7 +249,7 @@ export function ControlDashboard({
   archiveControl = 'internal',
 }: ControlDashboardProps) {
   const activeScope = scope ?? questionScope
-  const [ledger, setItems] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
+  const [ledger, setItems, saveStatus] = usePersistentState<ManagedContentItem[]>(CONTENT_LEDGER_STORAGE_KEY, initialManagedContent)
   /**
    * What this person may actually work on.
    *
@@ -275,6 +275,23 @@ export function ControlDashboard({
   const [editing, setEditing] = useState<ManagedContentItem | null>(null)
   const [deleting, setDeleting] = useState<ManagedContentItem | null>(null)
   const [notice, setNotice] = useState<{ text: string; tone: 'success' | 'warning' } | null>(null)
+  // The honest save signal. A content edit updates the row immediately, but it
+  // is not saved until the server says so — so success is never announced up
+  // front. `saveStatus` (from the shared store) is the truth: pending while a
+  // write is in flight, `conflict`/`error` when it was refused and the change
+  // rolled back. `justSaved` flashes only on a real pending→clean transition.
+  const [justSaved, setJustSaved] = useState(false)
+  const wasSaving = useRef(false)
+  useEffect(() => {
+    const failed = Boolean(saveStatus.error) || Boolean(saveStatus.conflict)
+    if (wasSaving.current && !saveStatus.pending && !failed) setJustSaved(true)
+    wasSaving.current = saveStatus.pending
+  }, [saveStatus.pending, saveStatus.error, saveStatus.conflict])
+  useEffect(() => {
+    if (!justSaved) return
+    const timer = window.setTimeout(() => setJustSaved(false), 2500)
+    return () => window.clearTimeout(timer)
+  }, [justSaved])
   /** A thing that happened. */
   const say = (text: string) => setNotice({ text, tone: 'success' })
   /** A thing that did not happen, and why. */
@@ -495,9 +512,9 @@ export function ControlDashboard({
     setEditing(null)
     if (verdict.hardBlocked && next.status === 'Published') {
       warn(`${CONTENT_KIND_LABEL[next.kind].singular} kept in review: ${verdict.reason}. Supply the required media before publishing.`)
-    } else {
-      say(exists ? `${CONTENT_KIND_LABEL[next.kind].singular} updated.` : `${CONTENT_KIND_LABEL[next.kind].singular} added as ${next.status.toLowerCase()}.`)
     }
+    // Whether the save reached the server is reported by the save indicator, not
+    // claimed here before the write has left.
   }
 
   const isTaxonomyKind = activeKind === 'question' || activeKind === 'article' || activeKind === 'resource'
@@ -535,7 +552,6 @@ export function ControlDashboard({
   function sendForReview(item: ManagedContentItem) {
     if (item.status === 'In review') return
     setItems((current) => current.map((candidate) => candidate.id === item.id ? { ...candidate, status: 'In review', updatedAt: new Date().toISOString() } : candidate))
-    say(`“${item.title}” sent for review.`)
   }
 
   /* ---- Bulk selection ---------------------------------------------------- */
@@ -566,7 +582,7 @@ export function ControlDashboard({
    * An empty target list used to return in silence, leaving the selection sitting
    * there and the admin with no idea whether anything had happened. It now says so.
    */
-  function applyStatus(targets: ManagedContentItem[], status: Status, verb: string, nothingToDo: string) {
+  function applyStatus(targets: ManagedContentItem[], status: Status, nothingToDo: string) {
     if (!targets.length) { warn(nothingToDo); return }
     const ids = new Set(targets.map((item) => item.id))
     const at = new Date().toISOString()
@@ -576,7 +592,6 @@ export function ControlDashboard({
       ids.forEach((id) => next.delete(id))
       return next
     })
-    say(`${targets.length} ${targets.length === 1 ? 'item' : 'items'} ${verb}.`)
   }
 
   function applyTags(tags: string[]) {
@@ -599,12 +614,11 @@ export function ControlDashboard({
     setItems((current) => current.map((item) => ids.has(item.id) ? addContentTags(item, tags, at) : item))
     setSelected(new Set())
     setBulkTagOpen(false)
-    say(`${ids.size} selected ${ids.size === 1 ? 'item' : 'items'} updated with ${tags.length} ${tags.length === 1 ? 'tag' : 'tags'}.`)
   }
 
   function publishSelected(includeBlocked: boolean) {
     const targets = includeBlocked ? [...readiness.ready, ...forceableBlocked.map((entry) => entry.item)] : readiness.ready
-    applyStatus(targets, 'Published', 'published', 'Nothing to publish in this selection.')
+    applyStatus(targets, 'Published', 'Nothing to publish in this selection.')
     setForcePublish(false)
   }
 
@@ -633,7 +647,6 @@ export function ControlDashboard({
     }
     setItems((current) => current.filter((item) => item.id !== deleted.id))
     setDeleting(null)
-    say(`${CONTENT_KIND_LABEL[deleted.kind].singular} deleted.`)
   }
 
   const summaryCards = isArchiveView
@@ -669,6 +682,34 @@ export function ControlDashboard({
           <Icon icon={notice.tone === 'warning' ? TriangleAlert : CircleCheck} size={16} className={notice.tone === 'warning' ? 'text-warning' : 'text-success'} />
           <span className="flex-1">{notice.text}</span>
           <button type="button" onClick={() => setNotice(null)} className="text-[12px] font-medium text-ink-3 hover:text-ink">Dismiss</button>
+        </div>
+      )}
+
+      {/* The honest save signal. A failed save is loud and stays until it clears;
+          "Saving…" and "Saved" are quiet. Success is never shown before the
+          server confirms it. Only in live mode — demo writes are local. */}
+      {API_MODE && (saveStatus.error || saveStatus.conflict) && !saveStatus.pending && (
+        <div role="alert" className="mb-4 flex items-start gap-2.5 rounded-lg border border-danger/35 bg-danger-tint/70 px-4 py-3 text-[13px] text-ink">
+          <Icon icon={TriangleAlert} size={17} className="mt-0.5 shrink-0 text-danger" />
+          <div className="min-w-0 flex-1">
+            <p className="font-semibold text-danger">Your last change didn’t save</p>
+            <p className="mt-0.5 leading-snug text-ink-2">
+              {saveStatus.conflict
+                ?? 'The server couldn’t be reached or refused the change, and it was rolled back. Reload the page and try again.'}
+            </p>
+          </div>
+        </div>
+      )}
+      {API_MODE && saveStatus.pending && (
+        <div role="status" className="mb-4 inline-flex items-center gap-2 rounded-lg border border-warning/30 bg-warning-tint/55 px-3 py-1.5 text-[12.5px] font-medium text-ink-2">
+          <span className="size-3.5 animate-spin rounded-full border-2 border-warning/40 border-t-warning" aria-hidden />
+          Saving your changes…
+        </div>
+      )}
+      {API_MODE && !saveStatus.pending && !saveStatus.error && !saveStatus.conflict && justSaved && (
+        <div role="status" className="mb-4 inline-flex items-center gap-2 rounded-lg border border-success/30 bg-success-tint/55 px-3 py-1.5 text-[12.5px] font-medium text-ink-2">
+          <Icon icon={CircleCheck} size={14} className="text-success" />
+          All changes saved
         </div>
       )}
 
@@ -857,9 +898,9 @@ export function ControlDashboard({
                           ? `Review ${readiness.blocked.length} blocked`
                           : 'Already published'}
                     </Button>
-                    <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatus(selectedItems.filter((item) => item.status === 'Published'), 'In review', 'unpublished and returned to review', 'No selected item is currently published.')}>Unpublish</Button>
-                    <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'sent for review', 'Every selected item is already in review.')}>Send for review</Button>
-                    <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'archived', 'Every selected item is already archived.')}>Archive</Button>
+                    <Button variant="secondary" size="sm" iconLeft={EyeOff} onClick={() => applyStatus(selectedItems.filter((item) => item.status === 'Published'), 'In review', 'No selected item is currently published.')}>Unpublish</Button>
+                    <Button variant="secondary" size="sm" iconLeft={Send} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'In review'), 'In review', 'Every selected item is already in review.')}>Send for review</Button>
+                    <Button variant="secondary" size="sm" iconLeft={RotateCcw} onClick={() => applyStatus(selectedItems.filter((item) => item.status !== 'Archived'), 'Archived', 'Every selected item is already archived.')}>Archive</Button>
                   </>
                 )}
                 <Button variant="ghost" size="sm" onClick={() => setSelected(new Set())}>Clear</Button>
