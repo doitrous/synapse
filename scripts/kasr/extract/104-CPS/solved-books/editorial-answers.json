@@ -48,6 +48,12 @@
    "cluster": "Anatomy / Mediastinum (tail) + Pericardium + Diaphragm",
    "keyed": 10,
    "excluded": 10
+  },
+  {
+   "batch": 9,
+   "cluster": "Anatomy / Diaphragm (tail) + Thoracic Cage",
+   "keyed": 7,
+   "excluded": 13
   }
  ],
  "keyed": {
@@ -793,6 +799,78 @@
     "E": "True: the visceral layer of serous pericardium (epicardium), being intimately applied to the heart, shares the heart's autonomic (sympathetic and parasympathetic) innervation."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "at-the-level-of-the-sternal-angle-the-following-features-are-835ef4ab": {
+   "answer": "D",
+   "explanation": "The superior vena cava is formed by the union of the two brachiocephalic veins behind the lower border of the FIRST right costal cartilage, a distinctly higher level than the sternal angle (which corresponds to the second costal cartilage), making 'the SVC begins' at the sternal angle the false statement among these otherwise-correct landmarks. The sternal angle (of Louis) is instead the anterior surface marker for a cluster of other genuinely coincident events: the second costal cartilage articulating with the sternum, the tracheal bifurcation, the beginning of the descending aorta (arch ending), and the end of the superior mediastinum, all occurring near the T4/T5 vertebral level posteriorly. The exam takeaway is to keep the SVC's formation level (1st right costal cartilage, higher) distinct from the cluster of sternal-angle-level events (2nd costal cartilage and below).",
+   "distractorNotes": {
+    "A": "True: the second costal cartilage articulates with the sternum precisely at the sternal angle, the manubriosternal joint.",
+    "B": "True: the trachea bifurcates into the two main bronchi at the level of the sternal angle (T4/T5 disc posteriorly).",
+    "C": "True: the arch of the aorta transitions into the descending aorta (i.e. the arch 'ends'/'begins' its posterior continuation) at this same T4 level.",
+    "E": "True: the sternal angle plane marks the inferior boundary of the superior mediastinum by definition."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "at-the-sternal-angle-one-is-wrong-909d35f4": {
+   "answer": "B",
+   "explanation": "It is the SECOND rib (via its costal cartilage) that articulates with the sternum at the sternal angle -- the manubriosternal joint is, by definition, the articulation point for the second costal cartilage, which is precisely why the sternal angle is used clinically to count ribs starting from the second. The first rib, by contrast, articulates directly with the manubrium itself, above (not at) the sternal angle, making the claim that 'the first rib articulates with sternum' at this level a clear, confidently identifiable swap error. The other statements are correct: the arch of the aorta transitions to the descending aorta at this level, the trachea bifurcates here, and the azygos vein arches into the superior vena cava at approximately this level too.",
+   "distractorNotes": {
+    "A": "True: the arch of the aorta ends (becoming the descending aorta) at the level of the sternal angle (T4).",
+    "C": "True: the trachea bifurcates into the two main bronchi at the sternal angle level.",
+    "D": "True: the azygos vein arches forward over the root of the right lung to enter the superior vena cava at approximately this level."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920": {
+   "answer": "C",
+   "explanation": "This option describes a fact about typical thoracic vertebra-to-rib articulation (and even then, oversimplifies it: a typical thoracic vertebra actually articulates with two ribs via superior and inferior costal demifacets on its body, not simply 'the numerically corresponding' rib alone) -- it is an unrelated vertebral-column fact that does not belong among statements about the external intercostal muscle's own action, fibre direction, and attachments, making it the clear outlier and the intended incorrect answer. The other three statements are standard, correct facts about the external intercostal muscle: it is a muscle of inspiration, its fibres run obliquely downward and forward, and it extends from the tubercle of the rib above posteriorly to the costochondral junction anteriorly (continuing anteriorly as the anterior intercostal membrane).",
+   "distractorNotes": {
+    "A": "True: the external intercostal muscle elevates the ribs, making it an inspiratory muscle.",
+    "B": "True: the external intercostal muscle's fibres run obliquely downward and forward, in the 'hands in front pockets' direction.",
+    "D": "True: the external intercostal muscle spans from the rib tubercle posteriorly to the costochondral junction anteriorly, where the anterior intercostal membrane continues its fibre direction to the sternum."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038": {
+   "answer": "B",
+   "explanation": "The posterior intercostal arteries supplying the first two intercostal spaces do not arise directly from the descending thoracic aorta; instead they come from the superior (supreme) intercostal artery, which is itself a branch of the costocervical trunk off the subclavian artery -- making them indirect branches of the costocervical trunk, exactly as this option states. This is a well-known exception to the general rule that posterior intercostal arteries (spaces 3-11) arise directly from the descending thoracic aorta, and it exists because the aorta has not yet reached the level of the upper two intercostal spaces at the point it enters the thorax. The exam takeaway is to remember this specific exception (spaces 1-2 via costocervical trunk/superior intercostal artery) as distinct from the general rule (spaces 3-11 direct from the descending thoracic aorta).",
+   "distractorNotes": {
+    "A": "The standard costal-groove order from superior to inferior is vein, artery, then nerve (VAN) -- so the vein, not the artery, lies highest in the groove.",
+    "C": "The relevant subclavian branch for the first two posterior intercostal arteries is the costocervical trunk, not the thyrocervical trunk -- a classic distractor swap between these two similarly-named subclavian branches.",
+    "D": "Only the anterior intercostal arteries of the upper six spaces are direct branches of the internal thoracic artery; those of the lower spaces (roughly 7-9) instead arise indirectly via the musculophrenic artery, a terminal branch of the internal thoracic artery, so 'all' overstates this.",
+    "E": "The subcostal artery is the last, most inferior branch of the DESCENDING THORACIC aorta, given off just above the diaphragm, not a branch of the abdominal aorta, which begins only after the aorta has passed through the diaphragm."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08": {
+   "answer": "C",
+   "explanation": "Claiming that ALL posterior intercostal arteries arise from the descending thoracic aorta overlooks the well-established exception for the first two intercostal spaces, whose posterior intercostal arteries instead arise from the superior (supreme) intercostal artery, a branch of the costocervical trunk off the subclavian artery -- making the word 'all' the specific overreach that turns this into the false statement. The remaining three statements correctly describe the external intercostal muscle itself: it is the most superficially placed of the three intercostal muscle layers, its fibres run obliquely downward and forward, and it extends from the rib tubercle posteriorly to the costochondral junction anteriorly. The exam takeaway is to watch for absolute words like 'all' in anatomy statements, since a single well-known exception (here, spaces 1-2's arterial supply) is often exactly what such questions are testing.",
+   "distractorNotes": {
+    "A": "True: the external intercostal muscle is the outermost (most superficial) of the three intercostal muscle layers.",
+    "B": "True: its fibres run obliquely downward and forward, from the rib above to the rib below.",
+    "D": "True: it spans from the tubercle of the rib above to the costochondral junction, continuing anteriorly as the anterior intercostal membrane."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "pleural-reflection-lies-at-which-rib-level-in-the-midclavicu-4742bd47": {
+   "answer": "A",
+   "explanation": "The line of pleural reflection, marking the lowest extent of the costodiaphragmatic recess, follows the classic '8-10-12' surface-anatomy rule: it crosses the 8th rib in the midclavicular line, the 10th rib in the midaxillary line, and the 12th rib (or paravertebral line) posteriorly near the vertebral column. This progressive stepping downward and backward reflects the diaphragm's dome shape, which curves higher anteriorly and drops lower posterolaterally, carrying the pleural reflection with it. The clinical takeaway is that this 8-10-12 rule is directly relevant to avoiding pleural injury during procedures like thoracocentesis or renal surgery, which must respect how low the pleura extends at each surface landmark.",
+   "distractorNotes": {
+    "B": "The 9th rib is not one of the three landmark values in the standard 8-10-12 pleural reflection rule.",
+    "C": "The 10th rib is the midaxillary line's value, not the midclavicular line's.",
+    "D": "The 12th rib is the posterior/paravertebral line's value, not the midclavicular line's."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-heart-valves-which-of-the-followings-is-correc-af88156c": {
+   "answer": "B",
+   "explanation": "The pulmonary valve lies behind the medial end of the left third costal cartilage, close to the sternum, which is the standard taught anatomical position for this valve, distinct from its auscultation area (the second left intercostal space, where the transmitted sound is best heard). The other options each contain a confidently identifiable error: the aortic valve has three semilunar cusps, not two; the tricuspid valve's three cusps are named anterior, posterior, and SEPTAL (not 'medial'), with the septal cusp lying against the interventricular septum; and the mitral valve's anatomical position is at the level of the fourth costal cartilage, not the sixth. The exam takeaway is to keep each valve's actual anatomical position distinct from its auscultation area, and to get each valve's exact cusp count and cusp names precisely right, since these are frequently tested numeric/naming details.",
+   "distractorNotes": {
+    "A": "The aortic valve has three semilunar cusps (right, left, and posterior/non-coronary), not two -- a basic, well-established cardiac anatomy fact.",
+    "C": "The tricuspid valve's three cusps are conventionally named anterior, posterior, and septal, not 'medial' -- the septal cusp lies against the interventricular septum.",
+    "D": "The mitral valve's anatomical position is at the level of the fourth left costal cartilage, not the sixth."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -1053,6 +1131,45 @@
   },
   "one-of-the-following-structures-passes-with-the-descending-t-d360ad09": {
    "reason": "None of the three surviving options (oesophagus, inferior vena cava, right phrenic nerve) actually passes through the diaphragm together with the descending thoracic aorta at the aortic hiatus -- the correct answer, the thoracic duct, was most likely the missing option C."
+  },
+  "the-aortic-opening-of-the-diaphragm-transmits-thoracic-duct-cf25e6b5": {
+   "reason": "The correct answer (thoracic duct, the well-established second structure transmitted through the aortic hiatus alongside the aorta) is embedded unlettered in the stem, and no 'A' option survives to assign it to; the three lettered options that do survive (right vagal nerve, oesophagus, left phrenic nerve) are all confidently wrong, since each of these structures passes through the diaphragm via a different opening."
+  },
+  "the-caval-opening-of-the-diaphragm-lies-at-the-level-of-a-ti-71665abc": {
+   "reason": "The stem asking about the caval opening's vertebral level is followed by an option set (vertebral artery, transverse cervical artery, parietal pericardium branches) that answers an entirely unrelated question about neck/mediastinal vessel branches, not the vertebral level being asked. No coherent option set survives for the stem asked."
+  },
+  "the-left-vagus-nerve-passes-on-the-posterior-surface-of-the-f687f205": {
+   "reason": "The stem is a corrupted merge of at least three separate phrenic/vagus nerve questions bleeding together (left vagus and oesophagus; 'select the wrong statement' about phrenic nerves with an embedded option about the vena caval opening; and the start of yet another 'which statement is true' phrenic nerve question), making it impossible to isolate one coherent question and its false or true statement."
+  },
+  "the-right-phrenic-nerve-scleet-the-rarrest-anewer-xa-arises-286764db": {
+   "reason": "The stem itself is heavily garbled ('scleet the rarrest anewer'), and while the embedded claim that the right phrenic nerve 'arises from T3, 4 and 5' is confidently false (it should be C3, 4, 5), no lettered option represents the correct cervical origin -- the surviving lettered options (cardiac vein names) answer a different, unrelated question entirely."
+  },
+  "which-of-the-following-statements-about-the-anatomy-of-the-e-4e1bfb55": {
+   "reason": "All three surviving options are confidently false under standard oesophageal anatomy: it lies POSTERIOR to, not anterior to, the aortic arch; the diaphragmatic opening for the oesophagus is at T10, not T8 (which is the caval opening); and it begins at C6 in the neck, not T4. The correct statement was in a missing option B that did not survive extraction."
+  },
+  "03-contains-network-of-lymph-capillaries-of-00-0-693-1-regar-28bdf44e": {
+   "reason": "The stem is a corrupted merge of a lymph-capillary fragment with a separate 'respiration and thorax changes, choose the wrong answer' question, and all four surviving options for the second question (vertical diameter increasing with diaphragm contraction; rib rotation mechanics; passive expiration; the last rib fixed by quadratus lumborum during inspiration) are individually true statements -- no confidently false statement survives among them."
+  },
+  "at-the-level-of-the-except-4h-sternum-with-ste-47ed872f": {
+   "reason": "Both the stem and the options are severely fragmented ('The tion of the arch of the aorta', 'The termination', 'The beginning of the'), evidently torn mid-word from a longer sternal-angle-features question. Too little coherent text survives to identify or key a specific statement."
+  },
+  "at-what-level-does-the-trachea-split-into-the-main-bronchi-p-36a13daa": {
+   "reason": "The correct answer (the trachea bifurcates posterior to the sternal angle, at the T4/T5 vertebral level) is embedded unlettered in the stem alongside a decoy 'C6 vertebra' phrase, and the two lettered options that do survive (C: level of the sixth thoracic vertebra, which is wrong -- it should be the fourth/fifth; D: a vague reference to the sternum's body) are not correct, leaving no valid letter to assign the true answer to."
+  },
+  "concerning-the-trachea-one-is-wrong-315fcd65": {
+   "reason": "As with a near-identical sibling question elsewhere in this bank, all three surviving statements (crossed anteriorly by the left brachiocephalic vein; contains incomplete cartilage rings; bifurcates at the sternal angle level) are independently true, standard facts about the trachea -- no statement stands out as the intended 'wrong' one, and the genuinely false statement was most likely in a missing fourth option."
+  },
+  "its-middle-lobe-has-two-bronchopulmonary-segments-9b17b3d7": {
+   "reason": "The stem asks about the middle lobe's bronchopulmonary segments, but the surviving options (attachment to the first rib, protecting the cervical pleura, the anterior border's position) are all facts about the lung APEX, not the middle lobe -- a clear topical mismatch indicating cross-question contamination, with no option actually answering the stem asked."
+  },
+  "one-of-the-followings-i-13-gs-is-a-main-feature-of-the-right-b16d5199": {
+   "reason": "The extracted 'stem' is an entire OCR'd exam page bleeding together at least three distinct questions (right lung features, tracheal bifurcation level, and the nerve lying between the trachea and oesophagus posteriorly), with the option lettering thoroughly scrambled across all three. This is unrecoverable as a single question."
+  },
+  "pleural-reflection-lies-at-which-rib-level-in-the-midaxillar-385a843b": {
+   "reason": "The correct answer for pleural reflection at the midaxillary line (the 10th rib, per the standard 8-10-12 surface anatomy rule) was most likely the missing option C; none of the three surviving options (6th, 8th, 12th) is correct for this specific line -- 8th matches the midclavicular line's value and 12th matches the paravertebral line's value, suggesting these are values borrowed from the other two lines rather than the midaxillary line's own."
+  },
+  "regarding-the-heart-valves-the-following-statements-are-true-4070ac89": {
+   "reason": "All five statements (the standard auscultation areas for the pulmonary, aortic, mitral, and tricuspid valves, plus the mitral valve's separately-taught anatomical position) are individually consistent with standard cardiac auscultation and surface anatomy teaching -- no statement stands out as clearly, confidently false among them without the source's specific intended distinction."
   }
  }
 }
