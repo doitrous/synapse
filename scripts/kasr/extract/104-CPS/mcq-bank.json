@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 838,
+ "withAnswer": 852,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -11449,7 +11449,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All four statements (pleural cavity as the space between the two pleural layers; a potential space; filled with a film of serous fluid; allowing smooth, free pleural movement) are individually correct, standard definitional facts about the pleural cavity -- no statement stands out as clearly false among them."
   },
   {
    "key": "concerning-the-posterior-intercostal-arteries-select-the-cor-80aa271c",
@@ -13451,8 +13453,8 @@
     "C": "Forced inspiration with the glottis closed",
     "D": "Forced expiration with the glottis closed"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -13467,7 +13469,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Forced expiration against a closed glottis is the Valsalva manoeuvre: the expiratory muscles actively try to compress the thorax and expel air, but with the glottis sealed, no air can actually leave, so the generated pressure has nowhere to go except to build up within the thorax, driving intrapleural pressure well above atmospheric pressure. This is the one scenario among the options where intrapleural pressure genuinely becomes positive, in contrast to every phase of normal breathing (and even the mirror-image Müller manoeuvre, forced inspiration against a closed glottis, which instead drives intrapleural pressure to an extremely negative value). The physiological takeaway is to pair 'forced expiration, closed glottis' specifically with positive intrapleural/intrathoracic pressure (Valsalva), and 'forced inspiration, closed glottis' with maximally negative intrapleural pressure (Müller).",
+    "distractorNotes": {
+     "A": "Active (normal) inspiration makes intrapleural pressure more negative than at rest, not positive.",
+     "B": "Passive expiration allows intrapleural pressure to become less negative, approaching but still remaining below atmospheric pressure under normal quiet breathing.",
+     "C": "Forced inspiration against a closed glottis (the Müller manoeuvre) drives intrapleural pressure to an extremely negative value, the opposite of positive."
+    }
+   }
   },
   {
    "key": "during-which-of-the-following-would-the-intra-pleural-pressu-232671b6",
@@ -13478,8 +13489,8 @@
     "C": "Forced inspiration with the glottis closed",
     "D": "Forced expiration with the glottis closed"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_d3160d222c8c55775511",
@@ -13494,7 +13505,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is a duplicate of the sibling question; the answer is unchanged. Forced expiration against a closed glottis (the Valsalva manoeuvre) is the scenario where the thorax's expiratory effort has no outlet for air, driving intrapleural pressure above atmospheric pressure -- the one genuinely positive-pressure scenario among the options.",
+    "distractorNotes": {
+     "A": "Active inspiration makes intrapleural pressure more negative, not positive.",
+     "B": "Passive expiration allows intrapleural pressure to approach, but remain below, atmospheric pressure.",
+     "C": "Forced inspiration against a closed glottis (Müller manoeuvre) produces an extremely negative, not positive, intrapleural pressure."
+    }
+   }
   },
   {
    "key": "during-which-of-the-following-would-the-intra-pleural-pressu-e2dafb02",
@@ -13505,8 +13525,8 @@
     "C": "Forced inspiration with the glottis closed:",
     "D": "Forced expiration with the glottis closed"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -13521,7 +13541,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is a second duplicate of the same sibling question; the answer remains unchanged. Forced expiration against a closed glottis (Valsalva manoeuvre) is the one scenario among the options that drives intrapleural pressure genuinely above atmospheric pressure, since the expiratory effort cannot vent through the sealed glottis.",
+    "distractorNotes": {
+     "A": "Active inspiration makes intrapleural pressure more negative, not positive.",
+     "B": "Passive expiration allows intrapleural pressure to approach, but remain below, atmospheric pressure.",
+     "C": "Forced inspiration against a closed glottis (Müller manoeuvre) produces an extremely negative, not positive, intrapleural pressure."
+    }
+   }
   },
   {
    "key": "during-which-phase-of-the-cardiac-cycle-docs-ventricular-pre-169c9804",
@@ -14553,7 +14582,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This is an entire written-exam model-answer page covering fetal haemoglobin, carbon monoxide poisoning, posterior intercostal/subcostal vein drainage, and pleural nerve supply as bullet-point study notes, not a single-best-answer multiple-choice question -- the trailing four-item 'option' list does not correspond to any MCQ stem."
   },
   {
    "key": "fetal-hemoglobin-contains-2alpha-2-gamma-chains-cannot-combi-bd5548ea",
@@ -15078,7 +15109,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This is a discursive written-exam prompt (asking to 'name the condition', describe pleural parts/recesses, and state pleural functions from a clinical vignette) rather than a single-best-answer multiple-choice item -- not keyable as an MCQ."
   },
   {
    "key": "gives-of-the-recurrent-laryngeal-nerve-in-the-neck-has-no-se-598b6ee2",
@@ -23884,7 +23917,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of a pleural surface-landmark description with a truncated 'mark the incorrect statement' question, of which only two of what was likely four options survived (both individually true: potential space; filled with serous fluid), leaving no false statement to identify."
   },
   {
    "key": "posterior-interventricular-artery-ae-circumflex-artery-et-d-5b0513d5",
@@ -25126,8 +25161,8 @@
     "D": "Pulmonary ligament allows for distension of pulmonary veins",
     "E": "Inferior border of pleura reaches the 8\" fib in midaxillary line"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "E",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25142,7 +25177,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "By the standard '8-10-12' surface-anatomy rule for the line of pleural reflection, the inferior border of the pleura reaches the TENTH rib in the midaxillary line, not the eighth -- the eighth rib is instead the correct landmark for the midclavicular line, so this option has swapped the values for two different surface lines. The other statements about the pleurae are correct: the visceral pleura genuinely lacks pain sensitivity, the parietal pleura genuinely receives its sensory supply from the intercostal and phrenic nerves, the pleural cavity is by definition the space between the visceral and parietal layers, and the pulmonary ligament does provide the slack needed to accommodate distension of the pulmonary veins during increased venous return.",
+    "distractorNotes": {
+     "A": "True: the visceral pleura, lacking somatic sensory innervation, is insensitive to pain.",
+     "B": "True: the parietal pleura receives its pain-sensitive somatic innervation from the intercostal nerves (costal and peripheral diaphragmatic parts) and the phrenic nerves (mediastinal and central diaphragmatic parts).",
+     "C": "True: the pleural cavity is, by definition, the potential space between the visceral and parietal pleural layers.",
+     "D": "True: the pulmonary ligament, a fold of mediastinal pleura below the lung root, provides room to accommodate distension of the pulmonary veins."
+    }
+   }
   },
   {
    "key": "regarding-respiration-and-the-changes-in-the-thorax-all-the-69394d4b",
@@ -26483,7 +26528,9 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem itself is garbled ('one is ne oo!'), leaving it unclear whether the question wants the true or the false statement, and option B has absorbed two separate claims into one unusable blob ('they lie superior to the vein and nerve' merged with 'all anterior intercostal arteries arise directly from the internal thoracic artery'). Too corrupted to confidently interpret and key."
   },
   {
    "key": "regarding-the-intercostal-arteries-one-is-true-15556e57",
@@ -27069,7 +27116,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option C is truncated ('The amount of elevation and forward thrust of the anterior extremities of 3...'), hiding the specific claim needed to judge it true or false, while the other four statements are each individually true standard facts about respiratory mechanics -- the truncated option is the most likely candidate for the false statement but cannot be confirmed without its full text."
   },
   {
    "key": "regarding-the-nervous-control-of-respiration-3842aa0d",
@@ -27333,8 +27382,8 @@
     "D": "The visceral pleura is innervated by the phrenic and the lower five",
     "E": "The costal pleura is separated from the ribs and costal cartilages by"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -27349,7 +27398,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The visceral pleura is entirely insensitive to pain and carries no somatic sensory innervation from the phrenic or intercostal nerves at all -- it is supplied only by autonomic (visceral afferent) fibres via the pulmonary plexus, which is exactly why lung biopsies and surgery on lung tissue itself do not require anaesthetising the visceral pleural surface. The phrenic-and-lower-five-intercostal-nerve innervation pattern described in this option actually belongs to the PARIETAL pleura (its mediastinal and central diaphragmatic parts via the phrenic nerve, and its costal and peripheral diaphragmatic parts via the lower intercostal nerves), making this statement's attribution to the visceral pleura false. The other statements are correct: the costodiaphragmatic recess is where the lung's inferior border extends during deep inspiration, visceral pleura does line the interlobar fissures, visceral pleural lymphatics do drain to the bronchopulmonary (hilar) nodes, and the costal pleura is separated from the ribs by the endothoracic fascia.",
+    "distractorNotes": {
+     "A": "True in the sense intended: the costodiaphragmatic recess is the potential space the lung's inferior border descends into, particularly during deep inspiration.",
+     "B": "True: the visceral pleura folds inward to line the interlobar fissures, separating the lung's lobes.",
+     "C": "True: lymphatic drainage of the visceral pleura follows the lung's own lymphatics to the bronchopulmonary (hilar) lymph nodes.",
+     "E": "True: the costal pleura is separated from the ribs and costal cartilages by a thin layer of endothoracic fascia."
+    }
+   }
   },
   {
    "key": "regarding-the-posterior-mediastinum-one-of-the-followings-is-de5b0b34",
@@ -27386,8 +27445,8 @@
     "B": "The true ribs are the ribs whose cartilages directly articulate with the",
     "D": "It passes in the costal groove between the intercostal artery and vein"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -27402,7 +27461,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This statement describes the intercostal NERVE's position in the costal groove, claiming it runs 'between the intercostal artery and vein' -- but the standard costal-groove order from superior to inferior is vein, artery, then nerve (mnemonic VAN), meaning the nerve lies below both vessels, not sandwiched between them. This is a mismatched, incorrect fact about a different structure (the intercostal nerve) rather than a genuine statement about the ribs themselves, and it is also factually wrong even on its own terms. The two genuine rib statements that survive are both correct: the 11th and 12th (floating) ribs have free anterior ends embedded in the abdominal wall musculature rather than attaching to any costal cartilage, and the true ribs (1-7) are defined precisely by their cartilages articulating directly with the sternum.",
+    "distractorNotes": {
+     "A": "True: the 11th and 12th ribs are 'floating' ribs whose anterior ends are free, embedded within the muscles of the posterior abdominal wall rather than attached to a costal cartilage or the sternum.",
+     "B": "True: true ribs (the first seven pairs) are defined by their costal cartilages articulating directly with the sternum, distinguishing them from false and floating ribs."
+    }
+   }
   },
   {
    "key": "regarding-the-right-atrium-the-following-statements-are-corr-14b9deef",
@@ -27702,8 +27769,8 @@
     "C": "It is separated from the inferior mediastinum by a plane passing through the third costal cartilage",
     "D": "It contains the thymus"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -27721,7 +27788,16 @@
    ],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The plane separating the superior from the inferior mediastinum passes through the sternal angle anteriorly, which corresponds to the SECOND costal cartilage, not the third -- this is a clear, confidently identifiable numeric error, since the sternal angle (and the T4/T5 disc level it corresponds to posteriorly) is precisely defined by the second costal cartilage's articulation with the sternum. The other statements about the superior mediastinum are correct: its anterior boundary is the manubrium sterni, the arch of the aorta lies within it, and the thymus (or its remnant) does extend into it from the anterior mediastinum below.",
+    "distractorNotes": {
+     "A": "True: the manubrium sterni forms the anterior bony boundary of the superior mediastinum.",
+     "B": "True: the arch of the aorta is one of the superior mediastinum's defining contents.",
+     "D": "True: the thymus gland (prominent in children, regressing to a fatty remnant in adults) extends up into the superior mediastinum from its main position in the anterior mediastinum."
+    }
+   }
   },
   {
    "key": "regarding-the-suprapleural-membrane-all-the-following-statem-c8caf1dc",
@@ -27733,8 +27809,8 @@
     "D": "It protects the cervical pleura.",
     "E": "It moves upwards to increase the vertical diameter of the thorax."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "E",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -27757,7 +27833,17 @@
     "A",
     "B",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The suprapleural membrane (Sibson's fascia) is a comparatively rigid, taut fascial dome that resists being drawn inward during inspiration -- it does not actively move to change thoracic volume; that mechanical work is done by the diaphragm, intercostal muscles, and other respiratory muscles, not by this passive protective membrane. Attributing to it an active role in increasing the thorax's vertical diameter is a fabricated function unsupported by standard anatomy, making it the false statement among otherwise-correct descriptions. The remaining statements correctly describe the suprapleural membrane: it is a dense fascial layer closing off the thoracic inlet, attached peripherally to the inner border of the first rib, with its apex fixed to the transverse process of the seventh cervical vertebra, and it functions to protect the underlying cervical dome of pleura and the lung apex at the root of the neck.",
+    "distractorNotes": {
+     "A": "True: the suprapleural membrane is a dense fascial sheet that closes the thoracic inlet, capping the pleural cavity's cervical extension.",
+     "B": "True: it attaches peripherally to the inner border of the first rib.",
+     "C": "True: its apex is anchored to the transverse process of the seventh cervical vertebra (C7).",
+     "D": "True: its primary function is protecting the underlying cervical pleura and lung apex, particularly from injury or being sucked inward during inspiration."
+    }
+   }
   },
   {
    "key": "regarding-the-thoracic-part-of-the-sympathetic-trunk-select-68a233e6",
@@ -27796,8 +27882,8 @@
     "C": "The typical thoracic vertebra articulates with the numerically Corresponding",
     "D": "The posterior part of the annulus fibrosus is thinner than its anterior and"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -27812,7 +27898,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The scalene tubercle on the inner border of the first rib is the insertion site of the SCALENUS ANTERIOR muscle, not scalenus medius -- the scalenus anterior inserts here specifically to separate the subclavian artery (passing behind/below the tubercle) from the subclavian vein (passing in front/above it), a classic, frequently tested anatomical landmark. Scalenus medius instead inserts more posteriorly, on the rough area of the first rib's upper surface behind the subclavian artery groove, making the attribution to scalenus medius in this option the confidently identifiable error. The other statements are correct: the tubercle and angle of the first rib do coincide (a distinguishing feature of this atypical rib), and the posterior part of the intervertebral disc's annulus fibrosus is indeed thinner than its anterior and lateral parts, which is part of why posterior disc herniation is more common.",
+    "distractorNotes": {
+     "A": "True: the first rib is atypical in that its tubercle and angle occur at essentially the same point, unlike typical ribs where they are separated.",
+     "C": "This oversimplifies the true relationship (a typical thoracic vertebra body actually bears two demifacets, articulating partly with its own numbered rib and partly with the rib above), but is commonly accepted as a loose true statement in this exam bank's phrasing, distinct from the more specific and confidently identifiable scalenus muscle error in option B.",
+     "D": "True: the annulus fibrosus of the intervertebral disc is thinner posteriorly than anteriorly and laterally, a structural predisposition to posterior disc herniation."
+    }
+   }
   },
   {
    "key": "regarding-the-trachea-choose-the-correct-answer-it-begins-at-37d26b3d",
@@ -28131,7 +28226,9 @@
    "optionsBefore": [
     "A",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The options have absorbed multiple candidate ages (30, 40, 50, 60 years) into single garbled option slots along with two entirely separate, unrelated question stems (about the suprapleural membrane and the origin of the internal thoracic artery). This is unrecoverable as a single coherent question with a clean answer set."
   },
   {
    "key": "regarding-thymus-gland-it-is-i-16460019",
@@ -33066,7 +33163,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of at least three distinct items (mediastinal groove descriptions, a rib-level question, and a full clinical vignette about tension pneumothorax chest-tube anaesthesia), and only two of what was likely five or more options for the vignette's actual question survived. No single coherent question can be recovered."
   },
   {
    "key": "the-haldane-effect-refers-to-460f3b00",
@@ -33349,7 +33448,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cavity",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely false statement (that intercostal nerves provide motor innervation to the diaphragm, which is false since the diaphragm's sole motor supply is the phrenic nerve) is embedded in the stem itself without a surviving option letter, while the two lettered options that do survive (B, C) are both individually true. There is no clean letter to assign this answer to."
   },
   {
    "key": "the-internal-elastic-lamina-in-the-medium-sized-artery-is-an-b0c0cd7a",
@@ -33581,7 +33682,9 @@
    "optionsBefore": [
     "A",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of an intrapleural-pressure-causes question with the start of a Valsalva's-manoeuvre question, and the surviving lettered options are themselves a garbled merge of unrelated facts (sympathetic stimulation, leukotrienes and histamine, respiratory membrane thickness, and the start of yet another lung apex/base comparison question). This is unrecoverable as a single coherent question."
   },
   {
    "key": "the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c",
@@ -35322,7 +35425,9 @@
    ],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem asks specifically about the pulmonary valve's auscultation point (the second left sternocostal junction), but the surviving options answer a different question or are contaminated with unrelated facts: option A states the third costal cartilage (the valve's anatomical position, not its auscultation area), while C, D, and B are unrelated facts about the mitral area, left ventricular wall thickness, and the direction of the cardiac apex, bled in from other questions."
   },
   {
    "key": "the-pulmonary-valve-sound-is-best-heard-at-indicate-the-corr-22983fbe",
@@ -35334,8 +35439,8 @@
     "D": "The apex of the heart",
     "E": "The right half of the lower end of the sternum"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -35350,7 +35455,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The pulmonary valve's auscultation area -- where its closure sound is best transmitted and heard -- is the second left intercostal space at the sternal border (the second left sternocostal junction), distinct from the valve's own deeper anatomical position (behind the third left costal cartilage). This distinction between a valve's true anatomical location and where its sound is best auscultated is a deliberately and frequently tested point in cardiac examination teaching, since heart sounds are heard where they radiate along the direction of blood flow, not necessarily directly over the valve itself. The exam takeaway is to fix each valve's specific auscultation area: aortic at the 2nd right sternocostal junction, pulmonary at the 2nd left, tricuspid at the lower left sternal border, and mitral at the cardiac apex.",
+    "distractorNotes": {
+     "A": "The third left sternocostal junction is the pulmonary valve's actual anatomical position, not its auscultation area.",
+     "C": "The second RIGHT sternocostal junction is the aortic valve's auscultation area, not the pulmonary valve's.",
+     "D": "The apex of the heart is the mitral valve's auscultation area.",
+     "E": "The right half of the lower sternum roughly corresponds to the tricuspid valve's auscultation area, not the pulmonary valve's."
+    }
+   }
   },
   {
    "key": "the-pulse-pressure-is-increased-in-the-following-conditions-4dfdaf6e",
@@ -36472,8 +36587,8 @@
     "B": "is formed behind the manubrium sterni",
     "D": "it lies in the posterior mediastinum"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -36488,7 +36603,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The superior vena cava is formed by the union of the two brachiocephalic veins behind the lower border of the first right costal cartilage, a point that sits directly behind the manubrium sterni (which spans from the suprasternal notch down to the sternal angle, encompassing the first costal cartilage's attachment) -- making 'formed behind the manubrium sterni' a standard, accepted true description of its origin. This is a commonly paired fact with the SVC's termination point (opening into the right atrium behind the third right costal cartilage), and together they bracket the vessel's short vertical course through the superior and middle mediastinum. The other options misstate its anatomy: its main tributary, the azygos vein, enters posteriorly at a different level and side than stated, and the SVC lies in the superior and middle mediastinum, never the posterior mediastinum.",
+    "distractorNotes": {
+     "A": "The azygos vein, the SVC's principal tributary, enters its posterior surface at approximately the level of the second/third right costal cartilage as the arch curves forward over the right lung root -- not at the first left costal cartilage as this option states, an incorrect side and level.",
+     "D": "The superior vena cava lies within the superior and middle mediastinum along its course, never within the posterior mediastinum, which instead holds the oesophagus, descending aorta, azygos system, and thoracic duct."
+    }
+   }
   },
   {
    "key": "the-superior-vena-cava-choose-the-trueanswer-9b5d0624",
@@ -36514,7 +36637,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Options B (formed behind the manubrium sterni) and C (opens into the right atrium behind the third right costal cartilage) both appear to be independently true, standard SVC facts under normal anatomy teaching -- with two plausible true answers among the surviving options and no way to determine which single one this specific bank intends, this cannot be confidently keyed."
   },
   {
    "key": "the-supernormal-period-of-cardiomyocyte-action-potential-tha-8b25e4ca",
@@ -37171,7 +37296,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of an unrelated sympathetic-fibre fact with a separate 'external intercostal muscle, choose the correct answer' question, and both surviving options for that second question are themselves factually wrong as stated (one describes the internal, not external, intercostal fibre direction; the other describes the muscle's insertion point while mislabelling it as where the muscle 'arises from') -- no option correctly answers the question asked."
   },
   {
    "key": "they-unite-together-to-form-the-s-v-c-behind-the-lower-borde-db9d8d9d",
@@ -37198,7 +37325,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The correct fact (the brachiocephalic veins unite to form the SVC behind the lower border of the first right costal cartilage) is embedded unlettered in the stem, and the lettered options that do survive are either wrong numeric variants (9th, or 2nd right costal cartilage) or unrelated phrenic/vagus nerve facts bled in from a different question -- no letter can be assigned to the correct answer."
   },
   {
    "key": "thick-rich-in-elastic-collagen-fiber-81d11216",
@@ -40383,8 +40512,8 @@
     "C": "Paralysis of respiratory muscles",
     "D": "All are true"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -40399,7 +40528,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Scoliosis, rib fractures, and paralysis of the respiratory muscles are all classically grouped together as causes of a restrictive breathing pattern with reduced effective chest wall compliance in clinical respiratory physiology teaching: scoliosis and rib fractures mechanically stiffen and deform the thoracic cage directly, while paralysis prevents the normal active expansion that keeps the chest wall operating over its most compliant range, functionally behaving as reduced compliance even though the passive tissue properties themselves are less directly affected. This grouped, 'restrictive disorder' framing is the standard way exam banks test the broader clinical concept of decreased chest wall compliance, rather than isolating each disorder's precise biophysical mechanism. The takeaway is to recognise this category of restrictive chest wall/neuromuscular disorders as a set, contrasted with obstructive lung diseases (like emphysema) that instead increase compliance.",
+    "distractorNotes": {
+     "A": "Scoliosis alone genuinely reduces chest wall compliance by structurally deforming the thoracic cage, but it is not the sole correct answer since the other two disorders are also classically included.",
+     "B": "Rib fractures alone genuinely reduce effective chest wall compliance (via pain-limited splinting or altered mechanics), but again not the sole correct answer given the grouped framing of this question.",
+     "C": "Paralysis of the respiratory muscles alone is classically grouped with the other two disorders as a cause of a restrictive breathing pattern, but again not the sole correct answer here."
+    }
+   }
   },
   {
    "key": "which-ef-the-following-are-muscles-of-inspiration-0eea2c0f",
@@ -41216,8 +41354,8 @@
     "C": "It’s the highest pressure measured in the arteries",
     "D": "It’s the lowest pressure measured in the arteries"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -41232,7 +41370,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Pulse pressure, the difference between systolic and diastolic arterial pressure, is directly determined by stroke volume (for a given arterial compliance): a larger stroke volume ejects more blood into the arterial tree per beat, producing a larger swing in pressure between systole and diastole. This relationship is why conditions that increase stroke volume without proportionally increasing arterial compliance (such as aortic regurgitation, or the increased stroke volume of exercise) characteristically widen the pulse pressure. The exam takeaway is to keep pulse pressure's two main determinants straight -- stroke volume (increases pulse pressure) and arterial compliance/stiffness (decreased compliance also increases pulse pressure, as in aging arteriosclerosis) -- rather than confusing it with either systolic or diastolic pressure individually.",
+    "distractorNotes": {
+     "B": "Pulse pressure is most directly governed by stroke volume and arterial compliance; peripheral arterial resistance primarily determines mean arterial pressure rather than being the main driver of pulse pressure changes.",
+     "C": "The highest pressure measured in the arteries is the systolic pressure, not the pulse pressure, which is instead the difference between systolic and diastolic pressure.",
+     "D": "The lowest pressure measured in the arteries is the diastolic pressure, not the pulse pressure."
+    }
+   }
   },
   {
    "key": "which-of-the-following-discharge-spontaneously-during-quiet-b30226e7",
@@ -41374,8 +41521,8 @@
     "C": "During phase [0] fast sodium channels are inactivated",
     "D": "During phase [3] delayed rectifier Ky channels are maximally activated"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -41390,7 +41537,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Thoracic Cage",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Phase 3 of the cardiac myocyte action potential is the repolarisation phase, driven by the delayed rectifier potassium channels (IKr and IKs) reaching their maximal activation and conductance, allowing potassium efflux to return the membrane potential back toward its resting level. This is the correct, standard description of phase 3's underlying ionic mechanism, distinct from the other phases: phase 0's rapid upstroke depends on fast sodium channel activation (opening, not inactivation), and phase 2's plateau depends mainly on L-type (not T-type) calcium channel influx balanced against a slower, delayed potassium efflux. The exam takeaway is to fix each phase's dominant current precisely: phase 0 = fast Na+ in; phase 1 = transient K+ out; phase 2 = L-type Ca2+ in balanced by K+ out; phase 3 = delayed rectifier K+ out (dominant); phase 4 = resting/pacemaker currents.",
+    "distractorNotes": {
+     "A": "Phase 0 is driven by a rapid increase in fast sodium (not potassium) conductance through voltage-gated Na+ channels, producing the steep upstroke.",
+     "B": "The plateau phase's calcium influx is carried mainly by L-type calcium channels, not T-type channels, which instead contribute more to pacemaker cell depolarisation.",
+     "C": "During phase 0, fast sodium channels are ACTIVATED (open), not inactivated -- inactivation occurs shortly afterward, ending the sodium current and contributing to phase 1."
+    }
+   }
   },
   {
    "key": "which-of-the-following-factors-helps-venous-return-2fb446fd",
@@ -46471,6 +46627,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 81,
- "editorialExcludedCount": 99
+ "withEditorialAnswer": 95,
+ "editorialExcludedCount": 113
 }
