@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 757,
+ "withAnswer": 768,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -6364,7 +6364,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of at least two separate questions (left atrium anatomy and SA node location) interleaved with stray Arabic/diacritic OCR artifacts, and the four options mix unrelated claims (aortic valve cusp count, coronary sinus opening, atrium naming, pulmonary structure). There is no single coherent question stem to key here."
   },
   {
    "key": "anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40",
@@ -11045,8 +11047,8 @@
     "B": "The trabeculae carnae are more than those of the ‘so ventricle",
     "D": "The left coronary artery supplies the major part of the interventricular septum"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -11061,7 +11063,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The trabeculae carneae (muscular ridges lining the ventricular cavity) are coarser and more prominent in the right ventricle than in the left, not the other way round, so the statement that the left ventricle's are 'more than' the right ventricle's is false. Mechanistically, the right ventricle is a low-pressure volume pump whose wall relies more on trabecular architecture for contraction, while the thicker, high-pressure left ventricle has comparatively smoother inner walls apart from its papillary muscles. The takeaway is that thickness and trabeculation do not track together across the two ventricles: the left ventricle is the thicker chamber (about three times the right) but the right ventricle is the more heavily trabeculated one.",
+    "distractorNotes": {
+     "A": "Correctly true: the left ventricle wall is roughly three times thicker than the right, since it must generate systemic (not pulmonary) pressures.",
+     "D": "Correctly true: the left coronary artery's anterior interventricular (LAD) branch supplies the anterior two-thirds of the interventricular septum in most hearts."
+    }
+   }
   },
   {
    "key": "concerning-the-medium-sized-veins-all-of-the-following-are-t-7d6b234b",
@@ -11716,8 +11726,8 @@
     "C": "AV node",
     "D": "Purkinje system"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -11732,7 +11742,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Conduction velocity through the cardiac conduction system is fastest in the Purkinje fibres, reaching roughly 2-4 m/s, because their large diameter and abundant gap junctions let the depolarising wavefront spread almost instantly to the ventricular myocardium. This speed is functionally essential: it lets the Purkinje network deliver a near-simultaneous stimulus to both ventricles so they contract together rather than as a slow, disorganised wave. The takeaway ranking, from fastest to slowest, is Purkinje > atrial/internodal pathways > SA node > AV node, with the AV node deliberately the slowest link to allow ventricular filling before systole.",
+    "distractorNotes": {
+     "A": "The SA node conducts slowly relative to Purkinje tissue; its role is pacemaking, not rapid conduction.",
+     "B": "Internodal atrial bundles conduct faster than nodal tissue but far slower than Purkinje fibres.",
+     "C": "The AV node is the slowest-conducting tissue in the heart, the opposite of this question's answer."
+    }
+   }
   },
   {
    "key": "conduction-speed-is-slowest-in-the-99b22b7b",
@@ -11743,8 +11762,8 @@
     "C": "AV node",
     "D": "Purkinje system"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_df6b7a7de75411dbb92b",
@@ -11759,7 +11778,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The AV node has the slowest conduction velocity in the heart, on the order of 0.05 m/s, because its small-diameter fibres and sparse gap junctions produce a deliberate conduction delay. This delay is physiologically purposeful: it gives the atria time to finish contracting and empty into the ventricles (the 'atrial kick') before the ventricles are electrically activated, optimising ventricular filling and stroke volume. The broader takeaway is that the conduction system trades speed for timing control at the AV node, in contrast to the Purkinje fibres, which are optimised purely for speed.",
+    "distractorNotes": {
+     "A": "The SA node conducts faster than the AV node; it is the pacemaker, not the delay point.",
+     "B": "Atrial pathways conduct impulses relatively quickly across the atria compared with the AV node.",
+     "D": "The Purkinje system is the fastest-conducting tissue in the heart, the opposite extreme from this question's answer."
+    }
+   }
   },
   {
    "key": "conduction-speed-is-slowest-in-the-tepret-abe02b6a",
@@ -11969,7 +11997,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Only three options survived (no D), and option C names an unreadable artery ('the 00 coronary artery') due to OCR corruption of the digit/word that should identify left vs right coronary artery -- this is exactly the branch-of-which-artery fact the question is testing, so it cannot be evaluated. Options A and B are both false under standard coronary anatomy (RCA arises from the anterior, not posterior, aortic sinus; RCA rather than LCA supplies the conduction system in the majority), leaving no confidently true statement among what survived."
   },
   {
    "key": "costocervical-trunk-b-vertebral-artery-transverse-cervical-a-2c56970b",
@@ -13038,8 +13068,8 @@
     "C": "inferior vena cava",
     "D": "crista terminalis"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_f1905b4b83def7d5642b",
@@ -13054,7 +13084,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "During cardiac embryogenesis the sinus venosus has paired horns; as venous return is progressively redirected to the right side of the developing heart, the left horn regresses and its remnant becomes the coronary sinus (with its most proximal part forming the oblique vein of the left atrium, the vein of Marshall). This is the mirror-image event to the right horn, which instead enlarges and is incorporated into the right atrium as the smooth-walled sinus venarum. The takeaway is a left-right asymmetry rule worth memorising: right sinus horn becomes part of the right atrium; left sinus horn becomes the coronary sinus.",
+    "distractorNotes": {
+     "B": "The superior vena cava forms from the right common cardinal vein and right anterior cardinal vein, not the left sinus horn.",
+     "C": "The inferior vena cava's hepatic segment forms from the right vitelline vein, unrelated to the left sinus horn.",
+     "D": "The crista terminalis is a right atrial ridge marking the junction of the sinus venarum and the primitive atrium, a right-sided derivative, not a left-horn one."
+    }
+   }
   },
   {
    "key": "during-the-heart-development-the-left-horn-of-the-sinus-veno-fb6e29c0",
@@ -21744,8 +21783,8 @@
     "C": "coronary sinus",
     "D": "superior vena cava"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_f1905b4b83def7d5642b",
@@ -21760,7 +21799,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The azygos vein does not open directly into the right atrium; instead it arches over the root of the right lung and drains into the superior vena cava just before the SVC enters the atrium. The structures that do open directly into the right atrium are the superior vena cava, the inferior vena cava, the coronary sinus, and the small anterior cardiac veins (plus the minute thebesian veins). The takeaway is to distinguish tributaries that feed the great veins (like the azygos, which feeds the SVC) from vessels that have their own independent ostium in the atrial wall.",
+    "distractorNotes": {
+     "B": "Anterior cardiac veins drain the anterior right ventricle and open directly into the right atrium, usually through several small separate openings.",
+     "C": "The coronary sinus, draining most of the heart's venous blood, opens directly into the right atrium via its own ostium guarded by the thebesian valve.",
+     "D": "The superior vena cava opens directly into the upper part of the right atrium and has no valve guarding its orifice."
+    }
+   }
   },
   {
    "key": "one-of-the-following-does-not-open-into-the-right-atrium-679e33ac",
@@ -22823,8 +22871,8 @@
     "C": "AV nodal cells",
     "D": "Purkinje fibers"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -22839,7 +22887,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Pacemaker (spontaneous diastolic depolarisation) potentials are a property of the heart's specialised autorhythmic tissue -- the SA node, AV node, and Purkinje fibres -- which lack a stable resting potential and instead drift toward threshold via funny current and other ion channels. Working (contractile) myocardial cells, by contrast, have a stable resting membrane potential and depolarise only when an external wave of excitation reaches them; they do not generate spontaneous pacemaker activity under normal conditions. The clinical takeaway is that if working myocardium ever does develop pacemaker-like automaticity, it is abnormal (ectopic focus), which is why this property is specifically absent from normal working muscle.",
+    "distractorNotes": {
+     "B": "The SA node is the heart's dominant pacemaker and normally shows the fastest, most prominent pacemaker potentials.",
+     "C": "AV nodal cells possess pacemaker potentials too, acting as a backup (junctional) pacemaker if the SA node fails.",
+     "D": "Purkinje fibres retain latent pacemaker activity as a last-resort escape rhythm if higher pacemakers fail."
+    }
+   }
   },
   {
    "key": "para-nasal-sinus-is-lined-by-90a3c631",
@@ -23534,7 +23591,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of the tail end of a prior question's option list (posterior interventricular / circumflex / right marginal artery, apparently answer choices to a different question) with the start of a new question about the right coronary artery, plus stray Arabic-numeral OCR artifacts. Neither fragment is a complete, answerable question as extracted."
   },
   {
    "key": "prevent-collapse-ensure-continuous-supply-of-air-d7f3beea",
@@ -25434,8 +25493,8 @@
     "D": "The anterior interventricular artery is a branch of the left coronary artery",
     "E": "Coronary filling occurs during ventricular diastole"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25450,7 +25509,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "In the great majority of hearts (right-dominant circulation, roughly 80-90% of people), the AV node is supplied by a branch of the RIGHT coronary artery, not the left, so the statement crediting the left coronary artery is the false one (the exception this EXCEPT-question is asking for). The other statements are standard coronary anatomy: the left coronary artery does arise from the left posterior aortic sinus, its anterior interventricular (LAD) branch does supply the interventricular septum's anterior part, and coronary perfusion is indeed greatest during ventricular diastole when extravascular compression is lowest. The exam takeaway is to keep AV-nodal supply (right-dominant in most people) separate from LAD/septal supply (left-dominant), since banks frequently test this exact swap.",
+    "distractorNotes": {
+     "A": "True: the left coronary artery arises from the left posterior aortic sinus, one of its defining anatomical facts.",
+     "D": "True: the anterior interventricular (LAD) artery is the left coronary artery's major branch supplying the anterior septum and anterior left ventricular wall.",
+     "E": "True: coronary blood flow, especially to the left ventricle, occurs predominantly during diastole because systolic compression of intramural vessels impedes flow."
+    }
+   }
   },
   {
    "key": "regarding-the-coronary-arteries-the-following-statements-are-db3acfda",
@@ -25548,7 +25616,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Development of the Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "OCR has folded option A into the stem ('a~ The definitive adult aortic arch develops from the third left arch'), and every option as extracted (third arch instead of the textbook fourth arch; sixth arch persisting as ductus arteriosus described as the 'right' rather than 'left' sixth arch) evaluates as false under standard aortic-arch-derivative teaching. This pattern strongly suggests a specific word was OCR-corrupted (e.g. 'fourth' misread as 'third', or 'left' misread as 'right') rather than that the whole item is unanswerable, but which word is wrong cannot be determined without the source page. Keying any option here would be a guess dressed as a key, which the ANSWER-KEY GAPS ruling treats as worse than leaving it unkeyed."
   },
   {
    "key": "regarding-the-development-of-the-heart-select-the-false-stat-1cc2398a",
@@ -26308,7 +26378,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Genuine anatomical ambiguity between two of the five listed statements: whether the left coronary artery's initial course is accurately described as passing 'between the aorta and the pulmonary trunk' (B) versus whether it, rather than its circumflex continuation, is properly said to 'wind around the left margin of the heart' (E). Both descriptions are close paraphrases of true anatomy depending on how loosely 'left coronary artery' is used to include its circumflex branch, and choosing between them without the source textbook's exact wording would be a guess."
   },
   {
    "key": "regarding-the-lungs-all-the-following-statements-are-true-ex-1bfb9298",
@@ -26864,7 +26936,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Options B and C are truncated mid-sentence ('...guarded on its right side by a' and '...lies between the opening of the IVC and'), cutting off exactly the anatomical detail (e.g. which side the Eustachian valve guards) needed to judge whether either statement is the false one the EXCEPT-question is looking for. The other three options (A, D, and the visible part of E) are individually plausible/true, so the false statement is very likely hidden in the truncated text."
   },
   {
    "key": "regarding-the-right-coronary-artery-select-the-correct-state-6545e80e",
@@ -26981,7 +27055,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All of options B through E are truncated mid-sentence ('...attached only to', '...extends from the base of the anterior papillary to', '...attached to two cusps of', '...pulmonary valve is'), removing the specific anatomical claim in each case. An EXCEPT-question cannot be keyed when the very statements to be judged true or false are incomplete."
   },
   {
    "key": "regarding-the-root-of-the-lung-all-true-except-5bb8ca0c",
@@ -28289,7 +28365,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Development of the Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a bare, garbled fragment ('Septum secondume ١') with no verb or question form, and only three options survive (Truncal septum, Septum primum, Interventricular septum) where a four-option MCQ almost certainly had a fourth (likely the true embryological origin -- septum secundum develops independently from the dorsal/roof wall of the right atrium, a structure not listed among the surviving three). None of the three surviving options is the textbook correct origin, which is the signature of a missing correct option rather than an answerable question."
   },
   {
    "key": "sinusoidal-capillary-blood-sinusoid-is-characterized-by-e2000dcb",
@@ -29473,8 +29551,8 @@
     "B": "25 mmllg",
     "C": "15 mmHg. |"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -29489,7 +29567,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Normal right ventricular systolic pressure is approximately 25 mmHg (typically cited in the 15-30 mmHg range), matching the pulmonary artery systolic pressure it generates against the low-resistance pulmonary circulation. This is roughly one-fifth of normal left ventricular systolic pressure (~120 mmHg), reflecting the pulmonary circuit's much lower vascular resistance compared with the systemic circuit. The physiological takeaway is that right and left ventricular systolic pressures should always be reasoned as a pair: the RV generates just enough pressure to perfuse the lungs, not the whole body.",
+    "distractorNotes": {
+     "A": "35 mmHg is higher than the accepted normal RV systolic pressure and would suggest early pulmonary hypertension rather than a normal value.",
+     "C": "15 mmHg is at the low end of normal RV diastolic filling pressure territory, not the systolic pressure the question asks about."
+    }
+   }
   },
   {
    "key": "t-media-is-formed-of-all-the-following-except-0ad4222c",
@@ -30227,8 +30313,8 @@
     "B": "their closure is initiated when the ventricular pressure exceeds atrial pressure",
     "C": "open by contraction of papillary muscles"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -30243,7 +30329,14 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The atrioventricular valves close when rising ventricular pressure during isovolumic contraction exceeds atrial pressure, forcing the cusps shut and preventing backflow into the atria; this is the correct physiological trigger described in option B. This is a passive, pressure-driven event, not something the papillary muscles cause: the papillary muscles and their chordae tendineae instead contract just before and during this closure to tether the cusps and stop them prolapsing back into the atria under high ventricular pressure. The exam takeaway is that valve opening and closing are governed by pressure gradients across the valve, while the papillary muscle-chordae apparatus only prevents prolapse -- it does not open or close the valve itself.",
+    "distractorNotes": {
+     "C": "False: papillary muscle contraction does not open the AV valves; the valves open passively when atrial pressure exceeds ventricular pressure in diastole, and papillary contraction instead tensions the chordae during systole to prevent prolapse."
+    }
+   }
   },
   {
    "key": "the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f",
@@ -31402,8 +31495,8 @@
     "D": "Atrioventricular bundle",
     "E": "Atrioventircular node"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -31418,7 +31511,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The chordae tendineae are fibrous cords connecting the atrioventricular valve cusps to the papillary muscles; they are part of the mechanical valve-support apparatus, not the electrical conduction system, so they are the correct exception here. The true conduction system runs SA node to AV node to the bundle of His (atrioventricular bundle) to the Purkinje fibres, a specialised electrical pathway distinct from the heart's mechanical/structural components like valves and their supporting cords. The takeaway is to keep the heart's electrical scaffolding (nodes, bundle, Purkinje fibres) mentally separate from its mechanical scaffolding (valves, chordae, papillary muscles), since exam banks often test this exact distinction.",
+    "distractorNotes": {
+     "A": "Purkinje fibres are a genuine, terminal part of the conduction system, distributing the impulse into ventricular myocardium.",
+     "B": "The sinoatrial node is the heart's primary pacemaker and the conduction system's origin.",
+     "D": "The atrioventricular bundle (bundle of His) is a genuine conduction-system component linking the AV node to the bundle branches.",
+     "E": "The atrioventricular node is a genuine conduction-system component that delays and relays the impulse from atria to ventricles."
+    }
+   }
   },
   {
    "key": "the-following-are-associated-with-a-decrease-in-cardiac-outp-90f40768",
@@ -31485,8 +31588,8 @@
     "D": "Atrioventricular bundle",
     "E": "Atrioventircular node"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -31501,7 +31604,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is a duplicate of the identical question asking which listed structure is NOT part of the cardiac conduction system; the chordae tendineae remain the correct exception because they are mechanical valve-support cords, not electrical conduction tissue. The conduction pathway itself is SA node to AV node to bundle of His to Purkinje fibres, all of which are specialised myocardial cells adapted for impulse generation and rapid propagation rather than for anchoring a valve. As with the sibling question, the exam point is distinguishing electrical components of the heart from its purely mechanical, structural components.",
+    "distractorNotes": {
+     "A": "Purkinje fibres are the terminal, fastest-conducting part of the true conduction system.",
+     "B": "The sinoatrial node is the heart's dominant pacemaker and start of the conduction pathway.",
+     "D": "The atrioventricular bundle carries the impulse from the AV node into the ventricular conduction system.",
+     "E": "The atrioventricular node is the deliberate delay point between atrial and ventricular conduction."
+    }
+   }
   },
   {
    "key": "the-following-are-the-contents-of-superior-mediastinum-excep-f5f71f58",
@@ -32121,7 +32234,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Heart",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem asks for a structure present in the right VENTRICLE, but all three surviving options (crista terminalis, musculi pectinati, fossa ovalis) are right ATRIAL structures, not right ventricular ones -- none of them can be correct for a right-ventricle question. This mismatch indicates either the option set was corrupted/misfiled from a right-atrium question, or the true correct option (e.g. the moderator band, a genuine right-ventricular structure) was lost in extraction; keying any of the three present options would be factually wrong regardless of which is chosen."
   },
   {
    "key": "the-following-structure-lies-behind-the-oseophagus-0548e986",
@@ -45538,5 +45653,7 @@
   "stillUnderFour": 217,
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
- "withExternalSolvedBookRecoveredAnswer": 383
+ "withExternalSolvedBookRecoveredAnswer": 383,
+ "withEditorialAnswer": 11,
+ "editorialExcludedCount": 9
 }
