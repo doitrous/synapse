@@ -108,6 +108,16 @@ export interface FlashcardsApi {
   setDue: (cardId: string, day: string) => void
   // Flag (meta only; searchable, no scheduling event)
   setFlag: (cardId: string, flag: FlagColor | null) => void
+  // Bulk actions (single commit — safe to apply to many cards/notes at once)
+  bulkFlag: (cardIds: string[], flag: FlagColor | null) => void
+  bulkSuspend: (cardIds: string[], next: boolean) => void
+  bulkBury: (cardIds: string[], next: boolean) => void
+  bulkReset: (cardIds: string[]) => void
+  bulkSetDue: (cardIds: string[], day: string) => void
+  unburyDeck: (deckId: string) => void
+  bulkMoveNotes: (noteIds: string[], deckId: string) => void
+  bulkTag: (noteIds: string[], tag: string, add: boolean) => void
+  bulkDeleteNotes: (noteIds: string[]) => void
   // Tags across the collection
   allTags: string[]
 }
@@ -234,16 +244,21 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
     })
   }, [deckRecords, allCards, providedMeta, providedSubject, bootNow])
 
-  const appendEvent = useCallback(
-    (event: NewReviewEvent) => {
-      const full: ReviewEvent = { ...event, id: `re-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}` }
+  const appendEvents = useCallback(
+    (events: NewReviewEvent[]) => {
+      if (events.length === 0) return
+      const stamped: ReviewEvent[] = events.map((event, i) => ({
+        ...event,
+        id: `re-${Date.now().toString(36)}-${i}-${Math.random().toString(36).slice(2, 7)}`,
+      }))
       setReviewEvents((current) => {
-        const next = [...current, full]
+        const next = [...current, ...stamped]
         return next.length > REVIEW_LOG_CAP ? next.slice(next.length - REVIEW_LOG_CAP) : next
       })
     },
     [setReviewEvents],
   )
+  const appendEvent = useCallback((event: NewReviewEvent) => appendEvents([event]), [appendEvents])
 
   const ctxFor = useCallback(
     (card: Card): { cardId: string; noteId: string; deckId: string; scheduler: SchedulerType } => ({
@@ -392,6 +407,103 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
     [withMeta],
   )
 
+  // ---- Bulk actions (one commit, so a loop never clobbers itself) ----------
+
+  const bulkCard = useCallback(
+    (ids: string[], produce: (meta: CardMeta, entry: CardWithMeta) => { meta: CardMeta; event?: NewReviewEvent }) => {
+      let meta = collection.meta
+      const events: NewReviewEvent[] = []
+      let changed = false
+      for (const id of ids) {
+        const entry = cardIndex.get(id)
+        if (!entry) continue
+        const result = produce(meta[id] ?? entry.meta, entry)
+        meta = { ...meta, [id]: result.meta }
+        changed = true
+        if (result.event) events.push(result.event)
+      }
+      if (changed) commit({ ...collection, meta })
+      appendEvents(events)
+    },
+    [collection, cardIndex, commit, appendEvents],
+  )
+
+  const bulkFlag = useCallback((ids: string[], flag: FlagColor | null) => bulkCard(ids, (meta) => ({ meta: { ...meta, flag } })), [bulkCard])
+  const bulkSuspend = useCallback(
+    (ids: string[], next: boolean) => bulkCard(ids, (meta, entry) => (next ? suspendCard(meta, ctxFor(entry.card), new Date()) : unsuspendCard(meta, ctxFor(entry.card), new Date()))),
+    [bulkCard, ctxFor],
+  )
+  const bulkBury = useCallback(
+    (ids: string[], next: boolean) => bulkCard(ids, (meta, entry) => (next ? buryCard(meta, ctxFor(entry.card), new Date()) : unburyCard(meta, ctxFor(entry.card), new Date()))),
+    [bulkCard, ctxFor],
+  )
+  const bulkReset = useCallback(
+    (ids: string[]) => bulkCard(ids, (meta, entry) => resetCard(meta, ctxFor(entry.card), schedulerFor(entry.card.deckId), new Date())),
+    [bulkCard, ctxFor, schedulerFor],
+  )
+  const bulkSetDue = useCallback(
+    (ids: string[], day: string) => bulkCard(ids, (meta, entry) => setDueDate(meta, day, ctxFor(entry.card), new Date())),
+    [bulkCard, ctxFor],
+  )
+  const unburyDeck = useCallback(
+    (deckId: string) => {
+      const ids = allCards.filter((c) => c.card.deckId === deckId && c.meta.buriedUntil).map((c) => c.card.id)
+      bulkBury(ids, false)
+    },
+    [allCards, bulkBury],
+  )
+
+  const bulkMoveNotes = useCallback(
+    (noteIds: string[], deckId: string) => {
+      const nextNotes = { ...collection.notes }
+      let changed = false
+      for (const noteId of noteIds) {
+        const note = nextNotes[noteId]
+        if (!note) continue
+        nextNotes[noteId] = { ...note, deckId, updatedAt: new Date().toISOString() } as Note
+        changed = true
+      }
+      if (changed) commit({ ...collection, notes: nextNotes })
+    },
+    [collection, commit],
+  )
+
+  const bulkTag = useCallback(
+    (noteIds: string[], tag: string, add: boolean) => {
+      const nextNotes = { ...collection.notes }
+      let changed = false
+      for (const noteId of noteIds) {
+        const note = nextNotes[noteId]
+        if (!note) continue
+        const has = note.tags.includes(tag)
+        if (add && has) continue
+        if (!add && !has) continue
+        const tags = add ? [...note.tags, tag] : note.tags.filter((tg) => tg !== tag)
+        nextNotes[noteId] = { ...note, tags, updatedAt: new Date().toISOString() } as Note
+        changed = true
+      }
+      if (changed) commit({ ...collection, notes: nextNotes })
+    },
+    [collection, commit],
+  )
+
+  const bulkDeleteNotes = useCallback(
+    (noteIds: string[]) => {
+      const removed = new Set(noteIds)
+      const notesLeft: Record<string, Note> = {}
+      for (const [id, note] of Object.entries(collection.notes)) {
+        if (!removed.has(id)) notesLeft[id] = note
+      }
+      const metaLeft: Record<string, CardMeta> = {}
+      for (const [id, meta] of Object.entries(collection.meta)) {
+        const noteId = id.slice(0, id.lastIndexOf('::'))
+        if (!removed.has(noteId)) metaLeft[id] = meta
+      }
+      commit({ ...collection, notes: notesLeft, meta: metaLeft })
+    },
+    [collection, commit],
+  )
+
   // ---- Reads ----------------------------------------------------------------
 
   const notesForDeck = useCallback((deckId: string) => Object.values(notes).filter((n) => n.deckId === deckId), [notes])
@@ -447,6 +559,15 @@ export function useFlashcards(providedDecks: StudentDeck[] = []): FlashcardsApi 
     bury,
     setDue,
     setFlag,
+    bulkFlag,
+    bulkSuspend,
+    bulkBury,
+    bulkReset,
+    bulkSetDue,
+    unburyDeck,
+    bulkMoveNotes,
+    bulkTag,
+    bulkDeleteNotes,
     allTags,
   }
 }

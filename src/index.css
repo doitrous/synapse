@@ -88,6 +88,18 @@
   --color-scale-4: #d13a63;
   --color-scale-5: #a82449;
 
+  /* Study flags (Anki's seven, in order). Functional signal colours: a flag
+     never stands on colour alone — it carries its name in the tooltip and is
+     searchable by name — so seven distinct hues are acceptable here where they
+     would not be on a decorative surface. Warm inherits these; dark lifts them. */
+  --color-flag-red: #cf3a4a;
+  --color-flag-orange: #bd6a17;
+  --color-flag-green: #2f8f5b;
+  --color-flag-blue: #2f6fd0;
+  --color-flag-pink: #d15a9e;
+  --color-flag-turquoise: #1c93a2;
+  --color-flag-purple: #7b5bd0;
+
   /* ---- Radius -------------------------------------------------------- */
   --radius-sm: 6px;
   --radius-md: 8px;
@@ -244,6 +256,15 @@
   --color-scale-3: #8d3253;
   --color-scale-4: #bb416b;
   --color-scale-5: #e8759a;
+
+  /* Flags, lifted for the dark ground. */
+  --color-flag-red: #f2778a;
+  --color-flag-orange: #e0a05a;
+  --color-flag-green: #63c58f;
+  --color-flag-blue: #6fa3f0;
+  --color-flag-pink: #ef9bc9;
+  --color-flag-turquoise: #55c6d2;
+  --color-flag-purple: #ab93ec;
 
   /* On a dark ground a shadow cannot be seen; separation comes from the
      surface being lighter than the paper, so shadows survive only on
