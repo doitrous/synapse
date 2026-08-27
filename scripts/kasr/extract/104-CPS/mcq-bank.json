@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 793,
+ "withAnswer": 801,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -547,7 +547,9 @@
    ],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This is a discursive clinical-vignette prompt with open-ended sub-questions ('which main bronchus and lung, and why?', 'which type of foreign body gives a more dangerous outcome?') rather than single-best-answer multiple-choice options -- not a keyable MCQ item as extracted."
   },
   {
    "key": "a-child-presented-with-mental-retardation-muscular-hypotonia-91b259cf",
@@ -2346,7 +2348,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a bare, meaningless fragment ('0') with no question text at all; the three options (proprioceptor afferents, vagal lung-stretch-receptor afferents, arterial hydrogen ion concentration) hint at a respiratory-reflex-control question, but with no stem there is nothing to answer."
   },
   {
    "key": "03-6-visceral-pleufa-is-innervated-by-the-phrenic-and-the-fo-5369899d",
@@ -2356,8 +2360,8 @@
     "D": "The azygos vein arches above its root",
     "C": "Pulmonary arteries carry oxygenated blood for the lung. 1"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -2372,7 +2376,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Pulmonary arteries are the well-known exception to the general rule that arteries carry oxygenated blood: they carry deoxygenated blood from the right ventricle to the lungs specifically so it can be oxygenated there, with the now-oxygenated blood returning to the heart via the pulmonary veins -- making the claim that 'pulmonary arteries carry oxygenated blood for the lung' clearly and confidently wrong. This exception (alongside the umbilical vessels in the fetus) is one of the most frequently tested 'trick' facts in cardiovascular and respiratory anatomy precisely because it inverts the usual artery/vein oxygenation rule. The takeaway is to always treat 'artery = oxygenated, vein = deoxygenated' as a systemic-circulation rule only, with the pulmonary circulation reversed.",
+    "distractorNotes": {
+     "B": "True: the right phrenic nerve passes anterior to the root of the right lung as it descends toward the diaphragm, alongside the pericardiacophrenic vessels.",
+     "D": "True: the azygos vein arches over the root of the right lung from posterior to anterior before draining into the superior vena cava, a landmark relation on chest imaging."
+    }
+   }
   },
   {
    "key": "03-contains-network-of-lymph-capillaries-of-00-0-693-1-regar-28bdf44e",
@@ -2626,8 +2638,8 @@
     "C": "Alveolar 202 in the left lung will be approximately equal to. the PO2 in inspired air",
     "D": "Alveolar PO2 in the right lung will be approximately equal to the PO2 in venous blood"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -2642,7 +2654,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Lungs",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "When perfusion (Q) to the left lung drops to zero while ventilation (V) continues, the ventilation-perfusion ratio in that lung becomes mathematically infinite (V divided by zero), not zero -- so the affected alveoli are being ventilated with fresh air but have no blood flow to exchange gas with. Under this condition, the alveolar gas composition in the unperfused lung progressively equilibrates with the composition of inspired (tracheal) air rather than being modified by blood gas exchange, since there is no perfusing blood to add carbon dioxide or remove oxygen from the alveolar space. This is the textbook 'infinite V/Q' or alveolar dead space scenario, the physiological mirror image of a shunt (zero V/Q), where perfused-but-unventilated alveoli instead equilibrate toward mixed venous blood composition.",
+    "distractorNotes": {
+     "A": "A V/Q ratio of zero describes the opposite extreme -- a shunt, where blood flows through unventilated alveoli -- not the zero-perfusion, normal-ventilation state described here, which instead produces an infinitely high V/Q ratio.",
+     "B": "The left lung's V/Q ratio in this scenario is far HIGHER than the right lung's (approaching infinity), not lower, since ventilation continues with no perfusion at all.",
+     "D": "The right lung, now receiving the entire cardiac output with roughly unchanged total ventilation, will have a comparatively LOW V/Q ratio and its alveolar PO2 will shift toward (but not become fully equal to) mixed venous levels -- 'approximately equal to venous blood' overstates this shift for the right lung."
+    }
+   }
   },
   {
    "key": "a-7-year-old-child-came-to-the-pediatric-clinic-presenting-w-52cb44df",
@@ -17260,7 +17281,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem itself is a garbled run of several candidate statements with corrupted numbering ('2a', 'bb') rather than a clean stem plus separate lettered options, and the surviving 'options' include a bare noun fragment ('Hemiazygos vein') with no full statement attached -- too corrupted to identify one coherent true statement."
   },
   {
    "key": "in-the-superior-mediastinum-which-is-appropriate-78a9a3f4",
@@ -25453,8 +25476,8 @@
     "D": "Right bronchus divides into an upper lobe bronchus before entering the",
     "E": "The pulmonary arteries lie in front of the bronchi"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25469,7 +25492,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "At the root of the right lung, the standard front-to-back ordering of structures is: the right phrenic nerve and pericardiacophrenic vessels most anteriorly, then the superior vena cava/right atrium, then the right pulmonary artery, and the right main bronchus lying most posteriorly of the vascular-bronchial group -- so the bronchus does not pass in front of the superior vena cava; if anything, the relationship is the reverse, with the SVC lying anterior and superior to the bronchus. This ordering is why the bronchus, being the most posterior structure, is also the last one a surgeon encounters when dissecting the hilum from front to back. The exam takeaway is to memorise the anterior-to-posterior hilum sequence (vein/atrium, artery, bronchus) rather than assuming the airway is anterior simply because it is drawn centrally in diagrams.",
+    "distractorNotes": {
+     "A": "True: the bronchial vessels, supplying the bronchial walls themselves, do run in relation to the posterior aspect of the bronchi at the hilum and along their course.",
+     "B": "True: the right main bronchus is wider, shorter, and more vertical than the left, which is the classic anatomical reason inhaled foreign bodies preferentially lodge on the right side.",
+     "D": "True: the right main bronchus gives off its upper lobe (eparterial) bronchus before entering the lung hilum, a distinguishing feature from the left main bronchus, which gives off all its lobar branches only after entering the hilum.",
+     "E": "True: at the hilum, the pulmonary artery typically lies anterior and superior to the bronchus (on the right) or directly above it (on the left), consistent with the artery being anterior to, not behind, the bronchus."
+    }
+   }
   },
   {
    "key": "regarding-the-bronchopulmonary-segments-choose-the-correct-s-a03bf8bf",
@@ -25706,8 +25739,8 @@
     "C": "It is related posteriorly to the hemiazygos veins",
     "E": "During its passage through the diaphragm, it is accompanied by the thoracic"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25722,7 +25755,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The descending thoracic aorta actually ends at the lower border of the twelfth thoracic vertebra (T12), where it passes through the aortic hiatus of the diaphragm to continue as the abdominal aorta -- not at T10 as this option states, making it the false statement this EXCEPT-question is looking for. The T10 level instead belongs to a different structure entirely: the oesophageal opening of the diaphragm, through which the oesophagus (not the aorta) passes, so this option appears to conflate the two diaphragmatic openings' vertebral levels. The exam takeaway is to keep the three diaphragmatic openings and their levels distinct: vena caval opening at T8, oesophageal opening at T10, and aortic hiatus at T12.",
+    "distractorNotes": {
+     "A": "The descending thoracic aorta begins where the arch ends, at the lower border of T4, a level commonly equated with the sternal angle, so this statement is essentially true.",
+     "C": "True: the hemiazygos vein (and azygos vein on the other side) runs posteriorly related to the descending thoracic aorta in the posterior mediastinum.",
+     "E": "True: the thoracic duct accompanies the aorta through the aortic hiatus of the diaphragm, both structures passing through this same opening at T12."
+    }
+   }
   },
   {
    "key": "regarding-the-development-of-aortic-arches-mark-one-correct-09a8e7be",
@@ -27506,8 +27548,8 @@
     "B": "It begins at the level of the lower border of C5,",
     "A": "It is wider than the tight principal bronchus. :"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -27522,7 +27564,14 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The trachea's diameter (roughly 2-2.5 cm) is wider than that of either main bronchus individually, since the trachea is the single parent airway that divides into the two narrower main bronchi at the carina -- this makes the comparison in option A a straightforwardly true anatomical fact. The embedded claim that the trachea 'contains incomplete rings of fibrocartilage' is a subtle terminology trap: the trachea's C-shaped rings are HYALINE cartilage, not fibrocartilage, a distinct tissue type found instead in structures like the intervertebral discs and menisci, so that statement is technically false despite sounding plausible. The exam takeaway is to keep cartilage histology precise: trachea and bronchi use hyaline cartilage, and 'fibrocartilage' is reserved for a different set of structures altogether.",
+    "distractorNotes": {
+     "B": "The trachea begins at the lower border of the cricoid cartilage, vertebral level C6, not C5 as this option states."
+    }
+   }
   },
   {
    "key": "regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d",
@@ -28867,8 +28916,8 @@
     "D": "transection of the spinal cord at the level of the first thoracic segment",
     "C": "Trachea"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_d3160d222c8c55775511",
@@ -28885,7 +28934,16 @@
    ],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "This is the classic Guyton-cited experiment on brainstem respiratory control: cutting both vagi alone only removes the Hering-Breuer inflation reflex, producing slower and deeper breaths but not stopping respiration, because the medullary rhythm generator and pontine centres remain intact and connected. Combining bilateral vagotomy with a transection of the brainstem at the upper (superior) border of the pons removes the pneumotaxic centre's modulating input on top of the vagal input, and together these losses convert normal rhythmic breathing into apneusis -- sustained, prolonged inspiratory gasps with only brief interrupting expirations, the closest this experimental progression comes to a loss of normal spontaneous respiratory rhythm. The physiological takeaway is that respiration is normally 'tuned' by at least three inputs working together (medullary rhythm generator, pontine pneumotaxic centre, and vagal stretch-receptor feedback), and progressively removing them destabilises the rhythm long before the medullary generator itself is destroyed.",
+    "distractorNotes": {
+     "A": "Bilateral vagotomy alone removes only the Hering-Breuer reflex; breathing continues, just slower and deeper, since the medullary and pontine centres are untouched.",
+     "D": "Transecting the spinal cord at T1 disconnects the intercostal muscles but spares the phrenic nerve (C3-C5), which originates above this level, so diaphragmatic breathing continues, weakened but present -- respiration does not cease.",
+     "C": "\"Trachea\" is not a physiological cause of respiratory cessation at all; it is an unrelated anatomical structure mixed into this option list."
+    }
+   }
   },
   {
    "key": "star-like-fashion-around-centriole-1ecfb67e",
@@ -30521,8 +30579,8 @@
     "D": "All the above",
     "E": "None of the above"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -30537,7 +30595,14 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The oesophageal (autonomic) plexus is formed around the oesophagus from anterior and posterior vagal trunks derived from both the right and left vagus nerves (the trunks re-forming below the pulmonary hila after the vagi have contributed to the pulmonary plexuses), so it genuinely sits both anterior and posterior to the oesophagus and genuinely receives fibres from both vagi. It also receives a sympathetic contribution reaching it via periarterial and splanchnic pathways, including fibres associated with the greater splanchnic nerve territory as the plexus continues toward the abdominal oesophagus. Because each individual statement is independently true, the correct choice is the 'all of the above' option, consistent with this exam bank's pattern of testing multi-part enumerations of a single structure's features as one combined answer.",
+    "distractorNotes": {
+     "E": "Since options A, B, and C are each independently true, 'none of the above' cannot be correct."
+    }
+   }
   },
   {
    "key": "the-average-normal-electrical-axis-of-the-heart-is-6e612f34",
@@ -33383,7 +33448,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely correct, embedded statement (that the left superior intercostal vein crosses superficial to the arch of the aorta) has no surviving letter, and the lettered options that do survive (B, C) describe entirely different structures -- the ligamentum arteriosum and the thoracic duct, not the left superior intercostal vein -- indicating cross-question contamination from the recurring 'arch of aorta EXCEPT' question type rather than a coherent option set for this vein."
   },
   {
    "key": "the-left-superior-intercostal-vein-drains-usually-into-the-f54a19d6",
@@ -34269,7 +34336,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The extracted 'stem' is an entire OCR'd exam page bleeding together at least eight to ten distinct, unrelated questions and severely garbled text throughout (nasolacrimal duct, azygos vein anatomy, esophagus facts, diaphragm openings, tracheal bifurcation level, laryngeal nerve relations, intercostal muscle facts, subclavian artery branches), with option lettering unrecoverable. This is unrecoverable as a single question."
   },
   {
    "key": "the-opening-of-the-inferior-vena-cava-is-guarded-on-its-righ-760729ed",
@@ -35421,7 +35490,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a bare fragment ('The right primary bronchus') with no actual question, and the four options (carina of the trachea, beginning of the trachea, anterior basal, posterior basal) read as unrelated terms bled together from different questions about tracheal landmarks and bronchopulmonary segment names, not answer choices to one coherent stem."
   },
   {
    "key": "the-right-superior-intercostal-veins-drains-into-tepe-gd-8dd78bd6",
@@ -36631,7 +36702,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The textbook answer to this classic histology fact (the aorta / an elastic artery, whose tunica media contains 40-70 concentric fenestrated elastic laminae) is not among the two surviving options (inferior vena cava, muscular arteries), both of which are histologically wrong for this description -- the correct option was almost certainly missing from what survived extraction."
   },
   {
    "key": "the-wall-of-inferior-vena-cava-contains-5098daea",
@@ -36872,8 +36945,8 @@
     "D": "The thoracic duct crosses behind the oesophagus opposite 4",
     "E": "The thoracic duct Passes behind the oesophagus through oesophgeal"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "E",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -36888,7 +36961,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The thoracic duct passes from the abdomen into the thorax through the AORTIC opening (hiatus) of the diaphragm at the level of T12, travelling alongside the aorta -- it does not pass through the oesophageal opening (which transmits the oesophagus and vagal trunks, at T10) as this option claims, making it the false statement among these otherwise-true thoracic facts. The other listed statements are standard, correct thoracic anatomy: the arch of the aorta does lie within the superior mediastinum, the deep cardiac plexus does lie near the tracheal bifurcation, and the thoracic duct genuinely does cross behind the oesophagus around the T4-T5 level as it moves from right to left. The exam takeaway is to keep the three diaphragmatic openings and what passes through each distinct: caval opening (T8, IVC), oesophageal opening (T10, oesophagus and vagal trunks), and aortic hiatus (T12, aorta and thoracic duct).",
+    "distractorNotes": {
+     "A": "True: the arch of the aorta is conventionally described as lying entirely within the superior mediastinum, between where the ascending aorta ends and the descending aorta begins.",
+     "C": "True: the deep cardiac plexus lies posterior to the arch of the aorta, near the tracheal bifurcation.",
+     "D": "True: the thoracic duct crosses from the right side to the left side, passing behind the oesophagus, at approximately the T4-T5 vertebral level."
+    }
+   }
   },
   {
    "key": "thymic-epithelial-cells-epithelial-reticular-cells-are-e7482bae",
@@ -37905,7 +37987,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The correct, well-established fact (the SVC forms behind the lower border of the first right costal cartilage) is embedded unlettered in the stem, and no 'A' option survives in the extracted set to assign it to -- the three lettered options that do survive (2nd, 3rd, 4th right costal cartilage) are all incorrect distractors, leaving no valid letter for the true answer."
   },
   {
    "key": "using-specific-chemical-chromatids-are-stopped-from-separati-796779b2",
@@ -38775,7 +38859,9 @@
    "optionsBefore": [
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "None of the surviving options precisely matches the textbook-correct anterior relations of the thoracic trachea (chiefly the left brachiocephalic vein and the origins of the brachiocephalic trunk and left common carotid artery): the embedded 'thoracic duct' option is actually a posterior relation (it ascends behind the oesophagus, itself posterior to the trachea), option C is garbled and ambiguous, and option B (SVC) lies lateral to, not directly anterior to, the trachea."
   },
   {
    "key": "what-is-the-correct-pathway-of-impulses-through-the-conducti-26e4ed5e",
@@ -42367,7 +42453,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely correct statement (the oesophagus's first constriction lies about 15 cm from the upper incisor teeth, a well-established clinical/endoscopic landmark) is embedded unlettered in the stem, and while options B (begins at T6) and D (10 cm long) are confidently false, option C's specific claim (crosses in front of the descending aorta 'at T10') cannot be verified with full confidence as either the intended distractor or a genuinely true statement without the source text, so no letter can be safely assigned."
   },
   {
    "key": "which-of-the-following-statements-about-the-course-of-the-th-dff1f8cd",
@@ -43032,7 +43120,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem (about which vertebral column region shows a backward-concave secondary curve) is followed by options that are entirely unrelated cardiac and mediastinal facts (aortic valve chordae tendineae, coronary artery origin from the aortic sinuses, azygos vein, oesophagus) rather than vertebral column regions -- this is a cross-question contamination with no coherent option set for the stem asked."
   },
   {
    "key": "which-of-tne-following-represents-the-pressure-difference-th-8e096a02",
@@ -43991,7 +44081,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Veins of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Only two of what was likely four or five options survived, and both remaining statements are broadly consistent with the standard root-of-left-lung ordering (pulmonary artery superior to the bronchus; pulmonary vein the most anterior structure), with only a subtle wording difference between them -- there is no confident way to identify which one the question intends as the false statement, and the missing options may contain a more clearly false one."
   },
   {
    "key": "wnicn-character-of-the-san-makes-it-the-normal-heart-s-pacem-4a072f34",
@@ -45955,6 +46047,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 36,
- "editorialExcludedCount": 44
+ "withEditorialAnswer": 44,
+ "editorialExcludedCount": 56
 }
