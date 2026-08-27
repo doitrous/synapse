@@ -1,19 +1,27 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Award, BarChart3, Brain, Clock3, Layers, ListChecks, Medal, Table2, Timer, TrendingUp, Users } from 'lucide-react'
+import {
+  Award, BarChart3, Brain, ClipboardCheck, Clock3, Layers, ListChecks, Medal,
+  ShieldQuestion, Table2, Timer, TrendingUp, Users,
+} from 'lucide-react'
 import { getSubject } from '@/data/subjects'
 import {
   accuracyOf, byDifficulty, bySubject, bySurface, currentStreak, distinctItems,
   firstAttemptSplit, hourHistogram, marked, medianSeconds, weakest,
 } from '@/data/attemptStats'
 import type { AttemptRecord } from '@/data/attempts'
+import { masteryBand } from '@/data/mastery'
+import { useMastery } from '@/lib/useMastery'
 import { PageContainer, PageHeader } from '@/components/shell/Page'
 import { ConceptMasteryPanel } from '@/components/performance/ConceptMastery'
+import { SessionLedgerPanel } from '@/components/performance/SessionLedger'
 import { Panel, PanelHeader } from '@/components/ui/Panel'
 import { BarList } from '@/components/charts/BarList'
 import { SubjectDot } from '@/components/ui/Subject'
 import { Icon } from '@/components/ui/Icon'
 import { EmptyState } from '@/components/ui/EmptyState'
 import { Badge } from '@/components/ui/Badge'
+import { Meter } from '@/components/ui/Meter'
+import { ButtonLink } from '@/components/ui/Button'
 import { Table, Td, Th, Tr } from '@/components/ui/Table'
 import { useT } from '@/lib/i18n'
 import { Segmented, Tabs } from '@/components/ui/Tabs'
@@ -128,7 +136,99 @@ function WhenYouStudy({ records }: { records: AttemptRecord[] }) {
   )
 }
 
-function TopPerformers() {
+const RANK_TONE: Record<number, { badge: string; row: string }> = {
+  1: { badge: 'border-warning/40 bg-warning-tint text-warning', row: 'bg-warning-tint/25' },
+  2: { badge: 'border-primary-line bg-primary-tint text-primary-strong', row: '' },
+  3: { badge: 'border-accent-line bg-accent-tint text-accent-strong', row: '' },
+}
+
+/**
+ * The student's own place relative to this board, from data the page already
+ * has — never the board's own ranking, which the API does not expose beyond
+ * the visible rows. Mastery reads the local concept ledger; accuracy reads
+ * the local attempt log. Only the eligibility gate (verified-answer count) is
+ * a real figure returned by the leaderboard endpoint itself.
+ */
+function YourStanding({ metric, viewer, records }: {
+  metric: LeaderboardMetric
+  viewer: LeaderboardResponse['viewer']
+  records: AttemptRecord[]
+}) {
+  const t = useT()
+  const { ledger } = useMastery()
+  const securedConcepts = useMemo(
+    () => Object.values(ledger).filter((entry) => masteryBand(entry) === 'secure').length,
+    [ledger],
+  )
+  const accuracy = accuracyOf(records)
+  const own = metric === 'mastery'
+    ? securedConcepts
+    : (accuracy == null ? null : Math.round(accuracy * 100))
+  const eligible = viewer?.eligible ?? false
+  const verified = viewer?.verifiedAnswers ?? 0
+  const required = viewer?.requiredAnswers ?? 100
+
+  return (
+    <Panel className={cn('p-4', eligible ? 'border-success/25 bg-success-tint/20' : 'border-primary-line bg-primary-tint/25')}>
+      <p className={cn('text-[10.5px] font-semibold uppercase tracking-[0.08em]', eligible ? 'text-success' : 'text-primary-strong')}>
+        {eligible ? t('Your standing') : t('Your standing — still private')}
+      </p>
+      <div className="mt-2.5 flex items-center gap-3">
+        <span className={cn('grid size-10 shrink-0 place-items-center rounded-full border', eligible ? 'border-success/30 bg-surface text-success' : 'border-primary-line bg-surface text-primary-strong')}>
+          <Icon icon={metric === 'mastery' ? ShieldQuestion : ClipboardCheck} size={17} />
+        </span>
+        <div>
+          <p className="tnum font-mono text-[17px] font-semibold text-ink">
+            {own == null ? '—' : metric === 'mastery' ? own : `${own}%`}
+          </p>
+          <p className="text-[11px] text-ink-3">{metric === 'mastery' ? t('secured concepts, on your own log') : t('overall accuracy, on your own log')}</p>
+        </div>
+      </div>
+
+      <div className="mt-3.5">
+        <div className="flex items-center justify-between text-[11px] text-ink-2">
+          <span>{t('Eligibility — verified answers this term')}</span>
+          <span className="tnum font-mono font-semibold">{verified} / {required}</span>
+        </div>
+        <Meter value={verified} max={required} tone={eligible ? 'success' : 'primary'} className="mt-1.5" />
+        {!eligible && (
+          <p className="mt-1.5 text-[11px] leading-relaxed text-ink-3">
+            {Math.max(0, required - verified)} {t('more verified answers and you join the board — shared tests and readiness assessments count.')}
+          </p>
+        )}
+      </div>
+
+      <ButtonLink to="/app/study-together" size="sm" variant={eligible ? 'secondary' : 'primary'} className="mt-3.5 w-full justify-center">
+        {t('Open shared tests')}
+      </ButtonLink>
+    </Panel>
+  )
+}
+
+function HowThisBoardWorks() {
+  const t = useT()
+  const points = [
+    t('Scoped to your university, year, and term — never a global board.'),
+    t('“Secured concepts” comes from the mastery model, not raw volume — grinding easy questions does not climb it.'),
+    t('Only server-verified answers count, so solo self-scored work cannot inflate a position.'),
+    t('Personal stats elsewhere on this page never show a percentile; comparison lives only here, on verified data.'),
+  ]
+  return (
+    <Panel className="flex-1 p-4">
+      <p className="text-[10.5px] font-semibold uppercase tracking-[0.08em] text-ink-3">{t('How this board works')}</p>
+      <ul className="mt-2.5 space-y-2">
+        {points.map((point) => (
+          <li key={point} className="flex gap-2 text-[12px] leading-relaxed text-ink-2">
+            <span className="mt-1.5 size-1 shrink-0 rounded-full bg-primary" aria-hidden />
+            {point}
+          </li>
+        ))}
+      </ul>
+    </Panel>
+  )
+}
+
+function TopPerformers({ records }: { records: AttemptRecord[] }) {
   const t = useT()
   const [metric, setMetric] = useState<LeaderboardMetric>('mastery')
   const [data, setData] = useState<LeaderboardResponse | null>(null)
@@ -154,10 +254,10 @@ function TopPerformers() {
 
   const rows = data?.rows ?? []
   return (
-    <div className="space-y-4">
-      <Panel>
+    <div className="grid gap-4 lg:grid-cols-[1.6fr_1fr]">
+      <Panel className="lg:min-w-0">
         <PanelHeader
-          title={t('Top performers')}
+          title={t('This term’s top performers')}
           icon={Award}
           hint={t('Your university, year, and current term')}
           action={(
@@ -195,40 +295,42 @@ function TopPerformers() {
           <Table>
             <thead><Tr><Th className="w-14">{t('Rank')}</Th><Th>{t('Student')}</Th><Th align="end">{metric === 'mastery' ? t('Secured concepts') : t('Accuracy')}</Th><Th align="end" className="pr-4">{t('Evidence')}</Th></Tr></thead>
             <tbody>
-              {rows.map((row) => (
-                <Tr key={`${row.rank}-${row.username}`} hover>
-                  <Td>
-                    <span className={cn('tnum inline-flex size-7 items-center justify-center rounded-full font-mono text-[12px] font-semibold', row.rank <= 3 ? 'bg-primary-tint text-primary-strong' : 'bg-inset text-ink-2')}>
-                      {row.rank <= 3 ? <Icon icon={row.rank === 1 ? Medal : Award} size={14} /> : row.rank}
-                    </span>
-                  </Td>
-                  <Td>
-                    <span className="inline-flex items-center gap-2.5 font-medium text-ink">
-                      {row.profileIcon ? <img src={row.profileIcon} alt="" className="size-8 rounded-full border border-line bg-inset object-cover" /> : <span className="grid size-8 place-items-center rounded-full bg-inset text-[11px] font-bold uppercase text-ink-2">{row.username.slice(0, 2)}</span>}
-                      @{row.username}
-                    </span>
-                  </Td>
-                  <Td align="end" className="tnum font-mono font-semibold text-ink">
-                    {metric === 'mastery' ? (row.securedConcepts ?? 0) : `${Math.round((row.accuracy ?? 0) * 100)}%`}
-                  </Td>
-                  <Td align="end" className="tnum pr-4 font-mono text-ink-3">
-                    {row.verifiedAnswers ?? '—'}
-                  </Td>
-                </Tr>
-              ))}
+              {rows.map((row) => {
+                const tone = RANK_TONE[row.rank]
+                return (
+                  <Tr key={`${row.rank}-${row.username}`} hover className={tone?.row}>
+                    <Td>
+                      <span className={cn('tnum inline-flex size-7 items-center justify-center rounded-full border font-mono text-[12px] font-semibold', tone ? tone.badge : 'border-transparent bg-inset text-ink-2')}>
+                        {row.rank <= 3 ? <Icon icon={row.rank === 1 ? Medal : Award} size={14} /> : row.rank}
+                      </span>
+                    </Td>
+                    <Td>
+                      <span className="inline-flex items-center gap-2.5 font-medium text-ink">
+                        {row.profileIcon ? <img src={row.profileIcon} alt="" className="size-8 rounded-full border border-line bg-inset object-cover" /> : <span className="grid size-8 place-items-center rounded-full bg-inset text-[11px] font-bold uppercase text-ink-2">{row.username.slice(0, 2)}</span>}
+                        @{row.username}
+                      </span>
+                    </Td>
+                    <Td align="end" className="tnum font-mono font-semibold text-ink">
+                      {metric === 'mastery' ? (row.securedConcepts ?? 0) : `${Math.round((row.accuracy ?? 0) * 100)}%`}
+                    </Td>
+                    <Td align="end" className="tnum pr-4 font-mono text-ink-3">
+                      {row.verifiedAnswers ?? '—'}
+                    </Td>
+                  </Tr>
+                )
+              })}
             </tbody>
           </Table>
         )}
+        <p className="border-t border-line px-4 py-2.5 text-[11px] text-ink-3 sm:px-5">
+          {t('Rankings count only server-verified answers — solo self-scored work cannot inflate them.')}
+        </p>
       </Panel>
 
-      {data?.viewer && !data.viewer.eligible && metric === 'accuracy' && (
-        <Panel className="border-warning/30 bg-warning-tint/35 p-4">
-          <p className="text-[13px] font-semibold text-ink">{t('Your ranking is still private')}</p>
-          <p className="mt-1 text-[12px] text-ink-2">
-            {data.viewer.verifiedAnswers ?? 0} {t('of')} {data.viewer.requiredAnswers ?? 100} {t('server-verified answers completed this term.')}
-          </p>
-        </Panel>
-      )}
+      <div className="flex flex-col gap-4">
+        <YourStanding metric={metric} viewer={data?.viewer} records={records} />
+        <HowThisBoardWorks />
+      </div>
     </div>
   )
 }
@@ -274,7 +376,7 @@ export function Performance() {
   )
 
   if (view === 'leaders') {
-    return <PageContainer>{header}<TopPerformers /></PageContainer>
+    return <PageContainer>{header}<TopPerformers records={records} /></PageContainer>
   }
 
   if (loading) {
@@ -303,6 +405,7 @@ export function Performance() {
             />
           </Panel>
           <ConceptMasteryPanel />
+          <SessionLedgerPanel records={records} />
         </div>
       </PageContainer>
     )
@@ -346,6 +449,8 @@ export function Performance() {
             sub={median === null ? t('No timed sessions yet') : `${currentStreak(records)} ${t('day streak')}`}
           />
         </div>
+
+        <SessionLedgerPanel records={records} />
 
         <ConceptMasteryPanel />
 
