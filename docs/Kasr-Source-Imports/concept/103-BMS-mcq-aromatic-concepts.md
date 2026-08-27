@@ -173,7 +173,9 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p122 q17; p123 q22 |
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-2BD89D21C068
+CLM-91217CCA1327
+CLM-392A8892F964
 
 ## resource_occurrence_ids
 [clear]
@@ -361,7 +363,9 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p122 q18 and q19; p1
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-DE85E27E2EEC
+CLM-5AA3A4149121
+CLM-F2D36044FD83
 
 ## resource_occurrence_ids
 [clear]
@@ -550,7 +554,9 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p123 q20, q21, q23 a
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-13A7D1D3A13A
+CLM-80F58213FBB3
+CLM-60E1D835A4BD
 
 ## resource_occurrence_ids
 [clear]
@@ -739,7 +745,10 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p123 q26; p123 q25 |
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-0A7560C032CE
+CLM-8327C168D7F1
+CLM-26A3DF369012
+CLM-C51C922E3716
 
 ## resource_occurrence_ids
 [clear]
@@ -928,7 +937,12 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p124 q28, q29, q30 a
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-C02904EC5F79
+CLM-F346B5971367
+CLM-96B954A61AB7
+CLM-9CAE83338C23
+CLM-D08BAD386F67
+CLM-47C93E3BF17E
 
 ## resource_occurrence_ids
 [clear]
@@ -1117,7 +1131,9 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p124 q31 and q32 | 1
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-7B6F55D3613A
+CLM-F3E74E9CFA12
+CLM-E9A34E43B0E9
 
 ## resource_occurrence_ids
 [clear]
@@ -1304,7 +1320,9 @@ src_07f0a0ff41addf826c7f | department_questions | undated | p124 q33; p124 q29 |
 0.95
 
 ## atomic_claim_ids
-[clear]
+CLM-D4BA0C2CA1D5
+CLM-5A5D5C241D0E
+CLM-99347CD193AD
 
 ## resource_occurrence_ids
 [clear]

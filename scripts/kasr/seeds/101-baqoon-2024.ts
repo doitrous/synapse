@@ -282,7 +282,7 @@ export const SEEDS: Seed[] = [
     type: 'classification',
     aliases: ['Heterolysosome', 'Autolysosome', 'Multivesicular body', 'Residual body'],
     conflicts: [
-      'Key collision: clusters.json puts the 2025 end-of-year question “Mention EM of types of Lysosomes” in this same cluster, but 101-eoy-2025.ts keys it `lysosome-types-electron-microscopy` — which is also the key SITTING_SIGNALS uses to attach the July 2023 departmental model answer. Reconciling the keys must move that signal too, so it is flagged rather than changed here.',
+      'Reconciled, and recorded because the wording differs. clusters.json puts the 2025 end-of-year question "Mention EM of types of Lysosomes" in this same cluster, and 101-eoy-2025.ts, 101-eoy-2022.ts and SITTING_SIGNALS all key it `lysosome-types-secondary-fates` as this paper does, so the build mints one concept. What differs is the definition: this paper asks the three secondary types and their fates, the 2025 paper asks the electron-microscopic picture, and 101-eoy-2025.ts is registered first so its wording — which covers the primary lysosome as well as the three secondary types — is the one emitted for all three.',
     ],
   },
   {

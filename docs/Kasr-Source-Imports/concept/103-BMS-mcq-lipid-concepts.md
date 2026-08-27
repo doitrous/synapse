@@ -220,7 +220,10 @@ KAU_Y1=0.75
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-8606D6D6AD07
+CLM-8ACA1F90794F
+CLM-7891166A32EB
+CLM-3CBE59752FE8
 
 ## resource_occurrence_ids
 [clear]
@@ -399,7 +402,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-AF4BBB6CB074
+CLM-BA7594D9BD54
+CLM-DBE385D67720
+CLM-D6704B5F4087
 
 ## resource_occurrence_ids
 [clear]
@@ -577,7 +583,11 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-EBEBDF8057EC
+CLM-C3E6661F1735
+CLM-D294383EBD0F
+CLM-B954FA72F2C5
+CLM-D774CB33A065
 
 ## resource_occurrence_ids
 [clear]
@@ -714,7 +724,7 @@ Oxidation of fatty acids
 ART-103-BIO-FATTY-ACID-OXIDATION
 
 ## related_article_ids
-[clear]
+ART-103-BIO-KETONE-BODY-METABOLISM | ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT | ART-103-BIO-FEED-STARVE-CYCLE
 
 ## related_concept_ids
 CON-FND-84BDACCA71AF45 | CON-FND-A0F07BE6AD30A5
@@ -756,7 +766,10 @@ KAU_Y1=0.4
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-7C507DDF1E79
+CLM-5C7A910BE5A7
+CLM-7DB4FD908AE4
+CLM-3D6348BC15E7
 
 ## resource_occurrence_ids
 [clear]
@@ -805,6 +818,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
@@ -936,7 +950,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-2657DB8D99A9
+CLM-4350DFA32AB6
+CLM-495C6B3393C7
+CLM-A16087312C55
 
 ## resource_occurrence_ids
 [clear]
@@ -1115,7 +1132,11 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-69DD7A4C68BC
+CLM-F83E6D83BC58
+CLM-AB6D9217CAAF
+CLM-BF17BEE4CEAB
+CLM-BE9614A599D6
 
 ## resource_occurrence_ids
 [clear]
@@ -1292,7 +1313,10 @@ KAU_Y1=0.65
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-C47F56498CA8
+CLM-841A7E8B9E10
+CLM-96371362F6A7
+CLM-98E602EF0CC2
 
 ## resource_occurrence_ids
 [clear]
@@ -1425,7 +1449,7 @@ Synthesis of triacylglycerol
 ART-103-BIO-LIPOGENESIS-AND-DEPOT-FAT
 
 ## related_article_ids
-[clear]
+ART-103-BIO-FATTY-ACID-OXIDATION | ART-103-BIO-PLASMA-LIPOPROTEINS | ART-103-BIO-CHOLESTEROL-METABOLISM
 
 ## related_concept_ids
 CON-FND-69437CF1F5CCC0 | CON-FND-1C668119B3C0BB
@@ -1467,7 +1491,10 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-7942A91AC2D3
+CLM-81F1D72BEEC6
+CLM-7727FB6B706E
+CLM-D42E83558E52
 
 ## resource_occurrence_ids
 [clear]
@@ -1516,6 +1543,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
@@ -1644,7 +1672,10 @@ KAU_Y1=0.55
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-AEA9D0FC53C0
+CLM-98EE0FA7BA00
+CLM-485C369E1159
+CLM-65E2AAC99232
 
 ## resource_occurrence_ids
 [clear]
@@ -1822,7 +1853,11 @@ KAU_Y1=0.75
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-052E0ABF217E
+CLM-A92364EEFA66
+CLM-5FBF6A1EA7F6
+CLM-5289D0CBD471
+CLM-61FC90B297EC
 
 ## resource_occurrence_ids
 [clear]
@@ -1999,7 +2034,11 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-6F2A6ED181BB
+CLM-181C1F41A248
+CLM-CA1F4074F0F1
+CLM-01A7C1A36533
+CLM-ADBE4CD06E3F
 
 ## resource_occurrence_ids
 [clear]
@@ -2181,7 +2220,9 @@ KAU_Y1=0.85
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-7CEAF2400F45
+CLM-C573D68AAEE9
+CLM-6DAC86DC5FE9
 
 ## resource_occurrence_ids
 [clear]
@@ -2363,7 +2404,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-CE8320C0A010
+CLM-F8A5D0ABAFF8
+CLM-7D885CDC0916
+CLM-1C19262AE7E3
 
 ## resource_occurrence_ids
 [clear]
@@ -2546,7 +2590,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-CAE83E86FF63
+CLM-62E13991E1B1
+CLM-B7E4C742C15D
+CLM-6AC45E939BD4
 
 ## resource_occurrence_ids
 [clear]
@@ -2725,7 +2772,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-48B436216FE4
+CLM-842F1B3B4506
+CLM-2302ED136CCA
+CLM-D0EE825A1493
 
 ## resource_occurrence_ids
 [clear]
@@ -2904,7 +2954,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-D9FD8D04CC6D
+CLM-C6B93D729D37
+CLM-DAB987DF8184
+CLM-41BAE7986692
+CLM-3D72A154783F
 
 ## resource_occurrence_ids
 [clear]
@@ -3045,7 +3099,7 @@ Eicosanoids
 ART-103-BIO-EICOSANOIDS
 
 ## related_article_ids
-[clear]
+ART-103-BIO-LIPOPROTEIN-MACHINERY
 
 ## related_concept_ids
 CON-GIT-ECB3C2F56DC72D
@@ -3087,7 +3141,10 @@ KAU_Y1=0.35
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p107-114 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-E54ECE1BC97C
+CLM-AEADF1DCEB27
+CLM-319C1DC650EC
+CLM-ECE9031E6D7E
 
 ## resource_occurrence_ids
 [clear]
@@ -3136,6 +3193,7 @@ drafted_not_reviewed
 ## exclusion_reason
 
 ## field_notes
+relatedArticleIds: Derived from the `related_articles` cross-references the teaching article's own author wrote, each with a stated reason. An article that says it is related to this concept's article genuinely discusses this concept without owning it, which is exactly what this field means.
 microtopicId: The canonical tree has no node finer than the DIS-BIO-T04/T03/T07 subtopics, and the department book's own section name is carried by module_subject instead.
 nanotopicId: No nanotopic level exists anywhere under DIS-BIO; inventing one would place this concept where nothing else lives.
 approvedFileResourceIds: No file resource has been rights-cleared for this concept; the sources are cited by locator only.
@@ -3263,7 +3321,10 @@ KAU_Y1=0.5
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-28BDA6637EF4
+CLM-8354C2B1181B
+CLM-AE8B281FC274
+CLM-1D88D2FCEF30
 
 ## resource_occurrence_ids
 [clear]
@@ -3443,7 +3504,9 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-F02C2381A55C
+CLM-E042B278B530
+CLM-3D5DE47F2EF7
 
 ## resource_occurrence_ids
 [clear]
@@ -3624,7 +3687,9 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-685DCF018477
+CLM-3196CBEFA036
+CLM-111854545927
 
 ## resource_occurrence_ids
 [clear]
@@ -3802,7 +3867,10 @@ KAU_Y1=0.75
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-BD89BB571BE4
+CLM-44F2401266CD
+CLM-02DAABFD9038
+CLM-F9EDAD65C899
 
 ## resource_occurrence_ids
 [clear]
@@ -3978,7 +4046,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-CD26A257088B
+CLM-A04B057AF38F
+CLM-C716DA65C65B
+CLM-A16113C4B5DC
+CLM-560C78B6393C
 
 ## resource_occurrence_ids
 [clear]
@@ -4157,7 +4229,10 @@ KAU_Y1=0.75
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-14120251872B
+CLM-DAA0662EBEAE
+CLM-CB6078CEB2A5
+CLM-BE629E5A5C49
 
 ## resource_occurrence_ids
 [clear]
@@ -4336,7 +4411,12 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-92365C350B7D
+CLM-DA8DD2527AC9
+CLM-5D73E8916274
+CLM-E796E3EF5241
+CLM-17DE1207D26F
+CLM-04481AC3FA87
 
 ## resource_occurrence_ids
 [clear]
@@ -4516,7 +4596,10 @@ KAU_Y1=0.75
 src_07f0a0ff41addf826c7f | end_of_module | 2026 | p116-119 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-934CA178558E
+CLM-C19AC7952C7E
+CLM-7A81BE2027A0
+CLM-3B9EE420BF83
 
 ## resource_occurrence_ids
 [clear]
@@ -4696,7 +4779,12 @@ KAU_Y1=0.15
 src_07f0a0ff41addf826c7f | cancelled_topic | 2026 | p135-136 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-A47FDADA693B
+CLM-EFE8FEDFC1BE
+CLM-33DD5BB2F8A7
+CLM-3134B28CBEF4
+CLM-01B9DE1D255E
+CLM-A770558CBA66
 
 ## resource_occurrence_ids
 [clear]
@@ -4876,7 +4964,11 @@ KAU_Y1=0.15
 src_07f0a0ff41addf826c7f | cancelled_topic | 2026 | p135-136 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-A618124053E9
+CLM-897ABD0F622E
+CLM-004C3B9CDBB2
+CLM-BBF675003F59
+CLM-1EAF1DE0770D
 
 ## resource_occurrence_ids
 [clear]

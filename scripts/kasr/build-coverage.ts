@@ -436,7 +436,41 @@ ${untouched.length
 ${rows.map(line).join('\n')}
 `
 
+/**
+ * Sections this generator writes. Anything else in an existing ledger was
+ * written by a person.
+ *
+ * This is a generator, so it replaces the file — which is right for the five
+ * sections below and wrong for everything else. `102-INT-coverage.md` carried
+ * a measured finding ("the manifest's text-layer field was right every time",
+ * across all 69 of its sources) and a read-but-unused work list, and
+ * regenerating it would have deleted both: 104 insertions against 165
+ * deletions, in a run whose stated purpose was to *add* a missing table.
+ *
+ * Nothing distinguished that ledger from one it is safe to overwrite, so
+ * "regenerate the ledger" was correct advice for some modules and destructive
+ * for others, with no way to tell which from the tool. Now unknown sections are
+ * carried through, and the advice is simply correct.
+ */
+const GENERATED_SECTIONS = ['Authored so far', 'Read short', 'Text extracted', 'Not yet read', 'Every source']
+
+function preserved(existing: string): string {
+  const kept: string[] = []
+  // Split on `## ` at line start; the first chunk is the title and intro, which
+  // this generator owns entirely.
+  for (const chunk of existing.split(/^## /m).slice(1)) {
+    const heading = chunk.slice(0, chunk.indexOf('\n')).trim()
+    if (!GENERATED_SECTIONS.includes(heading)) kept.push(`## ${chunk.trimEnd()}`)
+  }
+  return kept.length ? `\n${kept.join('\n\n')}\n` : ''
+}
+
 mkdirSync(join(REPO, 'docs/Kasr-Source-Imports/coverage'), { recursive: true })
 const out = `docs/Kasr-Source-Imports/coverage/${SLUG}-coverage.md`
-writeFileSync(join(REPO, out), report)
-console.log(`${readCount}/${rows.length} sources read, ${untouched.length} outstanding, ${capped.length} capped -> ${out}`)
+const previous = existsSync(join(REPO, out)) ? readFileSync(join(REPO, out), 'utf8') : ''
+const carried = preserved(previous)
+writeFileSync(join(REPO, out), report + carried)
+const carriedCount = (carried.match(/^## /gm) ?? []).length
+console.log(`${readCount}/${rows.length} sources read, ${untouched.length} outstanding, ${capped.length} capped`
+  + (carriedCount ? `, ${carriedCount} hand-written section${carriedCount === 1 ? '' : 's'} preserved` : '')
+  + ` -> ${out}`)

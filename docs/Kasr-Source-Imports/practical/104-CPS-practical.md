@@ -33,6 +33,15 @@ Moderate
 ## module_subject
 104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+104 CPS
+
 ## lab_questions
 ### Naming the organ at low power
 Concept: CON-HEM-D2143156B30A8A
@@ -180,6 +189,15 @@ Moderate
 
 ## module_subject
 104 CPS > Histology > Lymphatic and Macrophage System > Spleen
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+104 CPS
 
 ## lab_questions
 ### Naming the organ at low power
@@ -339,6 +357,15 @@ Moderate
 ## module_subject
 104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
 
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+104 CPS
+
 ## lab_questions
 ### Naming the organ at low power
 Concept: CON-HEM-093013026B640A
@@ -496,6 +523,15 @@ Moderate
 
 ## module_subject
 104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+104 CPS
 
 ## lab_questions
 ### Naming the organ at low power

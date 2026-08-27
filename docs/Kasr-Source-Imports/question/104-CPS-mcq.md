@@ -1,4866 +1,11120 @@
 <!--
-  Multiple-choice and matching questions for 104 CPS, authored from the module's
-  own question bank at scripts/kasr/extract/104-CPS/mcq-bank.json.
+  Multiple-choice questions for 104 CPS, from the departmental question books.
 
-  40 items: 36 single best answer, 4 matching.
+    Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
+    Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
+    Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
+    Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
+    Cytogenetics — Cell Cycle Phase Details — 7 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
+    Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 1 questions, 1 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
+    Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
+    Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
+    Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
+    Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
+    Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
+    Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
+    Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
+    Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
+    Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 13 questions, 3 concepts
+    Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
+    Respiratory System — Respiratory Portion Pneumocytes — 1 questions, 1 concepts
 
-  Scope is set by what the module's concepts and articles actually teach, not by
-  what the bank holds. The bank has 1,289 distinct MCQs and 32 matching blocks; the
-  concept batch has 22 concepts and the article batch 13 articles, and a question
-  may only test a concept an article covers. So the questions authored here are
-  the ones those 22 concepts support. Everything else is banked and named as
-  unauthored below, with the reason.
+  Extracted from 1289 distinct questions across thirty question books and
+  deduplicated: the same question appears in as many as five of them, and the books
+  copy each other freely. Every item carries how many times it was asked, which is
+  blueprint evidence no single sat paper can give.
 
-  Two of these questions come from a sat exam paper — the 2023 end-of-module
-  paper, EOM 196 — and their answers are handwritten pen rings read off the scan
-  by eye, not printed text. Both are marked as such in author_notes, because a
-  reviewer must be able to tell an answer someone read off a page from one the
-  paper printed. A third department-book question was set again on that paper and
-  the pen ring agrees with the book.
+  Stems, options and answers are the books'. Every per-option explanation is
+  authored: a student who picks a wrong option and is told only that it was wrong
+  has learnt nothing, so a distractor's explanation says what would make someone
+  pick it.
 
-  Stems, options and answers are the books' and the papers'. Where OCR damaged a
-  stem it has been repaired and the repair is named in author_notes; no option
-  text and no answer has been invented. Every per-option explanation is authored:
-  a student who picks a wrong option and is told only that it was wrong has
-  learnt nothing, so a distractor's explanation says what would make someone pick
-  it.
+  0 questions were excluded and 0 held back for having no
+  establishable answer. Both stay in the seeds with their reasons rather than being
+  deleted — a question dropped silently is one nobody can reconsider.
 
-  The matching blocks keep their spare options. A block's distractors are half of
-  what it tests — they are the near neighbours a student has to rule out — and
-  flattening a block into single-best-answer questions hands the student a fresh
-  set of distractors each time and stops testing the discrimination. The pairings
-  are authored: every matching block in this corpus prints its key as a grid on
-  the answers page, and every one of those grids came back from OCR as broken
-  table rules.
+  Status is Draft throughout: these need a faculty reviewer before students sit them.
 
-  What was banked and NOT authored, and why
-  ----------------------------------------
-  1,253 of the bank's 1,289 distinct MCQs and 28 of its 32 matching blocks are
-  left in the bank. A question dropped without a reason is one nobody can
-  reconsider, so the reasons are counted here rather than implied:
-
-    915  no answer anywhere in the corpus. The books print their keys as grids
-         on a back page and OCR reduced most of those grids to table rules. An
-         MCQ with no answer and no covering concept is not authorable yet.
-    287  answered and legible, but no concept among the 22 covers them. This is
-         the real bound on the batch, not the extraction: the 22 concepts came
-         from one end-of-year paper, and the MCQ corpus is much wider than they
-         are — arteries and veins, the cardiac cycle, mitosis and meiosis, the
-         thymus, lymph node architecture, thoracic anatomy. They need concepts
-         and articles before they can be authored, not more extraction.
-     39  answered, but fewer than four filled options. The contract is 4 to 5,
-         and completing an option would be inventing content the paper does not
-         have.
-     12  answered with four or more options, but the stem or the options carry
-         enough OCR damage that transcribing them would not be transcription.
-
-  Of the 46 bank rows carrying an answer recovered from the 2023 end-of-module
-  paper's pen marks, 45 are unauthored: 27 of those lost an option to the scan
-  and fall under the four-option rule, and the rest test concepts this module has
-  not authored yet.
-
-  Of the 28 unauthored matching blocks, most are not blocks at all — the exam
-  papers set their matching tables next to model-answer prose and instruction
-  lists, and OCR merged them, so the prompt columns of the EOY blocks arrive with
-  25 or 27 'prompts' that are paragraphs of a model answer. The four authored
-  here are the four whose prompt column, option bank and distractors all survived
-  the scan intact AND whose subject is covered by one of the 22 concepts. Several
-  clean blocks were left for the second reason alone: cell-division phases, the
-  tunica layers of an artery, the thymic hormones, and the lymph node sinuses all
-  read perfectly well and have no concept yet.
-
-  Status is Draft throughout: these need a faculty reviewer before students sit
-  them.
+  Generated by scripts/kasr/build-batches.ts.
 -->
 
 # Item
-
 ## id
-QM-104-3936825FAA15
-
+QM-104-9171E890CB5F
 ## title
-What distinguishes olfactory from respiratory mucosa
-
+All characters of basilar arteries except
 ## subject
-resp
-
+cvs
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-The olfactory mucosa differs from respiratory mucosa in having:
-
+All characters of basilar arteries except
 ## answer_a
-True cilia
-
+Prominent, thick IEL
 ## explanation_a
-Both mucosae carry cilia, so this cannot separate them — and the distinction runs the other way. The respiratory mucosa has true motile cilia that beat; the olfactory cilia are long, non-motile sensory processes.
-
+True of a muscular artery, so not the exception. The book states that the internal elastic lamina is prominent in medium-sized muscular arteries — it is what distinguishes them from elastic arteries, whose IEL is thin and inconspicuous.
 ## answer_b
-Goblet cells
-
+thin T. media
 ## explanation_b
-Goblet cells belong to the respiratory mucosa. The olfactory epithelium has none — its surface fluid comes from Bowman's glands in the lamina propria instead.
-
+True of a muscular artery's media, so not the exception — a thin tunica media is not what the book describes here; muscular arteries have a thick media of almost entirely circular smooth muscle.
 ## answer_c
-Pigmented mucosa
-
+has clear EEL
 ## explanation_c
-The yellow-brown lipofuscin pigment of the sustentacular cells gives olfactory mucosa its colour, and it is the feature the naked eye and the low-power slide can both use.
+The exception, and the answer. The book describes a muscular artery's external elastic lamina as merely 'recognisable' in many muscular arteries, not as a sharply defined, 'clear' layer — that stronger description overstates what the book says. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
 
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_d
-Thinner lining epithelium
-
+thin T. adventitia
 ## explanation_d
-The opposite: the olfactory epithelium is the thicker of the two, being tall pseudostratified columnar with three cell types stacked in it. Its basement membrane is the thin one.
-
+True of a muscular artery's adventitia, so not the exception — it is a thin, loose connective-tissue coat, in contrast to the thick media that dominates the wall.
 ## correct_answer
 C
-
 ## main_concept
-CON-RES-B7F9FACECA4AFF
-
+CON-CVS-712BA581C8AF88
 ## library_ids
-ART-104-HIS-NASAL-MUCOSA
-
+ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
-Respiratory System
-
+Histology-general
 ## subtopic
-Conducting Portion
-
+Histology Cardiovascular System — Artery Classification
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-
+104 CPS > Histology > Cardiovascular System > Arteries
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
 Structure and function
-
 ## learning_objective
-Name the feature that identifies olfactory mucosa on a slide, and separate it from the respiratory mucosa it sits beside.
-
+Recognise a muscular (medium-sized) artery's tunica intima and adventitia by its prominent internal elastic lamina and its only recognisable, not sharply clear, external elastic lamina.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p1 q1 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p30 q1 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p1 q1 (manifest src_d0d3d52a9b3b79169a9c).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q35. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key the-olfactory-mucosa-differs-from-respiratory-mucosa-in-havi-2dd4af2a. Asked 3 times across the 104 question books. Extraction confidence high; the answer is the books' own.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-B9CFAFE21AC8
-
+QM-104-4FF4117F8B5A
 ## title
-Where Bowman's glands lie
-
+All characters of medium arteries except:
 ## subject
-resp
-
+cvs
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Bowman's glands are present in the lamina propria of:
-
+All characters of medium arteries except:
 ## answer_a
-Larynx
-
+present in most muscular arteries
 ## explanation_a
-The laryngeal lamina propria carries mixed sero-mucous glands, not Bowman's glands.
-
+True, so not the exception. Muscular arteries supply most muscular and organ arteries — the book's own description of where this type is found.
 ## answer_b
-Trachea
-
+less smooth fiber, more elastic fiber than elastic arteries
 ## explanation_b
-Tracheal glands are sero-mucous and open onto a ciliated respiratory epithelium; they are not Bowman's glands.
+The exception, and the answer. The book states medium arteries have more smooth muscle fibres and less elastic fibres in the tunica media than elastic arteries — this option reverses that relationship. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
 
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
-Olfactory mucosa
-
+prominent TEL, recognized EEL
 ## explanation_c
-Bowman's serous glands are unique to the olfactory lamina propria, and their watery secretion is the solvent in which an odorant must dissolve before it can reach the receptor.
-
+True, so not the exception. A prominent internal elastic lamina and a recognisable external elastic lamina are exactly what the book uses to identify a muscular artery.
 ## answer_d
-Nasal cavity
-
+T. media is the thickest layer
 ## explanation_d
-Too coarse to be the answer: most of the nasal cavity is respiratory mucosa, and only its olfactory patch has Bowman's glands. Picking the whole cavity is picking the region rather than the mucosa.
-
-## correct_answer
-C
-
-## main_concept
-CON-RES-B7F9FACECA4AFF
-
-## library_ids
-ART-104-HIS-NASAL-MUCOSA
-
-## topic
-Respiratory System
-
-## subtopic
-Conducting Portion
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Easy
-
-## question_type
-Structure and function
-
-## learning_objective
-Place Bowman's glands in the olfactory lamina propria and say what their secretion is for.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q19 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p31 q19 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p2 q19 (manifest src_d0d3d52a9b3b79169a9c).
-
-## author_notes
-Bank key bowman-s-glands-are-present-in-the-lamina-propria-of-8267458c. Asked 3 times across the 104 question books.
-
----
-
-# Item
-
-## id
-QM-104-6927FD826EF1
-
-## title
-Which olfactory mucosa description is false
-
-## subject
-resp
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-All of the following are characters of the olfactory mucosa EXCEPT:
-
-## answer_a
-Thicker epithelium with no goblet cells
-
-## explanation_a
-True, so not the exception. The olfactory epithelium is taller than the respiratory epithelium beside it and has no goblet cells at all.
-
-## answer_b
-Numerous long motile cilia
-
-## explanation_b
-The exception, and the answer. The olfactory cilia are long but few and non-motile — they are the sensory surface of the bipolar neuron, not a clearing mechanism. Motile cilia are the respiratory mucosa's.
-
-## answer_c
-Thin basement membrane
-
-## explanation_c
-True, so not the exception. The olfactory basement membrane is thinner than the respiratory one — the thicker epithelium sits on the thinner membrane, which is the pairing that catches people out.
-
-## answer_d
-Contains Bowman's glands
-
-## explanation_d
-True, so not the exception. Bowman's serous glands are in the olfactory lamina propria and are found nowhere else.
-
+True, so not the exception. The tunica media, almost entirely circular smooth muscle, is the thickest layer of a medium artery's wall.
 ## correct_answer
 B
-
 ## main_concept
-CON-RES-B7F9FACECA4AFF
-
+CON-CVS-712BA581C8AF88
 ## library_ids
-ART-104-HIS-NASAL-MUCOSA
-
+ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
-Respiratory System
-
+Histology-general
 ## subtopic
-Conducting Portion
-
+Histology Cardiovascular System — Artery Classification
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-
+104 CPS > Histology > Cardiovascular System > Arteries
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
 Structure and function
-
 ## learning_objective
-Recognise that olfactory cilia are long, few and immotile, against a thin basement membrane.
-
+State that medium (muscular) arteries carry more smooth muscle and less elastic tissue in their media than elastic arteries, not the reverse.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q28 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q33. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key all-characters-of-factor-of-olfactory-mucosa-except-bfbbda30. Stem repaired from OCR: the book prints 'All characters of factor of olfactory mucosa except'. Options are the book's.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-F4661DA89E8D
-
+QM-104-D805944FAE89
 ## title
-Which olfactory epithelium statement is false
-
+All characters of medium sized artery except
 ## subject
-resp
-
+cvs
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-The olfactory epithelium is characterized by all of the following EXCEPT:
-
+All characters of medium sized artery except
 ## answer_a
-Responsible for smell sensation
-
+thick wall, narrow and rouded lumen
 ## explanation_a
-True, so not the exception. Its bipolar neurons are the first-order neurons of the olfactory pathway.
-
+True of a medium artery, so not the exception — a thick wall around a narrow, rounded lumen is exactly how the book's own comparison table describes it, against a vein's wide, thin-walled lumen.
 ## answer_b
-Thicker than respiratory epithelium
-
+Collapse, has blood after death
 ## explanation_b
-True, so not the exception.
+The exception, and the answer. The book's comparison table gives collapsing and holding blood after death as the vein's characteristics; the medium artery's are the opposite — it does not collapse and has no blood in it after death. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
 
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## answer_c
-One component of the olfactory mucosa
-
+clear IEL, EEL with No valve
 ## explanation_c
-True, so not the exception. The mucosa is the epithelium plus the lamina propria that holds Bowman's glands and the olfactory nerve bundles.
-
+True, so not the exception. A clear internal elastic lamina and the absence of valves are both listed as artery, not vein, features.
 ## answer_d
-Pseudostratified columnar with goblet cells
-
+rich in elastic fiber with thick T. media
 ## explanation_d
-The exception, and the answer. It is pseudostratified columnar, but it has no goblet cells — goblet cells belong to the respiratory epithelium. Half the description is right, which is exactly why it is the trap.
+True, so not the exception. The book's table describes the artery's tunica intima as thick and rich in elastic fibres, in contrast with the vein's thin, elastic-poor intima.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a medium artery does not collapse and holds no blood after death, unlike a medium vein.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q37. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-1B57360D753D
+## title
+is the commonest type of arteries
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is the commonest type of arteries
+## answer_a
+large elastic arteries
+## explanation_a
+Large elastic arteries are limited to the aorta and its large branches — the book does not call these the commonest type.
+## answer_b
+medium sized arteries
+## explanation_b
+Correct. The book describes medium-sized muscular arteries as the most common type of artery, delivering blood to organs. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
+## answer_c
+small arteries
+## explanation_c
+Small arteries (arterioles) are the smallest branches of muscular arteries, regulating flow into capillaries — not the type the book calls commonest.
+## answer_d
+none of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name medium-sized (muscular) arteries as the book's stated commonest type of artery.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q32. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-51E66F7F5431
+## title
+The thickest layer in large elastic arteries is
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+The thickest layer in large elastic arteries is
+## answer_a
+T. intima
+## explanation_a
+Tunica intima is described as the thinnest layer of a large elastic artery such as the aorta, not the thickest.
+## answer_b
+T. media
+## explanation_b
+Correct. The book describes the tunica media of a large elastic artery as the thickest layer, formed of 40 to 70 circularly arranged fenestrated elastic membranes. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
+## answer_c
+T. adventitia
+## explanation_c
+Tunica adventitia is a thin, loose connective-tissue coat in a large elastic artery — not the thickest layer.
+## answer_d
+none of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-CVS-712BA581C8AF88
+## library_ids
+ART-104-HIS-ARTERIES-AND-VEINS
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — Artery Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the tunica media, with its 40-70 fenestrated elastic membranes, as the thickest layer of a large elastic artery's wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q25. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-47ACE141BC8E
+## title
+All characters of T. media except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of T. media except:
+## answer_a
+Numerous fenestrated elastic membrane
+## explanation_a
+True of the aorta's tunica media, so not the exception — the book describes numerous fenestrated elastic membranes as its main component.
+## answer_b
+40-70 layers of elastic fibers in adult
+## explanation_b
+True, so not the exception. The book states these membranes number 40 to 70 circularly arranged layers in adults, and increase with age.
+## answer_c
+Fenestrated elastic to improve substance diffusion
+## explanation_c
+True, so not the exception. The book states the fenestrae in these elastic layers are important to facilitate substance diffusion.
+## answer_d
+this loose C.T with Prominent IEL
+## explanation_d
+The exception, and the answer. This describes the tunica intima, not the tunica media — the intima is loose connective tissue and, in the aorta specifically, the book states its internal elastic lamina is not prominent, the opposite of the media's own thick, elastic-membrane-dominated structure. A common trap: using the presence of an internal elastic lamina alone to separate the classes.
+
+Why this is right, from the department book:
+- Arteries fall into three histological classes.
 ## correct_answer
 D
-
 ## main_concept
-CON-RES-B7F9FACECA4AFF
-
+CON-CVS-712BA581C8AF88
 ## library_ids
-ART-104-HIS-NASAL-MUCOSA
-
+ART-104-HIS-ARTERIES-AND-VEINS
 ## topic
-Respiratory System
-
+Histology-general
 ## subtopic
-Conducting Portion
-
+Histology Cardiovascular System — Artery Classification
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-
+104 CPS > Histology > Cardiovascular System > Arteries
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
-## difficulty
-Easy
-
-## question_type
-Structure and function
-
-## learning_objective
-Separate the olfactory epithelium from the respiratory epithelium by the absence of goblet cells.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q22 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key olfactory-epithelium-is-characterized-by-all-except-ede3d1f5.
-
----
-
-# Item
-
-## id
-QM-104-4C699BC84AC8
-
-## title
-Which olfactory cell holds the yellow pigment
-
-## subject
-resp
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Which component of the olfactory mucosa contains apical yellow lipofuscin granules?
-
-## answer_a
-Basal cell
-
-## explanation_a
-The basal cell is small, pyramidal and basophilic, sitting on the basement membrane as the stem cell of the epithelium. It carries no pigment.
-
-## answer_b
-Sustentacular cell
-
-## explanation_b
-The tall columnar supporting cell holds the apical yellow lipofuscin granules, and it is that pigment that makes the whole olfactory mucosa look yellow-brown.
-
-## answer_c
-Olfactory cell
-
-## explanation_c
-The olfactory cell is the bipolar neuron. Its apical end carries the long immotile cilia, not pigment granules.
-
-## answer_d
-Olfactory lamina propria
-
-## explanation_d
-The lamina propria holds Bowman's glands and the bundles of olfactory nerve fibres. The pigment is in the epithelium above it.
-
-## correct_answer
-B
-
-## main_concept
-CON-RES-B7F9FACECA4AFF
-
-## library_ids
-ART-104-HIS-NASAL-MUCOSA
-
-## topic
-Respiratory System
-
-## subtopic
-Conducting Portion
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Respiratory System > Conducting Portion
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
 Structure and function
-
 ## learning_objective
-Attribute the olfactory mucosa's colour to the lipofuscin of the sustentacular cells.
-
+State that the aorta's tunica media, not its intima, is where the 40-70 fenestrated elastic membranes lie.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q26 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q28. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key contain-apical-yellow-lipofuscin-granules-721a9b20. Stem repaired from OCR: the book prints the bare phrase 'contain apical Yellow lipofuscin granules' under a run of fill-in-the-blank stems.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-E32BABB7683C
-
+QM-104-F68B9AD78542
 ## title
-Which cell makes pulmonary surfactant
-
+Valve of heart is lined by - - - - epithelium XXX
 ## subject
-resp
-
+cvs
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Pulmonary surfactant:
-
+Valve of heart is lined by - - - - epithelium XXX
 ## answer_a
-Is produced by type II pneumocytes
-
+stratified squamous
 ## explanation_a
-The type II (great alveolar) cell stores surfactant in its lamellar bodies and releases it onto the alveolar lining fluid.
-
+Stratified squamous epithelium is not the lining the book gives for a cardiac valve — valves are folds of endocardium, whose surface is simple, not stratified.
 ## answer_b
-Is produced by alveolar macrophages
-
+transitional
 ## explanation_b
-The alveolar macrophage — the dust cell — clears surfactant and debris; it does not make it. Confusing turnover with production is the usual slip here.
-
+Transitional epithelium is a urinary-tract lining, not one the book applies to the heart valves.
 ## answer_c
-Increases surface tension of alveolar epithelium
-
+Simple squamous
 ## explanation_c
-It does the reverse. Lowering surface tension is the whole point: it is what stops the small alveolus emptying into the large one and what keeps the work of inflation low.
+Correct. The book states that heart valves, folds of the endocardium, are covered by simple squamous epithelium continuous with the endothelium, over a dense fibrous core rich in collagen and elastic fibres. A common trap: treating a valve as a separate structure from the endocardium rather than a fold of it — the valve's surface epithelium is literally the same endothelium that lines the rest of the chamber.
 
+Why this is right, from the department book:
+- The valves of the heart are folds of the endocardium.
 ## answer_d
-Is produced by type I pneumocytes
-
+simple cubical
 ## explanation_d
-The type I cell is the thin squamous cell of the blood-air barrier. It is built for diffusion distance, not secretion.
-
+Simple cuboidal epithelium is not the lining the book describes for the valve surface.
 ## correct_answer
-A
-
+C
 ## main_concept
-CON-RES-4D4CBF3BB8AF1E
-
+CON-CVS-7DA6E2CF7A3369
 ## library_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-
+ART-104-HIS-HEART-AND-VESSEL-WALL
 ## topic
-Respiratory System
-
+Histology-general
 ## subtopic
-Respiratory Portion
-
+Histology Cardiovascular System — Heart Valves
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Respiratory System > Respiratory Portion
-
+104 CPS > Histology > Cardiovascular System > The heart
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Easy
-
 ## question_type
 Structure and function
-
 ## learning_objective
-Name the cell that secretes surfactant and state the direction in which surfactant changes surface tension.
-
+Name simple squamous epithelium, continuous with the endocardium, as the lining of a cardiac valve.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p31 q18 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q3. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key pulmonary-surfactant-f39604b4.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-F92EC69C0AE2
-
+QM-104-26341FD33A46
 ## title
-What is deficient in respiratory distress syndrome
-
+allow distension of arteries
 ## subject
-resp
-
+cvs
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Respiratory distress syndrome is caused by deficiency of:
-
+allow distension of arteries
 ## answer_a
-Goblet cells
-
+Elastic fiber
 ## explanation_a
-Goblet cells belong to the conducting airways and to mucus clearance. Their loss does not collapse alveoli.
+Correct. The book states plainly that the elastic fibres of the tunica media allow distension of the arteries. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
 
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_b
-Pulmonary surfactant
-
+smooth muscle fiber
 ## explanation_b
-Without surfactant the alveolar surface tension is unopposed, compliance falls and alveoli collapse at the end of each expiration — which is the neonatal respiratory distress syndrome of the preterm infant.
-
+Smooth muscle regulates blood flow by contracting, and builds the media's own extracellular components — distension is the elastic fibre's job, not the muscle's.
 ## answer_c
+reticular fibers
+## explanation_c
+Reticular fibres lie between the smooth muscle cells as a supportive scaffold; the book credits them with support, not with allowing distension.
+## answer_d
+collagen fibers
+## explanation_d
+Collagen fibres sit in the tunica adventitia and, being longitudinally arranged, resist overdistension rather than permit it — the opposite function.
+## correct_answer
+A
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the tunica media's elastic fibres to arterial distension, as distinct from the smooth muscle that regulates flow.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q19. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A4744A51C654
+## title
+is innermost layer in contact with blood
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+is innermost layer in contact with blood
+## answer_a
+T-media,
+## explanation_a
+Tunica media is the middle layer, separated from the blood by the intima — it is not in direct contact with it.
+## answer_b
+T. intima
+## explanation_b
+Correct. The book states plainly that the tunica intima is the innermost layer, in direct contact with the blood. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+T. adventitia
+## explanation_c
+Tunica adventitia is the outermost coat, connecting the vessel to the surrounding tissue, furthest from the blood.
+## answer_d
+none of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the tunica intima as the vessel wall's innermost layer, in direct contact with blood.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D539BF8CA0C9
+## title
+prevent vessel over distension
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+prevent vessel over distension
+## answer_a
+Elastic fiber
+## explanation_a
+Elastic fibres, in the tunica media, allow distension — the opposite function to the one the stem describes.
+## answer_b
+smooth muscle fiber
+## explanation_b
+Smooth muscle fibres regulate flow by contracting and build the media's own extracellular components; preventing overdistension is not their stated role.
+## answer_c
+reticular fibers
+## explanation_c
+Reticular fibres support the smooth muscle cells structurally within the media; the book does not credit them with resisting overdistension.
+## answer_d
+collagen fibers
+## explanation_d
+Correct. The book states that the longitudinally arranged collagen fibres of the tunica adventitia prevent vessel overdistension. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## correct_answer
+D
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the tunica adventitia's longitudinal collagen fibres to preventing vessel overdistension.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p13 q20. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3841B2058AFC
+## title
+Provide smooth surface for easily blood flow
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Provide smooth surface for easily blood flow
+## answer_a
+T-media,
+## explanation_a
+Tunica media regulates flow by smooth-muscle contraction; the smooth surface for flow itself is the intima's endothelium, not the media.
+## answer_b
+T. intima
+## explanation_b
+Correct. The book states that the tunica intima's endothelium provides a smooth surface for easy blood flow, and forms a thin layer letting fluids, gases and metabolites pass. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+T. adventitia
+## explanation_c
+Tunica adventitia is the outer connective-tissue coat, with no contact with the flowing blood at all.
+## answer_d
+none of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute a smooth surface for blood flow to the tunica intima's endothelium.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q13. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-22DE051FE87B
+## title
+regulate blood flow, produce extracell component of T.media
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+regulate blood flow, produce extracell component of T.media
+## answer_a
+Elastic fiber
+## explanation_a
+Elastic fibres allow distension of the media, but the book does not credit them with regulating flow or manufacturing the media's other extracellular components.
+## answer_b
+smooth muscle fiber
+## explanation_b
+Correct. The book states the tunica media's smooth muscle fibres regulate blood flow by their contraction, and also produce all the extracellular components of the tunica media. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
+
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
+## answer_c
+reticular fibers
+## explanation_c
+Reticular fibres lie between the smooth muscle cells as a structural scaffold — they are a product, not the producing cell, and play no role in flow regulation.
+## answer_d
+collagen fibers
+## explanation_d
+Collagen fibres sit chiefly in the adventitia, resisting overdistension — they neither regulate flow nor manufacture the media's own components.
+## correct_answer
+B
+## main_concept
+CON-CVS-30053920BDC07F
+## library_ids
+ART-104-HIS-HEART-AND-VESSEL-WALL
+## topic
+Histology-general
+## subtopic
+Histology Cardiovascular System — General Vessel Wall Plan
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cardiovascular System > Arteries
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Attribute both flow regulation and the tunica media's own extracellular components to its smooth muscle fibres.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q18. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8C3E01BF701A
+## title
+T-media is formed of All the following except:
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+T-media is formed of All the following except:
+## answer_a
+Circularly arranged smooth muscle fibers,
+## explanation_a
+True of the tunica media, so not the exception — circularly arranged smooth muscle fibres are its main component.
+## answer_b
 Elastic fibers
-
-## explanation_c
-Loss of alveolar elastic fibres is emphysema, and it makes the lung too compliant, not too stiff. It is the opposite mechanical problem.
-
-## answer_d
-Sero-mucous glands
-
-## explanation_d
-These lie in the trachea and bronchi and humidify inspired air. They have no role in alveolar stability.
-
-## correct_answer
-B
-
-## main_concept
-CON-RES-4D4CBF3BB8AF1E
-
-## library_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-
-## topic
-Respiratory System
-
-## subtopic
-Respiratory Portion
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Respiratory System > Respiratory Portion
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Easy
-
-## question_type
-Pathophysiology
-
-## learning_objective
-Connect surfactant deficiency to alveolar collapse and to neonatal respiratory distress syndrome.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p2 q16 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p30 q16 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key respiratory-distress-syndrome-is-caused-by-deficiency-of-fccac63c. Asked twice across the 104 question books.
-
----
-
-# Item
-
-## id
-QM-104-229E7DB571D7
-
-## title
-Which cell is at fault in the preterm infant
-
-## subject
-resp
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-In premature babies suffering from difficulty in breathing and kept in incubators, which of the following cells is involved?
-
-## answer_a
-Clara cells
-
-## explanation_a
-Clara cells line the bronchioles and secrete a surfactant-like material that protects the bronchiolar epithelium. That is a different secretion in a different part of the tree, and its loss does not cause this picture.
-
-## answer_b
-Small granule cells
-
 ## explanation_b
-The small granule (neuroendocrine, APUD) cell secretes serotonin and catecholamines and regulates glandular secretion. It has nothing to do with alveolar stability.
-
+True, so not the exception. Elastic fibres in the media allow distension of the vessel.
 ## answer_c
-Squamous alveolar cells
-
+Nervi vasorum
 ## explanation_c
-The squamous alveolar cell is the type I pneumocyte, which forms the thin part of the blood-air barrier. It does not secrete surfactant.
+The exception, and the answer. Nervi vasorum are the autonomic nerves of the tunica adventitia, controlling smooth-muscle contraction from outside the media — the book places them in the adventitia, not as a component of the media itself. A common trap: damage to the endothelium exposes the subendothelial connective tissue, which induces platelet aggregation, thrombus formation and obstruction of flow — a mechanism the book states explicitly and that examiners like to test as a short reasoning chain, not a fact to recite in isolation.
 
+Why this is right, from the department book:
+- Wall of most blood vessels is formed of three layers from inside outwards.
 ## answer_d
-Great alveolar cells
-
+reticular fibers, proteoglycans
 ## explanation_d
-The great alveolar cell is the type II pneumocyte, and surfactant matures only in the last weeks of gestation — so the preterm infant is short of the cell's product, not of the cell.
-
-## correct_answer
-D
-
-## main_concept
-CON-RES-4D4CBF3BB8AF1E
-
-## library_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
-
-## topic
-Respiratory System
-
-## subtopic
-Respiratory Portion
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Respiratory System > Respiratory Portion
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Pathophysiology
-
-## learning_objective
-Recognise the type II pneumocyte behind its other name and link it to prematurity.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p3 q23 (manifest src_12ecc23fe206a928203d); Histo MCQ by Dr.Kandeel [104].pdf p31 q23 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Respiratory].pdf p3 q23 (manifest src_d0d3d52a9b3b79169a9c).
-
-## author_notes
-Bank key in-premature-babies-suffering-from-difficulty-in-breathing-a-396bf6f5. Asked 3 times across the 104 question books. The synonym 'great alveolar cell' is what the question turns on.
-
----
-
-# Item
-
-## id
-QM-104-89F5E00DED0F
-
-## title
-Which cell is non-renewing
-
-## subject
-fnd
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-One of the following is a non-renewing cell:
-
-## answer_a
-Hepatocyte
-
-## explanation_a
-The hepatocyte is the standard potentially renewable cell: it sits in G0 and re-enters the cycle when liver is lost.
-
-## answer_b
-Epidermal cell
-
-## explanation_b
-Epidermis is continuously renewing from its basal stem cells — the fastest-turning example in the body after blood and gut.
-
-## answer_c
-Nerve cell
-
-## explanation_c
-The neurone leaves the cycle permanently, and cardiac muscle is the other classical example. Loss is repaired by scar, not by replacement.
-
-## answer_d
-Cartilage cell
-
-## explanation_d
-Chondrocytes divide slowly but they do divide, and cartilage is repaired — poorly, but repaired. It is not a permanent exit.
-
+True, so not the exception. Reticular fibres and proteoglycans lie between the smooth muscle cells of the media.
 ## correct_answer
 C
-
 ## main_concept
-CON-FND-A2E40256517389
-
+CON-CVS-30053920BDC07F
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-HEART-AND-VESSEL-WALL
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-The Cell Cycle
-
+Histology Cardiovascular System — General Vessel Wall Plan
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-
+104 CPS > Histology > Cardiovascular System > Arteries
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Easy
-
+Moderate
 ## question_type
-Classification
-
+Structure and function
 ## learning_objective
-Sort a named cell into non-renewing, potentially renewable, or continuously renewing.
-
+State that nervi vasorum belong to the tunica adventitia, not the tunica media's own composition.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q4 (manifest src_79af3b3857ba47239529); Histo MCQ by Dr.Kandeel [104].pdf p40 q4 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p1 q4 (manifest src_be181ad1f0be0dab13c9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p12 q17. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key one-of-the-following-is-a-non-renewing-cell-bbe76c3a. Asked 3 times across the 104 question books.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-88794BEF77EA
-
+QM-104-18247549A14A
 ## title
-Which cell is potentially renewable
-
+Cause fragmentation of chromosome
 ## subject
-fnd
-
+dev
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-One of the following is a potentially renewable cell:
-
+Cause fragmentation of chromosome
 ## answer_a
-Liver cell
-
+Pregnancy in old age
 ## explanation_a
-The hepatocyte rests in G0 and re-enters the cycle on demand — after partial hepatectomy it divides until the mass is restored, then stops.
-
+Advanced maternal age is the book's stated risk factor for non-disjunction, not fragmentation.
 ## answer_b
-Skin epidermal cell
-
+autoimmune disease
 ## explanation_b
-Epidermis is continuously renewing, not potentially renewable: its basal cells divide all the time whether or not anything has been lost.
-
+Autoimmune disease is associated with non-disjunction in the book's list, not fragmentation.
 ## answer_c
-Plasma cell
-
+german measles
 ## explanation_c
-The plasma cell is an end cell. It is the terminal product of a B lymphocyte and does not divide; it is replaced from the lymphocyte pool.
+Correct. The book names viral infections, such as German measles, as the cause of chromosome fragmentation. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
 
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
 ## answer_d
-Macrophages
-
+Colchicine
 ## explanation_d
-Tissue macrophages are replaced from blood monocytes, which is continuous renewal from a stem-cell line, not a resting cell re-entering the cycle.
+Colchicine is the book's example drug that inhibits mitotic spindle formation, not a cause of fragmentation.
+## correct_answer
+C
+## main_concept
+CON-DEV-E9C307421DE375
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Aneuploidy Mechanisms and General Causes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name viral infection (German measles) as the book's cause of chromosome fragmentation.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q49. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-04F31788B206
+## title
+when 2 homologous chromosome fail to separate, result in 4 abnormal daughter cell
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+when 2 homologous chromosome fail to separate, result in 4 abnormal daughter cell
+## answer_a
+1ry non-disjunction
+## explanation_a
+Correct. The book defines primary non-disjunction as the failure of two homologous (bivalent) chromosomes to separate at the first meiotic division, resulting in four abnormal daughter cells. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
+## answer_b
+2nd non-disjunction
+## explanation_b
+Secondary non-disjunction is a failure of chromatids (not homologous chromosomes) to separate, at the second meiotic division or in mitosis, giving a different mix of normal and abnormal daughter cells.
+## answer_c
+mosaic
+## explanation_c
+A mosaic results from secondary non-disjunction occurring in mitosis after many normal divisions, a different pattern from this stem's single failed separation.
+## answer_d
+simple less
+## explanation_d
+Simple loss is a chromosome failing to align or lagging in movement, not two homologous chromosomes failing to separate together.
 ## correct_answer
 A
-
 ## main_concept
-CON-FND-A2E40256517389
-
+CON-DEV-C2AC39B48A8F21
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-The Cell Cycle
-
+Cytogenetics — Aneuploidy Mechanisms and General Causes
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
-Classification
-
+Mechanism
 ## learning_objective
-Distinguish a cell that re-enters the cycle on demand from one that is being replaced continuously.
-
+Name primary non-disjunction, at the first meiotic division, as the event producing four abnormal daughter cells.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q3 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q54. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key one-of-the-following-is-a-potentially-renewable-cell-04f21553.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-6D4C6D1D0E8B
-
+QM-104-D4BC0FA36534
 ## title
-Which lineage has a pluripotential stem cell
-
+Colchicine is a chemical that stops chromatids from separating during mitosis at:
 ## subject
-fnd
-
+dev
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-One of the following has a pluripotential stem cell:
-
+Colchicine is a chemical that stops chromatids from separating during mitosis at:
 ## answer_a
-Blood cells
-
+Prophase
 ## explanation_a
-One haemopoietic stem cell gives rise to every blood cell line, which is what 'pluripotential' means — many outcomes from one ancestor.
-
+Prophase precedes spindle formation; colchicine's spindle-inhibiting action is what stops the cell from proceeding past the point the spindle is needed, later than prophase.
 ## answer_b
-Hepatocytes
-
+Anaphase
 ## explanation_b
-The hepatocyte replaces itself. There is no separate stem cell giving several liver cell types from one ancestor.
-
+Anaphase requires spindle microtubules to pull chromatids apart — colchicine prevents the cell from ever reaching this stage, since the spindle it needs never forms.
 ## answer_c
-Bone cells
-
+Metaphase
 ## explanation_c
-The osteoprogenitor is unipotential: it gives osteoblasts and nothing else.
+Correct. The book states colchicine inhibits formation of the mitotic spindle; without a spindle, chromatids cannot be pulled apart into anaphase, so the cell arrests at metaphase — the basis of using colchicine to capture metaphase spreads for karyotyping. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
 
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
 ## answer_d
-Nerve cells
-
+Telophase
 ## explanation_d
-Neurones are non-renewing, so the question does not arise for them at all.
-
+Telophase is well past the point a spindle-inhibited cell can reach, since it never completes chromatid separation.
 ## correct_answer
-A
-
+C
 ## main_concept
-CON-FND-A2E40256517389
-
+CON-DEV-E9C307421DE375
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-The Cell Cycle
-
+Cytogenetics — Aneuploidy Mechanisms and General Causes
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that colchicine, by inhibiting mitotic spindle formation, arrests dividing cells at metaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-F1EACF748311
+## title
+failure of chromosome to align during metaphase
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+failure of chromosome to align during metaphase
+## answer_a
+1ry non-disjunction
+## explanation_a
+Primary non-disjunction is two homologous chromosomes failing to separate at the first meiotic division, not a single chromosome failing to align.
+## answer_b
+2nd non-disjunction
+## explanation_b
+Secondary non-disjunction is two chromatids failing to separate at the centromere, not a single chromosome's alignment failure.
+## answer_c
+mosaic
+## explanation_c
+A mosaic results from secondary non-disjunction in mitosis after many normal divisions, a different pattern from a single alignment failure.
+## answer_d
+simple less
+## explanation_d
+Correct. The book states simple loss occurs due to failure of a chromosome to align during metaphase, or its lagging to move in anaphase. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
+## correct_answer
+D
+## main_concept
+CON-DEV-C2AC39B48A8F21
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Aneuploidy Mechanisms and General Causes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name simple loss as the aneuploidy mechanism from a chromosome failing to align at metaphase or lagging in anaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q58. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-749ECC5E24A7
+## title
+inhibit formation of mitotic spindle
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+inhibit formation of mitotic spindle
+## answer_a
+Pregnancy in old age
+## explanation_a
+Advanced maternal age is the book's stated risk factor for non-disjunction, not a drug inhibiting the spindle.
+## answer_b
+autoimmune disease
+## explanation_b
+Autoimmune disease is a general association with non-disjunction in the book's list, not a spindle-inhibiting drug.
+## answer_c
+german measles
+## explanation_c
+German measles causes chromosome fragmentation, per the book, not spindle inhibition.
+## answer_d
+Colchicine
+## explanation_d
+Correct. The book names colchicine, a cytotoxic drug, as inhibiting the formation of the mitotic spindle. A common trap: confusing this general list of predisposing causes with the mechanism of aneuploidy itself (non-disjunction, failure of duplication, simple loss).
+
+Why this is right, from the department book:
+- Before splitting into numerical and structural types, the book gives five general causes of chromosomal aberration.
+## correct_answer
+D
+## main_concept
+CON-DEV-E9C307421DE375
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Aneuploidy Mechanisms and General Causes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
 ## difficulty
 Easy
-
 ## question_type
-Classification
-
+Mechanism
 ## learning_objective
-Recognise the haemopoietic stem cell as the pluripotential example in this syllabus.
-
+Name colchicine as the drug the book states inhibits mitotic-spindle formation.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q5 (manifest src_79af3b3857ba47239529); Histo MCQ by Dr.Kandeel [104].pdf p40 q5 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p1 q5 (manifest src_be181ad1f0be0dab13c9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q50. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key one-of-the-following-has-a-pluripotential-stem-cell-aa190b7b. Asked 3 times across the 104 question books.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-9A628258BA69
-
+QM-104-09A6004A2A16
 ## title
-Cells replaced from a stem cell pool
-
+occurs in 2 meiotic division or mitosis
 ## subject
-fnd
-
+dev
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Cells that cannot divide themselves but are replaced from a stem cell, such as blood cells, are:
-
+occurs in 2 meiotic division or mitosis
 ## answer_a
-Non renewing cells
-
+1ry non-disjunction
 ## explanation_a
-A non-renewing cell is not replaced at all — that is the point of the category. Nerve and cardiac muscle leave the cycle for good.
-
+Primary non-disjunction is a failure of homologous chromosomes at the first meiotic division, not chromatids at the second division or in mitosis.
 ## answer_b
-Potentially renewable cells
-
+2nd non-disjunction
 ## explanation_b
-A potentially renewable cell divides itself when called upon, like the hepatocyte. Here the mature cell never divides; a separate stem cell does.
+Correct. The book defines secondary non-disjunction as the failure of two chromatids to separate at the centromere, either during the second meiotic division or during mitosis. A common trap: treating aneuploidy as always meiotic.
 
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
 ## answer_c
-Continuously renewing cells
-
+mosaic
 ## explanation_c
-The mature erythrocyte and granulocyte cannot divide, yet the population turns over constantly because the stem cell behind them does. Epidermis and gut lining work the same way.
-
+A mosaic is the pattern that results from secondary non-disjunction happening in mitosis after many normal divisions, not the non-disjunction event itself.
 ## answer_d
-None of the above
-
+simple less
 ## explanation_d
-One of the three categories does fit, so this is a discard option rather than an answer.
-
-## correct_answer
-C
-
-## main_concept
-CON-FND-A2E40256517389
-
-## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
-## topic
-Cytogenetics
-
-## subtopic
-The Cell Cycle
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Classification
-
-## learning_objective
-Recognise that 'continuously renewing' describes the population, not the individual mature cell.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q11 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key cannot-divide-but-replaced-from-stem-cell-such-as-blood-cell-142667f7. Stem lightly repaired from OCR; options are the book's.
-
----
-
-# Item
-
-## id
-QM-104-99A0E9EC8FA0
-
-## title
-What category liver cells belong to
-
-## subject
-fnd
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Liver cells are an example of:
-
-## answer_a
-Non renewing cells
-
-## explanation_a
-Non-renewing means a permanent exit from the cycle — nerve and cardiac muscle. The liver regenerates, so it cannot be this.
-
-## answer_b
-Potentially renewable cells
-
-## explanation_b
-The hepatocyte waits in G0 and re-enters the cycle when the organ loses mass, then leaves it again.
-
-## answer_c
-Continuously renewing cells
-
-## explanation_c
-A continuously renewing tissue divides constantly whether or not anything has been lost. Liver does not: it divides on demand.
-
-## answer_d
-None of the above
-
-## explanation_d
-One of the three categories does fit.
-
+Simple loss is a chromosome failing to align or lagging in movement, a different mechanism from chromatids failing to separate.
 ## correct_answer
 B
-
 ## main_concept
-CON-FND-A2E40256517389
-
+CON-DEV-C2AC39B48A8F21
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-The Cell Cycle
-
+Cytogenetics — Aneuploidy Mechanisms and General Causes
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > The Cell Cycle
-
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name secondary non-disjunction as the failure of chromatids to separate at the second meiotic division or in mitosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q57. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-9BA837148205
+## title
+occurs in mitosis after many normal division
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+occurs in mitosis after many normal division
+## answer_a
+1ry non-disjunction
+## explanation_a
+Primary non-disjunction happens at the first meiotic division, not repeatedly during mitosis after normal divisions.
+## answer_b
+2nd non-disjunction
+## explanation_b
+Secondary non-disjunction is the underlying event; the stem asks for what results when it happens in mitosis after many normal divisions, which the book names specifically as a mosaic.
+## answer_c
+mosaic
+## explanation_c
+Correct. The book states that secondary non-disjunction occurring in mitosis after many normal divisions produces a mosaic, whose body cells carry more than one karyotype. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
+## answer_d
+simple less
+## explanation_d
+Simple loss is a chromosome failing to align or lagging, a different mechanism from the repeated-division pattern this stem describes.
+## correct_answer
+C
+## main_concept
+CON-DEV-C2AC39B48A8F21
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Aneuploidy Mechanisms and General Causes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name a mosaic as the pattern from secondary non-disjunction occurring in mitosis after many normal divisions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q55. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-AFB956CF63F3
+## title
+result in 2 normal, 2 abnormal daughter cell
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+result in 2 normal, 2 abnormal daughter cell
+## answer_a
+1ry non-disjunction
+## explanation_a
+Primary non-disjunction produces four abnormal daughter cells, not a 2-normal/2-abnormal split.
+## answer_b
+2nd non-disjunction
+## explanation_b
+Correct. The book states secondary non-disjunction (chromatids failing to separate at the centromere) in meiosis produces two normal and two abnormal daughter cells — in mitosis, by contrast, both resulting cells are abnormal. A common trap: treating aneuploidy as always meiotic.
+
+Why this is right, from the department book:
+- Aneuploidy is a chromosome number that is not an exact multiple of the haploid number: the karyotype shows the addition of one chromosome, as in trisomy 21, or the loss of one, as in Turner syndrome with 45 chromosomes. (department book p.47)
+- Aneuploidy arises three ways: non-disjunction, primary when the homologous chromosomes fail to separate in the first meiotic division and secondary when the chromatids fail to separate at the centromere; failure of duplication, when one chromatid does not duplicate during the S stage; and simple loss, when a chromosome fails to align at metaphase or lags in anaphase. (department book p.47)
+## answer_c
+mosaic
+## explanation_c
+A mosaic is the pattern from repeated mitotic secondary non-disjunction, not the immediate 2-normal/2-abnormal meiotic outcome this stem describes.
+## answer_d
+simple less
+## explanation_d
+Simple loss is a chromosome failing to align or lagging, a different mechanism from a chromatid-separation failure producing this specific daughter-cell split.
+## correct_answer
+B
+## main_concept
+CON-DEV-C2AC39B48A8F21
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Aneuploidy Mechanisms and General Causes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name secondary non-disjunction in meiosis as the event producing two normal and two abnormal daughter cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q56. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-79B39A46099E
+## title
+Gap 1 phase is characterized by
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Gap 1 phase is characterized by
+## answer_a
+last about 4 hours
+## explanation_a
+Lasting about 4 hours is what the book states of G2, not G1 (G1 lasts about 8 hours).
+## answer_b
+Contain 46 double chromosome
+## explanation_b
+Containing 46 double chromosomes (d-chromosomes) describes the state after S phase, not G1, where the cell still has 46 single chromosomes (chromatids).
+## answer_c
+Cells grow in size acquire energy
+## explanation_c
+Correct. The book lists cell growth and acquiring energy (ATP) among G1's own characteristics, alongside RNA/protein synthesis and cells becoming specialised. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
+## answer_d
+duplication of DNA, centriole
+## explanation_d
+Duplication of DNA and of the centriole are S-phase events, not G1's.
+## correct_answer
+C
+## main_concept
+CON-FND-9C205E44C3404D
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Cycle Phase Details
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
 ## difficulty
 Easy
-
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Place the hepatocyte in the potentially renewable category and say what triggers its division.
-
+State that G1 is when the daughter cell grows in size and acquires energy.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q12 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q2. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key liver-cells-is-example-for-18d16db7.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-C7A62A7F0D66
-
+QM-104-0FC5012D806E
 ## title
-Which non-renewing cell statement is false
-
+All characters of mitosis except
 ## subject
 fnd
-
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Non renewing cells are characterized by all the following EXCEPT:
-
+All characters of mitosis except
 ## answer_a
-Leave the cycle and go to G0
-
+period in which cell divide into a daughter cell
 ## explanation_a
-True, so not the exception. They leave the cycle at G1 and enter G0.
-
+True of mitosis, so not the exception. It is the period in which the cell divides into two daughter cells.
 ## answer_b
-Permanent exit that never divides again
-
+include 4 stages, start with prophase
 ## explanation_b
-True, so not the exception — and it is what makes the exit permanent rather than a pause.
-
+True, so not the exception. Mitosis is made of the four stages the book names, starting with prophase.
 ## answer_c
-Return to continue the cycle when replacement is needed
-
+Cannot be detected with microscope
 ## explanation_c
-The exception, and the answer. Re-entering the cycle on demand is the defining behaviour of the potentially renewable cell, such as the hepatocyte. A non-renewing cell cannot do it.
+The exception, and the answer. The book states mitosis's changes ARE visible with the microscope; it is interphase, the period between divisions, whose changes cannot be detected with the microscope. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_d
-Heart and nerve cells are examples of that type
-
+last for short period (1 hour)
 ## explanation_d
-True, so not the exception. These two are the standard examples.
-
+True, so not the exception. The book states mitosis lasts for a short period, about one hour.
 ## correct_answer
 C
-
 ## main_concept
-CON-FND-A2E40256517389
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-The Cell Cycle
-
+Cytogenetics — Cell Cycle Phase Details
 ## module
 104 CPS
-
 ## module_subject
 104 CPS > Histology > Cytogenetics > The Cell Cycle
-
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Separate a permanent G0 exit from the reversible G0 of a potentially renewable cell.
-
+State that mitosis's changes are visible under the microscope, not undetectable — that description belongs to interphase.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q10 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q1. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key non-renewing-cells-are-characterized-by-all-the-following-ex-5836a5c6.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
 # Item
-
 ## id
-QM-104-18201DF37A38
-
+QM-104-F4E04774B157
 ## title
-What trisomy of the X chromosome is called
-
+Synthesis of ------------- for building its required for mitosis
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Trisomy of chromosome X is:
-
+Synthesis of ------------- for building its required for mitosis
 ## answer_a
-Turner's syndrome
-
+DNA
 ## explanation_a
-Turner's is 45,XO — a monosomy of the sex chromosomes, one X short rather than one extra.
-
+DNA is duplicated during S phase, not synthesised in G2 to build microtubules.
 ## answer_b
-Klinefelter's syndrome
-
+RNA, ptn
 ## explanation_b
-Klinefelter's is 47,XXY. It carries an extra X, but alongside a Y, so it is not a trisomy of X in a female.
-
+RNA and protein synthesis in G2 supports the essentials of division generally, but the specific molecule built into microtubules is tubulin, a distinct G2 event the book names separately.
 ## answer_c
-Down's syndrome
-
+energy
 ## explanation_c
-Down's is trisomy 21, an autosomal trisomy. The sex chromosomes are normal.
-
+Energy storage for mitosis is a separate G2 characteristic from tubulin synthesis, and does not itself build microtubules.
 ## answer_d
-Multiple X syndrome
-
+tubulin
 ## explanation_d
-47,XXX is the female with an extra X; two Barr bodies are present, one for each inactivated X beyond the first.
+Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## correct_answer
 D
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phase Details
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that tubulin, synthesised in G2, is what builds the microtubules mitosis requires.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-785452E5D999
+## title
+Tubulin is synthesized in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Tubulin is synthesized in:
+## answer_a
+S phase
+## explanation_a
+S phase is when DNA and the centriole duplicate, not when tubulin is synthesised.
+## answer_b
+G2 phase
+## explanation_b
+Correct. The book states that in G2, tubulin is formed to build the microtubules required for mitosis. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
+## answer_c
+G1 phase
+## explanation_c
+G1 is characterised by cell growth, energy acquisition and RNA/protein synthesis for DNA duplication, not tubulin synthesis specifically.
+## answer_d
+prophase
+## explanation_d
+Prophase is a mitotic stage that uses the already-synthesised tubulin to build the spindle, not the phase where tubulin itself is made.
+## correct_answer
+B
+## main_concept
+CON-FND-9C205E44C3404D
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Cell Cycle Phase Details
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
 ## difficulty
 Easy
-
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Match each named sex-chromosome aneuploidy to its karyotype.
-
+State that tubulin, for building mitotic microtubules, is synthesised in G2.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
-4.5
-
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q16 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cytogenetics].pdf p2 q16 (manifest src_be181ad1f0be0dab13c9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q9; Histo MCQ by Dr.Kandeel [104].pdf p40 q9. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key trisomy-of-chromosome-x-is-d0d549ba. Asked twice across the 104 question books.
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
 # Item
-
 ## id
-QM-104-E36323045027
-
+QM-104-0D0DB099D882
 ## title
-Which trisomy statement is false
-
+Duplication of the centrioles occurs at:
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-All of the following are characters of trisomy EXCEPT:
-
+Duplication of the centrioles occurs at:
 ## answer_a
-Addition of an extra chromosome
-
+G1 phase
 ## explanation_a
-True, so not the exception. Trisomy is 2n plus one.
-
+G1 is when the cell grows and prepares for DNA duplication, before S phase's actual duplication events.
 ## answer_b
-Turner syndrome with 47 chromosomes
-
+S phase
 ## explanation_b
-The exception, and the answer. Turner's is 45,XO — a monosomy, and 45 chromosomes, not 47. Both halves of the statement are wrong, which is what makes it the odd one out.
+Correct. The book states that S phase is characterised by duplication of DNA (so each cell contains 46 d-chromosomes) and duplication of centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-Down syndrome with trisomy 21
-
+G2 phase
 ## explanation_c
-True, so not the exception; it is the commonest autosomal trisomy compatible with life.
-
+G2 follows S phase, synthesising RNA/protein and tubulin for division — not where duplication of the centriole itself happens.
 ## answer_d
-Three copies of a chromosome instead of two
-
+G0 phase
 ## explanation_d
-True, so not the exception — it is the definition restated.
-
+G0 is the resting phase outside the active cycle, where no duplication occurs at all.
 ## correct_answer
 B
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phase Details
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
+Easy
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Tell a trisomy from a monosomy by the chromosome count as well as the name.
-
+State that centriole duplication happens in S phase, alongside DNA duplication.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q53 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q1. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key all-characters-of-trisomy-except-c611b9d6.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
 
 # Item
-
 ## id
-QM-104-A23D6E749928
-
+QM-104-DDA9D2134B82
 ## title
-Which aberration is numerical and sex-chromosomal
-
+synthesis phase is characterized by:
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-One of the following is a numerical aberration in sex chromosomes:
-
+synthesis phase is characterized by:
 ## answer_a
-Down's syndrome
-
+Lost about 4 hours
 ## explanation_a
-Numerical, but autosomal: trisomy 21. The question asks for the sex chromosomes.
-
+Lasting about 4 hours is the book's stated duration for G2, not S phase (which the book gives as about 8 hours).
 ## answer_b
-Turner's syndrome
-
+duplication of DNA, centriole
 ## explanation_b
-45,XO is a numerical aberration of the sex chromosomes — one X is missing, and no Barr body is found.
+Correct. The book states S phase is characterised by duplication of DNA, giving each cell 46 d-chromosomes, and duplication of the centrioles. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-Isochromosome
-
+synthesis of RNA, ptn energy for mitosis
 ## explanation_c
-A structural aberration: the chromosome divides transversely instead of longitudinally, giving one chromosome with two identical arms. The count is unchanged.
-
+Synthesising RNA, protein and storing energy for mitosis are G2's characteristics, not S phase's.
 ## answer_d
-Translocation
-
+synthesis of tubulin
 ## explanation_d
-Also structural — material moves between chromosomes. In its balanced form the count and the total genetic content both stay normal.
-
+Synthesising tubulin is a G2 event, not an S-phase one.
 ## correct_answer
 B
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phase Details
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
+Easy
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Separate numerical from structural aberrations, and autosomal from sex-chromosomal ones.
-
+State that S phase is characterised by duplication of DNA and the centriole.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q12 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q3. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key one-of-the-following-is-a-numerical-aberration-in-sex-chromo-db39b774.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-9607530FC0A7
-
+QM-104-959C5B981B7B
 ## title
-Which Turner syndrome statement is false
-
+the more the specialized the cell, ------------ the G1 Phase, -------------- the rate o…
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-All of the following are characters of Turner syndrome EXCEPT:
-
+the more the specialized the cell, ------------ the G1 Phase, -------------- the rate of division
 ## answer_a
-45 chromosomes with XO
-
+longer, more
 ## explanation_a
-True, so not the exception. One sex chromosome is absent.
-
+The book pairs a longer G1 with a lower, not higher, rate of division for a more specialised cell.
 ## answer_b
-No sex chromatin
-
+longer, less
 ## explanation_b
-True, so not the exception. With a single X there is nothing to inactivate, so no Barr body is seen — which is how the buccal smear reads Turner's.
+Correct. The book states directly: 'The more specialized cell, the longer G1-phase & less rate of division.' The mechanism is that G1 is when a cell carries out its specialised working function rather than preparing to divide, so a cell doing more specialised work spends longer there before committing to another round of DNA synthesis. The thing worth remembering: G1's length is not fixed like S or G2's — it is the one phase whose duration tracks how differentiated the cell already is, from a highly dividing stem cell at one end to a non-renewing neuron effectively frozen in an extended G1 at the other.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-Male with only one X chromosome
-
+smaller, more
 ## explanation_c
-The exception, and the answer. The Turner patient is phenotypically female: short stature, webbed neck, primary amenorrhoea. A single X with no Y cannot make a male.
-
+The book's relationship runs the other way — a longer G1, not a smaller one, goes with greater specialisation.
 ## answer_d
-An ovum with no X is fertilized by a sperm with one X
-
+Smaller, less
 ## explanation_d
-True, so not the exception — non-disjunction in either gamete leaves the zygote with one sex chromosome.
-
+Both halves of this pairing are wrong: the book pairs greater specialisation with a longer G1 and a lower rate of division, not a smaller phase and smaller rate change in this direction.
 ## correct_answer
-C
-
+B
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phase Details
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
-Classification
-
+Mechanism
 ## learning_objective
-State the karyotype, the Barr body count and the phenotype of Turner syndrome together.
-
+State that a more specialised cell has a longer G1 and a lower rate of division.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q64 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q9. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key all-characters-of-turner-syndrome-except-d442923d.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-51AB9005070E
-
+QM-104-880C8D35E8B4
 ## title
-Which multiple-X statement is false
-
+blood cell, cells lining GIT are example for
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-All of the following are characters of the multiple X syndrome EXCEPT:
-
+blood cell, cells lining GIT are example for
 ## answer_a
-Monosomy of the sex chromosome with XO
-
+pluripotential stem cell
 ## explanation_a
-The exception, and the answer. XO is Turner's — the opposite aberration. Multiple X is a trisomy or more, not a monosomy.
+Correct. The book gives blood cells and the cells lining the gastrointestinal tract as its example of pluripotential (multipotential) stem cells — cells with the potential to give rise to more than one type of specialised cell. A common trap: assuming 'pluripotential' means unlimited potential.
 
+Why this is right, from the department book:
+- Stem cells are undifferentiated cells capable of self-renewal, of two types.
 ## answer_b
-A female having an addition of an X chromosome
-
+unipotential stem cell
 ## explanation_b
-True, so not the exception: 47,XXX.
-
+Unipotential stem cells are able to produce only one type of specialised cell, and the book's example of that category is the male germ cell, not blood cells or gut lining.
 ## answer_c
-Two Barr bodies are present
-
+Non renewing cell
 ## explanation_c
-True, so not the exception. All X chromosomes beyond the first are inactivated, so 47,XXX shows two Barr bodies — and counting them is how the smear tells these apart.
-
+A non-renewing cell cannot be replaced once lost; blood cells and GIT lining cells are, by contrast, continually replaced from stem cells, which is why they are the stem-cell example rather than the non-renewing one.
 ## answer_d
-An ovum with 2X is fertilized with a sperm having an X chromosome
-
+potentially renewing cell
 ## explanation_d
-True, so not the exception — non-disjunction at maternal meiosis is the usual origin.
-
+A potentially renewing cell (like the hepatocyte) leaves the cycle but can return to it; that is a different category from a stem cell that continuously gives rise to other cell types.
 ## correct_answer
 A
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-4699C7DBCE159A
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phases and Stem Cells
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
+Easy
 ## question_type
 Classification
-
 ## learning_objective
-Use the Barr body count to separate the sex-chromosome aneuploidies.
-
+Recall blood cells and the cells lining the gastrointestinal tract as the book's own example of pluripotential, not unipotential, stem cells.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q63 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q17. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key all-characters-of-multiple-x-chromosome-except-fe676c7f.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key contradicts the book's own sentence. Histology department book p40 states, verbatim, under pluripotential (multipotential) stem cells: 'e.g. blood cells and cells lining the gastro-intestinal tract' — the exact phrase in the question stem. The book gives no such example under unipotential stem cells (its example there is the male germ cell), so option B cannot be correct.
+
 
 ---
 
 # Item
-
 ## id
-QM-104-0C091DBB5FE3
-
+QM-104-D957746EBADC
 ## title
-Which statement does not belong to euploidy
-
+cell become specialized working cell in ----------- phase
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Euploidy includes all of the following EXCEPT:
-
+cell become specialized working cell in ----------- phase
 ## answer_a
-A multiple of the haploid number
-
+Synthesis
 ## explanation_a
-True, so not the exception — that is what euploid means.
-
+S phase is when DNA duplicates, giving each cell 46 d-chromosomes, and centrioles duplicate — a different set of events from the stem's description.
 ## answer_b
-The additional loss of one chromosome
-
+G1
 ## explanation_b
-The exception, and the answer. Gaining or losing single chromosomes is aneuploidy. Euploidy moves in whole haploid sets.
+Correct. The book lists 'the cells become specialised working cells' among G1's own characteristics, alongside cell growth, ATP acquisition and the RNA/protein synthesis needed to duplicate DNA. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-May be triploid with 69 chromosomes
-
+G2
 ## explanation_c
-True, so not the exception: 3 x 23.
-
+G2 is when RNA and proteins essential to division are synthesised, energy for mitosis is stored, tubulin for microtubules is formed, and DNA-replication errors are corrected — not when the cell becomes specialised.
 ## answer_d
-May be tetraploid with 92 chromosomes
-
+G0
 ## explanation_d
-True, so not the exception: 4 x 23.
-
+G0 is the stable, resting phase a cell has left the cycle for entirely — it is not where a cell becomes a specialised working cell; that happens during active G1.
 ## correct_answer
 B
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phases and Stem Cells
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Hard
-
+Easy
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Define euploidy as whole-set change and aneuploidy as single-chromosome change.
-
+Place the acquisition of a specialised working identity in G1, alongside RNA/protein synthesis for DNA duplication and cell growth.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q52 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q8. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key euploidy-include-all-the-following-except-7a26317a.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-DA9F07E9C4CF
-
+QM-104-E125F0A736C4
 ## title
-What the Barr body is
-
+phase in which an error in DNA replication is corrected
 ## subject
-dev
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-The Barr body (sex chromatin) is:
-
+phase in which an error in DNA replication is corrected
 ## answer_a
-The active coiled X chromosome in the female
-
+G1
 ## explanation_a
-Half right and therefore the strongest distractor: the Barr body is coiled, but coiling is what silences it. The active X stays extended.
-
+G1 is when the daughter cell grows, acquires energy and synthesises the RNA/protein needed to duplicate DNA — the correction of a replication error is a G2 event, once DNA has already been duplicated.
 ## answer_b
-The inactive coiled X chromosome in the female
-
+G2
 ## explanation_b
-Every X beyond the first is condensed and inactivated, so the number of Barr bodies is one less than the number of X chromosomes — which is what makes it a counting test.
+Correct. The book lists correcting any error in DNA replication among G2's own characteristics, alongside synthesising RNA and proteins for division, storing energy for mitosis, and forming tubulin. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-3-5% in buccal cell nuclei
-
+synthesis
 ## explanation_c
-The proportions are the wrong way round. The Barr body is seen in a large minority of buccal mucosal nuclei; it is the neutrophil drumstick that appears in about 3% of cells.
-
+S phase is when DNA duplication itself, and centriole duplication, happen — the error correction the book describes comes after, in G2.
 ## answer_d
-60% in blood leukocytes
-
+G0
 ## explanation_d
-Not a figure for leukocytes. In the female neutrophil the equivalent finding is the drumstick appendage, and it is uncommon, not usual.
-
+G0 is the resting phase a cell has left the cycle for; no DNA replication, and so no error correction, occurs there.
 ## correct_answer
 B
-
 ## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Cycle Phases and Stem Cells
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
-Structure and function
-
+Definition
 ## learning_objective
-Define the Barr body as an inactivated X and use its count to read a sex-chromosome aneuploidy.
-
+Place error correction in DNA replication within G2, alongside RNA/protein synthesis and tubulin formation.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q47 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q6. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key barr-body-sex-chromatin-d92271f9. Tagged to the aneuploidy concept because the Barr body count is how this corpus asks students to distinguish XO, XXY and XXX.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-BF5BA2F445EA
-
+QM-104-B78E303AAC08
 ## title
-Which palatine tonsil statement is false
-
+phase in which cell left cycle to be in resting state
 ## subject
-haem
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-All of the following are characters of the palatine tonsil EXCEPT:
-
+phase in which cell left cycle to be in resting state
 ## answer_a
-Lined by non-keratinized stratified squamous epithelium
-
+G1
 ## explanation_a
-True, so not the exception. It is continuous with the lining of the oropharynx, and it is what separates the palatine from the pharyngeal tonsil.
-
+G1 is an active phase within the cycle — growth, ATP acquisition, and RNA/protein synthesis — not the resting state a cell leaves the cycle for.
 ## answer_b
-Mucous glands open at the surface of the crypt
-
+G2
 ## explanation_b
-True, so not the exception — and it is the paired fact behind the lingual tonsil, whose glands open at the base of its crypts instead and so flush them.
-
+G2 is likewise an active phase, preparing the cell for mitosis, not a resting state outside the cycle.
 ## answer_c
-Contains lymphatic nodules with or without germinal centres
-
+synthesis
 ## explanation_c
-True, so not the exception: secondary nodules with germinal centres and primary nodules without them both occur.
-
+Synthesis (S) phase actively duplicates DNA — the opposite of a resting state.
 ## answer_d
-Non-capsulated with uncommon inflammation
-
+G0
 ## explanation_d
-The exception, and the answer. The palatine tonsil has an incomplete capsule on its deep surface, and its inflammation is the common one — acute tonsillitis is a palatine disease.
+Correct. The book names G0, the stable phase, as the resting stage a cell enters on leaving the active cell cycle. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## correct_answer
 D
-
 ## main_concept
-CON-HEM-BF004EF03BD129
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Lymphatic and Macrophage System
-
+Histology-general
 ## subtopic
-Tonsils
-
+Cytogenetics — Cell Cycle Phases and Stem Cells
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
+Easy
 ## question_type
-Structure and function
-
+Definition
 ## learning_objective
-Recognise that the palatine tonsil is partly capsulated and commonly inflamed.
-
+Name G0 as the stable, resting phase a cell enters on leaving the active cell cycle.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q21 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q5. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key all-characters-of-palatine-tonsil-except-42969d66.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-5D6AC044C4D9
-
+QM-104-A1ACBA906A79
 ## title
-Why lingual tonsils are rarely inflamed
-
+phase last about 4 hours
 ## subject
-haem
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-The lingual tonsils are not commonly inflamed because:
-
+phase last about 4 hours
 ## answer_a
-They are located at the base of the tongue away from microorganisms
-
+G1
 ## explanation_a
-The base of the tongue is not a sheltered site — it is bathed in the same flora as the palatine tonsil beside it. Position is not the reason.
-
+The book gives G1 a duration of about 8 hours, not 4.
 ## answer_b
-Their covering epithelium is protective
-
+G2
 ## explanation_b
-Both tonsils are covered by non-keratinized stratified squamous epithelium, so the covering cannot explain a difference between them.
+Correct. The book states G2 lasts about 4 hours. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
 
+Why this is right, from the department book:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases. (department book p.39)
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour. (department book p.39)
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases. (department book p.39)
 ## answer_c
-Ducts of their mucous glands open at the surface epithelium to wash microorganisms
-
+synthesis
 ## explanation_c
-This is the palatine arrangement, and it is why the palatine crypts fill with debris: the secretion never enters them. Getting it the right way round is the whole question.
-
+The book gives synthesis (S) phase a duration of about 8 hours, not 4.
 ## answer_d
-Ducts of their mucous glands open at the base of the crypts
-
+G0
 ## explanation_d
-Secretion entering at the bottom of the crypt washes it out continuously, so debris and organisms do not accumulate the way they do in a palatine crypt.
-
-## correct_answer
-D
-
-## main_concept
-CON-HEM-BF004EF03BD129
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Tonsils
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Hard
-
-## question_type
-Structure and function
-
-## learning_objective
-Explain the different inflammation rates of lingual and palatine tonsils from where their mucous gland ducts open.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q18 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key the-lingual-tonsils-are-not-commonly-inflamed-because-84653f3a.
-
----
-
-# Item
-
-## id
-QM-104-AC97FD7732A3
-
-## title
-Which palatine tonsil statement is correct
-
-## subject
-haem
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Concerning palatine tonsils, which of the following is correct?
-
-## answer_a
-Present under the mucous membrane of the nasopharynx
-
-## explanation_a
-That is the pharyngeal tonsil — the adenoid. The palatine tonsils lie in the lateral wall of the oropharynx, between the palatoglossal and palatopharyngeal arches.
-
-## answer_b
-Covered with keratinized stratified squamous epithelium
-
-## explanation_b
-Stratified squamous, yes, but non-keratinized: it is oropharyngeal mucosa, kept wet.
-
-## answer_c
-Mucous glands open into the bases of crypts
-
-## explanation_c
-This is the lingual tonsil's arrangement, and it is exactly why the lingual tonsil is rarely inflamed and the palatine tonsil often is.
-
-## answer_d
-Lymphatic tissue is formed of lymphatic nodules and diffuse lymphatic tissue
-
-## explanation_d
-Like the other tonsils it is a partly encapsulated aggregation of nodules set in diffuse lymphatic tissue, not an organized organ with cortex and medulla.
-
-## correct_answer
-D
-
-## main_concept
-CON-HEM-BF004EF03BD129
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Tonsils
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Describe the palatine tonsil's site, epithelium and lymphatic organization.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q12 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key concerning-palatine-tonsils-which-of-the-following-is-correc-2b7b1204.
-
----
-
-# Item
-
-## id
-QM-104-9948FB540FC6
-
-## title
-Which pharyngeal tonsil statement is correct
-
-## subject
-haem
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Choose the correct statement about the pharyngeal tonsil:
-
-## answer_a
-Has tonsillar crypts
-
-## explanation_a
-The pharyngeal tonsil has folds, not crypts. Deep branching crypts are the palatine tonsil's.
-
-## answer_b
-Covering epithelium is pseudo-stratified columnar with goblet cells
-
-## explanation_b
-It sits in the nasopharynx, so it keeps respiratory epithelium — which is the single feature that separates it from every other tonsil.
-
-## answer_c
-Present in the lateral wall of the oropharynx
-
-## explanation_c
-That is the palatine tonsil. The pharyngeal tonsil is in the roof and posterior wall of the nasopharynx.
-
-## answer_d
-Protects the digestive system against foreign invaders
-
-## explanation_d
-Its position guards the airway. Hypertrophy of this tonsil — the adenoid — obstructs nasal breathing, not swallowing.
-
+G0 is not assigned a fixed duration by the book at all — it is a resting state a cell can remain in indefinitely, not a timed phase.
 ## correct_answer
 B
-
 ## main_concept
-CON-HEM-BF004EF03BD129
-
+CON-FND-9C205E44C3404D
 ## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Lymphatic and Macrophage System
-
+Histology-general
 ## subtopic
-Tonsils
-
+Cytogenetics — Cell Cycle Phases and Stem Cells
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Tonsils
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Moderate
-
 ## question_type
-Structure and function
-
+Definition
 ## learning_objective
-Identify the pharyngeal tonsil by its respiratory covering epithelium and its nasopharyngeal site.
-
+Recall the book's stated duration for each interphase sub-phase, and identify G2 as the roughly four-hour one.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
 Medium
-
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q24 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q4. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key choose-the-correct-statement-about-pharyngeal-tonsil-fce585ae. The same stem appears in DPT HISTO MCQ [Lymphatic] 2023.pdf p3 q23 with no readable answer; the answer here is the Kandeel book's.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-CFCD7C56AB55
-
+QM-104-EC272035EAE2
 ## title
-The thymus dependent zone of the spleen
-
+All characters of Necrosis except
 ## subject
-haem
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-The thymus dependent zone of the spleen refers to:
-
+All characters of Necrosis except
 ## answer_a
-Marginal zone
-
+cell, organelles swell burst
 ## explanation_a
-The marginal zone forms the periphery of the white pulp and holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells. It is mixed, not T-dependent.
-
+True of necrosis, so not the exception. Necrotic cells and their organelles swell and burst, releasing their contents into the extracellular space — the book's own light-microscope description.
 ## answer_b
-Follicular zone
-
+phagocytosed by macrophage
 ## explanation_b
-The follicular zone is the darkly staining rim around the germinal centre and is mainly B lymphocytes.
-
+True, so not the exception. Both necrotic and apoptotic cells are ultimately cleared by phagocytosis by macrophages.
 ## answer_c
-Peri-arteriolar lymphatic sheath
-
+pathological or physiological gene
 ## explanation_c
-The PALS is the sleeve of mainly T lymphocytes wrapped directly around the central arteriole, and it is the splenic counterpart of the paracortex of a lymph node.
+The exception, and the answer. The book defines necrosis as a pathological condition only, resulting from anoxia, mechanical injury or toxins; being 'physiological' is what distinguishes apoptosis, an active programmed death that occurs normally at the end of a cell's life span. A common trap: assuming both forms of death end differently.
 
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_d
-Germinal center
-
+result from anoxia, injury or toxins
 ## explanation_d
-The germinal centre is the lightly staining core of activated B lymphocytes, large lymphocytes, plasma cells and macrophages.
-
+True, so not the exception. Anoxia, mechanical injury and toxin exposure are the book's own stated causes of necrosis.
 ## correct_answer
 C
-
 ## main_concept
-CON-HEM-7B050DE7FE2B80
-
+CON-FND-E44369E755E9F7
 ## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Lymphatic and Macrophage System
-
+Histology-general
 ## subtopic
-Spleen
-
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-
+104 CPS > Histology > Cytogenetics > Cell Division
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Name the T-dependent zone of the spleen and place it against the other three zones of the white pulp.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p3 q4 (manifest src_9cf32ada2b25fa54f0e9); EOM 196 104 2023 No answers  (1).pdf p13 q103 (manifest src_5465875dc14a998b7b21); EOM 196 104 - 2023 (1).pdf p13 q103 (manifest src_f1905b4b83def7d5642b).
-
-## author_notes
-Bank key thymus-dependent-zone-of-the-spleen-refers-to-d46d9b0a. Set again as question 103 of the 2023 end-of-module paper (EOM 196), where the examiner's pen ring gives the same answer. That answer is a handwritten mark read off the scan, not printed text — high confidence, ring only. Repetition on a sat paper is the strongest blueprint evidence this corpus holds.
-
----
-
-# Item
-
-## id
-QM-104-36B5B2B82921
-
-## title
-Where the splenic T-dependent zone lies
-
-## subject
-haem
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-The thymus dependent zone of the spleen is present at:
-
-## answer_a
-Around the central arteriole of the white pulp
-
-## explanation_a
-The PALS is defined by what it surrounds: the central arteriole, which is eccentric in the follicle and is the landmark that identifies splenic white pulp on a slide.
-
-## answer_b
-Germinal center of the white pulp
-
-## explanation_b
-A B-cell area — the site of proliferation after antigen challenge.
-
-## answer_c
-Follicular zone of the white pulp
-
-## explanation_c
-The dark B-lymphocyte rim around the germinal centre.
-
-## answer_d
-Marginal zone of the white pulp
-
-## explanation_d
-The outermost zone, where white pulp meets red; it holds both lymphocyte classes and is where blood-borne antigen is first met.
-
-## correct_answer
-A
-
-## main_concept
-CON-HEM-7B050DE7FE2B80
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Spleen
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Locate the PALS by the vessel it sheathes rather than by name alone.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p8 q15 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key thymus-dependent-zone-of-the-spleen-is-present-at-c0bc272b.
-
----
-
-# Item
-
-## id
-QM-104-242864B9BF12
-
-## title
-T-dependent zones of node and spleen
-
-## subject
-haem
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-The thymus dependent zones in the lymph node and the spleen are ......... and ......... respectively:
-
-## answer_a
-Cortical follicles and red pulp
-
-## explanation_a
-Both wrong. Cortical follicles are B-cell areas, and the red pulp is a blood filter of sinusoids and Billroth cords, not a lymphocyte zone.
-
-## answer_b
-Paracortex and red pulp
-
-## explanation_b
-The first half is right — the paracortex is the node's T-dependent zone — but the red pulp is not the spleen's.
-
-## answer_c
-Medullary cords and splenic sinusoids
-
-## explanation_c
-Medullary cords are branched masses of B lymphocytes and plasma cells; splenic sinusoids are vessels. Neither is T-dependent.
-
-## answer_d
-Paracortex and periarteriolar lymphatic sheath
-
-## explanation_d
-Both organs put their T cells in a deep zone between the follicles and the medulla or red pulp — the paracortex in the node, the PALS in the spleen.
-
-## correct_answer
-D
-
-## main_concept
-CON-HEM-7B050DE7FE2B80
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Spleen
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Hard
-
+Easy
 ## question_type
 Comparison
-
 ## learning_objective
-Pair the T-dependent zone of the lymph node with its splenic counterpart.
-
+State that necrosis is always pathological, never physiological — the physiological option belongs to apoptosis.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p9 q16 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q18. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key thymus-dependent-zone-in-the-lymph-node-spleen-are-respectiv-63a1deb5.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-D0C18A139836
-
+QM-104-1ACB014DB89A
 ## title
-Which white pulp zone holds both B and T cells
-
+nuclei become small, dark
 ## subject
-haem
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Which zone of the splenic white pulp contains both B and T lymphocytes?
-
+nuclei become small, dark
 ## answer_a
-Follicular zone
-
+Pyknosis
 ## explanation_a
-Mainly B lymphocytes, as the dark rim around the germinal centre.
+Correct. The book defines pyknosis as the nucleus becoming small, darkly stained, with condensed chromatin. A common trap: assuming both forms of death end differently.
 
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_b
-Germinal zone
-
+karyorhexis
 ## explanation_b
-The germinal centre holds activated B lymphocytes, plasma cells and macrophages — a B-cell reaction, not a mixed zone.
-
+Karyorrhexis is the chromatin fragmenting into pieces, not the nucleus becoming small and dark.
 ## answer_c
-PALS
-
+Karyolysis
 ## explanation_c
-Mainly T lymphocytes; it is the thymus-dependent zone.
-
+Karyolysis is the nucleus dissolving and disappearing, the opposite of becoming small and darkly stained.
 ## answer_d
-Marginal zone
-
+eukaryotic
 ## explanation_d
-The marginal zone is the periphery of the white pulp, where blood first meets lymphoid tissue, and it holds B and T lymphocytes together with plasma cells, macrophages and antigen-presenting cells.
-
-## correct_answer
-D
-
-## main_concept
-CON-HEM-7B050DE7FE2B80
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Spleen
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Identify the marginal zone as the mixed B and T compartment of the white pulp.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q15 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key contain-b-t-lymphocyte-e1384664. Stem repaired from OCR: the book prints the bare phrase 'Contain B, T lymphocyte'.
-
----
-
-# Item
-
-## id
-QM-104-01DDD2B01DDF
-
-## title
-The sealed capillary
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Which type of capillary has a continuous endothelium and a continuous basal lamina, with tight junctions and pericytes?
-
-## answer_a
-Continuous
-
-## explanation_a
-The continuous (somatic) capillary is a sealed tube: unbroken endothelium, tight junctions between the cells, and an unbroken basal lamina. It is the type found in muscle, nervous tissue, skin and lung.
-
-## answer_b
-Fenestrated
-
-## explanation_b
-The fenestrated (visceral) capillary is defined by pores through the endothelial cell. Its basal lamina is continuous, but its endothelium is not.
-
-## answer_c
-Sinusoidal
-
-## explanation_c
-The sinusoid breaks both layers: large gaps between endothelial cells and a discontinuous basal lamina, so whole cells can cross.
-
-## answer_d
-Lymphatic
-
-## explanation_d
-A lymphatic capillary is not a blood capillary at all. It is blind-ended, has an incomplete basal lamina and carries lymph, not blood.
-
+Eukaryotic is a description of cell type, not a nuclear change of necrosis.
 ## correct_answer
 A
-
 ## main_concept
-CON-CVS-9585A65D9EDA4D
-
+CON-FND-E44369E755E9F7
 ## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cardiovascular System
-
+Histology-general
 ## subtopic
-A-V Connections
-
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
+104 CPS > Histology > Cytogenetics > Cell Division
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
 Easy
-
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Identify a capillary type from the continuity of its endothelium and basal lamina.
-
+Name pyknosis as the nuclear change of becoming small and darkly stained with condensed chromatin.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q41 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q19. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key capillary-is-continuous-endothelium-basal-lamina-with-tight-abd1e98e. Stem repaired from OCR into a question; the four options are the book's.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-125300AAA49A
-
+QM-104-DD5E5CB8298A
 ## title
-Which capillary is the visceral capillary
-
+nuclei, their chromatin fragmented by
 ## subject
-cvs
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Which type of capillary is also called a visceral capillary?
-
+nuclei, their chromatin fragmented by
 ## answer_a
-Continuous
-
+sulfatase
 ## explanation_a
-The continuous capillary carries the other name — somatic capillary — because it serves the somatic tissues: muscle, nerve and skin.
-
+Sulfatase is not the enzyme the book credits with chromatin fragmentation.
 ## answer_b
-Fenestrated
-
+recombinase
 ## explanation_b
-Fenestrated capillaries are called visceral because they serve organs that must exchange in bulk: gut mucosa, endocrine glands and the renal glomerulus.
-
+Recombinase acts on DNA during genetic recombination, not on the necrotic nucleus's chromatin.
 ## answer_c
-Sinusoidal
-
+endonuclease
 ## explanation_c
-The sinusoid is named for its wide irregular lumen, not for a somatic or visceral territory, and it is restricted to liver, spleen and bone marrow.
+Correct. The book states that in karyorrhexis, the nucleus and its chromatin are fragmented into pieces by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
 
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## answer_d
-Lymphatic
-
+lipase
 ## explanation_d
-Not a blood capillary.
-
-## correct_answer
-B
-
-## main_concept
-CON-CVS-9585A65D9EDA4D
-
-## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
-## topic
-Cardiovascular System
-
-## subtopic
-A-V Connections
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Easy
-
-## question_type
-Classification
-
-## learning_objective
-Connect the somatic and visceral names to the continuous and fenestrated capillary types.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q44 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key capillary-is-called-visceral-capillary-d7aa139f. Stem repaired from OCR into a question; the four options are the book's.
-
----
-
-# Item
-
-## id
-QM-104-88C14293DCD8
-
-## title
-The capillary of liver, spleen and marrow
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Which type of capillary is present in the liver, spleen and bone marrow?
-
-## answer_a
-Continuous
-
-## explanation_a
-Continuous capillaries serve muscle, nervous tissue, skin and lung — tissues where the barrier matters more than the traffic.
-
-## answer_b
-Fenestrated
-
-## explanation_b
-Fenestrated capillaries serve the intestine, endocrine glands and kidney. Their pores pass fluid and small molecules, not cells.
-
-## answer_c
-Sinusoidal
-
-## explanation_c
-Liver, spleen and bone marrow need whole cells to cross the wall, so the sinusoid is wide, has large intercellular gaps and a discontinuous basal lamina, with macrophages in its wall.
-
-## answer_d
-Lymphatic
-
-## explanation_d
-Not a blood capillary.
-
+Lipase acts on lipids, not on chromatin, and plays no part in the book's description of karyorrhexis.
 ## correct_answer
 C
-
 ## main_concept
-CON-CVS-9585A65D9EDA4D
-
+CON-FND-E44369E755E9F7
 ## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cardiovascular System
-
+Histology-general
 ## subtopic
-A-V Connections
-
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
+104 CPS > Histology > Cytogenetics > Cell Division
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name endonuclease as the enzyme that fragments the chromatin in karyorrhexis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q21. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
 
+
+
+---
+
+# Item
+## id
+QM-104-6E847166C135
+## title
+nuclei, their chromatin fragmented into pieces
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nuclei, their chromatin fragmented into pieces
+## answer_a
+PyKnosis
+## explanation_a
+Pyknosis is the nucleus becoming small and darkly stained, not fragmenting into pieces.
+## answer_b
+karyorhexis
+## explanation_b
+Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
+
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
+## answer_c
+Karyolysis
+## explanation_c
+Karyolysis is the nucleus dissolving and disappearing entirely, not breaking into visible fragments.
+## answer_d
+eukaryotic
+## explanation_d
+Eukaryotic describes a cell type, not a nuclear change.
+## correct_answer
+B
+## main_concept
+CON-FND-E44369E755E9F7
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
 ## difficulty
 Easy
-
 ## question_type
-Classification
-
+Definition
 ## learning_objective
-Match the sinusoid to the three organs that need cells, not just solutes, to cross the vessel wall.
-
+Name karyorrhexis as the term for chromatin fragmenting into pieces.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p14 q46 (manifest src_9cf32ada2b25fa54f0e9).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q20. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key capillary-is-present-in-liver-spleen-b-m-145a5357. Stem repaired from OCR into a question; the four options are the book's.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-49BFB0D7F201
-
+QM-104-15E83E9CD2DD
 ## title
-What characterizes somatic capillaries
-
+Which description is correct for karyorrhexis?
 ## subject
-cvs
-
+fnd
 ## status
 Draft
-
 ## format
 single_best_answer
-
 ## question
-Somatic capillaries are characterized by the following:
-
+Which description is correct for karyorrhexis?
 ## answer_a
-Have pores in their wall
-
+The nuclei become small and darkly stained
 ## explanation_a
-Pores are the fenestrated capillary's. The somatic capillary's endothelium is unbroken, which is what makes it the tighter barrier.
-
+That description — small and darkly stained — is pyknosis, not karyorrhexis.
 ## answer_b
-The most common type
-
+The nuclei and chromatin are swollen
 ## explanation_b
-The somatic — continuous — capillary is the default capillary of the body, found in muscle, nervous tissue, skin, lung and connective tissue.
-
+The nuclei and chromatin swelling is not any of the three necrotic nuclear changes the book names; necrotic nuclei shrink and fragment or dissolve, they do not swell.
 ## answer_c
-Has discontinuous basement membrane
-
+Dissolution and disappearance of nuclei
 ## explanation_c
-A discontinuous basal lamina is the sinusoid's, and it is what lets whole cells cross in liver, spleen and marrow.
-
+Dissolution and disappearance of the nucleus is karyolysis, not karyorrhexis.
 ## answer_d
-Endothelium forms a discontinuous layer
-
+The nuclei and chromatin are fragmented
 ## explanation_d
-Again the sinusoid. The somatic capillary's endothelial cells are joined by tight junctions.
+Correct. The book defines karyorrhexis as the nucleus and its chromatin fragmenting into pieces, by an endonuclease enzyme. A common trap: assuming both forms of death end differently.
 
-## correct_answer
-B
-
-## main_concept
-CON-CVS-9585A65D9EDA4D
-
-## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
-## topic
-Cardiovascular System
-
-## subtopic
-A-V Connections
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Recognise the continuous capillary as the commonest type and describe its sealed wall.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p18 q22 (manifest src_9cf32ada2b25fa54f0e9); DPT HISTO MCQ [Cardiovascular].pdf p3 q22 (manifest src_b1c03ac55330bb88dc62).
-
-## author_notes
-Bank key somatic-capillaries-are-characterized-by-the-following-99d17220. Asked twice across the 104 question books.
-
----
-
-# Item
-
-## id
-QM-104-88386FEBF752
-
-## title
-Which splenic sinusoid statement is correct
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Which of the following statements is correct about splenic sinusoids?
-
-## answer_a
-Kupffer cells surround the walls of these sinusoids
-
-## explanation_a
-Kupffer cells belong to the hepatic sinusoid. The spleen has its own macrophages, in the Billroth cords beside the sinusoid rather than in its lining.
-
-## answer_b
-Are lined with elongated endothelial cells with large intercellular spaces
-
-## explanation_b
-The stave cells lie parallel to the long axis like the staves of a barrel, with wide gaps between them — which is how a red cell is forced to deform to leave the cord, and how the spleen tests its flexibility.
-
-## answer_c
-Stave cells are phagocytic cells that surround their walls
-
-## explanation_c
-Stave cells are the endothelial lining itself, not phagocytes around it. Naming them correctly but giving them the wrong job is the trap here.
-
-## answer_d
-Their basement membranes are continuous
-
-## explanation_d
-The basal lamina is discontinuous, arranged as encircling hoops. A continuous one would defeat the whole arrangement.
-
-## correct_answer
-B
-
-## main_concept
-CON-CVS-9585A65D9EDA4D
-
-## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
-## topic
-Cardiovascular System
-
-## subtopic
-A-V Connections
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Hard
-
-## question_type
-Structure and function
-
-## learning_objective
-Describe the splenic sinusoid wall and explain how its discontinuity serves red cell filtration.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Lymphatic] 2023.pdf p1 q10 (manifest src_2b531af1f3f6eace5974); Histo MCQ by Dr.Kandeel [104].pdf p8 q11 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key which-of-the-following-statements-is-correct-about-splenic-s-f933552b. Asked twice across the 104 question books.
-
----
-
-# Item
-
-## id
-QM-104-FD294D08CF93
-
-## title
-What pericytes do
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-Pericytes of blood capillaries perform the following function:
-
-## answer_a
-Provide a smooth surface for blood flow through capillaries
-
-## explanation_a
-That is the endothelium's job. The pericyte lies outside it, wrapped in its own basal lamina.
-
-## answer_b
-Regulate the blood flow through capillaries
-
-## explanation_b
-The pericyte is contractile and shares the endothelial basal lamina; it is the capillary's substitute for a tunica media.
-
-## answer_c
-Can differentiate into elastic fibers
-
-## explanation_c
-A cell does not become a fibre. The pericyte is an undifferentiated cell that can become smooth muscle or fibroblast — it makes fibres, it does not turn into them.
-
-## answer_d
-Provide nutrition to the capillary wall
-
-## explanation_d
-A capillary wall is one cell thick and is nourished by the blood it carries. Vessels needing their own supply have vasa vasorum, and those are large vessels.
-
-## correct_answer
-B
-
-## main_concept
-CON-CVS-9585A65D9EDA4D
-
-## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
-## topic
-Cardiovascular System
-
-## subtopic
-A-V Connections
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Assign the contractile, flow-regulating role at the capillary to the pericyte.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-4.5
-
-## cognitive_effort
-Medium
-
-## reasoning_level
-1
-
-## estimated_seconds
-60
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Vascular] 2023.pdf p3 q25 (manifest src_437b45e5de1d97a26dc6); Histo MCQ by Dr.Kandeel [104].pdf p19 q25 (manifest src_9cf32ada2b25fa54f0e9).
-
-## author_notes
-Bank key pericytes-of-blood-capillaries-perform-the-following-functio-913808b3. Asked twice across the 104 question books.
-
----
-
-# Item
-
-## id
-QM-104-A756754B4E6F
-
-## title
-Who regulates flow in a capillary
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-single_best_answer
-
-## question
-In the blood capillaries, regulating the blood flow is the function of:
-
-## answer_a
-Elastic fibers
-
-## explanation_a
-Elastic fibres store and return energy in large arteries. A capillary has no elastic lamina at all.
-
-## answer_b
-Smooth muscle fibers
-
-## explanation_b
-Smooth muscle regulates flow at the arteriole and the metarteriole, one step upstream. It stops before the true capillary begins.
-
-## answer_c
-Fibroblasts
-
-## explanation_c
-Fibroblasts make the connective tissue around the vessel; they are not part of its wall and are not contractile in this sense.
-
-## answer_d
-Pericytes
-
-## explanation_d
-The pericyte is the contractile cell of the capillary wall, sharing the endothelial basal lamina, and it stands in for the tunica media the capillary does not have.
-
+Why this is right, from the department book:
+- Two forms of cell death are recognised. (department book p.41)
 ## correct_answer
 D
-
 ## main_concept
-CON-CVS-9585A65D9EDA4D
-
+CON-FND-E44369E755E9F7
 ## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## topic
-Cardiovascular System
-
+Histology-general
 ## subtopic
-A-V Connections
-
+Cytogenetics — Cell Death (Necrosis vs Apoptosis)
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
+104 CPS > Histology > Cytogenetics > Cell Division
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Moderate
-
+Easy
 ## question_type
-Structure and function
-
+Definition
 ## learning_objective
-Name the contractile element of the capillary wall on an exam paper's own terms.
-
+State that karyorrhexis is the nucleus and chromatin fragmenting into pieces, distinct from pyknosis and karyolysis.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
 4.5
-
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-Medium
-
+Low
 ## reasoning_level
 1
-
 ## estimated_seconds
 60
-
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p15 q114 (manifest src_5465875dc14a998b7b21); EOM 196 104 - 2023 (1).pdf p15 q114 (manifest src_f1905b4b83def7d5642b).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q6. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key in-the-blood-capillaries-regulating-the-blood-flow-is-the-fu-2f8550df. From the 2023 end-of-module paper (EOM 196), question 114. The answer is a handwritten mark read off the scan — the three wrong options are struck through and D is ringed — not printed text. High confidence. The department book asks the same fact as 'Pericytes of blood capillaries perform the following function', which is the item above.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
 
 ---
 
 # Item
-
 ## id
-QM-104-BE6128DE1041
-
+QM-104-7893F93FE7BE
 ## title
-Spleen and tonsils: match the description
-
+sperms are example for
 ## subject
-haem
-
+fnd
 ## status
 Draft
-
 ## format
-matching
-
+single_best_answer
 ## question
-Match each structure in Column (A) with the description in Column (B) that identifies it. Not every description is used.
+sperms are example for
+## answer_a
+non renewing cell
+## explanation_a
+Non-renewing cells are never replaced once lost; sperms, by contrast, are continually produced from stem cells throughout reproductive life.
+## answer_b
+potentially renewable cells
+## explanation_b
+A potentially renewable cell can itself return to the cycle to divide, unlike the end-stage, non-dividing sperm.
+## answer_c
+continuously renewing cell
+## explanation_c
+Correct. The book names sperms, with blood cells, as its example of continuously renewing cells — end cells that cannot divide but are replaced from stem cells. A common trap: reading 'continuously renewing' as continuously dividing.
 
-## matching_options
-A | Has a central arteriole at one side
-B | Is found between the red and the white pulp
-C | Has a folded epithelium with no crypts
-D | Their inflammation is common
-E | Found between the cortex and the medulla of a lymph node
-F | Ducts of mucous glands open in the base of the crypt
-G | Rich in RBCs and blood sinusoids
-
-## matching_prompts
-Red pulp = G
-Pharyngeal tonsil = C
-Palatine tonsils = D
-White pulp = A
-
+Why this is right, from the department book:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells. (department book p.39)
+## answer_d
+None of the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
 ## main_concept
-CON-HEM-7B050DE7FE2B80 | CON-HEM-BF004EF03BD129
-
-## library_ids
-ART-104-HIS-LYMPHOID-ORGANS
-
-## topic
-Lymphatic and Macrophage System
-
-## subtopic
-Spleen
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Lymphatic and Macrophage System > Spleen
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Hard
-
-## question_type
-Structure and function
-
-## learning_objective
-Tell the two splenic pulps and the two named tonsils apart against each other, using descriptions that each fit only one of them.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-5
-
-## cognitive_effort
-High
-
-## reasoning_level
-2
-
-## estimated_seconds
-150
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. EOY 104 Final (198 1st) (1).pdf p15, matching table (manifest src_df6b7a7de75411dbb92b).
-
-## author_notes
-Bank key match-column-a-with-column-b-match-column-a-with-column-b-pa-59c568d5. Three of the seven options answer no prompt and are the block's own distractors, kept because they are what the item tests: B is the marginal zone, E is the paracortex of a lymph node, and F is the lingual tonsil — each a near neighbour of a real answer. The pairing is authored: this paper prints its key as a grid that the scan lost, so no answer was recoverable from the corpus. Option text is the paper's, cleaned of OCR debris.
-
----
-
-# Item
-
-## id
-QM-104-A5BF22FD16EA
-
-## title
-Capillary types and A-V connections
-
-## subject
-cvs
-
-## status
-Draft
-
-## format
-matching
-
-## question
-Match each vessel in Column (A) with the description in Column (B) that identifies it. Not every description is used.
-
-## matching_options
-A | Has pores with a basement membrane
-B | Well-developed elastic lamina
-C | The most common type
-D | Fenestrated elastic membrane
-E | Has pores and no basement membrane
-F | Connects an arteriole with capillaries
-G | Connects an arteriole with a venule
-
-## matching_prompts
-Continuous capillaries = C
-Fenestrated capillaries = A
-Sinusoidal capillaries = E
-Arteriovenous shunt = G
-Metarteriole = F
-
-## main_concept
-CON-CVS-9585A65D9EDA4D
-
-## library_ids
-ART-104-HIS-CAPILLARY-TYPES
-
-## topic
-Cardiovascular System
-
-## subtopic
-A-V Connections
-
-## module
-104 CPS
-
-## module_subject
-104 CPS > Histology > Cardiovascular System > A-V Connections
-
-## universities
-kau
-
-## years
-Year 1
-
-## question_only_for
-KAU_Y1
-
-## difficulty
-Moderate
-
-## question_type
-Structure and function
-
-## learning_objective
-Separate the three capillary types by their pores and basal lamina, and separate the metarteriole from the arteriovenous shunt by what each connects.
-
-## setting
-Academic
-
-## academic_relevance
-0.9
-
-## clinical_relevance
-0.3
-
-## exam_relevance
-5
-
-## cognitive_effort
-High
-
-## reasoning_level
-2
-
-## estimated_seconds
-150
-
-## randomise_answers
-yes
-
-## owner
-Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
-## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cardiovascular].pdf p5, Table III (manifest src_b1c03ac55330bb88dc62).
-
-## author_notes
-Bank key match-column-a-with-column-b-table-3arteriovenous-shunt-cont-71a3b7b8. Two of the seven options answer no prompt: B and D are large-artery features and are the block's distractors. The A/E pair is the point of the item — pores with a basement membrane is the fenestrated capillary, pores without one is the sinusoid — and splitting this table into single-best-answer questions would hand a student a fresh set of distractors each time and stop testing that discrimination. The pairing is authored; the paper's key is a grid the scan did not recover.
-
----
-
-# Item
-
-## id
-QM-104-EE20FDC931FC
-
-## title
-Chromosomal aberrations: match the karyotype
-
-## subject
-dev
-
-## status
-Draft
-
-## format
-matching
-
-## question
-Match each condition or aberration in Column (A) with the description in Column (B) that identifies it. Not every description is used.
-
-## matching_options
-A | 45, XO
-B | 47, trisomy 21
-C | Karyotype 46, 47, 45 in different cell lines
-D | Extra genes on chromosome 6
-E | Two copies of the same genes on the same chromosome
-F | Unequal chromosomes, one short and one long
-G | 47, XXY
-
-## matching_prompts
-Klinefelter's syndrome = G
-Turner's syndrome = A
-Duplication = E
-Mosaic = C
-
-## main_concept
-CON-DEV-C2AC39B48A8F21
-
+CON-FND-A2E40256517389
 ## library_ids
 ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
-
 ## topic
-Cytogenetics
-
+Histology-general
 ## subtopic
-Chromosomal Aberrations (Abnormalities)
-
+Cytogenetics — Cell Renewal Classification
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
-
+104 CPS > Histology > Cytogenetics > The Cell Cycle
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Hard
-
+Easy
 ## question_type
-Structure and function
-
+Classification
 ## learning_objective
-Read a karyotype string as a named aneuploidy, and tell a numerical aberration from a structural one in the same list.
-
+Name sperms as the book's second example of a continuously renewing cell, alongside blood cells.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
-5
-
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-High
-
+Low
 ## reasoning_level
-2
-
+1
 ## estimated_seconds
-150
-
+60
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3, Table 1 (manifest src_79af3b3857ba47239529).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q13. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key match-column-a-with-column-b-table-1duplication-klinefelter-ccd70e96. Three of the seven options answer no prompt: B is Down's syndrome, D is a distractor phrasing of duplication, and F is the isochromosome. They are what forces a student to separate a numerical from a structural aberration rather than recognise a single karyotype. The pairing is authored; the paper's key is a grid the scan did not recover.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
 
 ---
 
 # Item
-
 ## id
-QM-104-72466607C8EE
-
+QM-104-1F6A47E372B4
 ## title
-Respiratory and olfactory cells: match the description
-
+barr body in 3-5% in
 ## subject
-resp
-
+fnd
 ## status
 Draft
-
 ## format
-matching
-
+single_best_answer
 ## question
-Match each cell in Column (A) with the description in Column (B) that identifies it. Not every description is used.
+barr body in 3-5% in
+## answer_a
+neutrophil
+## explanation_a
+Correct. The book gives the drumstick-shaped Barr body in 3-5% of female blood neutrophils, alongside the nuclear-envelope form in about 60% of buccal epithelial cells. A common trap: predicting Barr-body number from X-chromosome number by simple subtraction without the rule behind it — the number of Barr bodies is always one fewer than the number of X chromosomes present, because exactly one X per cell stays active and every other X is inactivated as a Barr body.
 
-## matching_options
-A | Arise mainly from monocytes escaping from blood capillaries
-B | Tall columnar cells containing yellow pigment
-C | Simple squamous cells providing a very thin membrane for gaseous exchange
-D | Have apical microvilli and basal afferent nerve endings
-E | Protect against the development of emphysema
-F | Secrete pulmonary surfactant
-G | Have numerous granules with dense cores
-
-## matching_prompts
-Type I pneumocytes = C
-Type II pneumocytes = F
-Clara cells = E
-Alveolar phagocytes = A
-Sustentacular cells of olfactory epithelium = B
-
+Why this is right, from the department book:
+- Sex chromatin, the Barr body, first described by Murray Barr, is a darkly stained mass of chromatin representing the inactive, coiled, dark-staining X chromosome in the nucleus of a female cell, while the other X chromosome stays active, extended and inapparent.
+## answer_b
+eosinophil
+## explanation_b
+Eosinophils are not the cell the book names for this 3-5% figure.
+## answer_c
+Iymphocyte
+## explanation_c
+Lymphocytes are not the cell the book names for the drumstick-shaped Barr body.
+## answer_d
+monocyte
+## explanation_d
+Monocytes are not the cell the book names for the drumstick-shaped Barr body.
+## correct_answer
+A
 ## main_concept
-CON-RES-4D4CBF3BB8AF1E | CON-RES-B7F9FACECA4AFF
-
+CON-FND-7FE32E35CA4C7F
 ## library_ids
-ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT | ART-104-HIS-NASAL-MUCOSA
-
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## topic
-Respiratory System
-
+Histology-general
 ## subtopic
-Respiratory Portion
-
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
 ## module
 104 CPS
-
 ## module_subject
-104 CPS > Histology > Respiratory System > Respiratory Portion
-
+104 CPS > Histology > Cytogenetics > Human Chromosome
 ## universities
 kau
-
 ## years
 Year 1
-
 ## question_only_for
 KAU_Y1
-
 ## difficulty
-Hard
-
+Easy
 ## question_type
-Structure and function
-
+Definition
 ## learning_objective
-Assign surfactant secretion, gas exchange, bronchiolar protection, phagocytosis and olfactory support each to the one cell that performs it.
-
+State that the drumstick-like Barr body appears in 3-5% of female blood neutrophils.
 ## setting
 Academic
-
 ## academic_relevance
 0.9
-
 ## clinical_relevance
 0.3
-
 ## exam_relevance
-5
-
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
 ## cognitive_effort
-High
-
+Low
 ## reasoning_level
-2
-
+1
 ## estimated_seconds
-150
-
+60
 ## randomise_answers
 yes
-
 ## owner
 Claude
-
-## resource_ids
-src_18d3a953df4ca83c4e74
-
 ## source_citation
-Kasr Al Ainy corpus, module 104 CPS. DPT HISTO MCQ [Respiratory] 2023.pdf p4, Table 2 (manifest src_12ecc23fe206a928203d); DPT HISTO MCQ [Respiratory].pdf p4, matching table (manifest src_d0d3d52a9b3b79169a9c).
-
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q48. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
-Bank key match-column-a-with-column-b-table-2alveolar-phagocytes-nerv-105c8ef5. Two of the seven options answer no prompt: D is the brush cell and G is the small granule (neuroendocrine) cell — both line the same epithelium and are the reason this block is worth more than five separate questions. The pairing is authored; the paper's key is a grid the scan did not recover.
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-8B1034BA3AB2
+## title
+best cell to study chromosome
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+best cell to study chromosome
+## answer_a
+Platelet
+## explanation_a
+Platelets have no nucleus, so they carry no chromosomes to study.
+## answer_b
+RBCS
+## explanation_b
+Red blood cells are anucleate in their mature form and carry no chromosomes either.
+## answer_c
+leucocyte
+## explanation_c
+Correct. The book states leucocytes are the best cells to study chromosomes — they are allowed to divide by mitosis and stopped at metaphase for the spread. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
+## answer_d
+All the above
+## explanation_d
+Not applicable — a correct single answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-FND-C7C2723BD3BC8D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name leucocytes as the book's stated best cell for chromosome study by karyotyping.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q40. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-55AE4C09760F
+## title
+central fusion occurs in -------------- chromosome
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+central fusion occurs in -------------- chromosome
+## answer_a
+metacentric
+## explanation_a
+Metacentric chromosomes have a central centromere with equal arms — not the type the book's centric-fusion example (21 and 14) belongs to.
+## answer_b
+submetacentric
+## explanation_b
+Submetacentric chromosomes are not the type centric fusion is described between.
+## answer_c
+telocentric
+## explanation_c
+Telocentric chromosomes have no short arm at all and, the book notes, do not occur in humans.
+## answer_d
+acrocentric
+## explanation_d
+Correct. Chromosomes 21 and 14, the book's own centric-fusion example in Down syndrome, are acrocentric — centromere very close to one end. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## correct_answer
+D
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify acrocentric chromosomes (like 21 and 14) as the type centric fusion occurs between.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q75. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9B98C5DD67B8
+## title
+Centromere between Center upper end
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Centromere between Center upper end
+## answer_a
+metacentric
+## explanation_a
+Metacentric describes a centromere at the exact centre, with equal arms.
+## answer_b
+submetacentric
+## explanation_b
+Correct. The book places the submetacentric centromere midway between the centre and the upper end, giving a short and a long arm. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## answer_c
+acrocentric
+## explanation_c
+Acrocentric describes a centromere very close to the upper end, not midway.
+## answer_d
+telocentric
+## explanation_d
+Telocentric describes a terminal centromere with no short arm, not a midway one.
+## correct_answer
+B
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name submetacentric as the class whose centromere sits midway between the centre and the upper end.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q42. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E4FEB0BC25CC
+## title
+Centromere is very close to upper end, P is very short
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Centromere is very close to upper end, P is very short
+## answer_a
+metacentric
+## explanation_a
+Metacentric has a centromere at the centre, not close to one end.
+## answer_b
+submetacentric
+## explanation_b
+Submetacentric has the centromere midway between centre and end, closer to the middle than acrocentric's is.
+## answer_c
+acrocentric
+## explanation_c
+Correct. The book describes acrocentric chromosomes as having a centromere very close to the upper end, so the p arm is very short. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## answer_d
+telocentric
+## explanation_d
+Telocentric would have no p arm at all, and the book states this type does not occur in humans.
+## correct_answer
+C
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name acrocentric as the class whose centromere sits very close to one end, leaving a very short p arm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q44. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-3CD6D91C4AE2
+## title
+isochromosome occurs in -------------- Chromosome
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+isochromosome occurs in -------------- Chromosome
+## answer_a
+metacentric
+## explanation_a
+Metacentric chromosomes are not where the book locates this anomaly.
+## answer_b
+submetacentric
+## explanation_b
+Correct. The book states isochromosomes occur mostly in submetacentric chromosomes, which divide transversely rather than longitudinally at the centromere during anaphase. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## answer_c
+telocentric
+## explanation_c
+Acrocentric chromosomes are not where the book locates isochromosome formation.
+## answer_d
+acrocentric
+## explanation_d
+Telocentric chromosomes do not occur in humans, per the book.
+## correct_answer
+B
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that isochromosome formation occurs mostly in submetacentric chromosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q73. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-27BD9293FB84
+## title
+Kinetochore is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Kinetochore is
+## answer_a
+2 chromatid connected of centromere
+## explanation_a
+Two chromatids joined at the centromere describes the d-chromosome itself, not the kinetochore.
+## answer_b
+segments of DNA that code for formation of ptn
+## explanation_b
+A gene, not a kinetochore, is the DNA segment coding for a protein.
+## answer_c
+2 disc of ptn located at centromere
+## explanation_c
+Correct. The book defines kinetochores as two discs of protein located at the centromere, to which the spindle fibres attach during cell division. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## answer_d
+region of repeated sequence to protect chromosome end
+## explanation_d
+A telomere, not a kinetochore, is the repeated-sequence region protecting the chromosome's end.
+## correct_answer
+C
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define the kinetochore as the pair of protein discs at the centromere where spindle fibres attach.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q14. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2114C8E7637E
+## title
+mass of chromatin attached to short arm in All the following except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+mass of chromatin attached to short arm in All the following except
+## answer_a
+chromosome 21
+## explanation_a
+Chromosome 21 is acrocentric and does carry a satellite, so this is not the exception.
+## answer_b
+Chromosome X
+## explanation_b
+The X chromosome is not an acrocentric chromosome and is not part of the book's satellite-bearing group at all, but the book's own stated exception is Y, named directly — not X.
+## answer_c
+chromosome 14
+## explanation_c
+Chromosome 14 is acrocentric and does carry a satellite, so this is not the exception.
+## answer_d
+chromosome Y
+## explanation_d
+Correct. The book states that among the acrocentric chromosomes, all except the Y carry a satellite mass of chromatin on the short arm — the Y is the book's own named exception. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## correct_answer
+D
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that satellites attach to the short arm of acrocentric chromosomes generally, but not the Y.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q46. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-60B1126A25D6
+## title
+small mass of Chromatin attached to short arm by narrow stalk in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+small mass of Chromatin attached to short arm by narrow stalk in
+## answer_a
+metacentric
+## explanation_a
+Metacentric chromosomes are not the type the book describes as carrying satellites.
+## answer_b
+submetacentric
+## explanation_b
+Submetacentric chromosomes are not the type the book describes as carrying satellites.
+## answer_c
+acrocentric
+## explanation_c
+Correct. The book states some acrocentric chromosomes (except the Y) carry a small satellite mass of chromatin attached to the short arm by a narrow stalk, containing rRNA genes. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## answer_d
+telocentric
+## explanation_d
+Telocentric chromosomes do not occur in humans, per the book.
+## correct_answer
+C
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute the satellite (attached by a narrow stalk to the short arm) to acrocentric chromosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q45. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7A5CA3223674
+## title
+telomere is
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+telomere is
+## answer_a
+2 chromatid connected of centromere
+## explanation_a
+Two chromatids connected at the centromere describes the d-chromosome, not the telomere.
+## answer_b
+segments of DNA that code for formation of ptn
+## explanation_b
+A gene, not a telomere, is the DNA segment coding for a protein.
+## answer_c
+2 disc of ptn located at centromere
+## explanation_c
+Two protein discs at the centromere describes the kinetochore, not the telomere.
+## answer_d
+region of repeated sequence to protect chromosome end
+## explanation_d
+Correct. The book defines telomeres as regions of repeated sequence at the chromosomal ends, protecting the end from destruction and preventing end-to-end fusion. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## correct_answer
+D
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define the telomere as the repeated-sequence region protecting a chromosome's end.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-33326DEA01F9
+## title
+when two arm are equal
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+when two arm are equal
+## answer_a
+metacentric
+## explanation_a
+Correct. The book defines metacentric as a centromere at the centre of the chromosome, so the two arms (p and q) are equal. A common trap: forgetting that satellites occur on acrocentric chromosomes 'except the Y' — the book states this exception explicitly, and it is the kind of single-word qualifier a classification question is built to test.
+
+Why this is right, from the department book:
+- Chromosomes are classified three ways.
+## answer_b
+submetacentric
+## explanation_b
+Submetacentric gives a short and a long arm, not equal ones.
+## answer_c
+acrocentric
+## explanation_c
+Acrocentric gives a very short p arm against a long q arm, not equal ones.
+## answer_d
+telocentric
+## explanation_d
+Telocentric would have no short arm at all, and does not occur in humans.
+## correct_answer
+A
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name metacentric as the class whose centromere is central, giving equal arms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q43. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-CA64DE5040AA
+## title
+In karyotyping the chromosomes are obtained in:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In karyotyping the chromosomes are obtained in:
+## answer_a
+Prophase
+## explanation_a
+Prophase chromosomes are still condensing and not yet aligned — the book's technique stops cells later, at metaphase.
+## answer_b
+Anaphase
+## explanation_b
+Anaphase chromosomes are already separating toward opposite poles, past the point karyotyping captures them.
+## answer_c
+Metaphase
+## explanation_c
+Correct. The book's karyotyping technique allows cells to divide by mitosis and stops them at metaphase, when the spread is photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
+## answer_d
+Interphase
+## explanation_d
+Interphase chromosomes are uncondensed chromatin, not visible as the discrete metaphase spread karyotyping needs.
+## correct_answer
+C
+## main_concept
+CON-FND-C7C2723BD3BC8D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that karyotyping stops dividing cells at metaphase to obtain the chromosome spread.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q8; DPT HISTO MCQ [Cytogenetics].pdf p1 q8. Manifest src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-596A13207EE4
+## title
+at karyotyping, cell is stopped division at
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+at karyotyping, cell is stopped division at
+## answer_a
+prophase
+## explanation_a
+Prophase precedes the point the book's technique stops cells at.
+## answer_b
+metaphase
+## explanation_b
+Correct. The book states the karyotyping technique stops the dividing cell at metaphase for the spread to be photographed. A common trap: assuming karyotyping needs a dividing tissue like bone marrow.
+
+Why this is right, from the department book:
+- Karyotyping is the study of the number and type of chromosomes according to their length and the position of the centromere.
+## answer_c
+telophase
+## explanation_c
+Telophase is well past the metaphase point the technique actually captures.
+## answer_d
+anaphase
+## explanation_d
+Anaphase is past metaphase, the stage the book's technique actually stops the cell at.
+## correct_answer
+B
+## main_concept
+CON-FND-C7C2723BD3BC8D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that karyotyping stops the dividing cell at metaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q41. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-829D3108EDEA
+## title
+in which a chromatid, Connected at centromere that divide d-chromosome into short, long…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in which a chromatid, Connected at centromere that divide d-chromosome into short, long arm
+## answer_a
+late metaphase, anaphase
+## explanation_a
+Anaphase is when the chromatids have already split apart at the centromere, past the stage of being joined as described here.
+## answer_b
+late prophase, metaphase
+## explanation_b
+Correct. The book states that during late prophase and metaphase, each chromosome is formed of two chromatids connected at the centromere, dividing the d-chromosome into a short (p) and long (q) arm. A common trap: confusing 'chromosome' with a single, fixed structure rather than a state that changes across the cycle — the same 46 chromosomes are single-stranded s-chromosomes through G1 and double-stranded d-chromosomes from S phase through metaphase, before splitting back into single chromatids at anaphase.
+
+Why this is right, from the department book:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## answer_c
+late metaphase, telophase
+## explanation_c
+Telophase is after the chromatids have already separated, not while they are still joined at the centromere as one d-chromosome.
+## answer_d
+late prophase, anaphase
+## explanation_d
+Anaphase, again, is after separation — this description of a still-joined d-chromosome belongs to late prophase and metaphase, not anaphase.
+## correct_answer
+B
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a d-chromosome's two chromatids, joined at the centromere into a short and long arm, are seen from late prophase through metaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q16. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-952791BAD541
+## title
+in clearage furrow, All are free except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+in clearage furrow, All are free except
+## answer_a
+Constriction of action till cell divide into 2 halves
+## explanation_a
+True of telophase, so not the exception. A constriction (cleavage furrow) does develop at the equatorial plane by contraction of actin filaments, dividing the cytoplasm into two halves.
+## answer_b
+46 chromatid at each cell
+## explanation_b
+True, so not the exception. Each new cell at telophase has 46 chromatids (s-chromosomes).
+## answer_c
+chromosome visible as fine thread
+## explanation_c
+The exception, and the answer. Chromosomes becoming visible as fine threads is a prophase event, as chromosomes first condense — at telophase they are doing the opposite, lengthening and uncoiling out of visibility. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_d
+chromosome lengthen, uncoil
+## explanation_d
+True of telophase, so not the exception. The book states the chromatids lengthen and uncoil, losing their visibility, at this stage.
+## correct_answer
+C
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that at telophase's cleavage furrow, chromosomes are already lengthening and uncoiling, not still visible as fine threads.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q32. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-03C81F0B5F68
+## title
+Mitosis is characterized by the following:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Mitosis is characterized by the following:
+## answer_a
+Exchange of genes
+## explanation_a
+Exchange of genes is what crossing over in meiosis achieves; the book states mitosis has no exchange of genes.
+## answer_b
+Absence of crossing over
+## explanation_b
+Correct. The book's comparison table states mitosis has 'No crossing over, No exchange of genes' — the opposite of meiosis, where pairing allows crossing over. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.
+
+Why this is right, from the department book:
+- The department book contrasts mitosis and meiosis across five features.
+## answer_c
+Daughter cells contain n chromosomes
+## explanation_c
+Mitosis's daughter cells keep the diploid number, not the haploid (n) number that meiosis produces.
+## answer_d
+Daughter cells are not identical to mother cells
+## explanation_d
+Mitosis's daughter cells are genetically identical to the parent cell, per the book — not different from it.
+## correct_answer
+B
+## main_concept
+CON-FND-AB1858FD6C0F61
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Comparison
+## learning_objective
+State that mitosis has no crossing over and no gene exchange, unlike meiosis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q2; Histo MCQ by Dr.Kandeel [104].pdf p40 q2. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-38264EEA0B0A
+## title
+All characters of meiosis except:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of meiosis except:
+## answer_a
+occurs in germ Cells of testes
+## explanation_a
+True of meiosis, so not the exception. It occurs in the germ cells of the testes and ovaries.
+## answer_b
+Produce 2 germ cells with haploid number of chromosome
+## explanation_b
+The exception, and the answer. The book states meiosis produces four germ cells with the haploid number of chromosomes, not two. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.
+
+Why this is right, from the department book:
+- The department book contrasts mitosis and meiosis across five features.
+## answer_c
+show genetic variation
+## explanation_c
+True, so not the exception. The book states meiosis's daughter cells show genetic variation.
+## answer_d
+Crossing over lead to gene exchange
+## explanation_d
+True, so not the exception. Crossing over during meiosis leads to gene exchange, per the book's comparison table.
+## correct_answer
+B
+## main_concept
+CON-FND-AB1858FD6C0F61
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that meiosis produces four, not two, haploid germ cells.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q23. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4E804991D7B3
+## title
+All characters of prophase I except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of prophase I except
+## answer_a
+46 d-chromosome appear as long thin thread
+## explanation_a
+True of prophase I, so not the exception. The 46 d-chromosomes first appear as long thin threads.
+## answer_b
+bivalents are shorter, thicker
+## explanation_b
+True, so not the exception. The bivalents become shorter and thicker as prophase I proceeds.
+## answer_c
+23 bivalent d-chromosome aligned at equatorial plane
+## explanation_c
+The exception, and the answer. The 23 bivalent d-chromosomes aligning at the equatorial plane is the book's own description of metaphase I, the stage that follows prophase I, not a prophase I event. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_d
+Crossing over between non sister chromatid
+## explanation_d
+True, so not the exception. Crossing over between non-sister chromatids of homologous chromosomes happens during prophase I, at the chiasmata.
+## answer_e
+nucleolus, nuclear envelope disappear
+## explanation_e
+True, so not the exception. The nucleolus and nuclear envelope disappear during prophase I, freeing the chromosomes into the cytoplasm.
+## correct_answer
+C
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that chromosomes aligning at the equatorial plate is a metaphase I event, not prophase I's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q34. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9B4328018A3D
+## title
+at metaphase II
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+at metaphase II
+## answer_a
+23-d-chromosome
+## explanation_a
+Correct. The book states that at metaphase II, the 23 d-chromosomes are aligned at the equatorial plate. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_b
+46-d-chromosome
+## explanation_b
+46 d-chromosomes is the somatic (diploid) count, not the haploid count each meiotic daughter cell carries by metaphase II.
+## answer_c
+23 S- chromosome
+## explanation_c
+23 s-chromosomes is the count after anaphase II, once each d-chromosome has already split into its two chromatids — not yet true at metaphase II.
+## answer_d
+all the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+A
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that at metaphase II the 23 d-chromosomes are aligned at the equatorial plate.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q38. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6C9E467ACC58
+## title
+at second meiotic division, - All are nature except
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+at second meiotic division, - All are nature except
+## answer_a
+mitosis like division
+## explanation_a
+True of the second meiotic division, so not the exception. It is described as a mitosis-like division.
+## answer_b
+longer s-phase
+## explanation_b
+The exception, and the answer. The book states the second meiotic division has a very short interphase, without an S-phase at all — not a longer S-phase. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_c
+each cell has 23d-chremesene
+## explanation_c
+True, so not the exception. Each daughter cell of the second division has 23 d-chromosomes to begin with.
+## answer_d
+Known as equatorial division
+## explanation_d
+True, so not the exception. The book names the second meiotic division the equatorial division.
+## correct_answer
+B
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that the second meiotic division has a very short interphase without an S-phase — not a longer one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q37. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5D2808615070
+## title
+at telophase II
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+at telophase II
+## answer_a
+23-d-chromosome
+## explanation_a
+23 d-chromosomes describes the state entering metaphase II, before the chromatids split apart at anaphase II.
+## answer_b
+46-d-chromosome
+## explanation_b
+46 d-chromosomes is the somatic, diploid-cell count, not what a haploid meiotic daughter cell carries.
+## answer_c
+23 S- chromosome
+## explanation_c
+Correct. The book states that at telophase II, the two daughter cells separate, each with 23 s-chromosomes — the haploid number. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_d
+all the above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that at telophase II the two daughter cells separate, each with 23 s-chromosomes — the haploid number.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q39. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-79CE0B6DEB35
+## title
+centriole move towards opposite pole of cell, become surrounded by MToc in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+centriole move towards opposite pole of cell, become surrounded by MToc in
+## answer_a
+metaphase
+## explanation_a
+Metaphase is when chromosomes are already aligned at the equator, after the centrioles have finished moving apart in prophase.
+## answer_b
+Prophase
+## explanation_b
+Correct. The book states that during prophase, centrioles move to opposite cell poles by cytoplasmic microtubules radiating out from the microtubule-organising centre (MTOC) around them. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_c
+telophase
+## explanation_c
+Telophase reforms the nuclear envelope and nucleoli, well after the centrioles have already reached the poles.
+## answer_d
+anaphase
+## explanation_d
+Anaphase is when chromatids are pulled apart, after the spindle (built from the centriole-organised microtubules) is already established.
+## correct_answer
+B
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Place centriole migration to opposite poles, driven by microtubules from the MTOC, in prophase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q29. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-380DEE2255C6
+## title
+chromosome appear shorten darker, fine thread in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+chromosome appear shorten darker, fine thread in
+## answer_a
+metaphase
+## explanation_a
+Metaphase is when the already-condensed chromosomes align at the equator, past this initial condensing step.
+## answer_b
+Prophase
+## explanation_b
+Correct. The book states that during prophase, chromosomes gradually become shorter, thicker, darker in staining, and visible as fine threads. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_c
+telophase
+## explanation_c
+Telophase is when chromatids lengthen and uncoil, losing visibility — the opposite of this description.
+## answer_d
+anaphase
+## explanation_d
+Anaphase is when the already-split chromatids migrate to the poles, past this early condensation stage.
+## correct_answer
+B
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place chromosomes becoming shorter, thicker, darker-staining fine threads in prophase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q25. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-EB76DFB9F8AF
+## title
+chromosome migrate to equatorial Plane of cell in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+chromosome migrate to equatorial Plane of cell in
+## answer_a
+metaphase
+## explanation_a
+Correct. The book states chromosomes migrate to the equatorial plane of the cell — the metaphase plate — during metaphase. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_b
+Prophase
+## explanation_b
+Prophase is when chromosomes are still condensing, before they migrate to the equator.
+## answer_c
+telophase
+## explanation_c
+Telophase is well after the chromosomes have already separated and migrated to the poles.
+## answer_d
+anaphase
+## explanation_d
+Anaphase is when the already-aligned chromosomes' chromatids separate and move toward the poles, after the metaphase alignment this stem describes.
+## correct_answer
+A
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place chromosome migration to the equatorial (metaphase) plate in metaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q27. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4381879B06EA
+## title
+Crossing over occurs by help of
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Crossing over occurs by help of
+## answer_a
+sulfatase
+## explanation_a
+Sulfatase is not the enzyme the book names for crossing over.
+## answer_b
+nuclease
+## explanation_b
+Nuclease (endonuclease) is the enzyme the book credits with fragmenting chromatin in karyorrhexis, not with crossing over.
+## answer_c
+spectrin
+## explanation_c
+Spectrin is a cytoskeletal protein, not an enzyme involved in crossing over.
+## answer_d
+recombinase
+## explanation_d
+Correct. The book states crossing over occurs at the chiasmata with the help of the recombinase enzyme, exchanging segments between non-sister chromatids of homologous chromosomes. A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## correct_answer
+D
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+Name recombinase as the enzyme that helps crossing over at the chiasmata.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q35. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-AEF5EFE6AC7E
+## title
+Elongation of cytoplasmic microtubules in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Elongation of cytoplasmic microtubules in
+## answer_a
+metaphase
+## explanation_a
+Metaphase is when chromosomes are aligned at the equator, before the cytoplasmic microtubules elongate to pull the separated chromatids apart.
+## answer_b
+Prophase
+## explanation_b
+Prophase is when the spindle first organises, before its cytoplasmic microtubules elongate to move chromatids in anaphase.
+## answer_c
+telophase
+## explanation_c
+Telophase is when the spindle's work is already done and the nuclear envelope is reforming, after the elongation that carried the chromatids to the poles.
+## answer_d
+anaphase
+## explanation_d
+Correct. The book states that in anaphase, migration of the separated chromatids to opposite poles of the cell happens by elongation of the cytoplasmic microtubules. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## correct_answer
+D
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Place the elongation of cytoplasmic microtubules, driving chromatid migration to the poles, in anaphase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q28. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (A, metaphase) contradicts the book. Histology department book p41 (printed p40-41) states under Anaphase: 'Migration to opposite poles of cell by elongation of cytoplasmic microtubules' — an anaphase event, not a metaphase one.
+
+
+---
+
+# Item
+## id
+QM-104-68ADCE7404C3
+## title
+MTs are organized to form spindle in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+MTs are organized to form spindle in
+## answer_a
+metaphase
+## explanation_a
+Metaphase uses the already-organised spindle to align the chromosomes, after prophase has built it.
+## answer_b
+Prophase
+## explanation_b
+Correct. The book states that during prophase, microtubules are organised to form a spindle, after centrioles have moved to opposite poles. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_c
+telophase
+## explanation_c
+Telophase is when the spindle's work is finished and the nuclear envelope reforms.
+## answer_d
+anaphase
+## explanation_d
+Anaphase uses the already-formed spindle to pull chromatids apart, after prophase organised it.
+## correct_answer
+B
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the organisation of microtubules into the mitotic spindle in prophase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q24. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-44235890D7E1
+## title
+nuclear envelope, nucleoli reappear in
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+nuclear envelope, nucleoli reappear in
+## answer_a
+metaphase
+## explanation_a
+Metaphase is mid-division, well before the nuclear envelope and nucleoli reform.
+## answer_b
+Prophase
+## explanation_b
+Prophase is when the nuclear envelope and nucleoli disappear, the opposite of this stem.
+## answer_c
+telophase
+## explanation_c
+Correct. The book states that in telophase, nuclear envelopes develop and nucleoli reappear, as the two daughter cells separate. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_d
+anaphase
+## explanation_d
+Anaphase is when chromatids are still migrating to the poles, before the nuclear envelope and nucleoli reform in telophase.
+## correct_answer
+C
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Place the reappearance of the nuclear envelope and nucleoli in telophase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q26. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E3778DED4967
+## title
+prophase in male last for
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+prophase in male last for
+## answer_a
+28 days
+## explanation_a
+28 days is not the duration the book gives for male prophase I.
+## answer_b
+22 days
+## explanation_b
+Correct. The book states prophase I lasts 22 days in spermatogenesis (male), against 12 to 45 years in oogenesis (female). A common trap: treating prophase I's duration as a minor detail.
+
+Why this is right, from the department book:
+- Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova.
+## answer_c
+12-45 Years
+## explanation_c
+12-45 years is the book's duration for female prophase I (oogenesis), not the male's.
+## answer_d
+22 Years
+## explanation_d
+22 years is not the duration the book gives; 22 is the correct number, but the unit is days, not years, for the male.
+## correct_answer
+B
+## main_concept
+CON-FND-685D573458A6D7
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis Stages, Meiosis and Their Comparison
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+State that prophase I of spermatogenesis lasts about 22 days.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q33. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E594CCF17102
+## title
+non continuous, attached to kinetochore
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+non continuous, attached to kinetochore
+## answer_a
+cytoplasmic MT
+## explanation_a
+Cytoplasmic microtubules run the length of the cell to drive its elongation; they are not the microtubules that attach at the kinetochore.
+## answer_b
+astral MT
+## explanation_b
+Astral microtubules radiate star-like around the centrioles to establish the spindle's axis — they do not attach to kinetochores either.
+## answer_c
+chromosomal MT
+## explanation_c
+Correct. The book describes chromosomal microtubules as attached to the kinetochores, arranging the chromosomes at the metaphase plate — a discontinuous set of fibres running only from pole to kinetochore. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_d
+none of above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis and the Mitotic Spindle
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name chromosomal microtubules as the discontinuous spindle fibres attached to each chromosome's kinetochore.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q31. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7B4104257FD1
+## title
+star like fashion around centriole
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+star like fashion around centriole
+## answer_a
+cytoplasmic MT
+## explanation_a
+Cytoplasmic microtubules elongate the cell; they do not form the star-shaped pattern around the centrioles.
+## answer_b
+astral MT
+## explanation_b
+Correct. The book describes astral microtubules as arranged in a star-like fashion around the centrioles, establishing the axis of the spindle. A common trap: describing the kinetochore as the centromere itself.
+
+Why this is right, from the department book:
+- Mitosis divides the nucleus to produce two daughter cells genetically identical to the parent, in four stages. (department book p.41)
+## answer_c
+chromosomal MT
+## explanation_c
+Chromosomal microtubules attach to the kinetochores to arrange chromosomes at the metaphase plate — a different, non-astral pattern.
+## answer_d
+none of above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-FND-6DEB5A4F0F1675
+## library_ids
+ART-104-HIS-MITOSIS-AND-MEIOSIS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Mitosis and the Mitotic Spindle
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Cell Division
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name astral microtubules as the star-shaped fibres around the centrioles that set the mitotic spindle's axis.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p35 q30. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-F1CD11054268
+## title
+a female patient presented with mental retardation, edema of upper and lower limbs, sho…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+a female patient presented with mental retardation, edema of upper and lower limbs, short stature and primary amenorrhea
+## answer_a
+Her karyotype is 47 XO
+## explanation_a
+Not a real karyotype notation — 47 chromosomes is not paired with the XO label the book uses for Turner syndrome, which is 45, not 47.
+## answer_b
+She has two X chromosomes
+## explanation_b
+Turner syndrome has only one X chromosome, not two — two X chromosomes describes a normal female or triple-X syndrome, not this vignette.
+## answer_c
+Her condition is due to trisomy of sex chromosome
+## explanation_c
+The opposite of the true mechanism. Turner syndrome is a monosomy of the sex chromosome, not a trisomy — the karyotype has one fewer sex chromosome than normal, not one more.
+## answer_d
+Her karyotype is 45 XO
+## explanation_d
+Correct. The book's own Turner syndrome description matches this vignette word for word: '45, XO... short female with mental retardation, edema of limbs... primary amenorrhoea' — a monosomy, karyotype 45,XO.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## correct_answer
+D
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise mental retardation, limb oedema, short stature and primary amenorrhoea as Turner syndrome, karyotype 45,XO — a monosomy, not a trisomy.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3 q7; Histo MCQ by Dr.Kandeel [104].pdf p41 q7. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (C, 'trisomy of sex chromosome') directly contradicts the book. Histology department book p49-50 states explicitly: 'Turner's Syndrome (45, XO): i.e. monosomy of sex chromosome... short female with mental retardation, edema of limbs, underdeveloped ovaries & external genitalia with primary amenorrhea' — the exact clinical picture in the stem, and explicitly a monosomy, not a trisomy. The only option consistent with the book is D.
+
+
+---
+
+# Item
+## id
+QM-104-7961D75745B7
+## title
+A Child with mental retardation, hypotonia and mongol - like features has performed kar…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A Child with mental retardation, hypotonia and mongol - like features has performed karyotyping test. He was found to have 46 chromosomes. One of the following could be seen in his karyotype:
+## answer_a
+46, Robertsonian translocation (21 & 14)
+## explanation_a
+Correct. The book states Down syndrome may be caused by 'Translocation (21 and 14)' — a Robertsonian/centric-fusion translocation — which keeps the total chromosome count at 46 (unlike trisomy 21's 47), matching this child's karyotype. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_b
+46, Philadelphia chromosome
+## explanation_b
+The Philadelphia chromosome is the book's marker for chronic myeloid leukaemia, from a 9;22 translocation — an entirely different, acquired somatic change with no connection to Down syndrome's mongol-like features.
+## answer_c
+46, duplication of chromosome 14
+## explanation_c
+A duplication of chromosome 14 alone is not a cause of Down syndrome the book names; the book's translocation cause fuses 21 with 14, not duplicates 14.
+## answer_d
+46, deletion of chromosome 21
+## explanation_d
+A deletion of chromosome 21 would remove genetic material, not add the extra copy of chromosome-21 material that produces Down syndrome's features.
+## correct_answer
+A
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise that a Down-syndrome child with 46 (not 47) chromosomes has the disease from a chromosome 21/14 translocation, not a Philadelphia chromosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p41 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (B, Philadelphia chromosome) contradicts the book, which reserves the Philadelphia chromosome for chronic myeloid leukaemia (a 9;22 translocation, p46/51) — unconnected to Down syndrome. The book's own explanation for a 46-chromosome, mongol-featured child is the 21;14 translocation form of Down syndrome (p48, 'Translocation (21 and 14)'), which is option A.
+
+
+---
+
+# Item
+## id
+QM-104-FC12FD374CF9
+## title
+All Characters of klinefilter syndrome except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All Characters of klinefilter syndrome except
+## answer_a
+47 chromosome with XXY
+## explanation_a
+True of Klinefelter syndrome, so not the exception — 47 chromosomes with an XXY complement is the book's own karyotype for it.
+## answer_b
+two sex chromatin are present
+## explanation_b
+The exception, and the answer. The book states a Klinefelter male has a positive Barr body — one, from the single extra X — not two; two Barr bodies is the book's own sign of triple-X syndrome instead. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+male having additional X-chromosone
+## explanation_c
+True, so not the exception. A Klinefelter male does have an additional X chromosome.
+## answer_d
+mentally retard, small testis with large breast
+## explanation_d
+True, so not the exception. Mental retardation, tall stature, small testis, and large breast with widely separated nipples are the book's own stated features.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that a Klinefelter male has one Barr body (a positive result), not two.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q62. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E11400A26E1B
+## title
+cells of a person with klinefilter syndrome contain :
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+cells of a person with klinefilter syndrome contain :
+## answer_a
+46 autosomes +X chromosomes
+## explanation_a
+46 autosomes overstates the autosome count — humans have 44 autosomes (22 homologous pairs), not 46, regardless of the sex-chromosome complement.
+## answer_b
+44 autosomes +X chromosome
+## explanation_b
+Correct. The book's karyotype for Klinefelter syndrome is 47, XXY: the 44 autosomes (22 pairs) that every karyotype has, plus the extra sex chromosome giving XXY instead of the normal XY. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+44 autosomes+XXX chromosome
+## explanation_c
+An XXX sex-chromosome complement is the book's karyotype for triple-X syndrome (in a genetic female), not Klinefelter syndrome, which is XXY.
+## answer_d
+45 autosome +XY chromosome
+## explanation_d
+45 autosomes is not a valid autosome count, and a plain XY complement describes a normal male, not Klinefelter syndrome.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that Klinefelter syndrome's 47 chromosomes break down as 44 autosomes plus an XXY sex-chromosome complement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p39 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-774A54BB7E53
+## title
+mentally retarded female patient with short stature, primary amenorrhea and underdevelo…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+mentally retarded female patient with short stature, primary amenorrhea and underdeveloped secondary sex organs was asked perform karyotyping, Her karyotype would be
+## answer_a
+47, XXY
+## explanation_a
+47, XXY is the book's karyotype for Klinefelter syndrome, which affects males, not this female patient.
+## answer_b
+45, XO
+## explanation_b
+Correct. The book's Turner syndrome description matches exactly: '45, XO... short female with mental retardation... underdeveloped ovaries & external genitalia with primary amenorrhea.'
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+47, XY trisomy 21
+## explanation_c
+47, XY trisomy 21 is not a real combination the book describes — trisomy 21 (Down syndrome) does not carry a Y chromosome notation this way, and this stem is a female patient.
+## answer_d
+47. XXX
+## explanation_d
+47, XXX is the book's karyotype for triple-X syndrome, whose features are delayed language and motor/auditory problems, not the short stature and primary amenorrhoea this vignette describes.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise short stature, mental retardation, primary amenorrhoea and underdeveloped secondary sex organs in a female as Turner syndrome, karyotype 45,XO.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p41 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-9133FF2863E4
+## title
+main Cause of numerical abberation in sex chromosome
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+main Cause of numerical abberation in sex chromosome
+## answer_a
+viral infection as german measles
+## explanation_a
+Viral infection causes chromosome fragmentation in the book's general list, not specifically the sex-chromosome numerical aberrations this stem asks about.
+## answer_b
+non disjunction of sex- chromosome
+## explanation_b
+Correct. The book states these aberrations are due to non-disjunction of the sex chromosomes during the first meiotic division of the primary oocyte. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+Pregnancy in old age
+## explanation_c
+Advanced maternal age is a general risk factor for non-disjunction the book lists, not itself the mechanism the stem asks for.
+## answer_d
+autoimmune disease
+## explanation_d
+Autoimmune disease is a general association with non-disjunction in the book's list, not the specific mechanism named for sex-chromosome aberrations.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State non-disjunction of the sex chromosomes, in the first meiotic division of the oocyte, as the book's stated cause of sex-chromosome numerical aberrations.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q61. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0EE924BABD34
+## title
+A male child at puberty is presented with mental retardation, tall stature, small testi…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A male child at puberty is presented with mental retardation, tall stature, small testis and widely separated nipples. This condition could be due to:
+## answer_a
+Trisomy of chromosome 21
+## explanation_a
+Trisomy of chromosome 21 is Down syndrome, whose features (small genital organs, cardiac abnormality, characteristic facies) do not match this tall, small-testis, gynaecomastia picture.
+## answer_b
+Loss of autosome during mitosis
+## explanation_b
+Loss of an autosome during mitosis is not the book's stated cause of Klinefelter syndrome, whose vignette this stem is.
+## answer_c
+Loss of Y chromosome during meiosis
+## explanation_c
+The book's stated event is a gain, not a loss — an extra X chromosome from non-disjunction, not a lost Y.
+## answer_d
+Non disjunction of the X chromosomes
+## explanation_d
+Correct. The book states Klinefelter syndrome — mentally retarded tall males, small testis, large breast, widely separated nipples — is due to non-disjunction of the X chromosomes during the first meiotic division of the oocyte. A common trap: assuming the karyotype alone predicts the Barr-body count without tracking which parent's gamete carried the error.
+
+Why this is right, from the department book:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## correct_answer
+D
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise mental retardation, tall stature, small testis and widely separated nipples as Klinefelter syndrome, caused by non-disjunction of the X chromosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p41 q4; DPT HISTO MCQ [Cytogenetics].pdf p3 q4. Manifest src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (C, 'loss of Y chromosome during meiosis') contradicts the book. Histology department book p49 states Klinefelter syndrome is 'Due to non disjunction of X chromosomes during 1st meiotic division of oocyte. Ovum with 2 X chromosomes is fertilized with sperm containing Y chromosome' — a gain of an X, not a loss of a Y.
+
+
+---
+
+# Item
+## id
+QM-104-14FF29CAB3A9
+## title
+A child presented with mental retardation, muscular hypotonia, cardiac abnormalities, s…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A child presented with mental retardation, muscular hypotonia, cardiac abnormalities, small genital organs. You have to think about:
+## answer_a
+Klinefelter's syndrome
+## explanation_a
+Klinefelter syndrome's book features are tall stature, small testis, large breast and separated nipples — none of which are in this stem, which instead names small genital organs and cardiac abnormality, Down syndrome's own wording.
+## answer_b
+Down syndrome
+## explanation_b
+Correct. 'Mental retardation, small genital organs, cardiac abnormalities' is close to verbatim the book's own Down syndrome feature list, alongside the facial and limb features it also names. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Monosomy of chromosome 21
+## explanation_c
+A monosomy of chromosome 21 is not a real, described entity in the book — Down syndrome is a trisomy (or translocation-driven gain) of chromosome 21, not a monosomy.
+## answer_d
+Turner syndrome
+## explanation_d
+Turner syndrome's book features are short stature, oedema of the limbs and primary amenorrhoea in a female — features not present in this stem.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise mental retardation, small genital organs and cardiac abnormality as Down syndrome's own stated features, not Klinefelter's.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p3 q5; Histo MCQ by Dr.Kandeel [104].pdf p41 q5. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (A, Klinefelter syndrome) contradicts the book. Histology department book p48 states Down syndrome's features as 'Mental retardation, small genital organs, cardiac abnormalities' — matching the stem almost word for word — while Klinefelter's own stated features (p49: tall stature, small testis, large breast, separated nipples) do not appear in the stem at all.
+
+
+---
+
+# Item
+## id
+QM-104-99B240B803BC
+## title
+All characters of down syndrome except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of down syndrome except
+## answer_a
+non disjunction of chromosome 21
+## explanation_a
+True of Down syndrome, so not the exception — non-disjunction of chromosome 21 (trisomy 21) is one of the book's two stated causes.
+## answer_b
+translocation between chromosome 9, 22
+## explanation_b
+The exception, and the answer. A translocation between chromosomes 9 and 22 is the book's Philadelphia chromosome, causing chronic myeloid leukaemia — Down syndrome's translocation cause is between 21 and 14. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+ris factor in advanced maternal age
+## explanation_c
+True, so not the exception. Advanced maternal age is a risk factor for non-disjunction, which underlies the trisomy-21 form of Down syndrome.
+## answer_d
+contain 47 chromosome
+## explanation_d
+True, so not the exception. The mongol child's cells contain 47 chromosomes, per the book.
+## answer_e
+mental retarded, small genital organs
+## explanation_e
+True, so not the exception. Mental retardation and small genital organs are among the book's own stated features.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that Down syndrome's translocation cause is between chromosomes 21 and 14, not 9 and 22.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q59. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-5036D268594E
+## title
+Centric fusion occurs in ----- Cases of down Syndrome
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Centric fusion occurs in ----- Cases of down Syndrome
+## answer_a
+30-40%
+## explanation_a
+30-40% overstates the book's own figure by an order of magnitude.
+## answer_b
+10-15%
+## explanation_b
+10-15% is not the figure the book gives for the translocation form of Down syndrome.
+## answer_c
+3-4%
+## explanation_c
+Correct. The book states centric fusion between chromosomes 21 and 14 occurs in 3-4% of cases of Down syndrome. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_d
+20-30%
+## explanation_d
+20-30% is not the figure the book gives.
+## correct_answer
+C
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that centric fusion accounts for 3-4% of Down syndrome cases.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q77. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-6CF51FE058D7
+## title
+Down syndrome:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Down syndrome:
+## answer_a
+caused by centric fusion between 21 &14
+## explanation_a
+Correct. The book states Down syndrome may be caused by centric fusion (translocation) between chromosomes 21 and 14, alongside non-disjunction (trisomy 21). A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_b
+May be due to multiple X syndrome
+## explanation_b
+Multiple X syndrome (triple X, 47 XXX) is a separate sex-chromosome aberration the book describes in females, with its own distinct features — not a cause of Down syndrome.
+## answer_c
+May be caused by chromosome 21 monosomy
+## explanation_c
+Monosomy of chromosome 21 is not a book-described cause of Down syndrome — Down syndrome is caused by a gain of chromosome-21 material, not a loss.
+## answer_d
+May be due to 47 chromosomes (XXY)
+## explanation_d
+47 chromosomes with an XXY complement is the book's karyotype for Klinefelter syndrome, an unrelated sex-chromosome aberration, not Down syndrome.
+## correct_answer
+A
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Comparison
+## learning_objective
+State that centric fusion between chromosomes 21 and 14 is one of the book's two causes of Down syndrome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q14. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-598F7002EE0B
+## title
+If a parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+If a parent is a carrier of a chromosome 21 translocation, he might have a child with:
+## answer_a
+Turner's syndrome
+## explanation_a
+Turner syndrome arises from non-disjunction of the sex chromosomes in the oocyte, unrelated to an inherited chromosome-21 translocation.
+## answer_b
+Down syndrome
+## explanation_b
+Correct. The book names translocation between chromosomes 21 and 14 as one of its two stated causes of Down syndrome — an inherited translocation carrier's child is at risk of this outcome. A common trap: treating Down syndrome as caused by non-disjunction alone.
+
+Why this is right, from the department book:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_c
+Klinefelter's syndrome
+## explanation_c
+Klinefelter syndrome arises from non-disjunction of the sex chromosomes, unrelated to a chromosome-21 translocation.
+## answer_d
+Chronic myeloid leukaemia
+## explanation_d
+Chronic myeloid leukaemia's Philadelphia chromosome is an acquired somatic translocation between chromosomes 9 and 22, arising in leukaemic cells — it is not inherited from a chromosome-21-translocation-carrier parent.
+## correct_answer
+B
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+State that a parent carrying a chromosome-21 translocation risks having a child with Down syndrome, not chronic myeloid leukaemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p41 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (D, chronic myeloid leukaemia) contradicts the book. Histology department book p48 states a chromosome-21 translocation (with 14) is a cause of Down syndrome; the Philadelphia chromosome that causes chronic myeloid leukaemia (p51-52) is a separate, acquired 9;22 translocation, not something a parent 'carries' and passes to a child.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-A3B79217AA06
+## title
+break occurs in either side of Chromosome then rejoined in inverted form
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+break occurs in either side of Chromosome then rejoined in inverted form
+## answer_a
+ring chromosome
+## explanation_a
+A ring chromosome forms from two breaks with loss and reunion into a ring, not an inversion in place.
+## answer_b
+pericentric
+## explanation_b
+Correct. The book defines pericentric inversion as breaks on either side of the centromere, rejoined in an inverted form. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+paracentric
+## explanation_c
+Paracentric inversion has both breaks on one side of the centromere, not either side of it.
+## answer_d
+isoChromosome
+## explanation_d
+An isochromosome forms by a transverse (not longitudinal) centromere division, unrelated to a two-break inversion.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name pericentric inversion as two breaks either side of the centromere, rejoined inverted.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q69. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-EB2B067FA400
+## title
+centric Fusion result from
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+centric Fusion result from
+## answer_a
+fusion of chromosome 9,22
+## explanation_a
+Chromosomes 9 and 22 are the book's Philadelphia-chromosome pair (reciprocal translocation, chronic myeloid leukaemia), not its centric-fusion example.
+## answer_b
+fusion of chromosome 21, 14
+## explanation_b
+Correct. The book's own centric-fusion example is the fusion of the long arms of chromosomes 21 and 14, forming 'chromosome t', seen in 3-4% of Down syndrome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+fusion of chromosome 21. 9
+## explanation_c
+Chromosomes 21 and 9 is not a pairing the book names for centric fusion.
+## answer_d
+fusion of chromosome 9, 14
+## explanation_d
+Chromosomes 9 and 14 is not a pairing the book names for centric fusion.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the fusion of chromosomes 21 and 14 as the book's own example of centric fusion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q76. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E37BB1C59007
+## title
+chromosome divide transversely not longitudinally,
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+chromosome divide transversely not longitudinally,
+## answer_a
+inversion
+## explanation_a
+Inversion is a two-break, rejoin-inverted event, not a transverse centromere division.
+## answer_b
+duplication
+## explanation_b
+Duplication adds an extra chromosome segment from unequal crossing over, not a transverse centromere split.
+## answer_c
+isochromosome
+## explanation_c
+Correct. The book states isochromosome formation happens when the chromosome divides transversely, not longitudinally, at the centromere during anaphase of mitosis, giving one short and one long chromatid. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_d
+translocation
+## explanation_d
+Translocation transfers a segment to a non-homologous chromosome; it is not defined by the plane of centromere division.
+## correct_answer
+C
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name isochromosome formation as the anomaly where the centromere divides transversely rather than longitudinally.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q72. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-ED39B36B8580
+## title
+is balanced exchange of chromosomal material between 2 Chromosome
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+is balanced exchange of chromosomal material between 2 Chromosome
+## answer_a
+centric fusion
+## explanation_a
+Centric fusion joins two acrocentric chromosomes and loses their short arms — a specific, not-generally-balanced-by-name event, not the balanced two-way exchange the stem describes.
+## answer_b
+isochromosome
+## explanation_b
+Isochromosome formation is a transverse centromere division producing an unequal pair, not a two-chromosome exchange.
+## answer_c
+reciprocal translocation
+## explanation_c
+Correct. The book defines reciprocal translocation as an exchange of chromosomal material between two chromosomes, usually balanced since no material is typically lost or added. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_d
+break
+## explanation_d
+A break alone is not an exchange between two chromosomes; the book describes breaks as healing by reunion of the same chromosome's two sticky ends.
+## correct_answer
+C
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name reciprocal translocation as a balanced exchange of material between two chromosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q78. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-F9C7C6FB340E
+## title
+is loss of fragments between 2 breaks
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+is loss of fragments between 2 breaks
+## answer_a
+interstitial deletion
+## explanation_a
+Correct. The book defines interstitial deletion as the loss of fragments between two breaks in the same arm, with fusion at the break sites. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_b
+ring chromosome
+## explanation_b
+A ring chromosome forms from two breaks with loss and a ring-shaped reunion, not a same-arm interstitial loss.
+## answer_c
+terminal deletion
+## explanation_c
+Terminal deletion is loss from one end by a single break, not a loss between two breaks.
+## answer_d
+inversion
+## explanation_d
+Inversion rejoins the broken segment in reversed orientation, rather than losing it.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name interstitial deletion as the loss of a fragment between two breaks in the same arm.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q68. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C062910D7AEF
+## title
+is loss of segment from one end by single break
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+is loss of segment from one end by single break
+## answer_a
+interstitial deletion
+## explanation_a
+Interstitial deletion needs two breaks within the same arm, not a single break at one end.
+## answer_b
+ring chromosome
+## explanation_b
+A ring chromosome needs two breaks and a ring-shaped reunion, not one single-break end loss.
+## answer_c
+terminal deletion
+## explanation_c
+Correct. The book defines terminal deletion as the loss of a segment from one end of the chromosome by a single break. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_d
+inversion
+## explanation_d
+Inversion rejoins a broken segment in reverse, rather than losing it.
+## correct_answer
+C
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name terminal deletion as the loss of a segment from one end by a single break.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q67. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2AA460437A2C
+## title
+philadelphia Chromosome is
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+philadelphia Chromosome is
+## answer_a
+reciprocal translocation between Chromosome 9, 22
+## explanation_a
+Correct. The book states the Philadelphia chromosome arises by reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_b
+reciprocal translocation between Chromosome 14,21
+## explanation_b
+Chromosomes 14 and 21 are the book's Down-syndrome translocation pair, not the Philadelphia chromosome's.
+## answer_c
+centric fusion between chromosome 14, 21
+## explanation_c
+The Philadelphia chromosome is a reciprocal translocation, not a centric fusion, and its pair is 9 and 22, not 14 and 21.
+## answer_d
+centric fusion between 9, 22
+## explanation_d
+9 and 22 is the correct chromosome pair, but the book names this a reciprocal translocation, not a centric fusion — centric fusion is the book's term for the acrocentric 21;14 event instead.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name the Philadelphia chromosome as a reciprocal translocation between chromosomes 9 and 22.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q79. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-DAE44ED8757D
+## title
+result in appearance of unequal chromosome where one short, one long
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+result in appearance of unequal chromosome where one short, one long
+## answer_a
+duplication
+## explanation_a
+Duplication adds an extra copy of a segment onto a homologous chromosome; it does not itself produce one short and one long chromatid from a single transverse split.
+## answer_b
+translocation
+## explanation_b
+Translocation transfers material to a non-homologous chromosome, unrelated to producing a short/long chromatid pair by transverse division.
+## answer_c
+isochromosome
+## explanation_c
+Correct. The book describes isochromosome formation as a transverse (not longitudinal) centromere split producing two unequal chromatids, one short (both p arms) and one long (both q arms). A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_d
+inversion 74) Centric
+## explanation_d
+Inversion rejoins a segment in reverse orientation, without producing an unequal short/long chromatid pair.
+## correct_answer
+C
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name isochromosome formation as the anomaly producing one short and one long chromatid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q74. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-B633863FDAEE
+## title
+result in presence of 2 copies of same genes in presence on same chromosome
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+result in presence of 2 copies of same genes in presence on same chromosome
+## answer_a
+inversion
+## explanation_a
+Inversion rearranges a segment in place; it does not add a second copy of the same genes.
+## answer_b
+duplication
+## explanation_b
+Correct. The book states duplication — addition of a fragmented segment as an extra piece, mostly from unequal crossing over of homologous chromosomes — results in two copies of the same genes on the same chromosome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+isochromosome
+## explanation_c
+Isochromosome formation produces one short and one long chromatid, not an extra gene copy on the same chromosome.
+## answer_d
+translocation
+## explanation_d
+Translocation moves a segment to a different, non-homologous chromosome rather than duplicating it on the same one.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name duplication, from unequal crossing over, as the anomaly producing two copies of the same genes on one chromosome.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q71. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-91A9CB61E8BC
+## title
+occurs due to unequal Crossing over of homologous some
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+occurs due to unequal Crossing over of homologous some
+## answer_a
+inversion
+## explanation_a
+Inversion arises from two breaks and a reversed rejoining, not from unequal crossing over.
+## answer_b
+duplication
+## explanation_b
+Correct. The book states duplication occurs mostly due to unequal crossing over of homologous chromosomes, adding an extra copy of a segment. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+isochromosome
+## explanation_c
+Isochromosome formation arises from a transverse centromere split, not from unequal crossing over.
+## answer_d
+translocation
+## explanation_d
+Translocation transfers a segment to a non-homologous chromosome, a different mechanism from unequal crossing over between homologues.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name duplication as the structural aberration arising mostly from unequal crossing over of homologous chromosomes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q70. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-11FD9CD97E44
+## title
+if chromosome has normal Complement of genetic information, abberation is called
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+if chromosome has normal Complement of genetic information, abberation is called
+## answer_a
+Deletion
+## explanation_a
+Deletion is one specific type of structural aberration, not the general term for keeping a normal genetic complement.
+## answer_b
+balanced
+## explanation_b
+Correct. The book states that if a chromosome has its normal complement of genetic information, the aberration is balanced. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+unbalanced
+## explanation_c
+Unbalanced is the book's opposite term, used when information is added or missing.
+## answer_d
+translocation
+## explanation_d
+Translocation is one specific type of structural aberration, which may itself be balanced or unbalanced, not the general term the stem asks for.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name 'balanced' as the term for a structural aberration that keeps the normal complement of genetic information.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q66. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-B682F0102BB2
+## title
+One of the following is a balanced aberration:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a balanced aberration:
+## answer_a
+Reciprocal translocation
+## explanation_a
+Correct. The book states reciprocal translocation is usually balanced, since no chromosomal material is typically lost or added, only exchanged. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_b
+Ring chromosome
+## explanation_b
+A ring chromosome forms with loss of fragments — an unbalanced aberration, since genetic material is missing.
+## answer_c
+Terminal deletion
+## explanation_c
+Terminal deletion is loss of a segment — an unbalanced aberration by the book's own definition.
+## answer_d
+Isochromosome
+## explanation_d
+An isochromosome carries a double dose of one arm and none of the other — an unbalanced genetic complement, not a balanced one.
+## correct_answer
+A
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name reciprocal translocation as the book's own example of a balanced aberration.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q10. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7A58DD5F54BB
+## title
+Philadelphia chromosome is used to diagnose
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Philadelphia chromosome is used to diagnose
+## answer_a
+down syndrome
+## explanation_a
+Down syndrome is diagnosed by trisomy 21 or the 21;14 translocation, not the Philadelphia chromosome.
+## answer_b
+myeloid leukemia
+## explanation_b
+Correct. The book states the Philadelphia chromosome, from a reciprocal translocation between chromosomes 22 and 9, is used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.
+
+Why this is right, from the department book:
+- Structural aberrations are abnormalities in chromosome structure. (department book p.47)
+## answer_c
+turner
+## explanation_c
+Turner syndrome is diagnosed by a 45,XO karyotype, not the Philadelphia chromosome.
+## answer_d
+klinefilter syndrome
+## explanation_d
+Klinefelter syndrome is diagnosed by a 47,XXY karyotype, not the Philadelphia chromosome.
+## correct_answer
+B
+## main_concept
+CON-DEV-D2BA4082190B3F
+## library_ids
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Structural Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Clinical application
+## learning_objective
+State that the Philadelphia chromosome is used to diagnose chronic myeloid leukaemia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p38 q80. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-584C50B35C60
+## title
+All contain B-lymph except ------------- with T-lymphocyte
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+All contain B-lymph except ------------- with T-lymphocyte
+## answer_a
+Primary follicle
+## explanation_a
+Contains B-lymphocytes, so not the exception. A primary follicle is formed mainly of B-lymphocytes with a few T-lymphocytes.
+## answer_b
+secondary follicle
+## explanation_b
+Contains B-lymphocytes, so not the exception. A secondary follicle's germinal centre carries large activated B-lymphocytes and plasma cells, alongside macrophages and a few T-lymphocytes.
+## answer_c
+medulla Cord
+## explanation_c
+Contains B-lymphocytes, so not the exception. The medullary cords are B-lymphocytes, plasma cells and macrophages — no zone of the medulla is T-cell only.
+## answer_d
+Para Cortex
+## explanation_d
+Correct — the exception, and the true answer. The paracortex is the thymus-dependent zone: unlike the follicles, sinuses and cords around it, it carries only T-lymphocytes, which have migrated in from the thymus through post-capillary venules. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Identify the paracortex as the lymph node's one zone that carries only T-lymphocytes, against the B-lymphocyte-carrying follicles, sinuses and medullary cords around it.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q7. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The extracted key (C, medullary cords) contradicts the book. Histology department book p16-17: medullary cords are explicitly 'B-lymphocytes, plasma cells and macrophages' — a B-lymphocyte-carrying compartment, not the T-only exception the stem asks for. The paracortex (p16) is the book's own T-lymphocyte-only zone ('the thymus dependant zone... it contains T-lymphocytes which have migrated from thymus'), which is the structure the stem is actually describing.
+
+
+---
+
+# Item
+## id
+QM-104-88736A695507
+## title
+have peripheral dark small lymph with germinal center that have large B-lymph, low T-lymph
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+have peripheral dark small lymph with germinal center that have large B-lymph, low T-lymph
+## answer_a
+Primary follicle
+## explanation_a
+A primary follicle has no germinal centre at all — it is formed of aggregated cells, mainly B-lymphocytes, before antigen exposure produces the germinal centre the stem describes.
+## answer_b
+secondary follicle
+## explanation_b
+Correct. The book describes the secondary follicle exactly this way: peripheral dark regions of small lymphocytes around a pale germinal centre containing large activated B-lymphocytes and plasma cells, with macrophages and a few T-lymphocytes. A common trap: assuming every named cortical or medullary compartment is B-lymphocyte territory.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
+## answer_c
+Cortical sinus
+## explanation_c
+A cortical sinus is a lymph-filled space lined by endothelium and macrophages, not a lymphocyte aggregation with a germinal centre.
+## answer_d
+Para Cortex
+## explanation_d
+The paracortex has no germinal centre and no B-lymphocytes at all — it is the thymus-dependent zone of T-lymphocytes only, the opposite of the structure the stem describes.
+## correct_answer
+B
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise the secondary follicle by its peripheral dark small-lymphocyte region around a germinal centre of large B-lymphocytes, with few T-lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q6. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (D, paracortex) contradicts the book. Histology department book p16 gives this exact description — peripheral dark small lymphocytes around a germinal centre of large activated B-lymphocytes, with few T-lymphocytes — as the secondary lymphatic nodule (follicle). The paracortex (also p16) is described as containing only T-lymphocytes with no germinal centre and no B-lymphocyte population at all, so it cannot be what the stem is describing.
+
+
+---
+
+# Item
+## id
+QM-104-DE9E5E7F306C
+## title
+is lined by endothelium, macrophage
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+is lined by endothelium, macrophage
+## answer_a
+trabeculae sinus
+## explanation_a
+True of the trabecular sinus, so not a wrong option on its own — but it is only one of the sinus types the book gives this lining, not the single correct answer to a question with 'all the above' available.
+## answer_b
+medullary sinus
+## explanation_b
+True of the medullary sinus too, for the same reason — correct as far as it goes, but not the most complete answer available.
+## answer_c
+sub Capsular sinus
+## explanation_c
+True of the subcapsular sinus as well — again correct but partial, since the book gives this same lining to more than one sinus type.
+## answer_d
+All the above
+## explanation_d
+Correct. The book states the cortical lymph sinuses — both subcapsular and trabecular — are lined with endothelial cells and macrophages, and separately that the medullary sinuses are lined with endothelium and macrophages. All three named sinus types share this lining, so 'all the above' is the answer the book actually supports.
+
+Why this is right, from the department book:
+- The lymph node is organised into a cortex and a medulla.
+## correct_answer
+D
+## main_concept
+CON-HEM-60C0AFCC9A1F88
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Lymph Node
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Lymph node
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Recognise that both the lymph node's cortical (subcapsular and trabecular) sinuses and its medullary sinuses share an endothelium-and-macrophage lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p5 q9. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+Answer changed from the source's: The printed key (C, subcapsular sinus alone) understates what the book says. Histology department book p16 states the cortical lymph sinuses (which it explicitly defines as both subcapsular and trabecular) are 'lined with endothelial cells and macrophages,' and p17 states the medullary sinuses are 'lined with endothelium and macrophages' in the same words. Since the book gives all three named sinuses (trabecular, medullary, subcapsular) the identical lining, without singling one out, 'all the above' is the answer consistent with the source, not one sinus alone.
+
+
+---
+
+# Item
+## id
+QM-104-50D2ADF2FDE4
+## title
+origin of epithelial reticular cell
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+origin of epithelial reticular cell
+## answer_a
+mesodermal
+## explanation_a
+Mesodermal is the origin of the thymus's lymphocytes, not its epithelial reticular cells — the book gives the thymus a double origin, one for each component.
+## answer_b
+ectodermal
+## explanation_b
+Ectodermal is not either of the two origins the book states for the thymus.
+## answer_c
+endodermal
+## explanation_c
+Correct. The book states the thymus has a double origin — mesodermal giving rise to lymphocytes, and endodermal giving rise to epithelial reticular cells. A common trap: assuming the thymus's reticular framework is built the same way as the lymph node's or spleen's, by mesenchymal reticular cells and reticular fibres.
+
+Why this is right, from the department book:
+- The thymus is a primary lymphoid organ with an endocrine function, and unlike the lymph node and spleen it has a double origin: its lymphocytes (the thymocytes) are mesodermal, while its epithelial reticular cells are endodermal.
+## answer_d
+none of above
+## explanation_d
+Not applicable — a correct answer is listed among the options.
+## correct_answer
+C
+## main_concept
+CON-HEM-817D336693039E
+## library_ids
+ART-104-HIS-LYMPHOID-ORGANS
+## topic
+Histology-general
+## subtopic
+Lymphatic and Macrophage System — Thymus
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Lymphatic and Macrophage System > Thymus
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State the endodermal origin of the thymus's epithelial reticular cells, against the mesodermal origin of its lymphocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p6 q25. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-40ACDB21FA56
+## title
+Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following ho…
+## subject
+cvs
+## status
+Draft
+## format
+single_best_answer
+## question
+Asa rapid compensatory reaction to hemorrhagic shock, the secretion of the following hormones is increased EXCEPT:
+## answer_a
+Catecholamines.
+## explanation_a
+True, so not the exception. The book lists increased catecholamine secretion — from the adrenal medulla and sympathetic terminals — among the rapid humoral compensatory reactions to hemorrhage.
+## answer_b
+Atrial natriuretic peptide.
+## explanation_b
+The exception, and the answer. Atrial natriuretic peptide is secreted when atrial stretch rises with an expanded extracellular fluid volume; hemorrhage decreases venous return and atrial filling, removing that stretch stimulus rather than providing it, so its secretion is not part of the rapid response the book lists. A common trap: assuming every hormone with a role in blood-pressure regulation rises together in hypovolaemia.
+
+Why this is right, from the department book:
+- Hemorrhage lowers arterial blood pressure and stimulates rapid neural and humoral compensatory mechanisms.
+## answer_c
+Angiotensin il.
+## explanation_c
+True, so not the exception. The book lists increased angiotensin II, from increased renin secretion, among the rapid humoral compensatory reactions, helping correct shock by vasoconstriction, thirst and aldosterone secretion.
+## answer_d
+Vasopressin.
+## explanation_d
+True, so not the exception. The book lists increased vasopressin secretion, driven by decreased discharge from atrial low-pressure receptors, among the rapid humoral compensatory reactions, retaining water to restore extracellular fluid volume.
+## correct_answer
+B
+## main_concept
+CON-CVS-419F030679CA1F
+## library_ids
+ART-104-PHY-NERVOUS-AND-CHEMORECEPTOR-CONTROL
+## topic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## subtopic
+Physiology Cardiovascular System — Hemorrhagic Shock Compensation
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Cardiovascular System > Basic Mechanisms of Circulatory Control
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name catecholamines, angiotensin II and vasopressin as the hormones the rapid compensatory response to hemorrhage raises, and explain why atrial natriuretic peptide is not a fourth.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p10 q77. Manifest src_5465875dc14a998b7b21.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-D4B08676451F
+## title
+Non-chemical influence on respiration includes all of the following Except:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Non-chemical influence on respiration includes all of the following Except:
+## answer_a
+Pain sensation through hypothalamus
+## explanation_a
+A genuine non-chemical influence. The book's 'Afferents from Higher Centers' section carries pain and emotional stimuli by the limbic system and temperature by the hypothalamus into the respiratory centre — both nervous routes, not chemical ones.
+## answer_b
+Swallowing.
+## explanation_b
+A genuine non-chemical influence. Swallowing is one of the book's visceral reflexes: mechanoreceptors in the pharynx send a glossopharyngeal afferent that inhibits respiration (swallowing apnoea) to keep food out of the airway.
+## answer_c
+Coughing.
+## explanation_c
+A genuine non-chemical influence, not the exception. Coughing is the book's own first example under 'Afferents from Upper Airway Receptors' — irritant receptors in the trachea, larynx and bronchi, carried by the vagus, producing deep inspiration then forced expiration against a glottis that opens suddenly.
+## answer_d
+Hypercapnia CamScanner
+## explanation_d
+The exception, and the answer. The book places a rise in arterial PCO2 (hypercapnia) under its chemical control of respiration, not under 'Non-Chemical (Nervous) Regulation' — PCO2 is stated as the major controller of ventilation acting through central and peripheral chemoreceptors, the one route on this list that is not a nervous reflex. A common trap: treating hypercapnia (a rise in arterial PCO2) as one item on the non-chemical list.
+
+Why this is right, from the department book:
+- Alongside the chemical control of breathing by PCO2, pH and PO2, the respiratory centre is regulated by nervous reflexes that are independent of blood gases.
+## correct_answer
+D
+## main_concept
+CON-RES-3A3D4A2919FA80
+## library_ids
+ART-104-PHY-RESPIRATORY-CENTERS-AND-CHEMORECEPTORS
+## topic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## subtopic
+Physiology Respiratory System — Non-Chemical Control of Respiration
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Control of Respiration
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Separate the chemical (PCO2) drive to breathe from the nervous, non-chemical afferents that also regulate the respiratory centre.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+6.0
+## exam_weight_by_year
+KAU_Y1=0.60
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 196 104 2023 No answers  (1).pdf p12 q95; EOY 104 Final (198 1st) (1).pdf p14 q27. Manifest src_5465875dc14a998b7b21, src_df6b7a7de75411dbb92b.
+## author_notes
+Asked 2 times across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+Answer changed from the source's: The book's own chapter structure contradicts the printed key. 'Non-Chemical (Nervous) Regulation of Respiratory Activity' (physiology department book p149-153) explicitly lists pain/limbic afferents, coughing and swallowing as nervous reflex sources of respiratory drive. Hypercapnia (raised PCO2) sits in a separate, earlier section, 'Ventilatory Response to Changes in CO2' (p148-149), stated as the major controller of respiration through chemoreceptors — the chemical route the non-chemical section is being contrasted against. It is therefore the one option that is not a non-chemical influence, not option C.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-801DC41D86CF
+## title
+Emphysema result from destruction of intra-alveolar septa by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Emphysema result from destruction of intra-alveolar septa by
+## answer_a
+Protease, sulfatase
+## explanation_a
+Sulfatase is not the pair of enzymes the book names for septal destruction in emphysema; it appears in this bank in a different context (chromatin fragmentation by endonuclease, not sulfatase, in karyorrhexis).
+## answer_b
+elastase, histaminase
+## explanation_b
+Histaminase is not one of the two enzymes the book credits with destroying alveolar septa — elastase is correct here, but the book pairs it with protease, not histaminase.
+## answer_c
+protease, elastase
+## explanation_c
+Correct. The book states that emphysema results from destruction of the inter-alveolar septa by proteases and elastases secreted by dust cells, chiefly driven by cigarette smoking. A common trap: attributing emphysema's septal destruction to the dust particles themselves rather than to the phagocyte's own digestive enzymes.
+
+Why this is right, from the department book:
+- Emphysema is an abnormal, permanent enlargement of the alveoli.
+## answer_d
+nuclease, lipase
+## explanation_d
+Nuclease and lipase are not the enzyme pair the book names for this mechanism.
+## correct_answer
+C
+## main_concept
+CON-RES-A3C25716850FE1
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Alveolar Phagocytes and Emphysema
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Alveolar Phagocytes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name protease and elastase, secreted by dust cells, as the enzymes that destroy the inter-alveolar septa in emphysema.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q62. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-7FF582FF0334
+## title
+bind supporting cell to olfactory cell
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+bind supporting cell to olfactory cell
+## answer_a
+gap junction
+## explanation_a
+A gap junction couples cells electrically or metabolically; the book's own word for what binds the supporting cell to the olfactory cell is a junctional complex, not a gap junction.
+## answer_b
+Junctional Complex
+## explanation_b
+Correct. The book states directly that junctional complexes bind the supporting (sustentacular) cells to the olfactory cells. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_c
+tight junction
+## explanation_c
+A tight junction is one component of a junctional complex, but the book names the complex as a whole, not this one component alone, as what performs the binding.
+## answer_d
+adherens junction,
+## explanation_d
+An adherens junction is likewise only one component of a junctional complex, not the term the book uses for this specific attachment.
+## correct_answer
+B
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the junctional complex as the structure binding sustentacular (supporting) cells to olfactory neurons.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q25. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-84DE3F514E7C
+## title
+cell act as sensory receptor, Contain afferent Nerve ending
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell act as sensory receptor, Contain afferent Nerve ending
+## answer_a
+ciliated columnar
+## explanation_a
+Ciliated columnar cells beat their cilia to move mucus outward — the book gives them no sensory role or afferent nerve ending.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells secrete mucus; the book describes no nerve ending or sensory function for them.
+## answer_c
+Brush
+## explanation_c
+Correct. The book states that brush cells have basal afferent nerve endings and act as sensory receptors. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+basal
+## explanation_d
+Basal cells are the epithelium's stem cells, replacing the other cell types — the book gives them no sensory or nerve-ending role.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the brush cell as the conducting portion's sensory-receptor epithelial cell, by its basal afferent nerve endings.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q15. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-FD711324675C
+## title
+cell belong to APUD with numerous basal granules
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell belong to APUD with numerous basal granules
+## answer_a
+Brush
+## explanation_a
+Brush cells are sensory receptors with apical microvilli and basal afferent nerve endings — the book gives them no APUD classification or basal granules.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells secrete mucus from apical mucin granules; they are not classed as APUD cells.
+## answer_c
+small granule
+## explanation_c
+Correct. The book classes small granule cells as neuroendocrine cells belonging to APUD, with numerous basal dense granules secreting hormones such as serotonin and catecholamines. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+Basal
+## explanation_d
+Basal cells are stem cells for the other epithelial types — the book gives them no APUD role or basal secretory granules.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name the small granule cell as the conducting portion's APUD (neuroendocrine) epithelial cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q18. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-38944BEE8C1D
+## title
+cell is columnar with apical microvilli
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell is columnar with apical microvilli
+## answer_a
+ciliated columnar
+## explanation_a
+Ciliated columnar cells carry motile cilia on their apex, not the abundant microvilli the stem describes.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells are filled apically with mucin granules, not microvilli.
+## answer_c
+Brush
+## explanation_c
+Correct. The book describes brush cells as columnar cells with abundant apical microvilli. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+basal
+## explanation_d
+Basal cells are small and rounded, resting on the basal lamina without reaching the lumen at all, so they carry no apical surface feature such as microvilli.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the brush cell by its columnar shape and abundant apical microvilli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q14. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C8FE4C4E0C29
+## title
+cell is most numerous cell with numerous mitochondria
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell is most numerous cell with numerous mitochondria
+## answer_a
+ciliated columnar
+## explanation_a
+Correct. The book calls ciliated columnar cells the most abundant cells of the epithelium, with numerous apical mitochondria supplying the energy for ciliary beating. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells are described as the next most numerous, not the most numerous, and their apical cytoplasm is filled with mucin granules rather than being mitochondria-rich.
+## answer_c
+Brush
+## explanation_c
+Brush cells are a minority sensory population, not the most numerous cell of the epithelium.
+## answer_d
+basal
+## explanation_d
+Basal cells are the epithelium's stem-cell population, not described as mitochondria-rich or as the most numerous type.
+## correct_answer
+A
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the ciliated columnar cell as the conducting portion's most abundant epithelial cell, mitochondria-rich to power ciliary beating.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q13. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-4CCB37662A95
+## title
+Cell is next most numerous, trap bacteria, dust
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Cell is next most numerous, trap bacteria, dust
+## answer_a
+ciliated columnar
+## explanation_a
+Ciliated columnar cells are the most numerous cell, not the next most numerous, and they move trapped material rather than trapping it themselves.
+## answer_b
+mucous goblet
+## explanation_b
+Correct. The book describes mucous goblet cells as the next most numerous cell type, secreting mucus that covers the epithelium and traps bacteria and dust particles. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_c
+Brush
+## explanation_c
+Brush cells are sensory receptors, not the mucus-secreting, trapping cell the stem describes.
+## answer_d
+basal
+## explanation_d
+Basal cells are stem cells resting on the basal lamina, playing no part in trapping inhaled particles.
+## correct_answer
+B
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the mucous goblet cell as the epithelium's next most numerous cell, trapping bacteria and dust in the mucus it secretes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q16. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-F43C351A109C
+## title
+cell is small rounded, don't reach lumen, act as stem cell
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell is small rounded, don't reach lumen, act as stem cell
+## answer_a
+ciliated columnar
+## explanation_a
+Ciliated columnar cells are tall and reach the lumen, carrying cilia at their apex — the opposite of the stem's description.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells also reach the epithelial surface to release mucus, unlike the cell the stem describes.
+## answer_c
+Brush
+## explanation_c
+Brush cells reach the lumen with an apical microvillous surface — they are not the basal, lumen-absent stem cell being asked for.
+## answer_d
+basal
+## explanation_d
+Correct. The book describes basal cells as small, rounded cells sitting on the basal lamina without reaching the lumen, which act as the stem cells that replace the other cell types. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## correct_answer
+D
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Identify the basal cell as the small, lumen-absent, epithelium-replacing stem cell of the conducting portion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q17. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-D09845FBD7BB
+## title
+cell secrete serotonin, Catecholamine
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+cell secrete serotonin, Catecholamine
+## answer_a
+Brush
+## explanation_a
+Brush cells are sensory receptors with basal nerve endings, not secretory APUD cells.
+## answer_b
+mucous goblet
+## explanation_b
+Mucous goblet cells secrete mucus, not serotonin or catecholamines.
+## answer_c
+small granule
+## explanation_c
+Correct. The book states small granule cells secrete hormones such as serotonin and catecholamines, to help control airway and blood vessel diameter and regulate glandular secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_d
+Basal
+## explanation_d
+Basal cells are the epithelium's stem-cell population, with no secretory role of this kind.
+## correct_answer
+C
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute serotonin and catecholamine secretion to the small granule (APUD) cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q19. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-90240CB08542
+## title
+in vestibule, deeper, its epithelium change into
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+in vestibule, deeper, its epithelium change into
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium is not a lining the book describes anywhere in the nasal vestibule.
+## answer_b
+keratinized SSE
+## explanation_b
+Keratinized stratified squamous epithelium is the vestibule's own anterior lining, at the nostril itself — the stem is asking what it changes into further in, not what it starts as.
+## answer_c
+Non keratinized SSE
+## explanation_c
+Correct. The book states that the vestibule is lined by hairy keratinized stratified squamous epithelium which, deeper in, changes to non-keratinized stratified squamous epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.
+
+Why this is right, from the department book:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## answer_d
+peudostratified columnar ciliated
+## explanation_d
+Pseudostratified columnar ciliated epithelium is the respiratory epithelium of the nasal fossae beyond the vestibule, not the epithelium the vestibule's own deeper part changes into.
+## correct_answer
+C
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Trace the vestibule's epithelium from hairy keratinized stratified squamous at its entrance to non-keratinized stratified squamous deeper in.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q8. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C54B4FD5AACC
+## title
+middle, inferior conchae Covered by
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+middle, inferior conchae Covered by
+## answer_a
+stratified columnar
+## explanation_a
+Stratified columnar epithelium is not the lining the book assigns to any part of the nasal fossae.
+## answer_b
+keratinized SSE
+## explanation_b
+Keratinized stratified squamous epithelium lines the anterior vestibule, not the middle and inferior conchae further inside the nasal fossae.
+## answer_c
+Non keratinized SSE
+## explanation_c
+Non-keratinized stratified squamous epithelium is the deeper vestibule's lining, not the conchae's.
+## answer_d
+peudostratified columnar ciliated
+## explanation_d
+Correct. The book states the middle and inferior conchae are covered with respiratory epithelium — pseudostratified columnar ciliated with goblet cells — while only the superior concha carries olfactory epithelium. A common trap: allergic congestion of the swell bodies in the conchae's lamina propria, and epistaxis from the same vascular lamina propria after trauma, are both read-only clinical notes the book ties directly to this structure — not separate facts to learn apart from it.
+
+Why this is right, from the department book:
+- The nasal cavity is the external vestibule and the internal nasal fossae.
+## correct_answer
+D
+## main_concept
+CON-RES-1FF74892D5B943
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the middle and inferior conchae carry respiratory (pseudostratified columnar ciliated) epithelium, unlike the superior conchae's olfactory lining.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q9. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-1DD72CFCA344
+## title
+olfactory neuron is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+olfactory neuron is characterized by All except
+## answer_a
+bipolar cell that can regenerate
+## explanation_a
+True of olfactory neurons, so not the exception. The book describes them as bipolar nerve cells with a high capacity to regenerate.
+## answer_b
+wide apex, narrow base with apical microvilli
+## explanation_b
+The exception, and the answer. A wide cylindrical apex, narrow base and apical microvilli are the book's own description of the sustentacular (supporting) cell, not the olfactory neuron, whose dendrite ends in an olfactory vesicle rather than a broad microvillous apex. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_c
+dendrite and in olfactory vesicle
+## explanation_c
+True, so not the exception. The olfactory neuron's dendrite extends toward the surface and ends in the olfactory vesicle.
+## answer_d
+multi basal body from which cilia arise
+## explanation_d
+True, so not the exception. Multiple basal bodies in the olfactory vesicle are what the long, non-motile olfactory cilia arise from.
+## answer_e
+axon pass to lamina propria to form olfactory nerve fiber
+## explanation_e
+True, so not the exception. The book states the olfactory neuron's axon passes into the lamina propria to form the olfactory nerve fibres.
+## correct_answer
+B
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Structure and function
+## learning_objective
+Separate the olfactory neuron's own features (bipolar, regenerating, dendrite to olfactory vesicle, multiple basal bodies, axon to lamina propria) from the sustentacular cell's wide apex, narrow base and apical microvilli.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q24. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-B45984E17DF0
+## title
+secrete serous fluid that act as media where odorous Substance dissolve
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+secrete serous fluid that act as media where odorous Substance dissolve
+## answer_a
+mucous gland
+## explanation_a
+A generic mucous gland is not the specific structure the book names for this fluid — the olfactory mucosa's own glands are Bowman's glands.
+## answer_b
+Bowman's gland
+## explanation_b
+Correct. The book states Bowman's glands secrete a serous fluid that acts as the medium around the olfactory cilia in which odorous substances dissolve. A common trap: olfactory neurons are the only neurons considered capable of substantial regeneration, owing to the high regenerative capacity of the basal stem cells beneath them — a read-only fact worth holding against the cytogenetics chapter's statement that nerve cells are non-renewing.
+
+Why this is right, from the department book:
+- Olfactory mucosa covers the roof and superior conchae of the nasal cavity and is formed of olfactory epithelium with its connective-tissue lamina propria.
+## answer_c
+muco-serous gland
+## explanation_c
+A muco-serous gland is not the term the book uses for the olfactory lamina propria's glands, which it names specifically as Bowman's glands.
+## answer_d
+parotid gland
+## explanation_d
+The parotid gland is a salivary gland with no role in the olfactory mucosa the book describes.
+## correct_answer
+B
+## main_concept
+CON-RES-58840F56FB3A36
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name Bowman's glands as the source of the serous fluid odorous substances dissolve in around the olfactory cilia.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q23. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2A019046F6F4
+## title
+small granule cell
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+small granule cell
+## answer_a
+Control diameter of airway
+## explanation_a
+Correct. The book states small granule cells secrete hormones like serotonin and catecholamines that control the diameter of the airway and blood vessels and regulate mucous and serous secretion. A common trap: in smokers, mucus accumulates in the small airways because the normal ratio of ciliated to goblet cells reverses, or because the cilia are paralysed — a read-only clinical note that turns this cell-type list into a mechanism question rather than a naming one.
+
+Why this is right, from the department book:
+- The epithelium lining most of the conducting portion is pseudostratified columnar ciliated with goblet cells, and five cell types are recognised within it.
+## answer_b
+stem cell that replace other cell
+## explanation_b
+The stem cell that replaces the other epithelial types is the basal cell, not the small granule cell.
+## answer_c
+act as sensory receptor
+## explanation_c
+Acting as a sensory receptor is the brush cell's role, with its basal afferent nerve endings, not the small granule cell's.
+## answer_d
+Push mucus with trapped bacteria outwards
+## explanation_d
+Pushing mucus with trapped bacteria outward is the ciliated columnar cell's job, driven by ciliary beating, not the small granule cell's secretion.
+## correct_answer
+A
+## main_concept
+CON-RES-38BA83C42FBE02
+## library_ids
+ART-104-HIS-NASAL-MUCOSA
+## topic
+Histology-general
+## subtopic
+Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Attribute airway diameter control (via serotonin and catecholamine secretion) to the small granule cell.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q20. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-817A9B423643
+## title
+Cartilage in epiglottis, cuneiform, Corniculate is
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Cartilage in epiglottis, cuneiform, Corniculate is
+## answer_a
+hyaline
+## explanation_a
+Hyaline cartilage is what the book names for the larynx's large cartilages — thyroid, cricoid, and most of the arytenoids — not this list of small ones.
+## answer_b
+elastic
+## explanation_b
+Correct. The book classes the epiglottis, cuneiform, corniculate and the tip of the arytenoid cartilages as the larynx's small cartilages, and states they are elastic cartilage. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.
+
+Why this is right, from the department book:
+- The larynx connects the pharynx with the trachea.
+## answer_c
+white fibro
+## explanation_c
+White fibrocartilage is not a category the book applies to any of the laryngeal cartilages.
+## answer_d
+All the above
+## explanation_d
+Not applicable — a correct single answer is listed among the options.
+## correct_answer
+B
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Classify the epiglottis, cuneiform and corniculate cartilages, and the tip of the arytenoids, as the larynx's small elastic cartilages, against the large hyaline ones.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p24 q34. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-529B722255F1
+## title
+for flexibility, extensibility during conduction of air
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+for flexibility, extensibility during conduction of air
+## answer_a
+Cartilage, elastic fiber
+## explanation_a
+Cartilage and collagen fibres are what the book credits with preventing collapse, not with flexibility and extensibility.
+## answer_b
+Collagen, elastic fiber
+## explanation_b
+Collagen fibres sit with cartilage in the book's 'prevent collapse' pairing, and elastic fibre alone is not the full pairing the book gives for flexibility.
+## answer_c
+cartilage, Collagen fiber
+## explanation_c
+Cartilage again belongs to the collapse-prevention pairing; collagen fibre alone is not the book's stated pairing for flexibility and extensibility either.
+## answer_d
+elastic, smooth muscle fiber
+## explanation_d
+Correct. The book pairs elastic fibres and smooth muscle with the airway's flexibility and extensibility during air conduction, as distinct from cartilage and collagen, which prevent collapse. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.
+
+Why this is right, from the department book:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
+## correct_answer
+D
+## main_concept
+CON-RES-7B5CE29846CBE2
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pair elastic fibres and smooth muscle with the conducting airway's flexibility and extensibility, distinct from cartilage's role against collapse.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q2. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-5FD1F70D3860
+## title
+large laryngeal Cartilage is characterized by All except
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+large laryngeal Cartilage is characterized by All except
+## answer_a
+are hyaline Cartilage
+## explanation_a
+True of the large laryngeal cartilages (thyroid, cricoid, most of the arytenoids), so not the exception — the book classes them as hyaline cartilage.
+## answer_b
+Calcify with age
+## explanation_b
+True, so not the exception. The book states the large laryngeal cartilages may calcify with age.
+## answer_c
+don't undergo calcification
+## explanation_c
+The exception, and the answer. Not undergoing calcification is what the book states of the larynx's small cartilages (epiglottis, cuneiform, corniculate, arytenoid tips), which are elastic — the opposite is true of the large hyaline ones this question asks about. A common trap: assuming the whole larynx is lined the same way because 'respiratory epithelium' is stated first.
+
+Why this is right, from the department book:
+- The larynx connects the pharynx with the trachea.
+## answer_d
+none of above
+## explanation_d
+Not applicable — the true exception is named among the other options.
+## correct_answer
+C
+## main_concept
+CON-RES-099718106C38CD
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+State that the larynx's large cartilages are hyaline and may calcify with age, unlike the small elastic ones, which do not calcify.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p23 q33. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-83EBA00CC0FC
+## title
+prevent collapse, ensure continuous supply of air
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+prevent collapse, ensure continuous supply of air
+## answer_a
+Cartilage, elastic fiber
+## explanation_a
+Cartilage is correctly half of this pairing, but elastic fibre belongs to the book's other pairing (flexibility and extensibility), not to preventing collapse.
+## answer_b
+Collagen, elastic fiber
+## explanation_b
+Collagen fibre is correctly one component the book pairs with cartilage for this function, but elastic fibre is not its partner here either.
+## answer_c
+cartilage, Collagen fiber
+## explanation_c
+Correct. The book pairs cartilage and collagen fibres as what prevent airway collapse and ensure a continuous supply of air. A common trap: swapping the two pairings — crediting cartilage with flexibility or elastic fibre/smooth muscle with preventing collapse.
+
+Why this is right, from the department book:
+- The conducting portion of the respiratory system conducts and conditions inspired air.
+## answer_d
+elastic, smooth muscle fiber
+## explanation_d
+Elastic fibre and smooth muscle are the book's pairing for flexibility and extensibility, a separate function from preventing collapse.
+## correct_answer
+C
+## main_concept
+CON-RES-7B5CE29846CBE2
+## library_ids
+ART-104-HIS-LARYNX-TRACHEA-BRONCHI
+## topic
+Histology-general
+## subtopic
+Respiratory System — Larynx and Airway Wall
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Conducting Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Pair cartilage and collagen fibres with preventing airway collapse, distinct from elastic fibre and smooth muscle's flexibility role.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p22 q1. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-2C4ED0F96167
+## title
+type of Junction between type I and II pneumocyte is
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+type of Junction between type I and II pneumocyte is
+## answer_a
+Junctional Complex
+## explanation_a
+A junctional complex is a broader structure of several junction types together; the book names the specific junction between the two pneumocyte types as a tight junction alone.
+## answer_b
+desmosome
+## explanation_b
+A desmosome is an anchoring junction resisting mechanical stress, not the junction the book states between the two pneumocyte types.
+## answer_c
+tight junction
+## explanation_c
+Correct. The book states type I pneumocytes have tight junctions with both type I and type II pneumocytes. A common trap: assuming the cell covering most of the alveolar surface must be the more metabolically active one.
+
+Why this is right, from the department book:
+- Type I pneumocytes (squamous alveolar cells) cover about 97% of the alveolar surface.
+## answer_d
+adherers Junction
+## explanation_d
+An adherens junction is a different junction type from the tight junction the book names here.
+## correct_answer
+C
+## main_concept
+CON-RES-94F66D51DB5B4D
+## library_ids
+ART-104-HIS-RESPIRATORY-PORTION
+## topic
+Histology-general
+## subtopic
+Respiratory System — Respiratory Portion Pneumocytes
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Respiratory System > Respiratory Portion
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Name the tight junction as the connection between type I and type II pneumocytes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p25 q56. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+

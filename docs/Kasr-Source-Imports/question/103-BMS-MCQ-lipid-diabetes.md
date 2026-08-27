@@ -7618,7 +7618,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -7767,7 +7767,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -7915,7 +7915,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8063,7 +8063,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8212,7 +8212,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8361,7 +8361,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8510,7 +8510,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8658,7 +8658,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8806,7 +8806,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -8954,7 +8954,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9102,7 +9102,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9250,7 +9250,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9398,7 +9398,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9546,7 +9546,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9695,7 +9695,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9844,7 +9844,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -9993,7 +9993,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -10141,7 +10141,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -10289,7 +10289,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -10437,7 +10437,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -10585,7 +10585,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 
@@ -10733,7 +10733,7 @@ kau
 103 BMS
 
 ## module_subject
-103 BMS > Biochemistry
+103 BMS > Biochemistry > Carbohydrate Metabolism > Blood Glucose
 
 ## question_only_for
 

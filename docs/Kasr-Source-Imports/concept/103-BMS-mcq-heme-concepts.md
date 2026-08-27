@@ -192,7 +192,9 @@ KAU_Y1=0.05
 src_07f0a0ff41addf826c7f | department_question_book | undated | p137 q1, topic cancelled from both exams | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-A332413F2E38
+CLM-0E4DC4C94576
+CLM-B629C159C775
 
 ## resource_occurrence_ids
 [clear]
@@ -378,7 +380,10 @@ KAU_Y1=0.05
 src_07f0a0ff41addf826c7f | department_question_book | undated | p137 q3, q4 and q5, topic cancelled from both exams | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-06FE0ACE0401
+CLM-08F304A58406
+CLM-62D622AA6859
+CLM-649E3645CF9D
 
 ## resource_occurrence_ids
 [clear]
@@ -565,7 +570,10 @@ KAU_Y1=0.05
 src_07f0a0ff41addf826c7f | department_question_book | undated | p137 q6, topic cancelled from both exams | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-4E7F39AB8331
+CLM-6D99491068AF
+CLM-B8134E6BD1BC
+CLM-01BD5D8E782D
 
 ## resource_occurrence_ids
 [clear]
@@ -752,7 +760,11 @@ KAU_Y1=0.7
 src_07f0a0ff41addf826c7f | department_question_book | undated | p137 q7 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-EBCFAA4BDF3D
+CLM-700886110A61
+CLM-98FF0B0A5654
+CLM-BD374E05FB3B
+CLM-EBB79C7E8B3A
 
 ## resource_occurrence_ids
 [clear]
@@ -939,7 +951,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q8 and q15 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-9D3716971751
+CLM-7A18D3930094
+CLM-59F1F55C7982
+CLM-5F1E44733281
 
 ## resource_occurrence_ids
 [clear]
@@ -1129,7 +1144,10 @@ KAU_Y1=0.85
 src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q10 and q11 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-30857FBC398C
+CLM-D370D4CACC85
+CLM-087048B296FD
+CLM-2A49E6383F24
 
 ## resource_occurrence_ids
 [clear]
@@ -1318,7 +1336,9 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | department_question_book | undated | p139 q20 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-E6D1FD705ED8
+CLM-773A34DF6ED1
+CLM-20C1CC6F19D0
 
 ## resource_occurrence_ids
 [clear]
@@ -1506,7 +1526,9 @@ KAU_Y1=0.6
 src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q12 and p139 q16, plus a compare-between item on p133 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-9244D5291E68
+CLM-B31198983C5C
+CLM-E536768933D7
 
 ## resource_occurrence_ids
 [clear]
@@ -1693,7 +1715,10 @@ KAU_Y1=0.8
 src_07f0a0ff41addf826c7f | department_question_book | undated | p138 q15 | 103 BMS
 
 ## atomic_claim_ids
-[clear]
+CLM-28C8AA6E075D
+CLM-5B4F0AD0ABA9
+CLM-BF122B072A2A
+CLM-70320725EFB4
 
 ## resource_occurrence_ids
 [clear]

@@ -207,10 +207,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-41DF56E9E439 | CLM-A7B5A57A478A | CLM-FND-NEGATIVE-NITROGEN-BALANCE-01
 
 ## span_ids
-[clear]
+SPN-BIO-PROTEIN-TURNOVER-AND-01 | SPN-BIO-PROTEIN-TURNOVER-AND-02 | SPN-BIO-PROTEIN-TURNOVER-AND-03
 
 ## universities
 kau
@@ -468,10 +468,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-19AB3C5C25C0
 
 ## span_ids
-[clear]
+SPN-BIO-REMOVAL-OF-AMINO-01
 
 ## universities
 kau
@@ -1000,10 +1000,10 @@ src_300847a5fa64809d6c07
 src_300847a5fa64809d6c07
 
 ## claim_ids
-[clear]
+CLM-BC09C5A01948
 
 ## span_ids
-[clear]
+SPN-BIO-UREA-CYCLE-01
 
 ## universities
 kau

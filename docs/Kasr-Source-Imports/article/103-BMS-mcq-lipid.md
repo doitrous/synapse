@@ -466,10 +466,10 @@ src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## claim_ids
-[clear]
+CLM-052E0ABF217E | CLM-61FC90B297EC | CLM-A92364EEFA66
 
 ## span_ids
-[clear]
+SPN-BIO-LIPOGENESIS-AND-DEPOT-01 | SPN-BIO-LIPOGENESIS-AND-DEPOT-02 | SPN-BIO-LIPOGENESIS-AND-DEPOT-03
 
 ## universities
 kau
@@ -894,10 +894,10 @@ src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## claim_ids
-[clear]
+CLM-842F1B3B4506
 
 ## span_ids
-[clear]
+SPN-BIO-CHOLESTEROL-METABOLISM-01
 
 ## universities
 kau
@@ -1755,10 +1755,10 @@ src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 src_300847a5fa64809d6c07 | src_07f0a0ff41addf826c7f
 
 ## claim_ids
-[clear]
+CLM-28BDA6637EF4 | CLM-A04B057AF38F | CLM-A16113C4B5DC | CLM-C716DA65C65B
 
 ## span_ids
-[clear]
+SPN-BIO-DIABETES-MELLITUS-01 | SPN-BIO-DIABETES-MELLITUS-02 | SPN-BIO-DIABETES-MELLITUS-03
 
 ## universities
 kau

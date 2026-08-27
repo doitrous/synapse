@@ -105,7 +105,7 @@ export const SEEDS: Seed[] = [
     type: 'classification',
     aliases: ['Heterolysosome', 'Multivesicular body', 'Autolysosome', 'Residual body'],
     conflicts: [
-      'The 2025 EOY seed carries this material under `lysosome-types-electron-microscopy`, describing primary, secondary and residual bodies by their appearance. The cluster key `lysosome-types-secondary-fates` is used here, as reconciled.',
+      'The 2025 EOY seed asks this material from the other end, as the electron-microscopic picture of primary, secondary and residual bodies. It is one objective and one cluster: that seed, 101-baqoon-2024.ts and SITTING_SIGNALS all use the cluster key `lysosome-types-secondary-fates`, as reconciled, and 101-eoy-2025.ts is registered first so its wording is what the concept carries.',
     ],
   },
   {

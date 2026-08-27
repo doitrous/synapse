@@ -202,6 +202,7 @@ ART-103-BIO-HMP-PATHWAY-AND-G6PD: supplies the NADPH the glutathione arm of pero
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: vitamins C and E are the scavenger antioxidants named here, and the matching question tests which is water-soluble and which lipid-soluble
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -277,6 +278,7 @@ Every statement rests on one source, the department book. No independent verific
 The book asserts that bilirubin and uric acid "function as antioxidants" without giving the reactions, the conditions, or any measure of how much of total antioxidant capacity they account for. The claim is taught as the book states it and is not extended.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -313,6 +315,8 @@ PPP
 G6PD deficiency
 Favism
 Main source of NADPH
+Uronic acid pathway
+Synthesis of glucuronic acid
 
 ## subject
 haem
@@ -376,6 +380,13 @@ The pentose phosphate pathway is another route for glucose oxidation, with two m
 
 Favism is a genetic deficiency of glucose 6-phosphate dehydrogenase, and the book calls it the most common human enzymopathy.
 
+### The other minor pathway: uronic acid
+The book introduces the HMP pathway and one further pathway in the same breath, as the two "other pathways for oxidation" that exist to make glucose derivatives rather than energy. The second is the uronic acid pathway, and the book gives it a single line: it exists for the synthesis of glucuronic acid.
+
+Nothing else about it is stated on this page — no enzyme, no intermediate, no regulation — which is itself worth knowing, because the department's own cancelled-items table removes the uronic acid pathway from both the end-of-module and the final exam while leaving the HMP pathway examinable. The two pathways share an opening sentence in the book and nothing else: a diagram question naming "other pathways of glucose oxidation" expects the HMP pathway in full and the uronic acid pathway only as a name and a product.
+
+Glucuronic acid's best-supported use elsewhere in this book is conjugation: the liver attaches it to bilirubin, using glucuronyl transferase, to make bilirubin water-soluble and excretable — the step this book teaches fully in the heme chapter, not here.
+
 ### Mechanism
 The pathway runs in two phases.
 
@@ -434,7 +445,7 @@ Reviewed by: Dr. Omar
 Reviewed at: 2026-08-21
 
 ## related_concepts
-CON-FND-B928DE79E08882 | CON-HEM-A1EF4D20C85878 | CON-HEM-4F64967BBFBB6F
+CON-FND-B928DE79E08882 | CON-HEM-A1EF4D20C85878 | CON-HEM-4F64967BBFBB6F | CON-FND-B7423F19A99029
 
 ## related_articles
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: the peroxide-disposal route whose NADPH this pathway supplies
@@ -442,6 +453,7 @@ ART-103-BIO-JAUNDICE-AND-BILIRUBIN: where the haemolysis of favism ends up, as u
 ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT: the other half of red cell carbohydrate metabolism, and the half that does make ATP
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -466,9 +478,10 @@ KAU_Y1
 
 ## module_subject
 103 BMS > Biochemistry > Carbohydrate Metabolism > Hexose Monophosphate Pathway (HMP) / Pentose Phosphate Pathway (PPP)
+103 BMS > Biochemistry > Carbohydrate Metabolism > Uronic Acid Pathway
 
 ## university_notes
-kau: The Uronic Acid Pathway, which is the chapter section immediately after this one on page 38, is cancelled from both the end-of-module and the final exam by the Biochemistry department's own orientation. The HMP pathway itself is not cancelled and was examined in 2025 as parts (a) to (d) of Diagram (1).
+kau: The Uronic Acid Pathway, which is the chapter section immediately after this one on page 38, is cancelled from both the end-of-module and the final exam by the Biochemistry department's own orientation. The HMP pathway itself is not cancelled and was examined in 2025 as parts (a) to (d) of Diagram (1). This article now also carries the uronic acid pathway's own one-line content directly (see the new subsection in ## sections), closing that subheading's coverage gap without a separate near-duplicate article.
 
 ## annotations
 ### definition_of · CON-FND-B928DE79E08882
@@ -516,6 +529,7 @@ The book calls G6PD deficiency "the most common human enzymopathy" and gives no 
 The book states that the only treatment is avoidance and transfusion during a crisis. Whether that is still the department's teaching, and what it means for a patient already haemolysing, is treatment content and is not extended here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -671,6 +685,7 @@ ART-103-BIO-KETOSIS: what happens to acetyl-CoA when oxaloacetate is drawn away 
 ART-103-BIO-RBC-GLYCOLYSIS-AND-BPG-SHUNT: the pathway that feeds the cycle, and the cell that has no cycle at all
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -729,6 +744,7 @@ Every statement rests on one source, the department book. No independent verific
 The book's regulation diagram marks ADP and calcium as activators of citrate synthase while its prose gives the ATP/ADP ratio rather than ADP alone. The two are not reconciled in the source and are not reconciled here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -892,6 +908,7 @@ ART-103-BIO-HMP-PATHWAY-AND-G6PD: the other branch of red cell glucose metabolis
 ART-103-BIO-TCA-KEY-ENZYMES: the pathway the red cell does not have, and the reason its yield stops at two ATP
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -970,6 +987,7 @@ The book gives no figure for what proportion of glycolytic flux takes the shunt,
 The physiological consequences of 2,3-BPG — the position of the oxygen dissociation curve, the rise in anaemia and at altitude, the fall in stored blood — are not stated in any 103 BMS source and are not asserted here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1141,6 +1159,7 @@ ART-GIT-TOP-E391F29EBF: the live fatty liver article, which covers the other rou
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: oxidation of LDL is the step that turns a delivered particle into a plaque
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1229,6 +1248,7 @@ No treatment for either disorder is stated, because the book's lipoprotein chapt
 The generalisation "low plasma VLDL causes fatty liver" is assembled from the book's account of VLDL function and its account of abetalipoproteinaemia; the book never writes the general sentence. The citation should quote both.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1377,6 +1397,7 @@ ART-103-BIO-TCA-KEY-ENZYMES: the cycle that stops for want of oxaloacetate, whic
 ART-103-BIO-NITROGEN-BALANCE: starvation appears in both, as a cause of ketosis and as a cause of negative nitrogen balance
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1446,6 +1467,7 @@ The book gives no threshold at which ketonaemia becomes ketoacidosis, and no def
 No treatment is stated. Management of diabetic ketoacidosis is emergency content, is not in any 103 BMS source, and is not written here.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1602,6 +1624,7 @@ ART-103-BIO-KETOSIS: starvation appears in both, and the ketone bodies are what 
 ART-103-BIO-PHENYLKETONURIA: the case where restricting one amino acid is the treatment rather than the disease
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -1671,6 +1694,7 @@ The book gives no figure for an adequate protein intake and no Egyptian referenc
 The book lists lactation under loss of protein while listing pregnancy under positive balance, without reconciling the two. That is left as the book has it.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -1856,6 +1880,7 @@ ART-103-BIO-NITROGEN-BALANCE: why removing one essential amino acid from a diet 
 ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: tetrahydrobiopterin is a coenzyme like the vitamin-derived ones, and the same distinction between missing enzyme and missing coenzyme applies
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2119,6 +2144,7 @@ ART-REN-TOP-AD3B2EA126: the live purine and pyrimidine metabolism article, which
 ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: uric acid is an antioxidant as well as a crystal, which is the same molecule seen from the other end
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2400,6 +2426,7 @@ ART-HEM-TOP-B697DE3AAD: the live anaemia classification article, where the haemo
 ART-103-BIO-HMP-PATHWAY-AND-G6PD: G6PD deficiency is one of the book's own causes of haemolytic jaundice, and the point at which the two articles meet
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2680,6 +2707,7 @@ ART-103-BIO-ROS-ANTIOXIDANT-DEFENCE: where vitamins C and E appear as scavenger 
 ART-103-BIO-PHENYLKETONURIA: tetrahydrobiopterin is a coenzyme like these, and the same distinction between a missing enzyme and a missing coenzyme decides the treatment
 
 ## question_ids
+[clear]
 
 ## resource_ids
 src_300847a5fa64809d6c07
@@ -2779,6 +2807,7 @@ No Egyptian prevalence data exists in the corpus for any vitamin deficiency, and
 The book names the bacterial enzyme sulfonamides inhibit only as "the enzyme needed to incorporate PABA to form folic acid", so no enzyme name is given. No dose is stated for either drug and none is written.
 
 ## conflicts
+[clear]
 
 ## last_reviewed
 
@@ -2793,3 +2822,1024 @@ questionIds: No question record tests this article yet. The extended matching qu
 media: No rights-cleared asset exists for any of this material. Four are requested in media_recommendations; the department book's own summary table and figures are faculty teaching material and are cited by locator, not reproduced. The key is present and deliberately empty rather than written as [clear], which would parse as a media block with no URL.
 lastReviewed: New record; it has not been reviewed yet.
 reviewDue: Set when the first review completes.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-ALANINE-SERINE-THREONINE
+
+## title
+Alanine, serine and threonine: three amino acids the department cancels but the book still teaches
+
+## arabic_title
+الألانين والسيرين والثريونين
+
+## aliases
+Alanine
+Serine
+Threonine
+Hydroxyl containing aliphatic amino acids
+Glucose-alanine cycle
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Individual amino acid Metabolism
+
+## microtopic
+Alanine, Serine and Threonine
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T03
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+8
+
+## high_yield
+Supporting
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Three amino acids, one book heading each, and the department's own orientation cancels every one of them from both exams. They are taught here because the book teaches them and a student may still meet them, not because they are examined. Alanine's whole identity is the glucose-alanine cycle. Serine and threonine share one property, a hydroxyl group that lets a protein be switched on and off by phosphorylation, and the book pairs them under that one heading for exactly that reason.
+
+## sections
+### Definition
+The book gives three amino acids in a row, and none of the three carries a metabolic disorder the way phenylketonuria follows phenylalanine or homocystinuria follows methionine. Each is a short entry: how it is made, what it is (glucogenic or not, essential or not), and one function.
+
+Alanine is nonessential, made by transamination of pyruvate with glutamate through alanine aminotransferase (ALT), and also arises as a by-product of tryptophan catabolism. Serine and threonine are grouped by the book under one sub-heading, "Hydroxyl Containing Aliphatic Amino Acids", because both carry a hydroxyl group that does the same job in a protein. Serine is nonessential; threonine is essential, and the book states no synthetic route for it at all, consistent with that.
+
+### Mechanism
+Alanine's synthesis is one step: pyruvate plus glutamate, by ALT, gives alanine plus α-ketoglutarate. Run the reaction backward and alanine gives pyruvate straight back, which is why it is glucogenic and nothing else.
+
+Serine has two synthetic routes, and the book gives both. The first is from glycine, by serine hydroxymethyl transferase — the same enzyme that makes glycine from serine, run in the other direction. The second starts inside glycolysis: 3-phosphoglycerate is oxidised to 3-phosphohydroxypyruvate, transaminated to phosphoserine, and dephosphorylated to serine. Serine is deaminated back to pyruvate by serine dehydratase, so it too is glucogenic only.
+
+Threonine's page states no synthesis, because it is essential; the diet is its only source. Its catabolic fate is glucogenic, stated without the intermediate steps the branched-chain amino acids are given a few lines later.
+
+### Key determinants
+The hydroxyl group is the fact that ties serine and threonine together, and it is worth stating precisely: both let a protein be reversibly phosphorylated and dephosphorylated, which is how some enzymes are switched active or inactive. Serine's hydroxyl group is additionally the site of glycosylation on some proteins, and serine is a major constituent of phospholipids. Serine also supplies the carbon skeleton of cysteine and continues into one-carbon unit metabolism, which is where folate and vitamin B12 pick it up later in the course.
+
+Alanine has one job outside its own synthesis: the glucose-alanine cycle carries nitrogen released by muscle protein breakdown to the liver, as alanine, where transamination releases the ammonia for the urea cycle and returns the carbon skeleton, as pyruvate, to gluconeogenesis. This is not a side note — the book's late-fasting-state figure names this cycle explicitly as the route by which fasting muscle unloads nitrogen.
+
+### Clinical significance
+None of the three carries a named disease in this book. That absence is itself the fact worth holding: a question that expects a metabolic disorder for one of these three is testing whether the student can tell the difference between an amino acid page that has one (phenylalanine, methionine, the branched-chain amino acids) and one that does not.
+
+Where these three amino acids matter clinically in this course is indirectly — alanine through the glucose-alanine cycle in fasting and exercise, and serine and threonine through the general principle of reversible phosphorylation, which recurs across the whole of metabolic regulation (glycogen phosphorylase, hormone-sensitive lipase, pyruvate dehydrogenase) without either amino acid being named again by the book in that context.
+
+### Common misconceptions
+Assuming alanine must be at least partly ketogenic, by analogy with the branched-chain amino acids nearby in the chapter — it is not; the book states it is glucogenic only, with no exception.
+
+Learning only one of serine's two synthetic routes. The glycine route is the one students remember; the 3-phosphoglycerate route is the one that is actually being tested when a question calls it "glycolytic" or "glycolysis-derived".
+
+Inventing content for threonine that the book does not supply. Its entry is three lines, and a question on threonine draws from exactly those three lines: essential, glucogenic, and the hydroxyl-group regulatory role shared with serine.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Alanine is made from pyruvate and glutamate by ALT, and it is glucogenic only.
+The glucose-alanine cycle carries muscle nitrogen to the liver as alanine.
+Serine has two synthetic routes: from glycine, and from 3-phosphoglycerate of glycolysis.
+Serine and threonine share one property, a hydroxyl group used for reversible phosphorylation of proteins.
+Threonine is essential; the book gives it no synthetic route and no named disorder.
+
+## lose_the_mark
+Calling alanine ketogenic or partly ketogenic.
+Naming only one of serine's two synthetic routes when the question asks for both.
+Inventing a metabolic disorder for threonine that the book does not name.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-8723D6C2BB6B32 | CON-FND-602DDE47BF8387 | CON-FND-83628BADCA3377
+
+## related_articles
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE: the liver side of the glucose-alanine cycle this article states from the muscle side
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES: the late fasting state, where the glucose-alanine cycle is shown running
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-985AC807A77F | CLM-CB5E948F5B72
+
+## span_ids
+SPN-BIO-ALANINE-SERINE-THREONINE-01 | SPN-BIO-ALANINE-SERINE-THREONINE-02 | SPN-BIO-ALANINE-SERINE-THREONINE-03 | SPN-BIO-ALANINE-SERINE-THREONINE-04
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Alanine
+103 BMS > Biochemistry > Individual amino acid Metabolism > Serine
+103 BMS > Biochemistry > Individual amino acid Metabolism > Threonine
+
+## university_notes
+kau: The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9, page 1) cancels "Alanine & Serine" (row 5) from both the end-of-module and the final exam, and a question record elsewhere in this module independently states that threonine is one of the same eight cancelled amino acids (row 6, dropped by an OCR run-on in the orientation scan). All three are kept here because the department book still teaches them and a student may still meet them in class; blueprint_weight and exam_weight_by_year on the three concepts are written low and do not claim they are examined.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VI "Individual amino acid Metabolism", pages 92 to 93.
+The Biochemistry department's orientation document for 2025-2026 establishes which items are cancelled.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The book gives no metabolic disorder for any of these three amino acids, unlike most of their neighbours in the chapter; none is invented here.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to close three subheading gaps the coverage table found: Alanine, Serine and Threonine had book text and cancelled-exam status but no concept and no article. TPL-CONCEPT rather than TPL-CONDITION because none of the three carries a disease.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T05 for amino acids and proteins; the book's own three headings are carried in module_subject.
+questionIds: No question record tests these three amino acids specifically; the mcq-aminoacid and mcq-protein-heme question files test the amino acids that do carry disorders. None is claimed here.
+media: No rights-cleared asset exists for this material, and none is requested — none of the book's three entries carries a figure of its own.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+claimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch, so claim_ids and span_ids are left [clear] rather than forward-referenced on the article, where medical:presence does not require them populated the way it requires atomic_claim_ids on the concept.
+
+---
+
+# Item
+
+## id
+ART-103-BIO-ASPARTATE-ARGININE-LYSINE-PROLINE
+
+## title
+Aspartate, arginine, lysine and proline: a nitrogen donor, a urea-cycle amino acid, and two that build collagen
+
+## arabic_title
+الأسبارتات والأرجينين والليسين والبرولين
+
+## aliases
+Aspartic acid
+Aspartate
+Arginine
+Lysine
+Proline
+Acidic and basic aliphatic amino acids
+Collagen crosslinking amino acids
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Individual amino acid Metabolism
+
+## microtopic
+Aspartic Acid, Arginine, Lysine and Proline
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T06
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Supporting
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Four amino acids, cancelled from both exams by the department's own table, but each earns its keep somewhere else in this course. Aspartate feeds three different pathways at once — asparagine, urea, and the purine and pyrimidine rings. Arginine is both the last step of the urea cycle and the source of nitric oxide. Lysine and proline are the two amino acids collagen is built from and crosslinked by, and lysine needs vitamin C to get there.
+
+## sections
+### Definition
+The book pairs these four under two headings: "Acidic Amino Acids" gives glutamic acid and aspartic acid together (glutamic acid is taught elsewhere in this file), and "Basic Aliphatic Amino Acids" gives arginine and lysine together. Proline sits on its own, three lines long, straight after histidine.
+
+Aspartate is nonessential, made from oxaloacetate by transamination with glutamate, using AST. Arginine is semi-essential, made from the carbon skeleton of ornithine. Lysine is essential; the book states no synthesis for it. Proline is nonessential, made from glutamate.
+
+### Mechanism
+Aspartate's synthesis runs in one transamination step, and its catabolic fate runs straight back to oxaloacetate, which is why it is glucogenic. Three synthetic pathways draw on it from there: asparagine synthetase converts it to asparagine, using glutamine as the amide donor, and asparagine is the site of glycosylation on many proteins; it donates one of the two nitrogen atoms of urea; and it feeds purine and pyrimidine ring synthesis, the fact this article's sibling on pyrimidine metabolism states in full.
+
+Arginine's own synthesis, from ornithine's carbon skeleton, sits inside the urea cycle itself. Arginase is the enzyme that splits arginine into urea and ornithine, which is the cycle's last step; ornithine then becomes glutamate. Outside the cycle, arginine has two further named uses: nitric oxide synthase converts it to nitric oxide, a neurotransmitter, vasodilator and smooth-muscle relaxant, and it shares in creatine synthesis.
+
+Lysine's catabolic fate is ketogenic, forming acetoacetyl-CoA, with no intermediate steps stated. Its two functions are structural: lysyl hydroxylase converts lysine residues of collagen and elastin to hydroxylysine, using vitamin C as cofactor, and hydroxylysine forms the crosslinks that stabilise collagen's fibril structure; and separately, acetylation of the lysine residues of histones is a mechanism of chromatin remodelling, regulating gene expression.
+
+Proline is interconvertible with glutamate semialdehyde, which is why it is glucogenic, and the book gives it one function: it is needed in protein synthesis, particularly collagen.
+
+### Key determinants
+Two of these four converge on collagen from opposite directions. Lysine supplies the crosslinking hydroxylysine, dependent on vitamin C; proline supplies the amino acid collagen's triple helix is built from at every third position. Neither fact alone explains why scurvy weakens connective tissue; together they do — without vitamin C, lysyl and prolyl hydroxylation both fail, and collagen cannot form its stable structure even though the amino acids themselves are present in normal amounts.
+
+Aspartate's three pathways are worth holding as a set rather than separately, because a matching question can ask which of urea, asparagine or nucleotide synthesis a stem is describing, and the answer is often "all three, from the same amino acid".
+
+### Clinical significance
+None of these four carries a metabolic disorder of its own in this book, unlike cysteine, methionine or phenylalanine. Their clinical relevance in this course is indirect: arginine and aspartate through the urea cycle, whose failure is uraemia and hyperammonaemia, taught fully elsewhere in this file; lysine through collagen disease, where its role is a supporting fact rather than the primary lesion; and proline through the same collagen chemistry.
+
+### Common misconceptions
+Treating arginine's urea-cycle role as its only function and missing the nitric oxide and creatine roles, which are separate marks in a matching question.
+
+Forgetting that lysine's collagen role needs vitamin C specifically — a student who knows lysyl hydroxylase exists but not its cofactor cannot connect this page to the vitamin C page or to scurvy.
+
+Assuming proline, like several amino acids nearby in the chapter, must have a named metabolic disorder. It does not; the book gives it three lines and no disease.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Aspartate feeds three pathways: asparagine synthesis, urea nitrogen, and purine/pyrimidine synthesis.
+Arginase splits arginine into urea and ornithine — the urea cycle's last step.
+Arginine is also the substrate for nitric oxide synthase and shares in creatine synthesis.
+Lysine's collagen crosslinking, through lysyl hydroxylase, needs vitamin C as cofactor.
+Proline and lysine are collagen's two amino acid contributions in this chapter — one structural, one crosslinking.
+
+## lose_the_mark
+Naming only one of aspartate's three synthetic destinations.
+Describing arginine only as a urea-cycle intermediate and missing nitric oxide and creatine.
+Forgetting vitamin C as lysyl hydroxylase's cofactor.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-F3A76A6F880190 | CON-FND-D0FFF93FC15672 | CON-FND-8507EE95B795A8 | CON-FND-5AB8B303F0D7B2
+
+## related_articles
+ART-103-BIO-UREA-CYCLE: the full cycle arginine and aspartate both belong to
+ART-103-BIO-VITAMINS-AND-FOLATE-ANTAGONISTS: vitamin C's own hydroxylase cofactor role, stated in full
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-0AD3D1D0BCF9 | CLM-0CDB0F0EEFE4 | CLM-0E93C6DA1C1C | CLM-933577D6457F | CLM-B1849EB9C73D | CLM-BB13C935BF34 | CLM-D373470C68F7 | CLM-E12FC4EFC51C
+
+## span_ids
+SPN-BIO-ASPARTATE-ARGININE-01 | SPN-BIO-ASPARTATE-ARGININE-02 | SPN-BIO-ASPARTATE-ARGININE-03 | SPN-BIO-ASPARTATE-ARGININE-04 | SPN-BIO-ASPARTATE-ARGININE-05 | SPN-BIO-ASPARTATE-ARGININE-06 | SPN-BIO-ASPARTATE-ARGININE-07
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Aspartic Acid
+103 BMS > Biochemistry > Individual amino acid Metabolism > Arginine
+103 BMS > Biochemistry > Individual amino acid Metabolism > Lysine
+103 BMS > Biochemistry > Individual amino acid Metabolism > Proline
+
+## university_notes
+kau: The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9, page 1) cancels "Aspartic acid" (row 7), "Arginine & lysine" (row 8) and "Histidine & proline" (row 9) from both the end-of-module and the final exam. All four are kept here because the department book still teaches them and a student may still meet them in class; blueprint_weight and exam_weight_by_year on the four concepts are written low and do not claim they are examined.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VI "Individual amino acid Metabolism", pages 95, 96 and 105.
+The Biochemistry department's orientation document for 2025-2026 establishes which items are cancelled.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The book does not state which of the two urea nitrogen atoms aspartate contributes, nor the enzyme interconverting proline and glutamate semialdehyde; neither is invented here.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to close four subheading gaps the coverage table found: Aspartic Acid, Arginine, Lysine and Proline had book text and cancelled-exam status but no concept and no article. Grouped as one article because the book itself pairs three of the four under two shared headings and the fourth, proline, shares their collagen theme with lysine.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T05 for amino acids and proteins; the book's own four headings are carried in module_subject.
+questionIds: No question record tests these four amino acids specifically. None is claimed here.
+media: No rights-cleared asset exists for this material, and none is requested — none of the book's four entries carries a figure of its own.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+claimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch, so claim_ids and span_ids are left [clear].
+
+---
+
+# Item
+
+## id
+ART-103-BIO-AMINO-ACID-SUMMARY-AND-ACTIVE-ACETATE
+
+## title
+The chapter's own two summaries: which amino acids are glucogenic or ketogenic, and where active acetate goes
+
+## arabic_title
+ملخصا الفصل: تصنيف الأحماض الأمينية ومسارات الأسيتات النشط
+
+## aliases
+Amino acid classification table
+Glucogenic ketogenic essential amino acids
+Active acetate sources and fates
+Acetyl-CoA metabolic hub
+
+## subject
+fnd
+
+## topic
+Amino acids and proteins
+
+## subtopic
+Individual amino acid Metabolism
+
+## microtopic
+Summary of Amino Acid Metabolism; Summary for the Metabolic Pathways of Active Acetate
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T05
+
+## secondary_node_ids
+DIS-BIO-T03 | DIS-BIO-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+9
+
+## high_yield
+Core
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+Chapter VI ends the way the vitamins chapter does, with a table, and then adds a second summary that has nothing to do with amino acids by name: where active acetate, the acetyl-CoA hub, comes from and where it goes. The first table sorts sixteen amino acids by two axes at once. The second traces the one molecule that ties carbohydrate, fat and protein metabolism into a single diagram.
+
+## sections
+### Definition
+Two summaries close chapter VI, back to back, and the book gives each its own heading. The first is the amino acid classification table: every amino acid taught in the chapter, sorted as glucogenic, ketogenic or mixed, and as essential, non-essential or semi-essential. The second is titled "Summary for the Metabolic Pathways of Active Acetate", and it steps outside amino acids entirely to trace acetyl-CoA across all three foodstuffs.
+
+### Mechanism
+The classification table has two purely ketogenic amino acids: leucine and lysine. It has three mixed amino acids, glucogenic and ketogenic at once: isoleucine, phenylalanine and tyrosine. Every other amino acid the chapter teaches — glycine, alanine, serine, threonine, valine, glutamic acid, aspartic acid, arginine, cysteine, methionine, tryptophan, histidine and proline — is glucogenic only. On essentiality, threonine, valine, leucine, isoleucine, lysine, methionine, phenylalanine, tryptophan and histidine are essential; arginine is semi-essential; the rest are non-essential.
+
+Active acetate's sources are four. Carbohydrates supply it through glycolysis to pyruvate, then pyruvate dehydrogenase. Triacylglycerol supplies it two ways: glycerol, through triose phosphate and glycolysis, and fatty acids, through beta-oxidation. Amino acids supply it directly if ketogenic, or indirectly through pyruvate if glucogenic. Ketone bodies supply it through ketolysis in extrahepatic tissue.
+
+Its fates are five. The citric acid cycle oxidises it for energy. Lipogenesis uses it to build fatty acids. Cholesterol synthesis uses it, through HMG-CoA. Ketogenesis uses it, in liver mitochondria, when fatty acid oxidation is excessive. And a set of acetylation reactions uses it directly: acetylcholine synthesis, N-acetylserotonin formation on the way to melatonin, N-acetylglutamate synthesis, and N-acetylamino sugar synthesis.
+
+### Key determinants
+The classification table's real trap is not the mixed group, which students expect, but the size of the "glucogenic only" group, which is larger than most students predict — thirteen of sixteen amino acids. Only two, leucine and lysine, are purely ketogenic, and holding that pair is more useful than trying to memorise the glucogenic list, which is everything else.
+
+The active acetate summary is the fact that makes the rest of the chapters in this book cohere. A question that seems to be about lipogenesis, or about the citric acid cycle, or about ketogenesis, is often testing whether a student sees that all three start from the same molecule, arriving by different routes.
+
+### Clinical significance
+The classification table has clinical weight through the amino acids it flags: a deficiency of branched-chain α-keto acid dehydrogenase, maple syrup urine disease, affects one purely essential, mixed-classification group (valine, leucine, isoleucine) at once, which is why the table groups them together rather than teaching each alone.
+
+The active acetate summary explains, in one diagram, why a ketogenic diet raises ketone bodies (fat oxidation floods the pathway with acetyl-CoA faster than the citric acid cycle or lipogenesis can use it, so ketogenesis absorbs the excess) and why uncontrolled diabetes does the same by a different route (glucose cannot enter cells, so fat is oxidised instead).
+
+### Common misconceptions
+Assuming an amino acid's classification can be read off its structure. It cannot reliably; the table is what the book examines, and leucine and lysine's status as the only two purely ketogenic amino acids is a fact to memorise, not derive.
+
+Treating the active acetate summary as a repeat of the citric acid cycle page. The cycle is one of five fates listed here, not the whole of the topic; a question on this page is usually testing one of the other four.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Leucine and lysine are the only two purely ketogenic amino acids in the chapter.
+Isoleucine, phenylalanine and tyrosine are mixed, glucogenic and ketogenic.
+Every other amino acid taught in the chapter is glucogenic only.
+Active acetate has four sources — carbohydrate, triacylglycerol, amino acids, ketone bodies — and five fates — TCA cycle, lipogenesis, cholesterol synthesis, ketogenesis, acetylation.
+
+## lose_the_mark
+Guessing an amino acid's classification instead of citing the table.
+Forgetting that active acetate's fates include acetylation reactions, not only the three big pathways.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-F91310521FC982 | CON-FND-0C22ADD8295933
+
+## related_articles
+ART-103-BIO-TCA-KEY-ENZYMES: the fate this summary names first, taught in full
+ART-103-BIO-KETONE-BODY-METABOLISM: the fate that absorbs excess active acetate in fasting and in diabetes
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Individual amino acid Metabolism > Summary of Amino Acid Metabolism
+103 BMS > Biochemistry > Individual amino acid Metabolism > Summary for the Metabolic Pathways of Active Acetate
+
+## university_notes
+kau: Neither summary appears in the Biochemistry department's cancelled-items table; both are taken as examinable.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VI "Individual amino acid Metabolism", pages 106 to 108.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The classification table's metabolic-error column is not reproduced in full here, since each disorder it names already has its own concept and article elsewhere in this file.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to close two subheading gaps the coverage table found: the chapter's own two closing summaries had book text but no concept and no article. Paired in one article because the book prints them on consecutive pages as the chapter's own two-part close.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T05 for amino acids and proteins; the book's own two headings are carried in module_subject.
+questionIds: No question record tests these two summaries specifically. None is claimed here.
+media: No rights-cleared asset exists for either table; both would benefit from a redrawn figure, but none is requested here to keep this batch within its concept-and-article scope.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+claimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch, so claim_ids and span_ids are left [clear].
+
+---
+
+# Item
+
+## id
+ART-103-BIO-METABOLIC-INTEGRATION-STAGES
+
+## title
+The feed-starve cycle, stage by stage: well-fed, early fasting, late fasting and starvation
+
+## arabic_title
+دورة التغذية والصيام: مراحلها الأربع
+
+## aliases
+Well-fed state
+Early fasting state
+Late fasting state
+Starvation state
+Metabolic integration stages
+Feed-starve cycle tissue panels
+
+## subject
+fnd
+
+## topic
+Metabolic integration
+
+## subtopic
+Metabolic Integrations
+
+## microtopic
+Metabolism in the Well-Fed State; Early, Late Fasting and Starvation States
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T03
+
+## secondary_node_ids
+SYS-END-T06 | DIS-BIO-T04
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+12
+
+## high_yield
+Supporting
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+The department cancels this whole chapter from both exams, and the book still gives it six pages and four figures, one tissue-by-tissue panel per stage. The four stages are not four separate topics; they are one continuous story, told through the same five organs — brain, muscle, liver, pancreas, adipose tissue — as the insulin-to-glucagon ratio falls and the fuel supply shifts from dietary glucose, to hepatic glycogen, to adipose fat, to the body's own protein.
+
+## sections
+### Definition
+The feed-starve cycle answers one question across four stages: where does the next unit of ATP come from, now that the last meal is further and further away? The book gives four named stages with named hour ranges: well-fed, 0 to 4 hours; early fasting, 4 to 18 hours; late fasting, 18 to 48 hours; starvation, beyond 48 hours. Each stage gets its own figure, five panels — brain, muscle, liver, pancreas, adipose tissue — and its own one-line summary of the dominant fuel and hormone.
+
+### Mechanism
+In the well-fed state, insulin rises and glucagon falls as blood glucose increases from the meal. Muscle and adipose tissue increase glucose uptake through GLUT-4 and increase glycolysis; muscle also builds glycogen and takes up amino acids for protein synthesis, and adipose tissue builds fat. The liver increases glucose uptake, glycolysis, glycogenesis, lipogenesis and cholesterol synthesis. Glucose is the fuel, insulin the hormone.
+
+Early fasting, 4 to 18 hours out, reverses the ratio: insulin falls, glucagon rises. The brain is unaffected and keeps using glucose by glycolysis. Muscle switches off glucose uptake and glycogenesis, and turns on beta-oxidation. The liver switches off glucose uptake, glycolysis, glycogenesis and lipogenesis, and turns on glycogenolysis, gluconeogenesis and beta-oxidation. Adipose tissue turns off lipogenesis and turns on lipolysis. One exception matters here: muscle glycogenolysis cannot supply plasma glucose directly, because muscle lacks glucose-6-phosphatase; it fuels muscle itself, mainly during exercise, not fasting. Glucose from hepatic glycogenolysis is the fuel, glucagon the hormone.
+
+Late fasting, 18 to 48 hours, is where the switch from glucose-burning to fat-burning completes. Glycogen stores are significantly depleted, so gluconeogenesis takes over blood glucose maintenance, and lipolysis, beta-oxidation, ketogenesis and ketolysis all rise. Muscle increases beta-oxidation and starts breaking down its own protein, transaminating the resulting pyruvate to alanine for the liver, through the glucose-alanine cycle. The liver increases gluconeogenesis, beta-oxidation and ketogenesis. Fatty acids from adipose lipolysis are the fuel, and anti-insulin hormones — glucagon, catecholamines, cortisol, growth hormone — now predominate together.
+
+Starvation, beyond 48 hours, has two priorities in order: first, enough glucose for the brain; second, sparing protein, by substituting fatty acids and ketone bodies. The kidney joins the liver as a gluconeogenic organ, contributing up to half of blood glucose, which itself does not fall below 70 mg/dL. After two to five days, the liver makes large amounts of ketone bodies, gluconeogenesis from protein decreases, and the brain begins drawing roughly a third of its energy from ketone bodies. After several weeks, ketone bodies become the brain's major fuel, and survival time is set by the size of the triacylglycerol depot; once fat is exhausted, protein is the only fuel left, its breakdown accelerates, and death follows organ failure.
+
+### Key determinants
+Two threads run through all four panels and are worth tracking across the whole cycle rather than stage by stage. The insulin/glucagon ratio falls monotonically from well-fed to starvation, and every other change in the four figures follows from that one number. And the brain's fuel source is the story's real arc: glucose throughout the first three stages, unconditionally, then increasingly ketone bodies from the second half of starvation onward — the single change that finally allows the body to slow, though never stop, its own protein breakdown.
+
+### Clinical significance
+This chapter is where fasting hypoglycaemia, diabetic ketoacidosis and starvation ketosis all become the same biochemistry seen at different settings of one dial. A diabetic in ketoacidosis is, metabolically, stuck in a late-fasting or starvation pattern despite having just eaten, because insulin cannot signal the well-fed state to the tissues; the panels in this article are the reference to check a case against.
+
+Post-surgical and critically ill patients move through these same stages faster and under added catabolic stress from cortisol and catecholamines, which is why the muscle-protein-breakdown step of late fasting is not a curiosity but the mechanism behind ICU muscle wasting.
+
+### Common misconceptions
+Treating the four stages as four unrelated topics to memorise separately rather than one falling insulin/glucagon ratio with four snapshots taken along the way.
+
+Assuming muscle glycogen helps maintain blood glucose. It cannot — the book states this exception explicitly for exactly this reason.
+
+Placing ketosis proper in late fasting rather than starvation. Beta-oxidation and ketogenesis begin rising in late fasting, but the book's own "state of ketosis" language is attached to starvation, after two to five days, not to the 18-to-48-hour stage.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+Well-fed (0-4h): insulin up, glucose the fuel, storage everywhere.
+Early fasting (4-18h): glucagon up, hepatic glycogenolysis the fuel; muscle glycogen cannot supply plasma glucose.
+Late fasting (18-48h): glycogen depleted, gluconeogenesis takes over, glucose-alanine cycle carries muscle nitrogen to the liver.
+Starvation (48h+): kidney joins the liver making glucose; ketone bodies gradually become the brain's main fuel, sparing protein.
+
+## lose_the_mark
+Mixing up which stage muscle glycogenolysis can and cannot supply plasma glucose in.
+Placing full ketosis in late fasting instead of starvation.
+Forgetting the kidney's gluconeogenic role, which is unique to starvation.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-61DA35C82C732F | CON-FND-EFF5FB178CDDFA | CON-FND-7F3A2AEFD5FF87 | CON-FND-0741CE71FB0569
+
+## related_articles
+ART-103-BIO-FEED-STARVE-CYCLE: the chapter-level overview and the glucose-alanine cycle from the liver's side
+ART-103-BIO-GLUCONEOGENESIS-AND-CORI-CYCLE: the pathway that carries every stage past early fasting
+ART-103-BIO-KETONE-BODY-METABOLISM: the fate that dominates by starvation
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+CLM-AA05279554FA
+
+## span_ids
+SPN-BIO-METABOLIC-INTEGRATION-01 | SPN-BIO-METABOLIC-INTEGRATION-02
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in the Well-Fed State
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Early Fasting State
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Late Fasting State
+103 BMS > Biochemistry > Metabolic Integrations > Metabolism in Starvation State
+
+## university_notes
+kau: The Biochemistry department's orientation for 2025-2026 (src_90b75d63a73cfc7649b9, page 1) cancels "Metabolic integration" (row 10), citing the department book's own pages 109-114 — exactly this chapter — from both the end-of-module and the final exam. Six question records elsewhere in this module test these four stages regardless (fasting hypoglycaemia, starvation fuel sources, the glucose-alanine cycle), which is why this article and its four concepts are authored despite the cancellation: a cancelled topic still appears in the question book and a student may still meet it. blueprint_weight and exam_weight_by_year on the four concepts are written low and do not claim they are examined.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+### diagram · The feed-starve cycle's four stages on one clock face
+Brief: The book's own circular figure redrawn: Well-Fed State at 0 hours, Early Fasting at 4-18 hours, Late Fasting at 18-48 hours, and Starvation from 48 hours onward, arranged clockwise around a clock face with Food Consumption marked at the top
+Purpose: Teaches all four concepts in this article at once. The book's own figure is this exact clock layout; a linear list of four stages loses the cyclical framing that makes clear the cycle restarts at the next meal.
+Priority: strongly helpful
+Status: needed
+Section: Definition
+Kind: diagram
+Source direction: openly licensed biochemistry text, or a redraw commissioned from the department figure cited by locator
+Rights: must be CC-BY or public domain
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter VII "Metabolic Integrations", pages 110 to 114.
+The Biochemistry department's orientation document for 2025-2026 establishes that this chapter is cancelled from both exams, cited as curriculum signal only.
+
+## evidence_gaps
+Every statement rests on one source, the department book. No independent verification against an international biochemistry reference has been attached.
+The book gives 'about a third' for the brain's early ketone-body energy share in starvation and no figure at all for the later, major-fuel stage; only the figure the book states is repeated here.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to close four subheading gaps the coverage table found: all four named stages of the feed-starve cycle had book text and six waiting questions but no concept or article carrying their own tissue-by-tissue detail — only the chapter-level overview existed. TPL-CONCEPT rather than TPL-CONDITION because the subject is physiological adaptation, not disease.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T03 for carbohydrate/metabolic integration; the book's own four stage headings are carried in module_subject.
+questionIds: Six question records in this module (103-BMS-MCQ-lipid-diabetes.md) test these four stages already, by main_concept id or by topic; this lane does not own the question file and does not edit it, so no question_ids are claimed here — that cross-link is for the question lane to complete by pointing at these four new concept ids and this article.
+media: No rights-cleared asset exists for the clock-face figure requested above; the department book's own figure is faculty teaching material and is cited by locator, not reproduced.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+claimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch, so claim_ids and span_ids are left [clear].
+
+---
+
+# Item
+
+## id
+ART-103-BIO-PYRIMIDINE-METABOLISM
+
+## title
+Pyrimidine nucleotide metabolism: two donors build the ring, and its catabolism never causes gout
+
+## arabic_title
+استقلاب البيريميدين
+
+## aliases
+Pyrimidine ring synthesis
+Pyrimidine catabolism
+Beta-alanine beta-aminoisobutyrate
+Why pyrimidine catabolism does not cause gout
+
+## subject
+fnd
+
+## topic
+Molecular biology
+
+## subtopic
+Metabolism of purines and pyrimidines
+
+## microtopic
+Pyrimidine Metabolism
+
+## nanotopic
+
+
+## primary_node_id
+DIS-BIO-T06
+
+## secondary_node_ids
+SYS-FND-T06 | DIS-BIO-T05
+
+## template_id
+TPL-CONCEPT
+
+## archetype
+concept
+
+## language
+en
+
+## learner_stage
+Years 1–3 foundation
+
+## reading_time
+6
+
+## high_yield
+Supporting
+
+## time_sensitive
+stable
+
+## status
+Draft
+
+## owner
+Claude
+
+## reviewer
+Dr. Omar
+
+## final_publisher
+Admin team
+
+## summary
+After several pages on purine synthesis, salvage and disorders, the book gives pyrimidine metabolism one diagram and one paragraph. That imbalance is deliberate, not an omission: the whole clinical weight of this section of the chapter is on the purine side, where catabolism ends in poorly soluble uric acid and gout. Pyrimidine catabolism ends somewhere entirely different, in small, freely soluble pieces, and that single contrast is the fact this short page exists to teach.
+
+## sections
+### Definition
+The book's pyrimidine section is compressed into a labelled diagram of the ring's atom sources and one sentence on catabolism, set against several pages on purines a few pages earlier in the same chapter.
+
+### Mechanism
+The pyrimidine ring's six atoms come from only two sources: the amide group of glutamine contributes nitrogen and carbon at three ring positions, and aspartate contributes the rest, with one carbon supplied by CO2. This is simpler than the purine ring, which the book gives five different atomic sources across four donor molecules a few pages earlier — glycine, glutamine, aspartate, CO2 and a formyl group from the folate pool.
+
+Catabolism of the pyrimidine ring ends in products that are all small and freely water-soluble: carbon dioxide, ammonia, and either beta-alanine, from uracil and cytosine, or beta-aminoisobutyrate, from thymine. All are easily excreted.
+
+### Key determinants
+The determinant that matters here is solubility, and it is the reason this section exists at all next to the purine disorders section. Purine catabolism ends in uric acid, which is poorly soluble and crystallises in joints and the urinary tract, causing gout and renal stones — the subject of several pages and a named clinical syndrome elsewhere in this chapter. Pyrimidine catabolism ends in beta-alanine or beta-aminoisobutyrate, both of which are ordinary, freely soluble metabolites with no crystallisation problem and no named disease attached to their excess.
+
+### Clinical significance
+The book names no disorder of pyrimidine metabolism at all, in contrast to the purine section's gout, Lesch-Nyhan syndrome and severe combined immunodeficiency. That silence is itself the teaching point for this course: a question that asks which of the two nucleotide classes is linked to a crystal arthropathy has only one correct answer, and it is not pyrimidines.
+
+### Common misconceptions
+Expecting a pyrimidine equivalent of gout. There is not one in this book, and inventing one is the single most likely error on this page — the solubility of the catabolic end products is exactly why no such disease exists to name.
+
+Confusing the two rings' atom-source counts. Five sources for purines, two for pyrimidines, is a fact worth holding as a pair, because a matching question is likely to test exactly this asymmetry.
+
+## published_summary
+
+
+## published_sections
+
+
+## hold_these
+The pyrimidine ring's atoms come from only two sources: glutamine's amide group and aspartate.
+Pyrimidine catabolism ends in CO2, NH3, and beta-alanine (uracil, cytosine) or beta-aminoisobutyrate (thymine).
+Those end products are freely water-soluble, which is why pyrimidine catabolism does not cause a gout-like disease.
+
+## lose_the_mark
+Naming a pyrimidine equivalent of gout that the book does not give.
+Mixing up the atom-source counts for the two rings.
+
+## callout_evidence
+
+
+## related_concepts
+CON-FND-D2044E7265FB03
+
+## related_articles
+ART-103-BIO-PURINE-SYNTHESIS-AND-SALVAGE: the purine ring's five sources, for the contrast this article draws
+ART-103-BIO-URIC-ACID-AND-PURINE-DISORDERS: the gout the pyrimidine side of the chapter does not have an equivalent of
+
+## question_ids
+[clear]
+
+## resource_ids
+src_300847a5fa64809d6c07
+
+## article_source_ids
+src_300847a5fa64809d6c07
+
+## claim_ids
+[clear]
+
+## span_ids
+[clear]
+
+## universities
+kau
+
+## years
+KAU_Y1
+
+## module
+103 BMS
+
+## module_subject
+103 BMS > Biochemistry > Metabolism of purines and pyrimidines > Pyrimidine Metabolism
+
+## university_notes
+kau: Pyrimidine metabolism does not appear in the Biochemistry department's cancelled-items table; it is taken as examinable, unlike several of its neighbouring subheadings in this chapter and the next.
+
+## annotations
+
+
+## media
+
+
+## media_recommendations
+
+
+## publication_gate
+needs_evidence
+
+## evidence_basis
+Kasr Al Ainy Biochemistry department book for module 103 BMS, chapter IX "Metabolism of purines and pyrimidines", page 129.
+
+## evidence_gaps
+Every statement rests on one source, the department book, and the book itself gives very little on pyrimidine synthesis specifically — one diagram and one sentence on catabolism — compared with several pages on purines; that asymmetry is the book's own, not an omission in this article.
+No independent verification against an international biochemistry reference has been attached.
+
+## conflicts
+[clear]
+
+## last_reviewed
+
+
+## review_due
+
+
+## notes
+Written to close one subheading gap the coverage table found: Pyrimidine Metabolism had book text but no concept or article, despite Biosynthesis, Catabolism and Disorders of Purine Nucleotides all being covered elsewhere in this module's batches. A live, general-purpose article on purine and pyrimidine metabolism exists in the platform (ART-REN-TOP-AD3B2EA126) but is not cited to this department book and carries no 103 BMS module_subject, so it is not a duplicate of this book-specific record.
+
+## field_notes
+nanotopicId: The canonical tree stops at DIS-BIO-T06 for molecular biology; the book's own heading is carried in module_subject.
+questionIds: No question record tests pyrimidine metabolism specifically in this module's batches. None is claimed here.
+media: No rights-cleared asset exists for the ring-atom-sources diagram; the book's own figure is faculty teaching material and is cited by locator, not reproduced. None is requested given how little the book itself provides to illustrate.
+lastReviewed: New record; it has not been reviewed yet.
+reviewDue: Set when the first review completes.
+claimIds: This lane owns concept/ and article/ files only; no claim, citation or span record is authored in this batch, so claim_ids and span_ids are left [clear].
+
