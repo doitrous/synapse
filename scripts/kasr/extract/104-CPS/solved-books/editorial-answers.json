@@ -78,6 +78,12 @@
    "cluster": "Histology / Cardiovascular System - Arteries (tail) + Heart + Veins",
    "keyed": 14,
    "excluded": 6
+  },
+  {
+   "batch": 14,
+   "cluster": "Histology / Cardiovascular System - Veins (tail) + Cytogenetics: Cell Division",
+   "keyed": 19,
+   "excluded": 1
   }
  ],
  "keyed": {
@@ -1536,6 +1542,195 @@
     "C": "End-systolic volume is a consequence of the heart's pumping performance, not the variable that Starling's law identifies as directly determining contraction strength."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-distensibility-of-the-veins-is-more-than-the-of-arteries-4051477c": {
+   "answer": "A",
+   "explanation": "Veins are considerably more distensible (compliant) than arteries of comparable size, commonly cited as approximately eight to ten times more compliant, since their thinner walls with proportionally less smooth muscle and elastic tissue allow a much larger volume change for a given change in internal pressure. This high venous compliance is precisely what allows the venous system to function as the body's blood volume reservoir, accommodating shifts in blood volume with minimal effect on venous pressure. The exam takeaway is to round this comparison to roughly '10 times', the closest standard textbook approximation among the given choices, when comparing venous to arterial distensibility.",
+   "distractorNotes": {
+    "B": "20 times overstates the standard textbook comparison of venous to arterial distensibility.",
+    "C": "30 times substantially overstates the standard comparison.",
+    "D": "40 times substantially overstates the standard comparison."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-following-is-a-difference-between-medium-sized-artery-an-e8d4f013": {
+   "answer": "C",
+   "explanation": "After death, medium-sized veins characteristically show a collapsed, often wrinkled or folded lumen in histological sections, because their thin walls and low intraluminal pressure cannot maintain a rounded, distended shape once blood flow and pressure cease. Arteries, by contrast, tend to appear relatively empty of blood after death (rather than full), since their elastic recoil actively expels much of their luminal blood as the vessel constricts once perfusion stops, while more of the body's static blood volume settles in the more passively distensible venous system. The histology takeaway is to use lumen shape (collapsed/folded in veins vs. rounded, often blood-empty in arteries) as one practical clue for distinguishing artery from vein in a post-mortem or fixed tissue section.",
+   "distractorNotes": {
+    "A": "The tunica intima's defining postmortem/histological distinguishing feature between artery and vein is its tendency to appear folded in veins (due to wall collapse), not a simple difference in intimal thickness.",
+    "B": "Medium-sized veins have relatively sparse elastic fibres in their tunica media compared with arteries, not numerous ones -- arteries are the vessel type with a well-developed elastic component in the media.",
+    "D": "Arteries typically appear relatively empty of blood after death due to elastic recoil expelling luminal contents, the opposite of what this option states."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-internal-elastic-lamina-is-prominent-in-5830712a": {
+   "answer": "C",
+   "explanation": "A prominent, sharply defined internal elastic lamina is the signature histological feature of medium-sized (muscular) arteries, marking the clear boundary between the tunica intima and the smooth-muscle-rich tunica media. In large elastic arteries such as the aorta, this same lamina cannot be distinguished as a separate structure because it blends in among the many concentric elastic laminae filling the media, and veins of any size (medium veins, the inferior vena cava) generally lack a well-developed internal elastic lamina altogether, consistent with their lower-pressure, less muscular wall architecture.",
+   "distractorNotes": {
+    "A": "In large elastic arteries, the internal elastic lamina is present but not distinguishable as a separate structure from the many other elastic laminae of the media.",
+    "B": "Medium-sized veins generally lack a well-developed internal elastic lamina.",
+    "D": "The inferior vena cava, like veins generally, lacks a well-developed internal elastic lamina."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-mediastinal-surface-of-the-left-lang-shows-an-impression-24a9bb35": {
+   "answer": "D",
+   "explanation": "The mediastinal surface of the left lung, being on the side the aorta occupies for most of its thoracic course, characteristically shows a distinct groove/impression for the descending thoracic aorta running down its posterior part, alongside impressions for the aortic arch, the heart, and the left subclavian artery. The superior and inferior venae cavae, by contrast, are right-sided structures and instead leave their impressions on the mediastinal surface of the RIGHT lung, not the left, making those options topically mismatched with the stem's question about the left lung specifically.",
+   "distractorNotes": {
+    "A": "The superior vena cava is a right-sided structure, leaving its impression on the mediastinal surface of the right lung, not the left.",
+    "B": "The inferior vena cava is also a right-sided structure related to the right lung's mediastinal surface, not the left.",
+    "C": "This statement, about the pulmonary ligament and pulmonary vein distension, is an unrelated fact about a different topic (venous accommodation) bled into this option list rather than an answer about the left lung's mediastinal impressions."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-pressure-volume-curve-of-veins-has-the-following-criteri-0f33e8a9": {
+   "answer": "A",
+   "explanation": "The venous pressure-volume relationship is characterised by high compliance within the normal physiological range: a large increase in venous blood volume produces only a small rise in venous pressure, which is exactly what allows the venous system to function as the body's blood volume reservoir, buffering shifts in blood volume without dramatically altering central venous pressure or cardiac filling. This behaviour reverses only once the vein's wall approaches its structural elastic limit at very high (excessive) volumes, at which point further volume increases require progressively larger pressure increases (the curve flattens, meaning the volume-to-pressure ratio actually becomes LOW, not high, near this limit). The exam takeaway is to associate 'large volume change, small pressure change' specifically with veins' normal high-compliance operating range, the functional basis of their reservoir role.",
+   "distractorNotes": {
+    "B": "This describes low compliance (large pressure change for a given volume change), the opposite of how veins normally behave within their compliant range.",
+    "C": "Near the vein wall's structural limit at excessive volumes, the volume-to-pressure ratio actually becomes very LOW (not high), as the stiffening wall requires progressively greater pressure for further distension.",
+    "D": "Vessel diameter does change (increases) as internal pressure rises within the vessel's elastic range; it does not remain constant, which is the entire basis of a pressure-volume relationship existing at all."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-26042411": {
+   "answer": "D",
+   "explanation": "The inferior vena cava is a specific, classically cited example of a large vein whose tunica adventitia contains longitudinal bundles of smooth muscle, an unusual feature for a vein and a detail commonly used in histology teaching to help identify this particular vessel on a slide. This differs from most veins, whose adventitia typically contains connective tissue with only occasional smooth muscle, making the IVC's well-developed longitudinal muscle bundles a distinguishing, named-vessel feature rather than a generic venous characteristic. The exam takeaway is to treat 'longitudinal smooth muscle in the adventitia' as a specific identifying feature of the inferior vena cava among the venous vessels tested in this bank.",
+   "distractorNotes": {
+    "A": "Longitudinal smooth muscle in the tunica adventitia is also a recognised secondary feature of large elastic arteries like the aorta, but in the context of this vein-focused question set, the inferior vena cava is the specific vessel this feature is being tested for.",
+    "B": "Medium-sized arteries are defined by their smooth-muscle-rich tunica media and prominent internal elastic lamina, not by longitudinal smooth muscle in the adventitia.",
+    "C": "Medium-sized veins do not have this specific, well-developed longitudinal adventitial smooth muscle feature to the extent the inferior vena cava does."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-are-called-capacitance-vessels-that-h-06f1d3bd": {
+   "answer": "B",
+   "explanation": "Veins and venules are termed 'capacitance vessels' because their high compliance and large aggregate volume allow them to hold the majority of the body's total circulating blood volume (roughly 60-70%) at any given time, functioning as a low-pressure reservoir that can expand or contract to buffer changes in blood volume and adjust venous return. This is functionally distinct from arteries and arterioles, which are instead termed 'resistance vessels' (or, for large arteries, 'conductance/windkessel vessels'), built to withstand and regulate pressure rather than to store blood volume. The exam takeaway is to pair the term 'capacitance vessel' specifically with veins, holding the largest blood volume share of any vascular compartment.",
+   "distractorNotes": {
+    "A": "Arteries hold a comparatively modest share of total blood volume and are termed conductance (or, for arterioles, resistance) vessels, not capacitance vessels.",
+    "C": "Capillaries hold only about 5% of total blood volume, the smallest major compartment, and function for exchange rather than volume storage.",
+    "D": "Arterioles are termed 'resistance vessels', the primary site of vascular resistance regulation, not capacitance vessels for blood volume storage."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "longitudinal-splitting-of-chromosomes-happens-in-the-followi-dd089630": {
+   "answer": "C",
+   "explanation": "Anaphase is defined by the longitudinal splitting of each chromosome's centromere, separating the two sister chromatids so that each is pulled by shortening kinetochore microtubules toward opposite poles of the dividing cell. This is the precise moment the genetic material is physically divided into two equal sets, immediately preceding telophase, when the cell begins to re-form two separate nuclei around each set of chromosomes. The exam takeaway is to fix 'centromere/chromosome splits, sister chromatids separate' as anaphase's single defining event, distinguishing it from prophase (chromosome condensation), metaphase (alignment at the equator), and telophase (nuclear reformation).",
+   "distractorNotes": {
+    "A": "Prophase is characterised by chromosome condensation and spindle formation, not chromatid separation.",
+    "B": "Metaphase is characterised by chromosomes aligning at the cell's equatorial plate, held intact (not yet split) by spindle fibres from both poles.",
+    "D": "Telophase is characterised by nuclear envelope reformation and chromosome decondensation around the already-separated chromatid sets, occurring after the splitting event of anaphase."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "mitosis-is-characterized-by-the-following-a-exchange-of-gene-0099d1c3": {
+   "answer": "B",
+   "explanation": "Mitosis is characterised by the complete absence of crossing over (and therefore no exchange of genetic material between homologous chromosomes), since it involves no pairing of homologous chromosomes at all -- each chromosome simply duplicates and its sister chromatids separate, producing two daughter cells that are genetically identical to the parent cell and to each other. This is a fundamental distinguishing feature from meiosis, where crossing over during prophase I of the first meiotic division is a defining, essential source of genetic variation among the resulting gametes. The exam takeaway is to pair mitosis strictly with 'no crossing over, genetically identical daughter cells, same (diploid) chromosome number preserved'.",
+   "distractorNotes": {
+    "A": "Exchange of genes (crossing over) is a defining feature of meiosis, not mitosis, which involves no pairing of homologous chromosomes.",
+    "C": "Mitotic daughter cells retain the same (diploid, 2n) chromosome number as the parent cell, not a haploid (n) number, which is instead the outcome of meiosis.",
+    "D": "Mitotic daughter cells are genetically identical to the mother cell (barring rare mutation), not different from it, since no crossing over or independent assortment occurs."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-mitosis-2b0b7327": {
+   "answer": "D",
+   "explanation": "Mitosis involves no exchange of genetic material between chromosomes at all, since it does not include pairing of homologous chromosomes or crossing over -- each chromosome simply replicates and its identical sister chromatids are separated into the two daughter cells, which is precisely why mitotic daughter cells are genetically identical to the parent cell. This distinguishes mitosis sharply from meiosis, which occurs specifically in germ cells, involves two successive divisions, and produces genetically varied, haploid daughter cells via crossing over and independent assortment. The exam takeaway is to fix 'somatic cells, single division, diploid daughter cells, no gene exchange' as mitosis's defining profile, the mirror opposite of meiosis's profile.",
+   "distractorNotes": {
+    "A": "Mitosis occurs in somatic cells, not germ cells; meiosis is the division specific to germ cells for gamete formation.",
+    "B": "Mitotic daughter cells retain the diploid chromosome number of the parent cell, not a haploid number, which is instead meiosis's outcome.",
+    "C": "Mitosis is a single cell division, not two successive divisions -- the two-division pattern is characteristic of meiosis (meiosis I and II)."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-cell-division-71282d45": {
+   "answer": "C",
+   "explanation": "Centriole duplication is a genuine, essential part of the cell division cycle, occurring during interphase (specifically alongside S-phase DNA replication) so that each daughter cell inherits a complete centrosome with duplicated centrioles, ready to organise the mitotic spindle apparatus for the next round of division. This preparatory duplication ensures that the two new centrosomes formed can each nucleate their own set of spindle microtubules, one migrating to each pole of the dividing cell. The exam takeaway is to remember centriole duplication as an S-phase/interphase event that sets up the machinery mitosis itself will later use, distinct from the chromosomal events (crossing over, cleavage furrow formation) tested in the other options.",
+   "distractorNotes": {
+    "A": "S-phase (DNA synthesis) is part of interphase, occurring before mitosis proper begins, so describing mitosis as having 'no S stage' is a defensible statement about mitosis itself, but the more clearly and specifically correct fact among these options is centriole duplication.",
+    "B": "The cleavage furrow, marking the onset of cytokinesis, appears during and after telophase, not metaphase II (a meiosis-specific phase in any case).",
+    "D": "Crossing over occurs at chiasmata between homologous chromosomes during prophase I of meiosis, not at the kinetochore, which is instead the unrelated spindle-fibre attachment site on the centromere."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-meiotic-cell-division-meiosis-51b08c53": {
+   "answer": "B",
+   "explanation": "Meiosis is defined by producing daughter cells (gametes) with a haploid (n) number of chromosomes, exactly half the diploid (2n) number found in the parent germ cell, achieved through two successive divisions (meiosis I and II) that include a single round of DNA replication. This chromosome number reduction is essential for sexual reproduction, ensuring that fertilisation (fusion of two haploid gametes) restores the normal diploid chromosome number in the resulting zygote. The exam takeaway is to fix 'germ cells, two divisions, haploid daughter cells, crossing over occurs' as meiosis's defining profile, the mirror opposite of mitosis.",
+   "distractorNotes": {
+    "A": "Meiosis occurs specifically in germ cells, not somatic cells, which instead undergo mitosis.",
+    "C": "Meiosis is two successive divisions (meiosis I and II), not a single division.",
+    "D": "Crossing over between homologous chromosomes is a defining, essential feature of meiosis (occurring during prophase I), not something absent from it."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "segments-of-dna-molecules-that-code-for-formation-of-specifi-d5b539e9": {
+   "answer": "B",
+   "explanation": "A gene is, by definition, a segment of DNA that carries the coded instructions for the synthesis of a specific protein (or functional RNA molecule), making this the direct, foundational definition being tested here. This is distinct from the kinetochore (a protein complex assembled at the centromere for spindle fibre attachment), the centromere (the constricted chromosomal region where sister chromatids are joined and where the kinetochore assembles), and chiasmata (the visible points of crossing over between homologous chromosomes during meiosis) -- all of which are structural or mechanical features of chromosomes involved in cell division, not the coding units of heredity themselves.",
+   "distractorNotes": {
+    "A": "Kinetochores are protein structures at the centromere serving as spindle fibre attachment sites during cell division, not DNA segments coding for proteins.",
+    "C": "The centromere is the chromosomal region joining sister chromatids and anchoring the kinetochore, a structural feature rather than a protein-coding DNA segment.",
+    "D": "Chiasmata are the visible crossover points between homologous chromosomes during meiotic prophase I, not protein-coding DNA segments."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-cell-division-occurring-in-somatic-cells-is-characterize-6fcc3694": {
+   "answer": "B",
+   "explanation": "Somatic cells divide by mitosis, which is characterised by a complete absence of crossing over and gene exchange, since mitosis involves no pairing of homologous chromosomes -- each chromosome simply duplicates and separates its sister chromatids, yielding two genetically identical daughter cells. This is the functional opposite of meiosis (which produces bivalents/tetrads via homologous chromosome pairing, involves two successive divisions, and produces four haploid (1n) daughter cells through crossing over), the division type reserved for germ cells rather than somatic cells. The exam takeaway is to keep mitosis's profile (somatic cells, no crossing over, genetically identical diploid daughters, single division) strictly separate from meiosis's profile.",
+   "distractorNotes": {
+    "A": "Bivalents (tetrads), formed by homologous chromosome pairing, are a meiosis-specific feature (prophase I), not seen in mitosis.",
+    "C": "Mitosis is a single division, not two successive divisions -- the two-division pattern belongs to meiosis.",
+    "D": "Mitosis produces two diploid (2n) daughter cells, not four haploid (1n) daughter cells, which is instead the outcome of meiosis."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-chromosomal-microtubules-of-the-mitotic-spindle-bc625da2": {
+   "answer": "D",
+   "explanation": "Chromosomal (kinetochore) microtubules are specifically the spindle fibres that attach directly to the kinetochores of sister chromatids, and during anaphase they progressively shorten (depolymerise at their kinetochore-attached ends), physically pulling the separated sister chromatids toward opposite spindle poles. This is distinct from the mitotic spindle's other two microtubule categories: polar (interpolar) microtubules, which slide past each other to help elongate the cell during anaphase, and astral microtubules, which radiate outward in a star-like pattern from each centrosome to anchor the spindle apparatus to the cell cortex. The exam takeaway is to match each spindle microtubule type to its specific job: chromosomal/kinetochore microtubules pull chromatids apart; polar microtubules elongate the cell; astral microtubules anchor and position the spindle.",
+   "distractorNotes": {
+    "A": "Elongating the cell during division is the role of the polar (interpolar) microtubules, which slide against each other, not the chromosomal/kinetochore microtubules specifically.",
+    "B": "Extending outward in a star-like pattern describes the astral microtubules, which anchor the spindle to the cell cortex, not the chromosomal/kinetochore microtubules."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "two-discs-of-protein-located-at-centromere-for-spindle-fiber-e8770502": {
+   "answer": "A",
+   "explanation": "Kinetochores are the paired protein disc structures assembled on either side of the centromere, serving as the specific attachment sites for spindle fibre (kinetochore microtubule) binding during mitosis and meiosis, which is precisely the function this question describes. Each sister chromatid has its own kinetochore, allowing the two spindle poles to attach to opposite chromatids and subsequently pull them apart during anaphase. This is distinct from telomeres (protective caps at chromosome ends, unrelated to spindle attachment), genes (protein-coding DNA segments), and chiasmata (crossover points in meiosis).",
+   "distractorNotes": {
+    "B": "Telomeres are the protective structures capping the ends of chromosomes, preventing degradation and fusion, entirely unrelated to spindle fibre attachment.",
+    "C": "Genes are DNA segments coding for proteins, not the protein structures responsible for spindle fibre attachment.",
+    "D": "Chiasmata are the visible crossover points between homologous chromosomes during meiotic prophase I, unrelated to spindle fibre attachment at the centromere."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "using-specific-chemical-chromatids-are-stopped-from-separati-796779b2": {
+   "answer": "C",
+   "explanation": "Chemicals such as colchicine (or related spindle poisons like colcemid) arrest dividing cells specifically at metaphase by disrupting spindle microtubule function, preventing the kinetochore microtubules from ever pulling sister chromatids apart into anaphase -- this metaphase arrest is precisely the technique used in cytogenetic karyotyping, since chromosomes are maximally condensed and individually visible at this stage, making them easiest to photograph, count, and analyse for abnormalities. This deliberate pharmacological arrest is a cornerstone laboratory technique for chromosome analysis, distinguishing it from naturally occurring cell cycle checkpoints. The exam takeaway is to associate 'chemical arrest of chromatid separation' specifically with metaphase, the basis of the karyotyping procedure.",
+   "distractorNotes": {
+    "A": "Prophase precedes spindle attachment to chromosomes entirely, so there is no chromatid separation event at this stage to be chemically blocked.",
+    "B": "Anaphase is the very event (chromatid separation) that spindle-poison chemicals prevent from ever occurring; the arrest happens before, at metaphase, not during anaphase itself.",
+    "D": "Telophase occurs after chromatid separation has already taken place, so an arrest aimed at preventing separation would act earlier, at metaphase."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "when-the-chromosome-divides-transversely-during-anaphase-0536de99": {
+   "answer": "A",
+   "explanation": "Normally, a chromosome's centromere splits longitudinally during anaphase, dividing each chromatid so that every daughter cell receives one complete copy of each chromosome arm. If the centromere instead divides transversely (across its short axis, perpendicular to the normal plane of division), each resulting chromosome ends up with two copies of the same arm (either two short arms or two long arms) rather than one of each -- this abnormal event is precisely how an isochromosome is formed. Isochromosomes are a recognised structural chromosomal abnormality with clinical significance, such as the isochromosome of the long arm of the X chromosome (i(Xq)) seen in some cases of Turner syndrome.",
+   "distractorNotes": {
+    "B": "The Philadelphia chromosome arises from a reciprocal translocation between chromosomes 9 and 22, an entirely different mechanism from transverse centromere division.",
+    "C": "A ring chromosome forms when a chromosome breaks at both ends and the broken ends fuse together, a different mechanism from transverse centromere splitting.",
+    "D": "Terminal deletion results from loss of a chromosome's end segment following a single break, not from an abnormal transverse centromere division."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-patient-was-diagnosed-as-having-chronic-myeloid-leukemia-h-e370e170": {
+   "answer": "A",
+   "explanation": "Chronic myeloid leukaemia is classically caused by a reciprocal translocation between chromosomes 9 and 22, t(9;22), which creates the abnormally shortened 'Philadelphia chromosome' (the derivative chromosome 22) and fuses the BCR gene on chromosome 22 with the ABL1 gene from chromosome 9, producing a constitutively active BCR-ABL tyrosine kinase that drives uncontrolled myeloid cell proliferation. This specific translocation is one of medicine's most well-established genotype-phenotype correlations, and its discovery was foundational to both cytogenetic diagnosis of leukaemia and the later development of targeted tyrosine kinase inhibitor therapy (imatinib). The exam takeaway is to fix 'CML = Philadelphia chromosome = t(9;22)' as an essential, frequently tested cytogenetics-oncology fact.",
+   "distractorNotes": {
+    "B": "Deletion of the short arm of chromosome 4 causes Wolf-Hirschhorn syndrome, an unrelated congenital disorder, not CML.",
+    "C": "Deletion of the short arm of chromosome 5 causes Cri-du-chat syndrome, an unrelated congenital disorder, not CML.",
+    "D": "Centric (Robertsonian) fusion of chromosomes 14 and 21 is associated with familial translocation Down syndrome, not CML."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -1904,6 +2099,9 @@
   },
   "regarding-the-fetal-circulation-and-circulatory-changes-afte-6044f685": {
    "reason": "Both surviving substantive options are confidently false under standard fetal circulation physiology (oxygenated blood returns to the fetus via the umbilical VEIN, not the umbilical artery; the ductus arteriosus shunts blood from the pulmonary trunk/artery to the aorta, not from the pulmonary veins), and the third surviving 'option' (a bare diagnosis name, 'Atrial septal defect') does not fit the sentence structure of a statement to evaluate as true or false. The correct statement was most likely in a missing option C."
+  },
+  "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b": {
+   "reason": "The likely correct embedded statement (the heart lies in the middle mediastinum, which is true) has no surviving option letter, option A is a bare, incomplete fragment ('The right atrium') that does not form a complete statement, and the three remaining lettered options (B, C, D) are each confidently false under standard cardiac anatomy (the heart's base is formed mainly by the left, not right, atrium; the apex is formed by the left ventricle alone, not both ventricles; and the left, not right, atrium receives the four pulmonary veins)."
   }
  }
 }
