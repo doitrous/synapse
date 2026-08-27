@@ -14,10 +14,10 @@
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
     Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
-    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 18 questions, 4 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  11 questions were excluded and 0 held back for having no
+  15 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -956,6 +956,7 @@ src_f0dc974eca83c51623bc | question_book | | p31 | 104 CPS
 src_f0dc974eca83c51623bc | question_book | | p68 | 104 CPS
 src_375227d5b7c819636151 | question_book | | p26 | 104 CPS
 src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -994,6 +995,8 @@ chromosome-classification.by-gene-content-centromere-position-and-length
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
 src_a80db7ee55cde84f8ec8 | question_book | | p15 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p15 | 104 CPS
+src_f0dc974eca83c51623bc | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -1011,6 +1014,7 @@ The Barr body is the inactive, coiled X chromosome, present in normal females an
 sex-chromatin.barr-body-structure-and-clinical-significance
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
 ## field_notes
@@ -1081,6 +1085,23 @@ canonical_key "mitosis-vs-meiosis.comparison" already has a pinned id in this mo
 
 # Item
 ## id
+CON-DEV-451A64C9445CAB
+## label
+A numerical chromosomal aberration is euploidy — an exact multiple of the haploid number beyond diploid — or aneuploidy — an addition or loss of one chromosome
+## canonical_key
+numerical-chromosomal-aberration.euploidy-and-aneuploidy-types
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p36 | 104 CPS
+## article_ids
++ART-104-HIS-NUMERICAL-ABERRATIONS
+## field_notes
+canonical_key "numerical-chromosomal-aberration.euploidy-and-aneuploidy-types" already has a pinned id in this module (CON-DEV-451A64C9445CAB); mintConceptId derives the same id fresh (CON-DEV-451A64C9445CAB) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
 CON-DEV-294FB8DDA40429
 ## label
 Down syndrome is trisomy 21, from non-disjunction or a 14;21 translocation, with mental retardation and characteristic dysmorphic features
@@ -1092,6 +1113,7 @@ src_79af3b3857ba47239529 | question_book | | p3 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p38 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes
@@ -1113,6 +1135,8 @@ src_9cf32ada2b25fa54f0e9 | question_book | | p41 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p37 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p39 | 104 CPS
 src_be181ad1f0be0dab13c9 | question_book | | p3 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p2 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
 ## article_ids
 +ART-104-HIS-NUMERICAL-ABERRATIONS
 ## field_notes

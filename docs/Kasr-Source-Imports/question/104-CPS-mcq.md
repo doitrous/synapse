@@ -14,10 +14,10 @@
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
     Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
-    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 18 questions, 4 concepts
+    Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 26 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 21 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
-    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 12 questions, 3 concepts
+    Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations — 21 questions, 3 concepts
     Cytogenetics — Structural Aberrations — 13 questions, 1 concepts
     Macrophage system — 5 questions, 1 concepts
     Lymphatic and Macrophage System — Lymph Node — 3 questions, 1 concepts
@@ -41,7 +41,7 @@
   has learnt nothing, so a distractor's explanation says what would make someone
   pick it.
 
-  11 questions were excluded and 0 held back for having no
+  15 questions were excluded and 0 held back for having no
   establishable answer. Both stay in the seeds with their reasons rather than being
   deleted — a question dropped silently is one nobody can reconsider.
 
@@ -7003,6 +7003,558 @@ Extraction confidence high; the answer came from no source and was supplied by t
 
 # Item
 ## id
+QM-104-D40EC4740570
+## title
+According to gene content in chromosomes, autosomes are:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+According to gene content in chromosomes, autosomes are:
+## answer_a
+23 homologous pair of chromosomes
+## explanation_a
+Twenty-three homologous pairs describes the total chromosome complement BY NUMBER (22 autosome pairs plus 1 sex-chromosome pair) — not autosomes specifically, which number 22 pairs, and not the gene-content classification this stem asks about.
+## answer_b
+One pair of chromosomes
+## explanation_b
+Autosomes as a category comprise 22 pairs, not a single pair.
+## answer_c
+Control somatic characters
+## explanation_c
+By gene content, autosomes are the 22 homologous pairs that control the body's general somatic (non-sex-determining) characters — the classification this stem specifically asks for, distinct from the by-number or by-centromere-position classifications.
+
+Why this is right:
+- Chromosomes are classified three ways.
+## answer_d
+Control the sex of the individual
+## explanation_d
+Controlling the sex of the individual is the defining role of the sex chromosomes by gene content, not the autosomes.
+## correct_answer
+C
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+State that, by gene content, autosomes control somatic characters, against three false statements mixing in the by-number and by-function classifications.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p15 q8. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-AE58823BD3FC
+## title
+barr body (sex chromatin)
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+barr body (sex chromatin)
+## answer_a
+active coiled x-chromosome in female
+## explanation_a
+The Barr body is the INACTIVE, coiled X chromosome, not the active one — the active X chromosome stays extended and inapparent, which is exactly why only the inactive one is visible as a distinct chromatin mass.
+## answer_b
+inactive coiled x-chromosome in female
+## explanation_b
+The Barr body (sex chromatin) is the inactive, coiled, dark-staining X chromosome seen in a female cell's nucleus, while the other X chromosome remains active, extended and inapparent.
+
+Why this is right:
+- Sex chromatin, the Barr body, first described by Murray Barr, is a darkly stained mass of chromatin representing the inactive, coiled, dark-staining X chromosome in the nucleus of a female cell, while the other X chromosome stays active, extended and inapparent.
+## answer_c
+3-5% in buccal cell nuclei
+## explanation_c
+3-5% is the frequency the Barr body appears as a drumstick-like mass in female blood neutrophils, not the definition of what the Barr body itself is.
+## answer_d
+60% in blood leukocyte
+## explanation_d
+60% is the frequency the Barr body is seen on the inner nuclear envelope of female buccal epithelial cells, not the definition of what the Barr body itself is.
+## correct_answer
+B
+## main_concept
+CON-FND-7FE32E35CA4C7F
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Define the Barr body as the inactive, coiled X chromosome in a female cell, against its active counterpart and its two site-specific appearance frequencies.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q47. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-0BBB76B496A6
+## title
+Which of the following is true for Barr body?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is true for Barr body?
+## answer_a
+Lies on the inner aspect of the nuclear envelope in all buccal epithelial cells
+## explanation_a
+The Barr body is seen on the inner nuclear envelope in about 60% of female buccal epithelial cell nuclei, not literally 'all' of them — overstating the frequency.
+## answer_b
+It appears as a drum stick like mass in 3-5% of female neutrophils
+## explanation_b
+The Barr body appears as a drumstick-like mass in 3 to 5% of female blood neutrophils — the specific, correctly stated figure among the four options.
+
+Why this is right:
+- Sex chromatin, the Barr body, first described by Murray Barr, is a darkly stained mass of chromatin representing the inactive, coiled, dark-staining X chromosome in the nucleus of a female cell, while the other X chromosome stays active, extended and inapparent.
+## answer_c
+Number of Barr bodies equals to the number of X-chromosomes in nucleus
+## explanation_c
+The number of Barr bodies equals the number of X chromosomes MINUS ONE, not the number of X chromosomes itself — every somatic cell keeps at least one active X, which is never counted as a Barr body.
+## answer_d
+Patient with Turner syndrome has one Barr body in her cells
+## explanation_d
+A Turner syndrome patient (45,XO) has only a single X chromosome and so shows ZERO Barr bodies, not one — a Barr body requires an inactivated SECOND X to exist.
+## correct_answer
+B
+## main_concept
+CON-FND-7FE32E35CA4C7F
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State the 3-5% neutrophil drumstick figure as true for the Barr body, against three overstated or reversed claims.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q11. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+2 materially different wordings of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-7D2471049ED6
+## title
+Protein discs located at centromere for attachment for spindle fibers:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Protein discs located at centromere for attachment for spindle fibers:
+## answer_a
+Kinetochores
+## explanation_a
+Kinetochores are the two discs of protein at the centromere to which spindle fibres attach during cell division — the same fact this leaf's sibling question tests with different phrasing.
+
+Why this is right:
+- Chromosomes are chromatin fibres that become so condensed and tightly coiled during mitosis and meiosis that they are visible with the light microscope.
+## answer_b
+Genes
+## explanation_b
+A gene is a segment of DNA coding for a specific protein — a coding unit, not the protein discs this stem describes.
+## answer_c
+Telomeres
+## explanation_c
+Telomeres are the repeated-sequence regions capping a chromosome's ends, unrelated to spindle-fibre attachment.
+## answer_d
+Centromere
+## explanation_d
+The centromere is the chromosomal constriction the kinetochore assembles on — the landmark itself, not the protein disc structure this stem asks for.
+## correct_answer
+A
+## main_concept
+CON-FND-918BBB81C26937
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name kinetochores as the protein discs at the centromere for spindle-fibre attachment (duplicate exam phrasing of this leaf's own kinetochore-is-0d17451f question).
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q108. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5C46902B51C4
+## title
+Submetacentric chromosome is characterized by the centromere:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Submetacentric chromosome is characterized by the centromere:
+## answer_a
+At the center of chromosome. |
+## explanation_a
+A centromere at the exact centre, giving equal arms, describes a metacentric chromosome, not submetacentric.
+## answer_b
+Midway between the center and upper end
+## explanation_b
+Submetacentric describes a centromere positioned midway between the centre and one end, giving a short arm shorter than the long arm but not extremely so — the definition this stem asks for.
+
+Why this is right:
+- Chromosomes are classified three ways.
+## answer_c
+Close to the upper end. |
+## explanation_c
+A centromere close to the upper end, giving a very short arm, describes an acrocentric chromosome, not submetacentric.
+## answer_d
+Is terminal
+## explanation_d
+A terminal centromere, with no short arm at all, describes a telocentric chromosome (not present in humans), not submetacentric.
+## correct_answer
+B
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Place the submetacentric centromere midway between centre and end, against the metacentric, acrocentric and telocentric positions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY 104 exams Not answerd (1) (1).pdf p14 q5. Manifest src_f0dc974eca83c51623bc.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-12253189AF40
+## title
+The chromosome with centromere at its center is known as:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The chromosome with centromere at its center is known as:
+## answer_a
+Metacentric chromosome
+## explanation_a
+A metacentric chromosome has its centromere at the exact centre, giving two arms of equal length — matching this stem's description directly.
+
+Why this is right:
+- Chromosomes are classified three ways.
+## answer_b
+Submetacentric chromosome
+## explanation_b
+A submetacentric chromosome has its centromere off-centre, midway between the centre and one end, giving unequal (not equal) arms.
+## answer_c
+Acrocentric chromosome
+## explanation_c
+An acrocentric chromosome has its centromere close to one end, giving a very short arm.
+## answer_d
+Telocentric chromosome
+## explanation_d
+A telocentric chromosome has its centromere at the very terminal end, with no short arm at all, and does not occur in humans.
+## correct_answer
+A
+## main_concept
+CON-FND-29D305EDFC022D
+## library_ids
+ART-104-HIS-CHROMOSOME-STRUCTURE-KARYOTYPE
+## topic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## subtopic
+Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Human Chromosome
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name metacentric as the centromere-at-centre chromosome type, against submetacentric, acrocentric and telocentric.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p15 q109. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-952791BAD541
 ## title
 in clearage furrow, All are free except
@@ -10133,6 +10685,650 @@ Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandee
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from the question book itself.
 Answer changed from the source's: The printed key (D, chronic myeloid leukaemia) contradicts the book. Histology department book p48 states a chromosome-21 translocation (with 14) is a cause of Down syndrome; the Philadelphia chromosome that causes chronic myeloid leukaemia (p51-52) is a separate, acquired 9;22 translocation, not something a parent 'carries' and passes to a child.
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-142F301827F4
+## title
+A Child with mental retardation, hypotonia and mongol - like features has ‏ا‎ ‎performe…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A Child with mental retardation, hypotonia and mongol - like features has ‏ا‎ ‎performed karyotyping test. He was found to have 46 chromosomes. One 1 of the following could be seen in his karyotype: 1
+## answer_a
+46, Robertsonian translocation (21 & 14)
+## explanation_a
+A 46-chromosome karyotype with the Down syndrome phenotype (mental retardation, hypotonia, mongoloid facial features) points to translocation Down syndrome, most commonly a Robertsonian translocation fusing chromosome 21 onto chromosome 14 — the extra chromosome-21 material rides along on chromosome 14 rather than existing as a free 47th chromosome, keeping the total count at 46 while still producing three functional copies of chromosome-21 material.
+
+Why this is right:
+- Down syndrome (mongolism) results from either non-disjunction of chromosome 21, giving trisomy 21, or a translocation between chromosomes 21 and 14, which accounts for 3 to 4% of cases.
+## answer_b
+46, Philadelphia chromosome
+## explanation_b
+The Philadelphia chromosome is the marker for chronic myeloid leukaemia, from an acquired 9;22 translocation — unconnected to the Down syndrome phenotype.
+## answer_c
+46, duplication of chromosome 14 I
+## explanation_c
+A duplication of chromosome 14 alone is not a described cause of Down syndrome; the translocation cause fuses 21 onto 14, it does not duplicate 14.
+## answer_d
+deletion of chromosome 21
+## explanation_d
+A deletion of chromosome 21 would remove genetic material, the opposite of the extra chromosome-21 material that produces Down syndrome's features.
+## correct_answer
+A
+## main_concept
+CON-DEV-294FB8DDA40429
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise that a Down-syndrome child with 46 chromosomes has the translocation form, a Robertsonian fusion of 21 and 14, not the Philadelphia chromosome, a duplication or a deletion.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q2. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-931D879D3954
+## title
+A méntaliy retarded female patient with short stature, primary amenorrhea | and underde…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+A méntaliy retarded female patient with short stature, primary amenorrhea | and underdeveloped secondary sex organs was asked: to perform karyotyping. Her karyotype would probably be: |
+## answer_a
+47, XXY
+## explanation_a
+47,XXY is the karyotype for Klinefelter syndrome, which affects males (tall stature, small testes, gynecomastia) — not this female patient's short stature and amenorrhoea.
+## answer_b
+45, XO
+## explanation_b
+The Turner syndrome karyotype, 45,XO, matches this vignette's short stature, primary amenorrhoea and underdeveloped secondary sex organs — the classic triad from ovarian dysgenesis in a single-X female.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+AT, XY trisomy 21
+## explanation_c
+'47, XY trisomy 21' names a genetically male karyotype notation, inconsistent both with the stated female sex and with Down syndrome's own distinct phenotype (present from birth, not this pubertal presentation).
+## answer_d
+47, XXX
+## explanation_d
+47,XXX is triple X syndrome, whose features are delayed language development and motor/auditory problems — not the short stature and primary amenorrhoea this vignette specifically describes.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Recognise short stature, primary amenorrhoea and underdeveloped secondary sex organs in a female as Turner syndrome, karyotype 45,XO, against three karyotypes for other conditions.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q1. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B89DB8A68B57
+## title
+all characters of multiple x-chromosome except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+all characters of multiple x-chromosome except
+## answer_a
+monosomy sex chromosome with XO
+## explanation_a
+The exception, and the answer. 'Monosomy sex chromosome with XO' describes Turner syndrome, not multiple X syndrome — triple X syndrome (47,XXX) is a trisomy, an addition of a sex chromosome, the opposite numerical change from Turner's monosomy.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_b
+female having addition of x-chromosome
+## explanation_b
+True of multiple X syndrome, so not the exception. It is a female with an additional X chromosome beyond the normal two.
+## answer_c
+2 barr body are present
+## explanation_c
+True, so not the exception. Two Barr bodies are present in triple X syndrome, one fewer than the three X chromosomes present.
+## answer_d
+ovum with 2x is fertilized with sperm having X-some
+## explanation_d
+True, so not the exception. Triple X syndrome arises when an ovum carrying two X chromosomes (from non-disjunction) is fertilised by a normal X-bearing sperm.
+## correct_answer
+A
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that multiple-X (triple X) syndrome is a trisomy, not the monosomy with an XO karyotype, and identify that as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q63. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-833CA5EFECBE
+## title
+All characters of turner syndrome except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of turner syndrome except
+## answer_a
+45 chromosome with XO
+## explanation_a
+True of Turner syndrome, so not the exception. Its karyotype is 45 chromosomes with an XO (single X) sex-chromosome complement.
+## answer_b
+no sex chromatin
+## explanation_b
+True, so not the exception. With only one X chromosome, a Turner syndrome patient has no sex chromatin (no Barr body) at all.
+## answer_c
+male with only one x-chromosome
+## explanation_c
+The exception, and the answer. Turner syndrome affects FEMALES with a single X chromosome, not males — describing it as a male condition reverses the sex the syndrome actually affects.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_d
+ovum with no x is fertilized by sperm with one X
+## explanation_d
+True, so not the exception. Turner syndrome arises when an ovum with no X chromosome (from non-disjunction) is fertilised by a normal X-bearing sperm.
+## correct_answer
+C
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that Turner syndrome affects females with a single X chromosome, not males, and identify that as the false statement.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p37 q64. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-804C7155F8EA
+## title
+Amale child at puberty is presented with mental retardation, tall stature, | small test…
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Amale child at puberty is presented with mental retardation, tall stature, | small testis and widely separated nipples. This condition could be due to: 1
+## answer_a
+Trisomy of chromosome 21
+## explanation_a
+Trisomy of chromosome 21 causes Down syndrome, a distinct phenotype present from birth, not this pubertal, hypogonadal presentation.
+## answer_b
+Loss of autosome during mitosis
+## explanation_b
+Loss of an autosome during mitosis is generally lethal to the affected cell line or produces a very different, non-viable outcome, not this specific pubertal phenotype.
+## answer_c
+Loss of Y chromosome during meiosis.
+## explanation_c
+Loss of the Y chromosome during meiosis would tend toward a Turner-like (45,X) karyotype, not the extra-X Klinefelter phenotype this vignette describes.
+## answer_d
+Non disjunction of the X chromosomes.
+## explanation_d
+Mental retardation, tall stature, small testes and widely separated nipples (gynecomastia) at puberty is the Klinefelter phenotype (47,XXY), which arises from non-disjunction of the X chromosomes during meiosis, producing a gamete carrying an extra X chromosome.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## correct_answer
+D
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Clinical vignette
+## learning_objective
+Attribute the Klinefelter phenotype at puberty to non-disjunction of the X chromosomes, against three unrelated mechanisms.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p2 q4. Manifest src_79af3b3857ba47239529.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence low; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-7563B60A4B68
+## title
+Euploidy include All the following except
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+Euploidy include All the following except
+## answer_a
+multiple of haploid number
+## explanation_a
+True of euploidy, so not the exception. A euploid karyotype is an exact multiple of the haploid number, exceeding the diploid number.
+## answer_b
+additional loss of one chromosome
+## explanation_b
+The exception, and the answer. 'Additional loss of one chromosome' describes aneuploidy (specifically monosomy), not euploidy — euploidy is always a whole extra haploid set, never an off-by-one count.
+
+Why this is right:
+- Numerical aberrations are anomalies of chromosome number, occurring in germ or somatic cells, and are of two kinds.
+## answer_c
+may be triploid with 69 chromosome
+## explanation_c
+True, so not the exception. Triploidy (3n) totals 69 chromosomes, an exact multiple of the 23-chromosome haploid set.
+## answer_d
+maybe tetraploid with 92 chromosome
+## explanation_d
+True, so not the exception. Tetraploidy (4n) totals 92 chromosomes, likewise an exact multiple of the haploid set.
+## correct_answer
+B
+## main_concept
+CON-DEV-451A64C9445CAB
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of a false statement
+## learning_objective
+State that a single-chromosome loss is aneuploidy, not euploidy, and identify that as the false statement among euploidy's true characters.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p36 q52. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-E1E35EFF998F
+## title
+One of the following is a numerical aberration in sex chromosomes:
+## subject
+dev
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a numerical aberration in sex chromosomes:
+## answer_a
+Down's syndrome
+## explanation_a
+Down's syndrome is a numerical aberration, but of an autosome (chromosome 21), not a sex chromosome.
+## answer_b
+Turner's syndrome
+## explanation_b
+Turner's syndrome (45,XO) is a numerical aberration of the sex chromosomes — a monosomy from loss of one X — matching exactly what this stem asks for.
+
+Why this is right:
+- Numerical aberrations of the sex chromosomes are caused by non-disjunction in the first meiotic division of the primary oocyte, which can produce an ovum with two X chromosomes or none.
+## answer_c
+Isochromosome
+## explanation_c
+An isochromosome is a structural aberration (from transverse rather than longitudinal centromere division), not a numerical one.
+## answer_d
+Translocation
+## explanation_d
+A translocation is a structural aberration (movement of a segment between chromosomes), not a numerical one.
+## correct_answer
+B
+## main_concept
+CON-DEV-C5F7B1973F8049
+## library_ids
+ART-104-HIS-NUMERICAL-ABERRATIONS
+## topic
+Histology-general
+## subtopic
+Cytogenetics — Numerical Aberrations, Down Syndrome, Sex-Chromosome Aberrations
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Name Turner's syndrome as the numerical (not structural) sex-chromosome aberration among the four options.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p40 q12. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
 1 materially different wording of this question exist in the books and were not collapsed into it.
 
 ---
