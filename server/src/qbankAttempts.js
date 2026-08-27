@@ -91,6 +91,18 @@ export function rankMastery(rows) {
     .map((row, index) => ({ rank: index + 1, ...row }))
 }
 
+/**
+ * The viewer's own position within a full ranked leaderboard array (before
+ * it is sliced to `limit`). `ranked` rows carry `userId` and `rank` per
+ * `rankAccuracy`/`rankMastery`; a viewer absent from `ranked` (below the
+ * eligibility floor, or with no verified attempts this term) is ineligible
+ * with `rank: null`, but `total` still reflects the full cohort.
+ */
+export function viewerStanding(ranked, userId) {
+  const row = ranked.find((entry) => entry.userId === userId) ?? null
+  return { eligible: Boolean(row), rank: row?.rank ?? null, total: ranked.length, row }
+}
+
 async function studentProfile(userId) {
   const [rows] = await pool.query(
     `SELECT id, university_id AS universityId, year,
@@ -181,7 +193,21 @@ export async function leaderboardFor(userId, { metric = 'accuracy', term = 'curr
         WHERE a.university_id = ? AND a.year = ? AND a.term = ?`,
       [profile.universityId, profile.year, cleanTerm],
     )
-    return { metric: 'mastery', term: cleanTerm, scope: { universityId: profile.universityId, year: profile.year }, rows: rankMastery(rows).slice(0, limit) }
+    const ranked = rankMastery(rows)
+    const standing = viewerStanding(ranked, userId)
+    const viewer = {
+      eligible: standing.eligible,
+      rank: standing.rank,
+      total: standing.total,
+      securedConcepts: standing.row?.securedConcepts ?? 0,
+    }
+    return {
+      metric: 'mastery',
+      term: cleanTerm,
+      scope: { universityId: profile.universityId, year: profile.year },
+      rows: ranked.slice(0, limit),
+      viewer,
+    }
   }
   const [rows] = await pool.query(
     `SELECT a.user_id AS userId, COALESCE(s.username, CONCAT('student-', LEFT(s.id, 6))) AS username,
@@ -193,5 +219,21 @@ export async function leaderboardFor(userId, { metric = 'accuracy', term = 'curr
       GROUP BY a.user_id, s.username, s.profile_icon, s.id`,
     [profile.universityId, profile.year, cleanTerm],
   )
-  return { metric: 'accuracy', term: cleanTerm, scope: { universityId: profile.universityId, year: profile.year }, rows: rankAccuracy(rows).slice(0, limit) }
+  const ranked = rankAccuracy(rows)
+  const standing = viewerStanding(ranked, userId)
+  const viewerQueryRow = rows.find((row) => row.userId === userId) ?? null
+  const viewer = {
+    eligible: standing.eligible,
+    rank: standing.rank,
+    total: standing.total,
+    verifiedAnswers: Number(standing.row?.verifiedAnswers ?? viewerQueryRow?.verifiedAnswers ?? 0),
+    requiredAnswers: 100,
+  }
+  return {
+    metric: 'accuracy',
+    term: cleanTerm,
+    scope: { universityId: profile.universityId, year: profile.year },
+    rows: ranked.slice(0, limit),
+    viewer,
+  }
 }

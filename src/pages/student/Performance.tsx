@@ -61,7 +61,14 @@ interface LeaderboardRow {
 interface LeaderboardResponse {
   rows: LeaderboardRow[]
   scope?: { university?: string; year?: string; term?: string }
-  viewer?: { eligible: boolean; verifiedAnswers?: number; requiredAnswers?: number }
+  viewer?: {
+    eligible: boolean
+    verifiedAnswers?: number
+    requiredAnswers?: number
+    rank?: number | null
+    total?: number
+    securedConcepts?: number
+  }
 }
 
 // Keyed loosely, so nothing here fails to compile when a surface is added —
@@ -143,11 +150,13 @@ const RANK_TONE: Record<number, { badge: string; row: string }> = {
 }
 
 /**
- * The student's own place relative to this board, from data the page already
- * has — never the board's own ranking, which the API does not expose beyond
- * the visible rows. Mastery reads the local concept ledger; accuracy reads
- * the local attempt log. Only the eligibility gate (verified-answer count) is
- * a real figure returned by the leaderboard endpoint itself.
+ * The student's own place relative to this board. The headline number
+ * (secured concepts, or accuracy) still comes from data the page already
+ * has — mastery reads the local concept ledger, accuracy reads the local
+ * attempt log — but the eligibility gate, cohort rank, and cohort size are
+ * real figures returned by the leaderboard endpoint itself (`viewer.rank`
+ * and `viewer.total`, computed server-side over the full ranked cohort
+ * before it is sliced to the visible rows).
  */
 function YourStanding({ metric, viewer, records }: {
   metric: LeaderboardMetric
@@ -167,12 +176,22 @@ function YourStanding({ metric, viewer, records }: {
   const eligible = viewer?.eligible ?? false
   const verified = viewer?.verifiedAnswers ?? 0
   const required = viewer?.requiredAnswers ?? 100
+  const rank = viewer?.rank ?? null
+  const total = viewer?.total ?? 0
+  const hasRank = eligible && typeof rank === 'number' && total > 0
 
   return (
     <Panel className={cn('p-4', eligible ? 'border-success/25 bg-success-tint/20' : 'border-primary-line bg-primary-tint/25')}>
-      <p className={cn('text-[10.5px] font-semibold uppercase tracking-[0.08em]', eligible ? 'text-success' : 'text-primary-strong')}>
-        {eligible ? t('Your standing') : t('Your standing — still private')}
-      </p>
+      <div className="flex items-center justify-between gap-2">
+        <p className={cn('text-[10.5px] font-semibold uppercase tracking-[0.08em]', eligible ? 'text-success' : 'text-primary-strong')}>
+          {eligible ? t('Your standing') : t('Your standing — still private')}
+        </p>
+        {hasRank && (
+          <Badge tone="success" className="tnum font-mono">
+            #{rank} {t('of')} {total}
+          </Badge>
+        )}
+      </div>
       <div className="mt-2.5 flex items-center gap-3">
         <span className={cn('grid size-10 shrink-0 place-items-center rounded-full border', eligible ? 'border-success/30 bg-surface text-success' : 'border-primary-line bg-surface text-primary-strong')}>
           <Icon icon={metric === 'mastery' ? ShieldQuestion : ClipboardCheck} size={17} />
@@ -184,6 +203,12 @@ function YourStanding({ metric, viewer, records }: {
           <p className="text-[11px] text-ink-3">{metric === 'mastery' ? t('secured concepts, on your own log') : t('overall accuracy, on your own log')}</p>
         </div>
       </div>
+      {hasRank && (
+        <p className="mt-2 text-[12px] font-medium text-ink-2">
+          {t("You're")} <span className="tnum font-mono font-semibold text-ink">#{rank}</span> {t('of')}{' '}
+          <span className="tnum font-mono font-semibold text-ink">{total}</span> {t('in your cohort.')}
+        </p>
+      )}
 
       <div className="mt-3.5">
         <div className="flex items-center justify-between text-[11px] text-ink-2">
