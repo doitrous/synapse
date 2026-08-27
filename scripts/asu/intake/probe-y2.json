@@ -1,0 +1,1046 @@
+{
+ "yearId": "ASU_Y2",
+ "count": 130,
+ "probed": [
+  {
+   "rel": "Term 1/Blood/All Subjects/Assessments/Formatives/Blood Formativs.pdf",
+   "sha256": "5f32908fa752a0cb246396375fa695ed62181c557c94d6ff416fe70f1b136e12",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 121,
+   "ocrSample": ". 1 ‎poneynennaiier‏ مه ‎~ © Subacute combined degeneration ~~ 4 plummer-Vinson syndrome ‎~ © Erythroblastosis fetalis"
+  },
+  {
+   "rel": "Term 1/Blood/All Subjects/Department Books/DPT BOOK - Blood 2025_2026 4th edition.pdf",
+   "sha256": "eab99f56be4b2e3a16a71d40396c938738faab9af7fb17eba7ad18b0c31ee189",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 92,
+   "ocrSample": "3 ~ ‘ , STUDY GUIDE ‏ال‎ 3 6 FOURTH EDITION ‏د‎ a Staff Members of Faculty of Medicine 2 pal"
+  },
+  {
+   "rel": "Term 1/Blood/Anatomy/Lectures/Dr. Youssef/Anatomy Blood.pdf",
+   "sha256": "67ca9beb4351c37dc5f1d3507fa3c7117e0ea9fe0cbd30f74e94713270e20830",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 999,
+   "ocrSample": "( Lymph Nodes of The Head & Neck ) Dr Youssef Shoukry AM $$ ‏لل ملس‎ _—§_. They are arranged as: + S@EGSMar that extends from below the chin to the back of the head, ٠ 2, A deep eantigad group in the neck embedded in the carotid sheath. 3 ‏ارلا‎ ‎Mae : Submental Tonsilar / 3 05 5 Submandibular 3 ‏عم‎ zn Antgor Gétyical ea ae 5 = wey 3 ‏كاك ع نح‎ 0 ‏ا‎ 5 I. The collar | = Occipital nodes: RS » Lie over the occipital bone on the back of the skull. » Drain the(@@emOmnelsealp) \" | 13 ‏ل‎ Retroauricu"
+  },
+  {
+   "rel": "Term 1/Blood/Biochemistry/Lectures/Dr.Omar/Bg Bio Ch 1-2-3 Blood Dr.Omar.pdf",
+   "sha256": "babe59e80197ca059cf3760b3d95886b50fd0ea1ffcd8cd364ead40e061e324f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 190,
+   "ocrSample": "Faculty Of Medicine DES CA Ain Shams University 506 2025 / 2026 8 BIOCHEMISTRY = Chapter. aeons ‏بور‎ | Hemoglobin Structure i and Function ee CS Blood Module 0 www. biochemistry.academy ١ 9"
+  },
+  {
+   "rel": "Term 1/Blood/Histology/Lectures/Dr.Zahra/Bg Histo Blood Dr.Zahra",
+   "sha256": "e5d1624be2735061bfb7b04e3d3a9ab02d71998b1ef75fffc2e54c25ba5c04dd",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 73,
+   "ocrSample": "HISTOLOGY © 6 a « vt / 2” year Ain Shams Medical Students DR. Ahmed Zahra"
+  },
+  {
+   "rel": "Term 1/Blood/Histology/Lectures/Dr.Zahra/his lymphatic (part 2 ).pdf",
+   "sha256": "59ff97baaddefc2c5e81d8f23f72147c817ccca32e39447da127fc98ce23dfb7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 170,
+   "ocrSample": "mt a A 1 HISTOLOGY WITH ZAHRA STAIN ae ALR 8 LYE 4, 2| ) << ‏ل‎ ‎iy ‏“م‎ iN i A ey) ‏ااا‎ Ce OD AIR I LYMPHATIC SYSTEM 2™ year Ain Shams Medical Students DR. Ahmed Zahra"
+  },
+  {
+   "rel": "Term 1/Blood/Microbiology/Lectures/Dr.Ashraf/Bg Micro Blood Ch 6.pdf",
+   "sha256": "3879e62db1f354863951f67e5af733f1adb6822415e83e0624a2a4bbc438b0f6",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "® MICROTUTORIALS BLOOD MODULE Ee eit 6 7 eae DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Blood/Microbiology/Lectures/Dr.Ashraf/Bg Micro Ch1&2 Blood Dr.Ashraf.pdf",
+   "sha256": "1120a3825c934443ddb4f626ac80fd734ca59f4da529624ba3c590551fb14956",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 101,
+   "ocrSample": "7 MICROTUTORIALS BLOOD MODULE Ole 10) 6, Bae 7 | ‏7و‎ ‎Oat ieee ‏معن‎ DR. MUHAMMAD ASHRAF ‏م‎ ulse."
+  },
+  {
+   "rel": "Term 1/Blood/Microbiology/Lectures/Dr.Ashraf/Micro Blood Ch 3.pdf",
+   "sha256": "17a73bc41fa3106c8ddecc86b3646a20e2dfa4e8de2c544a32aad0f00ac18257",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 76,
+   "ocrSample": "26 © MICROTUTORIALS BLOOD MODULE oi 3 ‏الى‎ ‏سيا‎ DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Blood/Microbiology/Lectures/Dr.Ashraf/Micro Blood Ch4.pdf",
+   "sha256": "0eca56d5be771542754f191747235d66b35174280fdba30cd207feffaa7a8c39",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 72,
+   "ocrSample": "26 © MICROTUTORIALS BLOOD MODULE Bisons Se Ty DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Blood/Microbiology/Lectures/Dr.Ashraf/Micro Blood Ch5.pdf",
+   "sha256": "6be972b0c39d450dd9c116e3a36afb69731f913a60ac9dd03c53a421e7c0e5e7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 62,
+   "ocrSample": "26 5 MICROTUTORIALS BLOOD MODULE ee DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Lectures/Dr.ayman/Bg Para Dr Ayman Blood 1.pdf",
+   "sha256": "da642661fd56c2ff595ce40ed8d0b2f80bda0edfe81fb2f0262688f84e60d7f8",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 84,
+   "ocrSample": "Parasitology Dr Ayman Ibrahim 0 Om Blood » vf. Nee 3 ‏ضمت‎ Pulse. , 2101 Se 025-2026"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Lectures/Dr.ayman/Bg Para Dr Ayman Blood 2.pdf",
+   "sha256": "7b16b2f6b1d65103ae04aa2906b09d81a76a95a240215c5b668bfd6f4bee9d62",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 53,
+   "ocrSample": "Parasitolo Dr Ayman Ibrahim GY ‏آء‎ Part 2 5 ‏اه‎ oo."
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Lectures/Dr.ayman/Bg Para Dr Ayman Blood 3.pdf",
+   "sha256": "fc8d3a43f7fb4b5dddde87142f5ed08f0305f5ef5bf7c814dcd25d8648bf1813",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 68,
+   "ocrSample": "@ Parasitology Dr Ayman Ibrahim i 0 es) Part 3 Pulse. Sn EL ‏.جص‎ a"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Practical/Dr.Ayman/Bg Para Dr Ayman Blood Practical 2025-2026.pdf",
+   "sha256": "d7eecd4363545bad5ac2019dcf859feb79f7dec248a2f6eb7ec14d4286ce62a7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 107,
+   "ocrSample": "& Parasitology Dr Ayman Ibrahim 00 Blood Se Practical Pulse ~< ‏ل 8ت حب‎ 0 : pes 2eYea. ‏كر‎ eae (2025-2026"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Practical/Lectures/Official PDFs/2. Mosquitoes & Trypanosomes.pdf",
+   "sha256": "c34ed29600d27660916b0b432410d6e0b89ceb074e48c3976e442f53e0b37ae2",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 39,
+   "ocrSample": "Parasitology Department 6 ‏يدان‎ ‎Lab 2"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Practical/Lectures/Official PDFs/3. Leish+Filaria+ toxoplasma 24-25_Phoenix.pdf",
+   "sha256": "fbb87cb31e4005f30728a6ed558165796b4f8555d21d7159916ac8d6c46fd7c6",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 39,
+   "ocrSample": "Parasitology Department 6 ‏يدان‎ ‎Lab 3"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Questions/MCQs/MCQs - Para Dr Ayman Blood MCQ 1.pdf",
+   "sha256": "024b3a7193ba0af65d5c4bb122fc9de81f742489ece1cf01e2f2e73b28dea961",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 102,
+   "ocrSample": "Parasitology ‏اذ الك‎ Se 3 5 + 0 + 5 Soe 0 66 2 Blood (Part 1) 5 ° Gam, ‏ارا‎ ° 0 ESS Of Lays SERS"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Questions/MCQs/MCQs - Para Dr Ayman Blood MCQ 2.pdf",
+   "sha256": "b65c5b028185296c6468350fa5c1c25fb3072749db8459985cf4bbf626ea6ad7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 126,
+   "ocrSample": "Parasitology o SP]. ‏ه‎ | Je OS. SBD + ° + ‏وهم‎ ‎see , Ge Sg 80 Blood (Part 2) | 3. ee OG + aS Wow ° > Pulse. 2eeYear— 2025-6"
+  },
+  {
+   "rel": "Term 1/Blood/Parasitology/Questions/MCQs/MCQs - Para Dr Ayman Blood MCQ 3_ 2025-2026.pdf",
+   "sha256": "a627020478a6b85f9e01b187d73aedda77101d71e0939d87f7a9c467ca9d0033",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 96,
+   "ocrSample": "Parasitology cr ° ch 0 . ‏يزه‎ 0 SRD ° 5-5 ‏0ن . خب‎ SG .°O Blood (Part 3) OS. ed. OD D> Puise."
+  },
+  {
+   "rel": "Term 1/Blood/Pathology/Lectures/Dr.Tarek/Bg Blood patho Dr.Tarek",
+   "sha256": "34c3e27ab66668b68c2ee675a4dca42af2ffef5a04766c072b0ac610cf4a4e21",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 144,
+   "ocrSample": "if tS ‏لل يبب ييخ يي‎ ‏م الب‎ ans \" ‏و‎ ‎\"a 2025 ‏و‎ ie 3 a ‏وض\"‎ 0 7 ‏يه‎ 7 a “i a 18 ‏جل ا 0 ا‎ Blood ‏مسف‎ ‎| : ‘ 4 _DR.TAREK EL-SHAMY We. fl"
+  },
+  {
+   "rel": "Term 1/Blood/Pathology/Lectures/Dr.bdelrahman/patho Blood Dr.Khalifa.pdf",
+   "sha256": "a0977c3cf4238ec747ff038605d43bd615eb18d820555f9b48a229e76797a862",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 10,
+   "ocrSample": "بيسن < م ظ"
+  },
+  {
+   "rel": "Term 1/Blood/Pathology/Practical/Lectures/Official PDFs/1. Patho lab blood & lymphatics.pdf",
+   "sha256": "303ca631e537804ae22d3285ab7cbba8a009d307e1c7ee7053aa0abfedd2962d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 155,
+   "ocrSample": "BLOOD AND LYMPHATIC baad TB lymph node Sarcoidosis (lymph node) | Metastatic deposits in lymph node Hodgkin lymphoma Non Hodgkin lymphoma(Burkitt lymphoma)"
+  },
+  {
+   "rel": "Term 1/Blood/Pharmacology/Practical/Assessments/Formatives/MCQs - Formative quiz 1.pdf",
+   "sha256": "f8caa29b46a4a1b42060942557421432ec061eff4468cc7d2047a75e7a214095",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 975,
+   "ocrSample": "QUESTION 1 A 24-year-old male presented with pallor, fatigue, weakness, and unexplained weight loss. Following investigations, the patient was diagnosed Not answered as acute myeloid leukemia. He was referred to an oncologist who started Chemotherapy (radiotherapy can also be used). ¥ Flag question Answer the following questions: 1. The words selected for the PICO format: (2 marks) PRN ORNs an cavecconsnianarsekecaeavestacoapdsca aves convaroaaagoantstparuciataisice ا تخ ةمه ‎estaba Tansee‏ تان "
+  },
+  {
+   "rel": "Term 1/Blood/Pharmacology/Practical/Assessments/Formatives/MCQs - Formative quiz 2.pdf",
+   "sha256": "67ea655ce057dae6f22c877dd85a61c585a81fd7263927b03d24c2e2e977c1b5",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 918,
+   "ocrSample": "QUESTION 1 A 23-year-old male, who arrived from Nigeria 15 days ago, presented to the physician's office with a history of low-grade fever that started 4 days ago, with no Not answered other symptoms. Upon blood smear examination, the patient was diagnosed as a case of malaria, and the physician prescribed him chloroquine (Proguanil can ‏ع‎ Flag question also be used). Answer the following questions: 1. The words selected for the PICO format: (2 marks) Patient: ..........- ‏ةع‎ moon asain 2521 5"
+  },
+  {
+   "rel": "Term 1/Blood/Physiology/Lectures/Bg Physio Blood Dr.El hameid.pdf",
+   "sha256": "0da8961018af80b36fc153304fe3fed7d19195bcc04c95f04841f33507a180d2",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 44,
+   "ocrSample": "4% Pulse. PHYSIOLOGY Blood Dr. Abd El-Hameid"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/All Subjects/Assessments/Formatives/CVS Formatives (Essay).pdf",
+   "sha256": "db995cbc2379415ea9645bde8c8d7166d60a8689dfe21ad7b588825860238336",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 54,
+   "ocrSample": "What are the sources of calcium in the cardiac muscle?"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/All Subjects/Assessments/Formatives/MCQs - CVS Formatives (Mcqs).pdf",
+   "sha256": "2b261a3bd244067ad7646cac260deafaef7725357b5d7e1c0a0383e4fd2824e9",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 430,
+   "ocrSample": "Nitrates reduce work done by heart in angina mainly through a. Antiplatelet effect b. Vasodilation of stenosed large epicardial coronary arteries & collaterals c. Vasodilation of venules with reduction of venous return & preload d. Redistribution of blood to subendocardial ischemic areas e. Reducing heart rate Your answer is incorrect. The correct answer is: Vasodilation of venules with reduction of venous return & preload"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/All Subjects/Assessments/Past Exams/essay model c+d.pdf",
+   "sha256": "0f321a66adabfcca0f21b041d1fc52aaacf254a6d3879dc891b46a608de4c1ed",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 387,
+   "ocrSample": "Essay Model C+D Mention 4 vessels in superior mediastinum Gross and microscopic picture of hypertrophic cardimyopathy Advantage and disadvantage of Arbs over ACEls Function of ATP in cardiac muscle Role of trimedazine in altering source of energy Pharmacokinetic causes of refractoriness of loop diuretic lonic basis of slow fibers action potential Effect of preload on contraction"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Anatomy/Compilations/🪽Begin,_End,_Course_U_L_&_L_L_Arteries_+_Veins_Bg_Group.pdf",
+   "sha256": "925ff7dda1ce03d910316c8dd9d253b5217da1b1bc202359a34b229b6122885a",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1111,
+   "ocrSample": "١ De , DAlbadaul A Levies Uj. | ren! Veins 14 ‏ا‎ ‎© ‏لمع ردم ر؟ © ومنل‎ Veing UL 1. Beoins Continuation f sabclaion artery at Ovter border Ast vib L Dorsal venous arch 2. End lower border ‏ل‎ Teves rajav by forring Brachial orlery 2.Cephalic vem 3. Cowrse= Divided by pecbavalis winor inte 3 paths ot Benin + Latral end Dorsal venous arch 4. Surtase anatomy= \\winols ‏اهما‎ Border foveowim Am Aoducted 90° & Latraly votateel Ascevds— Cubital fossn © ‏امامعال‎ Biceps Alla artery at line janing Mid-C"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Anatomy/Compilations/🪽Veins and Arteries Thorax and head and neck Dr.albatoul.pdf",
+   "sha256": "c49ab10548a477f3944f4cbb68e48476e4f4c1b34f1f1c0b24bb12bf100af824",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 32,
+   "ocrSample": "“Branches, ‏للعلا » لط‎ in 0 ‏ا‎"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Anatomy/Compilations/🪽Veins_and_Arteries_and_anastomosis_of_U_L_&_L_L_Dr_albatoul.pdf",
+   "sha256": "54dd9f2d03a5756507b340019a8c134944d51a3802e8c305e0465ee85fbb7759",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1145,
+   "ocrSample": "oo Arteries UL eo Anastomosis AL LAvlovy : 4. Surgical neck of humerus: -Branches= @Anastowesis of antevior civcumt ler hameval artery with edt Pat Postevior circamflex humeral avtery—s Cirenlar anastomosis 1 Supeviov thoracic artery around suraical neck of hamevus @2ed Pos AThovaco acyomial artery A, Acoval broach 2. Scapula: 2 Latva\\ trovacie Ag heer erect ©Comect 4st part of Subclovian ‏م/م‎ Dove seapulav actery eid Par Sabgeabulay aber ‏سس‎ cireunilex ‏عه انه‎ actery with Zerd Part Axia ‏ليه"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Histology/Lectures/Dr.Ahmed.Zahra/Histo Cardio Dr.Zahra",
+   "sha256": "5bd5af85911cbd9557555371d1bcf414e4543af85c0faa15086a88a749474554",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 72,
+   "ocrSample": "4) Pulse. aia ag! > 20 with zahra stain HISTOLOGY C.V.S. Dr. Ahmad Zahra"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Histology/Practical/histology practical CVS.pdf",
+   "sha256": "bdbf638baeae140f06c130952e3b76193308d3dea529f4cf35d9e8928c5a6a67",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 206,
+   "ocrSample": "ا ‎Wall of |‏ 4 ‎the heart‏ ~ ‎Or. Hegazy‏ ‎Cardiac muscle fibers.‏ ‎a Ee Kat i AV) § DN‏ ‎Dr. Hegazy‏ حر ‎a‏ ‎Cardiac muscle fibers‏ ‎Cardiac muscles are S=— > <‏ ‎present in wall of ~~ >‏ ‎the heart ١ SS‏"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Microbiology/Lectures/Dr.Ashraf/CVS Micro part 1 Dr. Ashraf.pdf",
+   "sha256": "9b2c9dca0c5acd4f0f4263fe8c75c9b847fa64eda7297ab1ea8bc7b56b6acc85",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 100,
+   "ocrSample": "3/6 = ‏ب‎ 7 7 | 3 5 © MICROTUTORIALS CARDIOVASCULAR MODULE Telegram group DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Microbiology/Practical/Pdfs الكُلية/Mind map for CVS microbiology section.pdf",
+   "sha256": "79bb11a150b2d16a833885e5470f1eeda82c2c1168224843045c890bb981b728",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1625,
+   "ocrSample": "‘ ead 0000 = a - ‏05-09ظ كم‎ Tt ‏م‎ 8 : Fs “yo oo yo ~¥ 3 ‏عدج‎ GCG eRe ‏نعم‎ G4Ne ‏ناعم‎ Gre ‏نعم‎ G +e oval bodies y x 3 Gitlase ‏عاد‎ 4 ‏عكملولق‎ Ne GaTalase +Ve ieee -ve ١ 3 Saboulaud’s ‏16ح‎ ‎2 2 ‏ا‎ Blood (Y) or ‏تملس ومن‎ +ve oun ae a (ot 5 ( Creams 00 Golerues) vy ra Blood (Y) oPlichin ‏كسام‎ milk ‏عم وج‎ TET = | eg Vv ( ‏لومم‎ ( Bleaching.) ( Taz hyphae aT 37) ‏لم‎ pe NoVobioGn Raffinose fermealer (sensitive) fine: aa 6-1 Tnulin nea fermentor agar Bile insoluble 0 ‏عا‎ oe aes eee “il =>"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Pathology/Lectures/Dr.Abdelrahman Khalifa/Patho CVS part 1 Dr.Khalifa.pdf",
+   "sha256": "d3d4c7b1f83eaed617bcf4c1c5a5968899ec10e09708555951d4cea7f7e991a5",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 61,
+   "ocrSample": "Pulse. : : PATHOLOGY | Ar 7 2026 ْ BPs FOR AIN SHAMS STUDENTS"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Pharmacology/Lectures/Dr.Alaa/Parma CVS P2 Dr.Alaa",
+   "sha256": "90a43aa3cdd816f560bfb0ca4263d9a58cf536736af1a0434b0671430a236a86",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 107,
+   "ocrSample": "1 4 Pulse. INOWAECILION 6 1 ‏ب-‎ ‏ه22‎ oor year medical ents CV3 \"Module : Diuretics Dr. Alaa Abou Taleb"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Pharmacology/Lectures/Dr.Alaa/Pharma CVS p1 Dr.Alaa",
+   "sha256": "66120d59cc955b5b2a3f525bb2530b7b096d0839adcb342916e7c321a8b9d801",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 117,
+   "ocrSample": "4™Pulse. | ‏ا‎ ‎ٍ > 2026 5 ' 59 » = «& 7 — | Sa year ents ١ CVS Module : Antidysrhythmic Drugs Dr. Alaa Abou Taleb"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Physiology/Lectures/Dr.Abd El-Hamied/Physio Cardio Dr.Abd Elhamied.pdf",
+   "sha256": "b7df0c626d7a77edbb4373dae0aad1ef0ae8fcccb203ce4ae186e2e0d0ed349d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 42,
+   "ocrSample": "4 Pulse. PHYSIOLOGY 7 02 ‏ظ‎ 4 Dr. la nied"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Physiology/Lectures/Dr.Mohammed hassan/BgPhysio dr. Mohammed.pdf",
+   "sha256": "3e4597a0d89ca3fe35294bce7b2ad900e93dd5da384154e793394ba46148028d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 115,
+   "ocrSample": "2025 PART 1 Physiology of | ‏فييك‎ \\) 3 3 ‏و‎ a Be Left ventricle 5 = ‏م‎ : mm = Black blood. / ies Arterial blog 2"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Physiology/Lectures/Dr.Mohammed hassan/Physio CVS P2.pdf",
+   "sha256": "f72687cb07b96e6794d98fc90e5134fea9494219ee0a7be3497e82c62f61bf87",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "Lely} PHYSIOLOG OFCVS Yes PART 2 VASCULAR Dr. Mohamed Hassan 2025/2026"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Physiology/Notes/Physio essay 1🫀.pdf",
+   "sha256": "fad20dce05d904cd1d11f98d86240c9a2a485dec69db0078d0452842e453e015",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1104,
+   "ocrSample": "Essay physiology whet ie chaachtestic_of ‏\"مهمه‎ artery very rich Flow ‏ور‎ the end actrey \"has misimal or Low anostemobis ‏ول)ا سما‎ reserve, ign* Supply by blood during systole Right Coronery Supply wall of vight ventricle £ pat P interventricular septum exPlain why heart is aerobic Nery rich Cop fila 5 ‏8ه‎ 1١ From heack work js aerobic Wigh Oy olemend ‏د‎ heavt can’t be 0, debt How to mesure blood flow of Cotonaiy artery angiography ‏و‎ Kety methedl ‏و‎ faclio nncluotide ‏و‎ exPermental by C"
+  },
+  {
+   "rel": "Term 1/Cardiovascular System/Physiology/Notes/Physio essay 2🫀.pdf",
+   "sha256": "11453be693bf766ea41dd1d426692aed7767ad74afef2ea4bbfe08e5f4190022",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1111,
+   "ocrSample": "Essay physiology what ig Systolic Pressure, highest pressure af aorta ot vapiol ejaction 2 - 140) \\20 wm Wy what ig oliastalis Pressure, Lowest pressure of aorta at oliastole (Ae -\\oe) 36 mmity whal 5 Pulse Oressuve. olifrance betneen aystelic pressure ond Systal’c C &ustole - diastole ) whot is AAP dliaStalic 4 Ye Pulse Prussute (AG -15[ ‏حظهم‎ ‎Factor aPhect increase Presswe ald age, mole, emotions Coymp tone 5 VC) ‏و‎ excersie ‏و‎ after meals exPication why bloal_Presswe—clectenbe-in_new beca"
+  },
+  {
+   "rel": "Term 1/Respiratory System/All Subjects/Assessments/Formatives/MCQs - Resp. Formatives (MCQs).pdf",
+   "sha256": "a97b65d8e772b9173f7973af9cc8d6c4aa14897d009e1f675a1d7a5e0d981dcd",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 145,
+   "ocrSample": "What is the type of the first sternocostal joint? © 2 plane synovial. © b. Primary cartilaginous. © ‏2ع‎ Secondary cartilaginous. © ‏.ل‎ Fibrous."
+  },
+  {
+   "rel": "Term 1/Respiratory System/All Subjects/Assessments/Formatives/Resp. Formatives (Essay).pdf",
+   "sha256": "dc99da7294cb47a758210d76d0c65918789ac67ce0b646bb34350012ae14d611",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 50,
+   "ocrSample": "Enumerate the structures forming the nasal septum."
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Lectures/Dr. Youssef/Bg Anatomy Rep p2.pdf",
+   "sha256": "828a4e698f8e9cc1c9079cb80561e26a8a43fb6631034832822ca503a4dd28e5",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 375,
+   "ocrSample": "A N A -T..0 MU M> AD ay Seige Pee 2026 x 4 aN + ‏هه‎ ‎. 5 © 3 . CORRS 1 toes 3 2 4 2 ٠. é 4 . 5 3 1 5 5 ma / 5 ٠ 0 8 17 4 5 ١ + ٠. 7 : 0 is. ١ * i 1 2 ‘ =\") 5-0 ١ ANkOECKOSS > ‏كا‎ | Printingicenten ‏ار‎ ٠. ١ ils 5 ees 9 rf . 4 3 + 3 3 i 1 | ar’ 2 : . 0 0 0 > ra : . 5 ie 4 nhs Part 007 - ‏ب‎ ‎Sa ١ GK ‏سما‎ By ‘a ‏ل‎ ry ‏ا‎ ‎ews me Al 2. 5 3 | Scanned with | | @camScanner™"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Lectures/Dr. Youssef/Bg anatomy respiratory p3.pdf",
+   "sha256": "9fc67c7279a1fb7b4e7098bd052d66b1444d28d79fb8ca0050cacb574d67a61d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1657,
+   "ocrSample": "RESPIRATORY SYSTEM ry _____ DR. YOUSSEF St aii RIND 1 BO ‏دوك لح‎ ( Anatomy OF Pleura And Lung ) \\ The Pleura + Itis a completely closed S@F6u8/Sat which is fnvaginated on its medial side by the un + Ithas 2 layers (Gisceral and parietal) separated by the pleural cavity. Tounderstand this, pushyour fist into an underinflated balloon. Your fist (lung) will be covered by a wall of the balloon (visceral pleura) and the outer wall of the balloon will be the parietal pleura, while the cavity of the b"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Practical/BgAnatomy resp dr.youssef.pdf",
+   "sha256": "6389746dc8ebe99096bdce6731906750ad376e736234607f729328ce14c07a36",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 164,
+   "ocrSample": "ei 35 9 0 Si M Pt & s\\ * / ‏وم‎ i one \\ a 7 Wi \\/ S 7 Autocross | \\ ‏ما‎ A ja Pe 7 | Po 0 0 . 1 3 1 1 : 7 | ١ ae) Vat ‏حا‎ ‎| ‎i ‎2026 ‏سرون‎ Shaky ‏أ‎ © camScanner"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Practical/Lectures/Official PDFs/1. Larynx.pdf",
+   "sha256": "5d2dad54dd1a717f485238991a318c9bdf2de2fb9dbe9bd62aea6a024c756b40",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 10,
+   "ocrSample": "The larynx"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Practical/Lectures/Official PDFs/2. Thoracic Cage & T Vertebrae.pdf",
+   "sha256": "4c850dbebec8bdca6c3f5ccd0bd505c766191b939e5d9f022d3e60c8e6705e62",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 13,
+   "ocrSample": "Respiratory 2"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Anatomy/Practical/Lectures/Official PDFs/3. Lungs.pdf",
+   "sha256": "92d83bb90e57b7eda884c3f6c93b17bc52e0f1b00a1df32cc122c341edff87d3",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 5,
+   "ocrSample": "Lungs"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Biochemistry/Practical/BgBio resp dr.Omar.pdf",
+   "sha256": "5cb115d57dc5532795c30c42526ca740a4aa5ebf13f631c7bfb87510aa5eead4",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 201,
+   "ocrSample": "Faculty Of Medicine Did Ain Shams University Bue 2025 / 2026 BIOCHEMISTRY Practical — |” ‏حص‎ ‎Respiratory Module if Vi 3 | la © ٠ 6 ‏مم ىن‎ 00 5 | | 4 b y, F A = 1 5355595-50 www. biochemistry.academy"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Clinical Medicine/Practical/Lectures/Official PDFs/Chest Radiology respiratory.pdf",
+   "sha256": "63087b0a8a63afb32ffc468498bf1ac1694982360f7f5c09a099655f00332d7e",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 119,
+   "ocrSample": "aie \\ (\\ ; . ° Ke a) . 7 Chest Radiology | 5 9 Radiology Department 7 Chest Imaging group > Ly Ain Shams University mit"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Clinical Medicine/Practical/Lectures/Official PDFs/Chest Radiology.pdf",
+   "sha256": "2252be27662532840396abb6ee1446bc2cb0202fcaee4d759207591d17376185",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 119,
+   "ocrSample": "aie \\ (\\ ; . ° Ke a) . 7 Chest Radiology | 5 9 Radiology Department 7 Chest Imaging group > Ly Ain Shams University mit"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Histology/Lectures/Dr.Zahra/Bg histo Dr.Zahra Resp.pdf",
+   "sha256": "813ddb6d77fccca4176add89ef694f3afaf68554e12665e3ad072200542c54b7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 49,
+   "ocrSample": ": 20125-20126 HISTOLOGY | ee RESPIRATORY MODULE |"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Microbiology/Lectures/Dr. Mohammed ashraf/Micro Respiratory ch4.pdf",
+   "sha256": "f1c2b23912d4f192908b2f3a97fbdafc77d3bece90a53a9cc0ecb3607c0fa222",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 84,
+   "ocrSample": "® MICROTUTORIALS RESPIRATORY MODULE Be Ones Sit 4 42 ‏تو‎ DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Respiratory System/Microbiology/Lectures/Dr. Mohammed ashraf/Res micro Ch 5.pdf",
+   "sha256": "0529204c81c1adc396508847103d2352bbc188913f4518efac584b364f6d7114",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 78,
+   "ocrSample": "® MICROTUTORIALS RESPIRATORY MODULE Pons ee 0 orcup DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Respiratory System/Microbiology/Lectures/Dr. Mohammed ashraf/res micro Ch 2.pdf",
+   "sha256": "a9ab3ff8cb19d5257038108506447192c3a322edb543e1e06b81ee9fd7c16d96",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 90,
+   "ocrSample": "® MICROTUTORIALS RESPIRATORY MODULE Foun Si e 4 Walnersen ‏جهو‎ DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Respiratory System/Microbiology/Lectures/Dr. Mohammed ashraf/res micro Ch3.pdf",
+   "sha256": "a2531303098af7637cb74afdd814fec543cf8d45b9f154073f73a2befb499993",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 77,
+   "ocrSample": "® MICROTUTORIALS RESPIRATORY MODULE oi 3 4 ia ‏مد‎ DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Respiratory System/Microbiology/Practical/Practical Micro Risp Dr.Karim Emad.pdf",
+   "sha256": "2291913cf3615b2f850139a07b101791371a4264f372f0dd83967f7621901522",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 43,
+   "ocrSample": "Pragtica @ | é - 2 ‏الات‎ ityiratary ١7 P"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Parasitology/Lectures/Para Dr Ayman Respiratory 2025-2026.pdf",
+   "sha256": "b5b43772a1860f3d1e189e8d4eff68f8329ffb75243a57fb0a782649c06a90f3",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 94,
+   "ocrSample": "5 ‏ا‎ ‎Parasitology ‎Dr Ayman Ibrahim oS) Respiratory a Module 06 - ee 2nd ‏1ك يسرم‎ 2025-2026"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Pathology/Lectures/Dr.Khalifa/Patho Resp P1 Dr.Khalifa.pdf",
+   "sha256": "c6d0dec89fd6ac8dbef5fafae5f2a133c6fbdffbc3fc5ac965bc6de4e17c98cd",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 72,
+   "ocrSample": "4 p Easy = Dae 20 rahman Khalifa — ory System Diseases] -. New edition |"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Pharmacology/Practical/Lectures/Official PDFs/3. Formatives.pdf",
+   "sha256": "faa596b0ac633507bca217f100e82b5796cdeb9441407de107f71fe8518d6874",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 227,
+   "ocrSample": "01. As regard to the following device, which of the following is true: a. Requires strong and fast inspiratory effort b. Deliver dry powder formulations ‏ع‎ Reduce systemic side effect ¥ d. Not suitable for children and elderly"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Physiology/Lectures/Dr.Abdelhamid/Bg physio Respiratory Dr.Abdelhamid.pdf",
+   "sha256": "31e4714399c9c90911378954d632cc92d018724037c0f2b03737375e843792d7",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 118,
+   "ocrSample": "‎oa ( 1 226‏ 5ه |= ‎RESPIRATORY .‏ :3 |ه- ]د ‎| ‏كم‎ 4| ‏هد‎ as | : et Pee FOR 2ND YEAR ‎| | 2 ‏كه‎ DR.ABDELHAMID am"
+  },
+  {
+   "rel": "Term 1/Respiratory System/Physiology/Lectures/Dr.Mohammed Hassan/Bg Physio dr.mohammed hassan.pdf",
+   "sha256": "6231cf7af6e0efdf71e8dfd26287e59fd9bec4b4a1be95d21822d52b6b221e10",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 82,
+   "ocrSample": "siolo 1 ny, “pire ZF o 12 7 1 ACG = I~ yh tang 4 | = OK Mohamed Vi assan 2025/2026"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Assessments/Past Exams/PHOTO-2026-06-14-01-17-19.jpg",
+   "sha256": "f5d7b4e17c72c0fae42ef17b1481d759a48cc9bc9dd79a6fd4b4f58a4727286a",
+   "fileType": "jpg",
+   "probeStatus": "ok",
+   "ocrChars": 725,
+   "ocrSample": "Questions Essay Qn & 4 Mark(s) List the cranial nerve nuclei belonging to the special visceral efferent (SVE) column and mention their distribution. (4 Marks) Qe: | 25 © 2 Mark(s) Enumerate the muscles sharing in the formation of the floor of posterior triangle of neck. (2 Marks) —~ Pievertewe Qs: 2 3 Mark(s) Locate the otic ganglion, describe its contributing roots and distribution. (3 Marks) ‏موه جد ف‎ vee ‏خيس مض يغ‎ asistencia RES ‏جد‎ 000 6 1 Mark(s) Describe the microscopic structure of mu"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Assessments/Past Exams/PHOTO-2026-06-14-01-17-20.jpg",
+   "sha256": "07044ae1af35a470b820cfc6caa24d9a56a50f7387db0dcff8819e1e8ff67243",
+   "fileType": "jpg",
+   "probeStatus": "ok",
+   "ocrChars": 1190,
+   "ocrSample": "212121252552511 111 00 ‏ف‎ ‎Ain Shams University CNS Module CNS-3 Faculty of Medicine 1 Academic Year 22-23 Final Exam i Paper) Essay = MN Questions © 65 Mins @ 26 Marks All questions to be answered | Essay Qk a © 3 Mark(s) Ammonia produced during amino acid catabolism Is ellminated through urea cycle. a. Name the enzyme catalyzing the rate-limiting step of urea cycle. b. Name the allosteric activator of this enzyme. \\ c. Enumerate sources of urea nitrogen atoms. 02 000060 © 2 Mark(s) A 50٠ year"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Assessments/Past Exams/PHOTO-2026-06-14-01-17-22.jpg",
+   "sha256": "b4d74759ee426dc130d0cc33b50209a1b55a71f55db21b6db540d6e5e677e40e",
+   "fileType": "jpg",
+   "probeStatus": "ok",
+   "ocrChars": 1254,
+   "ocrSample": "57 = ‎a‏ ل ‎M (ys. ‏مل ضام يندا‎ ore (PVA) inh : ‏مره‎ ‎5 ony w Lyi ox ‏يب عله ]عم رن رز مع‎ secerfe B= eaderphias ‎4 Periaquiductel gray aren CPAGN) in mid brain & Pens — ‎a ‏ياه‎ secrele exKep kun _ ‏ا‎ ‎A + Rephe _Magnas ‏كد لسلا‎ (RAW) iin_poors 2 mechlla __, seccele Secchwin ‎4 + Ian ‏طخس‎ tory Comper (PLO) in_dovsel_haca ‏لسع لعصتضيع له‎ ‎a ‏ب‎ seacte enkephalin ___, pre synaphic E_pestsynepkic_inhibitisa ‎2 of Incoming tyre C & As pin fibers . ‎a 0 ae ‎“4 Qe. Neuace + RePeced qin Yo te su"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Assessments/Past Exams/PHOTO-2026-06-14-01-17-23.jpg",
+   "sha256": "ff5f8e30a42e580430f6fe4fd387ba49da47cc519727960e600a03e44ee124cc",
+   "fileType": "jpg",
+   "probeStatus": "ok",
+   "ocrChars": 1112,
+   "ocrSample": "Date eels ae 2 1) Semigpindiig Capirs 2) _spreaag copitis — ——_3)__Levelr scopidee —, AY Scalenus ‏كنا عدم‎ 0 00 — 6) Sculeous Antecion Qs. ‏ماعط وعل.‎ Poramgn _ouole 4 deep ‏عط‎ mondiodey a. ‏وموم‎ Rte Concected tonto medial plerygcid —(Cwithot reley) ‏,لك‎ SymPathafic Rect + “Plexus round —_midille mmeninnge ol_aedcefs + Pacasympofhotic Pests Taf, colivatory Ms ‏هس‎ Tymporic bre off pow —__~9_hyrrpemnic_ plexus —s Sesser Petros a. ‏جب‎ Fecmen ovale ‏يب‎ ‏ل‎ ofic_ganglien —— ( Ge Distt trenr ‏م"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Assessments/Past Exams/تعديل بملف القشطوطة الهستو.jpeg",
+   "sha256": "4d67a65a5932895be39a39141d8079d944a5e2c2e992f592a3c08ccca0172ad8",
+   "fileType": "jpeg",
+   "probeStatus": "ok",
+   "ocrChars": 148,
+   "ocrSample": "CNs papper 1 ‏الملف وايد مهمممممم هستو‎ © eS. Motor decussations of medulla Sensory decussations of medulla Olivo cerebrallar decussations 2:43 AM 4"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/All Subjects/Department Books/DPT BOOK - CNS part-1.pdf",
+   "sha256": "cce1a2e9cb01af5f79cc564baea13cc1f9d929e1690d32ffed1383b54afaa31f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 80,
+   "ocrSample": "Central Nervous System 4\" EDITION ‏ير‎ Staff Members Of Faculty Of Medicine, ASU"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Anatomy/Lectures/Dr,Youssef shoukry/Anatomy CNS Part 8.pdf",
+   "sha256": "0801500cff77a18608f8ae82a2c21b5b592efde853d927d909431248213afbd8",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1476,
+   "ocrSample": "(____DIENCEPHALON 2 4 The diencephalon includes everything with the name thalamus i.e. Thalamus, hypothalamus, epithalamus & subthalamus Its cavity is the 3 ventricle. It is divided by hypothalamic sulcus (which extends from the interventricular foramen to the mouth of the cerebral aqueduct) into: Dorsal part Ventral part 1) Thalamus 1) Hypothalamus 2) Metathalamus (MGB & LGB) 2) Subthalamus 3) Epithalamus (pineal body, habenular nuclei & posterior commissure) Forni Corpus callosum - — ‏سسا‎ eS "
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Anatomy/Lectures/Dr,Youssef shoukry/Anatomy part 3.pdf",
+   "sha256": "98d845289b7013451402772bf2b28722d1c019c0f3cd3a113a6ebd4f52092f8c",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 150,
+   "ocrSample": "LG ol * ANATO ONS ! AN AT © mM 7 1 A 80 sim pee |, \\Auitoeiosse® | F 1 . Renee - 4 #0 | CentralNervousSystem | | Dr:Y.oussef Shoukry | | | 2026 Part"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Anatomy/Lectures/Dr,Youssef shoukry/Part 9.pdf",
+   "sha256": "38f0d558706dfc3f808dd0e781a9c0e39fe8e116579f390999f7ddd008c4aae9",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1579,
+   "ocrSample": "| nh to) th es Se : J eb Skin ) of the neck is supplied by cutaneous branches of the cervical plexus ———ES SS EE > Superficial Fascia (contains platysma) - Arises from the fascia covering the chest and ascends to the face - Supplied by the facial nerve (cervical branch) - One of the muscles of facial expression & can express sadness, horror by drawing the corners of mouth inferiorly Dd Superficial Veins External jugular vein - Anterior jugular vein 8 External jugular vein Formed by union of post"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Anatomy/Questions/MCQs/MCQs - Y.SHOUKRY anatomy CNS mcq-1 (1).pdf",
+   "sha256": "8b09b829a872b1c252ab6e40fa5710fb08c5a989caaa738540090cf612ca166e",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1719,
+   "ocrSample": "OY $$ ee & edo belly of occipito-frontalis is supplied by: ١ . ‏ا‎ ‎(B) Posteri. ranch of the facial nerve. 00 1 0 | auricular nerve. i i Zygomatic branch of the facial nerve. ‏ا‎ ‎rontal branch of the ophthalmic nerve. 2. A patient is suffering from dribbling of food from his mouth the nerve that could be injured is: (A) Maxillary nerve. (B) Mandibular nerve. (©) Facial nerve. . (D) None of the above. 3. The external jugular vein is formed by union of: (A) Posterior auricular vein with the post"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Histology/Questions/Essay Questions/Essay histo-1.pdf",
+   "sha256": "310062d110b23c8d4123c91162dad770e64461b887a2d2d116c9761d2c3ddb96",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 735,
+   "ocrSample": "SGD Session - CNS Histology (Neuroglia, CC, Receptors & Spinal Cord) Team Number: 1 | ‏ظ‎ Date: Asay | Instructions: e Answer all questions. ٠ Each question carries (1 mark). | ° Time allowed: 10 minutes. ‏ظ‎ ‎LL 1 ‏يي‎ ‎Q1. Differentiate histologically between fibrous and protoplasmic astrocytes regarding site | and morphology. Vf Ss ere W Gyo ‏اسك‎ ‎[ahs 2002 HK thie > > a ‏بسلا‎ j le } 7 3 Q2. Describe the microscopic structure of a Meissner’s corpuscle. © _ 2 ‏لود ع في‎ Soin oes 2 a oe PERM "
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Microbiology/Lectures/Dr.Mohammed Ashraf/مايكرو ١.pdf",
+   "sha256": "aacfff1a191577efb310c8c44fd6ae5f80b7e7f18d54181c946a24bd6ba8c6c2",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "® MICROTUTORIALS CNS MODULE / ‏دعا‎ I ay “oe DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Microbiology/Lectures/Dr.Mohammed Ashraf/مايكرو ٢.pdf",
+   "sha256": "e8adf88804e832c647b4cd7f2b1b30c130cd81f443e7f9087ebd9a134c518d51",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "® MICROTUTORIALS CNS MODULE / ‏دعا‎ 6 ay “oe DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Microbiology/Lectures/Dr.Mohammed Ashraf/مايكرو ٣.pdf",
+   "sha256": "fa7b5eb36f02afac8d0fbc59172bbbd77f35e724ca88ab65eb14670d4bf34168",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "® MICROTUTORIALS CNS MODULE / ‏دعا‎ 3 ay “oe DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Microbiology/Lectures/Dr.Mohammed Ashraf/مايكرو ٤.pdf",
+   "sha256": "c5ca4b55d4dada65a1b6ff4bee03fbae16f5d9ef226f996ea440f43066cdf1c1",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "® MICROTUTORIALS CNS MODULE / ‏دعا‎ 4 ay “oe DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Microbiology/Practical/practical Mirco CNS Dr.Karim Emad.pdf",
+   "sha256": "1ef22c67c62678488cccebdffada6f33deeb2f9d4d29a2aab60eccb34cca6e55",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 157,
+   "ocrSample": "os I ARIMEMED }}) 1|9١1 5 > ~ ‏بها‎ ١ . — © = A al ١ 5 0 8 ١ a \\ S / | 4 / Nes y, 2 yA, piven ‏حم‎ ‎if - / ‏راثا تي لل‎ i ‏اتا‎ ١ ١١ ١ / 3 ‏ظ 4م‎ ٠ | ~~ ‏سد‎"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Parasitology/Lectures/Para Dr Ayman CNS.pdf",
+   "sha256": "0a480e2d3985af7143f847642ef691b88119423b24038ad6fae6b90d278e8026",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 67,
+   "ocrSample": "2 ff 5 01 =p oN i. ‏ب‎ < Bo (0 ‏سم‎ ah 58 6 ‏أي‎ a WA ‏اح 0 فج‎ 1 9"
+  },
+  {
+   "rel": "Term 2/Central Nervous System/Pathology/Lectures/Dr.Abdelrahman/Patho CNS Dr.Khalifa.pdf",
+   "sha256": "ae7d73c754bfc222cfe288ec793492b5ab84d48d55a2cbb7465df0f21bd55318",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 196,
+   "ocrSample": "2025 - 2026 “ PATHOLOGY REVEALS THE TRUTH BEHIND DISEASE ” Liu) \\ ‏م‎ ‎١ 3 tN \\ 2 ‏2و‎ / ١ a 7 CNS MODULE a VAQ\\) CEOR 2\"? YEAR DAES UPS \\< 5 i ١ (AIN SHAMS UNIVERSITY) = DR. ABDELRAHMAN KHALIFA"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/EOM - Endocrine essay past exams.pdf",
+   "sha256": "da1188783e630fefe62d09cd7d59904cc439098a488244511b73773859b1eb21",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 23,
+   "ocrSample": "Endocrine Edition-2026™"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/EOM - Essay Final 2019.jpeg",
+   "sha256": "7ed89ed754e9637a16ed166f8b4b07090b274450cd602269deacc40b5dae4e0b",
+   "fileType": "jpeg",
+   "probeStatus": "ok",
+   "ocrChars": 720,
+   "ocrSample": "| للد ار >0 ‎1777717١‏ ااال الال ‎a: Zz 5 2 Maris |‏ ‎Canagliflozin ‘‏ ‘ ‎Mention the mechanism of action and TWo adverse effects of \"9 :‏ ]د 6 60 ‎List TWO adverse effects of Metformin J ١‏ ‎Qs: © 1 Mark(s)‏ ‎Mention TWO Therapeutic uses of Octreotide‏ ‎Q4: © 2 Mark(s)‏ ‎A 54-year-old man with type 1 diabetes mellitus is referred to an ophthalmologist for‏ ‎evaluation of developing cataract. Mention the biochemical basis of cataract‏ ‎formation in this patient.‏ ‎Q5: © 3 Mark{s)‏ ‎tion the 4 ke"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/EOM - Final Endocrine ESSAY 2022-2023.pdf",
+   "sha256": "5639b7552d42022df751f53061eafbebcdf4d546b186e557225f753862d43a26",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1066,
+   "ocrSample": "el ————_ — ‏مله‎ Shams University gnoerine module MEM-3 Faculty of Medicine acaderni Veor 22-23 Fina! Exarn 9 ‏ا‎ ‎1 Essay 1 \"5 & 7 Questions 030 Mins @ 1G Marks Answer all Questions | | Essay | Qi © 2 Mark{s) State four changes occur in carbohydrate metabolism in adipose tissue during a well- fed state. | ‏ا بتو أ‎ a a “in a © 2 Mark{s) | A2-year-old boy suffered from repeated attacks of hypoglycemia after fruits intake. Laboratory Investigations revealed that he has hereditary fructose intoler"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/MCQs - 1-MCQ - previous year.pdf",
+   "sha256": "7e4466385f5a2f1a6f137e3a86c98a8163c368e2bd10a978baa22bf272fc3e80",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 294,
+   "ocrSample": "1.All of the folloy, romegaly except., a-The gold Standard fo; S1agnosis is ‏زور‎ glucose Supression test. b-It is MOstly due to Pituitary microadenoma, c-It may be Associated with bitemporal hemianopia, d-The best modality of treatment is surgery, e- It may be associated with heart failure"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/أسئلة مراجعات Endocrine 1.pdf",
+   "sha256": "252b412848d2c88f07261d11ad84e7e66b978fd6949a158b95a33214ecbb1af3",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 694,
+   "ocrSample": "Eslam was born with congenital problem in his lips and couldn’t suckle from his mother. The hormonal changes that will occur in her can be: a. Oxytocin levels will be high and lead to milk letdown reflex 5 @ Ovulation will occur normally in the mother due to low prolactin levels c. Maintained milk production for 6 months due to elevated prolactin levels d. The Oxytocin levels will be high, while the prolactin levels will decrease The following hormones are essential for normal male growth: a. Gr"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Assessments/📌📌📌essay previos year.pdf",
+   "sha256": "da1188783e630fefe62d09cd7d59904cc439098a488244511b73773859b1eb21",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 23,
+   "ocrSample": "Endocrine Edition-2026™"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Questions/MCQs/MCQs - INERD MCQ Endocrine 2024_260507_162653.pdf",
+   "sha256": "119e9e2d8b0119209e32452a73431728b98ff1f5bef59026cdf279c55c71eae8",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 265,
+   "ocrSample": "cite sg INDEX a oil 1 Pituitary gland ‏و‎ 2 , 4 ‘ 0 Suprarenal glands al 1 Hypothalamus 8 Tr .. lL cae 12 1 1 Histology of pituitary gland 32 | . = of thyroid and parathyroid gland 35 | le 000 suprarenal gland 1 ‏مر‎ ١ Lo Histology of pancreas and pineal gland 38 1"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Questions/MCQs/MCQs - endocrine inerd essay.pdf",
+   "sha256": "eef1e9fd44dd5854c746737b933532853c55701eef92b6e1fa38ebbaf5aea3e5",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 23,
+   "ocrSample": "| | m men j Short Essay"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Questions/MCQs/MCQs - endocrine inerd mcq.pdf",
+   "sha256": "fa47009aa3f696a7379e8a0ac189a029acee053ea64b77173c66c28a2b9732e3",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 450,
+   "ocrSample": "eee aed 7 — Medical Question Book i 3 1 1 | i Module | | ij 1 | i 1 : 4 1 1 Pee ee “3 Ye Ve a oa ees ‏ا‎ : i | ‏نه‎ en ce ee 0 / om 7 a ‏ال‎ 1 Oe ‏راع ا‎ oN Sitaram: Oe 0 = .@ ae ae 1 ‏د‎ <— | 7 | a . A ١ 2 ‏ققد‎ 1 my, For 2\" EDITION ’ ’ A Byteste ‏اللا للك‎ ee ‏ا‎ 1 8 \\ Students {ES Scaa AGG) ‏أات عدم |ن) !اها‎ Vous Qshair lana Nourhan Mahmoud aur Sunenikion' Of.” ot 1 = “Mariam amet Mostafa Osama - Mayada Aziz Mahmoud Abubakr Nour Mohamed zab ‘"
+  },
+  {
+   "rel": "Term 2/Endocrine System/All Subjects/Questions/MCQs/MCQs - iNerd Answers.pdf",
+   "sha256": "45157d13999ec441a5b803dab7a19880f8bfe4a80a2c3f46e5a5d4f936776c44",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 299,
+   "ocrSample": "Pituitary gland 0 © © © © © © © © 2 92 6 6 © 8 28 9 4 8 A B oD c c A D B A c c B B B B AB B Thyroid & parathyroid glands © © ‏ه‎ © > Da © ‏م © ه‎ © ‏د 2 © © ه © ه‎ Qe Ma © ‏ه‎ Oe © ‏ع‎ ®c © ‏ع‎ ‎Oa Oe © © ‏وه © ه‎ © ‏ع © 8 0 ه‎ @v © ‏ه‎ ‎Suprarenal glands © © © © © © 0 0 0 © ‏م‎ c A c B c A c B B 1"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Anatomy/Lectures/Anatomy endo.pdf",
+   "sha256": "f6d653f9bfa6c4d0ecee2e293b04cced7bc5a9e9cdbb0e4432021aed72ed4969",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 116,
+   "ocrSample": "Tone | rae MA DE S. liom ‏اا ص‎ ‏ماحد‎ es a INS el 7 WY ae 5 2025 1. Youssef Sher | Scanned with | H ics] CamScanner"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Anatomy/Practical/DPT BOOK - practical department.pdf",
+   "sha256": "0c0ba238cea33dbcf46b7072f212d32d3abde079ae527d92656233b47da47911",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 361,
+   "ocrSample": "=E7\"—— — wor ‏ل‎ OR <a 59 ee ‏فاص همك‎ ee An ge Sella Turcic 1 8 95 / > ‏كدب‎ eee ZA Optic nerve a ‏جب جر و‎ Internal carotid artery 2: ‏د‎ 2 1 6 iy Diaphragma sella PRs 5! a aa) Se Aa. 3-5 Pituitary stalk f ree ‏ا ل‎ 57 Mee 1. 59- Oculomotor nerve 7 oe oe ‏ا ان‎ Abducent nerve~ ‏سل اانه ا‎ Trochlear nerve - 5 34 PITUITARY GLAND CamScanner ‏تم المسح الضوئي ب‎"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Anatomy/Questions/Essay Questions/MCQs - Anatomy  Mcq 209.pdf",
+   "sha256": "3a06e76ec2b156be15f62614f6dbb7767abd9fe43547aa24e4a28ed976fc0415",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1408,
+   "ocrSample": "MCQ OF ENDOCRINE 1. Regarding the pituitary gland, one of the following is true: a. Anterior lobe is smaller than posterior lobe b. It hes above the optic chiasma c. Its anterior lobe is connected to the hypothalamus by hypothalamic hypophyseal tract 0. 1) is related laterally to cavernous sinus 2. Regarding the tumor of pituitary gland, one of the following is true: a. It induces a decrease of the intracranial pressure b. It can induces homonymus hemianopia c. It can induces bitemporal hemianop"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Lectures/CamScanner 04-05-2025 14.12.pdf",
+   "sha256": "f4ac46424d8020d28b3bfafd1896b97cd81582cf9374f4ad8d1536fa4bbdeaf1",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 232,
+   "ocrSample": "/ Faculty Of Medicine 5 ‏اا ا يس‎ Ain Shams University 3 ‏6قيسه:‎ a + ‏اد‎ ‎2024/5 0 ‏لبد 60-2 ع‎ 1 ‏ين , بطكلات<‎ zi 5 ‏م2 اللا‎ : : Chapter ail Hormone Signaling - ‘3 ‏لك‎ ballon Endocrine Module ~ | L a © in a ‏م‎ ‎le ‏الالاة‎ 9"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Lectures/🪽Bio-2 Endcrine Dr.Omar Bg.pdf",
+   "sha256": "9a05c249ac205f254254b0dfbae008b15397387645aab42b5207c8dd32d34acf",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 152,
+   "ocrSample": "1 Faculty Of Medicine a Ain Shams University rl 2024 / 2025 — WW 37 379237377 eee a Gluconeogenesis So f/.\\ Endocrine Module if A : BIOCHEMISTRY 7 ‏لاس‎"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Questions/Essay Questions/أسئلة.pdf",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "fileType": "pdf",
+   "probeStatus": "error",
+   "ocrChars": 0,
+   "ocrSample": ""
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Questions/MCQs/MCQs - Biochemistry 1st Revision Questions.pdf",
+   "sha256": "30935d1f9069bb2167d2d1c81e00dcffa9972d9a7f232463ae9becef4a424fba",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 159,
+   "ocrSample": "Lecture Quiz A A. Water-soluble hormones | B. Lipid derived hormones _ C. Protein hormones 0 D. Lipophilic hormones E. Hormones that circulate freely in plasma"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Questions/MCQs/MCQs - Endocrine bio mcq.pdf",
+   "sha256": "0cdcb16b053564d6e8baee59375fc1ac72cf8fdae77c79e1f9d9ec7f462d0487",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 936,
+   "ocrSample": "1. The parathyroid gland regulates the metabolism of: A. Calcium B. Phosphate C. Both of the above (A and B) D. Magnesium and phosphate ‏.ع‎ Sodium and phosphate 2. A hyperglycemic factor produced by the pancreas is: ‏.م‎ insulin B. Lipase c. Glucagon ‏.م‎ FSH E. Thyroxin 3. A substance present in the small intestine that stimulates contraction of the gall bladder is: A. Rennin B. Secretin Cc. Cholecystokinin D. Enteropeptidase E. Gastrin 4. Thyrorin is synthesized In the thyroid gland from: A. "
+  },
+  {
+   "rel": "Term 2/Endocrine System/Biochemistry/Questions/MCQs/MCQs - bio 2nd revision اسئلة.pdf",
+   "sha256": "34229f9296a3f3ac715adb8a2207df2b94975a0cdebc305a3ecdbdb899b58c5a",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 94,
+   "ocrSample": "Which hormone regulates blood glucose levels by | A. Glucagon 233232300000 | BB. Insulin 2 3 |"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Clinical Medicine/Lectures/23- Cilinical Thyroid disorders.pdf",
+   "sha256": "05b735fdcb88300cebe042ee9c9c2d00cabf6a0320bfd28e5c6cea3484ae9f9c",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 17,
+   "ocrSample": "Thyroid disorders"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Clinical Medicine/Lectures/Clinical تجميعة.pdf",
+   "sha256": "e68fb5514aa23bddb4dcd5ad948ccd39345260883bc170e1d740fc3743224a42",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 589,
+   "ocrSample": "Clinical Mcq clinical ( thyroid disorders ( Previous exams ‏ربي اشرح لي صدري ويسر لي امري‎ ‏واحلل عقدة من لساني يفقه قولي وامري‎ treatment of exophthalmos is by ... IV steroid most common cause of hypothyroidism is ... Autoimmune hashimoto disease most common cause of hyperthyrodism is ... Gravis disease immediate treatment of Palpitations in thyrotoxicosis is by .. propranolol 2- case of hypthyroidism or / non thyroidal illness? decrease free T3 could be symptom of hypercalcemia or hypothyroidi"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Histology/Questions/MCQs/MCQs - Endocrine Histology MCQs - Dr. Suiz & Dr.pdf",
+   "sha256": "af64e3f4f06b8deeb660739816d97f61a1cb42c9c167b462e39e504561df1add",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 343,
+   "ocrSample": "5 HISTOLOGY \"7 ar ENDOCRINE MODULE a — MCQs & EXPLAINED ANSWERS ae FOR MEDICAL STUDENTS 3 THIRD YEAR- 20 SEMESTER ١ VOLUME VI x Pineal gland — OE a ‏ينسم‎ 5 17 ‏-300او‎ 4 | J ae 1 : iy Ovaries (female) — 7 PROF DR. SUZI SOBHY PROF. DR. NEVERT FARID : HISTOLOGY HEAD OF HISTOLOGY i DEPARTMENT DEPARTMENT Faculty of Medicine Ain Shams University"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Histology/Questions/MCQs/MCQs - histo pituitary gland MCQs.pdf",
+   "sha256": "a5dedb7c3efcfcfeb6a0255f5dc7092ca3d321ebaa00b2a85f42e6a167e2bfb0",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 395,
+   "ocrSample": "EE 642929259592595 522595959252525 a i Which of these is true of the endocrine system? Gy A. Secretes hormones that are transported to target cells by blood. 0 8. Causes changes in metabolic activities. C. Effects are prolonged. D. All of above are true. Which part doesn’t belong to the anterior lobe of the pituitary? a. Pars intermedia b. Infundibular stalk c. Pars distalis d. Pars tuberalis"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/DPT BOOK MCQs - patho mcq.pdf",
+   "sha256": "80c5f719d69c9213fa866596d4049a4bd22e598bc339fc1bbecc5ddda7470eff",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1458,
+   "ocrSample": "Multiple Choice Questions and Answers it Pathology 1 9) ( 7 Endocrine Glands ak ‏مم‎ ‎sti i terised by a diffuse 5 (1648) The following type of thyroiditis 15 charac 3 58 1 brosing process: 8 3 gem 5 ‏ل‎ B. Riedel’s thyroiditis 6)! A. Infectious thyroiditis wae (3 C. Hashimoto’s thyroiditis 0 D. Granulomatous thyroiditis 1“ E. Subacute lymphoytic thyroiditis ( 5 1 i 1 ne: (1649) The following type of thyroiditis is autoimmu : = ‏ش‎ ‎A. Infectious thyroiditis B. Riedel’s thyroiditis | C. Hashimot"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - CamScanner 03-04-2022 17.02.pdf",
+   "sha256": "a5364fc286610d48580343aa48d5799ab282cc425ca274d5c5b50dc2a7069cd6",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1857,
+   "ocrSample": "0 ‏كل‎ ‎ty, ths 0 Mn ENDOCRINE GLANDS 0 \\ - 0 lady suffers from severe dyspnea. Clini 000 3 265: a argement of the thyroid gland Which is ve mination shows on examination of the neck reveals evidence 0 the Ultrasound i |. fixation to surrounding structures. yroiditis with \\ A. What is the most possible type of thyroiditis in th; | ‘hy, B. Describe the histologic picture of this lesion in this case? | | ‏م‎ Why this type of thyroiditis may be misdi \\ D. Mention the expected serum level of thyrorl"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - Endocrine Pathology MCQs (1).pdf",
+   "sha256": "9efd164aabac9c9cbf338b59965f0da12102198cf33570fdce63f86545101a75",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1107,
+   "ocrSample": "1- Pituitary Gland : 1. Which of the following best describes a functioning pituitary adenoma? A. Does not secrete any hormones B. Secretes prolactin only C. Secretes one or more pituitary hormones D. Is always malignant 2. What genetic mutation is commonly associated with pituitary adenomas? A. 1253 mutation B. GNASI gene mutation C. BRCA1 mutation D. RET gene mutation 3. Which of the following is NOT a typical microscopic feature of a pituitary adenoma? A. Polygonal cells in sheets B. Abundant"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - Khalifa endo MCQ.pdf",
+   "sha256": "aeed7bf05c3522048bc49152eb51af3b1458a5fc8212b385b7879c939802f5db",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1367,
+   "ocrSample": "‎systemic Pathology [| {ENDOCRINE}‏ أ ‎The following type of thyroiditis is characterized by a diffuse fibrosing process:‏ .1 ‎a) Infectious thyroiditis‏ ‎b) Riedel’s thyroiditis‏ ‎c) Hashimoto’s thyroiditis‏ ‎d) Granulomatous thyroiditis‏ ‎Amyloid stroma is characteristic of :‏ .2 ‎a) Papillary carcinoma‏ ‎b) Follicular carcinoma‏ ‎c) Medullary carcinoma‏ ‎d) Anaplastic carcinoma‏ ‎Follicular carcinoma is characteristic by all except:‏ .3 ‎a) Encapsulated‏ ‎b) Psammoma bodies‏ ‎c) Formed of fol"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - Pathology OLD Revision MCQ Answers.pdf",
+   "sha256": "5a3bbc3c0dc3a3e0bc0c3dabb2d4e3900e15b579f8360e8da02e98a9f23376ef",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 754,
+   "ocrSample": "HE Pathology Tutorial Of Endocrine System- 65... ev Sean 2 & 5 e G) | 68 Record » F Upload ‏لو‎ Favorite + Playlist ‏لع‎ ‏لع‎ ‎A 35-year-old woman has had insomnia for the past 4 —_ months. She has also had episodes of diarrhea & ‏مما‎ ‎exhibits bilateral proptosis with fine hand tremors. ‏عب‎ ‎Laboratory studies show elevated serum TSH with elevated serum free thyroxin. Which of the following is the most likely diagnosis? A) Graves disease. B. Pituitary adenoma. C. Chronic thyroiditis. D. Prior"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - Pathology OLD Revision MCQ.pdf",
+   "sha256": "b8de3218fc2b9a1d38e1bbd7ce16e8b536dc5b3c5ec73425ab41b8a9ddd932b3",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 737,
+   "ocrSample": "25 Pathology Tutorial Of Endocrine System-6.5... Av 9 Search f & 2? © @ 6} Record 7 Upload ‏جو‎ Favorite + Playlist ‏لع‎ ‏لع‎ ‎A 35-year-old woman has had insomnia for the past 4 — months. She has also had episodes of diarrhea & ‏مما‎ ‎exhibits bilateral proptosis with fine hand tremors. ‏عب‎ ‎Laboratory studies show elevated serum TSH with elevated serum free thyroxin. Which of the following is the most likely diagnosis? Graves disease. Pituitary adenoma. Chronic thyroiditis. Prior thyroidectom"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - THANAA Pathology ASU endo.pdf",
+   "sha256": "23773c9beed023852c1d39186443553b35706018851e27d4d402548e7ae02918",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1059,
+   "ocrSample": "; vy = Endocrine Glands 1 8 choose the correct answer: 4 ‏و‎ Acidophil pituitary adenoma secretes: (1480) A. TSH B. Growth hormone 0 c. ACTH D. All of the above ‏,ير‎ None of the above 0 (481) Basophil pituitary adenoma secretes: A. TSH B. Growth hormone Cc. ACTH D. All of the above ‘ E. None of the above (1482) Chromophobe pituitary adenoma secretes: A. TSH B. Growth hormone C. ACTH D. All of the above E. None of the above (483) Galactorrhea is a feature of: A. Pituitary prolactinoma B. Pituita"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pathology/Questions/MCQs/MCQs - patho cases endocrine.pdf",
+   "sha256": "d8ba92f27f1074aba0debfe138faea392e9a7d5a20b0a4853067a0d553113bef",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 3496,
+   "ocrSample": "~~ ١ ١ ‘a aS-year-old woman has | Identally discovered a small y i? 2 ‘so had episod _ ‏لعفم‎ for the pasta seayearcold female ace 7 TOW tendo has 8 eS Of diarrhea & « ١ Months. She | 07 ‏الخ‎ Hy tute. By Ratio-fsotople sean, It Was proved to beg cold with fine hand tremors, Laborat Shitty ‏املاط‎ Proptosiy ahyrold neues owed finge 5 nd : 7 MOLY studies gl ١ Biopsy, from thyrold sho Ker like Prajeetia, ‏زرو‎ with clevated serum free thy how elevated serum nadute, Bien ith ground glass nucle ms i"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pharmacology/Practical/practical endocrine 23 case 2.1 pdf.pdf",
+   "sha256": "7698439ec58db602e03187f014433d8b720388ce29b8b9f4696b76377e935494",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1073,
+   "ocrSample": "CASE 2.1 Mr. AS. is a 58- year-old male who came to your clinic for routine check-up. His weight was 85 kg, height was 176 cm, with no family history of diabetes. His blood pressure was 140/90 mmHg. His fasting serum glucose is 90 mg/dl, HDL is 20 mg/dl FILL THE REQUIRED ITEMS IN YOUR WORKSHEET CASE 1 STUDENTS’ GUIDE 1. Read the case and listen to the tutor’s presentation. 2. Respond to the 1% question in the worksheet by accessing this site: https://www.omnicalculator.com/health/risk-dm. Enter "
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pharmacology/Practical/practical endocrine case GDM.pdf",
+   "sha256": "ebc465cbe258fe934a8b636b73eeae4656b39cd0d9886daebdffcd056e693793",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1548,
+   "ocrSample": "CASE 2.2 A 35-year-old White woman at 7 weeks' gestation visited the clinic for a routine prenatal examination. This was her first pregnancy. According to her medical record, her height was 165 cm, weight was 88 kg and she did not have pre-existing diabetes mellitus or hypertension. She mentioned that her father was diagnosed with diabetes five years ago. 1- Calculate her predicted risk of developing Gestational Diabetes Mellitus (GDM) using the following calculator: 1- https://ph-ivshiny.iowa.u"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pharmacology/Questions/MCQs/MCQs - Pharma 1st Assessment Revision MCQ.pdf",
+   "sha256": "cbde264e94a5eb8830b9821846919cfe9224fab4e9e6e0799df85628e6b5cc92",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 667,
+   "ocrSample": "2 Meeting in _General_-20240228_181131-Meeti... & v ‏مر‎ Search fF & 7 ‏تت‎ ‎)0 | 68 Record 7 Upload ¥¥ Favorite + Playlist ++ em ‏ل‎ ‎A25 year old female presented with weight loss & heat intolerance. The Laboratory findings confirmed the diagnosis of © © = hyperthyroidism. The patient was started on drug A and © © propranolol. © © a. What was the drug A? Rationalize your answer © © c. Mention its adverse effects. ‏زا‎ © ‏.ل‎ Mention the role of propranolol in this patient. © ru) 17AS © © ‏ر7 ج"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Pharmacology/Questions/MCQs/MCQs - Pharma DM Revisoin MCQ.pdf",
+   "sha256": "f57e676bebf7502bf7b3acfd88248335d0b4a13be4328c1a1c1c03807093575e",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 290,
+   "ocrSample": "sas Which of the following drugs has the advantage of —_ decreasing early postprandial hyperglycemia, when given immediately before meal? A. Gliclazide (intermediate acting SU) © @ B. Repaglinide (Non SU) ‏.يه تسنى .. نا عصام‎ C. Glimepiride (Long acting SU) ® © E. Insulin glargine mee es"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Physiology/Questions/MCQs/MCQs - Physiology OLD Revision MCQ.pdf",
+   "sha256": "1427084145e793435000edc2b5ccb8099a7c5fa6b7cf6a77079830b977a73f7f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 105,
+   "ocrSample": "Base (1): ِ . ١م‎ co 5 ha Gu <i 1 ~~ _ GH while J | ee ) © # ‏إل‎ 20/3622 ae ee Tutorial-pituitary gland"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Physiology/Questions/MCQs/MCQs - Physiology Pituitary Revision MCQ&Cases.pdf",
+   "sha256": "26b3773093c5d606e474c72f26a156c25398836f7d608e06a41e3fdddd170dd6",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 307,
+   "ocrSample": "The hormone that has a lipolytic effect is a) Growth hormone e 6 b) Antidiuretic hormone (ADH) @ ‏هم‎ ‎c) Prolactin ‏اميت‎ ‎d) Oxytocin € © Milk ejection is the function of ‏م هت‎ a) Prolactin — ke b) Oxytocin ru) @ c) Antidiuretic hormone (ADH) ° ‏2د‎ ‎d) Growth hormone 6 @ © - Vaurnine Gamal Sabey Sherit"
+  },
+  {
+   "rel": "Term 2/Endocrine System/Physiology/Questions/MCQs/MCQs - Physiology Thyroid&Parathyroid Revision MCQ&Cases.pdf",
+   "sha256": "5ecd353ddb74e8999ca6b5e02e357c41358b4e2788b703a5055eeb1fed8932be",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 460,
+   "ocrSample": "CG. 6 © About the T4 (thyroxin): 1 ‏اا‎ ‎a. Its less bound to plasma proteins ‏كل‎ ®@ b. Secreted by the parafollicular cells of the thyroid gland ~~ 7 c. Acts faster and more active than T3 ° 0 ‏وه‎ ‎0. It’s mainly a transport form . From the effects of Thyroid hormones: 0 2 a) Decrease blood pressure a) & b) Decrease the rate of respiration — ‏حجن‎ ‎c) Decrease the appetite ‏ل‎ e d) Decrease the weight | ¢) Decrease the basal metabolic rate ‏زف زف‎ ‏م‎ 3"
+  },
+  {
+   "rel": "Term 2/Research Methodology/Research Methodology/Notes/Dr.Omar/Research Methodology - Part 2.pdf",
+   "sha256": "582e7c66908e52261eeab85d43867cf8c3ceeffb5808b3014c07095de8aced55",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 20,
+   "ocrSample": "“Rutoc ross a Center"
+  },
+  {
+   "rel": "Term 2/Research Methodology/Research Methodology/Questions/MCQs/MCQs - 1st Research Formative (+activities questions).pdf",
+   "sha256": "398758b50e47fe4272ce15e39741289dcc0871db397162f602a4b9d0bde6d40b",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 470,
+   "ocrSample": "What is the main characteristic of a case-control study? A study that compares individuals with and without a disease. A study that uses grouped data over countries. A study that randomly assigns to the intervention or control group. A study that follows participants over time to measure disease incidence. A study that collects data at one point in time to assess disease prevalence. The correct answer is: A study that compares individuals with and without a disease."
+  },
+  {
+   "rel": "Term 2/Research Methodology/Research Methodology/Questions/MCQs/MCQs - 2nd Research Formative (Practical).pdf",
+   "sha256": "4389420f4e6154130d4e21e6718417e464c6291a9cd89f3f4a35b2aad3e7a427",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 193,
+   "ocrSample": "Study Justification is described in detail in which section of the research plan? a. Introduction b. Data analysis c. Methodology d. References e. Discussion The correct answer is: Introduction"
+  },
+  {
+   "rel": "Term 2/Special Senses/All Subjects/Practical/all in one ✅💯.pdf",
+   "sha256": "6121326fba14bd9c6393abce44161f1977b9178c0ea48f191bef95125b42da56",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 73,
+   "ocrSample": "All Practical Special Senses Contents |, cn. ee ‏ا‎ ‎08011010 re ١/8 0/00"
+  },
+  {
+   "rel": "Term 2/Special Senses/Anatomy/Practical/Eye practical.pdf",
+   "sha256": "48fcad5659585b3d8071cbcd4c633efc0fd93ddcba68644aac82df97c2b9e386",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 93,
+   "ocrSample": "29 We, Pt 4 oy — So ‏حي.‎ ‎“ee Sha =o Third Year- Practical Anatomy And Embryology Department"
+  },
+  {
+   "rel": "Term 2/Special Senses/Anatomy/Practical/Practical Anatomy SS - Dr Youssef Shoukry.pdf",
+   "sha256": "8bca934c034315188c8baebb1b7d50d2c9a573c5c4683cccacfb510c8d061b0d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 101,
+   "ocrSample": "“a ™ A + © M WV MA ID ‏عا‎ sli MP Le MW ” - =f i aid Wy SPECIAL SENSES Practica ‏ظ‎ D» Youre, ‏رامال‎"
+  },
+  {
+   "rel": "Term 2/Special Senses/Microbiology/Lectures/Dr.Mohammed/Micro Special Sense Dr M.Ashraf.pdf",
+   "sha256": "587cf2093fd1abf4bf88f2d7a9c3a4fdced621d1e92f6b0d1af2ca372afadf4c",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 91,
+   "ocrSample": "® MICROTUTORIALS SPECIAL SENSES EYE ‏ع‎ EAR INFECTIONS A =“ ‘roe DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 2/Special Senses/Pathology/Lectures/Dr.Khalifa/Patho  Speccial Senses_260409_153202.pdf",
+   "sha256": "835148d8b0a30fe0c3954b9db9a99326d142f8c32ec28f9782d807d5321501ab",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 109,
+   "ocrSample": "bm 2026 4 g™ 8 Special — Ca 1 Senses ach ts g MK. a of ' ie awe SAA as py Sh AE aa | Dr. Abdelrahman Khalifa"
+  }
+ ]
+}

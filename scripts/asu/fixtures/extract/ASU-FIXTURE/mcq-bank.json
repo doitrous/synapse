@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "key": "fixture-sba-1",
+      "stem": "Which record type in the scripts/asu toolchain exists only to prove the pipeline builds and validates?",
+      "options": {
+        "A": "A fixture record",
+        "B": "A live concept",
+        "C": "A manifest source",
+        "D": "A department book chapter"
+      },
+      "answer": "A",
+      "answerConfidence": "same-file",
+      "occurrences": [
+        { "sourceId": "src_fixture0000000002", "file": "Fixture Question Book.pdf", "page": 1, "number": 1 }
+      ],
+      "timesAsked": 1,
+      "topic": "unknown",
+      "confidence": "high"
+    }
+  ]
+}

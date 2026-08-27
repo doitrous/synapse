@@ -1,0 +1,17 @@
+# Copied from scripts/kasr/extract/.gitignore's pattern. OCR and render
+# caches, not results — regenerable from the corpus PDFs, and megabytes of
+# machine output. `pagetext/` is the per-page text of every PDF, written by
+# pagetext.py; `parts/` and `raw/` are per-file intermediates any extractor
+# may use. The JSON result files beside them are tracked, because a batch
+# that cites a page number should be checkable against what the page said.
+pagetext/
+parts/
+raw/
+__pycache__/
+status-*.json
+
+# Rendered pages — answer-key recovery rasterises pages to find highlights
+# that exist only as pixels. Regenerable from the PDFs.
+*.png
+*.ppm
+*.jpg

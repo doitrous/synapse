@@ -1,0 +1,12 @@
+{
+  "sourceId": "src_fixture0000000003",
+  "pageSpans": [
+    {
+      "page": 1,
+      "printedPage": 1,
+      "spans": [
+        { "text": "A fixture concept is a throwaway record used only to prove the scripts/asu toolchain builds valid batches, mints IDs correctly, and produces byte-identical rebuilds.", "kind": "paragraph" }
+      ]
+    }
+  ]
+}

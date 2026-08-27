@@ -1,0 +1,218 @@
+/**
+ * Which article teaches which concept, read out of the articles themselves.
+ *
+ *   node --experimental-strip-types scripts/asu/build-article-links.ts
+ *
+ * Copied from `scripts/kasr/build-article-links.ts` — already module/university-
+ * generic (it scans every article and concept batch under one root; a concept
+ * may in principle be taught by an article from any module). Only the paths
+ * changed.
+ *
+ * `writtenBlock` omits `library_ids` entirely when its lookup returns
+ * undefined, so a question whose concept is missing from the map is emitted
+ * with no article at all and the batch reports "nothing teaches this question's
+ * answer" — even when the article exists and names the concept perfectly well.
+ * The map is therefore load-bearing, and it has been maintained by hand.
+ *
+ * A hand-maintained map is the same fact written twice: once in the article's
+ * `related_concepts`, once here. The two drift, and they drift silently,
+ * because nothing compares them. This reads the articles and derives the map,
+ * so there is one source and the question of which copy is right cannot arise.
+ *
+ * Writes `scripts/asu/seeds/article-links.json`. A concept taught by more than
+ * one article keeps them all: the coverage check asks whether a question's
+ * concept names an article the question also cites, and a concept examined from
+ * two sides is genuinely taught by both.
+ */
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
+import { dirname, join } from 'node:path'
+
+const OUT_ROOT = process.env.ASU_TOOLCHAIN_OUT ?? 'docs/Ain-Shams-Source-Imports'
+const ARTICLES = `${OUT_ROOT}/article`
+const CONCEPTS = `${OUT_ROOT}/concept`
+const OUT = process.env.ASU_TOOLCHAIN_OUT ? `${OUT_ROOT}/article-links.json` : 'scripts/asu/seeds/article-links.json'
+const LEDGER = `${OUT_ROOT}/coverage/asu-untaught-concepts.md`
+
+/**
+ * One `## label` field out of a batch block, or the empty string.
+ *
+ * `[ \t]*` after the label rather than `\s*`, which was the bug: `\s` matches a
+ * newline, so on a field whose value is genuinely blank the pattern ate the
+ * blank line as well and began capturing at the *next* heading. Every concept
+ * with an empty `article_ids` came back holding the literal text
+ * `## support_mode`, and `build-article-links` duly reported fifteen links to
+ * "an article that is authored nowhere" whose names were field headers.
+ *
+ * Harmless here only because the bogus targets were filtered out downstream.
+ * The same shape would silently mis-read any blank field anywhere.
+ */
+const field = (block: string, label: string) =>
+  block.match(new RegExp(`^## ${label}[ \\t]*\\n([\\s\\S]*?)(?=\\n## |$)`, 'm'))?.[1].trim() ?? ''
+
+/**
+ * A list column's entries.
+ *
+ * `[clear]` is dropped. It is the batch format's marker for "present, and empty
+ * on purpose" — the thing `check-concept-presence` exists to distinguish from a
+ * field nobody thought about — so it is a statement that there are no entries,
+ * never an entry itself. Before the blank-field fix above it was never seen
+ * here, because the reader returned the following heading instead; now that the
+ * reader is right, the marker has to be understood rather than passed through
+ * as the name of an article called `[clear]`.
+ */
+const list = (value: string) =>
+  value.split(/[|;\n]/).map((one) => one.trim()).filter((one) => one && one !== '[clear]')
+
+/**
+ * Every item block under a directory — or none, if the directory does not
+ * exist yet.
+ *
+ * `readdirSync` on a missing directory throws `ENOENT`, and Kasr's original
+ * has no guard for it: harmless there only because Kasr's `article/` and
+ * `concept/` directories already exist. Ain Shams starts from nothing, and
+ * the first module built before any article batch exists crashed this script
+ * rather than reporting "0 articles, 0 concepts" — the honest empty state
+ * every other reader in this toolchain (`loadLinks`, `furtherReading`)
+ * already returns for the same case. Fixed here; relayed as a Kasr finding.
+ */
+const blocks = (dir: string) =>
+  (existsSync(dir) ? readdirSync(dir) : []).filter((name) => name.endsWith('.md')).flatMap((name) =>
+    readFileSync(join(dir, name), 'utf8').split(/^\s*---\s*$/m).map((block) => ({ block, file: name })))
+
+/** conceptId -> the articles that name it, and the articles it names back. */
+const byConcept = new Map<string, Set<string>>()
+const link = (conceptId: string, articleId: string) => {
+  const found = byConcept.get(conceptId) ?? new Set<string>()
+  found.add(articleId)
+  byConcept.set(conceptId, found)
+}
+
+const articleIds = new Set<string>()
+for (const { block } of blocks(ARTICLES)) {
+  const id = field(block, 'id')
+  if (!id) continue
+  articleIds.add(id)
+  for (const conceptId of list(field(block, 'related_concepts'))) link(conceptId, id)
+}
+
+// The other direction. A concept may name its article rather than the reverse,
+// and `conceptImport.ts` reads that column straight into `articleIds`, so it is
+// as real a link as the article's own list.
+const conceptIds = new Set<string>()
+for (const { block } of blocks(CONCEPTS)) {
+  const id = field(block, 'id')
+  if (!id) continue
+  conceptIds.add(id)
+  for (const articleId of list(field(block, 'article_ids'))) link(id, articleId)
+}
+
+const dangling = [...byConcept.entries()].flatMap(([conceptId, articles]) =>
+  [...articles].filter((articleId) => !articleIds.has(articleId))
+    .map((articleId) => `${conceptId} -> ${articleId}`))
+
+const links = Object.fromEntries(
+  [...byConcept.entries()]
+    .filter(([conceptId]) => conceptIds.has(conceptId))
+    .map(([conceptId, articles]) => [conceptId, [...articles].filter((one) => articleIds.has(one)).sort()])
+    .filter(([, articles]) => (articles as string[]).length)
+    .sort(([a], [b]) => (a as string).localeCompare(b as string)),
+)
+
+writeFileSync(OUT, JSON.stringify({
+  note: 'Generated by scripts/asu/build-article-links.ts from the article and concept batches. Do not edit by hand.',
+  // Said in the file because it cannot be checked by anything that reads it.
+  // The coverage check asks whether an article CLAIMS a concept, never whether
+  // it TEACHES it — and another lane nearly wired a notochord concept to an
+  // article mentioning the notochord twelve times without once saying it
+  // becomes the nucleus pulposus, which is the concept. Coverage would have
+  // gone green and sent a student to an article that does not answer the
+  // question. A wrong wiring is invisible and permanent.
+  warning: 'Each link is a claim by an author that the two are related, not evidence the article answers the concept. Read the article for the concept before treating a link as verified. The untaught list below is the half you can trust unread — an absence cannot be a wrong wiring.',
+  concepts: Object.keys(links).length,
+  articles: articleIds.size,
+  links,
+}, null, 1) + '\n')
+
+const taught = Object.keys(links).length
+console.log(`${articleIds.size} articles teach ${taught} of ${conceptIds.size} concepts -> ${OUT}`)
+
+/**
+ * The concepts nothing teaches, written where the coverage ledger is.
+ *
+ * The more valuable half of this script's output, and the half that can be
+ * trusted without reading anything: an absence cannot be a wrong wiring. It is
+ * the definition of what is left to write, and until now nobody had the list.
+ */
+const untaught = [...conceptIds].filter((id) => !links[id])
+const label = new Map<string, { key: string; path: string; file: string }>()
+for (const { block, file } of blocks(CONCEPTS)) {
+  const id = field(block, 'id')
+  if (id) label.set(id, { key: field(block, 'canonical_key'), path: field(block, 'module_subject'), file })
+}
+
+const byPath = new Map<string, string[]>()
+for (const id of untaught) {
+  const where = label.get(id)?.path || '(no module_subject)'
+  byPath.set(where, [...(byPath.get(where) ?? []), id])
+}
+
+// The heading says every module, because the list does.
+//
+// This is `coverage/asu-untaught-concepts.md` and it was headed "101 ISK"
+// while listing every module's gaps — today all five remaining belong to
+// 103 BMS, and a 101 lane reading its own ledger would see five failures that
+// are not its own. The same mistake the coverage ledger had.
+//
+// Scoping it to one module would be the wrong fix here, unlike there: a concept
+// can in principle be taught by any article, so the link map is cross-module by
+// design and the gap list inherits that usefully — 103 should be able to see
+// these. The filename stays put because three files reference it; what changes
+// is that it now says what it covers.
+mkdirSync(dirname(LEDGER), { recursive: true })
+writeFileSync(LEDGER, `# Concepts no article teaches — every module
+
+Generated by \`scripts/asu/build-article-links.ts\`. Rerun it and the list is today's.
+
+**${untaught.length} of ${conceptIds.size} concepts** are named by no article, in either
+direction — neither an article's \`related_concepts\` nor the concept's own
+\`article_ids\`. A question testing one of them cannot cite an article that
+teaches it, so the batch reports "nothing teaches this question's answer", and it
+is right to.
+
+This is the list of what is left to write. Unlike the links the same script
+derives, it needs no reading to be trusted: a link means an author thought two
+things were related and may still be wrong, but an absence cannot be a wrong
+wiring.
+
+Grouped by where each concept sits in the curriculum, because an article covers
+a subject-tree leaf and the grouping is therefore the shape of the work.
+
+${[...byPath.entries()].sort(([a], [b]) => a.localeCompare(b)).map(([path, ids]) =>
+  `## ${path}\n\n${ids.map((id) => `- \`${id}\` — ${label.get(id)?.key ?? ''} (${label.get(id)?.file ?? ''})`).join('\n')}`).join('\n\n')}
+`)
+console.error(`${untaught.length} concept(s) no article teaches -> ${LEDGER}`)
+
+/**
+ * Disagreement with the hand-written table this replaced, reported not resolved.
+ *
+ * A generator that silently overwrites a maintained table is indistinguishable
+ * from one that is wrong. So when `--diff <module.ts>` is given it compares and
+ * says where they differ, and the decision stays with a person.
+ */
+const diffAgainst = process.argv.indexOf('--diff')
+if (diffAgainst > -1 && process.argv[diffAgainst + 1]) {
+  const previous = JSON.parse(readFileSync(process.argv[diffAgainst + 1], 'utf8')) as Record<string, string>
+  const entries = Object.entries(previous)
+  const missing = entries.filter(([conceptId]) => !links[conceptId])
+  const differ = entries.filter(([conceptId, articleId]) => links[conceptId] && !links[conceptId].includes(articleId))
+  console.log(`\nAgainst ${process.argv[diffAgainst + 1]}: ${entries.length} entries, `
+    + `${entries.length - missing.length - differ.length} agree, ${missing.length} unmatched, ${differ.length} contradicted`)
+  for (const [conceptId, articleId] of missing) console.error(`  no link derived: ${conceptId} -> ${articleId}`)
+  for (const [conceptId, articleId] of differ) {
+    console.log(`  contradicted: ${conceptId} had ${articleId}, derived ${links[conceptId].join(', ')}`)
+  }
+}
+if (dangling.length) {
+  console.log(`\n${dangling.length} link(s) to an article that is authored nowhere:`)
+  for (const one of dangling.slice(0, 10)) console.log(`  ${one}`)
+}

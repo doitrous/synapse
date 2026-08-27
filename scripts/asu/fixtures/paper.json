@@ -1,0 +1,40 @@
+{
+  "source": {
+    "id": "src_fixture0000000001",
+    "file": "Fixture EOY Paper.pdf",
+    "module": "ASU-FIXTURE",
+    "sittingYear": 2026,
+    "tier": "end_of_year",
+    "sections": ["General"]
+  },
+  "seeds": [
+    {
+      "q": 1,
+      "section": "General",
+      "page": 1,
+      "marks": 5,
+      "asked": "Describe the fixture concept used to prove the scripts/asu toolchain builds and validates.",
+      "label": "A fixture concept proves the toolchain mints and validates before real content is authored.",
+      "key": "asu-fixture-first-concept",
+      "definition": "A fixture concept is a throwaway record used only to prove the scripts/asu toolchain builds valid batches, mints IDs correctly, and produces byte-identical rebuilds.",
+      "objective": "State what a fixture concept in this toolchain is used to prove.",
+      "pitfall": "Mistaking a fixture record for real authored Ain Shams content — it must never land in docs/Ain-Shams-Source-Imports.",
+      "subject": "fnd",
+      "system": "FND",
+      "primary": "SYS-FND-T01",
+      "secondary": [],
+      "modulePath": "ASU-FIXTURE > Foundations > Fixture Topic",
+      "type": "definition"
+    }
+  ],
+  "schemes": {
+    "G1": {
+      "format": "short_answer",
+      "prompt": "Describe the fixture concept used to prove the scripts/asu toolchain builds and validates.",
+      "expects": [
+        "Names it as a throwaway record",
+        "States its purpose is to prove the toolchain, not to teach real material"
+      ]
+    }
+  }
+}

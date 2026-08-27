@@ -1,0 +1,318 @@
+{
+ "yearId": "ASU_Y1",
+ "count": 39,
+ "probed": [
+  {
+   "rel": "Term 1/Immunology/Immunology/Practical/Bg Practical Immune Dr.Mohammed Ashraf.pdf",
+   "sha256": "24af415249487a69d0fec3ef06bf007d511073ae03d885d33ce3b0dc70ba213f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 86,
+   "ocrSample": "® MICROTUTORIALS ante IMMUNOLOGY 1 20 PRACTICAL iy ‏ديتة‎ DR. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Immunology/Immunology/Questions/MCQs/MCQs - Bg Immune Dr.Ashraf mcq part 2.pdf",
+   "sha256": "00be032dd5f500a10b0ab56a2001c8700bff288071eb1c818eb50e521e675247",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 91,
+   "ocrSample": "i ® MICROTUTORIALS 50 IMMUNOLOGY #2 mca-e @ ‏ظ‎ SCANTOJoINcRouP 019. MUHAMMED ASHRAF Pulse."
+  },
+  {
+   "rel": "Term 1/Immunology/Immunology/Questions/MCQs/MCQs - Bg. MCQs immune.pdf",
+   "sha256": "216d20f603a287a170f54acc964f60494c368391907b6497c9fb5363e52feb2a",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1244,
+   "ocrSample": "2 Tissues and cells of immune system ye largest lymphoid organ that 7 1 ‏مسال‎ blood-borne pathogens hie Particulate matter from blood and 1 Peyer's Patch b. Tonsils c. Spleen ‏.ل‎ Thymus ¢. Bone marrow hich of the following adhesion molecules i 180 0 2 3 near an active focus of infection to median ‏علدت‎ 7 fining ‏نولت‎ ‎vasculature as a first step to reach the infection site? B OF neutrophits on a. E- Selectin b. B-Integrins c. ICAM-1 ‏.ل‎ LFA-1 ¢. Cadherins 3, Foreign antigen-dependent proces"
+  },
+  {
+   "rel": "Term 1/Immunology/Immunology/Questions/MCQs/MCQs - hegazy.pdf",
+   "sha256": "834aba143e85f6c3efceab02e52f657aa9719b1a05452e85de0c8ab269ec5698",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1263,
+   "ocrSample": "‎ss megane oe ccid OF Immune system‏ ا ‎Which off following is considered a Primary lymphoid organ:‏ -1 ‎a Bone marrow 55‏ ‎b. Lymph nodes‏ ‎Spleen‏ 3 ‎d, Tonsills‏ ‎Which of the following statements isn’t true ab: t |‏ -2 ‎a Trap microbes entering tissues. S about tymph nodes ?‏ ‎b. Site of initiation of immune response,‏ ‎Act as immunological filter of tissues,‏ 6 ‎d. Site of maturation of B cells‏ ‎e. Harbor large number of APCs,B &Tcells‏ ‎Removal of! thymus affects the function of‏ -3 ‎a B "
+  },
+  {
+   "rel": "Term 1/Introduction to Anatomy and Embryology/Anatomy/Questions/MCQs/MCQs - Dr.yousef mcq1.pdf",
+   "sha256": "6b68e7931be34480b7f84e27eae973514c34a7c23a7d48dd3471d794335eaf86",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 962,
+   "ocrSample": "1. The plane that divides the body into a large right part & a small left part is: a. Median, b. Right parasagittal ‎Left parasagittal‏ ع ‎corornal‏ ,ل ‎@. Transverse ‎2. Which of the following is responsible for the growth of the bone in length? a. Periosteum b. Endosteum c. Epiphysis ‎d. Epiphyseal plete ‎e. Diaphysis ‎3. What is the type of the lunate (carpal) bone? a. Long ‎b. Sesamoid ‎Pneumatic‏ ع ‎d, Flat ‎8, Short ‎4. The parasagittal plane divides the body into: a. Right & left equal ha"
+  },
+  {
+   "rel": "Term 1/Introduction to Anatomy and Embryology/Embryology/Questions/MCQs/MCQs - Bg Embryology Mcq.pdf",
+   "sha256": "b5360fd3e3c9e41af210cd6c89a2b35b95a5da9c42ab64b156acfe775d86611b",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 43,
+   "ocrSample": "LE aS } : 7 \\ Pa pe Zanboryology MCQs OU ae"
+  },
+  {
+   "rel": "Term 1/Introduction to Anatomy and Embryology/Embryology/Questions/MCQs/MCQs - Embryo 1.pdf",
+   "sha256": "5d3b735488d8c321d5bd19492286a89c9d48d37e91dddc5157fc9cd4b460c90d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 802,
+   "ocrSample": "1 Part 1 4, Introduction 2. Gametogenesis 3. Spermatogenesis 4, Oogenesis 5, Female reproductive cycles 6. Ovulation multiple Choice Questions (MCQs hould 5 apne al forms of sperms should not exceed ........ of the total : 10 d, 15%, 0 20%. remain viable after ejaculation for about: 2° A 2 days b.3 days. a4 days. d.5 days. e. 6 days. 3, at time of ovulation, the ovary liberates: 3 g, Mature ovum. b, Secondary oocyte. c. Second polar body. d. Primary oocyte. e, Oogonium. 4, Which of these cells c"
+  },
+  {
+   "rel": "Term 1/Introduction to Anatomy and Embryology/Embryology/Questions/MCQs/MCQs - Embryo 2.pdf",
+   "sha256": "a7e3b821ab294015c05f9c5cf288517cd0ab0978503002b756aea188088b6c6f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 955,
+   "ocrSample": "part? ١ 1. Events of 1°* week 2. Fertilization 3, Cleavage 4, Implantation 5, Decidua 6. Events of 2™ week 7. Formation of bilaminar embryonic ‏موزل‎ ‎g. Formation of Extraembryonic mesoderm 9. Placenta 10. Twins Multiple Choice Questions (MCQs 1. The placental barrier does not include: a. The syncytiotrophoblast. b. The cytotrophoblast. c. The primary mesoderm. ‏.ل‎ The endothelium of maternal blood vessels, e. The endothelium of fetal blood vessels. 2. Placenta praevia results from implantatio"
+  },
+  {
+   "rel": "Term 1/Introduction to Anatomy and Embryology/Embryology/Questions/MCQs/MCQs - Embryo 3.pdf",
+   "sha256": "3448fabd352cb8018ed3a07446a8b681237cfc303e3e86be6eee3e1c4d01fea8",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 891,
+   "ocrSample": "0 Part 3 ‏ا‎ 1. Events of 359 week. 8 trilaminar germ disc (gastrulation), 1 ‏زنا‎ ‎2. Formation Tntraembryonic mesoderm. ation of nervous system (Neurulation), m 4. For 5. Folding, 6. Derivatives of germ layers, 7. Fetal membranes. 8. Birth defects & Congenital anomalies. Multiple Choice Uestions MCQs 1, The primitive streak develops in Which layer of embryonic disc> a. Epiblast, 5. Hypoblast. 6 Mesoderm, d. Endoderm, e. Notochord. 2. Which of the Following is derivey from Somites; a. Dermis. b"
+  },
+  {
+   "rel": "Term 1/Introduction to Histology and Cell Biology/Histology/Questions/MCQs/MCQs - Bg Dr.Ahmad zahra mcq.pdf",
+   "sha256": "1f65a3eb7c0fc81686d4f00bc44adeac3e4cf786a47e8a1f2e9178eb96aadee5",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 71,
+   "ocrSample": "hs ‏سال‎ Pulse. First year medical students 1 The Cell Dr. Ahmad Zahra_"
+  },
+  {
+   "rel": "Term 1/Introduction to Histology and Cell Biology/Histology/Questions/MCQs/MCQs - Bg Dr.Ahmed Zahra mcq 2.pdf",
+   "sha256": "46846ece7114da5a18e61fd8f6b1c8b769a36e6daf349cdc81816d08fcee54fd",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 60,
+   "ocrSample": "7 35 ‏ظ‎ ‎hs ‎4’, Pulse. ١ Epithelium << A Dr. Ahmad Zahra :"
+  },
+  {
+   "rel": "Term 1/Introduction to Histology and Cell Biology/Histology/Questions/MCQs/MCQs - cell MCQ hegazy 1.pdf",
+   "sha256": "d2cac67a939cf291cf4bdeeccea068e61663171c15de6243d164dd437258c710",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 809,
+   "ocrSample": "CELL 1 1160 1 2022 PLASMA MEMBRANRE 1) Molecular structure of cell membrane include the following except: a. Phospholipids bilayer. b. Ribophorines. c. Cholesterol d. Integral proteins. B 2) Unit membrane means: a. Trilaminar appearance in E.M. b. Phospholipids layer. c. One electron dense line with its associated cell coat. d. Cell boundaries as seen by L.M. , A 3) About Cholesterol molecules in cell membrane all true except: a. Present in the cell coat. ‏,م‎ Present in the inner & outer phosph"
+  },
+  {
+   "rel": "Term 1/Introduction to Histology and Cell Biology/Histology/Questions/MCQs/MCQs - هستو سؤال وجواب د.زهرة.pdf",
+   "sha256": "b5dcbac55001cbe789bf079cf853c0bfbfe821b712329735f811594e600a6967",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1564,
+   "ocrSample": "HISTOLOGY DR. AHMED ZAHRA WRITTEN Cell ( 4) Discuss LM & EM of cell membrane (B) coat LM: * Difficult to be seen as it is very thin (7.5:10 nm) RAB IH EY * it may be seen When stained with: silver (Ag) or PAS stains —_—_—_—== 3 EM: * Tow dark lines (electron-dense) Separated by light (electron lucent) one, * So, it is called: tri-laminar membrane or unit membrane. * There is a fuzzy layer found only on the outer Side of the cell membrane, which represent the Cell coat (Glycocalyx) * with concent"
+  },
+  {
+   "rel": "Term 1/Introduction to Medical Biochemistry/Biochemistry/Questions/MCQs/MCQs - Bg MCQ of bio.pdf",
+   "sha256": "659d23529471fd1ee6c6c04b5a67a4c94c1c45331f6921a4f1a61180bc3f58d0",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 985,
+   "ocrSample": "LP . MISTR' Protein Chemistry ‏ايد‎ ‎1- All amino acids have enantiomer except a) valine b) aspartate ‏نه‎ tryptophan d) glycine 2- Regarding the solubility of amino acids a) All are soluble b) Only amino acids with charged groups are soluble. c) Only with charged or polar groups are soluble. d) Amino acids with non polar groups need carrier, 3- Proteins absorb lights at wavelength 280nm , due to presence of which amino acid a) Lysine b) Tryptophan c) Glycine d) Basic amino acids, 4- An amino ac"
+  },
+  {
+   "rel": "Term 1/Molecular Biology and Medical Genetics/Medical Genetics and Molecular Biology/Lectures/Dr.Omar/Bg genetics dr.omar gene regulation.pdf",
+   "sha256": "6b79d4e412995c3b78c42cb639df64b993dc959409ccaae9d6eb497651d4fb88",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 120,
+   "ocrSample": "/ Of Medicine Ain Shams University _ 2024 / 5 jon of Gene in Eukaryotes (0% as A © ) as i Dae: EB BIOCHEMISTRY i ACADEMY"
+  },
+  {
+   "rel": "Term 1/Molecular Biology and Medical Genetics/Medical Genetics and Molecular Biology/Lectures/Dr.Omar/EOM - Bg genetics final essay Dr.Omar.pdf",
+   "sha256": "a957a0e69bf11f6b8da663c33bdba93909598035027ac6513a9f7f183b7cee22",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 110,
+   "ocrSample": "Eaculty Of Medicine Ain Shams University 2024 / 2025 Chapter Essay Questions Final-Genetics ai atte Ov Ke OF e"
+  },
+  {
+   "rel": "Term 1/Molecular Biology and Medical Genetics/Medical Genetics and Molecular Biology/Lectures/Dr.Omar/EOM MCQs - Bg genetics final Mcqs dr.Omar.pdf",
+   "sha256": "d83a3017c760e2770c2259f6644e7e21d4063c51b5c2a65ed617b314e1a6ca2b",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 202,
+   "ocrSample": "/racuity Of Medicine Ain Shams University 2024 / 2025 Chapter MCQs & Important Notes Final-Genetics | ‏ليحت‎ I 0 1 Je y | Ae al | Ke) :. 1 , BIOCHEMISTRY Sieh, 1 jen = ACADEMY 7 CS ae __ ‏للف ::. شالف«‎"
+  },
+  {
+   "rel": "Term 1/Molecular Biology and Medical Genetics/Medical Genetics and Molecular Biology/Lectures/Dr.Omar/MCQs - Bg MCQs revision Dr.Omar",
+   "sha256": "0680f45a8f7d7d1cabd20b0ae6d551551ff20f453261ea25046db624442ea2e0",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 36,
+   "ocrSample": "{Scanned with 7 ١ ‏لها‎ CamScanner’:"
+  },
+  {
+   "rel": "Term 2/General Pathology/Pathology/Lectures/Dr.Abdelrahman Khalifa/Special.inflammation.pdf",
+   "sha256": "da1d7073de67683f4c88946405269d53024233eb2cfe07a7256e68e2ca83588f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 32,
+   "ocrSample": "| EASY PATHOLOGY ~*~ 3 2024 2025"
+  },
+  {
+   "rel": "Term 2/Infection/Microbiology/Lectures/Dr.Mohammed Ashraf/MCQs - Bg Infection Microbiology Mcqs dr.mohame.pdf",
+   "sha256": "68fe9409ae4ab90d025ef2d7945a2ff166986dae4ee594376cbaab8e6c961544",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 117,
+   "ocrSample": "ee B 4¥Pulse. 1 > SOLVE! « ‏بذج‎ ie —) —— > “or | e a ‏د‎ re 9 Microbiology | 5 Infection module 04 > oO 2025 4 2 ‏و‎"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Anatomy/Lectures/Dr.yossef/Bg Anatomy The Arm and MC nerve.pdf",
+   "sha256": "4c2df2c802b789d3569254dfb48e6b0be47179166d96e293709bdf1abae4b34f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 202,
+   "ocrSample": "ce ‏يي‎ ‎9 abc To ne Se oN ‏ميلمة دار‎ 0 Ah ‏لمسطط مهست‎ oF tm lI ‏أنه متنا‎ CoraCo- ‏ونا ع8‎ SS. on ant ad 7 ‏ستول‎ ‎Gane Bracdiair creep Tn a Sag | 1 Se ‏بح‎ ‏ا‎ 3 i Ra re 1 co 5 0000 00 a ae ARSE Led"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Anatomy/Lectures/Dr.yossef/Bg anatomy dr youssef part2.pdf",
+   "sha256": "7660505e6f0a1790040bc4b8a11ba7e65eb4aaf4d979d23928c79b328aa74c0e",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 773,
+   "ocrSample": "7 1 ْ — 8 Brachial plexus <> ‏هه‎ ‎is “a ‘i ‘ » Sl ie it, 0 we : _——— Axillary nerve 020 ْ 1 en 7— Musculocutaneous . ‘ee + i ‏جلا‎ Radial nerve 58 oi ew Median nerve : i Ulnar nerve . 2 It is a plexus of nerves which passes from the neck to the axilla and supplies sensory and motor nerves to the upper limb. | Origin: ٠ Ventral rami of C5, 6,7, 8& Th. . This 0 gin may be shifted ١ pwards ¢ rc ownwards: | 2. (Prefixed plexus: ٠ If it started earlier (C4, 5, 6, 7, 8). 0 ‏ل 5 صضدا‎ ٠ Ifitstarted la"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Anatomy/Lectures/Dr.yossef/Bg locomotor anatomy part 8.pdf",
+   "sha256": "87c3b67b2fc90cbc1b797e42e11f45693c71486957dc1516ebaf8fb910272153",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 108,
+   "ocrSample": "Ghai... =... Se oe | r ia a > 3 5-5 5 ‏في‎ = 35-7 ‏له‎ 0 Dr.Youssef Shoukry vt! 2025 3 art@ ‏أ‎ © camScanner"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Anatomy/Practical/Checklists/💣Bg Anatomy (Practical 1).pdf",
+   "sha256": "8eef620fb445c3cc88d73ee541c3e92e040f52d08b3f6c7367a78490bf6a3115",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 213,
+   "ocrSample": "Se Ae NO A 1 T x M 1 5 i M. iN iol te 0 ‏اا‎ ie ee GN aceite. ae A Hes AL es ig LocomotorSystem —. al ee ok... a URAL: SETA Dr.Youssef Shoukry ractical 1 eS 2024 A BNiTt NO} ae ‏م‎ ‏د لمهم‎ Scanned with CamScanner"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Biochemistry/Lectures/Dr Omar/Bg bio mc metabolism.pdf",
+   "sha256": "5e28c33ae01d372bdbce6df81207cc9655cedeedf3765ef5abd8588f8d5e84ae",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 169,
+   "ocrSample": "Up Faculty Of Medicine Ain Shams University 2024 / 2025 Chapter i. Muscle Metabolism Part -2 A = > a ‘ei Sing ——— Locomotor Module - 6 ‏كر‎ a 0 9 00 BIOCHEMISTRY ACADEMY"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Biochemistry/Lectures/Dr Omar/Bio dr.Omar_",
+   "sha256": "ced251a4aa550b30710014416bcec9d19a97e9081f600480db56dfb604bb71b4",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 1069,
+   "ocrSample": "Oc ‏ظ‎ Bla. Collage iseases; DW \\ gen and Related Dis SAY ACADEMY Collagen ‏ل‎ protein in human body. e Itis a major component of of loose connective tissue, bone, tendons, blood vessels walls and the sclera and cornea of the eye. Structure of Type [ collagen: e Collagen is formed of fibers that contain fibrils, each is formed of tropocollagen e Tropeconageen is stabilized by interchain Hydrogen bonds v Formed of Long rigid three polypeptide « chains wind around each other in a rope-like. v 3 Po"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Biochemistry/Practical/Slides/Practical bio loco . Dr omar.pdf",
+   "sha256": "ce347c03422e6c7130ceb51cb132a98f7d2f249ce30f6d5b4fd82ffd2f188063",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 131,
+   "ocrSample": "7 Faculty Of Medicine Ain Shams University 2024 / 2025 Practical mon = 32 a. Locomotor Module > Wes ae eee DUO BIOCHEMISTRY ACADEMY"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Biochemistry/Questions/MCQs/MCQs - Biochemistry Locomotor MCQs - CA1.pdf",
+   "sha256": "e4a23646b45bcc340c70d8e087ce5198be1b646a7ff8d5b4283c2338b3938a39",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 170,
+   "ocrSample": "Faculty Of Medicine Qo Ain Shams University 7 14 ‏عم‎ ‎2024 / 5 D 4 ْ BIOCHEMISTRY © ha 8 ter ACADEMY MCQs Part-| Locomotor ‏سس ‘ وتم . تكد‎ < / So Ts stig hi Copy Center"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Clinical Medicine/Lectures/Dr youssef/Bg clinical locomotor part 2.pdf",
+   "sha256": "0455977960ed9b8d444da0b9abf206d95f8d39a67b9d3248f4359097f5badc8d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 116,
+   "ocrSample": "As ‏الم لطا م‎ lee Ov Moa Y. 5 © |] ‏ص إل‎ LE Ze & | io gor | ١ © © Clinical Locomotor 5 f Shoukr i shoukry part"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Clinical Medicine/Lectures/Dr youssef/Bg locomotor clinical (1).pdf",
+   "sha256": "885ee7d20d9acc7a1bb48f5b5fd5d7e815a9e1a7a7f90cc10052dfb0da00a4af",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 135,
+   "ocrSample": "0 i Se PALM Pe ee 2e bY \\ th 4 Doe. 0-6 3 e © Clinical Locomotor hl Dr.Youssef Shoukry | 2025 Part 1 ‏1ت‎ ET PN ‏اسم سد سمحت و حل ل وب‎"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Microbiology/Practical/Slides/Practical Locomotor Microbiology Dr.Karim Emad.pdf",
+   "sha256": "c598a58449f8580d8bea477945a2c958e380e40fe1a239046423e91bfc1448e2",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 74,
+   "ocrSample": "‎ip :‏ ا ‎PRACTICAL LOCOMOTOR MICROBIOLOGY‏ ‎UPDATED 2025‏ ‎DR.KARIM EMAD‏"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Microbiology/Practical/Slides/Practical Stations.pdf",
+   "sha256": "c82d1b4c84bcf9e38b2abd383a67635e9ba85e15b876de4515e426b6c6952503",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 954,
+   "ocrSample": "Station 1 A pus sample was obtained from a patient with a skin Ba abscess. Direct microscopic examination showed Gram- positive cocci arranged in clusters among pus cells. + ‏وق‎ ‎1. What is your provisional diagnosis? Why? ar Cae ٠ Abscess by Staph aureus Seats \"3 ٠ Gram positive cocci arranged in grape-like irregular clusters ‏اج‎ 3_3 (bunches)or groups in between the pus cells be. bp 4 11 2. Which culture media do you prefer to inoculate the sample on? - Nutrient & blood agars. © - - 3. What "
+  },
+  {
+   "rel": "Term 2/Locomotor System/Parasitology/Practical/Slides/Copy of 2. Arthropods Affecting Skin (Flies).pdf",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+   "fileType": "pdf",
+   "probeStatus": "error",
+   "ocrChars": 0,
+   "ocrSample": ""
+  },
+  {
+   "rel": "Term 2/Locomotor System/Parasitology/Practical/Slides/Copy of 5. Practical Revision (Para).pdf",
+   "sha256": "cc96d9c6b5f1c17a2909f511fcc87992d3add1432153d829b07a553e31037cac",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 86,
+   "ocrSample": "Locomotor Module Practical Revision Part I a. Revision Slides. b. Labelled Structure."
+  },
+  {
+   "rel": "Term 2/Locomotor System/Parasitology/Practical/Slides/MCQs - Para Dr Ayman Locomotor Practical MCQ 2025.pdf",
+   "sha256": "45be51497717229c4fb872c2e5182d58b2c72586dbcae96ed6f5894aa485614d",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 79,
+   "ocrSample": "55 Parasitology Dr Ayman Ibrahim Locomotor Practical = Pe Sees ee ae el Se 2025"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Parasitology/Practical/Slides/Para Dr Ayman Locomotor Practical 2025.pdf",
+   "sha256": "bb0d20ee84b2204de37914756a65c684422acc3a481864a13fad06ece8bbb6e2",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 102,
+   "ocrSample": "Parasitology Dr Ayman Ibrahim Locomotor . ae Practical Pulse. = 5 rr ٠ — 1 a alae aa ne Be es ots eens"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Pathology/Practical/Slides/Practical patho loco dr khalifa.pdf",
+   "sha256": "b4f0fb52807eff11efdd7a70d28c0de156f12fcd33d1fc5cf5f9861fee11402f",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 119,
+   "ocrSample": "Jaan Easy Pathology 1 14 ar ain - \"2 A ws, 3 Locomotor Slides & Jars For Ain Shams Students DR.Abdelrahman Khalifa 2024"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Physiology/Lectures/Dr.Abdelhamid/Bg loco physio Dr.Abdelhamid.pdf",
+   "sha256": "a6e42fa19ae5ca4cb70a06ccd92f8adee71ad25577a4e970f89dbe009d6ad079",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 109,
+   "ocrSample": "@puse, 00230032200 2025 | sm 2 1 iw aie DR. ABDELHAMIO area bg 3 15+ Year ain Shams Medical Students ‏ش‎ :"
+  },
+  {
+   "rel": "Term 2/Locomotor System/Physiology/Practical/Slides/Physiology dr.Abdelhamed.pdf",
+   "sha256": "ba9e4f5190017469c9224af88e351b33f154f219138077bdef46da48294b5aa6",
+   "fileType": "pdf",
+   "probeStatus": "ok",
+   "ocrChars": 78,
+   "ocrSample": "0 PHYSIOLOGY WITH DR. ABDELHAMID ) Ist Year medical Students | a | Se ae” 2025"
+  }
+ ]
+}

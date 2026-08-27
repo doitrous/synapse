@@ -1,0 +1,53 @@
+{
+  "generatedOn": "2026-08-22T00:00:00.000Z",
+  "sources": [
+    {
+      "sourceId": "src_fixture0000000001",
+      "corpusRelativePath": "Year 1/Term 2/Fixture/Assessments/Fixture EOY Paper.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000f1",
+      "processingStatus": "processed",
+      "pageCount": 3,
+      "fileType": "pdf",
+      "exclusionReason": null,
+      "moduleId": "ASU-FIXTURE",
+      "secondaryModule": null,
+      "sourceCategory": "EOY",
+      "examSittingYear": 2026,
+      "sourceTier": 1,
+      "absolutePath": "/Users/doitrous/Desktop/Ain Shams/Year 1/Term 2/Fixture/Assessments/Fixture EOY Paper.pdf",
+      "fileName": "Fixture EOY Paper.pdf"
+    },
+    {
+      "sourceId": "src_fixture0000000002",
+      "corpusRelativePath": "Year 1/Term 2/Fixture/Assessments/Fixture Question Book.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000f2",
+      "processingStatus": "processed",
+      "pageCount": 2,
+      "fileType": "pdf",
+      "exclusionReason": null,
+      "moduleId": "ASU-FIXTURE",
+      "secondaryModule": null,
+      "sourceCategory": "Questions",
+      "examSittingYear": 2026,
+      "sourceTier": 2,
+      "absolutePath": "/Users/doitrous/Desktop/Ain Shams/Year 1/Term 2/Fixture/Assessments/Fixture Question Book.pdf",
+      "fileName": "Fixture Question Book.pdf"
+    },
+    {
+      "sourceId": "src_fixture0000000003",
+      "corpusRelativePath": "Year 1/Term 2/Fixture/Department Books/Fixture Dept Book.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000f3",
+      "processingStatus": "processed",
+      "pageCount": 10,
+      "fileType": "pdf",
+      "exclusionReason": null,
+      "moduleId": "ASU-FIXTURE",
+      "secondaryModule": null,
+      "sourceCategory": "Department Book",
+      "examSittingYear": null,
+      "sourceTier": 3,
+      "absolutePath": "/Users/doitrous/Desktop/Ain Shams/Year 1/Term 2/Fixture/Department Books/Fixture Dept Book.pdf",
+      "fileName": "Fixture Dept Book.pdf"
+    }
+  ]
+}

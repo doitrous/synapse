@@ -1,0 +1,18 @@
+{
+  "states": {
+    "synapse-concept-graph-v2": {
+      "concepts": [
+        {
+          "id": "CON-FND-A9A4D15983C214",
+          "label": "A fixture concept proves the toolchain mints and validates before real content is authored.",
+          "canonicalKey": "asu-fixture-first-concept",
+          "universityIds": ["kau"],
+          "learnerYears": [1],
+          "moduleIds": ["101 ISK"],
+          "moduleSubjectPaths": ["101 ISK > Foundations > Fixture Topic (Kasr side)"],
+          "examSignal": { "appearances": [{ "sourceId": "src_kau_example", "tier": "end_of_year", "year": 2024, "page": 1, "module": "101 ISK" }] }
+        }
+      ]
+    }
+  }
+}
