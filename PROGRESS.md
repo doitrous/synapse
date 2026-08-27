@@ -42,8 +42,48 @@ Orienting from this file + editorial-keying-candidates.json (per instructions, d
 slurp mcq-bank.json — sliced/grepped only). Confirmed org-wide gate applies here too
 (docs/chief-of-staff/BOARD.md, Instruction Manual 13-orchestration.md S1 Triage row):
 lanes stop after the triage table and mint/author nothing until CoS says "TRIAGE
-APPROVED". This lane has not received that yet. Proceeding with deliverable 1 only
-(complete the triage table via find-existing.mjs concept search over the 757 keyed
-rows); deliverable 2 (editorial-keying the 532 = authoring work) is being held pending
-explicit TRIAGE APPROVED, consistent with the note directly above written by the prior
-pass in this same lane.
+APPROVED". This lane had not received that yet at pass start. Completed deliverable 1
+(triage table via find-existing.mjs concept search over the 757 keyed rows, 45
+clusters classified live/pending/new — see docs/Kasr-Source-Imports/coverage/
+104-CPS-MCQ-triage.md) and stopped there per the gate, flagging the conflict.
+
+CoS then reviewed and returned **TRIAGE APPROVED** with an explicit ruling: keying
+(assigning an answer to an existing question under ANSWER-KEY GAPS) is NOT
+concept-minting and is not gated by triage — cleared to proceed on the 532. Concept/
+article authoring for the pending/live clusters stays HELD until all 1289 rows are
+keyed and fully triaged (one clean authoring pass later).
+
+## Editorial keying pass — 532/532 candidates processed
+Worked all 532 editorial-keying-candidates.json rows in 15 batches (batch 11 onward;
+batches 1-10 were the earlier triage-table pass) via the generator-input pattern:
+`editorial-answers.json` (checked-in input, one entry per row: answer, fieldNote
+"keyed editorially, no printed key", >=3-sentence explanation, per-wrong-option
+distractor notes) + `apply_editorial.py` (rerunnable, folds onto mcq-bank.json's
+`answer` field, never overwriting an existing printed/recovered key, mirroring
+`apply.py`'s pattern exactly).
+
+**Result: 357 keyed, 175 excluded (not keyed).**
+- mcq-bank.json: **1114/1289 now keyed** (374 printed + 383 solved-book-recovered +
+  357 editorial), `answerConfidence: "editorial-no-printed-key"` for the new 357.
+- 175 rows were read and judged too corrupted/ambiguous to key confidently and
+  excluded instead (`editorialExcluded: true` + `editorialExcludeReason` on the bank
+  row) — per the ANSWER-KEY GAPS ruling, a wrong key is worse than a missing one.
+  Common exclusion reasons, in rough order of frequency: (1) OCR page-bleed merging
+  2+ unrelated questions into one stem/option-set (the largest single category,
+  especially dense in Anatomy — Large Nerves/Tubes/Veins of the Thorax, Mediastinum);
+  (2) the correct answer embedded as unlettered text in the stem (a recurring
+  extraction pattern) with no assignable option letter surviving; (3) genuinely
+  missing the correct option (all surviving lettered choices independently false, or
+  all independently true with no way to pick the intended one); (4) discursive
+  written-exam prompts (essay/short-answer questions) misfiled as MCQ rows; (5)
+  questions depending on an unavailable figure/graph; (6) two co-equally valid
+  mechanisms with no combining option to choose between.
+- Anatomy was the most corrupted subject (~45% exclusion rate); Histology and
+  Physiology's cleaner, more clinically-phrased sources yielded a much higher
+  keying rate (Histology's Cardiovascular-Arteries cluster alone: 20/20 keyed, 0
+  excluded).
+
+Next: report to CoS with the keyed/excluded split; concept + article authoring for
+the pending/live clusters (and a stem-level read of the 3 topic-only clusters
+flagged in the triage doc) is the one clean pass still held for later, per CoS's
+TRIAGE APPROVED ruling.
