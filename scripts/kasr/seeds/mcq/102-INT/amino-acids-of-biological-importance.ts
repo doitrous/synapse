@@ -525,5 +525,59 @@ export const LEAF: McqLeafSeed = {
       excludeReason:
         'Option set corrupted by OCR. Options (d) and (e) have the chapter\'s own printed answer-key table bled into them — (d) reads "Peptide covalent bond Answers Key 1.b| ll.a| 21.a} 31.d 2.c|/ 12.c} 22.b..." and (e) is nothing but further table fragments ("a| 16.d| 26.a Ib| I7a| 27.0 8.c| 18.b| 28.a..."), not a genuine fifth choice for this stem at all. Even though the underlying fact — amino acids are linked by peptide, covalent, bonds — is taught on physical p10, the option text itself is not repairable from the extracted data.',
     },
+
+    // --- pass 1 additions (2026-08-27): reuse amino-acid-chemical-and-nutritional-classification ---
+    {
+      key: 'MCQ-102-07f0a0ff-p25-q6',
+      conceptKey: 'amino-acid-chemical-and-nutritional-classification',
+      difficulty: 'Easy',
+      questionType: 'Classification',
+      learningObjective: 'Identify glycine as a neutral aliphatic amino acid.',
+      explanations: {
+        a: 'Correct. Glycine\'s side chain is a single hydrogen atom, with no ionisable amino or carboxyl group — the concept names it as the smallest neutral aliphatic amino acid for exactly that reason.',
+        b: 'Basic aliphatic amino acids (lysine, arginine) carry an extra amino group in the side chain; glycine\'s side chain has no such group, which is what makes it neutral rather than basic.',
+        c: 'Acidic aliphatic amino acids (aspartate, glutamate) carry an extra carboxyl group in the side chain; glycine has none, so it cannot be acidic.',
+        d: 'Aromatic amino acids (phenylalanine, tyrosine, tryptophan) carry a ring in the side chain; glycine\'s side chain is only a hydrogen atom, so it is neither acidic nor aromatic.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p26-q13',
+      conceptKey: 'amino-acid-chemical-and-nutritional-classification',
+      difficulty: 'Easy',
+      questionType: 'Definition',
+      learningObjective: 'Name cystine as the disulfide-linked dimer of two cysteine molecules.',
+      explanations: {
+        a: 'Homocysteine is a different, one-carbon-longer sulfur amino acid produced from methionine metabolism, not the disulfide dimer of cysteine.',
+        b: 'Acetylcysteine (N-acetylcysteine) is a chemically acetylated derivative of cysteine, not the product of two cysteines joining by a disulfide bond.',
+        c: 'Correct. Two cysteine molecules linked through their thiol (-SH) groups by an oxidative disulfide bond form cystine, the disulfide-linked dimer the concept names.',
+        d: 'Homocystine is the disulfide dimer of homocysteine, not of cysteine — it shares the "two joined by a disulfide bond" pattern with cystine without sharing cysteine as the starting amino acid.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p28-q22',
+      conceptKey: 'amino-acid-chemical-and-nutritional-classification',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Name arginine as the concept\'s one half-essential amino acid.',
+      explanations: {
+        a: 'Alanine is a pure glucogenic, fully non-essential amino acid — the body synthesises it without dietary need, with no half-essential status.',
+        b: 'Correct. Arginine is half-essential: the body can synthesise it, but not always in amounts sufficient for the high demands of growth, so diet must supplement it at those times.',
+        c: 'Asparagine — the amide of aspartate — is non-essential, with no history of being classed as semi-essential.',
+        d: 'Aspartate is an acidic amino acid, and the concept is explicit that no acidic amino acid is essential, half-essential included.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p28-q24',
+      conceptKey: 'amino-acid-chemical-and-nutritional-classification',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Identify tyrosine as non-essential because it is made from phenylalanine.',
+      explanations: {
+        a: 'Lysine is one of the nine essential amino acids the concept lists — the body cannot make it at all, so it must come from the diet.',
+        b: 'Leucine is likewise one of the nine essential amino acids (and one of only two purely ketogenic ones), not a non-essential amino acid.',
+        c: 'Arginine is half-essential, not fully non-essential — the body makes some but not always enough, a different status from tyrosine\'s.',
+        d: 'Correct. Tyrosine is non-essential: the body synthesises it from the essential amino acid phenylalanine, so as long as dietary phenylalanine is adequate, tyrosine itself need not be supplied directly.',
+      },
+    },
   ],
 }

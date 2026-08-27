@@ -487,5 +487,33 @@ export const LEAF: McqLeafSeed = {
       excludeReason:
         "Option d ('all the above') requires options a (reverse transcriptase) and b (RNA template) to also be true, and neither is stated anywhere in the book's account of telomerase (p84), which describes only what the repeat sequence is and that telomerase restores chromosome length after each replication cycle. Not taught in the module book.",
     },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p59-q15',
+      conceptKey: 'eukaryotic-dna-polymerases-and-roles',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Name DNA polymerase γ as the enzyme that replicates mitochondrial DNA.',
+      explanations: {
+        a: 'DNA polymerase α, as the α–primase complex, lays down RNA primers and their short initial DNA stretch on nuclear chromosomes — it has no role in mitochondrial DNA replication.',
+        b: 'DNA polymerase β fills gaps during nuclear DNA repair, not mitochondrial DNA synthesis.',
+        c: 'DNA polymerase δ synthesises the lagging strand of nuclear DNA discontinuously as Okazaki fragments — again a nuclear, not mitochondrial, job.',
+        d: 'Correct. DNA polymerase γ is the one eukaryotic polymerase dedicated to synthesising mitochondrial DNA.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p59-q16',
+      conceptKey: 'eukaryotic-dna-polymerases-and-roles',
+      difficulty: 'Moderate',
+      questionType: 'Classification',
+      learningObjective: 'Name DNA polymerase ε as the enzyme that synthesises the leading strand in eukaryotes.',
+      explanations: {
+        a: 'DNA polymerase α lays down the RNA primers and the short DNA attached to them — priming, not continuous leading-strand synthesis.',
+        b: 'DNA polymerase β is the nuclear DNA repair enzyme, unrelated to leading-strand replication.',
+        c: 'DNA polymerase δ synthesises the lagging strand discontinuously from many primers as Okazaki fragments — the opposite strand and the opposite pattern from what this question asks about.',
+        d: 'Correct. DNA polymerase ε synthesises the leading strand continuously from a single primer — the pitfall the concept itself flags is confusing it with δ, which does the lagging strand instead.',
+      },
+    },
   ],
 }

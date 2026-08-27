@@ -173,6 +173,25 @@ export const LEAF: McqLeafSeed = {
         "The book names serine or tyrosine as the residues that carry the phosphate group; it never mentions threonine. The bank's option wording (\"serine and threonine residues\") does not exactly match the book's own naming, though it remains the only option among the four describing a real, book-taught mechanism.",
       ],
     },
+    // Reused from the Platelets and haemostasis leaf, same module — fields
+    // copied verbatim so this leaf agrees with that pinned record. Pass 1
+    // (2026-08-27): this chapter's own NSAID/aspirin row tests exactly the
+    // cyclooxygenase-inhibition fact that concept already states.
+    {
+      key: 'aspirin-platelet-aggregation-and-bleeding-time',
+      label:
+        'Aspirin prevents myocardial infarction because it inhibits cyclooxygenase in both cells but only the endothelial cell can make the enzyme again, so a small prolonged dose suppresses thromboxane A2 while prostacyclin recovers',
+      definition:
+        'Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production. Endothelial cells produce new cyclooxygenase within hours, but platelets — lacking a nucleus and the machinery to synthesise new enzyme — cannot. Small prolonged doses of aspirin therefore suppress platelet thromboxane A2 (impairing platelet aggregation and prolonging bleeding time) while endothelial prostacyclin recovers, tilting the balance toward reduced clot formation and away from myocardial infarction.',
+      objective: "Explain why aspirin's effect on platelet aggregation outlasts its effect on endothelial prostacyclin, and connect that asymmetry to bleeding-time prolongation and MI prevention.",
+      pitfall: 'Assuming aspirin blocks clotting the way heparin or warfarin does (acting on the coagulation cascade) — it acts upstream, on platelet aggregation via thromboxane A2 suppression, which is why it prolongs bleeding time rather than coagulation time.',
+      subject: 'haem',
+      primary: 'DIS-PHY-T02',
+      secondary: [],
+      modulePath: '102 INT > Physiology > Blood > Platelets and haemostasis',
+      type: 'mechanism',
+      aliases: ['Aspirin MI prevention', 'Cyclooxygenase inhibition'],
+    },
   ],
 
   questions: [
@@ -443,6 +462,60 @@ export const LEAF: McqLeafSeed = {
         b: "Reverses the book's own section heading. Phosphorylation/dephosphorylation is presented under 'Covalent Modifications' — it is specifically a covalent, not non-covalent, change.",
         c: "Reverses the book's account. The enzyme exists in two interconvertible forms — phosphorylated and dephosphorylated — precisely because the modification is reversible, undone by protein phosphatase.",
         d: "Reverses the book's account directly. Phosphorylation activates some enzymes (e.g. glycogen phosphorylase kinase) and inactivates others (e.g. glycogen synthase) — it very much affects catalytic activity.",
+      },
+    },
+
+    // --- pass 1 additions (2026-08-27) ---
+    {
+      key: 'MCQ-102-07f0a0ff-p46-q11',
+      conceptKey: 'factors-affecting-enzyme-reaction-rate',
+      difficulty: 'Easy',
+      questionType: 'Definition',
+      learningObjective: 'Name the pH of maximal enzyme activity as the optimum pH.',
+      explanations: {
+        a: '"Standard" is not a term the book uses for a pH value at all — it names an optimum, not a standard, pH.',
+        b: 'Equilibrium describes a reaction\'s balance point between forward and reverse rates, which pH does not set or define — a different concept from the pH of peak enzyme activity.',
+        c: 'Correct. The pH at which an enzyme is most active is its optimum pH, one of the five factors — alongside substrate, enzyme and cofactor concentration, and temperature — that set reaction velocity.',
+        d: '"Neutral" (pH 7) is not what the book means by optimum — most enzymes\' optimum sits somewhere between pH 5 and 9, and pepsin\'s, for instance, is strongly acidic, nowhere near neutral.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p46-q12',
+      conceptKey: 'factors-affecting-enzyme-reaction-rate',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: "Explain that pH affects enzyme activity by altering the ionisation (charge) of the substrate and the enzyme's active-site residues.",
+      explanations: {
+        a: 'Backwards. Activity falls, not rises, as pH moves away from the optimum in either direction — that is exactly what makes it an optimum.',
+        b: 'Correct. Shifting pH changes the ionisation state of chargeable groups on both the substrate and the active site\'s amino acid residues, altering the electrostatic fit between them and so the catalytic rate.',
+        c: 'Backwards. Extreme pH changes can denature the enzyme protein outright, abolishing catalytic activity altogether — the opposite of having no effect.',
+        d: 'Reversed: pepsin is a stomach enzyme maximally active at strongly acidic pH (around pH 1.5-2), not at alkaline pH above 7.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p47-q16',
+      conceptKey: 'factors-affecting-enzyme-reaction-rate',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'State that reaction velocity is directly proportional to enzyme concentration as long as substrate is not limiting.',
+      explanations: {
+        a: 'Correct. With substrate in excess, velocity rises in direct proportion to enzyme concentration — every extra enzyme molecule adds its own share of catalysis, since there is always substrate available for it to act on.',
+        b: 'Temperature is a separate factor with its own optimum, not the variable this question\'s "substrate not limiting" condition is isolating.',
+        c: 'Product concentration does not drive forward velocity upward — if anything, accumulating product can slow a reaction, the opposite of the proportional relationship asked about here.',
+        d: 'pH is a separate factor from enzyme concentration, and unlike enzyme concentration it does not scale velocity linearly — it has its own single optimum value rather than a proportional relationship.',
+      },
+    },
+    {
+      key: 'MCQ-102-07f0a0ff-p48-q26',
+      conceptKey: 'aspirin-platelet-aggregation-and-bleeding-time',
+      difficulty: 'Moderate',
+      questionType: 'Mechanism',
+      learningObjective: 'Name cyclooxygenase as the enzyme aspirin and other NSAIDs inhibit.',
+      explanations: {
+        a: 'Lipoxygenase makes the acyclic eicosanoids (leukotrienes) from arachidonic acid — a different enzyme, on a different branch of the pathway, that aspirin does not target.',
+        b: 'Correct. Aspirin is a cyclooxygenase inhibitor: blocking cyclooxygenase cuts production of both thromboxane A2 (platelets) and prostacyclin (endothelium) from arachidonic acid.',
+        c: 'Phospholipase A2 acts one step upstream, releasing arachidonic acid from membrane phospholipids in the first place — aspirin does not act at this step.',
+        d: 'Lipoprotein lipase hydrolyses triacylglycerol in circulating lipoproteins, an entirely different pathway with no role in eicosanoid synthesis or aspirin\'s mechanism.',
       },
     },
   ],
