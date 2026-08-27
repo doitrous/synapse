@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 889,
+ "withAnswer": 903,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -2090,7 +2090,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Arteries"
+   "leaf": "Arteries",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option A merges two separate claims ('elastic fibers', genuinely a tunica media component, with 'endothelium', which actually belongs to the tunica intima) into one unusable blob, and option D (internal elastic lamina) is genuinely ambiguous in classification across textbooks (some classify it as the media's inner boundary, others as the intima's outer boundary). With the cleanest, most confidently correct sub-claim trapped inside a corrupted merged option, no single letter can be assigned with full confidence."
   },
   {
    "key": "tunica-media-of-medium-sized-arteries-is-mainly-formed-of-749f7ae1",
@@ -3946,8 +3948,8 @@
     "C": "The end systolic volume",
     "D": "Degree of stretching of muscle fibres"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -3962,7 +3964,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "The heart"
+   "leaf": "The heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The Frank-Starling law of the heart states that, within physiological limits, the strength of cardiac muscle contraction is directly related to the initial length of the muscle fibres just before contraction begins -- that is, the degree to which the fibres are stretched by venous filling (preload). Greater diastolic stretch increases the overlap and calcium sensitivity of the actin-myosin contractile apparatus up to an optimal length, producing a more forceful subsequent contraction, which is the physiological basis for the heart automatically matching its output to venous return without needing external neural signals. This length-tension relationship is the single most important, most frequently tested statement of Starling's law in cardiac physiology.",
+    "distractorNotes": {
+     "A": "Arterial blood pressure relates to afterload, a separate determinant of cardiac performance from the length-dependent (preload-based) relationship Starling's law describes.",
+     "B": "Decreased oxygen supply to the myocardium would impair contractile strength through an entirely different (ischaemic) mechanism, unrelated to fibre stretch.",
+     "C": "End-systolic volume is a consequence of the heart's pumping performance, not the variable that Starling's law identifies as directly determining contraction strength."
+    }
+   }
   },
   {
    "key": "according-to-starling-law-the-tension-of-isometric-cardiac-m-0dfbb05b",
@@ -3995,7 +4006,9 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "None of the five options restates the core Starling's law relationship (that isometric tension depends on the initial length/degree of stretch of the muscle fibre, i.e. preload) -- instead the options mix in force-velocity-relationship concepts (Vmax at zero load) and unrelated cardiovascular facts (arterial pressure, oxygen supply, ejection phase) that do not directly answer what Starling's law itself states about isometric tension. No option can be confidently matched to the question asked."
   },
   {
    "key": "according-to-the-frank-starling-law-of-the-heart-f4ab249c",
@@ -6611,8 +6624,8 @@
     "C": "Direct connection between arterioles and venules.",
     "D": "Are the blood capillaries."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b1c03ac55330bb88dc62",
@@ -6632,7 +6645,16 @@
    "optionsBefore": [
     "B",
     "D"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Arteriovenous anastomoses are, by histological definition, direct connections specifically between arterioles and venules, allowing blood to bypass the intervening capillary bed entirely -- this small-vessel scale is what allows the shunt to be tightly and rapidly controlled by the dense sympathetic innervation these structures receive, serving functions like thermoregulation in the fingertips, toes, and ear lobes. The other size pairings (medium arteries to veins, or large elastic arteries to large veins) describe a much larger and physiologically distinct scale of vessel than the true AV anastomosis, and AV anastomoses are themselves a bypass mechanism around capillaries, not a type of capillary.",
+    "distractorNotes": {
+     "A": "AV anastomoses connect small vessels (arterioles and venules), not medium-sized arteries and veins, which is too large a scale for this rapidly-controlled shunting structure.",
+     "B": "Large elastic arteries and large veins are far too large in scale to form the rapidly-regulated, sympathetically-controlled AV anastomosis structure.",
+     "D": "AV anastomoses bypass the capillary bed entirely; they are a distinct shunt structure, not a type of blood capillary themselves."
+    }
+   }
   },
   {
    "key": "arterio-venous-anastomoses-are-characterized-by-0677dfc0",
@@ -6912,8 +6934,8 @@
     "C": "Veins",
     "D": "Capillaries"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_a80db7ee55cde84f8ec8",
@@ -6928,7 +6950,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Veins"
+   "leaf": "Veins",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Veins and venules together hold the largest share of total circulating blood volume at any given moment, roughly 60-70%, functioning as a low-pressure capacitance reservoir that can expand or contract to buffer changes in blood volume and adjust venous return to the heart. This is in contrast to arteries (roughly 10-15% of blood volume, built for rapid, low-volume distribution under high pressure) and capillaries (only about 5%, since they exist for exchange rather than storage). The exam takeaway is to remember veins as the blood volume 'reservoir' of the circulatory system, holding the majority share at rest.",
+    "distractorNotes": {
+     "A": "The heart holds only a modest fraction of total blood volume at any instant, far less than the venous system.",
+     "B": "Arteries hold a moderate share (roughly 10-15%) of total blood volume, considerably less than the venous system's majority share.",
+     "D": "Capillaries hold only about 5% of total blood volume, the smallest major compartment, since they function for exchange rather than storage."
+    }
+   }
   },
   {
    "key": "at-karyotyping-cell-is-stopped-division-at-24c1dd45",
@@ -10427,8 +10458,8 @@
     "C": "They have valves",
     "D": "Its media contains elastic fibers"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_9cf32ada2b25fa54f0e9",
@@ -10448,7 +10479,15 @@
    "optionsBefore": [
     "A",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Valves are a characteristic feature of medium-sized veins, particularly in the limbs (especially the lower limb), where they prevent the backflow of blood against gravity -- but large veins such as the inferior and superior venae cavae, the portal vein, and other great veins characteristically LACK valves, making this the false statement specifically for large veins as the stem asks. The other statements are correct for large veins: their adventitia may indeed contain longitudinal smooth muscle bundles (a recognised feature, e.g. of the inferior vena cava), and their thin media does contain some elastic fibres alongside smooth muscle, even though large veins generally lack a well-defined internal elastic lamina like arteries do.",
+    "distractorNotes": {
+     "A": "True: the tunica adventitia of large veins, such as the inferior vena cava, may contain bundles of longitudinal smooth muscle, an unusual feature not typically seen in the adventitia of comparably-sized arteries.",
+     "D": "True: the thin tunica media of large veins does contain some elastic fibres interspersed among the smooth muscle, even without forming a distinct, well-defined elastic lamina."
+    }
+   }
   },
   {
    "key": "concerning-nitric-oxide-no-the-following-are-true-except-a9c985aa",
@@ -17114,8 +17153,8 @@
     "C": "Tissue alkalosis 03",
     "D": "Increased urine output"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_ab84e963639b236e0951",
@@ -17130,7 +17169,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Veins"
+   "leaf": "Veins",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "As hemorrhagic shock progresses from its compensated toward its decompensated (progressive) stage, prolonged tissue hypoperfusion and hypoxia trigger the release of inflammatory mediators and metabolic byproducts that damage capillary endothelium, increasing capillary permeability -- this allows fluid and even plasma proteins to leak out of the vascular space into the interstitium, further reducing effective circulating blood volume and creating a vicious, self-worsening cycle that is the hallmark of the 'progressive' (as opposed to compensated) phase of shock. This mechanism is part of why hemorrhagic shock can become progressively harder to reverse the longer it continues, even after the initial bleeding is controlled. The exam takeaway is to associate increased capillary permeability specifically with the transition from compensated to progressive/decompensated shock.",
+    "distractorNotes": {
+     "B": "The compensatory response to hemorrhage is widespread venoconstriction (to maintain venous return and cardiac filling from the reduced blood volume), not venous dilation, at least until very late, irreversible decompensation.",
+     "C": "Progressive shock produces tissue hypoxia and anaerobic metabolism, leading to lactic ACIDOSIS, not alkalosis -- the opposite of what this option states.",
+     "D": "Renal hypoperfusion and compensatory fluid conservation in shock lead to DECREASED, not increased, urine output (oliguria)."
+    }
+   }
   },
   {
    "key": "in-quiet-breathing-expiration-is-e59e87c7",
@@ -20859,7 +20907,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Veins"
+   "leaf": "Veins",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a bare fragment ('Medium sized arteries') with no actual question attached, and only two option-like fragments survive ('Medium sized veins', 'Inferior vena cava') without any indication of what property or comparison is being asked about. Not answerable as extracted."
   },
   {
    "key": "medium-sized-vein-is-characterized-by-eeba9e52",
@@ -24184,8 +24234,8 @@
     "C": "Medium sized veins.",
     "D": "Inferior vena cava."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_f0dc974eca83c51623bc",
@@ -24206,7 +24256,16 @@
     "A",
     "B",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "A prominent, clearly visible internal elastic lamina is a defining, diagnostic feature of medium-sized (muscular) arteries, where it forms a sharp, wavy boundary separating the tunica intima from the smooth-muscle-dominated tunica media. In the aorta, by contrast, the internal elastic lamina cannot be clearly distinguished because it blends in with the many other elastic laminae that fill the media, and veins of any size (including medium veins and the inferior vena cava) generally lack a well-developed internal elastic lamina altogether, consistent with their lower-pressure, capacitance-oriented wall structure. The exam takeaway is to use a clearly visible internal elastic lamina as a reliable microscopic clue specifically pointing to a muscular artery.",
+    "distractorNotes": {
+     "A": "In the aorta, the internal elastic lamina is present but not distinguishable as a separate structure from the many other elastic laminae filling the media.",
+     "C": "Medium-sized veins generally lack a well-developed internal elastic lamina, unlike arteries.",
+     "D": "The inferior vena cava, like veins generally, lacks a well-developed internal elastic lamina."
+    }
+   }
   },
   {
    "key": "propagation-of-the-action-potential-through-the-heart-isfast-b5f2c52d",
@@ -24738,8 +24797,8 @@
     "C": "It receives the thoracic duct as a tributary",
     "D": "It descends obliquely downwards and to the right. ;"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_b2b20b3b22954ea7843a",
@@ -24754,7 +24813,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Veins"
+   "leaf": "Veins",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The brachiocephalic veins are blood vessels, formed by the union of the internal jugular and subclavian veins, draining venous blood from the head, neck, and upper limb of their respective side -- they do not 'drain lymph from the whole body', which mischaracterises their function entirely. The thoracic duct, which does carry the majority of the body's lymph, empties as a tributary specifically into the venous system near the origin of the LEFT brachiocephalic vein (at the junction of the left internal jugular and left subclavian veins), but this single tributary connection is a minor detail of drainage, not a description of the brachiocephalic vein's own overall function. The other statements are correct: the brachiocephalic veins do drain both upper limbs and the head/neck (one on each side), the left one does receive the thoracic duct, and the left brachiocephalic vein does descend obliquely downward and to the right to join its counterpart and form the superior vena cava.",
+    "distractorNotes": {
+     "A": "True: each brachiocephalic vein drains its side's upper limb (via the subclavian vein) and head/neck (via the internal jugular vein).",
+     "C": "True: the left brachiocephalic vein receives the thoracic duct as a tributary near its origin.",
+     "D": "True: the left brachiocephalic vein has a notably longer, more oblique course, descending downward and to the right to join the right brachiocephalic vein and form the superior vena cava."
+    }
+   }
   },
   {
    "key": "regarding-bronchopulmonary-segments-which-is-correct-03061e6c",
@@ -25407,8 +25475,8 @@
     "D": "The Left ventricular wall is usually three times thicker than of the right.",
     "E": "The Left atrium of the heart receives pulmonary veins."
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "C",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -25429,7 +25497,17 @@
     "A",
     "D",
     "E"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The relationship stated here is reversed: it is the RIGHT ventricle that lies anterior, forming most of the heart's sternocostal (anterior) surface, while the left ventricle sits more posteriorly and to the left, contributing mainly to the heart's apex and diaphragmatic (inferior) surface -- describing the left ventricle as lying anterior to the right ventricle inverts this standard spatial relationship, making it the false statement. The other statements are correct: the sternocostal surface is indeed formed mainly by the right ventricle, the heart does rest on its inferior (diaphragmatic) surface, the left ventricular wall is indeed roughly three times thicker than the right, and the left atrium does receive the four pulmonary veins.",
+    "distractorNotes": {
+     "A": "True: the right ventricle forms the majority of the heart's sternocostal (anterior) surface.",
+     "B": "True: the heart's inferior (diaphragmatic) surface, formed mainly by the left ventricle, rests upon the diaphragm.",
+     "D": "True: because it must generate systemic (not pulmonary) pressures, the left ventricular wall is roughly three times thicker than the right ventricle's.",
+     "E": "True: the left atrium receives the four pulmonary veins returning oxygenated blood from the lungs."
+    }
+   }
   },
   {
    "key": "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-56ba303e",
@@ -26402,7 +26480,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Veins"
+   "leaf": "Veins",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Both surviving substantive options are confidently false under standard fetal circulation physiology (oxygenated blood returns to the fetus via the umbilical VEIN, not the umbilical artery; the ductus arteriosus shunts blood from the pulmonary trunk/artery to the aorta, not from the pulmonary veins), and the third surviving 'option' (a bare diagnosis name, 'Atrial septal defect') does not fit the sentence structure of a statement to evaluate as true or false. The correct statement was most likely in a missing option C."
   },
   {
    "key": "regarding-the-function-of-the-pericardium-one-of-the-followi-25ea0a87",
@@ -34038,8 +34118,8 @@
     "C": "Peaks in early systole",
     "D": "Peaks in early diastole"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -34054,7 +34134,16 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "The heart"
+   "leaf": "The heart",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Left coronary blood flow is markedly impeded during systole, because the powerful contraction of the left ventricular myocardium compresses the intramural coronary vessels running through it, squeezing down on the very vessels trying to supply it -- this is why left coronary flow instead peaks during early diastole, when the myocardium relaxes and releases this compressive force, allowing blood to flow freely into the coronary bed. This systolic-compression phenomenon is much less pronounced on the right side, since right ventricular pressures are far lower and compress the right coronary vessels much less, giving right coronary flow a more even distribution across the cardiac cycle. The exam takeaway is to pair 'left coronary flow' specifically with 'diastole-dominant', a distinguishing feature from right coronary flow's more balanced systolic/diastolic pattern.",
+    "distractorNotes": {
+     "A": "Coronary blood flow is tightly coupled to myocardial oxygen demand via local metabolic regulation, the opposite of being independent of it.",
+     "B": "Left and right coronary flow differ in their temporal pattern across the cardiac cycle (left is diastole-dominant due to systolic compression, right is more evenly distributed), so they are not simply 'the same'.",
+     "C": "Left coronary flow is actually LOWEST, not highest, during early systole, due to compression of intramural vessels by the contracting left ventricular myocardium."
+    }
+   }
   },
   {
    "key": "the-left-recurrent-laryngeal-nerve-hooks-inferiorly-around-t-f916dd25",
@@ -37502,7 +37591,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Arteries"
+   "leaf": "Arteries",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Options A and C have each absorbed two separate claims into a single unusable blob (A merges 'tunica media is thick' -- false for a vein -- with 'bundles of smooth muscle in tunica adventitia' -- true for the IVC; C merges 'have internal elastic lamina' with 'have external elastic lamina', both generally false for veins). With each surviving option mixing a true and a false sub-claim, or two false sub-claims, no single option can be cleanly selected as the correct answer."
   },
   {
    "key": "the-wall-of-the-arterioles-lacks-8ee6a84b",
@@ -38185,8 +38276,8 @@
     "C": "Smooth muscle fibers",
     "D": "Internal elastic lamina"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_437b45e5de1d97a26dc6",
@@ -38203,7 +38294,16 @@
    ],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Arteries"
+   "leaf": "Arteries",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The tunica adventitia (outermost layer) of large and medium arteries characteristically contains vasa vasorum -- the small nutrient vessels that penetrate from this layer to supply the outer portions of the vessel wall, which is too thick to be nourished by diffusion from the lumen alone. This is the specific, defining content most associated with the adventitia in histology teaching, distinguishing it from the endothelium (found in the intima), smooth muscle (predominantly the media, though some longitudinal bundles can extend into the adventitia of certain vessels), and the internal elastic lamina (the intima-media boundary).",
+    "distractorNotes": {
+     "A": "Endothelium is the defining component of the tunica intima, the innermost layer, not the adventitia.",
+     "C": "Smooth muscle fibres are predominantly a tunica media feature; while some longitudinal smooth muscle bundles can be found in the adventitia of certain large arteries, this is a secondary feature rather than the adventitia's defining constituent.",
+     "D": "The internal elastic lamina marks the boundary between the tunica intima and tunica media, not a component of the tunica adventitia."
+    }
+   }
   },
   {
    "key": "tunica-adventitia-of-large-arteries-constitutes-the-followin-7bbcddac",
@@ -38313,7 +38413,9 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Arteries"
+   "leaf": "Arteries",
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Two of the surviving options (B: the adventitia of veins is typically wider than that of arteries; D: the tunica intima is more folded in medium veins than in same-sized arteries) both appear to be independently true, standard histological facts distinguishing veins from arteries -- with two plausible true answers and no way to determine which single one this bank intends, this cannot be confidently keyed."
   },
   {
    "key": "turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe",
@@ -38868,8 +38970,8 @@
     "C": "Present in tunica adventitia",
     "D": "All of the above"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_9cf32ada2b25fa54f0e9",
@@ -38889,7 +38991,12 @@
    "optionsBefore": [
     "A",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Vasa vasorum, the small nutrient vessels supplying the walls of large blood vessels, are found predominantly in the tunica adventitia, extend inward to nourish the deeper (outer) tissue of the tunica media that is too far from the lumen for diffusion alone, and are notably more frequent and more deeply penetrating in the walls of veins than in arteries of comparable size -- since venous blood is less oxygenated than arterial blood, the venous wall relies more heavily on this dedicated external blood supply rather than on diffusion from its own lumen. Because all three of these statements are individually correct facts about vasa vasorum, the combined 'all of the above' option is the correct choice, consistent with this exam bank's recurring pattern of testing multi-part true enumerations as a single combined answer.",
+    "distractorNotes": {}
+   }
   },
   {
    "key": "vasa-vasorum-is-present-in-dff3929b",
@@ -40162,8 +40269,8 @@
     "C": "Increase 4 times",
     "D": "Decreases 4 times"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_e569449acf8dc2af471e",
@@ -40184,7 +40291,16 @@
     "B",
     "C",
     "D"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "By Poiseuille's law, blood flow is directly proportional to the pressure gradient and to the fourth power of the vessel's radius (Flow proportional to Delta-P times r^4). Doubling the radius increases flow by a factor of 2^4 = 16, while halving the perfusion pressure decreases flow by a factor of 2, so the combined effect is 16 multiplied by one-half, giving a net eightfold increase in blood flow. This dramatic radius^4 relationship is precisely why small changes in arteriolar diameter (via smooth muscle tone) have such a powerful effect on local blood flow and total peripheral resistance, far outweighing comparable percentage changes in driving pressure.",
+    "distractorNotes": {
+     "B": "A 16-fold increase would result if radius alone were doubled with pressure held constant; it overlooks that halving the pressure cuts this effect in half.",
+     "C": "A 4-fold increase does not correctly apply the radius-to-the-fourth-power relationship of Poiseuille's law.",
+     "D": "Flow increases rather than decreases overall, since the 16-fold gain from doubling the radius outweighs the 2-fold loss from halving the pressure."
+    }
+   }
   },
   {
    "key": "when-2-homologous-chromosome-fail-to-separate-result-in-4-ab-7fcb5904",
@@ -42799,8 +42915,8 @@
     "A": "Thick tunica intima. B- well prominent internal elastic lamina",
     "C": "Thick tunica media. D- Fenestrated elastic lamina in tunica media"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_9cf32ada2b25fa54f0e9",
@@ -42815,7 +42931,15 @@
    "variants": [],
    "subject": "Histology",
    "chapter": "Cardiovascular System",
-   "leaf": "Arteries"
+   "leaf": "Arteries",
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The aorta's tunica intima is not particularly thick -- like most vessels, it consists of just a thin endothelial layer with a modest underlying subendothelial layer -- and its internal elastic lamina is notably NOT well distinguished, since it blends indistinguishably with the many other elastic laminae filling the media, rather than being especially prominent. Both parts of this option are therefore false, making it the correct answer to a 'NOT true' question. By contrast, the aorta genuinely does have a thick tunica media (its most defining structural feature) built from 40 to 70 concentric fenestrated elastic laminae, both of which are well-established, correct facts about this vessel.",
+    "distractorNotes": {
+     "C": "The aorta's tunica media is genuinely thick, its most defining structural feature as a large elastic artery.",
+     "D": "The aorta's tunica media genuinely contains numerous fenestrated elastic laminae (40-70), the hallmark histological feature of elastic arteries."
+    }
+   }
   },
   {
    "key": "which-of-the-following-is-responsible-for-the-fourth-heart-s-4009c200",
@@ -44190,8 +44314,8 @@
     "C": "There is no internal elastic lamina",
     "D": "Its adventitia is thicker than media"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_9cf32ada2b25fa54f0e9",
@@ -44211,7 +44335,16 @@
    "optionsBefore": [
     "A",
     "C"
-   ]
+   ],
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "Medium-sized (muscular) arteries are defined by a tunica media dominated by many layers of smooth muscle cells, interspersed with some elastic fibres, which allows active regulation of vascular tone and resistance along the arterial tree. This muscular media is bounded by a well-developed, clearly visible internal elastic lamina (a key identifying feature of this vessel type), and vasa vasorum, where present, are located in the tunica adventitia rather than the intima. The exam takeaway is to fix the muscular artery's signature identity as 'smooth-muscle-rich media with a prominent internal elastic lamina', distinct from the elastic artery's many-elastic-laminae media and the vein's thicker adventitia.",
+    "distractorNotes": {
+     "A": "Vasa vasorum, where present in a vessel wall, are located in the tunica adventitia, not the tunica intima.",
+     "C": "Medium-sized arteries have a well-developed, prominent internal elastic lamina -- one of their most distinguishing microscopic features -- not an absent one.",
+     "D": "It is the tunica media, not the adventitia, that is the thicker, dominant layer in arteries; a thicker adventitia relative to media is instead a defining feature of veins."
+    }
+   }
   },
   {
    "key": "which-one-of-the-following-statements-concerning-respiratory-284f61b0",
@@ -46960,6 +47093,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 132,
- "editorialExcludedCount": 116
+ "withEditorialAnswer": 146,
+ "editorialExcludedCount": 122
 }
