@@ -500,7 +500,7 @@ is
 simple columnar ciliated epithelium with goblet cells
 
 ## display_text
-The Fallopian tube is lined by simple columnar ciliated epithelium with goblet cells.
+The Fallopian tube is lined by simple columnar ciliated epithelium, without goblet cells.
 
 ## risk_class
 foundational_stable

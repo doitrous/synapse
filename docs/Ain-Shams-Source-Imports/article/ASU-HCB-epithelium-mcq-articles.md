@@ -67,7 +67,7 @@ Dr. Omar
 Dr. Omar
 
 ## summary
-The ASU HCB Dr. Hegazy epithelium MCQ bank tests epithelium as the one basic tissue with apical–basal polarity, general features that mark it out from connective, muscular and nervous tissue (avascularity, minimal intercellular substance, continuous turnover), the growth-abnormality vocabulary (dysplasia, metaplasia, neoplasia), and a set of named epithelial types tied to specific body locations: stratified squamous (keratinized in skin, non-keratinized in the esophagus and mouth), endothelium (blood vessels), mesothelium (pleura), pseudostratified columnar (trachea), simple columnar ciliated with goblet cells (Fallopian tube), transitional/urothelium (distention-adapted, e.g. bladder), and neuroepithelium (taste buds).
+The ASU HCB Dr. Hegazy epithelium MCQ bank tests epithelium as the one basic tissue with apical–basal polarity, general features that mark it out from connective, muscular and nervous tissue (avascularity, minimal intercellular substance, continuous turnover), the growth-abnormality vocabulary (dysplasia, metaplasia, neoplasia), and a set of named epithelial types tied to specific body locations: stratified squamous (keratinized in skin, non-keratinized in the esophagus and mouth), endothelium (blood vessels), mesothelium (pleura), pseudostratified columnar (trachea), simple columnar ciliated, no goblet cells (Fallopian tube), transitional/urothelium (distention-adapted, e.g. bladder), and neuroepithelium (taste buds).
 
 ## sections
 ### Definition
@@ -79,7 +79,7 @@ In a stratified epithelium, only the basal cell layer actually rests on and atta
 Growth abnormalities of epithelium form a specific vocabulary: metaplasia is a reversible change of one epithelial type into another; dysplasia is disordered growth that falls short of tumour formation; neoplasia is the abnormal increase in the growth of cells that defines tumour formation.
 
 ### Key determinants
-Different body sites are lined by epithelial types matched to their local mechanical and functional demands: stratified squamous keratinized epithelium withstands abrasion and dehydration in the skin and the palm of the hand; stratified squamous non-keratinized epithelium withstands abrasion in a wet environment, as in the esophagus and the mouth cavity; simple squamous endothelium lines blood vessels for a thin diffusion barrier; simple squamous mesothelium lines serous cavities such as the pleura; pseudostratified ciliated columnar epithelium (with goblet cells) lines the trachea for mucociliary clearance; simple columnar ciliated epithelium with goblet cells lines the Fallopian tube to move the ovum; transitional epithelium (urothelium) folds and stretches to withstand distention, as in the urinary bladder; and neuroepithelium, a sensory epithelium linked to nerve endings, forms the taste buds.
+Different body sites are lined by epithelial types matched to their local mechanical and functional demands: stratified squamous keratinized epithelium withstands abrasion and dehydration in the skin and the palm of the hand; stratified squamous non-keratinized epithelium withstands abrasion in a wet environment, as in the esophagus and the mouth cavity; simple squamous endothelium lines blood vessels for a thin diffusion barrier; simple squamous mesothelium lines serous cavities such as the pleura; pseudostratified ciliated columnar epithelium (with goblet cells) lines the trachea for mucociliary clearance; simple columnar ciliated epithelium, without goblet cells, lines the Fallopian tube to move the ovum; transitional epithelium (urothelium) folds and stretches to withstand distention, as in the urinary bladder; and neuroepithelium, a sensory epithelium linked to nerve endings, forms the taste buds.
 
 ### Clinical significance
 This is not a treatment rule. Its study value is recognising that a change in the epithelial type lining an organ (metaplasia) is a real, examinable process — for example, chronic irritation of a normally non-keratinized surface can drive metaplastic change — and that neoplasia is defined, not just implied, as abnormal cell-growth increase, a distinction tested directly in this bank.
@@ -87,7 +87,7 @@ This is not a treatment rule. Its study value is recognising that a change in th
 ### Common misconceptions
 A common error is assuming epithelium is vascularised because it lies close to a richly vascular connective tissue layer; the vessels stay in the connective tissue.
 Another is assuming every cell of a stratified epithelium touches the basement membrane or reaches the apical surface — only the basal and surface layers respectively do so.
-A third is mismatching epithelial type to location: assigning a pseudostratified pattern to the Fallopian tube (it is simple columnar ciliated with goblet cells, not pseudostratified) or a stratified pattern to a site that needs distention resistance (transitional epithelium, not stratified squamous, withstands distention).
+A third is mismatching epithelial type to location: assigning a pseudostratified pattern, or a goblet-cell-bearing pattern, to the Fallopian tube (it is simple columnar ciliated without goblet cells) or a stratified pattern to a site that needs distention resistance (transitional epithelium, not stratified squamous, withstands distention).
 
 ## published_summary
 
@@ -95,7 +95,7 @@ A third is mismatching epithelial type to location: assigning a pseudostratified
 
 ## hold_these
 Epithelium is the only basic tissue with polarity, is avascular, and only its basal cell layer attaches to the basement membrane in a stratified epithelium.
-Named epithelial types map to specific locations: stratified squamous nonkeratinized (esophagus, mouth), endothelium (blood vessels), mesothelium (pleura), pseudostratified columnar (trachea), simple columnar ciliated with goblet cells (Fallopian tube), transitional/urothelium (distention), neuroepithelium (taste buds).
+Named epithelial types map to specific locations: stratified squamous nonkeratinized (esophagus, mouth), endothelium (blood vessels), mesothelium (pleura), pseudostratified columnar (trachea), simple columnar ciliated, no goblet cells (Fallopian tube), transitional/urothelium (distention), neuroepithelium (taste buds).
 
 ## lose_the_mark
 Saying epithelium contains blood vessels, or that every cell of a stratified epithelium touches the basement membrane or reaches the apical surface.

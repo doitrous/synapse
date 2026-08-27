@@ -460,7 +460,7 @@ src_b86ae41ff2e749179215
 local_curriculum
 
 ## support_span
-28- The lining epithelium of the Fallopian (uterine tube) is. a. Simple columnar ciliated with goblet cell
+28- The lining epithelium of the Fallopian (uterine tube) is. b. Simple columnar ciliated.
 
 ## locator_type
 page
@@ -472,7 +472,7 @@ page
 Epithelium
 
 ## locator_detail
-Native text extracted with pdftotext -layout from PDF page 5; no OCR. Printed answer key: 28-B (option list reproduced verbatim as printed; option lettering in the source runs a/b/c/d/e with the printed key using the corresponding position).
+Native text extracted with pdftotext -layout from PDF page 5; no OCR. Printed answer key: 28-B, which is the plain "Simple columnar ciliated" option (second in the printed list), not the otherwise-similar "...with goblet cell" option listed first.
 
 ## context_note
 Distractors are pseudostratified-columnar variants (trachea/epididymis pattern), not the correct Fallopian-tube pattern.

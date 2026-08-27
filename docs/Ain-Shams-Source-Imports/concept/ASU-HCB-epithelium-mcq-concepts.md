@@ -1879,16 +1879,16 @@ sourceCandidateIds: Existing content was searched for "mesothelium pleura" befor
 CON-FND-626225395CE7C5
 
 ## label
-The fallopian tube is lined by simple columnar ciliated epithelium with goblet cells
+The fallopian tube is lined by simple columnar ciliated epithelium, without goblet cells
 
 ## canonical_key
 epithelium.fallopian-tube.ciliated-columnar-lining
 
 ## definition
-The lining epithelium of the Fallopian (uterine) tube is simple columnar ciliated epithelium with goblet cells, distinguishing it from pseudostratified columnar variants offered as distractors.
+The lining epithelium of the Fallopian (uterine) tube is simple columnar ciliated epithelium, taught in this bank as not carrying goblet cells (unlike the trachea), and distinguished from pseudostratified columnar variants offered as distractors.
 
 ## explicit_objective
-State the specific lining epithelium of the Fallopian tube (simple columnar ciliated with goblet cells) as tested against pseudostratified-columnar distractor options.
+State the specific lining epithelium of the Fallopian tube (simple columnar ciliated, no goblet cells) as tested against a goblet-cell distractor and pseudostratified-columnar distractor options.
 
 ## concept_type
 fact
@@ -1947,7 +1947,7 @@ src_b86ae41ff2e749179215
 ART-FND-ASU-HCB-GLAND-SECRETION-MECHANISMS
 
 ## original_wording
-The lining epithelium of the Fallopian (uterine tube) is. a. Simple columnar ciliated with goblet cell [correct] b. Simple columnar ciliated. c. Pseudo stratified columnar with goblet cell d. Pseudo stratified columnar e. Pseudo stratified columnar with stereocilia
+The lining epithelium of the Fallopian (uterine tube) is. a. Simple columnar ciliated with goblet cell b. Simple columnar ciliated. [correct] c. Pseudo stratified columnar with goblet cell d. Pseudo stratified columnar e. Pseudo stratified columnar with stereocilia
 
 ## owner
 Dr. Omar
@@ -1993,7 +1993,7 @@ Uterine tube lining
 ## arabic_aliases
 
 ## pitfalls
-Selecting a pseudostratified-columnar option for the Fallopian tube; that pattern belongs to the trachea and the epididymis (stereocilia), not the Fallopian tube, which is simple columnar ciliated with goblet cells.
+Selecting a pseudostratified-columnar option for the Fallopian tube (that pattern belongs to the trachea and the epididymis with stereocilia), or attaching goblet cells to the Fallopian tube's simple columnar ciliated lining — the printed key marks the plain "simple columnar ciliated" option correct over the otherwise-similar "with goblet cell" option.
 
 ## approved_file_resource_ids
 [clear]
