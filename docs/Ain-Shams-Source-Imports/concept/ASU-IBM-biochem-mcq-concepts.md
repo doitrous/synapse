@@ -189,19 +189,19 @@ sourceCandidateIds: find-existing.mjs run for "tryptophan absorbance" — no hit
 # Item
 
 ## id
-CON-FND-A045EC94FA388E
+CON-FND-140D5B96CDD17C
 
 ## label
-Amino acid water solubility depends on charged or polar side-chain groups
+All amino acids are water-soluble because of their zwitterionic backbone
 
 ## canonical_key
-aminoacid.solubility.charge-polarity-dependence
+aminoacid.solubility.zwitterion-basis
 
 ## definition
-Amino acids are soluble in water only when they carry charged or polar side-chain groups; a purely non-polar (hydrophobic) side chain does not confer the same free solubility.
+All standard amino acids are soluble in water because their ionizable alpha-amino and alpha-carboxyl groups form a zwitterion at physiological pH; this backbone-driven solubility holds regardless of whether the side chain itself is polar, charged, or non-polar.
 
 ## explicit_objective
-State what determines whether an amino acid is soluble in water.
+State why amino acids are soluble in water.
 
 ## concept_type
 structure_function_relationship
@@ -259,7 +259,7 @@ src_659d23529471fd1ee6c6
 ## related_article_ids
 
 ## original_wording
-Regarding the solubility of amino acids — Only with charged or polar groups are soluble.
+Regarding the solubility of amino acids — All are soluble.
 
 ## owner
 Dr. Omar
@@ -297,14 +297,14 @@ ASU-IBM
 
 ## aliases
 Amino acid solubility
-Polar and charged group solubility
+Zwitterion solubility
 
 ## arabic_label
 
 ## arabic_aliases
 
 ## pitfalls
-Assuming all 20 standard amino acids are freely soluble regardless of side chain — the bank's own key ties solubility to the presence of a charged or polar group, not to the zwitterion alone.
+Assuming solubility depends on the side chain being charged or polar — the exam's key credits the zwitterion/backbone explanation: all standard amino acids are water-soluble, including those with a non-polar side chain.
 
 ## approved_file_resource_ids
 [clear]
@@ -316,7 +316,7 @@ Assuming all 20 standard amino acids are freely soluble regardless of side chain
 [clear]
 
 ## uncertainty
-The bank's key selects "only with charged or polar groups are soluble" over "all are soluble" — a stricter reading than some texts that treat all free amino acids as water-soluble because of the zwitterion; explanation honours the printed key while noting the alternative view.
+The bank's key selects "all are soluble" over the stricter "only with charged or polar groups are soluble" option — the zwitterion at the alpha-carbon is read as sufficient for solubility regardless of side-chain character. Some texts note a non-polar side chain reduces solubility in practice, but this bank does not test that nuance.
 
 ## evidence_gaps
 Independent non-local biochemistry reference not yet attached; current support is the local ASU-IBM question bank only.

@@ -81,15 +81,15 @@ Three identity facts about amino acids that this ASU-IBM bank tests directly: wh
 
 ## sections
 ### Definition
-An amino acid's side chain, not its shared backbone, decides two of its most commonly tested properties: whether it dissolves freely in water, and whether it contributes to a protein's UV signature.
+An amino acid's shared backbone, not its side chain, is what this bank credits for water solubility; the side chain instead decides a different commonly tested property, a protein's UV signature.
 
 ### Mechanism
-Amino acids are soluble in water only when they carry charged or polar side-chain groups. A purely hydrophobic side chain does not confer the same free solubility.
+All standard amino acids are water-soluble because of their zwitterionic backbone. Their ionizable alpha-amino and alpha-carboxyl groups form a zwitterion at physiological pH, and this backbone-driven solubility holds regardless of whether the side chain itself is polar, charged, or non-polar.
 Proteins absorb ultraviolet light at 280nm chiefly because of the aromatic ring of tryptophan. Of the twenty side chains, tryptophan's indole ring is the strongest chromophore at that wavelength, so a protein's 280nm absorbance is read as a proxy for its tryptophan content.
 Not every residue found in a mature protein is written into the genetic code directly. Hydroxyproline is a non-standard amino acid formed by post-translational hydroxylation of proline residues already incorporated into a polypeptide; it has no dedicated codon of its own in the genetic code.
 
 ### Key determinants
-Charged or polar side chain → water-soluble amino acid.
+Zwitterion at the alpha-carbon → water-soluble amino acid, any side chain.
 Indole ring (tryptophan) → 280nm UV absorbance.
 Post-translational hydroxylation of an already-coded residue (proline → hydroxyproline) → no dedicated codon.
 
@@ -97,7 +97,7 @@ Post-translational hydroxylation of an already-coded residue (proline → hydrox
 Measuring a protein solution's absorbance at 280nm is a routine, low-cost way to estimate protein concentration in a lab — a direct application of the tryptophan fact above.
 
 ### Common misconceptions
-Assuming every amino acid dissolves freely in water regardless of side chain, when the bank's own answer key ties solubility specifically to a charged or polar group.
+Assuming solubility depends on the side chain being charged or polar — this bank's key credits the zwitterion/backbone explanation instead: all standard amino acids are water-soluble, including those with a non-polar side chain.
 Naming tyrosine or phenylalanine for the 280nm signal — both absorb weakly in that range, but tryptophan's indole ring dominates it.
 Treating proline as having no genetic code — proline is directly coded; it is the post-translationally hydroxylated derivative, hydroxyproline, that is not.
 
@@ -106,18 +106,18 @@ Treating proline as having no genetic code — proline is directly coded; it is 
 ## published_sections
 
 ## hold_these
-Amino acid water solubility needs a charged or polar side chain.
+All amino acids are water-soluble because of their zwitterionic backbone, whatever the side chain.
 Tryptophan's indole ring is why proteins absorb UV at 280nm.
 Hydroxyproline, not proline, is the amino acid with no dedicated codon.
 
 ## lose_the_mark
-Saying every amino acid is water-soluble regardless of side chain.
+Saying solubility depends on the side chain being charged or polar.
 Naming tyrosine or phenylalanine instead of tryptophan for 280nm absorbance.
 Naming proline instead of hydroxyproline as lacking a genetic code.
 
 ## related_concepts
 CON-FND-4850B6FD68BCA4
-CON-FND-A045EC94FA388E
+CON-FND-140D5B96CDD17C
 CON-FND-405145A7A83B3B
 
 ## related_articles
@@ -161,8 +161,8 @@ asu: Taught in the ASU-IBM (Introduction to Medical Biochemistry) Protein Chemis
 Quote: Proteins absorb ultraviolet light at 280nm chiefly because of the aromatic ring of tryptophan.
 Block: body
 
-### definition_of · CON-FND-A045EC94FA388E
-Quote: Amino acids are soluble in water only when they carry charged or polar side-chain groups.
+### definition_of · CON-FND-140D5B96CDD17C
+Quote: All standard amino acids are water-soluble because of their zwitterionic backbone.
 Block: body
 
 ### definition_of · CON-FND-405145A7A83B3B
