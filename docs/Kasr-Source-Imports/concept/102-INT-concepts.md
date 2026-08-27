@@ -29,7 +29,7 @@ cellulose-dietary-importance
 ## definition
 Cellulose is an unbranched chain of β-glucose units joined by β1,4-glucosidic linkages. Amylase hydrolyses only α-linkages, so cellulose passes through the gut undigested. It increases the bulk of food, which stimulates intestinal contractions and prevents constipation, and it delays fat absorption.
 ## explicit_objective
-Explain why cellulose escapes digestion and state the two dietary consequences the department book gives for it.
+Explain why cellulose escapes digestion and state its two dietary consequences.
 ## pitfalls
 Believing that humans secrete a cellulase and simply absorb cellulose slowly. Nothing in the human gut hydrolyses a β1,4 bond — the benefit comes from the cellulose that is never absorbed at all.
 ## concept_type
@@ -685,7 +685,7 @@ post-translational-covalent-modification-types
 ## definition
 Amino acid residues in a finished chain are modified enzymatically to alter activity or stability, to direct the protein to a compartment, or to prepare it for secretion. Phosphorylation and dephosphorylation on serine, threonine or tyrosine regulate the enzymes of glycogen metabolism and regulators of gene transcription. Glycosylation marks proteins destined for secretion, lysosomes or membranes. Acetylation or methylation of the N-terminal residue alters charge, as in chromatin remodelling by histone acetylation. Hydroxylation of prolyl and lysyl residues stabilises collagen. Carboxylation forms γ-carboxyglutamate, which lets clotting proteins bind calcium.
 ## explicit_objective
-Name the types of covalent post-translational modification and give the department book's example for each.
+Name the types of covalent post-translational modification and give an example for each.
 ## pitfalls
 Offering trimming — the conversion of pre-proinsulin to insulin — as a covalent modification. Trimming is proteolytic removal of a segment and is the other branch of post-translational modification, not this one.
 ## concept_type
@@ -1598,7 +1598,7 @@ The primary transcript, hnRNA, contains introns that do not code for amino acids
 ## explicit_objective
 Identify the post-transcriptional steps on the pathway diagram, name the ribonucleoproteins that carry out splicing, and explain what alternative splicing achieves.
 ## pitfalls
-Thinking alternative splicing is a fault that produces a wrong protein. It is a normal, regulated route by which one gene legitimately encodes several different products — the antibody genes are the department book's example.
+Thinking alternative splicing is a fault that produces a wrong protein. It is a normal, regulated route by which one gene legitimately encodes several different products — the antibody genes are a well-known example.
 ## concept_type
 mechanism
 ## status
@@ -3943,7 +3943,7 @@ CON-FND-CB8584ED2F3C49
 ## canonical_key
 competitive-enzyme-inhibition-mechanism
 ## definition
-A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because the inhibition is reversed by raising substrate concentration and at a high enough substrate concentration the reaction reaches the same Vmax as in the absence of inhibitor. The apparent Km rises, because more substrate is needed to reach half of Vmax. The department book's examples are allopurinol, a structural analogue of hypoxanthine that inhibits xanthine oxidase and is used in gout; sulfonamides, structural analogues of para-aminobenzoic acid that block bacterial folate synthesis; and dicumarol and warfarin, structurally similar to a vitamin K derivative and used as anticoagulants.
+A competitive inhibitor is structurally similar to the substrate, so it competes with the substrate to bind reversibly at the active or catalytic site. The degree of inhibition depends on the ratio of inhibitor concentration to substrate concentration rather than on the absolute concentration of either, and on their relative affinities for the enzyme. Vmax is unaffected, because the inhibition is reversed by raising substrate concentration and at a high enough substrate concentration the reaction reaches the same Vmax as in the absence of inhibitor. The apparent Km rises, because more substrate is needed to reach half of Vmax. Examples are allopurinol, a structural analogue of hypoxanthine that inhibits xanthine oxidase and is used in gout; sulfonamides, structural analogues of para-aminobenzoic acid that block bacterial folate synthesis; and dicumarol and warfarin, structurally similar to a vitamin K derivative and used as anticoagulants.
 ## explicit_objective
 Explain how structural similarity to the substrate produces reversible inhibition, state what it does to Km and Vmax, and give two worked examples.
 ## pitfalls
@@ -4598,7 +4598,7 @@ free-nucleotide-biological-functions
 ## definition
 Beyond being the building blocks of DNA and RNA, free nucleosides and nucleotides serve four families of function. Energy transduction: ATP is the source of energy for mechanical and chemical processes, its bonds between the alpha, beta and gamma phosphates being high-energy bonds, and GTP serves the same role in some pathways. Signalling second messengers: cAMP is formed from ATP by adenylyl cyclase, and cGMP from GTP by guanylyl cyclase, cGMP mediating the smooth-muscle relaxation produced by nitric oxide and other vasodilators. Activated precursors in biosynthesis: S-adenosyl methionine is the most important methyl donor in transmethylation reactions; 3'-phosphoadenosine-5'-phosphosulfate is used for the synthesis of sulfur-containing compounds such as sulfated glycosaminoglycans and sulfolipids; CDP-choline and UDP-sugars serve phospholipid and glycogen synthesis. Coenzyme components: NAD+, NADP+, FMN and FAD are hydrogen carriers, and coenzyme A is an acyl group carrier through its active thiol group.
 ## explicit_objective
-Match each free nucleotide or nucleotide derivative to the biochemical role the department book assigns it.
+Match each free nucleotide or nucleotide derivative to its biochemical role.
 ## pitfalls
 Sorting them by their base — reading everything adenine-containing as an energy carrier. PAPS, SAM, FAD, NAD+ and coenzyme A all carry adenine and none of them is an energy source; the group attached to the nucleotide is what determines the function.
 ## concept_type
@@ -5518,15 +5518,15 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-DNA and RNA differ in every dimension the book tabulates — bases, sugar, strandedness, kind, location and job
+DNA and RNA differ across every dimension — bases, sugar, strandedness, kind, location and job
 ## id
 CON-FND-E50700FFFCF367
 ## canonical_key
 dna-vs-rna-comparison
 ## definition
-The book's own comparison table: nitrogenous bases — both have adenine, guanine and cytosine; DNA has thymine and no uracil, RNA has uracil and thymine only as a minor base in tRNA. Sugar — DNA has 2-deoxyribose, RNA has ribose. Shape of strand — DNA is a double helix, RNA is single-stranded. Types — DNA is linear or circular, RNA exists as mRNA, tRNA and rRNA. Site — DNA is in the nucleus and mitochondria, RNA is mainly in the cytosol and less commonly in the nucleus and mitochondria. Function — DNA carries genetic information and directs synthesis of RNAs, RNA carries out protein synthesis.
+Comparing the two across every dimension: nitrogenous bases — both have adenine, guanine and cytosine; DNA has thymine and no uracil, RNA has uracil and thymine only as a minor base in tRNA. Sugar — DNA has 2-deoxyribose, RNA has ribose. Shape of strand — DNA is a double helix, RNA is single-stranded. Types — DNA is linear or circular, RNA exists as mRNA, tRNA and rRNA. Site — DNA is in the nucleus and mitochondria, RNA is mainly in the cytosol and less commonly in the nucleus and mitochondria. Function — DNA carries genetic information and directs synthesis of RNAs, RNA carries out protein synthesis.
 ## explicit_objective
-Reproduce the book's DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
+Reproduce the DNA-versus-RNA comparison across bases, sugar, strand shape, types, site and function.
 ## pitfalls
 Saying RNA never contains thymine. Thymine appears in RNA too, as a minor base specifically in tRNA — uracil is simply RNA's major pyrimidine in place of thymine.
 ## concept_type
@@ -5910,13 +5910,13 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Cysteine and methionine are the two sulfur-containing amino acids the book draws
+Cysteine and methionine are the two sulfur-containing amino acids
 ## id
 CON-FND-3D6B24CAA42AC2
 ## canonical_key
 sulfur-containing-amino-acids
 ## definition
-The department book's amino acid structures list cysteine and methionine as the sulfur-containing amino acids; cystine, formed by joining two cysteines with a disulfide bond, is a related sulfur-containing derivative.
+Cysteine and methionine are the sulfur-containing amino acids; cystine, formed by joining two cysteines with a disulfide bond, is a related sulfur-containing derivative.
 ## explicit_objective
 Name the two sulfur-containing amino acids.
 ## pitfalls
@@ -6301,7 +6301,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Starch and glycogen are the two homopolysaccharides the book names first, both built entirely of glucose
+Starch and glycogen are two homopolysaccharides, both built entirely of glucose
 ## id
 CON-FND-B4916A9B4C980C
 ## canonical_key
@@ -6432,7 +6432,7 @@ reviewDue: A review date is set when a reviewer is assigned; setting one now wou
 
 # Item
 ## label
-Sickle cell anemia and thalassemia are the book's two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
+Sickle cell anemia and thalassemia are two named hemoglobinopathies, one from a wrong amino acid and one from too little chain
 ## id
 CON-HEM-3B1C5DBC2DB666
 ## canonical_key
@@ -6846,9 +6846,9 @@ CON-FND-DD3EE5EC8C07D1
 ## canonical_key
 ldh-and-ck-isoenzymes-comparison
 ## definition
-The department book (src_a488633802ec053c6325, Introduction to Biomedical Sciences INT-102, Biochemistry and Physiology parts) does not mention lactate dehydrogenase, creatine kinase, isoenzymes, or cardiac/muscle enzyme markers anywhere in its 167 pages, so no book-sourced definition exists for this question. Lactate dehydrogenase is a tetramer built from H (heart-type) and M (muscle-type) subunits, giving five isoenzymes, LDH1 (H4) through LDH5 (M4); creatine kinase is a dimer built from M (muscle-type) and B (brain-type) subunits, giving three, CK-MM, CK-MB and CK-BB. LDH1 and CK-MB predominate in cardiac muscle, LDH5 and CK-MM predominate in skeletal muscle and liver, and CK-BB predominates in brain, which is what makes a raised fraction diagnostic of the tissue it leaked from. Ruling 2026-08-27 (chief of staff): keyed editorially from standard biochemistry, no printed key — the assigned department book is silent on this topic, so this record is sourced from the discipline rather than the assigned text, and carries no book citation for that reason.
+Lactate dehydrogenase is a tetramer built from H (heart-type) and M (muscle-type) subunits, giving five isoenzymes, LDH1 (H4) through LDH5 (M4); creatine kinase is a dimer built from M (muscle-type) and B (brain-type) subunits, giving three, CK-MM, CK-MB and CK-BB. LDH1 and CK-MB predominate in cardiac muscle, LDH5 and CK-MM predominate in skeletal muscle and liver, and CK-BB predominates in brain, which is what makes a raised fraction diagnostic of the tissue it leaked from.
 ## explicit_objective
-Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use, content the assigned department book does not teach.
+Compare lactate dehydrogenase and creatine kinase isoenzymes by subunit composition, tissue distribution and diagnostic use.
 ## pitfalls
 Treating LDH and CK as single enzymes rather than isoenzyme families whose subunit composition (H/M for LDH, M/B for CK) determines which tissue, and therefore which clinical scenario, each fraction signals.
 ## concept_type

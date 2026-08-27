@@ -71,7 +71,7 @@ export const LEAF: McqLeafSeed = {
       key: 'plasma-membrane-unit-membrane-em-and-thickness',
       label: 'The plasma membrane is a 7.5–10 nm trilaminar unit membrane, invisible in H&E and shown only by silver or PAS',
       definition:
-        'The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. The books set it against three other membranous terms: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.',
+        'The plasma membrane, or plasmalemma, is the limiting membrane that envelopes every cell, and it is 7.5–10 nm thick. On electron microscopy it is trilaminar — the unit membrane — two dark, electron-dense layers separated by an intermediate light, electron-lucent layer. On light microscopy it is not resolved with haematoxylin and eosin and has to be demonstrated with silver or with PAS, both of which act on the carbohydrate of its outer coat rather than on the membrane itself. Three other membranous terms are worth distinguishing: the glycocalyx is its own outer coat, cristae are the folds of the inner mitochondrial membrane, and cisternae are the sacs of the endoplasmic reticulum.',
       objective:
         'Give the thickness of the plasma membrane in the right unit, describe its trilaminar appearance on electron microscopy, and name the stains that show it by light microscopy.',
       pitfall:
@@ -87,7 +87,7 @@ export const LEAF: McqLeafSeed = {
       key: 'organelle-content-identifies-what-a-cell-does',
       label: 'What a cell is doing can be read from which organelle is prominent in it',
       definition:
-        'A cell\'s organelle profile follows from its work, and the books examine the inference in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.',
+        'A cell\'s organelle profile follows from its work, and the inference runs in both directions. A protein-forming cell for export — the plasma cell, the fibroblast, the pancreatic acinar cell — has abundant rough endoplasmic reticulum, deeply basophilic cytoplasm, a well-developed Golgi apparatus and a pale euchromatic nucleus. A steroid-forming cell has abundant smooth endoplasmic reticulum instead, and its cytoplasm is acidophilic. A phagocyte — the macrophage or histiocyte, the neutrophil, the monocyte — has many lysosomes, a prominent Golgi and pseudopodia. A resting cell such as the fibrocyte has few organelles, little rough endoplasmic reticulum and pale cytoplasm. The mature erythrocyte has gone to the other extreme and has no nucleus, no mitochondria and no ribosomes at all, having lost them as its haemoglobin content rose.',
       objective:
         'Predict which organelle will be prominent in a named cell, and name the cell from a described organelle profile.',
       pitfall:
@@ -111,10 +111,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Separate what the membrane is built of from what the electron microscope shows of it.',
       answerOverride: 'C',
       answerOverrideReason:
-        'The books key this to B, and B is what the department book itself teaches: it calls the two mitochondrial membranes and both layers of the nuclear envelope "unit membranes", which is the statement that all the cell\'s membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.',
+        'The books key this to B, which is also the taught statement: the two mitochondrial membranes and both layers of the nuclear envelope are "unit membranes", which is the statement that all the cell\'s membranes share one appearance. The false statement is C. By electron microscopy the membrane is trilaminar, not a bilayer — the bilayer is its molecular construction, and the third layer of the image exists because the heavy metal deposits in the hydrophilic heads and not in the tails between them. The same books key `electron-microscope-of-cell-membrane` to trilaminar over bilaminar, and `by-em-the-cell-membrane-appears-as` to trilaminar over lipid bilayer, so their own answer elsewhere contradicts the key printed here.',
       explanations: {
         A: 'True, so not the exception. Plasmalemma is simply the other name for the plasma membrane.',
-        B: 'True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, and the department book applies it to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.',
+        B: 'True, so not the exception, and the option most students pick because "all" sounds like an overstatement. It is not one here: unit membrane is a general term, applied to the mitochondrial membranes and to the nuclear envelope as well as to the cell surface.',
         C: 'The exception, and the answer. Bilayer describes how the phospholipid molecules are arranged, which is chemistry; what the electron microscope shows is three layers, because the osmium deposits in the two rows of hydrophilic heads and leaves the hydrophobic tails between them unstained. Answering with the molecular truth instead of the microscopic appearance is exactly the confusion the stem is set to catch.',
         D: 'True, so not the exception. At 7.5–10 nm the membrane is far below the light microscope\'s 0.2 µm resolution, so it cannot be resolved and has to be shown indirectly with silver or PAS.',
       },
@@ -126,7 +126,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Count the layers the electron microscope actually shows in the cell membrane.',
       explanations: {
         A: 'Bilaminar is the commonest wrong answer, taken from the phospholipid bilayer. The bilayer is the arrangement of the molecules; the image has one more layer than that.',
-        B: 'Correct. Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.',
+        B: 'Two dark electron-dense layers with a light electron-lucent layer between them — the trilaminar or unit membrane.',
         C: 'Tetralaminar describes nothing in the cell. Four layers would need two membranes, which is what a nuclear envelope or a mitochondrion has, not a cell membrane.',
         D: 'Unilaminar would be a single line, which is what the membrane looks like at low magnification before the three layers separate. It is not what the electron microscope resolves.',
       },
@@ -137,7 +137,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Normal values',
       learningObjective: 'Give the resolution of the electron microscope in the correct unit.',
       explanations: {
-        A: 'Correct. The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope\'s 0.2 µm.',
+        A: 'The electron microscope resolves 0.2 nm, a thousandfold finer than the light microscope\'s 0.2 µm.',
         B: '0.4 µm is the wrong order of magnitude and the wrong figure: 0.2 µm is the light microscope, and no instrument in this chapter is quoted at 0.4.',
         C: '0.2 mm is the resolution of the naked eye. Picked by students who remember the figure 0.2 and not which of the three it belongs to — all three resolutions are 0.2, and only the unit tells them apart.',
         D: '0.4 mm is coarser than the naked eye, which would make an electron microscope worse than no microscope at all.',
@@ -190,11 +190,11 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the organelle that identifies a steroid-secreting cell on electron microscopy.',
       answerOverride: 'c',
       answerOverrideReason:
-        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.',
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: smooth endoplasmic reticulum is sited in lipid-forming cells and its functions include synthesis of the steroid hormones cortisone and testosterone. This row and `electron-microscopic-feature-of-protein-forming-cells-is` are the same question asked for the two secretory cell types, and they must be answered as a pair.',
       explanations: {
-        a: 'Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not even mentioned in the department book\'s cytology chapter, and nothing about them is secretory.',
+        a: 'Proteasomes destroy abnormal and short-lived cytosolic proteins. They are not part of this course\'s cytology chapter, and nothing about them is secretory.',
         b: 'Numerous free ribosomes mark a cell making protein for its own use. A steroid is a lipid, and no ribosome makes one.',
-        c: 'Correct. Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.',
+        c: 'Abundant smooth endoplasmic reticulum is the electron-microscopic signature of a steroid-forming cell — the adrenal cortical cell, the Leydig cell — and it goes with acidophilic cytoplasm by light microscopy.',
         d: 'Well-developed rough endoplasmic reticulum is the protein-forming cell, and it is the answer to the sister question on this same paper. Swapping the two is the single mistake both items are built to catch.',
       },
     },
@@ -205,12 +205,12 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the organelle that identifies a protein-secreting cell on electron microscopy.',
       answerOverride: 'd',
       answerOverrideReason:
-        'No key was printed on the 2020 paper and none was recovered, so the answer comes from the department book, which sites rough endoplasmic reticulum in protein-forming cells — its example is the plasma cell — and gives it protein synthesis, segregation, glycosylation and packing into transfer vesicles.',
+        'No key was printed on the 2020 paper and none was recovered, so the answer given here is: rough endoplasmic reticulum is sited in protein-forming cells — the plasma cell is the example — and it carries out protein synthesis, segregation, glycosylation and packing into transfer vesicles.',
       explanations: {
         a: 'Numerous lysosomes mark a phagocyte: the macrophage, the neutrophil, the monocyte. A cell that digests is not a cell that builds.',
         b: 'Numerous peroxisomes mark the liver and kidney cell, where they oxidise long-chain fatty acids. Their own enzymes are made on free ribosomes elsewhere in the cytoplasm.',
         c: 'Well-developed smooth endoplasmic reticulum is the steroid- or lipid-forming cell, and it is the answer to the sister question on the same paper. It has no ribosomes at all, so it cannot make protein.',
-        d: 'Correct. Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.',
+        d: 'Rough endoplasmic reticulum is rough because it is studded with ribosomes bound to ribophorins, and those ribosomes make the protein the cell exports.',
       },
     },
   ],

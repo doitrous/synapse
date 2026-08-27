@@ -1,5 +1,5 @@
 import {
-  EXAM_BLOCK_TYPES, MODULE_BLOCK_LABEL,
+  EXAM_BLOCK_TYPES, MODULE_BLOCK_LABEL, isSchedulePublished,
   type ModuleScheduleBlock, type ModuleScheduleStore,
 } from '../data/moduleSchedule.ts'
 import { moduleKey } from '../data/moduleSubjects.ts'
@@ -48,13 +48,19 @@ function localDateTime(date: string, time: string): Date | null {
  * published before that migration are genuinely stored under it. Preferring the
  * ID means current data always wins; iOS reads both for the same reason
  * (`ios/Synapse/Core/Model/StudentSchedule.swift`).
+ *
+ * A module's blocks are also withheld until an admin has explicitly published
+ * that module's schedule — a module absent from the publish map (every
+ * schedule saved before publishing existed) reads as unpublished, same as one
+ * an admin has since unpublished.
  */
 function blocksFor(
   schedules: ModuleScheduleStore, university: University, year: UniYear, courseId: string,
 ): ModuleScheduleBlock[] {
-  return schedules[moduleKey(university.id, year.id, courseId)]
-    ?? schedules[moduleKey(university.id, year.year, courseId)]
-    ?? []
+  const key = moduleKey(university.id, year.id, courseId)
+  const legacyKey = moduleKey(university.id, year.year, courseId)
+  if (!isSchedulePublished(schedules, key) && !isSchedulePublished(schedules, legacyKey)) return []
+  return schedules[key] ?? schedules[legacyKey] ?? []
 }
 
 /**

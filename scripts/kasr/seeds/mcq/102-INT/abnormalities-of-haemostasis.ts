@@ -59,7 +59,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Factor IX is not a cofactor — it is an enzyme (a serine protease once activated). The cofactor in its activation complex is factor VIIIa, not factor IX itself.',
         b: 'Backwards. Factor IX is activated by factor XIa (upstream of it in the intrinsic pathway), not by factor V, which belongs to the common pathway further downstream.',
         c: 'Backwards. Deficiency of factor IX causes haemophilia B, not haemophilia A — haemophilia A is factor VIII deficiency.',
-        d: 'Correct. Activated factor IX (IXa), complexed with activated factor VIII (VIIIa), platelet phospholipid and Ca2+, activates factor X — the step at which the intrinsic pathway hands off to the common pathway.',
+        d: 'Activated factor IX (IXa), complexed with activated factor VIII (VIIIa), platelet phospholipid and Ca2+, activates factor X — the step at which the intrinsic pathway hands off to the common pathway.',
       },
     },
     {
@@ -72,7 +72,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Backwards. A sex-linked recessive disease on the X chromosome is carried by females (who have a second, usually normal, X) and manifests almost always in males (who have only one X) — the opposite of what this option claims.',
         b: 'This describes haemophilia B (factor IX deficiency), but the stem does not name a type, and this option misstates the missing factor as XI when haemophilia B is defined by factor IX — haemophilia C is the one caused by factor XI absence.',
         c: 'Haemophilia is a clotting-factor deficiency, which prolongs the whole blood *coagulation* time, not the *bleeding* time (a platelet-function measure) — the two tests are not interchangeable.',
-        d: 'Correct. Whichever factor is missing (VIII, IX or XI, according to type), haemophilia slows the intrinsic-pathway cascade and so prolongs the whole blood coagulation time.',
+        d: 'Whichever factor is missing (VIII, IX or XI, according to type), haemophilia slows the intrinsic-pathway cascade and so prolongs the whole blood coagulation time.',
       },
     },
   ],

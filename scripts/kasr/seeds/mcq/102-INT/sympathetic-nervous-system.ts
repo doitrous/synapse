@@ -24,7 +24,7 @@ export const LEAF: McqLeafSeed = {
       definition:
         'The sympathetic nervous system discharges as one unit in emergency situations, preparing the individual for flight, fear or fight: dilating the pupils to let in more light; accelerating the heartbeat and raising blood pressure for better perfusion of vital organs and muscles; constricting skin blood vessels to limit bleeding from wounds; lowering the threshold in the brain\'s reticular formation to reinforce alertness; and stimulating lipolysis and glycogenolysis to supply more energy.',
       objective: 'List the alarm response\'s effects as a single coordinated discharge, not five independent mechanisms.',
-      pitfall: 'Treating skin vasoconstriction in the alarm response as a temperature-regulation effect — the book frames it as a wound-limiting, blood-conserving effect specific to the emergency response, distinct from thermoregulatory sweating/vasodilation.',
+      pitfall: 'Treating skin vasoconstriction in the alarm response as a temperature-regulation effect — it is a wound-limiting, blood-conserving effect specific to the emergency response, distinct from thermoregulatory sweating/vasodilation.',
       subject: 'neuro',
       primary: 'DIS-PHY-T07',
       secondary: [],
@@ -76,7 +76,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Sympathetic stimulation causes vasoconstriction of cutaneous and (mildly) pulmonary vessels, but the *opposite* — indirect vasodilatation — of the coronary vessels; grouping all three together as constriction is false for the coronary case.',
         b: 'Backwards. Sympathetic stimulation *contracts* the dilator pupillae to widen the pupil (mydriasis) — it does not relax the radial muscle, and the description of the mechanism is inverted.',
         c: 'Backwards. Sympathetic stimulation to the salivary glands gives a small amount of thick, concentrated, viscid saliva — large amounts of dilute watery saliva are the parasympathetic secretion pattern instead.',
-        d: 'Correct. Sympathetic stimulation relaxes the smooth muscle of the stomach, small intestine and proximal large intestine while contracting the sphincters (e.g. pyloric) — confirmed unambiguously by the near-identical sibling question in the same book.',
+        d: 'Sympathetic stimulation relaxes the smooth muscle of the stomach, small intestine and proximal large intestine while contracting the sphincters (e.g. pyloric) — confirmed unambiguously by a near-identical sibling question carrying an unambiguous printed key.',
       },
     },
     {
@@ -89,7 +89,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Sympathetic stimulation dilates coronary vessels indirectly, the opposite of the constriction this option groups it with alongside the pulmonary vessels.',
         b: 'Backwards. Sympathetic stimulation contracts the dilator pupillae (mydriasis); it does not relax the radial muscle to dilate the pupil by relaxation.',
         c: 'Backwards. Sympathetic salivary secretion is small, thick and viscid, not large and watery — that pattern belongs to parasympathetic stimulation.',
-        d: 'Correct. Sympathetic stimulation relaxes gastrointestinal smooth muscle while contracting its sphincters, exactly as the book states for the abdominal viscera.',
+        d: 'Sympathetic stimulation relaxes gastrointestinal smooth muscle while contracting its sphincters, the standard pattern for the abdominal viscera.',
       },
     },
     {
@@ -99,7 +99,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State that sympathetic stimulation to the pelvis produces ejaculation and penile shrinkage.',
       explanations: {
-        a: 'Correct. Sympathetic fibres to the pelvic viscera contract the vas deferens, seminal vesicles and prostate (ejaculation) and vasoconstrict pelvic/genital vessels, causing shrinkage of the penis during the sexual act.',
+        a: 'Sympathetic fibres to the pelvic viscera contract the vas deferens, seminal vesicles and prostate (ejaculation) and vasoconstrict pelvic/genital vessels, causing shrinkage of the penis during the sexual act.',
         b: 'Backwards on the segments. Sympathetic pelvic fibres originate from the 12th thoracic and upper two lumbar segments, not "all lumbar and upper 2 sacral" — sacral segments belong to the parasympathetic outflow instead.',
         c: 'Backwards. Sympathetic stimulation *vasoconstricts* pelvic blood vessels (contributing to penile shrinkage), it does not vasodilate them — vasodilatation of penile vessels is the parasympathetic erection mechanism.',
         d: 'Backwards on both halves. Sympathetic stimulation *contracts* the internal anal sphincter (retention of faeces) and, for the bladder, contracts the internal urethral sphincter to mediate urinary retention — not micturition, which is a parasympathetic effect.',
@@ -114,8 +114,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. Sympathetic stimulation *contracts* the ciliary muscle\'s relaxation is a parasympathetic effect preparing the eye for *near*, not far, vision — sympathetic stimulation does not increase lens power for distance vision this way.',
         b: 'Backwards. Sympathetic stimulation causes cutaneous *vaso*constriction, not vasodilation, and its secretory effect on sweat glands is unrelated to the direction of skin vessel calibre here.',
-        c: 'Correct. Sympathetic stimulation raises systemic arterial blood pressure, which increases cerebral blood flow despite mild direct constriction of cerebral vessels, and increases mental alertness by lowering the reticular formation\'s threshold.',
-        d: 'Backwards. Sympathetic stimulation contracts the *upper* eyelid\'s smooth muscle to widen the palpebral fissure — this option names the lower eyelid, which is not the muscle the book describes.',
+        c: 'Sympathetic stimulation raises systemic arterial blood pressure, which increases cerebral blood flow despite mild direct constriction of cerebral vessels, and increases mental alertness by lowering the reticular formation\'s threshold.',
+        d: 'Backwards. Sympathetic stimulation contracts the *upper* eyelid\'s smooth muscle to widen the palpebral fissure — this option names the lower eyelid, which is not the muscle involved.',
       },
     },
     {
@@ -127,7 +127,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. The greater splanchnic nerve carries *preganglionic*, not postganglionic, sympathetic fibres — it passes through the paravertebral chain without relaying, on its way to synapse in a collateral ganglion.',
         b: 'Backwards. The greater splanchnic nerve passes through the paravertebral chain *without* relaying there — it relays instead in the coeliac and superior mesenteric ganglia (collateral ganglia), further from the cord.',
-        c: 'Correct, as the intended reading. The book places the greater splanchnic nerve\'s origin among the lower thoracic segments (T5–T9) that supply the abdominal viscera, in contrast to the upper four thoracic segments that supply the thoracic viscera.',
+        c: 'The greater splanchnic nerve\'s origin lies among the lower thoracic segments (T5–T9) that supply the abdominal viscera, in contrast to the upper four thoracic segments that supply the thoracic viscera.',
         d: 'The greater splanchnic nerve supplies abdominal, not pelvic, viscera — pelvic preganglionic sympathetic fibres instead leave as lumbar and sacral splanchnic nerves from lower segments (T12–L2).',
       },
     },
@@ -151,7 +151,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. The sympathetic "fight or flight" response *raises* arterial blood pressure (for better perfusion of vital organs and muscles), it does not decrease it.',
         b: 'Backwards. The sympathetic response *dilates* the pupil (letting in more light), it does not decrease pupil diameter.',
-        c: 'Correct. The alarm response constricts skin blood vessels, which limits bleeding from wounds — a decrease in the diameter of skin blood vessels.',
+        c: 'The alarm response constricts skin blood vessels, which limits bleeding from wounds — a decrease in the diameter of skin blood vessels.',
         d: 'Backwards. The sympathetic response *raises* blood glucose (via lipolysis and glycogenolysis, supplying more energy), it does not decrease it.',
         e: 'Backwards. The sympathetic response accelerates, not decreases, heart rate — part of preparing for better perfusion during the emergency.',
       },

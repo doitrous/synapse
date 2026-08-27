@@ -533,6 +533,20 @@ test('a created question still opens with the defaults it always had', () => {
   assert.deepEqual(item.questionData!.libraryIds, [])
 })
 
+test('an authored overall explanation overrides the derived one', () => {
+  const item = importRowToContent('question', { ...FULL_QUESTION, explanation: 'Overall: RCA territory covers the SA node in the dominant majority.' }, 'row-1')
+  assert.equal(item.fields.Explanation, 'Overall: RCA territory covers the SA node in the dominant majority.')
+})
+
+test('an absent overall explanation keeps the correct option’s rationale, unchanged', () => {
+  // FULL_QUESTION carries no `explanation` column at all — the long-standing case.
+  const withoutExplanationField = importRowToContent('question', FULL_QUESTION, 'row-1')
+  const withBlankExplanation = importRowToContent('question', { ...FULL_QUESTION, explanation: '   ' }, 'row-1')
+
+  assert.equal(withoutExplanationField.fields.Explanation, 'The RCA supplies the SA node in most people.')
+  assert.equal(withBlankExplanation.fields.Explanation, 'The RCA supplies the SA node in most people.')
+})
+
 const LAB_QUESTIONS = '### Rate\nQ: What is the rate?\n*= 75\nWhy: Count the R-R interval.\n- 60\nWhy: Too slow.\nMarks: 2\nConcept: med.concept.rate'
 
 const FULL_PRACTICAL: Record<string, string> = {

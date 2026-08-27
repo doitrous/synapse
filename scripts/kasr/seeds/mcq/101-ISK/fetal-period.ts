@@ -38,7 +38,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'State when the fetal period begins, in weeks and in months, and say what distinguishes it from the embryonic period.',
       pitfall:
-        'Counting in months when the book counts in weeks, and landing a month early. The 9th week is the beginning of the 3rd month, not of the 2nd: weeks 1–4 are the first month and weeks 5–8 the second, so the eight weeks of the embryonic period fill two whole months and the fetal period starts as the third begins.',
+        'Counting in months instead of weeks, and landing a month early. The 9th week is the beginning of the 3rd month, not of the 2nd: weeks 1–4 are the first month and weeks 5–8 the second, so the eight weeks of the embryonic period fill two whole months and the fetal period starts as the third begins.',
       subject: 'dev',
       primary: 'DIS-EMB-T01',
       secondary: [],
@@ -50,7 +50,7 @@ export const LEAF: McqLeafSeed = {
       key: 'fetal-head-to-body-proportion-changes-through-the-fetal-period',
       label: 'The head falls from half the crown-rump length in the 3rd month to a third of crown-heel length in the 5th and a quarter of it at birth',
       definition:
-        'The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height. The head grows more slowly than the rest of the body through the fetal period, so its share of the whole falls on a schedule the book tabulates: at the beginning of the 3rd month the head is one half of the crown-rump length, at the beginning of the 5th month one third of the crown-heel length, and at birth one quarter of the crown-heel length. The head is still disproportionately large at birth by adult standards — an adult head is about one eighth of standing height — which is why the proportion is examined at all.',
+        'The fetus is measured two ways: crown-rump length, the sitting height, and crown-heel length, from the vertex of the skull to the heel, which is the standing height. The head grows more slowly than the rest of the body through the fetal period, so its share of the whole falls on a fixed schedule: at the beginning of the 3rd month the head is one half of the crown-rump length, at the beginning of the 5th month one third of the crown-heel length, and at birth one quarter of the crown-heel length. The head is still disproportionately large at birth by adult standards — an adult head is about one eighth of standing height — which is why the proportion is examined at all.',
       objective:
         'Give the head\'s fraction of body length at the beginning of the 3rd month, the beginning of the 5th month and at birth, and say which measurement each fraction is taken against.',
       pitfall:
@@ -70,7 +70,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Give the weight of the fetus at full term, and place the smaller weights in the table at the preterm weeks they belong to.',
       pitfall:
-        'Reading the answer off the wrong row of the growth table. 1400–2100 g is a real figure from that table and belongs to 28–32 weeks, which is why it is the distractor that catches most students — and why one printing of this question in the books is keyed to it in error.',
+        'Reading the answer off the wrong row of the growth table. 1400–2100 g is a real figure from that table and belongs to 28–32 weeks, which is why it is the distractor that catches most students — and why one printing of this question is keyed to it in error.',
       subject: 'dev',
       primary: 'DIS-EMB-T01',
       secondary: [],
@@ -85,10 +85,10 @@ export const LEAF: McqLeafSeed = {
       key: 'fetal-period-starts-at-the-beginning-of-a32cd7a3',
       conceptKey: 'fetal-period-begins-at-the-ninth-week-and-is-growth-not-organogenesis',
       difficulty: 'Easy', questionType: 'Developmental timing',
-      learningObjective: 'Convert the 9th week into the month the book counts it as.',
+      learningObjective: 'Convert the 9th week into the month it falls in.',
       explanations: {
         A: 'The 2nd month is weeks 5 to 8, which is the second half of the embryonic period — the organs are still being formed. Picked by students who count the eight embryonic weeks as one month.',
-        B: 'Correct. The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.',
+        B: 'The fetal period begins at the beginning of the 9th week, and the 9th week opens the 3rd month.',
         C: 'By the 4th month the fetus is already a month into the fetal period: lanugo hair is appearing and the external genitalia differentiated at the end of the previous month.',
         D: 'The 5th month is when vernix caseosa appears and movements are first clearly felt — events within the fetal period, not its start.',
       },
@@ -99,10 +99,10 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Developmental timing',
       learningObjective: 'Attach the right fraction to birth rather than to a mid-fetal stage.',
       explanations: {
-        A: 'One fifth is not one of the book\'s three figures at all. It reads plausibly because it lies between the newborn\'s quarter and the adult\'s eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.',
+        A: 'One fifth is not one of the three figures at all. It reads plausibly because it lies between the newborn\'s quarter and the adult\'s eighth, and it is the option a student picks when they remember only that the head shrinks in proportion.',
         B: 'One sixth would make the newborn head nearer adult proportions than it is; the disproportionately large head is the whole point of the newborn figure.',
         C: 'One third is the true figure for the beginning of the 5th month, taken against crown-heel length. It is the most tempting distractor here because it is the adjacent stage on the same measurement, and a student who has memorised the fractions without their dates will reach for it.',
-        D: 'Correct. At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.',
+        D: 'At birth the head is about one quarter of the crown-heel length, down from one half of the crown-rump length at the beginning of the 3rd month.',
       },
     },
     {
@@ -112,8 +112,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Give the full-term weight and recognise the preterm weights beside it.',
       explanations: {
         A: '900–1300 g is the weight around 25–28 weeks — a fetus at the edge of viability, less than half of term weight.',
-        B: '1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question in the books is keyed to it in error.',
-        C: 'Correct. A full-term fetus weighs 3000–3400 g, the last row of the growth table.',
+        B: '1400–2100 g is the weight at 28–32 weeks. It is the commonest wrong answer because it is a real row of the same growth table, and one printing of this very question is keyed to it in error.',
+        C: 'A full-term fetus weighs 3000–3400 g, the last row of the growth table.',
         D: '4600–5300 g is well above any normal birth weight; a baby of that size is macrosomic and a recognised complication, not the norm.',
       },
     },
@@ -128,7 +128,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: '900–1300 g is the weight around 25–28 weeks. A term newborn of that weight would be severely growth-restricted.',
         B: '1400–2100 g belongs to 28–32 weeks, a preterm fetus. It is the trap on this question, and it catches students because it is genuinely printed in the table they revised from — one row too high.',
-        C: 'Correct. 3000–3400 g is the full-term weight.',
+        C: '3000–3400 g is the full-term weight.',
         D: '4600–5300 g is macrosomia, seen with maternal diabetes; it is not the normal range.',
       },
     },

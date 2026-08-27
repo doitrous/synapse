@@ -278,6 +278,7 @@ export function TermMatchPage() {
       <PageHeader
         title={t('Term Match')}
         description={t('Match each term to its Arabic translation or its definition — pick two tiles at a time.')}
+        back={{ fallback: '/app/minigames' }}
       />
 
       {terms.length === 0 ? (

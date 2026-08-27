@@ -4,6 +4,7 @@ import {
   ASSESSMENT_SCHEMES_KEY,
   CURRICULA_KEY,
   SCHEDULE_KEY,
+  SCHEDULE_PUBLISH_STATE_KEY,
   SUBJECTS_KEY,
   UNIVERSITY_KEY,
   academicPreview,
@@ -116,6 +117,7 @@ test('student projection scopes schedules, separates link ids, and labels inferr
         { id: 'row-draft', status: 'draft', date: '2026-12-16', topicIds: ['ART-DRAFT'] },
         { id: 'row-conflict', evidenceState: 'conflicted', date: '2026-12-17', topicIds: ['ART-CONFLICT'] },
       ],
+      [SCHEDULE_PUBLISH_STATE_KEY]: { 'hu:HU_Y2:hu-y2-m1': true },
     },
   })
   const module = out.terms[0].modules[0]
@@ -126,6 +128,35 @@ test('student projection scopes schedules, separates link ids, and labels inferr
   assert.deepEqual(module.schedule[0].links.topicNodeIds, ['TOP-2'])
   assert.deepEqual(module.schedule[0].labels, ['inferred', 'carried-forward'])
   assert.deepEqual(module.coverage.articleIds, ['ART-M'])
+})
+
+test('student projection hides a module schedule that has not been published, with no rewrite of existing rows', () => {
+  const docs = {
+    [UNIVERSITY_KEY]: catalogue,
+    [SCHEDULE_KEY]: {
+      // No SCHEDULE_PUBLISH_STATE_KEY entry for this module at all — the
+      // migration for every schedule saved before publish state existed.
+      'hu:HU_Y2:hu-y2-m1': [
+        { id: 'row-1', type: 'lecture', title: 'Hidden row', date: '2026-12-15', topicIds: [] },
+      ],
+    },
+  }
+  const out = studentUniversityProjection({ id: 'student-1', universityId: 'hu', yearId: 'HU_Y2' }, docs)
+  assert.deepEqual(out.terms[0].modules[0].schedule, [])
+})
+
+test('student projection hides a module schedule explicitly marked unpublished', () => {
+  const docs = {
+    [UNIVERSITY_KEY]: catalogue,
+    [SCHEDULE_KEY]: {
+      'hu:HU_Y2:hu-y2-m1': [
+        { id: 'row-1', type: 'lecture', title: 'Hidden row', date: '2026-12-15', topicIds: [] },
+      ],
+      [SCHEDULE_PUBLISH_STATE_KEY]: { 'hu:HU_Y2:hu-y2-m1': false },
+    },
+  }
+  const out = studentUniversityProjection({ id: 'student-1', universityId: 'hu', yearId: 'HU_Y2' }, docs)
+  assert.deepEqual(out.terms[0].modules[0].schedule, [])
 })
 
 test('student projection hides draft/conflicted curriculum selections from coverage', () => {

@@ -66,7 +66,7 @@ export const LEAF: McqLeafSeed = {
         a: 'The heart is autonomic territory (cardiac muscle), reached by both sympathetic and vagal parasympathetic fibres, so it is supplied and not the exception.',
         b: 'The lungs are autonomic territory (bronchial smooth muscle and glands), reached by sympathetic bronchodilator and vagal bronchoconstrictor fibres, so they are supplied and not the exception.',
         c: 'The stomach is autonomic territory (gastrointestinal smooth muscle), reached by both divisions, so it is supplied and not the exception.',
-        d: 'Correct — the exception. Skeletal muscle is controlled by the somatic motor system alone. The autonomic system\'s remit is smooth muscle, glands and cardiac muscle; it has no direct motor pathway to skeletal muscle fibres.',
+        d: 'The exception. Skeletal muscle is controlled by the somatic motor system alone. The autonomic system\'s remit is smooth muscle, glands and cardiac muscle; it has no direct motor pathway to skeletal muscle fibres.',
         e: 'The iris (dilator and constrictor pupillae are smooth muscle) is autonomic territory, reached by sympathetic mydriatic and parasympathetic miotic fibres, so it is supplied and not the exception.',
       },
     },
@@ -78,7 +78,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name erection as the parasympathetic effect of sacral autonomic stimulation.',
       explanations: {
         a: 'Backwards. Parasympathetic (sacral) stimulation *relaxes* the internal urethral sphincter to allow micturition; it does not inhibit the bladder wall muscle, which it instead contracts.',
-        b: 'Correct. The sacral parasympathetic outflow (S2–S4, via the pelvic splanchnic nerves) produces vasodilatation of the penile blood vessels, which is erection.',
+        b: 'The sacral parasympathetic outflow (S2–S4, via the pelvic splanchnic nerves) produces vasodilatation of the penile blood vessels, which is erection.',
         c: 'Backwards on both halves. Parasympathetic stimulation causes defecation by *contracting* the rectal wall and *relaxing* the internal anal sphincter — the option states the opposite pairing, which is closer to the sympathetic pattern of retention.',
         d: 'Gastric acid and pepsin secretion are increased by the vagus (thoracic/abdominal parasympathetic outflow), not by the sacral supply, which serves the pelvic organs.',
       },

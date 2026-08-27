@@ -11,7 +11,7 @@ export const LEAF: McqLeafSeed = {
       label: "Structural chromosomal aberrations are breaks, deletions, inversions, translocations, duplications and isochromosomes, balanced or unbalanced by gene content",
       definition: "Structural aberrations are abnormalities in chromosome structure. If the chromosome keeps its normal complement of genetic information the aberration is balanced; if information is added or missing, it is unbalanced, with an affected phenotype. Breaks heal rapidly by reunion of the two sticky ends. Deletion is loss of a chromosome fragment, in three forms: terminal deletion, loss from one end by a single break; interstitial deletion, loss between two breaks in the same arm with fusion at the break sites; and ring chromosome, two breaks, loss of the fragment between them, and reunion into a ring. Inversion is two breaks followed by rejoining in reversed orientation, either pericentric (the breaks flank the centromere) or paracentric (both breaks on one side of it). Translocation transfers a chromosomal segment to a non-homologous chromosome, in two forms: centric fusion, in which the long arms of two acrocentric chromosomes — classically 21 and 14 — fuse into one chromosome with loss of the (insignificant) short arms, seen in 3 to 4% of Down syndrome; and reciprocal translocation, an exchange of material between two chromosomes that is usually balanced because no material is lost or gained overall. Duplication adds an extra copy of a chromosome segment to its homologue, usually from unequal crossing over, giving a double dose of the duplicated genes. Isochromosomes arise mostly in submetacentric chromosomes when the centromere divides transversely rather than longitudinally at mitotic anaphase, producing one short and one long chromatid that become, in the daughter cells, two unequal chromosomes each with matching (both-long or both-short) p and q arms.",
       objective: "Name the six types of structural chromosomal aberration, state which two are subtypes of translocation, and distinguish a balanced from an unbalanced aberration.",
-      pitfall: "The Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+      pitfall: "The Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
       subject: "dev",
       primary: "DIS-HIS-T01",
       secondary: [],
@@ -30,7 +30,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name pericentric inversion as two breaks either side of the centromere, rejoined inverted.",
       explanations: {
         A: "A ring chromosome forms from two breaks with loss and reunion into a ring, not an inversion in place.",
-        B: "Correct. The book defines pericentric inversion as breaks on either side of the centromere, rejoined in an inverted form. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        B: "Pericentric inversion is breaks on either side of the centromere, rejoined in an inverted form. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         C: "Paracentric inversion has both breaks on one side of the centromere, not either side of it.",
         D: "An isochromosome forms by a transverse (not longitudinal) centromere division, unrelated to a two-break inversion.",
       },
@@ -40,12 +40,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "structural-chromosomal-aberration.deletion-inversion-translocation-duplication-isochromosome",
       difficulty: "Easy",
       questionType: "Definition",
-      learningObjective: "Name the fusion of chromosomes 21 and 14 as the book's own example of centric fusion.",
+      learningObjective: "Name the fusion of chromosomes 21 and 14 as the example of centric fusion.",
       explanations: {
-        A: "Chromosomes 9 and 22 are the book's Philadelphia-chromosome pair (reciprocal translocation, chronic myeloid leukaemia), not its centric-fusion example.",
-        B: "Correct. The book's own centric-fusion example is the fusion of the long arms of chromosomes 21 and 14, forming 'chromosome t', seen in 3-4% of Down syndrome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
-        C: "Chromosomes 21 and 9 is not a pairing the book names for centric fusion.",
-        D: "Chromosomes 9 and 14 is not a pairing the book names for centric fusion.",
+        A: "Chromosomes 9 and 22 are the Philadelphia-chromosome pair (reciprocal translocation, chronic myeloid leukaemia), not its centric-fusion example.",
+        B: "The centric-fusion example is the fusion of the long arms of chromosomes 21 and 14, forming 'chromosome t', seen in 3-4% of Down syndrome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        C: "Chromosomes 21 and 9 is not a pairing for centric fusion.",
+        D: "Chromosomes 9 and 14 is not a pairing for centric fusion.",
       },
     },
     {
@@ -57,7 +57,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Inversion is a two-break, rejoin-inverted event, not a transverse centromere division.",
         B: "Duplication adds an extra chromosome segment from unequal crossing over, not a transverse centromere split.",
-        C: "Correct. The book states isochromosome formation happens when the chromosome divides transversely, not longitudinally, at the centromere during anaphase of mitosis, giving one short and one long chromatid. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        C: "Isochromosome formation happens when the chromosome divides transversely, not longitudinally, at the centromere during anaphase of mitosis, giving one short and one long chromatid. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         D: "Translocation transfers a segment to a non-homologous chromosome; it is not defined by the plane of centromere division.",
       },
     },
@@ -70,8 +70,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Centric fusion joins two acrocentric chromosomes and loses their short arms — a specific, not-generally-balanced-by-name event, not the balanced two-way exchange the stem describes.",
         B: "Isochromosome formation is a transverse centromere division producing an unequal pair, not a two-chromosome exchange.",
-        C: "Correct. The book defines reciprocal translocation as an exchange of chromosomal material between two chromosomes, usually balanced since no material is typically lost or added. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
-        D: "A break alone is not an exchange between two chromosomes; the book describes breaks as healing by reunion of the same chromosome's two sticky ends.",
+        C: "Reciprocal translocation is an exchange of chromosomal material between two chromosomes, usually balanced since no material is typically lost or added. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        D: "A break alone is not an exchange between two chromosomes; a simple break heals by reunion of the same chromosome's two sticky ends.",
       },
     },
     {
@@ -81,7 +81,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "Name interstitial deletion as the loss of a fragment between two breaks in the same arm.",
       explanations: {
-        A: "Correct. The book defines interstitial deletion as the loss of fragments between two breaks in the same arm, with fusion at the break sites. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        A: "Interstitial deletion is the loss of fragments between two breaks in the same arm, with fusion at the break sites. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         B: "A ring chromosome forms from two breaks with loss and a ring-shaped reunion, not a same-arm interstitial loss.",
         C: "Terminal deletion is loss from one end by a single break, not a loss between two breaks.",
         D: "Inversion rejoins the broken segment in reversed orientation, rather than losing it.",
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Interstitial deletion needs two breaks within the same arm, not a single break at one end.",
         B: "A ring chromosome needs two breaks and a ring-shaped reunion, not one single-break end loss.",
-        C: "Correct. The book defines terminal deletion as the loss of a segment from one end of the chromosome by a single break. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        C: "Terminal deletion is the loss of a segment from one end of the chromosome by a single break. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         D: "Inversion rejoins a broken segment in reverse, rather than losing it.",
       },
     },
@@ -107,10 +107,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "Name the Philadelphia chromosome as a reciprocal translocation between chromosomes 9 and 22.",
       explanations: {
-        A: "Correct. The book states the Philadelphia chromosome arises by reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
-        B: "Chromosomes 14 and 21 are the book's Down-syndrome translocation pair, not the Philadelphia chromosome's.",
+        A: "The Philadelphia chromosome arises by reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        B: "Chromosomes 14 and 21 are the Down-syndrome translocation pair, not the Philadelphia chromosome's.",
         C: "The Philadelphia chromosome is a reciprocal translocation, not a centric fusion, and its pair is 9 and 22, not 14 and 21.",
-        D: "9 and 22 is the correct chromosome pair, but the book names this a reciprocal translocation, not a centric fusion — centric fusion is the book's term for the acrocentric 21;14 event instead.",
+        D: "9 and 22 is the correct chromosome pair, but this is a reciprocal translocation, not a centric fusion — centric fusion is the term for the acrocentric 21;14 event instead.",
       },
     },
     {
@@ -122,7 +122,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Duplication adds an extra copy of a segment onto a homologous chromosome; it does not itself produce one short and one long chromatid from a single transverse split.",
         B: "Translocation transfers material to a non-homologous chromosome, unrelated to producing a short/long chromatid pair by transverse division.",
-        C: "Correct. The book describes isochromosome formation as a transverse (not longitudinal) centromere split producing two unequal chromatids, one short (both p arms) and one long (both q arms). A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        C: "Isochromosome formation is a transverse (not longitudinal) centromere split producing two unequal chromatids, one short (both p arms) and one long (both q arms). A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         D: "Inversion rejoins a segment in reverse orientation, without producing an unequal short/long chromatid pair.",
       },
     },
@@ -134,7 +134,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name duplication, from unequal crossing over, as the anomaly producing two copies of the same genes on one chromosome.",
       explanations: {
         A: "Inversion rearranges a segment in place; it does not add a second copy of the same genes.",
-        B: "Correct. The book states duplication — addition of a fragmented segment as an extra piece, mostly from unequal crossing over of homologous chromosomes — results in two copies of the same genes on the same chromosome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        B: "Duplication — addition of a fragmented segment as an extra piece, mostly from unequal crossing over of homologous chromosomes — results in two copies of the same genes on the same chromosome. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         C: "Isochromosome formation produces one short and one long chromatid, not an extra gene copy on the same chromosome.",
         D: "Translocation moves a segment to a different, non-homologous chromosome rather than duplicating it on the same one.",
       },
@@ -147,7 +147,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name duplication as the structural aberration arising mostly from unequal crossing over of homologous chromosomes.",
       explanations: {
         A: "Inversion arises from two breaks and a reversed rejoining, not from unequal crossing over.",
-        B: "Correct. The book states duplication occurs mostly due to unequal crossing over of homologous chromosomes, adding an extra copy of a segment. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        B: "Duplication occurs mostly due to unequal crossing over of homologous chromosomes, adding an extra copy of a segment. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         C: "Isochromosome formation arises from a transverse centromere split, not from unequal crossing over.",
         D: "Translocation transfers a segment to a non-homologous chromosome, a different mechanism from unequal crossing over between homologues.",
       },
@@ -160,8 +160,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Name 'balanced' as the term for a structural aberration that keeps the normal complement of genetic information.",
       explanations: {
         A: "Deletion is one specific type of structural aberration, not the general term for keeping a normal genetic complement.",
-        B: "Correct. The book states that if a chromosome has its normal complement of genetic information, the aberration is balanced. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
-        C: "Unbalanced is the book's opposite term, used when information is added or missing.",
+        B: "If a chromosome has its normal complement of genetic information, the aberration is balanced. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        C: "Unbalanced is the opposite term, used when information is added or missing.",
         D: "Translocation is one specific type of structural aberration, which may itself be balanced or unbalanced, not the general term the stem asks for.",
       },
     },
@@ -170,11 +170,11 @@ export const LEAF: McqLeafSeed = {
       conceptKey: "structural-chromosomal-aberration.deletion-inversion-translocation-duplication-isochromosome",
       difficulty: "Moderate",
       questionType: "Classification",
-      learningObjective: "Name reciprocal translocation as the book's own example of a balanced aberration.",
+      learningObjective: "Name reciprocal translocation as the example of a balanced aberration.",
       explanations: {
-        A: "Correct. The book states reciprocal translocation is usually balanced, since no chromosomal material is typically lost or added, only exchanged. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        A: "Reciprocal translocation is usually balanced, since no chromosomal material is typically lost or added, only exchanged. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         B: "A ring chromosome forms with loss of fragments — an unbalanced aberration, since genetic material is missing.",
-        C: "Terminal deletion is loss of a segment — an unbalanced aberration by the book's own definition.",
+        C: "Terminal deletion is loss of a segment — an unbalanced aberration by the definition.",
         D: "An isochromosome carries a double dose of one arm and none of the other — an unbalanced genetic complement, not a balanced one.",
       },
     },
@@ -186,7 +186,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that the Philadelphia chromosome is used to diagnose chronic myeloid leukaemia.",
       explanations: {
         A: "Down syndrome is diagnosed by trisomy 21 or the 21;14 translocation, not the Philadelphia chromosome.",
-        B: "Correct. The book states the Philadelphia chromosome, from a reciprocal translocation between chromosomes 22 and 9, is used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note the book attaches directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
+        B: "The Philadelphia chromosome, from a reciprocal translocation between chromosomes 22 and 9, is used to diagnose chronic myeloid leukaemia. A common trap: the Philadelphia chromosome — a reciprocal translocation between chromosomes 22 and 9, used to diagnose chronic myeloid leukaemia — is a read-only note attached directly after isochromosomes, and is easy to mis-file under Down syndrome's centric-fusion translocation instead of under reciprocal translocation, where it actually belongs.",
         C: "Turner syndrome is diagnosed by a 45,XO karyotype, not the Philadelphia chromosome.",
         D: "Klinefelter syndrome is diagnosed by a 47,XXY karyotype, not the Philadelphia chromosome.",
       },

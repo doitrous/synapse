@@ -134,7 +134,7 @@ export function QuestionsSetup() {
             ? 'Master Question Bank — every question'
             : `${universities.find((u) => u.id === selection.universityId)?.short ?? ''}${selection.year ? ` · ${selection.year}` : ' · all years'}`}
         </div>
-        <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} />
+        <ControlDashboard key={`${view}-${selection.universityId ?? 'all'}-${selection.year ?? 'all'}`} initialKind="question" lockedKind questionScope={scope} questionView={view} archiveControl="external" />
       </div>
     </div>
   )

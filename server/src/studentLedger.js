@@ -1,4 +1,5 @@
 import { MEDIA_STATE_KEY, isMediaReleased } from './mediaLibrary.js'
+import { SCHEDULE_KEY, SCHEDULE_PUBLISH_STATE_KEY, isSchedulePublished } from './academic.js'
 
 /**
  * What a student is allowed to receive of the admin content ledger.
@@ -490,8 +491,38 @@ export function redactMediaForStudent(document) {
   }
 }
 
+/**
+ * What a student is allowed to receive of the raw module-schedule store.
+ *
+ * The document is one map from module key (current and legacy forms both
+ * appear as literal keys) to that module's array of schedule blocks, plus one
+ * reserved key — `SCHEDULE_PUBLISH_STATE_KEY` — recording which of those module
+ * keys an admin has published. `studentUniversityProjection` in `academic.js`
+ * already withholds a module's blocks from its own student-facing projection
+ * until that flag is set; this document was never supposed to bypass that by
+ * being independently readable at `/api/state/synapse-module-schedules-v1`,
+ * which returns the store as stored — every module's blocks, published or not.
+ *
+ * This applies the identical rule at the one other place blocks leave the
+ * server, using the same helper (`isSchedulePublished`) so the two decisions
+ * cannot drift. The publish-state map itself stays intact: it names which
+ * modules are published, not what is inside them, and the admin schedule
+ * editor reads this same key unredacted (see `/api/state/:key` in
+ * `index.js`, which only calls this for non-console callers) so leaving it
+ * shaped identically for both audiences keeps one client contract.
+ */
+export function redactModuleSchedulesForStudent(document) {
+  if (!document || typeof document !== 'object' || Array.isArray(document)) return document
+  const out = {}
+  for (const [key, value] of Object.entries(document)) {
+    out[key] = key === SCHEDULE_PUBLISH_STATE_KEY || isSchedulePublished(document, key) ? value : []
+  }
+  return out
+}
+
 /** The keys that need redacting on the way out, by key name. */
 export const REDACTED_STATE_KEYS = new Map([
   ['synapse-admin-content-ledger-v4', redactLedgerForStudent],
   [MEDIA_STATE_KEY, redactMediaForStudent],
+  [SCHEDULE_KEY, redactModuleSchedulesForStudent],
 ])

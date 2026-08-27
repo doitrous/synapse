@@ -282,6 +282,7 @@ export function SpotterPage() {
       <PageHeader
         title={t('Spotter')}
         description={t('A structure is pinned on a live slide but not named — pick it from four options before the next one comes up.')}
+        back={{ fallback: '/app/minigames' }}
       />
 
       {!game.refusal && (

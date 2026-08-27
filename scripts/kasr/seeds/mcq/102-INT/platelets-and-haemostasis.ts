@@ -155,7 +155,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Backwards. Contact with a negatively charged surface initiates the *intrinsic* pathway (factor XII activation), not the extrinsic one.',
         b: 'Backwards. The intrinsic pathway occurs both in vivo and in vitro — it is the extrinsic pathway that occurs only in vivo, since it needs actual tissue trauma.',
         c: 'Backwards. Tissue damage initiates the *extrinsic* pathway (via thromboplastin release), not the intrinsic one, which is triggered by collagen or foreign-surface contact instead.',
-        d: 'Correct. The extrinsic pathway is initiated when tissue trauma releases tissue thromboplastin, which activates factor VII.',
+        d: 'The extrinsic pathway is initiated when tissue trauma releases tissue thromboplastin, which activates factor VII.',
       },
     },
     {
@@ -166,7 +166,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify thrombin converting fibrinogen to fibrin as the final step of clot formation.',
       explanations: {
         a: 'Forming the prothrombin activator (active factor X with Ca2+, phospholipid and factor Va) is an earlier common-pathway step, not the final one — it is what makes thrombin, not the last reaction itself.',
-        b: 'Correct. Thrombin converting soluble fibrinogen to insoluble fibrin monomer threads is the final reaction that actually produces the clot — everything before it builds toward generating thrombin.',
+        b: 'Thrombin converting soluble fibrinogen to insoluble fibrin monomer threads is the final reaction that actually produces the clot — everything before it builds toward generating thrombin.',
         c: 'Converting prothrombin to thrombin is the step immediately before the final reaction, not the final reaction itself.',
         d: 'Hageman factor is another name for factor XII, which activates the intrinsic pathway at its very start, not prothrombin at the cascade\'s end.',
       },
@@ -180,7 +180,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Factor VIII belongs to the intrinsic pathway (activated when separated from von Willebrand factor by thrombin), not to the extrinsic sequence tissue thromboplastin starts.',
         b: 'Calcium is a cofactor throughout the cascade, but it does not itself activate factor VII — tissue thromboplastin does.',
-        c: 'Correct. Tissue thromboplastin, released by damaged tissue, activates factor VII — the first step of the extrinsic pathway.',
+        c: 'Tissue thromboplastin, released by damaged tissue, activates factor VII — the first step of the extrinsic pathway.',
         d: 'Factor IX is activated in the intrinsic pathway (by XIa) or, downstream, by the VIIa–thromboplastin complex — but factor VII is the extrinsic pathway\'s own first target, not IX.',
       },
     },
@@ -194,7 +194,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Factor VIII deficiency (haemophilia A) prolongs *coagulation* time, not bleeding time — it is a clotting-factor defect, not a platelet-function one.',
         b: 'Vitamin K malabsorption prolongs coagulation time (fewer prothrombin-group factors), not bleeding time.',
         c: 'Liver disease prolongs coagulation time through reduced clotting-factor synthesis, not bleeding time specifically.',
-        d: 'Correct. Large quantities of aspirin inhibit cyclooxygenase in platelets, suppressing thromboxane A2 and impairing platelet aggregation, which prolongs bleeding time — the platelet-dependent measure, distinct from coagulation time.',
+        d: 'Large quantities of aspirin inhibit cyclooxygenase in platelets, suppressing thromboxane A2 and impairing platelet aggregation, which prolongs bleeding time — the platelet-dependent measure, distinct from coagulation time.',
       },
     },
     {
@@ -204,7 +204,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that thromboxane A2 causes platelet aggregation.',
       explanations: {
-        a: 'Correct. Thromboxane A2 is a powerful stimulant of platelet aggregation, alongside being a vasoconstrictor and a stimulator of the platelet release reaction.',
+        a: 'Thromboxane A2 is a powerful stimulant of platelet aggregation, alongside being a vasoconstrictor and a stimulator of the platelet release reaction.',
         b: 'Backwards. Thromboxane A2 and prostacyclin are two separate products of the same substrate and enzyme (arachidonic acid via cyclooxygenase) made in different cell types — thromboxane A2 is not metabolised into prostacyclin.',
         c: 'Backwards. Aspirin inhibits the cyclooxygenase enzyme that makes thromboxane A2, reducing its production — it does not bind and inactivate thromboxane A2 directly once formed.',
         d: 'Converting prothrombin to thrombin is a coagulation-cascade common-pathway step (via active factor X), not something thromboxane A2, a platelet-derived eicosanoid, does.',
@@ -219,7 +219,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Releasing clotting-promoting factors (fibrinogen, factor V, von Willebrand factor, factor XIII from alpha granules) is a genuine way platelets help arrest bleeding, so it is not the exception.',
         b: 'Adhering together to form a plug when exposed to collagen is the adhesion step of platelet-plug formation, a genuine mechanism, so it is not the exception.',
-        c: 'Correct — the exception. Platelets release calcium from their dense granules, but this reinforces further platelet activation and release locally, not a systemic liberation of "high concentrations" of calcium into the plasma — this option overstates what the release reaction achieves.',
+        c: 'The exception. Platelets release calcium from their dense granules, but this reinforces further platelet activation and release locally, not a systemic liberation of "high concentrations" of calcium into the plasma — this option overstates what the release reaction achieves.',
         d: 'Releasing factors that cause vasoconstriction (serotonin, thromboxane A2) is a genuine platelet mechanism for arresting bleeding, so it is not the exception.',
       },
     },
@@ -233,7 +233,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Factor XII is part of the contact group, activated by surface contact and not vitamin-K-dependent — bile duct obstruction does not act through factor XII.',
         b: 'Bile duct obstruction is not described as reducing the platelet count; its bleeding mechanism runs through vitamin K malabsorption and factor synthesis, not platelet numbers.',
         c: 'Vitamin K is *absorbed* using bile, not *synthesised* in the liver — the liver only uses the vitamin, once absorbed, to make the clotting factors. This option mislocates where vitamin K comes from.',
-        d: 'Correct. Bile duct obstruction removes the bile needed to absorb the fat-soluble vitamin K, and the liver needs vitamin K to synthesise prothrombin (and the other vitamin-K-dependent factors) — so obstruction lowers prothrombin synthesis and raises bleeding tendency.',
+        d: 'Bile duct obstruction removes the bile needed to absorb the fat-soluble vitamin K, and the liver needs vitamin K to synthesise prothrombin (and the other vitamin-K-dependent factors) — so obstruction lowers prothrombin synthesis and raises bleeding tendency.',
       },
     },
     {
@@ -245,7 +245,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. Contact with subendothelial collagen *activates* platelets (the adhesion step of primary haemostasis), it does not inhibit them.',
         b: 'Factor VII is activated by tissue thromboplastin in the *extrinsic* pathway, not by collagen contact, which triggers the intrinsic pathway instead.',
-        c: 'Correct. Contact with exposed subendothelial collagen activates factor XII to XIIa — the first step of the intrinsic pathway.',
+        c: 'Contact with exposed subendothelial collagen activates factor XII to XIIa — the first step of the intrinsic pathway.',
         d: 'Factor IX is activated further downstream in the intrinsic cascade (by XIa, after XII and XI), not directly by collagen contact itself.',
       },
     },
@@ -256,7 +256,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that aspirin impairs platelet aggregation.',
       explanations: {
-        a: 'Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 and so impairing the aggregation step of platelet-plug formation.',
+        a: 'Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 and so impairing the aggregation step of platelet-plug formation.',
         b: 'Aspirin does not reduce platelet *count* — it impairs the function (aggregation) of the platelets that are present, which is a different kind of effect.',
         c: 'Backwards. Aspirin *prolongs* bleeding time (by impairing aggregation), it does not reduce it.',
         d: 'Aspirin does not shorten platelet lifespan — its effect (suppressed thromboxane A2, lasting the platelet\'s whole lifespan because platelets cannot resynthesise cyclooxygenase) is functional, not a change in how long platelets survive.',
@@ -269,10 +269,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Clinical correlation',
       learningObjective: 'Attribute post-surgical excessive bleeding to depressed hepatic synthesis of clotting factors in liver disease.',
       explanations: {
-        a: 'Gastrointestinal disease is not described in the book as directly depressing coagulation-factor synthesis the way liver disease is — its bleeding risk, where it exists, runs through malabsorption of fat-soluble vitamin K rather than a synthesis defect itself.',
-        b: 'Heart disease is not connected in the book to depressed coagulation or excessive surgical bleeding.',
-        c: 'Kidney disease is connected in the book to a *lowered* albumin/globulin ratio (protein lost in urine), not to depressed coagulation-factor synthesis.',
-        d: 'Correct. The liver is the main site of synthesis of fibrinogen and the coagulation factors; liver disease depresses that synthesis directly, causing excessive bleeding after surgery.',
+        a: 'Gastrointestinal disease is not described as directly depressing coagulation-factor synthesis the way liver disease is — its bleeding risk, where it exists, runs through malabsorption of fat-soluble vitamin K rather than a synthesis defect itself.',
+        b: 'Heart disease is not connected to depressed coagulation or excessive surgical bleeding.',
+        c: 'Kidney disease is connected to a *lowered* albumin/globulin ratio (protein lost in urine), not to depressed coagulation-factor synthesis.',
+        d: 'The liver is the main site of synthesis of fibrinogen and the coagulation factors; liver disease depresses that synthesis directly, causing excessive bleeding after surgery.',
       },
     },
     {
@@ -284,7 +284,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Tissue thromboplastin is not another name for factor V — it is the tissue-derived phospholipid that starts the extrinsic pathway by activating factor VII, a separate identity entirely.',
         b: 'Tissue thromboplastin is the trigger that activates factor VII, not a receptor that factor VIIa binds to on a cell surface.',
-        c: 'Correct. Tissue thromboplastin, complexed with factor VIIa, activates factor X — the extrinsic pathway\'s route into the common pathway.',
+        c: 'Tissue thromboplastin, complexed with factor VIIa, activates factor X — the extrinsic pathway\'s route into the common pathway.',
         d: 'Backwards. Tissue thromboplastin is the defining trigger of the *extrinsic* pathway, not a component of the intrinsic one.',
       },
     },
@@ -298,7 +298,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Thrombomodulin is secreted by endothelial cells, not by red blood cells — RBCs play no part in this limiting mechanism.',
         b: 'Thrombomodulin is not activated by heparin — heparin\'s own anticoagulant action instead works through antithrombin III, a separate limiting mechanism entirely.',
         c: 'Thrombomodulin\'s role is to bind thrombin and, through the resulting complex, activate protein C — it does not itself activate platelets, which is instead what thrombin and ADP do earlier in primary haemostasis.',
-        d: 'Correct. Thrombomodulin binds thrombin, and the thrombomodulin–thrombin complex activates protein C, which (with its cofactor protein S) inactivates factors V and VIII and frees fibrinolysis to proceed — one of the book\'s named physiological limits on coagulation. The book\'s own next sentence names protein C, with protein S as its cofactor, as what that complex activates.',
+        d: 'Thrombomodulin binds thrombin, and the thrombomodulin–thrombin complex activates protein C, which (with its cofactor protein S) inactivates factors V and VIII and frees fibrinolysis to proceed — one of the named physiological limits on coagulation. The next sentence names protein C, with protein S as its cofactor, as what that complex activates.',
       },
     },
     {
@@ -311,10 +311,10 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason:
         'The two OCR passes disagreed between options A (aspirin) and D (heparin), but the module book directly names heparin\'s mechanism as combining with antithrombin III to inactivate factors IX, X, XI and XII (physical p140) — which is described as facilitating, i.e. increasing, antithrombin III\'s activity (also stated explicitly in the heparin-vs-dicumarol comparison table, physical p142: "Facilitates action of Antithrombin III"). Aspirin\'s mechanism (cyclooxygenase inhibition, affecting thromboxane A2 and prostacyclin) has no stated connection to antithrombin III anywhere in the book, so D is the only option the book supports.',
       explanations: {
-        a: 'Aspirin\'s mechanism is cyclooxygenase inhibition, suppressing thromboxane A2 and prostacyclin — the book does not connect it to antithrombin III at all.',
+        a: 'Aspirin\'s mechanism is cyclooxygenase inhibition, suppressing thromboxane A2 and prostacyclin — it is not connected to antithrombin III at all.',
         b: 'Citrate\'s anticoagulant action is chelating calcium, an entirely different mechanism from antithrombin III potentiation, and used only as an in vitro anticoagulant for stored blood.',
         c: 'Coumarin (warfarin) works by competitively inhibiting vitamin K in the liver, blocking synthesis of the vitamin-K-dependent factors — a different mechanism from antithrombin III, which acts on already-formed active factors rather than blocking new synthesis.',
-        d: 'Correct. Heparin combines with antithrombin III to inactivate factors IXa, Xa, XIa and XIIa — the book\'s comparison table describes this explicitly as heparin "facilitating" antithrombin III\'s action, i.e. increasing its activity.',
+        d: 'Heparin combines with antithrombin III to inactivate factors IXa, Xa, XIa and XIIa — the comparison table describes this explicitly as heparin "facilitating" antithrombin III\'s action, i.e. increasing its activity.',
       },
     },
     {
@@ -325,7 +325,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Identify exposed endothelial collagen as the trigger for the intrinsic pathway.',
       explanations: {
         a: 'The extrinsic pathway begins with tissue thromboplastin release from damaged tissue, not with exposed endothelial collagen.',
-        b: 'Correct. The intrinsic pathway begins when blood contacts exposed subendothelial collagen (activating factor XII), which is why it is described as beginning "inside" the vessel wall itself rather than from outside tissue damage.',
+        b: 'The intrinsic pathway begins when blood contacts exposed subendothelial collagen (activating factor XII), which is why it is described as beginning "inside" the vessel wall itself rather than from outside tissue damage.',
         c: 'The common pathway begins downstream, at active factor X forming the prothrombin activator — not at the point collagen is first exposed.',
         d: 'Fibrin stabilisation is the final step of the common pathway (factor XIII cross-linking fibrin), a different, later phase from where the cascade begins.',
       },
@@ -337,10 +337,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Name the thromboxane A2–prostacyclin balance as an anticlotting limiting reaction.',
       explanations: {
-        a: 'Inactivation of factor XII is not a mechanism the book names among its physiological limiting reactions — the book\'s named contact-group inactivation route runs through the liver clearing activated factors generally, not a specific factor-XII inactivation step.',
-        b: 'The book does not describe the kidney as removing activated clotting factors — that is the liver\'s named role among the limiting reactions.',
-        c: 'The book names antithrombin III as binding factors IX, X, XI and XII, not VII — this option lists the wrong set of factors for antithrombin III\'s action.',
-        d: 'Correct. The book names the balance between thromboxane A2 (a platelet-derived vasoconstrictor and aggregation stimulant) and prostacyclin (an endothelial vasodilator and aggregation inhibitor) as one of the mechanisms that limits the clot to the site of injury.',
+        a: 'Inactivation of factor XII is not a mechanism named among its physiological limiting reactions — the named contact-group inactivation route runs through the liver clearing activated factors generally, not a specific factor-XII inactivation step.',
+        b: 'The kidney is not described as removing activated clotting factors — that is the liver\'s named role among the limiting reactions.',
+        c: 'Antithrombin III is binding factors IX, X, XI and XII, not VII — this option lists the wrong set of factors for antithrombin III\'s action.',
+        d: 'The balance between thromboxane A2 (a platelet-derived vasoconstrictor and aggregation stimulant) and prostacyclin (an endothelial vasodilator and aggregation inhibitor) is one of the mechanisms that limits the clot to the site of injury.',
       },
     },
     {
@@ -352,7 +352,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Platelet activation is triggered earlier, by adhesion to collagen and von Willebrand factor — it is not what makes factor X important in the coagulation cascade.',
         b: 'Vasoconstriction of the injured vessel is an earlier, separate haemostasis step (driven by local myogenic contraction, nervous reflexes and platelet-released factors), not a function of active factor X.',
-        c: 'Correct. Active factor X, together with phospholipid, Ca2+ and factor Va, forms the prothrombin activator that converts prothrombin to thrombin — the step at which the intrinsic and extrinsic pathways converge on the common pathway.',
+        c: 'Active factor X, together with phospholipid, Ca2+ and factor Va, forms the prothrombin activator that converts prothrombin to thrombin — the step at which the intrinsic and extrinsic pathways converge on the common pathway.',
         d: 'Backwards. Factor XI sits upstream of factor X in the intrinsic pathway (XII activates XI, which activates IX, which with VIIIa activates X) — factor X does not activate factor XI.',
       },
     },
@@ -363,10 +363,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that glass activates factor XII in vitro, initiating the intrinsic pathway.',
       explanations: {
-        a: 'Tissue factor (thromboplastin) activating factor VII describes the extrinsic pathway, which the book states occurs only in vivo — a glass tube outside the body cannot supply tissue thromboplastin.',
+        a: 'Tissue factor (thromboplastin) activating factor VII describes the extrinsic pathway, which is stated occurs only in vivo — a glass tube outside the body cannot supply tissue thromboplastin.',
         b: 'Blood clotting in a glass tube is *promotion* of fibrin formation, not prevention — this option states the opposite of what is observed.',
-        c: 'Correct. The book states factor XII can be activated in vitro by exposure to electronegatively-charged wettable surfaces such as glass — silica activating factor XII is exactly this mechanism, and it is why the intrinsic pathway (unlike the extrinsic) occurs both in vivo and in vitro.',
-        d: 'The book does not connect glass-tube clotting to vitamin K — vitamin K governs hepatic synthesis of certain factors over days, an entirely different timescale and mechanism from the immediate contact-activation seen in a test tube.',
+        c: 'Factor XII can be activated in vitro by exposure to electronegatively-charged wettable surfaces such as glass — silica activating factor XII is exactly this mechanism, and it is why the intrinsic pathway (unlike the extrinsic) occurs both in vivo and in vitro.',
+        d: 'Glass-tube clotting is not connected to vitamin K — vitamin K governs hepatic synthesis of certain factors over days, an entirely different timescale and mechanism from the immediate contact-activation seen in a test tube.',
       },
     },
     {
@@ -376,7 +376,7 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'State that aspirin causes bleeding tendency through cyclooxygenase inhibition.',
       explanations: {
-        a: 'Correct. Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 production and so impairing platelet aggregation, which is the mechanism behind its bleeding-tendency side effect.',
+        a: 'Aspirin inhibits cyclooxygenase, suppressing platelet thromboxane A2 production and so impairing platelet aggregation, which is the mechanism behind its bleeding-tendency side effect.',
         b: 'Aspirin does not act on plasmin — the fibrinolytic system\'s own regulation runs through tissue plasminogen activator and its inhibitors, a separate pathway from aspirin\'s cyclooxygenase target.',
         c: 'Aspirin does not inhibit heparin — the two act on entirely separate systems (cyclooxygenase/platelets vs antithrombin III/coagulation factors).',
         d: 'Aspirin does not inhibit fibrinolysins (plasmin and related enzymes) — inhibiting fibrinolysis would if anything reduce bleeding tendency by preserving clots, the opposite direction from aspirin\'s actual effect.',
@@ -392,7 +392,7 @@ export const LEAF: McqLeafSeed = {
         a: 'This order starts with release and ends with adhesion and activation — the reverse of the true sequence, since a platelet cannot release granule contents before it has adhered and been activated.',
         b: 'This order starts with fusion, which is the *final* step, not the first — fusion can only happen after platelets have already aggregated together.',
         c: 'This order repeats "activation" twice and omits adhesion, which must come first (a platelet has nothing to activate against until it has adhered to exposed collagen or von Willebrand factor).',
-        d: 'Correct. The book\'s own sequence is: adhesion (to collagen/von Willebrand factor) → activation (shape change, pseudopodia) → release reaction (granule contents) → aggregation (fibrinogen bridges) → fusion (irreversible).',
+        d: 'The sequence is: adhesion (to collagen/von Willebrand factor) → activation (shape change, pseudopodia) → release reaction (granule contents) → aggregation (fibrinogen bridges) → fusion (irreversible).',
       },
     },
     {
@@ -414,7 +414,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that factor VII initiates coagulation together with tissue thromboplastin.',
       explanations: {
         a: 'Factor VII belongs to the prothrombin group of the extrinsic/common pathway, not a cofactor in the intrinsic pathway — the intrinsic pathway\'s own contact-group members are XI and XII.',
-        b: 'Correct. Factor VII, activated by tissue thromboplastin released from damaged tissue, initiates the extrinsic coagulation pathway.',
+        b: 'Factor VII, activated by tissue thromboplastin released from damaged tissue, initiates the extrinsic coagulation pathway.',
         c: 'Converting fibrinogen to fibrin is thrombin\'s job at the end of the common pathway, not factor VII\'s at the cascade\'s start.',
         d: 'Coagulation factors are produced by the liver (mainly beta globulins), not by platelets, though platelets do contribute phospholipid surface and some factors from their alpha granules — factor VII specifically is hepatic, not platelet-derived.',
       },
@@ -428,7 +428,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. A low platelet count *impairs* the platelet-dependent phase of haemostasis; blood coagulation (the clotting-factor cascade) is not increased by thrombocytopenia.',
         b: 'Excessive RBC haemolysis describes a haemolytic anaemia, an unrelated condition to a low platelet count.',
-        c: 'Correct. Thrombocytopenia — platelet count below 50,000/mm3, or defective platelet function — is characterised by prolonged bleeding time and petechiae.',
+        c: 'Thrombocytopenia — platelet count below 50,000/mm3, or defective platelet function — is characterised by prolonged bleeding time and petechiae.',
         d: '"Thrombocytopenia" means a *decreased*, not increased, platelet number — the name itself states the opposite of this option.',
       },
     },

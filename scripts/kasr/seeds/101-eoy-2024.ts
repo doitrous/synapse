@@ -130,7 +130,7 @@ export const SEEDS: Seed[] = [
     label: 'Fertilisation happens in the ampulla of the uterine tube and has four results',
     key: 'fertilization-site-mechanism-results',
     definition: 'Fertilisation is the process by which sperm and ovum unite to form a zygote, and it occurs in the ampullary part of the uterine tube, its lateral third. Its results are the formation of the zygote; determination of sex, male (XY) or female (XX), by the fertilising sperm; restoration of the diploid number of forty-six chromosomes; and the start of cleavage with migration from the site of fertilisation to implantation in the uterine cavity.',
-    objective: 'State where fertilisation occurs and give the four results the department book lists.',
+    objective: 'State where fertilisation occurs and give its four results.',
     pitfall: 'Saying the uterus. Fertilisation is tubal; the uterus is where the product of it implants, four days later.',
     subject: 'dev', primary: 'DIS-EMB-T01', secondary: [],
     modulePath: '101 ISK > Anatomy > General Embryology > First Week of Development',

@@ -169,7 +169,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Name the repeated telomeric sequence and its loop structure, and explain why lagging-strand synthesis alone would shorten a chromosome with each replication cycle.',
       pitfall:
-        "Reaching for telomerase's reverse-transcriptase mechanism or an RNA template to explain how it restores length — the book states only that telomerase restores chromosomal length, not the mechanism by which it does so.",
+        "Reaching for telomerase's reverse-transcriptase mechanism or an RNA template to explain how it restores length — only that telomerase restores chromosomal length, not the mechanism by which it does so.",
       subject: 'fnd',
       primary: 'DIS-BIO-T06',
       secondary: [],
@@ -187,7 +187,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify semi-conservative replication as the defining feature of how DNA is copied.',
       explanations: {
-        a: "Correct. Each daughter DNA molecule keeps one original (conserved) parental strand and gains one newly synthesized strand — the book's own definition of semi-conservative replication.",
+        a: "Each daughter DNA molecule keeps one original (conserved) parental strand and gains one newly synthesized strand — the definition of semi-conservative replication.",
         b: "Only true of the lagging strand. The leading strand is synthesized continuously, so 'discontinuous' describes one of the two new strands, not replication as a whole.",
         c: 'Wrong direction of error. Eukaryotic replication starts at many origins across each chromosome and proceeds outward from each one, which makes it multi-directional at each origin, not unidirectional.',
         d: 'Mixes up two different enzymes. DNA ligase seals the nicks between finished fragments; DNA polymerases are what actually build the new strand by adding nucleotides.',
@@ -202,7 +202,7 @@ export const LEAF: McqLeafSeed = {
         'Name the mechanism in which one new strand is built against one old strand as semi-conservative.',
       explanations: {
         a: 'A mutation is an error in the copied sequence, not a description of the copying mechanism itself.',
-        b: "Correct. One strand of each daughter molecule is the original parental strand and one is newly synthesized against it — that pairing of one old, one new strand per daughter molecule is what 'semi-conservative' names.",
+        b: "One strand of each daughter molecule is the original parental strand and one is newly synthesized against it — that pairing of one old, one new strand per daughter molecule is what 'semi-conservative' names.",
         c: "Discontinuous describes how the lagging strand is built, in Okazaki fragments — it is not the term for the old-strand/new-strand relationship the question describes.",
         d: 'Conservative would mean the original duplex stays entirely intact and a wholly new duplex forms alongside it. That is the opposite of what happens; DNA replication mixes one old and one new strand in each daughter molecule.',
       },
@@ -226,8 +226,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify helicase as the enzyme that unwinds the parental duplex at the replication fork.',
       explanations: {
-        a: 'Correct. Helicase enzyme molecules attach at each origin and unwind the DNA by breaking the hydrogen bonds between base pairs, producing the replication bubble.',
-        b: "'Replicase' is not a name the book uses for any replication enzyme — a plausible-sounding invented term, not the enzyme that opens the duplex.",
+        a: 'Helicase enzyme molecules attach at each origin and unwind the DNA by breaking the hydrogen bonds between base pairs, producing the replication bubble.',
+        b: "'Replicase' is not a name used for any replication enzyme — a plausible-sounding invented term, not the enzyme that opens the duplex.",
         c: 'DNA polymerase builds the new strand once the template is already single-stranded; it does not do the unwinding that exposes the template in the first place.',
         d: 'DNA ligase works at the very end of the process, sealing nicks between finished fragments — it has no role in opening the helix.',
       },
@@ -240,7 +240,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that DNA polymerases are the enzymes that catalyze the elongation of a DNA strand.',
       explanations: {
-        a: 'Correct. DNA polymerases catalyse the formation of polynucleotide chains, adding complementary nucleotides base-paired with the parental strand — this is elongation.',
+        a: 'DNA polymerases catalyse the formation of polynucleotide chains, adding complementary nucleotides base-paired with the parental strand — this is elongation.',
         b: 'Helicase\'s job is upstream of elongation: it unwinds the duplex so a template is available, but it does not add nucleotides itself.',
         c: 'DNA ligase acts after elongation is finished, joining the ends of adjacent fragments rather than extending a strand.',
         d: 'Primase lays down the short RNA primer elongation starts from, but it is the polymerase, not the primase, that carries out the actual chain extension.',
@@ -254,7 +254,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Place RNA primer formation as the initiation step that must occur before a new DNA strand can be elongated.',
       explanations: {
-        a: "Correct. DNA polymerases cannot initiate DNA synthesis without an RNA primer already in place — primer formation is the book's initiation step, carried out before elongation can begin.",
+        a: "DNA polymerases cannot initiate DNA synthesis without an RNA primer already in place — primer formation is the initiation step, carried out before elongation can begin.",
         b: 'Reverses the order. The primer has to exist before DNA polymerase can extend anything from it, not after.',
         c: 'Transcription is a separate process (making RNA from a DNA template for gene expression) — the RNA primer is a replication tool, not a product of, or a step before, transcription.',
         d: 'Same mix-up as the transcription option, in the other direction — the primer has nothing to do with when transcription happens.',
@@ -270,7 +270,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Five-carbon sugars are the backbone components of nucleotides, not a molecule that base-pairs with a template to prime synthesis.',
         b: 'Deoxyribose alone is a sugar with no base or phosphate — it cannot base-pair with anything or serve as a binding site for a polymerase.',
-        c: "Correct. The book states the RNA primer is a short segment of RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand, giving DNA polymerase a 3'-OH end to extend.",
+        c: "The RNA primer is a short segment of RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand, giving DNA polymerase a 3'-OH end to extend.",
         d: 'Proteins do bind DNA (e.g., SSB proteins, histones), but none of them serves as the primer DNA polymerase extends — that role belongs specifically to a short RNA sequence.',
       },
       answerOverride: 'c',
@@ -285,7 +285,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Apply complementary base pairing (A pairs with T) to compute the base composition of a newly synthesized complementary strand.',
       explanations: {
-        a: "Correct. Adenine pairs with thymine, so wherever the template strand carries an A, the new complementary strand carries a T. The template is 20% A, so the new strand is 20% T.",
+        a: "Adenine pairs with thymine, so wherever the template strand carries an A, the new complementary strand carries a T. The template is 20% A, so the new strand is 20% T.",
         b: "22.5% is not the composition of any single base in either strand here — it looks like an average of two of the template's percentages, which is not how complementary pairing works.",
         c: "25% is the template strand's own T content, not the new strand's. Copying the template's T percentage straight into the answer pairs T with itself instead of pairing template-A with new-T.",
         d: "30% is the template's G content. Since G pairs with C, the new strand's C content would be 30%, not its T content — this option confuses which base ends up complementary to which.",
@@ -300,7 +300,7 @@ export const LEAF: McqLeafSeed = {
         "State that the two new DNA strands are synthesized differently — one continuously, one discontinuously — because DNA polymerase can only read 3' to 5'.",
       explanations: {
         a: "Only the lagging strand is made discontinuously. DNA polymerase ε makes the leading strand continuously from a single primer, so 'both' overstates it.",
-        b: 'Correct. The leading strand is synthesized continuously by polymerase ε while the lagging strand is built discontinuously, as Okazaki fragments, by polymerase δ.',
+        b: 'The leading strand is synthesized continuously by polymerase ε while the lagging strand is built discontinuously, as Okazaki fragments, by polymerase δ.',
         c: "Only the leading strand is continuous. The lagging strand's Okazaki fragments make continuous synthesis on both strands impossible given the fork's single overall direction of travel.",
         d: 'Both strands need an RNA primer — the lagging strand actually needs many primers, one per Okazaki fragment, so a single primer is not enough for even one strand, let alone both.',
       },
@@ -316,7 +316,7 @@ export const LEAF: McqLeafSeed = {
         a: 'mRNA is synthesized continuously during transcription; it is not built in short fragments the way the lagging strand of DNA is.',
         b: 'tRNA is transcribed as a single continuous molecule that then folds into its cloverleaf shape — it has no Okazaki-fragment-style discontinuous synthesis.',
         c: 'rRNA, like the other RNA types, is synthesized continuously by transcription, not in short discontinuous pieces.',
-        d: 'Correct. Okazaki fragments are the short pieces of DNA that polymerase δ builds discontinuously while copying the lagging strand at the replication fork.',
+        d: 'Okazaki fragments are the short pieces of DNA that polymerase δ builds discontinuously while copying the lagging strand at the replication fork.',
       },
     },
     {
@@ -328,7 +328,7 @@ export const LEAF: McqLeafSeed = {
         'Place DNA replication specifically in the S (synthesis) phase of the cell cycle.',
       explanations: {
         a: 'G1 is a growth phase in which the cell increases in size before committing to divide; DNA is not yet being copied.',
-        b: "Correct. S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated, and it is the only phase in which replication occurs.",
+        b: "S stands for synthesis of DNA — during S phase all of the cell's genetic material is duplicated, and it is the only phase in which replication occurs.",
         c: 'G2 is a further growth phase that prepares the cell for mitosis, after DNA has already been duplicated in S phase.',
         d: 'M phase is mitosis, where the two already-duplicated copies of the genetic material are separated into two daughter cells — no new DNA synthesis happens here.',
       },
@@ -341,9 +341,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that eukaryotic chromosomes replicate from many origins at once, recognized by origin recognition complex (ORC) proteins.',
       explanations: {
-        a: 'Correct. The book states many origins, rich in AT base pairs, serve as starting points across each chromosome, and that using multiple origins markedly decreases the time replication takes.',
+        a: 'Many origins, rich in AT base pairs, serve as starting points across each chromosome, and that using multiple origins markedly decreases the time replication takes.',
         b: 'Origin recognition complex (ORC) proteins bind the origins, not ribosomes. Ribosomes have no role in DNA replication — they are the site of protein synthesis.',
-        c: "Only the leading strand is synthesized continuously; the lagging strand is built discontinuously as Okazaki fragments, so 'continuous synthesis on both strands' is contradicted by the book's own description of the fork.",
+        c: "Only the leading strand is synthesized continuously; the lagging strand is built discontinuously as Okazaki fragments, so 'continuous synthesis on both strands' is contradicted by the description of the fork.",
         d: 'DNA replication is semi-conservative, not conservative — each daughter molecule keeps one old strand and gains one new one, rather than one daughter keeping an entirely intact original duplex.',
       },
       answerOverride: 'a',
@@ -360,7 +360,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Synthesizing the RNA primer is the job of the DNA polymerase–primase complex, not of SSB proteins.',
         b: 'Removing mispaired nucleotides by 3\'-5\' exonuclease activity is the proofreading function of DNA polymerases ε and δ, not of SSB proteins.',
-        c: 'Correct. SSB proteins bind the single strands of unwound DNA and stabilize them — without them the two strands would simply rewind — and they also protect the exposed single strand from nucleases.',
+        c: 'SSB proteins bind the single strands of unwound DNA and stabilize them — without them the two strands would simply rewind — and they also protect the exposed single strand from nucleases.',
         d: 'Cutting and resealing DNA ahead of the fork to relieve supercoiling is the job of topoisomerases, not SSB proteins.',
       },
     },
@@ -373,7 +373,7 @@ export const LEAF: McqLeafSeed = {
         'Identify RNA, not DNA, histone, or protein, as the chemical nature of the short primer strand.',
       explanations: {
         a: 'DNA is what the primer allows to be synthesized afterward — the primer that gets DNA synthesis started is itself made of RNA, not DNA.',
-        b: 'Correct. The short primer strand required to start DNA replication is RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand.',
+        b: 'The short primer strand required to start DNA replication is RNA, formed by the DNA polymerase–primase complex and base-paired to the parental strand.',
         c: 'Histones are structural proteins that package finished DNA into nucleosomes; they play no role in priming new strand synthesis.',
         d: 'Protein is too broad and simply wrong here — the primer is a nucleic acid (RNA), not a protein, even though proteins such as primase are what synthesize it.',
       },
@@ -388,7 +388,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: "All new DNA strands, leading and lagging alike, are synthesized 5' to 3' — this option reverses the direction of synthesis.",
         b: 'The lagging strand is copied in the direction opposite the advancing replication fork, so each new fragment is actually built away from the fork, not toward it.',
-        c: 'Correct. DNA polymerase δ needs a new RNA primer to start each Okazaki fragment, so, unlike the single-primer leading strand, the lagging strand requires multiple RNA primers.',
+        c: 'DNA polymerase δ needs a new RNA primer to start each Okazaki fragment, so, unlike the single-primer leading strand, the lagging strand requires multiple RNA primers.',
         d: 'The lagging strand is the one synthesized discontinuously, in short Okazaki fragments — continuity describes the leading strand instead.',
       },
       answerOverride: 'c',
@@ -406,7 +406,7 @@ export const LEAF: McqLeafSeed = {
         a: 'DNA polymerase α, as part of the primase complex, lays the primer down in the first place — it does not remove it afterward.',
         b: 'RNA primase is the enzyme that synthesizes the RNA primer, which is the opposite job from removing it.',
         c: "This option repeats another DNA polymerase without changing the enzyme's job — DNA polymerases build or fill strands; primer removal is a separate, exonuclease-driven step.",
-        d: 'Correct. RNase H removes the RNA primers by its exonuclease activity, clearing the way for the gaps to be filled and the fragments joined.',
+        d: 'RNase H removes the RNA primers by its exonuclease activity, clearing the way for the gaps to be filled and the fragments joined.',
       },
     },
     {
@@ -417,8 +417,8 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'Identify DNA ligase as the enzyme that seals the nicks left between adjacent Okazaki fragments.',
       explanations: {
-        a: "Gyrase is a bacterial type of topoisomerase; it is not the enzyme the book names for joining fragments in eukaryotic replication.",
-        b: 'Correct. Once RNase H has removed the primers and the gaps are filled, DNA ligase joins the ends of the adjacent DNA fragments.',
+        a: "Gyrase is a bacterial type of topoisomerase; it is not the enzyme named for joining fragments in eukaryotic replication.",
+        b: 'Once RNase H has removed the primers and the gaps are filled, DNA ligase joins the ends of the adjacent DNA fragments.',
         c: 'Polymerase fills the gap left after primer removal, but it cannot seal the final nick between two DNA fragments — that step needs ligase.',
         d: "Helicase's job is unwinding the parental duplex at the start of replication; it plays no part in sealing fragments together at the end.",
       },
@@ -431,7 +431,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective:
         'State that topoisomerases relieve the supercoiling generated ahead of the replication fork.',
       explanations: {
-        a: 'Correct. As the fork advances and DNA unwinds, supercoils build up ahead of it; topoisomerases remove this supercoiling.',
+        a: 'As the fork advances and DNA unwinds, supercoils build up ahead of it; topoisomerases remove this supercoiling.',
         b: 'Binding the origin sites is the job of origin recognition complex (ORC) proteins, not topoisomerases.',
         c: 'Opening the double-stranded DNA at the fork itself is helicase\'s job — topoisomerases work ahead of the fork on the still-wound DNA, relieving the strain unwinding creates, rather than doing the unwinding at the fork.',
         d: "Joining Okazaki fragments with phosphodiester bonds is DNA ligase's job, a completely different enzyme working at a different stage of replication.",
@@ -447,8 +447,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: "Ligase acts at the end of replication on both strands' finished fragments, not specifically 'on' the leading strand, which does not need fragment-joining at all since it is made continuously.",
         b: "Ligase does not undo anything DNA polymerase does — it completes the polymerase's work by sealing the nick left after the gap has been filled.",
-        c: 'Correct. DNA ligase joins the ends of adjacent DNA fragments, sealing the nicks left between Okazaki fragments once their RNA primers are removed and the gaps filled.',
-        d: 'Winding the leading and lagging strands together is not a step the book describes at all, and it is not what ligase does — ligase seals covalent breaks, it does not wind strands.',
+        c: 'DNA ligase joins the ends of adjacent DNA fragments, sealing the nicks left between Okazaki fragments once their RNA primers are removed and the gaps filled.',
+        d: 'Winding the leading and lagging strands together is not a step described at all, and it is not what ligase does — ligase seals covalent breaks, it does not wind strands.',
       },
     },
     {
@@ -460,9 +460,9 @@ export const LEAF: McqLeafSeed = {
         'Name telomeres as the repeated sequence found at the ends of eukaryotic chromosomes.',
       explanations: {
         a: 'A kinetochore is the site on a chromosome where spindle fibres attach during mitosis — a different structure from the repeated end sequence being described here.',
-        b: "Correct. Telomeres are the ends of eukaryotic linear chromosomes, carrying a non-coding sequence (5'-TTAGGG-3') repeated thousands of times.",
+        b: "Telomeres are the ends of eukaryotic linear chromosomes, carrying a non-coding sequence (5'-TTAGGG-3') repeated thousands of times.",
         c: 'A centriole is a cytoplasmic organelle involved in organizing the mitotic spindle — it has nothing to do with the repeated DNA sequence at chromosome ends.',
-        d: 'Chromomere is not a term the book uses for the chromosome-end structure — it names beads of tightly coiled chromatin seen along a chromosome, not the telomeric repeat.',
+        d: 'Chromomere is not a term used for the chromosome-end structure — it names beads of tightly coiled chromatin seen along a chromosome, not the telomeric repeat.',
       },
     },
     {
@@ -499,7 +499,7 @@ export const LEAF: McqLeafSeed = {
         a: 'DNA polymerase α, as the α–primase complex, lays down RNA primers and their short initial DNA stretch on nuclear chromosomes — it has no role in mitochondrial DNA replication.',
         b: 'DNA polymerase β fills gaps during nuclear DNA repair, not mitochondrial DNA synthesis.',
         c: 'DNA polymerase δ synthesises the lagging strand of nuclear DNA discontinuously as Okazaki fragments — again a nuclear, not mitochondrial, job.',
-        d: 'Correct. DNA polymerase γ is the one eukaryotic polymerase dedicated to synthesising mitochondrial DNA.',
+        d: 'DNA polymerase γ is the one eukaryotic polymerase dedicated to synthesising mitochondrial DNA.',
       },
     },
     {
@@ -512,7 +512,7 @@ export const LEAF: McqLeafSeed = {
         a: 'DNA polymerase α lays down the RNA primers and the short DNA attached to them — priming, not continuous leading-strand synthesis.',
         b: 'DNA polymerase β is the nuclear DNA repair enzyme, unrelated to leading-strand replication.',
         c: 'DNA polymerase δ synthesises the lagging strand discontinuously from many primers as Okazaki fragments — the opposite strand and the opposite pattern from what this question asks about.',
-        d: 'Correct. DNA polymerase ε synthesises the leading strand continuously from a single primer — the pitfall the concept itself flags is confusing it with δ, which does the lagging strand instead.',
+        d: 'DNA polymerase ε synthesises the leading strand continuously from a single primer — the pitfall the concept itself flags is confusing it with δ, which does the lagging strand instead.',
       },
     },
   ],

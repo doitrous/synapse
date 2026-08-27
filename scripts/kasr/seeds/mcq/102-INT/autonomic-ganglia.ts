@@ -60,7 +60,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         a: 'Backwards. A ganglion contains the mother neurons of *postganglionic* fibres, not preganglionic ones — the preganglionic fibre is what travels in to synapse there, not what originates there.',
         b: 'Backwards. A ganglion is, by definition, a collection of neurons *outside* the CNS — that is exactly what distinguishes it from a nucleus, the CNS equivalent.',
-        c: 'Correct. Each preganglionic axon synapses on 8–9 postganglionic cell bodies, so a ganglion is the site of relay between one preganglionic fibre and several (8–9) postganglionic fibres — the mechanism by which autonomic output is diffused.',
+        c: 'Each preganglionic axon synapses on 8–9 postganglionic cell bodies, so a ganglion is the site of relay between one preganglionic fibre and several (8–9) postganglionic fibres — the mechanism by which autonomic output is diffused.',
         d: 'It is the adrenal medulla, not terminal ganglia, that is the modified sympathetic ganglion (with postganglionic cells that have lost their axons). Terminal ganglia instead relay parasympathetic fibres, near or inside the organ itself.',
       },
     },
@@ -74,7 +74,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Backwards. The adrenal medulla is a modified *sympathetic* ganglion, not a parasympathetic one.',
         b: 'The adrenal medulla is supplied by preganglionic *cholinergic* sympathetic fibres — "adrenergic" describes the transmitter of most postganglionic sympathetic fibres, not the preganglionic fibres supplying the medulla.',
         c: 'Backwards. The adrenal medulla secretes 80% adrenaline and 20% noradrenaline, not the reverse split this option gives.',
-        d: 'Correct. The preganglionic fibres supplying the adrenal medulla are cholinergic (as all preganglionic autonomic fibres are), releasing acetylcholine to stimulate the medulla\'s catecholamine release — consistent with the medulla behaving as a modified sympathetic ganglion whose "postganglionic" cells have lost their axons.',
+        d: 'The preganglionic fibres supplying the adrenal medulla are cholinergic (as all preganglionic autonomic fibres are), releasing acetylcholine to stimulate the medulla\'s catecholamine release — consistent with the medulla behaving as a modified sympathetic ganglion whose "postganglionic" cells have lost their axons.',
       },
     },
     {
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that preganglionic parasympathetic fibres relay in collateral and terminal ganglia.',
       explanations: {
         a: 'The paravertebral sympathetic chain relays sympathetic fibres only — parasympathetic fibres never relay there.',
-        b: 'Correct. Preganglionic parasympathetic fibres relay in collateral ganglia (the parasympathetic-relaying subset: ciliary, sphenopalatine, submaxillary, otic) and in terminal ganglia (near or in the organ) — the book names both as parasympathetic relay points, not one exclusively.',
+        b: 'Preganglionic parasympathetic fibres relay in collateral ganglia (the parasympathetic-relaying subset: ciliary, sphenopalatine, submaxillary, otic) and in terminal ganglia (near or in the organ) — both is parasympathetic relay points, not one exclusively.',
         c: 'Terminal ganglia alone is too narrow — collateral ganglia also relay some parasympathetic fibres (the four named cranial ones), so "terminal ganglia only" excludes a real relay site.',
         d: 'The adrenal medulla is a *sympathetic* structure, supplied by preganglionic sympathetic fibres, not a relay point for parasympathetic ones.',
       },
@@ -109,7 +109,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State that preganglionic sympathetic fibres to the head and neck relay in the cervical ganglia of the paravertebral chain.',
       explanations: {
         a: 'Backwards. Preganglionic sympathetic fibres to the head and neck arise from the lateral horn cells of the first and second *thoracic* segments, not the upper four — the upper-four-thoracic origin belongs to the thoracic-viscera supply instead.',
-        b: 'Correct. Preganglionic sympathetic fibres to the head and neck ascend to relay with neurons in the cervical ganglia, which are part of the paravertebral sympathetic chain.',
+        b: 'Preganglionic sympathetic fibres to the head and neck ascend to relay with neurons in the cervical ganglia, which are part of the paravertebral sympathetic chain.',
         c: 'The ciliary ganglion is a collateral ganglion relaying *parasympathetic* fibres (from the oculomotor nerve), not the relay point for sympathetic fibres to the head and neck.',
         d: 'Terminal ganglia relay parasympathetic fibres near the organ — sympathetic fibres to the head and neck relay in the cervical paravertebral chain, not in terminal ganglia.',
       },
@@ -124,7 +124,7 @@ export const LEAF: McqLeafSeed = {
         a: 'Noradrenaline is the transmitter at most postganglionic sympathetic endings (on the effector organ), not inside the ganglion at the preganglionic-to-postganglionic synapse.',
         b: 'Adrenaline is a hormone released by the adrenal medulla into the blood, not the transmitter used at the ganglionic synapse.',
         c: 'Dopamine is a synthetic intermediate on the way to noradrenaline inside adrenergic nerve terminals; it is not the ganglionic transmitter.',
-        d: 'Correct. All preganglionic autonomic fibres — sympathetic and parasympathetic alike — are cholinergic, releasing acetylcholine onto nicotinic receptors on the postganglionic neuron inside the ganglion.',
+        d: 'All preganglionic autonomic fibres — sympathetic and parasympathetic alike — are cholinergic, releasing acetylcholine onto nicotinic receptors on the postganglionic neuron inside the ganglion.',
       },
     },
   ],

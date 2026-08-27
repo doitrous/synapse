@@ -1542,8 +1542,8 @@ is due to
 seven features: three amino acid residues per turn, glycine's short side chain in every third position, three left-handed chains forming a right-handed superhelix, hydrogen bonds from the high hydroxyproline content, covalent cross-linkages giving tensile properties, the specific arrangement into fibril and fibres, and the staggered overhanging array giving flexibility
 
 ## display_text
-Collagen is strong because every level of its structure is built for it, and the department
-book gives seven reasons. Each turn contains three amino acid residues, making a tighter helix
+Collagen is strong because every level of its structure is built for it, for seven reasons.
+Each turn contains three amino acid residues, making a tighter helix
 than the 3.6 residues of a normal protein. Glycine, with its short side chain, lets the
 polypeptide chains lie very close to each other. The three left-handed coiled chains form a
 right-handed superhelix. The high hydroxyproline content forms hydrogen bonds between the

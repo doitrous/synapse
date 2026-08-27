@@ -41,9 +41,9 @@ export const LEAF: McqLeafSeed = {
       label:
         "Hemoproteins are conjugated proteins built around a heme prosthetic group, and each hemoprotein's job differs — hemoglobin transports oxygen in blood, myoglobin stores it in muscle, cytochromes move electrons, and catalase/peroxidases break down hydrogen peroxide",
       definition:
-        "Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group. The book's own table of examples assigns each a distinct job: haemoglobin transports oxygen in the blood; myoglobin stores oxygen in muscle; cytochromes transport electrons in the respiratory chain; and catalase and peroxidases degrade hydrogen peroxide.",
+        "Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group. The table of examples assigns each a distinct job: haemoglobin transports oxygen in the blood; myoglobin stores oxygen in muscle; cytochromes transport electrons in the respiratory chain; and catalase and peroxidases degrade hydrogen peroxide.",
       objective:
-        "Classify hemoproteins as conjugated proteins and match each named example to its main function from the book's table.",
+        "Classify hemoproteins as conjugated proteins and match each named example to its main function from the table.",
       pitfall:
         'Assuming every hemoprotein transports or stores oxygen. Cytochromes and catalase/peroxidases are hemoproteins too, but their jobs are electron transport and peroxide breakdown, not oxygen handling.',
       subject: 'haem',
@@ -77,7 +77,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Compare myoglobin and hemoglobin at each level of protein structure — how many hemes and chains, how many residues, and which structural level differs between them and which does not.',
       pitfall:
-        'Assuming that because myoglobin and hemoglobin subunits differ in primary structure they must also differ in tertiary structure. The book describes both foldings in the same terms — globular, polar surface, nonpolar core — so the tertiary fold is shared even though the sequence is not.',
+        'Assuming that because myoglobin and hemoglobin subunits differ in primary structure they must also differ in tertiary structure. Described both foldings in the same terms — globular, polar surface, nonpolar core — so the tertiary fold is shared even though the sequence is not.',
       subject: 'haem',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -93,7 +93,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         "State heme's oxidation state and ring composition, where it sits in the globin chain, and what iron's six coordination bonds connect to.",
       pitfall:
-        "Writing heme's iron as ferric (Fe3+). The book is explicit that heme is a ferrous, Fe2+, protoporphyrin; iron only becomes ferric when heme is oxidised to hematin, which is a different molecule the globin chain normally prevents.",
+        "Writing heme's iron as ferric (Fe3+). Heme is a ferrous, Fe2+, protoporphyrin; iron only becomes ferric when heme is oxidised to hematin, which is a different molecule the globin chain normally prevents.",
       subject: 'haem',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -125,7 +125,7 @@ export const LEAF: McqLeafSeed = {
       objective:
         'Identify the molecular basis of sickle cell haemoglobin as a point mutation causing a single amino-acid substitution (Glu6→Val) in the β chain, not a broader structural or synthetic defect.',
       pitfall:
-        'Confusing the specific single-residue substitution with a general structural or secondary-structure defect, or with an iron/heme-binding fault. The book locates the whole problem at one point mutation and one substituted residue in the β chain; nothing about the heme groups or their binding is altered.',
+        'Confusing the specific single-residue substitution with a general structural or secondary-structure defect, or with an iron/heme-binding fault. Located the whole problem at one point mutation and one substituted residue in the β chain; nothing about the heme groups or their binding is altered.',
       subject: 'haem',
       primary: 'DIS-BIO-T05',
       secondary: [],
@@ -159,7 +159,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Define hemoproteins as conjugated proteins whose non-protein component is heme.',
       explanations: {
         a: 'Wrong direction — a simple protein is one built only of amino acids; hemoproteins carry a heme prosthetic group in addition, which is what makes them conjugated rather than simple.',
-        b: 'Correct. The book defines hemoproteins as conjugated proteins containing heme as a tightly bound prosthetic group — the non-amino-acid heme component is exactly what conjugation means.',
+        b: 'Hemoproteins are conjugated proteins containing heme as a tightly bound prosthetic group — the non-amino-acid heme component is exactly what conjugation means.',
         c: "A glycoprotein's added group is carbohydrate, not heme; picking this confuses one class of conjugated protein for another.",
         d: "A lipoprotein's added group is lipid, not heme; hemoproteins are named for their prosthetic group, and that group is heme, not a generic lipid.",
       },
@@ -171,10 +171,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "Match hemoglobin to its stated function, oxygen transport in blood, and distinguish it from myoglobin's storage role.",
       explanations: {
-        a: "Correct. The book's hemoprotein table assigns hemoglobin exactly this job: transportation of oxygen in blood.",
+        a: "The hemoprotein table assigns hemoglobin exactly this job: transportation of oxygen in blood.",
         b: "That is myoglobin's job in the same table, not hemoglobin's — oxygen storage happens in muscle, oxygen transport happens in blood.",
-        c: "Hydroxylation reactions belong to a different class of enzyme entirely; the book's table does not credit any hemoprotein it lists with hydroxylation.",
-        d: "Oxidation of tryptophan is not among the functions the book assigns to any hemoprotein in its table.",
+        c: "Hydroxylation reactions belong to a different class of enzyme entirely; the table does not credit any hemoprotein it lists with hydroxylation.",
+        d: "Oxidation of tryptophan is not among the functions assigned to any hemoprotein in its table.",
       },
     },
     {
@@ -184,10 +184,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "State myoglobin's heme-to-chain ratio (1:1) and contrast it with hemoglobin's (4:4).",
       explanations: {
-        a: "This is hemoglobin's composition, not myoglobin's — the book contrasts the two explicitly: hemoglobin has four heme groups on four chains, myoglobin has one on one.",
-        b: 'Neither protein has this composition; myoglobin has one heme on one chain, and no hemoprotein in the book is described as two hemes on a single chain.',
-        c: 'No hemoprotein in the book is described this way; three hemes on three chains matches neither myoglobin (1:1) nor hemoglobin (4:4).',
-        d: 'Correct. The book states myoglobin is formed of one heme attached to one polypeptide chain, while hemoglobin is the one with four hemes on four chains.',
+        a: "This is hemoglobin's composition, not myoglobin's — contrasted the two explicitly: hemoglobin has four heme groups on four chains, myoglobin has one on one.",
+        b: 'Neither protein has this composition; myoglobin has one heme on one chain, and no hemoprotein is described as two hemes on a single chain.',
+        c: 'No hemoprotein is described this way; three hemes on three chains matches neither myoglobin (1:1) nor hemoglobin (4:4).',
+        d: 'Myoglobin is formed of one heme attached to one polypeptide chain, while hemoglobin is the one with four hemes on four chains.',
       },
     },
     {
@@ -197,10 +197,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Locate the heme-binding pocket between the E and F helices of the globin fold.',
       explanations: {
-        a: 'Correct. The book places the heme ring inside the hydrophobic core of the chain, in a pocket between the E and F helices, where it is held by hydrophobic bonds to nonpolar side chains and by iron\'s bond to the proximal histidine F8.',
-        b: "The book's helix labelling runs A through H starting from the N-terminal end; A and B are near the start of the chain, not where the book locates the heme pocket.",
-        c: "C and D helices are not where the book places the heme pocket; the proximal and distal histidines that interact with the heme iron are named for the E and F helices, not C/D.",
-        d: "G and H are the last two helices in the book's A-to-H labelling, not the E/F pocket where the heme ring sits.",
+        a: 'Placed the heme ring inside the hydrophobic core of the chain, in a pocket between the E and F helices, where it is held by hydrophobic bonds to nonpolar side chains and by iron\'s bond to the proximal histidine F8.',
+        b: "The helix labelling runs A through H starting from the N-terminal end; A and B are near the start of the chain, not where the heme pocket is located.",
+        c: "C and D helices are not where the heme pocket is placed; the proximal and distal histidines that interact with the heme iron are named for the E and F helices, not C/D.",
+        d: "G and H are the last two helices in the A-to-H labelling, not the E/F pocket where the heme ring sits.",
       },
     },
     {
@@ -211,7 +211,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State the four protective functions the globin chain performs for its heme group, and recognise that this question asks for the true one among three reversed statements.',
       explanations: {
         a: 'The opposite is true. Globin\'s nonpolar heme pocket prevents the heme-O2-heme complex from forming, it does not facilitate it.',
-        b: "Correct — this is one of the four jobs the globin chain does for heme: because of its large size, the globin chain prevents heme from diffusing out of the cell into the plasma.",
+        b: "This is one of the four jobs the globin chain does for heme: because of its large size, the globin chain prevents heme from diffusing out of the cell into the plasma.",
         c: 'The opposite is true. Globin makes heme more soluble, not less — its surface polar amino acids are what let the heme-globin complex dissolve.',
         d: "The opposite is true. Globin reduces heme's affinity for carbon monoxide — the distal histidine sterically hinders CO's preferred binding angle — rather than increasing it.",
       },
@@ -223,10 +223,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'State myoglobin\'s main function as an oxygen reservoir in cardiac and skeletal muscle.',
       explanations: {
-        a: 'Correct. The book states myoglobin functions in cardiac and skeletal muscle as a reservoir for oxygen and as a carrier that speeds oxygen release during severe muscular exercise.',
+        a: 'Myoglobin functions in cardiac and skeletal muscle as a reservoir for oxygen and as a carrier that speeds oxygen release during severe muscular exercise.',
         b: 'The oxy-Hb/Hb buffer role belongs to hemoglobin in red blood cells, not to myoglobin in muscle.',
-        c: "Oxygen transport in blood is hemoglobin's job in the book's table; myoglobin's job is oxygen storage/release inside muscle, not transport in blood.",
-        d: "Degradation of hydrogen peroxide is the job the book assigns to catalase and peroxidases, not to myoglobin.",
+        c: "Oxygen transport in blood is hemoglobin's job in the table; myoglobin's job is oxygen storage/release inside muscle, not transport in blood.",
+        d: "Degradation of hydrogen peroxide is the job assigned to catalase and peroxidases, not to myoglobin.",
       },
     },
     {
@@ -234,12 +234,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'myoglobin-site-function-and-oxygen-affinity',
       difficulty: 'Moderate',
       questionType: 'Structure and function',
-      learningObjective: 'Recall the book\'s specific saturation figure for myoglobin (90%) at a pO2 of 20 mmHg.',
+      learningObjective: 'Recall the specific saturation figure for myoglobin (90%) at a pO2 of 20 mmHg.',
       explanations: {
-        a: 'Fifty percent saturation is not the figure the book gives for myoglobin at pO2 20 mmHg; myoglobin\'s high oxygen affinity keeps it far more saturated than that at this pO2.',
-        b: 'Twenty percent saturation would suggest myoglobin releases oxygen about as readily as it is presented, which understates the affinity the book describes — myoglobin stays 90% saturated at this pO2.',
-        c: 'Thirty percent saturation is too low for the affinity the book attributes to myoglobin at pO2 20 mmHg, which it states as 90%.',
-        d: 'Correct. The book states myoglobin is 90% saturated at a pO2 of 20 mmHg, reflecting its greater affinity for oxygen than hemoglobin.',
+        a: 'Fifty percent saturation is not the figure given for myoglobin at pO2 20 mmHg; myoglobin\'s high oxygen affinity keeps it far more saturated than that at this pO2.',
+        b: 'Twenty percent saturation would suggest myoglobin releases oxygen about as readily as it is presented, which understates the affinity described — myoglobin stays 90% saturated at this pO2.',
+        c: 'Thirty percent saturation is too low for the affinity attributed to myoglobin at pO2 20 mmHg, which it states as 90%.',
+        d: 'Myoglobin is 90% saturated at a pO2 of 20 mmHg, reflecting its greater affinity for oxygen than hemoglobin.',
       },
     },
     {
@@ -247,12 +247,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'hemoprotein-classification-conjugated-with-heme-and-examples',
       difficulty: 'Easy',
       questionType: 'Classification',
-      learningObjective: "Identify cytochromes as a hemoprotein from the book's example table, and non-heme proteins as not.",
+      learningObjective: "Identify cytochromes as a hemoprotein from the example table, and non-heme proteins as not.",
       explanations: {
-        a: 'Collagen is a structural protein of the extracellular matrix, not a hemoprotein — it carries no heme prosthetic group in the book\'s classification.',
-        b: 'Transferrin is an iron-transport protein, but it binds iron directly rather than via a heme prosthetic group, so the book does not list it as a hemoprotein.',
-        c: "Correct. The book's table of hemoproteins lists cytochromes, with the function of electron transportation in the respiratory chain.",
-        d: "Elastin, like collagen, is a structural extracellular-matrix protein; it does not appear in the book's table of hemoproteins.",
+        a: 'Collagen is a structural protein of the extracellular matrix, not a hemoprotein — it carries no heme prosthetic group in the classification.',
+        b: 'Transferrin is an iron-transport protein, but it binds iron directly rather than via a heme prosthetic group, so it is not listed as a hemoprotein.',
+        c: "The table of hemoproteins lists cytochromes, with the function of electron transportation in the respiratory chain.",
+        d: "Elastin, like collagen, is a structural extracellular-matrix protein; it does not appear in the table of hemoproteins.",
       },
     },
     {
@@ -262,10 +262,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Attribute sickle cell anaemia\'s malfunction to a single amino-acid substitution rather than a structural, dietary, or heme-binding defect.',
       explanations: {
-        a: 'The book does not describe a secondary-structure fault; the defect is a single substituted residue, and the α-helical secondary structure itself is not what changes.',
-        b: 'Correct. The book traces the whole malfunction to one point mutation in the β-globin gene, replacing glutamate with valine at position six of the β chain — a single amino-acid substitution.',
-        c: "Sickle cell anaemia is not a dietary iron deficiency; the book's account is genetic, a point mutation in the β-globin gene, with no mention of iron intake.",
-        d: 'The book does not implicate heme binding; the substituted valine creates a sticky surface patch on the β subunit itself, away from where heme sits.',
+        a: 'A secondary-structure fault is not described; the defect is a single substituted residue, and the α-helical secondary structure itself is not what changes.',
+        b: 'Traced the whole malfunction to one point mutation in the β-globin gene, replacing glutamate with valine at position six of the β chain — a single amino-acid substitution.',
+        c: "Sickle cell anaemia is not a dietary iron deficiency; the account is genetic, a point mutation in the β-globin gene, with no mention of iron intake.",
+        d: 'Heme binding is not implicated; the substituted valine creates a sticky surface patch on the β subunit itself, away from where heme sits.',
       },
     },
     {
@@ -275,10 +275,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: "Spot that heme's iron is ferrous (Fe2+), not ferric (Fe3+), among otherwise true statements about heme structure.",
       explanations: {
-        a: 'True, so not the answer. The book describes heme as built on protoporphyrin, a complex ring structure — the porphin ring of four pyrrole rings linked by methenyl bridges.',
-        b: 'This is the false statement, and so the answer. The book is explicit that heme is a ferrous, Fe2+, protoporphyrin IX — not ferric, Fe3+. Iron only becomes ferric when heme is oxidised into hematin, which the globin chain normally prevents.',
-        c: 'True, so not the answer. The book states iron in the ferrous state forms six coordination bonds: four to the ring\'s nitrogens, a fifth to the proximal histidine, a sixth for oxygen.',
-        d: "True, so not the answer. The book's own table lists several oxygen-transporting/handling hemoproteins — haemoglobin and myoglobin among them — so heme is indeed found in more than one such protein.",
+        a: 'True, so not the answer. Described heme as built on protoporphyrin, a complex ring structure — the porphin ring of four pyrrole rings linked by methenyl bridges.',
+        b: 'This is the false statement, and so the answer. Heme is a ferrous, Fe2+, protoporphyrin IX — not ferric, Fe3+. Iron only becomes ferric when heme is oxidised into hematin, which the globin chain normally prevents.',
+        c: 'True, so not the answer. Iron in the ferrous state forms six coordination bonds: four to the ring\'s nitrogens, a fifth to the proximal histidine, a sixth for oxygen.',
+        d: "True, so not the answer. The table lists several oxygen-transporting/handling hemoproteins — haemoglobin and myoglobin among them — so heme is indeed found in more than one such protein.",
       },
     },
     {
@@ -288,10 +288,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: 'Locate myoglobin in cardiac and skeletal muscle.',
       explanations: {
-        a: 'Nerves are not where the book locates myoglobin; its stated site is cardiac and skeletal muscle.',
-        b: 'Blood cells are where hemoglobin works, not myoglobin — the book keeps the two proteins and their sites distinct.',
-        c: 'Correct. The book places myoglobin specifically in cardiac and skeletal muscles.',
-        d: 'Skin is not a site the book gives for myoglobin; it names only cardiac and skeletal muscle.',
+        a: 'Nerves are not where myoglobin is located; its stated site is cardiac and skeletal muscle.',
+        b: 'Blood cells are where hemoglobin works, not myoglobin — kept the two proteins and their sites distinct.',
+        c: 'Placed myoglobin specifically in cardiac and skeletal muscles.',
+        d: 'Skin is not a site given for myoglobin; it names only cardiac and skeletal muscle.',
       },
     },
     {
@@ -301,10 +301,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Structure and function',
       learningObjective: 'Recognise that myoglobin and hemoglobin subunits share the same tertiary fold but differ in primary structure, and that myoglobin has no quaternary structure to compare.',
       explanations: {
-        a: 'Correct. The book gives apomyoglobin 153 amino acids and 8 helices, the α chain 141 amino acids and 7 helices, and the β chain 146 amino acids and 8 helices — different chain lengths mean different amino-acid sequences, i.e. different primary structures.',
-        b: "The book describes myoglobin's and hemoglobin's tertiary folding in the same words — a globular structure with polar amino acids at the surface and nonpolar amino acids inside — so their tertiary structure is shared, not different.",
+        a: 'Given apomyoglobin 153 amino acids and 8 helices, the α chain 141 amino acids and 7 helices, and the β chain 146 amino acids and 8 helices — different chain lengths mean different amino-acid sequences, i.e. different primary structures.',
+        b: "Described myoglobin's and hemoglobin's tertiary folding in the same words — a globular structure with polar amino acids at the surface and nonpolar amino acids inside — so their tertiary structure is shared, not different.",
         c: 'The different residue counts (153 vs 141 vs 146) rule this out; a different number and sequence of amino acids is a different primary structure by definition.',
-        d: "Myoglobin, a single chain, has no quaternary structure at all in the book's account; only hemoglobin's four chains are organised into the two-dimer quaternary structure, so there is nothing for it to be 'similar' to.",
+        d: "Myoglobin, a single chain, has no quaternary structure at all in the account; only hemoglobin's four chains are organised into the two-dimer quaternary structure, so there is nothing for it to be 'similar' to.",
       },
     },
     {
@@ -323,12 +323,12 @@ export const LEAF: McqLeafSeed = {
       conceptKey: 'sickle-cell-hbs-point-mutation-basis',
       difficulty: 'Moderate',
       questionType: 'Mechanism',
-      learningObjective: 'Identify HbS\'s origin as a point mutation rather than an insertion, and be cautious about claims (lethality, electrophoretic mobility) the book does not make.',
+      learningObjective: 'Identify HbS\'s origin as a point mutation rather than an insertion, and be cautious about unsupported claims (lethality, electrophoretic mobility).',
       explanations: {
-        a: 'The book specifically calls this a point mutation (a nucleotide alteration/substitution), not an insertion of a nucleotide, which would be a different kind of mutation altogether.',
-        b: 'Correct. The book describes HbS as caused by a single nucleotide alteration — a point mutation — in the β-globin gene, not an insertion.',
-        c: 'The book describes sickle cell disease as a chronic condition producing pain and localised infarction from vaso-occlusion, not as incompatible with life; it does not state a lethality claim.',
-        d: "The book does not describe HbS's electrophoretic mobility relative to HbA, so this claim is not something the department book supports either way.",
+        a: 'Specifically called this a point mutation (a nucleotide alteration/substitution), not an insertion of a nucleotide, which would be a different kind of mutation altogether.',
+        b: 'Described HbS as caused by a single nucleotide alteration — a point mutation — in the β-globin gene, not an insertion.',
+        c: 'Described sickle cell disease as a chronic condition producing pain and localised infarction from vaso-occlusion, not as incompatible with life; it does not state a lethality claim.',
+        d: "HbS's electrophoretic mobility relative to HbA is not described, so this claim is not supported either way.",
       },
     },
     {
@@ -338,10 +338,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Classification',
       learningObjective: "State that fetal haemoglobin's higher oxygen affinity aids transplacental oxygen transfer, and give its correct chain composition (α2γ2).",
       explanations: {
-        a: 'α2δ2 is HbA2, not HbF — the book gives HbF the composition α2γ2, two alpha and two gamma chains, not delta.',
-        b: "The book does not describe HbF's electrophoretic mobility relative to adult haemoglobin, so this is not a claim the department book supports.",
-        c: 'Correct. The book states HbF has a higher affinity for oxygen than adult haemoglobin, which allows more efficient transplacental transfer of oxygen from mother to fetus.',
-        d: 'The book gives HbA1 as the major adult haemoglobin, 98% of the total; HbF is instead described as present only up to six months after birth, not as the major form found in adults.',
+        a: 'α2δ2 is HbA2, not HbF — given HbF the composition α2γ2, two alpha and two gamma chains, not delta.',
+        b: "HbF's electrophoretic mobility relative to adult haemoglobin is not described, so this is not a supported claim.",
+        c: 'HbF has a higher affinity for oxygen than adult haemoglobin, which allows more efficient transplacental transfer of oxygen from mother to fetus.',
+        d: 'Given HbA1 as the major adult haemoglobin, 98% of the total; HbF is instead described as present only up to six months after birth, not as the major form found in adults.',
       },
     },
     {
@@ -351,10 +351,10 @@ export const LEAF: McqLeafSeed = {
       questionType: 'Mechanism',
       learningObjective: 'Name valine as the amino acid substituted for glutamate at position six of the β chain in HbS.',
       explanations: {
-        a: 'Tyrosine is not the residue the book names; the substituting amino acid is valine.',
-        b: 'Correct. The book states the point mutation replaces the polar glutamate at position six of the β chain with a nonpolar valine.',
-        c: 'Glycine is not the residue the book names for this substitution; the book specifies valine replacing glutamate.',
-        d: 'Serine is not the residue the book names here; serine is instead the amino acid that combines with phosphatidic acid to form phosphatidylserine in an unrelated lipid concept, not the HbS substitution.',
+        a: 'Tyrosine is not the residue named; the substituting amino acid is valine.',
+        b: 'The point mutation replaces the polar glutamate at position six of the β chain with a nonpolar valine.',
+        c: 'Glycine is not the residue named for this substitution; specified valine replacing glutamate.',
+        d: 'Serine is not the residue named here; serine is instead the amino acid that combines with phosphatidic acid to form phosphatidylserine in an unrelated lipid concept, not the HbS substitution.',
       },
     },
     {
@@ -376,9 +376,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'State HbA2\'s chain composition (α2δ2) and distinguish it from HbA1 (α2β2) and HbF (α2γ2).',
       explanations: {
         a: 'α2β2 is adult HbA1, the major adult haemoglobin (98%), not HbA2.',
-        b: 'Correct. The book states adult HbA2 consists of two alpha and two delta chains (α2δ2) and forms about 2% of total adult haemoglobin.',
-        c: 'α2γ2 is fetal haemoglobin, HbF, not HbA2 — the book distinguishes the fetal γ chain from the adult δ chain.',
-        d: "The book pairs every haemoglobin's chains with alpha; β2δ2, with no alpha chain at all, does not match any haemoglobin type it describes.",
+        b: 'Adult HbA2 consists of two alpha and two delta chains (α2δ2) and forms about 2% of total adult haemoglobin.',
+        c: 'α2γ2 is fetal haemoglobin, HbF, not HbA2 — distinguished the fetal γ chain from the adult δ chain.',
+        d: "Paired every haemoglobin's chains with alpha; β2δ2, with no alpha chain at all, does not match any haemoglobin type it describes.",
       },
     },
     {

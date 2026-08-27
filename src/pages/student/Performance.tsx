@@ -65,6 +65,7 @@ const SURFACE_LABEL: Record<string, string> = {
   case: 'Clinical cases',
   lab: 'Lab & imaging',
   station: 'OSCE stations',
+  card: 'Flashcards',
 }
 
 function KpiTile({ icon, value, label, sub, tone }: { icon: typeof Timer; value: string; label: string; sub?: string; tone?: string }) {
@@ -259,7 +260,7 @@ export function Performance() {
 
   const header = (
     <>
-      <PageHeader title={t('Performance')} description={t('Your progress, curriculum coverage, and verified peer rankings.')} />
+      <PageHeader title={t('Performance')} description={t('Your progress, curriculum coverage, and verified peer rankings.')} back={{ fallback: '/app' }} />
       <Tabs
         className="mb-4"
         value={view}

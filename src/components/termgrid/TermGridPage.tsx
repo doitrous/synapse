@@ -237,6 +237,7 @@ export function TermGridPage() {
       <PageHeader
         title={t('Term Grid')}
         description={t('A crossword built from the glossary — fill in each term from its definition.')}
+        back={{ fallback: '/app/minigames' }}
       />
 
       {categories.length === 0 ? (

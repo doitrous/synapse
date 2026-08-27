@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation, useSearchParams } from 'react-router-dom'
-import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users } from 'lucide-react'
+import { Notebook as NotebookIcon, Plus, Trash2, BookOpen, X, FileText, ImagePlus, Link2, Star, Bell, Users, ArrowLeft } from 'lucide-react'
 import { ensureNotebookEditor, initialNotes, notePlainText, plainTextToEditorJson } from '@/data/notebook'
 import type { Note } from '@/data/notebook'
 import { Button } from '@/components/ui/Button'
@@ -26,6 +26,13 @@ import { setShareFollow, setShareStar, useSharedDocuments, type ShareSummary } f
 import { useMyDocuments, type MyDocument } from '@/lib/useMyDocuments'
 
 type NotebookTab = 'your' | 'shared'
+
+// Keyed on the ShareAccess enum — never render its raw values to a student.
+const SHARE_ACCESS_LABEL: Record<string, string> = {
+  private: 'Private',
+  view: 'Can view',
+  edit: 'Can edit',
+}
 
 interface NoteCapturePayload {
   quote: string
@@ -297,6 +304,16 @@ export function Notebook() {
 
         {editorNote && note ? (
           <div className="mx-auto max-w-[46rem] px-5 py-8 sm:px-8">
+            <div className="mb-3 lg:hidden">
+              <button
+                type="button"
+                onClick={() => setListOpen(true)}
+                className="inline-flex max-w-full items-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5 text-[12.5px] font-medium text-ink-2 shadow-panel transition-colors hover:border-primary-line hover:text-primary-strong"
+              >
+                <Icon icon={ArrowLeft} size={15} className="shrink-0 rtl:-scale-x-100" />
+                <span className="truncate">{t('Back to notes')}</span>
+              </button>
+            </div>
             <div className="mb-4 flex items-center justify-between gap-3">
               {editorNote.subtopicId ? (
                 <Link
@@ -573,7 +590,7 @@ function SharedNotesList({
               <li key={item.id} className="rounded-lg border border-line bg-surface p-2">
                 <Link to={`/s/${item.id}`} onClick={onClose} className="block">
                   <p className="truncate text-[13px] font-semibold text-ink">{item.title}</p>
-                  <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.ownerName ?? t('Shared by a classmate')} · {t(item.permission ?? item.access)}</p>
+                  <p className="mt-0.5 truncate text-[11.5px] text-ink-3">{item.ownerName ?? t('Shared by a classmate')} · {t(SHARE_ACCESS_LABEL[item.permission ?? item.access] ?? (item.permission ?? item.access))}</p>
                 </Link>
                 <div className="mt-2 flex items-center gap-1.5 text-[11px] text-ink-3">
                   <span className="inline-flex items-center gap-1"><Icon icon={Star} size={12} />{item.starCount ?? 0}</span>

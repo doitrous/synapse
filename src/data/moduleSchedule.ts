@@ -176,3 +176,39 @@ export function withScheduleLinks(block: ModuleScheduleBlock, links: Partial<Mod
     topicIds: topicNodeIds,
   }
 }
+
+/**
+ * A module's schedule is unpublished — invisible to students — until an
+ * admin explicitly publishes it. That flag cannot live on the
+ * `ModuleScheduleBlock[]` array itself: an array carries no metadata across a
+ * JSON round trip, and every other reader of this store (the admin intake
+ * model, the university catalogue model) expects a plain array of blocks for
+ * a module key. So publish state is kept in the same store, under one
+ * reserved key mapping module key -> boolean, alongside the per-module block
+ * arrays rather than inside them.
+ *
+ * A module absent from this map is unpublished. That is the migration for
+ * every schedule saved before this existed: nothing is rewritten, a missing
+ * entry simply reads as "not published yet."
+ */
+export const SCHEDULE_PUBLISH_STATE_KEY = '__schedulePublishState__'
+
+export type ModuleSchedulePublishState = Record<string, boolean>
+
+function publishState(store: ModuleScheduleStore): ModuleSchedulePublishState {
+  const raw = (store as unknown as Record<string, unknown>)[SCHEDULE_PUBLISH_STATE_KEY]
+  return raw && typeof raw === 'object' && !Array.isArray(raw) ? raw as ModuleSchedulePublishState : {}
+}
+
+/** Whether this module's schedule has been published for students to see. Missing = unpublished. */
+export function isSchedulePublished(store: ModuleScheduleStore, key: string): boolean {
+  return publishState(store)[key] === true
+}
+
+/** Sets one module's publish flag, leaving every block and every other module's flag untouched. */
+export function withSchedulePublished(store: ModuleScheduleStore, key: string, published: boolean): ModuleScheduleStore {
+  return {
+    ...store,
+    [SCHEDULE_PUBLISH_STATE_KEY]: { ...publishState(store), [key]: published },
+  } as unknown as ModuleScheduleStore
+}

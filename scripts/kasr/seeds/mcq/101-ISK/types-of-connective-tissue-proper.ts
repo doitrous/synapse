@@ -44,7 +44,7 @@ export const LEAF: McqLeafSeed = {
       label: 'Loose areolar connective tissue lies under every epithelium and in every space except the brain',
       definition: 'Loose areolar connective tissue is found everywhere in the body except the brain: filling the spaces between organs, in the papillary layer of the dermis, in the lamina propria and submucosa of mucous membranes, in serous membranes, and around blood vessels and nerves. Because it is well vascularised and full of ground substance it is where nutrients and wastes are exchanged with the blood; it also binds structures together and limits the spread of infection.',
       objective: 'Name the sites of loose areolar connective tissue and its three functions, and state the one place it is absent.',
-      pitfall: 'Assuming the brain, being soft, is full of loose connective tissue. It is nervous tissue with neuroglia as its support, and the department names it as the exception.',
+      pitfall: 'Assuming the brain, being soft, is full of loose connective tissue. It is nervous tissue with neuroglia as its support, which is why it is the one exception.',
       subject: 'fnd', primary: 'DIS-HIS-T02', secondary: [],
       modulePath: '101 ISK > Histology > Connective Tissue > Types of Connective Tissue Proper',
       type: 'structure_function_relationship',
@@ -141,7 +141,7 @@ export const LEAF: McqLeafSeed = {
         A: 'True, so not the exception. The papillary layer of the dermis is loose areolar connective tissue.',
         B: 'True, so not the exception. Loose areolar tissue sheathes the vessels and nerves running through the body.',
         C: 'True, so not the exception. The lamina propria and submucosa of mucous membranes are loose areolar tissue, which is what lets them swell.',
-        D: 'The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, and the department names it as the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".',
+        D: 'The exception, and the answer. The brain is nervous tissue supported by its own neuroglia, making it the single place this otherwise universal tissue is absent — chosen wrongly by students who read "soft" as "loose connective tissue".',
       },
     },
     {
@@ -152,7 +152,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'White fat insulates against heat loss, which sounds close enough to be tempting, but insulation is passive. It generates no heat of its own.',
         B: 'Mucoid connective tissue is the jelly of the umbilical cord and the dental pulp. It supports and nothing more.',
-        C: 'Correct. Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.',
+        C: 'Brown fat is abundant in the newborn and its multilocular cells burn fat for heat through the thermogenin of their many mitochondria.',
         D: 'Reticular connective tissue forms the stroma of lymph node, spleen and liver. It has no thermal role.',
       },
     },
@@ -162,7 +162,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Moderate', questionType: 'Structure and function',
       learningObjective: 'Recognise the position of loose areolar connective tissue beneath epithelium and reject the properties of dense tissue.',
       explanations: {
-        A: 'Correct. Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.',
+        A: 'Loose areolar tissue lies immediately under epithelium throughout the body — as the papillary dermis, as the lamina propria of mucosa — which is where the epithelium gets its blood supply from.',
         B: 'Being condensed with fibres describes dense connective tissue: white fibrous and yellow elastic. Loose areolar tissue has scattered fibres in abundant matrix.',
         C: 'Backwards, and worth getting right: loose areolar tissue is well vascularised, which is exactly why the avascular epithelium above it can be fed at all.',
         D: 'Also backwards. Loose areolar tissue has the most abundant ground substance of any connective tissue proper — that abundance is what makes it loose.',
@@ -216,11 +216,11 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Name the commonest type of connective tissue proper.',
       answerOverride: 'C',
-      answerOverrideReason: 'The source printed no key. The department states outright that loose areolar connective tissue is the most common type, and the leaf\'s other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.',
+      answerOverrideReason: 'The source printed no key. Loose areolar connective tissue is the most common type, and the leaf\'s other question on the same point — `the-most-widespread-c-t-is-fc4178f4` — is keyed to it.',
       explanations: {
         A: 'Reticular connective tissue is restricted to the stroma of lymph node, spleen and liver. It is delicate and specialised, not general-purpose.',
         B: 'Adipose tissue is bulky and conspicuous, which is why it draws the eye, but it is confined to fat depots. Bulk is not the same as being widespread.',
-        C: 'Correct. Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.',
+        C: 'Loose areolar connective tissue is the commonest type and is found everywhere in the body except the brain.',
         D: 'White fibrous connective tissue is dense and specialised for strength — tendon, ligament, organ capsule, reticular dermis — so it appears wherever pull must be resisted and nowhere else.',
       },
     },
@@ -230,7 +230,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Name the most widely distributed connective tissue.',
       explanations: {
-        A: 'Correct. Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.',
+        A: 'Loose areolar connective tissue fills the spaces of the whole body except the brain, which makes it both the commonest and the most widely spread.',
         B: 'Reticular connective tissue lies only in the stroma of the lymphoid organs and the liver.',
         C: 'Mucous (mucoid) connective tissue is confined to the umbilical cord, the vitreous humour and the dental pulp — three places, and two of them only before birth.',
         D: 'Adipose tissue is widely distributed but is present only where fat is stored, and its amount varies with diet and hormones rather than being a constant feature of every space.',
@@ -244,7 +244,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Mesenchymal tissue is the embryonic connective tissue from which all the rest arise. The dental pulp develops from it but is not still it.',
         B: 'Loose areolar tissue also has abundant ground substance, which is the pull here, but its matrix is not jelly and it holds every cell type rather than mainly fibroblasts.',
-        C: 'Correct. The pulp of the teeth is mucoid connective tissue, along with the umbilical cord — Wharton\'s jelly — and the vitreous humour.',
+        C: 'The pulp of the teeth is mucoid connective tissue, along with the umbilical cord — Wharton\'s jelly — and the vitreous humour.',
         D: 'Adipose tissue is fat cells predominating. There is no fat depot inside a tooth.',
         E: 'Yellow elastic tissue is dense parallel elastic fibres, built for recoil, and sits in the aorta, the airways and the elastic ligaments.',
       },
@@ -255,7 +255,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Identify the one connective tissue that contains every cell type and every fibre type.',
       explanations: {
-        A: 'Correct. Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.',
+        A: 'Loose areolar connective tissue holds all the connective tissue cells and all three fibre types, mainly as collagen bundles, in the most abundant matrix of any type.',
         B: 'Adipose tissue is defined by one cell predominating — the fat cell — which is the opposite of containing all of them.',
         C: 'White fibrous tissue is packed collagen bundles with fibroblasts and almost no other cell, and it carries no elastic or reticular fibres to speak of.',
         D: 'Mucoid tissue contains mainly fibroblasts, with only fine collagen and reticular fibres. Its abundant matrix makes it a plausible guess, but its cell population is narrow.',
@@ -270,7 +270,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Both cannot fall, because the tissue that is lost is replaced by the other. White fat increases as brown fat disappears.',
         B: 'White adipose tissue increases with age rather than decreasing — it is what replaces the brown fat of infancy.',
         C: 'Unilocular is the fat cell of white adipose tissue, so this is the same wrong answer as B under its cellular name.',
-        D: 'Correct. Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.',
+        D: 'Multilocular is the fat cell of brown adipose tissue, which is abundant in the newborn, is lost through childhood and persists in adults only in the interscapular, mediastinal and axillary regions.',
       },
     },
     {
@@ -282,7 +282,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Brown adipose tissue is the one that goes: plentiful in the newborn, largely lost during childhood as white fat replaces it.',
         B: 'True as far as it goes, and this is where a student stops too early. White adipose tissue does increase — but so does unilocular adipose tissue, because they are the same thing.',
         C: 'Also true, and for the same reason: the unilocular fat cell is the cell of white adipose tissue.',
-        D: 'Correct. B and C are two names for one tissue, so both are right and the combined option is the only complete answer.',
+        D: 'B and C are two names for one tissue, so both are right and the combined option is the only complete answer.',
       },
     },
     {
@@ -294,7 +294,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Mesenchyme is the embryonic connective tissue every other type arises from. It is a precursor, not a specialisation.',
         B: 'Mucoid connective tissue is one of the four loose types of connective tissue proper — its matrix is soft, which is what keeps it in that group.',
         C: 'Dense connective tissue is also connective tissue proper, just with fibres predominating over matrix. Being firm is not the same as being specialised.',
-        D: 'Correct. The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.',
+        D: 'The consistency of the matrix is what grades connective tissue, and a fluid matrix — plasma — places blood among the specialised types with cartilage and bone. Students reject it because it circulates, but circulating is what its matrix is for.',
       },
     },
     {
@@ -303,7 +303,7 @@ export const LEAF: McqLeafSeed = {
       difficulty: 'Easy', questionType: 'Classification',
       learningObjective: 'Recognise which named structures are built of connective tissue and which is not.',
       explanations: {
-        A: 'Correct. The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place the department says loose areolar tissue is absent.',
+        A: 'The brain is nervous tissue, supported by neuroglia rather than by connective tissue, and it is the one place loose areolar tissue is absent.',
         B: 'An organ capsule is irregular white fibrous connective tissue — dense collagen bundles running in several directions.',
         C: 'A ligament is connective tissue too: irregular white fibrous tissue, or in a few named cases yellow elastic tissue.',
         D: 'Areolar tissue is the commonest connective tissue proper, so it is the most connective tissue of all four — picked only by a student reading the "NOT" too quickly.',
@@ -317,8 +317,8 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'White fat is present in the newborn but is not characteristic of it — it is the adult\'s fat, and it increases as brown fat is lost.',
         B: 'Yellow describes bone marrow and elastic connective tissue, not a type of fat cell.',
-        C: 'Grey is not one of the department\'s two types of adipose tissue.',
-        D: 'Correct. Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.',
+        C: 'Grey is not one of the two named types of adipose tissue.',
+        D: 'Brown adipose tissue, with its multilocular cells, is abundant in fetal life and in the newborn, where its thermogenesis keeps the infant warm.',
       },
     },
     {
@@ -328,10 +328,10 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the type of connective tissue proper found everywhere in the body.',
       answerOverride: 'b',
       answerOverrideReason:
-        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer comes from the department book: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.',
+        'The 2020 paper printed no key and the highlight recovery does not cover that sitting, so the answer given here is: loose areolar connective tissue is the most common type and is found everywhere in the body except the brain — between organs, in the papillary layer of the dermis, in mucosa and serous membranes and around vessels and nerves. The stem has lost a word to the scanner ("The followin e of connective tissue"), but the question is intact.',
       explanations: {
         a: 'Irregular white fibrous connective tissue is a dense type, sited in the reticular layer of the dermis, in ligaments, in the sclera and in organ capsules. It is widespread but it is not everywhere, and it is dense rather than loose.',
-        b: 'Correct. Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and the book says it is found everywhere in the body except the brain.',
+        b: 'Loose areolar connective tissue is the commonest type, holds every kind of connective tissue cell and every kind of fibre, and it is found everywhere in the body except the brain.',
         c: 'Yellow elastic connective tissue is confined to places that must recoil: the aorta, the trachea and bronchi, the vocal cords and three named ligaments.',
         d: 'Regular white fibrous connective tissue is tendon and cornea — collagen bundles laid parallel to withstand pull in one direction. Its whole point is that it is specialised to a site.',
       },
@@ -343,9 +343,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Name the connective tissue of a tendon and say how its fibres are arranged.',
       answerOverride: 'a',
       answerOverrideReason:
-        'Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence, and the department book agrees — regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.',
+        'Covered by the recovered key: the highlight on the 2022 script resolves to option a with high confidence. Regular white fibrous connective tissue has collagen bundles laid regularly with fibroblasts in rows between them, and its sites are the tendon and the cornea. The stem carries scanner noise where the blank was ("tetaedSeouserssides OlTE") but the question and every option are intact.',
       explanations: {
-        a: 'Correct, and confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.',
+        a: 'Confirmed by the recovered key. A tendon is regular white fibrous connective tissue: parallel collagen bundles that resist stretch in one direction, with rows of fibroblasts between them.',
         b: 'Yellow elastic connective tissue recoils after stretching and is found in the aorta, the trachea and the ligamentum flavum. A tendon that stretched and recoiled would waste the muscle\'s pull.',
         c: 'Mucoid connective tissue is the soft jelly of the umbilical cord, the vitreous and the dental pulp. It is the least resistant tissue in the chapter.',
         d: 'Adipose connective tissue stores fat, insulates and supports organs. It is a packing tissue and carries no load.',

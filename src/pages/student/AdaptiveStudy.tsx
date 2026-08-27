@@ -55,6 +55,7 @@ export function AdaptiveStudy() {
       <PageHeader
         title={t('Adaptive Study')}
         description={t('Maristana keeps finding what you are most likely to forget or misunderstand, revisits it at the right time, and keeps your practice aligned with your exam blueprint.')}
+        back={{ fallback: '/app' }}
         actions={
           <div className="flex flex-wrap items-center gap-2">
             <Badge tone="outline">{t('Algorithm')} v{study.config.version}</Badge>

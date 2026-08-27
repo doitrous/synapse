@@ -14,11 +14,13 @@ import {
   redactItem,
   redactLedgerForStudent,
   redactMediaForStudent,
+  redactModuleSchedulesForStudent,
   releasedMediaIdsFromDocument,
   MEDIA_PRIVATE_FIELDS,
   MEDIA_STUDENT_FIELDS,
   REDACTED_STATE_KEYS,
 } from './studentLedger.js'
+import { SCHEDULE_KEY, SCHEDULE_PUBLISH_STATE_KEY } from './academic.js'
 
 const academicCatalogue = [{
   id: 'kau', short: 'KAU', name: 'Kasr Alainy',
@@ -528,5 +530,40 @@ describe('The media library a student receives', () => {
     const unclassified = declared.filter((field) => !classified.has(field))
     assert.deepEqual(unclassified, [],
       `unclassified MediaRecord fields — add each to MEDIA_STUDENT_FIELDS or MEDIA_PRIVATE_FIELDS: ${unclassified.join(', ')}`)
+  })
+})
+
+describe('redactModuleSchedulesForStudent', () => {
+  const document = {
+    'kau::KAU_Y1::course-1': [{ id: 'block-1', title: 'Published block' }],
+    'kau::KAU_Y1::course-2': [{ id: 'block-2', title: 'Unpublished block' }],
+    'legacy::kau::Year 1::course-2': [{ id: 'block-2-legacy', title: 'Unpublished legacy block' }],
+    [SCHEDULE_PUBLISH_STATE_KEY]: { 'kau::KAU_Y1::course-1': true },
+  }
+
+  test('a student receives no blocks for a module missing from the publish map', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted['kau::KAU_Y1::course-2'], [])
+    assert.deepEqual(redacted['legacy::kau::Year 1::course-2'], [])
+  })
+
+  test('a student receives the blocks of a published module', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted['kau::KAU_Y1::course-1'], document['kau::KAU_Y1::course-1'])
+  })
+
+  test('the publish-state map itself is left intact', () => {
+    const redacted = redactModuleSchedulesForStudent(document)
+    assert.deepEqual(redacted[SCHEDULE_PUBLISH_STATE_KEY], document[SCHEDULE_PUBLISH_STATE_KEY])
+  })
+
+  test('a malformed document is returned unchanged rather than thrown', () => {
+    for (const bad of [null, undefined, [], 'nope', 42]) {
+      assert.equal(redactModuleSchedulesForStudent(bad), bad)
+    }
+  })
+
+  test('the schedule key is redacted on the way out', () => {
+    assert.equal(REDACTED_STATE_KEYS.get(SCHEDULE_KEY), redactModuleSchedulesForStudent)
   })
 })

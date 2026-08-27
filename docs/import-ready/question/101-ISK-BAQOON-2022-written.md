@@ -812,7 +812,7 @@ Moderate
 ## question_type
 Structure and function
 ## learning_objective
-List the six functions of the superficial fascia the department book gives.
+List the six functions of the superficial fascia.
 ## setting
 Academic
 ## academic_relevance

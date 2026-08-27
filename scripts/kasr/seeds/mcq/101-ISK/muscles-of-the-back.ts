@@ -138,7 +138,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Latissimus dorsi pulls the arm and the inferior angle of the scapula downwards; it opposes this movement rather than producing it. Students pick it because it is the other large back muscle and because it does attach to the scapula.',
         B: 'Serratus anterior is half right, which is what makes this the strongest distractor. The rhomboids are the wrong partner — they rotate the glenoid cavity downwards, so they would undo exactly what serratus anterior is doing.',
-        C: 'Correct. Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.',
+        C: 'Trapezius, pulling the acromion up and behind, and serratus anterior, pulling the inferior angle forwards and laterally, form a couple that swings the glenoid cavity upwards.',
         D: 'Teres minor is a rotator cuff muscle acting on the humerus at the shoulder joint, not on the scapula. Nothing that inserts into the humerus can rotate the scapula it arises from.',
       },
     },
@@ -152,7 +152,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pectoralis major runs from the chest wall to the humerus and never reaches the scapula or the clavicle in a way that supports them. Losing it weakens adduction and medial rotation of the arm, not the height of the shoulder.',
         B: 'Latissimus dorsi pulls the shoulder down when it acts. Its paralysis would if anything raise the shoulder slightly, which is the opposite of what the question describes.',
-        C: 'Correct. Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.',
+        C: 'Trapezius holds the whole girdle up from the occiput and the vertebral spines; when the spinal accessory nerve is cut in the posterior triangle the shoulder drops.',
         D: 'Deltoid hangs from the girdle rather than supporting it. Its paralysis flattens the rounded contour of the shoulder — a different sign, and the one these books ask about immediately alongside this question.',
       },
     },
@@ -165,7 +165,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. Teres major arises from the lower third of the lateral border and the inferior angle; the other three all take the medial border, so B is the only possible answer.',
       explanations: {
         A: 'Serratus anterior runs laterally round the chest, which is why students place it on the lateral border. Its attachment is along the costal surface of the medial border, and that grip is what holds the medial border flat against the ribs.',
-        B: 'Correct. Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.',
+        B: 'Teres major arises from the lower third of the dorsal surface of the lateral border and from the inferior angle.',
         C: 'Levator scapulae attaches to the medial border above the root of the spine — the top of the medial border, not the lateral one.',
         D: 'Rhomboideus major attaches to the medial border below the root of the spine, immediately beneath rhomboideus minor.',
       },
@@ -177,7 +177,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: 'Assign each named scapular muscle to the medial or the lateral border.',
       explanations: {
         A: 'Serratus anterior is a medial-border muscle despite running laterally round the chest. It attaches along the costal surface of the medial border.',
-        B: 'Correct, and the key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.',
+        B: 'The key. Teres major arises from the lower third of the lateral border and the inferior angle of the scapula.',
         C: 'Levator scapulae takes the upper part of the medial border, above the root of the spine.',
         D: 'Rhomboideus major takes the medial border below the root of the spine.',
       },
@@ -191,7 +191,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Rhomboid major does hold the medial border towards the vertebral column, so its loss can produce a slight winging — but the classical, examinable winged scapula is serratus anterior, and the two are told apart by the movement lost: rhomboid weakness costs retraction, serratus weakness costs abduction above the shoulder.',
         B: 'Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. Its loss weakens shrugging, not the flat contact of the medial border with the chest.',
         C: 'Latissimus dorsi attaches to the inferior angle only in passing on its way to the humerus, and its paralysis costs extension and adduction of the arm.',
-        D: 'Correct, and the key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.',
+        D: 'The key. Serratus anterior holds the medial border of the scapula against the chest wall; when the long thoracic nerve is injured the border lifts away like a wing, most obviously when the patient pushes against a wall.',
       },
     },
     {
@@ -206,7 +206,7 @@ export const LEAF: McqLeafSeed = {
         B: 'The opposite again. It adducts the arm powerfully, bringing it against the trunk, which is what makes it the climbing muscle.',
         C: 'The opposite a third time. The fibres twist as they converge so that the muscle medially rotates the humerus.',
         D: 'Attractive to a student who is not sure of any single option and hopes the inclusive answer is safest. It cannot be right when all three of the statements it gathers are false.',
-        E: 'Correct. None of the three actions offered belongs to latissimus dorsi; it extends, adducts and medially rotates.',
+        E: 'None of the three actions offered belongs to latissimus dorsi; it extends, adducts and medially rotates.',
       },
     },
     {
@@ -221,7 +221,7 @@ export const LEAF: McqLeafSeed = {
         B: 'It adducts rather than abducts — pulling the raised arm down against the trunk is exactly what it is built for.',
         C: 'It medially rotates, because its fibres twist through a right angle before reaching the floor of the bicipital groove.',
         D: 'The refuge of a student unsure of any single statement. Three false statements do not become true by being gathered together.',
-        E: 'Correct. Not one of the three offered actions belongs to this muscle.',
+        E: 'Not one of the three offered actions belongs to this muscle.',
       },
     },
     {
@@ -249,7 +249,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Half true and therefore the hardest distractor. Latissimus dorsi reaches the lumbar spines through the thoracolumbar fascia rather than directly, and its own vertebral origin is the spines of the lower six thoracic vertebrae — not the lumbar spines as a direct attachment, and not all of them.',
         B: 'The wrong ribs. The muscle arises from the lower three or four ribs, interdigitating there with external oblique; the middle four ribs belong to serratus anterior territory.',
         C: 'The answer the bank carries, and the reason for the override. The ligamentum nuchae is an origin of trapezius, the muscle that overlies latissimus dorsi on the upper back — which is precisely why the two get exchanged.',
-        D: 'Correct. Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.',
+        D: 'Latissimus dorsi arises directly from the posterior third of the outer lip of the iliac crest, the lowest and most lateral of its bony origins.',
       },
     },
     {
@@ -277,7 +277,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The answer the extractor read off this page, and the reason for the override. Latissimus dorsi is an extensor: its bulk lies behind the shoulder joint and it drags the humerus backwards and down.',
         B: 'Abduction belongs to supraspinatus and deltoid. Latissimus dorsi does the reverse and adducts the arm forcibly against the trunk.',
         C: 'Lateral rotation belongs to infraspinatus and teres minor. The twist in the latissimus tendon makes it a medial rotator instead.',
-        D: 'Correct. Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.',
+        D: 'Extension of the arm is one of the three actions of latissimus dorsi, alongside adduction and medial rotation.',
       },
     },
     {
@@ -289,7 +289,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries D, but rhomboideus major is one of the classic medial-border attachments, below the root of the spine. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border, so B is the muscle that is not attached to the medial border.',
       explanations: {
         A: 'Attached to the medial border, above the root of the spine, so not the answer.',
-        B: 'Correct. Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.',
+        B: 'Teres minor arises from the upper two thirds of the dorsal surface of the lateral border and runs to the greater tuberosity of the humerus — a lateral-border muscle throughout.',
         C: 'Attached to the medial border along the whole of its costal surface, so not the answer, even though the muscle itself lies on the side of the chest.',
         D: 'The answer the extractor took from this page, and the reason for the override. Rhomboideus major is attached to the medial border below the root of the spine; it is one of the four muscles the stem is testing, not the exception to them.',
       },
@@ -303,7 +303,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, but latissimus dorsi depresses the shoulder rather than elevating it. Elevation of the shoulder girdle is by the upper fibres of trapezius with levator scapulae, so B is the answer.',
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. Latissimus dorsi pulls the shoulder downwards and backwards; it is a depressor, not an elevator.',
-        B: 'Correct. The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.',
+        B: 'The upper fibres of trapezius run downwards and laterally from the skull and the upper spines to the clavicle and acromion, so their pull lifts the whole girdle — the shrug.',
         C: 'Rhomboid minor retracts the scapula and rotates the glenoid cavity downwards. It runs almost horizontally, so it cannot lift.',
         D: 'The middle fibres of trapezius run horizontally from the spines to the acromion and spine of the scapula and therefore retract rather than elevate. This is the sharpest distractor in the item, because it is the same muscle with a different fibre direction.',
       },
@@ -319,7 +319,7 @@ export const LEAF: McqLeafSeed = {
         A: 'The answer the extractor took from this page, and the reason for the override. Pectoralis major forms the anterior axillary fold; losing it hollows the front of the chest and the armpit, not the top of the shoulder.',
         B: 'Latissimus dorsi forms the posterior axillary fold. Its paralysis costs extension and adduction of the arm and leaves the shoulder contour untouched.',
         C: 'Trapezius paralysis drops the shoulder — the shoulder sits lower but keeps its rounded outline. These books ask both signs in adjacent questions and the pair is exactly what the item tests.',
-        D: 'Correct. Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.',
+        D: 'Deltoid caps the shoulder and is what makes it round; when the axillary nerve is injured the muscle wastes, the acromion becomes prominent and the shoulder looks flat, even square.',
       },
     },
     {
@@ -333,7 +333,7 @@ export const LEAF: McqLeafSeed = {
         A: 'Pectoralis major forms the anterior axillary fold at the front of the chest, not the cap of the shoulder.',
         B: 'Latissimus dorsi forms the posterior axillary fold; its loss is felt in extension and adduction of the arm.',
         C: 'Trapezius paralysis drops the whole shoulder without changing its shape — the neighbouring sign, asked in the neighbouring question.',
-        D: 'Correct. Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.',
+        D: 'Deltoid is the rounded contour of the shoulder, and once it wastes the underlying acromion stands out and the shoulder looks flat.',
       },
     },
     {
@@ -346,7 +346,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Pectoralis major runs from the chest wall to the humerus and takes no part in holding the girdle up.',
         B: 'Latissimus dorsi pulls the shoulder down when it acts, so its loss cannot be the cause of a drooping shoulder.',
-        C: 'Correct. Trapezius suspends the clavicle and scapula from the occiput and the vertebral spines; when the spinal accessory nerve is divided the shoulder sags.',
+        C: 'Trapezius suspends the clavicle and scapula from the occiput and the vertebral spines; when the spinal accessory nerve is divided the shoulder sags.',
         D: 'Deltoid hangs from the girdle rather than carrying it. Its paralysis flattens the shoulder instead of dropping it.',
       },
     },
@@ -360,7 +360,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Infraspinatus is a rotator cuff muscle running from the scapula to the humerus. It laterally rotates the arm and moves the scapula not at all.',
         B: 'Levator scapulae elevates the scapula and rotates the glenoid cavity downwards. It runs too vertically to draw the scapula backwards.',
-        C: 'Correct. The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.',
+        C: 'The rhomboids run downwards and laterally from the vertebral spines to the medial border, so their pull draws the scapula backwards and medially — retraction, with the middle fibres of trapezius.',
         D: 'Serratus posterior superior is a muscle of respiration attached to the ribs, not to the scapula. It is offered because its name contains "serratus" and because it lies in this region.',
       },
     },
@@ -372,7 +372,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'Infraspinatus acts on the humerus, laterally rotating the arm; it does not move the scapula.',
         B: 'Levator scapulae elevates the scapula and rotates the glenoid downwards, and its line of pull is nearly vertical.',
-        C: 'Correct, and the key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.',
+        C: 'The key. The rhomboids draw the medial border of the scapula backwards and medially with the middle fibres of trapezius.',
         D: 'Serratus posterior superior attaches to the ribs and belongs to respiration. It is offered for its name and its position, not for anything it does to the scapula.',
       },
     },
@@ -386,7 +386,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor took from this page, and the reason for the override. Latissimus dorsi drags the inferior angle of the scapula downwards and the arm with it — the reverse of the movement in the stem.',
         B: 'Serratus anterior is the right half of the pair, which makes this the strongest distractor. The rhomboids rotate the glenoid cavity downwards, so they cancel rather than assist it.',
-        C: 'Correct. Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.',
+        C: 'Trapezius lifting the acromion and serratus anterior pulling the inferior angle forwards form the couple that turns the glenoid cavity upwards.',
         D: 'Teres minor inserts into the humerus and acts at the shoulder joint. It cannot rotate the bone it arises from.',
       },
     },
@@ -399,7 +399,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries A, but serratus anterior attaches along the costal surface of the medial border, not the lateral. The identical row `the-following-muscle-is-attached-to-the-lateral-border-of-th-5793f03c`, asked twice, is keyed B, and teres major is the lateral-border muscle.',
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. Serratus anterior runs laterally round the chest but grips the costal surface of the medial border — which is exactly how it holds that border flat against the ribs.',
-        B: 'Correct. Teres major arises from the lower third of the lateral border and from the inferior angle.',
+        B: 'Teres major arises from the lower third of the lateral border and from the inferior angle.',
         C: 'Levator scapulae takes the medial border above the root of the spine.',
         D: 'Rhomboid major takes the medial border below the root of the spine.',
       },
@@ -413,7 +413,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The source printed no key. The triangle of auscultation is the only one of the four bounded by both named muscles: trapezius medially, latissimus dorsi below and the medial border of the scapula laterally.',
       explanations: {
         A: 'The upper triangular space is in the axilla, bounded by teres minor, teres major and the long head of triceps, and it transmits the circumflex scapular vessels. Neither named muscle reaches it.',
-        B: 'Correct. Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.',
+        B: 'Trapezius forms its medial boundary, latissimus dorsi its lower one and the medial border of the scapula its lateral one, with rhomboideus major and the sixth and seventh ribs in the floor.',
         C: 'The lumbar triangle does have latissimus dorsi as a boundary, which is what makes this the strongest distractor. Its other boundaries are external oblique and the iliac crest — far below anything trapezius reaches.',
         D: 'The lower triangular space is also in the axilla, bounded by teres major, the long head of triceps and the humerus, and it transmits the radial nerve and profunda brachii vessels.',
       },
@@ -428,7 +428,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: 'The answer the extractor read off this page, and the reason for the override. Teres major is supplied by the lower subscapular nerve. The confusion is understandable: all three nerves — upper subscapular, thoracodorsal and lower subscapular — arise in that order from the posterior cord and run within centimetres of each other on the posterior axillary wall.',
         B: 'Trapezius takes the spinal root of the accessory nerve, from outside the brachial plexus altogether.',
-        C: 'Correct. The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.',
+        C: 'The thoracodorsal nerve, C6 to C8 from the posterior cord, is the nerve to latissimus dorsi and is the structure at risk when the posterior axillary wall is cleared in a mastectomy.',
         D: 'Rhomboid minor takes the dorsal scapular nerve from the C5 root.',
       },
     },
@@ -441,7 +441,7 @@ export const LEAF: McqLeafSeed = {
       answerOverrideReason: 'The bank carries D, but the dorsal scapular nerve supplies the rhomboids and levator scapulae, not trapezius. Trapezius takes the spinal root of the accessory nerve, so B is the answer; the stem records this item as asked in six separate books, which makes getting it right worth the override.',
       explanations: {
         A: 'The trap the item is built around, and the reason both accessory options are offered. The cranial root of the accessory nerve joins the vagus and is distributed to the muscles of the larynx and pharynx; it never reaches trapezius.',
-        B: 'Correct. The spinal root of the accessory nerve arises from the upper five cervical segments, enters the skull through the foramen magnum, leaves through the jugular foramen and crosses the posterior triangle of the neck to supply sternomastoid and trapezius.',
+        B: 'The spinal root of the accessory nerve arises from the upper five cervical segments, enters the skull through the foramen magnum, leaves through the jugular foramen and crosses the posterior triangle of the neck to supply sternomastoid and trapezius.',
         C: 'The long thoracic nerve supplies serratus anterior, which lies on the opposite wall of the axilla.',
         D: 'The answer the extractor took from this page, and the reason for the override. The dorsal scapular nerve supplies the rhomboids and levator scapulae — the muscles lying deep to trapezius, which is very likely how the two came to be exchanged.',
         E: 'The thoracodorsal nerve supplies latissimus dorsi, the muscle immediately below trapezius on the back.',

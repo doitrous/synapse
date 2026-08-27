@@ -24,7 +24,7 @@ export const LEAF: McqLeafSeed = {
       label: "Meiosis is two successive divisions without an intervening S-phase, producing four haploid germ cells with crossing over",
       definition: "Meiosis is a special cell division in which a diploid cell undergoes two successive divisions without an S-phase between them, occurring in the testis and ovary and producing haploid germ cells — sperm or ova. The first meiotic division (reduction division) has a prophase I that is long — 22 days in spermatogenesis, 12 to 45 years in oogenesis — passing through stages in which the 46 d-chromosomes appear as long threads, then pair as 23 bivalents of one maternal and one paternal homologue each, then condense into tetrads of four chromatids in which crossing over exchanges segments between non-sister chromatids at the chiasmata (with the help of recombinase), before the nucleolus and nuclear envelope disappear; metaphase I aligns the 23 bivalent d-chromosomes on the spindle; anaphase I separates the bivalents, one homologous d-chromosome to each pole; and telophase I yields two daughter cells, each with 23 d-chromosomes. The second meiotic division (equatorial division) is mitosis-like, follows rapidly with a very short interphase and no S-phase: prophase II shortens the chromosomes and forms a new spindle; metaphase II aligns the 23 d-chromosomes at the equator; anaphase II splits each d-chromosome at its centromere into two chromatids (s-chromosomes) moving to opposite poles; and telophase II separates the two daughter cells, each now with 23 s-chromosomes — the haploid number.",
       objective: "State why meiosis has no S-phase between its two divisions, name where crossing over occurs, and give the chromosome number and type at the end of each division.",
-      pitfall: "Treating prophase I's duration as a minor detail. The book states it explicitly — 22 days in the male, 12 to 45 years in the female — and that decades-long arrest in oogenesis is exactly why maternal age is linked to non-disjunction: the bivalent sits arrested in prophase I for as long as the oocyte does.",
+      pitfall: "Treating prophase I's duration as a minor detail. It varies enormously — 22 days in the male, 12 to 45 years in the female — and that decades-long arrest in oogenesis is exactly why maternal age is linked to non-disjunction: the bivalent sits arrested in prophase I for as long as the oocyte does.",
       subject: "fnd",
       primary: "DIS-HIS-T01",
       secondary: [],
@@ -35,9 +35,9 @@ export const LEAF: McqLeafSeed = {
     {
       key: "mitosis-vs-meiosis.comparison",
       label: "Mitosis is one division producing two identical diploid daughter cells; meiosis is two divisions with crossing over, producing four genetically varied haploid ones",
-      definition: "The department book contrasts mitosis and meiosis across five features. Site: mitosis occurs in somatic cells; meiosis occurs in the germ cells of testis and ovary. Number of divisions: mitosis is a single division; meiosis is two successive divisions without an intervening S-phase. Crossing over: absent in mitosis, with no exchange of genes; present in meiosis, where pairing allows crossing over and gene exchange. Separation: in mitosis each chromosome divides longitudinally at the centromere into two chromatids; in meiosis, in the first division, each chromosome of a bivalent moves toward one pole instead. Daughter cells: mitosis gives two somatic daughter cells with the diploid chromosome number, genetically identical to each other; meiosis gives four germ cells with the haploid number, genetically varied.",
+      definition: "Mitosis and meiosis contrast across five features. Site: mitosis occurs in somatic cells; meiosis occurs in the germ cells of testis and ovary. Number of divisions: mitosis is a single division; meiosis is two successive divisions without an intervening S-phase. Crossing over: absent in mitosis, with no exchange of genes; present in meiosis, where pairing allows crossing over and gene exchange. Separation: in mitosis each chromosome divides longitudinally at the centromere into two chromatids; in meiosis, in the first division, each chromosome of a bivalent moves toward one pole instead. Daughter cells: mitosis gives two somatic daughter cells with the diploid chromosome number, genetically identical to each other; meiosis gives four germ cells with the haploid number, genetically varied.",
       objective: "Set mitosis against meiosis by site, number of divisions, crossing over, chromosome separation, and the number and genetic identity of the daughter cells.",
-      pitfall: "Reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
+      pitfall: "Reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The comparison table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
       subject: "fnd",
       primary: "DIS-HIS-T01",
       secondary: [],
@@ -58,7 +58,7 @@ export const LEAF: McqLeafSeed = {
         A: "True of telophase, so not the exception. A constriction (cleavage furrow) does develop at the equatorial plane by contraction of actin filaments, dividing the cytoplasm into two halves.",
         B: "True, so not the exception. Each new cell at telophase has 46 chromatids (s-chromosomes).",
         C: "The exception, and the answer. Chromosomes becoming visible as fine threads is a prophase event, as chromosomes first condense — at telophase they are doing the opposite, lengthening and uncoiling out of visibility. A common trap: describing the kinetochore as the centromere itself.",
-        D: "True of telophase, so not the exception. The book states the chromatids lengthen and uncoil, losing their visibility, at this stage.",
+        D: "True of telophase, so not the exception. The chromatids lengthen and uncoil, losing their visibility, at this stage.",
       },
     },
     {
@@ -68,10 +68,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Comparison",
       learningObjective: "State that mitosis has no crossing over and no gene exchange, unlike meiosis.",
       explanations: {
-        A: "Exchange of genes is what crossing over in meiosis achieves; the book states mitosis has no exchange of genes.",
-        B: "Correct. The book's comparison table states mitosis has 'No crossing over, No exchange of genes' — the opposite of meiosis, where pairing allows crossing over. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
+        A: "Exchange of genes is what crossing over in meiosis achieves; mitosis has no exchange of genes.",
+        B: "The comparison table states mitosis has 'No crossing over, No exchange of genes' — the opposite of meiosis, where pairing allows crossing over. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The comparison table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
         C: "Mitosis's daughter cells keep the diploid number, not the haploid (n) number that meiosis produces.",
-        D: "Mitosis's daughter cells are genetically identical to the parent cell, per the book — not different from it.",
+        D: "Mitosis's daughter cells are genetically identical to the parent cell — not different from it.",
       },
     },
     {
@@ -82,9 +82,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that meiosis produces four, not two, haploid germ cells.",
       explanations: {
         A: "True of meiosis, so not the exception. It occurs in the germ cells of the testes and ovaries.",
-        B: "The exception, and the answer. The book states meiosis produces four germ cells with the haploid number of chromosomes, not two. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The department book's own table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
-        C: "True, so not the exception. The book states meiosis's daughter cells show genetic variation.",
-        D: "True, so not the exception. Crossing over during meiosis leads to gene exchange, per the book's comparison table.",
+        B: "The exception, and the answer. Meiosis produces four germ cells with the haploid number of chromosomes, not two. A common trap: reducing the comparison to 'mitosis makes two cells, meiosis makes four.' The comparison table roots that difference in mechanism — one division versus two, and whether the bivalent's homologues separate as whole chromosomes or split at the centromere — which is what a mechanism question actually tests.",
+        C: "True, so not the exception. Meiosis's daughter cells show genetic variation.",
+        D: "True, so not the exception. Crossing over during meiosis leads to gene exchange, per the comparison table.",
       },
     },
     {
@@ -96,7 +96,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "True of prophase I, so not the exception. The 46 d-chromosomes first appear as long thin threads.",
         B: "True, so not the exception. The bivalents become shorter and thicker as prophase I proceeds.",
-        C: "The exception, and the answer. The 23 bivalent d-chromosomes aligning at the equatorial plane is the book's own description of metaphase I, the stage that follows prophase I, not a prophase I event. A common trap: treating prophase I's duration as a minor detail.",
+        C: "The exception, and the answer. The 23 bivalent d-chromosomes aligning at the equatorial plane is the description of metaphase I, the stage that follows prophase I, not a prophase I event. A common trap: treating prophase I's duration as a minor detail.",
         D: "True, so not the exception. Crossing over between non-sister chromatids of homologous chromosomes happens during prophase I, at the chiasmata.",
         E: "True, so not the exception. The nucleolus and nuclear envelope disappear during prophase I, freeing the chromosomes into the cytoplasm.",
       },
@@ -108,7 +108,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "State that at metaphase II the 23 d-chromosomes are aligned at the equatorial plate.",
       explanations: {
-        A: "Correct. The book states that at metaphase II, the 23 d-chromosomes are aligned at the equatorial plate. A common trap: treating prophase I's duration as a minor detail.",
+        A: "At metaphase II, the 23 d-chromosomes are aligned at the equatorial plate. A common trap: treating prophase I's duration as a minor detail.",
         B: "46 d-chromosomes is the somatic (diploid) count, not the haploid count each meiotic daughter cell carries by metaphase II.",
         C: "23 s-chromosomes is the count after anaphase II, once each d-chromosome has already split into its two chromatids — not yet true at metaphase II.",
         D: "Not applicable — a correct answer is listed among the options.",
@@ -122,9 +122,9 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "State that the second meiotic division has a very short interphase without an S-phase — not a longer one.",
       explanations: {
         A: "True of the second meiotic division, so not the exception. It is described as a mitosis-like division.",
-        B: "The exception, and the answer. The book states the second meiotic division has a very short interphase, without an S-phase at all — not a longer S-phase. A common trap: treating prophase I's duration as a minor detail.",
+        B: "The exception, and the answer. The second meiotic division has a very short interphase, without an S-phase at all — not a longer S-phase. A common trap: treating prophase I's duration as a minor detail.",
         C: "True, so not the exception. Each daughter cell of the second division has 23 d-chromosomes to begin with.",
-        D: "True, so not the exception. The book names the second meiotic division the equatorial division.",
+        D: "True, so not the exception. The second meiotic division is called the equatorial division.",
       },
     },
     {
@@ -136,7 +136,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "23 d-chromosomes describes the state entering metaphase II, before the chromatids split apart at anaphase II.",
         B: "46 d-chromosomes is the somatic, diploid-cell count, not what a haploid meiotic daughter cell carries.",
-        C: "Correct. The book states that at telophase II, the two daughter cells separate, each with 23 s-chromosomes — the haploid number. A common trap: treating prophase I's duration as a minor detail.",
+        C: "At telophase II, the two daughter cells separate, each with 23 s-chromosomes — the haploid number. A common trap: treating prophase I's duration as a minor detail.",
         D: "Not applicable — a correct answer is listed among the options.",
       },
     },
@@ -148,7 +148,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Place centriole migration to opposite poles, driven by microtubules from the MTOC, in prophase.",
       explanations: {
         A: "Metaphase is when chromosomes are already aligned at the equator, after the centrioles have finished moving apart in prophase.",
-        B: "Correct. The book states that during prophase, centrioles move to opposite cell poles by cytoplasmic microtubules radiating out from the microtubule-organising centre (MTOC) around them. A common trap: describing the kinetochore as the centromere itself.",
+        B: "During prophase, centrioles move to opposite cell poles by cytoplasmic microtubules radiating out from the microtubule-organising centre (MTOC) around them. A common trap: describing the kinetochore as the centromere itself.",
         C: "Telophase reforms the nuclear envelope and nucleoli, well after the centrioles have already reached the poles.",
         D: "Anaphase is when chromatids are pulled apart, after the spindle (built from the centriole-organised microtubules) is already established.",
       },
@@ -161,7 +161,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Place chromosomes becoming shorter, thicker, darker-staining fine threads in prophase.",
       explanations: {
         A: "Metaphase is when the already-condensed chromosomes align at the equator, past this initial condensing step.",
-        B: "Correct. The book states that during prophase, chromosomes gradually become shorter, thicker, darker in staining, and visible as fine threads. A common trap: describing the kinetochore as the centromere itself.",
+        B: "During prophase, chromosomes gradually become shorter, thicker, darker in staining, and visible as fine threads. A common trap: describing the kinetochore as the centromere itself.",
         C: "Telophase is when chromatids lengthen and uncoil, losing visibility — the opposite of this description.",
         D: "Anaphase is when the already-split chromatids migrate to the poles, past this early condensation stage.",
       },
@@ -173,7 +173,7 @@ export const LEAF: McqLeafSeed = {
       questionType: "Structure and function",
       learningObjective: "Place chromosome migration to the equatorial (metaphase) plate in metaphase.",
       explanations: {
-        A: "Correct. The book states chromosomes migrate to the equatorial plane of the cell — the metaphase plate — during metaphase. A common trap: describing the kinetochore as the centromere itself.",
+        A: "Chromosomes migrate to the equatorial plane of the cell — the metaphase plate — during metaphase. A common trap: describing the kinetochore as the centromere itself.",
         B: "Prophase is when chromosomes are still condensing, before they migrate to the equator.",
         C: "Telophase is well after the chromosomes have already separated and migrated to the poles.",
         D: "Anaphase is when the already-aligned chromosomes' chromatids separate and move toward the poles, after the metaphase alignment this stem describes.",
@@ -186,10 +186,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Mechanism",
       learningObjective: "Name recombinase as the enzyme that helps crossing over at the chiasmata.",
       explanations: {
-        A: "Sulfatase is not the enzyme the book names for crossing over.",
-        B: "Nuclease (endonuclease) is the enzyme the book credits with fragmenting chromatin in karyorrhexis, not with crossing over.",
+        A: "Sulfatase is not the enzyme for crossing over.",
+        B: "Nuclease (endonuclease) is the enzyme credited with fragmenting chromatin in karyorrhexis, not with crossing over.",
         C: "Spectrin is a cytoskeletal protein, not an enzyme involved in crossing over.",
-        D: "Correct. The book states crossing over occurs at the chiasmata with the help of the recombinase enzyme, exchanging segments between non-sister chromatids of homologous chromosomes. A common trap: treating prophase I's duration as a minor detail.",
+        D: "Crossing over occurs at the chiasmata with the help of the recombinase enzyme, exchanging segments between non-sister chromatids of homologous chromosomes. A common trap: treating prophase I's duration as a minor detail.",
       },
     },
     {
@@ -202,7 +202,7 @@ export const LEAF: McqLeafSeed = {
         A: "Metaphase is when chromosomes are aligned at the equator, before the cytoplasmic microtubules elongate to pull the separated chromatids apart.",
         B: "Prophase is when the spindle first organises, before its cytoplasmic microtubules elongate to move chromatids in anaphase.",
         C: "Telophase is when the spindle's work is already done and the nuclear envelope is reforming, after the elongation that carried the chromatids to the poles.",
-        D: "Correct. The book states that in anaphase, migration of the separated chromatids to opposite poles of the cell happens by elongation of the cytoplasmic microtubules. A common trap: describing the kinetochore as the centromere itself.",
+        D: "In anaphase, migration of the separated chromatids to opposite poles of the cell happens by elongation of the cytoplasmic microtubules. A common trap: describing the kinetochore as the centromere itself.",
       },
       answerOverride: "D",
       answerOverrideReason: "The printed key (A, metaphase) contradicts the book. Histology department book p41 (printed p40-41) states under Anaphase: 'Migration to opposite poles of cell by elongation of cytoplasmic microtubules' — an anaphase event, not a metaphase one.",
@@ -215,7 +215,7 @@ export const LEAF: McqLeafSeed = {
       learningObjective: "Place the organisation of microtubules into the mitotic spindle in prophase.",
       explanations: {
         A: "Metaphase uses the already-organised spindle to align the chromosomes, after prophase has built it.",
-        B: "Correct. The book states that during prophase, microtubules are organised to form a spindle, after centrioles have moved to opposite poles. A common trap: describing the kinetochore as the centromere itself.",
+        B: "During prophase, microtubules are organised to form a spindle, after centrioles have moved to opposite poles. A common trap: describing the kinetochore as the centromere itself.",
         C: "Telophase is when the spindle's work is finished and the nuclear envelope reforms.",
         D: "Anaphase uses the already-formed spindle to pull chromatids apart, after prophase organised it.",
       },
@@ -229,7 +229,7 @@ export const LEAF: McqLeafSeed = {
       explanations: {
         A: "Metaphase is mid-division, well before the nuclear envelope and nucleoli reform.",
         B: "Prophase is when the nuclear envelope and nucleoli disappear, the opposite of this stem.",
-        C: "Correct. The book states that in telophase, nuclear envelopes develop and nucleoli reappear, as the two daughter cells separate. A common trap: describing the kinetochore as the centromere itself.",
+        C: "In telophase, nuclear envelopes develop and nucleoli reappear, as the two daughter cells separate. A common trap: describing the kinetochore as the centromere itself.",
         D: "Anaphase is when chromatids are still migrating to the poles, before the nuclear envelope and nucleoli reform in telophase.",
       },
     },
@@ -240,10 +240,10 @@ export const LEAF: McqLeafSeed = {
       questionType: "Definition",
       learningObjective: "State that prophase I of spermatogenesis lasts about 22 days.",
       explanations: {
-        A: "28 days is not the duration the book gives for male prophase I.",
-        B: "Correct. The book states prophase I lasts 22 days in spermatogenesis (male), against 12 to 45 years in oogenesis (female). A common trap: treating prophase I's duration as a minor detail.",
-        C: "12-45 years is the book's duration for female prophase I (oogenesis), not the male's.",
-        D: "22 years is not the duration the book gives; 22 is the correct number, but the unit is days, not years, for the male.",
+        A: "28 days is not the duration for male prophase I.",
+        B: "Prophase I lasts 22 days in spermatogenesis (male), against 12 to 45 years in oogenesis (female). A common trap: treating prophase I's duration as a minor detail.",
+        C: "12-45 years is the duration for female prophase I (oogenesis), not the male's.",
+        D: "22 years is not the stated duration; 22 is the correct number, but the unit is days, not years, for the male.",
       },
     },
   ],

@@ -354,7 +354,7 @@ export function Account() {
 
   return (
     <PageContainer>
-      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} />
+      <PageHeader title={t('Manage your account')} description={t('Your profile, study preferences, security, and data.')} back={{ fallback: '/app' }} />
       <div className="grid items-start gap-4 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
         <div className="space-y-4">
           <Panel>

@@ -15,6 +15,203 @@ function fallbackRefusal(t: (s: string) => string): string {
   return t('That did not work. Try again.')
 }
 
+/* ── Connect Facebook ────────────────────────────────────────────────────
+   Facebook's own JS SDK, loaded on demand: `FB.login` is what a student
+   actually consents through, and `/me/friends` — Meta's own endpoint, called
+   from the browser with the token that login just returned — is the only
+   place a real friend list for this feature can come from. The server never
+   sees Facebook directly; it only links the id this flow verified through
+   Facebook's own login dialog, and intersects the friend list this flow read
+   back from Facebook's own API. */
+
+interface FacebookAuthResponse {
+  accessToken: string
+  userID: string
+}
+
+interface FacebookLoginResponse {
+  authResponse: FacebookAuthResponse | null
+  status?: string
+}
+
+interface FacebookFriendsResponse {
+  data?: Array<{ id: string }>
+  error?: unknown
+}
+
+interface FacebookSdk {
+  init: (options: { appId: string; version: string; xfbml: boolean; cookie: boolean }) => void
+  login: (callback: (response: FacebookLoginResponse) => void, options: { scope: string }) => void
+  api: (path: string, params: Record<string, unknown>, callback: (response: FacebookFriendsResponse) => void) => void
+}
+
+declare global {
+  interface Window {
+    FB?: FacebookSdk
+    fbAsyncInit?: () => void
+  }
+}
+
+let facebookSdkPromise: Promise<FacebookSdk> | null = null
+
+/**
+ * Loads and initializes Facebook's JS SDK exactly once per page.
+ *
+ * A second call while the script is still loading gets the same promise
+ * rather than a second `<script>` tag — `fbAsyncInit` only ever fires once,
+ * so a duplicate tag would leave the second caller waiting forever.
+ */
+function loadFacebookSdk(appId: string): Promise<FacebookSdk> {
+  if (window.FB) return Promise.resolve(window.FB)
+  if (facebookSdkPromise) return facebookSdkPromise
+  facebookSdkPromise = new Promise((resolve, reject) => {
+    window.fbAsyncInit = () => {
+      if (!window.FB) { reject(new Error('facebook_sdk_missing')); return }
+      window.FB.init({ appId, version: 'v19.0', xfbml: false, cookie: true })
+      resolve(window.FB)
+    }
+    const script = document.createElement('script')
+    script.src = 'https://connect.facebook.net/en_US/sdk.js'
+    script.async = true
+    script.defer = true
+    script.crossOrigin = 'anonymous'
+    script.onerror = () => reject(new Error('facebook_sdk_failed'))
+    document.body.appendChild(script)
+  })
+  return facebookSdkPromise
+}
+
+/**
+ * Connect, find matches, add them.
+ *
+ * Hidden rather than a dead button when the build has no app id or the
+ * feature flag is off — a control that cannot do anything yet is worse than
+ * no control. Once connected, the result reuses the exact list-with-Add UI
+ * `DirectorySearch` already renders, because a match found through Facebook
+ * is not a different kind of person to add, just a different way of finding
+ * one.
+ */
+function FacebookConnect({
+  onConnect,
+  onMatch,
+  onRequest,
+}: {
+  onConnect: (fbUserId: string) => Promise<{ ok: boolean; reason?: string }>
+  onMatch: (fbFriendIds: string[]) => Promise<{ people: FriendProfile[] }>
+  onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+}) {
+  const t = useT()
+  const appId = import.meta.env.VITE_FACEBOOK_APP_ID as string | undefined
+  const enabled = import.meta.env.VITE_FEATURE_FACEBOOK_FRIENDS === 'true' && Boolean(appId)
+
+  const [status, setStatus] = useState<'idle' | 'connecting' | 'connected' | 'error'>('idle')
+  const [matches, setMatches] = useState<FriendProfile[] | null>(null)
+  const [error, setError] = useState('')
+  const [addingId, setAddingId] = useState<string | null>(null)
+
+  if (!enabled) {
+    return (
+      <p className="text-[12.5px] leading-relaxed text-ink-3">
+        {t('Finding friends through Facebook is waiting on Facebook’s own review. Use your invite link in the meantime.')}
+      </p>
+    )
+  }
+
+  async function connect() {
+    setStatus('connecting')
+    setError('')
+    try {
+      const FB = await loadFacebookSdk(appId!)
+      const login = await new Promise<FacebookLoginResponse>((resolve) => {
+        FB.login((response) => resolve(response), { scope: 'public_profile,user_friends' })
+      })
+      if (!login.authResponse) {
+        // The student closed the dialog or declined — not an error, just
+        // nothing to do, so the button goes back to inviting a first try.
+        setStatus('idle')
+        return
+      }
+      const linkResult = await onConnect(login.authResponse.userID)
+      if (!linkResult.ok) {
+        setStatus('error')
+        setError(FRIEND_REFUSALS[linkResult.reason ?? ''] ?? fallbackRefusal(t))
+        return
+      }
+      const friendsResponse = await new Promise<FacebookFriendsResponse>((resolve) => {
+        FB.api('/me/friends', { fields: 'id' }, (response) => resolve(response ?? {}))
+      })
+      const fbFriendIds = (friendsResponse.data ?? []).map((entry) => entry.id)
+      const matchResult = await onMatch(fbFriendIds)
+      setMatches(matchResult?.people ?? [])
+      setStatus('connected')
+    } catch {
+      setStatus('error')
+      setError(fallbackRefusal(t))
+    }
+  }
+
+  async function add(userId: string) {
+    setAddingId(userId)
+    try {
+      const result = await onRequest(userId)
+      if (result.ok) setMatches((prev) => (prev ?? []).filter((person) => person.userId !== userId))
+    } catch {
+      // Left in the list: a dropped request should read as "try again", not
+      // as a friend that silently vanished.
+    } finally {
+      setAddingId(null)
+    }
+  }
+
+  if (status === 'connected' && matches) {
+    if (matches.length === 0) {
+      return (
+        <p className="text-[12.5px] leading-relaxed text-ink-3">
+          {t('None of your Facebook friends are here yet. Share your invite link to bring them in.')}
+        </p>
+      )
+    }
+    return (
+      <div className="space-y-2">
+        <p className="text-[12.5px] text-ink-3">
+          {matches.length === 1
+            ? t('1 Facebook friend is already here')
+            : `${matches.length} ${t('Facebook friends are already here')}`}
+        </p>
+        <ul className="divide-y divide-line rounded-md border border-line">
+          {matches.map((person) => (
+            <li key={person.userId} className="flex items-center gap-3 px-3 py-2">
+              <Avatar name={person.displayName} size="sm" />
+              <span className="min-w-0 flex-1 truncate text-[13px] text-ink">{person.displayName}</span>
+              <Button
+                variant="secondary"
+                size="sm"
+                iconLeft={UserPlus}
+                loading={addingId === person.userId}
+                onClick={() => void add(person.userId)}
+              >
+                {t('Add')}
+              </Button>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
+  return (
+    <div className="space-y-2">
+      <Button variant="secondary" size="md" loading={status === 'connecting'} onClick={() => void connect()}>
+        <span className="grid size-5 place-items-center rounded-full border border-line bg-surface font-mono text-[12px] font-bold text-ink-2" aria-hidden>
+          f
+        </span>
+        {t('Connect Facebook')}
+      </Button>
+      {status === 'error' && error && <p role="status" className="text-[12.5px] text-danger">{error}</p>}
+    </div>
+  )
+}
+
 /**
  * Your own year, searched by name.
  *
@@ -119,10 +316,14 @@ function InviteLinkPanel({
   onCreateInvite,
   onSearchDirectory,
   onRequest,
+  onConnectFacebook,
+  onMatchFacebook,
 }: {
   onCreateInvite: () => Promise<{ token: string }>
   onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
   onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
+  onConnectFacebook: (fbUserId: string) => Promise<{ ok: boolean; reason?: string }>
+  onMatchFacebook: (fbFriendIds: string[]) => Promise<{ people: FriendProfile[] }>
 }) {
   const t = useT()
   const [link, setLink] = useState<string | null>(null)
@@ -177,20 +378,7 @@ function InviteLinkPanel({
         </div>
 
         <div className="space-y-3 border-t border-line pt-4">
-          {import.meta.env.VITE_FEATURE_FACEBOOK_FRIENDS === 'true' ? (
-            // Wired for the day Meta approves the app, but there is no OAuth call
-            // behind it yet — the handshake needs an approved app id we do not
-            // have, and a button that pretends to work is worse than one that
-            // says so. Disabled rather than hidden, so it is not a surprise
-            // later when the flag is the only thing that changes.
-            <Button variant="secondary" size="md" disabled title={t('Not connected yet')}>
-              {t('Connect Facebook')}
-            </Button>
-          ) : (
-            <p className="text-[12.5px] leading-relaxed text-ink-3">
-              {t('Finding friends through Facebook is waiting on Facebook’s own review. Use your invite link in the meantime.')}
-            </p>
-          )}
+          <FacebookConnect onConnect={onConnectFacebook} onMatch={onMatchFacebook} onRequest={onRequest} />
         </div>
       </div>
     </Panel>
@@ -215,6 +403,8 @@ export function FriendsPanel({
   onCreateInvite,
   onRequest,
   onSearchDirectory,
+  onConnectFacebook,
+  onMatchFacebook,
 }: {
   friends: FriendProfile[]
   incoming: FriendProfile[]
@@ -232,6 +422,8 @@ export function FriendsPanel({
   // page's own copy happened to reload.
   onRequest: (userId: string) => Promise<{ ok: boolean; reason?: string }>
   onSearchDirectory: (query: string) => Promise<{ people: FriendProfile[] }>
+  onConnectFacebook: (fbUserId: string) => Promise<{ ok: boolean; reason?: string }>
+  onMatchFacebook: (fbFriendIds: string[]) => Promise<{ people: FriendProfile[] }>
 }) {
   const t = useT()
 
@@ -291,7 +483,13 @@ export function FriendsPanel({
 
   return (
     <div className="space-y-4">
-      <InviteLinkPanel onCreateInvite={onCreateInvite} onSearchDirectory={onSearchDirectory} onRequest={onRequest} />
+      <InviteLinkPanel
+        onCreateInvite={onCreateInvite}
+        onSearchDirectory={onSearchDirectory}
+        onRequest={onRequest}
+        onConnectFacebook={onConnectFacebook}
+        onMatchFacebook={onMatchFacebook}
+      />
 
       {incoming.length > 0 && (
         <Panel>
