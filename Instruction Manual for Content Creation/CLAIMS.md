@@ -26,6 +26,9 @@ pair, and never the same output file.
 | 2026-08-22 | chief of staff | Manual revision — `Instruction Manual for Content Creation/00-13` (files 00–13), consistency pass | `Instruction Manual for Content Creation/*.md` | — |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` question-book MCQs — every subject-tree leaf **except `Granular leukocytes`**, which the 101 lane holds | `scripts/kasr/seeds/mcq/**`, and its two generated outputs `docs/Kasr-Source-Imports/question/101-ISK-mcq.md` and `docs/Kasr-Source-Imports/concept/101-ISK-mcq-concepts.md` | The article for each leaf. A leaf is not done until one exists and names its concepts in `related_concepts` |
 | 2026-08-21 | sad-solomon-4bb999 | `101 ISK` histology articles for the twelve leaves the 101 lane did not write | `docs/Kasr-Source-Imports/article/101-ISK-histology-2.md` | — |
+| 2026-08-27 | asu-mbg-author2 | `ASU · ASU-MBG · Molecular Biology and Medical Genetics · pending-live overlays (concept+article, 10 pending clusters)` | `docs/Ain-Shams-Source-Imports/pending-live/ASU-MBG-molecular-genetics.md` | targets Alexandria/Kasr pending concept+article batches named in coverage/ASU-MBG-triage.md |
+| 2026-08-27 | asu-mbg-author2 | `ASU · ASU-MBG · Modes of inheritance (new concept cluster) · concepts+articles` | `docs/Ain-Shams-Source-Imports/concept/ASU-MBG-inheritance-concepts.md`, `docs/Ain-Shams-Source-Imports/article/ASU-MBG-inheritance-articles.md` | — |
+| 2026-08-27 | asu-mbg-author2 | `ASU · ASU-MBG · all 12 concept clusters · questions (~499 source-triaged)` | `docs/Ain-Shams-Source-Imports/question/ASU-MBG-molecular-genetics-mcq.md` | own concept/article batches above + existing ASU-MBG-chromosome-analysis concept/article |
 
 ---
 
