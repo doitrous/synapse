@@ -554,6 +554,127 @@ batches, which is 101's call and commit, not smuggled in here.
 
 ---
 
+### Kasr Al Ainy 103 BMS (Anatomy + Biochemistry + Histology + Physiology) — 61 files across 6 folders
+
+Staged 2026-08-27, same pass and layout as 101 ISK/102 INT/108 INT above.
+Copied verbatim from `docs/Kasr-Source-Imports/{evidence,article,concept,
+relations,question,glossary}/103-BMS-*` — no hand edits in this copy. 103
+has no `INDEX-103-BMS.md` or `103-BMS-GATES.md` companion the way 101/108
+do; the closest full detail is `docs/Kasr-Source-Imports/coverage/103-BMS-
+coverage.md` (generated source-read ledger) and `coverage/103-BMS-OWED.md`
+(hand-authored, what is still owed); this entry states the apply order and
+current status. 103 has no `practical/` batch (no practical corpus authored
+yet — see "What remains genuinely open" below); it does carry a `glossary/`
+batch, unlike 102.
+
+**Correction to this branch's own prior checkpoint.** The commit that staged
+these 61 files recorded in `PROGRESS.md` that "0 QM-103-* ids are currently
+live in `server/data/medical-library-v1.json`, so the 5 MCQ question batches
+need no 'Update matching items' note yet." That is wrong on the fact it
+matters on: `server/data/medical-library-v1.json` is a stale build fixture,
+**not** production — production routing is Express (`server/src/index.js`),
+never a static JSON snapshot, so that file was never the right place to
+check liveness. **Production is live with 65 `QM-103-*` questions today**
+(Foundations 50, Blood/lymphoreticular 12, Renal 3), imported by Omar from
+an earlier snapshot of these same five MCQ batches. This is also consistent
+with what the staged files themselves say: `article/103-BMS-mcq-vitamins-
+nerve.md`'s fourth record is a sparse update to the already-live
+`ART-103-PHY-NERVE-ACTION-POTENTIAL` that appends 13 already-live `QM-103-*`
+ids to `question_ids`, and three of the thirteen `canonical_key` rows fixed
+per `coverage/103-BMS-OWED.md` §1 resolve to live `CON-HEM-*`/`CON-REN-*`
+concept ids (heme/renal — the same categories the 65 live questions sit
+under).
+
+**Apply in this order** (each step's ids are referenced by the next; the
+generic order above already matches this):
+
+| # | File | Admin page | Records | "Update matching items" |
+|---|---|---|--:|---|
+| 1 | `evidence/103-BMS-sources.md` | Bulk import evidence · Resource | 9 | on (evidence always upserts) |
+| 2 | `article/103-BMS-anatomy.md` | Bulk import → article | 21 | On |
+| 3 | `article/103-BMS-biochemistry.md` | Bulk import → article | 16 | On |
+| 4 | `article/103-BMS-histology.md` | Bulk import → article | 19 | On |
+| 5 | `article/103-BMS-physiology.md` | Bulk import → article | 16 | On |
+| 6 | `article/103-BMS-mcq-aminoacid.md` | Bulk import → article | 2 | On |
+| 7 | `article/103-BMS-mcq-aromatic.md` | Bulk import → article | 2 | On |
+| 8 | `article/103-BMS-mcq-carbohydrate.md` | Bulk import → article | 7 | On |
+| 9 | `article/103-BMS-mcq-heme.md` | Bulk import → article | 3 | On |
+| 10 | `article/103-BMS-mcq-lipid.md` | Bulk import → article | 8 | On |
+| 11 | `article/103-BMS-mcq-nitrogen.md` | Bulk import → article | 4 | On |
+| 12 | `article/103-BMS-mcq-purine.md` | Bulk import → article | 2 | On |
+| 13 | `article/103-BMS-mcq-vitamins-nerve.md` | Bulk import → article | 3 new + 1 update | **Must be On** — record 4 is a sparse update to the already-live `ART-103-PHY-NERVE-ACTION-POTENTIAL`; with "Create only" it is silently skipped, not merged |
+| 14 | `concept/103-BMS-anatomy-concepts.md` | Concepts › Import | 51, 5 of them updates | **Must be On** — 5 rows (the adductor-canal/acetabulum relations) share an id already live; see `coverage/103-BMS-OWED.md` §1 |
+| 15 | `concept/103-BMS-biochemistry-concepts.md` | Concepts › Import | 43, 5 of them updates | **Must be On**, same reason — G6PD/haemolytic-anaemia/gout rows |
+| 16 | `concept/103-BMS-histology-concepts.md` | Concepts › Import | 65, 3 of them updates | **Must be On**, same reason — bone-cells/myofibril/arrector-pili rows |
+| 17 | `concept/103-BMS-physiology-concepts.md` | Concepts › Import | 46 | On |
+| 18 | `concept/103-BMS-mcq-aminoacid-concepts.md` | Concepts › Import | 8 | On |
+| 19 | `concept/103-BMS-mcq-aromatic-concepts.md` | Concepts › Import | 7 | On |
+| 20 | `concept/103-BMS-mcq-carbohydrate-concepts.md` | Concepts › Import | 36 | On |
+| 21 | `concept/103-BMS-mcq-heme-concepts.md` | Concepts › Import | 9 | On |
+| 22 | `concept/103-BMS-mcq-lipid-concepts.md` | Concepts › Import | 27 | On |
+| 23 | `concept/103-BMS-mcq-nitrogen-concepts.md` | Concepts › Import | 3 | On |
+| 24 | `concept/103-BMS-mcq-protein-concepts.md` | Concepts › Import | 8 | On |
+| 25 | `concept/103-BMS-mcq-purine-concepts.md` | Concepts › Import | 7 | On |
+| 26 | `concept/103-BMS-mcq-vitamins-nerve-concepts.md` | Concepts › Import | 12 | On |
+| 27 | `evidence/103-BMS-claims.md` | Bulk import evidence · Claim | 29 | On |
+| 28 | `evidence/103-BMS-biochemistry-claims.md` | Bulk import evidence · Claim | 28 | On |
+| 29 | `evidence/103-BMS-generated-claims.md` | Bulk import evidence · Claim | 754 | On |
+| 30 | `evidence/103-BMS-mcq-claims.md` | Bulk import evidence · Claim | 12 | On |
+| 31 | `evidence/103-BMS-mcq-carbohydrate-claims.md` | Bulk import evidence · Claim | 36 | On |
+| 32 | `evidence/103-BMS-citations.md` | Bulk import evidence · Citation | 29 | On |
+| 33 | `evidence/103-BMS-biochemistry-citations.md` | Bulk import evidence · Citation | 28 | On |
+| 34 | `evidence/103-BMS-generated-citations.md` | Bulk import evidence · Citation | 164 | On |
+| 35 | `evidence/103-BMS-mcq-citations.md` | Bulk import evidence · Citation | 12 | On |
+| 36 | `evidence/103-BMS-mcq-carbohydrate-citations.md` | Bulk import evidence · Citation | 36 | On |
+| 37 | `evidence/103-BMS-spans.md` | Bulk import evidence · Span | 18 | On |
+| 38 | `evidence/103-BMS-biochemistry-spans.md` | Bulk import evidence · Span | 19 | On |
+| 39 | `evidence/103-BMS-generated-spans.md` | Bulk import evidence · Span | 238 | On |
+| 40 | `evidence/103-BMS-mcq-carbohydrate-spans.md` | Bulk import evidence · Span | 36 | On |
+| 41 | `relations/103-BMS-relations.md` | Relationships › Import | 324 | On — typed (16 real types), 179 carry `verification_status: verified`, the other 145 `needs_evidence` |
+| 42 | `question/103-BMS-MCQ-carbohydrate-bioenergetics.md` | Bulk import → question | 116 | **Must be On** — 65 `QM-103-*` ids across these 5 MCQ files are already live in production (Foundations 50, Blood/lymphoreticular 12, Renal 3, imported by Omar from an earlier snapshot of these same batches) and will update in place, not duplicate |
+| 43 | `question/103-BMS-MCQ-lipid-diabetes.md` | Bulk import → question | 79 | Same note as row 42 |
+| 44 | `question/103-BMS-MCQ-nerve-muscle.md` | Bulk import → question | 56 | Same note as row 42 |
+| 45 | `question/103-BMS-MCQ-protein-heme.md` | Bulk import → question | 101 | Same note as row 42 |
+| 46 | `question/103-BMS-MCQ-vitamins.md` | Bulk import → question | 46 | Same note as row 42 |
+| 47–60 | `question/103-BMS-{BAQOON-2023-biochemistry,BAQOON-2024-biochemistry,EOY-2021-anatomy,EOY-2022-anatomy,EOY-2023-biochemistry,EOY-2024-biochemistry,EOY-2025-anatomy,EOY-2025-anatomy-2,EOY-2025-biochemistry,EOY-2025-biochemistry-matching,EOY-2025-histology,EOY-2025-physiology,histology-department,physiology-department}-written.md` | Bulk import → question (format: written, same page) | 3+5+7+7+5+5+6+7+7+1+4+4+33+34 = 128 | On |
+| 61 | `glossary/103-BMS-glossary.md` | Glossary › Import | 116 | Glossary import always upserts by id |
+
+Totals: 9 resources, 104 articles (103 new + 1 sparse update), 322 concepts
+(309 new + 13 updates to already-live ids), 859 claims, 269 citations, 311
+spans, 324 relations, 526 questions (398 MCQ + 128 written), 116 glossary
+terms — every count above read directly off `grep -c "^# Item"` against this
+staged copy, cross-checked against `coverage/103-BMS-coverage.md`'s
+generated "Authored so far" table, which matches exactly file-for-file.
+
+All 12 article files carry `status: Draft` uniformly (Draft-until-media
+convention holds — all 12 carry `media_recommendations` with at least one
+`Priority: required` line, 136 required-media requests in total, 0 images in
+the repository) and `reviewer: Medical team, Admin team` /
+`final_publisher: Admin team` per the standing ruling.
+
+**Gate status.** Per-file `medical:batch` (`--with` sibling concept/article
+files for id resolution) results are recorded in `PROGRESS.md` for this
+stage. The chained/combined `medical:simulate` across the whole
+`docs/import-ready/` folder — the real cross-file check, since `medical:
+batch` is directory-scoped and cannot see ids already live in production —
+is deliberately **not** run in this stage; it is the next stage's gate.
+
+**What remains genuinely open** (none of it blocks the 61 files above from
+being applied): 29 of 51 source files are not yet read per `coverage/103-
+BMS-coverage.md`, including four EOY papers with answers, two Baqoon
+second-sitting papers, one orientation sheet, and 22 instructor-material /
+practical-slide files (the reason no `practical/` batch exists yet for 103);
+136 media requests outstanding (all `required`) across the 12 article files,
+0 images in the repository; the 5 relations/concept "untaught" starred
+entries in `coverage/101-ISK-untaught-concepts.md` (cross-module file,
+misnamed) are all 103 BMS per `coverage/103-BMS-OWED.md` §3, still needing a
+faculty ruling on sourcing; `103-BMS-anatomy-concepts.md`'s field_notes
+records two owed edges (`often_confused_with` to a not-yet-live tibial-nerve
+deformity concept, `complication_of` to `CON-MSK-AB5318A9255811`) that no
+relations batch in this pass claims.
+
+---
+
 ## Before applying anything
 
 ```bash
