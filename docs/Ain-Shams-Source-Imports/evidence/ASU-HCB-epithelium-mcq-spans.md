@@ -32,7 +32,7 @@ ART-FND-ASU-HCB-EPITHELIUM-CLASSIFICATION
 art-fnd-asu-hcb-epithelium-classification-mechanism
 
 ## text
-In a stratified epithelium, only the basal cell layer actually rests on and attaches to the basement membrane, commonly via hemidesmosomes; the cells of the surface layer are the ones that reach the free apical surface.
+In a stratified epithelium, only the basal cell layer actually rests on and attaches to the basement membrane, commonly via hemidesmosomes; the cells of the surface layer are the ones that reach the free apical surface and, in stratified squamous epithelium, are the flattened squamous cells.
 
 ## claim_ids
 CLM-FND-ASU-HCB-EPITH-04

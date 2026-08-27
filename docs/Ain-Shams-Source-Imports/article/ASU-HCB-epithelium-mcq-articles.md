@@ -31,7 +31,7 @@ Epithelium
 SYS-FND-T01-S01
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## template_id
 TPL-CONCEPT
@@ -166,7 +166,7 @@ Quote: Epithelium is one of the four basic tissues, and the only one that shows 
 Block: body
 
 ### definition_of · CON-FND-69AF089BE9C723
-Quote: In a stratified epithelium, only the basal cell layer actually rests on and attaches to the basement membrane, commonly via hemidesmosomes; the cells of the surface layer are the ones that reach the free apical surface.
+Quote: In a stratified epithelium, only the basal cell layer actually rests on and attaches to the basement membrane, commonly via hemidesmosomes; the cells of the surface layer are the ones that reach the free apical surface and, in stratified squamous epithelium, are the flattened squamous cells.
 Block: body
 
 ### definition_of · CON-FND-BD15C2BA58C220
@@ -239,7 +239,7 @@ Gland histology
 SYS-FND-T01-S01
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## template_id
 TPL-CONCEPT

@@ -101,7 +101,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-7DFC513C3682EF
@@ -158,7 +158,7 @@ Independent non-local histology reference not yet attached; current support is t
 examSignal: No non-assessment exam source was used in this batch.
 arabicLabel: The permitted local MCQ source is English-only; no reviewed Arabic label was available.
 arabicAliases: The permitted local MCQ source is English-only; no reviewed Arabic aliases were available.
-primaryNodeId: No dedicated epithelium/basic-tissue node exists under SYS-FND (checked all SYS-FND-T01..T06 subtopics); kept SYS-FND-T01-S01 for consistency with the sibling ASU-HCB lysosome batch and placed the specific home on the DIS-HIS-T02-S01 (Basic tissues > Core principles) secondary node instead, which does fit. Flagged under protest, not a silent placement.
+primaryNodeId: No dedicated epithelium/basic-tissue node exists under SYS-FND (checked all SYS-FND-T01..T06 subtopics); kept SYS-FND-T01-S01 for consistency with the sibling ASU-HCB lysosome batch and placed the specific home on the DIS-HIS-T02 (Basic tissues) secondary node instead, which does fit — DIS-HIS-T02-S01 ("Core principles") was tried first but is filtered out of the canonical taxonomy index as a redundant discipline facet. Flagged under protest, not a silent placement.
 microtopicId: "Epithelium" is used as a local microtopic label; no reviewed canonical microtopic ID exists under SYS-FND for it.
 nanotopicId: No reviewed nanotopic exists for this ASU epithelium MCQ slice.
 approvedFileResourceIds: The MCQ bank is registered as an evidence source, but republication/open-file rights are not cleared.
@@ -274,7 +274,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-366BDE9995356F
@@ -445,7 +445,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-7DFC513C3682EF
@@ -616,7 +616,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-C4E355F4908805
@@ -787,7 +787,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-69AF089BE9C723
@@ -958,7 +958,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-E75ABA09FD9405
@@ -1128,7 +1128,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-69AF089BE9C723
@@ -1298,7 +1298,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-626225395CE7C5
@@ -1467,7 +1467,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-90C508035E3361
@@ -1638,7 +1638,7 @@ Gland histology
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-773EC53B54286A
@@ -1807,7 +1807,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-5BE1274994A3C2
@@ -1976,7 +1976,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-AB70C42246282A
@@ -2145,7 +2145,7 @@ Gland histology
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-02A34419A85326
@@ -2315,7 +2315,7 @@ Gland histology
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-773EC53B54286A
@@ -2485,7 +2485,7 @@ Epithelium
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-90C508035E3361
@@ -2654,7 +2654,7 @@ Gland histology
 ## nanotopic
 
 ## secondary_node_ids
-DIS-HIS-T02-S01
+DIS-HIS-T02
 
 ## related_concept_ids
 CON-FND-773EC53B54286A
