@@ -30,6 +30,12 @@
    "cluster": "Anatomy / Large Tubes+Veins of Thorax + Lungs",
    "keyed": 8,
    "excluded": 12
+  },
+  {
+   "batch": 6,
+   "cluster": "Anatomy / Lungs",
+   "keyed": 13,
+   "excluded": 7
   }
  ],
  "keyed": {
@@ -472,6 +478,134 @@
     "D": "True: the thoracic duct crosses from the right side to the left side, passing behind the oesophagus, at approximately the T4-T5 vertebral level."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "compared-with-the-apex-of-the-lung-the-base-of-the-lung-has-bcf708af": {
+   "answer": "B",
+   "explanation": "In an upright lung, blood flow (perfusion) increases much more steeply from apex to base than ventilation does, so the base ends up with a lower ventilation/perfusion (V/Q) ratio than the apex, meaning base capillary blood spends relatively more of its exchange 'diluted' toward mixed venous gas composition. This lower V/Q at the base translates into a relatively higher capillary PCO2 (and lower PO2) compared with the apex, where the high V/Q ratio pulls alveolar and capillary gas composition closer to that of inspired air (higher PO2, lower PCO2). The exam takeaway is the classic West zone gradient: apex has high V/Q (like dead space, high PO2/low PCO2), base has low V/Q (like a shunt, lower PO2/higher PCO2), even though absolute ventilation and perfusion are both greater at the base.",
+   "distractorNotes": {
+    "C": "The base has a LOWER, not higher, V/Q ratio than the apex, since perfusion rises faster than ventilation going down the lung.",
+    "D": "The V/Q ratio changes substantially from apex to base in the upright lung; it is not the same at both locations."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "i-regarding-the-root-of-the-lung-mark-the-incorrect-answer-0-e92f0fa9": {
+   "answer": "C",
+   "explanation": "The root of the right lung's standard posterior relations include the azygos vein (arching over it to reach the SVC) and the oesophagus, not the inferior vena cava -- the IVC passes directly into the right atrium at the diaphragm's caval opening (T8) and is not a structure conventionally described as lying anterior or posterior to the lung root at the T5-T7 level, making this claim the incorrect one the question is looking for. The other statements are standard true facts about the lung root: it lies opposite the bodies of T5, T6, and T7 vertebrae, it contains the bronchial vessels supplying nutrition to the lung tissue, and the left lung root does have the descending thoracic aorta running posterior to it (so the root correctly sits anterior to the aorta). The exam takeaway is to keep the right lung root's true posterior neighbours (azygos vein, oesophagus) distinct from the IVC, which belongs to a different, lower diaphragmatic level.",
+   "distractorNotes": {
+    "A": "True: the root of the lung on both sides lies opposite the bodies of the fifth, sixth, and seventh thoracic vertebrae.",
+    "B": "True: the bronchial arteries and veins, supplying nutrition to lung tissue, are genuine contents of the lung root alongside the bronchus, pulmonary vessels, nerves, and lymphatics.",
+    "D": "True: the descending thoracic aorta runs posterior to the root of the left lung, so from the root's perspective it correctly sits anterior to the aorta."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "if-the-lungs-experimentally-filled-completely-with-saline-so-4d4a1047": {
+   "answer": "D",
+   "explanation": "This is the classic saline-filled-lung experiment demonstrating that surface tension, not tissue elasticity, is the dominant source of the lung's elastic recoil under normal air-filled conditions: filling the alveoli completely with saline eliminates the air-liquid interface entirely (both surfaces of the alveolar lining fluid are now liquid-liquid), so surface tension's contribution to recoil is essentially abolished. With surface tension removed, the pressure needed to inflate the lung drops dramatically, meaning lung compliance rises sharply -- saline-filled lungs are far easier to inflate than air-filled ones at the same pressures. The physiological takeaway is that this experiment is the classic proof that surfactant's job is specifically to reduce the air-liquid interface's surface tension, since removing that interface altogether reproduces the same easy-inflation effect surfactant partially achieves.",
+   "distractorNotes": {
+    "A": "Surface tension is essentially eliminated, not merely 'increased slightly', when the air-liquid interface is removed by saline filling.",
+    "C": "Compliance changes dramatically (increases) in this experiment; it does not remain constant, since removing the air-liquid interface removes a major component of the lung's normal elastic recoil."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "lung-emphysema-decreases-the-pulmonary-diffusing-capacity-fo-ead15150": {
+   "answer": "A",
+   "explanation": "Emphysema is characterised by destruction of alveolar walls and septa, which merges many small alveoli into fewer, larger air spaces and directly reduces the total surface area of the respiratory membrane available for gas exchange. Since diffusing capacity is directly proportional to the surface area available for diffusion (per Fick's law of diffusion), this loss of surface area is the principal mechanism by which emphysema lowers pulmonary diffusing capacity, distinct from diseases like pulmonary fibrosis that instead impair diffusion by thickening the membrane. The exam takeaway is to pair emphysema specifically with reduced SURFACE AREA (destructive disease) and fibrosis/oedema with increased membrane THICKNESS (restrictive/interstitial disease) as the two classic, distinct mechanisms of impaired diffusion.",
+   "distractorNotes": {
+    "B": "Increased membrane thickness is the mechanism behind reduced diffusing capacity in interstitial lung diseases like pulmonary fibrosis or pulmonary oedema, not emphysema, which instead destroys tissue and reduces surface area.",
+    "C": "Emphysema is characterised by decreased, not increased, elastic recoil of lung tissue, due to elastase-mediated destruction of elastin fibres.",
+    "D": "Gas solubility is an intrinsic physicochemical property of the gas and the diffusion medium; it is not altered by emphysema."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "normal-value-of-lung-compliance-is-about-b1eb2ab0": {
+   "answer": "A",
+   "explanation": "Normal total (lung plus chest wall considered together, or lung alone depending on convention) compliance in an adult is approximately 200 mL per cmH2O of pressure change, meaning about 200 mL of additional volume enters the lungs for each 1 cmH2O increase in transpulmonary pressure near the normal operating range. This value is a standard, frequently tested physiological benchmark used to judge whether a patient's lungs are abnormally stiff (reduced compliance, as in fibrosis) or abnormally floppy (increased compliance, as in emphysema). The exam takeaway is to anchor this number precisely: 200 mL/cmH2O, equivalent to 0.2 L/cmH2O -- distinct from the answer choices offering values ten times too high, too low, or physiologically meaningless.",
+   "distractorNotes": {
+    "B": "2 L/cmH2O is ten times too high for normal lung compliance and would represent an implausibly floppy lung.",
+    "C": "0.02 L/cmH2O (20 mL/cmH2O) is ten times too low for normal lung compliance and would represent an implausibly stiff lung.",
+    "D": "A compliance of zero would mean the lung cannot be inflated at all by any pressure change, which is not physiologically meaningful for a functioning lung."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-respiration-and-the-changes-in-the-thorax-all-the-69394d4b": {
+   "answer": "D",
+   "explanation": "The root of the lung is not entirely fixed during breathing: as the diaphragm descends and the thoracic cavity expands during inspiration, the relatively tethered hilar structures (bronchus, pulmonary vessels) are pulled downward somewhat along with the expanding lung, so describing the root as not moving at all during inspiration is the false statement among these otherwise-correct thoracic mechanics facts. The other statements describe standard, correct respiratory mechanics: diaphragmatic contraction increases the vertical thoracic diameter, intercostal muscle contraction increases the anteroposterior diameter, quiet expiration is a passive, elastic-recoil-driven process, and deep inspiration produces the maximal possible increase in thoracic cavity capacity by recruiting every available mechanism (diaphragm, intercostals, and accessory muscles). The takeaway is not to over-apply the useful teaching simplification that the lung root is a 'relatively fixed pivot point' into an absolute claim that it does not move at all.",
+   "distractorNotes": {
+    "A": "True: diaphragmatic contraction flattens its dome, directly increasing the vertical dimension of the thoracic cavity.",
+    "B": "True: external intercostal contraction elevates the ribs, increasing the anteroposterior (and transverse) thoracic diameter.",
+    "C": "True: quiet expiration is passive, driven by elastic recoil of the lungs and chest wall rather than active muscle contraction.",
+    "E": "True: deep (forced) inspiration, recruiting the diaphragm, external intercostals, and accessory muscles together, produces the greatest possible increase in thoracic cavity capacity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-bronchopulmonary-segments-choose-the-correct-s-a03bf8bf": {
+   "answer": "C",
+   "explanation": "A bronchopulmonary segment is, by definition, the smallest functionally independent unit of lung tissue that is aerated by its own tertiary (segmental) bronchus, giving each segment its own named bronchial supply distinct from its neighbours. This is what makes bronchopulmonary segments surgically significant: because each has a defined, separate bronchial (and arterial) supply, a diseased segment can in principle be resected (segmentectomy) without disturbing the function of adjacent segments. The exam takeaway is to fix the segment's defining feature as its own tertiary/segmental bronchus, distinct from the lobar (secondary) bronchus supplying the whole lobe it sits within.",
+   "distractorNotes": {
+    "A": "The number of bronchopulmonary segments is usually cited as around ten in the right lung and eight to ten in the left (some medial-basal segments variably fuse), not a flat eight in 'each lung'.",
+    "B": "Each segment is classically described as pyramidal/conical with its APEX directed toward the lung hilum and its BASE directed toward the lung's peripheral surface -- the reverse of what this option states.",
+    "D": "Bronchopulmonary segments are also often described as having end-artery-type segmental arterial supply, a true supporting fact, but the segmental bronchus is the more fundamental, definitional feature the question is testing here."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-lungs-all-the-following-statements-are-true-ex-1bfb9298": {
+   "answer": "D",
+   "explanation": "The thick, rounded border of the lung is its POSTERIOR border, which occupies the deep paravertebral gutter alongside the vertebral column -- the ANTERIOR border, by contrast, is thin and sharp (interrupted on the left by the cardiac notch), not thick and rounded as this option claims, making it the false statement. The other statements are standard true lung anatomy: the apex does project into the root of the neck, the costal surface is convex to match the inner chest wall, the mediastinal surface is concave to accommodate the heart and mediastinal structures, and the posterior border does lie beside the vertebral column. The exam takeaway is to keep the two borders' descriptions straight: anterior = thin and sharp; posterior = thick and rounded, sitting in the paravertebral gutter.",
+   "distractorNotes": {
+    "A": "True: the apex of each lung extends up into the root of the neck, above the first rib.",
+    "B": "True: the costal surface is convex, conforming to the concave inner surface of the rib cage.",
+    "C": "True: the mediastinal surface is concave, moulded around the heart and other mediastinal structures.",
+    "E": "True: the thick, rounded posterior border lies alongside the vertebral column, in the paravertebral gutter."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-lungs-the-following-statements-are-correct-exc-e8f3c3d0": {
+   "answer": "C",
+   "explanation": "The eparterial (right upper lobe) bronchus is defined precisely by supplying ONLY the right upper lobe -- it branches off the right main bronchus above (eparterial to) the pulmonary artery specifically so it can reach the upper lobe before the artery is in the way; the middle lobe instead receives its own separate, later-branching (hyparterial) bronchus. Describing the eparterial bronchus as supplying 'both the upper and middle' lobes therefore misattributes the middle lobe's separate bronchial supply to the eparterial bronchus, making this the false statement. The other statements are standard true lung facts: bronchial arteries do supply nutrition to lung tissue, the right upper lobe does have three bronchopulmonary segments (apical, posterior, anterior), and each lung's apex does project into the root of the neck above the medial third of the clavicle.",
+   "distractorNotes": {
+    "A": "True: the bronchial arteries, part of the systemic circulation, supply nutritive blood flow to the lung parenchyma, airways, and pleura, distinct from the pulmonary arteries' gas-exchange role.",
+    "D": "True: the right upper lobe is divided into three bronchopulmonary segments -- apical, posterior, and anterior.",
+    "E": "True: the apex of each lung extends above the medial third of the clavicle into the root of the neck, a clinically important relation for structures like the brachial plexus and subclavian vessels."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-resistance-of-the-lungs-to-inflation-is-increase-by-ee943cea": {
+   "answer": "A",
+   "explanation": "Resistance to lung inflation rises when the lung tissue itself becomes stiffer -- that is, when its elastic (recoil) forces increase -- because a stiffer lung requires a larger pressure change to achieve the same increase in volume, which is the definition of reduced compliance (and thus increased resistance to inflation). This is the mechanical basis of restrictive lung diseases like pulmonary fibrosis, where increased elastic/collagenous tissue makes the lungs harder to inflate. The exam takeaway is to link 'increased elastic forces/stiffness' directly to 'increased resistance to inflation' and, conversely, factors that lower surface tension or reduce stiffening tissue to easier inflation (lower resistance, higher compliance).",
+   "distractorNotes": {
+    "B": "Decreasing alveolar surface tension makes the lung easier, not harder, to inflate, lowering resistance to inflation.",
+    "C": "Increasing surfactant concentration lowers surface tension and increases compliance, again making the lung easier to inflate, not more resistant.",
+    "D": "Decreasing collagen and elastic fibres makes lung tissue floppier (as in emphysema), increasing compliance and decreasing, not increasing, resistance to inflation."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "vital-capacity-e6eee7c9": {
+   "answer": "B",
+   "explanation": "Vital capacity is the sum of inspiratory reserve volume, tidal volume, and expiratory reserve volume, and the achievable range of each of these volumes is fundamentally constrained by how easily the lungs and chest wall can expand and recoil -- that is, by their compliance -- alongside respiratory muscle strength. A stiffer lung or chest wall (lower compliance), from causes like fibrosis, obesity, or kyphoscoliosis, directly reduces the achievable vital capacity, which is why compliance is taught as one of the key determinants of VC. The exam takeaway is to connect vital capacity conceptually to both compliance (the passive mechanical limit) and respiratory muscle strength (the active limit), rather than treating it as a fixed, purely age-and-height-determined number.",
+   "distractorNotes": {
+    "A": "Vital capacity in the third trimester of pregnancy is generally reported as roughly preserved or slightly reduced (as the enlarging uterus elevates the diaphragm and reduces expiratory reserve volume), not clearly increased."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-type-of-tissue-forms-the-alveoli-in-the-lung-44df5f2e": {
+   "answer": "A",
+   "explanation": "The alveolar wall is lined by simple squamous epithelium, dominated by thin, flattened Type I pneumocytes that cover roughly 95% of the alveolar surface area, with the remaining surface occupied by the fewer, cuboidal, surfactant-producing Type II pneumocytes. This squamous shape is functionally essential: the extreme thinness of Type I cells minimises the diffusion distance across the alveolar-capillary membrane, which is exactly what efficient passive gas exchange requires. The histology takeaway is to associate simple squamous epithelium specifically with tissues built for rapid diffusion or filtration (alveoli, capillary endothelium, Bowman's capsule's parietal layer), in contrast to cuboidal or columnar epithelium, which favour secretion or absorption.",
+   "distractorNotes": {
+    "B": "Simple cuboidal epithelium describes structures built more for secretion or absorption (e.g., kidney tubules, small gland ducts), not the ultra-thin alveolar wall.",
+    "C": "Simple columnar epithelium lines absorptive or secretory surfaces like the intestinal lining, far too thick for efficient alveolar gas diffusion.",
+    "D": "Pseudostratified (often ciliated) columnar epithelium lines the conducting airways (trachea, bronchi) for mucociliary clearance, not the thin-walled alveoli themselves."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-disease-increase-lung-compliance-a-emphysema-572250fc": {
+   "answer": "A",
+   "explanation": "Emphysema destroys alveolar walls and the elastin fibres within them, which reduces the lung's elastic recoil and makes it abnormally easy to inflate -- that is, it increases lung compliance, producing the classic 'floppy lung' of emphysema that also makes exhalation difficult because the lung no longer recoils effectively to push air out. This is the textbook exception among lung diseases, most of which instead reduce compliance by stiffening the lung with fibrous or inflammatory tissue or by filling airspaces with fluid. The exam takeaway is to pair emphysema specifically with INCREASED compliance (destructive, floppy lung), while fibrosis, congestion, and oedema all DECREASE compliance (restrictive, stiff lung) by different mechanisms.",
+   "distractorNotes": {
+    "B": "Lung fibrosis stiffens the lung with excess collagenous tissue, decreasing compliance, the opposite effect from emphysema.",
+    "C": "Lung congestion (vascular engorgement) stiffens the lung by filling it with excess blood/fluid, decreasing compliance.",
+    "D": "Pulmonary oedema fills the interstitium and alveoli with fluid, stiffening the lung and decreasing compliance, the opposite of the increase this question asks about."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -642,6 +776,27 @@
   },
   "the-nasolacrimal-duct-op-15-1110-a-superior-1-5-101016-meatu-f0a63404": {
    "reason": "The extracted 'stem' is an entire OCR'd exam page bleeding together at least eight to ten distinct, unrelated questions and severely garbled text throughout (nasolacrimal duct, azygos vein anatomy, esophagus facts, diaphragm openings, tracheal bifurcation level, laryngeal nerve relations, intercostal muscle facts, subclavian artery branches), with option lettering unrecoverable. This is unrecoverable as a single question."
+  },
+  "each-segment-is-supplied-by-a-lobar-bronchus-s-concerning-th-aae4cd22": {
+   "reason": "The stem is a corrupted merge of the tail of a bronchopulmonary-segment definition question with a separate 'concerning the lungs, choose the wrong answer' question about the right lung, and every surviving option (apex into neck, convex costal surface, concave mediastinal surface, larger than the left lung) is actually a true statement about the right lung rather than a false one -- the genuinely false statement this second question needs was in a missing option that did not survive extraction."
+  },
+  "inferlor-to-the-lower-border-of-therib-at-thie-iniddle-of-th-1dfb27a0": {
+   "reason": "The stem is a corrupted merge of a thoracentesis-site description with a separate bronchopulmonary-segments-of-the-lingula question, and the surviving options mix these two unrelated question types together (needle-insertion landmarks alongside lingular segment names and unrelated right-lung-size/lobe facts). No single coherent question can be recovered."
+  },
+  "on-e-m-examination-of-lung-section-show-pinocytic-vesicles-a-0fd1550e": {
+   "reason": "Options B and C are both extracted as literally identical text ('Pneumocytes type I'), evidently an OCR misread of 'Type II' as 'Type I' for one of them. The correct physiological answer is unambiguous (Type I pneumocytes: thin, few organelles, numerous pinocytotic vesicles), but it cannot be determined which surviving letter was the original 'Type I' choice versus the corrupted 'Type II' distractor, so no letter can be confidently assigned."
+  },
+  "one-of-the-following-is-incorrect-concerning-the-thoracic-pa-7d0e7265": {
+   "reason": "The stem embeds at least three unlettered claims about the right vagus nerve's course (branches to bronchi, passing anterior to the hilum, crossing in front of the first part of the subclavian artery) with no way to isolate which is false, while the two lettered options that do survive (D, A) describe further unrelated positional claims. Too much of this question's content is unlettered or ambiguous to identify the one false statement with confidence."
+  },
+  "one-of-the-following-structures-5-pt-related-5dd94a50": {
+   "reason": "The stem itself is an incoherent fragment ('One of the following structures 5 pt related') with no clear question being asked, and the options mix unrelated structure names (lungs, heart, azygos vein) with an unrelated full statement about intercostal vein drainage. No coherent question can be recovered."
+  },
+  "select-the-correct-statement-about-o-transport-in-the-blood-3533ae13": {
+   "reason": "Option A is truncated ('During normal activity, a molecule of Hb returning to the lungs...') and its true completion cannot be determined -- it could continue to state a true fact (mixed venous haemoglobin is still about 75% saturated) or a false one (e.g. claiming it is completely deoxygenated). While option B is confidently false (the Bohr effect means decreased pH DECREASES, not increases, haemoglobin's oxygen affinity), A's indeterminate truncation and a missing option C make this too uncertain to key by elimination alone."
+  },
+  "the-diagram-above-shows-three-different-compliance-curves-s-e04b57fc": {
+   "reason": "This question depends on reading an accompanying diagram (three labelled compliance curves S, T, and U) that is not available in the text extraction -- the relative compliance ordering cannot be determined from text alone."
   }
  }
 }
