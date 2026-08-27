@@ -10,10 +10,10 @@
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
-    Cytogenetics — Cell Cycle Phase Details — 7 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phase Details — 8 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 1 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
@@ -4047,6 +4047,100 @@ Extraction confidence high; the answer came from the question book itself.
 
 # Item
 ## id
+QM-104-FCD552F3F683
+## title
+In the interphase of cell cycle, synthesis (S) phase shows:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In the interphase of cell cycle, synthesis (S) phase shows:
+## answer_a
+Cells grow in size and acquire ATP
+## explanation_a
+Cell growth and ATP acquisition are G1 characteristics, occurring before S phase's DNA and centriole duplication, not during S phase itself.
+## answer_b
+Nucleus contains 46 single chromosomes (chromatids)
+## explanation_b
+A nucleus holding 46 single chromosomes (chromatids) describes the pre-replication G1 state; by S phase, DNA has duplicated so each chromosome is now double (a d-chromosome).
+## answer_c
+Duplication of centrioles
+## explanation_c
+S phase is characterised by duplication of DNA and, in parallel, duplication of the centrioles — so that by the time the cycle reaches mitosis each future daughter cell inherits a complete, duplicated centrosome to organise its own spindle. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.
+
+Why this is right:
+- The cell cycle is a series of events within the cell that prepare it for division into two daughter cells, recognised in two phases.
+- Mitosis is the period of division itself, changes visible by microscope, lasting about one hour.
+- Interphase is the period between two successive divisions, changes not detectable by microscope, lasting about 20 hours in rapidly dividing cells, and subdivided into three phases.
+## answer_d
+Formation of tubulin
+## explanation_d
+Tubulin is formed in G2, immediately before mitosis, to build the mitotic microtubules — a later event than S phase's DNA/centriole duplication.
+## correct_answer
+C
+## main_concept
+CON-FND-9C205E44C3404D
+## library_ids
+ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
+## topic
+Cytogenetics — Cell Cycle Phase Details
+## subtopic
+Cytogenetics — Cell Cycle Phase Details
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+State that centriole duplication is an S-phase event, running alongside DNA duplication.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p14 q105. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-880C8D35E8B4
 ## title
 blood cell, cells lining GIT are example for
@@ -5059,6 +5153,190 @@ Claude
 Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p34 q13. Manifest src_9cf32ada2b25fa54f0e9.
 ## author_notes
 Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-C13FFCC5E549
+## title
+One of the following has a pluripotential stem cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following has a pluripotential stem cell:
+## answer_a
+Blood cells
+## explanation_a
+Blood cells are the department book's own example of a continuously renewing cell line, replaced throughout life from a pluripotential (multipotential) haematopoietic stem cell that can give rise to more than one specialised blood-cell type — the one option among the four that genuinely has a stem cell behind it.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_b
+Hepatocytes
+## explanation_b
+Hepatocytes are potentially renewable, not stem-cell-dependent: a mature liver cell that has left the cycle for G0 can itself re-enter the cycle and divide when replacement is needed, with no separate stem-cell population feeding it.
+## answer_c
+Bone cells
+## explanation_c
+Bone cells (osteocytes) are likewise potentially renewable working cells rather than end cells fed by a dedicated pluripotential stem-cell line; the actively dividing cells of bone are osteoprogenitor cells, not a pluripotential stem cell in this classification's sense.
+## answer_d
+Nerve cells
+## explanation_d
+Nerve cells are the classic non-renewing cell — once a mature neuron is lost it is not replaced at all, which is the opposite of having a stem cell continuously producing new ones.
+## correct_answer
+A
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise blood cells as the continuously renewing line replaced from a pluripotential stem cell, the only option of the four that has one.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q5; Histo MCQ by Dr.Kandeel [104].pdf p40 q5; DPT HISTO MCQ [Cytogenetics].pdf p1 q5. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 3 times across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-A3699DBF5329
+## title
+One of the following is a non-renewing cell:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of the following is a non-renewing cell:
+## answer_a
+Hepatocyte
+## explanation_a
+Hepatocytes are potentially renewable: a liver cell leaves the cycle for G0 but can re-enter it and divide when the liver needs to replace lost tissue, which is why partial hepatectomy is followed by regeneration.
+## answer_b
+Epidermal cell
+## explanation_b
+Epidermal cells are continuously renewing, replaced throughout life from the stem cells of the epidermis's basal layer — the opposite of non-renewing.
+## answer_c
+Nerve cell
+## explanation_c
+The nerve cell is the department book's example of a non-renewing cell: once a mature neuron leaves the cycle for G0 it never re-enters it, and a neuron lost to injury or disease is not replaced. A common trap: reading 'continuously renewing' as continuously dividing, when it is the stem cell behind an end cell that divides, not the end cell itself — but that mechanism does not even apply here, since no stem cell replaces a lost neuron at all.
+
+Why this is right:
+- Specialized cells are classified by their ability to reproduce themselves into non-renewing cells, which leave the cycle in G1 for G0 permanently and are never replaced; potentially renewable cells, which go to G0 but can return; and continuously renewing cells, which are end cells replaced from stem cells.
+## answer_d
+Cartilage cell
+## explanation_d
+Cartilage cells (chondrocytes) retain some capacity to divide within the cartilage matrix and are treated as potentially renewable, not as the non-renewing example.
+## correct_answer
+C
+## main_concept
+CON-FND-A2E40256517389
+## library_ids
+ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
+## topic
+Cytogenetics
+## subtopic
+Cytogenetics — Cell Renewal Classification
+## module
+104 CPS
+## module_subject
+104 CPS > Histology > Cytogenetics > The Cell Cycle
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Recognise the nerve cell as the non-renewing example — never replaced once lost — against three cells with some renewal capacity.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+7.5
+## exam_weight_by_year
+KAU_Y1=0.75
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT HISTO MCQ [Cytogenetics] 2023.pdf p1 q4; Histo MCQ by Dr.Kandeel [104].pdf p40 q4; DPT HISTO MCQ [Cytogenetics].pdf p1 q4. Manifest src_79af3b3857ba47239529, src_9cf32ada2b25fa54f0e9, src_be181ad1f0be0dab13c9.
+## author_notes
+Asked 3 times across the question books.
 Extraction confidence high; the answer came from the question book itself.
 
 

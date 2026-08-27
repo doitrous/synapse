@@ -10,10 +10,10 @@
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
     Cytogenetics — Aneuploidy Mechanisms and General Causes — 8 questions, 2 concepts
-    Cytogenetics — Cell Cycle Phase Details — 7 questions, 1 concepts
+    Cytogenetics — Cell Cycle Phase Details — 8 questions, 1 concepts
     Cytogenetics — Cell Cycle Phases and Stem Cells — 5 questions, 2 concepts
     Cytogenetics — Cell Death (Necrosis vs Apoptosis) — 5 questions, 1 concepts
-    Cytogenetics — Cell Renewal Classification — 1 questions, 1 concepts
+    Cytogenetics — Cell Renewal Classification — 3 questions, 1 concepts
     Cytogenetics — Chromosome Structure, Karyotyping, Classification, Sex Chromatin — 14 questions, 4 concepts
     Cytogenetics — Mitosis Stages, Meiosis and Their Comparison — 15 questions, 3 concepts
     Cytogenetics — Mitosis and the Mitotic Spindle — 2 questions, 1 concepts
@@ -764,6 +764,7 @@ cell-cycle.phases-g1-s-g2-m-and-g0
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
 src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
 src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p14 | 104 CPS
 ## article_ids
 +ART-104-HIS-CELL-CYCLE-RENEWAL-DEATH
 ## field_notes
@@ -840,18 +841,21 @@ kau
 1
 ## exam_signal
 src_9cf32ada2b25fa54f0e9 | question_book | | p34 | 104 CPS
+src_79af3b3857ba47239529 | question_book | | p1 | 104 CPS
+src_9cf32ada2b25fa54f0e9 | question_book | | p40 | 104 CPS
+src_be181ad1f0be0dab13c9 | question_book | | p1 | 104 CPS
 ## weight_confidence
-0.6
+0.8
 ## blueprint_weight
-0.23
+0.47
 ## exam_weight_by_year
-KAU_Y1=0.23
+KAU_Y1=0.47
 ## clinical_relevance
 0.3
 ## academic_relevance
 0.9
 ## confidence
-0.7
+0.85
 ## topic
 Histology
 ## subtopic
@@ -863,7 +867,7 @@ ART-104-HIS-CELL-RENEWAL-AND-ANEUPLOIDY
 ## support_mode
 direct_statement
 ## original_wording
-[asked 1x across the question books] sperms are example for
+[asked 3x across the question books] One of the following has a pluripotential stem cell:
 ## conflicts
 [clear]
 ## uncertainty

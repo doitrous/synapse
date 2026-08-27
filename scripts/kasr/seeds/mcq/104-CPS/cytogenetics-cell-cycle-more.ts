@@ -113,5 +113,18 @@ export const LEAF: McqLeafSeed = {
         D: "Both halves of this pairing are wrong: greater specialisation is paired with a longer G1 and a lower rate of division, not a smaller phase and smaller rate change in this direction.",
       },
     },
+    {
+      key: "in-the-interphase-of-cell-cycle-synthesis-s-phase-shows-ffdda484",
+      conceptKey: "cell-cycle.phases-g1-s-g2-m-and-g0",
+      difficulty: "Moderate",
+      questionType: "Definition",
+      learningObjective: "State that centriole duplication is an S-phase event, running alongside DNA duplication.",
+      explanations: {
+        A: "Cell growth and ATP acquisition are G1 characteristics, occurring before S phase's DNA and centriole duplication, not during S phase itself.",
+        B: "A nucleus holding 46 single chromosomes (chromatids) describes the pre-replication G1 state; by S phase, DNA has duplicated so each chromosome is now double (a d-chromosome).",
+        C: "S phase is characterised by duplication of DNA and, in parallel, duplication of the centrioles — so that by the time the cycle reaches mitosis each future daughter cell inherits a complete, duplicated centrosome to organise its own spindle. A common trap: confusing the s-chromosome (single-stranded chromatid, present through G1) with the d-chromosome (double-stranded, present from S phase onward) — the '46 chromosomes' fact is true in both G1 and after S, but what a chromosome is made of has changed.",
+        D: "Tubulin is formed in G2, immediately before mitosis, to build the mitotic microtubules — a later event than S phase's DNA/centriole duplication.",
+      },
+    },
   ],
 }
