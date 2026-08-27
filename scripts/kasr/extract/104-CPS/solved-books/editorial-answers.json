@@ -60,6 +60,12 @@
    "cluster": "Anatomy / Thoracic Cage (tail) + Thoracic Cavity - end of Anatomy subject",
    "keyed": 14,
    "excluded": 14
+  },
+  {
+   "batch": 11,
+   "cluster": "Histology / Cardiovascular System - A-V Connections (start of Histology subject)",
+   "keyed": 17,
+   "excluded": 3
   }
  ],
  "keyed": {
@@ -1019,6 +1025,172 @@
     "D": "True: the pulmonary ligament, a fold of mediastinal pleura below the lung root, provides room to accommodate distension of the pulmonary veins."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-histological-feature-of-the-bronchiole-is-0-a-it-has-carti-14b9553c": {
+   "answer": "A",
+   "explanation": "Alveolar sacs are defined as clusters of alveoli opening into a common expanded space at the terminal ends of the alveolar ducts -- exactly what option A describes -- forming the final, most distal air-containing structures of the respiratory tree before gas exchange occurs across the surrounding alveolar walls. They are lined by simple squamous epithelium (dominated by thin Type I pneumocytes) rather than cuboidal epithelium, essentially lack the smooth muscle found at more proximal levels of the airway tree, and are in fact densely invested with blood capillaries, since this capillary network pressed against the thin squamous lining is precisely what makes gas exchange possible. The histology takeaway is to picture the alveolar sac as the terminal, expanded, capillary-rich air space cluster, distinct from the muscular, cartilage-containing, or goblet-cell-bearing features that instead characterise more proximal conducting airway segments like the bronchiole itself.",
+   "distractorNotes": {
+    "B": "Alveolar sacs and alveoli are lined by simple SQUAMOUS epithelium (Type I and Type II pneumocytes), not simple cuboidal epithelium.",
+    "C": "Smooth muscle is present at more proximal levels (bronchioles, alveolar ducts, where small muscular sphincters guard the alveolar mouths) but is essentially absent by the level of the alveolar sac itself.",
+    "D": "Alveolar sacs are, on the contrary, extremely richly supplied with blood capillaries, since this close capillary-alveolar apposition is the structural basis of gas exchange."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "arterio-venous-anastomoses-are-characterized-by-0677dfc0": {
+   "answer": "D",
+   "explanation": "Arteriovenous (AV) anastomoses are specialised vascular shunts that bypass the capillary bed entirely, connecting an arteriole directly to a venule, and they are indeed concentrated in the tips of the fingers and toes (along with the ear lobes and nose), richly innervated by sympathetic vasoconstrictor fibres that open or close them, and involved in regulating blood flow and pressure distribution to these peripheral extremities. Because each of these three statements is independently a genuine, textbook-recognised feature of AV anastomoses -- their characteristic distribution, their dense sympathetic innervation, and their haemodynamic regulatory role -- the correct choice is the combined 'all of the above' option. This structure is central to thermoregulation: opening these shunts diverts blood away from the skin surface to conserve heat, while closing them redirects flow through the capillary bed to promote heat loss.",
+   "distractorNotes": {},
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "based-on-the-following-values-the-flow-of-fluid-out-of-the-c-858e5d64": {
+   "answer": "C",
+   "explanation": "Net filtration is zero when the outward Starling forces exactly balance the inward ones: (capillary hydrostatic pressure + interstitial oncotic pressure) must equal (interstitial hydrostatic pressure + capillary oncotic pressure). Plugging in the given values: 18 + 7 = Pi + 27, which solves to Pi = -2 mmHg -- a negative interstitial hydrostatic pressure, consistent with the normal physiological finding that interstitial fluid pressure in most tissues is slightly sub-atmospheric (negative). The magnitude of this answer, 2 mmHg, matches option C once the negative sign (very commonly lost in OCR extraction of minus signs) is accounted for, while option D's explicit '+2 mmHg' represents the wrong sign for the calculated balance point.",
+   "distractorNotes": {
+    "A": "4 mmHg does not satisfy the balance equation 18 + 7 = Pi + 27 for any sign convention.",
+    "B": "0 mmHg does not balance the equation either: with Pi = 0, the net filtration pressure would be 18 + 7 - 0 - 27 = -2 mmHg (net absorption, not zero flow).",
+    "D": "The magnitude matches the calculated answer, but the required interstitial hydrostatic pressure for zero net flow is negative (-2 mmHg), not positive, since 18 + 7 = -2 + 27 balances correctly while 18 + 7 = +2 + 27 does not."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "blood-capillaries-in-exocrine-glands-are-d8a679f4": {
+   "answer": "C",
+   "explanation": "Exocrine glands, such as the pancreas and salivary glands, require efficient bulk movement of fluid and small solutes to support active secretion, and their capillary beds are accordingly of the fenestrated (visceral) type -- endothelium perforated by small pores, typically covered by a thin diaphragm, sitting atop a continuous basement membrane. This structural adaptation allows rapid passage of water and small molecules between blood and the secretory acinar cells without the wholesale leakiness of a sinusoidal capillary, matching the gland's high metabolic and secretory demands. The histology takeaway is to associate fenestrated capillaries generally with secretory or absorptive/filtering organs -- endocrine and exocrine glands, the gastrointestinal mucosa, and the renal glomerulus.",
+   "distractorNotes": {
+    "A": "Sinusoidal capillaries, with their large gaps and often discontinuous basement membrane, are instead characteristic of organs like the liver, spleen, and bone marrow, not typical exocrine gland acini.",
+    "B": "'Visceral capillaries' is essentially a synonym for fenestrated capillaries in some textbooks, but is not the conventional term used to distinguish this answer from option C in this bank.",
+    "D": "'Somatic capillaries' is the term used for continuous (non-fenestrated) capillaries found in muscle, skin, and the CNS, the opposite structural category from what supports active glandular secretion."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "blood-sinusoids-are-characterized-by-the-following-91db52cc": {
+   "answer": "D",
+   "explanation": "A defining histological feature of blood sinusoids is the presence of macrophages sitting either within the sinusoidal wall itself or immediately outside it -- the classic example being Kupffer cells lodged within the lining of liver sinusoids, and macrophages of the splenic cords positioned just outside the wall of splenic sinusoids. This intimate macrophage association reflects the sinusoid's role in organs (liver, spleen, bone marrow, some endocrine glands) where blood needs close surveillance and filtering, which the sinusoid's unusually open, slow-flow architecture is built to support. The exam takeaway is to treat 'macrophages in/around the wall' as sinusoids' signature identifying feature, distinct from the wide intercellular gaps, discontinuous basement membrane, and large irregular lumen that describe their structure but are shared in degree with fenestrated capillaries.",
+   "distractorNotes": {
+    "A": "Sinusoids characteristically DO have large pores/gaps in their wall -- often without even a covering diaphragm -- the opposite of having no pores.",
+    "B": "Sinusoidal endothelial cells are separated by wide, not minimal, intercellular spaces, which is precisely what allows even large molecules and cells to pass through the wall.",
+    "C": "Sinusoids characteristically have a discontinuous or even absent basement membrane, not a continuous one -- this is one of the key features distinguishing them from fenestrated capillaries."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "one-of-the-following-is-a-type-of-blood-capillaries-a-blood-68545fdd": {
+   "answer": "A",
+   "explanation": "Blood sinusoids are one of the three recognised structural types of blood capillary -- alongside continuous and fenestrated capillaries -- distinguished by their large, irregular lumen, wide endothelial gaps, and discontinuous basement membrane, typically found in the liver, spleen, and bone marrow. The other options name specific, individually identifiable vessels or an entirely different vessel category rather than a structural type/class of capillary. The exam takeaway is to keep the three-way capillary classification (continuous, fenestrated, sinusoidal) distinct from named individual vessels (like the coronary or basilar arteries) and from the separate lymphatic vascular system.",
+   "distractorNotes": {
+    "B": "Coronary vessels are specific, named arteries (and their branches) supplying the heart muscle, not a structural category of capillary.",
+    "C": "Basilar vessels refer to the specific basilar artery of the brainstem circulation, not a capillary type.",
+    "D": "Lymphatic capillaries are part of the separate lymphatic vascular system, carrying lymph rather than blood, so they are not a type of BLOOD capillary."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "pericyte-of-blood-capillary-can-differentiate-into-the-follo-5b3cb3c8": {
+   "answer": "D",
+   "explanation": "Pericytes are multipotent, mesenchymal-lineage perivascular cells that retain the capacity to differentiate into other mesenchymal cell types, most notably fibroblasts and smooth muscle cells, particularly during tissue repair, wound healing, and vascular remodelling. This differentiation potential is part of why pericytes are considered a reserve population of tissue-repair cells embedded within the capillary basal lamina, distinct from the fully differentiated endothelial cells they wrap around. The histology takeaway is to associate pericytes with mesenchymal-lineage differentiation potential (fibroblasts, smooth muscle), not with lineages from other embryological origins like haematopoietic cells or mesothelium.",
+   "distractorNotes": {
+    "A": "Macrophages differentiate from monocytes of the haematopoietic lineage, an entirely different developmental origin from the mesenchymal pericyte.",
+    "B": "Skeletal muscle cells arise from myogenic precursor (satellite) cells of a distinct lineage, not from pericytes.",
+    "C": "Mesothelial cells arise embryologically from the mesothelium lining body cavities, an unrelated lineage to the perivascular pericyte."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-lymphatic-capillaries-choose-the-correct-state-6e9870ae": {
+   "answer": "A",
+   "explanation": "Lymphatic capillaries are lined by a single, thin layer of endothelial cells, similar in basic construction to blood capillaries but adapted quite differently to their function of picking up interstitial fluid, proteins, and even cells that are too large to re-enter blood capillaries. Unlike blood capillaries, lymphatic capillaries are typically larger in diameter and MORE (not less) permeable, their endothelial cells are joined by loose, overlapping (button-like) junctions rather than tight junctions, specifically to allow easy entry of fluid and macromolecules, and they characteristically lack a continuous basement membrane and lack pericytes altogether (rather than having a basement membrane that splits to enclose pericytes, as some blood vessels do). The exam takeaway is that lymphatic capillaries are built to be more open and permeable than blood capillaries, the functional opposite of what options B, C, and D describe.",
+   "distractorNotes": {
+    "B": "Lymphatic capillaries are larger in diameter and MORE permeable than blood capillaries, not smaller and less permeable -- this is essential to their fluid- and macromolecule-collecting function.",
+    "C": "Lymphatic capillary endothelial cells are joined by loose, overlapping junctions rather than tight junctions, allowing easy entry of interstitial fluid and proteins.",
+    "D": "Lymphatic capillaries characteristically lack a continuous basement membrane and lack pericytes entirely, rather than having a basement membrane that splits around pericytes."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-the-metarterioles-the-following-are-correct-f3764004": {
+   "answer": "D",
+   "explanation": "Metarterioles are short vascular segments continuing from arterioles, wrapped in a discontinuous cuff of smooth muscle cells (forming precapillary sphincters at points where true capillaries branch off), and their defining physiological role is precisely to control blood flow into the downstream true capillary network. By selectively contracting or relaxing, these smooth muscle cuffs open or close access to individual capillaries, allowing fine local regulation of which capillary beds are perfused at any given moment, matching tissue metabolic demand. The histology takeaway is to fix the metarteriole's identity as a flow-control gateway between arterioles and the true capillary bed, governed by smooth muscle (not elastic tissue).",
+   "distractorNotes": {
+    "A": "This loosely describes metarterioles' broader role as a low-resistance channel eventually linking the arterial and venous sides via the thoroughfare channel, but it is a less precise description than their defining, direct flow-control function over the capillary bed.",
+    "B": "Precapillary sphincters are formed of smooth muscle cells, not elastic fibres -- a clear terminology error.",
+    "C": "The relationship is reversed: capillaries branch off from metarterioles, not the other way around."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "sinusoidal-capillary-blood-sinusoid-is-characterized-by-e2000dcb": {
+   "answer": "A",
+   "explanation": "Blood sinusoids characteristically have few to no pericytes surrounding their endothelium, in contrast to continuous and fenestrated capillaries, which retain a more substantial pericyte investment -- this reduced pericyte coverage is part of what makes the sinusoidal wall unusually open and permeable. Sinusoids are also large and irregular in diameter (not small and regular), and their endothelial cells are joined by wide gaps rather than tight junctions, both features that further distinguish them from the more restrictive continuous capillary type. The histology takeaway is to remember sinusoids as the 'leakiest' capillary type -- large, irregular, pericyte-poor, with wide endothelial gaps and a discontinuous basal lamina -- built for organs like the liver, spleen, and bone marrow that need close blood-tissue contact.",
+   "distractorNotes": {
+    "B": "Sinusoids are large and irregular, not small and regular, in diameter -- the opposite of what continuous capillaries look like.",
+    "C": "Sinusoids have a discontinuous (or absent) basal lamina, not a continuous one.",
+    "D": "Sinusoidal endothelial cells are joined by wide gaps rather than tight junctions, allowing free passage of even large molecules and cells."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "starling-forces-of-bulk-flow-include-all-of-the-following-ex-84983327": {
+   "answer": "C",
+   "explanation": "The four classical Starling forces governing fluid movement across the capillary wall are capillary hydrostatic pressure, interstitial hydrostatic pressure, capillary (plasma) colloid osmotic pressure, and interstitial colloid osmotic pressure -- right atrial pressure is a distinct cardiovascular parameter (reflecting central venous pressure/cardiac filling) and is not one of the four forces in the Starling equation itself. This is a classic 'which one doesn't belong' test of whether the four specific Starling forces have been memorised precisely, since right atrial pressure, while physiologically important elsewhere (venous return, CVP), plays no direct role in the local capillary filtration/absorption balance. The exam takeaway is to fix the Starling equation's four terms exactly: net filtration = (Pc - Pi) - (πc - πi).",
+   "distractorNotes": {
+    "A": "Capillary hydrostatic pressure is one of the four genuine Starling forces, driving fluid OUT of the capillary.",
+    "B": "Interstitial colloid osmotic pressure is one of the four genuine Starling forces, drawing fluid OUT of the capillary (toward the interstitium).",
+    "D": "Interstitial hydrostatic pressure is one of the four genuine Starling forces, opposing outward filtration."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "that-capillaries-can-withstand-high-internal-pressures-witho-57d4fc14": {
+   "answer": "B",
+   "explanation": "The Law of Laplace states that wall tension is proportional to the product of pressure and radius (T = P x r), so for a vessel with an extremely small radius like a capillary, even a relatively high internal pressure produces only a small wall tension -- this is precisely why capillaries, despite having exceptionally thin walls (just a single layer of endothelium), can withstand physiological pressures without rupturing. This principle explains a counterintuitive-seeming fact: the much larger-radius aorta, despite its far thicker and stronger wall, actually experiences much higher wall tension at a similar internal pressure than a capillary does, precisely because of its larger radius. The exam takeaway is to apply Laplace's law whenever a question links vessel radius, wall thickness, and resistance to bursting.",
+   "distractorNotes": {
+    "A": "Bernoulli's principle relates fluid pressure to flow velocity along a streamline; it does not describe wall tension or bursting resistance.",
+    "C": "The Poiseuille-Hagen law relates flow rate to pressure gradient, vessel radius, and viscosity (governing resistance to flow), not wall tension or bursting resistance.",
+    "D": "The Fahraeus-Lindqvist effect describes how apparent blood viscosity decreases in vessels of very small diameter, an unrelated phenomenon to wall tension and bursting resistance."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-blood-thymic-barrier-is-achieved-by-the-following-b845a999": {
+   "answer": "C",
+   "explanation": "One of the recognised structural components of the blood-thymic barrier is a well-developed perivascular (pericapillary) connective tissue space surrounding the cortical capillaries, which contains macrophages that help intercept and process any blood-borne antigens before they could reach and influence the developing thymocytes in the cortex. This barrier, taken together with continuous capillary endothelium joined by tight junctions, a continuous (often thick) basement membrane, and a surrounding sheath of epithelioreticular (thymic epithelial) cells also joined by tight junctions, is what protects immature, self-tolerance-still-developing T-cells from exposure to circulating self-antigens during their selection process. The histology takeaway is to remember the blood-thymic barrier as a multi-layered structure (continuous endothelium, continuous basement membrane, perivascular macrophage-containing space, epithelioreticular cell sheath), each layer reinforcing the isolation of the cortical thymocyte compartment.",
+   "distractorNotes": {
+    "A": "The blood-thymic barrier's capillaries are CONTINUOUS (not non-continuous/fenestrated), with endothelial cells joined by tight junctions -- a discontinuous endothelium would defeat the barrier's isolating purpose.",
+    "B": "The basement membrane component of the blood-thymic barrier is continuous and often relatively thick, not thin and discontinuous, again to reinforce the barrier rather than weaken it.",
+    "D": "Plasma cells (antibody-producing B-lymphocyte derivatives) are not a standard, recognised structural component of the blood-thymic barrier; macrophages, not plasma cells, occupy the perivascular space in this context."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-capillaries-can-withstand-high-internal-pressure-without-75f7a208": {
+   "answer": "C",
+   "explanation": "This is a duplicate of the sibling question on the same principle: the Law of Laplace (wall tension proportional to pressure times radius) explains why capillaries, despite their extremely thin walls, can withstand physiological internal pressures without bursting -- their very small radius keeps the resulting wall tension low even under significant pressure. This is the same reasoning that explains why a large-radius vessel like the aorta experiences much greater wall tension than a capillary at a comparable pressure, despite the aorta's far more robust, muscular wall.",
+   "distractorNotes": {
+    "A": "Starling's law (or the Starling forces/Starling's law of the heart, depending on context) does not describe wall tension or resistance to bursting.",
+    "B": "Vasomotion refers to the rhythmic, spontaneous contraction and relaxation of precapillary sphincters regulating capillary perfusion, unrelated to wall tension and bursting resistance.",
+    "D": "The Poiseuille-Hagen law describes flow rate as a function of pressure gradient, radius, and viscosity (vascular resistance), not wall tension or bursting resistance."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-type-of-capillaries-that-show-pores-and-diaphragms-is-0586b4be": {
+   "answer": "B",
+   "explanation": "Fenestrated (visceral) capillaries are defined by pores (fenestrations) perforating their endothelial cells, which in most locations (with the notable exception of the renal glomerulus) are spanned by a thin, non-membranous diaphragm -- this pores-plus-diaphragm combination is precisely the identifying feature this question tests. This structure allows controlled, relatively rapid passage of fluid and small solutes while still providing some size-selective filtering via the diaphragm, matching the needs of tissues like endocrine glands, the GI tract lining, and the choroid plexus. The histology takeaway is to place fenestrated/visceral capillaries as structurally and functionally intermediate between the tightly sealed continuous (somatic) capillary and the wide-open, diaphragm-less blood sinusoid.",
+   "distractorNotes": {
+    "A": "Somatic (continuous) capillaries have no pores in their endothelium at all -- transport occurs through or between tightly joined endothelial cells, not through fenestrations.",
+    "C": "Blood sinusoids have large gaps/openings in their walls that typically lack a covering diaphragm altogether, a further step beyond the fenestrated type's pore-plus-diaphragm arrangement.",
+    "D": "Continuous capillaries, by definition, have no pores or fenestrations of any kind."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "thin-walled-capillaries-donot-burst-when-intracapillary-pres-286420f9": {
+   "answer": "C",
+   "explanation": "By the Law of Laplace (wall tension proportional to pressure multiplied by radius), a vessel with a very small radius -- like a capillary -- develops only low wall tension even when subjected to relatively high internal pressure, which is exactly why thin-walled capillaries can withstand physiological pressures without rupturing. This is a structural, geometric protection rather than one based on the vessel lacking smooth muscle, having reduced flow, or differences in local haematocrit, none of which directly determine wall tension under Laplace's relationship. The exam takeaway is to apply Laplace's law directly whenever a question links a vessel's small radius to its resistance to bursting, regardless of how thin its wall is.",
+   "distractorNotes": {
+    "A": "Capillaries do lack smooth muscle in their walls, but this fact alone does not explain resistance to bursting -- if anything, the absence of a supportive muscular coat would seem to make rupture more, not less, likely without the radius-based Laplace protection.",
+    "B": "Blood flow rate through capillaries does not directly determine wall tension or resistance to bursting; that relationship is governed by pressure and radius per Laplace's law.",
+    "D": "Capillary haematocrit being lower than whole-body haematocrit (the Fahraeus effect) is a real phenomenon, but it concerns blood rheology/composition, not the mechanical wall-tension basis of resistance to bursting."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "visceral-capillaries-are-characterized-by-the-following-0999435e": {
+   "answer": "C",
+   "explanation": "Visceral (fenestrated) capillaries exist specifically to support rapid exchange of fluid and small solutes between blood and surrounding tissue, which is why they are found in organs with high filtration or secretory demands -- endocrine and exocrine glands, the gastrointestinal mucosa, and the renal glomerulus -- making 'found at sites where rapid exchange is needed' their defining functional characteristic. This structural adaptation (pores/fenestrations, usually diaphragm-covered, sitting on a continuous basement membrane) is a direct structural answer to that functional demand, distinguishing visceral capillaries from the tightly sealed continuous (somatic) type built for more restrictive tissues like muscle and the CNS. The exam takeaway is to lead with the functional rationale (rapid exchange) as the generalisable, defining feature, since specific organ locations are supporting examples rather than the defining characteristic itself.",
+   "distractorNotes": {
+    "A": "Visceral (fenestrated) capillaries, by definition, DO have pores (fenestrations) in their wall -- the opposite of having none.",
+    "B": "Visceral (fenestrated) capillaries have a CONTINUOUS basement membrane, distinguishing them from sinusoids, which have a discontinuous one.",
+    "D": "Presence in the intestine is a true but narrower, example-level fact rather than the general defining characteristic the question is asking for."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -1360,6 +1532,15 @@
   },
   "the-intraptoural-pressure-is-normally-negative-due-to-9-pres-f71a9c25": {
    "reason": "The stem is a corrupted merge of an intrapleural-pressure-causes question with the start of a Valsalva's-manoeuvre question, and the surviving lettered options are themselves a garbled merge of unrelated facts (sympathetic stimulation, leukotrienes and histamine, respiratory membrane thickness, and the start of yet another lung apex/base comparison question). This is unrecoverable as a single coherent question."
+  },
+  "1-ip-the-blood-capillaries-reguls-the-blood-flow-is-the-func-a390fd08": {
+   "reason": "The stem is a corrupted merge of a capillary-blood-flow-regulation question with a separate, unrelated question about longitudinal smooth muscle in vessel adventitia, and the surviving lettered options (aorta, muscular arteries) answer only the second, unrelated question -- the first question's own candidate answers (elastic fibres, smooth muscle fibres, fibroblasts) survive only as unlettered stem text with no way to assign a letter."
+  },
+  "renal-glomerular-capillaries-are-a-type-of-c122dd7c": {
+   "reason": "The correct answer (fenestrated capillaries, the standard classification for glomerular capillaries built for rapid plasma filtration) is missing from the surviving options -- sinusoidal, continuous, and somatic are all incorrect classifications for glomerular capillaries -- and option D has also absorbed an entirely unrelated extended-matching table about mitosis, further corrupting this row."
+  },
+  "fenestrated-visceral-blood-capillaries-are-known-by-bbfeda5d": {
+   "reason": "All three surviving options actually describe defining features of blood SINUSOIDS rather than fenestrated capillaries -- sinusoids, not fenestrated capillaries, characteristically show a discontinuous/absent basal lamina, reduced pericyte coverage, and form the specialised splenic microvasculature. The genuine defining feature of fenestrated capillaries (a continuous basal lamina despite the endothelial pores, often covered by thin diaphragms) was most likely in a missing option C."
   }
  }
 }
