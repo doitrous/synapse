@@ -3,8 +3,9 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 2 questions, 1 concepts
+    Lymphatics of the Thorax — 3 questions, 1 concepts
     Pericardium — 7 questions, 3 concepts
+    Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
@@ -611,6 +612,98 @@ Extraction confidence medium; the answer came from no source and was supplied by
 
 # Item
 ## id
+QM-104-244BAA703A75
+## title
+Which of the followings regarding the thoracic duct is true?
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the followings regarding the thoracic duct is true?
+## answer_a
+Begins at the level of the body of T10
+## explanation_a
+The thoracic duct begins at the lower border of T12, not the body of T10, as the continuation of the cisterna chyli.
+## answer_b
+Receives the left jugular and subclavian lymph trunks
+## explanation_b
+This is the correct answer. At its termination, the thoracic duct receives the left jugular, left subclavian and left bronchomediastinal lymph trunks, immediately before opening into the start of the left brachiocephalic vein.
+
+Why this is right:
+- The thoracic duct, the largest lymphatic vessel in the body at about 45 cm, is a beaded, valved vessel beginning in the abdomen at the lower border of T12 as the continuation of the cisterna chyli.
+## answer_c
+Passes in front of the esophagus
+## explanation_c
+The thoracic duct passes BEHIND the oesophagus, not in front of it, ascending behind its right border below T5 and behind its left border above T5.
+## answer_d
+Receives lymph from the right side of thoracic cavity
+## explanation_d
+The thoracic duct's field of drainage is the LEFT side of the thorax (plus the two lower limbs and most of the abdomen) — the right side of the thoracic cavity drains instead into the right lymphatic duct.
+## correct_answer
+B
+## main_concept
+CON-HEM-9123D4493320A7
+## library_ids
+ART-104-ANA-THORACIC-LYMPHATICS
+## topic
+Lymphatics of the Thorax
+## subtopic
+Lymphatics of the Thorax
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Lymphatics of the Thorax
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall of the true statement
+## learning_objective
+State that the thoracic duct receives the left jugular and left subclavian lymph trunks at its termination.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 197 CPS 104 - 197 (1).pdf p1 q4. Manifest src_a80db7ee55cde84f8ec8.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
 QM-104-BD0E17EAE0F3
 ## title
 About the transverse sinus of the serous pericardium mark one correct statement:
@@ -1161,6 +1254,194 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p11 q45. Manifest src_c30d947377670cb99a40.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-16E00305CC45
+## title
+All characters of Pleura except?
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+All characters of Pleura except?
+## answer_a
+Parietal pleura line thoracic Cavity
+## explanation_a
+True, and so not the answer sought. The parietal pleura lines the thoracic cavity — its subdivisions (cervical, costal, mediastinal, diaphragmatic) are named for exactly the walls of that cavity they line.
+## answer_b
+visceral pleura line thoracic Cavity
+## explanation_b
+This is the false statement, and the correct answer. It is the parietal pleura, not the visceral pleura, that lines the thoracic cavity's walls — the visceral pleura instead adheres directly and closely to the surface of the lung itself.
+
+Why this is right:
+- Each pleural sac is a closed serous sac invaginated from its medial side by the lung, forming a visceral layer adherent to the lung and a parietal layer, with the pleural cavity between them holding only a thin film of fluid.
+## answer_c
+lubrication reduce friction between lung surface, thorax
+## explanation_c
+True, and so not the answer sought. The thin film of fluid in the pleural cavity lubricates the space between the two pleural layers, letting the lung slide against the thoracic wall with minimal friction during breathing.
+## answer_d
+serous membrane lined by flat mesothelial cell
+## explanation_d
+True, and so not the answer sought. The pleura, like other serous membranes, is a serous membrane lined by a single layer of flat mesothelial cells over its connective-tissue support.
+## correct_answer
+B
+## main_concept
+CON-RES-CED26421AF8B39
+## library_ids
+ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## topic
+Histology-general
+## subtopic
+Thoracic Cavity — Pleura
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Thoracic Cavity
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Recall of a false statement
+## learning_objective
+State that the visceral pleura adheres to the lung, not the thoracic wall.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. Histo MCQ by Dr.Kandeel [104].pdf p26 q66. Manifest src_9cf32ada2b25fa54f0e9.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from the question book itself.
+
+
+
+---
+
+# Item
+## id
+QM-104-556027BAFD36
+## title
+Regarding pleurae, the following statements are true, EXCEPT:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Regarding pleurae, the following statements are true, EXCEPT:
+## answer_a
+Visceral pleura is not sensitive to pain
+## explanation_a
+True, and so not the answer sought. The visceral pleura shares the lung's own autonomic nerve supply and, matching that, is not sensitive to somatic pain.
+## answer_b
+Parietal pleura is supplied by intercostal and phrenic nerves
+## explanation_b
+True, and so not the answer sought. The parietal pleura is supplied territorially — costal pleura by the corresponding intercostal nerves, and mediastinal/central diaphragmatic pleura by the phrenic nerve.
+## answer_c
+Pleural cavity is the Space between visceral and parietal pleurae
+## explanation_c
+True, and so not the answer sought. The pleural cavity is exactly the potential space between the visceral and parietal pleurae, holding only a thin film of fluid.
+## answer_d
+Pulmonary ligament allows for distension of pulmonary veins
+## explanation_d
+True, and so not the answer sought. The pulmonary ligament is a loose, empty fold of mediastinal pleura below the lung root, existing precisely to give the pulmonary veins room to distend when venous return rises.
+## answer_e
+Inferior border of pleura reaches the 8" fib in midaxillary line
+## explanation_e
+This is the false statement, and the correct answer. The pleura's inferior border crosses the TENTH rib in the midaxillary line, not the eighth — the eighth rib is where it crosses in the midclavicular line instead. Mixing up which rib goes with which line is exactly the trap this option sets.
+
+Why this is right:
+- The cervical pleura is represented by a curved line, convex upwards, from the junction of the medial and middle thirds of the clavicle to the sternoclavicular joint, its highest point about 3 cm above the medial third of the clavicle.
+## correct_answer
+E
+## main_concept
+CON-RES-B833146BBFCB26
+## library_ids
+ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## topic
+Anatomy
+## subtopic
+Thoracic Cavity — Pleura
+## module
+104 CPS
+## module_subject
+104 CPS > Anatomy > Thoracic Cavity
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Hard
+## question_type
+Recall of a false statement
+## learning_objective
+State that the pleura's inferior border crosses the tenth, not the eighth, rib in the midaxillary line.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+High
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOY Anatomy MCQ [Thorax].pdf p19 q75. Manifest src_c30d947377670cb99a40.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.

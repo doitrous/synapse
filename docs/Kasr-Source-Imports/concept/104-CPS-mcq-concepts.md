@@ -3,8 +3,9 @@
 
     Aortic Arch Relations and Cardiac Plexuses — 3 questions, 1 concepts
     Development of the Heart — 2 questions, 2 concepts
-    Lymphatics of the Thorax — 2 questions, 1 concepts
+    Lymphatics of the Thorax — 3 questions, 1 concepts
     Pericardium — 7 questions, 3 concepts
+    Thoracic Cavity — Pleura — 2 questions, 2 concepts
     Histology Cardiovascular System — Artery Classification — 6 questions, 1 concepts
     Histology Cardiovascular System — Heart Valves — 1 questions, 1 concepts
     Histology Cardiovascular System — General Vessel Wall Plan — 6 questions, 1 concepts
@@ -225,6 +226,7 @@ thoracic-duct.course-tributaries-and-termination
 ## exam_signal
 src_c30d947377670cb99a40 | question_book | | p25 | 104 CPS
 src_c30d947377670cb99a40 | question_book | | p18 | 104 CPS
+src_a80db7ee55cde84f8ec8 | question_book | | p1 | 104 CPS
 ## article_ids
 +ART-104-ANA-THORACIC-LYMPHATICS
 ## field_notes
@@ -396,6 +398,40 @@ reviewer: No faculty reviewer has seen this yet.
 finalPublisher: Not published — it has not passed the evidence gate.
 lastReviewed: Never reviewed.
 reviewDue: A review date is set when a reviewer is assigned; setting one now would be a date nobody agreed to.
+
+
+---
+
+# Item
+## id
+CON-RES-CED26421AF8B39
+## label
+The parietal pleura is named cervical, costal, mediastinal and diaphragmatic by the wall it lines, and each pleural sac has a costomediastinal and a costodiaphragmatic recess
+## canonical_key
+pleura.divisions-and-recesses
+## exam_signal
+src_9cf32ada2b25fa54f0e9 | question_book | | p26 | 104 CPS
+## article_ids
++ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.divisions-and-recesses" already has a pinned id in this module (CON-RES-CED26421AF8B39); mintConceptId derives the same id fresh (CON-RES-CED26421AF8B39) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
+
+
+---
+
+# Item
+## id
+CON-RES-B833146BBFCB26
+## label
+The cervical pleura rises 3 cm above the medial third of the clavicle, and the two anterior pleural borders diverge below the fourth costal cartilage for the cardiac notch
+## canonical_key
+pleura.surface-anatomy
+## exam_signal
+src_c30d947377670cb99a40 | question_book | | p19 | 104 CPS
+## article_ids
++ART-104-ANA-PLEURA-STRUCTURE-AND-SURFACE-ANATOMY
+## field_notes
+canonical_key "pleura.surface-anatomy" already has a pinned id in this module (CON-RES-B833146BBFCB26); mintConceptId derives the same id fresh (CON-RES-B833146BBFCB26) — the hand-authored record behind it still carries fields (aliases, article links, evidence) this pipeline does not populate, and re-emitting a full record would overwrite every one of them with nothing; see existingConceptIds in build-batches.ts. This row records the question books' exam evidence and teaching article only; every other field is untouched.
 
 
 ---

@@ -50,5 +50,18 @@ export const LEAF: McqLeafSeed = {
         E: "True, and so not the answer sought. The oesophagus, as a whole structure, is conventionally described as ending at the level of T11, where it pierces the diaphragm to become continuous with the stomach.",
       },
     },
+    {
+      key: "which-of-the-followings-regarding-the-thoracic-duct-is-true-4dd9e89a",
+      conceptKey: "thoracic-duct.course-tributaries-and-termination",
+      difficulty: "Moderate",
+      questionType: "Recall of the true statement",
+      learningObjective: "State that the thoracic duct receives the left jugular and left subclavian lymph trunks at its termination.",
+      explanations: {
+        A: "The thoracic duct begins at the lower border of T12, not the body of T10, as the continuation of the cisterna chyli.",
+        B: "This is the correct answer. At its termination, the thoracic duct receives the left jugular, left subclavian and left bronchomediastinal lymph trunks, immediately before opening into the start of the left brachiocephalic vein.",
+        C: "The thoracic duct passes BEHIND the oesophagus, not in front of it, ascending behind its right border below T5 and behind its left border above T5.",
+        D: "The thoracic duct's field of drainage is the LEFT side of the thorax (plus the two lower limbs and most of the abdomen) — the right side of the thoracic cavity drains instead into the right lymphatic duct.",
+      },
+    },
   ],
 }
