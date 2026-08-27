@@ -150,6 +150,12 @@
    "cluster": "Physiology (end) + unclassified mixed subject - Pulmonary Compliance tail, apoptosis, small granule cells, misc",
    "keyed": 15,
    "excluded": 5
+  },
+  {
+   "batch": 26,
+   "cluster": "Unclassified mixed subject (final batch) - all 532 candidates now processed",
+   "keyed": 15,
+   "excluded": 9
   }
  ],
  "keyed": {
@@ -3537,6 +3543,148 @@
     "D": "During quiet (not forced) inspiration, alveolar pressure falls only modestly below atmospheric (roughly 1-2 mmHg), not by as much as 5-6 mmHg, which would instead characterise forced inspiration."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "intrapulmonary-bronchus-has-tepret-epithelial-lining-with-no-a0257a5b": {
+   "answer": "C",
+   "explanation": "Intrapulmonary bronchi show a more developed, more completely circumferential spiral arrangement of smooth muscle compared with the trachea and extrapulmonary bronchi, part of the progressive structural transition along the airway tree from cartilage-dominated support toward muscle-dominated walls. This is distinct from the mistaken claims that intrapulmonary bronchi entirely lack goblet cells (they still have some, just fewer than more proximal airways -- goblet cells do not disappear completely until the bronchiole level), have 'many' Clara cells (Clara cells become prominent starting at the bronchiole level, not yet at the bronchus level), or lack hyaline cartilage entirely (intrapulmonary bronchi still contain cartilage, now as irregular plates rather than the complete rings seen more proximally, only disappearing altogether at the bronchiole level).",
+   "distractorNotes": {},
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913": {
+   "answer": "C",
+   "explanation": "As blood becomes venous, haemoglobin releases its bound oxygen and becomes deoxyhaemoglobin, which is a substantially better buffer for hydrogen ions than oxyhaemoglobin -- precisely timed with the moment CO2 (converted to carbonic acid and then H+ plus bicarbonate) is being picked up from the tissues. This coincidence of deoxygenation and CO2 loading is what allows venous blood to absorb a large amount of H+ with only a minimal drop in pH, distinct from the false claim that carbonic anhydrase is absent from venous blood (it is present in red blood cells regardless of oxygenation state) and the reversed claim that oxyhaemoglobin, rather than deoxyhaemoglobin, is the better buffer.",
+   "distractorNotes": {
+    "A": "Carbonic anhydrase is present within red blood cells in both arterial and venous blood; its presence does not differ between the two.",
+    "B": "While bicarbonate buffering does play some role, the specific, classically emphasized mechanism for this minimal pH change is deoxyhaemoglobin's superior H+ buffering capacity, exactly timed with tissue-level CO2 uptake.",
+    "D": "This reverses the correct relationship: deoxyhaemoglobin, not oxyhaemoglobin, is the better buffer for hydrogen ions."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "secretion-of-the-following-hormones-is-increased-during-hemo-62b59647": {
+   "answer": "B",
+   "explanation": "Atrial natriuretic peptide is released in response to INCREASED atrial stretch (from increased blood volume/venous return), so during hemorrhagic shock -- when blood volume and venous return are reduced, decreasing atrial stretch -- ANP secretion would actually DECREASE rather than increase, making it the correct exception. The other hormones listed genuinely increase during hemorrhagic shock as part of the compensatory response: catecholamines via sympathetic activation, aldosterone via renin-angiotensin-aldosterone system activation (promoting sodium and water retention to restore volume), and erythropoietin in response to reduced oxygen delivery from blood loss, stimulating red blood cell production to help restore oxygen-carrying capacity.",
+   "distractorNotes": {
+    "A": "Catecholamine secretion genuinely increases during hemorrhagic shock via sympathetic nervous system activation.",
+    "C": "Aldosterone secretion genuinely increases during hemorrhagic shock via renin-angiotensin-aldosterone system activation, promoting fluid retention.",
+    "D": "Erythropoietin secretion genuinely increases in response to the reduced oxygen delivery caused by blood loss."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9": {
+   "answer": "D",
+   "explanation": "Angiotensin II AT2 receptors mediate effects that are largely counter-regulatory (opposite) to the classic AT1-receptor-mediated actions, including diuresis and natriuresis, vasodilation, and anti-proliferative effects -- functioning as a physiological counterbalance to AT1's vasoconstrictive, sodium/water-retaining, and aldosterone-stimulating actions. This distinguishes AT2 sharply from AT1, which is the receptor subtype responsible for vasoconstriction, renal sodium and water reabsorption, and aldosterone secretion -- the three classic angiotensin II actions most commonly tested and most commonly (mis)attributed generically to 'angiotensin II receptors' without specifying the subtype.",
+   "distractorNotes": {
+    "A": "Vasoconstriction is mediated by AT1 receptors, not AT2.",
+    "B": "Renal sodium and water reabsorption is mediated by AT1 receptors (and downstream aldosterone effects), not AT2.",
+    "C": "Aldosterone secretion is stimulated via AT1 receptors, not AT2."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "t-waye-is-inverted-in-a-muscular-exercise-be27b8b3": {
+   "answer": "C",
+   "explanation": "Coronary (myocardial) ischemia is the single most classic, clinically significant, and frequently tested cause of T-wave inversion on the ECG, reflecting altered repolarization in ischemic myocardium -- a hallmark finding used diagnostically to identify areas of compromised coronary blood supply. While T-wave changes can occur in various other physiological or pathological states (including some exercise-related or thyroid-related variability), ischemia's T-wave inversion is the standard, textbook-defining association most consistently emphasized in cardiovascular physiology and clinical ECG teaching.",
+   "distractorNotes": {
+    "A": "Muscular exercise is not the primary or most classically emphasized cause of T-wave inversion compared with myocardial ischemia.",
+    "B": "Sympathetic overactivity is not the primary, classically emphasized cause of T-wave inversion compared with ischemia.",
+    "D": "Hyperthyroidism causes various cardiac and ECG changes (tachycardia, arrhythmias) but is not the primary, classically emphasized cause of T-wave inversion specifically."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-oxyhemoglobin-dissociation-curve-fa89718b": {
+   "answer": "D",
+   "explanation": "The normal P50 for human haemoglobin -- the partial pressure of oxygen at which haemoglobin is 50% saturated -- is a well-established standard reference value of approximately 27 mmHg under normal physiological conditions. This contrasts with the false claims that the oxyhaemoglobin dissociation curve is a rectangular hyperbola in shape (it is actually sigmoid/S-shaped, owing to haemoglobin's cooperative oxygen binding, unlike myoglobin's genuinely hyperbolic curve), that acidosis shifts the curve to the left (acidosis, via the Bohr effect, shifts it to the RIGHT, decreasing oxygen affinity), and that haemoglobin shows higher oxygen affinity at exercising tissue (the opposite is true -- affinity DECREASES at exercising tissue due to increased CO2, H+, temperature, and 2,3-DPG, facilitating oxygen unloading exactly where it is needed).",
+   "distractorNotes": {
+    "A": "The oxyhaemoglobin dissociation curve is sigmoid (S-shaped), not a rectangular hyperbola, reflecting haemoglobin's cooperative oxygen binding across its four subunits.",
+    "B": "Acidosis shifts the curve to the RIGHT (via the Bohr effect), decreasing oxygen affinity, not to the left.",
+    "C": "Haemoglobin's oxygen affinity DECREASES, not increases, at exercising tissue, facilitating oxygen release to meet increased metabolic demand."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "transection-between-medulla-oblongata-and-upper-border-of-sp-d728ec2a": {
+   "answer": "A",
+   "explanation": "A transection between the medulla oblongata and the upper spinal cord completely severs the connection between the medullary respiratory centres (which generate the basic breathing rhythm) and the phrenic and intercostal motor neurons in the spinal cord that actually drive the respiratory muscles -- with no pathway remaining for the rhythm generator's signal to reach the diaphragm or intercostal muscles at all, spontaneous breathing stops entirely, resulting in death without immediate artificial ventilation. This is distinct from lesions at higher levels (within the brainstem itself, between the medullary and pontine centres), which instead produce altered but still-present breathing patterns like irregular respiration or apneustic breathing, since some connection to the respiratory muscles remains intact in those cases.",
+   "distractorNotes": {
+    "B": "Irregular respiration would result from a lesion disrupting coordination between different brainstem respiratory centres while the medulla-to-spinal-cord pathway remains intact, not from a complete transection below the medulla.",
+    "C": "Slower and deeper respiration would result from a more limited perturbation (e.g., loss of vagal input alone) rather than complete severance of the medulla from the spinal cord.",
+    "D": "Rapid shallow respiration would not result from complete transection below the medulla, which instead eliminates the connection needed for any breathing pattern to occur at all."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe": {
+   "answer": "A",
+   "explanation": "Standard cardiovascular physiology teaching (following the widely-used Guyton reference) states that when the Reynolds number rises above approximately 2000, turbulent flow will usually (almost always) occur even in an otherwise straight, smooth vessel, making this the standard figure most commonly cited and tested for this specific threshold.",
+   "distractorNotes": {
+    "B": "2500 is not the standard, most commonly cited threshold figure for this specific teaching point.",
+    "C": "3000 is not the standard, most commonly cited threshold figure for this specific teaching point.",
+    "D": "3500 is not the standard, most commonly cited threshold figure for this specific teaching point."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-characteristic-are-helpful-in-differe-90dd02ea": {
+   "answer": "A",
+   "explanation": "The foramen transversarium (transverse foramen) is a uniquely defining anatomical feature found exclusively in cervical vertebrae, transmitting the vertebral artery and vein -- it is completely absent in lumbar vertebrae, making its presence or absence the single clearest, most unambiguous distinguishing characteristic between the two vertebral types. This contrasts with the other listed features, which either belong to a different vertebral region entirely (costal facets on the vertebral body are a thoracic feature) or provide a less clean-cut binary distinction (vertebral canal shape and relative body size differ in degree between regions rather than being present/absent markers).",
+   "distractorNotes": {
+    "B": "Articular facets on the vertebral body for rib articulation are a defining feature of thoracic vertebrae, not a distinguishing feature between cervical and lumbar vertebrae specifically.",
+    "C": "A triangular vertebral canal shape is not a clean, exclusive distinguishing marker between cervical and lumbar vertebrae, since both regions can show a broadly triangular canal outline (differing mainly in size).",
+    "D": "A heavy vertebral body is characteristic of lumbar vertebrae specifically, but framed alone as a generic descriptor it is a less definitive, less exclusive distinguishing marker than the foramen transversarium's clean presence/absence distinction."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-discharge-spontaneously-during-quiet-b30226e7": {
+   "answer": "C",
+   "explanation": "The dorsal respiratory group, the medulla's intrinsic rhythm generator, spontaneously discharges in a repeating pattern to drive the basic rhythm of quiet breathing, distinct from stretch receptors and motor neurons of the respiratory muscles, both of which fire only in response to a stimulus (lung inflation, or descending drive from the respiratory centres, respectively) rather than generating activity autonomously, and distinct from the ventral respiratory group, which remains largely inactive during quiet breathing and is recruited mainly for forced breathing.",
+   "distractorNotes": {
+    "A": "Stretch receptors fire in response to lung inflation, not spontaneously on their own.",
+    "B": "Motor neurons of the respiratory muscles require descending drive from the medullary respiratory centres; they do not generate spontaneous rhythmic activity themselves.",
+    "D": "The ventral respiratory group is largely inactive during quiet breathing, recruited mainly for forced breathing."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-has-negative-chronotropic-effect-e351e202": {
+   "answer": "C",
+   "explanation": "Calcium channel blockers, particularly the non-dihydropyridine class (verapamil, diltiazem), reduce calcium-dependent conduction and pacemaker activity in the SA and AV nodes, producing a genuine negative chronotropic effect (decreased heart rate) -- a well-established, classic pharmacological mechanism used clinically to slow heart rate. This is the opposite direction from raised body temperature (which increases heart rate via increased metabolic rate and SA node sensitivity) and beta-1 adrenergic receptor stimulation (which is the classic positive chronotropic sympathetic pathway, increasing heart rate).",
+   "distractorNotes": {
+    "A": "A rise in body temperature INCREASES heart rate (a positive, not negative, chronotropic effect), via increased metabolic rate and SA node sensitivity.",
+    "B": "Beta-1 receptor stimulation is the classic sympathetic pathway that INCREASES heart rate (positive, not negative, chronotropic effect).",
+    "D": "Hypokalemia is more classically associated with increased cardiac excitability and arrhythmogenic potential rather than a straightforward negative chronotropic effect."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-correct-as-regards-na-ca-exchanger-e0bfc7af": {
+   "answer": "C",
+   "explanation": "The sodium-calcium exchanger (NCX), while typically operating in 'forward mode' (extruding calcium out of the cell in exchange for sodium entry), is well-established to be capable of reversing into 'reverse mode' under certain conditions (such as altered ionic gradients or membrane depolarisation), bringing calcium INTO the cell instead -- this bidirectional capability is a genuine, frequently tested feature. This is distinct from being located in the sarcoplasm (it is actually an integral protein of the sarcolemma, the plasma membrane, not free-floating in the cytoplasm), consuming a high amount of ATP directly (it is a secondary active transporter, relying on the sodium gradient maintained by the ATP-consuming Na+-K+ pump rather than consuming ATP itself), or being called the 'funny current' (that term specifically refers to the HCN channels responsible for pacemaker potential, an entirely different mechanism).",
+   "distractorNotes": {
+    "A": "The Na+-Ca++ exchanger is located in the sarcolemma (plasma membrane), not floating in the sarcoplasm.",
+    "B": "The exchanger is a secondary active transporter that does not directly consume ATP itself; it relies on the sodium electrochemical gradient maintained by the separate, ATP-consuming Na+-K+ pump.",
+    "D": "The 'funny current' refers to the HCN channels responsible for pacemaker potential, an entirely different mechanism from the Na+-Ca++ exchanger."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5": {
+   "answer": "D",
+   "explanation": "The Na+-Ca++ exchanger, the Na+-K+ pump, and the sarcolemmal Ca++ ATPase pump each genuinely contribute to maintaining the transmembrane ionic gradients of the cardiac myocyte's sarcolemma -- the Na+-K+ pump maintains the fundamental sodium and potassium gradients (and indirectly powers the Na+-Ca++ exchanger), while the exchanger and the Ca++ ATPase pump both work to extrude calcium and maintain low intracellular calcium at rest. Since all three mechanisms are independently genuine, correct contributors to sarcolemmal ionic homeostasis, the comprehensive 'all of the above' option is the correct choice.",
+   "distractorNotes": {},
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-one-of-the-following-is-the-correct-statement-regardin-c5bde64a": {
+   "answer": "A",
+   "explanation": "Coronary blood flow follows the fundamental hemodynamic relationship (analogous to Ohm's law) in which flow is directly proportional to the driving perfusion pressure and inversely proportional to vascular resistance -- a higher perfusion pressure drives more flow for a given resistance, while higher resistance reduces flow for a given pressure. This is the same basic principle governing blood flow throughout the circulation, applied specifically to the coronary vascular bed.",
+   "distractorNotes": {
+    "B": "Flow is directly, not inversely, related to perfusion pressure -- higher driving pressure increases, not decreases, flow.",
+    "C": "Flow is inversely, not directly, related to resistance -- higher resistance decreases, not increases, flow.",
+    "D": "Flow is directly related to pressure (not inversely) and inversely related to resistance (not inversely to both), so this option misstates both relationships."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-statement-about-hemoglobin-is-incorrect-e6822bc0": {
+   "answer": "B",
+   "explanation": "An increase in 2,3-DPG decreases haemoglobin's affinity for oxygen, shifting the oxygen dissociation curve to the RIGHT (facilitating oxygen unloading to tissues), not to the left as this option claims -- making it the incorrect statement. The other statements are correctly true: a higher-than-normal P50 does indicate that oxygen binds less tightly to haemoglobin (a rightward-shifted curve with lower affinity), an increase in PCO2 does cause a rightward shift of the curve via the Bohr effect, and a decrease in pH (increased acidity) does increase P50, consistent with the same rightward-shifting Bohr effect.",
+   "distractorNotes": {
+    "A": "True: a higher P50 means haemoglobin requires a higher PO2 to reach 50% saturation, indicating weaker (less tight) oxygen binding.",
+    "C": "True: increased PCO2 causes a rightward shift of the oxygen dissociation curve via the Bohr effect, decreasing oxygen affinity.",
+    "D": "True: a decrease in pH (more acidic conditions) increases P50, consistent with the Bohr effect's rightward curve shift and decreased oxygen affinity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -4037,6 +4185,33 @@
   },
   "in-the-following-figure-which-answer-is-correct-29499284": {
    "reason": "This question depends on viewing an accompanying histology figure/image that is not available in the text extraction -- the answer (including what the asterisk points to) cannot be determined from text alone."
+  },
+  "k-27f4ee2c": {
+   "reason": "The stem is a bare, meaningless fragment ('K+') with no question text at all, and only two option-like fragments survive ('Ca++', 'Cl-') without any indication of what is being asked. Not answerable as extracted."
+  },
+  "low-resistance-shock-is-characterized-by-which-of-the-follow-d4c77b84": {
+   "reason": "The likely correct embedded statement (low-resistance/distributive shock occurs when the vascular system's effective size increases via vasodilation) has no surviving option letter, and the three lettered options that do survive each describe an entirely different shock type instead (massive MI/pump failure describes cardiogenic shock; significant flow obstruction describes obstructive shock; decreased blood volume describes hypovolaemic shock) -- none of them correctly describes low-resistance/distributive shock."
+  },
+  "match-column-a-with-b-d4f72026": {
+   "reason": "This is a match-the-column exercise with severely garbled, jumbled text rather than a single-best-answer multiple-choice question -- not keyable as an MCQ as extracted."
+  },
+  "regions-at-chromosomal-ends-protecting-from-destruction-are-b239ba2e": {
+   "reason": "The stem asks about the structures protecting chromosomal ends (telomeres), but the options have absorbed a garbled mix of at least three other, entirely separate questions (chromosome centromere classification, and a karyotyping question) into single unusable blobs, making it impossible to confidently assign the correct answer (telomeres, seemingly buried as garbled text within option B) to a clean letter."
+  },
+  "the-angiotensin-converting-enzyme-ace-tepref-is-normally-abs-ad4a1b73": {
+   "reason": "The embedded claim (that ACE is normally absent in pulmonary endothelial cells) is factually false -- ACE is actually abundant on pulmonary vascular endothelium, a key site of angiotensin I to angiotensin II conversion -- and all three surviving lettered options also contain confident errors (ACE does not directly cause vasodilation; it converts angiotensin I, not 'angiotensin', into angiotensin II; and converting angiotensinogen into angiotensin I is renin's function, not ACE's). No option correctly describes ACE's actual function."
+  },
+  "the-following-physiological-events-are-in-a-random-sequence-fe3ca507": {
+   "reason": "This question asks for the correct ORDER of four physiological events, but the four options each just restate one individual event rather than offering a complete proposed sequence as a single selectable answer -- the format does not allow a single letter to represent 'the correct sequence' as extracted, making this unanswerable as a standard single-best-answer MCQ."
+  },
+  "the-function-s-of-the-endothelial-cells-is-are-12d25892": {
+   "reason": "The likely correct comprehensive answer ('all of the above', combining exchange function, growth factor production, and vasoactive substance production, all genuinely true of endothelial cells) is embedded within a corrupted, merged option blob alongside other option text, making it impossible to confidently assign it to a single clean letter."
+  },
+  "the-mechanisms-that-lower-free-sarcoplasmic-ca-produce-relax-c00ecede": {
+   "reason": "The options have absorbed multiple merged sub-statements (correct relaxation mechanisms mixed with a mischaracterised claim about calcium binding to tropomyosin rather than troponin, and a statement about increased actin-myosin overlap during contraction that does not describe a relaxation mechanism at all) plus fragments of an entirely separate question about cardiac muscle properties. Too corrupted to confidently identify a single 'except' answer."
+  },
+  "which-of-the-following-bronchi-is-called-the-eparterial-bron-cfa0e534": {
+   "reason": "The eparterial bronchus is specifically the RIGHT upper lobe bronchus (branching above the pulmonary artery, a right-sided-only anatomical feature), but both surviving options incorrectly reference LEFT-sided lobar bronchi -- neither option can be the correct answer."
   }
  }
 }
