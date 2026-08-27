@@ -191,4 +191,35 @@ export const ARTICLE_FOR_CONCEPT: Record<string, string> = {
   // discriminator between them were already taught; the plate's own markers
   // and the length trap were not.
   'CON-FND-942169C7CEC1CA': 'ART-101-HIS-MEMBRANOUS-SPECIALISATIONS',
+  // 102 INT — the 17 written-route concepts `102-INT-GATES.md`'s two-sided
+  // coverage pass found "article-side only": `102-INT-coverage.md`'s eight
+  // supplement articles already name every one of these back in
+  // `related_concepts`, but the concepts were minted by the 2022-sitting
+  // batch with no `article_ids` at all, and that batch is this pipeline's own
+  // generated output (`existingConceptIds` skips it), so the fix is here, not
+  // a hand edit to the concept file.
+  'CON-FND-12CE1BF1D6C77C': 'ART-102-BIO-NUCLEOTIDES-AND-NUCLEIC-ACIDS-SUPPLEMENT',
+  'CON-FND-E50700FFFCF367': 'ART-102-BIO-NUCLEOTIDES-AND-NUCLEIC-ACIDS-SUPPLEMENT',
+  'CON-FND-2AA1E4F3853330': 'ART-102-BIO-CARBOHYDRATES-AND-LIPIDS-SUPPLEMENT',
+  'CON-FND-B4916A9B4C980C': 'ART-102-BIO-CARBOHYDRATES-AND-LIPIDS-SUPPLEMENT',
+  'CON-FND-3BF934540F73CD': 'ART-102-BIO-DNA-REPAIR-MUTATIONS-AND-GENETIC-CODE-SUPPLEMENT',
+  'CON-FND-D23183EAACF5B7': 'ART-102-BIO-DNA-REPAIR-MUTATIONS-AND-GENETIC-CODE-SUPPLEMENT',
+  'CON-FND-DEE7732AEC0F74': 'ART-102-BIO-DNA-REPAIR-MUTATIONS-AND-GENETIC-CODE-SUPPLEMENT',
+  'CON-FND-3D6B24CAA42AC2': 'ART-102-BIO-AMINO-ACIDS-BASIC-AND-SULFUR-SUPPLEMENT',
+  'CON-FND-57DC83CE4A718B': 'ART-102-BIO-AMINO-ACIDS-BASIC-AND-SULFUR-SUPPLEMENT',
+  'CON-FND-C04259379794DA': 'ART-102-BIO-ENZYME-INHIBITION-AND-ISOENZYMES-SUPPLEMENT',
+  'CON-FND-DD3EE5EC8C07D1': 'ART-102-BIO-ENZYME-INHIBITION-AND-ISOENZYMES-SUPPLEMENT',
+  'CON-HEM-3B1C5DBC2DB666': 'ART-102-BIO-HEMOPROTEINS-MYOGLOBIN-HEMOGLOBIN-SUPPLEMENT',
+  'CON-HEM-741FE61E6062DB': 'ART-102-BIO-HEMOPROTEINS-MYOGLOBIN-HEMOGLOBIN-SUPPLEMENT',
+  'CON-HEM-E20402B19F5D30': 'ART-102-PHY-PLATELET-RELEASE-REACTION-SUPPLEMENT',
+  'CON-NEU-1B57CDAD7DEBCF': 'ART-102-PHY-AUTONOMIC-OUTFLOW-AND-TRANSMISSION-SUPPLEMENT',
+  'CON-NEU-ACE8344E6D9D43': 'ART-102-PHY-AUTONOMIC-OUTFLOW-AND-TRANSMISSION-SUPPLEMENT',
+  'CON-NEU-EF92EEB546EA99': 'ART-102-PHY-AUTONOMIC-OUTFLOW-AND-TRANSMISSION-SUPPLEMENT',
+  // 102 INT — two written-route questions failing `medical:batch`'s
+  // per-question "no library_ids" check even though both concepts are
+  // already two-sided (each already carries `article_ids` from a sibling
+  // hand-authored/MCQ-route file): the written pipeline resolves its own
+  // `library_ids` from this map, which had no entry for either id yet.
+  'CON-HEM-A6420C4B3B3D9A': 'ART-102-PHY-IRON-METABOLISM',
+  'CON-HEM-E0B694DE0AF467': 'ART-102-PHY-IRON-METABOLISM',
 }
