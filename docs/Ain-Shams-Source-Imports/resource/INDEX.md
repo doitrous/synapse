@@ -25,4 +25,6 @@ Known limitation: direct `medical:batch` currently detects these files as `unkno
 | ASU_Y2 | `ASU-CNS-2` | MRC power grading and UMN/LMN sign patterns | [ASU-CNS-2-motor-exam-foundations-resources.md](ASU-CNS-2-motor-exam-foundations-resources.md) | 1 | `neuro` | `ASU-CNS-2 > Clinical Medicine` | Catalogue preview required; learner-facing inclusion, deep links and file approval remain rights-deferred; source year is intentionally blank. |
 | ASU_Y2 | `ASU-ENDO-2` | Thyroid histology foundations | [ASU-ENDO-2-histology-foundations-resources.md](ASU-ENDO-2-histology-foundations-resources.md) | 1 | `end` | `ASU-ENDO-2 > Histology` | Catalogue preview required; learner-facing inclusion, deep links and file approval remain rights-deferred; source year is intentionally blank. |
 
+| ASU_Y1 | `ASU-IMM` | Immunology MCQ bank (Ashraf Pt1 + cytokines) | [ASU-IMM-immunology-resources.md](ASU-IMM-immunology-resources.md) | 3 (catalogue) | `imm` | `ASU-IMM > Immunology` | Catalogue preview only for the 2 scan/OCR'd MCQ PDFs + 1 native MCQ PDF; the real evidence-chain sources are the 10 rows in `evidence/ASU-IMM-immunology-sources.md`. |
+
 Import after the evidence source IDs exist and before student-facing articles/questions depend on the resource catalogue.
