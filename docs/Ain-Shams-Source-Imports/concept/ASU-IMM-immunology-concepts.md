@@ -62,10 +62,10 @@ Adaptive immunity
 ASU-IMM
 
 ## article_ids
-ART-ASU-IMM-LYMPHOID-ORGANS
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-73557EF9FDCC99
@@ -129,7 +129,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q1
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -247,10 +247,10 @@ Adaptive immunity
 ASU-IMM
 
 ## article_ids
-ART-ASU-IMM-LYMPHOID-ORGANS
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-C99A0C77B15767
@@ -314,7 +314,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q2
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -436,7 +436,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-A89092F59B7397
@@ -501,7 +501,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q3
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -623,7 +623,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-FB1A496ADF02C2
@@ -688,7 +688,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q7
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -809,7 +809,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-57A034EECCBF1B
@@ -873,7 +873,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q8
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -994,7 +994,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-1868D017B7E3B8
@@ -1058,7 +1058,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q12
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -1179,7 +1179,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-DCBAA65142C38F
@@ -1243,7 +1243,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q16
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -1364,10 +1364,10 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
-
+[clear]
 
 ## resource_ids
 src_960437e1f1e0fb4e36bb
@@ -1428,7 +1428,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q5
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -1550,7 +1550,7 @@ ASU-IMM
 ART-ASU-IMM-INNATE-BASICS
 
 ## related_article_ids
-
+ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_concept_ids
 CON-IMM-A89092F59B7397
@@ -1614,7 +1614,7 @@ src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Exam I Q2
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -1735,7 +1735,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-57534D93572FC4
@@ -1799,7 +1799,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q14
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -1921,7 +1921,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-92E580FD9AC850
@@ -1987,7 +1987,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q4, Q15
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -2108,7 +2108,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-87D5E8AD1ADD76
@@ -2172,7 +2172,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q10
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -2294,7 +2294,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-08852485672870
@@ -2358,7 +2358,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q17; MCQs - cytokines
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -2479,7 +2479,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-5D0DFF26A97616
@@ -2543,7 +2543,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q8 (part II)
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -2664,7 +2664,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-17CE429C40F7BD
@@ -2728,7 +2728,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q9 (part II); Extra Q
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -2849,7 +2849,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-282B44B64B1FD2
@@ -2914,7 +2914,7 @@ src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 Extra Q1
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3035,7 +3035,7 @@ ASU-IMM
 ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
 
 ## related_article_ids
-
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_concept_ids
 CON-IMM-AEF040C9917639
@@ -3099,7 +3099,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q6; Ashraf Pt2 ExamI 
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3220,7 +3220,7 @@ ASU-IMM
 ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
 
 ## related_article_ids
-
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_concept_ids
 CON-IMM-C6C71F9D2AFEED
@@ -3284,7 +3284,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q11
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3406,7 +3406,7 @@ ASU-IMM
 ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
 
 ## related_article_ids
-
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_concept_ids
 CON-IMM-C6C71F9D2AFEED
@@ -3470,7 +3470,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q9
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3591,7 +3591,7 @@ ASU-IMM
 ART-ASU-IMM-CELLS-OF-INNATE-IMMUNITY
 
 ## related_article_ids
-
+ART-ASU-IMM-INNATE-BASICS
 
 ## related_concept_ids
 CON-IMM-FB1A496ADF02C2
@@ -3655,7 +3655,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1 Q13
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3776,7 +3776,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-C40D293E3E989D
@@ -3840,7 +3840,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q1
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -3962,7 +3962,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-35785A09E9898E
@@ -4027,7 +4027,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q16; Ashraf Pt2 Ex
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -4148,7 +4148,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-C40D293E3E989D
@@ -4213,7 +4213,7 @@ src_00be032dd5f500a10b0a | tier 3 | 2023-2024 | Ashraf Pt2 ExamI Q5, ExamII Q21
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -4335,7 +4335,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-D981D07A61E9FE
@@ -4400,7 +4400,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q2
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -4521,7 +4521,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-7123A221F96E40
@@ -4585,7 +4585,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q5
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -4706,7 +4706,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-7123A221F96E40
@@ -4770,7 +4770,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q13
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -4891,7 +4891,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-7123A221F96E40
@@ -4956,7 +4956,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q14
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -5077,7 +5077,7 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-CD1B674162CF2A
@@ -5141,7 +5141,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q20
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -5262,10 +5262,10 @@ ASU-IMM
 ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
-
+[clear]
 
 ## resource_ids
 src_ca8e051c23c5197203ef
@@ -5326,7 +5326,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q17, Q26; Ashraf P
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -5448,7 +5448,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-EDDCC1F705F847
@@ -5513,7 +5513,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q3
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -5634,7 +5634,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-FD2151E25121CF
@@ -5699,7 +5699,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q4; Ashraf Pt2 Exa
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -5820,7 +5820,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-EDDCC1F705F847
@@ -5884,7 +5884,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q15
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6005,7 +6005,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-EDDCC1F705F847
@@ -6069,7 +6069,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q19; Ashraf Pt2 Ex
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6190,7 +6190,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-F4A968204B2571
@@ -6254,7 +6254,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q6; Ashraf Pt2 Exa
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6375,7 +6375,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-0E5F986A985CB9
@@ -6440,7 +6440,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q23; Ashraf Pt2 Ex
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6561,7 +6561,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-F4A968204B2571
@@ -6625,7 +6625,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q22
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6746,7 +6746,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-FD2151E25121CF
@@ -6810,7 +6810,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q7
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -6931,7 +6931,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-282B44B64B1FD2
@@ -6995,7 +6995,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q11; Ashraf Pt2 Ex
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -7116,10 +7116,10 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
-
+[clear]
 
 ## resource_ids
 src_12d8e48625ceb87f5d73
@@ -7180,7 +7180,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q12; Ashraf Pt2 Ex
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -7301,10 +7301,10 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
-
+[clear]
 
 ## resource_ids
 src_fbe66f345f71a399d55e
@@ -7365,7 +7365,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q18
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -7487,10 +7487,10 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
-
+[clear]
 
 ## resource_ids
 src_ef4457e284285f06e014
@@ -7551,7 +7551,7 @@ src_7eb3176c038aefacb93d | tier 3 | 2023-2024 | Ashraf Pt1-II Q24; Ashraf Pt2 Hu
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -7672,7 +7672,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-57534D93572FC4
@@ -7737,7 +7737,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q2
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -7858,7 +7858,7 @@ ASU-IMM
 ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_article_ids
-
+ART-ASU-IMM-ANTIGENS-AND-MHC
 
 ## related_concept_ids
 CON-IMM-29FD4D06D252D1
@@ -7923,7 +7923,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q4
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -8044,7 +8044,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-BE9E2F7DBC5DCD
@@ -8109,7 +8109,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q5
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -8230,7 +8230,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-17CE429C40F7BD
@@ -8295,7 +8295,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q6
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -8416,7 +8416,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-17CE429C40F7BD
@@ -8481,7 +8481,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q7
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -8602,7 +8602,7 @@ ASU-IMM
 ART-ASU-IMM-INFLAMMATION-CYTOKINES
 
 ## related_article_ids
-
+ART-ASU-IMM-T-CELL-BIOLOGY
 
 ## related_concept_ids
 CON-IMM-D1046CFB182DFF
@@ -8667,7 +8667,7 @@ src_81ec4f74b859fe05a38b | tier 1 | native | cytokines.pdf Q8
 [clear]
 
 ## rejected_merge_candidate_ids
-
+[clear]
 
 ## conflicts
 [clear]
@@ -8719,3 +8719,31 @@ exclusionReason: The concept is not excluded; publication is waiting on independ
 rejectedMergeCandidateIds: No near-miss candidate was found during find-existing.mjs search that was close enough to record.
 uncertainty: Nothing beyond ordinary undergraduate-level simplification is flagged as uncertain here.
 
+
+---
+
+# Item
+
+## id
+CON-IMM-7EBC289118B06C
+
+## label
+Cytotoxic CD8-positive T cells secrete perforins that form target-cell membrane pores
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-IMM
+
+## module_subject
+ASU-IMM > Immunology
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## field_notes
+sparseUpdate: ASU overlay only, added because Ashraf Pt1-II Q10/Q25 and Ashraf Pt2 Exam I Q8 test this exact fact (perforin/granzyme-mediated CTL killing). find-existing.mjs "perforin" returned this live id — same objective as our tested fact, so this is a sparse overlay, never a second record. All other fields left untouched.
