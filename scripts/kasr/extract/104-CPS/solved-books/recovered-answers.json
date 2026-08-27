@@ -4746,5 +4746,2613 @@
   "wnicn-character-of-the-san-makes-it-the-normal-heart-s-pacem-4a072f34",
   "y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0",
   "yonduction-speed-is-slowest-in-the-a-sa-node-020f430f"
- ]
+ ],
+ "fuzzyStemRecovered": {
+  "regarding-the-intercostal-arteries-all-the-following-stateme-487c3bb6": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "anatomy-thorax-dept-mcq.json",
+     "sourceBook": "Department Question Bank - Anatomy MCQ [Thorax] (Solved)",
+     "page": 1,
+     "q": 2,
+     "stemRatio": 0.947,
+     "meanOptionRatio": 0.947,
+     "pairsOk": 5
+    }
+   ]
+  },
+  "regarding-the-intercostal-nerves-the-following-statements-ar-de5ec519": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "anatomy-thorax-dept-mcq.json",
+     "sourceBook": "Department Question Bank - Anatomy MCQ [Thorax] (Solved)",
+     "page": 1,
+     "q": 3,
+     "stemRatio": 0.944,
+     "meanOptionRatio": 0.83,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "the-following-are-the-contents-of-the-posterior-mediastinum-2d0d25e8": {
+   "answer": "E",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "anatomy-thorax-dept-mcq.json",
+     "sourceBook": "Department Question Bank - Anatomy MCQ [Thorax] (Solved)",
+     "page": 2,
+     "q": 9,
+     "stemRatio": 0.969,
+     "meanOptionRatio": 0.989,
+     "pairsOk": 5
+    }
+   ]
+  },
+  "which-of-the-following-structures-open-into-the-left-atrium-345fc7a5": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "anatomy-thorax-dept-mcq.json",
+     "sourceBook": "Department Question Bank - Anatomy MCQ [Thorax] (Solved)",
+     "page": 3,
+     "q": 14,
+     "stemRatio": 0.992,
+     "meanOptionRatio": 0.842,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "in-the-chest-wall-one-is-correct-2b79c80a": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 4,
+     "q": 7,
+     "stemRatio": 0.928,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-left-superior-intercostal-vein-drains-usually-into-the-f54a19d6": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 4,
+     "q": 8,
+     "stemRatio": 0.959,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-1st-posterior-intercostal-artery-is-a-branch-from-72492885": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 4,
+     "q": 9,
+     "stemRatio": 0.955,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-9th-anterior-intercostal-artery-is-a-branch-from-3bef8271": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 4,
+     "q": 10,
+     "stemRatio": 0.954,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-intercostal-blood-vessels-one-is-true-3464230a": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 5,
+     "q": 11,
+     "stemRatio": 0.949,
+     "meanOptionRatio": 0.996,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "concerning-the-typical-intercostal-nerves-select-the-correct-c3dcf961": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 5,
+     "q": 14,
+     "stemRatio": 0.966,
+     "meanOptionRatio": 0.929,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-intercostal-arteries-one-is-true-15556e57": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 6,
+     "q": 15,
+     "stemRatio": 0.902,
+     "meanOptionRatio": 0.983,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "external-intercostal-muscle-select-the-correct-statement-501f3257": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 6,
+     "q": 16,
+     "stemRatio": 0.918,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-intercostal-nerves-one-is-false-482d0ad2": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 6,
+     "q": 17,
+     "stemRatio": 0.9,
+     "meanOptionRatio": 0.775,
+     "pairsOk": 3
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 7,
+     "q": 20,
+     "stemRatio": 0.947,
+     "meanOptionRatio": 0.934,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-intercostal-spaces-choose-the-correct-statement-5b563ce5": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 7,
+     "q": 18,
+     "stemRatio": 0.919,
+     "meanOptionRatio": 0.932,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "concerning-the-intercostal-nerves-select-the-false-statement-c001aebb": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 7,
+     "q": 19,
+     "stemRatio": 0.96,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "one-of-the-following-is-not-a-branch-of-the-internal-thoraci-db5ffa2e": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 7,
+     "q": 21,
+     "stemRatio": 0.932,
+     "meanOptionRatio": 0.99,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-internal-thoracic-artery-one-is-false-fdbf7a43": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 8,
+     "q": 22,
+     "stemRatio": 0.953,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "concerning-the-internal-thoracic-artery-select-correct-answe-749f950e": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 12,
+     "q": 41,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.921,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-surface-markings-of-the-lungs-the-following-is-tru-173291e3": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 16,
+     "q": 8,
+     "stemRatio": 0.931,
+     "meanOptionRatio": 0.821,
+     "pairsOk": 3
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 17,
+     "q": 14,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.955,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "what-lies-posterior-to-the-right-root-of-the-lung-961e042f": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 16,
+     "q": 11,
+     "stemRatio": 0.951,
+     "meanOptionRatio": 0.947,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-bronchopulmonary-segments-which-is-correct-03061e6c": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 17,
+     "q": 12,
+     "stemRatio": 0.954,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "what-impression-cannot-be-found-on-the-mediastinal-surface-o-630618f3": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 18,
+     "q": 16,
+     "stemRatio": 0.902,
+     "meanOptionRatio": 0.708,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "regarding-the-blood-supply-of-the-lungs-mark-one-correct-sta-475d3a78": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 20,
+     "q": 23,
+     "stemRatio": 0.908,
+     "meanOptionRatio": 0.914,
+     "pairsOk": 5
+    }
+   ]
+  },
+  "regarding-the-lungs-mark-the-wrong-statement-e5cc97b5": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 22,
+     "q": 36,
+     "stemRatio": 0.907,
+     "meanOptionRatio": 0.748,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "which-vessel-passes-directly-behind-the-right-hilum-01be7ae1": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 23,
+     "q": 41,
+     "stemRatio": 0.953,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-right-coronary-artery-select-the-correct-state-6545e80e": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 34,
+     "q": 23,
+     "stemRatio": 0.962,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "with-respect-to-the-cardiac-plexuses-one-is-true-1f95d468": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 34,
+     "q": 24,
+     "stemRatio": 0.95,
+     "meanOptionRatio": 0.954,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "in-the-anatomical-position-the-heart-has-a-7f24a6c3": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 35,
+     "q": 25,
+     "stemRatio": 0.944,
+     "meanOptionRatio": 0.964,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "one-of-the-followings-is-correct-concerning-the-coronary-sin-cbb41e7c": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 35,
+     "q": 27,
+     "stemRatio": 0.968,
+     "meanOptionRatio": 0.965,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-internal-structure-of-left-ventricle-one-is-correct-f794c1b3": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 35,
+     "q": 28,
+     "stemRatio": 0.957,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-cardiac-veins-one-is-true-877d38e6": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 36,
+     "q": 29,
+     "stemRatio": 0.94,
+     "meanOptionRatio": 0.952,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-following-structure-is-present-in-the-cavity-of-the-righ-0db915f2": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 36,
+     "q": 30,
+     "stemRatio": 0.934,
+     "meanOptionRatio": 0.914,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-anterior-interventricular-artery-is-accompanied-by-46e16a29": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 37,
+     "q": 33,
+     "stemRatio": 0.912,
+     "meanOptionRatio": 0.916,
+     "pairsOk": 5
+    }
+   ]
+  },
+  "one-of-the-followings-is-not-true-concerning-the-left-atrium-cc2b5add": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 38,
+     "q": 37,
+     "stemRatio": 0.953,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "regarding-the-pericardium-select-true-statement-390d3b02": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 47,
+     "q": 1,
+     "stemRatio": 0.949,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-oblique-sinus-of-the-pericardium-one-of-the-fo-82078841": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 47,
+     "q": 3,
+     "stemRatio": 0.972,
+     "meanOptionRatio": 0.995,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-pericardium-of-the-heart-indicate-the-wrong-an-c10ecf74": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 49,
+     "q": 9,
+     "stemRatio": 0.934,
+     "meanOptionRatio": 0.837,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "the-anterior-rough-part-of-right-atrium-developmentally-aris-dc57d97a": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 52,
+     "q": 4,
+     "stemRatio": 0.964,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-development-of-the-heart-select-the-false-stat-1cc2398a": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 52,
+     "q": 6,
+     "stemRatio": 0.963,
+     "meanOptionRatio": 0.946,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-structures-present-at-the-level-of-th-60a385c5": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 56,
+     "q": 8,
+     "stemRatio": 0.977,
+     "meanOptionRatio": 0.978,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-one-of-the-followings-regarding-the-superior-vena-cava-c979512d": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 56,
+     "q": 9,
+     "stemRatio": 0.966,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-arch-of-the-aorta-which-is-incorrect-5880a035": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 56,
+     "q": 10,
+     "stemRatio": 0.952,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-arch-of-aorta-select-the-false-statement-b86a56ca": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 56,
+     "q": 13,
+     "stemRatio": 0.952,
+     "meanOptionRatio": 0.963,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "one-of-the-following-structures-lie-below-the-aortic-arch-87da8fa4": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 57,
+     "q": 15,
+     "stemRatio": 0.958,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "regarding-descending-thoracic-aorta-select-the-true-answer-28c74a27": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 57,
+     "q": 18,
+     "stemRatio": 0.959,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 2
+    }
+   ]
+  },
+  "one-of-the-following-veinsdrain-into-the-right-brachiocephal-5f88d0f2": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 57,
+     "q": 19,
+     "stemRatio": 0.957,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-most-superficial-structure-in-the-thoracic-inlet-is-the-4687669f": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 58,
+     "q": 22,
+     "stemRatio": 0.959,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-left-recurrent-laryngeal-nerve-hooks-inferiorly-around-t-f916dd25": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 64,
+     "q": 5,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.949,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-following-structure-is-not-supplied-by-the-left-phrenic-36089124": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 64,
+     "q": 6,
+     "stemRatio": 0.963,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-followings-concerning-the-right-phrenic-nerve-i-f70c296c": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 64,
+     "q": 7,
+     "stemRatio": 0.965,
+     "meanOptionRatio": 0.971,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "one-of-the-following-regarding-the-right-phrenic-nerve-is-no-7aa80779": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 65,
+     "q": 12,
+     "stemRatio": 0.964,
+     "meanOptionRatio": 0.958,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-statements-regarding-phrenic-nerve-js-ab5defa2": {
+   "answer": "E",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 65,
+     "q": 15,
+     "stemRatio": 0.921,
+     "meanOptionRatio": 0.88,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-statements-regarding-the-esophagus-is-fcf71760": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 68,
+     "q": 9,
+     "stemRatio": 0.963,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-followings-regarding-the-thoracic-duct-is-true-4dd9e89a": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 68,
+     "q": 10,
+     "stemRatio": 0.959,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-statements-about-the-course-of-the-th-dff1f8cd": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 68,
+     "q": 11,
+     "stemRatio": 0.974,
+     "meanOptionRatio": 0.973,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "one-of-the-following-regarding-the-thoracic-duct-is-false-9749a40a": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 68,
+     "q": 12,
+     "stemRatio": 0.958,
+     "meanOptionRatio": 0.998,
+     "pairsOk": 4
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 70,
+     "q": 20,
+     "stemRatio": 0.958,
+     "meanOptionRatio": 0.966,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "what-is-true-of-the-anatomy-of-the-trachea-8e21112a": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 69,
+     "q": 18,
+     "stemRatio": 0.944,
+     "meanOptionRatio": 0.951,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-following-structure-lies-behind-the-oseophagus-0548e986": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 70,
+     "q": 21,
+     "stemRatio": 0.923,
+     "meanOptionRatio": 0.926,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "concerning-the-thoracic-duct-mark-the-wrong-statement-f413f7eb": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 70,
+     "q": 24,
+     "stemRatio": 0.922,
+     "meanOptionRatio": 0.812,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "in-the-superior-mediastinum-which-is-appropriate-78a9a3f4": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 75,
+     "q": 5,
+     "stemRatio": 0.95,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "in-which-mediastinum-is-the-thoracic-part-of-the-trachea-loc-90a56cbb": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 75,
+     "q": 6,
+     "stemRatio": 0.962,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 76,
+     "q": 10,
+     "stemRatio": 0.962,
+     "meanOptionRatio": 0.926,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "in-which-mediastinum-is-the-thoracic-part-of-the-trachea-loc-a3662d0e": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 75,
+     "q": 6,
+     "stemRatio": 0.915,
+     "meanOptionRatio": 0.958,
+     "pairsOk": 3
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 76,
+     "q": 10,
+     "stemRatio": 0.915,
+     "meanOptionRatio": 0.863,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "which-of-the-followings-is-not-a-content-in-the-superior-med-2c3e2242": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 75,
+     "q": 7,
+     "stemRatio": 0.965,
+     "meanOptionRatio": 0.99,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "among-the-followings-the-most-superficial-structure-in-the-s-103cf442": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 76,
+     "q": 11,
+     "stemRatio": 0.972,
+     "meanOptionRatio": 0.866,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "one-of-the-following-structures-passes-with-the-descending-t-924d7cfa": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 83,
+     "q": 12,
+     "stemRatio": 0.956,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "the-anomaly-in-which-there-is-dilatation-of-terminal-or-larg-df7d986f": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 84,
+     "q": 4,
+     "stemRatio": 0.97,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "propagation-of-the-action-potential-through-the-heart-isfast-b5f2c52d": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 2,
+   "occurrences": [
+    {
+     "book": "maher-physio-mcq-cardio.json",
+     "sourceBook": "Dr. Maher Physiology MCQ [Cardio] (Solved)",
+     "page": 3,
+     "q": 20,
+     "stemRatio": 0.993,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    },
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 11,
+     "q": 62,
+     "stemRatio": 0.993,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "concerning-l-type-ca-channels-in-cardiac-muscle-fibers-allth-1c6534dc": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "maher-physio-mcq-cardio.json",
+     "sourceBook": "Dr. Maher Physiology MCQ [Cardio] (Solved)",
+     "page": 7,
+     "q": 38,
+     "stemRatio": 0.946,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "under-resting-conditions-a-marathon-runner-compared-to-untra-bf0effd1": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 2,
+   "occurrences": [
+    {
+     "book": "maher-physio-mcq-cardio.json",
+     "sourceBook": "Dr. Maher Physiology MCQ [Cardio] (Solved)",
+     "page": 15,
+     "q": 91,
+     "stemRatio": 0.989,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    },
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 36,
+     "q": 36,
+     "stemRatio": 0.989,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "regarding-cardiac-index-the-following-is-truc-except-80705f05": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 2,
+   "occurrences": [
+    {
+     "book": "maher-physio-mcq-cardio.json",
+     "sourceBook": "Dr. Maher Physiology MCQ [Cardio] (Solved)",
+     "page": 15,
+     "q": 93,
+     "stemRatio": 0.981,
+     "meanOptionRatio": 0.995,
+     "pairsOk": 4
+    },
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 36,
+     "q": 38,
+     "stemRatio": 0.981,
+     "meanOptionRatio": 0.995,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-sa-node-is-the-normal-pace-maker-because-a4457b2b": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 7,
+     "q": 40,
+     "stemRatio": 0.989,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "action-potential-of-skeletal-muscles-differs-from-thatof-car-94c16ea4": {
+   "answer": "E",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 9,
+     "q": 49,
+     "stemRatio": 0.993,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "action-potential-of-the-cardiac-muscle-is-characterized-by-t-b86bd702": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 9,
+     "q": 52,
+     "stemRatio": 0.989,
+     "meanOptionRatio": 0.984,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-physiologic-function-of-the-relatively-slow-conduction-t-463f8c70": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 10,
+     "q": 59,
+     "stemRatio": 0.992,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-agents-or-changes-has-a-negative-inot-692531bc": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 16,
+     "q": 32,
+     "stemRatio": 0.994,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "as-the-preload-on-ventricular-myocytes-is-increased-1-32d2b2d9": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 18,
+     "q": 41,
+     "stemRatio": 0.981,
+     "meanOptionRatio": 0.986,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "ventricular-pressure-is-higher-than-the-atrial-pressure-in-a-f2fda77c": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 25,
+     "q": 36,
+     "stemRatio": 0.995,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "at-the-beginning-of-which-phase-of-the-cardiac-cycle-does-th-6b54a811": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 26,
+     "q": 47,
+     "stemRatio": 0.994,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "y-wave-in-jugular-venous-pulse-occurs-in-1-e831e3a0": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 27,
+     "q": 50,
+     "stemRatio": 0.976,
+     "meanOptionRatio": 0.986,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "the-incisura-or-diacrotic-notch-in-the-aortic-pressure-curve-3707d6fa": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 28,
+     "q": 61,
+     "stemRatio": 0.992,
+     "meanOptionRatio": 0.993,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "a-decrease-in-carotid-sinus-pressure-from-100-mmhg-to-70-mml-6e408561": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 46,
+     "q": 58,
+     "stemRatio": 0.973,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "a-patient-has-a-renal-disease-that-produced-albuminuria-whic-ab7780e3": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 53,
+     "q": 34,
+     "stemRatio": 0.99,
+     "meanOptionRatio": 0.986,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "inspiration-occurs-when-1-b7f33c4b": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 68,
+     "q": 31,
+     "stemRatio": 0.958,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "a-patient-has-a-dead-space-volume-of-130-ml-a-respiratory-ra-f754de6b": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 69,
+     "q": 36,
+     "stemRatio": 0.99,
+     "meanOptionRatio": 0.967,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "vital-capacity-includes-all-the-following-luag-volumes-excep-e6d312c5": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 69,
+     "q": 37,
+     "stemRatio": 0.984,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-could-not-be-part-of-the-respiratory-57963540": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 71,
+     "q": 50,
+     "stemRatio": 0.985,
+     "meanOptionRatio": 0.971,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-tne-following-represents-the-pressure-difference-th-8e096a02": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 71,
+     "q": 52,
+     "stemRatio": 0.989,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "intra-pleural-pressure-1-92185ac4": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 71,
+     "q": 55,
+     "stemRatio": 0.957,
+     "meanOptionRatio": 0.991,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-is-not-true-concerning-respiratory-di-95a783aa": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 72,
+     "q": 62,
+     "stemRatio": 0.995,
+     "meanOptionRatio": 0.923,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-is-not-true-concerning-respiratory-di-a84e357a": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 72,
+     "q": 62,
+     "stemRatio": 0.985,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "an-infant-born-prematurely-in-gestational-week-25-has-neonat-f5ecfb0b": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 73,
+     "q": 65,
+     "stemRatio": 0.91,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "inspiration-i-1730519e": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 74,
+     "q": 70,
+     "stemRatio": 0.917,
+     "meanOptionRatio": 0.997,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "forced-expiration-b-7d9febd4": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 74,
+     "q": 74,
+     "stemRatio": 0.944,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "which-volume-remains-in-the-lungs-after-a-tidal-volume-ty-is-3ab2bbec": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 77,
+     "q": 91,
+     "stemRatio": 0.985,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "how-do-you-calculate-how-much-inspired-air-actually-ventilat-91ab164f": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 79,
+     "q": 106,
+     "stemRatio": 0.983,
+     "meanOptionRatio": 0.911,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-following-conditions-would-limit-the-diffusion-of-o-63690754": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 85,
+     "q": 36,
+     "stemRatio": 0.976,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "which-of-the-following-conditions-would-limit-the-diffusion-199d5c2b": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 85,
+     "q": 36,
+     "stemRatio": 0.995,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "all-about-ventilation-and-perfusion-of-different-regions-of-be381b3b": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 90,
+     "q": 31,
+     "stemRatio": 0.976,
+     "meanOptionRatio": 0.963,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "ventilation-perfusion-v4-q-ratio-a45d5f6c": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 91,
+     "q": 36,
+     "stemRatio": 0.969,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "all-about-hemoglobin-is-rue-except-d59e6077": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 98,
+     "q": 35,
+     "stemRatio": 0.986,
+     "meanOptionRatio": 0.993,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "most-co-is-transported-in-the-blood-in-the-form-of-9dc7cf8c": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 98,
+     "q": 36,
+     "stemRatio": 0.99,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "about-70-of-the-carbon-dioxide-is-transported-to-the-lungs-1-5ecaaa90": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 98,
+     "q": 37,
+     "stemRatio": 0.983,
+     "meanOptionRatio": 0.992,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "with-respect-to-gas-exchange-across-the-alyeolar-membrane-ea528c00": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 99,
+     "q": 43,
+     "stemRatio": 0.982,
+     "meanOptionRatio": 0.969,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "oxygen-unloading-3-26f77f75": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 100,
+     "q": 48,
+     "stemRatio": 0.941,
+     "meanOptionRatio": 0.996,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "during-chloride-shift-1-eefc11e6": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 100,
+     "q": 50,
+     "stemRatio": 0.955,
+     "meanOptionRatio": 0.984,
+     "pairsOk": 4
+    },
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 101,
+     "q": 54,
+     "stemRatio": 0.955,
+     "meanOptionRatio": 0.997,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-largest-amount-of-co-is-transported-by-the-blood-as-691eba1c": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 100,
+     "q": 53,
+     "stemRatio": 0.991,
+     "meanOptionRatio": 0.927,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "concerning-alveolar-ventilation-all-is-tru-except-76ff61c7": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 108,
+     "q": 41,
+     "stemRatio": 0.99,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "non-chemical-influence-on-respiration-inclucle-all-of-the-fo-491c9bf5": {
+   "answer": "D",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 110,
+     "q": 53,
+     "stemRatio": 0.98,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "hypoxic-hypoxia-3-7fa250af": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "shebl-physio-mcq.json",
+     "sourceBook": "Dr. Shebl CPS MCQs (Cardiovascular & Respiratory Physiology, 30 Q/chapter)",
+     "page": 115,
+     "q": 32,
+     "stemRatio": 0.938,
+     "meanOptionRatio": 0.972,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "choose-the-correct-statement-about-pharyngeal-tonsil-0-9929dd81": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 12,
+     "q": 75,
+     "stemRatio": 0.981,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "smokers-suffer-from-disturbed-ratio-between-oo-3b771e32": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 18,
+     "q": 3,
+     "stemRatio": 0.966,
+     "meanOptionRatio": 0.847,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "neuroendocrine-ceils-lining-the-respiratory-epithelium-e9afee52": {
+   "answer": "C",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 18,
+     "q": 6,
+     "stemRatio": 0.981,
+     "meanOptionRatio": 0.893,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "the-structural-component-which-is-only-found-in-the-bronchio-04bec76c": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 18,
+     "q": 7,
+     "stemRatio": 0.959,
+     "meanOptionRatio": 0.979,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-structural-component-which-is-only-found-in-thebronchiol-8de78d86": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 18,
+     "q": 7,
+     "stemRatio": 0.951,
+     "meanOptionRatio": 0.988,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "the-part-of-airway-which-is-located-at-the-transition-betwee-4e2dc249": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 19,
+     "q": 11,
+     "stemRatio": 0.962,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "interalveolar-septa-are-3e260244": {
+   "answer": "A",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 21,
+     "q": 24,
+     "stemRatio": 0.905,
+     "meanOptionRatio": 0.734,
+     "pairsOk": 3
+    }
+   ]
+  },
+  "type-lpneumocytes-7e094891": {
+   "answer": "B",
+   "confidence": "fuzzy-stem-and-optionset",
+   "agreeingBooks": 1,
+   "occurrences": [
+    {
+     "book": "zahra-histo-mcq.json",
+     "sourceBook": "Histology MCQ by Dr. Ahmed Zahra [104]",
+     "page": 21,
+     "q": 27,
+     "stemRatio": 0.914,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    }
+   ]
+  }
+ },
+ "fuzzyStemConflicting": {
+  "pleural-reflection-lies-at-which-rib-level-in-the-midclavicu-4742bd47": {
+   "letters": [
+    "A",
+    "C"
+   ],
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 24,
+     "q": 4,
+     "stemRatio": 0.965,
+     "meanOptionRatio": 1.0,
+     "pairsOk": 4
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 25,
+     "q": 6,
+     "stemRatio": 0.906,
+     "meanOptionRatio": 0.854,
+     "pairsOk": 4
+    }
+   ]
+  },
+  "regarding-the-superior-mediastinum-select-the-incorrect-answ-8ac910fc": {
+   "letters": [
+    "C",
+    "D"
+   ],
+   "occurrences": [
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 77,
+     "q": 12,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.843,
+     "pairsOk": 3
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 77,
+     "q": 13,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.952,
+     "pairsOk": 4
+    },
+    {
+     "book": "jalal-anatomy-explained-mcq.json",
+     "sourceBook": "Anatomy MCQ by Dr. Ahmed Galal (Jalal) [Explained] (Solved)",
+     "page": 77,
+     "q": 14,
+     "stemRatio": 0.961,
+     "meanOptionRatio": 0.958,
+     "pairsOk": 4
+    }
+   ]
+  }
+ },
+ "fuzzyStemRecoveredCount": 117,
+ "afterFuzzyStemStillKeylessKeys": [
+  "medium-sized-artery-is-characterized-by-60b39a97",
+  "a-15-years-old-teenaged-boy-inhaled-a-foreign-body-d8c90daf",
+  "blood-capillaries-in-exocrine-glands-are-d8a679f4",
+  "it-is-absent-in-klinefelter-syndrome-9-addition-of-a-fragmen-4f0b50c3",
+  "regarding-the-meiotic-cell-division-meiosis-51b08c53",
+  "regarding-the-red-pulp-of-the-spleen-c93e25bf",
+  "regarding-the-white-pulp-of-the-spleen-a-contains-a-central-e5269929",
+  "renal-glomerular-capillaries-are-a-type-of-c122dd7c",
+  "segments-of-dna-molecules-that-code-for-formation-of-specifi-d5b539e9",
+  "tunica-adventitia-with-longitudinal-smooth-muscle-fibers-is-26042411",
+  "tunica-media-of-blood-vessels-constitutes-the-following-f2ad81c4",
+  "two-discs-of-protein-located-at-centromere-for-spindle-fiber-e8770502",
+  "which-of-the-following-is-true-under-normal-conditions-145d5832",
+  "0-0992dd7a",
+  "03-6-visceral-pleufa-is-innervated-by-the-phrenic-and-the-fo-5369899d",
+  "03-contains-network-of-lymph-capillaries-of-00-0-693-1-regar-28bdf44e",
+  "1-698105-at-the-of-the-intervertebral-disc-between-the-4-and-727a12e4",
+  "1-ip-the-blood-capillaries-reguls-the-blood-flow-is-the-func-a390fd08",
+  "a-15-years-old-teenaged-boy-inhaled-a-foreign-body-5-marks-7574ed32",
+  "a-17-year-old-boy-is-brought-to-the-emergency-room-after-an-74c6b22e",
+  "a-25-year-old-min-is-under-water-in-the-swimming-pool-and-br-7c09a85e",
+  "a-35-year-old-man-has-a-vital-capacity-vc-of-5-l-a-tidal-vol-d5f494f1",
+  "a-49-year-old-man-has-a-pulmonary-embolism-that-completely-b-5ba07ffa",
+  "a-blood-pressure-of-180-120-mmhg-was-found-in-a-patient-aged-ff99150a",
+  "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-92c527a1",
+  "a-child-with-mental-retardation-hypotonia-and-mongol-like-fe-a6e1a6a7",
+  "a-female-patient-presented-with-mental-retardation-edema-of-45ad91b4",
+  "a-healthy-45-year-old-man-is-reading-the-newspaper-which-of-39a53f44",
+  "a-histological-feature-of-the-bronchiole-is-0-a-it-has-carti-14b9553c",
+  "a-m-ntaliy-retarded-female-patient-with-short-stature-primar-2601c06b",
+  "a-mild-hemorrhage-will-cause-stroke-volume-to-shift-from-poi-29f14a8f",
+  "a-patient-has-an-auto-immune-disease-it-may-be-due-to-a-defe-060829f0",
+  "a-patient-was-diagnosed-as-having-chronic-myeloid-leukemia-h-e370e170",
+  "a-patient-with-heart-failure-the-ejection-fraction-is-535bf7d6",
+  "a-patient-with-heart-failure-the-ejection-fraction-is-feprat-a02135d6",
+  "a-person-with-a-ventilation-perfusion-v-q-defect-has-hypoxem-1492d57e",
+  "a-preterm-infant-has-a-surfactant-deficiency-without-surfact-87f66d17",
+  "a-reduction-of-carotid-sinus-pressure-would-cause-a-decrease-8602bea7",
+  "a-s0-year-old-male-was-admitted-to-the-emergency-department-2eaada5b",
+  "a-swab-from-the-buccal-mucosa-of-a-newly-born-infant-showed-ed97054a",
+  "a7-year-old-child-came-to-the-pediatric-clinic-presenting-wi-c1adae6b",
+  "about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885",
+  "about-the-cardiac-muscle-all-the-following-are-true-except-a-3657b81f",
+  "about-the-pacemaker-potential-all-the-following-are-true-exc-233246b9",
+  "about-the-transverse-sinus-of-the-serous-pericardium-mark-on-cba8c86e",
+  "according-to-gene-content-in-chromosomes-autosomes-are-facc440f",
+  "according-to-starling-law-the-strength-of-cardiac-muscle-con-4e1e6c59",
+  "according-to-starling-law-the-tension-of-isometric-cardiac-m-0dfbb05b",
+  "achild-presented-with-mental-retardation-muscular-hypotonia-7cd5aa87",
+  "afferents-which-may-stimulate-inspiratory-centers-include-7cdecfe6",
+  "all-cardiac-valves-are-closed-in-a22d5c2c",
+  "all-characters-of-extra-pulmonary-bronchi-except-5edbbc7f",
+  "all-of-following-are-branches-of-descending-thoracic-aorta-e-59eb3cb8",
+  "all-of-the-following-cause-pulmonary-vasoconstriction-except-44323c47",
+  "all-of-the-following-help-drainage-of-lymph-except-6cd27447",
+  "all-of-the-following-increase-the-work-of-breathing-except-17128ff7",
+  "all-of-the-followings-are-causes-of-pitting-edema-except-1f971191",
+  "amale-child-at-puberty-is-presented-with-mental-retardation-d31b09e6",
+  "an-effect-of-myocardial-ischemia-on-the-electrical-activity-4e43148c",
+  "an-increase-in-afterload-and-venous-compliance-can-cause-str-4dc76b7f",
+  "an-increase-in-which-of-the-following-tends-to-decrease-capi-27b7bb68",
+  "an-old-man-suffers-from-pulsatile-retrosternal-chest-pain-wh-65035639",
+  "anterior-margin-of-the-left-atrium-the-sino-atrial-node-is-s-a81d5f99",
+  "anterior-media-stinum-space-mark-the-unacceptable-statement-78c36e40",
+  "apoptosis-is-characterized-by-the-following-d02e77f3",
+  "arterial-blood-pressure-may-be-increased-by-d7be95b1",
+  "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-6c505d42",
+  "arterial-blood-pressure-may-be-increased-by-which-of-the-fol-e73503b4",
+  "arterio-venous-anastomoses-are-a-direct-connection-between-m-7275de63",
+  "arterio-venous-anastomoses-are-characterized-by-0677dfc0",
+  "as-regard-the-standard-limb-leads-of-ecg-lead-ii-represents-a738ddad",
+  "as-the-preload-increases-what-is-the-effect-on-ventricular-m-b3ab5a86",
+  "at-any-time-the-greatest-fraction-of-blood-volume-is-present-f63d75ba",
+  "at-the-horizontal-axis-of-ecg-paper-cach-millimeter-represen-eee2b8c1",
+  "at-the-level-of-the-except-4h-sternum-with-ste-47ed872f",
+  "at-the-level-of-the-sternal-angle-the-following-features-are-835ef4ab",
+  "at-the-sternal-angle-one-is-true-5ff4bcf3",
+  "at-the-sternal-angle-one-is-wrong-909d35f4",
+  "at-what-level-does-the-trachea-split-into-the-main-bronchi-p-36a13daa",
+  "av-valves-are-open-during-which-of-the-following-phases-of-c-b3cd86ce",
+  "ay-valves-are-opened-in-77911318",
+  "b-outline-the-zones-of-white-pulp-and-state-the-cellular-com-38817513",
+  "baroreceptors-of-carotid-sinus-and-aortic-arch-are-sensitive-5a5b4cb9",
+  "based-on-the-following-values-the-flow-of-fluid-out-of-the-c-858e5d64",
+  "bifurcates-6-cm-below-the-steal-angle-mark-one-correct-state-7adedfe5",
+  "blood-film-from-this-patient-may-present-eosinophilia-853347f0",
+  "blood-flows-into-the-coronary-arteries-arises-from-the-20f83d05",
+  "blood-sinusoids-are-characterized-by-the-following-91db52cc",
+  "cardiac-muscle-cannot-be-tetanized-because-of-e311a248",
+  "cardiac-output-is-equal-to-which-of-the-following-31600b33",
+  "choose-the-correct-statement-about-billroth-cords-a-they-are-5d292dfe",
+  "choose-the-correct-statement-about-billroth-cords-aa93a7fb",
+  "choose-the-correct-statement-about-the-lymph-node-a-lymph-ci-76fd16cb",
+  "chronotropism-refers-to-which-of-the-following-50fd5563",
+  "clara-cells-are-known-to-be-7933b952",
+  "co-narcosis-means-466cf640",
+  "compared-with-the-apex-of-the-lung-the-base-of-the-lung-has-bcf708af",
+  "compared-with-the-base-of-the-lung-in-a-person-who-is-standi-ccaa8882",
+  "concerni-vacorring-the-branches-of-the-typical-intercostal-n-16fc12f6",
+  "concerning-apoptosis-25140e67",
+  "concerning-breathing-all-true-except-ecd77f19",
+  "concerning-compliance-of-large-arterial-blood-vessels-one-is-9eea479c",
+  "concerning-compliance-of-the-stomach-one-is-true-ec247c63",
+  "concerning-laminar-blood-flow-one-is-incorrect-eb00a7cf",
+  "concerning-large-veins-which-one-of-the-following-statements-1b1fd630",
+  "concerning-respiration-a-expiratory-muscles-act-during-norma-6bd951ba",
+  "concerning-respiration-it-2-aaa-5c63100d",
+  "concerning-small-granule-cells-2d4e1325",
+  "concerning-small-granule-cells-it-i-85641459",
+  "concerning-the-atrial-pressure-curve-a-c-wave-occurs-during-8e579abd",
+  "concerning-the-base-of-the-heart-choose-the-incorrect-answer-e10f37be",
+  "concerning-the-diaphragm-all-true-except-1213ff45",
+  "concerning-the-ecg-of-an-aciult-human-all-are-true-except-a9cb2ea6",
+  "concerning-the-external-intercostal-muscle-choose-the-incorr-7f6cb920",
+  "concerning-the-heart-mark-the-correct-statement-1-8c625a04",
+  "concerning-the-intercostal-and-subcostal-arteries-which-of-t-24b9b038",
+  "concerning-the-left-ventricle-select-the-incorrect-statement-6dc70dc8",
+  "concerning-the-oblique-sinus-of-the-serous-pericardium-indic-e475ffbf",
+  "concerning-the-oesophagus-all-true-except-135051ac",
+  "concerning-the-olfactory-epithelium-9305cebb",
+  "concerning-the-phrenic-nerves-select-the-correct-statement-2d4818a1",
+  "concerning-the-pleural-cavity-mark-the-incorrect-statement-37aaad9c",
+  "concerning-the-pressure-volume-loop-of-left-ventricle-all-ex-0eb3ce9e",
+  "concerning-the-residual-volume-a-represents-more-than-30-of-b7834ad1",
+  "concerning-the-thorax-choose-the-wrong-answert-ed16fc68",
+  "concerning-the-thymus-which-of-the-following-is-correct-1-84f21510",
+  "concerning-the-trachea-one-is-wrong-315fcd65",
+  "concerning-the-upper-pair-of-vocal-cords-a-they-are-the-true-db8e5351",
+  "concerning-the-upper-pair-of-vocal-cords-they-d0e9e07b",
+  "conduction-speed-is-highest-in-the-bc0dd1e9",
+  "conduction-speed-is-slowest-in-the-99b22b7b",
+  "control-multiplication-of-helper-suppresser-t-cell-f9d598e8",
+  "coronary-arteries-select-the-correct-statement-57c2cd72",
+  "costocervical-trunk-b-vertebral-artery-transverse-cervical-a-2c56970b",
+  "cyanosis-1-60b08503",
+  "describe-the-ionic-bases-of-phase-1-and-phase-2-in-cardiac-m-b46ebbe9",
+  "diacrotic-notch-is-due-to-e9c90ebf",
+  "diacrotic-wave-is-caused-by-1d91da8b",
+  "digitalis-has-positive-inotropic-effect-through-which-mechan-64931a14",
+  "divide-the-spleen-into-regular-compartments-lymphatic-system-61263f5a",
+  "down-syndrome-mongolism-is-characterized-by-a-it-is-a-form-o-449c5e95",
+  "during-anaphylactic-shock-release-of-which-substance-causes-87214129",
+  "during-excitation-contraction-coupling-of-carciac-myocyte-wh-8f883a4d",
+  "during-hemorrhagic-shock-the-patient-exhibits-4d2e0a8d",
+  "during-hemorrhagic-shock-the-patient-exhibits-a-decreased-he-5f1a1828",
+  "during-isovolumetric-ventricular-contraction-a-rapid-filling-ae3cfd14",
+  "during-quiet-inspiration-ipp-equals-190312a7",
+  "during-quiet-inspiration-ipp-equals-a-1mmug-003c6ae3",
+  "during-the-heart-development-the-left-horn-of-the-sinus-veno-a2954fc5",
+  "during-the-isometric-contraction-pnase-of-cardiac-cycle-what-f8195c12",
+  "during-which-of-the-foliowing-would-the-intra-pleura-pressur-de1dd666",
+  "during-which-of-the-following-would-the-intra-pleural-pressu-232671b6",
+  "during-which-of-the-following-would-the-intra-pleural-pressu-e2dafb02",
+  "during-which-phase-of-the-cardiac-cycle-docs-ventricular-pre-169c9804",
+  "each-segment-is-supplied-by-a-lobar-bronchus-s-concerning-th-aae4cd22",
+  "ecg-record-gives-valuable-information-about-all-of-the-follo-68820593",
+  "elastic-cartilage-provides-structural-support-for-the-respir-0efcaf59",
+  "eleventh-1-regarding-the-external-intercostal-muscle-indicat-9a181d08",
+  "esophagus-1-08884f27",
+  "esophagussvfemer-0-structure-located-inside-the-anterior-med-49aa11d3",
+  "fenestrated-visceral-blood-capillaries-are-known-by-bbfeda5d",
+  "fetal-hemoglobin-contains-2alpha-2-gamma-chain-cannot-combin-826332b1",
+  "fetal-hemoglobin-contains-2alpha-2-gamma-chains-cannot-combi-bd5548ea",
+  "gas-exchange-occurs-in-a-terminal-bronchioles-b-intra-pulmon-049ead38",
+  "give-the-distribution-of-the-right-coronary-artery-eseeeeeee-a34e7aa3",
+  "gives-of-the-recurrent-laryngeal-nerve-in-the-neck-has-no-se-598b6ee2",
+  "greatest-total-cross-sectional-area-a-aorta-1242be79",
+  "hassall-s-corpuscles-in-thymus-are-characterized-by-94e95c43",
+  "heart-failure-cells-are-b0fe1a8f",
+  "how-much-oxygen-is-normally-carried-in-the-blood-a1f343e8",
+  "ht-begins-at-the-level-of-the-lower-border-of-the-second-tho-b61fc1a3",
+  "hypertension-develops-when-the-a-amount-of-collagen-fibers-i-9f819538",
+  "hypovolemis-shock-is-characterized-by-all-the-following-exce-5491354e",
+  "hypoxemia-is-caused-by-all-of-the-following-except-e0059e10",
+  "i-regarding-the-root-of-the-lung-mark-the-incorrect-answer-0-e92f0fa9",
+  "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-2d576eb0",
+  "if-a-patient-at-rest-has-a-systolic-diastolic-blood-pressure-44891a85",
+  "if-the-edv-is-increased-within-limits-which-of-the-following-e4707b02",
+  "if-the-lungs-experimentally-filled-completely-with-saline-so-4d4a1047",
+  "if-the-systolic-blood-pressure-is-120-mmhg-and-the-pulse-pre-be7f9f01",
+  "ifa-parent-is-a-carrier-of-a-chromosome-21-translocation-he-2f86d27d",
+  "in-a-resting-adult-what-s-the-normal-ventricular-ejection-fr-12088240",
+  "in-a-resting-adult-what-s-the-normal-ventricular-ejection-fr-dbe6d127",
+  "in-an-ecg-recording-the-time-between-atria-depolarization-ve-bf64f74f",
+  "in-bronchiole-cell-degrades-the-toxin-in-inhaled-air-is-867e6059",
+  "in-healthy-ventricles-the-force-of-contraction-a-decreases-w-fd934514",
+  "in-hypovolemis-shock-which-of-the-following-receptors-are-st-b5143c11",
+  "in-metabolic-acidosis-compensatory-hyperventilation-occurs-i-4b08cc0a",
+  "in-muller-s-experiment-it-reaches-30cmh20-26-the-intrapleura-fe19c8c8",
+  "in-normal-individual-respiration-is-regulated-by-all-except-7e8ddaae",
+  "in-progressive-hemorrhagic-shock-which-of-the-following-occu-649d7c04",
+  "in-the-following-figure-which-answer-is-correct-29499284",
+  "in-the-interphase-of-cell-cycle-synthesis-s-phase-shows-ffdda484",
+  "in-the-sinoatrial-sa-node-phase-4-depolarization-pacemaker-p-51bb7e46",
+  "in-the-sinoatrial-sa-node-phase-4-depolarization-pacemaker-p-e735e414",
+  "in-the-spleen-white-pulp-7d4646cc",
+  "in-the-superior-mediastinum-select-the-true-statement-2a-the-6e6fa7ec",
+  "in-thymus-gland-hassall-s-corpuscles-are-characterized-by-3ddbf712",
+  "in-what-mediastinum-are-the-phrenic-nerves-located-a-prevert-44989386",
+  "inaorta-internal-elastic-lamina-is-unclear-because-4955103f",
+  "increased-arteriolar-resistance-15i-metabolic-changes-that-p-a0ebb63c",
+  "increases-in-which-of-the-following-variables-would-be-expec-6a43febb",
+  "increasing-the-inotropic-state-of-the-heart-will-ans-25958be0",
+  "inferlor-to-the-lower-border-of-therib-at-thie-iniddle-of-th-1dfb27a0",
+  "inira-alveolar-pressure-during-normal-inspiration-2dec0ace",
+  "inlymph-node-are-lined-by-simple-squamous-epithelium-j-a-sub-34a12bea",
+  "internal-elastic-lamina-is-developed-in-the-tunica-intima-of-11ac0429",
+  "intra-alveolar-pressure-a-is-negative-throughout-normal-quie-fa946e59",
+  "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8",
+  "intrapulmonary-bronchus-has-tepret-epithelial-lining-with-no-a0257a5b",
+  "is-supplied-by-the-glossopharyngeal-nerve-0-0-the-esophageal-87b6ba62",
+  "it-divides-at-the-level-of-the-6-thoracic-vertebra-into-2-ma-9aaf4a1d",
+  "it-is-crossed-anteriorly-by-the-left-brachiocephalic-vein-cd36110c",
+  "it-is-crossed-by-the-arch-of-the-aorta-s-concerning-the-oeso-2b4dc92f",
+  "it-is-crossed-by-the-left-bronchus-along-its-whole-course-th-3ff223e8",
+  "it-passes-through-diaphragm-to-the-abdomen-at-the-level-of-t-36bf2357",
+  "it-passes-through-the-diaphragm-level-ts-0-name-the-structur-3883d600",
+  "its-apex-is-directed-anteriorly-7532acaa",
+  "its-middle-lobe-has-two-bronchopulmonary-segments-9b17b3d7",
+  "k-27f4ee2c",
+  "klinefelter-s-syndrome-is-82256d5f",
+  "lack-of-surfactant-produces-all-of-the-above-except-3e26cce3",
+  "large-elastic-arteries-are-characterized-by-6fa6edbe",
+  "less-developed-spirally-arranged-smooth-muscles-are-a-featur-adbb9056",
+  "list-the-tributaries-and-fields-of-lymph-drainage-of-the-tho-fbd38c36",
+  "longitudinal-splitting-of-chromosomes-happens-in-the-followi-dd089630",
+  "low-resistance-shock-is-characterized-by-which-of-the-follow-476fb9a1",
+  "low-resistance-shock-is-characterized-by-which-of-the-follow-d4c77b84",
+  "lower-border-oblique-line-from-point-c-to-lt-57-intercostal-064bfa4c",
+  "lung-bronchiole-has-76f40d7b",
+  "lung-compliance-is-increased-in-1ce011e2",
+  "lung-emphysema-decreases-the-pulmonary-diffusing-capacity-fo-ead15150",
+  "lung-surfactant-a-decreases-the-tendency-of-alveolar-collaps-619db9e4",
+  "match-column-a-with-b-d4f72026",
+  "may-be-due-to-47-chromosomes-xxy-15-structural-aberrations-i-304914be",
+  "medium-sized-arteries-d8faffa8",
+  "medium-sized-vein-is-characterized-by-eeba9e52",
+  "metabolic-changes-that-produce-vasodilation-of-resistance-ve-d5fa92c6",
+  "mitosis-is-characterized-by-the-following-a-exchange-of-gene-0099d1c3",
+  "monosomy-of-sex-chromosome-is-4dd33dcd",
+  "murmur-appears-in-the-following-condition-ab3d9e41",
+  "negative-inotropic-mechanisms-include-which-of-the-following-10f92c99",
+  "non-keratinized-stratified-squamous-epithelium-is-the-coveri-a6b12974",
+  "normal-value-of-lung-compliance-is-about-b1eb2ab0",
+  "olfactory-mucosa-shows-a-simple-squamous-epithelium-df1fb9e8",
+  "on-e-m-examination-of-lung-section-show-pinocytic-vesicles-a-0fd1550e",
+  "on-the-following-graph-showing-left-ventricular-volume-and-p-a53a02d1",
+  "one-of-the-following-branches-arises-from-arch-of-aorta-5f0c9b55",
+  "one-of-the-following-branches-not-arising-from-descending-th-fd16980d",
+  "one-of-the-following-does-not-open-into-the-right-atrium-2-a-3a31c50e",
+  "one-of-the-following-is-a-type-of-blood-capillaries-a-blood-68545fdd",
+  "one-of-the-following-is-incorrect-concerning-the-thoracic-pa-7d0e7265",
+  "one-of-the-following-structure-is-a-content-of-the-middle-me-662f52e5",
+  "one-of-the-following-structures-5-pt-related-5dd94a50",
+  "one-of-the-following-structures-passes-with-the-descending-t-d360ad09",
+  "one-of-the-followings-i-13-gs-is-a-main-feature-of-the-right-b16d5199",
+  "one-of-the-followings-is-not-true-concerning-the-left-vagus-101e7ea5",
+  "opposite-the-tracheal-bifurcation-lies-indicate-the-correct-bcb94387",
+  "oxygen-therapy-is-of-limited-value-in-which-of-the-following-4b8eb82e",
+  "p-wave-is-due-to-bb56baa3",
+  "pacemaker-potentials-are-normally-absent-from-98015db5",
+  "pericyte-of-blood-capillary-can-differentiate-into-the-follo-5b3cb3c8",
+  "peripheral-chemoreceptors-are-not-sensitive-to-all-of-the-fo-eb2cd041",
+  "ph-of-venous-blood-is-only-slightly-more-acidic-than-ph-of-a-93c10913",
+  "philadelphia-chromosome-6245c1ec",
+  "pleural-reflection-lies-at-which-rib-level-in-the-midaxillar-385a843b",
+  "pneumotaxic-center-functions-primarily-to-a-limit-inspiratio-e9225808",
+  "posterior-border-line-between-12t-thoracic-spine-and-cervica-b0d45e1b",
+  "posterior-interventricular-artery-ae-circumflex-artery-et-d-5b0513d5",
+  "prominent-internal-elastic-lamina-iel-is-seen-in-8c080de2",
+  "protein-discs-located-at-centromere-for-attachment-for-spind-62275fa7",
+  "qrs-complex-is-due-to-0e1de663",
+  "quantitatively-the-most-important-means-for-increasing-blood-ee55525a",
+  "red-pulp-of-the-spleen-shows-91bf4d2f",
+  "regarding-arch-of-aorta-mark-one-correct-answer-a-it-extends-99c650da",
+  "regarding-arch-of-aorta-select-the-correct-statement-397779d3",
+  "regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9",
+  "regarding-brachiocephalic-veins-one-of-the-following-stateme-8aac4731",
+  "regarding-chloride-shift-phenomenon-at-the-tissue-level-d2124bd0",
+  "regarding-descending-thoracic-aorta-the-following-statements-ba505495",
+  "regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0",
+  "regarding-lymph-node-which-answer-is-correct-821e3545",
+  "regarding-mitosis-2b0b7327",
+  "regarding-phospholamban-pln-protein-b5c226f7",
+  "regarding-pleurae-the-following-statements-are-true-except-22eb58e4",
+  "regarding-respiration-and-the-changes-in-the-thorax-all-the-69394d4b",
+  "regarding-the-anatomy-of-the-heart-following-statements-are-62f7c901",
+  "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-56ba303e",
+  "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-b4d0740f",
+  "regarding-the-arch-of-the-aorta-one-is-false-c6faa886",
+  "regarding-the-arch-of-the-aorta-the-following-statements-are-86180e3e",
+  "regarding-the-azygos-vein-the-following-statements-are-corre-75a55e25",
+  "regarding-the-base-of-the-heart-following-statements-are-cor-6d7c3d62",
+  "regarding-the-blood-vessels-0-a-smooth-muscle-contraction-in-4cd2175e",
+  "regarding-the-blood-vessels-1-74c7dfb7",
+  "regarding-the-blood-vessels-6a4abd1f",
+  "regarding-the-bronchi-the-following-statements-are-true-exce-4c571716",
+  "regarding-the-bronchopulmonary-segments-choose-the-correct-s-a03bf8bf",
+  "regarding-the-cell-division-71282d45",
+  "regarding-the-coronary-arteries-all-the-following-statements-402c0dd1",
+  "regarding-the-descending-thoracic-aorta-the-following-statem-0c346b05",
+  "regarding-the-development-of-aortic-arches-mark-one-correct-09a8e7be",
+  "regarding-the-esophagus-the-following-statements-are-correct-7bd0d4e2",
+  "regarding-the-external-intercostal-muscle-one-of-the-followi-e9d10d6e",
+  "regarding-the-fetal-circulation-and-circulatory-changes-afte-6044f685",
+  "regarding-the-function-of-the-pericardium-one-of-the-followi-25ea0a87",
+  "regarding-the-germinal-center-in-lymph-node-2a8628a2",
+  "regarding-the-heart-choose-the-correct-answer-it-lies-in-the-c3cd415b",
+  "regarding-the-heart-mark-one-correct-statement-d8600a96",
+  "regarding-the-heart-valves-the-following-statements-are-true-4070ac89",
+  "regarding-the-heart-valves-which-of-the-followings-is-correc-af88156c",
+  "regarding-the-intercostal-arteries-one-is-ne-oo-1ec8d7e7",
+  "regarding-the-intercostal-nerve-mark-one-correct-statement-39200e19",
+  "regarding-the-internal-mammary-artery-the-following-statemen-fae6e956",
+  "regarding-the-ionic-basis-of-action-potential-in-cardiomyocy-5f570010",
+  "regarding-the-isovolumetric-contraction-phase-of-cardiac-cyc-325b52a8",
+  "regarding-the-left-coronary-artery-all-the-followings-are-tr-d0a150af",
+  "regarding-the-lungs-all-the-following-statements-are-true-ex-1bfb9298",
+  "regarding-the-lungs-the-following-statements-are-correct-exc-e8f3c3d0",
+  "regarding-the-lymphatic-capillaries-choose-the-correct-state-6e9870ae",
+  "regarding-the-metarterioles-the-following-are-correct-f3764004",
+  "regarding-the-mononuclear-phagocytic-system-0c3848e5",
+  "regarding-the-movements-of-respiration-all-the-followings-st-101c31bf",
+  "regarding-the-pericardium-of-the-heart-following-statements-75dfa8a4",
+  "regarding-the-pericardium-the-following-statements-are-corre-1ceda27b",
+  "regarding-the-pleura-all-the-following-statements-are-true-e-1968aabb",
+  "regarding-the-posterior-mediastinum-one-of-the-followings-is-de5b0b34",
+  "regarding-the-ribs-one-of-the-following-statements-is-wrong-1d20d8ae",
+  "regarding-the-right-atrium-the-following-statements-are-corr-14b9deef",
+  "regarding-the-right-ventricle-the-following-statements-are-c-145cd774",
+  "regarding-the-root-of-the-lung-one-is-incorrect-ab551b87",
+  "regarding-the-suprapleural-membrane-all-the-following-statem-c8caf1dc",
+  "regarding-the-thoracic-part-of-the-sympathetic-trunk-select-68a233e6",
+  "regarding-the-thoracic-skeleton-the-following-statements-are-62092e50",
+  "regarding-the-trachea-choose-the-correct-answer-it-begins-at-37d26b3d",
+  "regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722",
+  "regarding-the-trachea-in-thorax-the-following-statements-are-9cd4602d",
+  "regarding-the-trachea-mark-one-correct-statement-d3ea806b",
+  "regarding-the-vagus-nerves-in-th-are-correct-ex-cep-e-thorax-24f7f721",
+  "regarding-the-vagus-nerves-mark-one-correct-statement-4f8ac496",
+  "regarding-the-vessels-of-the-thoracic-wall-the-following-sta-738e0dae",
+  "regarding-the-wall-of-blood-vessels-internal-elastic-lamina-41190697",
+  "regarding-the-xiphoid-process-of-the-sternum-choose-the-corr-e1b90732",
+  "regarding-thymus-gland-it-is-i-16460019",
+  "regarding-vasa-vasorum-1-48262f8b",
+  "regional-enlargement-of-lymph-nodes-may-be-due-to-a-inflamma-5fbbc1b0",
+  "regions-at-chromosomal-ends-protecting-from-destruction-are-b239ba2e",
+  "relaxation-asaction-potential-ends-j-ca-release-calcium-is-r-4f27e09d",
+  "renhin-is-released-in-the-following-conditions-except-1690beb3",
+  "respiratory-portions-for-aeb43c04",
+  "secretion-of-the-following-hormones-is-increased-during-hemo-62b59647",
+  "select-the-correct-statement-about-o-transport-in-the-blood-3533ae13",
+  "select-the-correct-statement-about-o-transport-in-the-blood-c34350a2",
+  "septum-secondume-439a3b74",
+  "sinusoidal-capillary-blood-sinusoid-is-characterized-by-e2000dcb",
+  "smooth-muscle-fibers-are-found-in-the-tunica-adventitia-of-006aa8a2",
+  "spontaneous-respiration-ceases-after-7ab1a72f",
+  "starling-forces-of-bulk-flow-include-all-of-the-following-ex-84983327",
+  "starling-s-law-of-the-heari-states-that-the-strength-of-cont-e7fa67a6",
+  "sternopericardial-ligaments-04ae54f1",
+  "stimalation-of-angiotensin-ii-receptors-at1-produce-all-exce-7cf8d5ad",
+  "stimulation-of-angiotensin-ii-receptors-at-2-produce-a2994df9",
+  "stimulation-of-arterial-baroreceptors-causes-all-except-aafa1ea1",
+  "stimulation-of-arterial-baroreceptors-leads-6b137511",
+  "stroke-volume-reserve-sv-7-from-70-up-to-200-ml-during-max-e-64548dbe",
+  "structural-aberrations-include-9c106da4",
+  "structures-passing-between-arch-0-pene-a-and-pulmonary-trunk-c8fde235",
+  "subcostal-arteries-regarding-the-beginning-of-arch-of-aorta-7d074006",
+  "submetacentric-chromosome-is-characterized-by-the-centromere-c32da786",
+  "superior-cervical-cardiac-branch-of-left-vagus-66af8666",
+  "sympathetic-stimulation-of-which-vessels-cause-the-greatest-30d5bfc3",
+  "systolic-pressure-in-right-ventricle-is-84464eed",
+  "t-waye-is-inverted-in-a-muscular-exercise-be27b8b3",
+  "that-capillaries-can-withstand-high-internal-pressures-witho-57d4fc14",
+  "the-absolute-refractory-period-in-the-ventricles-dcf3f403",
+  "the-absolute-refractory-period-of-cardiac-muscle-a-coincides-e08a585f",
+  "the-activity-of-the-central-chemoreceptors-is-stimulated-by-6197201c",
+  "the-activity-of-the-central-chemoreceptors-is-stimulated-by-bd93fcab",
+  "the-angiotensin-converting-enzyme-ace-tepref-is-normally-abs-ad4a1b73",
+  "the-aortic-opening-of-the-diaphragm-transmits-thoracic-duct-cf25e6b5",
+  "the-apex-of-the-heart-is-normally-located-at-the-8b396c0d",
+  "the-atrio-ventricular-valves-a-have-three-cusps-for-each-val-74e93b22",
+  "the-autonomic-plexus-of-the-oesophagus-indicate-the-correct-7fc3a91f",
+  "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-4d2b32e9",
+  "the-basic-rhythm-of-respiration-is-generated-by-neurons-loca-dbed56b4",
+  "the-blood-thymic-barrier-is-achieved-by-the-following-b845a999",
+  "the-capillaries-can-withstand-high-internal-pressure-without-75f7a208",
+  "the-cardiac-output-is-equal-to-which-of-the-following-81bfc388",
+  "the-cause-of-compensatoryhyperventilation-in-metabolic-acido-d0688695",
+  "the-caval-opening-of-the-diaphragm-lies-at-the-level-of-a-ti-71665abc",
+  "the-cell-division-occurring-in-somatic-cells-is-characterize-6fcc3694",
+  "the-chromosomal-microtubules-of-the-mitotic-spindle-bc625da2",
+  "the-chromosome-with-centromere-at-its-center-is-known-as-884d1186",
+  "the-deep-cardiac-plexus-indicate-the-correct-statement-909f5571",
+  "the-diagram-above-shows-three-different-compliance-curves-s-e04b57fc",
+  "the-distensibility-of-the-veins-is-more-than-the-of-arteries-4051477c",
+  "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-14f45925",
+  "the-exploring-electrode-of-v1-of-unipolar-chest-leads-of-ecg-fc99a24d",
+  "the-first-part-of-the-respiratory-tract-containsnon-ciliated-fdc3a214",
+  "the-first-portion-of-the-respiratory-tree-where-gas-exchange-86978cf5",
+  "the-following-are-a-parts-of-the-conductive-system-of-the-he-98ca9ab2",
+  "the-following-are-parts-of-the-conductive-system-of-the-hear-baaf7de3",
+  "the-following-cell-is-considered-as-a-stem-cell-1-a2296218",
+  "the-following-data-are-obtained-from-a-patient-connected-to-208204d2",
+  "the-following-data-are-obtained-from-a-patient-connected-to-4207d8b0",
+  "the-following-data-are-obtained-from-a-patient-the-end-diast-40b0894f",
+  "the-following-data-are-obtained-from-a-patient-the-end-diast-70439a00",
+  "the-following-is-a-difference-between-medium-sized-artery-an-e8d4f013",
+  "the-following-is-not-a-part-of-the-blood-air-barrier-92786e33",
+  "the-following-physiological-events-are-in-a-random-sequence-fe3ca507",
+  "the-following-structure-is-present-in-the-cavity-of-the-righ-879bc218",
+  "the-function-of-the-av-node-is-to-a-excite-the-left-and-righ-00f4d17c",
+  "the-function-s-of-the-endothelial-cells-is-are-12d25892",
+  "the-groove-of-the-oesophagus-8-d-the-groove-for-superior-ver-5014c403",
+  "the-haldane-effect-refers-to-460f3b00",
+  "the-heart-continues-to-beat-regularly-this-property-is-calle-c007f068",
+  "the-heart-is-situated-in-e707e57c",
+  "the-hemoglobin-oxygen-dissociation-curve-moves-up-and-to-the-58fa0d96",
+  "the-innermost-intercostal-musele-extends-from-sternal-margin-36e50e9b",
+  "the-internal-elastic-lamina-is-prominent-in-5830712a",
+  "the-intrapleural-pressure-at-the-end-of-inspiration-is-9c8970b0",
+  "the-intrapleural-pressure-is-positive-in-90a4bb0f",
+  "the-intraptoural-pressure-is-normally-negative-due-to-9-pres-f71a9c25",
+  "the-largest-portion-of-the-sternocostal-surface-of-the-heart-adb08495",
+  "the-left-coronary-artery-suppli-s-the-major-part-ofthe-inter-1025a972",
+  "the-left-coronary-flow-e45593b5",
+  "the-left-superior-intercostal-vein-crossas-superficial-to-th-51a6f7df",
+  "the-left-vagus-nerve-passes-on-the-posterior-surface-of-the-f687f205",
+  "the-left-ventricle-has-a-thicker-wall-than-the-right-ventric-466aa2d9",
+  "the-lesser-splanchnic-nerve-is-formed-by-which-of-the-follow-4bc279ae",
+  "the-lining-epithelium-of-trachea-is-5ce8b069",
+  "the-longest-wave-in-ecg-is-a-p-wave-b-t-wave-0b634196",
+  "the-lymphatic-organ-containing-littoral-macrophage-cells-is-00df2662",
+  "the-main-feature-of-basilar-artery-is-c2068f7e",
+  "the-main-feature-of-basilar-artery-is-prominent-3b70a70a",
+  "the-main-function-of-the-cardiac-purkinje-system-is-to-a-pre-867155e1",
+  "the-main-site-of-r-sistance-in-the-systemic-circulation-is-a-63db5055",
+  "the-mechanisms-that-lower-free-sarcoplasmic-ca-produce-relax-c00ecede",
+  "the-mediastinal-surface-of-the-left-lang-shows-an-impression-24a9bb35",
+  "the-muscles-and-cartilages-of-the-larynx-are-derived-embryol-77635214",
+  "the-nasolacrimal-duct-op-15-1110-a-superior-1-5-101016-meatu-f0a63404",
+  "the-opening-of-the-inferior-vena-cava-is-guarded-on-its-righ-760729ed",
+  "the-oxyhemoglobin-dissociation-curve-fa89718b",
+  "the-palatine-tonsil-is-characterized-by-c790a1a2",
+  "the-paracortex-of-the-lymph-node-is-characterized-by-d7159f87",
+  "the-parasympathetic-root-of-the-superficial-cardiac-plexus-o-d9fa56cb",
+  "the-physiologic-function-of-the-relatively-slow-conduction-t-3b7c9a99",
+  "the-plasticity-of-the-urinary-bladder-is-explained-by-8bf89a19",
+  "the-poiseuille-law-is-concerned-with-which-of-the-following-501dd5db",
+  "the-pressure-in-a-blood-vessel-at-which-flow-ceases-is-calle-debc097f",
+  "the-pressure-volume-curve-of-veins-has-the-following-criteri-0f33e8a9",
+  "the-primary-lymphatic-organs-include-1a970a71",
+  "the-pulmonary-valve-sound-is-best-heard-at-07398a71",
+  "the-pulmonary-valve-sound-is-best-heard-at-indicate-the-corr-22983fbe",
+  "the-resistance-of-the-lungs-to-inflation-is-increase-by-ee943cea",
+  "the-respiratory-center-includes-a-inspiratory-neurons-that-a-782073f6",
+  "the-right-atrium-contains-one-of-the-following-structures-3caca180",
+  "the-right-pherinic-nerve-descends-along-venous-structures-re-be08db11",
+  "the-right-phrenic-nerve-scleet-the-rarrest-anewer-xa-arises-286764db",
+  "the-right-primary-bronchus-b28ae5ea",
+  "the-right-ventricle-contains-all-the-following-structures-ex-71e6d172",
+  "the-s-a-node-is-situated-in-the-wall-of-right-atrium-in-fron-b11855b9",
+  "the-se-ieleted-thoracic-ther-select-the-incorrect-statement-3d2d92df",
+  "the-secondary-lymphatic-nodules-of-lymph-node-have-center-ss-2b71e601",
+  "the-slowest-conducting-velocity-occurs-in-which-of-the-follo-af891c81",
+  "the-structural-changes-that-occur-in-the-respiratory-airway-14592311",
+  "the-superior-vena-cava-choose-the-true-answer-27315868",
+  "the-superior-vena-cava-choose-the-trueanswer-9b5d0624",
+  "the-supernormal-period-of-cardiomyocyte-action-potential-tha-8b25e4ca",
+  "the-tendency-for-blood-flow-to-be-turbulent-is-increased-by-19fbd049",
+  "the-thymus-dependent-zone-of-the-spleen-is-the-06-of-eb84e27a",
+  "the-total-amount-of-air-that-does-not-undergo-gas-exchange-b-16470694",
+  "the-type-of-capillaries-that-show-pores-and-diaphragms-is-0586b4be",
+  "the-vasa-vasorum-are-d41dcc76",
+  "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-68b1dda6",
+  "the-velocity-of-shortening-of-cardiac-muscle-is-decreased-by-f3398b36",
+  "the-wall-of-aorta-shows-ea35f5ef",
+  "the-wall-of-contains-40-70-fenestrated-elastic-membranes-1f8c5d6d",
+  "the-wall-of-inferior-vena-cava-contains-5098daea",
+  "the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca",
+  "they-contain-sympathetic-fibers-to-innervate-the-vascular-sm-7c7370f6",
+  "they-unite-together-to-form-the-s-v-c-behind-the-lower-borde-db9d8d9d",
+  "thin-walled-capillaries-donot-burst-when-intracapillary-pres-286420f9",
+  "thoracic-duct-cf78466b",
+  "thorax-all-are-true-except-88af29b9",
+  "thymic-epithelial-cells-epithelial-reticular-cells-are-e7482bae",
+  "thymus-dependent-zone-of-the-spleen-is-present-at-i-8fce8aab",
+  "thymus-dependent-zones-in-lymph-node-spleen-are-respectively-3b5cbb99",
+  "thymus-dependent-zones-in-the-lymph-node-spleen-are-respecti-0c5ecaaa",
+  "transection-between-medulla-oblongata-and-upper-border-of-sp-d728ec2a",
+  "tunica-adventitia-of-arteries-constitutes-the-following-e4d71a3b",
+  "tunica-media-of-vein-is-typically-wider-than-tunica-media-of-1c2af8e7",
+  "turbulence-is-almost-always-present-when-reynolds-number-is-afc8cefe",
+  "turbulent-blood-flow-has-the-following-criteria-it-is-silent-3f05fdaa",
+  "type-i-pneumocytes-are-characterized-by-a348c670",
+  "type-pneumocytes-i-19fa4c42",
+  "union-of-the-two-brachiocephalic-veins-to-form-the-superior-b04d3403",
+  "using-specific-chemical-chromatids-are-stopped-from-separati-796779b2",
+  "vasa-vasorum-c6082c8b",
+  "venous-return-is-enhanced-during-exerciseby-eb2e3ff5",
+  "visceral-capillaries-are-characterized-by-the-following-0999435e",
+  "vital-capacity-e6eee7c9",
+  "what-fraction-of-total-blood-volume-is-present-in-the-capill-f9b7cdfa",
+  "what-is-the-anterior-relation-of-the-thoracic-part-of-the-tr-88a094cc",
+  "what-is-the-correct-pathway-of-impulses-through-the-conducti-26e4ed5e",
+  "what-is-the-effect-of-increased-afterload-on-the-ventricle-9084d395",
+  "what-is-the-effect-of-sympathetic-stimulation-on-the-heart-836e2203",
+  "what-is-the-effect-of-sympathetic-stimulation-on-the-membran-6c7c92a3",
+  "what-is-the-expected-complication-of-blocking-a-lober-bronch-b6589629",
+  "what-is-the-important-function-of-cardiac-purkinje-system-3132c9a7",
+  "what-s-the-correct-definition-of-cardiac-output-f23eae83",
+  "what-type-of-tissue-forms-the-alveoli-in-the-lung-44df5f2e",
+  "what-type-of-tissues-lines-the-paranasal-sinuses-i-f4430a68",
+  "what-type-of-tissues-lines-the-paranasalsinuses-65393ccf",
+  "what-would-be-the-change-in-blood-flow-to-a-tissue-if-radius-98cfcd7f",
+  "when-chromosome-divides-transversely-at-centromere-it-result-3596a2fe",
+  "when-compared-to-normal-subject-trained-athletes-have-a-a-sm-70c1bd30",
+  "when-the-bundle-of-his-is-completely-interrupted-the-ae-7-ea-45a41f10",
+  "when-the-chromosome-divides-transversely-during-anaphase-0536de99",
+  "when-the-radius-of-the-resistance-vessels-is-increased-which-ec5ad2d0",
+  "where-do-t-lymphocytes-acquire-their-immunocompetence-7eafb30a",
+  "which-cause-of-hypoxia-is-characterized-by-a-decreased-arter-2f528031",
+  "which-cell-considered-as-a-part-of-the-phagocytic-system-325b83f1",
+  "which-disease-increase-lung-compliance-a-emphysema-572250fc",
+  "which-disorder-decreases-the-chest-compliance-a178c097",
+  "which-ef-the-following-are-muscles-of-inspiration-0eea2c0f",
+  "which-of-the-following-are-called-capacitance-vessels-that-h-06f1d3bd",
+  "which-of-the-following-are-muscles-of-inspiration-5936e8bb",
+  "which-of-the-following-bronchi-is-called-the-eparterial-bron-cfa0e534",
+  "which-of-the-following-can-stop-normal-inspiration-and-start-9d7e98d1",
+  "which-of-the-following-ceils-produce-surfactant-in-lung-alve-ab6f6f5b",
+  "which-of-the-following-cells-produce-surfactant-in-lung-alve-0ed7b354",
+  "which-of-the-following-characteristic-are-helpful-in-differe-90dd02ea",
+  "which-of-the-following-conditions-would-lixely-increase-the-bf2e2eaa",
+  "which-of-the-following-decreases-the-myocardial-contractilit-5280d5ef",
+  "which-of-the-following-describes-the-pulse-pressure-212b2ae7",
+  "which-of-the-following-discharge-spontaneously-during-quiet-b30226e7",
+  "which-of-the-following-discharge-spontaneously-during-quist-89974900",
+  "which-of-the-following-discharges-s-8-1-receptort-fa-ling-be-5358ae60",
+  "which-of-the-following-discharges-spontaneously-during-quiet-20ea9248",
+  "which-of-the-following-events-of-cardiac-myocyte-action-pote-3a3be2b8",
+  "which-of-the-following-factors-helps-venous-return-2fb446fd",
+  "which-of-the-following-happens-during-atrial-systole-of-the-2beef02f",
+  "which-of-the-following-happens-during-rapid-ejection-phase-o-239e492b",
+  "which-of-the-following-has-negative-chronotropic-effect-e351e202",
+  "which-of-the-following-has-the-slowest-rhythmicity-in-the-au-e06c2b37",
+  "which-of-the-following-is-a-characteristic-of-emphysema-but-6292d534",
+  "which-of-the-following-is-a-function-of-the-av-node-16a480fe",
+  "which-of-the-following-is-associated-with-a-decrease-in-card-e182b510",
+  "which-of-the-following-is-characteristic-about-the-conductin-c32dcb44",
+  "which-of-the-following-is-considered-a-positive-inotropic-me-b253c08c",
+  "which-of-the-following-is-correct-0954638f",
+  "which-of-the-following-is-correct-as-regards-excitation-cont-75256009",
+  "which-of-the-following-is-correct-as-regards-na-ca-exchanger-e0bfc7af",
+  "which-of-the-following-is-not-a-component-of-the-respiratory-40a9efde",
+  "which-of-the-following-is-not-a-part-of-the-specialized-seij-44db1b50",
+  "which-of-the-following-is-not-a-vasodilator-metabolite-8da91769",
+  "which-of-the-following-is-not-true-regarding-the-aorta-0be21235",
+  "which-of-the-following-is-the-correct-pathway-of-impulses-th-bcc9a59a",
+  "which-of-the-following-is-the-normal-order-arrangement-of-ca-ae2b57bd",
+  "which-of-the-following-is-true-about-alveolar-macrophage-4147624c",
+  "which-of-the-following-is-true-for-barr-body-49c8ee45",
+  "which-of-the-following-maintain-the-ionic-concentrations-acr-20b74fb5",
+  "which-of-the-following-phases-shows-opening-of-delayed-recti-c2a9578e",
+  "which-of-the-following-phases-shows-the-opening-of-na-funny-a75f2e1d",
+  "which-of-the-following-statements-about-the-anatomy-of-the-e-4e1bfb55",
+  "which-of-the-following-statements-about-the-anatomy-of-the-e-cf479e2a",
+  "which-of-the-following-statements-about-this-patient-is-most-b89bc455",
+  "which-of-the-following-statements-is-incorrect-concerning-th-4c763ab1",
+  "which-of-the-following-statements-regarding-the-phrenic-nerv-5e25350f",
+  "which-of-the-following-structures-lies-in-the-anterior-media-c8e9422d",
+  "which-of-the-following-structures-opens-into-the-left-atrium-b7f79dc7",
+  "which-of-the-following-would-be-expected-during-brain-ischem-458ed3b2",
+  "which-of-the-given-terms-is-defined-as-the-difference-betwee-e481ba38",
+  "which-of-the-ion-channels-is-responsible-for-the-inward-curr-7ef01555",
+  "which-of-these-parts-of-vertebral-column-will-show-concavity-9dd268be",
+  "which-one-can-increase-the-compliance-of-blood-vessels-3a01102d",
+  "which-one-of-the-following-is-the-correct-statement-regardin-c5bde64a",
+  "which-one-of-the-following-statements-about-the-medium-sized-9923d5d5",
+  "which-one-of-the-following-structures-leaves-an-impression-o-df903e92",
+  "which-phase-of-the-cardiac-cycle-is-absent-if-there-is-no-p-656477fd",
+  "which-statement-about-hemoglobin-is-incorrect-e6822bc0",
+  "why-the-na-funny-channels-are-called-hyperpolarization-activ-e6ee2d77",
+  "with-respect-to-tive-root-of-the-lefttung-one-s-incorrect-0fda734d",
+  "wnicn-character-of-the-san-makes-it-the-normal-heart-s-pacem-4a072f34",
+  "yonduction-speed-is-slowest-in-the-a-sa-node-020f430f"
+ ],
+ "afterFuzzyStemStillKeylessCount": 586
 }
