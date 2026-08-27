@@ -102,6 +102,12 @@
    "cluster": "Histology / Spleen (tail) + Thymus + Tonsils + Respiratory: Alveolar Phagocytes + Conducting Portion (start)",
    "keyed": 13,
    "excluded": 7
+  },
+  {
+   "batch": 18,
+   "cluster": "Histology / Respiratory System: Conducting Portion + Respiratory Portion",
+   "keyed": 16,
+   "excluded": 4
   }
  ],
  "keyed": {
@@ -2203,6 +2209,166 @@
     "C": "Medullary cords (lymph node) are rich in plasma cells, not specifically the T-cell zone, and splenic sinusoids (spleen) are part of the blood-filtering red pulp, unrelated to any thymus-dependent zone."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "in-bronchiole-cell-degrades-the-toxin-in-inhaled-air-is-867e6059": {
+   "answer": "A",
+   "explanation": "Clara (club) cells, the non-ciliated secretory cells of the bronchiolar epithelium, are rich in smooth endoplasmic reticulum and cytochrome P450 enzymes, giving them a well-established detoxification role -- metabolising and neutralising inhaled toxins, xenobiotics, and pollutants that reach the smaller conducting airways. This detoxifying function is one of Clara cells' several distinct roles, alongside secreting a protective surfactant-like fluid and serving as progenitor (stem) cells for bronchiolar epithelial regeneration.",
+   "distractorNotes": {
+    "B": "Basal cells serve as a progenitor cell population for the epithelium in larger airways (trachea, bronchi) but are not specifically known for toxin detoxification.",
+    "D": "Goblet cells secrete mucus for trapping inhaled particles, a mechanical protective role, not enzymatic toxin detoxification."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "lung-bronchiole-has-76f40d7b": {
+   "answer": "B",
+   "explanation": "Clara (club) cells are a defining, hallmark feature of the bronchiolar mucosa, appearing as non-ciliated, dome-shaped secretory cells interspersed among the remaining ciliated cells once goblet cells have largely disappeared at this level of the airway. This distinguishes bronchioles both from the goblet-cell-rich epithelium of the trachea and bronchi above them, and from the cartilage-supported walls of bronchi, since bronchioles characteristically lack cartilage plates altogether, relying instead on a well-developed smooth (not striated) muscle coat for their walls.",
+   "distractorNotes": {
+    "A": "Goblet cells are largely absent from bronchiolar epithelium, a defining transition feature as airways progress from bronchi (goblet-cell-rich) to bronchioles.",
+    "C": "Airway smooth muscle, including in bronchioles, is smooth muscle, not striated muscle, which is an entirely different tissue type (skeletal/cardiac).",
+    "D": "Bronchioles characteristically lack cartilage support altogether, a defining feature distinguishing them from bronchi, which do have cartilage plates."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "olfactory-mucosa-shows-a-simple-squamous-epithelium-df1fb9e8": {
+   "answer": "C",
+   "explanation": "Bowman's (olfactory) glands, serous glands located in the lamina propria beneath the specialised olfactory epithelium, are the single most defining and diagnostic histological feature of olfactory mucosa, secreting a watery serous fluid that continuously bathes the epithelial surface to dissolve odorant molecules for detection by the underlying olfactory receptor neurons. The olfactory epithelium itself is a thick, specialised pseudostratified columnar epithelium (not simple squamous, which would be far too simple for this sensory function) containing olfactory receptor neurons, sustentacular (supporting) cells, and basal cells, and it notably lacks goblet cells, relying instead on Bowman's glands for its distinctive watery, mucus-free surface secretion.",
+   "distractorNotes": {
+    "A": "Olfactory mucosa is lined by a thick, specialised pseudostratified columnar epithelium, not simple squamous epithelium, which would be inadequate for its sensory neuron-containing structure.",
+    "B": "Olfactory epithelium characteristically lacks goblet cells, relying instead on Bowman's glands for surface secretion, unlike the goblet-cell-rich respiratory epithelium elsewhere in the nasal cavity.",
+    "D": "A thick basement membrane is not the specifically emphasized, diagnostic feature of olfactory mucosa in standard histology teaching; Bowman's glands are the much more distinctive identifying feature."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-first-part-of-the-respiratory-tract-containsnon-ciliated-fdc3a214": {
+   "answer": "A",
+   "explanation": "Non-ciliated Clara (club) cells first become a notable component of the airway epithelium at the level of the terminal bronchiole, interspersed among the remaining ciliated cells, marking the beginning of the progressive shift from the predominantly ciliated epithelium of the trachea and bronchi toward the largely non-ciliated, Clara-cell-dominated epithelium seen further along in the respiratory bronchioles. This makes the terminal bronchiole the most proximal (first) airway segment where non-ciliated cells become histologically prominent, even though scattered ciliated cells persist alongside them at this level.",
+   "distractorNotes": {
+    "B": "The respiratory bronchiole shows an even higher proportion of non-ciliated Clara cells than the terminal bronchiole, but it is not the FIRST (most proximal) site where non-ciliated cells appear.",
+    "C": "The trachea is lined by essentially uniform pseudostratified ciliated columnar epithelium with goblet cells, without a significant non-ciliated cell population.",
+    "D": "The alveolar duct is well beyond the terminal bronchiole and is not the first site where non-ciliated cells appear in the respiratory tract.",
+    "E": "Bronchi, like the trachea, are lined by predominantly ciliated pseudostratified columnar epithelium with goblet cells, without yet showing a significant non-ciliated Clara cell population."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-following-cell-is-considered-as-a-stem-cell-1-a2296218": {
+   "answer": "B",
+   "explanation": "Clara (club) cells function as a recognised progenitor (stem) cell population for the bronchiolar epithelium, retaining the capacity to divide and differentiate into both new Clara cells and ciliated cells to regenerate and repair the bronchiolar lining following injury -- a classic, frequently tested regenerative property distinguishing them from the terminally differentiated Type I pneumocytes and alveolar macrophages, and from the sustentacular (supporting) cells of the olfactory mucosa, whose regenerative role is instead filled by the separate basal cell population.",
+   "distractorNotes": {
+    "A": "Type I pneumocytes are terminally differentiated, thin, non-dividing cells; damaged alveolar epithelium is instead repaired by proliferation and differentiation of Type II pneumocytes, not Type I cells regenerating themselves.",
+    "C": "Sustentacular (supporting) cells of the olfactory mucosa provide structural and metabolic support to the olfactory neurons, but the regenerative/stem cell role in olfactory epithelium belongs specifically to the basal cells, not the sustentacular cells.",
+    "D": "Alveolar macrophages are fully differentiated immune cells, not a stem/progenitor cell population."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-lining-epithelium-of-trachea-is-5ce8b069": {
+   "answer": "A",
+   "explanation": "The trachea is lined by pseudostratified ciliated columnar epithelium with numerous interspersed goblet cells, the classic 'respiratory epithelium' found throughout the conducting portion of the airway from the nasal cavity down through the bronchi. The coordinated beating of the cilia, combined with the mucus produced by the goblet cells, forms the mucociliary escalator that continuously traps and clears inhaled particles and pathogens upward toward the pharynx to be swallowed or expectorated.",
+   "distractorNotes": {
+    "B": "Simple (not pseudostratified) ciliated columnar epithelium with Clara cells (not goblet cells) describes bronchiolar epithelium further down the airway, not the trachea.",
+    "C": "Stratified squamous epithelium lines structures built for mechanical durability against abrasion (like the oesophagus or true vocal cords), not the trachea.",
+    "D": "Transitional epithelium is unique to the urinary tract, entirely unrelated to the respiratory system."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-type-of-tissues-lines-the-paranasal-sinuses-i-f4430a68": {
+   "answer": "D",
+   "explanation": "The paranasal sinuses are lined by a thin pseudostratified ciliated columnar epithelium with goblet cells, a respiratory-type epithelium continuous with, though thinner and less richly vascularised than, the epithelium lining the nasal cavity proper, with which the sinuses communicate via small ostia. This ciliated, mucus-producing lining allows the sinuses to participate in the same mucociliary clearance system as the rest of the upper respiratory tract, moving mucus and trapped particles out through the sinus openings into the nasal cavity.",
+   "distractorNotes": {
+    "A": "Simple squamous epithelium is far too thin and lacks the mucociliary clearance capability needed for the paranasal sinuses.",
+    "B": "Simple columnar epithelium without the pseudostratified, ciliated, goblet-cell-rich features does not match the sinus lining's actual respiratory-type structure.",
+    "C": "Stratified squamous epithelium, built for mechanical protection against abrasion, is not the epithelium type lining the paranasal sinuses."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-type-of-tissues-lines-the-paranasalsinuses-65393ccf": {
+   "answer": "D",
+   "explanation": "This is a duplicate of the sibling question; the paranasal sinuses are lined by pseudostratified ciliated columnar epithelium with goblet cells, the same respiratory-type mucosa continuous with the nasal cavity, supporting mucociliary clearance of the sinus cavities via their ostia into the nose.",
+   "distractorNotes": {
+    "A": "Simple squamous epithelium lacks the mucociliary clearance function needed here.",
+    "B": "Simple columnar epithelium without pseudostratified, ciliated, goblet-cell features does not match the sinus lining.",
+    "C": "Stratified squamous epithelium is not the epithelium type lining the paranasal sinuses."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "lack-of-surfactant-produces-all-of-the-above-except-3e26cce3": {
+   "answer": "C",
+   "explanation": "Surfactant deficiency (as in neonatal respiratory distress syndrome) directly and classically causes increased alveolar surface tension, leading to instability and collapse of smaller alveoli (with relatively over-distended larger ones, per Laplace's law), decreased lung compliance (stiffer lungs requiring more pressure to inflate), and consequently increased work of breathing to achieve adequate ventilation. Total lung capacity, however, is a maximal structural lung volume measurement that is not as directly or primarily affected by surfactant deficiency as compliance and functional residual capacity are -- TLC reduction is a less specific, less directly emphasized consequence of surfactant deficiency compared with the other three classic, textbook pathophysiological effects.",
+   "distractorNotes": {
+    "A": "Collapse of small alveoli with relative overexpansion of larger ones is a direct, classic consequence of increased surface tension from surfactant deficiency (unstable alveoli per Laplace's law).",
+    "B": "Decreased lung compliance is a direct, defining consequence of increased alveolar surface tension from surfactant deficiency.",
+    "D": "Increased work of breathing directly follows from decreased lung compliance, both classic consequences of surfactant deficiency."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "lung-surfactant-a-decreases-the-tendency-of-alveolar-collaps-619db9e4": {
+   "answer": "C",
+   "explanation": "Infants of diabetic mothers are at increased risk of surfactant deficiency and consequent respiratory distress syndrome, because fetal hyperinsulinaemia (driven by maternal hyperglycaemia crossing the placenta) delays the maturation of Type II pneumocytes and their surfactant-synthesising machinery, even at a gestational age when surfactant production would otherwise normally be adequate. This is a well-established, frequently tested obstetric and neonatal fact linking maternal diabetes to a specific, mechanistically-explained increased risk of neonatal lung immaturity.",
+   "distractorNotes": {
+    "A": "Surfactant's true action is to DECREASE, not increase, the surface tension of the fluid lining the alveoli -- the entire basis of its anti-atelectasis effect.",
+    "B": "Surfactant genuinely does decrease the tendency of alveolar collapse (particularly during expiration, when alveolar radius is smallest and surface tension effects are strongest), but this restates the (true) embedded stem claim rather than being the intended distinct correct option here.",
+    "D": "Surfactant helps PREVENT, not favour, fluid filtration into the alveoli, by reducing the surface-tension-driven negative pressure that would otherwise tend to draw fluid in from the pulmonary capillaries."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-following-is-not-a-part-of-the-blood-air-barrier-92786e33": {
+   "answer": "C",
+   "explanation": "The classic blood-air (respiratory) barrier is defined by three structural layers: the Type I pneumocyte's thin cytoplasm, the fused basal laminae of the alveolar epithelium and capillary endothelium, and the capillary endothelial cell's own thin cytoplasm -- Type II pneumocytes, the cuboidal, surfactant-producing cells positioned at alveolar corners and junctions, are deliberately excluded from this definition because their bulkier shape would be far too thick to support efficient, rapid gas diffusion. This distinction (Type I pneumocytes are part of the thin diffusion barrier; Type II pneumocytes are not) is a classic, frequently tested point specifically designed to catch students who assume all pneumocyte types belong to the barrier.",
+   "distractorNotes": {
+    "A": "Type I pneumocytes, with their extremely thin, flattened cytoplasm, are a genuine, essential structural component of the blood-air barrier.",
+    "B": "Surfactant is closely associated with the alveolar surface and functionally important for reducing surface tension, and is commonly grouped with the barrier's components in some teaching, making it a less clean-cut exclusion than Type II pneumocytes, which are unambiguously excluded from the classic three-layer structural definition.",
+    "D": "Capillary endothelial cells, with their thin cytoplasm, are a genuine, essential structural component of the blood-air barrier."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-structural-changes-that-occur-in-the-respiratory-airway-14592311": {
+   "answer": "C",
+   "explanation": "Smooth muscle persists as small muscular 'knobs' or sphincters at the mouths of alveoli along the alveolar ducts, but this smooth muscle component essentially disappears by the level of the alveolar sacs and individual alveoli themselves, which are structured purely for gas exchange with minimal supporting tissue. This progressive loss of smooth muscle, alongside the earlier progressive loss of cartilage and glands and the earlier disappearance of goblet cells relative to ciliated cells, reflects the airway's overall structural simplification as it transitions from a purely conducting function to a purely gas-exchanging one.",
+   "distractorNotes": {
+    "A": "Goblet cells disappear before ciliated cells as the airway progresses distally -- goblet cells are already absent by the bronchiole level, while scattered ciliated cells persist even into the respiratory bronchioles -- the reverse order from what this option states.",
+    "B": "Serous and mucous glands progressively DECREASE, not increase, as the airway progresses distally, disappearing altogether by the level of the bronchioles.",
+    "D": "Cartilage progressively DECREASES, not increases, as the airway progresses distally, disappearing altogether by the level of the bronchioles."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "type-i-pneumocytes-are-characterized-by-a348c670": {
+   "answer": "A",
+   "explanation": "Type I pneumocytes are thin, flattened (squamous) cells that cover the vast majority of the alveolar surface area, their extreme thinness being precisely what minimises the diffusion distance across the blood-air barrier for efficient, rapid gas exchange. They are terminally differentiated cells that do not produce surfactant and lack the multilamellar (lamellar) bodies seen on electron microscopy -- both of these being defining features instead of the cuboidal Type II pneumocytes, which synthesise and store surfactant precursors within these characteristic organelles before secreting them onto the alveolar surface.",
+   "distractorNotes": {
+    "B": "Type I pneumocytes cover roughly 95% (not 3%) of the total alveolar surface area, despite being outnumbered in raw cell count by the smaller, more numerous Type II pneumocytes.",
+    "C": "Multilamellar (lamellar) bodies, containing surfactant precursors, are a defining electron-microscopic feature of Type II pneumocytes, not Type I.",
+    "D": "Secretion of pulmonary surfactant is the defining function of Type II pneumocytes, not Type I, which are purely structural, gas-exchange-optimised cells."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-ceils-produce-surfactant-in-lung-alve-ab6f6f5b": {
+   "answer": "D",
+   "explanation": "Type II alveolar cells (pneumocytes) are the dedicated surfactant-producing cells of the alveolar epithelium, synthesising and packaging surfactant phospholipids and proteins within characteristic multilamellar bodies before secreting the mature surfactant onto the alveolar surface, where it reduces surface tension and prevents alveolar collapse. This is distinct from Type I pneumocytes, which are purely structural, thin gas-exchange cells with no secretory function, and from endothelial and goblet cells, which are unrelated to surfactant production altogether.",
+   "distractorNotes": {
+    "A": "Endothelial cells form the capillary wall component of the blood-air barrier and have no role in surfactant production.",
+    "B": "Goblet cells secrete mucus in the conducting airways (trachea, bronchi), an entirely different secretion from surfactant, and are not found in the alveoli at all.",
+    "C": "Type I alveolar cells are thin, purely structural cells adapted for gas exchange; they do not produce surfactant, which is instead a Type II pneumocyte function."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-cells-produce-surfactant-in-lung-alve-0ed7b354": {
+   "answer": "D",
+   "explanation": "This is a duplicate of the sibling question; Type II alveolar cells (pneumocytes) remain the dedicated surfactant-producing cells, packaging surfactant within multilamellar bodies before secreting it onto the alveolar surface to reduce surface tension and prevent collapse.",
+   "distractorNotes": {
+    "A": "Endothelial cells form the capillary component of the blood-air barrier and play no role in surfactant production.",
+    "B": "Goblet cells secrete mucus in the conducting airways and are not present in the alveoli, nor involved in surfactant production.",
+    "C": "Type I alveolar cells are thin structural cells for gas exchange, not surfactant producers."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "about-mediators-and-vasoactive-substances-all-of-the-followi-ac96f885": {
+   "answer": "B",
+   "explanation": "Kinins, such as bradykinin, are potent VASODILATORS, not vasoconstrictors -- they relax vascular smooth muscle and increase vascular permeability, playing a central role in inflammation and local blood flow regulation, making the claim that they cause arteriolar vasoconstriction the exact opposite of their true physiological action. The other statements are correctly true: norepinephrine, acting through alpha-adrenergic receptors, is a genuine vasoconstrictor; angiotensin II is one of the body's most potent vasoconstrictor hormones; and both catecholamines and vasopressin (ADH, at higher concentrations acting on V1 receptors) function as circulating vasoconstrictor substances. The exam takeaway is to fix kinins firmly in the vasodilator category, alongside substances like histamine and prostaglandins, distinct from the vasoconstrictor group tested in the other options.",
+   "distractorNotes": {
+    "A": "Norepinephrine, acting via alpha-1 adrenergic receptors on vascular smooth muscle, is a genuine and potent arteriolar vasoconstrictor.",
+    "C": "Angiotensin II is one of the body's most potent circulating vasoconstrictors, a core component of the renin-angiotensin-aldosterone system's blood pressure regulation.",
+    "D": "Both catecholamines (epinephrine/norepinephrine) and vasopressin are genuine circulating vasoconstrictor hormones."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -2616,6 +2782,18 @@
   },
   "clara-cells-are-known-to-be-7933b952": {
    "reason": "Only three of what was likely four options survived, and each contains an identifiable inaccuracy: Clara cells are non-ciliated (ruling out A), are dome-shaped/columnar rather than flat (ruling out B), and secrete a proteinaceous, surfactant-like substance rather than mucus in the goblet-cell sense (making C an imprecise mischaracterisation). The genuinely correct, positive characterisation (a non-ciliated, dome-shaped secretory cell) was most likely in the missing option D."
+  },
+  "gas-exchange-occurs-in-a-terminal-bronchioles-b-intra-pulmon-049ead38": {
+   "reason": "Options A and C have each absorbed multiple separate answer choices and even an entirely different second question ('what is the first portion of the respiratory tree where gas exchange can occur?') into single unusable blobs. With the option boundaries this corrupted, no single letter can be confidently matched to the specific structure (most likely the respiratory bronchiole, the first site of gas exchange) this question is actually asking about."
+  },
+  "intra-pulmonary-bronchi-is-characterized-by-all-except-a-pse-f23160d8": {
+   "reason": "Two of the three lettered options (multiple plates of hyaline cartilage in the adventitia; muco-serous glands, more precisely located in the submucosa) are each individually plausible as either true or borderline-true features of intrapulmonary bronchi, and the third (smooth muscle completeness) requires a precise judgement about how fully circumferential the muscle coat is at this specific airway level -- a level of anatomical precision that cannot be confidently resolved without the source text to confirm which single statement was intended as the exception."
+  },
+  "the-muscles-and-cartilages-of-the-larynx-are-derived-embryol-77635214": {
+   "reason": "Neither surviving option precisely matches the standard embryological answer (the laryngeal muscles and cartilages derive from the fourth and sixth pharyngeal arches): option A (first and second arches) is confidently wrong, and option B (second and fourth arches) gets one arch right (the fourth) but the other wrong (second instead of sixth), making it an identifiably incorrect statement as worded rather than a safely selectable answer."
+  },
+  "afferents-which-may-stimulate-inspiratory-centers-include-7cdecfe6": {
+   "reason": "Each of the four listed afferent pathways (vagal fibres from alveolar stretch receptors, arterial baroreceptors, pharyngeal afferents during vomiting, atrial baroreceptors) has a complex or borderline relationship to inspiratory drive rather than being a clean-cut, classically emphasized stimulant of the inspiratory centre (vagal lung-stretch afferents classically INHIBIT further inspiration via the Hering-Breuer reflex, for instance) -- this specific physiological detail cannot be confidently resolved to a single correct option without the source's own intended framing."
   }
  }
 }
