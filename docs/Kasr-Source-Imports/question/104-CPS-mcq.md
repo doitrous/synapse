@@ -23,6 +23,8 @@
     Lymphatic and Macrophage System — Thymus — 1 questions, 1 concepts
     Physiology Cardiovascular System — Hemorrhagic Shock Compensation — 1 questions, 1 concepts
     Physiology Respiratory System — Non-Chemical Control of Respiration — 1 questions, 1 concepts
+    Thoracic Cavity — Intrapleural Pressure Extremes — 4 questions, 1 concepts
+    Thoracic Cavity — Pneumothorax and Inspiration Mechanics — 4 questions, 1 concepts
     Respiratory System — Alveolar Phagocytes and Emphysema — 1 questions, 1 concepts
     Respiratory System — Conducting Portion Epithelium and Olfactory Mucosa — 13 questions, 3 concepts
     Respiratory System — Larynx and Airway Wall — 4 questions, 2 concepts
@@ -10583,6 +10585,742 @@ Asked 2 times across the question books.
 Extraction confidence medium; the answer came from no source and was supplied by the author.
 Answer changed from the source's: The chapter structure contradicts the printed key. 'Non-Chemical (Nervous) Regulation of Respiratory Activity' (physiology department book p149-153) explicitly lists pain/limbic afferents, coughing and swallowing as nervous reflex sources of respiratory drive. Hypercapnia (raised PCO2) sits in a separate, earlier section, 'Ventilatory Response to Changes in CO2' (p148-149), stated as the major controller of respiration through chemoreceptors — the chemical route the non-chemical section is being contrasted against. It is therefore the one option that is not a non-chemical influence, not option C.
 1 materially different wording of this question exist in the books and were not collapsed into it.
+
+---
+
+# Item
+## id
+QM-104-B596A0B0E8DE
+## title
+During which of the foliowing would the intra-pleura! pressure be greater than atmosphe…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During which of the foliowing would the intra-pleura! pressure be greater than atmospheric pressure?
+## answer_a
+Active inspiration
+## explanation_a
+During active inspiration intrapleural pressure becomes more negative than the resting value (about -6 to -8 cmH2O), not positive — the opposite direction from what this question asks about.
+## answer_b
+Passive expiration
+## explanation_b
+During passive expiration intrapleural pressure returns towards its resting value (about -3 cmH2O), still negative relative to atmospheric pressure, not positive.
+## answer_c
+Forced inspiration with the glottis closed
+## explanation_c
+Forced inspiration with the glottis closed is Muller's experiment, which drives intrapleural pressure strongly negative, down to about -30 to -40 cmH2O — the opposite extreme from becoming positive.
+## answer_d
+Forced expiration with the glottis closed
+## explanation_d
+This is the correct answer. Forced expiration with the glottis closed is Valsalva's experiment, which can drive intrapleural pressure positive, to about +50 cmH2O, because the expiratory effort compresses the sealed thorax against a closed airway.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify forced expiration against a closed glottis (Valsalva's experiment) as the condition that drives intrapleural pressure positive.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p15 q3. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-38D6482AC252
+## title
+During which of the following would the intra-pleural pressure be greater than atmosphe…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During which of the following would the intra-pleural pressure be greater than atmospheric pressure?
+## answer_a
+Active inspiration
+## explanation_a
+During active inspiration intrapleural pressure becomes more negative than the resting value (about -6 to -8 cmH2O), not positive — the opposite direction from what this question asks about.
+## answer_b
+Passive expiration
+## explanation_b
+During passive expiration intrapleural pressure returns towards its resting value (about -3 cmH2O), still negative relative to atmospheric pressure, not positive.
+## answer_c
+Forced inspiration with the glottis closed
+## explanation_c
+Forced inspiration with the glottis closed is Muller's experiment, which drives intrapleural pressure strongly negative, down to about -30 to -40 cmH2O — the opposite extreme from becoming positive.
+## answer_d
+Forced expiration with the glottis closed
+## explanation_d
+This is the correct answer. Forced expiration with the glottis closed is Valsalva's experiment, which can drive intrapleural pressure positive, to about +50 cmH2O, because the expiratory effort compresses the sealed thorax against a closed airway.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify forced expiration against a closed glottis (Valsalva's experiment) as the condition that drives intrapleural pressure positive.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. EOM 2022 CPS 104 (1).pdf p6 q37. Manifest src_d3160d222c8c55775511.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-96CFE2C0A030
+## title
+During which of the following would the intra-pleural pressure be greater than atmosphe…
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+During which of the following would the intra-pleural pressure be greater than atmospheric pressure? an 1
+## answer_a
+Active inspiration
+## explanation_a
+During active inspiration intrapleural pressure becomes more negative than the resting value (about -6 to -8 cmH2O), not positive — the opposite direction from what this question asks about.
+## answer_b
+Passive expiration 1
+## explanation_b
+During passive expiration intrapleural pressure returns towards its resting value (about -3 cmH2O), still negative relative to atmospheric pressure, not positive.
+## answer_c
+Forced inspiration with the glottis closed:
+## explanation_c
+Forced inspiration with the glottis closed is Muller's experiment, which drives intrapleural pressure strongly negative, down to about -30 to -40 cmH2O — the opposite extreme from becoming positive.
+## answer_d
+Forced expiration with the glottis closed
+## explanation_d
+This is the correct answer. Forced expiration with the glottis closed is Valsalva's experiment, which can drive intrapleural pressure positive, to about +50 cmH2O, because the expiratory effort compresses the sealed thorax against a closed airway.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## correct_answer
+D
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+Identify forced expiration against a closed glottis (Valsalva's experiment) as the condition that drives intrapleural pressure positive.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q4. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-A5A234F016B7
+## title
+Intra-pleural pressure: 1
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Intra-pleural pressure: 1
+## answer_a
+Is sub-atmospheric during normal inspiration & expiration
+## explanation_a
+This is the correct answer. Intrapleural pressure stays sub-atmospheric (negative) throughout both normal inspiration and normal expiration, ranging from about -3 cmH2O at end-expiration to about -6 to -8 cmH2O at end-inspiration.
+
+Why this is right:
+- During forced inspiration with the glottis closed (Muller's experiment), intrapleural pressure becomes more negative, reaching about -30 to -40 cmH2O.
+## answer_b
+Becomes less sub-atmospheric during inspiration :
+## explanation_b
+Intrapleural pressure becomes MORE sub-atmospheric (more negative), not less, during inspiration — the lung's own expansion pulls it further below atmospheric pressure as the chest cavity enlarges.
+## answer_c
+Becomes more negative in emphysema . :
+## explanation_c
+Intrapleural pressure becomes LESS negative in emphysema, not more — destroyed elastic fibres reduce the lung's inward recoil, so less negative pressure is needed to balance the chest wall's outward pull at any given volume.
+## answer_d
+In Muller’s experiment, it reaches 30cmH20 ‏ا‎
+## explanation_d
+Muller's experiment (forced inspiration against a closed glottis) drives intrapleural pressure to about -30 to -40 cmH2O — a strongly negative value, not a positive 30 cmH2O reading.
+## correct_answer
+A
+## main_concept
+CON-RES-97B778DE471E7E
+## library_ids
+ART-104-PHY-AIRWAY-ANATOMY-AND-DEAD-SPACE
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Intrapleural Pressure Extremes
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Recall
+## learning_objective
+State that intrapleural pressure is sub-atmospheric throughout normal quiet breathing.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q25. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-B8531BD16D23
+## title
+Inspiration occurs when: 1 ١
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inspiration occurs when: 1 ١
+## answer_a
+Atmospheric pressure exceeds intra-alveolar pressure
+## explanation_a
+This is the correct answer. Air flows down a pressure gradient, so inspiration occurs when the diaphragm and external intercostals expand the thoracic cavity, lowering intra-alveolar pressure below atmospheric pressure — with atmospheric pressure now the higher of the two, air is driven into the alveoli until the pressures equalise.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_b
+Atmospheric pressure is equal to intra-alveolar pressure
+## explanation_b
+When atmospheric and intra-alveolar pressure are equal there is no pressure gradient to drive airflow in either direction — this describes a momentary pause between phases of breathing, not active inspiration.
+## answer_c
+Intra-alveolar pressure exceeds atmospheric pressure
+## explanation_c
+If intra-alveolar pressure exceeded atmospheric pressure, air would flow out of the lung down that gradient — this is the condition for expiration, the reverse of what this question asks about.
+## answer_d
+Intra-pleural pressure exceeds intra-alveolar pressure
+## explanation_d
+Intrapleural pressure exceeding intra-alveolar pressure is not the physiological relationship that drives airflow — intrapleural pressure is normally the more negative of the two throughout the breathing cycle, and it is the alveolar-to-atmospheric gradient, not this one, that moves air.
+## correct_answer
+A
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that inspiration requires atmospheric pressure to exceed intra-alveolar pressure, driving air down its pressure gradient into the lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q1. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-9D000AE970EF
+## title
+Inspiration occurs when:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Inspiration occurs when:
+## answer_a
+Atmospheric pressure exceeds intra-alveolar pressure
+## explanation_a
+This is the correct answer. Air flows down a pressure gradient, so inspiration occurs when the diaphragm and external intercostals expand the thoracic cavity, lowering intra-alveolar pressure below atmospheric pressure — with atmospheric pressure now the higher of the two, air is driven into the alveoli until the pressures equalise.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_b
+Atmospheric pressure is equal to intra-alveolar pressure
+## explanation_b
+When atmospheric and intra-alveolar pressure are equal there is no pressure gradient to drive airflow in either direction — this describes a momentary pause between phases of breathing, not active inspiration.
+## answer_c
+Intra-alveolar pressure exceeds atmospheric pressure
+## explanation_c
+If intra-alveolar pressure exceeded atmospheric pressure, air would flow out of the lung down that gradient — this is the condition for expiration, the reverse of what this question asks about.
+## answer_d
+Intra-pleural pressure exceeds intra-alveolar pressure
+## explanation_d
+Intrapleural pressure exceeding intra-alveolar pressure is not the physiological relationship that drives airflow — intrapleural pressure is normally the more negative of the two throughout the breathing cycle, and it is the alveolar-to-atmospheric gradient, not this one, that moves air.
+## correct_answer
+A
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that inspiration requires atmospheric pressure to exceed intra-alveolar pressure, driving air down its pressure gradient into the lung.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2023].pdf p15 q1. Manifest src_ab84e963639b236e0951.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-5B1569A8E6BC
+## title
+Effects of unilateral pneumothorax include
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+Effects of unilateral pneumothorax include
+## answer_a
+Collapse of lung of opposite side
+## explanation_a
+Unilateral pneumothorax collapses the lung on the SAME (affected) side, released from the opposing chest wall to reach its own smaller relaxation volume of about 1 litre — it does not collapse the opposite lung, which remains in its own separate pleural space.
+## answer_b
+Lymph flow increases
+## explanation_b
+Lymph flow is not the effect this mechanism produces — the defining consequence of opening the pleural space is that the lung and chest wall each spring to their own relaxation volume, not a change in lymphatic drainage.
+## answer_c
+Chest of same side expands
+## explanation_c
+This is the correct answer. Once the pleural space is opened, the chest wall on the affected side is released from the lung's inward pull and springs outward towards its own relaxation volume of about 5 litres, which is exactly why the affected side of the chest looks larger, not smaller.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_d
+Venous return increases ;
+## explanation_d
+Venous return is more directly affected by intrathoracic pressure changes with breathing generally, but the defining, directly observable effect of a unilateral pneumothorax that this question targets is the ipsilateral chest wall's outward expansion, not a change in venous return.
+## correct_answer
+C
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Predict that the chest wall on the affected side expands outward when a unilateral pneumothorax releases it from the lung's inward pull.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p29 q27. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
+
+---
+
+# Item
+## id
+QM-104-6A125295EE7A
+## title
+In pneumothorax the following occurs:
+## subject
+resp
+## status
+Draft
+## format
+single_best_answer
+## question
+In pneumothorax the following occurs:
+## answer_a
+Increased venous and lymph return ss
+## explanation_a
+Pneumothorax does not increase venous and lymph return — opening the pleural space to atmospheric pressure removes the normal negative intrapleural pressure that assists venous filling, if anything working against, not for, venous return.
+## answer_b
+Loss of negativity of intra-pleural pressure on the affected side
+## explanation_b
+This is the correct answer. Once air enters the pleural space, it is no longer sealed, and the normal negative intrapleural pressure on the affected side is lost as the space equalises with atmospheric pressure.
+
+Why this is right:
+- The lung recoils inwards from two sources — the elasticity of its collagen and elastin fibres, and the surface tension of the fluid lining the alveoli — while the chest wall springs outwards from the elasticity of its muscles, tendons and ligaments.
+## answer_c
+The lung expands on the affected side
+## explanation_c
+The lung on the affected side collapses in pneumothorax, released from the chest wall's outward pull towards its own smaller relaxation volume — it does not expand.
+## answer_d
+all of the above
+## explanation_d
+Since venous/lymph return is not increased and the lung does not expand, "all of the above" cannot be correct — only the loss of negative intrapleural pressure on the affected side is an accurate effect of pneumothorax.
+## correct_answer
+B
+## main_concept
+CON-RES-1BA6BE714676EC
+## library_ids
+ART-104-PHY-LUNG-RECOIL-AND-SURFACTANT
+## topic
+Physiology
+## subtopic
+Thoracic Cavity — Pneumothorax and Inspiration Mechanics
+## module
+104 CPS
+## module_subject
+104 CPS > Physiology > Respiratory System > Organization of the Respiratory System
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that pneumothorax abolishes the normal negativity of intrapleural pressure on the affected side.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 104 CPS. DPT BOOK Physio MCQ [104][2022].pdf p26 q2. Manifest src_e569449acf8dc2af471e.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence medium; the answer came from no source and was supplied by the author.
+
+
 
 ---
 
