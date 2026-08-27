@@ -389,3 +389,146 @@ ASU_Y1=0.4
 university: asu — MCQs Formative_Summative DNA Structure, Replication and Repair MCQ 2020, "which enzyme can be described as a DNA-dependent RNA polymerase" (primase).
 
 ---
+
+# Item
+
+## id
+CON-DEV-451A64C9445CAB
+
+## label
+A numerical chromosomal aberration is euploidy — an exact multiple of the haploid number beyond diploid — or aneuploidy — an addition or loss of one chromosome
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+
+## exam_weight_by_year
+ASU_Y1=0.6
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q1-6, Q11, Q14, Q18, Q19 (ploidy classification of 46,XY / 23,X / 69 / 47,XY / 92,XXXX; monosomy definition; viable autosomal trisomies 13/18/21).
+
+---
+
+# Item
+
+## id
+CON-DEV-C5F7B1973F8049
+
+## label
+Klinefelter (47,XXY), triple X (47,XXX) and Turner (45,XO) syndromes are sex-chromosome aneuploidies from non-disjunction in oogenesis
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q8 ("Turner syndrome is a... monosomy").
+
+---
+
+# Item
+
+## id
+CON-DEV-D2BA4082190B3F
+
+## label
+Structural chromosomal aberrations are breaks, deletions, inversions, translocations, duplications and isochromosomes, balanced or unbalanced by gene content
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+104 CPS > Histology > Cytogenetics > Chromosomal Aberrations (Abnormalities)
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q9 (translocation definition), Q13 (46,XX,5p- notation), Q20 (structural vs numerical classification).
+
+---
+
+# Item
+
+## id
+CON-DEV-243DD717D2FDA3
+
+## label
+Down syndrome and extra chromosome 21
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+
+## exam_weight_by_year
+ASU_Y1=0.5
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q7 ("Down syndrome is a... trisomy"), Q12 ("individuals with Down syndrome have three copies of... chromosome 21"); live concept previously carried no module tag.
+
+---
+
+# Item
+
+## id
+CON-DEV-28F2712A6DDA3C
+
+## label
+Cri-du-chat genetic basis
+
+## universities
++asu
+
+## learner_years
++1
+
+## modules
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+
+## exam_weight_by_year
+ASU_Y1=0.4
+
+## field_notes
+university: asu — MCQs Bg MCQs revision Dr.Omar, Chromosomal Aberrations Q10 ("Cri du chat syndrome is the result of a(n)... deletion"); live concept previously carried no module tag.
+
+---

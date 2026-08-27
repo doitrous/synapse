@@ -155,3 +155,116 @@ university_notes: Kasr Al Ainy (102 INT) owns this article. Ain Shams (ASU-MBG) 
 
 ## subject
 fnd
+
+---
+
+# Item
+
+## id
+ART-104-HIS-NUMERICAL-ABERRATIONS
+
+## title
+Numerical chromosomal aberrations
+
+## topic
+Histology
+
+## summary
+Down syndrome, Klinefelter syndrome, Turner syndrome and triple X syndrome are four different karyotypes with one shared cause — a chromosome, or a whole extra set of them, ending up in the wrong number — and the same non-disjunction event, seen at a different meiotic division, produces each one.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+104 CPS > Histology > Cytogenetics
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (104 CPS) owns this article. Ain Shams (ASU-MBG) sits its own numerical-aberration papers (ploidy classification, viable trisomies, sex-chromosome aneuploidies) on the same content — no wording difference identified yet.
+
+## subject
+dev
+
+---
+
+# Item
+
+## id
+ART-104-HIS-STRUCTURAL-ABERRATIONS
+
+## title
+Structural chromosomal aberrations
+
+## topic
+Histology
+
+## summary
+A chromosome does not need to gain or lose a whole copy of itself to cause disease — a single break, healed in the wrong place, can delete, invert, relocate or duplicate a piece of it, and which of those five things happened is usually readable straight off the karyotype.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+104 CPS > Histology > Cytogenetics
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field).
+university_notes: Kasr Al Ainy (104 CPS) owns this article. Ain Shams (ASU-MBG) sits its own structural-aberration papers (translocation, deletion notation, structural-vs-numerical classification) on the same content — no wording difference identified yet.
+
+## subject
+dev
+
+---
+
+# Item
+
+## id
+ART-DEV-TOP-6BC67DC7C1
+
+## title
+Birth Defects
+
+## topic
+Congenital anomalies
+
+## summary
+Birth Defects is a concise reading workspace built from 14 individually reviewed, source-linked concepts. Select any factual line to inspect every resource and exact locator.
+
+## sections
+
+## universities
++asu
+
+## years
++ASU_Y1
+
+## module
++ASU-MBG
+
+## module_subject
+ASU-MBG > Medical Genetics and Molecular Biology > Lectures > Chromosomal aberrations and numerical disorders
+
+## field_notes
+subject: restated per toolchain bug workaround (article-update rows crash on a missing subject field); live value was the legacy placeholder "medical" (00-START-HERE §3 warns this is not a real subject), corrected here to "dev" to match this article's own CON-DEV- concepts (Down syndrome, Cri-du-chat) — flagged for the owning lane in case "medical" was set deliberately for some other reason.
+university_notes: This is a live article (Admin team owned). Ain Shams (ASU-MBG) sits its own Down-syndrome/Cri-du-chat questions on two of its 14 concepts — no wording difference identified yet.
+
+## subject
+dev
