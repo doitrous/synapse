@@ -6,6 +6,12 @@
    "cluster": "Anatomy / Heart + Development of the Heart",
    "keyed": 11,
    "excluded": 9
+  },
+  {
+   "batch": 2,
+   "cluster": "Anatomy / Heart (tail) + Intercostal Spaces",
+   "keyed": 11,
+   "excluded": 9
   }
  ],
  "keyed": {
@@ -116,6 +122,117 @@
     "E": "The atrioventricular node is the deliberate delay point between atrial and ventricular conduction."
    },
    "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-function-of-the-av-node-is-to-a-excite-the-left-and-righ-00f4d17c": {
+   "answer": "B",
+   "explanation": "The AV node's principal functional role is to impose a conduction delay between atrial and ventricular activation, which is exactly what keeps the atria and ventricles from contracting at the same instant. This delay (roughly 0.1 second) allows the atria to finish their contraction and complete ventricular filling before the ventricles are triggered to contract, optimising stroke volume via the atrial 'kick'. The exam takeaway is to associate the AV node specifically with timing/delay, as distinct from the SA node's role of initiating (exciting) the heartbeat.",
+   "distractorNotes": {
+    "A": "Exciting the atria is the SA node's job as the primary pacemaker, not the AV node's.",
+    "C": "Repolarisation after systole is a property of individual myocardial cell membranes (via potassium efflux), not a function performed by the AV node.",
+    "D": "Since B correctly describes a real AV-node function, 'none of the above' does not apply."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-right-ventricle-contains-all-the-following-structures-ex-71e6d172": {
+   "answer": "C",
+   "explanation": "Pectinate muscles (musculi pectinati) are a feature of the atria, not the ventricles -- they line the anterior wall and auricle of the right atrium (and left auricle), giving those chambers their ridged inner surface. The right ventricle's inner wall instead shows trabeculae carneae, papillary muscles with their chordae tendineae, and the moderator band (septomarginal trabecula) that carries part of the right bundle branch to the anterior papillary muscle. The takeaway is a simple sorting rule: pectinate muscles = atria; trabeculae carneae, papillary muscles, chordae tendineae, and the moderator band = ventricles.",
+   "distractorNotes": {
+    "A": "Papillary muscles are genuinely present in the right ventricle, anchoring the tricuspid valve cusps via chordae tendineae.",
+    "B": "Chordae tendineae are genuinely present in the right ventricle, connecting the tricuspid cusps to the papillary muscles.",
+    "D": "Trabeculae carneae are genuinely present, forming the irregular muscular ridges lining the right ventricular cavity.",
+    "E": "The moderator band is a genuine right-ventricular structure, a muscular bridge carrying the right bundle branch to the anterior papillary muscle."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "the-work-performed-by-left-ventricle-is-greater-than-that-pe-eec8e8ca": {
+   "answer": "D",
+   "explanation": "Cardiac work is proportional to the pressure the ventricle must generate (afterload) multiplied by the volume ejected, and the left ventricle's afterload -- systemic arterial pressure -- is roughly five to six times higher than the right ventricle's afterload, the low-resistance pulmonary arterial pressure. This higher afterload is the causal driver of greater left-ventricular work; the thicker LV wall is instead a downstream adaptation (hypertrophy in response to chronically doing more pressure-work), not the reason the work is greater in the first place. The physiological takeaway is to reason about cardiac work causally from pressure (afterload) and volume, rather than from wall thickness, which is a consequence rather than a cause.",
+   "distractorNotes": {
+    "A": "Wall thickness is a structural adaptation resulting from the left ventricle's greater workload over time, not the cause of that greater work.",
+    "B": "In series circulation, right and left ventricular stroke volumes are essentially equal at steady state, so stroke volume does not explain the work difference.",
+    "C": "Preload (end-diastolic volume/filling) is similar for both ventricles in a normal series circulation and is not the source of the work disparity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-is-the-important-function-of-cardiac-purkinje-system-3132c9a7": {
+   "answer": "B",
+   "explanation": "The Purkinje system's defining physiological feature is its very high conduction velocity, roughly ten to twenty times faster than ordinary ventricular myocardium, allowing it to deliver the electrical impulse throughout the ventricles almost simultaneously. This rapid, near-synchronous activation is what allows the two ventricles to contract together as a coordinated pump rather than as a slow, spreading wave that would waste time and reduce pumping efficiency. The exam takeaway is to associate Purkinje fibres specifically with speed of conduction, not with generating or amplifying contractile force, which is the myocardium's own job once it is activated.",
+   "distractorNotes": {
+    "A": "Slowing conduction is the opposite of the Purkinje system's role; that description instead fits the AV node.",
+    "C": "Purkinje fibres conduct the existing electrical impulse rapidly; they do not amplify its magnitude.",
+    "D": "The force of ventricular contraction is determined by the contractile myocardium and factors like preload and contractility, not by the Purkinje conduction system itself."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "what-s-the-correct-definition-of-cardiac-output-f23eae83": {
+   "answer": "B",
+   "explanation": "Cardiac output is formally defined as stroke volume multiplied by heart rate -- the amount of blood ejected by a ventricle in one systole (beat), multiplied by the number of beats per minute -- which is exactly what option B describes ('blood ejected from a ventricle in each systole times beats per [minute]'). This distinguishes cardiac output, a per-minute flow measurement, from stroke volume, which is only the per-beat volume ejected. The exam takeaway is to keep the SV x HR = CO relationship explicit, since distractors in this bank swap 'per systole' language for 'per minute' language to test whether the time unit was understood.",
+   "distractorNotes": {
+    "A": "Blood delivered through the venae cavae per minute describes venous return, which equals cardiac output only at haemodynamic steady state -- it is not the definition of cardiac output itself.",
+    "C": "This describes a single systole's total ventricular output, missing the essential 'per minute' (heart-rate) component of the true definition.",
+    "D": "This describes stroke volume of the left ventricle alone, a per-beat quantity, not cardiac output's per-minute quantity."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-has-the-slowest-rhythmicity-in-the-au-e06c2b37": {
+   "answer": "D",
+   "explanation": "Among the heart's automatic (autorhythmic) tissues, intrinsic firing rate decreases progressively down the conduction system: the SA node fires fastest (roughly 60-100/min), the AV node next (roughly 40-60/min), and the distal Purkinje/ventricular conduction tissue slowest (roughly 15-40/min), which is why the SA node normally dominates and suppresses the slower latent pacemakers. The Purkinje system's slow intrinsic rate is precisely why it only takes over as a last-resort 'ventricular escape' rhythm if both the SA and AV nodes fail. The takeaway hierarchy to memorise is SA node faster than AV node faster than Purkinje/ventricular tissue, in both conduction velocity and intrinsic rhythmicity.",
+   "distractorNotes": {
+    "A": "The SA node has the fastest intrinsic rhythmicity of the automatic tissues, which is why it is the normal pacemaker.",
+    "B": "The AV node's intrinsic rate is slower than the SA node's but faster than the distal Purkinje/ventricular tissue's.",
+    "C": "The bundle of His is functionally grouped with the Purkinje conduction pathway and shares its slow intrinsic rate range, but the ultimate slowest, most distal automaticity is conventionally attributed to the Purkinje fibres themselves."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "which-of-the-following-is-characteristic-about-the-conductin-c32dcb44": {
+   "answer": "D",
+   "explanation": "The Purkinje fibres, as the most distal part of the specialised conduction system, have the slowest intrinsic firing rate of the automatic tissues, conventionally cited as about 15-40 beats per minute, which matches option D exactly. This low intrinsic rate is why the Purkinje system never normally sets the heart rate -- it is overridden ('overdrive suppressed') by the faster SA node -- and only emerges as a slow ventricular escape rhythm if higher pacemakers fail. The takeaway is to keep the numeric intrinsic-rate hierarchy straight: SA node ~60-100/min, AV node ~40-60/min, Purkinje ~15-40/min.",
+   "distractorNotes": {
+    "A": "Interatrial conduction (right to left atrium) is carried mainly by Bachmann's bundle, a specific named pathway, a detail the option as extracted leaves incomplete rather than clearly true.",
+    "B": "40-60/min is the AV node's approximate intrinsic rate, not the SA node's; the SA node's intrinsic rate is faster, around 60-100/min.",
+    "C": "The SA node, not the AV node, is the heart's natural (dominant) pacemaker under normal conditions."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "a-healthy-45-year-old-man-is-reading-the-newspaper-which-of-39a53f44": {
+   "answer": "C",
+   "explanation": "Quiet, resting breathing is driven by the diaphragm and the external intercostal muscles, both of which are active inspiratory muscles: diaphragmatic contraction flattens the dome and increases vertical thoracic dimension, while external intercostal contraction elevates the ribs and increases the anteroposterior and transverse dimensions ('bucket-handle' and 'pump-handle' movements). Quiet expiration, by contrast, is a passive process driven by elastic recoil of the lungs and chest wall, requiring no active muscle contraction at all in a healthy person at rest. The takeaway is to reserve the internal intercostals, abdominal muscles, and sternocleidomastoid for forced/laboured breathing (active expiration and accessory inspiration respectively), not quiet resting breathing.",
+   "distractorNotes": {
+    "A": "Internal intercostals are expiratory (forced-expiration) muscles, not muscles used in quiet inspiration alongside the diaphragm.",
+    "B": "Internal intercostals and abdominal muscles are both forced-expiration muscles, not muscles active during quiet breathing at all.",
+    "D": "The sternocleidomastoid is an accessory inspiratory muscle recruited only during forced or laboured breathing, not during quiet breathing at rest."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "concerning-respiration-a-expiratory-muscles-act-during-norma-6bd951ba": {
+   "answer": "C",
+   "explanation": "Contraction of the external intercostal muscles elevates the ribs (the 'pump-handle' and 'bucket-handle' movements), which genuinely increases both the anteroposterior and transverse diameters of the thoracic cage during inspiration -- making this the one clearly correct statement among the options. Normal (quiet) expiration is passive, driven by elastic recoil, so expiratory muscles are not active during it, which is why the first statement is false; likewise the diaphragm is the principal but not the sole respiratory muscle (external intercostals contribute even at rest), making the second statement false too. The exam takeaway is to keep 'muscles active in quiet breathing' (diaphragm, external intercostals) separate from 'muscles active only in forced breathing' (internal intercostals, abdominals, scalenes, sternocleidomastoid).",
+   "distractorNotes": {
+    "A": "False: expiratory muscles (internal intercostals, abdominal wall muscles) are recruited only for forced/active expiration, not normal quiet expiration, which is passive.",
+    "B": "False: the diaphragm is the principal inspiratory muscle but not the only one -- the external intercostals also contribute during quiet breathing.",
+    "D": "As extracted this statement is incomplete (it does not say under what conditions the scalenes contract), but the scalene muscles are classically accessory inspiratory muscles recruited in forced, not quiet, breathing."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-arch-of-aorta-the-following-statements-are-correct-7928ecd9": {
+   "answer": "E",
+   "explanation": "The arch of the aorta begins at the level of the sternal angle, opposite the second RIGHT costal cartilage/sternocostal joint, not the left side as this option states -- making it the false statement the EXCEPT-question is looking for. All the other listed statements are standard, correct arch-of-aorta anatomy: it ends at the lower border of the fourth thoracic vertebra, the left superior intercostal vein crosses superficial to its left side, the ligamentum arteriosum (the closed remnant of the fetal ductus arteriosus) connects it to the left pulmonary artery, and the thoracic duct ascends posterior (deep) to it on its way up the posterior mediastinum. The exam takeaway is the specific right-versus-left detail examiners like to swap: the arch begins on the right (opposite the 2nd right sternocostal joint) but ends on the left (at T4, to the left of the trachea/oesophagus).",
+   "distractorNotes": {
+    "A": "True: the aortic arch ends at the lower border of the fourth thoracic vertebra (T4), roughly at the sternal angle level posteriorly.",
+    "B": "True: the left superior intercostal vein ('aortic nipple' on chest X-ray) crosses superficial to the aortic arch's left side.",
+    "C": "True: the ligamentum arteriosum, the fibrous remnant of the ductus arteriosus, connects the underside of the aortic arch to the left pulmonary artery.",
+    "D": "True: the thoracic duct ascends in the posterior mediastinum deep (posterior) to the arch of the aorta, along the left side of the oesophagus."
+   },
+   "fieldNote": "keyed editorially, no printed key"
+  },
+  "regarding-intercostal-spaces-choose-the-correct-statement-a-7ff13aa0": {
+   "answer": "A",
+   "explanation": "The internal intercostal muscle fibres run obliquely downward and backward (posteriorly), the mirror-image direction to the external intercostal fibres, which run downward and forward -- together the two layers form a crossing, X-shaped pattern typical of the body wall's oblique muscle layers. This fibre-direction distinction is a classic anatomy exam point because it also predicts function: external intercostals (downward-forward fibres) elevate the ribs for inspiration, while internal intercostals (downward-backward fibres) depress the ribs for forced expiration. The takeaway is to pair fibre direction with muscle layer: external = downward and forward = inspiratory; internal = downward and backward = expiratory.",
+   "distractorNotes": {
+    "B": "Each intercostal space typically receives two anterior intercostal arteries (an upper and a lower branch), not five -- five is far too high a number for this vessel.",
+    "C": "The posterior intercostal arteries for the first two spaces arise from the superior (supreme) intercostal artery, a branch of the costocervical trunk off the subclavian artery, not directly from the descending thoracic aorta (which supplies the third space downward)."
+   },
+   "fieldNote": "keyed editorially, no printed key"
   }
  },
  "excluded": {
@@ -145,6 +262,33 @@
   },
   "the-following-structure-is-present-in-the-cavity-of-the-righ-879bc218": {
    "reason": "The stem asks for a structure present in the right VENTRICLE, but all three surviving options (crista terminalis, musculi pectinati, fossa ovalis) are right ATRIAL structures, not right ventricular ones -- none of them can be correct for a right-ventricle question. This mismatch indicates either the option set was corrupted/misfiled from a right-atrium question, or the true correct option (e.g. the moderator band, a genuine right-ventricular structure) was lost in extraction; keying any of the three present options would be factually wrong regardless of which is chosen."
+  },
+  "the-largest-portion-of-the-sternocostal-surface-of-the-heart-adb08495": {
+   "reason": "Only four options survived (A, B, D, E; no C) and none of the four -- left atrium, right atrium, left ventricle, base of heart -- is the textbook correct answer, which is the right ventricle. The right ventricle almost certainly was the missing option C, so keying any of the surviving four would be factually wrong."
+  },
+  "the-left-coronary-artery-suppli-s-the-major-part-ofthe-inter-1025a972": {
+   "reason": "The stem is a corrupted merge of the tail of one question (about the left coronary artery and interventricular septum) with the start of an unrelated right-atrium question, and the options mix right-atrial anatomy (papillary muscles, chordae tendinae -- both of which are actually ventricular, not atrial, structures) with unrelated coronary-sinus detail. There is no single coherent question to key."
+  },
+  "the-right-atrium-contains-one-of-the-following-structures-3caca180": {
+   "reason": "Only three options survived (A papillary muscles, B chordae tendinae, D moderator band), and all three are actually ventricular structures, not atrial ones -- none can be the correct answer to 'which of the following is found in the right atrium'. The true right-atrial answer (most likely pectinate muscles, given the sibling EXCEPT-question in this same cluster) was almost certainly the missing option C."
+  },
+  "which-of-the-following-structures-opens-into-the-left-atrium-b7f79dc7": {
+   "reason": "None of the four surviving options (coronary sinus, superior vena cava, a surface landmark, the cardiac apex) is a structure that opens into the left atrium -- the actual answer, the pulmonary veins, does not appear among the extracted options at all, indicating either a missing correct option or a corrupted option set that cannot be keyed as extracted."
+  },
+  "yonduction-speed-is-slowest-in-the-a-sa-node-020f430f": {
+   "reason": "This is a near-duplicate of a sibling question already keyed to the AV node, but here OCR has merged options B and C into one garbled string ('atrial pathways } GAV node agro'), destroying the separate, clean 'AV node' option letter the sibling question confirms is correct. No surviving option letter in this corrupted row cleanly represents 'AV node', so no letter here can be honestly assigned as the key."
+  },
+  "lower-border-oblique-line-from-point-c-to-lt-57-intercostal-064bfa4c": {
+   "reason": "The 'stem' is not a coherent question at all but a corrupted fragment of surface-anatomy coordinate/table text (heart-border landmark descriptions with point labels 'c' and 'd'), most likely OCR bleed from a diagram legend or table row rather than an actual multiple-choice item."
+  },
+  "regarding-the-apex-of-the-heart-select-the-incorrect-stateme-56ba303e": {
+   "reason": "Only three options survived and all three (apex formed by the left ventricle; directed downward, forward, and left; lies in the left 5th intercostal space) are individually true statements of standard cardiac surface anatomy -- none is the false statement an EXCEPT/incorrect-statement question requires. The genuinely false statement was almost certainly in a missing fourth or fifth option that did not survive extraction."
+  },
+  "concerni-vacorring-the-branches-of-the-typical-intercostal-n-16fc12f6": {
+   "reason": "The stem itself is severely garbled ('Concerni | VaCorRing the branches of the typical intercostal nerve') and only two of what was likely four options survived (phrenic nerve, medial cutaneous nerve), with no legible question being asked (e.g. which is/is not a branch, or which is the collateral branch). Too little coherent text remains to key confidently."
+  },
+  "the-opening-of-the-inferior-vena-cava-is-guarded-on-its-righ-760729ed": {
+   "reason": "The stem states a right-ventricle-EXCEPT question's options (papillary muscles, chordae tendinae, moderator band-style content) have been merged onto an unrelated inferior-vena-cava/right-atrium stem, and options C and D are themselves truncated mid-sentence. This is the same class of cross-question corruption seen elsewhere in this cluster and cannot be resolved into one coherent question."
   }
  }
 }
