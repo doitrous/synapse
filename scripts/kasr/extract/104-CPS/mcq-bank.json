@@ -5,7 +5,7 @@
  "fromRows": 1538,
  "duplicateRowsCollapsed": 249,
  "answerConflicts": 0,
- "withAnswer": 788,
+ "withAnswer": 793,
  "withHandwrittenRecoveredAnswer": 46,
  "handwrittenAnswersNotHighConfidence": 0,
  "excludedNoOptionRows": {
@@ -3477,7 +3477,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option C's text ('Seventh') is an ambiguous, truncated fragment -- it is unclear whether this refers to a specific numbered intercostal nerve or something else -- and the actual physiological answer (pain from rib/chest-wall trauma is mediated by the intercostal nerves supplying the fractured segment) is not represented as a clean, complete option among phrenic, vagus, and this fragment."
   },
   {
    "key": "a-swab-from-the-buccal-mucosa-of-a-newly-born-infant-showed-ed97054a",
@@ -7108,7 +7110,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Both surviving options misstate which event happens to which structure at the sternal angle: the trachea bifurcates (ends) at this level rather than beginning (it begins at C6 in the neck), and it is the ascending aorta/arch transition that occurs here, not the descending aorta ending (which happens far lower, near L4). This looks like an OCR word-swap between 'begins' and 'ends' rather than an answerable pair of options."
   },
   {
    "key": "at-the-sternal-angle-one-is-wrong-909d35f4",
@@ -11177,8 +11181,8 @@
     "D": "Is lined by transitional epithelium in the lower one-third",
     "E": "Drains all of its blood into the azygos and hemiazygos veins"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -11193,7 +11197,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The oesophagus is lined throughout its length by non-keratinised stratified squamous epithelium, changing abruptly to simple columnar (gastric-type) epithelium only exactly at the oesophagogastric junction -- 'transitional epithelium' is an entirely different, unrelated tissue type (urothelium) found lining the urinary tract (renal pelvis, ureters, bladder, part of the urethra), never the oesophagus at any level. This makes the statement definitively false regardless of which third of the oesophagus is being described. The exam takeaway is to keep the two commonly confused epithelium types straight: stratified squamous protects the oesophagus (and skin, oral cavity, anal canal) from mechanical abrasion, while transitional epithelium is a distensibility-adapted lining unique to the urinary tract.",
+    "distractorNotes": {
+     "A": "The oesophagus's length is commonly cited as approximately 25 cm anatomically, though endoscopic/incisor-based measurements (used clinically) can approach 40 cm depending on the reference point -- this option's truth depends on which convention the source uses and is less definitively false than the epithelium claim.",
+     "B": "True: in the thorax, the oesophagus passes posterior to the left main bronchus after crossing behind the tracheal bifurcation.",
+     "C": "True (as far as the text survives): the oesophagus passes through the oesophageal opening of the diaphragm at the level of the tenth thoracic vertebra (T10).",
+     "E": "The thoracic oesophagus does drain mainly into the azygos and hemiazygos system, though strictly the abdominal segment also drains via the left gastric vein into the portal system -- a softer, more debatable overreach than option D's outright wrong epithelium type."
+    }
+   }
   },
   {
    "key": "concerning-the-olfactory-epithelium-9305cebb",
@@ -11277,7 +11291,9 @@
    ],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "All three surviving options are false under standard anatomy: the right and left phrenic nerves' thoracic relations are not identical (they differ substantially in their relations to the SVC/right atrium versus the aortic arch/left vagus), the phrenic nerve arises mainly from C4 with C3 and C5 contributions (not C6,7), and neither phrenic nerve gives off a recurrent laryngeal nerve (that is a vagus nerve branch). The correct statement was in a missing option that did not survive extraction."
   },
   {
    "key": "concerning-the-pleural-cavity-mark-the-incorrect-statement-37aaad9c",
@@ -11465,7 +11481,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option A is truncated mid-sentence ('curve around aortic arch medial to...'), cutting off the specific relation (to the ligamentum arteriosum) that this fact depends on, and option D is a bare, incomplete fragment ('Left bronchial artery. tents:'). Too little of the option set survives intact to identify the false statement with confidence."
   },
   {
    "key": "concerning-the-thymus-which-of-the-following-is-correct-1-84f21510",
@@ -14103,7 +14121,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a bare one-word fragment ('Esophagus.') with no question form at all, and the five options (thymus gland, thoracic duct, trachea, esophagus, azygos vein) read as an unlabelled list of mediastinal structures rather than answer choices to any stated question."
   },
   {
    "key": "esophagussvfemer-0-structure-located-inside-the-anterior-med-49aa11d3",
@@ -14941,7 +14961,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted, disjointed fragment ('gives of the recurrent laryngeal nerve in the neck... has no sensory component') and the options mix unrelated facts (posterior relation to the lung root, esophageal plexus formation, sympathetic fibre origin, spinal segment of origin) that do not cohere into one answerable question about a single stated property."
   },
   {
    "key": "greatest-total-cross-sectional-area-a-aorta-1242be79",
@@ -19081,7 +19103,9 @@
    "optionsBefore": [
     "A",
     "B"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "This 'stem' is a corrupted merge of at least three distinct items -- a nerve-supply fact, an oesophageal-hiatus vertebral-level question, and a full clinical vignette about carina widening and lymph node enlargement -- with options that mix termination of the left common carotid artery, oesophagus, the left recurrent laryngeal nerve, and right-main-bronchus facts. No single coherent question can be recovered."
   },
   {
    "key": "is-terminal-portion-of-arteriole-that-drain-into-capill-ary-2a292f09",
@@ -19194,7 +19218,9 @@
    "optionsBefore": [
     "B",
     "D"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem and options are a corrupted merge of at least two separate bronchi/oesophagus questions bleeding into one another (bronchial anatomy facts interleaved with an oesophagus length question), making it impossible to isolate one coherent question and answer set."
   },
   {
    "key": "it-is-correct-to-say-8f7e9d38",
@@ -19291,7 +19317,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of an arch-of-aorta relations statement with a separate oesophagus 'select the wrong answer' question, and the surviving options mix statements about the oesophagus's own properties with statements about other structures' relations to it inconsistently -- too corrupted to isolate a single false statement confidently."
   },
   {
    "key": "it-is-crossed-by-the-left-bronchus-along-its-whole-course-th-3ff223e8",
@@ -19370,7 +19398,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem is a corrupted merge of a diaphragm-opening question with an unrelated 'structure anterior to the thoracic trachea' question and a tracheal-deviation description, and the options mix unrelated facts (left brachiocephalic vein, left common carotid artery termination, oesophagus, left recurrent laryngeal nerve). No single coherent question survives."
   },
   {
    "key": "it-the-noradrenergic-nerves-to-the-heart-are-stimulated-afte-65f9cb1e",
@@ -19640,8 +19670,8 @@
     "C": "Alveolar sac",
     "D": "Trachea"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_df6b7a7de75411dbb92b",
@@ -19656,7 +19686,16 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "In the trachea and extrapulmonary bronchi, smooth muscle is confined to the posterior wall as the trachealis muscle, bridging the open ends of the C-shaped cartilage rings -- a comparatively rudimentary, incomplete arrangement compared with what develops further down the airway tree. As the airways branch into intrapulmonary bronchi and then bronchioles, cartilage support progressively disappears and the smooth muscle instead forms a well-developed, continuous spiral (helical) layer encircling the full airway wall, which is what allows bronchioles to actively regulate their calibre (bronchoconstriction/dilation). The histology takeaway is to associate the trachea with minimal, posteriorly-restricted smooth muscle and to associate bronchioles with the airway's most developed circumferential smooth muscle layer.",
+    "distractorNotes": {
+     "A": "Intrapulmonary bronchi already show a more developed, more completely circumferential spiral smooth muscle arrangement than the trachea, as cartilage support becomes discontinuous plates rather than complete rings.",
+     "B": "Bronchioles have the most developed, complete spiral smooth muscle layer in the airway tree, the opposite extreme from 'less developed'.",
+     "C": "Alveolar sacs and ducts have only minimal smooth muscle (small muscular 'knobs' at alveolar mouths) rather than an organised spiral arrangement at all, so 'less developed spiral muscle' does not describe them either."
+    }
+   }
   },
   {
    "key": "list-the-tributaries-and-fields-of-lymph-drainage-of-the-tho-fbd38c36",
@@ -22582,7 +22621,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely false statement -- about the left vagus nerve's relation to the left phrenic nerve while crossing the aortic arch -- is embedded in the stem itself without a surviving option letter, while the three lettered options that do survive (branches to the bronchi, pulmonary plexuses, and laryngeal muscles) are all individually true of the vagus. There is no letter to assign this answer to."
   },
   {
    "key": "only-in-arteries-forming-fenestrated-like-layer-1a5838b5",
@@ -22621,8 +22662,8 @@
     "E": "band c only",
     "C": "Each lung receives non-oxygenated blood through a pulmonary artery"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "B",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -22637,7 +22678,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The deep cardiac plexus lies posterior to the arch of the aorta and anterior to the tracheal bifurcation, in the tissue plane directly opposite where the trachea splits into the two main bronchi. This is a distinct location from the superficial cardiac plexus, which instead sits in the concavity of the aortic arch itself, one level higher and more anteriorly. The exam takeaway is to pair each cardiac plexus with its specific landmark: superficial cardiac plexus with the concavity of the aortic arch, deep cardiac plexus with the tracheal bifurcation.",
+    "distractorNotes": {
+     "A": "The superficial cardiac plexus is located in the concavity of the aortic arch, a different (higher, more anterior) landmark than the tracheal bifurcation.",
+     "C": "Pulmonary artery blood oxygenation status is an unrelated physiological fact that has been mixed into this option set and does not answer a question about anatomical location.",
+     "D": "Since only the deep cardiac plexus (not the superficial) lies opposite the tracheal bifurcation, 'a and b only' incorrectly includes the superficial plexus.",
+     "E": "Combining the deep cardiac plexus with the unrelated pulmonary-artery-oxygenation statement does not make a coherent correct answer, since the second half of this pairing is irrelevant to the location question being asked."
+    }
+   }
   },
   {
    "key": "origin-of-dust-cell-heart-failure-cell-f46a5e1f",
@@ -25250,7 +25301,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Tubes of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option C is truncated ('...lie between the base and the'), and option D's vertebral range ('middle eight thoracic vertebrae') is an unusual, likely OCR-garbled figure -- either could plausibly be the false statement this EXCEPT-question needs, and there is no reliable way to distinguish between them without the source text."
   },
   {
    "key": "regarding-the-blood-supply-of-the-lungs-mark-one-correct-sta-475d3a78",
@@ -27381,7 +27434,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "Option B is truncated ('The lower five ganglia give postganglionic branches to the esophageal...'), hiding the specific numeric or anatomical detail (most likely a wrong ganglion count) that would make it the false statement this EXCEPT-question is looking for; the other three statements as extracted are each individually true of the thoracic sympathetic trunk."
   },
   {
    "key": "regarding-the-thoracic-skeleton-the-following-statements-are-62092e50",
@@ -27440,7 +27495,9 @@
    "optionsBefore": [
     "B",
     "C"
-   ]
+   ],
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The likely correct statement -- that the trachea begins at the lower border of the cricoid cartilage, vertebral level C6, a standard and confident anatomical fact -- is embedded in the stem itself as unlettered text, and no 'A' option survives in the extracted option set to assign it to. The surviving lettered options (B-E) mix a false statistic (16-20 cartilage rings misstated as 5-10) with unrelated bronchi-question fragments bled in from elsewhere on the source page."
   },
   {
    "key": "regarding-the-trachea-choose-the-correct-statement-a-it-cont-b24ef722",
@@ -29308,8 +29365,8 @@
     "D": "All the above",
     "E": "None of the above"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "D",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_c30d947377670cb99a40",
@@ -29324,7 +29381,17 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Arteries of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The concavity of the aortic arch, in the space between the arch and the pulmonary trunk/bifurcation, is a classically crowded anatomical region containing the ligamentum arteriosum (the closed fetal ductus arteriosus, connecting the arch to the left pulmonary artery), the superficial cardiac plexus (which sits directly in this concavity), and the left recurrent laryngeal nerve (which hooks around the arch immediately lateral to the ligamentum arteriosum before ascending in the tracheo-oesophageal groove). Because all three structures occupy this same small triangular space, exam questions frequently list them together as a single 'crowded region' fact rather than testing them individually. The takeaway is to memorise this space as a named hazard zone in thoracic surgery, since the recurrent laryngeal nerve here is vulnerable during procedures on the ligamentum arteriosum (e.g. PDA ligation).",
+    "distractorNotes": {
+     "A": "True on its own, but incomplete: the ligamentum arteriosum is only one of several structures in this space, not the sole occupant.",
+     "B": "True on its own, but incomplete for the same reason: the superficial cardiac plexus shares this space with other named structures.",
+     "C": "True on its own, but incomplete: the left recurrent laryngeal nerve is a third structure sharing the space, not the only one.",
+     "E": "Incorrect since multiple real structures do occupy this space, so 'none of the above' cannot be right."
+    }
+   }
   },
   {
    "key": "subcostal-arteries-regarding-the-beginning-of-arch-of-aorta-7d074006",
@@ -33472,7 +33539,9 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Arteries of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "editorialExcluded": true,
+   "editorialExcludeReason": "The stem asks about the spinal segmental origin of the lesser splanchnic nerve, but the surviving lettered options (thoracic duct length, thoracic duct crossing the left subclavian artery in the root of the neck, thoracic duct emerging from the cisterna chyli) all describe the thoracic duct, an entirely different structure -- these options have been cross-contaminated from a separate thoracic-duct question and do not answer the stem asked."
   },
   {
    "key": "the-lingual-tonsils-are-not-commonly-inflamed-because-84653f3a",
@@ -34367,8 +34436,8 @@
     "C": "Inferior thoracic cardiac branch of right vagus",
     "D": "Superior cervical cardiac branch of right vagus"
    },
-   "answer": null,
-   "answerConfidence": "none",
+   "answer": "A",
+   "answerConfidence": "editorial-no-printed-key",
    "occurrences": [
     {
      "sourceId": "src_f1905b4b83def7d5642b",
@@ -34383,7 +34452,15 @@
    "variants": [],
    "subject": "Anatomy",
    "chapter": "Large Nerves of the Thorax",
-   "leaf": null
+   "leaf": null,
+   "fieldNotes": "keyed editorially, no printed key",
+   "editorialExplanation": {
+    "explanation": "The superficial cardiac plexus, lying in the concavity of the aortic arch, receives its parasympathetic contribution specifically from the superior cervical cardiac branch of the LEFT vagus nerve, paired with a sympathetic contribution from the inferior cervical cardiac branch of the left sympathetic trunk. This left-sided sourcing is a deliberate anatomical asymmetry: the deep cardiac plexus, by contrast, receives contributions from the corresponding right-sided branches plus the remaining left-sided cardiac branches, making the superficial/deep split partly a left/right split as well. The exam takeaway is to fix 'superficial cardiac plexus = left vagus's superior cervical cardiac branch' as the specific fact this question tests, since swapping left for right or superior for inferior are the classic distractor traps.",
+    "distractorNotes": {
+     "C": "The inferior thoracic cardiac branch (of either vagus) contributes to the deep, not the superficial, cardiac plexus.",
+     "D": "The superficial cardiac plexus's parasympathetic root comes from the LEFT vagus, not the right; the right vagus's cardiac branches instead contribute to the deep cardiac plexus."
+    }
+   }
   },
   {
    "key": "the-part-of-airway-which-is-located-at-the-transition-betwee-4e2dc249",
@@ -45878,6 +45955,6 @@
   "note": "Re-read from cached page text. No page was re-rendered and no OCR was re-run."
  },
  "withExternalSolvedBookRecoveredAnswer": 383,
- "withEditorialAnswer": 31,
- "editorialExcludedCount": 29
+ "withEditorialAnswer": 36,
+ "editorialExcludedCount": 44
 }
