@@ -1091,6 +1091,23 @@ export function QuestionBank() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questions, reviewConcepts, reviewSubject])
 
+  /**
+   * A single question opened by id — e.g. from a Question Notes card. `?q=<id>`
+   * begins a one-question tutor sitting on exactly that question, so a note
+   * links back to the thing it was written about.
+   */
+  const singleQuestion = params.get('q')
+  const openedSingle = useRef(false)
+  useEffect(() => {
+    if (openedSingle.current || !singleQuestion || !questions.length) return
+    const question = questions.find((entry) => entry.id === singleQuestion)
+    if (!question) return
+    openedSingle.current = true
+    requestSession([question])
+    // requestSession is redefined every render; the ref above makes this run once.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [questions, singleQuestion])
+
   // Every live test has an elapsed clock. Timed mode interprets it against the
   // sitting allowance; Tutor mode presents the same value as a calm count-up.
   useEffect(() => {

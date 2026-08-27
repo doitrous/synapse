@@ -83,7 +83,7 @@ function NoteCard({ question, note, stats }: {
       <div className="border-t border-line pt-3">
         {question ? (
           <Link
-            to="/app/qbank"
+            to={`/app/qbank?q=${encodeURIComponent(question.id)}`}
             className="group block rounded-lg border border-line bg-surface-2/40 px-3 py-2.5 transition-colors hover:border-primary-line hover:bg-primary-tint/20"
           >
             <p className="line-clamp-2 text-[12.5px] font-medium leading-snug text-ink group-hover:text-primary-strong">
