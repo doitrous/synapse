@@ -589,7 +589,7 @@ generic order above already matches this):
 | 5 | `article/102-INT-physiology-blood-ans.md` | Bulk import → article | 11 | On |
 | 6 | `concept/102-INT-concepts.md` | Concepts › Import | 57 | On |
 | 7 | `concept/102-INT-physiology-concepts.md` | Concepts › Import | 25 new + 32 updates | **Must be On** — 32 rows share an id with a concept created in step 6 or already live |
-| 8 | `concept/102-INT-mcq-concepts.md` | Concepts › Import | 98 new + 40 updates | **Must be On**, same reason |
+| 8 | `concept/102-INT-mcq-concepts.md` | Concepts › Import | 98 new + 41 updates | **Must be On**, same reason |
 | 9 | `evidence/102-INT-claims.md` | Bulk import evidence · Claim | 38 | On |
 | 10 | `evidence/102-INT-generated-claims.md` | Bulk import evidence · Claim | 100 | On |
 | 11 | `evidence/102-INT-citations.md` | Bulk import evidence · Citation | 38 | On |
@@ -598,13 +598,20 @@ generic order above already matches this):
 | 14 | `evidence/102-INT-generated-spans.md` | Bulk import evidence · Span | 77 | On |
 | 15 | `relations/102-INT-relations.md` | Relationships › Import | 150 | On — typed (9 real types), ~130 carry `verification_status: verified`, the rest `needs_evidence` (a claim named, no citation on the relation record itself yet) |
 | 16 | `question/102-INT-MCQ-bank.md` | Bulk import → question | 22 | On |
-| 17 | `question/102-INT-mcq.md` | Bulk import → question | 421 | On |
+| 17 | `question/102-INT-mcq.md` | Bulk import → question | 442 | On |
 | 18–21 | `question/102-INT-{EOY-2025,EOY-2024,EOY-2022,BAQOON-2022}-written.md` | Bulk import → question (format: written, same page) | 19+15+19+18 = 71 | On |
 
-Totals: 69 resources, 41 articles, 180 new concepts + 72 updates, 138 claims,
-113 citations, 114 spans, 150 relations, 514 questions (443 MCQ + 71
+Totals: 69 resources, 41 articles, 180 new concepts + 73 updates, 138 claims,
+113 citations, 114 spans, 150 relations, 535 questions (464 MCQ + 71
 written) — every count above read directly off this session's own
-`medical:simulate` `batches[].created`/`updated`, not hand-added.
+`medical:simulate` `batches[].created`/`updated`, not hand-added. Updated
+2026-08-27 (author-102-mcq-p1): `question/102-INT-mcq.md` gained 21 MCQs
+(421 → 442) and `concept/102-INT-mcq-concepts.md` gained 1 update row (a
+reused existing concept, `cellulose-dietary-importance`, declared in an
+MCQ leaf for the first time; 40 → 41 updates), both re-verified against
+`medical:batch --with` and the chained `medical:simulate` below — see
+`PROGRESS-102-mcq.md` for the authoring detail and the 17 unlinked
+duplicates this pass found and did not re-author.
 
 **Gate status, re-run 2026-08-27 against this staged copy plus the rest of
 `docs/import-ready/`:** `medical:simulate` chained one kind at a time,
@@ -656,14 +663,31 @@ copy. `biochemistry.md` and `coverage.md`'s 22 articles already carried the
 correct values.
 
 **What remains genuinely open** (none of it blocks the 21 files above from
-being applied): **504 of 1,102 banked MCQ rows are unauthored** (614 tagged
-`102 INT`, 526 printed-key-and-not-suspect, only 22 authored by hand into
-`102-INT-MCQ-bank.md` before the 421-row generated batch was cut short) —
-authoring one is not transcription, each option needs an explanation naming
-the misconception it catches, so this is a multi-session programme, not a
-chunk this pass could close (well over the ~1,500-line ceiling; split plan:
-roughly 3–4 authoring passes of 120–150 questions each, one per source
-department book, is the natural cut). **9 sittings read but not seeded**
+being applied): the **504 of 1,102 banked MCQ rows are unauthored** figure
+this section used to carry was stale even before this pass — it predated
+the two commits that triaged nearly the whole biochemistry book plus the
+Blood/ANS physiology books into `scripts/kasr/seeds/mcq/102-INT/*.ts` (30
+leaf files). `author-102-mcq-p1` (2026-08-27) recomputed the real gap
+directly from `scripts/kasr/extract/102-INT/mcq-bank.json` against every
+`key:` already referenced (authored or excluded) anywhere in that seed
+directory, respecting `duplicateOf`: only 43 distinct, usable, printed-key
+rows had never been touched (39 outside the Intro-chapter block below). Of
+those 39: **21 were genuinely new and are now authored** (`421 → 442` in
+`question/102-INT-mcq.md`); **17 turned out to be unlinked duplicates** of a
+question already authored under a different source book — same printed
+content, OCR noise different enough per book that the extractor's
+cross-book dedup never set `duplicateOf` (the same failure class
+`platelets-and-haemostasis.ts`'s own `MCQ-102-2093c80b-p17-q66` exclude-
+reason already documents once, at much larger scale here) — and **1 has no
+matching existing concept** (a snake-venom/lecithinase row; 102's concept
+space is closed at 164/164 two-sided, so it was logged rather than forced
+onto an unrelated concept). None were force-authored; full pairing list and
+reasoning in `PROGRESS-102-mcq.md`. **The MCQ bank is now exhausted for
+this triage mechanism** — 0 genuinely new, usable, printed-key rows remain
+outside the Intro-chapter block, so there is no further "chunk 2" of this
+kind to split off; the next 102 MCQ work is either the Intro chapter
+(pending the faculty ruling below) or fresh sitting reads (next paragraph).
+**9 sittings read but not seeded**
 (EOM 2024/2023/2021, 3 Baqoon second-sittings, EOY 2021 physiology, EOY
 2022 physiology re-check, 2 "GATHERED" compilations) — reading the 2024
 paper on top of 2025 alone took the module from 21 to 38 concepts and

@@ -2,28 +2,28 @@
   Multiple-choice questions for 102 INT, from the departmental question books.
 
     Abnormalities of haemostasis — 2 questions, 2 concepts
-    Amino Acids of Biological Importance — 27 questions, 8 concepts
+    Amino Acids of Biological Importance — 31 questions, 8 concepts
     Anaemia — 3 questions, 3 concepts
     Anticoagulants — 1 questions, 1 concepts
     Autonomic ganglia — 6 questions, 2 concepts
     Blood groups and blood transfusion — 1 questions, 0 concepts
-    Carbohydrates of Biological Importance — 68 questions, 10 concepts
-    Cell Cycle, Apoptosis, and Tumor Suppressor Genes — 12 questions, 6 concepts
+    Carbohydrates of Biological Importance — 70 questions, 11 concepts
+    Cell Cycle, Apoptosis, and Tumor Suppressor Genes — 15 questions, 6 concepts
     Chemical transmission at autonomic junctions and autonomic receptors — 17 questions, 6 concepts
     Chemistry of Free Nucleotides — 12 questions, 3 concepts
     Chemistry of Hemoproteins — 20 questions, 7 concepts
-    Chemistry of Nucleic Acids — 17 questions, 6 concepts
-    DNA Synthesis (Replication) and Repair — 22 questions, 9 concepts
-    Enzymes — 21 questions, 9 concepts
+    Chemistry of Nucleic Acids — 20 questions, 6 concepts
+    DNA Synthesis (Replication) and Repair — 24 questions, 9 concepts
+    Enzymes — 25 questions, 10 concepts
     Erythropoiesis — 10 questions, 5 concepts
     Iron — 10 questions, 3 concepts
-    Lipids of Biological Importance — 37 questions, 15 concepts
+    Lipids of Biological Importance — 39 questions, 15 concepts
     Organisation of autonomic nervous system — 2 questions, 2 concepts
     Parasympathetic nervous system — 16 questions, 4 concepts
     Physiological limitations of blood coagulation — 2 questions, 2 concepts
     Plasma proteins — 9 questions, 1 concepts
     Platelets and haemostasis — 22 questions, 8 concepts
-    Protein Synthesis (Translation) — 26 questions, 11 concepts
+    Protein Synthesis (Translation) — 27 questions, 11 concepts
     Proteins of Biological Importance — 38 questions, 7 concepts
     Proteins of Extracellular Matrix — 15 questions, 4 concepts
     RBCs and haemoglobin — 3 questions, 1 concepts
@@ -2528,6 +2528,374 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p29 q30. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-4852BC238A04
+## title
+Glycine is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Glycine is:
+## answer_a
+Neutral aliphatic amino acid
+## explanation_a
+Correct. Glycine's side chain is a single hydrogen atom, with no ionisable amino or carboxyl group — the concept names it as the smallest neutral aliphatic amino acid for exactly that reason.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
+## answer_b
+Basic aliphatic amino acid
+## explanation_b
+Basic aliphatic amino acids (lysine, arginine) carry an extra amino group in the side chain; glycine's side chain has no such group, which is what makes it neutral rather than basic.
+## answer_c
+Acidic aliphatic amino acid
+## explanation_c
+Acidic aliphatic amino acids (aspartate, glutamate) carry an extra carboxyl group in the side chain; glycine has none, so it cannot be acidic.
+## answer_d
+Acidic aromatic amino acid
+## explanation_d
+Aromatic amino acids (phenylalanine, tyrosine, tryptophan) carry a ring in the side chain; glycine's side chain is only a hydrogen atom, so it is neither acidic nor aromatic.
+## correct_answer
+a
+## main_concept
+CON-FND-D0EDFFF1477094
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify glycine as a neutral aliphatic amino acid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p25 q6. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-BBDA4DF718BE
+## title
+Which of the following is formed when 2 cysteine are conjugated by disulfide bond?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is formed when 2 cysteine are conjugated by disulfide bond?
+## answer_a
+Homo cysteine
+## explanation_a
+Homocysteine is a different, one-carbon-longer sulfur amino acid produced from methionine metabolism, not the disulfide dimer of cysteine.
+## answer_b
+Acetyl cysteine
+## explanation_b
+Acetylcysteine (N-acetylcysteine) is a chemically acetylated derivative of cysteine, not the product of two cysteines joining by a disulfide bond.
+## answer_c
+Cystine
+## explanation_c
+Correct. Two cysteine molecules linked through their thiol (-SH) groups by an oxidative disulfide bond form cystine, the disulfide-linked dimer the concept names.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
+## answer_d
+Homo cystine
+## explanation_d
+Homocystine is the disulfide dimer of homocysteine, not of cysteine — it shares the "two joined by a disulfide bond" pattern with cystine without sharing cysteine as the starting amino acid.
+## correct_answer
+c
+## main_concept
+CON-FND-D0EDFFF1477094
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name cystine as the disulfide-linked dimer of two cysteine molecules.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p26 q13. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-A0D712F1732B
+## title
+The only half-essential amino acid is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The only half-essential amino acid is:
+## answer_a
+Alanine
+## explanation_a
+Alanine is a pure glucogenic, fully non-essential amino acid — the body synthesises it without dietary need, with no half-essential status.
+## answer_b
+Arginine
+## explanation_b
+Correct. Arginine is half-essential: the body can synthesise it, but not always in amounts sufficient for the high demands of growth, so diet must supplement it at those times.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
+## answer_c
+Asparagine
+## explanation_c
+Asparagine — the amide of aspartate — is non-essential, with no history of being classed as semi-essential.
+## answer_d
+Aspartate
+## explanation_d
+Aspartate is an acidic amino acid, and the concept is explicit that no acidic amino acid is essential, half-essential included.
+## correct_answer
+b
+## main_concept
+CON-FND-D0EDFFF1477094
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name arginine as the concept's one half-essential amino acid.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p28 q22. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-53596199DE77
+## title
+Which of the following is a non-essential amino acid?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following is a non-essential amino acid?
+## answer_a
+Lysine
+## explanation_a
+Lysine is one of the nine essential amino acids the concept lists — the body cannot make it at all, so it must come from the diet.
+## answer_b
+Leucine
+## explanation_b
+Leucine is likewise one of the nine essential amino acids (and one of only two purely ketogenic ones), not a non-essential amino acid.
+## answer_c
+Arginine
+## explanation_c
+Arginine is half-essential, not fully non-essential — the body makes some but not always enough, a different status from tyrosine's.
+## answer_d
+Tyrosine
+## explanation_d
+Correct. Tyrosine is non-essential: the body synthesises it from the essential amino acid phenylalanine, so as long as dietary phenylalanine is adequate, tyrosine itself need not be supplied directly.
+
+Why this is right, from the department book:
+- Nutritionally the amino acids fall into three groups: nine essential ones — valine, leucine, isoleucine, threonine, methionine, lysine, phenylalanine, tryptophan and histidine — which are not formed in the body and must come from the diet; arginine, the only half-essential one; and all the remaining amino acids, which the body forms for itself. (department book p.9)
+## correct_answer
+d
+## main_concept
+CON-FND-D0EDFFF1477094
+## library_ids
+ART-102-BIO-AMINO-ACIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Amino Acids Of Biological Importance
+## subtopic
+Amino Acids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Amino Acids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify tyrosine as non-essential because it is made from phenylalanine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p28 q24. Manifest src_07f0a0ff41addf826c7f.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
@@ -9347,6 +9715,190 @@ Extraction confidence high; the answer came from a separate answer key, joined b
 
 # Item
 ## id
+QM-102-088A9136124B
+## title
+The polysaccharide which is used to prevent constipation:
+## subject
+gi
+## status
+Draft
+## format
+single_best_answer
+## question
+The polysaccharide which is used to prevent constipation:
+## answer_a
+Heparin
+## explanation_a
+Heparin is a sulfate-containing GAG with an anticoagulant role — it is not eaten as dietary fibre and has no bulk-forming digestive function.
+## answer_b
+Glycogen
+## explanation_b
+Glycogen is the animal storage polysaccharide, built of α1,4/α1,6-linked glucose that amylase digests completely — it is absorbed as fuel, not left undigested as bulk.
+## answer_c
+Cellulose
+## explanation_c
+Correct. Cellulose's glucose units are joined by β1,4-glucosidic bonds, which human amylase cannot hydrolyse, so it passes through the gut undigested, increases the bulk of food and stimulates intestinal contractions that prevent constipation.
+
+Why this is right, from the department book:
+- The glucose units of cellulose are joined by β1,4-glucosidic linkages and amylase hydrolyses only α-linkages, so dietary cellulose passes through the gut undigested; it increases the bulk of food, which stimulates intestinal contractions and prevents constipation, and it delays fat absorption. (department book p.24)
+## answer_d
+Inulin 10 moe
+## explanation_d
+Inulin is a plant fructan storage polysaccharide, not the book's named source of dietary bulk against constipation.
+## correct_answer
+c
+## main_concept
+CON-GIT-9589A7077392FD
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Carbohydrates Of Biological Importance
+## subtopic
+Carbohydrates of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name cellulose as the polysaccharide that prevents constipation by adding indigestible dietary bulk.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p13 q60. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-A8D0375F1761
+## title
+The conjugation of GAGs with a protein core produces:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The conjugation of GAGs with a protein core produces:
+## answer_a
+Glycon
+## explanation_a
+"Glycon" is the carbohydrate portion of a glycoside (sugar joined to a non-sugar aglycon) — an unrelated pairing, not what forms when a GAG joins a protein core.
+## answer_b
+Aglycon
+## explanation_b
+"Aglycon" is the non-sugar partner in a glycoside, the opposite half of that same unrelated pairing — again, not the GAG-plus-protein-core product.
+## answer_c
+Proteoglycans
+## explanation_c
+Correct. The book states that GAGs are mostly covalently conjugated to a protein core to form proteoglycans, roughly 95% carbohydrate and 5% protein by mass.
+
+Why this is right, from the department book:
+- Heteropolysaccharides are polysaccharides formed of more than one type of monosaccharide unit; they include the glycosaminoglycans (GAGs), formerly called mucopolysaccharides.
+## answer_d
+Amino sugar
+## explanation_d
+An amino sugar is one of the two monosaccharide building blocks of a GAG's own repeating disaccharide unit, not the product of conjugating a GAG to protein.
+## correct_answer
+c
+## main_concept
+CON-FND-E84660F1CEC3AE
+## library_ids
+ART-102-BIO-CARBOHYDRATES-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Carbohydrates Of Biological Importance
+## subtopic
+Carbohydrates of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Carbohydrates of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Definition
+## learning_objective
+Name proteoglycans as the product of a GAG covalently conjugated to a protein core.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p15 q70. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
 QM-102-7692DFF16C3B
 ## title
 DNA replication occurs in ......... of cell cycle
@@ -10441,6 +10993,282 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p79 q15. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-ED80E813F529
+## title
+Cyclin B forms complex with:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Cyclin B forms complex with:
+## answer_a
+CDK1
+## explanation_a
+Correct. CDK1 complexes with cyclin A or cyclin B to drive the transition from G2 into M phase — cyclin B is the book's named partner for the G2/M step specifically.
+
+Why this is right, from the department book:
+- The cell cycle is initiated by binding of a growth factor to a growth factor receptor on the plasma membrane of the cell.
+## answer_b
+CDK2
+## explanation_b
+CDK2 pairs with cyclin E or cyclin A to drive initiation of DNA synthesis in early S phase, not with cyclin B at G2/M.
+## answer_c
+CDK4
+## explanation_c
+CDK4 pairs with cyclin D to drive progression past the G1/S restriction point, an earlier step than cyclin B's.
+## answer_d
+CDK6
+## explanation_d
+CDK6 likewise pairs with cyclin D at the G1/S restriction point, not with cyclin B at the G2/M transition.
+## correct_answer
+a
+## main_concept
+CON-FND-FF40DB9ED068F9
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name CDK1 as cyclin B's partner kinase, driving the G2-to-M transition.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p77 q6. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-2C3C8DABBD15
+## title
+Extrinsic pathway of apoptosis is initiated by:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Extrinsic pathway of apoptosis is initiated by:
+## answer_a
+Caspase 9
+## explanation_a
+Caspase 9 acts downstream, inside the pathway, once it has already been triggered — it is not what starts the extrinsic pathway.
+## answer_b
+Caspase 8
+## explanation_b
+Caspase 8 is likewise a downstream effector activated after receptor engagement, not the initiating event itself.
+## answer_c
+Binding of a ligand to TNF or FAS receptors
+## explanation_c
+Correct. The extrinsic pathway begins when a ligand binds the tumour necrosis factor (TNF) or FAS receptor, which then activates the caspase cascade.
+
+Why this is right, from the department book:
+- There are two main pathways for apoptosis.
+## answer_d
+Cytochrome c
+## explanation_d
+Cytochrome c release from mitochondria is what starts the intrinsic (mitochondrial) pathway, the extrinsic pathway's counterpart, not the extrinsic pathway itself.
+## correct_answer
+c
+## main_concept
+CON-FND-70E5BD77E8FE49
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Mechanism
+## learning_objective
+State that the extrinsic apoptotic pathway is initiated by ligand binding to the TNF or FAS receptors.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q10. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-E906041C5FBF
+## title
+One of these is pro-apoptotic gene:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+One of these is pro-apoptotic gene:
+## answer_a
+Bax
+## explanation_a
+Correct. Bax is one of the pro-apoptotic members of the Bcl-2 family (alongside Bak and Bok), controlling cytochrome c release from mitochondria.
+
+Why this is right, from the department book:
+- The cell cycle is controlled by a group of regulatory proteins, the cyclins and the cyclin-dependent kinases: a cyclin complexes with and activates a particular CDK, and that complex produces the regulatory effects the cell needs in order to pass from one phase into the next. (department book p.108)
+## answer_b
+BCL-2
+## explanation_b
+BCL-2 is the anti-apoptotic member the family is named after — the opposite role to what this question asks for.
+## answer_c
+Bel-x
+## explanation_c
+Bcl-x is likewise an anti-apoptotic family member, not a pro-apoptotic one.
+## answer_d
+MYC — Cell Cycle and Apoptosis CS
+## explanation_d
+MYC is a proliferation-driving proto-oncogene, not one of the Bcl-2 family's named pro- or anti-apoptotic members.
+## correct_answer
+a
+## main_concept
+CON-FND-1F66060A9C2625
+## library_ids
+ART-102-BIO-CELL-CYCLE-APOPTOSIS-AND-TUMOR-SUPPRESSOR-GENES
+## topic
+Cell Cycle, Apoptosis, And Tumor Suppressor Genes
+## subtopic
+Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Cell Cycle, Apoptosis, and Tumor Suppressor Genes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Classification
+## learning_objective
+Identify Bax as a pro-apoptotic member of the Bcl-2 family.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p78 q14. Manifest src_07f0a0ff41addf826c7f.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
@@ -15515,6 +16343,282 @@ Extraction confidence low; the answer came from a separate answer key, joined by
 
 # Item
 ## id
+QM-102-3B0D814BCCF2
+## title
+DNA rich in G-C pairs have:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+DNA rich in G-C pairs have:
+## answer_a
+1lHydrogen bond
+## explanation_a
+1 hydrogen bond is too few for either base pair the book describes; even the weaker A-T pair has two.
+## answer_b
+2Hydrogen bonds
+## explanation_b
+2 hydrogen bonds is the count for adenine-thymine, the other base pair — not guanine-cytosine, which this question asks about.
+## answer_c
+3Hydrogen bonds
+## explanation_c
+Correct. The book states guanine pairs with cytosine through three hydrogen bonds, one more than the two of adenine-thymine — which is also why G-C-rich DNA is more thermally stable.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
+## answer_d
+4Hydrogen bonds
+## explanation_d
+4 hydrogen bonds is not a count the book gives for either base pair; neither G-C (three) nor A-T (two) reaches four.
+## correct_answer
+c
+## main_concept
+CON-FND-5BAF472E54A764
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State the number of hydrogen bonds (three) between guanine and cytosine.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p53 q4. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-6286DE009577
+## title
+DNA strands run in relation to each other
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+DNA strands run in relation to each other
+## answer_a
+Antiparallel
+## explanation_a
+Correct. Watson and Crick's double helix has its two strands running antiparallel — one 5' to 3', the other 3' to 5' in the same physical direction — while they pair to each other and coil around a common axis.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
+## answer_b
+Parallel
+## explanation_b
+Parallel strands, running in the same 5'-to-3' direction as each other, is not the arrangement the book describes for the double helix.
+## answer_c
+Perpendicular
+## explanation_c
+Perpendicular describes strands crossing at a right angle, not the side-by-side, oppositely-oriented pairing of the double helix.
+## answer_d
+Horizontal
+## explanation_d
+"Horizontal" is not an orientation relationship between two strands at all, and does not describe the antiparallel arrangement the book states.
+## correct_answer
+a
+## main_concept
+CON-FND-5BAF472E54A764
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+State that the two strands of the DNA double helix run antiparallel to each other.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p55 q15. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-013FEFBB7790
+## title
+A Piece of double stranded DNA has 30% A, what will be the % of G?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+A Piece of double stranded DNA has 30% A, what will be the % of G?
+## answer_a
+%30
+## explanation_a
+30% would only be correct if G equalled A directly, which is not what complementary pairing gives here — it conflates G with A rather than deriving it from the C+G remainder.
+## answer_b
+%40
+## explanation_b
+40% overshoots what is left once A and its complementary partner T are accounted for — A (30%) plus T (30%) already takes 60% of the total, leaving only 40% split between G and C together, not to G alone.
+## answer_c
+%20
+## explanation_c
+Correct. Because A pairs only with T and G only with C, %A = %T = 30% each, using 60% of the double strand; the remaining 40% is shared equally between G and C, so %G = 20%.
+
+Why this is right, from the department book:
+- In the Watson and Crick double helix, which is the most common physiological form of DNA, the two strands run antiparallel, are paired to each other and coil around a common axis to form a right-handed helix. They are held together by complementary base pairing through specific hydrogen bonds: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three. (department book p.74)
+## answer_d
+%70
+## explanation_d
+70% would mean G alone took up more than the entire A+T-free remainder (40%) — arithmetically impossible once A and T's 60% share is subtracted from 100%.
+## correct_answer
+c
+## main_concept
+CON-FND-5BAF472E54A764
+## library_ids
+ART-102-BIO-CHEMISTRY-OF-NUCLEIC-ACIDS
+## topic
+Nucleic Acids
+## subtopic
+Chemistry of Nucleic Acids
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Chemistry of Nucleic Acids
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Structure and function
+## learning_objective
+Apply complementary base pairing (A pairs only with T, G only with C) to calculate a missing base percentage.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p55 q16. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
 QM-102-C987C907B5E2
 ## title
 Which of the following is a feature of DNA replication?
@@ -17263,6 +18367,190 @@ Extraction confidence high; the answer came from a separate answer key, joined b
 
 # Item
 ## id
+QM-102-050C705F8572
+## title
+In eukaryotes, which of the following DNA polymerases is required for mitochondrial DNA…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+In eukaryotes, which of the following DNA polymerases is required for mitochondrial DNA replication?
+## answer_a
+DNA polymerase oa.
+## explanation_a
+DNA polymerase α, as the α–primase complex, lays down RNA primers and their short initial DNA stretch on nuclear chromosomes — it has no role in mitochondrial DNA replication.
+## answer_b
+DNA polymerase B
+## explanation_b
+DNA polymerase β fills gaps during nuclear DNA repair, not mitochondrial DNA synthesis.
+## answer_c
+DNA polymerase 6
+## explanation_c
+DNA polymerase δ synthesises the lagging strand of nuclear DNA discontinuously as Okazaki fragments — again a nuclear, not mitochondrial, job.
+## answer_d
+DNA polymerase y
+## explanation_d
+Correct. DNA polymerase γ is the one eukaryotic polymerase dedicated to synthesising mitochondrial DNA.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
+## correct_answer
+d
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name DNA polymerase γ as the enzyme that replicates mitochondrial DNA.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q15. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-0C1F2E1F18C7
+## title
+The DNA polymerase involved in synthesis of the leading strand in eukaryotes is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The DNA polymerase involved in synthesis of the leading strand in eukaryotes is:
+## answer_a
+DNA polymerase o
+## explanation_a
+DNA polymerase α lays down the RNA primers and the short DNA attached to them — priming, not continuous leading-strand synthesis.
+## answer_b
+DNA polymerase B
+## explanation_b
+DNA polymerase β is the nuclear DNA repair enzyme, unrelated to leading-strand replication.
+## answer_c
+DNA polymerase 6
+## explanation_c
+DNA polymerase δ synthesises the lagging strand discontinuously from many primers as Okazaki fragments — the opposite strand and the opposite pattern from what this question asks about.
+## answer_d
+DNA polymerase ¢
+## explanation_d
+Correct. DNA polymerase ε synthesises the leading strand continuously from a single primer — the pitfall the concept itself flags is confusing it with δ, which does the lagging strand instead.
+
+Why this is right, from the department book:
+- Eukaryotic DNA synthesis is shared between five polymerases: the α–primase complex makes the RNA primers and the short DNA attached to them, β fills the gap in DNA repair, γ synthesises mitochondrial DNA, δ synthesises the lagging strand and ε synthesises the leading strand. (department book p.85)
+## correct_answer
+d
+## main_concept
+CON-FND-A73C06E0EC3C1D
+## library_ids
+ART-102-BIO-DNA-SYNTHESIS-REPLICATION-AND-REPAIR
+## topic
+Dna Synthesis (Replication) & Repair
+## subtopic
+DNA Synthesis (Replication) and Repair
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > DNA Synthesis (Replication) and Repair
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name DNA polymerase ε as the enzyme that synthesises the leading strand in eukaryotes.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p59 q16. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
 QM-102-E97F6E67550A
 ## title
 Enzymes can recognize and react with a special chemical substance called:
@@ -19001,6 +20289,374 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p48 q25. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-38AB1C45270C
+## title
+The pH level where the enzyme is most active is known as
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+The pH level where the enzyme is most active is known as
+## answer_a
+Standard
+## explanation_a
+"Standard" is not a term the book uses for a pH value at all — it names an optimum, not a standard, pH.
+## answer_b
+Equilibrium
+## explanation_b
+Equilibrium describes a reaction's balance point between forward and reverse rates, which pH does not set or define — a different concept from the pH of peak enzyme activity.
+## answer_c
+Optimum
+## explanation_c
+Correct. The pH at which an enzyme is most active is its optimum pH, one of the five factors — alongside substrate, enzyme and cofactor concentration, and temperature — that set reaction velocity.
+
+Why this is right, from the department book:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH. (department book p.57)
+## answer_d
+Neutral
+## explanation_d
+"Neutral" (pH 7) is not what the book means by optimum — most enzymes' optimum sits somewhere between pH 5 and 9, and pepsin's, for instance, is strongly acidic, nowhere near neutral.
+## correct_answer
+c
+## main_concept
+CON-FND-F29934C070A94C
+## library_ids
+ART-102-BIO-ENZYMES
+## topic
+Enzymes
+## subtopic
+Enzymes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Definition
+## learning_objective
+Name the pH of maximal enzyme activity as the optimum pH.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p46 q11. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-0A7C22355BF6
+## title
+Concerning effect of pH on the catalytic activity of the enzymes:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Concerning effect of pH on the catalytic activity of the enzymes:
+## answer_a
+Activity increases as we go away from the optimum pH
+## explanation_a
+Backwards. Activity falls, not rises, as pH moves away from the optimum in either direction — that is exactly what makes it an optimum.
+## answer_b
+Changes of pH alter the charges on the substrate and the active site
+## explanation_b
+Correct. Shifting pH changes the ionisation state of chargeable groups on both the substrate and the active site's amino acid residues, altering the electrostatic fit between them and so the catalytic rate.
+
+Why this is right, from the department book:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH. (department book p.57)
+## answer_c
+Extreme changes of pH don’t affect the catalytic activity
+## explanation_c
+Backwards. Extreme pH changes can denature the enzyme protein outright, abolishing catalytic activity altogether — the opposite of having no effect.
+## answer_d
+Pepsin is maximally active at alkaline pH (above 7)
+## explanation_d
+Reversed: pepsin is a stomach enzyme maximally active at strongly acidic pH (around pH 1.5-2), not at alkaline pH above 7.
+## correct_answer
+b
+## main_concept
+CON-FND-F29934C070A94C
+## library_ids
+ART-102-BIO-ENZYMES
+## topic
+Enzymes
+## subtopic
+Enzymes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Explain that pH affects enzyme activity by altering the ionisation (charge) of the substrate and the enzyme's active-site residues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p46 q12. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-A6A46C486AFB
+## title
+If the amount of substrate is not limiting, the velocity of reaction is directly propor…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+If the amount of substrate is not limiting, the velocity of reaction is directly proportional to:
+## answer_a
+Concentration of enzymes
+## explanation_a
+Correct. With substrate in excess, velocity rises in direct proportion to enzyme concentration — every extra enzyme molecule adds its own share of catalysis, since there is always substrate available for it to act on.
+
+Why this is right, from the department book:
+- Five factors set the velocity of an enzyme-catalysed reaction: the concentration of substrate, the concentration of enzyme, the concentration of any cofactor the enzyme requires, the temperature, and the pH. (department book p.57)
+## answer_b
+Temperature
+## explanation_b
+Temperature is a separate factor with its own optimum, not the variable this question's "substrate not limiting" condition is isolating.
+## answer_c
+Concentration of products
+## explanation_c
+Product concentration does not drive forward velocity upward — if anything, accumulating product can slow a reaction, the opposite of the proportional relationship asked about here.
+## answer_d
+Ph
+## explanation_d
+pH is a separate factor from enzyme concentration, and unlike enzyme concentration it does not scale velocity linearly — it has its own single optimum value rather than a proportional relationship.
+## correct_answer
+a
+## main_concept
+CON-FND-F29934C070A94C
+## library_ids
+ART-102-BIO-ENZYMES
+## topic
+Enzymes
+## subtopic
+Enzymes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+State that reaction velocity is directly proportional to enzyme concentration as long as substrate is not limiting.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p47 q16. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-64B1DAAB6782
+## title
+Non-steroidal anti-inflammatory drugs, such as aspirin act by inhibiting the activity o…
+## subject
+haem
+## status
+Draft
+## format
+single_best_answer
+## question
+Non-steroidal anti-inflammatory drugs, such as aspirin act by inhibiting the activity of the enzyme:
+## answer_a
+Lipoxygenase
+## explanation_a
+Lipoxygenase makes the acyclic eicosanoids (leukotrienes) from arachidonic acid — a different enzyme, on a different branch of the pathway, that aspirin does not target.
+## answer_b
+Cyclooxygenase
+## explanation_b
+Correct. Aspirin is a cyclooxygenase inhibitor: blocking cyclooxygenase cuts production of both thromboxane A2 (platelets) and prostacyclin (endothelium) from arachidonic acid.
+
+Why this is right, from the department book:
+- Aspirin inhibits cyclooxygenase, reducing both thromboxane A2 and prostacyclin production.
+## answer_c
+Phospholipase A2
+## explanation_c
+Phospholipase A2 acts one step upstream, releasing arachidonic acid from membrane phospholipids in the first place — aspirin does not act at this step.
+## answer_d
+Lipoprotein lipase
+## explanation_d
+Lipoprotein lipase hydrolyses triacylglycerol in circulating lipoproteins, an entirely different pathway with no role in eicosanoid synthesis or aspirin's mechanism.
+## correct_answer
+b
+## main_concept
+CON-HEM-603D2DB3DED602
+## library_ids
+ART-102-BIO-ENZYMES
+## topic
+Enzymes
+## subtopic
+Enzymes
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Enzymes
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Mechanism
+## learning_objective
+Name cyclooxygenase as the enzyme aspirin and other NSAIDs inhibit.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p48 q26. Manifest src_07f0a0ff41addf826c7f.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
@@ -23896,6 +25552,190 @@ yes
 Claude
 ## source_citation
 Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p22 q40. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-92DB95E4AEF7
+## title
+Which of the following fatty acids is a precursor for eicosanoids?
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Which of the following fatty acids is a precursor for eicosanoids?
+## answer_a
+Stearic acid
+## explanation_a
+Stearic acid is a saturated fatty acid with no double bonds — eicosanoid synthesis needs a polyunsaturated precursor, which stearic acid is not.
+## answer_b
+Palmitic acid
+## explanation_b
+Palmitic acid is likewise saturated, with no double bonds to supply the eicosanoid pathway's downstream chemistry.
+## answer_c
+Arachidonic acid
+## explanation_c
+Correct. Phospholipase A2 liberates arachidonic acid from membrane phospholipids, and it is arachidonic acid that prostaglandin H synthase and lipoxygenase convert into the various eicosanoids.
+
+Why this is right, from the department book:
+- Phospholipase A2 liberates arachidonic acid from membrane phospholipids. Prostaglandin H synthase, which carries both cyclooxygenase and peroxidase activity, then converts it into the cyclic eicosanoids — the prostaglandins, prostacyclins and thromboxanes — while lipoxygenase converts it into the acyclic ones, the leukotrienes and lipoxins. (department book p.38)
+## answer_d
+Lignoceric acid
+## explanation_d
+Lignoceric acid is a very-long-chain saturated fatty acid, not the eicosanoid pathway's substrate.
+## correct_answer
+c
+## main_concept
+CON-FND-588CA87354B099
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Easy
+## question_type
+Structure and function
+## learning_objective
+Name arachidonic acid as the fatty-acid precursor of the eicosanoids.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Low
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q10. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-A5869A8281B1
+## title
+An example of acyclic eicosanoids is:
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+An example of acyclic eicosanoids is:
+## answer_a
+Prostaglandins
+## explanation_a
+Prostaglandins are cyclic eicosanoids, made from arachidonic acid by prostaglandin H synthase's cyclooxygenase activity — the opposite branch from the acyclic products.
+## answer_b
+Thromboxane
+## explanation_b
+Thromboxane is likewise a cyclic eicosanoid product of prostaglandin H synthase, not an acyclic one.
+## answer_c
+Leukotrienes
+## explanation_c
+Correct. Lipoxygenase converts arachidonic acid into the acyclic eicosanoids — the leukotrienes and lipoxins — as opposed to the cyclic products prostaglandin H synthase makes.
+
+Why this is right, from the department book:
+- Phospholipase A2 liberates arachidonic acid from membrane phospholipids. Prostaglandin H synthase, which carries both cyclooxygenase and peroxidase activity, then converts it into the cyclic eicosanoids — the prostaglandins, prostacyclins and thromboxanes — while lipoxygenase converts it into the acyclic ones, the leukotrienes and lipoxins. (department book p.38)
+## answer_d
+Prostacyclins
+## explanation_d
+Prostacyclins are also cyclic eicosanoid products of prostaglandin H synthase, made in the vascular endothelium — not an acyclic product.
+## correct_answer
+c
+## main_concept
+CON-FND-588CA87354B099
+## library_ids
+ART-102-BIO-LIPIDS-OF-BIOLOGICAL-IMPORTANCE
+## topic
+Lipids Of Biological Importance
+## subtopic
+Lipids of Biological Importance
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Lipids of Biological Importance
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Identify leukotrienes as the acyclic eicosanoids, made by lipoxygenase.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p18 q13. Manifest src_07f0a0ff41addf826c7f.
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence high; the answer came from a separate answer key, joined by question number.
@@ -30534,6 +32374,98 @@ Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bi
 ## author_notes
 Asked 1 time across the question books.
 Extraction confidence low; the answer came from a separate answer key, joined by question number.
+
+
+
+---
+
+# Item
+## id
+QM-102-D8C5164B8A1E
+## title
+Prolyl and lysyl residues should be modified in collagen for its proper activity by whi…
+## subject
+fnd
+## status
+Draft
+## format
+single_best_answer
+## question
+Prolyl and lysyl residues should be modified in collagen for its proper activity by which post-translational modification?
+## answer_a
+Phosphorylation
+## explanation_a
+Phosphorylation modifies serine, threonine or tyrosine residues to regulate enzymes like those of glycogen metabolism — a different residue set and a different purpose from collagen's prolyl/lysyl stabilisation.
+## answer_b
+Glycosylation
+## explanation_b
+Glycosylation marks proteins destined for secretion, lysosomes or membranes by adding a carbohydrate group — not the modification collagen's proline and lysine residues undergo for stability.
+## answer_c
+Hydroxylation
+## explanation_c
+Correct. Hydroxylation of prolyl and lysyl residues is what stabilises collagen, one of the book's named worked examples of covalent post-translational modification.
+
+Why this is right, from the department book:
+- After translation, amino acid residues within the peptide chain are modified enzymatically by the addition of functional groups — phosphorylation, glycosylation, acetylation or methylation, hydroxylation and carboxylation — in order to alter the protein's activity or stability, to direct it to a subcellular compartment, or to prepare it for secretion from the cell. (department book p.99)
+## answer_d
+Carboxylation
+## explanation_d
+Carboxylation forms γ-carboxyglutamate, the book's example being clotting-factor calcium binding — a different residue (glutamate) and a different function from collagen's proline/lysine hydroxylation.
+## correct_answer
+c
+## main_concept
+CON-FND-344140D2457FBB
+## library_ids
+ART-102-BIO-PROTEIN-SYNTHESIS-TRANSLATION
+## topic
+Protein Synthesis (Translation)
+## subtopic
+Protein Synthesis (Translation)
+## module
+102 INT
+## module_subject
+102 INT > Biochemistry > Protein Synthesis (Translation)
+## universities
+kau
+## years
+Year 1
+## question_only_for
+KAU_Y1
+## difficulty
+Moderate
+## question_type
+Classification
+## learning_objective
+Name hydroxylation as the post-translational modification that stabilises collagen's prolyl and lysyl residues.
+## setting
+Academic
+## academic_relevance
+0.9
+## clinical_relevance
+0.3
+## exam_relevance
+4.5
+## exam_weight_by_year
+KAU_Y1=0.45
+## concept_ids
+[clear]
+## contextual_concept_ids
+[clear]
+## cognitive_effort
+Medium
+## reasoning_level
+1
+## estimated_seconds
+60
+## randomise_answers
+yes
+## owner
+Claude
+## source_citation
+Kasr Al Ainy departmental question books, module 102 INT. DPT BOOK MCQ D book bio 102&103 mcq (1).pdf p71 q22. Manifest src_07f0a0ff41addf826c7f.
+## author_notes
+Asked 1 time across the question books.
+Extraction confidence high; the answer came from a separate answer key, joined by question number.
 
 
 

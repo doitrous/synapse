@@ -109,7 +109,22 @@ the full bank rather than trusted at face value:
 
 ## Gates
 
-(to be run and pasted below before commit)
+`node --experimental-strip-types scripts/kasr/build-batches.ts "102 INT"`:
+`442 MCQ questions (50 excluded, 1 unanswered) -> docs/Kasr-Source-Imports/question/102-INT-mcq.md`,
+`139 MCQ concepts -> docs/Kasr-Source-Imports/concept/102-INT-mcq-concepts.md`. Written batches
+byte-unchanged (diff touched only the two MCQ-route files).
+
+`medical:batch` on `question/102-INT-mcq.md` (`--with` every 102 concept/article/evidence
+file): `items: 442`, `errors: 10` — the same 10 pre-existing `library_ids`-names-only-one-
+of-two-teaching-articles rows INDEX.md's Gate status paragraph already documents (none of
+the 21 new rows), 0 new. `medical:batch` on `concept/102-INT-mcq-concepts.md` (`--with`
+articles/evidence/concepts/physiology-concepts): `items: 139, errors: []`.
+
+`medical:simulate` chained 10 steps (resources → articles → concepts ×3 → claims →
+citations → spans → relations → question ×2 → written ×4): `"errors": []`, `"skipped": []`
+across the whole call; per-batch line for the two touched files —
+`concept/102-INT-mcq-concepts.md concept 98 41 None` (98 created + 41 updated, was 40),
+`question/102-INT-mcq.md question 442 0 0` (442 created, 0 rejected, was 421).
 
 ## Next-pass pointer
 
