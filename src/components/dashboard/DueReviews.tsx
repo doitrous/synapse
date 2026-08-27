@@ -77,6 +77,23 @@ function ReviewRow({ item, index, onNavigate }: { item: DisplayItem; index: numb
 }
 
 /**
+ * How many concepts are waiting in the review queue, and where "start review"
+ * on them goes — the number the dashboard's footer quick-link quotes, kept
+ * here so it reads from the exact same query this panel itself uses.
+ */
+export function useDueReviewSummary(): { count: number; startHref: string } {
+  const { ledger } = useMastery()
+  return useMemo(() => {
+    const items = dueReviewItems(ledger)
+    const batch = items.slice(0, REVIEW_BATCH).map((item) => item.conceptId).join(',')
+    return {
+      count: items.length,
+      startHref: batch ? `/app/qbank?concepts=${encodeURIComponent(batch)}` : '/app/qbank',
+    }
+  }, [ledger])
+}
+
+/**
  * The concepts this student should revisit today.
  *
  * Every row is a concept their own answers put here — the interval comes from
